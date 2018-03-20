@@ -68,14 +68,14 @@ each rule to specific class of action, most distinctive of which are:
 
 - Rename or merge rules. Match name, and set another name. Main purpose
   is to merge differently named packages into the same project. Such as
-  `etracer`, `extremetuxracer`, `extreme-tuxracer` -> `extreme-tuxracer`.
+  `etracer`, `extremetuxracer`, `extreme-tuxracer` → `extreme-tuxracer`.
 - Split rules. Match name and some additional property (version, homepage
   or repository) and set another name. Used to split similarly named
-  packages of different projects. Such as `clementine` -> `clementine-wm`,
+  packages of different projects. Such as `clementine` → `clementine-wm`,
   `clementine-player`.
 - Version fixes. Match name but do not change it, instead change versions
   or set some version-related flags. Used to fix incorrect versioning scheme
-  (`v1.0` -> `1.0`), mark some versions as devel (such as beta versions),
+  (`v1.0` → `1.0`), mark some versions as devel (such as beta versions),
   or ignore some versions (e.g. snapshots like `20130523` while there's
   official version like `1.0`).
 
@@ -151,10 +151,10 @@ You may specify a list of rulesets to match either of them.
 
 #### noruleset
 
-Disable rule matching for specific rulesets.
+Disable rule matching for specified ruleset(s).
 
 ```
-# apply to all debian derivatives, but not Deepin
+# applies to all debian derivatives, but not Deepin
 - { ruleset: debuntu, noruleset: deepin, ... }
 ```
 
@@ -240,12 +240,14 @@ Compares version to a given one and matches if it's:
 
 Be careful when using this with regard to prerelease versions:
 `1.0beta1` is lesser than `1.0`, so it won't match `verge: 1.0`.
-You may use *verpat* instead.
+You may use **verpat** instead.
 
 #### wwwpat
 
 Matches package homepage against a regular expression. Note that
-unlike namepat and verpat, partial match is allowed here.
+unlike namepat and verpat, partial match is allowed here. Also
+note that it's preferred to escape dots with double slash, as `.`
+mean "any character" in regular expressions.
 
 ```
 - { name: firefox, verpat: "mozilla\\.org", ... }
@@ -267,9 +269,9 @@ escaping.
 
 Effectively rename the package. You may use `$0` placeholder to
 substitude original name or `$1`, `$2` etc. to subsitude contents
-of corresponding captures of regular expression used in *namepat*.
-Note that you don't need to use neither *name* nor *namepat* for
-`$0` to work, but you must have *namepat* with corresponding
+of corresponding captures of regular expression used in **namepat**.
+Note that you don't need to use neither **name** nor **namepat** for
+`$0` to work, but you must have **namepat** with corresponding
 captures to use `$1` and so on.
 
 ```
@@ -286,7 +288,7 @@ captures to use `$1` and so on.
 
 #### setver
 
-Changes the version of the package. As with *setname*, you may
+Changes the version of the package. As with **setname**, you may
 use `$0`, `$1` placeholders.
 
 ```
