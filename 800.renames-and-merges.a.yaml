@@ -89,7 +89,7 @@
 - { setname: arduino,                  namepat: "arduino[0-9._-]+" }
 - { setname: arena-tracker,            name: arenatracker }
 - { setname: argon2,                   name: libargon2 }
-- { setname: argus,                    name: argus-sasl, family: freebsd }
+- { setname: argus,                    name: [argus-client,argus-clients,argus-clients-sasl,argus-sasl], addflavor: true }
 - { setname: argyllcms,                name: [argyll,argyll-cms] }
 - { setname: armagetronad,             name: "armagetron advanced" }
 - { setname: armagetronad,             name: armagetron }

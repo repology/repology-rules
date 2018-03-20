@@ -16,6 +16,9 @@
 - { name: arb, verpat: "6.*", setname: arb-dna }
 - { name: arb, warning: "please classify me" }
 
+# both argus projects refer to monitoring, but argus-monitor name is alreay used in macports
+- { name: argus, wwwpart: tcp4me.com, setname: argus-monitor }
+
 # mail client vs. asynchronous synthesis system
 - { name: balsa, category: sci-electronics,               setname: balsa-synthesis }
 
