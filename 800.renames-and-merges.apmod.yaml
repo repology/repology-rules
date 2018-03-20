@@ -11,11 +11,13 @@
 - { setname: "apmod:perl",             name: mod_perl }
 - { setname: "apmod:php",              name: mod_php }
 - { setname: "apmod:php",              namepat: "apmod:php[0-9]*" }
+- { setname: "apmod:python",           name: "apmod:python2-legacy", addflavor: python2 }
 - { setname: "apmod:python",           name: mod_python }
 - { setname: "apmod:python",           namepat: "apmod:python[0-9]*" }
 - { setname: "apmod:rpaf",             name: "apmod:rpaf2" }
 - { setname: "apmod:ruby",             namepat: "apmod:ruby[0-9]+" }
 - { setname: "apmod:security",         name: "apmod:security2" }
 - { setname: "apmod:survey",           name: mod_survey }
+- { setname: "apmod:wsgi",             name: "apmod:wsgi-python3", addflavor: python3 }
 - { setname: "apmod:wsgi",             name: mod_wsgi }
 - { setname: "apmod:wsgi",             namepat: "apmod:wsgi[0-9]+" }
