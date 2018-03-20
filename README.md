@@ -14,7 +14,7 @@ a quick pointer of how to add specific rules:
 
 ### You want to **merge** differently named packages into a single entry?
 
-- Choose target name (prefer least ambiguos and/or most widely used name)
+- Choose target name (prefer least ambiguous and/or most widely used name)
 - Open `800.renames-and-merges.<...>.yaml` corresponding to the letter
   you target name starts with
 - Add rule like `- { setname: <new name>, name: <old name> }`
@@ -30,10 +30,10 @@ a quick pointer of how to add specific rules:
 
 - Open `850.split-ambiguities.yaml`
 - Add a set of rules which distinct packages, such as:
-  - `- { name: <ambigous name>, wwwpart: <part of the homepage url>, setname: <specific name> }` to use homepage URL
-  - `- { name: <ambigous name>, verpat: <version pattern>, setname: <specific name> }` to use version
-  - `- { name: <ambigous name>, category: <category>, setname: <specific name> }` to use version
-  - `- { name: <ambigous name>, ruleset: <families>, setname: <specific name> }` as a least resory, to use source repository
+  - `- { name: <ambiguous name>, wwwpart: <part of the homepage url>, setname: <specific name> }` to use homepage URL
+  - `- { name: <ambiguous name>, verpat: <version pattern>, setname: <specific name> }` to use version
+  - `- { name: <ambiguous name>, category: <category>, setname: <specific name> }` to use version
+  - `- { name: <ambiguous name>, ruleset: <families>, setname: <specific name> }` as a least resort, to use source repository
 
 ## Rule basics
 
@@ -98,7 +98,7 @@ the ruleset.
   with modules for other languages and other software.
 
   There are three subsets here:
-  - **pure** rules which are known to not have any false positices
+  - **pure** rules which are known to not have any false positives
   (e.g. packages from `CPAN` are always perl modules).
   - **exceptions** for the wildcard rules
   - **wildcard** rules themselves
@@ -127,14 +127,14 @@ introduced.
 ## Rule syntax
 
 As already mentioned, keywords which rules consist are related to either
-matching packages or modifying them. Here's datailed description for all
+matching packages or modifying them. Here's detailed description for all
 of them.
 
 ### Conditions
 
 #### ruleset
 
-Each repository Repology supports has a set of *rulesets* assotiated with
+Each repository Repology supports has a set of *rulesets* associated with
 it. For instance, all Debian-based distros have ruleset `debuntu`. It may
 be used to only match packages in specific repositories, but without need
 to chase specific repository version. You may look up repositories and
@@ -154,7 +154,7 @@ You may specify a list of rulesets to match either of them.
 Disable rule matching for specified ruleset(s).
 
 ```
-# applies to all debian derivatives, but not Deepin
+# applies to all Debian derivatives, but not Deepin
 - { ruleset: debuntu, noruleset: deepin, ... }
 ```
 
@@ -215,9 +215,9 @@ mean "any symbol" in regular expressions.
 
 #### verlonger
 
-Matches versions longer than a gived number of dot-separated parts.
+Matches versions longer than a given number of dot-separated parts.
 
-Mostly useful to match broken version schemas with extra versions
+Mostly useful to match broken version schemes with extra versions
 components added.
 
 ```
@@ -238,7 +238,7 @@ Compares version to a given one and matches if it's:
 - { name: git, verge: "2.16", ...}
 ```
 
-Be careful when using this with regard to prerelease versions:
+Be careful when using this with regard to pre-release versions:
 `1.0beta1` is lesser than `1.0`, so it won't match `verge: 1.0`.
 You may use **verpat** instead.
 
@@ -256,7 +256,7 @@ mean "any character" in regular expressions.
 #### wwwpart
 
 Matches when a package homepage contains given substring. This
-is usually more practial than **wwwpat**, and you don't need
+is usually more practical than **wwwpat**, and you don't need
 escaping.
 
 ```
@@ -268,7 +268,7 @@ escaping.
 #### setname
 
 Effectively rename the package. You may use `$0` placeholder to
-substitude original name or `$1`, `$2` etc. to subsitude contents
+substitute original name or `$1`, `$2` etc. to subsided contents
 of corresponding captures of regular expression used in **namepat**.
 Note that you don't need to use neither **name** nor **namepat** for
 `$0` to work, but you must have **namepat** with corresponding
@@ -281,7 +281,7 @@ captures to use `$1` and so on.
 # aspell-dict-en→aspell-ru, aspell-dict-ru→aspell-ru etc.
 - { namepat: "aspell-dict-(.*)", setname: "aspell-$1" }
 
-# all packages in dev-perl gentoo category are prepended `perl:`
+# all packages in dev-perl Gentoo category are prepended `perl:`
 # Locale-Msgfmt→perl:Locale-Msgfmt
 - { ruleset: gentoo, category: dev-perl, setname: "perl:$0" }
 ```
@@ -326,7 +326,7 @@ ignore flavors:
 
 - `rolling` - package is fetched from always latest snapshot or VCS
   master/trunk. Its version has no meaning (like Gentoo's `9999`),
-  it may contain repository specific formay of commit hash, revision or
+  it may contain repository specific format of commit hash, revision or
   date.
 - `noscheme` - there's no official versioning scheme. Repositories may
   use random versions or dates, there's no point comparing them.
@@ -334,7 +334,7 @@ ignore flavors:
   released yet)
 - `untrusted` - used for repositories which are known for providing
   incorrect versions, to ignore them proactively. It's common pattern
-  to create a pair of `incorrect` rule matching specfic version and
+  to create a pair of `incorrect` rule matching specific version and
   `untrusted` rule for the following versions in a given repository.
 - `ignored` - general ignore
 - `successor` - currently alias for `devel` used to convey additional
@@ -382,7 +382,7 @@ is compared as greatest. `false` to undo.
 #### legacy
 
 Set to `true` to force the package to be legacy instead of outdated.
-`false` to undo. Useful when a specific repository purposedly contains
+`false` to undo. Useful when a specific repository purposely contains
 an outdated version of specific project for compatibility purposes.
 
 ```
@@ -402,7 +402,7 @@ Output a given warning when matched. Useful to catch places which
 - { name: gtk, warning: "Neither of gtk1,2,3,4 - need a new rule or some weirdness is going on" }
 
 # will trigger a warning if new project called "tesseract" appears
-# ...or website chages, or just a package without website defined appears,
+# ...or website changes, or just a package without website defined appears,
 # so it'll require another condition
 - { name: tesseract, setname: tesseract-game, wwwpart: tesseract.gg }
 - { name: tesseract, setname: tesseract-ocr, wwwpart: tesseract-ocr }
@@ -411,7 +411,7 @@ Output a given warning when matched. Useful to catch places which
 
 #### addflavor
 
-Flavors are used to distinct set of packages donoting a multiple
+Flavors are used to distinct set of packages denoting a multiple
 version of a project and a set of packages denoting a multiple parts
 or variants of a project. Consider an example:
 
