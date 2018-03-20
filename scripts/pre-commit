@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#
+# git hook to check rule consistency before commit
+#
+# Usage:
+#   cp scripts/pre-commit .git/hooks
+#
+
+make check
