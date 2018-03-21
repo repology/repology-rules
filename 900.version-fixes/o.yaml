@@ -1,0 +1,34 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { name: octave,                      verpat: ".*pre[0-9]{5}",                            ignore: true }
+- { name: octomap,                     verpat: "[0-9a-f]{40}",                             ignore: true } # commit
+- { name: ogre,                        verpat: "2.*",                                      ignore: true }
+- { name: ollydbg,                     verpat: "[0-9]{3}",                                 ignore: true } # aosc garbage
+- { name: onioncat,                    verpat: "0\\.2\\.2.*",                              ignore: true }  # \  force correct
+- { name: onioncat,                    verpat: "0\\.2\\.2\\.r[0-9]+.*",                    ignore: false } # / version schema
+- { name: open-vm-tools,               ver: [ "1280544", "2011.12.20" ],                   ignore: true }
+- { name: openal-creative,             ver: "20060211",                                    ignore: true } # freebsd (should probably be 0.0.8)
+- { name: opencity,                    ver: "0.0.6.5stable",                               ignore: true } # 0.0.6.5; "stable" is not a part of the version
+- { name: opencl,                                                                          noscheme: true } # GH/KhronosGroup/OpenCL-Headers w/o releases or mix of OpenCL-Headers with OpenCL-CLHPP
+- { name: opencollada,                 verpat: ".*3335ac.*",                               ignore: true }
+- { name: opencollada,                 verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: opendkim,                    ver: "2.11.0",                ruleset: fedora,      incorrect: true }
+- { name: opendkim,                                                  ruleset: fedora,      untrusted: true }
+- { name: openjade,                    verpat: ".*(p|pre|devel)[0-9]*",                    devel: true }
+- { name: openjade,                    ver: "1.3.3",                 family: [pclinuxos,mageia], ignore: true } # fake, it's 1.3.3pre1
+- { name: openjfx,                     verpat: "8\\.0\\..*",                               ignore: true } # fedora; the official scheme is e.g. 8u151b12
+- { name: openjk,                      verpat: "[0-9]{10}.*",                              ignore: true }
+- { name: openlierox,                  ver: "0.58",                  family: [fedora,debuntu], ignore: true } # there's no 0.58, only 0.58beta3
+- { name: openmortal,                  ver: "0.7.1",                 family: [ sisyphus ], ignore: true }
+- { name: openntpd,                    ver: "20080406p",                                   ignore: true }
+- { name: openscenegraph,              verpat: "3\\.[0-9]*[13579]\\..*",                   devel: true }
+- { name: openssh,                     verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: "$1p$2" } # pkgrc: it's X.YpZ!
+- { name: openssh,                     verpat: "[0-9]+\\.[0-9]+",                          ignore: true } # freshcode, pZ part missing
+- { name: openssh,                     verpat: "20[0-9-]{6}.*",                            ignore: true } # scoop
+- { name: openssh,                                                                         p_is_patch: true }
+- { name: openxcom,                    verpat: ".*201[789].*",                             ignore: true } # git snapshots
+- { name: opus,                        ver: "1.3",                   family: fedora,       ignore: true } # fake, it's beta
+- { name: orbit2,                      ver: "2.14.20",               family: sisyphus,     ignore: true } # alt fake
+- { name: orca,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: osquery,                     ver: "3.0.0",                                       devel: true }
+- { name: oxygen-gtk3,                 verlonger: 3,                 family: kaos,         ignore: true }

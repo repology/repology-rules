@@ -1,0 +1,30 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { name: lbd,                         verpat: "20[0-9]{6}",                               ignore: true } # BlackArch snap
+- { name: lcab,                        ver: "1.0",                   family: mageia,       ignore: true }
+- { name: lcms,                        verpat: "2.2[0-9]",                                 ignore: true } # gobolinux brokenness
+- { name: less,                        vergt: "487",                                       devel: true } # http://www.greenwoodsoftware.com/less/
+- { name: libreoffice,                 ver: "6.0.0.0",               family: fedora,       ignore: true } # fake, it's 6.0.0.0alpha1
+- { name: lightdm-gtk-greeter,         verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: lightsoff,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: lightworks,                  verlonger: 3,                 family: kaos,         ignore: true }
+- { name: lilypond,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: linkchecker,                 ver: "9.4",                   ruleset: aur,         incorrect: true } # not released
+- { name: litecoin,                    ver: "0.15.0.1",              family: sisyphus,     ignore: true } # it's 0.15.0.1rc1
+- { name: live555,                     verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" } # alt; it's dot-separated, dummies!
+- { name: llvm,                        verpat: ".*r[0-9]{6,}",                             ignore: true } # ignore revisions, allow release candidates
+- { name: llvm,                        verpat: ".*r.*",                                    devel: true }
+- { name: llvm,                        ver: "6.0.0",                 family: fedora,       incorrect: true }
+- { name: llvm,                                                      family: fedora,       untrusted: true }
+- { name: lmms,                        ver: ["1.1.95","1.2.0"],      ruleset: [sisyphus,mageia,kaos], incorrect: true } # it's 1.2.0rc5
+- { name: lmms,                                                      ruleset: [sisyphus,mageia,kaos], untrusted: true }
+- { name: loic,                        verpat: ".*9.*9.*9.*",                              devel: true } # prerelease (2.9.9.99)
+- { name: lrzsz,                       verge: "0.12.21",                                   successor: true } # debian fork? (needs investigation)
+- { name: lsscsi,                      ver: "0.29",                  family: opensuse,     ignore: true } # fake
+- { name: lua,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]+[.-].*",           incorrect: true } # scoop, chocolatey
+- { name: luajit,                      ver: ["2.1", "2.1.0"],        family: [sisyphus,fedora], incorrect: true } # it's 2.1.0 betaN
+- { name: luajit,                                                    family: [sisyphus,fedora], untrusted: true }
+- { name: luajit,                      verpat: "20[0-9]{2}.*",                             ignore: true }
+- { name: luit,                        verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: lxsplit,                     verlonger: 3,                 family: openbsd,      incorrect: true } # "1." component prepended
+- { name: lz4,                         verpat: "[0-9]+",                                   ignore: true }

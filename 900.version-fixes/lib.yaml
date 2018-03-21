@@ -1,0 +1,57 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { name: libadacrypt,                                                                     noscheme: true }
+- { name: libasr,                      verpat: "[0-9]{8}.*",                               ignore: true } # guix crap
+- { name: libcaca,                     ver: "0.99", family: [sisyphus,fedora,mageia,openmandriva,pclinuxos,rosa], incorrect: true } # it's 0.99.betaX!
+- { name: libcaca,                     ver: "0.99",                                        untrusted: true }
+- { name: libcaca,                     verpat: "0.99.[0-9]+.*",                            ignore: true } # it.s 0.99.betaX, not 0.99.X
+- { name: libcdio-paranoia,            verpat: "[0-9]+\\.[0-9]+\\.[0-9]+", family: kaos,   ignore: true } # bad versioning
+- { name: libclc,                                                                          noscheme: true }
+- { name: libcmis,                     ver: "0.5.2",                 family: sisyphus,     incorrect: true }
+- { name: libcmis,                                                   family: sisyphus,     untrusted: true }
+- { name: libcpuid,                    ver: "0.21",                                        setver: "0.2.1" } # deepin crap
+- { name: libdazzle,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libdvdread,                  ver: "5.0.4",                 family: [arch,openindiana], ignore: true } # fake
+- { name: libfaketime,                 verpat: ".*201[67].*",                              ignore: true } # FreeBSD is using git snapshot
+- { name: libffi,                      ver: "3.3",                   family: debuntu,      ignore: true } # snapshot of nonexisting version
+- { name: libglw,                      verpat: "20[0-9]{6}",                               ignore: true }
+- { name: libgnome-games-support,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libgnomeui,                  ver: "2.24.6",                family: opensuse,     ignore: true }
+- { name: libgweather,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libhangul,                   verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: libhid,                      ver: "0.2.17",                ruleset: [fedora,rosa], incorrect: true } # nonexisting release
+- { name: libhid,                                                    ruleset: [fedora,rosa], untrusted: true }
+- { name: libhidapi,                   ver: "0.8.0",                 ruleset: sisyphus,    incorrect: true } # 0.8.0-rc1
+- { name: libhidapi,                                                 ruleset: sisyphus,    untrusted: true }
+- { name: libiconv,                    verpat: "[0-9]",                                    ignore: true } # lede/openwrt strange version
+- { name: libimobiledevice,            ver: "1.2.1",                 family: openwrt,      ignore: true } # fake
+- { name: libimobiledevice,            verlonger: 3,                 family: kaos,         ignore: true } # fake
+- { name: libkvkontakte,               verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: libmediawiki,                verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: liblqr,                      verpat: "1-.*",                                     ignore: true } # "1" is not part of the version
+- { name: libnss-mysql,                ver: "1.6",                   family: sisyphus,     incorrect: true }
+- { name: libnss-mysql,                                              family: sisyphus,     untrusted: true }
+- { name: libogg,                      ver: "1.3.5",                 family: rudix,        ignore: true }
+- { name: libp11,                      verpat: "20[0-9]{6}",                               ignore: true }
+- { name: libpaper,                    ver: "1.1.24",                                      setver: "$0nmu0" }
+- { name: libpaper,                    verpat: "(1\\.1\\.24)[^0-9]+([0-9]+)",              setver: "$1nmu$2" } # they all take from debian and there's num suffix
+- { name: libpng,                      verpat: "1\\.7\\.0beta.*",    family: freshcode,    ignore: true }
+- { name: libretro-desmume,                                                                noscheme: true }
+- { name: libretro-fceumm,                                                                 noscheme: true }
+- { name: libretro-mgba,                                                                   noscheme: true }
+- { name: libretro-ppsspp,                                                                 noscheme: true }
+- { name: libretro-reicast,                                                                noscheme: true }
+- { name: libretro-yabause,                                                                noscheme: true }
+- { name: librsvg,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libsndfile,                  ver: "1.0.29",                family: vcpkg,        ignore: true }
+- { name: libssh,                      ver: ["0.73", "0.11", "2014"],                      ignore: true } # pkgsrc, gobo
+- { name: libssh,                      ver: "0.8.0",                 family: debuntu,      ignore: true }
+- { name: libtheora,                   ver: "1.2.0",                 family: openmandriva, ignore: true } # lie, not released yet
+- { name: libtorrent,                  verpat: "20[0-9]{6}.*",                             ignore: true } # nix fake
+- { name: libunwind,                   verpat: "20[0-9]{6}.*",                             ignore: true } # freebsd snapshot
+- { name: libusbmuxd,                  verpat: "1\\.1\\.0.*",        family: [openwrt,debuntu], ignore: true } # fake
+- { name: libmpsse,                    verpat: "20[0-9]{6}.*",       family: sisyphus,     ignore: true }
+- { name: libx11,                      verpat: "7\\.[4567].*",                             ignore: true } # uses version from Xorg, not its own # XXX: ->incorrect
+- { name: libx86emu,                   verlonger: 2,                 family: kaos,         ignore: true } # uses some opensuse package with mangled version
+- { name: libzen,                      verpat: "17\\..*",            family: freebsd,      incorrect: true } # version from mediainfo is used, while libzen has its own version scheme
+- { name: libzen,                                                    family: freebsd,      untrusted: true }

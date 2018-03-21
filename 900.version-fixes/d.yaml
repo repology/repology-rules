@@ -1,0 +1,40 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { name: darcs,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
+- { name: darcs,                       ver: "2.13.0",                family: fedora,       incorrect: true } # fake
+- { name: darcs,                                                     family: fedora,       untrusted: true }
+- { name: dbus,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: dbus-cpp,                    verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
+- { name: dconf-editor,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: dee-qt,                      verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
+- { name: deepin-sound-theme,          ver: "17.07.31",              ruleset: pardus,      ignore: true }
+- { name: deepin-utils,                                                                    noscheme: true }
+- { name: deja-dup,                    verpat: "[0-9]*[13579]\\..*",                       devel: true }
+- { name: devhelp,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: dff,                         verpat: "(.*)\\.20[0-9]{6}",                        setver: "$1" } # aosc snapshot
+- { name: dhewm3,                      ver: "1.4.2",                 family: [ fedora ],   ignore: true } # no such version (rpmfusion)
+- { name: dia,                         ver: "0.97.4",                family: [ sisyphus ], ignore: true } # no such release
+- { name: dia,                         verpat: ".*[0-9]{8}.*",                             ignore: true } # snapshot
+- { name: dietlibc,                    verpat: ".*(pre|cvs|20[0-9]{6}).*",                 ignore: true }
+- { name: dietlibc,                    ver: "0.34",                  family: [fedora,mageia], incorrect: true }
+- { name: dietlibc,                                                  family: [fedora,mageia], untrusted: true }
+- { name: diff-pdf,                    verpat: "20[0-9-]{6}.*",                            ignore: true }
+- { name: diffpdf,                     verge: "2.1.3.1",                                   successor: true }
+- { name: discord,                                                   family: chocolatey,   ignore: true } # windows version has different versioning
+- { name: distcc,                      ver: "3.2",                   family: pkgsrc,       incorrect: true }
+- { name: distcc,                      ver: "3.2.0rc1",                                    incorrect: true } # it's 3.2rc1
+- { name: distcc,                                                    family: pkgsrc,       untrusted: true }
+- { name: distorm,                     verpat: "20[0-9]{6}.*",                             ignore: true } # freebsd garbage
+- { name: djvulibre,                   ver: "3.5.27.1",                                    ignore: true }
+- { name: dkms,                        ver: "2.022.0",                                     ignore: true } # gobolinux fake
+- { name: dnscap,                      verpat: "[0-9]{3,}",                                ignore: true }
+- { name: dmake,                       verpat: ".*20[0-9]{6}",                             ignore: true } # freebsd snapshot
+- { name: docker-tray,                 verge: "1.5.1",                                     successor: true }
+- { name: dosbox,                      verpat: "0\\.74\\.[4r].*",                          ignore: true }
+- { name: dosemu,                      verpat: "2013.*",                                   ignore: true }
+- { name: dosemu,                      verpat: "1\\.4\\.1.*",        family: [sisyphus,gentoo], ignore: true }
+- { name: dolphin-emu,                 verpat: "[0-9]{4,}.*",                              ignore: true }
+- { name: doublecmd,                                                                       devel: false } # they state all version to be beta: https://sourceforge.net/p/doublecmd/news/, this is pointless
+- { name: doublecmd,                   verpat: ".*svn.*",                                  ignore: true }
+- { name: dsniff,                      ver: "2.4",                   family: [sisyphus,fedora,mageia], ignore: true } # it's 2.4beta1
+- { name: dzen,                        verpat: "[0-9]{10}",                                ignore: true }

@@ -1,0 +1,72 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { name: a52dec,                      ver: "0.7.5",                 family: [openbsd, opensuse], ignore: true }
+- { name: a52dec,                      ver: "0.7.4.1",               family: [kaos],       ignore: true }
+- { name: aalib,                       ver: [ "1.4.0", "1.4", "1.4.0.5", "1.4p5" ],        incorrect: true } # never really released, 1.4.0.5 @ pkgsrc fake
+- { name: abcmidi,                     verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" }
+- { name: abuse,                       ver: "2.0",                   family: pkgsrc,       ignore: true }
+- { name: ack,                                                       family: mageia,       ignore: true }
+- { name: acl,                         verlonger: 3,                                       ignore: true }
+- { name: acl,                         verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: acpi-call,                   verpat: "4\\..*",             family: nix,          incorrect: true } # uses kernel versions instead of software's
+- { name: adwaita-icon-theme,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: afdko,                       verpat: "([0-9]+\\.[0-9]+)\\.b?([0-9]+).*?",        setver: "$1.$2" }
+- { name: aften,                       ver: [ "0.05", "0.08" ],                            ignore: true }
+- { name: ag,                          verlonger: 3,                                       ignore: true } # windows-only
+- { name: agda-stdlib,                 verlonger: 2,                 family: gentoo,       incorrect: true } # documented broken versioning (other project's version is prepended)
+- { name: agedu,                       ver: "20160920.853cea9",                            ignore: true }
+- { name: aircrack-ng,                 ver: "1.2",                   family: [ fedora, debuntu, gentoo, mageia, openwrt, rosa ], ignore: true }
+- { name: airspy,                      verpat: "20[0-9]{6}",                               ignore: true }
+- { name: aldo,                                                      ruleset: aur,         untrusted: true }
+- { name: aldo,                        ver: "0.7.8",                 ruleset: aur,         incorrect: true }
+- { name: [alienarena, alienarena-data], verpat: ".*20[0-9]{6}.*",                         ignore: true }
+- { name: amarok,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # nix garbage
+- { name: amule,                       verpat: "[0-9]{5}",                                 ignore: true } # revision
+- { name: amule,                       verpat: "2\\.4\\.0.*",        family: [ mageia, debuntu ], incorrect: true } # unreleased
+- { name: amule,                       verlonger: 3,                 family: [ kaos ],     incorrect: true } # fake
+- { name: android-tools,               verpat: "[0-9]{4,}.*",                              ignore: true } # fake
+- { name: anki,                        ver: "2.1.0",                 family: debuntu,      ignore: true } # fake
+- { name: asc,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]{3,}\\.[0-9]+",     devel: true } # http://terdon.asc-hq.org/asc/builds/
+- { name: aspcud,                      ver: "2011.03.17",                                  ignore: true }
+- { name: assaultcube,                 ver: "1.2.0.3",               family: fedora,       incorrect: true } # rpmfusion actually, but we don't trust whole fedora
+- { name: assaultcube,                                               family: fedora,       untrusted: true }
+- { name: assaultcube,                 verpat: "[0-9]{8}",                                 ignore: true }
+- { name: apache,                      verpat: "2\\.[0-9]*[13579]\\..*",                   devel: true }
+- { name: "apmod:rpaf",                verpat: "2015.*",             family: [ arch ],     ignore: true }
+- { name: appmenu-qt,                  verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
+- { name: apr,                         verlonger: 3,                                       ignore: true } # FreeBSD
+- { name: apr,                         verpat: ".*20[0-9]{6}.*",                           ignore: true }
+- { name: apr,                         verpat: "2\\..*",                                   devel: true }
+- { name: aptly,                       verpat: "2010.*",                                   incorrect: true }
+- { name: arduino,                     ver: "0021",                                        ignore: true } # EPEL 6
+- { name: arptables,                   verpat: "20[0-9]{2}",                               ignore: true } # LEDE year
+- { name: arpwatch,                    ver: "2.1.15",                                      setver: "2.1a15" }
+- { name: arora,                       verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: asdf,                        verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: asp2php,                     ver: "20080813",                                    ignore: true }
+- { name: aspell,                      ver: "0.60.7",                family: [debuntu,openmandriva], incorrect: true } # snapshot actually
+- { name: aspell,                                                    family: [debuntu,openmandriva], untrusted: true }
+- { name: aspell-be,                   ver: ["0.50.0", "0.60"],                            ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/be/
+- { name: aspell-bn,                   ver: "0.02",                  family: arch,         ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/bn/
+- { name: aspell-br,                   ver: "0.60.2",                                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/br/
+- { name: aspell-ca,                   ver: ["20090721","2.3.0"],                          ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/ca/
+- { name: [aspell-el,el-aspell],       ver: ["0.50","0.50.3"],                             ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/el/
+- { name: aspell-fi,                   ver: "0.60.0",                                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fi/
+- { name: aspell-fo,                   ver: ["0.51.0","0.4.2"],                            ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fo/
+- { name: aspell-fr,                   ver: "0.60",                                        ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fr/
+- { name: aspell-qu,                   ver: "20040424.1",                                  ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/qu/
+- { name: aspell-ru,                   ver: ["0.99.15.7.1","0.99.1"],                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/ru/
+- { name: aspell-sl,                   ver: "0.60",                                        ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/sl/
+- { name: aspell-sr,                   ver: ["0.60.0", "0.60"],                            ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/sr/
+- { name: aspell-te,                   ver: "0.60.0",                                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/te/
+- { name: aspell-tet,                  ver: "0.50.0",                                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/tet/
+- { name: at-spi2-atk,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: at-spi2-core,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: atk,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: atkmm,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: attr,                        verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: autoconf,                    ver: "2.13.000227",                                 ignore: true }
+- { name: autoconf-archive,            verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" }
+- { name: autodia,                     verpat: "2\\.[0-9]{3}",                             incorrect: true } # perl versioning issues
+- { name: autopep8,                    verpat: "2.*",                ruleset: hyperbola,   ignore: true }
+- { name: avinfo,                      ver: "1.0",                   family: [ sisyphus ], ignore: true }

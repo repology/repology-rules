@@ -1,0 +1,48 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { name: m17n-db,                     ver: "1.8.0",                 family: fedora,       ignore: true }
+- { name: m17n-lib,                    ver: "1.8.0",                 family: fedora,       ignore: true }
+- { name: m2vrequantiser,              ver: "20030929",                                    outdated: true }
+- { name: mame,                        ver: "0153s",                                       ignore: true } # pclinuxos
+- { name: magic,                       verpat: "8\\.2\\..*",                               devel: true }
+- { name: magic,                       verpat: "[0-9]\\.[0-9]\\.[0-9]{3}",                 ignore: false } # unignore some good -devel's
+- { name: mariadb,                     verge: "10.3",                                      devel: true } # https://downloads.mariadb.org/
+- { name: mari0,                       ver: "1.6.1",                 family: fedora,       incorrect: true } # rpmfusion
+- { name: mari0,                                                     family: fedora,       untrusted: true }
+- { name: matreshka,                   ver: "0.8.0",                 family: fedora,       ignore: true } # fake (see report)
+- { name: mesa,                        verpat: "[^a-z]+",            family: [fedora,mageia], ignore: true } # accused in ignoring rc suffix
+- { name: mesa,                        verpat: "[0-9]+\\.[0-9]+\\.0",                      devel: true } # .0 are devel releases, example: https://www.mesa3d.org/relnotes/17.2.0.html
+- { name: midori,                      ver: "0.5.12",                family: [fedora,aosc], incorrect: true } # not released
+- { name: midori,                                                    family: [fedora,aosc], untrusted: true }
+- { name: minio,                       verpat: "[0-9]+",                                   ignore: true } # should use separators
+- { name: mimikatz,                    verpat: ".*20[0-9]{6}",                             ignore: true } # BlackArch snap
+- { name: minimodem,                   verpat: ".*-[0-9]+",                                ignore: true } # -1 is not part of the version
+- { name: minimodem,                   ver: "0.24.1",                family: gentoo,       ignore: true } # actually, pentoo. it's normalized 0.24-1 which is incorrect, see prev. rule
+- { name: mixxx,                       verpat: "2\\.1\\.[0-9]+",     ruleset: [aosc,fedora,kaos], incorrect: true } # actually unitedrpms, but knowing fedora I won't trust it whole
+- { name: mixxx,                                                     ruleset: [aosc,fedora,kaos], untrusted: true }
+- { name: mkgmap,                      verpat: "0\\.0\\.0svn([0-9]{4,})",                  setver: "r$1" }
+- { name: mkgmap,                      verpat: "[0-9]{4,}",                                setver: "r$0" }
+- { name: mkgmap-splitter,             verpat: "0\\.0\\.0svn([0-9]{3,})",                  setver: "r$1" }
+- { name: moc,                         ver: ["2.6","2.6.0"],         family: [sisyphus,fedora], ignore: true } # 2.6alpha3
+- { name: moc,                         verpat: "2\\.6\\.0r.*",                             ignore: true }
+- { name: moc,                         verpat: "(2\\.6)\\.0(a.*)",                         setver: "$1$2" } # there's no third numeric component for alpha
+- { name: modemmanager,                ver: "1.7.990",                                     setver: "1.8-rc1" }
+- { name: mono,                        ver: "5.10.0.79",             family: aosc,         incorrect: true }
+- { name: mono,                                                      family: aosc,         untrusted: true }
+- { name: mpdscribble,                 ver: "0.23",                  family: openwrt,      incorrect: true } # entware
+- { name: mpdscribble,                                               family: openwrt,      untrusted: true } # entware
+- { name: mpfr,                        verlonger: 3,                                       ignore: true } # openbsd, openindiana fakes
+- { name: mphidflash,                  verpat: "20[0-9]{6}.*",                             ignore: true } # fake
+- { name: mpich,                       verpat: ".*[ab].*",                                 devel: true }
+- { name: [mplayer,mencoder],          verpat: ".*[0-9]{4}.*",                             ignore: true } # it's x.y.z, ignore all revisions and dates
+- { name: mplayer,                     ver: "5.1.4",                                       ignore: true } # pclinuxos garbage
+- { name: mpv,                         verpat: "20[0-9]{2}[.-][0-9]{2}[.-][0-9]{2}",       ignore: true } # chocolatey and scoop
+- { name: ms-gsl,                                                                          noscheme: true }
+- { name: mtd-utils,                                                 ruleset: maemo,       ignore: true } # fork?
+- { name: mtree,                                                     family: ravenports,   ignore: true } # fake
+- { name: mumble,                                                    family: kaos,         ignore: true } # snapshot with random version
+- { name: multimon-ng,                 verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: munin,                       verpat: "[0-9]+\\.999.*",                           devel: true }
+- { name: mutter,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mygui,                       verpat: "20[0-9]{6}",                               ignore: true }
+- { name: mythes-fr,                   verpat: "20[0-9]{6}",                               ignore: true }

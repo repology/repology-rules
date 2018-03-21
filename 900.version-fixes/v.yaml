@@ -1,0 +1,25 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { name: v,                           verpat: "[0-9]+",                                   ignore: true } # aur; correct versions is 1.1
+- { name: vala,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: vbindiff,                    ver: "3.0",                   family: [fedora,mageia], incorrect: true } # fake, it's 3.0beta5
+- { name: vbindiff,                                                  family: [fedora,mageia], untrusted: true }
+- { name: vcsh,                        ver: "1.20170226",                                  incorrect: true } # nix fake
+- { name: vcsh,                        verpat: "([0-9]+\\.20[0-9]{6})[._-]1",              setver: $1 } # -1 suffix denotes tha branch with added debian stuff, otherwise it's the same
+- { name: vcsh,                                                      family: nix,          untrusted: true }
+- { name: vcdimager,                   ver: "0.7.24cvs",                                   ignore: true } # opensuse garbage
+- { name: "vdr:vnsiserver",            verpat: "14.*",                                     incorrect: true } # freebsd garbage
+- { name: vgmstream,                   verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: vid.stab,                    verpat: ".*[0-9a-f]{7}.*",                          ignore: true } # git commit
+- { name: vis,                         verpat: "[0-9]{4,}",                                ignore: true } # LEDE
+- { name: visitors,                    ver: "1.1",                   family: rosa,         ignore: true }
+- { name: visitors,                                                  family: rosa,         untrusted: true }
+- { name: vit,                         verpat: "1\\.3.*20[0-9]{6}.*",                      ignore: true }
+- { name: vlc,                         verpat: "4.*",                                      ignore: true } # devel branch, no announced releaes
+- { name: vlc,                         ver: "3.0.0.1",               family: sisyphus,     incorrect: true } # fake
+- { name: vlc,                                                       family: sisyphus,     untrusted: true }
+- { name: vlc,                         verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: vorbis-tools,                verlonger: 3,                 family: kaos,         incorrect: true } # fake
+- { name: vpnc,                        ver: "0.5.3.3",               family: kaos,         incorrect: true } # fake
+- { name: vpnc,                        verpat: "0.5.3.*post.*",                            ignore: true } # nix
+- { name: vte,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

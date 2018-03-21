@@ -1,0 +1,65 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { name: ca-certificates,             verlonger: 1,                                       ignore: true } # no need to append NSS version
+- { name: ca-certificates,                                           family: [alpine,crux], ignore: true } # see https://hg.mozilla.org/projects/nss/log/tip/lib/ckfw/builtins/certdata.txt for valid dates
+- { name: cairo,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: cairomm,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: calf,                        verpat: "20[0-9]{6}.*",                             ignore: true } # slackbuilds garbage
+- { name: calibre,                                                   ruleset: parrot,      untrusted: true } # accused of 3.15.0.1 fake
+- { name: camlp5,                      verpat: "[0-9]{3}",                                 incorrect: true } # XXX: add problem
+- { name: can-utils,                                                                       noscheme: true }
+- { name: cblas,                       verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: cdrtools,                    ver: "3.02",                  family: [debuntu,rosa], ignore: true } # fake, it's alpha
+- { name: ceferino,                    verpat: ".*svn.*",                                  ignore: true }
+- { name: cegui,                       verpat: "6\\..*",                                   setver: "0.$0" } # it's 0.6.2!
+- { name: ceph,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{4}.*",    incorrect: true } # opensuse garbage
+- { name: ceph,                        verpat: "[0-9]+[13579]\\..*",                       devel: true } # assumed
+- { name: cfr,                         verpat: "[0-9]{3}",                                 setver: "0_$0" } # blackarch, broken schema
+- { name: cfssl,                       verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: cfitsio,                     verpat: "[0-9]{4}",                                 ignore: true }
+- { name: chakracore,                  wwwpart: cauldrondevelopmentllc,                    ignore: true } # fork with different versioning
+- { name: checkbashisms,               verpat: "20[0-9]{6}.*",                             ignore: true } # AUR
+- { name: cherokee,                    verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
+- { name: chromium,                    verpat: ".*-r[0-9]+",                               ignore: true } # scoop
+- { name: ckermit,                     ver: "302",                                         setver: "9.0.$0" }
+- { name: ckermit,                     ver: "9.0.304",                                     devel: true }
+- { name: clang,                       verpat: ".*r[0-9]{6,}",                             ignore: true } # ignore revisions, allow release candidates
+- { name: clang,                       verpat: ".*r.*",                                    devel: true }
+- { name: clang,                       ver: "6.0.0",                 family: fedora,       incorrect: true }
+- { name: clang,                                                     family: fedora,       untrusted: true }
+- { name: cld2,                        ver: "20160820",                                    ignore: true } # aosc fake (there were no commits to cld2 since 2015)
+- { name: clementine-player,           verlonger: 3,                 family: kaos,         ignore: true }
+- { name: clisp,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
+- { name: clonekeen,                   verpat: "0\\.(.*)",                                 setver: "$1" }
+- { name: cloog,                       ver: "0.18.5",                family: [haikuports, aosc, arch], ignore: true } # unofficial fork
+- { name: clojure,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{3,}",     incorrect: true } # homebrew and nix garbage
+- { name: clusterssh,                                                family: gentoo,       ignore: true } # perl module version mangling rules apply here
+- { name: cmake,                       ver: "3.11.0",                family: [mageia,openmandriva], incorrect: true } # mistagged rc's
+- { name: cmake,                                                     family: [mageia,openmandriva], untrusted: true } # rc
+- { name: cmst,                        verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" } # manjaro
+- { name: cmus,                        verpat: ".*20[0-9]{6}.*",                           ignore: true }
+- { name: cmus,                        ver: "2.8.0",                 family: fedora,       ignore: true } # it's rc0
+- { name: cogl,                        ver: "1.22.5",                ruleset: pardus,      incorrect: true }
+- { name: cogl,                                                      ruleset: pardus,      untrusted: true }
+- { name: colormake,                   verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: colormake,                   ver: ["2.1.0", "0.9.20140504", "0.9.20170221"],     ignore: true }
+- { name: comedilib,                   ver: "140410",                                      ignore: true } # pclinuxos weirdness
+- { name: commandergenius,             verpat: ".*[0-9]{4}.*",                             ignore: true } # nixpkgs weirdness
+- { name: cons,                        ver: "2.3.0.1",                                     ignore: true } # debian uses this to revert to 2.2.0. http://metadata.ftp-master.debian.org/changelogs/main/c/cons/cons_2.3.0.1+2.2.0-2_changelog "The odd version string is to avoid using epochs" <- that's what epochs are for, dammit
+- { name: containerd,                  verpat: "[0-9a-f]{7}",                              ignore: true } # crux garbage
+- { name: coolkey,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+_[0-9]+",          incorrect: true } # AUR using fedora package revision
+- { name: coursier,                    ver: "1.0.2",                                       outdated: true } # Known bad version https://github.com/coursier/coursier/commit/2cb42444cdbd6ad2a50f963378ff27259a4fb1a7
+- { name: cowsay,                      ver: "3.04.01",                                     ignore: true }
+- { name: cpufreqd,                    ver: "2.4.3",                 family: sisyphus,     ignore: true } # fake
+- { name: cpulimit,                    verpat: "20[0-8]{6}.*",                             ignore: true } # hyperbola
+- { name: crack-attack,                ver: "1.1.15_cvs_01",                               ignore: true }
+- { name: creduce,                     verpat: "2\\.7.*",            family: debuntu,      ignore: true }
+- { name: crda,                        ver: "3.18_2016.02.08",                             ignore: true }
+- { name: crimson,                     ver: "2014.10",                                     ignore: true }
+- { name: critterding,                 verpat: "1\\.0(beta.*)",                            setver: "$1" }
+- { name: cryptcat,                    ver: "20031202",                                    ignore: true }
+- { name: cryptsetup,                  ver: "2.0.0",                 family: fedora,       ignore: true } # 2.0.0rc1
+- { name: cvs,                         ver: "1.20120905",                                  ignore: true }
+- { name: cvs,                         ver: "1.12.13.1",                                   ignore: true } # respin for Windows *only* to fix carriage returns, it does not make sense to list it
+- { name: cwiid,                       ver: ["20110107","0.6.01"],                         ignore: true } # abandonware; a lot of snapshots
+- { name: cwm,                         ver: "6.2.9",                                       ignore: true } # FreeBSD fake
