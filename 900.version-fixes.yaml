@@ -584,6 +584,12 @@
 - { name: libpaper,                    ver: "1.1.24",                                      setver: "$0nmu0" }
 - { name: libpaper,                    verpat: "(1\\.1\\.24)[^0-9]+([0-9]+)",              setver: "$1nmu$2" } # they all take from debian and there's num suffix
 - { name: libpng,                      verpat: "1\\.7\\.0beta.*",    family: freshcode,    ignore: true }
+- { name: libretro-desmume,                                                                noscheme: true }
+- { name: libretro-fceumm,                                                                 noscheme: true }
+- { name: libretro-mgba,                                                                   noscheme: true }
+- { name: libretro-ppsspp,                                                                 noscheme: true }
+- { name: libretro-reicast,                                                                noscheme: true }
+- { name: libretro-yabause,                                                                noscheme: true }
 - { name: librsvg,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libsndfile,                  ver: "1.0.29",                family: vcpkg,        ignore: true }
 - { name: libssh,                      ver: ["0.73", "0.11", "2014"],                      ignore: true } # pkgsrc, gobo
