@@ -1,0 +1,19 @@
+# vim: tabstop=29 expandtab softtabstop=29
+
+# there are two `ne`s, and they are both editors; prefix is for `cambridge`
+# another is `nice editor`, but I don't feel like renaming it as it's `ne` everywhere
+- { name: ne, wwwpart: wordprocessing/unix/ne, setname: ne-cam }
+
+- { name: newsbeuter, wwwpart: newsboat, setname: newsboat } # XXX: problem; newsboat is a fork of newsbeuter, package should be renamed
+
+- { name: nml, wwwpart: ropas, setname: "$0-lang" }
+
+#
+- { name: nodejs, wwwpart: ax25, setname: node-ax25 }
+- { name: nodejs, category: [universe/hamradio,lang,Development/Tools,hamradio], setname: node-ax25 }
+
+- { name: nstat, family: freebsd, setname: nstat-netflix }
+
+- { name: nvi, verpat: "2\\..*",       setname: nvi2 }
+
+- { name: nvm, wwwpart: coreybutler, setname: nvm-windows }

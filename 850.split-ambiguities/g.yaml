@@ -1,0 +1,18 @@
+# vim: tabstop=29 expandtab softtabstop=29
+
+- { name: gambit,                      category: games-board, setname: gambitchess }
+- { name: gambit,                      verpat: "4\\..*", setname: gambit-c }
+
+- { name: gonvert, ruleset: maemo, setname: gonvert-maemo }
+
+- { name: gom,                         category: [sound,media-sound,universe/sound], setname: gom-mixer }
+
+- { name: gomoku, family: [freebsd,macports,openbsd], setname: gnustep-gomoku } # gnustep; may be not ambiguity (yet), but too generic name for sure
+
+- { name: git_fame,                    setname: git-fame-rb, wwwpart: oleander.io }
+
+- { name: [gnat_util,gnat-util],       family: [arch,gentoo], setname: gnat-util-adacore }
+- { name: [gnat_util,gnat-util],       family: [freebsd,pkgsrc,ravenports], setname: gnat-util-gcc }
+- { name: [gnat_util,gnat-util],       warning: "please classify me" }
+
+- { name: gsl,                         wwwpart: microsoft, setname: ms-gsl }

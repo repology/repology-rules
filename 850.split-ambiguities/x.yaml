@@ -1,0 +1,11 @@
+# vim: tabstop=29 expandtab softtabstop=29
+
+- { name: xbase, setname: xbase-graywolf, wwwpart: graywolf }
+
+- { name: xclip, setname: emacs-xclip, family: gentoo, category: app-emacs }
+
+- { name: xdrfile, family: arch, verpat: "2\\..*", setname: xdrfile-wesbarnett } # fork
+
+- { name: xsv, wwwpart: burntsushi, setname: "rust:xsv" }
+
+- { name: xtitle, wwwpart: kinzler, setname: xtitle-kinzler }

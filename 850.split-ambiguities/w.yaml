@@ -1,0 +1,23 @@
+# vim: tabstop=29 expandtab softtabstop=29
+
+- { name: wakeonlan, family: slackbuilds, setname: "python:wakeonlan" }
+
+- { name: watson, wwwpart: framework, setname: "python:watson-framework" }
+
+- { name: wise, wwwpart: jboss, setname: jboss-wise }
+- { name: wise, wwwpart: ebi.ac.uk, setname: wise2 }
+- { name: wise, category: [ Sciences/Biology, science, biology, sci-biology, universe/science ], setname: wise2 }
+- { name: wise, warning: "please classify me" }
+
+- { name: whereami, family: [ arch ], setname: whereami-kootenpv } # Uses WiFi signals and machine learning to predict where you are
+- { name: whereami, family: [ debuntu ], setname: whereami-debian } # Automatically reconfigure your (laptop) system for a new location based of wifi hotspots
+- { name: whereami, family: [ fedora, yacp ], setname: whereami-pjp } # displays information about machine(location) you are working on
+- { name: whereami, warning: "please classify me" }
+
+- { name: words, wwwpart: wordlist.sourceforge.net, setname: words-scrowl }
+- { name: words, wwwpart: moby, setname: words-moby }
+- { name: words, wwwpart: wordsdoc, setname: words-latin }
+- { name: words, wwwpart: ftp.gnu.org/gnu/aspell, setname: words-international }
+- { name: words, family: pclinuxos, setname: words-moby }
+- { name: words, family: sisyphus, setname: words-ibiblio } # not sure what this is
+- { name: words, warning: "please classify me" }

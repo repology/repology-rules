@@ -1,0 +1,34 @@
+# vim: tabstop=29 expandtab softtabstop=29
+
+- { name: telegram, wwwpart: telegram.org, setname: telegram-desktop }
+- { name: telegram, wwwpart: vysheng/tg, setname: telegram-cli }
+- { name: telegram, warning: "please classify me" }
+
+# infrastructure manager vs. heighfield generation
+- { name: terraform, setname: gnome-terraform, family: yacp }
+
+- { name: tesseract, setname: tesseract-game, wwwpart: tesseract.gg }
+- { name: tesseract, setname: tesseract-game, category: games }
+- { name: tesseract, setname: tesseract-ocr, wwwpart: tesseract-ocr } # fallthrough
+- { name: tesseract, setname: tesseract-ocr, category: [graphics,app-text,libs] }
+- { name: tesseract, setname: tesseract-ocr, ruleset: [vcpkg] }
+- { name: tesseract, warning: "please classify me" }
+
+# GNU time vs. xemacs module
+- { name: time, setname: xemacs-time, wwwpart: xemacs } # gentoo
+- { name: time, setname: psutils-time, wwwpart: lukesampson }
+
+- { name: tint, category: Graphics, setname: tint-photo-editor }
+
+- { name: tg, wwwpart: vysheng/tg, setname: telegram-cli }
+
+- { name: tracker, setname: tracker-modplayer, category: audio }
+
+# tales of majeyal vs. troubles of middle earth
+- { name: tome, verpat: "1\\..*", setname: tales-of-majeyal }
+- { name: tome, verpat: "2\\..*", setname: tome2 }
+- { name: tome, wwwpart: tome.te4.org, setname: tales-of-majeyal } # aur garbage
+- { name: tome, warning: "please classify me" }
+
+- { name: trash, wwwpart: andreafrancia, setname: trash-cli }
+- { name: trash, wwwpart: [hasseg,ali-rantakari], setname: trash-osx }

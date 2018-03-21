@@ -1,0 +1,40 @@
+# vim: tabstop=29 expandtab softtabstop=29
+
+- { name: date, family: vcpkg, setname: date-howardhinnant } # https://github.com/HowardHinnant/date
+
+- { name: dash, setname: emacs-dash, family: gentoo, category: app-emacs }
+
+- { name: debugedit, wwwpart: [rpm.org, rpm5.org], setname: rpm } # part of rpm, apart from FreeBSD port which is a separate project
+
+- { name: diaspora, verpat: "1\\.[0-9]+\\.[0-9]+", setname: diaspora-game }
+- { name: diaspora, setname: diaspora-social }
+
+- { name: dino, wwwpart: [dino.im, github.com/dino/dino], setname: dino-im }
+
+- { name: discord, wwwpart: xnblank, setname: discord-linux }
+
+# game vs. fuzzer
+- { name: dizzy, wwwpart: c0decafe.de, setname: dizzy-fuzzer }
+
+- { name: wmdocker,                    setname: docker-tray }
+- { name: docker,                      category: [x11,x11-plugins,"Graphical desktop/Window Maker","User Interface/X","universe/x11"], setname: docker-tray }
+- { name: docker,                      wwwpart: icculus.org,              setname: docker-tray }
+- { name: docker,                      family: gobolinux,                 setname: docker-tray }
+
+- { name: doit, wwwpart: sgtatham, setname: doit-sgtatham }
+
+- { name: dolphin,                     setname: dolphin-emu,              wwwpart: dolphin-emu.org }
+
+- { name: dragon,                      setname: dragon-scannerparser,     family: [ freebsd ] }
+- { name: dragon,                      setname: dragon-player                                }
+
+- { name: drill, wwwpart: apache.org,  setname: apache-drill }
+- { name: drill, setname: ldns }
+
+- { name: dt, wwwpart: 42wim/dt,       setname: dt-dns }
+- { name: dt, family: pkgsrc,          setname: dt-virtconsoles }
+
+# upstream completely dead, different project than https://github.com/craigbarnes/dte
+- { name: dte,                         setname: dte-dougt, family: macports }
+
+- { name: ddrescue,                    setname: dd_rescue, wwwpart: garloff } # dd_rescue, not GNU one

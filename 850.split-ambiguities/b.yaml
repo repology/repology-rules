@@ -1,0 +1,31 @@
+# vim: tabstop=29 expandtab softtabstop=29
+
+# mail client vs. asynchronous synthesis system
+- { name: balsa, category: sci-electronics,               setname: balsa-synthesis }
+
+# http://www.theiling.de/projects/bar.html vs http://clpbar.sourceforge.net
+# some of the latter lack WWWs, while all of the former do have them
+- { name: bar, wwwpart: clp,                              setname: clpbar }
+- { name: bar, wwwpart: theiling,                         addflag: theiling }
+- { name: bar, noflag: theiling,                          setname: clpbar }
+
+- { name: bats, wwwpart: github.com/cdown/bats,           setname: bats-battery-status }
+
+- { name: beanshell, family: kaos,                        setname: beanshell2 }
+
+- { name: beast, wwwpart: beast.bio.ed.ac.uk,             setname: beast-mcmc }
+- { name: beast, family: vcpkg,                           setname: boost-beast }
+
+- { name: bandcamp-dl, wwwpart: bandcamp-downloader,      setname: bandcamp-downloader }
+
+- { name: bcc, wwwpart: iovisor, setname: bcc-bpf }
+- { name: bcc, ruleset: [freebsd,pkgsrc,openindiana], setname: bcc-bruceevans }
+- { name: bcc, warning: "please classify me" }
+
+- { name: bos, wwwpart: boswars,                          setname: boswars }
+
+- { name: borg, wwwpart: borg-calendar,                   setname: borg-calendar }
+- { name: borg, wwwpart: ok-borg,                         setname: ok-borg }
+- { name: borg, wwwpart: borgbackup,                      setname: borgbackup }
+- { name: borg, family: sisyphus,                         setname: borgbackup }
+- { name: borg,                        warning: "please classify me" }

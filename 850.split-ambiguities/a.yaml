@@ -1,0 +1,20 @@
+# vim: tabstop=29 expandtab softtabstop=29
+
+- { name: aclock, family: freebsd, setname: gnustep-aclock } # gnustep; may be not ambiguity (yet), but too generic name for sure
+
+- { name: addresses, family: [freebsd,openbsd,pkgsrc], setname: gnustep-addresses } # gnustep; may be not ambiguity (yet), but too generic name for sure
+
+- { name: avogadro, verge: "1.8", setname: avogadro2 } # actually it starts with 1.90, but also cover strange 1.9 from KDE Neon
+
+- { name: alure, wwwpart: allureofthestars, setname: allureofthestars }
+- { name: alure, wwwpart: allure-framework/allure2, setname: allure-report }
+- { name: alure, warning: "please classify me" }
+
+- { name: arb, wwwpart: [fredrikj,arblib], setname: arb-fp }
+- { name: arb, verpat: "2.*", setname: arb-fp }
+- { name: arb, wwwpart: arb-home, setname: arb-dna }
+- { name: arb, verpat: "6.*", setname: arb-dna }
+- { name: arb, warning: "please classify me" }
+
+# both argus projects refer to monitoring, but argus-monitor name is alreay used in macports
+- { name: argus, wwwpart: tcp4me.com, setname: argus-monitor }

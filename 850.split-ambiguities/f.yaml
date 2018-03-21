@@ -1,0 +1,23 @@
+# vim: tabstop=29 expandtab softtabstop=29
+
+# swf extractor vs. game engine
+- { name: flare, wwwpart: nowrap.de, setname: flare-swf-extractor }
+
+- { name: flock, wwwpart: flock.com, setname: flock-browser }
+# need more flock splits
+
+- { name: forge, wwwpart: fsharp, setname: forge-fsharp }
+
+# file change monitor vs. file system checksum checker
+- { name: fswatch, verpat: "1.*",      setname: fswatch-mon }
+
+- { name: ftp, family: openbsd, setname: gnustep-ftp } # gnustep; may be not ambiguity (yet), but too generic name for sure
+
+- { name: fts, wwwpart: musl-fts, setname: musl-fts } # file tree traversal for musl
+- { name: fts, wwwpart: gonicus, setname: "fusefs:fts" } # fuse TFTP supplicant
+# otherwise fts3, "File Transfer Service V3"
+
+- { name: frozen-bubble, verpat: "[0-9]+\\.[0-9]{3}.*", setname: "perl:games-frozenbubble" } # XXX: branches usecase?
+
+- { name: fuse, wwwpart: fuse-emulator, setname: fuse-emulator }
+- { name: fuse, category: [emulators,app-emulation], setname: fuse-emulator }
