@@ -1,4 +1,4 @@
 all: check
 
 check:
-	@scripts/check.py *.yaml
+	@scripts/check.py $$(find . -name "*.yaml")
