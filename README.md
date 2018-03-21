@@ -143,7 +143,7 @@ directory of main Repology repository.
 
 You may specify a list of rulesets to match either of them.
 
-```
+```yaml
 - { ruleset: freebsd, ... }
 
 - { ruleset: [ arch, openbsd ], ... }
@@ -153,7 +153,7 @@ You may specify a list of rulesets to match either of them.
 
 Disable rule matching for specified ruleset(s).
 
-```
+```yaml
 # applies to all Debian derivatives, but not Deepin
 - { ruleset: debuntu, noruleset: deepin, ... }
 ```
@@ -168,7 +168,7 @@ Matches package category(ies). Note that category information is not
 available for all repositories and each repository may have its
 own set of categories.
 
-```
+```yaml
 - { category: games, ... }
 
 - { category: [ mail-client, mail-filter, mail-mta ], ... }
@@ -178,7 +178,7 @@ own set of categories.
 
 Match exact package name(s).
 
-```
+```yaml
 - { name: firefox, ... }
 
 - { name: [postgresql-client, postgresql-server, postgresql-contrib], ... }
@@ -189,7 +189,7 @@ Match exact package name(s).
 Matches package name against a regular expression. Whole name is
 matched. May contain captures.
 
-```
+```yaml
 - { name: "swig[0-9]+", ... }
 ```
 
@@ -197,7 +197,7 @@ matched. May contain captures.
 
 Matches exact package version(s).
 
-```
+```yaml
 - { name: firefox, ver: "50.0.1", ... }
 ```
 
@@ -207,7 +207,7 @@ Matches package version name against a regular expression. Whole
 version is matched. Note that you need to escape periods which
 mean "any symbol" in regular expressions.
 
-```
+```yaml
 - { name: firefox, verpat: "50\\.[0-9]+", ... }
 
 - { name: firefox, verpat: "50\\..*", ... }
@@ -220,7 +220,7 @@ Matches versions longer than a given number of dot-separated parts.
 Mostly useful to match broken version schemes with extra versions
 components added.
 
-```
+```yaml
 - { name: gimp, verlonger: 3, ...} # 2.9.8.12345 is something unofficial
 ```
 
@@ -233,7 +233,7 @@ Compares version to a given one and matches if it's:
 - **verlt**: lesser (<)
 - **verle**: lesser or equal (<=)
 
-```
+```yaml
 # match git >= 2.16
 - { name: git, verge: "2.16", ...}
 ```
@@ -249,7 +249,7 @@ unlike namepat and verpat, partial match is allowed here. Also
 note that it's preferred to escape dots with double slash, as `.`
 mean "any character" in regular expressions.
 
-```
+```yaml
 - { name: firefox, verpat: "mozilla\\.org", ... }
 ```
 
@@ -259,7 +259,7 @@ Matches when a package homepage contains given substring. This
 is usually more practical than **wwwpat**, and you don't need
 escaping.
 
-```
+```yaml
 - { name: firefox, verpat: "mozilla.org", ... }
 ```
 
@@ -274,7 +274,7 @@ Note that you don't need to use neither **name** nor **namepat** for
 `$0` to work, but you must have **namepat** with corresponding
 captures to use `$1` and so on.
 
-```
+```yaml
 # etracer→extreme-tuxracer
 - { name: etracer, setname: extreme-tuxracer }
 
@@ -291,7 +291,7 @@ captures to use `$1` and so on.
 Changes the version of the package. As with **setname**, you may
 use `$0`, `$1` placeholders.
 
-```
+```yaml
 # remove bogus leading version component
 - { verpat: "0\\.(.*)", setver: $1 }
 ```
@@ -301,7 +301,7 @@ use `$0`, `$1` placeholders.
 Set to `true` to completely remove package. It will not appear
 anywhere in repology. Set to `false` to undo.
 
-```
+```yaml
 # a metapackage which does not refer to any real project, we don't need it
 - { name: "x11-fonts", remove: true }
 ```
@@ -312,7 +312,7 @@ Set to `true` to mark version of matched package as development or
 unstable version, so it does not make latest stable version outdated.
 Set to `false` to undo.
 
-```
+```yaml
 # mark versions with odd second component as devel
 - { name: gnome-terminal, verpat: "[0-9]+\\.[0-9]*[13579]\\..*", devel: true }
 ```
@@ -354,7 +354,7 @@ Set to `true` to indicate that this project uses `p` letter in version
 to indicate post- or patch releases. This fixes version comparison, as
 by default `p` is treated as pre-release.
 
-```
+```yaml
 # sudo 1.8.21p2 > 1.8.21
 - { name: sudo, p_is_patch: true }
 ```
@@ -364,7 +364,7 @@ by default `p` is treated as pre-release.
 Set to `true` to indicate that this project uses any letter in version
 to indicate post- releases.
 
-```
+```yaml
 # rb here denotes a patchset, treat is as such
 - { name: webalizer, verpat: ".*rb.*", any_is_patch: true }
 ```
@@ -385,7 +385,7 @@ Set to `true` to force the package to be legacy instead of outdated.
 `false` to undo. Useful when a specific repository purposely contains
 an outdated version of specific project for compatibility purposes.
 
-```
+```yaml
 - { name: ruby-slack-notifier-1, ruleset: aur, legacy: true }
 ```
 
@@ -393,7 +393,7 @@ an outdated version of specific project for compatibility purposes.
 
 Output a given warning when matched. Useful to catch places which
 
-```
+```yaml
 # will catch unexpected versions
 - { name: gtk, verpat: "1\\..*", setname: gtk1 }
 - { name: gtk, verpat: "2\\..*", setname: gtk2 }
@@ -427,7 +427,7 @@ Flavors a plain strings and may be arbitrary, for example `client`
 and `server` in the last example. You may specify flavor explicitly
 or use `true` value to make flavor taken from the package name.
 
-```
+```yaml
 - { name: postgresql-client, setname: postgresql, addflavor: client }
 - { name: postgresql-server, setname: postgresql, addflavor: server }
 
@@ -450,7 +450,7 @@ Consider this a legacy, it should not be needed
 Takes pattern and replacement strings and applies them to the package
 name. Used for low-level normalization.
 
-```
+```yaml
 # slashes in package names are not allowed
 - { replaceinname: { "/": "-" } }
 
@@ -465,7 +465,7 @@ very beginning of the ruleset. The purpose of having this as a rule
 action is to be able to have exceptions, e.g. packages which should
 be distinguished solely by the case of their names.
 
-```
+```yaml
 - { tolowername: true }
 ```
 
@@ -479,7 +479,7 @@ based on the previous rules.
 Sets a virtual flag (arbitrary string) which only exists for the duration
 of rule processing and may be checked in the following rules.
 
-```
+```yaml
 - { name: python, addflag: not_python_module }
 ```
 
@@ -487,7 +487,7 @@ of rule processing and may be checked in the following rules.
 
 Only matches if the specified flag is (or is not) set.
 
-```
+```yaml
 - { name: python, addflag: not_python_module }
 ...
 # will add "python:" prefix to all packages in category "python",
