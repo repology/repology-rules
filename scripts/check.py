@@ -18,6 +18,7 @@
 # along with repology.  If not, see <http://www.gnu.org/licenses/>.
 
 import re
+from multiprocessing import Pool
 from sys import argv, exit, stderr
 
 from voluptuous import Any, MultipleInvalid, Required, Schema
@@ -137,7 +138,7 @@ class BadPlaceholderUsage(Exception):
 
 
 def load_rule_file(path):
-    with open(arg) as content:
+    with open(path) as content:
         return yaml.safe_load(content)
 
 
@@ -158,40 +159,57 @@ def validate_regexps(rule):
         ph = '$' + str(n)
 
         if 'setname' in rule and ph in rule['setname'] and n > namegroups:
-            raise BadPlaceholderUsage('{} is used in setname, but the regular expression only has {} capture group(s)'.format(ph, namegroups))
+            raise BadPlaceholderUsage('"{}" is used in setname, but the regular expression only has {} capture group(s)'.format(ph, namegroups))
         if 'addflavor' in rule and isinstance(rule['addflavor'], str) and ph in rule['addflavor'] and n > namegroups:
-            raise BadPlaceholderUsage('{} is used in addflavor, but the regular expression only has {} capture group(s)'.format(ph, namegroups))
+            raise BadPlaceholderUsage('"{}" is used in addflavor, but the regular expression only has {} capture group(s)'.format(ph, namegroups))
         if 'setver' in rule and ph in rule['setver'] and n > vergroups:
-            raise BadPlaceholderUsage('{} is used in setver, but the regular expression only has {} capture group(s)'.format(ph, vergroups))
+            raise BadPlaceholderUsage('"{}" is used in setver, but the regular expression only has {} capture group(s)'.format(ph, vergroups))
+
+
+class RulesetCheckResult:
+    def __init__(self, filename):
+        self.filename = filename
+        self.failures = []
+
+    def add_failure(self, message, description, rule=None):
+        self.failures.append((message, description, rule))
+
+    def is_ok(self):
+        return not self.failures
+
+    def dump_errors(self):
+        if self.is_ok():
+            return
+
+        print('===> Validation failed for {}'.format(self.filename), file=stderr)
+
+        for failure in self.failures:
+            print('{}: {}'.format(failure[0], failure[1]), file=stderr)
+            if failure[2]:
+                print('  Rule: {}'.format(failure[2]), file=stderr)
 
 
 def check_rule_file(path):
-    rules = None
-    try:
-        rules = load_rule_file(arg)
-    except yaml.parser.ParserError as e:
-        print('{}: cannot parse'.format(arg, str(e)), file=stderr)
-        return False
+    result = RulesetCheckResult(path)
 
-    result = True
+    rules = []
+    try:
+        rules = load_rule_file(path)
+    except yaml.parser.ParserError as e:
+        result.add_failure('cannot parse file', str(e))
+
     for rule in rules:
         try:
             schema(rule)
         except MultipleInvalid as e:
-            print('{}: schema check failed: {}'.format(arg, str(e)), file=stderr)
-            print('  Rule: {}'.format(rule), file=stderr)
-            result = False
+            result.add_failure('schema check failed', str(e), rule)
 
         try:
             validate_regexps(rule)
         except re.error as e:
-            print('{}: regular expression compilation failed: {}'.format(arg, str(e)), file=stderr)
-            print('  Rule: {}'.format(rule), file=stderr)
-            result = False
+            result.add_failure('regular expression problem', str(e), rule)
         except BadPlaceholderUsage as e:
-            print('{}: placeholder problem: {}'.format(arg, str(e)), file=stderr)
-            print('  Rule: {}'.format(rule), file=stderr)
-            result = False
+            result.add_failure('placeholder problem', str(e), rule)
 
     return result
 
@@ -201,8 +219,11 @@ if __name__ == '__main__':
         print('Usage: {} file.yaml ...'.format(argv[0]), file=stderr)
         exit(2)
 
+    results = Pool().map(check_rule_file, argv[1:])
+
     ok = True
-    for arg in argv[1:]:
-        ok &= check_rule_file(arg)
+    for result in results:
+        result.dump_errors()
+        ok &= result.is_ok()
 
     exit(0 if ok else 1)
