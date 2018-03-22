@@ -23,6 +23,8 @@
 - { name: pmount,                      verpat: "0\\.9\\.99.*",                             devel: true }
 - { name: polari,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: postfix,                     verpat: ".*r.*",                                    devel: true }
+- { name: postgis,                     verpat: ".*\\.9[0-9]+",       family: kaos,         incorrect: true } # 2.4.3.90 instead of 2.4.4dev
+- { name: postgis,                                                   family: kaos,         untrusted: true }
 - { name: postgresql,                  verpat: "11.*",                                     devel: true }
 - { name: postgresql,                  ver: ["11","11.0"],                                 ignore: true }
 - { name: powder-toy,                  verlonger: 2,                                       ignore: true } # third component is a build number, it's not a part of official version
