@@ -80,7 +80,9 @@
 - { setname: speed-dreams$1,           namepat: "speeddreams(-data)?" }
 - { setname: speed-dreams,             name: "speed dreams" }
 - { setname: speexdsp,                 name: libspeexdsp }
-- { setname: spidermonkey,             namepat: "spidermonkey[0-9]+" }
+- { setname: spidermonkey,             namepat: "spidermonkey[0-9_.-]+" }
+- { setname: spidermonkey,             namepat: "mozjs[0-9_.-]+" }
+- { setname: spidermonkey,             name: libspidermonkey }
 - { setname: sql-operations-studio,    name: sqlopsstudio }
 - { setname: spotify,                  name: [spotify-stable,spotify094] }
 - { setname: spotify,                  name: spotify-client, addflavor: client }
