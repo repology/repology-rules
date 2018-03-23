@@ -10,9 +10,12 @@
 - { setname: ices,                     namepat: "ices[0-9]+" }
 - { setname: icewm,                    name: icewm2 }
 - { setname: icon,                     name: icon-lang }
-- { setname: icu,                      name: icu-docs, addflavor: docs }
-- { setname: icu,                      namepat: "icu[0-9.-]+" }
+- { setname: icu,                      name: [icu-docs,icu-doxygen-docs,icu-layoutex,icu-staticlibs,icu-lx], addflavor: true }
+- { setname: icu,                      name: icu55-staticlibs, addflavor: icu-staticlibs }
+- { setname: icu,                      namepat: "(?:compat-)?(?:lib)?icu[0-9.-]+" }
+- { setname: icu,                      name: [icu4c,libicu4c] }
 - { setname: icu4j,                    namepat: "icu4j[0-9.-]+" }
+- { setname: icu4j,                    name: java-icu4j }
 - { setname: igal,                     namepat: "igal[0-9]+" }
 - { setname: iksemel,                  name: libiksemel }
 - { setname: imhangul,                 name: imhangul-gtk2, addflavor: gtk2 }
