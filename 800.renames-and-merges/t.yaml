@@ -54,7 +54,7 @@
 - { setname: tintin++,                 name: [tintin,tintinxx] }
 - { setname: tk,                       namepat: "tk8[0-9._-]+" } # don't mix with tk2, tk5, tk707 which are unrelated projects
 - { setname: tmux,                     name: tmux-fullwidth-backspace, addflavor: true }
-- { setname: tmux,                     name: tmux1.8 }
+- { setname: tmux,                     namepat: "tmux[0-9._-]+" }
 - { setname: tmuxinator,               name: "ruby:tmuxinator" }
 - { setname: tmw,                      name: the-mana-world }
 - { setname: tokyocabinet,             name: tokyo-cabinet }

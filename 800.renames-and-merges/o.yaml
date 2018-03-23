@@ -14,6 +14,7 @@
 - { setname: opencollada,              name: libopencollada }
 - { setname: opencv,                   name: opencv2 }
 - { setname: opendkim,                 name: libopendkim }
+- { setname: opendht,                  name: "python:opendht" }
 - { setname: openjade,                 name: jade, family: aosc }
 - { setname: openjade,                 namepat: "openjade[0-9._-]+" }
 - { setname: openjdk,                  namepat: "openjdk[0-9._-]*(?:-doc)?" }
@@ -34,6 +35,7 @@
 - { setname: openscenegraph,           name: open-scene-graph }
 - { setname: openscenegraph,           namepat: "openscenegraph[0-9.-]+" }
 - { setname: openscenegraph,           namepat: "osg(?:-devel)?" }
+- { setname: openshadinglanguage,      namepat: "openshadinglanguage[0-9._-]+" }
 - { setname: openshot,                 name: openshot-qt, addflavor: qt }
 - { setname: opensmtpd-extras,         namepat: "opensmtpd-extras-.*", family: [freebsd,openbsd] }
 - { setname: openssh,                  name: openssh-portable }

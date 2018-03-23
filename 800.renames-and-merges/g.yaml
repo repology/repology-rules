@@ -58,6 +58,7 @@
 - { setname: git,                      name: [git-base,git-docs,git-gitk,git-contrib,git-lite,git-gui,git-bashcompletion,gitweb,git-minimal,git-with-svn], addflavor: true }
 - { setname: gitflow,                  name: [git-flow,git_flow] }
 - { setname: gitg,                     name: gitg0, family: freebsd }
+- { setname: githud,                   name: "haskell:githud" }
 - { setname: gitinspector,             name: "python:gitinspector" }
 - { setname: gitter,                   name: gitter-bin }
 - { setname: gitter-cli,               name: "node:gitter-cli" }
@@ -161,6 +162,7 @@
 - { setname: gnustep-volume,           name: volume-app }
 - { setname: gnutls,                   name: [gnutls-dane,gnutls-openssl,gnutls-tiny], addflavor: true }
 - { setname: gnutls,                   namepat: "(?:lib)?gnutls[0-9._-]*" }
+- { setname: goat,                     name: "rust:goat" }
 - { setname: gobject-introspection,    name: [gobject-introspection-common,gobject-introspection-runtime] }
 - { setname: godot,                    name: [godot-pulse,godot-tools,godot-mono,godot-engine], addflavor: true }
 - { setname: godot,                    name: godot2 }

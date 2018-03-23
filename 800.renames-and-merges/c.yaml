@@ -42,7 +42,9 @@
 - { setname: centerim,                 name: centerim-devel, ignore: true }
 - { setname: ceti-2-theme,             name: ceti-2-themes }
 - { setname: cfengine,                 namepat: "cfengine[0-9]+" } # XXX: split?
+- { setname: cfengine,                 namepat: cfengine-devel, ignore: true }
 - { setname: cfengine-masterfiles,     namepat: "cfengine-masterfiles[0-9]+" }
+- { setname: cfengine-masterfiles,     namepat: cfengine-masterfiles-devel, ignore: true }
 - { setname: cfitsio,                  name: cfitsio3 }
 - { setname: cfr,                      name: cfr-decompiler }
 - { setname: cgal,                     name: cgal-ipelets, addflavor: ipelets }
