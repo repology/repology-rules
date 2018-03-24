@@ -47,6 +47,8 @@
 - { name: solvespace,                  verpat: ".*[0-9]{8}.*",                             ignore: true } # nix garbage
 - { name: spatialite-gui,              ver: "2.0.0",                                       devel: true }
 - { name: spek,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]+_[0-9a-f]{10}",    ignore: true }
+- { name: speed-dreams,                ver: "2.2.2",                 ruleset: fedora,      incorrect: true } # 2.2.2rc2
+- { name: speed-dreams,                                              ruleset: fedora,      untrusted: true }
 - { name: speex,                       verlonger: 3,                 family: openindiana,  ignore: true }
 - { name: speexdsp,                    ver: "1.2.0.3",                                     incorrect: true } # it's 1.2rc3
 - { name: speexdsp,                    ver: "1.2",                   family: [fedora,mageia,openmandriva,sisyphus], incorrect: true } # it's 1.2rc3
