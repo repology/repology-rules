@@ -4,6 +4,8 @@
 - { name: w3m,                         verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: wakeonlan,                   verlonger: 3,                 family: sisyphus,     ignore: true }
 - { name: [warsow,warsow-data],        ver: "2.10",                  family: debuntu,      incorrect: true } # playdeb weirdnes
+- { name: wayland,                     ver: "1.14.91",                                     setver: "1.15-alpha" }
+- { name: wayland,                     ver: "1.14.92",                                     setver: "1.15-beta" }
 - { name: webalizer,                   verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.([0-9]+)",    setver: $1.rb$2 }
 - { name: webalizer,                   verpat: ".*rb.*",                                   successor: true, any_is_patch: true } # patchset
 - { name: webkitgtk,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
