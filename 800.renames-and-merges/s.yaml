@@ -80,8 +80,9 @@
 - { setname: speed-dreams,             namepat: "speed-?dreams-.*", addflavor: true }
 - { setname: speexdsp,                 name: libspeexdsp }
 - { setname: spidermonkey,             namepat: "spidermonkey[0-9_.-]+" }
-- { setname: spidermonkey,             namepat: "mozjs[0-9_.-]+" }
-- { setname: spidermonkey,             name: libspidermonkey }
+- { setname: spidermonkey,             namepat: "mozjs[0-9_.-]*" }
+- { setname: spidermonkey,             namepat: "js[0-9_.-]+" }
+- { setname: spidermonkey,             name: [libspidermonkey,spidermonkey-ff17] }
 - { setname: sql-operations-studio,    name: sqlopsstudio }
 - { setname: spotify,                  name: [spotify-stable,spotify094] }
 - { setname: spotify,                  name: spotify-client, addflavor: client }
