@@ -128,7 +128,7 @@ schema = Schema(
         'addflag': str,
         'last': bool,
         'tolowername': bool,
-        'replaceinname': dict,
+        'replaceinname': {str: str},
         'warning': str,
     }
 )
