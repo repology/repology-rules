@@ -7,6 +7,7 @@
 - { setname: icecast,                  name: icecast2 }
 - { setname: icecat,                   name: icecat-debug, addflavor: debug }
 - { setname: icecat,                   namepat: "icecat-(l10n.*)", addflavor: $1 }
+- { setname: icedove,                  namepat: "icedove-(l10n.*)", addflavor: $1 }
 - { setname: ices,                     namepat: "ices[0-9]+" }
 - { setname: icewm,                    name: icewm2 }
 - { setname: icon,                     name: icon-lang }
