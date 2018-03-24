@@ -1,0 +1,187 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+#- { namepat: "(?:fonts-)?(?:[ot]tf-)?(gdouros-.+?)(?:-fonts)?", setname: "fonts:$1" }
+
+- setname: "fonts:gdouros-aegean"
+  name:
+    - aegean-ttf
+    - fonts-otf-aegean
+    - fonts-otf-gdouros-aegean
+    - gdouros-aegean-fonts
+
+- setname: "fonts:gdouros-aegyptus"
+  name:
+    - aegyptus
+    - aegyptus-ttf
+    - fonts-otf-aegyptus
+    - fonts-otf-gdouros-aegyptus
+    - gdouros-aegyptus-fonts
+
+- setname: "fonts:gdouros-akkadian"
+  name:
+    - akkadian
+    - akkadian-ttf
+    - fonts-otf-akkadian
+    - fonts-otf-gdouros-akkadian
+    - gdouros-akkadian-fonts
+
+- setname: "fonts:gdouros-alexander"
+  name:
+    - fonts-otf-alexander
+    - fonts-otf-gdouros-alexander
+    - gdouros-alexander-fonts
+
+- setname: "fonts:gdouros-alfios"
+  name:
+    - fonts-otf-alfios
+    - gdouros-alfios-fonts
+
+- setname: "fonts:gdouros-anaktoria"
+  name:
+    - fonts-otf-anaktoria
+    - fonts-ttf-gdouros-anaktoria
+    - gdouros-anaktoria-fonts
+
+- setname: "fonts:gdouros-analecta"
+  name:
+    - analecta
+    - fonts-otf-analecta
+    - fonts-otf-gdouros-analecta
+    - gdouros-analecta-fonts
+
+- setname: "fonts:gdouros-anatolian"
+  name:
+    - anatolian
+    - anatolian-ttf
+    - gdouros-anatolian-fonts
+
+- setname: "fonts:gdouros-aroania"
+  name:
+    - fonts-otf-aroania
+    - fonts-ttf-gdouros-aroania
+    - gdouros-aroania-fonts
+
+- setname: "fonts:gdouros-asea"
+  name:
+    - asea-ttf
+    - fonts-ttf-gdouros-asea
+    - gdouros-asea-fonts
+
+- setname: "fonts:gdouros-atavyros"
+  name:
+    - fonts-otf-atavyros
+    - gdouros-atavyros-fonts
+
+- setname: "fonts:gdouros-avdira"
+  name:
+    - fonts-otf-avdira
+    - fonts-ttf-gdouros-avdira
+    - gdouros-avdira-fonts
+
+- setname: "fonts:gdouros-musica"
+  name:
+    - fonts-otf-gdouros-musica
+    - fonts-otf-musica
+    - gdouros-musica-fonts
+    - musica
+
+- setname: "fonts:gdouros-symbola"
+  name:
+    - fonts-otf-gdouros-symbola
+    - fonts-otf-symbola
+    - gdouros-symbola-fonts
+    - symbola
+    - symbola-font-ttf
+    - symbola-ttf
+    - ttf-symbola
+    - ttf-symbola-ib
+
+- setname: "fonts:gentium-basic"
+  name:
+    - fonts-gentium-basic
+    - fonts-sil-gentium-basic
+    - fonts-ttf-sil-gentium-basic
+    - gentium-book-basic
+    - gentiumbasic
+    - sil-gentium-basic-fonts
+    - ttf-gentium-basic
+
+# unspecified (not basic, not plus) gentium packages seems to be
+# outdated as their homepages point to a redirect page; we stick
+# them into gentium plus which has version higher than any of them
+# to make them outdated
+- setname: "fonts:gentium-plus"
+  name:
+    - fonts-sil-gentium
+    - fonts-ttf-gentium
+    - fonts-ttf-sil-gentium
+    - gentium
+    - gentium-ttf
+    - sil-gentium
+    - sil-gentium-fonts
+    - ttf-gentium
+
+- setname: "fonts:gentium-plus"
+  name:
+    - fonts-sil-gentiumplus
+    - fonts-sil-gentiumplus-compact
+    - gentiumplus
+    - ttf-gentium-plus
+
+- setname: "fonts:gfs-bodoni"
+  name:
+    - fonts-otf-gfs-bodoni
+    - gfs-bodoni-fonts
+- setname: "fonts:gfs-ambrosia"
+  name:
+    - fonts-otf-gfs-ambrosia
+    - gfs-ambrosia-fonts
+
+- setname: "fonts:gfs-artemisia"
+  name:
+    - fonts-gfs-artemisia
+    - fonts-otf-gfs-artemisia
+    - gfs-artemisia-fonts
+
+- setname: "fonts:gfs-bodoni-classic"
+  name:
+    - fonts-gfs-bodoni-classic
+    - fonts-otf-gfs-bodoni-classic
+    - gfs-bodoni-classic-fonts
+
+- setname: "fonts:georgewilliams"
+  name:
+    - gw-fonts-ttf
+    - fonts-georgewilliams
+    - ttf-georgewilliams
+
+- setname: "fonts:gnu-freefont"
+  name:
+    - font-gnu-freefont-ttf
+    - fonts-freefont
+    - fonts-ttf-freefont
+    - fonts-ttf-freefont
+    - fonts-ttf-gnu-freefont
+    - freefont
+    - freefont-ttf
+    - gnu-free-fonts
+    - ttf-freefont
+
+- setname: "fonts:go"
+  name:
+    - font-go
+    - fonts-go
+    - go-font
+    - go-fonts
+    - go-ttf
+    - gofonts
+
+- setname: "fonts:goudybookletter"
+  name:
+    - fonts-goudybookletter
+    - ttf-goudybookletter
+
+- setname: "fonts:grimmer-proggy-tinysz"
+  name:
+    - fonts-ttf-grimmer-proggy-tinysz
+    - grimmer-proggy-tinysz-fonts

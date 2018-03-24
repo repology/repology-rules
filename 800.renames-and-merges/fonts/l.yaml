@@ -1,0 +1,72 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: "fonts:lateef"
+  name:
+    - fonts-sil-lateef
+    - fonts-ttf-sil-lateef
+    - lateef_font
+    - sil-lateef-fonts
+    - ttf-sil-lateef
+
+- setname: "fonts:lato"
+  name:
+    - font-lato
+    - fonts-lato
+    - fonts-ttf-google-lato
+    - google-lato-fonts
+    - lato
+    - lato-ttf
+    - ttf-lato
+
+- setname: "fonts:liberation"
+  name:
+    - font-liberation
+    - fonts-liberation
+    - fonts-liberation2
+    - fonts-ttf-liberation
+    - fonts-ttf-liberation-narrow
+    - liberation-fonts
+    - liberation-fonts-ttf
+    - liberation-ttf
+    - liberation2-fonts
+    - liberation_fonts
+    - liberationsansnarrow
+    - ttf-liberation
+    - ttf-liberation-sans-narrow
+
+- setname: "fonts:linex"
+  name:
+    - fonts-linex
+    - ttf-linex-fonts
+
+- setname: "fonts:linuxlibertine"
+  name:
+    - font-linuxlibertine
+    - fonts-linuxlibertine
+    - fonts-ttf-libertine
+    - fonts-ttf-linuxlibertine
+    - libertine-fonts
+    - linux-libertine
+    - linux-libertine-fonts
+    - linux-libertine-ttf
+    - linuxlibertine
+    - linuxlibertine-fonts-otf
+    - linuxlibertine-fonts-ttf
+    - ttf-linux-libertine
+
+- { setname: "fonts:linuxlibertine",   name: libertine, category: media-fonts }
+- { setname: "fonts:linuxlibertine-g", name: [linuxlibertine-g,ttf-linux-libertine-g] }
+
+- setname: "fonts:lklug-sinhala"
+  name:
+    - fonts-lklug-sinhala
+    - sinhala-lklug-font-ttf
+
+- setname: "fonts:lobstertwo"
+  name:
+    - fonts-lobstertwo
+    - lobstertwo
+    - ttf-impallari-lobstertwo
+
+- { setname: "fonts:$1",               namepat: "(?:fonts-)?(?:ttf-)?(lohit-.+?)(?:-fonts)?", last: true }
+- { setname: "fonts:lohit",            name: [fonts-ttf-lohit,lohit] }

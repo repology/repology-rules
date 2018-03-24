@@ -1,0 +1,81 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: "fonts:babelstone-han"
+  name:
+    - babelstone-han
+    - babelstone-han-fonts
+    - fonts-babelstone-han
+    - ttf-babelstone-han
+
+- setname: "fonts:babelstone-modern"
+  name:
+    - babelstone-modern-fonts
+    - fonts-babelstone-modern
+
+- { setname: "fonts:babelstone-marchen", name: babelstone-marchen-fonts }
+- { setname: "fonts:babelstone-ogham", name: babelstone-ogham-fonts }
+- { setname: "fonts:babelstone-phags-pa", name: babelstone-phags-pa-fonts }
+- { setname: "fonts:babelstone-runic", name: babelstone-runic-fonts }
+
+- setname: "fonts:baekmuk"
+  name:
+    - baekmuk-bdf-fonts
+    - baekmuk-bitmap-fonts
+    - bdf-baekmuk
+    - fonts-bitmap-baekmuk
+  addflavor: bdf
+
+- setname: "fonts:baekmuk"
+  name:
+    - baekmuk-ttf
+    - baekmuk-ttf-fonts
+    - fonts-ttf-baekmuk
+    - ko-baekmuk-ttf
+    - ttf-baekmuk
+  addflavor: ttf
+
+- setname: "fonts:baekmuk"
+  name:
+    - baekmuk-fonts
+    - fonts-baekmuk
+    - ko-baekmuk
+    - ko-baekmuk-fonts
+    - xfonts-baekmuk
+
+- setname: "fonts:beteckna"
+  name:
+    - beteckna-fonts
+    - fonts-beteckna
+    - fonts-otf-beteckna
+    - ttf-beteckna
+
+- setname: "fonts:bh-type1"
+  name:
+    - font-bh-type1
+    - x11-font-bh-type1
+    - xorg-font-bh-type1
+
+- setname: "fonts:bitstream-speedo"
+  name:
+    - font-bitstream-speedo
+    - x11-font-bitstream-speedo
+    - xorg-font-bitstream-speedo
+
+- setname: "fonts:bitstream-type1"
+  name:
+    - font-bitstream-type1
+    - x11-font-bitstream-type1
+    - xorg-font-bitstream-type1
+
+- setname: "fonts:bitstream-vera"
+  name:
+    - bitstream-vera
+    - bitstream-vera-fonts
+    - bitstream-vera-ttf
+    - font-bitstream-vera
+    - fonts-ttf-bitstream-vera
+    - fonts-ttf-vera
+    - ttf-bitstream-vera
+    - ttf-bitstream-vera-dummy
+    - vera-ttf
+    - xorg-font-bitstream-vera

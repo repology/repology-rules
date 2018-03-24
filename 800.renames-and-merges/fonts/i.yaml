@@ -1,0 +1,102 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: "fonts:ibm-plex"
+  name:
+    - font-ibm-plex
+    - ibm-plex
+    - ibm-plex-fonts
+    - ibm_plex
+    - otf-ibm-plex
+    - ttf-ibm-plex
+
+- setname: "fonts:ibm-type1"
+  name:
+    - font-ibm-type1
+    - x11-font-ibm-type1
+    - xorg-font-ibm-type1
+
+- setname: "fonts:inconsolata"
+  name:
+    - font-inconsolata
+    - fonts-inconsolata
+    - fonts-otf-inconsolata
+    - fonts-ttf-inconsolata
+    - google-inconsolata-fonts
+    - inconsolata-font
+    - inconsolata-fonts
+    - inconsolata-ttf
+
+- setname: "fonts:inconsolata-g"
+  name:
+    - inconsolata-g
+    - ttf-inconsolata-g
+
+- setname: "fonts:inconsolata-hellenic"
+  name:
+    - inconsolata-hellenic
+    - ttf-inconsolata-hellenic
+
+- setname: "fonts:inconsolata-lgc"
+  name:
+    - inconsolata-lgc
+    - otf-inconsolata-lgc
+    - ttf-inconsolata-lgc
+
+- setname: "fonts:inter-ui"
+  name:
+    - inter-ui
+    - ttf-inter-ui
+
+- setname: "fonts:iosevka"
+  name:
+    - font-iosevka
+    - iosevka
+    - iosevka-fonts
+    - ttf-inziu-iosevka
+    - ttf-inziu-iosevka-ttfs
+    - ttf-iosevka
+
+- { setname: "fonts:iosevka",          namepat: "ttf-iosevka-(.*)" }
+
+- setname: "fonts:impallari-lobster"
+  name:
+    - fonts-otf-impallari-lobster
+    - impallari-lobster-fonts
+    - ttf-impallari-lobster-font
+
+- setname: "fonts:ipa"
+  name:
+    - font-ipa
+    - font-ipa-uigothic
+    - font-ipaex
+    - fonts-ipaexfont
+    - fonts-ipafont
+    - ipa-bolditalic-fonts
+    - ipa-ex-fonts
+    - ipa-ex-gothic-fonts
+    - ipa-ex-mincho-fonts
+    - ipa-fonts
+    - ipa-gothic-fonts
+    - ipa-mincho-fonts
+    - ipa-pgothic-fonts
+    - ipa-pmincho-fonts
+    - ipa-uigothic-fonts
+    - ipaex
+    - ipaexfont
+    - ipafont
+    - ja-ipafonts
+    - otf-ipaexfont
+    - otf-ipafont
+
+- setname: "fonts:isabella"
+  name:
+    - fonts-isabella
+    - isabella-ttf
+    - otf-isabella
+    - ttf-isabella
+
+- setname: "fonts:isas-misc"
+  name:
+    - x11-font-isas-misc
+    - xorg-font-isas-misc
+    - font-isas-misc

@@ -1,0 +1,37 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: "fonts:winitzki-cyrillic"
+  name:
+    - font-winitzki-cyrillic
+    - x11-font-winitzki-cyrillic
+    - xorg-font-winitzki-cyrillic
+
+- setname: "fonts:wqy-microhei"
+  name:
+    - font-wqy-microhei
+    - fonts-ttf-wqy-microhei
+    - fonts-wqy-microhei
+    - ttf-wqy-microhei
+    - ttf-wqy-microhei-ibx
+    - wqy-microhei
+    - wqy-microhei-font-ttf
+    - wqy-microhei-fonts
+    - wqy-microhei-kr-patched
+    - wqy-microhei-lite
+    - wqy_microhei
+- { setname: "fonts:wqy-microhei", name: wqy-microhei-nightly_build, ignore: true }
+
+- setname: "fonts:wqy-zenhei"
+  name:
+    - font-wqy-zenhei
+    - fonts-ttf-wqy-zenhei
+    - fonts-wqy-zenhei
+    - ttf-wqy-zenhei
+    - ttf-wqy-zenhei-ibx
+    - wqy-zenhei
+    - wqy-zenhei-font-ttf
+    - wqy-zenhei-fonts
+    - wqy-zenhei-ttf
+    - wqy_zenhei
+    - zh-wqy-zenhei-ttf
+- { setname: "fonts:wqy-zenhei", name: wqy-zenhei-nightly_build, ignore: true }

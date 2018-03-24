@@ -1,0 +1,144 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: "fonts:cantarell"
+  name:
+    - abattis-cantarell-fonts
+    - cantarell
+    - cantarell-fonts
+    - font-abattis-cantarell
+    - fonts-cantarell
+    - fonts-otf-abattis-cantarell
+    - ttf-cantarell
+
+- setname: "fonts:cardo" # needs post-split (google vs. scgolarsfonts)
+  name:
+    - cardo
+    - fonts-ttf-scholarsfonts-cardo
+    - google-cardo-fonts
+    - scholarsfonts-cardo-fonts
+    - ttf-cardo
+
+- setname: "fonts:cica"
+  name:
+    - font-cica
+    - ttf-cica
+
+- setname: "fonts:cjkuni"
+  name:
+    - cjkuni-fonts
+    - cjkunifonts
+
+- setname: "fonts:cjkuni"
+  name:
+    - cjkuni-ukai-fonts
+    - fonts-ttf-cjkuni-ukai
+  addflavor: ukai
+
+- setname: "fonts:cjkuni"
+  name:
+    - cjkuni-uming-fonts
+    - fonts-ttf-cjkuni-uming
+  addflavor: uming
+
+- setname: "fonts:cheapskate"
+  name:
+    - ttf-cheapskate
+    - cheapskatefonts
+
+- setname: "fonts:chinese-opendesktop"
+  name:
+    - fonts-ttf-chinese-opendesktop
+
+- setname: "fonts:clearsans"
+  name:
+    - clear_sans
+    - clearsans
+    - ttf-clear-sans
+
+- setname: "fonts:cm-unicode"
+  name:
+    - cm-unicode
+    - cm-unicode-fonts
+    - otf-cm-unicode
+    - ttf-cm-unicode
+
+- setname: "fonts:comfortaa"
+  name:
+    - aajohan-comfortaa-fonts
+    - comfortaa
+    - comfortaa-ttf
+    - fonts-comfortaa
+    - fonts-ttf-aajohan-comfortaa
+    - ttf-comfortaa
+
+- setname: "fonts:comic-neue"
+  name:
+    - comic-neue
+    - comic-neue-fonts
+    - comic_neue
+    - font-comic-neue
+    - fonts-otf-comic-neue
+    - ttf-comic-neue
+
+- setname: "fonts:cns11643"
+  name:
+    - cns11643-font
+    - font-cns11643
+    - font-cns11643-swjz
+    - fonts-cns11643
+
+- setname: "fonts:consolamono"
+  name:
+    - consolamono-ttf
+    - fonts-ttf-consolamono
+
+- setname: "fonts:cronyx"
+  name:
+    - cronyx-fonts
+    - xfonts-cronyx
+
+- setname: "fonts:cronyx-cyrillic"
+  name:
+    - font-cronyx-cyrillic
+    - x11-font-cronyx-cyrillic
+    - xorg-font-cronyx-cyrillic
+
+- setname: "fonts:croscore"
+  name:
+    - croscorefonts
+    - google-croscore-fonts
+    - ttf-crosscorefonts # XXX: should be renamed to ttf-crosscorefonts in SlackBuilds (it's CrOS (as in Chrome OS), not cross)
+
+- setname: "fonts:crosextra-caladea"
+  name:
+    - caladea
+    - crosextrafonts-caladea
+    - fonts-crosextra-caladea
+    - fonts-ttf-google-crosextra-caladea
+    - google-caladea-fonts
+    - google-crosextra-caladea-fonts
+    - ttf-caladea
+
+- setname: "fonts:crosextra-carlito"
+  name:
+    - carlito
+    - crosextrafonts-carlito
+    - fonts-crosextra-carlito
+    - fonts-ttf-google-crosextra-carlito
+    - google-carlito-fonts
+    - google-crosextra-carlito-fonts
+    - ttf-carlito
+
+- setname: "fonts:culmus"
+  name:
+    - culmus
+    - culmus-ancient-semitic-fonts
+    - culmus-fancy
+    - culmus-fonts
+    - fonts-ttf-culmus
+
+- setname: "fonts:cyberbit"
+  name:
+    - bitstream-cyberbit
+    - cyberbit-ttf
+    - cyberbit-ttfonts
