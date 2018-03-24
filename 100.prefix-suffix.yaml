@@ -24,13 +24,8 @@
 
 - { ruleset: kaos,            namepat: "(.*)-debug", setname: "$1", addflavor: debug }
 
-- { ruleset: libregamewiki,   replaceinname: { " ", "-" } }
-- { ruleset: libregamewiki,   replaceinname: { "!", "" } }
-- { ruleset: libregamewiki,   replaceinname: { ",", "" } }
-- { ruleset: libregamewiki,   replaceinname: { ":", "" } }
-- { ruleset: libregamewiki,   replaceinname: { "'", "" } }
-- { ruleset: libregamewiki,   replaceinname: { ".", "" } }
-- { ruleset: libregamewiki,   replaceinname: { "---", "-" } }
+- { ruleset: [libregamewiki,fdroid], replaceinname: { " ": "-", "!": "", ",": "", ":": "", "'": "", ".": "", "(": "", ")": "" } }
+- { ruleset: [libregamewiki,fdroid], replaceinname: { "---": "-" } }
 
 - { ruleset: macports,        namepat: "(.*)-devel", setname: "$1", ignore: true }
 

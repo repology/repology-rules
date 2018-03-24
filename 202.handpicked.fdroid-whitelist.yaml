@@ -6,7 +6,7 @@
 #
 
 - { ruleset: fdroid,                              remove: true }
-- { ruleset: fdroid, name: "andor's trail",       remove: false } # as an exception, allow android project (present in f-droid and libregamewiki)
+- { ruleset: fdroid, name: andors-trail,          remove: false } # as an exception, allow android project (present in f-droid and libregamewiki)
 - { ruleset: fdroid, name: busybox,               remove: false }
 - { ruleset: fdroid, name: freeminer,             remove: false }
 - { ruleset: fdroid, name: hyperrogue,            remove: false }
