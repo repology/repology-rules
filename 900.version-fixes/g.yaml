@@ -21,6 +21,8 @@
 - { name: gettext,                     ver: "2",                                           ignore: true } # libintl from LEDE
 - { name: geocode-glib,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gimp,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: git,                         ver: "2.17.0",                ruleset: fedora,      incorrect: true }
+- { name: git,                                                       ruleset: fedora,      untrusted: true }
 - { name: git-bzr-ng,                                                                      noscheme: true }
 - { name: gjs,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: glade,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
