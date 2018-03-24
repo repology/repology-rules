@@ -24,7 +24,7 @@
 - { setname: pdns,                     name: powerdns }
 - { setname: pdumpfs,                  name: "ruby:pdumpfs" }
 - { setname: pelican,                  name: "python:pelican" }
-- { setname: perf,                     name: perf-linux }
+- { setname: perf,                     name: [perf-linux,perf-lts] }
 - { setname: pg_dirtyread,             namepat: "(postgresql[0-9._-]*)-pg_dirtyread", addflavor: $1 }
 - { setname: pg_repack,                namepat: "(postgresql[0-9._-]*)-pg_repack", addflavor: $1 }
 - { setname: pgcli,                    name: "python:pgcli" }
