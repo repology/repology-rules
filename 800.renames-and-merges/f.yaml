@@ -11,7 +11,7 @@
 - { setname: fastd,                    name: fastd-devel, ignore: true }
 - { setname: fcgi,                     name: [fcgi-devkit,libfcgi] }
 - { setname: fcgi-cgi,                 name: fcgi-cgi-static, addflavor: static }
-- { setname: fcitx,                    name: [fcitx-gtk2,fcitx-gtk3] }
+- { setname: fcitx,                    name: [fcitx-gtk2,fcitx-gtk3], addflavor: true }
 - { setname: fdk-aac,                  name: libfdk-aac }
 - { setname: fdkaac,                   name: fdk-aac-encoder }
 - { setname: fetch-crl,                name: fetch-crl3 }
@@ -29,14 +29,14 @@
 - { setname: firebird,                 namepat: "firebird[0-9.-]*(?:-client|-server)?" }
 - { setname: firefox,                  namepat: "firefox-developer(.*)", addflavor: $1, devel: true }
 - { setname: firefox,                  namepat: "firefox-developer-edition(.*)", addflavor: $1, devel: true }
+- { setname: firefox,                  namepat: "firefox-esr[0-9.-]*" }
+- { setname: firefox,                  namepat: "firefox-esr[0-9.-]*(-gtk2|-privacy|-unwrapped)", addflavor: $1 }
 - { setname: firefox,                  namepat: "firefox[0-9.-]*" }
 - { setname: firefox-beta-i18n,        namepat: "firefox-beta-i18n-.*" }
-- { setname: firefox-esr,              namepat: "firefox-esr[0-9.-]*" }
-- { setname: firefox-esr,              namepat: "firefox-esr[0-9.-]*(-gtk2|-privacy|-unwrapped)" }
-- { setname: firefox-esr-i18n,         namepat: "firefox-esr-i18n-.*" }
+- { setname: firefox-esr-i18n,         namepat: "firefox-esr-(i18n-.*)", addflavor: $1 }
 - { setname: firefox-esr-l10n,         namepat: "firefox-esr[0-9.-]*-l10n" }
 - { setname: firefox-i18n,             namepat: "firefox-(i18n|l10n)-.*" }
-- { setname: firefox-kde-i18n,         namepat: "firefox-kde-i18n-.*" }
+- { setname: firefox-kde-i18n,         namepat: "firefox-(kde-i18n-.*)", addflavor: $1 }
 - { setname: five-or-more,             name: gnome-games-five-or-more }
 - { setname: flac,                     name: flac-doc, addflavor: doc }
 - { setname: flare,                    name: [flare-engine,flare-game], addflavor: true } # these are actually distinct packages, but too many repos merge them together
