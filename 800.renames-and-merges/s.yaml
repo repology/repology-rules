@@ -76,7 +76,7 @@
 - { setname: sparsehash,               name: google-sparsehash }
 - { setname: spatialite-gui,           name: spatialite-gui-devel, ignore: true }
 - { setname: speed-dreams,             name: speeddreams }
-- { setname: speed-dreams,             namepat: "speed-dreams-.*", addflavor: true }
+- { setname: speed-dreams,             namepat: "speed-?dreams-.*", addflavor: true }
 - { setname: speexdsp,                 name: libspeexdsp }
 - { setname: spidermonkey,             namepat: "spidermonkey[0-9_.-]+" }
 - { setname: spidermonkey,             namepat: "mozjs[0-9_.-]+" }
