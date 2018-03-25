@@ -28,7 +28,7 @@
 - { setname: sdllopan,                 name: sdl_lopan }
 - { setname: sdlmame,                  name: sdlmame-wout-toolkits, addflavor: wout-toolkits }
 - { setname: sdocbook-xml,             name: docbook-xml-simple } # ravenports
-- { setname: seamonkey-i18n,           namepat: "seamonkey-i18n-.*", family: openbsd }
+- { setname: seamonkey-i18n,           namepat: "seamonkey-(i18n-.*)", addflavor: $1 }
 - { setname: searx,                    name: searx-py3 }
 - { setname: sed,                      name: [gnu-sed,gnused,gsed] }
 - { setname: sendmail,                 namepat: "sendmail\\+.*", family: freebsd }
