@@ -81,7 +81,7 @@
 - { setname: speexdsp,                 name: libspeexdsp }
 - { setname: spidermonkey,             namepat: "spidermonkey[0-9_.-]+" }
 - { setname: spidermonkey,             namepat: "mozjs[0-9_.-]*" }
-- { setname: spidermonkey,             namepat: "js[0-9_.-]+" }
+- { setname: spidermonkey,             namepat: "js[0-9]{2}" }
 - { setname: spidermonkey,             name: [libspidermonkey,spidermonkey-ff17] }
 - { setname: sql-operations-studio,    name: sqlopsstudio }
 - { setname: spotify,                  name: [spotify-stable,spotify094] }
