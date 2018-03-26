@@ -53,7 +53,8 @@
 - { name: cpufreqd,                    ver: "2.4.3",                 family: sisyphus,     ignore: true } # fake
 - { name: cpulimit,                    verpat: "20[0-8]{6}.*",                             ignore: true } # hyperbola
 - { name: crack-attack,                ver: "1.1.15_cvs_01",                               ignore: true }
-- { name: creduce,                     verpat: "2\\.7.*",            family: debuntu,      ignore: true }
+- { name: creduce,                     verpat: "2\\.8.*",            ruleset: [debuntu,openmandriva], incorrect: true }
+- { name: creduce,                                                   ruleset: [debuntu,openmandriva], untrusted: true }
 - { name: crda,                        ver: "3.18_2016.02.08",                             ignore: true }
 - { name: crimson,                     ver: "2014.10",                                     ignore: true }
 - { name: critterding,                 verpat: "1\\.0(beta.*)",                            setver: "$1" }
