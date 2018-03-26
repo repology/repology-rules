@@ -78,6 +78,9 @@
 - { setname: brasero,                  name: [brasero2,brasero-dvdcssfix] }
 - { setname: breakpad,                 name: google-breakpad }
 - { setname: brisk-menu,               name: mate-brisk-menu }
+- { setname: brotli,                   name: [brotli-static,brotli-testdata,google-brotli,libbrotli,"python:brotli"], addflavor: true }
+- { setname: brotli,                   name: brotli06 }
+- { setname: brotli,                   name: brotli06-testdata, addflavor: brotli-testdata }
 - { setname: bsh,                      name: bsh2 }
 - { setname: btanks,                   name: battle-tanks }
 - { setname: btanks,                   name: btanks-data, addflavor: data }
