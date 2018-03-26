@@ -200,6 +200,7 @@
 - { setname: gtk,                      namepat: "(?:lib)?gtk[0-9._+-]*" }
 - { setname: gtk-doc,                  name: gtk-doc-am, addflavor: am }
 - { setname: gtkdatabox,               name: libgtkdatabox }
+- { setname: gtkhtml,                  namepat: "(?:lib)?gtkhtml[0-9._-]*" }
 - { setname: gtkmm,                    namepat: "(?:lib)?gtkmm[0-9._-]*" }
 - { setname: gtkmm,                    namepat: "(?:lib)?gtkmm[0-9._-]*(-docs|-documentation|-reference)", addflavor: docs }
 - { setname: gtksourceview,            namepat: "(?:lib)?gtksourceview[0-9._-]*" }
