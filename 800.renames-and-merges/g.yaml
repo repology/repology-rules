@@ -48,6 +48,8 @@
 - { setname: giflib,                   name: giflib-util }
 - { setname: giflib,                   name: giflib4 }
 - { setname: giflib,                   name: libungif } # former name
+- { setname: gimagereader,             name: gimagereader-beta, devel: true }
+- { setname: gimagereader,             name: gimagereader-qt5, addflavor: qt5 }
 - { setname: gimp,                     name: [gimp-app,gimp-with-plugins,"python:gimp"], addflavor: true }
 - { setname: gimp,                     name: [gimp-devel,gimp2-devel], ignore: true }
 - { setname: gimp,                     name: [gimp2] }
