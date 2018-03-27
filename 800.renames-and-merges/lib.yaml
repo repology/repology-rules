@@ -32,6 +32,8 @@
 - { setname: libgnomecanvas,           namepat: "(?:lib)?gnomecanvas[0-9._-]*(-reference)" }
 - { setname: libgnomecanvasmm,         namepat: "(?:lib)?gnomecanvasmm[0-9._-]*" }
 - { setname: libgnomemm,               namepat: "(?:lib)?gnomemm[0-9._-]*" }
+- { setname: libgnomeui,               name: libgnomeui2 }
+- { setname: libgnomeui,               name: libgnomeui-reference, addflavor: reference }
 - { setname: libgnomeuimm,             namepat: "(?:lib)?gnomeuimm[0-9._-]*" }
 - { setname: libidn2,                  namepat: "libidn2[0-9._-]+" }
 - { setname: libkdcraw,                name: libkdcraw23 }
