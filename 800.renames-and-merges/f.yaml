@@ -77,10 +77,12 @@
 - { setname: fpc-modules,              namepat: "fpc-.*", family: freebsd }
 - { setname: fping,                    name: [fping3,fping6] }
 - { setname: free42,                   name: free42-nologo, family: debuntu }
+- { setname: freebasic,                name: fbc, addflavor: true }
 - { setname: freeciv,                  name: [freeciv-nox11,freeciv-gtk,freeciv-sdl] }
 - { setname: freeciv,                  namepat: "freeciv-(?:client|server|share)", family: [pkgsrc,openbsd] }
 - { setname: freedink,                 name: freedink-engine }
 - { setname: freedoom,                 name: [doom-freedoom,freedoom-freedm] }
+- { setname: freedroid,                name: freedroidclassic }
 - { setname: freedroidrpg,             name: freedroid-rpg }
 - { setname: freefoom,                 name: [freedoom1,freedoom2] }
 - { setname: freeglut,                 name: libfreeglut }

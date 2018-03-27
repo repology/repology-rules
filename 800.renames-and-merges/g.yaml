@@ -29,6 +29,7 @@
 - { setname: geckodriver,              name: geckodriver-unstable, ignore: true }
 - { setname: geckodriver,              name: selenium-gecko-driver }
 - { setname: geeknote,                 name: "python:geeknote" }
+- { setname: geeqie,                   name: geeqie-lirc, addflavor: lirc }
 - { setname: geki2,                    name: geki2-kxl, family: gentoo } # XXX: recheck
 - { setname: geki3,                    name: geki3-kxl, family: gentoo } # XXX: recheck
 - { setname: genpuid,                  name: linux-genpuid, family: freebsd }
@@ -218,4 +219,5 @@
 - { setname: gwt,                      name: webtoolkit-java-sdk }
 - { setname: gxmessage,                name: gxmessage-gtk2, addflavor: gtk2 }
 - { setname: gyp,                      name: "python:gyp" }
+- { setname: gzdoom,                   name: gzdoom-legacy }
 - { setname: gzdoom,                   namepat: "gzdoom[0-9.-]+" }

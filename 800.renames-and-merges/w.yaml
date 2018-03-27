@@ -27,7 +27,7 @@
 - { setname: wine-gecko,               namepat: "wine-gecko([0-9.-]+|-devel|-stable)" }
 - { setname: wine-mono,                namepat: "wine-mono([0-9.-]+|-devel)" }
 - { setname: winewizard,               name: wine-wizard }
-- { setname: wings3d,                  name: wings }
+- { setname: wings3d,                  name: [wings,wings-3d] }
 - { setname: wire,                     name: wire-desktop }
 - { setname: wire,                     name: wire-desktop-beta, devel: true }
 - { setname: wireguard,                name: [wireguard-dkms,wireguard-hardened,wireguard-tools,wireguard-module-arch], addflavor: true }

@@ -13,6 +13,7 @@
 - { setname: scamp,                    name: astromatic-scamp }
 - { setname: scapy,                    name: "python:scapy" }
 - { setname: schismtracker,            name: schism }
+- { setname: scrot,                    name: scrot-no-beep, addflavor: no-beep }
 - { setname: sdl,                      name: [libsdl,sdl1] }
 - { setname: sdl,                      name: [sdl12,libsdl1.2] }
 - { setname: sdl2,                     name: [libsdl2] }
@@ -61,6 +62,8 @@
 - { setname: slashem,                  name: slashem-tty }
 - { setname: slony1,                   namepat: "slony1(?:-2|v2)" }
 - { setname: smc,                      name: secret-maryo-chronicles }
+- { setname: smokin-guns,              name: [smokin-guns-data,smokinguns-data], addflavor: data }
+- { setname: smokin-guns,              name: smokin-guns }
 - { setname: smplayer,                 name: smplayer-qt4, addflavor: qt4 }
 - { setname: smstools,                 namepat: "smstools[0-9]+" }
 - { setname: sni-qt,                   name: sni-qt4 }
@@ -68,7 +71,7 @@
 - { setname: socat,                    namepat: "socat[0-9]+" }
 - { setname: softhsm,                  namepat: "softhsm[0-9]+" }
 - { setname: sogo,                     name: [gnustep-sogo,gnustep-sogo3] }
-- { setname: sopwith,                  name: [sdlsopwith,sdl-sopwith] }
+- { setname: sopwith,                  name: [sdlsopwith,sdl-sopwith,sdl_sopwith] }
 - { setname: soundtouch,               name: [libsoundtouch,sound-touch] }
 - { setname: spacearyarya,             name: spacearyarya-kxl, family: gentoo } # XXX: recheck
 - { setname: spamassassin,             name: "perl:mail-spamassassin" }
