@@ -27,6 +27,7 @@
 - { name: dkms,                        ver: "2.022.0",                                     ignore: true } # gobolinux fake
 - { name: dnscap,                      verpat: "[0-9]{3,}",                                ignore: true }
 - { name: dmake,                       verpat: ".*20[0-9]{6}",                             ignore: true } # freebsd snapshot
+- { name: doas,                                                                            p_is_patch: true }
 - { name: docker-tray,                 verge: "1.5.1",                                     successor: true }
 - { name: dosbox,                      verpat: "0\\.74\\.[4r].*",                          ignore: true }
 - { name: dosemu,                      verpat: "2013.*",                                   ignore: true }
