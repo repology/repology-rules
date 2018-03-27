@@ -100,7 +100,7 @@
 - { setname: "ros:$1", noflag: not_ros, namepat: "ros-(.*)", ruleset: [ debuntu, arch ] }
 
 # Ruby
-- { setname: "ruby:$1", noflag: not_ruby, namepat: "ruby-(.*)", family: [aosc,arch,debuntu,fedora,guix,mageia,ravenports,rosa,sisyphus] }
+- { setname: "ruby:$1", noflag: not_ruby, namepat: "ruby-(.*)", family: [alpine,aosc,arch,debuntu,fedora,guix,mageia,ravenports,rosa,sisyphus] }
 - { setname: "ruby:$1", noflag: not_ruby, namepat: "rubygem-(.*)", family: [centos,fedora,freebsd,opensuse,pclinuxos,rosa,slackbuilds] }
 - { setname: "ruby:$1", noflag: not_ruby, namepat: "ruby[0-9][0-9]-(.*)", family: [freebsd,openbsd,pkgsrc] }
 - { setname: "ruby:$1", noflag: not_ruby, namepat: "rb[0-9]*-(.*)", family: macports }
