@@ -2,8 +2,8 @@
 
 - { name: libadacrypt,                                                                     noscheme: true }
 - { name: libasr,                      verpat: "[0-9]{8}.*",                               ignore: true } # guix crap
-- { name: libcaca,                     ver: "0.99", family: [sisyphus,fedora,mageia,openmandriva,pclinuxos,rosa], incorrect: true } # it's 0.99.betaX!
-- { name: libcaca,                     ver: "0.99",                                        untrusted: true }
+- { name: libcaca,                     ver: "0.99", family: [sisyphus,pclinuxos,rosa],     incorrect: true } # it's 0.99.betaX!
+- { name: libcaca,                                  family: [sisyphus,pclinuxos,rosa],     untrusted: true }
 - { name: libcaca,                     verpat: "0.99.[0-9]+.*",                            ignore: true } # it.s 0.99.betaX, not 0.99.X
 - { name: libcdio-paranoia,            verpat: "[0-9]+\\.[0-9]+\\.[0-9]+", family: kaos,   ignore: true } # bad versioning
 - { name: libclc,                                                                          noscheme: true }
@@ -16,7 +16,8 @@
 - { name: libffi,                      ver: "3.3",                   family: debuntu,      ignore: true } # snapshot of nonexisting version
 - { name: libglw,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: libgnome-games-support,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: libgnomeui,                  ver: "2.24.6",                family: opensuse,     ignore: true }
+- { name: libgnomeui,                  ver: "2.24.6",                family: opensuse,     incorrect: true }
+- { name: libgnomeui,                                                family: opensuse,     untrusted: true }
 - { name: libgweather,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libhangul,                   verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: libhid,                      ver: "0.2.17",                ruleset: [fedora,rosa], incorrect: true } # nonexisting release
@@ -55,7 +56,6 @@
 - { name: libsndfile,                  ver: "1.0.29",                family: vcpkg,        ignore: true }
 - { name: libssh,                      ver: ["0.73", "0.11", "2014"],                      ignore: true } # pkgsrc, gobo
 - { name: libssh,                      ver: "0.8.0",                 family: debuntu,      ignore: true }
-- { name: libtheora,                   ver: "1.2.0",                 family: openmandriva, ignore: true } # lie, not released yet
 - { name: libtorrent,                  verpat: "20[0-9]{6}.*",                             ignore: true } # nix fake
 - { name: libunwind,                   verpat: "20[0-9]{6}.*",                             ignore: true } # freebsd snapshot
 - { name: libusbmuxd,                  verpat: "1\\.1\\.0.*",        family: [openwrt,debuntu], ignore: true } # fake

@@ -8,7 +8,7 @@
 - { name: unfs3,                       ver: "0.9.23",                family: openwrt,      incorrect: true } # entware
 - { name: unfs3,                                                     family: openwrt,      untrusted: true } # entware
 - { name: unpaper,                     verpat: "20[0-9]{6}.*",                             ignore: true } # aosc
-- { name: uniconvertor,                ver: "2.0",                   family: [fedora,mageia,rosa], incorrect: true } # not yet released
+- { name: uniconvertor,                ver: "2.0",                   family: rosa,         incorrect: true } # not yet released
 - { name: unicode-ucd,                 verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: unison,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # XXX: assumed, not confirmed; http://www.cis.upenn.edu/~bcpierce/unison/download.html
 - { name: unnethack,                   ver: "5.3.1",                 family: nix,          incorrect: true }

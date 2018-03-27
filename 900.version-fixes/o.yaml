@@ -12,10 +12,8 @@
 - { name: opencl,                                                                          noscheme: true } # GH/KhronosGroup/OpenCL-Headers w/o releases or mix of OpenCL-Headers with OpenCL-CLHPP
 - { name: opencollada,                 verpat: ".*3335ac.*",                               ignore: true }
 - { name: opencollada,                 verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
-- { name: opendkim,                    ver: "2.11.0",                ruleset: fedora,      incorrect: true }
-- { name: opendkim,                                                  ruleset: fedora,      untrusted: true }
 - { name: openjade,                    verpat: ".*(p|pre|devel)[0-9]*",                    devel: true }
-- { name: openjade,                    ver: "1.3.3",                 family: [pclinuxos,mageia], ignore: true } # fake, it's 1.3.3pre1
+- { name: openjade,                    ver: "1.3.3",                 family: [pclinuxos],  ignore: true } # fake, it's 1.3.3pre1
 - { name: openjfx,                     verpat: "8\\.0\\..*",                               ignore: true } # fedora; the official scheme is e.g. 8u151b12
 - { name: openjk,                      verpat: "[0-9]{10}.*",                              ignore: true }
 - { name: openlierox,                  ver: "0.58",                  family: [fedora,debuntu], ignore: true } # there's no 0.58, only 0.58beta3
@@ -28,7 +26,6 @@
 - { name: openssh,                                                                         p_is_patch: true }
 - { name: openuniverse,                ver: "1.0beta3.1",                                  ignore: true } # debian garbage
 - { name: openxcom,                    verpat: ".*201[789].*",                             ignore: true } # git snapshots
-- { name: opus,                        ver: "1.3",                   family: fedora,       ignore: true } # fake, it's beta
 - { name: orbit2,                      ver: "2.14.20",               family: sisyphus,     ignore: true } # alt fake
 - { name: orca,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: osquery,                     ver: "3.0.0",                                       devel: true }

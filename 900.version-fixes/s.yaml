@@ -1,8 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: s25rttr,                     verpat: "20[0-9]{6}",                               devel: true } # official nightlies
-- { name: samba,                       ver: "4.8.0",                 family: fedora,       incorrect: true } # it's 4.8.0rc2
-- { name: samba,                                                     family: fedora,       untrusted: true }
 - { name: sauerbraten,                 verpat: "(?:0\\.)*(20[0-9]{2})[^0-9]?([0-9]{2})[^0-9]?([0-9]{2})(.*)", setver: "$1_$2_$3$4" } # fix version
 - { name: sauerbraten,                 verpat: "(20[0-9]{2}_[0-9]{2}_[0-9]{2})[a-z_-]+",   setver: "$1" } # remove release name (like _collect_edition)
 - { name: sauerbraten,                 ver: "2014_03_02",            family: debuntu,      ignore: true } # debian fake
@@ -14,11 +12,7 @@
 - { name: scantailor,                  verpat: "2016.*",                                   ignore: true }
 - { name: schismtracker,               ver: "20150911005204",                              ignore: true }
 - { name: scite,                       verpat: "[0-9]{3}",                                 incorrect: true } # pclinuxos; it's x.y.z
-- { name: sdcc,                        ver: "3.6.2",                 family: mageia,       incorrect: true } # there's not even 3.6.1!
-- { name: sdcc,                                                      family: mageia,       untrusted: true }
 - { name: sddm,                        verpat: "[0-9]{4,}.*",        family: kaos,         ignore: true } # snapshot with random version
-- { name: serf,                        ver: "1.4.0",                 family: mageia,       incorrect: true } # nonexisting; https://svn.apache.org/repos/asf/serf/tags/
-- { name: serf,                                                      family: mageia,       untrusted: true }
 - { name: sgt-puzzles,                 verpat: "([0-9]{8})\\.[0-9a-fr]+",                  setver: "$1" } # remove commit hashes and revisions
 - { name: sgt-puzzles,                 verpat: "([0-9]{4})\\.([0-9]{2})\\.([0-9]{2})",     setver: "$1$2$3" } # fix version
 - { name: sgt-puzzles,                 verpat: "20[0-9]{6}",                               ignore: false } # unignores chocolatey if it has correct version, it's often newest
@@ -47,12 +41,10 @@
 - { name: solvespace,                  verpat: ".*[0-9]{8}.*",                             ignore: true } # nix garbage
 - { name: spatialite-gui,              ver: "2.0.0",                                       devel: true }
 - { name: spek,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]+_[0-9a-f]{10}",    ignore: true }
-- { name: speed-dreams,                ver: "2.2.2",                 ruleset: fedora,      incorrect: true } # 2.2.2rc2
-- { name: speed-dreams,                                              ruleset: fedora,      untrusted: true }
 - { name: speex,                       verlonger: 3,                 family: openindiana,  ignore: true }
 - { name: speexdsp,                    ver: "1.2.0.3",                                     incorrect: true } # it's 1.2rc3
-- { name: speexdsp,                    ver: "1.2",                   family: [fedora,mageia,openmandriva,sisyphus], incorrect: true } # it's 1.2rc3
-- { name: speexdsp,                                                  family: [fedora,mageia,openmandriva,sisyphus], untrusted: true }
+- { name: speexdsp,                    ver: "1.2",                   family: sisyphus,     incorrect: true } # it's 1.2rc3
+- { name: speexdsp,                                                  family: sisyphus,     untrusted: true }
 - { name: spidermonkey,                ver: "1.70",                                        setver: "1.7.0" }
 - { name: spidermonkey,                ver: "1.85",                                        setver: "1.8.5" }
 - { name: spidermonkey,                ver: ["1.7.0","1.8.5","17.0.0"],                    legacy: true } # needed for some software; see https://github.com/repology/repology/issues/550
@@ -74,7 +66,6 @@
 - { name: svn2git,                     verpat: "20[0-9]{6}.*",                             ignore: true } # macports
 - { name: swell-foop,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: swi-prolog,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed even/odd scheme; http://www.swi-prolog.org/Download.html
-- { name: sword,                                                     family: mageia,       untrusted: true } # accused of fake 1.7.5
 - { name: syncthing-gtk,               verpat: "0\\.14\\..*",                              incorrect: true } # sisyphus fake (uses syncthing version?)
 - { name: synfigstudio,                verpat: "1\\.3\\..*",                               devel: true } # openindiana garbage
 - { name: sysstat,                     ver: "20151012",                                    ignore: true } # openindiana garbage

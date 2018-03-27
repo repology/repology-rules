@@ -6,10 +6,6 @@
 - { name: racer-game,                  ver: "1.1.64",                                      incorrect: true } # it's 1.1 64bit version
 - { name: rage,                        verlonger: 3,                                       devel: true } # snapshots
 - { name: ragel,                       verpat: "7\\..*",                                   devel: true } # http://www.colm.net/open-source/ragel/
-- { name: rawtherapee,                 ver: "5.4",                   ruleset: fedora,      incorrect: true } # fake, it's 5.4rc3
-- { name: rawtherapee,                                               ruleset: fedora,      untrusted: true }
-- { name: rdesktop,                    ver: "1.8.4",                 family: mageia,       incorrect: true }
-- { name: rdesktop,                                                  family: mageia,       untrusted: true }
 - { name: readline,                    verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1p$2 }
 - { name: readline,                                                                        p_is_patch: true }
 - { name: recode,                      ver: "3.7-2fd838565",                               ignore: true }
@@ -17,8 +13,8 @@
 - { name: recode,                      verge: "3.7",                                       successor: true } # fork
 - { name: reptyr,                      ver: "0.6.3a",                family: freebsd,      incorrect: true } # fake, no such tag
 - { name: remmina,                     verpat: "(.*?)([^0-9]*r[^0-9]*)(.*?)",              setver: "$1-rcgit.$3", devel: true, ignore: false } # r, rc, rcgit, etc.
-- { name: remmina,                     ver: "1.2.0",                 family: [alpine,sisyphus,debuntu,fedora,mageia,rosa], incorrect: true } # liars, it's at 1.2.0-rcgit.XX stage
-- { name: remmina,                                                   family: [alpine,sisyphus,debuntu,fedora,mageia,rosa], untrusted: true } # liars
+- { name: remmina,                     ver: "1.2.0",                 family: [alpine,sisyphus,debuntu,rosa], incorrect: true } # liars, it's at 1.2.0-rcgit.XX stage
+- { name: remmina,                                                   family: [alpine,sisyphus,debuntu,rosa], untrusted: true } # liars
 - { name: rinetd,                      ver: "0.62.1sam",                                   ignore: true } # debian garbage
 - { name: rpcgen,                                                    family: ravenports,   ignore: true } # fake
 - { name: rtl8812au,                   verpat: "201[56].*",                                ignore: true }

@@ -13,8 +13,6 @@
 - { name: firebird,                    verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.[0-9]{5,}.*", setver: "$1" }
 - { name: firefox,                     verpat: ".*[ab].*",                                 devel: true }
 - { name: ffmpeg,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # openbsd, chocolatey, pkgsrc
-- { name: ffmpeg,                      ver: ["3.5","3.5.0"],         family: [fedora,openmandriva], incorrect: true } # fpmfusion and unitedrpms seem to inherit fedora willingness to fake versions
-- { name: ffmpeg,                                                    family: [fedora,openmandriva], untrusted: true }
 - { name: figlet,                      ver: "222",                                         ignore: true } # haikuports
 - { name: file-roller,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: firmware-mod-kit,            verpat: "0([1-9][0-9]*)",                           setver: "0.$1" } # blackarch, broken schema
@@ -40,19 +38,16 @@
 - { name: four-in-a-row,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: fotowall,                    verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: freecad,                     ver: "0.17.12018",            family: freebsd,      ignore: true }
-- { name: freeciv,                     ver: "2.6.0",                 family: fedora,       ignore: true }
+- { name: freeciv,                     ver: "2.6.0",                 family: fedora,       incorrect: true }
 - { name: freeminer,                   verlonger: 4,                 family: fdroid,       ignore: true }
-- { name: freerdp,                     ver: "2.0.0",                 family: [sisyphus,fedora,mageia,rosa], incorrect: true } # it's -rc[01] ATOW
-- { name: freerdp,                                                   family: [sisyphus,fedora,mageia,rosa], untrusted: true }
+- { name: freerdp,                     ver: "2.0.0",                 family: [sisyphus,fedora,rosa], incorrect: true } # it's -rc[01] ATOW
+- { name: freerdp,                                                   family: [sisyphus,fedora,rosa], untrusted: true }
 - { name: freetds,                     vergt: "1.0.80",                                    devel: true } # http://www.freetds.org/files/stable/
 - { name: frescobaldi,                 ver: "3.0.1",                 family: sisyphus,     ignore: true } # fake
 - { name: frescobaldi,                 verpat: "3\\..*",                                   devel: true }
-- { name: frozen-bubble,               ver: "2.2.1",                 family: fedora,       incorrect: true } # it's 2.2.1beta1
-- { name: frozen-bubble,                                             family: fedora,       untrusted: true }
 - { name: fskbsetting,                 ver: "0.5.3.1",               ruleset: antix,       incorrect: true }
 - { name: fskbsetting,                                               ruleset: antix,       untrusted: true }
 - { name: ftgl,                        ver: "2.1.3",                                       ignore: true } # it's 2.1.3-rc5; 2.1.3 was never released
 - { name: ftp,                         verpat: "20[0-9]{6}.*",                             ignore: true } # haiku snapshot
 - { name: ftp,                         ver: "0.18",                  family: sisyphus,     ignore: true } # fake; actually 0.18pre1
 - { name: frozen-bubble,               ver: ["905bf71","2.212.0"],                         ignore: true } # fake?
-- { name: frozen-bubble,               ver: "2.2.1",                 family: [ fedora ],   ignore: true } # 2.2.1 was never released, it should be 2.2.1beta1

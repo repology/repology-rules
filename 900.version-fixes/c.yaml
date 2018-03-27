@@ -25,8 +25,6 @@
 - { name: ckermit,                     ver: "9.0.304",                                     devel: true }
 - { name: clang,                       verpat: ".*r[0-9]{6,}",                             ignore: true } # ignore revisions, allow release candidates
 - { name: clang,                       verpat: ".*r.*",                                    devel: true }
-- { name: clang,                       ver: "6.0.0",                 family: fedora,       incorrect: true }
-- { name: clang,                                                     family: fedora,       untrusted: true }
 - { name: cld2,                        ver: "20160820",                                    ignore: true } # aosc fake (there were no commits to cld2 since 2015)
 - { name: clementine-player,           verlonger: 3,                 family: kaos,         ignore: true }
 - { name: clisp,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
@@ -34,8 +32,6 @@
 - { name: cloog,                       ver: "0.18.5",                family: [haikuports, aosc, arch], ignore: true } # unofficial fork
 - { name: clojure,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{3,}",     incorrect: true } # homebrew and nix garbage
 - { name: clusterssh,                                                family: gentoo,       ignore: true } # perl module version mangling rules apply here
-- { name: cmake,                       ver: "3.11.0",                family: [mageia,openmandriva], incorrect: true } # mistagged rc's
-- { name: cmake,                                                     family: [mageia,openmandriva], untrusted: true } # rc
 - { name: cmst,                        verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" } # manjaro
 - { name: cmus,                        verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: cmus,                        ver: "2.8.0",                 family: fedora,       ignore: true } # it's rc0
@@ -59,7 +55,6 @@
 - { name: crimson,                     ver: "2014.10",                                     ignore: true }
 - { name: critterding,                 verpat: "1\\.0(beta.*)",                            setver: "$1" }
 - { name: cryptcat,                    ver: "20031202",                                    ignore: true }
-- { name: cryptsetup,                  ver: "2.0.0",                 family: fedora,       ignore: true } # 2.0.0rc1
 - { name: cutegram,                    ver: "2.99",                                        incorrect: true }
 - { name: cvs,                         ver: "1.20120905",                                  ignore: true }
 - { name: cvs,                         ver: "1.12.13.1",                                   ignore: true } # respin for Windows *only* to fix carriage returns, it does not make sense to list it
