@@ -100,7 +100,7 @@
 - { setname: glib-networking,          name: glib2-networking }
 - { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9._-]*" }
 - { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9._-]*(-docs|-reference)", addflavor: docs }
-- { setname: globulation2,             name: globulation-2 }
+- { setname: globulation2,             name: [globulation-2,glob2] }
 - { setname: glog,                     name: google-glog }
 - { setname: glpng,                    name: [libglpng1,libglpng] }
 - { setname: glusterfs,                name: glusterfs3 }

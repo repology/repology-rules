@@ -1,5 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: c++-gtk-utils,            name: cxx-gtk-utils }
+- { setname: c++-gtk-utils,            name: c++-gtk-utils-gtk2, addflavor: gtk2 }
 - { setname: c-ares,                   name: [libcares,libcares2] }
 - { setname: cacti-spine,              name: cacti-cactid } # cactid renamed to spine upstream
 - { setname: cairo-clock,              name: cairo-clock-ccw }
