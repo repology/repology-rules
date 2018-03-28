@@ -207,9 +207,11 @@
 - { setname: gtk,                      namepat: "(?:lib)?gtk[0-9._+-]*" }
 - { setname: gtk-doc,                  name: gtk-doc-am, addflavor: am }
 - { setname: gtkdatabox,               name: libgtkdatabox }
+- { setname: gtkglextmm,               name: libgtkglextmm }
 - { setname: gtkhtml,                  namepat: "(?:lib|compat-)?gtkhtml[0-9._-]*" }
 - { setname: gtkmm,                    namepat: "(?:lib)?gtkmm[0-9._-]*" }
 - { setname: gtkmm,                    namepat: "(?:lib)?gtkmm[0-9._-]*(-docs|-documentation|-reference)", addflavor: docs }
+- { setname: gtkhotkey,                name: libgtkhotkey }
 - { setname: gtksourceview,            namepat: "(?:lib)?gtksourceview[0-9._-]*" }
 - { setname: gtksourceviewmm,          namepat: "(?:lib)?gtksourceviewmm[0-9._-]*" }
 - { setname: gtkspell,                 namepat: "(?:lib)?gtkspell[0-9._-]*" }
