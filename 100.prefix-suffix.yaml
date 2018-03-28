@@ -18,6 +18,7 @@
 
 # XXX: handle (.*)-devel for freebsd?
 - { ruleset: freebsd,         namepat: "(.*)-(py27|py36)", setname: "$1", addflavor: "$2" }
+- { ruleset: freebsd,         namepat: "(linux-c[67])-(.*)", setname: "$2", addflavor: "$1", legacy: true }
 
 # XXX: expand this onto whole haiku-apps category
 - { ruleset: haikuports,      setname: "haiku-$0", category: haiku-apps, name: [peek, rename] }
