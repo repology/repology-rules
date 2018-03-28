@@ -3,6 +3,7 @@
 - { name: u-boot-tools,                verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: u-boot-tools,                verpat: "201[23]{4}.*",                             outdated: true }
 - { name: ufoai,                       ver: "2.5.0+20150216",                              ignore: true } # homebrew
+- { name: uhttpmock,                   ver: "0.6.0",                 family: sisyphus,     incorrect: true }
 - { name: unace,                       ver: "2.50",                                        setver: "2.5" }
 - { name: unarr,                       verpat: "20[0-9]{6}.*",                             ignore: true } # slackbuilds
 - { name: unfs3,                       ver: "0.9.23",                family: openwrt,      incorrect: true } # entware
