@@ -3,6 +3,7 @@
 - { name: w3m,                         verlonger: 3,                                       ignore: true }
 - { name: w3m,                         verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: wakeonlan,                   verlonger: 3,                 family: sisyphus,     ignore: true }
+- { name: walinuxagent,                verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: [warsow,warsow-data],        ver: "2.10",                  family: debuntu,      incorrect: true } # playdeb weirdnes
 - { name: wayland,                     verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: webalizer,                   verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.([0-9]+)",    setver: $1.rb$2 }
