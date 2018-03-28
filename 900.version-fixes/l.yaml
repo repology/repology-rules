@@ -6,6 +6,7 @@
 - { name: lightdm-gtk-greeter,         verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: lightsoff,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: lightworks,                  verlonger: 3,                 family: kaos,         ignore: true }
+- { name: lightspark,                  verpat: "20[0-9]{2}\\..*",                          incorrect: true }
 - { name: lilypond,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: linkchecker,                 ver: "9.4",                   ruleset: aur,         incorrect: true } # not released
 - { name: linux,                       verpat: ".*20[0-9]{2}.*",                           incorrect: true } # it has clear enough versioning scheme, do not allow snapshots
