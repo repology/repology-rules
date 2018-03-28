@@ -21,3 +21,4 @@
 - { name: vpnc,                        ver: "0.5.3.3",               family: kaos,         incorrect: true } # fake
 - { name: vpnc,                        verpat: "0.5.3.*post.*",                            ignore: true } # nix
 - { name: vte,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: vuze,                        verpat: "[0-9]{4}.*",                               incorrect: true }
