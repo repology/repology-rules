@@ -31,6 +31,8 @@
 - { setname: geckodriver,              name: selenium-gecko-driver }
 - { setname: geeknote,                 name: "python:geeknote" }
 - { setname: geeqie,                   name: geeqie-lirc, addflavor: lirc }
+- { setname: gegl,                     namepat: "(?:lib)?gegl[0-9._-]*" }
+- { setname: gegl,                     name: gegl-unstable, ignore: true }
 - { setname: geki2,                    name: geki2-kxl, family: gentoo } # XXX: recheck
 - { setname: geki3,                    name: geki3-kxl, family: gentoo } # XXX: recheck
 - { setname: genpuid,                  name: linux-genpuid, family: freebsd }
