@@ -6,6 +6,7 @@
 - { setname: "python:backports.shutil_which", name: "python:backports-shutil_which" }
 - { setname: "python:backports.shutil_which", name: shutil_which }
 - { setname: "python:backports.ssl_match_hostname", namepat: "(?:python:)?backports?[_-]ssl[_-]match[_-]hostname" }
+- { setname: "python:box2d",           name: ["python:pybox2d", pybox2d] }
 - { setname: "python:cherrypy",        name: "python:cherrypy-old" }
 - { setname: "python:cherrypy",        name: "python:cherrypy2" }
 - { setname: "python:cherrypy",        name: cherrypy3 }
