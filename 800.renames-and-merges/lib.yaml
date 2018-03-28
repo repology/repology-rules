@@ -87,6 +87,7 @@
 - { setname: libtasn1,                 namepat: "libtasn1[_-][0-9._-]+" }
 - { setname: libtecla,                 name: tecla }
 - { setname: libtheora,                name: theora }
+- { setname: libtheora,                name: libtheora-docs, addflavor: docs }
 - { setname: libtool,                  name: [libtool-base,libtool-fortran,libtool-info,libtool-lts] }
 - { setname: libtool,                  namepat: "libtool[0-9._-]+" }
 - { setname: libtorrent,               name: [libtorrent-ipv6,libtorrent-extended], addflavor: true }
@@ -101,6 +102,7 @@
 - { setname: libupnp,                  name: upnp, family: freebsd }
 - { setname: libuv,                    name: libuv1 }
 - { setname: libvisio,                 namepat: "libvisio[0-9._-]+" }
+- { setname: libvorbis,                name: libvorbis-doc, addflavor: doc }
 - { setname: libvpx,                   namepat: "libvpx[0-9._-]+" }
 - { setname: libwebp,                  name: [webp,libwebp6] }
 - { setname: libwmf,                   name: [libwmf-nox11,libwmf-docs], addflavor: true }
