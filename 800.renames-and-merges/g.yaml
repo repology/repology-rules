@@ -17,8 +17,9 @@
 - { setname: gcin,                     name: gcin-qt4, addflavor: qt4 }
 - { setname: gcin,                     name: gcin-qt5, addflavor: qt5 }
 - { setname: gcompris,                 name: gcompris-qt, addflavor: qt }
-- { setname: gconfmm,                  namepat: "(?:lib)?gconfmm[0-9._-]*" }
-- { setname: gconfmm,                  namepat: "(?:lib)?gconfmm[0-9._-]*(-docs)", addflavor: docs }
+- { setname: gconf,                    name: [gconf-gtk2,gconf-nopolkit,gconf2-reference], addflavor: true }
+- { setname: gconf,                    name: gconf2 }
+- { setname: gconfmm,                  namepat: "(?:lib)?gconfmm[0-9._-]*(-docs)?", addflavor: $1 }
 - { setname: gd,                       name: [gd2, libgd, libgd2] }
 - { setname: gdal,                     name: [gdal1,gdal-curl,gdal-filegdb,gdal-lib,gdal-hdf4] }
 - { setname: gdal-grass,               name: libgdal-grass }
