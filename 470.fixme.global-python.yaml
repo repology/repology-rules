@@ -171,8 +171,8 @@
 - { setname: ampy,                     name: ["python:adafruit-ampy","python:ampy",adafruit-ampy,ampy], wwwpart: adafruit }
 - { name: markdown, wwwpart: pypi,     setname: "python:markdown" }
 
-- { name: martian, wwwpart: dragontech, last: true }
-- { name: martian,                     setname: "python:martian" }
+- { name: martian, wwwpart: dragontech, addflag: not_python }
+- { name: martian, noflag: not_python, setname: "python:martian" }
 
 - { name: "python:audio", verpat: "0\\.2\\..*", setname: "python:pyaudio" }
 - { name: "python:paramiko", verpat: "1.*", setname: "python:paramiko1"   }
