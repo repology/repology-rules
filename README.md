@@ -15,25 +15,29 @@ a quick pointer of how to add specific rules:
 ### You want to **merge** differently named packages into a single entry?
 
 - Choose target name (prefer least ambiguous and/or most widely used name)
-- Open `800.renames-and-merges.<...>.yaml` corresponding to the letter
-  you target name starts with
+- Open correspoinding yaml file under `800.renames-and-merges/`
 - Add rule like `- { setname: <new name>, name: <old name> }`
 
 ### You want to mark incorrect version of specific package?
 
-- Open `900.version-fixes.yaml`
+- Open correspoinding yaml file under `900.version-fixes/`
 - Add rule like: `- { name: <package name>, ver: <bad version>, ignore: true }`
 - Consider using a `verpat` with regular expression to match similar
-  bad versions
+  bad versions which may appear in the future. Examples:
+  - `verpat: "20[0-9]{6}"` to match dates (`20110323`)
+  - `verpat: "20[0-9]{2}\\.[0-9]{2}\\.[0-9]{2}"` same, but for delimited date, (`2010.03.23`)
+  - `verpat: ".*20[0-9]{6}.*"` to match dates anywhere in the version (`1.0.20110323`)
+  - `verpat: "[0-9a-f]{7}"` match something resembling a git commit (`a7b823f`)
+  - `verpat: "[0-9]{4,}"` match something resembling a build or revision number (`12345`)
 
 ### You want to split different projects with the same name
 
-- Open `850.split-ambiguities.yaml`
+- Open correspoinding yaml file under `850.split-ambiguities/`
 - Add a set of rules which distinct packages, such as:
-  - `- { name: <ambiguous name>, wwwpart: <part of the homepage url>, setname: <specific name> }` to use homepage URL
-  - `- { name: <ambiguous name>, verpat: <version pattern>, setname: <specific name> }` to use version
-  - `- { name: <ambiguous name>, category: <category>, setname: <specific name> }` to use version
-  - `- { name: <ambiguous name>, ruleset: <families>, setname: <specific name> }` as a least resort, to use source repository
+  - `- { name: <ambiguous name>, wwwpart: <part of the homepage url>, setname: <specific name> }`
+  - `- { name: <ambiguous name>, category: <category>, setname: <specific name> }`
+  - `- { name: <ambiguous name>, verpat: <version pattern>, setname: <specific name> }`
+  - `- { name: <ambiguous name>, ruleset: <families>, setname: <specific name> }` as a least resort
 
 ## Rule basics
 
