@@ -24,6 +24,8 @@
 - { setname: gdal,                     name: [gdal1,gdal-curl,gdal-filegdb,gdal-lib,gdal-hdf4] }
 - { setname: gdal-grass,               name: libgdal-grass }
 - { setname: gdk-pixbuf,               namepat: "(?:lib)?gdk-pixbuf[0-9._-]*(\\+svg|-jasper|-xlib)?" }
+- { setname: gdl,                      namepat: "(?:lib)?gdl[0-9._-]*" }
+- { setname: gdlmm,                    namepat: "(?:lib)?gdlmm[0-9._-]*" }
 - { setname: geany-plugins,            namepat: "geany-plugin-.*", family: freebsd }
 - { setname: gearhead2,                name: gearhead-2 }
 - { setname: gearmand,                 name: [gearmand-devel,gearman] }
@@ -48,9 +50,8 @@
 - { setname: gflags,                   name: [google-gflags,libgflags] }
 - { setname: gifcurry,                 name: "haskell:gifcurry" }
 - { setname: giflib,                   name: gif, family: ravenports }
-- { setname: giflib,                   name: giflib-util }
-- { setname: giflib,                   name: giflib4 }
-- { setname: giflib,                   name: libungif } # former name
+- { setname: giflib,                   name: giflib-util, addflavor: util }
+- { setname: giflib,                   name: [giflib4,libgif,libungif,compat-giflib] } # libungif is a former name
 - { setname: gimagereader,             name: gimagereader-beta, devel: true }
 - { setname: gimagereader,             name: gimagereader-qt5, addflavor: qt5 }
 - { setname: gimp,                     name: [gimp-app,gimp-with-plugins,"python:gimp"], addflavor: true }
@@ -201,7 +202,10 @@
 - { setname: groovy,                   name: groovysdk }
 - { setname: groovy,                   namepat: "groovy[0-9._-]+" }
 - { setname: grub,                     name: grub2 } # since grub legacy is obsoleted, just let grub2 eat it away
+- { setname: gsasl,                    name: gsasl-ntlm, addflavor: ntlm }
+- { setname: gsasl,                    name: libgsasl }
 - { setname: gsl,                      name: gsl-doc, addflavor: doc }
+- { setname: gssdp,                    name: libgssdp }
 - { setname: gssproxy,                 name: gss-proxy }
 - { setname: gtest,                    name: [googletest,libgtest] }
 - { setname: gtk,                      namepat: "(?:lib)?gtk[0-9._+-]*" }

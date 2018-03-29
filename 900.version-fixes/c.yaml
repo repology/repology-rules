@@ -55,6 +55,8 @@
 - { name: crda,                        ver: "3.18_2016.02.08",                             ignore: true }
 - { name: crimson,                     ver: "2014.10",                                     ignore: true }
 - { name: critterding,                 verpat: "1\\.0(beta.*)",                            setver: "$1" }
+- { name: crossguid,                   verpat: "20[0-9]{6}",                               ignore: true }
+- { name: crossguid,                   verpat: "201[56].*",                                outdated: true } # there's 0.2.2 from Aug 2017
 - { name: cryptcat,                    ver: "20031202",                                    ignore: true }
 - { name: cutegram,                    ver: "2.99",                                        incorrect: true }
 - { name: cvs,                         ver: "1.20120905",                                  ignore: true }

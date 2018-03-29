@@ -29,9 +29,15 @@
 - { setname: libglademm,               namepat: "(?:lib)?glademm[0-9.]*" }
 - { setname: libglu,                   name: mesa-libglu }
 - { setname: libglw,                   name: [glw,mesa-glw,mesa-libglw] }
+- { setname: libgnome,                 name: libgnome2 }
+- { setname: libgnome,                 name: [libgnome-data,libgnome-reference], addflavor: true }
 - { setname: libgnomecanvas,           namepat: "(?:lib)?gnomecanvas[0-9._-]*(-reference)" }
 - { setname: libgnomecanvasmm,         namepat: "(?:lib)?gnomecanvasmm[0-9._-]*" }
 - { setname: libgnomemm,               namepat: "(?:lib)?gnomemm[0-9._-]*" }
+- { setname: libgnomeoffice,           namepat: "libgnomeoffice[0-9._-]*" }
+- { setname: libgnomeprint,            name: libgnomeprint22 }
+- { setname: libgnomeprint,            name: libgnomeprint-reference, addflavor: reference }
+- { setname: libgnomeprintui,          name: libgnomeprintui22 }
 - { setname: libgnomeui,               name: libgnomeui2 }
 - { setname: libgnomeui,               name: libgnomeui-reference, addflavor: reference }
 - { setname: libgnomeuimm,             namepat: "(?:lib)?gnomeuimm[0-9._-]*" }
@@ -48,6 +54,7 @@
 - { setname: libmediaart,              namepat: "libmediaart[0-9._-]+" }
 - { setname: libmikmod,                name: libmikmod2 }
 - { setname: libmm,                    namepat: "libmm[0-9._-]+" }
+- { setname: libmng,                   name: libmng1 }
 - { setname: libmowgli,                name: [libmowgli-2,libmowgli2,mowgli] }
 - { setname: libmozjs,                 namepat: "libmozjs[0-9.-]+" }
 - { setname: libmp4v2,                 name: [mp4v2,libmp4v2-2,libmp4v2-3] }
@@ -64,6 +71,7 @@
 - { setname: liborcus,                 name: [orcus,orcus0.12] }
 - { setname: libosmium,                name: osmium }
 - { setname: libosmpbf,                name: osmpbf }
+- { setname: libotr,                   namepat: "libotr[0-9]+" }
 - { setname: libp11,                   name: libp11-openssl1.1, addflavor: true }
 - { setname: libpaper,                 name: libpaper1 }
 - { setname: libpng,                   name: [png,libpng-apng] }

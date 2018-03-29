@@ -13,6 +13,7 @@
 - { setname: scamp,                    name: astromatic-scamp }
 - { setname: scapy,                    name: "python:scapy" }
 - { setname: schismtracker,            name: schism }
+- { setname: schroedinger,             name: libschroedinger }
 - { setname: scrot,                    name: scrot-no-beep, addflavor: no-beep }
 - { setname: sdl,                      name: [libsdl,sdl1] }
 - { setname: sdl,                      name: [sdl12,libsdl1.2] }
@@ -80,6 +81,7 @@
 - { setname: spamassassin,             name: spamassassin-rules, addflavor: rules }
 - { setname: spamassassin,             name: spamassassin-spamc, addflavor: rules }
 - { setname: sparsehash,               name: google-sparsehash }
+- { setname: spatialindex,             name: libspatialindex }
 - { setname: spatialite-gui,           name: spatialite-gui-devel, ignore: true }
 - { setname: speed-dreams,             name: speeddreams }
 - { setname: speed-dreams,             namepat: "speed-?dreams-.*", addflavor: true }
