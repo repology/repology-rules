@@ -53,8 +53,7 @@
 - { setname: flow-tools,               name: flow-tools-ng }
 - { setname: flrig,                    name: flrig-docs, addflavor: true }
 - { setname: fltk,                     name: [fltk-docs,fltk-editor,fltk-games], addflavor: true }
-- { setname: fltk,                     name: fltk11 }
-- { setname: fltk,                     namepat: "fltk[0-9.]+", family: debuntu }
+- { setname: fltk,                     namepat: "(?:lib)?fltk[0-9._-]*", family: debuntu }
 - { setname: fluidsynth,               name: fluid-synth }
 - { setname: flume,                    name: apache-flume-ng }
 - { setname: fluxbox,                  name: [fluxbox-wm,fluxbox-noslit] }
