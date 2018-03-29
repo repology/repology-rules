@@ -56,6 +56,9 @@
 - { setname: allureofthestars,         name: "haskell:allure" }
 - { setname: alogg,                    name: [liballegroogg,allegroogg] }
 - { setname: alsa-lib,                 name: [alsa,libalsa,libalsa2,alsa-lib-noassertion] }
+- { setname: alsa-plugins,             name: [alsa-plugins-pulse,alsa-plugins-pulseaudio], addflavor: pulse }
+- { setname: alsa-plugins,             name: alsa-plugins-jack, addflavor: jack }
+- { setname: alsa-plugins,             name: alsa-plugins-oss, addflavor: oss }
 - { setname: amule,                    name: amule-daemon, addflavor: daemon }
 - { setname: amule,                    name: amule-devel, ignore: true }
 - { setname: amule,                    name: amule-gui, addflavor: gui }
