@@ -41,6 +41,7 @@
 - { setname: firefox-kde-i18n,         namepat: "firefox-(kde-i18n-.*)", addflavor: $1 }
 - { setname: five-or-more,             name: gnome-games-five-or-more }
 - { setname: flac,                     name: flac-doc, addflavor: doc }
+- { setname: flac,                     name: [flac-libs,libflac] }
 - { setname: flare,                    name: [flare-engine,flare-game], addflavor: true } # these are actually distinct packages, but too many repos merge them together
 - { setname: fleet,                    name: fleetctl }
 - { setname: flight-of-the-amazon-queen, name: fotaq }

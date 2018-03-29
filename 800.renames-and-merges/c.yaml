@@ -158,6 +158,7 @@
 - { setname: curseofwar,               name: curse-of-war }
 - { setname: curseofwar,               name: curseofwar-sdl }
 - { setname: curses-hexedit,           name: [chexedit,ncurses-hexedit] }
+- { setname: cups,                     name: [cups-libs,cups-base,cups-minimal,cups-nosystemd,libcups,libcups-ipp14], addflavor: true }
 - { setname: cutecom,                  name: cutecom-legacy }
 - { setname: cvs,                      name: cvs-devel }
 - { setname: cvsps,                    namepat: "cvsps[0-9]+" }
@@ -168,6 +169,8 @@
 - { setname: cyrus-imapd,              name: cyrus-imapd-ldap }
 - { setname: cyrus-imapd,              name: cyrus5-imapd }
 - { setname: cyrus-imapd,              namepat: "cyrus-imapd[0-9.-]+" }
+- { setname: cyrus-sasl,               name: [cyrus-sasl-lib,cyrus-sasl2] }
+- { setname: cyrus-sasl,               name: [cyrus-sasl-gssapi,cyrus-sasl-ldap,cyrus-sasl-ldapdb,cyrus-sasl-saslauthd,cyrus-sasl-sql,cyrus-sasl-srp,cyrus-saslauthd], addflavor: true }
 - { setname: cython,                   name: cython2 }
 - { setname: cython-kivy,              name: cython2-kivy }
 

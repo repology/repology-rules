@@ -9,10 +9,10 @@
 - { setname: jack2,                    name: jack2-no-dbus, addflavor: no-dbus }
 - { setname: jag,                      name: jag-level-editor, addflavor: editor }
 - { setname: jansson,                  name: libjansson }
-- { setname: java-getopt,              name: getopt, family: sisyphus }
-- { setname: java-getopt,              name: getopt, wwwpart: urbanophile.com }
+- { setname: jasper,                   name: [libjasper,jasper-libs] }
+- { setname: jasper,                   name: jasper-doc, addflavor: docs }
 - { setname: java-getopt,              name: libgetopt-java }
-- { setname: jbigkit,                  name: [jbig-kit,jbig] }
+- { setname: jbigkit,                  name: [jbig-kit,jbig,jbigkit-libs] }
 - { setname: jboss-forge,              name: jboss-forge-offline }
 - { setname: jdeparser,                namepat: "jdeparser[0-9]+" }
 - { setname: jdom,                     namepat: "jdom[0-9]+" }
