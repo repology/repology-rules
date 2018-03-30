@@ -138,6 +138,10 @@ class BadPlaceholderUsage(Exception):
     pass
 
 
+class BadRuleValue(Exception):
+    pass
+
+
 def load_rule_file(path):
     with open(path) as content:
         return yaml.safe_load(content)
@@ -165,6 +169,15 @@ def validate_regexps(rule):
             raise BadPlaceholderUsage('"{}" is used in addflavor, but the regular expression only has {} capture group(s)'.format(ph, namegroups))
         if 'setver' in rule and ph in rule['setver'] and n > vergroups:
             raise BadPlaceholderUsage('"{}" is used in setver, but the regular expression only has {} capture group(s)'.format(ph, vergroups))
+
+
+def validate_values(rule):
+    for key, val in rule.items():
+        if isinstance(val, str):
+            if val.strip() != val:
+                raise BadRuleValue('{} is not stripped'.format(key))
+            if val.strip('"') != val:
+                raise BadRuleValue('{} contains " (check for unbalanced quotes)'.format(key))
 
 
 class RulesetCheckResult:
@@ -211,6 +224,11 @@ def check_rule_file(path):
             result.add_failure('regular expression problem', str(e), rule)
         except BadPlaceholderUsage as e:
             result.add_failure('placeholder problem', str(e), rule)
+
+        try:
+            validate_values(rule)
+        except BadRuleValue as e:
+            result.add_failure('value problem', str(e), rule)
 
     return result
 
