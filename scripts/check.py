@@ -171,13 +171,21 @@ def validate_regexps(rule):
             raise BadPlaceholderUsage('"{}" is used in setver, but the regular expression only has {} capture group(s)'.format(ph, vergroups))
 
 
+def validate_value(key, val):
+    if val.strip() != val:
+        raise BadRuleValue('{} is not stripped'.format(key))
+    if val.strip('"') != val:
+        raise BadRuleValue('{} contains stray ", check for unbalanced YAML quotes'.format(key))
+    if key.endswith('pat') and '\\.*' in val:
+        raise BadRuleValue('{} contains incorrect pattern "\\\\.*", perhaps you\'ve meant "\\\\..*"?'.format(key))
+    if key in ('name', 'ver') and ('.*' in val or '[' in val or '{' in val or '|' in val):
+        raise BadRuleValue('{0} is not a pattern but contains pattern characters, perhaps you\'ve meant to use {0}pat?'.format(key))
+
+
 def validate_values(rule):
     for key, val in rule.items():
         if isinstance(val, str):
-            if val.strip() != val:
-                raise BadRuleValue('{} is not stripped'.format(key))
-            if val.strip('"') != val:
-                raise BadRuleValue('{} contains " (check for unbalanced quotes)'.format(key))
+            validate_value(key, val)
 
 
 class RulesetCheckResult:
