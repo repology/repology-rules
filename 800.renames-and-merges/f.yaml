@@ -73,7 +73,8 @@
 - { setname: fossology,                name: fossology-nomos-standalone } # part of fossology
 - { setname: four-in-a-row,            name: gnome-games-four-in-a-row }
 - { setname: fox,                      name: [fox-devel,fox-toolkit,fox-toolkit-devel] }
-- { setname: fox,                      namepat: "fox[0-9.-]+" }
+- { setname: fox,                      namepat: "(?:lib)?fox[0-9._-]*" }
+- { setname: fox,                      name: [adie,calculator], wwwpart: fox-toolkit, addflavor: true } # bundled apps
 - { setname: foxyproxy,                name: xpi-foxyproxy, family: freebsd }
 - { setname: fpc,                      name: [fpc-source,fpc-src] } # part of fossology
 - { setname: fpc-modules,              namepat: "fpc-.*", family: freebsd }

@@ -28,6 +28,8 @@
 - { name: glibmm,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: glib-networking,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: glibc,                       verlonger: 2,                                       ignore: true } # assorted garbage
+- { name: glitz,                       ver: "0.5.7",                 ruleset: sisyphus,    incorrect: true } # fake
+- { name: glitz,                                                     ruleset: sisyphus,    untrusted: true }
 - { name: glm,                         verpat: ".*a.*",                                    devel: true }
 - { name: globulation2,                ver: "0.9.4.5",               family: rosa,         ignore: true } # not released yet
 - { name: gltron,                      verpat: "(.*)final",                                setver: $1 } # Maemo

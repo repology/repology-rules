@@ -9,6 +9,7 @@
 - { setname: garlic,                   name: garlic-doc }
 - { setname: garmintools,              name: garmin-forerunner-tools }
 - { setname: gaul,                     name: gaul-devel, family: gentoo }
+- { setname: gavl,                     name: libgavl }
 - { setname: gcc,                      name: [g++,gcc3-c,gcc3-c++,gcc3-f77,gcc3-objc,gcc48-libs,gcc49-libs,gcc5-libs], addflavor: true }
 - { setname: gcc,                      namepat: "gcc[0-9.-]+" }
 - { setname: gcc,                      namepat: "gcc[0-9.-]+-devel", ignore: true }
@@ -43,10 +44,12 @@
 - { setname: geoip,                    name: libgeoip }
 - { setname: geos,                     namepat: "geos[0-9._-]+" }
 - { setname: get_iplayer,              name: "perl:get_iplayer" }
+- { setname: getfem++,                 name: getfemxx }
 - { setname: getdns,                   name: "python:getdns" }
 - { setname: getopt,                   name: [gnugetopt,gnu-getopt,gnu.getopt] }
 - { setname: gettext,                  name: libintl }
 - { setname: gexiv2,                   name: libgexiv2 }
+- { setname: gfbgraph,                 name: libgfbgraph }
 - { setname: gflags,                   name: [google-gflags,libgflags] }
 - { setname: gifcurry,                 name: "haskell:gifcurry" }
 - { setname: giflib,                   name: gif, family: ravenports }
@@ -101,12 +104,14 @@
 - { setname: glib-networking,          name: glib2-networking }
 - { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9._-]*" }
 - { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9._-]*(-docs|-reference)", addflavor: docs }
+- { setname: glitz,                    name: libglitz }
 - { setname: globulation2,             name: [globulation-2,glob2] }
 - { setname: glog,                     name: google-glog }
 - { setname: glpng,                    name: [libglpng1,libglpng] }
 - { setname: glusterfs,                name: glusterfs3 }
 - { setname: gmime,                    namepat: "(?:lib)?gmime[0-9._-]*" }
 - { setname: gmime-sharp,              namepat: "(?:lib)?gmime[0-9._-]*-sharp" }
+- { setname: gmm++,                    name: gmm }
 - { setname: gmock,                    name: [google-mock,googlemock,libgmock] }
 - { setname: gmrun,                    name: [gmrun-multihead,gmrun-xdg] }
 - { setname: gmsynth.lv2,              name: gmsynth-lv2 }
@@ -186,6 +191,7 @@
 - { setname: gpgme,                    namepat: "gpgme[0-9._-]+" }
 - { setname: gpgme,                    name: [gpgme-cpp,gpgme-python,gpgme-qt5,qgpgme,"python:gpgme"], addflavor: true }
 - { setname: gphoto2,                  namepat: "(?:lib)?gphoto2?" }
+- { setname: gpodder,                  name: gpodder3 }
 - { setname: gprolog,                  name: gnu-prolog }
 - { setname: grafana,                  name: grafana-bin }
 - { setname: grafana,                  namepat: "grafana[0-9]+" }
@@ -225,9 +231,15 @@
 - { setname: guava,                    name: [google-guava, java-guava] }
 - { setname: gucharmap,                name: gucharmap-gtk2, addflavor: gtk2 }
 - { setname: gucharmap,                name: gucharmap7 }
+- { setname: gupnp,                    name: libgupnp }
+- { setname: gupnp-av,                 name: libgupnp-av }
+- { setname: gupnp-dlna,               name: libgupnp-dlna }
+- { setname: gupnp-igd,                name: libgupnp-igd }
 - { setname: guile,                    namepat: "guile[0-9._-]+" }
 - { setname: gvrng,                    name: guido-van-robot }
 - { setname: gwt,                      name: webtoolkit-java-sdk }
+- { setname: gwenhywfar,               name: [gwenhywfar-fox16,gwenhywfar-gtk2,gwenhywfar-gtk,gwenhywfar-qt4,gwenhywfar-qt5,gwenhywfar4-gtk], addflavor: true }
+- { setname: gwenhywfar,               name: gwenhywfar4  }
 - { setname: gxmessage,                name: gxmessage-gtk2, addflavor: gtk2 }
 - { setname: gyp,                      name: "python:gyp" }
 - { setname: gzdoom,                   name: gzdoom-legacy }
