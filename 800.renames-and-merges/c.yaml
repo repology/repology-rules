@@ -40,7 +40,7 @@
 - { setname: cegui,                    namepat: "cegui[0-9._-]+" }
 - { setname: celestia,                 name: celestia-nonfree, addflavor: nonfree }
 - { setname: celestia,                 namepat: "celestia-.*", family: freebsd } # merges glut/gnome/gtk, just GUI variants
-- { setname: celt,                     namepat: "celt[0-9._-]+" }
+- { setname: celt,                     namepat: "(?:lib)?celt[0-9._-]*" }
 - { setname: centerim,                 name: [center-im,centerim5] }
 - { setname: centerim,                 name: centerim-devel, ignore: true }
 - { setname: ceti-2-theme,             name: ceti-2-themes }
