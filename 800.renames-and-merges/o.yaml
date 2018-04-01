@@ -1,10 +1,13 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: obby,                     name: libobby }
 - { setname: octave,                   namepat: "octave[0-9._-]+" }
 - { setname: ogre,                     name: [ogre-docs,ogre-samples], addflavor: true }
 - { setname: ogre,                     name: ogre3d }
 - { setname: ogre,                     namepat: "ogre[0-9._-]+" }
 - { setname: ombi,                     name: [ombi-beta,ombi-dev] }
+- { setname: oniguruma,                name: [onig,libonig], addflavor: onig }
+- { setname: oniguruma,                namepat: "onigurama[0-9._-]+" }
 - { setname: onehouronelife,           namepat: onehouronelife-latest, rolling: true }
 - { setname: onscripter,               name: onscripter-1byte, addflavor: 1byte }
 - { setname: open-vm-tools,            name: [open-vm-tools-dkms,open-vm-tools-lts-trusty,open-vm-tools-nox11], addflavor: true }
@@ -13,6 +16,7 @@
 - { setname: openblas,                 name: [openblas-lapack,openblas-lapack-ilp64] }
 - { setname: opencc,                   name: opencc-doc, addflavor: doc }
 - { setname: opencollada,              name: libopencollada }
+- { setname: opencore-amr,             name: libopencore-amr0 }
 - { setname: opencv,                   name: opencv2 }
 - { setname: opendkim,                 name: libopendkim }
 - { setname: opendht,                  name: "python:opendht" }
@@ -25,11 +29,13 @@
 - { setname: openldap,                 name: openldap2 }
 - { setname: openmesh,                 name: open-mesh }
 - { setname: openmpi,                  name: open-mpi }
+- { setname: openobex,                 name: libopenobex }
 - { setname: openocd,                  name: open-ocd }
 - { setname: openoffice,               name: apache-openoffice }
 - { setname: openoffice,               name: apache-openoffice-devel, ignore: true }
 - { setname: openoffice,               name: openoffice-bin, addflavor: bin }
 - { setname: openoffice,               name: openoffice.org }
+- { setname: openr2,                   namepat: "(?:lib)?openr2[0-9._-]+" }
 - { setname: opensc,                   namepat: "opensc[0-9._-]+" }
 - { setname: opensc,                   name: opensc-openct, addflavor: openct }
 - { setname: openscenegraph,           name: [openscenegraph-qt,openscenegraph-qt4,openscenegraph-data], addflavor: true }
@@ -54,6 +60,7 @@
 - { setname: opus,                     name: libopus }
 - { setname: opusfile,                 name: libopusfile }
 - { setname: orafce,                   namepat: "(postgresql[0-9._-]*)-orafce", addflavor: $1 }
+- { setname: ortp,                     namepat: "(?:lib)?ortp[0-9._-]*" }
 - { setname: osip,                     name: [libosip,libosip2,osip2] }
 
 - setname: openssh

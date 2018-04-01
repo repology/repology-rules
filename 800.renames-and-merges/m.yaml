@@ -60,6 +60,7 @@
 - { setname: msgpack,                  name: [msgpack-c,msgpack_c_cpp,libmsgpack,msgpack1] } # c/cpp by default
 - { setname: mstflint,                 name: mstflint4 }
 - { setname: msynctool,                namepat: "msynctool[0-9]+" }
+- { setname: mtdev,                    name: libmtdev }
 - { setname: multivalent,              name: [multivalent-tool-pdf,multivalent-pdf-tools] }
 - { setname: munin,                    namepat: munin-(master|node|server|common), addflavor: $1 }
 - { setname: muparser,                 namepat: "libmuparser[0-9._-]*" }

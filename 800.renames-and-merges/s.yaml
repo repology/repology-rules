@@ -73,6 +73,7 @@
 - { setname: softhsm,                  namepat: "softhsm[0-9]+" }
 - { setname: sogo,                     name: [gnustep-sogo,gnustep-sogo3] }
 - { setname: sopwith,                  name: [sdlsopwith,sdl-sopwith,sdl_sopwith] }
+- { setname: sord,                     name: libsord }
 - { setname: soundtouch,               name: [libsoundtouch,sound-touch] }
 - { setname: soxr,                     name: libsoxr }
 - { setname: spacearyarya,             name: spacearyarya-kxl, family: gentoo } # XXX: recheck
@@ -128,6 +129,8 @@
 - { setname: sugar-toolkit,            name: [sugar-toolkit-gtk2,sugar-toolkit-gtk3], addflavor: true }
 - { setname: sugar-toolkit,            namepat: "sugar-toolkit[0-9._-]+" }
 - { setname: sugar-write-activity,     namepat: "sugar-write-activity[0-9._-]+" }
+- { setname: suil,                     name: libsuil }
+- { setname: suil,                     name: [suil-qt4,suil-qt5], addflavor: true }
 - { setname: suitesparse,              name: [libsuitesparse,libsuitesparse3,suitesparse-mkl,suitesparse-metis] }
 - { setname: suitesparse,              name: suite-sparse }
 - { setname: suitesparseconfig,        name: [ufconfig,suitesparse-common-devel] } # from report: ufconfig is an old name for suitesparseconfig

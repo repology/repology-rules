@@ -35,6 +35,7 @@
 - { setname: pgpool,                   namepat: "postgresql[0-9._-]*-pgpool[0-9._-]*" }
 - { setname: pgroonga,                 namepat: "(postgresql[0-9._-]*)-pgroonga", addflavor: $1 }
 - { setname: phash,                    name: libphash }
+- { setname: phat,                     name: libphat }
 - { setname: phoenix-emu,              name: phoenix-emu-project }
 - { setname: php,                      namepat: "php[0-9._-]*" }
 - { setname: physfs,                   name: libphysfs }
@@ -58,6 +59,8 @@
 - { setname: ponscripter,              name: onscripter-en }
 - { setname: poppler,                  name: compat-poppler022 }
 - { setname: poppler,                  namepat: "poppler[0-9._-]+" }
+- { setname: popt,                     name: libpopt }
+- { setname: portaudio,                name: [portaudio19,portaudio2,portaudio-devel,portaudio-svn] }
 - { setname: postfix,                  name: [postfix-current,postfix-current-sasl,postfix211,postfix211-sasl] }
 - { setname: postfwd,                  name: postfix-postfwd, family: freebsd }
 - { setname: postgis,                  name: [postgis-src,postgis-sfcgal,liblwgeom] }
