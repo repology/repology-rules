@@ -213,11 +213,13 @@
 - { setname: gsasl,                    name: gsasl-ntlm, addflavor: ntlm }
 - { setname: gsasl,                    name: libgsasl }
 - { setname: gsl,                      name: gsl-doc, addflavor: doc }
+- { setname: gspell,                   name: libgspell }
 - { setname: gssdp,                    name: libgssdp }
 - { setname: gssproxy,                 name: gss-proxy }
 - { setname: gtest,                    name: [googletest,libgtest] }
 - { setname: gtk,                      namepat: "(?:lib)?gtk[0-9._+-]*" }
 - { setname: gtk-doc,                  name: gtk-doc-am, addflavor: am }
+- { setname: gtk-recordmydesktop,      name: recordmydesktop-gtk }
 - { setname: gtkdatabox,               name: libgtkdatabox }
 - { setname: gtkglextmm,               name: libgtkglextmm }
 - { setname: gtkhtml,                  namepat: "(?:lib|compat-)?gtkhtml[0-9._-]*" }
@@ -238,6 +240,7 @@
 - { setname: gupnp-dlna,               name: libgupnp-dlna }
 - { setname: gupnp-igd,                name: libgupnp-igd }
 - { setname: guile,                    namepat: "guile[0-9._-]+" }
+- { setname: guichan,                  name: [libguichan,compat-guichan05,guichan05] }
 - { setname: gvrng,                    name: guido-van-robot }
 - { setname: gwt,                      name: webtoolkit-java-sdk }
 - { setname: gwenhywfar,               name: [gwenhywfar-fox16,gwenhywfar-gtk2,gwenhywfar-gtk,gwenhywfar-qt4,gwenhywfar-qt5,gwenhywfar4-gtk], addflavor: true }

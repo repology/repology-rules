@@ -15,13 +15,17 @@
 - { setname: libejdb,                  name: ejdb }
 - { setname: libelf,                   name: libelf0 }
 - { setname: libetonyek,               namepat: "libetonyek[0-9._-]+" }
+- { setname: libev,                    name: libev4 }
 - { setname: libevent,                 name: [libevent2,libevent1] }
 - { setname: libfm,                    name: [libfm-directory_thumbnails,libfm-extra,libfm-gtk2,libfm-gtk3] }
 - { setname: libfreenect,              name: freenect }
 - { setname: libftdi,                  namepat: "libftdi[0-9._-]+" }
 - { setname: libgcrypt,                namepat: "libgcrypt[0-9_.-]+" }
+- { setname: libgda,                   name: compat-libgdata013 }
+- { setname: libgda,                   namepat: "libgda[0-9_.-]*(?:-(dbd|firebird|jdbc|ldap|mdb|mysql|postgre(?:sql)?|ui))", addflavor: $1 }
 - { setname: libgdamm,                 name: libgdamm-docs, addflavor: docs }
 - { setname: libgdamm,                 namepat: "libgdamm[0-9._-]+" }
+- { setname: libgdata,                 namepat: "libgdata[0-9._-]+" }
 - { setname: libgee,                   namepat: "libgee[0-9.-]+" }
 - { setname: libgeotiff,               name: [libgeotiff-dfsg,libgeotiff-epsg] }
 - { setname: libgeotiff,               name: geotiff }
