@@ -15,6 +15,7 @@
 - { setname: mastodon,                 name: mastodon-docker, addflavor: docker }
 - { setname: mate-control-center,      name: mate-control-center-dev }
 - { setname: mate-control-center,      name: mate-control-center-gtk2, addflavor: gtk2 }
+- { setname: matio,                    name: libmatio }
 - { setname: maven-shell,              name: mvnsh }
 - { setname: mc,                       name: [mc-contrib,midnight-commander,midnightcommander] }
 - { setname: mc,                       name: mc46 }
@@ -22,17 +23,20 @@
 - { setname: md5deep,                  name: hashdeep }
 - { setname: mdds,                     namepat: "mdds[0-9._-]+" }
 - { setname: meandmyshadow,            name: me-and-my-shadow }
+- { setname: meanwhile,                name: libmeanwhile }
 - { setname: mediainfo,                name: media-info }
 - { setname: mediawiki,                name: mediawiki-lts }
 - { setname: mediawiki,                namepat: "mediawiki[0-9._-]+" }
 - { setname: mednaffe,                 name: mednaffe-gtk2 }
 - { setname: meld,                     name: meld-dev, ignore: true }
 - { setname: meld,                     name: meld-gtk2 }
+- { setname: memphis,                  namepat: "libmemphis[0-9._-]*"  }
 - { setname: memtest86+,               name: memtestplus }
 - { setname: mesa,                     namepat: "mesa-lts-.*" }
 - { setname: mesa-demos,               name: [mesa-demo,mesademos] }
 - { setname: meson,                    name: "python:meson" }
 - { setname: mgltools,                 namepat: "mgltools-.*", family: debuntu }
+- { setname: mhash,                    name: libmhash }
 - { setname: midori,                   name: [midori-granite,midori-gtk2,midori-no-zeitgeist], addflavor: true }
 - { setname: minixml,                  name: libmxml }
 - { setname: minpack,                  name: libcminpack }
@@ -58,6 +62,7 @@
 - { setname: msynctool,                namepat: "msynctool[0-9]+" }
 - { setname: multivalent,              name: [multivalent-tool-pdf,multivalent-pdf-tools] }
 - { setname: munin,                    namepat: munin-(master|node|server|common), addflavor: $1 }
+- { setname: muparser,                 namepat: "libmuparser[0-9._-]*" }
 - { setname: mutt,                     name: [mutt-lite,mutt-devel,mutt14,mutt14-lite,mutt-patched,mutt-slang,mutt-kiss] }
 - { setname: mygui,                    namepat: "mygui-(docs|dummy|gl|opengl|ogre[0-9._-]*)", addflavor: $1 }
 - { setname: myrepos,                  name: mr }

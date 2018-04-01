@@ -118,6 +118,8 @@
 - { setname: libupnp,                  name: upnp, family: freebsd }
 - { setname: libuv,                    name: libuv1 }
 - { setname: libvisio,                 namepat: "libvisio[0-9._-]+" }
+- { setname: libvisual,                namepat: "libvisual[0-9._-]+" }
+- { setname: libvisual-plugins,        namepat: "libvisual[0-9._-]+-plugins" }
 - { setname: libvorbis,                name: libvorbis-doc, addflavor: doc }
 - { setname: libvpx,                   namepat: "libvpx[0-9._-]+" }
 - { setname: libwebp,                  name: [webp,libwebp6] }
