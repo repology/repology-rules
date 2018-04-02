@@ -172,6 +172,8 @@ def validate_regexps(rule):
 
 
 def validate_value(key, val):
+    if key in ['namepat', 'verpat', 'wwwpat']:
+        val = val.replace('\n', '')
     if val.strip() != val:
         raise BadRuleValue('{} is not stripped'.format(key))
     if val.strip('"') != val:
