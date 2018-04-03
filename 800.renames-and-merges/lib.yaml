@@ -23,7 +23,8 @@
 - { setname: libftdi,                  namepat: "libftdi[0-9._-]+" }
 - { setname: libgcrypt,                namepat: "libgcrypt[0-9_.-]+" }
 - { setname: libgda,                   name: compat-libgdata013 }
-- { setname: libgda,                   namepat: "libgda[0-9._-]*(?:-(dbd|firebird|jdbc|ldap|mdb|mysql|postgre(?:sql)?|ui))?", addflavor: $1 }
+- { setname: libgda,                   namepat: "libgda[0-9._-]*(?:-(bdb|firebird|jdbc|ldap|mdb|mysql|ui))?", addflavor: $1 }
+- { setname: libgda,                   namepat: "libgda[0-9._-]*-(?:pgsql|postgres|postgresql)", addflavor: pgsql }
 - { setname: libgdamm,                 name: libgdamm-docs, addflavor: docs }
 - { setname: libgdamm,                 namepat: "libgdamm[0-9._-]+" }
 - { setname: libgdata,                 namepat: "libgdata[0-9._-]+" }
