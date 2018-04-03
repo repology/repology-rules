@@ -35,7 +35,7 @@
 - { setname: openoffice,               name: apache-openoffice-devel, ignore: true }
 - { setname: openoffice,               name: openoffice-bin, addflavor: bin }
 - { setname: openoffice,               name: openoffice.org }
-- { setname: openr2,                   namepat: "(?:lib)?openr2[0-9._-]+" }
+- { setname: openr2,                   namepat: "(?:lib)?openr2[0-9._-]*" }
 - { setname: opensc,                   namepat: "opensc[0-9._-]+" }
 - { setname: opensc,                   name: opensc-openct, addflavor: openct }
 - { setname: openscenegraph,           name: [openscenegraph-qt,openscenegraph-qt4,openscenegraph-data], addflavor: true }
