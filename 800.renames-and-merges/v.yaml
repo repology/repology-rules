@@ -36,5 +36,5 @@
 - { setname: vsqlite++,                name: [libvsqlite++,libvsqlitepp,vsqlite] }
 - { setname: vte,                      name: [vte-common,vte-gtk2-compat,vte-gtk2-xfce,vte-gtk3,vte-reference], addflavor: true }
 - { setname: vte,                      namepat: "(?:lib)?vte[0-9._-]*" }
-- { setname: vtk,                      namepat: "vtk[0-9._-]*(?:-?(base|data|doc|doc-html|docs|qt4|qvtk)[0-9._-]*)", addflavor: $1 }
+- { setname: vtk,                      namepat: "vtk[0-9._-]*(?:-?(base|data|doc|doc-html|docs|qt4|qvtk)[0-9._-]*)?", addflavor: $1 }
 - { setname: vuze,                     name: azureus } # old name
