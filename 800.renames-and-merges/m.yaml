@@ -34,7 +34,7 @@
 - { setname: memtest86+,               name: memtestplus }
 - { setname: mesa,                     namepat: "mesa-lts-.*" }
 - { setname: mesa-demos,               name: [mesa-demo,mesademos] }
-- { setname: meson,                    name: "python:meson" }
+- { setname: meson,                    name: ["python:meson",meson-internal,meson-testsuite], addflavor: true }
 - { setname: mgltools,                 namepat: "mgltools-.*", family: debuntu }
 - { setname: mhash,                    name: libmhash }
 - { setname: midori,                   name: [midori-granite,midori-gtk2,midori-no-zeitgeist], addflavor: true }

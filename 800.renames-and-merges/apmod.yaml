@@ -21,4 +21,4 @@
 - { setname: "apmod:survey",           name: mod_survey }
 - { setname: "apmod:wsgi",             name: "apmod:wsgi-python3", addflavor: python3 }
 - { setname: "apmod:wsgi",             name: mod_wsgi }
-- { setname: "apmod:wsgi",             namepat: "apmod:wsgi[0-9]+" }
+- { setname: "apmod:wsgi",             namepat: "apmod:(?:py[0-9._-]+)wsgi[0-9]*" }

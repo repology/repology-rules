@@ -29,7 +29,7 @@
 - { setname: xcb-util-renderutil,      name: [lib32-xcb-util-renderutil,libxcb-render-util,xorg-xcb-render-util] }
 - { setname: xdelta,                   name: [xdelta1,xdelta3] }
 - { setname: xdg-utils,                name: [xdg-utils-mimeo,xdg-utils-no-open,xdg-utils-patched,xdg-utils-slock] }
-- { setname: xdot,                     name: "python:xdot" }
+- { setname: xdot,                     name: ["python:xdot","python:xdot-06"] }
 - { setname: xerces-c,                 namepat: "(?:lib)?xerces-?c[0-9.+-]*" }
 - { setname: xerces-j,                 name: xerces, family: [openbsd,slackbuilds] }
 - { setname: xerces-j,                 name: xerces, family: gentoo, category: dev-java }
