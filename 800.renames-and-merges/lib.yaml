@@ -40,6 +40,7 @@
 - { setname: libgnome,                 name: [libgnome-data,libgnome-reference], addflavor: true }
 - { setname: libgnomecanvas,           namepat: "(?:lib)?gnomecanvas[0-9._-]*(-reference)" }
 - { setname: libgnomecanvasmm,         namepat: "(?:lib)?gnomecanvasmm[0-9._-]*" }
+- { setname: libgnomedb,               namepat: "libgnomedb[0-9._-]+" }
 - { setname: libgnomemm,               namepat: "(?:lib)?gnomemm[0-9._-]*" }
 - { setname: libgnomeoffice,           namepat: "libgnomeoffice[0-9._-]*" }
 - { setname: libgnomeprint,            name: libgnomeprint22 }
