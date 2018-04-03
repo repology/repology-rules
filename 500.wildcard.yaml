@@ -16,6 +16,9 @@
 - { setname: "cursors:$1", noflag: not_cursors, namepat: "(.*)-xcursors", ruleset: [ gentoo ] }
 - { setname: "cursors:$1", noflag: not_cursors, namepat: "cursor-(.*)", ruleset: [ freebsd ] }
 
+# Deepin
+- { setname: "deepin-$1", noflag: not_deepin, namepat: "(?:deepin|dde)-(.*)" }
+
 # Erlang
 - { setname: "erlang:$0", noflag: not_arlang, category: dev-erlang, ruleset: gentoo }
 - { setname: "erlang:$1", noflag: not_arlang, namepat: "erlang-(.*)" }
