@@ -2,6 +2,7 @@
 
 - { name: nautilus,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ncurses,                     verpat: ".*20[0-9]{6}.*",                           ignore: true }
+- { name: neofetch,                    verpat: "20[0-9]{6}",                               ignore: true } # aosc
 - { name: neovim-qt,                   ver: "0.2.9",                 ruleset: aur,         incorrect: true }
 - { name: neovim-qt,                                                 ruleset: aur,         untrusted: true }
 - { name: net-tools,                   verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
