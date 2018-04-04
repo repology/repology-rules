@@ -26,6 +26,8 @@
 - { setname: xaw3d,                    name: libxaw3d }
 - { setname: xawtv,                    name: xawtv4 }
 - { setname: xbase,                    name: [libxbase,xbase64] }
+- { setname: xcb-proto,                name: libxcbutil-proto }
+- { setname: xcb-proto,                name: xorg-xcbproto-devel, ignore: true }
 - { setname: xcb-util-renderutil,      name: [lib32-xcb-util-renderutil,libxcb-render-util,xorg-xcb-render-util] }
 - { setname: xdelta,                   name: [xdelta1,xdelta3] }
 - { setname: xdg-utils,                name: [xdg-utils-mimeo,xdg-utils-no-open,xdg-utils-patched,xdg-utils-slock] }
@@ -44,6 +46,7 @@
 - { setname: xfdesktop,                name: xfdesktop-gtk3, addflavor: gtk3 }
 - { setname: xine-lib,                 name: [xine-lib-1.2,xine-lib1.2,libxine,libxine2] }
 - { setname: xine-ui,                  name: [xine,xine-ui2] }
+- { setname: xkeyboard-config,         name: [xkeyboard-config-chromebook,xkeyboard-config-hhk,xkeyboard-config-rub], addflavor: true }
 - { setname: xmbmon,                   name: mbmon }
 - { setname: xmds,                     name: xmds-doc, addflavor: doc }
 - { setname: xmds,                     name: xmds2 }
@@ -55,12 +58,51 @@
 - { setname: xmonad,                   name: "haskell:xmonad" }
 - { setname: xmoto,                    name: x-moto }
 - { setname: xonotic,                  name: xonotic-data, addflavor: true }
+- { setname: xorg-server$1,            namepat: "xorg-server[0-9.]+(-.+)?" } # XXX: should be before large xorg-server rule at the end
+- { setname: xorg-server$1,            namepat: "xorg-server(-.+)?-dev", ignore: true } # XXX: should be before large xorg-server rule at the end
+- { setname: xorg-server,              name: modular-xorg-server }
+- { setname: xorg-server,              namepat: "xorg-server-lts-[a-z]+" }
 - { setname: xournal,                  name: xournal-gtk3, addflavor: gtk3 }
 - { setname: xpdf,                     name: [xpdf3,xpdf4] }
 - { setname: xpilot-ng,                name: [xpilot-ng-client, xpilot-ng-server], addflavor: true }
 - { setname: xplayer-plparser,         name: libxplayer-plparser }
+- { setname: xproxymanagementprotocol, name: xproxymngproto }
 - { setname: xrdp,                     name: xrdp-devel, ignore: true }
 - { setname: xsel,                     name: xsel-conrad }
+- { setname: xtrans,                   name: xorg-xtransproto } # ravenports manually split this out of xtrans
+- { setname: xtrans,                   name: xtrans-devel, ignore: true }
 - { setname: xulrunner,                name: xulrunner-devel, ignore: true }
 - { setname: xulrunner,                namepat: "xulrunner[0-9.-]+" }
 - { setname: xvidcore,                 name: [xvid,libxvid] }
+
+- name:
+    - xorg-dmx
+    - xorg-server-bug865
+    - xorg-server-common
+    - xorg-server-common-mir
+    - xorg-server-common-nosystemd
+    - xorg-server-devel
+    - xorg-server-devel-mir
+    - xorg-server-devel-nosystemd
+    - xorg-server-hwcursor-gamma
+    - xorg-server-hwe-16.04
+    - xorg-server-mir
+    - xorg-server-nosystemd
+    - xorg-server-systemd
+    - xorg-server-xdmx
+    - xorg-server-xdmx-mir
+    - xorg-server-xdmx-nosystemd
+    - xorg-server-xephyr
+    - xorg-server-xephyr-mir
+    - xorg-server-xephyr-nosystemd
+    - xorg-server-xnest
+    - xorg-server-xnest-mir
+    - xorg-server-xnest-nosystemd
+    - xorg-server-xvfb
+    - xorg-server-xvfb-mir
+    - xorg-server-xvfb-nosystemd
+    - xorg-server-xwayland
+    - xorg-server-xwayland-mir
+    - xorg-server-xwayland-nosystemd
+  setname: xorg-server
+  addflavor: true

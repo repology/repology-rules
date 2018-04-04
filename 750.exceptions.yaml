@@ -5,6 +5,7 @@
 # hard to split these afterwards
 #
 
+- { setname: libdmx,                   name: xorg-dmx, family: ravenports } # don't mix with xorg dmx server
 - { setname: mysql-connector-c,        name: libmysqlclient, family: haikuports } # not really libmysqlclient from mysql
 - { setname: "perl:html-formatter",    name: "perl:html-format", family: fedora } # XXX: problem
 - { setname: "python:pygpgme",         name: "python:gpgme", family: pclinuxos }
