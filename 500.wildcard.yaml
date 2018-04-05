@@ -118,4 +118,4 @@
 - { setname: "vdr:$1", noflag: not_vdr, namepat: "vdr-(.*)", ruleset: [ fedora, gentoo ] }
 
 # Xorg drivers
-- { setname: "xorg:$1", noflag: not_xorg, namepat: "(?:xf86|xorg|xserver-xorg|x11-driver|xorg-xf86|xorg-driver)-((?:input|video)-.*)" }
+- { setname: "xdrv:$1", noflag: not_xorg, namepat: "(?:xf86|xorg|xserver-xorg|x11-driver|xorg-xf86|xorg-driver|xorg-x11-drv)-(?:input-|video-)?(.*?)" }
