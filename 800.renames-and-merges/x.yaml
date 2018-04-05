@@ -28,6 +28,7 @@
 - { setname: xbase,                    name: [libxbase,xbase64] }
 - { setname: xcb-proto,                name: libxcbutil-proto }
 - { setname: xcb-proto,                name: xorg-xcbproto-devel, ignore: true }
+- { setname: xcb-util$1,               namepat: "libxcbutil(.*)" }
 - { setname: xcb-util,                 name: xcb-util036 }
 - { setname: xcb-util-renderutil,      name: [lib32-xcb-util-renderutil,libxcb-render-util,xorg-xcb-render-util] }
 - { setname: xcb-util-xrm,             name: xcb-utils-xrm } # XXX: problem
