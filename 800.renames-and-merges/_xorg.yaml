@@ -86,34 +86,67 @@
 # utils
 - namepat: |
     (?:xorg-|x11-)+(
+    appres|
     bdftopcf|
     beforelight|
+    bitmap|
     editres|
     font-util|
     fontutil|
     gccmakedep|
+    iceauth|
     imake|
     luit|
     makedepend|
     mkfontdir|
     mkfontscale|
+    sessreg|
     setxkbmap|
+    smproxy|
     transset|
     twm|
+    x11perf|
     xauth|
+    xbacklight|
     xbitmaps|
+    xcalc|
+    xclock|
+    xcmsdb|
+    xconsole|
     xcursorgen|
+    xdpyinfo|
+    xdriinfo|
+    xev|
+    xf86dga|
     xfontsel|
+    xgamma|
+    xgc|
+    xhost|
+    xinit|
+    xinput|
+    xkbevd|
+    xkbutils|
     xkeyboard-config|
+    xkill|
+    xlsatoms|
+    xlsclients|
     xmessage|
+    xmodmap|
     xprop|
+    xpr|
+    xrdb|
+    xrefresh|
     xsetmode|
     xsetpointer|
     xsetroot|
     xset|
-    xtrans|
     xtrans-devel|
-    xtrap
+    xtrans|
+    xtrap|
+    xvinfo|
+    xwd|
+    xwininfo|
+    xwud
     )
   setname: "$1"
 
