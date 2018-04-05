@@ -24,7 +24,7 @@
     )(?:4|5|-kde4|-kde5|-kf5|-light|-qt5)?
   setname: "kde-$1"
 
-# standalone kde apps
+# standalone kde apps and projects
 - namepat: |
     (?:kde-|kde4-|kde5-|plasma5-|kde-?(?:edu|graphics|utils|multimedia|sdk)-|kf5-)?(
     akonadi-calendar-tools|
@@ -61,6 +61,7 @@
     filelight|
     grantlee-editor|
     grantleetheme|
+    gpgmepp|
     gwenview|
     incidenceeditor|
     k3b|
