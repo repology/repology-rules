@@ -30,6 +30,7 @@
 - { setname: xcb-proto,                name: xorg-xcbproto-devel, ignore: true }
 - { setname: xcb-util,                 name: xcb-util036 }
 - { setname: xcb-util-renderutil,      name: [lib32-xcb-util-renderutil,libxcb-render-util,xorg-xcb-render-util] }
+- { setname: xcb-util-xrm,             name: xcb-utils-xrm } # XXX: problem
 - { setname: xdelta,                   name: [xdelta1,xdelta3] }
 - { setname: xdg-utils,                name: [xdg-utils-mimeo,xdg-utils-no-open,xdg-utils-patched,xdg-utils-slock] }
 - { setname: xdot,                     name: ["python:xdot","python:xdot-06"] }
