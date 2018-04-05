@@ -163,13 +163,6 @@
     xau|
     xaw|
     xcb|
-    xcb-util|
-    xcb-util-cursor|
-    xcb-util-image|
-    xcb-util-keysyms|
-    xcb-util-renderutil|
-    xcb-util-wm|
-    xcb-util-xrm|
     xcomposite|
     xcursor|
     xdamage|
@@ -202,3 +195,14 @@
     xxf86vm
     )
   setname: lib$1
+- namepat: |
+    (?:xorg-|x11-)+(?:lib)?(
+    xcb-util|
+    xcb-util-cursor|
+    xcb-util-image|
+    xcb-util-keysyms|
+    xcb-util-renderutil|
+    xcb-util-wm|
+    xcb-util-xrm
+    )
+  setname: $1
