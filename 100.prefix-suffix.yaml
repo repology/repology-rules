@@ -16,6 +16,8 @@
 
 - { ruleset: deb_multimedia,  namepat: "(.*)-dmo", setname: "$1" }
 
+- { ruleset: debuntu,         namepat: "(.*)-lts-(quantal|raring|saucy|trusty|utopic|vivid|wily|xenial|yakkety|zesty|artful|bionic)", setname: "$1" }
+
 # XXX: handle (.*)-devel for freebsd?
 - { ruleset: freebsd,         namepat: "(.*)-(py27|py36)", setname: "$1", addflavor: "$2" }
 - { ruleset: freebsd,         namepat: "(linux-c[67])-(.*)", setname: "$2", addflavor: "$1", legacy: true }
