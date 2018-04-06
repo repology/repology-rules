@@ -20,5 +20,5 @@
 - { setname: "apmod:security",         name: "apmod:security2" }
 - { setname: "apmod:survey",           name: mod_survey }
 - { setname: "apmod:wsgi",             name: "apmod:wsgi-python3", addflavor: python3 }
-- { setname: "apmod:wsgi",             name: mod_wsgi }
+- { setname: "apmod:wsgi",             name: [mod_wsgi, mod_wsgi2] }
 - { setname: "apmod:wsgi",             namepat: "apmod:(?:py[0-9._-]+)mod_wsgi[0-9]*" }

@@ -43,6 +43,7 @@
 - { setname: flac,                     name: flac-doc, addflavor: doc }
 - { setname: flac,                     name: [flac-libs,libflac] }
 - { setname: flare,                    name: [flare-engine,flare-game], addflavor: true } # these are actually distinct packages, but too many repos merge them together
+- { setname: flatbuffers,              name: flatbuffers-static, addflavor: static }
 - { setname: fleet,                    name: fleetctl }
 - { setname: flight-of-the-amazon-queen, name: fotaq }
 - { setname: flight-of-the-amazon-queen, name: scummvm-fotaq }
