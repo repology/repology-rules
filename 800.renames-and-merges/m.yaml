@@ -8,6 +8,8 @@
 - { setname: magit,                    name: [magit-svn,emacs-magit-git], ignore: true }
 - { setname: mailman,                  name: mailman3 }
 - { setname: mailman,                  name: mailman3-core, addflavor: core }
+- { setname: make,                     name: [gmake,gnumake,make-3.81,make3] }
+- { setname: make,                     name: [make-dfsg,make-doc-non-dfsg], addflavor: true }
 - { setname: mandoc,                   name: mdocml } # mdocml is an old name (schwarze@openbsd.org)
 - { setname: manpages,                 name: [man-pages,linux-man-pages,linux-manpages] }
 - { setname: mariadb,                  namepat: "mariadb[0-9.-]*(?:-client|-server)?" }
