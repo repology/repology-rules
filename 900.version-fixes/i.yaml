@@ -10,14 +10,7 @@
 - { name: icecat,                                                                          setver: "$0gnu1" } # it uses gnu suffix, in most cases it's gnu1, but there were gnu2 as well
 - { name: icecat,                      verpat: "(.*gnu.*)gnu1",                            setver: "$1" }
 - { name: icu-le-hb,                   ver: "1.0.3.3",                                     ignore: true } # fake (FreeBSD)
-- { name: include-what-you-use,        ver: "5.0",                                         setver: "0.9" } # https://include-what-you-use.org/
-- { name: include-what-you-use,        ver: "4.0",                                         setver: "0.8" }
-- { name: include-what-you-use,        ver: "3.9",                                         setver: "0.7" }
-- { name: include-what-you-use,        ver: "3.8",                                         setver: "0.6" }
-- { name: include-what-you-use,        ver: "3.7",                                         setver: "0.5" }
-- { name: include-what-you-use,        ver: "3.6",                                         setver: "0.4" }
-- { name: include-what-you-use,        ver: "3.5",                                         setver: "0.3" }
-- { name: include-what-you-use,        verge: "3", verlt: "3.5",                           outdated: true }
+- { name: include-what-you-use,        verpat: "[345].*",                                  incorrect: true } # https://include-what-you-use.org/ llvm version vs. own version
 - { name: inotify-tools,               ver: ["3.14.01","3.14pl0"],                         ignore: true } # fake
 - { name: intel-microcode,             verpat: "(?:.+?[^0-9])?(20[0-9]{6}).*",             setver: "$1" }
 - { name: iozone,                      verpat: "[0-9]{3}",                                 setver: "3.$0" } # fix confusion between iozone3 ver NNN and iozone ver 3.NNN
