@@ -32,8 +32,8 @@
 - { namepat: "(ruby:fast_xs)[0-9._-]+", setname: "$1" }
 - { namepat: "(ruby:fog-aws)[0-9._-]+", setname: "$1" }
 - { namepat: "(ruby:flipper)[0-9._-]+", setname: "$1" }
-- { namepat: "(ruby:flipper-active-record)[0-9._-]+", setname: "$1" }
-- { namepat: "(ruby:flipper-active-support-cache-store)[0-9._-]+", setname: "$1" }
+- { namepat: "(ruby:flipper-active[-_]record)[0-9._-]+", setname: "$1" }
+- { namepat: "(ruby:flipper-active[-_]support[-_]cache[-_]store)[0-9._-]+", setname: "$1" }
 - { namepat: "(ruby:fluentd)[0-9._-]+", setname: "$1" }
 - { namepat: "(ruby:gherkin)[0-9._-]+", setname: "$1" }
 - { namepat: "(ruby:glib2)[0-9._-]+", setname: "$1" }
