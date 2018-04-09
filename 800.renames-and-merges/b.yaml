@@ -76,7 +76,13 @@
 - { setname: boswars,                  name: bos-wars }
 - { setname: botan,                    namepat: "botan[0-9.]+" }
 - { setname: botan,                    namepat: "libbotan[0-9.]*" }
-- { setname: bouncycastle,             name: bouncycastle15 }
+- { setname: bouncycastle,             namepat: "bouncycastle[0-9._-]*" }
+- { setname: bouncycastle,             namepat: "bouncycastle[0-9._-]*" }
+- { setname: bouncycastle,             name: [bcmail,bouncycastle-mail], addflavor: mail }
+- { setname: bouncycastle,             name: [bcpg,bouncycastle-pg], addflavor: pg }
+- { setname: bouncycastle,             name: [bcpkix,bouncycastle-pkix,java-bouncycastle-bcpkix], addflavor: pkix }
+- { setname: bouncycastle,             name: [bcprov,java-bouncycastle-bcprov], addflavor: prov }
+- { setname: bouncycastle,             name: bctsp, addflavor: tsp } # merged to pkix?
 - { setname: bowtie,                   name: bowtie2 }
 - { setname: box2d,                    name: libbox2d }
 - { setname: bpython,                  name: [bpython-py27,bpython2] }
