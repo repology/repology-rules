@@ -68,6 +68,7 @@
 - { setname: nvidia,                   name: [nvidia-graphics-modules,nvidia-kernel,nvidia-kmod], addflavor: kmod }
 - { setname: nvidia,                   name: [nvidia-beta,nvidia-beta-all,nvidia-current,nvidia-full-beta,nvidia-full-beta-all], ignore: true }
 - { setname: nvidia,                   name: nvidia-beta-dkms, ignore: true, addflavor: dkms }
+- { setname: nvidia,                   namepat: "xdrv:nvidia[0-9x._-]*" }
 - { setname: nvidia-settings,          namepat: "nvidia-[0-9._-]*-settings" }
 - { setname: nvidia-settings,          namepat: "nvidia-settings-.*" }
 - { setname: nvidia-settings,          namepat: "nvidia-settings-experimental.*", ignore: true }
