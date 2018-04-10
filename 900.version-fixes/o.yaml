@@ -2,6 +2,7 @@
 
 - { name: octave,                      verpat: ".*pre[0-9]{5}",                            ignore: true }
 - { name: octomap,                     verpat: "[0-9a-f]{40}",                             ignore: true } # commit
+- { name: odoo,                        verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: ogre,                        verpat: "2.*",                                      ignore: true }
 - { name: ollydbg,                     verpat: "[0-9]{3}",                                 ignore: true } # aosc garbage
 - { name: onioncat,                    verpat: "0\\.2\\.2.*",                              ignore: true }  # \  force correct
