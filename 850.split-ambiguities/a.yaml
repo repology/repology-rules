@@ -18,3 +18,8 @@
 
 # both argus projects refer to monitoring, but argus-monitor name is alreay used in macports
 - { name: argus, wwwpart: tcp4me.com, setname: argus-monitor }
+
+- { name: arrow, wwwpart: arrow.apache.org, setname: apache-arrow }
+- { name: arrow, wwwpart: crsmithdev, setname: "python:arrow" }
+- { name: arrow, ruleset: vcpkg, setname: apache-arrow }
+- { name: arrow, warning: "please classify me" }
