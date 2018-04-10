@@ -8,6 +8,12 @@
 
 - { name: scratch, wwwpart: launchpad.net/scratch, setname: scratch-text-editor }
 
+- { name: sdb, wwwpart: libsdb, setname: libsdb }
+- { name: sdb, wwwpart: mono, setname: sdb-mono }
+- { name: sdb, wwwpart: [shotgun,game], setname: shotgun-debugger }
+- { name: sdb, wwwpart: radare, setname: sdb-hashtable }
+- { name: sdb, warning: "please classify me" }
+
 - { name: sdl, verge: "2", setname: sdl2 }
 
 - { name: sdl_ttf, ruleset: kaos, setname: sdl2_ttf } # XXX: problem
