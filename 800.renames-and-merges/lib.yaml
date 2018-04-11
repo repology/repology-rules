@@ -122,6 +122,8 @@
 - { setname: libupnp,                  name: [libupnp1.8,libupnp4,libupnp-legacy,pupnp-1.8] }
 - { setname: libupnp,                  name: upnp, family: freebsd }
 - { setname: libuv,                    name: libuv1 }
+- { setname: libvirt,                  name: libvirt-zfs, addflavor: true }
+- { setname: libvirt-sandbox,          name: virt-sandbox }
 - { setname: libvisio,                 namepat: "libvisio[0-9._-]+" }
 - { setname: libvisual,                namepat: "libvisual[0-9._-]+" }
 - { setname: libvisual-plugins,        namepat: "libvisual[0-9._-]+-plugins" }

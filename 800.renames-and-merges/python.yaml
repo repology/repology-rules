@@ -30,6 +30,8 @@
 - { setname: "python:ipyparallel",     name: [ipyparallel,ipython-ipyparallel,ipython2-ipyparallel] }
 - { setname: "python:ipython_genutils", name: [ipython-genutils,ipython_genutils] }
 - { setname: "python:ipywidgets",      name: ["python:jupyter_ipywidgets","python:jupyter_ipywidgets-doc",ipywidgets,jupyter-ipywidgets] }
+- { setname: "python:libvirt-python",  name: ["python:libvirt", libvirt-python ] }
+- { setname: "python:libvirt-python",  name: [libvirt-python2, libvirt-python3], addflavor: true }
 - { setname: "python:markdown",        name: python-markdown }
 - { setname: "python:meld3",           name: meld3 }
 - { setname: "python:memphis",         name: pymemphis }
