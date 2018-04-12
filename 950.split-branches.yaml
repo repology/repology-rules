@@ -202,6 +202,8 @@
 - { name: "python:pygobject", verpat: "2.*",              setname: "python:pygobject2" }
 - { name: "python:pygobject", verpat: "3.*",              setname: "python:pygobject3" }
 
+- { name: "python:unit",     wwwpart: nginx,              setname: unit, addflavor: python }
+
 - { name: qt,                verpat: "1\\..*",            setname: qt1 }
 - { name: qt,                verpat: "3\\..*",            setname: qt3 }
 - { name: qt,                verpat: "4\\..*",            setname: qt4 }
