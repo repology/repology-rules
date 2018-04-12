@@ -20,9 +20,7 @@
 - { setname: unigine-heaven,           name: linux-unigine-heaven, family: freebsd }
 - { setname: unigine-valley,           name: linux-unigine-valley, family: freebsd }
 - { setname: unison,                   name: unison-devel, ignore: true }
-- { setname: unison,                   name: unison-nox11, addflavor: nox11 }
-- { setname: unison,                   name: unison248-nox11, addflavor: nox11 }
-- { setname: unison,                   namepat: "unison[0-9.-]+(?:-compat)?" }
+- { setname: unison,                   namepat: "unison([0-9.-]*)(-compat|-nox11)*", addflavor: true }
 - { setname: unit,                     name: [nginx-unit, nginx-unitd] }
 - { setname: unit,                     name: nginx-unit-go, addflavor: go }
 - { setname: unit,                     name: [nginx-unit-go,unit-go], addflavor: go }
