@@ -117,6 +117,9 @@
 - { setname: asterisk,                 namepat: "asterisk[0-9.]+" }
 - { setname: asterisk-core-sounds,     namepat: "asterisk-core-sounds-.*", family: openbsd }
 - { setname: asterisk-extra-sounds,    namepat: "asterisk-extra-sounds-.*", family: openbsd }
+- { setname: asterisk-espeak,          namepat: "(asterisk[0-9]+)-espeak", addflavor: $1 }
+- { setname: asterisk-flite,           namepat: "(asterisk[0-9]+)-flite", addflavor: $1 }
+- { setname: asterisk-g72x,            namepat: "(asterisk[0-9]+)-g72x", addflavor: $1 }
 - { setname: astromenace,              name: openastromenace }
 - { setname: astromenace,              name: openastromenace-devel, ignore: true }
 - { setname: astrometry,               name: [astrometrynet,astrometry.net] }
