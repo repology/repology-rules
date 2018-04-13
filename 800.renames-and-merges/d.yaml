@@ -51,7 +51,8 @@
 - { setname: docker,                   name: docker-git-x86, ignore: true } # ignore version just for the cause, because of suspicious name
 - { setname: doit,                     name: "python:doit" }
 - { setname: dogecoin,                 name: [dogecoind,dogecoin-qt,dogecoin-daemon] }
-- { setname: dosbox,                   name: [dosbox-sdl2,dosbox-debug,dosbox-multilib-patched] }
+- { setname: dosbox,                   name: [dosbox-sdl2,dosbox-debug,dosbox-multilib-patched,dosbox-ex], addflavor: true }
+- { setname: dosbox,                   name: dosbox-dev }
 - { setname: double-conversion,        name: libdouble-conversion }
 - { setname: doublecmd,                name: [doublecmd-gtk2,doublecmd-qt,doublecmd-qt4,doublecmd-qt5] }
 - { setname: dovecot,                  namepat: "dovecot[0-9]+" }
@@ -66,6 +67,7 @@
 - { setname: drpython,                 name: drpython-py27 }
 - { setname: dsniff,                   name: dsniff-nox11 }
 - { setname: dspam,                    name: [dspam-mysql,dspam-pgsql,dspam-web] }
+- { setname: dtc,                      name: [device-tree-compiler,device-tree-compiler-1.42] }
 - { setname: dungeon-crawl,            name: dungeoncrawl }
 - { setname: "dvd+rw-tools",           name: dvdrw-tools }
 - { setname: dwarf-fortress,           name: dwarffortress }
