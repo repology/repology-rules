@@ -39,4 +39,6 @@
 - { name: dsd,                                                       family: [sisyphus],   untrusted: true }
 - { name: dsniff,                      ver: "2.4",                   family: [sisyphus],   incorrect: true } # it's 2.4beta1
 - { name: dsniff,                                                    family: [sisyphus],   untrusted: true }
+- { name: dtc,                         ver: "20130410",                                    outdated: true }
+- { name: dtc,                         verpat: "20[0-9]{6}",                               ignore: true }
 - { name: dzen,                        verpat: "[0-9]{10}",                                ignore: true }
