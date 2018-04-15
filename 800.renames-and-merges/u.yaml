@@ -25,7 +25,7 @@
 - { setname: unit,                     name: nginx-unit-go, addflavor: go }
 - { setname: unit,                     name: [nginx-unit-go,unit-go], addflavor: go }
 - { setname: unit,                     name: [nginx-unit-php,unit-php56,unit-php70,unit-php71,unit-php72,unit-php73], addflavor: php }
-- { setname: unit,                     name: [nginx-unit-python], addflavor: python }
+- { setname: unit,                     name: [nginx-unit-python,nginx-unit-python2,nginx-unit-python3], addflavor: python }
 - { setname: units,                    name: [gnu-units,gunits] }
 - { setname: unittest-cpp,             name: libunittest-cpp }
 - { setname: unrar,                    name: [libunrar,libunrar5] }
