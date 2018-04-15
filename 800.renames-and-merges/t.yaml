@@ -13,6 +13,7 @@
 - { setname: tautulli,                 name: tautulli-beta, ignore: true }
 - { setname: tbb,                      name: [intel-tbb,libtbb] }
 - { setname: tcl,                      namepat: "tcl8[0-9._-]+" }
+- { setname: tclhttpd,                 name: tcl-httpd }
 - { setname: tdb,                      name: libtdb }
 - { setname: tds_fdw,                  namepat: "(postgresql[0-9._-]*)-tds_fdw", addflavor: $1 }
 - { setname: teamviewer,               namepat: "teamviewer[0-9._-]+" }
@@ -35,6 +36,8 @@
 - { setname: tevent,                   name: tevent-man, addflavor: man }
 - { setname: tex-$1,                   namepat: "tex-(.*)-doc", addflavor: doc }
 - { setname: texlive-documentation,    namepat: "texlive-documentation-.*", family: gentoo }
+- { setname: the-silver-searcher,      name: [silver-searcher,silversearcher-ag,thesilversearcher] }
+- { setname: thermald,                 name: thermal-daemon }
 - { setname: thunder-and-lightning,    name: "thunder&lightning" }
 - { setname: thunderbird,              name: [mozilla-thunderbird,mozillathunderbird] }
 - { setname: thunderbird,              name: [thunderbird-45-gtk2,thunderbird-gtk2], addflavor: gtk2 }
@@ -64,6 +67,7 @@
 - { setname: tmux,                     namepat: "tmux[0-9._-]+" }
 - { setname: tmuxinator,               name: "ruby:tmuxinator" }
 - { setname: tmw,                      name: the-mana-world }
+- { setname: tntnet,                   name: libtntnet }
 - { setname: tokyocabinet,             name: tokyo-cabinet }
 - { setname: tokyodystopia,            name: tokyo-dystopia }
 - { setname: tolua++,                  name: [toluapp,"lua:toluapp"] }
@@ -75,6 +79,8 @@
 - { setname: tomee,                    name: [tomee-jax-rs,tomee-plume,tomee-plus,tomee-webprofile] }
 - { setname: tor,                      name: [tor-devel,tor-expert] }
 - { setname: tor,                      name: tor-unstable, devel: true }
+- { setname: totem-pl-parser,          name: libtotem-pl-parser }
+- { setname: totem-pl-parser,          name: totem-pl-parser-gtk2, addflavor: gtk2 }
 - { setname: tre,                      name: libtre } # XXX: reverse?
 - { setname: tremor,                   name: [libtremor, libvorbisidec] }
 - { setname: tremulous,                name: tremulous-data, addflavor: data }
