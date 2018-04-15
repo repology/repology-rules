@@ -63,9 +63,19 @@
 - { setname: lua,                      namepat: "lua[0-9._-]+" }
 - { setname: luajit,                   name: [luajit-2.1,luajit2] }
 - { setname: luxrender,                name: luxrender14 }
+- { setname: lxappearance,             name: lxappearance-gtk2, addflavor: gtk2 }
+- { setname: lxappearance,             name: lxappearance-gtk3, addflavor: gtk3 }
+- { setname: lxappearance-obconf,      name: lxappearance-obconf-gtk3, addflavor: gtk3 }
 - { setname: lxc,                      name: lxc-selinux }
 - { setname: lxd,                      name: lxc, family: homebrew } # misname
 - { setname: lxd,                      name: lxd-lts }
+- { setname: lxdm,                     name: lxdm-gtk3, addflavor: gtk3 }
+- { setname: lxhotkey,                 name: lxhotkey-gtk3, addflavor: gtk3 }
+- { setname: lxinput,                  name: lxinput-gtk3, addflavor: gtk3 }
+- { setname: lxrandr,                  name: lxrandr-gtk3, addflavor: gtk3 }
+- { setname: lxsession,                name: lxsession-gtk3, addflavor: gtk3 }
+- { setname: lxtask,                   name: lxtask-gtk3, addflavor: gtk3 }
+- { setname: lxterminal,               name: lxterminal-gtk3, addflavor: gtk3 }
 - { setname: lyx,                      name: lyx1 }
 - { setname: lz4,                      name: liblz4 }
 - { setname: lzo,                      name: [lzo2,liblzo,liblzo2] }

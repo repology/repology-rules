@@ -200,6 +200,7 @@
 - { setname: gpgme,                    namepat: "gpgme[0-9._-]+" }
 - { setname: gpgme,                    name: [gpgme-cpp,gpgme-python,gpgme-qt5,qgpgme,"python:gpgme"], addflavor: true }
 - { setname: gphoto2,                  namepat: "(?:lib)?gphoto2?" }
+- { setname: gpicview,                 name: [gpicview-gimp,gpicview-gtk3], addflavor: true }
 - { setname: gpodder,                  name: gpodder3 }
 - { setname: gprolog,                  name: gnu-prolog }
 - { setname: grafana,                  name: grafana-bin }
