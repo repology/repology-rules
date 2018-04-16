@@ -6,6 +6,9 @@
 
 - { remove: true,   name: haskell-platform, family: gentoo }
 
+- { remove: true,   name: lxde-meta }
+- { remove: true,   name: lxde-metapackages }
+
 # these are metaports pointing to "current" version of python (which is named pythonX.Y)
 - { remove: true,   name: python,       family: freebsd }
 - { remove: true,   name: python2,      family: freebsd }
