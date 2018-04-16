@@ -6,6 +6,7 @@
 - { name: baobab,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: bash,                                                                            p_is_patch: true }
 - { name: bash,                        verpat: "([0-9]+\\.[0-9]+)\\.0*([0-9]+?)",          setver: $1.p$2 } # bash has braindead versioning scheme: X.YpatchZ with occasional X.Y.Z releases
+- { name: bash-supergenpass,                                                               noscheme: true }
 - { name: bass,                        verpat: "20[0-9]{6}",                               ignore: true }
 - { name: bastet,                      ver: "0.43.1.2015083000",                           ignore: true }
 - { name: bats,                        ver: "1.0",                   family: sisyphus,     ignore: true } # totally fake
