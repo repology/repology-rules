@@ -100,7 +100,7 @@
 - { setname: bubbros,                  name: bub-n-bros, family: gentoo } # XXX: recheck
 - { setname: bucardo,                  name: "perl:bucardo" }
 - { setname: bugs-everywhere,          name: bugseverywhere }
-- { setname: bugzilla,                 name: bugzilla50 }
+- { setname: bugzilla,                 namepat: "bugzilla[0-9._-]+" }
 - { setname: bullet,                   name: bullet-docs, addflavor: docs }
 - { setname: bullet,                   name: bullet3 }
 - { setname: bullet,                   name: libbullet }
