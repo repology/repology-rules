@@ -111,9 +111,10 @@
 - { setname: stepmania,                name: stepmania-devel, family: freebsd }
 - { setname: stfl,                     name: [libstfl,libstfl0] }
 - { setname: sthttpd,                  name: thttpd, family: gentoo } # actually fork of thttpd; XXX: problem
-- { setname: stone-soup,               name: dungeon-crawl-stone-soup }
-- { setname: stone-soup,               name: stone-soup-ncurses }
-- { setname: stone-soup,               namepat: "stonesoup(?:-sdl)?" }
+- { setname: stone-soup,               name: [dungeon-crawl-stone-soup,stonesoup] }
+- { setname: stone-soup,               name: stone-soup-ncurses, addflavor: ncurses }
+- { setname: stone-soup,               name: stone-soup-sdl, addflavor: sdl }
+- { setname: stone-soup,               name: [stone-soup-tiles,crawl-tiles], addflavor: tiles } # separate distfile, but same version
 - { setname: stormssh,                 name: "python:stormssh" }
 - { setname: streamtuner,              namepat: "streamtuner[0-9]+" }
 - { setname: stringtemplate,           namepat: "stringtemplate[0-9]+" }
