@@ -18,3 +18,4 @@
 - { name: ntfs-3g,                     verpat: ".*ar.*",                                   successor: true } # http://jp-andre.pagesperso-orange.fr/advanced-ntfs-3g.html
 - { name: ntp,                         verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.([0-9]+)",    setver: "$1p$2" }
 - { name: nuvie,                                                                           noscheme: true }
+- { name: nzbget,                      verpat: ".*r.*",                                    ignore: true } # 20.0r<rev> and 20.0pre<rev> garbage
