@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: "python:backports",          ver: "4.0.0",                                       ignore: true } # opensuse fake
+- { name: "python:django-suit",        verpat: "0\\.3a[123]",                              outdated: true } # https://pypi.org/project/django-suit/#history
 - { name: "python:elixir",             ver: "0.8.0",                 family: sisyphus,     incorrect: true } # fake
 - { name: "python:elixir",                                           family: sisyphus,     untrusted: true }
 - { name: "python:leveldb",            ver: "0.193",                                       outdated: true }
