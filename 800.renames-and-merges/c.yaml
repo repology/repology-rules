@@ -73,7 +73,7 @@
 - { setname: clang,                    namepat: "clang[0-9.-]+" }
 - { setname: clanlib,                  namepat: "clanlib-?[0-9.]+" } # XXX: split?
 - { setname: clearlooks-phenix,        name: [clearlooks-phenix-gtk-theme,clearlooks-phenix-theme,gtk3-theme-clearlooks-phenix] }
-- { setname: clementine,               name: clementine-free }
+- { setname: clementine,               name: [clementine-free,clementine-blob,clementine-qt5], addflavor: true }
 - { setname: clipit,                   name: clipit-gtk3, addflavor: gtk3 }
 - { setname: clisp,                    name: [clisp-bdb,clisp-fastcgi,clisp-gdbm,clisp-gtk2,clisp-mit-clx,clisp-new-clx,clisp-pari,clisp-pcre,clisp-pgsql,clisp-rawsock,clisp-syscalls,clisp-wildcard,clisp-zlib], addflavor: true }
 - { setname: cln,                      name: cln6 }

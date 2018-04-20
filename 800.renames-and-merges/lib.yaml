@@ -21,6 +21,7 @@
 - { setname: libev,                    name: libev-static, addflavor: static }
 - { setname: libevent,                 name: [libevent2,libevent1] }
 - { setname: libfm,                    name: [libfm-directory_thumbnails,libfm-extra,libfm-gtk2,libfm-gtk3] }
+- { setname: libfprint,                name: [libfprint-upstream,libfprint-vfs0090,libfprint-vfs0097], addflavor: true }
 - { setname: libfreenect,              name: freenect }
 - { setname: libftdi,                  namepat: "libftdi[0-9._-]+" }
 - { setname: libgcrypt,                namepat: "libgcrypt[0-9_.-]+" }

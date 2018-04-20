@@ -25,7 +25,8 @@
 - { setname: josm,                     name: josm-latest, ignore: true }
 - { setname: jpeg,                     name: [jpeg,libjpeg,jpeg-turbo,libjpeg-turbo,turbojpeg,libjpeg+legacy,libjpeg6-ijg] }
 - { setname: jpeg,                     namepat: "libjpeg[0-9]+([a-z]|-turbo)?" }
-- { setname: json-c,                   name: json-c12 }
+- { setname: json-c,                   name: [json-c12,json-c0.12,libjson0] }
+- { setname: json-c,                   name: emscripten-json-c, addflavor: emscripten }
 - { setname: json-glib,                name: libjson-glib }
 - { setname: jsonrpc-glib,             name: libjsonrpc-glib }
 - { setname: jumpnbump,                name: jump-n-bump }

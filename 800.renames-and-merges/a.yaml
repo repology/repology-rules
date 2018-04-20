@@ -13,6 +13,7 @@
 - { setname: ace-of-penguins,          name: ace, category: games-board, family: gentoo }
 - { setname: ace-of-penguins,          name: ace, family: [openbsd,slackbuilds] }
 - { setname: acetoneiso,               name: acetoneiso2, family: [arch,sisyphus] }
+- { setname: acetoneiso,               name: acetoneiso-qt5, addflavor: qt5 }
 - { setname: acetoneiso6,              name: acetoneiso, verpat: "6.*", family: fedora }
 - { setname: ack,                      name: "perl:ack" }
 - { setname: ack,                      name: ack-grep, family: debuntu }
@@ -139,6 +140,7 @@
 - { setname: atomix,                   name: gnome-games-atomix }
 - { setname: atop-freebsd,             name: atop, family: freebsd } # fork
 - { setname: ats$1,                    namepat: "ats2(.*)" }
+- { setname: atspkg,                   name: "haskell:ats-pkg" }
 - { setname: attica,                   name: [attica-kf5,attica-qt4,attica-qt5,libattica] }
 - { setname: aubio,                    name: [libaubio,libaubio4,"python:aubio"] }
 - { setname: audacious,                name: [audacious-gtk3,audacious-core,audacious-qt5,audacious2,audacious-itself] }
