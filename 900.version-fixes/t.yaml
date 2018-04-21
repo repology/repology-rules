@@ -29,6 +29,10 @@
 - { name: tor,                         verpat: "(.*)[._-][abr].*",                         setver: "$1", devel: true } # version is self-sufficient; remove redundant alpha/rc suffix, but set devel
 - { name: tor,                         verge: "0.3.3",                                     devel: true }
 - { name: tolua++,                     ver: "1.0.94",                ruleset: maemo,       ignore: true }
+- { name: toxcore,                     verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: toxcore,                     verpat: "201[67].*",                                outdated: true }
+- { name: toxic,                       verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: toxic,                       verpat: "2017.*",                                   outdated: true } # 0.8.2 from 2018
 - { name: transset,                    verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: tre,                         verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: treesheets,                  verpat: ".*20[0-9]{2}.*",                           incorrect: true } # it has recent 1.0.0 release, see https://github.com/aardappel/treesheets/releases
