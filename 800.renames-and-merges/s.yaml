@@ -76,6 +76,8 @@
 - { setname: socat,                    namepat: "socat[0-9]+" }
 - { setname: softhsm,                  namepat: "softhsm[0-9]+" }
 - { setname: sogo,                     name: [gnustep-sogo,gnustep-sogo3] }
+- { setname: sogo,                     name: [sogo2-activesync,sogo3-activesync], addflavor: activesync }
+- { setname: sope,                     name: sope4 }
 - { setname: sopwith,                  name: [sdlsopwith,sdl-sopwith,sdl_sopwith] }
 - { setname: sorcer,                   name: [lv2-sorcer,openav-sorcer,openav-sorcer-lv2,sorcer-lv2] }
 - { setname: sord,                     name: libsord }
@@ -124,6 +126,7 @@
 - { setname: stunnel,                  name: stunnel4 }
 - { setname: stuntrally,               name: stunt-rally }
 - { setname: stxxl,                    name: libstxxl }
+- { setname: subversion,               namepat: "subversion[0-9._-]+" }
 - { setname: sugar,                    namepat: "sugar[0-9._-]+" }
 - { setname: sugar-activity,           namepat: "sugar-activity[0-9._-]+" }
 - { setname: sugar-artwork,            namepat: "sugar-artwork[0-9._-]+" }
@@ -159,3 +162,26 @@
 - { setname: syslog-ng,                name: [syslog-ng-afamqp,syslog-ng-geoip,syslog-ng-http,syslog-ng-json,syslog-ng-mongodb,syslog-ng-redis,syslog-ng-smtp,syslog-ng-sql,"python:syslog-ng",syslog-ng-nosystemd], addflavor: true }
 - { setname: syslog-ng,                namepat: "syslog-ng[0-9._-]+" }
 - { setname: systemd-manager,          name: "rust:systemd-manager" }
+
+- setname: subversion
+  name:
+    - "apmod:dav-svn"
+    - "apmod:subversion"
+    - java-subversion
+    - "perl:subversion"
+    - "python:subversion"
+    - "ruby:subversion"
+    - ruby-subversion
+    - subversion-base
+    - subversion-bashcompletion
+    - subversion-client
+    - subversion-gnome-keyring
+    - subversion-javahlbindings
+    - subversion-kwallet
+    - subversion-perl
+    - subversion-perlbindings-5.26
+    - subversion-python
+    - subversion-python27bindings
+    - subversion-rubybindings
+    - subversion-static
+  addflavor: true

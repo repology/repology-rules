@@ -67,6 +67,13 @@
     - ja-font-naga10
     - ja-naga10
 
+- setname: "fonts:nerd-fonts"
+  name:
+    - nerdfonts
+    - nerd-fonts
+
+- { setname: "fonts:nerd-fonts", namepat: "(:?ttf-)?nerd-fonts-(.*)", addflavor: $1 }
+
 - setname: "fonts:noto" # probably overmerge, may split later
   name:
     - font-google-noto

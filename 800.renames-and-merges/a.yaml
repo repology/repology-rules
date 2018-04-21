@@ -97,6 +97,8 @@
 - { setname: aptana-studio,            name: aptanastudio }
 - { setname: aqbanking,                name: [aqbanking5,aqbanking5-svn,libaqbanking] }
 - { setname: aqbanking,                name: aqbanking5-gtk, addflavor: gtk }
+- { setname: arcanist,                 namepat: "arcanist-(php[0-9]+)", addflavor: $1 }
+- { setname: arcanist,                 name: "php:arcanist" }
 - { setname: archipel-agents,          namepat: "archipel-agent-.*", family: debuntu }
 - { setname: archiva,                  name: apache-archiva }
 - { setname: ardour,                   namepat: "ardour[0-9]+" }

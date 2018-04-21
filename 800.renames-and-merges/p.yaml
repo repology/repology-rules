@@ -24,6 +24,7 @@
 - { setname: pdns,                     name: pdns-common }
 - { setname: pdns,                     name: powerdns }
 - { setname: pdumpfs,                  name: "ruby:pdumpfs" }
+- { setname: peda,                     name: gdb-peda }
 - { setname: pelican,                  name: "python:pelican" }
 - { setname: perf,                     name: [perf-linux,perf-lts] }
 - { setname: pg_dirtyread,             namepat: "(postgresql[0-9._-]*)-pg_dirtyread", addflavor: $1 }
@@ -35,6 +36,8 @@
 - { setname: pgpool,                   namepat: "pgpool-ii[0-9._-]*" }
 - { setname: pgpool,                   namepat: "postgresql[0-9._-]*-pgpool[0-9._-]*" }
 - { setname: pgroonga,                 namepat: "(postgresql[0-9._-]*)-pgroonga", addflavor: $1 }
+- { setname: phabricator,              namepat: "phabricator-(php[0-9]+)", addflavor: $1 }
+- { setname: phabricator,              name: "php:phabricator" }
 - { setname: phash,                    name: libphash }
 - { setname: phat,                     name: libphat }
 - { setname: phoenix-emu,              name: phoenix-emu-project }
