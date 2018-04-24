@@ -16,8 +16,8 @@
 - { name: xmlrpc-c,                    vergt: "1.39.12",                                   devel: true } # http://xmlrpc-c.sourceforge.net/change_super_stable.html
 - { name: xmove,                       ver: "2.0",                   ruleset: sisyphus,    incorrect: true } # it's 2.0beta2
 - { name: xmove,                                                     ruleset: sisyphus,    untrusted: true }
-- { name: xmrig,                       ver: "2.6.0",                 ruleset: sisyphus,    incorrect: true } # beta3
-- { name: xmrig,                                                     ruleset: sisyphus,    untrusted: true }
+- { name: xmrig,                       ver: "2.6.0",                 ruleset: [sisyphus,aur], incorrect: true } # beta3
+- { name: xmrig,                                                     ruleset: [sisyphus,aur], untrusted: true }
 - { name: xl2tpd,                      ver: "20140214",                                    ignore: true } # pkgsrc is using snapshot; Others are using versions with dots
 - { name: xmahjongg,                   ver: "3.70",                  family: [ pkgsrc ],   incorrect: true }
 - { name: xml-coreutils,               ver: "0.8a",                                        outdated: true }
