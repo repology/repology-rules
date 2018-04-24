@@ -70,7 +70,7 @@
 - { setname: eric,                     namepat: "eric-i18n-.*" }
 - { setname: "erlang:cl",              name: cl }
 - { setname: "erlang:esdl",            name: ["erlang:sdl",esdl] }
-- { setname: etcd,                     name: [coreos-etcd,coreos-etcd3] }
+- { setname: etcd,                     namepat: "coreos-etcd[0-9._-]*" }
 - { setname: eternal-lands$1,          namepat: "eternallands(.*)" }
 - { setname: eternal-lands,            name: el, family: freebsd }
 - { setname: eternal-lands-data,       name: el-data, family: freebsd }
