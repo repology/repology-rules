@@ -15,7 +15,15 @@
 - { setname: nethack,                  namepat: "nethack[._-]*(?:[23][0-9._-]*)?(?:-nox11)?" }
 - { setname: netlogo,                  name: netlogo-bin, addflavor: bin }
 - { setname: nettle,                   name: [libnettle,nettle4] }
-- { setname: networkmanager-$1,        namepat: network-manager-(openvpn|openconnect|pptp|ssh|strongswan|vpnc|iodine) }
+- { setname: networkmanager,           name: network-manager }
+- { setname: networkmanager,           name: networkmanager-elogind, addflavor: elogind }
+- { setname: networkmanager,           name: networkmanager-consolekit, addflavor: consolekit }
+- { setname: networkmanager,           name: networkmanager-consolekit-noscan, addflavor: consolekit-noscan }
+- { setname: network-manager-applet,   name: network-manager-applet-gtk2, addflavor: gtk2 }
+- { setname: network-manager-applet,   name: network-manager-applet-indicator, addflavor: indicator }
+- { setname: network-manager-applet,   name: network-manager-applet-passwordstore, addflavor: passwordstore }
+- { setname: network-manager-applet,   name: networkmanager-applet }
+- { setname: network-manager-applet,   name: networkmanager-applet-gtk, addflavor: gtk }
 - { setname: neverball,                name: neverball-data, addflavor: data }
 - { setname: newsbeuter,               name: newsbeuter-dev, ignore: true }
 - { setname: newsbeuter,               name: newsbeuter2.8 }
