@@ -63,6 +63,7 @@
 - { setname: xmobar,                   name: [xmobar-alsa,xmobar-volume,"haskell:xmobar"] }
 - { setname: xmonad,                   name: "haskell:xmonad" }
 - { setname: xmoto,                    name: x-moto }
+- { setname: xmrig,                    name: xmrig-donateless, addflavor: donateless }
 - { setname: xonotic,                  name: xonotic-data, addflavor: true }
 - { setname: xorg-server$1,            namepat: "xorg-server[0-9.]+(-.+)?" } # XXX: should be before large xorg-server rule at the end
 - { setname: xorg-server$1,            namepat: "xorg-server(-.+)?-dev", ignore: true } # XXX: should be before large xorg-server rule at the end
