@@ -22,10 +22,7 @@
 - { setname: unison,                   name: unison-devel, ignore: true }
 - { setname: unison,                   namepat: "unison([0-9.-]*)(-compat|-nox11)*", addflavor: true }
 - { setname: unit,                     name: [nginx-unit, nginx-unitd] }
-- { setname: unit,                     name: nginx-unit-go, addflavor: go }
-- { setname: unit,                     name: [nginx-unit-go,unit-go], addflavor: go }
-- { setname: unit,                     name: [nginx-unit-php,unit-php56,unit-php70,unit-php71,unit-php72,unit-php73], addflavor: php }
-- { setname: unit,                     name: [nginx-unit-python,nginx-unit-python2,nginx-unit-python3], addflavor: python }
+- { setname: unit,                     namepat: "(?:nginx-)?unit-((?:go|php|python|perl)[0-9._-]*)", addflavor: $1 }
 - { setname: units,                    name: [gnu-units,gunits] }
 - { setname: unittest-cpp,             name: libunittest-cpp }
 - { setname: unrar,                    name: [libunrar,libunrar5] }
