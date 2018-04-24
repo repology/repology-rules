@@ -7,6 +7,7 @@
 - { name: xawtv,                       ver: "4.0",                   ruleset: sisyphus,    ignore: true }
 - { name: xcalib,                      verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: xcb-proto,                   verpat: "7.*",                                      ignore: true } # opensuse version prefixed with xorg version (e.g. 7.6_1.2)
+- { name: xclip,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: xdg-utils,                   verpat: "[0-9]+",                                   ignore: true }
 - { name: xdot,                        ver: "20121124",                                    ignore: true }
 - { name: xdotool,                     ver: "20110530.1",                                  ignore: true }
