@@ -44,6 +44,8 @@
 - { name: spigot, ruleset: freebsd, setname: spigot-videocapture }
 - { name: spigot, warning: "please classify me" }
 
+- { name: splitter, wwwpart: mkgmap, setname: mkgmap-splitter } # no ambiguity at the time of writing, but let's be on the safe side
+
 - { name: statik, wwwpart: rakyll, setname: "go:github-rakyll-statik" }
 
 - { name: svn2git, verpat: "1\\.[0-9]+.*", setname: svn-all-fast-export }
