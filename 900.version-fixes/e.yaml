@@ -31,7 +31,8 @@
 - { name: evolution-data-server,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: evolution-ews,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: evolution-mapi,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: exifprobe,                   ver: "2.0.2",                 family: [ yacp ],     ignore: true } # no such release
+- { name: exifprobe,                   ver: "2.1.0",                 family: yacp,         incorrect: true } # no such release
+- { name: exifprobe,                                                 family: yacp,         untrusted: true } # no such release
 - { name: exiftool,                    vergt: "10.55",                                     devel: true } # https://www.sno.phy.queensu.ca/~phil/exiftool/history.html
 - { name: exiv2,                       verpat: "[0-9a-f]{40}",                             ignore: true } # commit
 - { name: exult,                                                                           noscheme: true } # last release 1.4.9rc1 in 2016, ~1000 commits since then and no more official releases
