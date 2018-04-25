@@ -5,6 +5,7 @@
 - { namepat: "eclipse.*",              verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\-20[0-9]{10}",   ignore: true } # scoop
 - { name: ecm-tools,                   ver: "1.03",                                        incorrect: true } # it's 1.0.3
 - { name: egoboo,                      ver: "2.81",                                        setver: "2.8.1" }
+- { name: einstein,                    vergt: "2.0",                                       successor: true } # https://github.com/lksj/einstein-puzzle
 - { name: eiskaltdcpp,                 verpat: ".*g.*",                                    ignore: true }
 - { name: eiskaltdcpp,                 ver: "2.2.11",                family: fedora,       ignore: true } # fake
 - { name: empathy,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
