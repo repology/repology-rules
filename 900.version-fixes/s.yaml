@@ -12,6 +12,7 @@
 - { name: scantailor,                  verpat: "2016.*",                                   ignore: true }
 - { name: schismtracker,               ver: "20150911005204",                              ignore: true }
 - { name: scite,                       verpat: "[0-9]{3}",                                 incorrect: true } # pclinuxos; it's x.y.z
+- { name: scrot,                       verpat: "0\\.8[.+-].*",                             ignore: true } # debian fakes
 - { name: sddm,                        verpat: "[0-9]{4,}.*",        family: kaos,         ignore: true } # snapshot with random version
 - { name: sgt-puzzles,                 verpat: "([0-9]{8})\\.[0-9a-fr]+",                  setver: "$1" } # remove commit hashes and revisions
 - { name: sgt-puzzles,                 verpat: "([0-9]{4})\\.([0-9]{2})\\.([0-9]{2})",     setver: "$1$2$3" } # fix version
