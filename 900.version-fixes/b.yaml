@@ -10,6 +10,8 @@
 - { name: bass,                        verpat: "20[0-9]{6}",                               ignore: true }
 - { name: bastet,                      ver: "0.43.1.2015083000",                           ignore: true }
 - { name: bats,                        ver: "1.0",                   family: sisyphus,     ignore: true } # totally fake
+- { name: bennugd-core,                                                                    noscheme: true }
+- { name: bennugd-modules,                                                                 noscheme: true }
 - { name: betty,                                                     ruleset: aur,         untrusted: true }
 - { name: betty,                       ver: "0.1.8",                 ruleset: aur,         incorrect: true }
 - { name: bijiben,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
