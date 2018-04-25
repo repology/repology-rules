@@ -19,7 +19,7 @@
 - { name: openjfx,                     verpat: "8\\.0\\..*",                               ignore: true } # fedora; the official scheme is e.g. 8u151b12
 - { name: openjk,                                                                          noscheme: true }
 - { name: openlierox,                  ver: "0.58",                  family: [fedora,debuntu], ignore: true } # there's no 0.58, only 0.58beta3
-- { name: openmortal,                  ver: "0.7.1",                 family: [ sisyphus ], ignore: true }
+- { name: openmortal,                  ver: "0.7.1",                                       ignore: true } # legal release, but no source tarball
 - { name: openntpd,                    ver: "20080406p",                                   ignore: true }
 - { name: openscenegraph,              verpat: "3\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: openssh,                     verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: "$1p$2" } # pkgrc: it's X.YpZ!
