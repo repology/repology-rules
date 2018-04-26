@@ -29,6 +29,8 @@
 - { setname: perf,                     name: [perf-linux,perf-lts] }
 - { setname: pg_dirtyread,             namepat: "(postgresql[0-9._-]*)-pg_dirtyread", addflavor: $1 }
 - { setname: pg_repack,                namepat: "(postgresql[0-9._-]*)-pg_repack", addflavor: $1 }
+- { setname: pgadmin3,                 name: pgadmin3-lts }
+- { setname: pgadmin3,                 name: pgadmin3-testing, ignore: true }
 - { setname: pgcli,                    name: "python:pgcli" }
 - { setname: pglogical,                name: [postgresql-pglogical,pglogical2] }
 - { setname: pgplot,                   name: pgplot5 }
