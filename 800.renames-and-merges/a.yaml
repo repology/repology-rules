@@ -86,8 +86,6 @@
 - { setname: apache,                   name: apache-tools, addflavor: tools }
 - { setname: apache,                   name: htdigest, addflavor: htdigest }
 - { setname: apache,                   namepat: "apache[0-9.]+" }
-- { setname: apache-arrow,             name: "python:pyarrow" }
-- { setname: apache-arrow,             name: apache-arrow-glib, addflavor: glib }
 - { setname: apcupsd,                  name: [apcupsd-x11,apcupsd-cgi] }
 - { setname: appstream-glib,           name: libappstream-glib }
 - { setname: apq,                      name: apq-base } # ravenports
@@ -113,6 +111,8 @@
 - { setname: arpack-ng,                name: [arpack-ng-mpich,arpack-ng-openmpi,libarpack-ng] }
 - { setname: arpack-ng,                name: arpack, verpat: "[34]\\..*" }
 - { setname: arping,                   name: arping2 }
+- { setname: arrow-cpp,                name: apache-arrow }
+- { setname: arrow-cpp,                name: apache-arrow-glib, addflavor: glib }
 - { setname: artefetcher,              namepat: "artefetcher-qt[45]" }
 - { setname: arx-libertatis,           name: arxlibertatis }
 - { setname: asc,                      name: advanced-strategic-command }
