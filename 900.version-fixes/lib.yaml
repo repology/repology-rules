@@ -34,6 +34,7 @@
 - { name: libkvkontakte,               verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: libmediawiki,                verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: libmspack,                   verge: "1.5",                                       incorrect: true } # cabextract versions instead of libmspack ones
+- { name: libmspack,                   verpat: "([0-9.]+)[_~-]?alpha",                     setver: $1 }
 - { name: liblqr,                      verpat: "1-.*",                                     ignore: true } # "1" is not part of the version
 - { name: libnss-mysql,                ver: "1.6",                   family: sisyphus,     incorrect: true }
 - { name: libnss-mysql,                                              family: sisyphus,     untrusted: true }
