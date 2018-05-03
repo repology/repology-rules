@@ -62,7 +62,7 @@
 
 # Nodejs
 - { setname: "node:$1", noflag: not_node, namepat: "node-(.*)", ruleset: debuntu }
-- { setname: "node:$1", noflag: not_node, namepat: "nodejs-(.*)", ruleset: [arch,fedora,mageia,rosa,sisyphus] }
+- { setname: "node:$1", noflag: not_node, namepat: "nodejs-(.*)", ruleset: [arch,fedora,mageia,rosa,sisyphus,opensuse] }
 
 # Ocaml
 - { namepat: "ocaml([0-9.]*)-(.*)", noflag: not_ocaml, setname: "ocaml:$2", addflavor: "$1" }
