@@ -20,7 +20,8 @@
 - { ruleset: debuntu,         namepat: "(.*)-(hwe-[0-9]{2}\\.[0-9]{2})", setname: $1, addflavor: $2 }
 
 # XXX: handle (.*)-devel for freebsd?
-- { ruleset: freebsd,         namepat: "(.*)-(py27|py36)", setname: "$1", addflavor: "$2" }
+- { ruleset: freebsd,         namepat: "(.*)-(py[0-9]+)", setname: "$1", addflavor: "$2" }
+- { ruleset: freebsd,         namepat: "(.*)-(php[0-9]+)", setname: "$1", addflavor: "$2" }
 - { ruleset: freebsd,         namepat: "(linux-c[67])-(.*)", setname: "$2", addflavor: "$1", legacy: true }
 
 # XXX: expand this onto whole haiku-apps category
