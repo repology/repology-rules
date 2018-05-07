@@ -5,7 +5,7 @@
 - { verpat: "(.*(?:alpha|beta|rc|prerelease|patch|pl))[^a-z0-9]([0-9]{1,2})",              setver: "$1$2" }
 
 # global devel rule
-- { verpat: ".*(?:alpha|beta|dev|rc|prerelease|pre)[0-9._-]*",                             devel: true }
+- { verpat: ".*(?:alpha|beta|dev|rc|prerelease|pre)(?:[0-9._-].*)?$",                      devel: true }
 - { verpat: ".*9999",                                                family: gentoo,       rolling: true }
 
 # global vcs snapshot ignore
