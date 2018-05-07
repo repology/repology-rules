@@ -128,6 +128,7 @@
 - { setname: asterisk-flite,           namepat: "(asterisk[0-9]+)-flite", addflavor: $1 }
 - { setname: asterisk-g72x,            namepat: "(asterisk[0-9]+)-g72x", addflavor: $1 }
 - { setname: astromenace,              name: openastromenace }
+- { setname: astromenace,              name: astromenace-data, addflavor: data }
 - { setname: astromenace,              name: openastromenace-devel, ignore: true }
 - { setname: astrometry,               name: [astrometrynet,astrometry.net] }
 - { setname: asylum,                   name: sdl-asylum }
