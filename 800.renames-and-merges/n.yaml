@@ -5,7 +5,7 @@
 - { setname: nbd,                      name: nbd-server }
 - { setname: ncbi-blast+,              name: ncbi-blast-plus }
 - { setname: ncurses,                  name: [ncurses-full,ncurses-with-gpm,ncursesw,ncurses-nohex], addflavor: true }
-- { setname: ncurses,                  name: [ncurses5,ncurses5-compat-libs] }
+- { setname: ncurses,                  name: [ncurses5,ncurses5-compat-libs,ncurses60] }
 - { setname: neomutt,                  name: neomutt-backends, addflavor: backends }
 - { setname: neon,                     name: neon-threadsafe, addflavor: true }
 - { setname: neon,                     namepat: "(?:lib)?neon[0-9._-]*" }
