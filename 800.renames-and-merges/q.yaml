@@ -15,6 +15,9 @@
 - { setname: qtcreator,                name: [qt_creator,qt-creator,qt-creator-qt4,qt-creator2,qt4-creator,qtcreator-src,libqt5-creator,qt5-qtcreator,qt5-qtcreator-docs], addflavor: true }
 - { setname: qtcreator,                name: qtcreator-prerelease, ignore: true }
 - { setname: qtcreator,                namepat: "qt-?creator[0-9]*", addflavor: true }
+- { setname: qtermwidget,              namepat: "qtermwidget[0-9._-]+" }
+- { setname: qtermwidget,              name: [qtermwidget-q4,qtermwidget-qt4], addflavor: qt4 }
+- { setname: qtermwidget,              name: qtermwidget-qt5, addflavor: qt5 }
 - { setname: qtkeychain,               name: [qt4-qtkeychain,qt5-qtkeychain,qt5keychain,qtkeychain-qt4,qtkeychain-qt5], addflavor: true }
 - { setname: qtox,                     name: qtox-alpha, ignore: true }
 - { setname: quadrapassel,             name: gnome-games-quadrapassel }
@@ -22,3 +25,4 @@
 - { setname: quake4,                   name: linux-quake4, family: freebsd }
 - { setname: qupzilla,                 name: [qupzilla-qt4,qupzilla-qt5,qupzilla-qtwebkit], addflavor: true }
 - { setname: qwtpolar,                 name: qwtpolar-qt4, addflavor: qt4 }
+- { setname: qwtpolar,                 name: qwtpolar-qt5, addflavor: qt5 }

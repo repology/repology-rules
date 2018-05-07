@@ -90,6 +90,8 @@
 - { setname: libpng,                   name: [png,libpng-apng] }
 - { setname: libpng,                   namepat: "libpng(?:-legacy)?[0-9.-]*" }
 - { setname: libpqxx,                  name: postgresql-libpqxx }
+- { setname: libqtxdg,                 name: libqt5xdg, addflavor: qt5 }
+- { setname: libqtxdg,                 name: libqtxdg-qt4, addflavor: qt4 }
 - { setname: libquicktime,             name: libquicktime-lame, addflavor: lame }
 - { setname: libquicktime,             name: libquicktime111 }
 - { setname: libretro-fceumm,          name: fceumm-libretro }
@@ -123,6 +125,7 @@
 - { setname: libupnp,                  name: [libupnp1.8,libupnp4,libupnp-legacy,pupnp-1.8] }
 - { setname: libupnp,                  name: upnp, family: freebsd }
 - { setname: libuv,                    name: libuv1 }
+- { setname: libva,                    name: [libva-full,libva-gl,libva-headless,libva-minimal], addflavor: true }
 - { setname: libvirt,                  name: libvirt-zfs, addflavor: true }
 - { setname: libvirt-sandbox,          name: virt-sandbox }
 - { setname: libvisio,                 namepat: "libvisio[0-9._-]+" }

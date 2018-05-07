@@ -27,6 +27,7 @@
 - { setname: "python:geographiclib",   name: geographiclib-python }
 - { setname: "python:graph-tool",      name: "python:python2.7-graph-tool", addflavor: python-2.7 }
 - { setname: "python:graph-tool",      name: "python:python3.6-graph-tool", addflavor: python-3.6 }
+- { setname: "python:graph-tool",      name: graph-tool }
 - { setname: "python:impacket",        name: impacket }
 - { setname: "python:importlib",       name: importlib }
 - { setname: "python:ipykernel",       name: ["python:jupyter-ipykernel","python:jupyter_ipykernel","python:jupyter_ipykernel-doc",ipykernel,jupyter-ipykernel] }
@@ -58,6 +59,7 @@
 - { setname: "python:pyaudio",         name: "python:python-pyaudio" }
 - { setname: "python:pycups",          name: ["python:cups",pycups] }
 - { setname: "python:pyfltk",          name: [pyfltk, "python:fltk"] }
+- { setname: "python:pyfxa",           name: "python:fxa" }
 - { setname: "python:pygobject3",      name: pygobject3 }
 - { setname: "python:pygobject3",      name: [pygobject3-common,pygobject3-python3], addflavor: true }
 - { setname: "python:pygpgme",         name: pygpgme }

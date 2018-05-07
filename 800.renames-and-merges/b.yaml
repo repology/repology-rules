@@ -28,6 +28,7 @@
 - { setname: bcel,                     name: bcel5_3 }
 - { setname: bcfg2,                    name: "python:bcfg2" }
 - { setname: bctoolbox,                name: libbctoolbox }
+- { setname: beancount,                name: "python:beancount" }
 - { setname: beast,                    name: beastbse }
 - { setname: belle-sip,                name: libbelle-sip }
 - { setname: beneath-a-steel-sky,      name: bass, family: [freebsd,gentoo,openbsd,arch,opensuse] }
@@ -75,10 +76,11 @@
 - { setname: bonnie++,                 name: bonniexx }
 - { setname: boost,                    name: "python:boost", addflavor: python }
 - { setname: boost,                    namepat: "boost-mpi-source[0-9-.]+", addflavor: boost-mpi }
-- { setname: boost,                    namepat: "boost[0-9_.]+" }
+- { setname: boost,                    namepat: "boost[0-9_.-]+" }
 - { setname: boswars,                  name: bos-wars }
-- { setname: botan,                    namepat: "botan[0-9.]+" }
-- { setname: botan,                    namepat: "libbotan[0-9.]*" }
+- { setname: botan,                    namepat: "(?:lib)?botan[0-9_.-]*" }
+- { setname: botan,                    name: botan-old-stable }
+- { setname: botan,                    name: botan-with-compression, addflavor: compression }
 - { setname: bouncycastle,             namepat: "bouncycastle[0-9._-]*" }
 - { setname: bouncycastle,             namepat: "bouncycastle[0-9._-]*" }
 - { setname: bouncycastle,             name: [bcmail,bouncycastle-mail], addflavor: mail }
