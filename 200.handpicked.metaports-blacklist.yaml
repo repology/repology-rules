@@ -9,12 +9,19 @@
 - { remove: true,   name: lxde-meta }
 - { remove: true,   name: lxde-metapackages }
 
+- { remove: true,   name: lxqt-meta }
+- { remove: true,   name: lxqt-metapackages }
+
 # these are metaports pointing to "current" version of python (which is named pythonX.Y)
 - { remove: true,   name: python,       family: freebsd }
 - { remove: true,   name: python2,      family: freebsd }
 - { remove: true,   name: python3,      family: freebsd }
 
 - { remove: true,   name: rust-base,    family: aosc }
+
+# XXX: add more (all) task-* metaports
+- { remove: true,   name: task-lxde }
+- { remove: true,   name: task-lxqt }
 
 - { remove: true,   name: vuze-coreplugins, family: gentoo } # just a set of bundled plugins under vuze version
 
