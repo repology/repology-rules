@@ -3,7 +3,7 @@
 - { setname: libasr,                   name: [libasr-devel,libasr-snapshot], ignore: true }
 - { setname: libarchive,               name: libarchive-devel, ignore: true }
 - { setname: libarchive,               name: libarchive3 }
-- { setname: libatomic-ops,            name: atomic_ops }
+- { setname: libatomic-ops,            name: [atomic_ops,libatomicops] }
 - { setname: libcap,                   name: libcap2 }
 - { setname: libcdr,                   namepat: "libcdr[0-9._-]+" }
 - { setname: libchamplain,             namepat: "libchamplain[0-9.-]+" }
