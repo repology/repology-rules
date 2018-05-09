@@ -17,8 +17,8 @@
 - { setname: weboob,                   name: weboob-headless, addflavor: headless }
 - { setname: websocketpp,              name: websocket++ }
 - { setname: webvfx,                   name: webvfx-qt5, addflavor: qt5 }
-- { setname: wesnoth,                  name: the-battle-for-wesnoth }
-- { setname: wesnoth,                  name: wesnoth-devel }
+- { setname: wesnoth,                  name: [the-battle-for-wesnoth,wesnoth-devel,wesnoth-unstable] }
+- { setname: wesnoth,                  name: [wesnoth-data,wesnoth-server], addflavor: true }
 - { setname: wesnoth,                  namepat: "wesnoth[0-9.-]+" }
 - { setname: which,                    name: [gnu-which,gwhich] }
 - { setname: whizzytex,                name: tex-whizzytex }
