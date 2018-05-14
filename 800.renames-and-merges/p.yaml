@@ -11,6 +11,7 @@
 - { setname: pango,                    namepat: "(?:lib)?pango[0-9._-]*" }
 - { setname: pangomm,                  namepat: "(?:lib)?pangomm[0-9._-]*" }
 - { setname: pangomm,                  namepat: "(?:lib)?pangomm[0-9._-]*(-docs)", addflavor: docs }
+- { setname: pangox-compat,            name: libpangox-compat }
 - { setname: panoply,                  name: panoply-nodesktop, addflavor: nodesktop }
 - { setname: pasystray,                name: [pasystray-gtk2,pasystray-gtk2-standalone,pasystray-gtk3-standalone] }
 - { setname: patch,                    name: gpatch }

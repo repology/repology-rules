@@ -54,7 +54,8 @@
 - { setname: thunderbird,              namepat: "thunderbird[0-9.-]*" }
 - { setname: thunderbird,              namepat: "thunderbird[0-9.-]*-l10n", addflavor: l10n }
 - { setname: tidy,                     name: [html-tidy,htmltidy,tidy-devel,tidy-html,tidy-html5,tidy-lib,tidy4,tidyhtml,tidy] }
-- { setname: tiff,                     name: [libtiff,libtiff3,libtiff4] }
+- { setname: tiff,                     name: [libtiff,libtiff3,libtiff4,tiff3,compat-libtiff3] }
+- { setname: tiff,                     name: tiffgt, addflavor: true }
 - { setname: tigervnc,                 name: [tiger-vnc,tigervnc-viewer] }
 - { setname: tigervnc,                 name: tigervnc-devel, ignore: true }
 - { setname: tiled,                    name: [tiled-java,tiled-qt] }

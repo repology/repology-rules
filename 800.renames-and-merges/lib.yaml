@@ -4,7 +4,7 @@
 - { setname: libarchive,               name: libarchive-devel, ignore: true }
 - { setname: libarchive,               name: libarchive3 }
 - { setname: libatomic-ops,            name: [atomic_ops,libatomicops] }
-- { setname: libcap,                   name: libcap2 }
+- { setname: libcap,                   name: [libcap2,libcap1,compat-libcap1] }
 - { setname: libcdr,                   namepat: "libcdr[0-9._-]+" }
 - { setname: libchamplain,             namepat: "libchamplain[0-9.-]+" }
 - { setname: libcmis,                  name: cmis-client, addflavor: client }
@@ -19,18 +19,23 @@
 - { setname: libetonyek,               namepat: "libetonyek[0-9._-]+" }
 - { setname: libev,                    name: libev4 }
 - { setname: libev,                    name: libev-static, addflavor: static }
-- { setname: libevent,                 name: [libevent2,libevent1] }
+- { setname: libevent,                 name: [libevent2,libevent1,libevent-compat] }
+- { setname: libevent,                 name: libeventextra, addflavor: extra }
 - { setname: libfm,                    name: [libfm-directory_thumbnails,libfm-extra,libfm-gtk2,libfm-gtk3] }
 - { setname: libfprint,                name: [libfprint-upstream,libfprint-vfs0090,libfprint-vfs0097], addflavor: true }
 - { setname: libfreenect,              name: freenect }
 - { setname: libftdi,                  namepat: "libftdi[0-9._-]+" }
+- { setname: libftdi,                  name: libftdi-compat }
 - { setname: libgcrypt,                namepat: "libgcrypt[0-9_.-]+" }
+- { setname: libgcrypt,                name: [libgcrypt-compat,compat-libgcrypt] }
+- { setname: libgcrypt,                name: libgcrypt-static, addflavor: static }
 - { setname: libgda,                   name: compat-libgdata013 }
 - { setname: libgda,                   namepat: "libgda[0-9._-]*(?:-(bdb|firebird|jdbc|ldap|mdb|mysql|ui))?", addflavor: $1 }
 - { setname: libgda,                   namepat: "libgda[0-9._-]*-(?:pgsql|postgres|postgresql)", addflavor: pgsql }
 - { setname: libgdamm,                 name: libgdamm-docs, addflavor: docs }
 - { setname: libgdamm,                 namepat: "libgdamm[0-9._-]+" }
 - { setname: libgdata,                 namepat: "libgdata[0-9._-]+" }
+- { setname: libgweather,              namepat: "(?:compat-)?libgweather[0-9._-]*" }
 - { setname: libgee,                   namepat: "libgee[0-9.-]+" }
 - { setname: libgeotiff,               name: [libgeotiff-dfsg,libgeotiff-epsg] }
 - { setname: libgeotiff,               name: geotiff }
@@ -54,6 +59,7 @@
 - { setname: libgnomeuimm,             namepat: "(?:lib)?gnomeuimm[0-9._-]*" }
 - { setname: libgpod,                  name: libgpod4 }
 - { setname: libgtop,                  namepat: "libgtop[0-9._-]+" }
+- { setname: libical,                  namepat: "(?:compat-)?libical[0-9._-]*" }
 - { setname: libidn2,                  namepat: "libidn2[0-9._-]+" }
 - { setname: libkdcraw,                name: libkdcraw23 }
 - { setname: libksane,                 name: libksane0 }
@@ -64,7 +70,7 @@
 - { setname: libm4ri,                  name: m4ri }
 - { setname: libm4rie,                 name: m4rie }
 - { setname: libdmapsharing,           name: [libdmapsharing3,libdmapsharing4] }
-- { setname: libmediaart,              namepat: "libmediaart[0-9._-]+" }
+- { setname: libmediaart,              namepat: "(?:compat-)?libmediaart[0-9._-]+" }
 - { setname: libmikmod,                name: libmikmod2 }
 - { setname: libmm,                    namepat: "libmm[0-9._-]+" }
 - { setname: libmng,                   name: libmng1 }
@@ -110,6 +116,7 @@
 - { setname: libsysstat,               name: libsysstat-qt5 }
 - { setname: libtasn1,                 namepat: "libtasn1[_-][0-9._-]+" }
 - { setname: libtecla,                 name: tecla }
+- { setname: libtermcap,               name: [compat-libtermcap,libtermcap-compat] }
 - { setname: libtheora,                name: theora }
 - { setname: libtheora,                name: libtheora-docs, addflavor: docs }
 - { setname: libtool,                  name: [libtool-base,libtool-fortran,libtool-info,libtool-lts] }
@@ -124,6 +131,8 @@
 - { setname: libunistring,             name: libunistring2 }
 - { setname: libupnp,                  name: [libupnp1.8,libupnp4,libupnp-legacy,pupnp-1.8] }
 - { setname: libupnp,                  name: upnp, family: freebsd }
+- { setname: libusb,                   namepat: "libusb[0-9._-]*" }
+- { setname: libusb,                   name: [libusb-compat,libusb-legacy] }
 - { setname: libuv,                    name: libuv1 }
 - { setname: libva,                    name: [libva-full,libva-gl,libva-headless,libva-minimal], addflavor: true }
 - { setname: libvirt,                  name: libvirt-zfs, addflavor: true }
@@ -132,8 +141,10 @@
 - { setname: libvisual,                namepat: "libvisual[0-9._-]+" }
 - { setname: libvisual-plugins,        namepat: "libvisual[0-9._-]+-plugins" }
 - { setname: libvorbis,                name: libvorbis-doc, addflavor: doc }
-- { setname: libvpx,                   namepat: "libvpx[0-9._-]+" }
-- { setname: libwebp,                  name: [webp,libwebp6] }
+- { setname: libvpx,                   namepat: "(?:compat-)?libvpx[0-9._-]*" }
+- { setname: libvpx,                   name: libvpx-full, addflavor: full }
+- { setname: libwbxml,                 name: libwbxml-compat }
+- { setname: libwebp,                  name: [webp,libwebp6,compat-libwebp05] }
 - { setname: libwmf,                   name: [libwmf-nox11,libwmf-docs], addflavor: true }
 - { setname: libwnck,                  name: [libwnck-sticky,libwnck-reference], addflavor: true }
 - { setname: libwnck,                  name: libwnck-gtk3 }
@@ -143,7 +154,7 @@
 - { setname: libwps,                   namepat: "libwps[0-9.-]+" }
 - { setname: libx11,                   name: libx11-nokeyboardgrab }
 - { setname: libxaw3dxft,              name: xaw3dxft }
-- { setname: libxcb,                   name: [libx32-libxcb,mingw-w64-libxcb,xorg-libxcb] }
+- { setname: libxcb,                   name: [libx32-libxcb,xorg-libxcb,compat-libxcb] }
 - { setname: libxfont,                 name: [libxfont,libxfont1,libxfont2,xorg-libxfont,xorg-libxfont2,xorg-xfont,xorg-xfont2] }
 - { setname: libxkbcommon,             name: libxkbcommon-doc, addflavor: doc }
 - { setname: libxkbcommon,             name: libxkbcommon-x11, addflavor: x11 }
