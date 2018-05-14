@@ -1,5 +1,10 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: ocp, wwwpart: maxsatula, setname: ocp-oracle-copy-tool }
+- { name: ocp, wwwpart: cubic, setname: ocp-open-cubic-player }
+- { name: ocp, category: [media-sound,audio], setname: ocp-open-cubic-player }
+- { name: ocp, warning: "please classify me" }
+
 - { name: omega, wwwpart: alcyone, setname: omega-rpg }
 - { name: omega, category: games, setname: omega-rpg }
 - { name: omega, wwwpart: sheard, setname: omega-lang }
