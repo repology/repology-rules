@@ -10,5 +10,10 @@
 
 - { name: jpeg,                        verpat: "[01]\\..*", setname: libjpeg-turbo }
 
+- { name: julius, wwwpart: [julius.sourceforge.jp,julius-speech], setname: julius-speech }
+- { name: julius, wwwpart: bvschaik, setname: julius-caesar3 }
+- { name: julius, category: games, setname: julius-caesar3 }
+- { name: julius, warning: "please classify me" }
+
 - { name: js, wwwpart: mozilla, setname: spidermonkey }
 - { name: js, ver: ["1.7.0","1.8.5","17.0.0","1.70","1.85"], setname: spidermonkey } # 1.70 and 1.85 are incorrect versions and are ignored later
