@@ -103,6 +103,9 @@
 - { setname: prometheus,               name: prometheus1 }
 - { setname: prometheus-postgres-exporter, name: [postgres_exporter,prometheus-postgresql-exporter] }
 - { setname: prometheus-pushgateway,   name: [pushgateway,prometheus-push-gateway] }
+- { setname: protobuf,                 name: [protobuf25,protobuf3,protobuf3-cpp,protobuf-cpp,protobuf3-cpp,protobuf-compat,protobuf-compat7] }
+- { setname: protobuf,                 name: [protobuf-java,protobuf3-java], addflavor: java }
+- { setname: protobuf-c,               name: protobuf2-c }
 - { setname: psfex,                    name: astromatic-psfex }
 - { setname: psi,                      name: psi-im }
 - { setname: psi,                      name: [psi-l10n,psi-plugins], addflavor: true } # different repos, but same versions, and seemingly distributed as a single release
