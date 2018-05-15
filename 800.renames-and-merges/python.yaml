@@ -45,7 +45,7 @@
 - { setname: "python:mini-amf",        name: mini-amf }
 - { setname: "python:nbdime",          name: jupyter-nbdime }
 - { setname: "python:nbsphinx",        name: ["python:jupyter_nbsphinx",nbsphinx] }
-- { setname: "python:numpy",           name: "python:numpy-1-13-3-gnu-hpc", addflavor: gnuhpc }
+- { setname: "python:numpy",           namepat: "python:numpy[0-9._-]+-gnu-hpc", addflavor: gnuhpc }
 - { setname: "python:numpy",           name: "python:numpy-docs-devhelp", addflavor: devhelp }
 - { setname: "python:numpy",           name: "python:numpy-mkl", addflavor: mkl }
 - { setname: "python:numpy",           name: "python:numpy-next", addflavor: next }
