@@ -96,7 +96,7 @@
 # R
 - { setname: "r:$1", noflag: not_r, namepat: "r-cran-(.*)", ruleset: [ freebsd, debuntu, arch, pclinuxos, mageia ] }
 - { setname: "r:$1", noflag: not_r, namepat: "r-bioc-(.*)", ruleset: [ debuntu ] }
-- { setname: "r:$1", noflag: not_r, namepat: "r-(.*)",      ruleset: [ pkgsrc, fedora, guix, arch, debuntu, rosa, sisyphus ] }
+- { setname: "r:$1", noflag: not_r, namepat: "r-(.*)",      ruleset: [ pkgsrc, fedora, guix, arch, debuntu, rosa, sisyphus, opensuse ] }
 
 # ROS
 - { setname: "ros:$0", noflag: not_ros, category: dev-ros,   ruleset: [ gentoo ] }
