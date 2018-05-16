@@ -39,6 +39,8 @@
 
 - { name: smem, verpat: "2007.*", family: gentoo, setname: smem.pl } # unrelated python script
 
+- { name: spice, wwwpart: [berkeley.edu,ibiblio], setname: spice-cad } # just move ancient garbage away
+
 - { name: spigot, wwwpart: spigotmc, setname: spigot-minecraft }
 - { name: spigot, wwwpart: sgtatham, setname: spigot-calculator }
 - { name: spigot, ruleset: freebsd, setname: spigot-videocapture }
