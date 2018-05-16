@@ -8,6 +8,7 @@
 - { ruleset: arch,            namepat: "(.*)-multilib", setname: "$1", addflavor: multilib }
 
 - { ruleset: aur,             name: php-svn, setname: "php:svn" } # save from following rule
+- { ruleset: aur,             name: python-svn, setname: "python:svn" } # save from following rule
 - { ruleset: aur,             namepat: "(.*)-(cvs|svn|hg|darcs|bzr|git)", setname: "$1", rolling: true }
 - { ruleset: aur,             namepat: "(.*)-bin", setname: "$1" } # XXX: addflavor: bin
 
