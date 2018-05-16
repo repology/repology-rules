@@ -254,7 +254,7 @@
 - { setname: guichan,                  name: [libguichan,compat-guichan05,guichan05] }
 - { setname: gvrng,                    name: guido-van-robot }
 - { setname: gwt,                      name: webtoolkit-java-sdk }
-- { setname: gwenhywfar,               namepat: "(?:lib)?gwenhywfar[0-9]*(-(?:fox|gtk|qt)[0-9]*)", addflavor: $1 }
+- { setname: gwenhywfar,               namepat: "(?:lib)?gwenhywfar[0-9]*(-(?:fox|gtk|qt)[0-9]*)?", addflavor: $1 }
 - { setname: gxmessage,                name: gxmessage-gtk2, addflavor: gtk2 }
 - { setname: gyp,                      name: "python:gyp" }
 - { setname: gzdoom,                   name: gzdoom-legacy }
