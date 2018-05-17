@@ -160,10 +160,7 @@
 - { setname: libxkbcommon,             name: libxkbcommon-doc, addflavor: doc }
 - { setname: libxkbcommon,             name: libxkbcommon-x11, addflavor: x11 }
 - { setname: libxkbcommon,             name: xkbcommon }
-- { setname: libxml++,                 name: [libxml++-reference,libxml++-docs], addflavor: true }
-- { setname: libxml++,                 name: [libxmlpp,libxmlxx,libxmlxx2] }
-- { setname: libxml++,                 namepat: "libxml\\+\\+[0-9._-]+" }
-- { setname: libxml++,                 namepat: "libxml\\+\\+[0-9._-]+-docs", addflavor: docs }
+- { setname: libxml++,                 namepat: "libxml(\\+\\+|pp|xx)[0-9._-]*(-docs|-reference)?", addflavor: $1 }
 - { setname: libxml2,                  name: libxml }
 - { setname: libxml2,                  name: libxml2-linenum, addflavor: linenum }
 - { setname: libxml2,                  name: libxml2-reference, addflavor: reference }
