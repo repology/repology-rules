@@ -16,3 +16,5 @@
 - { name: zpaq,                        verpat: "[0-9]+",                                   ignore: true }
 - { name: zsh-syntax-highlighting,     verpat: "20[0-9]{6}.*",                             ignore: true } # FreeBSD
 - { name: zshdb,                       verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: zsnes,                       verpat: "(1\\.51)0",                                setver: $1 } # debian seems to have added a zero to end of the version, XXX: problem
+- { name: zsnes,                       ver: "1.51b",                                       devel: true } # experimental development release
