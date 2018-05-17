@@ -39,6 +39,7 @@
 - { name: cmst,                        verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" } # manjaro
 - { name: cmus,                        verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: cmus,                        ver: "2.8.0",                 family: fedora,       ignore: true } # it's rc0
+- { name: coccigrep,                   verpat: "20[0-9]{6}",                               ignore: true }
 - { name: cogl,                        ver: "1.22.5",                ruleset: pardus,      incorrect: true }
 - { name: cogl,                                                      ruleset: pardus,      untrusted: true }
 - { name: colormake,                   verpat: "20[0-9]{6}.*",                             ignore: true }
