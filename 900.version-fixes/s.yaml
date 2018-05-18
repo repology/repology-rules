@@ -47,6 +47,7 @@
 - { name: speexdsp,                    ver: "1.2.0.3",                                     incorrect: true } # it's 1.2rc3
 - { name: speexdsp,                    ver: "1.2",                   family: sisyphus,     incorrect: true } # it's 1.2rc3
 - { name: speexdsp,                                                  family: sisyphus,     untrusted: true }
+- { name: spice-cad,                   ver: "3.5.5",                                       incorrect: true }
 - { name: spidermonkey,                ver: "1.70",                                        setver: "1.7.0" }
 - { name: spidermonkey,                ver: "1.85",                                        setver: "1.8.5" }
 - { name: spidermonkey,                ver: ["1.7.0","1.8.5","17.0.0"],                    legacy: true } # needed for some software; see https://github.com/repology/repology/issues/550
