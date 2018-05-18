@@ -1,0 +1,7 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+#
+# Normalize version prefixes
+#
+
+- { namepat: "(bareos)[0-9]*(-.*)?",   setname: $1$2 }
