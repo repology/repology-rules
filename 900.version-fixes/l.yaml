@@ -33,4 +33,5 @@
 - { name: lynx,                                                                            incorrect: true } # pretty ugly versioning scheme
 - { name: lynx,                        verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)[_.~-]?(dev|pre)[_.-]?([0-9]+)", setver: $1$2$3, devel: true, incorrect: false }
 - { name: lynx,                        verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)[_.~-]?(rel)[_.-]?([0-9]+)", setver: $1$2$3, incorrect: false }
+- { name: lynx,                        verpat: ".*pre.*",            ruleset: gentoo,      incorrect: true } # 'dev' versions incorrectly named as 'pre'
 - { name: lz4,                         verpat: "[0-9]+",                                   ignore: true }
