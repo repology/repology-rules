@@ -43,7 +43,7 @@
 - { setname: nginx,                    name: nginx-lite, addflavor: lite }
 - { setname: nginx,                    name: nginx-mainline-boringssl, addflavor: boringssl }
 - { setname: nginx,                    name: nginx-rtmp, addflavor: rtmp }
-- { setname: ngspice,                  name: [libngspice,ng-spice,ngspice,ngspice-docs,ngspice-rework] }
+- { setname: ngspice,                  name: [libngspice,ng-spice,ngspice-docs,ngspice_rework,ngspice-shared], addflavor: true }
 - { setname: nicotine+,                name: [nicotine,nicotine-plus] }
 - { setname: ninja,                    name: ninja-build }
 - { setname: ninja-irc,                name: irc-ninja }
