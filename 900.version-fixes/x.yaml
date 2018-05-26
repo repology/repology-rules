@@ -4,6 +4,8 @@
 - { name: x86info,                     verpat: ".*[sp].*",                                 ignore: true } # snapshots
 - { name: x86info,                     verpat: "1\\.[0-9]+\\..*",                          ignore: true } # snapshots
 - { name: xalan-c,                     verpat: "1\\.11_[0-9]{5}.*",                        ignore: true } # slackbuilds garbage
+- { name: xastir,                      verpat: "[0-9]{3}",                                 incorrect: true } # XXX: problem
+- { name: xastir,                      ver: "208",                                         outdated: true }
 - { name: xawtv,                       ver: "4.0",                   ruleset: sisyphus,    ignore: true }
 - { name: xcalib,                      verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: xcb-proto,                   verpat: "7.*",                                      ignore: true } # opensuse version prefixed with xorg version (e.g. 7.6_1.2)
