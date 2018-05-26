@@ -9,6 +9,7 @@
 - { name: mariadb,                     verge: "10.3",                                      devel: true } # https://downloads.mariadb.org/
 - { name: mari0,                       ver: "1.6.1",                 family: fedora,       incorrect: true } # rpmfusion
 - { name: mari0,                                                     family: fedora,       untrusted: true }
+- { name: massren,                     verpat: "20[0-9]{6}",                               ignore: true }
 - { name: matreshka,                   ver: "0.8.0",                 family: fedora,       ignore: true } # fake (see report)
 - { name: meld,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: meritous,                    ver: "1.4",                                         incorrect: true } # was? an unofficial fork at https://gitorious.org/meritous, now dead
