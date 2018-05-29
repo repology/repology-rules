@@ -55,6 +55,7 @@
 - { setname: "haskell:$1", noflag: not_haskell, namepat: "ghc-(.*)", family: [fedora,guix,opensuse,rosa] }
 - { setname: "haskell:$0", noflag: not_haskell, category: dev-haskell, family: gentoo }
 - { setname: "haskell:$1", noflag: not_haskell, namepat: "ghc[0-9.]+-(.*)", family: sisyphus }
+- { setname: "haskell:$0", noflag: not_haskell, category: "haskellPackages", ruleset: [ nix ] }
 
 # MinGW
 - { setname: "mingw:$1", noflag: not_mingw, namepat: "mingw-(.*)",   ruleset: [ fedora, mageia ] }
