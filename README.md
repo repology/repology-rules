@@ -254,7 +254,7 @@ note that it's preferred to escape dots with double slash, as `.`
 mean "any character" in regular expressions.
 
 ```yaml
-- { name: firefox, verpat: "mozilla\\.org", ... }
+- { name: firefox, wwwpat: "mozilla\\.org", ... }
 ```
 
 #### wwwpart
@@ -264,7 +264,7 @@ is usually more practical than **wwwpat**, and you don't need
 escaping.
 
 ```yaml
-- { name: firefox, verpat: "mozilla.org", ... }
+- { name: firefox, wwwpart: "mozilla.org", ... }
 ```
 
 ### Actions
