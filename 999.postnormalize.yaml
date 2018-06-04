@@ -6,5 +6,5 @@
 - { namepat: "ruby:dm_core", addflag: preserve_underscore }
 
 # finalize, catch-all rule
-- { tolowername: true }
+- { noflag: preserve_case, tolowername: true }
 - { noflag: preserve_underscore, replaceinname: { "_": "-" } }

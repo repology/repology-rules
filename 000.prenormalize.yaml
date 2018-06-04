@@ -1,6 +1,9 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: Hangman, addflag: preserve_case } # hackell packages hangman vs. Hangman
+
 # Lowercase all names first
 # if there's a need to process mixed case names, it shold be done before this rule
 
-- { tolowername: true, replaceinname: { "/": "-" } }
+- { noflag: preserve_case, tolowername: true }
+- { replaceinname: { "/": "-" } }
