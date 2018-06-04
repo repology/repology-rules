@@ -4,6 +4,7 @@
 - { setname: c++-gtk-utils,            name: c++-gtk-utils-gtk2, addflavor: gtk2 }
 - { setname: c-ares,                   name: [libcares,libcares2] }
 - { setname: cacti-spine,              name: cacti-cactid } # cactid renamed to spine upstream
+- { setname: caddy,                    name: [caddy-full,caddy-with-cgi], addflavor: true }
 - { setname: cairo-clock,              name: cairo-clock-ccw }
 - { setname: cairo-dock-plugins,       name: cairo-dock-plug-ins }
 - { setname: cairomm,                  namepat: "(?:lib)?cairomm[0-9._-]*" }
