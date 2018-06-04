@@ -197,6 +197,7 @@
 - { setname: goocanvasmm,              namepat: "(?:lib)?goocanvasmm[0-9._-]*" }
 - { setname: gopro-vr-player,          name: gopro-vr-player-beta, ignore: true }
 - { setname: gopro-vr-player,          name: gopro-vrplayer }
+- { setname: govendor,                 name: "go:github-kardianos-govendor" }
 - { setname: gpgme,                    namepat: "gpgme[0-9._-]+" }
 - { setname: gpgme,                    name: [gpgme-cpp,gpgme-python,gpgme-qt5,qgpgme,"python:gpgme"], addflavor: true }
 - { setname: gphoto2,                  namepat: "(?:lib)?gphoto2?" }
