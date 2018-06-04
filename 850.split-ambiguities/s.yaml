@@ -52,6 +52,12 @@
 
 - { name: svn2git, verpat: "1\\.[0-9]+.*", setname: svn-all-fast-export }
 
+- { name: swarp, wwwpart: astromatic, setname: swarp-astromatic }
+- { name: swarp, wwwpart: suckless, setname: swarp-suckless }
+- { name: swarp, ruleset: openbsd, setname: swarp-suckless }
+- { name: swarp, ruleset: yacp, setname: swarp-astromatic }
+- { name: swarp, warning: "please classify me" }
+
 # Programming language vs. XMPP client vs. openstack object storage
 - { name: swift,                       setname: swift-lang, family: [ arch, freebsd ] }
 - { name: swift,                       setname: swift-im, family: [ sisyphus, fedora, pkgsrc ] }
