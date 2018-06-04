@@ -1,5 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: "ocaml:opam-file-format",    ver: "2.0.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: "ocaml:opam-file-format",                                  ruleset: sisyphus,    untrusted: true }
 - { name: octave,                      verpat: ".*pre[0-9]{5}",                            ignore: true }
 - { name: octomap,                     verpat: "[0-9a-f]{40}",                             ignore: true } # commit
 - { name: odoo,                        verpat: ".*20[0-9]{6}",                             ignore: true }
@@ -7,6 +9,8 @@
 - { name: ollydbg,                     verpat: "[0-9]{3}",                                 ignore: true } # aosc garbage
 - { name: onioncat,                    verpat: "0\\.2\\.2.*",                              ignore: true }  # \  force correct
 - { name: onioncat,                    verpat: "0\\.2\\.2\\.r[0-9]+.*",                    ignore: false } # / version schema
+- { name: opam,                        ver: "2.0.0",                 ruleset: [sisyphus,mageia], incorrect: true }
+- { name: opam,                                                      ruleset: [sisyphus,mageia], untrusted: true }
 - { name: open-vm-tools,               ver: [ "1280544", "2011.12.20" ],                   ignore: true }
 - { name: openal-creative,             ver: "20060211",                                    ignore: true } # freebsd (should probably be 0.0.8)
 - { name: opencity,                    ver: "0.0.6.5stable",                               ignore: true } # 0.0.6.5; "stable" is not a part of the version
