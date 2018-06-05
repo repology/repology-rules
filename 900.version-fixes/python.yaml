@@ -1,15 +1,15 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { name: "python:backports",          ver: "4.0.0",                                       ignore: true } # opensuse fake
+- { name: "python:backports",          ver: "4.0.0",                                       incorrect: true } # opensuse fake
 - { name: "python:django-suit",        verpat: "0\\.3a[123]",                              outdated: true } # https://pypi.org/project/django-suit/#history
 - { name: "python:elixir",             ver: "0.8.0",                 family: sisyphus,     incorrect: true } # fake
 - { name: "python:elixir",                                           family: sisyphus,     untrusted: true }
 - { name: "python:leveldb",            ver: "0.193",                                       outdated: true }
-- { name: "python:progressbar",        ver: "2.4",                   family: sisyphus,     ignore: true } # fake
+- { name: "python:progressbar",        ver: "2.4",                   family: sisyphus,     incorrect: true } # fake
 - { name: "python:py-cpuinfo",         verpat: "201.*",                                    ignore: true }
 - { name: "python:pycha",              ver: "279",                                         ignore: true }
-- { name: "python:pycrypto",           ver: "2.7",                   family: sisyphus,     ignore: true } # it's 2.7a1
-- { name: "python:pycrypto",           verpat: "3.*",                family: nix,          setname: "python:pycryptodome" } # different package
+- { name: "python:pycrypto",           ver: "2.7",                   family: sisyphus,     incorrect: true } # it's 2.7a1
+- { name: "python:pycrypto",           verpat: "3.*",                family: nix,          setname: "python:pycryptodome" } # different package XXX: problem
 - { name: "python:pyode",              verpat: ".*2010.*",                                 ignore: true }
 - { name: "python:pyspatialite",       ver: "3.0.1",                 noruleset: pypi,      incorrect: true } # it's 3.0.1-alpha-0
 - { name: "python:pyspatialite",       verpat: "(.*)(?:[_-]alpha[_-])(.*)",                setver: "$1alpha$2" }
