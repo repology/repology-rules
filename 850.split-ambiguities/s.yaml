@@ -50,6 +50,10 @@
 - { name: spigot, ruleset: freebsd, setname: spigot-videocapture }
 - { name: spigot, warning: "please classify me" }
 
+- { name: spl, wwwpart: shakespearelang, setname: shakespeare }
+- { name: spl, wwwpart: clifford.at, setname: spl-lang }
+# otherwise, solaris porting layer
+
 - { name: splitter, wwwpart: mkgmap, setname: mkgmap-splitter } # no ambiguity at the time of writing, but let's be on the safe side
 
 - { name: statik, wwwpart: rakyll, setname: "go:github-rakyll-statik" }
