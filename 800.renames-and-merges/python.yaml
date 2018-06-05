@@ -58,6 +58,7 @@
 - { setname: "python:numpy",           name: ["python:numpy-doc","python:numpy-documentation"], addflavor: docs }
 - { setname: "python:numpy",           name: [numpy-legacy,numpy-legacy3,numpy3] }
 - { setname: "python:pcapy",           name: pcapy }
+- { setname: "python:pep8",            name: pep8 }
 - { setname: "python:pep8-naming",     name: [flake-pep8-naming,pep8-naming,"python:flake8-pep8-naming"] }
 - { setname: "python:py-cpuinfo",      name: "python:cpuinfo" }
 - { setname: "python:py-jack",         name: pyjack }
@@ -65,7 +66,9 @@
 - { setname: "python:pyaudio",         name: "python:python-pyaudio" }
 - { setname: "python:pybtex",          name: pybtex }
 - { setname: "python:pybtex-docutils", name: pybtex-docutils }
+- { setname: "python:pycodestyle",     name: ["python:codestyle",pycodestyle] }
 - { setname: "python:pycups",          name: ["python:cups",pycups] }
+- { setname: "python:pydocstyle",      name: "python:docstyle" }
 - { setname: "python:pyfltk",          name: [pyfltk, "python:fltk"] }
 - { setname: "python:pyfxa",           name: "python:fxa" }
 - { setname: "python:pygobject3",      name: pygobject3 }
@@ -79,6 +82,7 @@
 - { setname: "python:python-axolotl",  name: "python:axolotl" } # as per PyPi
 - { setname: "python:python-axolotl-curve25519", name: "python:axolotl-curve25519" } # as per PyPi
 - { setname: "python:python-djvulibre", name: "python:djvulibre" } # correct name on PyPi
+- { setname: "python:python-editor",   name: "python:editor" }
 - { setname: "python:python-vxi11",    name: "python:vxi11" } # as per PyPi
 - { setname: "python:pytidylib",       name: ["python:pytidylib6","python:tidylib"] }
 - { setname: "python:pyusb",           name: "python:usb" } # create problem!
