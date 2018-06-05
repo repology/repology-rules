@@ -2,6 +2,8 @@
 
 - { name: lbd,                         verpat: "20[0-9]{6}",                               ignore: true } # BlackArch snap
 - { name: lcms,                        verpat: "2.2[0-9]",                                 ignore: true } # gobolinux brokenness
+- { name: lcov,                        ver: "1.14",                  family: opensuse,     incorrect: true }
+- { name: lcov,                                                      family: opensuse,     untrusted: true }
 - { name: less,                        vergt: "530",                                       devel: true } # http://www.greenwoodsoftware.com/less/
 - { name: libreoffice,                 ver: "6.0.4.1",                                     devel: true }
 - { name: lightdm-gtk-greeter,         verpat: "20[0-9]{6}.*",                             ignore: true }
@@ -18,6 +20,7 @@
 - { name: lmms,                        ver: ["1.1.95","1.2.0"],      ruleset: [sisyphus,kaos], incorrect: true } # it's 1.2.0rc5
 - { name: lmms,                                                      ruleset: [sisyphus,kaos], untrusted: true }
 - { name: loic,                        verpat: ".*9.*9.*9.*",                              devel: true } # prerelease (2.9.9.99)
+- { name: logtop,                      ver: "0.6.1",                 ruleset: sisyphus,    incorrect: true }
 - { name: lprof,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: lrzsz,                       verge: "0.12.21",                                   successor: true } # debian fork? (needs investigation)
 - { name: lsscsi,                      ver: "0.29",                  family: opensuse,     incorrect: true } # fake
@@ -28,6 +31,7 @@
 - { name: lugaru,                      verpat: "[0-9]{3}.*",                               ignore: true } # dates and snapshots
 - { name: lugaru,                      verpat: "201[56].*",                                outdated: true } # 1.2 from 2017
 - { name: luit,                        verpat: "20[0-9]{6}.*",                             ignore: true }
+- { namepat: "lumina.*",               verpat: "1.4.1",              family: [freebsd,ravenports], incorrect: true }
 - { name: lxdm,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: lxsplit,                     verlonger: 3,                 family: openbsd,      incorrect: true } # "1." component prepended
 - { name: lynx,                                                                            incorrect: true } # pretty ugly versioning scheme

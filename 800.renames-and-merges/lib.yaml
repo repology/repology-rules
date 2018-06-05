@@ -1,5 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: libappindicator,          name: [libappindicator-activate-gtk2,libappindicator-activate-gtk3,libappindicator-activate-sharp,libappindicator-gtk2,libappindicator-gtk3,libappindicator-sharp], addflavor: true }
+- { setname: libappindicator,          name: libappindicator3 }
+- { setname: libarcus,                 name: arcus }
 - { setname: libasr,                   name: [libasr-devel,libasr-snapshot], ignore: true }
 - { setname: libarchive,               name: libarchive-devel, ignore: true }
 - { setname: libarchive,               name: libarchive3 }
@@ -68,6 +71,7 @@
 - { setname: libkscreen,               name: libkscreen2 }
 - { setname: liblas,                   name: liblas12 }
 - { setname: liblastfm,                name: liblastfm0 }
+- { setname: liblastfm,                name: [liblastfm-qt4,liblastfm-qt5], addflavor: true }
 - { setname: liblqr,                   name: liblqr-1 } # XXX: reverse?
 - { setname: libm4ri,                  name: m4ri }
 - { setname: libm4rie,                 name: m4rie }
