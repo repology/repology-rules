@@ -56,6 +56,14 @@
 
 - { name: splitter, wwwpart: mkgmap, setname: mkgmap-splitter } # no ambiguity at the time of writing, but let's be on the safe side
 
+- { name: st, wwwpart: suckless, setname: st-term }
+- { name: st, category: [libs,universe/libs,misc,devel], setname: state-threads }
+- { name: st, wwwpart: state-threads, setname: state-threads }
+- { name: st, wwwpart: nferraz, setname: st-statistics }
+- { name: st, warning: "please classify me" }
+
+- { name: sterm, wwwpart: suckless, setname: st-term } # freebsd rename of st; but there's actual sterm project
+
 - { name: statik, wwwpart: rakyll, setname: "go:github-rakyll-statik" }
 
 - { name: svn2git, verpat: "1\\.[0-9]+.*", setname: svn-all-fast-export }
