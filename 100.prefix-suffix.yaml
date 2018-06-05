@@ -40,4 +40,6 @@
 
 - { ruleset: nix,             namepat: "(.*)-unstable", setname: "$1", ignore: true }
 
+- { ruleset: parabola,        namepat: "(.*)-static-debug", setname: "$1", addflavor: static-debug }
+
 #- { ruleset: msys2, namepat: "(.*)-git", setname: "$1", ignore: true }
