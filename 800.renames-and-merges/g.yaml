@@ -51,6 +51,8 @@
 - { setname: gexiv2,                   name: libgexiv2 }
 - { setname: gfbgraph,                 name: libgfbgraph }
 - { setname: gflags,                   name: [google-gflags,libgflags] }
+- { setname: ghc,                      namepat: "ghc[0-9._-]+" }
+- { setname: ghc,                      name: [ghc-bin,ghc-bootstrap,ghc-libs,ghc-pristine,ghc-raspbian,ghc-static], addflavor: true }
 - { setname: gifcurry,                 name: "haskell:gifcurry" }
 - { setname: giflib,                   name: gif, family: ravenports }
 - { setname: giflib,                   name: giflib-util, addflavor: util }
@@ -147,7 +149,7 @@
 - { setname: gnucobol,                 name: [opencobol,open-cobol,open-cobol-ce] } # opencobol is now gnucobl
 - { setname: gnucobol,                 name: libcob, addflavor: true } # opencobol is now gnucobl
 - { setname: gnugo,                    name: gnu-go }
-- { setname: gnumpc,                   name: [mpc1,mpclib,mpclib3,mpcomplex] }
+- { setname: gnumpc,                   name: [mpc1,mpclib,mpclib3,mpcomplex,libmpc3] }
 - { setname: gnunet,                   name: [gnunet-fuse,gnunet-gtk,gnunet-qt], addflavor: true }
 - { setname: gnunet,                   name: gnunet-svn, ignore: true }
 - { setname: gnupg,                    name: gnupg1compat }
@@ -203,6 +205,7 @@
 - { setname: gphoto2,                  namepat: "(?:lib)?gphoto2?" }
 - { setname: gpicview,                 name: [gpicview-gimp,gpicview-gtk3], addflavor: true }
 - { setname: gpodder,                  name: gpodder3 }
+- { setname: gprof2dot,                name: "python:gprof2dot" }
 - { setname: gprolog,                  name: gnu-prolog }
 - { setname: grafana,                  name: grafana-bin }
 - { setname: grafana,                  namepat: "grafana[0-9]+" }

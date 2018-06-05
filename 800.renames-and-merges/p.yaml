@@ -15,6 +15,8 @@
 - { setname: panoply,                  name: panoply-nodesktop, addflavor: nodesktop }
 - { setname: pasystray,                name: [pasystray-gtk2,pasystray-gtk2-standalone,pasystray-gtk3-standalone] }
 - { setname: patch,                    name: gpatch }
+- { setname: payara,                   namepat: "payara[0-9]+" }
+- { setname: payara,                   name: payara5-micro, addflavor: micro }
 - { setname: pcmanx,                   name: [pcmanx-gtk2, pcmanx-gtk3], addflavor: true }
 - { setname: pcre++,                   name: [libpcre++,pcrexx] }
 - { setname: pcre,                     name: [pcre-static,pcre-cpp] }
@@ -95,6 +97,7 @@
 - { setname: powershell,               name: powershell-core, addflavor: core }
 - { setname: powershell,               name: pwsh }
 - { setname: powertop,                 name: [powertop-1.13,powertop1] }
+- { setname: ppsspp,                   name: [ppsspp-ex,ppsspp-headless,ppsspp-qt,ppsspp-qt5], addflavor: true }
 - { setname: presto,                   name: presto-cli }
 - { setname: printproto,               name: xprintproto }
 - { setname: processing,               name: processing3 }

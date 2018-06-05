@@ -2,6 +2,7 @@
 
 - { setname: "python:absl-py",         name: "python:absl", ruleset: macports } # there's python:absl in pypi which is different package
 - { setname: "python:absl-py",         name: absl-py }
+- { setname: "python:airnef",          name: airnef }
 - { setname: "python:argparse",        name: argparse }
 - { setname: "python:backports.shutil-get-terminal-size", name: shutil_get_terminal_size }
 - { setname: "python:backports.shutil_get_terminal_size", namepat: "python:backports[_-]shutil[_-]get[_-]terminal[_-]size" }
@@ -25,6 +26,7 @@
 - { setname: "python:ewmh",            name: [ewmh,pyewmh] }
 - { setname: "python:flake8$1",        namepat: "flake8(.*)" }
 - { setname: "python:flask$1",         namepat: "flask(.*)" }
+- { setname: "python:geoalchemy2",     name: geoalchemy2 }
 - { setname: "python:geographiclib",   name: geographiclib-python }
 - { setname: "python:graph-tool",      name: "python:python2.7-graph-tool", addflavor: python-2.7 }
 - { setname: "python:graph-tool",      name: "python:python3.6-graph-tool", addflavor: python-3.6 }
@@ -39,6 +41,7 @@
 - { setname: "python:kiwisolver",      name: kiwisolver }
 - { setname: "python:libvirt-python",  name: ["python:libvirt", libvirt-python ] }
 - { setname: "python:libvirt-python",  name: [libvirt-python2, libvirt-python3], addflavor: true }
+- { setname: "python:logzero",         name: logzero }
 - { setname: "python:markdown",        name: python-markdown }
 - { setname: "python:mdp",             name: "python:mdp-toolkit" }
 - { setname: "python:meld3",           name: meld3 }
@@ -81,7 +84,9 @@
 - { setname: "python:pyusb",           name: "python:usb" } # create problem!
 - { setname: "python:pywebkitgtk",     name: ["python:webkitgtk",pywebkitgtk] }
 - { setname: "python:pyyaml",          name: [pyyaml,"python:yaml"] }
+- { setname: "python:readlike",        name: readlike }
 - { setname: "python:redis",           name: "python:redis-py" }
+- { setname: "python:reparser",        name: reparser }
 - { setname: "python:robotframework",  name: robot-framework }
 - { setname: "python:sasmodels",       name: sasmodels }
 - { setname: "python:scikit-cuda",     name: scikits-cuda }
@@ -101,6 +106,7 @@
 - { setname: "python:sqlalchemy",      name: ["python:sqlalchemy-doc","python:sqlalchemy-kilo","python:sqlalchemy-openstack"], addflavor: true }
 - { setname: "python:sqlalchemy",      name: sqlalchemy }
 - { setname: "python:sqlalchemy",      namepat: "python:sqlalchemy[0-9._-]+" }
+- { setname: "python:sqlalchemy-i18n", name: sqlalchemy-i18n }
 - { setname: "python:tldextract",      name: tldextract }
 - { setname: "python:tornado",         name: [tornado,tornadoweb] }
 - { setname: "python:tornado",         namepat: "python:tornado[0-9._-]+" }
