@@ -5,6 +5,10 @@
 
 - { name: rescue, wwwpart: rescue.sourceforge.net, setname: rescue-max }
 
+- { name: rex, wwwpart: gnu.org, setname: rex-gray } # https://puszcza.gnu.org.ua/projects/rex
+- { name: rex, wwwpart: shellphish, setname: rex-shellphish } # https://github.com/shellphish/rex
+# otherwise rexify.org - remote execution framework
+
 - { name: rootsh, ruleset: maemo, setname: rootsh-maemo }
 
 - { name: roundup, wwwpart: mizerany, setname: sh-roundup } # taken name already used in parabola/hyperbola
