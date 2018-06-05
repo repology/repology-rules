@@ -22,6 +22,7 @@
 - { name: pingus,                      verpat: "0\\.8\\.0-[0-9]{8}",                       ignore: true }
 - { name: pingus,                      verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: pkg,                         verpat: "[0-9]+\\.[0-9]+\\.99\\..*",                devel: true }
+- { name: pkgdiff,                     ver: "1.8",                   ruleset: freshcode,   ignore: true } # https://github.com/lvc/pkgdiff/issues/35
 - { name: plowshare-modules,                                                               ignore: true } # no official releases
 - { name: pmount,                      ver: "0.9.99",                                      setver: "0.9.99_alpha" }
 - { name: pmount,                      verpat: "0\\.9\\.99.*",                             devel: true }
