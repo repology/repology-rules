@@ -17,8 +17,8 @@
 - { name: vlc,                         ver: "3.0.0.1",               family: sisyphus,     incorrect: true } # fake
 - { name: vlc,                                                       family: sisyphus,     untrusted: true }
 - { name: vlc,                         verpat: "20[0-9]{6}.*",                             ignore: true }
-- { name: vokoscreen,                  ver: "2.5.8",                 ruleset: kaos,        incorrect: true } # 2.5.8-beta
-- { name: vokoscreen,                                                ruleset: kaos,        untrusted: true }
+- { name: vokoscreen,                  ver: "2.5.8",                 ruleset: [kaos,fedora], incorrect: true } # 2.5.8-beta
+- { name: vokoscreen,                                                ruleset: [kaos,fedora], untrusted: true }
 - { name: vorbis-tools,                verlonger: 3,                 family: kaos,         incorrect: true } # fake
 - { name: vpnc,                        ver: "0.5.3.3",               family: kaos,         incorrect: true } # fake
 - { name: vpnc,                        verpat: "0.5.3.*post.*",                            ignore: true } # nix
