@@ -53,6 +53,7 @@
 - { setname: gflags,                   name: [google-gflags,libgflags] }
 - { setname: ghc,                      namepat: "ghc[0-9._-]+" }
 - { setname: ghc,                      name: [ghc-bin,ghc-bootstrap,ghc-libs,ghc-pristine,ghc-raspbian,ghc-static], addflavor: true }
+- { setname: ghc,                      name: haskell, ruleset: scoop }
 - { setname: gifcurry,                 name: "haskell:gifcurry" }
 - { setname: giflib,                   name: gif, family: ravenports }
 - { setname: giflib,                   name: giflib-util, addflavor: util }
