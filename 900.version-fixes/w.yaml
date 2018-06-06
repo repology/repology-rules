@@ -27,8 +27,8 @@
 - { name: wireshark,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assuming odd versions are devel
 - { name: wiredtiger,                  verlonger: 3,                 ruleset: [alpine,arch], incorrect: true }
 - { name: wireless-regdb,              verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" } # https://git.kernel.org/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/refs/
-- { name: wireless-tools,              ver: "30",                    ruleset: [mageia,openmandriva,pclinuxos], incorrect: true } # 30pre9
-- { name: wireless-tools,                                            ruleset: [mageia,openmandriva,pclinuxos], untrusted: true }
+- { name: wireless-tools,              ver: ["29.9","30"],           ruleset: [kaos,mageia,openmandriva,pclinuxos], incorrect: true } # 30pre9
+- { name: wireless-tools,                                            ruleset: [kaos,mageia,openmandriva,pclinuxos], untrusted: true }
 - { name: whatweb,                     vergt: "0.4.7",               family: [debuntu,openbsd,gentoo,freebsd], ignore: true } # 0.4.8 has never been released
 - { name: woff2,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: woff2,                       ver: "20160306",                                    outdated: true } # latest 1.0.2 from 2017
