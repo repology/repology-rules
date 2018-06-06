@@ -6,6 +6,8 @@
 - { name: racer-game,                  ver: "1.1.64",                                      incorrect: true } # it's 1.1 64bit version
 - { name: rage,                        verlonger: 3,                                       devel: true } # snapshots
 - { name: ragel,                       verpat: "7\\..*",                                   devel: true } # http://www.colm.net/open-source/ragel/
+- { name: rakarrack,                   ver: "0.6.2",                 ruleset: [sisyphus,fedora,rosa], incorrect: true }
+- { name: rakarrack,                                                 ruleset: [sisyphus,fedora,rosa], untrusted: true }
 - { name: readline,                    verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1p$2 }
 - { name: readline,                                                                        p_is_patch: true }
 - { name: recode,                      ver: "3.7-2fd838565",                               ignore: true }
