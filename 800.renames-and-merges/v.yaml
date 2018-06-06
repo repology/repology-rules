@@ -34,7 +34,7 @@
 - { setname: vscode,                   name: [visual-studio-code,visual-studio-code-oss,visualstudiocode] }
 - { setname: vscode,                   name: code, family: sisyphus } # XXX: problem!
 - { setname: vscode,                   name: visual-studio-code-insiders, ignore: true }
-- { setname: vsftpd,                   name: [vsftpd-ssl,vsftpd-ext] }
+- { setname: vsftpd,                   name: vsftpd-ssl, addflavor: ssl }
 - { setname: vsqlite++,                name: [libvsqlite++,libvsqlitepp,vsqlite] }
 - { setname: vte,                      name: [vte-common,vte-gtk2-compat,vte-gtk2-xfce,vte-gtk3,vte-reference,vte-gtk2,vte-legacy,vte-notification-common,vte3-notification], addflavor: true }
 - { setname: vte,                      namepat: "(?:lib)?vte[0-9._-]*" }
