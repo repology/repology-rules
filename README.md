@@ -273,7 +273,7 @@ You may use **verpat** instead.
 Matches package homepage against a regular expression. Note that
 unlike namepat and verpat, partial match is allowed here. Also
 note that it's preferred to escape dots with double slash, as `.`
-mean "any character" in regular expressions.
+means "any character" in regular expressions.
 
 ```yaml
 - { name: firefox, wwwpat: "mozilla\\.org", ... }
@@ -282,8 +282,9 @@ mean "any character" in regular expressions.
 #### wwwpart
 
 Matches when a package homepage contains given substring. This
-is usually more practical than **wwwpat**, and you don't need
-escaping.
+is usually more practical than **wwwpat** as in most cases you
+just need to match an URL part and don't need complex patterns,
+also you don't want to bother with escaping here.
 
 ```yaml
 - { name: firefox, wwwpart: "mozilla.org", ... }
