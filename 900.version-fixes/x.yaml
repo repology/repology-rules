@@ -9,6 +9,9 @@
 - { name: xawtv,                       ver: "4.0",                   ruleset: sisyphus,    ignore: true }
 - { name: xcalib,                      verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: xcb-proto,                   verpat: "7.*",                                      ignore: true } # opensuse version prefixed with xorg version (e.g. 7.6_1.2)
+- { name: xcftools,                    verpat: ".*20[0-9]{6}",                             ignore: true } # freebsd snapshot
+- { name: xchm,                        verpat: ".*20[0-9]{6}.*",                           ignore: true } # macports
+- { name: xchm,                        verpat: "1\\.24.*",           ruleset: macports,    incorrect: true }
 - { name: xclip,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: xdg-utils,                   verpat: "[0-9]+",                                   ignore: true }
 - { name: xdot,                        ver: "20121124",                                    ignore: true }
