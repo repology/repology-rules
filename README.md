@@ -39,6 +39,28 @@ a quick pointer of how to add specific rules:
   - `- { name: <ambiguous name>, verpat: <version pattern>, setname: <specific name> }`
   - `- { name: <ambiguous name>, ruleset: <families>, setname: <specific name> }` as a least resort
 
+## Contributing
+
+Things to know if you're submitting pull request or have push access
+to this repository.
+
+- Repology is currently set up to automatically pull latest ruleset
+from `master` branch in this repo on each update, so everything
+committed here will be automatically applied to repology in several
+hours.
+- Repology runs `make check` after updating the repo, and if it
+fails, rolls back to the latest good commit, so it's somewhat
+protected from broken ruleset.
+- In the worst case, broken ruleset will prevent repology from
+updating until the problem is resolved.
+- Still, please run `make check` before committing, and/or install
+a git hook (`scripts/pre-push`) which runs it for you (you can copy
+it into .git/hooks or just run `make install-hook`).
+- The checker script requires python modules `voluptous` and `PyYAML`.
+`pip install PyYAML voluptuous` should install them for you.
+- In general, stay close to the style already used in the ruleset,
+use existing rules as examples, keep it simple and have fun!
+
 ## Rule basics
 
 Rules are stored in a set of files in [YAML](http://yaml.org/) format,
