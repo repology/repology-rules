@@ -60,6 +60,8 @@ it into .git/hooks or just run `make install-hook`).
 `pip install PyYAML voluptuous` should install them for you.
 - In general, stay close to the style already used in the ruleset,
 use existing rules as examples, keep it simple and have fun!
+- If in doubt, you can always just submit a report and avoid all
+the work!
 
 ## Rule basics
 
