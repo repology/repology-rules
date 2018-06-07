@@ -39,6 +39,7 @@
 - { name: prboom-plus,                 verpat: ".*svn.*",                                  ignore: true }
 - { name: processing,                  verpat: "[0-9]{4}.*",                               incorrect: true } # gobolinux garbage
 - { name: procmail,                    verpat: "[0-9]+",                                   ignore: true } # homebrew
+- { name: proot,                       verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: properties-cpp,              verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: proxychains-ng,              verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: psi-plus,                    verpat: "20[0-9]{6}.*",                             ignore: true } # opensuse garbage

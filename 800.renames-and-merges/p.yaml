@@ -106,6 +106,8 @@
 - { setname: prometheus,               name: prometheus1 }
 - { setname: prometheus-postgres-exporter, name: [postgres_exporter,prometheus-postgresql-exporter] }
 - { setname: prometheus-pushgateway,   name: [pushgateway,prometheus-push-gateway] }
+- { setname: proot,                    name: proot-static, addflavor: true }
+- { setname: proot,                    namepat: "proot[0-9._-]+" }
 - { setname: protobuf,                 name: [protobuf25,protobuf3,protobuf3-cpp,protobuf-cpp,protobuf3-cpp,protobuf-compat,protobuf-compat7] }
 - { setname: protobuf,                 name: [protobuf-java,protobuf3-java], addflavor: java }
 - { setname: protobuf-c,               name: protobuf2-c }
