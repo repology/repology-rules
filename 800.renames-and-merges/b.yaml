@@ -19,6 +19,7 @@
 - { setname: bash,                     name: bash-devel-static, ignore: true, addflavor: bash-static }
 - { setname: bash,                     namepat: "bash[0-9]+" }
 - { setname: bats,                     name: bash-bats }
+- { setname: bazel,                    name: bazel-clang38, addflavor: true }
 - { setname: bazel-buildtools,         name: buildifier, addflavor: true }
 - { setname: baudline,                 name: linux-baudline, family: freebsd }
 - { setname: bbpager,                  name: [bbpager03,bbpager04] }
