@@ -5,6 +5,9 @@
 - { name: taisei,                      verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: talloc,                      ver: "3.6.0",                                       incorrect: true } # pclinuxos wtf; https://www.samba.org/ftp/talloc/
 - { name: tar,                         ver: "1.29b",                                       ignore: true } # debian garbage http://metadata.ftp-master.debian.org/changelogs/main/t/tar/tar_1.29b-2_changelog
+- { name: tbb,                         verpat: "20[0-9]{2}.*",                             incorrect: true } # too much garbage, ignore by default; correct recent versions are yyyy and yyyy_Uxx
+- { name: tbb,                         verpat: "20[0-9]{2}",                               incorrect: false }
+- { name: tbb,                         verpat: "(20[0-9]{2})[._u-]+([0-9]{,2})",           setver: $1_U$2, incorrect: false, any_is_patch: true }
 - { name: tcc,                         verpat: "20[0-9]{2}.*",                             ignore: true } # freebsd
 - { name: tcl,                         verpat: ".*20[0-9]{6}.*",                           ignore: true } # 8.7 snapshots
 - { name: tcl,                         verpat: ".*a[0-9]+",                                devel: true }
