@@ -27,6 +27,7 @@
 - { name: shotcut,                     verpat: "[0-9]{6,}.*",                              incorrect: true } # aur; it's not 180102, but 18.01
 - { name: shotgun-debugger,            wwwpart: msarnoff,                                  successor: true }
 - { name: signon-ui,                   verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
+- { name: simage,                      ver: "1.7.1",                 family: debuntu,      incorrect: true }
 - { name: simh,                        verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: simple-scan,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: simplescreenrecorder,        verlonger: 3,                 family: freebsd,      incorrect: true }
