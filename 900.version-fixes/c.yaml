@@ -24,6 +24,7 @@
 - { name: chakracore,                  wwwpart: cauldrondevelopmentllc,                    ignore: true } # fork with different versioning
 - { name: checkbashisms,               verpat: "20[0-9]{6}.*",                             ignore: true } # AUR
 - { name: cherokee,                    verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
+- { name: chez-scheme,                 ver: "9.5.1",                 ruleset: nix,         incorrect: true }
 - { name: chromium,                    verpat: ".*-r[0-9]+",                               ignore: true } # scoop
 - { name: citra,                                                                           noscheme: true }
 - { name: ckermit,                     ver: "302",                                         setver: "9.0.$0" }
