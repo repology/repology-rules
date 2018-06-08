@@ -29,6 +29,8 @@
 - { setname: ccache,                   name: [ccache-memcached,ccache-memcached-static,ccache-static], addflavor: true } # freebsd subpackages
 - { setname: ccaudio2,                 name: libccaudio2 }
 - { setname: ccl,                      name: [clozure-cl,clozurecl] }
+- { setname: ccsm,                     name: ccsm-gtk3, addflavor: true }
+- { setname: ccsm,                     name: ccsm0.8 }
 - { setname: cdemu-client,             name: cdemu, family: gentoo }
 - { setname: cdesktopenv,              name: cde-desktop }
 - { setname: cdogs-sdl,                name: cdogs }
