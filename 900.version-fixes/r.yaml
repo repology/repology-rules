@@ -26,5 +26,8 @@
 - { name: "ruby:io-like",              ver: "0.3.0.20130301",                              ignore: true } # freebsd
 - { name: "ruby:net-ldap",             ver: "1.1.0",                 family: sisyphus,     incorrect: true }
 - { name: "ruby:net-ldap",                                           family: sisyphus,     untrusted: true }
+- { name: runc,                        verpat: "[0-9a-f]{7}",                              ignore: true }
+- { name: runc,                        ver: ["1.0.0","1.0.1"],       ruleset: [sisyphus,centos,fedora,openmandriva], incorrect: true } # 1.0.0rc5
+- { name: runc,                                                      ruleset: [sisyphus,centos,fedora,openmandriva], untrusted: true }
 - { name: rust,                        verpat: ".*dev",                                    ignore: true } # haikuports garbage
 - { name: rust,                        verpat: ".*20[0-9]{2}.*",                           ignore: true }
