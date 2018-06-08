@@ -48,6 +48,7 @@
 - { name: colormake,                   ver: ["2.1.0", "0.9.20140504", "0.9.20170221"],     ignore: true }
 - { name: comedilib,                   ver: "140410",                                      ignore: true } # pclinuxos weirdness
 - { name: commandergenius,             verpat: ".*[0-9]{4}.*",                             ignore: true } # nixpkgs weirdness
+- { name: compizconfig-python,         ver: "0.9.5.94",                                    outdated: true } # some antient garbage from ubuntu 12
 - { name: cons,                        ver: "2.3.0.1",                                     ignore: true } # debian uses this to revert to 2.2.0. http://metadata.ftp-master.debian.org/changelogs/main/c/cons/cons_2.3.0.1+2.2.0-2_changelog "The odd version string is to avoid using epochs" <- that's what epochs are for, dammit
 - { name: containerd,                  verpat: "[0-9a-f]{7}",                              ignore: true } # crux garbage
 - { name: coolkey,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+_[0-9]+",          incorrect: true } # AUR using fedora package revision
