@@ -31,6 +31,7 @@
 - { name: openssh,                     verpat: "[0-9]+\\.[0-9]+",                          ignore: true } # freshcode, pZ part missing
 - { name: openssh,                     verpat: "20[0-9-]{6}.*",                            ignore: true } # scoop
 - { name: openssh,                                                                         p_is_patch: true }
+- { name: openstack-keystone,          verpat: "201[24].*",                                outdated: true }
 - { name: openuniverse,                ver: "1.0beta3.1",                                  ignore: true } # debian garbage
 - { name: openxcom,                    verpat: ".*201[789].*",                             ignore: true } # git snapshots
 - { name: orbit2,                      ver: "2.14.20",               family: sisyphus,     ignore: true } # alt fake
