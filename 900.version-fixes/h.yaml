@@ -1,6 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: handbrake,                   verpat: "[0-9]{4}.*",                               ignore: true } # trisquel
+- { name: hardinfo,                    ver: "0.6",                   family: sisyphus,     incorrect: true }
+- { name: hardinfo,                                                  family: sisyphus,     untrusted: true }
 - { name: hashcat,                     verpat: "3\\.[1-9][0-9]",                           ignore: true } # it uses X.Y.Z scheme
 - { name: "haskell:pandoc-citeproc",                                 ruleset: aur,         incorrect: true } # it's actually pandoc, not pandoc-cityproc
 - { name: haxe,                        verpat: "4\\..*",             family: freshcode,    ignore: true } # there's no 4.0.0
