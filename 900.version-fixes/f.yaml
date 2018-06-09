@@ -6,6 +6,7 @@
 - { name: fann,                        verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: fatrat,                      verlonger: 3,                 family: kaos,         ignore: true }
 - { name: fcron,                       ver: "3.3.0",                                       devel: true } # http://fcron.free.fr/
+- { name: fdm,                         verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: fdupes,                      verpat: "1\\.[0-9]{2}",                             outdated: true } # it has switched to 3 componennts (e.g. 1.51 -> 1.6.0 -> 1.6.1)
 - { name: fdupes,                      verpat: "[0-9]+",                                   ignore: true }
 - { name: fern-wifi-cracker,           ver: "222",                                         outdated: true } # that's an SVN rev, and GH repo as more commits
