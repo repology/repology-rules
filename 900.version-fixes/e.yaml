@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { category: "Graphical desktop/Enlightenment", verpat: "20[0-9]{6}.*", family: pclinuxos, ignore: true }
+- { name: eb,                          verpat: ".*20[0-9]{6}",                             ignore: true } # macports snapshot
 - { name: ebtables,                    verpat: "20[0-9]{2}.*",                             ignore: true } # LEDE year
 - { name: ecdsautils,                  verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: ecdsautils,                  ver: "0.4.0",                 ruleset: nix,         incorrect: true }
