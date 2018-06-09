@@ -6,6 +6,7 @@
 - { name: dbus,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: dbus-cpp,                    verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: dconf-editor,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: ddate,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: dee-qt,                      verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: deepin-sound-theme,          ver: "17.07.31",              ruleset: pardus,      ignore: true }
 - { name: deepin-utils,                                                                    noscheme: true }
