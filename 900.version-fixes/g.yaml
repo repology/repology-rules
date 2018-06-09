@@ -92,8 +92,8 @@
 - { name: gprolog,                     ver: "1.4.5",                 family: debuntu,      incorrect: true }
 - { name: gprolog,                                                   family: debuntu,      untrusted: true }
 - { name: gpsp-libretro,                                                                   noscheme: true }
-- { name: grive2,                      ver: "0.5.1",                 family: pclinuxos,    incorrect: true }
-- { name: grive2,                                                    family: pclinuxos,    untrusted: true }
+- { name: grive2,                      verpat: "0\\.5\\.1.*",        family: [pclinuxos,openwrt,freebsd], incorrect: true }
+- { name: grive2,                                                    family: [pclinuxos,openwrt,freebsd], untrusted: true }
 - { name: grub,                        ver: "2.03.0",                ruleset: manjaro,     incorrect: true } # 2.02rcX
 - { name: grub,                                                      ruleset: manjaro,     untrusted: true }
 - { name: grub-customizer,             ver: "5.0.7",                 family: debuntu,      incorrect: true } # mx and sparky, actually
