@@ -27,6 +27,7 @@
 - { name: amule,                       verpat: "[0-9]{5}",                                 ignore: true } # revision
 - { name: amule,                       verpat: "2\\.4\\.0.*",        family: [ mageia, debuntu ], incorrect: true } # unreleased
 - { name: amule,                       verlonger: 3,                 family: [ kaos ],     incorrect: true } # fake
+- { name: android-studio,              verpat: "([0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)([._].*)", setver: $1 } # drop meaningless build numbers
 - { name: android-tools,               verpat: "[0-9]{4,}.*",                              ignore: true } # fake
 - { name: anki,                        ver: "2.1.0",                 family: debuntu,      ignore: true } # fake
 - { name: asc,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]{3,}\\.[0-9]+",     devel: true } # http://terdon.asc-hq.org/asc/builds/

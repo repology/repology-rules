@@ -69,6 +69,7 @@
 - { setname: amule,                    name: amule-devel, ignore: true }
 - { setname: amule,                    name: amule-gui, addflavor: gui }
 - { setname: anacron2,                 name: anacron, verpat: "2\\.[4-9].*" } # different project (a fork?)
+- { setname: android-studio,           name: [android-studio-beta,android-studio-canary,android-studio-dummy,android-studio-preview], ignore: true } # these could be devel, but they do often fall behind, and due to viral devel property be safe and ignore them
 - { setname: android-tools,            name: adb, family: openbsd }
 - { setname: android-tools,            namepat: "android-tools-[^-]+", family: [freebsd,pkgsrc] }
 - { setname: android-tools,            namepat: android-platform-system-(core|extras), family: debuntu }
