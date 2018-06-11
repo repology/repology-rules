@@ -22,6 +22,12 @@
 - { name: ck,                          setname: ck-tcl, family: gentoo, category: dev-tcltk }
 - { name: [ck,concurrency-kit,libck],  setname: concurrencykit }
 
+- { name: clac, wwwpart: sourceforge, setname: clac-mborg }
+- { name: clac, ruleset: [pclinuxos], setname: clac-mborg }
+- { name: clac, ruleset: [sisupys,yacp], setname: clac-soveran }
+- { name: clac, wwwpart: soveran, setname: clac-soveran }
+- { name: clac, warning: "please classify me" }
+
 - { name: crawl, wwwpart: develz, setname: stone-soup }
 - { name: crawl, category: games, setname: stone-soup }
 
