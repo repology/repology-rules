@@ -15,3 +15,5 @@
 - { setname: wine-etersoft,            name: wine, family: sisyphus } # counterfeit
 - { setname: "python:pyxdg",           name: "python:xdg", verpat: "0\\..*" } # XXX: problem
 - { setname: s-nail,                   name: mailx, family: crux } # XXX: problem
+- { setname: gcompris-qt,              name: gcompris, verpat: "0\\..*" } # XXX: it may be that qt variant is successor of gtk one and they need to be merge+outdated rules; should investigate
+- { setname: gcompris,                 name: gcompris-qt, verpat: "1[0-9]0\\..*" }
