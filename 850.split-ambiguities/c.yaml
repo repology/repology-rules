@@ -28,6 +28,14 @@
 - { name: clac, wwwpart: soveran, setname: clac-soveran }
 - { name: clac, warning: "please classify me" }
 
+# this one is messed up:
+# - http://cpulimit.sourceforge.net/ https://sourceforge.net/projects/cpulimit/files/cpulimit/cpulimit/ (1.0, 1.1 - year 2006)
+#   moved to https://github.com/opsengine/cpulimit (0.1, 0.2 - year 2015)
+# - http://limitcpu.sourceforge.net/download.php https://sourceforge.net/projects/limitcpu/files/limitcpu/ - 1.2+ - year 2017
+- { name: cpulimit, verlt: "1.0", setname: cpulimit0 }
+- { name: cpulimit, verle: "1.1", setname: cpulimit1 }
+- { name: cpulimit, setname: limitcpu }
+
 - { name: crawl, wwwpart: develz, setname: stone-soup }
 - { name: crawl, category: games, setname: stone-soup }
 
