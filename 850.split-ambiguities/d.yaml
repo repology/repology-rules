@@ -6,6 +6,11 @@
 
 - { name: debugedit, wwwpart: [rpm.org, rpm5.org], setname: rpm } # part of rpm, apart from FreeBSD port which is a separate project
 
+- { name: dex, wwwpart: tihirvon, setname: dex-editor }
+- { name: dex, wwwpart: jceb, setname: dex-autostart }
+- { name: dex, ruleset: [sisyphus,aosc], setname: dex-autostart }
+- { name: dex, wwwpart: coreos, setname: dex-coreos }
+
 - { name: diaspora, verpat: "1\\.[0-9]+\\.[0-9]+", setname: diaspora-game }
 - { name: diaspora, setname: diaspora-social }
 
