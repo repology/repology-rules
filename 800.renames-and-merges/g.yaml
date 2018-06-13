@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: galactrum,                name: galactrum-qt, addflavor: qt }
 - { setname: galaxy-forces-v2,         name: ["galaxy forces v2", galaxy-forces, galaxyv2] }
 - { setname: gambas3-gb-modules,       namepat: "gambas3-gb-.*", family: arch }
 - { setname: gambit-c,                 name: gambc }
@@ -67,6 +68,7 @@
 - { setname: gimp-docs,                namepat: "gimp-docs-.*" }
 - { setname: gimp-help,                namepat: ".*gimp-help.*" }
 - { setname: gimp-resynthesizer,       name: resynthesizer }
+- { setname: gimp-lensfun,             name: gimp-gimplensfun } # XXX: problem
 - { setname: girara,                   name: libgirara }
 - { setname: git,                      name: [git-base,git-docs,git-gitk,git-contrib,git-lite,git-gui,git-bashcompletion,gitweb,git-minimal,git-with-svn], addflavor: true }
 - { setname: git-review,               name: "python:git-review" }
@@ -190,6 +192,7 @@
 - { setname: godot,                    name: [godot-pulse,godot-tools,godot-mono,godot-engine], addflavor: true }
 - { setname: godot,                    name: godot2 }
 - { setname: godot,                    name: godot2-tools, addflavor: godot-tools }
+- { setname: godot,                    name: godot-rc, ignore: true }
 - { setname: goffice,                  name: goffice-light }
 - { setname: goffice,                  namepat: "goffice[0-9._-]+" }
 - { setname: goldencheetah,            name: golden-cheetah }

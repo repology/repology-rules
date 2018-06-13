@@ -38,6 +38,7 @@
 - { setname: tevent,                   name: tevent-man, addflavor: man }
 - { setname: tex-$1,                   namepat: "tex-(.*)-doc", addflavor: doc }
 - { setname: texlive-documentation,    namepat: "texlive-documentation-.*", family: gentoo }
+- { setname: texstudio,                name: [texstudio-dark,texstudio-lcd,texstudio-phonon,texstudio-qt4,texstudio-qt5], addflavor: true }
 - { setname: the-silver-searcher,      name: [silver-searcher,silversearcher-ag,thesilversearcher] }
 - { setname: thermald,                 name: thermal-daemon }
 - { setname: thunarx-python,           name: thunarx-python-0.3 }
@@ -83,6 +84,7 @@
 - { setname: tome,                     name: tome4-beta, ignore: true }
 - { setname: tomee,                    name: [tomee-jax-rs,tomee-plume,tomee-plus,tomee-webprofile] }
 - { setname: toot,                     name: "python:toot" }
+- { setname: topgrade,                 name: "rust:topgrade" }
 - { setname: tor,                      name: [tor-devel,tor-expert] }
 - { setname: tor,                      name: tor-unstable, devel: true }
 - { setname: totem-pl-parser,          name: libtotem-pl-parser }
