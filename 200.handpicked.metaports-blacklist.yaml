@@ -53,3 +53,7 @@
 - { remove: true,   name: [xorg-75dpi-fonts,xorg-fonts-75dpi], ruleset: [ freebsd, ravenports ] }
 - { remove: true,   name: [xorg-cyrillic-fonts,xorg-fonts-cyrillic], ruleset: [ freebsd, ravenports ] }
 - { remove: true,   name: [xorg-type1-fonts,xorg-fonts-type1], ruleset: [ freebsd, ravenports ] }
+
+# openpkg uses module packs versioned after corresponding language
+- { ruleset: openpkg, namepat: "perl-.*",         remove: true }
+- { ruleset: openpkg, namepat: "python-.*",       remove: true }

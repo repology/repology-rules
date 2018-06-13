@@ -10,6 +10,8 @@
 - { name: sblim-sfcc,                  ver: "2.2.9",                 family: nix,          incorrect: true } # prerelease
 - { name: sblim-sfcc,                                                family: nix,          untrusted: true }
 - { name: scantailor,                  verpat: "2016.*",                                   ignore: true }
+- { name: sccs,                        ver: "5.0.8",                                       incorrect: true } # XXX: problem, incorrect scheme
+- { name: sccs,                        verpat: "[0-9]{6}",                                 incorrect: true }
 - { name: schismtracker,               ver: "20150911005204",                              ignore: true }
 - { name: scite,                       verpat: "[0-9]{3}",                                 incorrect: true } # pclinuxos; it's x.y.z
 - { name: scrot,                       verpat: "0\\.8[.+-].*",                             ignore: true } # debian fakes

@@ -7,6 +7,7 @@
 - { name: ecdsautils,                  ver: "0.4.0",                 ruleset: nix,         incorrect: true }
 - { name: ecdsautils,                                                ruleset: nix,         untrusted: true }
 - { namepat: "eclipse.*",              verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\-20[0-9]{10}",   ignore: true } # scoop
+- { name: ecartis,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.20[0-9]{6}",    incorrect: true } # X.Y.snapZ
 - { name: ecm-tools,                   ver: "1.03",                                        incorrect: true } # it's 1.0.3
 - { name: egoboo,                      ver: "2.81",                                        setver: "2.8.1" }
 - { name: einstein,                    vergt: "2.0",                                       successor: true } # https://github.com/lksj/einstein-puzzle

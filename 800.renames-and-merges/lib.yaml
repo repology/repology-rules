@@ -92,6 +92,7 @@
 - { setname: libnl,                    name: libnl-doc }
 - { setname: libnl,                    namepat: "libnl[0-9._-]+" }
 - { setname: libnsl,                   name: libnsl2 }
+- { setname: libodbc++,                name: libodbcplus }
 - { setname: libodfgen,                namepat: "libodfgen[0-9._-]+" }
 - { setname: liboggz,                  name: oggz }
 - { setname: liborcus,                 name: [orcus,orcus0.12] }
@@ -100,7 +101,7 @@
 - { setname: libotr,                   namepat: "libotr[0-9]+" }
 - { setname: libp11,                   name: libp11-openssl1.1, addflavor: true }
 - { setname: libpaper,                 name: libpaper1 }
-- { setname: libpng,                   name: [png,libpng-apng] }
+- { setname: libpng,                   name: [png,libpng-apng,png14] }
 - { setname: libpng,                   namepat: "libpng(?:-legacy)?[0-9.-]*" }
 - { setname: libpqxx,                  name: postgresql-libpqxx }
 - { setname: libqtxdg,                 name: libqt5xdg, addflavor: qt5 }
@@ -112,11 +113,12 @@
 - { setname: librfm,                   name: librfm5 }
 - { setname: librsvg,                  name: [librsvg-stable,librsvg2] }
 - { setname: libsdl2pp,                name: sdl2pp }
+- { setname: libshout,                 name: libshout2 }
 - { setname: libsoup,                  name: [libsoup-gnome,libsoup-reference], addflavor: true }
 - { setname: libsoup,                  namepat: "libsoup[0-9._-]+" }
 - { setname: libsigc++,                name: libsigc++-docs, addflavor: docs }
 - { setname: libsigc++,                name: libsigc++-legacy12 }
-- { setname: libsigc++,                namepat: "libsigc(\\+\\+|xx|pp)[0-9.-]+" }
+- { setname: libsigc++,                namepat: "libsigc(\\+\\+|xx|pp)[0-9.-]*" }
 - { setname: libsignon-glib,           name: signon-glib }
 - { setname: libsodium,                name: [sodium,libsodium-static] }
 - { setname: libspatialite,            name: spatialite }

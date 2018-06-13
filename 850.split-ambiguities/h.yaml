@@ -7,7 +7,11 @@
 - { name: hermes,                      setname: hermes-auth, wwwpart: ralt/hermes }
 # otherwise, (dead?) pixel format convertsion library
 
+- { name: hdf,                         verpat: "5\\.([0-9]+\\.[0-9]+\\.[0-9]+)", setver: $1, setname: hdf5 } # XXX: problem
+
 - { name: hexer,                       wwwpart: hobu, setname: hexer-hobu }
+
+- { name: htmlmin,                     wwwpart: html-minifier, setname: html-minifier } # XXX: problem
 
 - { name: hugo,                        setname: hugo-interactive-fiction, verpat: "3\\..*" }
 - { name: hugo,                        setname: hugo-emulator, verpat: "2\\..*" }

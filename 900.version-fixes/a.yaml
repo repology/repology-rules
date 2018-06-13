@@ -43,10 +43,12 @@
 - { name: apr,                         verpat: "2\\..*",                                   devel: true }
 - { name: aptly,                       verpat: "2010.*",                                   incorrect: true }
 - { name: apvlv,                       verpat: ".*pl.*",             ruleset: openbsd,     incorrect: true }
+- { name: aqmoney,                     verpat: "1\\..*",                                   devel: true }
 - { name: arduino,                     ver: "0021",                                        ignore: true } # EPEL 6
 - { name: argtable,                    verpat: "[0-9]{2}",                                 setver: 2.$0 } # artifacts from "argtable2 XX" vs. "argtable 2.XX"
 - { name: arptables,                   verpat: "20[0-9]{2}",                               ignore: true } # LEDE year
 - { name: arpwatch,                    ver: "2.1.15",                                      setver: "2.1a15" }
+- { name: axrtools,                    verlonger: 3,                                       incorrect: true }
 - { name: arora,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: arx-libertatis,              ver: "1.1.2pl1",                                    setver: "1.1.2" } # 3 LoC CMake fix, not worthy a new version
 - { name: asdf,                        verpat: "20[0-9]{6}.*",                             ignore: true }

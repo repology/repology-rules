@@ -1,5 +1,7 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: sasl, wwwpart: cyrus, setname: cyrus-sasl }
+
 - { name: scala, ruleset: yacp, setname: scala-ccp4 }
 
 - { name: scamp, wwwpart: sourceforge.net/projects/scamp, setname: scamp-clamav }
@@ -39,6 +41,8 @@
 - { name: sokoban, family: freebsd, setname: sokoban-ncurses }
 - { name: sokoban, wwwpart: sourceforge.net/projects/sokoban, setname: sokoban-tgfcoder }
 - { name: sokoban, warning: "please classify me" }
+
+- { name: sphinx, wwwpart: cmusphinx, setname: cmusphinx }
 
 - { name: ssr, wwwpart: spatialaudio, setname: soundscaperenderer }
 - { name: ssr, wwwpart: maarten, setname: simplescreenrecorder }

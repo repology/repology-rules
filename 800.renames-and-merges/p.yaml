@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: p11-kit,                  name: p11kit }
 - { setname: pachi,                    name: martian }
 - { setname: pacman-arena,             name: pacmanarena }
 - { setname: pcmanfm,                  name: [pcmanfm-gtk3,pcmanfm-gtk3-root], addflavor: true }
@@ -18,6 +19,7 @@
 - { setname: patch,                    name: gpatch }
 - { setname: payara,                   namepat: "payara[0-9]+" }
 - { setname: payara,                   name: payara5-micro, addflavor: micro }
+- { setname: pcg-c,                    name: [pcg,libpcg] }
 - { setname: pcmanx,                   name: [pcmanx-gtk2, pcmanx-gtk3], addflavor: true }
 - { setname: pcre++,                   name: [libpcre++,pcrexx] }
 - { setname: pcre,                     name: [pcre-static,pcre-cpp] }

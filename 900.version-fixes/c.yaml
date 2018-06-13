@@ -33,6 +33,7 @@
 - { name: clang,                       verpat: ".*r.*",                                    devel: true }
 - { name: cld2,                        ver: "20160820",                                    ignore: true } # aosc fake (there were no commits to cld2 since 2015)
 - { name: clementine-player,           verlonger: 3,                 family: kaos,         ignore: true }
+- { name: clex,                        verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1.patch$2 }
 - { name: clisp,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: clisp,                       verpat: "2\\.49[.-][0-9]{2}",                       ignore: true }
 - { name: clonekeen,                   verpat: "0\\.(.*)",                                 setver: "$1" }
@@ -54,6 +55,7 @@
 - { name: cons,                        ver: "2.3.0.1",                                     ignore: true } # debian uses this to revert to 2.2.0. http://metadata.ftp-master.debian.org/changelogs/main/c/cons/cons_2.3.0.1+2.2.0-2_changelog "The odd version string is to avoid using epochs" <- that's what epochs are for, dammit
 - { name: containerd,                  verpat: "[0-9a-f]{7}",                              ignore: true } # crux garbage
 - { name: coolkey,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+_[0-9]+",          incorrect: true } # AUR using fedora package revision
+- { name: courier-unicode,             verpat: ".*\\.20[0-9]{6}",                          devel: true } # http://www.courier-mta.org/download.html#unicode
 - { name: coursier,                    ver: "1.0.2",                                       outdated: true } # Known bad version https://github.com/coursier/coursier/commit/2cb42444cdbd6ad2a50f963378ff27259a4fb1a7
 - { name: cowsay,                      ver: "3.04.01",                                     ignore: true }
 - { name: cpufreqd,                    ver: "2.4.3",                 family: sisyphus,     ignore: true } # fake
@@ -65,10 +67,12 @@
 - { name: crda,                        ver: "3.18_2016.02.08",                             ignore: true }
 - { name: crimson,                     ver: "2014.10",                                     ignore: true }
 - { name: critterding,                 verpat: "1\\.0(beta.*)",                            setver: "$1" }
+- { name: cronolog,                    ver: "1.7.0",                 ruleset: openpkg,     incorrect: true } # 1.7.0-beta
 - { name: crossguid,                   verpat: "20[0-9]{6}",                               ignore: true }
 - { name: crossguid,                   verpat: "201[56].*",                                outdated: true } # there's 0.2.2 from Aug 2017
 - { name: crossguid,                   ver: "1.0.0",                 ruleset: openindiana, incorrect: true }
 - { name: cryptcat,                    ver: "20031202",                                    ignore: true }
+- { name: cup,                         verpat: "11.*",                                     incorrect: true } # 0.11b
 - { name: cura,                        verpat: "1[45].*",                                  outdated: true }
 - { name: cutegram,                    ver: "2.99",                                        incorrect: true }
 - { name: cvs,                         ver: "1.20120905",                                  ignore: true }
