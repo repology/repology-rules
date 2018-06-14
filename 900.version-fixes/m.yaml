@@ -2,7 +2,7 @@
 
 - { name: m2vrequantiser,              ver: "20030929",                                    outdated: true }
 - { name: macvim,                      verpat: "([0-9]+\\.[0-9]+)-([0-9]+)",               setver: "$1.snapshot$2" } # https://github.com/macvim-dev/macvim/releases
-- { name: mame,                        ver: "0153s",                                       ignore: true } # pclinuxos
+- { name: mame,                        ver: "0153s",                                       incorrect: true } # pclinuxos
 - { name: magic,                       verpat: "8\\.2\\..*",                               devel: true }
 - { name: magic,                       verpat: "[0-9]\\.[0-9]\\.[0-9]{3}",                 ignore: false } # unignore some good -devel's
 - { name: make,                        verpat: ".*pre.*",                                  ignore: true }
@@ -18,16 +18,16 @@
 - { name: mesa,                        verpat: "[0-9]+\\.[0-9]+\\.0",                      devel: true } # .0 are devel releases, example: https://www.mesa3d.org/relnotes/17.2.0.html
 - { name: midori,                      ver: "0.5.12",                family: aosc,         incorrect: true } # not released
 - { name: midori,                                                    family: aosc,         untrusted: true }
-- { name: minio,                       verpat: "[0-9]+",                                   ignore: true } # should use separators
+- { name: minio,                       verpat: "[0-9]+",                                   incorrect: true } # should use separators
 - { name: mimikatz,                    verpat: ".*20[0-9]{6}",                             ignore: true } # BlackArch snap
-- { name: minimodem,                   verpat: ".*-[0-9]+",                                ignore: true } # -1 is not part of the version
+- { name: minimodem,                   verpat: ".*-[0-9]+",                                incorrect: true } # -1 is not part of the version
 - { name: minimodem,                   ver: "0.24.1",                family: gentoo,       ignore: true } # actually, pentoo. it's normalized 0.24-1 which is incorrect, see prev. rule
 - { name: mixxx,                       verpat: "2\\.1\\.[0-9]+",     ruleset: [aosc,fedora,kaos], incorrect: true } # actually unitedrpms, but knowing fedora I won't trust it whole
 - { name: mixxx,                                                     ruleset: [aosc,fedora,kaos], untrusted: true }
 - { name: mkgmap,                      verpat: "0\\.0\\.0svn([0-9]{4,})",                  setver: "r$1" }
 - { name: mkgmap,                      verpat: "[0-9]{4,}",                                setver: "r$0" }
 - { name: mkgmap-splitter,             verpat: "0\\.0\\.0svn([0-9]{3,})",                  setver: "r$1" }
-- { name: moc,                         ver: ["2.6","2.6.0"],         family: [sisyphus,fedora], ignore: true } # 2.6alpha3
+- { name: moc,                         ver: ["2.6","2.6.0"],         family: [sisyphus,fedora], incorrect: true } # 2.6alpha3
 - { name: moc,                         verpat: "2\\.6\\.0r.*",                             ignore: true }
 - { name: moc,                         verpat: "(2\\.6)\\.0(a.*)",                         setver: "$1$2" } # there's no third numeric component for alpha
 - { name: modemmanager,                ver: "1.7.990",                                     setver: "1.8-rc1" }
