@@ -14,6 +14,7 @@
 - { name: xchm,                        verpat: "1\\.24.*",           ruleset: macports,    incorrect: true }
 - { name: xclip,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: xdg-utils,                   verpat: "[0-9]+",                                   ignore: true }
+- { name: xdg-user-dirs-gtk,           ver: "0.18",                  ruleset: gobolinux,   incorrect: true }
 - { name: xdot,                        ver: "20121124",                                    ignore: true }
 - { name: xdotool,                     ver: "20110530.1",                                  ignore: true }
 - { name: xhyve,                       verpat: "20[0-9]{6}",                               ignore: true } # macports
