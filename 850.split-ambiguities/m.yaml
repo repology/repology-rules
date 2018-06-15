@@ -42,4 +42,8 @@
 - { name: mpc, warning: "please classify me" } # nothing should be left here
 - { name: musicpc, setname: mpc } # still use more canonical name
 
+- { name: mu, wwwpart: [ntoll,mu-editor], setname: mu-editor }
+- { name: mu, wwwpart: kreogist, setname: mu-music-manager }
+# otherwise, maildir utils + emacs email client (mu4e)
+
 - { name: muse, setname: emacs-muse, family: gentoo, category: app-emacs }
