@@ -46,6 +46,8 @@
 - { name: libnss-mysql,                ver: "1.6",                   family: sisyphus,     incorrect: true }
 - { name: libnss-mysql,                                              family: sisyphus,     untrusted: true }
 - { name: libogg,                      ver: "1.3.5",                 family: rudix,        ignore: true }
+- { name: libosmo-dsp,                 ver: "0.3.8",                 ruleset: opensuse,    incorrect: true } # http://cgit.osmocom.org/libosmo-dsp/
+- { name: libosmo-dsp,                 verpat: "20[0-9]{6}",                               ignore: true }
 - { name: libp11,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: libpaper,                    ver: "1.1.24",                                      setver: "$0nmu0" }
 - { name: libpaper,                    verpat: "(1\\.1\\.24)[^0-9]+([0-9]+)",              setver: "$1nmu$2" } # they all take from debian and there's num suffix
