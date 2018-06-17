@@ -3,3 +3,11 @@
 - { setname: "rust:cargo-asm",         name: cargo-asm }
 - { setname: "rust:simple-http-server", name: simple-http-server }
 - { setname: "rust:xsv",               name: xsv-rs }
+
+- namepat: |
+    (rust:(?:
+    quote|
+    synstructure|
+    syn
+    ))[0-9._-]+
+  setname: "$1"
