@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: u-boot,                      verpat: "20[0-9]{6}.*",                             incorrect: true } # it's XXXX.YY; XXX: problem
 - { name: u-boot-tools,                verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: u-boot-tools,                verpat: "201[23]{4}.*",                             outdated: true }
 - { name: ufoai,                       ver: "2.5.0+20150216",                              ignore: true } # homebrew
