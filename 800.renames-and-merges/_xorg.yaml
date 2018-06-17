@@ -154,7 +154,6 @@
 # libs
 - namepat: |
     (?:xorg-|x11-)+(?:lib)?(
-    dmx|
     evdev|
     fontenc|
     fs|
@@ -198,6 +197,7 @@
     xxf86vm
     )
   setname: lib$1
+- { name: xorg-libdmx, setname: libdmx } # separate rule to not mess up xorg-dmx
 - namepat: |
     (?:xorg-|x11-)+(?:lib)?(
     xcb-util|
