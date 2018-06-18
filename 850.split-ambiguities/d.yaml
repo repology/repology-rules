@@ -10,8 +10,10 @@
 
 - { name: dex, wwwpart: tihirvon, setname: dex-editor }
 - { name: dex, wwwpart: jceb, setname: dex-autostart }
+- { name: dex, category: x11-misc, setname: dex-autostart } # gentoo
 - { name: dex, ruleset: [sisyphus,aosc], setname: dex-autostart }
 - { name: dex, wwwpart: coreos, setname: dex-coreos }
+- { name: dex, warning: "please classify me" }
 
 - { name: diaspora, verpat: "1\\.[0-9]+\\.[0-9]+", setname: diaspora-game }
 - { name: diaspora, setname: diaspora-social }
