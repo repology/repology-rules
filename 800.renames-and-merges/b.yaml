@@ -18,6 +18,8 @@
 - { setname: bash,                     name: bash-devel, ignore: true }
 - { setname: bash,                     name: bash-devel-static, ignore: true, addflavor: bash-static }
 - { setname: bash,                     namepat: "bash[0-9]+" }
+- { setname: batman-adv,               name: [batman-adv-dkms,batman-adv-legacy-dkms], addflavor: dkms }
+- { setname: batman-adv,               name: batman-adv-optimized, addflavor: true }
 - { setname: battery-monitor,          name: battery-monitor-devel, ignore: true }
 - { setname: bats,                     name: bash-bats }
 - { setname: bazel,                    name: bazel-clang38, addflavor: true }
