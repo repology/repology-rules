@@ -54,6 +54,8 @@
 - { setname: opensp,                   name: opensp-doc, addflavor: doc }
 - { setname: openssh,                  name: openssh-portable }
 - { setname: openssh,                  name: ssh-copy-id, addflavor: ssh-copy-id }
+- { setname: ossp-al,                  name: al, ruleset: openpkg }
+- { setname: ossp-cfg,                 name: cfg, ruleset: openpkg }
 - { setname: openttd-$0,               namepat: "open(?:gfx|sfx)" }
 - { setname: openttd-$0,               namepat: openmsx, wwwpart: openttd }
 - { setname: openttd-open$1,           namepat: "openttd[-_](gfx|sfx|msx)" }
