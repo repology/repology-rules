@@ -39,6 +39,7 @@
 - { setname: "python:ipyparallel",     name: [ipyparallel,ipython-ipyparallel,ipython2-ipyparallel] }
 - { setname: "python:ipython_genutils", name: [ipython-genutils,ipython_genutils] }
 - { setname: "python:ipywidgets",      name: ["python:jupyter_ipywidgets","python:jupyter_ipywidgets-doc",ipywidgets,jupyter-ipywidgets] }
+- { setname: "python:irc",             name: "python:irclib" }
 - { setname: "python:jade-application-kit", name: jade-application-kit }
 - { setname: "python:kiwisolver",      name: kiwisolver }
 - { setname: "python:lhafile",         name: "python:python-lhafile" }
@@ -61,6 +62,7 @@
 - { setname: "python:numpy",           name: "python:numpy-openblas", addflavor: openblas }
 - { setname: "python:numpy",           name: ["python:numpy-doc","python:numpy-documentation"], addflavor: docs }
 - { setname: "python:numpy",           name: [numpy-legacy,numpy-legacy3,numpy3] }
+- { setname: "python:path.py",         name: ["path.py","python:path","python:path-py","python:pathpy"] } # XXX: python:path may be too broad
 - { setname: "python:pcapy",           name: pcapy }
 - { setname: "python:pep8",            name: pep8 }
 - { setname: "python:pep8-naming",     name: [flake-pep8-naming,pep8-naming,"python:flake8-pep8-naming"] }

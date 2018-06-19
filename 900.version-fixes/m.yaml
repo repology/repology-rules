@@ -50,6 +50,8 @@
 - { name: mtree,                                                     family: ravenports,   ignore: true } # fake
 - { name: mumble,                                                    family: kaos,         ignore: true } # snapshot with random version
 - { name: multimon-ng,                 verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: mumble,                      ver: "1.2.89",                                      incorrect: true }
+- { name: mumble,                      verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: munin,                       verpat: "[0-9]+\\.999.*",                           devel: true }
 - { name: mupen64plus-libretro,                                                            noscheme: true }
 - { name: muparser,                    verpat: "200\\..*",                                 incorrect: true } # pkgsrc admitted nonsence

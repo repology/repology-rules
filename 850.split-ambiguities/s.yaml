@@ -16,10 +16,6 @@
 - { name: sdb, wwwpart: radare, setname: sdb-hashtable }
 - { name: sdb, warning: "please classify me" }
 
-- { name: sdl, verge: "2", setname: sdl2 }
-
-- { name: sdl_ttf, ruleset: kaos, setname: sdl2_ttf } # XXX: problem
-
 - { name: shinonome, wwwpart: openlab, setname: "fonts:shinonome" }
 
 - { name: shutter, ruleset: maemo, setname: shutter-maemo }
@@ -86,3 +82,5 @@
 - { name: swift,                       setname: swift-im, family: [ sisyphus, fedora, pkgsrc ] }
 - { name: swift,                       setname: openstack-swift, family: [ debuntu, gentoo ] }
 - { name: swift, warning: "please classify me" }
+
+- { name: synapse, family: exherbo, setname: maxrix-synapse }

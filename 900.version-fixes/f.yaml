@@ -46,7 +46,10 @@
 - { name: "fonts:mikachan",            ver: "9.1.2006.08.09",                              ignore: true } # openSUSE garbage
 - { name: "fonts:oldstandard",         ver: "2.2really",                                   ignore: true } # debian garbage
 - { name: "fonts:quattrocento",        ver: "2.000",                 family: arch,         ignore: true } # webpage says it's 1.1
+- { name: "fonts:raleway",                                                                 noscheme: true }
 - { name: "fonts:ubuntu",              ver: "1.0",                   family: pclinuxos,    ignore: true } # no such version on the website
+- { name: fonttosfnt,                  ver: "1.0.5",                 family: opensuse,     incorrect: true }
+- { name: fonttosfnt,                                                family: opensuse,     untrusted: true }
 - { name: foomatic,                    verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: foomatic-db-engine,          verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: four-in-a-row,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

@@ -14,7 +14,8 @@
 
 - { name: gonvert, ruleset: maemo, setname: gonvert-maemo }
 
-- { name: gom,                         category: [sound,media-sound,universe/sound], setname: gom-mixer }
+- { name: gom, category: [sound,media-sound,universe/sound], setname: gom-mixer }
+- { name: gom, wwwpart: installiert, setname: gom-mixer }
 
 - { name: gomoku, family: [freebsd,macports,openbsd], setname: gnustep-gomoku } # gnustep; may be not ambiguity (yet), but too generic name for sure
 

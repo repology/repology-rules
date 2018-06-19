@@ -29,6 +29,8 @@
 - { name: shotcut,                     verpat: "[0-9]{6,}.*",                              incorrect: true } # aur; it's not 180102, but 18.01
 - { name: shotgun-debugger,            wwwpart: msarnoff,                                  successor: true }
 - { name: signon-ui,                   verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
+- { name: signon-ui,                   verpat: ".*20[0-9]{6}",                             ignore: true }
+- { name: signon-ui,                   ver: "0.17.2",                                      incorrect: true } # fake
 - { name: simage,                      ver: "1.7.1",                 family: debuntu,      incorrect: true }
 - { name: simh,                        verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: simple-scan,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -75,6 +77,7 @@
 - { name: supertransball2,             verpat: "2\\.[0-9]+\\.[0-9]+",                      incorrect: true } # 2 is port of the project name, not version
 - { name: sutils,                      verpat: "[0-9][0-9]",                               ignore: true } # manjaro, aur snapshots
 - { name: svn2git,                     verpat: "20[0-9]{6}.*",                             ignore: true } # macports
+- { name: svox,                                                                            noscheme: true }
 - { name: swell-foop,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: swi-prolog,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed even/odd scheme; http://www.swi-prolog.org/Download.html
 - { name: syncthing-gtk,               verpat: "0\\.14\\..*",                              incorrect: true } # sisyphus fake (uses syncthing version?)

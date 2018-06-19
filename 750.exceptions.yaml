@@ -17,3 +17,7 @@
 - { setname: s-nail,                   name: mailx, family: crux } # XXX: problem
 - { setname: gcompris-qt,              name: gcompris, verpat: "0\\..*" } # XXX: it may be that qt variant is successor of gtk one and they need to be merge+outdated rules; should investigate
 - { setname: gcompris,                 name: gcompris-qt, verpat: "1[0-9]\\..*" }
+- { setname: sdl2,                     name: sdl, verge: "2" }
+- { setname: sdl2_ttf,                 name: sdl_ttf, ruleset: [exherbo,kaos] }
+- { setname: sdl2_net,                 name: sdl_net, verge: "2" }
+- { setname: sdl2_mixer,               name: sdl_mixer, verge: "2" }
