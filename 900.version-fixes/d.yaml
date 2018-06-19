@@ -47,4 +47,6 @@
 - { name: dsniff,                                                    family: [sisyphus],   untrusted: true }
 - { name: dtc,                         ver: "20130410",                                    outdated: true }
 - { name: dtc,                         verpat: "20[0-9]{6}",                               ignore: true }
+- { name: dwb,                         verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: dwb,                         ver: "2015.10.09",                                  incorrect: true } # https://bitbucket.org/portix/dwb/downloads/
 - { name: dzen,                        verpat: "[0-9]{10}",                                ignore: true }
