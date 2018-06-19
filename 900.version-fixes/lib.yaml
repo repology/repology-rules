@@ -37,12 +37,12 @@
 - { name: libimobiledevice,            verlonger: 3,                 family: kaos,         ignore: true } # fake
 - { name: libjpeg-turbo,               verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: libkvkontakte,               verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
-- { name: libmediawiki,                verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
-- { name: libmspack,                   verge: "1.5",                                       incorrect: true } # cabextract versions instead of libmspack ones
-- { name: libmspack,                   verpat: "([0-9.]+)[_~-]?alpha",                     setver: $1 }
 - { name: liblastfm,                   verlonger: 3,                                       incorrect: true } # freebsd garbage
 - { name: liblastfm,                   verpat: "1\\.1\\.0.*",        family: arch,         incorrect: true } # antergos
 - { name: liblqr,                      verpat: "1-.*",                                     ignore: true } # "1" is not part of the version
+- { name: libmediawiki,                verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: libmspack,                   verge: "1.5",                                       incorrect: true } # cabextract versions instead of libmspack ones
+- { name: libmspack,                   verpat: "([0-9.]+)[_~-]?alpha",                     setver: $1 }
 - { name: libnss-mysql,                ver: "1.6",                   family: sisyphus,     incorrect: true }
 - { name: libnss-mysql,                                              family: sisyphus,     untrusted: true }
 - { name: libogg,                      ver: "1.3.5",                 family: rudix,        ignore: true }
