@@ -24,7 +24,7 @@
 - { setname: "python:$1",              namepat: "py[23]?-(.*)", family: alpine }
 - { setname: "python:$1",              namepat: "py[0-9]*-(.*)", family: macports }
 - { setname: "python:$1",              namepat: "python[23]?-(.*)", family: kaos }
-- { setname: "python:$0",              category: dev-python, family: [gentoo,haikuports] }
+- { setname: "python:$0",              category: dev-python, family: [gentoo,exherbo,haikuports] }
 
 # turn python modules into such
 - name:

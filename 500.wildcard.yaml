@@ -6,21 +6,21 @@
 
 # Apache
 - { setname: "apmod:$1", noflag: not_apache, namepat: "ap[0-9]+-(?:mod_)?(.*?)", ruleset: [freebsd,openbsd,pkgsrc] }
-- { setname: "apmod:$1", noflag: not_apache, namepat: "mod_(.*)", category: www-apache, ruleset: gentoo }
+- { setname: "apmod:$1", noflag: not_apache, namepat: "mod_(.*)", category: www-apache, ruleset: [ gentoo, exherbo ] }
 - { setname: "apmod:$1", noflag: not_apache, namepat: "mod-(.*)", ruleset: debuntu }
 - { setname: "apmod:$1", noflag: not_apache, namepat: "mod_(.*)", ruleset: [arch,centos,fedora,freebsd,gobolinux,macports,openindiana,rosa,sisyphus,slackbuilds] }
 - { setname: "apmod:$1", noflag: not_apache, namepat: "(?:lib)?apache2?-mod[_-](.*)" }
 
 # Cursors
 - { setname: "cursors:$1", noflag: not_cursors, namepat: "(.*)-cursor-theme", ruleset: [ debuntu ] }
-- { setname: "cursors:$1", noflag: not_cursors, namepat: "(.*)-xcursors", ruleset: [ gentoo ] }
+- { setname: "cursors:$1", noflag: not_cursors, namepat: "(.*)-xcursors", ruleset: [ gentoo, exherbo ] }
 - { setname: "cursors:$1", noflag: not_cursors, namepat: "cursor-(.*)", ruleset: [ freebsd ] }
 
 # Deepin
 - { setname: "deepin-$1", noflag: not_deepin, namepat: "(?:deepin|dde)-(.*)" }
 
 # Erlang
-- { setname: "erlang:$0", noflag: not_arlang, category: dev-erlang, ruleset: gentoo }
+- { setname: "erlang:$0", noflag: not_arlang, category: dev-erlang, ruleset: [ gentoo, exherbo ] }
 - { setname: "erlang:$1", noflag: not_arlang, namepat: "erlang-(.*)" }
 
 # Fortunes
@@ -34,7 +34,7 @@
 
 # Gnustep
 - { setname: "gnustep-$1", noflag: not_gnustep, namepat: "([a-z]+)\\.app" }
-- { setname: "gnustep-$0", noflag: not_gnustep, family: gentoo, category: gnustep-apps }
+- { setname: "gnustep-$0", noflag: not_gnustep, family: [ gentoo, exherbo ], category: gnustep-apps }
 - { setname: "gnustep-$0", noflag: not_gnustep, family: openbsd, category: x11/gnustep }
 
 # Go
@@ -53,7 +53,7 @@
 - { setname: "haskell:$1", noflag: not_haskell, namepat: "haskell-(.*)", family: [arch,debuntu,gobolinux,slackbuilds] }
 - { setname: "haskell:$1", noflag: not_haskell, namepat: "hs-(.*)", family: [freebsd,macports,openbsd,pkgsrc] }
 - { setname: "haskell:$1", noflag: not_haskell, namepat: "ghc-(.*)", family: [fedora,guix,opensuse,rosa] }
-- { setname: "haskell:$0", noflag: not_haskell, category: dev-haskell, family: gentoo }
+- { setname: "haskell:$0", noflag: not_haskell, category: dev-haskell, family: [ gentoo, exherbo ] }
 - { setname: "haskell:$1", noflag: not_haskell, namepat: "ghc[0-9.]+-(.*)", family: sisyphus }
 - { setname: "haskell:$0", noflag: not_haskell, category: "haskellPackages", ruleset: [ nix ] }
 
@@ -77,12 +77,12 @@
 - { setname: "perl:$1", noflag: not_perl, namepat: "p5.[0-9]+-(.*)", ruleset: macports }
 - { setname: "perl:$1", noflag: not_perl, namepat: "lib(.*)-perl", ruleset: debuntu }
 - { setname: "perl:$1", noflag: not_perl, namepat: "perl-(.*)", ruleset: [alpine,aosc,arch,centos,fedora,gobolinux,guix,kaos,mageia,msys2,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds] }
-- { setname: "perl:$0", noflag: not_perl, category: dev-perl, ruleset: [gentoo,haikuports] }
-- { setname: "perl:$0", noflag: not_perl, category: perl-core, ruleset: gentoo }
+- { setname: "perl:$0", noflag: not_perl, category: dev-perl, ruleset: [gentoo,exherbo,haikuports] }
+- { setname: "perl:$0", noflag: not_perl, category: perl-core, ruleset: [gentoo,exherbo] }
 
 # PHP
 #- { setname: "php:$0", noflag: not_php, family: gentoo, category: dev-php }
-- { setname: "php:$1", noflag: not_php, namepat: "(?:pear-|pecl-|php-)*(.*?)", family: gentoo, category: dev-php }
+- { setname: "php:$1", noflag: not_php, namepat: "(?:pear-|pecl-|php-)*(.*?)", family: [gentoo,exherbo], category: dev-php }
 - { setname: "php:$1", noflag: not_php, namepat: "(?:pear|pecl)-(.*)", family: [freebsd,macports,openbsd,pkgsrc,sisyphus] }
 - { setname: "php:$1", noflag: not_php, namepat: "php[0-9]+-(?:pear|pecl)-(.*)", family: [freebsd,mageia,pkgsrc] }
 - { setname: "php:$1", noflag: not_php, namepat: "php-(?:(?:pear|pecl)-)?(.*)", family: [mageia,rosa] }
@@ -100,7 +100,7 @@
 - { setname: "r:$1", noflag: not_r, namepat: "r-(.*)",      ruleset: [ pkgsrc, fedora, guix, arch, debuntu, rosa, sisyphus, opensuse, nix ] }
 
 # ROS
-- { setname: "ros:$0", noflag: not_ros, category: dev-ros,   ruleset: [ gentoo ] }
+- { setname: "ros:$0", noflag: not_ros, category: dev-ros,   ruleset: [ gentoo, exherbo ] }
 - { setname: "ros:$1", noflag: not_ros, namepat: "ros-(.*)", ruleset: [ debuntu, arch ] }
 
 # Ruby
@@ -109,14 +109,14 @@
 - { setname: "ruby:$1", noflag: not_ruby, namepat: "ruby[0-9][0-9]-(.*)", family: [freebsd,openbsd,pkgsrc] }
 - { setname: "ruby:$1", noflag: not_ruby, namepat: "rb[0-9]*-(.*)", family: macports }
 - { setname: "ruby:$1", noflag: not_ruby, namepat: "lib(.*)-ruby", family: debuntu } # old Ubuntu Precise
-- { setname: "ruby:$0", noflag: not_ruby, category: dev-ruby, family: gentoo }
+- { setname: "ruby:$0", noflag: not_ruby, category: dev-ruby, family: [gentoo, exherbo] }
 
 # Rust
 - { setname: "rust:$1", noflag: not_rust, namepat: "rust-(.*)", family: [ arch, fedora, nix, sisyphus ] }
 
 # VDR
 - { setname: "vdr:$1", noflag: not_vdr, namepat: "vdr-plugin-(.*)" }
-- { setname: "vdr:$1", noflag: not_vdr, namepat: "vdr-(.*)", ruleset: [ fedora, gentoo ] }
+- { setname: "vdr:$1", noflag: not_vdr, namepat: "vdr-(.*)", ruleset: [ fedora, gentoo, exherbo ] }
 
 # Xorg drivers
 - { setname: "xdrv:$1", noflag: not_xorg, namepat: "(?:xf86|xorg|xserver-xorg|x11-driver|xorg-xf86|xorg-driver)-(?:input-|video-)(.*?)" }
