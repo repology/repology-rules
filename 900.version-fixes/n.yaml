@@ -21,6 +21,7 @@
 - { name: notify-osd,                  ver: "0.9.35",                ruleset: [arch,debuntu], ignore: true } # https://launchpad.net/notify-osd
 - { name: notion,                      verpat: "20[0-9]{6}.*",                             incorrect: true } # it's 3-YYYYMMDD, not just date
 - { name: nss_ldap,                    verpat: "1\\.([0-9]{3,})",                          setver: "$1" } # FreeBSD garbage
+- { name: npapi-sdk,                   ver: "0.27.3r23",                                   incorrect: true }
 - { name: npm,                         ver: ["5.5.0", "5.5.1"],                            devel: true } # should be updated manually
 - { name: ntfs-3g,                     verpat: ".*ar.*",                                   successor: true } # http://jp-andre.pagesperso-orange.fr/advanced-ntfs-3g.html
 - { name: ntp,                         verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.([0-9]+)",    setver: "$1p$2" }

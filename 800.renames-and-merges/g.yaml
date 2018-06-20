@@ -104,6 +104,7 @@
 - { setname: glade,                    name: glade-dev, ignore: true }
 - { setname: glade,                    name: glade-gtk2 }
 - { setname: glade,                    namepat: "glade[0-9._-]*" }
+- { setname: glade,                    name: compat-glade315 }
 - { setname: glew,                     namepat: "(?:lib)?glew[0-9.-]*" }
 - { setname: glfw,                     name: [glfw-doc,glfw-wayland,glfw-x11] }
 - { setname: glfw,                     namepat: "(?:lib)?glfw[0-9._-]*" }
@@ -223,6 +224,8 @@
 - { setname: greed,                    name: greed-game }
 - { setname: greenbone-security-assistant, name: greenbone-security-assistant-alternative, addflavor: alternative }
 - { setname: greenbone-security-assistant, namepat: "greenbone-security-assistant[0-9._-]+" }
+- { setname: grilo,                    name: [grilo2,compat-grilo02] }
+- { setname: grilo-plugins,            name: grilo-plugins2 }
 - { setname: grive-tools,              name: grive-tools-patched, addflavor: patched }
 - { setname: groovy,                   name: groovy-docs, addflavor: docs }
 - { setname: groovy,                   name: groovysdk }
