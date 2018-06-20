@@ -12,7 +12,7 @@
 - { name: kicad,                       verpat: "20[0-9][0-9].*",                           ignore: true }
 - { name: kicad-library,               verpat: "20[0-9][0-9].*",                           ignore: true }
 - { name: kile,                        verpat: ".*[ab].*",                                 devel: true }
-- { name: kile,                        verpat: "[0-9]+\\.9[0-9]+.*",                       devel: true } # 2.9.92 is the same as 3.0 beta2. We can't deal with this nonsense
+- { name: kile,                        verpat: "[0-9]+\\.9\\.9[0-9]+.*",                   devel: true } # 2.9.92 is the same as 3.0 beta2. We can't deal with this nonsense
 - { name: killerbee,                   ver: "99",                                          incorrect: true }
 - { name: kio,                         ver: "5.47.0a",                                     incorrect: true }
 - { name: kismet,                      verpat: "2008.*",                                   outdated: true } # XXX: version format problem
