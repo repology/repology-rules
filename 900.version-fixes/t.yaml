@@ -25,6 +25,7 @@
 - { name: texlive-core,                verpat: "(20[0-9]{2}).[0-9]{5,}",                   ignore: true }
 - { name: tidy,                        verpat: "20[0-9]{6}.*",                             ignore: true } # obsoleted
 - { name: tidy,                        ver: "090315.c",                                    ignore: true } # obsoleted
+- { name: tigervnc,                    verpat: ".*\\.9[0-9]+",                             devel: true }
 - { name: timidity++,                  ver: "2.15.0",                family: rosa,         incorrect: true } # 2.15.0 was not released yet
 - { name: timidity++,                                                family: rosa,         untrusted: true }
 - { name: theharvester,                verpat: "(2\\.7)\\.[12]",                           setver: $1 } # versions are mentioned in the changelog, but there are no tags

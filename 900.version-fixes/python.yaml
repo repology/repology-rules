@@ -4,6 +4,7 @@
 - { name: "python:django-suit",        verpat: "0\\.3a[123]",                              outdated: true } # https://pypi.org/project/django-suit/#history
 - { name: "python:elixir",             ver: "0.8.0",                 family: sisyphus,     incorrect: true } # fake
 - { name: "python:elixir",                                           family: sisyphus,     untrusted: true }
+- { name: "python:httplib2",           verpat: "2-.*",                                     incorrect: true }
 - { name: "python:leveldb",            ver: "0.193",                                       outdated: true }
 - { name: "python:progressbar",        ver: "2.4",                   family: sisyphus,     incorrect: true } # fake
 - { name: "python:py-cpuinfo",         verpat: "201.*",                                    ignore: true }

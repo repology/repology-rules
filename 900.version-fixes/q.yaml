@@ -3,9 +3,12 @@
 - { name: qca,                         ver: "2.2.0",                 family: vcpkg,        incorrect: true } # not released yet
 - { name: qdjango,                     verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: qemu,                        verpat: ".*pre[0-9]{5}.*",                          ignore: true }
+- { name: qjson,                       ver: "1.0.0",                 ruleset: openmandriva, incorrect: true }
+- { name: qjson,                                                     ruleset: openmandriva, untrusted: true }
 - { name: qgis,                                                      family: kaos,         untrusted: true } # snapshot with random version
 - { name: qgis,                        verpat: "[0-9]{5}.*",                               incorrect: true }
 - { name: qgis,                        verpat: ".*unstable",                               ignore: true }
+- { name: qhull,                       ver: ["2015.7.2.0","2015.2-2"],                     incorrect: true }
 - { name: qlipper,                     verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: qrfcview,                    ver: "1.0.0",                 family: openbsd,      successor: true } # uses unofficial fork (dead as well)
 - { name: qt5-webkit,                  ver: "5.212.0",               family: [fedora,sisyphus], incorrect: true } # lie, it's 5.212.0alpha2

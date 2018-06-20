@@ -31,6 +31,8 @@
 - { name: pmount,                      ver: "0.9.99",                                      setver: "0.9.99_alpha" }
 - { name: pmount,                      verpat: "0\\.9\\.99.*",                             devel: true }
 - { name: polari,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: portaudio,                   verpat: "20[0-9]{6}",                               ignore: true }
+- { name: portaudio,                   ver: "20161030",                                    incorrect: true } # it's 190600_20161030
 - { name: postfix,                     verpat: ".*r.*",                                    devel: true }
 - { name: postgis,                     verpat: ".*\\.9[0-9]+",       family: kaos,         incorrect: true } # 2.4.3.90 instead of 2.4.4dev
 - { name: postgis,                                                   family: kaos,         untrusted: true }
