@@ -9,6 +9,7 @@
 - { name: neovim-qt,                                                 ruleset: aur,         untrusted: true }
 - { name: net-tools,                   verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: netcat-openbsd,              verpat: "20[0-9]{6}.*",                             ignore: true } # pkgsrc garbage
+- { name: netcat-openbsd,              verpat: "[0-9]+\\.[0-9]{3}_.*",                     ignore: true } # debian suffixes
 - { name: netpbm,                      verpat: "10.82.01",           ruleset: macports,    incorrect: true } # https://sourceforge.net/p/netpbm/code/HEAD/tree/release_number/
 - { name: netpbm,                                                    ruleset: macports,    untrusted: true }
 - { name: networkmanager,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
