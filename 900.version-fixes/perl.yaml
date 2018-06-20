@@ -12,6 +12,7 @@
 - { name: "perl:catmandu-store-mongodb", ver: ["0.0501","0.0403"],                         ignore: true }
 - { name: "perl:cbor-xs",              ver: [ "1.60", "1.50", "1.30" ],                    ignore: true }
 - { name: "perl:cgi-formbuilder",      ver: [ "3.1000", "3.0900", "3.90.0", "3.90.0", "3.0501", "3.0800", "3.100.0" ], ignore: true }
+- { name: "perl:cgi-simple",           verpat: "1\\.(113|115|130)(\\..*)?",                outdated: true }
 - { name: "perl:chi",                  ver: "0.580",                                       ignore: true }
 - { name: "perl:compress-lzf",         verpat: "3.[789]0",                                 ignore: true }
 - { name: "perl:convert-ber",          ver: ["1.3200","1.3101"],                           ignore: true }
