@@ -172,6 +172,8 @@
 - { setname: libxml2,                  name: libxml }
 - { setname: libxml2,                  name: libxml2-linenum, addflavor: linenum }
 - { setname: libxml2,                  name: libxml2-reference, addflavor: reference }
+- { setname: libxml2,                  name: ["python:libxml2","python:libxml2-python",libxml2+py,libxml2-python], addflavor: python }
+- { setname: libxml2,                  name: emscripten-libxml2, addflavor: emscripten }
 - { setname: libxmlbird,               name: xmlbird }
 - { setname: libxmp,                   name: libxmp-lite }
 - { setname: libxrender,               name: [libx32-libxrender,xorg-libxrender,xrender] }
