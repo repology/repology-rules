@@ -47,6 +47,7 @@
 - { setname: pgpool,                   namepat: "pgpool-ii[0-9._-]*" }
 - { setname: pgpool,                   namepat: "postgresql[0-9._-]*-pgpool[0-9._-]*" }
 - { setname: pgroonga,                 namepat: "(postgresql[0-9._-]*)-pgroonga", addflavor: $1 }
+- { setname: pg-top,                   name: pgtop }
 - { setname: phabricator,              name: "php:phabricator" }
 - { setname: phash,                    name: libphash }
 - { setname: phat,                     name: libphat }
