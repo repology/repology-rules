@@ -13,18 +13,18 @@
 # XXX: merge pypy- and pypy3-
 
 # some rules may merge modules for different python version into single entry; this is intended
-- { setname: "python:$1",              namepat: "py[0-9][0-9]-(.*)", family: [freebsd,pkgsrc] }
-- { setname: "python:$1",              namepat: "py3?-(.*)", family: openbsd }
-- { setname: "python:$1",              namepat: "python-(.*)", family: [centos,debuntu,gobolinux,mageia,pclinuxos,ravenports,rudix] }
-- { setname: "python:$1",              namepat: "python3?-module-(.*)", family: sisyphus }
-- { setname: "python:$1",              namepat: "python2?-(.*)", family: [arch,guix,openmandriva] }
-#- { setname: "python:$1",              namepat: "python2-(.*)", family: msys2 }
-- { setname: "python:$1",              namepat: "python3?-(.*)", family: [crux,fedora,opensuse,rosa,slackbuilds] }
-- { setname: "python:$1",              namepat: "python[0-9]\\.[0-9]-(.*)", family: nix }
-- { setname: "python:$1",              namepat: "py[23]?-(.*)", family: alpine }
-- { setname: "python:$1",              namepat: "py[0-9]*-(.*)", family: macports }
-- { setname: "python:$1",              namepat: "python[23]?-(.*)", family: kaos }
-- { setname: "python:$0",              category: dev-python, family: [gentoo,exherbo,haikuports] }
+- { setname: "python:$1", noflag: not_python, namepat: "py[0-9][0-9]-(.*)", family: [freebsd,pkgsrc] }
+- { setname: "python:$1", noflag: not_python, namepat: "py3?-(.*)", family: openbsd }
+- { setname: "python:$1", noflag: not_python, namepat: "python-(.*)", family: [centos,debuntu,gobolinux,mageia,pclinuxos,ravenports,rudix] }
+- { setname: "python:$1", noflag: not_python, namepat: "python3?-module-(.*)", family: sisyphus }
+- { setname: "python:$1", noflag: not_python, namepat: "python2?-(.*)", family: [arch,guix,openmandriva] }
+#- { setname: "python:$1", noflag: not_python, namepat: "python2-(.*)", family: msys2 }
+- { setname: "python:$1", noflag: not_python, namepat: "python3?-(.*)", family: [crux,fedora,opensuse,rosa,slackbuilds] }
+- { setname: "python:$1", noflag: not_python, namepat: "python[0-9]\\.[0-9]-(.*)", family: nix }
+- { setname: "python:$1", noflag: not_python, namepat: "py[23]?-(.*)", family: alpine }
+- { setname: "python:$1", noflag: not_python, namepat: "py[0-9]*-(.*)", family: macports }
+- { setname: "python:$1", noflag: not_python, namepat: "python[23]?-(.*)", family: kaos }
+- { setname: "python:$0", noflag: not_python, category: dev-python, family: [gentoo,exherbo,haikuports] }
 
 # turn python modules into such
 - name:
