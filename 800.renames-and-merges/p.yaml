@@ -113,7 +113,7 @@
 - { setname: prometheus-pushgateway,   name: [pushgateway,prometheus-push-gateway] }
 - { setname: proot,                    name: proot-static, addflavor: true }
 - { setname: proot,                    namepat: "proot[0-9._-]+" }
-- { setname: protobuf,                 namepat: "(lib)?protobuf(?:cpp|compat|[0-9._-])+", addflavor: $1 }
+- { setname: protobuf,                 namepat: "(lib)?protobuf(?:cpp|compat|[0-9._-])*", addflavor: $1 }
 - { setname: protobuf,                 name: [protobuf-java,protobuf3-java], addflavor: java }
 - { setname: protobuf-c,               name: protobuf2-c }
 - { setname: protonmail-bridge,        name: protonmail-bridge-bin, addflavor: bin }

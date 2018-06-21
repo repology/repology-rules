@@ -21,6 +21,7 @@
 - { setname: xapian-bindings,          namepat: "xapian[0-9._-]*-bindings[0-9._-]*" }
 - { setname: xapian-bindings,          namepat: xapian-bindings-(perl|python), addflavor: $1 }
 - { setname: xapian-core,              namepat: "xapian[0-9._-]*(-core[0-9._-]*)?" }
+- { setname: xapian-core,              name: libxapian }
 - { setname: xapian-omega,             namepat: "xapian-omega[0-9._-]*" }
 - { setname: xar,                      name: xar-mackyle }
 - { setname: xarchiver,                name: [xarchiver-assume-name,xarchiver-gtk2], addflavor: true }
@@ -85,7 +86,7 @@
 - { setname: xulrunner,                name: xulrunner-devel, ignore: true }
 - { setname: xulrunner,                namepat: "xulrunner[0-9.-]+" }
 - { setname: xvidcore,                 name: [xvid,libxvid] }
-- { setname: xz,                       name: [liblzma,xz-utils], addflavor: true }
+- { setname: xz,                       name: [liblzma,xz-utils,xz_utils], addflavor: true }
 
 - name:
     - xorg-dmx

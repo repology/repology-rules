@@ -90,7 +90,7 @@
 - { name: libssh,                      ver: ["0.73", "0.11", "2014"],                      ignore: true } # pkgsrc, gobo
 - { name: libssh,                      ver: "0.8.0",                 family: debuntu,      ignore: true }
 - { name: libtorrent,                  verpat: "20[0-9]{6}.*",                             ignore: true } # nix fake
-- { name: libunwind,                   verpat: "20[0-9]{6}.*",                             ignore: true } # freebsd snapshot
+- { name: libunwind,                   verpat: ".*20[0-9]{6}.*",                           ignore: true } # freebsd, termux snapshots
 - { name: libusbmuxd,                  verpat: "1\\.1\\.0.*",        family: [openwrt,debuntu], ignore: true } # fake
 - { name: libmpsse,                    verpat: "20[0-9]{6}.*",       family: sisyphus,     ignore: true }
 - { name: libx11,                      verpat: "7\\.[4567].*",                             ignore: true } # uses version from Xorg, not its own # XXX: ->incorrect

@@ -6,7 +6,7 @@
 #
 
 - { setname: dash,                     name: ash, family: sisyphus } # XXX: problem
-- { setname: espeak-ng,                name: espeak, verpat: "1\\.49\\..*", family: kaos } # XXX: problem
+- { setname: espeak-ng,                name: espeak, verpat: "1\\.49\\..*", family: [kaos,termux] } # XXX: problem
 - { setname: libdmx,                   name: xorg-dmx, family: ravenports } # don't mix with xorg dmx server
 - { setname: mysql-connector-c,        name: libmysqlclient, family: haikuports } # not really libmysqlclient from mysql
 - { setname: "perl:html-formatter",    name: "perl:html-format", family: fedora } # XXX: problem
@@ -21,3 +21,4 @@
 - { setname: sdl2_ttf,                 name: sdl_ttf, ruleset: [exherbo,kaos] }
 - { setname: sdl2_net,                 name: sdl_net, verge: "2" }
 - { setname: sdl2_mixer,               name: sdl_mixer, verge: "2" }
+- { setname: mandoc,                   name: man, wwwpart: mdocml }

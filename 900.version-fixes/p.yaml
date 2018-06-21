@@ -7,6 +7,7 @@
 - { name: pangox-compat,               verlonger: 3,                 family: rosa,         ignore: true }
 - { name: passwdqc,                    ver: "1.3.1.1",                                     incorrect: true } # sisyphus garbage
 - { name: patchelf,                    verpat: ".*pre.*",                                  ignore: true } # nix
+- { name: patchelf,                    verlonger: 2,                                       incorrect: true } # termux
 - { name: pcb,                         verpat: "20[0-9]{6}.*",                             outdated: true } # superceded by x.y.z: https://sourceforge.net/projects/pcb/files/pcb/
 - { name: pcc,                         verpat: "20[0-9]{6}",                               ignore: true }
 - { name: pcc-libs,                    verpat: "20[0-9]{6}",                               ignore: true }
@@ -16,12 +17,15 @@
 - { name: perl,                        ver: "5.26.2",                ruleset: fedora,      incorrect: true } # rc1
 - { name: perl,                                                      ruleset: fedora,      untrusted: true }
 - { name: perl,                        verpat: ".*r.*",                                    devel: true }
+- { name: pforth,                                                                          noscheme: true } # https://github.com/philburk/pforth
 - { name: pgadmin3,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: pgadmin3,                    verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: phototonic,                  verpat: "2\\.1\\.[0-9]+",     ruleset: mageia,      incorrect: true }
 - { name: phototonic,                                                ruleset: mageia,      untrusted: true }
 - { name: php-xdebug,                  verpat: "(.*)-[0-9]+\\.[0-9]+", family: scoop,      setver: "$1" } # the suffix seem to encode php version?
 - { name: phyml,                       verpat: "20[0-9]{6}",                               ignore: true }
+- { name: picolisp,                    ver: ["18.6.12", "18.6.17"],  ruleset: [aur,termux], incorrect: true }
+- { name: picolisp,                                                  ruleset: [aur,termux], untrusted: true }
 - { name: pilot-link,                  ver: "0.12.15",               family: gobolinux,    ignore: true } # gobolinux fake
 - { name: pingus,                      verpat: "0\\.8\\.0-[0-9]{8}",                       ignore: true }
 - { name: pingus,                      verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
@@ -48,6 +52,8 @@
 - { name: proot,                       verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: properties-cpp,              verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: proxychains-ng,              verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: proot,                       verpat: ".*20[0-9]{6}",                             ignore: true }
+- { name: proot,                       verpat: "5\\.1\\.[0-9]{3}.*",                       incorrect: true }
 - { name: psi-plus,                    verpat: "20[0-9]{6}.*",                             ignore: true } # opensuse garbage
 - { name: psi-plus,                    verlonger: 3,                                       ignore: true } # aur garbage
 - { name: pwsafe,                      verpat: "20[0-9]{6}",                               ignore: true } # aur, hyperbola

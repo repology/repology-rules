@@ -48,6 +48,8 @@
 - { name: bsnes-libretro,                                                                  noscheme: true }
 - { name: bully,                       verpat: "1\\.1.+",                                  ignore: true } # snapshots, latest is 1.1
 - { name: busybox,                     verpat: "[0-9]{4}.*",                               incorrect: true } # scoop
+- { name: byobu,                       ver: "5.126",                 family: debuntu,      incorrect: true }
+- { name: byobu,                                                     family: debuntu,      untrusted: true }
 - { name: bzip2,                       ver: "1.0.6.0.1",                                   ignore: true } # nix fake; real version is 1.0.6
 - { name: bzr-rewrite,                                               ruleset: aur,         untrusted: true }
 - { name: bzr-rewrite,                 ver: "0.6.4",                 ruleset: aur,         incorrect: true }

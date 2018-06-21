@@ -13,7 +13,7 @@
 - { setname: lapack,                   name: lapack-tmg, addflavor: tmg } # component of
 - { setname: lapack,                   name: liblapack }
 - { setname: lapacke,                  name: lapacke-tmg, addflavor: tmg } # component of
-- { setname: lcms,                     name: [lcms,lcms1,lcms2,little-cms,little-cms2,lcms-python,liblcms,liblcms2] }
+- { setname: lcms,                     name: [lcms,lcms1,lcms2,little-cms,little-cms2,lcms-python,liblcms,liblcms2,littlecms] }
 - { setname: ldb,                      name: [libldb,ldb12,ldb13] }
 - { setname: ldns,                     name: "perl:dns-ldns", wwwpart: nlnetlabs, addflavor: perl } # part of
 - { setname: ldns,                     name: "python:ldns", addflavor: python }
@@ -68,7 +68,7 @@
 - { setname: love,                     namepat: "love(?:-legacy)?[0-9._-]+" }
 - { setname: lprof,                    name: lprof-devel }
 - { setname: lsof-freebsd,             name: lsof, family: freebsd } # patched version with own versioning
-- { setname: lua,                      namepat: "lua[0-9._-]+" }
+- { setname: lua,                      namepat: "(?:lib)?lua[0-9._-]*" }
 - { setname: luajit,                   name: [luajit-2.1,luajit2] }
 - { setname: lugaru,                   name: openlugaru }
 - { setname: lugaru-data,              name: openlugaru-data }

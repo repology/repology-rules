@@ -168,7 +168,7 @@
 - { setname: cumulus,                  name: cumuluslanguagede, addflavor: de }
 - { setname: cuneiform,                name: cuneiform-linux }
 - { setname: curl,                     name: [curl-ca-bundle,curl-http2,curl-openssl,libcurl-compat,libcurl-compat-nostatic,libcurl-gnutls,libcurl-openssl-1.0,curl-ssh], addflavor: true }
-- { setname: curl,                     name: curl3 }
+- { setname: curl,                     name: [curl3, libcurl] }
 - { setname: curseofwar,               name: curse-of-war }
 - { setname: curseofwar,               name: curseofwar-sdl }
 - { setname: curses-hexedit,           name: [chexedit,ncurses-hexedit] }
