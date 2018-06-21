@@ -53,7 +53,7 @@
 - { setname: shotcut,                  name: shotcut-dmo }
 - { setname: sidplay,                  namepat: "sidplay[0-9]+" }
 - { setname: silgraphite,              name: [silgraphite-ft,silgraphite-xft], addflavor: true }
-- { setname: silgraphite,              name: [silgraphite2.0,graphite,libgraphite2,graphite2] }
+- { setname: silgraphite,              name: [silgraphite2.0,graphite,libgraphite2,graphite2,libgraphite] }
 - { setname: simple-scan,              name: simple-scan-3.12 }
 - { setname: simple-scan,              name: simple-scan-trunk, ignore: true }
 - { setname: simplescreenrecorder,     name: [simplescreenrecorder-lib, simplescreenrecorder-qt5], addflavor: true }
@@ -110,6 +110,11 @@
 - { setname: spotify,                  name: spotify-client, addflavor: client }
 - { setname: spring,                   name: springrts }
 - { setname: sql-operations-studio,    name: sqlopsstudio }
+- { setname: sqlite,                   name: [sqlite-tcl,sqlite3-tcl,tcl-sqlite,tcl-sqlite3,tclsqlite2], addflavor: tcl }
+- { setname: sqlite,                   namepat: "(?:lib)?sqlite[0-9._-]*" }
+- { setname: sqlite,                   name: [sqlite-analyzer,sqlite.analyzer,sqlite3-analyzer], addflavor: analyzer }
+- { setname: sqlite,                   name: [sqlite-doc,sqlite3-doc], addflavor: doc }
+- { setname: sqlite,                   name: [sqlite-interactive,sqlite-with-fts3,sqlite-with-fts5,sqlite.shell,sqlite3-tools], addflavor: true }
 - { setname: squid,                    name: [squid-ldap,squid-ntlm], family: openbsd }
 - { setname: squid,                    name: squid-devel, ignore: true }
 - { setname: squid,                    namepat: "squid[0-9._-]+" }
