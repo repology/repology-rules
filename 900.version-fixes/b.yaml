@@ -46,6 +46,7 @@
 - { name: brotli,                      verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: brickout,                    verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" } # it's clearly 2002.06.09 as stated on the website
 - { name: bsnes-libretro,                                                                  noscheme: true }
+- { name: budgie-desktop,              verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: bully,                       verpat: "1\\.1.+",                                  ignore: true } # snapshots, latest is 1.1
 - { name: busybox,                     verpat: "[0-9]{4}.*",                               incorrect: true } # scoop
 - { name: byobu,                       ver: "5.126",                 family: debuntu,      incorrect: true }
