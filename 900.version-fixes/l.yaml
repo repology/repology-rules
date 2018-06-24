@@ -36,7 +36,7 @@
 - { name: lugaru,                      verpat: "[0-9]{3}.*",                               ignore: true } # dates and snapshots
 - { name: lugaru,                      verpat: "201[56].*",                                outdated: true } # 1.2 from 2017
 - { name: luit,                        verpat: "20[0-9]{6}.*",                             ignore: true }
-- { namepat: "lumina.*",               verpat: "1.4.1",              family: [freebsd,ravenports], incorrect: true }
+- { namepat: "lumina.*",               ver: "1.4.1",                 family: [freebsd,ravenports], incorrect: true }
 - { name: lxdm,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: lxsplit,                     verlonger: 3,                 family: openbsd,      incorrect: true } # "1." component prepended
 - { name: lynx,                                                                            incorrect: true } # pretty ugly versioning scheme

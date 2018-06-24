@@ -187,6 +187,9 @@ def validate_value(key, val):
         raise BadRuleValue('{} contains incorrect pattern "\\\\.*", perhaps you\'ve meant "\\\\..*"?'.format(key))
     if key in ('name', 'ver') and ('.*' in val or '[' in val or '{' in val or '|' in val):
         raise BadRuleValue('{0} is not a pattern but contains pattern characters, perhaps you\'ve meant to use {0}pat?'.format(key))
+    if key == 'verpat' and re.fullmatch('[0-9]+(\\.[0-9]+)+', val):
+        raise BadRuleValue('verpat contains literal versions, perhaps you\'ve meant to use ver?')
+
 
 
 def validate_values(rule):
