@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: "python:backports",          ver: "4.0.0",                                       incorrect: true } # opensuse fake
+- { name: "python:bottle",             verpat: "0\\.13.*",                                 devel: true }
 - { name: "python:django-suit",        verpat: "0\\.3a[123]",                              outdated: true } # https://pypi.org/project/django-suit/#history
 - { name: "python:elixir",             ver: "0.8.0",                 family: sisyphus,     incorrect: true } # fake
 - { name: "python:elixir",                                           family: sisyphus,     untrusted: true }
@@ -11,7 +12,9 @@
 - { name: "python:pycha",              ver: "279",                                         ignore: true }
 - { name: "python:pycrypto",           ver: "2.7",                   family: sisyphus,     incorrect: true } # it's 2.7a1
 - { name: "python:pycrypto",           verpat: "3.*",                family: nix,          setname: "python:pycryptodome" } # different package XXX: problem
+- { name: "python:pygpgme",            ver: "0.3.1",                 ruleset: alpine,      incorrect: true }
 - { name: "python:pyode",              verpat: ".*2010.*",                                 ignore: true }
+- { name: "python:pyside",             ver: "2.0.0",                 ruleset: kaos,        incorrect: true }
 - { name: "python:pyspatialite",       ver: "3.0.1",                 noruleset: pypi,      incorrect: true } # it's 3.0.1-alpha-0
 - { name: "python:pyspatialite",       verpat: "(.*)(?:[_-]alpha[_-])(.*)",                setver: "$1alpha$2" }
 - { name: "python:sphinx_rtd_theme",   verpat: ".*[ab].*",                                 devel: true }

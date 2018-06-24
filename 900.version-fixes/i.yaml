@@ -10,7 +10,9 @@
 - { name: icebreaker,                  ver: "1.21",                                        setver: "1.2.1" }
 - { name: icecat,                                                                          setver: "$0gnu1" } # it uses gnu suffix, in most cases it's gnu1, but there were gnu2 as well
 - { name: icecat,                      verpat: "(.*gnu.*)gnu1",                            setver: "$1" }
+- { name: icemon,                      verpat: "[0-9a-f]{7}",                              incorrect: true }
 - { name: icu-le-hb,                   ver: "1.0.3.3",                                     ignore: true } # fake (FreeBSD)
+- { name: inchi,                       ver: ["1.0.3","1.0.4","1.0.5"],                     incorrect: true } # XXX: problem
 - { name: include-what-you-use,        verpat: "[345].*",                                  incorrect: true } # https://include-what-you-use.org/ llvm version vs. own version
 - { name: inotify-tools,               ver: ["3.14.01","3.14pl0"],                         ignore: true } # fake
 - { name: inspectrum,                  verpat: "20[0-9]{2}.*",                             ignore: true }

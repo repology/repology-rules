@@ -19,6 +19,8 @@
 - { name: unnethack,                                                 family: nix,          untrusted: true }
 - { name: unrar,                       verpat: "5\\.50.*",                                 ignore: true } # it uses 5.5.X schema
 - { name: unzip,                       verpat: ".*c.*",                                    ignore: true } # haikuports
+- { name: upower,                      ver: "0.99.8",                ruleset: fedora,      incorrect: true }
+- { name: upower,                                                    ruleset: fedora,      untrusted: true }
 - { name: urlview,                     verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: urlview,                     verpat: "(0\\.9)-[0-9]+",                           setver: $1 } # debian suffix copied by homebrew, macports and nix
 - { name: urw-fonts,                   verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot

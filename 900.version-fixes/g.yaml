@@ -55,6 +55,7 @@
 - { name: gnome-logs,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-maps,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-mines,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-mplayer,               verpat: ".*[ab]",                                   devel: true }
 - { name: gnome-music,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-online-accounts,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-photos,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -89,6 +90,8 @@
 - { name: gobject-introspection,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: goldencheetah,               verpat: ".*dev.*",                                  ignore: true }
 - { name: goocanvasmm,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: googlecl,                    ver: "0.9.15.1",              ruleset: freebsd,     incorrect: true }
+- { name: googlecl,                                                  ruleset: freebsd,     untrusted: true }
 - { name: govendor,                    ver: "1.0.9.6",                                     incorrect: true } # FreeBSD garbage
 - { name: gpart,                       vergt: "0.1h",                                      successor: true } # https://github.com/baruch/gpart
 - { name: gprbuild,                    verpat: "[0-9]{5,}.*",                              ignore: true }

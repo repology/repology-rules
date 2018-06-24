@@ -5,6 +5,8 @@
 - { name: hardinfo,                                                  family: sisyphus,     untrusted: true }
 - { name: hashcat,                     verpat: "3\\.[1-9][0-9]",                           ignore: true } # it uses X.Y.Z scheme
 - { name: "haskell:pandoc-citeproc",                                 ruleset: aur,         incorrect: true } # it's actually pandoc, not pandoc-cityproc
+- { name: hddtemp,                     ver: "0.3",                   ruleset: [sisyphus,mageia,pclinuxos], incorrect: true } # 0.3beta15
+- { name: hddtemp,                     verpat: ".*(52|53)",                                incorrect: true } # 0.3beta15
 - { name: haxe,                        verpat: "4\\..*",             family: freshcode,    ignore: true } # there's no 4.0.0
 - { name: hex2bin,                     verpat: "20[0-9]{6}.*",                             ignore: true } # AUR snapshot
 - { name: hidapi,                      verpat: ".*20[0-9]{6}.*",                           ignore: true }
