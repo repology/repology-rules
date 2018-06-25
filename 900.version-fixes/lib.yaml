@@ -99,5 +99,6 @@
 - { name: libx11,                      verpat: "7\\.[4567].*",                             ignore: true } # uses version from Xorg, not its own # XXX: ->incorrect
 - { name: libx86emu,                   verlonger: 2,                 family: kaos,         ignore: true } # uses some opensuse package with mangled version
 - { name: libxmi,                      ver: "1.3",                   family: gentoo,       incorrect: true }
+- { name: libyuv,                                                                          noscheme: true }
 - { name: libzen,                      verpat: "17\\..*",            family: freebsd,      incorrect: true } # version from mediainfo is used, while libzen has its own version scheme
 - { name: libzen,                                                    family: freebsd,      untrusted: true }
