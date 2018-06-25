@@ -90,6 +90,7 @@
 - { name: gobject-introspection,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: goldencheetah,               verpat: ".*dev.*",                                  ignore: true }
 - { name: goocanvasmm,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: google-authenticator,        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: googlecl,                    ver: "0.9.15.1",              ruleset: freebsd,     incorrect: true }
 - { name: googlecl,                                                  ruleset: freebsd,     untrusted: true }
 - { name: govendor,                    ver: "1.0.9.6",                                     incorrect: true } # FreeBSD garbage

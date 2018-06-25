@@ -29,6 +29,7 @@
 - { name: lshw,                        verpat: "B(\\.[0-9]+)+",                            incorrect: false }
 - { name: lshw,                        verpat: "[0-9]+\\.[0-9]+",                          setver: B.$0, incorrect: false } # XXX: problem
 - { name: lsscsi,                      ver: "0.29",                  family: opensuse,     incorrect: true } # fake
+- { name: ltunify,                     verpat: "20[0-9]{6}",                               ignore: true }
 - { name: lua,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]+[.-].*",           incorrect: true } # scoop, chocolatey
 - { name: luajit,                      ver: ["2.1", "2.1.0"],        family: [sisyphus],   incorrect: true } # it's 2.1.0 betaN
 - { name: luajit,                                                    family: [sisyphus],   untrusted: true }
