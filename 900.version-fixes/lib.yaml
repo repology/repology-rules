@@ -40,7 +40,7 @@
 - { name: libhidapi,                   ver: "0.8.0",                 ruleset: sisyphus,    incorrect: true } # 0.8.0-rc1
 - { name: libhidapi,                                                 ruleset: sisyphus,    untrusted: true }
 - { name: libiconv,                    verpat: "[0-9]",                                    ignore: true } # lede/openwrt strange version
-- { name: libimobiledevice,            ver: "1.2.1",                 family: openwrt,      ignore: true } # fake
+- { name: libimobiledevice,            ver: "1.2.1",                 family: [openwrt,sisyphus], ignore: true } # fake
 - { name: libimobiledevice,            verlonger: 3,                 family: kaos,         ignore: true } # fake
 - { name: libisofs,                    ver: "1.4.9",                 ruleset: sisyphus,    incorrect: true }
 - { name: libisofs,                                                  ruleset: sisyphus,    untrusted: true }
