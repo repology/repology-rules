@@ -31,6 +31,9 @@
 - { name: lsscsi,                      ver: "0.29",                  family: opensuse,     incorrect: true } # fake
 - { name: ltunify,                     verpat: "20[0-9]{6}",                               ignore: true }
 - { name: lua,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]+[.-].*",           incorrect: true } # scoop, chocolatey
+- { name: "lua:socket",                verpat: "20[0-9]{6}",                               ignore: true }
+- { name: "lua:socket",                ver: "3.0",                   ruleset: mageia,      incorrect: true } # 3.0rc1
+- { name: "lua:socket",                                              ruleset: mageia,      untrusted: true }
 - { name: luajit,                      ver: ["2.1", "2.1.0"],        family: [sisyphus],   incorrect: true } # it's 2.1.0 betaN
 - { name: luajit,                                                    family: [sisyphus],   untrusted: true }
 - { name: luajit,                      verpat: "20[0-9]{2}.*",                             ignore: true }
