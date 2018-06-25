@@ -51,6 +51,9 @@
 - { setname: sherlock.lv2,             name: sherlock-lv2 }
 - { setname: shibboleth-sp,            namepat: "shibboleth-sp[0-9]+" }
 - { setname: shotcut,                  name: shotcut-dmo }
+- { setname: shorewall,                name: [shorewall-core,shorewall-doc,shorewall-docs-html,shorewall-init,shorewall-lite] }
+- { setname: shorewall,                name: shorewall6 }
+- { setname: shorewall,                name: shorewall6-lite, addflavor: shorewall-lite }
 - { setname: sidplay,                  namepat: "sidplay[0-9]+" }
 - { setname: silgraphite,              name: [silgraphite-ft,silgraphite-xft], addflavor: true }
 - { setname: silgraphite,              name: [silgraphite2.0,graphite,libgraphite2,graphite2,libgraphite] }
