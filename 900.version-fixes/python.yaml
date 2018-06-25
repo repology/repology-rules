@@ -7,6 +7,7 @@
 - { name: "python:elixir",                                           family: sisyphus,     untrusted: true }
 - { name: "python:httplib2",           verpat: "2-.*",                                     incorrect: true }
 - { name: "python:leveldb",            ver: "0.193",                                       outdated: true }
+- { name: "python:prettytable",        ver: "0.10",                                        incorrect: true } # sisyphus fake
 - { name: "python:progressbar",        ver: "2.4",                   family: sisyphus,     incorrect: true } # fake
 - { name: "python:py-cpuinfo",         verpat: "201.*",                                    ignore: true }
 - { name: "python:pycha",              ver: "279",                                         ignore: true }
