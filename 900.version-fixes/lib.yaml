@@ -91,7 +91,7 @@
 - { name: libsndfile,                  ver: "1.0.29",                family: vcpkg,        ignore: true }
 - { name: libsoup,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libspiro,                    verpat: "20[0-9]{6}",                               incorrect: true} # it's 0.5.20150702; XXX: problem
-- { name: libspiro,                    verge: "20000000", vetlt: "20150702",               outdated: true }
+- { name: libspiro,                    verge: "20000000", verlt: "20150702",               outdated: true }
 - { name: libssh,                      ver: ["0.73", "0.11", "2014"],                      ignore: true } # pkgsrc, gobo
 - { name: libssh,                      ver: "0.8.0",                 family: debuntu,      ignore: true }
 - { name: libstemmer,                                                                      noscheme: true }
