@@ -15,6 +15,7 @@
 - { name: gdm,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gcompris,                    verpat: "2013.*",                                   ignore: true }
 - { name: gcr,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gecko-mediaplayer,           verpat: ".*[ab]",                                   devel: true }
 - { name: geckodriver,                 verpat: ".*20[0-9]{2}.*",                           ignore: true }
 - { name: gedit,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: geeknote,                                                                        noscheme: true }
@@ -63,6 +64,9 @@
 - { name: gnome-settings-daemon,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-shell,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-shell-extensions,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-shell-extension-system-monitor, ver: "20121027",                           outdated: true } # last official release in 2018
+- { name: gnome-shell-extension-workspaces-to-dock, ver: "20121027",                       outdated: true } # last official release in 2018
+- { name: gnome-shell-extension-workspaces-to-dock, verpat: "([0-9]{2,})_[0-9.]+",         setver: $1 } # meaningless gnome version addendum
 - { name: gnome-software,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-sound-recorder,        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-sudoku,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

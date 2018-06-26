@@ -37,6 +37,8 @@
 - { name: pmount,                      ver: "0.9.99",                                      setver: "0.9.99_alpha" }
 - { name: pmount,                      verpat: "0\\.9\\.99.*",                             devel: true }
 - { name: polari,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: popt,                        ver: "1.17",                  ruleset: pld,         incorrect: true }
+- { name: popt,                                                      ruleset: pld,         untrusted: true }
 - { name: portaudio,                   verpat: "20[0-9]{6}",                               ignore: true }
 - { name: portaudio,                   ver: "20161030",                                    incorrect: true } # it's 190600_20161030
 - { name: postfix,                     verpat: ".*r.*",                                    devel: true }
@@ -44,12 +46,17 @@
 - { name: postgis,                                                   family: kaos,         untrusted: true }
 - { name: postgresql,                  verpat: "11.*",                                     devel: true }
 - { name: postgresql,                  ver: ["11","11.0"],                                 ignore: true }
+- { name: postgresql-jdbc,             verpat: "[0-9]{4}.*",                               incorrect: true } # pld garbage
+- { name: pov-ray,                     ver: "3.7.1",                 family: pld,          incorrect: true }
+- { name: pov-ray,                                                   family: pld,          untrusted: true }
 - { name: powder-toy,                  verlonger: 2,                                       ignore: true } # third component is a build number, it's not a part of official version
 - { name: powertop,                    verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: pragmarc,                                                                        noscheme: true }
 - { name: prboom-plus,                 verpat: ".*svn.*",                                  ignore: true }
 - { name: processing,                  verpat: "[0-9]{4}.*",                               incorrect: true } # gobolinux garbage
 - { name: procmail,                    verpat: "[0-9]+",                                   ignore: true } # homebrew
+- { name: progsreiserfs,               ver: "0.3.1",                 family: pld,          incorrect: true }
+- { name: progsreiserfs,                                             family: pld,          untrusted: true }
 - { name: proot,                       verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: properties-cpp,              verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: proxychains-ng,              verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot

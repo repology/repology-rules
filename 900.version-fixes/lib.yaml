@@ -8,6 +8,8 @@
 - { name: libart-lgpl,                 ver: "14.0.4",                                      incorrect: true }
 - { name: libart-lgpl,                                               ruleset: aosc,        untrusted: true }
 - { name: libasr,                      verpat: "[0-9]{8}.*",                               ignore: true } # guix crap
+- { name: libaudclient,                ver: "3.5",                   ruleset: pld,         incorrect: true }
+- { name: libaudclient,                                              ruleset: pld,         untrusted: true }
 - { name: libburn,                     ver: "1.4.9",                 ruleset: sisyphus,    incorrect: true }
 - { name: libburn,                                                   ruleset: sisyphus,    untrusted: true }
 - { name: libcaca,                     ver: "0.99", family: [sisyphus,pclinuxos,rosa],     incorrect: true } # it's 0.99.betaX!

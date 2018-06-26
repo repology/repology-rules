@@ -16,7 +16,11 @@
 - { name: "python:pygpgme",            ver: "0.3.1",                 ruleset: alpine,      incorrect: true }
 - { name: "python:pyode",              verpat: ".*2010.*",                                 ignore: true }
 - { name: "python:pyside",             ver: "2.0.0",                 ruleset: kaos,        incorrect: true }
+- { name: "python:pyside",             verpat: "4\\.[0-9]+_.*",                            incorrect: true } # pld
 - { name: "python:pyspatialite",       ver: "3.0.1",                 noruleset: pypi,      incorrect: true } # it's 3.0.1-alpha-0
 - { name: "python:pyspatialite",       verpat: "(.*)(?:[_-]alpha[_-])(.*)",                setver: "$1alpha$2" }
 - { name: "python:sphinx_rtd_theme",   verpat: ".*[ab].*",                                 devel: true }
+- { name: "python:sphinx-py3doc-enhanced-theme", ver: "2.4.0",       ruleset: pld,         incorrect: true }
+- { name: "python:sphinx-py3doc-enhanced-theme",                     ruleset: pld,         untrusted: true }
 - { name: "python:tornado",            verpat: ".*[ab].*",                                 devel: true }
+- { name: "python:webm",               vergt: "0.2.2",                                     successor: true } # http://xpra.org/src/ vs. https://github.com/expobrain/python-webm/releases

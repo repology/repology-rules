@@ -28,4 +28,6 @@
 - { name: usbview,                     ver: "2.0.1",                 family: rosa,         incorrect: true }
 - { name: usbrelay,                    verpat: "20[0-9]{6}",                               ignore: true }
 - { name: utfcpp,                      verpat: "2012.*",                                   ignore: true } # slackbuilds
+- { name: util-vserver,                ver: "0.30.216",              ruleset: pld,         incorrect: true } # http://ftp.linux-vserver.org/pub/utils/util-vserver/
+- { name: util-vserver,                                              ruleset: pld,         untrusted: true } # http://ftp.linux-vserver.org/pub/utils/util-vserver/
 - { name: uzbl,                        verpat: "20[0-9]{2}.*",                             ignore: true }

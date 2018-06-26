@@ -52,7 +52,7 @@
 # Haskell
 - { setname: "haskell:$1", noflag: not_haskell, namepat: "haskell-(.*)", family: [arch,debuntu,gobolinux,slackbuilds] }
 - { setname: "haskell:$1", noflag: not_haskell, namepat: "hs-(.*)", family: [freebsd,macports,openbsd,pkgsrc] }
-- { setname: "haskell:$1", noflag: not_haskell, namepat: "ghc-(.*)", family: [fedora,guix,opensuse,rosa] }
+- { setname: "haskell:$1", noflag: not_haskell, namepat: "ghc-(.*)", family: [fedora,guix,opensuse,rosa,pld] }
 - { setname: "haskell:$0", noflag: not_haskell, category: dev-haskell, family: [ gentoo, exherbo ] }
 - { setname: "haskell:$1", noflag: not_haskell, namepat: "ghc[0-9.]+-(.*)", family: sisyphus }
 - { setname: "haskell:$0", noflag: not_haskell, category: "haskellPackages", ruleset: [ nix ] }
@@ -63,7 +63,7 @@
 
 # Nodejs
 - { setname: "node:$1", noflag: not_node, namepat: "node-(.*)", ruleset: debuntu }
-- { setname: "node:$1", noflag: not_node, namepat: "nodejs-(.*)", ruleset: [arch,fedora,mageia,rosa,sisyphus,opensuse] }
+- { setname: "node:$1", noflag: not_node, namepat: "nodejs-(.*)", ruleset: [arch,fedora,mageia,rosa,sisyphus,opensuse,pld] }
 
 # Ocaml
 - { namepat: "ocaml([0-9.]*)-(.*)", noflag: not_ocaml, setname: "ocaml:$2", addflavor: "$1" }
@@ -76,7 +76,7 @@
 - { setname: "perl:$1", noflag: not_perl, namepat: "p5-(.*)", ruleset: [crux,freebsd,macports,openbsd,pkgsrc] }
 - { setname: "perl:$1", noflag: not_perl, namepat: "p5.[0-9]+-(.*)", ruleset: macports }
 - { setname: "perl:$1", noflag: not_perl, namepat: "lib(.*)-perl", ruleset: debuntu }
-- { setname: "perl:$1", noflag: not_perl, namepat: "perl-(.*)", ruleset: [alpine,aosc,arch,centos,fedora,gobolinux,guix,kaos,mageia,msys2,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds] }
+- { setname: "perl:$1", noflag: not_perl, namepat: "perl-(.*)", ruleset: [alpine,aosc,arch,centos,fedora,gobolinux,guix,kaos,mageia,msys2,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds, pld] }
 - { setname: "perl:$0", noflag: not_perl, category: dev-perl, ruleset: [gentoo,exherbo,haikuports] }
 - { setname: "perl:$0", noflag: not_perl, category: perl-core, ruleset: [gentoo,exherbo] }
 
@@ -84,7 +84,7 @@
 #- { setname: "php:$0", noflag: not_php, family: gentoo, category: dev-php }
 - { setname: "php:$1", noflag: not_php, namepat: "(?:pear-|pecl-|php-)*(.*?)", family: [gentoo,exherbo], category: dev-php }
 - { setname: "php:$1", noflag: not_php, namepat: "(?:pear|pecl)-(.*)", family: [freebsd,macports,openbsd,pkgsrc,sisyphus] }
-- { setname: "php:$1", noflag: not_php, namepat: "php[0-9]+-(?:pear|pecl)-(.*)", family: [freebsd,mageia,pkgsrc] }
+- { setname: "php:$1", noflag: not_php, namepat: "php[0-9]+-(?:pear|pecl)-(.*)", family: [freebsd,mageia,pkgsrc,pld] }
 - { setname: "php:$1", noflag: not_php, namepat: "php-(?:(?:pear|pecl)-)?(.*)", family: [mageia,rosa] }
 - { setname: "php$1:$2", noflag: not_php, namepat: "php([0-9]*)-(.*)", family: [freebsd,macports,openbsd,pkgsrc,ravenports] }
 - { setname: "php$1:$2", noflag: not_php, namepat: "php([0-9]+)-(.*)", family: arch } # AUR
@@ -93,18 +93,19 @@
 - { setname: "php56:$1", noflag: not_php, namepat: "php5-(.*)", family: opensuse }
 - { setname: "php56:$1", noflag: not_php, namepat: "php-5_6-ext-(.*)", family: openindiana }
 - { setname: "php70:$1", noflag: not_php, namepat: "php-7\\.0-ext-(.*)", family: openindiana }
+- { setname: "php:$1", noflag: not_php, namepat: "php(?:[0-9]*|pear-)?(.*)", family: pld }
 
 # R
-- { setname: "r:$1", noflag: not_r, namepat: "r-cran-(.*)", ruleset: [ freebsd, debuntu, arch, pclinuxos, mageia ] }
+- { setname: "r:$1", noflag: not_r, namepat: "r-cran-(.*)", ruleset: [ freebsd, debuntu, arch, pclinuxos, mageia, pld ] }
 - { setname: "r:$1", noflag: not_r, namepat: "r-bioc-(.*)", ruleset: [ debuntu ] }
-- { setname: "r:$1", noflag: not_r, namepat: "r-(.*)",      ruleset: [ pkgsrc, fedora, guix, arch, debuntu, rosa, sisyphus, opensuse, nix ] }
+- { setname: "r:$1", noflag: not_r, namepat: "r-(.*)",      ruleset: [ pkgsrc, fedora, guix, arch, debuntu, rosa, sisyphus, opensuse, nix, pld ] }
 
 # ROS
 - { setname: "ros:$0", noflag: not_ros, category: dev-ros,   ruleset: [ gentoo, exherbo ] }
 - { setname: "ros:$1", noflag: not_ros, namepat: "ros-(.*)", ruleset: [ debuntu, arch ] }
 
 # Ruby
-- { setname: "ruby:$1", noflag: not_ruby, namepat: "ruby-(.*)", family: [alpine,aosc,arch,debuntu,fedora,guix,mageia,ravenports,rosa,sisyphus] }
+- { setname: "ruby:$1", noflag: not_ruby, namepat: "ruby-(.*)", family: [alpine,aosc,arch,debuntu,fedora,guix,mageia,ravenports,rosa,sisyphus,pld] }
 - { setname: "ruby:$1", noflag: not_ruby, namepat: "rubygem-(.*)", family: [centos,fedora,freebsd,opensuse,pclinuxos,rosa,slackbuilds] }
 - { setname: "ruby:$1", noflag: not_ruby, namepat: "ruby[0-9][0-9]-(.*)", family: [freebsd,openbsd,pkgsrc] }
 - { setname: "ruby:$1", noflag: not_ruby, namepat: "rb[0-9]*-(.*)", family: macports }

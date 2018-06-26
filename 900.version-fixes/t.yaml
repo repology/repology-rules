@@ -11,14 +11,15 @@
 - { name: tcc,                         verpat: "20[0-9]{2}.*",                             ignore: true } # freebsd
 - { name: tcl,                         verpat: ".*20[0-9]{6}.*",                           ignore: true } # 8.7 snapshots
 - { name: tcl,                         verpat: ".*a[0-9]+",                                devel: true }
+- { name: tcpblast,                    verpat: "20[0-9]{6}",                               ignore: true }
 - { name: tcpflow,                     ver: "1.4.6",                 ruleset: nix,         incorrect: true }
 - { name: tcptrack,                    wwwpart: bchretien,                                 successor: true } # fork
 - { name: tdb,                         ver: "3.6.0",                                       incorrect: true } # pclinuxos wtf; https://www.samba.org/ftp/tdb/
 - { name: teem,                        ver: "1.12.0",                family: debuntu,      ignore: true }
 - { name: telepathy-haze,              ver: "0.8.0.1",               ruleset: sisyphus,    incorrect: true }
 - { name: telepathy-haze,                                            ruleset: sisyphus,    untrusted: true }
-- { name: telepathy-qt,                ver: "0.14.1",                ruleset: gobolinux,   incorrect: true }
-- { name: telepathy-qt,                                              ruleset: gobolinux,   untrusted: true }
+- { name: telepathy-qt,                ver: ["0.14.1","0.17.7"],     ruleset: [gobolinux,pld], incorrect: true }
+- { name: telepathy-qt,                                              ruleset: [gobolinux,pld], untrusted: true }
 - { name: template-glib,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: tesseract-game,              verpat: "(20[0-9]{2})[^0-9]?([0-9]{2})[^0-9]?([0-9]{2})", setver: "$1_$2_$3" }
 - { name: tesseract-ocr-data,          verpat: "20[0-9]{6}.*",                             ignore: true }
@@ -50,6 +51,7 @@
 - { name: toxic,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: toxic,                       verpat: "2017.*",                                   outdated: true } # 0.8.2 from 2018
 - { name: transset,                    verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: transset,                    verpat: "[0-9]{6}",                                 incorrect: true }
 - { name: tre,                         verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: treesheets,                  verpat: ".*20[0-9]{2}.*",                           incorrect: true } # it has recent 1.0.0 release, see https://github.com/aardappel/treesheets/releases
 - { name: treesheets,                  verpat: ".*[0-9]{6}.*",                             incorrect: true } # it has recent 1.0.0 release, see https://github.com/aardappel/treesheets/releases

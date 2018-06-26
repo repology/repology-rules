@@ -8,21 +8,24 @@
 - { name: "perl:array-diff",           ver: ["0.05002", "0.07000"],                        ignore: true }
 - { name: "perl:authen-sasl",          ver: [ "2.150", "2.160", "2.1500", "2.1600" ],      ignore: true }
 - { name: "perl:bio-asn1-entrezgene",  verpat: "1\\.[0-9]{3}",                             ignore: true }
+- { name: "perl:business-isbn",        verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: "perl:catalyst-plugin-authentication", ver: "0.100230",                          ignore: true }
 - { name: "perl:catmandu-store-mongodb", ver: ["0.0501","0.0403"],                         ignore: true }
 - { name: "perl:cbor-xs",              ver: [ "1.60", "1.50", "1.30" ],                    ignore: true }
-- { name: "perl:cgi-formbuilder",      ver: [ "3.1000", "3.0900", "3.90.0", "3.90.0", "3.0501", "3.0800", "3.100.0" ], ignore: true }
+- { name: "perl:cgi-formbuilder",      ver: [ "3.1000", "3.0900", "3.90.0", "3.90.0", "3.0501", "3.0800", "3.100.0", "3.0302" ], incorrect: true }
 - { name: "perl:cgi-simple",           verpat: "1\\.(113|115|130)(\\..*)?",                outdated: true }
 - { name: "perl:chi",                  ver: "0.580",                                       ignore: true }
 - { name: "perl:class-accessor-chained", ver: "0.01.1",                                    incorrect: true }
 - { name: "perl:compress-lzf",         verpat: "3.[789]0",                                 ignore: true }
 - { name: "perl:convert-ber",          ver: ["1.3200","1.3101"],                           ignore: true }
-- { name: "perl:convert-uulib",        ver: "1.50",                                        ignore: true }
+- { name: "perl:convert-uulib",        ver: "1.50",                                        incorrect: true }
+- { name: "perl:convert-uulib",        ver: "1.33",                                        outdated: true }
 - { name: "perl:cpan",                 ver: "2.1600",                                      ignore: true }
 - { name: "perl:cpan-meta-requirements", verpat: "2\\.[0-9]{6}.*",                         ignore: true }
+- { name: "perl:crypt-tea",            verpat: "2\\..*",                                   ignore: true } # actually Crypt::TEA vs. Crypt::Tea
 - { name: "perl:curses-ui-poe",        ver: ["0.04000","0.40.0","0.035","0.35.0"],         ignore: true }
 - { name: "perl:dancer-session-memcached", ver: ["0.2020"],                                ignore: true }
-- { name: "perl:data-compare",         ver: ["1.2200","1.2102","1.2101","1.250.0","1.240.0"], ignore: true }
+- { name: "perl:data-compare",         verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:datetime",             verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:datetime-locale",      verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:dbd-mysql",            verpat: ".*\\+.*", ruleset: aosc,                   devel: true }
@@ -34,6 +37,7 @@
 - { name: "perl:enum",                 verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:extutils-pkgconfig",   verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:extutils-xspp",        verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
+- { name: "perl:io-stty",              ver: "02",                                          incorrect: true }
 - { name: "perl:json-xs",              verpat: "3\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:json-xs",              verpat: "3\\.[1-9]0.*",                             ignore: true }
 - { name: "perl:math-polygon-tree",    ver: "0.0691",                                      ignore: true } # 0.0691 < 0.08 (CPAN versioning brokenness)
@@ -44,6 +48,7 @@
 - { name: "perl:pdl",                  verpat: ".*_[0-9]+",                                devel: true }
 - { name: "perl:readonly",             ver: "2.050",                                       ignore: true }
 - { name: "perl:redis",                verpat: "1\\.[0-9]{4,}",                            ignore: true }
+- { name: "perl:speech-recognizer-spx", verge: "0.80",                                     incorrect: true }
 - { name: "perl:sphinx-search",        verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:test-differences",     verpat: "0\\.[0-9]{3,}",                            ignore: true }
 - { name: "perl:test-exception",       ver: [ "0.430000", "0.400", "0.320" ],              ignore: true }
@@ -51,7 +56,8 @@
 - { name: "perl:test-number-delta",    verpat: "1\\.[0-9]{3,}",                            ignore: true }
 - { name: "perl:time-duration",        ver: "1.200000",                                    ignore: true }
 - { name: "perl:timedate",             verpat: "2\\.[0-9]{3,}",                            ignore: true }
+- { name: "perl:urpm",                                                                     ignore: false } # seem to not be mangled
 - { name: "perl:xml-parser",           ver: "2.44.01",                                     devel: true } # marked as developer release on cpan
 - { name: "perl:yaml-libyaml",         ver: "0.71",                  family: [ sisyphus ], ignore: true } # 0.71 wasn't an authorised release
-- { name: "perl:xml-rss-feed",         ver: "2.212",                                       outdated: true } # 2.212 < 2.4
+- { name: "perl:xml-rss-feed",         ver: ["2.212","2.32"],                              outdated: true } # 2.212 < 2.32 < 2.4
 - { name: "perl:xml-rss-feed",         ver: "2.40",                                        incorrect: true } # it's 2.4

@@ -62,6 +62,8 @@
 - { name: freerdp,                     ver: "2.0.0",                 family: [sisyphus,fedora,rosa], incorrect: true } # it's -rc[01] ATOW
 - { name: freerdp,                                                   family: [sisyphus,fedora,rosa], untrusted: true }
 - { name: freetds,                     vergt: "1.0.91",                                    devel: true } # http://www.freetds.org/files/stable/
+- { name: freewnn,                     ver: "1.1.1",                 ruleset: pld,         incorrect: true }
+- { name: freewnn,                                                   ruleset: pld,         untrusted: true }
 - { name: frescobaldi,                 ver: "3.0.1",                 family: sisyphus,     ignore: true } # fake
 - { name: frescobaldi,                 verpat: "3\\..*",                                   devel: true }
 - { name: [fs-uae,fs-uae-arcade,fs-uae-launcher], verpat: "([0-9.]+)-p([0-9]+)", ruleset: exherbo, setver: $1dev$2 }

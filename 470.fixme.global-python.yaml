@@ -19,7 +19,7 @@
 - { setname: "python:$1", noflag: not_python, namepat: "python3?-module-(.*)", family: sisyphus }
 - { setname: "python:$1", noflag: not_python, namepat: "python2?-(.*)", family: [arch,guix,openmandriva] }
 #- { setname: "python:$1", noflag: not_python, namepat: "python2-(.*)", family: msys2 }
-- { setname: "python:$1", noflag: not_python, namepat: "python3?-(.*)", family: [crux,fedora,opensuse,rosa,slackbuilds] }
+- { setname: "python:$1", noflag: not_python, namepat: "python3?-(.*)", family: [crux,fedora,opensuse,rosa,slackbuilds,pld] }
 - { setname: "python:$1", noflag: not_python, namepat: "python[0-9]\\.[0-9]-(.*)", family: nix }
 - { setname: "python:$1", noflag: not_python, namepat: "py[23]?-(.*)", family: alpine }
 - { setname: "python:$1", noflag: not_python, namepat: "py[0-9]*-(.*)", family: macports }

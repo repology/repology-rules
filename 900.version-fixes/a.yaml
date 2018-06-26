@@ -46,11 +46,13 @@
 - { name: aqmoney,                     verpat: "1\\..*",                                   devel: true }
 - { name: arduino,                     ver: "0021",                                        ignore: true } # EPEL 6
 - { name: argtable,                    verpat: "[0-9]{2}",                                 setver: 2.$0 } # artifacts from "argtable2 XX" vs. "argtable 2.XX"
+- { name: arpd,                        ver: ["1.0","1.0.2"],                               ignore: true }
 - { name: arptables,                   verpat: "20[0-9]{2}",                               ignore: true } # LEDE year
 - { name: arpwatch,                    ver: "2.1.15",                                      setver: "2.1a15" }
 - { name: axrtools,                    verlonger: 3,                                       incorrect: true }
 - { name: arora,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: arx-libertatis,              ver: "1.1.2pl1",                                    setver: "1.1.2" } # 3 LoC CMake fix, not worthy a new version
+- { name: asciijump,                   ver: "1.0.2",                 family: pld,          incorrect: true } # 1.0.2beta
 - { name: asdf,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: asdf,                        ver: "20101028",                                    outdated: true }
 - { name: asdf,                        verlonger: 3,                                       devel: true } # https://gitlab.common-lisp.net/asdf/asdf/blob/3.3.1.7/upgrade.lisp#L94
@@ -60,11 +62,14 @@
 - { name: aspell-be,                   ver: ["0.50.0", "0.60"],                            ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/be/
 - { name: aspell-bn,                   ver: "0.02",                  family: arch,         ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/bn/
 - { name: aspell-br,                   ver: "0.60.2",                                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/br/
-- { name: aspell-ca,                   ver: ["20090721","2.3.0"],                          ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/ca/
+- { name: aspell-ca,                   ver: "2.3.0",                                       incorrect: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/ca/
+- { name: aspell-ca,                   ver: "20040130",                                    outdated: true } # see https://ftp.gnu.org/gnu/aspell/dict/ca/
+- { name: aspell-ca,                   ver: "20090721",                                    incorrect: true } # actually 2.1.5-1, see https://ftp.gnu.org/gnu/aspell/dict/ca/
 - { name: [aspell-el,el-aspell],       ver: ["0.50","0.50.3"],                             ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/el/
 - { name: aspell-fi,                   ver: "0.60.0",                                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fi/
 - { name: aspell-fo,                   ver: ["0.51.0","0.4.2"],                            ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fo/
 - { name: aspell-fr,                   ver: "0.60",                                        ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fr/
+- { name: aspell-gl,                   ver: "0.50",                                        outdated: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fr/
 - { name: aspell-qu,                   ver: "20040424.1",                                  ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/qu/
 - { name: aspell-ru,                   ver: ["0.99.15.7.1","0.99.1"],                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/ru/
 - { name: aspell-sl,                   ver: "0.60",                                        ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/sl/
