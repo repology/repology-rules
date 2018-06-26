@@ -14,6 +14,7 @@
 - { name: markdown,                    ver: "1.0.2b8",               family: debuntu,      incorrect: true }
 - { name: markdown,                                                  family: debuntu,      untrusted: true }
 - { name: massren,                     verpat: "20[0-9]{6}",                               ignore: true }
+- { name: mate-desktop,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: matreshka,                   ver: "0.8.0",                 family: fedora,       ignore: true } # fake (see report)
 - { name: meld,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: menulibre,                   verpat: "13\\..*",                                  outdated: true }
