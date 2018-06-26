@@ -166,6 +166,8 @@
 - { setname: libxaw3dxft,              name: xaw3dxft }
 - { setname: libxcb,                   name: [libx32-libxcb,xorg-libxcb,compat-libxcb] }
 - { setname: libxfont,                 name: [libxfont,libxfont1,libxfont2,xorg-libxfont,xorg-libxfont2,xorg-xfont,xorg-xfont2] }
+- { setname: libxfce4util,             name: libxfce4util-devel, ignore: true }
+- { setname: libxfce4util,             name: libxfce4util-gtk3, addflavor: gtk3 }
 - { setname: libxkbcommon,             name: libxkbcommon-doc, addflavor: doc }
 - { setname: libxkbcommon,             name: libxkbcommon-x11, addflavor: x11 }
 - { setname: libxkbcommon,             name: xkbcommon }
