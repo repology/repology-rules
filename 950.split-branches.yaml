@@ -1,7 +1,8 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
-- { name: allegro,           verpat: "4\\..*",            setname: allegro4 }
 - { name: allegro,           verpat: "5\\..*",            setname: allegro5 }
+- { name: allegro,           verpat: "4\\.9\\..*",        setname: allegro5 }
+- { name: allegro,           verpat: "4\\..*",            setname: allegro4 }
 - { name: allegro,           warning: "please classify me" }
 
 - { name: antlr,             verpat: "2\\..*",            setname: antlr2 }
