@@ -23,6 +23,7 @@
 - { name: wine,                        verpat: "[0-9]+\\.0*[1-9].*",                       devel: true }
 - { name: wine,                        verpat: ".*r.*",                                    devel: true }
 - { name: winexe,                      ver: "1.1",                   family: debuntu,      incorrect: true } # snapshot
+- { name: winff,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: wire,                        verpat: "20[0-9]{6}",                               ignore: true } # aur snapshot
 - { name: wireguard,                   verpat: "20[0-9]{6}",                               incorrect: true } # it's 0.0.20YYMMDD
 - { name: wireguard,                   verpat: "4.*",                                      incorrect: true } # it's 0.0.20YYMMDD
