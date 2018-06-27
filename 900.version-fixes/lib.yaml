@@ -1,5 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: lib3ds,                      ver: "20080909",                                    setver: "2.0.0-rc1" } # https://code.google.com/archive/p/lib3ds/downloads
+- { name: lib3ds,                      ver: "2.0.0",                 ruleset: haikuports,  incorrect: true } # 2.0.0-rc1
 - { name: libadacrypt,                                                                     noscheme: true }
 - { name: libappindicator,                                           ruleset: slackbuilds, ignore: true } # uses fork?
 - { name: libappindicator,             ver: "12.10.1",               ruleset: [opensuse,debuntu], incorrect: true }
