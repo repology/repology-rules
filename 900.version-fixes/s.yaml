@@ -68,8 +68,8 @@
 - { name: spek,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]+_[0-9a-f]{10}",    ignore: true }
 - { name: speex,                       verlonger: 3,                 family: openindiana,  ignore: true }
 - { name: speexdsp,                    ver: "1.2.0.3",                                     incorrect: true } # it's 1.2rc3
-- { name: speexdsp,                    ver: "1.2",                   family: sisyphus,     incorrect: true } # it's 1.2rc3
-- { name: speexdsp,                                                  family: sisyphus,     untrusted: true }
+- { name: speexdsp,                    ver: "1.2",                   family: [sisyphus,mageia,openmandriva,pld], incorrect: true } # it's 1.2rc3
+- { name: speexdsp,                                                  family: [sisyphus,mageia,openmandriva,pld], untrusted: true }
 - { name: spice-cad,                   ver: ["3f5.1","3f5.2","3f5sfix"],                   incorrect: true } # not sure where these come from
 - { name: spice-cad,                   ver: "3.5.5",                                       incorrect: true }
 - { name: spidermonkey,                ver: "1.70",                                        setver: "1.7.0" }
