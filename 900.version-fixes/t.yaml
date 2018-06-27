@@ -16,6 +16,9 @@
 - { name: tcptrack,                    wwwpart: bchretien,                                 successor: true } # fork
 - { name: tdb,                         ver: "3.6.0",                                       incorrect: true } # pclinuxos wtf; https://www.samba.org/ftp/tdb/
 - { name: teem,                        ver: "1.12.0",                family: debuntu,      ignore: true }
+- { name: telegram-cli,                verpat: ".*20[0-9]{6}",                             ignore: true }
+- { name: telegram-cli,                ver: "1.4.1",                 ruleset: slackbuilds, incorrect: true }
+- { name: telegram-cli,                                              ruleset: slackbuilds, untrusted: true }
 - { name: telepathy-haze,              ver: "0.8.0.1",               ruleset: sisyphus,    incorrect: true }
 - { name: telepathy-haze,                                            ruleset: sisyphus,    untrusted: true }
 - { name: telepathy-qt,                ver: ["0.14.1","0.17.7"],     ruleset: [gobolinux,pld], incorrect: true }

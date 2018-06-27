@@ -32,15 +32,20 @@
 - { name: pingus,                      verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: pkg,                         verpat: "[0-9]+\\.[0-9]+\\.99\\..*",                devel: true }
 - { name: pkgdiff,                     ver: "1.8",                   ruleset: freshcode,   ignore: true } # https://github.com/lvc/pkgdiff/issues/35
+- { name: plantuml,                    verpat: "[0-9]{4,5}",                               incorrect: true } # 1.2018.8
 - { name: pldebugger,                  verge: "9",                                         outdated: true } # https://git.postgresql.org/gitweb/?p=pldebugger.git;a=tag;h=264450daaf89455f92ebcd7d4ff2e8a0a9a19209
 - { name: plowshare-modules,                                                               ignore: true } # no official releases
 - { name: pmount,                      ver: "0.9.99",                                      setver: "0.9.99_alpha" }
 - { name: pmount,                      verpat: "0\\.9\\.99.*",                             devel: true }
+- { name: png2ico,                     verpat: "20[0-9]{6}",                               incorrect: true } # it's 2002-12-08
+- { name: png2ico,                     ver: "2008.12.08",                                  incorrect: true }
 - { name: polari,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: popt,                        ver: "1.17",                  ruleset: pld,         incorrect: true }
 - { name: popt,                                                      ruleset: pld,         untrusted: true }
 - { name: portaudio,                   verpat: "20[0-9]{6}",                               ignore: true }
 - { name: portaudio,                   ver: "20161030",                                    incorrect: true } # it's 190600_20161030
+- { name: portmidi,                    verpat: "[0-9]{7}",                                 incorrect: true }
+- { name: portmidi,                    verpat: "20[0-9]{6}",                               ignore: true }
 - { name: postfix,                     verpat: ".*r.*",                                    devel: true }
 - { name: postgis,                     verpat: ".*\\.9[0-9]+",       family: kaos,         incorrect: true } # 2.4.3.90 instead of 2.4.4dev
 - { name: postgis,                                                   family: kaos,         untrusted: true }

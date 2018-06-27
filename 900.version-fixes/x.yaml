@@ -26,7 +26,8 @@
 - { name: xmove,                                                     ruleset: sisyphus,    untrusted: true }
 - { name: xmrig,                       ver: "2.6.0",                 ruleset: [sisyphus,aur], incorrect: true } # beta3
 - { name: xmrig,                                                     ruleset: [sisyphus,aur], untrusted: true }
-- { name: xl2tpd,                      ver: "20140214",                                    ignore: true } # pkgsrc is using snapshot; Others are using versions with dots
+- { name: xl2tpd,                      verpat: "20[0-9]{6}",                               ignore: true }
+- { name: xl2tpd,                      verge: "20000000", verlt: "20180519",               outdated: true }
 - { name: xmahjongg,                   ver: "3.70",                  family: [ pkgsrc ],   incorrect: true }
 - { name: xml-coreutils,               ver: "0.8a",                                        outdated: true }
 - { name: xmltoman,                    verge: "0.5",                                       successor: true }
