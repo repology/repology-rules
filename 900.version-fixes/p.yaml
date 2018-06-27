@@ -69,6 +69,10 @@
 - { name: proot,                       verpat: "5\\.1\\.[0-9]{3}.*",                       incorrect: true }
 - { name: psi-plus,                    verpat: "20[0-9]{6}.*",                             ignore: true } # opensuse garbage
 - { name: psi-plus,                    verlonger: 3,                                       ignore: true } # aur garbage
+- { name: purple-facebook,             ver: "20170608",                                    outdated: true }
+- { name: purple-facebook,             verpat: "20[0-9]{6}",                               ignore: true }
+- { name: purple-facebook,             verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)[._-][a-f0-9]{12}", setver: $1 } # not sure what the hash is
+- { name: purple-facebook,             verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)[._-][0-9]+",    incorrect: true }
 - { name: pwsafe,                      verpat: "20[0-9]{6}",                               ignore: true } # aur, hyperbola
 - { name: pycharm,                     verpat: "[0-9]+\\.[0-9]\\.[0-9]{3,}\\.[0-9]{4,}\\.[0-9]+", devel: true } # e.g. 2017.2.172.2103.19 - assuming EAP (early access) version
 - { name: pycharm,                     verpat: ".*20[0-9]{6}",                             ignore: true }
