@@ -2,6 +2,7 @@
 
 - { name: qca,                         ver: "2.2.0",                 family: vcpkg,        incorrect: true } # not released yet
 - { name: qdjango,                     verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: qelectrotech,                verpat: ".*r.*",                                    ignore: true }
 - { name: qemu,                        verpat: ".*pre[0-9]{5}.*",                          ignore: true }
 - { name: qjson,                       ver: "1.0.0",                 ruleset: openmandriva, incorrect: true }
 - { name: qjson,                                                     ruleset: openmandriva, untrusted: true }
