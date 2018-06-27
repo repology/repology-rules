@@ -9,12 +9,14 @@
 - { name: rar,                         verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: rakarrack,                   ver: "0.6.2",                 ruleset: [sisyphus,fedora,rosa], incorrect: true }
 - { name: rakarrack,                                                 ruleset: [sisyphus,fedora,rosa], untrusted: true }
+- { name: rbldnsd,                     verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: rdist,                       verpat: ".*a.*",                                    devel: true }
 - { name: readline,                    verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1p$2 }
 - { name: readline,                                                                        p_is_patch: true }
 - { name: recode,                      ver: "3.7-2fd838565",                               ignore: true }
 - { name: recode,                      verpat: ".*20[0-9]{4}.*",                           ignore: true }
 - { name: recode,                      verge: "3.7",                                       successor: true } # fork
+- { name: regexxer,                    verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: reptyr,                      ver: "0.6.3a",                family: freebsd,      incorrect: true } # fake, no such tag
 - { name: remmina,                     verpat: "(.*?)([^0-9]*r[^0-9]*)(.*?)",              setver: "$1-rcgit.$3", devel: true, ignore: false } # r, rc, rcgit, etc.
 - { name: remmina,                     ver: "1.2.0",                 family: [alpine,sisyphus,debuntu,rosa], incorrect: true } # liars, it's at 1.2.0-rcgit.XX stage

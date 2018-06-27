@@ -13,6 +13,7 @@
 - { name: netpbm,                      ver: "10.82.01",              ruleset: macports,    incorrect: true } # https://sourceforge.net/p/netpbm/code/HEAD/tree/release_number/
 - { name: netpbm,                                                    ruleset: macports,    untrusted: true }
 - { name: netpbm,                      verpat: "[0-9]{4}",                                 incorrect: true } # aosc, termux wtf
+- { name: netperf,                     verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: networkmanager,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ngrok,                       ver: [stable,4VmDzA7iaHb],    ruleset: scoop,       incorrect: true }
 - { name: ngrok,                                                     ruleset: scoop,       untrusted: true }

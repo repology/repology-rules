@@ -20,6 +20,8 @@
 - { name: xhyve,                       verpat: "20[0-9]{6}",                               ignore: true } # macports
 - { name: xmbmon,                      verpat: "[0-9]{3}",                                 incorrect: true } # it's 2.05, not 205. Also not 2.0.5.
 - { name: xmlrpc-c,                    vergt: "1.39.12",                                   devel: true } # http://xmlrpc-c.sourceforge.net/change_super_stable.html
+- { name: xmms2,                       verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: xmms2,                       verpat: ".*DrO.*",                                  ignore: true } # ?!
 - { name: xmove,                       ver: "2.0",                   ruleset: sisyphus,    incorrect: true } # it's 2.0beta2
 - { name: xmove,                                                     ruleset: sisyphus,    untrusted: true }
 - { name: xmrig,                       ver: "2.6.0",                 ruleset: [sisyphus,aur], incorrect: true } # beta3

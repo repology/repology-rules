@@ -2,6 +2,7 @@
 
 - { name: v,                           verpat: "[0-9]+",                                   ignore: true } # aur; correct versions is 1.1
 - { name: vala,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: valentina,                   verpat: ".*a",                                      devel: true }
 - { name: vbindiff,                    ver: "3.0",                   ruleset: pld,         incorrect: true }
 - { name: vbindiff,                                                  ruleset: pld,         untrusted: true }
 - { name: vcsh,                        ver: "1.20170226",                                  incorrect: true } # nix fake
