@@ -125,6 +125,7 @@
 - { setname: squid,                    namepat: "squid[0-9._-]+" }
 - { setname: squirrelmail-$1,          namepat: "squirrelmail-(.*)-plugin", family: freebsd }
 - { setname: sratom,                   name: libsratom }
+- { setname: ssmtp,                    name: ssmtp-plain, addflavor: plain }
 - { setname: st-term,                  name: stterm }
 - { setname: st-term,                  name: [st-n1,st-patched,st-scrollback,st-solarized,st-solarized-powerline,st-tomorrownight,st-white], addflavor: true }
 - { setname: staruml,                  name: staruml-bin, addflavor: bin }

@@ -1,11 +1,14 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: lash,                        verpat: "0\\.6\\.0\\.[0-9]{3}.*",                   incorrect: true } # 0.6.0rc2
 - { name: lbd,                         verpat: "20[0-9]{6}",                               ignore: true } # BlackArch snap
 - { name: lcms,                        verpat: "2.2[0-9]",                                 ignore: true } # gobolinux brokenness
 - { name: lcov,                        ver: "1.14",                  family: opensuse,     incorrect: true }
 - { name: lcov,                                                      family: opensuse,     untrusted: true }
 - { name: less,                        vergt: "530",                                       devel: true } # XXX: MAINTAINANCE; http://www.greenwoodsoftware.com/less/
-- { name: libreoffice,                 ver: "6.0.4.1",                                     devel: true }
+- { name: lha,                         verpat: "[0-9]{3}.*",                               incorrect: true } # it's e.g 1.14i
+- { name: lha,                         ver: "1.17",                  family: aur,          incorrect: true }
+- { name: libreoffice,                 ver: "6.0.4.1",                                     devel: true } # XXX: MAINTAINANCE
 - { name: lightdm-gtk-greeter,         verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: lightsoff,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: lightworks,                  verlonger: 3,                 family: kaos,         ignore: true }

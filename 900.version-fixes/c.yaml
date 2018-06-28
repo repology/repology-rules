@@ -10,6 +10,7 @@
 - { name: can-utils,                                                                       noscheme: true }
 - { name: cave9,                       ver: "0.4.1.git20150408",     family: freebsd,      setver: "0.4.1" }
 - { name: cblas,                       verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: ccd2iso,                     ver: "0.9",                   family: freebsd,      outdated: true } # it's fake, no mention of 0.9 at all, and it uses file which was released before 0.3
 - { name: cdecl,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: cdrtools,                    ver: "3.02",                  family: [debuntu,rosa,openmandriva], incorrect: true } # fake, it's alpha
 - { name: cdrtools,                                                  family: [debuntu,rosa,openmandriva], untrusted: true }
@@ -60,6 +61,8 @@
 - { name: compizconfig-python,         ver: "0.9.5.94",                                    outdated: true } # some antient garbage from ubuntu 12
 - { name: cons,                        ver: "2.3.0.1",                                     ignore: true } # debian uses this to revert to 2.2.0. http://metadata.ftp-master.debian.org/changelogs/main/c/cons/cons_2.3.0.1+2.2.0-2_changelog "The odd version string is to avoid using epochs" <- that's what epochs are for, dammit
 - { name: containerd,                  verpat: "[0-9a-f]{7}",                              ignore: true } # crux garbage
+- { name: cool-retro-term,             ver: "1.0.2",                 ruleset: deepin,      incorrect: true }
+- { name: cool-retro-term,                                           ruleset: deepin,      untrusted: true }
 - { name: coolkey,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+_[0-9]+",          incorrect: true } # AUR using fedora package revision
 - { name: courier-authlib,             verpat: ".*\\.20[0-9]{6}",                          devel: true }
 - { name: courier-unicode,             verpat: ".*\\.20[0-9]{6}",                          devel: true } # http://www.courier-mta.org/download.html#unicode
