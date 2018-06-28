@@ -13,6 +13,7 @@
 - { name: vdrift,                      verpat: "([0-9]{4})\\.?([0-9]{2})\\.?([0-9]{2})",   setver: $1-$2-$3 } # XXX: problem
 - { name: vgmstream,                   verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: vid.stab,                    verpat: ".*[0-9a-f]{7}.*",                          ignore: true } # git commit
+- { name: virtualgl,                   verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: vis,                         verpat: "[0-9]{4,}",                                ignore: true } # LEDE
 - { name: visitors,                    ver: "1.1",                   family: rosa,         ignore: true }
 - { name: visitors,                                                  family: rosa,         untrusted: true }
