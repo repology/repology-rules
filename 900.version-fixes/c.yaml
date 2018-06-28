@@ -10,6 +10,7 @@
 - { name: can-utils,                                                                       noscheme: true }
 - { name: cave9,                       ver: "0.4.1.git20150408",     family: freebsd,      setver: "0.4.1" }
 - { name: cblas,                       verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: ccd2iso,                     ver: "0.9",                   family: freebsd,      outdated: true } # it's fake, no mention of 0.9 at all, and it uses file which was released before 0.3
 - { name: cdecl,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: cdrtools,                    ver: "3.02",                  family: [debuntu,rosa,openmandriva], incorrect: true } # fake, it's alpha
 - { name: cdrtools,                                                  family: [debuntu,rosa,openmandriva], untrusted: true }
