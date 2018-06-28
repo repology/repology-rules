@@ -77,6 +77,7 @@
 - { setname: popt,                     name: libpopt }
 - { setname: portaudio,                name: [portaudio19,portaudio2,portaudio-devel,portaudio-svn] }
 - { setname: portmidi,                 name: libportmidi }
+- { setname: portmidi,                 name: "python:pyportmidi", addflavor: python }
 - { setname: postfix,                  name: [postfix-current,postfix-current-sasl,postfix211,postfix211-sasl] }
 - { setname: postfwd,                  name: postfix-postfwd, family: freebsd }
 - { setname: postgis,                  name: [postgis-src,postgis-sfcgal,liblwgeom] }
