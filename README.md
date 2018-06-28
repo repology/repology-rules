@@ -233,7 +233,7 @@ Matches exact package version(s).
 
 Matches package version name against a regular expression. Whole
 version is matched. Note that you need to escape periods which
-mean "any symbol" in regular expressions.
+mean "any symbol" in regular expressions. Matching is case insensitive.
 
 ```yaml
 - { name: firefox, verpat: "50\\.[0-9]+", ... }
