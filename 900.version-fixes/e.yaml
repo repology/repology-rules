@@ -36,6 +36,8 @@
 - { name: "erlang:cl",                 verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: espeak,                      ver: "1.48.15",               ruleset: rosa,        incorrect: true }
 - { name: espeak,                                                    ruleset: rosa,        untrusted: true }
+- { name: eterm,                       ver: "0.9.7",                 ruleset: mageia,      incorrect: true }
+- { name: eterm,                                                     ruleset: mageia,      untrusted: true }
 - { name: ethtool,                     verpat: "6.*",                                      ignore: true } # XXX: check if https://www.kernel.org/pub/software/network/ethtool/ and ethtool from https://sourceforge.net/projects/gkernel/ are the same project. Anyway, the former is fresh and the latter is ancient crap from 2007
 - { name: eudev,                       verlonger: 3,                 ruleset: antix,       incorrect: true }
 - { name: eventlog,                    verpat: "20[0-9]{6}.*",                             ignore: true }
