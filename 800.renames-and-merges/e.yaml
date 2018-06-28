@@ -21,6 +21,8 @@
 - { setname: eid-mw,                   name: [beid-middleware,beid,libbeid] }
 - { setname: eid-viewer,               name: eid-viewer-bin }
 - { setname: eigen,                    namepat: "eigen[0-9._-]+" }
+- { setname: eigen,                    name: libeigen }
+- { setname: eigen,                    name: libeigen2-devel, ignore: true }
 - { setname: einstein,                 name: einstein-puzzle, family: pkgsrc }
 - { setname: eiskaltdcpp,              namepat: eiskaltdcpp-(cli|daemon|data|gtk|lib|qt|core) }
 - { setname: elasticsearch,            namepat: "elasticsearch[0-9]+" }
