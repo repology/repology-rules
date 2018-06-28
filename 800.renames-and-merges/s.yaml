@@ -35,9 +35,9 @@
 - { setname: sdllopan,                 name: sdl_lopan }
 - { setname: sdlmame,                  name: sdlmame-wout-toolkits, addflavor: wout-toolkits }
 - { setname: sdocbook-xml,             name: docbook-xml-simple } # ravenports
-- { setname: seamonkey,                name: [seamonkey-bin,seamonkey-gtk2,seamonkey-l10n], addflavor: true }
+- { setname: seamonkey,                name: [seamonkey-bin,seamonkey-gtk2,seamonkey-l10n,seamonkey-i18n], addflavor: true }
 - { setname: seamonkey,                name: [seamonkey-en,seamonkey-ru], addflavor: true }
-- { setname: seamonkey,                namepat: "seamonkey-(i18n-.*)", addflavor: $1 }
+- { setname: seamonkey,                namepat: "seamonkey-(i18n-.*)", addflavor: true }
 - { setname: searx,                    name: searx-py3 }
 - { setname: sed,                      name: [gnu-sed,gnused,gsed] }
 - { setname: seexpr,                   name: seexpr-doc, addflavor: doc }
