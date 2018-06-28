@@ -73,3 +73,5 @@
 - { name: ftp,                         verpat: "20[0-9]{6}.*",                             ignore: true } # haiku snapshot
 - { name: ftp,                         ver: "0.18",                  family: sisyphus,     ignore: true } # fake; actually 0.18pre1
 - { name: frozen-bubble,               ver: ["905bf71","2.212.0"],                         ignore: true } # fake?
+- { name: fxload,                      verpat: "20[0-9]{6}",                               ignore: true }
+- { name: fxload,                      ver: "20081013",                                    incorrect: true } # it's 2008_10_13
