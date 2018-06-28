@@ -1,5 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: easy-rsa,                    ver: "3.0.5",                 ruleset: ravenports,  incorrect: true }
+- { name: easy-rsa,                                                  ruleset: ravenports,  untrusted: true }
 - { name: easygit,                     verpat: "20[0-9]{6}",                               ignore: true } # pld snapshot
 - { category: "Graphical desktop/Enlightenment", verpat: "20[0-9]{6}.*", family: pclinuxos, ignore: true }
 - { name: eb,                          verpat: ".*20[0-9]{6}",                             ignore: true } # macports snapshot
