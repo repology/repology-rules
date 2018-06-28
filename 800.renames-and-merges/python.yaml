@@ -41,7 +41,16 @@
 - { setname: "python:ipywidgets",      name: ["python:jupyter_ipywidgets","python:jupyter_ipywidgets-doc",ipywidgets,jupyter-ipywidgets] }
 - { setname: "python:irc",             name: "python:irclib" }
 - { setname: "python:jade-application-kit", name: jade-application-kit }
+- { setname: "python:jaraco.classes",   name: ["python:jaraco-classes",jaraco.classes] }
+- { setname: "python:jaraco.collections", name: "python:jaraco-collections" }
+- { setname: "python:jaraco.functools", name: "python:jaraco-functools" }
 - { setname: "python:jaraco.itertools", name: ["python:jaraco-itertools",jaraco.itertools] }
+- { setname: "python:jaraco.logging",   name: "python:jaraco-logging" }
+- { setname: "python:jaraco.packaging", name: "python:jaraco-packaging" }
+- { setname: "python:jaraco.stream",    name: "python:jaraco-stream" }
+- { setname: "python:jaraco.text",      name: "python:jaraco-text" }
+- { setname: "python:jaraco.util",      name: "python:jaraco-util" }
+- { setname: "python:jaraco.util",      name: "python:jaraco-utils" } # XXX: problem, incorrect name
 - { setname: "python:kiwisolver",      name: kiwisolver }
 - { setname: "python:lhafile",         name: "python:python-lhafile" }
 - { setname: "python:libvirt-python",  name: ["python:libvirt", libvirt-python ] }
