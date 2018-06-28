@@ -78,5 +78,5 @@
 - { name: pycharm,                     verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: python,                      verpat: ".*[ab].*",                                 devel: true }
 - { name: pytrainer,                   ver: ["1.10.1", "1.10.2"],    family: debuntu,      ignore: true }
-- { name: pyzy,                        ver: "1.0",                   family: arch,         incorrect: true }
+- { name: pyzy,                        ver: "1.0",                   ruleset: [arch,aosc], incorrect: true }
 - { name: pyzy,                        verpat: ".*20[0-9]{6}",                             ignore: true }
