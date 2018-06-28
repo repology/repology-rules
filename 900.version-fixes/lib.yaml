@@ -70,6 +70,7 @@
 - { name: libpaper,                    ver: "1.1.24",                                      setver: "$0nmu0" }
 - { name: libpaper,                    verpat: "(1\\.1\\.24)[^0-9]+([0-9]+)",              setver: "$1nmu$2" } # they all take from debian and there's num suffix
 - { name: libpng,                      verpat: "1\\.7\\.0beta.*",    family: freshcode,    ignore: true }
+- { name: libpsl,                      verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: libqinfinity,                ver: "0.6.0",                 ruleset: mageia,      incorrect: true } # no such tag, only 0.6 branch
 - { name: libqinfinity,                verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: libretro-2048,                                                                   noscheme: true }
