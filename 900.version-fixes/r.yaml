@@ -3,11 +3,15 @@
 - { name: "r:nws",                     ver: "2.0.0.3",               family: debuntu,      ignore: true } # fake
 - { name: "r:hexbin",                  ver: "1.27.1-1",                                    ignore: true } # guix fake
 - { name: "r:waveslim",                ver: "1.12",                  family: rosa,         ignore: true } # fake
+- { name: r3,                          ver: "2.0.0",                 ruleset: buckaroo,    incorrect: true } # https://github.com/LoopPerfect/r3/tags
+- { name: r3,                                                        ruleset: buckaroo,    untrusted: true }
 - { name: racer-game,                  ver: "1.1.64",                                      incorrect: true } # it's 1.1 64bit version
 - { name: rage,                        verlonger: 3,                                       devel: true } # snapshots
 - { name: ragel,                       verpat: "7\\..*",                                   devel: true } # http://www.colm.net/open-source/ragel/
 - { name: rakarrack,                   ver: "0.6.2",                 ruleset: [sisyphus,fedora,rosa], incorrect: true }
 - { name: rakarrack,                                                 ruleset: [sisyphus,fedora,rosa], untrusted: true }
+- { name: range-v3,                    ver: "1.0.0",                 family: buckaroo,     incorrect: true } # 0.3.6 https://github.com/ericniebler/range-v3/releases
+- { name: range-v3,                                                  family: buckaroo,     untrusted: true }
 - { name: rar,                         verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: rbldnsd,                     verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: rdist,                       verpat: ".*a.*",                                    devel: true }

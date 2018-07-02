@@ -38,6 +38,8 @@
 - { name: tigervnc,                    verpat: ".*\\.9[0-9]+",                             devel: true }
 - { name: timidity++,                  ver: "2.15.0",                family: rosa,         incorrect: true } # 2.15.0 was not released yet
 - { name: timidity++,                                                family: rosa,         untrusted: true }
+- { name: tiny-dnn,                    ver: "1.0.0",                 family: buckaroo,     incorrect: true } # 1.0.0a3 https://github.com/tiny-dnn/tiny-dnn/releases
+- { name: tiny-dnn,                                                  family: buckaroo,     untrusted: true }
 - { name: theharvester,                verpat: "(2\\.7)\\.[12]",                           setver: $1 } # versions are mentioned in the changelog, but there are no tags
 - { name: theharvester,                ver: "2.7.3",                                       incorrect: true }
 - { name: thrift,                      verpat: "[0-9]{7}.*",                               ignore: true } # vcpkg and macports garbage

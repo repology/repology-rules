@@ -14,6 +14,10 @@
 - { ruleset: aur,             namepat: "(.*)-(cvs|svn|hg|darcs|bzr|git)", setname: "$1", rolling: true }
 - { ruleset: aur,             namepat: "(.*)-bin", setname: "$1" } # XXX: addflavor: bin
 
+- { ruleset: buckaroo,        wwwpart: boost.org, setname: boost, addflavor: $0 }
+- { ruleset: buckaroo,        wwwpart: pocoproject.org, setname: poco, addflavor: $0 }
+- { ruleset: buckaroo,        wwwpart: sfml-dev.org, setname: sfml, addflavor: $0 }
+
 - { ruleset: chocolatey,      namepat: "(.*)\\.(install|portable|commandline)", setname: "$1", addflavor: "$2" }
 - { ruleset: chocolatey,      untrusted: true } # nuget is terminally broken and can't handle arbitrary version schemes, so most are garbage
 
