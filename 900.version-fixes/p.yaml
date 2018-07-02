@@ -13,6 +13,7 @@
 - { name: pcc-libs,                    verpat: "20[0-9]{6}",                               ignore: true }
 - { name: pciids,                                                    family: sisyphus,     ignore: true } # ALT pick random date instead of official date version
 - { name: pcsx2,                       verpat: ".*[0-9]{4,}.*",                            ignore: true }
+- { name: pdfbook,                                                                         noscheme: true }
 - { name: perf,                        verpat: ".*20[0-9]{2}.*",                           incorrect: true }
 - { name: perl,                        ver: "5.26.2",                ruleset: fedora,      incorrect: true } # rc1
 - { name: perl,                                                      ruleset: fedora,      untrusted: true }

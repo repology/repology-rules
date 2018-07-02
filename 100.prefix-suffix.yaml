@@ -2,6 +2,8 @@
 
 - {                           namepat: "libx32-(.*)", setname: "$1", addflavor: libx32 }
 
+- { ruleset: aix,             namepat: "(.*)(_64|-64|-64bit)", setname: "$1", addflavor: "64" }
+
 - { ruleset: aosc,            namepat: "(.*)\\+32", setname: "$1", addflavor: "32" }
 
 - { ruleset: arch,            namepat: "lib32-(.*)", setname: "$1", addflavor: lib32 }

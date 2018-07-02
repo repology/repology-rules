@@ -10,6 +10,7 @@
 - { setname: "apmod:$1", noflag: not_apache, namepat: "mod-(.*)", ruleset: debuntu }
 - { setname: "apmod:$1", noflag: not_apache, namepat: "mod_(.*)", ruleset: [arch,centos,fedora,freebsd,gobolinux,macports,openindiana,rosa,sisyphus,slackbuilds] }
 - { setname: "apmod:$1", noflag: not_apache, namepat: "(?:lib)?apache2?-mod[_-](.*)" }
+- { setname: "apmod:$1", noflag: not_apache, namepat: "mod_(.*)[_-](ap[0-9]+)", ruleset: aix, addflavor: $2 }
 
 # Cursors
 - { setname: "cursors:$1", noflag: not_cursors, namepat: "(.*)-cursor-theme", ruleset: [ debuntu ] }
@@ -76,7 +77,7 @@
 - { setname: "perl:$1", noflag: not_perl, namepat: "p5-(.*)", ruleset: [crux,freebsd,macports,openbsd,pkgsrc] }
 - { setname: "perl:$1", noflag: not_perl, namepat: "p5.[0-9]+-(.*)", ruleset: macports }
 - { setname: "perl:$1", noflag: not_perl, namepat: "lib(.*)-perl", ruleset: debuntu }
-- { setname: "perl:$1", noflag: not_perl, namepat: "perl-(.*)", ruleset: [alpine,aosc,arch,centos,fedora,gobolinux,guix,kaos,mageia,msys2,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds, pld] }
+- { setname: "perl:$1", noflag: not_perl, namepat: "perl-(.*)", ruleset: [alpine,aosc,arch,centos,fedora,gobolinux,guix,kaos,mageia,msys2,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds,pld,aix] }
 - { setname: "perl:$0", noflag: not_perl, category: dev-perl, ruleset: [gentoo,exherbo,haikuports] }
 - { setname: "perl:$0", noflag: not_perl, category: perl-core, ruleset: [gentoo,exherbo] }
 
@@ -105,7 +106,7 @@
 - { setname: "ros:$1", noflag: not_ros, namepat: "ros-(.*)", ruleset: [ debuntu, arch ] }
 
 # Ruby
-- { setname: "ruby:$1", noflag: not_ruby, namepat: "ruby-(.*)", family: [alpine,aosc,arch,debuntu,fedora,guix,mageia,ravenports,rosa,sisyphus,pld] }
+- { setname: "ruby:$1", noflag: not_ruby, namepat: "ruby-(.*)", family: [alpine,aosc,arch,debuntu,fedora,guix,mageia,ravenports,rosa,sisyphus,pld,aix] }
 - { setname: "ruby:$1", noflag: not_ruby, namepat: "rubygem-(.*)", family: [centos,fedora,freebsd,opensuse,pclinuxos,rosa,slackbuilds] }
 - { setname: "ruby:$1", noflag: not_ruby, namepat: "ruby[0-9][0-9]-(.*)", family: [freebsd,openbsd,pkgsrc] }
 - { setname: "ruby:$1", noflag: not_ruby, namepat: "rb[0-9]*-(.*)", family: macports }

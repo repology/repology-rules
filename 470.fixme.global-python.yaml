@@ -15,7 +15,7 @@
 # some rules may merge modules for different python version into single entry; this is intended
 - { setname: "python:$1", noflag: not_python, namepat: "py[0-9][0-9]-(.*)", family: [freebsd,pkgsrc] }
 - { setname: "python:$1", noflag: not_python, namepat: "py3?-(.*)", family: openbsd }
-- { setname: "python:$1", noflag: not_python, namepat: "python-(.*)", family: [centos,debuntu,gobolinux,mageia,pclinuxos,ravenports,rudix] }
+- { setname: "python:$1", noflag: not_python, namepat: "python-(.*)", family: [centos,debuntu,gobolinux,mageia,pclinuxos,ravenports,rudix,aix] }
 - { setname: "python:$1", noflag: not_python, namepat: "python3?-module-(.*)", family: sisyphus }
 - { setname: "python:$1", noflag: not_python, namepat: "python2?-(.*)", family: [arch,guix,openmandriva] }
 #- { setname: "python:$1", noflag: not_python, namepat: "python2-(.*)", family: msys2 }
