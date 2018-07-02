@@ -154,7 +154,9 @@
 - { setname: audacious-plugins,        name: audacious2-plugins }
 - { setname: audacity,                 name: audacity-freeworld }
 - { setname: audiofile,                name: libaudiofile }
-- { setname: autoconf,                 namepat: "autoconf[_-]?[0-9.]+" }
+- { setname: autoconf,                 namepat: "autoconf[0-9_.-]+" }
+- { setname: autoconf,                 name: autoconf-legacy }
+- { setname: autoconf,                 name: autoconf-nonfree, addflavor: true }
 - { setname: autoconvert,              name: zh-autoconvert }
 - { setname: autodia,                  name: "perl:autodia" }
 - { setname: autoflake,                name: "python:autoflake" }
