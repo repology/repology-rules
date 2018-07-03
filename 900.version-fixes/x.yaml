@@ -12,6 +12,7 @@
 - { name: xcftools,                    verpat: ".*20[0-9]{6}",                             ignore: true } # freebsd snapshot
 - { name: xchm,                        verpat: ".*20[0-9]{6}.*",                           ignore: true } # macports
 - { name: xchm,                        verpat: "1\\.24.*",           ruleset: macports,    incorrect: true }
+- { name: xcircuit,                    verge: "3.10",                                      devel: true } # XXX: MAINTENANCE new version numbers are considered development at first then upgraded to stable http://opencircuitdesign.com/xcircuit/notes.html hopefully this will change with http://opencircuitdesign.com/pipermail/xcircuit-dev/2018-June/000987.html
 - { name: xclip,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: xdg-utils,                   verpat: "[0-9]+",                                   ignore: true }
 - { name: xdg-user-dirs-gtk,           ver: "0.18",                  ruleset: gobolinux,   incorrect: true }
