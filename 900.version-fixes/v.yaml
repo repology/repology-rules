@@ -25,7 +25,7 @@
 - { name: vlc,                                                       family: sisyphus,     untrusted: true }
 - { name: vlc,                         verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: vokoscreen,                  verpat: "(.+?)[._-]?beta",                          setver: $1 }
-- { name: vokoscreen,                  verge: "2.5.2",                                     devel: true } # https://github.com/vkohaupt/vokoscreen/releases XXX: MAINTAINANCE
+- { name: vokoscreen,                  verge: "2.5.2",                                     devel: true, maintainance: true } # https://github.com/vkohaupt/vokoscreen/releases
 - { name: vorbis-tools,                verlonger: 3,                 family: kaos,         incorrect: true } # fake
 - { name: vpnc,                        ver: "0.5.3.3",               family: kaos,         incorrect: true } # fake
 - { name: vpnc,                        verpat: "0.5.3.*post.*",                            ignore: true } # nix

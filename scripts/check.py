@@ -138,6 +138,10 @@ schema = Schema(
         'tolowername': bool,
         'replaceinname': {str: str},
         'warning': str,
+
+        'maintainance': bool,
+        'disposable': bool,
+        'precious': bool,
     }
 )
 

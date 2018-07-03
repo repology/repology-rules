@@ -524,6 +524,31 @@ Only matches if the specified flag is (or is not) set.
 - { category: python, noflag: not_python_module, setname: "python:$0" }
 ```
 
+### Annotations
+
+These annotations do not affect package processing, but are related
+to ruleset maintainance.
+
+#### maintainance
+
+Indicates that a rule needs manual maintainance. For example, when
+development version cannot be determined from the version schema,
+one would need to revisit and update the version occasionally.
+
+```yaml
+- { name: tor, verge: "0.3.4", devel: true, maintainance: true }
+```
+
+#### precious
+
+Indicates that a rule should not be removed even if it doesn't
+match any packages. That is, a rule is likely to be useful sometime
+in the future.
+
+#### disposable
+
+Indicates that a rule may be removed if it doesn't match any packages.
+
 ## Author
 
 * [Dmitry Marakasov](https://github.com/AMDmi3) <amdmi3@amdmi3.ru>
