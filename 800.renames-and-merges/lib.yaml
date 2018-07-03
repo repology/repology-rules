@@ -92,6 +92,7 @@
 - { setname: libnet,                   namepat: "libnet[0-9.]+" }
 - { setname: libnl,                    name: libnl-doc }
 - { setname: libnl,                    namepat: "libnl[0-9._-]+" }
+- { setname: libnova,                  name: libnova14-compat }
 - { setname: libnsl,                   name: libnsl2 }
 - { setname: libodbc++,                name: libodbcplus }
 - { setname: libodfgen,                namepat: "libodfgen[0-9._-]+" }
@@ -158,8 +159,8 @@
 - { setname: libwbxml,                 name: libwbxml-compat }
 - { setname: libwebp,                  name: [webp,libwebp6,compat-libwebp05] }
 - { setname: libwmf,                   name: [libwmf-nox11,libwmf-docs], addflavor: true }
-- { setname: libwnck,                  name: [libwnck-sticky,libwnck-reference], addflavor: true }
-- { setname: libwnck,                  name: libwnck-gtk3 }
+- { setname: libwnck,                  name: [libwnck-sticky,libwnck-reference,libwnck-gtk3], addflavor: true }
+- { setname: libwnck,                  name: libwnck-legacy }
 - { setname: libwnck,                  namepat: "libwnck[0-9._-]+" }
 - { setname: libwpd,                   namepat: "libwpd[0-9.-]+" }
 - { setname: libwpg,                   namepat: "libwpg[0-9.-]+" }

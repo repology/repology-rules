@@ -5,7 +5,7 @@
 - { setname: abbaye-des-morts,         name: abbaye }
 - { setname: abbaye-des-morts,         name: abbayedesmorts }
 - { setname: abbaye-des-morts,         name: abbayedesmorts-gpl }
-- { setname: abiword,                  name: [abiword-x11,abiword-gtk2,abiword-minimal,abiword-docs,abiword-extras,abiword-plugins], addflavor: true }
+- { setname: abiword,                  name: [abiword-x11,abiword-gtk2,abiword-minimal,abiword-debug,abiword-docs,abiword-extras,abiword-plugins], addflavor: true }
 - { setname: abgate,                   name: [abgate-lv2,lv2-abgate] }
 - { setname: abuse,                    name: abuse-free, addflavor: free }
 - { setname: abuse,                    name: abuse-sdl }
@@ -79,8 +79,7 @@
 - { setname: angular.js,               name: angularjs }
 - { setname: anki,                     name: [anki12,anki20,"python:anki2"] }
 - { setname: annex,                    name: annex-conquer-the-world }
-- { setname: ansible,                  name: "python:ansible" }
-- { setname: ansible,                  namepat: "ansible[0-9]+" }
+- { setname: ansible,                  namepat: "(?:python:)?ansible[0-9]+" }
 - { setname: ant,                      namepat: "ant[0-9.]+" }
 - { setname: anthy,                    name: libanthy }
 - { setname: antimicro,                name: antimicro-qt4 }
@@ -155,7 +154,9 @@
 - { setname: audacious-plugins,        name: audacious2-plugins }
 - { setname: audacity,                 name: audacity-freeworld }
 - { setname: audiofile,                name: libaudiofile }
-- { setname: autoconf,                 namepat: "autoconf[_-]?[0-9.]+" }
+- { setname: autoconf,                 namepat: "autoconf[0-9_.-]+" }
+- { setname: autoconf,                 name: autoconf-legacy }
+- { setname: autoconf,                 name: autoconf-nonfree, addflavor: true }
 - { setname: autoconvert,              name: zh-autoconvert }
 - { setname: autodia,                  name: "perl:autodia" }
 - { setname: autoflake,                name: "python:autoflake" }
