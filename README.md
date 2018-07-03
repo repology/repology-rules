@@ -527,16 +527,16 @@ Only matches if the specified flag is (or is not) set.
 ### Annotations
 
 These annotations do not affect package processing, but are related
-to ruleset maintainance.
+to ruleset maintenance.
 
-#### maintainance
+#### maintenance
 
-Indicates that a rule needs manual maintainance. For example, when
+Indicates that a rule needs manual maintenance. For example, when
 development version cannot be determined from the version schema,
 one would need to revisit and update the version occasionally.
 
 ```yaml
-- { name: tor, verge: "0.3.4", devel: true, maintainance: true }
+- { name: tor, verge: "0.3.4", devel: true, maintenance: true }
 ```
 
 #### precious

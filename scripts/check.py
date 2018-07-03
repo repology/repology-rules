@@ -139,7 +139,7 @@ schema = Schema(
         'replaceinname': {str: str},
         'warning': str,
 
-        'maintainance': bool,
+        'maintenance': bool,
         'disposable': bool,
         'precious': bool,
     }
