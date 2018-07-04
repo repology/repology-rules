@@ -3,6 +3,12 @@
 - { setname: s3backer,                 name: s3-backer }
 - { setname: saga,                     name: [saga-gis,saga-gis-ltr] }
 - { setname: sagemath,                 name: sage-math }
+- { setname: sagemath,                 name: [sagemath-doc,sagemath-jupyter,sagemath-src], addflavor: true }
+- { setname: sagemath-combinatorial-designs, name: [combinatorial_designs,sage-data-combinatorial-designs,sagemath-database-combinatorial-designs] }
+- { setname: sagemath-conway-polynomials, name: [conway_polynomials,sage-data-conway_polynomials,sagemath-database-conway-polynomials] }
+- { setname: sagemath-elliptic-curves, name: [elliptic_curves,sage-data-elliptic_curves,sagemath-database-elliptic-curves] }
+- { setname: sagemath-graphs,          name: [graphs,sagemath-database-graphs,sage-data-graphs] }
+- { setname: sagemath-polytopes-db,    name: [polytopes_db, sage-data-polytopes_db, sagemath-database-polytopes] }
 - { setname: salut-a-toi,              name: salutatoi }
 - { setname: salut-a-toi,              name: [sat-jp,sat-media,sat_media,sat-primitivus,sat-xmpp], addflavor: true }
 - { setname: samba,                    name: samba-docs, addflavor: docs }
