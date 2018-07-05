@@ -13,6 +13,7 @@
 - { name: tcl,                         verpat: ".*a[0-9]+",                                devel: true }
 - { name: tcpblast,                    verpat: "20[0-9]{6}",                               ignore: true }
 - { name: tcpflow,                     ver: "1.4.6",                 ruleset: nix,         incorrect: true }
+- { name: tcpslice,                                                                        noscheme: true } # https://github.com/the-tcpdump-group/tcpslice/releases; there's some kind of official release 1.2a3, but it's from 2005 and so doesn't count
 - { name: tcptrack,                    wwwpart: bchretien,                                 successor: true } # fork
 - { name: tdb,                         ver: "3.6.0",                                       incorrect: true } # pclinuxos wtf; https://www.samba.org/ftp/tdb/
 - { name: teem,                        ver: "1.12.0",                family: debuntu,      ignore: true }
