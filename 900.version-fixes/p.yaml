@@ -16,6 +16,7 @@
 - { name: pciids,                                                                          noscheme: true }
 - { name: pcsx2,                       verpat: ".*[0-9]{4,}.*",                            snapshot: true }
 - { name: pdfbook,                                                                         noscheme: true }
+- { name: pdfminer,                    vergt: "20140328",                                  snapshot: true, maintenance: true } # https://pypi.org/project/pdfminer/#history
 - { name: perf,                        verpat: ".*20[0-9]{2}.*",                           incorrect: true }
 - { name: perl,                        ver: "5.26.2",                ruleset: fedora,      incorrect: true } # rc1
 - { name: perl,                                                      ruleset: fedora,      untrusted: true }

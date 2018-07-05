@@ -27,6 +27,7 @@
 - { name: krename,                     verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: krusader,                    verpat: "16\\..*",                                  incorrect: true } # pclinuxos; it uses e.g. 2.6.0 scheme
 - { name: kscd,                        verpat: ".*20[0-9]{6}",                             ignore: true } # exherbo snapshot
+- { name: ksh,                                                                             noscheme: true }
 - { name: kstars,                      verpat: "(4|15|16|17)\\..*",                        outdated: true } # switched from yy.mm.rev to x.y.z: https://cgit.kde.org/kstars.git/refs/
 - { name: kstars,                      verge: "18",                                        incorrect: true } # and some repos fake old scheme; XXX: problem
 - { name: kuickshow,                   verge: "0.10.0",                                    devel: true } # gentoo fork?
