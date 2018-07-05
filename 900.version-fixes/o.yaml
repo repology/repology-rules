@@ -2,43 +2,43 @@
 
 - { name: "ocaml:opam-file-format",    ver: "2.0.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: "ocaml:opam-file-format",                                  ruleset: sisyphus,    untrusted: true }
-- { name: octave,                      verpat: ".*pre[0-9]{5}",                            ignore: true }
-- { name: octomap,                     verpat: "[0-9a-f]{40}",                             ignore: true } # commit
-- { name: odoo,                        verpat: ".*20[0-9]{6}",                             ignore: true }
+- { name: octave,                      verpat: ".*pre[0-9]{5}",                            snapshot: true }
+- { name: octomap,                     verpat: "[0-9a-f]{40}",                             incorrect: true } # commit hash
+- { name: odoo,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: ogre,                        verpat: "2.*",                                      ignore: true }
-- { name: ollydbg,                     verpat: "[0-9]{3}",                                 ignore: true } # aosc garbage
-- { name: onioncat,                    verpat: "0\\.2\\.2.*",                              ignore: true }  # \  force correct
-- { name: onioncat,                    verpat: "0\\.2\\.2\\.r[0-9]+.*",                    ignore: false } # / version schema
+- { name: ollydbg,                     verpat: "[0-9]{3}.*",                               incorrect: true } # it's 1.10, 2.0, 2.01g
+- { name: onioncat,                    verpat: "0\\.2\\.2\\.r[0-9]+.*",                    any_is_patch: true } # https://www.cypherpunk.at/ocat/download/Source/stable/
+- { name: onioncat,                    ver: "0\\.2\\.2",                                   incorrect: true }
 - { name: opam,                        ver: "2.0.0",                 ruleset: [sisyphus,mageia], incorrect: true }
 - { name: opam,                                                      ruleset: [sisyphus,mageia], untrusted: true }
-- { name: open-vm-tools,               verpat: "20[0-9]{2}.*",                             ignore: true }
+- { name: open-vm-tools,               verpat: "20[0-9]{2}.*",                             snapshot: true }
 - { name: open-vm-tools,               verpat: "20(08|09|11).*",                           outdated: true }
 - { name: openal-creative,             ver: "20060211",                                    ignore: true } # freebsd (should probably be 0.0.8)
 - { name: opencity,                    ver: "0.0.6.5stable",                               ignore: true } # 0.0.6.5; "stable" is not a part of the version
 - { name: opencl,                                                                          noscheme: true } # GH/KhronosGroup/OpenCL-Headers w/o releases or mix of OpenCL-Headers with OpenCL-CLHPP
-- { name: opencl-headers,                                                                  noscheme: true }
-- { name: opencollada,                 verpat: ".*3335ac.*",                               ignore: true }
-- { name: opencollada,                 verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: [opencl-headers,opencl_headers],                                                 noscheme: true }
+- { name: opencollada,                 verpat: ".*3335ac.*",                               incorrect: true }
+- { name: opencollada,                 verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: opencolorio,                 verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: opendbx,                     ver: "1.5.0",                                       devel: true } # https://linuxnetworks.de/doc/index.php?title=OpenDBX/Download; XXX probably needs pattern, but the devel scheme is unknown
 - { name: openjade,                    verpat: ".*(p|pre|devel)[0-9]*",                    devel: true }
 - { name: openjade,                    ver: "1.3.3",                 family: [pclinuxos,mageia,openpkg,pld], incorrect: true } # fake, it's 1.3.3pre1
 - { name: openjfx,                     verpat: "8\\.0\\..*",                               ignore: true } # fedora; the official scheme is e.g. 8u151b12
 - { name: openjk,                                                                          noscheme: true }
-- { name: openlierox,                  ver: "0.58",                  family: [fedora,debuntu], ignore: true } # there's no 0.58, only 0.58beta3
+- { name: openlierox,                  ver: "0.58",                  family: [fedora,debuntu], incorrect: true } # there's no 0.58, only 0.58beta3
 - { name: openmortal,                  ver: "0.7.1",                                       ignore: true } # legal release, but no source tarball
-- { name: openntpd,                    ver: "20080406p",                                   ignore: true }
+- { name: openntpd,                    ver: "20080406p",                                   snapshot: true }
 - { name: openscenegraph,              verpat: "3\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: openssh,                     verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: "$1p$2" } # pkgrc: it's X.YpZ!
-- { name: openssh,                     verpat: "[0-9]+\\.[0-9]+",                          ignore: true } # freshcode, pZ part missing
-- { name: openssh,                     verpat: "20[0-9-]{6}.*",                            ignore: true } # scoop
+- { name: openssh,                     verpat: "[0-9]+\\.[0-9]+",                          incorrect: true } # freshcode, pZ part missing
+- { name: openssh,                     verpat: "20[0-9-]{6}.*",                            snapshot: true } # scoop
 - { name: openssh,                                                                         p_is_patch: true }
 - { name: openstack-keystone,          verpat: "201[24].*",                                outdated: true }
-- { name: openuniverse,                ver: "1.0beta3.1",                                  ignore: true } # debian garbage
-- { name: openxcom,                    verpat: ".*201[789].*",                             ignore: true } # git snapshots
-- { name: orbit2,                      ver: "2.14.20",               family: sisyphus,     ignore: true } # alt fake
+- { name: openuniverse,                ver: "1.0beta3.1",                                  incorrect: true } # debian garbage
+- { name: openxcom,                    verpat: ".*201[789].*",                             snapshot: true } # git snapshots
+- { name: orbit2,                      ver: "2.14.20",               family: sisyphus,     incorrect: true } # alt fake
 - { name: orca,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: osquery,                     ver: "3.0.0",                                       devel: true }
 - { name: owamp,                       ver: "3.5.0",                 family: sisyphus,     incorrect: true }
 - { name: owamp,                                                     family: sisyphus,     untrusted: true }
-- { name: oxygen-gtk3,                 verlonger: 3,                 family: kaos,         ignore: true }
+- { name: oxygen-gtk3,                 verlonger: 3,                 family: kaos,         incorrect: true }

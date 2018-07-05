@@ -1,27 +1,27 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: nautilus,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: ncurses,                     verpat: ".*20[0-9]{6}.*",                           ignore: true }
-- { name: ndpi,                        verpat: ".*20[0-9]{2}.*",                           ignore: true }
+- { name: ncurses,                     verpat: ".*20[0-9]{6}.*",                           snapshot: true }
+- { name: ndpi,                        verpat: ".*20[0-9]{2}.*",                           snapshot: true }
 - { name: ndpi,                        verpat: "2\\.2\\.2\\..*",                           incorrect: true }
-- { name: neofetch,                    verpat: "20[0-9]{6}",                               ignore: true } # aosc
+- { name: neofetch,                    verpat: "20[0-9]{6}",                               snapshot: true } # aosc
 - { name: neovim-qt,                   ver: "0.2.9",                 ruleset: aur,         incorrect: true }
 - { name: neovim-qt,                                                 ruleset: aur,         untrusted: true }
-- { name: net-tools,                   verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
-- { name: netcat-openbsd,              verpat: "20[0-9]{6}.*",                             ignore: true } # pkgsrc garbage
-- { name: netcat-openbsd,              verpat: "[0-9]+\\.[0-9]{3}_.*",                     ignore: true } # debian suffixes
+- { name: net-tools,                   verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
+- { name: netcat-openbsd,              verpat: "20[0-9]{6}.*",                             snapshot: true } # pkgsrc garbage
+- { name: netcat-openbsd,              verpat: "[0-9]+\\.[0-9]{3}_.*",                     incorrect: true } # debian suffixes
 - { name: netpbm,                      ver: "10.82.01",              ruleset: macports,    incorrect: true } # https://sourceforge.net/p/netpbm/code/HEAD/tree/release_number/
 - { name: netpbm,                                                    ruleset: macports,    untrusted: true }
 - { name: netpbm,                      verpat: "[0-9]{4}",                                 incorrect: true } # aosc, termux wtf
-- { name: netperf,                     verpat: ".*20[0-9]{6}.*",                           ignore: true }
+- { name: netperf,                     verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: networkmanager,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ngrok,                       ver: [stable,4VmDzA7iaHb],    ruleset: scoop,       incorrect: true }
 - { name: ngrok,                                                     ruleset: scoop,       untrusted: true }
-- { name: nitrogen,                    verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: nitrogen,                    verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: nkf,                         verpat: "2\\.[0-9]{2}",                             incorrect: true } # it's X.Y.Z, not X.YZ
-- { name: noice,                       verpat: "20[0-9]{2}.*",                             ignore: true }
+- { name: noice,                       verpat: "20[0-9]{2}.*",                             snapshot: true }
 - { name: noip,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]+-.*",              incorrect: true} # nix fake
-- { name: notify-osd,                  ver: "0.9.35",                ruleset: [arch,debuntu], ignore: true } # https://launchpad.net/notify-osd
+- { name: notify-osd,                  ver: "0.9.35",                ruleset: [arch,debuntu], incorrect: true } # https://launchpad.net/notify-osd
 - { name: notion,                      verpat: "20[0-9]{6}.*",                             incorrect: true } # it's 3-YYYYMMDD, not just date
 - { name: nss_ldap,                    verpat: "1\\.([0-9]{3,})",                          setver: "$1" } # FreeBSD garbage
 - { name: npapi-sdk,                   ver: "0.27.3r23",                                   incorrect: true }
@@ -32,5 +32,5 @@
 - { name: numptyphysics,                                                                   noscheme: true }
 - { name: numptyphysics-npcomplete,                                                        noscheme: true }
 - { name: nuvie,                                                                           noscheme: true }
-- { name: nvclock,                     verpat: ".*20[0-9]{6}",                             ignore: true }
-- { name: nzbget,                      verpat: ".*r.*",                                    ignore: true } # 20.0r<rev> and 20.0pre<rev> garbage
+- { name: nvclock,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: nzbget,                      verpat: ".*r.*",                                    snapshot: true } # 20.0r<rev> and 20.0pre<rev> garbage
