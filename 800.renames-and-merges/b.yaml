@@ -21,7 +21,7 @@
 - { setname: batman-adv,               name: [batman-adv-dkms,batman-adv-legacy-dkms], addflavor: dkms }
 - { setname: batman-adv,               name: batman-adv-optimized, addflavor: true }
 - { setname: battery-monitor,          name: battery-monitor-devel, ignore: true }
-- { setname: bats,                     name: bash-bats }
+- { setname: bats,                     name: [bats-core,bash-bats] }
 - { setname: bazel,                    name: bazel-clang38, addflavor: true }
 - { setname: bazel-buildtools,         name: buildifier, addflavor: true }
 - { setname: baudline,                 name: linux-baudline, family: freebsd }
