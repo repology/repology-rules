@@ -181,9 +181,9 @@
 - { setname: cwiid,                    name: libcwiid }
 - { setname: cxxtools,                 name: libcxxtools }
 - { setname: cyphesis,                 name: cyphesis-cpp, family: debuntu }
-- { setname: cyrus-imapd,              name: cyrus-imapd-ldap }
-- { setname: cyrus-imapd,              name: cyrus5-imapd }
-- { setname: cyrus-imapd,              namepat: "cyrus-imapd[0-9.-]+" }
+- { setname: cyrus-imapd,              name: cyrus-imapd-ldap, addflavor: true }
+- { setname: cyrus-imapd,              name: imapd }
+- { setname: cyrus-imapd,              namepat: "cyrus[0-9]*[_-]imapd[0-9.-]*" }
 - { setname: cyrus-sasl,               name: [cyrus-sasl-lib,cyrus-sasl2] }
 - { setname: cyrus-sasl,               name: [cyrus-sasl-gssapi,cyrus-sasl-ldap,cyrus-sasl-ldapdb,cyrus-sasl-saslauthd,cyrus-sasl-sql,cyrus-sasl-srp,cyrus-saslauthd], addflavor: true }
 - { setname: cython,                   name: cython2 }
