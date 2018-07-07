@@ -19,6 +19,9 @@
 - { name: dhewm3,                      ver: "1.4.2",                 family: [ fedora ],   ignore: true } # no such version (rpmfusion)
 - { name: dia,                         ver: "0.97.4",                family: [ sisyphus ], ignore: true } # no such release
 - { name: dia,                         verpat: ".*[0-9]{8}.*",                             ignore: true } # snapshot
+- { name: diction,                     ver: "1.14",                  family: hpux,         incorrect: true }
+- { name: diction,                                                   family: hpux,         untrusted: true }
+- { name: diction,                     verge: "1.13",                                      successor: true } # http://www.moria.de/~michael/diction/ vs. https://ftp.gnu.org/gnu/diction/
 - { name: dietlibc,                    verpat: ".*(pre|cvs|20[0-9]{6}).*",                 ignore: true }
 - { name: diff-pdf,                    verpat: "20[0-9-]{6}.*",                            ignore: true }
 - { name: diffpdf,                     verge: "2.1.3.1",                                   successor: true }

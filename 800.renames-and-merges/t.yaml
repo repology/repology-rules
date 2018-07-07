@@ -13,6 +13,7 @@
 - { setname: tautulli,                 name: tautulli-beta, ignore: true }
 - { setname: tbb,                      name: [intel-tbb,libtbb] }
 - { setname: tcl,                      namepat: "tcl8[0-9._-]+" }
+- { setname: tcl,                      name: tcltk } # hpux has tcl and tk merged; actually it should be merged to both, but we can't
 - { setname: tclhttpd,                 name: tcl-httpd }
 - { setname: tdb,                      name: libtdb }
 - { setname: tds_fdw,                  namepat: "(postgresql[0-9._-]*)-tds_fdw", addflavor: $1 }

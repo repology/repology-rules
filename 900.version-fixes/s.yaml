@@ -59,6 +59,7 @@
 - { name: snapper,                     ver: "0.5.5",                 ruleset: opensuse,    incorrect: true }
 - { name: snapper,                                                   ruleset: opensuse,    incorrect: true }
 - { name: sndio,                       verpat: "20[0-9]{6}",                               incorrect: true } # last version month ago, snapshots are not justified
+- { name: sndlib,                                                                          noscheme: true }
 - { name: snmpenum,                                                                        noscheme: true }
 - { name: snownews,                    verge: "1.5.13",                                    successor: true } # https://github.com/kouya/snownews
 - { name: solaar,                      verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{3,}",     ignore: true } # FreeBSD snapshot
