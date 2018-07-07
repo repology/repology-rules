@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: x264,                                                                            noscheme: true }
+- { name: x2vnc,                       verpat: "1\\.[0-9]{2}",                             incorrect: true } # freebsd; it's X.Y.Z, not X.YZ
 - { name: x86info,                     verpat: ".*[sp].*",                                 snapshot: true } # snapshots
 - { name: x86info,                     verpat: "1\\.[0-9]+\\..*",                          incorrect: true } # snapshots
 - { name: xalan-c,                     verpat: "1\\.11_[0-9]{5}.*",                        ignore: true } # slackbuilds garbage

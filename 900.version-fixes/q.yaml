@@ -22,4 +22,5 @@
 - { name: quadra,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: quota,                       verpat: "20[0-9]{6}.*",                             snapshot: true } # crux
 - { name: qupzilla,                                                  family: kaos,         untrusted: true } # snapshot with random version
+- { name: qvwm,                        ver: "1.1.12.1",              ruleset: aur,         incorrect: true }
 - { name: qxkb,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }
