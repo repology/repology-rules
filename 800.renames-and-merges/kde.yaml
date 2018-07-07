@@ -207,3 +207,6 @@
     )(?:4|5|-kde4|-kde5|-kf5|-light|-qt5)?
   setname: "$1"
 
+# KDE has a project awry called "wacomtablet", so some distributions add kcm- prefix
+# to the package (KDE Config Module), since it's not obvious that it belongs to KDE
+- { setname: kcm-wacomtablet, name: wacomtablet }
