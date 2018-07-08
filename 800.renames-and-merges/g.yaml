@@ -4,6 +4,7 @@
 - { setname: galaxy-forces-v2,         name: ["galaxy forces v2", galaxy-forces, galaxyv2] }
 - { setname: gambas3-gb-modules,       namepat: "gambas3-gb-.*", family: arch }
 - { setname: gambit-c,                 name: gambc }
+- { setname: gap,                      namepat: "gap[0-9._-]+(data|doc|packages)?", addflavor: $1 }
 - { setname: garcon,                   name: [garcon-gtk3,libgarcon,xfce4-garcon], addflavor: true }
 - { setname: garden-of-coloured-lights, name: garden }
 - { setname: gargoyle,                 name: gargoyle-free }
@@ -150,6 +151,10 @@
 - { setname: gnome-themes-extra,       name: gnome-themes-standard }
 - { setname: gnu-netcat,               name: [gnetcat,netcat-gnu] }
 - { setname: gnu-radius,               name: radius, ruleset: openpkg }
+- { setname: gnucash,                  name: gnucash-dev, ignore: true } # XXX: weak_devel
+- { setname: gnucash,                  name: gnucash-legacy }
+- { setname: gnucash,                  name: [gnucash-python,gnucash-xbt,gnucash-xbt-minimal], addflavor: true }
+- { setname: gnucash-docs,             name: gnucash-legacy-docs }
 - { setname: gnuchess,                 name: [gnu-chess,gnuchess4] }
 - { setname: gnucobol,                 name: gnu-cobol }
 - { setname: gnucobol,                 name: [opencobol,open-cobol,open-cobol-ce] } # opencobol is now gnucobl

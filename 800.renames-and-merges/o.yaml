@@ -4,7 +4,9 @@
 - { setname: obby,                     name: libobby }
 - { setname: "ocaml:opam-file-format", name: opam-file-format }
 - { setname: octave,                   namepat: "octave[0-9._-]+" }
+- { setname: octopi,                   name: [octopi-cachecleaner,octopi-debug,octopi-kde,octopi-notifier,octopi-notifier-frameworks,octopi-notifier-noknotify,octopi-notifier-qt5,octopi-pacmanhelper,octopi-repoeditor], addflavor: true }
 - { setname: odoo,                     namepat: "odoo[0-9._-]+" }
+- { setname: offlinemsmtp,             name: "python:offlinemsmtp" }
 - { setname: ogre,                     name: [ogre-docs,ogre-samples], addflavor: true }
 - { setname: ogre,                     name: ogre3d }
 - { setname: ogre,                     namepat: "ogre[0-9._-]+" }

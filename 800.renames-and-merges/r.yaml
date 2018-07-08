@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: r3,                       name: libr3 }
 - { setname: rabbitmq-server,          name: rabbitmq }
 - { setname: racket,                   name: [minimal-racket,racket-minimal], addflavor: minimal }
 - { setname: racket,                   name: racket-docs, addflavor: docs }
@@ -40,10 +41,14 @@
 - { setname: rss2email,                name: r2e }
 - { setname: rsyslog,                  name: rsyslog7 }
 - { setname: rtaudio,                  name: rt-audio }
+- { setname: rtpengine,                name: rtpengine-dkms }
 - { setname: rtl8814au,                name: rtl8814au-dkms, addflavor: dkms }
 - { setname: rtorrent,                 name: [rtorrent-cdl,rtorrent-color,rtorrent-ipv6,rtorrent-vi-color], addflavor: true }
 - { setname: rtv,                      name: rtv-py36, addflavor: py36 }
 - { setname: rubocop,                  name: "ruby:rubocop" }
+- { setname: rust,                     name: [rust_bin,rust-msvc], addflavor: true }
+- { setname: rust,                     name: rust-msvc-nightly, ignore: true }
+- { setname: rust,                     name: rust-toolset-7-rust }
 - { setname: rust-dwm-status,          name: "rust:rust-dwm-status" }
 
 - setname: rsyslog

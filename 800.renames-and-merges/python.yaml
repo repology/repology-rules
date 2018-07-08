@@ -4,6 +4,8 @@
 - { setname: "python:absl-py",         name: absl-py }
 - { setname: "python:airnef",          name: airnef }
 - { setname: "python:argparse",        name: argparse }
+- { setname: "python:atomicwrites",    name: atomicwrites }
+- { setname: "python:atomicwrites",    name: "python:atomicwrites-doc", addflavor: doc }
 - { setname: "python:pyaxmlparser",    name: pyaxmlparser }
 - { setname: "python:backports.shutil-get-terminal-size", name: shutil_get_terminal_size }
 - { setname: "python:backports.shutil_get_terminal_size", namepat: "python:backports[_-]shutil[_-]get[_-]terminal[_-]size" }
@@ -79,6 +81,8 @@
 - { setname: "python:pcapy",           name: pcapy }
 - { setname: "python:pep8",            name: pep8 }
 - { setname: "python:pep8-naming",     name: [flake-pep8-naming,pep8-naming,"python:flake8-pep8-naming"] }
+- { setname: "python:prompt-toolkit",  name: [prompt-toolkit,prompt-toolkit1] }
+- { setname: "python:prompt-toolkit",  name: ["python:prompt-toolkit-doc","python:prompt-toolkit-gns3"], addflavor: true }
 - { setname: "python:python-periphery", name: "python:periphery" }
 - { setname: "python:py-cpuinfo",      name: "python:cpuinfo" }
 - { setname: "python:py-jack",         name: pyjack }
