@@ -26,6 +26,7 @@
 - { name: flatpak,                     ver: "0.10.3.1",              ruleset: deepin,      incorrect: true } # fake
 - { name: flatpak,                                                   ruleset: deepin,      untrusted: true }
 - { name: flight-of-the-amazon-queen,  verpat: "20[0-9]{6}",                               ignore: true }
+- { name: flint,                       verpat: ".*[0-9]{4}",                               incorrect: true } # opensuse garbage
 - { name: flintqs,                     ver: "20070817",                                    outdated: true }
 - { name: flintqs,                     verpat: "20[0-9]{6}",                               ignore: true }
 - { name: flowd,                       verpat: ".*20[0-9]{6}",                             ignore: true } # openbsd
