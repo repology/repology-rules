@@ -52,6 +52,7 @@
 - { setname: minetest,                 name: [minetest-common,minetest-server], addflavor: true }
 - { setname: minetest,                 name: minetest-git-leveldb, addflavor: true, ignore: true }
 - { setname: miniserve,                name: "rust:miniserve" }
+- { setname: minivmac,                 namepat: "minivmac-(.*)", addflavor: $1 }
 - { setname: minixml,                  name: libmxml }
 - { setname: minpack,                  name: libcminpack }
 - { setname: mirrormagic,              name: mirrormagic-sdl }
