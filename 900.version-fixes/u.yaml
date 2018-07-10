@@ -24,7 +24,7 @@
 - { name: urlview,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: urlview,                     verpat: "(0\\.9)-[0-9]+",                           setver: $1 } # debian suffix copied by homebrew, macports and nix
 - { name: urw-fonts,                   verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
-- { name: usbmuxd,                     ver: "1.1.1",                 family: openwrt,      incorrect: true } # fake
+- { name: usbmuxd,                     ver: "1.1.1",                 family: [openwrt,sisyphus], incorrect: true } # fake
 - { name: usbview,                     ver: "2.0.1",                 family: rosa,         incorrect: true }
 - { name: usbrelay,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: utfcpp,                      verpat: "2012.*",                                   snapshot: true } # slackbuilds
