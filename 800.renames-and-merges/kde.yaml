@@ -209,4 +209,4 @@
 
 # KDE has a project awry called "wacomtablet", so some distributions add kcm- prefix
 # to the package (KDE Config Module), since it's not obvious that it belongs to KDE
-- { setname: kcm-wacomtablet, name: wacomtablet }
+- { setname: kcm-wacomtablet, name: [wacomtablet, kcm-tablet] }
