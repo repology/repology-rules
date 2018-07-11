@@ -9,6 +9,8 @@
 - { name: calibre,                                                   ruleset: parrot,      untrusted: true } # accused of 3.15.0.1 fake
 - { name: camlp5,                      verpat: "[0-9]{3}",                                 incorrect: true } # XXX: add problem
 - { name: can-utils,                                                                       noscheme: true }
+- { name: capstone,                    verpat: ".*20[0-9]{6}",                             snapshot: true } # pentoo
+- { name: capstone,                    ver: "4.0",                   family: freebsd,      incorrect: true }
 - { name: cargo,                       verpat: "1\\..*",             ruleset: nix,         incorrect: true } # rust version used?
 - { name: cave9,                       ver: "0.4.1.git20150408",     family: freebsd,      setver: "0.4.1" }
 - { name: cblas,                       verpat: "20[0-9]{6}.*",                             ignore: true }
