@@ -24,7 +24,7 @@
 - { setname: libetonyek,               namepat: "libetonyek[0-9._-]+" }
 - { setname: libev,                    name: libev4 }
 - { setname: libev,                    name: libev-static, addflavor: static }
-- { setname: libevent,                 name: [libevent2,libevent1,libevent-compat] }
+- { setname: libevent,                 name: [libevent2,libevent1,libevent-compat,libevent0.9] }
 - { setname: libevent,                 name: [libevent-fb,libevent-hiphop,libeventextra], addflavor: true }
 - { setname: libfastjson,              name: fastjson }
 - { setname: libfm,                    name: [libfm-directory_thumbnails,libfm-extra,libfm-gtk2,libfm-gtk3] }
