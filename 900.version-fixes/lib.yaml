@@ -58,6 +58,7 @@
 - { name: libmediawiki,                verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: libmilter,                   verlonger: 3,                                       devel: true } # sendmail snapshots
 - { name: libmilter,                   verpat: "1\\..*",                                   incorrect: true } # XXX: problem; Gentoo&friends are too clever to dig deep into the code to get internal library version, but it's not really related to code version
+- { name: libmpsse,                    verpat: "20[0-9]{6}.*",       family: sisyphus,     ignore: true }
 - { name: libmspack,                   verge: "1.5",                                       incorrect: true } # cabextract versions instead of libmspack ones
 - { name: libmspack,                   verpat: "([0-9.]+)[_~-]?alpha",                     setver: $1 }
 - { name: libnfnetlink,                verpat: ".*20[0-9]{6}",                             ignore: true } # exherbo snapshot
@@ -106,7 +107,6 @@
 - { name: libunwind,                   verpat: ".*20[0-9]{6}.*",                           ignore: true } # freebsd, termux snapshots
 - { name: libusbmuxd,                  verpat: "1\\.1\\.0.*",        family: [openwrt,debuntu], ignore: true } # fake
 - { name: libvterm,                                                                        noscheme: true }
-- { name: libmpsse,                    verpat: "20[0-9]{6}.*",       family: sisyphus,     ignore: true }
 - { name: libx11,                      verpat: "7\\.[4567].*",                             ignore: true } # uses version from Xorg, not its own # XXX: ->incorrect
 - { name: libx86emu,                   verlonger: 2,                 family: kaos,         ignore: true } # uses some opensuse package with mangled version
 - { name: libxmi,                      ver: "1.3",                   family: gentoo,       incorrect: true }
