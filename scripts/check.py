@@ -18,7 +18,6 @@
 # along with repology.  If not, see <http://www.gnu.org/licenses/>.
 
 import re
-from multiprocessing import Pool
 from sys import argv, exit, stderr
 
 from voluptuous import Any, MultipleInvalid, Required, Schema
@@ -264,7 +263,11 @@ if __name__ == '__main__':
         print('Usage: {} file.yaml ...'.format(argv[0]), file=stderr)
         exit(2)
 
-    results = Pool().map(check_rule_file, argv[1:])
+    try:
+        from multiprocessing import Pool
+        results = Pool().map(check_rule_file, argv[1:])
+    except ImportError:
+        results = map(check_rule_file, argv[1:])
 
     ok = True
     for result in results:
