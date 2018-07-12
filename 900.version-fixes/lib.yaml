@@ -14,9 +14,10 @@
 - { name: libaudclient,                                              ruleset: pld,         untrusted: true }
 - { name: libburn,                     ver: "1.4.9",                 ruleset: sisyphus,    incorrect: true }
 - { name: libburn,                                                   ruleset: sisyphus,    untrusted: true }
-- { name: libcaca,                     ver: "0.99", family: [sisyphus,pclinuxos,rosa],     incorrect: true } # it's 0.99.betaX!
-- { name: libcaca,                                  family: [sisyphus,pclinuxos,rosa],     untrusted: true }
-- { name: libcaca,                     verpat: "0.99.[0-9]+.*",                            ignore: true } # it.s 0.99.betaX, not 0.99.X
+- { name: libcaca,                     ver: "0.99",                                        untrusted: true } # more and more fakes come up
+- { name: libcaca,                     ver: "0.99", family: [sisyphus,pclinuxos,mageia,openmandriva,pld], incorrect: true } # it's 0.99.betaX!
+- { name: libcaca,                                  family: [sisyphus,pclinuxos,mageia,openmandriva,pld], untrusted: true }
+- { name: libcaca,                     verpat: "0.99.[0-9]+.*",                            incorrect: true } # it.s 0.99.betaX, not 0.99.X
 - { name: libcdio-paranoia,            verpat: "[0-9]+\\.[0-9]+\\.[0-9]+", family: kaos,   ignore: true } # bad versioning
 - { name: libclc,                                                                          noscheme: true }
 - { name: libcmis,                     ver: "0.5.2",                 family: sisyphus,     incorrect: true }
