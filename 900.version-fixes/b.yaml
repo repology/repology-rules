@@ -26,7 +26,8 @@
 - { name: biniax2,                     ver: "2.1.30",                                      ignore: true } # 2 is not part of the version
 - { name: binutils,                    verlonger: 3,                                       ignore: true } # debian weirdness
 - { name: binutils,                    verpat: ".*r.*",                                    ignore: true } # snapshots
-- { name: binutils,                    verpat: ".*[0-9]{4}.*",                             ignore: true } # snapshots and GUIX 2281 garbage
+- { name: binutils,                    verpat: ".*[0-9]{4}.*",                             snapshot: true } # snapshots and GUIX 2281 garbage
+- { name: binutils,                    verpat: ".*\\.[59][0-9]",                           devel: true } # ftp://sourceware.org/pub/binutils/snapshots
 - { name: biogenesis,                  ver: "0.8.1.42.1",                                  ignore: true } # mageia garbage
 - { name: bitbake,                     ver: "1.34",                  ruleset: aur,         incorrect: true }
 - { name: bitbake,                                                   ruleset: aur,         untrusted: true }
