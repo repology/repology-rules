@@ -29,6 +29,13 @@
 
 - { name: cmix, wwwpart: cmix.sourceforge.net, setname: cmix-mixer } # relic from 2002
 
+- { name: [command-not-found,command_not_found], wwwpart: metti, setname: command-not-found-arch }
+- { name: [command-not-found,command_not_found], wwwpart: kaniini, setname: command-not-found-kaniini }
+- { name: [command-not-found,command_not_found], wwwpart: [jrabbit,haiku], setname: command-not-found-haiku }
+- { name: [command-not-found,command_not_found], wwwpart: abf, setname: command-not-found-abf }
+- { name: [command-not-found,command_not_found], ruleset: termux, setname: command-not-found-termux }
+- { name: [command-not-found,command_not_found], warning: "please classify me" }
+
 # this one is messed up:
 # - http://cpulimit.sourceforge.net/ https://sourceforge.net/projects/cpulimit/files/cpulimit/cpulimit/ (1.0, 1.1 - year 2006)
 #   moved to https://github.com/opsengine/cpulimit (0.1, 0.2 - year 2015)

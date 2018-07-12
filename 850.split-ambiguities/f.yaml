@@ -8,6 +8,14 @@
 
 - { name: forge, wwwpart: fsharp, setname: forge-fsharp }
 
+- { name: fortune, wwwpart: ahills, setname: fortune-ahills }
+- { name: fortune, wwwpart: ibiblio, verpat: "0\\..*", setname: fortune-ibiblio }
+- { name: fortune, wwwpart: ibiblio, verpat: "[0-9]{4}", setname: fortune-mod-ibiblio }
+- { name: fortune, wwwpart: sunsite, setname: fortune-sunsite }
+- { name: fortune, wwwpart: freebsd, setname: fortune-freebsd }
+- { name: fortune, wwwpart: fefe, setname: fortune-fefe }
+- { name: fortune, warning: "please classify me" }
+
 - { name: fpp, wwwpart: pathpicker, setname: pathpicker } # https://github.com/facebook/PathPicker vs. fortran preprocessor
 
 # file change monitor vs. file system checksum checker
