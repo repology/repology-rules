@@ -35,9 +35,11 @@
 - { name: "perl:devel-symdump",        verpat: "2\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:device-serialport",    ver: "1.040000",                                    ignore: true }
 - { name: "perl:enum",                 verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
+- { name: "perl:exporter-tiny",        verpat: ".*\\+.*",                                  devel: true } # AOSC devel
 - { name: "perl:extutils-pkgconfig",   verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:extutils-xspp",        verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:io-stty",              ver: ["02","0.30.0"],                               incorrect: true }
+- { name: "perl:io-tty",               verpat: ".*\\+.*",                                  devel: true } # AOSC devel
 - { name: "perl:json-xs",              verpat: "3\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:json-xs",              verpat: "3\\.[1-9]0.*",                             ignore: true }
 - { name: "perl:math-polygon-tree",    ver: "0.0691",                                      ignore: true } # 0.0691 < 0.08 (CPAN versioning brokenness)
@@ -60,5 +62,6 @@
 - { name: "perl:urpm",                                                                     ignore: false } # seem to not be mangled
 - { name: "perl:xml-parser",           ver: "2.44.01",                                     devel: true } # marked as developer release on cpan
 - { name: "perl:yaml-libyaml",         ver: "0.71",                  family: [ sisyphus ], ignore: true } # 0.71 wasn't an authorised release
+- { name: "perl:xml-namespacesupport", verpat: ".*\\+.*",                                  devel: true } # AOSC devel
 - { name: "perl:xml-rss-feed",         ver: ["2.212","2.32"],                              outdated: true } # 2.212 < 2.32 < 2.4
 - { name: "perl:xml-rss-feed",         ver: "2.40",                                        incorrect: true } # it's 2.4
