@@ -61,6 +61,7 @@
 - { setname: "python:libvirt-python",  name: [libvirt-python2, libvirt-python3], addflavor: true }
 - { setname: "python:logzero",         name: logzero }
 - { setname: "python:markdown",        name: python-markdown }
+- { setname: "python:markupsafe",      name: markupsafe }
 - { setname: "python:mdp",             name: "python:mdp-toolkit" }
 - { setname: "python:mdtraj",          name: mdtraj }
 - { setname: "python:meld3",           name: meld3 }
@@ -129,6 +130,7 @@
 - { setname: "python:scikits.timeseries", name: ["python:scikits-timeseries",scikits_timeseries] }
 - { setname: "python:social-auth-core", name: social-auth-core }
 - { setname: "python:sphinx",          name: "python:sphinx10" }
+- { setname: "python:sphinx",          name: ["python:sphinx-doc", sphinx-doc] }
 - { setname: "python:sphinx",          name: sphinx, wwwpart: [pocoo.org,sphinx-doc.org] }
 - { setname: "python:sphinxcontrib-websupport", name: sphinxcontrib-websupport }
 - { setname: "python:sqlalchemy",      name: ["python:sqlalchemy-doc","python:sqlalchemy-kilo","python:sqlalchemy-openstack"], addflavor: true }
