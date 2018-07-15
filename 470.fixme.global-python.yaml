@@ -25,6 +25,7 @@
 - { setname: "python:$1", noflag: not_python, namepat: "py[0-9]*-(.*)", family: macports }
 - { setname: "python:$1", noflag: not_python, namepat: "python[23]?-(.*)", family: kaos }
 - { setname: "python:$0", noflag: not_python, category: dev-python, family: [gentoo,exherbo,haikuports] }
+- { setname: "python:$1", noflag: not_python, namepat: "python2-(.*)", ruleset: [epel] }
 
 # turn python modules into such
 - name:

@@ -88,6 +88,7 @@ rulesets = families + [
     'blackarch',
     'deb_multimedia',
     'deepin',
+    'epel',
     'hyperbola',
     'maemo',
     'manjaro',
