@@ -16,7 +16,7 @@
 - { name: ffms2,                       ver: "2.23.1",                                      setver: "2.23" } # https://github.com/repology/repology/issues/496
 - { name: firebird,                    verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.[0-9]{5,}.*", setver: "$1" }
 - { name: firefox,                     verpat: ".*[ab].*",                                 devel: true }
-- { name: firefox,                     verpat: "(.*)esr",                                  setver: $1 }
+- { name: firefox,                     verpat: "(.*?) *esr",                               setver: $1 }
 - { name: ffmpeg,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # openbsd, chocolatey, pkgsrc
 - { name: figlet,                      ver: "222",                                         ignore: true } # haikuports
 - { name: file-roller,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
