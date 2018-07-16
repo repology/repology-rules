@@ -9,6 +9,7 @@
 - { setname: keepasshttp,              name: [keepass-keepasshttp,keepass-plugin-http,keepass-plugin-keepasshttp,keepass2-plugin-keepasshttp] } # XXX: other plugins may need this; also may need better scheme (keepass:...?)
 - { setname: keepassx,                 name: keepassx-devel, family: freebsd }
 - { setname: keepassx,                 namepat: "keepassx[0-9]*" }
+- { setname: keystone,                 name: "python:keystone" }
 - { setname: kibana,                   name: kibana-bin }
 - { setname: kibana,                   namepat: "kibana[0-9]+" }
 - { setname: kid3,                     name: [kid3-qt,kid3-qt4,kid3-qt5,kid4-qt,kid3-cli] }
