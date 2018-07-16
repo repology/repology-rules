@@ -17,3 +17,8 @@
 - { name: hugo,                        setname: hugo-emulator, verpat: "2\\..*" }
 - { name: hugo,                        setname: hugo-sitegen }
 - { name: gohugo,                      setname: hugo-sitegen }
+
+- { name: hydra, wwwpart: nixos, setname: hydra-nix }
+- { name: hydra, ruleset: nix, setname: hydra-nix }
+- { name: hydra, wwwpart: ory.am, setname: hydra-openid }
+# otherwise thc-hydra, network logon cracker
