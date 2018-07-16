@@ -1,6 +1,8 @@
 # vim: tabstop=30 expandtab softtabstop=30
 
-- {                           namepat: "libx32-(.*)", setname: "$1", addflavor: libx32 }
+# common rules
+- { namepat: "libx32-(.*)", setname: "$1", addflavor: libx32 }
+- { namepat: "(.*)-(nogui|nox11)", setname: $1, addflavor: $2 }
 
 - { ruleset: aix,             namepat: "(.*)(_64|-64|-64bit)", setname: "$1", addflavor: "64" }
 
@@ -49,3 +51,6 @@
 - { ruleset: parabola,        namepat: "(.*)-static-debug", setname: "$1", addflavor: static-debug }
 
 #- { ruleset: msys2, namepat: "(.*)-git", setname: "$1", ignore: true }
+
+# repeat suffix common rules again, as suffix order may vary (e.g. foo-git-nox11 vs. foo-nox11-git)
+- { namepat: "(.*)-(nogui|nox11)", setname: $1, addflavor: $2 }

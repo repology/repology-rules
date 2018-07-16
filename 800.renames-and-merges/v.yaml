@@ -28,7 +28,7 @@
 - { setname: vint,                     name: "python:vint" }
 - { setname: vint,                     name: vim-vint }
 - { setname: virglrenderer,            name: libvirglrenderer }
-- { setname: virtualbox,               namepat: "virtualbox(?:-ose)?-(additions|kmod)(?:-nox11)?", addflavor: true }
+- { setname: virtualbox,               namepat: "virtualbox(?:-ose)?-(additions|kmod)", addflavor: true }
 - { setname: virtualbox,               namepat: "(linux[0-9]+)(-rt)?-virtualbox-(guest|host)-modules", addflavor: true }
 - { setname: virtualgl,                name: virtualgl-lib, addflavor: lib }
 - { setname: virtuoso,                 name: [virtuoso-6,virtuoso-7,virtuoso-opensource,virtuoso-ose,virtuoso6] }

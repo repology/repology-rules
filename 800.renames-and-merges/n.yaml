@@ -22,7 +22,7 @@
 - { setname: netcdf-cxx,               name: netcdf-cxx-legacy }
 - { setname: netcdf-fortran,           namepat: "netcdf-fortran(?:[0-9._-]*)(-gnu.*hpc)?", addflavor: $1 }
 - { setname: nethack,                  name: [nethack-all,nethack-lib,nethack-patch,nethack-qt,nethack-tty,nethack-x11] }
-- { setname: nethack,                  namepat: "nethack[._-]*(?:[23][0-9._-]*)?(?:-nox11)?" }
+- { setname: nethack,                  namepat: "nethack[._-]*(?:[23][0-9._-]*)?" }
 - { setname: netlogo,                  name: netlogo-bin, addflavor: bin }
 - { setname: netpbm,                   name: libnetpbm }
 - { setname: nettle,                   name: [libnettle,nettle4] }
