@@ -12,7 +12,7 @@
 - { ruleset: aur,             name: php-svn, setname: "php:svn" } # save from following rule
 - { ruleset: aur,             name: python-svn, setname: "python:svn" } # save from following rule
 - { ruleset: aur,             namepat: "(.*)-(cvs|svn|hg|darcs|bzr|git)", setname: "$1", rolling: true }
-- { ruleset: aur,             namepat: "(.*)-bin", setname: "$1", addflavor: bin }
+- { ruleset: aur,             namepat: "(.*)-(bin|appimage)", setname: $1, addflavor: $2 }
 
 - { ruleset: buckaroo,        wwwpart: boost.org, setname: boost, addflavor: $0 }
 - { ruleset: buckaroo,        wwwpart: pocoproject.org, setname: poco, addflavor: $0 }
