@@ -50,6 +50,9 @@
 - { setname: docbook-dsssl,            name: [docbook-dsssl-stylesheets,docbook-style-dsssl] }
 - { setname: docbook-sgml,             name: docbook-sgml-dtd }
 - { setname: docbook-sgml,             namepat: "docbook-sgml[0-9._-]+" }
+- { setname: docbook-xsl,              name: [docbook-xsl-docs], addflavor: docs }
+- { setname: docbook-xsl,              name: [docbook-xsl-nons,docbook-xsl-stylesheets,docbook-style-xsl] } # assuming non-namespaced is "normal" docbook-xsl
+- { setname: docbook-xsl,              name: [docbook-xsl-ns,docbook-xsl-ns-stylesheets,docbook-style-xsl-ns], addflavor: ns }
 - { setname: docker,                   name: [docker-io,docker.io] }
 - { setname: docker,                   name: docker-git-x86, ignore: true } # ignore version just for the cause, because of suspicious name
 - { setname: doit,                     name: "python:doit" }
