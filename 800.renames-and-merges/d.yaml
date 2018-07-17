@@ -48,6 +48,8 @@
 - { setname: doas,                     name: opendoas }
 - { setname: docbook-dsssl,            name: [docbook-dsssl-doc,docbook-style-dsssl-doc] }
 - { setname: docbook-dsssl,            name: [docbook-dsssl-stylesheets,docbook-style-dsssl] }
+- { setname: docbook-sgml,             name: docbook-sgml-dtd }
+- { setname: docbook-sgml,             namepat: "docbook-sgml[0-9._-]+" }
 - { setname: docker,                   name: [docker-io,docker.io] }
 - { setname: docker,                   name: docker-git-x86, ignore: true } # ignore version just for the cause, because of suspicious name
 - { setname: doit,                     name: "python:doit" }
