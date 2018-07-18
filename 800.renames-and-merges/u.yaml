@@ -35,13 +35,11 @@
 - { setname: uqm,                      name: [uqm_3domusic,uqm-3domusic,uqm-content,uqm_voice,uqm-voice], addflavor: true }
 - { setname: uriparser,                name: [liburiparser,liburiparser1], addflavor: lib }
 - { setname: userspace-rcu,            name: libuserspace-rcu }
-- { setname: util-linux,               name: util-linux-debug, addflavor: debug }
 - { setname: utfcpp,                   name: [libutfcpp,utf8cpp] }
 - { setname: uthash,                   name: [libuthash-devel,uthash-devel] }
 - { setname: utf8proc,                 name: [libutf8proc,libutf8proc-julia] }
-- { setname: util-linux,               name: [libutil-linux-aarch64,libutil-linux-nosystemd,libutil-linux-nosystemd-debug,libutil-linux-selinux], addflavor: true }
-- { setname: util-linux,               name: [util-linux-aes,util-linux-minimal,util-linux-nosystemd,util-linux-nosystemd-debug,util-linux-selinux,util-linux-systemd], addflavor: true }
-- { setname: util-linux,               name: getopt, family: openwrt }
+- { setname: util-linux,               name: [libutil-linux,libutil-linux-static,libutil-linux-aarch64,libutil-linux-nosystemd,libutil-linux-nosystemd-debug,libutil-linux-selinux], addflavor: true }
+- { setname: util-linux,               name: [util-linux-aes,util-linux-debug,util-linux-minimal,util-linux-nosystemd,util-linux-nosystemd-debug,util-linux-selinux,util-linux-systemd], addflavor: true }
 - { setname: uucp,                     name: taylor-uucp }
 - { setname: uwsgi,                    name: "python:uwsgi" }
 - { setname: uwsgitop,                 name: "python:uwsgitop" }
