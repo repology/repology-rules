@@ -114,7 +114,7 @@
 - { setname: "ruby:$0", noflag: not_ruby, category: dev-ruby, family: [gentoo, exherbo] }
 
 # Rust
-- { setname: "rust:$1", noflag: not_rust, namepat: "rust-(.*)", family: [ arch, fedora, nix, sisyphus ] }
+- { setname: "rust:$1", noflag: not_rust, namepat: "rust-(.*)", family: [ arch, debuntu, fedora, nix, sisyphus ] }
 
 # VDR
 - { setname: "vdr:$1", noflag: not_vdr, namepat: "vdr-plugin-(.*)" }
