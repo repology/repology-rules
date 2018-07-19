@@ -13,7 +13,7 @@
 - { setname: make,                     name: [make-dfsg,make-doc-non-dfsg], addflavor: true }
 - { setname: mandoc,                   name: mdocml } # mdocml is an old name (schwarze@openbsd.org)
 - { setname: manpages,                 name: [man-pages,linux-man-pages,linux-manpages] }
-- { setname: mariadb,                  namepat: "(lib)?mariadb[0-9.-]*(clients?|server)?[0-9.]*", addflavor: [$1,$2] }
+- { setname: mariadb,                  namepat: "(lib)?mariadb[0-9.-]*(clients?|server)?[0-9.-]*", addflavor: [$1,$2] }
 - { setname: mariadb,                  name: [libmariadbclient-mainline-noconflict,mariadb-clients-mainline-noconflict], addflavor: true }
 - { setname: mariadb-mytop,            name: mytop, family: arch }
 - { setname: mariadb-mytop,            name: "mytop-10.3" }
