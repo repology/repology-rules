@@ -120,6 +120,7 @@
 - { namepat: "gstreamer.*",            verpat: "1\\.13\\.9[0-9]+",                         devel: true }
 - { name: gtest,                       verlonger: 3,                                       ignore: true } # freebsd garbage
 - { name: gtk,                         verpat: "[0-9]+\\.9[0-9]+\\..*",                    devel: true }
+- { name: gtk,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gtk-engines,                 verpat: "[0-9]+\\.9[0-9]+\\..*",                    devel: true }
 - { name: gtk-engines,                 ver: "2.21.0",                ruleset: [alpine,arch,slackbuilds], incorrect: true }
 - { name: gtk-engines,                                               ruleset: [alpine,arch,slackbuilds], untrusted: true }
