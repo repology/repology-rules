@@ -16,7 +16,7 @@
 - { setname: netbeans,                 namepat: "netbeans-.*", family: gentoo }
 - { setname: netcat-openbsd,           name: openbsd-netcat }
 - { setname: netcdf,                   namepat: "netcdf(?:[0-9._-]*)?(-gnu.*hpc)?", addflavor: $1 }
-- { setname: netcdf,                   name: netcdf-devel, ignore: true }
+- { setname: netcdf,                   name: netcdf-devel, weak_devel: true }
 - { setname: netcdf,                   name: [netcdf-mpi,netcdf-openmpi,netcdf-parallel-openmpi], addflavor: true }
 - { setname: netcdf-cxx,               namepat: "netcdf-cxx(?:[0-9._-]*)(-gnu.*hpc)?", addflavor: $1 }
 - { setname: netcdf-cxx,               name: netcdf-cxx-legacy }

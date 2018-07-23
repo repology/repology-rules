@@ -22,7 +22,7 @@
 - { setname: eid-viewer,               name: eid-viewer-bin }
 - { setname: eigen,                    namepat: "eigen[0-9._-]+" }
 - { setname: eigen,                    name: libeigen }
-- { setname: eigen,                    name: libeigen2-devel, ignore: true }
+- { setname: eigen,                    name: libeigen2-devel, weak_devel: true }
 - { setname: einstein,                 name: einstein-puzzle, family: pkgsrc }
 - { setname: eiskaltdcpp,              namepat: eiskaltdcpp-(cli|daemon|data|gtk|lib|qt|core) }
 - { setname: elasticsearch,            namepat: "elasticsearch[0-9]+" }
@@ -35,8 +35,8 @@
 - { setname: elm-mua,                  name: elm-me, addflavor: me }
 - { setname: elvis,                    name: elvis-x11 }
 - { setname: emacs,                    name: [emacs-24bit,emacs-nox,emacs-docs,emacs-minimal,emacs-no-x-toolkit,emacs-nox-24bit,emacs-canna], addflavor: true }
-- { setname: emacs,                    name: [emacs-devel,emacs-git], ignore: true }
-- { setname: emacs,                    name: [emacs-devel_nox], addflavor: nox11, ignore: true }
+- { setname: emacs,                    name: [emacs-devel,emacs-git], weak_devel: true }
+- { setname: emacs,                    name: [emacs-devel_nox], addflavor: nox11, weak_devel: true }
 - { setname: emacs,                    name: emacs-git-gtk2, addflavor: gtk2, ignore: true }
 - { setname: emacs,                    namepat: "emacs[0-9.-]+(-non-dfsg)?" }
 - { setname: emacs-lua-mode,           name: emacs-lua }
@@ -89,7 +89,7 @@
 - { setname: evopedia,                 name: evopedia_qt }
 - { setname: exa,                      name: "rust:exa" }
 - { setname: exact-image,              name: exactimage }
-- { setname: exaile,                   name: exaile-devel, ignore: true }
+- { setname: exaile,                   name: exaile-devel, weak_devel: true }
 - { setname: excalibar,                name: libexcalibar, addflavor: lib }
 - { setname: exercism-cli,             name: [exercism,"go:github-exercism-cli"] }
 - { setname: exempi,                   name: libexempi }

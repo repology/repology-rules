@@ -34,19 +34,20 @@
 - { setname: libreoffice,              namepat: "libreoffice-fresh-(.*)", family: arch, addflavor: $1 }
 - { setname: libreoffice,              namepat: "libreoffice-still-(.*)", family: arch, addflavor: $1 }
 - { setname: libreoffice-extension-barcode, name: barcode, family: gentoo, category: app-officeext }
-- { setname: libressl,                 name: libressl-devel, ignore: true }
+- { setname: libressl,                 name: libressl-devel, weak_devel: true }
 - { setname: libressl,                 name: libressl-netcat, addflavor: netcat }
-- { setname: lightdm,                  name: lightdm-devel, untrusted: true }
+- { setname: lightdm,                  name: lightdm-devel, weak_devel: true }
 - { setname: lightdm,                  name: lightdm-ubuntu, addflavor: ubuntu }
-- { setname: lightdm,                  namepat: "(liblightdm(?:-qt4|-qt5)*)-devel", addflavor: $1, untrusted: true }
+- { setname: lightdm,                  namepat: "(liblightdm(?:-qt4|-qt5)*)-devel", addflavor: $1, weak_devel: true }
 - { setname: lightdm,                  namepat: "liblightdm(?:-qt4|-qt5|-ubuntu)*", addflavor: true }
 - { setname: lightdm,                  name: [lightdm-guest,liblightdm-qt4-guest,liblightdm-qt5-guest] }
 - { setname: lightdm-gtk-greeter,      name: lightdm-gtk }
-- { setname: lightdm-gtk-greeter,      name: lightdm-gtk-greeter-devel, untrusted: true }
+- { setname: lightdm-gtk-greeter,      name: lightdm-gtk-greeter-devel, weak_devel: true }
 - { setname: lightsoff,                name: gnome-games-lightsoff }
 - { setname: lightyears,               name: 20kly }
-- { setname: lilypond,                 name: [lilypond-devel-docs,lilypond-doc,lilypond-docs], addflavor: docs }
-- { setname: lilypond,                 name: lilypond-devel }
+- { setname: lilypond,                 name: lilypond-devel-docs, addflavor: docs, weak_devel: true }
+- { setname: lilypond,                 name: [lilypond-doc,lilypond-docs], addflavor: docs }
+- { setname: lilypond,                 name: lilypond-devel, weak_devel: true }
 - { setname: links,                    name: [links1,links2,links+,links-g-directfb,links-gui] }
 - { setname: linux-firmware,           name: kernel-firmware }
 - { setname: linux-predator,           name: [linux-predator-docs,linux-predator-headers], addflavor: true }
@@ -67,7 +68,7 @@
 - { setname: lostpixels,               name: blinkensisters-with-addons }
 - { setname: loudmouth,                name: loudmouth-ossl, addflavor: openssl }
 - { setname: love,                     namepat: "love(?:-legacy)?[0-9._-]+" }
-- { setname: lprof,                    name: lprof-devel }
+- { setname: lprof,                    name: lprof-devel, weak_devel: true }
 - { setname: lsof-freebsd,             name: lsof, family: freebsd } # patched version with own versioning
 - { setname: lua,                      namepat: "(?:lib)?lua[0-9._-]*" }
 - { setname: luajit,                   name: [luajit-2.1,luajit2] }

@@ -17,19 +17,25 @@
 - { setname: weboob,                   name: weboob-headless, addflavor: headless }
 - { setname: websocketpp,              name: websocket++ }
 - { setname: webvfx,                   name: webvfx-qt5, addflavor: qt5 }
-- { setname: wesnoth,                  name: [the-battle-for-wesnoth,wesnoth-devel,wesnoth-unstable] }
+- { setname: wesnoth,                  name: [wesnoth-devel,wesnoth-unstable], weak_devel: true }
+- { setname: wesnoth,                  name: the-battle-for-wesnoth }
 - { setname: wesnoth,                  name: [wesnoth-data,wesnoth-server], addflavor: true }
 - { setname: wesnoth,                  namepat: "wesnoth[0-9.-]+" }
 - { setname: which,                    name: [gnu-which,gwhich] }
 - { setname: whizzytex,                name: tex-whizzytex }
 - { setname: wicd,                     name: [wicd-gtk,wicd-patched], addflavor: true }
 - { setname: windowmaker,              name: wmaker }
-- { setname: wine,                     name: [i386-wine,i386-wine-devel], addflavor: i386 }
+- { setname: wine,                     name: i386-wine-devel, addflavor: i386, weak_devel: true }
+- { setname: wine,                     name: i386-wine, addflavor: i386 }
 - { setname: wine,                     name: [wine-d3d9,wine-any,wine-gaming-nine,wine-rt,wine-staging-ivb,wine-ivb], addflavor: true }
-- { setname: wine,                     name: [wine-next,wine-staging,wine-devel,wine-development,wine-vanilla,wine-stable] }
+- { setname: wine,                     name: [wine-next,wine-staging,wine-vanilla,wine-stable] }
+- { setname: wine,                     name: [wine-devel,wine-development], weak_devel: true }
 - { setname: wine,                     namepat: "wine[0-9.-]+" }
-- { setname: wine-gecko,               namepat: "wine-gecko([0-9.-]+|-devel|-stable)" }
-- { setname: wine-mono,                namepat: "wine-mono([0-9.-]+|-devel)" }
+- { setname: wine-gecko,               name: wine-gecko-devel, weak_devel: true }
+- { setname: wine-gecko,               name: wine-gecko-stable }
+- { setname: wine-gecko,               namepat: "wine-gecko[0-9._-]+" }
+- { setname: wine-mono,                name: wine-mono-devel, weak_devel: true }
+- { setname: wine-mono,                namepat: "wine-mono[0-9._-]+" }
 - { setname: winewizard,               name: wine-wizard }
 - { setname: winff,                    name: [winff-gtk2,winff-qt4], addflavor: true }
 - { setname: wings3d,                  name: [wings,wings-3d] }

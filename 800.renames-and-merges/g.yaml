@@ -10,11 +10,11 @@
 - { setname: gargoyle,                 name: gargoyle-free }
 - { setname: garlic,                   name: garlic-doc }
 - { setname: garmintools,              name: garmin-forerunner-tools }
-- { setname: gaul,                     name: gaul-devel, family: gentoo }
+- { setname: gaul,                     name: gaul-devel, weak_devel: true }
 - { setname: gavl,                     name: libgavl }
 - { setname: gcc,                      name: [g++,gcc3-c,gcc3-c++,gcc3-f77,gcc3-objc,gcc48-libs,gcc49-libs,gcc5-libs], addflavor: true }
 - { setname: gcc,                      namepat: "gcc[0-9.-]+" }
-- { setname: gcc,                      namepat: "gcc[0-9.-]+-devel", ignore: true }
+- { setname: gcc,                      namepat: "gcc[0-9.-]+-devel", weak_devel: true }
 - { setname: gccgo,                    namepat: "gccgo[0-9.-]+" }
 - { setname: gcin,                     name: gcin-gtk3, addflavor: gtk3 }
 - { setname: gcin,                     name: gcin-qt4, addflavor: qt4 }
@@ -30,7 +30,8 @@
 - { setname: gdlmm,                    namepat: "(?:lib)?gdlmm[0-9._-]*" }
 - { setname: geany-plugins,            namepat: "geany-plugin-.*", family: freebsd }
 - { setname: gearhead2,                name: gearhead-2 }
-- { setname: gearmand,                 name: [gearmand-devel,gearman] }
+- { setname: gearmand,                 name: gearman }
+- { setname: gearmand,                 name: gearmand-devel, weak_devel: true  }
 - { setname: geckodriver,              name: geckodriver-unstable, ignore: true }
 - { setname: geckodriver,              name: selenium-gecko-driver }
 - { setname: geeknote,                 name: "python:geeknote" }
@@ -63,7 +64,7 @@
 - { setname: gimagereader,             name: gimagereader-beta, devel: true }
 - { setname: gimagereader,             name: gimagereader-qt5, addflavor: qt5 }
 - { setname: gimp,                     name: [gimp-app,gimp-with-plugins,"python:gimp"], addflavor: true }
-- { setname: gimp,                     name: [gimp-devel,gimp2-devel], ignore: true }
+- { setname: gimp,                     name: [gimp-devel,gimp2-devel], weak_devel: true }
 - { setname: gimp,                     name: [gimp2] }
 - { setname: gimp,                     name: [gimp3-devel,gimp-git,gimp3,gimp-gtk3], ignore: true }
 - { setname: gimp-$1,                  namepat: "gimp2-(.*)" }

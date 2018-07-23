@@ -4,8 +4,8 @@
 - { setname: libappindicator,          name: [libappindicator-activate-gtk2,libappindicator-activate-gtk3,libappindicator-activate-sharp,libappindicator-gtk2,libappindicator-gtk3,libappindicator-sharp], addflavor: true }
 - { setname: libappindicator,          name: libappindicator3 }
 - { setname: libarcus,                 name: arcus }
-- { setname: libasr,                   name: [libasr-devel,libasr-snapshot], ignore: true }
-- { setname: libarchive,               name: libarchive-devel, ignore: true }
+- { setname: libasr,                   name: [libasr-devel,libasr-snapshot], weak_devel: true }
+- { setname: libarchive,               name: libarchive-devel, weak_devel: true }
 - { setname: libarchive,               name: libarchive3 }
 - { setname: libatomic-ops,            name: [atomic_ops,libatomicops] }
 - { setname: libcap,                   name: [libcap2,libcap1,compat-libcap1] }
@@ -171,7 +171,7 @@
 - { setname: libxaw3dxft,              name: xaw3dxft }
 - { setname: libxcb,                   name: [libx32-libxcb,xorg-libxcb,compat-libxcb] }
 - { setname: libxfont,                 name: [libxfont,libxfont1,libxfont2,xorg-libxfont,xorg-libxfont2,xorg-xfont,xorg-xfont2] }
-- { setname: libxfce4util,             name: libxfce4util-devel, ignore: true }
+- { setname: libxfce4util,             name: libxfce4util-devel, weak_devel: true }
 - { setname: libxfce4util,             name: libxfce4util-gtk3, addflavor: gtk3 }
 - { setname: libxkbcommon,             name: libxkbcommon-doc, addflavor: doc }
 - { setname: libxkbcommon,             name: libxkbcommon-x11, addflavor: x11 }

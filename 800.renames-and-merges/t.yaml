@@ -58,11 +58,12 @@
 - { setname: thunderbird,              namepat: "thunderbird-nightly(.*)", addflavor: $1, ignore: true }
 - { setname: thunderbird,              namepat: "thunderbird[0-9.-]*" }
 - { setname: thunderbird,              namepat: "thunderbird[0-9.-]*-l10n", addflavor: l10n }
-- { setname: tidy,                     name: [html-tidy,htmltidy,tidy-devel,tidy-html,tidy-html5,tidy-lib,tidy4,tidyhtml,tidy] }
+- { setname: tidy,                     name: tidy-devel, weak_devel: true }
+- { setname: tidy,                     name: [html-tidy,htmltidy,tidy-html,tidy-html5,tidy-lib,tidy4,tidyhtml,tidy] }
 - { setname: tiff,                     name: [libtiff,libtiff3,libtiff4,tiff3,compat-libtiff3] }
 - { setname: tiff,                     name: tiffgt, addflavor: true }
 - { setname: tigervnc,                 name: [tiger-vnc,tigervnc-viewer] }
-- { setname: tigervnc,                 name: tigervnc-devel, ignore: true }
+- { setname: tigervnc,                 name: tigervnc-devel, weak_devel: true }
 - { setname: tiled,                    name: [tiled-java,tiled-qt] }
 - { setname: time,                     name: [gnu-time,gtime] }
 - { setname: timescaledb,              name: [postgresql10-timescaledb,postgresql96-timescaledb], addflavor: true }
@@ -88,8 +89,8 @@
 - { setname: tomee,                    name: [tomee-jax-rs,tomee-plume,tomee-plus,tomee-webprofile] }
 - { setname: toot,                     name: "python:toot" }
 - { setname: topgrade,                 name: "rust:topgrade" }
-- { setname: tor,                      name: [tor-devel,tor-expert] }
-- { setname: tor,                      name: tor-unstable, devel: true }
+- { setname: tor,                      name: [tor-devel,tor-unstable], weak_devel: true }
+- { setname: tor,                      name: tor-expert, addflavor: true }
 - { setname: torrent-file-editor,      name: [torrent-file-editor-qt4,torrent-file-editor-qt5], addflavor: true }
 - { setname: totem-pl-parser,          name: libtotem-pl-parser }
 - { setname: totem-pl-parser,          name: totem-pl-parser-gtk2, addflavor: gtk2 }

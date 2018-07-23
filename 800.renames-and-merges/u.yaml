@@ -16,15 +16,16 @@
 - { setname: umockdev,                 name: libumockdev }
 - { setname: unace,                    name: [unace-bin,unace-nonfree] }
 - { setname: unarr,                    name: libunarr }
-- { setname: unbound,                  name: [libunbound,libunbound-devel-mini,"python:unbound",pyunbound,unbound-ecs], addflavor: true }
+- { setname: unbound,                  name: [libunbound,"python:unbound",pyunbound,unbound-ecs], addflavor: true }
+- { setname: unbound,                  name: libunbound-devel-mini, addflavor: true, weak_devel: true }
 - { setname: unburden-home-dir,        name: "perl:unburden-home-dir" }
 - { setname: uncrustify,               name: uncrustify0.60 }
 - { setname: unibilium,                name: libunibilium }
 - { setname: unifi,                    name: [unifi5, unifi-lts, ubiquiti-unifi-controller] }
-- { setname: unifi,                    name: [unifi-beta, unifi-devel], ignore: true }
+- { setname: unifi,                    name: [unifi-beta, unifi-devel], weak_devel: true }
 - { setname: unigine-heaven,           name: linux-unigine-heaven, family: freebsd }
 - { setname: unigine-valley,           name: linux-unigine-valley, family: freebsd }
-- { setname: unison,                   name: unison-devel, ignore: true }
+- { setname: unison,                   name: unison-devel, weak_devel: true }
 - { setname: unison,                   namepat: "unison([0-9.-]*)(?:-compat)?" }
 - { setname: unit,                     name: [nginx-unit, nginx-unitd] }
 - { setname: unit,                     namepat: "(?:nginx-)?unit-((?:go|php|python|perl)[0-9._-]*)", addflavor: $1 }
@@ -36,7 +37,7 @@
 - { setname: uriparser,                name: [liburiparser,liburiparser1], addflavor: lib }
 - { setname: userspace-rcu,            name: libuserspace-rcu }
 - { setname: utfcpp,                   name: [libutfcpp,utf8cpp] }
-- { setname: uthash,                   name: [libuthash-devel,uthash-devel] }
+- { setname: uthash,                   name: [libuthash-devel,uthash-devel], weak_devel: true }
 - { setname: utf8proc,                 name: [libutf8proc,libutf8proc-julia] }
 - { setname: util-linux,               name: [libutil-linux,libutil-linux-static,libutil-linux-aarch64,libutil-linux-nosystemd,libutil-linux-nosystemd-debug,libutil-linux-selinux], addflavor: true }
 - { setname: util-linux,               name: [util-linux-aes,util-linux-debug,util-linux-minimal,util-linux-nosystemd,util-linux-nosystemd-debug,util-linux-selinux,util-linux-systemd], addflavor: true }

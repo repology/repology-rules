@@ -36,14 +36,15 @@
 - { setname: openjdk,                  namepat: "openjdk[0-9._-]*(?:-doc)?" }
 - { setname: openjpeg,                 name: [openjp2,libopenjpeg2.0] }
 - { setname: openjpeg,                 namepat: "(?:lib)?openjpeg[0-9]*" }
-- { setname: openldap,                 name: [compat-openldap,libldap,openldap-client,openldap-cloak,openldap-doc,openldap-nops,openldap-overlays-devel,openldap-sasl-client,openldap-server,openldap-smbk5pwd], addflavor: true }
+- { setname: openldap,                 name: [compat-openldap,libldap,openldap-client,openldap-cloak,openldap-doc,openldap-nops,openldap-sasl-client,openldap-server,openldap-smbk5pwd], addflavor: true }
+- { setname: openldap,                 name: openldap-overlays-devel, addflavor: openldap-overlays, weak_devel: true }
 - { setname: openldap,                 name: openldap2 }
 - { setname: openmesh,                 name: open-mesh }
 - { setname: openmpi,                  name: open-mpi }
 - { setname: openobex,                 name: libopenobex }
 - { setname: openocd,                  name: open-ocd }
 - { setname: openoffice,               name: apache-openoffice }
-- { setname: openoffice,               name: apache-openoffice-devel, ignore: true }
+- { setname: openoffice,               name: apache-openoffice-devel, weak_devel: true }
 - { setname: openoffice,               name: openoffice-bin, addflavor: bin }
 - { setname: openoffice,               name: openoffice.org }
 - { setname: openr2,                   namepat: "(?:lib)?openr2[0-9._-]*" }
@@ -51,9 +52,9 @@
 - { setname: opensc,                   namepat: "opensc[0-9._-]+" }
 - { setname: opensc,                   name: opensc-openct, addflavor: openct }
 - { setname: openscenegraph,           name: [openscenegraph-qt,openscenegraph-qt4,openscenegraph-data], addflavor: true }
-- { setname: openscenegraph,           name: open-scene-graph }
+- { setname: openscenegraph,           name: [open-scene-graph,osg] }
 - { setname: openscenegraph,           namepat: "openscenegraph[0-9.-]+" }
-- { setname: openscenegraph,           namepat: "osg(?:-devel)?" }
+- { setname: openscenegraph,           name: osg-devel, weak_devel: true }
 - { setname: openshadinglanguage,      namepat: "openshadinglanguage[0-9._-]+" }
 - { setname: openshot,                 name: openshot-qt, addflavor: qt }
 - { setname: opensmtpd-extras,         namepat: "opensmtpd-extras-.*", family: [freebsd,openbsd] }
@@ -72,7 +73,7 @@
 - { setname: openvpn,                  name: [openvpn-mbedtls,openvpn-polarssl,openvpn2,openvpn23] }
 - { setname: openzwave,                name: open-zwave }
 - { setname: openssl,                  namepat: "(?:lib)?openssl(?:[0-9._-]*|[0-9._-]+[a-z]?)?" }
-- { setname: openssl,                  name: openssl-devel }
+- { setname: openssl,                  name: openssl-devel, weak_devel: true }
 - { setname: opus,                     name: libopus }
 - { setname: opusfile,                 name: libopusfile }
 - { setname: orafce,                   namepat: "(postgresql[0-9._-]*)-orafce", addflavor: $1 }

@@ -110,7 +110,7 @@
 - { setname: spandsp,                  name: libspandsp6 }
 - { setname: sparsehash,               name: google-sparsehash }
 - { setname: spatialindex,             name: libspatialindex }
-- { setname: spatialite-gui,           name: spatialite-gui-devel, ignore: true }
+- { setname: spatialite-gui,           name: spatialite-gui-devel, weak_devel: true }
 - { setname: speed-dreams,             name: speeddreams }
 - { setname: speed-dreams,             namepat: "speed-?dreams-.*", addflavor: true }
 - { setname: speexdsp,                 name: libspeexdsp }
@@ -130,7 +130,7 @@
 - { setname: sqlite,                   name: [sqlite-doc,sqlite3-doc], addflavor: doc }
 - { setname: sqlite,                   name: [sqlite-interactive,sqlite-with-fts3,sqlite-with-fts5,sqlite.shell,sqlite3-tools], addflavor: true }
 - { setname: squid,                    name: [squid-ldap,squid-ntlm], family: openbsd }
-- { setname: squid,                    name: squid-devel, ignore: true }
+- { setname: squid,                    name: squid-devel, weak_devel: true }
 - { setname: squid,                    namepat: "squid[0-9._-]+" }
 - { setname: squirrelmail-$1,          namepat: "squirrelmail-(.*)-plugin", family: freebsd }
 - { setname: sratom,                   name: libsratom }
@@ -140,7 +140,7 @@
 - { setname: staruml,                  name: staruml-bin, addflavor: bin }
 - { setname: staruml,                  name: staruml2 }
 - { setname: stellarium,               name: stellarium-qt4 }
-- { setname: stepmania,                name: stepmania-devel, family: freebsd }
+- { setname: stepmania,                name: stepmania-devel, weak_devel: true }
 - { setname: stfl,                     name: [libstfl,libstfl0] }
 - { setname: sthttpd,                  name: thttpd, family: gentoo } # actually fork of thttpd; XXX: problem
 - { setname: stone-soup,               name: [dungeon-crawl-stone-soup,stonesoup] }
@@ -170,7 +170,8 @@
 - { setname: suil,                     name: [suil-qt4,suil-qt5], addflavor: true }
 - { setname: suitesparse,              name: [libsuitesparse,libsuitesparse3,suitesparse-mkl,suitesparse-metis] }
 - { setname: suitesparse,              name: suite-sparse }
-- { setname: suitesparseconfig,        name: [ufconfig,suitesparse-common-devel] } # from report: ufconfig is an old name for suitesparseconfig
+- { setname: suitesparseconfig,        name: ufconfig } # from report: ufconfig is an old name for suitesparseconfig
+- { setname: suitesparseconfig,        name: suitesparse-common-devel, weak_devel: true }
 - { setname: sunsetscreen,             name: sunset-screen } # grr, windows-only
 - { setname: supertransball2,          name: [stransball2,super_transball] }
 - { setname: supertux,                 name: [supertux,supertux1,supertux2,supertux-old,supertux-stable] }
@@ -181,7 +182,7 @@
 - { setname: sway,                     name: sway-wlroots, addflavor: wlroots }
 - { setname: sweethome3d,              name: [sweet-home-3d,sweethome3d-application] }
 - { setname: swi-prolog,               name: [swi-prolog-doc,swi-prolog-jpl,swi-prolog-lite,swi-prolog-packages], addflavor: true }
-- { setname: swi-prolog,               name: swi-prolog-devel }
+- { setname: swi-prolog,               name: swi-prolog-devel, weak_devel: true }
 - { setname: swig,                     namepat: "swig-(.*)", family: macports, addflavor: $1 } # split by supported language
 - { setname: swig,                     namepat: "swig[0-9._-]+" }
 - { setname: swissfileknife,           name: sfk }

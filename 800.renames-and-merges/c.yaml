@@ -38,7 +38,7 @@
 - { setname: cdogs-sdl,                name: cyberdogs_sdl }
 - { setname: cdparanoia,               name: cdparanoia-iii }
 - { setname: cdparanoia,               name: cdparanoia-overread, addflavor: overread }
-- { setname: cdrtools,                 name: cdrtools-devel, ignore: true }
+- { setname: cdrtools,                 name: cdrtools-devel, weak_devel: true }
 - { setname: ce,                       name: ce-x11, addflavor: x11 }
 - { setname: cef,                      name: [cef-minimal,cef-standard], addflavor: true }
 - { setname: cegui,                    name: [cegui-mk2,cegui_mk-2] }
@@ -47,12 +47,12 @@
 - { setname: celestia,                 namepat: "celestia-.*", family: freebsd } # merges glut/gnome/gtk, just GUI variants
 - { setname: celt,                     namepat: "(?:lib)?celt[0-9._-]*" }
 - { setname: centerim,                 name: [center-im,centerim5] }
-- { setname: centerim,                 name: centerim-devel, ignore: true }
+- { setname: centerim,                 name: centerim-devel, weak_devel: true }
 - { setname: ceti-2-theme,             name: ceti-2-themes }
 - { setname: cfengine,                 namepat: "cfengine[0-9]+" } # XXX: split?
-- { setname: cfengine,                 namepat: cfengine-devel, ignore: true }
+- { setname: cfengine,                 namepat: cfengine-devel, weak_devel: true }
 - { setname: cfengine-masterfiles,     namepat: "cfengine-masterfiles[0-9]+" }
-- { setname: cfengine-masterfiles,     namepat: cfengine-masterfiles-devel, ignore: true }
+- { setname: cfengine-masterfiles,     namepat: cfengine-masterfiles-devel, weak_devel: true }
 - { setname: cfitsio,                  name: cfitsio3 }
 - { setname: cfr,                      name: cfr-decompiler }
 - { setname: cgal,                     name: cgal-ipelets, addflavor: ipelets }
@@ -178,7 +178,7 @@
 - { setname: curses-hexedit,           name: [chexedit,ncurses-hexedit] }
 - { setname: cups,                     name: [cups-libs,cups-base,cups-minimal,cups-nosystemd,libcups,libcups-ipp14], addflavor: true }
 - { setname: cutecom,                  name: cutecom-legacy }
-- { setname: cvs,                      name: cvs-devel }
+- { setname: cvs,                      name: cvs-devel, weak_devel: true }
 - { setname: cvsps,                    namepat: "cvsps[0-9]+" }
 - { setname: cvsweb,                   name: cvsweb3 }
 - { setname: cwiid,                    name: libcwiid }

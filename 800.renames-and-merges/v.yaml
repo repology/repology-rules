@@ -2,7 +2,7 @@
 
 - { setname: v4l2loopback,             name: v4l2loopback-dkms }
 - { setname: v8,                       name: [v8-static-gyp,v8-static-gyp-5.4], addflavor: static-gyp }
-- { setname: v8,                       name: v8-devel }
+- { setname: v8,                       name: v8-devel, weak_devel: true }
 - { setname: v8,                       name: v8-nodejs, addflavor: nodejs }
 - { setname: v8,                       namepat: "(?:lib)?v8(?:-[0-9._-]+)?" }
 - { setname: vala,                     namepat: "vala[0-9.-]+" }
@@ -11,7 +11,7 @@
 - { setname: vala,                     name: valac }
 - { setname: valyriatear,              name: valyria-tear }
 - { setname: varnish,                  namepat: "varnish[0-9._-]+" }
-- { setname: vdr,                      name: vdr-devel, ignore: true }
+- { setname: vdr,                      name: vdr-devel, weak_devel: true }
 - { setname: vdrift,                   name: vdrift-data, addflavor: data }
 - { setname: vegastrike,               name: vega-strike }
 - { setname: vert.x,                   name: vertx }

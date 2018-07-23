@@ -9,7 +9,7 @@
 - { setname: falcons-eye,              name: falconseye }
 - { setname: farstream,                namepat: "farstream[0-9.-]+" }
 - { setname: fasta,                    name: fasta3 }
-- { setname: fastd,                    name: fastd-devel, ignore: true }
+- { setname: fastd,                    name: fastd-devel, weak_devel: true }
 - { setname: fcgi,                     name: [fcgi-devkit,libfcgi] }
 - { setname: fcgi-cgi,                 name: fcgi-cgi-static, addflavor: static }
 - { setname: fcitx,                    name: [fcitx-gtk2,fcitx-gtk3], addflavor: true }
@@ -57,7 +57,7 @@
 - { setname: flrig,                    name: flrig-docs, addflavor: true }
 - { setname: fltk,                     name: [fltk-docs,fltk-editor,fltk-games], addflavor: true }
 - { setname: fltk,                     namepat: "(?:lib)?fltk[0-9._-]*" }
-- { setname: fltk,                     name: fltk-devel }
+- { setname: fltk,                     name: fltk-devel, weak_devel: true }
 - { setname: fluidsynth,               name: fluid-synth }
 - { setname: flume,                    name: apache-flume-ng }
 - { setname: flutter,                  name: flutter-dev, devel: true }
@@ -77,7 +77,8 @@
 - { setname: fossology,                name: fossology-nomos-standalone } # part of fossology
 - { setname: foundationdb,             name: [foundationdb-clients,foundationdb-server], addflavor: true }
 - { setname: four-in-a-row,            name: gnome-games-four-in-a-row }
-- { setname: fox,                      name: [fox-devel,fox-toolkit,fox-toolkit-devel] }
+- { setname: fox,                      name: fox-toolkit }
+- { setname: fox,                      name: [fox-devel,fox-toolkit-devel], weak_devel: true }
 - { setname: fox,                      namepat: "(?:lib)?fox[0-9._-]*" }
 - { setname: fox,                      name: [adie,calculator], wwwpart: fox-toolkit, addflavor: true } # bundled apps
 - { setname: foxyproxy,                name: xpi-foxyproxy, family: freebsd }
@@ -103,7 +104,7 @@
 - { setname: freeradius,               name: [freeradius-freetds,freeradius-iodbc,freeradius-krb5,freeradius-ldap,freeradius-memcached,freeradius-mysql,freeradius-perl,freeradius-pgsql,freeradius-python,freeradius-rest,freeradius-sqlite3,freeradius-unixodbc,freeradius-wpe,freeradius-yubikey], addflavor: true }
 - { setname: freeradius,               name: [freeradius-server,freeradius3] }
 - { setname: freerdp,                  namepat: "freerdp[0-9.-]+" }
-- { setname: freetds,                  name: freetds-devel, ignore: true }
+- { setname: freetds,                  name: freetds-devel, weak_devel: true }
 - { setname: freetds,                  name: [freetds-krb5,freetds-patched-enum], addflavor: true }
 - { setname: freetype,                 name: [libfreetype,freetype1,freetype2] }
 - { setname: freetype-infinality,      name: [freetype2-infinality,libfreetype-infinality] }
@@ -112,9 +113,9 @@
 - { setname: frozen-bubble,            name: frozen-bubble-server, addflavor: server }
 - { setname: frozen-bubble,            name: frozenbubble2 }
 - { setname: frr,                      name: [frr3,frr4,frr5] }
-- { setname: fs-uae,                   name: fs-uae-devel }
-- { setname: fs-uae-arcade,            name: fs-uae-arcade-devel }
-- { setname: fs-uae-launcher,          name: fs-uae-launcher-devel }
+- { setname: fs-uae,                   name: fs-uae-devel, weak_devel: true }
+- { setname: fs-uae-arcade,            name: fs-uae-arcade-devel, weak_devel: true }
+- { setname: fs-uae-launcher,          name: fs-uae-launcher-devel, weak_devel: true }
 - { setname: fselect,                  name: "rust:fselect" }
 - { setname: fsv,                      name: fsv2 }
 - { setname: fteproxy,                 name: "python:fteproxy" }

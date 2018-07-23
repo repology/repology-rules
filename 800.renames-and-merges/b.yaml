@@ -3,7 +3,7 @@
 - { setname: babl,                     name: libbabl }
 - { setname: backblaze-b2,             name: b2-tools }
 - { setname: backintime,               name: [backintime-cli,backintime-common,backintime-qt4], addflavor: true }
-- { setname: backuppc,                 name: backuppc-devel, ignore: true }
+- { setname: backuppc,                 name: backuppc-devel, weak_devel: true }
 - { setname: backuppc,                 name: backuppc4 }
 - { setname: badtouch,                 name: "rust:badtouch" }
 - { setname: bahn-regio-entfernungsrechner, name: bahn-regio-entfernungsrechner-latest }
@@ -15,12 +15,12 @@
 - { setname: barcode,                  name: gnu-barcode }
 - { setname: base,                     name: acidbase }
 - { setname: bash,                     name: [bash-interactive,bash-minimal,bash-static], addflavor: true }
-- { setname: bash,                     name: bash-devel, ignore: true }
-- { setname: bash,                     name: bash-devel-static, ignore: true, addflavor: bash-static }
+- { setname: bash,                     name: bash-devel, weak_devel: true }
+- { setname: bash,                     name: bash-devel-static, weak_devel: true, addflavor: bash-static }
 - { setname: bash,                     namepat: "bash[0-9]+" }
 - { setname: batman-adv,               name: [batman-adv-dkms,batman-adv-legacy-dkms], addflavor: dkms }
 - { setname: batman-adv,               name: batman-adv-optimized, addflavor: true }
-- { setname: battery-monitor,          name: battery-monitor-devel, ignore: true }
+- { setname: battery-monitor,          name: battery-monitor-devel, weak_devel: true }
 - { setname: bats,                     name: [bats-core,bash-bats] }
 - { setname: bazel,                    name: bazel-clang38, addflavor: true }
 - { setname: bazel-buildtools,         name: buildifier, addflavor: true }
@@ -48,18 +48,15 @@
 - { setname: bibtool,                  name: bib-tool }
 - { setname: bicyclerepair,            name: bicyclerepair-py27 }
 - { setname: billardgl,                name: billard-gl }
-- { setname: bind,                     name: bind-rl, addflavor: rl }
-- { setname: bind,                     name: bind-tools, addflavor: tools }
-- { setname: bind,                     name: bind-toolsonly, addflavor: toolsonly }
-- { setname: bind,                     name: bind9-devel, ignore: true }
-- { setname: bind,                     name: [bindutils,dnsutils], addflavor: utils }
-- { setname: bind,                     name: dig, addflavor: dig }
+- { setname: bind,                     name: [dig,bind-rl,bind-tools,bind-toolsonly,bindutils,dnsutils], addflavor: true }
+- { setname: bind,                     name: bind9-devel, weak_devel: true }
 - { setname: bind,                     namepat: "bind[0-9_.-]+" }
 - { setname: bird,                     name: [bird-v6,bird6] }
 - { setname: bison,                    name: [bison-doc,bison-runtime], addflavor: true }
 - { setname: bison,                    name: [bison2,bison27] }
 - { setname: bitdefender,              name: bdc, ruleset: openpkg }
-- { setname: bitkeeper,                name: [bitkeeper-development,bitkeeper-production] }
+- { setname: bitkeeper,                name: bitkeeper-development, weak_devel: true }
+- { setname: bitkeeper,                name: bitkeeper-production }
 - { setname: bisonc++,                 name: bisoncpp }
 - { setname: blackshades,              name: blackshades-svn, ignore: true }
 - { setname: blackshadeselite,         name: blackshades-elite-svn, ignore: true }
@@ -142,7 +139,6 @@
     - bareos-database-postgresql
     - bareos-database-sqlite3
     - bareos-database-tools
-    - bareos-devel
     - bareos-director
     - bareos-director-python-plugin
     - bareos-docs
@@ -157,6 +153,7 @@
     - bareos-traymonitor
     - bareos-webui
   addflavor: true
+- { setname: bareos, name: bareos-devel, weak_devel: true }
 
 - setname: boost
   name:
