@@ -94,6 +94,7 @@
 - { setname: toxcore,                  name: [toxcore-legacy,toxcore-toktok] }
 - { setname: toxcore,                  name: [toxcore-static1,toxcore-static2], addflavor: static }
 - { setname: toxcore,                  name: [c-toxcore,libtoxcore,tox,tox-libtoxcore] } # there's some discrepancy between https://github.com/TokTok/c-toxcore and https://github.com/irungentoo/toxcore, but only the former has releases
+- { setname: tpm2-tools,               name: tpm2.0-tools, disposable: true } # past upstream naming fluctiations
 - { setname: tre,                      name: libtre } # XXX: reverse?
 - { setname: tremor,                   name: [libtremor, libvorbisidec] }
 - { setname: tremulous,                name: tremulous-data, addflavor: data }
