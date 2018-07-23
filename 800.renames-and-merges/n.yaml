@@ -25,6 +25,7 @@
 - { setname: nethack,                  namepat: "nethack[._-]*(?:[23][0-9._-]*)?" }
 - { setname: netlogo,                  name: netlogo-bin, addflavor: bin }
 - { setname: netpbm,                   name: libnetpbm }
+- { setname: netpbm,                   name: [netpbm-free,netpbm-debug], addflavor: true }
 - { setname: nettle,                   name: [libnettle,nettle4] }
 - { setname: networkmanager,           name: network-manager }
 - { setname: networkmanager,           name: networkmanager-elogind, addflavor: elogind }
