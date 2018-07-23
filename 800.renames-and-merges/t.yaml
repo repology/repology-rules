@@ -40,6 +40,7 @@
 - { setname: tevent,                   name: tevent-man, addflavor: man }
 - { setname: tex-$1,                   namepat: "tex-(.*)-doc", addflavor: doc }
 - { setname: texlive-documentation,    namepat: "texlive-documentation-.*", family: gentoo }
+- { setname: texmaker,                 name: texmaker-qt4, addflavor: true }
 - { setname: texstudio,                name: [texstudio-dark,texstudio-lcd,texstudio-phonon,texstudio-qt4,texstudio-qt5], addflavor: true }
 - { setname: the-silver-searcher,      name: [silver-searcher,silversearcher-ag,thesilversearcher] }
 - { setname: thermald,                 name: thermal-daemon }
@@ -89,8 +90,10 @@
 - { setname: topgrade,                 name: "rust:topgrade" }
 - { setname: tor,                      name: [tor-devel,tor-expert] }
 - { setname: tor,                      name: tor-unstable, devel: true }
+- { setname: torrent-file-editor,      name: [torrent-file-editor-qt4,torrent-file-editor-qt5], addflavor: true }
 - { setname: totem-pl-parser,          name: libtotem-pl-parser }
 - { setname: totem-pl-parser,          name: totem-pl-parser-gtk2, addflavor: gtk2 }
+- { setname: touchegg,                 name: [touchegg-gui,touchegg-qt5], addflavor: true }
 - { setname: toxcore,                  name: [toxcore-legacy,toxcore-toktok] }
 - { setname: toxcore,                  name: [toxcore-static1,toxcore-static2], addflavor: static }
 - { setname: toxcore,                  name: [c-toxcore,libtoxcore,tox,tox-libtoxcore] } # there's some discrepancy between https://github.com/TokTok/c-toxcore and https://github.com/irungentoo/toxcore, but only the former has releases

@@ -40,7 +40,7 @@
 - { setname: dino,                     name: dino-unstable, ignore: true }
 - { setname: discord,                  name: discord-bin }
 - { setname: divide-and-succeed,       name: divideandsucceed }
-- { setname: djview4,                  name: [djview,djview-qt4,djview4,djvulibre-djview4] } # should be merged with djvulibre or not?
+- { setname: djview,                   name: [djview,djview-qt4,djview-qt5,djview4,djvulibre-djview4], addflavor: true } # should be merged with djvulibre or not?
 - { setname: djvulibre,                name: [djvulibre-lib,djvulibre_qt4,djvulibre-tools,djvu] }
 - { setname: dkms,                     name: dkms-sorted, addflavor: sorted }
 - { setname: dmd,                      name: dmd2 }
