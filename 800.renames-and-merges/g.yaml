@@ -151,7 +151,7 @@
 - { setname: gnome-themes-extra,       name: gnome-themes-standard }
 - { setname: gnu-netcat,               name: [gnetcat,netcat-gnu] }
 - { setname: gnu-radius,               name: radius, ruleset: openpkg }
-- { setname: gnucash,                  name: gnucash-dev, ignore: true } # XXX: weak_devel
+- { setname: gnucash,                  name: gnucash-dev, weak_devel: true }
 - { setname: gnucash,                  name: gnucash-legacy }
 - { setname: gnucash,                  name: [gnucash-python,gnucash-xbt,gnucash-xbt-minimal], addflavor: true }
 - { setname: gnucash-docs,             name: gnucash-legacy-docs }

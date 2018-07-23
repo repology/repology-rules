@@ -124,6 +124,7 @@ schema = Schema(
         'remove': bool,
         'ignore': bool,
         'devel': bool,
+        'weak_devel': bool,
         'p_is_patch': bool,
         'any_is_patch': bool,
         'outdated': bool,

@@ -16,7 +16,7 @@
 - { setname: capstone,                 name: capstone4 }
 - { setname: cargo,                    name: ["rust:cargo",rust-toolset-7-cargo] }
 - { setname: cargo,                    name: [cargo-completion,cargo-standalone,cargo-bootstrap,cargo-stage1], addflavor: true }
-- { setname: cargo,                    name: cargo-nightly, ignore: true } # XXX: weak_devel
+- { setname: cargo,                    name: cargo-nightly, weak_devel: true }
 - { setname: cassandra,                name: [apache-cassandra,cassandra2] }
 - { setname: cassandra,                namepat: "cassandra[0-9._-]+" }
 - { setname: cataclysm-dda,            name: cataclysm-dark-days-ahead }
@@ -63,7 +63,7 @@
 - { setname: chakracore,               name: chakra, family: homebrew }
 - { setname: chaosesque-anthology,     name: chaos-esque-anthology }
 - { setname: charls,                   name: charls1 }
-- { setname: chatty,                   name: chatty-beta, ignore: true } # XXX: weak_devel
+- { setname: chatty,                   name: chatty-beta, weak_devel: true }
 - { setname: cheese,                   name: compat-cheese314 }
 - { setname: chef-dk,                  name: chefdk }
 - { setname: chipmunk,                 name: [chipmunk6,chipmunkphysics,libchipmunk] }
