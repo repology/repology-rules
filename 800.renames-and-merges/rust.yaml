@@ -7,9 +7,13 @@
 
 - namepat: |
     (rust:(?:
+    hyper|
+    mime|
+    native-tls|
     quote|
     rand|
+    synstructure|
     syn|
-    synstructure
+    unicase
     ))[0-9._-]+
   setname: "$1"

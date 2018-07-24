@@ -22,7 +22,7 @@
 - { setname: fftw,                     name: [fftwf,fftw-avx,fftw-static] }
 - { setname: fftw,                     namepat: "(?:lib)?fftw[0-9._-]*(-double|-float|-long-double|-quad|-single|-long|-mpi|-mpich|-openmpi|-common|-gnu-.*)?", addflavor: $1 }
 - { setname: fife,                     name: [fifengine,"python:fife"] }
-- { setname: file-roller,              name: [file-roller-ja,file-roller-tmp,file-roller2-nn], addflavor: true }
+- { setname: file-roller,              name: [file-roller-ja,file-roller-tmp,file-roller2-nn,file-roller-debug], addflavor: true }
 - { setname: file-roller,              name: legacy-file-roller }
 - { setname: filebot,                  name: filebot47 }
 - { setname: fillets-ng,               name: fish-fillets-next-generation }

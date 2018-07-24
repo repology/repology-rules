@@ -83,7 +83,7 @@
 - { setname: mpich,                    name: mpich-default }
 - { setname: mpich,                    namepat: "mpich(?:-clang|-gcc|-llvm)?[0-9._-]*" }
 - { setname: mpich,                    namepat: "mpich-devel(?:-clang|-gcc|-llvm)?[0-9._-]*", weak_devel: true }
-- { setname: ms-gsl,                   name: [guidelines-support-library,microsoft-gsl,microsoft_gsl] }
+- { setname: ms-gsl,                   name: [guidelines-support-library,microsoft-gsl,microsoft_gsl,c++gsl] }
 - { setname: msgpack,                  name: [msgpack-c,msgpack_c_cpp,libmsgpack,msgpack1] } # c/cpp by default
 - { setname: mstflint,                 name: mstflint4 }
 - { setname: msynctool,                namepat: "msynctool[0-9]+" }
