@@ -18,7 +18,9 @@
 - { name: hugo,                        setname: hugo-sitegen }
 - { name: gohugo,                      setname: hugo-sitegen }
 
+- { name: hydra, wwwpart: thc, setname: thc-hydra } # XXX: HACK
 - { name: hydra, wwwpart: ory.am, setname: hydra-openid } # XXX: must be before hydra-nix rule
 - { name: hydra, wwwpart: nixos, setname: hydra-nix }
 - { name: hydra, ruleset: nix, setname: hydra-nix }
+- { name: thc-hydra, setname: hydra } # XXX: HACK
 # otherwise thc-hydra, network logon cracker
