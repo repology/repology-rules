@@ -13,6 +13,7 @@
 - { setname: lapack,                   name: lapack-tmg, addflavor: tmg } # component of
 - { setname: lapack,                   name: liblapack }
 - { setname: lapacke,                  name: lapacke-tmg, addflavor: tmg } # component of
+- { setname: lazpaint,                 name: [lazpaint-gtk2,lazpaint-qt4], addflavor: true }
 - { setname: lcms,                     name: [lcms,lcms1,lcms2,little-cms,little-cms2,lcms-python,liblcms,liblcms2,littlecms] }
 - { setname: ldb,                      name: [libldb,ldb12,ldb13] }
 - { setname: ldns,                     name: "perl:dns-ldns", wwwpart: nlnetlabs, addflavor: perl } # part of

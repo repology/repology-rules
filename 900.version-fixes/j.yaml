@@ -11,6 +11,8 @@
 - { name: jslint,                      verpat: "201[12].*",                                outdated: true } # 0.10.3 from 2016 https://github.com/reid/node-jslint/releases
 - { name: json-c,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # macports garbage
 - { name: jsonrpc-glib,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: juffed,                      verpat: "20[0-9]{6}.*",                             snapshot: true }
+- { name: juffed,                      verpat: ".*[0-9]+\\.g[0-9a-f]{7}",                  snapshot: true }
 - { name: jupp,                        verpat: "[0-9]+",                                   incorrect: true } # it's 3.1juppXX, but I'm not going to add setver rule since 3.1 may also change
 - { name: jupp,                        verpat: "([0-9]+\\.[0-9]+)[_.]p?([0-9]+)",          setver: $1jupp$2 }
 - { name: jupp,                                                                            any_is_patch: true }

@@ -31,6 +31,8 @@
 - { setname: kubernetes,               name: [kubectl,kubectl-beta,kubernetes-kubectl], addflavor: kubectl }
 - { setname: kubernetes,               name: [kubelet,kubelet-beta], addflavor: kubelet }
 - { setname: kubernetes,               name: kubernetes-cli, addflavor: cli }
+- { setname: kvirc,                    name: kvirc-qt4, addflavor: true }
+- { setname: kvirc,                    name: kvirc-git-nokde, weak_devel: true, addflavor: nokde }
 - { setname: kye,                      name: "python:kye" }
 - { setname: kyotocabinet,             name: kyoto-cabinet }
 - { setname: kyototycoon,              name: kyoto-tycoon }

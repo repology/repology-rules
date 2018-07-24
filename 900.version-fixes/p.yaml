@@ -25,6 +25,7 @@
 - { name: pforth,                                                                          noscheme: true } # https://github.com/philburk/pforth
 - { name: pgadmin3,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: pgadmin3,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: photivo,                                                                         noscheme: true }
 - { name: phototonic,                  verpat: "2\\.1\\.[0-9]+",     ruleset: mageia,      incorrect: true }
 - { name: phototonic,                                                ruleset: mageia,      untrusted: true }
 - { name: php-xdebug,                  verpat: "(.*)-[0-9]+\\.[0-9]+", family: scoop,      setver: "$1" } # the suffix seem to encode php version?

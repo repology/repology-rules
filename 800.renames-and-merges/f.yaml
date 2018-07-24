@@ -85,6 +85,7 @@
 - { setname: fpc,                      name: [fpc-source,fpc-src] } # part of fossology
 - { setname: fpc-modules,              namepat: "fpc-.*", family: freebsd }
 - { setname: fping,                    name: [fping3,fping6] }
+- { setname: fqterm,                   name: fqterm-qt5, addflavor: true }
 - { setname: fracplanet,               name: fracplanet-qt5, addflavor: true, disposable: true }
 - { setname: free42,                   name: free42-nologo, family: debuntu }
 - { setname: freebasic,                name: fbc, addflavor: true }
@@ -120,6 +121,7 @@
 - { setname: fsv,                      name: fsv2 }
 - { setname: fteproxy,                 name: "python:fteproxy" }
 - { setname: fuzzylite,                name: fuzzylite5 }
+- { setname: fwbuilder,                name: [fwbuilder-qt4,fwbuilder-qt5], addflavor: true }
 
 - setname: ffmpeg
   name:
