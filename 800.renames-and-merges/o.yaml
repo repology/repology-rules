@@ -26,7 +26,8 @@
 - { setname: opencc,                   name: opencc-doc, addflavor: doc }
 - { setname: opencollada,              name: libopencollada }
 - { setname: opencore-amr,             name: libopencore-amr0 }
-- { setname: opencv,                   name: opencv2 }
+- { setname: opencv,                   name: [opencv2,libopencv3.4,opencv-legacy] }
+- { setname: opencv,                   name: [opencv-contrib-face,opencv-core,opencv-docs,opencv-cuda,opencv-java,opencv-qt5,opencv-samples], addflavor: true }
 - { setname: opendbx,                  name: libopendbx }
 - { setname: opendkim,                 name: libopendkim }
 - { setname: opendnssec,               name: opendnssec2 }
