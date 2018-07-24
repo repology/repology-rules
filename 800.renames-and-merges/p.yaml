@@ -35,6 +35,7 @@
 - { setname: pdns,                     name: pdns-common }
 - { setname: pdns,                     name: powerdns }
 - { setname: pdumpfs,                  name: "ruby:pdumpfs" }
+- { setname: peazip,                   name: [peazip-gtk2,peazip-gtk2-build,peazip-gtk2-portable,peazip-qt,peazip-qt-build,peazip-qt-opensuse-latest,peazip-qt4,peazip-qt5], addflavor: true }
 - { setname: peda,                     name: gdb-peda }
 - { setname: pelican,                  name: "python:pelican" }
 - { setname: percona-xtrabackup,       name: [percona-xtrabackup-bin,xtrabackup-bin], addflavor: bin }
