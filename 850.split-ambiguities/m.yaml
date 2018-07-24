@@ -2,6 +2,11 @@
 
 - { name: maelstrom, ruleset: maemo, setname: maelstrom-maemo }
 
+- { name: mako, wwwpart: mako-project, setname: mako-wayland }
+- { name: mako, wwwpart: maketemplates, setname: "python:mako" }
+- { name: mako, category: lang, family: openwrt, setname: "python:mako" }
+- { name: mako, warning: "please classify me" }
+
 - { name: man, wwwpart: man-db,        setname: man-db }
 
 - { name: mailx, wwwpart: heirloom, setname: heirloom-mailx }
