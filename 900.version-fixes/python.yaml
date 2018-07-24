@@ -25,4 +25,4 @@
 - { name: "python:sphinx_py3doc_enhanced_theme",                     ruleset: pld,         untrusted: true }
 - { name: "python:tornado",            verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:webm",               vergt: "0.2.2",                                     successor: true } # http://xpra.org/src/ vs. https://github.com/expobrain/python-webm/releases
-- { name: "python:xlib",               verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: "python:xlib",               verlonger: 2,                 ruleset: freebsd,     incorrect: true }
