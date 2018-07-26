@@ -3,6 +3,7 @@
 - { name: i7z,                         verpat: "93.*",               family: [ gentoo ],   ignore: true } # Snapshot version, based on svn r93
 - { name: i7z,                         verlonger: 3,                                       ignore: true } # 0.27.2.git1 @ Arch
 - { name: i7z,                         verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: iannix,                      ver: "0.9.20b",                                     setver: "0.9.20" } # ambigous release https://github.com/buzzinglight/IanniX/releases
 - { name: ibus-sunpinyin,              ver: "3.0.0",                                       ignore: true } # aosc fake, it's rc1
 - { name: ices,                        verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: icewm,                       ver: ["1.4.3","1.4.3.0"],     ruleset: [debuntu,distrowatch], incorrect: true } # no such release
