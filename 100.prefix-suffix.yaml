@@ -50,6 +50,8 @@
 
 - { ruleset: parabola,        namepat: "(.*)-static-debug", setname: $1, addflavor: static-debug }
 
+- { ruleset: slitaz,          namepat: "(.*)-(dev)", setname: $1, addflavor: $2 }
+
 #- { ruleset: msys2, namepat: "(.*)-git", setname: "$1", ignore: true }
 
 # repeat suffix common rules again, as suffix order may vary (e.g. foo-git-nox11 vs. foo-nox11-git)
