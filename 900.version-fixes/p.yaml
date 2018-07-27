@@ -68,6 +68,7 @@
 - { name: progsreiserfs,                                             family: pld,          untrusted: true }
 - { name: proot,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: properties-cpp,              verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
+- { name: prover9,                     ver: "200911a",                                     incorrect: true }
 - { name: proxychains-ng,              verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: proot,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: proot,                       verpat: "5\\.1\\.[0-9]{3}.*",                       incorrect: true }
