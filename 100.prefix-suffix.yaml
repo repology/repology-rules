@@ -44,9 +44,9 @@
 - { ruleset: [libregamewiki,fdroid], replaceinname: { " ": "-", "!": "", ",": "", ":": "", "'": "", ".": "", "(": "", ")": "" } }
 - { ruleset: [libregamewiki,fdroid], replaceinname: { "---": "-" } }
 
-- { ruleset: macports,        namepat: "(.*)-devel", setname: "$1", ignore: true }
+- { ruleset: macports,        namepat: "(.*)-devel", setname: $1, weak_devel: true }
 
-- { ruleset: nix,             namepat: "(.*)-unstable", setname: "$1", ignore: true }
+- { ruleset: nix,             namepat: "(.*)-unstable", setname: $1, weak_devel: true }
 
 - { ruleset: parabola,        namepat: "(.*)-static-debug", setname: "$1", addflavor: static-debug }
 
