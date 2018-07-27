@@ -77,7 +77,7 @@
 - { setname: "perl:$1", noflag: not_perl, namepat: "p5-(.*)", ruleset: [crux,freebsd,macports,openbsd,pkgsrc] }
 - { setname: "perl:$1", noflag: not_perl, namepat: "p5.[0-9]+-(.*)", ruleset: macports }
 - { setname: "perl:$1", noflag: not_perl, namepat: "lib(.*)-perl", ruleset: debuntu }
-- { setname: "perl:$1", noflag: not_perl, namepat: "perl-(.*)", ruleset: [alpine,aosc,arch,centos,fedora,gobolinux,guix,kaos,mageia,msys2,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds,pld,aix] }
+- { setname: "perl:$1", noflag: not_perl, namepat: "perl-(.*)", ruleset: [alpine,aosc,arch,centos,fedora,gobolinux,guix,kaos,mageia,msys2,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds,pld,aix,slitaz] }
 - { setname: "perl:$0", noflag: not_perl, category: dev-perl, ruleset: [gentoo,exherbo,haikuports] }
 - { setname: "perl:$0", noflag: not_perl, category: perl-core, ruleset: [gentoo,exherbo] }
 
