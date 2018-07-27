@@ -6,7 +6,6 @@
 - { setname: "python:argparse",        name: argparse }
 - { setname: "python:atomicwrites",    name: atomicwrites }
 - { setname: "python:atomicwrites",    name: "python:atomicwrites-doc", addflavor: doc }
-- { setname: "python:pyaxmlparser",    name: pyaxmlparser }
 - { setname: "python:backports.shutil-get-terminal-size", name: shutil_get_terminal_size }
 - { setname: "python:backports.shutil_get_terminal_size", namepat: "python:backports[_-]shutil[_-]get[_-]terminal[_-]size" }
 - { setname: "python:backports.shutil_which", name: "python:backports-shutil_which" }
@@ -90,6 +89,7 @@
 - { setname: "python:py-jack",         name: pyjack }
 - { setname: "python:pyalsaaudio",     name: "python:alsaaudio" } # use pypi name!
 - { setname: "python:pyaudio",         name: "python:python-pyaudio" }
+- { setname: "python:pyaxmlparser",    name: pyaxmlparser }
 - { setname: "python:pybtex",          name: pybtex }
 - { setname: "python:pybtex-docutils", name: pybtex-docutils }
 - { setname: "python:pycodestyle",     name: ["python:codestyle",pycodestyle] }
