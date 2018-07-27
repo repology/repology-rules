@@ -14,8 +14,9 @@
 # `git describe --tags` pattern
 - { verpat: ".*-[0-9]+-g[0-9a-f]{7,}.*",                                                   ignore: true }
 
-# git commit hash (slitaz mostly)
+# git commit hashes
 - { verpat: "(?!20[01][0-9])[0-9a-f]{7}",                                                  ignore: true }
+- { verpat: "[0-9a-f]{40}",                                                                ignore: true }
 
 # other global rules
 - { verpat: ".*\\.[0-9]+\\.[0-9]+\\.[0-9a-f]{4,}",                   family: sisyphus,     untrusted: true } # personal rule for ldv@altlinux.org
