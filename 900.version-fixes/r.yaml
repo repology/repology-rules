@@ -6,6 +6,7 @@
 - { name: r3,                          ver: "2.0.0",                 ruleset: buckaroo,    incorrect: true } # https://github.com/LoopPerfect/r3/tags
 - { name: r3,                                                        ruleset: buckaroo,    untrusted: true }
 - { name: racer-game,                  ver: "1.1.64",                                      incorrect: true } # it's 1.1 64bit version
+- { name: racket,                      verpat: "299.*",                                    outdated: true } # something from 2005
 - { name: rage,                        verlonger: 3,                                       incorrect: true }
 - { name: rage,                        verpat: "[0-9]{5}",                                 incorrect: true }
 - { name: ragel,                       verpat: "7\\..*",                                   devel: true } # http://www.colm.net/open-source/ragel/
