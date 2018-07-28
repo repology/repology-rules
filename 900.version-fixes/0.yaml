@@ -18,6 +18,9 @@
 - { verpat: "(?!20[01][0-9])[0-9a-f]{7}",                                                  ignore: true }
 - { verpat: "[0-9a-f]{40}",                                                                ignore: true }
 
+# these are reversed dates (e.g. DDMMYYYY), beyond madness
+- { verpat: "[0123][0-9][01][0-9]20[01][0-9]",                                             ignore: true }
+
 # other global rules
 - { verpat: ".*\\.[0-9]+\\.[0-9]+\\.[0-9a-f]{4,}",                   family: sisyphus,     untrusted: true } # personal rule for ldv@altlinux.org
 - { verpat: "20[0-9]{2}",                                            family: openwrt,      untrusted: true } # there are a lot of them
