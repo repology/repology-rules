@@ -85,9 +85,7 @@
 - { setname: antimicro,                name: antimicro-qt4 }
 - { setname: antlr,                    namepat: "antlr[0-9.]+" }
 - { setname: apache,                   name: [apache-httpd,httpd] }
-- { setname: apache,                   name: apache-html-manual, addflavor: html-manual }
-- { setname: apache,                   name: apache-tools, addflavor: tools }
-- { setname: apache,                   name: htdigest, addflavor: htdigest }
+- { setname: apache,                   name: [apache-tools, apache-doc, apache-html-manual, htdigest], addflavor: true }
 - { setname: apache,                   namepat: "apache[0-9.]+" }
 - { setname: apache-arrow,             name: ["python:pyarrow",arrow-cpp] }
 - { setname: apache-arrow,             name: apache-arrow-glib, addflavor: glib }
