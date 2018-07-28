@@ -20,5 +20,8 @@
 - { name: livecd-tools,                category: app-misc, family: gentoo, setname: livecd-tools-gentoo }
 - { name: livecd-tools,                setname: "$0-fedora" }
 
+- { name: loderunner, wwwpart: daggert, setname: loderunner-daggert }
+- { name: loderunner, wwwpart: loderunnerwebgame.com, setname: loderunner-html5 }
+
 # there are two branches, see http://invisible-island.net/luit/
 - { name: luit,                        verpat: "2\\..*", setname: luit-xterm }

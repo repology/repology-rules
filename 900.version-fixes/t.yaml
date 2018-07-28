@@ -13,6 +13,7 @@
 - { name: tcl,                         verpat: ".*a[0-9]+",                                devel: true }
 - { name: tcl,                         verpat: "[0-9]+\\.[0-9]+\\.0\\.?a.*",               incorrect: true } # it's X.YaZ, not X.Y.0aZ
 - { name: tcpblast,                    verpat: "20[0-9]{6}",                               ignore: true }
+- { name: tcpcrypt,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: tcpflow,                     ver: "1.4.6",                 ruleset: nix,         incorrect: true }
 - { name: tcpslice,                                                                        noscheme: true } # https://github.com/the-tcpdump-group/tcpslice/releases; there's some kind of official release 1.2a3, but it's from 2005 and so doesn't count
 - { name: tcptrack,                    wwwpart: bchretien,                                 successor: true } # fork
@@ -23,6 +24,7 @@
 - { name: telegram-cli,                                              ruleset: slackbuilds, untrusted: true }
 - { name: telegram-cli,                ver: "1.3.3",                 ruleset: sisyphus,    incorrect: true }
 - { name: telegram-cli,                                              ruleset: sisyphus,    untrusted: true }
+- { name: telepathy-glib,              verpat: "0\\.99\\..*",                              devel: true }
 - { name: telepathy-haze,              ver: "0.8.0.1",               ruleset: sisyphus,    incorrect: true }
 - { name: telepathy-haze,                                            ruleset: sisyphus,    untrusted: true }
 - { name: telepathy-qt,                ver: ["0.14.1","0.17.7"],     ruleset: [gobolinux,pld], incorrect: true }

@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: obfsproxy,                   verpat: "[0-9]{3}",                                 incorrect: true }
 - { name: "ocaml:opam-file-format",    ver: "2.0.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: "ocaml:opam-file-format",                                  ruleset: sisyphus,    untrusted: true }
 - { name: octave,                      verpat: ".*pre[0-9]{5}",                            snapshot: true }

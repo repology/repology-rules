@@ -6,7 +6,8 @@
 - { name: r3,                          ver: "2.0.0",                 ruleset: buckaroo,    incorrect: true } # https://github.com/LoopPerfect/r3/tags
 - { name: r3,                                                        ruleset: buckaroo,    untrusted: true }
 - { name: racer-game,                  ver: "1.1.64",                                      incorrect: true } # it's 1.1 64bit version
-- { name: rage,                        verlonger: 3,                                       devel: true } # snapshots
+- { name: rage,                        verlonger: 3,                                       incorrect: true }
+- { name: rage,                        verpat: "[0-9]{5}",                                 incorrect: true }
 - { name: ragel,                       verpat: "7\\..*",                                   devel: true } # http://www.colm.net/open-source/ragel/
 - { name: rakarrack,                   ver: "0.6.2",                 ruleset: [sisyphus,fedora,rosa], incorrect: true }
 - { name: rakarrack,                                                 ruleset: [sisyphus,fedora,rosa], untrusted: true }
@@ -30,6 +31,7 @@
 - { name: remmina,                                                   family: [alpine,sisyphus,debuntu,rosa], untrusted: true } # liars
 - { name: rinetd,                      ver: "0.62.1sam",                                   ignore: true } # debian garbage
 - { name: rpcgen,                                                    family: ravenports,   ignore: true } # fake
+- { name: rsh,                         verpat: "[0-9]{2}",                                 incorrect: true }
 - { name: rss-glx,                     verpat: "0\\.9[0-9]+",        family: openindiana,  incorrect: true } # it's 0.9.1, not 0.91
 - { name: rtl8812au,                   verpat: "201[56].*",                                ignore: true }
 - { name: rtorrent,                    verpat: "20[0-9]{6}.*",                             ignore: true } # nix fake

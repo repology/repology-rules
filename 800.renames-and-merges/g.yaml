@@ -2,7 +2,10 @@
 
 - { setname: galactrum,                name: galactrum-qt, addflavor: qt }
 - { setname: galaxy-forces-v2,         name: ["galaxy forces v2", galaxy-forces, galaxyv2] }
-- { setname: gambas3-gb-modules,       namepat: "gambas3-gb-.*", family: arch }
+- { setname: gambas,                   name: [gambas2,gambas3] }
+- { setname: gambas,                   name: gambas3-devel, weak_devel: true }
+- { setname: gambas,                   namepat: "gambas3-(gb-.*)", addflavor: $1 }
+- { setname: gambas,                   name: [gambas3-ide,gambas3-runtime,gambas3-script], addflavor: true }
 - { setname: gambit-c,                 name: gambc }
 - { setname: gap,                      namepat: "gap[0-9._-]+(data|doc|packages)?", addflavor: $1 }
 - { setname: garcon,                   name: [garcon-gtk3,libgarcon,xfce4-garcon], addflavor: true }

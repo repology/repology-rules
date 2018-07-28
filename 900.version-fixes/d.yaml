@@ -3,6 +3,7 @@
 - { name: darcs,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: darcs,                       ver: "2.13.0",                family: fedora,       incorrect: true } # fake
 - { name: darcs,                                                     family: fedora,       untrusted: true }
+- { name: dahdi-linux,                 verlonger: 4,                                       incorrect: true }
 - { name: dbus,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: dbus-cpp,                    verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: dconf-editor,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -54,6 +55,8 @@
 - { name: dsniff,                                                    family: [sisyphus],   untrusted: true }
 - { name: dtc,                         ver: "20130410",                                    outdated: true }
 - { name: dtc,                         verpat: "20[0-9]{6}",                               ignore: true }
+- { name: dukto,                       verpat: "[0-9]{3}",                                 incorrect: true } # slitaz
+- { name: dukto,                       verpat: "r([0-9]+)",                                setver: $1 }
 - { name: dwb,                         verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: dwb,                         ver: "2015.10.09",                                  incorrect: true } # https://bitbucket.org/portix/dwb/downloads/
 - { name: dzen,                        verpat: "[0-9]{10}",                                ignore: true }

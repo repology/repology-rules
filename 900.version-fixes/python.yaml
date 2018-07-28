@@ -5,7 +5,8 @@
 - { name: "python:django-suit",        verpat: "0\\.3a[123]",                              outdated: true } # https://pypi.org/project/django-suit/#history
 - { name: "python:elixir",             ver: "0.8.0",                 family: sisyphus,     incorrect: true } # fake
 - { name: "python:elixir",                                           family: sisyphus,     untrusted: true }
-- { name: "python:html2text",          ver: "2018.9.1",                                    incorrect: true, disposable: true } # 2018.1.9 
+- { name: "python:hg-git",             verpat: "[0-9a-f]{12}",                             incorrect: true, disposable: true } # slitaz
+- { name: "python:html2text",          ver: "2018.9.1",                                    incorrect: true, disposable: true } # 2018.1.9
 - { name: "python:httplib2",           verpat: "2-.*",                                     incorrect: true }
 - { name: "python:leveldb",            ver: "0.193",                                       outdated: true }
 - { name: "python:prettytable",        ver: "0.10",                                        incorrect: true } # sisyphus fake

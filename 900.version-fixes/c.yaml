@@ -74,6 +74,8 @@
 - { name: cool-retro-term,             ver: "1.0.2",                 ruleset: debuntu,     incorrect: true }
 - { name: cool-retro-term,                                           ruleset: debuntu,     untrusted: true }
 - { name: coolkey,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+_[0-9]+",          incorrect: true } # AUR using fedora package revision
+- { name: copyq,                       verpat: "[0-9a-z]{4}",                              incorrect: true } # slitaz
+- { name: copyq,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: courier-authlib,             verpat: ".*\\.20[0-9]{6}",                          devel: true }
 - { name: courier-unicode,             verpat: ".*\\.20[0-9]{6}",                          devel: true } # http://www.courier-mta.org/download.html#unicode
 - { name: coursier,                    ver: "1.0.2",                                       outdated: true } # Known bad version https://github.com/coursier/coursier/commit/2cb42444cdbd6ad2a50f963378ff27259a4fb1a7
@@ -93,6 +95,8 @@
 - { name: crossguid,                   verpat: "0\\.2\\.2-20[0-9]+-[0-9]+",                incorrect: true }
 - { name: crossguid,                   ver: "1.0.0",                 ruleset: openindiana, incorrect: true }
 - { name: cryptcat,                    ver: "20031202",                                    ignore: true }
+- { name: crypthook,                                                                       noscheme: true }
+- { name: csync,                       ver: ["0.50.6","0.50.8"],     ruleset: [sisyphus, slitaz], incorrect: true }
 - { name: cup,                         verpat: "11.*",                                     incorrect: true } # 0.11b
 - { name: cura,                        verpat: "1[45].*",                                  outdated: true }
 - { name: cutegram,                    ver: "2.99",                                        incorrect: true }

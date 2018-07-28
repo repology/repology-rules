@@ -9,6 +9,7 @@
 - { name: uml-utilities,                                             ruleset: debuntu,     untrusted: true }
 - { name: unace,                       ver: "2.50",                                        setver: "2.5" }
 - { name: unarr,                       verpat: "20[0-9]{6}.*",                             snapshot: true } # slackbuilds
+- { name: unclutter,                   verpat: "[0-9]+-[0-9]{2,}",                         ignore: true } # debian addendum in slitaz
 - { name: unfs3,                       ver: "0.9.23",                family: openwrt,      incorrect: true } # entware
 - { name: unfs3,                                                     family: openwrt,      untrusted: true } # entware
 - { name: unpaper,                     verpat: "20[0-9]{6}.*",                             snapshot: true } # aosc
@@ -30,4 +31,6 @@
 - { name: utfcpp,                      verpat: "2012.*",                                   snapshot: true } # slackbuilds
 - { name: util-vserver,                ver: "0.30.216",              ruleset: pld,         incorrect: true } # http://ftp.linux-vserver.org/pub/utils/util-vserver/
 - { name: util-vserver,                                              ruleset: pld,         untrusted: true } # http://ftp.linux-vserver.org/pub/utils/util-vserver/
+- { name: utox,                        verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: utox,                        verpat: "201[4567].*",                              outdated: true }
 - { name: uzbl,                        verpat: "20[0-9]{2}.*",                             snapshot: true }

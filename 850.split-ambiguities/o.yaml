@@ -16,6 +16,8 @@
 - { name: openal, family: [pkgsrc,chocolatey,freebsd,macports], setname: openal-creative }
 - { name: openal, setname: openal-soft } # most openal's are openal-soft, even if they erroneously list openal.org as a website
 
+- { name: openbox-themes, wwwpart: openbox.org, setname: openbox, addflavor: themes } # slitaz
+
 - { name: orrery, ruleset: maemo, setname: orrery-maemo }
 
 - { name: overpass, wwwpart: [font,redhatbrand], setname: "fonts:overpass" }
