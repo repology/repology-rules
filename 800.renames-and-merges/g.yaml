@@ -155,6 +155,7 @@
 - { setname: gnome-taquin,             name: gnome-games-taquin }
 - { setname: gnome-tetravex,           name: gnome-games-tetravex }
 - { setname: gnome-themes-extra,       name: gnome-themes-standard }
+- { setname: gnome-vfs,                name: gnome-vfs-reference, addflavor: true }
 - { setname: gnu-netcat,               name: [gnetcat,netcat-gnu] }
 - { setname: gnu-radius,               name: radius, ruleset: openpkg }
 - { setname: gnucash,                  name: gnucash-dev, weak_devel: true }
@@ -255,18 +256,17 @@
 - { setname: gssdp,                    name: libgssdp }
 - { setname: gssproxy,                 name: gss-proxy }
 - { setname: gtest,                    name: [googletest,libgtest] }
-- { setname: gtk,                      namepat: "(?:lib)?gtk[0-9._+-]*" }
+- { setname: gtk,                      namepat: "(?:lib)?gtk[0-9._+-]*(-reference)?", addflavor: $1 }
 - { setname: gtk-doc,                  name: gtk-doc-am, addflavor: am }
 - { setname: gtk-recordmydesktop,      name: recordmydesktop-gtk }
 - { setname: gtkdatabox,               name: libgtkdatabox }
 - { setname: gtkglextmm,               name: libgtkglextmm }
 - { setname: gtkhtml,                  namepat: "(?:lib|compat-)?gtkhtml[0-9._-]*" }
-- { setname: gtkmm,                    namepat: "(?:lib)?gtkmm[0-9._-]*" }
-- { setname: gtkmm,                    namepat: "(?:lib)?gtkmm[0-9._-]*(-docs|-documentation|-reference)", addflavor: docs }
+- { setname: gtkmm,                    namepat: "(?:lib)?gtkmm[0-9._-]*(-docs|-documentation|-reference)", addflavor: $1 }
 - { setname: gtkhotkey,                name: libgtkhotkey }
-- { setname: gtksourceview,            namepat: "(?:lib)?gtksourceview[0-9._-]*" }
+- { setname: gtksourceview,            namepat: "(?:lib)?gtksourceview[0-9._-]*(-reference)?", addflavor: $1 }
 - { setname: gtksourceviewmm,          namepat: "(?:lib)?gtksourceviewmm[0-9._-]*" }
-- { setname: gtkspell,                 namepat: "(?:lib)?gtkspell[0-9._-]*" }
+- { setname: gtkspell,                 namepat: "(?:lib)?gtkspell[0-9._-]*(-reference)?", addflavor: $1 }
 - { setname: gtkspellmm,               namepat: "(?:lib)?gtkspellmm[0-9._-]*" }
 - { setname: gtypist,                  name: gnu-typist }
 - { setname: guava,                    namepat: "guava(?:-libraries)?[0-9._-]*" }
