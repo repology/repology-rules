@@ -111,6 +111,8 @@
 - { setname: glade,                    name: glade-gtk2 }
 - { setname: glade,                    namepat: "glade[0-9._-]*" }
 - { setname: glade,                    name: compat-glade315 }
+- { setname: gle,                      name: libgle }
+- { setname: gle,                      name: qgle, addflavor: true }
 - { setname: glew,                     namepat: "(?:lib)?glew[0-9.-]*" }
 - { setname: glfw,                     name: [glfw-doc,glfw-wayland,glfw-x11] }
 - { setname: glfw,                     namepat: "(?:lib)?glfw[0-9._-]*" }
