@@ -95,7 +95,7 @@
 - { setname: clusterssh,               name: cssh }
 - { setname: clutter,                  name: clutter-1.0 }
 - { setname: clutter-gst,              namepat: "clutter-gst[0-9.-]+" }
-- { setname: clutter-gtk,              name: clutter-gtk0.10 }
+- { setname: clutter-gtk,              namepat: "clutter-gtk[0-9.-]+" }
 - { setname: cmake,                    name: cmake-rc } # scoop
 - { setname: cmake,                    namepat: "cmake-?[0-9.]+" }
 - { setname: cmdpack,                  namepat: "cmdpack-[a-z0-9]+" }
@@ -107,6 +107,7 @@
 - { setname: coffee-script,            name: coffeescript } # XXX: problem
 - { setname: cogl,                     name: cogl-amdgpu-pro }
 - { setname: cogl,                     name: libcogl }
+- { setname: cogl,                     namepat: "compat-cogl[0-9]+" }
 - { setname: coin-or-$1,               namepat: "coinor-(.*)" } # XXX: problem
 - { setname: coin-or-alps,             name: coinalps }
 - { setname: coin-or-bcp,              name: coinbcp }

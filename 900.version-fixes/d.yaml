@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: dapl,                        verpat: ".*[0-9a-f]{8}",                            snapshot: true }
 - { name: darcs,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: darcs,                       ver: "2.13.0",                family: fedora,       incorrect: true } # fake
 - { name: darcs,                                                     family: fedora,       untrusted: true }

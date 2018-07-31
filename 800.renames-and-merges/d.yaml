@@ -1,5 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: dapl,                     name: compat-dapl }
+- { setname: dapl,                     name: dapl-debug, addflavor: true }
 - { setname: darcs,                    name: "haskell:darcs" }
 - { setname: dash.el,                  name: dash-el }
 - { setname: db,                       name: berkeley-db }

@@ -33,6 +33,8 @@
 - { setname: unittest-cpp,             name: libunittest-cpp }
 - { setname: unrar,                    name: [libunrar,libunrar5] }
 - { setname: unshield,                 name: libunshield }
+- { setname: upower,                   name: compat-upower09, disposable: true }
+- { setname: upower,                   name: upower-nocritical, addflavor: true }
 - { setname: uqm,                      name: [uqm_3domusic,uqm-3domusic,uqm-content,uqm_voice,uqm-voice], addflavor: true }
 - { setname: uriparser,                name: [liburiparser,liburiparser1], addflavor: lib }
 - { setname: userspace-rcu,            name: libuserspace-rcu }

@@ -3,6 +3,9 @@
 - { setname: p11-kit,                  name: p11kit }
 - { setname: pacemaker,                name: pacemaker1.1 }
 - { setname: pachi,                    name: martian }
+- { setname: packagekit,               name: compat-packagekit08, disposable: true }
+- { setname: packagekit,               name: [packagekit-gtk,libpackagekit-glib], addflavor: true }
+- { setname: packagekit-qt,            name: packagekit-qt5, addflavor: true }
 - { setname: pacman-arena,             name: pacmanarena }
 - { setname: parted,                   name: libparted, addflavor: true }
 - { setname: pcmanfm,                  name: [pcmanfm-gtk3,pcmanfm-gtk3-root], addflavor: true }

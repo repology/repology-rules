@@ -16,7 +16,7 @@
 - { setname: gaul,                     name: gaul-devel, weak_devel: true }
 - { setname: gavl,                     name: libgavl }
 - { setname: gcc,                      name: [g++,gcc3-c,gcc3-c++,gcc3-f77,gcc3-objc,gcc48-libs,gcc49-libs,gcc5-libs], addflavor: true }
-- { setname: gcc,                      namepat: "gcc[0-9.-]+" }
+- { setname: gcc,                      namepat: "(?:compat-)?gcc[0-9.-]+" }
 - { setname: gcc,                      namepat: "gcc[0-9.-]+-devel", weak_devel: true }
 - { setname: gccgo,                    namepat: "gccgo[0-9.-]+" }
 - { setname: gcin,                     name: gcin-gtk3, addflavor: gtk3 }
@@ -113,7 +113,8 @@
 - { setname: glade,                    name: compat-glade315 }
 - { setname: gle,                      name: [libgle,gle-te] } # gle is ambigous, split in 850
 - { setname: gle,                      name: [qgle,gle-doc], addflavor: true } # gle is ambigous, split in 850
-- { setname: glew,                     namepat: "(?:lib)?glew[0-9.-]*" }
+- { setname: glew,                     namepat: "(?:compat-)?(?:lib)?glew[0-9.-]*" }
+- { setname: glew,                     name: glew-wayland, addflavor: true }
 - { setname: glfw,                     name: [glfw-doc,glfw-wayland,glfw-x11] }
 - { setname: glfw,                     namepat: "(?:lib)?glfw[0-9._-]*" }
 - { setname: glib,                     name: [glib-reference,glib2-docs,glib2-patched-thumbnailer,glib2-quiet,glib2-static], addflavor: true }
@@ -136,6 +137,7 @@
 - { setname: gnats,                    namepat: "gnats[0-9]+" }
 - { setname: gnet,                     namepat: "gnet[0-9]+" }
 - { setname: gnet,                     name: libgnet }
+- { setname: gnome-bluetooth,          name: compat-gnome-bluetooth38, disposable: true }
 - { setname: gnome-chemistry-utils,    name: gchemutils }
 - { setname: gnome-chess,              name: gnome-games-chess }
 - { setname: gnome-control-center,     name: control-center }
