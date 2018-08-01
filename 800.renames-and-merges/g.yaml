@@ -111,7 +111,8 @@
 - { setname: glade,                    name: glade-gtk2 }
 - { setname: glade,                    namepat: "glade[0-9._-]*" }
 - { setname: glade,                    name: compat-glade315 }
-- { setname: gle,                      name: [libgle,gle-te] } # gle is ambigous, split in 850
+- { setname: gle,                      name: libgle, addflag: libgle } # gle is ambigous, split in 850
+- { setname: gle,                      name: gle-te } # gle is ambigous, split in 850
 - { setname: gle,                      name: [qgle,gle-doc], addflavor: true } # gle is ambigous, split in 850
 - { setname: glew,                     namepat: "(?:compat-)?(?:lib)?glew[0-9.-]*" }
 - { setname: glew,                     name: glew-wayland, addflavor: true }
