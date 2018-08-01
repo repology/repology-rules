@@ -15,6 +15,8 @@
 - { name: range-v3,                    ver: "1.0.0",                 family: buckaroo,     incorrect: true } # 0.3.6 https://github.com/ericniebler/range-v3/releases
 - { name: range-v3,                                                  family: buckaroo,     untrusted: true }
 - { name: rar,                         verpat: ".*20[0-9]{6}",                             ignore: true }
+- { name: rawstudio,                   ver: "2.1",                   family: [sisyphus,fedora], incorrect: true } # Fedora and ALT Sisphus are packaging devel snapshot as version number not released ustream
+- { name: rawstudio,                                                 family: [sisyphus,fedora], untrusted: true }
 - { name: rblcheck,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: rblcheck,                    ver: "20020316",                                    outdated: true, disposable: true }
 - { name: rbldnsd,                     verpat: ".*20[0-9]{6}.*",                           ignore: true }
