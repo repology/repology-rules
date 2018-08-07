@@ -34,6 +34,8 @@
 - { ruleset: freebsd,         namepat: "(.*)-(py[0-9]+)", setname: $1, addflavor: $2 }
 - { ruleset: freebsd,         namepat: "(linux-c[67])-(.*)", setname: $2, addflavor: $1, legacy: true }
 
+- { ruleset: gentoo,          namepat: "(.*)-(bin)", setname: $1, addflavor: $2 }
+
 - { ruleset: guix,            namepat: "(guile)([0-9.]+)(-.*)", setname: $1$3, addflavor: $1$2 }
 
 # XXX: expand this onto whole haiku-apps category
