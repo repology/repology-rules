@@ -12,6 +12,7 @@
 - { name: capstone,                    verpat: ".*20[0-9]{6}",                             snapshot: true } # pentoo
 - { name: capstone,                    ver: "4.0",                   family: freebsd,      incorrect: true }
 - { name: cargo,                       verpat: "1\\..*",             ruleset: nix,         incorrect: true } # rust version used?
+- { name: castxml,                                                                         noscheme: true }
 - { name: cave9,                       ver: "0.4.1.git20150408",     family: freebsd,      setver: "0.4.1" }
 - { name: cblas,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: ccd2iso,                     ver: "0.9",                   family: freebsd,      outdated: true } # it's fake, no mention of 0.9 at all, and it uses file which was released before 0.3
