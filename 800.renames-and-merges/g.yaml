@@ -258,6 +258,9 @@
 - { setname: gspell,                   name: libgspell }
 - { setname: gssdp,                    name: libgssdp }
 - { setname: gssproxy,                 name: gss-proxy }
+- { setname: "gstreamer1plugins:bad",  name: ["gstreamer1plugins:bad-debug","gstreamer1plugins:bad-free", "gstreamer1plugins:bad-freeworld", "gstreamer1plugins:bad-nonfree"], addflavor: true }
+- { setname: "gstreamer1plugins:base", name: ["gstreamer1plugins:base-libs"], addflavor: true }
+- { setname: "gstreamer1plugins:ugly", name: ["gstreamer1plugins:ugly-free"], addflavor: true }
 - { setname: gtest,                    name: [googletest,libgtest] }
 - { setname: gtk,                      namepat: "(?:lib)?gtk[0-9._+-]*(-reference)?", addflavor: $1 }
 - { setname: gtk-doc,                  name: gtk-doc-am, addflavor: am }
