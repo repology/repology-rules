@@ -16,6 +16,7 @@
 - { name: bbswitch,                    verpat: ".*-[0-9]+\\.[0-9]+\\.[0-9]+.*", ruleset: nix, incorrect: true }
 - { name: bcachefs-tools,                                                                  noscheme: true }
 - { name: bcm20702a1-firmware,         verpat: "[0-9]{7}",                                 ignore: false } # unignore global rule from 900/0.yaml
+- { name: beef-browser-exploitation,   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: bennugd-core,                                                                    noscheme: true }
 - { name: bennugd-modules,                                                                 noscheme: true }
 - { name: betty,                                                     ruleset: aur,         untrusted: true }
