@@ -52,6 +52,7 @@
 - { name: "fonts:oldstandard",         ver: "2.2really",                                   ignore: true } # debian garbage
 - { name: "fonts:quattrocento",        ver: "2.000",                 family: arch,         ignore: true } # webpage says it's 1.1
 - { name: "fonts:raleway",             verpat: ".*20[0-9]{6}",                             snapshot: true } # dated packages are all snapshots, not even all from the same sources
+- { name: "fonts:raleway",             ver: "0.0.2016830",                                 snapshot: true } # irregular 7 digit dated snapshot
 - { name: "fonts:raleway",             verge: "4.0",                                       devel: true }  # 4.x series is still only an unreleased partial port to Glyphs
 - { name: "fonts:ubuntu",              ver: "1.0",                   family: pclinuxos,    ignore: true } # no such version on the website
 - { name: fonttosfnt,                  ver: "1.0.5",                 family: opensuse,     incorrect: true }
