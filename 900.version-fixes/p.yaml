@@ -10,6 +10,7 @@
 - { name: passwdqc,                    ver: "1.3.1.1",                                     incorrect: true } # sisyphus garbage
 - { name: patchelf,                    verpat: ".*pre.*",                                  snapshot: true } # nix
 - { name: patchelf,                    verlonger: 2,                                       incorrect: true } # termux
+- { name: pavucontrol,                 verpat: ".*\\+[0-9]+",                              incorrect: true } # slitaz
 - { name: pcb,                         verpat: "20[0-9]{6}.*",                             outdated: true } # superceded by x.y.z: https://sourceforge.net/projects/pcb/files/pcb/
 - { name: pcc,                         verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: pcc-libs,                    verpat: "20[0-9]{6}",                               snapshot: true }
@@ -74,6 +75,7 @@
 - { name: proot,                       verpat: "5\\.1\\.[0-9]{3}.*",                       incorrect: true }
 - { name: psi-plus,                    verpat: "20[0-9]{6}.*",                             snapshot: true } # opensuse garbage
 - { name: psi-plus,                    verlonger: 3,                                       incorrect: true } # aur garbage
+- { name: pulseaudio-alsa,                                                                 noscheme: true } # just some versionless config for pulseaudio
 - { name: pulseaudio-equalizer,        ver: "2.7.0.2",                                     incorrect: true }
 - { name: purple-facebook,             ver: "20170608",                                    outdated: true }
 - { name: purple-facebook,             verpat: "20[0-9]{6}",                               snapshot: true }
