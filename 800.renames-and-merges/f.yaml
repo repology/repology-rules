@@ -18,7 +18,11 @@
 - { setname: fetch-crl,                name: fetch-crl3 }
 - { setname: fetchmail,                name: fetchmailconf, addflavor: fetchmailconf }
 - { setname: ffcall,                   name: libffcall }
-- { setname: ffmpeg,                   namepat: "ffmpeg[0-9.-]+" }
+- { setname: ffmpeg,                   namepat: "(?:compat-)?ffmpeg(?:-compat)?[0-9_.-]*" }
+- { setname: ffmpeg,                   name: [ffmpeg-ex,ffmpeg-full3.4,ffmpeg-libfdk_aac,ffmpeg-mmal,ffmpeg-qsv], addflavor: true }
+- { setname: ffmpeg,                   name: [ffplay,ffplay4], addflavor: ffplay }
+- { setname: ffmpeg,                   name: ffserver, addflavor: true }
+- { setname: ffmpeg,                   name: libavutil-52, addflavor: libavutil }
 - { setname: fftw,                     name: [fftwf,fftw-avx,fftw-static] }
 - { setname: fftw,                     namepat: "(?:lib)?fftw[0-9._-]*(-double|-float|-long-double|-quad|-single|-long|-mpi|-mpich|-openmpi|-common|-gnu-.*)?", addflavor: $1 }
 - { setname: fife,                     name: [fifengine,"python:fife"] }

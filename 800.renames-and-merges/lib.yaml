@@ -92,6 +92,8 @@
 - { setname: libmusicbrainz,           namepat: "(?:lib)?musicbrainz[0-9._-]*" }
 - { setname: libmwaw,                  namepat: "libmwaw[0-9._-]+" }
 - { setname: libnet,                   namepat: "libnet[0-9.]+" }
+- { setname: libnice,                  namepat: "libnice-(gst.*)", addflavor: true }
+- { setname: libnice,                  name: "gstreamer0plugins:libnice", addflavor: gstreamer }
 - { setname: libnl,                    name: libnl-doc }
 - { setname: libnl,                    namepat: "libnl[0-9._-]+" }
 - { setname: libnova,                  name: libnova14-compat }

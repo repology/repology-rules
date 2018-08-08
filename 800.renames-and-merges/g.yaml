@@ -120,7 +120,7 @@
 - { setname: glew,                     name: glew-wayland, addflavor: true }
 - { setname: glfw,                     name: [glfw-doc,glfw-wayland,glfw-x11] }
 - { setname: glfw,                     namepat: "(?:lib)?glfw[0-9._-]*" }
-- { setname: glib,                     name: [glib-reference,glib2-docs,glib2-patched-thumbnailer,glib2-quiet,glib2-static], addflavor: true }
+- { setname: glib,                     name: [glib-reference,glib-static,glib2-docs,glib2-patched-thumbnailer,glib2-quiet,glib2-static], addflavor: true }
 - { setname: glib,                     namepat: "(?:lib)?glib[0-9._-]*" }
 - { setname: glib-networking,          name: glib2-networking }
 - { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9._-]*" }

@@ -44,6 +44,7 @@
 - { setname: percona-xtrabackup,       name: [percona-xtrabackup-bin,xtrabackup-bin], addflavor: bin }
 - { setname: percona-xtrabackup,       name: xtrabackup }
 - { setname: perf,                     name: [perf-linux,perf-lts] }
+- { setname: perl,                     name: microperl, addflavor: true }
 - { setname: pg_dirtyread,             namepat: "(postgresql[0-9._-]*)-pg_dirtyread", addflavor: $1 }
 - { setname: pg_repack,                namepat: "(postgresql[0-9._-]*)-pg_repack", addflavor: $1 }
 - { setname: pgadmin3,                 name: pgadmin3-lts }
