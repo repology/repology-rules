@@ -122,6 +122,8 @@
 - { name: grub-customizer,             ver: "5.0.7",                 family: debuntu,      incorrect: true } # mx and sparky, actually
 - { name: grub-customizer,                                           family: debuntu,      untrusted: true }
 - { name: gsettings-desktop-schemas,   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: "gstreamer1plugins:bad",     ver: "1.14.12",               ruleset: parabola,    incorrect: true }
+- { name: "gstreamer1plugins:bad",                                   ruleset: parabola,    untrusted: true }
 - { name: "gstreamer1plugins:mpg123",  verpat: "20[0-9]{6}",                               ignore: true } # AUR
 - { namepat: "gstreamer.*",            verpat: "1\\.13\\.9[0-9]+",                         devel: true }
 - { name: gtest,                       verlonger: 3,                                       ignore: true } # freebsd garbage
