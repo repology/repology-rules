@@ -45,6 +45,8 @@
 - { setname: djview,                   name: [djview,djview-qt4,djview-qt5,djview4,djvulibre-djview4], addflavor: true } # should be merged with djvulibre or not?
 - { setname: djvulibre,                name: [djvulibre-lib,djvulibre_qt4,djvulibre-tools,djvu] }
 - { setname: dkms,                     name: dkms-sorted, addflavor: sorted }
+- { setname: dlib,                     name: [dlib-cpp,libdlib] }
+- { setname: dlib,                     name: ["python:dlib", "python:dlib-cuda"], addflavor: true }
 - { setname: dmd,                      name: dmd2 }
 - { setname: dnscrypt-proxy,           name: [dnscrypt-proxy-go,dnscrypt-proxy2] }
 - { setname: doas,                     name: opendoas }
