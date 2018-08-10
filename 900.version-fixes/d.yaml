@@ -26,6 +26,7 @@
 - { name: diction,                     verge: "1.13",                                      successor: true } # http://www.moria.de/~michael/diction/ vs. https://ftp.gnu.org/gnu/diction/
 - { name: dietlibc,                    verpat: ".*(pre|cvs|20[0-9]{6}).*",                 ignore: true }
 - { name: diff-pdf,                    verpat: "20[0-9-]{6}.*",                            ignore: true }
+- { name: diff-pdf,                    verlonger: 2,                 ruleset: freebsd,     incorrect: true }
 - { name: diffpdf,                     verge: "2.1.3.1",                                   successor: true }
 - { name: dirb,                        verpat: "[0-9]{3}",                                 incorrect: true, disposable: true } # slackbuilds; 2.22, not 222
 - { name: directfb,                    ver: "1.8.0",                 ruleset: slitaz,      incorrect: true }
