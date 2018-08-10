@@ -35,6 +35,9 @@
 - { name: aspcud,                      ver: "2011.03.17",                                  ignore: true }
 - { name: assaultcube,                 verpat: "[0-9]{8}",                                 ignore: true }
 - { name: apache,                      verpat: "2\\.[0-9]*[13579]\\..*",                   devel: true }
+- { name: apache20,                                                                        legacy: true }
+- { name: apache22,                                                                        legacy: true }
+- { name: apache25,                                                                        devel: true }
 - { name: apitrace,                                                                        noscheme: true }
 - { name: "apmod:rpaf",                verpat: "2015.*",             family: [ arch ],     ignore: true }
 - { name: appmenu-qt,                  verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
