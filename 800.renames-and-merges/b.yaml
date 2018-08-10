@@ -102,6 +102,9 @@
 - { setname: box2d,                    name: libbox2d }
 - { setname: bpython,                  name: [bpython-py27,bpython2] }
 - { setname: brasero,                  name: [brasero2,brasero-dvdcssfix] }
+- { setname: brave,                    name: brave-browser }
+- { setname: brave,                    name: brave-bin, addflavor: bin}
+- { setname: brave,                    name: brave-snapshot, weak_devel: true }
 - { setname: breakpad,                 name: google-breakpad }
 - { setname: bricscad,                 name: [bricscad-legacy,bricscadv16,bricscadv17] }
 - { setname: bricscad,                 name: bricscadv17-zh, addflavor: zh }
