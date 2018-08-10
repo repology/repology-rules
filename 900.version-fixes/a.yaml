@@ -18,6 +18,7 @@
 - { name: agedu,                       ver: "20160920.853cea9",                            ignore: true }
 - { name: aircrack-ng,                 ver: "1.2",                   family: [ fedora, debuntu, gentoo, mageia, openwrt, rosa ], ignore: true }
 - { name: airspy,                      verpat: "20[0-9]{6}",                               ignore: true }
+- { name: airspy,                      verlonger: 3,                 family: freebsd,      incorrect: true }
 - { name: aldo,                                                      ruleset: aur,         untrusted: true }
 - { name: aldo,                        ver: "0.7.8",                 ruleset: aur,         incorrect: true }
 - { name: [alienarena, alienarena-data], verpat: ".*20[0-9]{6}.*",                         ignore: true }
