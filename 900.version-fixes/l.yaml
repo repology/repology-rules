@@ -46,7 +46,7 @@
 - { name: luajit,                      verpat: "20[0-9]{2}.*",                             ignore: true }
 - { name: lugaru,                      verpat: "[0-9]{3}.*",                               ignore: true } # dates and snapshots
 - { name: lugaru,                      verpat: "201[56].*",                                outdated: true } # 1.2 from 2017
-- { name: luit,                        verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: luit-xterm,                  verpat: "20[0-9]{6}",                               setver: "2.0-$0" }
 - { namepat: "lumina.*",               ver: "1.4.1",                 family: [freebsd,ravenports], incorrect: true }
 - { name: lxdm,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: lxpanel,                     verlonger: 3,                 ruleset: slitaz,      incorrect: true }
