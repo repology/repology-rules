@@ -94,6 +94,7 @@
 - { name: squirrelmail,                verpat: ".*pre[0-9]{5}",                            ignore: true } # pkgsrc snapshot
 - { name: squirrelmail,                ver: "1.4.23",                family: rosa,         incorrect: true } # no such release
 - { name: sshttp,                                                                          any_is_patch: true } # scheme is like 0-33s → 0-35s → 0-35s2
+- { name: sshttp,                      verpat: "(.*)s",                                    setver: "$1s1" } # 0-33s < 0-33s2
 - { name: ssmtp,                       vergt: "2.64",                                      successor: true } # https://github.com/solbu/ssmtp
 - { name: stlink,                      verpat: "20[0-9]{2}.*",                             ignore: true } # snapshot
 - { name: stp,                         verlonger: 3,                 family: freebsd,      incorrect: true }
