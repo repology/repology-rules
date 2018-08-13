@@ -84,9 +84,10 @@
 - { setname: bombono-dvd,              name: bombono }
 - { setname: bonnie++,                 name: bonniexx }
 - { setname: boomaga,                  name: boomaga-qt5, addflavor: true }
-- { setname: boost,                    name: "python:boost", addflavor: python }
+- { setname: boost,                    name: ["python:boost","python:boost-libs","boost-python3"], addflavor: python }
 - { setname: boost,                    namepat: "boost-mpi-source[0-9-.]+", addflavor: boost-mpi }
-- { setname: boost,                    namepat: "boost[0-9_.-]+" }
+- { setname: boost,                    namepat: "(?:compat-)?boost[0-9_.-]*(?:-compat)?" }
+- { setname: boost,                    name: [boost-base], addflavor: true }
 - { setname: boswars,                  name: bos-wars }
 - { setname: botan,                    namepat: "(?:lib)?botan[0-9_.-]*" }
 - { setname: botan,                    name: botan-old-stable }
