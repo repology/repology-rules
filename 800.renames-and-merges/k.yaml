@@ -9,6 +9,8 @@
 - { setname: keepasshttp,              name: [keepass-keepasshttp,keepass-plugin-http,keepass-plugin-keepasshttp,keepass2-plugin-keepasshttp] } # XXX: other plugins may need this; also may need better scheme (keepass:...?)
 - { setname: keepassx,                 name: keepassx-devel, weak_devel: true }
 - { setname: keepassx,                 namepat: "keepassx[0-9]*" }
+- { setname: keybinder,                namepat: "(lib)?keybinder[0-9_.-]*", addflavor: $1 }
+- { setname: keybinder,                name: [keybinder-gtk3,keybinder-python,"lua:keybinder","python:keybinder","python:keybinder2"], addflavor: true }
 - { setname: keystone,                 name: "python:keystone" }
 - { setname: kibana,                   name: kibana-bin }
 - { setname: kibana,                   namepat: "kibana[0-9]+" }
