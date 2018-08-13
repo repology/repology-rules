@@ -9,6 +9,7 @@
 - { name: mailcap,                     verpat: "2\\.3\\..*",         ruleset: pld,         incorrect: true } # it's 2.1.x
 - { name: make,                        verpat: ".*pre.*",                                  ignore: true }
 - { name: makepp,                      verpat: "[0-9]+",                                   incorrect: true }
+- { name: marathon-evil,                                                                   noscheme: true }
 - { name: marble,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mariadb,                     verge: "10.3",                                      devel: true } # https://downloads.mariadb.org/
 - { name: mari0,                       ver: "1.6.1",                 family: fedora,       incorrect: true } # rpmfusion
