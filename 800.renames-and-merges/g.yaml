@@ -123,6 +123,8 @@
 - { setname: glib,                     name: [glib-reference,glib-static,glib2-docs,glib2-patched-thumbnailer,glib2-quiet,glib2-static], addflavor: true }
 - { setname: glib,                     namepat: "(?:lib)?glib[0-9._-]*" }
 - { setname: glib-networking,          name: glib2-networking }
+- { setname: glibc,                    namepat: "glibc[0-9._-]*" }
+- { setname: glibc,                    name: [glibc-doc-reference,glibc-gd,glibc-info], addflavor: true }
 - { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9._-]*" }
 - { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9._-]*(-docs|-reference)", addflavor: docs }
 - { setname: glitz,                    name: libglitz }
