@@ -5,7 +5,10 @@
 
 - { name: pachi, wwwpart: pachi.or.cz, setname: pachi-go }
 
-- { name: pacman,                      setname: pacman-game,              family: [ debuntu ] } # package manager vs. some game
+- { name: pacman, wwwpart: ebuc99, setname: pacman-ebuc99 }
+- { name: pacman, verpat: "0\\.9(\\..*)?", setname: pacman-ebuc99 }
+- { name: pacman, ver: "1.0", setname: pacman10 } # origin unknown
+- { name: pacman, ver: "1.002", setname: pacman1.002 } # origin unknown
 
 - { name: perl, wwwpart: strawberry, setname: strawberryperl }
 
