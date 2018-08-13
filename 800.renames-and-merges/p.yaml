@@ -82,6 +82,8 @@
 - { setname: pnp4nagios,               name: pnp4nagios-cgi }
 - { setname: polyclipping,             name: clipperlib }
 - { setname: polyclipping,             name: libpolyclipping }
+- { setname: polkit,                   name: [polkit-consolekit,polkit-elogind], addflavor: true }
+- { setname: polkit,                   name: polkit105 }
 - { setname: ponscripter,              name: onscripter-en }
 - { setname: poppler,                  name: compat-poppler022 }
 - { setname: poppler,                  namepat: "poppler[0-9._-]+" }
