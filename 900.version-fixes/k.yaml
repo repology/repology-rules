@@ -4,6 +4,7 @@
 - { name: kbibtex,                     ver: "0.8",                   ruleset: debuntu,     ignore: true } # actually 0.8~20170819git31a77b27e8e83836e which cannot be parsed properly
 - { name: kbuild,                      verlonger: 3,                                       ignore: true } # 0.1.9998.8.2814.25 @ pkgsrc
 - { name: kbuild,                      verpat: ".*[rs].*",                                 ignore: true } # 0.1.9998.r2813 | 0.1.9998svn2814
+- { name: kde-common,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdnssd,                      verpat: "1[6789]\\..*",                             ignore: true }
 - { name: kdiff3,                      verpat: "1\\.7\\.0-[0-8a-f]{7}.*",                  ignore: true } # nix snapshot
 - { name: kdiff3,                      verpat: ".*201[789].*",                             ignore: true } # nix snapshot

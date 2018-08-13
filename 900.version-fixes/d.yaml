@@ -48,6 +48,7 @@
 - { name: dosbox,                      verpat: "0\\.74\\.[4r].*",                          ignore: true }
 - { name: dosemu,                      verpat: "2013.*",                                   ignore: true }
 - { name: dosemu,                      verpat: "1\\.4\\.1.*",        family: [sisyphus,gentoo], ignore: true }
+- { name: dolphin,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: dolphin-emu,                 verpat: ".*[0-9]{4,}.*",                            ignore: true }
 - { name: doublecmd,                                                                       devel: false } # they state all version to be beta: https://sourceforge.net/p/doublecmd/news/, this is pointless
 - { name: doublecmd,                   verpat: ".*svn.*",                                  ignore: true }
