@@ -62,6 +62,7 @@
 - { setname: lldb,                     namepat: "lldb[0-9._-]*-split", addflavor: split }
 - { setname: lldb,                     namepat: "lldb[0-9._-]+" }
 - { setname: llvm,                     namepat: "llvm[0-9.-]+" }
+- { setname: lm-sensors,               name: lm_sensors-max_of_fctemps, addflavor: true }
 - { setname: lmdb,                     name: liblmdb }
 - { setname: lmdb++,                   name: lmdbxx }
 - { setname: logcat-color,             name: "python:logcat-color" }
