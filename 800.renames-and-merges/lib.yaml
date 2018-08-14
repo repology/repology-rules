@@ -191,6 +191,7 @@
 - { setname: libxmp,                   name: libxmp-lite }
 - { setname: libxrender,               name: [libx32-libxrender,xorg-libxrender,xrender] }
 - { setname: libxslt,                  name: [libxslt-reference,libxslt-python,xsltproc], addflavor: true }
+- { setname: libxslt,                  name: "python:libxslt", addflavor: python }
 - { setname: libyaml,                  name: yaml }
 - { setname: libyubikey,               name: yubikey }
 - { setname: libykneomgr,              name: ykneomgr }
