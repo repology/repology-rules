@@ -48,6 +48,7 @@
 - { setname: seamonkey,                namepat: "seamonkey-(i18n-.*)", addflavor: true }
 - { setname: searx,                    name: searx-py3 }
 - { setname: sed,                      name: [gnu-sed,gnused,gsed] }
+- { setname: sed,                      name: [devbox-sed,gnuwin32-sed,ja-sed], addflavor: true }
 - { setname: seexpr,                   name: seexpr-doc, addflavor: doc }
 - { setname: sendmail,                 namepat: "sendmail\\+.*", family: freebsd }
 - { setname: sequencer64,              name: sequencer64-next, ignore: true }
