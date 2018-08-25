@@ -31,6 +31,7 @@
 - { name: midori,                                                    family: aosc,         untrusted: true }
 - { name: minbif,                      verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: minio,                       verpat: "[0-9]+",                                   incorrect: true } # should use separators
+- { name: miniupnpd,                   verpat: "[0-9]+\\.[0-9]+\\.20[0-9]{6}",             devel: true }
 - { name: mimikatz,                    verpat: ".*20[0-9]{6}",                             ignore: true } # BlackArch snap
 - { name: minimodem,                   verpat: ".*-[0-9]+",                                incorrect: true } # -1 is not part of the version
 - { name: minimodem,                   ver: "0.24.1",                family: gentoo,       ignore: true } # actually, pentoo. it's normalized 0.24-1 which is incorrect, see prev. rule
