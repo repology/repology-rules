@@ -21,6 +21,7 @@
 - { name: "python:pyside",             verpat: "4\\.[0-9]+_.*",                            incorrect: true } # pld
 - { name: "python:pyspatialite",       ver: "3.0.1",                 noruleset: pypi,      incorrect: true } # it's 3.0.1-alpha-0
 - { name: "python:pyspatialite",       verpat: "(.*)(?:[_-]alpha[_-])(.*)",                setver: "$1alpha$2" }
+- { name: "python:pyyaml",             ver: "4.1",                                         outdated: true } # retracted: https://github.com/yaml/pyyaml/issues/211
 - { name: "python:sphinx_rtd_theme",   verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:sphinx_py3doc_enhanced_theme", ver: "2.4.0",       ruleset: pld,         incorrect: true }
 - { name: "python:sphinx_py3doc_enhanced_theme",                     ruleset: pld,         untrusted: true }
