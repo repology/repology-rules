@@ -27,7 +27,8 @@
 - { setname: iksemel,                  name: libiksemel }
 - { setname: imagemagick,              name: [imagemagick-q8,imagemagick-q16,imagemagick-doc,imagemagick-fftw,imagemagick-full,imagemagick-full-doc,imagemagick-no-hdri,imagemagick-nox], addflavor: true }
 - { setname: imagemagick,              namepat: "(?:compat-)?imagemagick[0-9]+" }
-- { setname: imagemagick,              name: [libmagick,libmagick-fftw,libmagick-full,libmagick6], addflavor: true }
+- { setname: imagemagick,              name: [libmagick,libmagick6], addflavor: lib }
+- { setname: imagemagick,              name: [libmagick-fftw,libmagick-full], addflavor: true }
 - { setname: imagemagick,              name: imagemagick-git-doc, addflavor: doc, ignore: true }
 - { setname: imhangul,                 name: imhangul-gtk2, addflavor: gtk2 }
 - { setname: imhangul,                 name: imhangul-gtk3, addflavor: gtk3 }
