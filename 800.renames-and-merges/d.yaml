@@ -3,6 +3,8 @@
 - { setname: dapl,                     name: compat-dapl }
 - { setname: dapl,                     name: dapl-debug, addflavor: true }
 - { setname: darcs,                    name: "haskell:darcs" }
+- { setname: dart,                     name: dart-sdk }
+- { setname: dart,                     name: [dart-dev, dart-sdk-dev] } # XXX: be careful
 - { setname: dash.el,                  name: dash-el }
 - { setname: db,                       name: berkeley-db }
 - { setname: db,                       namepat: "db[0-9.]+" }
