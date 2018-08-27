@@ -179,7 +179,8 @@
 - { setname: curseofwar,               name: curse-of-war }
 - { setname: curseofwar,               name: curseofwar-sdl }
 - { setname: curses-hexedit,           name: [chexedit,ncurses-hexedit,nchexedit] }
-- { setname: cups,                     name: [cups-libs,cups-base,cups-minimal,cups-nosystemd,libcups,libcups-ipp14], addflavor: true }
+- { setname: cups,                     name: [cups-libs,cups-base,cups-minimal,cups-nosystemd,libcups,libcups-ipp14,cups-doc,cups-ipp14], addflavor: true }
+- { setname: cups-filters,             name: [cups-filters-debug,cups-filters-driverless], addflavor: true }
 - { setname: cutecom,                  name: cutecom-legacy }
 - { setname: cutycapt,                 name: cutycapt-qt5, addflavor: true }
 - { setname: cvs,                      name: cvs-devel, weak_devel: true }
