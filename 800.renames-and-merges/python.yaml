@@ -137,7 +137,7 @@
 - { setname: "python:scikits.timeseries", name: ["python:scikits-timeseries",scikits_timeseries] }
 - { setname: "python:setuptools-scm",  name: setuptools-scm }
 - { setname: "python:setuptools-scm-git-archive",  name: setuptools-scm-git-archive }
-- { setname: "python:sip",             name: sip }
+- { setname: "python:sip",             name: [sip,sip3,sip4] }
 - { setname: "python:sip",             name: "python:sip-pyqt5", addflavor: pyqt5 }
 - { setname: "python:social-auth-core", name: social-auth-core }
 - { setname: "python:sphinx",          name: "python:sphinx10" }
