@@ -1,0 +1,7 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+# exceptions to underscore normalization
+- { namepat: "ruby:dm_core", addflag: preserve_underscore }
+- { namepat: "ruby:diff_lcs", addflag: preserve_underscore }
+
+- { noflag: preserve_underscore, replaceinname: { "_": "-" } }
