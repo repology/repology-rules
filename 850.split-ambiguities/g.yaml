@@ -26,11 +26,11 @@
 
 - { name: gomoku, family: [freebsd,macports,openbsd], setname: gnustep-gomoku } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
-- { name: git_fame,                    setname: git-fame-rb, wwwpart: oleander.io }
+- { name: git-fame, setname: git-fame-rb, wwwpart: oleander.io }
 
-- { name: [gnat_util,gnat-util],       family: [arch,gentoo], setname: gnat-util-adacore }
-- { name: [gnat_util,gnat-util],       family: [freebsd,pkgsrc,ravenports], setname: gnat-util-gcc }
-- { name: [gnat_util,gnat-util],       warning: "please classify me" }
+- { name: gnat-util, family: [arch,gentoo], setname: gnat-util-adacore }
+- { name: gnat-util, family: [freebsd,pkgsrc,ravenports], setname: gnat-util-gcc }
+- { name: gnat-util, warning: "please classify me" }
 
 - { name: greg, wwwpart: gna.org, setname: greg-guile-test-framework } # burried by gna
 # otherwise podcase aggregator

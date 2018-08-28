@@ -11,7 +11,7 @@
 - { name: crystal, category: games-mud, setname: crystal-mud }
 - { name: crystal, wwwpart: kde-look, setname: crystal-theme }
 
-- { name: cdf3,                        setname: cdf                       } # Common Data Format lib
+- { name: cdf3,                        setname: cdf                       } # Common Data Format lib; XXX: move to 800?
 - { name: cdf, verpat: "0.*",          setname: cdf-df                    } # split out colorized df
 
 - { name: cogl, ruleset: deepin,       setname: deepin-cogl } # fork?
@@ -20,7 +20,7 @@
 - { name: chess, category: Games/Boards, setname: gnuchess                  }
 
 - { name: ck,                          setname: ck-tcl, family: gentoo, category: dev-tcltk }
-- { name: [ck,concurrency-kit,libck],  setname: concurrencykit }
+- { name: [ck,concurrency-kit,libck],  setname: concurrencykit } # XXX: move to 800?
 
 - { name: clac, wwwpart: sourceforge, setname: clac-mborg }
 - { name: clac, ruleset: [pclinuxos], setname: clac-mborg }
@@ -30,12 +30,12 @@
 
 - { name: cmix, wwwpart: cmix.sourceforge.net, setname: cmix-mixer } # relic from 2002
 
-- { name: [command-not-found,command_not_found], wwwpart: metti, setname: command-not-found-arch }
-- { name: [command-not-found,command_not_found], wwwpart: kaniini, setname: command-not-found-kaniini }
-- { name: [command-not-found,command_not_found], wwwpart: [jrabbit,haiku], setname: command-not-found-haiku }
-- { name: [command-not-found,command_not_found], wwwpart: abf, setname: command-not-found-abf }
-- { name: [command-not-found,command_not_found], ruleset: termux, setname: command-not-found-termux }
-- { name: [command-not-found,command_not_found], warning: "please classify me" }
+- { name: command-not-found, wwwpart: metti, setname: command-not-found-arch }
+- { name: command-not-found, wwwpart: kaniini, setname: command-not-found-kaniini }
+- { name: command-not-found, wwwpart: [jrabbit,haiku], setname: command-not-found-haiku }
+- { name: command-not-found, wwwpart: abf, setname: command-not-found-abf }
+- { name: command-not-found, ruleset: termux, setname: command-not-found-termux }
+- { name: command-not-found, warning: "please classify me" }
 
 # this one is messed up:
 # - http://cpulimit.sourceforge.net/ https://sourceforge.net/projects/cpulimit/files/cpulimit/cpulimit/ (1.0, 1.1 - year 2006)
@@ -54,4 +54,4 @@
 - { name: ctags,                       warning: "please classify me" }
 
 - { name: cutter, verpat: "1\\.0[0-9].*", setname: cutter-tcp             } # TCP/IP Connection Cutter
-- { name: [cutter,cutter-test_framework,cutter-testing-framework], setname: cutter-unittest } # C++ testing framework
+- { name: [cutter,cutter-test-framework,cutter-testing-framework], setname: cutter-unittest } # C++ testing framework # XXX: move to 800
