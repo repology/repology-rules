@@ -120,6 +120,7 @@
 - { setname: "python:pyusb",           name: "python:usb" } # create problem!
 - { setname: "python:pywebkitgtk",     name: ["python:webkitgtk",pywebkitgtk] }
 - { setname: "python:pyyaml",          name: [pyyaml,"python:yaml"] }
+- { setname: "python:pyyaml",          name: [pypy-yaml,pypy3-yaml], addflavor: pypy } # XXX: global rule for pypy-*?
 - { setname: "python:readlike",        name: readlike }
 - { setname: "python:redis",           name: "python:redis-py" }
 - { setname: "python:reparser",        name: reparser }
