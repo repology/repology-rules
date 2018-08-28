@@ -2,7 +2,7 @@
 
 - { name: ja2-stracciatella,           verpat: ".*[0-9]{4}.*",                             ignore: true } # year and 8296.9202397c2 from aur
 - { name: jade,                        verpat: "1\\.2\\.1-[0-9]{2}.*",                     ignore: true } # nix, adds debian patchlevel
-- { name: [java-cup,java_cup],         verpat: "[0-9]{2}.*",                               incorrect: true } # it's e.g. 0.11b
+- { name: java-cup,                    verpat: "[0-9]{2}.*",                               incorrect: true } # it's e.g. 0.11b
 - { name: jimtcl,                      verpat: ".*pl.*",                                   incorrect: true } # openbsd garbage
 - { name: jode,                        verpat: "20[0-9]{6}",                               ignore: true }
 - { name: john,                        verpat: "1\\.8\\.0\\.[0-9]+",                       incorrect: true } # sisyphus, kali fakes
