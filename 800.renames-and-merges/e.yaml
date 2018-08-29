@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { setname: e2fsprogs,                name: [e2fsprogs-libblkid,e2fsprogs-libs,e2fsprogs-libss,e2fsprogs-libuuid,e2fsprogs1.41] }
+- { setname: e2fsprogs,                name: e2fsprogs1.41 }
+- { setname: e2fsprogs,                name: [e2fsprogs-libblkid,e2fsprogs-libs,e2fsprogs-libss,e2fsprogs-libuuid,e2fsck-static], addflavor: true }
 - { setname: eaglemode,                name: eagle-mode }
 - { setname: easy-rsa,                 name: [easyrsa,easy-rsa2,easy-rsa-old] }
 - { setname: easygit,                  name: [easy-git,eg] }
