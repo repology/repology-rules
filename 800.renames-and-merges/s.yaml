@@ -36,7 +36,7 @@
 - { setname: sdl2-$1,                  namepat: "(?:lib)?sdl-?(image|mixer|net|ttf|gfx)2[0-9.-]*" }
 - { setname: sdl-$1,                   namepat: "(?:lib)?sdl(?:1[0-9.]*)?-?(image|mixer|net|ttf|gfx)(?:1[0-9.-]*)?" }
 - { setname: sdl-pango,                name: [libsdl-pango,sdlpango] }
-- { setname: sdl-sge,                  name: [libsdl-sge,libsdl-sge] }
+- { setname: sdl-sge,                  name: libsdl-sge }
 - { setname: sdl-sound,                name: sdl-sound-patched, addflavor: patched }
 - { setname: sdl-sound,                namepat: "(?:lib)?sdl[0-9.-]*sound[0-9.-]*" }
 - { setname: sdlconsole,               name: [libsdl-console,sdl-console] }
