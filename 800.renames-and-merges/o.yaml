@@ -61,6 +61,8 @@
 - { setname: openscenegraph,           name: osg-devel, weak_devel: true }
 - { setname: openshadinglanguage,      namepat: "openshadinglanguage[0-9.-]+" }
 - { setname: openshot,                 name: openshot-qt, addflavor: qt }
+- { setname: opensm,                   name: compat-opensm-libs }
+- { setname: opensm,                   name: opensm-systemd-multiple-interfaces, addflavor: true }
 - { setname: opensmtpd-extras,         namepat: "opensmtpd-extras-.*", family: [freebsd,openbsd] }
 - { setname: opensp,                   name: opensp-doc, addflavor: doc }
 - { setname: openssh,                  name: openssh-portable }
