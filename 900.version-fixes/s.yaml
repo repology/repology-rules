@@ -66,6 +66,8 @@
 - { name: sndlib,                                                                          noscheme: true }
 - { name: snmpenum,                                                                        noscheme: true }
 - { name: snownews,                    verge: "1.5.13",                                    successor: true } # https://github.com/kouya/snownews
+- { name: snzip,                       verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: snzip,                       ver: "20120803",                                    outdated: true } # 1.0.4 from 2016
 - { name: solaar,                      verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{3,}",     ignore: true } # FreeBSD snapshot
 - { name: solvespace,                  verpat: ".*[0-9]{8}.*",                             ignore: true } # nix garbage
 - { name: sonata,                      ver: "1.7",                    ruleset: sisyphus,   incorrect: true }
