@@ -35,6 +35,7 @@
 - { name: bitbake,                     ver: "1.34",                  ruleset: aur,         incorrect: true }
 - { name: bitbake,                                                   ruleset: aur,         untrusted: true }
 - { name: bittornado,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: bittornado,                  verge: "0.4.0",                                     successor: true } # https://github.com/effigies/BitTornado
 - { name: blackbox,                    verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: blas,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: blas,                        ver: "3.9.2",                 family: sisyphus,     ignore: true } # totally fake
