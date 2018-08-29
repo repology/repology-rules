@@ -201,11 +201,12 @@ def validate_value(key, val):
         raise BadRuleValue('verpat contains literal versions, perhaps you\'ve meant to use ver?')
 
 
-
 def validate_values(rule):
     for key, val in rule.items():
         if isinstance(val, str):
             validate_value(key, val)
+        if isinstance(val, list) and len(set(val)) < len(val):
+            raise BadRuleValue('{} contains duplicate items'.format(key))
 
 
 class RulesetCheckResult:
