@@ -11,7 +11,7 @@
 - { setname: calibre,                  name: [calibre-debug,calibre-normal], addflavor: true }
 - { setname: calligra-l10n,            namepat: "calligra-l10n-.*", family: sisyphus }
 - { setname: camlp5,                   name: "ocaml:camlp5" }
-- { setname: camlp5,                   name: camlp5-transitional }
+- { setname: camlp5,                   name: camlp5-transitional, addflavor: true }
 - { setname: capnproto,                name: [capnp,capnproto-0.6] }
 - { setname: capstone,                 name: capstone4 }
 - { setname: cargo,                    name: ["rust:cargo",rust-toolset-7-cargo] }
