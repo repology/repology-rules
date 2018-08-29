@@ -4,13 +4,13 @@
 - { setname: hadoop,                   name: hadoop2 }
 - { setname: hashcat,                  name: hashcat-legacy }
 - { setname: haxe,                     name: haxe2 }
-- { setname: haxe,                     name: haxe_bin, addflavor: bin }
+- { setname: haxe,                     name: haxe-bin, addflavor: bin }
 - { setname: hdf,                      name: hdf4 }
 - { setname: hdf,                      name: [hdf4-alt,hdf4-nonetcdf], addflavor: true }
-- { setname: hdf5,                     namepat: "hdf5[0-9._-]*(gnu.*)", addflavor: $1 }
-- { setname: hdf5,                     name: [libhdf5,hdf5-18,hdf5-1_8] }
-- { setname: hdf5,                     name: hdf5_18 }
-- { setname: hdf5,                     name: hdf5_18-cpp-fortran, addflavor: cpp-fortran }
+- { setname: hdf5,                     namepat: "hdf5[0-9.-]*(gnu.*)", addflavor: $1 }
+- { setname: hdf5,                     name: [libhdf5,hdf5-18,hdf5-1-8] }
+- { setname: hdf5,                     name: hdf5-18 }
+- { setname: hdf5,                     name: hdf5-18-cpp-fortran, addflavor: cpp-fortran }
 - { setname: hdf5,                     name: [hdf5-c++,hdf5-cpp,hdf5-cpp-fortran,hdf5-fortran,hdf5-mpi,hdf5-mvapich2,hdf5-openmpi,hdf5-openmpi-java,hdf5-parallel-openmpi,hdf5-salome,hdf5-threadsafe,hdf5-mpich], addflavor: true }
 - { setname: hedgewars,                name: hedgewars-server, addflavor: server }
 - { setname: helm,                     name: helm-vst }
@@ -21,13 +21,13 @@
 - { setname: hidapi,                   name: libhidapi }
 - { setname: hitori,                   name: gnome-games-hitori }
 - { setname: hledger$1,                namepat: "haskell:hledger(.*)" } # note: has overlapping reverse rule in 800.renames-and-merges.haskell
-- { setname: hmmer,                    namepat: "hmmer[0-9._-]+" }
+- { setname: hmmer,                    namepat: "hmmer[0-9.-]+" }
 - { setname: home-assistant,           name: homeassistant }
 - { setname: howard-hinnant-date,      name: [hhdate,hinnant-date] }
 - { setname: hostapd,                  name: [hostapd-rtl,hostapd-rtl871xdrv,hostapd1] }
 - { setname: hping,                    name: [hping2,hping3] }
 - { setname: hplip,                    name: [hpcups,hpijs,hplip-common,hplip-gui,hplip-minimal,hplip-raw-ledm], addflavor: true }
-- { setname: hsqldb,                   namepat: "hsqldb[0-9._-]+" }
+- { setname: hsqldb,                   namepat: "hsqldb[0-9.-]+" }
 - { setname: html2text,                name: html2text-with-utf8 }
 - { setname: htop,                     name: [htop-blueweb,htop-solarized,htop-temperature,htop-temperature-rpi,htop-vim,htop-vim-solarized], addflavor: true }
 - { setname: hugin,                    name: [hugin-app,hugin-tools], addflavor: true }

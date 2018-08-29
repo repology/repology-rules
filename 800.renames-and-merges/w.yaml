@@ -10,9 +10,9 @@
 - { setname: wcmcommander,             name: wcm-commander }
 - { setname: webkitfltk,               name: webkitfltk-static, addflavor: static }
 - { setname: webkitgtk,                name: webkitgtk-gtk2 }
-- { setname: webkitgtk,                namepat: "(?:lib)?webkit[0-9._-]*gtk[0-9._-]*" }
-- { setname: webkitgtk,                namepat: "(?:lib)?webkit[0-9._-]*gtk[0-9._-]*-unstable", ignore: true }
-- { setname: webkitgtk,                namepat: "webkit[0-9._-]" } # assuming gtk
+- { setname: webkitgtk,                namepat: "(?:lib)?webkit[0-9.-]*gtk[0-9.-]*" }
+- { setname: webkitgtk,                namepat: "(?:lib)?webkit[0-9.-]*gtk[0-9.-]*-unstable", weak_devel: true }
+- { setname: webkitgtk,                namepat: "webkit[0-9.-]" } # assuming gtk
 - { setname: weboob,                   name: "python:weboob" }
 - { setname: weboob,                   name: weboob-headless, addflavor: headless }
 - { setname: websocketpp,              name: websocket++ }
@@ -34,9 +34,9 @@
 - { setname: wine,                     namepat: "wine[0-9.-]+" }
 - { setname: wine-gecko,               name: wine-gecko-devel, weak_devel: true }
 - { setname: wine-gecko,               name: wine-gecko-stable }
-- { setname: wine-gecko,               namepat: "wine-gecko[0-9._-]+" }
+- { setname: wine-gecko,               namepat: "wine-gecko[0-9.-]+" }
 - { setname: wine-mono,                name: wine-mono-devel, weak_devel: true }
-- { setname: wine-mono,                namepat: "wine-mono[0-9._-]+" }
+- { setname: wine-mono,                namepat: "wine-mono[0-9.-]+" }
 - { setname: winewizard,               name: wine-wizard }
 - { setname: winff,                    name: [winff-gtk2,winff-qt4], addflavor: true }
 - { setname: wings3d,                  name: [wings,wings-3d] }
@@ -47,16 +47,16 @@
 - { setname: wireless-regdb,           name: wireless-regdb-pentest, addflavor: pentest }
 - { setname: wireshark,                name: [wireshark-cli,wireshark-common,wireshark-gtk,wireshark-gtk2,wireshark-headers,wireshark-lite,wireshark-qt,wireshark-qt5,tshark,tshark-lite], addflavor: true }
 - { setname: wireshark,                name: [wireshark2,wireshark22] }
-- { setname: wirouterkeyrec,           name: wirouter_keyrec }
+- { setname: wirouterkeyrec,           name: wirouter-keyrec }
 - { setname: wiznote,                  name: wiznote-qt4, addflavor: true }
 - { setname: wlc,                      name: libwlc0 }
 - { setname: wormsofprey,              name: wop }
 - { setname: worldofpadman,            name: worldofpadman-data, addflavor: data }
 - { setname: worldofpadman,            name: worldofpadman-beta, ignore: true }
-- { setname: wpa_supplicant,           name: wpasupplicant }
+- { setname: wpa-supplicant,           name: wpasupplicant }
 - { setname: wrogue,                   name: warp-rogue }
-- { setname: wxqt,                     namepat: "wxqt[0-9._-]+" }
+- { setname: wxqt,                     namepat: "wxqt[0-9.-]+" }
 - { setname: wxsqlite3,                name: [libwxsqlite3,libwxsqlite3-wx3.0,wxsqlite3-2.8] }
 - { setname: wxwidgets,                name: [wxmac,wxx11,wxmsw] }
 - { setname: wxwidgets,                name: [wxwidgets-3.0-cxx11,wxwidgets-ansi,wxwidgets-media,wxwidgets-wxcontainer,wxwidgets-wxcontainer24c] }
-- { setname: wxwidgets,                namepat: "(?:wx|wxgtk|wxwidgets|wxcommon|wxbase)[0-9._-]*((?:-light|-gtk3|-gtk2|-contrib|-doc|-docs|-common|-libcxx|-nostl)*)", addflavor: $1 }
+- { setname: wxwidgets,                namepat: "(?:wx|wxgtk|wxwidgets|wxcommon|wxbase)[0-9.-]*((?:-light|-gtk3|-gtk2|-contrib|-doc|-docs|-common|-libcxx|-nostl)*)", addflavor: $1 }

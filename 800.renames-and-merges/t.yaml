@@ -12,12 +12,12 @@
 - { setname: tar,                      name: [gtar-base,gtar-info], addflavor: true }
 - { setname: tautulli,                 name: tautulli-beta, ignore: true }
 - { setname: tbb,                      name: [intel-tbb,libtbb] }
-- { setname: tcl,                      namepat: "tcl8[0-9._-]+" }
+- { setname: tcl,                      namepat: "tcl8[0-9.-]+" }
 - { setname: tcl,                      name: tcltk } # hpux has tcl and tk merged; actually it should be merged to both, but we can't
 - { setname: tclhttpd,                 name: tcl-httpd }
 - { setname: tdb,                      name: libtdb }
-- { setname: tds_fdw,                  namepat: "(postgresql[0-9._-]*)-tds_fdw", addflavor: $1 }
-- { setname: teamviewer,               namepat: "teamviewer[0-9._-]+" }
+- { setname: tds-fdw,                  namepat: "(postgresql[0-9.-]*)-tds-fdw", addflavor: $1 }
+- { setname: teamviewer,               namepat: "teamviewer[0-9.-]+" }
 - { setname: teamviewer,               name: teamviewer-beta }
 - { setname: teamviewer-host,          name: teamviewer.host }
 - { setname: teamviewer-quicksupport,  name: teamviewer-quicksupport-beta }
@@ -30,7 +30,7 @@
 - { setname: telepathy-farstream,      name: [libtelepathy-farstream,telepathy-farstream-0.4] }
 - { setname: template-glib,            name: libtemplate-glib }
 - { setname: tepl,                     name: tepl3 }
-- { setname: terminal_markdown_viewer, name: mdv }
+- { setname: terminal-markdown-viewer, name: mdv }
 - { setname: termtosvg,                name: "python:termtosvg" }
 - { setname: tesseract-ocr-data,       namepat: "tesseract(?:-ocr|-data)*-[a-z]{3}(?:-.*)?" }
 - { setname: testdisk,                 name: testdisk-wip, ignore: true }
@@ -72,16 +72,16 @@
 - { setname: timidity++,               name: timidity, verpat: "2\\..*" }
 - { setname: tint,                     name: tint-tetris }
 - { setname: tintin++,                 name: [tintin,tintinxx] }
-- { setname: tk,                       namepat: "tk8[0-9._-]+" } # don't mix with tk2, tk5, tk707 which are unrelated projects
+- { setname: tk,                       namepat: "tk8[0-9.-]+" } # don't mix with tk2, tk5, tk707 which are unrelated projects
 - { setname: tmux,                     name: tmux-fullwidth-backspace, addflavor: true }
-- { setname: tmux,                     namepat: "tmux[0-9._-]+" }
+- { setname: tmux,                     namepat: "tmux[0-9.-]+" }
 - { setname: tmuxinator,               name: "ruby:tmuxinator" }
 - { setname: tmw,                      name: the-mana-world }
 - { setname: tntnet,                   name: libtntnet }
 - { setname: tokyocabinet,             name: tokyo-cabinet }
 - { setname: tokyodystopia,            name: tokyo-dystopia }
 - { setname: tolua++,                  name: [toluapp,"lua:toluapp"] }
-- { setname: tolua++,                  namepat: "tolua\\+\\+[0-9._-]+" }
+- { setname: tolua++,                  namepat: "tolua\\+\\+[0-9.-]+" }
 - { setname: tomahawk,                 name: tomahawk-player }
 - { setname: tomahawk,                 name: tomahawk-qt5, addflavor: qt5 }
 - { setname: tome,                     name: [t-engine4,tales-of-majeyal,tome4,tome4-data,tome-ah] }
@@ -114,4 +114,4 @@
 - { setname: tuxpaint,                 name: tux-paint }
 - { setname: twinkle,                  name: twinkle-qt5, addflavor: true }
 - { setname: twolame,                  name: two-lame }
-- { setname: tyrian-data,              name: opentyrian_data }
+- { setname: tyrian-data,              name: opentyrian-data }

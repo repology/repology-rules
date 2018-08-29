@@ -7,7 +7,7 @@
     actioncable|
     actionmailer|
     actionpack|
-    actionpack-xml_parser|
+    actionpack-xml-parser|
     actionview|
     activejob|
     activemodel|
@@ -31,12 +31,12 @@
     doorkeeper|
     erubis|
     faraday|
-    faraday_middleware|
-    fast_gettext|
-    fast_xs|
+    faraday-middleware|
+    fast-gettext|
+    fast-xs|
     flipper|
-    flipper-active[-_]record|
-    flipper-active[-_]support[-_]cache[-_]store|
+    flipper-active-record|
+    flipper-active-support-cache-store|
     fluentd|
     fog-aws|
     gherkin|
@@ -50,19 +50,19 @@
     highline|
     hike|
     html-pipeline|
-    http_parser.rb|
+    http-parser.rb|
     journey|
     json|
     json-schema|
-    json_pure|
+    json-pure|
     launchy|
     liquid|
     listen|
     mail|
     map|
     mime-types|
-    mini_magick|
-    mini_portile|
+    mini-magick|
+    mini-portile|
     minitest|
     moneta|
     multipart-post|
@@ -79,7 +79,7 @@
     parslet|
     progressbar|
     pry|
-    public[_-]suffix|
+    public-suffix|
     rack|
     rack-cache|
     rack-ssl|
@@ -95,12 +95,12 @@
     rubyntlm|
     sass|
     sass-rails|
-    sexp_processor|
-    simple_oauth|
+    sexp-processor|
+    simple-oauth|
     slack-notifier|
     slop|
     sprockets|
-    thread_safe|
+    thread-safe|
     tilt|
     treetop|
     trollop|
@@ -108,11 +108,11 @@
     tzinfo|
     utilrb|
     web-console
-    ))[0-9._-]+
+    ))[0-9.-]+
   setname: "$1"
 
-- { name: "ruby:http_parser_rb", setname: "ruby:http-parser.rb" }
-- { name: "ruby:pygments_rb", setname: "ruby:pygments.rb" }
+- { setname: "ruby:http-parser.rb",    name: "ruby:http-parser-rb" }
+- { setname: "ruby:pygments.rb",       name: "ruby:pygments-rb" }
 
 - { setname: "ruby:bundler",           name: bundler }
 - { setname: "ruby:bundler",           namepat: "ruby[0-9.]+-bundler" }

@@ -32,7 +32,7 @@
 - { setname: bcc,                      name: "python:bcc", addflavor: python } # split in 850
 - { setname: bcc,                      name: bcc-tools, addflavor: tools }
 - { setname: bcc,                      name: bpfcc }
-- { setname: bcel,                     name: bcel5_3 }
+- { setname: bcel,                     name: bcel5-3 }
 - { setname: bcfg2,                    name: "python:bcfg2" }
 - { setname: bcompare,                 name: [bcompare-cinnamon,bcompare-kde4,bcompare-kde5,bcompare-mate,bcompare-nautilus,bcompare-thunar], addflavor: true }
 - { setname: bcompare,                 name: bcompare3 }
@@ -51,7 +51,7 @@
 - { setname: billardgl,                name: billard-gl }
 - { setname: bind,                     name: [dig,bind-rl,bind-tools,bind-toolsonly,bindutils,dnsutils], addflavor: true }
 - { setname: bind,                     name: bind9-devel, weak_devel: true }
-- { setname: bind,                     namepat: "bind[0-9_.-]+" }
+- { setname: bind,                     namepat: "bind[0-9.-]+" }
 - { setname: bird,                     name: [bird-v6,bird6] }
 - { setname: bison,                    name: [bison-doc,bison-runtime], addflavor: true }
 - { setname: bison,                    name: [bison2,bison27] }
@@ -65,7 +65,7 @@
 - { setname: blas,                     name: blas-tmg }
 - { setname: blasphemer,               name: blasphemer-wad }
 - { setname: blender,                  name: blender-binaries }
-- { setname: blender,                  namepat: "blender[0-9._-]+" }
+- { setname: blender,                  namepat: "blender[0-9.-]+" }
 - { setname: blitz++,                  name: blitz, family: [gentoo,fedora,opensuse] } # XXX: recheck
 - { setname: blobby,                   name: blobby-volley-2 }
 - { setname: blobby,                   name: [blobby2,blobby-volley] }
@@ -78,7 +78,7 @@
 - { setname: bnd,                      name: bnd1.50 }
 - { setname: boa-constructor,          name: boaconstructor }
 - { setname: bochs,                    name: bochs-gdb, addflavor: gdb }
-- { setname: boehm-gc,                 name: [boehmgc,boehm-gc-threaded,boehm-gc-redirect,boehm_garbage_collector,bdw-gc,gc] }
+- { setname: boehm-gc,                 name: [boehmgc,boehm-gc-threaded,boehm-gc-redirect,boehm-garbage-collector,bdw-gc,gc] }
 - { setname: boehm-gc,                 name: libgc }
 - { setname: bogofilter,               name: [bogofilter-sqlite,bogofilter-tc], addflavor: true }
 - { setname: boinc,                    name: [boinc-client,boinc-nox] } # or to boinc-client?
@@ -87,14 +87,14 @@
 - { setname: boomaga,                  name: boomaga-qt5, addflavor: true }
 - { setname: boost,                    name: ["python:boost","python:boost-libs","boost-python3"], addflavor: python }
 - { setname: boost,                    namepat: "boost-mpi-source[0-9-.]+", addflavor: boost-mpi }
-- { setname: boost,                    namepat: "(?:compat-)?boost[0-9_.-]*(?:-compat)?" }
+- { setname: boost,                    namepat: "(?:compat-)?boost[0-9.-]*(?:-compat)?" }
 - { setname: boost,                    name: [boost-base], addflavor: true }
 - { setname: boswars,                  name: bos-wars }
-- { setname: botan,                    namepat: "(?:lib)?botan[0-9_.-]*" }
+- { setname: botan,                    namepat: "(?:lib)?botan[0-9.-]*" }
 - { setname: botan,                    name: botan-old-stable }
 - { setname: botan,                    name: botan-with-compression, addflavor: compression }
-- { setname: bouncycastle,             namepat: "bouncycastle[0-9._-]*" }
-- { setname: bouncycastle,             namepat: "bouncycastle[0-9._-]*" }
+- { setname: bouncycastle,             namepat: "bouncycastle[0-9.-]*" }
+- { setname: bouncycastle,             namepat: "bouncycastle[0-9.-]*" }
 - { setname: bouncycastle,             name: [bcmail,bouncycastle-mail], addflavor: mail }
 - { setname: bouncycastle,             name: [bcpg,bouncycastle-pg], addflavor: pg }
 - { setname: bouncycastle,             name: [bcpkix,bouncycastle-pkix,java-bouncycastle-bcpkix], addflavor: pkix }
@@ -118,7 +118,7 @@
 - { setname: bubbros,                  name: bub-n-bros, family: gentoo } # XXX: recheck
 - { setname: bucardo,                  name: "perl:bucardo" }
 - { setname: bugs-everywhere,          name: bugseverywhere }
-- { setname: bugzilla,                 namepat: "bugzilla[0-9._-]+" }
+- { setname: bugzilla,                 namepat: "bugzilla[0-9.-]+" }
 - { setname: bullet,                   name: bullet-docs, addflavor: docs }
 - { setname: bullet,                   name: bullet3 }
 - { setname: bullet,                   name: libbullet }

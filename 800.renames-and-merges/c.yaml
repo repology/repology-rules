@@ -7,7 +7,7 @@
 - { setname: caddy,                    name: [caddy-full,caddy-with-cgi,caddy-no-telemetry], addflavor: true }
 - { setname: cairo-clock,              name: cairo-clock-ccw }
 - { setname: cairo-dock-plugins,       name: cairo-dock-plug-ins }
-- { setname: cairomm,                  namepat: "(?:lib)?cairomm[0-9._-]*(-docs)?", addflavor: $1 }
+- { setname: cairomm,                  namepat: "(?:lib)?cairomm[0-9.-]*(-docs)?", addflavor: $1 }
 - { setname: calibre,                  name: [calibre-debug,calibre-normal], addflavor: true }
 - { setname: calligra-l10n,            namepat: "calligra-l10n-.*", family: sisyphus }
 - { setname: camlp5,                   name: "ocaml:camlp5" }
@@ -18,7 +18,7 @@
 - { setname: cargo,                    name: [cargo-completion,cargo-standalone,cargo-bootstrap,cargo-stage1], addflavor: true }
 - { setname: cargo,                    name: cargo-nightly, weak_devel: true }
 - { setname: cassandra,                name: [apache-cassandra,cassandra2] }
-- { setname: cassandra,                namepat: "cassandra[0-9._-]+" }
+- { setname: cassandra,                namepat: "cassandra[0-9.-]+" }
 - { setname: cataclysm-dda,            name: cataclysm-dark-days-ahead }
 - { setname: catch,                    name: libcatch-cpp-headers }
 - { setname: catdoc,                   name: catdoc-tk, addflavor: tk }
@@ -35,17 +35,17 @@
 - { setname: cdemu-client,             name: cdemu, family: gentoo }
 - { setname: cdesktopenv,              name: cde-desktop }
 - { setname: cdogs-sdl,                name: cdogs }
-- { setname: cdogs-sdl,                name: cyberdogs_sdl }
+- { setname: cdogs-sdl,                name: cyberdogs-sdl }
 - { setname: cdparanoia,               name: cdparanoia-iii }
 - { setname: cdparanoia,               name: cdparanoia-overread, addflavor: overread }
 - { setname: cdrtools,                 name: cdrtools-devel, weak_devel: true }
 - { setname: ce,                       name: ce-x11, addflavor: x11 }
 - { setname: cef,                      name: [cef-minimal,cef-standard], addflavor: true }
-- { setname: cegui,                    name: [cegui-mk2,cegui_mk-2] }
-- { setname: cegui,                    namepat: "cegui[0-9._-]+" }
+- { setname: cegui,                    name: [cegui-mk2, cegui-mk-2] }
+- { setname: cegui,                    namepat: "cegui[0-9.-]+" }
 - { setname: celestia,                 name: celestia-nonfree, addflavor: nonfree }
 - { setname: celestia,                 namepat: "celestia-.*", family: freebsd } # merges glut/gnome/gtk, just GUI variants
-- { setname: celt,                     namepat: "(?:lib)?celt[0-9._-]*" }
+- { setname: celt,                     namepat: "(?:lib)?celt[0-9.-]*" }
 - { setname: centerim,                 name: [center-im,centerim5] }
 - { setname: centerim,                 name: centerim-devel, weak_devel: true }
 - { setname: ceti-2-theme,             name: ceti-2-themes }
@@ -123,7 +123,7 @@
 - { setname: coin-or-dylp,             name: coindylp }
 - { setname: coin-or-flopc++,          name: coinflopcpp }
 - { setname: coin-or-lemon,            name: coinlemon }
-- { setname: collectd,                 name: [collectd-amqp,collectd-curl,collectd-data,collectd-dbi,collectd-dns,collectd-lua,collectd-memcached,collectd-mysql,collectd-network,collectd-notify-email,collectd-postgresql95,collectd-riemann,collectd-rrdtool,collectd-snmp,collectd-write-prometheus,collectd-write_prometheus,libcollectdclient,"perl:collectd","python:collectd"], addflavor: true }
+- { setname: collectd,                 name: [collectd-amqp,collectd-curl,collectd-data,collectd-dbi,collectd-dns,collectd-lua,collectd-memcached,collectd-mysql,collectd-network,collectd-notify-email,collectd-postgresql95,collectd-riemann,collectd-rrdtool,collectd-snmp,collectd-write-prometheus,libcollectdclient,"perl:collectd","python:collectd"], addflavor: true }
 - { setname: collectd,                 name: collectd5 }
 - { setname: colorcode,                name: color-code }
 - { setname: colord,                   name: compat-colord10 }
@@ -131,7 +131,7 @@
 - { setname: comedilib,                name: libcomedi }
 - { setname: commoncpp2,               name: commoncpp }
 - { setname: compiz,                   name: [compiz-core,compiz-gtk] }
-- { setname: compiz,                   namepat: "compiz[0-9._-]+" }
+- { setname: compiz,                   namepat: "compiz[0-9.-]+" }
 - { setname: compizconfig-python,      name: "python:compizconfig-python" }
 - { setname: complexity,               name: gnu-complexity }
 - { setname: conda,                    name: "python:conda" }
@@ -139,7 +139,7 @@
 - { setname: conserver,                name: conserver8 }
 - { setname: consolekit,               name: consolekit2 }
 - { setname: coolreader3,              name: coolreader }
-- { setname: corsixth,                 name: [corsix-th,corsix_th] }
+- { setname: corsixth,                 name: corsix-th }
 - { setname: couchpotato,              name: couchpotatoserver }
 - { setname: cpmtools,                 name: cpmtools2 }
 - { setname: cpp-hocon,                name: libcpp-hocon }
@@ -163,7 +163,7 @@
 - { setname: crystal-icr,              name: icr }
 - { setname: csfml,                    name: libcsfml }
 - { setname: csharp-mode.el,           name: csharp-mode }
-- { setname: cstore_fdw,               namepat: "(postgresql[0-9._-]*)-cstore_fdw", addflavor: $1 }
+- { setname: cstore-fdw,               namepat: "(postgresql[0-9.-]*)-cstore-fdw", addflavor: $1 }
 - { setname: ctags,                    name: [ectags,exctags,exuberant-ctags] } # exuberant and universal are split later
 - { setname: ctags,                    name: universal-ctags } # exuberant and universal are split later
 - { setname: ctpp2,                    name: ctpp }
@@ -192,7 +192,7 @@
 - { setname: cyphesis,                 name: cyphesis-cpp, family: debuntu }
 - { setname: cyrus-imapd,              name: cyrus-imapd-ldap, addflavor: true }
 - { setname: cyrus-imapd,              name: imapd }
-- { setname: cyrus-imapd,              namepat: "cyrus[0-9]*[_-]imapd[0-9.-]*" }
+- { setname: cyrus-imapd,              namepat: "cyrus[0-9]*-imapd[0-9.-]*" }
 - { setname: cyrus-sasl,               name: [cyrus-sasl-lib,cyrus-sasl2] }
 - { setname: cyrus-sasl,               name: [cyrus-sasl-gssapi,cyrus-sasl-ldap,cyrus-sasl-ldapdb,cyrus-sasl-saslauthd,cyrus-sasl-sql,cyrus-sasl-srp,cyrus-saslauthd], addflavor: true }
 - { setname: cython,                   name: cython2 }

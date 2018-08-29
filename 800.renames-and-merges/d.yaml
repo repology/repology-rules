@@ -8,7 +8,7 @@
 - { setname: dash.el,                  name: dash-el }
 - { setname: db,                       name: berkeley-db }
 - { setname: db,                       namepat: "db[0-9.]+" }
-- { setname: db,                       namepat: "libdb[0-9._-]*" }
+- { setname: db,                       namepat: "libdb[0-9.-]*" }
 - { setname: dbench4,                  name: dbench4 }
 - { setname: dbmail,                   name: dbmail22 }
 - { setname: dboxfe,                   name: dboxfe2 }
@@ -21,7 +21,7 @@
 - { setname: dconf-editor,             name: dconf-editor-3.20 }
 - { setname: ddclient,                 name: ddclient-ipv6 }
 - { setname: ddgr,                     name: "python:ddgr", addflavor: python }
-- { setname: ddrescue,                 name: [gddrescue,gnu_ddrescue] }
+- { setname: ddrescue,                 name: [gddrescue,gnu-ddrescue] }
 - { setname: deadbeef,                 name: deadbeef-with-plugins }
 - { setname: deal.ii,                  name: [dealii,dealii-openmpi,deal-ii] }
 - { setname: defcon,                   name: linux-defcon, family: freebsd }
@@ -45,7 +45,7 @@
 - { setname: discord,                  name: discord-bin }
 - { setname: divide-and-succeed,       name: divideandsucceed }
 - { setname: djview,                   name: [djview,djview-qt4,djview-qt5,djview4,djvulibre-djview4], addflavor: true } # should be merged with djvulibre or not?
-- { setname: djvulibre,                name: [djvulibre-lib,djvulibre_qt4,djvulibre-tools,djvu] }
+- { setname: djvulibre,                name: [djvulibre-lib,djvulibre-qt4,djvulibre-tools,djvu] }
 - { setname: dkms,                     name: dkms-sorted, addflavor: sorted }
 - { setname: dlib,                     name: [dlib-cpp,libdlib] }
 - { setname: dlib,                     name: ["python:dlib", "python:dlib-cuda"], addflavor: true }
@@ -55,7 +55,7 @@
 - { setname: docbook-dsssl,            name: [docbook-dsssl-doc,docbook-style-dsssl-doc] }
 - { setname: docbook-dsssl,            name: [docbook-dsssl-stylesheets,docbook-style-dsssl] }
 - { setname: docbook-sgml,             name: docbook-sgml-dtd }
-- { setname: docbook-sgml,             namepat: "docbook-sgml[0-9._-]+" }
+- { setname: docbook-sgml,             namepat: "docbook-sgml[0-9.-]+" }
 - { setname: docbook-xsl,              name: [docbook-xsl-docs], addflavor: docs }
 - { setname: docbook-xsl,              name: [docbook-xsl-nons,docbook-xsl-stylesheets,docbook-style-xsl] } # assuming non-namespaced is "normal" docbook-xsl
 - { setname: docbook-xsl,              name: [docbook-xsl-ns,docbook-xsl-ns-stylesheets,docbook-style-xsl-ns], addflavor: ns }
@@ -71,7 +71,7 @@
 - { setname: doublecmd,                name: [doublecmd-gtk2,doublecmd-qt,doublecmd-qt4,doublecmd-qt5] }
 - { setname: dovecot,                  namepat: "dovecot[0-9]+" }
 - { setname: doxygen,                  name: [doxygen-gui,doxygen-docs,doxygen-doc,doxywizard], addflavor: true }
-- { setname: dr14tmeter,               name: dr14_tmeter }
+- { setname: dr14tmeter,               name: dr14-tmeter }
 - { setname: drbd,                     namepat: "drbd[0-9]+" }
 - { setname: drbd,                     name: [drbd-doc,drbd-kernel,drbd-kmod], addflavor: true }
 - { setname: drbd,                     name: drbd90-kmod, addflavor: drbd-kmod }

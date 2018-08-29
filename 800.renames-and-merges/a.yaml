@@ -9,7 +9,6 @@
 - { setname: abgate,                   name: [abgate-lv2,lv2-abgate] }
 - { setname: abuse,                    name: abuse-free, addflavor: free }
 - { setname: abuse,                    name: abuse-sdl }
-- { setname: abuse,                    name: abuse_sdl }
 - { setname: accounts-qt,              name: accounts-qt5, family: sisyphus }
 - { setname: ace-of-penguins,          name: ace, category: games-board, family: gentoo }
 - { setname: ace-of-penguins,          name: ace, family: [openbsd,slackbuilds] }
@@ -18,8 +17,8 @@
 - { setname: acetoneiso6,              name: acetoneiso, verpat: "6.*", family: fedora }
 - { setname: ack,                      name: "perl:ack" }
 - { setname: ack,                      name: ack-grep }
-- { setname: acpi_call,                name: [acpi_call-ck-fbcondecor,acpi_call-dkms,acpi_call-lts,acpi_call-pf], addflavor: true }
-- { setname: acpi_call,                namepat: "linux[0-9]+(?:-rt)?-acpi_call" }
+- { setname: acpi-call,                name: [acpi-call-ck-fbcondecor,acpi-call-dkms,acpi-call-lts,acpi-call-pf], addflavor: true }
+- { setname: acpi-call,                namepat: "linux[0-9]+(?:-rt)?-acpi-call" }
 - { setname: acpica,                   namepat: "acpica-(?:tools|unix|utils)" }
 - { setname: acroread,                 name: [adobereader,adobe-reader] }
 - { setname: acroread,                 namepat: "acroread[0-9.]*" }
@@ -52,15 +51,15 @@
 - { setname: alberta,                  name: alberta-wo-fem, addflavor: true }
 - { setname: alberta,                  name: libalberta2 }
 - { setname: alfred,                   name: batman-alfred }
-- { setname: alien,                    name: [alien-package-converter,alien_package_converter] }
+- { setname: alien,                    name: alien-package-converter }
 - { setname: alienarena,               name: alien-arena }
 - { setname: alienarena-data,          name: alien-arena-data }
 - { setname: alkimia,                  name: libalkimia }
 - { setname: alkimia,                  name: [alkimia-qt4,libalkimia-qt4], addflavor: qt4 }
 - { setname: alkimia,                  name: [alkimia-qt5,libalkimia-qt5], addflavor: qt5 }
 - { setname: allacrost,                name: hero-of-allacrost }
-- { setname: allegro,                  namepat: "allegro[0-9._-]*" }
-- { setname: allegro,                  namepat: "allegro[0-9._-]*-devel", weak_devel: true }
+- { setname: allegro,                  namepat: "allegro[0-9.-]*" }
+- { setname: allegro,                  namepat: "allegro[0-9.-]*-devel", weak_devel: true }
 - { setname: allureofthestars,         name: allure-of-the-stars }
 - { setname: allureofthestars,         name: "haskell:allure" }
 - { setname: alogg,                    name: [liballegroogg,allegroogg] }
@@ -76,7 +75,7 @@
 - { setname: android-tools,            name: adb, family: openbsd }
 - { setname: android-tools,            namepat: "android-tools-[^-]+", family: [freebsd,pkgsrc] }
 - { setname: android-tools,            namepat: android-platform-system-(core|extras), family: debuntu }
-- { setname: angelscript,              namepat: "angelscript-?[0-9._-]+"}
+- { setname: angelscript,              namepat: "angelscript-?[0-9.-]+"}
 - { setname: angular.js,               name: angularjs }
 - { setname: anki,                     name: [anki12,anki20,"python:anki2"] }
 - { setname: annex,                    name: annex-conquer-the-world }
@@ -93,9 +92,9 @@
 - { setname: apcupsd,                  name: [apcupsd-x11,apcupsd-cgi] }
 - { setname: appstream-glib,           name: libappstream-glib }
 - { setname: apq,                      name: apq-base } # ravenports
-- { setname: apr,                      namepat: "(?:lib)?apr[0-9._-]*" }
+- { setname: apr,                      namepat: "(?:lib)?apr[0-9.-]*" }
 - { setname: apr-util,                 name: [aprutil1,apr-util0,apr0-util] }
-- { setname: apr-util,                 namepat: "(?:lib)?apr-util[0-9._-]*" }
+- { setname: apr-util,                 namepat: "(?:lib)?apr-util[0-9.-]*" }
 - { setname: aptana-studio,            name: aptanastudio }
 - { setname: aqbanking,                namepat: "(?:lib)?aqbanking[0-9]*(-(?:gtk)[0-9]*)?", addflavor: $1 }
 - { setname: aqbanking,                namepat: "(?:lib)?aqbanking[0-9]*(-(?:gtk)[0-9]*)?(?:-svn|-devel)", addflavor: $1, weak_devel: true }
@@ -103,7 +102,7 @@
 - { setname: archipel-agents,          namepat: "archipel-agent-.*", family: debuntu }
 - { setname: archiva,                  name: apache-archiva }
 - { setname: ardour,                   namepat: "ardour[0-9]+" }
-- { setname: arduino,                  namepat: "arduino[0-9._-]+" }
+- { setname: arduino,                  namepat: "arduino[0-9.-]+" }
 - { setname: arena-tracker,            name: arenatracker }
 - { setname: argon2,                   name: libargon2 }
 - { setname: argtable,                 name: [argtable2,libargtable2] }
@@ -139,8 +138,8 @@
 - { setname: atk,                      name: atk1.0 }
 - { setname: atk,                      name: libatk }
 - { setname: atkmm,                    name: atk2mm }
-- { setname: atkmm,                    namepat: "(?:lib)?atkmm[0-9._-]*" }
-- { setname: atkmm,                    namepat: "(?:lib)?atkmm[0-9._-]*(-docs)", addflavor: docs }
+- { setname: atkmm,                    namepat: "(?:lib)?atkmm[0-9.-]*" }
+- { setname: atkmm,                    namepat: "(?:lib)?atkmm[0-9.-]*(-docs)", addflavor: docs }
 - { setname: atlas,                    name: [atlas-with-lapack,atlas-lapack] }
 - { setname: atlas,                    name: libatlas3 }
 - { setname: atlas-c++,                name: [atlas,atlas-devel], category: devel, family: [freebsd,openbsd] } # don't mix with math/atlas
@@ -155,14 +154,14 @@
 - { setname: audacious-plugins,        name: audacious2-plugins }
 - { setname: audacity,                 name: audacity-freeworld }
 - { setname: audiofile,                name: libaudiofile }
-- { setname: autoconf,                 namepat: "autoconf[0-9_.-]+" }
+- { setname: autoconf,                 namepat: "autoconf[0-9.-]+" }
 - { setname: autoconf,                 name: autoconf-legacy }
 - { setname: autoconf,                 name: autoconf-nonfree, addflavor: true }
 - { setname: autoconvert,              name: zh-autoconvert }
 - { setname: autodia,                  name: "perl:autodia" }
 - { setname: autoflake,                name: "python:autoflake" }
 - { setname: autofs,                   name: autofs5 }
-- { setname: automake,                 namepat: "automake[_-]?[0-9.]+" } # do we need splits for this?
+- { setname: automake,                 namepat: "automake-?[0-9.]+" } # do we need splits for this?
 - { setname: automoc,                  namepat: "automoc[0-9]+" }
 - { setname: autopep8,                 name: "python:autopep8" }
 - { setname: autotools,                name: autotools-dev, ignore: true }
@@ -178,7 +177,7 @@
 - { setname: avrdude,                  name: arduino-avrdude, addflavor: adruino }
 - { setname: avro-c++,                 name: avro-cpp }
 - { setname: awesome,                  name: awesome-luajit, addflavor: jit }
-- { setname: awesome,                  namepat: "awesome[0-9._-]+" }
+- { setname: awesome,                  namepat: "awesome[0-9.-]+" }
 - { setname: aws-cw-tools,             name: cloud-watch }
 - { setname: awscli,                   name: "python:awscli" }
 - { setname: awscli,                   name: aws-cli }

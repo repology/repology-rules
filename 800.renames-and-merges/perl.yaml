@@ -6,9 +6,9 @@
 - { setname: "perl:build",             name: perl-build }
 - { setname: "perl:catalyst-plugin-authentication-$1", namepat: "perl:catalyst-p-a-(.*)" } # mageia, pclinusos, rosa do this
 - { setname: "perl:catalyst-plugin-session-$1", namepat: "perl:catalyst-p-s-(.*)" } # mageia, pclinusos, rosa do this
-- { setname: "perl:cddb_get",          name: cddb_get }
+- { setname: "perl:cddb-get",          name: cddb-get }
 - { setname: "perl:gearman-server",    name: gearman-server }
 - { setname: "perl:goocanvas2",        name: "perl:goo-canvas2" }
 - { setname: "perl:moo",               name: "perl:moo-2" }
-- { setname: "perl:search-xapian",     namepat: "perl:search-xapian[0-9._-]+" }
+- { setname: "perl:search-xapian",     namepat: "perl:search-xapian[0-9.-]+" }
 #- { setname: "perl:libwww",            name: libwww-perl }

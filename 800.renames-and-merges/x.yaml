@@ -19,11 +19,11 @@
 - { setname: xapian-bindings,          name: "ruby:xapian", addflavor: ruby }
 - { setname: xapian-bindings,          name: [xapian-tcl-bindings,tcl-xapian], addflavor: tcl }
 - { setname: xapian-bindings,          namepat: "php[0-9]*:xapian", addflavor: php }
-- { setname: xapian-bindings,          namepat: "xapian[0-9._-]*-bindings[0-9._-]*" }
+- { setname: xapian-bindings,          namepat: "xapian[0-9.-]*-bindings[0-9.-]*" }
 - { setname: xapian-bindings,          namepat: xapian-bindings-(perl|python), addflavor: $1 }
-- { setname: xapian-core,              namepat: "xapian[0-9._-]*(-core[0-9._-]*)?" }
+- { setname: xapian-core,              namepat: "xapian[0-9.-]*(-core[0-9.-]*)?" }
 - { setname: xapian-core,              name: libxapian }
-- { setname: xapian-omega,             namepat: "xapian-omega[0-9._-]*" }
+- { setname: xapian-omega,             namepat: "xapian-omega[0-9.-]*" }
 - { setname: xar,                      name: xar-mackyle }
 - { setname: xarchiver,                name: [xarchiver-assume-name,xarchiver-gtk2], addflavor: true }
 - { setname: xarchiver,                name: xfce4-xarchiver }
@@ -89,7 +89,7 @@
 - { setname: xulrunner,                namepat: "xulrunner[0-9.-]+" }
 - { setname: xvidcore,                 name: [xvid,libxvid] }
 #- { setname: xvst,                     name: xvideoservicethief }
-- { setname: xz,                       name: [liblzma,xz-utils,xz_utils], addflavor: true }
+- { setname: xz,                       name: [liblzma,xz-utils], addflavor: true }
 
 - name:
     - xorg-dmx

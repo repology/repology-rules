@@ -5,7 +5,7 @@
 - { setname: qbs,                      name: qbs-docs, addflavor: docs }
 - { setname: qbzr,                     name: "python:qbzr" }
 - { setname: qcustomplot,              name: qcustomplot-qt5, addflavor: true }
-- { setname: qgis,                     namepat: "qgis[0-9._-]+" }
+- { setname: qgis,                     namepat: "qgis[0-9.-]+" }
 - { setname: qgis,                     name: qgis-ltr }
 - { setname: qjson,                    name: libqjson }
 - { setname: qjson,                    name: [qjson-qt4,qjson-qt5], addflavor: true }
@@ -15,15 +15,15 @@
 - { setname: qmmp,                     name: qmmp-qt5, addflavor: true }
 - { setname: qmmp-plugin-pack,         name: qmmp-plugin-pack-qt5, addflavor: true }
 - { setname: qpdfview,                 name: qpdfview-qt5, addflavor: true }
-- { setname: qr_mumps,                 name: qrmumps }
+- { setname: qr-mumps,                 name: qrmumps }
 - { setname: qrencode,                 name: libqrencode }
 - { setname: qt,                       name: [qt,qt1,qt3,qt4,qt5] }
 - { setname: qt-recordmydesktop,       name: recordmydesktop-qt }
-- { setname: qtcreator,                name: [qt_creator,qt-creator,qt-creator-qt4,qt-creator2,qt4-creator,qtcreator-src,libqt5-creator,qt5-qtcreator,qt5-qtcreator-docs,qtcreator-debug], addflavor: true }
+- { setname: qtcreator,                name: [qt-creator,qt-creator-qt4,qt-creator2,qt4-creator,qtcreator-src,libqt5-creator,qt5-qtcreator,qt5-qtcreator-docs,qtcreator-debug], addflavor: true }
 - { setname: qtcreator,                name: qtcreator-prerelease, weak_devel: true }
 - { setname: qtcreator,                namepat: "qt-?creator[0-9]*", addflavor: true }
 - { setname: qtdmm,                    name: qtdmm-qt5, addflavor: true }
-- { setname: qtermwidget,              namepat: "qtermwidget[0-9._-]+" }
+- { setname: qtermwidget,              namepat: "qtermwidget[0-9.-]+" }
 - { setname: qtermwidget,              name: [qtermwidget-q4,qtermwidget-qt4], addflavor: qt4 }
 - { setname: qtermwidget,              name: qtermwidget-qt5, addflavor: qt5 }
 - { setname: qtkeychain,               name: [qt4-qtkeychain,qt5-qtkeychain,qt5keychain,qtkeychain-qt4,qtkeychain-qt5], addflavor: true }

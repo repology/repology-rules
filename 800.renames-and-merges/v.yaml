@@ -4,20 +4,20 @@
 - { setname: v8,                       name: [v8-static-gyp,v8-static-gyp-5.4], addflavor: static-gyp }
 - { setname: v8,                       name: v8-devel, weak_devel: true }
 - { setname: v8,                       name: v8-nodejs, addflavor: nodejs }
-- { setname: v8,                       namepat: "(?:lib)?v8(?:-[0-9._-]+)?" }
+- { setname: v8,                       namepat: "(?:lib)?v8(?:-[0-9.-]+)?" }
 - { setname: vala,                     namepat: "vala[0-9.-]+" }
 - { setname: vala,                     name: vala-compat }
 - { setname: vala,                     name: vala-common, addflavor: common }
 - { setname: vala,                     name: valac }
 - { setname: valyriatear,              name: valyria-tear }
-- { setname: varnish,                  namepat: "varnish[0-9._-]+" }
+- { setname: varnish,                  namepat: "varnish[0-9.-]+" }
 - { setname: vdr,                      name: vdr-devel, weak_devel: true }
 - { setname: vdrift,                   name: vdrift-data, addflavor: data }
 - { setname: vegastrike,               name: vega-strike }
 - { setname: vert.x,                   name: vertx }
 - { setname: veusz,                    name: "python:veusz" }
-- { setname: vid.stab,                 name: [libvidstab,vid-stab,vidstab,vid_stab] }
-- { setname: video4linux,              name: [libv4l,v4l-utils,v4l_compat] }
+- { setname: vid.stab,                 name: [libvidstab,vid-stab,vidstab] }
+- { setname: video4linux,              name: [libv4l,v4l-utils,v4l-compat] }
 - { setname: viewnior,                 name: viewnior-hide-scrollbars, addflavor: true }
 - { setname: vigra,                    name: [libvigra,libvigraimpex] }
 - { setname: vigra,                    name: vigra-doc, addflavor: doc }
@@ -42,8 +42,8 @@
 - { setname: vsftpd,                   name: vsftpd-ssl, addflavor: ssl }
 - { setname: vsqlite++,                name: [libvsqlite++,libvsqlitepp,vsqlite] }
 - { setname: vte,                      name: [vte-common,vte-gtk2-compat,vte-gtk2-xfce,vte-gtk3,vte-reference,vte-gtk2,vte-legacy,vte-notification-common,vte3-notification], addflavor: true }
-- { setname: vte,                      namepat: "(?:lib)?vte[0-9._-]*" }
-- { setname: vtk,                      namepat: "vtk[0-9._-]*(?:-?(base|data|doc|doc-html|docs|qt4|qvtk)[0-9._-]*)?", addflavor: $1 }
+- { setname: vte,                      namepat: "(?:lib)?vte[0-9.-]*" }
+- { setname: vtk,                      namepat: "vtk[0-9.-]*(?:-?(base|data|doc|doc-html|docs|qt4|qvtk)[0-9.-]*)?", addflavor: $1 }
 - { setname: vue-cli,                  name: "node:vue-cli" }
 - { setname: vuze,                     name: azureus } # old name
 

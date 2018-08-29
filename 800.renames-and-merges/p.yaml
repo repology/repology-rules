@@ -16,9 +16,9 @@
 - { setname: pam-ccreds,               name: libpam-ccreds }
 - { setname: pam-ldap,                 name: libpam-ldap }
 - { setname: pango,                    name: pango-reference, addflavor: reference }
-- { setname: pango,                    namepat: "(?:lib)?pango[0-9._-]*" }
-- { setname: pangomm,                  namepat: "(?:lib)?pangomm[0-9._-]*" }
-- { setname: pangomm,                  namepat: "(?:lib)?pangomm[0-9._-]*(-docs)", addflavor: docs }
+- { setname: pango,                    namepat: "(?:lib)?pango[0-9.-]*" }
+- { setname: pangomm,                  namepat: "(?:lib)?pangomm[0-9.-]*" }
+- { setname: pangomm,                  namepat: "(?:lib)?pangomm[0-9.-]*(-docs)", addflavor: docs }
 - { setname: pangox-compat,            name: [libpangox-compat,pangox] }
 - { setname: panoply,                  name: panoply-nodesktop, addflavor: nodesktop }
 - { setname: pantheon-calculator,      name: elementary-calculator }
@@ -32,7 +32,7 @@
 - { setname: pcmanx,                   name: [pcmanx-gtk2, pcmanx-gtk3], addflavor: true }
 - { setname: pcre++,                   name: [libpcre++,pcrexx] }
 - { setname: pcre,                     name: [pcre-static,pcre-cpp] }
-- { setname: pcre,                     namepat: "(?:lib)?pcre[0-9._-]*" }
+- { setname: pcre,                     namepat: "(?:lib)?pcre[0-9.-]*" }
 - { setname: pdfstudio,                namepat: "pdfstudio[0-9]+" }
 - { setname: pdns,                     name: [pdnsrec,powerdns-recursor] }
 - { setname: pdns,                     name: [powerdns-geoip,powerdns-ldap,powerdns-mysql,powerdns-odbc,powerdns-pgsql] }
@@ -46,24 +46,24 @@
 - { setname: percona-xtrabackup,       name: xtrabackup }
 - { setname: perf,                     name: [perf-linux,perf-lts] }
 - { setname: perl,                     name: microperl, addflavor: true }
-- { setname: pg_dirtyread,             namepat: "(postgresql[0-9._-]*)-pg_dirtyread", addflavor: $1 }
-- { setname: pg_repack,                namepat: "(postgresql[0-9._-]*)-pg_repack", addflavor: $1 }
+- { setname: pg-dirtyread,             namepat: "(postgresql[0-9.-]*)-pg-dirtyread", addflavor: $1 }
+- { setname: pg-repack,                namepat: "(postgresql[0-9.-]*)-pg-repack", addflavor: $1 }
 - { setname: pgadmin3,                 name: pgadmin3-lts }
 - { setname: pgadmin3,                 name: pgadmin3-testing, ignore: true }
 - { setname: pgcli,                    name: "python:pgcli" }
 - { setname: pglogical,                name: [postgresql-pglogical,pglogical2] }
 - { setname: pgplot,                   name: pgplot5 }
 - { setname: pgpool,                   name: [pgpool2,postgresql-pgpool-ii] }
-- { setname: pgpool,                   namepat: "pgpool-ii[0-9._-]*" }
-- { setname: pgpool,                   namepat: "postgresql[0-9._-]*-pgpool[0-9._-]*" }
-- { setname: pgroonga,                 namepat: "(postgresql[0-9._-]*)-pgroonga", addflavor: $1 }
+- { setname: pgpool,                   namepat: "pgpool-ii[0-9.-]*" }
+- { setname: pgpool,                   namepat: "postgresql[0-9.-]*-pgpool[0-9.-]*" }
+- { setname: pgroonga,                 namepat: "(postgresql[0-9.-]*)-pgroonga", addflavor: $1 }
 - { setname: pg-top,                   name: pgtop }
 - { setname: phabricator,              name: "php:phabricator" }
 - { setname: phash,                    name: libphash }
 - { setname: phat,                     name: libphat }
 - { setname: phoenix-emu,              name: phoenix-emu-project }
 - { setname: photivo,                  name: photivo-qt4, addflavor: true }
-- { setname: php,                      namepat: "php[0-9._-]*" }
+- { setname: php,                      namepat: "php[0-9.-]*" }
 - { setname: physfs,                   name: libphysfs }
 - { setname: pilot-link,               name: "perl:pilot-link" }
 - { setname: pilot-link,               name: pilot-link-libs, addflavor: libs }
@@ -75,10 +75,10 @@
 - { setname: pkg,                      name: pkg-bsd, family: ravenports }
 - { setname: pkg,                      name: pkg-devel, weak_devel: true, family: freebsd }
 - { setname: pkgconf,                  name: pkgconfig, family: ravenports } # XXX
-- { setname: plpgsql_check,            namepat: "(postgresql[0-9._-]*)-plpgsql_check", addflavor: $1 }
-- { setname: plr,                      namepat: "(postgresql[0-9._-]*)-plr", addflavor: $1 }
+- { setname: plpgsql-check,            namepat: "(postgresql[0-9.-]*)-plpgsql-check", addflavor: $1 }
+- { setname: plr,                      namepat: "(postgresql[0-9.-]*)-plr", addflavor: $1 }
 - { setname: plumed,                   name: plumed-namd, addflavor: namd }
-- { setname: plv8,                     namepat: "(postgresql[0-9._-]*)-plv8(js)?", addflavor: $1 }
+- { setname: plv8,                     namepat: "(postgresql[0-9.-]*)-plv8(js)?", addflavor: $1 }
 - { setname: png++,                    name: pngpp }
 - { setname: pnp4nagios,               name: pnp4nagios-cgi }
 - { setname: polyclipping,             name: clipperlib }
@@ -87,7 +87,7 @@
 - { setname: polkit,                   name: polkit105 }
 - { setname: ponscripter,              name: onscripter-en }
 - { setname: poppler,                  name: compat-poppler022 }
-- { setname: poppler,                  namepat: "poppler[0-9._-]+" }
+- { setname: poppler,                  namepat: "poppler[0-9.-]+" }
 - { setname: popt,                     name: libpopt }
 - { setname: portaudio,                name: [portaudio19,portaudio2] }
 - { setname: portaudio,                name: [portaudio-devel,portaudio-svn], weak_devel: true }
@@ -96,8 +96,8 @@
 - { setname: postfix,                  name: [postfix-current,postfix-current-sasl,postfix211,postfix211-sasl] }
 - { setname: postfwd,                  name: postfix-postfwd, family: freebsd }
 - { setname: postgis,                  name: [postgis-src,postgis-sfcgal,liblwgeom] }
-- { setname: postgis,                  namepat: "postgis[0-9._-]+" }
-- { setname: postgis,                  namepat: "postgresql[0-9._-]*-postgis" }
+- { setname: postgis,                  namepat: "postgis[0-9.-]+" }
+- { setname: postgis,                  namepat: "postgresql[0-9.-]*-postgis" }
 - { setname: postgresql,               namepat: "postgresql[0-9.-]*" }
 - { setname: postgresql,               namepat: "postgresql[0-9.-]*-beta.*", devel: true }
 - { setname: postgresql,               namepat: "postgresql[0-9.-]*-client", addflavor: client }
@@ -108,7 +108,7 @@
 - { setname: postgresql,               namepat: "postgresql[0-9.-]*-plperl", addflavor: plperl }
 - { setname: postgresql,               namepat: "postgresql[0-9.-]*-plpython", addflavor: plpython }
 - { setname: postgresql,               namepat: "postgresql[0-9.-]*-pltcl", addflavor: pltcl }
-- { setname: postgresql,               namepat: "postgresql[0-9.-]*[_-]server", addflavor: server }
+- { setname: postgresql,               namepat: "postgresql[0-9.-]*-server", addflavor: server }
 - { setname: postgresql-1c,            namepat: "postgresql[0-9.-]+-1c" }
 - { setname: postgresql-multicorn,     name: multicorn }
 - { setname: poudriere,                name: poudriere-devel, weak_devel: true }
@@ -127,11 +127,11 @@
 - { setname: proj,                     name: [proj4,proj.4,proj47] }
 - { setname: proj,                     name: libproj }
 - { setname: prometheus,               name: prometheus1 }
-- { setname: prometheus-postgres-exporter, name: [postgres_exporter,prometheus-postgresql-exporter] }
+- { setname: prometheus-postgres-exporter, name: [postgres-exporter,prometheus-postgresql-exporter] }
 - { setname: prometheus-pushgateway,   name: [pushgateway,prometheus-push-gateway] }
 - { setname: proot,                    name: proot-static, addflavor: true }
-- { setname: proot,                    namepat: "proot[0-9._-]+" }
-- { setname: protobuf,                 namepat: "(lib)?protobuf(?:cpp|compat|[0-9._-])*", addflavor: $1 }
+- { setname: proot,                    namepat: "proot[0-9.-]+" }
+- { setname: protobuf,                 namepat: "(lib)?protobuf(?:cpp|compat|[0-9.-])*", addflavor: $1 }
 - { setname: protobuf,                 name: [protobuf-java,protobuf3-java], addflavor: java }
 - { setname: protobuf-c,               name: protobuf2-c }
 - { setname: protonmail-bridge,        name: protonmail-bridge-bin, addflavor: bin }
@@ -144,7 +144,7 @@
 - { setname: psimedia,                 name: [psi+-plugins-psimediaplugin,psi-plus-plugin-psimedia] }
 - { setname: pulseaudio,               name: [libpulseaudio,libpulse,libpulse-nosystemd], addflavor: true }
 - { setname: pulseaudio,               name: [pulseaudio-bluetooth,pulseaudio-gconf,pulseaudio-jack,pulseaudio-lirc,pulseaudio-zeroconf], addflavor: true }
-- { setname: puppet,                   namepat: "puppet[0-9_.-]+" }
+- { setname: puppet,                   namepat: "puppet[0-9.-]+" }
 - { setname: putty,                    name: [putty-gtk2,putty-nogtk], addflavor: true }
 - { setname: pugixml,                  name: libpugixml }
 - { setname: pugixml,                  name: pugixml-shared, addflavor: shared }
@@ -158,7 +158,7 @@
 - { setname: pypy,                     name: ["python:pypy","python:pypy-bin",pypy2] }
 - { setname: pypy3,                    name: ["python:pypy3","python:pypy3-bin"] }
 - { setname: python,                   name: python-exp } # scoop
-- { setname: python,                   namepat: "python[._-]?[23][0-9._-]*" }
+- { setname: python,                   namepat: "python[.-]?[23][0-9.-]*" }
 - { setname: pyzy,                     name: "python:pyzy" }
 
 - setname: pinentry

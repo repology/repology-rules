@@ -2,23 +2,23 @@
 
 - { setname: z,                        name: z-dir-jump }
 - { setname: zabbix,                   namepat: "zabbix[0-9.-]+" }
-- { setname: zabbix,                   namepat: "zabbix[0-9]*[_-](agent|agentd|frontend|frontend-php|proxy|server|common|proxy-sqlite|server-mysql|web)[0-9.-]*", addflavor: $1 }
+- { setname: zabbix,                   namepat: "zabbix[0-9]*-(agent|agentd|frontend|frontend-php|proxy|server|common|proxy-sqlite|server-mysql|web)[0-9.-]*", addflavor: $1 }
 - { setname: zatacka-x,                name: zatackax }
 - { setname: zbar,                     name: [zbar-headless,zbar-gtk,zbar-qt,"python:zbar"], addflavor: true }
 - { setname: zcad,                     name: [zcad-gtk2,zcad-qt4], addflavor: true }
 - { setname: zef,                      name: zef-without-alacryd, addflavor: without-alacryd }
-- { setname: zendframework,            namepat: "zendframework[0-9._-]+" }
+- { setname: zendframework,            namepat: "zendframework[0-9.-]+" }
 - { setname: zenity,                   name: zenity-gtk2 }
 - { setname: zenxml,                   name: libzenxml }
 - { setname: zero-ballistics,          name: zeroballistics }
 - { setname: zero-k,                   name: [spring-zero-k,springrts-zero-k] }
-- { setname: zeromq,                   namepat: "(zeromq|zmq|libzmq)[0-9._-]*" }
+- { setname: zeromq,                   namepat: "(zeromq|zmq|libzmq)[0-9.-]*" }
 - { setname: zeronet,                  name: zeronet-git, ignore: true }
 - { setname: zerotier-one,             name: [zerotier,zerotier-one-with-controller,zerotierone] }
 - { setname: zerotier-one,             name: [zerotier-one-armv7h,zerotier-one-debug], addflavor: true }
 - { setname: zfs,                      namepat: "(linux[0-9]+)-zfs", addflavor: $1 }
 - { setname: zfs,                      name: [zfs-kmod,zfs-on-linux,zfs-userzfs-utils,zfs-utils-common], addflavor: true }
-- { setname: zhparser,                 namepat: "(postgresql[0-9._-]*)-zhparser", addflavor: $1 }
+- { setname: zhparser,                 namepat: "(postgresql[0-9.-]*)-zhparser", addflavor: $1 }
 - { setname: zig,                      name: ziglang }
 - { setname: zim,                      name: "python:zim" }
 - { setname: zim,                      name: zim-wiki }

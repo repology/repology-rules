@@ -4,21 +4,21 @@
 - { setname: saga,                     name: [saga-gis,saga-gis-ltr] }
 - { setname: sagemath,                 name: sage-math }
 - { setname: sagemath,                 name: [sagemath-doc,sagemath-jupyter,sagemath-src], addflavor: true }
-- { setname: sagemath-combinatorial-designs, name: [combinatorial_designs,sage-data-combinatorial_designs,sagemath-database-combinatorial-designs] }
-- { setname: sagemath-conway-polynomials, name: [conway_polynomials,sage-data-conway_polynomials,sagemath-database-conway-polynomials] }
-- { setname: sagemath-elliptic-curves, name: [elliptic_curves,sage-data-elliptic_curves,sagemath-database-elliptic-curves] }
+- { setname: sagemath-combinatorial-designs, name: [combinatorial-designs,sage-data-combinatorial-designs,sagemath-database-combinatorial-designs] }
+- { setname: sagemath-conway-polynomials, name: [conway-polynomials,sage-data-conway-polynomials,sagemath-database-conway-polynomials] }
+- { setname: sagemath-elliptic-curves, name: [elliptic-curves,sage-data-elliptic-curves,sagemath-database-elliptic-curves] }
 - { setname: sagemath-graphs,          name: [graphs,sagemath-database-graphs,sage-data-graphs] }
-- { setname: sagemath-polytopes-db,    name: [polytopes_db, sage-data-polytopes_db, sagemath-database-polytopes] }
+- { setname: sagemath-polytopes-db,    name: [polytopes-db, sage-data-polytopes-db, sagemath-database-polytopes] }
 - { setname: salut-a-toi,              name: salutatoi }
-- { setname: salut-a-toi,              name: [sat-jp,sat-media,sat_media,sat-primitivus,sat-xmpp], addflavor: true }
+- { setname: salut-a-toi,              name: [sat-jp,sat-media,sat-primitivus,sat-xmpp], addflavor: true }
 - { setname: samba,                    name: samba-docs, addflavor: docs }
 - { setname: samba,                    namepat: "samba[0-9.-]+" }
 - { setname: samba,                    name: [libsmbclient,libwbclient,smbclient], addflavor: true }
 - { setname: sauerbraten,              name: sauerbraten-data, addflavor: data }
-- { setname: scala,                    namepat: "scala-docs[0-9._-]*", addflavor: docs }
-- { setname: scala,                    namepat: "scala-sources[0-9._-]*", addflavor: sources }
-- { setname: scala,                    namepat: "scala[0-9._-]+" }
-- { setname: scala,                    namepat: "scala[0-9._-]+-docs", addflavor: docs }
+- { setname: scala,                    namepat: "scala-docs[0-9.-]*", addflavor: docs }
+- { setname: scala,                    namepat: "scala-sources[0-9.-]*", addflavor: sources }
+- { setname: scala,                    namepat: "scala[0-9.-]+" }
+- { setname: scala,                    namepat: "scala[0-9.-]+-docs", addflavor: docs }
 - { setname: scalapack,                name: libscalapack }
 - { setname: scamp,                    name: astromatic-scamp }
 - { setname: scapy,                    name: "python:scapy" }
@@ -31,16 +31,16 @@
 - { setname: sdl,                      name: [sdl12,libsdl1.2] }
 - { setname: sdl2,                     name: [libsdl2,sdl20] }
 - { setname: sdl2,                     name: [sdl2-nox,sdl2-rbp], addflavor: true }
-- { setname: sdl2-image,               name: sdl_image, verpat: "2.*" }
-- { setname: sdl2_$1,                  namepat: "(?:lib)?sdl2[0-9._-]*(image|mixer|net|ttf|gfx)" }
-- { setname: sdl2_$1,                  namepat: "(?:lib)?sdl[_-]*(image|mixer|net|ttf|gfx)2[0-9._-]*" }
-- { setname: sdl_$1,                   namepat: "(?:lib)?sdl(?:1[0-9.]*)?[_-]*(image|mixer|net|ttf|gfx)(?:1[0-9._-]*)?" }
-- { setname: sdl_pango,                name: [libsdl_pango,sdlpango] }
-- { setname: sdl_sge,                  name: [libsdl_sge,libsdl-sge] }
-- { setname: sdl_sound,                name: sdl_sound-patched, addflavor: patched }
-- { setname: sdl_sound,                namepat: "(?:lib)?sdl[0-9._-]*sound[0-9._-]*" }
-- { setname: sdlconsole,               name: [libsdl-console,sdl_console] }
-- { setname: sdllopan,                 name: sdl_lopan }
+- { setname: sdl2-image,               name: sdl-image, verpat: "2.*" }
+- { setname: sdl2-$1,                  namepat: "(?:lib)?sdl2[0-9.-]*(image|mixer|net|ttf|gfx)" }
+- { setname: sdl2-$1,                  namepat: "(?:lib)?sdl-?(image|mixer|net|ttf|gfx)2[0-9.-]*" }
+- { setname: sdl-$1,                   namepat: "(?:lib)?sdl(?:1[0-9.]*)?-?(image|mixer|net|ttf|gfx)(?:1[0-9.-]*)?" }
+- { setname: sdl-pango,                name: [libsdl-pango,sdlpango] }
+- { setname: sdl-sge,                  name: [libsdl-sge,libsdl-sge] }
+- { setname: sdl-sound,                name: sdl-sound-patched, addflavor: patched }
+- { setname: sdl-sound,                namepat: "(?:lib)?sdl[0-9.-]*sound[0-9.-]*" }
+- { setname: sdlconsole,               name: [libsdl-console,sdl-console] }
+- { setname: sdllopan,                 name: sdl-lopan }
 - { setname: sdlmame,                  name: sdlmame-wout-toolkits, addflavor: wout-toolkits }
 - { setname: sdocbook-xml,             name: docbook-xml-simple } # ravenports
 - { setname: seamonkey,                name: [seamonkey-bin,seamonkey-gtk2,seamonkey-l10n,seamonkey-i18n], addflavor: true }
@@ -52,10 +52,10 @@
 - { setname: seexpr,                   name: seexpr-doc, addflavor: doc }
 - { setname: sendmail,                 namepat: "sendmail\\+.*", family: freebsd }
 - { setname: sequencer64,              name: sequencer64-next, ignore: true }
-- { setname: serf,                     namepat: "(?:lib)?serf[0-9._-]*" }
+- { setname: serf,                     namepat: "(?:lib)?serf[0-9.-]*" }
 - { setname: sextractor,               name: astromatic-sextractor }
 - { setname: sfml,                     name: compat-sfml16 }
-- { setname: sfml,                     namepat: "(?:lib)?sfml[0-9._-]*" }
+- { setname: sfml,                     namepat: "(?:lib)?sfml[0-9.-]*" }
 - { setname: sgt-puzzles,              name: simon-tathams-portable-puzzle-collection }
 - { setname: sgt-puzzles,              name: puzzles } # not completely safe, but other puzzles were not encountered yet
 - { setname: sha1collisiondetection,   name: sha1dc }
@@ -100,7 +100,7 @@
 - { setname: sogo,                     name: [gnustep-sogo,gnustep-sogo3,sogo4] }
 - { setname: sogo,                     name: [sogo2-activesync,sogo3-activesync,sogo4-activesync], addflavor: activesync }
 - { setname: sope,                     name: sope4 }
-- { setname: sopwith,                  name: [sdlsopwith,sdl-sopwith,sdl_sopwith] }
+- { setname: sopwith,                  name: [sdlsopwith,sdl-sopwith] }
 - { setname: sorcer,                   name: [lv2-sorcer,openav-sorcer,openav-sorcer-lv2,sorcer-lv2] }
 - { setname: sord,                     name: libsord }
 - { setname: soundtouch,               name: [libsoundtouch,sound-touch] }
@@ -118,9 +118,9 @@
 - { setname: speed-dreams,             name: speeddreams }
 - { setname: speed-dreams,             namepat: "speed-?dreams-.*", addflavor: true }
 - { setname: speexdsp,                 name: libspeexdsp }
-- { setname: spice-gtk,                namepat: "(?:lib)?spice-gtk[0-9_.-]*" }
-- { setname: spidermonkey,             namepat: "spidermonkey[0-9_.-]+" }
-- { setname: spidermonkey,             namepat: "mozjs[0-9_.-]*" }
+- { setname: spice-gtk,                namepat: "(?:lib)?spice-gtk[0-9.-]*" }
+- { setname: spidermonkey,             namepat: "spidermonkey[0-9.-]+" }
+- { setname: spidermonkey,             namepat: "mozjs[0-9.-]*" }
 - { setname: spidermonkey,             namepat: "js[0-9]{2}" }
 - { setname: spidermonkey,             name: [libspidermonkey,spidermonkey-ff17] }
 - { setname: spl,                      namepat: "(linux[0-9]+)-spl", addflavor: $1 }
@@ -129,13 +129,13 @@
 - { setname: spring,                   name: springrts }
 - { setname: sql-operations-studio,    name: sqlopsstudio }
 - { setname: sqlite,                   name: [sqlite-tcl,sqlite3-tcl,tcl-sqlite,tcl-sqlite3,tclsqlite2], addflavor: tcl }
-- { setname: sqlite,                   namepat: "(?:lib)?sqlite[0-9._-]*" }
+- { setname: sqlite,                   namepat: "(?:lib)?sqlite[0-9.-]*" }
 - { setname: sqlite,                   name: [sqlite-analyzer,sqlite.analyzer,sqlite3-analyzer], addflavor: analyzer }
 - { setname: sqlite,                   name: [sqlite-doc,sqlite3-doc], addflavor: doc }
 - { setname: sqlite,                   name: [sqlite-interactive,sqlite-with-fts3,sqlite-with-fts5,sqlite.shell,sqlite3-tools], addflavor: true }
 - { setname: squid,                    name: [squid-ldap,squid-ntlm], family: openbsd }
 - { setname: squid,                    name: squid-devel, weak_devel: true }
-- { setname: squid,                    namepat: "squid[0-9._-]+" }
+- { setname: squid,                    namepat: "squid[0-9.-]+" }
 - { setname: squirrelmail-$1,          namepat: "squirrelmail-(.*)-plugin", family: freebsd }
 - { setname: sratom,                   name: libsratom }
 - { setname: ssmtp,                    name: ssmtp-plain, addflavor: plain }
@@ -158,18 +158,18 @@
 - { setname: stunnel,                  name: stunnel4 }
 - { setname: stuntrally,               name: stunt-rally }
 - { setname: stxxl,                    name: libstxxl }
-- { setname: subversion,               namepat: "subversion[0-9._-]+" }
-- { setname: sugar,                    namepat: "sugar[0-9._-]+" }
-- { setname: sugar-activity,           namepat: "sugar-activity[0-9._-]+" }
-- { setname: sugar-artwork,            namepat: "sugar-artwork[0-9._-]+" }
-- { setname: sugar-base,               namepat: "sugar-base[0-9._-]+" }
-- { setname: sugar-browse-activity,    namepat: "sugar-browse-activity[0-9._-]+" }
-- { setname: sugar-chat-activity,      namepat: "sugar-chat-activity[0-9._-]+" }
-- { setname: sugar-datastore,          namepat: "sugar-datastore[0-9._-]+" }
-- { setname: sugar-presence-service,   namepat: "sugar-presence-service[0-9._-]+" }
+- { setname: subversion,               namepat: "subversion[0-9.-]+" }
+- { setname: sugar,                    namepat: "sugar[0-9.-]+" }
+- { setname: sugar-activity,           namepat: "sugar-activity[0-9.-]+" }
+- { setname: sugar-artwork,            namepat: "sugar-artwork[0-9.-]+" }
+- { setname: sugar-base,               namepat: "sugar-base[0-9.-]+" }
+- { setname: sugar-browse-activity,    namepat: "sugar-browse-activity[0-9.-]+" }
+- { setname: sugar-chat-activity,      namepat: "sugar-chat-activity[0-9.-]+" }
+- { setname: sugar-datastore,          namepat: "sugar-datastore[0-9.-]+" }
+- { setname: sugar-presence-service,   namepat: "sugar-presence-service[0-9.-]+" }
 - { setname: sugar-toolkit,            name: [sugar-toolkit-gtk2,sugar-toolkit-gtk3], addflavor: true }
-- { setname: sugar-toolkit,            namepat: "sugar-toolkit[0-9._-]+" }
-- { setname: sugar-write-activity,     namepat: "sugar-write-activity[0-9._-]+" }
+- { setname: sugar-toolkit,            namepat: "sugar-toolkit[0-9.-]+" }
+- { setname: sugar-write-activity,     namepat: "sugar-write-activity[0-9.-]+" }
 - { setname: suil,                     name: libsuil }
 - { setname: suil,                     name: [suil-qt4,suil-qt5], addflavor: true }
 - { setname: suitesparse,              name: [libsuitesparse,libsuitesparse3,suitesparse-mkl,suitesparse-metis] }
@@ -177,30 +177,30 @@
 - { setname: suitesparseconfig,        name: ufconfig } # from report: ufconfig is an old name for suitesparseconfig
 - { setname: suitesparseconfig,        name: suitesparse-common-devel, weak_devel: true }
 - { setname: sunsetscreen,             name: sunset-screen } # grr, windows-only
-- { setname: supertransball2,          name: [stransball2,super_transball] }
+- { setname: supertransball2,          name: [stransball2,super-transball] }
 - { setname: supertux,                 name: [supertux,supertux1,supertux2,supertux-old,supertux-stable] }
 - { setname: supertuxkart,             name: supertuxkart-data, addflavor: data }
 - { setname: svgo,                     name: "node:svgo" }
-- { setname: svmlight,                 name: svm_light }
+- { setname: svmlight,                 name: svm-light }
 - { setname: swarp,                    name: astromatic-swarp } # ambiguity, split later
 - { setname: sway,                     name: sway-wlroots, addflavor: wlroots }
 - { setname: sweethome3d,              name: [sweet-home-3d,sweethome3d-application] }
 - { setname: swi-prolog,               name: [swi-prolog-doc,swi-prolog-jpl,swi-prolog-lite,swi-prolog-packages], addflavor: true }
 - { setname: swi-prolog,               name: swi-prolog-devel, weak_devel: true }
 - { setname: swig,                     namepat: "swig-(.*)", family: macports, addflavor: $1 } # split by supported language
-- { setname: swig,                     namepat: "swig[0-9._-]+" }
+- { setname: swig,                     namepat: "swig[0-9.-]+" }
 - { setname: swissfileknife,           name: sfk }
 - { setname: switchboard-plug-networking, name: switchboard-plug-network }
 - { setname: syncthing,                name: [syncthing-0.14,syncthing13] }
 - { setname: syncthing-gtk,            name: "python:syncthing-gtk" }
 - { setname: syslog-ng,                name: [syslog-ng-afamqp,syslog-ng-geoip,syslog-ng-http,syslog-ng-json,syslog-ng-mongodb,syslog-ng-redis,syslog-ng-smtp,syslog-ng-sql,"python:syslog-ng",syslog-ng-nosystemd], addflavor: true }
-- { setname: syslog-ng,                namepat: "syslog-ng[0-9._-]+" }
+- { setname: syslog-ng,                namepat: "syslog-ng[0-9.-]+" }
 - { setname: systemd-manager,          name: "rust:systemd-manager" }
 - { setname: systemtap,                name: [systemtap-docs,systemtap-headers], addflavor: true }
 
 - setname: subversion
   name:
-    - "apmod:dav_svn"
+    - "apmod:dav-svn"
     - "apmod:subversion"
     - java-subversion
     - "perl:subversion"

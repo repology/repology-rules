@@ -7,9 +7,9 @@
 - { setname: libasr,                   name: [libasr-devel,libasr-snapshot], weak_devel: true }
 - { setname: libarchive,               name: libarchive-devel, weak_devel: true }
 - { setname: libarchive,               name: libarchive3 }
-- { setname: libatomic-ops,            name: [atomic_ops,libatomicops] }
+- { setname: libatomic-ops,            name: [atomic-ops,libatomicops] }
 - { setname: libcap,                   name: [libcap2,libcap1,compat-libcap1] }
-- { setname: libcdr,                   namepat: "libcdr[0-9._-]+" }
+- { setname: libcdr,                   namepat: "libcdr[0-9.-]+" }
 - { setname: libchamplain,             namepat: "libchamplain[0-9.-]+" }
 - { setname: libcmis,                  name: cmis-client, addflavor: client }
 - { setname: libcompizconfig,          name: libcompizconfig0.8 }
@@ -18,58 +18,58 @@
 - { setname: libbonobo,                name: libbonobo-reference, addflavor: true }
 - { setname: libbonoboui,              name: libbonoboui-reference, addflavor: true }
 - { setname: libdbi-drivers,           name: [libdbi-drivers-freetds,libdbi-drivers-mysql,libdbi-drivers-pgsql,libdbi-drivers-sqlite,libdbi-drivers-sqlite3], addflavor: true }
-- { setname: libdc1394,                namepat: "libdc1394[_-][0-9._-]+" }
+- { setname: libdc1394,                namepat: "libdc1394[0-9.-]+" }
 - { setname: libdca,                   name: libdca0 }
 - { setname: libdvbpsi,                namepat: "libdvbpsi[0-9.-]+" }
 - { setname: libejdb,                  name: ejdb }
 - { setname: libelf,                   name: libelf0 }
-- { setname: libetonyek,               namepat: "libetonyek[0-9._-]+" }
+- { setname: libetonyek,               namepat: "libetonyek[0-9.-]+" }
 - { setname: libev,                    name: libev4 }
 - { setname: libev,                    name: libev-static, addflavor: static }
 - { setname: libevent,                 name: [libevent2,libevent1,libevent-compat,libevent0.9] }
 - { setname: libevent,                 name: [libevent-fb,libevent-hiphop,libeventextra], addflavor: true }
 - { setname: libfastjson,              name: fastjson }
-- { setname: libfm,                    name: [libfm-directory_thumbnails,libfm-extra,libfm-gtk2,libfm-gtk3] }
+- { setname: libfm,                    name: [libfm-directory-thumbnails,libfm-extra,libfm-gtk2,libfm-gtk3] }
 - { setname: libfprint,                name: [libfprint-upstream,libfprint-vfs0090,libfprint-vfs0097], addflavor: true }
 - { setname: libfreenect,              name: freenect }
-- { setname: libftdi,                  namepat: "libftdi[0-9._-]+" }
+- { setname: libftdi,                  namepat: "libftdi[0-9.-]+" }
 - { setname: libftdi,                  name: libftdi-compat }
-- { setname: libgcrypt,                namepat: "libgcrypt[0-9_.-]+" }
+- { setname: libgcrypt,                namepat: "libgcrypt[0-9.-]+" }
 - { setname: libgcrypt,                name: [libgcrypt-compat,compat-libgcrypt] }
 - { setname: libgcrypt,                name: libgcrypt-static, addflavor: static }
 - { setname: libgda,                   name: compat-libgdata013 }
-- { setname: libgda,                   namepat: "libgda[0-9._-]*(?:-(bdb|firebird|jdbc|ldap|mdb|mysql|ui))?", addflavor: $1 }
-- { setname: libgda,                   namepat: "libgda[0-9._-]*-(?:pgsql|postgres|postgresql)", addflavor: pgsql }
+- { setname: libgda,                   namepat: "libgda[0-9.-]*(?:-(bdb|firebird|jdbc|ldap|mdb|mysql|ui))?", addflavor: $1 }
+- { setname: libgda,                   namepat: "libgda[0-9.-]*-(?:pgsql|postgres|postgresql)", addflavor: pgsql }
 - { setname: libgdamm,                 name: libgdamm-docs, addflavor: docs }
-- { setname: libgdamm,                 namepat: "libgdamm[0-9._-]+" }
-- { setname: libgdata,                 namepat: "libgdata[0-9._-]+" }
-- { setname: libgweather,              namepat: "(?:compat-)?libgweather[0-9._-]*" }
+- { setname: libgdamm,                 namepat: "libgdamm[0-9.-]+" }
+- { setname: libgdata,                 namepat: "libgdata[0-9.-]+" }
+- { setname: libgweather,              namepat: "(?:compat-)?libgweather[0-9.-]*" }
 - { setname: libgee,                   namepat: "libgee[0-9.-]+" }
 - { setname: libgeotiff,               name: [libgeotiff-dfsg,libgeotiff-epsg] }
 - { setname: libgeotiff,               name: geotiff }
-- { setname: libglade,                 namepat: "libglade[0-9._-]*" }
-- { setname: libglade,                 namepat: "libglade[0-9._-]*-reference" }
+- { setname: libglade,                 namepat: "libglade[0-9.-]*" }
+- { setname: libglade,                 namepat: "libglade[0-9.-]*-reference" }
 - { setname: libglademm,               namepat: "(?:lib)?glademm[0-9.]*" }
 - { setname: libglu,                   name: mesa-libglu }
 - { setname: libglw,                   name: [glw,mesa-glw,mesa-libglw] }
 - { setname: libgnome,                 name: libgnome2 }
 - { setname: libgnome,                 name: [libgnome-data,libgnome-reference], addflavor: true }
-- { setname: libgnomecanvas,           namepat: "(?:lib)?gnomecanvas[0-9._-]*(-reference)" }
-- { setname: libgnomecanvasmm,         namepat: "(?:lib)?gnomecanvasmm[0-9._-]*" }
-- { setname: libgnomedb,               namepat: "libgnomedb[0-9._-]+" }
+- { setname: libgnomecanvas,           namepat: "(?:lib)?gnomecanvas[0-9.-]*(-reference)?", addflavor: $1 }
+- { setname: libgnomecanvasmm,         namepat: "(?:lib)?gnomecanvasmm[0-9.-]*" }
+- { setname: libgnomedb,               namepat: "libgnomedb[0-9.-]+" }
 - { setname: libgnomekbd,              name: libgnomekbd2 }
-- { setname: libgnomemm,               namepat: "(?:lib)?gnomemm[0-9._-]*" }
-- { setname: libgnomeoffice,           namepat: "libgnomeoffice[0-9._-]*" }
+- { setname: libgnomemm,               namepat: "(?:lib)?gnomemm[0-9.-]*" }
+- { setname: libgnomeoffice,           namepat: "libgnomeoffice[0-9.-]*" }
 - { setname: libgnomeprint,            name: libgnomeprint22 }
 - { setname: libgnomeprint,            name: libgnomeprint-reference, addflavor: reference }
 - { setname: libgnomeprintui,          name: libgnomeprintui22 }
 - { setname: libgnomeui,               name: libgnomeui2 }
 - { setname: libgnomeui,               name: libgnomeui-reference, addflavor: reference }
-- { setname: libgnomeuimm,             namepat: "(?:lib)?gnomeuimm[0-9._-]*" }
+- { setname: libgnomeuimm,             namepat: "(?:lib)?gnomeuimm[0-9.-]*" }
 - { setname: libgpod,                  name: libgpod4 }
-- { setname: libgtop,                  namepat: "libgtop[0-9._-]+" }
-- { setname: libical,                  namepat: "(?:compat-)?libical[0-9._-]*" }
-- { setname: libidn2,                  namepat: "libidn2[0-9._-]+" }
+- { setname: libgtop,                  namepat: "libgtop[0-9.-]+" }
+- { setname: libical,                  namepat: "(?:compat-)?libical[0-9.-]*" }
+- { setname: libidn2,                  namepat: "libidn2[0-9.-]+" }
 - { setname: libkdcraw,                name: libkdcraw23 }
 - { setname: libksane,                 name: libksane0 }
 - { setname: libkscreen,               name: libkscreen2 }
@@ -80,26 +80,26 @@
 - { setname: libm4ri,                  name: m4ri }
 - { setname: libm4rie,                 name: m4rie }
 - { setname: libdmapsharing,           name: [libdmapsharing3,libdmapsharing4] }
-- { setname: libmediaart,              namepat: "(?:compat-)?libmediaart[0-9._-]+" }
+- { setname: libmediaart,              namepat: "(?:compat-)?libmediaart[0-9.-]+" }
 - { setname: libmikmod,                name: libmikmod2 }
-- { setname: libmm,                    namepat: "libmm[0-9._-]+" }
+- { setname: libmm,                    namepat: "libmm[0-9.-]+" }
 - { setname: libmng,                   name: libmng1 }
 - { setname: libmowgli,                name: [libmowgli-2,libmowgli2,mowgli] }
 - { setname: libmozjs,                 namepat: "libmozjs[0-9.-]+" }
 - { setname: libmp4v2,                 name: [mp4v2,libmp4v2-2,libmp4v2-3] }
 - { setname: libmpcdec,                name: libmpcdec5 }
-- { setname: libmspub,                 namepat: "libmspub[0-9._-]+" }
-- { setname: libmusicbrainz,           namepat: "(?:lib)?musicbrainz[0-9._-]*" }
-- { setname: libmwaw,                  namepat: "libmwaw[0-9._-]+" }
+- { setname: libmspub,                 namepat: "libmspub[0-9.-]+" }
+- { setname: libmusicbrainz,           namepat: "(?:lib)?musicbrainz[0-9.-]*" }
+- { setname: libmwaw,                  namepat: "libmwaw[0-9.-]+" }
 - { setname: libnet,                   namepat: "libnet[0-9.]+" }
 - { setname: libnice,                  namepat: "libnice-(gst.*)", addflavor: true }
 - { setname: libnice,                  name: "gstreamer0plugins:libnice", addflavor: gstreamer }
 - { setname: libnl,                    name: libnl-doc }
-- { setname: libnl,                    namepat: "libnl[0-9._-]+" }
+- { setname: libnl,                    namepat: "libnl[0-9.-]+" }
 - { setname: libnova,                  name: libnova14-compat }
 - { setname: libnsl,                   name: libnsl2 }
 - { setname: libodbc++,                name: libodbcplus }
-- { setname: libodfgen,                namepat: "libodfgen[0-9._-]+" }
+- { setname: libodfgen,                namepat: "libodfgen[0-9.-]+" }
 - { setname: libogg,                   name: ogg }
 - { setname: liboggz,                  name: oggz }
 - { setname: liborcus,                 name: [orcus,orcus0.12] }
@@ -119,14 +119,14 @@
 - { setname: libquicktime,             name: libquicktime111 }
 - { setname: libreadline-java,         name: java-readline }
 - { setname: libretro-fceumm,          name: fceumm-libretro }
-- { setname: libretro-genesis-plus-gx, name: [genesis-plus-gx,genesis-plus-gx-libretro,genesis_plus_gx_libretro,genesisplusgx] }
+- { setname: libretro-genesis-plus-gx, name: [genesis-plus-gx,genesis-plus-gx-libretro,genesis-plus-gx-libretro,genesisplusgx] }
 - { setname: librdkafka,               name: rdkafka }
 - { setname: librfm,                   name: librfm5 }
 - { setname: librsvg,                  name: [librsvg-stable,librsvg2] }
 - { setname: libsdl2pp,                name: sdl2pp }
 - { setname: libshout,                 name: libshout2 }
 - { setname: libsoup,                  name: [libsoup-gnome,libsoup-reference], addflavor: true }
-- { setname: libsoup,                  namepat: "libsoup[0-9._-]+" }
+- { setname: libsoup,                  namepat: "libsoup[0-9.-]+" }
 - { setname: libsigc++,                name: libsigc++-docs, addflavor: docs }
 - { setname: libsigc++,                name: libsigc++-legacy12 }
 - { setname: libsigc++,                namepat: "libsigc(\\+\\+|xx|pp)[0-9.-]*" }
@@ -135,41 +135,41 @@
 - { setname: libspatialite,            name: spatialite }
 - { setname: libstemmer,               name: [snowball,snowball-stemmer] }
 - { setname: libsysstat,               name: libsysstat-qt5 }
-- { setname: libtasn1,                 namepat: "libtasn1[_-][0-9._-]+" }
+- { setname: libtasn1,                 namepat: "libtasn1[0-9.-]+" }
 - { setname: libtecla,                 name: tecla }
 - { setname: libtermcap,               name: [compat-libtermcap,libtermcap-compat] }
 - { setname: libtheora,                name: theora }
 - { setname: libtheora,                name: libtheora-docs, addflavor: docs }
 - { setname: libtool,                  name: [libtool-base,libtool-fortran,libtool-info,libtool-lts] }
-- { setname: libtool,                  namepat: "libtool[0-9._-]+" }
+- { setname: libtool,                  namepat: "libtool[0-9.-]+" }
 - { setname: libtorrent,               name: [libtorrent-ipv6,libtorrent-extended], addflavor: true }
-- { setname: libtorrent,               namepat: "libtorrent[0-9._-]+" }
-- { setname: libtorrent-rasterbar,     name: rb_libtorrent }
-- { setname: libtorrent-rasterbar,     namepat: "libtorrent-rasterbar[0-9._-]+" }
+- { setname: libtorrent,               namepat: "libtorrent[0-9.-]+" }
+- { setname: libtorrent-rasterbar,     name: rb-libtorrent }
+- { setname: libtorrent-rasterbar,     namepat: "libtorrent-rasterbar[0-9.-]+" }
 - { setname: libtsm,                   name: [libtsm-asciinema,libtsm-patched] }
 - { setname: libtubo,                  name: [tubo,libtubo0] }
 - { setname: libunique,                namepat: "libunique[0-9]+" }
 - { setname: libunistring,             name: libunistring2 }
 - { setname: libupnp,                  name: [libupnp1.8,libupnp4,libupnp-legacy,pupnp-1.8] }
 - { setname: libupnp,                  name: upnp, family: freebsd }
-- { setname: libusb,                   namepat: "libusb[0-9._-]*" }
+- { setname: libusb,                   namepat: "libusb[0-9.-]*" }
 - { setname: libusb,                   name: [libusb-compat,libusb-legacy] }
 - { setname: libuv,                    name: libuv1 }
 - { setname: libva,                    name: [libva-full,libva-gl,libva-headless,libva-minimal], addflavor: true }
 - { setname: libvirt,                  name: libvirt-zfs, addflavor: true }
 - { setname: libvirt-sandbox,          name: virt-sandbox }
-- { setname: libvisio,                 namepat: "libvisio[0-9._-]+" }
-- { setname: libvisual,                namepat: "libvisual[0-9._-]+" }
-- { setname: libvisual-plugins,        namepat: "libvisual[0-9._-]+-plugins" }
+- { setname: libvisio,                 namepat: "libvisio[0-9.-]+" }
+- { setname: libvisual,                namepat: "libvisual[0-9.-]+" }
+- { setname: libvisual-plugins,        namepat: "libvisual[0-9.-]+-plugins" }
 - { setname: libvorbis,                name: libvorbis-doc, addflavor: doc }
-- { setname: libvpx,                   namepat: "(?:compat-)?libvpx[0-9._-]*" }
+- { setname: libvpx,                   namepat: "(?:compat-)?libvpx[0-9.-]*" }
 - { setname: libvpx,                   name: libvpx-full, addflavor: full }
 - { setname: libwbxml,                 name: libwbxml-compat }
 - { setname: libwebp,                  name: [webp,libwebp6,compat-libwebp05] }
 - { setname: libwmf,                   name: libwmf-docs, addflavor: true }
 - { setname: libwnck,                  name: [libwnck-sticky,libwnck-reference,libwnck-gtk3], addflavor: true }
 - { setname: libwnck,                  name: libwnck-legacy }
-- { setname: libwnck,                  namepat: "libwnck[0-9._-]+" }
+- { setname: libwnck,                  namepat: "libwnck[0-9.-]+" }
 - { setname: libwpd,                   namepat: "libwpd[0-9.-]+" }
 - { setname: libwpg,                   namepat: "libwpg[0-9.-]+" }
 - { setname: libwps,                   namepat: "libwps[0-9.-]+" }
@@ -182,7 +182,7 @@
 - { setname: libxkbcommon,             name: libxkbcommon-doc, addflavor: doc }
 - { setname: libxkbcommon,             name: libxkbcommon-x11, addflavor: x11 }
 - { setname: libxkbcommon,             name: xkbcommon }
-- { setname: libxml++,                 namepat: "libxml(\\+\\+|pp|xx)[0-9._-]*(-docs|-reference)?", addflavor: $1 }
+- { setname: libxml++,                 namepat: "libxml(\\+\\+|pp|xx)[0-9.-]*(-docs|-reference)?", addflavor: $1 }
 - { setname: libxml2,                  name: libxml }
 - { setname: libxml2,                  name: [libxml2-linenum,libxml2-reference,libxml2-min,libxml2-tools,xmllint], addflavor: true }
 - { setname: libxml2,                  name: ["python:libxml2","python:libxml2-python",libxml2+py,libxml2-python], addflavor: python }
@@ -195,5 +195,5 @@
 - { setname: libyaml,                  name: yaml }
 - { setname: libyubikey,               name: yubikey }
 - { setname: libykneomgr,              name: ykneomgr }
-- { setname: libzdb,                   namepat: "libzdb-(mariadb|mysql|oracle|percona|postgresql|sqlite)[0-9._-]*" }
+- { setname: libzdb,                   namepat: "libzdb-(mariadb|mysql|oracle|percona|postgresql|sqlite)[0-9.-]*" }
 - { setname: libzen,                   name: libzen0 }

@@ -18,13 +18,13 @@
 - { setname: fetch-crl,                name: fetch-crl3 }
 - { setname: fetchmail,                name: fetchmailconf, addflavor: fetchmailconf }
 - { setname: ffcall,                   name: libffcall }
-- { setname: ffmpeg,                   namepat: "(?:compat-)?ffmpeg(?:-compat)?[0-9_.-]*" }
-- { setname: ffmpeg,                   name: [ffmpeg-ex,ffmpeg-full3.4,ffmpeg-libfdk_aac,ffmpeg-mmal,ffmpeg-qsv], addflavor: true }
+- { setname: ffmpeg,                   namepat: "(?:compat-)?ffmpeg(?:-compat)?[0-9.-]*" }
+- { setname: ffmpeg,                   name: [ffmpeg-ex,ffmpeg-full3.4,ffmpeg-libfdk-aac,ffmpeg-mmal,ffmpeg-qsv], addflavor: true }
 - { setname: ffmpeg,                   name: [ffplay,ffplay4], addflavor: ffplay }
 - { setname: ffmpeg,                   name: ffserver, addflavor: true }
 - { setname: ffmpeg,                   name: libavutil-52, addflavor: libavutil }
 - { setname: fftw,                     name: [fftwf,fftw-avx,fftw-static] }
-- { setname: fftw,                     namepat: "(?:lib)?fftw[0-9._-]*(-double|-float|-long-double|-quad|-single|-long|-mpi|-mpich|-openmpi|-common|-gnu-.*)?", addflavor: $1 }
+- { setname: fftw,                     namepat: "(?:lib)?fftw[0-9.-]*(-double|-float|-long-double|-quad|-single|-long|-mpi|-mpich|-openmpi|-common|-gnu-.*)?", addflavor: $1 }
 - { setname: fife,                     name: [fifengine,"python:fife"] }
 - { setname: file-roller,              name: [file-roller-ja,file-roller-tmp,file-roller2-nn,file-roller-debug], addflavor: true }
 - { setname: file-roller,              name: legacy-file-roller }
@@ -61,14 +61,14 @@
 - { setname: flow-tools,               name: flow-tools-ng }
 - { setname: flrig,                    name: flrig-docs, addflavor: true }
 - { setname: fltk,                     name: [fltk-docs,fltk-editor,fltk-games,fltk-blocks,fltk-checkers,fltk-colbrowser,fltk-sudoku], addflavor: true }
-- { setname: fltk,                     namepat: "(?:lib)?fltk[0-9._-]*" }
+- { setname: fltk,                     namepat: "(?:lib)?fltk[0-9.-]*" }
 - { setname: fltk,                     name: fltk-devel, weak_devel: true }
 - { setname: fluidsynth,               name: fluid-synth }
 - { setname: flume,                    name: apache-flume-ng }
 - { setname: flutter,                  name: flutter-dev, devel: true }
 - { setname: fluxbox,                  name: [fluxbox-wm,fluxbox-noslit] }
 - { setname: flwm,                     name: flwm-tc }
-- { setname: fmod,                     namepat: "(?:lib)?fmod(?:ex|api)?[0-9._-]*" }
+- { setname: fmod,                     namepat: "(?:lib)?fmod(?:ex|api)?[0-9.-]*" }
 - { setname: fmt,                      name: [fmtlib,libfmt,cppformat] } # cppformat is the former name, see http://fmtlib.net
 - { setname: fofix,                    name: fofix-dfsg }
 - { setname: foldingathome,            name: foldingathome-noroot }
@@ -85,7 +85,7 @@
 - { setname: four-in-a-row,            name: gnome-games-four-in-a-row }
 - { setname: fox,                      name: fox-toolkit }
 - { setname: fox,                      name: [fox-devel,fox-toolkit-devel], weak_devel: true }
-- { setname: fox,                      namepat: "(?:lib)?fox[0-9._-]*" }
+- { setname: fox,                      namepat: "(?:lib)?fox[0-9.-]*" }
 - { setname: fox,                      name: [adie,calculator], wwwpart: fox-toolkit, addflavor: true } # bundled apps
 - { setname: foxyproxy,                name: xpi-foxyproxy, family: freebsd }
 - { setname: fpc,                      name: [fpc-source,fpc-src] } # part of fossology

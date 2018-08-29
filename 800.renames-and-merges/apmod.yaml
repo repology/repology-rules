@@ -1,24 +1,24 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { setname: "apmod:auth_cas",         name: mod_auth_cas }
-- { setname: "apmod:cluster",          name: mod_cluster }
-- { setname: "apmod:dnssd",            name: mod_dnssd }
-- { setname: "apmod:fastcgi",          name: mod_fastcgi }
+- { setname: "apmod:auth-cas",         name: mod-auth-cas }
+- { setname: "apmod:cluster",          name: mod-cluster }
+- { setname: "apmod:dnssd",            name: mod-dnssd }
+- { setname: "apmod:fastcgi",          name: mod-fastcgi }
 - { setname: "apmod:fcgid",            name: "apmod:fcgid-legacy" }
 - { setname: "apmod:geoip",            name: "apmod:geoip2" }
 - { setname: "apmod:limitipconn",      name: "apmod:limitipconn2" }
 - { setname: "apmod:perl",             name: "apmod:perl2" }
-- { setname: "apmod:perl",             name: mod_perl }
-- { setname: "apmod:php",              name: mod_php }
+- { setname: "apmod:perl",             name: mod-perl }
+- { setname: "apmod:php",              name: mod-php }
 - { setname: "apmod:php",              namepat: "apmod:php[0-9]*" }
 - { setname: "apmod:python",           name: "apmod:py27-python" }
 - { setname: "apmod:python",           name: "apmod:python2-legacy" }
-- { setname: "apmod:python",           name: mod_python }
+- { setname: "apmod:python",           name: mod-python }
 - { setname: "apmod:python",           namepat: "apmod:python[0-9]*" }
 - { setname: "apmod:rpaf",             name: "apmod:rpaf2" }
 - { setname: "apmod:ruby",             namepat: "apmod:ruby[0-9]+" }
 - { setname: "apmod:security",         name: "apmod:security2" }
-- { setname: "apmod:survey",           name: mod_survey }
+- { setname: "apmod:survey",           name: mod-survey }
 - { setname: "apmod:wsgi",             name: "apmod:wsgi-python3", addflavor: python3 }
-- { setname: "apmod:wsgi",             name: [mod_wsgi, mod_wsgi2] }
-- { setname: "apmod:wsgi",             namepat: "apmod:(?:py[0-9._-]+)mod_wsgi[0-9]*" }
+- { setname: "apmod:wsgi",             name: [mod-wsgi, mod-wsgi2] }
+- { setname: "apmod:wsgi",             namepat: "apmod:(?:py[0-9.-]+)mod-wsgi[0-9]*" }

@@ -12,7 +12,7 @@
 - { setname: rawtherapee,              name: rawtherapee-gtk2 }
 - { setname: rawtherapee,              name: rawtherapee-unstable, ignore: true }
 - { setname: rdesktop,                 name: rdesktop-legacy }
-- { setname: readline,                 namepat: "(?:compat-)?(?:lib)?readline[0-9._-]*" }
+- { setname: readline,                 namepat: "(?:compat-)?(?:lib)?readline[0-9.-]*" }
 - { setname: rear,                     name: [rear118a,relax-and-recover] }
 - { setname: redeclipse,               name: red-eclipse }
 - { setname: redeclipse,               name: redeclipse-data, addflavor: data }
@@ -36,7 +36,7 @@
 - { setname: roundup,                  name: "python:roundup" }
 - { setname: roxterm,                  name: [rox-term,roxterm-gtk2] }
 - { setname: rpcs3,                    name: rpcs3-ex, addflavor: ex }
-- { setname: rpm,                      namepat: "rpm[0-9._-]+" }
+- { setname: rpm,                      namepat: "rpm[0-9.-]+" }
 - { setname: rrdtool,                  name: [rrdtool12, rrd] }
 - { setname: rsh,                      name: rshd }
 - { setname: rss2email,                name: "python:rss2email" }
@@ -48,7 +48,7 @@
 - { setname: rtorrent,                 name: [rtorrent-cdl,rtorrent-color,rtorrent-ipv6,rtorrent-vi-color], addflavor: true }
 - { setname: rtv,                      name: rtv-py36, addflavor: py36 }
 - { setname: rubocop,                  name: "ruby:rubocop" }
-- { setname: rust,                     name: [rust_bin,rust-msvc], addflavor: true }
+- { setname: rust,                     name: [rust-bin,rust-msvc], addflavor: true }
 - { setname: rust,                     name: rust-msvc-nightly, ignore: true }
 - { setname: rust,                     name: rust-toolset-7-rust }
 - { setname: rust-dwm-status,          name: "rust:rust-dwm-status" }

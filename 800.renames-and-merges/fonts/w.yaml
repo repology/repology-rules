@@ -18,8 +18,8 @@
     - wqy-microhei-fonts
     - wqy-microhei-kr-patched
     - wqy-microhei-lite
-    - wqy_microhei
-- { setname: "fonts:wqy-microhei", name: wqy-microhei-nightly_build, ignore: true }
+    - wqy-microhei
+- { setname: "fonts:wqy-microhei", name: wqy-microhei-nightly-build, weak_devel: true }
 
 - setname: "fonts:wqy-zenhei"
   name:
@@ -32,6 +32,6 @@
     - wqy-zenhei-font-ttf
     - wqy-zenhei-fonts
     - wqy-zenhei-ttf
-    - wqy_zenhei
+    - wqy-zenhei
     - zh-wqy-zenhei-ttf
-- { setname: "fonts:wqy-zenhei", name: wqy-zenhei-nightly_build, ignore: true }
+- { setname: "fonts:wqy-zenhei", name: wqy-zenhei-nightly-build, weak_devel: true }

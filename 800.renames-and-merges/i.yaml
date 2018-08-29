@@ -6,7 +6,7 @@
 - { setname: i3wsr,                    name: "rust:i3wsr" }
 - { setname: iagno,                    name: gnome-games-iagno }
 - { setname: iannix,                   name: iannix-qt5, addflavor: true }
-- { setname: iausofa,                  name: [sofa,sofa_c,iausofa-c] }
+- { setname: iausofa,                  name: [sofa,sofa-c,iausofa-c] }
 - { setname: iausofa,                  name: sofa-shared, addflavor: shared }
 - { setname: icecast,                  name: icecast2 }
 - { setname: icecat,                   name: icecat-debug, addflavor: debug }
@@ -61,8 +61,8 @@
 - { setname: ircii,                    name: ircii-current, ignore: true }
 - { setname: irrlicht,                 name: [irrlicht-docs,irrlicht-pkgconfig], addflavor: true }
 - { setname: isl,                      name: isl-lts }
-- { setname: isl,                      namepat: "(?:lib)?isl[0-9._-]*" }
-- { setname: iso8879,                  name: iso_8879 }
+- { setname: isl,                      namepat: "(?:lib)?isl[0-9.-]*" }
+- { setname: iso8879,                  name: iso-8879 }
 - { setname: ispell-uk,                name: aspell-uk, ver: ["1.6.5","1.8.0"] } # see ftp://ftp.gnu.org/gnu/aspell/dict/uk/
 - { setname: italc,                    namepat: "italc[0-9]+" }
 - { setname: itcl,                     namepat: "itcl[0-9]+" }

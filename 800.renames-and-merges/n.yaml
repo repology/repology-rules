@@ -10,19 +10,19 @@
 - { setname: ndpi,                     name: libndpi }
 - { setname: neomutt,                  name: neomutt-backends, addflavor: backends }
 - { setname: neon,                     name: neon-threadsafe, addflavor: true }
-- { setname: neon,                     namepat: "(?:lib)?neon[0-9._-]*" }
+- { setname: neon,                     namepat: "(?:lib)?neon[0-9.-]*" }
 - { setname: neovim,                   name: neovim-unwrapped, addflavor: true }
 - { setname: netatalk,                 namepat: "netatalk[0-9.-]+" }
 - { setname: netbeans,                 namepat: "netbeans-.*", family: gentoo }
 - { setname: netcat-openbsd,           name: openbsd-netcat }
-- { setname: netcdf,                   namepat: "netcdf(?:[0-9._-]*)?(-gnu.*hpc)?", addflavor: $1 }
+- { setname: netcdf,                   namepat: "netcdf(?:[0-9.-]*)?(-gnu.*hpc)?", addflavor: $1 }
 - { setname: netcdf,                   name: netcdf-devel, weak_devel: true }
 - { setname: netcdf,                   name: [netcdf-mpi,netcdf-openmpi,netcdf-parallel-openmpi], addflavor: true }
-- { setname: netcdf-cxx,               namepat: "netcdf-cxx(?:[0-9._-]*)(-gnu.*hpc)?", addflavor: $1 }
+- { setname: netcdf-cxx,               namepat: "netcdf-cxx(?:[0-9.-]*)(-gnu.*hpc)?", addflavor: $1 }
 - { setname: netcdf-cxx,               name: netcdf-cxx-legacy }
-- { setname: netcdf-fortran,           namepat: "netcdf-fortran(?:[0-9._-]*)(-gnu.*hpc)?", addflavor: $1 }
+- { setname: netcdf-fortran,           namepat: "netcdf-fortran(?:[0-9.-]*)(-gnu.*hpc)?", addflavor: $1 }
 - { setname: nethack,                  name: [nethack-all,nethack-lib,nethack-patch,nethack-qt,nethack-tty,nethack-x11] }
-- { setname: nethack,                  namepat: "nethack[._-]*(?:[23][0-9._-]*)?" }
+- { setname: nethack,                  namepat: "nethack[.-]*(?:[23][0-9.-]*)?" }
 - { setname: netlogo,                  name: netlogo-bin, addflavor: bin }
 - { setname: netpbm,                   name: libnetpbm }
 - { setname: netpbm,                   name: [netpbm-free,netpbm-debug], addflavor: true }
@@ -49,7 +49,7 @@
 - { setname: nginx,                    name: nginx-lite, addflavor: lite }
 - { setname: nginx,                    name: nginx-mainline-boringssl, addflavor: boringssl }
 - { setname: nginx,                    name: nginx-rtmp, addflavor: rtmp }
-- { setname: ngspice,                  name: [libngspice,ng-spice,ngspice-docs,ngspice_rework,ngspice-shared], addflavor: true }
+- { setname: ngspice,                  name: [libngspice,ng-spice,ngspice-docs,ngspice-rework,ngspice-shared], addflavor: true }
 - { setname: nicotine+,                name: [nicotine,nicotine-plus] }
 - { setname: ninja,                    name: ninja-build }
 - { setname: ninja-irc,                name: irc-ninja }
@@ -60,37 +60,37 @@
 - { setname: notpacman,                name: not-pacman }
 - { setname: nova-agent,               name: rax-nova-agent }
 - { setname: npapi-vlc,                name: npapi-vlc-gtk3 }
-- { setname: npm,                      namepat: "npm[0-9._-]+" }
+- { setname: npm,                      namepat: "npm[0-9.-]+" }
 - { setname: npth,                     name: libnpth }
 - { setname: nss-ldap,                 name: libnss-ldap }
-- { setname: ntfs-3g,                  name: ["fusefs:ntfs","fusefs:ntfs-3g",ntfs-3g-fuse,ntfs-3g-ntfsprogs,ntfs-3g_ntfsprogs,ntfsprogs,ntfs3g,libntfs-3g,libntfs] }
+- { setname: ntfs-3g,                  name: ["fusefs:ntfs","fusefs:ntfs-3g",ntfs-3g-fuse,ntfs-3g-ntfsprogs,ntfsprogs,ntfs3g,libntfs-3g,libntfs] }
 - { setname: ntfs-3g,                  name: [ntfs-3g-ar,ntfs-3g-advanced], addflavor: ar }
 - { setname: ntfs-3g,                  name: ntfs-3g-wimlib-patched, addflavor: wimlib }
 - { setname: numptyphysics,            name: numpty-physics }
-- { setname: nvidia,                   namepat: "(linux[0-9]+)-nvidia[x0-9._-]*", addflavor: $1 }
-#- { setname: nvidia,                   namepat: "nvidia[0-9._-]+xx.*" }
-- { setname: nvidia,                   namepat: "nvidia[0-9._-]+" }
-- { setname: nvidia,                   namepat: "nvidia-drivers?[0-9._-]*" }
+- { setname: nvidia,                   namepat: "(linux[0-9]+)-nvidia[x0-9.-]*", addflavor: $1 }
+#- { setname: nvidia,                   namepat: "nvidia[0-9.-]+xx.*" }
+- { setname: nvidia,                   namepat: "nvidia[0-9.-]+" }
+- { setname: nvidia,                   namepat: "nvidia-drivers?[0-9.-]*" }
 - { setname: nvidia,                   name: nvidia-graphics-drivers-tegra, ignore: true, addflavor: tegra }
-- { setname: nvidia,                   namepat: "nvidia-graphics-drivers[0-9._-]*" }
-- { setname: nvidia,                   namepat: "nvidia-graphics-drivers[0-9._-]*-updates", addflavor: updates }
-- { setname: nvidia,                   namepat: "nvidia-graphics-drivers-legacy[x0-9._-]*" }
-- { setname: nvidia,                   namepat: "nvidia-graphics-drivers-experimental[x0-9._-]*", ignore: true }
+- { setname: nvidia,                   namepat: "nvidia-graphics-drivers[0-9.-]*" }
+- { setname: nvidia,                   namepat: "nvidia-graphics-drivers[0-9.-]*-updates", addflavor: updates }
+- { setname: nvidia,                   namepat: "nvidia-graphics-drivers-legacy[x0-9.-]*" }
+- { setname: nvidia,                   namepat: "nvidia-graphics-drivers-experimental[x0-9.-]*", ignore: true }
 - { setname: nvidia,                   name: nvidia-graphics-drivers-updates, addflavor: updates }
 - { setname: nvidia,                   namepat: "nvidia-legacy.*" }
 #- { setname: nvidia,                   namepat: "nvidia-libgl.*beta.*", ignore: true, addflavor: libgl }
 #- { setname: nvidia,                   namepat: "nvidia-glx.*beta.*", ignore: true, addflavor: glx }
-- { setname: nvidia,                   namepat: "nvidia_glx_src[0-9._-]*", addflavor: glx }
-- { setname: nvidia,                   name: nvidia_glx_common, addflavor: glx }
-- { setname: nvidia,                   namepat: "xorg-x11-drv-nvidia[x0-9._-]*" }
-- { setname: nvidia,                   namepat: "(mhwd|khd)-nvidia[x0-9._-]*", addflavor: $1 }
-- { setname: nvidia,                   namepat: "nvidia-bfq[x0-9._-]*", addflavor: bfq }
+- { setname: nvidia,                   namepat: "nvidia-glx-src[0-9.-]*", addflavor: glx }
+- { setname: nvidia,                   name: nvidia-glx-common, addflavor: glx }
+- { setname: nvidia,                   namepat: "xorg-x11-drv-nvidia[x0-9.-]*" }
+- { setname: nvidia,                   namepat: "(mhwd|khd)-nvidia[x0-9.-]*", addflavor: $1 }
+- { setname: nvidia,                   namepat: "nvidia-bfq[x0-9.-]*", addflavor: bfq }
 - { setname: nvidia,                   name: [driver-graphics-nvidia,nvidia-driver,nvidia-drivers] }
 - { setname: nvidia,                   name: [nvidia-graphics-modules,nvidia-kernel,nvidia-kmod], addflavor: kmod }
 - { setname: nvidia,                   name: [nvidia-beta,nvidia-beta-all,nvidia-current,nvidia-full-beta,nvidia-full-beta-all], ignore: true }
 - { setname: nvidia,                   name: nvidia-beta-dkms, ignore: true, addflavor: dkms }
-- { setname: nvidia,                   namepat: "xdrv:nvidia[0-9x._-]*" }
-- { setname: nvidia-settings,          namepat: "nvidia-[0-9._-]*-settings" }
+- { setname: nvidia,                   namepat: "xdrv:nvidia[0-9x.-]*" }
+- { setname: nvidia-settings,          namepat: "nvidia-[0-9.-]*-settings" }
 - { setname: nvidia-settings,          namepat: "nvidia-settings-.*" }
 - { setname: nvidia-settings,          namepat: "nvidia-settings-experimental.*", ignore: true }
 - { setname: nvidiabl,                 namepat: "(?:dkms|linux-rt.*|linux[0-9]+)-nvidiabl" }
