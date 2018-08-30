@@ -65,6 +65,8 @@
 - { setname: tiff,                     name: tiffgt, addflavor: true }
 - { setname: tigervnc,                 name: [tiger-vnc,tigervnc-viewer] }
 - { setname: tigervnc,                 name: tigervnc-devel, weak_devel: true }
+- { setname: tightvnc,                 name: [tightvncviewer], addflavor: viewer }
+- { setname: tightvnc,                 name: [vncviewer-jar,tightvnc-java], addflavor: java }
 - { setname: tiled,                    name: [tiled-java,tiled-qt] }
 - { setname: time,                     name: [gnu-time,gtime] }
 - { setname: timescaledb,              name: [postgresql10-timescaledb,postgresql96-timescaledb], addflavor: true }
