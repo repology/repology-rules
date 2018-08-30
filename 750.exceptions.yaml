@@ -28,7 +28,7 @@
 - { setname: "python:python-ctags3",   name: "python:python-ctags", wwwpart: python-ctags3 }
 - { setname: "python:enum34",          name: "python:enum", wwwpart: enum34 }
 - { setname: puppet-agent,             name: puppet, ruleset: scoop }
-- { setname: lzma,                     name: lzlib, wwwpart: sevenzip }
+- { setname: lzma,                     name: lzlib, wwwpart: [sevenzip,lzma] }
 - { setname: "python:pypdf2",          name: "python:pypdf", wwwpart: pypdf2 }
 - { setname: "python:py-restclient",   name: "python:restclient", wwwpart: py-restclient }
 - { setname: xfwm4,                    name: xfwm4-themes, ruleset: slitaz } # seems it was a separate package up to ver 4.10
