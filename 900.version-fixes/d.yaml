@@ -52,7 +52,7 @@
 - { name: dolphin-emu,                 verpat: ".*[0-9]{4,}.*",                            ignore: true }
 - { name: doublecmd,                                                                       devel: false } # they state all version to be beta: https://sourceforge.net/p/doublecmd/news/, this is pointless
 - { name: doublecmd,                   verpat: ".*svn.*",                                  ignore: true }
-- { name: dovecot-pigeonhole,          verpat: "2\\.2[^0-9].*",                            incorrect: true } # WTF is that?
+- { name: dovecot-pigeonhole,          verpat: "2\\..*",                                   incorrect: true } # dovecot version prepended and other garbage
 - { name: dsd,                         ver: "1.7.0",                 family: [sisyphus],   incorrect: true } # no such version
 - { name: dsd,                                                       family: [sisyphus],   untrusted: true }
 - { name: dsniff,                      ver: "2.4",                   family: [sisyphus],   incorrect: true } # it's 2.4beta1
