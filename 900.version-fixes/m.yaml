@@ -21,6 +21,8 @@
 - { name: matreshka,                   ver: "0.8.0",                 family: fedora,       ignore: true } # fake (see report)
 - { name: mbrola,                      verpat: "([0-9])([0-9]+[a-z])",                    setver: $1.$2 }
 - { name: mbrola,                      verpat: "([0-9]+)\\.([0-9]+)\\.([0-9]+[a-z])",      setver: $1.$2$3 }
+- { name: mdadm,                       ver: "4.1",                   ruleset: fedora,      incorrect: true }
+- { name: mdadm,                                                     ruleset: fedora,      untrusted: true }
 - { name: meld,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: menulibre,                   verpat: "13\\..*",                                  outdated: true }
 - { name: meritous,                    ver: "1.4",                                         incorrect: true } # was? an unofficial fork at https://gitorious.org/meritous, now dead
