@@ -117,6 +117,7 @@
 - { setname: libqtxdg,                 name: libqtxdg-qt4, addflavor: qt4 }
 - { setname: libquicktime,             name: libquicktime-lame, addflavor: lame }
 - { setname: libquicktime,             name: libquicktime111 }
+- { setname: librealsense,             namepat: "librealsense[0-9.-]+" }
 - { setname: libreadline-java,         name: java-readline }
 - { setname: libretro-fceumm,          name: fceumm-libretro }
 - { setname: libretro-genesis-plus-gx, name: [genesis-plus-gx,genesis-plus-gx-libretro,genesisplusgx] }
@@ -133,6 +134,7 @@
 - { setname: libsignon-glib,           name: signon-glib }
 - { setname: libsodium,                name: [sodium,libsodium-static] }
 - { setname: libspatialite,            name: spatialite }
+- { setname: libsrs2,                  name: [libsrs2-debug,libsrs2-perl,libsrs2-python], addflavor: true }
 - { setname: libstemmer,               name: [snowball,snowball-stemmer] }
 - { setname: libsysstat,               name: libsysstat-qt5 }
 - { setname: libtasn1,                 namepat: "libtasn1[0-9.-]+" }

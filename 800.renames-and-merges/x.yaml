@@ -35,6 +35,7 @@
 - { setname: xcb-proto,                name: xorg-xcbproto-devel, weak_devel: true }
 - { setname: xcb-util$1,               namepat: "libxcbutil(.*)" }
 - { setname: xcb-util,                 name: xcb-util036 }
+- { setname: xcb-util-keysyms,         name: xcb-util-keysyms1 }
 - { setname: xcb-util-renderutil,      name: [lib32-xcb-util-renderutil,libxcb-render-util,xorg-xcb-render-util] }
 - { setname: xcb-util-xrm,             name: xcb-utils-xrm } # XXX: problem
 - { setname: xchm,                     name: xchm-wx3, addflavor: wx3 }

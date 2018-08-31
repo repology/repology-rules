@@ -32,7 +32,7 @@
 - { setname: fillets-ng,               name: fish-fillets-next-generation }
 - { setname: fillets-ng,               name: fish-fillets }
 - { setname: fillets-ng,               name: fish-fillets-ng }
-- { setname: firebase-cli,             name: firebase-tools }
+- { setname: firebase-cli,             name: [firebase-tools,firebase-tools-421] }
 - { setname: firebird,                 namepat: "firebird[0-9.-]*(?:-client|-server)?" }
 - { setname: firefox,                  namepat: "firefox-developer(.*)", addflavor: $1, devel: true }
 - { setname: firefox,                  namepat: "firefox-developer-edition(.*)", addflavor: $1, devel: true }

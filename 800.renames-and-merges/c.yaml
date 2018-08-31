@@ -12,6 +12,7 @@
 - { setname: calligra-l10n,            namepat: "calligra-l10n-.*", family: sisyphus }
 - { setname: camlp5,                   name: "ocaml:camlp5" }
 - { setname: camlp5,                   name: camlp5-transitional, addflavor: true }
+- { setname: canlock,                  name: libcanlock }
 - { setname: capnproto,                name: [capnp,capnproto-0.6] }
 - { setname: capstone,                 name: capstone4 }
 - { setname: cargo,                    name: ["rust:cargo",rust-toolset-7-cargo] }
@@ -25,6 +26,7 @@
 - { setname: cattle,                   name: cattle-1.0 }
 - { setname: cavezofphear,             name: cavez-of-phear }
 - { setname: cbatticon,                name: cbatticon-gtk2, addflavor: gtk2 }
+- { setname: cbindgen,                 name: ["rust:cbindgen",rust-cbindgen] } # XXX: rust-cbindgen is the only rust-* in FreeBSD, may need to add global rule if there are more
 - { setname: cblas,                    name: cblas-reference, addflavor: docs }
 - { setname: cblas,                    name: cblas-tmg, addflavor: tmg }
 - { setname: ccache,                   name: [ccache-memcached,ccache-memcached-static,ccache-static], addflavor: true } # freebsd subpackages

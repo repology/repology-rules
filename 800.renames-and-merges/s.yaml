@@ -51,6 +51,8 @@
 - { setname: sed,                      name: [devbox-sed,gnuwin32-sed,ja-sed], addflavor: true }
 - { setname: seexpr,                   name: seexpr-doc, addflavor: doc }
 - { setname: sendmail,                 namepat: "sendmail\\+.*", family: freebsd }
+- { setname: seqan,                    name: seqan-apps, addflavor: true }
+- { setname: seqan,                    namepat: "seqan[0-9.-]+" }
 - { setname: sequencer64,              name: sequencer64-next, ignore: true }
 - { setname: serf,                     namepat: "(?:lib)?serf[0-9.-]*" }
 - { setname: sextractor,               name: astromatic-sextractor }
