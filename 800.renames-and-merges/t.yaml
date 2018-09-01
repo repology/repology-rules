@@ -34,7 +34,8 @@
 - { setname: terminal-markdown-viewer, name: mdv }
 - { setname: termtosvg,                name: "python:termtosvg" }
 - { setname: tesseract-ocr-data,       namepat: "tesseract(?:-ocr|-data)*-[a-z]{3}(?:-.*)?" }
-- { setname: testdisk,                 name: testdisk-wip, ignore: true }
+- { setname: testdisk,                 name: testdisk-wip, weak_devel: true }
+- { setname: testdisk,                 name: [photorec, testdist-photorec], addflavor: true } # distributed together https://www.cgsecurity.org/wiki/TestDisk_Download
 - { setname: testssl.sh,               name: testssl }
 - { setname: tetrinetx,                name: [tetrinet-x,tetrinet-server] }
 - { setname: tevent,                   name: libtevent }
