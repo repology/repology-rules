@@ -116,6 +116,8 @@ schema = Schema(
         'verge': str,
         'verlt': str,
         'verle': str,
+        'vereq': str,
+        'verne': str,
         'flag': str,
         'noflag': str,
 

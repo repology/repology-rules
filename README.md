@@ -252,14 +252,16 @@ components added.
 - { name: gimp, verlonger: 3, ...} # 2.9.8.12345 is something unofficial
 ```
 
-#### vergt, verge, verlt, verle
+#### vergt, verge, verlt, verle, vereq, verne
 
 Compares version to a given one and matches if it's:
 
 - **vergt**: greater (>)
-- **verge**: greater or equal (>=)
+- **verge**: greater or equal (≥)
 - **verlt**: lesser (<)
-- **verle**: lesser or equal (<=)
+- **verle**: lesser or equal (≤)
+- **vereq**: equal
+- **verne**: not equal
 
 ```yaml
 # match git >= 2.16
