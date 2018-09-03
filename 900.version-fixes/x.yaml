@@ -41,6 +41,8 @@
 - { name: xorriso,                     ver: "1.4.9",                 family: adelie,       incorrect: true }
 - { name: xournal,                     ver: "4.7",                                         outdated: true }
 - { name: xpdf,                        ver: "4.02",                  family: freebsd,      incorrect: true }
+- { name: xcape,                       verlonger: 2,                 ruleset: freebsd,     incorrect: true }
+- { name: xcape,                                                     ruleset: freebsd,     untrusted: true }
 - { name: xsel,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: xsp,                         verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: xtitle,                      verpat: "20[0-9]{6}",                               snapshot: true }

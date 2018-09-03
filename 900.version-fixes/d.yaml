@@ -47,6 +47,7 @@
 - { name: doas,                        verpat: "6.0p[0-9]+",                               successor: true }
 - { name: docker-tray,                 verge: "1.5.1",                                     successor: true }
 - { name: dosbox,                      verpat: "0\\.74\\.r?[0-9]{4}.*",                    snapshot: true }
+- { name: dosbox-x,                    ver: "0.801",                                       outdated: true }
 - { name: dosemu,                      verpat: "2013.*",                                   ignore: true }
 - { name: dosemu,                      verpat: "1\\.4\\.1.*",        family: [sisyphus,gentoo], ignore: true }
 - { name: dolphin,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

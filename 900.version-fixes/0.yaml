@@ -27,3 +27,4 @@
 - { verpat: "[0-9]+\\..*[0-9a-f]{7}",                                family: arch,         ignore: true } # primarily blackarch snapshots
 - { ver: "1003.1-2008",                                              family: nix,          ignore: true } # WTF is that? versions like "1003.1-2008"
 - { verpat: ".*haiku.*",                                                                   ignore: true } # primarily blackarch snapshots
+- { verpat: ".*arch.*",                                                                    ignore: true } # arch, aur pseudoversions

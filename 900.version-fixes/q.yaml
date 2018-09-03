@@ -12,6 +12,7 @@
 - { name: qgis,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: qhull,                       ver: ["2015.7.2.0","2015.2-2"],                     incorrect: true }
 - { name: qlipper,                     verpat: "20[0-9]{6}.*",                             snapshot: true }
+- { name: qps,                         verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: qrfcview,                    ver: "1.0.0",                 family: openbsd,      successor: true } # uses unofficial fork (dead as well)
 - { name: qt5-webkit,                  ver: "5.212.0",               family: [fedora,sisyphus], incorrect: true } # lie, it's 5.212.0alpha2
 - { name: qt5-webkit,                                                family: [fedora,sisyphus], untrusted: true } # lie, it's 5.212.0alpha2

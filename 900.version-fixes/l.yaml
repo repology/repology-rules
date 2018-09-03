@@ -19,6 +19,8 @@
 - { name: limitcpu,                    verpat: "20[0-9]{6}",                               ignore: true }
 - { name: limnoria,                    verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: $1.$2.$3 } # XXX: problem
 - { name: lincity,                     verpat: "1\\.13\\..*",                              devel: true }
+- { name: linenoise,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: linenoise,                   verlonger: 2,                 ruleset: nix,         incorrect: true }
 - { name: linkchecker,                 ver: "9.4",                   ruleset: aur,         incorrect: true } # not released
 - { name: linux,                       verpat: ".*20[0-9]{2}.*",                           incorrect: true } # it has clear enough versioning scheme, do not allow snapshots
 - { name: linux-live,                  verpat: "6\\..*",                                   outdated: true } # old scheme from 9 years ago, see #41
