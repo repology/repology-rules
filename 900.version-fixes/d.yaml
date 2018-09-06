@@ -38,6 +38,7 @@
 - { name: distorm,                     verpat: "20[0-9]{6}.*",                             ignore: true } # freebsd garbage
 - { name: djvulibre,                   ver: "3.5.27.1",                                    ignore: true }
 - { name: dkms,                        ver: "2.022.0",                                     ignore: true } # gobolinux fake
+- { name: dmraid,                      ver: "1.0.0",                 family: [mageia,openmandriva,pclinuxos,pld], incorrect: true } # it's 1.0.0rc16
 - { name: dnrd,                        ver: "2.20.4",                ruleset: aix,         incorrect: true }
 - { name: dnrd,                                                      ruleset: aix,         untrusted: true }
 - { name: dnscap,                      verpat: "[0-9]{3,}",                                ignore: true }
