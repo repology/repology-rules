@@ -56,6 +56,7 @@
 - { setname: cfengine-masterfiles,     namepat: "cfengine-masterfiles[0-9]+" }
 - { setname: cfengine-masterfiles,     namepat: cfengine-masterfiles-devel, weak_devel: true }
 - { setname: cfitsio,                  name: cfitsio3 }
+- { setname: cflow,                    name: [bsdcflow,gcflow,gnucflow] } # split later
 - { setname: cfr,                      name: cfr-decompiler }
 - { setname: cgal,                     name: cgal-ipelets, addflavor: ipelets }
 - { setname: cgal,                     name: cgal9 }
