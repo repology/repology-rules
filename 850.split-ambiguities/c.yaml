@@ -5,7 +5,8 @@
 - { name: cde,                         setname: cdesktopenv, wwwpart: cdesktopenv } # desktop env. vs packaging tool
 
 - { name: cflow, wwwpart: marcusva, setname: cflow-marcusva }
-- { name: cflow, ruleset: [freebsd,openpkg], setname: cflow-ancient } # circa 1995
+- { name: cflow, ruleset: [freebsd,openpkg], setname: cflow-ancient } # circa 1995; this rule happens to be too wide, fixed by the following one
+- { name: cflow-ancient, wwwpart: gnu, setname: cflow }
 # otherwise, GNU cflow
 
 - { name: clementine,                  setname: clementine-player                            } # clementine player vs. window manager
