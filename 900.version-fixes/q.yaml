@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: qca,                         ver: "2.2.0",                 family: vcpkg,        incorrect: true } # not released yet
+- { name: qca,                         ver: "2.1.4",                 ruleset: openmandriva, incorrect: true } # git snapshot, not release
 - { name: qdjango,                     verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: qelectrotech,                verpat: ".*r.*",                                    snapshot: true }
 - { name: qemu,                        verpat: ".*pre[0-9]{5}.*",                          snapshot: true }
