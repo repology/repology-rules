@@ -146,6 +146,9 @@
 - { setname: atlas-c++,                name: [atlas-cpp,atlascpp,libatlascpp] }
 - { setname: atomix,                   name: gnome-games-atomix }
 - { setname: atop-freebsd,             name: atop, family: freebsd } # fork
+- { setname: atril,                    name: mate-atril }
+- { setname: atril,                    name: atril-dev, weak_devel: true }
+- { setname: atril,                    name: [atril-gtk2, atril-lite, atril-nocaja-gtk2, atril-gtk], addflavor: true }
 - { setname: ats$1,                    namepat: "ats2(.*)" }
 - { setname: atspkg,                   name: "haskell:ats-pkg" }
 - { setname: attica,                   name: [attica-kf5,attica-qt4,attica-qt5,libattica] }
