@@ -152,11 +152,23 @@ schema = Schema(
 )
 
 
+order_fields_by_pattern = {
+    '.*800.renames-and-merges/[0duwyz]\.yaml': 'setname',
+#    '.*850.split-ambiguities/.*\.yaml': 'name',
+    '.*900.version-fixes/[1a-z].*\.yaml': 'name',
+    '.*950.split-branches.yaml': 'name',
+}
+
+
 class BadPlaceholderUsage(Exception):
     pass
 
 
 class BadRuleValue(Exception):
+    pass
+
+
+class BadSorting(Exception):
     pass
 
 
@@ -238,6 +250,30 @@ class RulesetCheckResult:
                 print('  Rule: {}'.format(failure[2]), file=stderr)
 
 
+def check_sorting(path, rules):
+    sort_field = None
+    for pattern, field in order_fields_by_pattern.items():
+        if re.fullmatch(pattern, path):
+            sort_field = field
+            break
+
+    if sort_field is None:
+        return
+
+    prevkey = None
+    for rule in rules:
+        key = None
+        if sort_field in rule:
+            key = rule[sort_field]
+            if isinstance(key, list):
+                key = key[0]
+
+        if key is not None and prevkey is not None and key < prevkey:
+            raise BadSorting('sorting problem, {} after {}'.format(key, prevkey))
+
+        prevkey = key
+
+
 def check_rule_file(path):
     result = RulesetCheckResult(path)
 
@@ -264,6 +300,11 @@ def check_rule_file(path):
             validate_values(rule)
         except BadRuleValue as e:
             result.add_failure('value problem', str(e), rule)
+
+    try:
+        check_sorting(path, rules)
+    except BadSorting as e:
+        result.add_failure('sorting problem', str(e))
 
     return result
 
