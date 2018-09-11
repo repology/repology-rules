@@ -1,7 +1,5 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
-- { name: etcd, verpat: "1.*", setname: "etcd-player" } # Enhanced Tiny CD, a simple ncurses-based CD player vs. coreos etcd
-
 - { name: elm, wwwpart: instinct.org, setname: elm-mua }
 - { name: elm, family: openbsd, setname: elm-mua }
 - { name: elm, wwwpart: elm-lang, setname: elm-lang }
@@ -12,10 +10,10 @@
 - { name: emma,                        setname: emma-mysql, family: [arch, freebsd, debuntu] }
 - { name: emma,                        warning: "please classify me" }
 
-- { name: enigma, wwwpart: sgtatham, setname: enigma-sgtatham }
-
 - { name: empire, wwwpart: vms-empire, setname: vms-empire }
 - { name: empire, wwwpart: wolfpack, setname: wolfpack }
+
+- { name: enigma, wwwpart: sgtatham, setname: enigma-sgtatham }
 
 # not a browser
 - { name: epiphany,                    wwwpart: epiphany.sourceforge.net, setname: epiphany-game }
@@ -25,3 +23,5 @@
 - { name: et, wwwpart: geistesk, setname: eggtimer }
 - { name: et, category: games, setname: enemyterritory }
 - { name: et, warning: "please classify me" }
+
+- { name: etcd, verpat: "1.*", setname: "etcd-player" } # Enhanced Tiny CD, a simple ncurses-based CD player vs. coreos etcd

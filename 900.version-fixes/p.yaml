@@ -69,11 +69,10 @@
 - { name: progsreiserfs,               ver: "0.3.1",                 family: pld,          incorrect: true }
 - { name: progsreiserfs,                                             family: pld,          untrusted: true }
 - { name: proot,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: proot,                       verpat: "5\\.1\\.[0-9]{3}.*",                       incorrect: true }
 - { name: properties-cpp,              verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: prover9,                     ver: "200911a",                                     incorrect: true }
 - { name: proxychains-ng,              verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
-- { name: proot,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: proot,                       verpat: "5\\.1\\.[0-9]{3}.*",                       incorrect: true }
 - { name: psi-plus,                    verpat: "20[0-9]{6}.*",                             snapshot: true } # opensuse garbage
 - { name: psi-plus,                    verlonger: 3,                                       incorrect: true } # aur garbage
 - { name: public-suffix-list,                                                              noscheme: true } # https://github.com/publicsuffix/list/releases

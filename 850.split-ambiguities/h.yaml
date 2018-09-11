@@ -1,13 +1,13 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: hdf,                         verpat: "5\\.([0-9]+\\.[0-9]+\\.[0-9]+)", setver: $1, setname: hdf5 } # XXX: problem
+
 - { name: helm, wwwpart: emacs, setname: emacs-helm }
 - { name: helm, wwwpart: [kubernetes,helm.sh], setname: kubernetes-helm }
 
 - { name: hermes,                      setname: hermes-proxy, wwwpart: hermes-project.com }
 - { name: hermes,                      setname: hermes-auth, wwwpart: ralt/hermes }
 # otherwise, (dead?) pixel format convertsion library
-
-- { name: hdf,                         verpat: "5\\.([0-9]+\\.[0-9]+\\.[0-9]+)", setver: $1, setname: hdf5 } # XXX: problem
 
 - { name: hexer,                       wwwpart: hobu, setname: hexer-hobu }
 

@@ -14,17 +14,13 @@
 - { name: tesseract, setname: tesseract-ocr, ruleset: [vcpkg] }
 - { name: tesseract, warning: "please classify me" }
 
+- { name: tg, wwwpart: vysheng/tg, setname: telegram-cli }
+
 # GNU time vs. xemacs module
 - { name: time, setname: xemacs-time, wwwpart: xemacs } # gentoo
 - { name: time, setname: psutils-time, wwwpart: lukesampson }
 
 - { name: tint, category: Graphics, setname: tint-photo-editor }
-
-- { name: tg, wwwpart: vysheng/tg, setname: telegram-cli }
-
-- { name: tracker, setname: tracker-modplayer, category: audio }
-
-- { name: tree, wwwpart: peekas, setname: tree-class } # upstream dead, so just move it away
 
 # tales of majeyal vs. troubles of middle earth
 - { name: tome, verpat: "1\\..*", setname: tales-of-majeyal }
@@ -34,5 +30,9 @@
 
 - { name: traceroute, ruleset: freebsd, setname: traceroute-as }
 
+- { name: tracker, setname: tracker-modplayer, category: audio }
+
 - { name: trash, wwwpart: andreafrancia, setname: trash-cli }
 - { name: trash, wwwpart: [hasseg,ali-rantakari], setname: trash-osx }
+
+- { name: tree, wwwpart: peekas, setname: tree-class } # upstream dead, so just move it away

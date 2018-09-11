@@ -37,6 +37,10 @@
 - { name: texlive,                     ver: "20180617",              ruleset: homebrew,    incorrect: true }
 - { name: texlive,                                                   ruleset: homebrew,    untrusted: true }
 - { name: texlive-core,                verpat: "(20[0-9]{2}).[0-9]{5,}",                   ignore: true }
+- { name: theharvester,                verpat: "(2\\.7)\\.[12]",                           setver: $1 } # versions are mentioned in the changelog, but there are no tags
+- { name: theharvester,                ver: "2.7.3",                                       incorrect: true }
+- { name: thrift,                      verpat: "[0-9]{7}.*",                               ignore: true } # vcpkg and macports garbage
+- { name: thunderbird,                 verpat: ".*[ab].*",                                 devel: true }
 - { name: tidy,                        verpat: "20[0-9]{6}.*",                             ignore: true } # obsoleted
 - { name: tidy,                        ver: "090315.c",                                    ignore: true } # obsoleted
 - { name: tigervnc,                    verpat: ".*\\.9[0-9]+",                             devel: true }
@@ -44,19 +48,14 @@
 - { name: timidity++,                                                family: rosa,         untrusted: true }
 - { name: tiny-dnn,                    ver: "1.0.0",                 family: buckaroo,     incorrect: true } # 1.0.0a3 https://github.com/tiny-dnn/tiny-dnn/releases
 - { name: tiny-dnn,                                                  family: buckaroo,     untrusted: true }
-- { name: theharvester,                verpat: "(2\\.7)\\.[12]",                           setver: $1 } # versions are mentioned in the changelog, but there are no tags
-- { name: theharvester,                ver: "2.7.3",                                       incorrect: true }
-- { name: thrift,                      verpat: "[0-9]{7}.*",                               ignore: true } # vcpkg and macports garbage
-- { name: thunderbird,                 verpat: ".*[ab].*",                                 devel: true }
 - { name: tk,                          verpat: ".*a[0-9]+",                                devel: true }
 - { name: tk,                          verpat: "[0-9]+\\.[0-9]+\\.0\\.?a.*",               incorrect: true } # it's X.YaZ, not X.Y.0aZ
+- { name: tolua++,                     ver: "1.0.94",                ruleset: maemo,       ignore: true }
 - { name: tomahawk,                    verpat: "0\\.8\\.99.*",                             ignore: true } # fake
-- { name: tt-rss,                                                                          noscheme: true }
 - { name: tome2,                       ver: "235",                                         incorrect: true }
 - { name: tor,                         verpat: "([0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)[._-]?[abr].*", setver: "$1", devel: true } # version is self-sufficient; remove redundant alpha/rc suffix, but set devel
 - { name: tor,                         verge: "0.3.4",                                     devel: true, maintenance: true }
 - { name: torsocks,                    verpat: ".*20[0-9]{2}.*",                           ignore: true } # termux snapshot
-- { name: tolua++,                     ver: "1.0.94",                ruleset: maemo,       ignore: true }
 - { name: toxcore,                     verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: toxcore,                     verpat: "201[67].*",                                outdated: true }
 - { name: toxic,                       verpat: "20[0-9]{6}.*",                             ignore: true }
@@ -70,6 +69,7 @@
 - { name: trn,                         ver: ["4.77", "4.0"],                               incorrect: true }
 - { name: trn,                         verpat: "(4\\.0)(?:\\.|\\.?[a-z]+)([0-9]+)",        setver: $1-test$2 }
 - { name: tsocks,                      ver: "1.8.4",                 ruleset: macports,    incorrect: true } # fake, latest seem to be 1.8beta5
+- { name: tt-rss,                                                                          noscheme: true }
 - { name: ttwatch,                                                                         noscheme: true }
 - { name: tunctl,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: tuxmath,                     ver: "20010907",                                    ignore: true }

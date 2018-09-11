@@ -13,8 +13,8 @@
 - { name: libreoffice,                 verge: "6.1",                                       devel: true, maintenance: true }
 - { name: lightdm-gtk-greeter,         verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: lightsoff,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: lightworks,                  verlonger: 3,                 family: kaos,         ignore: true }
 - { name: lightspark,                  verpat: "20[0-9]{2}\\..*",                          incorrect: true }
+- { name: lightworks,                  verlonger: 3,                 family: kaos,         ignore: true }
 - { name: lilypond,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: limitcpu,                    verpat: "20[0-9]{6}",                               ignore: true }
 - { name: limnoria,                    verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: $1.$2.$3 } # XXX: problem
@@ -32,9 +32,9 @@
 - { name: llvm-libunwind,              verpat: ".*20[0-9]{6}",                             snapshot: true } # freebsd snapshot
 - { name: lmms,                        ver: ["1.1.95","1.2.0"],      ruleset: [sisyphus,kaos], incorrect: true } # it's 1.2.0rc5
 - { name: lmms,                                                      ruleset: [sisyphus,kaos], untrusted: true }
-- { name: loic,                        verpat: ".*9.*9.*9.*",                              devel: true } # prerelease (2.9.9.99)
 - { name: logfsprogs,                                                                      noscheme: true }
 - { name: logtop,                      ver: "0.6.1",                 ruleset: sisyphus,    incorrect: true }
+- { name: loic,                        verpat: ".*9.*9.*9.*",                              devel: true } # prerelease (2.9.9.99)
 - { name: lprof,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: lrzsz,                       verge: "0.12.21",                                   successor: true } # debian fork? (needs investigation)
 - { name: lshw,                                                                            incorrect: true } # quirky schema

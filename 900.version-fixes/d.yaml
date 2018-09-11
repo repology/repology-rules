@@ -1,10 +1,10 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: dahdi-linux,                 verlonger: 4,                                       incorrect: true }
 - { name: dapl,                        verpat: ".*[0-9a-f]{8}",                            snapshot: true }
 - { name: darcs,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: darcs,                       ver: "2.13.0",                family: fedora,       incorrect: true } # fake
 - { name: darcs,                                                     family: fedora,       untrusted: true }
-- { name: dahdi-linux,                 verlonger: 4,                                       incorrect: true }
 - { name: dbus,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: dbus-cpp,                    verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: dconf,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -38,21 +38,21 @@
 - { name: distorm,                     verpat: "20[0-9]{6}.*",                             ignore: true } # freebsd garbage
 - { name: djvulibre,                   ver: "3.5.27.1",                                    ignore: true }
 - { name: dkms,                        ver: "2.022.0",                                     ignore: true } # gobolinux fake
+- { name: dmake,                       verpat: ".*20[0-9]{6}",                             ignore: true } # freebsd snapshot
 - { name: dmraid,                      ver: "1.0.0",                 family: [mageia,openmandriva,pclinuxos,pld], incorrect: true } # it's 1.0.0rc16
 - { name: dnrd,                        ver: "2.20.4",                ruleset: aix,         incorrect: true }
 - { name: dnrd,                                                      ruleset: aix,         untrusted: true }
 - { name: dnscap,                      verpat: "[0-9]{3,}",                                ignore: true }
 - { name: dnstop,                                                                          noscheme: true }
-- { name: dmake,                       verpat: ".*20[0-9]{6}",                             ignore: true } # freebsd snapshot
 - { name: doas,                                                                            p_is_patch: true }
 - { name: doas,                        verpat: "6.0p[0-9]+",                               successor: true }
 - { name: docker-tray,                 verge: "1.5.1",                                     successor: true }
+- { name: dolphin,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: dolphin-emu,                 verpat: ".*[0-9]{4,}.*",                            ignore: true }
 - { name: dosbox,                      verpat: "0\\.74\\.r?[0-9]{4}.*",                    snapshot: true }
 - { name: dosbox-x,                    ver: "0.801",                                       outdated: true }
 - { name: dosemu,                      verpat: "2013.*",                                   ignore: true }
 - { name: dosemu,                      verpat: "1\\.4\\.1.*",        family: [sisyphus,gentoo], ignore: true }
-- { name: dolphin,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: dolphin-emu,                 verpat: ".*[0-9]{4,}.*",                            ignore: true }
 - { name: doublecmd,                                                                       devel: false } # they state all version to be beta: https://sourceforge.net/p/doublecmd/news/, this is pointless
 - { name: doublecmd,                   verpat: ".*svn.*",                                  ignore: true }
 - { name: dovecot-pigeonhole,          verpat: "2\\..*",                                   incorrect: true } # dovecot version prepended and other garbage

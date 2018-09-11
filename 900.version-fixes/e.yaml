@@ -13,13 +13,11 @@
 - { name: ecartis,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.20[0-9]{6}",    incorrect: true } # X.Y.snapZ
 - { name: ecm-tools,                   ver: "1.03",                                        incorrect: true } # it's 1.0.3
 - { name: egoboo,                      ver: "2.81",                                        setver: "2.8.1" }
-- { name: einstein,                    vergt: "2.0",                                       successor: true } # https://github.com/lksj/einstein-puzzle
 - { name: eigen,                       ver: "2.0.55",                ruleset: pclinuxos,   incorrect: true }
 - { name: eigen,                                                     ruleset: pclinuxos,   untrusted: true }
+- { name: einstein,                    vergt: "2.0",                                       successor: true } # https://github.com/lksj/einstein-puzzle
 - { name: eiskaltdcpp,                 verpat: ".*g.*",                                    ignore: true }
 - { name: eiskaltdcpp,                 ver: "2.2.11",                family: fedora,       ignore: true } # fake
-- { name: emc2,                        verpat: "([0-9]+\\.[0-9]+)\\.([a-z]+)",             setver: $1$2 }
-- { name: empathy,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: elftoolchain,                ver: "100",                   family: ravenports,   incorrect: true } # fake
 - { name: elinks,                      vergt: "0.12pre6",                                  untrusted: true } # too many snapshots
 - { name: elinks,                      ver: ["0.11.996","0.12.3.2","0.12rc6"],             incorrect: true }
@@ -30,7 +28,9 @@
 - { name: elm-format,                  verpat: "(.*?)[_-]?(?:alpha|exp)",                  setver: $1, devel: true }
 - { name: elvis,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: elvis,                       ver: "2.2f",                                        incorrect: true } # source file gone, cannot check
+- { name: emc2,                        verpat: "([0-9]+\\.[0-9]+)\\.([a-z]+)",             setver: $1$2 }
 - { name: emerald,                     ver: "0.9.5",                                       outdated: true } # these come from https://launchpad.net/~nilarimogard/+archive/ubuntu/webupd8/+index?batch=75&memo=75&start=75 and these are older than latest 0.8.x releases
+- { name: empathy,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: enventor,                    verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: envytools,                                                                       noscheme: true }
 - { name: eog,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

@@ -5,13 +5,13 @@
 - { name: i7z,                         verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: iannix,                      ver: "0.9.20b",                                     setver: "0.9.20" } # ambigous release https://github.com/buzzinglight/IanniX/releases
 - { name: ibus-sunpinyin,              ver: "3.0.0",                                       ignore: true } # aosc fake, it's rc1
-- { name: ices,                        verpat: ".*20[0-9]{6}",                             ignore: true }
-- { name: icewm,                       ver: ["1.4.3","1.4.3.0"],     ruleset: [debuntu,distrowatch], incorrect: true } # no such release
-- { name: icon,                        verpat: "[0-9]{3}",                                 ignore: true } # XXX: transform + problem
 - { name: icebreaker,                  ver: "1.21",                                        setver: "1.2.1" }
 - { name: icecat,                                                                          setver: "$0gnu1" } # it uses gnu suffix, in most cases it's gnu1, but there were gnu2 as well
 - { name: icecat,                      verpat: "(.*gnu.*)gnu1",                            setver: "$1" }
 - { name: icemon,                      verpat: "[0-9a-f]{7}",                              incorrect: true }
+- { name: ices,                        verpat: ".*20[0-9]{6}",                             ignore: true }
+- { name: icewm,                       ver: ["1.4.3","1.4.3.0"],     ruleset: [debuntu,distrowatch], incorrect: true } # no such release
+- { name: icon,                        verpat: "[0-9]{3}",                                 ignore: true } # XXX: transform + problem
 - { name: icu-le-hb,                   ver: "1.0.3.3",                                     ignore: true } # fake (FreeBSD)
 - { name: iguanair,                    ver: "1.2.0",                 ruleset: pld,         incorrect: true }
 - { name: iguanair,                                                  ruleset: pld,         untrusted: true }
@@ -23,8 +23,8 @@
 - { name: inspectrum,                  ver: "20180603",                                    outdated: true, disposable: true } # latest official versions from 20180607
 - { name: intel-microcode,             verpat: "(?:.+?[^0-9])?(20[0-9]{6}).*",             setver: "$1" }
 - { name: io,                          verpat: "20[0-9]{6}",                               incorrect: true } # it's YYYY.MM.DD
-- { name: iozone,                      verpat: "[0-9]{3}",                                 setver: "3.$0" } # fix confusion between iozone3 ver NNN and iozone ver 3.NNN
 - { name: ioquake3,                    verpat: "20[0-9]{2}.*",                             ignore: true }
+- { name: iozone,                      verpat: "[0-9]{3}",                                 setver: "3.$0" } # fix confusion between iozone3 ver NNN and iozone ver 3.NNN
 - { name: iputils,                     verpat: "[0-9]{8}\\.[0-9a-f]{7,}",                  ignore: true } # arch: commit id in version
 - { name: ircd,                                                                            p_is_patch: true } # http://www.irc.org/ftp/irc/server/
 - { name: irssi-scripts,                                                                   noscheme: true }

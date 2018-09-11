@@ -36,6 +36,8 @@
 
 - { name: skim, wwwpart: scim, setname: skim-scim }
 
+- { name: smem, verpat: "2007.*", family: gentoo, setname: smem.pl } # unrelated python script
+
 - { name: snoopy, wwwpart: tuxfamily, setname: snoopy-warcraft3 }
 
 - { name: sokoban, wwwpart: dansoft, setname: sokoban-dansoft }
@@ -45,14 +47,6 @@
 - { name: sokoban, warning: "please classify me" }
 
 - { name: sphinx, wwwpart: cmusphinx, setname: cmusphinx }
-
-- { name: ssr, wwwpart: spatialaudio, setname: soundscaperenderer }
-- { name: ssr, wwwpart: maarten, setname: simplescreenrecorder }
-- { name: ssr, family: pclinuxos, setname: simplescreenrecorder }
-
-- { name: ssss, wwwpart: okoeroo, setname: ssss-okoeroo }
-
-- { name: smem, verpat: "2007.*", family: gentoo, setname: smem.pl } # unrelated python script
 
 - { name: spice, wwwpart: [berkeley.edu,ibiblio], setname: spice-cad } # just move ancient garbage away
 - { name: spice, ruleset: pld, setname: spice-cad }
@@ -68,6 +62,12 @@
 
 - { name: splitter, wwwpart: mkgmap, setname: mkgmap-splitter } # no ambiguity at the time of writing, but let's be on the safe side
 
+- { name: ssr, wwwpart: spatialaudio, setname: soundscaperenderer }
+- { name: ssr, wwwpart: maarten, setname: simplescreenrecorder }
+- { name: ssr, family: pclinuxos, setname: simplescreenrecorder }
+
+- { name: ssss, wwwpart: okoeroo, setname: ssss-okoeroo }
+
 - { name: st, wwwpart: suckless, setname: st-term }
 - { name: st, category: [Terminals,x11,x11-apps], setname: st-term }
 - { name: st, category: [libs,universe/libs,misc,devel], setname: state-threads }
@@ -75,9 +75,9 @@
 - { name: st, wwwpart: nferraz, setname: st-statistics }
 - { name: st, warning: "please classify me" }
 
-- { name: sterm, wwwpart: suckless, setname: st-term } # freebsd rename of st; but there's actual sterm project
-
 - { name: statik, wwwpart: rakyll, setname: "go:github-rakyll-statik" }
+
+- { name: sterm, wwwpart: suckless, setname: st-term } # freebsd rename of st; but there's actual sterm project
 
 - { name: svn2git, verpat: "1\\.[0-9]+.*", setname: svn-all-fast-export }
 

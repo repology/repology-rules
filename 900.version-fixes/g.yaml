@@ -15,20 +15,20 @@
 - { name: gcc-arm-none-eabi,           verpat: "[0-9]{2}",                                 outdated: true, disposable: true } # not sure what these are, but they're from debian oldstable, so outdated for sure
 - { name: gcc-arm-none-eabi,           verpat: "([0-9]+)[._-]([0-9]{4})[._-]q?([0-9]+)(?:[-_]update)?", setver: $1-$2q$3 }
 - { name: gcc-arm-none-eabi,           verpat: ".*q.*",                                    any_is_patch: true }
-- { name: gdal,                        verpat: ".*20[0-9]{6}",                             ignore: true }
+- { name: gcompris,                    verpat: "2013.*",                                   ignore: true }
+- { name: gcr,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gd,                          ver: "2.25",                                        incorrect: true } # 2.2.5
 - { name: gd,                          verpat: "2\\.[0-9]{2}",       ruleset: gobolinux,   untrusted: true }
+- { name: gdal,                        verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: gdb,                         verpat: ".*20[0-9]{2}.*",                           snapshot: true }
 - { name: gdb,                         verpat: ".*\\.[59]0",                               devel: true }
 - { name: gdm,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: gcompris,                    verpat: "2013.*",                                   ignore: true }
-- { name: gcr,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gecko-mediaplayer,           verpat: ".*[ab]",                                   devel: true }
 - { name: geckodriver,                 verpat: ".*20[0-9]{2}.*",                           ignore: true }
 - { name: gedit,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: geeknote,                                                                        noscheme: true }
-- { name: gettext,                     ver: "2",                                           ignore: true } # libintl from LEDE
 - { name: geocode-glib,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gettext,                     ver: "2",                                           ignore: true } # libintl from LEDE
 - { name: ggz-client-libs,             verpat: "0\\.99.*",                                 devel: true }
 - { name: ggz-gtk-client,              verpat: "0\\.99.*",                                 devel: true }
 - { name: gimagereader,                verpat: ".*\\.9[0-9]+",                             devel: true }
@@ -37,9 +37,9 @@
 - { name: gjs,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: glade,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: glib,                        verpat: "[2-9][0-9]*\\.[0-9]*[13579]\\..*",         devel: true }
-- { name: glibmm,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: glib-networking,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: glibc,                       verlonger: 2,                                       ignore: true } # assorted garbage
+- { name: glibmm,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: glimpse,                     ver: "4.18.7",                ruleset: debuntu,     incorrect: true }
 - { name: glimpse,                                                   ruleset: debuntu,     untrusted: true }
 - { name: glitz,                       ver: "0.5.7",                 ruleset: sisyphus,    incorrect: true } # fake
@@ -49,6 +49,7 @@
 - { name: gltron,                      verpat: "(.*)final",                                setver: $1 } # Maemo
 - { name: gmrun,                       verge: "0.9.4",                                     successor: true } # https://github.com/wdlkmpx/gmrun
 - { name: gnash,                       ver: "0.8.11",                family: debuntu,      ignore: true } # not released yet
+- { name: gnat-util-gcc,               verpat: "20[0-9]{6}",                               ignore: true }
 - { name: gnome-backgrounds,           verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-bluetooth,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-boxes,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -77,10 +78,10 @@
 - { name: gnome-session,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-settings-daemon,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-shell,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: gnome-shell-extensions,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-shell-extension-system-monitor, ver: "20121027",                           outdated: true } # last official release in 2018
 - { name: gnome-shell-extension-workspaces-to-dock, ver: "20121027",                       outdated: true } # last official release in 2018
 - { name: gnome-shell-extension-workspaces-to-dock, verpat: "([0-9]{2,})_[0-9.]+",         setver: $1 } # meaningless gnome version addendum
+- { name: gnome-shell-extensions,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-software,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-sound-recorder,        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-sudoku,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -92,7 +93,6 @@
 - { name: gnome-tweaks,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-usage,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-user-share,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: gnat-util-gcc,               verpat: "20[0-9]{6}",                               ignore: true }
 - { name: gnu-efi,                     verpat: "3\\.0[a-z]",                               outdated: true }
 - { name: gnuastro,                    verlonger: 2,                                       devel: true } # alphas
 - { name: gnubg,                       verpat: "20[0-9]{6}",                               ignore: true }
@@ -133,13 +133,13 @@
 - { name: gtest,                       verlonger: 3,                                       ignore: true } # freebsd garbage
 - { name: gtk,                         verpat: "[0-9]+\\.9[0-9]+\\..*",                    devel: true }
 - { name: gtk,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gtk-doc,                     verlonger: 2,                                       ignore: true } # sisyphus fake
 - { name: gtk-engines,                 verpat: "[0-9]+\\.9[0-9]+\\..*",                    devel: true }
 - { name: gtk-engines,                 ver: "2.21.0",                ruleset: [alpine,arch,slackbuilds], incorrect: true }
 - { name: gtk-engines,                                               ruleset: [alpine,arch,slackbuilds], untrusted: true }
 - { name: gtkmm,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gtksourceview,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gtksourceviewmm,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: gtk-doc,                     verlonger: 2,                                       ignore: true } # sisyphus fake
 - { name: gts,                         verpat: "[0-9]{6,}.*",                              ignore: true } # aosc, gentoo
 - { name: gummi,                       ver: "0.7.4.3",               ruleset: opensuse,    incorrect: true }
 - { name: gummi,                                                     ruleset: opensuse,    untrusted: true }

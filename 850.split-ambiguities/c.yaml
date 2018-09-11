@@ -4,6 +4,9 @@
 
 - { name: cde,                         setname: cdesktopenv, wwwpart: cdesktopenv } # desktop env. vs packaging tool
 
+- { name: cdf3,                        setname: cdf                       } # Common Data Format lib; XXX: move to 800?
+- { name: cdf, verpat: "0.*",          setname: cdf-df                    } # split out colorized df
+
 - { name: cflow, wwwpart: marcusva, setname: cflow-marcusva }
 - { name: cflow, ruleset: [freebsd,openpkg], setname: cflow-ancient } # circa 1995; this rule happens to be too wide, fixed by the following one
 - { name: cflow-ancient, wwwpart: gnu, setname: cflow }
@@ -15,9 +18,6 @@
 - { name: crystal, wwwpart: crystal-lang, setname: crystal-lang }
 - { name: crystal, category: games-mud, setname: crystal-mud }
 - { name: crystal, wwwpart: kde-look, setname: crystal-theme }
-
-- { name: cdf3,                        setname: cdf                       } # Common Data Format lib; XXX: move to 800?
-- { name: cdf, verpat: "0.*",          setname: cdf-df                    } # split out colorized df
 
 - { name: cogl, ruleset: deepin,       setname: deepin-cogl } # fork?
 

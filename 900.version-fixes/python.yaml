@@ -2,6 +2,9 @@
 
 - { name: "python:backports",          ver: "4.0.0",                                       incorrect: true } # opensuse fake
 - { name: "python:bottle",             verpat: "0\\.13.*",                                 devel: true }
+- { name: "python:configshell-fb",                                                         any_is_patch: true }
+- { name: "python:configshell-fb",     ver: "1.20",                                        incorrect: true }
+- { name: "python:configshell-fb",     verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1.fb$2 }
 - { name: "python:django-suit",        verpat: "0\\.3a[123]",                              outdated: true } # https://pypi.org/project/django-suit/#history
 - { name: "python:elixir",             ver: "0.8.0",                 family: sisyphus,     incorrect: true } # fake
 - { name: "python:elixir",                                           family: sisyphus,     untrusted: true }
@@ -22,12 +25,9 @@
 - { name: "python:pyspatialite",       ver: "3.0.1",                 noruleset: pypi,      incorrect: true } # it's 3.0.1-alpha-0
 - { name: "python:pyspatialite",       verpat: "(.*)(?:[_-]alpha[_-])(.*)",                setver: "$1alpha$2" }
 - { name: "python:pyyaml",             ver: "4.1",                                         outdated: true } # retracted: https://github.com/yaml/pyyaml/issues/211
-- { name: "python:configshell-fb",                                                         any_is_patch: true }
-- { name: "python:configshell-fb",     ver: "1.20",                                        incorrect: true }
-- { name: "python:configshell-fb",     verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1.fb$2 }
-- { name: "python:sphinx-rtd-theme",   verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:sphinx-py3doc-enhanced-theme", ver: "2.4.0",       ruleset: pld,         incorrect: true }
 - { name: "python:sphinx-py3doc-enhanced-theme",                     ruleset: pld,         untrusted: true }
+- { name: "python:sphinx-rtd-theme",   verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:tornado",            verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:webm",               vergt: "0.2.2",                                     successor: true } # http://xpra.org/src/ vs. https://github.com/expobrain/python-webm/releases
 - { name: "python:xlib",               verlonger: 2,                 ruleset: freebsd,     incorrect: true }

@@ -19,6 +19,7 @@
 - { name: wego,                        verpat: "20[0-9]{2}.*",                             ignore: true } # nix
 - { name: wesnoth,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: weston,                      verpat: ".*\\.9[0-9]",                              devel: true }
+- { name: whatweb,                     vergt: "0.4.7",               family: [debuntu,openbsd,gentoo,freebsd], ignore: true } # 0.4.8 has never been released
 - { name: widelands,                   verpat: "(?:b|build|0\\.)?([0-9]{2})(?:\\.0)?",     setver: "build$1" }
 - { name: widelands,                   verpat: "[^b].*",                                   ignore: true }
 - { name: wifi-radar,                  verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1.s$2 } # XXX: problem
@@ -29,14 +30,13 @@
 - { name: winexe,                      ver: "1.1",                   family: debuntu,      incorrect: true } # snapshot
 - { name: winff,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: wire,                        verpat: "20[0-9]{6}",                               ignore: true } # aur snapshot
+- { name: wiredtiger,                  verlonger: 3,                 ruleset: [alpine,arch], incorrect: true }
 - { name: wireguard,                   verpat: "20[0-9]{6}",                               incorrect: true } # it's 0.0.20YYMMDD
 - { name: wireguard,                   verpat: "4.*",                                      incorrect: true } # it's 0.0.20YYMMDD
-- { name: wireshark,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assuming odd versions are devel
-- { name: wiredtiger,                  verlonger: 3,                 ruleset: [alpine,arch], incorrect: true }
 - { name: wireless-regdb,              verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" } # https://git.kernel.org/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/refs/
 - { name: wireless-tools,              ver: ["29.9","30"],           ruleset: [kaos,mageia,openmandriva,pclinuxos,pld], incorrect: true } # 30pre9
 - { name: wireless-tools,                                            ruleset: [kaos,mageia,openmandriva,pclinuxos,pld], untrusted: true }
-- { name: whatweb,                     vergt: "0.4.7",               family: [debuntu,openbsd,gentoo,freebsd], ignore: true } # 0.4.8 has never been released
+- { name: wireshark,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assuming odd versions are devel
 - { name: woff2,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: woff2,                       ver: "20160306",                                    outdated: true } # latest 1.0.2 from 2017
 - { name: wordwarvi,                   ver: "1.1",                   family: [ sisyphus, fedora ], incorrect: true }

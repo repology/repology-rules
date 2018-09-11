@@ -13,24 +13,24 @@
 
 - { name: gist, wwwpart: vim, setname: vim-gist }
 
+- { name: git-fame, setname: git-fame-rb, wwwpart: oleander.io }
+
 - { name: gle, wwwpart: [gle-graphics,glx.sourceforge.net,glx.sf.net], setname: gle-graphics }
 - { name: gle, ruleset: sisyphus, noflag: libgle, setname: gle-graphics }
 
 - { name: glide, wwwpart: glide.sf.net, setname: glide-3dfx }
 - { name: glide, setname: "go:glide" }
 
-- { name: gonvert, ruleset: maemo, setname: gonvert-maemo }
+- { name: gnat-util, family: [arch,gentoo], setname: gnat-util-adacore }
+- { name: gnat-util, family: [freebsd,pkgsrc,ravenports], setname: gnat-util-gcc }
+- { name: gnat-util, warning: "please classify me" }
 
 - { name: gom, category: [sound,media-sound,universe/sound], setname: gom-mixer }
 - { name: gom, wwwpart: installiert, setname: gom-mixer }
 
 - { name: gomoku, family: [freebsd,macports,openbsd], setname: gnustep-gomoku } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
-- { name: git-fame, setname: git-fame-rb, wwwpart: oleander.io }
-
-- { name: gnat-util, family: [arch,gentoo], setname: gnat-util-adacore }
-- { name: gnat-util, family: [freebsd,pkgsrc,ravenports], setname: gnat-util-gcc }
-- { name: gnat-util, warning: "please classify me" }
+- { name: gonvert, ruleset: maemo, setname: gonvert-maemo }
 
 - { name: greg, wwwpart: gna.org, setname: greg-guile-test-framework } # burried by gna
 # otherwise podcase aggregator

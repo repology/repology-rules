@@ -60,8 +60,8 @@
 - { name: "perl:time-duration",        ver: "1.200000",                                    ignore: true }
 - { name: "perl:timedate",             verpat: "2\\.[0-9]{3,}",                            ignore: true }
 - { name: "perl:urpm",                                                                     ignore: false } # seem to not be mangled
-- { name: "perl:xml-parser",           ver: "2.44.01",                                     devel: true } # marked as developer release on cpan
-- { name: "perl:yaml-libyaml",         ver: "0.71",                  family: [ sisyphus ], ignore: true } # 0.71 wasn't an authorised release
 - { name: "perl:xml-namespacesupport", verpat: ".*\\+.*",                                  devel: true } # AOSC devel
+- { name: "perl:xml-parser",           ver: "2.44.01",                                     devel: true } # marked as developer release on cpan
 - { name: "perl:xml-rss-feed",         ver: ["2.212","2.32"],                              outdated: true } # 2.212 < 2.32 < 2.4
 - { name: "perl:xml-rss-feed",         ver: "2.40",                                        incorrect: true } # it's 2.4
+- { name: "perl:yaml-libyaml",         ver: "0.71",                  family: [ sisyphus ], ignore: true } # 0.71 wasn't an authorised release

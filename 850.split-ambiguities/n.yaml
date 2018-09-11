@@ -19,15 +19,14 @@
 
 - { name: nml, wwwpart: ropas, setname: "$0-lang" }
 
-#
 - { name: nodejs, wwwpart: ax25, setname: node-ax25 }
 - { name: nodejs, category: [universe/hamradio,lang,Development/Tools,hamradio], setname: node-ax25 }
 
 - { name: nstat, family: freebsd, setname: nstat-netflix }
 
-- { name: nvi, verpat: "2\\..*",       setname: nvi2 }
-
 - { name: nut, wwwpart: nut.sourceforge, setname: nut-nutrition }
 - { name: nut, ruleset: hpux, setname: nut-nutrition }
+
+- { name: nvi, verpat: "2\\..*",       setname: nvi2 }
 
 - { name: nvm, wwwpart: coreybutler, setname: nvm-windows }

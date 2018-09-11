@@ -1,10 +1,10 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { name: "r:nws",                     ver: "2.0.0.3",               family: debuntu,      ignore: true } # fake
-- { name: "r:hexbin",                  ver: "1.27.1-1",                                    ignore: true } # guix fake
-- { name: "r:waveslim",                ver: "1.12",                  family: rosa,         ignore: true } # fake
 - { name: r3,                          ver: "2.0.0",                 ruleset: buckaroo,    incorrect: true } # https://github.com/LoopPerfect/r3/tags
 - { name: r3,                                                        ruleset: buckaroo,    untrusted: true }
+- { name: "r:hexbin",                  ver: "1.27.1-1",                                    ignore: true } # guix fake
+- { name: "r:nws",                     ver: "2.0.0.3",               family: debuntu,      ignore: true } # fake
+- { name: "r:waveslim",                ver: "1.12",                  family: rosa,         ignore: true } # fake
 - { name: racer-game,                  ver: "1.1.64",                                      incorrect: true } # it's 1.1 64bit version
 - { name: racket,                      verpat: "299.*",                                    outdated: true } # something from 2005
 - { name: rage,                        verlonger: 3,                                       incorrect: true }
@@ -28,18 +28,18 @@
 - { name: recode,                      verpat: ".*20[0-9]{4}.*",                           ignore: true }
 - { name: recode,                      verge: "3.7",                                       successor: true } # fork
 - { name: regexxer,                    verpat: ".*20[0-9]{6}",                             ignore: true }
-- { name: reptyr,                      ver: "0.6.3a",                family: freebsd,      incorrect: true } # fake, no such tag
 - { name: remmina,                     verpat: "(.*?)([^0-9]*r[^0-9]*)(.*?)",              setver: "$1-rcgit.$3", devel: true, ignore: false } # r, rc, rcgit, etc.
 - { name: remmina,                     ver: "1.2.0",                 family: [alpine,sisyphus,debuntu,rosa], incorrect: true } # liars, it's at 1.2.0-rcgit.XX stage
 - { name: remmina,                                                   family: [alpine,sisyphus,debuntu,rosa], untrusted: true } # liars
+- { name: reptyr,                      ver: "0.6.3a",                family: freebsd,      incorrect: true } # fake, no such tag
 - { name: rinetd,                      ver: "0.62.1sam",                                   ignore: true } # debian garbage
 - { name: rpcgen,                                                    family: ravenports,   ignore: true } # fake
 - { name: rsh,                         verpat: "[0-9]{2}",                                 incorrect: true }
 - { name: rss-glx,                     verpat: "0\\.9[0-9]+",        family: openindiana,  incorrect: true } # it's 0.9.1, not 0.91
 - { name: rtl8812au,                   verpat: "201[56].*",                                ignore: true }
-- { name: rtorrent,                    verpat: "20[0-9]{6}.*",                             ignore: true } # nix fake
 - { name: rtmpdump,                    verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: rtmpdump,                    verlonger: 2,                                       ignore: true }
+- { name: rtorrent,                    verpat: "20[0-9]{6}.*",                             ignore: true } # nix fake
 - { name: "ruby:io-like",              ver: "0.3.0.20130301",                              ignore: true } # freebsd
 - { name: "ruby:net-ldap",             ver: "1.1.0",                 family: sisyphus,     incorrect: true }
 - { name: "ruby:net-ldap",                                           family: sisyphus,     untrusted: true }

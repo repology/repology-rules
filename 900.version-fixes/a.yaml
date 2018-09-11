@@ -32,9 +32,6 @@
 - { name: android-studio,              verpat: "([0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)([._].*)", setver: $1 } # drop meaningless build numbers
 - { name: android-tools,               verpat: "[0-9]{4,}.*",                              ignore: true } # fake
 - { name: anki,                        ver: "2.1.0",                 family: debuntu,      ignore: true } # fake
-- { name: asc,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]{3,}\\.[0-9]+",     devel: true } # http://terdon.asc-hq.org/asc/builds/
-- { name: aspcud,                      ver: "2011.03.17",                                  ignore: true }
-- { name: assaultcube,                 verpat: "[0-9]{8}",                                 ignore: true }
 - { name: apache,                      verpat: "2\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: apitrace,                                                                        noscheme: true }
 - { name: "apmod:rpaf",                verpat: "2015.*",             family: [ arch ],     ignore: true }
@@ -50,17 +47,18 @@
 - { name: argtable,                    verpat: "[0-9]{2}",                                 setver: 2.$0 } # artifacts from "argtable2 XX" vs. "argtable 2.XX"
 - { name: aria2,                       verpat: "(.*)-[0-9]+",        ruleset: scoop,       setver: $1 } # build number
 - { name: ark,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: arora,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: arpd,                        ver: ["1.0","1.0.2"],                               ignore: true }
 - { name: arptables,                   verpat: "20[0-9]{2}",                               ignore: true } # LEDE year
 - { name: arpwatch,                    ver: "2.1.15",                                      setver: "2.1a15" }
-- { name: axrtools,                    verlonger: 3,                                       incorrect: true }
-- { name: arora,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: arx-libertatis,              ver: "1.1.2pl1",                                    setver: "1.1.2" } # 3 LoC CMake fix, not worthy a new version
+- { name: asc,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]{3,}\\.[0-9]+",     devel: true } # http://terdon.asc-hq.org/asc/builds/
 - { name: asciijump,                   ver: "1.0.2",                 family: pld,          incorrect: true } # 1.0.2beta
 - { name: asdf,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: asdf,                        ver: "20101028",                                    outdated: true }
 - { name: asdf,                        verlonger: 3,                                       devel: true } # https://gitlab.common-lisp.net/asdf/asdf/blob/3.3.1.7/upgrade.lisp#L94
 - { name: asp2php,                     ver: "20080813",                                    ignore: true }
+- { name: aspcud,                      ver: "2011.03.17",                                  ignore: true }
 - { name: aspell,                      ver: "0.60.7",                family: [debuntu,openmandriva], incorrect: true } # snapshot actually
 - { name: aspell,                                                    family: [debuntu,openmandriva], untrusted: true }
 - { name: aspell-be,                   ver: ["0.50.0", "0.60"],                            ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/be/
@@ -80,6 +78,7 @@
 - { name: aspell-sr,                   ver: ["0.60.0", "0.60"],                            ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/sr/
 - { name: aspell-te,                   ver: "0.60.0",                                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/te/
 - { name: aspell-tet,                  ver: "0.50.0",                                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/tet/
+- { name: assaultcube,                 verpat: "[0-9]{8}",                                 ignore: true }
 - { name: at-spi2-atk,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: at-spi2-core,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: atk,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -93,3 +92,4 @@
 - { name: aview,                                                     ruleset: sisyphus,    untrusted: true }
 - { name: aview,                       verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+",        incorrect: true } # 1.3.0rc1, not 1.3.0.1 (pkgsrc)
 - { name: avinfo,                      ver: "1.0",                   family: [ sisyphus ], ignore: true }
+- { name: axrtools,                    verlonger: 3,                                       incorrect: true }

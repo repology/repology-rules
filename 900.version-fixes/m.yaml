@@ -2,18 +2,18 @@
 
 - { name: m2vrequantiser,              ver: "20030929",                                    outdated: true }
 - { name: macvim,                      verpat: "([0-9]+\\.[0-9]+)-([0-9]+)",               setver: "$1.snapshot$2" } # https://github.com/macvim-dev/macvim/releases
-- { name: mailx,                       verpat: ".*20[0-9]{6}",                             ignore: true }
-- { name: mame,                        ver: "0153s",                                       incorrect: true } # pclinuxos
 - { name: magic,                       verpat: "8\\.2\\..*",                               devel: true }
 - { name: magic,                       verpat: "[0-9]\\.[0-9]\\.[0-9]{3}",                 ignore: false } # unignore some good -devel's
 - { name: mailcap,                     verpat: "2\\.3\\..*",         ruleset: pld,         incorrect: true } # it's 2.1.x
+- { name: mailx,                       verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: make,                        verpat: ".*pre.*",                                  ignore: true }
 - { name: makepp,                      verpat: "[0-9]+",                                   incorrect: true }
+- { name: mame,                        ver: "0153s",                                       incorrect: true } # pclinuxos
 - { name: marathon-evil,                                                                   noscheme: true }
 - { name: marble,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: mariadb,                     verge: "10.3",                                      devel: true } # https://downloads.mariadb.org/
 - { name: mari0,                       ver: "1.6.1",                 family: fedora,       incorrect: true } # rpmfusion
 - { name: mari0,                                                     family: fedora,       untrusted: true }
+- { name: mariadb,                     verge: "10.3",                                      devel: true } # https://downloads.mariadb.org/
 - { name: markdown,                    ver: "1.0.2b8",               family: debuntu,      incorrect: true }
 - { name: markdown,                                                  family: debuntu,      untrusted: true }
 - { name: massren,                     verpat: "20[0-9]{6}",                               ignore: true }
@@ -34,12 +34,12 @@
 - { name: microcode-ctl,               verpat: "2\\..*",                                   devel: true } # https://pagure.io/microcode_ctl/releases
 - { name: midori,                      ver: "0.5.12",                family: aosc,         incorrect: true } # not released
 - { name: midori,                                                    family: aosc,         untrusted: true }
-- { name: minbif,                      verpat: ".*20[0-9]{6}",                             ignore: true }
-- { name: minio,                       verpat: "[0-9]+",                                   incorrect: true } # should use separators
-- { name: miniupnpd,                   verpat: "[0-9]+\\.[0-9]+\\.20[0-9]{6}",             devel: true }
 - { name: mimikatz,                    verpat: ".*20[0-9]{6}",                             ignore: true } # BlackArch snap
+- { name: minbif,                      verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: minimodem,                   verpat: ".*-[0-9]+",                                incorrect: true } # -1 is not part of the version
 - { name: minimodem,                   ver: "0.24.1",                family: gentoo,       ignore: true } # actually, pentoo. it's normalized 0.24-1 which is incorrect, see prev. rule
+- { name: minio,                       verpat: "[0-9]+",                                   incorrect: true } # should use separators
+- { name: miniupnpd,                   verpat: "[0-9]+\\.[0-9]+\\.20[0-9]{6}",             devel: true }
 - { name: mixxx,                       verpat: "2\\.1\\.[0-9]+",     ruleset: [aosc,fedora,kaos], incorrect: true } # actually unitedrpms, but knowing fedora I won't trust it whole
 - { name: mixxx,                                                     ruleset: [aosc,fedora,kaos], untrusted: true }
 - { name: mkgmap,                      verpat: "0\\.0\\.0svn([0-9]{4,})",                  setver: "r$1" }
@@ -75,16 +75,16 @@
 - { name: mspdebug,                    verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: mtd-utils,                                                 ruleset: maemo,       ignore: true } # fork?
 - { name: mtree,                                                     family: ravenports,   ignore: true } # fake
-- { name: mumble,                                                    family: kaos,         ignore: true } # snapshot with random version
 - { name: multimon-ng,                 verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: mumble,                                                    family: kaos,         ignore: true } # snapshot with random version
 - { name: mumble,                      ver: "1.2.89",                                      incorrect: true }
 - { name: mumble,                      verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: munin,                       verpat: "[0-9]+\\.999.*",                           devel: true }
-- { name: mupen64plus-libretro,                                                            noscheme: true }
 - { name: muparser,                    verpat: "200\\..*",                                 incorrect: true } # pkgsrc admitted nonsence
 - { name: muparser,                    verpat: "[0-9a-f]{7}",                              ignore: true }
 - { name: muparser,                    verpat: "[0-9]+\\.[0-9]+\\.[0-9]+-[0-9]+",          ignore: true }
+- { name: mupen64plus-libretro,                                                            noscheme: true }
 - { name: mutter,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mx,                          verpat: "[0-9]+\\.99.*",                            devel: true }
 - { name: mygui,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: mythes-fr,                   verpat: "20[0-9]{6}",                               ignore: true }
-- { name: mx,                          verpat: "[0-9]+\\.99.*",                            devel: true }

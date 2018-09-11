@@ -27,9 +27,9 @@
 - { name: cegui,                       verpat: "6\\..*",                                   setver: "0.$0" } # it's 0.6.2!
 - { name: ceph,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{4}.*",    incorrect: true } # opensuse garbage
 - { name: ceph,                        verpat: "[0-9]+[13579]\\..*",                       devel: true } # assumed
+- { name: cfitsio,                     verpat: "[0-9]{4}",                                 ignore: true }
 - { name: cfr,                         verpat: "[0-9]{3}",                                 setver: "0_$0" } # blackarch, broken schema
 - { name: cfssl,                       verpat: "20[0-9]{6}.*",                             ignore: true }
-- { name: cfitsio,                     verpat: "[0-9]{4}",                                 ignore: true }
 - { name: cgrep,                       ver: "8.15",                  ruleset: aix,         incorrect: true }
 - { name: cgrep,                                                     ruleset: aix,         untrusted: true }
 - { name: chakracore,                  wwwpart: cauldrondevelopmentllc,                    ignore: true } # fork with different versioning
@@ -39,8 +39,8 @@
 - { name: chntpw,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: chntpw,                      ver: "20100627",                                    outdated: true }
 - { name: chromium,                    verpat: ".*-r[0-9]+",                               ignore: true } # scoop
-- { name: citra,                                                                           noscheme: true }
 - { name: circleci-cli,                verpat: "([0-9.]+)-[0-9a-f]+",                      setver: $1 } # commit hash is not a part of the version https://github.com/circleci/local-cli/releases
+- { name: citra,                                                                           noscheme: true }
 - { name: ckermit,                     ver: "302",                                         setver: "9.0.$0" }
 - { name: ckermit,                     ver: "9.0.304",                                     devel: true }
 - { name: cl-fad,                      verpat: "20[0-9]{6}",                               ignore: true }
@@ -53,9 +53,9 @@
 - { name: clisp,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: clisp,                       verpat: "2\\.49[.-][0-9]{2}",                       ignore: true }
 - { name: clisp,                       ver: "2.50",                  ruleset: slitaz,      incorrect: true }
+- { name: clojure,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{3,}",     incorrect: true } # homebrew and nix garbage
 - { name: clonekeen,                   verpat: "0\\.(.*)",                                 setver: "$1" }
 - { name: cloog,                       ver: "0.18.5",                family: [haikuports, aosc, arch], ignore: true } # unofficial fork
-- { name: clojure,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{3,}",     incorrect: true } # homebrew and nix garbage
 - { name: clusterssh,                                                family: gentoo,       ignore: true } # perl module version mangling rules apply here
 - { name: cmatrix,                     ver: "1.2b",                  family: termux,       incorrect: true }
 - { name: cmatrix,                                                   family: termux,       untrusted: true }
@@ -89,9 +89,9 @@
 - { name: cpulimit,                    verpat: "20[0-8]{6}.*",                             ignore: true } # hyperbola
 - { name: crack-attack,                ver: "1.1.15_cvs_01",                               ignore: true }
 - { name: craft-libretro,                                                                  noscheme: true }
+- { name: crda,                        ver: "3.18_2016.02.08",                             ignore: true }
 - { name: creduce,                     verpat: "2\\.8.*",            ruleset: [debuntu,openmandriva], incorrect: true }
 - { name: creduce,                                                   ruleset: [debuntu,openmandriva], untrusted: true }
-- { name: crda,                        ver: "3.18_2016.02.08",                             ignore: true }
 - { name: crimson,                     ver: "2014.10",                                     ignore: true }
 - { name: critterding,                 verpat: "1\\.0(beta.*)",                            setver: "$1" }
 - { name: cronolog,                    ver: "1.7.0",                 ruleset: openpkg,     incorrect: true } # 1.7.0-beta
