@@ -80,6 +80,8 @@
 - { setname: libm4ri,                  name: m4ri }
 - { setname: libm4rie,                 name: m4rie }
 - { setname: libdmapsharing,           name: [libdmapsharing3,libdmapsharing4] }
+- { setname: libmatekbd,               name: libmatekbd-dev, weak_devel: true }
+- { setname: libmatekbd,               name: libmatekbd-gtk2, addflavor: true }
 - { setname: libmediaart,              namepat: "(?:compat-)?libmediaart[0-9.-]+" }
 - { setname: libmikmod,                name: libmikmod2 }
 - { setname: libmm,                    namepat: "libmm[0-9.-]+" }
