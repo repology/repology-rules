@@ -25,9 +25,9 @@
 - { name: "python:configshell-fb",                                                         any_is_patch: true }
 - { name: "python:configshell-fb",     ver: "1.20",                                        incorrect: true }
 - { name: "python:configshell-fb",     verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1.fb$2 }
-- { name: "python:sphinx_rtd_theme",   verpat: ".*[ab].*",                                 devel: true }
-- { name: "python:sphinx_py3doc_enhanced_theme", ver: "2.4.0",       ruleset: pld,         incorrect: true }
-- { name: "python:sphinx_py3doc_enhanced_theme",                     ruleset: pld,         untrusted: true }
+- { name: "python:sphinx-rtd-theme",   verpat: ".*[ab].*",                                 devel: true }
+- { name: "python:sphinx-py3doc-enhanced-theme", ver: "2.4.0",       ruleset: pld,         incorrect: true }
+- { name: "python:sphinx-py3doc-enhanced-theme",                     ruleset: pld,         untrusted: true }
 - { name: "python:tornado",            verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:webm",               vergt: "0.2.2",                                     successor: true } # http://xpra.org/src/ vs. https://github.com/expobrain/python-webm/releases
 - { name: "python:xlib",               verlonger: 2,                 ruleset: freebsd,     incorrect: true }
