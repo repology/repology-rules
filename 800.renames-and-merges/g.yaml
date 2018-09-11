@@ -214,10 +214,10 @@
 - { setname: gobby,                    name: gobby05 }
 - { setname: gobby,                    name: gobby-infinote, addflavor: infinote }
 - { setname: gobject-introspection,    name: [gobject-introspection-common,gobject-introspection-runtime] }
-- { setname: godot,                    name: [godot-pulse,godot-tools,godot-mono,godot-engine], addflavor: true }
-- { setname: godot,                    name: godot2 }
-- { setname: godot,                    name: godot2-tools, addflavor: godot-tools }
-- { setname: godot,                    name: godot-rc, ignore: true }
+- { setname: godot,                    name: [godot-pulse,godot-tools,godot-mono,godot-engine,godot-osc], addflavor: true }
+- { setname: godot,                    name: [godot2,godot3] }
+- { setname: godot,                    name: godot2-tools, addflavor: tools }
+- { setname: godot,                    name: godot-rc, weak_devel: true }
 - { setname: goffice,                  name: goffice-light }
 - { setname: goffice,                  namepat: "goffice[0-9.-]+" }
 - { setname: goldencheetah,            name: golden-cheetah }
