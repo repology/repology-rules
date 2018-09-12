@@ -17,8 +17,30 @@
 - { name: markdown,                    ver: "1.0.2b8",               family: debuntu,      incorrect: true }
 - { name: markdown,                                                  family: debuntu,      untrusted: true }
 - { name: massren,                     verpat: "20[0-9]{6}",                               ignore: true }
+- { name: mate-applets,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-backgrounds,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mate-calc,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-control-center,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mate-desktop,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-icon-theme,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-icon-theme-faenza,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-indicator-applet,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-media,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-menus,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-netbook,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-notification-daemon,    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-panel,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-polkit,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-power-manager,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-screensaver,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-sensors-applet,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-session-manager,        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-settings-daemon,        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-system-monitor,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-terminal,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-user-guide,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-user-share,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-utils,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: matreshka,                   ver: "0.8.0",                 family: fedora,       ignore: true } # fake (see report)
 - { name: mawk,                        verpat: "20[0-9]{6}",                               incorrect: true } # it's e.g. 1.3.4-20171017
 - { name: mbrola,                      verpat: "([0-9])([0-9]+[a-z])",                     setver: $1.$2 }

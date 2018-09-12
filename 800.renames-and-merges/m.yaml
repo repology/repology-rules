@@ -24,8 +24,43 @@
 - { setname: master-pdf-editor,        name: [masterpdfeditor,masterpdfeditor4] }
 - { setname: master-pdf-editor,        name: masterpdfeditor-qt4, addflavor: qt4 }
 - { setname: mastodon,                 name: mastodon-docker, addflavor: docker }
-- { setname: mate-control-center,      name: mate-control-center-dev }
-- { setname: mate-control-center,      name: mate-control-center-gtk2, addflavor: gtk2 }
+- { setname: mate-applets,             name: mate-applets-dev, weak_devel: true }
+- { setname: mate-applets,             name: mate-applets-gtk2, addflavor: true }
+- { setname: mate-backgrounds,         name: mate-backgrounds-dev, weak_devel: true }
+- { setname: mate-common,              name: mate-common-dev, weak_devel: true }
+- { setname: mate-control-center,      name: mate-control-center-dev, weak_devel: true }
+- { setname: mate-control-center,      name: mate-control-center-gtk2, addflavor: true }
+- { setname: mate-desktop,             name: [mate-desktop-gtk2, mate-desktop-schemas-gtk2], addflavor: true }
+- { setname: mate-desktop,             name: mate-desktop-dev, weak_devel: true }
+- { setname: mate-icon-theme,          name: mate-icon-theme-dev, weak_devel: true }
+- { setname: mate-icon-theme-faenza,   name: mate-icon-theme-faenza-dev, weak_devel: true }
+- { setname: mate-media,               name: mate-media-dev, weak_devel: true }
+- { setname: mate-media,               name: mate-media-gtk2, addflavor: true }
+- { setname: mate-menus,               name: mate-menus-dev, weak_devel: true }
+- { setname: mate-notification-daemon, name: mate-notification-daemon-dev, weak_devel: true }
+- { setname: mate-notification-daemon, name: mate-notification-daemon-gtk2, addflavor: true }
+- { setname: mate-panel,               name: mate-panel-dev, weak_devel: true }
+- { setname: mate-panel,               name: mate-panel-gtk2, addflavor: true }
+- { setname: mate-polkit,              name: mate-polkit-dev, weak_devel: true }
+- { setname: mate-polkit,              name: mate-polkit-gtk2, addflavor: true }
+- { setname: mate-power-manager,       name: mate-power-manager-dev, weak_devel: true }
+- { setname: mate-power-manager,       name: [mate-power-manager-gtk2,mate-power-manager-upower], addflavor: true }
+- { setname: mate-screensaver,         name: mate-screensaver-dev, weak_devel: true }
+- { setname: mate-screensaver,         name: mate-screensaver-gtk2, addflavor: true }
+- { setname: mate-sensors-applet,      name: mate-sensors-applet-gtk2, addflavor: true }
+- { setname: mate-session-manager,     name: mate-session-manager-dev, weak_devel: true }
+- { setname: mate-session-manager,     name: [mate-session-manager-gtk2,mate-session-manager-upower], addflavor: true }
+- { setname: mate-settings-daemon,     name: mate-settings-daemon-dev, weak_devel: true }
+- { setname: mate-settings-daemon,     name: mate-settings-daemon-gtk2, addflavor: true }
+- { setname: mate-system-monitor,      name: mate-system-monitor-dev, weak_devel: true }
+- { setname: mate-system-monitor,      name: mate-system-monitor-gtk2, addflavor: true }
+- { setname: mate-terminal,            name: mate-terminal-dev, weak_devel: true }
+- { setname: mate-terminal,            name: mate-terminal-gtk2, addflavor: true }
+- { setname: mate-user-guide,          name: mate-user-guide-dev, weak_devel: true }
+- { setname: mate-user-share,          name: mate-user-share-dev, weak_devel: true }
+- { setname: mate-user-share,          name: mate-user-share-gtk2, addflavor: true }
+- { setname: mate-utils,               name: mate-utils-dev, weak_devel: true }
+- { setname: mate-utils,               name: mate-utils-gtk2, addflavor: true }
 - { setname: mathics,                  name: "python:mathics" }
 - { setname: matio,                    name: libmatio }
 - { setname: mattermost,               name: [mattermost-server, mattermost-webapp], addflavor: true }
