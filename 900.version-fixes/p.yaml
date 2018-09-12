@@ -44,6 +44,8 @@
 - { name: ply,                                                                             noscheme: true } # https://github.com/iovisor/ply/releases
 - { name: pmount,                      ver: "0.9.99",                                      setver: "0.9.99_alpha" }
 - { name: pmount,                      verpat: "0\\.9\\.99.*",                             devel: true }
+- { name: pmw,                         verpat: "[0-9]+\\.[0-9]{3}",                        incorrect: true } # #693
+- { name: pmw,                         ver: "4.240",                                       outdated: true } # #693
 - { name: png2ico,                     verpat: "20[0-9]{6}",                               incorrect: true } # it's 2002-12-08
 - { name: png2ico,                     ver: "2008.12.08",                                  incorrect: true }
 - { name: polari,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
