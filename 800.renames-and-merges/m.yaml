@@ -74,6 +74,7 @@
 - { setname: mixxx,                    name: mixxx-qt5, addflavor: true }
 - { setname: moc,                      name: moc-pulse, addflavor: pulse }
 - { setname: moc,                      name: mocp }
+- { setname: modplugtools,             name: modplugplay, outdated: true } # modplugplay (2003, upstream dead) is now contained in modplugtools (2010); the latter also uses own versioning scheme
 - { setname: monotone,                 name: monotone-server, addflavor: true }
 - { setname: moodle,                   namepat: "moodle[0-9.-]+" }
 - { setname: moony.lv2,                name: moony-lv2 }
