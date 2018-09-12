@@ -8,6 +8,8 @@
 - { setname: cairo-clock,              name: cairo-clock-ccw }
 - { setname: cairo-dock-plugins,       name: cairo-dock-plug-ins }
 - { setname: cairomm,                  namepat: "(?:lib)?cairomm[0-9.-]*(-docs)?", addflavor: $1 }
+- { setname: caja,                     name: caja-dev, weak_devel: true }
+- { setname: caja,                     name: caja-gtk2, addflavor: true }
 - { setname: caja-extensions,          name: [caja-extensions-common,caja-gksu,caja-image-converter,caja-open-terminal,caja-sendto,caja-share,caja-wallpaper,caja-xattr-tags], addflavor: true }
 - { setname: caja-extensions,          name: [caja-extensions-common-dev,caja-gksu-dev,caja-image-converter-dev,caja-open-terminal-dev,caja-sendto-dev,caja-share-dev,caja-wallpaper-dev,caja-xattr-tags-dev], addflavor: true, weak_devel: true }
 - { setname: calibre,                  name: [calibre-debug,calibre-normal], addflavor: true }

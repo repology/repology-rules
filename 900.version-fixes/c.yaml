@@ -5,6 +5,7 @@
 - { name: ca-certificates,                                           family: [alpine,crux], ignore: true } # see https://hg.mozilla.org/projects/nss/log/tip/lib/ckfw/builtins/certdata.txt for valid dates
 - { name: cairo,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: cairomm,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: caja,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: caja-dropbox,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: caja-extensions,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: calf,                        verpat: "20[0-9]{6}.*",                             ignore: true } # slackbuilds garbage
