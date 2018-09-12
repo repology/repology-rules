@@ -63,6 +63,8 @@
 - { setname: enscript,                 namepat: "enscript-.*", family: freebsd } # enscript-a4, enscript-letter, enscript-letterdj
 - { setname: entagged,                 name: entagged-tageditor, family: gentoo }
 - { setname: enigma-sgtatham,          name: enygma, family: freebsd }
+- { setname: eom,                      name: eom-dev, weak_devel: true }
+- { setname: eom,                      name: eom-gtk2, addflavor: true }
 - { setname: eot-utils,                name: eot-utilities }
 - { setname: ephoto,                   name: ephoto-git, ignore: true }
 - { setname: epiphany,                 name: epiphany-browser }
