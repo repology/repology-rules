@@ -41,6 +41,7 @@
 - { name: plantuml,                    verpat: "[0-9]{4,5}",                               incorrect: true } # 1.2018.8
 - { name: pldebugger,                  verge: "9",                                         outdated: true } # https://git.postgresql.org/gitweb/?p=pldebugger.git;a=tag;h=264450daaf89455f92ebcd7d4ff2e8a0a9a19209
 - { name: plowshare-modules,                                                               noscheme: true } # no official releases
+- { name: pluma,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ply,                                                                             noscheme: true } # https://github.com/iovisor/ply/releases
 - { name: pmount,                      ver: "0.9.99",                                      setver: "0.9.99_alpha" }
 - { name: pmount,                      verpat: "0\\.9\\.99.*",                             devel: true }

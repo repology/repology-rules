@@ -77,6 +77,9 @@
 - { setname: pkgconf,                  name: pkgconfig, family: ravenports } # XXX
 - { setname: plpgsql-check,            namepat: "(postgresql[0-9.-]*)-plpgsql-check", addflavor: $1 }
 - { setname: plr,                      namepat: "(postgresql[0-9.-]*)-plr", addflavor: $1 }
+- { setname: pluma,                    name: pluma-1.16 }
+- { setname: pluma,                    name: pluma-dev, weak_devel: true }
+- { setname: pluma,                    name: pluma-gtk2, addflavor: true }
 - { setname: plumed,                   name: plumed-namd, addflavor: namd }
 - { setname: plv8,                     namepat: "(postgresql[0-9.-]*)-plv8(js)?", addflavor: $1 }
 - { setname: png++,                    name: pngpp }
