@@ -15,6 +15,8 @@
 - { setname: mandoc,                   name: mdocml } # mdocml is an old name (schwarze@openbsd.org)
 - { setname: manpages,                 name: [man-pages,linux-man-pages,linux-manpages] }
 - { setname: marathon-evil,            name: marathon-evil-data }
+- { setname: marco,                    name: marco-dev, weak_devel: true }
+- { setname: marco,                    name: marco-gtk2, addflavor: true }
 - { setname: mariadb,                  namepat: "(lib)?mariadb[0-9.-]*(clients?|server)?[0-9.-]*", addflavor: [$1,$2] }
 - { setname: mariadb,                  name: [libmariadbclient-mainline-noconflict,mariadb-clients-mainline-noconflict], addflavor: true }
 - { setname: mariadb,                  name: [mariadb-galera,mariadb-mainline-noconflict], addflavor: true }
