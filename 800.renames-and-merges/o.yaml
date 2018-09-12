@@ -78,7 +78,7 @@
 - { setname: opentyrian,               name: open-tyrian }
 - { setname: openvpn,                  name: [openvpn-mbedtls,openvpn-polarssl,openvpn2,openvpn23] }
 - { setname: openzwave,                name: open-zwave }
-- { setname: openssl,                  namepat: "(?:compat-)?(?:lib)?openssl[0-9.-](?:[0-9.-]+[a-z])?" }
+- { setname: openssl,                  namepat: "(?:compat-)?(?:lib)?openssl[0-9.-]*(?:[0-9.-]+[a-z])?" }
 - { setname: openssl,                  name: openssl-devel, weak_devel: true }
 - { setname: openssl,                  name: [openssl-nonfree,openssl-threads,openssl-zlib], addflavor: true }
 - { setname: openssl,                  name: openssl098-dev }
