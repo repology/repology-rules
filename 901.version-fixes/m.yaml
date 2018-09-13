@@ -89,7 +89,7 @@
 - { name: mp3diags,                    verpat: "1\\.[0-9]*[13579]\\..*",                   devel: true } # assumed; https://sourceforge.net/projects/mp3diags/files/unstable/mp3diags-src/
 - { name: mpdscribble,                 ver: "0.23",                  family: openwrt,      incorrect: true } # entware
 - { name: mpdscribble,                                               family: openwrt,      untrusted: true } # entware
-- { name: mpfr,                        verlonger: 3,                                       ignore: true } # openbsd, openindiana fakes
+- { name: mpfr,                        verlonger: 3,                                       incorrect: true } # openbsd, openpkg, openindiana fakes
 - { name: mphidflash,                  verpat: "20[0-9]{6}.*",                             ignore: true } # fake
 - { name: mpich,                       verpat: ".*[ab].*",                                 devel: true }
 - { name: [mplayer,mencoder],          verpat: ".*[0-9]{4}.*",                             ignore: true } # it's x.y.z, ignore all revisions and dates
