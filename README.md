@@ -20,7 +20,7 @@ a quick pointer of how to add specific rules:
 
 ### You want to mark incorrect version of specific package?
 
-- Open correspoinding yaml file under `900.version-fixes/`
+- Open correspoinding yaml file under `901.version-fixes/`
 - Add rule like: `- { name: <package name>, ver: <bad version>, ignore: true }`
 - Consider using a `verpat` with regular expression to match similar
   bad versions which may appear in the future. Examples:
@@ -135,7 +135,7 @@ the ruleset.
   needs rule here, it's most positively incorrectly named.
 - **800.renames-and-merges** - pure merge rules
 - **850.split-ambiguities** - pure split rules
-- **900.version-fixes** - pure version fixes
+- **901.version-fixes** - pure version fixes
 - **950.split-branches** - additional split section for project which
   have multiple development branches which are incompatible and may
   present in a single repository at the same time for compatibility
@@ -146,7 +146,7 @@ the ruleset.
   and removed.
 
 This may seem complex, but in practice the mostly used rulesets are
-**800**, **850** and **900**, which cleanly correspond to three functional
+**800**, **850** and **901**, which cleanly correspond to three functional
 classes of rules described in the previous section.
 
 Other parts of the ruleset may need attention when new repositories are
