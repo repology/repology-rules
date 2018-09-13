@@ -8,6 +8,7 @@
 - { name: odoo,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: ogre,                        verpat: "2.*",                                      ignore: true }
 - { name: okteta,                      verpat: "(4|15|16|17|18).*",                        outdated: true }  # went from following KDE versioning to its own 0.x/1.x-based versioning
+- { name: okular,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ollydbg,                     verpat: "[0-9]{3}.*",                               incorrect: true } # it's 1.10, 2.0, 2.01g
 - { name: onioncat,                    verpat: "0\\.2\\.2\\.r[0-9]+.*",                    any_is_patch: true } # https://www.cypherpunk.at/ocat/download/Source/stable/
 - { name: onioncat,                    ver: "0\\.2\\.2",                                   incorrect: true }
