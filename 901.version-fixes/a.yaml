@@ -24,6 +24,7 @@
 - { name: [alienarena, alienarena-data], verpat: ".*20[0-9]{6}.*",                         ignore: true }
 - { name: alsamixergui,                ver: "0.9.0.1.2",                                   incorrect: true } # gentoo, so fake. it's 0.9.0rc1-2
 - { name: amarok,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # nix garbage
+- { name: amass,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: amiwm,                       ver: "0.21.2",                                      incorrect: true } # it's 0.21pl2; the projects is dead since 2010, so I see no need to bother with pattern rule
 - { name: amiwm,                                                                           p_is_patch: true }
 - { name: amule,                       verpat: "[0-9]{5}",                                 ignore: true } # revision
