@@ -30,6 +30,7 @@
 - { name: cegui,                       verpat: "6\\..*",                                   setver: "0.$0" } # it's 0.6.2!
 - { name: ceph,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{4}.*",    incorrect: true } # opensuse garbage
 - { name: ceph,                        verpat: "[0-9]+[13579]\\..*",                       devel: true } # assumed
+- { name: cervisia,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: cfitsio,                     verpat: "[0-9]{4}",                                 ignore: true }
 - { name: cfr,                         verpat: "[0-9]{3}",                                 setver: "0_$0" } # blackarch, broken schema
 - { name: cfssl,                       verpat: "20[0-9]{6}.*",                             ignore: true }

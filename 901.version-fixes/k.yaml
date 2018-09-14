@@ -1,12 +1,26 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: kaddressbook,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kalarm,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kalarmcal,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kalgebra,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kalzium,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kanagram,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kapptemplate,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kbfs,                        verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: kbibtex,                     ver: "0.8",                   ruleset: debuntu,     ignore: true } # actually 0.8~20170819git31a77b27e8e83836e which cannot be parsed properly
 - { name: kbounce,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kbruch,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kbuild,                      verlonger: 3,                                       ignore: true } # 0.1.9998.8.2814.25 @ pkgsrc
 - { name: kbuild,                      verpat: ".*[rs].*",                                 ignore: true } # 0.1.9998.r2813 | 0.1.9998svn2814
+- { name: kcachegrind,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kcalc,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kcalcore,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kcalutils,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kcharselect,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kcolorchooser,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kcontacts,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kcron,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kde-common,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdiff3,                      verpat: "1\\.7\\.0-[0-8a-f]{7}.*",                  ignore: true } # nix snapshot
 - { name: kdiff3,                      verpat: ".*201[789].*",                             ignore: true } # nix snapshot
@@ -23,6 +37,7 @@
 - { name: kismet,                      verpat: "2008.*",                                   outdated: true } # XXX: version format problem
 - { name: kismet,                      verpat: "([0-9]{4})\\.([0-9]+)\\.([0-9]+)",         setver: $1-$2-R$3 }
 - { name: kleopatra,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: klettres,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kmouth,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: knights,                     ver: "2.5.85",                                      incorrect: true } # kaos
 - { name: knights,                     verpat: ".*20[0-9]{6}.*",                           ignore: true } # gentoo
