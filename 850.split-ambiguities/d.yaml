@@ -1,6 +1,7 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
-- { name: dash, setname: emacs-dash, family: gentoo, category: app-emacs }
+- { name: dash, family: gentoo, category: app-emacs, setname: emacs-dash }
+- { name: dash, wwwpart: dashpay, setname: dashcore }
 
 - { name: date, family: vcpkg, setname: howard-hinnant-date } # https://github.com/HowardHinnant/date
 - { name: date, wwwpart: HowardHinnant, setname: howard-hinnant-date }
