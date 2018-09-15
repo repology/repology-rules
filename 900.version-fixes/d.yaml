@@ -64,6 +64,8 @@
 - { name: dtc,                         verpat: "20[0-9]{6}",                               ignore: true }
 - { name: dukto,                       verpat: "[0-9]{3}",                                 incorrect: true } # slitaz
 - { name: dukto,                       verpat: "r([0-9]+)",                                setver: $1 }
+- { name: dump1090,                    verpat: "20[0-9]{2}.*",                             outdated: true } # see dump1090 merge rule
+- { name: dump1090,                    verpat: "3[0-9]{2}.*",                              ignore: true }
 - { name: dwb,                         verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: dwb,                         ver: "2015.10.09",                                  incorrect: true } # https://bitbucket.org/portix/dwb/downloads/
 - { name: dzen,                        verpat: "[0-9]{10}",                                ignore: true }
