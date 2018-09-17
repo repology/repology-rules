@@ -79,6 +79,7 @@
 - { name: proxychains-ng,              verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: psi-plus,                    verpat: "20[0-9]{6}.*",                             snapshot: true } # opensuse garbage
 - { name: psi-plus,                    verlonger: 3,                                       incorrect: true } # aur garbage
+- { name: pstack,                      vergt: "1.3.1",               ruleset: deepin,      incorrect: true }
 - { name: public-suffix-list,                                                              noscheme: true } # https://github.com/publicsuffix/list/releases
 - { name: pulseaudio-alsa,                                                                 noscheme: true } # just some versionless config for pulseaudio
 - { name: pulseaudio-equalizer,        ver: "2.7.0.2",                                     incorrect: true }
