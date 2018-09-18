@@ -1,6 +1,9 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: k3b,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kaddressbook,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kaccounts-integration,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kaccounts-providers,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kalarm,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kalarmcal,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kalgebra,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -21,21 +24,47 @@
 - { name: kcolorchooser,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kcontacts,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kcron,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdav,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kde-common,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdebugsettings,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdeedu-data,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdegraphics-mobipocket,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdegraphics-thumbnailers,    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdenetwork-filesharing,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdenlive,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdepim-addons,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdepim-apps-libs,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdepim-runtime,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdesdk-kioslaves,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdesdk-thumbnailers,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdialog,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdiff3,                      verpat: "1\\.7\\.0-[0-8a-f]{7}.*",                  ignore: true } # nix snapshot
 - { name: kdiff3,                      verpat: ".*201[789].*",                             ignore: true } # nix snapshot
 - { name: kdnssd,                      verpat: "1[6789]\\..*",                             ignore: true }
+- { name: keditbookmarks,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: keepasshttp,                 verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: keybinder,                   verpat: "3\\..*",                                   incorrect: true }
+- { name: kfind,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kfourinline,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kgeography,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kget,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kget,                        verpat: "20[0-9]{6}",                               ignore: true } # nix snapshot
+- { name: kgpg,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: khangman,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: khelpcenter,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kicad,                       verpat: "20[0-9][0-9].*",                           ignore: true }
 - { name: kicad-library,               verpat: "20[0-9][0-9].*",                           ignore: true }
+- { name: kidentitymanagement,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kile,                        verpat: ".*[ab].*",                                 devel: true }
 - { name: kile,                        verpat: "[0-9]+\\.9\\.9[0-9]+.*",                   devel: true } # 2.9.92 is the same as 3.0 beta2. We can't deal with this nonsense
 - { name: killerbee,                   ver: "99",                                          incorrect: true }
+- { name: kimap,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kio,                         ver: "5.47.0a",                                     incorrect: true }
+- { name: kio-extras,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kiriki,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kismet,                      verpat: "2008.*",                                   outdated: true } # XXX: version format problem
 - { name: kismet,                      verpat: "([0-9]{4})\\.([0-9]+)\\.([0-9]+)",         setver: $1-$2-R$3 }
+- { name: kiten,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kleopatra,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: klettres,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kmouth,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
