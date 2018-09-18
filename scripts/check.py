@@ -228,6 +228,9 @@ def validate_values(rule):
             for valitem in val:
                 validate_value(key, valitem)
 
+    if 'name' in rule and 'setname' in rule and rule['name'] == rule['setname']:
+        raise BadRuleValue('setname is the same as name, rule is tautologic'.format(key))
+
 
 class RulesetCheckResult:
     def __init__(self, filename):
