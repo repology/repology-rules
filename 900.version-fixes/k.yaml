@@ -65,8 +65,16 @@
 - { name: kismet,                      verpat: "2008.*",                                   outdated: true } # XXX: version format problem
 - { name: kismet,                      verpat: "([0-9]{4})\\.([0-9]+)\\.([0-9]+)",         setver: $1-$2-R$3 }
 - { name: kiten,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kldap,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kleopatra,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: klettres,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kmag,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kmahjongg,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kmail,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kmbox,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kmime,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kmines,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kmix,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kmouth,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: knights,                     ver: "2.5.85",                                      incorrect: true } # kaos
 - { name: knights,                     verpat: ".*20[0-9]{6}.*",                           ignore: true } # gentoo
