@@ -11,6 +11,8 @@
 - { name: "python:hg-git",             verpat: "[0-9a-f]{12}",                             incorrect: true, disposable: true } # slitaz
 - { name: "python:html2text",          ver: "2018.9.1",                                    incorrect: true, disposable: true } # 2018.1.9
 - { name: "python:httplib2",           verpat: "2-.*",                                     incorrect: true }
+- { name: "python:jcconv",             ver: "0.2.4",                 ruleset: fedora,      incorrect: true }
+- { name: "python:jcconv",                                           ruleset: fedora,      untrusted: true }
 - { name: "python:leveldb",            ver: "0.193",                                       outdated: true }
 - { name: "python:prettytable",        ver: "0.10",                                        incorrect: true } # sisyphus fake
 - { name: "python:progressbar",        ver: "2.4",                   family: sisyphus,     incorrect: true } # fake
