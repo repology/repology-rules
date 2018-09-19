@@ -63,6 +63,9 @@
 - { name: minimodem,                   verpat: ".*-[0-9]+",                                incorrect: true } # -1 is not part of the version
 - { name: minimodem,                   ver: "0.24.1",                family: gentoo,       ignore: true } # actually, pentoo. it's normalized 0.24-1 which is incorrect, see prev. rule
 - { name: minio,                       verpat: "[0-9]+",                                   incorrect: true } # should use separators
+- { name: minio,                                                                           any_is_patch: true } # e.g. 2018-09-12T18-49-56Z
+- { name: minio-mc,                    verpat: "[0-9]+",                                   incorrect: true } # should use separators
+- { name: minio-mc,                                                                        any_is_patch: true } # e.g. 2018-09-10T23-39-12Z
 - { name: miniupnpd,                   verpat: "[0-9]+\\.[0-9]+\\.20[0-9]{6}",             devel: true }
 - { name: mixxx,                       verpat: "2\\.1\\.[0-9]+",     ruleset: [aosc,fedora,kaos], incorrect: true } # actually unitedrpms, but knowing fedora I won't trust it whole
 - { name: mixxx,                                                     ruleset: [aosc,fedora,kaos], untrusted: true }
