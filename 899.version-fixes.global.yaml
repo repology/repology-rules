@@ -28,3 +28,5 @@
 - { ver: "1003.1-2008",                                              family: nix,          ignore: true } # WTF is that? versions like "1003.1-2008"
 - { verpat: ".*haiku.*",                                                                   ignore: true } # primarily blackarch snapshots
 - { verpat: ".*arch.*",                                                                    ignore: true } # arch, aur pseudoversions
+- { verpat: ".*_.*", name: [brotli,curl,openssl],                    family: scoop,        incorrect: true } # ┐ windows builds from curl project
+- { verpat: ".*_.*",                                                 family: scoop,        untrusted: true } # ┘
