@@ -38,6 +38,7 @@
 - { name: libgnomedb,                  verpat: "[0-9]+\\.99\\..*",                         devel: true }
 - { name: libgnomeui,                  ver: "2.24.6",                family: opensuse,     incorrect: true }
 - { name: libgnomeui,                                                family: opensuse,     untrusted: true }
+- { name: libgravatar,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libguestfs,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libgweather,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libhangul,                   verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
@@ -51,7 +52,19 @@
 - { name: libisofs,                    ver: "1.4.9",                 ruleset: sisyphus,    incorrect: true }
 - { name: libisofs,                                                  ruleset: sisyphus,    untrusted: true }
 - { name: libjpeg-turbo,               verpat: ".*\\.9[0-9]",                              devel: true }
+- { name: libkcddb,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libkdcraw,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libkdegames,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libkdepim,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libkeduvocdocument,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libkexiv2,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libkgapi,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libkipi,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libkleo,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libkmahjongg,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libkomparediff2,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libksane,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libksieve,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libkvkontakte,               verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: liblastfm,                   verlonger: 3,                                       incorrect: true } # freebsd garbage
 - { name: liblastfm,                   verpat: "1\\.1\\.0.*",        family: arch,         incorrect: true } # antergos

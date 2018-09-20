@@ -95,16 +95,32 @@
 - { name: kontactinterface,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kopete,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: korganizer,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kpat,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kpimtextedit,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kqlives,                     verpat: "20[0-9]{6}",                               ignore: true }
 - { name: krank,                       verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: krdc,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: krename,                     verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: krfb,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kruler,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: krusader,                    verpat: "16\\..*",                                  incorrect: true } # pclinuxos; it uses e.g. 2.6.0 scheme
 - { name: kscd,                        verpat: ".*20[0-9]{6}",                             ignore: true } # exherbo snapshot
 - { name: ksh,                                                                             noscheme: true }
+- { name: kshisen,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: ksmtp,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kst,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: kstars,                      verpat: "(4|15|16|17)\\..*",                        outdated: true } # switched from yy.mm.rev to x.y.z: https://cgit.kde.org/kstars.git/refs/
 - { name: kstars,                      verge: "18",                                        incorrect: true } # and some repos fake old scheme; XXX: problem
+- { name: ksystemlog,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kteatime,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: ktimer,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: ktnef,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: ktouch,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: ktuberling,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kturtle,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kuickshow,                   verge: "0.10.0",                                    devel: true } # gentoo fork?
 - { name: kuickshow,                   ver: "0.9.2",                                       incorrect: true } # rosa garbage
 - { name: kvirc,                       ver: "4.9.2",                                       incorrect: true } # pclos garbage
+- { name: kwalletmanager,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kwave,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kwordquiz,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
