@@ -1,6 +1,5 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { name: gambatte-libretro,                                                               noscheme: true }
 - { name: gap,                         verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: gaupol,                      ver: "1.4.3",                 family: freebsd,      incorrect: true }
 - { name: gaupol,                                                    family: freebsd,      untrusted: true }
@@ -117,7 +116,6 @@
 - { name: gprbuild,                    verpat: "[0-9]{5,}.*",                              ignore: true }
 - { name: gprolog,                     ver: "1.4.5",                 family: debuntu,      incorrect: true }
 - { name: gprolog,                                                   family: debuntu,      untrusted: true }
-- { name: gpsp-libretro,                                                                   noscheme: true }
 - { name: granatier,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: grisbi,                      verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: grive2,                      verpat: "0\\.5\\.1.*",        family: [pclinuxos,openwrt,freebsd], incorrect: true }
@@ -146,6 +144,5 @@
 - { name: gummi,                       ver: "0.7.4.3",               ruleset: opensuse,    incorrect: true }
 - { name: gummi,                                                     ruleset: opensuse,    untrusted: true }
 - { name: gvfs,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: gw-libretro,                                                                     noscheme: true }
 - { name: gwenview,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gyp,                                                                             noscheme: true }

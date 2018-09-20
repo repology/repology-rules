@@ -1,0 +1,8 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { namepat: "libretro-.*",                                                                noscheme: true }
+
+- { name: libretro-core-info,                                                              noscheme: false }
+- { name: libretro-fbalpha,                                                                noscheme: false }
+- { name: libretro-fbalpha,            ver: "0.2.97.43.20180721",                          incorrect: true, disposable: true }
+- { name: libretro-fbalpha,            verpat: ".*20[0-9]{6}",                             snapshot: true }
