@@ -26,7 +26,7 @@
 
 # standalone kde apps and projects
 - namepat: |
-    (?:kde-|kde4-|kde5-|plasma5-|kde-?(?:accessibility|edu|games|graphics|utils|multimedia|sdk|network)-|kf5-|ka5-)?(
+    (?:kde-|kde4-|kde5-|plasma5-|kde-?(?:accessibility|edu|games|graphics|utils|multimedia|sdk|network)4?-|kf5-|ka5-)?(
     akonadi-calendar-tools|
     akonadi-calendar|
     akonadi-contacts|
@@ -243,6 +243,8 @@
 
 # KDE has a project awry called "wacomtablet", so some distributions add kcm- prefix
 # to the package (KDE Config Module), since it's not obvious that it belongs to KDE
-- { setname: kcm-wacomtablet, name: [wacomtablet, kcm-tablet] }
+- { setname: kcm-wacomtablet,          name: [wacomtablet, kcm-tablet] }
 
-- { setname: libkmahjongg, name: libkf5kmahjongg }
+- { setname: kdegraphics-mobipocket,   name: kde-graphics-mobipocket }
+- { setname: kdenetwork-filesharing,   name: kde-network-filesharing }
+- { setname: libkmahjongg,             name: libkf5kmahjongg }
