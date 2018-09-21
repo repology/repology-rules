@@ -55,6 +55,8 @@
 - { name: kicad,                       verpat: "20[0-9][0-9].*",                           ignore: true }
 - { name: kicad-library,               verpat: "20[0-9][0-9].*",                           ignore: true }
 - { name: kidentitymanagement,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kig,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kigo,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kile,                        verpat: ".*[ab].*",                                 devel: true }
 - { name: kile,                        verpat: "[0-9]+\\.9\\.9[0-9]+.*",                   devel: true } # 2.9.92 is the same as 3.0 beta2. We can't deal with this nonsense
 - { name: killerbee,                   ver: "99",                                          incorrect: true }

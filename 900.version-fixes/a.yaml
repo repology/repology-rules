@@ -19,6 +19,16 @@
 - { name: aircrack-ng,                 ver: "1.2",                   family: [ fedora, debuntu, gentoo, mageia, openwrt, rosa ], ignore: true }
 - { name: airspy,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: airspy,                      verlonger: 3,                 family: freebsd,      incorrect: true }
+- { name: akonadi,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: akonadi-calendar,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: akonadi-calendar-tools,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: akonadi-contacts,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: akonadi-import-wizard,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: akonadi-mime,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: akonadi-notes,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: akonadi-search,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: akonadiconsole,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: akregator,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: aldo,                                                      ruleset: aur,         untrusted: true }
 - { name: aldo,                        ver: "0.7.8",                 ruleset: aur,         incorrect: true }
 - { name: [alienarena, alienarena-data], verpat: ".*20[0-9]{6}.*",                         ignore: true }
@@ -30,6 +40,7 @@
 - { name: amule,                       verpat: "[0-9]{5}",                                 ignore: true } # revision
 - { name: amule,                       verpat: "2\\.4\\.0.*",        family: [ mageia, debuntu ], incorrect: true } # unreleased
 - { name: amule,                       verlonger: 3,                 family: [ kaos ],     incorrect: true } # fake
+- { name: analitza,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: android-studio,              verpat: "([0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)([._].*)", setver: $1 } # drop meaningless build numbers
 - { name: android-tools,               verpat: "[0-9]{4,}.*",                              ignore: true } # fake
 - { name: anki,                        ver: "2.1.0",                 family: debuntu,      ignore: true } # fake
@@ -87,6 +98,7 @@
 - { name: atkmm,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: atril,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: attr,                        verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: audiocd-kio,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: autoconf,                    ver: "2.13.000227",                                 ignore: true }
 - { name: autoconf-archive,            verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" }
 - { name: autodia,                     verpat: "2\\.[0-9]{3}.*",                           incorrect: true } # perl versioning issues

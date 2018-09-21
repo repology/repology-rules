@@ -26,7 +26,7 @@
 
 # standalone kde apps and projects
 - namepat: |
-    (?:kde-|kde4-|kde5-|plasma5-|kde-?(?:accessibility|edu|games|graphics|utils|multimedia|sdk|network)4?-|kf5-|ka5-)?(
+    (?:kde-|kde4-|kde5-|plasma5-|kf5-|ka5-|libkf5|kde-?(?:accessibility|edu|games|graphics|utils|multimedia|sdk|network)4?-)?(
     akonadi-calendar-tools|
     akonadi-calendar|
     akonadi-contacts|
@@ -42,6 +42,7 @@
     analitza|
     ark|
     attica|
+    audiocd-kio|
     baloo-widgets|
     baloo|
     basket|
@@ -67,6 +68,7 @@
     gpgmepp|
     gwenview|
     incidenceeditor|
+    juk|
     k3b|
     kaccounts-integration|
     kaccounts-providers|
@@ -231,21 +233,26 @@
     libkomparediff2|
     libksane|
     libkscreen|
+    libksieve|
     libktorrent|
     lokalize|
     marble|
+    messagelib|
     milou|
     minuet|
     okteta|
     okular|
     parley|
+    pimcommon|
     plasma-desktop|
     polkit-kde-agent-1|
     powerdevil|
     poxml|
     prison|
     rkward|
+    rocs|
     sddm-kcm|
+    signon-kwallet-extension|
     skanlite|
     spectacle|
     sweeper|
@@ -260,5 +267,9 @@
 - { setname: kcm-wacomtablet,          name: [wacomtablet, kcm-tablet] }
 
 - { setname: kdegraphics-mobipocket,   name: kde-graphics-mobipocket }
-- { setname: kdenetwork-filesharing,   name: kde-network-filesharing }
+- { setname: kdenetwork-filesharing,   name: [kde-network-filesharing, kdenetwork4-filesharing] }
 - { setname: libkmahjongg,             name: libkf5kmahjongg }
+- { setname: akonadi,                  name: [akonadi-qt4,akonadi-runtime], addflavor: true }
+- { setname: akonadi,                  name: akonadi1 }
+- { setname: akonadi,                  name: akonadi4-data, addflavor: data }
+- { setname: baloo-widgets,            name: [baloo4-widgets, baloo5-widgets] }

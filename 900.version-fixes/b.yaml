@@ -3,6 +3,7 @@
 - { name: backintime,                  ver: "1.2",                   ruleset: antix,       incorrect: true }
 - { name: backintime,                                                ruleset: antix,       untrusted: true }
 - { name: baloo,                       ver: "15.04.26",                                    ignore: true }
+- { name: baloo-widgets,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: baobab,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: bash,                                                                            p_is_patch: true }
 - { name: bash,                        verpat: "([0-9]+\\.[0-9]+)\\.0*([0-9]+?)",          setver: $1.p$2 } # bash has braindead versioning scheme: X.YpatchZ with occasional X.Y.Z releases
@@ -52,6 +53,7 @@
 - { name: boringssl,                                                                       noscheme: true }
 - { name: botan,                       ver: "2.8.0",                 ruleset: vcpkg,       incorrect: true }
 - { name: botan,                                                     ruleset: vcpkg,       untrusted: true }
+- { name: bovo,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: brasero,                     ver: "3.12.2",                family: opensuse,     ignore: true } # not released yet
 - { name: brickout,                    verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" } # it's clearly 2002.06.09 as stated on the website
 - { name: brotli,                      verpat: "20[0-9]{6}.*",                             ignore: true }
