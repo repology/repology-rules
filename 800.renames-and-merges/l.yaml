@@ -95,6 +95,7 @@
 - { setname: lxtask,                   name: lxtask-gtk3, addflavor: gtk3 }
 - { setname: lxterminal,               name: lxterminal-gtk2, addflavor: gtk2 }
 - { setname: lxterminal,               name: lxterminal-gtk3, addflavor: gtk3 }
+- { setname: lxqt-$1,                  namepat: "lxqt-(.*)-l10n", addflavor: l10n }
 - { setname: lxqt-l10n,                name: [libfmqt-l10n,liblxqt-l10n,lximageqt-l10n,pcmanfmqt-l10n,qterminal-l10n,qtermwidget-l10n], addflavor: true }
 - { setname: lynx,                     name: [lynx-cur,lynx-current] }
 - { setname: lyx,                      name: lyx1 }
