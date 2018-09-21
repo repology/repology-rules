@@ -23,7 +23,7 @@
 - { setname: "python:dbus-python",     name: ["python:dbus","python:dbus-common"] } # as per PyPi
 - { setname: "python:dbus-python",     name: [dbus-python,dbus-python-common] }
 - { setname: "python:dbus-python",     namepat: "dbus-python[0-9]+" }
-- { setname: "python:django",          name: [django,django12,django14] }
+- { setname: "python:django",          namepat: "(?:python:)django[0-9.-]*" }
 - { setname: "python:django-$1",       namepat: "django-(.*)" }
 - { setname: "python:duecredit",       name: duecredit }
 - { setname: "python:dukpy",           name: dukpy }
