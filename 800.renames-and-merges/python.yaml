@@ -72,6 +72,7 @@
 - { setname: "python:monty",           name: monty }
 - { setname: "python:nbdime",          name: jupyter-nbdime }
 - { setname: "python:nbsphinx",        name: ["python:jupyter-nbsphinx",nbsphinx] }
+- { setname: "python:nbxmpp",          name: ["python:python-nbxmpp",nbxmpp] }
 - { setname: "python:numarray",        name: numarray }
 - { setname: "python:numpy",           namepat: "python:numpy[0-9.-]+-gnu-hpc", addflavor: gnuhpc }
 - { setname: "python:numpy",           name: "python:numpy-docs-devhelp", addflavor: devhelp }
