@@ -25,9 +25,7 @@
 - { setname: leptonica,                name: libleptonica }
 - { setname: leveldb,                  name: libleveldb }
 - { setname: leveldb,                  name: leveldb-mcpe, addflavor: mcpe }
-- { setname: libconfuse,               name: confuse }
 - { setname: liberal-crime-squad,      name: lcs }
-- { setname: libleptonica,             name: liblibleptonica }
 - { setname: libreoffice,              name: [libreoffice-bin,libreoffice-bin-debug,libreoffice-gtk3], addflavor: true }
 - { setname: libreoffice,              name: [libreoffice-dev,libreoffice-fresh,libreoffice-oldstable,libreoffice-still] }
 - { setname: libreoffice,              namepat: "([^-]+)-libreoffice", family: freebsd, addflavor: $1 }
