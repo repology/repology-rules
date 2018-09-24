@@ -23,6 +23,8 @@
 - { name: vlc,                         verpat: "4.*",                                      ignore: true } # devel branch, no announced releaes
 - { name: vlc,                         ver: "3.0.0.1",               family: sisyphus,     incorrect: true } # fake
 - { name: vlc,                                                       family: sisyphus,     untrusted: true }
+- { name: vlc,                         ver: "3.0.5",                 family: fedora,       incorrect: true } # fake; XXX: unitedrpms actually, add ruleset
+- { name: vlc,                                                       family: fedora,       untrusted: true } # accused of fake 3.0.5
 - { name: vlc,                         verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: vmware-view-open-client,     verpat: ".*[0-9]{5}",                               ignore: true }
 - { name: vokoscreen,                  verpat: "(.+?)[._-]?beta",                          setver: $1 }
