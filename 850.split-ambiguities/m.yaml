@@ -7,7 +7,7 @@
 
 - { name: mako, wwwpart: mako-project, setname: mako-wayland }
 - { name: mako, wwwpart: makotemplates, setname: "python:mako" }
-- { name: mako, category: lang, family: openwrt, setname: "python:mako" }
+- { name: mako, category: lang, ruleset: openwrt, setname: "python:mako" }
 - { name: mako, warning: "please classify me" }
 
 - { name: man, wwwpart: man-db,        setname: man-db }
@@ -31,8 +31,8 @@
 
 - { name: memphis, wwwpart: compilertools, setname: memphis-compilertools }
 
-- { name: mog,                         setname: mog-cat, family: freebsd }
-- { name: mog,                         setname: mog-game, family: slackbuilds }
+- { name: mog,                         setname: mog-cat, ruleset: freebsd }
+- { name: mog,                         setname: mog-game, ruleset: slackbuilds }
 - { name: mog,                         warning: "please classify me" }
 
 - { name: mpd, wwwpart: [musicpd,mpd.wikia.com], setname: musicpd }
@@ -47,8 +47,8 @@
 - { name: mpc, category: [media-sound,Sound,audio,Sound/Players,universe/sound], setname: musicpc }
 - { name: mpc, wwwpart: multiprecision.org, setname: gnumpc }
 - { name: mpc, category: dev-libs, setname: gnumpc }
-- { name: mpc, family: [rudix,hpux], setname: gnumpc }
-- { name: mpc, family: aosc, category: libs, setname: gnumpc }
+- { name: mpc, ruleset: [rudix,hpux], setname: gnumpc }
+- { name: mpc, ruleset: aosc, category: libs, setname: gnumpc }
 - { name: mpc, warning: "please classify me" } # nothing should be left here
 - { name: musicpc, setname: mpc } # still use more canonical name
 
@@ -58,4 +58,4 @@
 - { name: mu, wwwpart: kreogist, setname: kreogist-mu } # name taken form AUR package; may also use e.g. mu-music-manager
 # otherwise, maildir utils + emacs email client (mu4e)
 
-- { name: muse, setname: emacs-muse, family: gentoo, category: app-emacs }
+- { name: muse, setname: emacs-muse, ruleset: gentoo, category: app-emacs }

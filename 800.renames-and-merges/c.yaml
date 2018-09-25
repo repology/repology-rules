@@ -13,7 +13,7 @@
 - { setname: caja-extensions,          name: [caja-extensions-common,caja-gksu,caja-image-converter,caja-open-terminal,caja-sendto,caja-share,caja-wallpaper,caja-xattr-tags], addflavor: true }
 - { setname: caja-extensions,          name: [caja-extensions-common-dev,caja-gksu-dev,caja-image-converter-dev,caja-open-terminal-dev,caja-sendto-dev,caja-share-dev,caja-wallpaper-dev,caja-xattr-tags-dev], addflavor: true, weak_devel: true }
 - { setname: calibre,                  name: [calibre-debug,calibre-normal], addflavor: true }
-- { setname: calligra-l10n,            namepat: "calligra-l10n-.*", family: sisyphus }
+- { setname: calligra-l10n,            namepat: "calligra-l10n-.*", ruleset: sisyphus }
 - { setname: camlp5,                   name: "ocaml:camlp5" }
 - { setname: camlp5,                   name: camlp5-transitional, addflavor: true }
 - { setname: canlock,                  name: libcanlock }
@@ -38,7 +38,7 @@
 - { setname: ccl,                      name: [clozure-cl,clozurecl] }
 - { setname: ccsm,                     name: ccsm-gtk3, addflavor: true }
 - { setname: ccsm,                     name: ccsm0.8 }
-- { setname: cdemu-client,             name: cdemu, family: gentoo }
+- { setname: cdemu-client,             name: cdemu, ruleset: gentoo }
 - { setname: cdesktopenv,              name: cde-desktop }
 - { setname: cdogs-sdl,                name: cdogs }
 - { setname: cdogs-sdl,                name: cyberdogs-sdl }
@@ -50,7 +50,7 @@
 - { setname: cegui,                    name: [cegui-mk2, cegui-mk-2] }
 - { setname: cegui,                    namepat: "cegui[0-9.-]+" }
 - { setname: celestia,                 name: celestia-nonfree, addflavor: nonfree }
-- { setname: celestia,                 namepat: "celestia-.*", family: freebsd } # merges glut/gnome/gtk, just GUI variants
+- { setname: celestia,                 namepat: "celestia-.*", ruleset: freebsd } # merges glut/gnome/gtk, just GUI variants
 - { setname: celt,                     namepat: "(?:lib)?celt[0-9.-]*" }
 - { setname: centerim,                 name: [center-im,centerim5] }
 - { setname: centerim,                 name: centerim-devel, weak_devel: true }
@@ -67,7 +67,7 @@
 - { setname: cglib,                    name: cglib3 }
 - { setname: cgoban,                   name: cgoban1 }
 - { setname: chakracore,               name: chakaracore } # AUR misspell
-- { setname: chakracore,               name: chakra, family: homebrew }
+- { setname: chakracore,               name: chakra, ruleset: homebrew }
 - { setname: chaosesque-anthology,     name: chaos-esque-anthology }
 - { setname: charls,                   name: charls1 }
 - { setname: chatty,                   name: chatty-beta, weak_devel: true }
@@ -155,7 +155,7 @@
 - { setname: cpptest,                  name: libcpptest }
 - { setname: cqrlog,                   name: [cqrlog-gtk2,cqrlog-qt4,cqrlog-source], addflavor: true }
 - { setname: cracklib,                 name: cracklib2 }
-- { setname: crashplan,                name: linux-crashplan, family: freebsd }
+- { setname: crashplan,                name: linux-crashplan, ruleset: freebsd }
 - { setname: creduce,                  name: c-reduce }
 - { setname: crimson-fields,           name: crimson, verpat: "0\\.5.*" } # XXX: MUST be renamed upstream
 - { setname: crimson-fields,           name: crimsonfields }
@@ -196,7 +196,7 @@
 - { setname: cvsweb,                   name: cvsweb3 }
 - { setname: cwiid,                    name: libcwiid }
 - { setname: cxxtools,                 name: libcxxtools }
-- { setname: cyphesis,                 name: cyphesis-cpp, family: debuntu }
+- { setname: cyphesis,                 name: cyphesis-cpp, ruleset: debuntu }
 - { setname: cyrus-imapd,              name: cyrus-imapd-ldap, addflavor: true }
 - { setname: cyrus-imapd,              name: imapd }
 - { setname: cyrus-imapd,              namepat: "cyrus[0-9]*-imapd[0-9.-]*" }

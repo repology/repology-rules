@@ -89,16 +89,16 @@
 - { setname: fox,                      name: [fox-devel,fox-toolkit-devel], weak_devel: true }
 - { setname: fox,                      namepat: "(?:lib)?fox[0-9.-]*" }
 - { setname: fox,                      name: [adie,calculator], wwwpart: fox-toolkit, addflavor: true } # bundled apps
-- { setname: foxyproxy,                name: xpi-foxyproxy, family: freebsd }
+- { setname: foxyproxy,                name: xpi-foxyproxy, ruleset: freebsd }
 - { setname: fpc,                      name: [fpc-source,fpc-src] } # part of fossology
-- { setname: fpc-modules,              namepat: "fpc-.*", family: freebsd }
+- { setname: fpc-modules,              namepat: "fpc-.*", ruleset: freebsd }
 - { setname: fping,                    name: [fping3,fping6] }
 - { setname: fqterm,                   name: fqterm-qt5, addflavor: true }
 - { setname: fracplanet,               name: fracplanet-qt5, addflavor: true, disposable: true }
-- { setname: free42,                   name: free42-nologo, family: debuntu }
+- { setname: free42,                   name: free42-nologo, ruleset: debuntu }
 - { setname: freebasic,                name: fbc, addflavor: true }
 - { setname: freeciv,                  name: [freeciv-gtk,freeciv-sdl] }
-- { setname: freeciv,                  namepat: "freeciv-(?:client|server|share)", family: [pkgsrc,openbsd] }
+- { setname: freeciv,                  namepat: "freeciv-(?:client|server|share)", ruleset: [pkgsrc,openbsd] }
 - { setname: freedink,                 name: freedink-engine }
 - { setname: freedink-dfarc,           name: dfarc }
 - { setname: freedoom,                 name: [doom-freedoom,freedoom-freedm] }

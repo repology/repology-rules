@@ -1,6 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { namepat: "perl:(.*)",              family: [ gentoo, mageia, rosa, macports, pclinuxos, openmandriva ], ignore: true } # perl module name manging
+- { namepat: "perl:(.*)",              ruleset: [ gentoo, mageia, rosa, macports, pclinuxos, openmandriva ], ignore: true } # perl module name manging
 - { name: "perl:anyevent",             ver: "7.70.0",                                      ignore: true }
 - { name: "perl:anyevent",             verpat: "7\\.[0-9]{3}.*",                           ignore: true }
 - { name: "perl:app-perlbrew",         verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
@@ -64,4 +64,4 @@
 - { name: "perl:xml-parser",           ver: "2.44.01",                                     devel: true } # marked as developer release on cpan
 - { name: "perl:xml-rss-feed",         ver: ["2.212","2.32"],                              outdated: true } # 2.212 < 2.32 < 2.4
 - { name: "perl:xml-rss-feed",         ver: "2.40",                                        incorrect: true } # it's 2.4
-- { name: "perl:yaml-libyaml",         ver: "0.71",                  family: [ sisyphus ], ignore: true } # 0.71 wasn't an authorised release
+- { name: "perl:yaml-libyaml",         ver: "0.71",                  ruleset: [ sisyphus ], ignore: true } # 0.71 wasn't an authorised release

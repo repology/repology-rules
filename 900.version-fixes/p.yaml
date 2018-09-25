@@ -5,7 +5,7 @@
 - { name: pam-u2f,                     verpat: "(.*)\\.20[0-9]{6}",                        setver: "$1" } # aosc snapshot
 - { name: pango,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: pangomm,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: pangox-compat,               verlonger: 3,                 family: rosa,         incorrect: true }
+- { name: pangox-compat,               verlonger: 3,                 ruleset: rosa,        incorrect: true }
 - { name: paper-icon-theme,            verpat: "20[0-9]{2}.*",                             snapshot: true }
 - { name: paper-icon-theme,            verpat: "2017.*",                                   outdated: true } # 1.5.0 from 2018
 - { name: parley,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -31,11 +31,11 @@
 - { name: photivo,                                                                         noscheme: true }
 - { name: phototonic,                  verpat: "2\\.1\\.[0-9]+",     ruleset: mageia,      incorrect: true }
 - { name: phototonic,                                                ruleset: mageia,      untrusted: true }
-- { name: php-xdebug,                  verpat: "(.*)-[0-9]+\\.[0-9]+", family: scoop,      setver: "$1" } # the suffix seem to encode php version?
+- { name: php-xdebug,                  verpat: "(.*)-[0-9]+\\.[0-9]+", ruleset: scoop,     setver: "$1" } # the suffix seem to encode php version?
 - { name: phyml,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: picolisp,                    ver: ["18.6.12", "18.6.17"],  ruleset: [aur,termux], incorrect: true }
 - { name: picolisp,                                                  ruleset: [aur,termux], untrusted: true }
-- { name: pilot-link,                  ver: "0.12.15",               family: gobolinux,    incorrect: true } # gobolinux fake
+- { name: pilot-link,                  ver: "0.12.15",               ruleset: gobolinux,   incorrect: true } # gobolinux fake
 - { name: pimcommon,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: pingus,                      verpat: "0\\.8\\.0-[0-9]{8}",                       snapshot: true }
 - { name: pingus,                      verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
@@ -60,20 +60,20 @@
 - { name: portmidi,                    verpat: "[0-9]{7}",                                 incorrect: true }
 - { name: portmidi,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: postfix,                     verpat: ".*r.*",                                    devel: true }
-- { name: postgis,                     verpat: ".*\\.9[0-9]+",       family: kaos,         incorrect: true } # 2.4.3.90 instead of 2.4.4dev
-- { name: postgis,                                                   family: kaos,         untrusted: true }
+- { name: postgis,                     verpat: ".*\\.9[0-9]+",       ruleset: kaos,        incorrect: true } # 2.4.3.90 instead of 2.4.4dev
+- { name: postgis,                                                   ruleset: kaos,        untrusted: true }
 - { name: postgresql,                  verpat: "11.*",                                     devel: true }
 - { name: postgresql,                  ver: ["11","11.0"],                                 ignore: true }
 - { name: postgresql-jdbc,             verpat: "[0-9]{4}.*",                               incorrect: true } # pld garbage
-- { name: povray,                      ver: "3.7.1",                 family: pld,          incorrect: true }
-- { name: povray,                                                    family: pld,          untrusted: true }
+- { name: povray,                      ver: "3.7.1",                 ruleset: pld,         incorrect: true }
+- { name: povray,                                                    ruleset: pld,         untrusted: true }
 - { name: powertop,                    verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: pragmarc,                                                                        noscheme: true }
 - { name: prboom-plus,                 verpat: ".*svn.*",                                  snapshot: true }
 - { name: processing,                  verpat: "[0-9]{4}.*",                               incorrect: true } # gobolinux garbage
 - { name: procmail,                    verpat: "[0-9]+",                                   incorrect: true } # homebrew
-- { name: progsreiserfs,               ver: "0.3.1",                 family: pld,          incorrect: true }
-- { name: progsreiserfs,                                             family: pld,          untrusted: true }
+- { name: progsreiserfs,               ver: "0.3.1",                 ruleset: pld,         incorrect: true }
+- { name: progsreiserfs,                                             ruleset: pld,         untrusted: true }
 - { name: proot,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: proot,                       verpat: "5\\.1\\.[0-9]{3}.*",                       incorrect: true }
 - { name: properties-cpp,              verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot

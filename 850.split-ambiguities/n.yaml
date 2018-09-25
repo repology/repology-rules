@@ -22,7 +22,7 @@
 - { name: nodejs, wwwpart: ax25, setname: node-ax25 }
 - { name: nodejs, category: [universe/hamradio,lang,Development/Tools,hamradio], setname: node-ax25 }
 
-- { name: nstat, family: freebsd, setname: nstat-netflix }
+- { name: nstat, ruleset: freebsd, setname: nstat-netflix }
 
 - { name: nut, wwwpart: nut.sourceforge, setname: nut-nutrition }
 - { name: nut, ruleset: hpux, setname: nut-nutrition }

@@ -13,7 +13,7 @@
 
 - { name: omi, setname: omi-ftpmirror, category: ftp } # vs. Open Management Infrastructure
 
-- { name: openal, family: [pkgsrc,chocolatey,freebsd,macports], setname: openal-creative }
+- { name: openal, ruleset: [pkgsrc,chocolatey,freebsd,macports], setname: openal-creative }
 - { name: openal, setname: openal-soft } # most openal's are openal-soft, even if they erroneously list openal.org as a website
 
 - { name: openbox-themes, wwwpart: openbox.org, setname: openbox, addflavor: themes } # slitaz

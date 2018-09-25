@@ -4,7 +4,7 @@
 
 - { name: zap, wwwpart: owasp, setname: zaproxy }
 - { name: zap, wwwpart: jehops, setname: zap-zfs }
-- { name: zap, family: openbsd, setname: zap-process-killer }
+- { name: zap, ruleset: openbsd, setname: zap-process-killer }
 - { name: zap, warning: "please classify me" }
 
 - { name: zed, wwwpart: [ocamlcore, github.com/diml/zed], setname: "ocaml:zed" }
@@ -15,6 +15,6 @@
 # emulator vs. (deprecated) scala compiler
 - { name: zinc, wwwpart: logiqx, setname: zinc-emulator }
 
-- { name: zipper, family: freebsd, setname: gnustep-zipper } # gnustep; may be not ambiguity (yet), but too generic name for sure
+- { name: zipper, ruleset: freebsd, setname: gnustep-zipper } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
 - { name: zoom, wwwpart: zoom.us, setname: zoom-videoconference }

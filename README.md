@@ -375,8 +375,8 @@ ignore flavors:
 ```yaml
 # Fedora was known to use "6.0.0" version before it was actually released
 # mark as incorrect and prevent future problems
-- { name: llvm, ver: "6.0.0", family: fedora, incorrect: true }
-- { name: llvm, family: fedora, untrusted: true }
+- { name: llvm, ver: "6.0.0", ruleset: fedora, incorrect: true }
+- { name: llvm, ruleset: fedora, untrusted: true }
 ```
 
 #### p_is_patch

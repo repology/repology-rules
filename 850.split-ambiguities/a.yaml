@@ -1,8 +1,8 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
-- { name: aclock, family: freebsd, setname: gnustep-aclock } # gnustep; may be not ambiguity (yet), but too generic name for sure
+- { name: aclock, ruleset: freebsd, setname: gnustep-aclock } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
-- { name: addresses, family: [freebsd,openbsd,pkgsrc], setname: gnustep-addresses } # gnustep; may be not ambiguity (yet), but too generic name for sure
+- { name: addresses, ruleset: [freebsd,openbsd,pkgsrc], setname: gnustep-addresses } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
 - { name: ale, wwwpart: aleditor, setname: aleditor }
 

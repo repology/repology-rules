@@ -18,7 +18,7 @@
 - { name: tcpslice,                                                                        noscheme: true } # https://github.com/the-tcpdump-group/tcpslice/releases; there's some kind of official release 1.2a3, but it's from 2005 and so doesn't count
 - { name: tcptrack,                    wwwpart: bchretien,                                 successor: true } # fork
 - { name: tdb,                         ver: "3.6.0",                                       incorrect: true } # pclinuxos wtf; https://www.samba.org/ftp/tdb/
-- { name: teem,                        ver: "1.12.0",                family: debuntu,      ignore: true }
+- { name: teem,                        ver: "1.12.0",                ruleset: debuntu,     ignore: true }
 - { name: telegram-cli,                verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: telegram-cli,                ver: "1.4.1",                 ruleset: slackbuilds, incorrect: true }
 - { name: telegram-cli,                                              ruleset: slackbuilds, untrusted: true }
@@ -44,10 +44,10 @@
 - { name: tidy,                        verpat: "20[0-9]{6}.*",                             ignore: true } # obsoleted
 - { name: tidy,                        ver: "090315.c",                                    ignore: true } # obsoleted
 - { name: tigervnc,                    verpat: ".*\\.9[0-9]+",                             devel: true }
-- { name: timidity++,                  ver: "2.15.0",                family: rosa,         incorrect: true } # 2.15.0 was not released yet
-- { name: timidity++,                                                family: rosa,         untrusted: true }
-- { name: tiny-dnn,                    ver: "1.0.0",                 family: buckaroo,     incorrect: true } # 1.0.0a3 https://github.com/tiny-dnn/tiny-dnn/releases
-- { name: tiny-dnn,                                                  family: buckaroo,     untrusted: true }
+- { name: timidity++,                  ver: "2.15.0",                ruleset: rosa,        incorrect: true } # 2.15.0 was not released yet
+- { name: timidity++,                                                ruleset: rosa,        untrusted: true }
+- { name: tiny-dnn,                    ver: "1.0.0",                 ruleset: buckaroo,    incorrect: true } # 1.0.0a3 https://github.com/tiny-dnn/tiny-dnn/releases
+- { name: tiny-dnn,                                                  ruleset: buckaroo,    untrusted: true }
 - { name: tk,                          verpat: ".*a[0-9]+",                                devel: true }
 - { name: tk,                          verpat: "[0-9]+\\.[0-9]+\\.0\\.?a.*",               incorrect: true } # it's X.YaZ, not X.Y.0aZ
 - { name: tolua++,                     ver: "1.0.94",                ruleset: maemo,       ignore: true }

@@ -9,12 +9,12 @@
 - { setname: abgate,                   name: [abgate-lv2,lv2-abgate] }
 - { setname: abuse,                    name: abuse-free, addflavor: free }
 - { setname: abuse,                    name: abuse-sdl }
-- { setname: accounts-qt,              name: accounts-qt5, family: sisyphus }
-- { setname: ace-of-penguins,          name: ace, category: games-board, family: gentoo }
-- { setname: ace-of-penguins,          name: ace, family: [openbsd,slackbuilds] }
-- { setname: acetoneiso,               name: acetoneiso2, family: [arch,sisyphus] }
+- { setname: accounts-qt,              name: accounts-qt5, ruleset: sisyphus }
+- { setname: ace-of-penguins,          name: ace, category: games-board, ruleset: gentoo }
+- { setname: ace-of-penguins,          name: ace, ruleset: [openbsd,slackbuilds] }
+- { setname: acetoneiso,               name: acetoneiso2, ruleset: [arch,sisyphus] }
 - { setname: acetoneiso,               name: acetoneiso-qt5, addflavor: qt5 }
-- { setname: acetoneiso6,              name: acetoneiso, verpat: "6.*", family: fedora }
+- { setname: acetoneiso6,              name: acetoneiso, verpat: "6.*", ruleset: fedora }
 - { setname: ack,                      name: "perl:ack" }
 - { setname: ack,                      name: ack-grep }
 - { setname: acpi-call,                name: [acpi-call-ck-fbcondecor,acpi-call-dkms,acpi-call-lts,acpi-call-pf], addflavor: true }
@@ -22,13 +22,13 @@
 - { setname: acpica,                   namepat: "acpica-(?:tools|unix|utils)" }
 - { setname: acroread,                 name: [adobereader,adobe-reader] }
 - { setname: acroread,                 namepat: "acroread[0-9.]*" }
-- { setname: acroread-asianfonts,      namepat: "acroread9-.*font.*", family: pkgsrc }
-- { setname: acroread7-asianfonts,     namepat: "acroread7-.*font.*", family: pkgsrc }
-- { setname: actiona,                  name: actionaz, family: chocolatey }
+- { setname: acroread-asianfonts,      namepat: "acroread9-.*font.*", ruleset: pkgsrc }
+- { setname: acroread7-asianfonts,     namepat: "acroread7-.*font.*", ruleset: pkgsrc }
+- { setname: actiona,                  name: actionaz, ruleset: chocolatey }
 - { setname: activeio,                 name: activemq-activeio }
 - { setname: adabooch,                 name: [booch95,gnat-booch95] }
-- { setname: adblock-plus,             name: adblockplus-firefox, family: chocolatey }
-- { setname: adobeps,                  name: adobeps-win, family: pkgsrc }
+- { setname: adblock-plus,             name: adblockplus-firefox, ruleset: chocolatey }
+- { setname: adobeps,                  name: adobeps-win, ruleset: pkgsrc }
 - { setname: adodb,                    name: adodb5 }
 - { setname: adolc,                    name: adol-c }
 - { setname: advancedrenamer,          name: advanced-renamer }
@@ -72,9 +72,9 @@
 - { setname: amule,                    name: amule-devel, weak_devel: true }
 - { setname: anacron2,                 name: anacron, verpat: "2\\.[4-9].*" } # different project (a fork?)
 - { setname: android-studio,           name: [android-studio-beta,android-studio-canary,android-studio-dummy,android-studio-preview], ignore: true } # these could be devel, but they do often fall behind, and due to viral devel property be safe and ignore them
-- { setname: android-tools,            name: adb, family: openbsd }
-- { setname: android-tools,            namepat: "android-tools-[^-]+", family: [freebsd,pkgsrc] }
-- { setname: android-tools,            namepat: android-platform-system-(core|extras), family: debuntu }
+- { setname: android-tools,            name: adb, ruleset: openbsd }
+- { setname: android-tools,            namepat: "android-tools-[^-]+", ruleset: [freebsd,pkgsrc] }
+- { setname: android-tools,            namepat: android-platform-system-(core|extras), ruleset: debuntu }
 - { setname: angelscript,              namepat: "angelscript-?[0-9.-]+"}
 - { setname: angular.js,               name: angularjs }
 - { setname: anki,                     name: [anki12,anki20,"python:anki2"] }
@@ -99,7 +99,7 @@
 - { setname: aqbanking,                namepat: "(?:lib)?aqbanking[0-9]*(-(?:gtk)[0-9]*)?", addflavor: $1 }
 - { setname: aqbanking,                namepat: "(?:lib)?aqbanking[0-9]*(-(?:gtk)[0-9]*)?(?:-svn|-devel)", addflavor: $1, weak_devel: true }
 - { setname: arcanist,                 name: "php:arcanist" }
-- { setname: archipel-agents,          namepat: "archipel-agent-.*", family: debuntu }
+- { setname: archipel-agents,          namepat: "archipel-agent-.*", ruleset: debuntu }
 - { setname: archiva,                  name: apache-archiva }
 - { setname: ardour,                   namepat: "ardour[0-9]+" }
 - { setname: arduino,                  namepat: "arduino[0-9.-]+" }
@@ -124,8 +124,8 @@
 - { setname: asf,                      name: archi-steam-farm }
 - { setname: aspell-$1,                namepat: "aspell-dict-(.*)" }
 - { setname: asterisk,                 namepat: "asterisk[0-9.]+" }
-- { setname: asterisk-core-sounds,     namepat: "asterisk-core-sounds-.*", family: openbsd }
-- { setname: asterisk-extra-sounds,    namepat: "asterisk-extra-sounds-.*", family: openbsd }
+- { setname: asterisk-core-sounds,     namepat: "asterisk-core-sounds-.*", ruleset: openbsd }
+- { setname: asterisk-extra-sounds,    namepat: "asterisk-extra-sounds-.*", ruleset: openbsd }
 - { setname: asterisk-espeak,          namepat: "(asterisk[0-9]+)-espeak", addflavor: $1 }
 - { setname: asterisk-flite,           namepat: "(asterisk[0-9]+)-flite", addflavor: $1 }
 - { setname: asterisk-g72x,            namepat: "(asterisk[0-9]+)-g72x", addflavor: $1 }
@@ -142,10 +142,10 @@
 - { setname: atkmm,                    namepat: "(?:lib)?atkmm[0-9.-]*(-docs)", addflavor: docs }
 - { setname: atlas,                    name: [atlas-with-lapack,atlas-lapack] }
 - { setname: atlas,                    name: libatlas3 }
-- { setname: atlas-c++,                name: [atlas,atlas-devel], category: devel, family: [freebsd,openbsd] } # don't mix with math/atlas
+- { setname: atlas-c++,                name: [atlas,atlas-devel], category: devel, ruleset: [freebsd,openbsd] } # don't mix with math/atlas
 - { setname: atlas-c++,                name: [atlas-cpp,atlascpp,libatlascpp] }
 - { setname: atomix,                   name: gnome-games-atomix }
-- { setname: atop-freebsd,             name: atop, family: freebsd } # fork
+- { setname: atop-freebsd,             name: atop, ruleset: freebsd } # fork
 - { setname: atril,                    name: mate-atril }
 - { setname: atril,                    name: atril-dev, weak_devel: true }
 - { setname: atril,                    name: [atril-gtk2, atril-lite, atril-nocaja-gtk2, atril-gtk], addflavor: true }

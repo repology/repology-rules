@@ -1,8 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: z,                           ver: "1.11",                                        ignore: true, disposable: true } # https://github.com/rupa/z/issues/205
-- { name: zabbix,                      ver: "3.4.7",                 family: sisyphus,     incorrect: true }
-- { name: zabbix,                                                    family: sisyphus,     untrusted: true }
+- { name: zabbix,                      ver: "3.4.7",                 ruleset: sisyphus,    incorrect: true }
+- { name: zabbix,                                                    ruleset: sisyphus,    untrusted: true }
 - { name: zathura,                     ver: "20101104",                                    snapshot: true }
 - { name: zbar,                        verge: "0.20",                                      successor: true } # linuxtv.org fork
 - { name: zbar,                        verpat: ".*20[0-9]{2}.*",                           snapshot: true }

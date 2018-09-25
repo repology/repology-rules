@@ -1,7 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { setname: kde-i18n,                 namepat: "kde-(i18n|l10n)-.*" }
-- { setname: kde4-l10n,                namepat: "kde4-l10n-.*", family: pkgsrc }
+- { setname: kde4-l10n,                namepat: "kde4-l10n-.*", ruleset: pkgsrc }
 - { setname: kdegraphics-mobipocket,   name: mobipocket }
 - { setname: kdelibs,                  namepat: "kdelibs[0-9]+" }
 - { setname: kdiff3,                   name: kdiff3-qt }
@@ -17,14 +17,14 @@
 - { setname: kibana,                   namepat: "kibana[0-9]+" }
 - { setname: kid3,                     name: [kid3-qt,kid3-qt4,kid3-qt5,kid4-qt,kid3-cli] }
 - { setname: kiki,                     name: kiki-the-nano-bot }
-- { setname: kipi-plugins,             namepat: "kipi-plugin-.*", family: freebsd }
+- { setname: kipi-plugins,             namepat: "kipi-plugin-.*", ruleset: freebsd }
 - { setname: klotski,                  name: gnome-games-klotski }
 - { setname: knock,                    name: knockd }
 - { setname: knot,                     name: [knot-dns,knot-lts,knot1,knot2] }
 - { setname: kobodeluxe,               name: kobo-deluxe }
 - { setname: kobodeluxe,               name: skobo } # old name
-- { setname: koffice-l10n,             namepat: "koffice-l10n-.*", family: pkgsrc }
-- { setname: kompozer-i18n,            namepat: "kompozer-i18n-.*", family: arch }
+- { setname: koffice-l10n,             namepat: "koffice-l10n-.*", ruleset: pkgsrc }
+- { setname: kompozer-i18n,            namepat: "kompozer-i18n-.*", ruleset: arch }
 - { setname: krita,                    namepat: "krita[0-9.-]+" }
 - { setname: krita,                    name: krita-beta, ignore: true }
 - { setname: krita,                    name: krita-minimal, addflavor: minimal }

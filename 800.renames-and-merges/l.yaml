@@ -2,8 +2,8 @@
 
 - { setname: lambdahack,               name: "haskell:lambdahack" }
 - { setname: lame,                     name: libmp3lame }
-- { setname: language-pack-gnome,      namepat: "language-pack-gnome-.*", family: debuntu }
-- { setname: language-pack-kde,        namepat: "language-pack-kde-.*", family: debuntu }
+- { setname: language-pack-gnome,      namepat: "language-pack-gnome-.*", ruleset: debuntu }
+- { setname: language-pack-kde,        namepat: "language-pack-kde-.*", ruleset: debuntu }
 - { setname: lantern,                  name: lantern-headless }
 - { setname: lantern,                  name: lantern-headless }
 - { setname: lapack++,                 name: lapackpp }
@@ -28,12 +28,12 @@
 - { setname: liberal-crime-squad,      name: lcs }
 - { setname: libreoffice,              name: [libreoffice-bin,libreoffice-bin-debug,libreoffice-gtk3], addflavor: true }
 - { setname: libreoffice,              name: [libreoffice-dev,libreoffice-fresh,libreoffice-oldstable,libreoffice-still] }
-- { setname: libreoffice,              namepat: "([^-]+)-libreoffice", family: freebsd, addflavor: $1 }
+- { setname: libreoffice,              namepat: "([^-]+)-libreoffice", ruleset: freebsd, addflavor: $1 }
 - { setname: libreoffice,              namepat: "libreoffice-((?:i18n|l10n).*)", addflavor: $1 }
-- { setname: libreoffice,              namepat: "libreoffice-(.*)", family: kaos, addflavor: $1 }
-- { setname: libreoffice,              namepat: "libreoffice-fresh-(.*)", family: arch, addflavor: $1 }
-- { setname: libreoffice,              namepat: "libreoffice-still-(.*)", family: arch, addflavor: $1 }
-- { setname: libreoffice-extension-barcode, name: barcode, family: gentoo, category: app-officeext }
+- { setname: libreoffice,              namepat: "libreoffice-(.*)", ruleset: kaos, addflavor: $1 }
+- { setname: libreoffice,              namepat: "libreoffice-fresh-(.*)", ruleset: arch, addflavor: $1 }
+- { setname: libreoffice,              namepat: "libreoffice-still-(.*)", ruleset: arch, addflavor: $1 }
+- { setname: libreoffice-extension-barcode, name: barcode, ruleset: gentoo, category: app-officeext }
 - { setname: libressl,                 name: libressl-devel, weak_devel: true }
 - { setname: libressl,                 name: libressl-netcat, addflavor: netcat }
 - { setname: lightdm,                  name: lightdm-devel, weak_devel: true }
@@ -70,7 +70,7 @@
 - { setname: loudmouth,                name: loudmouth-ossl, addflavor: openssl }
 - { setname: love,                     namepat: "love(?:-legacy)?[0-9.-]+" }
 - { setname: lprof,                    name: lprof-devel, weak_devel: true }
-- { setname: lsof-freebsd,             name: lsof, family: freebsd } # patched version with own versioning
+- { setname: lsof-freebsd,             name: lsof, ruleset: freebsd } # patched version with own versioning
 - { setname: lua,                      namepat: "(?:lib)?lua[0-9.-]*" }
 - { setname: luajit,                   name: [luajit-2.1,luajit2] }
 - { setname: lugaru,                   name: openlugaru }
@@ -82,7 +82,7 @@
 - { setname: lxappearance,             name: lxappearance-gtk3, addflavor: gtk3 }
 - { setname: lxappearance-obconf,      name: lxappearance-obconf-gtk3, addflavor: gtk3 }
 - { setname: lxc,                      name: lxc-selinux }
-- { setname: lxd,                      name: lxc, family: homebrew } # misname
+- { setname: lxd,                      name: lxc, ruleset: homebrew } # misname
 - { setname: lxd,                      name: lxd-lts }
 - { setname: lxdm,                     name: lxdm-gtk3, addflavor: gtk3 }
 - { setname: lxhotkey,                 name: lxhotkey-gtk3, addflavor: gtk3 }

@@ -42,13 +42,13 @@
 - { addflag: not_perl,                 name: libwww-perl }
 
 # in python category as python modules
-- { addflag: not_python,               name: python, family: aosc }
+- { addflag: not_python,               name: python, ruleset: aosc }
 - { addflag: not_python,               name: python-docs }
 
 # python package manager vs. program wrapper (which was renamed to pipo upstream)
 # XXX: generate problem from this
-- { setname: pipo,                     name: pip, family: arch }
-- { setname: pipo,                     name: pip, family: gentoo, category: app-misc }
+- { setname: pipo,                     name: pip, ruleset: arch }
+- { setname: pipo,                     name: pip, ruleset: gentoo, category: app-misc }
 
 - { setname: ruby,                     namepat: "ruby-?[0-9.]+" }
 - { setname: ruby,                     namepat: ruby-doc, addflavor: doc }

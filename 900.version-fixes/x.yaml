@@ -25,24 +25,24 @@
 - { name: xhyve,                       verpat: "20[0-9]{6}",                               snapshot: true } # macports
 - { name: xl2tpd,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: xl2tpd,                      verge: "20000000", verlt: "20180519",               outdated: true }
-- { name: xmahjongg,                   ver: "3.70",                  family: [ pkgsrc ],   incorrect: true }
+- { name: xmahjongg,                   ver: "3.70",                  ruleset: [ pkgsrc ],  incorrect: true }
 - { name: xmbmon,                      verpat: "[0-9]{3}",                                 incorrect: true } # it's 2.05, not 205. Also not 2.0.5.
 - { name: xml-coreutils,               ver: "0.8a",                                        outdated: true }
 - { name: xmlrpc-c,                    vergt: "1.39.12",                                   devel: true } # http://xmlrpc-c.sourceforge.net/change_super_stable.html
 - { name: xmltoman,                    verge: "0.5",                                       successor: true }
 - { name: xmms2,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: xmms2,                       verpat: ".*DrO.*",                                  ignore: true } # ?!
-- { name: xmoto,                       ver: "0.5.12",                family: [ rosa ],     incorrect: true } # no such version
+- { name: xmoto,                       ver: "0.5.12",                ruleset: [ rosa ],    incorrect: true } # no such version
 - { name: xmove,                       ver: "2.0",                   ruleset: sisyphus,    incorrect: true } # it's 2.0beta2
 - { name: xmove,                                                     ruleset: sisyphus,    untrusted: true }
 - { name: xmrig,                       ver: "2.6.0",                 ruleset: [sisyphus,aur], incorrect: true } # beta3
 - { name: xmrig,                                                     ruleset: [sisyphus,aur], untrusted: true }
-- { name: xombrero,                    verlonger: 3,                 family: slitaz,       incorrect: true }
-- { name: xorg-server,                 verlonger: 3,                 family: crux,         ignore: true } # bogus suffux
+- { name: xombrero,                    verlonger: 3,                 ruleset: slitaz,      incorrect: true }
+- { name: xorg-server,                 verlonger: 3,                 ruleset: crux,        ignore: true } # bogus suffux
 - { name: xorg-server,                 verpat: "[0-9]+\\.[0-9]+\\.99.*",                   devel: true }
-- { name: xorriso,                     ver: "1.4.9",                 family: adelie,       incorrect: true }
+- { name: xorriso,                     ver: "1.4.9",                 ruleset: adelie,      incorrect: true }
 - { name: xournal,                     ver: "4.7",                                         outdated: true }
-- { name: xpdf,                        ver: "4.02",                  family: freebsd,      incorrect: true }
+- { name: xpdf,                        ver: "4.02",                  ruleset: freebsd,     incorrect: true }
 - { name: xsel,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: xsp,                         verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: xtitle,                      verpat: "20[0-9]{6}",                               snapshot: true }

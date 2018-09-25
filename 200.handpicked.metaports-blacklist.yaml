@@ -1,12 +1,12 @@
 # vim: tabstop=20 expandtab softtabstop=20
 
-- { remove: true,   name: alias-font,   family: freebsd }
+- { remove: true,   name: alias-font,   ruleset: freebsd }
 
 - { remove: true,   name: base-files }
 
-- { remove: true,   name: docbook,      family: [ freebsd, ravenports ] }
+- { remove: true,   name: docbook,      ruleset: [ freebsd, ravenports ] }
 
-- { remove: true,   name: haskell-platform, family: gentoo }
+- { remove: true,   name: haskell-platform, ruleset: gentoo }
 
 - { remove: true,   name: lxde-meta }
 - { remove: true,   name: lxde-metapackages }
@@ -18,17 +18,17 @@
 - { remove: true,   name: mate-desktop-environment }
 
 # these are metaports pointing to "current" version of python (which is named pythonX.Y)
-- { remove: true,   name: python,       family: freebsd }
-- { remove: true,   name: python2,      family: freebsd }
-- { remove: true,   name: python3,      family: freebsd }
+- { remove: true,   name: python,       ruleset: freebsd }
+- { remove: true,   name: python2,      ruleset: freebsd }
+- { remove: true,   name: python3,      ruleset: freebsd }
 
-- { remove: true,   name: rust-base,    family: aosc }
+- { remove: true,   name: rust-base,    ruleset: aosc }
 
 # XXX: add more (all) task-* metaports
 - { remove: true,   name: task-lxde }
 - { remove: true,   name: task-lxqt }
 
-- { remove: true,   name: vuze-coreplugins, family: gentoo } # just a set of bundled plugins under vuze version
+- { remove: true,   name: vuze-coreplugins, ruleset: gentoo } # just a set of bundled plugins under vuze version
 
 # X11 metaports
 - { remove: true,   name: x11-app }

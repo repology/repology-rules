@@ -44,7 +44,7 @@
 - { setname: inotify-tools,            name: inotify-tools-inc, addflavor: inc }
 - { setname: insighttoolkit,           name: [insighttoolkit4,insight-toolkit] }
 - { setname: intel-microcode,          name: [microcode-intel,microcode-data-intel,intel-microcode-netbsd] }
-- { setname: intel-microcode,          name: microcode, family: [mageia,rosa] } # limit family for safely
+- { setname: intel-microcode,          name: microcode, ruleset: [mageia,rosa] } # limit family for safely
 - { setname: intellij-idea-community,  name: [intellij-idea-ce,idea-community,intellij-idea-community-edition,intellij] }
 - { setname: intellij-idea-community,  name: intellij-idea-ce-eap, ignore: true }
 - { setname: intellij-idea-ultimate,   name: [idea-ultimate,intellij-idea-ultimate-edition,intellij-idea-ue-bundled-jre,intellij-ultimate] }

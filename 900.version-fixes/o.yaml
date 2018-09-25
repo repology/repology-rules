@@ -25,10 +25,10 @@
 - { name: opencolorio,                 verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: opendbx,                     ver: "1.5.0",                                       devel: true } # https://linuxnetworks.de/doc/index.php?title=OpenDBX/Download; XXX probably needs pattern, but the devel scheme is unknown
 - { name: openjade,                    verpat: ".*(p|pre|devel)[0-9]*",                    devel: true }
-- { name: openjade,                    ver: "1.3.3",                 family: [pclinuxos,mageia,openpkg,pld], incorrect: true } # fake, it's 1.3.3pre1
+- { name: openjade,                    ver: "1.3.3",                 ruleset: [pclinuxos,mageia,openpkg,pld], incorrect: true } # fake, it's 1.3.3pre1
 - { name: openjfx,                     verpat: "8\\.0\\..*",                               ignore: true } # fedora; the official scheme is e.g. 8u151b12
 - { name: openjk,                                                                          noscheme: true }
-- { name: openlierox,                  ver: "0.58",                  family: [fedora,debuntu], incorrect: true } # there's no 0.58, only 0.58beta3
+- { name: openlierox,                  ver: "0.58",                  ruleset: [fedora,debuntu], incorrect: true } # there's no 0.58, only 0.58beta3
 - { name: openmortal,                  ver: "0.7.1",                                       ignore: true } # legal release, but no source tarball
 - { name: opennap,                     ver: "0.45",                  ruleset: hpux,        incorrect: true }
 - { name: opennap,                                                   ruleset: hpux,        untrusted: true }
@@ -41,9 +41,9 @@
 - { name: openstack-keystone,          verpat: "201[24].*",                                outdated: true }
 - { name: openuniverse,                ver: "1.0beta3.1",                                  incorrect: true } # debian garbage
 - { name: openxcom,                    verpat: ".*201[789].*",                             snapshot: true } # git snapshots
-- { name: orbit2,                      ver: "2.14.20",               family: sisyphus,     incorrect: true } # alt fake
+- { name: orbit2,                      ver: "2.14.20",               ruleset: sisyphus,    incorrect: true } # alt fake
 - { name: orca,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: osquery,                     ver: "3.0.0",                                       devel: true }
-- { name: owamp,                       ver: "3.5.0",                 family: sisyphus,     incorrect: true }
-- { name: owamp,                                                     family: sisyphus,     untrusted: true }
-- { name: oxygen-gtk3,                 verlonger: 3,                 family: kaos,         incorrect: true }
+- { name: owamp,                       ver: "3.5.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: owamp,                                                     ruleset: sisyphus,    untrusted: true }
+- { name: oxygen-gtk3,                 verlonger: 3,                 ruleset: kaos,        incorrect: true }

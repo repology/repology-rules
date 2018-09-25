@@ -6,7 +6,7 @@
 - { setname: eaglemode,                name: eagle-mode }
 - { setname: easy-rsa,                 name: [easyrsa,easy-rsa2,easy-rsa-old] }
 - { setname: easygit,                  name: [easy-git,eg] }
-- { setname: easyrpg-player,           name: easyrpg, family: openbsd }
+- { setname: easyrpg-player,           name: easyrpg, ruleset: openbsd }
 - { setname: easysoap++,               name: easysoap }
 - { setname: easyspice,                name: easy-spice }
 - { setname: easytag,                  name: [easytag24,easytag-gtk2] }
@@ -25,13 +25,13 @@
 - { setname: eigen,                    namepat: "eigen[0-9.-]+" }
 - { setname: eigen,                    name: libeigen }
 - { setname: eigen,                    name: libeigen2-devel, weak_devel: true }
-- { setname: einstein,                 name: einstein-puzzle, family: pkgsrc }
+- { setname: einstein,                 name: einstein-puzzle, ruleset: pkgsrc }
 - { setname: eiskaltdcpp,              namepat: eiskaltdcpp-(cli|daemon|data|gtk|lib|qt|core) }
 - { setname: elasticsearch,            namepat: "elasticsearch[0-9]+" }
 - { setname: elbcli,                   name: elb-tools }
 - { setname: electricfence,            name: electric-fence }
 - { setname: elfutils,                 name: elfutils-libelf }
-- { setname: elftoolchain,             name: libexecinfo, family: ravenports, addflavor: $0 }
+- { setname: elftoolchain,             name: libexecinfo, ruleset: ravenports, addflavor: $0 }
 - { setname: elixir,                   name: elixir-lang }
 - { setname: elm-format,               namepat: "elm-format[0-9.-]+(?:-exp)?" }
 - { setname: elm-mua,                  name: elm-me, addflavor: me }
@@ -61,9 +61,9 @@
 - { setname: engrampa,                 name: engrampa-dev, weak_devel: true }
 - { setname: engrampa,                 name: engrampa-gtk2, addflavor: true }
 - { setname: enigma,                   name: enigma-sdl }
-- { setname: enscript,                 namepat: "enscript-.*", family: freebsd } # enscript-a4, enscript-letter, enscript-letterdj
-- { setname: entagged,                 name: entagged-tageditor, family: gentoo }
-- { setname: enigma-sgtatham,          name: enygma, family: freebsd }
+- { setname: enscript,                 namepat: "enscript-.*", ruleset: freebsd } # enscript-a4, enscript-letter, enscript-letterdj
+- { setname: entagged,                 name: entagged-tageditor, ruleset: gentoo }
+- { setname: enigma-sgtatham,          name: enygma, ruleset: freebsd }
 - { setname: enlightenment,            name: e17 }
 - { setname: eom,                      name: eom-dev, weak_devel: true }
 - { setname: eom,                      name: eom-gtk2, addflavor: true }
@@ -71,7 +71,7 @@
 - { setname: ephoto,                   name: ephoto-git, ignore: true }
 - { setname: epiphany,                 name: epiphany-browser }
 - { setname: epiphany,                 name: epiphany-unstable, ignore: true }
-- { setname: epl,                      name: epl.el, family: freebsd }
+- { setname: epl,                      name: epl.el, ruleset: freebsd }
 - { setname: epsxe,                    name: epsxe1.9 }
 - { setname: epydoc,                   name: "python:epydoc" }
 - { setname: eric,                     name: [eric-common,eric-i18n,"python:eric"], addflavor: true }
@@ -83,8 +83,8 @@
 - { setname: "erlang:esdl",            name: ["erlang:sdl",esdl] }
 - { setname: etcd,                     namepat: "coreos-etcd[0-9.-]*" }
 - { setname: eternal-lands$1,          namepat: "eternallands(.*)" }
-- { setname: eternal-lands,            name: el, family: freebsd }
-- { setname: eternal-lands-data,       name: el-data, family: freebsd }
+- { setname: eternal-lands,            name: el, ruleset: freebsd }
+- { setname: eternal-lands-data,       name: el-data, ruleset: freebsd }
 - { setname: eternalterminal,          name: eternal-terminal }
 - { setname: eternalterminal,          name: [eternalterminal-client,eternalterminal-server], addflavor: true }
 - { setname: eteroj.lv2,               name: eteroj-lv2 }

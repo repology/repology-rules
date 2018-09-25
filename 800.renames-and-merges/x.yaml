@@ -43,10 +43,10 @@
 - { setname: xdg-utils,                name: [xdg-utils-mimeo,xdg-utils-no-open,xdg-utils-patched,xdg-utils-slock] }
 - { setname: xdot,                     name: ["python:xdot","python:xdot-06"] }
 - { setname: xerces-c,                 namepat: "(?:lib)?xerces-?c[0-9.+-]*" }
-- { setname: xerces-j,                 name: xerces, family: [openbsd,slackbuilds] }
-- { setname: xerces-j,                 name: xerces, family: gentoo, category: dev-java }
+- { setname: xerces-j,                 name: xerces, ruleset: [openbsd,slackbuilds] }
+- { setname: xerces-j,                 name: xerces, ruleset: gentoo, category: dev-java }
 - { setname: xerces-j,                 namepat: "(?:lib)?xerces2?-?j(?:ava)?[0-9-]*" }
-- { setname: xfce4-dict,               name: xfce4-dict-plugin, family: freebsd }
+- { setname: xfce4-dict,               name: xfce4-dict-plugin, ruleset: freebsd }
 - { setname: xfce4-whiskermenu-plugin, name: [xfce4-panel-plugin-whiskermenu] }
 - { setname: xfce4-whiskermenu-plugin, name: [xfce4-whiskermenu-plugin-gtk2,xfce4-whiskermenu-plugin-gtk3], addflavor: true }
 - { setname: xfconf,                   name: [xfce4-conf,xfce4-config,xfconf4.12] }

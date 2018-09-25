@@ -20,7 +20,7 @@
 - { setname: mariadb,                  namepat: "(lib)?mariadb[0-9.-]*(clients?|server)?[0-9.-]*", addflavor: [$1,$2] }
 - { setname: mariadb,                  name: [libmariadbclient-mainline-noconflict,mariadb-clients-mainline-noconflict], addflavor: true }
 - { setname: mariadb,                  name: [mariadb-galera,mariadb-mainline-noconflict], addflavor: true }
-- { setname: mariadb-mytop,            name: mytop, family: arch }
+- { setname: mariadb-mytop,            name: mytop, ruleset: arch }
 - { setname: mariadb-mytop,            name: "mytop-10.3" }
 - { setname: mariadb-mytop,            name: mytop-mainline-noconflict, addflavor: true }
 - { setname: master-pdf-editor,        name: [masterpdfeditor,masterpdfeditor4] }
@@ -97,7 +97,7 @@
 - { setname: mesa-demos,               name: [mesa-demo,mesademos] }
 - { setname: meson,                    name: ["python:meson",meson-internal,meson-testsuite], addflavor: true }
 - { setname: meters.lv2,               name: meters-lv2 }
-- { setname: mgltools,                 namepat: "mgltools-.*", family: debuntu }
+- { setname: mgltools,                 namepat: "mgltools-.*", ruleset: debuntu }
 - { setname: mhash,                    name: libmhash }
 - { setname: midi-matrix.lv2,          name: midi-matrix-lv2 }
 - { setname: midori,                   name: [midori-granite,midori-gtk2,midori-no-zeitgeist], addflavor: true }
@@ -116,10 +116,10 @@
 - { setname: monotone,                 name: monotone-server, addflavor: true }
 - { setname: moodle,                   namepat: "moodle[0-9.-]+" }
 - { setname: moony.lv2,                name: moony-lv2 }
-- { setname: moon-lander,              name: moonlander, family: [freebsd,openbsd] }
+- { setname: moon-lander,              name: moonlander, ruleset: [freebsd,openbsd] }
 - { setname: mosquitto,                name: libmosquitto }
 - { setname: mouseserver,              name: necta-wifi-mouse }
-- { setname: mozilla-dicts,            namepat: "mozilla-dicts-.*", family: openbsd }
+- { setname: mozilla-dicts,            namepat: "mozilla-dicts-.*", ruleset: openbsd }
 - { setname: mozjs,                    name: libmozjs }
 - { setname: mozjs,                    namepat: "mozjs[0-9.-]+" }
 - { setname: mozo,                     name: mozo-gtk2, addflavor: true }

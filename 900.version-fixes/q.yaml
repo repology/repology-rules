@@ -1,12 +1,12 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: qarma,                                                                           noscheme: true } # https://github.com/luebking/qarma/releases there's some strange old tag, but no version releases
-- { name: qca,                         ver: "2.2.0",                 family: vcpkg,        incorrect: true } # not released yet
+- { name: qca,                         ver: "2.2.0",                 ruleset: vcpkg,       incorrect: true } # not released yet
 - { name: qca,                         ver: "2.1.4",                 ruleset: openmandriva, incorrect: true } # git snapshot, not release
 - { name: qdjango,                     verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: qelectrotech,                verpat: ".*r.*",                                    snapshot: true }
 - { name: qemu,                        verpat: ".*pre[0-9]{5}.*",                          snapshot: true }
-- { name: qgis,                                                      family: kaos,         untrusted: true } # snapshot with random version
+- { name: qgis,                                                      ruleset: kaos,        untrusted: true } # snapshot with random version
 - { name: qgis,                        verpat: "[0-9]{5}.*",                               incorrect: true }
 - { name: qgis,                        verpat: ".*unstable",                               ignore: true }
 - { name: qgis,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
@@ -16,15 +16,15 @@
 - { name: qlipper,                     verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: qpdfview,                    ver: "0.4.17",                                      incorrect: true } # skipped upstream
 - { name: qps,                         verpat: "20[0-9]{6}.*",                             snapshot: true }
-- { name: qrfcview,                    ver: "1.0.0",                 family: openbsd,      successor: true } # uses unofficial fork (dead as well)
-- { name: qt5-webkit,                  ver: "5.212.0",               family: [fedora,sisyphus], incorrect: true } # lie, it's 5.212.0alpha2
-- { name: qt5-webkit,                                                family: [fedora,sisyphus], untrusted: true } # lie, it's 5.212.0alpha2
-- { name: qtemu,                       ver: "2.0",                   family: sisyphus,     incorrect: true } # 2.0alpha1
-- { name: qtemu,                                                     family: sisyphus,     untrusted: true }
+- { name: qrfcview,                    ver: "1.0.0",                 ruleset: openbsd,     successor: true } # uses unofficial fork (dead as well)
+- { name: qt5-webkit,                  ver: "5.212.0",               ruleset: [fedora,sisyphus], incorrect: true } # lie, it's 5.212.0alpha2
+- { name: qt5-webkit,                                                ruleset: [fedora,sisyphus], untrusted: true } # lie, it's 5.212.0alpha2
+- { name: qtemu,                       ver: "2.0",                   ruleset: sisyphus,    incorrect: true } # 2.0alpha1
+- { name: qtemu,                                                     ruleset: sisyphus,    untrusted: true }
 - { name: qtox,                        verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: qtox,                        verpat: "2017.*",                                   outdated: true } # 1.15 from 2018
 - { name: quadra,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: quota,                       verpat: "20[0-9]{6}.*",                             snapshot: true } # crux
-- { name: qupzilla,                                                  family: kaos,         untrusted: true } # snapshot with random version
+- { name: qupzilla,                                                  ruleset: kaos,        untrusted: true } # snapshot with random version
 - { name: qvwm,                        ver: "1.1.12.1",              ruleset: aur,         incorrect: true }
 - { name: qxkb,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }

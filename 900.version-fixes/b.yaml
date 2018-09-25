@@ -14,7 +14,7 @@
 - { name: batman-adv,                  verpat: "20[0-9]{2}\\.[0-9]+-4.*",                  incorrect: true } # kernel version appended
 - { name: batman-adv,                  verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: batmand,                     verpat: "[0-9]{4}",                                 ignore: true } # revision
-- { name: bats,                        ver: "1.0",                   family: sisyphus,     ignore: true } # totally fake
+- { name: bats,                        ver: "1.0",                   ruleset: sisyphus,    ignore: true } # totally fake
 - { name: bbswitch,                    verpat: ".*-[0-9]+\\.[0-9]+\\.[0-9]+.*", ruleset: nix, incorrect: true }
 - { name: bcachefs-tools,                                                                  noscheme: true }
 - { name: bcm20702a1-firmware,         verpat: "[0-9]{7}",                                 ignore: false } # unignore global rule from 900/0.yaml
@@ -40,7 +40,7 @@
 - { name: bittornado,                  verge: "0.4.0",                                     successor: true } # https://github.com/effigies/BitTornado
 - { name: blackbox,                    verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: blas,                        verpat: "20[0-9]{6}.*",                             ignore: true }
-- { name: blas,                        ver: "3.9.2",                 family: sisyphus,     ignore: true } # totally fake
+- { name: blas,                        ver: "3.9.2",                 ruleset: sisyphus,    ignore: true } # totally fake
 - { name: blender,                     verpat: "([0-9]+\\.[0-9]+)\\.([a-z])",              setver: "$1$2" } # it's e.g. 2.78c, not 2.78.c
 - { name: blinken,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: bloodfrontier,               ver: "0.85",                                        setver: b2 }
@@ -54,14 +54,14 @@
 - { name: botan,                       ver: "2.8.0",                 ruleset: vcpkg,       incorrect: true }
 - { name: botan,                                                     ruleset: vcpkg,       untrusted: true }
 - { name: bovo,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: brasero,                     ver: "3.12.2",                family: opensuse,     ignore: true } # not released yet
+- { name: brasero,                     ver: "3.12.2",                ruleset: opensuse,    ignore: true } # not released yet
 - { name: brickout,                    verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" } # it's clearly 2002.06.09 as stated on the website
 - { name: brotli,                      verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: budgie-desktop,              verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: bully,                       verpat: "1\\.1.+",                                  ignore: true } # snapshots, latest is 1.1
 - { name: busybox,                     verpat: "[0-9]{4}.*",                               incorrect: true } # scoop
-- { name: byobu,                       ver: "5.126",                 family: debuntu,      incorrect: true }
-- { name: byobu,                                                     family: debuntu,      untrusted: true }
+- { name: byobu,                       ver: "5.126",                 ruleset: debuntu,     incorrect: true }
+- { name: byobu,                                                     ruleset: debuntu,     untrusted: true }
 - { name: bzip2,                       ver: "1.0.6.0.1",                                   ignore: true } # nix fake; real version is 1.0.6
 - { name: bzr-fastimport,              verpat: ".*r.*",                                    ignore: true } # arch snapshot
 - { name: bzr-rewrite,                                               ruleset: aur,         untrusted: true }

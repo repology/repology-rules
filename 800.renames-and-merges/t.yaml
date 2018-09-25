@@ -26,7 +26,7 @@
 - { setname: teg,                      name: tenes-empanadas-graciela }
 - { setname: telegram-desktop,         name: [telegram-desktop-bin,telegram-desktop-systemqt,telegram-desktop-systemqt-emojione,telegram-desktop-systemqt-notoemoji] }
 - { setname: telegram-desktop,         name: [telegram-desktop-bin-dev,telegram-desktop-dev], ignore: true }
-- { setname: telegram-desktop,         name: linux-telegram-desktop, family: freebsd }
+- { setname: telegram-desktop,         name: linux-telegram-desktop, ruleset: freebsd }
 - { setname: telegram-desktop,         name: telegram-desktop-beta }
 - { setname: telepathy-farstream,      name: [libtelepathy-farstream,telepathy-farstream-0.4] }
 - { setname: template-glib,            name: libtemplate-glib }
@@ -41,7 +41,7 @@
 - { setname: tevent,                   name: libtevent }
 - { setname: tevent,                   name: tevent-man, addflavor: man }
 - { setname: tex-$1,                   namepat: "tex-(.*)-doc", addflavor: doc }
-- { setname: texlive-documentation,    namepat: "texlive-documentation-.*", family: gentoo }
+- { setname: texlive-documentation,    namepat: "texlive-documentation-.*", ruleset: gentoo }
 - { setname: texmaker,                 name: texmaker-qt4, addflavor: true }
 - { setname: texstudio,                name: [texstudio-dark,texstudio-lcd,texstudio-phonon,texstudio-qt4,texstudio-qt5], addflavor: true }
 - { setname: the-silver-searcher,      name: [silver-searcher,silversearcher-ag,thesilversearcher] }
@@ -55,7 +55,7 @@
 - { setname: thunderbird,              name: thunderbird-i18n, addflavor: i18n }
 - { setname: thunderbird,              name: thunderbird-l10n-xpi, addflavor: l10n }
 - { setname: thunderbird,              name: thunderbird-ru, addflavor: ru }
-- { setname: thunderbird,              namepat: "thunderbird-(i18n-.*)", family: [openbsd,arch,kaos], addflavor: $1 }
+- { setname: thunderbird,              namepat: "thunderbird-(i18n-.*)", ruleset: [openbsd,arch,kaos], addflavor: $1 }
 - { setname: thunderbird,              namepat: "thunderbird-beta(.*)", addflavor: $1, ignore: true }
 - { setname: thunderbird,              namepat: "thunderbird-nightly(.*)", addflavor: $1, ignore: true }
 - { setname: thunderbird,              namepat: "thunderbird[0-9.-]*" }
@@ -108,12 +108,12 @@
 - { setname: tremor,                   name: [libtremor, libvorbisidec] }
 - { setname: tremulous,                name: tremulous-data, addflavor: data }
 - { setname: triceratops-lv2,          name: lv2-triceratops }
-- { setname: trigger-rally,            name: trigger, family: gentoo }
+- { setname: trigger-rally,            name: trigger, ruleset: gentoo }
 - { setname: tripwire,                 name: [tripwire-131,tripwire12] }
 - { setname: trn,                      name: trn4 }
 - { setname: trnascan-se,              name: trnascanse }
 - { setname: tsc,                      name: the-secret-chronicles-of-dr-m }
-- { setname: tsmuxer,                  name: linux-tsmuxer, family: freebsd }
+- { setname: tsmuxer,                  name: linux-tsmuxer, ruleset: freebsd }
 - { setname: tufao,                    name: tufao0, addflavor: true }
 - { setname: tufao,                    name: tufao0-qt5, addflavor: qt5 }
 - { setname: tuxpaint,                 name: tux-paint }

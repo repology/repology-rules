@@ -73,9 +73,9 @@
 - { setname: pipsi,                    name: [pipsi2,"python:pipsi"] }
 - { setname: pixman,                   name: [libpixman,xorg-libpixman,xorg-pixman] }
 - { setname: pixman,                   name: pixman-static, addflavor: static }
-- { setname: pkg,                      name: pkg-bsd, family: ravenports }
-- { setname: pkg,                      name: pkg-devel, weak_devel: true, family: freebsd }
-- { setname: pkgconf,                  name: pkgconfig, family: ravenports } # XXX
+- { setname: pkg,                      name: pkg-bsd, ruleset: ravenports }
+- { setname: pkg,                      name: pkg-devel, weak_devel: true, ruleset: freebsd }
+- { setname: pkgconf,                  name: pkgconfig, ruleset: ravenports } # XXX
 - { setname: plpgsql-check,            namepat: "(postgresql[0-9.-]*)-plpgsql-check", addflavor: $1 }
 - { setname: plr,                      namepat: "(postgresql[0-9.-]*)-plr", addflavor: $1 }
 - { setname: pluma,                    name: pluma-1.16 }
@@ -98,7 +98,7 @@
 - { setname: portmidi,                 name: libportmidi }
 - { setname: portmidi,                 name: "python:pyportmidi", addflavor: python }
 - { setname: postfix,                  name: [postfix-current,postfix-current-sasl,postfix211,postfix211-sasl] }
-- { setname: postfwd,                  name: postfix-postfwd, family: freebsd }
+- { setname: postfwd,                  name: postfix-postfwd, ruleset: freebsd }
 - { setname: postgis,                  name: [postgis-src,postgis-sfcgal,liblwgeom] }
 - { setname: postgis,                  namepat: "postgis[0-9.-]+" }
 - { setname: postgis,                  namepat: "postgresql[0-9.-]*-postgis" }

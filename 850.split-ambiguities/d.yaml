@@ -1,9 +1,9 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
-- { name: dash, family: gentoo, category: app-emacs, setname: "emacs:dash" }
+- { name: dash, ruleset: gentoo, category: app-emacs, setname: "emacs:dash" }
 - { name: dash, wwwpart: dashpay, setname: dashcore }
 
-- { name: date, family: vcpkg, setname: howard-hinnant-date } # https://github.com/HowardHinnant/date
+- { name: date, ruleset: vcpkg, setname: howard-hinnant-date } # https://github.com/HowardHinnant/date
 - { name: date, wwwpart: HowardHinnant, setname: howard-hinnant-date }
 
 - { name: david, wwwpart: david-dm, setname: david-dm }
@@ -37,13 +37,13 @@
 - { name: wmdocker,                    setname: docker-tray }
 - { name: docker,                      category: [x11,x11-plugins,"Graphical desktop/Window Maker","User Interface/X","universe/x11"], setname: docker-tray }
 - { name: docker,                      wwwpart: icculus.org,              setname: docker-tray }
-- { name: docker,                      family: gobolinux,                 setname: docker-tray }
+- { name: docker,                      ruleset: gobolinux,                setname: docker-tray }
 
 - { name: doit, wwwpart: sgtatham, setname: doit-sgtatham }
 
 - { name: dolphin,                     setname: dolphin-emu,              wwwpart: dolphin-emu.org }
 
-- { name: dragon,                      setname: dragon-scannerparser,     family: [ freebsd ] }
+- { name: dragon,                      setname: dragon-scannerparser,     ruleset: [ freebsd ] }
 - { name: dragon,                      setname: dragon-player                                }
 
 - { name: drgeo, wwwpart: drgeo.eu, setname: gnu-drgeo }
@@ -52,9 +52,9 @@
 - { name: drill, setname: ldns }
 
 - { name: dt, wwwpart: 42wim/dt,       setname: dt-dns }
-- { name: dt, family: pkgsrc,          setname: dt-virtconsoles }
+- { name: dt, ruleset: pkgsrc,         setname: dt-virtconsoles }
 
 # upstream completely dead, different project than https://github.com/craigbarnes/dte
-- { name: dte,                         setname: dte-dougt, family: macports }
+- { name: dte,                         setname: dte-dougt, ruleset: macports }
 
 - { name: dwb, wwwpart: dwb3.3, setname: dwb3.3 } # documenter's workbench vs. webkit-based browser

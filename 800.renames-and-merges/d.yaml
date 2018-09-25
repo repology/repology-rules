@@ -24,7 +24,7 @@
 - { setname: ddrescue,                 name: [gddrescue,gnu-ddrescue] }
 - { setname: deadbeef,                 name: deadbeef-with-plugins }
 - { setname: deal.ii,                  name: [dealii,dealii-openmpi,deal-ii] }
-- { setname: defcon,                   name: linux-defcon, family: freebsd }
+- { setname: defcon,                   name: linux-defcon, ruleset: freebsd }
 - { setname: deis,                     name: [deis-client,deisctl] }
 - { setname: dejagnu,                  name: deja-gnu }
 - { setname: dell-unified-driver,      name: [dell-unified-driver-common,dell-unified-driver-printer,dell-unified-driver-scanner,dell-unified-printer-driver], addflavor: true }
@@ -89,7 +89,7 @@
 - { setname: "dvd+rw-tools",           name: dvdrw-tools }
 - { setname: dwarf-fortress,           name: dwarffortress }
 - { setname: dwarf-fortress,           name: linux-dwarffortress }
-- { setname: dwarf-fortress,           name: linux-dwarffortress, family: freebsd }
+- { setname: dwarf-fortress,           name: linux-dwarffortress, ruleset: freebsd }
 - { setname: dwm-status,               name: "rust:dwm-status" }
-- { setname: dynamips,                 name: dynamips-community, family: freebsd }
+- { setname: dynamips,                 name: dynamips-community, ruleset: freebsd }
 - { setname: dzen,                     name: dzen2 }

@@ -23,8 +23,8 @@
 # file change monitor vs. file system checksum checker
 - { name: fswatch, verpat: "1.*",      setname: fswatch-mon }
 
-- { name: ftp, family: openbsd, setname: gnustep-ftp } # gnustep; may be not ambiguity (yet), but too generic name for sure
-- { name: ftp, family: exherbo, category: net-ftp, setname: inetutils } # XXX: problem
+- { name: ftp, ruleset: openbsd, setname: gnustep-ftp } # gnustep; may be not ambiguity (yet), but too generic name for sure
+- { name: ftp, ruleset: exherbo, category: net-ftp, setname: inetutils } # XXX: problem
 
 - { name: fts, wwwpart: musl-fts, setname: musl-fts } # file tree traversal for musl
 - { name: fts, wwwpart: gonicus, setname: "fusefs:fts" } # fuse TFTP supplicant

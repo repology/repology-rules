@@ -24,7 +24,7 @@
     - xml-parser
     - xml-simple
   setname: "perl:$0"
-  family: openindiana
+  ruleset: openindiana
   category: Development/Perl
 
 # XXX: need review
@@ -119,9 +119,9 @@
     - wcwidth
     - zope.interface
   setname: "python:$0"
-  family: openindiana
+  ruleset: openindiana
   category: Development/Python
 
-- { name: python-certifi, setname: "python:certifi", family: openindiana }
-- { name: python-dateutil, setname: "python:dateutil", family: openindiana }
-- { name: python-ldap, setname: "python:ldap", family: openindiana }
+- { name: python-certifi, setname: "python:certifi", ruleset: openindiana }
+- { name: python-dateutil, setname: "python:dateutil", ruleset: openindiana }
+- { name: python-ldap, setname: "python:ldap", ruleset: openindiana }

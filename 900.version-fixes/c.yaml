@@ -2,7 +2,7 @@
 
 - { name: c2man,                       verpat: "2\\.[0-9]{2,}",                            incorrect: true, disposable: true } # hpux, it's 2.0.4X
 - { name: ca-certificates,             verlonger: 1,                                       ignore: true } # no need to append NSS version
-- { name: ca-certificates,                                           family: [alpine,crux], ignore: true } # see https://hg.mozilla.org/projects/nss/log/tip/lib/ckfw/builtins/certdata.txt for valid dates
+- { name: ca-certificates,                                           ruleset: [alpine,crux], ignore: true } # see https://hg.mozilla.org/projects/nss/log/tip/lib/ckfw/builtins/certdata.txt for valid dates
 - { name: cairo,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: cairomm,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: caja,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -15,18 +15,18 @@
 - { name: can-utils,                                                                       noscheme: true }
 - { name: cantor,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: capstone,                    verpat: ".*20[0-9]{6}",                             snapshot: true } # pentoo
-- { name: capstone,                    ver: "4.0",                   family: freebsd,      incorrect: true }
+- { name: capstone,                    ver: "4.0",                   ruleset: freebsd,     incorrect: true }
 - { name: cargo,                       verpat: "1\\..*",             ruleset: nix,         incorrect: true } # rust version used?
 - { name: caribou,                     ver: "0.4.22",                ruleset: sisyphus,    incorrect: true }
 - { name: caribou,                                                   ruleset: sisyphus,    untrusted: true }
 - { name: castxml,                                                                         noscheme: true }
-- { name: cave9,                       ver: "0.4.1.git20150408",     family: freebsd,      setver: "0.4.1" }
+- { name: cave9,                       ver: "0.4.1.git20150408",     ruleset: freebsd,     setver: "0.4.1" }
 - { name: cblas,                       verpat: "20[0-9]{6}.*",                             ignore: true }
-- { name: ccd2iso,                     ver: "0.9",                   family: freebsd,      outdated: true } # it's fake, no mention of 0.9 at all, and it uses file which was released before 0.3
+- { name: ccd2iso,                     ver: "0.9",                   ruleset: freebsd,     outdated: true } # it's fake, no mention of 0.9 at all, and it uses file which was released before 0.3
 - { name: cddlib,                      verpat: "0([1-9][0-9]*[a-z])",                      setver: 0.$1 } # XXX: problem
 - { name: cdecl,                       verpat: "20[0-9]{6}",                               ignore: true }
-- { name: cdrtools,                    ver: "3.02",                  family: [debuntu,rosa,openmandriva], incorrect: true } # fake, it's alpha
-- { name: cdrtools,                                                  family: [debuntu,rosa,openmandriva], untrusted: true }
+- { name: cdrtools,                    ver: "3.02",                  ruleset: [debuntu,rosa,openmandriva], incorrect: true } # fake, it's alpha
+- { name: cdrtools,                                                  ruleset: [debuntu,rosa,openmandriva], untrusted: true }
 - { name: cdrtools,                    verpat: ".*a.*",                                    devel: true }
 - { name: ceferino,                    verpat: ".*svn.*",                                  ignore: true }
 - { name: cegui,                       verpat: "6\\..*",                                   setver: "0.$0" } # it's 0.6.2!
@@ -61,14 +61,14 @@
 - { name: clisp,                       ver: "2.50",                  ruleset: slitaz,      incorrect: true }
 - { name: clojure,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{3,}",     incorrect: true } # homebrew and nix garbage
 - { name: clonekeen,                   verpat: "0\\.(.*)",                                 setver: "$1" }
-- { name: cloog,                       ver: "0.18.5",                family: [haikuports, aosc, arch], ignore: true } # unofficial fork
-- { name: clusterssh,                                                family: gentoo,       ignore: true } # perl module version mangling rules apply here
-- { name: cmatrix,                     ver: "1.2b",                  family: termux,       incorrect: true }
-- { name: cmatrix,                                                   family: termux,       untrusted: true }
+- { name: cloog,                       ver: "0.18.5",                ruleset: [haikuports, aosc, arch], ignore: true } # unofficial fork
+- { name: clusterssh,                                                ruleset: gentoo,      ignore: true } # perl module version mangling rules apply here
+- { name: cmatrix,                     ver: "1.2b",                  ruleset: termux,      incorrect: true }
+- { name: cmatrix,                                                   ruleset: termux,      untrusted: true }
 - { name: cmdpack,                     vergt: "1.03",                                      successor: true }
 - { name: cmst,                        verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" } # manjaro
 - { name: cmus,                        verpat: ".*20[0-9]{6}.*",                           ignore: true }
-- { name: cmus,                        ver: "2.8.0",                 family: fedora,       ignore: true } # it's rc0
+- { name: cmus,                        ver: "2.8.0",                 ruleset: fedora,      ignore: true } # it's rc0
 - { name: coccigrep,                   verpat: "20[0-9]{6}",                               ignore: true }
 - { name: cogl,                        ver: "1.22.5",                ruleset: pardus,      incorrect: true }
 - { name: cogl,                                                      ruleset: pardus,      untrusted: true }
@@ -91,7 +91,7 @@
 - { name: courier-unicode,             verpat: ".*\\.20[0-9]{6}",                          devel: true } # http://www.courier-mta.org/download.html#unicode
 - { name: coursier,                    ver: "1.0.2",                                       outdated: true } # Known bad version https://github.com/coursier/coursier/commit/2cb42444cdbd6ad2a50f963378ff27259a4fb1a7
 - { name: cowsay,                      ver: "3.04.01",                                     ignore: true }
-- { name: cpufreqd,                    ver: "2.4.3",                 family: sisyphus,     ignore: true } # fake
+- { name: cpufreqd,                    ver: "2.4.3",                 ruleset: sisyphus,    ignore: true } # fake
 - { name: cpulimit,                    verpat: "20[0-8]{6}.*",                             ignore: true } # hyperbola
 - { name: crack-attack,                ver: "1.1.15_cvs_01",                               ignore: true }
 - { name: crda,                        ver: "3.18_2016.02.08",                             ignore: true }

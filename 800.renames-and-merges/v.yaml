@@ -23,8 +23,8 @@
 - { setname: vigra,                    name: vigra-doc, addflavor: doc }
 - { setname: vim,                      name: [gvim,gvim-gtk2], addflavor: true }
 - { setname: vim,                      name: [vim-console,vim-core,vim-full,vim-gnome,vim-gtk2,vim-gtk3,vim-light,vim-lite,vim-minimal,vim-motif,vim-runtime,vim-share,vim-x11,vim-xaw,vim-gvim,vim-python], addflavor: true }
-- { setname: vim-gnupg,                name: gnupg, category: app-vim, family: gentoo }
-- { setname: vim-spell,                namepat: "vim-spell-.*", family: [openbsd,gentoo,arch] }
+- { setname: vim-gnupg,                name: gnupg, category: app-vim, ruleset: gentoo }
+- { setname: vim-spell,                namepat: "vim-spell-.*", ruleset: [openbsd,gentoo,arch] }
 - { setname: vint,                     name: "python:vint" }
 - { setname: vint,                     name: vim-vint }
 - { setname: virglrenderer,            name: libvirglrenderer }
@@ -37,7 +37,7 @@
 - { setname: vm.lv2,                   name: vm-lv2 }
 - { setname: vo-amrwbenc,              name: libvo-amrwbenc }
 - { setname: vscode,                   name: [visual-studio-code,visual-studio-code-oss,visualstudiocode] }
-- { setname: vscode,                   name: code, family: sisyphus } # XXX: problem!
+- { setname: vscode,                   name: code, ruleset: sisyphus } # XXX: problem!
 - { setname: vscode,                   name: visual-studio-code-insiders, ignore: true }
 - { setname: vsftpd,                   name: vsftpd-ssl, addflavor: ssl }
 - { setname: vsqlite++,                name: [libvsqlite++,libvsqlitepp,vsqlite] }

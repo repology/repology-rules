@@ -3,8 +3,8 @@
 - { name: r3,                          ver: "2.0.0",                 ruleset: buckaroo,    incorrect: true } # https://github.com/LoopPerfect/r3/tags
 - { name: r3,                                                        ruleset: buckaroo,    untrusted: true }
 - { name: "r:hexbin",                  ver: "1.27.1-1",                                    ignore: true } # guix fake
-- { name: "r:nws",                     ver: "2.0.0.3",               family: debuntu,      ignore: true } # fake
-- { name: "r:waveslim",                ver: "1.12",                  family: rosa,         ignore: true } # fake
+- { name: "r:nws",                     ver: "2.0.0.3",               ruleset: debuntu,     ignore: true } # fake
+- { name: "r:waveslim",                ver: "1.12",                  ruleset: rosa,        ignore: true } # fake
 - { name: racer-game,                  ver: "1.1.64",                                      incorrect: true } # it's 1.1 64bit version
 - { name: racket,                      verpat: "299.*",                                    outdated: true } # something from 2005
 - { name: rage,                        verlonger: 3,                                       incorrect: true }
@@ -12,11 +12,11 @@
 - { name: ragel,                       verpat: "7\\..*",                                   devel: true } # http://www.colm.net/open-source/ragel/
 - { name: rakarrack,                   ver: "0.6.2",                 ruleset: [sisyphus,fedora,rosa], incorrect: true }
 - { name: rakarrack,                                                 ruleset: [sisyphus,fedora,rosa], untrusted: true }
-- { name: range-v3,                    ver: "1.0.0",                 family: buckaroo,     incorrect: true } # 0.3.6 https://github.com/ericniebler/range-v3/releases
-- { name: range-v3,                                                  family: buckaroo,     untrusted: true }
+- { name: range-v3,                    ver: "1.0.0",                 ruleset: buckaroo,    incorrect: true } # 0.3.6 https://github.com/ericniebler/range-v3/releases
+- { name: range-v3,                                                  ruleset: buckaroo,    untrusted: true }
 - { name: rar,                         verpat: ".*20[0-9]{6}",                             ignore: true }
-- { name: rawstudio,                   ver: "2.1",                   family: [sisyphus,fedora], incorrect: true } # Fedora and ALT Sisphus are packaging devel snapshot as version number not released ustream
-- { name: rawstudio,                                                 family: [sisyphus,fedora], untrusted: true }
+- { name: rawstudio,                   ver: "2.1",                   ruleset: [sisyphus,fedora], incorrect: true } # Fedora and ALT Sisphus are packaging devel snapshot as version number not released ustream
+- { name: rawstudio,                                                 ruleset: [sisyphus,fedora], untrusted: true }
 - { name: rblcheck,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: rblcheck,                    ver: "20020316",                                    outdated: true, disposable: true }
 - { name: rbldnsd,                     verpat: ".*20[0-9]{6}.*",                           ignore: true }
@@ -29,22 +29,22 @@
 - { name: recode,                      verge: "3.7",                                       successor: true } # fork
 - { name: regexxer,                    verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: remmina,                     verpat: "(.*?)([^0-9]*r[^0-9]*)(.*?)",              setver: "$1-rcgit.$3", devel: true, ignore: false } # r, rc, rcgit, etc.
-- { name: remmina,                     ver: "1.2.0",                 family: [alpine,sisyphus,debuntu,rosa], incorrect: true } # liars, it's at 1.2.0-rcgit.XX stage
-- { name: remmina,                                                   family: [alpine,sisyphus,debuntu,rosa], untrusted: true } # liars
-- { name: reptyr,                      ver: "0.6.3a",                family: freebsd,      incorrect: true } # fake, no such tag
+- { name: remmina,                     ver: "1.2.0",                 ruleset: [alpine,sisyphus,debuntu,rosa], incorrect: true } # liars, it's at 1.2.0-rcgit.XX stage
+- { name: remmina,                                                   ruleset: [alpine,sisyphus,debuntu,rosa], untrusted: true } # liars
+- { name: reptyr,                      ver: "0.6.3a",                ruleset: freebsd,     incorrect: true } # fake, no such tag
 - { name: rinetd,                      ver: "0.62.1sam",                                   ignore: true } # debian garbage
 - { name: rocs,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: rpcgen,                                                    family: ravenports,   ignore: true } # fake
+- { name: rpcgen,                                                    ruleset: ravenports,  ignore: true } # fake
 - { name: rsh,                         verpat: "[0-9]{2}",                                 incorrect: true }
-- { name: rss-glx,                     verpat: "0\\.9[0-9]+",        family: openindiana,  incorrect: true } # it's 0.9.1, not 0.91
+- { name: rss-glx,                     verpat: "0\\.9[0-9]+",        ruleset: openindiana, incorrect: true } # it's 0.9.1, not 0.91
 - { name: rtl8812au,                   verpat: "201[56].*",                                ignore: true }
 - { name: rtmpdump,                    verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: rtmpdump,                    verlonger: 2,                                       ignore: true }
 - { name: rtorrent,                    verpat: "20[0-9]{6}.*",                             ignore: true } # nix fake
 - { name: rtorrent,                    verpat: "[0-9]+\\.[0-9]+\\.[0-9]*[13579]",          devel: true } # http://rakshasa.github.io/rtorrent/
 - { name: "ruby:io-like",              ver: "0.3.0.20130301",                              ignore: true } # freebsd
-- { name: "ruby:net-ldap",             ver: "1.1.0",                 family: sisyphus,     incorrect: true }
-- { name: "ruby:net-ldap",                                           family: sisyphus,     untrusted: true }
+- { name: "ruby:net-ldap",             ver: "1.1.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: "ruby:net-ldap",                                           ruleset: sisyphus,    untrusted: true }
 - { name: runc,                        verpat: "[0-9a-f]{7}",                              ignore: true }
 - { name: runc,                        ver: ["1.0.0","1.0.1"],       ruleset: [sisyphus,centos,fedora,openmandriva], incorrect: true } # 1.0.0rc5
 - { name: runc,                                                      ruleset: [sisyphus,centos,fedora,openmandriva], untrusted: true }

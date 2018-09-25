@@ -7,7 +7,7 @@
 - { setname: udisks,                   name: [udisks2-elogind,udisks2-nosystemd], addflavor: true }
 - { setname: udunits,                  name: udunits2 }
 - { setname: ufoai,                    name: [ufoai-data,ufoai-maps,ufoai-music], addflavor: true }
-- { setname: ufoai,                    name: ufo-ai, family: gentoo }
+- { setname: ufoai,                    name: ufo-ai, ruleset: gentoo }
 - { setname: uglify-js,                name: ["node:uglify-js",uglify-es,uglify-js1,uglifyjs] }
 - { setname: uhttpmock,                name: libuhttpmock }
 - { setname: uim,                      name: [uim-anthy,uim-el,uim-elisp,uim-gtk,uim-gtk3,uim-kde4,uim-m17nlib,uim-qt,uim-qt4,uim-qt5,qt5-uim], addflavor: true }
@@ -25,8 +25,8 @@
 - { setname: unibilium,                name: libunibilium }
 - { setname: unifi,                    name: [unifi5, unifi-lts, ubiquiti-unifi-controller] }
 - { setname: unifi,                    name: [unifi-beta, unifi-devel], weak_devel: true }
-- { setname: unigine-heaven,           name: linux-unigine-heaven, family: freebsd }
-- { setname: unigine-valley,           name: linux-unigine-valley, family: freebsd }
+- { setname: unigine-heaven,           name: linux-unigine-heaven, ruleset: freebsd }
+- { setname: unigine-valley,           name: linux-unigine-valley, ruleset: freebsd }
 - { setname: unison,                   name: unison-devel, weak_devel: true }
 - { setname: unison,                   namepat: "unison([0-9.-]*)(?:-compat)?" }
 - { setname: unit,                     name: [nginx-unit, nginx-unitd] }

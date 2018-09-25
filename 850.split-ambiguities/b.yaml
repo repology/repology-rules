@@ -17,10 +17,10 @@
 - { name: bcc, ruleset: [freebsd,pkgsrc,openindiana], setname: bcc-bruceevans }
 - { name: bcc, warning: "please classify me" }
 
-- { name: beanshell, family: kaos,                        setname: beanshell2 }
+- { name: beanshell, ruleset: kaos,                       setname: beanshell2 }
 
 - { name: beast, wwwpart: beast.bio.ed.ac.uk,             setname: beast-mcmc }
-- { name: beast, family: vcpkg,                           setname: boost-beast }
+- { name: beast, ruleset: vcpkg,                          setname: boost-beast }
 
 - { name: bed, wwwpart: dse.nl, setname: bed-editor }
 - { name: bed, setname: bed-bruteforce-exploit-detector }
@@ -38,7 +38,7 @@
 - { name: borg, wwwpart: borg-calendar,                   setname: borg-calendar }
 - { name: borg, wwwpart: ok-borg,                         setname: ok-borg }
 - { name: borg, wwwpart: borgbackup,                      setname: borgbackup }
-- { name: borg, family: sisyphus,                         setname: borgbackup }
+- { name: borg, ruleset: sisyphus,                        setname: borgbackup }
 - { name: borg,                        warning: "please classify me" }
 
 - { name: bos, wwwpart: boswars,                          setname: boswars }

@@ -36,13 +36,13 @@
 
 - { name: skim, wwwpart: scim, setname: skim-scim }
 
-- { name: smem, verpat: "2007.*", family: gentoo, setname: smem.pl } # unrelated python script
+- { name: smem, verpat: "2007.*", ruleset: gentoo, setname: smem.pl } # unrelated python script
 
 - { name: snoopy, wwwpart: tuxfamily, setname: snoopy-warcraft3 }
 
 - { name: sokoban, wwwpart: dansoft, setname: sokoban-dansoft }
 - { name: sokoban, category: app-emacs, setname: sokoban-emacs }
-- { name: sokoban, family: freebsd, setname: sokoban-ncurses }
+- { name: sokoban, ruleset: freebsd, setname: sokoban-ncurses }
 - { name: sokoban, wwwpart: sourceforge.net/projects/sokoban, setname: sokoban-tgfcoder }
 - { name: sokoban, warning: "please classify me" }
 
@@ -64,7 +64,7 @@
 
 - { name: ssr, wwwpart: spatialaudio, setname: soundscaperenderer }
 - { name: ssr, wwwpart: maarten, setname: simplescreenrecorder }
-- { name: ssr, family: pclinuxos, setname: simplescreenrecorder }
+- { name: ssr, ruleset: pclinuxos, setname: simplescreenrecorder }
 
 - { name: ssss, wwwpart: okoeroo, setname: ssss-okoeroo }
 
@@ -88,9 +88,9 @@
 - { name: swarp, warning: "please classify me" }
 
 # Programming language vs. XMPP client vs. openstack object storage
-- { name: swift,                       setname: swift-lang, family: [ arch, freebsd ] }
-- { name: swift,                       setname: swift-im, family: [ sisyphus, fedora, pkgsrc ] }
-- { name: swift,                       setname: openstack-swift, family: [ debuntu, gentoo ] }
+- { name: swift,                       setname: swift-lang, ruleset: [ arch, freebsd ] }
+- { name: swift,                       setname: swift-im, ruleset: [ sisyphus, fedora, pkgsrc ] }
+- { name: swift,                       setname: openstack-swift, ruleset: [ debuntu, gentoo ] }
 - { name: swift, warning: "please classify me" }
 
-- { name: synapse, family: exherbo, setname: matrix-synapse }
+- { name: synapse, ruleset: exherbo, setname: matrix-synapse }

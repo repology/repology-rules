@@ -1,7 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { name: yad,                         ver: "0.40.2",                family: pclinuxos,    incorrect: true }
-- { name: yad,                                                       family: pclinuxos,    untrusted: true }
+- { name: yad,                         ver: "0.40.2",                ruleset: pclinuxos,   incorrect: true }
+- { name: yad,                                                       ruleset: pclinuxos,   untrusted: true }
 - { name: yarn,                        ver: "1.8.0",                                       devel: true, maintenance: true } # devel scheme is unclear; https://github.com/yarnpkg/yarn/releases
 - { name: yelp-tools,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: yelp-xsl,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

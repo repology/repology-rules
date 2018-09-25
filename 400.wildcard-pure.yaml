@@ -11,9 +11,9 @@
 
 # XXX: may consider adding e.g. gentoo and haikuports categories here
 
-- { setname: "haskell:$0",             family: hackage }
-- { setname: "perl:$0",                family: cpan }
-- { setname: "python:$0",              family: pypi }
-- { setname: "r:$0",                   family: cran }
-- { setname: "ruby:$0",                family: rubygems }
-- { setname: "rust:$0",                family: crates_io }
+- { setname: "haskell:$0",             ruleset: hackage }
+- { setname: "perl:$0",                ruleset: cpan }
+- { setname: "python:$0",              ruleset: pypi }
+- { setname: "r:$0",                   ruleset: cran }
+- { setname: "ruby:$0",                ruleset: rubygems }
+- { setname: "rust:$0",                ruleset: crates_io }

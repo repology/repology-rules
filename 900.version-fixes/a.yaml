@@ -1,24 +1,24 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { name: a52dec,                      ver: "0.7.5",                 family: [openbsd,opensuse,pld], ignore: true }
-- { name: a52dec,                      ver: "0.7.4.1",               family: [kaos],       ignore: true }
+- { name: a52dec,                      ver: "0.7.5",                 ruleset: [openbsd,opensuse,pld], ignore: true }
+- { name: a52dec,                      ver: "0.7.4.1",               ruleset: [kaos],      ignore: true }
 - { name: aalib,                       ver: [ "1.4.0", "1.4.0-rc5", "1.4.0rc5", "1.4", "1.4.0.5", "1.4p5" ], incorrect: true } # 1.4 never really released, 1.4.0.5 @ pkgsrc fake. It's 1.4rc5
 - { name: abcmidi,                     verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" }
-- { name: abuse,                       ver: "2.0",                   family: pkgsrc,       ignore: true }
+- { name: abuse,                       ver: "2.0",                   ruleset: pkgsrc,      ignore: true }
 - { name: ack,                         verpat: "2\\.[0-9]{3,}.*",                          incorrect: true } # perl version mangling issues
 - { name: ack,                         verpat: "2\\.[0-9]{,2}[._]0[0-9]",                  devel: true } # e.g. 2.23_02, 2.23_01 as opposed to 2.22
 - { name: acl,                         verlonger: 3,                                       ignore: true }
 - { name: acl,                         verpat: "20[0-9]{6}.*",                             ignore: true }
-- { name: acpi-call,                   verpat: "4\\..*",             family: nix,          incorrect: true } # uses kernel versions instead of software's
+- { name: acpi-call,                   verpat: "4\\..*",             ruleset: nix,         incorrect: true } # uses kernel versions instead of software's
 - { name: adwaita-icon-theme,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: afdko,                       verpat: "([0-9]+\\.[0-9]+)\\.b?([0-9]+).*?",        setver: "$1.$2" }
 - { name: aften,                       ver: [ "0.05", "0.08" ],                            ignore: true }
 - { name: ag,                          verlonger: 3,                                       ignore: true } # windows-only
-- { name: agda-stdlib,                 verlonger: 2,                 family: gentoo,       incorrect: true } # documented broken versioning (other project's version is prepended)
+- { name: agda-stdlib,                 verlonger: 2,                 ruleset: gentoo,      incorrect: true } # documented broken versioning (other project's version is prepended)
 - { name: agedu,                       ver: "20160920.853cea9",                            ignore: true }
-- { name: aircrack-ng,                 ver: "1.2",                   family: [ fedora, debuntu, gentoo, mageia, openwrt, rosa ], ignore: true }
+- { name: aircrack-ng,                 ver: "1.2",                   ruleset: [ fedora, debuntu, gentoo, mageia, openwrt, rosa ], ignore: true }
 - { name: airspy,                      verpat: "20[0-9]{6}",                               ignore: true }
-- { name: airspy,                      verlonger: 3,                 family: freebsd,      incorrect: true }
+- { name: airspy,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: akonadi,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: akonadi-calendar,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: akonadi-calendar-tools,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -38,15 +38,15 @@
 - { name: amiwm,                       ver: "0.21.2",                                      incorrect: true } # it's 0.21pl2; the projects is dead since 2010, so I see no need to bother with pattern rule
 - { name: amiwm,                                                                           p_is_patch: true }
 - { name: amule,                       verpat: "[0-9]{5}",                                 ignore: true } # revision
-- { name: amule,                       verpat: "2\\.4\\.0.*",        family: [ mageia, debuntu ], incorrect: true } # unreleased
-- { name: amule,                       verlonger: 3,                 family: [ kaos ],     incorrect: true } # fake
+- { name: amule,                       verpat: "2\\.4\\.0.*",        ruleset: [ mageia, debuntu ], incorrect: true } # unreleased
+- { name: amule,                       verlonger: 3,                 ruleset: [ kaos ],    incorrect: true } # fake
 - { name: analitza,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: android-studio,              verpat: "([0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)([._].*)", setver: $1 } # drop meaningless build numbers
 - { name: android-tools,               verpat: "[0-9]{4,}.*",                              ignore: true } # fake
-- { name: anki,                        ver: "2.1.0",                 family: debuntu,      ignore: true } # fake
+- { name: anki,                        ver: "2.1.0",                 ruleset: debuntu,     ignore: true } # fake
 - { name: apache,                      verpat: "2\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: apitrace,                                                                        noscheme: true }
-- { name: "apmod:rpaf",                verpat: "2015.*",             family: [ arch ],     ignore: true }
+- { name: "apmod:rpaf",                verpat: "2015.*",             ruleset: [ arch ],    ignore: true }
 - { name: appmenu-qt,                  verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: apr,                         verlonger: 3,                                       ignore: true } # FreeBSD
 - { name: apr,                         verpat: ".*20[0-9]{6}.*",                           ignore: true }
@@ -66,16 +66,16 @@
 - { name: artikulate,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: arx-libertatis,              ver: "1.1.2pl1",                                    setver: "1.1.2" } # 3 LoC CMake fix, not worthy a new version
 - { name: asc,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]{3,}\\.[0-9]+",     devel: true } # http://terdon.asc-hq.org/asc/builds/
-- { name: asciijump,                   ver: "1.0.2",                 family: pld,          incorrect: true } # 1.0.2beta
+- { name: asciijump,                   ver: "1.0.2",                 ruleset: pld,         incorrect: true } # 1.0.2beta
 - { name: asdf,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: asdf,                        ver: "20101028",                                    outdated: true }
 - { name: asdf,                        verlonger: 3,                                       devel: true } # https://gitlab.common-lisp.net/asdf/asdf/blob/3.3.1.7/upgrade.lisp#L94
 - { name: asp2php,                     ver: "20080813",                                    ignore: true }
 - { name: aspcud,                      ver: "2011.03.17",                                  ignore: true }
-- { name: aspell,                      ver: "0.60.7",                family: [debuntu,openmandriva], incorrect: true } # snapshot actually
-- { name: aspell,                                                    family: [debuntu,openmandriva], untrusted: true }
+- { name: aspell,                      ver: "0.60.7",                ruleset: [debuntu,openmandriva], incorrect: true } # snapshot actually
+- { name: aspell,                                                    ruleset: [debuntu,openmandriva], untrusted: true }
 - { name: aspell-be,                   ver: ["0.50.0", "0.60"],                            ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/be/
-- { name: aspell-bn,                   ver: "0.02",                  family: arch,         ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/bn/
+- { name: aspell-bn,                   ver: "0.02",                  ruleset: arch,        ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/bn/
 - { name: aspell-br,                   ver: "0.60.2",                                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/br/
 - { name: aspell-ca,                   ver: "2.3.0",                                       incorrect: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/ca/
 - { name: aspell-ca,                   ver: "20040130",                                    outdated: true } # see https://ftp.gnu.org/gnu/aspell/dict/ca/
@@ -106,5 +106,5 @@
 - { name: aview,                       ver: "1.3.0",                 ruleset: sisyphus,    incorrect: true } # 1.3.0rc1
 - { name: aview,                                                     ruleset: sisyphus,    untrusted: true }
 - { name: aview,                       verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+",        incorrect: true } # 1.3.0rc1, not 1.3.0.1 (pkgsrc)
-- { name: avinfo,                      ver: "1.0",                   family: [ sisyphus ], ignore: true }
+- { name: avinfo,                      ver: "1.0",                   ruleset: [ sisyphus ], ignore: true }
 - { name: axrtools,                    verlonger: 3,                                       incorrect: true }

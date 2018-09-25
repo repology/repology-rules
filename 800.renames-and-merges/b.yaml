@@ -24,7 +24,7 @@
 - { setname: bats,                     name: [bats-core,bash-bats] }
 - { setname: bazel,                    name: bazel-clang38, addflavor: true }
 - { setname: bazel-buildtools,         name: buildifier, addflavor: true }
-- { setname: baudline,                 name: linux-baudline, family: freebsd }
+- { setname: baudline,                 name: linux-baudline, ruleset: freebsd }
 - { setname: bbpager,                  name: [bbpager03,bbpager04] }
 - { setname: bbswitch,                 namepat: "(linux[0-9]+)-bbswitch", addflavor: $1 }
 - { setname: bbswitch,                 name: dkms-bbswitch }
@@ -42,7 +42,7 @@
 - { setname: beast,                    name: beastbse }
 - { setname: beef-browser-exploitation, name: beef-xss }
 - { setname: belle-sip,                name: libbelle-sip }
-- { setname: beneath-a-steel-sky,      name: bass, family: [freebsd,gentoo,openbsd,arch,opensuse] }
+- { setname: beneath-a-steel-sky,      name: bass, ruleset: [freebsd,gentoo,openbsd,arch,opensuse] }
 - { setname: beneath-a-steel-sky,      name: beneath-a-steel-sky-cd }
 - { setname: beneath-a-steel-sky,      name: scummvm-bass }
 - { setname: berusky2,                 name: berusky-ii }
@@ -66,7 +66,7 @@
 - { setname: blasphemer,               name: blasphemer-wad }
 - { setname: blender,                  name: blender-binaries }
 - { setname: blender,                  namepat: "blender[0-9.-]+" }
-- { setname: blitz++,                  name: blitz, family: [gentoo,fedora,opensuse] } # XXX: recheck
+- { setname: blitz++,                  name: blitz, ruleset: [gentoo,fedora,opensuse] } # XXX: recheck
 - { setname: blobby,                   name: blobby-volley-2 }
 - { setname: blobby,                   name: [blobby2,blobby-volley] }
 - { setname: blockattack,              name: block-attack-rise-of-the-blocks }
@@ -116,7 +116,7 @@
 - { setname: bsh,                      name: bsh2 }
 - { setname: btanks,                   name: battle-tanks }
 - { setname: btanks,                   name: btanks-data, addflavor: data }
-- { setname: bubbros,                  name: bub-n-bros, family: gentoo } # XXX: recheck
+- { setname: bubbros,                  name: bub-n-bros, ruleset: gentoo } # XXX: recheck
 - { setname: bucardo,                  name: "perl:bucardo" }
 - { setname: bugs-everywhere,          name: bugseverywhere }
 - { setname: bugzilla,                 namepat: "bugzilla[0-9.-]+" }
@@ -127,7 +127,7 @@
 - { setname: burp,                     name: burp-backup-dev, untrusted: true }
 - { setname: burritun,                 name: "rust:burritun" }
 - { setname: busybox,                  name: [busybox-custom,busybox-norootreboot,busybox-static,mdev,mkinitcpio-busybox], addflavor: true }
-- { setname: byaccj,                   name: byacc-j, family: debuntu }
+- { setname: byaccj,                   name: byacc-j, ruleset: debuntu }
 - { setname: bzflag,                   name: bzflag-server, addflavor: server }
 - { setname: bzr,                      name: bazaar }
 - { setname: bzrtools,                 name: "python:bzrtools" }

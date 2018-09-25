@@ -1,6 +1,6 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
-- { name: camera, family: [freebsd,openbsd], setname: gnustep-camera } # gnustep; may be not ambiguity (yet), but too generic name for sure
+- { name: camera, ruleset: [freebsd,openbsd], setname: gnustep-camera } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
 - { name: cde,                         setname: cdesktopenv, wwwpart: cdesktopenv } # desktop env. vs packaging tool
 
@@ -24,7 +24,7 @@
 - { name: chess, wwwpart: gnu.org,     setname: gnuchess                  }
 - { name: chess, category: Games/Boards, setname: gnuchess                  }
 
-- { name: ck,                          setname: ck-tcl, family: gentoo, category: dev-tcltk }
+- { name: ck,                          setname: ck-tcl, ruleset: gentoo, category: dev-tcltk }
 - { name: [ck,concurrency-kit,libck],  setname: concurrencykit } # XXX: move to 800?
 
 - { name: clac, wwwpart: sourceforge, setname: clac-mborg }

@@ -3,7 +3,7 @@
 # "A tool for building identical machine images" vs "Bash wrapper for pacman and aur"
 - { name: pachi, wwwpart: pachi.or.cz, setname: pachi-go }
 
-- { name: packer, setname: "pacman-packer", family: arch  }
+- { name: packer, setname: "pacman-packer", ruleset: arch }
 
 - { name: pacman, wwwpart: ebuc99, setname: pacman-ebuc99 }
 - { name: pacman, wwwpart: pjsfreeware, setname: pacman-pjs }
@@ -43,7 +43,7 @@
 - { name: pq, wwwpart: progressquest, setname: progress-quest }
 - { name: pq, wwwpart: libpq, setname: libpq }
 
-- { name: preferences, family: freebsd, setname: gnustep-preferences } # gnustep; may be not ambiguity (yet), but too generic name for sure
+- { name: preferences, ruleset: freebsd, setname: gnustep-preferences } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
 - { name: prest, wwwpart: prest.de, setname: "perl:text-restructured" }
 

@@ -31,7 +31,7 @@
 - { setname: gdk-pixbuf,               namepat: "(?:lib)?gdk-pixbuf[0-9.-]*(\\+svg|-jasper|-xlib)?" }
 - { setname: gdl,                      namepat: "(?:lib)?gdl[0-9.-]*" }
 - { setname: gdlmm,                    namepat: "(?:lib)?gdlmm[0-9.-]*" }
-- { setname: geany-plugins,            namepat: "geany-plugin-.*", family: freebsd }
+- { setname: geany-plugins,            namepat: "geany-plugin-.*", ruleset: freebsd }
 - { setname: gearhead2,                name: gearhead-2 }
 - { setname: gearmand,                 name: gearman }
 - { setname: gearmand,                 name: gearmand-devel, weak_devel: true  }
@@ -41,9 +41,9 @@
 - { setname: geeqie,                   name: geeqie-lirc, addflavor: lirc }
 - { setname: gegl,                     namepat: "(?:lib)?gegl[0-9.-]*" }
 - { setname: gegl,                     name: gegl-unstable, ignore: true }
-- { setname: geki2,                    name: geki2-kxl, family: gentoo } # XXX: recheck
-- { setname: geki3,                    name: geki3-kxl, family: gentoo } # XXX: recheck
-- { setname: genpuid,                  name: linux-genpuid, family: freebsd }
+- { setname: geki2,                    name: geki2-kxl, ruleset: gentoo } # XXX: recheck
+- { setname: geki3,                    name: geki3-kxl, ruleset: gentoo } # XXX: recheck
+- { setname: genpuid,                  name: linux-genpuid, ruleset: freebsd }
 - { setname: geoclue,                  namepat: "(?:lib)?geoclue[0-9.-]*" }
 - { setname: geocode-glib,             name: libgeocode-glib }
 - { setname: geogebra,                 name: [geogebra-5,geogebra6] }
@@ -63,7 +63,7 @@
 - { setname: ghostscript,              name: [ghostscript-agpl,ghostscript-gpl,ghostscript-mini,ghostscript-with-cups,ghostscript-with-x], addflavor: true }
 - { setname: ghostscript,              namepat: "ghostscript[0-9]+(-agpl)?(-base|-x11|-commfont|-jpnfont|-korfont)", addflavor: $1$2 } # FreeBSD mainly
 - { setname: gifcurry,                 name: "haskell:gifcurry" }
-- { setname: giflib,                   name: gif, family: ravenports }
+- { setname: giflib,                   name: gif, ruleset: ravenports }
 - { setname: giflib,                   name: giflib-util, addflavor: util }
 - { setname: giflib,                   name: [giflib4,libgif,libungif,compat-giflib] } # libungif is a former name
 - { setname: gimagereader,             name: gimagereader-beta, devel: true }
@@ -84,7 +84,7 @@
 - { setname: gitlab,                   name: [gitlab-ce, gitlab-ee, gitlab-common], addflavor: true }
 - { setname: gitlab-runner,            name: [gitlab-runner-images, gitlab-ci-multi-runner, gitlab-ci-multi-runner-images, gitlab-runner-custom-executors], addflavor: true }
 - { setname: gitflow,                  name: git-flow }
-- { setname: gitg,                     name: gitg0, family: freebsd }
+- { setname: gitg,                     name: gitg0, ruleset: freebsd }
 - { setname: githud,                   name: "haskell:githud" }
 - { setname: gitinspector,             name: "python:gitinspector" }
 - { setname: gitter,                   name: gitter-bin }

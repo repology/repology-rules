@@ -35,7 +35,7 @@
 - { setname: opendkim,                 name: libopendkim }
 - { setname: opendnssec,               name: opendnssec2 }
 - { setname: opendht,                  name: "python:opendht" }
-- { setname: openjade,                 name: jade, family: aosc }
+- { setname: openjade,                 name: jade, ruleset: aosc }
 - { setname: openjade,                 namepat: "openjade[0-9.-]+" }
 - { setname: openjdk,                  namepat: "openjdk[0-9.-]*(?:-doc)?" }
 - { setname: openjpeg,                 name: [openjp2,libopenjpeg2.0] }
@@ -63,7 +63,7 @@
 - { setname: openshot,                 name: openshot-qt, addflavor: qt }
 - { setname: opensm,                   name: compat-opensm-libs }
 - { setname: opensm,                   name: opensm-systemd-multiple-interfaces, addflavor: true }
-- { setname: opensmtpd-extras,         namepat: "opensmtpd-extras-.*", family: [freebsd,openbsd] }
+- { setname: opensmtpd-extras,         namepat: "opensmtpd-extras-.*", ruleset: [freebsd,openbsd] }
 - { setname: opensp,                   name: opensp-doc, addflavor: doc }
 - { setname: openssh,                  name: openssh-portable }
 - { setname: openssh,                  name: ssh-copy-id, addflavor: ssh-copy-id }

@@ -5,16 +5,16 @@
 # hard to split these afterwards
 #
 
-- { setname: dash,                     name: ash, family: sisyphus } # XXX: problem
-- { setname: espeak-ng,                name: espeak, verpat: "1\\.49\\..*", family: [kaos,termux] } # XXX: problem
-- { setname: libdmx,                   name: xorg-dmx, family: ravenports } # don't mix with xorg dmx server
-- { setname: mysql-connector-c,        name: libmysqlclient, family: haikuports } # not really libmysqlclient from mysql
-- { setname: "perl:html-formatter",    name: "perl:html-format", family: fedora } # XXX: problem
-- { setname: "python:pygpgme",         name: "python:gpgme", family: pclinuxos }
+- { setname: dash,                     name: ash, ruleset: sisyphus } # XXX: problem
+- { setname: espeak-ng,                name: espeak, verpat: "1\\.49\\..*", ruleset: [kaos,termux] } # XXX: problem
+- { setname: libdmx,                   name: xorg-dmx, ruleset: ravenports } # don't mix with xorg dmx server
+- { setname: mysql-connector-c,        name: libmysqlclient, ruleset: haikuports } # not really libmysqlclient from mysql
+- { setname: "perl:html-formatter",    name: "perl:html-format", ruleset: fedora } # XXX: problem
+- { setname: "python:pygpgme",         name: "python:gpgme", ruleset: pclinuxos }
 - { setname: "python:pygpgme",         name: "python:gpgme", wwwpart: pygpgme }
-- { setname: wine-etersoft,            name: wine, family: sisyphus } # counterfeit
+- { setname: wine-etersoft,            name: wine, ruleset: sisyphus } # counterfeit
 - { setname: "python:pyxdg",           name: "python:xdg", verpat: "0\\..*" } # XXX: problem
-- { setname: s-nail,                   name: mailx, family: crux } # XXX: problem
+- { setname: s-nail,                   name: mailx, ruleset: crux } # XXX: problem
 - { setname: gcompris-qt,              name: gcompris, verpat: "0\\..*" } # XXX: it may be that qt variant is successor of gtk one and they need to be merge+outdated rules; should investigate
 - { setname: gcompris,                 name: gcompris-qt, verpat: "1[0-9]\\..*" }
 - { setname: sdl2,                     name: sdl, verge: "2" }

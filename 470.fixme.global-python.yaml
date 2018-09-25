@@ -4,27 +4,27 @@
 
 # AOSC does not identify python modules by a prefix, so we need to rely on category
 # and blacklist ports which are not python modules
-#- family: aosc
+#- ruleset: aosc
 #  category: python
 #  name: python
 #  addflag: nowildcard
-- { setname: "python:$0",              family: aosc, category: python, noflag: nowildcard }
+- { setname: "python:$0",              ruleset: aosc, category: python, noflag: nowildcard }
 
 # XXX: merge pypy- and pypy3-
 
 # some rules may merge modules for different python version into single entry; this is intended
-- { setname: "python:$1", noflag: not_python, namepat: "py[0-9][0-9]-(.*)", family: [freebsd,pkgsrc] }
-- { setname: "python:$1", noflag: not_python, namepat: "py3?-(.*)", family: openbsd }
-- { setname: "python:$1", noflag: not_python, namepat: "python-(.*)", family: [centos,debuntu,gobolinux,mageia,pclinuxos,ravenports,rudix,aix,slitaz] }
-- { setname: "python:$1", noflag: not_python, namepat: "python3?-module-(.*)", family: sisyphus }
-- { setname: "python:$1", noflag: not_python, namepat: "python2?-(.*)", family: [arch,guix,openmandriva] }
-#- { setname: "python:$1", noflag: not_python, namepat: "python2-(.*)", family: msys2 }
-- { setname: "python:$1", noflag: not_python, namepat: "python3?-(.*)", family: [crux,fedora,opensuse,rosa,slackbuilds,pld] }
-- { setname: "python:$1", noflag: not_python, namepat: "python[0-9]\\.[0-9]-(.*)", family: nix }
-- { setname: "python:$1", noflag: not_python, namepat: "py[23]?-(.*)", family: [alpine,adelie] }
-- { setname: "python:$1", noflag: not_python, namepat: "py[0-9]*-(.*)", family: macports }
-- { setname: "python:$1", noflag: not_python, namepat: "python[23]?-(.*)", family: kaos }
-- { setname: "python:$0", noflag: not_python, category: dev-python, family: [gentoo,exherbo,haikuports] }
+- { setname: "python:$1", noflag: not_python, namepat: "py[0-9][0-9]-(.*)", ruleset: [freebsd,pkgsrc] }
+- { setname: "python:$1", noflag: not_python, namepat: "py3?-(.*)", ruleset: openbsd }
+- { setname: "python:$1", noflag: not_python, namepat: "python-(.*)", ruleset: [centos,debuntu,gobolinux,mageia,pclinuxos,ravenports,rudix,aix,slitaz] }
+- { setname: "python:$1", noflag: not_python, namepat: "python3?-module-(.*)", ruleset: sisyphus }
+- { setname: "python:$1", noflag: not_python, namepat: "python2?-(.*)", ruleset: [arch,guix,openmandriva] }
+#- { setname: "python:$1", noflag: not_python, namepat: "python2-(.*)", ruleset: msys2 }
+- { setname: "python:$1", noflag: not_python, namepat: "python3?-(.*)", ruleset: [crux,fedora,opensuse,rosa,slackbuilds,pld] }
+- { setname: "python:$1", noflag: not_python, namepat: "python[0-9]\\.[0-9]-(.*)", ruleset: nix }
+- { setname: "python:$1", noflag: not_python, namepat: "py[23]?-(.*)", ruleset: [alpine,adelie] }
+- { setname: "python:$1", noflag: not_python, namepat: "py[0-9]*-(.*)", ruleset: macports }
+- { setname: "python:$1", noflag: not_python, namepat: "python[23]?-(.*)", ruleset: kaos }
+- { setname: "python:$0", noflag: not_python, category: dev-python, ruleset: [gentoo,exherbo,haikuports] }
 - { setname: "python:$1", noflag: not_python, namepat: "python2-(.*)", ruleset: [epel] }
 
 # turn python modules into such
@@ -155,17 +155,17 @@
     - werkzeug
   setname: "python:$0"
 - { name: albatross, ver: "1.36",      setname: "python:albatross"        } # old debian and ubuntu weirdness
-- { name: html2text,                   setname: "python:html2text", family: slackbuilds }
+- { name: html2text,                   setname: "python:html2text", ruleset: slackbuilds }
 - { name: "python:graphviz", verpat: "1\\.[34].*", setname: "python:pygraphviz" } # use pypi name!!!
-- { name: "python:pygeoip",            setname: "python:geoip", family: aosc }
-- { name: "python:geoip",              setname: "python:pygeoip", family: alpine }
+- { name: "python:pygeoip",            setname: "python:geoip", ruleset: aosc }
+- { name: "python:geoip",              setname: "python:pygeoip", ruleset: alpine }
 - { name: "python:geoip-python",       setname: "python:geoip" }
-- { name: numeric,                     setname: "python:numeric", family: [crux,gobolinux] }
+- { name: numeric,                     setname: "python:numeric", ruleset: [crux,gobolinux] }
 
-- { name: bleach, family: slackbuilds, setname: "python:bleach"           }
-- { name: geohash, family: slackbuilds, setname: "python:geohash"         }
+- { name: bleach, ruleset: slackbuilds, setname: "python:bleach"           }
+- { name: geohash, ruleset: slackbuilds, setname: "python:geohash"         }
 - { name: "python:pygtk_git", setname: "python:pygtk", ignore: true }
-- { name: html2text, family: rudix,    setname: "python:$0" }
+- { name: html2text, ruleset: rudix,   setname: "python:$0" }
 - { name: "python:proj", verpat: "1\\.9\\..*", setname: "python:pyproj"   }
 - { name: "python:colour", wwwpart: colour-science, setname: "python:colour-science" }
 - { setname: "python:progressbar2",    name: "python:progressbar", wwwpart: wolph }
