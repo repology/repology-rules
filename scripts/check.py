@@ -98,6 +98,7 @@ rulesets = families + [
     'parabola',
     'pardus',
     'parrot',
+    'unitedrpms',
 ]
 
 schema = Schema(
