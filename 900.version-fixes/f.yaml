@@ -15,6 +15,7 @@
 - { namepat: "fest(lex|vox)-.*",       ver: "20040804",                                    outdated: true } # some old crap from openbsd
 - { name: ffcall,                      verpat: "20[0-9]{6}",                               snapshot: true } # slitaz
 - { name: ffmpeg,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # openbsd, chocolatey, pkgsrc
+- { name: ffmpegthumbs,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ffms2,                       ver: "2.23.1",                                      setver: "2.23" } # https://github.com/repology/repology/issues/496
 - { name: figlet,                      ver: "222",                                         ignore: true } # haikuports
 - { name: file-roller,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

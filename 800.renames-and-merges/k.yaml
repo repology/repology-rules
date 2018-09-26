@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: kate,                     name: kate-root, addflavor: true }
 - { setname: kde-i18n,                 namepat: "kde-(i18n|l10n)-.*" }
 - { setname: kde4-l10n,                namepat: "kde4-l10n-.*", ruleset: pkgsrc }
 - { setname: kdegraphics-mobipocket,   name: mobipocket }

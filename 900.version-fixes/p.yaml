@@ -70,6 +70,7 @@
 - { name: powertop,                    verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: pragmarc,                                                                        noscheme: true }
 - { name: prboom-plus,                 verpat: ".*svn.*",                                  snapshot: true }
+- { name: print-manager,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: processing,                  verpat: "[0-9]{4}.*",                               incorrect: true } # gobolinux garbage
 - { name: procmail,                    verpat: "[0-9]+",                                   incorrect: true } # homebrew
 - { name: progsreiserfs,               ver: "0.3.1",                 ruleset: pld,         incorrect: true }
