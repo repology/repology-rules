@@ -141,6 +141,7 @@
 - { setname: mutt,                     name: mutt-devel, weak_devel: true }
 - { setname: mutt,                     name: [mutt-lite,mutt14,mutt14-lite,mutt-patched,mutt-slang,mutt-kiss] }
 - { setname: mx,                       name: libmx }
+- { setname: mxml,                     name: mxml-static, addflavor: true }
 - { setname: mygui,                    namepat: "mygui-(docs|dummy|gl|opengl|ogre[0-9.-]*)", addflavor: $1 }
 - { setname: mypy,                     name: "python:mypy" }
 - { setname: myrepos,                  name: mr }
