@@ -5,3 +5,4 @@
 #
 
 - { namepat: "(bareos)[0-9]*(-.*)?",   setname: $1$2 }
+- { namepat: "(gimp)2(-.*)",           setname: $1$2 }

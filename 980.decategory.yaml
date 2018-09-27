@@ -1,0 +1,8 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+#
+# Undo some categories to make them merge with prefixed names,
+# but without the need for us to handpick merges the other way
+#
+
+- { namepat: "(gimp):(.*)", setname: $1-$2 }

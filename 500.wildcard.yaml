@@ -36,6 +36,11 @@
 # Fuse
 - { setname: "fusefs:$1", noflag: not_fusefs, namepat: "fuse(?:fs)?-(.*)" }
 
+# Gimp
+- { setname: "gimp:$1", noflag: not_gimp, namepat: "gimp-plugin-(.*)" }
+- { setname: "gimp:$1", noflag: not_gimp, namepat: "gimp-script-(.*)" }
+- { setname: "gimp:$1", noflag: not_gimp, namepat: "gimp-(.*)-plugin" }
+
 # Gnustep
 - { setname: "gnustep-$1", noflag: not_gnustep, namepat: "([a-z]+)\\.app" }
 - { setname: "gnustep-$0", noflag: not_gnustep, ruleset: [ gentoo, exherbo ], category: gnustep-apps }
