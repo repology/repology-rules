@@ -20,6 +20,9 @@
 # Deepin
 - { setname: "deepin-$1", noflag: not_deepin, namepat: "(?:deepin|dde)-(.*)" }
 
+# Emacs
+- { setname: "emacs:$0", noflag: not_emacs, category: app-emacs, ruleset: [gentoo, exherbo] }
+
 # Erlang
 - { setname: "erlang:$0", noflag: not_arlang, category: dev-erlang, ruleset: [ gentoo, exherbo ] }
 - { setname: "erlang:$1", noflag: not_arlang, namepat: "erlang-(.*)" }
