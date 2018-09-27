@@ -124,6 +124,9 @@
 - { setname: "vdr:$1", noflag: not_vdr, namepat: "vdr-plugin-(.*)" }
 - { setname: "vdr:$1", noflag: not_vdr, namepat: "vdr-(.*)", ruleset: [ fedora, gentoo, exherbo ] }
 
+# vim
+- { setname: "vim:$0", noflag: not_vim, category: app-vim, ruleset: [gentoo, exherbo] }
+
 # Xemacs
 - { setname: "xemacs:$0", noflag: not_xemacs, category: app-xemacs, ruleset: [gentoo, exherbo] }
 
