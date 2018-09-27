@@ -18,9 +18,9 @@
 - { setname: gcompris-qt,              name: gcompris, verpat: "0\\..*" } # XXX: it may be that qt variant is successor of gtk one and they need to be merge+outdated rules; should investigate
 - { setname: gcompris,                 name: gcompris-qt, verpat: "1[0-9]\\..*" }
 - { setname: sdl2,                     name: sdl, verge: "2" }
-- { setname: sdl2_ttf,                 name: sdl_ttf, ruleset: [exherbo,gobolinux,kaos] }
-- { setname: sdl2_net,                 name: sdl_net, verge: "2" }
-- { setname: sdl2_mixer,               name: sdl_mixer, verge: "2" }
+- { setname: sdl2-ttf,                 name: sdl-ttf, ruleset: [exherbo,gobolinux,kaos] }
+- { setname: sdl2-net,                 name: sdl-net, verge: "2" }
+- { setname: sdl2-mixer,               name: sdl-mixer, verge: "2" }
 - { setname: mandoc,                   name: man, wwwpart: mdocml }
 - { setname: google-authenticator-libpam, name: google-authenticator, wwwpart: google-authenticator-libpam }
 - { setname: "python:iso-8601",        name: "python:iso8601", ver: "0.2.4" } # rosa problem
