@@ -21,6 +21,8 @@
 - { name: file-roller,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: filelight,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: firebird,                    verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.[0-9]{5,}.*", setver: "$1" }
+- { name: firebird,                    ver: "3.0.4",                 ruleset: debuntu,     incorrect: true } # no tag, no website mention
+- { name: firebird,                                                  ruleset: debuntu,     untrusted: true } # accused of fake 3.0.4
 - { name: firefox,                     verpat: ".*[ab].*",                                 devel: true }
 - { name: firefox,                     verpat: "(.*?) *esr",                               setver: $1 }
 - { name: firmware-mod-kit,            verpat: "20[0-9]{6}",                               snapshot: true } # slitaz
