@@ -42,6 +42,7 @@
 - { name: pkg,                         verpat: "[0-9]+\\.[0-9]+\\.99\\..*",                devel: true }
 - { name: pkgdiff,                     ver: "1.8",                   ruleset: freshcode,   ignore: true } # https://github.com/lvc/pkgdiff/issues/35
 - { name: plantuml,                    verpat: "[0-9]{4,5}",                               incorrect: true } # 1.2018.8
+- { name: plasma,                                                                          noscheme: true }
 - { name: pldebugger,                  verge: "9",                                         outdated: true } # https://git.postgresql.org/gitweb/?p=pldebugger.git;a=tag;h=264450daaf89455f92ebcd7d4ff2e8a0a9a19209
 - { name: plowshare-modules,                                                               noscheme: true } # no official releases
 - { name: pluma,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
