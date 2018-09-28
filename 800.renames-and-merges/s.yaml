@@ -61,6 +61,8 @@
 - { setname: sgt-puzzles,              name: simon-tathams-portable-puzzle-collection }
 - { setname: sgt-puzzles,              name: puzzles } # not completely safe, but other puzzles were not encountered yet
 - { setname: sha1collisiondetection,   name: sha1dc }
+- { setname: shellcheck,               name: shellcheck-bin, addflavor: true }
+- { setname: shellcheck,               name: "haskell:shellcheck" }
 - { setname: sherlock.lv2,             name: sherlock-lv2 }
 - { setname: shibboleth-sp,            namepat: "shibboleth-sp[0-9]+" }
 - { setname: shotcut,                  name: shotcut-dmo }
