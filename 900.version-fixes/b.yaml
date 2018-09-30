@@ -56,6 +56,7 @@
 - { name: bovo,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: brasero,                     ver: "3.12.2",                ruleset: opensuse,    ignore: true } # not released yet
 - { name: brickout,                    verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" } # it's clearly 2002.06.09 as stated on the website
+- { name: brisk-menu,                  ver: "0.5.1",                 ruleset: freebsd,     incorrect: true } # fork and a new fake version for the sake of single commit
 - { name: brotli,                      verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: budgie-desktop,              verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: bully,                       verpat: "1\\.1.+",                                  ignore: true } # snapshots, latest is 1.1
