@@ -86,14 +86,17 @@
 
 # utils
 - namepat: |
-    (?:xorg-|x11-)+(
+    (?:xorg-|x11-)+(?:app-|data-)?(
     appres|
     bdftopcf|
     beforelight|
     bitmap|
     editres|
     font-util|
+    fonttosfnt|
     fontutil|
+    fslsfonts|
+    fstobdf|
     gccmakedep|
     iceauth|
     imake|
@@ -101,6 +104,7 @@
     makedepend|
     mkfontdir|
     mkfontscale|
+    rgb|
     sessreg|
     setxkbmap|
     smproxy|
@@ -114,6 +118,7 @@
     xclock|
     xcmsdb|
     xconsole|
+    xcursor-themes|
     xcursorgen|
     xdpyinfo|
     xdriinfo|
@@ -153,16 +158,18 @@
 
 # libs
 - namepat: |
-    (?:xorg-|x11-)+(?:lib)?(
+    (?:xorg-|x11-)+(?:lib-)?(?:lib)?(
     evdev|
     fontenc|
     fs|
     ice|
+    lbxutil|
     oldx|
     pciaccess|
     sm|
     x11|
     xau|
+    xaw3d|
     xaw|
     xcb|
     xcomposite|
@@ -174,24 +181,24 @@
     xfixes|
     xfontcache|
     xft|
-    xi|
     xinerama|
+    xi|
     xkbfile|
     xkbui|
     xmu|
-    xp|
     xpm|
+    xp|
     xrandr|
     xrender|
     xres|
     xscrnsaver|
     xshmfence|
-    xt|
     xtrans|
     xtrap|
     xtst|
-    xv|
+    xt|
     xvmc|
+    xv|
     xxf86dga|
     xxf86misc|
     xxf86vm
