@@ -151,11 +151,12 @@
 - { setname: atril,                    name: [atril-gtk2, atril-lite, atril-nocaja-gtk2, atril-gtk], addflavor: true }
 - { setname: ats$1,                    namepat: "ats2(.*)" }
 - { setname: atspkg,                   name: "haskell:ats-pkg" }
-- { setname: attica,                   name: [attica-kf5,attica-qt4,attica-qt5,libattica] }
+- { setname: attica,                   name: [attica-kf5,attica-qt4,attica-qt5,libattica], addflavor: true }
 - { setname: aubio,                    name: [libaubio,libaubio4,"python:aubio"] }
-- { setname: audacious,                name: [audacious-gtk3,audacious-core,audacious-qt5,audacious2,audacious-itself] }
+- { setname: audacious,                name: [audacious-gtk3,audacious-core,audacious-qt5,audacious2,audacious-itself], addflavor: true }
+- { setname: audacious,                name: audacious2, addflavor: true }
 - { setname: audacious-plugins,        name: audacious2-plugins }
-- { setname: audacity,                 name: audacity-freeworld }
+- { setname: audacity,                 name: [audacity-freeworld,audacity-wxgtk2], addflavor: true }
 - { setname: audiofile,                name: libaudiofile }
 - { setname: autoconf,                 namepat: "autoconf[0-9.-]+" }
 - { setname: autoconf,                 name: autoconf-legacy }
