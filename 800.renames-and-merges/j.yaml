@@ -1,5 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: j,                        name: linux-j, addflavor: true }
+- { setname: j,                        name: j8 }
 - { setname: ja2-stracciatella,        name: ja2 }
 - { setname: jabberd,                  name: jabberd2 }
 - { setname: jack,                     name: [jackit,jack-audio-connection-kit,jack1,jack-cd-ripper] } # jack needs untangling anyway, so dump everything into jakc and untangle it later
