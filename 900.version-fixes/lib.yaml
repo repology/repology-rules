@@ -108,6 +108,7 @@
 - { name: libtorrent,                  verpat: "[0-9]+\\.[0-9]+\\.[0-9]*[13579]",          devel: true } # http://rakshasa.github.io/rtorrent/
 - { name: libunwind,                   verpat: ".*20[0-9]{6}",                             snapshot: true } # termux snapshot
 - { name: libusbmuxd,                  verpat: "1\\.1\\.0.*",        ruleset: [openwrt,debuntu], ignore: true } # fake
+- { name: libvpx,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: libvterm,                                                                        noscheme: true }
 - { name: libx11,                      verpat: "7\\.[4567].*",                             ignore: true } # uses version from Xorg, not its own # XXX: ->incorrect
 - { name: libx86emu,                   verlonger: 2,                 ruleset: kaos,        ignore: true } # uses some opensuse package with mangled version
