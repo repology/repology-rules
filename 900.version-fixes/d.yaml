@@ -43,6 +43,7 @@
 - { name: dnrd,                        ver: "2.20.4",                ruleset: aix,         incorrect: true }
 - { name: dnrd,                                                      ruleset: aix,         untrusted: true }
 - { name: dnscap,                      verpat: "[0-9]{3,}",                                ignore: true }
+- { name: dnsmasq,                     verpat: ".*test.*",                                 devel: true }
 - { name: dnstop,                                                                          noscheme: true }
 - { name: doas,                                                                            p_is_patch: true }
 - { name: doas,                        verpat: "6.0p[0-9]+",                               successor: true }
