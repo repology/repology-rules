@@ -1,7 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { setname: linux,                    namepat: "linux(?:-kernel|-lts)*[0-9.-]*" }
-- { setname: linux,                    namepat: "linux-[0-9.-]+-(antix.*)", addflavor: $1 }
+- { addflag: not_linux,                name: linux86 }
+- { setname: linux,                    namepat: "linux(?:-kernel|-lts)*[0-9.-]*", noflag: not_linux }
+- { setname: linux,                    namepat: "linux-[0-9.-]+-(antix.*)", noflag: not_linux, addflavor: $1 }
 - { setname: linux,                    name: kernel }
 
 - setname: linux
