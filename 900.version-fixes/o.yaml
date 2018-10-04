@@ -23,6 +23,7 @@
 - { name: opencollada,                 verpat: ".*3335ac.*",                               incorrect: true }
 - { name: opencollada,                 verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: opencolorio,                 verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: opencvs,                                                                         noscheme: true }
 - { name: opendbx,                     ver: "1.5.0",                                       devel: true } # https://linuxnetworks.de/doc/index.php?title=OpenDBX/Download; XXX probably needs pattern, but the devel scheme is unknown
 - { name: openjade,                    verpat: ".*(p|pre|devel)[0-9]*",                    devel: true }
 - { name: openjade,                    ver: "1.3.3",                 ruleset: [pclinuxos,mageia,openpkg,pld], incorrect: true } # fake, it's 1.3.3pre1
