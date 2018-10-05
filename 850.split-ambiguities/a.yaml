@@ -2,6 +2,12 @@
 
 - { name: aclock, ruleset: freebsd, setname: gnustep-aclock } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
+- { name: acme, wwwpart: certbot, setname: certbot, addflavor: acme }
+- { name: acme, wwwpart: [meonwax,acme-crossass,smorbrod], setname: acme-crossassembler }
+- { name: acme, category: "Graphical desktop/GNOME", setname: acme-keyboard-daemon }
+- { name: acme, wwwpart: "https://git.rapsys.eu/?p=acme", setname: acme-perl }
+- { name: acme, warning: "please classify me" }
+
 - { name: addresses, ruleset: [freebsd,openbsd,pkgsrc], setname: gnustep-addresses } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
 - { name: ale, wwwpart: aleditor, setname: aleditor }

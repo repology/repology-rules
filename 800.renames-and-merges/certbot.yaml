@@ -1,0 +1,28 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { setname: certbot,                  name: letsencrypt }
+- setname: certbot
+  name:
+    - "python:certbot"
+    - "python:certbot-dns-cloudflare"
+    - "python:certbot-dns-cloudxns"
+    - "python:certbot-dns-digitalocean"
+    - "python:certbot-dns-dnsimple"
+    - "python:certbot-dns-dnsmadeeasy"
+    - "python:certbot-dns-gehirn"
+    - "python:certbot-dns-google"
+    - "python:certbot-dns-linode"
+    - "python:certbot-dns-luadns"
+    - "python:certbot-dns-nsone"
+    - "python:certbot-dns-ovh"
+    - "python:certbot-dns-rfc2136"
+    - "python:certbot-dns-route53"
+    - "python:certbot-dns-sakuracloud"
+    - "python:certbot-nginx"
+    - "python:certbot-postfix"
+    - certbot-apache
+    - certbot-dns-digitalocean
+    - certbot-dns-google
+    - certbot-dns-route53
+    - certbot-nginx
+  addflavor: true
