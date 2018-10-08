@@ -17,6 +17,7 @@
 - { name: sccs,                        verpat: "[0-9]{6}",                                 incorrect: true }
 - { name: schismtracker,               ver: "20150911005204",                              ignore: true }
 - { name: scite,                       verpat: "[0-9]{3}",                                 incorrect: true } # pclinuxos; it's x.y.z
+- { name: screengen,                   ver: "1.10",                                        devel: true } # https://github.com/OlegKochkin/screengen/blob/master/src/build_number.h -> no tags, but current devel version
 - { name: scrot,                       verpat: "0\\.8[.+-].*",                             ignore: true } # debian fakes
 - { name: sddm,                        verpat: "[0-9]{4,}.*",        ruleset: kaos,        ignore: true } # snapshot with random version
 - { name: seahorse,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

@@ -38,6 +38,8 @@
 - { name: amiwm,                       ver: "0.21.2",                                      incorrect: true } # it's 0.21pl2; the projects is dead since 2010, so I see no need to bother with pattern rule
 - { name: amiwm,                                                                           p_is_patch: true }
 - { name: amule,                       verpat: "[0-9]{5}",                                 ignore: true } # revision
+- { name: amule,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true }
+- { name: amule,                       ver: "2.3.2.1",                                     incorrect: true }
 - { name: amule,                       verpat: "2\\.4\\.0.*",        ruleset: [ mageia, debuntu ], incorrect: true } # unreleased
 - { name: amule,                       verlonger: 3,                 ruleset: [ kaos ],    incorrect: true } # fake
 - { name: analitza,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

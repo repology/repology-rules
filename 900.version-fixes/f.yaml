@@ -85,6 +85,7 @@
 - { name: freerdp,                     ver: "2.0.0",                 ruleset: [sisyphus,fedora,rosa], incorrect: true } # it's -rc[01] ATOW
 - { name: freerdp,                                                   ruleset: [sisyphus,fedora,rosa], untrusted: true }
 - { name: freetds,                     verge: "1.0.300",                                   devel: true, maintenance: true } # http://www.freetds.org/files/stable/ http://www.freetds.org/files/current/; not sure where the divide really is
+- { name: freetuxtv,                   verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: freewnn,                     ver: "1.1.1",                 ruleset: pld,         incorrect: true }
 - { name: freewnn,                                                   ruleset: pld,         untrusted: true }
 - { name: frescobaldi,                 ver: "3.0.1",                 ruleset: sisyphus,    ignore: true } # fake
