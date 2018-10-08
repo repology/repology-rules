@@ -109,7 +109,8 @@
 - { setname: minixml,                  name: libmxml }
 - { setname: minpack,                  name: libcminpack }
 - { setname: mirrormagic,              name: mirrormagic-sdl }
-- { setname: mixxx,                    name: mixxx20 }
+- { setname: mixxx,                    name: [mixxx20,mixxx-1-11] }
+- { setname: mixxx,                    name: mixxx-unstable, weak_devel: true }
 - { setname: mixxx,                    name: mixxx-qt5, addflavor: true }
 - { setname: moc,                      name: moc-pulse, addflavor: pulse }
 - { setname: moc,                      name: mocp }

@@ -47,6 +47,7 @@
 - { setname: openmpi,                  name: open-mpi }
 - { setname: openobex,                 name: libopenobex }
 - { setname: openocd,                  name: open-ocd }
+- { setname: openoctavemidi,           name: openoctavemidi-unstable, weak_devel: true }
 - { setname: openoffice,               name: apache-openoffice }
 - { setname: openoffice,               name: apache-openoffice-devel, weak_devel: true }
 - { setname: openoffice,               name: openoffice-bin, addflavor: bin }
@@ -64,6 +65,7 @@
 - { setname: opensm,                   name: compat-opensm-libs }
 - { setname: opensm,                   name: opensm-systemd-multiple-interfaces, addflavor: true }
 - { setname: opensmtpd-extras,         namepat: "opensmtpd-extras-.*", ruleset: [freebsd,openbsd] }
+- { setname: opensonic,                name: opensnc }
 - { setname: opensp,                   name: opensp-doc, addflavor: doc }
 - { setname: openssh,                  name: openssh-portable }
 - { setname: openssh,                  name: ssh-copy-id, addflavor: ssh-copy-id }

@@ -22,6 +22,8 @@
 - { setname: libdc1394,                namepat: "libdc1394[0-9.-]+" }
 - { setname: libdca,                   name: libdca0 }
 - { setname: libdvbpsi,                namepat: "libdvbpsi[0-9.-]+" }
+- { setname: libdvdplay,               name: libdvdplay0 }
+- { setname: libdvdread,               name: libdvdread3 }
 - { setname: libejdb,                  name: ejdb }
 - { setname: libelf,                   name: libelf0 }
 - { setname: libetonyek,               namepat: "libetonyek[0-9.-]+" }
@@ -29,6 +31,7 @@
 - { setname: libev,                    name: libev-static, addflavor: static }
 - { setname: libevent,                 name: [libevent2,libevent1,libevent-compat,libevent0.9] }
 - { setname: libevent,                 name: [libevent-fb,libevent-hiphop,libeventextra], addflavor: true }
+- { setname: libfame,                  name: libfame-0-9-1 }
 - { setname: libfastjson,              name: fastjson }
 - { setname: libfm,                    name: [libfm-directory-thumbnails,libfm-extra,libfm-gtk2,libfm-gtk3] }
 - { setname: libfprint,                name: [libfprint-upstream,libfprint-vfs0090,libfprint-vfs0097], addflavor: true }
@@ -82,6 +85,7 @@
 - { setname: liblqr,                   name: liblqr-1 } # XXX: reverse?
 - { setname: libm4ri,                  name: m4ri }
 - { setname: libm4rie,                 name: m4rie }
+- { setname: libmcs,                   name: libmcs1 }
 - { setname: libdmapsharing,           name: [libdmapsharing3,libdmapsharing4] }
 - { setname: libmatekbd,               name: libmatekbd-dev, weak_devel: true }
 - { setname: libmatekbd,               name: libmatekbd-gtk2, addflavor: true }
@@ -96,6 +100,7 @@
 - { setname: libmozjs,                 namepat: "libmozjs[0-9.-]+" }
 - { setname: libmp4v2,                 name: [mp4v2,libmp4v2-2,libmp4v2-3] }
 - { setname: libmpcdec,                name: libmpcdec5 }
+- { setname: libmpeg3,                 name: libmpeg3-1 }
 - { setname: libmspub,                 namepat: "libmspub[0-9.-]+" }
 - { setname: libmusicbrainz,           namepat: "(?:lib)?musicbrainz[0-9.-]*" }
 - { setname: libmwaw,                  namepat: "libmwaw[0-9.-]+" }
@@ -204,6 +209,7 @@
 - { setname: libxrender,               name: [libx32-libxrender,xorg-libxrender,xrender] }
 - { setname: libxslt,                  name: [libxslt-reference,libxslt-python,xsltproc], addflavor: true }
 - { setname: libxslt,                  name: "python:libxslt", addflavor: python }
+- { setname: libxtract,                name: libxtract0 }
 - { setname: libyaml,                  name: yaml }
 - { setname: libyubikey,               name: yubikey }
 - { setname: libykneomgr,              name: ykneomgr }

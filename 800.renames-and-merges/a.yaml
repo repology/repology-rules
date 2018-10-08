@@ -171,7 +171,8 @@
 - { setname: autotools,                name: autotools-dev, ignore: true }
 - { setname: autotools,                name: autotools-wrappers } # ravenports
 - { setname: avahi,                    name: avahi-libs }
-- { setname: avidemux,                 name: [avidemux2.6,avidemux-cli,avidemux-core,avidemux-plugins,avidemux-qt,avidemux-qt4] }
+- { setname: avidemux,                 name: [avidemux2.6,avidemux3] }
+- { setname: avidemux,                 name: [avidemux-cli,avidemux-core,avidemux-plugins,avidemux-qt,avidemux-qt4], addflavor: true }
 - { setname: avldrums.lv2,             name: avldrums-lv2 }
 - { setname: avw.lv2,                  name: avw-plugins-lv2 }
 - { setname: avogadro2,                name: avogadro2-libs, addflavor: libs }

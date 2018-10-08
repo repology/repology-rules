@@ -17,6 +17,10 @@
 - { setname: "cursors:$1", noflag: not_cursors, namepat: "(.*)-xcursors", ruleset: [ gentoo, exherbo ] }
 - { setname: "cursors:$1", noflag: not_cursors, namepat: "cursor-(.*)", ruleset: [ freebsd ] }
 
+# Deadbeef plugins
+- { setname: "deadbeef:$1", noflag: not_deadbeef, namepat: "deadbeef-plugin-(.*)" }
+- { setname: "deadbeef:$1", noflag: not_deadbeef, namepat: "deadbeef-(.*)-plugin" }
+
 # Deepin
 - { setname: "deepin-$1", noflag: not_deepin, namepat: "(?:deepin|dde)-(.*)" }
 
