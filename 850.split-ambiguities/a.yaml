@@ -50,3 +50,7 @@
 - { name: aterm, wwwpart: strategoxt.org, setname: libaterm } # http://strategoxt.org/Tools/ATermFormat, not a terminal emulator. target name taken from macports
 
 - { name: avogadro, verge: "1.8", setname: avogadro2 } # actually it starts with 1.90, but also cover strange 1.9 from KDE Neon
+
+- { name: awf, wwwpart: [scn.rain.com,henry_spencer], settname: awf-formatter } # Amazingly Workable Formatter
+- { name: awf, wwwpart: valr, addflag: classified } # A Widget Factory
+- { name: awf, noflag: classified, warning: "please classify me" }
