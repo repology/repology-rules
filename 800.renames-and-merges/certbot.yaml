@@ -3,7 +3,9 @@
 - { setname: certbot,                  name: letsencrypt }
 - setname: certbot
   name:
+    - "python:acme"
     - "python:certbot"
+    - "python:certbot-apache"
     - "python:certbot-dns-cloudflare"
     - "python:certbot-dns-cloudxns"
     - "python:certbot-dns-digitalocean"
