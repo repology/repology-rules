@@ -11,6 +11,8 @@
 - { name: getopt, wwwpart: urbanophile.com, setname: java-getopt }
 - { name: getopt, wwwpart: ossp, setname: ossp-getopt }
 
+- { name: ghostscript-fonts, wwwpart: gs-fonts, setname: ghostscript-fonts-std }
+
 - { name: gist, wwwpart: vim, setname: vim-gist }
 
 - { name: git-fame, setname: git-fame-rb, wwwpart: oleander.io }
@@ -38,5 +40,7 @@
 # otherwise podcase aggregator
 
 - { name: grepcidr, wwwpart: [taugh,grepcidr-2], setname: grepcidr-2 } # explained on http://www.pc-tools.net/unix/grepcidr/
+
+- { name: gsfonts, ruleset: freebsd, setname: ghostscript-fonts-std }
 
 - { name: gsl,                         wwwpart: microsoft, setname: ms-gsl }
