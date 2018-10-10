@@ -123,7 +123,7 @@
 - { setname: asdf,                     name: uiop, addflavor: true }
 - { setname: asf,                      name: archi-steam-farm }
 - { setname: aspell-$1,                namepat: "aspell-dict-(.*)" }
-- { setname: asterisk,                 namepat: "asterisk[0-9.]+" }
+- { setname: asterisk,                 namepat: "asterisk[0-9.-]+x?" } # e.g. asterisk-11.x from openwrt as well
 - { setname: asterisk-core-sounds,     namepat: "asterisk-core-sounds-.*", ruleset: openbsd }
 - { setname: asterisk-extra-sounds,    namepat: "asterisk-extra-sounds-.*", ruleset: openbsd }
 - { setname: asterisk-espeak,          namepat: "(asterisk[0-9]+)-espeak", addflavor: $1 }
