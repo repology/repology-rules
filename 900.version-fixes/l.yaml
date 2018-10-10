@@ -30,6 +30,8 @@
 - { name: llvm,                        verpat: ".*r[0-9]{6,}",                             ignore: true } # ignore revisions, allow release candidates
 - { name: llvm,                        verpat: ".*r.*",                                    devel: true }
 - { name: llvm-libunwind,              verpat: ".*20[0-9]{6}",                             snapshot: true } # freebsd snapshot
+- { name: lmbench,                     ver: "3.0",                   ruleset: sisyphus,    incorrect: true } # 3.0-a9
+- { name: lmbench,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 3.0
 - { name: lmdb++,                      ver: ["0.9.14.1","0.9.14.0.1"], ruleset: [fedora, macports], incorrect: true }
 - { name: lmdb++,                                                    ruleset: [fedora, macports ], untrusted: true }
 - { name: lmms,                        ver: ["1.1.95","1.2.0"],      ruleset: [sisyphus,kaos], incorrect: true } # it's 1.2.0rc5

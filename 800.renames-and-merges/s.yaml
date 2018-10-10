@@ -137,8 +137,9 @@
 - { setname: sqlite,                   name: [sqlite-analyzer,sqlite.analyzer,sqlite3-analyzer], addflavor: analyzer }
 - { setname: sqlite,                   name: [sqlite-doc,sqlite3-doc], addflavor: doc }
 - { setname: sqlite,                   name: [sqlite-interactive,sqlite-with-fts3,sqlite-with-fts5,sqlite.shell,sqlite3-tools], addflavor: true }
-- { setname: squid,                    name: [squid-ldap,squid-ntlm], ruleset: openbsd }
+- { setname: squid,                    name: [squid-ldap,squid-ntlm], addflavor: true, ruleset: openbsd }
 - { setname: squid,                    name: squid-devel, weak_devel: true }
+- { setname: squid,                    name: squid-4x }
 - { setname: squid,                    namepat: "squid[0-9.-]+" }
 - { setname: squirrelmail-$1,          namepat: "squirrelmail-(.*)-plugin", ruleset: freebsd }
 - { setname: sratom,                   name: libsratom }

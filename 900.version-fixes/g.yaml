@@ -111,6 +111,8 @@
 - { name: google-authenticator,        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: googlecl,                    ver: "0.9.15.1",              ruleset: freebsd,     incorrect: true }
 - { name: googlecl,                                                  ruleset: freebsd,     untrusted: true }
+- { name: gotty,                       ver: "2.0.0",                 ruleset: openwrt,     incorrect: true } # 2.0.0-alpha.3
+- { name: gotty,                                                     ruleset: openwrt,     untrusted: true } # accused of fake 2.0.0
 - { name: govendor,                    ver: "1.0.9.6",                                     incorrect: true } # FreeBSD garbage
 - { name: gpart,                       vergt: "0.1h",                                      successor: true } # https://github.com/baruch/gpart
 - { name: gprbuild,                    verpat: "[0-9]{5,}.*",                              ignore: true }

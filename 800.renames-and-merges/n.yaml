@@ -46,9 +46,8 @@
 - { setname: nginx,                    name: [nginx-libressl,nginx-mainline-libressl], addflavor: libressl }
 - { setname: nginx,                    name: nginx-custom, addflavor: aurcrap1 }
 - { setname: nginx,                    name: nginx-custom-dev, addflavor: aurcrap2 }
-- { setname: nginx,                    name: nginx-lite, addflavor: lite }
 - { setname: nginx,                    name: nginx-mainline-boringssl, addflavor: boringssl }
-- { setname: nginx,                    name: nginx-rtmp, addflavor: rtmp }
+- { setname: nginx,                    name: [nginx-rtmp,nginx-lite,nginx-extras], addflavor: true }
 - { setname: ngspice,                  name: [libngspice,ng-spice,ngspice-docs,ngspice-rework,ngspice-shared], addflavor: true }
 - { setname: nicotine+,                name: [nicotine,nicotine-plus] }
 - { setname: ninja,                    name: ninja-build }

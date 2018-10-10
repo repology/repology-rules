@@ -167,7 +167,8 @@
 - { setname: libunique,                namepat: "libunique[0-9]+" }
 - { setname: libunique,                name: [libunique-doc,libunique-gtk3], addflavor: true }
 - { setname: libunistring,             name: libunistring2 }
-- { setname: libupnp,                  name: [libupnp1.8,libupnp4,libupnp-legacy,pupnp-1.8] }
+- { setname: libupnp,                  namepat: "(lib|p)upnp[0-9.-]*" }
+- { setname: libupnp,                  name: libupnp-legacy }
 - { setname: libupnp,                  name: upnp, ruleset: freebsd }
 - { setname: libusb,                   namepat: "libusb[0-9.-]*" }
 - { setname: libusb,                   name: [libusb-compat,libusb-legacy] }

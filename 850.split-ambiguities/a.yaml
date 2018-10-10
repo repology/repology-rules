@@ -49,6 +49,12 @@
 
 - { name: aterm, wwwpart: strategoxt.org, setname: libaterm } # http://strategoxt.org/Tools/ATermFormat, not a terminal emulator. target name taken from macports
 
+- { name: astra, wwwpart: inoriy, setname: astra-inoriy } # upstream dead, no idea what this is
+- { name: astra, wwwpart: flipkart-incubator, setname: astra-pentest }
+- { name: astra, category: multimedia, setname: astra-iptv }
+- { name: astra, ruleset: sisyphus, setname: astra-iptv }
+- { name: astra, warning: "please classify me" }
+
 - { name: avogadro, verge: "1.8", setname: avogadro2 } # actually it starts with 1.90, but also cover strange 1.9 from KDE Neon
 
 - { name: awf, wwwpart: [scn.rain.com,henry_spencer], setname: awf-formatter } # Amazingly Workable Formatter

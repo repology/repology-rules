@@ -48,6 +48,8 @@
 
 - { ruleset: nix,             namepat: "(.*)-unstable", setname: $1, weak_devel: true }
 
+- { ruleset: openwrt,         namepat: "(.*)_nohf", setname: $1, addflavor: nohf } # entware, on some arm platforms
+
 - { ruleset: parabola,        namepat: "(.*)-static-debug", setname: $1, addflavor: static-debug }
 
 - { ruleset: slitaz,          namepat: "(.*)-(dev)", setname: $1, addflavor: $2 }
