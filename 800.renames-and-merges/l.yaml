@@ -37,6 +37,7 @@
 - { setname: libreoffice-extension-barcode, name: barcode, ruleset: gentoo, category: app-officeext }
 - { setname: libressl,                 name: libressl-devel, weak_devel: true }
 - { setname: libressl,                 name: libressl-netcat, addflavor: netcat }
+- { setname: libtool,                  name: libtool-bin, addflavor: bin }
 - { setname: lightdm,                  name: lightdm-devel, weak_devel: true }
 - { setname: lightdm,                  name: lightdm-ubuntu, addflavor: ubuntu }
 - { setname: lightdm,                  namepat: "(liblightdm(?:-qt4|-qt5)*)-devel", addflavor: $1, weak_devel: true }

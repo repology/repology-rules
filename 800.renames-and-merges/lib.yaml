@@ -73,6 +73,8 @@
 - { setname: libgpod,                  name: libgpod4 }
 - { setname: libgtop,                  namepat: "libgtop[0-9.-]+" }
 - { setname: libical,                  namepat: "(?:compat-)?libical[0-9.-]*" }
+- { setname: libiconv,                 name: gnu-libiconv }
+- { setname: libiconv,                 name: libiconv-full, addflavor: true }
 - { setname: libidn,                   name: libidn-133-compat }
 - { setname: libidn2,                  namepat: "libidn2[0-9.-]+" }
 - { setname: libkdcraw,                name: libkdcraw23 }
@@ -104,7 +106,7 @@
 - { setname: libmspub,                 namepat: "libmspub[0-9.-]+" }
 - { setname: libmusicbrainz,           namepat: "(?:lib)?musicbrainz[0-9.-]*" }
 - { setname: libmwaw,                  namepat: "libmwaw[0-9.-]+" }
-- { setname: libnet,                   namepat: "libnet[0-9.]+" }
+- { setname: libnet,                   namepat: "libnet[0-9.-]+x?" } # also account for libnet-1.0.x from entware
 - { setname: libnice,                  namepat: "libnice-(gst.*)", addflavor: true }
 - { setname: libnice,                  name: "gstreamer0plugins:libnice", addflavor: gstreamer }
 - { setname: libnl,                    name: libnl-doc }
@@ -160,7 +162,7 @@
 - { setname: libtool,                  namepat: "libtool[0-9.-]+" }
 - { setname: libtorrent,               name: [libtorrent-ipv6,libtorrent-extended], addflavor: true }
 - { setname: libtorrent,               namepat: "libtorrent[0-9.-]+" }
-- { setname: libtorrent-rasterbar,     name: rb-libtorrent }
+- { setname: libtorrent-rasterbar,     name: [rb-libtorrent,rblibtorrent] }
 - { setname: libtorrent-rasterbar,     namepat: "libtorrent-rasterbar[0-9.-]+" }
 - { setname: libtsm,                   name: [libtsm-asciinema,libtsm-patched] }
 - { setname: libtubo,                  name: [tubo,libtubo0] }

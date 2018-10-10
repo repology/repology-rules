@@ -9,6 +9,8 @@
 - { setname: packagekit-qt,            name: packagekit-qt5, addflavor: true }
 - { setname: pacman,                   name: [pacman-static,pacman-debug], addflavor: true }
 - { setname: pacman-arena,             name: pacmanarena }
+- { setname: pam,                      name: [libpam,linux-pam] }
+- { setname: pam,                      name: pam-selinux, addflavor: true }
 - { setname: parted,                   name: libparted, addflavor: true }
 - { setname: pcmanfm,                  name: [pcmanfm-gtk3,pcmanfm-gtk3-root], addflavor: true }
 - { setname: palemoon,                 name: palemoon-26 }
