@@ -76,3 +76,5 @@
 - { name: "python:ldap", setname: "python:python-ldap", ruleset: [sisyphus,openbsd,pclinuxos] }
 
 - { name: "python:planet", setname: planet, wwwpart: planetplanet }
+
+- { name: "python:tz", wwwpart: pytz, setname: "python:pytz" } # there is tz module, but in most (currently all) cases it misspelled pytz; XXX: problem

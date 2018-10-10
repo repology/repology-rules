@@ -6,6 +6,7 @@
 - { name: octave,                      verpat: ".*pre[0-9]{5}",                            snapshot: true }
 - { name: octomap,                     verpat: "[0-9a-f]{40}",                             incorrect: true } # commit hash
 - { name: odoo,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: oggfwd,                                                                          noscheme: true }
 - { name: ogre,                        verpat: "2.*",                                      ignore: true }
 - { name: okteta,                      verpat: "(4|15|16|17|18).*",                        outdated: true }  # went from following KDE versioning to its own 0.x/1.x-based versioning
 - { name: okular,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -16,6 +17,7 @@
 - { name: opam,                                                      ruleset: [sisyphus,mageia], untrusted: true }
 - { name: open-vm-tools,               verpat: "20[0-9]{2}.*",                             snapshot: true }
 - { name: open-vm-tools,               verpat: "20(08|09|11).*",                           outdated: true }
+- { name: open2300,                    ver: "1.12",                  ruleset: openwrt,     incorrect: true } # latest version is 1.10
 - { name: openal-creative,             ver: "20060211",                                    ignore: true } # freebsd (should probably be 0.0.8)
 - { name: opencity,                    ver: "0.0.6.5stable",                               ignore: true } # 0.0.6.5; "stable" is not a part of the version
 - { name: opencl,                                                                          noscheme: true } # GH/KhronosGroup/OpenCL-Headers w/o releases or mix of OpenCL-Headers with OpenCL-CLHPP

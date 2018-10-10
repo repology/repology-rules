@@ -1,5 +1,7 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: nail, verpat: "12\\.[0-9]+", setname: heirloom-mailx, addflavor: true }
+
 # there are two `ne`s, and they are both editors; prefix is for `cambridge`
 # another is `nice editor`, but I don't feel like renaming it as it's `ne` everywhere
 - { name: ne, wwwpart: wordprocessing/unix/ne, setname: ne-cam }

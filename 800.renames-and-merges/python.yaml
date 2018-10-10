@@ -31,6 +31,7 @@
 - { setname: "python:ewmh",            name: [ewmh,pyewmh] }
 - { setname: "python:flake8$1",        namepat: "flake8(.*)" }
 - { setname: "python:flask$1",         namepat: "flask(.*)" }
+- { setname: "python:flup",            name: flup }
 - { setname: "python:geoalchemy2",     name: geoalchemy2 }
 - { setname: "python:geographiclib",   name: geographiclib-python }
 - { setname: "python:graph-tool",      name: "python:python2.7-graph-tool", addflavor: python-2.7 }
@@ -46,16 +47,18 @@
 - { setname: "python:irc",             name: "python:irclib" }
 - { setname: "python:isbnlib",         name: isbnlib }
 - { setname: "python:jade-application-kit", name: jade-application-kit }
-- { setname: "python:jaraco.classes",   name: ["python:jaraco-classes",jaraco.classes] }
+- { setname: "python:jaraco.classes",  name: ["python:jaraco-classes",jaraco.classes] }
 - { setname: "python:jaraco.collections", name: "python:jaraco-collections" }
 - { setname: "python:jaraco.functools", name: "python:jaraco-functools" }
 - { setname: "python:jaraco.itertools", name: ["python:jaraco-itertools",jaraco.itertools] }
-- { setname: "python:jaraco.logging",   name: "python:jaraco-logging" }
+- { setname: "python:jaraco.logging",  name: "python:jaraco-logging" }
 - { setname: "python:jaraco.packaging", name: "python:jaraco-packaging" }
-- { setname: "python:jaraco.stream",    name: "python:jaraco-stream" }
-- { setname: "python:jaraco.text",      name: "python:jaraco-text" }
-- { setname: "python:jaraco.util",      name: "python:jaraco-util" }
-- { setname: "python:jaraco.util",      name: "python:jaraco-utils" } # XXX: problem, incorrect name
+- { setname: "python:jaraco.stream",   name: "python:jaraco-stream" }
+- { setname: "python:jaraco.text",     name: "python:jaraco-text" }
+- { setname: "python:jaraco.util",     name: "python:jaraco-util" }
+- { setname: "python:jaraco.util",     name: "python:jaraco-utils" } # XXX: problem, incorrect name
+- { setname: "python:jdcal",           name: jdcal }
+- { setname: "python:jinja2",          name: jinja2 }
 - { setname: "python:josepy",          name: josepy }
 - { setname: "python:kiwisolver",      name: kiwisolver }
 - { setname: "python:lhafile",         name: "python:python-lhafile" }
@@ -86,6 +89,8 @@
 - { setname: "python:pcapy",           name: pcapy }
 - { setname: "python:pep8",            name: pep8 }
 - { setname: "python:pep8-naming",     name: [flake-pep8-naming,pep8-naming,"python:flake8-pep8-naming"] }
+- { setname: "python:pillow",          name: pillow }
+- { setname: "python:pillowfight",     name: pillowfight }
 - { setname: "python:pmw",             name: "python:pmw2" }
 - { setname: "python:prompt-toolkit",  name: [prompt-toolkit,prompt-toolkit1] }
 - { setname: "python:prompt-toolkit",  name: ["python:prompt-toolkit-doc","python:prompt-toolkit-gns3"], addflavor: true }
@@ -108,7 +113,9 @@
 - { setname: "python:pygtk",           name: ["python:gtk","python:gtk2","python:pygtk","python:pygtk2",pygtk,pygtk2,pygtk2.0] }
 - { setname: "python:pyisbn",          name: "python:isbn" }
 - { setname: "python:pylint",          name: [pylint-gui,pylint-py27,pylint3,pylint3-gui] }
+- { setname: "python:pyodbc",          name: pyodbc }
 - { setname: "python:pyode",           name: "python:ode" }
+- { setname: "python:pypillowfight",   name: pypillowfight }
 - { setname: "python:pypoppler",       name: ["python:poppler","python:python-poppler"] }
 - { setname: "python:pypubsub",        name: "python:pypubsub3.3.0" }
 - { setname: "python:pytest-sugar",    name: [pytest-sugar, "python:test-sugar"] }
@@ -119,6 +126,7 @@
 - { setname: "python:python-hglib",    name: "python:hglib" }
 - { setname: "python:python-vxi11",    name: "python:vxi11" } # as per PyPi
 - { setname: "python:pytidylib",       name: ["python:pytidylib6","python:tidylib"] }
+- { setname: "python:pytz",            name: pytz }
 - { setname: "python:pyusb",           name: "python:usb" } # create problem!
 - { setname: "python:pywebkitgtk",     name: ["python:webkitgtk",pywebkitgtk] }
 - { setname: "python:pyyaml",          name: [pyyaml,"python:yaml"] }

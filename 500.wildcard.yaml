@@ -89,7 +89,7 @@
 - { setname: "perl:$1", noflag: not_perl, namepat: "p5-(.*)", ruleset: [crux,freebsd,macports,openbsd,pkgsrc] }
 - { setname: "perl:$1", noflag: not_perl, namepat: "p5.[0-9]+-(.*)", ruleset: macports }
 - { setname: "perl:$1", noflag: not_perl, namepat: "lib(.*)-perl", ruleset: debuntu }
-- { setname: "perl:$1", noflag: not_perl, namepat: "perl-(.*)", ruleset: [adelie,alpine,aosc,arch,centos,fedora,gobolinux,guix,kaos,mageia,msys2,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds,pld,aix,slitaz] }
+- { setname: "perl:$1", noflag: not_perl, namepat: "perl-(.*)", ruleset: [adelie,alpine,aosc,arch,centos,fedora,gobolinux,guix,kaos,mageia,msys2,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds,pld,aix,slitaz,openwrt] }
 - { setname: "perl:$2", noflag: not_perl, namepat: "perl(5[0-9.]+)-(.*)", ruleset: nix, addflavor: $1 }
 - { setname: "perl:$0", noflag: not_perl, category: dev-perl, ruleset: [gentoo,exherbo,haikuports] }
 - { setname: "perl:$0", noflag: not_perl, category: perl-core, ruleset: [gentoo,exherbo] }
@@ -98,7 +98,7 @@
 #- { setname: "php:$0", noflag: not_php, ruleset: gentoo, category: dev-php }
 - { setname: "php:$1", noflag: not_php, namepat: "(?:pear-|pecl-|php-)*(.*?)", ruleset: [gentoo,exherbo], category: dev-php }
 - { setname: "php:$1", noflag: not_php, namepat: "(?:pear|pecl)-(.*)", ruleset: [freebsd,macports,openbsd,pkgsrc,sisyphus] }
-- { setname: "php:$1", noflag: not_php, namepat: "php[0-9]+-(?:pear|pecl)-(.*)", ruleset: [freebsd,mageia,pkgsrc,pld] }
+- { setname: "php:$1", noflag: not_php, namepat: "php[0-9]+-(?:pear|pecl)-(.*)", ruleset: [freebsd,mageia,pkgsrc,pld,openwrt] }
 - { setname: "php:$1", noflag: not_php, namepat: "php-(?:(?:pear|pecl)-)?(.*)", ruleset: [mageia,rosa] }
 - { setname: "php$1:$2", noflag: not_php, namepat: "php([0-9]*)-(.*)", ruleset: [freebsd,macports,openbsd,pkgsrc,ravenports] }
 - { setname: "php$1:$2", noflag: not_php, namepat: "php([0-9]+)-(.*)", ruleset: arch } # AUR

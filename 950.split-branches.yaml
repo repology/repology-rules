@@ -187,6 +187,8 @@
 - { name: lua,               verpat: "5\\.3\\..*",        setname: lua53 }
 - { name: lua,               warning: "please classify me" }
 
+- { name: mailman,           verpat: "3\\..*",            setname: mailman3 }
+
 - { name: mpich,             verpat: "1\\..*",            setname: mpich2 }
 
 - { name: mysql,             verpat: "8\\..*",            setname: mysql8 }
@@ -220,6 +222,7 @@
 - { name: python,            verpat: "2\\..*",            setname: python2 }
 - { name: python,            verpat: "3\\..*",            setname: python3 }
 - { name: python,            ver: "999", ruleset: aosc,   setname: python2 }
+- { name: python,                        ruleset: openwrt, remove: true } # setuptools and pip with their own versions coming from python package o_O
 - { name: python,            warning: "please classify me" }
 
 - { name: "python:pygobject", verpat: "2.*",              setname: "python:pygobject2" }

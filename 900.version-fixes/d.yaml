@@ -57,7 +57,7 @@
 - { name: dosemu,                      verpat: "1\\.4\\.1.*",        ruleset: [sisyphus,gentoo], ignore: true }
 - { name: doublecmd,                                                                       devel: false } # they state all version to be beta: https://sourceforge.net/p/doublecmd/news/, this is pointless
 - { name: doublecmd,                   verpat: ".*svn.*",                                  ignore: true }
-- { name: dovecot-pigeonhole,          verpat: "2\\..*",                                   incorrect: true } # dovecot version prepended and other garbage
+- { name: dovecot-pigeonhole,          verpat: "2\\..*",                                   incorrect: true } # dovecot version prepended (openwrt, pld)
 - { name: dragon-player,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: dsd,                         ver: "1.7.0",                 ruleset: [sisyphus],  incorrect: true } # no such version
 - { name: dsd,                                                       ruleset: [sisyphus],  untrusted: true }

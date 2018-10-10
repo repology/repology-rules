@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: yaaw,                                                                            noscheme: true } # https://github.com/binux/yaaw/releases
 - { name: yad,                         ver: "0.40.2",                ruleset: pclinuxos,   incorrect: true }
 - { name: yad,                                                       ruleset: pclinuxos,   untrusted: true }
 - { name: yarn,                        ver: "1.8.0",                                       devel: true, maintenance: true } # devel scheme is unclear; https://github.com/yarnpkg/yarn/releases
