@@ -36,6 +36,11 @@
 
 - { name: skim, wwwpart: scim, setname: skim-scim }
 
+- { name: slurm, wwwpart: [mattthias,raisdorf,wormulon], setname: slurm-monitor }
+- { name: slurm, ruleset: [aosc,openbsd,pkgsrc], setname: slurm-monitor }
+- { name: slurm, wwwpart: [schedmd,llnl], setname: slurm-wlm } # "workload manager": name used in freebsd and pksrc; there's also slurm-llnl, see rule in 800
+- { name: slurm, warning: "please classify me" }
+
 - { name: smem, verpat: "2007.*", ruleset: gentoo, setname: smem.pl } # unrelated python script
 
 - { name: snoopy, wwwpart: tuxfamily, setname: snoopy-warcraft3 }

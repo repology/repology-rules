@@ -87,6 +87,8 @@
 - { setname: slashem,                  name: slash-em }
 - { setname: slashem,                  name: slashem-tty }
 - { setname: slony1,                   namepat: "slony1(?:-2|v2)" }
+- { setname: slurm-wlm,                name: slurm-llnl } # see rule in 850
+- { setname: slurm-wlm,                name: slurm-llnl-dev, weak_devel: true }
 - { setname: smc,                      name: secret-maryo-chronicles }
 - { setname: smithwaterman,            name: libsmithwaterman }
 - { setname: smokin-guns,              name: [smokin-guns-data,smokinguns-data], addflavor: data }
