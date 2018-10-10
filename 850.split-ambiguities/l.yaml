@@ -1,5 +1,10 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: ldm, wwwpart: LemonBoy, setname: ldm-mounter }
+- { name: ldm, ruleset: nix, setname: ldm-mounter }
+- { name: ldm, wwwpart: ltsp, setname: ldm-ltsp }
+- { name: ldm, warning: "please classify me" }
+
 - { name: libelf,                      wwwpart: elfutils, setname: elfutils } # Arch: XXX: problem
 
 - { name: libidn,                      verpat: "2.*", setname: libidn2 } # Haikuports: XXX: problem, different libraries
