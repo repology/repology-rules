@@ -29,7 +29,8 @@
 - { name: shutter, ruleset: maemo, setname: shutter-maemo }
 
 - { name: sift, wwwpart: [sift.jcvi.org, sift.bii.a-star.edu.sg], setname: sift-med } # XXX: cannot decide better name
-# otherwise, grep-like tool
+- { name: sift, wwwpart: [sift-tool,svent], addflag: classidied }
+- { name: sift, noflag: classified, warning: "please classify me" }
 
 - { name: singularity, wwwpart: singularity.lbl.gov, setname: singularity-container }
 - { name: singularity, wwwpart: ingularityviewer, setname: singularityviewer }
