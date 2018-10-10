@@ -1,0 +1,5 @@
+# vim: tabstop=20 expandtab softtabstop=20
+
+- { remove: true,   name: gre, ruleset: openwrt }
+- { remove: true,   name: sshtunnel, ruleset: openwrt }
+- { remove: true,   name: zram-swap, ruleset: [openwrt,sisyphus] }
