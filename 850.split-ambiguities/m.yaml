@@ -58,4 +58,7 @@
 - { name: mu, wwwpart: kreogist, setname: kreogist-mu } # name taken form AUR package; may also use e.g. mu-music-manager
 # otherwise, maildir utils + emacs email client (mu4e)
 
-- { name: muse, setname: emacs-muse, ruleset: gentoo, category: app-emacs }
+- { name: muse, wwwpart: emacs, setname: "emacs:muse" }
+- { name: muse, wwwpart: sequencer, setname: muse-sequencer }
+- { name: muse, wwwpart: dyne.org, setname: muse-streaming }
+- { name: muse, warning: "please classify me" }
