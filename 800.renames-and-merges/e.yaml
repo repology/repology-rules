@@ -30,8 +30,8 @@
 - { setname: elasticsearch,            namepat: "elasticsearch[0-9]+" }
 - { setname: elbcli,                   name: elb-tools }
 - { setname: electricfence,            name: electric-fence }
-- { setname: elfutils,                 name: elfutils-libelf }
 - { setname: elftoolchain,             name: libexecinfo, ruleset: ravenports, addflavor: $0 }
+- { setname: elfutils,                 name: elfutils-libelf }
 - { setname: elixir,                   name: elixir-lang }
 - { setname: elm-format,               namepat: "elm-format[0-9.-]+(?:-exp)?" }
 - { setname: elm-mua,                  name: elm-me, addflavor: me }
@@ -61,10 +61,10 @@
 - { setname: engrampa,                 name: engrampa-dev, weak_devel: true }
 - { setname: engrampa,                 name: engrampa-gtk2, addflavor: true }
 - { setname: enigma,                   name: enigma-sdl }
-- { setname: enscript,                 namepat: "enscript-.*", ruleset: freebsd } # enscript-a4, enscript-letter, enscript-letterdj
-- { setname: entagged,                 name: entagged-tageditor, ruleset: gentoo }
 - { setname: enigma-sgtatham,          name: enygma, ruleset: freebsd }
 - { setname: enlightenment,            name: e17 }
+- { setname: enscript,                 namepat: "enscript-.*", ruleset: freebsd } # enscript-a4, enscript-letter, enscript-letterdj
+- { setname: entagged,                 name: entagged-tageditor, ruleset: gentoo }
 - { setname: eom,                      name: eom-dev, weak_devel: true }
 - { setname: eom,                      name: eom-gtk2, addflavor: true }
 - { setname: eot-utils,                name: eot-utilities }
@@ -82,8 +82,8 @@
 - { setname: "erlang:cl",              name: cl }
 - { setname: "erlang:esdl",            name: ["erlang:sdl",esdl] }
 - { setname: etcd,                     namepat: "coreos-etcd[0-9.-]*" }
-- { setname: eternal-lands$1,          namepat: "eternallands(.*)" }
 - { setname: eternal-lands,            name: el, ruleset: freebsd }
+- { setname: eternal-lands$1,          namepat: "eternallands(.*)" }
 - { setname: eternal-lands-data,       name: el-data, ruleset: freebsd }
 - { setname: eternalterminal,          name: eternal-terminal }
 - { setname: eternalterminal,          name: [eternalterminal-client,eternalterminal-server], addflavor: true }
@@ -100,8 +100,8 @@
 - { setname: exact-image,              name: exactimage }
 - { setname: exaile,                   name: exaile-devel, weak_devel: true }
 - { setname: excalibar,                name: libexcalibar, addflavor: lib }
-- { setname: exercism-cli,             name: [exercism,"go:github-exercism-cli"] }
 - { setname: exempi,                   name: libexempi }
+- { setname: exercism-cli,             name: [exercism,"go:github-exercism-cli"] }
 - { setname: exim,                     name: exim4 }
 - { setname: exosip,                   name: [libexosip,libexosip2,exosip2] }
 - { setname: expat,                    name: expat21 }

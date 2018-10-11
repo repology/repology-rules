@@ -6,12 +6,12 @@
 - { setname: language-pack-kde,        namepat: "language-pack-kde-.*", ruleset: debuntu }
 - { setname: lantern,                  name: lantern-headless }
 - { setname: lantern,                  name: lantern-headless }
-- { setname: lapack++,                 name: lapackpp }
 - { setname: lapack,                   name: [lapack-docs,lapack-reference], addflavor: docs }
 - { setname: lapack,                   name: lapack-atlas, addflavor: atlas }
 - { setname: lapack,                   name: lapack-manpages, addflavor: man }
 - { setname: lapack,                   name: lapack-tmg, addflavor: tmg } # component of
 - { setname: lapack,                   name: liblapack }
+- { setname: lapack++,                 name: lapackpp }
 - { setname: lapacke,                  name: lapacke-tmg, addflavor: tmg } # component of
 - { setname: lazpaint,                 name: [lazpaint-gtk2,lazpaint-qt4], addflavor: true }
 - { setname: lcms,                     name: [lcms,lcms1,lcms2,little-cms,little-cms2,lcms-python,liblcms,liblcms2,littlecms] }
@@ -92,13 +92,13 @@
 - { setname: lxlauncher,               name: lxlauncher-gtk3, addflavor: gtk3 }
 - { setname: lxmusic,                  name: lxmusic-gtk3, addflavor: gtk3 }
 - { setname: lxpanel,                  name: lxpanel-gtk3, addflavor: gtk3 }
+- { setname: lxqt-$1,                  namepat: "lxqt-(.*)-l10n", addflavor: l10n }
+- { setname: lxqt-l10n,                name: [libfmqt-l10n,liblxqt-l10n,lximageqt-l10n,pcmanfmqt-l10n,qterminal-l10n,qtermwidget-l10n], addflavor: true }
 - { setname: lxrandr,                  name: lxrandr-gtk3, addflavor: gtk3 }
 - { setname: lxsession,                name: lxsession-gtk3, addflavor: gtk3 }
 - { setname: lxtask,                   name: lxtask-gtk3, addflavor: gtk3 }
 - { setname: lxterminal,               name: lxterminal-gtk2, addflavor: gtk2 }
 - { setname: lxterminal,               name: lxterminal-gtk3, addflavor: gtk3 }
-- { setname: lxqt-$1,                  namepat: "lxqt-(.*)-l10n", addflavor: l10n }
-- { setname: lxqt-l10n,                name: [libfmqt-l10n,liblxqt-l10n,lximageqt-l10n,pcmanfmqt-l10n,qterminal-l10n,qtermwidget-l10n], addflavor: true }
 - { setname: lynx,                     name: [lynx-cur,lynx-current] }
 - { setname: lyx,                      name: lyx1 }
 - { setname: lz4,                      name: liblz4 }

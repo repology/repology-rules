@@ -27,15 +27,15 @@
 - { setname: netpbm,                   name: libnetpbm }
 - { setname: netpbm,                   name: [netpbm-free,netpbm-debug], addflavor: true }
 - { setname: nettle,                   name: [libnettle,nettle4] }
-- { setname: networkmanager,           name: network-manager }
-- { setname: networkmanager,           name: networkmanager-elogind, addflavor: elogind }
-- { setname: networkmanager,           name: networkmanager-consolekit, addflavor: consolekit }
-- { setname: networkmanager,           name: networkmanager-consolekit-noscan, addflavor: consolekit-noscan }
 - { setname: network-manager-applet,   name: network-manager-applet-gtk2, addflavor: gtk2 }
 - { setname: network-manager-applet,   name: network-manager-applet-indicator, addflavor: indicator }
 - { setname: network-manager-applet,   name: network-manager-applet-passwordstore, addflavor: passwordstore }
 - { setname: network-manager-applet,   name: networkmanager-applet }
 - { setname: network-manager-applet,   name: networkmanager-applet-gtk, addflavor: gtk }
+- { setname: networkmanager,           name: network-manager }
+- { setname: networkmanager,           name: networkmanager-elogind, addflavor: elogind }
+- { setname: networkmanager,           name: networkmanager-consolekit, addflavor: consolekit }
+- { setname: networkmanager,           name: networkmanager-consolekit-noscan, addflavor: consolekit-noscan }
 - { setname: neverball,                name: neverball-data, addflavor: data }
 - { setname: newsbeuter,               name: newsbeuter-dev, ignore: true }
 - { setname: newsbeuter,               name: newsbeuter2.8 }

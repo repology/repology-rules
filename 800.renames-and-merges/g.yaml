@@ -50,8 +50,8 @@
 - { setname: geoip,                    name: libgeoip }
 - { setname: geos,                     namepat: "geos[0-9.-]+" }
 - { setname: get-iplayer,              name: "perl:get-iplayer" }
-- { setname: getfem++,                 name: getfemxx }
 - { setname: getdns,                   name: "python:getdns" }
+- { setname: getfem++,                 name: getfemxx }
 - { setname: getopt,                   name: [gnugetopt,gnu-getopt,gnu.getopt] }
 - { setname: gettext,                  name: [gettext-asprintf,gettext-csharp,gettext-java,gettext-lib,gettext-m4,gettext-minimal,gettext-mono,gettext-progs,gettext-runtime,gettext-runtime-mini,gettext-tools,libintl,gettext-full], addflavor: true }
 - { setname: gexiv2,                   name: libgexiv2 }
@@ -77,12 +77,12 @@
 - { setname: git,                      name: [git-base,git-docs,git-gitk,git-contrib,git-lite,git-gui,git-bashcompletion,gitweb,git-minimal,git-with-svn], addflavor: true }
 - { setname: git-review,               name: "python:git-review" }
 - { setname: git-review,               name: git-reveiw } # XXX: CREATE PROBLEM
-- { setname: gitlab,                   name: [gitlab-ce, gitlab-ee, gitlab-common], addflavor: true }
-- { setname: gitlab-runner,            name: [gitlab-runner-images, gitlab-ci-multi-runner, gitlab-ci-multi-runner-images, gitlab-runner-custom-executors], addflavor: true }
 - { setname: gitflow,                  name: git-flow }
 - { setname: gitg,                     name: gitg0, ruleset: freebsd }
 - { setname: githud,                   name: "haskell:githud" }
 - { setname: gitinspector,             name: "python:gitinspector" }
+- { setname: gitlab,                   name: [gitlab-ce, gitlab-ee, gitlab-common], addflavor: true }
+- { setname: gitlab-runner,            name: [gitlab-runner-images, gitlab-ci-multi-runner, gitlab-ci-multi-runner-images, gitlab-runner-custom-executors], addflavor: true }
 - { setname: gitter,                   name: gitter-bin }
 - { setname: gitter-cli,               name: "node:gitter-cli" }
 - { setname: gixy,                     name: "python:gixy" }
@@ -282,9 +282,9 @@
 - { setname: gtk-recordmydesktop,      name: recordmydesktop-gtk }
 - { setname: gtkdatabox,               name: libgtkdatabox }
 - { setname: gtkglextmm,               name: libgtkglextmm }
+- { setname: gtkhotkey,                name: libgtkhotkey }
 - { setname: gtkhtml,                  namepat: "(?:lib|compat-)?gtkhtml[0-9.-]*" }
 - { setname: gtkmm,                    namepat: "(?:lib)?gtkmm[0-9.-]*(-docs|-documentation|-reference)", addflavor: $1 }
-- { setname: gtkhotkey,                name: libgtkhotkey }
 - { setname: gtksourceview,            namepat: "(?:lib)?gtksourceview[0-9.-]*(-reference)?", addflavor: $1 }
 - { setname: gtksourceviewmm,          namepat: "(?:lib)?gtksourceviewmm[0-9.-]*" }
 - { setname: gtkspell,                 namepat: "(?:lib)?gtkspell[0-9.-]*(-reference)?", addflavor: $1 }
@@ -294,17 +294,17 @@
 - { setname: guava,                    name: [google-guava, java-guava] }
 - { setname: gucharmap,                name: gucharmap-gtk2, addflavor: gtk2 }
 - { setname: gucharmap,                name: gucharmap7 }
-- { setname: guvcview,                 name: [guvcview-qt,guvcview-qt5], addflavor: true }
+- { setname: guichan,                  name: [libguichan,compat-guichan05,guichan05] }
+- { setname: guile,                    namepat: "guile[0-9.-]+" }
 - { setname: gummi,                    name: [gummi-gtk2,gummi-gtk3], addflavor: true }
 - { setname: gupnp,                    name: libgupnp }
 - { setname: gupnp-av,                 name: libgupnp-av }
 - { setname: gupnp-dlna,               name: libgupnp-dlna }
 - { setname: gupnp-igd,                name: libgupnp-igd }
-- { setname: guile,                    namepat: "guile[0-9.-]+" }
-- { setname: guichan,                  name: [libguichan,compat-guichan05,guichan05] }
+- { setname: guvcview,                 name: [guvcview-qt,guvcview-qt5], addflavor: true }
 - { setname: gvrng,                    name: guido-van-robot }
-- { setname: gwt,                      name: webtoolkit-java-sdk }
 - { setname: gwenhywfar,               namepat: "(?:lib)?gwenhywfar[0-9]*(-(?:fox|gtk|qt)[0-9]*)?", addflavor: $1 }
+- { setname: gwt,                      name: webtoolkit-java-sdk }
 - { setname: gxmessage,                name: gxmessage-gtk2, addflavor: gtk2 }
 - { setname: gyp,                      name: "python:gyp" }
 - { setname: gzdoom,                   name: gzdoom-legacy }
