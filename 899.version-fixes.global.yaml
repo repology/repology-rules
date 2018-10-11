@@ -30,3 +30,4 @@
 - { verpat: ".*arch.*",                                                                    ignore: true } # arch, aur pseudoversions
 - { verpat: ".*_.*", name: [brotli,curl,openssl],                    ruleset: scoop,       incorrect: true } # ┐ windows builds from curl project
 - { verpat: ".*_.*",                                                 ruleset: scoop,       untrusted: true } # ┘
+- { verpat: ".*windows.*",                                           ruleset: scoop,       incorrect: true }
