@@ -15,6 +15,7 @@
 - { setname: netatalk,                 namepat: "netatalk[0-9.-]+" }
 - { setname: netbeans,                 namepat: "netbeans-.*", ruleset: gentoo }
 - { setname: netcat-openbsd,           name: openbsd-netcat }
+- { setname: netcat6,                  name: nc6 }
 - { setname: netcdf,                   namepat: "netcdf(?:[0-9.-]*)?(-gnu.*hpc)?", addflavor: $1 }
 - { setname: netcdf,                   name: netcdf-devel, weak_devel: true }
 - { setname: netcdf,                   name: [netcdf-mpi,netcdf-openmpi,netcdf-parallel-openmpi], addflavor: true }
