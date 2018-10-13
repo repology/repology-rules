@@ -65,6 +65,8 @@
 - { name: libkmahjongg,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libkomparediff2,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libksane,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libksba,                     ver: "1.3.6",                 ruleset: sisyphus,    incorrect: true }
+- { name: libksba,                                                   ruleset: sisyphus,    untrusted: true } # accused in fake 1.3.6
 - { name: libksieve,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libkvkontakte,               verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: liblastfm,                   verlonger: 3,                                       incorrect: true } # freebsd garbage
@@ -77,6 +79,7 @@
 - { name: libmediawiki,                verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: libmilter,                   verlonger: 3,                                       devel: true } # sendmail snapshots
 - { name: libmilter,                   verpat: "1\\..*",                                   incorrect: true } # XXX: problem; Gentoo&friends are too clever to dig deep into the code to get internal library version, but it's not really related to code version
+- { name: libmm-qt,                    ver: "1.0.2",                                       incorrect: true, disposable: true } # old fedora
 - { name: libmpsse,                    verpat: "20[0-9]{6}.*",       ruleset: sisyphus,    ignore: true }
 - { name: libmspack,                   verge: "1.5",                                       incorrect: true } # cabextract versions instead of libmspack ones
 - { name: libmspack,                   verpat: "([0-9.]+)[_~-]?alpha",                     setver: $1 }

@@ -52,6 +52,8 @@
 
 - { ruleset: parabola,        namepat: "(.*)-static-debug", setname: $1, addflavor: static-debug }
 
+- { ruleset: slackware,       namepat: "(.*)-(solibs)", setname: $1, addflavor: $2 }
+
 - { ruleset: slitaz,          namepat: "(.*)-(dev)", setname: $1, addflavor: $2 }
 
 #- { ruleset: msys2, namepat: "(.*)-git", setname: "$1", ignore: true }

@@ -15,7 +15,7 @@
 - { setname: garmintools,              name: garmin-forerunner-tools }
 - { setname: gaul,                     name: gaul-devel, weak_devel: true }
 - { setname: gavl,                     name: libgavl }
-- { setname: gcc,                      name: [g++,gcc3-c,gcc3-c++,gcc3-f77,gcc3-objc,gcc48-libs,gcc49-libs,gcc5-libs], addflavor: true }
+- { setname: gcc,                      name: [g++,gcc3-c,gcc3-c++,gcc3-f77,gcc3-objc,gcc48-libs,gcc49-libs,gcc5-libs,gcc-g++,gcc-gfortran,gcc-gnat,gcc-go], addflavor: true }
 - { setname: gcc,                      namepat: "(?:compat-)?gcc[0-9.-]+" }
 - { setname: gcc,                      namepat: "gcc[0-9.-]+-devel", weak_devel: true }
 - { setname: gccgo,                    namepat: "gccgo[0-9.-]+" }
@@ -125,7 +125,7 @@
 - { setname: glib,                     namepat: "(?:lib)?glib[0-9.-]*" }
 - { setname: glib-networking,          name: glib2-networking }
 - { setname: glibc,                    namepat: "glibc[0-9.-]*" }
-- { setname: glibc,                    name: [glibc-doc-reference,glibc-gd,glibc-info], addflavor: true }
+- { setname: glibc,                    name: [glibc-doc-reference,glibc-gd,glibc-info,glibc-i18n,glibc-profile], addflavor: true }
 - { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9.-]*" }
 - { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9.-]*(-docs|-reference)", addflavor: docs }
 - { setname: glitz,                    name: libglitz }

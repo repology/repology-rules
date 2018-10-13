@@ -21,7 +21,12 @@
 - { name: xdg-utils,                   verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: xdot,                        ver: "20121124",                                    snapshot: true }
 - { name: xdotool,                     verpat: "20[0-9]{6}.*",                             incorrect: true } # it's 3.YYYYMMDD; XXX: problem
+- { name: "xdrv:fbdev",                verpat: "[0-9]{3}.*",                               incorrect: true } # slackwarearm garbage
 - { name: "xdrv:intel",                                                                    noscheme: true }
+- { name: "xdrv:mga",                  verpat: "1\\.9\\..*",                               outdated: true } # 2007, while latest 1.6.5 is 2017
+- { name: "xdrv:openchrome",           verpat: "20[0-9]{6}.*",                             snapshot: true } # slackware
+- { name: "xdrv:savage",               verpat: "20[0-9]{6}.*",                             snapshot: true } # slackware
+- { name: "xdrv:sis",                  verpat: "20[0-9]{6}.*",                             snapshot: true } # slackware
 - { name: xhyve,                       verpat: "20[0-9]{6}",                               snapshot: true } # macports
 - { name: xl2tpd,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: xl2tpd,                      verge: "20000000", verlt: "20180519",               outdated: true }

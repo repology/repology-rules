@@ -8,6 +8,7 @@
 - { name: icebreaker,                  ver: "1.21",                                        setver: "1.2.1" }
 - { name: icecat,                                                                          setver: "$0gnu1" } # it uses gnu suffix, in most cases it's gnu1, but there were gnu2 as well
 - { name: icecat,                      verpat: "(.*gnu.*)gnu1",                            setver: "$1" }
+- { name: icecream,                    verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: icemon,                      verpat: "[0-9a-f]{7}",                              incorrect: true }
 - { name: ices,                        verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: icewm,                       ver: ["1.4.3","1.4.3.0"],     ruleset: [debuntu,distrowatch], incorrect: true } # no such release

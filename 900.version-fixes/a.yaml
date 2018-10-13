@@ -80,9 +80,9 @@
 - { name: aspell-bn,                   ver: "0.02",                  ruleset: arch,        ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/bn/
 - { name: aspell-br,                   ver: "0.60.2",                                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/br/
 - { name: aspell-ca,                   ver: "2.3.0",                                       incorrect: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/ca/
-- { name: aspell-ca,                   ver: "20040130",                                    outdated: true } # see https://ftp.gnu.org/gnu/aspell/dict/ca/
+- { name: aspell-ca,                   verpat: "20040130.*",                               outdated: true } # see https://ftp.gnu.org/gnu/aspell/dict/ca/
 - { name: aspell-ca,                   ver: "20090721",                                    incorrect: true } # actually 2.1.5-1, see https://ftp.gnu.org/gnu/aspell/dict/ca/
-- { name: [aspell-el,el-aspell],       ver: ["0.50","0.50.3","0.50-3"],                    outdated: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/el/
+- { name: [aspell-el,el-aspell],       ver: ["0.50","0.50.3","0.50-3","0.50_3"],           outdated: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/el/
 - { name: aspell-fi,                   ver: "0.60.0",                                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fi/
 - { name: aspell-fo,                   ver: ["0.51.0","0.4.2"],                            ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fo/
 - { name: aspell-fr,                   ver: "0.60",                                        ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fr/

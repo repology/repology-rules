@@ -22,6 +22,8 @@
 
 - { name: libuuid, verpat: "2\\.[0-9]{4}(\\.[0-9]+)?", setname: util-linux, addflavor: libuuid } # part of
 
+- { name: libwmf, wwwpart: caolanm, setname: libwmf-caolanm }
+
 # gentoo vs. fedora livecd-tools
 - { name: livecd-tools,                wwwpart: gentoo, setname: livecd-tools-gentoo }
 - { name: livecd-tools,                category: app-misc, ruleset: gentoo, setname: livecd-tools-gentoo }

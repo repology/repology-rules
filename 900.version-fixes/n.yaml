@@ -10,8 +10,13 @@
 - { name: neofetch,                    verpat: "20[0-9]{6}",                               snapshot: true } # aosc
 - { name: neovim-qt,                   ver: "0.2.9",                 ruleset: aur,         incorrect: true }
 - { name: neovim-qt,                                                 ruleset: aur,         untrusted: true }
-- { name: net-tools,                   verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
-- { name: netcat-openbsd,              verpat: "20[0-9]{6}.*",                             snapshot: true } # pkgsrc garbage
+- { name: net-tools,                   verpat: ".*20[0-9]{6}.*",                           snapshot: true } # tons of snapshots
+- { name: net-tools,                   verpat: "1\\.61",             ruleset: pld,         incorrect: true }
+- { name: net-tools,                   ver: "1.60.6",                                      incorrect: true }
+- { name: net-tools,                                                 ruleset: kaos,        untrusted: true } # accuased of fake 1.60.6
+- { name: net-tools,                   verpat: "2\\.[0-9a-f]{7}",                          incorrect: true }
+- { name: net-tools,                   ver: "2.0",                                         devel: true } # no mentions of this on the side, but it's quite widely used
+- { name: netcat-openbsd,              verpat: "20[0-9]{2}.*",                             snapshot: true } # pkgsrc garbage
 - { name: netcat-openbsd,              verpat: "[0-9]+\\.[0-9]{3}_.*",                     incorrect: true } # debian suffixes
 - { name: netdiscover,                 ver: "0.3",                   ruleset: [blackarch, mageia], incorrect: true }
 - { name: netdiscover,                 verpat: "(.*)pre(beta.*)",                          setver: $1$2 }

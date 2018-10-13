@@ -34,10 +34,12 @@
 - { name: photivo,                                                                         noscheme: true }
 - { name: phototonic,                  verpat: "2\\.1\\.[0-9]+",     ruleset: mageia,      incorrect: true }
 - { name: phototonic,                                                ruleset: mageia,      untrusted: true }
+- { name: php,                         verpat: ".*r.*",                                    devel: true }
 - { name: php-xdebug,                  verpat: "(.*)-[0-9]+\\.[0-9]+", ruleset: scoop,     setver: "$1" } # the suffix seem to encode php version?
 - { name: phyml,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: picolisp,                    ver: ["18.6.12", "18.6.17"],  ruleset: [aur,termux], incorrect: true }
 - { name: picolisp,                                                  ruleset: [aur,termux], untrusted: true }
+- { name: pidentd,                     ver: "3.1a25",                                      incorrect: true, disposable: true } # old opensuse leap, no idea where this comes from
 - { name: pilot-link,                  ver: "0.12.15",               ruleset: gobolinux,   incorrect: true } # gobolinux fake
 - { name: pimcommon,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: pingus,                      verpat: "0\\.8\\.0-[0-9]{8}",                       snapshot: true }

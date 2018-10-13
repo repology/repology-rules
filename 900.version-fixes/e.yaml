@@ -18,6 +18,7 @@
 - { name: einstein,                    vergt: "2.0",                                       successor: true } # https://github.com/lksj/einstein-puzzle
 - { name: eiskaltdcpp,                 verpat: ".*g.*",                                    ignore: true }
 - { name: eiskaltdcpp,                 ver: "2.2.11",                ruleset: fedora,      ignore: true } # fake
+- { name: electricsheep,                                                                   noscheme: true } # https://github.com/scottdraves/electricsheep/releases
 - { name: elftoolchain,                ver: "100",                   ruleset: ravenports,  incorrect: true } # fake
 - { name: elinks,                      vergt: "0.12pre6",                                  untrusted: true } # too many snapshots
 - { name: elinks,                      ver: ["0.11.996","0.12.3.2","0.12rc6"],             incorrect: true }

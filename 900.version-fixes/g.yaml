@@ -115,6 +115,7 @@
 - { name: gotty,                                                     ruleset: openwrt,     untrusted: true } # accused of fake 2.0.0
 - { name: govendor,                    ver: "1.0.9.6",                                     incorrect: true } # FreeBSD garbage
 - { name: gpart,                       vergt: "0.1h",                                      successor: true } # https://github.com/baruch/gpart
+- { name: gpm,                         verpat: "[0-9]+\\.99\\..*",                         devel: true } # assumed
 - { name: gprbuild,                    verpat: "[0-9]{5,}.*",                              ignore: true }
 - { name: gprolog,                     ver: "1.4.5",                 ruleset: debuntu,     incorrect: true }
 - { name: gprolog,                                                   ruleset: debuntu,     untrusted: true }
