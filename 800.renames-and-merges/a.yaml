@@ -68,6 +68,7 @@
 - { setname: alsa-plugins,             name: alsa-plugins-jack, addflavor: jack }
 - { setname: alsa-plugins,             name: alsa-plugins-oss, addflavor: oss }
 - { setname: amavisd-new,              name: amavisd, ruleset: openpkg }
+- { setname: amp,                      name: "rust:amp" }
 - { setname: amule,                    name: [amule-daemon,amule-gui], addflavor: true }
 - { setname: amule,                    name: amule-devel, weak_devel: true }
 - { setname: anacron2,                 name: anacron, verpat: "2\\.[4-9].*" } # different project (a fork?)
