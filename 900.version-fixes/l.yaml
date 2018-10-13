@@ -36,6 +36,7 @@
 - { name: lmdb++,                                                    ruleset: [fedora, macports ], untrusted: true }
 - { name: lmms,                        ver: ["1.1.95","1.2.0"],      ruleset: [sisyphus,kaos], incorrect: true } # it's 1.2.0rc5
 - { name: lmms,                                                      ruleset: [sisyphus,kaos], untrusted: true }
+- { name: log4cxx,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: logfsprogs,                                                                      noscheme: true }
 - { name: logtop,                      ver: "0.6.1",                 ruleset: sisyphus,    incorrect: true }
 - { name: loic,                        verpat: ".*9.*9.*9.*",                              devel: true } # prerelease (2.9.9.99)
