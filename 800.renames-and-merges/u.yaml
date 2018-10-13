@@ -2,7 +2,6 @@
 
 - { setname: uade,                     name: [uade123,uade2] }
 - { setname: uchardet,                 name: libuchardet }
-- { setname: ude,                      name: uwm-ude } # technically it's named uwm; see also rule in 850
 - { setname: udiskie,                  name: "python:udiskie" }
 - { setname: udisks,                   name: [udisks-2,udisks2] }
 - { setname: udisks,                   name: [udisks2-elogind,udisks2-nosystemd], addflavor: true }
@@ -48,5 +47,6 @@
 - { setname: util-linux,               name: [libutil-linux,libutil-linux-static,libutil-linux-aarch64,libutil-linux-nosystemd,libutil-linux-nosystemd-debug,libutil-linux-selinux], addflavor: true }
 - { setname: util-linux,               name: [util-linux-aes,util-linux-debug,util-linux-minimal,util-linux-nosystemd,util-linux-nosystemd-debug,util-linux-selinux,util-linux-systemd], addflavor: true }
 - { setname: uucp,                     name: taylor-uucp }
+- { setname: uwm-ude,                  name: ude } # technically it's named uwm; see also rule in 850
 - { setname: uwsgi,                    name: "python:uwsgi" }
 - { setname: uwsgitop,                 name: "python:uwsgitop" }
