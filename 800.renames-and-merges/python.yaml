@@ -168,3 +168,5 @@
 - { setname: "python:trezor",          name: trezor }
 - { setname: "python:twine",           name: twine-pypi }
 - { setname: "python:wand",            name: [pywand,wand] }
+- { setname: "python:webob",           name: webob }
+- { setname: "python:webob",           namepat: "python:webob[0-9.-]+" }
