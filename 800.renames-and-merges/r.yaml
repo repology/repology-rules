@@ -40,7 +40,7 @@
 - { setname: rpcs3,                    name: rpcs3-ex, addflavor: ex }
 - { setname: rpm,                      namepat: "rpm[0-9.-]+" }
 - { setname: rrdtool,                  name: [rrdtool12, rrd, rrdtool1] }
-- { setname: rrdtool,                  name: [rrdtool-lite,rrdpudate,"ruby:rrd","ruby:rrdtool","ruby:rrdtool-bindings"], addflavor: true }
+- { setname: rrdtool,                  name: [rrdtool-lite,rrdupdate,"ruby:rrd","ruby:rrdtool","ruby:rrdtool-bindings"], addflavor: true }
 - { setname: rsh,                      name: rshd }
 - { setname: rss2email,                name: "python:rss2email" }
 - { setname: rss2email,                name: r2e }
