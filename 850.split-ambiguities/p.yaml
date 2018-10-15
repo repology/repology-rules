@@ -29,6 +29,7 @@
 
 - { name: pkgdiff, ruleset: pkgsrc, setname: pkgdiff-pkgsrc }
 
+# distro-specific
 - { name: pkgtools, ruleset: [arch,aur], setname: $0-arch }
 - { name: pkgtools, ruleset: slackware, setname: $0-slackware }
 

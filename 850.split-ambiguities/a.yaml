@@ -1,5 +1,9 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+# distro-specific
+- { name: aaa-base, ruleset: opensuse, setname: $0-opensuse }
+- { name: aaa-base, ruleset: slackware, setname: $0-slackware }
+
 - { name: aclock, ruleset: freebsd, setname: gnustep-aclock } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
 - { name: acme, wwwpart: certbot, setname: certbot, addflavor: acme }
