@@ -103,6 +103,9 @@
 - { setname: exempi,                   name: libexempi }
 - { setname: exercism-cli,             name: [exercism,"go:github-exercism-cli"] }
 - { setname: exim,                     name: exim4 }
+- { setname: exo,                      name: [libexo, xfce4-exo] }
+- { setname: exo,                      name: exo-devel, weak_devel: true }
+- { setname: exo,                      name: exo-gtk3, addflavor: true }
 - { setname: exosip,                   name: [libexosip,libexosip2,exosip2] }
 - { setname: expat,                    name: expat21 }
 - { setname: extremetuxracer,          name: [etracer,extreme-tuxracer,extreme-tux-racer] }
