@@ -29,6 +29,9 @@
 
 - { name: pkgdiff, ruleset: pkgsrc, setname: pkgdiff-pkgsrc }
 
+- { name: pkgtools, ruleset: [arch,aur], setname: $0-arch }
+- { name: pkgtools, ruleset: slackware, setname: $0-slackware }
+
 - { name: plank, wwwpart: pinterest, setname: plank-framework }
 
 - { name: ply, wwwpart: dabeaz, setname: "python:ply" }
