@@ -14,6 +14,9 @@
 - { name: icewm,                       ver: ["1.4.3","1.4.3.0"],     ruleset: [debuntu,distrowatch], incorrect: true } # no such release
 - { name: icon,                        verpat: "[0-9]{3}",                                 ignore: true } # XXX: transform + problem
 - { name: icu-le-hb,                   ver: "1.0.3.3",                                     ignore: true } # fake (FreeBSD)
+- { name: iftop,                       ver: "1.0",                   ruleset: [fedora,mageia,pld], incorrect: true } # 1.0pre4
+- { name: iftop,                                                     ruleset: [fedora,mageia,pld], untrusted: true } # accused of fake 1.0
+- { name: iftop,                       ver: "0.99.4",                                      incorrect: true } # opensuse fake, 1.0pre4 actually
 - { name: iguanair,                    ver: "1.2.0",                 ruleset: pld,         incorrect: true }
 - { name: iguanair,                                                  ruleset: pld,         untrusted: true }
 - { name: inchi,                       ver: ["1.0.3","1.0.4","1.0.5"],                     incorrect: true } # XXX: problem
