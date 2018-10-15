@@ -19,6 +19,7 @@
 - { name: iftop,                       ver: "0.99.4",                                      incorrect: true } # opensuse fake, 1.0pre4 actually
 - { name: iguanair,                    ver: "1.2.0",                 ruleset: pld,         incorrect: true }
 - { name: iguanair,                                                  ruleset: pld,         untrusted: true }
+- { name: ike-scan,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: inchi,                       ver: ["1.0.3","1.0.4","1.0.5"],                     incorrect: true } # XXX: problem
 - { name: incidenceeditor,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: include-what-you-use,        verpat: "[345].*",                                  incorrect: true } # https://include-what-you-use.org/ llvm version vs. own version
