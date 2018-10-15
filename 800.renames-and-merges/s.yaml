@@ -118,7 +118,7 @@
 - { setname: spamassassin,             name: "perl:spamassassin" }
 - { setname: spamassassin,             name: spamassassin-rules, addflavor: rules }
 - { setname: spamassassin,             name: spamassassin-spamc, addflavor: rules }
-- { setname: spandsp,                  name: libspandsp6 }
+- { setname: spandsp,                  name: [libspandsp,libspandsp6], addflavor: lib }
 - { setname: sparsehash,               name: google-sparsehash }
 - { setname: spatialindex,             name: libspatialindex }
 - { setname: spatialite-gui,           name: spatialite-gui-devel, weak_devel: true }
