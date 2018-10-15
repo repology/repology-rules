@@ -26,7 +26,7 @@
 - { verpat: "20[0-9]{2}",                                            ruleset: openwrt,     untrusted: true } # there are a lot of them
 - { verpat: "[0-9]+\\..*[0-9a-f]{7}",                                ruleset: arch,        ignore: true } # primarily blackarch snapshots
 - { ver: "1003.1-2008",                                              ruleset: nix,         ignore: true } # WTF is that? versions like "1003.1-2008"
-- { verpat: ".*haiku.*",                                                                   ignore: true } # primarily blackarch snapshots
+- { verpat: ".*haiku.*",                                                                   ignore: true }
 - { verpat: ".*arch.*",                                                                    ignore: true } # arch, aur pseudoversions
 - { verpat: ".*_.*", name: [brotli,curl,openssl],                    ruleset: scoop,       incorrect: true } # ┐ windows builds from curl project
 - { verpat: ".*_.*",                                                 ruleset: scoop,       untrusted: true } # ┘
