@@ -162,7 +162,7 @@
 - { setname: libtool,                  namepat: "libtool[0-9.-]+" }
 - { setname: libtorrent,               name: [libtorrent-ipv6,libtorrent-extended], addflavor: true }
 - { setname: libtorrent,               namepat: "libtorrent[0-9.-]+" }
-- { setname: libtorrent-rasterbar,     name: [rb-libtorrent,rblibtorrent] }
+- { setname: libtorrent-rasterbar,     name: [rb-libtorrent,rblibtorrent,"python:libtorrent-rasterbar"] }
 - { setname: libtorrent-rasterbar,     namepat: "libtorrent-rasterbar[0-9.-]+" }
 - { setname: libtsm,                   name: [libtsm-asciinema,libtsm-patched] }
 - { setname: libtubo,                  name: [tubo,libtubo0] }
