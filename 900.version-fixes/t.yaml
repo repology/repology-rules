@@ -44,7 +44,7 @@
 - { name: thunderbird,                 verpat: ".*[ab].*",                                 devel: true }
 - { name: tidy,                        verpat: "20[0-9]{6}.*",                             ignore: true } # obsoleted
 - { name: tidy,                        ver: "090315.c",                                    ignore: true } # obsoleted
-- { name: tidy,                        ver: "5.7.16",                                      ignore: true } # mentioned in version.txt, but no tag
+- { name: tidy,                        ver: "5.7.16",                                      ignore: true, maintenance: true } # mentioned in version.txt, but no tag
 - { name: tigervnc,                    verpat: ".*\\.9[0-9]+",                             devel: true }
 - { name: timidity++,                  ver: "2.15.0",                ruleset: rosa,        incorrect: true } # 2.15.0 was not released yet
 - { name: timidity++,                                                ruleset: rosa,        untrusted: true }
