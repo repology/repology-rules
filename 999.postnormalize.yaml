@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { ruleset: wikidata, resetflavors: true }
+# wikidata uses rules from arch, undo all unwanted effects caused by them
+- { ruleset: wikidata, resetflavors: true, rolling: false }
 
 # finalize, catch-all rule
 - { noflag: preserve_case, tolowername: true }
