@@ -294,6 +294,11 @@ also you don't want to bother with escaping here.
 - { name: firefox, wwwpart: "mozilla.org", ... }
 ```
 
+#### is_p_is_patch
+
+Matches when a package has `p_is_patch` flag set (see `p_is_patch`
+action below).
+
 ### Actions
 
 #### setname

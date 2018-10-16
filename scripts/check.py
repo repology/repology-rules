@@ -124,6 +124,7 @@ schema = Schema(
         'verne': str,
         'flag': str,
         'noflag': str,
+        'is_p_is_patch': bool,
 
         'setname': str,
         'setver': str,
