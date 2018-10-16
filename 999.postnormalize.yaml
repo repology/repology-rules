@@ -1,5 +1,11 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+# - in gentoo, `p` always means `patch`: https://devmanual.gentoo.org/ebuild-writing/file-format/index.html, see also #88
+# - however, in almost all cases these are snapshots which need to be ignored
+# - the exceptions from the previous rule are projects which officially use `p` in their versions
+- { ruleset: gentoo, is_p_is_patch: false, verpat: '.*_p[0-9].*', untrusted: true }
+- { ruleset: gentoo, p_is_patch: true }
+
 # wikidata uses rules from arch, undo all unwanted effects caused by them
 - { ruleset: wikidata, resetflavors: true, rolling: false }
 
