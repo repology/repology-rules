@@ -43,6 +43,7 @@
 - { name: checkbashisms,               verpat: "20[0-9]{6}.*",                             ignore: true } # AUR
 - { name: cherokee,                    verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
 - { name: chez-scheme,                 ver: "9.5.1",                 ruleset: nix,         incorrect: true }
+- { name: chmlib,                      ver: "0.40a",                                       devel: true } # mentioned in readme, no tags, used by debian and aosc
 - { name: chntpw,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: chntpw,                      ver: "20100627",                                    outdated: true }
 - { name: chromium,                    verpat: ".*-r[0-9]+",                               ignore: true } # scoop
