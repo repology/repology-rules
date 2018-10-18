@@ -108,8 +108,10 @@
 - { name: libsoup,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libspiro,                    verpat: "20[0-9]{6}",                               incorrect: true} # it's 0.5.20150702; XXX: problem
 - { name: libspiro,                    verge: "20000000", verlt: "20150702",               outdated: true }
-- { name: libssh,                      ver: ["0.73", "0.11", "2014"],                      ignore: true } # pkgsrc, gobo
-- { name: libssh,                      ver: "0.8.0",                 ruleset: debuntu,     ignore: true }
+- { name: libssh,                      verpat: "0\\.[0-9]{2}",       ruleset: pkgsrc,      incorrect: true } # accused of fake 0.76
+- { name: libssh,                                                    ruleset: pkgsrc,      untrusted: true }
+- { name: libssh,                      ver: ["0.11"],                                      incorrect: true }
+- { name: libssh,                                                    ruleset: gobolinux,   untrusted: true } # accused of fake 0.11
 - { name: libstemmer,                                                                      noscheme: true }
 - { name: libtorrent,                  verpat: "20[0-9]{6}.*",                             ignore: true } # nix fake
 - { name: libtorrent,                  verpat: "[0-9]+\\.[0-9]+\\.[0-9]*[13579]",          devel: true } # http://rakshasa.github.io/rtorrent/
