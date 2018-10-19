@@ -10,6 +10,8 @@
 - { name: zenity,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: zeromq,                      verpat: "20[0-9]{6}.*",                             snapshot: true } # vcpkg snapshot
 - { name: zip,                         verlonger: 2,                 ruleset: openmandriva, ignore: true } # fork
+- { name: zlib-ada,                    ver: "1.4",                   ruleset: fedora,      incorrect: true }
+- { name: zlib-ada,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: zoneminder,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: zoneminder,                  ver: "1.31.1",                ruleset: slackbuilds, incorrect: true }
 - { name: zoneminder,                                                ruleset: slackbuilds, untrusted: true }
