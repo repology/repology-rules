@@ -68,8 +68,8 @@
 - { name: postfix,                     verpat: ".*r.*",                                    devel: true }
 - { name: postgis,                     verpat: ".*\\.9[0-9]+",       ruleset: kaos,        incorrect: true } # 2.4.3.90 instead of 2.4.4dev
 - { name: postgis,                                                   ruleset: kaos,        untrusted: true }
-- { name: postgresql,                  verpat: "11.*",                                     devel: true }
-- { name: postgresql,                  ver: ["11","11.0"],                                 ignore: true }
+- { name: postgresql,                  verpat: "12.*",                                     devel: true, maintenance: true }
+- { name: postgresql,                  verpat: "[0-9]+",                                   incorrect: true }
 - { name: postgresql-jdbc,             verpat: "[0-9]{4}.*",                               incorrect: true } # pld garbage
 - { name: povray,                      ver: "3.7.1",                 ruleset: pld,         incorrect: true }
 - { name: povray,                                                    ruleset: pld,         untrusted: true }
