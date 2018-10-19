@@ -29,6 +29,7 @@
 - { name: "python:pyspatialite",       ver: "3.0.1",                 noruleset: pypi,      incorrect: true } # it's 3.0.1-alpha-0
 - { name: "python:pyspatialite",       verpat: "(.*)(?:[_-]alpha[_-])(.*)",                setver: "$1alpha$2" }
 - { name: "python:pyyaml",             ver: "4.1",                                         outdated: true } # retracted: https://github.com/yaml/pyyaml/issues/211
+- { name: "python:random2",            ver: "1.0.2",                 ruleset: sisyphus,    incorrect: true }  # never released development snapshot
 - { name: "python:sphinx-py3doc-enhanced-theme", ver: "2.4.0",       ruleset: pld,         incorrect: true }
 - { name: "python:sphinx-py3doc-enhanced-theme",                     ruleset: pld,         untrusted: true }
 - { name: "python:sphinx-rtd-theme",   verpat: ".*[ab].*",                                 devel: true }
