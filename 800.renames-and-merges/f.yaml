@@ -45,6 +45,7 @@
 - { setname: firefox-esr-l10n,         namepat: "firefox-esr[0-9.-]*-l10n" }
 - { setname: firefox-i18n,             namepat: "firefox-(i18n|l10n|langpack)-(.*)", addflavor: $1 }
 - { setname: firefox-kde-i18n,         namepat: "firefox-(kde-i18n-.*)", addflavor: $1 }
+- { setname: firejail,                 name: firejail-lts }
 - { setname: five-or-more,             name: gnome-games-five-or-more }
 - { setname: flac,                     name: flac-doc, addflavor: doc }
 - { setname: flac,                     name: [flac-libs,libflac] }
