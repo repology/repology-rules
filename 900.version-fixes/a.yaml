@@ -44,7 +44,9 @@
 - { name: amule,                       verlonger: 3,                 ruleset: [ kaos ],    incorrect: true } # fake
 - { name: analitza,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: android-studio,              verpat: "([0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)([._].*)", setver: $1 } # drop meaningless build numbers
+- { name: android-studio,              verpat: "[0-9]{3}\\..*",                            incorrect: true } # mx fake
 - { name: android-tools,               verpat: "[0-9]{4,}.*",                              ignore: true } # fake
+- { name: android-tools,               verpat: "[0-9]{2,}\\..*",                           incorrect: true } # old debian fake
 - { name: anki,                        ver: "2.1.0",                 ruleset: debuntu,     ignore: true } # fake
 - { name: apache,                      verpat: "2\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: apitrace,                                                                        noscheme: true }
