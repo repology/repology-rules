@@ -1,6 +1,5 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { name: pac,                         verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: pam-ldap,                    verpat: "([0-9]+)\\.([0-9]+)\\.([0-9]+)",           setver: "$1$2$3" } # FreeBSD garbage
 - { name: pam-u2f,                     verpat: "(.*)\\.20[0-9]{6}",                        setver: "$1" } # aosc snapshot
 - { name: pango,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

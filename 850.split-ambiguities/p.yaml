@@ -1,5 +1,8 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: pac, wwwpart: [davidtv,pacmanager], setname: pacmanager }
+- { name: pac, wwwpart: parabola, setname: "fonts:pac" }
+
 # "A tool for building identical machine images" vs "Bash wrapper for pacman and aur"
 - { name: pachi, wwwpart: pachi.or.cz, setname: pachi-go }
 
