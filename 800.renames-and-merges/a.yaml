@@ -92,6 +92,7 @@
 - { setname: apache,                   namepat: "apache[0-9.]+" }
 - { setname: apache-arrow,             name: ["python:pyarrow",arrow-cpp] }
 - { setname: apache-arrow,             name: apache-arrow-glib, addflavor: glib }
+- { setname: apache-orc,               name: orc-tools }
 - { setname: apcupsd,                  name: [apcupsd-x11,apcupsd-cgi] }
 - { setname: appstream-glib,           name: libappstream-glib }
 - { setname: apq,                      name: apq-base } # ravenports
