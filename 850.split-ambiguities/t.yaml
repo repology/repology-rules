@@ -6,6 +6,15 @@
 - { name: telegram, wwwpart: vysheng/tg, setname: telegram-cli }
 - { name: telegram, warning: "please classify me" }
 
+- { name: telnet, wwwpart: apple.com, setname: telnet-apple } # 60
+- { name: telnet, ruleset: sisyphus, setname: telnet-openbsd } # 3.0
+- { name: telnet, ruleset: exherbo, setname: inetutils, addflavor: telnet } # 1.9.4 (rectnt 1.9.5)
+- { name: telnet, ruleset: [aix,opensuse], setname: telnet-suse } # 1.2
+- { name: telnet, wwwpart: microsoft, setname: telnet-microsoft } # 0.9.0
+- { name: telnet, ver: "0.17", setname: netkit-telnet }
+- { name: telnet, wwwpart: msys, setname: telnet-msys }
+- { name: telnet, warning: "please classify me" }
+
 # infrastructure manager vs. heighfield generation
 - { name: terraform, setname: gnome-terraform, ruleset: yacp }
 

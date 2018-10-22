@@ -24,6 +24,7 @@
 - { setname: netcdf-fortran,           namepat: "netcdf-fortran(?:[0-9.-]*)(-gnu.*hpc)?", addflavor: $1 }
 - { setname: nethack,                  name: [nethack-all,nethack-lib,nethack-patch,nethack-qt,nethack-tty,nethack-x11] }
 - { setname: nethack,                  namepat: "nethack[.-]*(?:[23][0-9.-]*)?" }
+- { setname: netkit-telnet,            name: netkit-telnetd, addflavor: telnetd }
 - { setname: netlogo,                  name: netlogo-bin, addflavor: bin }
 - { setname: netpbm,                   name: libnetpbm }
 - { setname: netpbm,                   name: [netpbm-free,netpbm-debug], addflavor: true }
