@@ -26,3 +26,7 @@
 - { name: "ruby:mysql", setname: "ruby:mysql-tmtm", wwwpart: tmtm } # fork
 
 - { name: "ruby:rash", setname: "ruby:rash-alt", ruleset: sisyphus } # fork
+
+- { name: rw, wwwpart: sortix, setname: sortix-rw }
+- { name: rw, wwwpart: [rankwidth,philipp], setname: rankwidth }
+- { name: rw, warning: "please classify me" }
