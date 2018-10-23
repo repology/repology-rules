@@ -22,7 +22,9 @@
 - { setname: go,                       namepat: "go-?1[0-9._-]+" } # don't mix with e.g. go2, go4
 - { setname: go,                       namepat: "golang[0-9.-]*" }
 - { setname: go,                       name: [go-bin, golang-bin], addflavor: bin }
-- { addflag: not_go,                   name: [go-font,go-fonts,go-for-it,go-ttf,go-tool] }
+- { addflag: not_go,                   name: [go-font,go-fonts,go-for-it,go-ttf,go-tool,go-mode.el] }
+
+- { addflag: not_haskell,              name: haskell-mode }
 
 - { setname: gstreamer,                namepat: "gstreamer[0-9._-]+" }
 
@@ -41,9 +43,13 @@
 - { setname: perl,                     namepat: "perl-?5[0-9.]*" }
 - { addflag: not_perl,                 name: libwww-perl }
 
+- { addflag: not_php,                  name: php-mode.el }
+- { addflag: not_php,                  name: php-elisp }
+
 # in python category as python modules
 - { addflag: not_python,               name: python, ruleset: aosc }
 - { addflag: not_python,               name: python-docs }
+- { addflag: not_python,               name: python-mode }
 
 # python package manager vs. program wrapper (which was renamed to pipo upstream)
 # XXX: generate problem from this

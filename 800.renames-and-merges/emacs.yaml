@@ -1,4 +1,45 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: "emacs:auctex",           name: [auctex,emacs-auctex,emacs-mode-auctex] }
+- { setname: "emacs:calfw",            name: [emacs-calfw, "emacs:emacs-calfw"] }
+- { setname: "emacs:circe",            name: [circe, emacs-circe] }
+- { setname: "emacs:csharp-mode",      name: [csharp-mode.el] }
+- { setname: "emacs:css-mode",         name: [css-mode] }
+- { setname: "emacs:d-mode",           name: [emacs-d-mode,d-mode.el] }
 - { setname: "emacs:dash",             name: [emacs-dash, dash.el] }
+- { setname: "emacs:doxymacs",         name: [doxymacs] }
+- { setname: "emacs:ebuild-mode",      name: [emacs-ebuild-mode] }
+- { setname: "emacs:elib",             name: [emacs-elib,elib] }
+- { setname: "emacs:emhacks",          name: [emhacks,emacs-emhacks] }
+- { setname: "emacs:emms",             name: [emacs-emms,emms] }
+- { setname: "emacs:evil",             name: [emacs-evil,evil-el] }
+- { setname: "emacs:gnuplot-mode",     name: [gnuplot-mode] }
+- { setname: "emacs:go-mode",          name: [emacs-go-mode, go-mode.el] }
+- { setname: "emacs:haskell-mode",     name: [emacs-haskell-mode,haskell-mode,haskell-mode.el] }
+- { setname: "emacs:howm",             name: [howm,emacs-howm] }
+- { setname: "emacs:icicles",          name: [emacs-icicles,icicles] }
+- { setname: "emacs:inform-mode",      name: [inform-mode] }
+- { setname: "emacs:lookup",           name: [lookup-el] }
+- { setname: "emacs:mailcrypt",        name: [mailcrypt] }
+- { setname: "emacs:markdown-mode",    name: [emacs-markdown-mode,markdown-mode,markdown-mode.el] }
+- { setname: "emacs:matlab",           name: [emacs-matlab] }
+- { setname: "emacs:mew",              name: [emacs-mew,mew] }
+- { setname: "emacs:mew",              name: mew-beta, weak_devel: true }
+- { setname: "emacs:mmm-mode",         name: emacs-mmm-mode }
+- { setname: "emacs:mpg123",           name: [emacs-mpg123,"emacs:mpg123-el", mpg123-el, mpg123.el] }
+- { setname: "emacs:mu-cite",          name: [mu-cute] }
+- { setname: "emacs:multiple-cursors", name: [emacs-multiple-cursors] }
 - { setname: "emacs:muse",             name: [emacs-muse, emacs-muse-mode, muse-el] }
+- { setname: "emacs:navi2ch",          name: [emacs-navi2ch,navi2ch] }
+- { setname: "emacs:org-mode",         name: [emacs-org,emacs-org-mode,org-mode] }
+- { setname: "emacs:php-mode",         name: [emacs-php-mode,php-mode.el,php-elisp] }
+- { setname: "emacs:psgml",            name: [psgml, emacs-psgml, emacs-mode-psgml, psgml-mode] }
+- { setname: "emacs:python-mode",      name: [emacs-python-mode,python-mode.el,python-mode] }
+- { setname: "emacs:queue",            name: [emacs-queue,queue-el] }
+- { setname: "emacs:rfcview",          name: [emacs-rfcview] }
+- { setname: "emacs:riece",            name: [riece] }
+- { setname: "emacs:rust-mode",        name: [emacs-rust-mode,elpa-rust-mode] }
+- { setname: "emacs:session",          name: [emacs-session] }
+- { setname: "emacs:sml-mode",         name: [emacs-sml-mode,sml-mode,sml-mode.el] }
+- { setname: "emacs:tdtd",             name: [emacs-mode-tdtd] }
+- { setname: "emacs:undo-tree",        name: [emacs-undo-tree, elpa-undo-tree] }
