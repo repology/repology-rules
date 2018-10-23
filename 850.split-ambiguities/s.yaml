@@ -45,6 +45,9 @@
 - { name: smem, verpat: "2007.*", ruleset: gentoo, setname: smem.pl } # unrelated python script
 
 - { name: snoopy, wwwpart: tuxfamily, setname: snoopy-warcraft3 }
+- { name: snoopy, wwwpart: dssz, setname: snoopy-graph-anim }
+- { name: snoopy, wwwpart: [snoopylogger,a2p], setname: snoopylogger }
+- { name: snoopy, warning: "please classify me" }
 
 - { name: sokoban, wwwpart: dansoft, setname: sokoban-dansoft }
 - { name: sokoban, category: app-emacs, setname: sokoban-emacs }
