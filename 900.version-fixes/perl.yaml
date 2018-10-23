@@ -54,6 +54,8 @@
 - { name: "perl:pod2-base",            ver: "0.044_1",                                     devel: true }
 - { name: "perl:readonly",             ver: "2.050",                                       ignore: true }
 - { name: "perl:redis",                verpat: "1\\.[0-9]{4,}",                            ignore: true }
+- { name: "perl:sgmls",                verpat: "1\\.03.*",                                 outdated: true }
+- { name: "perl:sgmlspm",              verpat: "1\\.03.*",                                 outdated: true }
 - { name: "perl:speech-recognizer-spx", verge: "0.80",                                     incorrect: true }
 - { name: "perl:sphinx-search",        verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:spreadsheet-parseexcel", verpat: "0\\.[0-9]{4}",                           incorrect: true }
