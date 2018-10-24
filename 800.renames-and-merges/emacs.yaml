@@ -1,6 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: "emacs:anything",         name: [anything-el] }
 - { setname: "emacs:auctex",           name: [auctex,emacs-auctex,emacs-mode-auctex] }
+- { setname: "emacs:bbdb",             name: [bbdb,bbdb3emacs-bbdb] }
 - { setname: "emacs:calfw",            name: [emacs-calfw, "emacs:emacs-calfw"] }
 - { setname: "emacs:circe",            name: [circe, emacs-circe] }
 - { setname: "emacs:csharp-mode",      name: [csharp-mode.el] }
@@ -9,7 +11,8 @@
 - { setname: "emacs:dash",             name: [emacs-dash, dash.el] }
 - { setname: "emacs:doxymacs",         name: [doxymacs] }
 - { setname: "emacs:ebuild-mode",      name: [emacs-ebuild-mode] }
-- { setname: "emacs:elib",             name: [emacs-elib,elib] }
+- { setname: "emacs:edit-server",      name: [emacs-edit-server] }
+- { setname: "emacs:elib",             name: [emacs-elib,elib,emacs20-elib] }
 - { setname: "emacs:emhacks",          name: [emhacks,emacs-emhacks] }
 - { setname: "emacs:emms",             name: [emacs-emms,emms] }
 - { setname: "emacs:evil",             name: [emacs-evil,evil-el] }
@@ -28,13 +31,16 @@
 - { setname: "emacs:mmm-mode",         name: emacs-mmm-mode }
 - { setname: "emacs:mpg123",           name: [emacs-mpg123,"emacs:mpg123-el", mpg123-el, mpg123.el] }
 - { setname: "emacs:mu-cite",          name: [mu-cite] }
+- { setname: "emacs:multi-term",       name: [emacs-multi-term] }
 - { setname: "emacs:multiple-cursors", name: [emacs-multiple-cursors] }
 - { setname: "emacs:muse",             name: [emacs-muse, emacs-muse-mode, muse-el] }
 - { setname: "emacs:navi2ch",          name: [emacs-navi2ch,navi2ch] }
 - { setname: "emacs:org-mode",         name: [emacs-org,emacs-org-mode,org-mode] }
 - { setname: "emacs:org-mode",         name: org-mode-doc, addflavor: doc }
 - { setname: "emacs:php-mode",         name: [emacs-php-mode,php-mode.el,php-elisp] }
+- { setname: "emacs:popwin",           name: emacs-popwin }
 - { setname: "emacs:psgml",            name: [psgml, emacs-psgml, emacs-mode-psgml, psgml-mode] }
+- { setname: "emacs:puppet-mode",      name: [emacs-puppet-mode, puppet-mode.el] }
 - { setname: "emacs:python-mode",      name: [emacs-python-mode,python-mode.el,python-mode] }
 - { setname: "emacs:queue",            name: [emacs-queue,queue-el] }
 - { setname: "emacs:rfcview",          name: [emacs-rfcview] }
