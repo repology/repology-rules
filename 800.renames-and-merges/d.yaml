@@ -15,7 +15,7 @@
 - { setname: dbus,                     name: [dbus-1-x11,dbus-docs,dbus-docs-selinux,dbus-nosystemd,dbus-x11,dbus-selinux], addflavor: true }
 - { setname: dbus,                     name: [dbus-1,dbus-libs] }
 - { setname: dbus-c++,                 name: [dbus-cplusplus,libdbus-c++] }
-- { setname: dbus-glib,                name: libdbus-glib }
+- { setname: dbus-glib,                name: [libdbus-glib,dbus-1-glib] }
 - { setname: dcc,                      name: dcc-dccd }
 - { setname: dconf,                    name: d-conf }
 - { setname: dconf-editor,             name: dconf-editor-3.20 }
