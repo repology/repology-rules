@@ -39,7 +39,7 @@
 - { setname: firefox,                  namepat: "firefox-esr[0-9.-]*" }
 - { setname: firefox,                  namepat: "firefox-esr[0-9.-]*(-gtk2|-privacy|-unwrapped)", addflavor: $1 }
 - { setname: firefox,                  namepat: "firefox[0-9.-]*" }
-- { setname: firefox,                  namepat: "mozilla-?firefox" }
+- { setname: firefox,                  name: [mozilla-firefox,mozillafirefox] }
 - { setname: firefox-beta-i18n,        namepat: "firefox-beta-i18n-.*" }
 - { setname: firefox-esr-i18n,         namepat: "firefox-esr-(i18n-.*)", addflavor: $1 }
 - { setname: firefox-esr-l10n,         namepat: "firefox-esr[0-9.-]*-l10n" }
