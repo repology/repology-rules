@@ -127,6 +127,7 @@
 - { setname: glib-networking,          name: glib2-networking }
 - { setname: glibc,                    namepat: "glibc[0-9.-]*" }
 - { setname: glibc,                    name: [glibc-doc-reference,glibc-gd,glibc-info,glibc-i18n,glibc-profile], addflavor: true }
+- { setname: glibmm,                   name: glib2mm }
 - { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9.-]*" }
 - { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9.-]*(-docs|-reference)", addflavor: docs }
 - { setname: glitz,                    name: libglitz }
