@@ -37,6 +37,7 @@
 - { name: rpcgen,                                                    ruleset: ravenports,  ignore: true } # fake
 - { name: rsh,                         verpat: "[0-9]{2}",                                 incorrect: true }
 - { name: rss-glx,                     verpat: "0\\.9[0-9]+",        ruleset: openindiana, incorrect: true } # it's 0.9.1, not 0.91
+- { name: rstudio,                     verpat: "1\\.2\\.[0-9]+",                           devel: true, maintenance: true } # 1.2 are currently preview releases, 1.1 is mainline
 - { name: rtl-sdr,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: rtl-sdr,                     verge: "20000000", verlt: "20180827",               outdated: true } # 0.6.0 from 2018-08-27
 - { name: rtl-sdr,                     ver: "0.20130412",                                  outdated: true, disposable: true }
