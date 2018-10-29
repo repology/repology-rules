@@ -51,6 +51,7 @@
 - { setname: "gnustep-$0", noflag: not_gnustep, ruleset: openbsd, category: x11/gnustep }
 
 # Go
+- { setname: "go:$0", noflag: not_go, ruleset: gentoo, category: dev-go }
 - { setname: "go:$1", noflag: not_go, namepat: "go-(.*)" }
 - { setname: "go:$1", noflag: not_go, namepat: "golang-(.*)" }
 
