@@ -150,6 +150,10 @@
 - { setname: atlas-c++,                name: [atlas,atlas-devel], category: devel, ruleset: [freebsd,openbsd] } # don't mix with math/atlas
 - { setname: atlas-c++,                name: [atlas-cpp,atlascpp,libatlascpp] }
 - { setname: atomix,                   name: gnome-games-atomix }
+- { setname: atom,                     name: [atom-beta,atom-editor-beta], weak_devel: true }
+- { setname: atom,                     name: atom-editor }
+- { setname: atom,                     name: [atom-amd64,atom-bin], addflavor: true }
+- { setname: atom,                     name: [atom-transparent,atom-editor-transparent], addflavor: transparent }
 - { setname: atop-freebsd,             name: atop, ruleset: freebsd } # fork
 - { setname: atril,                    name: mate-atril }
 - { setname: atril,                    name: atril-dev, weak_devel: true }
