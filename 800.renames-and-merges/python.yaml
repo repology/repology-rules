@@ -4,10 +4,10 @@
 - { setname: "python:absl-py",         name: absl-py }
 - { setname: "python:airnef",          name: airnef }
 - { setname: "python:argparse",        name: argparse }
-- { setname: "python:atomicwrites",    name: atomicwrites }
 - { setname: "python:atomicwrites",    name: "python:atomicwrites-doc", addflavor: doc }
-- { setname: "python:backports.shutil-get-terminal-size", name: shutil-get-terminal-size }
+- { setname: "python:atomicwrites",    name: atomicwrites }
 - { setname: "python:backports.shutil-get-terminal-size", name: "python:backports-shutil-get-terminal-size" }
+- { setname: "python:backports.shutil-get-terminal-size", name: shutil-get-terminal-size }
 - { setname: "python:backports.shutil-which", name: "python:backports-shutil-which" }
 - { setname: "python:backports.shutil-which", name: shutil-which }
 - { setname: "python:backports.ssl-match-hostname", namepat: "(?:python:)?backports?-ssl-match-hostname" }
@@ -81,13 +81,13 @@
 - { setname: "python:nbsphinx",        name: ["python:jupyter-nbsphinx",nbsphinx] }
 - { setname: "python:nbxmpp",          name: ["python:python-nbxmpp",nbxmpp] }
 - { setname: "python:numarray",        name: numarray }
-- { setname: "python:numpy",           namepat: "python:numpy[0-9.-]+-gnu-hpc", addflavor: gnuhpc }
 - { setname: "python:numpy",           name: "python:numpy-docs-devhelp", addflavor: devhelp }
 - { setname: "python:numpy",           name: "python:numpy-mkl", addflavor: mkl }
 - { setname: "python:numpy",           name: "python:numpy-next", addflavor: next }
 - { setname: "python:numpy",           name: "python:numpy-openblas", addflavor: openblas }
 - { setname: "python:numpy",           name: ["python:numpy-doc","python:numpy-documentation"], addflavor: docs }
 - { setname: "python:numpy",           name: [numpy-legacy,numpy-legacy3,numpy3] }
+- { setname: "python:numpy",           namepat: "python:numpy[0-9.-]+-gnu-hpc", addflavor: gnuhpc }
 - { setname: "python:path.py",         name: ["path.py","python:path","python:path-py","python:pathpy"] } # XXX: python:path may be too broad
 - { setname: "python:pcapy",           name: pcapy }
 - { setname: "python:pep8",            name: pep8 }
@@ -95,9 +95,8 @@
 - { setname: "python:pillow",          name: pillow }
 - { setname: "python:pillowfight",     name: pillowfight }
 - { setname: "python:pmw",             name: "python:pmw2" }
-- { setname: "python:prompt-toolkit",  name: [prompt-toolkit,prompt-toolkit1] }
 - { setname: "python:prompt-toolkit",  name: ["python:prompt-toolkit-doc","python:prompt-toolkit-gns3"], addflavor: true }
-- { setname: "python:python-periphery", name: "python:periphery" }
+- { setname: "python:prompt-toolkit",  name: [prompt-toolkit,prompt-toolkit1] }
 - { setname: "python:py-cpuinfo",      name: "python:cpuinfo" }
 - { setname: "python:py-jack",         name: pyjack }
 - { setname: "python:pyalsaaudio",     name: "python:alsaaudio" } # use pypi name!
@@ -111,16 +110,16 @@
 - { setname: "python:pyexiv2",         name: "pyexiv2" }
 - { setname: "python:pyfltk",          name: [pyfltk, "python:fltk"] }
 - { setname: "python:pyfxa",           name: "python:fxa" }
-- { setname: "python:pygobject3",      name: pygobject3 }
 - { setname: "python:pygobject3",      name: [pygobject3-common,pygobject3-python3], addflavor: true }
+- { setname: "python:pygobject3",      name: pygobject3 }
 - { setname: "python:pygpgme",         name: pygpgme }
 - { setname: "python:pygtk",           name: ["python:gtk","python:gtk2","python:pygtk","python:pygtk2",pygtk,pygtk2,pygtk2.0] }
 - { setname: "python:pyisbn",          name: "python:isbn" }
 - { setname: "python:pylint",          name: [pylint-gui,pylint-py27,pylint3,pylint3-gui] }
 - { setname: "python:pyodbc",          name: pyodbc }
 - { setname: "python:pyode",           name: "python:ode" }
-- { setname: "python:pypillowfight",   name: pypillowfight }
 - { setname: "python:pypillowfight",   name: "python:libpillowfight" } # as per PyPi
+- { setname: "python:pypillowfight",   name: pypillowfight }
 - { setname: "python:pypoppler",       name: ["python:poppler","python:python-poppler"] }
 - { setname: "python:pypubsub",        name: "python:pypubsub3.3.0" }
 - { setname: "python:pytest-sugar",    name: [pytest-sugar, "python:test-sugar"] }
@@ -129,13 +128,14 @@
 - { setname: "python:python-djvulibre", name: "python:djvulibre" } # correct name on PyPi
 - { setname: "python:python-editor",   name: "python:editor" }
 - { setname: "python:python-hglib",    name: "python:hglib" }
+- { setname: "python:python-periphery", name: "python:periphery" }
 - { setname: "python:python-vxi11",    name: "python:vxi11" } # as per PyPi
 - { setname: "python:pytidylib",       name: ["python:pytidylib6","python:tidylib"] }
 - { setname: "python:pytz",            name: pytz }
 - { setname: "python:pyusb",           name: "python:usb" } # create problem!
 - { setname: "python:pywebkitgtk",     name: ["python:webkitgtk",pywebkitgtk] }
-- { setname: "python:pyyaml",          name: [pyyaml,"python:yaml"] }
 - { setname: "python:pyyaml",          name: [pypy-yaml,pypy3-yaml], addflavor: pypy } # XXX: global rule for pypy-*?
+- { setname: "python:pyyaml",          name: [pyyaml,"python:yaml"] }
 - { setname: "python:readlike",        name: readlike }
 - { setname: "python:redis",           name: "python:redis-py" }
 - { setname: "python:reparser",        name: reparser }
@@ -154,8 +154,8 @@
 - { setname: "python:scikits.timeseries", name: ["python:scikits-timeseries",scikits-timeseries] }
 - { setname: "python:setuptools-scm",  name: setuptools-scm }
 - { setname: "python:setuptools-scm-git-archive",  name: setuptools-scm-git-archive }
-- { setname: "python:sip",             name: [sip,sip3,sip4] }
 - { setname: "python:sip",             name: "python:sip-pyqt5", addflavor: pyqt5 }
+- { setname: "python:sip",             name: [sip,sip3,sip4] }
 - { setname: "python:social-auth-core", name: social-auth-core }
 - { setname: "python:sphinx",          name: "python:sphinx10" }
 - { setname: "python:sphinx",          name: ["python:sphinx-doc", sphinx-doc] }
