@@ -288,10 +288,21 @@ means "any character" in regular expressions.
 Matches when a package homepage contains given substring. This
 is usually more practical than **wwwpat** as in most cases you
 just need to match an URL part and don't need complex patterns,
-also you don't want to bother with escaping here.
+also you don't want to bother with escaping here. Matching is
+case insensitive.
 
 ```yaml
 - { name: firefox, wwwpart: "mozilla.org", ... }
+```
+
+#### summpart
+
+Matches when a package summary contains given substring. Useful
+as as an alternative to **wwwpart** for cases where package
+homepage is not available. Matching is case insensitive.
+
+```yaml
+- { name: firefox, summpart: "browser", ... }
 ```
 
 #### is_p_is_patch

@@ -111,6 +111,7 @@ schema = Schema(
         'ver': Any(str, [str]),
         'verpat': str,
         'wwwpart': Any(str, [str]),
+        'summpart': Any(str, [str]),
         'wwwpat': str,
         'ruleset': Any(Any(*rulesets), [Any(*rulesets)]),
         'noruleset': Any(Any(*rulesets), [Any(*rulesets)]),
