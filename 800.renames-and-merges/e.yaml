@@ -93,6 +93,8 @@
 - { setname: etw,                      name: etw-data, addflavor: data }
 - { setname: eudev,                    name: [eudev-debug,eudev-libudev,eudev-with-hwdb,libeudev], addflavor: true }
 - { setname: eventlog,                 name: libevtlog }
+- { setname: everything,               name: everythingse, addflavor: true }
+- { setname: everything,               name: everything.beta, weak_devel: true }
 - { setname: evince,                   name: [evince-light,evince-lite,evince2,evince2-light,evince-no-gnome,evince-lcdfilter] }
 - { setname: evolus-pencil,            name: evoluspencil }
 - { setname: evopedia,                 name: evopedia-qt, addflavor: qt }

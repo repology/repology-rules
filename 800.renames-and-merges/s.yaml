@@ -27,8 +27,8 @@
 - { setname: scourge,                  name: scourge-data, addflavor: data }
 - { setname: scrot,                    name: scrot-no-beep, addflavor: no-beep }
 - { setname: sddm,                     name: [sddm-classic,sddm-elogind], addflavor: true }
-- { setname: sdl,                      name: [libsdl,sdl1] }
-- { setname: sdl,                      name: [sdl12,libsdl1.2] }
+- { setname: sdl,                      name: [libsdl,sdl1,sdl12,libsdl1.2] }
+- { setname: sdl,                      name: sdl-runtime, addflavor: true }
 - { setname: sdl2,                     name: [libsdl2,sdl20] }
 - { setname: sdl2,                     name: [sdl2-nox,sdl2-rbp], addflavor: true }
 - { setname: sdl2-image,               name: sdl-image, verpat: "2.*" }

@@ -121,6 +121,8 @@
 - { name: gprbuild,                    verpat: "[0-9]{5,}.*",                              ignore: true }
 - { name: gprolog,                     ver: "1.4.5",                 ruleset: debuntu,     incorrect: true }
 - { name: gprolog,                                                   ruleset: debuntu,     untrusted: true }
+- { name: gradm,                       verpat: "[0-9]{8}.*",                               incorrect: true } # it.s 3.1.YYYYMMDD.., see https://grsecurity.net/download.php
+- { name: grafx2,                      verpat: ".*wip.*",                                  ignore: true }
 - { name: granatier,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: grantlee-editor,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: grantleetheme,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

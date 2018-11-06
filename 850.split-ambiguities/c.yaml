@@ -12,6 +12,8 @@
 - { name: cflow-ancient, wwwpart: gnu, setname: cflow }
 # otherwise, GNU cflow
 
+- { name: chromium, wwwpart: bsu, setname: chromium-bsu } # XXX: problem
+
 - { name: clementine,                  setname: clementine-player                            } # clementine player vs. window manager
 
 - { name: crystal, ruleset: sisyphus, setname: crystal-lang }
@@ -32,6 +34,11 @@
 - { name: clac, ruleset: [sisyphus,yacp], setname: clac-soveran }
 - { name: clac, wwwpart: soveran, setname: clac-soveran }
 - { name: clac, warning: "please classify me" }
+
+- { name: clink, wwwpart: mridgers, setname: clink-cmd }
+- { name: clink, wwwpart: free-electrons, setname: clink-symlink }
+- { name: clink, ruleset: pld, setname: clink-net }
+- { name: clink, warning: "please classify me" }
 
 - { name: cmix, wwwpart: cmix.sourceforge.net, setname: cmix-mixer } # relic from 2002
 

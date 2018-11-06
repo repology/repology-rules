@@ -111,6 +111,8 @@
 - { setname: cntk,                     name: "python:cntk" }
 - { setname: cockatrice,               name: [cockatrice-client,cockatrice-server] }
 - { setname: codec2,                   name: libcodec2 }
+- { setname: codeblocks,               name: [codeblocks-gcc,codeblocks-full], addflavor: true }
+- { setname: codeblocks,               name: codeblocks-devel, weak_devel: true }
 - { setname: coffee-script,            name: coffeescript } # XXX: problem
 - { setname: cogl,                     name: cogl-amdgpu-pro }
 - { setname: cogl,                     name: libcogl }

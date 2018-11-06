@@ -96,6 +96,8 @@
 - { setname: mercurial,                name: [hg,"python:mercurial"] }
 - { setname: mercurial,                name: [hgweb, mercurial-full], addflavor: true }
 - { setname: mesa,                     namepat: "mesa-lts-.*" }
+- { setname: mesa,                     name: [mesa7,mesa-drivers] }
+- { setname: mesa,                     name: mesagallium }
 - { setname: mesa-demos,               name: [mesa-demo,mesademos] }
 - { setname: meson,                    name: ["python:meson",meson-internal,meson-testsuite], addflavor: true }
 - { setname: meters.lv2,               name: meters-lv2 }
@@ -110,6 +112,7 @@
 - { setname: minivmac,                 namepat: "minivmac-(.*)", addflavor: $1 }
 - { setname: minixml,                  name: libmxml }
 - { setname: minpack,                  name: libcminpack }
+- { setname: mirc,                     name: mirc6 }
 - { setname: mirrormagic,              name: mirrormagic-sdl }
 - { setname: mixxx,                    name: [mixxx20,mixxx-1-11] }
 - { setname: mixxx,                    name: mixxx-unstable, weak_devel: true }

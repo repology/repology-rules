@@ -15,7 +15,7 @@
 - { setname: garmintools,              name: garmin-forerunner-tools }
 - { setname: gaul,                     name: gaul-devel, weak_devel: true }
 - { setname: gavl,                     name: libgavl }
-- { setname: gcc,                      name: [g++,gcc3-c,gcc3-c++,gcc3-f77,gcc3-objc,gcc48-libs,gcc49-libs,gcc5-libs,gcc-g++,gcc-gfortran,gcc-gnat,gcc-go], addflavor: true }
+- { setname: gcc,                      name: [g++,gcc3-c,gcc3-c++,gcc3-f77,gcc3-objc,gcc48-libs,gcc49-libs,gcc5-libs,gcc-g++,gcc-gfortran,gcc-gnat,gcc-go,gcc-fortran], addflavor: true }
 - { setname: gcc,                      namepat: "(?:compat-)?gcc[0-9.-]+" }
 - { setname: gcc,                      namepat: "gcc[0-9.-]+-devel", weak_devel: true }
 - { setname: gccgo,                    namepat: "gccgo[0-9.-]+" }
@@ -44,6 +44,7 @@
 - { setname: geki2,                    name: geki2-kxl, ruleset: gentoo } # XXX: recheck
 - { setname: geki3,                    name: geki3-kxl, ruleset: gentoo } # XXX: recheck
 - { setname: genpuid,                  name: linux-genpuid, ruleset: freebsd }
+- { setname: gens,                     name: gensemulator }
 - { setname: geoclue,                  namepat: "(?:lib)?geoclue[0-9.-]*" }
 - { setname: geocode-glib,             name: libgeocode-glib }
 - { setname: geogebra,                 name: [geogebra-5,geogebra6] }

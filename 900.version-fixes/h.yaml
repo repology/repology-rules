@@ -8,6 +8,7 @@
 - { name: haxe,                        verpat: "4\\..*",             ruleset: freshcode,   ignore: true } # there's no 4.0.0
 - { name: hddtemp,                     ver: "0.3",                   ruleset: [sisyphus,mageia,pclinuxos], incorrect: true } # 0.3beta15
 - { name: hddtemp,                     verpat: ".*(52|53)",                                incorrect: true } # 0.3beta15
+- { name: hefur,                       verpat: ".*[0-9a-z]{7}",                            snapshot: true } # CRUX snapshot
 - { name: hex2bin,                     verpat: "20[0-9]{6}.*",                             ignore: true } # AUR snapshot
 - { name: hexdump,                     verpat: "20[0-9]{6}",                               ignore: true }
 - { name: hidapi,                      verpat: ".*20[0-9]{6}.*",                           ignore: true }

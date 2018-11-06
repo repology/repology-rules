@@ -69,7 +69,8 @@
 - { setname: dosbox,                   name: [dosbox-sdl2,dosbox-debug,dosbox-multilib-patched,dosbox-ex], addflavor: true }
 - { setname: dosbox,                   name: dosbox-dev }
 - { setname: double-conversion,        name: libdouble-conversion }
-- { setname: doublecmd,                name: [doublecmd-gtk2,doublecmd-qt,doublecmd-qt4,doublecmd-qt5] }
+- { setname: doublecmd,                name: [doublecmd-gtk2,doublecmd-qt,doublecmd-qt4,doublecmd-qt5], addflavor: true }
+- { setname: doublecmd,                name: doublecommander }
 - { setname: dovecot,                  namepat: "dovecot[0-9]+" }
 - { setname: dovecot-pigeonhole,       name: [dovecot-pigeonhole04,pigeonhole] }
 - { setname: doxygen,                  name: [doxygen-gui,doxygen-docs,doxygen-doc,doxywizard], addflavor: true }
