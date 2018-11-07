@@ -15,6 +15,7 @@
 - { setname: tcl,                      namepat: "tcl8[0-9.-]+" }
 - { setname: tcl,                      name: tcltk } # hpux has tcl and tk merged; actually it should be merged to both, but we can't
 - { setname: tclhttpd,                 name: tcl-httpd }
+- { setname: tclreadline,              name: [tcl-readline,tcl-tclreadline] }
 - { setname: tdb,                      name: libtdb }
 - { setname: tds-fdw,                  namepat: "(postgresql[0-9.-]*)-tds-fdw", addflavor: $1 }
 - { setname: teamocil,                 name: "ruby:teamocil" }
@@ -78,6 +79,7 @@
 - { setname: tintin++,                 name: [tintin,tintinxx] }
 - { setname: tintin++,                 name: tintin-debug, addflavor: true }
 - { setname: tk,                       namepat: "tk8[0-9.-]+" } # don't mix with tk2, tk5, tk707 which are unrelated projects
+- { setname: tkimg,                    name: [libtk-img,libtkimg,tcl-img] }
 - { setname: tmux,                     name: tmux-fullwidth-backspace, addflavor: true }
 - { setname: tmux,                     namepat: "tmux[0-9.-]+" }
 - { setname: tmuxinator,               name: "ruby:tmuxinator" }
