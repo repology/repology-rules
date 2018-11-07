@@ -44,7 +44,7 @@
 - { setname: iniparser,                name: libiniparser }
 - { setname: inn,                      namepat: "inn[0-9]+" }
 - { setname: inotify-tools,            name: inotify-tools-inc, addflavor: inc }
-- { setname: insighttoolkit,           name: [insighttoolkit4,insight-toolkit] }
+- { setname: insighttoolkit,           namepat: "insight-?toolkit[0-9]*" }
 - { setname: intel-microcode,          name: [microcode-intel,microcode-data-intel,intel-microcode-netbsd] }
 - { setname: intel-microcode,          name: microcode, ruleset: [mageia,rosa] } # limit family for safely
 - { setname: intellij-idea-community,  name: [intellij-idea-ce,idea-community,intellij-idea-community-edition,intellij] }
@@ -71,7 +71,6 @@
 - { setname: itcl,                     namepat: "itcl[0-9]+" }
 - { setname: itcl,                     name: [incrtcl,tcl-incrtcl4] }
 - { setname: itk,                      namepat: "itk[0-9]+" }
-- { setname: itk,                      namepat: "insighttoolkit[0-9]*" }
 - { setname: itk,                      name: [tcl-incrtk4] }
 - { setname: ivan,                     name: iter-vehemens-ad-necem }
 - { setname: iwidgets,                 name: [iwidgets4,tcl-iwidgets] }
