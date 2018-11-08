@@ -151,6 +151,8 @@
 - { setname: muparser,                 namepat: "libmuparser[0-9.-]*" }
 - { setname: mutt,                     name: mutt-devel, weak_devel: true }
 - { setname: mutt,                     name: [mutt-lite,mutt14,mutt14-lite,mutt-patched,mutt-slang,mutt-kiss] }
+- { setname: mvapich2,                 namepat: "mvapich2(?:-psm2?)?(?:-2-2)?(?:-gnu-hpc)?", addflavor: true }
+- { setname: mvapich2,                 name: mvapich2-testsuite, addflavor: true }
 - { setname: mx,                       name: libmx }
 - { setname: mxml,                     name: mxml-static, addflavor: true }
 - { setname: mygui,                    namepat: "mygui-(docs|dummy|gl|opengl|ogre[0-9.-]*)", addflavor: $1 }
