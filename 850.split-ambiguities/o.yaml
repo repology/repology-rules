@@ -1,5 +1,14 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: occt, wwwpart: opencascade, setname: opencascade }
+- { name: occt, wwwpart: ocbase.com, setname: occt-perestroika }
+- { name: occt, warning: "please classify me" }
+
+- { name: oce, wwwpart: tpaviot, setname: opencascade-oce }
+- { name: oce, summpart: opencascade, setname: opencascade-oce }
+- { name: oce, ruleset: [pld,aosc], setname: opencascade-oce }
+- { name: oce, warning: "please classify me" }
+
 - { name: ocp, wwwpart: maxsatula, setname: ocp-oracle-copy-tool }
 - { name: ocp, wwwpart: cubic, setname: ocp-open-cubic-player }
 - { name: ocp, category: [media-sound,audio], setname: ocp-open-cubic-player }
