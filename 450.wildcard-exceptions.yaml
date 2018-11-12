@@ -38,7 +38,7 @@
 
 - { setname: nodejs,                   name: [nodejs-bigger-heap,nodejs-slim] }
 - { setname: nodejs,                   name: node }
-- { setname: nodejs,                   name: nodejs-current, ignore: true }
+- { setname: nodejs,                   name: nodejs-current, weak_devel: true }
 - { setname: nodejs,                   namepat: "node(?:js)?[0-9._-]+" }
 - { setname: nodejs,                   namepat: "nodejs-lts.*" }
 
