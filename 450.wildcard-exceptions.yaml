@@ -16,8 +16,12 @@
 - { setname: fuse,                     name: [fuse2,fuse3,fusefs] }
 - { setname: fuse,                     name: [fuse-common,fusefs-fusexmp_fh,fusefs-libs,fusefs-libs3,libfuse], addflavor: true }
 - { addflag: not_fusefs,               namepat: "fuse-emulator.*" }
+- { addflag: not_fusefs,               name: fuse-python }
 
 - { addflag: not_fortunes,             name: fortune-mod }
+
+- { addflag: not_gstreamer,            name: gstreamer-player } # python module actually
+- { setname: gst-python, addflag: not_gstreamer, namepat: "gst(?:reamer)?[0-9.-]*python[0-9.-]*(:?compat)?" }
 
 - { setname: go,                       namepat: "go-?1[0-9._-]+" } # don't mix with e.g. go2, go4
 - { setname: go,                       namepat: "golang[0-9.-]*" }
@@ -27,6 +31,8 @@
 - { addflag: not_haskell,              name: haskell-mode }
 
 - { setname: gstreamer,                namepat: "gstreamer[0-9._-]+" }
+
+- { setname: "lua:luassert",           namepat: ".*luassert", addflag: not_lua }
 
 - { setname: meld,                     name: meld3, wwwpart: meldmerge } # XXX: create problem; this is wrongly named
 
