@@ -3,6 +3,7 @@
 # xorg stuff; like kde.yaml, should be split into individual rules at some point
 
 # protos
+- { namepat: "x11proto-(.*)", setname: "$1proto", ruleset: debuntu }
 - namepat: |
     (?:xorg-)(
     applewmproto|
