@@ -1,0 +1,5 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { setname: "lua:ada",                name: lua-ada }
+- { setname: "lua:bitop",              name: [lua-bitop,lua-luabitop,lua5.2-bitop,luabitop] }
+- { setname: "lua:mpack",              name: ["lua:-mpack","lua:libmpack",libmpack-lua,lua-libmpack,lua-mpack,lua5.2-libmpack] } # XXX: de-mess

@@ -1,34 +1,54 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: "python:3to2",            name: 3to2 }
 - { setname: "python:absl-py",         name: "python:absl", ruleset: macports } # there's python:absl in pypi which is different package
 - { setname: "python:absl-py",         name: absl-py }
+- { setname: "python:aiopg",           name: aiopg }
+- { setname: "python:aiozmq",          name: aiozmq }
 - { setname: "python:airnef",          name: airnef }
+- { setname: "python:aplpy",           name: aplpy }
 - { setname: "python:argparse",        name: argparse }
-- { setname: "python:atomicwrites",    name: atomicwrites }
 - { setname: "python:atomicwrites",    name: "python:atomicwrites-doc", addflavor: doc }
-- { setname: "python:backports.shutil-get-terminal-size", name: shutil-get-terminal-size }
+- { setname: "python:atomicwrites",    name: atomicwrites }
+- { setname: "python:backports-abc",   name: backports-abc }
 - { setname: "python:backports.shutil-get-terminal-size", name: "python:backports-shutil-get-terminal-size" }
+- { setname: "python:backports.shutil-get-terminal-size", name: shutil-get-terminal-size }
 - { setname: "python:backports.shutil-which", name: "python:backports-shutil-which" }
 - { setname: "python:backports.shutil-which", name: shutil-which }
 - { setname: "python:backports.ssl-match-hostname", namepat: "(?:python:)?backports?-ssl-match-hostname" }
 - { setname: "python:beautifulsoup",   namepat: "(?:python:)?beautifulsoup[0-9.]*" }
 - { setname: "python:bepasty",         name: bepasty }
+- { setname: "python:bicyclerepair",   name: bicyclerepair }
+- { setname: "python:bitarray",        name: bitarray } # XXX: make upstream use prefix
+- { setname: "python:bleach",          name: bleach, ruleset: slackbuilds }
+- { setname: "python:boto3",           name: boto3 }
+- { setname: "python:bottleneck",      name: bottleneck } # XXX: make upstream use prefix
 - { setname: "python:box2d",           name: ["python:pybox2d", pybox2d] }
+- { setname: "python:cartopy",         name: cartopy }
 - { setname: "python:cherrypy",        name: "python:cherrypy-old" }
 - { setname: "python:cherrypy",        name: "python:cherrypy2" }
+- { setname: "python:cherrypy",        name: cherrypy }
 - { setname: "python:cherrypy",        name: cherrypy3 }
 - { setname: "python:chump",           name: chump }
 - { setname: "python:cld2",            name: pycld2 }
 - { setname: "python:colorama",        name: "python:colorama-0.3.3" }
+- { setname: "python:colorama",        name: colorama } # XXX: make upstream use prefix
+- { setname: "python:ctypes",          name: ctypes } # XXX: make upstream use prefix
 - { setname: "python:cypari2",         name: cypari2 }
+- { setname: "python:darts.util.lru",  name: darts.util.lru } # XXX: make upstream use prefix
 - { setname: "python:dbus-python",     name: ["python:dbus","python:dbus-common"] } # as per PyPi
 - { setname: "python:dbus-python",     name: [dbus-python-common,pydbus-common] }
 - { setname: "python:dbus-python",     namepat: "dbus(-1)?-python[0-9]*" }
+- { setname: "python:decorator",       name: decorator } # XXX: make upstream use prefix
+- { setname: "python:decoratortools",  name: decoratortools }
+- { setname: "python:defusedxml",      name: defusedxml }
 - { setname: "python:django",          namepat: "(?:python:)?django[0-9.-]*" }
 - { setname: "python:django-$1",       namepat: "django-(.*)" }
 - { setname: "python:duecredit",       name: duecredit }
 - { setname: "python:dukpy",           name: dukpy }
+- { setname: "python:dulwich",         name: dulwich }
 - { setname: "python:dyndnsc",         name: [dyndnsc,dyndnsc-py2] }
+- { setname: "python:empy",            name: empy }
 - { setname: "python:et-xmlfile",      name: et-xmlfile }
 - { setname: "python:ewmh",            name: [ewmh,pyewmh] }
 - { setname: "python:facebook-sdk",    name: facebook-python } # slackbuilds
@@ -37,12 +57,20 @@
 - { setname: "python:flup",            name: flup }
 - { setname: "python:geoalchemy2",     name: geoalchemy2 }
 - { setname: "python:geographiclib",   name: geographiclib-python }
+- { setname: "python:geohash",         name: geohash, ruleset: slackbuilds }
+- { setname: "python:geoip",           name: "python:geoip-python" }
+- { setname: "python:geojson",         name: geojson }
 - { setname: "python:graph-tool",      name: "python:python2.7-graph-tool", addflavor: python-2.7 }
 - { setname: "python:graph-tool",      name: "python:python3.6-graph-tool", addflavor: python-3.6 }
 - { setname: "python:graph-tool",      name: graph-tool }
+- { setname: "python:grokmirror",      name: grokmirror }
+- { setname: "python:hg-git",          name: hg-git }
+- { setname: "python:hgsubversion",    name: hgsubversion }
 - { setname: "python:hvac",            name: hvac }
+- { setname: "python:hy",              name: hy }
 - { setname: "python:impacket",        name: impacket }
 - { setname: "python:importlib",       name: importlib }
+- { setname: "python:internetarchive", name: internetarchive }
 - { setname: "python:ipykernel",       name: ["python:jupyter-ipykernel","python:jupyter-ipykernel-doc",ipykernel,jupyter-ipykernel] }
 - { setname: "python:ipyparallel",     name: [ipyparallel,ipython-ipyparallel,ipython2-ipyparallel] }
 - { setname: "python:ipython-genutils", name: ipython-genutils }
@@ -63,11 +91,16 @@
 - { setname: "python:jdcal",           name: jdcal }
 - { setname: "python:jinja2",          name: jinja2 }
 - { setname: "python:josepy",          name: josepy }
+- { setname: "python:jsonschema",      name: jsonschema }
+- { setname: "python:kapteyn",         name: kapteyn }
+- { setname: "python:khal",            name: khal }
 - { setname: "python:kiwisolver",      name: kiwisolver }
+- { setname: "python:lektor",          name: lektor }
 - { setname: "python:lhafile",         name: "python:python-lhafile" }
 - { setname: "python:libvirt-python",  name: ["python:libvirt", libvirt-python ] }
 - { setname: "python:libvirt-python",  name: [libvirt-python2, libvirt-python3], addflavor: true }
 - { setname: "python:logzero",         name: logzero }
+- { setname: "python:m2crypto",        name: m2crypto }
 - { setname: "python:mako",            name: "python:mako0.4" }
 - { setname: "python:markdown",        name: python-markdown }
 - { setname: "python:markupsafe",      name: markupsafe }
@@ -77,69 +110,139 @@
 - { setname: "python:memphis",         name: pymemphis }
 - { setname: "python:mini-amf",        name: mini-amf }
 - { setname: "python:monty",           name: monty }
+- { setname: "python:munch",           name: munch }
 - { setname: "python:nbdime",          name: jupyter-nbdime }
 - { setname: "python:nbsphinx",        name: ["python:jupyter-nbsphinx",nbsphinx] }
 - { setname: "python:nbxmpp",          name: ["python:python-nbxmpp",nbxmpp] }
+- { setname: "python:netifaces",       name: netifaces }
 - { setname: "python:numarray",        name: numarray }
-- { setname: "python:numpy",           namepat: "python:numpy[0-9.-]+-gnu-hpc", addflavor: gnuhpc }
+- { setname: "python:numeric",         name: numeric, ruleset: [crux,gobolinux] }
 - { setname: "python:numpy",           name: "python:numpy-docs-devhelp", addflavor: devhelp }
 - { setname: "python:numpy",           name: "python:numpy-mkl", addflavor: mkl }
 - { setname: "python:numpy",           name: "python:numpy-next", addflavor: next }
 - { setname: "python:numpy",           name: "python:numpy-openblas", addflavor: openblas }
 - { setname: "python:numpy",           name: ["python:numpy-doc","python:numpy-documentation"], addflavor: docs }
 - { setname: "python:numpy",           name: [numpy-legacy,numpy-legacy3,numpy3] }
+- { setname: "python:numpy",           name: numpy } # XXX: make upstream use prefix
+- { setname: "python:numpy",           namepat: "python:numpy[0-9.-]+-gnu-hpc", addflavor: gnuhpc }
+- { setname: "python:pandocfilters",   name: pandocfilters }
+- { setname: "python:paramiko",        name: ["python:paramiko1", "python:paramiko1.10"] }
+- { setname: "python:paramiko",        name: paramiko }
+- { setname: "python:parso",           name: parso }
+- { setname: "python:passlib",         name: passlib }
 - { setname: "python:path.py",         name: ["path.py","python:path","python:path-py","python:pathpy"] } # XXX: python:path may be too broad
+- { setname: "python:pbr",             name: pbr } # XXX: make upstream use prefix
 - { setname: "python:pcapy",           name: pcapy }
 - { setname: "python:pep8",            name: pep8 }
 - { setname: "python:pep8-naming",     name: [flake-pep8-naming,pep8-naming,"python:flake8-pep8-naming"] }
+- { setname: "python:phply",           name: phply }
 - { setname: "python:pillow",          name: pillow }
 - { setname: "python:pillowfight",     name: pillowfight }
+- { setname: "python:pip",             name: pip }
 - { setname: "python:pmw",             name: "python:pmw2" }
-- { setname: "python:prompt-toolkit",  name: [prompt-toolkit,prompt-toolkit1] }
+- { setname: "python:polyline",        name: polyline }
+- { setname: "python:pre-commit",      name: pre-commit }
 - { setname: "python:prompt-toolkit",  name: ["python:prompt-toolkit-doc","python:prompt-toolkit-gns3"], addflavor: true }
-- { setname: "python:python-periphery", name: "python:periphery" }
+- { setname: "python:prompt-toolkit",  name: [prompt-toolkit,prompt-toolkit1] }
+- { setname: "python:pwntools",        name: pwntools }
 - { setname: "python:py-cpuinfo",      name: "python:cpuinfo" }
+- { setname: "python:py-cpuinfo",      name: py-cpuinfo } # XXX: make upstream use prefix
 - { setname: "python:py-jack",         name: pyjack }
+- { setname: "python:py-ubjson",       name: py-ubjson }
 - { setname: "python:pyalsaaudio",     name: "python:alsaaudio" } # use pypi name!
+- { setname: "python:pyalsaaudio",     name: pyalsaaudio }
 - { setname: "python:pyaudio",         name: "python:python-pyaudio" }
+- { setname: "python:pyaudio",         name: pyaudio }
+- { setname: "python:pyavm",           name: pyavm }
 - { setname: "python:pyaxmlparser",    name: pyaxmlparser }
 - { setname: "python:pybtex",          name: pybtex }
 - { setname: "python:pybtex-docutils", name: pybtex-docutils }
+- { setname: "python:pycassa",         name: pycassa }
+- { setname: "python:pycha",           name: pycha }
+- { setname: "python:pychart",         name: pychart }
 - { setname: "python:pycodestyle",     name: ["python:codestyle",pycodestyle] }
 - { setname: "python:pycups",          name: ["python:cups",pycups] }
 - { setname: "python:pydocstyle",      name: "python:docstyle" }
+- { setname: "python:pydocstyle",      name: pydocstyle }
+- { setname: "python:pyexcelerator",   name: pyexcelerator }
 - { setname: "python:pyexiv2",         name: "pyexiv2" }
+- { setname: "python:pyfiglet",        name: pyfiglet } # XXX: make upstream use prefix
 - { setname: "python:pyfltk",          name: [pyfltk, "python:fltk"] }
 - { setname: "python:pyfxa",           name: "python:fxa" }
-- { setname: "python:pygobject3",      name: pygobject3 }
+- { setname: "python:pygeoip",         name: pygeoip }
 - { setname: "python:pygobject3",      name: [pygobject3-common,pygobject3-python3], addflavor: true }
+- { setname: "python:pygobject3",      name: pygobject3 }
 - { setname: "python:pygpgme",         name: pygpgme }
+- { setname: "python:pygraphviz",      name: pygraphviz }
 - { setname: "python:pygtk",           name: ["python:gtk","python:gtk2","python:pygtk","python:pygtk2",pygtk,pygtk2,pygtk2.0] }
 - { setname: "python:pyisbn",          name: "python:isbn" }
 - { setname: "python:pylint",          name: [pylint-gui,pylint-py27,pylint3,pylint3-gui] }
+- { setname: "python:pylint",          name: pylint }
+- { setname: "python:pylint-celery",   name: pylint-celery }
+- { setname: "python:pylint-common",   name: pylint-common }
+- { setname: "python:pylint-django",   name: pylint-django }
+- { setname: "python:pylint-flask",    name: pylint-flask }
+- { setname: "python:pylint-plugin-utils",name: pylint-plugin-utils }
+- { setname: "python:pymediainfo",     name: pymediainfo } # XXX: make upstream use prefix
 - { setname: "python:pyodbc",          name: pyodbc }
 - { setname: "python:pyode",           name: "python:ode" }
-- { setname: "python:pypillowfight",   name: pypillowfight }
+- { setname: "python:pyode",           name: pyode }
+- { setname: "python:pyperclip",       name: pyperclip } # XXX: make upstream use prefix
 - { setname: "python:pypillowfight",   name: "python:libpillowfight" } # as per PyPi
+- { setname: "python:pypillowfight",   name: pypillowfight }
 - { setname: "python:pypoppler",       name: ["python:poppler","python:python-poppler"] }
+- { setname: "python:pypoppler",       name: pypoppler }
+- { setname: "python:pyprind",         name: pyprind }
+- { setname: "python:pyproj",          name: pyproj }
 - { setname: "python:pypubsub",        name: "python:pypubsub3.3.0" }
+- { setname: "python:pyqt4",           name: pyqt4 }
+- { setname: "python:pyqt5",           name: pyqt5 }
+- { setname: "python:pyserial",        name: pyserial }
+- { setname: "python:pyspatialite",    name: pyspatialite } # XXX: make upstream use prefix
+- { setname: "python:pytest",          name: pytest }
+- { setname: "python:pytest-catchlog", name: pytest-catchlog }
+- { setname: "python:pytest-cookies",  name: pytest-cookies }
+- { setname: "python:pytest-cov",      name: pytest-cov } # XXX: make upstream use prefix
+- { setname: "python:pytest-django",   name: pytest-django }
+- { setname: "python:pytest-expect",   name: pytest-expect }
+- { setname: "python:pytest-httpbin",  name: pytest-httpbin }
+- { setname: "python:pytest-instafail",name: pytest-instafail }
+- { setname: "python:pytest-localserver",name: pytest-localserver }
+- { setname: "python:pytest-mock",     name: pytest-mock }
+- { setname: "python:pytest-mpl",      name: pytest-mpl }
+- { setname: "python:pytest-multihost",name: pytest-multihost }
+- { setname: "python:pytest-pylint",   name: pytest-pylint }
+- { setname: "python:pytest-qt",       name: pytest-qt }
+- { setname: "python:pytest-runner",   name: pytest-runner }
+- { setname: "python:pytest-sourceorder",name: pytest-sourceorder }
 - { setname: "python:pytest-sugar",    name: [pytest-sugar, "python:test-sugar"] }
+- { setname: "python:pytest-tornado",  name: pytest-tornado }
+- { setname: "python:pytest-xdist",    name: pytest-xdist }
+- { setname: "python:pytest-xvfb",     name: pytest-xvfb }
 - { setname: "python:python-axolotl",  name: "python:axolotl" } # as per PyPi
 - { setname: "python:python-axolotl-curve25519", name: "python:axolotl-curve25519" } # as per PyPi
 - { setname: "python:python-djvulibre", name: "python:djvulibre" } # correct name on PyPi
 - { setname: "python:python-editor",   name: "python:editor" }
 - { setname: "python:python-hglib",    name: "python:hglib" }
+- { setname: "python:python-periphery", name: "python:periphery" }
 - { setname: "python:python-vxi11",    name: "python:vxi11" } # as per PyPi
 - { setname: "python:pytidylib",       name: ["python:pytidylib6","python:tidylib"] }
 - { setname: "python:pytz",            name: pytz }
 - { setname: "python:pyusb",           name: "python:usb" } # create problem!
+- { setname: "python:pyusb",           name: pyusb }
+- { setname: "python:pyviennacl",      name: pyviennacl }
 - { setname: "python:pywebkitgtk",     name: ["python:webkitgtk",pywebkitgtk] }
-- { setname: "python:pyyaml",          name: [pyyaml,"python:yaml"] }
+- { setname: "python:pyxdg",           name: pyxdg }
 - { setname: "python:pyyaml",          name: [pypy-yaml,pypy3-yaml], addflavor: pypy } # XXX: global rule for pypy-*?
+- { setname: "python:pyyaml",          name: [pyyaml,"python:yaml"] }
+- { setname: "python:rabbyt",          name: rabbyt }
+- { setname: "python:rawkit",          name: rawkit }
 - { setname: "python:readlike",        name: readlike }
-- { setname: "python:redis",           name: "python:redis-py" }
+- { setname: "python:redis",           name: ["python:redis-py",redis-py] }
+- { setname: "python:redis-py-cluster",name: redis-py-cluster }
 - { setname: "python:reparser",        name: reparser }
 - { setname: "python:robotframework",  name: robot-framework }
+- { setname: "python:robotframework",  name: robotframework }
 - { setname: "python:rpi.gpio",        name: ["python:raspberry-gpio","python:rpi-gpio",rpi.gpio] }
 - { setname: "python:sasmodels",       name: sasmodels }
 - { setname: "python:scikit-cuda",     name: scikits-cuda }
@@ -154,21 +257,40 @@
 - { setname: "python:scikits.timeseries", name: ["python:scikits-timeseries",scikits-timeseries] }
 - { setname: "python:setuptools-scm",  name: setuptools-scm }
 - { setname: "python:setuptools-scm-git-archive",  name: setuptools-scm-git-archive }
-- { setname: "python:sip",             name: [sip,sip3,sip4] }
+- { setname: "python:shutilwhich",     name: shutilwhich }
 - { setname: "python:sip",             name: "python:sip-pyqt5", addflavor: pyqt5 }
+- { setname: "python:sip",             name: [sip,sip3,sip4] }
 - { setname: "python:social-auth-core", name: social-auth-core }
+- { setname: "python:socksipy",        name: socksipy } # XXX: make upstream use prefix
+- { setname: "python:sortedcontainers",name: sortedcontainers }
 - { setname: "python:sphinx",          name: "python:sphinx10" }
 - { setname: "python:sphinx",          name: ["python:sphinx-doc", sphinx-doc] }
 - { setname: "python:sphinx",          name: sphinx, wwwpart: [pocoo.org,sphinx-doc.org] }
+- { setname: "python:sphinxcontrib-adadomain",name: sphinxcontrib-adadomain } # XXX: make upstream use prefix
+- { setname: "python:sphinxcontrib-plantuml",name: sphinxcontrib-plantuml }
+- { setname: "python:sphinxcontrib-programoutput",name: sphinxcontrib-programoutput }
+- { setname: "python:sphinxcontrib-spelling",name: sphinxcontrib-spelling }
 - { setname: "python:sphinxcontrib-websupport", name: sphinxcontrib-websupport }
 - { setname: "python:sqlalchemy",      name: ["python:sqlalchemy-doc","python:sqlalchemy-kilo","python:sqlalchemy-openstack"], addflavor: true }
 - { setname: "python:sqlalchemy",      name: sqlalchemy }
 - { setname: "python:sqlalchemy",      namepat: "python:sqlalchemy[0-9.-]+" }
 - { setname: "python:sqlalchemy-i18n", name: sqlalchemy-i18n }
+- { setname: "python:sqlalchemy-migrate",name: sqlalchemy-migrate } # XXX: make upstream use prefix
+- { setname: "python:stopit",          name: stopit }
+- { setname: "python:tempita",         name: tempita } # XXX: make upstream use prefix
 - { setname: "python:tldextract",      name: tldextract }
+- { setname: "python:todoman",         name: todoman }
 - { setname: "python:tornado",         name: [tornado,tornadoweb] }
 - { setname: "python:tornado",         namepat: "python:tornado[0-9.-]+" }
 - { setname: "python:trezor",          name: trezor }
+- { setname: "python:twine",           name: twine }
 - { setname: "python:twine",           name: twine-pypi }
+- { setname: "python:utidylib",        name: utidylib }
+- { setname: "python:vdirsyncer",      name: vdirsyncer }
+- { setname: "python:virtualenv",      name: virtualenv }
+- { setname: "python:virtualenv-clone",name: virtualenv-clone }
+- { setname: "python:virtualenvwrapper",name: virtualenvwrapper }
+- { setname: "python:voluptuous",      name: voluptuous } # XXX: make upstream use prefix
 - { setname: "python:wand",            name: [pywand,wand] }
 - { setname: "python:webob",           namepat: "python:webob[0-9.-]+" }
+- { setname: "python:werkzeug",        name: werkzeug } # XXX: make upstream use prefix

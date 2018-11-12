@@ -36,9 +36,18 @@
 - { setname: libxrandr,                name: xrandr, ruleset: gobolinux }
 - { setname: dosbox-x,                 name: dosbox, wwwpart: dosbox-x }
 - { setname: "python:py3exiv2",        name: "python:exiv2", wwwpart: py3exiv2 }
-- { setname: "python:pyexiv2",           name: "python:exiv2", wwwpart: tilloy } # not to be confused with https://pypi.org/project/exiv2/
-- { setname: "python:pyexiv2",           name: "python:exiv2", ruleset: pclinuxos } # not to be confused with https://pypi.org/project/exiv2/
+- { setname: "python:pyexiv2",         name: "python:exiv2", wwwpart: tilloy } # not to be confused with https://pypi.org/project/exiv2/
+- { setname: "python:pyexiv2",         name: "python:exiv2", ruleset: pclinuxos } # not to be confused with https://pypi.org/project/exiv2/
 - { setname: xfce4-volumed-pulse,      name: xfce4-volumed, verge: "0.2.0" } # fedora, ubuntu, mx, mint
 - { setname: "fonts:twitter-tweboji",  name: twemoji-color-font, verge: "11" }
 - { setname: "go:go.uuid",             name: "go:uuid", wwwpart: [satori,go.uuid] }
 - { setname: opencascade-oce,          name: opencascade, wwwpart: tpaviot }
+- { setname: "python:html2text",       name: html2text, category: python } # XXX: problem (slackbuilds)
+- { setname: "python:albatross",       name: albatross, ver: "1.36" } # old debian and ubuntu weirdnes
+- { setname: "python:geoip",           name: "python:pygeoip", ruleset: aosc } # as per PyPi
+- { setname: "python:pygeoip",         name: "python:geoip", ruleset: alpine } # as per PyPi
+- { setname: "python:pyproj",          name: "python:proj", verpat: "1\\.9\\..*" } # as per PyPi
+- { setname: "python:colour-science",  name: "python:colour", wwwpart: colour-science }
+- { setname: "python:progressbar2",    name: "python:progressbar", wwwpart: wolph }
+- { setname: "python:markdown",        name: markdown, wwwpart: pypi }
+- { setname: "python:pyaudio",         name: "python:audio", verpat: "0\\.2\\..*" }
