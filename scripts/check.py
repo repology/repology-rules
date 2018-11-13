@@ -124,8 +124,8 @@ schema = Schema(
         'verle': str,
         'vereq': str,
         'verne': str,
-        'flag': str,
-        'noflag': str,
+        'flag': Any(str, [str]),
+        'noflag': Any(str, [str]),
         'is_p_is_patch': bool,
 
         'setname': str,
