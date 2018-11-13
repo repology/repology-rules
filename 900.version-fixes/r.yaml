@@ -32,6 +32,7 @@
 - { name: remmina,                     ver: "1.2.0",                 ruleset: [alpine,sisyphus,debuntu,rosa], incorrect: true } # liars, it's at 1.2.0-rcgit.XX stage
 - { name: remmina,                                                   ruleset: [alpine,sisyphus,debuntu,rosa], untrusted: true } # liars
 - { name: reptyr,                      ver: "0.6.3a",                ruleset: freebsd,     incorrect: true } # fake, no such tag
+- { name: riak,                        ver: "2.2.5",                 ruleset: openbsd,     incorrect: true } # no mention on the web site, seems fake
 - { name: rinetd,                      ver: "0.62.1sam",                                   ignore: true } # debian garbage
 - { name: rocs,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: rpcgen,                                                    ruleset: ravenports,  ignore: true } # fake
