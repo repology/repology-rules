@@ -198,6 +198,7 @@
 - { setname: cups,                     name: [cups-libs,cups-base,cups-minimal,cups-nosystemd,libcups,libcups-ipp14,cups-doc,cups-ipp14], addflavor: true }
 - { setname: cups-filters,             name: [cups-filters-debug,cups-filters-driverless], addflavor: true }
 - { setname: cutecom,                  name: cutecom-legacy }
+- { setname: cutter-unittest,          name: [cutter-test-framework,cutter-testing-framework] }
 - { setname: cutycapt,                 name: cutycapt-qt5, addflavor: true }
 - { setname: cvs,                      name: cvs-devel, weak_devel: true }
 - { setname: cvsps,                    namepat: "cvsps[0-9]+" }

@@ -4,6 +4,9 @@
 - { setname: rabbitmq-server,          name: rabbitmq }
 - { setname: racket,                   name: [minimal-racket,racket-minimal], addflavor: minimal }
 - { setname: racket,                   name: racket-docs, addflavor: docs }
+- { setname: radare2,                  name: radare } # deprecated in favor of
+- { setname: radare2-bindings,         name: r2-bindings }
+- { setname: radare2-cutter,           name: radare-cutter }
 - { setname: radicale,                 name: ["python:radicale","python:radicale2"] }
 - { setname: ragel,                    name: [ragel-6,ragel7] }
 - { setname: ragel,                    name: ragel-dev, ignore: true }
