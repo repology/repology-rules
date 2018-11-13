@@ -14,6 +14,9 @@
 - { setname: rdesktop,                 name: rdesktop-legacy }
 - { setname: readline,                 namepat: "(?:compat-)?(?:lib)?readline[0-9.-]*" }
 - { setname: rear,                     name: [rear118a,relax-and-recover] }
+- { setname: rebar,                    name: ["erlang:rebar",rebar16,rebar17,rebar19,rebar3] }
+- { setname: rebar,                    name: rebar3-zsh, addflavor: zsh }
+- { setname: rebar,                    name: rebar-bin, addflavor: bin }
 - { setname: redeclipse,               name: red-eclipse }
 - { setname: redeclipse,               name: redeclipse-data, addflavor: data }
 - { setname: redis-desktop-manager,    name: redisdesktopmanager }
