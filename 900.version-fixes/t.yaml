@@ -12,6 +12,7 @@
 - { name: tcl,                         verpat: ".*20[0-9]{6}.*",                           ignore: true } # 8.7 snapshots
 - { name: tcl,                         verpat: ".*a[0-9]+",                                devel: true }
 - { name: tcl,                         verpat: "[0-9]+\\.[0-9]+\\.0\\.?a.*",               incorrect: true } # it's X.YaZ, not X.Y.0aZ
+- { name: tcllib,                      verpat: ".*pl0",                                    incorrect: true } # openbsd garbage; see also https://github.com/repology/libversion/issues/21
 - { name: tcp-wrappers,                ver: ["7.6.4","7.6.22","7.6.24"],                   incorrect: true }
 - { name: tcpblast,                    verpat: "20[0-9]{6}",                               ignore: true }
 - { name: tcpcrypt,                    verpat: "20[0-9]{6}",                               snapshot: true }
