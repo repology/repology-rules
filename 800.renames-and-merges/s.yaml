@@ -133,6 +133,8 @@
 - { setname: spidermonkey,             namepat: "js[0-9]{2}" }
 - { setname: spidermonkey,             name: [libspidermonkey,spidermonkey-ff17] }
 - { setname: spl,                      namepat: "(linux[0-9]+)-spl", addflavor: $1 }
+- { setname: splix,                    name: [cups-driver-splix, cups-drivers-splix, printer-driver-splix] }
+- { setname: splix,                    name: splix-svn, weak_devel: true }
 - { setname: spotify,                  name: [spotify-stable,spotify094] }
 - { setname: spotify,                  name: spotify-client, addflavor: client }
 - { setname: spring,                   name: springrts }
