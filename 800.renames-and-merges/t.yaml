@@ -15,6 +15,8 @@
 - { setname: tcl,                      namepat: "tcl8[0-9.-]+" }
 - { setname: tcl,                      name: tcltk } # hpux has tcl and tk merged; actually it should be merged to both, but we can't
 - { setname: tclhttpd,                 name: tcl-httpd }
+- { setname: tcllib,                   name: tcl-tcllib }
+- { setname: tcllib,                   name: tcllibc, addflavor: c } # FreeBSD artifact, c implementation split out of tcllib
 - { setname: tclreadline,              name: [tcl-readline,tcl-tclreadline] }
 - { setname: tdb,                      name: libtdb }
 - { setname: tds-fdw,                  namepat: "(postgresql[0-9.-]*)-tds-fdw", addflavor: $1 }
