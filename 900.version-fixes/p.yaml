@@ -58,6 +58,8 @@
 - { name: png2ico,                     verpat: "20[0-9]{6}",                               incorrect: true } # it's 2002-12-08
 - { name: png2ico,                     ver: "2008.12.08",                                  incorrect: true }
 - { name: polari,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: pony-stable,                 ver: "0.1.6.1",               ruleset: openbsd,     incorrect: true }
+- { name: pony-stable,                                               ruleset: openbsd,     untrusted: true } # accused of fake 0.1.6.1
 - { name: popt,                        ver: "1.17",                  ruleset: pld,         incorrect: true }
 - { name: popt,                                                      ruleset: pld,         untrusted: true }
 - { name: portaudio,                   verpat: "20[0-9]{6}",                               snapshot: true }
