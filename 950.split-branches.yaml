@@ -79,6 +79,8 @@
 - { name: gstreamer,         verpat: "1\\..*",            setname: gstreamer1 }
 - { name: gstreamer,         warning: "please classify me"         }
 
+- { name: gst-python,        verpat: "0\\..*",            setname: gst-python0 }
+
 - { name: gtk,               verpat: "(4|3\\.9[0-9]+)\\..*", setname: gtk4 }
 - { name: gtk,               verpat: "3\\..*",            setname: gtk3 }
 - { name: gtk,               verpat: "2\\..*",            setname: gtk2 }
