@@ -68,6 +68,7 @@
 - { name: smplayer-themes,             verpat: "20[0-9]{6}",                               ignore: true }
 - { name: smplayer-themes,             verpat: "2012.*",                                   outdated: true }
 - { name: smtp-fuzz,                                                                       noscheme: true }
+- { name: snack,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: snapper,                     ver: "0.5.5",                 ruleset: opensuse,    incorrect: true }
 - { name: snapper,                                                   ruleset: opensuse,    incorrect: true }
 - { name: sndio,                       verpat: "20[0-9]{6}",                               incorrect: true } # last version month ago, snapshots are not justified
