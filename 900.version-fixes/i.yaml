@@ -14,6 +14,7 @@
 - { name: icewm,                       ver: ["1.4.3","1.4.3.0"],     ruleset: [debuntu,distrowatch], incorrect: true } # no such release
 - { name: icon,                        verpat: "[0-9]{3}",                                 ignore: true } # XXX: transform + problem
 - { name: icu-le-hb,                   ver: "1.0.3.3",                                     ignore: true } # fake (FreeBSD)
+- { name: idnkit,                                                    ruleset: openindiana, incorrect: true } # https://github.com/OpenIndiana/oi-userland/commit/be612e3fc5e6d9bf4dc065a223459c1edf583c9b#commitcomment-31304109
 - { name: iftop,                       ver: "1.0",                   ruleset: [fedora,mageia,pld], incorrect: true } # 1.0pre4
 - { name: iftop,                                                     ruleset: [fedora,mageia,pld], untrusted: true } # accused of fake 1.0
 - { name: iftop,                       ver: "0.99.4",                                      incorrect: true } # opensuse fake, 1.0pre4 actually
