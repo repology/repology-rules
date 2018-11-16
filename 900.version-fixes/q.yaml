@@ -17,6 +17,9 @@
 - { name: qjson,                                                     ruleset: openmandriva, untrusted: true }
 - { name: qlipper,                     verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: qpdfview,                    ver: "0.4.17",                                      incorrect: true } # skipped upstream
+- { name: qpdfview,                    ver: "0.4.16.80",                                   incorrect: true } # fake
+- { name: qpdfview,                                                  ruleset: kaos,        untrusted: true } # accused of fake 0.4.16.80
+- { name: qpdfview,                    verpat: "0.4.18_pre.*",                             incorrect: true } # gentoo fakes
 - { name: qps,                         verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: qrfcview,                    ver: "1.0.0",                 ruleset: openbsd,     successor: true } # uses unofficial fork (dead as well)
 - { name: qt5-webkit,                  ver: "5.212.0",               ruleset: [fedora,sisyphus], incorrect: true } # lie, it's 5.212.0alpha2
