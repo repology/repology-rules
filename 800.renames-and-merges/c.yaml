@@ -173,6 +173,7 @@
 - { setname: crystal-icr,              name: icr }
 - { setname: csfml,                    name: libcsfml }
 - { setname: csharp-mode.el,           name: csharp-mode }
+- { setname: csound,                   name: [csound-manual, csound5-manual, csound6-manual], addflavor: manual }
 - { setname: cstore-fdw,               namepat: "(postgresql[0-9.-]*)-cstore-fdw", addflavor: $1 }
 - { setname: csvkit,                   name: "python:csvkit" }
 - { setname: ctags,                    name: [ectags,exctags,exuberant-ctags] } # exuberant and universal are split later
