@@ -289,7 +289,7 @@
 - { setname: gtkglextmm,               name: libgtkglextmm }
 - { setname: gtkhotkey,                name: libgtkhotkey }
 - { setname: gtkhtml,                  namepat: "(?:lib|compat-)?gtkhtml[0-9.-]*" }
-- { setname: gtkmm,                    namepat: "(?:lib)?gtkmm[0-9.-]*(-docs|-documentation|-reference)", addflavor: $1 }
+- { setname: gtkmm,                    namepat: "(?:lib)?gtkmm[0-9.-]*(-docs|-documentation|-reference)?", addflavor: $1 }
 - { setname: gtksourceview,            namepat: "(?:lib)?gtksourceview[0-9.-]*(-reference)?", addflavor: $1 }
 - { setname: gtksourceviewmm,          namepat: "(?:lib)?gtksourceviewmm[0-9.-]*" }
 - { setname: gtkspell,                 namepat: "(?:lib)?gtkspell[0-9.-]*(-reference)?", addflavor: $1 }
