@@ -134,6 +134,7 @@
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python[23]?-(.*)", ruleset: kaos }
 - { setname: "python:$0", addflag: wconce, noflag: [wconce,not_python], category: dev-python, ruleset: [gentoo,exherbo,haikuports] }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python2-(.*)", ruleset: [epel] }
+- { setname: "python:$0", addflag: wconce, noflag: [wconce,not_python], namepat: "zope\\..*" }
 
 # R
 - { setname: "r:$1", addflag: wconce, noflag: [wconce,not_r], namepat: "r-cran-(.*)", ruleset: [ freebsd, debuntu, arch, pclinuxos, mageia, pld ] }
