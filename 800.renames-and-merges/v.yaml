@@ -29,7 +29,9 @@
 - { setname: vint,                     name: vim-vint }
 - { setname: virglrenderer,            name: libvirglrenderer }
 - { setname: virtualbox,               namepat: "virtualbox(?:-ose)?-(additions|kmod)", addflavor: true }
-- { setname: virtualbox,               namepat: "(linux[0-9]+)(-rt)?-virtualbox-(guest|host)-modules", addflavor: true }
+- { setname: virtualbox,               namepat: "(linux[0-9]+)(-rt)?-virtualbox(-guest|-host)?-modules", addflavor: true }
+- { setname: virtualbox,               name: [vboxguestadditions, virtualbox-addons], addflavor: additions }
+- { setname: virtualbox,               name: [virtualbox-bin,virtualbox-bin-5.0], addflavor: bin }
 - { setname: virtualgl,                name: virtualgl-lib, addflavor: lib }
 - { setname: virtuoso,                 name: [virtuoso-6,virtuoso-7,virtuoso-opensource,virtuoso-ose,virtuoso6] }
 - { setname: vlc,                      name: [vlc-qt,vlc-qt4,vlc-qt5,vlc-nox,vlc-decklink], ignore: true }

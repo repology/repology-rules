@@ -14,6 +14,7 @@
 - { name: vgmstream,                   verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: vid.stab,                    verpat: ".*[0-9a-f]{7}.*",                          ignore: true } # git commit
 - { name: vimpc,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true }
+- { name: virtualbox,                  verpat: ".*[0-9]{6}.*",                             incorrect: true }
 - { name: virtualgl,                   verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: vis,                         verpat: "[0-9]{4,}",                                ignore: true } # LEDE
 - { name: visitors,                    ver: "1.1",                   ruleset: rosa,        ignore: true }
