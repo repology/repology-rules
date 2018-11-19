@@ -7,13 +7,34 @@
 
 - namepat: |
     (rust:(?:
+    bincode|
+    bitflags|
+    bytes|
+    crossbeam-deque|
+    crossbeam-epoch|
+    crossbeam-utils|
+    env-logger|
+    futures|
     hyper|
+    log|
     mime|
     native-tls|
+    nom|
+    num-traits|
+    pest|
+    proc-macro2|
+    quickcheck|
     quote|
+    rand-core|
     rand|
+    semver-parser|
+    serde-json|
+    serde|
+    slab|
     synstructure|
     syn|
-    unicase
+    unicase|
+    which|
+    yaml-rust
     ))[0-9.-]+
   setname: "$1"
