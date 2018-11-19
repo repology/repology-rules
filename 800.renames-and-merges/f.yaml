@@ -8,6 +8,7 @@
 - { setname: fail2ban,                 name: fail2ban6 }
 - { setname: falcons-eye,              name: falconseye }
 - { setname: farstream,                namepat: "farstream[0-9.-]+" }
+- { setname: fasm,                     name: [fasm-bin,fasm-linux], addflavor: true }
 - { setname: fasta,                    name: fasta3 }
 - { setname: fastd,                    name: fastd-devel, weak_devel: true }
 - { setname: fcgi,                     name: [fcgi-devkit,libfcgi] }
