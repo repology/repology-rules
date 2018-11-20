@@ -117,6 +117,7 @@
 - { setname: cogl,                     name: cogl-amdgpu-pro }
 - { setname: cogl,                     name: libcogl }
 - { setname: cogl,                     namepat: "compat-cogl[0-9]+" }
+- { setname: coin3d,                   name: [coin, coin-framework, coin2, coin3] } # collisions possible in future
 - { setname: coin-or-$1,               namepat: "coinor-(.*)" } # XXX: problem
 - { setname: coin-or-alps,             name: coinalps }
 - { setname: coin-or-bcp,              name: coinbcp }
