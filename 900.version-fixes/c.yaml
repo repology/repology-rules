@@ -74,8 +74,8 @@
 - { name: coccigrep,                   verpat: "20[0-9]{6}",                               ignore: true }
 - { name: cogl,                        ver: "1.22.5",                ruleset: pardus,      incorrect: true }
 - { name: cogl,                                                      ruleset: pardus,      untrusted: true }
-- { name: coin3d,                      ver: "4.0.0",                 ruleset: debuntu,     incorrect: true } # fake, no such release
-- { name: coin3d,                                                    ruleset: debuntu,     untrusted: true } # accused of fake 4.0.0
+- { name: coin3d,                      ver: ["3.1.4","4.0.0"],       ruleset: debuntu,     incorrect: true } # fake, no such release
+- { name: coin3d,                                                    ruleset: debuntu,     untrusted: true } # accused of fake 3.1.4, 4.0.0
 - { name: colormake,                   verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: colormake,                   ver: ["2.1.0", "0.9.20140504", "0.9.20170221"],     ignore: true }
 - { name: comedilib,                   ver: "140410",                                      ignore: true } # pclinuxos weirdness
