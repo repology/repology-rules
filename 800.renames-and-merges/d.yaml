@@ -4,7 +4,7 @@
 - { setname: dapl,                     name: dapl-debug, addflavor: true }
 - { setname: darcs,                    name: "haskell:darcs" }
 - { setname: dart,                     name: dart-sdk }
-- { setname: dart,                     name: [dart-dev, dart-sdk-dev] } # XXX: be careful
+- { setname: dart,                     name: [dart-dev, dart-sdk-dev], weak_devel: true }
 - { setname: dartsim,                  name: libdart, addflavor: lib }
 - { setname: dash.el,                  name: dash-el }
 - { setname: db,                       name: berkeley-db }
