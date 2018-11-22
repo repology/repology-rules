@@ -10,7 +10,8 @@
 
 - { name: jade,                        wwwpart: jade.cselt.it, setname: jade-java }
 
-- { name: jpeg,                        verpat: "[01]\\..*", setname: libjpeg-turbo }
+- { name: jpeg,                        wwwpart: turbo, setname: libjpeg-turbo }
+- { name: jpeg,                        verlt: "5", setname: libjpeg-turbo } # ijg versions start with 6b1, latest turbo ATOW is 2.0.1
 
 - { name: js, wwwpart: mozilla, setname: spidermonkey }
 - { name: js, ver: ["1.7.0","1.8.5","17.0.0","1.70","1.85"], setname: spidermonkey } # 1.70 and 1.85 are incorrect versions and are ignored later
