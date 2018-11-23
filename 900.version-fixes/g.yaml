@@ -138,6 +138,7 @@
 - { name: gsmlib,                                                                          noscheme: true }
 - { name: "gstreamer1plugins:bad",     ver: "1.14.12",               ruleset: parabola,    incorrect: true }
 - { name: "gstreamer1plugins:bad",                                   ruleset: parabola,    untrusted: true }
+- { name: "gstreamer1plugins:libav",   verlonger: 3,                 ruleset: gentoo,      incorrect: true } # appended garbage
 - { name: "gstreamer1plugins:mpg123",  verpat: "20[0-9]{6}",                               ignore: true } # AUR
 - { namepat: "gstreamer.*",            verpat: "1\\.13\\.9[0-9]+",                         devel: true }
 - { name: gstreamer,                   verlonger: 3,                 ruleset: aur,         incorrect: true }
