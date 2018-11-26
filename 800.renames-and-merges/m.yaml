@@ -29,7 +29,8 @@
 - { setname: mariadb-mytop,            name: mytop, ruleset: arch }
 - { setname: mariadb-mytop,            name: "mytop-10.3" }
 - { setname: mariadb-mytop,            name: mytop-mainline-noconflict, addflavor: true }
-- { setname: master-pdf-editor,        name: [masterpdfeditor,masterpdfeditor4] }
+- { setname: master-pdf-editor,        name: [masterpdfeditor,masterpdfeditor4,master-pdf-editor5] }
+- { setname: master-pdf-editor,        name: masterpdfeditor-free, legacy: true }
 - { setname: master-pdf-editor,        name: masterpdfeditor-qt4, addflavor: qt4 }
 - { setname: mastodon,                 name: mastodon-docker, addflavor: docker }
 - { setname: mate-applets,             name: mate-applets-dev, weak_devel: true }
