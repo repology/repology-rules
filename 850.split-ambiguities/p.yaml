@@ -18,6 +18,8 @@
 - { name: pcl, wwwpart: xmailserver, setname: pcl-coroutines }
 - { name: pcl, summpart: cloud, setname: pcl-pointclouds }
 - { name: pcl, wwwpart: pointcloud, setname: pcl-pointclouds }
+- { name: pcl, verpat: "[0-9]+(\\.[0-9]+)", setname: pcl-coroutines }
+- { name: pcl, verpat: "[0-9]+(\\.[0-9]+){2}", setname: pcl-pointclouds }
 - { name: pcl, warning: "please classify me" }
 
 - { name: perl, wwwpart: strawberry, setname: strawberryperl }
