@@ -14,6 +14,12 @@
 - { name: pacman, ver: "10", setname: pacman10 } # origin unknown
 - { name: pacman, ver: "1.002", setname: pacman1.002 } # origin unknown
 
+- { name: pcl, summpart: coroutine, setname: pcl-coroutines }
+- { name: pcl, wwwpart: xmailserver, setname: pcl-coroutines }
+- { name: pcl, summpart: cloud, setname: pcl-pointclouds }
+- { name: pcl, wwwpart: pointcloud, setname: pcl-pointclouds }
+- { name: pcl, warning: "please classify me" }
+
 - { name: perl, wwwpart: strawberry, setname: strawberryperl }
 
 - { name: pg-top, wwwpart: cpan, setname: "perl:pgtop" }

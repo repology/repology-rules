@@ -32,6 +32,7 @@
 - { setname: payara,                   namepat: "payara[0-9]+" }
 - { setname: payara,                   name: payara5-micro, addflavor: micro }
 - { setname: pcg-c,                    name: [pcg,libpcg] }
+- { setname: pcl,                      name: [libpcl,libpcl1,pcl-pointclouds,pcllib] }
 - { setname: pcmanx,                   name: [pcmanx-gtk2, pcmanx-gtk3], addflavor: true }
 - { setname: pcre++,                   name: [libpcre++,pcrexx] }
 - { setname: pcre,                     name: [pcre-static,pcre-cpp] }
