@@ -1,7 +1,10 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { setname: "gimp:lqr-plugin",        name: [gimp-liquid-rescale,gimp-lqr,lqr-plugin,"gimp:lqr"] }
-- { setname: "gimp:lensfun",           name: [gimplensfun,"gimp:gimplensfun"] }
+# See also 980 ruleset - colons are removed later, but do use them here
+
 - { setname: "gimp:focusblur",         name: focusblur }
+- { setname: "gimp:lensfun",           name: [gimplensfun,"gimp:gimplensfun"] }
+- { setname: "gimp:lqr-plugin",        name: [gimp-liquid-rescale,gimp-lqr,lqr-plugin,"gimp:lqr"] }
 - { setname: "gimp:resynthesizer",     name: "gimp:resynthesizer-git", weak_devel: true }
 - { setname: "gimp:resynthesizer",     name: resynthesizer }
+- { setname: "gimp:save-for-web",       name: "gimp:saveforweb" }
