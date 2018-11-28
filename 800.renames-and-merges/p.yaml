@@ -53,7 +53,9 @@
 - { setname: pg-dirtyread,             namepat: "(postgresql[0-9.-]*)-pg-dirtyread", addflavor: $1 }
 - { setname: pg-repack,                namepat: "(postgresql[0-9.-]*)-pg-repack", addflavor: $1 }
 - { setname: pgadmin3,                 name: pgadmin3-lts }
+- { setname: pgadmin3,                 name: pgadmin3-lts }
 - { setname: pgadmin3,                 name: pgadmin3-testing, ignore: true }
+- { setname: pgagent,                  namepat: "postgresql[0-9.-]*pgagent" }
 - { setname: pgcli,                    name: "python:pgcli" }
 - { setname: pglogical,                name: [postgresql-pglogical,pglogical2] }
 - { setname: pgplot,                   name: pgplot5 }

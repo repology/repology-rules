@@ -26,6 +26,10 @@
 
 - { name: pg-top, wwwpart: cpan, setname: "perl:pgtop" }
 
+- { name: pgadmin, verpat: "2\\..*", ruleset: aosc, setname: pgadmin4 }
+- { name: pgadmin, verpat: "1\\..*", ruleset: slitaz, setname: pgadmin3 }
+- { name: pgadmin, warning: "please classify me" }
+
 - { name: pgf, wwwpart: libpgf, setname: libpgf }
 
 # https://github.com/PHPOffice/PHPExcel vs. https://github.com/iliaal/php_excel
