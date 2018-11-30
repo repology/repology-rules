@@ -76,6 +76,7 @@
 - { setname: chef-dk,                  name: chefdk }
 - { setname: chipmunk,                 name: [chipmunk6,chipmunkphysics,libchipmunk] }
 - { setname: chmlib,                   name: libchm }
+- { setname: chromaprint,              name: [chromaprint-fftw, chromaprint-tools, libchromaprint], addflavor: true }
 - { setname: chromium,                 name: [chromium-beta,chromium-dev,chromium-browser-dev], ignore: true }
 - { setname: chromium,                 name: [chromium-browser,chromium-browser-stable,chromium-stable] }
 - { setname: chromium,                 name: [chromium-gtk2], addflavor: true }
@@ -181,6 +182,7 @@
 - { setname: csvkit,                   name: "python:csvkit" }
 - { setname: ctags,                    name: [ectags,exctags,exuberant-ctags] } # exuberant and universal are split later
 - { setname: ctags,                    name: universal-ctags } # exuberant and universal are split later
+- { setname: ctemplate,                name: [google-ctemplate,libctemplate] }
 - { setname: ctpp2,                    name: ctpp }
 - { setname: ctypes.sh,                name: ctypes-sh }
 - { setname: cubosphere,               name: cubosphere-data, addflavor: data }

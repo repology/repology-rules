@@ -1,5 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: r,                        name: r-lang }
+- { setname: r,                        name: [r-base,r-mkl,r-minimal,librmath,rmath-standalone,r.latest,r.project], addflavor: true }
 - { setname: r3,                       name: libr3 }
 - { setname: rabbitmq-server,          name: rabbitmq }
 - { setname: racket,                   name: [minimal-racket,racket-minimal], addflavor: minimal }
