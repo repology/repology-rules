@@ -66,6 +66,7 @@ families = [
     'opensuse',
     'openwrt',
     'pclinuxos',
+    'pisi',
     'pkgsrc',
     'pld',
     'pypi',
