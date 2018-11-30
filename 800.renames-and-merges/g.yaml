@@ -65,6 +65,7 @@
 - { setname: ghc,                      name: haskell, ruleset: scoop }
 - { setname: ghostscript,              name: [ghostscript-agpl,ghostscript-gpl,ghostscript-mini,ghostscript-with-cups,ghostscript-with-x], addflavor: true }
 - { setname: ghostscript,              namepat: "ghostscript[0-9]+(-agpl)?(-base|-x11|-commfont|-jpnfont|-korfont)", addflavor: $1$2 } # FreeBSD mainly
+- { setname: ghostscript-fonts-std,    name: gnu-gs-fonts-std }
 - { setname: gifcurry,                 name: "haskell:gifcurry" }
 - { setname: giflib,                   name: gif, ruleset: ravenports }
 - { setname: giflib,                   name: giflib-util, addflavor: util }

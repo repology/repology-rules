@@ -13,8 +13,8 @@
 - { name: ne, wwwpart: wordprocessing/unix/ne, setname: ne-cam }
 
 - { name: netcat, verpat: "0\\..*", setname: gnu-netcat }
+- { name: netcat, verpat: "1\\.[0-9]{2,3}", verge: "1.80", setname: netcat-openbsd }
 - { name: netcat, verpat: "1\\.[0-9]{2}", setname: netcat-traditional }
-- { name: netcat, verpat: "1\\.[0-9]{3}", setname: netcat-openbsd }
 - { name: netcat, warning: "please classify me" }
 
 - { name: newsbeuter, wwwpart: newsboat, setname: newsboat } # XXX: problem; newsboat is a fork of newsbeuter, package should be renamed

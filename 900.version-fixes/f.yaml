@@ -3,6 +3,8 @@
 - { name: f3,                          verpat: ".*unstable",                               ignore: true } # nix garbage
 - { name: faifa,                       verpat: ".*svn.*",            ruleset: debuntu,     ignore: true }
 - { name: fairymax,                    verpat: ".*20[0-9]{6}.*",                           ignore: true }
+- { name: falkon,                      ver: "3.1.0",                 ruleset: pisi,        incorrect: true }
+- { name: falkon,                                                    ruleset: pisi,        untrusted: true } # accused of fake 3.1.0
 - { name: fann,                        verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: fatrat,                      verlonger: 3,                 ruleset: kaos,        ignore: true }
 - { name: fcron,                       ver: "3.3.0",                                       devel: true } # http://fcron.free.fr/
@@ -45,6 +47,8 @@
 - { name: fltk,                        verpat: "2\\..*",                                   ignore: true } # snapshots
 - { name: flvstreamer,                 ver: "2.1.c.1",                                     setver: "2.1c1" }
 - { name: flvstreamer,                 ver: "2.1c",                                        setver: "2.1c0" }
+- { name: flvstreamer,                 ver: "2.1",                   ruleset: pisi,        incorrect: true } # 2.1c1
+- { name: flvstreamer,                                               ruleset: pisi,        untrusted: true } # accused of fake 2.1
 - { name: fontconfig,                  verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: "fonts:allerta",                                                                 noscheme: true }
 - { name: "fonts:cardo",               ver: "1.045",                 ruleset: [sisyphus,fedora], incorrect: true }
@@ -86,6 +90,7 @@
 - { name: freeimage,                   verge: "3.93",                                      incorrect: true }
 - { name: freeminer,                   verlonger: 4,                 ruleset: fdroid,      ignore: true }
 - { name: freeorion,                   verpat: ".*r.*",                                    devel: true }
+- { name: freerdp,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: freerdp,                     ver: "2.0.0",                 ruleset: [sisyphus,fedora,rosa], incorrect: true } # it's -rc[01] ATOW
 - { name: freerdp,                                                   ruleset: [sisyphus,fedora,rosa], untrusted: true }
 - { name: freetds,                     verge: "1.0.300",                                   devel: true, maintenance: true } # http://www.freetds.org/files/stable/ http://www.freetds.org/files/current/; not sure where the divide really is

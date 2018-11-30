@@ -59,6 +59,7 @@
 - { name: "perl:speech-recognizer-spx", verge: "0.80",                                     incorrect: true }
 - { name: "perl:sphinx-search",        verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:spreadsheet-parseexcel", verpat: "0\\.[0-9]{4}",                           incorrect: true }
+- { name: "perl:super",                verpat: "20[0-9]{6}",                               incorrect: true } # it's 1.YYYYMMDD, pisi fake
 - { name: "perl:test-differences",     verpat: "0\\.[0-9]{3,}",                            ignore: true }
 - { name: "perl:test-exception",       ver: [ "0.430000", "0.400", "0.320" ],              ignore: true }
 - { name: "perl:test-exception",       verpat: "0\\.[0-9]{3,}",                            ignore: true }

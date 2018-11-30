@@ -103,7 +103,9 @@
 - { name: atkmm,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: atril,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: attr,                        verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: audex,                       ver: "0.95",                  ruleset: pisi,        snapshot: true }
 - { name: audiocd-kio,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: aufs-util,                                                                       noscheme: true }
 - { name: autoconf,                    ver: "2.13.000227",                                 ignore: true }
 - { name: autoconf-archive,            verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" }
 - { name: autodia,                     verpat: "2\\.[0-9]{3}.*",                           incorrect: true } # perl versioning issues

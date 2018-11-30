@@ -15,6 +15,7 @@
 - { name: qimageblitz,                 verlonger: 3,                                       incorrect: true }
 - { name: qjson,                       ver: "1.0.0",                 ruleset: openmandriva, incorrect: true }
 - { name: qjson,                                                     ruleset: openmandriva, untrusted: true }
+- { name: qjson,                                                     ruleset: pisi,        untrusted: true } # repacked, accused of fake 0.82
 - { name: qlipper,                     verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: qpdfview,                    ver: "0.4.17",                                      incorrect: true } # skipped upstream
 - { name: qpdfview,                    ver: "0.4.16.80",                                   incorrect: true } # fake
@@ -26,6 +27,7 @@
 - { name: qt5-webkit,                                                ruleset: [fedora,sisyphus], untrusted: true } # lie, it's 5.212.0alpha2
 - { name: qtemu,                       ver: "2.0",                   ruleset: sisyphus,    incorrect: true } # 2.0alpha1
 - { name: qtemu,                                                     ruleset: sisyphus,    untrusted: true }
+- { name: qtermwidget,                 verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: qtox,                        verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: qtox,                        verpat: "2017.*",                                   outdated: true } # 1.15 from 2018
 - { name: quadra,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }

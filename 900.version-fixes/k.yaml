@@ -36,8 +36,11 @@
 - { name: kdepim-addons,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdepim-apps-libs,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdepim-runtime,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdepimlibs,                                                ruleset: pisi,        untrusted: true } # repackaged, fake version
 - { name: kdesdk-kioslaves,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdesdk-thumbnailers,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdgantt2,                    ver: "16.12.0",               ruleset: pisi,        incorrect: true }
+- { name: kdgantt2,                                                  ruleset: pisi,        untrusted: true } # accused of fake 16.12.0
 - { name: kdialog,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdiff3,                      verpat: "1\\.7\\.0-[0-8a-f]{7}.*",                  ignore: true } # nix snapshot
 - { name: kdiff3,                      verpat: ".*201[789].*",                             ignore: true } # nix snapshot
@@ -97,6 +100,8 @@
 - { name: konsole,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kontact,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kontactinterface,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: konversation,                ver: "18.08.3",              ruleset: pisi,         incorrect: true }
+- { name: konversation,                                             ruleset: pisi,         untrusted: true } # accused of fake 18.08.3
 - { name: kopete,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: korganizer,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kpat,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

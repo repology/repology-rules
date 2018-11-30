@@ -1,5 +1,10 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: kaptan, ruleset: kaos, setname: kaptan-kaos } # forked from pisi
+- { name: kaptan, ruleset: pisi, setname: kaptan-pisi }
+- { name: kaptan, wwwpart: github.com/emre/kaptan, setname: "python:kaptan" }
+- { name: kaptan, warning: "please classify me" }
+
 - { name: kcc, wwwpart: ciromattia, setname: kcc-kindle-comic-converter }
 # otherwise kanji code converter
 

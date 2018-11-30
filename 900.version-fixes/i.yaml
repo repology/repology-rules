@@ -18,6 +18,8 @@
 - { name: iftop,                       ver: "1.0",                   ruleset: [fedora,mageia,pld], incorrect: true } # 1.0pre4
 - { name: iftop,                                                     ruleset: [fedora,mageia,pld], untrusted: true } # accused of fake 1.0
 - { name: iftop,                       ver: "0.99.4",                                      incorrect: true } # opensuse fake, 1.0pre4 actually
+- { name: iftop,                       ver: "1.0.4",                 ruleset: pisi,        incorrect: true } # 1.0pre4
+- { name: iftop,                                                     ruleset: pisi,        untrusted: true } # accused of fake 1.0.4
 - { name: iguanair,                    ver: "1.2.0",                 ruleset: pld,         incorrect: true }
 - { name: iguanair,                                                  ruleset: pld,         untrusted: true }
 - { name: ike-scan,                    verpat: ".*20[0-9]{6}",                             snapshot: true }

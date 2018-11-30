@@ -10,6 +10,8 @@
 - { name: dconf,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: dconf-editor,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ddate,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
+- { name: deadbeef,                    ver: "0.7.20",                ruleset: pisi,        incorrect: true }
+- { name: deadbeef,                                                  ruleset: pisi,        untrusted: true } # accused of fake 0.7.20
 - { name: dee-qt,                      verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: deepin-sound-theme,          ver: "17.07.31",              ruleset: pardus,      ignore: true }
 - { name: deepin-utils,                                                                    noscheme: true }
