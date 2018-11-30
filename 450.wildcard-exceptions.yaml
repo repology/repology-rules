@@ -62,6 +62,10 @@
 - { setname: pipo,                     name: pip, ruleset: arch }
 - { setname: pipo,                     name: pip, ruleset: gentoo, category: app-misc }
 
+- { addflag: not_r,                    name: r-base }
+- { addflag: not_r,                    name: r-minimal }
+- { addflag: not_r,                    name: r-mkl }
+
 - { setname: ruby,                     namepat: "ruby-?[0-9.]+" }
 - { setname: ruby,                     namepat: ruby-doc, addflavor: doc }
 
