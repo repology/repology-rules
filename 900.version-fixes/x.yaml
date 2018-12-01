@@ -41,7 +41,8 @@
 - { name: xmltoman,                    verge: "0.5",                                       successor: true }
 - { name: xmms2,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: xmms2,                       verpat: ".*DrO.*",                                  ignore: true } # ?!
-- { name: xmoto,                       ver: "0.5.12",                ruleset: [ rosa ],    incorrect: true } # no such version
+- { name: xmoto,                       ver: "0.5.12",                ruleset: [ pisi, rosa ], incorrect: true } # no such version
+- { name: xmoto,                                                     ruleset: [ pisi ],    untrusted: true } # bogus 0.5.12 "release" from svn
 - { name: xmove,                       ver: "2.0",                   ruleset: sisyphus,    incorrect: true } # it's 2.0beta2
 - { name: xmove,                                                     ruleset: sisyphus,    untrusted: true }
 - { name: xmrig,                       ver: "2.6.0",                 ruleset: [sisyphus,aur], incorrect: true } # beta3
