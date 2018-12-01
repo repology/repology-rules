@@ -44,6 +44,7 @@
 - { name: lpc21isp,                    verpat: "[0-9]{3}",                                 incorrect: true } # it's 1.97, not 197
 - { name: lprof,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: lrzsz,                       verge: "0.12.21",                                   successor: true } # debian fork? (needs investigation)
+- { name: lskat,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: lshw,                                                                            incorrect: true } # quirky schema
 - { name: lshw,                        verpat: "B(\\.[0-9]+)+",                            incorrect: false }
 - { name: lshw,                        verpat: "[0-9]+\\.[0-9]+",                          setver: B.$0, incorrect: false } # XXX: problem
