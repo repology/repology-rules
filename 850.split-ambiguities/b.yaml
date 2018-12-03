@@ -3,6 +3,9 @@
 # mail client vs. asynchronous synthesis system
 - { name: balsa, category: sci-electronics,               setname: balsa-synthesis }
 
+- { name: baselayout, ruleset: pisi, setname: baselayout-pisi }
+- { name: baselayout, ruleset: gentoo, setname: baselayout-gentoo }
+
 - { name: bandcamp-dl, wwwpart: bandcamp-downloader,      setname: bandcamp-downloader }
 
 # http://www.theiling.de/projects/bar.html vs http://clpbar.sourceforge.net
