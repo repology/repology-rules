@@ -55,6 +55,8 @@
 - { setname: iozone,                   name: [iozone21, iozone3] }
 - { setname: ipcalc,                   name: gnu-ipcalc } # freebsd - no relation to gnu actually
 - { setname: iperf,                    name: [iperf2,iperf3] }
+- { setname: ipfs,                     name: ["go:ipfs",ipfs-go] }
+- { setname: ipfs,                     name: "go:ipfs-bin", addflavor: bin }
 - { setname: ipopt,                    name: coin-or-ipopt }
 - { setname: iproute2,                 name: iproute2-cake, addflavor: cake }
 - { setname: iproute2,                 name: iproute2-doc, addflavor: doc }
