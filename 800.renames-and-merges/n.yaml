@@ -23,6 +23,8 @@
 - { setname: netcdf-cxx,               namepat: "netcdf-cxx(?:[0-9.-]*)(-gnu.*hpc)?", addflavor: $1 }
 - { setname: netcdf-cxx,               name: netcdf-cxx-legacy }
 - { setname: netcdf-fortran,           namepat: "netcdf-fortran(?:[0-9.-]*)(-gnu.*hpc)?", addflavor: $1 }
+- { setname: netgen,                   name: netgen-mesher }
+- { setname: netgen,                   name: netgen-nogui-occ7, addflavor: true }
 - { setname: nethack,                  name: [nethack-all,nethack-lib,nethack-patch,nethack-qt,nethack-tty,nethack-x11] }
 - { setname: nethack,                  namepat: "nethack[.-]*(?:[23][0-9.-]*)?" }
 - { setname: netkit-telnet,            name: netkit-telnetd, addflavor: telnetd }

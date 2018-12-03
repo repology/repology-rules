@@ -17,6 +17,14 @@
 - { name: netcat, verpat: "1\\.[0-9]{2}", setname: netcat-traditional }
 - { name: netcat, warning: "please classify me" }
 
+- { name: netgen, wwwpart: netgen-mesher, setname: netgen-mesher }
+- { name: netgen, wwwpart: hpfem.jku.at/netgen, setname: netgen-mesher }
+- { name: netgen, wwwpart: ngsolve, setname: netgen-mesher }
+- { name: netgen, summpart: mesh, setname: netgen-mesher }
+- { name: netgen, wwwpart: opencircuitdesign.com, setname: netgen-lvs }
+- { name: netgen, summpart: vlsi, setname: netgen-lvs }
+- { name: netgen, warning: "please classify me" }
+
 - { name: newsbeuter, wwwpart: newsboat, setname: newsboat } # XXX: problem; newsboat is a fork of newsbeuter, package should be renamed
 
 - { name: nightfall, wwwpart: kpcyrd, setname: nightfall-kpcyrd } # othewise astronomical app
