@@ -1,5 +1,9 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: ecm, wwwpart: ecm.gforge.inria.fr, setname: gmp-ecm }
+- { name: ecm, summpart: "elliptic curve", setname: gmp-ecm }
+- { name: ecm, summpart: cmake, setname: extra-cmake-modules }
+
 - { name: elm, wwwpart: instinct.org, setname: elm-mua }
 - { name: elm, ruleset: openbsd, setname: elm-mua }
 - { name: elm, wwwpart: elm-lang, setname: elm-lang }
