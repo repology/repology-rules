@@ -108,6 +108,8 @@
 - { name: kpimtextedit,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kqlives,                     verpat: "20[0-9]{6}",                               ignore: true }
 - { name: krank,                       verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: krb5,                        ver: "1.17",                  ruleset: fedora,      incorrect: true } # beta1
+- { name: krb5,                                                      ruleset: fedora,      untrusted: true } # accused of fake 1.17
 - { name: krdc,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: krename,                     verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: krfb,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
