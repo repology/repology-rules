@@ -48,9 +48,10 @@
 - { setname: insighttoolkit,           namepat: "insight-?toolkit[0-9]*" }
 - { setname: intel-microcode,          name: [microcode-intel,microcode-data-intel,intel-microcode-netbsd] }
 - { setname: intel-microcode,          name: microcode, ruleset: [mageia,rosa] } # limit family for safely
-- { setname: intellij-idea-community,  name: [intellij-idea-ce,idea-community,intellij-idea-community-edition,intellij] }
+- { setname: intellij-idea-community,  name: [intellij-idea-ce,idea-community,intellij-idea-community-edition,intellij,intellijidea-community] }
+- { setname: intellij-idea-community,  name: [intellij-idea-community-edition-jre,intellij-idea-community-edition-no-jre], addflavor: true }
 - { setname: intellij-idea-community,  name: intellij-idea-ce-eap, ignore: true }
-- { setname: intellij-idea-ultimate,   name: [idea-ultimate,intellij-idea-ultimate-edition,intellij-idea-ue-bundled-jre,intellij-ultimate] }
+- { setname: intellij-idea-ultimate,   name: [idea-ultimate,intellij-idea-ultimate-edition,intellij-idea-ue-bundled-jre,intellij-ultimate,intellijidea-ultimate] }
 - { setname: intellij-idea-ultimate,   name: intellij-idea-ue-eap, ignore: true }
 - { setname: iozone,                   name: [iozone21, iozone3] }
 - { setname: ipcalc,                   name: gnu-ipcalc } # freebsd - no relation to gnu actually

@@ -1,5 +1,9 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: idea, wwwpart: de-moliner.ch, setname: idea-crypt }
+- { name: idea, wwwpart: jetbrains, setname: intellij-idea-community }
+- { name: idea, warning: "please classify me" }
+
 # distributed compiler vs. stream download utility
 - { name: icecream,                    setname: icecream-distributed-compiler, verpat: "1\\.[01].*" }
 - { name: icecream,                    setname: icecream-stream-extractor,     ver: "1.3" }
