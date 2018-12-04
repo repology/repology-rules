@@ -25,6 +25,7 @@
 - { name: "python:pycrypto",           verpat: "3.*",                ruleset: nix,         setname: "python:pycryptodome" } # different package XXX: problem
 - { name: "python:pygpgme",            ver: "0.3.1",                 ruleset: alpine,      incorrect: true }
 - { name: "python:pyode",              verpat: ".*2010.*",                                 ignore: true }
+- { name: "python:pyparsing",          verpat: ".*test.*",           ruleset: opensuse,    incorrect: true } # fake
 - { name: "python:pyside",             ver: "2.0.0",                 ruleset: kaos,        incorrect: true }
 - { name: "python:pyside",             verpat: "4\\.[0-9]+_.*",                            incorrect: true } # pld
 - { name: "python:pyspatialite",       ver: "3.0.1",                 noruleset: pypi,      incorrect: true } # it's 3.0.1-alpha-0
