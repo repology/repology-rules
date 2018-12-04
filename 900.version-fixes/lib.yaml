@@ -103,7 +103,11 @@
 - { name: libsearpc,                                                 ruleset: openwrt,     untrusted: true }
 - { name: libsecp256k1,                                                                    noscheme: true }
 - { name: libskk,                      ver: "1.2.0",                 ruleset: opensuse,    incorrect: true }
-- { name: libsndfile,                  ver: "1.0.29",                ruleset: vcpkg,       ignore: true }
+- { name: libskk,                                                    ruleset: opensuse,    untrusted: true } # accused of fake 1.2.0
+- { name: libsndfile,                  ver: "1.0.29",                ruleset: vcpkg,       incorrect: true }
+- { name: libsndfile,                                                ruleset: vcpkg,       untrusted: true } # accused of fake 1.0.29
+- { name: libsndfile,                  ver: "2018b4",                ruleset: openwrt,     incorrect: true }
+- { name: libsndfile,                                                ruleset: openwrt,     untrusted: true } # accused of fake 2018b4
 - { name: libsoil,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: libsoup,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libspiro,                    verpat: "20[0-9]{6}",                               incorrect: true} # it's 0.5.20150702; XXX: problem
