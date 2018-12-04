@@ -239,6 +239,7 @@
 - { setname: "python:pyxdg",           name: pyxdg }
 - { setname: "python:pyyaml",          name: [pypy-yaml,pypy3-yaml], addflavor: pypy } # XXX: global rule for pypy-*?
 - { setname: "python:pyyaml",          name: [pyyaml,"python:yaml"] }
+- { setname: "python:qt.py",           name: "python:qt-py" }
 - { setname: "python:rabbyt",          name: rabbyt }
 - { setname: "python:rawkit",          name: rawkit }
 - { setname: "python:readlike",        name: readlike }
