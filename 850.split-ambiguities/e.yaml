@@ -1,8 +1,11 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
-- { name: ecm, wwwpart: ecm.gforge.inria.fr, setname: gmp-ecm }
+- { name: ecm, wwwpart: gforge.inria.fr, setname: gmp-ecm }
 - { name: ecm, summpart: "elliptic curve", setname: gmp-ecm }
 - { name: ecm, summpart: cmake, setname: extra-cmake-modules }
+- { name: ecm, wwwpart: neillcorlett, setname: cmdpack } # merged into
+- { name: ecm, summpart: "cd image", setname: cmdpack } # merged into
+- { name: ecm, warning: "please classify me" }
 
 - { name: elm, wwwpart: instinct.org, setname: elm-mua }
 - { name: elm, ruleset: openbsd, setname: elm-mua }
