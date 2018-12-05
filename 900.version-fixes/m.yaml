@@ -76,6 +76,7 @@
 - { name: minio-mc,                    verpat: "[0-9]{4}([.-][0-9]{2}){2}",                incorrect: true } # datetime, not date
 - { name: minio-mc,                    verpat: "([0-9]{4})[.-]([0-9]{2})[.-]([0-9]{2})[.-]([0-9]{2})[.-]([0-9]{2})[.-]([0-9]{2})", setver: $1-$2-$3T$4-$5-$6Z }
 - { name: miniupnpd,                   verpat: "[0-9]+\\.[0-9]+\\.20[0-9]{6}",             devel: true }
+- { name: minuet,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mixxx,                       verpat: "2\\.1\\.[0-9]+",     ruleset: [aosc,fedora,kaos], incorrect: true } # actually unitedrpms, but knowing fedora I won't trust it whole
 - { name: mixxx,                                                     ruleset: [aosc,fedora,kaos], untrusted: true }
 - { name: mkgmap,                      verpat: "0\\.0\\.0svn([0-9]{4,})",                  setver: "r$1" }
