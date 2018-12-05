@@ -77,6 +77,7 @@
 - { setname: loudmouth,                name: loudmouth-ossl, addflavor: openssl }
 - { setname: love,                     namepat: "love(?:-legacy)?[0-9.-]+" }
 - { setname: lprof,                    name: lprof-devel, weak_devel: true }
+- { setname: lrslib,                   name: lrs }
 - { setname: lsof-freebsd,             name: lsof, ruleset: freebsd } # patched version with own versioning
 - { setname: lua,                      namepat: "(?:lib)?lua[0-9.-]*" }
 - { setname: luajit,                   name: [luajit-2.1,luajit2] }
