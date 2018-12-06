@@ -88,7 +88,8 @@
 - { setname: mdds,                     namepat: "mdds[0-9.-]+" }
 - { setname: meandmyshadow,            name: me-and-my-shadow }
 - { setname: meanwhile,                name: libmeanwhile }
-- { setname: med,                      name: medfile, addflavor: true }
+- { setname: med,                      name: [medfile,med-fichier,libmed] }
+- { setname: med,                      name: [med-openmpi,med-salome], addflavor: true }
 - { setname: mediainfo,                name: media-info }
 - { setname: mediainfo,                name: [mediainfo-gui,mediainfo-cli,mediainfo-gui-hv,mediainfocli,mediainfogui], addflavor: true }
 - { setname: mediawiki,                name: mediawiki-lts }
