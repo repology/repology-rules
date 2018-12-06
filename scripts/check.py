@@ -83,6 +83,7 @@ families = [
     'snap',
     'termux',
     'vcpkg',
+    'void',
     'wikidata',
     'yacp',
 ]
