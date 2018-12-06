@@ -108,6 +108,8 @@
 - { setname: "python:mako",            name: "python:mako0.4" }
 - { setname: "python:markdown",        name: python-markdown }
 - { setname: "python:markupsafe",      name: markupsafe }
+- { setname: "python:matplotlib",      name: matplotlib }
+- { setname: "python:matplotlib",      name: ["python:matplotlib-documentation","python:matplotlib-gtk","python:matplotlib-noqt","python:matplotlib-tk"], addflavor: true }
 - { setname: "python:mdp",             name: "python:mdp-toolkit" }
 - { setname: "python:mdtraj",          name: mdtraj }
 - { setname: "python:meld3",           name: meld3 }
