@@ -8,10 +8,12 @@
 - { setname: "ocaml:opam-file-format", name: opam-file-format }
 - { setname: octave,                   namepat: "octave[0-9.-]+" }
 - { setname: octopi,                   name: [octopi-cachecleaner,octopi-debug,octopi-kde,octopi-notifier,octopi-notifier-frameworks,octopi-notifier-noknotify,octopi-notifier-qt5,octopi-pacmanhelper,octopi-repoeditor], addflavor: true }
+- { setname: ode,                      name: [libode,open-dynamics-engine,ode-011] }
+- { setname: ode,                      name: ode-python-bindings, addflavor: true }
 - { setname: odoo,                     namepat: "odoo[0-9.-]+" }
 - { setname: offlinemsmtp,             name: "python:offlinemsmtp" }
 - { setname: ogre,                     name: [ogre-docs,ogre-samples], addflavor: true }
-- { setname: ogre,                     name: ogre3d }
+- { setname: ogre,                     name: [ogre3d,libogre] }
 - { setname: ogre,                     namepat: "ogre[0-9.-]+" }
 - { setname: olm,                      name: libolm }
 - { setname: ombi,                     name: [ombi-beta,ombi-dev] }
@@ -23,6 +25,7 @@
 - { setname: opaline,                  name: "ocaml:opaline" }
 - { setname: opam,                     name: ["ocaml:opam",opam2] }
 - { setname: open-vm-tools,            name: [open-vm-tools-dkms,open-vm-tools-lts-trusty], addflavor: true }
+- { setname: openal,                   name: libopenal }
 - { setname: openal,                   name: [openal-static,openal-examples], addflavor: true }
 - { setname: openbabel,                name: open-babel }
 - { setname: openblas,                 name: [openblas-lapack,openblas-lapack-ilp64] }

@@ -3,6 +3,7 @@
 - { setname: c++-gtk-utils,            name: cxx-gtk-utils }
 - { setname: c++-gtk-utils,            name: c++-gtk-utils-gtk2, addflavor: gtk2 }
 - { setname: c-ares,                   name: [libcares,libcares2] }
+- { setname: c-lolcat,                 name: lolcat-c } # as per PKGBUILD from upstrema repo
 - { setname: cacti-spine,              name: cacti-cactid } # cactid renamed to spine upstream
 - { setname: caddy,                    name: [caddy-full,caddy-with-cgi,caddy-no-telemetry], addflavor: true }
 - { setname: cairo-clock,              name: cairo-clock-ccw }
@@ -51,8 +52,7 @@
 - { setname: cef,                      name: [cef-minimal,cef-standard], addflavor: true }
 - { setname: cegui,                    name: [cegui-mk2, cegui-mk-2] }
 - { setname: cegui,                    namepat: "cegui[0-9.-]+" }
-- { setname: celestia,                 name: celestia-nonfree, addflavor: nonfree }
-- { setname: celestia,                 namepat: "celestia-.*", ruleset: freebsd } # merges glut/gnome/gtk, just GUI variants
+- { setname: celestia,                 name: [celestia-gtk,celestia-gnome,celestia-glut,celestia-nonfree], addflavor: true }
 - { setname: celt,                     namepat: "(?:lib)?celt[0-9.-]*" }
 - { setname: centerim,                 name: [center-im,centerim5] }
 - { setname: centerim,                 name: centerim-devel, weak_devel: true }
@@ -161,6 +161,7 @@
 - { setname: cppcheck,                 name: [cppcheck-nox,cppcheck-gui] }
 - { setname: cpprestsdk,               name: [cpprest,casablanca] }
 - { setname: cpptest,                  name: libcpptest }
+- { setname: cppunit,                  name: libcppunit }
 - { setname: cqrlog,                   name: [cqrlog-gtk2,cqrlog-qt4,cqrlog-source], addflavor: true }
 - { setname: cracklib,                 name: cracklib2 }
 - { setname: crashplan,                name: linux-crashplan, ruleset: freebsd }

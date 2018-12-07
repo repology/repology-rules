@@ -17,6 +17,7 @@
 - { name: unicode-ucd,                 verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: uniconvertor,                ver: "2.0",                   ruleset: rosa,        incorrect: true } # not yet released
 - { name: unison,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # XXX: assumed, not confirmed; http://www.cis.upenn.edu/~bcpierce/unison/download.html
+- { name: unixbench,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: unnethack,                   ver: "5.3.1",                 ruleset: nix,         incorrect: true }
 - { name: unnethack,                                                 ruleset: nix,         untrusted: true }
 - { name: unpaper,                     verpat: "20[0-9]{6}.*",                             snapshot: true } # aosc

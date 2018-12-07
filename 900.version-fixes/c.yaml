@@ -117,6 +117,7 @@
 - { name: crossguid,                   ver: "1.0.0",                 ruleset: openindiana, incorrect: true }
 - { name: cryptcat,                    ver: "20031202",                                    ignore: true }
 - { name: crypthook,                                                                       noscheme: true }
+- { name: crypto++,                    verpat: "[0-9]{3}",                                 incorrect: true }
 - { name: csync,                       ver: ["0.50.6","0.50.8"],     ruleset: [sisyphus, slitaz], incorrect: true }
 - { name: cup,                         verpat: "11.*",                                     incorrect: true } # 0.11b
 - { name: cura,                        verpat: "1[45].*",                                  outdated: true }

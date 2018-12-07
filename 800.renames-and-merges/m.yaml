@@ -75,6 +75,9 @@
 - { setname: matio,                    name: libmatio }
 - { setname: mattermost,               name: [mattermost-server, mattermost-webapp], addflavor: true }
 - { setname: matrix-synapse,           name: "python:matrix-synapse" }
+- { setname: maven,                    name: apache-maven }
+- { setname: maven,                    name: [apache-maven-bin,maven-bin], addflavor: bin }
+- { setname: maven,                    namepat: "maven[0-9]+(-core)?", addflavor: $1 }
 - { setname: maven-shell,              name: mvnsh }
 - { setname: mbedtls,                  name: mbedtls10 }
 - { setname: mbedtls,                  name: mbedtls-apache, addflavor: true }
@@ -124,6 +127,7 @@
 - { setname: minpack,                  name: libcminpack }
 - { setname: mirc,                     name: mirc6 }
 - { setname: mirrormagic,              name: mirrormagic-sdl }
+- { setname: mit-scheme,               name: [mit-scheme-bin,mit-scheme-c,mit-scheme-x11], addflavor: true } # mit-scheme-c was available with 9.x, but not 10.x releases
 - { setname: mixxx,                    name: [mixxx20,mixxx-1-11] }
 - { setname: mixxx,                    name: mixxx-unstable, weak_devel: true }
 - { setname: mixxx,                    name: mixxx-qt5, addflavor: true }
@@ -167,6 +171,7 @@
 - { setname: mx,                       name: libmx }
 - { setname: mxml,                     name: mxml-static, addflavor: true }
 - { setname: mygui,                    namepat: "mygui-(docs|dummy|gl|opengl|ogre[0-9.-]*)", addflavor: $1 }
+- { setname: mygui,                    name: libmygui }
 - { setname: mypy,                     name: "python:mypy" }
 - { setname: myrepos,                  name: mr }
 - { setname: mysql,                    namepat: "libmysqlclient[0-9.-]*" }

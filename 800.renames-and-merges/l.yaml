@@ -54,7 +54,8 @@
 - { setname: lilypond,                 name: lilypond-devel-docs, addflavor: docs, weak_devel: true }
 - { setname: lilypond,                 name: [lilypond-doc,lilypond-docs], addflavor: docs }
 - { setname: lilypond,                 name: lilypond-devel, weak_devel: true }
-- { setname: links,                    name: [links1,links2,links+,links-g-directfb,links-gui] }
+- { setname: links,                    name: [links1,links2,links+] }
+- { setname: links,                    name: [links-g-directfb,links-gui,links-x11,links-dfb], addflavor: true }
 - { setname: linux-firmware,           name: kernel-firmware }
 - { setname: linux-predator,           name: [linux-predator-docs,linux-predator-headers], addflavor: true }
 - { setname: lipsofsuna,               name: lips-of-suna }
@@ -78,6 +79,7 @@
 - { setname: love,                     namepat: "love(?:-legacy)?[0-9.-]+" }
 - { setname: lprof,                    name: lprof-devel, weak_devel: true }
 - { setname: lrslib,                   name: lrs }
+- { setname: ls++,                     name: ls++-git, weak_devel: true }
 - { setname: lsof-freebsd,             name: lsof, ruleset: freebsd } # patched version with own versioning
 - { setname: lua,                      namepat: "(?:lib)?lua[0-9.-]*" }
 - { setname: luajit,                   name: [luajit-2.1,luajit2] }

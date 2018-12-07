@@ -29,6 +29,7 @@
 - { setname: kobodeluxe,               name: skobo } # old name
 - { setname: koffice-l10n,             namepat: "koffice-l10n-.*", ruleset: pkgsrc }
 - { setname: kompozer-i18n,            namepat: "kompozer-i18n-.*", ruleset: arch }
+- { setname: kotlin,                   name: kotlin-bin, addflavor: true }
 - { setname: krb5,                     namepat: "krb5-[0-9]+" }
 - { setname: krb5,                     name: [libkrb5,krb5-mini], addflavor: true }
 - { setname: krb5,                     name: [mit-krb5,kerberos5,kerberos,mit-kerberos,mitkerberos] }

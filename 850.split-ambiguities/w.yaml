@@ -26,3 +26,5 @@
 - { name: words, ruleset: pclinuxos, setname: words-moby }
 - { name: words, ruleset: sisyphus, setname: words-ibiblio } # not sure what this is
 - { name: words, warning: "please classify me" }
+
+- { name: wpa, wwwpart: wpa_supplicant, setname: wpa-supplicant } # play it safe with essentially ambigous name

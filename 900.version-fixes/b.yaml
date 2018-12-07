@@ -42,6 +42,7 @@
 - { name: blackbox,                    verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: blas,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: blas,                        ver: "3.9.2",                 ruleset: sisyphus,    ignore: true } # totally fake
+- { name: bleachbit,                   ver: "2.1",                   ruleset: void,        incorrect: true }
 - { name: blender,                     verpat: "([0-9]+\\.[0-9]+)\\.([a-z])",              setver: "$1$2" } # it's e.g. 2.78c, not 2.78.c
 - { name: blinken,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: bloodfrontier,               ver: "0.85",                                        setver: b2 }
@@ -62,6 +63,7 @@
 - { name: brisk-menu,                  ver: "0.5.1",                 ruleset: freebsd,     incorrect: true } # fork and a new fake version for the sake of single commit
 - { name: brotli,                      verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: budgie-desktop,              verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: buffer,                      verpat: "20[0-9]{2}.*",                             snapshot: true } # latest 1.19, github fork w/o releases
 - { name: bully,                       verpat: "1\\.1.+",                                  ignore: true } # snapshots, latest is 1.1
 - { name: busybox,                     verpat: "[0-9]{4}.*",                               incorrect: true } # scoop
 - { name: byobu,                       ver: "5.126",                 ruleset: debuntu,     incorrect: true }

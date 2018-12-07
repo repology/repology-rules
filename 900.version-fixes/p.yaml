@@ -78,6 +78,7 @@
 - { name: povray,                      ver: "3.7.1",                 ruleset: pld,         incorrect: true }
 - { name: povray,                                                    ruleset: pld,         untrusted: true }
 - { name: powertop,                    verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
+- { name: pps-tools,                   verpat: ".*20[0-9]{6}.*",                           snapshot: true } # 1.0.2
 - { name: pragmarc,                                                                        noscheme: true }
 - { name: prboom-plus,                 verpat: ".*svn.*",                                  snapshot: true }
 - { name: print-manager,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

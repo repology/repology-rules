@@ -55,6 +55,9 @@
 - { setname: worldofpadman,            name: worldofpadman-beta, ignore: true }
 - { setname: wormsofprey,              name: wop }
 - { setname: wpa-supplicant,           name: wpasupplicant }
+- { setname: wpa-supplicant,           name: [wpa-gui, wpa-supplicant-gui], addflavor: gui }
+- { setname: wpa-supplicant,           name: wpa-supplicant-minimal, addflavor: true }
+- { setname: wpull,                    name: "python:wpull" }
 - { setname: wrogue,                   name: warp-rogue }
 - { setname: wxqt,                     namepat: "wxqt[0-9.-]+" }
 - { setname: wxsqlite3,                name: [libwxsqlite3,libwxsqlite3-wx3.0,wxsqlite3-2.8] }

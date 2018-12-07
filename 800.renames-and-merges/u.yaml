@@ -36,8 +36,8 @@
 - { setname: unrar,                    name: [libunrar,libunrar5] }
 - { setname: unreal-tournament,        name: [unrealtournament, unreal-tournament-goty] } # proprietary
 - { setname: unshield,                 name: libunshield }
-- { setname: upower,                   name: compat-upower09, disposable: true }
-- { setname: upower,                   name: upower-nocritical, addflavor: true }
+- { setname: upower,                   namepat: "(?:compat-)?upower[0-9]*" }
+- { setname: upower,                   name: [upower-nocritical,upower-pm-utils], addflavor: true }
 - { setname: uqm,                      name: [uqm-3domusic,uqm-content,uqm-voice], addflavor: true }
 - { setname: uriparser,                name: [liburiparser,liburiparser1], addflavor: lib }
 - { setname: usbip,                    name: usbip-legacy }

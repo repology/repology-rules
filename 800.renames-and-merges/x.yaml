@@ -9,6 +9,7 @@
 - { setname: x265,                     name: libx265 }
 - { setname: x2goclient,               name: x2goclient-qt5, addflavor: true }
 - { setname: x2vnc,                    name: x2vnc-no-xinerama, addflavor: true }
+- { setname: x2x,                      name: x2x-git, weak_devel: true }
 - { setname: x42-plugins,              name: [lv2-x42-plugins,x42-plugins-lv2] }
 - { setname: xa,                       name: xa65 }
 - { setname: xalan-c,                  name: [xalanc,xalan-c++] }
@@ -72,7 +73,7 @@
 - { setname: xmonad,                   name: "haskell:xmonad" }
 - { setname: xmoto,                    name: x-moto }
 - { setname: xmrig,                    name: xmrig-donateless, addflavor: donateless }
-- { setname: xonotic,                  name: xonotic-data, addflavor: true }
+- { setname: xonotic,                  name: [xonotic-data,xonotic-data-low], addflavor: true }
 - { setname: xorg-server$1,            namepat: "xorg-server[0-9.]+(-.+)?" } # XXX: should be before large xorg-server rule at the end
 - { setname: xorg-server$1,            namepat: "xorg-server(-.+)?-dev", ignore: true } # XXX: should be before large xorg-server rule at the end
 - { setname: xorg-server,              name: modular-xorg-server }

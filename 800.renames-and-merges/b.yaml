@@ -5,6 +5,7 @@
 - { setname: backintime,               name: [backintime-cli,backintime-common,backintime-qt4], addflavor: true }
 - { setname: backuppc,                 name: backuppc-devel, weak_devel: true }
 - { setname: backuppc,                 name: backuppc4 }
+- { setname: bacula,                   namepat: "bacula[0-9]*(-(?:bat|client|client-static|clientonly|common|doc|docs|fd|qt-console|server|tray-monitor|wx-console))?", addflavor: $1 }
 - { setname: badtouch,                 name: "rust:badtouch" }
 - { setname: bahn-regio-entfernungsrechner, name: bahn-regio-entfernungsrechner-latest }
 - { setname: bakery,                   name: bakery2.6 }
@@ -18,8 +19,10 @@
 - { setname: bash,                     name: bash-devel, weak_devel: true }
 - { setname: bash,                     name: bash-devel-static, weak_devel: true, addflavor: bash-static }
 - { setname: bash,                     namepat: "bash[0-9]+" }
+- { setname: batctl,                   name: batctl14 }
 - { setname: batman-adv,               name: [batman-adv-dkms,batman-adv-legacy-dkms], addflavor: dkms }
 - { setname: batman-adv,               name: batman-adv-optimized, addflavor: true }
+- { setname: batman-adv,               name: batman-adv14 }
 - { setname: battery-monitor,          name: battery-monitor-devel, weak_devel: true }
 - { setname: bats,                     name: [bats-core,bash-bats] }
 - { setname: bazel,                    name: bazel-clang38, addflavor: true }
@@ -126,6 +129,7 @@
 - { setname: bullet,                   name: libbullet }
 - { setname: burp,                     name: burp-backup }
 - { setname: burp,                     name: burp-backup-dev, untrusted: true }
+- { setname: burp,                     name: [burp-server,burp2-server], addflavor: server }
 - { setname: burritun,                 name: "rust:burritun" }
 - { setname: busybox,                  name: [busybox-custom,busybox-norootreboot,busybox-static,mdev,mkinitcpio-busybox], addflavor: true }
 - { setname: byaccj,                   name: byacc-j, ruleset: debuntu }

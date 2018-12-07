@@ -2,6 +2,7 @@
 
 - { setname: galactrum,                name: galactrum-qt, addflavor: qt }
 - { setname: galaxy-forces-v2,         name: ["galaxy forces v2", galaxy-forces, galaxyv2] }
+- { setname: galculator,               name: galculator-gtk3, addflavor: true }
 - { setname: gambas,                   name: [gambas2,gambas3] }
 - { setname: gambas,                   name: gambas3-devel, weak_devel: true }
 - { setname: gambas,                   namepat: "gambas3-(gb-.*)", addflavor: $1 }
@@ -27,7 +28,8 @@
 - { setname: gconf,                    name: gconf2 }
 - { setname: gconfmm,                  namepat: "(?:lib)?gconfmm[0-9.-]*(-docs)?", addflavor: $1 }
 - { setname: gd,                       name: [gd2, libgd, libgd2] }
-- { setname: gdal,                     name: [gdal1,gdal-curl,gdal-filegdb,gdal-lib,gdal-hdf4] }
+- { setname: gdal,                     name: [gdal1,libgdal] }
+- { setname: gdal,                     name: [gdal-curl,gdal-filegdb,gdal-lib,gdal-hdf4], addflavor: true }
 - { setname: gdal-grass,               name: libgdal-grass }
 - { setname: gdk-pixbuf,               namepat: "(?:lib)?gdk-pixbuf[0-9.-]*(\\+svg|-jasper|-xlib)?" }
 - { setname: gdl,                      namepat: "(?:lib)?gdl[0-9.-]*" }
@@ -273,6 +275,8 @@
 - { setname: grub,                     name: grub2 } # since grub legacy is obsoleted, just let grub2 eat it away
 - { setname: gsasl,                    name: gsasl-ntlm, addflavor: ntlm }
 - { setname: gsasl,                    name: libgsasl }
+- { setname: gscope,                   name: gscope3 }
+- { setname: gsimplecal,               name: [gsimplecal-gtk2,gsimplecal-gtk3,gsimplecal-lunar], addflavor: true }
 - { setname: gsl,                      name: gsl-doc, addflavor: doc }
 - { setname: gsm,                      name: libgsm }
 - { setname: gspell,                   name: libgspell }
@@ -285,6 +289,7 @@
 - { setname: gtest,                    name: [googletest,libgtest] }
 - { setname: gtk,                      namepat: "(?:lib)?gtk[0-9.+-]*(-reference)?", addflavor: $1 }
 - { setname: gtk-doc,                  name: gtk-doc-am, addflavor: am }
+- { setname: gtk-engines,              name: [gtk2-engines,gtk-engines2,gtk-engines-2] }
 - { setname: gtk-recordmydesktop,      name: recordmydesktop-gtk }
 - { setname: gtk-theme-arc-red,        name: arc-theme-red }
 - { setname: gtkdatabox,               name: libgtkdatabox }

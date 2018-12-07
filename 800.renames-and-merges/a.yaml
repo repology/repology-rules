@@ -93,6 +93,7 @@
 - { setname: anthy,                    name: libanthy }
 - { setname: antimicro,                name: antimicro-qt4 }
 - { setname: antlr,                    namepat: "antlr[0-9.]+" }
+- { setname: antlr,                    name: antlr3-bin, addflavor: bin }
 - { setname: apache,                   name: [apache-httpd,httpd] }
 - { setname: apache,                   name: [apache-tools, apache-doc, apache-html-manual, htdigest], addflavor: true }
 - { setname: apache,                   namepat: "apache[0-9.]+" }
@@ -108,6 +109,7 @@
 - { setname: aptana-studio,            name: aptanastudio }
 - { setname: aqbanking,                namepat: "(?:lib)?aqbanking[0-9]*(-(?:gtk)[0-9]*)?", addflavor: $1 }
 - { setname: aqbanking,                namepat: "(?:lib)?aqbanking[0-9]*(-(?:gtk)[0-9]*)?(?:-svn|-devel)", addflavor: $1, weak_devel: true }
+- { setname: arcan,                    name: [acfgfs,aclip,aloadimage,arcan-aclip,arcan-aloadimage,arcan-waybridge,arcan-wayland], addflavor: true }
 - { setname: arcanist,                 name: "php:arcanist" }
 - { setname: archipel-agents,          namepat: "archipel-agent-.*", ruleset: debuntu }
 - { setname: archiva,                  name: apache-archiva }
@@ -184,6 +186,7 @@
 - { setname: autopep8,                 name: "python:autopep8" }
 - { setname: autotools,                name: autotools-dev, ignore: true }
 - { setname: autotools,                name: autotools-wrappers } # ravenports
+- { setname: avahi,                    name: [avahi-base,avahi-discover,avahi-libs,"python:avahi"], addflavor: true }
 - { setname: avahi,                    name: avahi-libs }
 - { setname: avidemux,                 name: [avidemux2.6,avidemux3] }
 - { setname: avidemux,                 name: [avidemux-cli,avidemux-core,avidemux-plugins,avidemux-qt,avidemux-qt4], addflavor: true }
