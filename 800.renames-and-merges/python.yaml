@@ -263,6 +263,8 @@
 - { setname: "python:scikits.samplerate", name: "python:scikits-samplerate" }
 - { setname: "python:scikits.talkbox", name: "python:scikits-talkbox" }
 - { setname: "python:scikits.timeseries", name: ["python:scikits-timeseries",scikits-timeseries] }
+- { setname: "python:scipy",           name: [scipy,scipy3] }
+- { setname: "python:scipy",           name: ["python:scipy-doc","python:scipy-mkl","python:scipy-openblas"], addflavor: true }
 - { setname: "python:setuptools-scm",  name: setuptools-scm }
 - { setname: "python:setuptools-scm-git-archive",  name: setuptools-scm-git-archive }
 - { setname: "python:shutilwhich",     name: shutilwhich }
