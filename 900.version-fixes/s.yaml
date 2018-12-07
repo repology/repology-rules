@@ -20,6 +20,8 @@
 - { name: scim-input-pad,              verpat: ".*20[0-9]{6}",                             snapshot: true } # opensuse
 - { name: scite,                       verpat: "[0-9]{3}",                                 incorrect: true } # pclinuxos; it's x.y.z
 - { name: screengen,                   ver: "1.10",                                        devel: true } # https://github.com/OlegKochkin/screengen/blob/master/src/build_number.h -> no tags, but current devel version
+- { name: scribus,                     ver: "1.5.5",                 ruleset: sisyphus,    incorrect: true }
+- { name: scribus,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 1.5.5
 - { name: scrot,                       verpat: "0\\.8[.+-].*",                             ignore: true } # debian fakes
 - { name: sddm,                        verpat: "[0-9]{4,}.*",        ruleset: kaos,        ignore: true } # snapshot with random version
 - { name: sdl2-image,                  ver: "2.1.0",                 ruleset: pisi,        incorrect: true }
