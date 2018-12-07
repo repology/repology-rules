@@ -148,6 +148,8 @@
 - { setname: compizconfig-python,      name: "python:compizconfig-python" }
 - { setname: complexity,               name: gnu-complexity }
 - { setname: conda,                    name: "python:conda" }
+- { setname: conky,                    name: [conky-all,conky-audacious,conky-awesome,conky-cairo,conky-cli,conky-lua,conky-lua-archers,conky-lua-nv,conky-mt,conky-nvidia,conky-utfscroll], addflavor: true }
+- { setname: conky,                    name: conky19-lua-nv, addflavor: lua-nv }
 - { setname: conky-manager,            name: conky-manager2 }
 - { setname: conserver,                name: conserver8 }
 - { setname: conntrack-tools,          name: conntrack }
