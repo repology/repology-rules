@@ -83,11 +83,13 @@
 - { setname: tintin++,                 name: tintin-debug, addflavor: true }
 - { setname: tk,                       namepat: "tk8[0-9.-]+" } # don't mix with tk2, tk5, tk707 which are unrelated projects
 - { setname: tkimg,                    name: [libtk-img,libtkimg,tcl-img] }
+- { setname: tmplgen,                  name: "rust:tmplgen" }
 - { setname: tmux,                     name: tmux-fullwidth-backspace, addflavor: true }
 - { setname: tmux,                     namepat: "tmux[0-9.-]+" }
 - { setname: tmuxinator,               name: "ruby:tmuxinator" }
 - { setname: tmw,                      name: the-mana-world }
 - { setname: tntnet,                   name: libtntnet }
+- { setname: toilet,                   name: toilet-template }
 - { setname: tokyocabinet,             name: tokyo-cabinet }
 - { setname: tokyodystopia,            name: tokyo-dystopia }
 - { setname: tolua++,                  name: [toluapp,"lua:toluapp"] }
@@ -119,6 +121,7 @@
 - { setname: trnascan-se,              name: trnascanse }
 - { setname: tsc,                      name: the-secret-chronicles-of-dr-m }
 - { setname: tsmuxer,                  name: linux-tsmuxer, ruleset: freebsd }
+- { setname: ttyload,                  name: ttyload-git, weak_devel: true }
 - { setname: tufao,                    name: tufao0, addflavor: true }
 - { setname: tufao,                    name: tufao0-qt5, addflavor: qt5 }
 - { setname: tumbler,                  name: xfce4-tumbler }
