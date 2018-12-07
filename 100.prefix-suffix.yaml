@@ -57,6 +57,8 @@
 
 - { ruleset: slitaz,          namepat: "(.*)-(dev)", setname: $1, addflavor: $2 }
 
+- { ruleset: void,            namepat: "chroot-(.*)", setname: $1, addflavor: chroot }
+
 #- { ruleset: msys2, namepat: "(.*)-git", setname: "$1", ignore: true }
 
 # repeat suffix common rules again, as suffix order may vary (e.g. foo-git-nox11 vs. foo-nox11-git)
