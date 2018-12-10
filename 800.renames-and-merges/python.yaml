@@ -65,6 +65,10 @@
 - { setname: "python:geohash",         name: geohash, ruleset: slackbuilds }
 - { setname: "python:geoip",           name: "python:geoip-python" }
 - { setname: "python:geojson",         name: geojson }
+- { setname: "python:gitpython",       name: gitpython }
+- { setname: "python:gitpython",       name: "python:git-python" } # XXX: problem
+- { setname: "python:gitpython",       name: "python:gitpython-211" }
+- { setname: "python:gitpython",       name: "python:git" } # XXX: problem
 - { setname: "python:graph-tool",      name: "python:python2.7-graph-tool", addflavor: python-2.7 }
 - { setname: "python:graph-tool",      name: "python:python3.6-graph-tool", addflavor: python-3.6 }
 - { setname: "python:graph-tool",      name: graph-tool }
