@@ -121,6 +121,7 @@
 - { name: crypto++,                    verpat: "[0-9]{3}",                                 incorrect: true }
 - { name: csync,                       ver: ["0.50.6","0.50.8"],     ruleset: [sisyphus, slitaz], incorrect: true }
 - { name: cup,                         verpat: "11.*",                                     incorrect: true } # 0.11b
+- { name: cups,                        verpat: ".*b.*",                                    devel: true }
 - { name: cura,                        verpat: "1[45].*",                                  outdated: true }
 - { name: curaengine,                  verpat: "1[45].*",                                  outdated: true }
 - { name: curses-hexedit,              verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)_[0-9]+",        setver: $1 } # slackbuilds - debian patchlevel
