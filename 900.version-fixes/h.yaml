@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: hackrf,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: handbrake,                   verpat: "[0-9]{4}.*",                               ignore: true } # trisquel
 - { name: hardinfo,                    ver: "0.6",                   ruleset: sisyphus,    incorrect: true }
 - { name: hardinfo,                                                  ruleset: sisyphus,    untrusted: true }
