@@ -26,7 +26,7 @@
 - { setname: panoply,                  name: panoply-nodesktop, addflavor: nodesktop }
 - { setname: pantheon-calculator,      name: elementary-calculator }
 - { setname: pantheon-photos,          name: elementary-photos }
-- { setname: pantheon-terminal,        name: elementary-terminal }
+- { setname: pantheon-terminal,        name: [elementary-terminal, io.elementary.terminal] }
 - { setname: pasystray,                name: [pasystray-gtk2,pasystray-gtk2-standalone,pasystray-gtk3-standalone] }
 - { setname: patch,                    name: gpatch }
 - { setname: payara,                   namepat: "payara[0-9]+" }
