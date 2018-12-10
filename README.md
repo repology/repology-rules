@@ -202,6 +202,14 @@ own set of categories.
 - { category: [ mail-client, mail-filter, mail-mta ], ... }
 ```
 
+#### maintainer
+
+Matches package maintainer(s). Match is case insensitive.
+
+```yaml
+- { maintainer: "nobody@nowhere.com" }
+```
+
 #### name
 
 Match exact package name(s).
