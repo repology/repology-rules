@@ -10,6 +10,7 @@
 - { name: acl,                         verlonger: 3,                                       ignore: true }
 - { name: acl,                         verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: acpi-call,                   verpat: "4\\..*",             ruleset: nix,         incorrect: true } # uses kernel versions instead of software's
+- { name: actiona,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: adwaita-icon-theme,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: afdko,                       verpat: "([0-9]+\\.[0-9]+)\\.b?([0-9]+).*?",        setver: "$1.$2" }
 - { name: aften,                       ver: [ "0.05", "0.08" ],                            ignore: true }
