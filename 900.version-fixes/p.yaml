@@ -15,6 +15,8 @@
 - { name: pavucontrol,                 verpat: ".*\\+[0-9]+",                              incorrect: true } # slitaz
 - { name: pcb,                         verpat: "20[0-9]{6}.*",                             outdated: true } # superceded by x.y.z: https://sourceforge.net/projects/pcb/files/pcb/
 - { name: pcc,                         verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: pcc,                         ver: "1.2.0",                 ruleset: debuntu,     incorrect: true }
+- { name: pcc,                                                       ruleset: debuntu,     untrusted: true } # accused of fake 1.2.0
 - { name: pcc-libs,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: pciids,                                                                          noscheme: true }
 - { name: pcsx2,                       verpat: ".*[0-9]{4,}.*",                            snapshot: true }
