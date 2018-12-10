@@ -5,6 +5,7 @@
 - { name: baloo,                       ver: "15.04.26",                                    ignore: true }
 - { name: baloo-widgets,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: baobab,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: barvinok,                    verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: bash,                                                                            p_is_patch: true }
 - { name: bash,                        verpat: "([0-9]+\\.[0-9]+)\\.0*([0-9]+?)",          setver: $1.p$2 } # bash has braindead versioning scheme: X.YpatchZ with occasional X.Y.Z releases
 - { name: bash,                        verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true } # slackwarearm invention
@@ -20,6 +21,7 @@
 - { name: bcachefs-tools,                                                                  noscheme: true }
 - { name: bcm20702a1-firmware,         verpat: "[0-9]{7}",                                 ignore: false } # unignore global rule from 900/0.yaml
 - { name: beef-browser-exploitation,   verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: benchmark,                   verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: bennugd-core,                                                                    noscheme: true }
 - { name: bennugd-modules,                                                                 noscheme: true }
 - { name: betty,                                                     ruleset: aur,         untrusted: true }
