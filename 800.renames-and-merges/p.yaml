@@ -158,6 +158,8 @@
 - { setname: pulseaudio,               name: [libpulseaudio,libpulse,libpulse-nosystemd], addflavor: true }
 - { setname: pulseaudio,               name: [pulseaudio-bluetooth,pulseaudio-gconf,pulseaudio-jack,pulseaudio-lirc,pulseaudio-zeroconf], addflavor: true }
 - { setname: puppet,                   namepat: "puppet[0-9.-]+" }
+- { setname: purple-hangouts,          name: libpurple-hangouts }
+- { setname: purple-hangouts,          name: purple-hangouts-hg, weak_devel: true }
 - { setname: putty,                    name: [putty-gtk2,putty-nogtk], addflavor: true }
 - { setname: pugixml,                  name: libpugixml }
 - { setname: pugixml,                  name: pugixml-shared, addflavor: shared }
