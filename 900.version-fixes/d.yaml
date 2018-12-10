@@ -32,7 +32,7 @@
 - { name: diffpdf,                     verge: "2.1.3.1",                                   successor: true }
 - { name: dirb,                        verpat: "[0-9]{3}",                                 incorrect: true, disposable: true } # slackbuilds; 2.22, not 222
 - { name: directfb,                    ver: "1.8.0",                 ruleset: slitaz,      incorrect: true }
-- { name: discord,                                                   ruleset: chocolatey,  ignore: true } # windows version has different versioning
+- { name: discord,                                                   ruleset: [chocolatey,scoop], ignore: true } # windows version has different versioning
 - { name: distcc,                      ver: "3.2",                   ruleset: pkgsrc,      incorrect: true }
 - { name: distcc,                      ver: "3.2.0rc1",                                    incorrect: true } # it's 3.2rc1
 - { name: distcc,                                                    ruleset: pkgsrc,      untrusted: true }
