@@ -5,6 +5,10 @@
 - { name: ldm, wwwpart: ltsp, setname: ldm-ltsp }
 - { name: ldm, warning: "please classify me" }
 
+- { name: lemon, wwwpart: lemon.cs.elte.hu, setname: coin-or-lemon }
+- { name: lemon, summpart: "Efficient Modeling", setname: coin-or-lemon }
+# otherwise, LALR(1) Parser Generator
+
 - { name: libelf,                      wwwpart: elfutils, setname: elfutils } # Arch: XXX: problem
 
 - { name: libidn,                      verpat: "2.*", setname: libidn2 } # Haikuports: XXX: problem, different libraries
