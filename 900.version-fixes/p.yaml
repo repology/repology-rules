@@ -10,6 +10,7 @@
 - { name: paper-icon-theme,            verpat: "2017.*",                                   outdated: true } # 1.5.0 from 2018
 - { name: parley,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: passwdqc,                    ver: "1.3.1.1",                                     incorrect: true } # sisyphus garbage
+- { name: passwordsafe,                verge: "3",                                         ignore: true } # windows versions
 - { name: patchage,                    ver: "1.0.1",                 ruleset: nix,         incorrect: true }
 - { name: patchage,                                                  ruleset: nix,         untrusted: true } # accused of fake 1.0.1
 - { name: patchelf,                    verpat: ".*pre.*",                                  snapshot: true } # nix
