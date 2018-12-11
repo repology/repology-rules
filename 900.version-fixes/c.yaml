@@ -22,6 +22,7 @@
 - { name: caribou,                     ver: "0.4.22",                ruleset: sisyphus,    incorrect: true }
 - { name: caribou,                                                   ruleset: sisyphus,    untrusted: true }
 - { name: castxml,                                                                         noscheme: true }
+- { name: cataclysm-dda,               verpat: ".*[0-9]{4}.*",                             snapshot: true }
 - { name: cave9,                       ver: "0.4.1.git20150408",     ruleset: freebsd,     setver: "0.4.1" }
 - { name: cayley,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: cblas,                       verpat: "20[0-9]{6}.*",                             ignore: true }

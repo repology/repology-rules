@@ -28,6 +28,7 @@
 - { setname: cassandra,                name: [apache-cassandra,cassandra2] }
 - { setname: cassandra,                namepat: "cassandra[0-9.-]+" }
 - { setname: cataclysm-dda,            name: cataclysm-dark-days-ahead }
+- { setname: cataclysm-dda,            name: [cataclysm-dda-ncurses, cataclysm-dda-tiles], addflavor: true }
 - { setname: catch,                    name: libcatch-cpp-headers }
 - { setname: catdoc,                   name: catdoc-tk, addflavor: tk }
 - { setname: cattle,                   name: cattle-1.0 }
