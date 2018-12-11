@@ -21,6 +21,8 @@
 - { name: pcc,                         ver: "1.2.0",                 ruleset: debuntu,     incorrect: true }
 - { name: pcc,                                                       ruleset: debuntu,     untrusted: true } # accused of fake 1.2.0
 - { name: pcc-libs,                    verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: pcc-libs,                    ver: "1.2.0",                 ruleset: debuntu,     incorrect: true }
+- { name: pcc-libs,                                                  ruleset: debuntu,     untrusted: true } # accused of fake 1.2.0
 - { name: pciids,                                                                          noscheme: true }
 - { name: pcsx2,                       verpat: ".*[0-9]{4,}.*",                            snapshot: true }
 - { name: pdfbook,                                                                         noscheme: true }
