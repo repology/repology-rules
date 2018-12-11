@@ -58,7 +58,8 @@
 - { name: apr,                         verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: apr,                         verpat: "2\\..*",                                   devel: true }
 - { name: aptly,                       verpat: "2010.*",                                   incorrect: true }
-- { name: apvlv,                       verpat: ".*pl.*",             ruleset: openbsd,     incorrect: true }
+- { name: apvlv,                       verpat: ".*pl.*",             ruleset: openbsd,     incorrect: true } # fake
+- { name: apvlv,                       verlonger: 3,                 ruleset: aur,         incorrect: true } # fake
 - { name: aqmoney,                     verpat: "1\\..*",                                   devel: true }
 - { name: aqualung,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: arduino,                     ver: "0021",                                        ignore: true } # EPEL 6
