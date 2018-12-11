@@ -80,6 +80,7 @@
 - { name: cmus,                        verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: cmus,                        ver: "2.8.0",                 ruleset: fedora,      ignore: true } # it's rc0
 - { name: coccigrep,                   verpat: "20[0-9]{6}",                               ignore: true }
+- { name: codesearch,                                                                      noscheme: true }
 - { name: cogl,                        ver: "1.22.5",                ruleset: pardus,      incorrect: true }
 - { name: cogl,                                                      ruleset: pardus,      untrusted: true }
 - { name: coin3d,                      ver: ["3.1.4","4.0.0"],       ruleset: debuntu,     incorrect: true } # fake, no such release
