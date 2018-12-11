@@ -83,6 +83,8 @@
 - { name: aspcud,                      ver: "2011.03.17",                                  ignore: true }
 - { name: aspell,                      ver: "0.60.7",                ruleset: [debuntu,openmandriva], incorrect: true } # snapshot actually
 - { name: aspell,                                                    ruleset: [debuntu,openmandriva], untrusted: true }
+- { name: aspell,                      ver: "0.60.6.90",             ruleset: kaos,        incorrect: true } # 0.60.7-rc1 actually
+- { name: aspell,                                                    ruleset: kaos,        untrusted: true } # accused of fake 0.60.6.90
 - { name: aspell-be,                   ver: ["0.50.0", "0.60"],                            ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/be/
 - { name: aspell-bn,                   ver: "0.02",                  ruleset: arch,        ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/bn/
 - { name: aspell-br,                   ver: "0.60.2",                                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/br/
