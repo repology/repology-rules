@@ -68,6 +68,8 @@
 - { name: buffer,                      verpat: "20[0-9]{2}.*",                             snapshot: true } # latest 1.19, github fork w/o releases
 - { name: buildah,                     ver: "1.6",                   ruleset: fedora,      incorrect: true }
 - { name: buildah,                                                   ruleset: fedora,      untrusted: true } # accused of fake 1.6
+- { name: buildbot-slave,              ver: "0.9.5",                 ruleset: haikuports,  incorrect: true } # it should probably be 0.9.0b5 https://pypi.org/project/buildbot-slave/#history
+- { name: buildbot-slave,                                            ruleset: haikuports,  untrusted: true } # accused of fake 0.9.5
 - { name: bully,                       verpat: "1\\.1.+",                                  ignore: true } # snapshots, latest is 1.1
 - { name: busybox,                     verpat: "[0-9]{4}.*",                               incorrect: true } # scoop
 - { name: byobu,                       ver: "5.126",                 ruleset: debuntu,     incorrect: true }
