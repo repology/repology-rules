@@ -9,6 +9,8 @@
 - { name: zd1211-firmware,             ver: "3.0.0.56",                                    outdated: true } # some obsolete garbage from debian oldstable
 - { name: zenity,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: zeromq,                      verpat: "20[0-9]{6}.*",                             snapshot: true } # vcpkg snapshot
+- { name: zfs,                         ver: "0.8.0",                 ruleset: pld,         incorrect: true } # latest is 0.8.0rc2
+- { name: zfs,                                                       ruleset: pld,         untrusted: true } # accused of fake 0.8.0
 - { name: zip,                         verlonger: 2,                 ruleset: openmandriva, ignore: true } # fork
 - { name: zlib-ada,                    ver: "1.4",                   ruleset: fedora,      incorrect: true }
 - { name: zlib-ada,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true }
