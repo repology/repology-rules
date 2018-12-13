@@ -51,7 +51,7 @@
 - { setname: five-or-more,             name: gnome-games-five-or-more }
 - { setname: flac,                     name: flac-doc, addflavor: doc }
 - { setname: flac,                     name: [flac-libs,libflac] }
-- { setname: flare,                    name: [flare-engine,flare-game], addflavor: true } # these are actually distinct packages, but too many repos merge them together
+- { setname: flare,                    name: [flare-engine,flare-game,flare-data], addflavor: true } # these are actually distinct packages, but too many repos merge them together
 - { setname: flatbuffers,              name: flatbuffers-static, addflavor: static }
 - { setname: fleet,                    name: fleetctl }
 - { setname: flex,                     name: [compat-flex,flex-old] }
