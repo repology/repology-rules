@@ -2,6 +2,11 @@
 
 #- { namepat: "(?:fonts-)?(?:[ot]tf-)?(gdouros-.+?)(?:-fonts)?", setname: "fonts:$1" }
 
+- setname: "fonts:gamaliel"
+  name:
+    - fonts-gamaliel
+    - otf-gamaliel
+
 - setname: "fonts:gdouros-aegean"
   name:
     - aegean-ttf
