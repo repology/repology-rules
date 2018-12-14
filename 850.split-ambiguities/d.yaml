@@ -46,6 +46,10 @@
 
 - { name: dolphin,                     setname: dolphin-emu,              wwwpart: dolphin-emu.org }
 
+- { name: dotty, wwwpart: dotty.epfl.ch, setname: scala-dotty }
+- { name: dotty, wwwpart: google/dotty, setname: "python:efilter" }  # why the f is the repo named dotty?
+- { name: dotty, warning: "please classify me" }
+
 - { name: dragon,                      setname: dragon-scannerparser,     ruleset: [ freebsd ] }
 - { name: dragon,                      setname: dragon-player                                }
 
