@@ -117,6 +117,7 @@
 - { name: ms-gsl,                      verpat: "2017.*",                                   outdated: true } # official versioning scheme was introduced, 1.0.0 is the latest
 - { name: mspdebug,                    verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: mtd-utils,                                                 ruleset: maemo,       ignore: true } # fork?
+- { name: mtd-utils,                   verpat: "[0-9]{6}",                                 incorrect: true } # slackware garbage
 - { name: mtree,                                                     ruleset: ravenports,  ignore: true } # fake
 - { name: multimon-ng,                 verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: mumble,                                                    ruleset: kaos,        ignore: true } # snapshot with random version
