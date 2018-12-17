@@ -125,6 +125,7 @@
 - { name: gprolog,                                                   ruleset: debuntu,     untrusted: true }
 - { name: gradm,                       verpat: "[0-9]{8}.*",                               incorrect: true } # it.s 3.1.YYYYMMDD.., see https://grsecurity.net/download.php
 - { name: grafx2,                      verpat: ".*wip.*",                                  ignore: true }
+- { name: grafx2,                      verpat: "([0-9]+\\.[0-9]+)\\.[0-9]{4}",             setver: $1 } # tags only contain X.Y, but filenames contain additional number (revision/build# ?)
 - { name: granatier,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: grantlee-editor,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: grantleetheme,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
