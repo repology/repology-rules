@@ -108,6 +108,7 @@
 - { name: "go:bindata",                ver: "3.1.0",                 ruleset: freebsd,     incorrect: true }
 - { name: "go:bindata",                ver: ["3.0.6","3.0.7"],                             devel: true }
 - { name: "go:github-rakyll-statik",   ver: "20141209",                                    outdated: true }
+- { name: "go:mtpfs",                                                                      noscheme: true }
 - { name: gobject-introspection,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: goldencheetah,               verpat: ".*dev.*",                                  ignore: true }
 - { name: goocanvasmm,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
