@@ -137,6 +137,7 @@
 - { name: grub-customizer,             ver: "5.0.7",                 ruleset: debuntu,     incorrect: true } # mx and sparky, actually
 - { name: grub-customizer,                                           ruleset: debuntu,     untrusted: true }
 - { name: gsettings-desktop-schemas,   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gsettings-qt,                                                                    noscheme: true }
 - { name: gsfonts,                                                                         noscheme: true } # packages refer to ghostscript.com which says fonts have been merged with ghostscript; otherwise, it's http://git.ghostscript.com/?p=urw-core35-fonts.git with (no tags) https://github.com/ArtifexSoftware/urw-base35-fonts (not sure how this is related)
 - { name: gsmlib,                                                                          noscheme: true }
 - { name: "gstreamer1plugins:bad",     ver: "1.14.12",               ruleset: parabola,    incorrect: true }
