@@ -59,6 +59,7 @@
 - { name: doublecmd,                   verpat: ".*svn.*",                                  ignore: true }
 - { name: dovecot-pigeonhole,          verpat: "2\\..*",                                   incorrect: true } # dovecot version prepended (openwrt, pld)
 - { name: dragon-player,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: drawterm,                                                                        noscheme: true }
 - { name: dsd,                         ver: "1.7.0",                 ruleset: [sisyphus],  incorrect: true } # no such version
 - { name: dsd,                                                       ruleset: [sisyphus],  untrusted: true }
 - { name: dsniff,                      ver: "2.4",                   ruleset: [sisyphus],  incorrect: true } # it's 2.4beta1
