@@ -80,6 +80,8 @@
 - { name: minuet,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mixxx,                       verpat: "2\\.1\\.[0-9]+",     ruleset: [aosc,fedora,kaos], incorrect: true } # actually unitedrpms, but knowing fedora I won't trust it whole
 - { name: mixxx,                                                     ruleset: [aosc,fedora,kaos], untrusted: true }
+- { name: mkchromecast,                ver: "0.3.9",                 ruleset: unitedrpms,  incorrect: true }
+- { name: mkchromecast,                                              ruleset: unitedrpms,  untrusted: true } # accused of fake 0.3.9
 - { name: mkgmap,                      verpat: "0\\.0\\.0svn([0-9]{4,})",                  setver: "r$1" }
 - { name: mkgmap,                      verpat: "[0-9]{4,}",                                setver: "r$0" }
 - { name: mkgmap-splitter,             verpat: "0\\.0\\.0svn([0-9]{3,})",                  setver: "r$1" }
