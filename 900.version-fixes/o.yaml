@@ -39,6 +39,7 @@
 - { name: opennap,                                                   ruleset: hpux,        untrusted: true }
 - { name: openntpd,                    ver: "20080406p",                                   snapshot: true }
 - { name: openscenegraph,              verpat: "3\\.[0-9]*[13579]\\..*",                   devel: true }
+- { name: opensmtpd,                                                                       p_is_patch: true }
 - { name: openssh,                     verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: "$1p$2" } # pkgrc: it's X.YpZ!
 - { name: openssh,                     verpat: "[0-9]+\\.[0-9]+",                          incorrect: true } # freshcode, pZ part missing
 - { name: openssh,                     verpat: "20[0-9-]{6}.*",                            snapshot: true } # scoop
