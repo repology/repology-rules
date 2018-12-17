@@ -84,6 +84,7 @@
 - { name: snownews,                    verge: "1.5.13",                                    successor: true } # https://github.com/kouya/snownews
 - { name: snzip,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: snzip,                       ver: "20120803",                                    outdated: true } # 1.0.4 from 2016
+- { name: soil,                                                                            noscheme: true } # distfile unversioned; "alternate makefile" mentions 1.07-20071110, bit that's not reliable and is likely outdated since website mentions 2008; ancient garbage anyway
 - { name: solaar,                      verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{3,}",     ignore: true } # FreeBSD snapshot
 - { name: solvespace,                  verpat: ".*[0-9]{8}.*",                             ignore: true } # nix garbage
 - { name: sonata,                      ver: "1.7",                    ruleset: sisyphus,   incorrect: true }
