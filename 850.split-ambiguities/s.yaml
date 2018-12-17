@@ -44,6 +44,11 @@
 - { name: slurm, wwwpart: [schedmd,llnl], setname: slurm-wlm } # "workload manager": name used in freebsd and pksrc; there's also slurm-llnl, see rule in 800
 - { name: slurm, warning: "please classify me" }
 
+- { name: smc, wwwpart: secretmaryo, setname: secret-maryo-chronicles }
+- { name: smc, category: [games-arcade,games,Games/Arcade], setname: secret-maryo-chronicles }
+- { name: smc, wwwpart: smc.sourceforge.net, setname: smc-state-machine-compiler }
+- { name: smc, warning: "please classify me" }
+
 - { name: smem, verpat: "2007.*", ruleset: gentoo, setname: smem.pl } # unrelated python script
 
 - { name: snoopy, wwwpart: tuxfamily, setname: snoopy-warcraft3 }
