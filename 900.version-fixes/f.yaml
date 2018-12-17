@@ -105,6 +105,7 @@
 - { name: [fs-uae,fs-uae-arcade,fs-uae-launcher], verpat: "([0-9.]+)-p([0-9]+)", ruleset: exherbo, setver: $1dev$2 }
 - { name: fskbsetting,                 ver: "0.5.3.1",               ruleset: antix,       incorrect: true }
 - { name: fskbsetting,                                               ruleset: antix,       untrusted: true }
+- { name: fstrcmp,                     verpat: "[0-9]+\\.[0-9]+",                          setver: $0.D001 } # assumed
 - { name: fswebcam,                    vergt: "20140113",            ruleset: sisyphus,    snapshot: true } # https://www.sanslogic.co.uk/fswebcam/
 - { name: ftgl,                        ver: "2.1.3",                                       ignore: true } # it's 2.1.3-rc5; 2.1.3 was never released
 - { name: ftgl,                        ver: "2.1.3",                 ruleset: gobolinux,   incorrect: true } # it's 2.1.3-rc5
