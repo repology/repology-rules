@@ -46,6 +46,7 @@
 - { setname: digitalbitbox,            name: [dbb-app,dbb-cli,digital-bitbox-app] }
 - { setname: dino,                     name: dino-unstable, ignore: true }
 - { setname: discord,                  name: discord-bin }
+- { setname: distcc,                   name: [distcc-gnome,distcc-gtk,distcc-monitor,distcc-nozeroconf,distcc-pump,distcc-server], addflavor: true }
 - { setname: divide-and-succeed,       name: divideandsucceed }
 - { setname: djview,                   name: [djview,djview-qt4,djview-qt5,djview4,djvulibre-djview4], addflavor: true } # should be merged with djvulibre or not?
 - { setname: djvulibre,                name: [djvulibre-lib,djvulibre-qt4,djvulibre-tools,djvu] }
