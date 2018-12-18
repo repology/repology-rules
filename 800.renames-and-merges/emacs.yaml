@@ -23,6 +23,7 @@
 - { setname: "emacs:evil",             name: [emacs-evil,evil-el] }
 - { setname: "emacs:gnuplot-mode",     name: [gnuplot-mode] }
 - { setname: "emacs:go-mode",          name: [emacs-go-mode, go-mode.el] }
+- { setname: "emacs:goodies",          name: [emacs-goodies,emacs-goodies-el] }
 - { setname: "emacs:graphql",          name: [emacs-graphql,graphql-el,graphql.el] }
 - { setname: "emacs:haskell-mode",     name: [emacs-haskell-mode,haskell-mode,haskell-mode.el] }
 - { setname: "emacs:howm",             name: [howm,emacs-howm] }
@@ -30,6 +31,9 @@
 - { setname: "emacs:inform-mode",      name: [inform-mode] }
 - { setname: "emacs:lookup",           name: [lookup-el] }
 - { setname: "emacs:mailcrypt",        name: [mailcrypt] }
+- { setname: "emacs:m-buffer",         name: [emacs-m-buffer-el,m-buffer-el] }
+- { setname: "emacs:magit",            name: magit }
+- { setname: "emacs:magit-popup",      name: [emacs-magit-popup,magit-popup] }
 - { setname: "emacs:markdown-mode",    name: [emacs-markdown-mode,markdown-mode,markdown-mode.el] }
 - { setname: "emacs:matlab",           name: [emacs-matlab] }
 - { setname: "emacs:mew",              name: [emacs-mew,mew] }
@@ -41,9 +45,11 @@
 - { setname: "emacs:multiple-cursors", name: [emacs-multiple-cursors] }
 - { setname: "emacs:muse",             name: [emacs-muse, emacs-muse-mode, muse-el] }
 - { setname: "emacs:navi2ch",          name: [emacs-navi2ch,navi2ch] }
+- { setname: "emacs:nov",              name: [emacs-nov-el,nov-el] }
 - { setname: "emacs:org-mode",         name: [emacs-org,emacs-org-mode,org-mode] }
 - { setname: "emacs:org-mode",         name: org-mode-doc, addflavor: doc }
 - { setname: "emacs:php-mode",         name: [emacs-php-mode,php-mode.el,php-elisp] }
+- { setname: "emacs:popup",            name: [emacs-popup,emacs-popup-el,popup-el] }
 - { setname: "emacs:popwin",           name: emacs-popwin }
 - { setname: "emacs:psgml",            name: [psgml, emacs-psgml, emacs-mode-psgml, psgml-mode] }
 - { setname: "emacs:puppet-mode",      name: [emacs-puppet-mode, puppet-mode.el] }
@@ -57,6 +63,8 @@
 - { setname: "emacs:tdtd",             name: [emacs-mode-tdtd] }
 - { setname: "emacs:treepy",           name: [emacs-treepy,treepy-el,treepy.el] }
 - { setname: "emacs:tuareg-mode",      name: [emacs-common-tuareg,emacs-tuareg,emacs-tuareg-mode,tuareg-mode,tuareg-mode.el] }
+- { setname: "emacs:speechd",          name: [emacs-speechd-el,speechd-el] }
+- { setname: "emacs:scratch",          name: emacs-scratch-el }
 - { setname: "emacs:undo-tree",        name: [emacs-undo-tree, elpa-undo-tree] }
 - { setname: "emacs:vm",               name: [emacs-vm] }
 - { setname: "emacs:wgrep",            name: [emacs-wgrep-helm], addflavor: true }
