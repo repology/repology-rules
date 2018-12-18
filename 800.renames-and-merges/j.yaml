@@ -27,7 +27,7 @@
 - { setname: jersey,                   namepat: "jersey[0-9]+" }
 - { setname: jfrog-cli,                name: jfrog }
 - { setname: jlatexmath,               name: [jlatexmath-fop, libjlatexmath-java], addflavor: true }
-- { setname: jogl,                     name: [jogl2,libjogl-java,libjogl2-java] }
+- { setname: jogl,                     name: [jogamp-jogl,jogl2,libjogl-java,libjogl2-java] }
 - { setname: josm,                     name: josm-latest, weak_devel: true }
 - { setname: jpeg,                     name: [jpeg,libjpeg,jpeg-turbo,libjpeg-turbo,turbojpeg,libjpeg+legacy,libjpeg6-ijg] }
 - { setname: jpeg,                     namepat: "libjpeg[0-9]+([a-z]|-turbo)?" }
