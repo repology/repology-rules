@@ -4,6 +4,7 @@
 - { setname: lame,                     name: libmp3lame }
 - { setname: language-pack-gnome,      namepat: "language-pack-gnome-.*", ruleset: debuntu }
 - { setname: language-pack-kde,        namepat: "language-pack-kde-.*", ruleset: debuntu }
+- { setname: languagetool,             name: [libreoffice-extension-languagetool,openoffice-extension-languagetool], addflavor: true }
 - { setname: lantern,                  name: lantern-headless }
 - { setname: lantern,                  name: lantern-headless }
 - { setname: lapack,                   name: [lapack-docs,lapack-reference], addflavor: docs }
