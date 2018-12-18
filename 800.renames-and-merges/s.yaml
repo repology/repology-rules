@@ -46,6 +46,8 @@
 - { setname: sdllopan,                 name: sdl-lopan }
 - { setname: sdlmame,                  name: sdlmame-wout-toolkits, addflavor: wout-toolkits }
 - { setname: sdocbook-xml,             name: docbook-xml-simple } # ravenports
+- { setname: seafile,                  name: [seafile-shared, seafile-libclient] }
+- { setname: seafile-client,           name: [seafile-client-qt,seafile-gui], addflavor: true }
 - { setname: seamonkey,                name: [seamonkey-bin,seamonkey-gtk2,seamonkey-l10n,seamonkey-i18n], addflavor: true }
 - { setname: seamonkey,                name: [seamonkey-en,seamonkey-ru], addflavor: true }
 - { setname: seamonkey,                namepat: "seamonkey-(i18n-.*)", addflavor: true }
