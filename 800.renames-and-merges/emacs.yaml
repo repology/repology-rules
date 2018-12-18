@@ -21,6 +21,7 @@
 - { setname: "emacs:elixir-mode",      name: elixir-mode.el }
 - { setname: "emacs:emhacks",          name: [emhacks,emacs-emhacks] }
 - { setname: "emacs:emms",             name: [emacs-emms,emms] }
+- { setname: "emacs:ess",              name: [emacs-common-ess,emacs-ess,ess] }
 - { setname: "emacs:evil",             name: [emacs-evil,evil-el] }
 - { setname: "emacs:gnuplot-mode",     name: [gnuplot-mode] }
 - { setname: "emacs:go-mode",          name: [emacs-go-mode, go-mode.el] }
@@ -76,6 +77,8 @@
 - { setname: "emacs:undo-tree",        name: [emacs-undo-tree, elpa-undo-tree] }
 - { setname: "emacs:verilog-mode",     name: [emacs-verilog-mode,verilog-mode,verilog-mode.el] }
 - { setname: "emacs:vm",               name: [emacs-vm] }
+- { setname: "emacs:w3m",              name: [emacs-common-w3m,emacs-w3m,"emacs:emacs-w3m",w3m-el] }
+- { setname: "emacs:w3m",              name: w3m-el-snapshot, weak_devel: true }
 - { setname: "emacs:wgrep",            name: [emacs-wgrep-helm], addflavor: true }
 - { setname: "emacs:wgrep",            name: [emacs-wgrep] }
 - { setname: "emacs:yaml-mode",        name: [emacs-yaml-mode,yaml-mode,yaml-mode.el] }
