@@ -8,7 +8,7 @@
 - { setname: "emacs:circe",            name: [circe, emacs-circe] }
 - { setname: "emacs:clojure-mode",     name: [clojure-mode,clojure-mode.el,emacs-clojure-mode] }
 - { setname: "emacs:cobol-mode",       name: cobol-mode.el }
-- { setname: "emacs:color-theme-mode", name: color-theme-mode.el }
+- { setname: "emacs:color-theme",      name: [color-theme,emacs-color-theme,color-theme-mode.el] }
 - { setname: "emacs:csharp-mode",      name: [csharp-mode.el] }
 - { setname: "emacs:css-mode",         name: [css-mode] }
 - { setname: "emacs:d-mode",           name: [emacs-d-mode,d-mode.el] }
@@ -18,6 +18,7 @@
 - { setname: "emacs:ebuild-mode",      name: [emacs-ebuild-mode] }
 - { setname: "emacs:edit-server",      name: [emacs-edit-server] }
 - { setname: "emacs:elib",             name: [emacs-elib,elib,emacs20-elib] }
+- { setname: "emacs:elixir-mode",      name: elixir-mode.el }
 - { setname: "emacs:emhacks",          name: [emhacks,emacs-emhacks] }
 - { setname: "emacs:emms",             name: [emacs-emms,emms] }
 - { setname: "emacs:evil",             name: [emacs-evil,evil-el] }
@@ -27,8 +28,10 @@
 - { setname: "emacs:graphql",          name: [emacs-graphql,graphql-el,graphql.el] }
 - { setname: "emacs:haskell-mode",     name: [emacs-haskell-mode,haskell-mode,haskell-mode.el] }
 - { setname: "emacs:howm",             name: [howm,emacs-howm] }
+- { setname: "emacs:htmlize",          name: [emacs-htmlize,htmlize,htmlize.el] }
 - { setname: "emacs:icicles",          name: [emacs-icicles,icicles] }
 - { setname: "emacs:inform-mode",      name: [inform-mode] }
+- { setname: "emacs:jabber",           name: [emacs-jabber,"emacs:emacs-jabber",jabber.el] }
 - { setname: "emacs:lookup",           name: [lookup-el] }
 - { setname: "emacs:mailcrypt",        name: [mailcrypt] }
 - { setname: "emacs:m-buffer",         name: [emacs-m-buffer-el,m-buffer-el] }
@@ -46,13 +49,18 @@
 - { setname: "emacs:muse",             name: [emacs-muse, emacs-muse-mode, muse-el] }
 - { setname: "emacs:navi2ch",          name: [emacs-navi2ch,navi2ch] }
 - { setname: "emacs:nov",              name: [emacs-nov-el,nov-el] }
+- { setname: "emacs:ocaml-mode",       name: ocaml-mode.el }
 - { setname: "emacs:org-mode",         name: [emacs-org,emacs-org-mode,org-mode] }
 - { setname: "emacs:org-mode",         name: org-mode-doc, addflavor: doc }
+- { setname: "emacs:paredit",          name: [emacs-paredit,paredit-el,paredit-mode.el] }
 - { setname: "emacs:php-mode",         name: [emacs-php-mode,php-mode.el,php-elisp] }
+- { setname: "emacs:pkg-info",         name: [emacs-pkg-info,pkg-info-el,pkg-info.el] }
 - { setname: "emacs:popup",            name: [emacs-popup,emacs-popup-el,popup-el] }
 - { setname: "emacs:popwin",           name: emacs-popwin }
+- { setname: "emacs:prolog-mode",      name: prolog-mode.el }
 - { setname: "emacs:psgml",            name: [psgml, emacs-psgml, emacs-mode-psgml, psgml-mode] }
 - { setname: "emacs:puppet-mode",      name: [emacs-puppet-mode, puppet-mode.el] }
+- { setname: "emacs:pure-mode",        name: pure-mode.el }
 - { setname: "emacs:python-mode",      name: [emacs-python-mode,python-mode.el,python-mode] }
 - { setname: "emacs:queue",            name: [emacs-queue,queue-el] }
 - { setname: "emacs:rfcview",          name: [emacs-rfcview] }
@@ -66,6 +74,7 @@
 - { setname: "emacs:speechd",          name: [emacs-speechd-el,speechd-el] }
 - { setname: "emacs:scratch",          name: emacs-scratch-el }
 - { setname: "emacs:undo-tree",        name: [emacs-undo-tree, elpa-undo-tree] }
+- { setname: "emacs:verilog-mode",     name: [emacs-verilog-mode,verilog-mode,verilog-mode.el] }
 - { setname: "emacs:vm",               name: [emacs-vm] }
 - { setname: "emacs:wgrep",            name: [emacs-wgrep-helm], addflavor: true }
 - { setname: "emacs:wgrep",            name: [emacs-wgrep] }
