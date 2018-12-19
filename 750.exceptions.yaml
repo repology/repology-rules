@@ -55,6 +55,7 @@
 - { setname: memtest86+,               name: memtest86, ruleset: pisi }
 - { setname: gnome-keyring,            name: libgnome-keyring, ruleset: pisi }
 - { setname: "python:config-py-dmgass", name: "python:config", wwwpart: config-py.sourceforge.net }
-- { setname: lrs-lang, name: lrs, wwwpart: lrs-lang }
-- { setname: xtrlock-pam, name: xtrlock, wwwpart: xtrlock-pam }
-- { setname: file, name: "python:magic", ruleset: freebsd }
+- { setname: lrs-lang,                 name: lrs, wwwpart: lrs-lang }
+- { setname: xtrlock-pam,              name: xtrlock, wwwpart: xtrlock-pam }
+- { setname: file,                     name: "python:magic", ruleset: freebsd }
+- { setname: intel-vaapi-driver,       name: libva-intel-driver-hybrid, verge: "2.1.0" } # hybrid is up to 1.0.2

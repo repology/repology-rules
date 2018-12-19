@@ -47,13 +47,13 @@
 - { setname: inn,                      namepat: "inn[0-9]+" }
 - { setname: inotify-tools,            name: inotify-tools-inc, addflavor: inc }
 - { setname: insighttoolkit,           namepat: "insight-?toolkit[0-9]*" }
+- { setname: intel-hybrid-driver,      name: [libva-intel-driver-hybrid,libva-intel-hybrid-driver] }
 - { setname: intel-media-driver,       name: intel-media-driver-non-free, addflavor: true }
 - { setname: intel-media-driver,       name: libva-intel-media-driver }
 - { setname: intel-microcode,          name: [microcode-intel,microcode-data-intel,intel-microcode-netbsd] }
 - { setname: intel-microcode,          name: microcode, ruleset: [mageia,rosa] } # limit family for safely
 - { setname: intel-vaapi-driver,       name: intel-vaapi-driver-shaders, addflavor: true }
 - { setname: intel-vaapi-driver,       name: libva-intel-driver-arm, addflavor: arm }
-- { setname: intel-vaapi-driver,       name: [libva-intel-driver-hybrid,libva-intel-hybrid-driver], addflavor: hybrid }
 - { setname: intel-vaapi-driver,       name: [intel-driver,libva-intel-driver,libva1-intel-driver,vaapi-intel-driver] }
 - { setname: intellij-idea-community,  name: [intellij-idea-ce,idea-community,intellij-idea-community-edition,intellij,intellijidea-community] }
 - { setname: intellij-idea-community,  name: [intellij-idea-community-edition-jre,intellij-idea-community-edition-no-jre], addflavor: true }
