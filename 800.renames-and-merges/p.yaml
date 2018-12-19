@@ -142,6 +142,7 @@
 - { setname: prometheus,               name: prometheus1 }
 - { setname: prometheus-postgres-exporter, name: [postgres-exporter,prometheus-postgresql-exporter] }
 - { setname: prometheus-pushgateway,   name: [pushgateway,prometheus-push-gateway] }
+- { setname: proofgeneral,             name: ["emacs:proofgeneral", emacs-common-proofgeneral] }
 - { setname: proot,                    name: proot-static, addflavor: true }
 - { setname: proot,                    namepat: "proot[0-9.-]+" }
 - { setname: protobuf,                 namepat: "(lib)?protobuf(?:cpp|compat|[0-9.-])*", addflavor: $1 }

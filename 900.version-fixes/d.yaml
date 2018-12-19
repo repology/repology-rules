@@ -10,6 +10,7 @@
 - { name: dconf,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: dconf-editor,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ddate,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
+- { name: ddskk,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: deadbeef,                    ver: "0.7.20",                ruleset: pisi,        incorrect: true }
 - { name: deadbeef,                                                  ruleset: pisi,        untrusted: true } # accused of fake 0.7.20
 - { name: dee-qt,                      verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot

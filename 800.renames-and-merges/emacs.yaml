@@ -40,6 +40,7 @@
 - { setname: "emacs:magit-popup",      name: [emacs-magit-popup,magit-popup] }
 - { setname: "emacs:markdown-mode",    name: [emacs-markdown-mode,markdown-mode,markdown-mode.el] }
 - { setname: "emacs:matlab",           name: [emacs-matlab] }
+- { setname: "emacs:mediawiki",        name: mediawiki.el }
 - { setname: "emacs:mew",              name: [emacs-mew,mew] }
 - { setname: "emacs:mew",              name: mew-beta, weak_devel: true }
 - { setname: "emacs:mmm-mode",         name: emacs-mmm-mode }
@@ -53,6 +54,7 @@
 - { setname: "emacs:ocaml-mode",       name: ocaml-mode.el }
 - { setname: "emacs:org-mode",         name: [emacs-org,emacs-org-mode,org-mode] }
 - { setname: "emacs:org-mode",         name: org-mode-doc, addflavor: doc }
+- { setname: "emacs:p4",               name: p4.el }
 - { setname: "emacs:paredit",          name: [emacs-paredit,paredit-el,paredit-mode.el] }
 - { setname: "emacs:php-mode",         name: [emacs-php-mode,php-mode.el,php-elisp] }
 - { setname: "emacs:pkg-info",         name: [emacs-pkg-info,pkg-info-el,pkg-info.el] }
@@ -65,7 +67,7 @@
 - { setname: "emacs:python-mode",      name: [emacs-python-mode,python-mode.el,python-mode] }
 - { setname: "emacs:queue",            name: [emacs-queue,queue-el] }
 - { setname: "emacs:rfcview",          name: [emacs-rfcview] }
-- { setname: "emacs:riece",            name: [riece] }
+- { setname: "emacs:riece",            name: [emacs-common-riece,riece,emacs-riece] }
 - { setname: "emacs:rust-mode",        name: [emacs-rust-mode,elpa-rust-mode] }
 - { setname: "emacs:session",          name: [emacs-session] }
 - { setname: "emacs:sml-mode",         name: [emacs-sml-mode,sml-mode,sml-mode.el] }
@@ -81,6 +83,7 @@
 - { setname: "emacs:w3m",              name: w3m-el-snapshot, weak_devel: true }
 - { setname: "emacs:wgrep",            name: [emacs-wgrep-helm], addflavor: true }
 - { setname: "emacs:wgrep",            name: [emacs-wgrep] }
+- { setname: "emacs:xslide",           name: [emacs-xslide,xslide,xslide.el] }
 - { setname: "emacs:yaml-mode",        name: [emacs-yaml-mode,yaml-mode,yaml-mode.el] }
 - { setname: "emacs:yatex",            name: [yatex] }
 - { setname: "emacs:yc",               name: [yc.el] }
