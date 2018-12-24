@@ -168,6 +168,7 @@
 - { setname: mumps,                    name: [mumps-metis,mumps-metis-openmpi,mumps-mpich,mumps-openmpi,mumps-par,mumps-seq,mumps-seq-shared], addflavor: true }
 - { setname: munin,                    namepat: munin-(master|node|server|common), addflavor: $1 }
 - { setname: muparser,                 namepat: "libmuparser[0-9.-]*" }
+- { setname: mupdf,                    name: [libmupdf,mupdf-nojs,mupdf-seccomp,mupdf-tools], addflavor: true }
 - { setname: mutt,                     name: mutt-devel, weak_devel: true }
 - { setname: mutt,                     name: [mutt-lite,mutt14,mutt14-lite,mutt-patched,mutt-slang,mutt-kiss] }
 - { setname: mvapich2,                 namepat: "mvapich2(?:-psm2?)?(?:-2-2)?(?:-gnu-hpc)?", addflavor: true }
