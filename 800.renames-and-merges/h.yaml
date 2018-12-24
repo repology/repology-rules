@@ -20,6 +20,8 @@
 - { setname: hexchat,                  name: hexchat-python2, addflavor: python2 }
 - { setname: hgflow,                   name: hg-flow }
 - { setname: hidapi,                   name: libhidapi }
+- { setname: hiredis,                  name: hiredis0.12 }
+- { setname: hiredis,                  name: libhiredis, addflavor: true }
 - { setname: hitori,                   name: gnome-games-hitori }
 - { setname: hledger$1,                namepat: "haskell:hledger(.*)" } # note: has overlapping reverse rule in 800.renames-and-merges.haskell
 - { setname: hmmer,                    namepat: "hmmer[0-9.-]+" }
