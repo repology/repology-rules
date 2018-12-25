@@ -6,8 +6,5 @@
 - { ruleset: gentoo, is_p_is_patch: false, verpat: '.*_p[0-9].*', untrusted: true }
 - { ruleset: gentoo, p_is_patch: true }
 
-# wikidata uses rules from arch, undo all unwanted effects caused by them
-- { ruleset: wikidata, resetflavors: true, rolling: false }
-
 # finalize, catch-all rule
 - { noflag: preserve_case, tolowername: true }
