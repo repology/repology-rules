@@ -14,6 +14,8 @@
 - { setname: make,                     name: [gmake,gnumake,make-3.81,make3] }
 - { setname: make,                     name: [make-dfsg,make-doc-non-dfsg], addflavor: true }
 - { setname: make,                     name: [gnuwin32-make], addflavor: true }
+- { setname: mandelbulber,             name: mandelbulber2 }
+- { setname: mandelbulber,             name: [mandelbulber-opencl, mandelbulber2-opencl], addflavor: opencl }
 - { setname: mandoc,                   name: mdocml } # mdocml is an old name (schwarze@openbsd.org)
 - { setname: manpages,                 name: [man-pages,linux-man-pages,linux-manpages] }
 - { setname: marathon,                 name: [alephone-marathon, marathon-data] }
