@@ -21,6 +21,7 @@
 - { setname: marathon-evil,            name: marathon-evil-data }
 - { setname: marathon-infinity,        name: [marathon-infinity-data, marathoninfinity] }
 - { setname: marathon-red,             name: marathon-red-data }
+- { setname: marble,                   name: marble-qt, addflavor: true }
 - { setname: marco,                    name: marco-dev, weak_devel: true }
 - { setname: marco,                    name: marco-gtk2, addflavor: true }
 - { setname: mariadb,                  namepat: "(lib)?mariadb[0-9.-]*(clients?|server)?[0-9.-]*", addflavor: [$1,$2] }

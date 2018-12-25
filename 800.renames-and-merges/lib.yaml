@@ -111,6 +111,7 @@
 - { setname: libmspub,                 namepat: "libmspub[0-9.-]+" }
 - { setname: libmusicbrainz,           namepat: "(?:lib)?musicbrainz[0-9.-]*" }
 - { setname: libmwaw,                  namepat: "libmwaw[0-9.-]+" }
+- { setname: libmygpo-qt,              name: [libmygpo-qt4,libmygpo-qt5], addflavor: true }
 - { setname: libnet,                   namepat: "libnet[0-9.-]+x?" } # also account for libnet-1.0.x from entware
 - { setname: libnice,                  namepat: "libnice-(gst.*)", addflavor: true }
 - { setname: libnice,                  name: "gstreamer0plugins:libnice", addflavor: gstreamer }
