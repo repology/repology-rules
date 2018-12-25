@@ -31,6 +31,7 @@
 - { name: qtox,                        verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: qtox,                        verpat: "2017.*",                                   outdated: true } # 1.15 from 2018
 - { name: quadra,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }
+- { name: quadrapassel,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: quota,                       verpat: "20[0-9]{6}.*",                             snapshot: true } # crux
 - { name: qupzilla,                                                  ruleset: kaos,        untrusted: true } # snapshot with random version
 - { name: qvwm,                        ver: "1.1.12.1",              ruleset: aur,         incorrect: true }
