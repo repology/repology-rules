@@ -161,6 +161,7 @@
 - { setname: mpich,                    namepat: "mpich-devel(?:-clang|-gcc|-llvm)?[0-9.-]*", weak_devel: true }
 - { setname: mpqc,                     name: mpqc-shared, addflavor: true }
 - { setname: mpqc,                     name: mpqc3 }
+- { setname: mrboom,                   name: libretro-mrboom }
 - { setname: ms-gsl,                   name: [guidelines-support-library,microsoft-gsl,c++gsl] }
 - { setname: msgpack,                  name: [msgpack-c,msgpack-c-cpp,libmsgpack,msgpack1] } # c/cpp by default
 - { setname: mstflint,                 name: mstflint4 }
