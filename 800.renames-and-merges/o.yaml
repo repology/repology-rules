@@ -8,6 +8,8 @@
 - { setname: "ocaml:opam-file-format", name: opam-file-format }
 - { setname: octave,                   namepat: "octave[0-9.-]+" }
 - { setname: octopi,                   name: [octopi-cachecleaner,octopi-debug,octopi-kde,octopi-notifier,octopi-notifier-frameworks,octopi-notifier-noknotify,octopi-notifier-qt5,octopi-pacmanhelper,octopi-repoeditor], addflavor: true }
+- { setname: obs-studio,               name: obs }
+- { setname: obs-studio,               name: [obs-studio-small,obs-studio-vaapi], addflavor: true }
 - { setname: ode,                      name: [libode,open-dynamics-engine,ode-011] }
 - { setname: ode,                      name: ode-python-bindings, addflavor: true }
 - { setname: odoo,                     namepat: "odoo[0-9.-]+" }
