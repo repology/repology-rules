@@ -30,6 +30,8 @@
 
 - { name: shutter, ruleset: maemo, setname: shutter-maemo }
 
+- { name: sidplay, wwwpart: sidplay/mac, setname: sidplay-mac }
+
 - { name: sift, wwwpart: [sift.jcvi.org, sift.bii.a-star.edu.sg], setname: sift-med } # XXX: cannot decide better name
 - { name: sift, wwwpart: [sift-tool,svent], addflag: classidied }
 - { name: sift, noflag: classified, warning: "please classify me" }
