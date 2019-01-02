@@ -11,6 +11,9 @@
 
 - { name: libelf,                      wwwpart: elfutils, setname: elfutils } # Arch: XXX: problem
 
+- { name: libgl, wwwpart: mesa, setname: mesa }
+- { name: libgl, verpat: "1[89]\\..*", setname: mesa } # kaos
+
 - { name: libidn,                      verpat: "2.*", setname: libidn2 } # Haikuports: XXX: problem, different libraries
 
 - { name: libmpc,                      wwwpart: multiprecision, setname: gnumpc }
