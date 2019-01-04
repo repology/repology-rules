@@ -13,6 +13,10 @@
 - { name: ddskk,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: deadbeef,                    ver: "0.7.20",                ruleset: pisi,        incorrect: true }
 - { name: deadbeef,                                                  ruleset: pisi,        untrusted: true } # accused of fake 0.7.20
+- { name: deadbeef,                    ver: "0.8.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: deadbeef,                                                  ruleset: sisyphus,    untrusted: true } # accused of fake 0.8.0
+- { name: deadbeef,                    ver: "0.7.3",                 ruleset: [fedora,rosa], incorrect: true }
+- { name: deadbeef,                                                  ruleset: [fedora,rosa], untrusted: true } # accused of fake 0.7.3
 - { name: dee-qt,                      verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: deepin-sound-theme,          ver: "17.07.31",              ruleset: pardus,      ignore: true }
 - { name: deepin-utils,                                                                    noscheme: true }
