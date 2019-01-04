@@ -11,6 +11,8 @@
 - { setname: vala,                     name: valac }
 - { setname: valyriatear,              name: valyria-tear }
 - { setname: varnish,                  namepat: "varnish[0-9.-]+" }
+- { setname: vde,                      name: vde2 }
+- { setname: vde,                      name: [vde2-dosemu2,vde2-static], addflavor: true }
 - { setname: vdr,                      name: vdr-devel, weak_devel: true }
 - { setname: vdrift,                   name: vdrift-data, addflavor: data }
 - { setname: vegastrike,               name: vega-strike }
