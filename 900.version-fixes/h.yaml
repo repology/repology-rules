@@ -29,5 +29,8 @@
 - { name: hunspell-pt-br,              ver: "20131017",                                    ignore: true }
 - { name: hunspell-pt-br,              ver: "2013.10.30",                                  setver: "3.2" } # see report
 - { name: hydra,                       verpat: ".*20[0-9]{6}",                             snapshot: true } # termux
-- { name: hydrogen,                    verpat: "20[0-9]{6}.*",                             ignore: true } # gobolinux
+- { name: hydrogen,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true } # gobolinux, gentoo
+- { name: hydrogen,                    verpat: ".*beta2",            ruleset: rosa,        incorrect: true }
+- { name: hydrogen,                                                  ruleset: rosa,        untrusted: true } # accused of fake 1.0.0beta2
+- { name: hydrogen,                    verpat: ".*b[0-9]+\\.[0-9]+",                       incorrect: true } # freebsd garbage
 - { name: hyphy,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true }
