@@ -1,5 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: i3blocks,                    ver: "1.4.93",                ruleset: freebsd,     incorrect: true }
+- { name: i3blocks,                                                  ruleset: freebsd,     untrusted: true } # accused of fake 1.4.93
 - { name: i7z,                         verpat: "93.*",               ruleset: [ gentoo ],  ignore: true } # Snapshot version, based on svn r93
 - { name: i7z,                         verlonger: 3,                                       ignore: true } # 0.27.2.git1 @ Arch
 - { name: i7z,                         verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
