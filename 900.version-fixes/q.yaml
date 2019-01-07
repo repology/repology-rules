@@ -17,6 +17,7 @@
 - { name: qjson,                                                     ruleset: openmandriva, untrusted: true }
 - { name: qjson,                                                     ruleset: pisi,        untrusted: true } # repacked, accused of fake 0.82
 - { name: qlipper,                     verpat: "20[0-9]{6}.*",                             snapshot: true }
+- { name: qml-box2d,                                                                       noscheme: true }
 - { name: qpdfview,                    ver: "0.4.17",                                      incorrect: true } # skipped upstream
 - { name: qpdfview,                    ver: "0.4.16.80",                                   incorrect: true } # fake
 - { name: qpdfview,                                                  ruleset: kaos,        untrusted: true } # accused of fake 0.4.16.80
