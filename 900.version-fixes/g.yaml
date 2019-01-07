@@ -1,5 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: ganv,                        ver: "1.5.4",                 ruleset: guix,        incorrect: true }
+- { name: ganv,                                                      ruleset: guix,        untrusted: true }
 - { name: gap,                         verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: gaupol,                      ver: "1.4.3",                 ruleset: freebsd,     incorrect: true }
 - { name: gaupol,                                                    ruleset: freebsd,     untrusted: true }
