@@ -15,6 +15,8 @@
 - { name: range-v3,                    ver: "1.0.0",                 ruleset: buckaroo,    incorrect: true } # 0.3.6 https://github.com/ericniebler/range-v3/releases
 - { name: range-v3,                                                  ruleset: buckaroo,    untrusted: true }
 - { name: rar,                         verpat: ".*20[0-9]{6}",                             ignore: true }
+- { name: raul,                        ver: "0.8.9",                 ruleset: guix,        incorrect: true }
+- { name: raul,                                                      ruleset: guix,        untrusted: true } # accused of fake 0.8.9
 - { name: rawstudio,                   ver: "2.1",                   ruleset: [sisyphus,fedora], incorrect: true } # Fedora and ALT Sisphus are packaging devel snapshot as version number not released ustream
 - { name: rawstudio,                                                 ruleset: [sisyphus,fedora], untrusted: true }
 - { name: rblcheck,                    verpat: "20[0-9]{6}",                               snapshot: true }
