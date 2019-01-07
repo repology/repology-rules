@@ -8,6 +8,8 @@
 - { name: icebreaker,                  ver: "1.21",                                        setver: "1.2.1" }
 - { name: icecat,                                                                          setver: "$0gnu1" } # it uses gnu suffix, in most cases it's gnu1, but there were gnu2 as well
 - { name: icecat,                      verpat: "(.*gnu.*)gnu1",                            setver: "$1" }
+- { name: icecat,                      ver: "60.4.0gnu1",            ruleset: [chocolatey,fedora], incorrect: true }
+- { name: icecat,                                                    ruleset: [chocolatey,fedora], untrusted: true } # accused of fake 60.4.0 (no tag as of 2019-01-08 at http://git.savannah.gnu.org/cgit/gnuzilla.git)
 - { name: icecream,                    verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: icemon,                      verpat: "[0-9a-f]{7}",                              incorrect: true }
 - { name: ices,                        verpat: ".*20[0-9]{6}",                             ignore: true }
