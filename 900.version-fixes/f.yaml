@@ -78,6 +78,7 @@
 - { name: foomatic,                    verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: foomatic-db,                                                                     noscheme: true }
 - { name: foomatic-db-engine,          verpat: ".*20[0-9]{6}",                             ignore: true }
+- { name: foomatic-db-nonfree,                                                             noscheme: true }
 - { name: forecast,                    verlt: "0.5.1",                                     outdated: true, disposable: true } # there's 0.5.1
 - { name: forecast,                    ver: "0.5.1",                                       rolling: false, disposable: true }
 - { name: fotowall,                    verpat: "20[0-9]{6}.*",                             ignore: true }
