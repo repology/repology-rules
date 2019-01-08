@@ -137,6 +137,7 @@
 - { setname: "python:numpy",           name: numpy } # XXX: make upstream use prefix
 - { setname: "python:numpy",           namepat: "python:numpy[0-9.-]+-gnu-hpc", addflavor: gnuhpc }
 - { setname: "python:pandas",          name: pandas }
+- { setname: "python:pandas",          name: ["python:pandas-doc", "python:pandas-docs"], addflavor: docs }
 - { setname: "python:pandocfilters",   name: pandocfilters }
 - { setname: "python:paramiko",        name: ["python:paramiko1", "python:paramiko1.10"] }
 - { setname: "python:paramiko",        name: paramiko }
