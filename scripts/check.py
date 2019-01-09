@@ -167,7 +167,7 @@ schema = Schema(
 
 
 order_fields_by_pattern = {
-    '.*800.renames-and-merges/[0degijklnqtuwyz]\.yaml': 'setname',
+    '.*800.renames-and-merges/.\.yaml': 'setname',
 #    '.*850.split-ambiguities/.*\.yaml': 'name',
     '.*900.version-fixes/.*\.yaml': 'name',
     '.*950.split-branches.yaml': 'name',

@@ -27,21 +27,21 @@
 - { setname: schismtracker,            name: schism }
 - { setname: schroedinger,             name: libschroedinger }
 - { setname: scourge,                  name: scourge-data, addflavor: data }
-- { setname: scrot,                    name: scrot-no-beep, addflavor: no-beep }
 - { setname: screenfetch,              name: screenfetch-dev, weak_devel: true }
+- { setname: scrot,                    name: scrot-no-beep, addflavor: no-beep }
 - { setname: sddm,                     name: [sddm-classic,sddm-elogind], addflavor: true }
 - { setname: sdl,                      name: [libsdl,sdl1,sdl12,libsdl1.2] }
 - { setname: sdl,                      name: sdl-runtime, addflavor: true }
-- { setname: sdl2,                     name: [libsdl2,sdl20] }
-- { setname: sdl2,                     name: [sdl2-nox,sdl2-rbp], addflavor: true }
-- { setname: sdl2-image,               name: sdl-image, verpat: "2.*" }
-- { setname: sdl2-$1,                  namepat: "(?:lib)?sdl2[0-9.-]*(image|mixer|net|ttf|gfx)" }
-- { setname: sdl2-$1,                  namepat: "(?:lib)?sdl-?(image|mixer|net|ttf|gfx)2[0-9.-]*" }
 - { setname: sdl-$1,                   namepat: "(?:lib)?sdl(?:1[0-9.]*)?-?(image|mixer|net|ttf|gfx)(?:1[0-9.-]*)?" }
 - { setname: sdl-pango,                name: [libsdl-pango,sdlpango] }
 - { setname: sdl-sge,                  name: libsdl-sge }
 - { setname: sdl-sound,                name: sdl-sound-patched, addflavor: patched }
 - { setname: sdl-sound,                namepat: "(?:lib)?sdl[0-9.-]*sound[0-9.-]*" }
+- { setname: sdl2,                     name: [libsdl2,sdl20] }
+- { setname: sdl2,                     name: [sdl2-nox,sdl2-rbp], addflavor: true }
+- { setname: sdl2-$1,                  namepat: "(?:lib)?sdl2[0-9.-]*(image|mixer|net|ttf|gfx)" }
+- { setname: sdl2-$1,                  namepat: "(?:lib)?sdl-?(image|mixer|net|ttf|gfx)2[0-9.-]*" }
+- { setname: sdl2-image,               name: sdl-image, verpat: "2.*" }
 - { setname: sdlconsole,               name: [libsdl-console,sdl-console] }
 - { setname: sdllopan,                 name: sdl-lopan }
 - { setname: sdlmame,                  name: sdlmame-wout-toolkits, addflavor: wout-toolkits }
@@ -71,10 +71,10 @@
 - { setname: shellcheck,               name: "haskell:shellcheck" }
 - { setname: sherlock.lv2,             name: sherlock-lv2 }
 - { setname: shibboleth-sp,            namepat: "shibboleth-sp[0-9]+" }
-- { setname: shotcut,                  name: shotcut-dmo }
 - { setname: shorewall,                name: [shorewall-core,shorewall-doc,shorewall-docs-html,shorewall-init,shorewall-lite] }
 - { setname: shorewall,                name: shorewall6 }
 - { setname: shorewall,                name: shorewall6-lite, addflavor: shorewall-lite }
+- { setname: shotcut,                  name: shotcut-dmo }
 - { setname: sidplay,                  namepat: "(?:lib)?sidplay[0-9]*" }
 - { setname: sidplay,                  name: [libsidplay, libsidplay2, sidplay-libs, sidplay2-libs, sidplay-base] }
 - { setname: sidplay,                  name: sidplay2-alsa, addflavor: alsa }
@@ -115,8 +115,8 @@
 - { setname: softhsm,                  namepat: "softhsm[0-9]+" }
 - { setname: sogo,                     name: [gnustep-sogo,gnustep-sogo3,sogo4] }
 - { setname: sogo,                     name: [sogo2-activesync,sogo3-activesync,sogo4-activesync], addflavor: activesync }
-- { setname: sope,                     name: sope4 }
 - { setname: soil,                     name: libsoil }
+- { setname: sope,                     name: sope4 }
 - { setname: sopwith,                  name: [sdlsopwith,sdl-sopwith] }
 - { setname: sorcer,                   name: [lv2-sorcer,openav-sorcer,openav-sorcer-lv2,sorcer-lv2] }
 - { setname: sord,                     name: libsord }

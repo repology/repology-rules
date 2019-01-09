@@ -5,9 +5,9 @@
 - { setname: abbaye-des-morts,         name: abbaye }
 - { setname: abbaye-des-morts,         name: abbayedesmorts }
 - { setname: abbaye-des-morts,         name: abbayedesmorts-gpl }
+- { setname: abgate,                   name: [abgate-lv2,lv2-abgate] }
 - { setname: abiword,                  name: [abiword-x11,abiword-gtk2,abiword-minimal,abiword-debug,abiword-docs,abiword-extras,abiword-plugins], addflavor: true }
 - { setname: abiword,                  name: abiword26 }
-- { setname: abgate,                   name: [abgate-lv2,lv2-abgate] }
 - { setname: abuse,                    name: abuse-free, addflavor: free }
 - { setname: abuse,                    name: abuse-sdl }
 - { setname: accounts-qt,              name: accounts-qt5, ruleset: sisyphus }
@@ -75,9 +75,9 @@
 - { setname: amavisd-new,              name: amavisd, ruleset: openpkg }
 - { setname: amd-app-sdk,              name: amdapp-sdk }
 - { setname: amp,                      name: "rust:amp" }
+- { setname: ampy,                     name: ["python:adafruit-ampy","python:ampy",adafruit-ampy,ampy], wwwpart: adafruit }
 - { setname: amule,                    name: [amule-daemon,amule-gui], addflavor: true }
 - { setname: amule,                    name: amule-devel, weak_devel: true }
-- { setname: ampy,                     name: ["python:adafruit-ampy","python:ampy",adafruit-ampy,ampy], wwwpart: adafruit }
 - { setname: amzn-drivers,             name: [ena, dkms-ena], addflavor: true }
 - { setname: anacron2,                 name: anacron, verpat: "2\\.[4-9].*" } # different project (a fork?)
 - { setname: android-studio,           name: [android-studio-beta,android-studio-canary,android-studio-dummy,android-studio-preview], ignore: true } # these could be devel, but they do often fall behind, and due to viral devel property be safe and ignore them
@@ -139,8 +139,8 @@
 - { setname: aspell-$1,                namepat: "aspell-dict-(.*)" }
 - { setname: asterisk,                 namepat: "asterisk[0-9.-]+x?" } # e.g. asterisk-11.x from openwrt as well
 - { setname: asterisk-core-sounds,     namepat: "asterisk-core-sounds-.*", ruleset: openbsd }
-- { setname: asterisk-extra-sounds,    namepat: "asterisk-extra-sounds-.*", ruleset: openbsd }
 - { setname: asterisk-espeak,          namepat: "(asterisk[0-9]+)-espeak", addflavor: $1 }
+- { setname: asterisk-extra-sounds,    namepat: "asterisk-extra-sounds-.*", ruleset: openbsd }
 - { setname: asterisk-flite,           namepat: "(asterisk[0-9]+)-flite", addflavor: $1 }
 - { setname: asterisk-g72x,            namepat: "(asterisk[0-9]+)-g72x", addflavor: $1 }
 - { setname: astromenace,              name: openastromenace }
@@ -158,11 +158,11 @@
 - { setname: atlas,                    name: libatlas3 }
 - { setname: atlas-c++,                name: [atlas,atlas-devel], category: devel, ruleset: [freebsd,openbsd] } # don't mix with math/atlas
 - { setname: atlas-c++,                name: [atlas-cpp,atlascpp,libatlascpp] }
-- { setname: atomix,                   name: gnome-games-atomix }
 - { setname: atom,                     name: [atom-beta,atom-editor-beta], weak_devel: true }
 - { setname: atom,                     name: atom-editor }
 - { setname: atom,                     name: [atom-amd64,atom-bin], addflavor: true }
 - { setname: atom,                     name: [atom-transparent,atom-editor-transparent], addflavor: transparent }
+- { setname: atomix,                   name: gnome-games-atomix }
 - { setname: atop-freebsd,             name: atop, ruleset: freebsd } # fork
 - { setname: atril,                    name: mate-atril }
 - { setname: atril,                    name: atril-dev, weak_devel: true }
@@ -193,17 +193,17 @@
 - { setname: avidemux,                 name: [avidemux2.6,avidemux3] }
 - { setname: avidemux,                 name: [avidemux-cli,avidemux-core,avidemux-plugins,avidemux-qt,avidemux-qt4], addflavor: true }
 - { setname: avldrums.lv2,             name: avldrums-lv2 }
-- { setname: avw.lv2,                  name: avw-plugins-lv2 }
 - { setname: avogadro2,                name: avogadroapp, addflavor: app }
 - { setname: avogadrolibs,             name: avogadro2-libs }
 - { setname: avr8-burn-o-mat,          name: avr8-burn-omat }
 - { setname: avrdude,                  name: arduino-avrdude, addflavor: adruino }
 - { setname: avro-c++,                 name: avro-cpp }
+- { setname: avw.lv2,                  name: avw-plugins-lv2 }
 - { setname: awesome,                  name: awesome-luajit, addflavor: jit }
 - { setname: awesome,                  namepat: "awesome[0-9.-]+" }
 - { setname: awf,                      name: awf-git, snapshot: true }
 - { setname: aws-cw-tools,             name: cloud-watch }
-- { setname: awsebcli,                 name: [aws-eb-cli,aws-elasticbeanstalk,"python:aws-eb-cli"] }
 - { setname: awscli,                   name: "python:awscli" }
 - { setname: awscli,                   name: aws-cli }
+- { setname: awsebcli,                 name: [aws-eb-cli,aws-elasticbeanstalk,"python:aws-eb-cli"] }
 - { setname: awstats,                  name: "perl:awstats" }

@@ -1,5 +1,10 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: xorg-server$1,            namepat: "xorg-server[0-9.]+(-.+)?" } # XXX: should be before large xorg-server rule at the end
+- { setname: xorg-server$1,            namepat: "xorg-server(-.+)?-dev", ignore: true } # XXX: should be before large xorg-server rule at the end
+- { setname: xorg-server,              name: modular-xorg-server }
+- { setname: xorg-server,              namepat: "xorg-server-lts-[a-z]+" }
+
 - setname: xorg-server
   name:
     - xorg-dmx

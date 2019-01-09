@@ -34,8 +34,8 @@
 - { setname: xbase,                    name: [libxbase,xbase64] }
 - { setname: xcb-proto,                name: libxcbutil-proto }
 - { setname: xcb-proto,                name: xorg-xcbproto-devel, weak_devel: true }
-- { setname: xcb-util$1,               namepat: "libxcbutil(.*)" }
 - { setname: xcb-util,                 name: xcb-util036 }
+- { setname: xcb-util$1,               namepat: "libxcbutil(.*)" }
 - { setname: xcb-util-keysyms,         name: xcb-util-keysyms1 }
 - { setname: xcb-util-renderutil,      name: [lib32-xcb-util-renderutil,libxcb-render-util,xorg-xcb-render-util] }
 - { setname: xcb-util-xrm,             name: xcb-utils-xrm } # XXX: problem
@@ -58,8 +58,8 @@
 - { setname: xfdesktop,                name: xfdesktop-devel, weak_devel: true }
 - { setname: xfdesktop,                name: xfdesktop-gtk3, addflavor: gtk3 }
 - { setname: xine-lib,                 name: [xine-lib-1.2,xine-lib1.2,libxine,libxine2] }
-- { setname: xine-ui,                  name: [xine,xine-ui2] }
 - { setname: xine-plugin,              name: xine-browser-plugin }
+- { setname: xine-ui,                  name: [xine,xine-ui2] }
 - { setname: xkeyboard-config,         name: [xkeyboard-config-chromebook,xkeyboard-config-hhk,xkeyboard-config-rub], addflavor: true }
 - { setname: xmbmon,                   name: mbmon }
 - { setname: xmds,                     name: xmds-doc, addflavor: doc }
@@ -74,10 +74,6 @@
 - { setname: xmoto,                    name: x-moto }
 - { setname: xmrig,                    name: xmrig-donateless, addflavor: donateless }
 - { setname: xonotic,                  name: [xonotic-data,xonotic-data-low], addflavor: true }
-- { setname: xorg-server$1,            namepat: "xorg-server[0-9.]+(-.+)?" } # XXX: should be before large xorg-server rule at the end
-- { setname: xorg-server$1,            namepat: "xorg-server(-.+)?-dev", ignore: true } # XXX: should be before large xorg-server rule at the end
-- { setname: xorg-server,              name: modular-xorg-server }
-- { setname: xorg-server,              namepat: "xorg-server-lts-[a-z]+" }
 - { setname: xournal,                  name: xournal-gtk3, addflavor: gtk3 }
 - { setname: xpdf,                     name: [xpdf3,xpdf4] }
 - { setname: xpilot-ng,                name: [xpilot-ng-client, xpilot-ng-server], addflavor: true }

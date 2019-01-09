@@ -5,11 +5,11 @@
 - { setname: obfsproxy,                name: ["python:obfsproxy", "python:obfsproxy-tor"] }
 - { setname: objectweb-asm,            namepat: "(java-|objectweb-)?asm[0-9]*" }
 - { setname: objectweb-asm,            name: libasm4-java }
+- { setname: obs-studio,               name: obs }
+- { setname: obs-studio,               name: [obs-studio-small,obs-studio-vaapi], addflavor: true }
 - { setname: "ocaml:opam-file-format", name: opam-file-format }
 - { setname: octave,                   namepat: "octave[0-9.-]+" }
 - { setname: octopi,                   name: [octopi-cachecleaner,octopi-debug,octopi-kde,octopi-notifier,octopi-notifier-frameworks,octopi-notifier-noknotify,octopi-notifier-qt5,octopi-pacmanhelper,octopi-repoeditor], addflavor: true }
-- { setname: obs-studio,               name: obs }
-- { setname: obs-studio,               name: [obs-studio-small,obs-studio-vaapi], addflavor: true }
 - { setname: ode,                      name: [libode,open-dynamics-engine,ode-011] }
 - { setname: ode,                      name: ode-python-bindings, addflavor: true }
 - { setname: odoo,                     namepat: "odoo[0-9.-]+" }
@@ -19,10 +19,10 @@
 - { setname: ogre,                     namepat: "ogre[0-9.-]+" }
 - { setname: olm,                      name: libolm }
 - { setname: ombi,                     name: [ombi-beta,ombi-dev] }
-- { setname: oniguruma,                name: [onig,libonig], addflavor: onig }
-- { setname: oniguruma,                namepat: "oniguruma[0-9.-]+" }
 - { setname: onehouronelife,           namepat: onehouronelife-latest, rolling: true }
 - { setname: onehouronelife,           name: one-hour-one-life }
+- { setname: oniguruma,                name: [onig,libonig], addflavor: onig }
+- { setname: oniguruma,                namepat: "oniguruma[0-9.-]+" }
 - { setname: onscripter,               name: onscripter-1byte, addflavor: 1byte }
 - { setname: opaline,                  name: "ocaml:opaline" }
 - { setname: opam,                     name: ["ocaml:opam",opam2] }
@@ -38,9 +38,9 @@
 - { setname: opencv,                   name: [opencv2,libopencv3.4,opencv-legacy] }
 - { setname: opencv,                   name: [opencv-contrib-face,opencv-core,opencv-docs,opencv-cuda,opencv-java,opencv-qt5,opencv-samples], addflavor: true }
 - { setname: opendbx,                  name: libopendbx }
+- { setname: opendht,                  name: "python:opendht" }
 - { setname: opendkim,                 name: libopendkim }
 - { setname: opendnssec,               name: opendnssec2 }
-- { setname: opendht,                  name: "python:opendht" }
 - { setname: openjade,                 name: jade, ruleset: aosc }
 - { setname: openjade,                 namepat: "openjade[0-9.-]+" }
 - { setname: openjdk,                  namepat: "openjdk[0-9.-]*(?:-doc)?" }
@@ -76,9 +76,10 @@
 - { setname: opensp,                   name: opensp-doc, addflavor: doc }
 - { setname: openssh,                  name: openssh-portable }
 - { setname: openssh,                  name: ssh-copy-id, addflavor: ssh-copy-id }
-- { setname: ossp-al,                  name: al, ruleset: openpkg }
-- { setname: ossp-cfg,                 name: cfg, ruleset: openpkg }
-- { setname: ostree,                   name: libostree }
+- { setname: openssl,                  namepat: "(?:compat-)?(?:lib)?openssl[0-9.-]*(?:[0-9.-]+[a-z])?" }
+- { setname: openssl,                  name: openssl-devel, weak_devel: true }
+- { setname: openssl,                  name: [openssl-nonfree,openssl-threads,openssl-zlib], addflavor: true }
+- { setname: openssl,                  name: openssl098-dev }
 - { setname: openttd-$0,               namepat: "open(?:gfx|sfx)" }
 - { setname: openttd-$0,               namepat: openmsx, wwwpart: openttd }
 - { setname: openttd-open$1,           namepat: "openttd-(gfx|sfx|msx)" }
@@ -87,18 +88,17 @@
 - { setname: opentyrian,               name: open-tyrian }
 - { setname: openvpn,                  name: [openvpn-mbedtls,openvpn-polarssl,openvpn2,openvpn23] }
 - { setname: openzwave,                name: open-zwave }
-- { setname: openssl,                  namepat: "(?:compat-)?(?:lib)?openssl[0-9.-]*(?:[0-9.-]+[a-z])?" }
-- { setname: openssl,                  name: openssl-devel, weak_devel: true }
-- { setname: openssl,                  name: [openssl-nonfree,openssl-threads,openssl-zlib], addflavor: true }
-- { setname: openssl,                  name: openssl098-dev }
 - { setname: opus,                     name: libopus }
 - { setname: opusfile,                 name: libopusfile }
 - { setname: orafce,                   namepat: "(postgresql[0-9.-]*)-orafce", addflavor: $1 }
-- { setname: orcania,                  name: liborcania }
 - { setname: orbit2,                   name: orbit }
 - { setname: orbit2,                   name: orbit2-reference, addflavor: reference }
+- { setname: orcania,                  name: liborcania }
 - { setname: ortp,                     namepat: "(?:lib)?ortp[0-9.-]*" }
 - { setname: osgearth,                 name: osgearth-qt4, addflavor: true }
-- { setname: ospd,                     name: [openvas-ospd, "python:ospd"] }
 - { setname: osip,                     name: [libosip,libosip2,osip2] }
+- { setname: ospd,                     name: [openvas-ospd, "python:ospd"] }
+- { setname: ossp-al,                  name: al, ruleset: openpkg }
+- { setname: ossp-cfg,                 name: cfg, ruleset: openpkg }
+- { setname: ostree,                   name: libostree }
 - { setname: otb,                      name: [orfeo-toolbox,orfeotoolbox] }

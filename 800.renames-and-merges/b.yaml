@@ -24,11 +24,11 @@
 - { setname: batman-adv,               name: [batman-adv-dkms,batman-adv-legacy-dkms], addflavor: dkms }
 - { setname: batman-adv,               name: batman-adv-optimized, addflavor: true }
 - { setname: batman-adv,               name: batman-adv14 }
-- { setname: battery-monitor,          name: battery-monitor-devel, weak_devel: true }
 - { setname: bats,                     name: [bats-core,bash-bats] }
+- { setname: battery-monitor,          name: battery-monitor-devel, weak_devel: true }
+- { setname: baudline,                 name: linux-baudline, ruleset: freebsd }
 - { setname: bazel,                    name: bazel-clang38, addflavor: true }
 - { setname: bazel-buildtools,         name: buildifier, addflavor: true }
-- { setname: baudline,                 name: linux-baudline, ruleset: freebsd }
 - { setname: bbpager,                  name: [bbpager03,bbpager04] }
 - { setname: bbswitch,                 namepat: "(linux[0-9]+)-bbswitch", addflavor: $1 }
 - { setname: bbswitch,                 name: dkms-bbswitch }
@@ -60,10 +60,10 @@
 - { setname: bird,                     name: [bird-v6,bird6], addflavor: ipv6 }
 - { setname: bison,                    name: [bison-doc,bison-runtime], addflavor: true }
 - { setname: bison,                    name: [bison2,bison27] }
+- { setname: bisonc++,                 name: bisoncpp }
 - { setname: bitdefender,              name: bdc, ruleset: openpkg }
 - { setname: bitkeeper,                name: bitkeeper-development, weak_devel: true }
 - { setname: bitkeeper,                name: bitkeeper-production }
-- { setname: bisonc++,                 name: bisoncpp }
 - { setname: blackshades,              name: blackshades-svn, ignore: true }
 - { setname: blackshadeselite,         name: blackshades-elite-svn, ignore: true }
 - { setname: blas,                     name: [blas-reference,blas-docs], addflavor: docs }

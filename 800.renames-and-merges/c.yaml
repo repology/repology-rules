@@ -116,14 +116,13 @@
 - { setname: cmrt,                     name: libcmrt }
 - { setname: cntk,                     name: "python:cntk" }
 - { setname: cockatrice,               name: [cockatrice-client,cockatrice-server] }
-- { setname: codec2,                   name: libcodec2 }
 - { setname: codeblocks,               name: [codeblocks-gcc,codeblocks-full], addflavor: true }
 - { setname: codeblocks,               name: codeblocks-devel, weak_devel: true }
+- { setname: codec2,                   name: libcodec2 }
 - { setname: coffee-script,            name: coffeescript } # XXX: problem
 - { setname: cogl,                     name: cogl-amdgpu-pro }
 - { setname: cogl,                     name: libcogl }
 - { setname: cogl,                     namepat: "compat-cogl[0-9]+" }
-- { setname: coin3d,                   name: [coin, coin-framework, coin2, coin3] } # collisions possible in future
 - { setname: coin-or-$1,               namepat: "coinor-(.*)" } # XXX: problem
 - { setname: coin-or-alps,             name: coinalps }
 - { setname: coin-or-bcp,              name: coinbcp }
@@ -133,14 +132,15 @@
 - { setname: coin-or-cbc,              name: coincbc }
 - { setname: coin-or-cgl,              name: coincgl }
 - { setname: coin-or-clp,              name: coinclp }
-- { setname: coin-or-couenne,          name: coincouenne }
 - { setname: coin-or-coinutils,        name: [coin-or-utils,coinutils] }
+- { setname: coin-or-couenne,          name: coincouenne }
 - { setname: coin-or-csdp,             name: coincsdp }
 - { setname: coin-or-dip,              name: coindip }
 - { setname: coin-or-dylp,             name: coindylp }
 - { setname: coin-or-flopc++,          name: [coinflopcpp,coin-or-flopcpp] }
 - { setname: coin-or-lemon,            name: [coinlemon,coin-or-liblemon] }
 - { setname: coin-or-symphony,         name: coinsymphony }
+- { setname: coin3d,                   name: [coin, coin-framework, coin2, coin3] } # collisions possible in future
 - { setname: collectd,                 name: [collectd-amqp,collectd-curl,collectd-data,collectd-dbi,collectd-dns,collectd-lua,collectd-memcached,collectd-mysql,collectd-network,collectd-notify-email,collectd-postgresql95,collectd-riemann,collectd-rrdtool,collectd-snmp,collectd-write-prometheus,libcollectdclient,"perl:collectd","python:collectd"], addflavor: true }
 - { setname: collectd,                 name: collectd5 }
 - { setname: colorcode,                name: color-code }
@@ -156,10 +156,10 @@
 - { setname: conky,                    name: [conky-all,conky-audacious,conky-awesome,conky-cairo,conky-cli,conky-lua,conky-lua-archers,conky-lua-nv,conky-mt,conky-nvidia,conky-utfscroll], addflavor: true }
 - { setname: conky,                    name: conky19-lua-nv, addflavor: lua-nv }
 - { setname: conky-manager,            name: conky-manager2 }
-- { setname: conserver,                name: conserver8 }
 - { setname: connman-ui,               name: connman-ui-git, weak_devel: true }
 - { setname: connman-ui,               name: connmanui }
 - { setname: conntrack-tools,          name: conntrack }
+- { setname: conserver,                name: conserver8 }
 - { setname: consolekit,               name: consolekit2 }
 - { setname: cookiecutter,             name: "python:cookiecutter" }
 - { setname: coolreader3,              name: coolreader }
@@ -203,6 +203,8 @@
 - { setname: cuda,                     namepat: "cuda-?[0-9.]+" }
 - { setname: cumulus,                  name: cumuluslanguagede, addflavor: de }
 - { setname: cuneiform,                name: cuneiform-linux }
+- { setname: cups,                     name: [cups-libs,cups-base,cups-minimal,cups-nosystemd,libcups,libcups-ipp14,cups-doc,cups-ipp14], addflavor: true }
+- { setname: cups-filters,             name: [cups-filters-debug,cups-filters-driverless], addflavor: true }
 - { setname: cura,                     name: cura-beta, weak_devel: true }
 - { setname: cura,                     name: [cura-old, cura-not-so-old] }
 - { setname: curaengine,               name: curaengine-beta, weak_devel: true }
@@ -212,8 +214,6 @@
 - { setname: curseofwar,               name: curse-of-war }
 - { setname: curseofwar,               name: curseofwar-sdl }
 - { setname: curses-hexedit,           name: [chexedit,ncurses-hexedit,nchexedit] }
-- { setname: cups,                     name: [cups-libs,cups-base,cups-minimal,cups-nosystemd,libcups,libcups-ipp14,cups-doc,cups-ipp14], addflavor: true }
-- { setname: cups-filters,             name: [cups-filters-debug,cups-filters-driverless], addflavor: true }
 - { setname: cutecom,                  name: cutecom-legacy }
 - { setname: cutter-unittest,          name: [cutter-test-framework,cutter-testing-framework] }
 - { setname: cutycapt,                 name: cutycapt-qt5, addflavor: true }
