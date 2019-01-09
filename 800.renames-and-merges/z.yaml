@@ -19,7 +19,7 @@
 - { setname: zerotier-one,             name: [zerotier,zerotier-one-with-controller,zerotierone] }
 - { setname: zerotier-one,             name: [zerotier-one-armv7h,zerotier-one-debug], addflavor: true }
 - { setname: zfs,                      namepat: "(linux[0-9]+)-zfs", addflavor: $1 }
-- { setname: zfs,                      name: [zfs-kmod,zfs-on-linux,zfs-userzfs-utils,zfs-utils-common], addflavor: true }
+- { setname: zfs,                      name: [zfs-kmod,zfs-on-linux,zfs-userzfs-utils,zfs-utils-common,zfs-kernel], addflavor: true }
 - { setname: zhparser,                 namepat: "(postgresql[0-9.-]*)-zhparser", addflavor: $1 }
 - { setname: zig,                      name: ziglang }
 - { setname: zim,                      name: "python:zim" }
