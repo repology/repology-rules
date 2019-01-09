@@ -1,5 +1,10 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: boost,                    name: ["python:boost","python:boost-libs","boost-python3"], addflavor: python }
+- { setname: boost,                    namepat: "boost-mpi-source[0-9-.]+", addflavor: boost-mpi }
+- { setname: boost,                    namepat: "(?:compat-)?boost[0-9.-]*(?:-compat)?" }
+- { setname: boost,                    name: [boost-base], addflavor: true }
+
 - setname: boost
   name:
     - boost-all

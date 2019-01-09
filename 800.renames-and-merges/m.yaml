@@ -110,9 +110,6 @@
 - { setname: mercurial,                name: [hg,"python:mercurial"] }
 - { setname: mercurial,                name: [hgweb, mercurial-full], addflavor: true }
 - { setname: merlin,                   name: "ocaml:merlin" }
-- { setname: mesa,                     namepat: "mesa-lts-.*" }
-- { setname: mesa,                     name: [mesa7,mesa-drivers] }
-- { setname: mesa,                     name: mesagallium }
 - { setname: mesa-demos,               name: [mesa-demo,mesademos] }
 - { setname: meson,                    name: ["python:meson",meson-internal,meson-testsuite], addflavor: true }
 - { setname: meters.lv2,               name: meters-lv2 }

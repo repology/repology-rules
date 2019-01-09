@@ -1,5 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: poppler,                  name: compat-poppler022 }
+- { setname: poppler,                  namepat: "poppler[0-9.-]+" }
+
 - setname: poppler
   name:
     - poppler-cpp

@@ -1,5 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: openssh,                  name: openssh-portable }
+- { setname: openssh,                  name: ssh-copy-id, addflavor: ssh-copy-id }
+
 - setname: openssh
   name:
     - gsi-openssh

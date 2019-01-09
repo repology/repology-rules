@@ -1,5 +1,9 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: mesa,                     namepat: "mesa-lts-.*" }
+- { setname: mesa,                     name: [mesa7,mesa-drivers] }
+- { setname: mesa,                     name: mesagallium }
+
 - setname: mesa
   name:
     - libosmesa

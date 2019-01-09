@@ -1,5 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: avahi,                    name: [avahi-base,avahi-discover,avahi-libs,"python:avahi"], addflavor: true }
+- { setname: avahi,                    name: avahi-libs }
+
 - setname: avahi
   name:
     - avahi-app

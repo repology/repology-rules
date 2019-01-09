@@ -1,5 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: cmake,                    name: cmake-rc } # scoop
+- { setname: cmake,                    namepat: "cmake-?[0-9.]+" }
+
 - setname: cmake
   name:
     - cmake-cursesui
