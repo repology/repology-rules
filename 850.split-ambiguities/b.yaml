@@ -42,6 +42,9 @@
 - { name: bootchart, wwwpart: [mmeeks,xrmr], setname: bootchart2 }
 - { name: bootchart, verpat: "2\\..*", setname: bootchart2 }
 
+- { name: bolt, wwwpart: bolt.cm, setname: bolt-cms }
+# otherwise, thunderbolt 3 device manager
+
 - { name: borg, wwwpart: borg-calendar,                   setname: borg-calendar }
 - { name: borg, wwwpart: ok-borg,                         setname: ok-borg }
 - { name: borg, wwwpart: borgbackup,                      setname: borgbackup }
