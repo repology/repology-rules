@@ -1,0 +1,14 @@
+- { setname: quassel, name: quassel-git-monolithic, weak_devel: true }
+
+- setname: quassel
+  name:
+    - quassel-client,
+    - quassel-client-kf5,
+    - quassel-client-lighter,
+    - quassel-core,
+    - quassel-core-lighter,
+    - quassel-core-small,
+    - quassel-daemon-qt5,
+    - quassel-kf5,
+    - quassel-qt5]
+  addflavor: true
