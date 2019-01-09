@@ -1,0 +1,38 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: xorg-server
+  name:
+    - xorg-dmx
+    - xorg-server-bug865
+    - xorg-server-common
+    - xorg-server-common-mir
+    - xorg-server-common-nosystemd
+    - xorg-server-hwcursor-gamma
+    - xorg-server-hwe-16.04
+    - xorg-server-mir
+    - xorg-server-nosystemd
+    - xorg-server-systemd
+    - xorg-server-xdmx
+    - xorg-server-xdmx-mir
+    - xorg-server-xdmx-nosystemd
+    - xorg-server-xephyr
+    - xorg-server-xephyr-mir
+    - xorg-server-xephyr-nosystemd
+    - xorg-server-xnest
+    - xorg-server-xnest-mir
+    - xorg-server-xnest-nosystemd
+    - xorg-server-xvfb
+    - xorg-server-xvfb-mir
+    - xorg-server-xvfb-nosystemd
+    - xorg-server-xwayland
+    - xorg-server-xwayland-mir
+    - xorg-server-xwayland-nosystemd
+  addflavor: true
+
+- setname: xorg-server
+  name:
+    - xorg-server-devel
+    - xorg-server-devel-mir
+    - xorg-server-devel-nosystemd
+  addflavor: true
+  weak_devel: true

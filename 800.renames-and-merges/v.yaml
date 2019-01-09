@@ -33,6 +33,7 @@
 - { setname: virtualbox,               namepat: "virtualbox(?:-ose)?-(additions|kmod)", addflavor: true }
 - { setname: virtualbox,               namepat: "(linux[0-9]+)(-rt)?-virtualbox(-guest|-host)?-modules", addflavor: true }
 - { setname: virtualbox,               name: [vboxguestadditions, virtualbox-addons], addflavor: additions }
+- { setname: virtualbox,               name: [virtualbox-guest, virtualbox-guest-additions,virtualbox-guest-additions-iso], addflavor: guest }
 - { setname: virtualbox,               name: [virtualbox-bin,virtualbox-bin-5.0], addflavor: bin }
 - { setname: virtualgl,                name: virtualgl-lib, addflavor: lib }
 - { setname: virtuoso,                 name: [virtuoso-6,virtuoso-7,virtuoso-opensource,virtuoso-ose,virtuoso6] }
@@ -51,10 +52,3 @@
 - { setname: vtk,                      namepat: "vtk[0-9.-]*(?:-?(base|data|doc|doc-html|docs|qt4|qvtk)[0-9.-]*)?", addflavor: $1 }
 - { setname: vue-cli,                  name: "node:vue-cli" }
 - { setname: vuze,                     name: azureus } # old name
-
-- setname: virtualbox
-  name:
-    - virtualbox-guest
-    - virtualbox-guest-additions
-    - virtualbox-guest-additions-iso,
-  addflavor: true

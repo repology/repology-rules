@@ -1,0 +1,20 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: holland
+  name:
+    - holland-backup-example
+    - holland-backup-pgdump
+    - holland-backup-random
+    - holland-backup-sqlite
+    - holland-common
+    - holland-lib-common
+    - holland-lib-lvm
+    - holland-lvm
+    - holland-mariabackup
+    - holland-mongodump
+    - holland-mysql
+    - holland-mysqldump
+    - holland-mysqllvm
+    - holland-pgdump
+    - holland-xtrabackup
+  addflavor: true

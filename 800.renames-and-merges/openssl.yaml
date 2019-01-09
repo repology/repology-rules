@@ -1,0 +1,15 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: openssl
+  name:
+    - openssl-1.0-chacha20
+    - openssl-chacha
+    - openssl-chacha20
+    - openssl-no-aesni
+    - openssl-pre
+    - openssl-purify
+    - openssl-static
+    - openssl-stream
+    - openssl-tls1.3
+  addflavor: true
+  ignore: true # XXX: why?

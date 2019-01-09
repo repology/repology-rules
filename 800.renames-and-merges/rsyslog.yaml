@@ -1,0 +1,19 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: rsyslog
+  name:
+    - rsyslog-dbi
+    - rsyslog-doc
+    - rsyslog-elasticsearch
+    - rsyslog-gnutls
+    - rsyslog-gssapi
+    - rsyslog-kafka
+    - rsyslog-libgcrypt
+    - rsyslog-normalize
+    - rsyslog-mysql
+    - rsyslog-omprog
+    - rsyslog-pgsql
+    - rsyslog-rabbitmq
+    - rsyslog-relp
+    - rsyslog-snmp
+  addflavor: true

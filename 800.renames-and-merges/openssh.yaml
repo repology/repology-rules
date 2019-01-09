@@ -1,0 +1,16 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: openssh
+  name:
+    - gsi-openssh
+    - openssh-gssapi
+    - openssh-knock
+    - openssh-krb5
+    - openssh-multiple-bindaddress
+    - openssh-secp256k1
+    - openssh-selinux
+    - openssh-ssh1
+    - openssh-ubuntu
+    - openssh-with-hpn
+    - openssh-with-kerberos
+  addflavor: true

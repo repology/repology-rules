@@ -1,0 +1,25 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: subversion
+  name:
+    - "apmod:dav-svn"
+    - "apmod:subversion"
+    - java-subversion
+    - "perl:subversion"
+    - "python:subversion"
+    - "ruby:subversion"
+    - ruby-subversion
+    - subversion-api-docs
+    - subversion-base
+    - subversion-bashcompletion
+    - subversion-client
+    - subversion-gnome-keyring
+    - subversion-javahlbindings
+    - subversion-kwallet
+    - subversion-perl
+    - subversion-perlbindings-5.26
+    - subversion-python
+    - subversion-python27bindings
+    - subversion-rubybindings
+    - subversion-static
+  addflavor: true

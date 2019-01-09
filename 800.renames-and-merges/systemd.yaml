@@ -1,0 +1,16 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: systemd
+  name:
+    - eudev-systemd
+    - libeudev-systemd
+    - libsystemd
+    - libsystemd-eudev-standalone
+    - systemd-common
+    - systemd-debug
+    - systemd-libsystemd
+    - systemd-mini
+    - systemd-resolvconf
+    - systemd-sysvcompat
+    - systemd-udev
+  addflavor: true

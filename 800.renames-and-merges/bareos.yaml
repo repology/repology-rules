@@ -1,0 +1,30 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: bareos
+  name:
+    - bareos-bat
+    - bareos-bconsole
+    - bareos-client
+    - bareos-client-static
+    - bareos-common
+    - bareos-database-common
+    - bareos-database-mysql
+    - bareos-database-postgresql
+    - bareos-database-sqlite3
+    - bareos-database-tools
+    - bareos-director
+    - bareos-director-python-plugin
+    - bareos-docs
+    - bareos-filedaemon
+    - bareos-filedaemon-python-plugin
+    - bareos-server
+    - bareos-storage
+    - bareos-storage-fifo
+    - bareos-storage-python-plugin
+    - bareos-storage-tape
+    - bareos-tools
+    - bareos-traymonitor
+    - bareos-webui
+    - bareos-x11
+  addflavor: true
+- { setname: bareos, name: bareos-devel, weak_devel: true }
