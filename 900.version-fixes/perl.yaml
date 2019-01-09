@@ -3,6 +3,7 @@
 - { namepat: "perl:(.*)",              ruleset: [ gentoo, mageia, rosa, macports, pclinuxos, openmandriva ], ignore: true } # perl module name manging
 - { name: "perl:anyevent",             ver: "7.70.0",                                      ignore: true }
 - { name: "perl:anyevent",             verpat: "7\\.[0-9]{3}.*",                           ignore: true }
+- { name: "perl:app-cpanminus",                                                            noscheme: true } # repository contains two modules with different versioning schemes, so it's messed up in cpan and some repositories
 - { name: "perl:app-perlbrew",         verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:app-tlsme",            ver: "0.110000",                                    ignore: true }
 - { name: "perl:array-diff",           ver: ["0.05002", "0.07000"],                        ignore: true }
