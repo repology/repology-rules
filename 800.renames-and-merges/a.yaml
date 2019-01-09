@@ -78,6 +78,7 @@
 - { setname: amule,                    name: [amule-daemon,amule-gui], addflavor: true }
 - { setname: amule,                    name: amule-devel, weak_devel: true }
 - { setname: ampy,                     name: ["python:adafruit-ampy","python:ampy",adafruit-ampy,ampy], wwwpart: adafruit }
+- { setname: amzn-drivers,             name: [ena, dkms-ena], addflavor: true }
 - { setname: anacron2,                 name: anacron, verpat: "2\\.[4-9].*" } # different project (a fork?)
 - { setname: android-studio,           name: [android-studio-beta,android-studio-canary,android-studio-dummy,android-studio-preview], ignore: true } # these could be devel, but they do often fall behind, and due to viral devel property be safe and ignore them
 - { setname: android-tools,            name: adb, ruleset: openbsd }
