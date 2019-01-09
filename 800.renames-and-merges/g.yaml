@@ -247,7 +247,7 @@
 - { setname: govendor,                 name: "go:github-kardianos-govendor" }
 - { setname: gpgme,                    namepat: "gpgme[0-9.-]+" }
 - { setname: gpgme,                    name: [gpgme-cpp,gpgme-python,gpgme-qt5,qgpgme,"python:gpgme"], addflavor: true }
-- { setname: gphoto2,                  namepat: "(?:lib)?gphoto2?" }
+- { setname: gphoto2,                  name: gphoto }
 - { setname: gpicview,                 name: [gpicview-gimp,gpicview-gtk3], addflavor: true }
 - { setname: gpodder,                  name: gpodder3 }
 - { setname: gprof2dot,                name: "python:gprof2dot" }
