@@ -1,21 +1,22 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { setname: avahi,                    name: [avahi-base,avahi-discover,avahi-libs,"python:avahi"], addflavor: true }
-- { setname: avahi,                    name: avahi-libs }
-
 - setname: avahi
   name:
     - avahi-app
     - avahi-autoipd
+    - avahi-base
+    - avahi-discover
     - avahi-glib2
     - avahi-gtk
     - avahi-gtk2
     - avahi-gtk3
     - avahi-header
     - avahi-libdns
+    - avahi-libs
     - avahi-mono
     - avahi-nosystemd
     - avahi-qt4
     - avahi-sharp
     - avahi-ui
+    - "python:avahi"
   addflavor: true
