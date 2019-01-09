@@ -19,6 +19,8 @@
 - { name: bats,                        ver: "1.0",                   ruleset: sisyphus,    ignore: true } # totally fake
 - { name: bbswitch,                    verpat: ".*-[0-9]+\\.[0-9]+\\.[0-9]+.*", ruleset: nix, incorrect: true }
 - { name: bcachefs-tools,                                                                  noscheme: true }
+- { name: bcal,                        ver: "2.1.12",                ruleset: freebsd,     incorrect: true }
+- { name: bcal,                                                      ruleset: freebsd,     untrusted: true } # accused of fake 2.1.12
 - { name: bcm20702a1-firmware,         verpat: "[0-9]{7}",                                 ignore: false } # unignore global rule from 900/0.yaml
 - { name: beef-browser-exploitation,   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: beignet,                     verpat: "20[0-9]{6}",                               snapshot: true }
