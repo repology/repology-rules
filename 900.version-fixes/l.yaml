@@ -40,8 +40,7 @@
 - { name: lmdb++,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: lmms,                        ver: ["1.1.95","1.2.0"],      ruleset: [sisyphus,kaos], incorrect: true } # it's 1.2.0rc5
 - { name: lmms,                                                      ruleset: [sisyphus,kaos], untrusted: true }
-- { name: lockdev,                     ver: "1.0.4",                 ruleset: fedora,      incorrect: true }
-- { name: lockdev,                                                   ruleset: fedora,      untrusted: true } # accused of fake 1.0.4
+- { name: lockdev,                                                                         noscheme: true } # no upstream, everybody fetch from debian, random versions
 - { name: log4cxx,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: logfsprogs,                                                                      noscheme: true }
 - { name: logtop,                      ver: "0.6.1",                 ruleset: sisyphus,    incorrect: true }
