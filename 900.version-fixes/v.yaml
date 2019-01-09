@@ -1,8 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: v,                           verpat: "[0-9]+",                                   ignore: true } # aur; correct versions is 1.1
-- { name: v4l2loopback,                verpat: "[0-9]+(\\.[0-9]+){2}-[0-9]\\.[0-9]+.*",    incorrect: true } # nix: linux version appended
-- { name: v4l2loopback,                                              ruleset: nix,         untrusted: true }
+- { name: v4l2loopback,                verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
+- { name: v86d,                        verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: vala,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: valentina,                   verpat: ".*a",                                      devel: true }
 - { name: vbindiff,                    ver: "3.0",                   ruleset: pld,         incorrect: true }
@@ -18,6 +18,8 @@
 - { name: vimpc,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: virtme,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: virtualbox,                  verpat: ".*[0-9]{6}.*",                             incorrect: true }
+- { name: virtualbox-guestadditions,   verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
+- { name: virtualbox-modules,          verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: virtualgl,                   verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: vis,                         verpat: "[0-9]{4,}",                                ignore: true } # LEDE
 - { name: visitors,                    ver: "1.1",                   ruleset: rosa,        ignore: true }

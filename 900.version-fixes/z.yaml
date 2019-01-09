@@ -11,6 +11,7 @@
 - { name: zeromq,                      verpat: "20[0-9]{6}.*",                             snapshot: true } # vcpkg snapshot
 - { name: zfs,                         ver: "0.8.0",                 ruleset: pld,         incorrect: true } # latest is 0.8.0rc2
 - { name: zfs,                                                       ruleset: pld,         untrusted: true } # accused of fake 0.8.0
+- { name: zfs,                         verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: zip,                         verlonger: 2,                 ruleset: openmandriva, ignore: true } # fork
 - { name: zlib-ada,                    ver: "1.4",                   ruleset: fedora,      incorrect: true }
 - { name: zlib-ada,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true }

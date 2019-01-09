@@ -66,6 +66,7 @@
 - { name: doublecmd,                                                                       devel: false } # they state all version to be beta: https://sourceforge.net/p/doublecmd/news/, this is pointless
 - { name: doublecmd,                   verpat: ".*svn.*",                                  ignore: true }
 - { name: dovecot-pigeonhole,          verpat: "2\\..*",                                   incorrect: true } # dovecot version prepended (openwrt, pld)
+- { name: dpdk,                        verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: dragon-player,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: drawterm,                                                                        noscheme: true }
 - { name: dreampie,                    ver: "1.3.0",                 ruleset: sisyphus,    incorrect: true }

@@ -72,6 +72,7 @@
 - { name: toxcore,                     verpat: "201[67].*",                                outdated: true }
 - { name: toxic,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: toxic,                       verpat: "2017.*",                                   outdated: true } # 0.8.2 from 2018
+- { name: tp-smapi,                    verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: tpacpi-bat,                  verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: transset,                    verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: transset,                    verpat: "[0-9]{6}",                                 incorrect: true }
