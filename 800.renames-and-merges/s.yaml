@@ -194,8 +194,9 @@
 - { setname: sugar-write-activity,     namepat: "sugar-write-activity[0-9.-]+" }
 - { setname: suil,                     name: libsuil }
 - { setname: suil,                     name: [suil-qt4,suil-qt5], addflavor: true }
-- { setname: suitesparse,              name: [libsuitesparse,libsuitesparse3,suitesparse-mkl,suitesparse-metis] }
-- { setname: suitesparse,              name: suite-sparse }
+- { setname: suitesparse,              name: [libsuitesparse,libsuitesparse3,suite-sparse] }
+- { setname: suitesparse,              name: [suitesparse-mkl], addflavor: true }
+- { setname: suitesparse,              name: [suitesparseconfig,suitesparse-config], addflavor: config }
 - { setname: suitesparseconfig,        name: ufconfig } # from report: ufconfig is an old name for suitesparseconfig
 - { setname: suitesparseconfig,        name: suitesparse-common-devel, weak_devel: true }
 - { setname: sunsetscreen,             name: sunset-screen } # grr, windows-only
