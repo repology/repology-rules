@@ -13,6 +13,8 @@
 - { name: "python:enzyme",             ver: "0.4.2",                 ruleset: sisyphus,    incorrect: true }
 - { name: "python:enzyme",                                           ruleset: sisyphus,    untrusted: true } # accused of fake 0.4.2
 - { name: "python:fiona",              verpat: ".*[ab].*",                                 devel: true }
+- { name: "python:fuse",               ver: "2.5",                   ruleset: [mageia,pclinuxos,rosa], incorrect: true }
+- { name: "python:fuse",                                             ruleset: [mageia,pclinuxos,rosa], untrusted: true }
 - { name: "python:hg-git",             verpat: "[0-9a-f]{12}",                             incorrect: true, disposable: true } # slitaz
 - { name: "python:html2text",          ver: "2018.9.1",                                    incorrect: true, disposable: true } # 2018.1.9
 - { name: "python:httplib2",           verpat: "2-.*",                                     incorrect: true }
