@@ -27,6 +27,7 @@
 - { name: "python:pyenet",             verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "python:pygpgme",            ver: "0.3.1",                 ruleset: alpine,      incorrect: true }
 - { name: "python:pyode",              verpat: ".*2010.*",                                 ignore: true }
+- { name: "python:pyopengl",           verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:pyparsing",          verpat: ".*test.*",           ruleset: opensuse,    incorrect: true } # fake
 - { name: "python:pyside",             ver: "2.0.0",                 ruleset: kaos,        incorrect: true }
 - { name: "python:pyside",             verpat: "4\\.[0-9]+_.*",                            incorrect: true } # pld
