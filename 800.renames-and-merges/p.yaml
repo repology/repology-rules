@@ -83,6 +83,8 @@
 - { setname: pkg,                      name: pkg-bsd, ruleset: ravenports }
 - { setname: pkg,                      name: pkg-devel, weak_devel: true, ruleset: freebsd }
 - { setname: pkgconf,                  name: pkgconfig, ruleset: ravenports } # XXX
+- { setname: plasma-browser-integration, name: plasma5-plasma-browser-integration }
+- { setname: plasma-integration,       name: [plasma5-integration,plasma5-plasma-integration] }
 - { setname: plpgsql-check,            namepat: "(postgresql[0-9.-]*)-plpgsql-check", addflavor: $1 }
 - { setname: plr,                      namepat: "(postgresql[0-9.-]*)-plr", addflavor: $1 }
 - { setname: pluma,                    name: pluma-1.16 }
