@@ -15,6 +15,12 @@
 - { name: ocp, category: [media-sound,audio], setname: ocp-open-cubic-player }
 - { name: ocp, warning: "please classify me" }
 
+- { name: olive, wwwpart: olivevideoeditor, setname: olive-video-editor }
+- { name: olive, summpart: video, setname: olive-video-editor }
+- { name: olive, summpart: rss, setname: olive-rss-aggregator }
+- { name: olive, category: [Networking/News,net,universe/net], setname: olive-rss-aggregator }
+- { name: olive, warning: "please classify me" }
+
 - { name: omega, wwwpart: alcyone, setname: omega-rpg }
 - { name: omega, category: games, setname: omega-rpg }
 - { name: omega, wwwpart: sheard, setname: omega-lang }
