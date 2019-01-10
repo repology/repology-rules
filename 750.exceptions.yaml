@@ -51,6 +51,8 @@
 - { setname: "python:progressbar2",    name: "python:progressbar", wwwpart: wolph }
 - { setname: "python:markdown",        name: markdown, wwwpart: pypi }
 - { setname: "python:pyaudio",         name: "python:audio", verpat: "0\\.2\\..*" }
+- { setname: "python:python-gnupg",    name: "python:gnupg", wwwpart: [gnupg.readthedocs.io,pythonhosted.org/python-gnupg,vinay.sajip/python-gnupg] }
+- { setname: "python:python-gnupg",    name: "python:gnupg", verlt: "1" }
 - { setname: ruby,                     name: "ruby:gdbm", verge: "2.3" } # *BSD: part of ruby, not "gdbm" rubygem
 - { setname: memtest86+,               name: memtest86, ruleset: pisi }
 - { setname: gnome-keyring,            name: libgnome-keyring, ruleset: pisi }
