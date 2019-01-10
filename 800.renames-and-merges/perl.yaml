@@ -7,6 +7,7 @@
 - { setname: "perl:catalyst-plugin-authentication-$1", namepat: "perl:catalyst-p-a-(.*)" } # mageia, pclinusos, rosa do this
 - { setname: "perl:catalyst-plugin-session-$1", namepat: "perl:catalyst-p-s-(.*)" } # mageia, pclinusos, rosa do this
 - { setname: "perl:cddb-get",          name: cddb-get }
+- { setname: "perl:cpan-meta",         name: "perl:parse-cpan-meta" } # merged into, see https://github.com/Perl-Toolchain-Gang/Parse-CPAN-Meta
 - { setname: "perl:gearman-server",    name: gearman-server }
 - { setname: "perl:goocanvas2",        name: "perl:goo-canvas2" }
 - { setname: "perl:moo",               name: "perl:moo-2" }
