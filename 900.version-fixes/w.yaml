@@ -36,8 +36,8 @@
 - { name: wireguard,                   verpat: "20[0-9]{6}",                               incorrect: true } # it's 0.0.20YYMMDD
 - { name: wireguard,                   verpat: "4.*",                                      incorrect: true } # it's 0.0.20YYMMDD
 - { name: wireless-regdb,              verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" } # https://git.kernel.org/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/refs/
-- { name: wireless-tools,              ver: ["29.9","30"],           ruleset: [kaos,mageia,openmandriva,pclinuxos,pld], incorrect: true } # 30pre9
-- { name: wireless-tools,                                            ruleset: [kaos,mageia,openmandriva,pclinuxos,pld], untrusted: true }
+- { name: wireless-tools,              ver: ["29.9","30"],           ruleset: [kaos,mageia,openmandriva,pclinuxos,pld,pisi], incorrect: true } # 30pre9
+- { name: wireless-tools,                                            ruleset: [kaos,mageia,openmandriva,pclinuxos,pld,pisi], untrusted: true }
 - { name: wireshark,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assuming odd versions are devel
 - { name: wmbatteries,                 verge: "0.1.5",                                     successor: true }
 - { name: woff2,                       verpat: "20[0-9]{6}",                               ignore: true }
