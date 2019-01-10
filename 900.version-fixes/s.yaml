@@ -163,6 +163,8 @@
 - { name: sysbench,                    verpat: "201[567].*",                               outdated: true } # last version from 2018
 - { name: sysfsutils,                  ver: "2.2.0",                 ruleset: pld,         incorrect: true }
 - { name: sysfsutils,                                                ruleset: pld,         untrusted: true }
+- { name: syslinux,                    ver: "6.0.4",                 ruleset: [fedora,mageia,pisi], incorrect: true }
+- { name: syslinux,                                                  ruleset: [fedora,mageia,pisi], untrusted: true } # accused of fake 6.0.4
 - { name: sysstat,                     ver: "20151012",                                    ignore: true } # openindiana garbage
 - { name: system-config-printer,       ver: "2.30.0",                ruleset: openindiana, incorrect: true }
 - { name: system-config-printer,                                     ruleset: openindiana, untrusted: true }
