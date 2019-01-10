@@ -211,6 +211,9 @@
 - { setname: "python:pypubsub",        name: "python:pypubsub3.3.0" }
 - { setname: "python:pyqt4",           name: pyqt4 }
 - { setname: "python:pyqt5",           name: pyqt5 }
+- { setname: "python:pyside",          name: pyside }
+- { setname: "python:pyside",          name: [pyside-qt4,pyside-qt4-py3], addflavor: true }
+- { setname: "python:pyside2",         name: pyside2 }
 - { setname: "python:pyserial",        name: pyserial }
 - { setname: "python:pyspatialite",    name: pyspatialite } # XXX: make upstream use prefix
 - { setname: "python:pytest",          name: pytest }
