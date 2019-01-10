@@ -38,6 +38,7 @@
 - { name: "python:sphinx-py3doc-enhanced-theme", ver: "2.4.0",       ruleset: pld,         incorrect: true }
 - { name: "python:sphinx-py3doc-enhanced-theme",                     ruleset: pld,         untrusted: true }
 - { name: "python:sphinx-rtd-theme",   verpat: ".*[ab].*",                                 devel: true }
+- { name: "python:sqlalchemy",         verpat: ".*b.*",                                    devel: true }
 - { name: "python:tempita",            verpat: "(.*)dev",                                  setver: $1, devel: true }
 - { name: "python:tempita",            verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "python:tornado",            verpat: ".*[ab].*",                                 devel: true }
