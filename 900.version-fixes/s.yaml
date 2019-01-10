@@ -168,5 +168,6 @@
 - { name: system-config-printer,                                     ruleset: openindiana, untrusted: true }
 - { name: systemd,                     verlonger: 1,                 ruleset: arch,        incorrect: true }
 - { name: systemtap,                   verpat: "4.*20[0-9]{2}.*",                          incorrect: true }
-- { name: systemtap,                   ver: "3.3",                   ruleset: fedora,      incorrect: true }
+- { name: systemtap,                   ver: "4.1",                   ruleset: fedora,      incorrect: true }
 - { name: systemtap,                                                 ruleset: fedora,      untrusted: true }
+- { name: systemtap,                   verpat: ".*-.*",              ruleset: nix,         incorrect: true } # total garbage not even including the official version
