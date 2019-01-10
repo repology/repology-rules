@@ -4,6 +4,7 @@
 - { name: obmenu,                      ver: "2.0",                   ruleset: bunsenlabs,  incorrect: true } # fake
 - { name: "ocaml:opam-file-format",    ver: "2.0.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: "ocaml:opam-file-format",                                  ruleset: sisyphus,    untrusted: true }
+- { name: oclgrind,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: octave,                      verpat: ".*pre[0-9]{5}",                            snapshot: true }
 - { name: octomap,                     verpat: "[0-9a-f]{40}",                             incorrect: true } # commit hash
 - { name: odoo,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
