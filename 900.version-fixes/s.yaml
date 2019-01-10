@@ -71,8 +71,6 @@
 - { name: slim,                        ver: "1.3.6.10",                                    incorrect: true, disposable: true }
 - { name: slim,                        ver: "1.3.6.2",                                     successor: true } # https://github.com/somasis/slim
 - { name: slime,                       verpat: "20[0-9]{6}.*",                             ignore: true }
-- { name: slowaes,                     ver: "0.1",                   ruleset: gentoo,      incorrect: true }
-- { name: slowaes,                                                   ruleset: gentoo,      untrusted: true } # accused of fake 0.1
 - { name: smake,                       ver: "1.3.2",                 ruleset: aix,         incorrect: true }
 - { name: smake,                                                     ruleset: aix,         untrusted: true }
 - { name: smartmontools,               verpat: "([0-9]+\\.[0-9]+)[.-][0-9]+",              setver: $1 }
