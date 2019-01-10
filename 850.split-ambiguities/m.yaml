@@ -22,6 +22,9 @@
 
 - { name: mc, wwwpart: minio, setname: minio-mc }
 
+- { name: mdk, wwwpart: wlan, setname: mdk-wireless-injection }
+# otherwise, GNU MIX Development Kit
+
 - { name: mdp, wwwpart: toolkit, setname: "python:mdp" }
 - { name: mdp, wwwpart: visit1985, setname: mdp-markdown-presentation-tool }
 - { name: mdp, category: [doc,textproc], setname: mdp-markdown-presentation-tool }
