@@ -42,6 +42,8 @@
 - { name: shairplay,                   verpat: "1\\.0.*",                                  ignore: true } # /
 - { name: shairport-sync,              verpat: ".*d.*",                                    devel: true }
 - { name: shflags,                     ver: "2012",                                        incorrect: true } # openwrt
+- { name: shiboken,                    ver: "2.0.0",                 ruleset: kaos,        incorrect: true } # fake
+- { name: shiboken,                                                  ruleset: kaos,        untrusted: true } # accused of fake 2.0.0
 - { name: shmux,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: shotcut,                     verpat: "[0-9]{6,}.*",                              incorrect: true } # aur; it's not 180102, but 18.01
 - { name: shotgun-debugger,            wwwpart: msarnoff,                                  successor: true }
