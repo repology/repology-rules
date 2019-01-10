@@ -9,7 +9,9 @@
 - { name: "python:dpkt",               verpat: "1\\.[0-9]{2}.*",                           incorrect: true } # openwrt's 1.91, should be 1.9.1
 - { name: "python:efilter",            verpat: "14[0-9]{8}",                               outdated: true } # https://pypi.org/project/efilter/#history
 - { name: "python:elixir",             ver: "0.8.0",                 ruleset: sisyphus,    incorrect: true } # fake
-- { name: "python:elixir",                                           ruleset: sisyphus,    untrusted: true }
+- { name: "python:elixir",                                           ruleset: sisyphus,    untrusted: true } # accused of fake 0.8.0
+- { name: "python:enzyme",             ver: "0.4.2",                 ruleset: sisyphus,    incorrect: true }
+- { name: "python:enzyme",                                           ruleset: sisyphus,    untrusted: true } # accused of fake 0.4.2
 - { name: "python:fiona",              verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:hg-git",             verpat: "[0-9a-f]{12}",                             incorrect: true, disposable: true } # slitaz
 - { name: "python:html2text",          ver: "2018.9.1",                                    incorrect: true, disposable: true } # 2018.1.9
