@@ -112,7 +112,7 @@
 - { name: mpfr,                        verlonger: 3,                                       incorrect: true } # openbsd, openpkg, openindiana fakes
 - { name: mphidflash,                  verpat: "20[0-9]{6}.*",                             ignore: true } # fake
 - { name: mpich,                       verpat: ".*[ab].*",                                 devel: true }
-- { name: [mplayer,mencoder],          verpat: ".*[0-9]{4}.*",                             ignore: true } # it's x.y.z, ignore all revisions and dates
+- { name: mplayer,                     verpat: ".*[0-9]{4}.*",                             ignore: true } # it's x.y.z, ignore all revisions and dates
 - { name: mplayer,                     ver: "5.1.4",                                       incorrect: true } # pclinuxos garbage
 - { name: mplayer,                     ver: "1.3.1",                 ruleset: [mageia,fedora], incorrect: true } # unitedrpms
 - { name: mplayer,                                                   ruleset: [mageia,fedora], untrusted: true } # accused of fake 1.3.1
