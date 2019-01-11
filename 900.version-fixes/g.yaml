@@ -52,6 +52,7 @@
 - { name: glmark2,                                                                         noscheme: true }
 - { name: globulation2,                ver: "0.9.4.5",               ruleset: rosa,        ignore: true } # not released yet
 - { name: gltron,                      verpat: "(.*)final",                                setver: $1 } # Maemo
+- { name: gmic-qt,                     verpat: "[0-9]{3}",                                 incorrect: true }
 - { name: gmrun,                       verge: "0.9.4",                                     successor: true } # https://github.com/wdlkmpx/gmrun
 - { name: gnash,                       ver: "0.8.11",                ruleset: debuntu,     ignore: true } # not released yet
 - { name: gnat-util-gcc,               verpat: "20[0-9]{6}",                               ignore: true }
