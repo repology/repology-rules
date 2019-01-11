@@ -161,6 +161,8 @@
 - { setname: mplayer,                  name: [mencoder,mplayer-cli,mplayer-share], addflavor: true }
 - { setname: mpqc,                     name: mpqc-shared, addflavor: true }
 - { setname: mpqc,                     name: mpqc3 }
+- { setname: mpv,                      name: mpv-player }
+- { setname: mpv,                      name: [mpv-full,mpv-light,mpv-rpi,mpv-scripts,mpv-sndio,mpv-thin,mpv-tools,mpv-with-scripts], addflavor: true }
 - { setname: mrboom,                   name: libretro-mrboom }
 - { setname: ms-gsl,                   name: [guidelines-support-library,microsoft-gsl,c++gsl] }
 - { setname: msgpack,                  name: [msgpack-c,msgpack-c-cpp,libmsgpack,msgpack1] } # c/cpp by default
