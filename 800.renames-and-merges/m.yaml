@@ -158,7 +158,7 @@
 - { setname: mpich,                    name: mpich-default }
 - { setname: mpich,                    namepat: "mpich(?:-clang|-gcc|-llvm)?[0-9.-]*" }
 - { setname: mpich,                    namepat: "mpich-devel(?:-clang|-gcc|-llvm)?[0-9.-]*", weak_devel: true }
-- { setname: mplayer,                  name: mencoder, addflavor: true } # part of
+- { setname: mplayer,                  name: [mencoder,mplayer-cli,mplayer-share], addflavor: true }
 - { setname: mpqc,                     name: mpqc-shared, addflavor: true }
 - { setname: mpqc,                     name: mpqc3 }
 - { setname: mrboom,                   name: libretro-mrboom }
