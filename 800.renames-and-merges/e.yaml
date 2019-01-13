@@ -67,6 +67,7 @@
 - { setname: enlightenment,            name: e17 }
 - { setname: enscript,                 namepat: "enscript-.*", ruleset: freebsd } # enscript-a4, enscript-letter, enscript-letterdj
 - { setname: entagged,                 name: entagged-tageditor, ruleset: gentoo }
+- { setname: environment-modules,      name: [modules,env-modules,env-modules-tcl] }
 - { setname: eom,                      name: eom-dev, weak_devel: true }
 - { setname: eom,                      name: eom-gtk2, addflavor: true }
 - { setname: eot-utils,                name: eot-utilities }
