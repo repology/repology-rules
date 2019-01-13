@@ -60,6 +60,7 @@
 - { name: "lua:mosquitto",             verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "lua:openssl",               verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "lua:openssl",               verge: "20000000", verlt: "20180804",               outdated: true, disposable: true } # 0.7.3 from 2018-08-04
+- { name: "lua:penlight",              verpat: "5.*",                                      incorrect: true } # nix garbage - uses lua version
 - { name: "lua:socket",                verpat: "20[0-9]{6}",                               ignore: true }
 - { name: "lua:socket",                ver: "3.0",                   ruleset: mageia,      incorrect: true } # 3.0rc1
 - { name: "lua:socket",                                              ruleset: mageia,      untrusted: true }
