@@ -54,6 +54,8 @@
 - { setname: rsh,                      name: rshd }
 - { setname: rss2email,                name: "python:rss2email" }
 - { setname: rss2email,                name: r2e }
+- { setname: rstudio,                  name: [rstudio-desktop, rstudio-server], addflavor: true }
+- { setname: rstudio,                  name: [rstudio-desktop-preview], weak_devel: true }
 - { setname: rtaudio,                  name: rt-audio }
 - { setname: rtl8814au,                name: rtl8814au-dkms, addflavor: dkms }
 - { setname: rtorrent,                 name: [rtorrent-cdl,rtorrent-color,rtorrent-ipv6,rtorrent-vi-color], addflavor: true }
