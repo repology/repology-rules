@@ -278,6 +278,9 @@
 - { setname: "python:scipy",           name: ["python:scipy-doc","python:scipy-mkl","python:scipy-openblas"], addflavor: true }
 - { setname: "python:setuptools-scm",  name: setuptools-scm }
 - { setname: "python:setuptools-scm-git-archive",  name: setuptools-scm-git-archive }
+- { setname: "python:shiboken",        name: shiboken }
+- { setname: "python:shiboken",        name: shiboken-py3, addflavor: py3 }
+- { setname: "python:shiboken2",       name: shiboken2 }
 - { setname: "python:shutilwhich",     name: shutilwhich }
 - { setname: "python:sip",             name: "python:sip-pyqt5", addflavor: pyqt5 }
 - { setname: "python:sip",             name: [sip,sip3,sip4] }
