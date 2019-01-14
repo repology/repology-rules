@@ -99,7 +99,7 @@
 - { name: "python:ldap", setname: "python:python-ldap", ruleset: [sisyphus,openbsd,pclinuxos] }
 
 - { name: "python:magic", wwwpart: darwinsys.com/file, setname: file, addflavor: python }
-- { name: "python:magic", wwwpart: ahupp/python-magic, setname: "python:python-magic" } # XXX: problem
+- { name: "python:magic", wwwpart: [ahupp/python-magic,pypi/python-magic], setname: "python:python-magic" } # XXX: problem
 
 - { name: "python:planet", setname: planet, wwwpart: planetplanet }
 
