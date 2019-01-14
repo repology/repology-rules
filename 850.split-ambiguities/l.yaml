@@ -48,4 +48,6 @@
 - { name: "lua:yaml", verge: "5", setname: "lua:lyaml" }
 
 # there are two branches, see http://invisible-island.net/luit/
+# see ftp://ftp.invisible-island.net/luit for actual list of releases
 - { name: luit, wwwpart: invisible-island, setname: luit-xterm }
+- { name: luit, verpat: "(?:2\\.0[.-])?20[0-9]{6}", setname: luit-xterm }
