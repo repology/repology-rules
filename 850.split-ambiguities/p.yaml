@@ -98,6 +98,9 @@
 - { name: "python:ldap", setname: "python:python-ldap", wwwpart: python-ldap }
 - { name: "python:ldap", setname: "python:python-ldap", ruleset: [sisyphus,openbsd,pclinuxos] }
 
+- { name: "python:magic", wwwpart: darwinsys.com/file, setname: file, addflavor: python }
+- { name: "python:magic", wwwpart: ahupp/python-magic, setname: "python:python-magic" } # XXX: problem
+
 - { name: "python:planet", setname: planet, wwwpart: planetplanet }
 
 - { name: "python:tz", wwwpart: pytz, setname: "python:pytz" } # there is tz module, but in most (currently all) cases it misspelled pytz; XXX: problem
