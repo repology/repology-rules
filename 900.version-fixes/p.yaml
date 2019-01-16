@@ -95,6 +95,9 @@
 - { name: pps-tools,                   verpat: ".*20[0-9]{6}.*",                           snapshot: true } # 1.0.2
 - { name: pragmarc,                                                                        noscheme: true }
 - { name: prboom-plus,                 verpat: ".*svn.*",                                  snapshot: true }
+- { name: prboom-plus,                 verpat: "2\\.5\\.1\\.5svn.*", ruleset: debuntu,     incorrect: true } # there's no 2.5.1.5
+- { name: prboom-plus,                 verpat: "2\\.5\\.1\\.5",      ruleset: opensuse,    incorrect: true }
+- { name: prboom-plus,                                               ruleset: opensuse,    untrusted: true }
 - { name: print-manager,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: processing,                  verpat: "[0-9]{4}.*",                               incorrect: true } # gobolinux garbage
 - { name: procmail,                    verpat: "[0-9]+",                                   incorrect: true } # homebrew
