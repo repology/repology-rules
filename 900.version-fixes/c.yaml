@@ -57,6 +57,7 @@
 - { name: chntpw,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: chntpw,                      ver: "20100627",                                    outdated: true }
 - { name: chromium,                    verpat: ".*-r[0-9]+",                               ignore: true } # scoop
+- { name: cht.sh,                                                                          noscheme: true } # https://github.com/chubin/cheat.sh/releases
 - { name: circleci-cli,                verpat: "([0-9.]+)-[0-9a-f]+",                      setver: $1 } # commit hash is not a part of the version https://github.com/circleci/local-cli/releases
 - { name: citra,                                                                           noscheme: true }
 - { name: ckermit,                     ver: "302",                                         setver: "9.0.$0" }
