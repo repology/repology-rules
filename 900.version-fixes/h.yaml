@@ -7,7 +7,7 @@
 - { name: hashcat,                     verpat: "3\\.[1-9][0-9]",                           ignore: true } # it uses X.Y.Z scheme
 - { name: "haskell:pandoc-citeproc",                                 ruleset: aur,         incorrect: true } # it's actually pandoc, not pandoc-cityproc
 - { name: haxe,                        verpat: "4\\..*",             ruleset: freshcode,   ignore: true } # there's no 4.0.0
-- { name: hddtemp,                     ver: "0.3",                   ruleset: [sisyphus,mageia,pclinuxos], incorrect: true } # 0.3beta15
+- { name: hddtemp,                     ver: "0.3",                   ruleset: [sisyphus,mageia,openmandriva,pld,pclinuxos], incorrect: true } # 0.3beta15
 - { name: hddtemp,                     verpat: ".*(52|53)",                                incorrect: true } # 0.3beta15
 - { name: hefur,                       verpat: ".*[0-9a-z]{7}",                            snapshot: true } # CRUX snapshot
 - { name: hex2bin,                     verpat: "20[0-9]{6}.*",                             ignore: true } # AUR snapshot
