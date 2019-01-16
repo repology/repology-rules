@@ -2,6 +2,9 @@
 
 - { name: camera, ruleset: [freebsd,openbsd], setname: gnustep-camera } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
+# Clozure Common Lisp interpreter and compiler vs. CIGI Class Library
+- { name: ccl, summpart: cigi, setname: cigi-ccl }
+
 - { name: cde,                         setname: cdesktopenv, wwwpart: cdesktopenv } # desktop env. vs packaging tool
 
 - { name: cdf3,                        setname: cdf                       } # Common Data Format lib; XXX: move to 800?
