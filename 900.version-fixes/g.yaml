@@ -164,6 +164,8 @@
 - { name: gtksourceviewmm,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gts,                         verpat: "[0-9]{6,}.*",                              snapshot: true } # aosc, gentoo
 - { name: gts,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: gumbo-parser,                ver: "1.0",                   ruleset: yacp,        incorrect: true }
+- { name: gumbo-parser,                                              ruleset: yacp,        untrusted: true }
 - { name: gummi,                       ver: "0.7.4.3",               ruleset: opensuse,    incorrect: true }
 - { name: gummi,                                                     ruleset: opensuse,    untrusted: true }
 - { name: gupnp-igd,                   ver: "0.20.16",               ruleset: pisi,        incorrect: true }
