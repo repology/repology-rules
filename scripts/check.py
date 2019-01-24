@@ -56,6 +56,7 @@ families = [
     'hpux',
     'kaos',
     'libregamewiki',
+    'lunar',
     'macports',
     'mageia',
     'msys2',
