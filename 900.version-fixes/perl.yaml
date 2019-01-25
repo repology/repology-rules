@@ -43,6 +43,7 @@
 - { name: "perl:extutils-xspp",        verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:io-stty",              ver: ["02","0.30.0"],                               incorrect: true }
 - { name: "perl:io-tty",               verpat: ".*\\+.*",                                  devel: true } # AOSC devel
+- { name: "perl:json",                 verpat: "4\\.[0-9]{3,}.*",                          incorrect: true }
 - { name: "perl:json-xs",              verpat: "3\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:json-xs",              verpat: "3\\.[1-9]0.*",                             ignore: true }
 - { name: "perl:math-polygon-tree",    ver: "0.0691",                                      ignore: true } # 0.0691 < 0.08 (CPAN versioning brokenness)
