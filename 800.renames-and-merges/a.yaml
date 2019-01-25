@@ -143,6 +143,7 @@
 - { setname: asterisk-extra-sounds,    namepat: "asterisk-extra-sounds-.*", ruleset: openbsd }
 - { setname: asterisk-flite,           namepat: "(asterisk[0-9]+)-flite", addflavor: $1 }
 - { setname: asterisk-g72x,            namepat: "(asterisk[0-9]+)-g72x", addflavor: $1 }
+- { setname: astroid,                  name: astroid2 }
 - { setname: astromenace,              name: openastromenace }
 - { setname: astromenace,              name: astromenace-data, addflavor: data }
 - { setname: astromenace,              name: openastromenace-devel, weak_devel: true }
