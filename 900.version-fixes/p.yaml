@@ -71,6 +71,8 @@
 - { name: pmw,                         ver: "4.240",                                       outdated: true } # #693
 - { name: png2ico,                     verpat: "20[0-9]{6}",                               incorrect: true } # it's 2002-12-08
 - { name: png2ico,                     ver: "2008.12.08",                                  incorrect: true }
+- { name: podman,                      ver: "1.0.1",                 ruleset: fedora,      incorrect: true }
+- { name: podman,                                                    ruleset: fedora,      untrusted: true }
 - { name: polari,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: polkit-qt-1,                 ver: "0.112.0.1",             ruleset: kaos,        incorrect: true }
 - { name: polkit-qt-1,                                               ruleset: kaos,        untrusted: true } # accused of fake 0.112.0.1
