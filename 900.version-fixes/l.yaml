@@ -7,6 +7,7 @@
 - { name: lcms,                        verpat: "2.2[0-9]",                                 ignore: true } # gobolinux brokenness
 - { name: lcov,                        ver: "1.14",                  ruleset: opensuse,    incorrect: true }
 - { name: lcov,                                                      ruleset: opensuse,    untrusted: true }
+- { name: lensfun,                     verpat: "[0-9]+\\.[0-9]+\\.9[0-9]",                 devel: true }
 - { name: less,                        vergt: "530",                                       devel: true, maintenance: true } # http://www.greenwoodsoftware.com/less/
 - { name: lft,                         verpat: "([0-9]+)\\.([0-9])",                       setver: "$1.$20" } # upstream inadequacy
 - { name: lha,                         verpat: "[0-9]{3}.*",                               incorrect: true } # it's e.g 1.14i
