@@ -30,7 +30,7 @@
 - { setname: gd,                       name: [gd2, libgd, libgd2] }
 - { setname: gdal,                     name: [gdal1,libgdal] }
 - { setname: gdal,                     name: [gdal-curl,gdal-filegdb,gdal-lib,gdal-hdf4], addflavor: true }
-- { setname: gdal,                     name: "python:grass", addflavor: python }
+- { setname: gdal,                     name: "python:dgal", addflavor: python }
 - { setname: gdal-grass,               name: libgdal-grass }
 - { setname: gdk-pixbuf,               namepat: "(?:lib)?gdk-pixbuf[0-9.-]*(\\+svg|-jasper|-xlib)?" }
 - { setname: gdl,                      namepat: "(?:lib)?gdl[0-9.-]*" }
