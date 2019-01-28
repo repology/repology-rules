@@ -41,6 +41,12 @@
 
 - { name: gonvert, ruleset: maemo, setname: gonvert-maemo }
 
+- { name: gosu, wwwpart: tianon, addflag: classified }
+- { name: gosu, wwwpart: libgosu, setname: "ruby:gosu" }
+- { name: gosu, summpart: "game development", setname: "ruby:gosu" }
+- { name: gosu, wwwpart: gosu-lang, setname: gosu-lang }
+- { name: gosu, noflag: classified, warning: "please classify me" }
+
 - { name: gpm, wwwpart: pote, setname: "go:gpm" }
 
 - { name: greg, wwwpart: gna.org, setname: greg-guile-test-framework } # burried by gna
