@@ -7,6 +7,8 @@
 - { name: falkon,                      ver: "3.1.0",                 ruleset: pisi,        incorrect: true }
 - { name: falkon,                                                    ruleset: pisi,        untrusted: true } # accused of fake 3.1.0
 - { name: fann,                        verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: fasttracker2,                verpat: "2\\.[0-9]{3}",                             incorrect: true } # pkgsrc 2.130; actually b130
+- { name: fasttracker2,                verpat: "0\\.1.*[0-9]{3}",                          incorrect: true } # freebsd 0.1.b131, debian 0.1b126; no idea where 0.1 come from - no mention on the site or in the source, it's just bNNN
 - { name: fatrat,                      verlonger: 3,                 ruleset: kaos,        ignore: true }
 - { name: fcron,                       ver: "3.3.0",                                       devel: true } # http://fcron.free.fr/
 - { name: fdm,                         verpat: ".*20[0-9]{6}",                             ignore: true }
