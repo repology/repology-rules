@@ -59,6 +59,10 @@
 
 - { name: cmix, wwwpart: cmix.sourceforge.net, setname: cmix-mixer } # relic from 2002
 
+- { name: cmt, wwwpart: ladspa, setname: ladspa-cmt }
+- { name: cmt, ruleset: openbsd, setname: ladspa-cmt }
+# otherwise Cross platform configuration management environment
+
 - { name: command-not-found, wwwpart: metti, setname: command-not-found-arch }
 - { name: command-not-found, wwwpart: kaniini, setname: command-not-found-kaniini }
 - { name: command-not-found, wwwpart: [jrabbit,haiku], setname: command-not-found-haiku }
