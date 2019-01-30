@@ -59,6 +59,7 @@
 - { name: anki,                        ver: "2.1.0",                 ruleset: debuntu,     ignore: true } # fake
 - { name: aom,                         verpat: "([0-9]+\\.){3}[0-9]{3}.*",                 incorrect: true } # fake
 - { name: apache,                      verpat: "2\\.[0-9]*[13579]\\..*",                   devel: true }
+- { name: apel,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: apitrace,                                                                        noscheme: true }
 - { name: "apmod:rpaf",                verpat: "2015.*",             ruleset: [ arch ],    ignore: true }
 - { name: appmenu-qt,                  verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
