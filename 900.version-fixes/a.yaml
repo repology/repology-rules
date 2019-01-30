@@ -14,6 +14,10 @@
 - { name: acpi-call,                   ver: "3.17",                                        ignore: true } # kernel version based too, however used by upstream too https://github.com/damadmai/acpi_call/releases
 - { name: actiona,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: adwaita-icon-theme,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: aeskulap,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true }
+- { name: aeskulap,                    verpat: ".*g.*",                                    snapshot: true }
+- { name: aeskulap,                    ver: "0.2.2",                 ruleset: [sisyphus,rosa,pclinuxos], incorrect: true } # 0.2.2beta2
+- { name: aeskulap,                                                  ruleset: [sisyphus,rosa,pclinuxos], untrusted: true } # accused of fake 0.2.2
 - { name: afdko,                       verpat: "([0-9]+\\.[0-9]+)\\.b?([0-9]+).*?",        setver: "$1.$2" }
 - { name: aften,                       ver: [ "0.05", "0.08" ],                            ignore: true }
 - { name: ag,                          verlonger: 3,                                       ignore: true } # windows-only
