@@ -75,9 +75,7 @@
 - { setname: shorewall,                name: shorewall6 }
 - { setname: shorewall,                name: shorewall6-lite, addflavor: shorewall-lite }
 - { setname: shotcut,                  name: shotcut-dmo }
-- { setname: sidplay,                  namepat: "(?:lib)?sidplay[0-9]*" }
-- { setname: sidplay,                  name: [libsidplay, libsidplay2, sidplay-libs, sidplay2-libs, sidplay-base] }
-- { setname: sidplay,                  name: sidplay2-alsa, addflavor: alsa }
+- { setname: sidplay,                  namepat: "sidplay[0-9]+" }
 - { setname: silgraphite,              name: [silgraphite-ft,silgraphite-xft], addflavor: true }
 - { setname: silgraphite,              name: [silgraphite2.0,graphite,libgraphite2,graphite2,libgraphite] }
 - { setname: simple-scan,              name: simple-scan-3.12 }
