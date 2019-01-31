@@ -26,8 +26,8 @@
 - { name: unrar,                       verpat: "5\\.[0-9]{2}",                             incorrect: true } # it uses 5.X.Y schema
 - { name: unzip,                       verpat: ".*c.*",                                    incorrect: true } # haikuports
 - { name: unzip,                       verpat: "60.*",                                     incorrect: true } # pisi
-- { name: upower,                      ver: "0.99.8",                ruleset: fedora,      incorrect: true }
-- { name: upower,                                                    ruleset: fedora,      untrusted: true }
+- { name: upower,                                                    ruleset: fedora,      untrusted: true } # accused of fake 0.99.8
+- { name: upower,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: urbanterror,                 verpat: "[0-9]+",                                   incorrect: true }
 - { name: urbanterror,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: urlview,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
