@@ -37,8 +37,6 @@
 #- { name: gexiv2,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # enable if there's pattern with even/odd versions which is unapparent ATOW
 - { name: ggz-client-libs,             verpat: "0\\.99.*",                                 devel: true }
 - { name: ggz-gtk-client,              verpat: "0\\.99.*",                                 devel: true }
-- { name: ghostscript,                 verpat: "9.26a",              ruleset: debuntu,     incorrect: true }
-- { name: ghostscript,                                               ruleset: debuntu,     untrusted: true } # accused of fake 9.26a
 - { name: gimagereader,                verpat: ".*\\.9[0-9]+",                             devel: true }
 - { name: gimp,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: git-bzr-ng,                                                                      noscheme: true }
