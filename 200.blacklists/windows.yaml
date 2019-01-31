@@ -1,5 +1,7 @@
 # vim: tabstop=50 expandtab softtabstop=50
 
+- { ruleset: [chocolatey,scoop], name: pixie,     remove: true }
+
 - { ruleset: scoop,      name: cuetools,          remove: true }
 
 - { ruleset: chocolatey, name: ace,               remove: true }
