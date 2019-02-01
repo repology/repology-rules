@@ -71,6 +71,10 @@
 - { setname: lldb,                     namepat: "lldb[0-9.-]*-split", addflavor: split }
 - { setname: lldb,                     namepat: "lldb[0-9.-]+" }
 - { setname: llvm,                     namepat: "llvm[0-9.-]+" }
+- { setname: llvm,                     namepat: "libllvm[0-9.-]+", addflavor: lib }
+- { setname: llvm,                     namepat: "llvm-toolchain-[0-9.-]+", addflavor: toolchain }
+- { setname: llvm,                     name: [llvm-common,llvm-manpages,llvm-runtime,"python:llvm"], addflavor: true }
+- { setname: llvm,                     name: llvm-devel, weak_devel: true }
 - { setname: lm-sensors,               name: lm-sensors-max-of-fctemps, addflavor: true }
 - { setname: lmdb,                     name: liblmdb }
 - { setname: lmdb++,                   name: lmdbxx }
