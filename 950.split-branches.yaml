@@ -195,8 +195,6 @@
 
 - { name: mpich,             verpat: "1\\..*",            setname: mpich2 }
 
-- { name: mysql,             verpat: "8\\..*",            setname: mysql8 }
-
 # note that versions in conditions are +1 to real versions
 - { name: nvidia, verlt: "71.87", setname: nvidia-lagacy-71.86 }
 - { name: nvidia, verlt: "96.44", setname: nvidia-legacy-96.43 }
