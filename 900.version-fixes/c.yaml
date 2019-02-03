@@ -54,6 +54,7 @@
 - { name: cgrep,                                                     ruleset: aix,         untrusted: true }
 - { name: chakracore,                  wwwpart: cauldrondevelopmentllc,                    ignore: true } # fork with different versioning
 - { name: charls,                                                    ruleset: pisi,        untrusted: true } # repacked, fake mbigous version
+- { name: check-lm-sensors,            verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: checkbashisms,               verpat: "20[0-9]{6}.*",                             ignore: true } # AUR
 - { name: cherokee,                    verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
 - { name: chez-scheme,                 ver: "9.5.1",                 ruleset: nix,         incorrect: true }
