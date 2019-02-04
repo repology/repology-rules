@@ -7,7 +7,7 @@
 
 - { name: magnum, wwwpart: openstack, setname: magnum-openstack }
 - { name: magnum, wwwpart: magnum.graphics, setname: magnum-middleware }
-- { name: magnum, summpart: WglContext, setname: magnum-middleware }
+- { name: magnum, summpart: middleware, setname: magnum-middleware }
 - { name: magnum, warning: "please classify me" }
 
 - { name: mako, wwwpart: mako-project, setname: mako-wayland }
