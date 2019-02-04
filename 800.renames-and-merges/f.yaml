@@ -19,6 +19,7 @@
 - { setname: fetch-crl,                name: fetch-crl3 }
 - { setname: fetchmail,                name: fetchmailconf, addflavor: fetchmailconf }
 - { setname: ffcall,                   name: libffcall }
+- { setname: ffms2,                    name: [ffmpegsource, ffms] }
 - { setname: fftw,                     name: [fftwf,fftw-avx,fftw-static] }
 - { setname: fftw,                     namepat: "(?:lib)?fftw[0-9.-]*(-double|-float|-long-double|-quad|-single|-long|-mpi|-mpich|-openmpi|-common|-gnu-.*)?", addflavor: $1 }
 - { setname: fife,                     name: [fifengine,"python:fife"] }
