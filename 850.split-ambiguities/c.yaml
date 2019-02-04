@@ -12,6 +12,9 @@
 - { name: cdf3,                        setname: cdf                       } # Common Data Format lib; XXX: move to 800?
 - { name: cdf, verpat: "0.*",          setname: cdf-df                    } # split out colorized df
 
+- { name: ceres, ruleset: vcpkg, setname: ceres-solver }
+- { name: ceres, warning: "please classify me" }
+
 - { name: cflow, wwwpart: marcusva, setname: cflow-marcusva }
 - { name: cflow, ruleset: [freebsd,openpkg], setname: cflow-ancient } # circa 1995; this rule happens to be too wide, fixed by the following one
 - { name: cflow-ancient, wwwpart: gnu, setname: cflow }
