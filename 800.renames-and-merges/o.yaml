@@ -32,6 +32,7 @@
 - { setname: openal,                   name: [openal-static,openal-examples], addflavor: true }
 - { setname: openbabel,                name: open-babel }
 - { setname: openblas,                 name: [openblas-lapack,openblas-lapack-ilp64] }
+- { setname: openbor,                  namepat: "openbor[0-9]+" }
 - { setname: opencascade,              name: [opencascade-data,opencascade-doc,opencascade-samples], addflavor: true } # sisyphus artifacts
 - { setname: opencc,                   name: opencc-doc, addflavor: doc }
 - { setname: opencollada,              name: libopencollada }
