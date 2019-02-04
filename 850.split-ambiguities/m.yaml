@@ -5,6 +5,11 @@
 - { name: mailx, wwwpart: heirloom, setname: heirloom-mailx }
 - { name: mailx, verpat: "12\\..*", setname: heirloom-mailx }
 
+- { name: magnum, wwwpart: openstack, setname: magnum-openstack }
+- { name: magnum, wwwpart: magnum.graphics, setname: magnum-middleware }
+- { name: magnum, summpart: WglContext, setname: magnum-middleware }
+- { name: magnum, warning: "please classify me" }
+
 - { name: mako, wwwpart: mako-project, setname: mako-wayland }
 - { name: mako, wwwpart: makotemplates, setname: "python:mako" }
 - { name: mako, category: lang, ruleset: openwrt, setname: "python:mako" }
