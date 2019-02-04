@@ -20,6 +20,7 @@
 - { name: "python:httplib2",           verpat: "2-.*",                                     incorrect: true }
 - { name: "python:jcconv",             ver: "0.2.4",                 ruleset: fedora,      incorrect: true }
 - { name: "python:jcconv",                                           ruleset: fedora,      untrusted: true }
+- { name: "python:jsonschema",         verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:leveldb",            ver: "0.193",                                       outdated: true }
 #- { name: "python:oauth2",                                                                 p_is_patch: true } # XXX: check if really needed
 - { name: "python:prettytable",        ver: "0.10",                                        incorrect: true } # sisyphus fake
