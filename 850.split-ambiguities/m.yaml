@@ -6,7 +6,7 @@
 - { name: mailx, verpat: "12\\..*", setname: heirloom-mailx }
 
 - { name: magnum, wwwpart: openstack, setname: magnum-openstack }
-- { name: magnum, wwwpart: magnum.graphics, setname: magnum-middleware }
+- { name: magnum, wwwpart: [magnum.graphics,mosra.cz], setname: magnum-middleware }
 - { name: magnum, summpart: middleware, setname: magnum-middleware }
 - { name: magnum, warning: "please classify me" }
 
