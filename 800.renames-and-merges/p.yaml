@@ -70,6 +70,9 @@
 - { setname: phash,                    name: libphash }
 - { setname: phat,                     name: libphat }
 - { setname: phoenix-emu,              name: phoenix-emu-project }
+- { setname: phonon-vlc,               name: [phonon-backend-vlc-qt4, phonon-qt4-vlc], addflavor: qt4 }
+- { setname: phonon-vlc,               name: [phonon-backend-vlc-qt5, phonon-qt5-backend-vlc, phonon4qt5-backend-vlc, qt5-phonon-backend-vlc], addflavor: qt5 }
+- { setname: phonon-vlc,               name: phonon-backend-vlc } # ambigous: phonon-vlc is used in repository name, phonon-backend-vlc for distfile name
 - { setname: photivo,                  name: photivo-qt4, addflavor: true }
 - { setname: php,                      namepat: "php[0-9.-]*" }
 - { setname: phpmyadmin,               namepat: "php[0-9]*:phpmyadmin" }
