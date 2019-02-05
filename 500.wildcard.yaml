@@ -158,8 +158,8 @@
 - { setname: "rust:$1", addflag: wconce, noflag: [wconce,not_rust], namepat: "rust-(.*)", ruleset: [ arch, debuntu, fedora, nix, sisyphus ] }
 
 # Vaporsynth
-- { setname: "vaporsynth:$1", addflag: wconce, noflag: [wconce,not_vaporsynth], namepat: "vaporsynth-plugin-(.*)" }
-- { setname: "vaporsynth:$1", addflag: wconce, noflag: [wconce,not_vaporsynth], namepat: "vaporsynth-(.*)" }
+- { setname: "vapoursynth:$1", addflag: wconce, noflag: [wconce,not_vapoursynth], namepat: "vapoursynth-plugin-(.*)" }
+- { setname: "vapoursynth:$1", addflag: wconce, noflag: [wconce,not_vapoursynth], namepat: "vapoursynth-(.*)" }
 
 # VDR
 - { setname: "vdr:$1", addflag: wconce, noflag: [wconce,not_vdr], namepat: "vdr-plugin-(.*)" }
