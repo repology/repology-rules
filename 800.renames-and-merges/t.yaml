@@ -63,7 +63,7 @@
 - { setname: thunderbird,              name: thunderbird-i18n, addflavor: i18n }
 - { setname: thunderbird,              name: thunderbird-l10n-xpi, addflavor: l10n }
 - { setname: thunderbird,              name: thunderbird-ru, addflavor: ru }
-- { setname: thunderbird,              namepat: "thunderbird-((?:i18n|langpack)-.*)", addflavor: $1 }
+- { setname: thunderbird,              namepat: "(?:mozilla-)?thunderbird-((?:i18n|l10n|langpack)-.*)", addflavor: $1 }
 - { setname: thunderbird,              namepat: "thunderbird-beta(.*)", addflavor: $1, ignore: true }
 - { setname: thunderbird,              namepat: "thunderbird-nightly(.*)", addflavor: $1, ignore: true }
 - { setname: thunderbird,              namepat: "thunderbird[0-9.-]*" }

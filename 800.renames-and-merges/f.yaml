@@ -40,7 +40,7 @@
 - { setname: firefox-beta-i18n,        namepat: "firefox-beta-i18n-.*" }
 - { setname: firefox-esr-i18n,         namepat: "firefox-esr-(i18n-.*)", addflavor: $1 }
 - { setname: firefox-esr-l10n,         namepat: "firefox-esr[0-9.-]*-l10n" }
-- { setname: firefox-i18n,             namepat: "firefox-(i18n|l10n|langpack)-(.*)", addflavor: $1 }
+- { setname: firefox-i18n,             namepat: "(?:mozilla-)?firefox-(i18n|l10n|langpack)-(.*)", addflavor: $1 }
 - { setname: firefox-kde-i18n,         namepat: "firefox-(kde-i18n-.*)", addflavor: $1 }
 - { setname: firejail,                 name: firejail-lts }
 - { setname: fish,                     name: fish-shell }

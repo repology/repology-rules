@@ -93,3 +93,4 @@
 - { name: tvheadend,                   verpat: "[0-9]+\\.[0-9]*[13579](?:\\..*)?",         devel: true } # https://tvheadend.org/projects/tvheadend/wiki/download
 - { name: tvnamer,                     ver: "3.0.0",                                       outdated: true } # 3.0.0 < 2.3: https://github.com/dbr/tvnamer/releases
 - { name: twm,                         verpat: "6.*",                                      incorrect: true } # Xorg version used instead of application individual version
+- { name: txt2tags,                    verpat: "20[0-9]{6}",                               snapshot: true }

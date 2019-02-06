@@ -36,7 +36,7 @@
 - { setname: libreoffice,              name: [libreoffice-bin,libreoffice-bin-debug,libreoffice-gtk3], addflavor: true }
 - { setname: libreoffice,              name: [libreoffice-dev,libreoffice-fresh,libreoffice-oldstable,libreoffice-still] }
 - { setname: libreoffice,              namepat: "([^-]+)-libreoffice", ruleset: freebsd, addflavor: $1 }
-- { setname: libreoffice,              namepat: "libreoffice-((?:i18n|l10n).*)", addflavor: $1 }
+- { setname: libreoffice,              namepat: "libreoffice-((?:i18n|l10n|help).*)", addflavor: $1 }
 - { setname: libreoffice,              namepat: "libreoffice-(.*)", ruleset: kaos, addflavor: $1 }
 - { setname: libreoffice,              namepat: "libreoffice-fresh-(.*)", ruleset: arch, addflavor: $1 }
 - { setname: libreoffice,              namepat: "libreoffice-still-(.*)", ruleset: arch, addflavor: $1 }
