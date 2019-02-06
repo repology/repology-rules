@@ -43,8 +43,9 @@
 - { setname: networkmanager,           name: networkmanager-consolekit, addflavor: consolekit }
 - { setname: networkmanager,           name: networkmanager-consolekit-noscan, addflavor: consolekit-noscan }
 - { setname: neverball,                name: neverball-data, addflavor: data }
-- { setname: newsbeuter,               name: newsbeuter-dev, ignore: true }
-- { setname: newsbeuter,               name: newsbeuter2.8 }
+- { setname: newsboat,                 name: newsbeuter } # abandoned in favor of
+- { setname: newsboat,                 name: newsbeuter-dev, ignore: true }
+- { setname: newsboat,                 name: newsbeuter2.8 }
 - { setname: newt,                     name: [libnewt,newt52] }
 - { setname: nghttp2,                  name: libnghttp2 }
 - { setname: nginx,                    name: [nginx-devel,nginx-mainline] }
