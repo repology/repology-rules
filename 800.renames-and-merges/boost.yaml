@@ -4,6 +4,7 @@
 - { setname: boost,                    namepat: "boost-mpi-source[0-9-.]+", addflavor: boost-mpi }
 - { setname: boost,                    namepat: "(?:compat-)?boost[0-9.-]*(?:-compat)?" }
 - { setname: boost,                    name: [boost-base], addflavor: true }
+- { setname: boost,                    name: libboost }
 
 - setname: boost
   name:

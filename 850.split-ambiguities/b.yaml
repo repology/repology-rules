@@ -48,8 +48,8 @@
 - { name: borg, wwwpart: borg-calendar,                   setname: borg-calendar }
 - { name: borg, wwwpart: ok-borg,                         setname: ok-borg }
 - { name: borg, wwwpart: borgbackup,                      setname: borgbackup }
-- { name: borg, ruleset: sisyphus,                        setname: borgbackup }
-- { name: borg,                        warning: "please classify me" }
+- { name: borg, ruleset: [sisyphus,solus],                setname: borgbackup }
+- { name: borg, warning: "please classify me" }
 
 - { name: bos, wwwpart: boswars,                          setname: boswars }
 

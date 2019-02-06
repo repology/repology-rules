@@ -70,8 +70,8 @@
 - { setname: npapi-vlc,                name: npapi-vlc-gtk3 }
 - { setname: npm,                      namepat: "npm[0-9.-]+" }
 - { setname: npth,                     name: libnpth }
-- { setname: nspr,                     name: mozilla-nspr }
-- { setname: nss,                      name: mozilla-nss }
+- { setname: nspr,                     name: [mozilla-nspr,libnspr] }
+- { setname: nss,                      name: [mozilla-nss,libnss] }
 - { setname: nss-ldap,                 name: libnss-ldap }
 - { setname: ntfs-3g,                  name: ["fusefs:ntfs","fusefs:ntfs-3g",ntfs-3g-fuse,ntfs-3g-ntfsprogs,ntfsprogs,ntfs3g,libntfs-3g,libntfs] }
 - { setname: ntfs-3g,                  name: [ntfs-3g-ar,ntfs-3g-advanced], addflavor: ar }

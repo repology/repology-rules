@@ -154,7 +154,7 @@
 - { setname: mozjs,                    namepat: "mozjs[0-9.-]+" }
 - { setname: mozo,                     name: mozo-gtk2, addflavor: true }
 - { setname: mozo,                     name: mozo-dev, weak_devel: true }
-- { setname: mpc,                      name: [mpd-mpc,mpclient] }
+- { setname: mpc,                      name: [mpd-mpc,mpclient,mpc-client] }
 - { setname: mpd,                      name: [mpd-light,mpd-light-pulse,mpd-minimal,mpd-server-minimal,mpd-sidplay], addflavor: true }
 - { setname: mpfr,                     name: [mpfr3,mpfr4,libmpfr] }
 - { setname: mpich,                    name: mpich-default }

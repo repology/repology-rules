@@ -69,7 +69,9 @@
 - { name: brise,                       verpat: "20[0-9]{6}",                               snapshot: true } # NOTE: dates allowed at version tail
 - { name: brisk-menu,                  ver: "0.5.1",                 ruleset: freebsd,     incorrect: true } # fork and a new fake version for the sake of single commit
 - { name: brotli,                      verpat: "20[0-9]{6}.*",                             ignore: true }
-- { name: budgie-desktop,              verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: budgie-desktop,              verpat: ".*20[0-9]{6}.*",                           snapshot: true }
+- { name: budgie-desktop,              ver: "10.5",                  ruleset: solus,       incorrect: true } # fake version of their own product, lol
+- { name: budgie-desktop,                                            ruleset: solus,       untrusted: true }
 - { name: buffer,                      verpat: "20[0-9]{2}.*",                             snapshot: true } # latest 1.19, github fork w/o releases
 - { name: buildah,                     ver: "1.6",                   ruleset: fedora,      incorrect: true }
 - { name: buildah,                                                   ruleset: fedora,      untrusted: true } # accused of fake 1.6

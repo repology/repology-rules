@@ -127,9 +127,9 @@
 - { setname: frozen-bubble,            name: frozen-bubble-server, addflavor: server }
 - { setname: frozen-bubble,            name: frozenbubble2 }
 - { setname: frr,                      name: [frr3,frr4,frr5] }
-- { setname: fs-uae,                   name: fs-uae-devel, weak_devel: true }
-- { setname: fs-uae-arcade,            name: fs-uae-arcade-devel, weak_devel: true }
-- { setname: fs-uae-launcher,          name: fs-uae-launcher-devel, weak_devel: true }
+- { setname: fs-uae,                   name: [fs-uae-devel, fs-uae-dev], weak_devel: true }
+- { setname: fs-uae-arcade,            name: [fs-uae-arcade-devel, fs-uae-arcade-dev], weak_devel: true }
+- { setname: fs-uae-launcher,          name: [fs-uae-launcher-devel, fs-uae-launcher-dev], weak_devel: true }
 - { setname: fselect,                  name: "rust:fselect" }
 - { setname: fsv,                      name: fsv2 }
 - { setname: fteproxy,                 name: "python:fteproxy" }

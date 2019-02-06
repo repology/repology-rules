@@ -159,10 +159,12 @@
 - { setname: gnome-chess,              name: gnome-games-chess }
 - { setname: gnome-control-center,     name: control-center }
 - { setname: gnome-desktop,            name: "python:pygnome-desktop", addflavor: python }
-- { setname: gnome-desktop,            name: [gnome-desktop2, gnome-desktop3, compat-gnome-desktop38, compat-gnome-desktop314] }
+- { setname: gnome-desktop,            name: [libgnome-desktop, gnome-desktop2, gnome-desktop3, compat-gnome-desktop38, compat-gnome-desktop314] }
 - { setname: gnome-desktop,            name: gnome-desktop-reference, addflavor: reference }
 - { setname: gnome-desktop-sharp,      name: gnome-desktop-sharp2 }
 - { setname: gnome-mahjongg,           name: gnome-games-mahjongg }
+- { setname: gnome-menus,              name: [libgnome-menus, gnome-menus2] }
+- { setname: gnome-menus,              name: gnome-menus2-dev, weak_devel: true }
 - { setname: gnome-mines,              name: gnome-games-mines }
 - { setname: gnome-mines,              name: gnome-mines-3.12.2 }
 - { setname: gnome-nibbles,            name: gnome-games-nibbles }

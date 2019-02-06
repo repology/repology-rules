@@ -208,8 +208,9 @@
 - { setname: cura,                     name: [cura-old, cura-not-so-old] }
 - { setname: curaengine,               name: curaengine-beta, weak_devel: true }
 - { setname: curaengine,               name: cura-engine }
-- { setname: curl,                     name: [curl-ca-bundle,curl-http2,curl-openssl,libcurl-compat,libcurl-compat-nostatic,libcurl-gnutls,libcurl-openssl-1.0,curl-ssh], addflavor: true }
-- { setname: curl,                     name: [curl3, libcurl] }
+- { setname: curl,                     name: [curl-ca-bundle,curl-http2,curl-openssl,libcurl-compat,libcurl-compat-nostatic,libcurl-gnutls,libcurl-openssl-1.0,curl-ssh,curl-gnutls,curl-mini,libcurl3-gnutls], addflavor: true }
+- { setname: curl,                     name: [curl3, libcurl4, libcurl] }
+- { setname: curlpp,                   name: libcurlpp }
 - { setname: curseofwar,               name: curse-of-war }
 - { setname: curseofwar,               name: curseofwar-sdl }
 - { setname: curses-hexedit,           name: [chexedit,ncurses-hexedit,nchexedit] }

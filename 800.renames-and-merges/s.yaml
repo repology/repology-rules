@@ -33,7 +33,7 @@
 - { setname: sdl,                      name: [libsdl,sdl1,sdl12,libsdl1.2] }
 - { setname: sdl,                      name: sdl-runtime, addflavor: true }
 - { setname: sdl-$1,                   namepat: "(?:lib)?sdl(?:1[0-9.]*)?-?(image|mixer|net|ttf|gfx)(?:1[0-9.-]*)?" }
-- { setname: sdl-pango,                name: [libsdl-pango,sdlpango] }
+- { setname: sdl-pango,                name: [libsdl-pango,sdlpango,sdl-pango1,sdl1-pango] }
 - { setname: sdl-sge,                  name: libsdl-sge }
 - { setname: sdl-sound,                name: sdl-sound-patched, addflavor: patched }
 - { setname: sdl-sound,                namepat: "(?:lib)?sdl[0-9.-]*sound[0-9.-]*" }
@@ -138,6 +138,7 @@
 - { setname: spatialite-gui,           name: spatialite-gui-devel, weak_devel: true }
 - { setname: speed-dreams,             name: speeddreams }
 - { setname: speed-dreams,             namepat: "speed-?dreams-.*", addflavor: true }
+- { setname: speex,                    name: libspeex }
 - { setname: speexdsp,                 name: libspeexdsp }
 - { setname: spice-gtk,                namepat: "(?:lib)?spice-gtk[0-9.-]*" }
 - { setname: spidermonkey,             namepat: "spidermonkey[0-9.-]+" }

@@ -21,6 +21,7 @@
 - { name: tcpflow,                     ver: "1.4.6",                 ruleset: nix,         incorrect: true }
 - { name: tcpslice,                                                                        noscheme: true } # https://github.com/the-tcpdump-group/tcpslice/releases; there's some kind of official release 1.2a3, but it's from 2005 and so doesn't count
 - { name: tcptrack,                    wwwpart: bchretien,                                 successor: true } # fork
+- { name: tcsh,                        verpat: "20[0-9]{6}",                               snapshot: true } # solus 20170131 is likely based on cvs2git meaningless snapshot: https://github.com/tcsh-org/tcsh/releases
 - { name: tdb,                         ver: "3.6.0",                                       incorrect: true } # pclinuxos wtf; https://www.samba.org/ftp/tdb/
 - { name: teem,                        ver: "1.12.0",                ruleset: debuntu,     ignore: true }
 - { name: telegram-cli,                verpat: ".*20[0-9]{6}",                             ignore: true }

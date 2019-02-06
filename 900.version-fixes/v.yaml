@@ -47,5 +47,7 @@
 - { name: vpnc,                        ver: "0.5.3.3",               ruleset: kaos,        incorrect: true } # fake
 - { name: vpnc,                        verpat: "0.5.3.*post.*",                            ignore: true } # nix
 - { name: vte,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: vte,                         ver: "0.28.22",               ruleset: solus,       incorrect: true }
+- { name: vte,                                                       ruleset: solus,       untrusted: true } # accused of fake 0.28.22
 - { name: vtwm,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: vuze,                        verpat: "[0-9]{4}.*",                               incorrect: true }

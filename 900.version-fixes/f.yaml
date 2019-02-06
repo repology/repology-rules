@@ -10,6 +10,8 @@
 - { name: fasttracker2,                verpat: "2\\.[0-9]{3}",                             incorrect: true } # pkgsrc 2.130; actually b130
 - { name: fasttracker2,                verpat: "0\\.1.*[0-9]{3}",                          incorrect: true } # freebsd 0.1.b131, debian 0.1b126; no idea where 0.1 come from - no mention on the site or in the source, it's just bNNN
 - { name: fatrat,                      verlonger: 3,                 ruleset: kaos,        ignore: true }
+- { name: fcgi,                        ver: "2.4.1",                 ruleset: solus,       incorrect: true }
+- { name: fcgi,                                                      ruleset: solus,       untrusted: true } # accused of fake 2.4.1
 - { name: fcron,                       ver: "3.3.0",                                       devel: true } # http://fcron.free.fr/
 - { name: fdm,                         verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: fdm,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]{2,}", ruleset: crux, incorrect: true } # crux appends # of commits since release
@@ -81,6 +83,7 @@
 - { name: foobillard++,                verpat: "3\\.43.*",           ruleset: slackbuilds, incorrect: true }
 - { name: foobillard++,                                              ruleset: slackbuilds, untrusted: true }
 - { name: foobillard++,                verpat: "(.*)b",                                    setver: $1beta }
+- { name: foobillard++,                ver: "3.42",                                        setver: $0beta }
 - { name: foomatic,                    verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: foomatic-db,                                                                     noscheme: true }
 - { name: foomatic-db-engine,          verpat: ".*20[0-9]{6}",                             ignore: true }
@@ -108,7 +111,9 @@
 - { name: freewnn,                                                   ruleset: pld,         untrusted: true }
 - { name: frescobaldi,                 ver: "3.0.1",                 ruleset: sisyphus,    ignore: true } # fake
 - { name: frescobaldi,                 verpat: "3\\..*",                                   devel: true }
-- { name: frozen-bubble,               ver: ["905bf71","2.212.0"],                         ignore: true } # fake?
+- { name: frozen-bubble,               ver: ["905bf71","2.212.0"],                         incorrect: true } # fake?
+- { name: frozen-bubble,               ver: "2.2.1_1",               ruleset: solus,       incorrect: true } # 2.2.1beta1
+- { name: frozen-bubble,                                             ruleset: solus,       untrusted: true } # accused of fake 2.2.1_1
 - { name: [fs-uae,fs-uae-arcade,fs-uae-launcher], verpat: "([0-9.]+)-p([0-9]+)", ruleset: exherbo, setver: $1dev$2 }
 - { name: fskbsetting,                 ver: "0.5.3.1",               ruleset: antix,       incorrect: true }
 - { name: fskbsetting,                                               ruleset: antix,       untrusted: true }

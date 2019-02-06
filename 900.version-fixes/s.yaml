@@ -22,7 +22,9 @@
 - { name: screengen,                   ver: "1.10",                                        devel: true } # https://github.com/OlegKochkin/screengen/blob/master/src/build_number.h -> no tags, but current devel version
 - { name: scribus,                     ver: "1.5.5",                 ruleset: sisyphus,    incorrect: true }
 - { name: scribus,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 1.5.5
-- { name: scrot,                       verpat: "0\\.8[.+-].*",                             ignore: true } # debian fakes
+- { name: scrot,                       verpat: "0\\.8[_.+-]p?[0-9]+",                      successor: true } # debian patches
+- { name: scrot,                       ver: "0.18.17",               ruleset: solus,       incorrect: true }
+- { name: scrot,                                                     ruleset: solus,       untrusted: true } # accused of fake 0.18.17
 - { name: sddm,                        verpat: "[0-9]{4,}.*",        ruleset: kaos,        ignore: true } # snapshot with random version
 - { name: sdl2-image,                  ver: "2.1.0",                 ruleset: pisi,        incorrect: true }
 - { name: sdl2-image,                                                ruleset: pisi,        untrusted: true } # accused of fake 2.1.0

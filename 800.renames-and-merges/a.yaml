@@ -21,6 +21,7 @@
 - { setname: acpi-call,                name: [acpi-call-ck-fbcondecor,acpi-call-dkms,acpi-call-lts,acpi-call-pf], addflavor: true }
 - { setname: acpi-call,                namepat: "linux[0-9]+(?:-rt)?-acpi-call" }
 - { setname: acpica,                   namepat: "acpica-(?:tools|unix|utils)" }
+- { setname: acpid,                    name: acpid2 }
 - { setname: acroread,                 name: [adobereader,adobe-reader] }
 - { setname: acroread,                 namepat: "acroread[0-9.]*" }
 - { setname: acroread-asianfonts,      namepat: "acroread9-.*font.*", ruleset: pkgsrc }
@@ -151,6 +152,7 @@
 - { setname: astromenace,              name: openastromenace-devel, weak_devel: true }
 - { setname: astrometry,               name: [astrometrynet,astrometry.net] }
 - { setname: asylum,                   name: sdl-asylum }
+- { setname: at-spi2-core,             name: at-spi2 } # XXX: problem?
 - { setname: atk,                      name: [atk-reference,atk-docs], addflavor: docs }
 - { setname: atk,                      name: atk1.0 }
 - { setname: atk,                      name: libatk }
