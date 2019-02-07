@@ -6,3 +6,4 @@
 - { name: [qtbase-opensource-src, qtbase-opensource-src-gles, qt5-base-nosystemd], verpat: "5\\..*", setname: qt5-base }
 - { name: [qtgraphicaleffects-opensource-src,qtgraphicaleffects-docindex,qtgraphicaleffects-html,qtgraphicaleffects-qch], verpat: "5\\..*", setname: qt5-graphicaleffects }
 - { name: [qt5-base-dev], verpat: "5\\..*", setname: qt5-base, ignore: True }
+- { setname: qt5, name: qt5-static, addflavor: true }

@@ -19,6 +19,7 @@
 - { setname: qrencode,                 name: libqrencode }
 - { setname: qt,                       name: [qt,qt1,qt3,qt4,qt5] }
 - { setname: qt-recordmydesktop,       name: recordmydesktop-qt }
+- { setname: qtbinpatcher,             name: [qtbinpatcher-x64,qtbinpatcher-x86], addflavor: true }
 - { setname: qtcreator,                name: [qt-creator,qt-creator-qt4,qt-creator2,qt4-creator,qtcreator-src,libqt5-creator,qt5-qtcreator,qt5-qtcreator-docs,qtcreator-debug], addflavor: true }
 - { setname: qtcreator,                name: qtcreator-prerelease, weak_devel: true }
 - { setname: qtcreator,                namepat: "qt-?creator[0-9]*", addflavor: true }
@@ -41,4 +42,4 @@
 - { setname: qupzilla,                 name: qupzilla1 }
 - { setname: qwtpolar,                 name: qwtpolar-qt4, addflavor: qt4 }
 - { setname: qwtpolar,                 name: qwtpolar-qt5, addflavor: qt5 }
-- { setname: qxmpp,                    name: [libqxmpp,libqxmpp-qt5,qxmpp-qt5], addflavor: true }
+- { setname: qxmpp,                    name: [libqxmpp,libqxmpp-qt5,qxmpp-qt5,qxmpp-qt4], addflavor: true }
