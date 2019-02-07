@@ -59,7 +59,9 @@
 
 - { ruleset: void,            namepat: "chroot-(.*)", setname: $1, addflavor: chroot }
 
-#- { ruleset: msys2, namepat: "(.*)-git", setname: "$1", ignore: true }
+- { ruleset: msys2_mingw,     namepat: "mingw-w64-i686-(.*)", setname: $1, addflavor: i686 }
+- { ruleset: msys2_mingw,     namepat: "mingw-w64-(.*)", setname: $1 }
+- { ruleset: msys2,           namepat: "(.*)-(git|svn|hg)", setname: $1, weak_devel: true }
 
 # repeat suffix common rules again, as suffix order may vary (e.g. foo-git-nox11 vs. foo-nox11-git)
 - { namepat: "(.*)-(nogui|nox11)", setname: $1, addflavor: $2 }
