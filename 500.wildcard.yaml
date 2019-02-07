@@ -126,10 +126,10 @@
 - { setname: "python:$0", addflag: wconce, noflag: [wconce,not_python], ruleset: aosc, category: python }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "py[0-9][0-9]-(.*)", ruleset: [freebsd,pkgsrc] }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "py3?-(.*)", ruleset: openbsd }
-- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python-(.*)", ruleset: [centos,debuntu,gobolinux,mageia,pclinuxos,ravenports,rudix,aix,slitaz,openwrt,slackware,conda,salix] }
+- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python-(.*)", ruleset: [centos,debuntu,gobolinux,mageia,ravenports,rudix,aix,slitaz,openwrt,slackware,conda,salix] }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python3?-module-(.*)", ruleset: sisyphus }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python2?-(.*)", ruleset: [arch,guix,openmandriva,lunar,msys2_msys2] }
-- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python3?-(.*)", ruleset: [crux,fedora,opensuse,rosa,slackbuilds,pld,pisi,void,solus] }
+- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python3?-(.*)", ruleset: [crux,fedora,opensuse,rosa,slackbuilds,pld,pisi,void,solus,pclinuxos] }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python[23]?-(.*)", ruleset: [msys2_mingw] }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python[0-9]\\.[0-9]-(.*)", ruleset: nix }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "py[23]?-(.*)", ruleset: [alpine,adelie] }
