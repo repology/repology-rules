@@ -10,7 +10,7 @@
 - { setname: "perl:cpan-meta",         name: "perl:parse-cpan-meta" } # merged into, see https://github.com/Perl-Toolchain-Gang/Parse-CPAN-Meta
 - { setname: "perl:gearman-server",    name: gearman-server }
 - { setname: "perl:goocanvas2",        name: "perl:goo-canvas2" }
+- { setname: "perl:libwww-perl",       name: [libwww-perl,"perl:libwww","perl:lwp"] }
 - { setname: "perl:moo",               name: "perl:moo-2" }
 - { setname: "perl:pdl",               name: "pdl" }
 - { setname: "perl:search-xapian",     namepat: "perl:search-xapian[0-9.-]+" }
-#- { setname: "perl:libwww",            name: libwww-perl }
