@@ -17,6 +17,7 @@
 - { setname: pam,                      name: pam-selinux, addflavor: true }
 - { setname: pam-ccreds,               name: libpam-ccreds }
 - { setname: pam-ldap,                 name: libpam-ldap }
+- { setname: pam-radius,               name: [libpam-radius-auth,pam-pam-radius-auth,pam-radius-auth] }
 - { setname: pango,                    name: pango-reference, addflavor: reference }
 - { setname: pango,                    namepat: "(?:lib)?pango[0-9.-]*" }
 - { setname: pangomm,                  namepat: "(?:lib)?pangomm[0-9.-]*" }
