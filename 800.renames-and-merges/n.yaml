@@ -42,6 +42,7 @@
 - { setname: networkmanager,           name: networkmanager-elogind, addflavor: elogind }
 - { setname: networkmanager,           name: networkmanager-consolekit, addflavor: consolekit }
 - { setname: networkmanager,           name: networkmanager-consolekit-noscan, addflavor: consolekit-noscan }
+- { setname: networkmanager-qt,        name: [kf5-networkmanager-qt,libkf5networkmanagerqt,networkmanager-qt5] }
 - { setname: neverball,                name: neverball-data, addflavor: data }
 - { setname: newsboat,                 name: newsbeuter } # abandoned in favor of
 - { setname: newsboat,                 name: newsbeuter-dev, ignore: true }
