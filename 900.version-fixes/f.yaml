@@ -10,6 +10,7 @@
 - { name: fasttracker2,                verpat: "2\\.[0-9]{3}",                             incorrect: true } # pkgsrc 2.130; actually b130
 - { name: fasttracker2,                verpat: "0\\.1.*[0-9]{3}",                          incorrect: true } # freebsd 0.1.b131, debian 0.1b126; no idea where 0.1 come from - no mention on the site or in the source, it's just bNNN
 - { name: fatrat,                      verlonger: 3,                 ruleset: kaos,        ignore: true }
+- { name: fbpdf,                                                                           noscheme: true }
 - { name: fcgi,                        ver: "2.4.1",                 ruleset: solus,       incorrect: true }
 - { name: fcgi,                                                      ruleset: solus,       untrusted: true } # accused of fake 2.4.1
 - { name: fcron,                       ver: "3.3.0",                                       devel: true } # http://fcron.free.fr/
