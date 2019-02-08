@@ -124,6 +124,7 @@
 - { name: mtd-utils,                   verpat: "[0-9]{6}",                                 incorrect: true } # slackware garbage
 - { name: mtree,                                                     ruleset: ravenports,  ignore: true } # fake
 - { name: mtree,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true } # there's probably a mess with different mtree versions, but at least ignore snapshots
+- { name: mtxclient,                   verpat: "20[-0-9]{8}",                              snapshot: true }
 - { name: multimon-ng,                 verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: mumble,                                                    ruleset: kaos,        ignore: true } # snapshot with random version
 - { name: mumble,                      ver: "1.2.89",                                      incorrect: true }
