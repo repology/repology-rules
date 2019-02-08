@@ -66,6 +66,7 @@
 - { name: "perl:test-exception",       ver: [ "0.430000", "0.400", "0.320" ],              ignore: true }
 - { name: "perl:test-exception",       verpat: "0\\.[0-9]{3,}",                            ignore: true }
 - { name: "perl:test-number-delta",    verpat: "1\\.[0-9]{3,}",                            ignore: true }
+- { name: "perl:test-trap",            verpat: "v(.*)",                                    setver: "$1" }
 - { name: "perl:text-autoformat",      verpat: "1\\.740.*",                                incorrect: true } # 1.74
 - { name: "perl:text-autoformat",      verpat: "1\\.6[67].*",                              outdated: true }
 - { name: "perl:time-duration",        ver: "1.200000",                                    ignore: true }
