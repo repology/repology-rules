@@ -5,6 +5,7 @@
 - { name: v86d,                        verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: vala,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: valentina,                   verpat: ".*a",                                      devel: true }
+- { name: vapoursynth,                 verpat: "R([.0-9]+)",                               setver: "$1" }
 - { name: "vapoursynth:fmtconv",       verpat: "[0-9]+",                                   setname: r$0 }
 - { name: "vapoursynth:waifu2x-w2xc",  verpat: "[0-9]+",                                   setname: r$0 }
 - { name: vbindiff,                    ver: "3.0",                   ruleset: pld,         incorrect: true }
