@@ -59,6 +59,7 @@
 - { name: xsp,                         verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: xtitle,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: xtitle,                      ver: "20170206",                                    outdated: true } # 0.4.3 which is latest normal version ls from feb 15, e.g. newer
+- { name: xtrlock-pam,                 verpat: ".*post.*",                                 snapshot: true }
 - { name: xxdiff,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: xxdiff,                      verpat: "[0-9]{3}",                                 incorrect: true }
 - { name: xz,                          ver: "5.03",                                        incorrect: true } # gobolinux garbage
