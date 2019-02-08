@@ -108,6 +108,7 @@
 - { name: mp3diags,                    verpat: "1\\.[0-9]*[13579]\\..*",                   devel: true } # assumed; https://sourceforge.net/projects/mp3diags/files/unstable/mp3diags-src/
 - { name: mpdscribble,                 ver: "0.23",                  ruleset: openwrt,     incorrect: true } # entware
 - { name: mpdscribble,                                               ruleset: openwrt,     untrusted: true } # entware
+- { name: mpdviz,                                                    ruleset: aur,         rolling: true }
 - { name: mpfr,                        verlonger: 3,                                       incorrect: true } # openbsd, openpkg, openindiana fakes
 - { name: mphidflash,                  verpat: "20[0-9]{6}.*",                             ignore: true } # fake
 - { name: mpich,                       verpat: ".*[ab].*",                                 devel: true }
