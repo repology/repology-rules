@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: "python:aiohttp-socks",                                    ruleset: aur,         rolling: true }
 - { name: "python:backports",          ver: "4.0.0",                                       incorrect: true } # opensuse fake
 - { name: "python:bottle",             verpat: "0\\.13.*",                                 devel: true }
 - { name: "python:configshell-fb",                                                         any_is_patch: true }
