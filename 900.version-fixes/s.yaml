@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: s25rttr,                     verpat: "20[0-9]{6}",                               devel: true } # official nightlies
+- { name: salmid,                      verpat: "0\\.[0-9]{3}",                             outdated: true } # upstream 0.122 -> 0.1.23 https://github.com/hcdenbakker/SalmID/releases
 - { name: samurai,                     ver: "0.3.21",                ruleset: freebsd,     incorrect: true }
 - { name: samurai,                                                   ruleset: freebsd,     untrusted: true }
 - { name: sane-frontends,              verge: "1.0.25",                                    incorrect: true } # https://gitlab.com/sane-project/frontends/tags latest is 1.0.14

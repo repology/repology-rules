@@ -115,6 +115,7 @@
 - { setname: toxcore,                  name: [toxcore-static1,toxcore-static2], addflavor: static }
 - { setname: toxcore,                  name: [c-toxcore,libtoxcore,tox-libtoxcore] } # there's some discrepancy between https://github.com/TokTok/c-toxcore and https://github.com/irungentoo/toxcore, but only the former has releases
 - { setname: tpm2-tools,               name: tpm2.0-tools, disposable: true } # past upstream naming fluctiations
+- { setname: transdecoder,             name: "perl:transdecoder" }
 - { setname: tre,                      name: libtre } # XXX: reverse?
 - { setname: tremor,                   name: [libtremor, libvorbisidec] }
 - { setname: tremulous,                name: tremulous-data, addflavor: data }
@@ -122,7 +123,7 @@
 - { setname: trigger-rally,            name: trigger, ruleset: gentoo }
 - { setname: tripwire,                 name: [tripwire-131,tripwire12] }
 - { setname: trn,                      name: trn4 }
-- { setname: trnascan-se,              name: trnascanse }
+- { setname: trnascan-se,              name: [trnascanse, trnascan] }
 - { setname: tsc,                      name: the-secret-chronicles-of-dr-m }
 - { setname: tsmuxer,                  name: linux-tsmuxer, ruleset: freebsd }
 - { setname: ttyload,                  name: ttyload-git, weak_devel: true }

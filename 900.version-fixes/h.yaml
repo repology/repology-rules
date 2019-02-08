@@ -15,6 +15,7 @@
 - { name: hidapi,                      verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: hidapi,                      ver: "0.8.0",                 ruleset: [fedora,mageia,sisyphus], incorrect: true } # 0.8.0rc1
 - { name: hidapi,                                                    ruleset: [fedora,mageia,sisyphus], untrusted: true }
+- { name: hisat,                       verlonger: 3,                 ruleset: [freebsd,pkgsrc], incorrect: true }
 - { name: hitori,                      ver: "3.24.1",                ruleset: nix,         incorrect: true }
 - { name: hitori,                                                    ruleset: nix,         untrusted: true }
 - { name: hmmer,                       verpat: ".*b.*",                                    devel: true }
