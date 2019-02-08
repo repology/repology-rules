@@ -59,6 +59,8 @@
 - { name: flvstreamer,                                               ruleset: pisi,        untrusted: true } # accused of fake 2.1
 - { name: fontconfig,                  verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: "fonts:allerta",                                                                 noscheme: true }
+- { name: "fonts:b612",                ver: "1.005",                 ruleset: freebsd,     incorrect: true }
+- { name: "fonts:b612",                                              ruleset: freebsd,     untrusted: true }
 - { name: "fonts:cardo",               ver: "1.045",                 ruleset: [sisyphus,fedora], incorrect: true }
 - { name: "fonts:cardo",                                             ruleset: [sisyphus,fedora], untrusted: true }
 - { name: "fonts:courier-prime",       verpat: "20[0-9]{6}",                               snapshot: true }
