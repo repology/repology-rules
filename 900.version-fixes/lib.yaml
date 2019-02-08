@@ -57,6 +57,7 @@
 - { name: libiio,                      verpat: "20[0-9]{6}",                               snapshot: true } # macports
 - { name: libimobiledevice,            ver: "1.2.1",                 ruleset: [openwrt,sisyphus], ignore: true } # fake
 - { name: libimobiledevice,            verlonger: 3,                 ruleset: kaos,        ignore: true } # fake
+- { name: libimobiledevice,            verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: libisofs,                    ver: "1.4.9",                 ruleset: sisyphus,    incorrect: true }
 - { name: libisofs,                                                  ruleset: sisyphus,    untrusted: true }
 - { name: libjpeg-turbo,               verpat: ".*\\.9[0-9]",                              devel: true }
@@ -142,6 +143,7 @@
 - { name: libubox,                                                                         noscheme: true }
 - { name: libunwind,                   verpat: ".*20[0-9]{6}",                             snapshot: true } # termux snapshot
 - { name: libusbmuxd,                  verpat: "1\\.1\\.0.*",        ruleset: [openwrt,debuntu], ignore: true } # fake
+- { name: libusbmuxd,                  verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: libvpx,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: libvterm,                                                                        noscheme: true }
 - { name: libx11,                      verpat: "7\\.[4567].*",                             ignore: true } # uses version from Xorg, not its own # XXX: ->incorrect
