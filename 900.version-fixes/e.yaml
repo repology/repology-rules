@@ -16,6 +16,8 @@
 - { name: eclipse,                     verpat: "[0-9]{6}",                                 incorrect: true }
 - { name: eclipse,                     verpat: "[0-9]{4}[.-][0-9]{2}",                     ignore: true } # alternative versioning scheme, ignore for now. See https://www.eclipse.org/downloads/packages/#block-block-2
 - { name: ecm-tools,                   ver: "1.03",                                        incorrect: true } # it's 1.0.3
+- { name: edirect,                     ver: "10.2.20181018",                               setver: "10.2", disposable: true }
+- { name: edirect,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: egoboo,                      ver: "2.81",                                        setver: "2.8.1" }
 - { name: eigen,                       ver: "2.0.55",                ruleset: pclinuxos,   incorrect: true }
 - { name: eigen,                                                     ruleset: pclinuxos,   untrusted: true }
