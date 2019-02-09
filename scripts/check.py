@@ -86,6 +86,7 @@ families = [
     'slitaz',
     'snap',
     'solus',
+    't2',
     'termux',
     'vcpkg',
     'void',

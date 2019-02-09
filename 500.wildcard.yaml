@@ -78,7 +78,7 @@
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua[0-9]{2}(?:lua)?(.+?)", ruleset: openbsd }
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua(?:[0-9]\\.[0-9])?-(?:lua)?(.+?)", ruleset: [alpine,nix,guix] }
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "(?:lua[_-]?)?(.+?)", category: dev-lua, ruleset: [gentoo,exherbo,haikuports] }
-- { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua-(.+)", ruleset: openwrt }
+- { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua-(.+)", ruleset: [openwrt,t2] }
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua-module-(.+)", ruleset: sisyphus }
 
 # MinGW
@@ -101,7 +101,7 @@
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_perl], namepat: "p5-(.*)", ruleset: [crux,freebsd,macports,openbsd,pkgsrc] }
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_perl], namepat: "p5.[0-9]+-(.*)", ruleset: macports }
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_perl], namepat: "lib(.*)-perl", ruleset: debuntu }
-- { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_perl], namepat: "perl-(.*)", ruleset: [adelie,alpine,aosc,arch,centos,fedora,gobolinux,guix,kaos,mageia,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds,pld,aix,slitaz,openwrt,pisi,void,conda,solus,salix,msys2_msys2] }
+- { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_perl], namepat: "perl-(.*)", ruleset: [adelie,alpine,aosc,arch,centos,fedora,gobolinux,guix,kaos,mageia,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds,pld,aix,slitaz,openwrt,pisi,void,conda,solus,salix,msys2_msys2,t2] }
 - { setname: "perl:$2", addflag: wconce, noflag: [wconce,not_perl], namepat: "perl(5[0-9.]+)-(.*)", ruleset: nix, addflavor: $1 }
 - { setname: "perl:$0", addflag: wconce, noflag: [wconce,not_perl], category: dev-perl, ruleset: [gentoo,exherbo,haikuports] }
 - { setname: "perl:$0", addflag: wconce, noflag: [wconce,not_perl], category: perl-core, ruleset: [gentoo,exherbo] }
@@ -126,7 +126,7 @@
 - { setname: "python:$0", addflag: wconce, noflag: [wconce,not_python], ruleset: aosc, category: python }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "py[0-9][0-9]-(.*)", ruleset: [freebsd,pkgsrc] }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "py3?-(.*)", ruleset: openbsd }
-- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python-(.*)", ruleset: [centos,debuntu,gobolinux,mageia,ravenports,rudix,aix,slitaz,openwrt,slackware,conda,salix] }
+- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python-(.*)", ruleset: [centos,debuntu,gobolinux,mageia,ravenports,rudix,aix,slitaz,openwrt,slackware,conda,salix,t2] }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python3?-module-(.*)", ruleset: sisyphus }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python2?-(.*)", ruleset: [arch,guix,openmandriva,lunar,msys2_msys2] }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python3?-(.*)", ruleset: [crux,fedora,opensuse,rosa,slackbuilds,pld,pisi,void,solus,pclinuxos] }
@@ -151,7 +151,7 @@
 - { setname: "ros:$1", addflag: wconce, noflag: [wconce,not_ros], namepat: "ros-(.*)", ruleset: [ debuntu, arch ] }
 
 # Ruby
-- { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "ruby-(.*)", ruleset: [adelie,alpine,aosc,arch,debuntu,fedora,guix,mageia,ravenports,rosa,sisyphus,pld,aix,slitaz_next,void,solus] }
+- { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "ruby-(.*)", ruleset: [adelie,alpine,aosc,arch,debuntu,fedora,guix,mageia,ravenports,rosa,sisyphus,pld,aix,slitaz_next,void,solus,t2] }
 - { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "rubygem-(.*)", ruleset: [centos,fedora,freebsd,opensuse,pclinuxos,rosa,slackbuilds] }
 - { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "ruby[0-9][0-9]-(.*)", ruleset: [freebsd,openbsd,pkgsrc] }
 - { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "rb[0-9]*-(.*)", ruleset: macports }
@@ -168,7 +168,7 @@
 
 # VDR
 - { setname: "vdr:$1", addflag: wconce, noflag: [wconce,not_vdr], namepat: "vdr-plugin-(.*)" }
-- { setname: "vdr:$1", addflag: wconce, noflag: [wconce,not_vdr], namepat: "vdr-(.*)", ruleset: [ fedora, gentoo, exherbo ] }
+- { setname: "vdr:$1", addflag: wconce, noflag: [wconce,not_vdr], namepat: "vdr-(.*)", ruleset: [ fedora, gentoo, exherbo, t2 ] }
 
 # vim
 - { setname: "vim:$0", addflag: wconce, noflag: [wconce,not_vim], category: app-vim, ruleset: [gentoo, exherbo] }
