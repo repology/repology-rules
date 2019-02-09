@@ -44,6 +44,7 @@
 - { setname: bdsup2sub++,              name: bdsup2subpp }
 - { setname: beancount,                name: "python:beancount" }
 - { setname: beast,                    name: beastbse }
+- { setname: beast2,                   name: beast2-mcmc }
 - { setname: beef-browser-exploitation, name: beef-xss }
 - { setname: belle-sip,                name: libbelle-sip }
 - { setname: beneath-a-steel-sky,      name: bass, ruleset: [freebsd,gentoo,openbsd,arch,opensuse] }
@@ -102,7 +103,7 @@
 - { setname: bouncycastle,             name: [bcpkix,bouncycastle-pkix,java-bouncycastle-bcpkix], addflavor: pkix }
 - { setname: bouncycastle,             name: [bcprov,java-bouncycastle-bcprov], addflavor: prov }
 - { setname: bouncycastle,             name: bctsp, addflavor: tsp } # merged to pkix?
-- { setname: bowtie,                   name: bowtie2 }
+- { setname: bowtie,                   name: [bowtie2, bowtie2-legacy] }
 - { setname: box2d,                    name: libbox2d }
 - { setname: bpython,                  name: [bpython-py27,bpython2] }
 - { setname: brasero,                  name: [brasero2,brasero-dvdcssfix] }

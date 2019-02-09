@@ -2,6 +2,7 @@
 
 - { name: r3,                          ver: "2.0.0",                 ruleset: buckaroo,    incorrect: true } # https://github.com/LoopPerfect/r3/tags
 - { name: r3,                                                        ruleset: buckaroo,    untrusted: true }
+- { name: r8s,                         verpat: "1\\.([0-9])",                              setver: 1.$10 } # 1.70->1.71->1.8
 - { name: "r:hexbin",                  ver: "1.27.1-1",                                    ignore: true } # guix fake
 - { name: "r:nws",                     ver: "2.0.0.3",               ruleset: debuntu,     ignore: true } # fake
 - { name: "r:waveslim",                ver: "1.12",                  ruleset: rosa,        ignore: true } # fake
@@ -26,6 +27,7 @@
 - { name: rdist,                       verpat: ".*a.*",                                    devel: true }
 - { name: readline,                    verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1p$2 }
 - { name: readline,                                                                        p_is_patch: true }
+- { name: readseq,                                                                         noscheme: true } # circa 93; version numbers and software distributions were not invented yet
 - { name: recode,                      ver: "3.7-2fd838565",                               ignore: true }
 - { name: recode,                      verpat: ".*20[0-9]{4}.*",                           ignore: true }
 - { name: recode,                      verge: "3.7",                                       successor: true } # fork

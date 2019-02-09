@@ -15,6 +15,12 @@
 - { name: addresses, ruleset: [freebsd,openbsd,pkgsrc], setname: gnustep-addresses } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
 - { name: ale, wwwpart: aleditor, setname: aleditor }
+- { name: ale, wwwpart: sc932, setname: ale-assemby-likelihood-estimator }
+- { name: ale, wwwpart: auricle, setname: ale-anti-lamenessing-engine }
+- { name: ale, summpart: lameness, setname: ale-anti-lamenessing-engine }
+- { name: ale, ruleset: sisyphus, setname: ale-anti-lamenessing-engine }
+- { name: ale, wwwpart: aleditor, setname: aleditor }
+- { name: ale, warning: "please classify me" }
 
 - { name: alexandria, wwwpart: lisp, setname: cl-alexandria }
 # otherwise GNOME book manager
@@ -69,6 +75,10 @@
 - { name: astra, category: multimedia, setname: astra-iptv }
 - { name: astra, ruleset: sisyphus, setname: astra-iptv }
 - { name: astra, warning: "please classify me" }
+
+- { name: astral, wwwpart: pypi.python.org/pypi/astral, setname: "python:astral" }
+- { name: astral, wwwpart: smirarab, setname: astral-species-tree }
+- { name: astral, warning: "please classify me" }
 
 - { name: astroid, wwwpart: astroidmail, setname: astroidmail }
 - { name: astroid, wwwpart: astroid.org, setname: "python:astroid" }

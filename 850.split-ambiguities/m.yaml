@@ -25,6 +25,12 @@
 - { name: mars,                        wwwpart: courses.missouristate.edu, setname: mars-mips }
 - { name: mars,                        warning: "please classify me" }
 
+- { name: mash, wwwpart: [pagure,fedora], setname: mash-pagure }
+- { name: mash, wwwpart: [mash.readthedocs,marbl], setname: mash-genome-distance }
+- { name: mash, wwwpart: clutter, setname: mash-clutter }
+- { name: mash, ruleset: pld, setname: mash-clutter }
+- { name: mash, warning: "please classify me" } # nothing should be left here
+
 - { name: mc, wwwpart: minio, setname: minio-mc }
 
 - { name: mdk, wwwpart: wlan, setname: mdk-wireless-injection }
@@ -82,6 +88,10 @@
 # otherwise, maildir utils + emacs email client (mu4e)
 
 - { name: mumps, summpart: massachusetts, setname: mumps-lang }
+
+- { name: muscle, wwwpart: drive5, setname: muscle-sequence-alignment }
+- { name: muscle, wwwpart: msli, setname: muscle-messaging-system }
+- { name: muscle, warning: "please classify me" }
 
 - { name: muse, wwwpart: emacs, setname: "emacs:muse" }
 - { name: muse, wwwpart: [sequencer,lmuse], setname: muse-sequencer }

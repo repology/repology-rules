@@ -20,6 +20,9 @@
 - { setname: jdeparser,                namepat: "jdeparser[0-9]+" }
 - { setname: jdiskreport,              name: jdiskreport-bin, addflavor: true }
 - { setname: jdom,                     namepat: "jdom[0-9]+" }
+- { setname: jellyfish,                name: jellyfish-pythonbound, addflavor: true }
+- { setname: jellyfish,                name: jellyfish-k-mer } # disambiguated into the same name later
+- { setname: jellyfish,                name: jellyfish1 }
 - { setname: jemalloc,                 name: libjemalloc }
 - { setname: jena,                     name: apache-jena }
 - { setname: jena,                     name: apache-jena-fuseki }

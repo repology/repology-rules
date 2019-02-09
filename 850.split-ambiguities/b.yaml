@@ -6,6 +6,10 @@
 - { name: baselayout, ruleset: pisi, setname: baselayout-pisi }
 - { name: baselayout, ruleset: gentoo, setname: baselayout-gentoo }
 
+- { name: bamm, wwwpart: ecogenomics, setname: bamm-metagenomics }
+- { name: bamm, wwwpart: bamm-project.org, setname: bamm-bayesian }
+- { name: bamm, warning: "please classify me" }
+
 - { name: bandcamp-dl, wwwpart: bandcamp-downloader,      setname: bandcamp-downloader }
 
 # http://www.theiling.de/projects/bar.html vs http://clpbar.sourceforge.net

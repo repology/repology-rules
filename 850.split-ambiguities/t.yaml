@@ -51,4 +51,13 @@
 
 - { name: tree, wwwpart: peekas, setname: tree-class } # upstream dead, so just move it away
 
+- { name: trf, wwwpart: orzen.org, setname: trf-billing }
+- { name: trf, wwwpart: andem.bu.edu, setname: trf-tandem-repeats-finder }
+- { name: trf, wwwpart: core.tcl.tk, setname: trf-tcl }
+- { name: trf, warning: "please classify me" }
+
+- { name: trinity, wwwpart: [codemonkey,kernelslacker], setname: trinity-fuzzer }
+- { name: trinity, wwwpart: trinityrnaseq, setname: trinityrnaseq } # already used in debian
+- { name: trinity, warning: "please classify me" }
+
 - { name: twemoji, wwwpart: eosrei, setname: "fonts:twemoji-color" }

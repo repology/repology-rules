@@ -39,6 +39,11 @@
 - { name: singularity, wwwpart: singularity.lbl.gov, setname: singularity-container }
 - { name: singularity, wwwpart: ingularityviewer, setname: singularityviewer }
 
+- { name: ska, category: net-wireless, setname: ska-wireless }
+- { name: ska, summpart: kmer, setname: ska-split-kmer }
+- { name: ska, wwwpart: simonrharris, setname: ska-split-kmer }
+- { name: ska, warning: "please classify me" }
+
 - { name: skim, wwwpart: scim, setname: skim-scim }
 
 - { name: slurm, wwwpart: [mattthias,raisdorf,wormulon], setname: slurm-monitor }
@@ -52,6 +57,15 @@
 - { name: smc, warning: "please classify me" }
 
 - { name: smem, verpat: "2007.*", ruleset: gentoo, setname: smem.pl } # unrelated python script
+
+- { name: snap, wwwpart: korflab.ucdavis.edu, setname: snap-gene-prediction }
+- { name: snap, wwwpart: projects.morsi.org, setname: snap-modular-backup }
+- { name: snap, wwwpart: [psc.edu,iankorf], setname: snap-gene-location }
+- { name: snap, wwwpart: rumpelsepp, setname: snap-btrfs-snapshots }
+- { name: snap, wwwpart: snap.stanford.edu, setname: snap-network-analysis-platform }
+- { name: snap, wwwpart: snap.berkeley.edu, setname: snap-lang }
+- { name: snap, wwwpart: wchunhao, setname: snap-ufs2-snapshots }
+- { name: snap, warning: "please classify me" }
 
 - { name: snoopy, wwwpart: tuxfamily, setname: snoopy-warcraft3 }
 - { name: snoopy, wwwpart: dssz, setname: snoopy-graph-anim }

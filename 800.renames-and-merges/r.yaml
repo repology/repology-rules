@@ -11,12 +11,13 @@
 - { setname: radare2-cutter,           name: radare-cutter }
 - { setname: radicale,                 name: ["python:radicale","python:radicale2"] }
 - { setname: ragel,                    name: [ragel-6,ragel7] }
-- { setname: ragel,                    name: ragel-dev, ignore: true }
+- { setname: ragel,                    name: ragel-dev, weak_devel: true }
 - { setname: ranger,                   name: "python:ranger" }
 - { setname: raptor,                   name: [raptor1,raptor2] }
 - { setname: rarian,                   name: librarian }
 - { setname: rawtherapee,              name: rawtherapee-gtk2 }
-- { setname: rawtherapee,              name: rawtherapee-unstable, ignore: true }
+- { setname: rawtherapee,              name: rawtherapee-unstable, weak_devel: true }
+- { setname: raxml,                    name: raxml-mpi, addflavor: true }
 - { setname: rdesktop,                 name: rdesktop-legacy }
 - { setname: rdis,                     name: rdis-git, weak_devel: true }
 - { setname: readline,                 namepat: "(?:compat-)?(?:lib)?readline[0-9.-]*" }
