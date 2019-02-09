@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { setname: "apmod:auth-cas",         name: mod-auth-cas }
+- { setname: "apmod:auth-kerb",        name: [apache-kerberos, "apmod:auth-kerb2", mod-auth-krb5] }
 - { setname: "apmod:cluster",          name: mod-cluster }
 - { setname: "apmod:dnssd",            name: mod-dnssd }
 - { setname: "apmod:fastcgi",          name: mod-fastcgi }
@@ -17,7 +18,7 @@
 - { setname: "apmod:python",           namepat: "apmod:python[0-9]*" }
 - { setname: "apmod:rpaf",             name: "apmod:rpaf2" }
 - { setname: "apmod:ruby",             namepat: "apmod:ruby[0-9]+" }
-- { setname: "apmod:security",         name: "apmod:security2" }
+- { setname: "apmod:ruby",             name: [apache-ruby, mod-ruby] }
 - { setname: "apmod:survey",           name: mod-survey }
 - { setname: "apmod:wsgi",             name: "apmod:wsgi-python3", addflavor: python3 }
 - { setname: "apmod:wsgi",             name: [mod-wsgi, mod-wsgi2] }

@@ -3,6 +3,10 @@
 - { name: pac, wwwpart: [davidtv,pacmanager], setname: pacmanager }
 - { name: pac, wwwpart: parabola, setname: "fonts:pac" }
 
+- { name: pal, wwwpart: palcal, setname: palcal }
+- { name: pal, wwwpart: starlink, setname: pal-astronomical }
+- { name: pal, warning: "please classify me" }
+
 # "A tool for building identical machine images" vs "Bash wrapper for pacman and aur"
 - { name: pachi, wwwpart: pachi.or.cz, setname: pachi-go }
 

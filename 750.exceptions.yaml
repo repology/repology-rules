@@ -54,7 +54,7 @@
 - { setname: "python:python-gnupg",    name: "python:gnupg", wwwpart: [gnupg.readthedocs.io,pythonhosted.org/python-gnupg,vinay.sajip/python-gnupg] }
 - { setname: "python:python-gnupg",    name: "python:gnupg", verlt: "1" }
 - { setname: ruby,                     name: "ruby:gdbm", verge: "2.3" } # *BSD: part of ruby, not "gdbm" rubygem
-- { setname: memtest86+,               name: memtest86, ruleset: pisi }
+- { setname: memtest86+,               name: memtest86, verpat: "5.*" } # pisi, t2
 - { setname: gnome-keyring,            name: libgnome-keyring, ruleset: pisi }
 - { setname: "python:config-py-dmgass", name: "python:config", wwwpart: config-py.sourceforge.net }
 - { setname: lrs-lang,                 name: lrs, wwwpart: lrs-lang }
@@ -66,3 +66,9 @@
 - { setname: keepassxc,                name: keepassx, ruleset: solus } # XXX: problem!
 - { setname: "xdrv:tdfx",              name: "xdrv:voodoo", ruleset: solus } # XXX: problem!
 - { setname: "python:pycryptodome",    name: "python:pycrypto", verpat: "3.*", ruleset: nix } # different package XXX: problem
+- { setname: smpeg2,                   name: smpeg, verpat: "2.*" }
+- { setname: xosview2,                 name: xosview, verpat: "2.*" }
+- { setname: bmpx,                     name: bmp, wwwpart: bmpx }
+- { setname: diskdev-cmds,             name: hfsplusutils, wwwpart: apple.com } # T2
+- { setname: "perl:timedate",          name: "perl:time-date", wwwpart: timedate } # T2
+- { setname: "perl:xml-libxml",        name: "perl:libxml", ruleset: t2 } # T2

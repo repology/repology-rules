@@ -13,6 +13,7 @@
 - { name: zfs,                                                       ruleset: pld,         untrusted: true } # accused of fake 0.8.0
 - { name: zfs,                         verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: zip,                         verlonger: 2,                 ruleset: openmandriva, ignore: true } # fork
+- { name: zip,                         verpat: "[0-9]{2}",                                 incorrect: true } # T2; it's 3.0, not 30
 - { name: zlib-ada,                    ver: "1.4",                   ruleset: fedora,      incorrect: true }
 - { name: zlib-ada,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: zoneminder,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
@@ -25,4 +26,5 @@
 - { name: zsh-syntax-highlighting,     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: zshdb,                       verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: zsnes,                       verpat: "(1\\.51)0",                                setver: $1 } # debian seems to have added a zero to end of the version, XXX: problem
+- { name: zsnes,                       verpat: "[0-9]{3}",                                 incorrect: true } # T2; it's 1.51, not 151
 - { name: zsnes,                       ver: "1.51b",                                       devel: true } # experimental development release

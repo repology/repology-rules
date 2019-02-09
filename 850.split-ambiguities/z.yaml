@@ -15,7 +15,9 @@
 # emulator vs. (deprecated) scala compiler
 - { name: zinc, wwwpart: logiqx, setname: zinc-emulator }
 
-- { name: zipper, ruleset: freebsd, setname: gnustep-zipper } # gnustep; may be not ambiguity (yet), but too generic name for sure
+- { name: zipper, wwwpart: xanthippe, setname: gnustep-zipper }
+- { name: zipper, wwwpart: fbergmann, setname: zipper-minizip-wrapper }
+- { name: zipper, warning: "please classify me" }
 
 - { name: zoom, wwwpart: zoom.us, setname: zoom-videoconference }
 - { name: zoom, category: net-im, setname: zoom-videoconference }

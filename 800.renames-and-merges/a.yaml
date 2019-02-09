@@ -117,6 +117,7 @@
 - { setname: aptana-studio,            name: aptanastudio }
 - { setname: aqbanking,                namepat: "(?:lib)?aqbanking[0-9]*(-(?:gtk)[0-9]*)?", addflavor: $1 }
 - { setname: aqbanking,                namepat: "(?:lib)?aqbanking[0-9]*(-(?:gtk)[0-9]*)?(?:-svn|-devel)", addflavor: $1, weak_devel: true }
+- { setname: aqmoney,                  name: aqmoney2 }
 - { setname: aquaria,                  name: aquaria-ose }
 - { setname: arcan,                    name: [acfgfs,aclip,aloadimage,arcan-aclip,arcan-aloadimage,arcan-waybridge,arcan-wayland], addflavor: true }
 - { setname: arcanist,                 name: "php:arcanist" }

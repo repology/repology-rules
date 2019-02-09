@@ -30,6 +30,7 @@
 - { name: sddm,                        verpat: "[0-9]{4,}.*",        ruleset: kaos,        ignore: true } # snapshot with random version
 - { name: sdl2-image,                  ver: "2.1.0",                 ruleset: pisi,        incorrect: true }
 - { name: sdl2-image,                                                ruleset: pisi,        untrusted: true } # accused of fake 2.1.0
+- { name: sdlmame,                     verpat: "[0-9]{4}",                                 incorrect: true }
 - { name: sdlpop,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: sdlpop,                      verge: "20000000", verlt: "20180324",               outdated: true, disposable: true } # openbsd; lastest version ATOW 1.18.1 / Mar 24 2018 https://github.com/NagyD/SDLPoP/releases
 - { name: seahorse,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -98,8 +99,11 @@
 - { name: sonata,                      ver: "1.7",                    ruleset: sisyphus,   incorrect: true }
 - { name: sonata,                                                     ruleset: sisyphus,   untrusted: true }
 - { name: sonata,                      verpat: ".*[ab].*",                                 devel: true }
+- { name: sourcenav,                   ver: "6.0",                    ruleset: t2,         incorrect: true }
+- { name: sourcenav,                                                  ruleset: t2,         untrusted: true }
 - { name: spamassassin,                verpat: "([0-9]+)\\.([0-9]{3})([0-9]{3})",          setver: $1.$2.$3 } # MetaCPAN weirdness
 - { name: spandsp,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: sparc-utils,                 verpat: ".*-.*",                                    debianism: true } # t2
 - { name: sparse,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: sparse,                      verge: "20000000", verle: "20180430",               outdated: true } # 0.5.2 from 20180430
 - { name: spatialite-gui,              ver: "2.0.0",                                       devel: true }
@@ -114,6 +118,8 @@
 - { name: sphinxbase,                  ver: "0.9",                                         incorrect: true } # 5prealpha
 - { name: spi-tools,                   ver: "1",                                           incorrect: true } # https://github.com/cpb-/spi-tools/releases
 - { name: spi-tools,                                                 ruleset: openwrt,     untrusted: true } # accused of fake 1
+- { name: spice,                       ver: "3f5",                   ruleset: t2,          incorrect: true }
+- { name: spice,                                                     ruleset: t2,          untrusted: true } # accused of fake 3f5
 - { name: spice-cad,                   ver: ["3f5.1","3f5.2","3f5sfix"],                   incorrect: true } # not sure where these come from
 - { name: spice-cad,                   ver: "3.5.5",                                       incorrect: true }
 - { name: spidermonkey,                ver: "1.70",                                        setver: "1.7.0" }
@@ -177,6 +183,8 @@
 - { name: sysbench,                    verpat: "201[567].*",                               outdated: true } # last version from 2018
 - { name: sysfsutils,                  ver: "2.2.0",                 ruleset: pld,         incorrect: true }
 - { name: sysfsutils,                                                ruleset: pld,         untrusted: true }
+- { name: sysklogd,                    ver: "1.6",                   ruleset: t2,          incorrect: true }
+- { name: sysklogd,                                                  ruleset: t2,          untrusted: true }
 - { name: syslinux,                    ver: "6.0.4",                 ruleset: [fedora,mageia,pisi], incorrect: true }
 - { name: syslinux,                                                  ruleset: [fedora,mageia,pisi], untrusted: true } # accused of fake 6.0.4
 - { name: sysstat,                     ver: "20151012",                                    ignore: true } # openindiana garbage

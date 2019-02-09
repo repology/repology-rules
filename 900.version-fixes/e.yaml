@@ -25,6 +25,8 @@
 - { name: eiskaltdcpp,                 verpat: ".*g.*",                                    ignore: true }
 - { name: eiskaltdcpp,                 ver: "2.2.11",                ruleset: fedora,      ignore: true } # fake
 - { name: electricsheep,                                                                   noscheme: true } # https://github.com/scottdraves/electricsheep/releases
+- { name: elementary,                  verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: elementary,                  ver: "2009-07-29",                                  outdated: true }
 - { name: elftoolchain,                ver: "100",                   ruleset: ravenports,  incorrect: true } # fake
 - { name: elinks,                      vergt: "0.12pre6",                                  untrusted: true } # too many snapshots
 - { name: elinks,                      ver: ["0.11.996","0.12.3.2","0.12rc6"],             incorrect: true }
@@ -36,6 +38,7 @@
 - { name: elm-format,                  verpat: "(.*?)[_-]?(?:alpha|exp)",                  setver: $1, devel: true }
 - { name: elvis,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: elvis,                       ver: "2.2f",                                        incorrect: true } # source file gone, cannot check
+- { name: elvis-tiny,                  verpat: ".*-.*",                                    debianism: true } # t2
 - { name: emacs,                       ver: "26.1.90",               ruleset: sisyphus,    incorrect: true }
 - { name: emacs,                                                     ruleset: sisyphus,    untrusted: true } # accused of fake 26.1.90
 - { name: emacs,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
@@ -57,6 +60,8 @@
 - { name: empathy,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: endless-sky,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: engrampa,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: enlightenment,               verpat: "20[0-9-]{8}",                              snapshot: true }
+- { name: enlightenment,               ver: "2009-07-29",                                  outdated: true }
 - { name: enventor,                    verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: envytools,                                                                       noscheme: true }
 - { name: eog,                         verpat: "[0-9]+\\.[0-9]*[13579](\\..*)?",           devel: true }

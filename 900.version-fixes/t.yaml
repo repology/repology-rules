@@ -54,6 +54,7 @@
 - { name: tidy,                        verpat: "20[0-9]{6}.*",                             ignore: true } # obsoleted
 - { name: tidy,                        ver: "090315.c",                                    ignore: true } # obsoleted
 - { name: tidy,                        ver: "5.7.16",                                      ignore: true, maintenance: true } # mentioned in version.txt, but no tag
+- { name: tidy,                        verpat: "[0-9]{6}",                                 incorrect: true } # T2 garbage
 - { name: tigervnc,                    verpat: ".*\\.9[0-9]+",                             devel: true }
 - { name: timeshift,                   ver: "18.9.1.2",              ruleset: mint,        incorrect: true }
 - { name: timeshift,                                                 ruleset: mint,        untrusted: true } # accused of fake 18.9.1.2

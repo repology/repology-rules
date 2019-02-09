@@ -191,6 +191,8 @@
 - { name: martian, ver: "1.0", setname: pachi }
 - { name: martian, warning: "please classify me" }
 
+- { name: modsecurity,       verpat: "3\\..*",            setname: modsecurity3 }
+
 - { name: mpich,             verpat: "1\\..*",            setname: mpich2 }
 
 # note that versions in conditions are +1 to real versions

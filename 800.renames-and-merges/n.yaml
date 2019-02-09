@@ -102,6 +102,8 @@
 - { setname: nvidia,                   name: [nvidia-beta,nvidia-beta-all,nvidia-current,nvidia-full-beta,nvidia-full-beta-all], ignore: true }
 - { setname: nvidia,                   name: nvidia-beta-dkms, ignore: true, addflavor: dkms }
 - { setname: nvidia,                   namepat: "xdrv:nvidia[0-9x.-]*" }
+- { setname: nvidia-cg-toolkit,        name: [cg, cg-toolkit, cgtoolkit] }
+- { setname: nvidia-cg-toolkit,        name: cg-compiler, addflavor: compiler }
 - { setname: nvidia-settings,          namepat: "nvidia-[0-9.-]*-settings" }
 - { setname: nvidia-settings,          namepat: "nvidia-settings-.*" }
 - { setname: nvidia-settings,          namepat: "nvidia-settings-experimental.*", ignore: true }

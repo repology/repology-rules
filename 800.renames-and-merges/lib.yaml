@@ -11,8 +11,10 @@
 - { setname: libc++,                   name: libcxx }
 - { setname: libc++abi,                name: libcxxabi }
 - { setname: libcap,                   name: [libcap2,libcap1,compat-libcap1] }
+- { setname: libcapplet,               name: libcapplet15 }
 - { setname: libcdr,                   namepat: "libcdr[0-9.-]+" }
 - { setname: libchamplain,             namepat: "libchamplain[0-9.-]+" }
+- { setname: libchipcard,              name: libchipcard1 }
 - { setname: libcmis,                  name: cmis-client, addflavor: client }
 - { setname: libcompizconfig,          name: libcompizconfig0.8 }
 - { setname: libconfuse,               name: libconfuse0 }
@@ -217,7 +219,7 @@
 - { setname: libxkbcommon,             name: libxkbcommon-x11, addflavor: x11 }
 - { setname: libxkbcommon,             name: xkbcommon }
 - { setname: libxml++,                 namepat: "libxml(\\+\\+|pp|xx)[0-9.-]*(-docs|-reference)?", addflavor: $1 }
-- { setname: libxml2,                  name: libxml }
+- { setname: libxml2,                  name: [libxml, libxml1] }
 - { setname: libxml2,                  name: [libxml2-linenum,libxml2-reference,libxml2-min,libxml2-tools,xmllint], addflavor: true }
 - { setname: libxml2,                  name: ["python:libxml2","python:libxml2-python",libxml2+py,libxml2-python], addflavor: python }
 - { setname: libxml2,                  name: emscripten-libxml2, addflavor: emscripten }

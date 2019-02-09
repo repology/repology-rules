@@ -180,6 +180,7 @@
 - { setname: gnome-vfs,                name: gnome-vfs-reference, addflavor: true }
 - { setname: gnu-netcat,               name: [gnetcat,netcat-gnu] }
 - { setname: gnu-radius,               name: radius, ruleset: openpkg }
+- { setname: gnu-radius,               name: gnuradius }
 - { setname: gnucash,                  name: gnucash-dev, weak_devel: true }
 - { setname: gnucash,                  name: gnucash-legacy }
 - { setname: gnucash,                  name: [gnucash-python,gnucash-xbt,gnucash-xbt-minimal], addflavor: true }
@@ -314,6 +315,7 @@
 - { setname: gtkspell,                 namepat: "(?:lib)?gtkspell[0-9.-]*(-reference)?", addflavor: $1 }
 - { setname: gtkspellmm,               namepat: "(?:lib)?gtkspellmm[0-9.-]*" }
 - { setname: gtkwrite,                 name: gtkedit }
+- { setname: gts,                      name: gnugts }
 - { setname: gtypist,                  name: gnu-typist }
 - { setname: guava,                    namepat: "guava(?:-libraries)?[0-9.-]*" }
 - { setname: guava,                    name: [google-guava, java-guava] }

@@ -86,6 +86,7 @@
 - { name: mkchromecast,                                              ruleset: unitedrpms,  untrusted: true } # accused of fake 0.3.9
 - { name: mkgmap,                      verpat: "(?:0\\.0\\.0svn|r)([0-9]{4,})",            setver: $1 }
 - { name: mkgmap-splitter,             verpat: "(?:0\\.0\\.0svn|r)([0-9]{3,})",            setver: $1 }
+- { name: mkinitrd,                    verpat: "20[0-9-]{8}",                              incorrect: true } # t2 garbage
 - { name: mksh,                        verpat: "r(.*)",                                    setver: $1 }
 - { name: mmc-utils,                                                                       noscheme: true }
 - { name: mmv,                         verpat: "1\\.01b.+[0-9]+",                          successor: true } # maintained by debian

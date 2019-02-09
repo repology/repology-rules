@@ -50,6 +50,8 @@
 - { name: flintqs,                     ver: "20070817",                                    outdated: true }
 - { name: flintqs,                     verpat: "20[0-9]{6}",                               ignore: true }
 - { name: flowd,                       verpat: ".*20[0-9]{6}",                             ignore: true } # openbsd
+- { name: flsynclient,                 ver: "0.7-1",                 ruleset: t2,          incorrect: true } # unknown origin, hosted on http://distro.ibiblio.org/quirky/quirky6/sources/t2
+- { name: flsynclient,                                               ruleset: t2,          untrusted: true }
 - { name: fltk,                        ver: "1.1.10",                                      legacy: true } # https://github.com/repology/repology/issues/569
 - { name: fltk,                        ver: "2.0.0",                                       incorrect: true } # never released, see https://github.com/repology/repology/issues/569
 - { name: fltk,                        verpat: ".*[rx].*",                                 ignore: true } # snapshots
@@ -64,6 +66,7 @@
 - { name: "fonts:b612",                                              ruleset: freebsd,     untrusted: true }
 - { name: "fonts:cardo",               ver: "1.045",                 ruleset: [sisyphus,fedora], incorrect: true }
 - { name: "fonts:cardo",                                             ruleset: [sisyphus,fedora], untrusted: true }
+- { name: "fonts:cheapskate",                                                              noscheme: true }
 - { name: "fonts:courier-prime",       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "fonts:cyberbit",            ver: "2.0.20050220",                                ignore: true }
 - { name: "fonts:dseg",                ver: "030",                                         setver: "0.30" }
@@ -134,5 +137,6 @@
 - { name: ftgl,                        verge: "2.3.0",                                     successor: true } # https://github.com/frankheckenbach/ftgl
 - { name: ftp,                         verpat: "20[0-9]{6}.*",                             ignore: true } # haiku snapshot
 - { name: ftp,                         ver: "0.18",                  ruleset: sisyphus,    ignore: true } # fake; actually 0.18pre1
+- { name: fvwm,                        ver: "2.7.0",                 ruleset: t2,          incorrect: true } # latest 2.6.8; how the hell do they reference non-existing version on (ex-) official ftp?
 - { name: fxload,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: fxload,                      ver: "20081013",                                    incorrect: true } # it's 2008_10_13

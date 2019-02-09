@@ -6,6 +6,10 @@
 
 - { name: xdrfile, ruleset: arch, verpat: "2\\..*", setname: xdrfile-wesbarnett } # fork
 
+- { name: xst, wwwpart: gpe.handhelds, setname: xst-gpe }
+- { name: xst, wwwpart: neeasade, setname: xst-terminal }
+- { name: xst, warning: "please classify me" }
+
 - { name: xsv, wwwpart: burntsushi, setname: "rust:xsv" }
 
 - { name: xtitle, wwwpart: kinzler, setname: xtitle-kinzler }

@@ -11,17 +11,19 @@
     - dejavu
     - dejavu-fonts
     - dejavu-fonts-ttf
+    - dejavu-lgc-fonts
     - dejavu-ttf
+    - dejavu-ttf-fonts
     - font-dejavu
     - fonts-dejavu
     - fonts-ttf-dejavu
-    - ttf-dejavu
-    - xorg-font-dejavu-ttf
-
-- setname: "fonts:dejavu-lgc"
-  name:
-    - dejavu-lgc-fonts
     - fonts-ttf-dejavu-lgc
+    - ttf-dejavu
+    - ttf-dejavu-emojiless
+    - ttf-dejavu-ib
+    - ttf-dejavu-lgc
+    - xorg-font-dejavu-ttf
+- { setname: "fonts:dejavu", name: ttf-dejavu-snapshot, weak_devel: true }
 
 - setname: "fonts:dina"
   name:

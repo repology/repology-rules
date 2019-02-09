@@ -62,6 +62,8 @@
 - { name: "perl:sphinx-search",        verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:spreadsheet-parseexcel", verpat: "0\\.[0-9]{4}",                           incorrect: true }
 - { name: "perl:super",                verpat: "20[0-9]{6}",                               incorrect: true } # it's 1.YYYYMMDD, pisi fake
+- { name: "perl:template-toolkit",     ver: "2.51",                  ruleset: t2,          incorrect: true }
+- { name: "perl:template-toolkit",                                   ruleset: t2,          untrusted: true }
 - { name: "perl:test-differences",     verpat: "0\\.[0-9]{3,}",                            ignore: true }
 - { name: "perl:test-exception",       ver: [ "0.430000", "0.400", "0.320" ],              ignore: true }
 - { name: "perl:test-exception",       verpat: "0\\.[0-9]{3,}",                            ignore: true }

@@ -6,6 +6,8 @@
 - { name: libappindicator,                                           ruleset: slackbuilds, ignore: true } # uses fork?
 - { name: libappindicator,             ver: "12.10.1",               ruleset: [opensuse,debuntu], incorrect: true }
 - { name: libappindicator,                                           ruleset: [opensuse,debuntu], untrusted: true }
+- { name: libarc,                      ver: "2.02",                  ruleset: t2,          incorrect: true } # 2.0.2
+- { name: libarc,                                                    ruleset: t2,          untrusted: true } # accused o fake 2.02
 - { name: libarcus,                    verpat: "15\\..*",                                  outdated: true }
 - { name: libart-lgpl,                 ver: "14.0.4",                                      incorrect: true }
 - { name: libart-lgpl,                                               ruleset: aosc,        untrusted: true }
@@ -136,11 +138,15 @@
 - { name: libssh,                      ver: ["0.11"],                                      incorrect: true }
 - { name: libssh,                                                    ruleset: gobolinux,   untrusted: true } # accused of fake 0.11
 - { name: libstemmer,                                                                      noscheme: true }
+- { name: libstroke,                   verpat: ".*fvwm.*",                                 ignore: true } # ?
 - { name: libtelnet,                   verpat: ".*\\+[0-9a-f]{7}",                         incorrect: true } # nix fake
+- { name: libtompoly,                  ver: "0.40",                  ruleset: t2,          incorrect: true } # 0.04
+- { name: libtompoly,                                                ruleset: t2,          untrusted: true } # accused of fake 0.40
 - { name: libtorrent,                  verpat: "20[0-9]{6}.*",                             ignore: true } # nix fake
 - { name: libtorrent,                  verpat: "[0-9]+\\.[0-9]+\\.[0-9]*[13579]",          devel: true } # http://rakshasa.github.io/rtorrent/
 - { name: libtxc-dxtn,                 ver: "1.1",                   ruleset: solus,       incorrect: true }
 - { name: libtxc-dxtn,                                               ruleset: solus,       untrusted: true }
+- { name: libtxc-dxtn,                 verpat: "[0-9]+",             ruleset: t2,          snapshot: true }
 - { name: libubox,                                                                         noscheme: true }
 - { name: libunwind,                   verpat: ".*20[0-9]{6}",                             snapshot: true } # termux snapshot
 - { name: libusbmuxd,                  verpat: "1\\.1\\.0.*",        ruleset: [openwrt,debuntu], ignore: true } # fake

@@ -109,6 +109,7 @@
 - { setname: meld,                     name: meld-gtk2 }
 - { setname: meme,                     name: meme-suite }
 - { setname: memphis,                  namepat: "libmemphis[0-9.-]*"  }
+- { setname: memtest,                  name: memtest-bin, addflavor: true }
 - { setname: memtest86+,               name: memtestplus }
 - { setname: menulibre,                name: "python:menulibre" }
 - { setname: mercator,                 name: libmercator }
@@ -138,9 +139,12 @@
 - { setname: mixxx,                    name: [mixxx20,mixxx-1-11] }
 - { setname: mixxx,                    name: mixxx-unstable, weak_devel: true }
 - { setname: mixxx,                    name: mixxx-qt5, addflavor: true }
+- { setname: mlt,                      name: [libmlt, mlt-qt4, mlt-qt5,mlt-freeworld,"python:mlt"], addflavor: true }
 - { setname: moc,                      name: moc-pulse, addflavor: pulse }
 - { setname: moc,                      name: mocp }
 - { setname: modplugtools,             name: modplugplay, outdated: true } # modplugplay (2003, upstream dead) is now contained in modplugtools (2010); the latter also uses own versioning scheme
+- { setname: modsecurity,              name: ["apmod:modsecurity","apmod:security","apmod:security2", libmodsecurity,mod-security,modsecurity,modsecurity-apache,modsecurity3] }
+- { setname: modsecurity-crs,          name: [modsecurity-crs,mod-security-crs,owasp-modsecurity-crs,"apmod:security-crs"] }
 - { setname: mono-flickrnet,           name: flickrnet-bin, addflavor: true }
 - { setname: mono-flickrnet,           name: [libflickrnet,flickrnet,dotnet-flickrnet] }
 - { setname: monotone,                 name: monotone-server, addflavor: true }
@@ -156,8 +160,10 @@
 - { setname: mozjs,                    namepat: "mozjs[0-9.-]+" }
 - { setname: mozo,                     name: mozo-gtk2, addflavor: true }
 - { setname: mozo,                     name: mozo-dev, weak_devel: true }
-- { setname: mpc,                      name: [mpd-mpc,mpclient,mpc-client] }
+- { setname: mozvoikko,                name: [browser-plugin-mozvoikko,firefox-ext-mozvoikko] }
+- { setname: mpc,                      name: [mpd-mpc,mpclient,mpc-client,mpcli] }
 - { setname: mpd,                      name: [mpd-light,mpd-light-pulse,mpd-minimal,mpd-server-minimal,mpd-sidplay], addflavor: true }
+- { setname: mpeg-lib,                 name: [libmpeg, mpeg] }
 - { setname: mpfr,                     name: [mpfr3,mpfr4,libmpfr] }
 - { setname: mpich,                    name: mpich-default }
 - { setname: mpich,                    namepat: "mpich(?:-clang|-gcc|-llvm)?[0-9.-]*" }
