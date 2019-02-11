@@ -29,9 +29,33 @@
 - { remove: true,   name: rust-base,    ruleset: aosc }
 
 # XXX: add more (all) task-* metaports
-- { remove: true,   name: task-lxde }
-- { remove: true,   name: task-lxqt }
-- { remove: true,   name: task-xfce }
+- remove: true
+  name:
+    - task-3ddesktop
+    - task-astronomy
+    - task-c++-devel
+    - task-c-devel
+    - task-cinnamon
+    - task-edu
+    - task-enlightenment
+    - task-esteid
+    - task-fvwm2
+    - task-games
+    - task-gnome
+    - task-kde-games
+    - task-kde4
+    - task-lamp
+    - task-lxde
+    - task-lxqt
+    - task-mate
+    - task-mds
+    - task-plasma5
+    - task-printing-scanning
+    - task-scanning
+    - task-sugar
+    - task-virtualbox
+    - task-x11
+    - task-xfce
 
 - { remove: true,   name: vuze-coreplugins, ruleset: gentoo } # just a set of bundled plugins under vuze version
 
