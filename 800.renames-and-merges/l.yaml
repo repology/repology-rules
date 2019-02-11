@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { setname: l-smash,                  name: lsmash }
+- { setname: l-smash-works,            name: ["vapoursynth:l-smash-works", "vapoursynth:lsmashsource"], addflavor: vapoursynth }
 - { setname: ladspa-cmt,               name: ladspa-cmt-plugins }
 - { setname: lambdahack,               name: "haskell:lambdahack" }
 - { setname: lame,                     name: libmp3lame }
