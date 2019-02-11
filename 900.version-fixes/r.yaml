@@ -25,7 +25,7 @@
 - { name: rbldnsd,                     verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: rdate,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: rdist,                       verpat: ".*a.*",                                    devel: true }
-- { name: re2,                         verpat: "([0-9]{4})[-.]([0-9]{2})[-.]([0-9]{2})",   setver: $1$2$3 }
+- { name: re2,                         verpat: "([0-9]{4})[-.]?([0-9]{2})[-.]?([0-9]{2})", setver: $1-$2-$3 }
 - { name: readline,                    verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1p$2 }
 - { name: readline,                                                                        p_is_patch: true }
 - { name: readseq,                                                                         noscheme: true } # circa 93; version numbers and software distributions were not invented yet
