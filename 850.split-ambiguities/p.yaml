@@ -109,6 +109,9 @@
 - { name: "python:magic", wwwpart: darwinsys.com/file, setname: file, addflavor: python }
 - { name: "python:magic", wwwpart: [ahupp/python-magic,pypi/python-magic], setname: "python:python-magic" } # XXX: problem
 
+- { name: "python:vlc", wwwpart: videolan.org, setname: "python:python-vlc" } # XXX: problem
+- { name: "python:vlc", ruleset: sisyphus,  setname: "python:python-vlc" }
+
 - { name: "python:planet", setname: planet, wwwpart: planetplanet }
 
 - { name: "python:tz", wwwpart: pytz, setname: "python:pytz" } # there is tz module, but in most (currently all) cases it misspelled pytz; XXX: problem
