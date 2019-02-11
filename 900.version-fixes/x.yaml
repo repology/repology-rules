@@ -5,7 +5,7 @@
 - { name: x2x,                                                                             noscheme: true } # configure says 1.30rc1, but no tags
 - { name: x86info,                     verpat: ".*[sp].*",                                 snapshot: true } # snapshots
 - { name: x86info,                     verpat: "1\\.[0-9]+\\..*",                          incorrect: true } # snapshots
-- { name: xalan-c,                     verpat: "1\\.11_[0-9]{5}.*",                        ignore: true } # slackbuilds garbage
+- { name: xalan-c,                     verpat: "1\\.11_[0-9]{5}.*",                        snapshot: true } # slackbuilds garbage
 - { name: xastir,                      verpat: "[0-9]{3}",                                 incorrect: true } # XXX: problem
 - { name: xastir,                      ver: "208",                                         outdated: true }
 - { name: xawtv,                       ver: "4.0",                   ruleset: sisyphus,    incorrect: true }
