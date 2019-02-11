@@ -1,9 +1,261 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { namepat: "(?:lib)?qt[0-9]*-?(?:qt)?(multimedia|opengl|network|linguist|linguisttools|gui|svg|xml|xmlpatterns)[0-9]*", verpat: "4\\..*", setname: "qt4-$1" }
-- { namepat: "(qt.*)-opensource-src(-gles|-touch)?", setname: "$1", addflavor: "$2" }
-- { namepat: "(?:lib)?qt[0-9]*-?(?:qt)?(multimedia|opengl|network|linguist|linguisttools|gui|svg|xml|xmlpatterns|webkit|widgets|qml|base|graphicaleffects|webchannel|tools|location)[0-9]*(-docs|-examples)?", verpat: "5\\..*", setname: "qt5-$1", addflavor: "$2" }
-- { name: [qtbase-opensource-src, qtbase-opensource-src-gles, qt5-base-nosystemd], verpat: "5\\..*", setname: qt5-base }
-- { name: [qtgraphicaleffects-opensource-src,qtgraphicaleffects-docindex,qtgraphicaleffects-html,qtgraphicaleffects-qch], verpat: "5\\..*", setname: qt5-graphicaleffects }
-- { name: [qt5-base-dev], verpat: "5\\..*", setname: qt5-base, ignore: True }
-- { setname: qt5, name: qt5-static, addflavor: true }
+# Generic rule(s)
+- { namepat: "(?:lib)?qt[0-9._-]*(-static|-doc|-full|-x11)*", setname: qt, addflavor: $1 }
+
+- name:
+    - qt-x11-free
+  setname: qt  # split by version later
+  addflavor: true
+
+# Qt3 legacy
+- name:
+    - qt3-devel-doc
+    - qt3-doc
+    - qt3-examples
+    - qt3-extensions
+    - qt3-html
+    - qt3-mac
+    - qt3-mt
+    - qt3-mysql
+    - qt3-postgresql
+    - qt3-sqlite2
+    - qt3-sqlite3
+  setname: qt3
+  addflavor: true
+
+# Qt4 legacy (mostly FreeBSD splits which will be gone after 2019-03-15)
+- name:
+    - libqt4-devel-doc
+    - libqt4-sql-plugins
+    - qt4-accessible
+    - qt4-assistant
+    - qt4-clucene
+    - qt4-codecs-cn
+    - qt4-codecs-jp
+    - qt4-codecs-kr
+    - qt4-codecs-tw
+    - qt4-corelib
+    - qt4-dbus
+    - qt4-declarative
+    - qt4-designer
+    - qt4-doc
+    - qt4-docs
+    - qt4-examples
+    - qt4-graphicssystems-opengl
+    - qt4-gui
+    - qt4-help
+    - qt4-help-tools
+    - qt4-html
+    - qt4-ibase-plugin
+    - qt4-iconengines
+    - qt4-imageformats
+    - qt4-inputmethods
+    - qt4-l10n
+    - qt4-libqtassistantclient
+    - qt4-libs
+    - qt4-linguist
+    - qt4-linguisttools
+    - qt4-mac
+    - qt4-mac-mariadb-10.0-plugin
+    - qt4-mac-mariadb-10.1-plugin
+    - qt4-mac-mariadb-plugin
+    - qt4-mac-mysql5-plugin
+    - qt4-mac-mysql51-plugin
+    - qt4-mac-mysql55-plugin
+    - qt4-mac-mysql56-plugin
+    - qt4-mac-percona-plugin
+    - qt4-mac-percona-plugin macports qt4-mac-percona-plugin 4.8.7 unique
+    - qt4-mac-postgresql80-plugin
+    - qt4-mac-postgresql81-plugin
+    - qt4-mac-postgresql82-plugin
+    - qt4-mac-postgresql83-plugin
+    - qt4-mac-postgresql84-plugin
+    - qt4-mac-postgresql90-plugin
+    - qt4-mac-postgresql91-plugin
+    - qt4-mac-postgresql92-plugin
+    - qt4-mac-sqlite2-plugin
+    - qt4-mac-sqlite3-plugin
+    - qt4-makeqpf
+    - qt4-mng
+    - qt4-moc
+    - qt4-multimedia
+    - qt4-mysql
+    - qt4-mysql-plugin
+    - qt4-network
+    - qt4-odbc-plugin
+    - qt4-opengl
+    - qt4-pgsql
+    - qt4-pixeltool
+    - qt4-porting
+    - qt4-postgresql
+    - qt4-private-headers-dev
+    - qt4-psql-plugin
+    - qt4-qdbus
+    - qt4-qdbusviewer
+    - qt4-qdoc3
+    - qt4-qmake
+    - qt4-qmlviewer
+    - qt4-qt3support
+    - qt4-qtconfig
+    - qt4-qtdemo
+    - qt4-qvfb
+    - qt4-rcc
+    - qt4-script
+    - qt4-scripttools
+    - qt4-sql
+    - qt4-sqlite-plugin
+    - qt4-sqlite2
+    - qt4-sqlite2-plugin
+    - qt4-sqlite3
+    - qt4-svg
+    - qt4-tds
+    - qt4-testlib
+    - qt4-tiff
+    - qt4-tools
+    - qt4-uic
+    - qt4-uic3
+    - qt4-webkit
+    - qt47-webkit
+    - qt4-x11
+    - qt4-xml
+    - qt4-xmlpatterns
+    - qt4-xmlpatterns-tool
+
+    - qt4-revert80e3108
+  setname: qt4
+  addflavor: true
+
+# Qt5
+# 1) official submodules, https://download.qt.io/official_releases/qt/5.12/5.12.1/submodules/
+# 2) additional splits made by most distros
+# 3) third part is variants
+# 4) components removed from Qt, see (Removed Functionality section)
+# https://doc.qt.io/qt-5.11/whatsnew56.html
+# https://doc.qt.io/qt-5.11/whatsnew57.html
+# https://doc.qt.io/qt-5.11/whatsnew58.html
+# we could merge them into separate metapackages instead
+
+- namepat: |
+    (?:qt5[0-9]*-qt|qt5[0-9]*-|qt|qt-|libqt5[0-9]*-qt)(
+    3d|
+    activeqt|
+    androidextras|
+    base|
+    canvas3d|
+    charts|
+    connectivity|
+    datavis3d|
+    declarative|
+    doc|
+    gamepad|
+    graphicaleffects|
+    imageformats|
+    location|
+    macextras|
+    multimedia|
+    networkauth|
+    purchasing|
+    quickcontrols|
+    quickcontrols2|
+    remoteobjects|
+    script|
+    scxml|
+    sensors|
+    serialbus|
+    serialport|
+    speech|
+    svg|
+    tools|
+    translations|
+    virtualkeyboard|
+    wayland|
+    webchannel|
+    webengine|
+    webglplugin|
+    websockets|
+    webview|
+    winextras|
+    x11extras|
+    xmlpatterns|
+
+    assistant|
+    bluetooth|
+    buildtools|
+    concurrent|
+    core|
+    dbus|
+    declarative-xmllistmodel|
+    designer|
+    diag|
+    docs|
+    examples|
+    global|
+    gui|
+    help|
+    html|
+    l10n|
+    linguisttools|
+    linguist|
+    macros|
+    mysql-plugin|
+    mysql|
+    network|
+    odbc|
+    opengl|
+    paths|
+    pixeltool|
+    plugininfo|
+    positioning|
+    printsupport|
+    psql-plugin|
+    psql|
+    qdbusviewer|
+    qdbus|
+    qdoc-data|
+    qdoc|
+    qev|
+    qmake|
+    quick|
+    scripttools|
+    sqldrivers-ibase|
+    sqldrivers-mysql|
+    sqldrivers-odbc|
+    sqldrivers-pgsql|
+    sqldrivers-sqlite2|
+    sqldrivers-sqlite3|
+    sqldrivers-tds|
+    sqlite-plugin|
+    sqlite2|
+    sql|
+    tds|
+    testlib|
+    test|
+    uiplugin|
+    uitools|
+    websockets-qml|
+    widgets|
+    xml|
+
+    base-headless|
+    base-nostatx|
+
+    declarative-render2d|
+    quick1|
+
+    nonexistingpackagenamejusttokeeppipeonthepreviousline
+    )(?:5[0-9]*)?(?:-docs|-examples|-everywhere-src|-opensource-src)*(?:-gles|-touch)*
+  setname: qt
+  addflavor: true
+  addflag: not_legacy  # make sure components with (old) own versions don't mismerge with qt1/2/3 (like qtvirtualkeyboard 2.0)
+
+# these have their own versioning schemes
+- namepat: |
+    (?:qt5[.0-9]*-qt|qt5[.0-9]*-|qt|qt-|libqt5[.0-9]*-qt)(
+    enginio|
+    webkit|
+    styleplugins|
+
+    nonexistingpackagenamejusttokeeppipeonthepreviousline
+    )(?:5[0-9]*)?(?:-docs|-examples|-everywhere-src|-opensource-src)*(?:-gles|-touch)*
+  setname: qt5-$1
