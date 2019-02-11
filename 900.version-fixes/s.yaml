@@ -97,6 +97,7 @@
 - { name: sonata,                      ver: "1.7",                    ruleset: sisyphus,   incorrect: true }
 - { name: sonata,                                                     ruleset: sisyphus,   untrusted: true }
 - { name: sonata,                      verpat: ".*[ab].*",                                 devel: true }
+- { name: spamassassin,                verpat: "([0-9]+)\\.([0-9]{3})([0-9]{3})",          setver: $1.$2.$3 } # MetaCPAN weirdness
 - { name: spandsp,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: sparse,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: sparse,                      verge: "20000000", verle: "20180430",               outdated: true } # 0.5.2 from 20180430
