@@ -2,7 +2,8 @@
 
 - { name: a52dec,                      ver: "0.7.5",                 ruleset: [openbsd,opensuse,pld], ignore: true }
 - { name: a52dec,                      ver: "0.7.4.1",               ruleset: [kaos],      ignore: true }
-- { name: aalib,                       ver: [ "1.4.0", "1.4.0-rc5", "1.4.0rc5", "1.4", "1.4.0.5", "1.4p5" ], incorrect: true } # 1.4 never really released, 1.4.0.5 @ pkgsrc fake. It's 1.4rc5
+- { name: aalib,                       ver: [ "1.4", "1.4p5" ],                            incorrect: true } # 1.4rc5
+- { name: aalib,                       verpat:  "1\\.4\\.0.*",                             incorrect: true } # 1.4rc5
 - { name: abcmidi,                     verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" }
 - { name: abuse,                       ver: "2.0",                   ruleset: pkgsrc,      ignore: true }
 - { name: accerciser,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
