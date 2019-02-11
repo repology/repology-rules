@@ -191,6 +191,7 @@
 - { setname: autodia,                  name: "perl:autodia" }
 - { setname: autoflake,                name: "python:autoflake" }
 - { setname: autofs,                   name: autofs5 }
+- { setname: autokey,                  name: [autokey-py3,"python:autokey"] }
 - { setname: automake,                 namepat: "automake-?[0-9.]+" } # do we need splits for this?
 - { setname: automoc,                  namepat: "automoc[0-9]+" }
 - { setname: autopep8,                 name: "python:autopep8" }
