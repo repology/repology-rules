@@ -46,7 +46,6 @@
 - { name: nodejs,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: noice,                       verpat: "20[0-9]{2}.*",                             snapshot: true }
 - { name: noip,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]+-.*",              incorrect: true} # nix fake
-- { name: noise-repellent,             verpat: ".*\\.20[0-9]{6}",                          snapshot: true }
 - { name: notify-osd,                  ver: "0.9.35",                ruleset: [arch,debuntu], incorrect: true } # https://launchpad.net/notify-osd
 - { name: notion,                      verpat: "20[0-9]{6}.*",                             incorrect: true } # it's 3-YYYYMMDD, not just date
 - { name: novnc,                       verpat: "201[1234567].*",                           outdated: true }
