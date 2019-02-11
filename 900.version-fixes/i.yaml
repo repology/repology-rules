@@ -36,6 +36,8 @@
 - { name: inspectrum,                  verpat: "20[0-9]{2}.*",                             ignore: true }
 - { name: inspectrum,                  verpat: "2017.*",                                   outdated: true, disposable: true }
 - { name: inspectrum,                  ver: "20180603",                                    outdated: true, disposable: true } # latest official versions from 20180607
+- { name: intel-hybrid-driver,         verpat: "2.*",                ruleset: aur,         incorrect: true } # totally fake
+- { name: intel-hybrid-driver,                                       ruleset: aur,         untrusted: true } # accused if fake 2.0.0.r169.edead0c (intel-hybrid-codec-driver package)
 - { name: intel-microcode,             verpat: ".*really.*",                               incorrect: true, addflag: garbage }
 - { name: intel-microcode,             verpat: "(?:[0-9]\\.)?(20[0-9]{6}a?).*",            setver: "$1", noflag: garbage }
 - { name: io,                          verpat: "20[0-9]{6}",                               incorrect: true } # it's YYYY.MM.DD
