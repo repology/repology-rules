@@ -20,6 +20,7 @@
 - { setname: ack,                      name: ack-grep }
 - { setname: acpi-call,                name: [acpi-call-ck-fbcondecor,acpi-call-dkms,acpi-call-lts,acpi-call-pf], addflavor: true }
 - { setname: acpi-call,                namepat: "linux[0-9]+(?:-rt)?-acpi-call" }
+- { setname: acpi-call,                name: acpi-call-ck, addflavor: true }
 - { setname: acpica,                   namepat: "acpica-(?:tools|unix|utils)" }
 - { setname: acpid,                    name: acpid2 }
 - { setname: acroread,                 name: [adobereader,adobe-reader] }
