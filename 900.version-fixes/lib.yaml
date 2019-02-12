@@ -150,6 +150,7 @@
 - { name: libtxc-dxtn,                                               ruleset: solus,       untrusted: true }
 - { name: libtxc-dxtn,                 verpat: "[0-9]+",             ruleset: t2,          snapshot: true }
 - { name: libubox,                                                                         noscheme: true }
+- { name: libui,                       verpat: "[0-9].*a.*",                               incorrect: true }
 - { name: libunwind,                   verpat: ".*20[0-9]{6}",                             snapshot: true } # termux snapshot
 - { name: libusbmuxd,                  verpat: "1\\.1\\.0.*",        ruleset: [openwrt,debuntu], ignore: true } # fake
 - { name: libusbmuxd,                  verpat: ".*20[0-9]{6}.*",                           snapshot: true }
