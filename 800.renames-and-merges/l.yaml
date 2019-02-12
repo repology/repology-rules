@@ -54,7 +54,7 @@
 - { setname: lightdm,                  namepat: "(liblightdm(?:-qt4|-qt5)*)-devel", addflavor: $1, weak_devel: true }
 - { setname: lightdm,                  namepat: "liblightdm(?:-qt4|-qt5|-ubuntu)*", addflavor: true }
 - { setname: lightdm,                  name: [lightdm-guest,liblightdm-qt4-guest,liblightdm-qt5-guest] }
-- { setname: lightdm-gtk-greeter,      name: lightdm-gtk }
+- { setname: lightdm-gtk-greeter,      name: [lightdm-gtk,lightdm-gtk2-greeter,lightdm-gtk3-greeter] }
 - { setname: lightdm-gtk-greeter,      name: lightdm-gtk-greeter-devel, weak_devel: true }
 - { setname: lightsoff,                name: gnome-games-lightsoff }
 - { setname: lightyears,               name: 20kly }
