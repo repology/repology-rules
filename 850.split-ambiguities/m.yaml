@@ -83,6 +83,8 @@
 
 - { name: msgpack, category: dev-java, setname: "java:msgpack" }
 
+- { name: libmpack, ruleset: solus, setname: "lua:mpack" }
+
 - { name: mu, wwwpart: [ntoll,mu-editor], setname: mu-editor }
 - { name: mu, wwwpart: kreogist, setname: kreogist-mu } # name taken form AUR package; may also use e.g. mu-music-manager
 # otherwise, maildir utils + emacs email client (mu4e)
