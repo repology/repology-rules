@@ -142,6 +142,8 @@
 - { name: libssh,                                                    ruleset: gobolinux,   untrusted: true } # accused of fake 0.11
 - { name: libstemmer,                                                                      noscheme: true }
 - { name: libstroke,                   verpat: ".*fvwm.*",                                 ignore: true } # ?
+- { name: libtcd,                                                                          any_is_patch: true }
+- { name: libtcd,                      verpat: "(.*)p(.*)",          ruleset: gentoo,      setver: "$1r$2" }
 - { name: libtelnet,                   verpat: ".*\\+[0-9a-f]{7}",                         incorrect: true } # nix fake
 - { name: libtompoly,                  ver: "0.40",                  ruleset: t2,          incorrect: true } # 0.04
 - { name: libtompoly,                                                ruleset: t2,          untrusted: true } # accused of fake 0.40
