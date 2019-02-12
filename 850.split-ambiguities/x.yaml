@@ -4,6 +4,12 @@
 
 - { name: xclip, setname: emacs-xclip, ruleset: gentoo, category: app-emacs }
 
+- { name: xed, setname: xed-mint, wwwpart: mint }
+- { name: xed, setname: xed-mint, ruleset: [sisyphus,aosc,debuntu] }
+- { name: xed, setname: xed-xcontrib, ruleset: [freebsd] }
+- { name: xed, setname: xed-ed, wwwpart: sourceforge }
+- { name: xed, warning: "please classify me" }
+
 - { name: xdrfile, ruleset: arch, verpat: "2\\..*", setname: xdrfile-wesbarnett } # fork
 
 - { name: xst, wwwpart: gpe.handhelds, setname: xst-gpe }
