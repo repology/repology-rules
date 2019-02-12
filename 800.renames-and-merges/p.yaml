@@ -93,6 +93,7 @@
 - { setname: pkgconf,                  name: pkgconfig, ruleset: ravenports } # XXX
 - { setname: plasma-browser-integration, name: plasma5-plasma-browser-integration }
 - { setname: plasma-integration,       name: [plasma5-integration,plasma5-plasma-integration] }
+- { setname: plasma5-applets-active-window-control, name: [plasma-active-window-control,plasma-applet-active-window-control,plasmoid-active-window-control] } # normalize all plasma applets?
 - { setname: plpgsql-check,            namepat: "(postgresql[0-9.-]*)-plpgsql-check", addflavor: $1 }
 - { setname: plr,                      namepat: "(postgresql[0-9.-]*)-plr", addflavor: $1 }
 - { setname: pluma,                    name: pluma-1.16 }
