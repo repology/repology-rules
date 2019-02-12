@@ -33,6 +33,7 @@
 - { setname: bbswitch,                 namepat: "(linux[0-9]+)-bbswitch", addflavor: $1 }
 - { setname: bbswitch,                 name: dkms-bbswitch }
 - { setname: bbswitch,                 name: [bbswitch-ck,bbswitch-ck-fbcondecor,bbswitch-dkms,bbswitch-dkms-lts,bbswitch-lts,bbswitch-mainline,bbswitch-next,bbswitch-pf,kernel-modules-bbswitch-std-def,kernel-modules-bbswitch-un-def], addflavor: true }
+- { setname: bc-gh,                    name: [gh-bc,howard-bc] }
 - { setname: bcc,                      name: "python:bcc", addflavor: python } # split in 850
 - { setname: bcc,                      name: bcc-tools, addflavor: tools }
 - { setname: bcc,                      name: bpfcc }
