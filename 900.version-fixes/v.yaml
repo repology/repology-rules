@@ -6,8 +6,8 @@
 - { name: vala,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: valentina,                   verpat: ".*a",                                      devel: true }
 - { name: vapoursynth,                 verpat: "R([.0-9]+)",                               setver: "$1" }
-- { name: "vapoursynth:fmtconv",       verpat: "[0-9]+",                                   setname: r$0 }
-- { name: "vapoursynth:waifu2x-w2xc",  verpat: "[0-9]+",                                   setname: r$0 }
+- { name: "vapoursynth:fmtconv",       verpat: "[0-9]+",                                   setver: r$0 }
+- { name: "vapoursynth:waifu2x-w2xc",  verpat: "[0-9]+",                                   setver: r$0 }
 - { name: vbindiff,                    ver: "3.0",                   ruleset: pld,         incorrect: true }
 - { name: vbindiff,                                                  ruleset: pld,         untrusted: true }
 - { name: vcdimager,                   ver: "0.7.24cvs",                                   ignore: true } # opensuse garbage
