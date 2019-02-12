@@ -110,7 +110,7 @@
 - { name: "python:magic", wwwpart: [ahupp/python-magic,pypi/python-magic], setname: "python:python-magic" } # XXX: problem
 
 - { name: "python:vlc", wwwpart: videolan.org, setname: "python:python-vlc" } # XXX: problem
-- { name: "python:vlc", ruleset: sisyphus,  setname: "python:python-vlc" }
+- { name: "python:vlc", ruleset: [sisyphus,solus],  setname: "python:python-vlc" }
 
 - { name: "python:planet", setname: planet, wwwpart: planetplanet }
 
