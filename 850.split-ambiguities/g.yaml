@@ -18,6 +18,10 @@
 
 - { name: ghostscript-fonts, wwwpart: gs-fonts, setname: ghostscript-fonts-std }
 
+- { name: gimme, wwwpart: travis-ci/gimme, setname: gimme-go }
+- { name: gimme, wwwpart: netbsd, setname: gimme-netbsd }
+- { name: gimme, warning: "please classify me" }
+
 - { name: gist, wwwpart: vim, setname: vim-gist }
 
 - { name: git-fame, setname: git-fame-rb, wwwpart: oleander.io }
