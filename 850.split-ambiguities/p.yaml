@@ -122,6 +122,11 @@
 - { name: "python:magic", wwwpart: darwinsys.com/file, setname: file, addflavor: python }
 - { name: "python:magic", wwwpart: [ahupp/python-magic,pypi/python-magic], setname: "python:python-magic" } # XXX: problem
 
+- { name: "python:notify", setname: "python:notify-python", wwwpart: galago }
+- { name: "python:notify", setname: "python:notify-python", ruleset: [sisyphus,openbsd] }
+- { name: "python:notify", setname: "python:notify2", ruleset: [pkgsrc] }
+- { name: "python:notify", warning: "please classify me" }
+
 - { name: "python:vlc", wwwpart: videolan.org, setname: "python:python-vlc" } # XXX: problem
 - { name: "python:vlc", ruleset: [sisyphus,solus],  setname: "python:python-vlc" }
 

@@ -131,6 +131,10 @@
 - { setname: "python:nbsphinx",        name: ["python:jupyter-nbsphinx",nbsphinx] }
 - { setname: "python:nbxmpp",          name: ["python:python-nbxmpp",nbxmpp] }
 - { setname: "python:netifaces",       name: netifaces }
+- { setname: "python:notify-python",   name: notify-python, wwwpart: galago }
+- { setname: "python:notify-python",   name: notify-python, ruleset: [maemo,slackware,solus] }
+- { setname: "python:notify-python",   name: python-notify, wwwpart: galago }
+- { setname: "python:notify-python",   name: "python:pynotify", ruleset: pld }
 - { setname: "python:numarray",        name: numarray }
 - { setname: "python:numeric",         name: numeric, ruleset: [crux,gobolinux] }
 - { setname: "python:numpy",           name: "python:numpy-docs-devhelp", addflavor: devhelp }
