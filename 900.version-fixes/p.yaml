@@ -85,6 +85,7 @@
 - { name: polkit-qt-1,                 ver: "0.112.0.1",             ruleset: kaos,        incorrect: true }
 - { name: polkit-qt-1,                                               ruleset: kaos,        untrusted: true } # accused of fake 0.112.0.1
 - { name: polkit-qt-1,                 verpat: "1-.*",                                     incorrect: true } # guix; -1 is a part of project name
+- { name: polygen,                     verpat: "(.*).ds([0-9]+)",                          setver: "$1.$2" }
 - { name: pony-stable,                 ver: "0.1.6.1",               ruleset: openbsd,     incorrect: true }
 - { name: pony-stable,                                               ruleset: openbsd,     untrusted: true } # accused of fake 0.1.6.1
 - { name: popt,                        ver: "1.17",                  ruleset: pld,         incorrect: true }
