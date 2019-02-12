@@ -172,11 +172,19 @@ schema = Schema(
 )
 
 
-order_fields_by_pattern = {
-    '.*800.renames-and-merges/.\.yaml': 'setname',
+features_by_pattern = {
+    '.*800.renames-and-merges/.\.yaml': {
+        'sort_field': 'setname',
+    },
 #    '.*850.split-ambiguities/.*\.yaml': 'name',
-    '.*900.version-fixes/.*\.yaml': 'name',
-    '.*950.split-branches.yaml': 'name',
+    '.*900.version-fixes/.*\.yaml': {
+        'sort_field': 'name',
+        'disallowed': {'setname'},
+    },
+    '.*950.split-branches.yaml': {
+        'sort_field': 'name',
+        'disallowed': {'setver'},
+    }
 }
 
 
@@ -189,6 +197,10 @@ class BadRuleValue(Exception):
 
 
 class BadSorting(Exception):
+    pass
+
+
+class DisallowedFields(Exception):
     pass
 
 
@@ -273,16 +285,13 @@ class RulesetCheckResult:
                 print('  Rule: {}'.format(failure[2]), file=stderr)
 
 
-def check_sorting(path, rules):
-    sort_field = None
-    for pattern, field in order_fields_by_pattern.items():
-        if re.fullmatch(pattern, path):
-            sort_field = field
-            break
+def check_disallowed_fields(rule, disallowed_fields):
+    bad_fields = set(rule.keys()) & set(disallowed_fields)
+    if bad_fields:
+        raise DisallowedFields('{} not allowed in this file'.format(', '.join(bad_fields)))
 
-    if sort_field is None:
-        return
 
+def check_sorting(path, rules, sort_field):
     prevkey = None
     for rule in rules:
         key = None
@@ -299,6 +308,11 @@ def check_sorting(path, rules):
 
 def check_rule_file(path):
     result = RulesetCheckResult(path)
+
+    features = []
+    for pattern, candidate_features in features_by_pattern.items():
+        if re.fullmatch(pattern, path):
+            features.append(candidate_features)
 
     rules = []
     try:
@@ -324,8 +338,16 @@ def check_rule_file(path):
         except BadRuleValue as e:
             result.add_failure('value problem', str(e), rule)
 
+        try:
+            for feature in features:
+                if 'disallowed' in feature:
+                    check_disallowed_fields(rule, feature['disallowed'])
+        except DisallowedFields as e:
+            result.add_failure('disallowed field', str(e), rule)
     try:
-        check_sorting(path, rules)
+        for feature in features:
+            if 'sort_field' in feature:
+                check_sorting(path, rules, feature['sort_field'])
     except BadSorting as e:
         result.add_failure('sorting problem', str(e))
 
