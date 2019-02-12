@@ -85,8 +85,8 @@
 - { setname: bnd,                      name: bnd1.50 }
 - { setname: boa-constructor,          name: boaconstructor }
 - { setname: bochs,                    name: bochs-gdb, addflavor: gdb }
-- { setname: boehm-gc,                 name: [boehmgc,boehm-gc-threaded,boehm-gc-redirect,boehm-garbage-collector,bdw-gc,gc] }
-- { setname: boehm-gc,                 name: libgc }
+- { setname: boehm-gc,                 name: [boehmgc,boehm-garbage-collector,bdw-gc,gc,libgc] }
+- { setname: boehm-gc,                 name: [libgc-back-pointers,boehm-gc-threaded,boehm-gc-redirect], addflavor: true }
 - { setname: bogofilter,               name: [bogofilter-sqlite,bogofilter-tc], addflavor: true }
 - { setname: boinc,                    name: [boinc-client,boinc-nox] } # or to boinc-client?
 - { setname: bombono-dvd,              name: bombono }
