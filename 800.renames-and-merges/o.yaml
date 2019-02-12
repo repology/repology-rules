@@ -36,6 +36,7 @@
 - { setname: openbor,                  namepat: "openbor[0-9]+" }
 - { setname: opencascade,              name: [opencascade-data,opencascade-doc,opencascade-samples], addflavor: true } # sisyphus artifacts
 - { setname: opencc,                   name: opencc-doc, addflavor: doc }
+- { setname: opencl-headers,           name: [khronos-opencl-headers,opencl,opencl-cpp-headers,opencl-headers-1-2,opencl-headers12,opencl2-headers] }
 - { setname: opencollada,              name: libopencollada }
 - { setname: opencore-amr,             name: libopencore-amr0 }
 - { setname: opencv,                   name: [opencv2,libopencv3.4,opencv-legacy] }
