@@ -26,6 +26,7 @@
 - { name: qrfcview,                    ver: "1.0.0",                 ruleset: openbsd,     successor: true } # uses unofficial fork (dead as well)
 - { name: [qt,qt3],                    verpat: "3\\.8.*",                                  incorrect: true } # openbsd garbage (3.3.8*, not 3.8*)
 - { name: [qt,qt3],                    ver: ["3.3.8c","3.3.8d"],                           incorrect: true }
+- { name: qt5-styleplugins,            verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.20[0-9]{6}",    snapshot: true }
 - { name: qt5-webkit,                  ver: "5.212.0",               ruleset: [fedora,sisyphus], incorrect: true } # fake, it's 5.212.0alpha2; actually most repos use github.com/annulen repo which is 5.212.0alpha2 (Jun 2017), however there's also https://download.qt.io/snapshots/ci/qtwebkit/5.212/latest/src/submodules/ from 2018
 - { name: qt5-webkit,                                                ruleset: [fedora,sisyphus], untrusted: true } # accused of fake 5.212.0
 - { name: qt5-webkit,                  ver: "5.212.0_2",             ruleset: solus,       incorrect: true } # fake, it's 5.212.0alpha2
