@@ -27,6 +27,8 @@
 - { setname: acroread,                 namepat: "acroread[0-9.]*" }
 - { setname: acroread-asianfonts,      namepat: "acroread9-.*font.*", ruleset: pkgsrc }
 - { setname: acroread7-asianfonts,     namepat: "acroread7-.*font.*", ruleset: pkgsrc }
+- { setname: acsccid,                  name: [pcsc-acsccid,pcsc-driver-acsccid] }
+- { setname: acsccid,                  name: pcsc-lite-acsccid, addflavor: true }
 - { setname: actiona,                  name: actionaz, ruleset: chocolatey }
 - { setname: activeio,                 name: activemq-activeio }
 - { setname: adabooch,                 name: [booch95,gnat-booch95] }
