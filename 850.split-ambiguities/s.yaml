@@ -108,6 +108,10 @@
 
 - { name: splitter, wwwpart: mkgmap, setname: mkgmap-splitter } # no ambiguity at the time of writing, but let's be on the safe side
 
+- { name: spt, category: "Development/Other", setname: spt-sisyphus }
+- { name: spt, wwwpart: pickfire, setname: spt-pomodoro }
+- { name: spt, warning: "please classify me" }
+
 - { name: ssr, wwwpart: spatialaudio, setname: soundscaperenderer }
 - { name: ssr, wwwpart: maarten, setname: simplescreenrecorder }
 - { name: ssr, ruleset: pclinuxos, setname: simplescreenrecorder }
