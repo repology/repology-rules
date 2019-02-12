@@ -26,6 +26,11 @@
 
 - { name: perl, wwwpart: strawberry, setname: strawberryperl }
 
+- { name: pfff, wwwpart: facebook, setname: pfff-apianalysis }
+- { name: pfff, ruleset: aosc, setname: pfff-apianalysis }
+- { name: pfff, wwwpart: "cs.ut.ee", setname: pfff-fingerprint }
+- { name: pfff, warning: "please classify me" }
+
 - { name: pg-top, wwwpart: cpan, setname: "perl:pgtop" }
 
 - { name: pgadmin, verpat: "2\\..*", ruleset: aosc, setname: pgadmin4 }
