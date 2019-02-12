@@ -25,6 +25,7 @@
 - { setname: cargo,                    name: ["rust:cargo",rust-toolset-7-cargo] }
 - { setname: cargo,                    name: [cargo-completion,cargo-standalone,cargo-bootstrap,cargo-stage1], addflavor: true }
 - { setname: cargo,                    name: cargo-nightly, weak_devel: true }
+- { setname: cargo-audit,              name: ["rust:cargo-audit",rust-cargo-audit] }
 - { setname: cassandra,                name: [apache-cassandra,cassandra2] }
 - { setname: cassandra,                namepat: "cassandra[0-9.-]+" }
 - { setname: cataclysm-dda,            name: cataclysm-dark-days-ahead }
