@@ -3,6 +3,8 @@
 - { setname: "python:3to2",            name: 3to2 }
 - { setname: "python:absl-py",         name: "python:absl", ruleset: macports } # there's python:absl in pypi which is different package
 - { setname: "python:absl-py",         name: absl-py }
+- { setname: "python:aiohttp-cors",    name: [aiohttp-cors,"python:aiohttp-cors2","python:aiohttp1-cors"] }
+- { setname: "python:aiohttp-cors",    name: "python:aiohttp-cors-gns3", addflavor: true }
 - { setname: "python:aiopg",           name: aiopg }
 - { setname: "python:aiozmq",          name: aiozmq }
 - { setname: "python:airnef",          name: airnef }
