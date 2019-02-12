@@ -182,8 +182,8 @@
 - { setname: pulseaudio,               name: [pulseaudio-bluetooth,pulseaudio-gconf,pulseaudio-jack,pulseaudio-lirc,pulseaudio-zeroconf], addflavor: true }
 - { setname: puppet,                   namepat: "puppet[0-9.-]+" }
 - { setname: "purple:purple-facebook", name: [libpurple-facebook,purple-facebook] }
-- { setname: purple-hangouts,          name: libpurple-hangouts }
-- { setname: purple-hangouts,          name: purple-hangouts-hg, weak_devel: true }
+- { setname: "purple:purple-hangouts", name: libpurple-hangouts }
+- { setname: "purple:purple-hangouts", name: purple-hangouts-hg, weak_devel: true }
 - { setname: putty,                    name: [putty-gtk2,putty-nogtk], addflavor: true }
 - { setname: pyalsa,                   name: ["python:alsa","python:pyalsa"], addflavor: python }
 - { setname: pycharm,                  name: [pycharm-ce,pycharm-community,pycharm-community-eap,pycharm-community-edition], addflavor: community }
