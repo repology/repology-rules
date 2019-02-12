@@ -78,6 +78,7 @@
 - { name: "fonts:fira-sans",           verpat: "20[0-9]{6}",                               ignore: true } # openbsd garbage
 - { name: "fonts:gentium-basic",       ver: "1102",                                        setver: "1.102" }
 - { name: "fonts:gnutypewriter",                                                           noscheme: true }
+- { name: "fonts:go",                                                                      noscheme: true }
 - { name: "fonts:ipa",                 verpat: "([0-9]{3})([0-9]{2})",                     setver: $1.$2 }
 - { name: "fonts:linuxlibertine",      verpat: ".*2012.*",                                 ignore: true } # gentoo and haikuports snapshots
 - { name: "fonts:lklug",                                                                   noscheme: true }
