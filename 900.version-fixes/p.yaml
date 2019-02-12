@@ -161,6 +161,7 @@
 - { name: polkit-qt-1,                 verpat: "1-.*",                                     incorrect: true } # guix; -1 is a part of project name
 - { name: poly2tri,                                                                        noscheme: true }
 - { name: polybar,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: polygen,                     verpat: "(.*).ds([0-9]+)",                          setver: "$1.$2" }
 - { name: polyorb,                                                                         noscheme: true }
 - { name: pony-stable,                 ver: "0.1.6.1",               ruleset: openbsd,     incorrect: true }
 - { name: pony-stable,                                               ruleset: openbsd,     untrusted: true } # accused of fake 0.1.6.1
