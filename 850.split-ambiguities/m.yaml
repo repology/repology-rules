@@ -57,9 +57,9 @@
 - { name: mm, wwwpart: meutraa, setname: mm-matrix }
 # otherwise, shared memory lib
 
-- { name: mog,                         setname: mog-cat, ruleset: freebsd }
-- { name: mog,                         setname: mog-game, ruleset: slackbuilds }
-- { name: mog,                         warning: "please classify me" }
+- { name: mog, setname: mog-cat, wwwpart: witchard }
+- { name: mog, setname: mazeofgalious, wwwpart: braingames }
+- { name: mog, warning: "please classify me" }
 
 - { name: mpd, wwwpart: [musicpd,mpd.wikia.com], setname: musicpd }
 - { name: mpd, category: [media-sound,Sound,audio], setname: musicpd }
