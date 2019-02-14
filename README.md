@@ -372,7 +372,7 @@ Set to `false` to undo.
 - { name: gnome-terminal, verpat: "[0-9]+\\.[0-9]*[13579]\\..*", devel: true }
 ```
 
-#### ignore, incorrect, untrusted, noscheme, snapshot, successor, rolling
+#### ignore, incorrect, untrusted, noscheme, snapshot, successor, debianism, rolling
 
 Set to `true` to ignore specific package versions. This is meant for the
 cases where comparison is not possible - ignore version are excluded from
@@ -394,6 +394,9 @@ ignore flavors:
 - `ignored` - general ignore
 - `successor` - currently alias for `devel` used to convey additional
   meaning: this is a fork of unmaintained original project
+- `debianism` - currently alias for `devel` used to convey additional
+  meaning: this package uses distribution maintained at debian (probably
+  with version addendum)
 - `snapshot` - currently alias for `ignored`
 
 ```yaml
