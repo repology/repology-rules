@@ -159,6 +159,7 @@ schema = Schema(
         'rolling': bool,
         'snapshot': bool,
         'successor': bool,
+        'debianism': bool,
         'generated': bool,
         'addflag': str,
         'last': bool,
