@@ -1,0 +1,48 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { setname: qemu, name: qemu-devel, weak_devel: true }
+
+- setname: qemu
+  name:
+    - qemu-agent
+    - qemu-all
+    - qemu-alpha-static
+    - qemu-armeb-static
+    - qemu-cris-static
+    - qemu-guest-agent
+    - qemu-guest-agent-windows
+    - qemu-host-cpu-only
+    - qemu-host-cpu-only-for-vm-tests1
+    - qemu-i386-static
+    - qemu-light
+    - qemu-linux-user
+    - qemu-lite
+    - qemu-m68k-static
+    - qemu-microblaze-static
+    - qemu-microblazeel-static
+    - qemu-minimal
+    - qemu-mips-static
+    - qemu-mips64-static
+    - qemu-mips64el-static
+    - qemu-mipsel-static
+    - qemu-mipsn32-static
+    - qemu-mipsn32el-static
+    - qemu-or32-static
+    - qemu-patched
+    - qemu-ppc-static
+    - qemu-ppc64-static
+    - qemu-ppc64abi32-static
+    - qemu-ppc64le-static
+    - qemu-s390x-static
+    - qemu-sh4-static
+    - qemu-sh4eb-static
+    - qemu-sparc-static
+    - qemu-sparc32plus-static
+    - qemu-sparc64-static
+    - qemu-statuc
+    - qemu-testsuite
+    - qemu-user-static
+    - qemu-utils
+    - qemu-x86-64-static
+    - qemu-xen-host-cpu-only
+  addflavor: true
