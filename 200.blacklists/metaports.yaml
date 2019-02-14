@@ -30,7 +30,8 @@
 
 - { remove: true,   name: rust-base,    ruleset: aosc }
 
-# XXX: add more (all) task-* metaports
+# https://repology.org/metapackages/task-/?search=task-
+# No need to list uniqu packages though; and task-spooler is legit
 - remove: true
   name:
     - task-3ddesktop
@@ -53,6 +54,7 @@
     - task-mds
     - task-plasma5
     - task-printing-scanning
+    - task-pulseaudio
     - task-scanning
     - task-sugar
     - task-virtualbox
