@@ -64,7 +64,8 @@
 
 - { name: cmt, wwwpart: ladspa, setname: ladspa-cmt }
 - { name: cmt, ruleset: openbsd, setname: ladspa-cmt }
-# otherwise Cross platform configuration management environment
+- { name: cmt, wwwpart: cmtsite.net, setname: cmt-configuration-management }
+- { name: cmt, warning: "please classify me" }
 
 - { name: command-not-found, wwwpart: metti, setname: command-not-found-arch }
 - { name: command-not-found, wwwpart: kaniini, setname: command-not-found-kaniini }
