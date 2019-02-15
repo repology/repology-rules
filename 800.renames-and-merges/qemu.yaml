@@ -4,15 +4,17 @@
 
 - setname: qemu
   name:
+    - qemu-aarch64-static
     - qemu-agent
     - qemu-all
     - qemu-alpha-static
+    - qemu-arm-static
     - qemu-armeb-static
     - qemu-cris-static
     - qemu-guest-agent
     - qemu-guest-agent-windows
     - qemu-host-cpu-only
-    - qemu-host-cpu-only-for-vm-tests1
+    - qemu-host-cpu-only-for-vm-tests
     - qemu-i386-static
     - qemu-light
     - qemu-linux-user
@@ -39,8 +41,11 @@
     - qemu-sparc-static
     - qemu-sparc32plus-static
     - qemu-sparc64-static
+    - qemu-spice
+    - qemu-static
     - qemu-statuc
     - qemu-testsuite
+    - qemu-tilegx-static
     - qemu-user-static
     - qemu-utils
     - qemu-x86-64-static
