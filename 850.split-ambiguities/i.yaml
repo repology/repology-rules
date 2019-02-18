@@ -12,6 +12,8 @@
 - { name: ion, wwwpart: redox-os, setname: ion-redox }
 - { name: ion, wwwpart: ion.ocp.ohiou.edu, setname: ion-overlay-network }
 - { name: ion, wwwpart: [modeemi,tuomov], setname: ion3 }
+- { name: ion, ruleset: exherbo, setname: ion-redox }
+- { name: ion, ruleset: openbsd, setname: ion3 }
 - { name: ion, warning: "please classify me" }
 
 - { name: ipcalc, ruleset: openbsd, setname: ipcalc-pyr }
