@@ -41,6 +41,7 @@
 - { name: intel-microcode,             verpat: ".*really.*",                               incorrect: true, addflag: garbage }
 - { name: intel-microcode,             verpat: "(?:[0-9]\\.)?(20[0-9]{6}a?).*",            setver: "$1", noflag: garbage }
 - { name: io,                          verpat: "20[0-9]{6}",                               incorrect: true } # it's YYYY.MM.DD
+- { name: ion3,                        verpat: "3[^0-9](.*)",                              setver: $1 }
 - { name: ioquake3,                    verpat: "20[0-9]{2}.*",                             ignore: true }
 - { name: iozone,                      verpat: "[0-9]{3}",                                 setver: "3.$0" } # fix confusion between iozone3 ver NNN and iozone ver 3.NNN
 - { name: iputils,                     verpat: "[0-9]{8}\\.[0-9a-f]{7,}",                  ignore: true } # arch: commit id in version
