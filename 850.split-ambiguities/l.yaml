@@ -26,8 +26,7 @@
 
 - { name: libunicode,                  wwwpart: courier, setname: courier-unicode }
 
-- { name: libunwind,                   wwwpart: llvm, setname: llvm-libunwind }
-- { name: libunwind,                   verge: "4", setname: llvm-libunwind }
+- { name: libunwind, wwwpart: llvm, setname: llvm-libunwind }
 
 - { name: libuuid, verpat: "2\\.[0-9]{4}(\\.[0-9]+)?", setname: util-linux, addflavor: libuuid } # part of
 
