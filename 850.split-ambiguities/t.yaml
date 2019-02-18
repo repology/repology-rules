@@ -33,6 +33,11 @@
 
 - { name: tint, category: Graphics, setname: tint-photo-editor }
 - { name: tint, wwwpart: indii, setname: tint-photo-editor }
+- { name: tint, ruleset: exherbo, setname: tint-panel }
+- { name: tint, wwwpart: [frogfoot,packages.debian.org], setname: tint-tetris }
+- { name: tint, ruleset: debuntu, setname: tint-tetris }
+- { name: tint, category: [games,Amusements/Games/Board/Puzzle], setname: tint-tetris }
+- { name: tint, warning: "please classify me" }
 
 # tales of majeyal vs. troubles of middle earth
 - { name: tome, verpat: "1\\..*", setname: tales-of-majeyal }
