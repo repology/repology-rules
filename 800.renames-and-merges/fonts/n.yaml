@@ -69,10 +69,34 @@
 
 - setname: "fonts:nerd-fonts"
   name:
-    - nerdfonts
     - nerd-fonts
-
-- { setname: "fonts:nerd-fonts", namepat: "(:?ttf-)?nerd-fonts-(.*)", addflavor: $1 }
+    - nerd-fonts-bitstream-vera-mono
+    - nerd-fonts-complete
+    - nerd-fonts-complete-mono-glyphs
+    - nerd-fonts-dejavu-complete
+    - nerd-fonts-droid-sans-mono
+    - nerd-fonts-fantasque-sans-mono
+    - nerd-fonts-fira-code
+    - nerd-fonts-fira-mono
+    - nerd-fonts-gabmus
+    - nerd-fonts-git
+    - nerd-fonts-hack
+    - nerd-fonts-inconsolata
+    - nerd-fonts-inconsolata-go
+    - nerd-fonts-iosevka
+    - nerd-fonts-mplus
+    - nerd-fonts-noto-sans-mono
+    - nerd-fonts-noto-sans-regular-complete
+    - nerd-fonts-otf
+    - nerd-fonts-ricty
+    - nerd-fonts-roboto-mono
+    - nerd-fonts-source-code-pro
+    - nerd-fonts-terminus
+    - nerd-fonts-ttf
+    - nerd-fonts-ubuntu-mono
+    - nerdfonts
+    - ttf-nerd-fonts-hack-complete-git
+    - ttf-nerd-fonts-symbols
 
 - setname: "fonts:noto" # probably overmerge, may split later
   name:
