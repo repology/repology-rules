@@ -1,6 +1,11 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
 - { name: e, wwwpart: enlightenment, setname: enlightenment }
+- { name: e, wwwpart: LaPingvino, setname: e-editor }
+- { name: e, wwwpart: apdim, setname: e-expression-evaluator }
+- { name: e, wwwpart: eprover, setname: eprover }
+- { name: e, summpart: prover, setname: eprover }
+- { name: e, warning: "please classify me" }
 
 - { name: ecm, wwwpart: gforge.inria.fr, setname: gmp-ecm }
 - { name: ecm, summpart: "elliptic curve", setname: gmp-ecm }
