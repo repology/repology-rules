@@ -54,8 +54,6 @@
 - { name: kdnssd,                      verpat: "1[6789]\\..*",                             ignore: true }
 - { name: keditbookmarks,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: keepasshttp,                 verpat: ".*20[0-9]{6}",                             ignore: true }
-- { name: kernel,                      ver: "5.0.0",                 ruleset: [aosc,fedora], incorrect: true }
-- { name: kernel,                                                    ruleset: [aosc,fedora], untrusted: true } # accused of fake 5.0.0
 - { name: kexec-tools,                 verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: keybinder,                   verpat: "3\\..*",                                   incorrect: true }
 - { name: kfind,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

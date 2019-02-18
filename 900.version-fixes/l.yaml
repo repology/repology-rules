@@ -28,6 +28,8 @@
 - { name: linenoise,                   verlonger: 2,                 ruleset: nix,         incorrect: true }
 - { name: linkchecker,                 ver: "9.4",                   ruleset: aur,         incorrect: true } # not released
 - { name: linux,                       verpat: ".*20[0-9]{2}.*",                           incorrect: true } # it has clear enough versioning scheme, do not allow snapshots
+- { name: linux,                       ver: "5.0.0",                 ruleset: [aosc,fedora], incorrect: true }
+- { name: linux,                                                     ruleset: [aosc,fedora], untrusted: true } # accused of fake 5.0.0
 - { name: linux-live,                  verpat: "6\\..*",                                   outdated: true } # old scheme from 9 years ago, see #41
 - { name: liquid-dsp,                  verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: litecoin,                    ver: "0.15.0.1",              ruleset: sisyphus,    ignore: true } # it's 0.15.0.1rc1
