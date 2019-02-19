@@ -215,7 +215,13 @@
 - { setname: "python:pyproj",          name: pyproj }
 - { setname: "python:pypubsub",        name: "python:pypubsub3.3.0" }
 - { setname: "python:pyqt4",           name: pyqt4 }
-- { setname: "python:pyqt5",           name: pyqt5 }
+- { setname: "python:pyqt4",           name: "python:qt4" }
+- { setname: "python:pyqt4",           namepat: "python:qt4-(assistant|core|dbus|dbussupport|declarative|demo|designer|designerplugin|doc|docs|gui|help|multimedia|network|opengl|phonon|script|scripttools|sqlsvg|test|webkit|xml|xmlpatterns)", addflavor: $1 }
+- { setname: "python:pyqt5",           name: ["python:qt5",pyqt5,pyqt5-legacy] }
+- { setname: "python:pyqt5",           name: pyqt5-python2, addflavor: python2 }
+- { setname: "python:pyqt5",           name: pyqt5-python3, addflavor: python3 }
+- { setname: "python:pyqt5",           name: "python:pyqt5-common", addflavor: common }
+- { setname: "python:pyqt5",           namepat: "python:qt5-(core|dbus|dbussupport|demo|designer|designerplugin|gui|help|multimedia|multimediawidgets|network|opengl|printsupport|qml|quick|quickwidgets|serialport|sql|svg|test|webchannel|webkit|webkitwidgets|widgets|xml|xmlpatterns)", addflavor: $1 }
 - { setname: "python:pyside",          name: pyside }
 - { setname: "python:pyside",          name: [pyside-qt4,pyside-qt4-py3], addflavor: true }
 - { setname: "python:pyside2",         name: pyside2 }
