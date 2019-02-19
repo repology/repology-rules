@@ -30,6 +30,7 @@
 - { setname: elasticsearch,            namepat: "elasticsearch[0-9]+" }
 - { setname: elbcli,                   name: elb-tools }
 - { setname: electricfence,            name: electric-fence }
+- { setname: electrum,                 name: "python:electrum" }
 - { setname: elftoolchain,             name: libexecinfo, ruleset: ravenports, addflavor: $0 }
 - { setname: elfutils,                 name: elfutils-libelf }
 - { setname: elixir,                   name: elixir-lang }
