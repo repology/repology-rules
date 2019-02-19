@@ -95,7 +95,7 @@
 - { setname: fox,                      namepat: "(?:lib)?fox[0-9.-]*" }
 - { setname: fox,                      name: [adie,calculator], wwwpart: fox-toolkit, addflavor: true } # bundled apps
 - { setname: foxyproxy,                name: xpi-foxyproxy, ruleset: freebsd }
-- { setname: fpc,                      name: [fpc-source,fpc-src] } # part of fossology
+- { setname: fpc,                      name: [fpc-source,fpc-src], addflavor: src }
 - { setname: fpc-modules,              namepat: "fpc-.*", ruleset: freebsd }
 - { setname: fping,                    name: [fping3,fping6] }
 - { setname: fplll,                    name: libfplll }
