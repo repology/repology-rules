@@ -123,4 +123,6 @@
 
 - { name: "python:planet", setname: planet, wwwpart: planetplanet }
 
+- { name: "python:poppler-qt", ruleset: kaos, setname: "python:python-poppler-qt5" }
+
 - { name: "python:tz", wwwpart: pytz, setname: "python:pytz" } # there is tz module, but in most (currently all) cases it misspelled pytz; XXX: problem
