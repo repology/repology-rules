@@ -30,6 +30,8 @@
 - { name: "python:pycha",              ver: "279",                                         ignore: true }
 - { name: "python:pycrypto",           ver: "2.7",                   ruleset: sisyphus,    incorrect: true } # it's 2.7a1
 - { name: "python:pyenet",             verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: "python:pygame",             ver: "1.9.4.post1",           ruleset: debuntu,     incorrect: true }
+- { name: "python:pygame",                                           ruleset: debuntu,     untrusted: true }
 - { name: "python:pygobject",          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: "python:pygobject2",         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: "python:pygobject3",         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
