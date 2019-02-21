@@ -200,9 +200,11 @@
 - { name: nvidia, verlt: "96.44", setname: nvidia-legacy-96.43 }
 - { name: nvidia, verlt: "173.15", setname: nvidia-legacy-173.14 }
 - { name: nvidia, verlt: "305", setname: nvidia-legacy-304 }
-#- { name: nvidia, verlt: "341", setname: nvidia-legacy-340 }
-#- { name: nvidia, verlt: "385", setname: nvidia-384.xx }
-#- { name: nvidia, verpat: "387", setname: nvidia-387.xx }
+- { name: nvidia, verlt: "341", setname: nvidia-legacy-340 }
+- { name: nvidia, verlt: "391", setname: nvidia-legacy-390 }
+- { name: nvidia, verlt: "411", setname: nvidia-long-lived, maintenance: true }
+- { name: nvidia, verlt: "416", setname: nvidia-shord-lived, maintenance: true }
+- { name: nvidia, setname: nvidia-current, maintenance: true }
 # (see http://www.nvidia.com/object/unix.html)
 
 - { name: openjdk,           verpat: "9.*",               setname: openjdk9 }

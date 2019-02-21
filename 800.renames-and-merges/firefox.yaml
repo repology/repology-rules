@@ -1,0 +1,98 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+# ESR
+- { setname: firefox,                  namepat: "firefox-esr[0-9.-]*(-l10n|-i18n|-gtk2|-privacy|-unwrapped)*", addflavor: $1 }
+- { setname: firefox,                  namepat: "firefox[0-9.-]*-esr" }
+- { setname: firefox,                  namepat: "firefox-esr-(i18n-.*)", addflavor: $1 }
+
+- setname: firefox
+  name:
+    - firefox-esr-bin-zh-cn
+    - firefox-esr-pt-br
+    - firefox-esr-zh-cn
+    - bin32-firefox-esr52
+  addflavor: true
+
+# Normal
+- { setname: firefox,                  name: [mozilla-firefox,mozillafirefox] }
+- { setname: firefox,                  namepat: "firefox[0-9.-]*" }
+- { setname: firefox,                  namepat: "(?:mozilla-?)?firefox[0-9.-]*((?:i18n|l10n|langpack).*)", addflavor: $1 }
+
+- setname: firefox
+  name:
+    - bin32-firefox
+    - bin32-firefox-i18n
+    - fedora-firefox-wayland
+    - firefox-bin
+    - firefox-eme-free
+    - firefox-i18n
+    - firefox-kde-opensuse
+    - firefox-l10n
+    - firefox-langpack
+    - firefox-locales
+    - firefox-official
+    - firefox-official-de
+    - firefox-official-es
+    - firefox-official-fr
+    - firefox-official-it
+    - firefox-official-pt-br
+    - firefox-official-ru
+    - firefox-official-uk
+    - firefox-release-bin-unwrapped
+    - firefox-ru
+    - firefox-ubuntu
+    - firefox-uk
+    - firefox-unbranded
+    - firefox-unwrapped
+    - firefox-wayland
+    - firefox-zh
+    - mozilla-firefox-bin
+    - rustless-firefox
+  addflavor: true
+
+# Developer
+- { setname: firefox,                  namepat: "firefox-developer(.*)", addflavor: $1, weak_devel: true }
+- { setname: firefox,                  namepat: "firefox-developer-edition(.*)", addflavor: $1, weak_devel: true }
+
+- setname: firefox
+  name:
+    - firefox-devedition-bin
+    - firefox-devedition-bin-unwrapped
+  addflavor: true
+  weak_devel: true
+
+# Beta
+- { setname: firefox,                  name: [firefox-beta], weak_devel: true }
+- { setname: firefox,                  namepat: "firefox-beta-(i18n-.*)", addflavor: $1, weak_devel: true }
+
+- setname: firefox
+  name:
+    - firefox-beta-bin
+    - firefox-beta-bin-all-localizations
+    - firefox-beta-bin-unwrapped
+    - firefox-beta-hardened
+    - firefox-beta-i18n
+    - firefox-kde-opensuse-beta
+  addflavor: true
+  weak_devel: true
+
+# Nighly
+- { setname: firefox,                  name: [firefox-nightly], rolling: true }
+
+- setname: firefox
+  name:
+    - firefox-nightly-de
+    - firefox-nightly-en-gb
+    - firefox-nightly-eo
+    - firefox-nightly-es-es
+    - firefox-nightly-es-mx
+    - firefox-nightly-fr
+    - firefox-nightly-i18n
+    - firefox-nightly-it
+    - firefox-nightly-ja
+    - firefox-nightly-pt-br
+    - firefox-nightly-ru
+    - firefox-nightly-zh-cn
+    - firefox-nightly-zh-tw
+  addflavor: true
+  rolling: true
