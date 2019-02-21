@@ -1,6 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { name: [0ad,0ad-data,"0 a.d."],     verpat: "(?:0\\.0\\.|a|[Aa]lpha ?)([0-9]+)b?(?:[-_]alpha| .+)?", setver: "alpha $1" }
+- { name: [0ad,0ad-data,"0 a.d."],     verpat: "(?:0\\.0\\.|a|[Aa]lpha ?)([0-9]+b?)(?:[-_]alpha| .+)?", setver: "alpha $1" }
 - { name: [0ad,0ad-data],              verpat: "a23.1",                                    setver: "alpha 23b" }
 - { name: [0ad,0ad-data],              verpat: "[^a].*",                                   ignore: true }
 - { name: [0ad,0ad-data],              ver: "0.0.23.1",                                    incorrect: true }
