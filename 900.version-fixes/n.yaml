@@ -64,5 +64,6 @@
 - { name: nv-codec-headers,            ver: "8.2.15.7",              ruleset: slackbuilds, incorrect: true }
 - { name: nv-codec-headers,                                          ruleset: slackbuilds, untrusted: true } # accused of fake 8.2.15.7
 - { name: nvclock,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: nvidia,                      verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: nvidiabl,                    verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: nzbget,                      verpat: ".*r.*",                                    snapshot: true } # 20.0r<rev> and 20.0pre<rev> garbage
