@@ -56,6 +56,8 @@
 - { name: fltk,                        ver: "2.0.0",                                       incorrect: true } # never released, see https://github.com/repology/repology/issues/569
 - { name: fltk,                        verpat: ".*[rx].*",                                 ignore: true } # snapshots
 - { name: fltk,                        verpat: "2\\..*",                                   ignore: true } # snapshots
+- { name: fltk,                        ver: "1.3.5",                 ruleset: sisyphus,    incorrect: true }
+- { name: fltk,                                                      ruleset: sisyphus,    untrusted: true } # accused of fake 1.3.5
 - { name: flvstreamer,                 ver: "2.1.c.1",                                     setver: "2.1c1" }
 - { name: flvstreamer,                 ver: "2.1c",                                        setver: "2.1c0" }
 - { name: flvstreamer,                 ver: "2.1",                   ruleset: pisi,        incorrect: true } # 2.1c1
