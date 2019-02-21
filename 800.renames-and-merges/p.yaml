@@ -148,6 +148,8 @@
 - { setname: powershell,               name: pwsh }
 - { setname: powertop,                 name: [powertop-1.13,powertop1] }
 - { setname: ppsspp,                   name: [ppsspp-ex,ppsspp-headless,ppsspp-qt,ppsspp-qt5], addflavor: true }
+- { setname: ppsspp,                   name: ppsspp-devel, weak_devel: true }
+- { setname: ppsspp,                   name: ppsspp-qt5-devel, addflavor: qt5, weak_devel: true }
 - { setname: pptpd,                    name: [bcrelay,poptop,poptop-man,pptpd-server], addflavor: true }
 - { setname: presto,                   name: presto-cli }
 - { setname: printproto,               name: xprintproto }
