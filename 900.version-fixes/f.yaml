@@ -87,6 +87,7 @@
 - { name: "fonts:raleway",             ver: "0.0.2016830",                                 snapshot: true } # irregular 7 digit dated snapshot
 - { name: "fonts:raleway",             verge: "4.0",                                       devel: true }  # 4.x series is still only an unreleased partial port to Glyphs
 - { name: "fonts:ubuntu",              ver: "1.0",                   ruleset: pclinuxos,   ignore: true } # no such version on the website
+- { name: "fonts:wqy-microhei",        verpat: "(.*?)[^0-9]?beta",                         setver: $1 }
 - { name: fonttosfnt,                  ver: "1.0.5",                 ruleset: opensuse,    incorrect: true }
 - { name: fonttosfnt,                                                ruleset: opensuse,    untrusted: true }
 - { name: foobillard++,                verpat: "3\\.43.*",           ruleset: slackbuilds, incorrect: true }
