@@ -128,6 +128,7 @@
 - { name: spidermonkey,                ver: ["1.7.0","1.8.5","17.0.0"],                    legacy: true } # needed for some software; see https://github.com/repology/repology/issues/550
 - { name: spidermonkey,                ver: "52.8.1",                ruleset: openmandriva, incorrect: true }
 - { name: spidermonkey,                                              ruleset: openmandriva, untrusted: true }
+- { name: spirv-tools,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: spl,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]+-4.*",             incorrect: true } # nix appends kernel version
 - { name: splitvt,                     ver: "1.6.6_6",                                     incorrect: true } # sisyphus
 - { name: splix,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
