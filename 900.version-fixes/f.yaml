@@ -63,6 +63,7 @@
 - { name: flvstreamer,                 ver: "2.1",                   ruleset: pisi,        incorrect: true } # 2.1c1
 - { name: flvstreamer,                                               ruleset: pisi,        untrusted: true } # accused of fake 2.1
 - { name: fontconfig,                  verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
+- { name: "fonts:adobe-source-sans-pro", verpat: "20[0-9]{6}",                             snapshot: true }
 - { name: "fonts:allerta",                                                                 noscheme: true }
 - { name: "fonts:b612",                ver: "1.005",                 ruleset: freebsd,     incorrect: true }
 - { name: "fonts:b612",                                              ruleset: freebsd,     untrusted: true }
