@@ -50,6 +50,7 @@
 - { name: xmove,                                                     ruleset: sisyphus,    untrusted: true } # accused of fake 2.0
 - { name: xmrig,                       ver: "2.6.0",                 ruleset: [sisyphus,aur], incorrect: true } # beta3
 - { name: xmrig,                                                     ruleset: [sisyphus,aur], untrusted: true } # accused of fake 2.6.0
+- { name: xnp2,                        verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: xombrero,                    verlonger: 3,                 ruleset: slitaz,      incorrect: true }
 - { name: xorg-server,                 verlonger: 3,                 ruleset: crux,        ignore: true } # bogus suffux
 - { name: xorg-server,                 verpat: "[0-9]+\\.[0-9]+\\.99.*",                   devel: true }
