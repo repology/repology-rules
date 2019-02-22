@@ -67,6 +67,8 @@
 - { name: lsscsi,                      ver: "0.29",                  ruleset: opensuse,    incorrect: true } # fake
 - { name: ltunify,                     verpat: "20[0-9]{6}",                               ignore: true }
 - { name: lua,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]+[.-].*",           incorrect: true } # scoop, chocolatey
+- { name: "lua:bitop",                 verpat: ".*-.*",                                    successor: true } # luarocks fork
+- { name: "lua:lgi",                   verpat: ".*-.*",                                    successor: true } # luarocks fork
 - { name: "lua:mosquitto",             verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "lua:openssl",               verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "lua:openssl",               verge: "20000000", verlt: "20180804",               outdated: true, disposable: true } # 0.7.3 from 2018-08-04
