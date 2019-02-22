@@ -112,7 +112,7 @@
 - { name: print-manager,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: printrun,                    verpat: "20[0-9.]{6}",                              snapshot: true }
 - { name: printrun,                    verpat: "201[45].*",                                outdated: true } # 1.6.0, 2.0.0rc from 2017, 2018
-- { name: printrun,                    verpat: ".*[0-9]{10}.*",                            incorrcet: true } # opensuse unixtime nonsense
+- { name: printrun,                    verpat: ".*[0-9]{10}.*",                            incorrect: true } # opensuse unixtime nonsense
 - { name: processing,                  verpat: "[0-9]{4}.*",                               incorrect: true } # gobolinux garbage
 - { name: procmail,                    verpat: "[0-9]+",                                   incorrect: true } # homebrew
 - { name: progsreiserfs,               ver: "0.3.1",                 ruleset: pld,         incorrect: true }
