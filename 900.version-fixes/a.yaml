@@ -26,6 +26,7 @@
 - { name: ag,                          verlonger: 3,                                       ignore: true } # windows-only
 - { name: agda-stdlib,                 verlonger: 2,                 ruleset: gentoo,      incorrect: true } # documented broken versioning (other project's version is prepended)
 - { name: agedu,                       verpat: "(20[0-9]{6})\\.[0-9a-f]{7}",               setver: $1 } # remove commit hashes and revisions (upstream problem)
+- { name: agg,                         verpat: ".*r.*",                                    snapshot: true } # debian
 - { name: aircrack-ng,                 ver: "1.2",                   ruleset: [ fedora, debuntu, gentoo, mageia, openwrt, rosa ], ignore: true }
 - { name: airspy,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: airspy,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true }
