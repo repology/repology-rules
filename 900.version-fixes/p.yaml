@@ -72,6 +72,7 @@
 - { name: plowshare-modules,                                                               noscheme: true } # no official releases
 - { name: pluma,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ply,                                                                             noscheme: true } # https://github.com/iovisor/ply/releases
+- { name: plymouth,                                                  ruleset: antergos,    ignore: true } # XXX: plymouth-theme-antergosm with different version, but base plymouth, no way to split!
 - { name: pmount,                      ver: "0.9.99",                                      setver: "0.9.99_alpha" }
 - { name: pmount,                      verpat: "0\\.9\\.99.*",                             devel: true }
 - { name: pmw,                         verpat: "[0-9]+\\.[0-9]{3}",                        incorrect: true } # #693
