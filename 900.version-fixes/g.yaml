@@ -161,6 +161,7 @@
 - { name: gsettings-qt,                                                                    noscheme: true }
 - { name: gsfonts,                                                                         noscheme: true } # packages refer to ghostscript.com which says fonts have been merged with ghostscript; otherwise, it's http://git.ghostscript.com/?p=urw-core35-fonts.git with (no tags) https://github.com/ArtifexSoftware/urw-base35-fonts (not sure how this is related)
 - { name: gsmlib,                                                                          noscheme: true }
+- { name: gst-python,                  verpat: "1\\.[0-9]*[13579]\\..*",                   devel: true }
 - { namepat: "gstreamer1plugins:.*",   verpat: "1\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: "gstreamer1plugins:bad",     ver: "1.14.12",               ruleset: parabola,    incorrect: true }
 - { name: "gstreamer1plugins:bad",                                   ruleset: parabola,    untrusted: true }
