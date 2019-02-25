@@ -29,6 +29,8 @@
 - { setname: vim-spell,                namepat: "vim-spell-.*", ruleset: [openbsd,gentoo,arch] }
 - { setname: vint,                     name: "python:vint" }
 - { setname: vint,                     name: vim-vint }
+- { setname: vips,                     name: libvips }
+- { setname: vips,                     name: vips-8.6.5 }
 - { setname: virglrenderer,            name: libvirglrenderer }
 - { setname: virtualbox,               namepat: "virtualbox(?:-ose)?-(additions|kmod)", addflavor: true }
 - { setname: virtualbox,               namepat: "(linux[0-9]+)(-rt)?-virtualbox(-guest|-host)?-modules", addflavor: true }
