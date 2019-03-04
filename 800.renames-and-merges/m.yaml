@@ -188,6 +188,7 @@
 - { setname: munin,                    namepat: munin-(master|node|server|common), addflavor: $1 }
 - { setname: muparser,                 namepat: "libmuparser[0-9.-]*" }
 - { setname: mupdf,                    name: [libmupdf,mupdf-nojs,mupdf-seccomp,mupdf-tools], addflavor: true }
+- { setname: musescore,                name: [musescore-dev,musescore-snapshot], weak_devel: true }
 - { setname: musl-rpmatch,             name: rpmatch-standalone }
 - { setname: mutt,                     name: mutt-devel, weak_devel: true }
 - { setname: mutt,                     name: [mutt-lite,mutt14,mutt14-lite,mutt-patched,mutt-slang,mutt-kiss] }
