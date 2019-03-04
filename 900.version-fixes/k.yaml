@@ -71,6 +71,8 @@
 - { name: kholidays,                   ver: "5.54.0",                ruleset: [kaos,openmandriva], incorrect: true } # 5.54.0-rc1
 - { name: kholidays,                                                 ruleset: [kaos,openmandriva], untrusted: true } # accused of fake 5.54.0
 - { name: kicad,                       verpat: "20[0-9][0-9].*",                           ignore: true }
+- { name: kicad-docs,                  verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: kicad-docs,                  ver: "20100505",                                    outdated: true, disposable: true } # openbsd
 - { name: kicad-library,               verpat: "20[0-9][0-9].*",                           ignore: true }
 - { name: kidentitymanagement,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kig,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

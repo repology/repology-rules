@@ -21,6 +21,18 @@
 - { setname: keystone,                 name: "python:keystone" }
 - { setname: kibana,                   name: kibana-bin }
 - { setname: kibana,                   namepat: "kibana[0-9]+" }
+- { setname: kicad,                    name: kicad-devel, weak_devel: true }
+- { setname: kicad,                    name: kicad-rc, weak_devel: true }
+- { setname: kicad-doc,                name: kicad-docs }
+- { setname: kicad-footprints,         name: kicad-library-footprints }
+- { setname: kicad-footprints,         name: kicad-library-footprints-devel, weak_devel: true }
+- { setname: kicad-library,            name: kicad-lib }
+- { setname: kicad-packages3d,         name: kicad-library-packages3d }
+- { setname: kicad-packages3d,         name: kicad-library-packages3d-devel, weak_devel: true }
+- { setname: kicad-symbols,            name: kicad-library-symbols }
+- { setname: kicad-symbols,            name: kicad-library-symbols-devel, weak_devel: true }
+- { setname: kicad-templates,          name: kicad-library-tmpl }
+- { setname: kicad-templates,          name: kicad-library-tmpl-devel, weak_devel: true }
 - { setname: kid3,                     name: [kid3-qt,kid3-qt4,kid3-qt5,kid4-qt,kid3-cli] }
 - { setname: kiki,                     name: kiki-the-nano-bot }
 - { setname: kipi-plugins,             namepat: "kipi-plugin-.*", ruleset: freebsd }
