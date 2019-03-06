@@ -36,6 +36,7 @@
 - { name: remmina,                     verpat: "(.*?)([^0-9]*r[^0-9]*)(.*?)",              setver: "$1-rcgit.$3", devel: true, ignore: false } # r, rc, rcgit, etc.
 - { name: remmina,                     ver: "1.2.0",                 ruleset: [alpine,sisyphus,debuntu,rosa], incorrect: true } # liars, it's at 1.2.0-rcgit.XX stage
 - { name: remmina,                                                   ruleset: [alpine,sisyphus,debuntu,rosa], untrusted: true } # liars
+- { name: remotery,                                                                        noscheme: true }
 - { name: reptyr,                      ver: "0.6.3a",                ruleset: freebsd,     incorrect: true } # fake, no such tag
 - { name: riak,                        ver: "2.2.5",                 ruleset: openbsd,     incorrect: true } # no mention on the web site, seems fake
 - { name: rinetd,                      ver: "0.62.1sam",                                   ignore: true } # debian garbage
