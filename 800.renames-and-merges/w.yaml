@@ -48,7 +48,7 @@
 - { setname: wireguard,                name: [wg,wireguard-vanilla] }
 - { setname: wireless-regdb,           name: wireless-regdb-pentest, addflavor: pentest }
 - { setname: wireshark,                name: [wireshark-cli,wireshark-common,wireshark-gtk,wireshark-gtk2,wireshark-headers,wireshark-lite,wireshark-qt,wireshark-qt5,tshark,tshark-lite], addflavor: true }
-- { setname: wireshark,                name: [wireshark2,wireshark22] }
+- { setname: wireshark,                namepat: "wireshark[0-9.-]+" }
 - { setname: wirouterkeyrec,           name: wirouter-keyrec }
 - { setname: wise2,                    name: genewise } # XXX: problem?
 - { setname: wiznote,                  name: wiznote-qt4, addflavor: true }
