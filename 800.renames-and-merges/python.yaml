@@ -25,6 +25,8 @@
 - { setname: "python:boto3",           name: boto3 }
 - { setname: "python:bottleneck",      name: bottleneck } # XXX: make upstream use prefix
 - { setname: "python:box2d",           name: ["python:pybox2d", pybox2d] }
+- { setname: "python:cairocffi",       name: cairocffi }
+- { setname: "python:cairosvg",        name: cairosvg }
 - { setname: "python:cartopy",         name: cartopy }
 - { setname: "python:cherrypy",        name: "python:cherrypy-old" }
 - { setname: "python:cherrypy",        name: "python:cherrypy2" }
@@ -174,6 +176,8 @@
 - { setname: "python:pybind11",        name: pybind11 }
 - { setname: "python:pybtex",          name: pybtex }
 - { setname: "python:pybtex-docutils", name: pybtex-docutils }
+- { setname: "python:pycairo",         name: [py2cairo, py3cairo], addflavor: true }
+- { setname: "python:pycairo",         name: [pycairo, "python:cairo" ] }
 - { setname: "python:pycassa",         name: pycassa }
 - { setname: "python:pycha",           name: pycha }
 - { setname: "python:pychart",         name: pychart }
