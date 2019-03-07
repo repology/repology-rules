@@ -252,17 +252,6 @@
     ktnef|
     ktorrent|
     ktouch|
-    ktp-accounts-kcm|
-    ktp-approver|
-    ktp-auth-handler|
-    ktp-common-internals|
-    ktp-contact-list|
-    ktp-contact-runner|
-    ktp-desktop-applets|
-    ktp-filetransfer-handler|
-    ktp-kded-module|
-    ktp-send-file|
-    ktp-text-ui|
     ktuberling|
     kturtle|
     kubrick|
@@ -328,6 +317,8 @@
     yakuake
     )(?:4|5|-kde4|-kde5|-kf5|-light|-qt5)?
   setname: "$1"
+
+- { setname: ktp-$1,                   namepat: "(?:telepathy-kde|kde4-ktp|kde5-ktp)-(.*)" }
 
 # KDE has a project awry called "wacomtablet", so some distributions add kcm- prefix
 # to the package (KDE Config Module), since it's not obvious that it belongs to KDE
