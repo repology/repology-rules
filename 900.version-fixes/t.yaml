@@ -65,7 +65,6 @@
 - { name: tk,                          verpat: ".*a[0-9]+",                                devel: true }
 - { name: tk,                          verpat: "[0-9]+\\.[0-9]+\\.0\\.?a.*",               incorrect: true } # it's X.YaZ, not X.Y.0aZ
 - { name: tmfs,                        verpat: "r([.0-9]+)",                               setver: "$1" }
-- { name: tmux,                        ver: "2.8",                                         devel: true, disposable: true } # marked as 2.8-rc, tag 2.8
 - { name: tolua++,                     ver: "1.0.94",                ruleset: maemo,       ignore: true }
 - { name: tomahawk,                    verpat: "0\\.8\\.99.*",                             ignore: true } # fake
 - { name: tome2,                       ver: "235",                                         incorrect: true }
