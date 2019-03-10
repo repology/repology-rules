@@ -62,6 +62,8 @@
 - { name: gmrun,                       verge: "0.9.4",                                     successor: true } # https://github.com/wdlkmpx/gmrun
 - { name: gnash,                       ver: "0.8.11",                ruleset: debuntu,     ignore: true } # not released yet
 - { name: gnat-util-gcc,               verpat: "20[0-9]{6}",                               ignore: true }
+- { name: gnome-2048,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-activity-journal,      verpat: ".*is.really.*",                            incorrect: true }
 - { name: gnome-backgrounds,           verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-bluetooth,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-boxes,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -77,6 +79,7 @@
 - { name: gnome-disk-utility,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-documents,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-games,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-getting-started-docs,  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-initial-setup,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-js-common,             verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: gnome-keyring,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -92,6 +95,7 @@
 - { name: gnome-online-accounts,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-online-miners,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-photos,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-pilot,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-robots,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-session,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-settings-daemon,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -103,6 +107,7 @@
 - { name: gnome-software,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-sound-recorder,        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-sudoku,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-system-log,            verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: gnome-system-monitor,        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-taquin,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-terminal,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
