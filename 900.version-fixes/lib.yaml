@@ -17,6 +17,8 @@
 - { name: libburn,                     ver: "1.4.9",                 ruleset: sisyphus,    incorrect: true }
 - { name: libburn,                                                   ruleset: sisyphus,    untrusted: true }
 - { name: libc++,                      verpat: "[0-9]{2}",                                 outdated: true }
+- { name: libc++,                      ver: "19b",                                         incorrect: true } # wtf?
+- { name: libc++,                                                    ruleset: termux,      untrusted: true } # accused of fake 19b
 - { name: libcaca,                     ver: "0.99",                                        untrusted: true } # more and more fakes come up
 - { name: libcaca,                     ver: "0.99", ruleset: [sisyphus,pclinuxos,mageia,openmandriva,pld], incorrect: true } # it's 0.99.betaX!
 - { name: libcaca,                                  ruleset: [sisyphus,pclinuxos,mageia,openmandriva,pld], untrusted: true }
