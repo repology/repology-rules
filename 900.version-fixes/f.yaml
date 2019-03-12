@@ -45,6 +45,7 @@
 - { name: flare,                       ver: "15.1",                                        ignore: true } # actually old 0.15
 - { name: flatpak,                     ver: "0.10.3.1",              ruleset: deepin,      incorrect: true } # fake
 - { name: flatpak,                                                   ruleset: deepin,      untrusted: true }
+- { name: flatpak,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed; https://github.com/flatpak/flatpak/releases
 - { name: flight-of-the-amazon-queen,  verpat: "20[0-9]{6}",                               ignore: true }
 - { name: flint,                       verpat: ".*[0-9]{4}",                               incorrect: true } # opensuse garbage
 - { name: flintqs,                     ver: "20070817",                                    outdated: true }
