@@ -14,7 +14,7 @@
   addflavor: true
 
 # Normal
-- { setname: firefox,                  name: [mozilla-firefox,mozillafirefox,firefox-rustless] }
+- { setname: firefox,                  name: [mozilla-firefox,mozillafirefox,rustless-firefox] }
 - { setname: firefox,                  namepat: "firefox[0-9.-]*" }
 - { setname: firefox,                  namepat: "(?:mozilla-?)?firefox[0-9.-]*((?:i18n|l10n|langpack).*)", addflavor: $1 }
 
