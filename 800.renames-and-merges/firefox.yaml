@@ -2,15 +2,16 @@
 
 # ESR
 - { setname: firefox,                  namepat: "firefox-esr[0-9.-]*(-l10n|-i18n|-gtk2|-privacy|-unwrapped)*", addflavor: $1 }
-- { setname: firefox,                  namepat: "firefox[0-9.-]*-esr" }
+- { setname: firefox,                  namepat: "firefox[0-9.-]*esr" }
 - { setname: firefox,                  namepat: "firefox-esr-(i18n-.*)", addflavor: $1 }
 
 - setname: firefox
   name:
+    - bin32-firefox-esr52
     - firefox-esr-bin-zh-cn
+    - firefox-esr-l10n-xpi
     - firefox-esr-pt-br
     - firefox-esr-zh-cn
-    - bin32-firefox-esr52
   addflavor: true
 
 # Normal
