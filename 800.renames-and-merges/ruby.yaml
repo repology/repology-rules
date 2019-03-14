@@ -1,6 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { namepat: "(ruby:.*)-rails(?:5|50)", setname: "$1", ruleset: freebsd }
+- { namepat: "(ruby:.*)-rails(?:4|5|50)", setname: "$1", ruleset: freebsd }
 
 - namepat: |
     (ruby:(?:
