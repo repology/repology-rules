@@ -23,7 +23,6 @@
 - { name: tcptrack,                    wwwpart: bchretien,                                 successor: true } # fork
 - { name: tcsh,                        verpat: "20[0-9]{6}",                               snapshot: true } # solus 20170131 is likely based on cvs2git meaningless snapshot: https://github.com/tcsh-org/tcsh/releases
 - { name: tdb,                         ver: "3.6.0",                                       incorrect: true } # pclinuxos wtf; https://www.samba.org/ftp/tdb/
-- { name: teem,                        ver: "1.12.0",                ruleset: debuntu,     ignore: true }
 - { name: telegram-cli,                verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: telegram-cli,                ver: "1.4.1",                 ruleset: slackbuilds, incorrect: true }
 - { name: telegram-cli,                                              ruleset: slackbuilds, untrusted: true }
