@@ -59,6 +59,8 @@
 - { name: orca,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: osm-gps-map,                 verpat: "r.*",                                      snapshot: true }
 - { name: osquery,                     ver: "3.0.0",                                       devel: true }
+- { name: otter-browser,               ver: "1.1.0",                 ruleset: rosa,        incorrect: true }
+- { name: otter-browser,                                             ruleset: rosa,        untrusted: true } # accused of fake 1.1.0
 - { name: owamp,                       ver: "3.5.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: owamp,                                                     ruleset: sisyphus,    untrusted: true }
 - { name: owfs,                                                                            p_is_patch: true }
