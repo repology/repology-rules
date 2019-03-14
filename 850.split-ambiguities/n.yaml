@@ -12,6 +12,9 @@
 # another is `nice editor`, but I don't feel like renaming it as it's `ne` everywhere
 - { name: ne, wwwpart: wordprocessing/unix/ne, setname: ne-cam }
 
+- { name: nemesis, wwwpart: exodus, setname: exodusii } # part of?
+# otherwise command-line network packet crafting and injection utility
+
 - { name: netcat, verpat: "0\\..*", setname: gnu-netcat }
 - { name: netcat, verpat: "1\\.[0-9]{2,3}", verge: "1.80", setname: netcat-openbsd }
 - { name: netcat, verpat: "1\\.[0-9]{2}", setname: netcat-traditional }
