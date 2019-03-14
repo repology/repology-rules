@@ -131,6 +131,7 @@
 - { name: public-suffix-list,                                                              noscheme: true } # https://github.com/publicsuffix/list/releases
 - { name: pulseaudio-alsa,                                                                 noscheme: true } # just some versionless config for pulseaudio
 - { name: pulseaudio-equalizer,        ver: "2.7.0.2",                                     incorrect: true }
+- { name: pup,                         verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: purple-facebook,             ver: "20170608",                                    outdated: true }
 - { name: purple-facebook,             verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: purple-facebook,             verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)[._-][a-f0-9]{12}", setver: $1 } # not sure what the hash is
