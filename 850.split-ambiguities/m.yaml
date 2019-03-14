@@ -77,6 +77,13 @@
 - { name: mpd, warning: "please classify me" } # nothing should be left here
 - { name: musicpd, setname: mpd } # still use more canonical name
 
+- { name: mtree, wwwpart: deis.unibo.it, setname: m-tree }
+- { name: mtree, wwwpart: archiecobbs, setname: mtree-port }
+- { name: mtree, wwwpart: netbsd, setname: mtree-netbsd }
+- { name: mtree, ruleset: ravenports, setname: mtree-dragonfly }
+- { name: mtree, ruleset: sisyphus, setname: mtree-sisyphus } # source unknown, lazy to investigate
+- { name: mtree, warning: "please classify me" }
+
 - { name: mustache, category: [Development/Ruby, ruby], setname: "ruby:mustache" }
 
 - { name: mp3check, wwwpart: icculus, setname: mp3check-icculus }
