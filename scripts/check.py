@@ -104,6 +104,7 @@ rulesets = families + [
     'deepin',
     'epel',
     'frugalware',
+    'funtoo',
     'hyperbola',
     'maemo',
     'manjaro',
