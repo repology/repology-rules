@@ -58,6 +58,8 @@
 - { name: xorriso,                     ver: "1.5.1",                                       devel: true } # https://www.gnu.org/software/xorriso/ / Development snapshot
 - { name: xournal,                     ver: "4.7",                                         outdated: true }
 - { name: xpdf,                        ver: "4.02",                  ruleset: freebsd,     incorrect: true }
+- { name: xproto,                      ver: "7.0.32",                ruleset: funtoo,      incorrect: true }
+- { name: xproto,                                                    ruleset: funtoo,      untrusted: true }
 - { name: xsel,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: xsettingsd,                  ver: "1.0.0.2",               ruleset: freebsd,     incorrect: true }
 - { name: xsettingsd,                                                ruleset: freebsd,     untrusted: true } # accused of fake 1.0.0.2
