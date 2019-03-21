@@ -10,6 +10,10 @@
 
 - { name: jade,                        wwwpart: jade.cselt.it, setname: jade-java }
 
+- { name: jail, wwwpart: x.org, setname: jail-mouse }
+- { name: jail, wwwpart: spiculator, setname: jail-chroot-builder }
+- { name: jail, warning: "please classify me" }
+
 - { name: jellyfish, wwwpart: [genome,cbcb.umd.edu], setname: jellyfish-k-mer }
 - { name: jellyfish, wwwpart: [jamesturk], setname: "python:jellyfish" }
 - { name: jellyfish, warning: "please classify me" }
