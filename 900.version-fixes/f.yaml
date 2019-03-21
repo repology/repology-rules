@@ -135,7 +135,8 @@
 - { name: frozen-bubble,               ver: "2.2.1_1",               ruleset: solus,       incorrect: true } # 2.2.1beta1
 - { name: frozen-bubble,                                             ruleset: solus,       untrusted: true } # accused of fake 2.2.1_1
 - { name: [fs-uae,fs-uae-arcade,fs-uae-launcher], verpat: "([0-9.]+)-p([0-9]+)", ruleset: exherbo, setver: $1dev$2 }
-- { name: fs-utils,                    ver: "20130701",                                    ignore: true } # it's 1.0
+- { name: fs-utils,                    ver: "20130701",                                    outdated: true } # it's 1.0, while 1.1 was released later
+- { name: fs-utils,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: fskbsetting,                 ver: "0.5.3.1",               ruleset: antix,       incorrect: true }
 - { name: fskbsetting,                                               ruleset: antix,       untrusted: true }
 - { name: fstrcmp,                     verpat: "[0-9]+\\.[0-9]+",                          setver: $0.D001 } # assumed
