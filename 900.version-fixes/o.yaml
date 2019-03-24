@@ -55,6 +55,7 @@
 - { name: opentracker,                                                                     noscheme: true }
 - { name: openuniverse,                ver: "1.0beta3.1",                                  incorrect: true } # debian garbage
 - { name: openxcom,                    verpat: ".*201[789].*",                             snapshot: true } # git snapshots
+- { name: openxcom,                    verpat: ".*[0-9]{10}.*",                            snapshot: true } # opensuse games, totally braindead
 - { name: orbit2,                      ver: "2.14.20",               ruleset: sisyphus,    incorrect: true } # alt fake
 - { name: orca,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: osm-gps-map,                 verpat: "r.*",                                      snapshot: true }
