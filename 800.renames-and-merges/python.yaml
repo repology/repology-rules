@@ -80,6 +80,8 @@
 - { setname: "python:graph-tool",      name: "python:python3.6-graph-tool", addflavor: python-3.6 }
 - { setname: "python:graph-tool",      name: graph-tool }
 - { setname: "python:grokmirror",      name: grokmirror }
+- { setname: "python:h5py",            name: h5py }
+- { setname: "python:h5py",            name: "python:h5py-openmpi", addflavor: true }
 - { setname: "python:hg-git",          name: hg-git }
 - { setname: "python:hgsubversion",    name: hgsubversion }
 - { setname: "python:hvac",            name: hvac }
