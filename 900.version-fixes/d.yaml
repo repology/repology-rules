@@ -53,6 +53,8 @@
 - { name: dnrd,                                                      ruleset: aix,         untrusted: true }
 - { name: dnscap,                      verpat: "[0-9]{3,}",                                ignore: true }
 - { name: dnsmasq,                     verpat: ".*test.*",                                 devel: true }
+- { name: dnssec-root,                 ver: "20190225",                                    incorrect: true } # alpine
+- { name: dnssec-root,                                               ruleset: alpine,      untrusted: true } # uses date the package was updated instead of official publication date from https://www.iana.org/dnssec/files
 - { name: dnstop,                                                                          noscheme: true }
 - { name: doas,                                                                            p_is_patch: true }
 - { name: doas,                        verpat: "6.0p[0-9]+",                               successor: true }
