@@ -5,6 +5,7 @@
 - { name: hardinfo,                    ver: "0.6",                   ruleset: sisyphus,    incorrect: true }
 - { name: hardinfo,                                                  ruleset: sisyphus,    untrusted: true }
 - { name: "haskell:pandoc-citeproc",                                 ruleset: aur,         incorrect: true } # it's actually pandoc, not pandoc-cityproc
+- { name: "haskell:stack",             ver: "9.9.9",                                       ignore: true } # http://hackage.haskell.org/package/stack/preferred, see also https://github.com/repology/repology/issues/838
 - { name: haxe,                        verpat: "4\\..*",             ruleset: freshcode,   ignore: true } # there's no 4.0.0
 - { name: hddtemp,                     ver: "0.3",                   ruleset: [sisyphus,mageia,openmandriva,pld,pclinuxos], incorrect: true } # 0.3beta15
 - { name: hddtemp,                     verpat: ".*(52|53)",                                incorrect: true } # 0.3beta15
