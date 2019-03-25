@@ -14,6 +14,7 @@
 - { name: passwordsafe,                verpat: "([0-9]+\\.[0-9]+)[_.-]?beta",              setver: $1 } # all linux versions are equally beta, no need for suffixes: https://sourceforge.net/projects/passwordsafe/files/Linux-BETA/
 - { name: passwordsafe,                                                                    devel: false } # since all linux versions are equally beta, no need to distinguish devel versions
 - { name: passwordsafe,                verge: "3",                                         ignore: true } # windows versions
+- { name: patch,                       verpat: ".*[.-][0-9a-f]{4}",                        incorrect: true } # crux and sisyphus garbage
 - { name: patchage,                    ver: "1.0.1",                 ruleset: nix,         incorrect: true }
 - { name: patchage,                                                  ruleset: nix,         untrusted: true } # accused of fake 1.0.1
 - { name: patchelf,                    verpat: ".*pre.*",                                  snapshot: true } # nix
