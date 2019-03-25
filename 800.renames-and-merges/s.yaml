@@ -174,10 +174,10 @@
 - { setname: st-term,                  name: stterm }
 - { setname: st-term,                  name: [st-n1,st-patched,st-scrollback,st-solarized,st-solarized-powerline,st-tomorrownight,st-white], addflavor: true }
 - { setname: stack,                    name: stack-static, addflavor: true }
-- { setname: staruml,                  name: staruml-bin, addflavor: bin }
+- { setname: staruml,                  name: staruml-bin, addflavor: true }
 - { setname: staruml,                  name: staruml2 }
 - { setname: steak,                    name: xsteak }
-- { setname: stellarium,               name: stellarium-qt4 }
+- { setname: stellarium,               name: stellarium-qt4, addflavor: true }
 - { setname: stepmania,                name: stepmania-devel, weak_devel: true }
 - { setname: stfl,                     name: [libstfl,libstfl0] }
 - { setname: sthttpd,                  name: thttpd, ruleset: gentoo } # actually fork of thttpd; XXX: problem
