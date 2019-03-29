@@ -142,6 +142,7 @@
 - { name: crypthook,                                                                       noscheme: true }
 - { name: crypto++,                    verpat: "[0-9]{3}",                                 incorrect: true }
 - { name: csync,                       ver: ["0.50.6","0.50.8"],     ruleset: [sisyphus, slitaz], incorrect: true }
+- { name: cubicsdr,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: cuda,                        verpat: ".*\\+.*",            ruleset: aosc,        incorrect: true } # driver version appended?
 - { name: cup,                         verpat: "11.*",                                     incorrect: true } # 0.11b
 - { name: cups,                        verpat: ".*b.*",                                    devel: true }
