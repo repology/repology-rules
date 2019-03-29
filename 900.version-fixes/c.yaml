@@ -72,6 +72,8 @@
 - { name: chromaprint,                                               ruleset: rosa,        untrusted: true } # accused of fake 1.4.4
 - { name: chromium,                    verpat: ".*-r[0-9]+",                               ignore: true } # scoop
 - { name: cht.sh,                                                                          noscheme: true } # https://github.com/chubin/cheat.sh/releases
+- { name: cimg,                        verpat: "[0-9]{3}", verle: "221",                   outdated: true } # see https://github.com/dtschump/CImg/tags?after=v.2.2.3
+- { name: cimg,                        verpat: "[0-9]{3}", vergt: "221",                   incorrect: true }
 - { name: circleci-cli,                verpat: "([0-9.]+)-[0-9a-f]+",                      setver: $1 } # commit hash is not a part of the version https://github.com/circleci/local-cli/releases
 - { name: citra,                                                                           noscheme: true }
 - { name: ckermit,                     ver: "302",                                         setver: "9.0.$0" }
