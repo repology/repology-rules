@@ -184,6 +184,7 @@
 - { name: swell-foop,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: swh-lv2,                     ver: "1.0.16.4",              ruleset: freebsd,     incorrect: true }
 - { name: swh-lv2,                                                   ruleset: freebsd,     untrusted: true }
+- { name: swh-plugins,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: swi-prolog,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed even/odd scheme; http://www.swi-prolog.org/Download.html
 - { name: swish-e,                     ver: "2.7.0",                 ruleset: pld,         incorrect: true }
 - { name: swish-e,                                                   ruleset: pld,         untrusted: true }
