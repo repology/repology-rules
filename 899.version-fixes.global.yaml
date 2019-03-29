@@ -11,8 +11,9 @@
 # global vcs snapshot ignore
 - { verpat: ".*(?:svn|cvs|git|bzr|hg|darcs).*",                                            ignore: true }
 
-# `git describe --tags` pattern
+# `git describe --tags` patterns
 - { verpat: ".*-[0-9]+-g[0-9a-f]{7,}.*",                                                   ignore: true }
+- { verpat: ".*\\.[0-9]+\\.g[0-9a-f]{7}",                                                  ignore: true }
 
 # git commit hashes
 - { verpat: "(?!20[01][0-9])[0-9a-f]{7}",                                                  ignore: true }
