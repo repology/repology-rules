@@ -25,6 +25,10 @@
 - { name: "python:jsonschema",         verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:leveldb",            ver: "0.193",                                       outdated: true }
 #- { name: "python:oauth2",                                                                 p_is_patch: true } # XXX: check if really needed
+- { name: "python:pivy",               verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: "python:pivy",               verpat: "20[0-9]{6}", verlt: "20180608",            outdated: true } # 0.6.4 from 20180608
+- { name: "python:pivy",               ver: "0.6.5",                 ruleset: fedora,      incorrect: true } # 0.6.5a0
+- { name: "python:pivy",                                             ruleset: fedora,      untrusted: true } # accused of fake 0.6.5
 - { name: "python:prettytable",        ver: "0.10",                                        incorrect: true } # sisyphus fake
 - { name: "python:progressbar",        ver: "2.4",                   ruleset: sisyphus,    incorrect: true } # fake
 - { name: "python:py-cpuinfo",         verpat: "201.*",                                    ignore: true }
