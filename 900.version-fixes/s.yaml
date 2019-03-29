@@ -53,6 +53,7 @@
 - { name: shiboken,                                                  ruleset: kaos,        untrusted: true } # accused of fake 2.0.0
 - { name: shmux,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: shotcut,                     verpat: "[0-9]{6,}.*",                              incorrect: true } # aur; it's not 180102, but 18.01
+- { name: shotcut,                     verpat: ".+20[0-9]{6}",                             snapshot: true } # funtoo
 - { name: shotgun-debugger,            wwwpart: msarnoff,                                  successor: true }
 - { name: shotwell,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed
 - { name: signify,                     verpat: "20[0-9]{6}",                               snapshot: true }
