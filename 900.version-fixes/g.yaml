@@ -32,6 +32,8 @@
 - { name: gedit,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: geeknote,                                                                        noscheme: true }
 - { name: geocode-glib,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: getdns,                      ver: "1.5.2",                 ruleset: fedora,      incorrect: true }
+- { name: getdns,                                                    ruleset: fedora,      untrusted: true } # accused of fake 1.5.2
 - { name: gettext,                     ver: "2",                                           ignore: true } # libintl from LEDE
 - { name: gettext,                     ver: "2.2",                                         ignore: true } # pkgsrc po-mode, own version?
 - { name: gettext,                                                   ruleset: pkgsrc,      untrusted: true }
