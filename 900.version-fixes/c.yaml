@@ -68,6 +68,8 @@
 - { name: chmlib,                      ver: "0.40a",                                       devel: true } # mentioned in readme, no tags, used by debian and aosc
 - { name: chntpw,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: chntpw,                      ver: "20100627",                                    outdated: true }
+- { name: chromaprint,                 ver: "1.4.4",                 ruleset: rosa,        incorrect: true }
+- { name: chromaprint,                                               ruleset: rosa,        untrusted: true } # accused of fake 1.4.4
 - { name: chromium,                    verpat: ".*-r[0-9]+",                               ignore: true } # scoop
 - { name: cht.sh,                                                                          noscheme: true } # https://github.com/chubin/cheat.sh/releases
 - { name: circleci-cli,                verpat: "([0-9.]+)-[0-9a-f]+",                      setver: $1 } # commit hash is not a part of the version https://github.com/circleci/local-cli/releases
