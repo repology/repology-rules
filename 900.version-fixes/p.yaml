@@ -49,8 +49,9 @@
 - { name: pgadmin3,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: pgadmin3,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: photivo,                                                                         noscheme: true }
-- { name: phototonic,                  verpat: "2\\.1\\.[0-9]+",     ruleset: mageia,      incorrect: true }
-- { name: phototonic,                                                ruleset: mageia,      untrusted: true }
+- { name: phototonic,                  ver: "2.1.10",                                      incorrect: true }
+- { name: phototonic,                  verpat: "2\\.1\\.[0-9]+",     ruleset: [sisyphus,mageia,pclinuxos], incorrect: true }
+- { name: phototonic,                                                ruleset: [sisyphus,mageia,pclinuxos], untrusted: true }
 - { name: php,                         verpat: ".*r.*",                                    devel: true }
 - { name: php-xdebug,                  verpat: "(.*)-[0-9]+\\.[0-9]+", ruleset: scoop,     setver: "$1" } # the suffix seem to encode php version?
 - { name: phyml,                       verpat: "20[0-9]{6}",                               snapshot: true }
