@@ -63,6 +63,7 @@
 - { name: "python:tempita",            verpat: "(.*)dev",                                  setver: $1, devel: true }
 - { name: "python:tempita",            verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "python:tornado",            verpat: ".*[ab].*",                                 devel: true }
+- { name: "python:tzlocal",            verpat: ".*b.*",                                    devel: true }
 - { name: "python:vdirsyncer",         verpat: ".*a.*",                                    devel: true }
 - { name: "python:webm",               vergt: "0.2.2",                                     successor: true } # http://xpra.org/src/ vs. https://github.com/expobrain/python-webm/releases
 - { name: "python:xlib",               verlonger: 2,                 ruleset: freebsd,     incorrect: true }
