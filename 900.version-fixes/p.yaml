@@ -54,6 +54,7 @@
 - { name: phototonic,                                                ruleset: [sisyphus,mageia,pclinuxos], untrusted: true }
 - { name: php,                         verpat: ".*r.*",                                    devel: true }
 - { name: php-xdebug,                  verpat: "(.*)-[0-9]+\\.[0-9]+", ruleset: scoop,     setver: "$1" } # the suffix seem to encode php version?
+- { name: "php:pear",                                                ruleset: aur,         untrusted: true } # "it's tracking https://github.com/pear/pearweb_phars which is not real PHP PEAR like anyone else is tracking"
 - { name: phyml,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: picolisp,                    ver: ["18.6.12", "18.6.17"],  ruleset: [aur,termux], incorrect: true }
 - { name: picolisp,                                                  ruleset: [aur,termux], untrusted: true }
