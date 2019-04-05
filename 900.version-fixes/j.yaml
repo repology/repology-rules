@@ -23,4 +23,6 @@
 - { name: jupp,                                                                            any_is_patch: true }
 - { name: jwasm,                       verpat: "[0-9]{3}.*",                               incorrect: true } # it's e.g. 2.11, not 211
 - { name: jwm,                         verpat: "[0-9]+",                                   ignore: true }
+- { name: jxplorer,                    ver: "3.3.2",                                       incorrect: true } # not sure where debian got this (https://salsa.debian.org/java-team/jxplorer), but 3.3.1.2 (2016) is definitely newer than it (2013)
+- { name: jxplorer,                                                  ruleset: debuntu,     untrusted: true } # accused of fake 3.3.2
 - { name: jzintv,                      verpat: "r.*",                                      ignore: true }
