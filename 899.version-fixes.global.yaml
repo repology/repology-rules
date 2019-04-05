@@ -22,6 +22,9 @@
 # these are reversed dates (e.g. DDMMYYYY), beyond madness
 - { verpat: "[0123][0-9][01][0-9]20[01][0-9]",                                             ignore: true }
 
+# r module versions may have '-' in them, and some repos replace it with 'r'
+- { verpat: "(.*)r(.*)", namepat: 'r:.*', ruleset: [ pld, void ],                          setver: $1-$2 }
+
 # other global rules
 - { verpat: ".*[0-9]{10}\\.[0-9a-f]{7}",                             ruleset: opensuse,    ignore: true }
 - { verpat: ".*\\.[0-9]+\\.[0-9]+\\.[0-9a-f]{4,}",                   ruleset: sisyphus,    untrusted: true } # personal rule for ldv@altlinux.org
