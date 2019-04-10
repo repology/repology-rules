@@ -177,7 +177,7 @@ schema = Schema(
 
 
 features_by_pattern = {
-    '.*800.renames-and-merges/.\.yaml': {
+    '.*800.renames-and-merges/(.|emacs)\.yaml': {
         'sort_field': 'setname',
     },
 #    '.*850.split-ambiguities/.*\.yaml': 'name',
