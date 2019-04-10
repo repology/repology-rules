@@ -54,6 +54,7 @@
 - { name: "emacs:w3m",                                               ruleset: [sisyphus,guix,rosa], untrusted: true }
 - { name: "emacs:w3m",                 verpat: "[0-9]+\\.[0-9]+\\.[0-9]{3}.*",             devel: true }
 - { name: "emacs:w3m",                 verpat: ".*20[0-9]{6}.*",                           snapshot: true }
+- { name: "emacs:zenburn",             verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: emc2,                        verpat: "([0-9]+\\.[0-9]+)\\.([a-z]+)",             setver: $1$2 }
 - { name: emerald,                     ver: "0.9.5",                                       outdated: true } # these come from https://launchpad.net/~nilarimogard/+archive/ubuntu/webupd8/+index?batch=75&memo=75&start=75 and these are older than latest 0.8.x releases
 - { name: emoslib,                     verpat: "000[0-9]{3}",                              outdated: true } # ancient crap from debian oldstable

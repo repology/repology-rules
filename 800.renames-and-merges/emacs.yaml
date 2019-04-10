@@ -1,18 +1,31 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: "emacs:ag",               name: [emacs-ag, silversearcher-ag-el] }
 - { setname: "emacs:anything",         name: [anything-el] }
 - { setname: "emacs:apache-mode",      name: [apache-mode.el,apache-mode-el,emacs-apache-mode] }
+- { setname: "emacs:apel",             name: [apel, emacs-apel] }
 - { setname: "emacs:auctex",           name: [auctex,emacs-auctex,emacs-mode-auctex] }
+- { setname: "emacs:auto-dictionary",  name: [auto-dictionary-mode, emacs-auto-dictionary] }
 - { setname: "emacs:bbdb",             name: [bbdb,bbdb3,emacs-bbdb] }
+- { setname: "emacs:beginend",         name: [beginend-el, emacs-beginend ] }
 - { setname: "emacs:calfw",            name: [emacs-calfw, "emacs:emacs-calfw"] }
+- { setname: "emacs:cider",            name: [cider,clojure-cider,emacs-cider ] }
 - { setname: "emacs:circe",            name: [circe, emacs-circe] }
 - { setname: "emacs:clojure-mode",     name: [clojure-mode,clojure-mode.el,emacs-clojure-mode] }
 - { setname: "emacs:cobol-mode",       name: cobol-mode.el }
 - { setname: "emacs:color-theme",      name: [color-theme,emacs-color-theme,color-theme-mode.el] }
+- { setname: "emacs:company-lsp",      name: [company-lsp, emacs-company-lsp ] }
+- { setname: "emacs:company-mode",     name: [company-mode,emacs-company,emacs-company-mode] }
 - { setname: "emacs:csharp-mode",      name: [csharp-mode.el] }
 - { setname: "emacs:css-mode",         name: [css-mode] }
+- { setname: "emacs:csv-mode",         name: [csv-mode, emacs-csv-mode] }
 - { setname: "emacs:d-mode",           name: [emacs-d-mode,d-mode.el] }
 - { setname: "emacs:dash",             name: [emacs-dash, dash.el] }
+- { setname: "emacs:debpaste",         name: [debpaste-el, emacs-debpaste] }
+- { setname: "emacs:deft",             name: [deft, emacs-deft] }
+- { setname: "emacs:diff-hl",          name: [diff-hl-el, emacs-diff-hl] }
+- { setname: "emacs:diminish",         name: [diminish-el, emacs-diminish] }
+- { setname: "emacs:dired-du",         name: [dired-du, emacs-dired-du] }
 - { setname: "emacs:doc-mode",         name: doc-mode.el }
 - { setname: "emacs:doxymacs",         name: [doxymacs] }
 - { setname: "emacs:ebuild-mode",      name: [emacs-ebuild-mode] }
@@ -23,6 +36,7 @@
 - { setname: "emacs:emms",             name: [emacs-emms,emms] }
 - { setname: "emacs:ess",              name: [emacs-common-ess,emacs-ess,ess] }
 - { setname: "emacs:evil",             name: [emacs-evil,evil-el] }
+- { setname: "emacs:general",          name: [emacs-general, emacs-general.el] }
 - { setname: "emacs:gnuplot-mode",     name: [gnuplot-mode] }
 - { setname: "emacs:go-mode",          name: [emacs-go-mode, go-mode.el] }
 - { setname: "emacs:goodies",          name: [emacs-goodies,emacs-goodies-el] }
@@ -34,10 +48,10 @@
 - { setname: "emacs:inform-mode",      name: [inform-mode] }
 - { setname: "emacs:jabber",           name: [emacs-jabber,"emacs:emacs-jabber",jabber.el] }
 - { setname: "emacs:lookup",           name: [lookup-el] }
-- { setname: "emacs:mailcrypt",        name: [mailcrypt] }
 - { setname: "emacs:m-buffer",         name: [emacs-m-buffer-el,m-buffer-el] }
 - { setname: "emacs:magit",            name: magit }
 - { setname: "emacs:magit-popup",      name: [emacs-magit-popup,magit-popup] }
+- { setname: "emacs:mailcrypt",        name: [mailcrypt] }
 - { setname: "emacs:markdown-mode",    name: [emacs-markdown-mode,markdown-mode,markdown-mode.el] }
 - { setname: "emacs:matlab",           name: [emacs-matlab] }
 - { setname: "emacs:mediawiki",        name: mediawiki.el }
@@ -68,15 +82,19 @@
 - { setname: "emacs:queue",            name: [emacs-queue,queue-el] }
 - { setname: "emacs:rfcview",          name: [emacs-rfcview] }
 - { setname: "emacs:riece",            name: [emacs-common-riece,riece,emacs-riece] }
+- { setname: "emacs:rpm-spec-mode",    name: [emacs-rpm-spec-mode, rpm-spec-mode.el] }
 - { setname: "emacs:rust-mode",        name: [emacs-rust-mode,elpa-rust-mode] }
+- { setname: "emacs:scratch",          name: emacs-scratch-el }
+- { setname: "emacs:semi",             name: [emacs-semi,semi,semi-emacs] }
+- { setname: "emacs:seq",              name: [emacs-seq,seq-el] }
 - { setname: "emacs:session",          name: [emacs-session] }
 - { setname: "emacs:sml-mode",         name: [emacs-sml-mode,sml-mode,sml-mode.el] }
+- { setname: "emacs:speechd",          name: [emacs-speechd-el,speechd-el] }
 - { setname: "emacs:tdtd",             name: [emacs-mode-tdtd] }
 - { setname: "emacs:treepy",           name: [emacs-treepy,treepy-el,treepy.el] }
 - { setname: "emacs:tuareg-mode",      name: [emacs-common-tuareg,emacs-tuareg,emacs-tuareg-mode,tuareg-mode,tuareg-mode.el] }
-- { setname: "emacs:speechd",          name: [emacs-speechd-el,speechd-el] }
-- { setname: "emacs:scratch",          name: emacs-scratch-el }
 - { setname: "emacs:undo-tree",        name: [emacs-undo-tree, elpa-undo-tree] }
+- { setname: "emacs:use-package",      name: [emacs-use-package, use-package] }
 - { setname: "emacs:verilog-mode",     name: [emacs-verilog-mode,verilog-mode,verilog-mode.el] }
 - { setname: "emacs:vm",               name: [emacs-vm] }
 - { setname: "emacs:w3m",              name: [emacs-common-w3m,emacs-w3m,"emacs:emacs-w3m",w3m-el] }
@@ -87,3 +105,4 @@
 - { setname: "emacs:yaml-mode",        name: [emacs-yaml-mode,yaml-mode,yaml-mode.el] }
 - { setname: "emacs:yatex",            name: [yatex] }
 - { setname: "emacs:yc",               name: [yc.el] }
+- { setname: "emacs:zenburn",          name: [emacs-zenburn-theme, zenburn-emacs] }
