@@ -41,6 +41,7 @@
 - { name: riak,                        ver: "2.2.5",                 ruleset: openbsd,     incorrect: true } # no mention on the web site, seems fake
 - { name: rinetd,                      ver: "0.62.1sam",                                   ignore: true } # debian garbage
 - { name: rocs,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: ronn,                        verge: "0.8.0",                                     successor: true } # https://github.com/apjanke/ronn-ng, successor
 - { name: rpcgen,                                                    ruleset: ravenports,  ignore: true } # fake
 - { name: rsh,                         verpat: "[0-9]{2}",                                 incorrect: true }
 - { name: rss-glx,                     verpat: "0\\.9[0-9]+",        ruleset: openindiana, incorrect: true } # it's 0.9.1, not 0.91
