@@ -98,6 +98,7 @@ rulesets = families + [
     'antergos',
     'antix',
     'aur',
+    'astra',
     'blackarch',
     'bunsenlabs',
     'deb_multimedia',

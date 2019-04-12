@@ -11,6 +11,8 @@
 - { name: qgis,                        verpat: ".*unstable",                               ignore: true }
 - { name: qgis,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: qhull,                       ver: ["2015.7.2.0","2015.2-2"],                     incorrect: true }
+- { name: qimageblitz,                 ver: "0.1.0",                 ruleset: astra,       incorrect: true } # wtf
+- { name: qimageblitz,                                               ruleset: astra,       untrusted: true }
 - { name: qimageblitz,                 ver: "4.0.0",                                       outdated: true } # pclinuxos, circa 2008
 - { name: qimageblitz,                 verlonger: 3,                                       incorrect: true }
 - { name: qjson,                       ver: "1.0.0",                 ruleset: openmandriva, incorrect: true }
