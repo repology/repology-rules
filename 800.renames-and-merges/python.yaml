@@ -42,6 +42,7 @@
 - { setname: "python:ctypes",          name: ctypes } # XXX: make upstream use prefix
 - { setname: "python:cvxopt",          name: cvxopt } # debian
 - { setname: "python:cypari2",         name: cypari2 }
+- { setname: "python:cython",          name: cython-kivy, addflavor: true }
 - { setname: "python:cython",          name: [cython,cython3] }
 - { setname: "python:cython",          name: pypy-cython, addflavor: pypy }
 - { setname: "python:cython",          name: "python:cython-doc", addflavor: doc }
