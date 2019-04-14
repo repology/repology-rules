@@ -315,6 +315,7 @@
 - { setname: "python:social-auth-core", name: social-auth-core }
 - { setname: "python:socksipy",        name: socksipy } # XXX: make upstream use prefix
 - { setname: "python:sortedcontainers",name: sortedcontainers }
+- { setname: "python:soundfile",       name: [pysoundfile, "python:pysoundfile"] }
 - { setname: "python:sphinx",          name: "python:sphinx10" }
 - { setname: "python:sphinx",          name: ["python:sphinx-doc", sphinx-doc] }
 - { setname: "python:sphinx",          name: sphinx, wwwpart: [pocoo.org,sphinx-doc.org] }
