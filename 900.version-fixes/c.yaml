@@ -137,7 +137,6 @@
 - { name: crimson,                     ver: "2014.10",                                     ignore: true }
 - { name: critterding,                 verpat: "1\\.0(beta.*)",                            setver: "$1" }
 - { name: cronolog,                    ver: "1.7.0",                 ruleset: openpkg,     incorrect: true } # 1.7.0-beta
-- { name: crossguid,                   verpat: ".*20[0-9]{6}T[0-9]{6}.*",                  snapshot: true } # opensuse garbag
 - { name: crossguid,                   verpat: "20[0-9]{6}",                               ignore: true }
 - { name: crossguid,                   verpat: "201[56].*",                                outdated: true } # there's 0.2.2 from Aug 2017
 - { name: crossguid,                   verpat: "0\\.2\\.2-20[0-9]+-[0-9]+",                incorrect: true }
