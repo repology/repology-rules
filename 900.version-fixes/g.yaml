@@ -143,6 +143,9 @@
 - { name: "go:mtpfs",                                                                      noscheme: true }
 - { name: gobject-introspection,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: goldencheetah,               verpat: ".*dev.*",                                  ignore: true }
+- { name: goldendict,                  ver: ["1.5", "1.5.0"],        ruleset: [sisyphus,fedora,mageia,pisi], incorrect: true }
+- { name: goldendict,                                                ruleset: [sisyphus,fedora,mageia,pisi], untrusted: true } # accused of fake 1.5
+- { name: goldendict,                  verpat: ".*g.*",                                    snapshot: true } # scoop
 - { name: goocanvasmm,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: google-authenticator,        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: googlecl,                    ver: "0.9.15.1",              ruleset: freebsd,     incorrect: true }
