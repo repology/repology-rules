@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: r,                           verpat: ".*20[0-9]{6}",                             snapshot: true } # debian
 - { name: r3,                          ver: "2.0.0",                 ruleset: buckaroo,    incorrect: true } # https://github.com/LoopPerfect/r3/tags
 - { name: r3,                                                        ruleset: buckaroo,    untrusted: true }
 - { name: r8s,                         verpat: "1\\.([0-9])",                              setver: 1.$10 } # 1.70->1.71->1.8
