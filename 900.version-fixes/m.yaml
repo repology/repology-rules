@@ -85,6 +85,7 @@
 - { name: mixxx,                                                     ruleset: [aosc,fedora,kaos], untrusted: true }
 - { name: mkchromecast,                ver: "0.3.9",                 ruleset: unitedrpms,  incorrect: true }
 - { name: mkchromecast,                                              ruleset: unitedrpms,  untrusted: true } # accused of fake 0.3.9
+- { name: mkfontdir,                   ver: "1.2.0",                                       incorrect: true } # gentoo made fake 1.2.0 to pull in mkfontscale which replaces it
 - { name: mkgmap,                      verpat: "(?:0\\.0\\.0svn|r)([0-9]{4,})",            setver: $1 }
 - { name: mkgmap-splitter,             verpat: "(?:0\\.0\\.0svn|r)([0-9]{3,})",            setver: $1 }
 - { name: mkinitrd,                    verpat: "20[0-9-]{8}",                              incorrect: true } # t2 garbage
