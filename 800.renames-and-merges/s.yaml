@@ -181,6 +181,7 @@
 - { setname: stepmania,                name: stepmania-devel, weak_devel: true }
 - { setname: stfl,                     name: [libstfl,libstfl0] }
 - { setname: sthttpd,                  name: thttpd, ruleset: gentoo } # actually fork of thttpd; XXX: problem
+- { setname: stlport,                  namepat: "stlport[0-9.]+" }
 - { setname: stone-soup,               name: [dungeon-crawl-stone-soup,stonesoup] }
 - { setname: stone-soup,               name: stone-soup-ncurses, addflavor: ncurses }
 - { setname: stone-soup,               name: stone-soup-sdl, addflavor: sdl }
