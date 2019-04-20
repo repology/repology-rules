@@ -96,6 +96,7 @@
 - { setname: lttng-modules,            name: lttng-modules-dkms }
 - { setname: lttng-modules,            name: lttng-modules-nopage, addflavor: true }
 - { setname: lua,                      namepat: "(?:lib)?lua[0-9.-]*" }
+- { setname: lua,                      name: compat-lua }
 - { setname: luajit,                   name: [luajit-2.1,luajit2] }
 - { setname: lugaru,                   name: openlugaru }
 - { setname: lugaru-data,              name: openlugaru-data }
