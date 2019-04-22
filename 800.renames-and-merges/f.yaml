@@ -121,7 +121,8 @@
 - { setname: friently-find,            name: ffind }
 - { setname: frozen-bubble,            name: frozen-bubble-server, addflavor: server }
 - { setname: frozen-bubble,            name: frozenbubble2 }
-- { setname: frr,                      name: [frr3,frr4,frr5] }
+- { setname: frr,                      namepat: "frr[0-9.-]+" }
+- { setname: frr,                      name: frrouting }
 - { setname: fs-uae,                   name: [fs-uae-devel, fs-uae-dev], weak_devel: true }
 - { setname: fs-uae-arcade,            name: [fs-uae-arcade-devel, fs-uae-arcade-dev], weak_devel: true }
 - { setname: fs-uae-launcher,          name: [fs-uae-launcher-devel, fs-uae-launcher-dev], weak_devel: true }
