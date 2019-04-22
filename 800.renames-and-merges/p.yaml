@@ -104,6 +104,7 @@
 - { setname: pnglite,                  name: libpnglite }
 - { setname: pnp4nagios,               name: pnp4nagios-cgi }
 - { setname: podman,                   name: libpod, addflavor: true }
+- { setname: pokerth,                  name: [pokerth-client,pokerth-server], addflavor: true }
 - { setname: polkit,                   name: [polkit-consolekit,polkit-elogind], addflavor: true }
 - { setname: polkit,                   name: polkit105 }
 - { setname: polkit-qt-1,              name: polkit-qt }
