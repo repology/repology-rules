@@ -3,6 +3,8 @@
 - { setname: h2o,                      name: h2o-devel, weak_devel: true }
 - { setname: hadoop,                   name: hadoop2 }
 - { setname: handbrake,                name: [handbrake-cli,handbrake-fdkaac,handbrakecli], addflavor: true }
+- { setname: haproxy,                  namepat: "haproxy[0-9.-]*" }
+- { setname: haproxy,                  name: haproxy-devel, weak_devel: true }
 - { setname: hashcat,                  name: hashcat-legacy }
 - { setname: haxe,                     name: haxe2 }
 - { setname: haxe,                     name: haxe-bin, addflavor: bin }
