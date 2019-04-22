@@ -109,6 +109,7 @@
 - { setname: topgrade,                 name: "rust:topgrade" }
 - { setname: tor,                      name: [tor-devel,tor-unstable], weak_devel: true }
 - { setname: tor,                      name: tor-expert, addflavor: true }
+- { setname: tor,                      name: tor-lts }
 - { setname: torrent-file-editor,      name: [torrent-file-editor-qt4,torrent-file-editor-qt5], addflavor: true }
 - { setname: totem-pl-parser,          name: libtotem-pl-parser }
 - { setname: totem-pl-parser,          name: totem-pl-parser-gtk2, addflavor: gtk2 }
