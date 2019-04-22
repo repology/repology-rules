@@ -71,6 +71,7 @@
 - { setname: openrct2,                 name: [libopenrct2,openrct2-cli], addflavor: true }
 - { setname: opensc,                   namepat: "opensc[0-9.-]+" }
 - { setname: opensc,                   name: opensc-openct, addflavor: openct }
+- { setname: openscad,                 name: [openscad-dev,openscad-devel], weak_devel: true }
 - { setname: openscenegraph,           name: [openscenegraph-qt,openscenegraph-qt4,openscenegraph-data], addflavor: true }
 - { setname: openscenegraph,           name: [open-scene-graph,osg] }
 - { setname: openscenegraph,           namepat: "openscenegraph[0-9.-]+" }
