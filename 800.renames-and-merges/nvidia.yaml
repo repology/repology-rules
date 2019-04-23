@@ -55,6 +55,7 @@
 - { setname: nvidia,                   name: nvidia-vulkan, addflavor: true }
 - { setname: nvidia,                   name: nvidia-vulkan-developer-beta-lts, addflavor: true, weak_devel: true }
 - { setname: nvidia,                   name: nvidia-x11 }
+- { setname: nvidia,                   namepat: "nvidia-x11-drv[x0-9.-]*" }
 - { setname: nvidia,                   name: nvidia-zen, addflavor: true }
 - { setname: nvidia,                   namepat: "nvidia[0-9.-]*" }
 - { setname: nvidia,                   namepat: "xdrv:nvidia(?:-kernel|-legacy)?[x0-9.-]*(?:-kernel)?(-nopae)?", addflavor: $1 }
