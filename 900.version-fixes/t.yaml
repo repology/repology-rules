@@ -63,6 +63,8 @@
 - { name: timidity++,                                                ruleset: rosa,        untrusted: true }
 - { name: tiny-dnn,                    ver: "1.0.0",                 ruleset: buckaroo,    incorrect: true } # 1.0.0a3 https://github.com/tiny-dnn/tiny-dnn/releases
 - { name: tiny-dnn,                                                  ruleset: buckaroo,    untrusted: true }
+- { name: tivodecode,                  ver: "0.2",                   ruleset: fedora,      incorrect: true }
+- { name: tivodecode,                                                ruleset: fedora,      untrusted: true }
 - { name: tk,                          verpat: ".*a[0-9]+",                                devel: true }
 - { name: tk,                          verpat: "[0-9]+\\.[0-9]+\\.0\\.?a.*",               incorrect: true } # it's X.YaZ, not X.Y.0aZ
 - { name: tmfs,                        verpat: "r([.0-9]+)",                               setver: "$1" }
