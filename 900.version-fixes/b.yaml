@@ -11,6 +11,7 @@
 - { name: bash,                        verpat: "(.*?)[._-]?p0",                            setver: $1 }
 - { name: bash,                        verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true } # slackwarearm invention
 - { name: bash-supergenpass,                                                               noscheme: true }
+- { name: basiliskii,                                                                      noscheme: true }
 - { name: bass,                        verpat: "20[0-9]{6}",                               ignore: true }
 - { name: bastet,                      ver: "0.43.1.2015083000",                           ignore: true }
 - { name: bastet,                      verpat: ".*\\+[0-9]+",                              snapshot: true }

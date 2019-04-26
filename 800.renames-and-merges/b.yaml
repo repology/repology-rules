@@ -19,6 +19,8 @@
 - { setname: bash,                     name: bash-devel, weak_devel: true }
 - { setname: bash,                     name: bash-devel-static, weak_devel: true, addflavor: bash-static }
 - { setname: bash,                     namepat: "bash[0-9]+" }
+- { setname: basiliskii,               name: basilisk2 }
+- { setname: basiliskii,               name: basiliskii-gui, addflavor: true }
 - { setname: batctl,                   name: batctl14 }
 - { setname: batik,                    name: [java-batik, java-xmlgraphics-batik, xmlgraphics-batik] }
 - { setname: batman-adv,               name: [batman-adv-dkms,batman-adv-legacy-dkms], addflavor: dkms }
