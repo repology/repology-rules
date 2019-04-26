@@ -25,6 +25,7 @@
 - { name: openafs,                     verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: openal-creative,             ver: "20060211",                                    ignore: true } # freebsd (should probably be 0.0.8)
 - { name: openaptx,                                                                        noscheme: true }
+- { name: opencascade,                                                                     p_is_patch: true } # 7.3.0 < 7.3.0p3
 - { name: opencascade-oce,             verlonger: 3,                                       incorrect: true } # weird mix of occt and oce versions
 - { name: opencity,                    ver: "0.0.6.5stable",                               ignore: true } # 0.0.6.5; "stable" is not a part of the version
 - { name: opencl,                                                                          noscheme: true } # GH/KhronosGroup/OpenCL-Headers w/o releases or mix of OpenCL-Headers with OpenCL-CLHPP
