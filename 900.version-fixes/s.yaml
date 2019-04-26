@@ -103,6 +103,8 @@
 - { name: sonata,                      ver: "1.7",                    ruleset: sisyphus,   incorrect: true }
 - { name: sonata,                                                     ruleset: sisyphus,   untrusted: true }
 - { name: sonata,                      verpat: ".*[ab].*",                                 devel: true }
+- { name: soqt,                        ver: ["1.6.0", "1.6.0a"],      ruleset: [aur,debuntu], incorrect: true }
+- { name: soqt,                                                       ruleset: [aur,debuntu], untrusted: true } # accused of fake 1.6.0, 1.6.0a
 - { name: sourcenav,                   ver: "6.0",                    ruleset: t2,         incorrect: true }
 - { name: sourcenav,                                                  ruleset: t2,         untrusted: true }
 - { name: spamassassin,                verpat: "([0-9]+)\\.([0-9]{3})([0-9]{3})",          setver: $1.$2.$3 } # MetaCPAN weirdness
