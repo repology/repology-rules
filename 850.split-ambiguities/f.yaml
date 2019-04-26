@@ -29,7 +29,11 @@
 - { name: figurine, ruleset: gobolinux, setname: figurine-graphics }
 - { name: figurine, warning: "please classify me" }
 
-- { name: forge, wwwpart: fsharp, setname: forge-fsharp }
+- { name: forge, wwwpart: [fsharp,forge.run], setname: forge-fsharp }
+- { name: forge, wwwpart: nathandines, setname: forge-continuous-delivery }
+- { name: forge, wwwpart: arrayfire, setname: forge-visualizations }
+- { name: forge, summpart: visualization, setname: forge-visualizations }
+- { name: forge, warning: "please classify me" }
 
 - { name: fortune, wwwpart: ahills, setname: fortune-ahills }
 - { name: fortune, wwwpart: ibiblio, verpat: "0\\..*", setname: fortune-ibiblio }
