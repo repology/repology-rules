@@ -44,6 +44,7 @@
 - { name: testdisk,                    ver: "7.1",                                         devel: true }
 - { name: testdisk,                    verpat: "(.*)\\.w(?:ip)?",                          setver: $1 }
 - { name: testssl.sh,                  verpat: ".*r.*",                                    devel: true, disposable: true } # FreeBSD, mangled rc
+- { name: tetgen,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: texlive,                     ver: "20180617",              ruleset: homebrew,    incorrect: true }
 - { name: texlive,                                                   ruleset: homebrew,    untrusted: true }
 - { name: texlive-core,                verpat: "(20[0-9]{2}).[0-9]{5,}",                   ignore: true }
