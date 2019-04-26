@@ -42,6 +42,7 @@
 - { name: wkhtmltopdf,                 verpat: ".*-.*",              ruleset: scoop,       incorrect: true }
 - { name: wl-clipboard,                verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: wmbatteries,                 verge: "0.1.5",                                     successor: true }
+- { name: wmutils,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: woff2,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: woff2,                       ver: "20160306",                                    outdated: true } # latest 1.0.2 from 2017
 - { name: wordwarvi,                   ver: "1.1",                   ruleset: [ sisyphus, fedora ], incorrect: true }
