@@ -2,6 +2,7 @@
 
 - { name: dahdi-linux,                 verlonger: 4,                                       incorrect: true }
 - { name: dapl,                        verpat: ".*[0-9a-f]{8}",                            snapshot: true }
+- { name: darcnes,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: darcs,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: darcs,                       ver: "2.13.0",                ruleset: fedora,      incorrect: true } # fake
 - { name: darcs,                                                     ruleset: fedora,      untrusted: true }
