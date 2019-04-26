@@ -24,6 +24,7 @@
 - { name: libcaca,                     ver: "0.99", ruleset: [sisyphus,pclinuxos,mageia,openmandriva,pld], incorrect: true } # it's 0.99.betaX!
 - { name: libcaca,                                  ruleset: [sisyphus,pclinuxos,mageia,openmandriva,pld], untrusted: true }
 - { name: libcaca,                     verpat: "0.99.[0-9]+.*",                            incorrect: true } # it.s 0.99.betaX, not 0.99.X
+- { name: libcamera,                                                                       noscheme: true }
 - { name: libcdio-paranoia,            verpat: "[0-9]+(\\.[0-9]+){2,3}", ruleset: kaos,    incorrect: true } # fake
 - { name: libcdio-paranoia,                                          ruleset: kaos,        untrusted: true }
 - { name: libchipcard,                 verpat: ".*99",               ruleset: opensuse,    incorrect: true } # 5.1.0beta actually
