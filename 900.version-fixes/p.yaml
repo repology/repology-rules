@@ -32,7 +32,10 @@
 - { name: pclcomp,                                                   ruleset: t2,          untrusted: true } # accused of fake 0.99.2
 - { name: pcsc-lite,                   ver: "1.54",                  ruleset: t2,          incorrect: true } # 1.4.102
 - { name: pcsc-lite,                                                 ruleset: t2,          untrusted: true } # accused of fake 1.54
-- { name: pcsx2,                       verpat: ".*[0-9]{4,}.*",                            snapshot: true }
+- { name: pcsx2,                       ver: ".*_.*",                                       incorrect: true }
+- { name: pcsx2,                       vereq: "1.5",                 ruleset: [debuntu,wikidata], incorrect: true }
+- { name: pcsx2,                                                     ruleset: [debuntu,wikidata], untrusted: true } # accused of fake 1.5
+- { name: pcsx2,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: pdfbook,                                                                         noscheme: true }
 - { name: pdfminer,                    vergt: "20140328",                                  snapshot: true, maintenance: true } # https://pypi.org/project/pdfminer/#history
 - { name: pdftk,                       verpat: ".*_.*",                                    snapshot: true } # aur - debianisms
