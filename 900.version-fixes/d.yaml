@@ -28,6 +28,7 @@
 - { name: dehydrated,                  verlonger: 3,                                       incorrect: true } # freebsd
 - { name: deja-dup,                    verpat: "[0-9]*[13579]\\..*",                       devel: true }
 - { name: denyhosts,                   ver: ["3.0","3.1"],                                 devel: true }
+- { name: desmume,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: devhelp,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: dex2jar,                     ver: "2.1",                   ruleset: [blackarch,debuntu], incorrect: true } # actually 2.1-nightly-NN; debuntu=kali linux
 - { name: dff,                         verpat: "(.*)\\.20[0-9]{6}",                        setver: "$1" } # aosc snapshot
