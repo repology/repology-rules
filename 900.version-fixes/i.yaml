@@ -30,6 +30,7 @@
 - { name: iguanair,                                                  ruleset: pld,         untrusted: true }
 - { name: iio-sensor-proxy,            verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: ike-scan,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: imagej,                      verpat: "[0-9]{3}.*",                               incorrect: true } # 1.50 not 150
 - { name: inchi,                       ver: ["1.0.3","1.0.4","1.0.5"],                     incorrect: true } # XXX: problem
 - { name: incidenceeditor,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: include-what-you-use,        verpat: "[345].*",                                  incorrect: true } # https://include-what-you-use.org/ llvm version vs. own version
