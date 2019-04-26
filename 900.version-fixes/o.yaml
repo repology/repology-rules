@@ -54,6 +54,7 @@
 - { name: openstack-keystone,          verpat: "201[24].*",                                outdated: true }
 - { name: opentracker,                                                                     noscheme: true }
 - { name: openuniverse,                ver: "1.0beta3.1",                                  incorrect: true } # debian garbage
+- { name: openvsp,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: openxcom,                    verpat: ".*201[789].*",                             snapshot: true } # git snapshots
 - { name: openxcom,                    verpat: ".*[0-9]{10}.*",                            snapshot: true } # opensuse games, totally braindead
 - { name: orbit2,                      ver: "2.14.20",               ruleset: sisyphus,    incorrect: true } # alt fake
