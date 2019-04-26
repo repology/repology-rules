@@ -140,6 +140,10 @@
 - { name: libsndfile,                                                ruleset: openwrt,     untrusted: true } # accused of fake 2018b4
 - { name: libsoil,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: libsoup,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libspatialite,               verpat: ".*\\.99\\..*",                             incorrect: true } # macports garbage
+- { name: libspatialite,                                             ruleset: macports,    untrusted: true } # accused of fake 4.99.0
+- { name: libspatialite,               ver: "4.4.0rc1",              ruleset: debuntu,     incorrect: true }
+- { name: libspatialite,                                             ruleset: debuntu,     untrusted: true } # accused of fake 4.4.0rc1
 - { name: libspiro,                    verpat: "1~0\\.5\\.20[0-9]{6}",                     incorrect: true} # it's 0.5.20150702; XXX: problem
 - { name: libspiro,                    verpat: "20[0-9]{6}",                               incorrect: true} # it's 0.5.20150702; XXX: problem
 - { name: libspiro,                    verge: "20000000", verlt: "20150702",               outdated: true }
