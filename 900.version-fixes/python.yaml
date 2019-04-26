@@ -25,6 +25,7 @@
 - { name: "python:jsonschema",         verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:leveldb",            ver: "0.193",                                       outdated: true }
 #- { name: "python:oauth2",                                                                 p_is_patch: true } # XXX: check if really needed
+- { name: "python:pcl",                verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "python:pivy",               verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "python:pivy",               verpat: "20[0-9]{6}", verlt: "20180608",            outdated: true } # 0.6.4 from 20180608
 - { name: "python:pivy",               ver: "0.6.5",                 ruleset: fedora,      incorrect: true } # 0.6.5a0
