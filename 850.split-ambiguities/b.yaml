@@ -45,6 +45,12 @@
 - { name: blackhole, wwwpart: 3Hren, setname: blackhole-logging }
 - { name: blackhole, wwwpart: pereckerdal, setname: blackhole-gambit }
 
+- { name: bliss, summpart: intellivision, setname: bliss-emulator }
+- { name: bliss, summpart: music, setname: bliss-music-analyzer }
+- { name: bliss, summpart: graphs, setname: bliss-graphs } # name already used by some repos
+- { name: bliss, wwwpart: tcs, setname: bliss-graphs } # name already used by some repos
+- { name: bliss, warning: "please classify me" }
+
 - { name: boomerang, wwwpart: boomerang.sourceforge.net, setname: boomerang-decompiler }
 - { name: boomerang, wwwpart: harmony, setname: boomerang-lang }
 - { name: boomerang, warning: "please classify me" }
