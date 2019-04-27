@@ -50,6 +50,8 @@
 - { name: gimp-fourier,                                              ruleset: guix,        untrusted: true } # accused of fake 0.4.3-2
 - { name: gimp-gap,                    ver: "2.7.0",                 ruleset: fedora,      incorrect: true }
 - { name: gimp-gap,                                                  ruleset: fedora,      untrusted: true } # accused of fake 2.7.0
+- { name: gimp-gap,                    ver: "2.6.1",                 ruleset: aur,         incorrect: true }
+- { name: gimp-gap,                                                  ruleset: aur,         untrusted: true } # accused of fake 2.6.1
 - { name: git-bzr-ng,                                                                      noscheme: true }
 - { name: git-crypt,                   verpat: ".*-.*",              ruleset: scoop,       snapshot: true }
 - { name: gjs,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
