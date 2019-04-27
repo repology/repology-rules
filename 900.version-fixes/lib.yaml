@@ -111,6 +111,8 @@
 - { name: libogg,                      ver: "1.3.5",                 ruleset: rudix,       ignore: true }
 - { name: libopenshot,                 verge: "2",                                         incorrect: true } # pclinuxos, mageia fakes
 - { name: libopenshot-audio,           verge: "2",                                         incorrect: true } # pclinuxos, mageia fakes
+- { name: liborigin,                   verge: "20000000", verlt: "20181006",               outdated: true } # 3.0.0 from 2018-10-06
+- { name: liborigin,                   verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: libosmo-dsp,                 ver: "0.3.8",                 ruleset: opensuse,    incorrect: true } # http://cgit.osmocom.org/libosmo-dsp/
 - { name: libosmo-dsp,                 verpat: "20[0-9]{6}",                               ignore: true }
 - { name: libp11,                      verpat: "20[0-9]{6}",                               ignore: true }
