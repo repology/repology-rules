@@ -105,8 +105,8 @@
 - { name: portmidi,                    verpat: "[0-9]{7}",                                 incorrect: true }
 - { name: portmidi,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: posterazor,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: posterazor,                  ver: "1.9.7",                 ruleset: aur,         incorrect: true }
-- { name: posterazor,                                                ruleset: aur,         untrusted: true } # accused of fake 1.9.7
+- { name: posterazor,                  ver: "1.9.7",                 ruleset: arch,        incorrect: true }
+- { name: posterazor,                                                ruleset: arch,        untrusted: true } # accused of fake 1.9.7
 - { name: postfix,                     verpat: ".*r.*",                                    devel: true }
 - { name: postgis,                     verpat: ".*\\.9[0-9]+",       ruleset: kaos,        incorrect: true } # 2.4.3.90 instead of 2.4.4dev
 - { name: postgis,                                                   ruleset: kaos,        untrusted: true }
