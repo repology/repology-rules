@@ -196,6 +196,7 @@
 - { setname: libusb,                   name: [libusb-compat,libusb-legacy] }
 - { setname: libuv,                    name: libuv1 }
 - { setname: libva,                    name: [libva-full,libva-gl,libva-headless,libva-minimal], addflavor: true }
+- { setname: libverto,                 name: [libverto-glib,libverto-libev,libverto-tevent], addflavor: true }
 - { setname: libvirt,                  name: libvirt-zfs, addflavor: true }
 - { setname: libvirt-sandbox,          name: virt-sandbox }
 - { setname: libvisio,                 namepat: "libvisio[0-9.-]+" }
