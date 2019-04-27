@@ -8,8 +8,12 @@
 - { name: gcap, wwwpart: gnome.org, setname: gcap-cabfiles }
 - { name: gcap, warning: "please classify me" }
 
-- { name: gambit,                      category: games-board, setname: gambitchess }
-- { name: gambit,                      verpat: "4\\..*", setname: gambit-c }
+- { name: gambit, category: games-board, setname: gambitchess }
+- { name: gambit, summpart: [gambit-c,scheme], setname: gambit-c }
+- { name: gambit, wwwpart: [gambitscheme,iro.umontreal.ca,github.com/gambit/gambit], setname: gambit-c }
+- { name: gambit, wwwpart: gambit-project, setname: gambit-game-theory }
+- { name: gambit, wwwpart: gambit-viewer, setname: gambit-viewer }
+- { name: gambit, warning: "please classify me" }
 
 - { name: getopt, ruleset: openwrt, setname: util-linux }
 - { name: getopt, ruleset: sisyphus, setname: java-getopt }
