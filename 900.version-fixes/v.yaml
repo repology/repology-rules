@@ -3,6 +3,7 @@
 - { name: v,                           verpat: "[0-9]+",                                   ignore: true } # aur; correct versions is 1.1
 - { name: v4l2loopback,                verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: v86d,                        verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
+- { name: vacuum-im,                   verpat: ".*20[0-9]{6}",                             snapshot: true } # opensuse games garbage
 - { name: vala,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: valentina,                   verpat: ".*a",                                      devel: true }
 - { name: vapoursynth,                 verpat: "R([.0-9]+)",                               setver: "$1" }
