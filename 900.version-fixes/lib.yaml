@@ -114,6 +114,7 @@
 - { name: libosmo-dsp,                 ver: "0.3.8",                 ruleset: opensuse,    incorrect: true } # http://cgit.osmocom.org/libosmo-dsp/
 - { name: libosmo-dsp,                 verpat: "20[0-9]{6}",                               ignore: true }
 - { name: libp11,                      verpat: "20[0-9]{6}",                               ignore: true }
+- { name: libpano13,                   verpat: "13.*",                                     incorrect: true }
 - { name: libpaper,                    ver: "1.1.24",                                      setver: "$0nmu0" }
 - { name: libpaper,                    verpat: "(1\\.1\\.24)[^0-9]+([0-9]+)",              setver: "$1nmu$2" } # they all take from debian and there's num suffix
 - { name: libpng,                      verpat: "1\\.7\\.0beta.*",    ruleset: freshcode,   ignore: true }
