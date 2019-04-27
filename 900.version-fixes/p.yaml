@@ -113,6 +113,7 @@
 - { name: postgresql,                  verpat: "12.*",                                     devel: true, maintenance: true }
 - { name: postgresql,                  verpat: "[0-9]+",                                   incorrect: true }
 - { name: postgresql-jdbc,             verpat: "[0-9]{4}.*",                               incorrect: true } # pld garbage
+- { name: pound,                       verpat: ".*[0-9][a-z]",                             devel: true }
 - { name: povray,                      ver: "3.7.1",                 ruleset: pld,         incorrect: true }
 - { name: povray,                                                    ruleset: pld,         untrusted: true }
 - { name: powertop,                    verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
