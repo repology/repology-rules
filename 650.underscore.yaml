@@ -3,6 +3,7 @@
 # exceptions to underscore normalization
 - { namepat: "ruby:dm_core", addflag: preserve_underscore }
 - { namepat: "ruby:diff_lcs", addflag: preserve_underscore }
+- { namepat: "ruby:memory_profiler", addflag: preserve_underscore }
 - { namepat: ".*_.*-libreoffice", addflag: preserve_underscore } # we rely on absence of - for merging lo i18n packages later
 
 - { noflag: preserve_underscore, replaceinname: { "_": "-" } }
