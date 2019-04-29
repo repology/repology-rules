@@ -65,6 +65,7 @@
 - { name: microcode-ctl,               verpat: "2\\..*",                                   devel: true } # https://pagure.io/microcode_ctl/releases
 - { name: midori,                      ver: "0.5.12",                ruleset: aosc,        incorrect: true } # not released
 - { name: midori,                                                    ruleset: aosc,        untrusted: true }
+- { name: mimetex,                     verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: mimikatz,                    verpat: ".*20[0-9]{6}",                             ignore: true } # BlackArch snap
 - { name: minbif,                      verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: minetest-game,               ver: "0.4.17.1",                                    setver: "0.4.17" } # same commit https://github.com/minetest/minetest_game/tags
