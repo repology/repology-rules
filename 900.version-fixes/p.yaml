@@ -19,6 +19,7 @@
 - { name: patchage,                                                  ruleset: nix,         untrusted: true } # accused of fake 1.0.1
 - { name: patchelf,                    verpat: ".*pre.*",                                  snapshot: true } # nix
 - { name: patchelf,                    verlonger: 2,                                       incorrect: true } # termux
+- { name: pauker,                      verpat: ".*b.*",                                    devel: true }
 - { name: pavucontrol,                 verpat: ".*\\+[0-9]+",                              incorrect: true } # slitaz
 - { name: pcb,                         verpat: "20[0-9]{6}.*",                             outdated: true } # superceded by x.y.z: https://sourceforge.net/projects/pcb/files/pcb/
 - { name: pcc,                         verpat: "20[0-9]{6}",                               snapshot: true }
