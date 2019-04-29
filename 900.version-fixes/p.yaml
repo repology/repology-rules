@@ -142,6 +142,8 @@
 - { name: psftools,                    ver: "1.1.10",                ruleset: homebrew,    incorrect: true } # 1.0.10 actually; any incorrcet URL like https://www.seasip.info/Unix/PSF/psftools-X.Y.Z.tar.gz downloads as the latest version
 - { name: psi-plus,                    verpat: "20[0-9]{6}.*",                             snapshot: true } # opensuse garbage
 - { name: psi-plus,                    verlonger: 3,                                       incorrect: true } # aur garbage
+- { name: pspp,                        ver: ["1.3.0", "1.3.0a"],     ruleset: [macports,pisi], incorrect: true }
+- { name: pspp,                                                      ruleset: [macports,pisi], untrusted: true }
 - { name: pstack,                      vergt: "1.3.1",               ruleset: deepin,      incorrect: true }
 - { name: public-suffix-list,                                                              noscheme: true } # https://github.com/publicsuffix/list/releases
 - { name: pulseaudio-alsa,                                                                 noscheme: true } # just some versionless config for pulseaudio
