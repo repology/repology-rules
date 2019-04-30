@@ -97,8 +97,8 @@ families = [
 rulesets = families + [
     'antergos',
     'antix',
-    'aur',
     'astra',
+    'aur',
     'blackarch',
     'bunsenlabs',
     'deb_multimedia',
