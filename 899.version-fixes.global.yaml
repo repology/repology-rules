@@ -40,3 +40,6 @@
 
 # nuget is terminally broken and can't handle arbitrary version schemes, so most are garbage
 - {                                                                  ruleset: chocolatey,  untrusted: true }
+
+# melpa always uses snapshots
+- {                                                                  ruleset: melpa,       rolling: true }
