@@ -37,3 +37,6 @@
 - { verpat: ".*_.*", name: [brotli,curl,openssl],                    ruleset: scoop,       incorrect: true } # ┐ windows builds from curl project
 - { verpat: ".*_.*",                                                 ruleset: scoop,       untrusted: true } # ┘
 - { verpat: ".*windows.*",                                           ruleset: scoop,       incorrect: true }
+
+# nuget is terminally broken and can't handle arbitrary version schemes, so most are garbage
+- {                                                                  ruleset: chocolatey,  untrusted: true }

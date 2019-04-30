@@ -21,7 +21,6 @@
 - { ruleset: buckaroo,        wwwpart: sfml-dev.org, setname: sfml, addflavor: $0 }
 
 - { ruleset: chocolatey,      namepat: "(.*)\\.(install|portable|commandline)", setname: $1, addflavor: $2 }
-- { ruleset: chocolatey,      untrusted: true } # nuget is terminally broken and can't handle arbitrary version schemes, so most are garbage
 
 - { ruleset: deb_multimedia,  namepat: "(.*)-dmo", setname: "$1" }
 
