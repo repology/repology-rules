@@ -149,4 +149,9 @@
 - { name: sx, wwwpart: fedorahosted, setname: sx-fedora }
 - { name: sx, warning: "please classify me" }
 
+- { name: synapse, wwwpart: matrix, setname: matrix-synapse }
+- { name: synapse, wwwpart: [launchpad.net/synapse-project,synapse.zeitgeist-project.com], setname: synapse-launcher }
+- { name: synapse, summpart: launcher, setname: synapse-launcher }
 - { name: synapse, ruleset: exherbo, setname: matrix-synapse }
+- { name: synapse, ruleset: [pld,solus], setname: synapse-launcher }
+- { name: synapse, warning: "please classify me" }
