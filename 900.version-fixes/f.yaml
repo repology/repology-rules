@@ -129,7 +129,7 @@
 - { name: freerdp,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: freerdp,                     ver: "2.0.0",                 ruleset: [sisyphus,fedora,mageia,openmandriva,pclinuxos,pld,rosa], incorrect: true } # it's -rc[01] ATOW
 - { name: freerdp,                                                   ruleset: [sisyphus,fedora,mageia,openmandriva,pclinuxos,pld,rosa], untrusted: true }
-- { name: freetds,                     verge: "1.0.300",                                   devel: true, maintenance: true } # http://www.freetds.org/files/stable/ http://www.freetds.org/files/current/; not sure where the divide really is
+- { name: freetds,                     vergt: "1.1.6", verle: "1.1.25",                    devel: true, maintenance: true } # see http://www.freetds.org/files/stable/ vs. http://www.freetds.org/files/current/ - stable and devel versions interchange within a single scheme
 - { name: freetuxtv,                   verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: freewnn,                     ver: "1.1.1",                 ruleset: pld,         incorrect: true }
 - { name: freewnn,                                                   ruleset: pld,         untrusted: true }
