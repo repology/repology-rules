@@ -138,6 +138,8 @@
 - { name: gnubg,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: gnugo,                       verpat: "[0-9]+\\.[0-9]*[13579](\\..*)?",           devel: true } # assumed; see http://git.savannah.gnu.org/cgit/gnugo.git/
 - { name: gnulib,                                                                          noscheme: true }
+- { name: gnumeric,                    ver: "1.12.45",               ruleset: solus,       incorrect: true } # not released as per 2019-05-01
+- { name: gnumeric,                                                  ruleset: solus,       untrusted: true } # accused of fake 1.12.45
 - { name: gnunet,                      verpat: "0\\.10\\.2.*",       ruleset: openwrt,     ignore: true }
 - { name: gnuradio,                    ver: "3.7.11.1",              ruleset: nix,         incorrect: true }
 - { name: gnuradio,                                                  ruleset: nix,         untrusted: true }
