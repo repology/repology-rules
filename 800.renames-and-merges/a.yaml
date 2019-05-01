@@ -23,6 +23,7 @@
 - { setname: acpi-call,                name: acpi-call-ck, addflavor: true }
 - { setname: acpica,                   namepat: "acpica-(?:tools|unix|utils)" }
 - { setname: acpid,                    name: acpid2 }
+- { setname: acr38u,                   name: [acr38,libacr38u,pcsc-acr38] }
 - { setname: acroread,                 name: [adobereader,adobe-reader] }
 - { setname: acroread,                 namepat: "acroread[0-9.]*" }
 - { setname: acroread-asianfonts,      namepat: "acroread9-.*font.*", ruleset: pkgsrc }
