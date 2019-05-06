@@ -27,6 +27,11 @@
 
 - { name: tg, wwwpart: vysheng/tg, setname: telegram-cli }
 
+- { name: thrust, wwwpart: breach, setname: thrust-framework }
+- { name: thrust, category: [games, universe/games], setname: thrust-game }
+- { name: thrust, wwwpart: thrust.github.io, setname: thrust-parallel-library }
+- { name: thrust, warning: "please classify me" }
+
 # GNU time vs. xemacs module
 - { name: time, setname: xemacs-time, wwwpart: xemacs } # gentoo
 - { name: time, setname: psutils-time, wwwpart: lukesampson }
