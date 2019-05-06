@@ -6,11 +6,15 @@
 
 - { remove: true,   name: base-files }
 
+- { remove: true,   name: build-tools,  ruleset: adelie }  # like Debian 'build-essential'
+
 - { remove: true,   name: docbook,      ruleset: [ freebsd, ravenports ] }
 
 - { remove: true,   name: haskell-platform, ruleset: gentoo }
 
 - { remove: true,   name: [kde-baseapps,kde-baseapps4,kde4-baseapps,kde5-baseapps] }
+
+- { remove: true,   name: [kde-education,kde-system,kde-utilities], ruleset: adelie }
 
 - { remove: true,   name: kicad-meta }
 
@@ -25,6 +29,7 @@
 - { remove: true,   name: lxqt-metapackages }
 
 - { remove: true,   name: mate-applets-meta }
+- { remove: true,   name: mate-complete, ruleset: adelie }  # equivalent to mate-desktop-environment
 - { remove: true,   name: mate-desktop-environment }
 
 - { remove: true,   name: plasma,       category: kde-frameworks } # gentoo metaport
@@ -70,6 +75,7 @@
 - { remove: true,   name: vuze-coreplugins, ruleset: gentoo } # just a set of bundled plugins under vuze version
 
 # X11 metaports
+- { remove: true,   name: x11 }
 - { remove: true,   name: x11-app }
 - { remove: true,   name: x11-apps }
 - { remove: true,   name: x11-base }
@@ -95,6 +101,8 @@
 - { remove: true,   name: [xorg-75dpi-fonts,xorg-fonts-75dpi], ruleset: [ freebsd, ravenports ] }
 - { remove: true,   name: [xorg-cyrillic-fonts,xorg-fonts-cyrillic], ruleset: [ freebsd, ravenports ] }
 - { remove: true,   name: [xorg-type1-fonts,xorg-fonts-type1], ruleset: [ freebsd, ravenports ] }
+
+- { remove: true,   name: [xfce-desktop,xfce-plugins], ruleset: adelie }
 
 # openpkg uses module packs versioned after corresponding language
 - { ruleset: openpkg, namepat: "perl-.*",         remove: true }
