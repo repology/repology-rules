@@ -309,6 +309,7 @@
 - { setname: "gstreamer1plugins:base", name: ["gstreamer1plugins:base-libs"], addflavor: true }
 - { setname: "gstreamer1plugins:ugly", name: ["gstreamer1plugins:ugly-free"], addflavor: true }
 - { setname: gstreamermm,              namepat: "(?:lib)?gstreamer[0-9.-]*mm[0-9.-]*" }
+- { setname: gsutil,                   name: "python:gsutil" }
 - { setname: gtest,                    name: [googletest,libgtest] }
 - { setname: gtk,                      namepat: "(?:lib)?gtk[0-9.+-]*(-reference)?", addflavor: $1 }
 - { setname: gtk-doc,                  name: gtk-doc-am, addflavor: am }
