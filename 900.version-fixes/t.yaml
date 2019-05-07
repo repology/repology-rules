@@ -44,6 +44,7 @@
 - { name: template-glib,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: termshark,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: tesseract-game,              verpat: "(20[0-9]{2})[^0-9]?([0-9]{2})[^0-9]?([0-9]{2})", setver: "$1_$2_$3" }
+- { name: tesseract-ocr,               verpat: ".*[ab].*",                                 devel: true }
 - { name: tesseract-ocr-data,          verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: testdisk,                    ver: "7.1",                                         devel: true }
 - { name: testdisk,                    verpat: "(.*)\\.w(?:ip)?",                          setver: $1 }
