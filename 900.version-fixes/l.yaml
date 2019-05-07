@@ -18,7 +18,7 @@
 - { name: lha,                         verpat: "[0-9]{3}.*",                               incorrect: true } # it's e.g 1.14i
 - { name: lha,                         ver: "1.17",                  ruleset: [arch,gobolinux], incorrect: true }
 - { name: libredwg,                    verpat: "[0-9]+\\.[0-9]+\\.0\\.[0-9]+",             devel: true }
-- { name: libreoffice,                 verge: "6.2.3",                                     devel: true, maintenance: true } # 6.2.2 is stable
+- { name: libreoffice,                 verge: "6.2.4",                                     devel: true, maintenance: true } # 6.2.3 is stable
 - { name: liferea,                     verpat: "(.*)[ab]",                                 setver: $1 } # distfiles are sometimes rerolled, upstream misbehavior
 - { name: lightdm-gtk-greeter,         verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: lightsoff,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
