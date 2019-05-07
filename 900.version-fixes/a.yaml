@@ -6,7 +6,10 @@
 - { name: aalib,                       verpat:  "1\\.4\\.0.*",                             incorrect: true } # 1.4rc5
 - { name: abc,                                                                             noscheme: true }
 - { name: abcmidi,                     verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" }
-- { name: abuse,                       ver: "2.0",                   ruleset: pkgsrc,      ignore: true } # ?
+- { name: abuse,                       ver: "2.0",                   ruleset: pkgsrc,      incorrect: true }
+- { name: abuse,                                                     ruleset: pkgsrc,      untrusted: true }
+- { name: abuse,                       ver: "0.9",                   ruleset: fedora,      incorrect: true }
+- { name: abuse,                                                     ruleset: fedora,      untrusted: true }
 - { name: accerciser,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ack,                         verpat: "2\\.[0-9]{3,}.*",                          incorrect: true } # perl version mangling issues
 - { name: ack,                         verpat: "2\\.[0-9]{,2}[._]0[0-9]",                  devel: true } # e.g. 2.23_02, 2.23_01 as opposed to 2.22
@@ -17,6 +20,7 @@
 - { name: acpitool,                    ver: "0.5.2",                 ruleset: t2,          incorrect: true }
 - { name: acpitool,                                                  ruleset: t2,          untrusted: true }
 - { name: actiona,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: adjtimex,                    verpat: ".*_.*",                                    debianism: true }
 - { name: adwaita-icon-theme,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: aeskulap,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: aeskulap,                    verpat: ".*g.*",                                    snapshot: true }
@@ -45,11 +49,16 @@
 - { name: aldo,                        ver: "0.7.8",                 ruleset: aur,         incorrect: true }
 - { name: [alienarena, alienarena-data], verpat: ".*20[0-9]{6}.*",                         snapshot: true }
 - { name: alsamixergui,                ver: "0.9.0.1.2",                                   incorrect: true } # gentoo, so fake. it's 0.9.0rc1-2
+- { name: alsaplayer,                  ver: "0.99.82",               ruleset: rosa,        incorrect: true }
+- { name: alsaplayer,                                                ruleset: rosa,        untrusted: true }
 - { name: amanith,                     verpat: "[0-9]{2}",                                 incorrect: true } # T2; 0.3, not 03
 - { name: amarok,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true } # nix garbage
+- { name: amarok,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: amarok,                                                    ruleset: freebsd,     untrusted: true }
 - { name: amass,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: amiwm,                       ver: "0.21.2",                                      incorrect: true } # it's 0.21pl2; the projects is dead since 2010, so I see no need to bother with pattern rule
 - { name: amiwm,                                                                           p_is_patch: true }
+- { name: amtterm,                     verpat: ".*-.*",              ruleset: nix,         snapshot: true }
 - { name: amule,                       verpat: "[0-9]{5}",                                 snapshot: true } # revision
 - { name: amule,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: amule,                       ver: "2.3.2.1",                                     incorrect: true }
