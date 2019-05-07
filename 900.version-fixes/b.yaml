@@ -31,6 +31,7 @@
 - { name: bennugd-modules,                                                                 noscheme: true }
 - { name: betty,                                                     ruleset: aur,         untrusted: true }
 - { name: betty,                       ver: "0.1.8",                 ruleset: aur,         incorrect: true }
+- { name: bibtex2html,                 verlonger: 2,                 ruleset: aur,         incorrect: true }
 - { name: biew,                        verpat: "[0-9]{3}.*",                               incorrect: true }
 - { name: bijiben,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: bind,                                                                            p_is_patch: true }
@@ -47,6 +48,7 @@
 - { name: bittornado,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: bittornado,                  verge: "0.4.0",                                     successor: true } # https://github.com/effigies/BitTornado
 - { name: blackbox,                    verpat: ".*20[0-9]{6}.*",                           ignore: true }
+- { name: bladerf,                     verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: blas,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: blas,                        ver: "3.9.2",                 ruleset: sisyphus,    ignore: true } # totally fake
 - { name: bleachbit,                   ver: "2.1",                   ruleset: void,        incorrect: true }
@@ -54,6 +56,8 @@
 - { name: blinken,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: bloodfrontier,               ver: "0.85",                                        setver: b2 }
 - { name: bluej,                       verpat: "[0-9]+",                                   ignore: true }
+- { name: bluez-tools,                                                                     noscheme: true }
+- { name: bmon,                        ver: "999",                                         incorrect: true, disposable: true } # gentoo
 - { name: bomber,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: bonnie++,                    verpat: "1\\.9[0-9]+.*",                            devel: true } # https://doc.coker.com.au/projects/bonnie/; 2.0 will be stable
 - { name: boomaga,                     ver: "3.3.0",                 ruleset: fedora,      incorrect: true }
@@ -86,6 +90,7 @@
 - { name: busybox,                     verpat: "[0-9]{4}.*",                               incorrect: true } # scoop
 - { name: byobu,                       ver: "5.126",                 ruleset: debuntu,     incorrect: true }
 - { name: byobu,                                                     ruleset: debuntu,     untrusted: true }
+- { name: byzanz,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: bzip2,                       ver: "1.0.6.0.1",                                   ignore: true } # nix fake; real version is 1.0.6
 - { name: bzr-fastimport,              verpat: ".*r.*",                                    ignore: true } # arch snapshot
 - { name: bzr-rewrite,                                               ruleset: aur,         untrusted: true }
