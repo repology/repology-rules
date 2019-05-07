@@ -48,7 +48,6 @@
 - { name: bittornado,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: bittornado,                  verge: "0.4.0",                                     successor: true } # https://github.com/effigies/BitTornado
 - { name: blackbox,                    verpat: ".*20[0-9]{6}.*",                           ignore: true }
-- { name: bladerf,                     verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: blas,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: blas,                        ver: "3.9.2",                 ruleset: sisyphus,    ignore: true } # totally fake
 - { name: bleachbit,                   ver: "2.1",                   ruleset: void,        incorrect: true }
