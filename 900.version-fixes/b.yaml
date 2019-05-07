@@ -20,6 +20,9 @@
 - { name: batmand,                     verpat: "[0-9]{4}",                                 ignore: true } # revision
 - { name: bats,                        ver: "1.0",                   ruleset: sisyphus,    ignore: true } # totally fake
 - { name: bbswitch,                    verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
+- { name: bcache-tools,                ver: "1.0.9",                 ruleset: opensuse,    incorrect: true }
+- { name: bcache-tools,                                              ruleset: opensuse,    untrusted: true }
+- { name: bcache-tools,                verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: bcachefs-tools,                                                                  noscheme: true }
 - { name: bcal,                        ver: "2.1.12",                ruleset: freebsd,     incorrect: true }
 - { name: bcal,                                                      ruleset: freebsd,     untrusted: true } # accused of fake 2.1.12
