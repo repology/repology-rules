@@ -58,7 +58,8 @@
 
 - { name: etcd, verpat: "1.*", setname: "etcd-player" } # Enhanced Tiny CD, a simple ncurses-based CD player vs. coreos etcd
 
-- { name: exo, wwwpart: exo-2, setname: "fonts:exo" } # Enhanced Tiny CD, a simple ncurses-based CD player vs. coreos etcd
+- { name: exo, wwwpart: exo-2, setname: "fonts:exo" }
+- { name: exo, wwwpart: exoscale, setname: exoscale-cli }
 
 - { name: express, wwwpart: bio.math.berkeley.edu, setname: express-rna-seq }
 - { name: express, wwwpart: expressjs, setname: expressjs }
