@@ -24,7 +24,8 @@
 - { name: gcr,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gd,                          ver: "2.25",                                        incorrect: true } # 2.2.5
 - { name: gd,                          verpat: "2\\.[0-9]{2}",       ruleset: gobolinux,   untrusted: true }
-- { name: gdal,                        verpat: ".*20[0-9]{6}",                             ignore: true }
+- { name: gdal,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: gdal,                        verpat: ".*\\.[89][0-9]",     ruleset: kaos,        incorrect: true } # 2.5.0RC1 actually
 - { name: gdash,                       verpat: "(20[0-9]{6})unstable",                     setver: "$1" }
 - { name: gdb,                         verpat: ".*20[0-9]{2}.*",                           snapshot: true }
 - { name: gdb,                         verpat: ".*\\.[59]0",                               devel: true }
