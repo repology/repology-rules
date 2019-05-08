@@ -6,6 +6,8 @@
 
 - { remove: true,   name: base-files }
 
+- { remove: true,   name: basesystem }
+
 - { remove: true,   name: build-tools,  ruleset: adelie }  # like Debian 'build-essential'
 
 - { remove: true,   name: docbook,      ruleset: [ freebsd, ravenports ] }
