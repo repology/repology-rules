@@ -12,6 +12,12 @@
 - { name: rdd, wwwpart: r043v, setname: rdd-redis }
 - { name: rdd, warning: "please classify me" }
 
+- { name: redo, wwwpart: jdebp.eu, setname: redo-jdebp }
+- { name: redo, wwwpart: [redo.readthedocs.io, github.com/apenwarr, apenwarr.ca], setname: redo-apenwarr }
+- { name: redo, ruleset: exherbo, setname: redo-jdebp }
+- { name: redo, ruleset: solus, setname: redo-apenwarr }
+- { name: redo, warning: "please classify me" }
+
 - { name: rem, wwwpart: kykim, setname: rem-kykim }
 
 - { name: rescue, wwwpart: rescue.sourceforge.net, setname: rescue-max }
