@@ -6,6 +6,8 @@
 - { name: aalib,                       verpat:  "1\\.4\\.0.*",                             incorrect: true } # 1.4rc5
 - { name: abc,                                                                             noscheme: true }
 - { name: abcmidi,                     verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" }
+- { name: abseil-cpp,                  verpat: ".*[0-9a-f]{40}",                           incorrect: true } # nix
+- { name: abseil-cpp,                  verpat: "[0-9]{4}-[0-9]{2}-[0-9]{2}",               incorrect: true } # vcpkg (it's YYYYMMDD, not YYYY-MM-DD)
 - { name: abuse,                       ver: "2.0",                   ruleset: pkgsrc,      incorrect: true }
 - { name: abuse,                                                     ruleset: pkgsrc,      untrusted: true }
 - { name: abuse,                       ver: "0.9",                   ruleset: fedora,      incorrect: true }
