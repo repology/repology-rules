@@ -35,7 +35,12 @@
 - { setname: telegram-desktop,         name: linux-telegram-desktop, ruleset: freebsd }
 - { setname: telegram-desktop,         name: telegram-desktop-beta }
 - { setname: telepathy-farstream,      name: [libtelepathy-farstream,telepathy-farstream-0.4] }
+- { setname: telepathy-gabble,         name: telepathy-gabble-cisco, addflavor: true }
 - { setname: telepathy-glib,           name: libtelepathy-glib }
+- { setname: telepathy-haze,           name: telepathy-haze-template, addflavor: true }
+- { setname: telepathy-mission-control, name: telepathy-mission-control-5 }
+- { setname: telepathy-python,         name: ["python:telepathy","python:telepathy-python"] }
+- { setname: telepathy-qt,             name: [telepathy-qt4,telepathy-qt5] }
 - { setname: template-glib,            name: libtemplate-glib }
 - { setname: tepl,                     name: tepl3 }
 - { setname: terminal-markdown-viewer, name: mdv }
