@@ -77,6 +77,8 @@
 - { name: tmfs,                        verpat: "r([.0-9]+)",                               setver: "$1" }
 - { name: tolua++,                     ver: "1.0.94",                ruleset: maemo,       ignore: true }
 - { name: tomahawk,                    verpat: "0\\.8\\.99.*",                             ignore: true } # fake
+- { name: tomcat,                      ver: "9.0.20",                ruleset: scoop,       incorrect: true }
+- { name: tomcat,                                                    ruleset: scoop,       untrusted: true }
 - { name: tome2,                       ver: "235",                                         incorrect: true }
 - { name: tor,                         verpat: "([0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)[._-]?[abr].*", setver: "$1", devel: true } # version is self-sufficient; remove redundant alpha/rc suffix, but set devel
 - { name: tor,                         verge: "0.4.1",                                     devel: true, maintenance: true } # 0.4.0 stable since 0.4.0.5
