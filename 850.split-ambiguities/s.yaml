@@ -147,9 +147,10 @@
 - { name: swarp, warning: "please classify me" }
 
 # Programming language vs. XMPP client vs. openstack object storage
-- { name: swift,                       setname: swift-lang, ruleset: [ arch, freebsd ] }
-- { name: swift,                       setname: swift-im, ruleset: [ sisyphus, fedora, pkgsrc ] }
-- { name: swift,                       setname: openstack-swift, ruleset: [ debuntu, gentoo ] }
+- { name: swift, wwwpart: [apple,swift.org], setname: swift-lang }
+- { name: swift, wwwpart: swift.im, setname: swift-im }
+- { name: swift, wwwpart: [openstack,launchpad.net/swift], setname: openstack-swift }
+- { name: swift, summpart: openstack, setname: openstack-swift }
 - { name: swift, warning: "please classify me" }
 
 - { name: sx, wwwpart: earnestly, setname: sx-startx }

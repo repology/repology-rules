@@ -226,6 +226,9 @@
 - { setname: sweethome3d,              name: [sweet-home-3d,sweethome3d-application] }
 - { setname: swi-prolog,               name: [swi-prolog-doc,swi-prolog-jpl,swi-prolog-lite,swi-prolog-packages], addflavor: true }
 - { setname: swi-prolog,               name: swi-prolog-devel, weak_devel: true }
+- { setname: swift,                    name: swift-bin, addflavor: bin }
+- { setname: swift,                    name: swift-bin, addflavor: bin }
+- { setname: swift-lang,               name: swift-language }
 - { setname: swig,                     namepat: "swig-(.*)", ruleset: macports, addflavor: $1 } # split by supported language
 - { setname: swig,                     namepat: "swig[0-9.-]+" }
 - { setname: swissfileknife,           name: sfk }
