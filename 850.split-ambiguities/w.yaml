@@ -31,7 +31,7 @@
 - { name: words, wwwpart: wordsdoc, setname: words-latin }
 - { name: words, wwwpart: ftp.gnu.org/gnu/aspell, setname: words-international }
 - { name: words, ruleset: pclinuxos, setname: words-moby }
-- { name: words, ruleset: sisyphus, setname: words-ibiblio } # not sure what this is
+- { name: words, ruleset: [sisyphus,pld], setname: words-usr-share-dict } # distinguished by linux.words.2.tar.vz2 distname hosted on ibiblio/sunsite.unc.edu ancient mirrors
 - { name: words, warning: "please classify me" }
 
 - { name: wpa, wwwpart: wpa_supplicant, setname: wpa-supplicant } # play it safe with essentially ambigous name
