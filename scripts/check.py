@@ -61,6 +61,7 @@ families = [
     'lunar',
     'macports',
     'mageia',
+    'mer',
     'msys2',
     'nix',
     'openbsd',
