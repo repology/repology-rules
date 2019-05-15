@@ -113,6 +113,8 @@
 - { name: sparc-utils,                 verpat: ".*-.*",                                    debianism: true } # t2
 - { name: sparse,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: sparse,                      verge: "20000000", verle: "20180430",               outdated: true } # 0.5.2 from 20180430
+- { name: sparse,                      ver: "0.6.1",                 ruleset: sisyphus,    incorrect: true } # rc1
+- { name: sparse,                                                    ruleset: sisyphus,    untrusted: true }
 - { name: spatialite-gui,              ver: "2.0.0",                                       devel: true }
 - { name: spdlog,                      ver: "1.6",                                         outdated: true }
 - { name: spe,                         ver: "0.8.4h",                                      incorrect: true } # openbsd; it's 0.8.4.h
