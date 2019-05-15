@@ -177,8 +177,9 @@
 - { name: love,              verpat: "0\\.9\\..*",        setname: love09 }
 - { name: love,              verpat: "0\\.8\\..*",        setname: love08 }
 - { name: love,              verpat: "0\\.7\\..*",        setname: love07 }
+- { name: love,              verpat: "0\\.6\\..*",        setname: love06 }
 - { name: love,              verpat: "0\\.5\\..*",        setname: love05 }
-- { name: love,              warning: "please classify me" }
+- { name: love,              warning: "please classify me" }  # XXX: fires on 9999 r2651.7f6a147e5501; merge everything into love when branches are supported
 
 - { name: lua,               verpat: "4\\..*",            setname: lua4 }
 - { name: lua,               verpat: "5\\.0\\..*",        setname: lua50 }
