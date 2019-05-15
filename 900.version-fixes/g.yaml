@@ -146,7 +146,7 @@
 - { name: gnuradio,                                                  ruleset: nix,         untrusted: true }
 - { name: gnuradio,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: gnustep-edenmath,            ver: "1.1.1a",                                      incorrect: true } # debian fake; their archive of "1.1.1a" only mentions 1.1.1
-- { name: gnutls,                      verpat: "3\\.6\\..*",                               devel: true } # stable-next branch; it's claimed to be stable but undertested, but in fact it is widely used already, so `devel' is not entirely correct here, but use it to allow 3.6 and 3.5 coexist for now
+- { name: gnutls,                      verpat: "3\\.7\\..*",                               devel: true, maintenance: true } # stable-next branch; it's claimed to be stable but undertested, but in fact it is widely used already, so `devel' is not entirely correct here, but use it to allow 3.6 and 3.5 coexist for now
 - { name: go,                                                        ruleset: aur,         untrusted: true } # blunt lie https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=go1.13
 - { name: "go:bindata",                verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: "go:bindata",                ver: "3.1.0",                 ruleset: freebsd,     incorrect: true }
