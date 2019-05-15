@@ -8,7 +8,8 @@
 - { name: rc, wwwpart: crux, setname: rc-crux }
 
 - { name: rdd, category: [app-forensics,Archiving/Backup], setname: rdd-forensic }
-- { name: rdd, wwwpart: chneukirchen, setname: rdd-random }
+- { name: rdd, wwwpart: [chneukirchen,leahneukirchen], setname: rdd-random }
+- { name: rdd, ver: ["2.0.7", "3.0.1", "3.0.2", "3.0.4"], setname: rdd-forensic } # https://sourceforge.net/projects/rdd/files/rdd/
 - { name: rdd, wwwpart: r043v, setname: rdd-redis }
 - { name: rdd, warning: "please classify me" }
 
