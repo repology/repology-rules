@@ -10,9 +10,11 @@
 - { name: magnum, summpart: middleware, setname: magnum-middleware }
 - { name: magnum, warning: "please classify me" }
 
-- { name: mako, wwwpart: mako-project, setname: mako-wayland }
+- { name: mako, wwwpart: [mako-project,emersion], setname: mako-wayland }
 - { name: mako, wwwpart: makotemplates, setname: "python:mako" }
 - { name: mako, category: lang, ruleset: openwrt, setname: "python:mako" }
+- { name: mako, category: programming.python, setname: "python:mako" }
+- { name: mako, ruleset: slackware, setname: "python:mako" }
 - { name: mako, warning: "please classify me" }
 
 - { name: man, wwwpart: man-db,        setname: man-db }
