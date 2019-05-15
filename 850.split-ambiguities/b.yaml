@@ -23,7 +23,8 @@
 - { name: bc, setname: bc-gh, wwwpart: gavinhoward }
 
 - { name: bcc, wwwpart: iovisor, setname: bcc-bpf }
-- { name: bcc, ruleset: [freebsd,pkgsrc,openindiana], setname: bcc-bruceevans }
+- { name: bcc, summpart: bpf, setname: bcc-bpf }
+- { name: bcc, ruleset: [freebsd,pkgsrc,openindiana,pld], setname: bcc-bruceevans }
 - { name: bcc, warning: "please classify me" }
 
 - { name: beanshell, ruleset: kaos,                       setname: beanshell2 }
