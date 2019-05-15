@@ -5,9 +5,8 @@
 - { name: idea, warning: "please classify me" }
 
 # distributed compiler vs. stream download utility
-- { name: icecream,                    setname: icecream-distributed-compiler, verpat: "1\\.[01].*" }
-- { name: icecream,                    setname: icecream-stream-extractor,     ver: "1.3" }
-- { name: icecream,                    warning: "please classify me" }
+- { name: icecream, wwwpart: icemon, setname: icemon }
+- { name: icecream, warning: "please classify me" }
 
 - { name: ion, wwwpart: redox-os, setname: ion-redox }
 - { name: ion, wwwpart: ion.ocp.ohiou.edu, setname: ion-overlay-network }

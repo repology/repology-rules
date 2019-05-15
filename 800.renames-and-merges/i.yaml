@@ -14,6 +14,7 @@
 - { setname: icecat,                   name: icecat-debug, addflavor: debug }
 - { setname: icecat,                   namepat: "icecat-(l10n.*)", addflavor: $1 }
 - { setname: icedove,                  namepat: "icedove-(l10n.*)", addflavor: $1 }
+- { setname: icemon,                   name: [icecream-monitor, icecc-monitor] }
 - { setname: ices,                     namepat: "ices[0-9]+" }
 - { setname: icesl,                    name: icesl-beta }
 - { setname: iceweasel-uxp,            namepat: "iceweasel-uxp-(l10n-.*)", addflavor: $1 }
