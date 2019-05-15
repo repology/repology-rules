@@ -170,6 +170,7 @@
 - { name: stp,                         verpat: "[0-9]{4,}",                                incorrect: true }
 - { name: stp,                         verpat: "201[56].*",                                outdated: true }
 - { name: strongswan,                  verpat: ".*dr.*",                                   devel: true }
+- { name: stunnel,                     verpat: ".*b.*",                                    devel: true }
 - { name: sudo,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+",        ignore: true } # it's mangled A.B.CpD; XXX: also has a problem of 1.2.3p1 which follows 1.2.3
 - { name: sudo,                                                      ruleset: fedora,      untrusted: true } # accused in dropping prerelease suffix
 - { name: sudo,                                                                            p_is_patch: true }
