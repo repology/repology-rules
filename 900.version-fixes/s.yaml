@@ -122,8 +122,8 @@
 - { name: spectacle,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: speex,                       verlonger: 3,                 ruleset: openindiana, ignore: true }
 - { name: speexdsp,                    ver: "1.2.0.3",                                     incorrect: true } # it's 1.2rc3
-- { name: speexdsp,                    ver: "1.2",                   ruleset: [sisyphus,mageia,openmandriva,pld], incorrect: true } # it's 1.2rc3
-- { name: speexdsp,                                                  ruleset: [sisyphus,mageia,openmandriva,pld], untrusted: true }
+- { name: speexdsp,                    ver: "1.2",                   ruleset: [sisyphus,mageia,openmandriva,pld,mer], incorrect: true } # it's 1.2rc3
+- { name: speexdsp,                                                  ruleset: [sisyphus,mageia,openmandriva,pld,mer], untrusted: true }
 - { name: spek,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]+_[0-9a-f]{10}",    ignore: true }
 - { name: sphinxbase,                  ver: "0.9",                                         incorrect: true } # 5prealpha
 - { name: spi-tools,                   ver: "1",                                           incorrect: true } # https://github.com/cpb-/spi-tools/releases
