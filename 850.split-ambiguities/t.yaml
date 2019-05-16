@@ -1,5 +1,11 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: task, wwwpart: taskfile, setname: "go:task" }
+- { name: task, wwwpart: taskwarrior, setname: taskwarrior }
+- { name: task, summpart: todo, setname: taskwarrior }
+- { name: task, ruleset: exherbo, setname: taskwarrior }
+- { name: task, warning: "please classify me" }
+
 - { name: tcp-wrappers, wwwpart: apple.com, setname: tcp-wrappers-apple }
 
 - { name: telegram, wwwpart: telegram.org, setname: telegram-desktop }
