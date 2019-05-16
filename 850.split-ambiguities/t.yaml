@@ -24,11 +24,13 @@
 # infrastructure manager vs. heighfield generation
 - { name: terraform, setname: gnome-terraform, ruleset: yacp }
 
-- { name: tesseract, setname: tesseract-game, wwwpart: tesseract.gg }
-- { name: tesseract, setname: tesseract-game, category: games }
-- { name: tesseract, setname: tesseract-ocr, wwwpart: tesseract-ocr } # fallthrough
-- { name: tesseract, setname: tesseract-ocr, category: [graphics,app-text,libs] }
-- { name: tesseract, setname: tesseract-ocr, ruleset: [vcpkg] }
+- { name: tesseract, wwwpart: tesseract.gg, setname: tesseract-game }
+- { name: tesseract, category: games, setname: tesseract-game }
+- { name: tesseract, wwwpart: tesseract-ocr, setname: tesseract-ocr }
+- { name: tesseract, wwwpart: UB-Mannheim/tesseract, setname: tesseract-ocr, ignore: true } # some kind of fork with version addendum
+- { name: tesseract, summpart: ocr, setname: tesseract-ocr }
+- { name: tesseract, category: [graphics,app-text,libs], setname: tesseract-ocr }
+- { name: tesseract, ruleset: [openwrt,vcpkg,pld,solus], setname: tesseract-ocr }
 - { name: tesseract, warning: "please classify me" }
 
 - { name: tg, wwwpart: vysheng/tg, setname: telegram-cli }
