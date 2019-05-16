@@ -22,6 +22,7 @@
 - { name: sdb, wwwpart: mono, setname: sdb-mono }
 - { name: sdb, wwwpart: [shotgun,game], setname: shotgun-debugger }
 - { name: sdb, wwwpart: radare, setname: sdb-hashtable }
+- { name: sdb, ruleset: openmandriva, setname: sdb-client }
 - { name: sdb, warning: "please classify me" }
 
 - { name: sensors, wwwpart: lm-sensors, setname: lm-sensors } # XXX: problem
