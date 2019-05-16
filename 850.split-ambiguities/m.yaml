@@ -19,13 +19,14 @@
 
 - { name: man, wwwpart: man-db,        setname: man-db }
 
-- { name: mars,                        category: games, setname: m.a.r.s. }
-- { name: mars,                        wwwpart: [marsshooter,mars-game], setname: m.a.r.s. }
-- { name: mars,                        wwwpart: www.mpibpc.mpg.de, setname: mars-proteins-assignment }
-- { name: mars,                        wwwpart: Sony-PS3/mars, setname: mars-runtime-system }
-- { name: mars,                        category: Development/Java, setname: mars-mips }
-- { name: mars,                        wwwpart: courses.missouristate.edu, setname: mars-mips }
-- { name: mars,                        warning: "please classify me" }
+- { name: mars, category: games, setname: m.a.r.s. }
+- { name: mars, wwwpart: [marsshooter,mars-game], setname: m.a.r.s. }
+- { name: mars, wwwpart: www.mpibpc.mpg.de, setname: mars-proteins-assignment }
+- { name: mars, wwwpart: Sony-PS3/mars, setname: mars-runtime-system }
+- { name: mars, category: Development/Java, setname: mars-mips }
+- { name: mars, wwwpart: courses.missouristate.edu, setname: mars-mips }
+- { name: mars, ruleset: pld, setname: marsnomercy }
+- { name: mars, warning: "please classify me" }
 
 - { name: mash, wwwpart: [pagure,fedora], setname: mash-pagure }
 - { name: mash, wwwpart: [mash.readthedocs,marbl], setname: mash-genome-distance }
