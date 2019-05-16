@@ -51,11 +51,11 @@
 - { name: dotty, wwwpart: google/dotty, setname: "python:efilter" }  # why the f is the repo named dotty?
 - { name: dotty, warning: "please classify me" }
 
-- { name: dragon, ruleset: [freebsd,openpkg], setname: dragon-scannerparser }
 - { name: dragon, wwwpart: kde.org, setname: dragon-player }
-- { name: dragon, ruleset: [kaos,slackware], setname: dragon-player }
 - { name: dragon, category: [kde,multimedia], setname: dragon-player } # aosc, exherbo, openbsd
 - { name: dragon, wwwpart: mwh, setname: dragon-drag-and-drop }
+- { name: dragon, ruleset: [freebsd,openpkg], setname: dragon-scannerparser }
+- { name: dragon, ruleset: [kaos,slackware,pclinuxos], setname: dragon-player }
 - { name: dragon, warning: "please classify me" }
 
 - { name: drake, wwwpart: ytomino, setname: drake-ada }
