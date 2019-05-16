@@ -10,6 +10,7 @@
 
 - { name: telegram, wwwpart: telegram.org, setname: telegram-desktop }
 - { name: telegram, wwwpart: vysheng/tg, setname: telegram-cli }
+- { name: telegram, ruleset: [mx,solus,pclinuxos], setname: telegram-desktop }
 - { name: telegram, warning: "please classify me" }
 
 - { name: telnet, wwwpart: apple.com, setname: telnet-apple } # 60
