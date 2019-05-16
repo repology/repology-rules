@@ -96,9 +96,10 @@
 - { name: crawl, category: games, setname: stone-soup }
 
 - { name: ctags, wwwpart: sourceforge, setname: exuberant-ctags }
-- { name: ctags, verpat: "5\\.8.*",    setname: exuberant-ctags }
-- { name: ctags, wwwpart: universal,   setname: universal-ctags }
-- { name: ctags,                       warning: "please classify me" }
+- { name: ctags, wwwpart: [universal,ctags.io], setname: universal-ctags }
+- { name: ctags, verpat: "5\\.[78].*", setname: exuberant-ctags }
+- { name: ctags, ruleset: [aosc], setname: universal-ctags }
+- { name: ctags, warning: "please classify me" }
 
 - { name: cutter, wwwpart: [digitage,lowth], setname: cutter-tcp } # TCP/IP Connection Cutter
 - { name: cutter, category: [net,universe/net,Networking/Other], setname: cutter-tcp }

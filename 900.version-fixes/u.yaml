@@ -23,6 +23,7 @@
 - { name: unison,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # XXX: assumed, not confirmed; http://www.cis.upenn.edu/~bcpierce/unison/download.html
 - { name: unit,                        ver: "1.7.1",                 ruleset: openpkg,     incorrect: true }
 - { name: unit,                                                      ruleset: openpkg,     untrusted: true } # accused of fake 1.7.1
+- { name: universal-ctags,                                                                 noscheme: true }
 - { name: unixbench,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: unnethack,                   ver: "5.3.1",                 ruleset: nix,         incorrect: true }
 - { name: unnethack,                                                 ruleset: nix,         untrusted: true }

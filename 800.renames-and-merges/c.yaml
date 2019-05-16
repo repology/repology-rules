@@ -201,8 +201,6 @@
 - { setname: csound,                   name: [csound-manual, csound5-manual, csound6-manual], addflavor: manual }
 - { setname: cstore-fdw,               namepat: "(postgresql[0-9.-]*)-cstore-fdw", addflavor: $1 }
 - { setname: csvkit,                   name: "python:csvkit" }
-- { setname: ctags,                    name: [ectags,exctags,exuberant-ctags] } # exuberant and universal are split later
-- { setname: ctags,                    name: universal-ctags } # exuberant and universal are split later
 - { setname: ctemplate,                name: [google-ctemplate,libctemplate] }
 - { setname: ctpp2,                    name: ctpp }
 - { setname: ctypes.sh,                name: ctypes-sh }
