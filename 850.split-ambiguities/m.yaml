@@ -73,11 +73,11 @@
 - { name: mog, setname: mazeofgalious, wwwpart: braingames }
 - { name: mog, warning: "please classify me" }
 
-- { name: mpd, wwwpart: [musicpd,mpd.wikia.com], setname: musicpd }
-- { name: mpd, category: [media-sound,Sound,audio], setname: musicpd }
+- { name: mpd, wwwpart: [musicpd,mpd.wikia.com], addflag: classified }
+- { name: mpd, category: [media-sound,Sound,audio], addflag: classified }
 - { name: mpd, wwwpart: cs.arizona.edu/mpd, setname: mpd-compiler }
-- { name: mpd, warning: "please classify me" } # nothing should be left here
-- { name: musicpd, setname: mpd } # still use more canonical name
+- { name: mpd, ruleset: [kaos,pld,solus], addflag: classified }
+- { name: mpd, noflag: classified, warning: "please classify me" }
 
 - { name: mtree, wwwpart: deis.unibo.it, setname: m-tree }
 - { name: mtree, wwwpart: archiecobbs, setname: mtree-port }
@@ -90,15 +90,15 @@
 
 - { name: mp3check, wwwpart: icculus, setname: mp3check-icculus }
 
-- { name: mpc, wwwpart: [musicpd,mpd.wikia.com], setname: musicpc }
-- { name: mpc, category: [media-sound,Sound,audio,Sound/Players,universe/sound], setname: musicpc }
+- { name: mpc, wwwpart: [musicpd,mpd.wikia.com], addflag: classified }
+- { name: mpc, category: [media-sound,Sound,audio,Sound/Players,universe/sound], addflag: classified }
 - { name: mpc, wwwpart: multiprecision.org, setname: gnumpc }
 - { name: mpc, category: dev-libs, setname: gnumpc }
+- { name: mpc, wwwpart: mpc-hc, setname: mpc-hc }
 - { name: mpc, ruleset: [rudix,hpux,solus], setname: gnumpc }
 - { name: mpc, ruleset: aosc, category: libs, setname: gnumpc }
-- { name: mpc, wwwpart: mpc-hc, setname: mpc-hc }
-- { name: mpc, warning: "please classify me" } # nothing should be left here
-- { name: musicpc, setname: mpc } # still use more canonical name
+- { name: mpd, ruleset: pld, addflag: classified }
+- { name: mpc, noflag: classified, warning: "please classify me" }
 
 - { name: msgpack, category: dev-java, setname: "java:msgpack" }
 
