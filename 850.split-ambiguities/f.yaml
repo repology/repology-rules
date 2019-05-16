@@ -1,7 +1,7 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
 - { name: fail, ruleset: pld, setname: fail-atari }
-- { name: fail, wwwpart: chneukirchen, setname: fail-crash }
+- { name: fail, wwwpart: [chneukirchen,leahneukirchen], setname: fail-crash }
 - { name: fail, warning: "please classify me" }
 
 - { name: fex, wwwpart: [semicomplete,jordansissel], setname: fex-field-extraction }
