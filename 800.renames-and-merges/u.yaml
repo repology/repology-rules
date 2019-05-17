@@ -24,7 +24,8 @@
 - { setname: unburden-home-dir,        name: "perl:unburden-home-dir" }
 - { setname: uncrustify,               name: uncrustify0.60 }
 - { setname: unibilium,                name: libunibilium }
-- { setname: unicorn-engine,           name: "python:unicorn" }
+- { setname: unicorn-engine,           name: ["python:unicorn", unicorn-emulator] }
+- { setname: unicorn-engine,           name: unicorn-bindings, addflavor: bindings }
 - { setname: unifi,                    name: [unifi5, unifi-lts, ubiquiti-unifi-controller] }
 - { setname: unifi,                    name: [unifi-beta, unifi-devel], weak_devel: true }
 - { setname: unigine-heaven,           name: linux-unigine-heaven, ruleset: freebsd }
