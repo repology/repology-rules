@@ -70,8 +70,8 @@
 - { name: ply, wwwpart: dabeaz, setname: "python:ply" }
 - { name: ply, ruleset: gobolinux, setname: "python:ply" }
 
-- { name: polly, verpat: "4\\..*",     setname: polly-llvm-opt            } # polyhedral optimizationa for llvm
-- { name: polly, verpat: "0\\.93\\..*", setname: polly-twitter-client     } # twitter client
+- { name: polly, wwwpart: launchpad.net/polly, setname: polly-twitter-client }
+- { name: polly, wwwpart: llvm, setname: polly-llvm-opt }
 - { name: polly, warning: "please classify me" }
 
 - { name: poster, setname: "python:poster", category: python } # python module, not a postscript utility
