@@ -115,7 +115,7 @@
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php-(?:(?:pear|pecl)-)?(.*)", ruleset: [mageia,rosa] }
 - { setname: "php$1:$2", addflag: wconce, noflag: [wconce,not_php], namepat: "php([0-9]*)-(.*)", ruleset: [freebsd,macports,openbsd,pkgsrc,ravenports] }
 - { setname: "php$1:$2", addflag: wconce, noflag: [wconce,not_php], namepat: "php([0-9]+)-(.*)", ruleset: arch } # AUR
-- { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php-(.*)", ruleset: [arch,crux,debuntu,fedora,pclinuxos,slackbuilds] }
+- { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php-(.*)", ruleset: [arch,crux,debuntu,fedora,pclinuxos,slackbuilds,nix] }
 - { setname: "php56:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php5-(.*)", ruleset: sisyphus, ignore: true } # XXX: why ignore?
 - { setname: "php56:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php5-(.*)", ruleset: opensuse }
 - { setname: "php56:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php-5_6-ext-(.*)", ruleset: openindiana }
