@@ -98,7 +98,7 @@
 - { name: mpc, wwwpart: mpc-hc, setname: mpc-hc }
 - { name: mpc, ruleset: [rudix,hpux,solus], setname: gnumpc }
 - { name: mpc, ruleset: aosc, category: libs, setname: gnumpc }
-- { name: mpd, ruleset: pld, addflag: classified }
+- { name: mpc, ruleset: pld, addflag: classified }
 - { name: mpc, noflag: classified, warning: "please classify me" }
 
 - { name: msgpack, category: dev-java, setname: "java:msgpack" }
