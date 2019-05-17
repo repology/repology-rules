@@ -134,6 +134,11 @@
 - { name: gnome-user-share,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-weather,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnote,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gns3,                        verge: "2"                                          } # XXX: create problem - no such project, it's either gns2-server or gui and should be named properly
+- { name: gns3-gui,                    ver: "2.2.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: gns3-gui,                                                  ruleset: sisyphus,    untrusted: true }
+- { name: gns3-server,                 ver: "2.2.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: gns3-server,                                               ruleset: sisyphus,    untrusted: true }
 - { name: gnu-efi,                     verpat: "3\\.0[a-z]",                               outdated: true }
 - { name: gnuastro,                    verlonger: 2,                                       devel: true } # alphas
 - { name: gnubg,                       verpat: "20[0-9]{6}",                               ignore: true }
