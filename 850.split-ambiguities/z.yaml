@@ -4,6 +4,7 @@
 
 - { name: zap, wwwpart: owasp, setname: zaproxy }
 - { name: zap, wwwpart: jehops, setname: zap-zfs }
+- { name: zap, wwwpart: uber, setname: "go:uber-zap" } # or go:go.uber-zap
 - { name: zap, ruleset: openbsd, setname: zap-process-killer }
 - { name: zap, warning: "please classify me" }
 
