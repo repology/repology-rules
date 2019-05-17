@@ -4,10 +4,10 @@
 - { name: udptunnel, ruleset: openbsd, setname: udptunnel-lennox }
 
 # emulator vs. ruby-rack http server
-- { name: unicorn, setname: unicorn-emulator, wwwpart: unicorn-engine.org }
-- { name: unicorn, setname: "ruby:unicorn", wwwpart: bogomips.org }
-- { name: unicorn, setname: "ruby:unicorn", ruleset: sisyphus }
-- { name: unicorn, setname: unicorn-emulator, ruleset: gentoo }
+- { name: unicorn, wwwpart: unicorn-engine.org, setname: unicorn-engine }
+- { name: unicorn, wwwpart: bogomips.org, setname: "ruby:unicorn" }
+- { name: unicorn, ruleset: sisyphus, setname: "ruby:unicorn" }
+- { name: unicorn, ruleset: [gentoo,vcpkg], setname: unicorn-engine }
 - { name: unicorn, warning: "please classify me" }
 
 - { name: unique, ruleset: exherbo, setname: libunique }
