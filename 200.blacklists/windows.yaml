@@ -1,8 +1,10 @@
 # vim: tabstop=15 expandtab softtabstop=15
 
+- { name: abyss,             ruleset: reactos,             remove: true }
 - { name: ace,               ruleset: chocolatey,          remove: true }
 - { name: acm,               ruleset: chocolatey,          remove: true }
 - { name: acr,               ruleset: chocolatey,          remove: true }
+- { name: air,               ruleset: reactos,             remove: true }
 - { name: autocomplete,      ruleset: chocolatey,          remove: true }
 - { name: awake,             ruleset: chocolatey,          remove: true }
 - { name: beacon,            ruleset: chocolatey,          remove: true }
@@ -22,6 +24,7 @@
 - { name: gatling,           ruleset: chocolatey,          remove: true }
 - { name: getopt,            ruleset: chocolatey,          remove: true }
 - { name: hdparm,            ruleset: chocolatey,          remove: true }
+- { name: hexedit,           ruleset: reactos,             remove: true }
 - { name: hotswap,           ruleset: chocolatey,          remove: true }
 - { name: hxd,               ruleset: chocolatey,          remove: true }
 - { name: logrotate,         ruleset: chocolatey,          remove: true }
@@ -36,9 +39,11 @@
 - { name: pvm,               ruleset: chocolatey,          remove: true }
 - { name: pwgen,             ruleset: chocolatey,          remove: true }
 - { name: rsync,             ruleset: chocolatey,          remove: true }
+- { name: samba,             ruleset: reactos,             remove: true }
+- { name: sample,            ruleset: chocolatey,          remove: true }
 - { name: sendmail,          ruleset: scoop,               remove: true }
+- { name: snoopy,            ruleset: reactos,             remove: true }
 - { name: steam,             ruleset: [chocolatey,reactos],remove: true }
-- { name: steam,             ruleset: reactos,             remove: true }
 - { name: sumo,              ruleset: chocolatey,          remove: true }
 - { name: sysmon,            ruleset: chocolatey,          remove: true }
 - { name: tcc,               ruleset: chocolatey,          remove: true }
