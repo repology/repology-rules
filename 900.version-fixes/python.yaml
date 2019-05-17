@@ -19,6 +19,7 @@
 - { name: "python:fuse",                                             ruleset: [mageia,pclinuxos,rosa], untrusted: true }
 - { name: "python:gmpy2",              ver: "2.1.0",                 ruleset: fedora,      incorrect: true }
 - { name: "python:gmpy2",                                            ruleset: fedora,      untrusted: true }
+- { name: "python:gmpy2",              verpat: ".*a.*",                                    devel: true }
 - { name: "python:hg-git",             verpat: "[0-9a-f]{12}",                             incorrect: true, disposable: true } # slitaz
 - { name: "python:html2text",          ver: "2018.9.1",                                    incorrect: true, disposable: true } # 2018.1.9
 - { name: "python:httplib2",           verpat: "2-.*",                                     incorrect: true }
