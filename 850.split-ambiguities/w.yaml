@@ -9,9 +9,11 @@
 - { name: websocket, category: app-emacs, setname: emacs-$0 }
 - { name: websocket, category: dev-go, setname: "go:websocket" }
 
-- { name: whereami, ruleset: [ arch ], setname: whereami-kootenpv } # Uses WiFi signals and machine learning to predict where you are
-- { name: whereami, ruleset: [ debuntu ], setname: whereami-debian } # Automatically reconfigure your (laptop) system for a new location based of wifi hotspots
-- { name: whereami, ruleset: [ fedora, yacp ], setname: whereami-pjp } # displays information about machine(location) you are working on
+- { name: whereami, wwwpart: gpakosz, setname: whereami-gpakosz } # Locate the current executable and the current module/library on the file system
+- { name: whereami, wwwpart: kootenpv, setname: whereami-kootenpv } # Uses WiFi signals and machine learning to predict where you are
+- { name: whereami, wwwpart: pjp, setname: whereami-pjp } # displays information about machine(location) you are working on
+- { name: whereami, ruleset: debuntu, setname: whereami-debian } # Automatically reconfigure your (laptop) system for a new location based of wifi hotspots
+- { name: whereami, ruleset: yacp, setname: whereami-pjp }
 - { name: whereami, warning: "please classify me" }
 
 - { name: wise, wwwpart: jboss, setname: jboss-wise }
