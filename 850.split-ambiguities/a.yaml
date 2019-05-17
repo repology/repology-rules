@@ -10,6 +10,7 @@
 - { name: acme, wwwpart: [meonwax,acme-crossass,smorbrod], setname: acme-crossassembler }
 - { name: acme, category: "Graphical desktop/GNOME", setname: acme-keyboard-daemon }
 - { name: acme, wwwpart: "https://git.rapsys.eu/?p=acme", setname: acme-perl }
+- { name: acme, ruleset: openwrt, setname: acme.sh }
 - { name: acme, warning: "please classify me" }
 
 - { name: addresses, ruleset: [freebsd,openbsd,pkgsrc], setname: gnustep-addresses } # gnustep; may be not ambiguity (yet), but too generic name for sure
