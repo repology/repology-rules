@@ -21,6 +21,7 @@
 - { name: netcat, verpat: "1\\.[0-9]{2}", setname: netcat-traditional }
 - { name: netcat, verpat: "110.*", setname: netcat-traditional, incorrect: true }
 - { name: netcat, ruleset: sisyphus, setname: netcat-openbsd, incorrect: true } # not sure where other take version from, but it's the only different
+- { name: netcat, ruleset: openpkg, setname: netcat-openpkg } # no idea which implementation this is
 - { name: netcat, warning: "please classify me" }
 
 - { name: netgen, wwwpart: netgen-mesher, setname: netgen-mesher }
