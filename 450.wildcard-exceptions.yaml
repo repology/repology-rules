@@ -22,6 +22,7 @@
 
 - { addflag: not_gstreamer,            name: gstreamer-player } # python module actually
 - { addflag: not_gstreamer,            namepat: "gstreamer[0-9.-]*mm[0-9.-]*" }
+- { addflag: not_gstreamer,            name: gstreamer1-plugins-svt-av1, setname: "gstreamer1plugins:svt-av1" }
 - { setname: gst-python, addflag: not_gstreamer, namepat: "gst(?:reamer)?[0-9.-]*python[0-9.-]*(?:compat)?" }
 
 - { setname: go,                       namepat: "go-?1[0-9._-]+" } # don't mix with e.g. go2, go4
