@@ -61,7 +61,7 @@
 # XXX: sort out 0/1 versions; some plugins are third party and do not use this scheme
 - { setname: "gstreamer1plugins:$1", addflag: wconce, noflag: [wconce,not_gstreamer], namepat: "gst-plugins-(.*)-compat", ruleset: crux }
 - { setname: "gstreamer1plugins:$1", addflag: wconce, noflag: [wconce,not_gstreamer], namepat: "gst(?:reamer)?[0-9._-]*(?:(?:-gst)?-plugins?[01.-]*)?-(.*?)[01.-]*(?:-plugins)?" }
-- { setname: "gstreamer0plugins:$1", addflag: wconce,                 noflag: not_gstreamer, namepat: "gstreamer1plugins:(.*)", verpat: "0.*" }
+- { setname: "gstreamer0plugins:$1", addflag: wconce, noflag: not_gstreamer,          namepat: "gstreamer1plugins:(.*)", verpat: "0.*" }
 - { setname: "gstreamer1plugins:$1", addflag: wconce, noflag: [wconce,not_gstreamer], namepat: "gst_(?:plugins_)?(.*)", verpat: "1.*", ruleset: haikuports }
 - { setname: "gstreamer0plugins:$1", addflag: wconce, noflag: [wconce,not_gstreamer], namepat: "gst_(?:plugins_)?(.*)", verpat: "0.*", ruleset: haikuports }
 
