@@ -93,7 +93,10 @@
 - { name: byobu,                       ver: "5.126",                 ruleset: debuntu,     incorrect: true }
 - { name: byobu,                                                     ruleset: debuntu,     untrusted: true }
 - { name: byzanz,                      verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: bzip2,                       ver: "1.0.6.0.1",                                   ignore: true } # nix fake; real version is 1.0.6
+- { name: bzip2,                       ver: "1.0.6.0.1",                                   incorrect: true } # nix fake; real version is 1.0.6
+- { name: bzip2,                                                     ruleset: nix,         untrusted: true } # accused of fake 1.0.6.0.1
+- { name: bzip2,                       ver: "1.0.6.1",                                     incorrect: true } # scoop fake; real version is 1.0.6
+- { name: bzip2,                                                     ruleset: scoop,       untrusted: true } # accused of fake 1.0.6.1
 - { name: bzr-fastimport,              verpat: ".*r.*",                                    ignore: true } # arch snapshot
 - { name: bzr-rewrite,                                               ruleset: aur,         untrusted: true }
 - { name: bzr-rewrite,                 ver: "0.6.4",                 ruleset: aur,         incorrect: true }
