@@ -56,4 +56,6 @@
 - { setname: vtk,                      namepat: "vtk[0-9.-]*(?:-?(base|data|doc|doc-html|docs|qt4|qvtk)[0-9.-]*)?", addflavor: $1 }
 - { setname: vue-cli,                  name: "node:vue-cli" }
 - { setname: vulkan-loader,            name: vulkan-icd-loader }
+- { setname: vulkan-sdk,               name: vulkan-sdk-bin, addflavor: bin }
+- { setname: vulkan-validationlayers,  name: [vulkan-validation-layers,vulkan-layers] }
 - { setname: vuze,                     name: azureus } # old name
