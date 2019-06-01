@@ -19,7 +19,7 @@
 - { setname: libclc,                   name: libclc-git, weak_devel: true }
 - { setname: libcmis,                  name: cmis-client, addflavor: client }
 - { setname: libcompizconfig,          name: libcompizconfig0.8 }
-- { setname: libconfuse,               name: libconfuse0 }
+- { setname: libconfuse,               namepat: "libconfuse[0-9.-]+" }
 - { setname: libconfuse,               name: confuse }
 - { setname: libcpuid,                 name: libcpuid11 }
 - { setname: libbonobo,                name: libbonobo-reference, addflavor: true }
