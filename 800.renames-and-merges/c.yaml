@@ -116,7 +116,7 @@
 - { setname: clucene,                  name: [clucene09,clucene-core,libclucene,libclucene-core] }
 - { setname: clustalw,                 name: clustal-w }
 - { setname: clusterssh,               name: cssh }
-- { setname: clutter,                  name: clutter-1.0 }
+- { setname: clutter,                  namepat: "clutter-?1.0" }
 - { setname: clutter-gst,              namepat: "clutter-gst[0-9.-]+" }
 - { setname: clutter-gtk,              namepat: "clutter-gtk[0-9.-]+" }
 - { setname: cmdpack,                  namepat: "cmdpack-[a-z0-9]+" }
