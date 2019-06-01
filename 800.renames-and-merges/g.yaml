@@ -318,7 +318,7 @@
 - { setname: gtest,                    name: [googletest,libgtest] }
 - { setname: gtk,                      namepat: "(?:lib)?gtk[0-9.+-]*(-reference)?", addflavor: $1 }
 - { setname: gtk-doc,                  name: gtk-doc-am, addflavor: am }
-- { setname: gtk-engines,              name: [gtk2-engines,gtk-engines2,gtk-engines-2] }
+- { setname: gtk-engines,              name: [gtk2-engines,gtk2.0-engines,gtk-engines2,gtk-engines-2] }
 - { setname: gtk-recordmydesktop,      name: recordmydesktop-gtk }
 - { setname: gtk-theme-arc-red,        name: arc-theme-red }
 - { setname: gtkdatabox,               name: libgtkdatabox }
