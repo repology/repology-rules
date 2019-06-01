@@ -101,6 +101,7 @@
 - { setname: clang,                    namepat: "clang[0-9.-]+" }
 - { setname: clang,                    name: clang-wrapper, ruleset: nix } # see report
 - { setname: clanlib,                  namepat: "clanlib-?[0-9.]+" } # XXX: split?
+- { setname: cldr-emoji-annotation,    name: unicode-cldr-emoji-annotation }
 - { setname: clearlooks-phenix,        name: [clearlooks-phenix-gtk-theme,clearlooks-phenix-theme,gtk3-theme-clearlooks-phenix] }
 - { setname: clementine,               name: [clementine-free,clementine-blob,clementine-qt5,clementine-debug], addflavor: true }
 - { setname: clipgrab,                 name: clipgrab-qt5, addflavor: true }
