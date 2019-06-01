@@ -289,7 +289,8 @@
 - { setname: greenbone-security-assistant, namepat: "greenbone-security-assistant[0-9.-]+" }
 - { setname: grep,                     name: [gnugrep, ggrep] }
 - { setname: grep,                     name: [ja-grep,gnuwin32-grep], addflavor: true }
-- { setname: grilo,                    name: [grilo2,compat-grilo02] }
+- { setname: grilo,                    name: compat-grilo02 }
+- { setname: grilo,                    namepat: "grilo[0-9.-]+" }
 - { setname: grilo-plugins,            name: grilo-plugins2 }
 - { setname: grive-tools,              name: grive-tools-patched, addflavor: patched }
 - { setname: groovy,                   name: groovy-docs, addflavor: docs }
