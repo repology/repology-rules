@@ -138,7 +138,7 @@
 - { setname: glfw,                     namepat: "(?:lib)?glfw[0-9.-]*" }
 - { setname: glib,                     name: [glib-reference,glib-static,glib2-docs,glib2-patched-thumbnailer,glib2-quiet,glib2-static,glib-utils], addflavor: true }
 - { setname: glib,                     namepat: "(?:lib)?glib[0-9.-]*" }
-- { setname: glib-networking,          name: glib2-networking }
+- { setname: glib-networking,          namepat: "glib2(?:\\.0|)-networking" }
 - { setname: glibc,                    namepat: "glibc[0-9.-]*" }
 - { setname: glibc,                    name: [glibc-doc-reference,glibc-gd,glibc-info,glibc-i18n,glibc-profile], addflavor: true }
 - { setname: glibmm,                   name: glib2mm }
