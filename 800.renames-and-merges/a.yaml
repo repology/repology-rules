@@ -121,7 +121,7 @@
 - { setname: apq,                      name: apq-base } # ravenports
 - { setname: apr,                      namepat: "(?:lib)?apr[0-9.-]*" }
 - { setname: apr-util,                 name: [aprutil1,apr-util0,apr0-util] }
-- { setname: apr-util,                 namepat: "(?:lib)?apr-util[0-9.-]*" }
+- { setname: apr-util,                 namepat: "(?:lib)?apr-?util[0-9.-]*" }
 - { setname: aptana-studio,            name: aptanastudio }
 - { setname: aqbanking,                namepat: "(?:lib)?aqbanking[0-9]*(-(?:gtk)[0-9]*)?", addflavor: $1 }
 - { setname: aqbanking,                namepat: "(?:lib)?aqbanking[0-9]*(-(?:gtk)[0-9]*)?(?:-svn|-devel)", addflavor: $1, weak_devel: true }
