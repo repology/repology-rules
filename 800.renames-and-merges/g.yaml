@@ -67,6 +67,7 @@
 - { setname: gettext,                  name: [emacs-po-mode,"emacs:po-mode","po-mode","po-mode.el"], addflavor: emacs }
 - { setname: gexiv2,                   name: libgexiv2 }
 - { setname: gfbgraph,                 name: libgfbgraph }
+- { setname: gfbgraph,                 namepat: "gfbgraph[0-9.-]+" }
 - { setname: gflags,                   name: [google-gflags,libgflags] }
 - { setname: ghc,                      namepat: "ghc[0-9.-]+" }
 - { setname: ghc,                      name: [ghc-bin,ghc-bootstrap,ghc-libs,ghc-pristine,ghc-raspbian,ghc-static], addflavor: true }
