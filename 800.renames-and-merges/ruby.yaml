@@ -117,6 +117,7 @@
 - { setname: "ruby:bundler",           name: bundler }
 - { setname: "ruby:bundler",           namepat: "ruby[0-9.]+-bundler" }
 - { setname: "ruby:gems",              name: ["ruby:rubygems",ruby-gems,rubygems] }
+- { setname: "ruby:goocanvas",         namepat: "ruby:goocanvas[0-9.-]+" }
 - { setname: "ruby:install",           name: ruby-install }
 - { setname: "ruby:jekyll",            name: jekyll }
 - { setname: "ruby:jekyll-$1",         namepat: "jekyll-(.*)" }
