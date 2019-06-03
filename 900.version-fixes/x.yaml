@@ -40,6 +40,7 @@
 - { name: xhyve,                       verpat: "20[0-9]{6}",                               snapshot: true } # macports
 - { name: xl2tpd,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: xl2tpd,                      verge: "20000000", verlt: "20180519",               outdated: true }
+- { name: xloadimage,                  verlonger: 2,                                       debianism: true } # freebsd, openbsd
 - { name: xmahjongg,                   ver: "3.70",                  ruleset: [ pkgsrc ],  incorrect: true }
 - { name: xmbmon,                      verpat: "[0-9]{3}",                                 incorrect: true } # it's 2.05, not 205. Also not 2.0.5.
 - { name: xml-coreutils,               ver: "0.8a",                                        outdated: true }
