@@ -21,6 +21,8 @@
 - { setname: fetch-crl,                name: fetch-crl3 }
 - { setname: fetchmail,                name: fetchmailconf, addflavor: fetchmailconf }
 - { setname: ffcall,                   name: libffcall }
+- { setname: ffmpeg,                   name: [ffmpeg-svg,ffmpeg-shared,ffmpeg-vaapi-crop,ffmpeg-amd-full], addflavor: true }
+- { setname: ffmpeg,                   name: [ffmpeg-git,ffmpeg-git-nc,ffmpeg-nightly], weak_devel: true }
 - { setname: ffmpeg-normalize,         name: "python:ffmpeg-normalize" }
 - { setname: ffms2,                    name: [ffmpegsource, ffms] }
 - { setname: fftw,                     name: [fftwf,fftw-avx,fftw-static] }
