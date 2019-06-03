@@ -147,6 +147,7 @@
 - { name: muparser,                    verpat: "200\\..*",                                 incorrect: true } # pkgsrc admitted nonsence
 - { name: muparser,                    verpat: "[0-9a-f]{7}",                              ignore: true }
 - { name: muparser,                    verpat: "[0-9]+\\.[0-9]+\\.[0-9]+-[0-9]+",          ignore: true }
+- { name: musepack,                                                                        noscheme: true }
 - { name: musescore,                   verpat: ".*[0-9]{4}",                               incorrect: true } # scoop garbage, debian snapshot
 - { name: mutter,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mve,                                                                             noscheme: true }
