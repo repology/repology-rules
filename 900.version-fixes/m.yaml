@@ -70,6 +70,7 @@
 - { name: mimikatz,                    verpat: ".*20[0-9]{6}",                             ignore: true } # BlackArch snap
 - { name: minbif,                      verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: minetest-game,               ver: "0.4.17.1",                                    setver: "0.4.17" } # same commit https://github.com/minetest/minetest_game/tags
+- { name: ming,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: minidlna,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: minimodem,                   verpat: ".*-[0-9]+",                                incorrect: true } # -1 is not part of the version
 - { name: minimodem,                   ver: "0.24.1",                ruleset: gentoo,      ignore: true } # actually, pentoo. it's normalized 0.24-1 which is incorrect, see prev. rule
