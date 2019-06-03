@@ -48,7 +48,7 @@
 - { name: rss-glx,                     verpat: "0\\.9[0-9]+",        ruleset: openindiana, incorrect: true } # it's 0.9.1, not 0.91
 - { name: rss-glx,                     ver: "1.0",                   ruleset: t2,          incorrect: true } # different url, not found on sourceforge
 - { name: rss-glx,                                                   ruleset: t2,          untrusted: true }
-- { name: rstudio,                     verpat: "1\\.2\\.[0-9]+",                           devel: true, maintenance: true } # 1.2 are currently preview releases, 1.1 is mainline
+- { name: rstudio,                     verpat: "1\\.3\\.[0-9]+",                           devel: true, maintenance: true } # 1.2 is now stable, but there's no 1.3 yet; to stay on the safe side, assuming there will be unstable 1.3 releases. Otherwise, remove this completely.
 - { name: rtl-sdr,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: rtl-sdr,                     verge: "20000000", verlt: "20180827",               outdated: true } # 0.6.0 from 2018-08-27
 - { name: rtl-sdr,                     ver: "0.20130412",                                  outdated: true, disposable: true }
