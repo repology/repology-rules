@@ -41,6 +41,12 @@
 
 - { name: orrery, ruleset: maemo, setname: orrery-maemo }
 
+- { name: ots, wwwpart: khaledhosny, setname: ots-font-sanitizer }
+- { name: ots, wwwpart: libots, setname: ots-text-summarizer }
+- { name: ots, summpart: summarizer, setname: ots-text-summarizer }
+- { name: ots, ruleset: [pld], setname: ots-text-summarizer }
+- { name: ots, warning: "please classify me" }
+
 - { name: overpass, wwwpart: [font,redhatbrand], setname: "fonts:overpass" }
 - { name: overpass, wwwpart: api, setname: "python:overpass" }
 - { name: overpass, category: [fonts,media-fonts], setname: "fonts:overpass" }
