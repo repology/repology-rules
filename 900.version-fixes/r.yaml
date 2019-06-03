@@ -64,6 +64,8 @@
 - { name: "ruby:io-like",              ver: "0.3.0.20130301",                              ignore: true } # freebsd
 - { name: "ruby:net-ldap",             ver: "1.1.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: "ruby:net-ldap",                                           ruleset: sisyphus,    untrusted: true }
+- { name: "ruby:puppet-lint",          ver: "3.0.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: "ruby:puppet-lint",                                        ruleset: sisyphus,    untrusted: true } # accused of fake 3.0.0
 - { name: runc,                        verpat: "[0-9a-f]{7}",                              ignore: true }
 - { name: runc,                        verpat: ".*rc6.*",            ruleset: exherbo,     incorrect: true }
 - { name: runc,                                                      ruleset: exherbo,     untrusted: true } # accused of fake 1.0.0rc6
