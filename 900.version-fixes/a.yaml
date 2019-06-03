@@ -53,6 +53,8 @@
 - { name: alsamixergui,                ver: "0.9.0.1.2",                                   incorrect: true } # gentoo, so fake. it's 0.9.0rc1-2
 - { name: alsaplayer,                  ver: "0.99.82",               ruleset: rosa,        incorrect: true }
 - { name: alsaplayer,                                                ruleset: rosa,        untrusted: true }
+- { name: alternatives,                ver: "0.5.1",                 ruleset: sisyphus,    incorrect: true } # latest is 0.2.0
+- { name: alternatives,                                              ruleset: sisyphus,    untrusted: true } # accused of fake 0.5.1
 - { name: amanith,                     verpat: "[0-9]{2}",                                 incorrect: true } # T2; 0.3, not 03
 - { name: amarok,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true } # nix garbage
 - { name: amarok,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true }
