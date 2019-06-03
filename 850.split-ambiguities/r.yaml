@@ -7,6 +7,11 @@
 
 - { name: rc, wwwpart: crux, setname: rc-crux }
 
+- { name: rebase, summpart: [dll,cygwin], setname: cygwin-rebase }
+- { name: rebase, wwwpart: rebase.neb.com, setname: rebase-enzyme }
+- { name: rebase, summpart: enzyme, setname: rebase-enzyme }
+- { name: rebase, warning: "please classify me" }
+
 - { name: rdd, category: [app-forensics,Archiving/Backup], setname: rdd-forensic }
 - { name: rdd, wwwpart: [chneukirchen,leahneukirchen], setname: rdd-random }
 - { name: rdd, ver: ["2.0.7", "3.0.1", "3.0.2", "3.0.4"], setname: rdd-forensic } # https://sourceforge.net/projects/rdd/files/rdd/
