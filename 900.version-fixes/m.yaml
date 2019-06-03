@@ -143,7 +143,8 @@
 - { name: mumble,                                                    ruleset: kaos,        ignore: true } # snapshot with random version
 - { name: mumble,                      ver: "1.2.89",                                      incorrect: true }
 - { name: mumble,                      verpat: ".*20[0-9]{6}",                             ignore: true }
-- { name: munin,                       verpat: "[0-9]+\\.99.*",                            devel: true }
+- { name: munin,                       verpat: "[0-9]+\\.99.*",                            devel: true } # devel version evolution: 2.1.x -> 2.99.x -> 2.999.x (maybe all minor-odd?)
+- { name: munin,                       verpat: "2\\.1\\..*",                               devel: true }
 - { name: muparser,                    verpat: "200\\..*",                                 incorrect: true } # pkgsrc admitted nonsence
 - { name: muparser,                    verpat: "[0-9a-f]{7}",                              ignore: true }
 - { name: muparser,                    verpat: "[0-9]+\\.[0-9]+\\.[0-9]+-[0-9]+",          ignore: true }
