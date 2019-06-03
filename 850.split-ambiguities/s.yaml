@@ -18,6 +18,11 @@
 
 - { name: scratch, wwwpart: launchpad.net/scratch, setname: scratch-text-editor }
 
+- { name: screenruler, wwwpart: screenruler.sourceforge.io, setname: screenruler-bluegrams }
+- { name: screenruler, wwwpart: [gnome, launchpad], setname: gnome-screenruler }
+- { name: screenruler, ruleset: [aosc,cygwin], setname: gnome-screenruler }
+- { name: screenruler, warning: "please classify me" }
+
 - { name: sdb, wwwpart: libsdb, setname: libsdb }
 - { name: sdb, wwwpart: mono, setname: sdb-mono }
 - { name: sdb, wwwpart: [shotgun,game], setname: shotgun-debugger }
