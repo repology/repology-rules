@@ -17,6 +17,8 @@
 - { name: "octave:fuzzy-logic-toolkit",                              ruleset: cygwin,      untrusted: true } # accused of fake 0.4.6
 - { name: "octave:linear-algebra",     ver: "2.2.3",                 ruleset: cygwin,      incorrect: true }
 - { name: "octave:linear-algebra",                                   ruleset: cygwin,      untrusted: true } # accused of fake 2.2.3
+- { name: "octave:odepkg",             ver: "0.9.1",                 ruleset: [cygwin,fedora], incorrect: true }
+- { name: "octave:odepkg",                                           ruleset: [cygwin,fedora], untrusted: true } # accused of fake 0.9.1
 - { name: "octave:secs1d",             verpat: ".*r.*",                                    snapshot: true }
 - { name: "octave:secs2d",             verpat: ".*r.*",                                    snapshot: true }
 - { name: octomap,                     verpat: "[0-9a-f]{40}",                             incorrect: true } # commit hash
