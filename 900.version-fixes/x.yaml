@@ -74,5 +74,8 @@
 - { name: xtrlock-pam,                 verpat: ".*post.*",                                 snapshot: true }
 - { name: xxdiff,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: xxdiff,                      verpat: "[0-9]{3}",                                 incorrect: true }
+- { name: xxdiff,                      ver: "5.0",                   ruleset: aur,         incorrect: true }
+- { name: xxdiff,                                                    ruleset: aur,         untrusted: true }
+- { name: xxdiff,                      verpat: ".*b.*",                                    devel: true }
 - { name: xz,                          ver: "5.03",                                        incorrect: true } # gobolinux garbage
 - { name: xzoom,                       verlonger: 2,                                       debianism: true } # nix
