@@ -145,6 +145,7 @@
 - { name: atomix,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: atril,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: attr,                        verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: audacity,                    ver: "2.3.2x",                                      incorrect: true } # freshcode
 - { name: audex,                       ver: "0.95",                  ruleset: pisi,        snapshot: true }
 - { name: audiocd-kio,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: aufs-util,                                                                       noscheme: true }
