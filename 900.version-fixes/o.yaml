@@ -2,6 +2,9 @@
 
 - { name: obfsproxy,                   verpat: "[0-9]{3}",                                 incorrect: true }
 - { name: obmenu,                      ver: "2.0",                   ruleset: bunsenlabs,  incorrect: true } # fake
+- { name: "ocaml:calendar",            ver: "2.5",                   ruleset: nix,         incorrect: true }
+- { name: "ocaml:calendar",                                          ruleset: nix,         untrusted: true } # accused of fake 2.5 (it's really 2.03.2)
+- { name: "ocaml:libvirt",             verpat: ".*unstable",                               incorrect: true } # nix garbage
 - { name: "ocaml:opam-file-format",    ver: "2.0.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: "ocaml:opam-file-format",                                  ruleset: sisyphus,    untrusted: true }
 - { name: oclgrind,                    verpat: "20[0-9]{6}",                               snapshot: true }
