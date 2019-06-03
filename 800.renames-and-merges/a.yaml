@@ -220,7 +220,7 @@
 - { setname: awesome,                  namepat: "awesome[0-9.-]+" }
 - { setname: awf,                      name: awf-git, snapshot: true }
 - { setname: aws-cw-tools,             name: cloud-watch }
-- { setname: awscli,                   name: "python:awscli" }
+- { setname: awscli,                   name: ["python:awscli", "python:aws-cli"] }
 - { setname: awscli,                   name: aws-cli }
 - { setname: awsebcli,                 name: [aws-eb-cli,aws-elasticbeanstalk,"python:aws-eb-cli"] }
 - { setname: awstats,                  name: "perl:awstats" }
