@@ -93,6 +93,8 @@
 - { name: gnome-documents,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-games,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-getting-started-docs,  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-icon-theme,            ver: "3.14.0",                ruleset: pclinuxos,   incorrect: true }
+- { name: gnome-icon-theme,                                          ruleset: pclinuxos,   untrusted: true } # accused of fake 3.14.0
 - { name: gnome-initial-setup,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-js-common,             verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: gnome-keyring,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
