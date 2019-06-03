@@ -44,6 +44,8 @@
 - { name: kdepimlibs,                                                ruleset: pisi,        untrusted: true } # repackaged, fake version
 - { name: kdesdk-kioslaves,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdesdk-thumbnailers,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdesvn,                      ver: "2.0.95",                ruleset: fedora,      incorrect: true }
+- { name: kdesvn,                                                    ruleset: fedora,      untrusted: true } # accused of fake 2.0.95
 - { name: kdf,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdgantt2,                    ver: "16.12.0",               ruleset: pisi,        incorrect: true }
 - { name: kdgantt2,                                                  ruleset: pisi,        untrusted: true } # accused of fake 16.12.0
