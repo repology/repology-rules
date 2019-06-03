@@ -104,6 +104,7 @@
 - { name: tsocks,                      ver: "1.8.4",                 ruleset: macports,    incorrect: true } # fake, latest seem to be 1.8beta5
 - { name: tt-rss,                                                                          noscheme: true }
 - { name: ttcp,                        verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: ttf2pt1,                     verpat: "[0-9]+",                                   incorrect: true, disposable: true } # 3.4.4, not 344 (opensuse 42.3)
 - { name: ttwatch,                                                                         noscheme: true }
 - { name: tunctl,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: tuxmath,                     ver: "20010907",                                    ignore: true }
