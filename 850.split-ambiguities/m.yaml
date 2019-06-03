@@ -41,9 +41,9 @@
 
 - { name: mdp, wwwpart: toolkit, setname: "python:mdp" }
 - { name: mdp, wwwpart: visit1985, setname: mdp-markdown-presentation-tool }
-- { name: mdp, category: [doc,textproc], setname: mdp-markdown-presentation-tool }
 - { name: mdp, wwwpart: navy.mil, setname: mdp-multicast-file-transfer }
 - { name: mdp, wwwpart: tamentis, setname: mdp-password-manager }
+- { name: mdp, summpart: markdown, setname: mdp-markdown-presentation-tool }
 - { name: mdp, warning: "please classify me" }
 
 - { name: meme, wwwpart: meme-suite, setname: meme-motif-discovery }
@@ -78,6 +78,7 @@
 - { name: mpd, category: [media-sound,Sound,audio], addflag: classified }
 - { name: mpd, wwwpart: cs.arizona.edu/mpd, setname: mpd-compiler }
 - { name: mpd, ruleset: [kaos,pld,solus], addflag: classified }
+- { name: mpd, summpart: "music player daemon", addflag: classified }
 - { name: mpd, noflag: classified, warning: "please classify me" }
 
 - { name: mtree, wwwpart: deis.unibo.it, setname: m-tree }
@@ -96,6 +97,7 @@
 - { name: mpc, wwwpart: multiprecision.org, setname: gnumpc }
 - { name: mpc, category: dev-libs, setname: gnumpc }
 - { name: mpc, wwwpart: mpc-hc, setname: mpc-hc }
+- { name: mpc, summpart: "music player daemon", addflag: classified }
 - { name: mpc, ruleset: [rudix,hpux,solus], setname: gnumpc }
 - { name: mpc, ruleset: aosc, category: libs, setname: gnumpc }
 - { name: mpc, ruleset: pld, addflag: classified }

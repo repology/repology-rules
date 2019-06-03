@@ -6,6 +6,7 @@
 - { name: nc, ver: "0.7.1", setname: gnu-netcat, maintenance: true }
 - { name: nc, wwwpart: ncat, setname: ncat }
 - { name: nc, ruleset: [pld,slackware], setname: netcat-traditional }
+- { name: nc, ruleset: cygwin, setname: netcat-openbsd }
 - { name: nc, warning: "please classify me" }
 
 # there are two `ne`s, and they are both editors; prefix is for `cambridge`

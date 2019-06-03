@@ -19,7 +19,8 @@
 - { setname: "python:backports.shutil-which", name: "python:backports-shutil-which" }
 - { setname: "python:backports.shutil-which", name: shutil-which }
 - { setname: "python:backports.ssl-match-hostname", namepat: "(?:python:)?backports?-ssl-match-hostname" }
-- { setname: "python:beautifulsoup",   namepat: "(?:python:)?beautifulsoup[0-9.]*" }
+- { setname: "python:beautifulsoup4",  namepat: "(?:python:)?beautifulsoup[0-9.]*" } # target name as per PyPI name; python:beautifulsoup (version 3.x) is obsolete
+- { setname: "python:beautifulsoup4",  name: "python:bs4" } # XXX: package to prevent name squatting, incorrect as package name
 - { setname: "python:bepasty",         name: bepasty }
 - { setname: "python:bicyclerepair",   name: bicyclerepair }
 - { setname: "python:bitarray",        name: bitarray } # XXX: make upstream use prefix
