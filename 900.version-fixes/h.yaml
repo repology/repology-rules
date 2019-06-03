@@ -28,7 +28,7 @@
 - { name: hunspell-es,                 verpat: "20[0-9]{2}.*",                             snapshot: true } # actual version is 2.2
 - { name: hunspell-he,                 verpat: "20[0-9]{6}",                               snapshot: true } # pkgsrc
 - { name: hunspell-it,                 ver: "2016.2.13",                                   incorrect: true } # the real version is 2016.02.10, see #298
-- { name: hunspell-pt-br,              ver: "20131017",                                    incorrect: true }
+- { name: hunspell-pt-br,              ver: ["20131017","20130317"],                       outdated: true } # see report
 - { name: hunspell-pt-br,              ver: "2013.10.30",                                  setver: "3.2" } # see report
 - { name: hydra,                       verpat: ".*20[0-9]{6}",                             snapshot: true } # termux
 - { name: hydrogen,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true } # gobolinux, gentoo

@@ -151,4 +151,7 @@
 - { name: mvwm,                                                                            noscheme: true }
 - { name: mx,                          verpat: "[0-9]+\\.99.*",                            devel: true }
 - { name: mygui,                       verpat: "20[0-9]{6}",                               ignore: true }
+- { name: mysql,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: mysql,                       verge: "10",                  ruleset: cygwin,      incorrect: true }
+- { name: mysql,                                                     ruleset: cygwin,      untrusted: true } # accused of fake 10.3.14 (packages mariadb as mysql)
 - { name: mythes-fr,                   verpat: "20[0-9]{6}",                               ignore: true }

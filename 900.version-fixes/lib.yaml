@@ -130,7 +130,8 @@
 - { name: libqinfinity,                ver: "0.6.0",                 ruleset: mageia,      incorrect: true } # no such tag, only 0.6 branch
 - { name: libqinfinity,                verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: libqxt,                      ver: "0.7.0",                                       incorrect: true } # not released and will likely never be, as the project is discontinued
-- { name: librsb,                      ver: "1.2.0",                 ruleset: freshcode,   incorrect: true }
+- { name: librsb,                      ver: "1.2.0",                 ruleset: [freshcode,cygwin], incorrect: true } # 1.2.0rc7
+- { name: librsb,                                                    ruleset: cygwin,      untrusted: true } # accused of fake 1.2.0
 - { name: librsvg,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libsearpc,                   ver: ["3.1.7","6.2.2"],       ruleset: openwrt,     incorrect: true }
 - { name: libsearpc,                                                 ruleset: openwrt,     untrusted: true }

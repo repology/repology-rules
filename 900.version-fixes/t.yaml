@@ -101,6 +101,7 @@
 - { name: trn,                         verpat: "(4\\.0)(?:\\.|\\.?[a-z]+)([0-9]+)",        setver: $1-test$2 }
 - { name: tsocks,                      ver: "1.8.4",                 ruleset: macports,    incorrect: true } # fake, latest seem to be 1.8beta5
 - { name: tt-rss,                                                                          noscheme: true }
+- { name: ttcp,                        verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: ttwatch,                                                                         noscheme: true }
 - { name: tunctl,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: tuxmath,                     ver: "20010907",                                    ignore: true }

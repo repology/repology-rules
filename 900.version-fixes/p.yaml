@@ -163,6 +163,8 @@
 - { name: pycharm,                     verpat: "[0-9]+\\.[0-9]\\.[0-9]{3,}\\.[0-9]{4,}\\.[0-9]+", devel: true } # e.g. 2017.2.172.2103.19 - assuming EAP (early access) version
 - { name: pycharm,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: python,                      verpat: ".*[ab].*",                                 devel: true }
+- { name: python,                      ver: "3.8.0",                 ruleset: cygwin,      incorrect: true } # it's 3.8.0aXX
+- { name: python,                                                    ruleset: cygwin,      untrusted: true } # accused of fake 3.8.0
 - { name: python-caja,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: pyzy,                        ver: "1.0",                   ruleset: [arch,aosc], incorrect: true }
 - { name: pyzy,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
