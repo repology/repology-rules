@@ -180,6 +180,7 @@
 - { name: sunpinyin,                   ver: "3.0.0",                 ruleset: aosc,        incorrect: true } # aosc fake, it's rc1
 - { name: sunpinyin,                                                 ruleset: aosc,        untrusted: true }
 - { name: sunxi-tools,                 verpat: "20[0-9]{6}",                               ignore: true }
+- { name: suomi-malaga,                verge: "2",                                         incorrect: true } # https://voikko.puimula.org/sources.html, https://www.puimula.org/voikko-sources/suomi-malaga/: 2.0 has different name
 - { name: superlu-mt,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: supertransball2,             verpat: "2\\.[0-9]+\\.[0-9]+",                      incorrect: true } # 2 is port of the project name, not version
 - { name: supertuxkart,                ver: "0.10",                  ruleset: sisyphus,    incorrect: true }
