@@ -19,7 +19,7 @@
 - { setname: keybinder,                namepat: "(lib)?keybinder[0-9.-]*", addflavor: $1 }
 - { setname: keybinder,                name: [keybinder-gtk3,keybinder-python,"lua:keybinder","python:keybinder","python:keybinder2"], addflavor: true }
 - { setname: keystone,                 name: "python:keystone" }
-- { setname: khronos-api,              name: khronos-opengl-registry }
+- { setname: khronos-api,              name: [khronos-opengl-registry,glcorearb] }
 - { setname: kibana,                   name: kibana-bin }
 - { setname: kibana,                   namepat: "kibana[0-9]+" }
 - { setname: kicad,                    name: kicad-devel, weak_devel: true }
