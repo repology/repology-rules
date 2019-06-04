@@ -185,7 +185,7 @@
 - { setname: pulseaudio,               name: [pulseaudio-bluetooth,pulseaudio-gconf,pulseaudio-jack,pulseaudio-lirc,pulseaudio-zeroconf], addflavor: true }
 - { setname: puppet,                   namepat: "puppet[0-9.-]+" }
 - { setname: "purple:pidgin-opensteamworks", name: [libpurple-steam,pidgin-opensteamworks,purple-libsteam] }
-- { setname: "purple:purple-facebook", name: [libpurple-facebook,purple-facebook] }
+- { setname: "purple:purple-facebook", name: [libpurple-facebook,purple-facebook,pidgin-facebook] }
 - { setname: "purple:purple-hangouts", name: libpurple-hangouts }
 - { setname: "purple:purple-hangouts", name: purple-hangouts-hg, weak_devel: true }
 - { setname: "purple:skype4pidgin",    name: [libpurple-protocol-skypeweb,libpurple-skypeweb,pidgin-skypeweb,purple-plugin-skypeweb,purple-skypeweb,skype4pidgin,skypeweb-purple] }

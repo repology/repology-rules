@@ -19,6 +19,7 @@
 - { setname: lapack,                   name: liblapack }
 - { setname: lapack++,                 name: lapackpp }
 - { setname: lapacke,                  name: lapacke-tmg, addflavor: tmg } # component of
+- { setname: lasem,                    namepat: "lasem[0-9.-]+" }
 - { setname: last,                     name: last-align }
 - { setname: lazarus,                  name: [lazarus-gtk2,lazarus-qt4,lazarus-qt5], addflavor: true }
 - { setname: lazarus,                  name: lazaruside }
