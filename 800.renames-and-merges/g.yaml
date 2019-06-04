@@ -245,7 +245,7 @@
 - { setname: gnutls,                   name: [gnutls-dane,gnutls-openssl,gnutls-tiny], addflavor: true }
 - { setname: gnutls,                   namepat: "(?:lib)?gnutls[0-9.-]*" }
 - { setname: goat,                     name: "rust:goat" }
-- { setname: gobby,                    name: gobby05 }
+- { setname: gobby,                    namepat: "gobby[0-9.-]+" }
 - { setname: gobby,                    name: gobby-infinote, addflavor: infinote }
 - { setname: gobject-introspection,    name: [gobject-introspection-common,gobject-introspection-runtime] }
 - { setname: godot,                    name: [godot-pulse,godot-tools,godot-mono,godot-engine,godot-osc], addflavor: true }
