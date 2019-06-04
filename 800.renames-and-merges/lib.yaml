@@ -166,7 +166,7 @@
 - { setname: libsoup,                  name: [libsoup-gnome,libsoup-reference], addflavor: true }
 - { setname: libsoup,                  namepat: "libsoup[0-9.-]+" }
 - { setname: libsidplay,               name: [libsidplay2, sidplay-libs, sidplay2-libs] }
-- { setname: libsigc++,                name: libsigc++-docs, addflavor: docs }
+- { setname: libsigc++,                name: [libsigc++-docs,libsigc++-patched], addflavor: true }
 - { setname: libsigc++,                name: libsigc++-legacy12 }
 - { setname: libsigc++,                namepat: "libsigc(\\+\\+|xx|pp|)[0-9.-]*" }
 - { setname: libsignon-glib,           name: signon-glib }
