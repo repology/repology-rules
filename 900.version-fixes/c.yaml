@@ -53,7 +53,7 @@
 - { name: celestia,                    ver: "1.7.0",                 ruleset: [mageia,opensuse], incorrect: true }
 - { name: celestia,                                                  ruleset: [mageia,opensuse], untrusted: true }
 - { name: celestia,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: ceph,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{4}.*",    incorrect: true } # opensuse garbage
+- { name: ceph,                        verlonger: 3,                 ruleset: opensuse,    incorrect: true }
 - { name: ceph,                        verpat: "[0-9]+[13579]\\..*",                       devel: true } # assumed
 - { name: cervisia,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: cfitsio,                     verpat: "[0-9]{4}",                                 ignore: true }
