@@ -219,7 +219,7 @@
 - { name: sysstat,                     ver: "20151012",                                    ignore: true } # openindiana garbage
 - { name: system-config-printer,       ver: "2.30.0",                ruleset: openindiana, incorrect: true }
 - { name: system-config-printer,                                     ruleset: openindiana, untrusted: true }
-- { name: systemd,                     verlonger: 1,                 ruleset: arch,        incorrect: true }
+- { name: systemd,                     verlonger: 1,                                       incorrect: true }
 - { name: systemtap,                   verpat: "4.*20[0-9]{2}.*",                          incorrect: true }
 - { name: systemtap,                   ver: "4.1",                   ruleset: fedora,      incorrect: true }
 - { name: systemtap,                                                 ruleset: fedora,      untrusted: true }
