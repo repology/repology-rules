@@ -60,6 +60,7 @@
 - { name: bluej,                       verpat: "[0-9]+",                                   ignore: true }
 - { name: bluez-tools,                                                                     noscheme: true }
 - { name: bmon,                        ver: "999",                                         incorrect: true, disposable: true } # gentoo
+- { name: bochs,                                                     ruleset: freshcode,   untrusted: true }
 - { name: bomber,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: bonnie++,                    verpat: "1\\.9[0-9]+.*",                            devel: true } # https://doc.coker.com.au/projects/bonnie/; 2.0 will be stable
 - { name: boomaga,                     ver: "3.3.0",                 ruleset: fedora,      incorrect: true }
