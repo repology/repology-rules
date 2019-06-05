@@ -37,7 +37,6 @@
 - { name: firejail,                    verpat: "[0-9]+(\\.[0-9]+){3}", ruleset: freshcode, ignore: true } # there are binary packages with additional _1 component (build?), but tags have 3 component version
 - { name: firmware-mod-kit,            verpat: "20[0-9]{6}",                               snapshot: true } # slitaz
 - { name: firmware-mod-kit,            verpat: "0([1-9][0-9]*)",                           setver: "0.$1" } # blackarch, broken schema
-- { name: fish,                                                                            devel: false, disposable: true } # remove bogus devel due to cygwin and lack of proper weak_devel support
 - { name: five-or-more,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: flam3,                       ver: "3.1.1.5",               ruleset: freebsd,     incorrect: true }
 - { name: flam3,                                                     ruleset: freebsd,     untrusted: true }

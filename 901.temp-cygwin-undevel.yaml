@@ -1,0 +1,16 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+# Remove bogus contageous devel coming from cygwin version under 'test' status
+# and lack of proper weak_devel support in Repology. See
+# https://github.com/repology/repology/issues/654
+#
+# The list can be obtained with the following query:
+#
+# SELECT effname, version FROM packages GROUP BY effname, version HAVING count(*) FILTER (WHERE repo='cygwin' AND (flags & 2)::boolean AND versionclass=5) > 0 AND count(*) FILTER (WHERE repo!='cygwin' AND NOT (flags & 2)::boolean) > 0;
+
+- name:
+    - fish
+    - "perl:json-xs"
+    - screen
+  ruleset: cygwin
+  devel: false
