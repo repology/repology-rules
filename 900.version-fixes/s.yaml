@@ -27,6 +27,7 @@
 - { name: scribus,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 1.5.5
 - { name: scribus,                     ver: "1.5.4.80",              ruleset: kaos,        incorrect: true }
 - { name: scribus,                                                   ruleset: kaos,        untrusted: true } # accused of fake 1.5.4.80
+- { name: scribus,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: scrot,                       verpat: "0\\.8[_.+-]p?[0-9]+",                      successor: true } # debian patches
 - { name: scrot,                       ver: "0.18.17",               ruleset: solus,       incorrect: true }
 - { name: scrot,                                                     ruleset: solus,       untrusted: true } # accused of fake 0.18.17
