@@ -136,8 +136,7 @@
 - { name: libraw,                      ver: "201903",                                      incorrect: true } # vcpkg; wtf, it's not even a date
 - { name: libraw,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: libreplaygain,                                                                   noscheme: true }
-- { name: librsb,                      ver: "1.2.0",                 ruleset: [freshcode,cygwin], incorrect: true } # 1.2.0rc7
-- { name: librsb,                                                    ruleset: cygwin,      untrusted: true } # accused of fake 1.2.0
+- { name: librsb,                      ver: "1.2.0",                 ruleset: [freshcode], incorrect: true } # 1.2.0rc7
 - { name: librsvg,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libsearpc,                   ver: ["3.1.7","6.2.2"],       ruleset: openwrt,     incorrect: true }
 - { name: libsearpc,                                                 ruleset: openwrt,     untrusted: true }
