@@ -113,7 +113,7 @@
 - { setname: freeplane,                name: freeplane-srcbuild }
 - { setname: freeradius,               name: [freeradius-freetds,freeradius-iodbc,freeradius-krb5,freeradius-ldap,freeradius-memcached,freeradius-mysql,freeradius-perl,freeradius-pgsql,freeradius-python,freeradius-rest,freeradius-sqlite3,freeradius-unixodbc,freeradius-wpe,freeradius-yubikey], addflavor: true }
 - { setname: freeradius,               name: [freeradius-server,freeradius3,freeradius2] }
-- { setname: freerdp,                  namepat: "freerdp[0-9.-]+" }
+- { setname: freerdp,                  namepat: "(?:compat-)?freerdp[0-9.-]+" }
 - { setname: freetds,                  name: freetds-devel, weak_devel: true }
 - { setname: freetds,                  name: [freetds-krb5,freetds-patched-enum], addflavor: true }
 - { setname: freetype,                 name: [libfreetype,freetype1,freetype2] }
