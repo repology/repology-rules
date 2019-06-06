@@ -9,16 +9,8 @@
 - { name: "ocaml:opam-file-format",                                  ruleset: sisyphus,    untrusted: true }
 - { name: oclgrind,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: octave,                      verpat: ".*pre[0-9]{5}",                            snapshot: true }
-- { name: "octave:communications",     ver: "1.2.2",                 ruleset: cygwin,      incorrect: true }
-- { name: "octave:communications",                                   ruleset: cygwin,      untrusted: true } # accused of fake 1.2.2
-- { name: "octave:fl-core",            ver: "1.0.1",                 ruleset: cygwin,      incorrect: true }
-- { name: "octave:fl-core",                                          ruleset: cygwin,      untrusted: true } # accused of fake 1.0.1
-- { name: "octave:fuzzy-logic-toolkit", ver: "0.4.6",                ruleset: cygwin,      incorrect: true }
-- { name: "octave:fuzzy-logic-toolkit",                              ruleset: cygwin,      untrusted: true } # accused of fake 0.4.6
-- { name: "octave:linear-algebra",     ver: "2.2.3",                 ruleset: cygwin,      incorrect: true }
-- { name: "octave:linear-algebra",                                   ruleset: cygwin,      untrusted: true } # accused of fake 2.2.3
-- { name: "octave:odepkg",             ver: "0.9.1",                 ruleset: [cygwin,fedora], incorrect: true }
-- { name: "octave:odepkg",                                           ruleset: [cygwin,fedora], untrusted: true } # accused of fake 0.9.1
+- { name: "octave:odepkg",             ver: "0.9.1",                 ruleset: fedora,      incorrect: true }
+- { name: "octave:odepkg",                                           ruleset: fedora,      untrusted: true } # accused of fake 0.9.1
 - { name: "octave:secs1d",             verpat: ".*r.*",                                    snapshot: true }
 - { name: "octave:secs2d",             verpat: ".*r.*",                                    snapshot: true }
 - { name: octomap,                     verpat: "[0-9a-f]{40}",                             incorrect: true } # commit hash
