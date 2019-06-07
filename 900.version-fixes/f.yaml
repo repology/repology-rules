@@ -127,6 +127,7 @@
 - { name: freeimage,                   verge: "3.93",                                      incorrect: true }
 - { name: freeminer,                   verlonger: 4,                 ruleset: fdroid,      ignore: true }
 - { name: freeorion,                   verpat: ".*r.*",                                    devel: true }
+- { name: freeorion,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: freerdp,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: freerdp,                     ver: "2.0.0",                 ruleset: [sisyphus,fedora,mageia,openmandriva,pclinuxos,pld,rosa], incorrect: true } # it's -rc[01] ATOW
 - { name: freerdp,                                                   ruleset: [sisyphus,fedora,mageia,openmandriva,pclinuxos,pld,rosa], untrusted: true }
