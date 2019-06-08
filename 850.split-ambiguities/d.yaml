@@ -27,6 +27,14 @@
 - { name: dex, wwwpart: dexidp, setname: dex-oidc }
 - { name: dex, warning: "please classify me" }
 
+- { name: dhcp6, wwwpart: isc, setname: dhcp }
+- { name: dhcp6, wwwpart: wide, setname: wide-dhcpv6 }
+- { name: dhcp6, warning: "please classify me" }
+
+- { name: dhcpd, wwwpart: isc, setname: dhcp }
+- { name: dhcpd, wwwpart: koue, setname: dhcpd-openbsd }
+- { name: dhcpd, warning: "please classify me" }
+
 - { name: diaspora, verpat: "1\\.[0-9]+\\.[0-9]+", setname: diaspora-game }
 - { name: diaspora, setname: diaspora-social }
 
