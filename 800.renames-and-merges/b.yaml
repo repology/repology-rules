@@ -64,6 +64,7 @@
 - { setname: bind,                     name: bind-stable }
 - { setname: bind,                     name: bind9-devel, weak_devel: true }
 - { setname: bind,                     namepat: "bind[0-9.-]+" }
+- { setname: bind,                     name: samba-nsupdate, addflavor: true }
 - { setname: bird,                     name: [bird1,bird2] }
 - { setname: bird,                     name: [bird-v6,bird6], addflavor: ipv6 }
 - { setname: bison,                    name: [bison-doc,bison-runtime], addflavor: true }
