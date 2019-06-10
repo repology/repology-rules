@@ -69,7 +69,7 @@
 - { name: lskat,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: lsscsi,                      ver: "0.29",                  ruleset: opensuse,    incorrect: true } # fake
 - { name: ltunify,                     verpat: "20[0-9]{6}",                               ignore: true }
-- { name: lua,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]+[.-].*",           incorrect: true } # scoop, chocolatey
+- { name: lua,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]+[.-].*",           incorrect: true } # windows (XXX: https://github.com/rjpcomputing/luaforwindows project), split?
 - { name: "lua:bitop",                 verpat: ".*-.*",                                    successor: true } # luarocks fork
 - { name: "lua:lgi",                   verpat: ".*-.*",                                    successor: true } # luarocks fork
 - { name: "lua:mosquitto",             verpat: "20[0-9]{6}",                               snapshot: true }

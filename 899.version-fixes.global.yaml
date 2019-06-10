@@ -46,5 +46,8 @@
 # nuget is terminally broken and can't handle arbitrary version schemes, so most are garbage
 - {                                                                  ruleset: chocolatey,  untrusted: true }
 
+# don't trust npackd either, as it cannot into prerelease versions (firefox 67.0b9 is 67.0.9)
+- {                                                                  ruleset: chocolatey,  untrusted: true }
+
 # melpa always uses snapshots
 - {                                                                  ruleset: melpa,       rolling: true }
