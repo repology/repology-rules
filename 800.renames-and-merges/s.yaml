@@ -238,6 +238,7 @@
 - { setname: switchboard-plug-networking, name: switchboard-plug-network }
 - { setname: syncthing,                name: [syncthing-0.14,syncthing13] }
 - { setname: syncthing-gtk,            name: "python:syncthing-gtk" }
+- { setname: synfig,                   name: [synfigstudio, synfig-studio] }
 - { setname: syslog-ng,                name: [syslog-ng-afamqp,syslog-ng-geoip,syslog-ng-http,syslog-ng-json,syslog-ng-mongodb,syslog-ng-redis,syslog-ng-smtp,syslog-ng-sql,"python:syslog-ng",syslog-ng-nosystemd], addflavor: true }
 - { setname: syslog-ng,                namepat: "syslog-ng[0-9.-]+" }
 - { setname: systemd-manager,          name: "rust:systemd-manager" }

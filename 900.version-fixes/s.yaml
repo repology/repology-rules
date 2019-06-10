@@ -207,7 +207,8 @@
 - { name: syncthing,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: syncthing-gtk,               verpat: "0\\.14\\..*",                              incorrect: true } # sisyphus fake (uses syncthing version?)
 - { name: syndication,                 verge: "15",                                        outdated: true }
-- { name: synfigstudio,                verpat: "1\\.3\\..*",                               devel: true } # openindiana garbage
+- { name: synfig,                      verge: "1.3",                                       devel: true }
+- { name: synfig,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: sysbench,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: sysbench,                    verpat: "201[567].*",                               outdated: true } # last version from 2018
 - { name: sysfsutils,                  ver: "2.2.0",                 ruleset: pld,         incorrect: true }
