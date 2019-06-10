@@ -140,7 +140,7 @@
 - { setname: bullet,                   name: bullet3 }
 - { setname: bullet,                   name: libbullet }
 - { setname: burp,                     name: burp-backup }
-- { setname: burp,                     name: burp-backup-dev, untrusted: true }
+- { setname: burp,                     name: burp-backup-dev, weak_devel: true }
 - { setname: burp,                     name: [burp-server,burp2-server], addflavor: server }
 - { setname: burritun,                 name: "rust:burritun" }
 - { setname: busybox,                  name: [busybox-custom,busybox-norootreboot,busybox-static,mdev,mkinitcpio-busybox], addflavor: true }
