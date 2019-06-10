@@ -112,6 +112,7 @@ rulesets = families + [
     'gnuelpa',
     'hyperbola',
     'maemo',
+    'macosx',
     'manjaro',
     'melpa',
     'mint',
@@ -124,6 +125,7 @@ rulesets = families + [
     'parrot',
     'slitaz_next',
     'unitedrpms',
+    'windows',
 ]
 
 schema = Schema(
