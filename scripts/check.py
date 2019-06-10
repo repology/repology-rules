@@ -57,6 +57,7 @@ families = [
     'haikuports',
     'homebrew',
     'hpux',
+    'justinstall',
     'kaos',
     'libregamewiki',
     'lunar',

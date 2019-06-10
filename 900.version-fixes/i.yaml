@@ -55,6 +55,7 @@
 - { name: ipxe,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: ipxe,                        verpat: ".*-[0-9a-f]{7}",                           incorrect: true }
 - { name: ircd,                                                                            p_is_patch: true } # http://www.irc.org/ftp/irc/server/
+- { name: irfanview,                   verpat: "[0-9]{3}",                                 incorrect: true } # 4.52, not 452
 - { name: irssi-scripts,                                                                   noscheme: true }
 - { name: isdn4k-utils,                verpat: "20[0-9-]{8}",                              snapshot: true }
 - { name: ivan,                        vergt: "0.50",                                      successor: true }
