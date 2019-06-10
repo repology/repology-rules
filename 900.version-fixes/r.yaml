@@ -12,8 +12,8 @@
 - { name: rage,                        verlonger: 3,                                       incorrect: true }
 - { name: rage,                        verpat: "[0-9]{5}",                                 incorrect: true }
 - { name: ragel,                       verpat: "7\\..*",                                   devel: true } # http://www.colm.net/open-source/ragel/
-- { name: rakarrack,                   ver: "0.6.2",                 ruleset: [sisyphus,fedora,rosa], incorrect: true }
-- { name: rakarrack,                                                 ruleset: [sisyphus,fedora,rosa], untrusted: true }
+- { name: rakarrack,                   ver: "0.6.2",                 ruleset: [sisyphus,fedora,rosa,opensuse], incorrect: true }
+- { name: rakarrack,                                                 ruleset: [sisyphus,fedora,rosa,opensuse], untrusted: true } # accused of fake 0.6.2
 - { name: range-v3,                    ver: "1.0.0",                 ruleset: buckaroo,    incorrect: true } # 0.3.6 https://github.com/ericniebler/range-v3/releases
 - { name: range-v3,                                                  ruleset: buckaroo,    untrusted: true }
 - { name: rar,                         verpat: ".*20[0-9]{6}",                             ignore: true }
@@ -69,8 +69,8 @@
 - { name: runc,                        verpat: "[0-9a-f]{7}",                              ignore: true }
 - { name: runc,                        verpat: ".*rc6.*",            ruleset: exherbo,     incorrect: true }
 - { name: runc,                                                      ruleset: exherbo,     untrusted: true } # accused of fake 1.0.0rc6
-- { name: runc,                        ver: ["1.0.0","1.0.1"],       ruleset: [sisyphus,centos,fedora,openmandriva], incorrect: true } # 1.0.0rc5
-- { name: runc,                                                      ruleset: [sisyphus,centos,fedora,openmandriva], untrusted: true } # accused of fake 1.0.0, 1.0.1
+- { name: runc,                        ver: ["1.0.0","1.0.1"],       ruleset: [sisyphus,centos,fedora,openmandriva,void], incorrect: true } # 1.0.0rc5
+- { name: runc,                                                      ruleset: [sisyphus,centos,fedora,openmandriva,void], untrusted: true } # accused of fake 1.0.0, 1.0.1
 - { name: runc,                        ver: "0.9",                                         incorrect: true } # kaos fake
 - { name: runc,                        ver: "0.9",                   ruleset: kaos,        untrusted: true } # accused of fake 0.9
 - { name: rust,                        verpat: ".*dev",                                    ignore: true } # haikuports garbage

@@ -125,8 +125,8 @@
 - { name: spectacle,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: speex,                       verlonger: 3,                 ruleset: openindiana, ignore: true }
 - { name: speexdsp,                    ver: "1.2.0.3",                                     incorrect: true } # it's 1.2rc3
-- { name: speexdsp,                    ver: "1.2",                   ruleset: [sisyphus,mageia,openmandriva,pld,mer], incorrect: true } # it's 1.2rc3
-- { name: speexdsp,                                                  ruleset: [sisyphus,mageia,openmandriva,pld,mer], untrusted: true }
+#- { name: speexdsp,                    ver: "1.2",                   ruleset: [sisyphus,mageia,openmandriva,pld,mer], incorrect: true } # released
+- { name: speexdsp,                                                  ruleset: [sisyphus,mageia,openmandriva,pld,mer], untrusted: true } # accused of fake 1.2rc3
 - { name: spek,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]+_[0-9a-f]{10}",    ignore: true }
 - { name: sphinxbase,                  ver: "0.9",                                         incorrect: true } # 5prealpha
 - { name: spi-tools,                   ver: "1",                                           incorrect: true } # https://github.com/cpb-/spi-tools/releases
@@ -149,8 +149,8 @@
 - { name: splitpatch,                  verpat: ".*20[0-9]{8}",                             snapshot: true }
 - { name: splitvt,                     ver: "1.6.6_6",                                     incorrect: true } # sisyphus
 - { name: splix,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: splix,                       ver: ["2.0.1", "2.0.0.315"],  ruleset: [fedora,opensuse], incorrect: true }
-- { name: splix,                                                     ruleset: [fedora,opensuse], untrusted: true } # accused of fake 2.0.1, 2.0.0.315 versions
+- { name: splix,                       ver: ["2.0.1", "2.0.0.315"],  ruleset: [fedora,opensuse,pclinuxos,pisi,sisyphus], incorrect: true }
+- { name: splix,                                                     ruleset: [fedora,opensuse,pclinuxos,pisi,sisyphus], untrusted: true } # accused of fake 2.0.1, 2.0.0.315 versions
 - { name: sprunge,                                                                         noscheme: true }
 - { name: sqlite,                      verpat: ".*_[0-9]+",                                ignore: true } # slackbuilds using debian patch
 - { name: sqlite,                      verpat: "3\\.[0-9]{4}",                             incorrect: true }
@@ -164,7 +164,8 @@
 - { name: squid,                       ver: "5.0.0",                 ruleset: aur,         incorrect: true } # snapshot
 - { name: squirrelmail,                verpat: "20[0-9]{6}.*",                             ignore: true } # freebsd snapshot
 - { name: squirrelmail,                verpat: ".*pre[0-9]{5}",                            ignore: true } # pkgsrc snapshot
-- { name: squirrelmail,                ver: "1.4.23",                ruleset: rosa,        incorrect: true } # no such release
+- { name: squirrelmail,                ver: "1.4.23",                ruleset: [rosa,fedora,mageia], incorrect: true } # no such release
+- { name: squirrelmail,                                              ruleset: [rosa,fedora,mageia], untrusted: true } # accused of fake 1.4.23
 - { name: sshttp,                      verpat: "(.*)p(.*)",                                setver: "$1s$2" } # gentoo cannot into upstream versioning scheme
 - { name: sshttp,                      verpat: "(.*)s",                                    setver: "$1s1" } # 0-33s < 0-33s2
 - { name: sshttp,                                                                          any_is_patch: true } # scheme is like 0-33s → 0-35s → 0-35s2
@@ -223,6 +224,6 @@
 - { name: system-config-printer,                                     ruleset: openindiana, untrusted: true }
 - { name: systemd,                     verlonger: 1,                                       incorrect: true }
 - { name: systemtap,                   verpat: "4.*20[0-9]{2}.*",                          incorrect: true }
-- { name: systemtap,                   ver: "4.1",                   ruleset: fedora,      incorrect: true }
+#- { name: systemtap,                   ver: "4.1",                   ruleset: fedora,      incorrect: true } # released
 - { name: systemtap,                                                 ruleset: fedora,      untrusted: true }
 - { name: systemtap,                   verpat: ".*-.*",              ruleset: nix,         incorrect: true } # total garbage not even including the official version
