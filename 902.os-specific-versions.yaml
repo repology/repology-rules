@@ -2,5 +2,6 @@
 
 # Projects which use different (official) versioning scheme for different systems,
 # e.g. include build number for windows
-- { name: claws-mail,                                                ruleset: windows,     untrusted: true } # https://www.claws-mail.org/win32/
-- { name: stellarium,                                                ruleset: windows,     untrusted: true } # http://stellarium.org/
+- { name: claws-mail,                                                ruleset: windows,     ignore: true } # https://www.claws-mail.org/win32/
+- { name: stellarium,                                                ruleset: windows,     ignore: true } # http://stellarium.org/
+- { name: tightvnc,                                                  ruleset: windows,     ignore: true } # 2.x is windows-only
