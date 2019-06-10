@@ -24,6 +24,7 @@
 - { name: actiona,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: adjtimex,                    verpat: ".*_.*",                                    debianism: true }
 - { name: adwaita-icon-theme,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: aescrypt,                    verpat: "[0-9]+",                                   incorrect: true } # 3.10, not 310
 - { name: aeskulap,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: aeskulap,                    verpat: ".*g.*",                                    snapshot: true }
 - { name: aeskulap,                    ver: "0.2.2",                 ruleset: [sisyphus,rosa,pclinuxos], incorrect: true } # 0.2.2beta2

@@ -46,7 +46,7 @@
 - { setname: adwaita-icon-theme,       name: icon-theme-adwaita }
 - { setname: adwaita-qt,               name: [adwaita-qt4,adwaita-qt5,adwaita-common] }
 - { setname: adzapper,                 name: adzap }
-- { setname: aescrypt,                 name: aescrypt-packetizer }
+- { setname: aescrypt,                 name: [aescrypt-packetizer,aescrypt-cli,aescrypt-gui], addflavor: true }
 - { setname: afay,                     name: aflex-ayacc } # ravenports
 - { setname: afflib,                   name: libaff }
 - { setname: afl,                      name: [american-fuzzy-lop,afl-fuzz] }
