@@ -71,8 +71,8 @@
 - { name: runc,                                                      ruleset: exherbo,     untrusted: true } # accused of fake 1.0.0rc6
 - { name: runc,                        ver: ["1.0.0","1.0.1"],       ruleset: [sisyphus,centos,fedora,openmandriva,void], incorrect: true } # 1.0.0rc5
 - { name: runc,                                                      ruleset: [sisyphus,centos,fedora,openmandriva,void], untrusted: true } # accused of fake 1.0.0, 1.0.1
-- { name: runc,                        ver: "0.9",                                         incorrect: true } # kaos fake
-- { name: runc,                        ver: "0.9",                   ruleset: kaos,        untrusted: true } # accused of fake 0.9
+- { name: runc,                        ver: "0.9",                   ruleset: kaos,        incorrect: true } # kaos fake
+- { name: runc,                                                      ruleset: kaos,        untrusted: true } # accused of fake 0.9
 - { name: rust,                        verpat: ".*dev",                                    ignore: true } # haikuports garbage
 - { name: rust,                        verpat: ".*20[0-9]{2}.*",                           ignore: true }
 - { name: rx-tools,                    verpat: "20[0-9]{6}.*",                             snapshot: true }
