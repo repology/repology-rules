@@ -48,7 +48,7 @@
 - {                                                                  ruleset: chocolatey,  untrusted: true }
 
 # don't trust npackd either, as it cannot into prerelease versions (firefox 67.0b9 is 67.0.9)
-- {                                                                  ruleset: chocolatey,  untrusted: true }
+- {                                                                  ruleset: npackd,      untrusted: true }
 
 # melpa always uses snapshots
 - {                                                                  ruleset: melpa,       rolling: true }
