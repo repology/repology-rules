@@ -1,0 +1,6 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+# Projects which use different (official) versioning scheme for different systems,
+# e.g. include build number for windows
+- { name: claws-mail,                                                ruleset: windows,     untrusted: true } # https://www.claws-mail.org/win32/
+- { name: stellarium,                                                ruleset: windows,     untrusted: true } # http://stellarium.org/
