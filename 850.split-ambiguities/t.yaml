@@ -9,7 +9,7 @@
 
 - { name: tcp-wrappers, wwwpart: apple.com, setname: tcp-wrappers-apple }
 
-- { name: telegram, wwwpart: telegram.org, setname: telegram-desktop }
+- { name: telegram, wwwpart: [telegram.org,tdesktop], setname: telegram-desktop }
 - { name: telegram, wwwpart: vysheng/tg, setname: telegram-cli }
 - { name: telegram, ruleset: [mx,solus,pclinuxos], setname: telegram-desktop }
 - { name: telegram, warning: "please classify me" }
