@@ -110,6 +110,9 @@
 - { setname: tolua++,                  namepat: "tolua\\+\\+[0-9.-]+" }
 - { setname: tomahawk,                 name: tomahawk-player }
 - { setname: tomahawk,                 name: tomahawk-qt5, addflavor: qt5 }
+- { setname: tomcat,                   name: [tomcat-bin,tomcat-examples,tomcat-servlet-api], addflavor: true }
+- { setname: tomcat,                   name: [apache-tomcat, java-tomcat] }
+- { setname: tomcat,                   namepat: "tomcat[0-9.-]+" }
 - { setname: tome,                     name: [t-engine4,tales-of-majeyal,tome4,tome4-data,tome-ah] }
 - { setname: tome,                     name: tome4-beta, ignore: true }
 - { setname: tomee,                    name: [tomee-jax-rs,tomee-plume,tomee-plus,tomee-webprofile] }
