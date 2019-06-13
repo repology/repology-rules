@@ -12,7 +12,8 @@
 - { setname: jansson,                  name: libjansson }
 - { setname: jasper,                   name: [libjasper,jasper-libs] }
 - { setname: jasper,                   name: jasper-doc, addflavor: docs }
-- { setname: java-getopt,              name: libgetopt-java }
+- { setname: "java:getopt",            name: [java-getopt, libgetopt-java] }
+- { setname: "java:regexp",            name: [jakarta-regexp, libregexp-java] }
 - { setname: jbigkit,                  name: [jbig-kit,jbig,jbigkit-libs] }
 - { setname: jboss-forge,              name: jboss-forge-offline }
 - { setname: jdeparser,                namepat: "jdeparser[0-9]+" }
