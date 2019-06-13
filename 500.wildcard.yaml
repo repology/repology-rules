@@ -79,7 +79,7 @@
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua(?:[0-9]\\.[0-9])?-(?:lua)?-?(.+?)", ruleset: [alpine,nix,guix] }
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "(?:lua[_-]?)?(.+?)", category: dev-lua, ruleset: [gentoo,exherbo,haikuports] }
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua-(.+)", ruleset: [cygwin,openwrt,t2] }
-- { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua-module-(.+)", ruleset: sisyphus }
+- { setname: "lua:$2", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua([0-9.]*)-module-(?:lua)?(.+?)", ruleset: sisyphus, addflavor: $1 }
 
 # MinGW
 - { setname: "mingw:$1", addflag: wconce, noflag: [wconce,not_mingw], namepat: "mingw-(.*)",   ruleset: [ fedora, mageia, rosa ] }
