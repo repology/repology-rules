@@ -125,6 +125,7 @@
 - { setname: aqbanking,                namepat: "(?:lib)?aqbanking[0-9]*(-(?:gtk)[0-9]*)?(?:-svn|-devel)", addflavor: $1, weak_devel: true }
 - { setname: aqmoney,                  name: aqmoney2 }
 - { setname: aquaria,                  name: aquaria-ose }
+- { setname: arangodb,                 namepat: "arangodb[0-9.-]+" }
 - { setname: arcan,                    name: [acfgfs,aclip,aloadimage,arcan-aclip,arcan-aloadimage,arcan-waybridge,arcan-wayland], addflavor: true }
 - { setname: arcanist,                 name: "php:arcanist" }
 - { setname: archipel-agents,          namepat: "archipel-agent-.*", ruleset: debuntu }
