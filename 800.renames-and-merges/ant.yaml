@@ -1,0 +1,32 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { setname: ant, namepat: "ant[0-9.-]+" }
+- { setname: ant, namepat: "apache-ant[0-9.-]*" }
+
+- setname: ant
+  name:
+    - ant-antlr
+    - ant-apache-bcel
+    - ant-apache-bsf
+    - ant-apache-log4j
+    - ant-apache-oro
+    - ant-apache-regexp
+    - ant-apache-resolver
+    - ant-apache-xalan2
+    - ant-commons-logging
+    - ant-commons-net
+    - ant-core
+    - ant-jai
+    - ant-javamail
+    - ant-jdepend
+    - ant-jmf
+    - ant-jsch
+    - ant-junit
+    - ant-junit4
+    - ant-junitlauncher
+    - ant-nodeps
+    - ant-swing
+    - ant-testutil
+    - ant-trax
+    - ant-xz
+  addflavor: true
