@@ -1,5 +1,7 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: uclibc, wwwpart: uclibc-ng, setname: uclibc-ng } # XXX: problem
+
 - { name: udptunnel, wwwpart: lennox, setname: udptunnel-lennox }
 - { name: udptunnel, ruleset: openbsd, setname: udptunnel-lennox }
 
