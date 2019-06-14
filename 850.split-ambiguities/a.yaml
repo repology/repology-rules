@@ -44,6 +44,10 @@
 - { name: amp, ruleset: slackware, setname: amp-player }
 - { name: amp, warning: "please classify me" }
 
+- { name: anaconda, wwwpart: [continuum.io,anaconda.com], setname: anaconda-python }
+- { name: anaconda, wwwpart: fedoraproject, setname: anaconda-installer }
+- { name: anaconda, warning: "please classify me" }
+
 - { name: ape, wwwpart: biology, setname: ape-plasmid-editor }
 - { name: ape, wwwpart: ape-project.org, setname: ape-ajax-push-engine }
 - { name: ape, wwwpart: tddft, setname: ape-atomic-pseudopotentials-engine }
