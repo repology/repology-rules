@@ -60,6 +60,7 @@
 - { name: "python:python-axolotl-curve25519", verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.([0-9]+)", setver: $1.post$2 }
 - { name: "python:pyyaml",             ver: "4.1",                                         outdated: true } # retracted: https://github.com/yaml/pyyaml/issues/211
 - { name: "python:random2",            ver: "1.0.2",                 ruleset: sisyphus,    incorrect: true }  # never released development snapshot
+- { name: "python:recommonmark",       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "python:shiboken",           ver: "2.0.0",                 ruleset: kaos,        incorrect: true }
 - { name: "python:slowaes",            ver: "0.1",                   ruleset: [gentoo,solus], incorrect: true }
 - { name: "python:slowaes",                                          ruleset: [gentoo,solus], untrusted: true } # accused of fake 0.1
