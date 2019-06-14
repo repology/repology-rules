@@ -74,9 +74,9 @@
 - { setname: "haskell:$0", addflag: wconce, noflag: [wconce,not_haskell], category: "haskellPackages", ruleset: [ nix ] }
 
 # Lua
-- { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua[0-9]{0,2}-(?:lua)?(.+?)", ruleset: [arch,debuntu,fedora,freebsd,gobolinux,mageia,openbsd,opensuse,pkgsrc,void] }
+- { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua[0-9]{0,2}-(?:lua[_-]?)?(.+?)", ruleset: [arch,debuntu,fedora,freebsd,gobolinux,mageia,openbsd,opensuse,pkgsrc,void] }
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua[0-9]{2}(?:lua)?(.+?)", ruleset: openbsd }
-- { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua(?:[0-9]\\.[0-9])?-(?:lua)?-?(.+?)", ruleset: [alpine,nix,guix] }
+- { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua(?:[0-9]\\.[0-9])?-(?:lua)?[_-]?(.+?)", ruleset: [alpine,nix,guix] }
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "(?:lua[_-]?)?(.+?)", category: dev-lua, ruleset: [gentoo,exherbo,haikuports] }
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua-(.+)", ruleset: [cygwin,openwrt,t2] }
 - { setname: "lua:$2", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua([0-9.]*)-module-(?:lua)?(.+?)", ruleset: sisyphus, addflavor: $1 }
