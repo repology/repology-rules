@@ -160,6 +160,7 @@
 - { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "lib(.*)-ruby", ruleset: debuntu } # old Ubuntu Precise
 - { setname: "ruby:$0", addflag: wconce, noflag: [wconce,not_ruby], category: dev-ruby, ruleset: [gentoo, exherbo] }
 - { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "(.*)-rb(2[0-9])", ruleset: fink, addflavor: $2 }
+- { setname: "ruby:$2", addflag: wconce, noflag: [wconce,not_ruby], namepat: "ruby([0-9.]+)-(.*)", ruleset: blackarch, addflavor: $1 }
 
 # Rust
 - { setname: "rust:$1", addflag: wconce, noflag: [wconce,not_rust], namepat: "rust-(.*)", ruleset: [ arch, debuntu, fedora, nix, sisyphus ] }
