@@ -103,6 +103,9 @@
 - { name: trn,                         ver: ["4.77", "4.0"],                               incorrect: true }
 - { name: trn,                         verpat: "(4\\.0)(?:\\.|\\.?[a-z]+)([0-9]+)",        setver: $1-test$2 }
 - { name: tsocks,                      ver: "1.8.4",                 ruleset: macports,    incorrect: true } # fake, latest seem to be 1.8beta5
+- { name: tsocks,                                                    ruleset: macports,    untrusted: true } # fake, latest seem to be 1.8beta5
+- { name: tsocks,                      ver: "1.8",                   ruleset: [sisyphus,mageia,openmandriva,pclinuxos,pld], incorrect: true } # 1.8beta5
+- { name: tsocks,                                                    ruleset: [sisyphus,mageia,openmandriva,pclinuxos,pld], untrusted: true } # accused of fake 1.8
 - { name: tt-rss,                                                                          noscheme: true }
 - { name: ttcp,                        verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: ttf2pt1,                     verpat: "[0-9]+",                                   incorrect: true, disposable: true } # 3.4.4, not 344 (opensuse 42.3)
