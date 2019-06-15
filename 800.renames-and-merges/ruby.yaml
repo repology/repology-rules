@@ -125,4 +125,4 @@
 - { setname: "ruby:gosu",              name: libgosu }
 - { setname: "ruby:rails",             namepat: "rails[0-9.-]*" }
 - { setname: "ruby:poppler",           name: "ruby:ruby-poppler" }
-- { setname: "ruby:rake",              name: rake }
+- { setname: "ruby:rake",              name: [rake,ruby-rake] }
