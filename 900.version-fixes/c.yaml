@@ -153,6 +153,8 @@
 - { name: cuda,                        verpat: ".*\\+.*",            ruleset: aosc,        incorrect: true } # driver version appended?
 - { name: cup,                         verpat: "11.*",                                     incorrect: true } # 0.11b
 - { name: cups,                        verpat: ".*b.*",                                    devel: true }
+- { name: cups-pk-helper,              ver: "0.2.7",                 ruleset: sisyphus,    incorrect: true }
+- { name: cups-pk-helper,                                            ruleset: sisyphus,    untrusted: true } # accused of fake 0.2.7
 - { name: cura,                        verpat: "1[45].*",                                  outdated: true }
 - { name: curaengine,                  verpat: "1[45].*",                                  outdated: true }
 - { name: curses-hexedit,              verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)_[0-9]+",        setver: $1 } # slackbuilds - debian patchlevel
