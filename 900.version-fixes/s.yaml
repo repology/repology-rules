@@ -15,6 +15,7 @@
 - { name: sbcl,                        verpat: ".*20[0-9]{6}.*",                           ignore: true } # nixpkgs garbage
 - { name: sblim-sfcc,                  ver: "2.2.9",                 ruleset: nix,         incorrect: true } # prerelease
 - { name: sblim-sfcc,                                                ruleset: nix,         untrusted: true }
+- { name: sc,                          verlonger: 2,                                       successor: true } # https://github.com/n-t-roff/sc
 - { name: sc-im,                       ver: "0.7.0.81",              ruleset: freebsd,     incorrect: true }
 - { name: sc-im,                                                     ruleset: freebsd,     untrusted: true } # accused of fake 0.7.0.81
 - { name: scantailor-advanced,         verpat: "2016.*",                                   ignore: true }
