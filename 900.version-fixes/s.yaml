@@ -15,6 +15,8 @@
 - { name: sbcl,                        verpat: ".*20[0-9]{6}.*",                           ignore: true } # nixpkgs garbage
 - { name: sblim-sfcc,                  ver: "2.2.9",                 ruleset: nix,         incorrect: true } # prerelease
 - { name: sblim-sfcc,                                                ruleset: nix,         untrusted: true }
+- { name: sc-im,                       ver: "0.7.0.81",              ruleset: freebsd,     incorrect: true }
+- { name: sc-im,                                                     ruleset: freebsd,     untrusted: true } # accused of fake 0.7.0.81
 - { name: scantailor-advanced,         verpat: "2016.*",                                   ignore: true }
 - { name: sccs,                        ver: "5.0.8",                                       incorrect: true } # XXX: problem, incorrect scheme
 - { name: sccs,                        verpat: "[0-9]{6}",                                 incorrect: true }
