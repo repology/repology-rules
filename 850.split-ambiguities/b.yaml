@@ -71,6 +71,11 @@
 
 - { name: bos, wwwpart: boswars,                          setname: boswars }
 
+- { name: browserpass, wwwpart: browserpass-native, setname: browserpass-native }
+- { name: browserpass, wwwpart: [browserpass-extension,dannyvankooten], setname: browserpass-extension }
+- { name: browserpass, ruleset: debuntu, setname: browserpass-extension }
+- { name: browserpass, warning: "please classify me" }
+
 - { name: bsc, wwwpart: [besc,beesoft], setname: beesoft-commander }
 - { name: bsc, summpart: beesoft, setname: beesoft-commander }
 - { name: bsc, wwwpart: libbsc, setname: libbsc }

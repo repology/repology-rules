@@ -128,6 +128,7 @@
 - { setname: brotli,                   name: [brotli-static,brotli-testdata,google-brotli,libbrotli,"python:brotli"], addflavor: true }
 - { setname: brotli,                   name: brotli06 }
 - { setname: brotli,                   name: brotli06-testdata, addflavor: brotli-testdata }
+- { setname: browserpass,              name: [browserpass-chrome,browserpass-chromium,browserpass-firefox], addflavor: true } # later split into browserpass-extension
 - { setname: bsh,                      name: bsh2 }
 - { setname: btanks,                   name: battle-tanks }
 - { setname: btanks,                   name: btanks-data, addflavor: data }
