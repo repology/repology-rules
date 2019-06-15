@@ -172,6 +172,7 @@
 - { name: ssmtp,                       vergt: "2.64",                                      successor: true } # https://github.com/solbu/ssmtp
 - { name: steamcmd,                                                                        noscheme: true }
 - { name: step,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: stepmania,                   verpat: ".*b.*",                                    devel: true }
 - { name: sterm,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: stlink,                      verpat: "20[0-9]{2}.*",                             ignore: true } # snapshot
 - { name: stp,                         verlonger: 3,                 ruleset: freebsd,     incorrect: true }
