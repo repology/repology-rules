@@ -52,6 +52,7 @@
 - { name: djview,                      ver: "4.11",                  ruleset: debuntu,     incorrect: true }
 - { name: djview,                                                    ruleset: debuntu,     untrusted: true }
 - { name: djvulibre,                   ver: "3.5.27.1",                                    ignore: true }
+- { name: djvulibre,                   verpat: ".*-.*",                                    incorrect: true } # scoop garbage
 - { name: dkms,                        ver: "2.022.0",                                     ignore: true } # gobolinux fake
 - { name: dmake,                       verpat: ".*20[0-9]{6}",                             ignore: true } # freebsd snapshot
 - { name: dmraid,                      ver: "1.0.0",                 ruleset: [mageia,openmandriva,pclinuxos,pld], incorrect: true } # it's 1.0.0rc16
