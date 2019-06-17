@@ -59,6 +59,7 @@ families = [
     'hpux',
     'justinstall',
     'kaos',
+    'kwort',
     'libregamewiki',
     'lunar',
     'macports',
