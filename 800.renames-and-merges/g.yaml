@@ -345,7 +345,8 @@
 - { setname: guava,                    namepat: "guava(?:-libraries)?[0-9.-]*" }
 - { setname: guava,                    name: [google-guava, java-guava] }
 - { setname: gucharmap,                name: gucharmap-gtk2, addflavor: gtk2 }
-- { setname: gucharmap,                name: gucharmap7 }
+- { setname: gucharmap,                namepat: "gucharmap[0-9.-]+" }
+- { setname: gucharmap,                name: "libgucharmap" }
 - { setname: guichan,                  name: [libguichan,compat-guichan05,guichan05] }
 - { setname: guile,                    namepat: "guile[0-9.-]+" }
 - { setname: guitarix,                 name: [guitarix-lv2,guitarix-webui], addflavor: true }
