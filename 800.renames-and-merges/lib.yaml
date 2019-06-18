@@ -10,6 +10,8 @@
 - { setname: libarchive,               name: libarchive-devel, weak_devel: true }
 - { setname: libarchive,               name: libarchive3 }
 - { setname: libatomic-ops,            name: [atomic-ops,libatomicops] }
+- { setname: libbonobo,                namepat: "libbonobo[0-9.-]+" }
+- { setname: libbonoboui,              namepat: "libbonoboui[0-9.-]+" }
 - { setname: libc++,                   name: libcxx }
 - { setname: libc++abi,                name: libcxxabi }
 - { setname: libcap,                   name: [libcap2,libcap1,compat-libcap1] }
