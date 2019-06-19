@@ -6,6 +6,8 @@
 - { name: samurai,                                                   ruleset: freebsd,     untrusted: true }
 - { name: sandfox,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: sane-frontends,              verge: "1.0.25",                                    incorrect: true } # https://gitlab.com/sane-project/frontends/tags latest is 1.0.14
+- { name: sane-frontends,              ver: "1.0.15",                ruleset: pclinuxos,   incorrect: true } # https://gitlab.com/sane-project/frontends/tags latest is 1.0.14
+- { name: sane-frontends,                                            ruleset: pclinuxos,   untrusted: true } # accused ofa fake 1.0.15
 - { name: sauerbraten,                 verpat: "(?:0\\.)*(20[0-9]{2})[^0-9]?([0-9]{2})[^0-9]?([0-9]{2})(.*)", setver: "$1_$2_$3$4" } # fix version
 - { name: sauerbraten,                 verpat: "(20[0-9]{2}_[0-9]{2}_[0-9]{2})[a-z_-]+",   setver: "$1" } # remove release name (like _collect_edition)
 - { name: sauerbraten,                 ver: "2014_03_02",            ruleset: debuntu,     ignore: true } # debian fake
