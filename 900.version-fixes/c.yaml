@@ -26,9 +26,7 @@
 - { name: cargo,                       verpat: "1\\..*",             ruleset: nix,         incorrect: true } # rust version used?
 - { name: caribou,                     ver: "0.4.22",                ruleset: sisyphus,    incorrect: true }
 - { name: caribou,                                                   ruleset: sisyphus,    untrusted: true }
-- { name: carla,                       ver: "2.0",                   ruleset: pld,         incorrect: true }
 - { name: carla,                                                     ruleset: pld,         untrusted: true } # accused of fake 2.0
-- { name: carla,                       ver: "2.0.0",                 ruleset: fedora,      incorrect: true }
 - { name: carla,                                                     ruleset: fedora,      untrusted: true } # accused of fake 2.0.0
 - { name: castxml,                                                                         noscheme: true }
 - { name: cataclysm-dda,               verpat: ".*[0-9]{4}.*",                             snapshot: true }
@@ -167,5 +165,4 @@
 - { name: cvs,                         ver: "1.12.13.1",                                   ignore: true } # respin for Windows *only* to fix carriage returns, it does not make sense to list it
 - { name: cwiid,                       ver: ["20110107","0.6.01"],                         ignore: true } # abandonware; a lot of snapshots
 - { name: cwm,                         ver: "6.2.9",                                       ignore: true } # FreeBSD fake
-#- { name: cyrus-sasl,                  ver: "2.1.27", ruleset: [debuntu,fedora,openmandriva,pkgsrc,sisyphus], incorrect: true, disposable: true } # released
 - { name: cyrus-sasl,                                 ruleset: [debuntu,fedora,openmandriva,pkgsrc,sisyphus], untrusted: true } # accused of fake 2.1.27

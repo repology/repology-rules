@@ -31,8 +31,7 @@
 - { name: libchipcard,                 verpat: ".*99",               ruleset: opensuse,    incorrect: true } # 5.1.0beta actually
 - { name: libchipcard,                                               ruleset: opensuse,    untrusted: true } # accusef of fake 5.0.99
 - { name: libclc,                                                                          noscheme: true }
-- { name: libcmis,                     ver: "0.5.2",                 ruleset: sisyphus,    incorrect: true }
-- { name: libcmis,                                                   ruleset: sisyphus,    untrusted: true }
+- { name: libcmis,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 0.5.2
 - { name: libcpuid,                    ver: "0.21",                                        setver: "0.2.1" } # deepin crap
 - { name: libcuefile,                                                                      noscheme: true }
 - { name: libdazzle,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

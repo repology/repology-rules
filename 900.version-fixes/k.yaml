@@ -146,7 +146,6 @@
 - { name: kpmcore,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: kqlives,                     verpat: "20[0-9]{6}",                               ignore: true }
 - { name: krank,                       verpat: "20[0-9]{6}.*",                             ignore: true }
-- { name: krb5,                        ver: "1.17",                  ruleset: fedora,      incorrect: true } # beta1
 - { name: krb5,                                                      ruleset: fedora,      untrusted: true } # accused of fake 1.17
 - { name: krdc,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: krename,                     verpat: "20[0-9]{6}.*",                             ignore: true }
@@ -180,7 +179,6 @@
 - { name: kvantum,                     ver: "0.10.9",                ruleset: sisyphus,    incorrect: true }
 - { name: kvantum,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 0.10.9
 - { name: kvirc,                       ver: "4.9.2",                                       incorrect: true } # pclos garbage
-- { name: kvirc,                       ver: "5.0.0",                 ruleset: [mageia,openmandriva], incorrect: true } # it's 5.0.0beta1
 - { name: kvirc,                                                     ruleset: [mageia,openmandriva], untrusted: true } # accused of fake 5.0.0
 - { name: kvirc,                       verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: kvirustotal,                 verpat: ".*20[0-9]{6}",                             snapshot: true }

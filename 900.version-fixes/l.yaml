@@ -8,8 +8,7 @@
 - { name: lazarus,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 2.0.1
 - { name: lbd,                         verpat: "20[0-9]{6}",                               ignore: true } # BlackArch snap
 - { name: lcms,                        verpat: "2.2[0-9]",                                 ignore: true } # gobolinux brokenness
-- { name: lcov,                        ver: "1.14",                  ruleset: opensuse,    incorrect: true }
-- { name: lcov,                                                      ruleset: opensuse,    untrusted: true }
+- { name: lcov,                                                      ruleset: opensuse,    untrusted: true } # accused of fake 1.14
 - { name: lensfun,                     verpat: "[0-9]+\\.[0-9]+\\.9[0-9]",                 devel: true }
 - { name: less,                        vergt: "530",                                       devel: true, maintenance: true } # http://www.greenwoodsoftware.com/less/
 - { name: lf,                          verpat: "r([.0-9]+)",                               setver: $1 }
@@ -50,8 +49,7 @@
 - { name: lmdb++,                      ver: ["0.9.14.1", "0.9.14.0.1"], ruleset: [fedora,macports], incorrect: true }
 - { name: lmdb++,                                                       ruleset: [fedora,macports], untrusted: true }
 - { name: lmdb++,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }
-#- { name: lmms,                        ver: ["1.1.95","1.2.0"],      ruleset: [sisyphus,kaos], incorrect: true } # released
-- { name: lmms,                                                      ruleset: [sisyphus,kaos], untrusted: true } # accused of fake 1.2.0
+- { name: lmms,                                                      ruleset: [sisyphus,kaos], untrusted: true } # accused of fake 1.1.95, 1.2.0
 - { name: lockdev,                                                                         noscheme: true } # no upstream, everybody fetch from debian, random versions
 - { name: log4cxx,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: logfsprogs,                                                                      noscheme: true }

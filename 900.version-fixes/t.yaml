@@ -67,8 +67,7 @@
 - { name: tigervnc,                    verpat: ".*\\.9[0-9]+",                             devel: true }
 - { name: timeshift,                   ver: "18.9.1.2",              ruleset: mint,        incorrect: true }
 - { name: timeshift,                                                 ruleset: mint,        untrusted: true } # accused of fake 18.9.1.2
-- { name: timidity++,                  ver: "2.15.0",                ruleset: rosa,        incorrect: true } # 2.15.0 was not released yet
-- { name: timidity++,                                                ruleset: rosa,        untrusted: true }
+- { name: timidity++,                                                ruleset: rosa,        untrusted: true } # accused of fake 2.15.0
 - { name: tiny-dnn,                    ver: "1.0.0",                 ruleset: buckaroo,    incorrect: true } # 1.0.0a3 https://github.com/tiny-dnn/tiny-dnn/releases
 - { name: tiny-dnn,                                                  ruleset: buckaroo,    untrusted: true }
 - { name: tivodecode,                  ver: "0.2",                   ruleset: fedora,      incorrect: true }

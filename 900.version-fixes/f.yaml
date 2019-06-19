@@ -4,7 +4,6 @@
 - { name: facetimehd,                                                                      noscheme: true }
 - { name: faifa,                       verpat: ".*svn.*",            ruleset: debuntu,     ignore: true }
 - { name: fairymax,                    verpat: ".*20[0-9]{6}.*",                           ignore: true }
-- { name: falkon,                      ver: "3.1.0",                 ruleset: pisi,        incorrect: true }
 - { name: falkon,                                                    ruleset: pisi,        untrusted: true } # accused of fake 3.1.0
 - { name: fann,                        verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: fasttracker2,                verpat: "2\\.[0-9]{3}",                             incorrect: true } # pkgsrc 2.130; actually b130
@@ -57,7 +56,6 @@
 - { name: fltk,                        ver: "2.0.0",                                       incorrect: true } # never released, see https://github.com/repology/repology/issues/569
 - { name: fltk,                        verpat: ".*[rx].*",                                 ignore: true } # snapshots
 - { name: fltk,                        verpat: "2\\..*",                                   ignore: true } # snapshots
-- { name: fltk,                        ver: "1.3.5",                 ruleset: sisyphus,    incorrect: true }
 - { name: fltk,                                                      ruleset: sisyphus,    untrusted: true } # accused of fake 1.3.5
 - { name: fluidsynth-dssi,             ver: "1.9.9",                 ruleset: opensuse,    incorrect: true }
 - { name: fluidsynth-dssi,                                           ruleset: opensuse,    untrusted: true } # accused of fake 1.9.9
@@ -97,8 +95,7 @@
 - { name: "fonts:siji",                                                                    noscheme: true }
 - { name: "fonts:ubuntu",              ver: "1.0",                   ruleset: pclinuxos,   ignore: true } # no such version on the website
 - { name: "fonts:wqy-microhei",        verpat: "(.*?)[^0-9]?beta",                         setver: $1 }
-- { name: fonttosfnt,                  ver: "1.0.5",                 ruleset: opensuse,    incorrect: true }
-- { name: fonttosfnt,                                                ruleset: opensuse,    untrusted: true }
+- { name: fonttosfnt,                                                ruleset: opensuse,    untrusted: true } # accused of fake 1.0.5
 - { name: foobillard++,                verpat: "3\\.43.*",           ruleset: slackbuilds, incorrect: true }
 - { name: foobillard++,                                              ruleset: slackbuilds, untrusted: true }
 - { name: foobillard++,                verpat: "(.*)b",                                    setver: $1beta }
