@@ -5,10 +5,13 @@
 - { setname: libappindicator,          name: [libappindicator-activate-gtk2,libappindicator-activate-gtk3,libappindicator-activate-sharp,libappindicator-gtk2,libappindicator-gtk3,libappindicator-sharp], addflavor: true }
 - { setname: libappindicator,          name: libappindicator3 }
 - { setname: libarcus,                 name: arcus }
+- { setname: libart-lgpl,              namepat: "libart-lgpl[0-9.-]+" }
 - { setname: libasr,                   name: [libasr-devel,libasr-snapshot], weak_devel: true }
 - { setname: libarchive,               name: libarchive-devel, weak_devel: true }
 - { setname: libarchive,               name: libarchive3 }
 - { setname: libatomic-ops,            name: [atomic-ops,libatomicops] }
+- { setname: libbonobo,                namepat: "libbonobo[0-9.-]+" }
+- { setname: libbonoboui,              namepat: "libbonoboui[0-9.-]+" }
 - { setname: libc++,                   name: libcxx }
 - { setname: libc++abi,                name: libcxxabi }
 - { setname: libcap,                   name: [libcap2,libcap1,compat-libcap1] }
@@ -28,6 +31,7 @@
 - { setname: libdbi-drivers,           name: [libdbi-drivers-freetds,libdbi-drivers-mysql,libdbi-drivers-pgsql,libdbi-drivers-sqlite,libdbi-drivers-sqlite3], addflavor: true }
 - { setname: libdc1394,                namepat: "libdc1394[0-9.-]+" }
 - { setname: libdca,                   name: libdca0 }
+- { setname: libdmapsharing,           namepat: "libdmapsharing[0-9.-]+" }
 - { setname: libdri2,                  name: libdri2-git, weak_devel: true }
 - { setname: libdvbpsi,                namepat: "libdvbpsi[0-9.-]+" }
 - { setname: libdvdplay,               name: libdvdplay0 }
@@ -57,7 +61,12 @@
 - { setname: libgdamm,                 name: libgdamm-docs, addflavor: docs }
 - { setname: libgdamm,                 namepat: "libgdamm[0-9.-]+" }
 - { setname: libgdata,                 namepat: "libgdata[0-9.-]+" }
+- { setname: libggi,                   namepat: "libggi[0-9.-]+" }
+- { setname: libggimisc,               namepat: "libggimisc[0-9.-]+" }
+- { setname: libggiwmh,                namepat: "libggiwmh[0-9.-]+" }
 - { setname: libghemical,              name: libghemical-mpqc, addflavor: true }
+- { setname: libgii,                   namepat: "libgii[0-9.-]+" }
+- { setname: libgit2-glib,             namepat: "libgit2-glib[0-9.-]+" }
 - { setname: libgweather,              namepat: "(?:compat-)?libgweather[0-9.-]*" }
 - { setname: libgee,                   namepat: "libgee[0-9.-]+" }
 - { setname: libgeotiff,               name: [libgeotiff-dfsg,libgeotiff-epsg] }
@@ -103,7 +112,7 @@
 - { setname: liblas,                   name: liblas12 }
 - { setname: liblastfm,                name: liblastfm0 }
 - { setname: liblastfm,                name: [liblastfm-qt4,liblastfm-qt5], addflavor: true }
-- { setname: liblqr,                   name: liblqr-1 } # XXX: reverse?
+- { setname: liblqr,                   namepat: "liblqr[0-9.-]+" } # XXX: reverse?
 - { setname: libm4ri,                  name: m4ri }
 - { setname: libm4rie,                 name: m4rie }
 - { setname: libmcs,                   name: libmcs1 }
@@ -145,6 +154,7 @@
 - { setname: libosmpbf,                name: osmpbf }
 - { setname: libotr,                   namepat: "libotr[0-9]+" }
 - { setname: libp11,                   name: libp11-openssl1.1, addflavor: true }
+- { setname: libpagemaker,             namepat: "libpagemaker[0-9.-]+" }
 - { setname: libpano13,                name: libpano }
 - { setname: libpaper,                 name: libpaper1 }
 - { setname: libpng,                   name: [png,libpng-apng,png14] }
@@ -156,9 +166,14 @@
 - { setname: libqtxdg,                 name: libqtxdg-qt4, addflavor: qt4 }
 - { setname: libquicktime,             name: libquicktime-lame, addflavor: lame }
 - { setname: libquicktime,             name: libquicktime111 }
+- { setname: libquvi,                  namepat: "libquvi[0-9.-]+" }
+- { setname: libquvi-scripts,          namepat: "libquvi[0-9.-]+-scripts" }
+- { setname: libquvi-scripts,          namepat: "libquvi-scripts[0-9.-]+" }
 - { setname: libraw,                   name: libraw16 }
 - { setname: librealsense,             namepat: "librealsense[0-9.-]+" }
 - { setname: libreadline-java,         name: java-readline }
+- { setname: librest,                  namepat: "librest[0-9.-]+" }
+- { setname: librevenge,               namepat: "librevenge[0-9.-]+" }
 - { setname: librdkafka,               name: rdkafka }
 - { setname: librfm,                   name: librfm5 }
 - { setname: librvngabw,               namepat: "librvngabw[0-9.-]+" }
@@ -166,6 +181,7 @@
 - { setname: librsync,                 name: librsync2 }
 - { setname: libsecp256k1,             name: secp256k1 }
 - { setname: libsecp256k1,             name: [secp256k1-git], ignore: true }
+- { setname: libsecret,                namepat: "libsecret[0-9.-]+" }
 - { setname: libsdl2pp,                name: sdl2pp }
 - { setname: libshout,                 name: libshout2 }
 - { setname: libsoup,                  name: [libsoup-gnome,libsoup-reference], addflavor: true }
@@ -206,6 +222,7 @@
 - { setname: libva,                    name: [libva-full,libva-gl,libva-headless,libva-minimal], addflavor: true }
 - { setname: libverto,                 name: [libverto-glib,libverto-libev,libverto-tevent], addflavor: true }
 - { setname: libvirt,                  name: libvirt-zfs, addflavor: true }
+- { setname: libvirt-glib,             namepat: "libvirt-glib[0-9.-]+" }
 - { setname: libvirt-sandbox,          name: virt-sandbox }
 - { setname: libvisio,                 namepat: "libvisio[0-9.-]+" }
 - { setname: libvisual,                namepat: "libvisual[0-9.-]+" }
@@ -246,5 +263,6 @@
 - { setname: libyaml,                  name: yaml }
 - { setname: libyubikey,               name: yubikey }
 - { setname: libykneomgr,              name: ykneomgr }
+- { setname: libzapojit,               namepat: "libzapojit[0-9.-]*" }
 - { setname: libzdb,                   namepat: "libzdb-(mariadb|mysql|oracle|percona|postgresql|sqlite)[0-9.-]*" }
 - { setname: libzen,                   name: libzen0 }
