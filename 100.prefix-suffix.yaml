@@ -22,6 +22,12 @@
 
 - { ruleset: chocolatey,      namepat: "(.*)\\.(install|portable|commandline)", setname: $1, addflavor: $2 }
 
+# cygwin cross-packages
+- { ruleset: cygwin,          namepat: "cygwin(32|64)", setname: "cygwin$1-cygwin" }
+- { ruleset: cygwin,          namepat: "cygwin(32|64)-default-manifest", setname: "cygwin$1-windows-default-manifest" }
+- { ruleset: cygwin,          namepat: "cygwin32-(.*)", setname: $1, addflavor: i686-pc-cygwin }
+- { ruleset: cygwin,          namepat: "cygwin64-(.*)", setname: $1, addflavor: x86_64-pc-cygwin }
+
 - { ruleset: deb_multimedia,  namepat: "(.*)-dmo", setname: "$1" }
 
 - { ruleset: debuntu,         namepat: "(.*)-lts-(quantal|raring|saucy|trusty|utopic|vivid|wily|xenial|yakkety|zesty|artful|bionic)", setname: $1 }
