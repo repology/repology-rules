@@ -30,3 +30,5 @@
 - { name: jxplorer,                    ver: "3.3.2",                                       incorrect: true } # not sure where debian got this (https://salsa.debian.org/java-team/jxplorer), but 3.3.1.2 (2016) is definitely newer than it (2013)
 - { name: jxplorer,                                                  ruleset: debuntu,     untrusted: true } # accused of fake 3.3.2
 - { name: jzintv,                      verpat: "r.*",                                      ignore: true }
+- { name: jzintv,                      ver: "1.0",                   ruleset: aur,         incorrect: true }
+- { name: jzintv,                                                    ruleset: aur,         untrusted: true }
