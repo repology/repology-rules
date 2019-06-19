@@ -3,6 +3,7 @@
 - { name: qarma,                                                                           noscheme: true } # https://github.com/luebking/qarma/releases there's some strange old tag, but no version releases
 - { name: qca,                         ver: "2.2.0",                 ruleset: vcpkg,       incorrect: true } # not released yet
 - { name: qca,                         ver: "2.1.4",                 ruleset: openmandriva, incorrect: true } # git snapshot, not release
+- { name: qdevelop,                                                  ruleset: os4depot,    incorrect: true }
 - { name: qdjango,                     verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: qelectrotech,                verpat: ".*r.*",                                    snapshot: true }
 - { name: qemu,                        verpat: ".*pre[0-9]{5}.*",                          snapshot: true }

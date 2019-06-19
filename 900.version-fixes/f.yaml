@@ -117,6 +117,7 @@
 - { name: fox,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: fpc,                         ver: "3.3.1",                 ruleset: sisyphus,    incorrect: true }
 - { name: fpc,                                                       ruleset: sisyphus,    untrusted: true } # accused of fake 3.3.1
+- { name: fpc,                                                       ruleset: os4depot,    incorrect: true }
 - { name: fplll,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: fplll,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: fprint-demo,                 verpat: "20[0-9]{2}.*",                             ignore: true }
@@ -125,6 +126,7 @@
 - { name: freecad,                     verpat: ".*[0-9]{5}",                               ignore: true } # build numbers for blobs
 - { name: freeciv,                     verpat: "[0-9]{3}",                                 outdated: true }
 - { name: freeimage,                   verge: "3.93",                                      incorrect: true }
+- { name: freeimage,                                                 ruleset: os4depot,    incorrect: true }
 - { name: freeminer,                   verlonger: 4,                 ruleset: fdroid,      ignore: true }
 - { name: freeorion,                   verpat: ".*r.*",                                    devel: true }
 - { name: freeorion,                   verpat: ".*20[0-9]{6}",                             snapshot: true }

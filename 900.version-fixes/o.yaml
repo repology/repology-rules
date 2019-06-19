@@ -17,6 +17,7 @@
 - { name: odoo,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: oggfwd,                                                                          noscheme: true }
 - { name: ogre,                        verpat: "2.*",                                      ignore: true }
+- { name: oilwar,                                                    ruleset: os4depot,    incorrect: true }
 - { name: okteta,                      verpat: "(4|15|16|17|18).*",                        outdated: true }  # went from following KDE versioning to its own 0.x/1.x-based versioning
 - { name: okular,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ollydbg,                     verpat: "[0-9]{3}.*",                               incorrect: true } # it's 1.10, 2.0, 2.01g
@@ -32,6 +33,7 @@
 - { name: openafs,                     verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: openal-creative,             ver: "20060211",                                    ignore: true } # freebsd (should probably be 0.0.8)
 - { name: openaptx,                                                                        noscheme: true }
+- { name: openarena,                                                 ruleset: os4depot,    incorrect: true }
 - { name: opencascade,                                                                     p_is_patch: true } # 7.3.0 < 7.3.0p3
 - { name: opencascade-oce,             verlonger: 3,                                       incorrect: true } # weird mix of occt and oce versions
 - { name: opencity,                    ver: "0.0.6.5stable",                               ignore: true } # 0.0.6.5; "stable" is not a part of the version
@@ -59,8 +61,10 @@
 - { name: openssh,                     verpat: "[0-9]+\\.[0-9]+",                          incorrect: true } # freshcode, pZ part missing
 - { name: openssh,                     verpat: "20[0-9-]{6}.*",                            snapshot: true } # scoop
 - { name: openssh,                                                                         p_is_patch: true }
+- { name: openssh,                                                   ruleset: os4depot,    incorrect: true }
 - { name: openstack-keystone,          verpat: "201[24].*",                                outdated: true }
 - { name: opentracker,                                                                     noscheme: true }
+- { name: opentyrian,                                                ruleset: os4depot,    incorrect: true }
 - { name: openuniverse,                ver: "1.0beta3.1",                                  incorrect: true } # debian garbage
 - { name: openvsp,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: openxcom,                    verpat: ".*201[789].*",                             snapshot: true } # git snapshots

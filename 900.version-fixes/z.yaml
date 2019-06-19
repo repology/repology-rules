@@ -6,6 +6,7 @@
 - { name: zathura,                     ver: "20101104",                                    snapshot: true }
 - { name: zbar,                        verge: "0.20",                                      successor: true } # linuxtv.org fork
 - { name: zbar,                        verpat: ".*20[0-9]{2}.*",                           snapshot: true }
+- { name: zbar,                                                      ruleset: os4depot,    incorrect: true }
 - { name: zd1211-firmware,             ver: "3.0.0.56",                                    outdated: true } # some obsolete garbage from debian oldstable
 - { name: zenity,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: zeromq,                      verpat: "20[0-9]{6}.*",                             snapshot: true } # vcpkg snapshot

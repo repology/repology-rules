@@ -47,6 +47,7 @@
 - { name: ggz-gtk-client,              verpat: "0\\.99.*",                                 devel: true }
 - { name: gimagereader,                verpat: ".*\\.9[0-9]+",                             devel: true }
 - { name: gimp,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gimp-beautify,                                             ruleset: os4depot,    incorrect: true }
 - { name: gimp-fourier,                ver: "0.4.3-2",               ruleset: guix,        incorrect: true }
 - { name: gimp-fourier,                                              ruleset: guix,        untrusted: true } # accused of fake 0.4.3-2
 - { name: gimp-gap,                    ver: "2.7.0",                 ruleset: fedora,      incorrect: true }

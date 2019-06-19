@@ -2,6 +2,7 @@
 
 - { name: yaaw,                                                                            noscheme: true } # https://github.com/binux/yaaw/releases
 - { name: yabasic,                     verpat: "2\\.[0-9]{3}",                             outdated: true } # latest is 2.81.1
+- { name: yacc,                                                      ruleset: os4depot,    incorrect: true }
 - { name: yad,                         ver: "0.40.2",                ruleset: pclinuxos,   incorrect: true }
 - { name: yad,                                                       ruleset: pclinuxos,   untrusted: true }
 - { name: yafaray,                     verpat: "20[0-9]{6}.*",                             snapshot: true }

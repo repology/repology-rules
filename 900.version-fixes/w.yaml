@@ -45,6 +45,7 @@
 - { name: wmutils,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: woff2,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: woff2,                       ver: "20160306",                                    outdated: true } # latest 1.0.2 from 2017
+- { name: wordnet,                                                   ruleset: os4depot,    incorrect: true }
 - { name: wordwarvi,                   ver: "1.1",                   ruleset: [ sisyphus, fedora ], incorrect: true }
 - { name: wpa-supplicant,              verpat: "201[0-9]+.*",        ruleset: openwrt,     ignore: true }
 - { name: wrangler,                    verpat: "20[0-9]{6}.*",                             ignore: true }

@@ -42,6 +42,7 @@
 - { name: xl2tpd,                      verge: "20000000", verlt: "20180519",               outdated: true }
 - { name: xloadimage,                  verlonger: 2,                                       debianism: true } # freebsd, openbsd
 - { name: xmahjongg,                   ver: "3.70",                  ruleset: [ pkgsrc ],  incorrect: true }
+- { name: xmame,                                                     ruleset: os4depot,    incorrect: true }
 - { name: xmbmon,                      verpat: "[0-9]{3}",                                 incorrect: true } # it's 2.05, not 205. Also not 2.0.5.
 - { name: xml-coreutils,               ver: "0.8a",                                        outdated: true }
 - { name: xmlrpc-c,                    vergt: "1.39.12",                                   devel: true } # http://xmlrpc-c.sourceforge.net/change_super_stable.html
@@ -52,6 +53,7 @@
 - { name: xmoto,                                                     ruleset: [pisi,rosa], untrusted: true } # accused of fake 0.5.12
 - { name: xmove,                       ver: "2.0",                   ruleset: sisyphus,    incorrect: true } # it's 2.0beta2
 - { name: xmove,                                                     ruleset: sisyphus,    untrusted: true } # accused of fake 2.0
+- { name: xmp,                                                       ruleset: os4depot,    incorrect: true }
 - { name: xmrig,                       ver: "2.6.0",                 ruleset: [sisyphus,aur], incorrect: true } # beta3
 - { name: xmrig,                                                     ruleset: [sisyphus,aur], untrusted: true } # accused of fake 2.6.0
 - { name: xnp2,                        verpat: "20[0-9]{6}",                               snapshot: true }

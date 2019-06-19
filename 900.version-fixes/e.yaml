@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: e-uae,                                                     ruleset: os4depot,    incorrect: true }
 - { name: easy-rsa,                    ver: "3.0.5",                 ruleset: ravenports,  incorrect: true }
 - { name: easy-rsa,                                                  ruleset: ravenports,  untrusted: true }
 - { name: easygit,                     verpat: "20[0-9]{6}",                               ignore: true } # pld snapshot
@@ -96,5 +97,6 @@
 - { name: exiftool,                    verpat: "11\\.[1-9][0-9]{2}\\..*",                       incorrect: true } # macports crap
 - { name: exiv2,                       verpat: "[0-9a-f]{40}",                             ignore: true } # commit
 - { name: exiv2,                       verpat: ".*20[0-9]{2}\\.?[0-9]{2}\\.?[0-9]{2}",     snapshot: true }
+- { name: expat,                                                     ruleset: os4depot,    incorrect: true }
 - { name: exuberant-ctags,             verpat: "[0-9]{3}",                                 incorrect: true } # nix: revision
 - { name: exult,                                                                           noscheme: true } # last release 1.4.9rc1 in 2016, ~1000 commits since then and no more official releases
