@@ -32,6 +32,7 @@
 - { name: benchmark,                   verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: bennugd-core,                                                                    noscheme: true }
 - { name: bennugd-modules,                                                                 noscheme: true }
+- { name: beret,                       ver: "1.2.1pl1",                                    ignore: true } # openbsd local stuff
 - { name: betty,                                                     ruleset: aur,         untrusted: true }
 - { name: betty,                       ver: "0.1.8",                 ruleset: aur,         incorrect: true }
 - { name: bibtex2html,                 verlonger: 2,                 ruleset: aur,         incorrect: true }
