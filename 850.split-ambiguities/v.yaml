@@ -2,6 +2,11 @@
 
 - { name: v, wwwpart: vgui, setname: vgui }
 
+- { name: vacuum, wwwpart: vacuum-im, setname: vacuum-im }
+- { name: vacuum, summpart: jabber, setname: vacuum-im }
+- { name: vacuum, summpart: ["vacuum magic",shoot-em-up], setname: vacuum-magic }
+- { name: vacuum, warning: "please classify me" }
+
 - { name: vapor, ruleset: nix, setname: love-vapor }
 
 - { name: vc, category: dev-tex, setname: tex-vc }
