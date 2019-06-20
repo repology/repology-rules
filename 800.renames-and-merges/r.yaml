@@ -35,6 +35,7 @@
 - { setname: redland,                  name: [libredland,redland-mysql,redland-pgsql,redland-storage-mysql,redland-storage-postgresql,redland-storage-sqlite,redland-storage-virtuoso], addflavor: true }
 - { setname: redland-bindings,         name: "python:redland", addflavor: python }
 - { setname: redo,                     name: redo-python } # also split int 850
+- { setname: reduce-algebra,           name: reduce-psl, addflavor: psl }
 - { setname: remmina,                  name: [remmina-appindicator,remmina-gtk2,remmina-plugin-gnome,remmina-plugin-nx,remmina-plugin-rdp,remmina-plugin-telepathy,remmina-plugin-vnc,remmina-plugin-xdmcp,remmina-plugins,remmina-xfce], addflavor: true }
 - { setname: renpy,                    name: "python:renpy" }
 - { setname: renpy,                    name: [renpy-demos,renpy-sdk], addflavor: true }
