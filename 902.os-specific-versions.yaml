@@ -4,7 +4,7 @@
 # e.g. include build number for windows
 - { name: claws-mail,                                                ruleset: windows,     ignore: true } # https://www.claws-mail.org/win32/
 - { name: digikam,                                                   ruleset: windows,     ignore: true } # http://download.kde.org/stable/digikam/digiKam-5.9.0-01-Win32.exe
-- { name: gitextensions,                                             ruleset: windows,     ignore: true } # build numbers: https://github.com/gitextensions/gitextensions/releases
+- { name: gitextensions,                         verlonger: 3,       ruleset: windows,     ignore: true } # build numbers: https://github.com/gitextensions/gitextensions/releases
 - { name: gnucash,                                                   ruleset: windows,     ignore: true } # build numbers: https://sourceforge.net/projects/gnucash/files/gnucash (stable)/3.5/
 - { name: stellarium,                                                ruleset: windows,     ignore: true } # http://stellarium.org/
 - { name: tightvnc,                                                  ruleset: windows,     ignore: true } # 2.x is windows-only
