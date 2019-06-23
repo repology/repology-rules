@@ -1,0 +1,8 @@
+# vim: tabstop=50 expandtab softtabstop=50
+
+- ruleset: fsd
+  remove: true
+  name:
+    - nx  # a project, contains a lot of software with different versions
+    - qmetro  # dead project
+    - signal  # android project
