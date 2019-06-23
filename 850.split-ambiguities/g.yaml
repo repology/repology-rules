@@ -66,8 +66,10 @@
 
 - { name: gpm, wwwpart: pote, setname: "go:gpm" }
 
-- { name: greg, wwwpart: gna.org, setname: greg-guile-test-framework } # burried by gna
-# otherwise podcase aggregator
+- { name: greg, wwwpart: [gnu.org,gna.org], setname: greg-guile-test-framework } # burried by gna
+- { name: greg, wwwpart: manolomartinez, setname: greg-podcase-aggregator }
+- { name: greg, ruleset: openbsd, setname: greg-parser-generator }
+- { name: greg, warning: "please classify me" }
 
 - { name: grepcidr, wwwpart: [taugh,grepcidr-2/], setname: grepcidr-2 } # explained on http://www.pc-tools.net/unix/grepcidr/
 
