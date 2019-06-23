@@ -56,7 +56,7 @@
 
 - { name: nstat, ruleset: freebsd, setname: nstat-netflix }
 
-- { name: nut, wwwpart: nut.sourceforge, setname: nut-nutrition }
+- { name: nut, wwwpart: [nut.sourceforge,sourceforge.net/projects/nut], setname: nut-nutrition }
 - { name: nut, ruleset: hpux, setname: nut-nutrition }
 
 - { name: nvi, verpat: "2\\..*",       setname: nvi2 }
