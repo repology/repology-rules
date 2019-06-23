@@ -9,7 +9,11 @@
 # otherwise kanji code converter
 
 - { name: keystone, wwwpart: [openstack,launchpad], setname: openstack-keystone }
-# otherwise keystone-engine.org, an assembler framework
+- { name: keystone, wwwpart: indexdata, setname: keystone-digital-library-suite }
+- { name: keystone, wwwpart: keystone-engine, setname: keystone-engine }
+- { name: keystone, summpart: assembler, setname: keystone-engine }
+- { name: keystone, ruleset: openbsd, setname: keystone-engine }
+- { name: keystone, warning: "please classify me" }
 
 - { name: kiki, category: [python,universe/python], setname: kiki-re }
 - { name: kiki, wwwpart: [freezope,kiki-re], setname: kiki-re }
