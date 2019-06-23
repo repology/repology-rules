@@ -1,5 +1,8 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: cage, wwwpart: alcyone, setname: cage-cellular-automata }
+# otherwise wayland kiosk
+
 - { name: camera, ruleset: [freebsd,openbsd], setname: gnustep-camera } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
 - { name: caps, wwwpart: softpres, ruleset: gentoo, setname: ipfdevlib }
