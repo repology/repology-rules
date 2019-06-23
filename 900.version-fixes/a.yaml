@@ -18,6 +18,8 @@
 - { name: ack,                         verpat: "2\\.[0-9]{,2}[._]0[0-9]",                  devel: true } # e.g. 2.23_02, 2.23_01 as opposed to 2.22
 - { name: acl,                         verlonger: 3,                                       incorrect: true }
 - { name: acl,                         verpat: "20[0-9]{6}.*",                             snapshot: true }
+- { name: acme-tiny,                   verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: acme-tiny,                   verge: "20000000", verlt: "20180517",               outdated: true } # 4.0.4
 - { name: acpi-call,                   verpat: "[45]\\..*",          ruleset: nix,         incorrect: true } # uses kernel versions instead of software's
 - { name: acpi-call,                   ver: "3.17",                                        outdated: true } # kernel version based too, however used by upstream too https://github.com/damadmai/acpi_call/releases, but older than latest 1.2.0
 - { name: acpitool,                    ver: "0.5.2",                 ruleset: t2,          incorrect: true }
