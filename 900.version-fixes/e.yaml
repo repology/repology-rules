@@ -72,6 +72,7 @@
 - { name: eom,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ephoto,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: epiphany,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: epm,                         verge: "6",                                         ignore: true } # fork https://github.com/bsavelev/epm/blob/master/CHANGES
 - { name: epub2txt,                    verpat: ".*20[0-9]{6}",                             ignore: true } # aosc snapshot
 - { name: epydoc,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # fedora garbage
 - { name: "erlang:cl",                 verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
