@@ -100,7 +100,7 @@
 - { name: foobillard++,                                              ruleset: slackbuilds, untrusted: true }
 - { name: foobillard++,                verpat: "(.*)b",                                    setver: $1beta }
 - { name: foobillard++,                ver: "3.42",                                        setver: $0beta }
-- { name: foomatic,                    verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: foomatic,                    verpat: ".*20[0-9]{6}",                             snapshot: true } # aosc snapshot
 - { name: foomatic-db,                                                                     noscheme: true }
 - { name: foomatic-db-engine,          verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: foomatic-db-nonfree,                                                             noscheme: true }
