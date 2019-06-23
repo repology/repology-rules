@@ -46,6 +46,7 @@
 - { setname: ccaudio2,                 name: libccaudio2 }
 - { setname: ccl,                      name: [clozure-cl,clozurecl] }
 - { setname: ccnet,                    name: ccnet-client }
+- { setname: ccrtp,                    name: libccrtp }
 - { setname: ccsm,                     name: ccsm-gtk3, addflavor: true }
 - { setname: ccsm,                     name: ccsm0.8 }
 - { setname: cd-hit,                   name: cdhit }
@@ -156,7 +157,7 @@
 - { setname: colord,                   name: compat-colord10 }
 - { setname: colord,                   name: [colord-nopolkit,colord-sane], addflavor: true }
 - { setname: comedilib,                name: libcomedi }
-- { setname: commoncpp2,               name: commoncpp }
+- { setname: commoncpp2,               name: [commoncpp,libcommoncpp2] }
 - { setname: compiz,                   name: [compiz-core,compiz-gtk] }
 - { setname: compiz,                   namepat: "compiz[0-9.-]+" }
 - { setname: compizconfig-python,      name: "python:compizconfig-python" }
