@@ -52,6 +52,11 @@
 - { name: discord, wwwpart: xnblank, setname: discord-linux }
 - { name: discord, ruleset: [chocolatey,scoop], setname: discord-windows } # different versioning for different OSes, see wikidata
 
+- { name: discover, summpart: discoverd, setname: discoverd }
+- { name: discover, ruleset: debuntu, setname: discover-hardware-identification }
+- { name: discover, wwwpart: kde.org, setname: plasma-discover }
+- { name: discover, warning: "please classify me" }
+
 # game vs. fuzzer
 - { name: dizzy, wwwpart: c0decafe.de, setname: dizzy-fuzzer }
 

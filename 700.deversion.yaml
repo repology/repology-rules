@@ -6,4 +6,5 @@
 
 - { namepat: "(bareos)[0-9]*(-.*)?",   setname: $1$2 }
 - { namepat: "(gimp)2(-.*)",           setname: $1$2 }
+#- { namepat: "(plasma)5(-.*)",         setname: $1$2 }  # XXX: handle plasma5-plasma-*
 - { namepat: "(qt5)[0-9]+(-.*)",       setname: $1$2 }
