@@ -170,4 +170,5 @@
 - { name: aview,                                                     ruleset: [sisyphus,os4depot], untrusted: true }
 - { name: aview,                       verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+",        incorrect: true } # 1.3.0rc1, not 1.3.0.1 (pkgsrc)
 - { name: avinfo,                      ver: "1.0",                   ruleset: [ sisyphus ], ignore: true }
+- { name: avinfo,                      verpat: ".*a.*",                                    devel: true }
 - { name: axrtools,                    verlonger: 3,                                       incorrect: true }
