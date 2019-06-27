@@ -128,4 +128,7 @@
 
 - { name: "python:poppler-qt", ruleset: kaos, setname: "python:python-poppler-qt5" }
 
+- { name: "python:rrdtool", wwwpart: pbanaszkiewicz, setname: "python-rrdtool-pbanaszkiewicz" }
+- { name: "python:rrdtool", wwwpart: oetiker.ch, setname: rrdtool }
+
 - { name: "python:tz", wwwpart: pytz, setname: "python:pytz" } # there is tz module, but in most (currently all) cases it misspelled pytz; XXX: problem
