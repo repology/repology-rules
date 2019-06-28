@@ -156,6 +156,13 @@
 
 - { name: sugar, wwwpart: bach.istc.kobe-u.ac.jp/sugar, setname: sugar-solver }
 
+- { name: surf, wwwpart: suckless, setname: surf-browser }
+- { name: surf, wwwpart: uiuc, setname: surf-surface } # Solvent accesible Surface calculator
+- { name: surf, wwwpart: [surf.sf.net, surf.sourceforge.net], setname: surf-alggeo }
+- { name: surf, summpart: geometry, setname: surf-alggeo }
+- { name: surf, summpart: browser, setname: surf-browser }
+- { name: surf, warning: "please classify me" }
+
 - { name: svn2git, verpat: "1\\.[0-9]+.*", setname: svn-all-fast-export }
 
 - { name: swarp, wwwpart: astromatic, setname: swarp-astromatic }
