@@ -11,7 +11,7 @@
 - { setname: wcmcommander,             name: walcommander } # old name
 - { setname: wcmcommander,             name: wcm-commander }
 - { setname: webkitfltk,               name: webkitfltk-static, addflavor: static }
-- { setname: webkitgtk,                name: webkitgtk-gtk2 }
+- { setname: webkitgtk,                name: [webkitgtk-gtk2,webkitgtk+,gtk-webkit] }
 - { setname: webkitgtk,                namepat: "(?:lib)?webkit[0-9.-]*gtk[0-9.-]*" }
 - { setname: webkitgtk,                namepat: "(?:lib)?webkit[0-9.-]*gtk[0-9.-]*-unstable", weak_devel: true }
 - { setname: webkitgtk,                namepat: "webkit[0-9.-]" } # assuming gtk
