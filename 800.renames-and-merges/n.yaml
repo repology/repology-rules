@@ -32,6 +32,8 @@
 - { setname: netlogo,                  name: netlogo-bin, addflavor: bin }
 - { setname: netpbm,                   name: libnetpbm }
 - { setname: netpbm,                   name: [netpbm-free,netpbm-debug], addflavor: true }
+- { setname: netsurf,                  name: netsurf-browser }
+- { setname: netsurf,                  name: [netsurf-fb,netsurf-sdl], addflavor: true }
 - { setname: nettle,                   name: [libnettle,nettle4] }
 - { setname: network-manager-applet,   name: network-manager-applet-gtk2, addflavor: gtk2 }
 - { setname: network-manager-applet,   name: network-manager-applet-indicator, addflavor: indicator }
