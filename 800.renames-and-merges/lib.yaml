@@ -14,6 +14,7 @@
 - { setname: libbonoboui,              namepat: "libbonoboui[0-9.-]+" }
 - { setname: libc++,                   name: libcxx }
 - { setname: libc++abi,                name: libcxxabi }
+- { setname: libcanberra,              name: [libcanberra-gtk,libcanberra-gtk2,libcanberra-gtk3], addflavor: true }
 - { setname: libcap,                   name: [libcap2,libcap1,compat-libcap1] }
 - { setname: libcap,                   name: libcap-pam, addflavor: true }
 - { setname: libcapplet,               name: libcapplet15 }
