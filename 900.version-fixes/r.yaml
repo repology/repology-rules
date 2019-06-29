@@ -52,7 +52,7 @@
 - { name: rtl-sdr,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: rtl-sdr,                     verge: "20000000", verlt: "20180827",               outdated: true } # 0.6.0 from 2018-08-27
 - { name: rtl-sdr,                     ver: "0.20130412",                                  outdated: true, disposable: true }
-- { name: rtl8812au,                   verpat: "201[56].*",                                ignore: true }
+- { name: rtl8812au,                                                                       noscheme: true }
 - { name: rtmpdump,                    verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: rtmpdump,                    verlonger: 2,                                       ignore: true }
 - { name: rtorrent,                    verpat: "20[0-9]{6}.*",                             ignore: true } # nix fake
