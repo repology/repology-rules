@@ -65,7 +65,7 @@
 - { setname: wormsofprey,              name: wop }
 - { setname: wpa-supplicant,           name: wpasupplicant }
 - { setname: wpa-supplicant,           name: [wpa-gui, wpa-supplicant-gui], addflavor: gui }
-- { setname: wpa-supplicant,           name: wpa-supplicant-minimal, addflavor: true }
+- { setname: wpa-supplicant,           name: [wpa-supplicant-minimal,wpa-supplicant-openssl-1.0], addflavor: true }
 - { setname: wpull,                    name: "python:wpull" }
 - { setname: wrogue,                   name: warp-rogue }
 - { setname: wv,                       name: libwv }
