@@ -64,6 +64,7 @@
 - { name: amarok,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: amarok,                                                    ruleset: freebsd,     untrusted: true }
 - { name: amass,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: amaya,                       ver: "11.4.7",                                      devel: true } # there's a tag, but no official release
 - { name: amiwm,                       ver: "0.21.2",                                      incorrect: true } # it's 0.21pl2; the projects is dead since 2010, so I see no need to bother with pattern rule
 - { name: amiwm,                                                                           p_is_patch: true }
 - { name: amphetamine,                                               ruleset: os4depot,    incorrect: true } # 0.8.10b, source unknown
