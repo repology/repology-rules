@@ -46,6 +46,8 @@
 - { name: opendbx,                     ver: "1.5.0",                                       devel: true } # https://linuxnetworks.de/doc/index.php?title=OpenDBX/Download; XXX probably needs pattern, but the devel scheme is unknown
 - { name: opendkim,                    ver: "2.11.0",                ruleset: [sisyphus,fedora], incorrect: true } # it's 2.11.0.alpha0: https://sourceforge.net/projects/opendkim/files/
 - { name: opendkim,                                                  ruleset: [sisyphus,fedora], untrusted: true } # accused of fake 2.11.0
+- { name: openfoam,                    verpat: "[0-9]{4}",                                 ignore: true } # ??? correct version is 6 or 6.YYYYMMDD
+- { name: openfoam,                    verpat: ".*20[0-9]{6}",                             devel: true } # XXX: alternative schema; https://github.com/OpenFOAM/OpenFOAM-6/releases
 - { name: openjade,                    verpat: ".*(p|pre|devel)[0-9]*",                    devel: true }
 - { name: openjade,                    ver: "1.3.3",                 ruleset: [pclinuxos,mageia,openpkg,pld], incorrect: true } # fake, it's 1.3.3pre1
 - { name: openjfx,                     verpat: "8\\.0\\..*",                               ignore: true } # fedora; the official scheme is e.g. 8u151b12
