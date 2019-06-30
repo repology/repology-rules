@@ -163,6 +163,7 @@
 - { name: cutycapt,                                                                        noscheme: true }
 - { name: cvs,                         ver: "1.20120905",                                  ignore: true }
 - { name: cvs,                         ver: "1.12.13.1",                                   ignore: true } # respin for Windows *only* to fix carriage returns, it does not make sense to list it
+- { name: cvs,                         verpat: ".*real.*",                                 incorrect: true } # termux ???
 - { name: cwiid,                       ver: ["20110107","0.6.01"],                         ignore: true } # abandonware; a lot of snapshots
 - { name: cwm,                         ver: "6.2.9",                                       ignore: true } # FreeBSD fake
 - { name: cyrus-sasl,                                 ruleset: [debuntu,fedora,openmandriva,pkgsrc,sisyphus], untrusted: true } # accused of fake 2.1.27
