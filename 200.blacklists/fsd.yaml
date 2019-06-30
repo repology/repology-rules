@@ -8,3 +8,11 @@
     - signal  # android project
     - god  # python module clash with unrelated project
     - discord  # python module clash with unrelated project
+    - commoncpp  # messup between commoncpp and its part ucommon
+
+# may be fixed in data
+- ruleset: fsd
+  remove: true
+  name:
+    - cage # vs. pycage
+    - pypdf # should be renamed to PyPDF2
