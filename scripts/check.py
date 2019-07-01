@@ -178,6 +178,7 @@ schema = Schema(
         'successor': bool,
         'debianism': bool,
         'generated': bool,
+        'trace': bool,
         'addflag': str,
         'last': bool,
         'tolowername': bool,
