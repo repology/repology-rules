@@ -148,6 +148,7 @@
 - { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9.-]*" }
 - { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9.-]*(-docs|-reference)", addflavor: docs }
 - { setname: glitz,                    name: libglitz }
+- { setname: glm,                      name: glm-devel, weak_devel: true }
 - { setname: globulation2,             name: [globulation-2,glob2] }
 - { setname: glog,                     name: google-glog }
 - { setname: glpng,                    name: [libglpng1,libglpng] }
