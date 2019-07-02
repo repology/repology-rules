@@ -80,4 +80,5 @@
 - { name: owamp,                       ver: "3.5.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: owamp,                                                     ruleset: sisyphus,    untrusted: true }
 - { name: owfs,                                                                            p_is_patch: true }
+- { name: owncloudclient,              verpat: ".*[0-9]{5}",                               snapshot: true } # openbsd
 - { name: oxygen-gtk3,                 verlonger: 3,                 ruleset: kaos,        incorrect: true }

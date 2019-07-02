@@ -44,7 +44,7 @@
 - { name: libdvdread,                  ver: "5.0.4",                 ruleset: [arch,openindiana], ignore: true } # fake
 - { name: libfaketime,                 verpat: ".*201[67].*",                              ignore: true } # FreeBSD is using git snapshot
 - { name: libffi,                      ver: "3.3",                   ruleset: debuntu,     ignore: true } # snapshot of nonexisting version
-- { name: libfirm,                     ver: "1.22.1",                ruleset: openbsd,     incorrect: true } # https://github.com/libfirm/libfirm/tags
+- { name: libfirm,                     verpat: ".*pl.*",             ruleset: openbsd,     incorrect: true } # https://github.com/libfirm/libfirm/tags
 - { name: libggz,                      verpat: "0\\.99.*",                                 devel: true }
 - { name: libglw,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: libgnome,                    ver: "2.32.2",                ruleset: opensuse,    incorrect: true }

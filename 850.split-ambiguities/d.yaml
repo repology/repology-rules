@@ -24,6 +24,14 @@
 - { name: decibel, wwwpart: silent-blade.org, setname: decibel-audio-player }
 # otherwise, kde framework for real time communication services
 
+- { name: deco, wwwpart: ebzzry, setname: deco-root-image-setter }
+- { name: deco, wwwpart: [peha,hardlich], setname: deco-extractor }
+- { name: deco, summpart: demos, setname: demos-commander }
+- { name: deco, summpart: extract, setname: demos-extractor }
+- { name: deco, warning: "please classify me" }
+
+- { name: detex, vergt: "2.8", setname: opendetex } # continuation; XXX: problem
+
 - { name: dex, wwwpart: tihirvon, setname: dex-editor }
 - { name: dex, wwwpart: jceb, setname: dex-autostart }
 - { name: dex, category: x11-misc, setname: dex-autostart } # gentoo

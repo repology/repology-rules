@@ -7,6 +7,8 @@
 - { name: abbaye-des-morts,                                          ruleset: os4depot,    incorrect: true }
 - { name: abc,                                                                             noscheme: true }
 - { name: abcmidi,                     verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" }
+- { name: abiword,                     ver: "3.0.2.1",               ruleset: openbsd,     incorrect: true }
+- { name: abiword,                                                   ruleset: openbsd,     untrusted: true } # accused of fake 3.0.2.1
 - { name: abseil-cpp,                  verpat: ".*[0-9a-f]{40}",                           incorrect: true } # nix
 - { name: abseil-cpp,                  verpat: "[0-9]{4}-[0-9]{2}-[0-9]{2}",               incorrect: true } # vcpkg (it's YYYYMMDD, not YYYY-MM-DD)
 - { name: abuse,                       ver: "2.0",                   ruleset: pkgsrc,      incorrect: true }

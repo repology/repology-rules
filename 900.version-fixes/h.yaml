@@ -11,6 +11,7 @@
 - { name: hddtemp,                     verpat: ".*(52|53)",                                incorrect: true } # 0.3beta15
 - { name: hefur,                       verpat: ".*[0-9a-z]{7}",                            snapshot: true } # CRUX snapshot
 - { name: hex2bin,                     verpat: "20[0-9]{6}.*",                             snapshot: true } # AUR snapshot
+- { name: hexcalc,                     verpat: "19[0-9]{6}",                               snapshot: true } # openbsd
 - { name: hexdump,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: hidapi,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: hidapi,                      ver: "0.8.0",                 ruleset: [fedora,mageia,sisyphus,macports,pclinuxos,pld], incorrect: true } # 0.8.0rc1

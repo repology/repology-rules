@@ -48,6 +48,7 @@
 - { name: seahorse-plugins,            verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: seahub,                                                    ruleset: freebsd,     untrusted: true } # uses -pro (nonfree) releases as opposed to -server ones
 - { name: seamonkey,                   verlonger: 3,                                       incorrect: true } # gentoo garbage
+- { name: seed7,                       verpat: "[0-9]{4}-?[0-9]{2}-?[0-9]{2}",             incorrect: true } # 5.20190610, not 20190610 or 2019-06-10
 - { name: sendmail,                    verlonger: 3,                                       devel: true }
 - { name: sg3-utils,                   verpat: "[0-9]+\\.[0-9]+~[0-9]+",                   snapshot: true } # opensuse
 - { name: sgt-puzzles,                 verpat: "([0-9]{8})\\.[0-9a-fr]+",                  setver: "$1" } # remove commit hashes and revisions

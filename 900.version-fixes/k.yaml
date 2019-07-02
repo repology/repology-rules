@@ -90,6 +90,7 @@
 - { name: kio,                         ver: "5.47.0a",                                     incorrect: true }
 - { name: kio-extras,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kiriki,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kismet,                      verpat: "20[0-9]{4}.*",                             incorrect: true } # version format problem (it's YYYY-MM-RX)
 - { name: kismet,                      verpat: "2008.*",                                   outdated: true } # XXX: version format problem
 - { name: kismet,                      verpat: "([0-9]{4})\\.([0-9]+)\\.([0-9]+)",         setver: $1-$2-R$3 }
 - { name: kiten,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
