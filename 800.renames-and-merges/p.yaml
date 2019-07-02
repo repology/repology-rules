@@ -110,6 +110,9 @@
 - { setname: pokerth,                  name: [pokerth-client,pokerth-server], addflavor: true }
 - { setname: polkit,                   name: [polkit-consolekit,polkit-elogind], addflavor: true }
 - { setname: polkit,                   name: polkit105 }
+- { setname: polkit,                   name: [policykit,policykit-1] }
+- { setname: polkit-gnome,             name: [policykit-1-gnome,policykit-gnome] }
+- { setname: polkit-gnome,             name: polkit-gnome-gtk2, addflavor: true }
 - { setname: polkit-qt-1,              name: polkit-qt }
 - { setname: polkit-qt-1,              name: [polkit-qt4,polkit-qt-1-qt4], addflavor: qt4 }
 - { setname: polkit-qt-1,              name: [polkit-qt5,polkit-qt-1-qt5,polkit-qt5-1], addflavor: qt5 }
