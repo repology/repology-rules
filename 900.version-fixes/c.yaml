@@ -48,7 +48,7 @@
 - { name: cdrtools,                    verpat: ".*a.*",                                    devel: true }
 - { name: ceferino,                    verpat: ".*svn.*",                                  ignore: true }
 - { name: cegui,                       verpat: "6\\..*",                                   setver: "0.$0" } # it's 0.6.2!
-- { name: celestia,                    verpat: "[0-9]{3}",                                 outdated: true }
+- { name: celestia,                    verpat: "[0-9]{3,4}",                               outdated: true }
 - { name: celestia,                    ver: "1.7.0",                 ruleset: [mageia,opensuse], incorrect: true }
 - { name: celestia,                                                  ruleset: [mageia,opensuse], untrusted: true }
 - { name: celestia,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
