@@ -169,6 +169,10 @@
 - { setname: sqlite,                   name: [sqlite-analyzer,sqlite.analyzer,sqlite3-analyzer], addflavor: analyzer }
 - { setname: sqlite,                   name: [sqlite-doc,sqlite3-doc], addflavor: doc }
 - { setname: sqlite,                   name: [sqlite-interactive,sqlite-with-fts3,sqlite-with-fts5,sqlite.shell,sqlite3-tools], addflavor: true }
+- { setname: squashfs-tools,           name: squashfs-tools-next, weak_devel: true }
+- { setname: squashfs-tools,           name: squashfs3-tools }
+- { setname: squashfs-tools,           name: squashfs } # squashfs and squashfs-tools are single project
+- { setname: squashfs-tools,           name: squashfs-lzma, addflavor: lzma } # squashfs and squashfs-tools are single project
 - { setname: squid,                    name: [squid-ldap,squid-ntlm], addflavor: true, ruleset: openbsd }
 - { setname: squid,                    name: squid-devel, weak_devel: true }
 - { setname: squid,                    name: squid-4x }
