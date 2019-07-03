@@ -110,6 +110,8 @@
 
 - { remove: true,   name: [xfce-desktop,xfce-plugins], ruleset: adelie }
 
+- { remove: true,   name: [xfce,xfce4] }
+
 # openpkg uses module packs versioned after corresponding language
 - { ruleset: openpkg, namepat: "perl-.*",         remove: true }
 - { ruleset: openpkg, namepat: "python-.*",       remove: true }
