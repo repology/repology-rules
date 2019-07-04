@@ -168,7 +168,7 @@
 - { name: sqlitebrowser,                                             ruleset: kaos,        untrusted: true } # accused of fake 3.10.80
 - { name: sqlninja,                    ver: "0.2.999",                                     incorrect: true } # it's 0.2.999-alpha1
 - { name: squashfs-tools,              verpat: "[0-9]+",                                   incorrect: true } # 4.3, not 43
-- { name: squashfs-tools,              verpat: "20[0-9]{6}.*",                             snapshot: true }
+- { name: squashfs-tools,              verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: squeezelite,                                                                     noscheme: true }
 - { name: squid,                       verpat: "5\\..*",                                   devel: true, maintenance: true }
 - { name: squid,                       ver: "5.0.0",                 ruleset: aur,         incorrect: true } # snapshot
