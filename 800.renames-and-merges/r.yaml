@@ -46,6 +46,8 @@
 - { setname: rhash,                    name: librhash }
 - { setname: rigsofrods,               name: rigs-of-rods }
 - { setname: ringojs,                  name: ringo }
+- { setname: riot,                     name: [riot-desktop,riot-web], addflavor: true } # same thing, electron crap
+- { setname: riot,                     name: riot-web-develop, addflavor: web, weak_devel: true }
 - { setname: ripgrep,                  name: "rust:ripgrep" }
 - { setname: ripgrep,                  name: ripgrep-simd, addflavor: true }
 - { setname: rl,                       name: randomize-lines } # it's too short to be unambigous, but there are no clashet (yet) and it's more canonical
