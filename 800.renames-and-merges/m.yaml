@@ -195,6 +195,8 @@
 - { setname: mupdf,                    name: [libmupdf,mupdf-nojs,mupdf-seccomp,mupdf-tools], addflavor: true }
 - { setname: musepack,                 name: [musepack-tools,libmusepack], addflavor: true }
 - { setname: musescore,                name: [musescore-dev,musescore-snapshot], weak_devel: true }
+- { setname: musl,                     name: musl-libc }
+- { setname: musl,                     name: musl-bootstrap, addflavor: true }
 - { setname: musl-rpmatch,             name: rpmatch-standalone }
 - { setname: mutt,                     name: mutt-devel, weak_devel: true }
 - { setname: mutt,                     name: [mutt-lite,mutt14,mutt14-lite,mutt-patched,mutt-slang,mutt-kiss] }
