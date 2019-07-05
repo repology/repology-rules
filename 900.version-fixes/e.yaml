@@ -43,6 +43,7 @@
 - { name: emacs,                       ver: "26.1.90",               ruleset: sisyphus,    incorrect: true }
 - { name: emacs,                                                     ruleset: sisyphus,    untrusted: true } # accused of fake 26.1.90
 - { name: emacs,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: "emacs:apel",                verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "emacs:emhacks",                                                                 noscheme: true }
 - { name: "emacs:icicles",                                                                 noscheme: true }
 - { name: "emacs:matlab",                                                                  noscheme: true }
