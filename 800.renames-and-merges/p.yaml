@@ -40,10 +40,11 @@
 - { setname: pcre,                     namepat: "(?:lib)?pcre[0-9.-]*" }
 - { setname: pcre++,                   name: [libpcre++,pcrexx] }
 - { setname: pdfstudio,                namepat: "pdfstudio[0-9]+" }
-- { setname: pdns,                     name: [pdnsrec,powerdns-recursor] }
 - { setname: pdns,                     name: [powerdns-geoip,powerdns-ldap,powerdns-mysql,powerdns-odbc,powerdns-pgsql] }
 - { setname: pdns,                     name: pdns-common }
 - { setname: pdns,                     name: powerdns }
+- { setname: pdns-recursor,            name: [pdnsrec,powerdns-recursor] }
+- { setname: pdns-recursor,            namepat: "powerdns-recursor[0-9.-]+" }
 - { setname: pdumpfs,                  name: "ruby:pdumpfs" }
 - { setname: peazip,                   name: [peazip-gtk2,peazip-gtk2-build,peazip-gtk2-portable,peazip-qt,peazip-qt-build,peazip-qt-opensuse-latest,peazip-qt4,peazip-qt5], addflavor: true }
 - { setname: peda,                     name: gdb-peda }
