@@ -114,6 +114,10 @@
 - { setname: smstools,                 namepat: "smstools[0-9]+" }
 - { setname: smtube,                   name: smtube-qt4, addflavor: true }
 - { setname: snack,                    name: ["python:snack", tcl-snack], addflavor: true }
+- { setname: snappy,                   name: libsnappy, addflavor: true }
+- { setname: snappy,                   name: snappy-static, addflavor: true }
+- { setname: snappy-java,              name: [snappy1.0.3-java,snappyjava,java-snappy] }
+- { setname: snappy-player,            name: snappyplayer }
 - { setname: sni-qt,                   name: sni-qt4 }
 - { setname: snorenotify,              name: snorenotify-qt5 }
 - { setname: snort,                    name: snort3 }
