@@ -85,7 +85,7 @@
 - { setname: maven,                    name: [apache-maven-bin,maven-bin], addflavor: bin }
 - { setname: maven,                    namepat: "maven[0-9]+(-core)?", addflavor: $1 }
 - { setname: maven-shell,              name: mvnsh }
-- { setname: mbedtls,                  name: mbedtls10 }
+- { setname: mbedtls,                  namepat: "mbedtls[0-9]+" }
 - { setname: mbedtls,                  name: mbedtls-apache, addflavor: true }
 - { setname: mc,                       name: [mc-contrib,midnight-commander,midnightcommander] }
 - { setname: mc,                       name: mc46 }
