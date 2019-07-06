@@ -67,7 +67,8 @@
 - { name: engrampa,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: enlightenment,               verpat: "20[0-9-]{8}",                              snapshot: true }
 - { name: enlightenment,               ver: "2009-07-29",                                  outdated: true }
-- { name: enlightenment,                                             ruleset: sisyphus,    untrusted: true } # only repo with 0.23.0 ATOW, very likely fake
+- { name: enlightenment,               ver: "0.23.0",                ruleset: sisyphus,    incorrect: true } # 0.23.0-alpha
+- { name: enlightenment,                                             ruleset: sisyphus,    untrusted: true } # accused of 0.23.0
 - { name: enventor,                    verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: envytools,                                                                       noscheme: true }
 - { name: eog,                         verpat: "[0-9]+\\.[0-9]*[13579](\\..*)?",           devel: true }
