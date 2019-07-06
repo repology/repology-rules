@@ -36,6 +36,9 @@
 - { name: qt5-webkit,                                                ruleset: [fedora,sisyphus,crux,mageia,pclinuxos,pld,void,pisi], untrusted: true } # accused of fake 5.212.0
 - { name: qt5-webkit,                  ver: "5.212.0_2",             ruleset: solus,       incorrect: true } # fake, it's 5.212.0alpha2
 - { name: qt5-webkit,                                                ruleset: solus,       untrusted: true } # accused of fake 5.212.0_2
+- { name: qt5-webkit,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: qt5-webkit,                  ver: "5.9.2",                 ruleset: cygwin,      incorrect: true }
+- { name: qt5-webkit,                                                ruleset: cygwin,      untrusted: true } # accused of fake 5.9.2
 - { name: qtemu,                       ver: "2.0",                   ruleset: sisyphus,    incorrect: true } # 2.0alpha1
 - { name: qtemu,                                                     ruleset: sisyphus,    untrusted: true }
 - { name: qtermwidget,                 verpat: "20[0-9]{6}",                               snapshot: true }
