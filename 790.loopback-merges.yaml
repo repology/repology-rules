@@ -4,6 +4,7 @@
 # In future these will go away as we'll have less splits (because
 # of better branches support) and more sane naming
 
+- { setname: "fonts:liberation",       name: ["fonts:liberation2"] }
 - { setname: "gstreamer0plugins:base", name: ["gstreamer1plugins:base"], verlt: "0" }
 - { setname: "gstreamer1plugins:base", name: ["gstreamer0plugins:base"], verge: "1" }
 - { setname: "gstreamer0plugins:good", name: ["gstreamer1plugins:good"], verlt: "0" }
@@ -12,6 +13,5 @@
 - { setname: "gstreamer1plugins:ugly", name: ["gstreamer0plugins:ugly"], verge: "1" }
 - { setname: "gstreamer0plugins:bad",  name: ["gstreamer1plugins:bad"], verlt: "0" }
 - { setname: "gstreamer1plugins:bad",  name: ["gstreamer0plugins:bad"], verge: "1" }
-- { setname: "fonts:liberation",       name: ["fonts:liberation2"] }
 - { setname: jack,                     name: [jack-audio-connection-kit,jack-audio-connection-kit1] }
 - { setname: "python:pygobject",       name: ["python:pygobject2", "python:pygobject3"] }
