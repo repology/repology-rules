@@ -53,3 +53,8 @@
 - { name: overpass, warning: "please classify me" }
 
 - { name: orc, ruleset: vcpkg, setname: apache-orc }
+
+- { name: otter, wwwpart: [otter-browser,otterbrowser], setname: otter-browser }
+- { name: otter, wwwpart: [ar/otter,mccune], setname: otter-prover }
+- { name: otter, ver: "3.3f", setname: otter-prover } # circa 2004, unlikely to change
+- { name: otter, warning: "please classify me" }
