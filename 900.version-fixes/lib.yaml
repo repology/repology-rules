@@ -94,6 +94,7 @@
 - { name: liblinebreak,                verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: liblockfile,                 verpat: "[0-9]+\\.[0-9]+_[0-9]+.*",                 ignore: true } # some debian suffix?
 - { name: liblqr,                      verpat: "1-.*",                                     ignore: true } # "1" is not part of the version
+- { name: liblsl,                      verpat: ".*b.*",                                    devel: true }
 - { name: libmatekbd,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libmatemixer,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libmateweather,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
