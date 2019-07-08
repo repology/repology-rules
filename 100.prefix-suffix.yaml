@@ -56,6 +56,8 @@
 
 - { ruleset: nix,             namepat: "(.*)-unstable", setname: $1, weak_devel: true }
 
+- { ruleset: npackd,          namepat: "(.*?)(-?64)", setname: $1, addflavor: "64" }
+
 - { ruleset: openwrt,         namepat: "(.*)_nohf", setname: $1, addflavor: nohf } # entware, on some arm platforms
 
 - { ruleset: parabola,        namepat: "(.*)-static-debug", setname: $1, addflavor: static-debug }
