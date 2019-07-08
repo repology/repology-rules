@@ -148,8 +148,9 @@
 - { name: cronolog,                    ver: "1.7.0",                 ruleset: openpkg,     incorrect: true } # 1.7.0-beta
 - { name: crossguid,                   verpat: "20[0-9]{6}",                               ignore: true }
 - { name: crossguid,                   verpat: "201[56].*",                                outdated: true } # there's 0.2.2 from Aug 2017
-- { name: crossguid,                   verpat: "0\\.2\\.2-20[0-9]+-[0-9]+",                incorrect: true }
+- { name: crossguid,                   verpat: "0\\.2\\.2-20[0-9]+(-[0-9]+)*",             incorrect: true }
 - { name: crossguid,                   ver: "1.0.0",                 ruleset: openindiana, incorrect: true }
+- { name: crossguid,                                                 ruleset: vcpkg,       untrusted: true } # accused of fake 0.2.2-2018-06-16
 - { name: cryptcat,                    ver: "20031202",                                    ignore: true }
 - { name: crypthook,                                                                       noscheme: true }
 - { name: crypto++,                    verpat: "[0-9]{3}",                                 incorrect: true }
