@@ -66,6 +66,10 @@
 
 - { name: gpm, wwwpart: pote, setname: "go:gpm" }
 
+- { name: gps, wwwpart: adacore, setname: gps-gnat-programming-studio }
+- { name: gps, wwwpart: gimp, setname: gimp-paint-studio }
+- { name: gps, warning: "please classify me" }
+
 - { name: greg, wwwpart: [gnu.org,gna.org], setname: greg-guile-test-framework } # burried by gna
 - { name: greg, wwwpart: manolomartinez, setname: greg-podcase-aggregator }
 - { name: greg, ruleset: openbsd, setname: greg-parser-generator }
