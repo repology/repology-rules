@@ -32,6 +32,11 @@
 
 - { name: sensors, wwwpart: lm-sensors, setname: lm-sensors } # XXX: problem
 
+- { name: sge, wwwpart: [liv.ac.uk,gridengine], setname: gridengine }
+- { name: sge, wwwpart: [flibitijibibo,e8cal1], setname: sge-sdl-ext }
+- { name: sge, summpart: spectrum, setname: sge-spectrum-graphics }
+- { name: sge, noflag: classified, warning: "please classify me" }
+
 - { name: shake, wwwpart: hackage, setname: "haskell:shake" }
 - { name: shake, wwwpart: luaforge, setname: shake-lua }
 # otherwise defragmenter
