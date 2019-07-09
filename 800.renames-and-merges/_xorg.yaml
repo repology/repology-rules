@@ -189,7 +189,6 @@
     xmu|
     xpm|
     xp|
-    xrandr|
     xrender|
     xres|
     xscrnsaver|
@@ -205,7 +204,6 @@
     xxf86vm
     )
   setname: lib$1
-- { name: xorg-libdmx, setname: libdmx } # separate rule to not mess up xorg-dmx
 - namepat: |
     (?:xorg-|x11-)+(?:lib)?(
     xcb-util|
@@ -217,3 +215,8 @@
     xcb-util-xrm
     )
   setname: $1
+
+# special rules to avoid mixing up corresponding apps and libs
+- { setname: libdmx, name: xorg-libdmx }
+- { setname: libxrandr, name: [xorg-libxrandr,xorg-lib-libxrandr] }
+- { setname: xrandr, name: [xorg-app-xrandr,xorg-xrandr] }
