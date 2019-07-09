@@ -1,0 +1,29 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: urxvt
+  name:
+    - urxvt-full
+  addflavor: true
+
+# watch order, this should be after urxvt flavors merge
+- { setname: rxvt-unicode, name: urxvt }
+
+- setname: rxvt-unicode
+  name:
+    - rxvt-unicode-256xresources
+    - rxvt-unicode-ben
+    - rxvt-unicode-better-wheel-scrolling
+    - rxvt-unicode-better-wheel-scrolling-unicode3
+    - rxvt-unicode-fontspacing-noinc-vteclear-secondarywheel
+    - rxvt-unicode-improve-font-rendering
+    - rxvt-unicode-intensityfix
+    - rxvt-unicode-no-perl
+    - rxvt-unicode-nobuiltins
+    - rxvt-unicode-patched
+    - rxvt-unicode-patched-with-scrolling
+    - rxvt-unicode-pixbuf
+    - rxvt-unicode-truecolor
+    - rxvt-unicode-wcwidthcallback
+    - rxvt-unicode-with-perl-with-unicode3
+    - rxvt-unicode-with-perl-with-unicode3-with-plugins
+  addflavor: true
