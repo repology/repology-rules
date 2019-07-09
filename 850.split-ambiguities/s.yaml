@@ -138,7 +138,7 @@
 - { name: spin, wwwpart: spin.sourceforge.net, setname: libspin-java }
 - { name: spin, summpart: spinner, setname: spin-spinner }
 - { name: spin, wwwpart: spinroot, setname: spin-verification }
-- { name: spin, ruleset: pld, setname: spin-verification }
+- { name: spin, ruleset: [pld,openbsd], setname: spin-verification }
 - { name: spin, warning: "please classify me" }
 
 - { name: spl, wwwpart: shakespearelang, setname: shakespeare }
