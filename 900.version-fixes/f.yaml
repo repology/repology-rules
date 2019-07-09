@@ -59,6 +59,8 @@
 - { name: fltk,                        verpat: ".*[rx].*",                                 ignore: true } # snapshots
 - { name: fltk,                        verpat: "2\\..*",                                   ignore: true } # snapshots
 - { name: fltk,                                                      ruleset: sisyphus,    untrusted: true } # accused of fake 1.3.5
+- { name: fluid-soundfont,             ver: ["3.1-5.1","3.1_5"],     ruleset: [slackbuilds,macports], incorrect: true }
+- { name: fluid-soundfont,                                           ruleset: [slackbuilds,macports], untrusted: true }
 - { name: fluidsynth-dssi,             ver: "1.9.9",                 ruleset: opensuse,    incorrect: true }
 - { name: fluidsynth-dssi,                                           ruleset: opensuse,    untrusted: true } # accused of fake 1.9.9
 - { name: flvstreamer,                 ver: "2.1.c.1",                                     setver: "2.1c1" }
