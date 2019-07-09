@@ -2,6 +2,12 @@
 
 #- { namepat: "(?:fonts-)?(?:[ot]tf-)?(gdouros-.+?)(?:-fonts)?", setname: "fonts:$1" }
 
+- setname: "fonts:galatia-sil"
+  name:
+    - font-sil-galatia
+    - fonts-sil-galatia
+    - sil-galatia
+
 - setname: "fonts:gamaliel"
   name:
     - fonts-gamaliel
@@ -120,6 +126,7 @@
 # to make them outdated
 - setname: "fonts:gentium-plus"
   name:
+    - font-sil-gentium
     - fonts-sil-gentium
     - fonts-ttf-gentium
     - fonts-ttf-sil-gentium
