@@ -71,6 +71,10 @@
 
 - { name: bos, wwwpart: boswars,                          setname: boswars }
 
+- { name: brig, wwwpart: [sahib,brig.readthedocs.io], setname: brig-sync }
+- { name: brig, wwwpart: sourceforge.net/projects/brig, setname: brig-genome }
+- { name: brig, warning: "please classify me" }
+
 - { name: browserpass, wwwpart: browserpass-native, setname: browserpass-native }
 - { name: browserpass, wwwpart: [browserpass-extension,dannyvankooten], setname: browserpass-extension }
 - { name: browserpass, ruleset: [debuntu,exherbo,void], setname: browserpass-extension }
