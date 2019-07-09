@@ -88,6 +88,8 @@
 - { name: antimicro,                   verpat: "2\\.24\\.[0-9]+",                          successor: true } # https://github.com/juliagoda/antimicro, abandoned as well
 - { name: aom,                         verpat: "([0-9]+\\.){3}[0-9]{3}.*",                 incorrect: true } # fake
 - { name: apache,                      verpat: "2\\.[0-9]*[13579]\\..*",                   devel: true }
+- { name: apache-spark,                ver: "2.6.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: apache-spark,                                              ruleset: sisyphus,    untrusted: true } # accused of fake 2.6.0
 - { name: apel,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: apitrace,                                                                        noscheme: true }
 - { name: "apmod:rpaf",                verpat: "2015.*",             ruleset: [ arch ],    ignore: true }
