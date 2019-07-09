@@ -127,7 +127,7 @@
 - { name: sphinx, wwwpart: cmusphinx, setname: cmusphinx }
 
 - { name: spice, wwwpart: [berkeley.edu,ibiblio], setname: spice-cad } # just move ancient garbage away
-- { name: spice, ruleset: pld, setname: spice-cad }
+- { name: spice, ruleset: [pld,t2], setname: spice-cad }
 
 - { name: spigot, wwwpart: spigotmc, setname: spigot-minecraft }
 - { name: spigot, wwwpart: sgtatham, setname: spigot-calculator }

@@ -141,9 +141,8 @@
 - { name: sphinxbase,                  ver: "0.9",                                         incorrect: true } # 5prealpha
 - { name: spi-tools,                   ver: "1",                                           incorrect: true } # https://github.com/cpb-/spi-tools/releases
 - { name: spi-tools,                                                 ruleset: openwrt,     untrusted: true } # accused of fake 1
-- { name: spice,                       ver: "3f5",                   ruleset: t2,          incorrect: true }
-- { name: spice,                                                     ruleset: t2,          untrusted: true } # accused of fake 3f5
 - { name: spice-cad,                   ver: ["3f5.1","3f5.2","3f5sfix"],                   incorrect: true } # not sure where these come from
+- { name: spice-cad,                   ver: "3f.5",                                        setver: "3f5" }
 - { name: spice-cad,                   ver: "3.5.5",                                       incorrect: true }
 - { name: spidermonkey,                ver: "1.70",                                        setver: "1.7.0" }
 - { name: spidermonkey,                ver: "1.85",                                        setver: "1.8.5" }
