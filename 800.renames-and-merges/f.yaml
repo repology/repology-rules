@@ -76,7 +76,9 @@
 - { setname: fmod,                     namepat: "(?:lib)?fmod(?:ex|api)?[0-9.-]*" }
 - { setname: fmt,                      name: [fmtlib,libfmt,cppformat] } # cppformat is the former name, see http://fmtlib.net
 - { setname: fofix,                    name: fofix-dfsg }
-- { setname: foldingathome,            name: foldingathome-noroot }
+- { setname: foldingathome,            name: foldingathome-noroot, addflavor: true }
+- { setname: foldingathome,            name: foldingathome-beta, weak_devel: true }
+- { setname: foldingathome,            name: [folding-at-home,linux-foldingathome] }
 - { setname: folly,                    name: fb-folly }
 - { setname: fomp,                     name: [fomp-lv2,lv2-fomp-plugins] }
 - { setname: fon-flash,                name: fon-flash-cli }
