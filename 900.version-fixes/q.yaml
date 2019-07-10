@@ -28,6 +28,7 @@
 - { name: qpdfview,                    verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\..80",           incorrect: true } # kaos fakes
 - { name: qpdfview,                                                  ruleset: kaos,        untrusted: true } # accused of fake 0.4.16.80
 - { name: qps,                         verpat: "20[0-9]{6}.*",                             snapshot: true }
+- { name: qrfcview,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: qrfcview,                    ver: "1.0.0",                 ruleset: openbsd,     successor: true } # uses unofficial fork (dead as well)
 - { name: [qt,qt3],                    verpat: "3\\.8.*",                                  incorrect: true } # openbsd garbage (3.3.8*, not 3.8*)
 - { name: [qt,qt3],                    ver: ["3.3.8c","3.3.8d"],                           incorrect: true }
