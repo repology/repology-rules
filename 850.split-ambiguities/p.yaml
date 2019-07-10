@@ -19,6 +19,13 @@
 - { name: pacman, ver: "10", setname: pacman10 } # origin unknown
 - { name: pacman, ver: "1.002", setname: pacman1.002 } # origin unknown
 
+- { name: papyrus, wwwpart: eclipse, setname: eclipse-papyrus }
+- { name: papyrus, wwwpart: morkro, setname: morkro-papyrus } # name already used in chocolatey
+- { name: papyrus, wwwpart: expasy, setname: papyrus-dicom }
+- { name: papyrus, wwwpart: treshna, setname: papyrus-reporting }
+- { name: papyrus, ruleset: kaos, setname: papyrus-kaqaz }
+- { name: papyrus, warning: "please classify me" }
+
 - { name: pcl, summpart: coroutine, setname: pcl-coroutines }
 - { name: pcl, wwwpart: xmailserver, setname: pcl-coroutines }
 - { name: pcl, summpart: cloud, setname: pcl-pointclouds }
