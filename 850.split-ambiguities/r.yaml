@@ -42,6 +42,12 @@
 - { name: rex, wwwpart: shellphish, setname: rex-shellphish } # https://github.com/shellphish/rex
 # otherwise rexify.org - remote execution framework
 
+- { name: ricochet, wwwpart: [ricochet.im,ricochet-im], setname: ricochet-im }
+- { name: ricochet, wwwpart: rr.nickle.org, setname: ricochet-game } # Ricochet Robot Game Server
+- { name: ricochet, summpart: "instant messaging", setname: ricochet-im }
+- { name: ricochet, ruleset: solus, setname: ricochet-im }
+- { name: ricochet, warning: "please classify me" }
+
 - { name: rocks, wwwpart: rocksndiamonds, setname: rocksndiamonds } # XXX: problem
 
 - { name: rootsh, ruleset: maemo, setname: rootsh-maemo }
