@@ -1,5 +1,10 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: saga, wwwpart: saga-gis, setname: saga-gis }
+- { name: saga, wwwpart: saga-cpp, setname: saga-cpp }
+- { name: saga, ruleset: os4depot, setname: saga-game }
+- { name: saga, warning: "please classify me" }
+
 - { name: sage, wwwpart: sagemath, setname: sagemath }
 - { name: sage, category: Sciences/Mathematics, setname: sagemath }
 - { name: sage, summpart: mathematics, setname: sagemath }
