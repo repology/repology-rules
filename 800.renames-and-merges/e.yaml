@@ -27,7 +27,8 @@
 - { setname: eigen,                    name: libeigen }
 - { setname: eigen,                    name: libeigen2-devel, weak_devel: true }
 - { setname: einstein,                 name: einstein-puzzle, ruleset: pkgsrc }
-- { setname: eiskaltdcpp,              namepat: eiskaltdcpp-(cli|daemon|data|gtk|lib|qt|core) }
+- { setname: eiskaltdcpp,              namepat: "eiskaltdcpp-(cli|daemon|data|gtk|lib|qt|core)", addflavor: $1 }
+- { setname: eiskaltdcpp,              name: eiskaltdcplusplus }
 - { setname: elasticsearch,            namepat: "elasticsearch[0-9]+" }
 - { setname: elbcli,                   name: elb-tools }
 - { setname: electricfence,            name: electric-fence }
