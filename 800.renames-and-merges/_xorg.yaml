@@ -219,4 +219,5 @@
 # special rules to avoid mixing up corresponding apps and libs
 - { setname: libdmx, name: xorg-libdmx }
 - { setname: libxrandr, name: [xorg-libxrandr,xorg-lib-libxrandr] }
+- { setname: libxrandr, name: xorg-xrandr, ruleset: ravenports } # exclude from the following rule; XXX: problem
 - { setname: xrandr, name: [xorg-app-xrandr,xorg-xrandr] }
