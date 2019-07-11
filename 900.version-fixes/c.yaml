@@ -76,6 +76,7 @@
 - { name: chromaprint,                 ver: "1.4.4",                 ruleset: rosa,        incorrect: true }
 - { name: chromaprint,                                               ruleset: rosa,        untrusted: true } # accused of fake 1.4.4
 - { name: chromium,                    verpat: ".*-r[0-9]+",                               ignore: true } # scoop
+- { name: chromium,                    verpat: "[0-9]+",                                   snapshot: true } # homebrew casks <- https://commondatastorage.googleapis.com/chromium-browser-snapshots/Mac/675525/chrome-mac.zip
 - { name: cht.sh,                                                                          noscheme: true } # https://github.com/chubin/cheat.sh/releases
 - { name: cimg,                        verpat: "[0-9]{3}", verle: "221",                   outdated: true } # see https://github.com/dtschump/CImg/tags?after=v.2.2.3
 - { name: cimg,                        verpat: "[0-9]{3}", vergt: "221",                   incorrect: true }
