@@ -107,6 +107,9 @@
 - { name: cmus,                        verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: cmus,                        ver: "2.8.0",                 ruleset: fedora,      ignore: true } # it's rc0
 - { name: coccigrep,                   verpat: "20[0-9]{6}",                               ignore: true }
+- { name: cockatrice,                  verpat: "20[0-9]{2}.*",                             snapshot: true }
+- { name: cockatrice,                  verge: "20000000", verlt: "20190608",               outdated: true } # latest 2.7.1 from 20190608
+- { name: cockatrice,                  verge: "2000.00.00", verlt: "2019.06.08",           outdated: true } # latest 2.7.1 from 20190608
 - { name: codesearch,                                                                      noscheme: true }
 - { name: cogl,                        ver: "1.22.5",                ruleset: pardus,      incorrect: true }
 - { name: cogl,                                                      ruleset: pardus,      untrusted: true }
