@@ -34,6 +34,8 @@
 - { name: nbfc,              ruleset: chocolatey,          remove: true }
 - { name: newt,              ruleset: chocolatey,          remove: true }
 - { name: openssh,           ruleset: chocolatey,          remove: true }
+- { name: onedrive,          ruleset: [chocolatey,npackd], remove: true }
+- { name: origin,            ruleset: [chocolatey,npackd], remove: true }
 - { name: pal,               ruleset: chocolatey,          remove: true }
 - { name: papercut,          ruleset: chocolatey,          remove: true }
 - { name: passwordsafe,      ruleset: chocolatey,          remove: true }
