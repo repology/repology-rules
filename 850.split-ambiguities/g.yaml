@@ -78,6 +78,10 @@
 
 - { name: grepcidr, wwwpart: [taugh,grepcidr-2/], setname: grepcidr-2 } # explained on http://www.pc-tools.net/unix/grepcidr/
 
+- { name: grok, wwwpart: [semicomplete,jordansissel], addflag: classified }
+- { name: grok, wwwpart: cpan, setname: "perl:grok" }
+- { name: grok, noflag: classified, warning: "please classify me" }
+
 - { name: gsfonts, ruleset: freebsd, setname: ghostscript-fonts-std }
 
 - { name: gsl,                         wwwpart: microsoft, setname: ms-gsl }
