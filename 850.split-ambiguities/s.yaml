@@ -63,6 +63,11 @@
 - { name: sift, wwwpart: [sift-tool,svent], addflag: classified }
 - { name: sift, noflag: classified, warning: "please classify me" }
 
+# there are no other cases than signal-desktop, but stay on safe side
+- { name: signal, wwwpart: desktop, setname: signal-desktop }
+- { name: signal, ruleset: chocolatey, setname: signal-desktop }
+- { name: signal, warning: "please classify me" }
+
 - { name: singularity, wwwpart: singularity.lbl.gov, setname: singularity-container } # moving to sylabs.io
 - { name: singularity, wwwpart: sylabs.io, setname: singularity-container }
 - { name: singularity, wwwpart: ingularityviewer, setname: singularityviewer }
