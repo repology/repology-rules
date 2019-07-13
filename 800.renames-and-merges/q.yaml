@@ -32,7 +32,7 @@
 - { setname: qtermwidget,              namepat: "qtermwidget[0-9.-]+" }
 - { setname: qtermwidget,              name: [qtermwidget-q4,qtermwidget-qt4], addflavor: qt4 }
 - { setname: qtermwidget,              name: qtermwidget-qt5, addflavor: qt5 }
-- { setname: qtkeychain,               name: [qt4-qtkeychain,qt5-qtkeychain,qt5keychain,qtkeychain-qt4,qtkeychain-qt5], addflavor: true }
+- { setname: qtkeychain,               name: [qt4-qtkeychain,qt5-qtkeychain,qt5keychain,qtkeychain-qt4,qtkeychain-qt5,qt5-keychain,libqtkeychain], addflavor: true }
 - { setname: qtoctave,                 name: qtoctave-mac }
 - { setname: qtox,                     name: qtox-alpha, weak_devel: true }
 - { setname: qtpbfimageplugin,         name: [qt5-pbfimageplugin,libqt5-qtpbfimageformat,qt5-qtpbfimageformat] }
