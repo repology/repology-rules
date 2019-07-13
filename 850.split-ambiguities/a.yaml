@@ -15,6 +15,11 @@
 
 - { name: addresses, ruleset: [freebsd,openbsd,pkgsrc], setname: gnustep-addresses } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
+- { name: agave, wwwpart: colorscheme, setname: agave-colorscheme }
+- { name: agave, wwwpart: agave, setname: "fonts:agave" }
+- { name: agave, summpart: colorscheme, setname: agave-colorscheme }
+- { name: agave, warning: "please classify me" }
+
 - { name: ale, wwwpart: aleditor, setname: aleditor }
 - { name: ale, wwwpart: sc932, setname: ale-assemby-likelihood-estimator }
 - { name: ale, wwwpart: auricle, setname: ale-anti-lamenessing-engine }
