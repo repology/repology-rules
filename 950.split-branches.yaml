@@ -199,6 +199,10 @@
 
 - { name: mpich,             verpat: "1\\..*",            setname: mpich2 }
 
+- { name: ns,                verpat: "2\\..*",            setname: ns2 }
+- { name: ns,                verpat: "3\\..*",            setname: ns3 }
+- { name: ns,                warning: "please classify me" }
+
 # note that versions in conditions are +1 to real versions
 - { name: nvidia, verlt: "71.87", setname: nvidia-lagacy-71.86 }
 - { name: nvidia, verlt: "96.44", setname: nvidia-legacy-96.43 }
