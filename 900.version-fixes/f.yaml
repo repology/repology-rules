@@ -20,7 +20,6 @@
 - { name: fdutils,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: fern-wifi-cracker,           ver: "222",                                         outdated: true } # that's an SVN rev, and GH repo as more commits
 - { name: fern-wifi-cracker,           verpat: "[0-9]{3}",                                 incorrect: true } # blackarch's 222
-- { name: fetch,                                                     ruleset: ravenports,  ignore: true } # fake
 - { namepat: "fest(lex|vox)-.*",       ver: "20040804",                                    outdated: true } # some old crap from openbsd
 - { name: ffcall,                      verpat: "20[0-9]{6}",                               snapshot: true } # slitaz
 - { name: ffmpeg,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # openbsd, chocolatey, pkgsrc
