@@ -82,6 +82,9 @@
 - { setname: phonon-vlc,               name: phonon-backend-vlc } # ambigous: phonon-vlc is used in repository name, phonon-backend-vlc for distfile name
 - { setname: photivo,                  name: photivo-qt4, addflavor: true }
 - { setname: php,                      namepat: "php[0-9.-]*" }
+- { setname: "php:phpunit",            name: phpunit }
+- { setname: "php:phpunit",            name: "php:phpunit2" }
+- { setname: "php:phpunit",            namepat: "phpunit[0-9]" }
 - { setname: phpbb,                    name: phpbb3 }
 - { setname: phpmyadmin,               namepat: "php[0-9]*:phpmyadmin" }
 - { setname: phppgadmin,               name: "php:pgadmin" }
