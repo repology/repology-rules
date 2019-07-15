@@ -307,6 +307,11 @@
 - { setname: greenbone-security-assistant, namepat: "greenbone-security-assistant[0-9.-]+" }
 - { setname: grep,                     name: [gnugrep, ggrep] }
 - { setname: grep,                     name: [ja-grep,gnuwin32-grep], addflavor: true }
+- { setname: gridcoin-research,        name: gridcoinresearch }
+- { setname: gridcoin-research,        name: gridcoinresearch-qt, addflavor: qt }
+- { setname: gridcoin-research,        name: gridcoinresearch-qt-staging, addflavor: qt, weak_devel: true }
+- { setname: gridcoin-research,        name: gridcoinresearchd, addflavor: d }
+- { setname: gridcoin-research,        name: gridcoinresearchd-staging, addflavor: d, weak_devel: true }
 - { setname: grilo,                    name: compat-grilo02 }
 - { setname: grilo,                    namepat: "grilo[0-9.-]+" }
 - { setname: grilo-plugins,            name: grilo-plugins2 }
