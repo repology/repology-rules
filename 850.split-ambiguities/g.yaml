@@ -43,6 +43,8 @@
 - { name: gnat-util, ruleset: [freebsd,pkgsrc,ravenports], setname: gnat-util-gcc }
 - { name: gnat-util, warning: "please classify me" }
 
+- { name: gnupg, wwwpart: gpg4win, setname: gpg4win } # XXX: problem?
+
 - { name: gnustep-pixen, wwwpart: pixenapp.com, successor: true } # became proprietary, bug there is GH fork containing source
 
 - { name: goat, wwwpart: mispp, setname: goat-database }
