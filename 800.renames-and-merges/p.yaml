@@ -173,7 +173,7 @@
 - { setname: printproto,               name: xprintproto }
 - { setname: procdump,                 name: procdump-for-linux }
 - { setname: processing,               name: processing3 }
-- { setname: proj,                     name: [proj4,proj.4,proj47] }
+- { setname: proj,                     namepat: "proj[0-9.-]+" }
 - { setname: proj,                     name: libproj }
 - { setname: prometheus,               name: prometheus1 }
 - { setname: prometheus-postgres-exporter, name: [postgres-exporter,prometheus-postgresql-exporter] }
