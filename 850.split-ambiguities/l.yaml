@@ -35,7 +35,9 @@
 
 - { name: libwmf, wwwpart: caolanm, setname: libwmf-caolanm }
 
-- { name: libwww, wwwpart: w3c, setname: w3c-libwww }
+- { name: libwww, wwwpart: w3.org, setname: w3c-libwww }
+- { name: libwww, summpart: w3c, setname: w3c-libwww }
+- { name: libwww, warning: "please classify me" }
 
 - { name: lightning, wwwpart: gnu, setname: lightning-gnu }
 - { name: lightning, ruleset: [yacp,pld], setname: lightning-gnu }
