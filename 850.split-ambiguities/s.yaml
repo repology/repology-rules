@@ -198,7 +198,7 @@
 - { name: surf, summpart: browser, setname: surf-browser }
 - { name: surf, warning: "please classify me" }
 
-- { name: svn2git, verpat: "1\\.[0-9]+.*", setname: svn-all-fast-export }
+- { name: svn2git, wwwpart: [svn-all-fast-export,gitorious.org/svn2git], setname: svn-all-fast-export }
 
 - { name: swarp, wwwpart: astromatic, setname: swarp-astromatic }
 - { name: swarp, wwwpart: suckless, setname: swarp-suckless }
