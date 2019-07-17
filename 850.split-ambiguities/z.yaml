@@ -8,6 +8,10 @@
 - { name: zap, ruleset: openbsd, setname: zap-process-killer }
 - { name: zap, warning: "please classify me" }
 
+- { name: zebra, wwwpart: indexdata, setname: zebra-indexer }
+- { name: zebra, wwwpart: zebra.org, setname: zebra-routing }
+- { name: zebra, warning: "please classify me" }
+
 - { name: zed, wwwpart: [ocamlcore, github.com/diml/zed], setname: "ocaml:zed" }
 
 - { name: zimg, wwwpart: sourceforge, setname: zimg-vis }
