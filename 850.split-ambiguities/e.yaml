@@ -55,10 +55,10 @@
 
 - { name: epsilon, wwwpart: lugaru, setname: epsilon-editor }
 - { name: epsilon, wwwpart: enlightenment, setname: epsilon-thumbnailing-library }
-- { name: epsilon, wwwpart: [launchpad.net/epsilon,divmod], setname: epsilon-divmod }
-- { name: epsilon, wwwpart: epsilon-project.sourceforge, setname: epsilon-wavelet-compressor }
-- { name: epsilon, summpart: wavelet, setname: epsilon-wavelet-compressor }
-- { name: epsilon, ruleset: aix, setname: epsilon-wavelet-compressor }
+- { name: epsilon, wwwpart: [launchpad.net/epsilon,divmod], setname: "python:epsilon" }
+- { name: epsilon, wwwpart: epsilon-project.sourceforge, setname: epsilon-compressor } # namy already used by pld
+- { name: epsilon, summpart: wavelet, setname: epsilon-compressor }
+- { name: epsilon, ruleset: aix, setname: epsilon-compressor }
 - { name: epsilon, warning: "please classify me" }
 
 - { name: espresso, wwwpart: quantum, setname: quantum-espresso }
