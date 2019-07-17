@@ -85,6 +85,7 @@
 - { setname: "php:phpunit",            name: phpunit }
 - { setname: "php:phpunit",            name: "php:phpunit2" }
 - { setname: "php:phpunit",            namepat: "phpunit[0-9]" }
+- { setname: "php:smarty",             namepat: "(php[0-9]*:)?smarty[23]?" }
 - { setname: phpbb,                    name: phpbb3 }
 - { setname: phpmyadmin,               namepat: "php[0-9]*:phpmyadmin" }
 - { setname: phppgadmin,               name: "php:pgadmin" }
