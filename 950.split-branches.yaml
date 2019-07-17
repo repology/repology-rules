@@ -240,6 +240,9 @@
 - { name: "python:pygobject", verpat: "2.*",              setname: "python:pygobject2" }
 - { name: "python:pygobject", verpat: "3.*",              setname: "python:pygobject3" }
 
+- { name: "python:pyqt",     verpat: "4.*",               setname: "python:pyqt4" }
+- { name: "python:pyqt",     verpat: "5.*",               setname: "python:pyqt5" }
+
 - { name: "python:unit",     wwwpart: nginx,              setname: unit, addflavor: python }
 
 - { name: qt,                verpat: "1\\..*", noflag: not_legacy, setname: qt1 }
