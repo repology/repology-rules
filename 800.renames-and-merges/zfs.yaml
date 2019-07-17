@@ -1,0 +1,30 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { setname: zfs, namepat: "(linux[0-9]+(?:-spl)?)-zfs", addflavor: $1 }
+
+- setname: zfs
+  name:
+    - zfs-archiso-linux
+    - zfs-dkms
+    - zfs-kernel
+    - zfs-kernel-nopae
+    - zfs-kmod
+    - zfs-linux
+    - zfs-linux-hardened
+    - zfs-linux-lts
+    - zfs-linux-vfio
+    - zfs-linux-zen
+    - zfs-on-linux
+    - zfs-user
+    - zfs-utils
+    - zfs-utils-common
+  addflavor: true
+
+- setname: zfs
+  name:
+    - zfs-dkms-rc
+    - zfs-git
+    - zfs-linux-lts-rc
+    - zfs-linux-rc
+  addflavor: true
+  weak_devel: true
