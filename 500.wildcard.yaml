@@ -114,7 +114,7 @@
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "(?:pear-|pecl-|php-)*(.*?)", ruleset: [gentoo,exherbo], category: dev-php }
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "(?:pear|pecl)-(.*)", ruleset: [freebsd,macports,openbsd,pkgsrc,sisyphus] }
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php[0-9]+-(?:pear|pecl)-(.*)", ruleset: [freebsd,mageia,pkgsrc,pld,openwrt] }
-- { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php-(?:(?:pear|pecl)-)?(.*)", ruleset: [mageia,rosa] }
+- { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php-(?:(?:pear|pecl)-)?(.*)", ruleset: [mageia,rosa,openmandriva] }
 - { setname: "php$1:$2", addflag: wconce, noflag: [wconce,not_php], namepat: "php([0-9]*)-(.*)", ruleset: [freebsd,macports,openbsd,pkgsrc,ravenports] }
 - { setname: "php$1:$2", addflag: wconce, noflag: [wconce,not_php], namepat: "php([0-9]+)-(.*)", ruleset: arch } # AUR
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php-(.*)", ruleset: [arch,crux,debuntu,fedora,pclinuxos,slackbuilds,nix] }
