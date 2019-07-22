@@ -347,6 +347,8 @@
 - { setname: "python:tornado",         name: [tornado,tornadoweb] }
 - { setname: "python:tornado",         namepat: "python:tornado[0-9.-]+" }
 - { setname: "python:trezor",          name: trezor }
+- { setname: "python:turbogears",      name: [turbogears, turbogears2] }
+- { setname: "python:turbogears",      name: turbogears2-doc, addflavor: doc }
 - { setname: "python:twisted",         name: twisted }
 - { setname: "python:twisted",         name: py-twisted-docs, addflavor: docs }
 - { setname: "python:utidylib",        name: utidylib }

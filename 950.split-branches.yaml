@@ -243,6 +243,8 @@
 - { name: "python:pyqt",     verpat: "4.*",               setname: "python:pyqt4" }
 - { name: "python:pyqt",     verpat: "5.*",               setname: "python:pyqt5" }
 
+- { name: "python:turbogears", verge: "2",                setname: "python:turbogears2" }
+
 - { name: "python:unit",     wwwpart: nginx,              setname: unit, addflavor: python }
 
 - { name: qt,                verpat: "1\\..*", noflag: not_legacy, setname: qt1 }
