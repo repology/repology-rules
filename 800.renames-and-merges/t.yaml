@@ -134,6 +134,7 @@
 - { setname: tpm2-tools,               name: tpm2.0-tools, disposable: true } # past upstream naming fluctiations
 - { setname: traceroute,               name: traceroute2 }
 - { setname: transdecoder,             name: "perl:transdecoder" }
+- { setname: translate-toolkit,        name: ["python:translate-toolkit","python:translate-toolkit-lib"] }
 - { setname: tre,                      name: libtre } # XXX: reverse?
 - { setname: tremor,                   name: [libtremor, libvorbisidec] }
 - { setname: tremulous,                name: tremulous-data, addflavor: data }
