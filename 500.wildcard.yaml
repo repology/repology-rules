@@ -165,6 +165,10 @@
 # Rust
 - { setname: "rust:$1", addflag: wconce, noflag: [wconce,not_rust], namepat: "rust-(.*)", ruleset: [ arch, debuntu, fedora, nix, sisyphus ] }
 
+# Texlive
+- { setname: "texlive:$1", addflag: wconce, noflag: [wconce,not_texlive], namepat: "tex-(.*)", ruleset: [ pkgsrc ] }
+- { setname: "texlive:$1", addflag: wconce, noflag: [wconce,not_texlive], namepat: "texlive-(.*)", ruleset: [ openmandriva, rosa ] }
+
 # Vaporsynth
 - { setname: "vapoursynth:$1", addflag: wconce, noflag: [wconce,not_vapoursynth], namepat: "vapoursynth-plugin-(.*)" }
 - { setname: "vapoursynth:$1", addflag: wconce, noflag: [wconce,not_vapoursynth], namepat: "vapoursynth-(.*)" }
