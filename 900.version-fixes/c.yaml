@@ -4,6 +4,7 @@
 - { name: ca-certificates,             verlonger: 1,                                       ignore: true } # no need to append NSS version
 - { name: ca-certificates,                                           ruleset: [alpine,crux], ignore: true } # see https://hg.mozilla.org/projects/nss/log/tip/lib/ckfw/builtins/certdata.txt for valid dates
 - { name: cadence,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: caffe,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: cairo,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: cairomm,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: caja,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
