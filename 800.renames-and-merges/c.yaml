@@ -7,6 +7,7 @@
 - { setname: c-lolcat,                 name: lolcat-c } # as per PKGBUILD from upstrema repo
 - { setname: cacti-spine,              name: cacti-cactid } # cactid renamed to spine upstream
 - { setname: caddy,                    name: [caddy-full,caddy-with-cgi,caddy-no-telemetry], addflavor: true }
+- { setname: caffe,                    name: [caffe-1-0-gnu-hpc,caffe-contrib,caffe-cpu,caffe-cuda,caffe-opencl], addflavor: true }
 - { setname: cairo-clock,              name: cairo-clock-ccw }
 - { setname: cairo-dock-plugins,       name: cairo-dock-plug-ins }
 - { setname: cairomm,                  namepat: "(?:lib)?cairomm[0-9.-]*(-docs)?", addflavor: $1 }
