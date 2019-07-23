@@ -45,7 +45,7 @@
 - { ruleset: guix,            namepat: "(guile)([0-9.]+)(-.*)", setname: $1$3, addflavor: $1$2 }
 
 # XXX: expand this onto whole haiku-apps category
-- { ruleset: haikuports,      setname: "haiku-$0", category: haiku-apps, name: [peek, rename] }
+- { ruleset: haikuports,      setname: "haiku-$0", category: haiku-apps, name: [peek, rename, moe] }
 
 - { ruleset: kaos,            namepat: "(.*)-debug", setname: $1, addflavor: debug }
 
