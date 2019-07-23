@@ -15,3 +15,5 @@
 - { setname: "gstreamer1plugins:bad",  name: ["gstreamer0plugins:bad"], verge: "1" }
 - { setname: jack,                     name: [jack-audio-connection-kit,jack-audio-connection-kit1] }
 - { setname: "python:pygobject",       name: ["python:pygobject2", "python:pygobject3"] }
+- { setname: "python:pyside2",         name: ["python:pyside"], verge: "5" }
+- { setname: "python:pyside",          name: ["python:pyside2"], verlt: "5" }
