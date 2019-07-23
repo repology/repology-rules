@@ -25,6 +25,10 @@
 - { name: usbip, wwwpart: kernel, setname: linux-tools }
 - { name: usbip, warning: "please classify me" }
 
+- { name: usql, wwwpart: "/xo/", setname: usql-cli }
+- { name: usql, wwwpart: cybergarage, setname: usql-parser }
+- { name: usql, warning: "please classify me" }
+
 - { name: uwm, wwwpart: uwm.sourceforge.net, setname: uwm-microwm }
 - { name: uwm, wwwpart: udeproject, setname: uwm-ude }
 - { name: uwm, ruleset: pkgsrc, setname: uwm-x11 }
