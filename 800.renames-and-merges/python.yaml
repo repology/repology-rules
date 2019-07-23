@@ -142,6 +142,8 @@
 - { setname: "python:nbsphinx",        name: ["python:jupyter-nbsphinx",nbsphinx] }
 - { setname: "python:nbxmpp",          name: ["python:python-nbxmpp",nbxmpp] }
 - { setname: "python:netifaces",       name: netifaces }
+- { setname: "python:networkx",        name: networkx }
+- { setname: "python:networkx",        namepat: "python:networkx[0-9.-]+" }
 - { setname: "python:numarray",        name: numarray }
 - { setname: "python:numeric",         name: numeric, ruleset: [crux,gobolinux] }
 - { setname: "python:numpy",           name: "python:numpy-docs-devhelp", addflavor: devhelp }
