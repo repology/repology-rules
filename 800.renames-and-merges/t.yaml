@@ -54,7 +54,6 @@
 - { setname: tetrinetx,                name: [tetrinet-x,tetrinet-server] }
 - { setname: tevent,                   name: libtevent }
 - { setname: tevent,                   name: tevent-man, addflavor: man }
-- { setname: tex-$1,                   namepat: "tex-(.*)-doc", addflavor: doc }
 - { setname: texlive,                  name: [texlive-combined-basic,texlive-combined-context,texlive-combined-full,texlive-combined-gust,texlive-combined-medium,texlive-combined-minimal,texlive-combined-small,texlive-combined-tetex], addflavor: true }
 - { setname: texlive-documentation,    namepat: "texlive-documentation-.*", ruleset: gentoo }
 - { setname: texmaker,                 name: texmaker-qt4, addflavor: true }
