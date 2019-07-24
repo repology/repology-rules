@@ -74,7 +74,7 @@
 - { setname: "haskell:$0", addflag: wconce, noflag: [wconce,not_haskell], category: "haskellPackages", ruleset: [ nix ] }
 
 # Lua
-- { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua[0-9]{0,2}-(?:lua[_-]?)?(.+?)", ruleset: [arch,debuntu,fedora,freebsd,gobolinux,mageia,openbsd,opensuse,pkgsrc,void] }
+- { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua[0-9]{0,2}-(?:lua[_-]?)?(.+?)", ruleset: [arch,debuntu,fedora,freebsd,gobolinux,mageia,openbsd,opensuse,pkgsrc,void,msys2_mingw] }
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua[0-9]{2}(?:lua)?(.+?)", ruleset: openbsd }
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua(?:[0-9]\\.[0-9])?-(?:lua)?[_-]?(.+?)", ruleset: [alpine,nix,guix] }
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_lua], namepat: "(?:lua[_-]?)?(.+?)", category: dev-lua, ruleset: [gentoo,exherbo,haikuports] }
@@ -153,7 +153,7 @@
 - { setname: "ros:$1", addflag: wconce, noflag: [wconce,not_ros], namepat: "ros-(.*)", ruleset: [ debuntu, arch ] }
 
 # Ruby
-- { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "ruby-(.*)", ruleset: [adelie,alpine,aosc,arch,cygwin,debuntu,fedora,guix,mageia,ravenports,rosa,sisyphus,pld,aix,slitaz_next,void,solus,t2] }
+- { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "ruby-(.*)", ruleset: [adelie,alpine,aosc,arch,cygwin,debuntu,fedora,guix,mageia,ravenports,rosa,sisyphus,pld,aix,slitaz_next,void,solus,t2,msys2_mingw] }
 - { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "rubygem-(.*)", ruleset: [centos,fedora,freebsd,opensuse,pclinuxos,rosa,slackbuilds] }
 - { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "ruby[0-9][0-9]-(.*)", ruleset: [freebsd,openbsd,pkgsrc] }
 - { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "rb[0-9]*-(.*)", ruleset: macports }
