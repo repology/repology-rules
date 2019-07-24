@@ -33,6 +33,10 @@
 
 - { name: omi, setname: omi-ftpmirror, category: ftp } # vs. Open Management Infrastructure
 
+- { name: opa, wwwpart: opalang, setname: opalang }
+- { name: opa, wwwpart: openpolicyagent, setname: openpolicyagent }
+- { name: opa, warning: "please classify me" }
+
 - { name: openal, ruleset: [pkgsrc,chocolatey,freebsd,macports], setname: openal-creative }
 - { name: openal, setname: openal-soft } # most openal's are openal-soft, even if they erroneously list openal.org as a website
 
