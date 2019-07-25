@@ -4,6 +4,12 @@
 - { name: aaa-base, ruleset: opensuse, setname: $0-opensuse }
 - { name: aaa-base, ruleset: slackware, setname: $0-slackware }
 
+- { name: ace, wwwpart: icsnniff, setname: ace-voip }
+- { name: ace, wwwpart: delorie, setname: ace-of-penguins }
+- { name: ace, wwwpart: vanderbilt, setname: ace-framework }
+- { name: ace, category: [games,games-board], setname: ace-of-penguins }
+- { name: ace, warning: "please classify me" }
+
 - { name: aclock, ruleset: freebsd, setname: gnustep-aclock } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
 - { name: acme, wwwpart: certbot, setname: certbot, addflavor: acme }
