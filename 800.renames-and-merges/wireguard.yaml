@@ -1,0 +1,24 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: wireguard
+  name:
+    - kernel-modules-wireguard-std-def
+    - kernel-modules-wireguard-un-def
+    - wireguard-arch
+    - wireguard-hardened
+    - wireguard-kernel-nopae
+    - wireguard-module-arch
+    - wireguard-tools
+  addflavor: true
+
+- setname: wireguard
+  name:
+    - wg
+    - wireguard-dkms
+    - wireguard-kernel
+    - wireguard-kmod
+    - wireguard-module
+    - wireguard-vanilla
+
+# Adelie
+- { setname: wireguard, namepat: "wireguard-module-(.*)", addflavor: $1 }
