@@ -43,6 +43,12 @@
 
 - { name: alternatives, ruleset: cygwin, setname: chkconfig } # part of
 
+- { name: amap, wwwpart: sikorskiy, setname: amap-analyze-map-files }
+- { name: amap, wwwpart: thc, setname: amap-pentesting }
+- { name: amap, wwwpart: berkeley, setname: amap-protein }
+- { name: amap, ruleset: [pld,pkgsrc,openbsd], setname: amap-pentesting }
+- { name: amap, warning: "please classify me" }
+
 - { name: amber, setname: amber-search, wwwpart: dalance }
 
 - { name: amd, wwwpart: plosone, setname: amd-automated-motif-discovery }
