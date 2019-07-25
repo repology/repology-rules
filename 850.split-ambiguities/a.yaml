@@ -108,6 +108,13 @@
 
 - { name: aterm, wwwpart: strategoxt.org, setname: libaterm } # http://strategoxt.org/Tools/ATermFormat, not a terminal emulator. target name taken from macports
 
+- { name: atlas, wwwpart: atlas.sourceforge.net, setname: fgfs-atlas }
+- { name: atlas, wwwpart: worldforge, setname: atlas-c++ }
+- { name: atlas, wwwpart: math-atlas, addflag: classified }
+- { name: atlas, summpart: "linear algebra", addflag: classified }
+- { name: atlas, summpart: "atlas protocol", setname: atlas-c++ }
+- { name: atlas, warning: "please classify me", noflag: classified }
+
 - { name: atom, wwwpart: bayofrum, setname: atom-converter } # "Converts text files to html with special attributes"
 # otherwise bloatware text editor
 

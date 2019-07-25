@@ -175,9 +175,9 @@
 - { setname: atkmm,                    name: atk2mm }
 - { setname: atkmm,                    namepat: "(?:lib)?atkmm[0-9.-]*" }
 - { setname: atkmm,                    namepat: "(?:lib)?atkmm[0-9.-]*(-docs)", addflavor: docs }
-- { setname: atlas,                    name: [atlas-with-lapack,atlas-lapack] }
-- { setname: atlas,                    name: libatlas3 }
-- { setname: atlas-c++,                name: [atlas,atlas-devel], category: devel, ruleset: [freebsd,openbsd] } # don't mix with math/atlas
+- { setname: atlas,                    name: [atlas-with-lapack,atlas-lapack,atlas-lapack-for-flexiblas], addflavor: true }
+- { setname: atlas,                    name: [atlas-math, libatlas3] }
+- { setname: atlas,                    name: atlas-devel, weak_devel: true }
 - { setname: atlas-c++,                name: [atlas-cpp,atlascpp,libatlascpp] }
 - { setname: atom,                     name: [atom-beta,atom-editor-beta], weak_devel: true }
 - { setname: atom,                     name: atom-editor }
