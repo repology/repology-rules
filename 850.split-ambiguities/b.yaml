@@ -96,6 +96,10 @@
 - { name: bsc, summpart: block-sorting, setname: libbsc }
 - { name: bsc, warning: "please classify me" }
 
+- { name: build, summpart: suse, setname: suse-build }
+- { name: build, wwwpart: codesynthesis, addflag: classified }
+- { name: build, warning: "please classify me", noflag: classified }
+
 - { name: bum, wwwpart: dylanaraps,                       setname: bum-albums }
 - { name: bum, wwwpart: marzocca,                         setname: bum-runlevels }
 - { name: bum, warning: "please classify me" }
