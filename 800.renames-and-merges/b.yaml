@@ -118,6 +118,8 @@
 - { setname: bouncycastle,             name: bctsp, addflavor: tsp } # merged to pkix?
 - { setname: bowtie,                   name: [bowtie2, bowtie2-legacy] }
 - { setname: box2d,                    name: libbox2d }
+- { setname: boxbackup,                name: [boxbackup-client,boxbackup-server], addflavor: true }
+- { setname: boxbackup,                name: boxbackup-devel, weak_devel: true }
 - { setname: bpython,                  name: [bpython-py27,bpython2] }
 - { setname: brasero,                  name: [brasero2,brasero-dvdcssfix] }
 - { setname: brave,                    name: brave-browser }
