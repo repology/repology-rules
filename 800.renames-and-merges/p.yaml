@@ -191,6 +191,7 @@
 - { setname: protobuf-c,               name: protobuf2-c }
 - { setname: protonmail-bridge,        name: protonmail-bridge-bin, addflavor: bin }
 - { setname: psfex,                    name: astromatic-psfex }
+- { setname: psh,                      name: ["perl:psh", perlsh] }
 - { setname: psi,                      name: psi-im }
 - { setname: psi,                      name: [psi-l10n,psi-plugins], addflavor: true } # different repos, but same versions, and seemingly distributed as a single release
 - { setname: psi,                      name: [psi-nowebengine,psi-nowebkit], addflavor: true }
