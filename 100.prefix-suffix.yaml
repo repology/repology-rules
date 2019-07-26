@@ -3,6 +3,7 @@
 # common rules
 - { namepat: "libx32-(.*)", setname: "$1", addflavor: libx32 }
 - { namepat: "(.*)-(nogui|nox11)", setname: $1, addflavor: $2 }
+- { namepat: "(.*)-lts", setname: $1 }
 
 - { ruleset: aix,             namepat: "(.*)(_64|-64|-64bit)", setname: $1, addflavor: "64" }
 

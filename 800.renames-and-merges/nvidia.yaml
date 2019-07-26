@@ -37,13 +37,12 @@
 - { setname: nvidia,                   name: nvidia-llb-dkms }
 - { setname: nvidia,                   name: nvidia-long-lived }
 - { setname: nvidia,                   name: nvidia-lqx, addflavor: true }
-- { setname: nvidia,                   name: nvidia-lts }
 - { setname: nvidia,                   name: nvidia-next }
 - { setname: nvidia,                   name: nvidia-pae, addflavor: true }
 - { setname: nvidia,                   name: nvidia-pf, addflavor: true }
 - { setname: nvidia,                   name: nvidia-rt, addflavor: true }
 - { setname: nvidia,                   name: nvidia-sl, weak_devel: true }
-- { setname: nvidia,                   name: nvidia-tesla-lts, addflavor: true }
+- { setname: nvidia,                   name: nvidia-tesla, addflavor: true }
 - { setname: nvidia,                   name: nvidia-tesla-utils, addflavor: true }
 - { setname: nvidia,                   name: nvidia-tomoyo, addflavor: true }
 - { setname: nvidia,                   name: nvidia-userspace, addflavor: true }
@@ -53,7 +52,7 @@
 - { setname: nvidia,                   name: nvidia-utils-llb, addflavor: utils }
 - { setname: nvidia,                   name: nvidia-utils-vulkan-developer-beta, addflavor: true, weak_devel: true }
 - { setname: nvidia,                   name: nvidia-vulkan, addflavor: true }
-- { setname: nvidia,                   name: nvidia-vulkan-developer-beta-lts, addflavor: true, weak_devel: true }
+- { setname: nvidia,                   name: nvidia-vulkan-developer-beta, addflavor: true, weak_devel: true }
 - { setname: nvidia,                   name: nvidia-x11 }
 - { setname: nvidia,                   namepat: "nvidia-x11-drv[x0-9.-]*" }
 - { setname: nvidia,                   name: nvidia-zen, addflavor: true }
