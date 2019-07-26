@@ -61,6 +61,11 @@
 - { name: epsilon, ruleset: aix, setname: epsilon-compressor }
 - { name: epsilon, warning: "please classify me" }
 
+- { name: erc, wwwpart: gnu.org, setname: "emacs:erc" }
+- { name: erc, ruleset: sisyphus, setname: erc-universal-archive-tool }
+- { name: erc, ruleset: debuntu, setname: "emacs:erc" }
+- { name: erc, warning: "please classify me" }
+
 - { name: espresso, wwwpart: quantum, setname: quantum-espresso }
 - { name: espresso, wwwpart: espressomd.org, setname: espressomd }
 - { name: espresso, wwwpart: eecs.berkeley.edu, setname: espresso-logic }
