@@ -15,6 +15,11 @@
 - { name: gambit, wwwpart: gambit-viewer, setname: gambit-viewer }
 - { name: gambit, warning: "please classify me" }
 
+- { name: gdl, wwwpart: [gnome,anjuta], setname: gdl-gnome-docking-library }
+- { name: gdl, wwwpart: gnudatalanguage, setname: gdl-gnu-data-language }
+- { name: gdl, ruleset: [sisyphus,aosc,cygwin,debuntu,exherbo], setname: gdl-gnome-docking-library }
+- { name: gdl, warning: "please classify me" }
+
 - { name: getopt, ruleset: openwrt, setname: util-linux }
 - { name: getopt, ruleset: sisyphus, setname: "java:getopt" }
 - { name: getopt, wwwpart: urbanophile.com, setname: "java:getopt" }
