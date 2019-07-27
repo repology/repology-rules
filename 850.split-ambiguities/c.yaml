@@ -66,10 +66,11 @@
 
 - { name: clementine,                  setname: clementine-player                            } # clementine player vs. window manager
 
-- { name: crystal, ruleset: sisyphus, setname: crystal-lang }
 - { name: crystal, wwwpart: crystal-lang, setname: crystal-lang }
 - { name: crystal, category: games-mud, setname: crystal-mud }
-- { name: crystal, wwwpart: kde-look, setname: crystal-theme }
+- { name: crystal, wwwpart: kde, setname: crystal-theme }
+- { name: crystal, ruleset: [sisyphus,openbsd], setname: crystal-lang }
+- { name: crystal, warning: "please classify me" }
 
 - { name: cogl, ruleset: deepin,       setname: deepin-cogl } # fork?
 
