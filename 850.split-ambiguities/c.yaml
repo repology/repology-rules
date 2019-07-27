@@ -10,6 +10,13 @@
 - { name: calc, ruleset: [openbsd,pld,solus], setname: calc-arbitrary-precision-calculator }
 - { name: calc, warning: "please classify me" }
 
+- { name: calendar, wwwpart: openbsd, setname: calendar-openbsd }
+- { name: calendar, wwwpart: ocaml, setname: "ocaml:calendar" }
+- { name: calendar, wwwpart: bsdcalendar, setname: bsdcalendar }
+- { name: calendar, wwwpart: haiku, setname: haiku-calendar }
+- { name: calendar, ruleset: exherbo, setname: bsdcalendar }
+- { name: calendar, warning: "please classify me" }
+
 - { name: camera, ruleset: [freebsd,openbsd], setname: gnustep-camera } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
 - { name: caps, wwwpart: softpres, ruleset: gentoo, setname: ipfdevlib }
