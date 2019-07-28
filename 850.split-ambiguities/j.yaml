@@ -19,6 +19,11 @@
 - { name: jail, wwwpart: spiculator, setname: jail-chroot-builder }
 - { name: jail, warning: "please classify me" }
 
+- { name: jd, wwwpart: tidwall, setname: jd-json-editor }
+- { name: jd, wwwpart: [jd4linux,yama-natuki], setname: jd-2ch-browser }
+- { name: jd, summpart: 2ch, setname: jd-2ch-browser }
+- { name: jd, warning: "please classify me" }
+
 - { name: jellyfish, wwwpart: [genome,cbcb.umd.edu], setname: jellyfish-k-mer }
 - { name: jellyfish, wwwpart: [jamesturk,sunlightlabs], setname: "python:jellyfish" }
 - { name: jellyfish, warning: "please classify me" }
