@@ -97,6 +97,7 @@
 - { name: buildah,                                                   ruleset: fedora,      untrusted: true } # accused of fake 1.6
 - { name: buildbot-slave,              ver: "0.9.5",                 ruleset: haikuports,  incorrect: true } # it should probably be 0.9.0b5 https://pypi.org/project/buildbot-slave/#history
 - { name: buildbot-slave,                                            ruleset: haikuports,  untrusted: true } # accused of fake 0.9.5
+- { name: buildstream,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # https://buildstream.build/releases.html
 - { name: bully,                       verpat: "1\\.1.+",                                  ignore: true } # snapshots, latest is 1.1
 - { name: busybox,                     verpat: "[0-9]{4}.*",                               incorrect: true } # scoop
 - { name: byobu,                       ver: "5.126",                 ruleset: debuntu,     incorrect: true }
