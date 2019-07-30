@@ -42,7 +42,7 @@
 - { name: flam3,                                                     ruleset: freebsd,     untrusted: true }
 - { name: flann,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: flann,                                                     ruleset: freebsd,     untrusted: true }
-- { name: flare,                       ver: "15.1",                                        ignore: true } # actually old 0.15
+- { name: flare,                       ver: "15.1",                                        incorrect: true } # actually old 0.15
 - { name: flatpak,                     ver: "0.10.3.1",              ruleset: deepin,      incorrect: true } # fake
 - { name: flatpak,                                                   ruleset: deepin,      untrusted: true }
 - { name: flatpak,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed; https://github.com/flatpak/flatpak/releases
