@@ -106,6 +106,8 @@
 - { setname: lua,                      namepat: "(?:lib)?lua[0-9.-]*" }
 - { setname: lua,                      name: compat-lua }
 - { setname: luajit,                   name: [luajit-2.1,luajit2] }
+- { setname: luarocks,                 name: ["lua:rocks",lua-rocks] }
+- { setname: luarocks,                 name: luarocks-nix, addflavor: true }
 - { setname: lucene,                   namepat: "lucene[0-9.-]+" }
 - { setname: lucene,                   name: apache-lucene }
 - { setname: lucene++,                 name: [luceneplusplus,liblucene++] }
