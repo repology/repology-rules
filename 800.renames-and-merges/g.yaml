@@ -24,6 +24,7 @@
 - { setname: gcc,                      namepat: "(?:compat-)?gcc[0-9.-]+" }
 - { setname: gcc,                      namepat: "gcc[0-9.-]+-devel", weak_devel: true }
 - { setname: gccgo,                    namepat: "gccgo[0-9.-]+" }
+- { setname: gcide,                    name: dict-gcide }
 - { setname: gcin,                     name: gcin-gtk3, addflavor: gtk3 }
 - { setname: gcin,                     name: gcin-qt4, addflavor: qt4 }
 - { setname: gcin,                     name: gcin-qt5, addflavor: qt5 }
