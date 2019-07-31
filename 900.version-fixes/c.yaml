@@ -94,6 +94,7 @@
 - { name: clementine-player,           verlonger: 3,                                       ignore: true }
 - { name: clementine-player,           verpat: "1\\.3\\.1\\.[0-9]{,5}",                    incorrect: true }
 - { name: clex,                        verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1.patch$2 }
+- { name: clfswm,                      verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: clisp,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: clisp,                       verpat: "2\\.49[.-][0-9]{2}",                       ignore: true }
 - { name: clisp,                       ver: "2.50",                  ruleset: slitaz,      incorrect: true }
