@@ -37,6 +37,8 @@
 - { name: openaptx,                                                                        noscheme: true }
 - { name: openarena,                                                 ruleset: os4depot,    incorrect: true }
 - { name: opencascade,                                                                     p_is_patch: true } # 7.3.0 < 7.3.0p3
+- { name: opencascade,                 ver: "7.3.3",                 ruleset: debuntu,     incorrect: true } # 7.3.0p3
+- { name: opencascade,                                               ruleset: debuntu,     untrusted: true } # accused of fake 7.3.3
 - { name: opencascade-oce,             verlonger: 3,                                       incorrect: true } # weird mix of occt and oce versions
 - { name: opencity,                    ver: "0.0.6.5stable",                               ignore: true } # 0.0.6.5; "stable" is not a part of the version
 - { name: opencl,                                                                          noscheme: true } # GH/KhronosGroup/OpenCL-Headers w/o releases or mix of OpenCL-Headers with OpenCL-CLHPP
