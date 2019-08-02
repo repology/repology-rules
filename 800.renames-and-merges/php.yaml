@@ -1,0 +1,10 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { setname: "php:phalcon",            namepat: "php[0-9]+:phalcon" }
+- { setname: "php:phpunit",            name: phpunit }
+- { setname: "php:phpunit",            name: "php:phpunit2" }
+- { setname: "php:phpunit",            namepat: "phpunit[0-9]" }
+- { setname: "php:smarty",             namepat: "(php[0-9]*:)?smarty[23]?" }
+- { setname: "php:symfony",            namepat: "php[0-9]*:symfony[0-9]*" }
+- { setname: "php:symfony",            name: symfony }
+- { setname: "php:tcpdf",              name: tcpdf }
