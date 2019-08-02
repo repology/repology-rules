@@ -22,7 +22,7 @@
 # 6.2.3, 6.2.5
 # 6.1.6
 - { name: libreoffice,                 verge: "6.2.6",                                     devel: true, maintenance: true }
-- { name: libreplan,                   verpat: "[1234]",                                   outdated: true }
+- { name: libreplan,                   verpat: "[1234]",                                   outdated: true } # XXX: remove after repology/repology#891
 - { name: liferea,                     verpat: "(.*)[ab]",                                 setver: $1 } # distfiles are sometimes rerolled, upstream misbehavior
 - { name: lightdm-gtk-greeter,         verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: lightsoff,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
