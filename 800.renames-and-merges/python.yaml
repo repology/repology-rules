@@ -210,6 +210,7 @@
 - { setname: "python:pygame",          name: [pygame,"python:game"] }
 - { setname: "python:pygame-sdl2",     name: [pygame-sdl2,"python:game-sdl2"] }
 - { setname: "python:pygeoip",         name: pygeoip }
+- { setname: "python:pyglet",          name: pyglet }
 - { setname: "python:pygobject",       name: [pygobject3-common,pygobject3-python3,pygobject3,pygobject2,pygobject,pygobject-2,pygobject-3,pygobject-gtk3,"python:pygobject-2",py3gobject,python3-gobject,"python:gobject","python:gobject2","python:gobject3","python:gobject-compat",py-gobject-shared,py-gobject3-common] }
 - { setname: "python:pygobject",       name: pygobject-devel, weak_devel: true }
 - { setname: "python:pygobject",       name: ["python:pygobject-base", "python:pygobject-cairo"], addflavor: true }
