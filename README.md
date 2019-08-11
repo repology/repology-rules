@@ -15,12 +15,12 @@ a quick pointer of how to add specific rules:
 ### You want to **merge** differently named packages into a single entry?
 
 - Choose target name (prefer least ambiguous and/or most widely used name)
-- Open correspoinding yaml file under `800.renames-and-merges/`
+- Open corresponding yaml file under `800.renames-and-merges/`
 - Add rule like `- { setname: <new name>, name: <old name> }`
 
 ### You want to mark incorrect version of specific package?
 
-- Open correspoinding yaml file under `900.version-fixes/`
+- Open corresponding yaml file under `900.version-fixes/`
 - Add rule like: `- { name: <package name>, ver: <bad version>, ignore: true }`
 - Consider using a `verpat` with regular expression to match similar
   bad versions which may appear in the future. Examples:
@@ -32,7 +32,7 @@ a quick pointer of how to add specific rules:
 
 ### You want to split different projects with the same name
 
-- Open correspoinding yaml file under `850.split-ambiguities/`
+- Open corresponding yaml file under `850.split-ambiguities/`
 - Add a set of rules which distinct packages, such as:
   - `- { name: <ambiguous name>, wwwpart: <part of the homepage url>, setname: <specific name> }`
   - `- { name: <ambiguous name>, category: <category>, setname: <specific name> }`

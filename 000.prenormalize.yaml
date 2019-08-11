@@ -4,7 +4,7 @@
 - { name: Stack, addflag: preserve_case } # hackell packages stack vs. Stack
 
 # Lowercase all names first
-# if there's a need to process mixed case names, it shold be done before this rule
+# if there's a need to process mixed case names, it should be done before this rule
 
 - { noflag: preserve_case, tolowername: true }
 - { replaceinname: { "/": "-" } }

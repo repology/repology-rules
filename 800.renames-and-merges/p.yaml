@@ -78,7 +78,7 @@
 - { setname: phonon-backend-gstreamer, name: [phonon-backend-gstreamer-shared,phonon-gstreamer-icons], addflavor: true }
 - { setname: phonon-vlc,               name: [phonon-backend-vlc-qt4, phonon-qt4-vlc], addflavor: qt4 }
 - { setname: phonon-vlc,               name: [phonon-backend-vlc-qt5, phonon-qt5-backend-vlc, phonon4qt5-backend-vlc, qt5-phonon-backend-vlc], addflavor: qt5 }
-- { setname: phonon-vlc,               name: phonon-backend-vlc } # ambigous: phonon-vlc is used in repository name, phonon-backend-vlc for distfile name
+- { setname: phonon-vlc,               name: phonon-backend-vlc } # ambiguous: phonon-vlc is used in repository name, phonon-backend-vlc for distfile name
 - { setname: photivo,                  name: photivo-qt4, addflavor: true }
 - { setname: php,                      namepat: "php[0-9.-]*" }
 - { setname: phpbb,                    name: phpbb3 }
