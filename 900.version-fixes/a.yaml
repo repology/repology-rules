@@ -58,6 +58,7 @@
 - { name: aldo,                                                      ruleset: aur,         untrusted: true }
 - { name: aldo,                        ver: "0.7.8",                 ruleset: aur,         incorrect: true }
 - { name: [alienarena, alienarena-data], verpat: ".*20[0-9]{6}.*",                         snapshot: true }
+- { name: alpine,                      verpat: ".*99",                                     devel: true }
 - { name: alsamixergui,                ver: "0.9.0.1.2",                                   incorrect: true } # gentoo, so fake. it's 0.9.0rc1-2
 - { name: alsaplayer,                  ver: "0.99.82",               ruleset: rosa,        incorrect: true }
 - { name: alsaplayer,                                                ruleset: rosa,        untrusted: true }
