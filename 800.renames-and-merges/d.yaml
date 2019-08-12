@@ -77,6 +77,7 @@
 - { setname: docbook-xsl,              name: [docbook-xsl-ns,docbook-xsl-ns-stylesheets,docbook-style-xsl-ns], addflavor: ns }
 - { setname: docker,                   name: [docker-io,docker.io] }
 - { setname: docker,                   name: docker-git-x86, ignore: true } # ignore version just for the cause, because of suspicious name
+- { setname: docker-compose,           name: "python:docker-compose" }
 - { setname: dogecoin,                 name: [dogecoind,dogecoin-qt,dogecoin-daemon] }
 - { setname: doit,                     name: "python:doit" }
 - { setname: dolphin-emu,              name: dolphin-emu4 }
