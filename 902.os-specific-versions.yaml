@@ -6,6 +6,7 @@
 - { name: digikam,                                                   ruleset: windows,     ignore: true } # http://download.kde.org/stable/digikam/digiKam-5.9.0-01-Win32.exe
 - { name: discord,                                                   ruleset: [windows,macosxbins], ignore: true } # different versions
 - { name: evernote,                                                  ruleset: macosxbins,  ignore: true } # X.Y.NN.MMMM vs X.Y_KKKKKK
+- { name: gimp,                                  verlonger: 3,       ruleset: windows,     ignore: true } # build numbers: https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.12-setup-3.exe
 - { name: gitextensions,                         verlonger: 3,       ruleset: windows,     ignore: true } # build numbers: https://github.com/gitextensions/gitextensions/releases
 - { name: gnucash,                                                   ruleset: windows,     ignore: true } # build numbers: https://sourceforge.net/projects/gnucash/files/gnucash (stable)/3.5/
 - { name: jad,                                                       ruleset: macosxbins,  ignore: true } # https://varaneckas.com/jad/
