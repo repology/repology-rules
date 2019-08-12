@@ -95,6 +95,7 @@
 - { name: apel,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: apitrace,                                                                        noscheme: true }
 - { name: "apmod:rpaf",                verpat: "2015.*",             ruleset: [ arch ],    ignore: true }
+- { name: apparix,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: appmenu-qt,                  verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: apr,                         verlonger: 3,                                       ignore: true } # FreeBSD
 - { name: apr,                         verpat: ".*20[0-9]{6}.*",                           ignore: true }
