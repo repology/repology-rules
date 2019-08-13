@@ -16,6 +16,12 @@
 - { name: whereami, ruleset: yacp, setname: whereami-pjp }
 - { name: whereami, warning: "please classify me" }
 
+- { name: wipe, wwwpart: [wipe.sourceforge,wipe.sf.net], setname: wipe-nester }
+- { name: wipe, wwwpart: [berke,lambda-diode,abaababa], setname: wipe-berke }
+- { name: wipe, ruleset: pclinuxos, setname: wipe-nester }
+- { name: wipe, ruleset: pld, setname: wipe-berke }
+- { name: wipe, warning: "please classify me" }
+
 - { name: wise, wwwpart: jboss, setname: jboss-wise }
 - { name: wise, wwwpart: ebi.ac.uk, setname: wise2 }
 - { name: wise, category: [ Sciences/Biology, science, biology, sci-biology, universe/science ], setname: wise2 }
