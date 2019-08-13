@@ -16,9 +16,10 @@
 - { name: aclock, ruleset: freebsd, setname: gnustep-aclock } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
 - { name: acme, wwwpart: certbot, setname: certbot, addflavor: acme }
-- { name: acme, wwwpart: [meonwax,acme-crossass,smorbrod], setname: acme-crossassembler }
+- { name: acme, wwwpart: [meonwax,acme-crossass,smorbrod,jan0sch], setname: acme-crossassembler }
 - { name: acme, category: "Graphical desktop/GNOME", setname: acme-keyboard-daemon }
 - { name: acme, wwwpart: "https://git.rapsys.eu/?p=acme", setname: acme-perl }
+- { name: acme, summpart: "6502", setname: acme-crossassembler }
 - { name: acme, ruleset: openwrt, setname: acme.sh }
 - { name: acme, warning: "please classify me" }
 
