@@ -51,6 +51,12 @@
 - { name: nodejs, wwwpart: ax25, setname: node-ax25 }
 - { name: nodejs, category: [universe/hamradio,lang,Development/Tools,hamradio], setname: node-ax25 }
 
+- { name: nomad, wwwpart: [nomadproject.io,hashicorp], setname: nomad-scheduler }
+- { name: nomad, wwwpart: nomad.menu, setname: nomad-active-directory }
+- { name: nomad, wwwpart: slitaz, setname: nomad-wifi }
+- { name: nomad, ruleset: [openbsd], setname: nomad-scheduler }
+- { name: nomad, warning: "please classify me" }
+
 - { name: nonpareil, wwwpart: brouhaha, setname: nonpareil-calculator-simulator }
 - { name: nonpareil, wwwpart: enve-omics, setname: nonpareil-metagenomic-coverage }
 - { name: nonpareil, warning: "please classify me" }
