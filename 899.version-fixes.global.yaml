@@ -26,6 +26,8 @@
 # r module versions may have '-' in them, and some repos replace it with 'r'
 - { verpat: "(.*)r(.*)", namepat: 'r:.*', ruleset: [ pld, void ],                          setver: $1-$2 }
 
+- { namepat: "php[0-9]*:.*", ruleset: sisyphus,                                            untrusted: true }
+
 # other global rules
 - { verpat: ".*20[0-9]{6}T[0-9]{6}\\.[0-9a-f]{7}",                   ruleset: opensuse,    ignore: true }
 - { verpat: ".*[0-9]{8}\\.[0-9a-f]{7}",                              ruleset: opensuse,    ignore: true }
