@@ -90,6 +90,8 @@
 - { name: gnome-chess,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-clocks,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-contacts,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-contacts,              ver: "3.32.2",                ruleset: void,        incorrect: true } # 3.32 actually
+- { name: gnome-contacts,                                            ruleset: void,        untrusted: true } # accused of fake 3.32.2
 - { name: gnome-control-center,        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-desktop,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-disk-utility,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
