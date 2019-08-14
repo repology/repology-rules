@@ -127,6 +127,7 @@
 - { setname: "php56:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php-5_6-ext-(.*)", ruleset: openindiana }
 - { setname: "php70:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php-7\\.0-ext-(.*)", ruleset: openindiana }
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php[0-9]*(?:-pear|-pecl)?-(.*)", ruleset: pld }
+- { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "libphp-(.*)", ruleset: debuntu }
 
 # Python
 - { setname: "python:$0", addflag: wconce, noflag: [wconce,not_python], ruleset: aosc, category: python }
