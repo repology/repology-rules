@@ -179,6 +179,11 @@
 - { setname: "python:pre-commit",      name: pre-commit }
 - { setname: "python:prompt-toolkit",  name: ["python:prompt-toolkit-doc","python:prompt-toolkit-gns3"], addflavor: true }
 - { setname: "python:prompt-toolkit",  name: [prompt-toolkit,prompt-toolkit1] }
+- { setname: "python:psycopg",         name: "python:psycopg1" } # XXX: problem
+- { setname: "python:psycopg",         name: psycopg }
+- { setname: "python:psycopg2",        name: "python:psycopg2-binary", addflavor: true }
+- { setname: "python:psycopg2",        name: "python:psycopg2.6" }
+- { setname: "python:psycopg2",        name: psycopg2 }
 - { setname: "python:pwntools",        name: pwntools }
 - { setname: "python:py-cpuinfo",      name: "python:cpuinfo" }
 - { setname: "python:py-cpuinfo",      name: py-cpuinfo } # XXX: make upstream use prefix
