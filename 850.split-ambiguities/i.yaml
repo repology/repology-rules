@@ -15,6 +15,9 @@
 - { name: icecream, ruleset: [sisyphus,exherbo,pld,slackware,yacp], addflag: classified }
 - { name: icecream, noflag: classified, warning: "please classify me" }
 
+- { name: imapd, wwwpart: cyrus, setname: cyrus-imapd }
+# otherwise some "imapd (IMAP4rev1 from alpine)" from slackware
+
 - { name: ion, wwwpart: redox-os, setname: ion-redox }
 - { name: ion, wwwpart: ion.ocp.ohiou.edu, setname: ion-overlay-network }
 - { name: ion, wwwpart: [modeemi,tuomov], setname: ion3 }
