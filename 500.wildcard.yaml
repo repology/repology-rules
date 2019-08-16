@@ -120,6 +120,13 @@
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php[0-9]*-(?:pear-|pecl-)?(.*?)", ruleset: [adelie,alpine,arch,crux,debuntu,fedora,freebsd,macports,mageia,nix,openbsd,openmandriva,openpkg,opensuse,openwrt,pclinuxos,pkgsrc,pld,ravenports,rosa,sisyphus,slackbuilds,void,t2] }
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php-[0-9._]+-ext-(.*)", ruleset: openindiana }
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "libphp-(.*)", ruleset: debuntu }
+# Note: there are some clashes between pear- and pecl- modules, and possibly modules which are part of PHP,
+# see php:yaml php:dba php:zip php:mcrypt for examples - I'm letting it hang until it bothers somebody. Who
+# could probably shed some light on why's there multiple modules, and what's the difference. The affected
+# modules can be split in 850 ruleset then, and if that's useful, we can also modify this ruleset to strip
+# pear/pecl prefixes with additional rules and convert them to flags at the same time:
+# { setname: "php:$1", addflag: pear, namepat: "php:pear-(.*)" }
+# { setname: "php:$1", addflag: pecl, namepat: "php:pecl-(.*)" }
 
 # Python
 - { setname: "python:$0", addflag: wconce, noflag: [wconce,not_python], ruleset: aosc, category: python }
