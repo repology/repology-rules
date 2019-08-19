@@ -16,7 +16,7 @@ a quick pointer of how to add specific rules:
 
 - Choose target name (prefer least ambiguous and/or most widely used name)
 - Open corresponding yaml file under `800.renames-and-merges/`
-- Add rule like `- { setname: <new name>, name: <old name> }`
+- Add rule like `- { setname: <target name>, name: <original name> }`
 
 ### You want to mark incorrect version of specific package?
 
