@@ -1,131 +1,132 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { setname: oath-toolkit,             name: [oath,oathtool] }
-- { setname: obby,                     name: libobby }
-- { setname: obfsproxy,                name: ["python:obfsproxy", "python:obfsproxy-tor"] }
-- { setname: objectweb-asm,            namepat: "(java-|objectweb-)?asm[0-9]*" }
-- { setname: objectweb-asm,            name: libasm4-java }
-- { setname: obs-studio,               name: obs }
-- { setname: obs-studio,               name: [obs-studio-small,obs-studio-vaapi], addflavor: true }
-- { setname: "ocaml:eliom",            name: eliom }
-- { setname: "ocaml:opam-file-format", name: opam-file-format }
-- { setname: octave,                   namepat: "octave[0-9.-]+" }
-- { setname: octopi,                   name: [octopi-cachecleaner,octopi-debug,octopi-kde,octopi-notifier,octopi-notifier-frameworks,octopi-notifier-noknotify,octopi-notifier-qt5,octopi-pacmanhelper,octopi-repoeditor], addflavor: true }
-- { setname: ode,                      name: [libode,open-dynamics-engine,ode-011] }
-- { setname: ode,                      name: ode-python-bindings, addflavor: true }
-- { setname: odoo,                     namepat: "odoo[0-9.-]+" }
-- { setname: offlinemsmtp,             name: "python:offlinemsmtp" }
-- { setname: ogre,                     name: [ogre-docs,ogre-samples], addflavor: true }
-- { setname: ogre,                     name: [ogre3d,libogre,ogre3d19] }
-- { setname: ogre,                     namepat: "ogre[0-9.-]+" }
-- { setname: oil-shell,                name: oilshell } # alls see 900/o ruleset
-- { setname: olive-video-editor,       name: olive-editor }
-- { setname: olm,                      name: libolm }
-- { setname: ombi,                     name: [ombi-beta,ombi-dev] }
-- { setname: onehouronelife,           namepat: onehouronelife-latest, rolling: true }
-- { setname: onehouronelife,           name: one-hour-one-life }
-- { setname: oniguruma,                name: [onig,libonig], addflavor: onig }
-- { setname: oniguruma,                namepat: "oniguruma[0-9.-]+" }
-- { setname: onscripter,               name: onscripter-1byte, addflavor: 1byte }
-- { setname: opaline,                  name: "ocaml:opaline" }
-- { setname: opam,                     name: ["ocaml:opam",opam2] }
-- { setname: open-axiom,               name: openaxiom }
-- { setname: open-vm-tools,            name: [open-vm-tools-dkms,open-vm-tools-lts-trusty], addflavor: true }
-- { setname: openafs,                  name: [openafs-kernel,openafs-modules,openafs-modules-dkms] }
-- { setname: openal,                   name: libopenal }
-- { setname: openal,                   name: [openal-static,openal-examples], addflavor: true }
-- { setname: openbabel,                name: open-babel }
-- { setname: openbazaar,               name: openbazaar-desktop }
-- { setname: openblas,                 name: [openblas-lapack,openblas-lapack-ilp64] }
-- { setname: openbor,                  namepat: "openbor[0-9]+" }
-- { setname: openbve,                  name: openbve-data, addflavor: true }
-- { setname: opencascade,              name: [opencascade-data,opencascade-doc,opencascade-samples], addflavor: true } # sisyphus artifacts
-- { setname: opencascade,              name: opencascade-occt }
-- { setname: opencascade-oce,          name: opencascade-ce }
-- { setname: opencc,                   name: opencc-doc, addflavor: doc }
-- { setname: opencl-headers,           name: [khronos-opencl-headers,opencl,opencl-cpp-headers,opencl-headers-1-2,opencl-headers12,opencl2-headers] }
-- { setname: opencollada,              name: libopencollada }
-- { setname: opencore-amr,             name: libopencore-amr0 }
-- { setname: "opencpn:gshhs",          name: [opencpn-plugin-gshhs,opencpn-gshhs,opencpn-gshhs-crude] }
-- { setname: opencv,                   name: [opencv2,libopencv3.4,opencv-legacy] }
-- { setname: opencv,                   name: [opencv-contrib-face,opencv-core,opencv-docs,opencv-cuda,opencv-java,opencv-qt5,opencv-samples], addflavor: true }
-- { setname: opendbx,                  name: libopendbx }
-- { setname: opendht,                  name: "python:opendht" }
-- { setname: opendkim,                 name: libopendkim }
-- { setname: opendnssec,               name: opendnssec2 }
-- { setname: openerp,                  namepat: "openerp[0-9.-]+" }
-- { setname: openfoam,                 namepat: "openfoam[0-9x.-]+" }
-- { setname: openhab,                  name: openhab-beta, weak_devel: true }
-- { setname: openhab,                  name: openhab2 }
-- { setname: openhab-addons,           name: openhab2-addons }
-- { setname: openjade,                 name: jade, ruleset: aosc }
-- { setname: openjade,                 namepat: "openjade[0-9.-]+" }
-- { setname: openjdk,                  namepat: "openjdk[0-9.-]*(?:-doc)?" }
-- { setname: openjdk,                  name: openjdk-bin, addflavor: true }
-- { setname: openjpeg,                 name: [openjp2,libopenjpeg2.0] }
-- { setname: openjpeg,                 namepat: "(?:lib)?openjpeg[0-9]*" }
-- { setname: openldap,                 name: [compat-openldap,libldap,openldap-client,openldap-cloak,openldap-doc,openldap-nops,openldap-sasl-client,openldap-server,openldap-smbk5pwd], addflavor: true }
-- { setname: openldap,                 name: openldap-overlays-devel, addflavor: openldap-overlays, weak_devel: true }
-- { setname: openldap,                 name: openldap2 }
-- { setname: openmesh,                 name: open-mesh }
-- { setname: openmpi,                  name: open-mpi }
-- { setname: opennlp,                  name: apache-opennlp }
-- { setname: openobex,                 name: libopenobex }
-- { setname: openocd,                  name: open-ocd }
-- { setname: openoctavemidi,           name: openoctavemidi-unstable, weak_devel: true }
-- { setname: openoffice,               name: apache-openoffice }
-- { setname: openoffice,               name: apache-openoffice-devel, weak_devel: true }
-- { setname: openoffice,               name: openoffice-bin, addflavor: bin }
-- { setname: openoffice,               name: openoffice.org }
-- { setname: openr2,                   namepat: "(?:lib)?openr2[0-9.-]*" }
-- { setname: openrazer,                name: openrazer-meta }
-- { setname: openrc,                   name: [openrc-debug,openrc-init], addflavor: true }
-- { setname: openrct2,                 name: [libopenrct2,openrct2-cli], addflavor: true }
-- { setname: openrefine,               name: openrefine-beta, weak_devel: true }
-- { setname: opensc,                   namepat: "opensc[0-9.-]+" }
-- { setname: opensc,                   name: opensc-openct, addflavor: openct }
-- { setname: openscad,                 name: [openscad-dev,openscad-devel], weak_devel: true }
-- { setname: openscenegraph,           name: [openscenegraph-qt,openscenegraph-qt4,openscenegraph-data], addflavor: true }
-- { setname: openscenegraph,           name: [open-scene-graph,osg] }
-- { setname: openscenegraph,           namepat: "openscenegraph[0-9.-]+" }
-- { setname: openscenegraph,           name: osg-devel, weak_devel: true }
-- { setname: openshadinglanguage,      namepat: "openshadinglanguage[0-9.-]+" }
-- { setname: openshot,                 name: openshot-qt, addflavor: qt }
-- { setname: opensm,                   name: compat-opensm-libs }
-- { setname: opensm,                   name: opensm-systemd-multiple-interfaces, addflavor: true }
-- { setname: opensmtpd-extras,         namepat: "opensmtpd-extras-.*", ruleset: [freebsd,openbsd] }
-- { setname: opensonic,                name: opensnc }
-- { setname: opensp,                   name: opensp-doc, addflavor: doc }
-- { setname: openttd-$0,               namepat: "open(?:gfx|sfx)" }
-- { setname: openttd-$0,               namepat: openmsx, wwwpart: openttd }
-- { setname: openttd-open$1,           namepat: "openttd-(gfx|sfx|msx)" }
-- { setname: openttd-opengfx,          name: openttd-opengfx-snapshot, ignore: true }
-- { setname: opentx,                   name: [opentx-companion,opentx-companion21] }
-- { setname: opentyrian,               name: open-tyrian }
-- { setname: openvpn,                  name: [openvpn-mbedtls,openvpn-polarssl,openvpn2,openvpn23] }
-- { setname: openzwave,                name: open-zwave }
-- { setname: opus,                     name: libopus }
-- { setname: opusfile,                 name: libopusfile }
-- { setname: orafce,                   namepat: "(postgresql[0-9.-]*)-orafce", addflavor: $1 }
-- { setname: orage,                    name: orage-4.10 }
-- { setname: orange-biolab,            name: [orange3, "python:orange"] }
-- { setname: orbit2,                   name: orbit }
-- { setname: orbit2,                   name: orbit2-reference, addflavor: reference }
-- { setname: orcania,                  name: liborcania }
-- { setname: orocos-kdl,               name: liborocos-kdl }
-- { setname: orocos-kdl,               name: [orocos-kdl-python,orocos-kdl-python2,"python:orocos-kdl","python:python-orocos-kdl"], addflavor: python }
-- { setname: ortp,                     namepat: "(?:lib)?ortp[0-9.-]*" }
-- { setname: osgearth,                 name: osgearth-qt4, addflavor: true }
-- { setname: osip,                     name: [libosip,libosip2,osip2] }
-- { setname: osm-gps-map,              name: [libosmgpsmap,osm-gps-map0.7,libosm-gps-map,libosm-gps-map1.0] }
-- { setname: osm-gps-map,              name: osm-gps-map-gtk2, addflavor: gtk2 }
-- { setname: osm-gps-map,              name: osmgpsmap }
-- { setname: osm-gps-map,              name: "python:osmgpsmap", addflavor: python }
-- { setname: ospd,                     name: [openvas-ospd, "python:ospd"] }
-- { setname: ossp-al,                  name: al, ruleset: openpkg }
-- { setname: ossp-cfg,                 name: cfg, ruleset: openpkg }
-- { setname: ostree,                   name: libostree }
-- { setname: otb,                      name: [orfeo-toolbox,orfeotoolbox] }
-- { setname: otter-browser,            name: otterbrowser }
-- { setname: oxygen-gtk2,              name: [oxygen-gtk+,gtk2-theme-oxygen-gtk] }
-- { setname: oxygen-gtk3,              name: [oxygen-gtk+3,gtk3-theme-oxygen-gtk] }
+- { setname: oath-toolkit,              name: [oath,oathtool] }
+- { setname: obby,                      name: libobby }
+- { setname: obfsproxy,                 name: ["python:obfsproxy", "python:obfsproxy-tor"] }
+- { setname: objectweb-asm,             namepat: "(java-|objectweb-)?asm[0-9]*" }
+- { setname: objectweb-asm,             name: libasm4-java }
+- { setname: obs-studio,                name: obs }
+- { setname: obs-studio,                name: [obs-studio-small,obs-studio-vaapi], addflavor: true }
+- { setname: "ocaml:eliom",             name: eliom }
+- { setname: "ocaml:opam-file-format",  name: opam-file-format }
+- { setname: octave,                    namepat: "octave[0-9.-]+" }
+- { setname: octopi,                    name: [octopi-cachecleaner,octopi-debug,octopi-kde,octopi-notifier,octopi-notifier-frameworks,octopi-notifier-noknotify,octopi-notifier-qt5,octopi-pacmanhelper,octopi-repoeditor], addflavor: true }
+- { setname: ode,                       name: [libode,open-dynamics-engine,ode-011] }
+- { setname: ode,                       name: ode-python-bindings, addflavor: true }
+- { setname: odoo,                      namepat: "odoo[0-9.-]+" }
+- { setname: offlinemsmtp,              name: "python:offlinemsmtp" }
+- { setname: ogre,                      name: [ogre-docs,ogre-samples], addflavor: true }
+- { setname: ogre,                      name: [ogre3d,libogre,ogre3d19] }
+- { setname: ogre,                      namepat: "ogre[0-9.-]+" }
+- { setname: oil-shell,                 name: oilshell } # alls see 900/o ruleset
+- { setname: olive-video-editor,        name: olive-editor }
+- { setname: olm,                       name: libolm }
+- { setname: ombi,                      name: [ombi-beta,ombi-dev] }
+- { setname: onehouronelife,            namepat: onehouronelife-latest, rolling: true }
+- { setname: onehouronelife,            name: one-hour-one-life }
+- { setname: oniguruma,                 name: [onig,libonig], addflavor: onig }
+- { setname: oniguruma,                 namepat: "oniguruma[0-9.-]+" }
+- { setname: onscripter,                name: onscripter-1byte, addflavor: 1byte }
+- { setname: opaline,                   name: "ocaml:opaline" }
+- { setname: opam,                      name: ["ocaml:opam",opam2] }
+- { setname: open-axiom,                name: openaxiom }
+- { setname: open-vm-tools,             name: [open-vm-tools-dkms,open-vm-tools-lts-trusty], addflavor: true }
+- { setname: openafs,                   name: [openafs-kernel,openafs-modules,openafs-modules-dkms] }
+- { setname: openal,                    name: libopenal }
+- { setname: openal,                    name: [openal-static,openal-examples], addflavor: true }
+- { setname: openbabel,                 name: open-babel }
+- { setname: openbazaar,                name: openbazaar-desktop }
+- { setname: openblas,                  name: [openblas-lapack,openblas-lapack-ilp64] }
+- { setname: open-broadcaster-software, name: obs-studio }
+- { setname: openbor,                   namepat: "openbor[0-9]+" }
+- { setname: openbve,                   name: openbve-data, addflavor: true }
+- { setname: opencascade,               name: [opencascade-data,opencascade-doc,opencascade-samples], addflavor: true } # sisyphus artifacts
+- { setname: opencascade,               name: opencascade-occt }
+- { setname: opencascade-oce,           name: opencascade-ce }
+- { setname: opencc,                    name: opencc-doc, addflavor: doc }
+- { setname: opencl-headers,            name: [khronos-opencl-headers,opencl,opencl-cpp-headers,opencl-headers-1-2,opencl-headers12,opencl2-headers] }
+- { setname: opencollada,               name: libopencollada }
+- { setname: opencore-amr,              name: libopencore-amr0 }
+- { setname: "opencpn:gshhs",           name: [opencpn-plugin-gshhs,opencpn-gshhs,opencpn-gshhs-crude] }
+- { setname: opencv,                    name: [opencv2,libopencv3.4,opencv-legacy] }
+- { setname: opencv,                    name: [opencv-contrib-face,opencv-core,opencv-docs,opencv-cuda,opencv-java,opencv-qt5,opencv-samples], addflavor: true }
+- { setname: opendbx,                   name: libopendbx }
+- { setname: opendht,                   name: "python:opendht" }
+- { setname: opendkim,                  name: libopendkim }
+- { setname: opendnssec,                name: opendnssec2 }
+- { setname: openerp,                   namepat: "openerp[0-9.-]+" }
+- { setname: openfoam,                  namepat: "openfoam[0-9x.-]+" }
+- { setname: openhab,                   name: openhab-beta, weak_devel: true }
+- { setname: openhab,                   name: openhab2 }
+- { setname: openhab-addons,            name: openhab2-addons }
+- { setname: openjade,                  name: jade, ruleset: aosc }
+- { setname: openjade,                  namepat: "openjade[0-9.-]+" }
+- { setname: openjdk,                   namepat: "openjdk[0-9.-]*(?:-doc)?" }
+- { setname: openjdk,                   name: openjdk-bin, addflavor: true }
+- { setname: openjpeg,                  name: [openjp2,libopenjpeg2.0] }
+- { setname: openjpeg,                  namepat: "(?:lib)?openjpeg[0-9]*" }
+- { setname: openldap,                  name: [compat-openldap,libldap,openldap-client,openldap-cloak,openldap-doc,openldap-nops,openldap-sasl-client,openldap-server,openldap-smbk5pwd], addflavor: true }
+- { setname: openldap,                  name: openldap-overlays-devel, addflavor: openldap-overlays, weak_devel: true }
+- { setname: openldap,                  name: openldap2 }
+- { setname: openmesh,                  name: open-mesh }
+- { setname: openmpi,                   name: open-mpi }
+- { setname: opennlp,                   name: apache-opennlp }
+- { setname: openobex,                  name: libopenobex }
+- { setname: openocd,                   name: open-ocd }
+- { setname: openoctavemidi,            name: openoctavemidi-unstable, weak_devel: true }
+- { setname: openoffice,                name: apache-openoffice }
+- { setname: openoffice,                name: apache-openoffice-devel, weak_devel: true }
+- { setname: openoffice,                name: openoffice-bin, addflavor: bin }
+- { setname: openoffice,                name: openoffice.org }
+- { setname: openr2,                    namepat: "(?:lib)?openr2[0-9.-]*" }
+- { setname: openrazer,                 name: openrazer-meta }
+- { setname: openrc,                    name: [openrc-debug,openrc-init], addflavor: true }
+- { setname: openrct2,                  name: [libopenrct2,openrct2-cli], addflavor: true }
+- { setname: openrefine,                name: openrefine-beta, weak_devel: true }
+- { setname: opensc,                    namepat: "opensc[0-9.-]+" }
+- { setname: opensc,                    name: opensc-openct, addflavor: openct }
+- { setname: openscad,                  name: [openscad-dev,openscad-devel], weak_devel: true }
+- { setname: openscenegraph,            name: [openscenegraph-qt,openscenegraph-qt4,openscenegraph-data], addflavor: true }
+- { setname: openscenegraph,            name: [open-scene-graph,osg] }
+- { setname: openscenegraph,            namepat: "openscenegraph[0-9.-]+" }
+- { setname: openscenegraph,            name: osg-devel, weak_devel: true }
+- { setname: openshadinglanguage,       namepat: "openshadinglanguage[0-9.-]+" }
+- { setname: openshot,                  name: openshot-qt, addflavor: qt }
+- { setname: opensm,                    name: compat-opensm-libs }
+- { setname: opensm,                    name: opensm-systemd-multiple-interfaces, addflavor: true }
+- { setname: opensmtpd-extras,          namepat: "opensmtpd-extras-.*", ruleset: [freebsd,openbsd] }
+- { setname: opensonic,                 name: opensnc }
+- { setname: opensp,                    name: opensp-doc, addflavor: doc }
+- { setname: openttd-$0,                namepat: "open(?:gfx|sfx)" }
+- { setname: openttd-$0,                namepat: openmsx, wwwpart: openttd }
+- { setname: openttd-open$1,            namepat: "openttd-(gfx|sfx|msx)" }
+- { setname: openttd-opengfx,           name: openttd-opengfx-snapshot, ignore: true }
+- { setname: opentx,                    name: [opentx-companion,opentx-companion21] }
+- { setname: opentyrian,                name: open-tyrian }
+- { setname: openvpn,                   name: [openvpn-mbedtls,openvpn-polarssl,openvpn2,openvpn23] }
+- { setname: openzwave,                 name: open-zwave }
+- { setname: opus,                      name: libopus }
+- { setname: opusfile,                  name: libopusfile }
+- { setname: orafce,                    namepat: "(postgresql[0-9.-]*)-orafce", addflavor: $1 }
+- { setname: orage,                     name: orage-4.10 }
+- { setname: orange-biolab,             name: [orange3, "python:orange"] }
+- { setname: orbit2,                    name: orbit }
+- { setname: orbit2,                    name: orbit2-reference, addflavor: reference }
+- { setname: orcania,                   name: liborcania }
+- { setname: orocos-kdl,                name: liborocos-kdl }
+- { setname: orocos-kdl,                name: [orocos-kdl-python,orocos-kdl-python2,"python:orocos-kdl","python:python-orocos-kdl"], addflavor: python }
+- { setname: ortp,                      namepat: "(?:lib)?ortp[0-9.-]*" }
+- { setname: osgearth,                  name: osgearth-qt4, addflavor: true }
+- { setname: osip,                      name: [libosip,libosip2,osip2] }
+- { setname: osm-gps-map,               name: [libosmgpsmap,osm-gps-map0.7,libosm-gps-map,libosm-gps-map1.0] }
+- { setname: osm-gps-map,               name: osm-gps-map-gtk2, addflavor: gtk2 }
+- { setname: osm-gps-map,               name: osmgpsmap }
+- { setname: osm-gps-map,               name: "python:osmgpsmap", addflavor: python }
+- { setname: ospd,                      name: [openvas-ospd, "python:ospd"] }
+- { setname: ossp-al,                   name: al, ruleset: openpkg }
+- { setname: ossp-cfg,                  name: cfg, ruleset: openpkg }
+- { setname: ostree,                    name: libostree }
+- { setname: otb,                       name: [orfeo-toolbox,orfeotoolbox] }
+- { setname: otter-browser,             name: otterbrowser }
+- { setname: oxygen-gtk2,               name: [oxygen-gtk+,gtk2-theme-oxygen-gtk] }
+- { setname: oxygen-gtk3,               name: [oxygen-gtk+3,gtk3-theme-oxygen-gtk] }
