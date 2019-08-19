@@ -15,7 +15,7 @@ a quick pointer of how to add specific rules:
 ### You want to **merge** differently named packages into a single entry?
 
 - Choose target name (prefer least ambiguous and/or most widely used name)
-- Open corresponding yaml file under `800.renames-and-merges/`
+- Open corresponding yaml file under `800.renames-and-merges/` (if there's no existing yaml file relevant to your package, use the file named with the first letter of your target name, like `a.yaml`)
 - Add rule like `- { setname: <target name>, name: <original name> }`
 
 ### You want to mark incorrect version of specific package?
