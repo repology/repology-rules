@@ -1,7 +1,5 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { setname: virtualbox, namepat: "(linux[0-9]+)(-rt)?-virtualbox(-guest|-host)?-modules", addflavor: true }
-
 - { setname: virtualbox, name: virtualbox-beta, weak_devel: true }
 
 - setname: virtualbox
@@ -29,6 +27,7 @@
     - virtualbox-guest-modules
     - virtualbox-guest-utils
     - virtualbox-headless
+    - virtualbox-host-modules
     - virtualbox-hwe
     - virtualbox-i3
     - virtualbox-kernel
