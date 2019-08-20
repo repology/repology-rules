@@ -28,27 +28,22 @@
 
 - setname: "fonts:baekmuk"
   name:
+    - baekmuk
     - baekmuk-bdf-fonts
     - baekmuk-bitmap-fonts
-    - bdf-baekmuk
-    - fonts-bitmap-baekmuk
-  addflavor: bdf
-
-- setname: "fonts:baekmuk"
-  name:
+    - baekmuk-fonts
     - baekmuk-ttf
     - baekmuk-ttf-fonts
-    - fonts-ttf-baekmuk
-    - ko-baekmuk-ttf
-    - ttf-baekmuk
-  addflavor: ttf
-
-- setname: "fonts:baekmuk"
-  name:
-    - baekmuk-fonts
+    - baekmukfonts-bdf
+    - baekmukfonts-ttf
+    - bdf-baekmuk
     - fonts-baekmuk
+    - fonts-bitmap-baekmuk
+    - fonts-ttf-baekmuk
     - ko-baekmuk
     - ko-baekmuk-fonts
+    - ko-baekmuk-ttf
+    - ttf-baekmuk
     - xfonts-baekmuk
 
 - setname: "fonts:beteckna"
