@@ -33,6 +33,7 @@
 - { name: libchipcard,                                               ruleset: opensuse,    untrusted: true } # accusef of fake 5.0.99
 - { name: libclc,                                                                          noscheme: true }
 - { name: libcmis,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 0.5.2
+- { name: libcoap,                     verpat: ".*20[0-9]{6}",                             snapshot: true } # openbsd
 - { name: libcpuid,                    ver: "0.21",                                        setver: "0.2.1" } # deepin crap
 - { name: libcuefile,                                                                      noscheme: true }
 - { name: libdazzle,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
