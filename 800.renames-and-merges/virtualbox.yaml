@@ -1,0 +1,52 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { setname: virtualbox, namepat: "(linux[0-9]+)(-rt)?-virtualbox(-guest|-host)?-modules", addflavor: true }
+
+- { setname: virtualbox, name: virtualbox-beta, weak_devel: true }
+
+- setname: virtualbox
+  name:
+    - kernel-modules-virtualbox-addition-std-def
+    - kernel-modules-virtualbox-addition-un-def
+    - kernel-modules-virtualbox-std-def
+    - kernel-modules-virtualbox-un-def
+    - kmod-virtualbox
+    - module-virtualbox
+    - module-virtualbox-guest
+    - vboxguestadditions
+    - virtualbox-additions
+    - virtualbox-addons
+    - virtualbox-bin
+    - virtualbox-bin-5
+    - virtualbox-bin-5.0
+    - virtualbox-ext-pack
+    - virtualbox-extension-pack
+    - virtualbox-extpack
+    - virtualbox-guest
+    - virtualbox-guest-additions
+    - virtualbox-guest-additions-iso
+    - virtualbox-guest-iso
+    - virtualbox-guest-modules
+    - virtualbox-guest-utils
+    - virtualbox-headless
+    - virtualbox-hwe
+    - virtualbox-i3
+    - virtualbox-kernel
+    - virtualbox-kernel-addons
+    - virtualbox-kernel-nopae
+    - virtualbox-kmod
+    - virtualbox-modules
+    - virtualbox-modules-arch
+    - virtualbox-modules-aufs
+    - virtualbox-modules-bfq
+    - virtualbox-modules-lqx
+    - virtualbox-modules-mainline
+    - virtualbox-modules-next
+    - virtualbox-modules-pf
+    - virtualbox-ose
+    - virtualbox-ose-additions
+    - virtualbox-ose-kmod
+    - virtualbox-qt5
+    - virtualbox51
+    - virtualbox51-guest-iso
+  addflavor: true
