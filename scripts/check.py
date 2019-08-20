@@ -61,6 +61,7 @@ families = [
     'hpux',
     'justinstall',
     'kaos',
+    'kiss',
     'kwort',
     'libregamewiki',
     'luarocks',
