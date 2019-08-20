@@ -72,6 +72,7 @@
 - { setname: linux-firmware,           name: kernel-firmware }
 - { setname: linux-predator,           name: [linux-predator-docs,linux-predator-headers], addflavor: true }
 - { setname: linux-tools,              name: [cpupower,cpupowertools,cpupowerutils,perf,tmon,turbostat,usbip-linux,usbip-utils], addflavor: true }
+- { setname: linux-tools,              namepat: "linux-tools[0-9.-]+" }
 - { setname: linuxsampler,             name: linuxsampler-vst, addflavor: true }
 - { setname: lipsofsuna,               name: lips-of-suna }
 - { setname: liquidwar,                name: liquidwar5 }
