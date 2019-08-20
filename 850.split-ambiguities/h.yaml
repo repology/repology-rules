@@ -33,3 +33,8 @@
 - { name: hydra, ruleset: nix, setname: hydra-nix }
 - { name: thc-hydra, setname: hydra } # XXX: HACK
 # otherwise thc-hydra, network logon cracker
+
+- { name: hyperion, wwwpart: hyperion-project, setname: hyperion-ambilight }
+- { name: hyperion, wwwpart: nullsecurity, setname: hyperion-encrypter }
+- { name: hyperion, summpart: ambi, setname: hyperion-ambilight }
+- { name: hyperion, warning: "please classify me" }
