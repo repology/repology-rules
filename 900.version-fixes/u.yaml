@@ -42,6 +42,7 @@
 - { name: urw-fonts,                   verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: usbmuxd,                     ver: "1.1.1",                 ruleset: [openwrt,sisyphus], incorrect: true } # fake
 - { name: usbmuxd,                     verpat: "20[0-9]{6}.*",                             snapshot: true }
+- { name: usbmuxd,                     verpat: "20[0-9]{2}.*",                             snapshot: true } # openwrt, incorrect version parse actually
 - { name: usbrelay,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: usbview,                     ver: "2.0.1",                 ruleset: rosa,        incorrect: true }
 - { name: utfcpp,                      verpat: "2012.*",                                   snapshot: true } # slackbuilds
