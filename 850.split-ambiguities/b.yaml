@@ -6,8 +6,11 @@
 # mail client vs. asynchronous synthesis system
 - { name: balsa, category: sci-electronics,               setname: balsa-synthesis }
 
-- { name: baselayout, ruleset: pisi, setname: baselayout-pisi }
 - { name: baselayout, ruleset: gentoo, setname: baselayout-gentoo }
+- { name: baselayout, ruleset: kiss, setname: baselayout-kiss }
+- { name: baselayout, ruleset: pisi, setname: baselayout-pisi }
+- { name: baselayout, ruleset: solus, setname: baselayout-solus }
+- { name: baselayout, warning: "please classify me" }
 
 - { name: bamm, wwwpart: ecogenomics, setname: bamm-metagenomics }
 - { name: bamm, wwwpart: bamm-project.org, setname: bamm-bayesian }
