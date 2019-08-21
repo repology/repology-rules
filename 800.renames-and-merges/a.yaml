@@ -19,7 +19,6 @@
 - { setname: acme-tiny,                name: "python:acme-tiny" }
 - { setname: acme.sh,                  name: [acme-sh,acmesh] }
 - { setname: acpi-call,                name: [acpi-call-ck-fbcondecor,acpi-call-dkms,acpi-call-pf], addflavor: true }
-- { setname: acpi-call,                namepat: "linux[0-9]+(?:-rt)?-acpi-call" }
 - { setname: acpi-call,                name: acpi-call-ck, addflavor: true }
 - { setname: acpica,                   namepat: "acpica-(?:tools|unix|utils)" }
 - { setname: acpid,                    name: acpid2 }

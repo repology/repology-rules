@@ -1,9 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { setname: zfs, namepat: "(linux[0-9]+(?:-spl)?)-zfs", addflavor: $1 }
-
 - setname: zfs
   name:
+    - spl-zfs
     - zfs-archiso-linux
     - zfs-dkms
     - zfs-kernel

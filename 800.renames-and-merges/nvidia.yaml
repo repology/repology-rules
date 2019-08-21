@@ -4,7 +4,6 @@
 - { setname: nvidia,                   name: kernel-modules-nvidia-std-def, addflavor: std-def }
 - { setname: nvidia,                   name: kernel-modules-nvidia-un-def, addflavor: un-def }
 - { setname: nvidia,                   namepat: "khd-nvidia[x0-9.-]*", addflavor: khd }
-- { setname: nvidia,                   namepat: "(linux[0-9]+(?:-rt)?)-nvidia[x0-9.-]*", addflavor: $1 }
 - { setname: nvidia,                   namepat: "module-nvidia[0-9.-]*" }
 - { setname: nvidia,                   name: module-nvidia-current }
 - { setname: nvidia,                   namepat: "nvidia\\+[0-9]*" }

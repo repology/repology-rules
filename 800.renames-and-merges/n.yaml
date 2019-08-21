@@ -88,6 +88,5 @@
 - { setname: nvidia-settings,          namepat: "nvidia[x0-9.-]*-settings" }
 - { setname: nvidia-settings,          namepat: "nvidia-settings-.*" }
 - { setname: nvidia-settings,          namepat: "nvidia-settings-experimental.*", weak_devel: true }
-- { setname: nvidiabl,                 namepat: "(?:dkms|linux-rt.*|linux[0-9]+(?:-rt)?)-nvidiabl" }
-- { setname: nvidiabl,                 name: nvidiabl-kernel }
+- { setname: nvidiabl,                 name: [dkms-nvidiabl,nvidiabl-kernel] }
 - { setname: nyx,                      name: "python:nyx" }

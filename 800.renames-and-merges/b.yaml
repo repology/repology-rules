@@ -32,7 +32,6 @@
 - { setname: bazel,                    name: bazel-clang38, addflavor: true }
 - { setname: bazel-buildtools,         name: buildifier, addflavor: true }
 - { setname: bbpager,                  name: [bbpager03,bbpager04] }
-- { setname: bbswitch,                 namepat: "(linux[0-9]+)-bbswitch", addflavor: $1 }
 - { setname: bbswitch,                 name: dkms-bbswitch }
 - { setname: bbswitch,                 name: [bbswitch-ck,bbswitch-ck-fbcondecor,bbswitch-dkms,bbswitch-mainline,bbswitch-next,bbswitch-pf,kernel-modules-bbswitch-std-def,kernel-modules-bbswitch-un-def], addflavor: true }
 - { setname: bc,                       name: gnubc }
