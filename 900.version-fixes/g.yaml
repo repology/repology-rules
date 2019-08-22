@@ -37,6 +37,7 @@
 - { name: geda-gaf,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: gedit,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: geeknote,                                                                        noscheme: true }
+- { name: genext2fs,                   verpat: ".*-.*",                                    debianism: true }
 - { name: geocode-glib,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: getdns,                                                    ruleset: fedora,      untrusted: true } # accused of fake 1.5.2
 - { name: gettext,                     ver: "2",                                           ignore: true } # libintl from LEDE

@@ -29,6 +29,7 @@
 - { name: bcal,                        ver: "2.1.12",                ruleset: freebsd,     incorrect: true }
 - { name: bcal,                                                      ruleset: freebsd,     untrusted: true } # accused of fake 2.1.12
 - { name: bcm20702a1-firmware,         verpat: "[0-9]{7}",                                 ignore: false } # unignore global rule from 900/0.yaml
+- { name: bdfresize,                   verpat: ".*-.*",                                    debianism: true }
 - { name: beef-browser-exploitation,   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: beignet,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: benchmark,                   verlonger: 3,                 ruleset: freebsd,     incorrect: true }
