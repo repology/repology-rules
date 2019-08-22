@@ -282,6 +282,7 @@
 - { setname: "python:pytest-xvfb",     name: pytest-xvfb }
 - { setname: "python:python-axolotl",  name: "python:axolotl" } # as per PyPi
 - { setname: "python:python-axolotl-curve25519", name: "python:axolotl-curve25519" } # as per PyPi
+- { setname: "python:python-dateutil", name: ["python:dateutil","python:dateutil15"] } # XXX: problem
 - { setname: "python:python-djvulibre", name: "python:djvulibre" } # correct name on PyPi
 - { setname: "python:python-editor",   name: "python:editor" }
 - { setname: "python:python-hglib",    name: "python:hglib" }
