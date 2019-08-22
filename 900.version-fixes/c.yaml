@@ -38,6 +38,8 @@
 - { name: ccd2iso,                     ver: "0.9",                   ruleset: freebsd,     outdated: true } # it's fake, no mention of 0.9 at all, and it uses file which was released before 0.3
 - { name: ccid,                        ver: "1.54",                  ruleset: t2,          incorrect: true } # 1.3.8
 - { name: ccid,                                                      ruleset: t2,          untrusted: true } # accused of fake 1.54
+- { name: ccls,                        ver: "0.20190731",                                  incorrect: true } # fake
+- { name: ccls,                                                      ruleset: freebsd,     untrusted: true } # accused of fake 0.20190731
 - { name: ccnet,                                                     ruleset: sisyphus,    untrusted: true } # ccnet-server really
 - { name: cddetect,                    ver: "2.1-1",                 ruleset: t2,          incorrect: true } # unknown origin, hosted on http://distro.ibiblio.org/quirky/quirky6/sources/t2
 - { name: cddetect,                                                  ruleset: t2,          untrusted: true }
