@@ -20,7 +20,7 @@
 - { name: oggfwd,                                                                          noscheme: true }
 - { name: ogre,                        verpat: "2.*",                                      ignore: true }
 - { name: oilwar,                                                    ruleset: os4depot,    incorrect: true }
-- { name: okteta,                      verpat: "(4|15|16|17|18).*",                        outdated: true }  # went from following KDE versioning to its own 0.x/1.x-based versioning
+- { name: okteta,                      verpat: "(4|14|15|16|17|18).*",                     outdated: true }  # went from following KDE versioning to its own 0.x/1.x-based versioning
 - { name: okular,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ollydbg,                     verpat: "[0-9]{3}.*",                               incorrect: true } # it's 1.10, 2.0, 2.01g
 - { name: onboard,                     ver: "1.4.1.4",               ruleset: debuntu,     incorrect: true } # deepin
