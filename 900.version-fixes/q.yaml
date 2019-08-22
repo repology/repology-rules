@@ -19,6 +19,8 @@
 - { name: qjson,                       ver: "1.0.0",                 ruleset: openmandriva, incorrect: true }
 - { name: qjson,                                                     ruleset: openmandriva, untrusted: true }
 - { name: qjson,                                                     ruleset: pisi,        untrusted: true } # repacked, accused of fake 0.82
+- { name: qlcplus,                     ver: "5.0.0",                 ruleset: sisyphus,    incorrect: true } # alpha3
+- { name: qlcplus,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 5.0.0
 - { name: qlipper,                     verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: qml-box2d,                                                                       noscheme: true }
 - { name: qpdfview,                    verpat: ".*pre.*",                                  incorrect: true } # gentoo fakes
