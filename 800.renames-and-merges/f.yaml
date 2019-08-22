@@ -145,6 +145,8 @@
 - { setname: fsv,                      name: fsv2 }
 - { setname: fteproxy,                 name: "python:fteproxy" }
 - { setname: ftgl,                     name: libftgl2 }
+- { setname: futhark,                  name: "haskell:futhark" }
+- { setname: futhark,                  name: futhark-nightly, weak_devel: true }
 - { setname: fuzzylite,                name: fuzzylite5 }
 - { setname: fvwm,                     name: [fvwm1,fvwm2] }
 - { setname: fvwm,                     name: fvwm+, addflavor: true }
