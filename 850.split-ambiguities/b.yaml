@@ -62,6 +62,11 @@
 - { name: blackhole, wwwpart: 3Hren, setname: blackhole-logging }
 - { name: blackhole, wwwpart: pereckerdal, setname: blackhole-gambit }
 
+- { name: bless, wwwpart: bless-ec, setname: bless-ngs-error-correction }
+- { name: bless, wwwpart: [afrantzis,bwrsandman,gna.org/bless,debian], setname: bless-hex-editor }
+- { name: bless, ruleset: aosc, setname: bless-hex-editor }
+- { name: bless, warning: "please classify me" }
+
 - { name: bliss, summpart: intellivision, setname: bliss-emulator }
 - { name: bliss, summpart: music, setname: bliss-music-analyzer }
 - { name: bliss, summpart: graphs, setname: bliss-graphs } # name already used by some repos
