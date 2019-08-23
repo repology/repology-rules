@@ -109,6 +109,7 @@
 - { name: "fonts:ubuntu",              ver: "1.0",                   ruleset: pclinuxos,   ignore: true } # no such version on the website
 - { name: "fonts:wqy-microhei",        verpat: "(.*?)[^0-9]?beta",                         setver: $1 }
 - { name: fonttosfnt,                                                ruleset: opensuse,    untrusted: true } # accused of fake 1.0.5
+- { name: foo2zjs,                                                                         noscheme: true }
 - { name: foobillard++,                verpat: "3\\.43.*",           ruleset: slackbuilds, incorrect: true }
 - { name: foobillard++,                                              ruleset: slackbuilds, untrusted: true }
 - { name: foobillard++,                verpat: "(.*)b",                                    setver: $1beta }
