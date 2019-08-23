@@ -54,6 +54,7 @@
 - { name: "emacs:php-mode",            verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: "emacs:php-mode",            verge: "20000000", verlt: "20180512",               outdated: true }
 - { name: "emacs:puppet-mode",         verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: "emacs:scheme-complete",     verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: "emacs:tdtd",                ver: "0.71",                                        incorrect: true } # sisyphus fake
 - { name: "emacs:w3m",                 ver: "1.5",                   ruleset: [sisyphus,guix,rosa], incorrect: true }
 - { name: "emacs:w3m",                                               ruleset: [sisyphus,guix,rosa], untrusted: true }
