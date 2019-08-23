@@ -117,7 +117,7 @@
 - { setname: bouncycastle,             name: [bcpkix,bouncycastle-pkix,java-bouncycastle-bcpkix], addflavor: pkix }
 - { setname: bouncycastle,             name: [bcprov,java-bouncycastle-bcprov], addflavor: prov }
 - { setname: bouncycastle,             name: bctsp, addflavor: tsp } # merged to pkix?
-- { setname: bowtie,                   name: [bowtie2, bowtie2-legacy] }
+- { setname: bowtie,                   name: [bowtie1, bowtie2, bowtie2-legacy] }
 - { setname: box2d,                    name: libbox2d }
 - { setname: boxbackup,                name: [boxbackup-client,boxbackup-server], addflavor: true }
 - { setname: boxbackup,                name: boxbackup-devel, weak_devel: true }
