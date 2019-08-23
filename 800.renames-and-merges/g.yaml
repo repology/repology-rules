@@ -324,6 +324,7 @@
 - { setname: grilo-plugins,            name: grilo-plugins2 }
 - { setname: grilo-plugins,            namepat: "grilo[0-9.-]+-plugins" }
 - { setname: grive-tools,              name: grive-tools-patched, addflavor: patched }
+- { setname: groff,                    name: [groff-full,groff-minimal,ja-groff], addflavor: true }
 - { setname: groovy,                   name: groovy-docs, addflavor: docs }
 - { setname: groovy,                   name: groovysdk }
 - { setname: groovy,                   namepat: "groovy[0-9.-]+" }
