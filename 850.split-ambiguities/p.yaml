@@ -26,6 +26,9 @@
 - { name: papyrus, ruleset: kaos, setname: papyrus-kaqaz }
 - { name: papyrus, warning: "please classify me" }
 
+- { name: pass, wwwpart: [passwordstore,password-store], setname: password-store }
+- { name: pass, warning: "please classify me" }
+
 - { name: pcl, summpart: coroutine, setname: pcl-coroutines }
 - { name: pcl, wwwpart: xmailserver, setname: pcl-coroutines }
 - { name: pcl, summpart: cloud, setname: pcl-pointclouds }
