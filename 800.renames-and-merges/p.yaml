@@ -31,6 +31,7 @@
 - { setname: parted,                   name: libparted, addflavor: true }
 - { setname: pass,                     name: [pass-parcellite,pass-patched-passmenu-notify,pass-wl-clipboard], addflavor: true } # mostly same as password-store, merged in 850
 - { setname: password-store,           name: [passwordstore] }
+- { setname: password-store,           name: [emacs-password-store,"emacs:password-store"], addflavor: emacs }
 - { setname: pasystray,                name: [pasystray-gtk2,pasystray-gtk2-standalone,pasystray-gtk3-standalone] }
 - { setname: patch,                    name: gpatch }
 - { setname: payara,                   namepat: "payara[0-9]+" }
