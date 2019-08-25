@@ -174,7 +174,7 @@
 # Texlive
 - { setname: "texlive:$1", addflag: wconce, noflag: [wconce,not_texlive], namepat: "tex-(.*)-doc", ruleset: pkgsrc, addflavor: doc }
 - { setname: "texlive:$1", addflag: wconce, noflag: [wconce,not_texlive], namepat: "tex-(.*)", ruleset: pkgsrc }
-- { setname: "texlive:$1", addflag: wconce, noflag: [wconce,not_texlive], namepat: "texlive-(.*)", ruleset: [ openmandriva, rosa ] }
+- { setname: "texlive:$1", addflag: wconce, noflag: [wconce,not_texlive], namepat: "texlive-(.*)", ruleset: [openmandriva,rosa,guix] }
 
 # Vaporsynth
 - { setname: "vapoursynth:$1", addflag: wconce, noflag: [wconce,not_vapoursynth], namepat: "vapoursynth-plugin-(.*)" }
