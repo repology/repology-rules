@@ -182,6 +182,11 @@
 - { name: spl, wwwpart: clifford.at, setname: spl-lang }
 # otherwise, solaris porting layer
 
+- { name: splat, wwwpart: kb2db, setname: splat-signal-propagation }
+- { name: splat, wwwpart: l8nite, setname: splat-portage }
+- { name: splat, wwwpart: threerings, setname: splat-ldap }
+- { name: splat, warning: "please classify me" }
+
 - { name: splitter, wwwpart: mkgmap, setname: mkgmap-splitter } # no ambiguity at the time of writing, but let's be on the safe side
 
 - { name: ssr, wwwpart: spatialaudio, setname: soundscaperenderer }
