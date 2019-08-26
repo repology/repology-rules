@@ -36,7 +36,7 @@
 - { name: cdf3,                        setname: cdf                       } # Common Data Format lib; XXX: move to 800?
 - { name: cdf, verpat: "0.*",          setname: cdf-df                    } # split out colorized df
 
-- { name: ceres, ruleset: vcpkg, setname: ceres-solver }
+- { name: ceres, wwwpart: ceres-solver, setname: ceres-solver }
 - { name: ceres, warning: "please classify me" }
 
 - { name: cflow, wwwpart: marcusva, setname: cflow-marcusva }

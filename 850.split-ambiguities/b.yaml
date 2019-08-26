@@ -36,8 +36,8 @@
 
 - { name: beanshell, ruleset: kaos,                       setname: beanshell2 }
 
-- { name: beast, wwwpart: beast.bio.ed.ac.uk,             setname: beast-mcmc }
-- { name: beast, ruleset: vcpkg,                          setname: boost-beast }
+- { name: beast, wwwpart: beast.bio.ed.ac.uk, setname: beast-mcmc }
+- { name: beast, wwwpart: boost, setname: boost-beast }
 
 - { name: bed, wwwpart: dse.nl, setname: bed-editor }
 - { name: bed, setname: bed-bruteforce-exploit-detector }
