@@ -25,6 +25,10 @@
 - { name: ccl, summpart: cigi, setname: cigi-ccl }
 
 - { name: cdcover, category: dev-tex, setname: "texlive:cdcover" }
+- { name: cdcover, wwwpart: [cdcover.sourceforge], setname: cdcover-rschaeuble }
+- { name: cdcover, wwwpart: karlp, setname: cdcover-karlp }
+- { name: cdcover, ruleset: aosc, setname: cdcover-rschaeuble }
+- { name: cdcover, warning: "please classify me" }
 
 - { name: cde,                         setname: cdesktopenv, wwwpart: cdesktopenv } # desktop env. vs packaging tool
 
