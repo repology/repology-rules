@@ -35,6 +35,8 @@
 - { name: libunwind, wwwpart: llvm, setname: llvm-libunwind }
 - { name: libunwind, summpart: llvm, setname: llvm-libunwind }
 
+- { name: libusb, ruleset: cygwin, setname: libusb-win32 } # XXX: problem
+
 - { name: libuuid, verpat: "2\\.[0-9]{4}(\\.[0-9]+)?", setname: util-linux, addflavor: libuuid } # part of
 
 - { name: libwmf, wwwpart: caolanm, setname: libwmf-caolanm }
