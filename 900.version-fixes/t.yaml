@@ -73,6 +73,10 @@
 - { name: timidity++,                                                ruleset: rosa,        untrusted: true } # accused of fake 2.15.0
 - { name: tiny-dnn,                    ver: "1.0.0",                 ruleset: buckaroo,    incorrect: true } # 1.0.0a3 https://github.com/tiny-dnn/tiny-dnn/releases
 - { name: tiny-dnn,                                                  ruleset: buckaroo,    untrusted: true }
+- { name: tinyfugue,                   ver: "5.0",                   ruleset: [fedora,openmandriva,rosa], incorrect: true } # 5.0 beta 8
+- { name: tinyfugue,                                                 ruleset: [fedora,openmandriva,rosa], untrusted: true } # accused of fake 5.0
+- { name: tinyfugue,                   verge: "50",                                        incorrect: true }
+- { name: tinyfugue,                   verpat: ".*b.*",                                    devel: true }
 - { name: tivodecode,                  ver: "0.2",                   ruleset: fedora,      incorrect: true }
 - { name: tivodecode,                                                ruleset: fedora,      untrusted: true }
 - { name: tk,                          verpat: ".*a[0-9]+",                                devel: true }

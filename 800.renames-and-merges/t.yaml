@@ -60,6 +60,7 @@
 - { setname: texmaker,                 name: texmaker-qt4, addflavor: true }
 - { setname: texshop,                  name: texshop4 }
 - { setname: texstudio,                name: [texstudio-dark,texstudio-lcd,texstudio-phonon,texstudio-qt4,texstudio-qt5], addflavor: true }
+- { setname: tf,                       name: tf5 }
 - { setname: the-silver-searcher,      name: [silver-searcher,silversearcher-ag,thesilversearcher] }
 - { setname: thermald,                 name: thermal-daemon }
 - { setname: thrust,                   name: libthrust }
@@ -95,6 +96,8 @@
 - { setname: tint,                     name: tint-tetris }
 - { setname: tintin++,                 name: [tintin,tintinxx] }
 - { setname: tintin++,                 name: tintin-debug, addflavor: true }
+- { setname: tinyfugue,                name: tinyfugue-patched, addflavor: patched }
+- { setname: tinyfugue,                name: tinyfugue4-stable }
 - { setname: tix,                      name: [tcl-tix,tk-tix] }
 - { setname: tk,                       namepat: "tk8[0-9.-]+" } # don't mix with tk2, tk5, tk707 which are unrelated projects
 - { setname: tkimg,                    name: [libtk-img,libtkimg,tcl-img] }

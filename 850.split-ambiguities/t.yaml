@@ -39,6 +39,11 @@
 - { name: tesseract, ruleset: [openwrt,vcpkg,pld,solus], setname: tesseract-ocr }
 - { name: tesseract, warning: "please classify me" }
 
+- { name: tf, wwwpart: [tinyfugue,tf.tcp.com], setname: tinyfugue }
+- { name: tf, wwwpart: yanganto, setname: tag-finder }
+- { name: tf, ruleset: [pld,debuntu], setname: tinyfugue }
+- { name: tf, warning: "please classify me" }
+
 - { name: tg, wwwpart: vysheng/tg, setname: telegram-cli }
 
 - { name: theano, wwwpart: akryukov, setname: "fonts:theano" }
