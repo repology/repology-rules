@@ -54,7 +54,8 @@
 - { setname: opendkim,                 name: libopendkim }
 - { setname: opendnssec,               name: opendnssec2 }
 - { setname: openerp,                  namepat: "openerp[0-9.-]+" }
-- { setname: openfoam,                 namepat: "openfoam[0-9x.-]+" }
+- { setname: openfoam,                 namepat: "openfoam(-esi)?[0-9x.-]+" }
+- { setname: openfoam,                 name: [openfoam-esi,openfoam-plus] }
 - { setname: openhab,                  name: openhab-beta, weak_devel: true }
 - { setname: openhab,                  name: openhab2 }
 - { setname: openhab-addons,           name: openhab2-addons }
