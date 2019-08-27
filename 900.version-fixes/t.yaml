@@ -75,7 +75,7 @@
 - { name: tiny-dnn,                                                  ruleset: buckaroo,    untrusted: true }
 - { name: tinyfugue,                   ver: "5.0",                   ruleset: [fedora,openmandriva,rosa], incorrect: true } # 5.0 beta 8
 - { name: tinyfugue,                                                 ruleset: [fedora,openmandriva,rosa], untrusted: true } # accused of fake 5.0
-- { name: tinyfugue,                   verge: "50",                                        incorrect: true }
+- { name: tinyfugue,                   verge: "49",                                        incorrect: true } # 50b8 != 5.0beta8
 - { name: tinyfugue,                   verpat: ".*b.*",                                    devel: true }
 - { name: tivodecode,                  ver: "0.2",                   ruleset: fedora,      incorrect: true }
 - { name: tivodecode,                                                ruleset: fedora,      untrusted: true }
