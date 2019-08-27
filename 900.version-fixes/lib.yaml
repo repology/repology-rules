@@ -44,7 +44,10 @@
 - { name: libdom,                      verpat: "2017.*",                                   outdated: true } # latest is 0.3.3 from 2018
 - { name: libdvdread,                  ver: "5.0.4",                 ruleset: [arch,openindiana], ignore: true } # fake
 - { name: libfaketime,                 verpat: ".*201[67].*",                              ignore: true } # FreeBSD is using git snapshot
-- { name: libffi,                      ver: "3.3",                   ruleset: debuntu,     ignore: true } # snapshot of nonexisting version
+- { name: libffi,                      ver: "3.3",                   ruleset: debuntu,     incorrect: true } # snapshot of nonexisting version
+- { name: libffi,                                                    ruleset: debuntu,     untrusted: true } # accused of fake 3.3
+- { name: libffi,                      ver: ["4.8.5","5.3.1"],       ruleset: opensuse,    incorrect: true } # gcc version?
+- { name: libffi,                                                    ruleset: opensuse,    untrusted: true } # accused of incorrect 4.8.5, 5.3.1
 - { name: libfirm,                     verpat: ".*pl.*",             ruleset: openbsd,     incorrect: true } # https://github.com/libfirm/libfirm/tags
 - { name: libgda,                      verpat: "[0-9]+\\.9[0-9]+.*",                       devel: true }
 - { name: libggz,                      verpat: "0\\.99.*",                                 devel: true }
