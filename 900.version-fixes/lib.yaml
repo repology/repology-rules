@@ -176,6 +176,7 @@
 - { name: libssh,                                                    ruleset: gobolinux,   untrusted: true } # accused of fake 0.11
 - { name: libstemmer,                                                                      noscheme: true }
 - { name: libstroke,                   verpat: ".*fvwm.*",                                 ignore: true } # ?
+- { name: libsvm,                      verpat: "[0-9]+",                                   incorrect: true } # 3.23, not 323 (vcpkg)
 - { name: libtcd,                                                                          any_is_patch: true }
 - { name: libtcd,                      verpat: "(.*)p(.*)",          ruleset: gentoo,      setver: "$1r$2" }
 - { name: libtelnet,                   verpat: ".*\\+[0-9a-f]{7}",                         incorrect: true } # nix fake
