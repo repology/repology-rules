@@ -332,6 +332,7 @@
 - { setname: grub,                     name: grub2 } # since grub legacy is obsoleted, just let grub2 eat it away
 - { setname: gsasl,                    name: gsasl-ntlm, addflavor: ntlm }
 - { setname: gsasl,                    name: libgsasl }
+- { setname: gscan2pdf,                name: "perl:gscan2pdf" }
 - { setname: gscope,                   name: gscope3 }
 - { setname: gsimplecal,               name: [gsimplecal-gtk2,gsimplecal-gtk3,gsimplecal-lunar], addflavor: true }
 - { setname: gsl,                      name: gsl-doc, addflavor: doc }
