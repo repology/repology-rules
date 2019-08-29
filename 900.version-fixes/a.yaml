@@ -88,6 +88,8 @@
 - { name: android-tools,               ver: "21",                                          outdated: true } # debian oldstable, assuming ancient version
 - { name: anki,                        ver: "2.1.0",                 ruleset: debuntu,     ignore: true } # fake
 - { name: antimicro,                   verpat: "2\\.24\\.[0-9]+",                          successor: true } # https://github.com/juliagoda/antimicro, abandoned as well
+- { name: anydesk,                     ver: "5.2.3",                 ruleset: scoop,       incorrect: true }
+- { name: anydesk,                                                   ruleset: scoop,       untrusted: true } # accused of fake 5.2.3
 - { name: aom,                         verpat: "([0-9]+\\.){3}[0-9]{3}.*",                 incorrect: true } # fake
 - { name: apache,                      verpat: "2\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: apache-spark,                ver: "2.6.0",                 ruleset: sisyphus,    incorrect: true }
