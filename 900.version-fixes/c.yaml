@@ -8,6 +8,8 @@
 - { name: cairo,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: cairomm,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: caja,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: caja,                        ver: "1.22.1.1",              ruleset: mint,        incorrect: true }
+- { name: caja,                                                      ruleset: mint,        untrusted: true } # accused of fake 1.22.1.1
 - { name: caja-dropbox,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: caja-extensions,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: calamares,                   verlonger: 3,                 ruleset: manjaro,     incorrect: true }
