@@ -20,6 +20,11 @@
 
 - { name: hexer,                       wwwpart: hobu, setname: hexer-hobu }
 
+- { name: howl, wwwpart: [howl.io,howl-editor], setname: howl-editor }
+- { name: howl, wwwpart: [howl.sourceforge,porchdogsoft], setname: howl-zeroconf }
+- { name: howl, ruleset: pkgsrc, setname: howl-zeroconf }
+- { name: howl, warning: "please classify me" }
+
 - { name: htmlmin,                     wwwpart: html-minifier, setname: html-minifier } # XXX: problem
 
 - { name: hugo,                        setname: hugo-interactive-fiction, verpat: "3\\..*" }
