@@ -65,6 +65,15 @@
 - { name: ntfs-3g,                     verpat: ".*ar.*",                                   successor: true } # http://jp-andre.pagesperso-orange.fr/advanced-ntfs-3g.html
 - { name: ntp,                         verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.([0-9]+)",    setver: "$1p$2" }
 - { name: ntp,                                                                             p_is_patch: true }
+- { name: numix-icon-theme,            verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: numix-icon-theme,            verge: "20000000", verlt: "20180717",               outdated: true }
+- { name: numix-icon-theme-circle,     verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: numix-icon-theme-circle,     verge: "20000000", verlt: "20190507",               outdated: true }
+- { name: numix-icon-theme-circle,     ver: "19.07.03",              ruleset: debuntu,     incorrect: true }
+- { name: numix-icon-theme-circle,                                   ruleset: debuntu,     untrusted: true } # accused of fake 19.07.03
+- { name: numix-icon-theme-circle,     verge: "20000000", verlt: "20190507",               outdated: true }
+- { name: numix-icon-theme-square,     verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: numix-icon-theme-square,     verge: "20000000", verlt: "20190507",               outdated: true }
 - { name: numptyphysics,                                                                   noscheme: true }
 - { name: numptyphysics-npcomplete,                                                        noscheme: true }
 - { name: nuvie,                                                                           noscheme: true }
