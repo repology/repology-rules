@@ -62,6 +62,7 @@
 - { name: "gimp:beautify",             verpat: "20[0-9]{2}.*",                             snapshot: true }
 - { name: git-bzr-ng,                                                                      noscheme: true }
 - { name: git-crypt,                   verpat: ".*-.*",              ruleset: scoop,       snapshot: true }
+- { name: gitg,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gjs,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: glade,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: glib,                        verpat: "[2-9][0-9]*\\.[0-9]*[13579]\\..*",         devel: true }
@@ -83,6 +84,8 @@
 - { name: gnat-util-gcc,               verpat: "20[0-9]{6}",                               ignore: true }
 - { name: gnome-2048,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-activity-journal,      verpat: ".*is.really.*",                            incorrect: true }
+- { name: gnome-applets,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-authenticator,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-backgrounds,           verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-bluetooth,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-books,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -94,16 +97,19 @@
 - { name: gnome-characters,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-chess,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-clocks,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-color-manager,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-contacts,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-contacts,              ver: "3.32.2",                ruleset: void,        incorrect: true } # 3.32 actually
 - { name: gnome-contacts,                                            ruleset: void,        untrusted: true } # accused of fake 3.32.2
 - { name: gnome-control-center,        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-desktop,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-devel-docs,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-disk-utility,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-documents,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-flashback,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-font-viewer,           verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-games,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-games-app,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-getting-started-docs,  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-icon-theme,            ver: "3.14.0",                ruleset: pclinuxos,   incorrect: true }
 - { name: gnome-icon-theme,                                          ruleset: pclinuxos,   untrusted: true } # accused of fake 3.14.0
@@ -111,20 +117,25 @@
 - { name: gnome-js-common,             verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: gnome-keyring,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-klotski,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-latex,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-logs,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-mahjongg,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-maps,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-menus,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-mines,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-mplayer,               verpat: ".*[ab]",                                   devel: true }
+- { name: gnome-multi-writer,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-music,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-nibbles,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-notes,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-online-accounts,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-online-miners,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-packagekit,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-panel,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-passwordsafe,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-photos,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-pilot,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-power-manager,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-python-extras,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-robots,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-screenruler,           verpat: "[0-9]+\\.[0-9]{2}",                        incorrect: true } # 0.9.6, not 0.96
@@ -132,13 +143,15 @@
 - { name: gnome-session,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-settings-daemon,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-shell,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: gnome-shell-extension-system-monitor, ver: "20121027",                           outdated: true } # last official release in 2018
+- { name: gnome-shell-extension-background-logo,    verpat: "[0-9]+\\.[0-9]*[13579]\\..*", devel: true }
+- { name: gnome-shell-extension-system-monitor,     ver: "20121027",                       outdated: true } # last official release in 2018
 - { name: gnome-shell-extension-workspaces-to-dock, ver: "20121027",                       outdated: true } # last official release in 2018
 - { name: gnome-shell-extension-workspaces-to-dock, verpat: "([0-9]{2,})_[0-9.]+",         setver: $1 } # meaningless gnome version addendum
 - { name: gnome-shell-extensions,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-software,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-sound-recorder,        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-sudoku,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-sushi,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-system-log,            verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: gnome-system-monitor,        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-taquin,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -191,6 +204,7 @@
 - { name: gotty,                                                     ruleset: openwrt,     untrusted: true } # accused of fake 2.0.0
 - { name: govendor,                    ver: "1.0.9.6",                                     incorrect: true } # FreeBSD garbage
 - { name: gpart,                       vergt: "0.1h",                                      successor: true } # https://github.com/baruch/gpart
+- { name: gpaste,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gpm,                         verpat: "[0-9]+\\.99\\..*",                         devel: true } # assumed
 - { name: gprbuild,                    verpat: "[0-9]{5,}.*",                              ignore: true }
 - { name: gprolog,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 1.4.5
