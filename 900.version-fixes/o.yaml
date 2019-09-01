@@ -67,6 +67,7 @@
 - { name: openscad,                    verlonger: 2,                 ruleset: freebsd,     incorrect: true }
 - { name: openscenegraph,              verpat: "3\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: opensmtpd,                                                                       p_is_patch: true }
+- { name: opensmtpd-extras,            verge: "200000000000", verlt: "201811070000",       outdated: true } # 6.4.0 from 07 nov 2018
 - { name: openssh,                     verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: "$1p$2" } # pkgrc: it's X.YpZ!
 - { name: openssh,                     verpat: "[0-9]+\\.[0-9]+",                          incorrect: true } # freshcode, pZ part missing
 - { name: openssh,                     verpat: "20[0-9-]{6}.*",                            snapshot: true } # scoop
