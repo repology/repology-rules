@@ -83,3 +83,4 @@
 - { setname: htcondor,                 name: condor, wwwpart: research.cs.wisc.edu }
 - { setname: "python:psycopg2",        name: "python:psycopg", verpat: "2\\..*" }
 - { setname: "python:bcrypt",          name: bcrypt, ruleset: openwrt }
+- { setname: unclutter-xfixes,         name: unclutter, notver: ["0.8","8"] } # see #269
