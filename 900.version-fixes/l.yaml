@@ -18,10 +18,7 @@
 - { name: lha,                         verpat: "[0-9]{3}.*",                               incorrect: true } # it's e.g 1.14i
 - { name: lha,                         ver: "1.17",                  ruleset: [arch,gobolinux], incorrect: true }
 - { name: libredwg,                    verpat: "[0-9]+\\.[0-9]+\\.0\\.[0-9]+",             devel: true }
-# history of stable versions for LO (maybe it makes sense):
-# 6.2.3, 6.2.5
-# 6.1.6
-- { name: libreoffice,                 verge: "6.2.6",                                     devel: true, maintenance: true }
+- { name: libreoffice,                 verge: "6.2.6",                                     devel: true, maintenance: true } # (use next X.Y.Z after latest mentioned at https://www.libreoffice.org/download/download/)
 - { name: libreplan,                   verpat: "[1234]",                                   outdated: true } # XXX: remove after repology/repology#891
 - { name: liferea,                     verpat: "(.*)[ab]",                                 setver: $1 } # distfiles are sometimes rerolled, upstream misbehavior
 - { name: lightdm-gtk-greeter,         verpat: "20[0-9]{6}.*",                             ignore: true }
