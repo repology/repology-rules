@@ -237,6 +237,15 @@ Matches exact package version(s).
 - { name: firefox, ver: "50.0.1", ... }
 ```
 
+#### notver
+
+The opposite of **ver**: matches if package version is none of specified
+version(s).
+
+```yaml
+- { name: firefox, notver: ["50.0.1", "50.0.2"] }
+```
+
 #### verpat
 
 Matches package version name against a regular expression. Whole

@@ -143,6 +143,7 @@ schema = Schema(
         'name': Any(str, [str]),
         'namepat': str,
         'ver': Any(str, [str]),
+        'notver': Any(str, [str]),
         'verpat': str,
         'wwwpart': Any(str, [str]),
         'summpart': Any(str, [str]),
