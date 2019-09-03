@@ -165,7 +165,7 @@
 - { name: kspaceduel,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ksquares,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kst,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: kstars,                      verpat: "(4|15|16|17)\\..*",                        outdated: true } # switched from yy.mm.rev to x.y.z: https://cgit.kde.org/kstars.git/refs/
+- { name: kstars,                      verpat: "(4|14|15|16|17)\\..*",                     outdated: true } # switched from yy.mm.rev to x.y.z: https://cgit.kde.org/kstars.git/refs/
 - { name: kstars,                      verge: "18",                                        incorrect: true } # and some repos fake old scheme; XXX: problem
 - { name: ksudoku,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ksystemlog,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
