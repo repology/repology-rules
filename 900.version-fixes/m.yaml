@@ -137,6 +137,7 @@
 - { name: mrboom,                      verpat: ".*20[0-9]{6}",                             snapshot: true } # haikuports
 - { name: ms-gsl,                      verpat: "20[0-9]{2}.*",                             incorrect: true } # official versioning scheme was introduced, 1.0.0 is the latest
 - { name: ms-gsl,                      verpat: "2017.*",                                   outdated: true } # official versioning scheme was introduced, 1.0.0 is the latest
+- { name: msbuild,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: msdl,                        verpat: ".*pl.*",             ruleset: openbsd,     incorrect: true }
 - { name: mspdebug,                    verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: mtd-utils,                                                 ruleset: maemo,       ignore: true } # fork?
