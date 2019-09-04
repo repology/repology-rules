@@ -85,6 +85,7 @@
 - { name: bowtie,                                                                          p_is_patch: true }
 - { name: brandy,                      vergt: "1.20.1",                                    successor: true } # http://brandy.matrixnetwork.co.uk/
 - { name: brasero,                     ver: "3.12.2",                ruleset: opensuse,    ignore: true } # not released yet
+- { name: brave,                       verge: "69",                                        devel: true, maintenance: true } # N-1 = release, N = beta, N+1 = dev, N+2 = nightly
 - { name: breakpad,                                                                        noscheme: true }
 - { name: breeze,                      verpat: "[0-9]+\\.[0-9]+\\.9[0-9]",                 devel: true }
 - { name: brickout,                    verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" } # it's clearly 2002.06.09 as stated on the website
