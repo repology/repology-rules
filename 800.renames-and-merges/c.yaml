@@ -19,6 +19,7 @@
 - { setname: calculix,                 name: [calculix-ccx,calculix-ccx-doc,calculix-ccx-test,calculix-cgx,calculix-doc,ccx,cgx], addflavor: true } # ccx and cgx are parts of, distributed separately but with same version scheme http://www.dhondt.de/
 - { setname: calibre,                  name: [calibre-debug,calibre-normal], addflavor: true }
 - { setname: calligra-l10n,            namepat: "calligra-l10n-(.*)", addflavor: $1 }
+- { setname: calligraplan,             name: calligra-plan }
 - { setname: camlp5,                   name: "ocaml:camlp5" }
 - { setname: camlp5,                   name: camlp5-transitional, addflavor: true }
 - { setname: canlock,                  name: libcanlock }
