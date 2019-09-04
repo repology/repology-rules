@@ -35,6 +35,7 @@
 - { setname: gstreamer,                namepat: "gstreamer[0-9._-]+" }
 
 - { setname: "lua:luassert",           namepat: ".*luassert", addflag: not_lua }
+- { addflag: not_lua,                  name: lua-macros }
 
 - { setname: meld,                     name: meld3, wwwpart: meldmerge } # XXX: create problem; this is wrongly named
 
