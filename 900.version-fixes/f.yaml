@@ -98,6 +98,7 @@
 - { name: "fonts:mikachan",            ver: "9.1.2006.08.09",                              ignore: true } # openSUSE garbage
 - { name: "fonts:misc-cyrillic",                                     ruleset: openindiana, incorrect: true } # uses version from font-screen-cyrillic https://github.com/OpenIndiana/oi-userland/blob/454f95e1962006a48cd00a0d3540eb603f91d8db/components/fonts/xorg-cyrillic/Makefile
 - { name: "fonts:noto",                                                                    noscheme: true }
+- { name: "fonts:ocr-a",               verpat: "20[0-9]{2}",                               incorrect: true } # aur
 - { name: "fonts:oldstandard",         ver: "2.2really",                                   ignore: true } # debian garbage
 - { name: "fonts:quattrocento",        ver: "2.000",                 ruleset: arch,        ignore: true } # webpage says it's 1.1
 - { name: "fonts:raleway",             verpat: ".*20[0-9]{6}",                             snapshot: true } # dated packages are all snapshots, not even all from the same sources
