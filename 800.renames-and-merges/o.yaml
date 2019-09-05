@@ -63,7 +63,7 @@
 - { setname: openjade,                 namepat: "openjade[0-9.-]+" }
 - { setname: openjdk,                  namepat: "openjdk[0-9.-]*(?:-doc)?" }
 - { setname: openjdk,                  name: openjdk-bin, addflavor: true }
-- { setname: openjpeg,                 name: [openjp2,libopenjpeg2.0] }
+- { setname: openjpeg,                 name: [openjp2,libopenjpeg2.0,openjpeg-legacy] }
 - { setname: openjpeg,                 namepat: "(?:lib)?openjpeg[0-9]*" }
 - { setname: openldap,                 name: [compat-openldap,libldap,openldap-client,openldap-cloak,openldap-doc,openldap-nops,openldap-sasl-client,openldap-server,openldap-smbk5pwd], addflavor: true }
 - { setname: openldap,                 name: openldap-overlays-devel, addflavor: openldap-overlays, weak_devel: true }
