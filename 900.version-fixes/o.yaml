@@ -28,6 +28,7 @@
 - { name: onioncat,                    verpat: "0\\.2\\.2\\.r[0-9]+.*",                    any_is_patch: true } # https://www.cypherpunk.at/ocat/download/Source/stable/
 - { name: onioncat,                    ver: "0\\.2\\.2",                                   incorrect: true }
 - { name: opalang,                     verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: opalang,                     verpat: "20[0-9]{4}",                               outdated: true } # judging by https://github.com/MLstate/opalang/releases, 1.1.1 is the latest
 - { name: opam,                        ver: "2.0.0",                 ruleset: [sisyphus,mageia], incorrect: true }
 - { name: opam,                                                      ruleset: [sisyphus,mageia], untrusted: true }
 - { name: open-adventure,              ver: "2.5",                   ruleset: guix,        incorrect: true }
