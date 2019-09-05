@@ -74,6 +74,8 @@
 - { name: "python:tempita",            verpat: "(.*)dev",                                  setver: $1, devel: true }
 - { name: "python:tempita",            verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "python:tornado",            verpat: ".*[ab].*",                                 devel: true }
+- { name: "python:translationstring",  ver: "1.4",                   ruleset: sisyphus,    incorrect: true }
+- { name: "python:translationstring",                                ruleset: sisyphus,    untrusted: true } # accused of fake 1.4
 - { name: "python:tzlocal",            verpat: ".*b.*",                                    devel: true }
 - { name: "python:vdirsyncer",         verpat: ".*a.*",                                    devel: true }
 - { name: "python:webm",               vergt: "0.2.2",                                     successor: true } # http://xpra.org/src/ vs. https://github.com/expobrain/python-webm/releases
