@@ -220,7 +220,7 @@
 - { name: openjdk,           verpat: "7.*",               setname: openjdk7 }
 - { name: openjdk,           verpat: "6.*",               setname: openjdk6 }
 
-- { name: openjpeg,          verpat: "1\\.5\\..*",        setname: openjpeg15 }
+- { name: openjpeg,          verlt: "2",                  setname: openjpeg15 }
 
 - { name: pcre,              verpat: "[0-9]{2}\\..*",     setname: pcre2 }
 
