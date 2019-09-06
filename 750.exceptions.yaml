@@ -87,3 +87,5 @@
 - { setname: "python:python-wifi",     name: "python:wifi", ruleset: [pclinuxos, maemo] }
 - {                                    name: unclutter, verpat: "(0\\.)?8(-[0-9]+)?", addflag: plain_unclutter }
 - { setname: unclutter-xfixes,         name: unclutter, noflag: plain_unclutter } # see #269
+- { setname: dtorrent,                 name: ctorrent, wwwpart: [dtorrent,dholmes] }
+- { setname: dtorrent,                 name: ctorrent, verpat: ".*dhn.*" }
