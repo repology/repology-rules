@@ -90,7 +90,8 @@
 - { name: antimicro,                   verpat: "2\\.24\\.[0-9]+",                          successor: true } # https://github.com/juliagoda/antimicro, abandoned as well
 - { name: anydesk,                     ver: "5.2.3",                 ruleset: scoop,       incorrect: true }
 - { name: anydesk,                                                   ruleset: scoop,       untrusted: true } # accused of fake 5.2.3
-- { name: aom,                         verpat: "([0-9]+\\.){3}[0-9]{3}.*",                 incorrect: true } # fake
+- { name: aom,                         verpat: "([0-9]+\\.){3}[0-9].*",                    incorrect: true } # fake
+- { name: aom,                         verpat: ".*errata.*",                               any_is_patch: true }
 - { name: apache,                      verpat: "2\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: apache-spark,                ver: "2.6.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: apache-spark,                                              ruleset: sisyphus,    untrusted: true } # accused of fake 2.6.0
