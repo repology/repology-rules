@@ -46,6 +46,8 @@
 - { name: llgen,                                                                           noscheme: true }
 - { name: llvm,                        verpat: ".*r[0-9]{6,}",                             ignore: true } # ignore revisions, allow release candidates
 - { name: llvm,                        verpat: ".*r.*",                                    devel: true }
+- { name: llvm,                        ver: "9.0.0",                 ruleset: [haikuports,openmandriva], incorrect: true } # rc3
+- { name: llvm,                                                      ruleset: [haikuports,openmandriva], untrusted: true } # accused of fake 9.0.0
 - { name: llvm-libunwind,              verpat: ".*20[0-9]{6}",                             snapshot: true } # freebsd snapshot
 - { name: lm4tools,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: lmbench,                     ver: "3.0",                   ruleset: sisyphus,    incorrect: true } # 3.0-a9
