@@ -23,6 +23,7 @@
 - { setname: netcdf,                   namepat: "netcdf(?:[0-9.-]*)?(-gnu.*hpc)?", addflavor: $1 }
 - { setname: netcdf,                   name: netcdf-devel, weak_devel: true }
 - { setname: netcdf,                   name: [netcdf-mpi,netcdf-openmpi,netcdf-parallel-openmpi], addflavor: true }
+- { setname: netcdf,                   name: netcdf-c }
 - { setname: netcdf-cxx,               namepat: "netcdf-cxx(?:[0-9.-]*)(-gnu.*hpc)?", addflavor: $1 }
 - { setname: netcdf-cxx,               name: netcdf-cxx-legacy }
 - { setname: netcdf-fortran,           namepat: "netcdf-fortran(?:[0-9.-]*)(-gnu.*hpc)?", addflavor: $1 }
