@@ -20,6 +20,7 @@
 - { name: edict,                                                                           noscheme: true }
 - { name: edirect,                     ver: "10.2.20181018",                               setver: "10.2", disposable: true }
 - { name: edirect,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: edk2,                        verpat: "(.*)stable",                               setver: $1 }
 - { name: egoboo,                      ver: "2.81",                                        setver: "2.8.1" }
 - { name: eigen,                       ver: "2.0.55",                ruleset: pclinuxos,   incorrect: true }
 - { name: eigen,                                                     ruleset: pclinuxos,   untrusted: true }
