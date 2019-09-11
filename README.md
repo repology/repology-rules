@@ -289,6 +289,13 @@ Be careful when using this with regard to pre-release versions:
 `1.0beta1` is lesser than `1.0`, so it won't match `verge: 1.0`.
 You may use **verpat** instead.
 
+#### relgt, relge, rellt, relle, releq, relne
+
+Similar to **verXX** family, but checks how a package version relates
+to a specified release. A release includes all pre-release and
+post-release with a given prefix, e.g. `releq: "1.0"` would match
+for `1.0alpha1`, `1.0`, `1.0patch`, `1.0.1`, but not `0.99` and `1.1`.
+
 #### wwwpat
 
 Matches package homepage against a regular expression. Note that
