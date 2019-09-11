@@ -2,204 +2,202 @@
 
 - { name: allegro,           verlt: "4.9",                setname: allegro4 }
 
-- { name: antlr,             verpat: "2\\..*",            setname: antlr2 }
-- { name: antlr,             verpat: "3\\..*",            setname: antlr3 }
-- { name: antlr,             verpat: "4\\..*",            setname: antlr4 }
+- { name: antlr,             relle: "2",                  setname: antlr2 }
+- { name: antlr,             releq: "3",                  setname: antlr3 }
+- { name: antlr,             releq: "4",                  setname: antlr4 }
 
-- { name: "apmod:php",       verpat: "5\\..*",            setname: "apmod:php5" } # XXX: kill these
-- { name: "apmod:php",       verpat: "7\\..*",            setname: "apmod:php7" }
+- { name: "apmod:php",       releq: "5",                  setname: "apmod:php5" } # XXX: kill these
+- { name: "apmod:php",       releq: "7",                  setname: "apmod:php7" }
 
-- { name: apr-util,          verpat: "0\\..*",            setname: apr-util0 }
+- { name: apr-util,          releq: "0",                  setname: apr-util0 }
 
-- { name: autoconf,          verpat: "2\\.13.*",          setname: autoconf213 } # do we need more splits for this?
+- { name: autoconf,          releq: "2.13",               setname: autoconf213 } # do we need more splits for this?
 
-- { name: automoc,           verpat: "0\\..*",            setname: automoc4 }
+- { name: automoc,           releq: "0",                  setname: automoc4 }
 
-- { name: bowtie,            verpat: "2\\..*",            setname: bowtie2 }
+- { name: bowtie,            releq: "2",                  setname: bowtie2 }
 
-- { name: cassandra,         verpat: "2\\..*",            setname: cassandra2 }
+- { name: cassandra,         releq: "2",                  setname: cassandra2 }
 
-- { name: centerim,          verpat: "5\\..*",            setname: centerim5 }
+- { name: centerim,          releq: "5",                  setname: centerim5 }
 
-- { name: clutter-gst,       verpat: "2\\..*",            setname: clutter-gst2 }
+- { name: clutter-gst,       releq: "2",                  setname: clutter-gst2 }
 
-- { name: compiz,            verpat: "0\\.8.*",           setname: compiz08 }
+- { name: compiz,            releq: "0.8",                setname: compiz08 }
 
-- { name: cyrus-imapd,       verpat: "2\\..*",            setname: cyrus-imapd2 }
-- { name: cyrus-imapd,       verpat: "3\\..*",            setname: cyrus-imapd3 }
+- { name: cyrus-imapd,       releq: "2",                  setname: cyrus-imapd2 }
+- { name: cyrus-imapd,       releq: "3",                  setname: cyrus-imapd3 }
 
-- { name: db,                verpat: "6\\..*",            setname: db6 }
-- { name: db,                verpat: "5\\..*",            setname: db5 }
-- { name: db,                verpat: "4\\..*",            setname: db4 }
-- { name: db,                verpat: "3\\..*",            setname: db3 }
-- { name: db,                verpat: "2\\..*",            setname: db2 }
-- { name: db,                verpat: "1\\..*",            setname: db1 }
+- { name: db,                releq: "6",                  setname: db6 }
+- { name: db,                releq: "5",                  setname: db5 }
+- { name: db,                releq: "4",                  setname: db4 }
+- { name: db,                releq: "3",                  setname: db3 }
+- { name: db,                releq: "2",                  setname: db2 }
+- { name: db,                releq: "1",                  setname: db1 }
 # newer versions are left in db
 
-- { name: eigen,             verpat: "1\\..*",            setname: eigen1 }
-- { name: eigen,             verpat: "2\\..*",            setname: eigen2 }
-- { name: eigen,             verpat: "3\\..*",            setname: eigen3 }
+- { name: eigen,             releq: "1",                  setname: eigen1 }
+- { name: eigen,             releq: "2",                  setname: eigen2 }
+- { name: eigen,             releq: "3",                  setname: eigen3 }
 - { name: eigen,             warning: "please classify me" }
 
-- { name: enlightenment,     verpat: "1\\.0.*",           setname: e16 }
+- { name: enlightenment,     releq: "1.0",                setname: e16 }
 
-- { name: fftw,              verpat: "2\\..*",            setname: fftw2 }
+- { name: fftw,              releq: "2",                  setname: fftw2 }
 
-- { name: "fonts:liberation", verpat: "2\\..*",           setname: "fonts:liberation2" }
+- { name: "fonts:liberation", releq: "2",                 setname: "fonts:liberation2" }
 
-- { name: freerdp,           verpat: "1\\..*",            setname: freerdp1 }
+- { name: freerdp,           releq: "1",                  setname: freerdp1 }
 
-- { name: gdk-pixbuf,        verpat: "0\\..*",            setname: gdk-pixbuf0 }
+- { name: gdk-pixbuf,        releq: "0",                  setname: gdk-pixbuf0 }
 
-- { name: glade,             verpat: "2\\..*",            setname: glade2 }
+- { name: glade,             releq: "2",                  setname: glade2 }
 
-- { name: glfw,              verpat: "2\\..*",            setname: glfw2 }
+- { name: glfw,              releq: "2",                  setname: glfw2 }
 
-- { name: glib,              verpat: "1\\..*",            setname: glib12 }
+- { name: glib,              releq: "1",                  setname: glib12 }
 
-- { name: gmime,             verpat: "2\\..*",            setname: gmime2 }
+- { name: gmime,             releq: "2",                  setname: gmime2 }
 
-- { name: gnome-desktop,     verpat: "2\\..*",            setname: gnome-desktop2 }
+- { name: gnome-desktop,     releq: "2",                  setname: gnome-desktop2 }
 
-- { name: gnupg,             verpat: "1\\..*",            setname: gnupg1 }
+- { name: gnupg,             releq: "1",                  setname: gnupg1 }
 
-- { name: godot,             verpat: "2\\..*",            setname: godot2 }
+- { name: godot,             releq: "2",                  setname: godot2 }
 
 - { name: grantlee,          verlt: "5",                  setname: grantlee-qt4 }
 
-- { name: gst-python,        verpat: "0\\..*",            setname: gst-python0 }
+- { name: gst-python,        releq: "0",                  setname: gst-python0 }
 
-- { name: gstreamer,         verpat: "0\\..*",            setname: gstreamer0 }
-- { name: gstreamer,         verpat: "1\\..*",            setname: gstreamer1 }
+- { name: gstreamer,         releq: "0",                  setname: gstreamer0 }
+- { name: gstreamer,         releq: "1",                  setname: gstreamer1 }
 - { name: gstreamer,         warning: "please classify me"         }
 
-- { name: gstreamermm,       verpat: "0\\..*",            setname: gstreamermm0 }
+- { name: gstreamermm,       releq: "0",                  setname: gstreamermm0 }
 
 - { name: gtk,               verpat: "(4|3\\.9[0-9]+).*", setname: gtk4 }
-- { name: gtk,               verpat: "3\\..*",            setname: gtk3 }
-- { name: gtk,               verpat: "2\\..*",            setname: gtk2 }
-- { name: gtk,               verpat: "1\\..*",            setname: gtk1 }
+- { name: gtk,               releq: "3",                  setname: gtk3 }
+- { name: gtk,               releq: "2",                  setname: gtk2 }
+- { name: gtk,               releq: "1",                  setname: gtk1 }
 
-- { name: gtkhtml,           verpat: "2\\..*",            setname: gtkhtml2 }
-- { name: gtkhtml,           verpat: "3\\..*",            setname: gtkhtml3 }
+- { name: gtkhtml,           releq: "2\\..*",            setname: gtkhtml2 }
+- { name: gtkhtml,           releq: "3\\..*",            setname: gtkhtml3 }
 
-- { name: gtkmm,             verpat: "4\\..*",            setname: gtkmm4 }
-- { name: gtkmm,             verpat: "3\\.9[0-9]+\\..*",  setname: gtkmm4 }
-- { name: gtkmm,             verpat: "3\\..*",            setname: gtkmm3 }
-- { name: gtkmm,             verpat: "2\\..*",            setname: gtkmm2 }
+- { name: gtkmm,             verpat: "(4|3\\.9[0-9]+)\\..*",  setname: gtkmm4 }
+- { name: gtkmm,             releq: "3",                  setname: gtkmm3 }
+- { name: gtkmm,             releq: "2",                  setname: gtkmm2 }
 
 - { name: gtksourceview,     verpat: "(4|3\\.99)\\..*",   setname: gtksourceview4 }
-- { name: gtksourceview,     verpat: "3\\..*",            setname: gtksourceview3 }
-- { name: gtksourceview,     verpat: "2\\..*",            setname: gtksourceview2 }
-- { name: gtksourceview,     verpat: "1\\..*",            setname: gtksourceview1 }
+- { name: gtksourceview,     releq: "3",                  setname: gtksourceview3 }
+- { name: gtksourceview,     releq: "2",                  setname: gtksourceview2 }
+- { name: gtksourceview,     releq: "1",                  setname: gtksourceview1 }
 
-- { name: gtksourceviewmm,   verpat: "3\\..*",            setname: gtksourceviewmm3 }
+- { name: gtksourceviewmm,   releq: "3",                  setname: gtksourceviewmm3 }
 - { name: gtksourceviewmm,                                setname: gtksourceviewmm2 }
 
-- { name: gtkspell,          verpat: "2\\..*",            setname: gtkspell2 }
-- { name: gtkspell,          verpat: "3\\..*",            setname: gtkspell3 }
+- { name: gtkspell,          releq: "2",                  setname: gtkspell2 }
+- { name: gtkspell,          releq: "3",                  setname: gtkspell3 }
 
-- { name: hepmc,             verpat: "2\\..*",            setname: hepmc2 }
-- { name: hepmc,             verpat: "3\\..*",            setname: hepmc3 }
+- { name: hepmc,             releq: "2",                  setname: hepmc2 }
+- { name: hepmc,             releq: "3",                  setname: hepmc3 }
 
-- { name: herwig,            verpat: "6\\..*",            setname: herwig6 }
-- { name: herwig,            verpat: "7\\..*",            setname: herwig7 }
+- { name: herwig,            releq: "6",                  setname: herwig6 }
+- { name: herwig,            releq: "7",                  setname: herwig7 }
 
-- { name: ices,              verpat: "0\\..*",            setname: ices0 }
+- { name: ices,              releq: "0",                  setname: ices0 }
 
-- { name: icinga,            verpat: "2\\..*",            setname: icinga2 }
+- { name: icinga,            releq: "2",                  setname: icinga2 }
 
-- { name: igal,              verpat: "1\\..*",            setname: igal1 }
+- { name: igal,              releq: "1",                  setname: igal1 }
 
-- { name: inn,               verpat: "1\\..*",            setname: inn1 }
+- { name: inn,               releq: "1",                  setname: inn1 }
 
-- { name: iperf,             verpat: "3\\..*",            setname: iperf3 }
-- { name: iperf,             ver: "3",                    setname: iperf3 } # wikidata weirdness
+- { name: iperf,             releq: "3",                  setname: iperf3 }
 
-- { name: italc,             verpat: "1\\..*",            setname: italc1 }
-- { name: italc,             verpat: "2\\..*",            setname: italc2 }
+- { name: italc,             releq: "1",                  setname: italc1 }
+- { name: italc,             releq: "2",                  setname: italc2 }
 
-- { name: itcl,              verpat: "3\\..*",            setname: itcl3 }
+- { name: itcl,              releq: "3",                  setname: itcl3 }
 
-- { name: itk,               verpat: "3\\..*",            setname: itk3 }
+- { name: itk,               releq: "3",                  setname: itk3 }
 
-- { name: jack-audio-connection-kit, verpat: "0\\..*",    setname: jack-audio-connection-kit1 }
+- { name: jack-audio-connection-kit, releq: "0",          setname: jack-audio-connection-kit1 }
 
-- { name: jdeparser,         verpat: "1\\..*",            setname: jdeparser1 }
+- { name: jdeparser,         releq: "1",                  setname: jdeparser1 }
 
-- { name: jdom,              verpat: "1\\..*",            setname: jdom1 }
+- { name: jdom,              releq: "1",                  setname: jdom1 }
 
-- { name: jersey,            verpat: "1\\..*",            setname: jersey1 }
+- { name: jersey,            releq: "1",                  setname: jersey1 }
 
 - { name: junit,             verlt: "5",                  setname: junit4 }
 - { name: junit,                                          setname: junit5 }
 
-- { name: kdelibs,           verpat: "3\\..*",            setname: kdelibs3 }
-- { name: kdelibs,           verpat: "4\\..*",            setname: kdelibs4 }
+- { name: kdelibs,           releq: "3",                  setname: kdelibs3 }
+- { name: kdelibs,           releq: "4",                  setname: kdelibs4 }
 
-- { name: keepassx,          verpat: "0\\..*",            setname: keepassx0 }
-- { name: keepassx,          verpat: "2\\..*",            setname: keepassx2 }
+- { name: keepassx,          releq: "0",                  setname: keepassx0 }
+- { name: keepassx,          releq: "2",                  setname: keepassx2 }
 
-- { name: lcms,              verpat: "2.*",               setname: lcms2 }
+- { name: lcms,              releq: "2",                  setname: lcms2 }
 
-- { name: lhapdf,            verpat: "5.*",               setname: lhapdf5 }
-- { name: lhapdf,            verpat: "6.*",               setname: lhapdf6 }
+- { name: lhapdf,            releq: "5",                  setname: lhapdf5 }
+- { name: lhapdf,            releq: "6",                  setname: lhapdf6 }
 
-- { name: libevent,          verpat: "[01].*",            setname: libevent1 }
+- { name: libevent,          relle: "1",                  setname: libevent1 }
 
-- { name: libftdi,           verpat: "0\\..*",            setname: libftdi0 }
+- { name: libftdi,           releq: "0",                  setname: libftdi0 }
 
-- { name: libmusicbrainz,    verpat: "2\\..*",            setname: libmusicbrainz2 }
-- { name: libmusicbrainz,    verpat: "3\\..*",            setname: libmusicbrainz3 }
-- { name: libmusicbrainz,    verpat: "4\\..*",            setname: libmusicbrainz4 }
-- { name: libmusicbrainz,    verpat: "5\\..*",            setname: libmusicbrainz5 }
+- { name: libmusicbrainz,    releq: "2",                  setname: libmusicbrainz2 }
+- { name: libmusicbrainz,    releq: "3",                  setname: libmusicbrainz3 }
+- { name: libmusicbrainz,    releq: "4",                  setname: libmusicbrainz4 }
+- { name: libmusicbrainz,    releq: "5",                  setname: libmusicbrainz5 }
 - { name: libmusicbrainz,    warning: "please classify me" }
 
-- { name: libnl,             verpat: "1\\..*",            setname: libnl1 }
+- { name: libnl,             releq: "1",                  setname: libnl1 }
 
-- { name: libsidplay,        verpat: "1\\..*",            setname: libsidplay1 }
+- { name: libsidplay,        releq: "1",                  setname: libsidplay1 }
 
-- { name: libsigc++,         verpat: "1\\..*",            setname: libsigc++12 }
+- { name: libsigc++,         releq: "1",                  setname: libsigc++12 }
 
-- { name: libunique,         verpat: "1\\..*",            setname: libunique1 }
-- { name: libunique,         verpat: "3\\..*",            setname: libunique3 }
+- { name: libunique,         releq: "1",                  setname: libunique1 }
+- { name: libunique,         releq: "3",                  setname: libunique3 }
 - { name: libunique,         warning: "please classify me" }
 
-- { name: libusb,            verpat: "0\\..*",            setname: libusb0 }
+- { name: libusb,            releq: "0",                  setname: libusb0 }
 
-- { name: libwnck,           verpat: "2\\..*",            setname: libwnck2 }
-- { name: libwnck,           verpat: "3\\..*",            setname: libwnck3 }
+- { name: libwnck,           releq: "2",                  setname: libwnck2 }
+- { name: libwnck,           releq: "3",                  setname: libwnck3 }
 
-- { name: libxfont,          verpat: "2\\..*",            setname: libxfont2 }
+- { name: libxfont,          releq: "2",                  setname: libxfont2 }
 
-#- { name: love,              verpat: "11\\..*",           setname: love11, maintenance: true } # next version, enable when 12.x is released
-- { name: love,              verpat: "0\\.10\\..*",       setname: love10, maintenance: true }
-- { name: love,              verpat: "0\\.9\\..*",        setname: love09 }
-- { name: love,              verpat: "0\\.8\\..*",        setname: love08 }
-- { name: love,              verpat: "0\\.7\\..*",        setname: love07 }
-- { name: love,              verpat: "0\\.6\\..*",        setname: love06 }
-- { name: love,              verpat: "0\\.5\\..*",        setname: love05 }
+#- { name: love,              releq: "11",                 setname: love11, maintenance: true } # next version, enable when 12.x is released
+- { name: love,              releq: "0.10",               setname: love10, maintenance: true }
+- { name: love,              releq: "0.9",                setname: love09 }
+- { name: love,              releq: "0.8",                setname: love08 }
+- { name: love,              releq: "0.7",                setname: love07 }
+- { name: love,              releq: "0.6",                setname: love06 }
+- { name: love,              releq: "0.5",                setname: love05 }
 
-- { name: lua,               verpat: "4\\..*",            setname: lua4 }
-- { name: lua,               verpat: "5\\.0\\..*",        setname: lua50 }
-- { name: lua,               verpat: "5\\.1\\..*",        setname: lua51 }
-- { name: lua,               verpat: "5\\.2\\..*",        setname: lua52 }
-- { name: lua,               verpat: "5\\.3\\..*",        setname: lua53 }
-- { name: lua,               verpat: "5\\.4\\..*",        setname: lua54 }
+- { name: lua,               releq: "4",                  setname: lua4 }
+- { name: lua,               releq: "5.0",                setname: lua50 }
+- { name: lua,               releq: "5.1",                setname: lua51 }
+- { name: lua,               releq: "5.2",                setname: lua52 }
+- { name: lua,               releq: "5.3",                setname: lua53 }
+- { name: lua,               releq: "5.4",                setname: lua54 }
 - { name: lua,               warning: "please classify me" }
 
-- { name: mailman,           verpat: "3\\..*",            setname: mailman3 }
+- { name: mailman,           releq: "3",                  setname: mailman3 }
 
 - { name: martian, category: universe/python, setname: "python:martian" }
 - { name: martian, ver: "1.0", setname: pachi }
 - { name: martian, warning: "please classify me" }
 
-- { name: modsecurity,       verpat: "3\\..*",            setname: modsecurity3 }
+- { name: modsecurity,       releq: "3",                  setname: modsecurity3 }
 
-- { name: mpich,             verpat: "1\\..*",            setname: mpich2 }
+- { name: mpich,             releq: "1",                  setname: mpich2 }
 
-- { name: ns,                verpat: "2\\..*",            setname: ns2 }
-- { name: ns,                verpat: "3\\..*",            setname: ns3 }
+- { name: ns,                releq: "2"      ,            setname: ns2 }
+- { name: ns,                releq: "3",                  setname: ns3 }
 - { name: ns,                warning: "please classify me" }
 
 # note that versions in conditions are +1 to real versions
@@ -214,10 +212,10 @@
 - { name: nvidia, setname: nvidia-current, maintenance: true }
 # (see http://www.nvidia.com/object/unix.html)
 
-- { name: openjdk,           verpat: "9.*",               setname: openjdk9 }
-- { name: openjdk,           verpat: "8.*",               setname: openjdk8 }
-- { name: openjdk,           verpat: "7.*",               setname: openjdk7 }
-- { name: openjdk,           verpat: "6.*",               setname: openjdk6 }
+- { name: openjdk,           releq: "9",                  setname: openjdk9 }
+- { name: openjdk,           releq: "8",                  setname: openjdk8 }
+- { name: openjdk,           releq: "7",                  setname: openjdk7 }
+- { name: openjdk,           releq: "6",                  setname: openjdk6 }
 
 - { name: openjpeg,          verlt: "2",                  setname: openjpeg15 }
 
@@ -225,77 +223,77 @@
 
 - { name: postfix,           verpat: ".*20[0-9]{6}.*",    setname: postfix-experimental }
 
-- { name: protobuf,          verpat: "2\\..*",            setname: protobuf2 }
+- { name: protobuf,          releq: "2",                  setname: protobuf2 }
 
-- { name: pythia,            verpat: "6\\..*",            setname: pythia6 }
-- { name: pythia,            verpat: "8\\..*",            setname: pythia8 }
+- { name: pythia,            releq: "6",                  setname: pythia6 }
+- { name: pythia,            releq: "8",                  setname: pythia8 }
 
-- { name: python,            verpat: "2\\..*",            setname: python2 }
-- { name: python,            verpat: "3\\..*",            setname: python3 }
+- { name: python,            releq: "2",                  setname: python2 }
+- { name: python,            releq: "3",                  setname: python3 }
 - { name: python,            ver: "999", ruleset: aosc,   setname: python2 }
 - { name: python,                        ruleset: openwrt, remove: true } # setuptools and pip with their own versions coming from python package o_O
 - { name: python,            warning: "please classify me" }
 
-- { name: "python:pygobject", verpat: "2.*",              setname: "python:pygobject2" }
-- { name: "python:pygobject", verpat: "3.*",              setname: "python:pygobject3" }
+- { name: "python:pygobject", releq: "2",                 setname: "python:pygobject2" }
+- { name: "python:pygobject", releq: "3",                 setname: "python:pygobject3" }
 
-- { name: "python:pyqt",     verpat: "4.*",               setname: "python:pyqt4" }
-- { name: "python:pyqt",     verpat: "5.*",               setname: "python:pyqt5" }
+- { name: "python:pyqt",     releq: "4",                  setname: "python:pyqt4" }
+- { name: "python:pyqt",     releq: "5",                  setname: "python:pyqt5" }
 
 - { name: "python:turbogears", verge: "2",                setname: "python:turbogears2" }
 
 - { name: "python:unit",     wwwpart: nginx,              setname: unit, addflavor: python }
 
-- { name: qt,                verpat: "1\\..*", noflag: not_legacy, setname: qt1 }
-- { name: qt,                verpat: "2\\..*", noflag: not_legacy, setname: qt2 }
-- { name: qt,                verpat: "3\\..*", noflag: not_legacy, setname: qt3 }
-- { name: qt,                verpat: "4\\..*",            setname: qt4 }
+- { name: qt,                releq: "1", noflag: not_legacy, setname: qt1 }
+- { name: qt,                releq: "2", noflag: not_legacy, setname: qt2 }
+- { name: qt,                releq: "3", noflag: not_legacy, setname: qt3 }
+- { name: qt,                releq: "4",                     setname: qt4 }
 - { name: qt,                                             setname: qt5 }
 
-- { name: rpm,               verpat: "4\\..*",            setname: rpm4 }
+- { name: rpm,               releq: "4",                  setname: rpm4 }
 
-- { name: samba,             verpat: "3\\..*",            setname: samba3 }
+- { name: samba,             releq: "3",                  setname: samba3 }
 
-- { name: sfml,              verpat: "1\\..*",            setname: sfml1 }
+- { name: sfml,              releq: "1",                  setname: sfml1 }
 
-- { name: sidplay,           verpat: "1\\..*",            setname: sidplay1 }
+- { name: sidplay,           releq: "1",                  setname: sidplay1 }
 
-- { name: silgraphite,       verpat: "1\\..*",            setname: graphite2 }
+- { name: silgraphite,       releq: "1",                  setname: graphite2 }
 
-- { name: socat,             verpat: "1\\..*",            setname: socat1 }
+- { name: socat,             releq: "1",                  setname: socat1 }
 
-- { name: softhsm,           verpat: "1\\..*",            setname: softhsm1 }
+- { name: softhsm,           releq: "1",                  setname: softhsm1 }
 
-- { name: sogo,              verpat: "2\\..*",            setname: sogo2 }
-- { name: sogo,              verpat: "3\\..*",            setname: sogo3 }
+- { name: sogo,              releq: "2",                  setname: sogo2 }
+- { name: sogo,              releq: "3",                  setname: sogo3 }
 
-- { name: sope,              verpat: "2\\..*",            setname: sope2 }
-- { name: sope,              verpat: "3\\..*",            setname: sope3 }
+- { name: sope,              releq: "2",                  setname: sope2 }
+- { name: sope,              releq: "3",                  setname: sope3 }
 
-- { name: sqlite,            verpat: "1.*",               remove: true } # only present in wikidata, probably ancient garbage
-- { name: sqlite,            verpat: "2.*",               setname: sqlite2 }
-- { name: sqlite,            verpat: "3.*",               setname: sqlite3 }
+- { name: sqlite,            relle: "1",                  remove: true } # only present in wikidata, probably ancient garbage
+- { name: sqlite,            releq: "2",                  setname: sqlite2 }
+- { name: sqlite,            verpat: "3.*",               setname: sqlite3 } # also garbage like 3270200
 
-- { name: streamtuner,       verpat: "0\\..*",            setname: streamtuner0 }
+- { name: streamtuner,       releq: "0",                  setname: streamtuner0 }
 
-- { name: stringtemplate,    verpat: "3\\..*",            setname: stringtemplate3 }
+- { name: stringtemplate,    releq: "3",                  setname: stringtemplate3 }
 
 - { name: supertux,          verpat: "0\\.[^1]\\..*",     setname: supertux2 }
 
 - { name: tightvnc,          verge: "2",                  setname: tightvnc2 } # windows-only since 2.x
 
-- { name: udisks,            verpat: "2\\..*",            setname: udisks2 }
+- { name: udisks,            releq: "2",                  setname: udisks2 }
 
 - { name: vte,               verlt: "0.29",               setname: vte-gtk2 }
 
-- { name: wxwidgets,         verpat: "2\\..*",            setname: wxwidgets28 }
-- { name: wxwidgets28,       verpat: "2\\.9\\..*",        setname: wxwidets }  # belongs to 3.x - prerelease branch of
+- { name: wxwidgets,         releq: "2",                  setname: wxwidgets28 }
+- { name: wxwidgets28,       releq: "2.9",                setname: wxwidets }  # belongs to 3.x - prerelease branch of
 
-- { name: xerces-c,          verpat: "2\\..*",            setname: xerces-c2 }
+- { name: xerces-c,          releq: "2",                  setname: xerces-c2 }
 
-- { name: yaml-cpp,          verpat: "0\\.3\\..*",        setname: yaml-cpp03 }
+- { name: yaml-cpp,          releq: "0.3",                setname: yaml-cpp03 }
 
-- { name: zendframework,     verpat: "1\\..*",            setname: zendframework1 }
+- { name: zendframework,     releq: "1",                  setname: zendframework1 }
 
-- { name: zeromq,            verpat: "2\\..*",            setname: zeromq2 }
-- { name: zeromq,            verpat: "3\\..*",            setname: zeromq3 }
+- { name: zeromq,            releq: "2",                  setname: zeromq2 }
+- { name: zeromq,            releq: "3",                  setname: zeromq3 }
