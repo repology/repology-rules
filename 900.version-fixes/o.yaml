@@ -18,6 +18,7 @@
 - { name: octomap,                     verpat: "[0-9a-f]{40}",                             incorrect: true } # commit hash
 - { name: odoo,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: oggfwd,                                                                          noscheme: true }
+- { name: ogle-gui,                    verpat: ".*patched.*",                              incorrect: true }
 - { name: ogre,                        verpat: "2.*",                                      ignore: true }
 - { name: oilwar,                                                    ruleset: os4depot,    incorrect: true }
 - { name: okteta,                      verpat: "(4|14|15|16|17|18).*",                     outdated: true }  # went from following KDE versioning to its own 0.x/1.x-based versioning
