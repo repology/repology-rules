@@ -31,6 +31,10 @@
 - { setname: libbonobo,                name: libbonobo-reference, addflavor: true }
 - { setname: libbonoboui,              name: libbonoboui-reference, addflavor: true }
 - { setname: libdbi-drivers,           name: [libdbi-drivers-freetds,libdbi-drivers-mysql,libdbi-drivers-pgsql,libdbi-drivers-sqlite,libdbi-drivers-sqlite3], addflavor: true }
+- { setname: libdbusmenu,              name: [libdbusmenu-glib,libdbusmenu-gtk,libdbusmenu-gtk-doc,libdbusmenu-gtk2,libdbusmenu-gtk3,libdbusmenu-tools], addflavor: true }
+- { setname: libdbusmenu-qt,           name: dbusmenu-qt }
+- { setname: libdbusmenu-qt,           name: [libdbusmenu-qt4], addflavor: qt4 }
+- { setname: libdbusmenu-qt,           name: [libdbusmenu-qt5,dbusmenu-qt5], addflavor: qt5 }
 - { setname: libdc1394,                namepat: "libdc1394[0-9.-]+" }
 - { setname: libdca,                   name: libdca0 }
 - { setname: libdmapsharing,           namepat: "libdmapsharing[0-9.-]+" }
