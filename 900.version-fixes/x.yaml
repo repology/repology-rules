@@ -22,6 +22,7 @@
 - { name: xchm,                        verpat: "1\\.24.*",           ruleset: macports,    incorrect: true }
 - { name: xcircuit,                    verge: "3.10",                                      devel: true, maintenance: true } # new version numbers are considered development at first then upgraded to stable http://opencircuitdesign.com/xcircuit/notes.html hopefully this will change with http://opencircuitdesign.com/pipermail/xcircuit-dev/2018-June/000987.html
 - { name: xclip,                       verpat: "20[0-9]{6}.*",                             snapshot: true }
+- { name: xcolors,                     verge: "90",                  ruleset: opensuse,    incorrect: true }
 - { name: xcwd,                                                                            noscheme: true }
 - { name: xd,                          ver: "8087",                                        incorrect: true } # openbsd
 - { name: xd,                                                        ruleset: openbsd,     untrusted: true } # accused of fake 8087
@@ -70,8 +71,10 @@
 - { name: xournal,                     ver: "4.7",                                         outdated: true }
 - { name: xpdf,                        ver: "4.02",                  ruleset: freebsd,     incorrect: true }
 - { name: xpdf,                        verpat: ".*pl0",                                    incorrect: true }
+- { name: xprompt,                     verge: "90",                  ruleset: opensuse,    incorrect: true }
 - { name: xproto,                      ver: "7.0.32",                ruleset: funtoo,      incorrect: true }
 - { name: xproto,                                                    ruleset: funtoo,      untrusted: true }
+- { name: xroach,                      verge: "12",                  ruleset: opensuse,    incorrect: true }
 - { name: xsel,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: xsettings-kde,               ver: "0.12.3.2",              ruleset: openmandriva, incorrect: true }
 - { name: xsettings-kde,                                             ruleset: openmandriva, untrusted: true } # accused of fake 0.12.3.2

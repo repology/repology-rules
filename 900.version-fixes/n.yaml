@@ -65,6 +65,7 @@
 - { name: ntfs-3g,                     verpat: ".*ar.*",                                   successor: true } # http://jp-andre.pagesperso-orange.fr/advanced-ntfs-3g.html
 - { name: ntp,                         verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.([0-9]+)",    setver: "$1p$2" }
 - { name: ntp,                                                                             p_is_patch: true }
+- { name: numad,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: numix-gtk-theme,             verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: numix-icon-theme,            verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: numix-icon-theme,            verge: "20000000", verlt: "20180717",               outdated: true }

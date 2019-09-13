@@ -49,6 +49,7 @@
 - { verpat: ".*latest.*",                                            ruleset: justinstall, rolling: true }
 - { verpat: ".*-[0-9]+", namepat: "lua.*",                           ruleset: nix,         untrusted: true } # uses luarocks versions which add extra component
 - { verpat: "[0-9]{5}", namepat: "texlive:.*",                       ruleset: guix,        ignore: true } # ???
+- { verpat: ".*suse",                                                                      incorrect: true }
 
 # nuget is terminally broken and can't handle arbitrary version schemes, so most are garbage
 - {                                                                  ruleset: chocolatey,  untrusted: true }
