@@ -80,6 +80,10 @@
 - { name: signal, ruleset: chocolatey, setname: signal-desktop }
 - { name: signal, warning: "please classify me" }
 
+- { name: silo, wwwpart: llnl, setname: silo-io-library } # Mesh and Field I/O Library
+- { name: silo, wwwpart: kernel.org, setname: silo-sparc-loader }
+- { name: silo, warning: "please classify me" }
+
 - { name: singularity, wwwpart: singularity.lbl.gov, setname: singularity-container } # moving to sylabs.io
 - { name: singularity, wwwpart: sylabs.io, setname: singularity-container }
 - { name: singularity, wwwpart: ingularityviewer, setname: singularityviewer }
