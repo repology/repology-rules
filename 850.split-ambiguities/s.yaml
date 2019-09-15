@@ -106,6 +106,13 @@
 - { name: slurm, wwwpart: [schedmd,llnl], setname: slurm-wlm } # "workload manager": name used in freebsd and pksrc; there's also slurm-llnl, see rule in 800
 - { name: slurm, warning: "please classify me" }
 
+- { name: smack, wwwpart: [igniterealtime,jivesoftware], setname: smack-xmpp-library }
+- { name: smack, wwwpart: reverebrain, setname: smack-storage }
+- { name: smack, ruleset: [sisyphus,nix], setname: smack-xmpp-library }
+- { name: smack, ruleset: pld, setname: smack-access-control }
+- { name: smack, ruleset: yacp, setname: smack-storage }
+- { name: smack, warning: "please classify me" }
+
 - { name: smc, wwwpart: secretmaryo, setname: secret-maryo-chronicles }
 - { name: smc, category: [games-arcade,games,Games/Arcade], setname: secret-maryo-chronicles }
 - { name: smc, wwwpart: smc.sourceforge.net, setname: smc-state-machine-compiler }
