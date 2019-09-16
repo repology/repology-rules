@@ -87,6 +87,14 @@
 
 - { name: grepcidr, wwwpart: [taugh,grepcidr-2/], setname: grepcidr-2 } # explained on http://www.pc-tools.net/unix/grepcidr/
 
+- { name: grip, wwwpart: [sourceforge.net/projects/grip,nostatic.org/grip], setname: grip-cd-ripper }
+- { name: grip, wwwpart: kokoko3k, setname: grip-gambas-previewer }
+- { name: grip, wwwpart: joeyespo, setname: grip-markdown-preview }
+- { name: grip, wwwpart: wpiroboticsprojects, setname: grip-computer-vision }
+- { name: grip, summpart: ripper, setname: grip-cd-ripper }
+- { name: grip, ruleset: [pld], setname: grip-cd-ripper }
+- { name: grip, warning: "please classify me" }
+
 - { name: grok, wwwpart: [semicomplete,jordansissel], addflag: classified }
 - { name: grok, wwwpart: cpan, setname: "perl:grok" }
 - { name: grok, noflag: classified, warning: "please classify me" }
