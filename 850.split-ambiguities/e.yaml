@@ -21,6 +21,13 @@
 - { name: editline, ruleset: debuntu, setname: editline-debian } # source unknown
 - { name: editline, warning: "please classify me" }
 
+- { name: eject, wwwpart: [tranter,eject.sourceforge.net], setname: eject-tranter }
+- { name: eject, wwwpart: raizlabs, setname: eject-swift }
+- { name: eject, ruleset: freebsd, setname: eject-freebsd }
+- { name: eject, ruleset: nix, setname: eject-nix } # wtf is this?
+- { name: eject, ruleset: [sisyphus,pclinuxos,slackware,t2], setname: eject-tranter }
+- { name: eject, warning: "please classify me" }
+
 - { name: elixir, wwwpart: elixir.ematia.de, setname: "python:elixir" }
 
 - { name: elk, wwwpart: elk.sourceforge.net, setname: elkcode }
