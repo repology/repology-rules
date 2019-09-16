@@ -302,6 +302,7 @@
     parley|
     pimcommon|
     plasma-desktop|
+    plasma-framework|
     plasma-workspace|
     plasma-workspace-wallpapers|
     polkit-kde-agent-1|
@@ -338,3 +339,4 @@
 - { setname: baloo-widgets,            name: [baloo4-widgets, baloo5-widgets] }
 - { setname: oxygen-icons,             name: oxygen-icons5-svg, addflavor: svg }
 - { setname: modemmanager-qt,          name: [modemmanager-qt5,kf5-modemmanager-qt,libkf5modemmanagerqt] }
+- { setname: plasma-framework,         name: plasma-framework-git, weak_devel: true }
