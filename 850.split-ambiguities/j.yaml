@@ -19,6 +19,11 @@
 - { name: jail, wwwpart: spiculator, setname: jail-chroot-builder }
 - { name: jail, warning: "please classify me" }
 
+- { name: jal, wwwpart: unimi, setname: jal-java-stl-port }
+- { name: jal, wwwpart: jal.sourceforge, setname: jal-lang }
+- { name: jal, ruleset: sisyphus, setname: jal-java-application-loader }
+- { name: jal, warning: "please classify me" }
+
 - { name: jd, wwwpart: tidwall, setname: jd-json-editor }
 - { name: jd, wwwpart: [jd4linux,yama-natuki], setname: jd-2ch-browser }
 - { name: jd, summpart: 2ch, setname: jd-2ch-browser }
