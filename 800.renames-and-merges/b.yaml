@@ -127,7 +127,7 @@
 - { setname: brave,                    name: brave-bin, addflavor: bin}
 - { setname: brave,                    name: brave-snapshot, weak_devel: true }
 - { setname: breakpad,                 name: google-breakpad }
-- { setname: breeze-icons,             name: kf5-breeze-icons }
+- { setname: breeze-icons,             name: [kf5-breeze-icons, breeze-icon-theme] }
 - { setname: breeze-icons,             name: [breeze-icons-qt5,breeze-icons-rcc], addflavor: true }
 - { setname: breeze-icons,             name: breeze-icons-git, weak_devel: true }
 - { setname: bricscad,                 name: [bricscad-legacy,bricscadv16,bricscadv17] }
