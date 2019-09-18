@@ -111,6 +111,12 @@
 - { name: bsc, summpart: block-sorting, setname: libbsc }
 - { name: bsc, warning: "please classify me" }
 
+- { name: btf, wwwpart: sparse, setname: suitesparse-btf }
+- { name: btf, summpart: suitesparse, setname: suitesparse-btf }
+- { name: btf, wwwpart: fge, setname: btf-builder-pattern }
+- { name: btf, ruleset: pld, setname: suitesparse-btf }
+- { name: btf, warning: "please classify me" }
+
 - { name: build, summpart: suse, setname: suse-build }
 - { name: build, wwwpart: codesynthesis, addflag: classified }
 - { name: build, warning: "please classify me", noflag: classified }
