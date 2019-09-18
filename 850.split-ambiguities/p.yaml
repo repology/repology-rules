@@ -26,6 +26,13 @@
 - { name: papyrus, ruleset: kaos, setname: papyrus-kaqaz }
 - { name: papyrus, warning: "please classify me" }
 
+- { name: par, wwwpart: nicemice, setname: par-paragraph-reformatter }
+- { name: par, wwwpart: parchive.sourceforge, setname: par-parchive }
+- { name: par, wwwpart: par2cmdline, setname: par-par2cmdline }
+- { name: par, category: [text,textproc], setname: par-paragraph-reformatter }
+- { name: par, ver: "1.52", setname: par-paragraph-reformatter }
+- { name: par, warning: "please classify me" }
+
 - { name: pass, wwwpart: [passwordstore,password-store], setname: password-store }
 - { name: pass, ruleset: [aosc,pclinuxos], setname: password-store }
 - { name: pass, warning: "please classify me" }
