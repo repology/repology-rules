@@ -13,7 +13,12 @@
 
 - { name: lemon, wwwpart: lemon.cs.elte.hu, setname: coin-or-lemon }
 - { name: lemon, summpart: "Efficient Modeling", setname: coin-or-lemon }
-# otherwise, LALR(1) Parser Generator
+- { name: lemon, wwwpart: hwaci, setname: lemon-lalr1 }
+- { name: lemon, wwwpart: sqlite, setname: lemon-lalr1-sqlite }
+- { name: lemon, summpart: deprecated, remove: true } # vcpkg deprecated package
+- { name: lemon, ruleset: pld, setname: coin-or-lemon }
+- { name: lemon, ruleset: pclinuxos, setname: lemon-lalr1-sqlite }
+- { name: lemon, warning: "please classify me" }
 
 - { name: libelf,                      wwwpart: elfutils, setname: elfutils } # Arch: XXX: problem
 
