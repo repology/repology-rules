@@ -89,6 +89,12 @@
 - { name: ply, wwwpart: dabeaz, setname: "python:ply" }
 - { name: ply, ruleset: gobolinux, setname: "python:ply" }
 
+- { name: pms, wwwpart: ps3, setname: pms-ps3 }
+- { name: pms, wwwpart: [ambientsound,pms.sourceforge], setname: pms-practical-music-search }
+- { name: pms, wwwpart: package_manager_specification, setname: pms-package-manager-specification }
+- { name: pms, category: [media-sound,audio], setname: pms-practical-music-search }
+- { name: pms, warning: "please classify me" }
+
 - { name: polly, wwwpart: launchpad.net/polly, setname: polly-twitter-client }
 - { name: polly, wwwpart: llvm, setname: polly-llvm-opt }
 - { name: polly, warning: "please classify me" }
