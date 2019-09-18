@@ -73,3 +73,5 @@
 - { name: lux, ruleset: yacp, setname: lux-fulltext-search }
 - { name: lux, ruleset: exherbo, setname: lux-kernel-updater }
 - { name: lux, warning: "please classify me" }
+
+- { name: lzma, ruleset: gentoo, category: dev-java, addflavor: java } # add flavor to fix version accounting wrt. normal lzma library
