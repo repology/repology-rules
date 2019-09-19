@@ -108,9 +108,10 @@
 - { name: polly, warning: "please classify me" }
 
 - { name: polyglot, wwwpart: universaldevices, setname: polyglot-udi }
-- { name: polyglot, wwwpart: ridderkerk, setname: polyglot-chess }
+- { name: polyglot, wwwpart: [ridderkerk,uhasselt,chess], setname: polyglot-chess }
 - { name: polyglot, category: [games,universe/games], setname: polyglot-chess }
 - { name: polyglot, summpart: chess, setname: polyglot-chess }
+- { name: polyglot, ruleset: pureos, setname: polyglot-chess }
 - { name: polyglot, warning: "please classify me" }
 
 - { name: postal, summpart: [game,shooter], setname: postal-game }
