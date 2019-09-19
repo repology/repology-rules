@@ -1,5 +1,14 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: babel, wwwpart: [edgewall,pocoo], setname: "python:babel" }
+- { name: babel, wwwpart: babeljs, setname: babel.js }
+- { name: babel, wwwpart: [smog,chem], setname: babel-chem }
+- { name: babel, wwwpart: [llnl], setname: babel-llnl }
+- { name: babel, category: dev-lisp, setname: babel-lisp }
+- { name: babel, ruleset: sisyphus, setname: babel-llnl }
+- { name: babel, ruleset: aur, setname: babel-quytelda }
+- { name: babel, warning: "please classify me" }
+
 - { name: backbone, wwwpart: [backbonejs,documentcloud.github.com/backbone], setname: "js:backbone" }
 - { name: backbone, warning: "please classify me" }
 
