@@ -134,6 +134,15 @@
 - { name: snap, wwwpart: wchunhao, setname: snap-ufs2-snapshots }
 - { name: snap, warning: "please classify me" }
 
+- { name: snappy, wwwpart: google, setname: snappy-compression }
+- { name: snappy, wwwpart: xerial, setname: snappy-java }
+- { name: snappy, wwwpart: gnome, setname: snappy-player }
+- { name: snappy, summpart: compress, setname: snappy-compression }
+- { name: snappy, ruleset: exherbo, category: app-arch, setname: snappy-compression }
+- { name: snappy, ruleset: exherbo, category: gnome-resktop, setname: snappy-player }
+- { name: snappy, ruleset: [pld,solus], setname: snappy-compression }
+- { name: snappy, warning: "please classify me" }
+
 - { name: snoopy, wwwpart: tuxfamily, setname: snoopy-warcraft3 }
 - { name: snoopy, wwwpart: dssz, setname: snoopy-graph-anim }
 - { name: snoopy, wwwpart: [snoopylogger,a2o], setname: snoopylogger }
