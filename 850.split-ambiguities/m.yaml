@@ -104,6 +104,11 @@
 - { name: mog, setname: mazeofgalious, wwwpart: braingames }
 - { name: mog, warning: "please classify me" }
 
+- { name: mongo, wwwpart: massd, setname: "ocaml:mongo" }
+- { name: mongo, wwwpart: namesys, setname: mongo-fs-load-tester }
+- { name: mongo, ruleset: sisyphus, setname: mongodb }
+- { name: mongo, warning: "please classify me" }
+
 - { name: mpd, wwwpart: [musicpd,mpd.wikia.com], addflag: classified }
 - { name: mpd, category: [media-sound,Sound,audio], addflag: classified }
 - { name: mpd, wwwpart: cs.arizona.edu/mpd, setname: mpd-compiler }
