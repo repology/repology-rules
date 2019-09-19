@@ -80,6 +80,11 @@
 - { name: signal, ruleset: chocolatey, setname: signal-desktop }
 - { name: signal, warning: "please classify me" }
 
+- { name: signify, wwwpart: [aperezdc,flak,openbsd], setname: signify-openbsd }
+- { name: signify, wwwpart: signify.sf.net, setname: signify-bcwhite }
+- { name: signify, ruleset: cygwin, setname: signify-bcwhite }
+- { name: signify, warning: "please classify me" }
+
 - { name: silo, wwwpart: llnl, setname: silo-io-library } # Mesh and Field I/O Library
 - { name: silo, wwwpart: kernel.org, setname: silo-sparc-loader }
 - { name: silo, warning: "please classify me" }
