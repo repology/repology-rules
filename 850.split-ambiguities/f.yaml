@@ -28,6 +28,12 @@
 - { name: flock, wwwpart: flock.com, setname: flock-browser }
 # need more flock splits
 
+- { name: flood, wwwpart: sjmulder, setname: flood-rapidly-invoke-command }
+- { name: flood, wwwpart: flood-ui, setname: flood-rtorrent-ui }
+- { name: flood, wwwpart: apache, setname: flood-http-load-tester }
+- { name: flood, ruleset: yacp, setname: flood-rapidly-invoke-command }
+- { name: flood, warning: "please classify me" }
+
 - { name: fluid, wwwpart: hammersound, setname: fluid-soundfont } # XXX: problem
 
 - { name: figurine, wwwpart: arsham, setname: figurine-banner }
