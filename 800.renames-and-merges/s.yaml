@@ -181,6 +181,7 @@
 - { setname: spring,                   name: springrts }
 - { setname: springframework,          namepat: "sprint-?framework[0-9]*" }
 - { setname: springframework,          name: libspring-java }
+- { setname: spyder,                   name: ["python:spyder",spyder3] }
 - { setname: sql-operations-studio,    name: sqlopsstudio }
 - { setname: sqlite,                   name: [sqlite-tcl,sqlite3-tcl,tcl-sqlite,tcl-sqlite3,tclsqlite2], addflavor: tcl }
 - { setname: sqlite,                   namepat: "(?:lib)?sqlite[0-9.-]*" }
