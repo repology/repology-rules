@@ -39,6 +39,7 @@
 - { name: scrot,                                                     ruleset: solus,       untrusted: true } # accused of fake 0.18.17
 - { name: scrot,                       ver: "0.9",                                         successor: true } # https://github.com/resurrecting-open-source-projects/scrot
 - { name: sddm,                        verpat: "[0-9]{4,}.*",        ruleset: kaos,        ignore: true } # snapshot with random version
+- { name: sdl2,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]*[13579]",          devel: true } # https://discourse.libsdl.org/t/sdl-versioning-update-even-numbered-releases/26632
 - { name: sdl2-image,                  ver: "2.1.0",                 ruleset: pisi,        incorrect: true }
 - { name: sdl2-image,                                                ruleset: pisi,        untrusted: true } # accused of fake 2.1.0
 - { name: sdlmame,                     verpat: "[0-9]{4}",                                 incorrect: true }
