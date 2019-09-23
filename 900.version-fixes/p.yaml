@@ -30,6 +30,8 @@
 - { name: pauker,                      verpat: ".*b.*",                                    devel: true }
 - { name: pavucontrol,                 verpat: ".*\\+[0-9]+",                              incorrect: true } # slitaz
 - { name: pcb,                         verpat: "20[0-9]{6}.*",                             outdated: true } # superceded by x.y.z: https://sourceforge.net/projects/pcb/files/pcb/
+- { name: pcbasic,                     verge: "13",                                        outdated: true } # superceded by x.y: https://sourceforge.net/projects/pcbasic/files/
+- { name: pcbasic,                     releq: "2",                                         devel: true } # https://robhagemans.github.io/pcbasic/download.html
 - { name: pcc,                         verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: pcc,                         ver: "1.2.0",                 ruleset: debuntu,     incorrect: true }
 - { name: pcc,                                                       ruleset: debuntu,     untrusted: true } # accused of fake 1.2.0
