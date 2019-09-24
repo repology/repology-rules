@@ -84,7 +84,8 @@
 - { name: signify, wwwpart: signify.sf.net, setname: signify-bcwhite }
 - { name: signify, wwwpart: chneukirchen, setname: outils, addflavor: true }
 - { name: signify, maintainer: bcwhite@pobox.com, setname: signify-bcwhite }
-- { name: signify, ruleset: cygwin, setname: signify-bcwhite }
+- { name: signify, ruleset: [cygwin,openbsd], setname: signify-bcwhite }
+- { name: signify, ruleset: exherbo, setname: signify-openbsd }
 - { name: signify, warning: "please classify me" }
 
 - { name: silo, wwwpart: llnl, setname: silo-io-library } # Mesh and Field I/O Library
