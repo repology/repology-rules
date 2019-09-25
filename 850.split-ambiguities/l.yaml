@@ -38,7 +38,7 @@
 - { name: libunicode,                  wwwpart: courier, setname: courier-unicode }
 
 - { name: libunwind, wwwpart: llvm, setname: llvm-libunwind }
-- { name: libunwind, summpart: llvm, setname: llvm-libunwind }
+- { name: libunwind, summpart: [llvm,clang], setname: llvm-libunwind }
 
 - { name: libusb, ruleset: cygwin, setname: libusb-win32 } # XXX: problem
 
