@@ -23,7 +23,7 @@
 - { setname: eekboard,                 name: eekboard-gtk2 }
 - { setname: eid-mw,                   name: [beid-middleware,beid,libbeid] }
 - { setname: eid-viewer,               name: eid-viewer-bin }
-- { setname: eigen,                    namepat: "eigen[0-9.-]+" }
+- { setname: eigen,                    namepat: "eigen[0-9.-]+(-doc)?", addflavor: $1 }
 - { setname: eigen,                    name: libeigen }
 - { setname: eigen,                    name: libeigen2-devel, weak_devel: true }
 - { setname: einstein,                 name: einstein-puzzle, ruleset: pkgsrc }

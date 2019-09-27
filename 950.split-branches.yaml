@@ -36,10 +36,7 @@
 - { name: db,                releq: "1",                  setname: db1 }
 # newer versions are left in db
 
-- { name: eigen,             releq: "1",                  setname: eigen1 }
-- { name: eigen,             releq: "2",                  setname: eigen2 }
-- { name: eigen,             releq: "3",                  setname: eigen3 }
-- { name: eigen,             warning: "please classify me" }
+- { name: eigen,                                          setbranchcomps: 1 }
 
 - { name: enlightenment,     releq: "1.0",                setname: e16 }
 
