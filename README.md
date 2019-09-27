@@ -388,6 +388,24 @@ Set to `false` to undo.
 - { name: gnome-terminal, verpat: "[0-9]+\\.[0-9]*[13579]\\..*", devel: true }
 ```
 
+#### altver
+
+Sometimes, projects may use two parallel versioning schemes. For example, a
+version may include build number, which may be ommitted in some repositories
+(and even upstream tags, or source releases):
+
+`0.17`, `0.17.13509`, `0.17.13541`, `0.18`, `0.18.16131`
+
+Both schemes are valid and we neither want to ignore either of them, nor we
+want versions with build numbers outdate shorter versions. In this case, the
+schema which compares as greater may be marked with **altver**. Effectively,
+this disallows versions marked with **altver** outdate other versions, so
+in the example above both `0.18` and `0.18.16131` would be classified as newest.
+
+```yaml
+- { name: freecad, verlonger: 3, altver: true }
+```
+
 #### ignore, incorrect, untrusted, noscheme, snapshot, successor, debianism, rolling
 
 Set to `true` to ignore specific package versions. This is meant for the

@@ -178,6 +178,7 @@ schema = Schema(
         'ignore': bool,
         'devel': bool,
         'weak_devel': bool,
+        'altver': bool,
         'p_is_patch': bool,
         'any_is_patch': bool,
         'outdated': bool,

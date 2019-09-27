@@ -138,7 +138,7 @@
 - { name: freac,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: free42-skins,                                                                    noscheme: true }
 - { name: freecad,                     verpat: ".*[0-9]{10}.*",                            incorrect: true }
-- { name: freecad,                     verpat: ".*[0-9]{5}",                               ignore: true } # build numbers for blobs
+- { name: freecad,                     verpat: "[0-9]+\\.[0-9]+[._-][0-9]{4,5}",           altver: true } # build numbers for blobs
 - { name: freeciv,                     verpat: "[0-9]{3}",                                 outdated: true } # #891
 - { name: freeimage,                   verge: "3.93",                                      incorrect: true }
 - { name: freeimage,                                                 ruleset: os4depot,    incorrect: true }
