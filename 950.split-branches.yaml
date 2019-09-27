@@ -70,7 +70,7 @@
 - { name: gstreamer,         releq: "1",                  setname: gstreamer1 }
 - { name: gstreamer,         warning: "please classify me"         }
 
-- { name: gstreamermm,       releq: "0",                  setname: gstreamermm0 }
+- { name: gstreamermm,                                    setbranchcomps: 1 }
 
 - { name: gtk,               verpat: "(4|3\\.9[0-9]+).*", setname: gtk4 }
 - { name: gtk,               releq: "3",                  setname: gtk3 }
