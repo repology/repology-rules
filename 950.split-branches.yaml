@@ -17,7 +17,7 @@
 
 - { name: bowtie,            releq: "2",                  setname: bowtie2 }
 
-- { name: cassandra,         releq: "2",                  setname: cassandra2 }
+- { name: cassandra,                                      setbranchcomps: 1 }
 
 - { name: centerim,          releq: "5",                  setname: centerim5 }
 
@@ -40,7 +40,7 @@
 
 - { name: enlightenment,     releq: "1.0",                setname: e16 }
 
-- { name: fftw,              releq: "2",                  setname: fftw2 }
+- { name: fftw,                                           setbranchcomps: 1 }
 
 - { name: "fonts:liberation", releq: "2",                 setname: "fonts:liberation2" }
 
@@ -50,7 +50,7 @@
 
 - { name: glade,             releq: "2",                  setname: glade2 }
 
-- { name: glfw,              releq: "2",                  setname: glfw2 }
+- { name: glfw,                                           setbranchcomps: 1 }
 
 - { name: glib,              releq: "1",                  setname: glib12 }
 
