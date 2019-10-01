@@ -215,6 +215,7 @@
 - { setname: cstore-fdw,               namepat: "(postgresql[0-9.-]*)-cstore-fdw", addflavor: $1 }
 - { setname: csvkit,                   name: "python:csvkit" }
 - { setname: ctemplate,                name: [google-ctemplate,libctemplate] }
+- { setname: ctpl,                     name: libctpl }
 - { setname: ctpp2,                    name: ctpp }
 - { setname: ctypes.sh,                name: ctypes-sh }
 - { setname: cubosphere,               name: cubosphere-data, addflavor: data }
