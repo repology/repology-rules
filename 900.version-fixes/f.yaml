@@ -79,6 +79,8 @@
 - { name: "fonts:b612",                                              ruleset: freebsd,     untrusted: true }
 - { name: "fonts:cardo",               ver: "1.045",                 ruleset: [sisyphus,fedora], incorrect: true }
 - { name: "fonts:cardo",                                             ruleset: [sisyphus,fedora], untrusted: true }
+- { name: "fonts:cascadia-code",       verge: "21000",               ruleset: sisyphus,    incorrect: true }
+- { name: "fonts:cascadia-code",                                     ruleset: sisyphus,    untrusted: true }
 - { name: "fonts:cheapskate",                                                              noscheme: true }
 - { name: "fonts:courier-prime",       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "fonts:cyberbit",            ver: "2.0.20050220",                                ignore: true }
