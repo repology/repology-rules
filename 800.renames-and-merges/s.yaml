@@ -75,7 +75,7 @@
 - { setname: sextractor,               name: astromatic-sextractor }
 - { setname: sfml,                     name: compat-sfml16 }
 - { setname: sfml,                     namepat: "(?:lib)?sfml[0-9.-]*" }
-- { setname: sgt-puzzles,              name: simon-tathams-portable-puzzle-collection }
+- { setname: sgt-puzzles,              name: [simon-tathams-portable-puzzle-collection, tatham-puzzles] }
 - { setname: sgt-puzzles,              name: puzzles } # not completely safe, but other puzzles were not encountered yet
 - { setname: sha1collisiondetection,   name: sha1dc }
 - { setname: shellcheck,               name: shellcheck-bin, addflavor: true }
