@@ -58,7 +58,7 @@
 
 - { name: gnome-desktop,     releq: "2",                  setname: gnome-desktop2 }
 
-- { name: gnupg,             releq: "1",                  setname: gnupg1 }
+- { name: gnupg,                                          setbranchcomps: 1 }
 
 - { name: godot,             releq: "2",                  setname: godot2 }
 
