@@ -241,7 +241,7 @@
 
 - { name: rpm,               releq: "4",                  setname: rpm4 }
 
-- { name: samba,             releq: "3",                  setname: samba3 }
+- { name: samba,                                          setbranchcomps: 1 }
 
 - { name: sfml,              releq: "1",                  setname: sfml1 }
 
