@@ -38,6 +38,8 @@
 - { name: elinks,                      ver: "0.13", ruleset: [alpine,arch,rudix],          incorrect: true }
 - { name: elinks,                      verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: elisa,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
+- { name: elisa,                       verge: "1.1",                 ruleset: debuntu,     incorrect: true }
+- { name: elisa,                                                     ruleset: debuntu,     untrusted: true } # accused of fake 1.1
 - { name: ell,                         ver: "0~1304",                                      outdated: true } # judging by number of commits in the repo, it's before 0.1
 - { name: elm-format,                  verpat: "(.*?)[_-]?(?:alpha|exp)",                  setver: $1, devel: true }
 - { name: elmerfem,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
