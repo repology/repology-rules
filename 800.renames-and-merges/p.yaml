@@ -57,8 +57,11 @@
 - { setname: pelican,                  name: "python:pelican" }
 - { setname: pencil,                   name: [evolus-pencil,pencil-v2,pencil3] }
 - { setname: pencil,                   name: evolus-pencil-devel, weak_devel: true }
+- { setname: percona-server,           namepat: "percona[0-9._-]*server[0-9._-]*" }
+- { setname: percona-server,           namepat: "percona[0-9._-]*client[0-9._-]*", addflavor: client } # freebsd artifact; package is still named percona-server
 - { setname: percona-xtrabackup,       name: [percona-xtrabackup-bin,xtrabackup-bin], addflavor: bin }
 - { setname: percona-xtrabackup,       name: xtrabackup }
+- { setname: percona-xtradb-cluster,   namepat: "percona-xtradb-cluster[0-9._-]+" }
 - { setname: perf,                     name: perf-linux }
 - { setname: perkeep,                  name: camlistore } # former name
 - { setname: perl,                     name: microperl, addflavor: true }

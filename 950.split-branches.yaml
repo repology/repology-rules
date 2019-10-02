@@ -205,6 +205,10 @@
 
 - { name: pcre,              verpat: "[0-9]{2}\\..*",     setname: pcre2 }
 
+- { name: percona-server,                                 setbranchcomps: 2 }
+- { name: percona-xtrabackup,                             setbranchcomps: 2 }
+- { name: percona-xtradb-cluster,                         setbranchcomps: 2 }
+
 - { name: postfix,           verpat: ".*20[0-9]{6}.*",    setname: postfix-experimental }
 
 - { name: postgresql,        relge: "10",                 setbranchcomps: 1 }
