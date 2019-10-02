@@ -278,7 +278,7 @@
 - { name: wxwidgets,         releq: "2",                  setname: wxwidgets28 }
 - { name: wxwidgets28,       releq: "2.9",                setname: wxwidets }  # belongs to 3.x - prerelease branch of
 
-- { name: xerces-c,          releq: "2",                  setname: xerces-c2 }
+- { name: xerces-c,                                       setbranchcomps: 1 }
 
 - { name: yaml-cpp,          releq: "0.3",                setname: yaml-cpp03 }
 
