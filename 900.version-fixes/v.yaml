@@ -26,6 +26,7 @@
 - { name: vid.stab,                    verpat: ".*[0-9a-f]{7}.*",                          ignore: true } # git commit
 - { name: vidcutter,                   ver: "6.0.0.5",               ruleset: unitedrpms,  incorrect: true }
 - { name: vidcutter,                                                 ruleset: unitedrpms,  untrusted: true } # accused of fake 6.0.0.6
+- { name: vigra,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: vimpc,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: virtme,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: virtualbox,                  verpat: ".*[0-9]{6}.*",                             incorrect: true }

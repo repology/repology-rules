@@ -24,6 +24,7 @@
 - { name: hmmer,                       verpat: ".*b.*",                                    devel: true }
 - { name: hnb,                         ver: [ "1.9.18", "1.9.19" ],                        ignore: true } # unofficial
 - { name: hostapd,                     verpat: "20[0-9]{2}.*",       ruleset: openwrt,     snapshot: true }
+- { name: hotkeys,                     verlonger: 4,                 ruleset: funtoo,      debianism: true }
 - { name: hping,                                                                           noscheme: true }
 - { name: htdig,                       ver: "3.2.0",                 ruleset: [centos,fedora,rosa,pclinuxos], incorrect: true }
 - { name: htdig,                                                     ruleset: [centos,fedora,rosa,pclinuxos], untrusted: true } # accused of fake 3.2.0
