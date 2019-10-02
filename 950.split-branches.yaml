@@ -253,11 +253,9 @@
 
 - { name: softhsm,           releq: "1",                  setname: softhsm1 }
 
-- { name: sogo,              releq: "2",                  setname: sogo2 }
-- { name: sogo,              releq: "3",                  setname: sogo3 }
+- { name: sogo,                                           setbranchcomps: 1 }
 
-- { name: sope,              releq: "2",                  setname: sope2 }
-- { name: sope,              releq: "3",                  setname: sope3 }
+- { name: sope,                                           setbranchcomps: 1 }
 
 - { name: sqlite,            relle: "1",                  remove: true } # only present in wikidata, probably ancient garbage
 - { name: sqlite,            releq: "2",                  setname: sqlite2 }
