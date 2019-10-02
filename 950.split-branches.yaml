@@ -89,8 +89,7 @@
 - { name: gtksourceview,     releq: "2",                  setname: gtksourceview2 }
 - { name: gtksourceview,     releq: "1",                  setname: gtksourceview1 }
 
-- { name: gtksourceviewmm,   releq: "3",                  setname: gtksourceviewmm3 }
-- { name: gtksourceviewmm,                                setname: gtksourceviewmm2 }
+- { name: gtksourceviewmm,                                setbranchcomps: 1 }
 
 - { name: gtkspell,          releq: "2",                  setname: gtkspell2 }
 - { name: gtkspell,          releq: "3",                  setname: gtkspell3 }
