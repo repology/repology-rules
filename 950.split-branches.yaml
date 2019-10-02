@@ -174,13 +174,9 @@
 - { name: love,              releq: "0.6",                setname: love06 }
 - { name: love,              releq: "0.5",                setname: love05 }
 
-- { name: lua,               releq: "4",                  setname: lua4 }
-- { name: lua,               releq: "5.0",                setname: lua50 }
-- { name: lua,               releq: "5.1",                setname: lua51 }
-- { name: lua,               releq: "5.2",                setname: lua52 }
-- { name: lua,               releq: "5.3",                setname: lua53 }
-- { name: lua,               releq: "5.4",                setname: lua54 }
-- { name: lua,               warning: "please classify me" }
+- { name: lua,               releq: "4",                  setbranchcomps: 1 }
+- { name: lua,               releq: "5",                  setbranchcomps: 2 }
+- { name: lua, hasbranch: false, warning: "please update branch rules" }
 
 - { name: mailman,           releq: "3",                  setname: mailman3 }
 
