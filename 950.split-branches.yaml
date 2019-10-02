@@ -118,7 +118,7 @@
 
 - { name: itk,               releq: "3",                  setname: itk3 }
 
-- { name: jack-audio-connection-kit, releq: "0",          setname: jack-audio-connection-kit1 }
+- { name: jack-audio-connection-kit,                      setbranchcomps: 1 }
 
 - { name: jdeparser,         releq: "1",                  setname: jdeparser1 }
 
