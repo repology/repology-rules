@@ -134,7 +134,7 @@
 - { name: keepassx,          releq: "0",                  setname: keepassx0 }
 - { name: keepassx,          releq: "2",                  setname: keepassx2 }
 
-- { name: lcms,              releq: "2",                  setname: lcms2 }
+- { name: lcms,                                           setbranchcomps: 1 }
 
 - { name: lhapdf,            releq: "5",                  setname: lhapdf5 }
 - { name: lhapdf,            releq: "6",                  setname: lhapdf6 }
