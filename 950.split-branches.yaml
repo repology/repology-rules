@@ -178,6 +178,8 @@
 
 - { name: mpich,             releq: "1",                  setname: mpich2 }
 
+- { name: mysql,                                          setbranchcomps: 2 }
+
 - { name: ns,                releq: "2"      ,            setname: ns2 }
 - { name: ns,                releq: "3",                  setname: ns3 }
 - { name: ns,                warning: "please classify me" }
