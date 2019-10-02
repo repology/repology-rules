@@ -108,7 +108,7 @@
 
 - { name: inn,               releq: "1",                  setname: inn1 }
 
-- { name: iperf,             releq: "3",                  setname: iperf3 }
+- { name: iperf,                                          setbranchcomps: 1 }
 
 - { name: italc,             releq: "1",                  setname: italc1 }
 - { name: italc,             releq: "2",                  setname: italc2 }
