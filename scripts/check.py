@@ -169,6 +169,7 @@ schema = Schema(
         'flag': Any(str, [str]),
         'noflag': Any(str, [str]),
         'is_p_is_patch': bool,
+        'hasbranch': bool,
 
         'setname': str,
         'setver': str,
