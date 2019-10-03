@@ -146,7 +146,7 @@
 - { setname: glew,                     name: glew-wayland, addflavor: true }
 - { setname: glfw,                     name: [glfw-doc,glfw-wayland,glfw-x11] }
 - { setname: glfw,                     namepat: "(?:lib)?glfw[0-9.-]*" }
-- { setname: glib,                     name: [glib-reference,glib-static,glib2-docs,glib2-patched-thumbnailer,glib2-quiet,glib2-static,glib-utils], addflavor: true }
+- { setname: glib,                     name: [glib-reference,glib-static,glib2-docs,glib2-patched-thumbnailer,glib2-quiet,glib2-static,glib-utils,glib2-clear,glib2-sched-policy,glib2-tools], addflavor: true }
 - { setname: glib,                     namepat: "(?:lib)?glib[0-9.-]*" }
 - { setname: glib-networking,          namepat: "glib[0-9.-]+networking" }
 - { setname: glib-openssl,             namepat: "glib[0-9.-]+openssl" }
