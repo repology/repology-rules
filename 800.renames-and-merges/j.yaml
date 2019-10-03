@@ -17,7 +17,7 @@
 - { setname: "java:regexp",            name: [jakarta-regexp, libregexp-java] }
 - { setname: jbigkit,                  name: [jbig-kit,jbig,jbigkit-libs] }
 - { setname: jboss-forge,              name: jboss-forge-offline }
-- { setname: jdeparser,                namepat: "jdeparser[0-9]+" }
+- { setname: jdeparser,                name: [jdeparser1, jboss-jdeparser2] }
 - { setname: jdiskreport,              name: jdiskreport-bin, addflavor: true }
 - { setname: jdom,                     namepat: "jdom[0-9]+" }
 - { setname: jdom,                     name: [java-jdom,java-jdom1,libjdom1-java,libjdom2-intellij-java,libjdom2-java,oldjdom] }
