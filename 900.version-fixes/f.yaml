@@ -70,6 +70,7 @@
 - { name: flvstreamer,                 ver: "2.1",                   ruleset: pisi,        incorrect: true } # 2.1c1
 - { name: flvstreamer,                                               ruleset: pisi,        untrusted: true } # accused of fake 2.1
 - { name: folks,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: fondu,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: fontconfig,                  verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: "fonts:adobe-100dpi",        verge: "7",                                         incorrect: true } # xorg version used (openindiana)
 - { name: "fonts:adobe-source-sans-pro", verpat: "20[0-9]{6}",                             snapshot: true }
