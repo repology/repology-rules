@@ -56,7 +56,7 @@
 
 - { name: gmime,             releq: "2",                  setname: gmime2 }
 
-- { name: gnome-desktop,     releq: "2",                  setname: gnome-desktop2 }
+- { name: gnome-desktop,                                  setbranchcomps: 1 }
 
 - { name: gnupg,                                          setbranchcomps: 1 }
 
