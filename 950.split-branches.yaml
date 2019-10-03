@@ -64,11 +64,9 @@
 
 - { name: grantlee,          verlt: "5",                  setbranch: qt4 }
 
-- { name: gst-python,        releq: "0",                  setname: gst-python0 }
+- { name: gst-python,                                     setbranchcomps: 1 }
 
-- { name: gstreamer,         releq: "0",                  setname: gstreamer0 }
-- { name: gstreamer,         releq: "1",                  setname: gstreamer1 }
-- { name: gstreamer,         warning: "please classify me"         }
+- { name: gstreamer,                                      setbranchcomps: 1 }
 
 - { name: gstreamermm,                                    setbranchcomps: 1 }
 
