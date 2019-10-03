@@ -186,6 +186,11 @@
 - { name: cvs,                         ver: "1.20120905",                                  ignore: true }
 - { name: cvs,                         ver: "1.12.13.1",                                   ignore: true } # respin for Windows *only* to fix carriage returns, it does not make sense to list it
 - { name: cvs,                         verpat: ".*real.*",                                 incorrect: true } # termux ???
+- { name: cvsync,                      verpat: "20[0-9]{2}.*",                             snapshot: true }
+- { name: cvsync,                      ver: "0.25.0",                ruleset: freebsd,     incorrect: true }
+- { name: cvsync,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 0.25.0
+- { name: cvsync,                      ver: "0.25.0pre0",            ruleset: openbsd,     incorrect: true }
+- { name: cvsync,                                                    ruleset: openbsd,     untrusted: true } # accused of fake 0.25.0pre0
 - { name: cwiid,                       ver: ["20110107","0.6.01"],                         ignore: true } # abandonware; a lot of snapshots
 - { name: cwm,                         ver: "6.2.9",                                       ignore: true } # FreeBSD fake
 - { name: cyrus-imapd,                 verpat: "3\\.[0-9]*[13579]\\..*",                   devel: true}  # assumed; https://www.cyrusimap.org/ -> 3.0.10 stable, 3.1.6 devel
