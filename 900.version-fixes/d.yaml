@@ -86,6 +86,8 @@
 - { name: doublecmd,                   verpat: ".*svn.*",                                  ignore: true }
 - { name: dovecot-pigeonhole,          verpat: "2\\..*",                                   incorrect: true } # dovecot version prepended (openwrt, pld)
 - { name: dpdk,                        verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
+- { name: dpic,                        verpat: "20[0-9]{6}",                               incorrect: true } # 2019.08.30
+- { name: dpic,                        verge: "20000000", verlt: "20190830",               outdated: true }
 - { name: dragon-player,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: drawterm,                                                                        noscheme: true }
 - { name: dreampie,                    ver: "1.3.0",                 ruleset: sisyphus,    incorrect: true }
