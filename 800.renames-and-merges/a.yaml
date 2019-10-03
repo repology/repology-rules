@@ -201,7 +201,8 @@
 - { setname: audiofile,                name: libaudiofile }
 - { setname: autoconf,                 namepat: "autoconf[0-9.-]+" }
 - { setname: autoconf,                 name: autoconf-legacy }
-- { setname: autoconf,                 name: autoconf-nonfree, addflavor: true }
+- { setname: autoconf,                 name: [autoconf-nonfree, redox-autoconf], addflavor: true }
+- { setname: autoconf,                 name: ["emacs:autoconf-mode", autoconf-el], addflavor: emacs }
 - { setname: autoconvert,              name: zh-autoconvert }
 - { setname: autodia,                  name: "perl:autodia" }
 - { setname: autoflake,                name: "python:autoflake" }
