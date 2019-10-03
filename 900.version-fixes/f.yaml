@@ -182,6 +182,7 @@
 - { name: ftgl,                        verge: "2.3.0",                                     successor: true } # https://github.com/frankheckenbach/ftgl
 - { name: ftp,                         verpat: "20[0-9]{6}.*",                             ignore: true } # haiku snapshot
 - { name: ftp,                         ver: "0.18",                  ruleset: sisyphus,    ignore: true } # fake; actually 0.18pre1
+- { name: ftp,                         verlonger: 2,                 ruleset: gentoo,      debianism: true }
 - { name: fvwm,                        ver: "2.7.0",                 ruleset: t2,          incorrect: true } # latest 2.6.8; how the hell do they reference non-existing version on (ex-) official ftp?
 - { name: fxload,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: fxload,                      ver: "20081013",                                    incorrect: true } # it's 2008_10_13
