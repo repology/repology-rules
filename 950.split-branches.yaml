@@ -122,7 +122,7 @@
 - { name: lhapdf,            releq: "5",                  setname: lhapdf5 }
 - { name: lhapdf,            releq: "6",                  setname: lhapdf6 }
 
-- { name: libevent,          relle: "1",                  setname: libevent1 }
+- { name: libevent,                                       setbranchcomps: 1 }
 
 - { name: libftdi,           releq: "0",                  setname: libftdi0 }
 
