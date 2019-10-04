@@ -132,7 +132,8 @@
 
 - { name: libsidplay,        releq: "1",                  setname: libsidplay1 }
 
-- { name: libsigc++,         releq: "1",                  setname: libsigc++12 }
+- { name: libsigc++,                                      setbranchcomps: 1 }
+- { name: libsigc++,         verpat: "2\\.99.*",          setbranch: "3" }
 
 - { name: libunique,         releq: "1",                  setname: libunique1 }
 - { name: libunique,         releq: "3",                  setname: libunique3 }
