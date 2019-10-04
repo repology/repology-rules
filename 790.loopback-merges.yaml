@@ -5,14 +5,14 @@
 # of better branches support) and more sane naming
 
 - { setname: "fonts:liberation",       name: ["fonts:liberation2"] }
-- { setname: "gstreamer0plugins:base", name: ["gstreamer1plugins:base"], verlt: "0" }
-- { setname: "gstreamer1plugins:base", name: ["gstreamer0plugins:base"], verge: "1" }
-- { setname: "gstreamer0plugins:good", name: ["gstreamer1plugins:good"], verlt: "0" }
-- { setname: "gstreamer1plugins:good", name: ["gstreamer0plugins:good"], verge: "1" }
-- { setname: "gstreamer0plugins:ugly", name: ["gstreamer1plugins:ugly"], verlt: "0" }
-- { setname: "gstreamer1plugins:ugly", name: ["gstreamer0plugins:ugly"], verge: "1" }
-- { setname: "gstreamer0plugins:bad",  name: ["gstreamer1plugins:bad"], verlt: "0" }
-- { setname: "gstreamer1plugins:bad",  name: ["gstreamer0plugins:bad"], verge: "1" }
+- { setname: "gstreamer0plugins:base", name: ["gstreamer:base"] }
+- { setname: "gstreamer1plugins:base", name: ["gstreamer:base"] }
+- { setname: "gstreamer0plugins:good", name: ["gstreamer:good"] }
+- { setname: "gstreamer1plugins:good", name: ["gstreamer:good"] }
+- { setname: "gstreamer0plugins:ugly", name: ["gstreamer:ugly"] }
+- { setname: "gstreamer1plugins:ugly", name: ["gstreamer:ugly"] }
+- { setname: "gstreamer0plugins:bad",  name: ["gstreamer:bad"] }
+- { setname: "gstreamer1plugins:bad",  name: ["gstreamer:bad"] }
 - { setname: jack,                     name: [jack-audio-connection-kit,jack-audio-connection-kit1] }
 - { setname: "python:pygobject",       name: ["python:pygobject2", "python:pygobject3"] }
 - { setname: "python:pyside2",         name: ["python:pyside"], verge: "5" }

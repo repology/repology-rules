@@ -148,7 +148,7 @@
 - { setname: libmypaint,               name: libmypaint2 }
 - { setname: libnet,                   namepat: "libnet[012x.-]+" } # also account for libnet-1.0.x from entware, but not libnet6 which is a different thing
 - { setname: libnice,                  namepat: "libnice-(gst.*)", addflavor: true }
-- { setname: libnice,                  name: "gstreamer0plugins:libnice", addflavor: gstreamer }
+- { setname: libnice,                  name: "gstreamer:libnice", addflavor: gstreamer }
 - { setname: libnl,                    name: libnl-doc }
 - { setname: libnl,                    namepat: "libnl[0-9.-]+" }
 - { setname: libnova,                  name: libnova14-compat }
