@@ -126,6 +126,8 @@
 - { setname: excalibar,                name: libexcalibar, addflavor: lib }
 - { setname: exempi,                   name: libexempi }
 - { setname: exercism-cli,             name: [exercism,"go:github-exercism-cli"] }
+- { setname: exiftool,                 name: [image-exiftool, "perl:image-exiftool"] }
+- { setname: exiftool,                 name: "perl:image-exiftool-devel", weak_devel: true }
 - { setname: exim,                     name: exim4 }
 - { setname: exo,                      name: [libexo, xfce4-exo] }
 - { setname: exo,                      name: exo-devel, weak_devel: true }
