@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: z,                           ver: "1.11",                                        ignore: true, disposable: true } # https://github.com/rupa/z/issues/205
+- { name: z3,                          verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: zabbix,                      ver: "3.4.7",                 ruleset: sisyphus,    incorrect: true }
 - { name: zabbix,                                                    ruleset: sisyphus,    untrusted: true }
 - { name: zathura,                     ver: "20101104",                                    snapshot: true }
