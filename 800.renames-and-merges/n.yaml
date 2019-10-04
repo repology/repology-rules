@@ -87,6 +87,7 @@
 - { setname: ntfs-3g,                  name: ntfs-3g-wimlib-patched, addflavor: wimlib }
 - { setname: ntp,                      name: [ntpd, ntpdate], addflavor: true }
 - { setname: numptyphysics,            name: numpty-physics }
+- { setname: nushell,                  name: "rust:nu" }
 - { setname: nvidia-cg-toolkit,        name: [cg, cg-toolkit, cgtoolkit] }
 - { setname: nvidia-cg-toolkit,        name: cg-compiler, addflavor: compiler }
 - { setname: nvidia-settings,          namepat: "nvidia[x0-9.-]*-settings" }
