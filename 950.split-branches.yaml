@@ -126,11 +126,7 @@
 
 - { name: libftdi,                                        setbranchcomps: 1 }
 
-- { name: libmusicbrainz,    releq: "2",                  setname: libmusicbrainz2 }
-- { name: libmusicbrainz,    releq: "3",                  setname: libmusicbrainz3 }
-- { name: libmusicbrainz,    releq: "4",                  setname: libmusicbrainz4 }
-- { name: libmusicbrainz,    releq: "5",                  setname: libmusicbrainz5 }
-- { name: libmusicbrainz,    warning: "please classify me" }
+- { name: libmusicbrainz,                                 setbranchcomps: 1 }
 
 - { name: libnl,             releq: "1",                  setname: libnl1 }
 
