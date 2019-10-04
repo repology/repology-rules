@@ -114,8 +114,7 @@
 - { name: kdelibs,           releq: "3",                  setname: kdelibs3 }
 - { name: kdelibs,           releq: "4",                  setname: kdelibs4 }
 
-- { name: keepassx,          releq: "0",                  setname: keepassx0 }
-- { name: keepassx,          releq: "2",                  setname: keepassx2 }
+- { name: keepassx,                                       setbranchcomps: 1 }
 
 - { name: lcms,                                           setbranchcomps: 1 }
 
