@@ -25,13 +25,7 @@
 - { name: cyrus-imapd,       releq: "2",                  setname: cyrus-imapd2 }
 - { name: cyrus-imapd,       releq: "3",                  setname: cyrus-imapd3 }
 
-- { name: db,                releq: "6",                  setname: db6 }
-- { name: db,                releq: "5",                  setname: db5 }
-- { name: db,                releq: "4",                  setname: db4 }
-- { name: db,                releq: "3",                  setname: db3 }
-- { name: db,                releq: "2",                  setname: db2 }
-- { name: db,                releq: "1",                  setname: db1 }
-# newer versions are left in db
+- { name: db,                                             setbranchcomps: 2 }
 
 - { name: eigen,                                          setbranchcomps: 1 }
 
