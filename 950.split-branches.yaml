@@ -268,7 +268,7 @@
 
 - { name: tightvnc,          verge: "2",                  setname: tightvnc2 } # windows-only since 2.x
 
-- { name: udisks,            releq: "2",                  setname: udisks2 }
+- { name: udisks,                                         setbranchcomps: 1 }
 
 - { name: vte,               verlt: "0.29",               setname: vte-gtk2 }
 
