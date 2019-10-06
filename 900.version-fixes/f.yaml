@@ -23,6 +23,12 @@
 - { name: fern-wifi-cracker,           verpat: "[0-9]{3}",                                 incorrect: true } # blackarch's 222
 - { namepat: "fest(lex|vox)-.*",       ver: "20040804",                                    outdated: true } # some old crap from openbsd
 - { name: ffcall,                      verpat: "20[0-9]{6}",                               snapshot: true } # slitaz
+- { name: ffdiaporama,                 ver: "2.2",                   ruleset: [pclinuxos,rosa], incorrect: true }
+- { name: ffdiaporama,                                               ruleset: [pclinuxos,rosa], untrusted: true } # accused of fake 2.2
+- { name: ffdiaporama,                 verpat: "2\\.1\\.9.*",        ruleset: [mageia],    incorrect: true }
+- { name: ffdiaporama,                                               ruleset: [mageia],    untrusted: true } # accused of fake 2.1.9.devel.2014.0701
+- { name: ffdiaporama,                 ver: "2.2.D759",              ruleset: [aur],       incorrect: true }
+- { name: ffdiaporama,                                               ruleset: [aur],       untrusted: true } # accused of fake 2.2.D759
 - { name: ffmpeg,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # openbsd, chocolatey, pkgsrc
 - { name: ffmpegthumbs,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ffms2,                       ver: "2.23.1",                                      setver: "2.23" } # https://github.com/FFMS/ffms2/issues/313
