@@ -115,6 +115,8 @@
 - { name: skim, wwwpart: scim, setname: skim-scim }
 
 - { name: slack, wwwpart: maandree, setname: slack-timer }
+- { name: slack, wwwpart: code.google.com/p/slack, setname: slack-configuration-management }
+- { name: slack, category: [admin, universe/admin], setname: slack-configuration-management }
 
 - { name: slurm, wwwpart: [mattthias,raisdorf,wormulon], setname: slurm-monitor }
 - { name: slurm, ruleset: [aosc,openbsd,pkgsrc], setname: slurm-monitor }
