@@ -66,8 +66,7 @@
 - { name: gtk,               releq: "2",                  setname: gtk2 }
 - { name: gtk,               releq: "1",                  setname: gtk1 }
 
-- { name: gtkhtml,           releq: "2\\..*",            setname: gtkhtml2 }
-- { name: gtkhtml,           releq: "3\\..*",            setname: gtkhtml3 }
+- { name: gtkhtml,                                        setbranchcomps: 1 }
 
 - { name: gtkmm,             verpat: "(4|3\\.9[0-9]+)\\..*",  setname: gtkmm4 }
 - { name: gtkmm,             releq: "3",                  setname: gtkmm3 }
