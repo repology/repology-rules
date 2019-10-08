@@ -22,8 +22,7 @@
 
 - { name: compiz,            releq: "0.8",                setname: compiz08 }
 
-- { name: cyrus-imapd,       releq: "2",                  setname: cyrus-imapd2 }
-- { name: cyrus-imapd,       releq: "3",                  setname: cyrus-imapd3 }
+- { name: cyrus-imapd,                                    setbranchcomps: 1 }
 
 - { name: db,                                             setbranchcomps: 2 }
 
