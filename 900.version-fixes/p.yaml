@@ -60,6 +60,7 @@
 - { name: perl,                                                      ruleset: fedora,      untrusted: true }
 - { name: perl,                        verpat: ".*r.*",                                    devel: true }
 - { name: perl,                        verpat: "5\\.[0-9]*[13579]\\..*",                   devel: true }
+- { name: perlbal,                     verpat: "1\\.[0-9]{3,}.*",                          incorrect: true }
 - { name: peruse,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: pforth,                                                                          noscheme: true } # https://github.com/philburk/pforth
 - { name: pgadmin,                     verpat: "1\\.[0-9]*[13579]\\..*",                   devel: true }
