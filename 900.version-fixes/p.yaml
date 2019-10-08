@@ -62,8 +62,8 @@
 - { name: perl,                        verpat: "5\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: peruse,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: pforth,                                                                          noscheme: true } # https://github.com/philburk/pforth
-- { name: pgadmin3,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: pgadmin3,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: pgadmin,                     verpat: "1\\.[0-9]*[13579]\\..*",                   devel: true }
+- { name: pgadmin,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: photivo,                                                                         noscheme: true }
 - { name: phototonic,                  ver: "2.1.10",                                      incorrect: true }
 - { name: phototonic,                  verpat: "2\\.1\\.[0-9]+",     ruleset: [sisyphus,mageia,pclinuxos], incorrect: true }
