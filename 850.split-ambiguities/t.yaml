@@ -90,6 +90,12 @@
 - { name: tome, wwwpart: tome.te4.org, setname: tales-of-majeyal } # aur garbage
 - { name: tome, warning: "please classify me" }
 
+- { name: tornado, wwwpart: tornadoweb, setname: "python:tornado" }
+- { name: tornado, wwwpart: kouya, addflag: classified }
+- { name: tornado, category: games, addflag: classified }
+- { name: tornado, summpart: "web framework", addflag: "python:tornado" }
+- { name: tornado, warning: "please classify me", noflag: classified }
+
 - { name: tox, wwwpart: tox.chat, setname: toxcore }
 - { name: tox, wwwpart: [tox.readthedocs.io,tox.readthedocs.org,testrun,codespeak.net/tox], setname: "python:tox" }
 
