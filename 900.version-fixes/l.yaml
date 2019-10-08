@@ -109,3 +109,4 @@
 - { name: lynx,                        verpat: ".*pre.*",            ruleset: gentoo,      incorrect: true } # 'dev' versions incorrectly named as 'pre'
 - { name: lyricue,                     verpat: ".*isreally.*",                             incorrect: true } # if it says "is really" then it _not_ what it says on the tin
 - { name: lz4,                         verpat: "[0-9]+",                                   ignore: true }
+- { name: lzbench,                     verpat: "20[0-9]{6}",                               snapshot: true }
