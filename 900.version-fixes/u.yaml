@@ -8,6 +8,8 @@
 - { name: ucspi-ssl,                   ver: "0.999.10.11",                                 setver: "0.10.11", disposable: true } # XXX: exists only because and as long as it conveys a new version
 - { name: ucspi-ssl,                   verpat: "0\\.999.*",                                incorrect: true }
 - { name: ucspi-ssl,                   relge: "0.60", verle: "0.99z",                      outdated: true } # 0.9x < 0.10.x
+- { name: ufetch,                      ver: "0.1.1",                 ruleset: freebsd,     incorrect: true }
+- { name: ufetch,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 0.1.1
 - { name: ufoai,                       ver: "2.5.0+20150216",                              snapshot: true } # homebrew
 - { name: ufraw,                       ver: "0.23",                  ruleset: [sisyphus,fedora], incorrect: true }
 - { name: ufraw,                                                     ruleset: [sisyphus,fedora], untrusted: true }
