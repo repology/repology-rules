@@ -1,5 +1,10 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: xalan, wwwpart: xalan-c, setname: xalan-c }
+- { name: xalan, wwwpart: xalan-j, setname: xalan-j }
+- { name: xalan, category: dev-java, setname: xalan-j }
+- { name: xalan, warning: "please classify me" }
+
 - { name: xbase, setname: xbase-graywolf, wwwpart: graywolf }
 
 - { name: xclip, setname: emacs-xclip, ruleset: gentoo, category: app-emacs }
