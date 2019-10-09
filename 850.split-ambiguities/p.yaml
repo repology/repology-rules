@@ -117,6 +117,12 @@
 
 - { name: poster, setname: "python:poster", category: python } # python module, not a postscript utility
 
+- { name: pp, wwwpart: maandree, setname: pp-page-pager }
+- { name: pp, wwwpart: cdsoft, setname: pp-generic-preprocessor }
+- { name: pp, wwwpart: avz, setname: pp-pipe-progressbar }
+- { name: pp, wwwpart: adi.tilde, setname: pp-proprocessor }
+- { name: pp, warning: "please classify me" }
+
 - { name: pq, wwwpart: progressquest, setname: progress-quest }
 - { name: pq, wwwpart: libpq, setname: libpq }
 
