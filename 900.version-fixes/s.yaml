@@ -176,6 +176,7 @@
 - { name: splix,                       ver: ["2.0.1", "2.0.0.315"],  ruleset: [fedora,opensuse,pclinuxos,pisi,sisyphus], incorrect: true }
 - { name: splix,                                                     ruleset: [fedora,opensuse,pclinuxos,pisi,sisyphus], untrusted: true } # accused of fake 2.0.1, 2.0.0.315 versions
 - { name: sprunge,                                                                         noscheme: true }
+- { name: spyder,                      verpat: ".*b.*",                                    devel: true }
 - { name: sqlite,                      verpat: ".*_[0-9]+",                                ignore: true } # slackbuilds using debian patch
 - { name: sqlite,                      verpat: "3\\.[0-9]{4}",                             incorrect: true }
 - { name: sqlite,                      verpat: "3[0-9]{6}",                                incorrect: true }
