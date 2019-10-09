@@ -93,7 +93,7 @@
 - { name: tornado, wwwpart: tornadoweb, setname: "python:tornado" }
 - { name: tornado, wwwpart: kouya, addflag: classified }
 - { name: tornado, category: games, addflag: classified }
-- { name: tornado, summpart: "web framework", addflag: "python:tornado" }
+- { name: tornado, summpart: "web framework", setname: "python:tornado" }
 - { name: tornado, warning: "please classify me", noflag: classified }
 
 - { name: tox, wwwpart: tox.chat, setname: toxcore }
