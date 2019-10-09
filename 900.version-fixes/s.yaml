@@ -100,6 +100,8 @@
 - { name: slashem,                     ver: "3.4.3.7e7f1",           ruleset: openbsd,     incorrect: true }
 - { name: slashem,                                                   ruleset: openbsd,     untrusted: true } # accused of fake 3.4.3.7e7f1
 - { name: slashem,                     verpat: "(0\\.0\\.[0-9][A-Z])([0-9][A-Z])([0-9])",  setver: $1.$2.$3 } # braindead versioning scheme, fix to something comprehensible
+- { name: slib,                        ver: "3.2.5",                 ruleset: gentoo,      incorrect: true }
+- { name: slib,                                                      ruleset: gentoo,      untrusted: true } # accused of fake 3.2.5
 - { name: slim,                        ver: "1.3.6.10",                                    incorrect: true, disposable: true }
 - { name: slim,                        ver: "1.3.6.2",                                     successor: true } # https://github.com/somasis/slim
 - { name: slime,                       verpat: "20[0-9]{6}.*",                             ignore: true }
