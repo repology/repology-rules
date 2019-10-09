@@ -250,6 +250,6 @@
 - { setname: cyrus-imapd,              name: cyrus-imapd-ldap, addflavor: true }
 - { setname: cyrus-imapd,              namepat: "cyrus[0-9]*-imapd[0-9.-]*" }
 - { setname: cyrus-sasl,               name: [cyrus-sasl-lib,cyrus-sasl2] }
-- { setname: cyrus-sasl,               name: [cyrus-sasl-gssapi,cyrus-sasl-ldap,cyrus-sasl-ldapdb,cyrus-sasl-saslauthd,cyrus-sasl-sql,cyrus-sasl-srp,cyrus-saslauthd], addflavor: true }
+- { setname: cyrus-sasl,               name: [cyrus-sasl-gssapi,cyrus-sasl-ldap,cyrus-sasl-ldapdb,cyrus-sasl-saslauthd,cyrus-sasl-sql,cyrus-sasl-srp,cyrus-saslauthd,cyrus-sasl-pam], addflavor: true }
 - { setname: cython,                   name: cython2 }
 - { setname: cython-kivy,              name: cython2-kivy }
