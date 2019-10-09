@@ -8,6 +8,7 @@
 - { setname: yarn,                     name: yarn-bin, addflavor: true }
 - { setname: yarn,                     name: yarn-nightly, weak_devel: true }
 - { setname: yarn,                     name: ["node:yarn","node:yarnpkg"] }
+- { setname: yarn,                     name: [yarn-node8, yarn-node10], addflavor: true }
 - { setname: yarock,                   name: [yarock-mpv,yarock-qt5], addflavor: true }
 - { setname: yaze-ag,                  name: yaze }
 - { setname: yder,                     name: libyder }
