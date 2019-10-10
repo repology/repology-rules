@@ -4,6 +4,8 @@
 - { name: "python:apsw",               verpat: "(.*[0-9])[-._]?[pr]1",                     setver: $1 } # upstream use -r1 suffix
 - { name: "python:backports",          ver: "4.0.0",                                       incorrect: true } # opensuse fake
 - { name: "python:bottle",             verpat: "0\\.13.*",                                 devel: true }
+- { name: "python:click",              ver: "8.0.1",                 ruleset: haikuports,  incorrect: true } # different unofficial pypi package (click8)
+- { name: "python:click",                                            ruleset: haikuports,  untrusted: true } # accused of fake 8.0.1
 - { name: "python:coherence",          verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "python:configshell-fb",                                                         any_is_patch: true }
 - { name: "python:configshell-fb",     ver: "1.20",                                        incorrect: true }
