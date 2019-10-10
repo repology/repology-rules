@@ -249,7 +249,8 @@
 - { setname: cyphesis,                 name: cyphesis-cpp, ruleset: debuntu }
 - { setname: cyrus-imapd,              name: cyrus-imapd-ldap, addflavor: true }
 - { setname: cyrus-imapd,              namepat: "cyrus[0-9]*-imapd[0-9.-]*" }
-- { setname: cyrus-sasl,               name: [cyrus-sasl-lib,cyrus-sasl2] }
-- { setname: cyrus-sasl,               name: [cyrus-sasl-gssapi,cyrus-sasl-ldap,cyrus-sasl-ldapdb,cyrus-sasl-saslauthd,cyrus-sasl-sql,cyrus-sasl-srp,cyrus-saslauthd,cyrus-sasl-pam], addflavor: true }
+- { setname: cyrus-sasl,               name: [cyrus-sasl-lib,cyrus-sasl2,libsasl,libsasl2] }
+- { setname: cyrus-sasl,               name: [cyrus-sasl-gssapi,cyrus-sasl-ldap,cyrus-sasl-ldapdb,cyrus-sasl-saslauthd,cyrus-sasl-sql,cyrus-sasl-srp,cyrus-saslauthd,cyrus-sasl-pam,libsasl-without-ldap], addflavor: true }
+- { setname: cyrus-sasl,               name: [cy2-anonymous,cy2-crammd5,cy2-digestmd5,cy2-gssapi,cy2-ldapdb,cy2-login,cy2-ntlm,cy2-otp,cy2-plain,cy2-scram,cy2-sql], addflavor: true }
 - { setname: cython,                   name: cython2 }
 - { setname: cython-kivy,              name: cython2-kivy }
