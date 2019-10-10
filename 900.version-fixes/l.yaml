@@ -57,6 +57,8 @@
 - { name: lmdb++,                                                       ruleset: [fedora,macports], untrusted: true }
 - { name: lmdb++,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: lmms,                                                      ruleset: [sisyphus,kaos], untrusted: true } # accused of fake 1.1.95, 1.2.0
+- { name: lmms,                        ver: "1.2.0.9",               ruleset: opensuse,    incorrect: true }
+- { name: lmms,                                                      ruleset: opensuse,    untrusted: true } # accused of fake 1.2.0.9
 - { name: lockdev,                                                                         noscheme: true } # no upstream, everybody fetch from debian, random versions
 - { name: log4cxx,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: logfsprogs,                                                                      noscheme: true }
