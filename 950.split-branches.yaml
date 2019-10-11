@@ -245,6 +245,8 @@
 - { name: sqlite,            releq: "2",                  setname: sqlite2 }
 - { name: sqlite,            verpat: "3.*",               setname: sqlite3 } # also garbage like 3270200
 
+- { name: squid,                                          setbranchcomps: 1 }
+
 - { name: streamtuner,       releq: "0",                  setname: streamtuner0 }
 
 - { name: stringtemplate,    releq: "3",                  setname: stringtemplate3 }
