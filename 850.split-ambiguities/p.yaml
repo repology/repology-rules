@@ -144,6 +144,11 @@
 
 - { name: pulseaudio-equalizer, wwwpart: freedesktop.org/wiki/Software/PulseAudio, setname: pulseaudio, addflavor: equalizer }
 
+- { name: puma, wwwpart: clawoflight, setname: puma-password-manager }
+- { name: puma, wwwpart: puma.io, setname: "ruby:puma" }
+- { name: puma, ruleset: sisyphus, setname: "ruby:puma" }
+- { name: puma, warning: "please classify me" }
+
 - { name: pwm, wwwpart: pwm-project, setname: pwm-password-self-service }
 # otherwise, a tabbed window manaker, ion successor
 
