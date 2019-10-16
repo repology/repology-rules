@@ -101,6 +101,8 @@
 - { namepat: "lumina.*",               ver: "1.4.1",                 ruleset: [freebsd,ravenports], incorrect: true }
 - { namepat: "lumina.*",                                                                   p_is_patch: true }
 - { name: lumina,                      verpat: ".*p",                                      incorrect: true } # openmandriva
+- { name: lumina-calculator,           verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: lumina-pdf,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "lv2:noise-repellent",       verpat: ".*\\.20[0-9]{6}",                          snapshot: true }
 - { name: lxdm,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: lxpanel,                     verlonger: 3,                 ruleset: slitaz,      incorrect: true }
