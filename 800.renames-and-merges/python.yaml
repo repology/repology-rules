@@ -279,7 +279,8 @@
 - { setname: "python:pytest-tornado",  name: pytest-tornado }
 - { setname: "python:pytest-xdist",    name: pytest-xdist }
 - { setname: "python:pytest-xvfb",     name: pytest-xvfb }
-- { setname: "python:python-axolotl",  name: "python:axolotl" } # as per PyPi
+- { setname: "python:python-augeas",   name: ["python:augeas", python-augeas] } # as per PyPi; XXX: problem
+- { setname: "python:python-axolotl",  name: "python:axolotl" } # as per PyPi; XXX: problem
 - { setname: "python:python-axolotl-curve25519", name: "python:axolotl-curve25519" } # as per PyPi
 - { setname: "python:python-dateutil", name: ["python:dateutil","python:dateutil15"] } # XXX: problem
 - { setname: "python:python-djvulibre", name: "python:djvulibre" } # correct name on PyPi
