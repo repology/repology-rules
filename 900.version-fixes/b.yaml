@@ -6,6 +6,8 @@
 - { name: backup-manager,                                            ruleset: mageia,      untrusted: true } # accused of fake 0.7.15
 - { name: baloo,                       ver: "15.04.26",                                    ignore: true }
 - { name: baloo-widgets,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: banshee,                     ver: "2.6.3",                 ruleset: mint,        incorrect: true }
+- { name: banshee,                                                   ruleset: mint,        untrusted: true } # accused of fake 2.6.3
 - { name: baobab,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: barvinok,                    verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: bash,                                                                            p_is_patch: true }
