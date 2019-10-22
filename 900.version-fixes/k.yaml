@@ -164,6 +164,8 @@
 - { name: ksirk,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ksmtp,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ksnakeduel,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: ksnip,                       ver: "1.6.0",                 ruleset: mx,          incorrect: true }
+- { name: ksnip,                                                     ruleset: mx,          untrusted: true } # accused of fake 1.6.0
 - { name: kspaceduel,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ksquares,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kst,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
