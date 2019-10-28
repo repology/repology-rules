@@ -265,7 +265,9 @@
 
 - { name: udisks,                                         setbranchcomps: 1 }
 
-- { name: vte,               verlt: "0.29",               setname: vte-gtk2 }
+# Undecided which strictness we want here, feedback welcome
+- { name: vte,                                            setbranchcomps: 2 }
+#- { name: vte,               verlt: "0.29",               setbranch: gtk2 }
 
 - { name: wt,                                             setbranchcomps: 1 }
 
