@@ -22,6 +22,9 @@
 
 - { name: libelf,                      wwwpart: elfutils, setname: elfutils } # Arch: XXX: problem
 
+- { name: liberation, wwwpart: liberation-fonts, setname: "fonts:liberation" }
+- { name: liberation, warning: "please classify me" }
+
 - { name: libgl, wwwpart: mesa, setname: mesa }
 - { name: libgl, verpat: "1[89]\\..*", setname: mesa } # kaos
 
