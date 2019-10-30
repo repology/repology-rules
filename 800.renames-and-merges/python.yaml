@@ -377,4 +377,5 @@
 - { setname: "python:wxpython",        namepat: "(?:python:)?wxpython[0-9.-]*" }
 - { setname: "python:wxpython",        name: [wxpython-phoenix, wxpythongtk] }
 - { setname: "python:wxpython",        name: [wxpython-gtk2, wxpython-nuitka], addflavor: true }
+- { setname: "python:wxpython",        namepat: "python:wxwidgets[0-9.-]*" }
 - { setname: "python:zopfli",          name: "python:pyzopfli" }
