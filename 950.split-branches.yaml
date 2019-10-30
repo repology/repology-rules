@@ -222,6 +222,8 @@
 
 - { name: "python:unit",     wwwpart: nginx,              setname: unit, addflavor: python }
 
+- { name: "python:wxpython",                              setbranchcomps: 2 }
+
 - { name: qt,                releq: "1", noflag: not_legacy, setname: qt1 }
 - { name: qt,                releq: "2", noflag: not_legacy, setname: qt2 }
 - { name: qt,                releq: "3", noflag: not_legacy, setname: qt3 }
