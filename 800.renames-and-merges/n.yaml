@@ -1,5 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: nagios,                   name: [nagios3,nagios4] }
+- { setname: nagios,                   name: [nagios-core,nagios-base], addflavor: true }
 - { setname: namazu,                   name: namazu2 }
 - { setname: namd,                     name: namd-multicore-cuda, addflavor: true }
 - { setname: narcissu2,                name: narcissu2-en, addflavor: true }
