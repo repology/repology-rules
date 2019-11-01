@@ -176,6 +176,7 @@
 - { name: gns3-server,                 ver: "2.2.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: gns3-server,                                               ruleset: sisyphus,    untrusted: true }
 - { name: gnu-efi,                     verpat: "3\\.0[a-z]",                               outdated: true }
+- { name: gnu-smalltalk,               verpat: ".*9[0-9]+",                                devel: true }
 - { name: gnuastro,                    verlonger: 2,                                       devel: true } # alphas
 - { name: gnubg,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: gnugo,                       verpat: "[0-9]+\\.[0-9]*[13579](\\..*)?",           devel: true } # assumed; see http://git.savannah.gnu.org/cgit/gnugo.git/

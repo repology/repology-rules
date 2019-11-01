@@ -111,6 +111,7 @@
 - { name: cloog,                       ver: "0.18.5",                ruleset: [haikuports, aosc, arch], ignore: true } # unofficial fork
 - { name: cloudfuse,                   verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: clusterssh,                                                ruleset: gentoo,      ignore: true } # perl module version mangling rules apply here
+- { name: clutter-box2d,               verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: cmatrix,                     ver: "1.2b",                  ruleset: termux,      incorrect: true }
 - { name: cmatrix,                                                   ruleset: termux,      untrusted: true }
 - { name: cmdpack,                     vergt: "1.03",                                      successor: true }
