@@ -63,6 +63,7 @@
 - { name: discord, ruleset: [chocolatey,scoop], setname: discord-windows } # different versioning for different OSes, see wikidata
 
 - { name: discover, wwwpart: discoverd, setname: discoverd }
+- { name: discover, wwwpart: launchpad.net/discover, setname: discover-hardware-identification }
 - { name: discover, ruleset: debuntu, setname: discover-hardware-identification }
 - { name: discover, wwwpart: kde.org, setname: plasma-discover }
 - { name: discover, summpart: plasma, setname: plasma-discover }
@@ -115,6 +116,7 @@
 
 - { name: dsp, wwwpart: bmc0, setname: dsp-audio-processing }
 - { name: dsp, wwwpart: dns, setname: dsp-dns-statistics }
+- { name: dsp, wwwpart: dsp-emulator, setname: dsp-emulator }
 - { name: dsp, ruleset: solus, setname: dsp-audio-processing }
 - { name: dsp, warning: "please classify me" }
 
