@@ -74,6 +74,8 @@
 - { addflag: not_r,                    name: r-minimal }
 - { addflag: not_r,                    name: r-mkl }
 
+- { addflag: not_raku,                 name: rakudo-star }
+
 - { setname: ruby,                     namepat: "ruby-?[0-9.]+" }
 - { setname: ruby,                     namepat: ruby-doc, addflavor: doc }
 

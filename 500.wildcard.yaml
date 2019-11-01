@@ -150,6 +150,11 @@
 - { setname: "r:$1", addflag: wconce, noflag: [wconce,not_r], namepat: "r-(.*)",      ruleset: [ pkgsrc, fedora, guix, arch, debuntu, rosa, sisyphus, opensuse, nix, pld, conda ] }
 - { setname: "r:$1", addflag: wconce, noflag: [wconce,not_r], namepat: "(?:cran-)?(.*?)-r([0-9]{2})?", ruleset: fink, addflavor: $2 }
 
+# Raku
+- { setname: "raku:$1", addflag: wconce, noflag: [wconce,not_raku], namepat: "libperl6-(.*)-perl", ruleset: debuntu }
+- { setname: "raku:$1", addflag: wconce, noflag: [wconce,not_raku], namepat: "perl6-(.*)", ruleset: [aur, debuntu, slackbuilds, guix] }
+- { setname: "raku:$1", addflag: wconce, noflag: [wconce,not_raku], namepat: "rakudo-(.*)", ruleset: [fedora] }
+
 # ROS
 - { setname: "ros:$0", addflag: wconce, noflag: [wconce,not_ros], category: dev-ros,   ruleset: [ gentoo, exherbo ] }
 - { setname: "ros:$1", addflag: wconce, noflag: [wconce,not_ros], namepat: "ros-(.*)", ruleset: [ debuntu, arch ] }
