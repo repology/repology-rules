@@ -33,6 +33,7 @@
 - { name: carla,                                                     ruleset: pld,         untrusted: true } # accused of fake 2.0
 - { name: carla,                                                     ruleset: fedora,      untrusted: true } # accused of fake 2.0.0
 - { name: carla,                       verpat: ".*b.*",                                    devel: true }
+- { name: carla,                       ver: "2.1-b1-test1",                                incorrect: true } # freshcode, no such version
 - { name: castxml,                                                                         noscheme: true }
 - { name: cataclysm-dda,               verpat: ".*[0-9]{4}.*",                             snapshot: true }
 - { name: cave9,                       ver: "0.4.1.git20150408",     ruleset: freebsd,     setver: "0.4.1" }
