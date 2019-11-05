@@ -71,6 +71,9 @@
 - { setname: "haskell:$1", addflag: wconce, noflag: [wconce,not_haskell], namepat: "ghc[0-9.]+-(.*)", ruleset: sisyphus }
 - { setname: "haskell:$0", addflag: wconce, noflag: [wconce,not_haskell], category: "haskellPackages", ruleset: [ nix ] }
 
+# Java
+- { setname: "java:$1", addflag: wconce, noflag: [wconce,not_java], namepat: "lib(.*)-java", ruleset: debuntu }
+
 # JavaScript (XXX: probably move nodejs:* here)
 - { setname: "js:$1", addflag: wconce, noflag: [wconce,not_js], namepat: "libjs-(.*)", ruleset: [debuntu] }
 - { setname: "js:$1", addflag: wconce, noflag: [wconce,not_js], namepat: "js-(.*)", ruleset: [pld,fedora] }
