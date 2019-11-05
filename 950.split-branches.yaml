@@ -223,11 +223,6 @@
 - { name: nvidia, setname: nvidia-current, maintenance: true }
 # (see http://www.nvidia.com/object/unix.html)
 
-- { name: openjdk,           releq: "9",                  setname: openjdk9 }
-- { name: openjdk,           releq: "8",                  setname: openjdk8 }
-- { name: openjdk,           releq: "7",                  setname: openjdk7 }
-- { name: openjdk,           releq: "6",                  setname: openjdk6 }
-
 - { name: openjpeg,                                       setbranchcomps: 1 }
 
 - { name: openssl,                                        setbranchcomps: 2 }
