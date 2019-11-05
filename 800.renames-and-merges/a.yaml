@@ -105,8 +105,11 @@
 - { setname: ant,                      name: ant-junit5, addflavor: true }
 - { setname: anthy,                    name: libanthy }
 - { setname: antimicro,                name: antimicro-qt4 }
-- { setname: antlr,                    namepat: "antlr[0-9.-]+" }
+- { setname: antlr,                    namepat: "antlr[0-9.-]*(?:runtime-)?(c|cpp|java)?(?:-runtime)?", addflavor: $1 }
+- { setname: antlr,                    namepat: "python:antlr[0-9.-]*(python[23])?(?:-runtime)?", addflavor: $1 }
+- { setname: antlr,                    name: python3-antlr3, addflavor: python3 }
 - { setname: antlr,                    name: antlr3-bin, addflavor: bin }
+- { setname: antlr,                    name: libantlr3c, addflavor: c }
 - { setname: aolserver,                name: aolserver4 }
 - { setname: aom,                      name: libaom }
 - { setname: apache,                   name: [apache-httpd,httpd,apache-http-server] }
