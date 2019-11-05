@@ -81,6 +81,10 @@
 - { setname: npapi-vlc,                name: npapi-vlc-gtk3 }
 - { setname: npm,                      namepat: "npm[0-9.-]+" }
 - { setname: npth,                     name: libnpth }
+- { setname: nrpe,                     name: [nrpe3,nagios-nrpe] }
+- { setname: nrpe,                     name: nagios-nrpe-plugin, addflavor: plugin }
+- { setname: nsca,                     name: [nsca27,nagios-nsca] }
+- { setname: nsca,                     name: [nsca-client, nsca27-client], addflavor: client }
 - { setname: nspr,                     name: [mozilla-nspr,libnspr] }
 - { setname: nss,                      name: [mozilla-nss,libnss] }
 - { setname: nss-ldap,                 name: libnss-ldap }
