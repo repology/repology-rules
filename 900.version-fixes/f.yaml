@@ -164,6 +164,8 @@
 - { name: freerdp,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: freerdp,                     ver: "2.0.0",                 ruleset: [sisyphus,fedora,mageia,openmandriva,pclinuxos,pld,rosa,centos,freebsd], incorrect: true } # it's -rc[01] ATOW
 - { name: freerdp,                                                   ruleset: [sisyphus,fedora,mageia,openmandriva,pclinuxos,pld,rosa,centos,freebsd], untrusted: true }
+- { name: freerdp,                     vereq: "1.1",                 ruleset: [aur,chocolatey], incorrect: true } # 1.1beta1
+- { name: freerdp,                                                   ruleset: [aur,chocolatey], untrusted: true }
 - { name: freetds,                     vergt: "1.1.6", verle: "1.1.25",                    devel: true, maintenance: true } # see http://www.freetds.org/files/stable/ vs. http://www.freetds.org/files/current/ - stable and devel versions interchange within a single scheme
 - { name: freetuxtv,                   verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: freewnn,                     ver: "1.1.1",                 ruleset: pld,         incorrect: true }
