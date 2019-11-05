@@ -112,8 +112,7 @@
 
 - { name: hdf5,              relle: "1.8",                setbranch: "1.8" }
 
-- { name: hepmc,             releq: "2",                  setname: hepmc2 }
-- { name: hepmc,             releq: "3",                  setname: hepmc3 }
+- { name: hepmc,                                          setbranchcomps: 1 }
 
 - { name: icinga,            releq: "2",                  setname: icinga2 }
 
