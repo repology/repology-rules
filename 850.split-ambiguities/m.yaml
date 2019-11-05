@@ -96,6 +96,11 @@
 
 - { name: minizip, wwwpart: nmoinvaz, setname: minizip-nmoinvaz } # fork
 
+- { name: minlog, wwwpart: [minilog-system,mathematik], setname: minilog-proof-system }
+- { name: minlog, wwwpart: esotericsoftware, setname: minilog-java-logging }
+- { name: minlog, ruleset: sisyphus, setname: minilog-java-logging }
+- { name: minlog, warning: "please classify me" }
+
 - { name: mint, wwwpart: mint-lang, setname: mint-lang }
 - { name: mint, wwwpart: yonaskolb, setname: mint-swift-package-manager }
 - { name: mint, warning: "please classify me" }
