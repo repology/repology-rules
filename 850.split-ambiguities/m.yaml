@@ -97,8 +97,9 @@
 - { name: minizip, wwwpart: nmoinvaz, setname: minizip-nmoinvaz } # fork
 
 - { name: minlog, wwwpart: [minilog-system,mathematik], setname: minilog-proof-system }
-- { name: minlog, wwwpart: esotericsoftware, setname: minilog-java-logging }
-- { name: minlog, ruleset: sisyphus, setname: minilog-java-logging }
+- { name: minlog, wwwpart: esotericsoftware, setname: "java:minilog" }
+- { name: minlog, ruleset: sisyphus, setname: "java:minilog" }
+# exherbo left, the site is currently down so cannot check which belongs to
 - { name: minlog, warning: "please classify me" }
 
 - { name: mint, wwwpart: mint-lang, setname: mint-lang }
