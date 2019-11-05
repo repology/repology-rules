@@ -2,6 +2,8 @@
 
 - { setname: "lua:ada",                name: lua-ada }
 - { setname: "lua:bitop",              name: [lua-bitop,lua-luabitop,lua5.2-bitop,luabitop,bitop] }
+- { setname: "lua:bcrypt",             name: [luabcrypt] }
+- { setname: "lua:bcrypt",             namepat: "luabcrypt([0-9.-]+)", addflavor: $1 } # suffix is lua version
 - { setname: "lua:cgi",                name: [cgilua, lua-cgilua, "lua:cgilua"] }
 - { setname: "lua:copas",              name: [copas,lua-copas,luacopas] }
 - { setname: "lua:dbi",                name: [lua-dbi, luadbi] }
