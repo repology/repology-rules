@@ -4,7 +4,9 @@
 
 - { name: ansible,                                        setbranchcomps: 2 }
 
-- { name: antlr,                                          setbranchcomps: 1 }
+- { name: antlr,             relle: "2",                  setname: antlr2 }
+- { name: antlr,             releq: "3",                  setname: antlr3 }
+- { name: antlr,             releq: "4",                  setname: antlr4 }
 
 - { name: apache,                                         setbranchcomps: 2 }
 
