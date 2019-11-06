@@ -21,7 +21,7 @@
 
 - { name: botan,                                          setbranchcomps: 1 }
 
-- { name: bowtie,                                         setbranchcomps: 1 }
+- { name: bowtie,            releq: "2",                  setname: bowtie2 }
 
 - { name: bugzilla,                                       setbranchcomps: 2 }
 
