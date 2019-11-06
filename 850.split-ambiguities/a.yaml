@@ -11,6 +11,7 @@
 - { name: ace, summpart: voip, setname: ace-voip }
 - { name: ace, summpart: "adaptive communication environment", setname: ace-framework }
 - { name: ace, ruleset: solus, setname: ace-voip }
+- { name: ace, ruleset: yacp, setname: ace-error-correction }
 - { name: ace, warning: "please classify me" }
 
 - { name: aclock, ruleset: freebsd, setname: gnustep-aclock } # gnustep; may be not ambiguity (yet), but too generic name for sure
