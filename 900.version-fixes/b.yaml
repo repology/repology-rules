@@ -96,6 +96,7 @@
 - { name: brickout,                    verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" } # it's clearly 2002.06.09 as stated on the website
 - { name: brise,                       verpat: "20[0-9]{6}",                               snapshot: true } # NOTE: dates allowed at version tail
 - { name: brisk-menu,                  ver: "0.5.1",                 ruleset: freebsd,     incorrect: true } # fork and a new fake version for the sake of single commit
+- { name: broadcom-sta,                verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: brotli,                      verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: budgie-desktop,              verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: budgie-desktop,              ver: "10.5",                  ruleset: solus,       incorrect: true } # fake version of their own product, lol

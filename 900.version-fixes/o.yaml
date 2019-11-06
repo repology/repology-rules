@@ -70,6 +70,7 @@
 - { name: opennap,                                                   ruleset: hpux,        untrusted: true }
 - { name: openntpd,                    ver: "20080406p",                                   snapshot: true }
 - { name: openntpd,                                                                        p_is_patch: true }
+- { name: openrazer,                   verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: openscad,                    verlonger: 2,                 ruleset: freebsd,     incorrect: true }
 - { name: openscenegraph,              verpat: "3\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: opensmtpd,                                                                       p_is_patch: true }
