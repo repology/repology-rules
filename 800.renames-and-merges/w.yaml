@@ -61,7 +61,7 @@
 - { setname: wiznote,                  name: wiznote-qt4, addflavor: true }
 - { setname: wlc,                      name: libwlc0 }
 - { setname: wlroots,                  name: wlroots-full, addflavor: true }
-- { setname: wmii,                     name: wmii-devel, weak_devel: true }
+- { setname: wmii,                     name: [wmii-devel,wmii-hg], weak_devel: true }
 - { setname: wok-plugins-kimchi,       name: wokd }
 - { setname: worldofpadman,            name: worldofpadman-data, addflavor: data }
 - { setname: worldofpadman,            name: worldofpadman-beta, ignore: true }
