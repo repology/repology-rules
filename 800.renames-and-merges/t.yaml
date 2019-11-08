@@ -5,9 +5,8 @@
 - { setname: tabixpp,                  name: libtabixpp }
 - { setname: tali,                     name: gnome-games-tali }
 - { setname: talkfilters,              name: talk-filters }
-- { setname: talloc,                   name: libtalloc }
-- { setname: talloc,                   name: talloc-man, addflavor: man }
-- { setname: talloc,                   name: talloc-static, addflavor: static }
+- { setname: talloc,                   name: [libtalloc,talloc1] }
+- { setname: talloc,                   name: [talloc-man,talloc-static], addflavor: true }
 - { setname: tar,                      name: [gnutar,gnu-tar,gtar] }
 - { setname: tar,                      name: [gtar-base,gtar-info], addflavor: true }
 - { setname: tarsnapper,               name: "python:tarsnapper" }
