@@ -150,6 +150,7 @@
 - { name: mtd-utils,                                                 ruleset: maemo,       ignore: true } # fork?
 - { name: mtd-utils,                   verpat: "[0-9]{6}",                                 incorrect: true } # slackware garbage
 - { name: mtxclient,                   verpat: "20[-0-9]{8}",                              snapshot: true }
+- { name: mu,                          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: multibootusb,                ver: "9.3.0",                 ruleset: freshcode,   incorrect: true }
 - { name: multimon-ng,                 verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: mumble,                                                    ruleset: kaos,        ignore: true } # snapshot with random version
