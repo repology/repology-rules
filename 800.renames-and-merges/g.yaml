@@ -225,9 +225,9 @@
 - { setname: gnumpc,                   name: [mpc1,mpclib,mpclib3,mpcomplex,libmpc3] }
 - { setname: gnunet,                   name: [gnunet-fuse,gnunet-gtk,gnunet-qt], addflavor: true }
 - { setname: gnunet,                   name: gnunet-svn, ignore: true }
-- { setname: gnupg,                    name: [gpg-agent,gnupg-clavator,gnupg-large-rsa,gnupg-largekeys,gnupg-large-secmem], addflavor: true }
+- { setname: gnupg,                    name: [gpg-agent,gnupg-clavator,gnupg-large-rsa,gnupg-largekeys,gnupg-large-secmem,gnupg-modern,gnupg-scdaemon-shared-access], addflavor: true }
 - { setname: gnupg,                    namepat: "(gnupg|gpg)[0-9._-]*" }
-- { setname: gnupg,                    name: gnupg-stable }
+- { setname: gnupg,                    name: [gnupg-stable,gnupg1compat]  }
 - { setname: gnuplot,                  name: [gnuplot-caca,gnuplot-headless,gnuplot-lite,gnuplot-tex-extras], addflavor: true }
 - { setname: gnuplot,                  name: gnuplot-cvs-pdflib, ignore: true }
 - { setname: gnuplot,                  namepat: "gnuplot[0-9.-]+" }
