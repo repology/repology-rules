@@ -3,6 +3,11 @@
 - { name: pac, wwwpart: [davidtv,pacmanager], setname: pacmanager }
 - { name: pac, wwwpart: parabola, setname: "fonts:pac" }
 
+- { name: packit, wwwpart: [packit.sourceforge.net,eribertomota,resurrecting-open-source-projects,openwall,obtuse], setname: packit-network-auditing-tool }
+- { name: packit, wwwpart: packit-service, setname: packit-packaging-tool }
+- { name: packit, category: [net,universe/net], setname: packit-network-auditing-tool }
+- { name: packit, warning: "please classify me" }
+
 - { name: pal, wwwpart: palcal, setname: palcal }
 - { name: pal, wwwpart: starlink, setname: pal-astronomical }
 - { name: pal, ruleset: cygwin, setname: palcal }
