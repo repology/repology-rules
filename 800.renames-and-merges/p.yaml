@@ -102,6 +102,8 @@
 - { setname: picard,                   name: musicbrainzpicard }
 - { setname: pilot-link,               name: "perl:pilot-link" }
 - { setname: pilot-link,               name: pilot-link-libs, addflavor: libs }
+- { setname: pinentry,                 name: pinentry0.8 }
+- { setname: pinentry,                 name: [pinentry-gtk,pinentry-emacs,pinentry-efl], addflavor: true }
 - { setname: pioneer,                  name: pioneerspacesim }
 - { setname: pipenv,                   name: "python:pipenv" }
 - { setname: pipsi,                    name: [pipsi2,"python:pipsi"] }
