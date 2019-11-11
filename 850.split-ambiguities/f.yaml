@@ -41,6 +41,10 @@
 - { name: figurine, ruleset: gobolinux, setname: figurine-graphics }
 - { name: figurine, warning: "please classify me" }
 
+- { name: foomatic, ruleset: [sisyphus,aosc,gobolinux], remove: true } # metapackages
+- { name: foomatic, ruleset: [centos,fedora], setname: foomatic-db-engine } # metapackages
+- { name: foomatic, warning: "please classify me" }
+
 - { name: foreman, wwwpart: ddollar, setname: "ruby:foreman" }
 
 - { name: forge, wwwpart: [fsharp,forge.run], setname: forge-fsharp }
