@@ -7,7 +7,8 @@
 - { setname: fail2ban,                 name: "python:fail2ban" }
 - { setname: fail2ban,                 name: fail2ban6 }
 - { setname: falcons-eye,              name: falconseye }
-- { setname: falkon,                   name: qupzilla } # former name; XXX: problem
+- { setname: falkon,                   name: [qupzilla-qt4,qupzilla-qt5,qupzilla-qtwebkit,qupzilla-appimage], addflavor: true } # qupzilla is a former name
+- { setname: falkon,                   name: [qupzilla,qupzilla1] }
 - { setname: fallingtime,              name: falling-time }
 - { setname: fanficfare,               name: "python:fanficfare" }
 - { setname: farmanager,               name: far-manager }
