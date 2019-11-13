@@ -398,7 +398,8 @@ if __name__ == '__main__':
 
     try:
         from multiprocessing import Pool
-        results = Pool().map(check_rule_file, argv[1:])
+        with Pool() as pool:
+            results = pool.map(check_rule_file, argv[1:])
     except ImportError:
         results = map(check_rule_file, argv[1:])
 
