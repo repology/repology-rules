@@ -21,7 +21,7 @@
 - { setname: iceweasel-uxp,            namepat: "iceweasel-uxp-(l10n-.*)", addflavor: $1 }
 - { setname: icewm,                    name: icewm2 }
 - { setname: icinga,                   name: icinga2 } # split later
-- { setname: icinga,                   name: [icinga-base,icinga-cgi,icinga-classic-ui,icinga-idoutils,icinga2-ido-mysql,icinga2-ido-pgsql], addflavor: true }
+- { setname: icinga,                   name: [icinga-base,icinga-cgi,icinga-classic-ui,icinga-idoutils,icinga2-ido-mysql,icinga2-ido-pgsql,icinga2-ido], addflavor: true }
 - { setname: icingaweb2,               name: icinga-web2 }
 - { setname: icon,                     name: icon-lang }
 - { setname: iconpack-obsidian,        name: obsidian-icon-theme }
