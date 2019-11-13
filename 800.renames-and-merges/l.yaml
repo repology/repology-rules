@@ -40,7 +40,7 @@
 - { setname: liberal-crime-squad,      name: [lcs,liberalcrimesquad] }
 - { setname: libmediainfo,             name: [mediainfolib,libmediainfo0] }
 - { setname: libreoffice,              name: [libreoffice-bin,libreoffice-bin-debug,libreoffice-gtk3], addflavor: true }
-- { setname: libreoffice,              name: [libreoffice-dev,libreoffice-fresh,libreoffice-oldstable,libreoffice-still] }
+- { setname: libreoffice,              name: [libreoffice-dev,libreoffice-fresh,libreoffice-oldstable,libreoffice-still,libreoffice-stable] }
 - { setname: libreoffice,              namepat: "([^-]+)-libreoffice", ruleset: freebsd, addflavor: $1 }
 - { setname: libreoffice,              namepat: "libreoffice-((?:i18n|l10n|help).*)", addflavor: $1 }
 - { setname: libreoffice,              namepat: "libreoffice-(.*)", ruleset: kaos, addflavor: $1 }
@@ -48,6 +48,8 @@
 - { setname: libreoffice,              namepat: "libreoffice-still-(.*)", ruleset: arch, addflavor: $1 }
 - { setname: libreoffice,              name: libreofficehelp, addflavor: help }
 - { setname: libreoffice,              name: libreofficestill }
+- { setname: libreoffice,              name: [libreoffice-dev-alpha,libreoffice-dev-beta], weak_devel: true }
+- { setname: libreoffice,              name: [libreoffice5-bin,libreoffice6-bin], addflavor: bin }
 - { setname: libreoffice-extension-barcode, name: barcode, ruleset: gentoo, category: app-officeext }
 - { setname: libreoffice-voikko,       name: voikko-libreoffice }
 - { setname: libressl,                 name: libressl-devel, weak_devel: true }
