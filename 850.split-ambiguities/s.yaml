@@ -92,6 +92,10 @@
 - { name: silo, wwwpart: kernel.org, setname: silo-sparc-loader }
 - { name: silo, warning: "please classify me" }
 
+- { name: sim, wwwpart: [sim-im,sim-icq], setname: sim-im }
+- { name: sim, wwwpart: similarity_tester, setname: similarity-tester }
+- { name: sim, warning: "please classify me" }
+
 - { name: singularity, wwwpart: singularity.lbl.gov, setname: singularity-container } # moving to sylabs.io
 - { name: singularity, wwwpart: sylabs.io, setname: singularity-container }
 - { name: singularity, wwwpart: ingularityviewer, setname: singularityviewer }
