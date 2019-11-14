@@ -257,10 +257,10 @@
 - { name: statik, wwwpart: rakyll, setname: "go:github-rakyll-statik" }
 
 - { name: step, wwwpart: smallstep, setname: step-smallstep }
-- { name: step, wwwpart: kde.org, addflag: classified }
-- { name: step, summpart: physic, addflag: classified }
-- { name: step, category: kde, addflag: classified }
-- { name: step, noflag: classified, warning: "please classify me" }
+- { name: step, wwwpart: kde.org, setname: step-physical-simulator }
+- { name: step, summpart: physic, setname: step-physical-simulator }
+- { name: step, category: kde, setname: step-physical-simulator }
+- { name: step, warning: "please classify me" }
 
 - { name: sterm, wwwpart: suckless, setname: st-term } # freebsd rename of st; but there's actual sterm project
 
