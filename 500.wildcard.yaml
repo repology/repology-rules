@@ -121,6 +121,7 @@
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php[0-9]*-(?:pear-|pecl-)?(.*?)", ruleset: [adelie,alpine,arch,crux,debuntu,fedora,freebsd,macports,mageia,nix,openbsd,openmandriva,openpkg,opensuse,openwrt,pclinuxos,pkgsrc,pld,ravenports,rosa,sisyphus,slackbuilds,void,t2] }
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php-[0-9._]+-ext-(.*)", ruleset: openindiana }
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "libphp-(.*)", ruleset: debuntu }
+- { setname: "php:$2", addflag: wconce, noflag: [wconce,not_php], namepat: "pecl([0-9]+)-(.*)", ruleset: openbsd, addflavor: $1}
 # Note: there are some clashes between pear- and pecl- modules, and possibly modules which are part of PHP,
 # see php:yaml php:dba php:zip php:mcrypt for examples - I'm letting it hang until it bothers somebody. Who
 # could probably shed some light on why's there multiple modules, and what's the difference. The affected
