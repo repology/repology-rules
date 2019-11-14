@@ -96,3 +96,7 @@
 - { setname: "python:wxpython28",      name: "python:wxpython28-common", ruleset: freebsd }
 - { setname: "python:py-bcrypt",       name: "python:bcrypt", wwwpart: py-bcrypt }
 - { setname: "python:bcrypt",          name: bcrypt, wwwpart: pyca }
+- { setname: courier-imap,             name: courier, wwwpart: courier-mta, ruleset: openbsd }
+- { setname: maildrop,                 name: courier, wwwpart: maildrop, ruleset: openbsd }
+- { setname: gcc,                      name: g95, wwwpart: gcc, ruleset: openbsd }
+- { setname: mecab-ipadic,             name: mecab, wwwpart: ipadic, ruleset: openbsd }

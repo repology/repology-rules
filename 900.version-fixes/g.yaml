@@ -217,6 +217,7 @@
 - { name: gpm,                         verpat: "[0-9]+\\.99\\..*",                         devel: true } # assumed
 - { name: gprbuild,                    verpat: "[0-9]{5,}.*",                              ignore: true }
 - { name: gprolog,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 1.4.5
+- { name: gpsbabel,                    ver: "1.6.0.1",                                     setver: "1.6.0", disposable: true } # tags point to same commit
 - { name: gpsim,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: gpsim,                       ver: "20050905",                                    outdated: true }
 - { name: gradm,                       verpat: "[0-9]{8}.*",                               incorrect: true } # it.s 3.1.YYYYMMDD.., see https://grsecurity.net/download.php
@@ -253,6 +254,7 @@
 - { name: gstreamer,                   verlonger: 3,                 ruleset: aur,         incorrect: true }
 - { name: gstreamer,                   verpat: "1\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: gtest,                       verlonger: 3,                                       ignore: true } # freebsd garbage
+- { name: gtetrinet,                   verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: gtk,                         verpat: "[0-9]+\\.9[0-9]+\\..*",                    devel: true }
 - { name: gtk,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gtk-doc,                     verlonger: 2,                                       ignore: true } # sisyphus fake

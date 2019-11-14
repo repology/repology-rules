@@ -58,6 +58,8 @@
 - { name: mbrola,                      verpat: "([0-9])([0-9]+[a-z])",                     setver: $1.$2 }
 - { name: mbrola,                      verpat: "([0-9]+)\\.([0-9]+)\\.([0-9]+[a-z])",      setver: $1.$2$3 }
 - { name: mdadm,                                                     ruleset: fedora,      untrusted: true } # accused of fake 4.1
+- { name: mecab,                       ver: "1.0",                   ruleset: vcpkg,       incorrect: true }
+- { name: mecab,                                                     ruleset: vcpkg,       untrusted: true } # accused of fake 1.0
 - { name: mediatomb,                   ver: "0.12.2",                ruleset: fedora,      incorrect: true }
 - { name: mediatomb,                                                 ruleset: fedora,      untrusted: true } # accused of fake 0.12.2
 - { name: meld,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
