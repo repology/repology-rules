@@ -260,6 +260,7 @@
 - { name: step, wwwpart: kde.org, setname: step-physical-simulator }
 - { name: step, summpart: physic, setname: step-physical-simulator }
 - { name: step, category: kde, setname: step-physical-simulator }
+- { name: step, ruleset: [kaos,pld,slackware], setname: step-physical-simulator }
 - { name: step, warning: "please classify me" }
 
 - { name: sterm, wwwpart: suckless, setname: st-term } # freebsd rename of st; but there's actual sterm project
