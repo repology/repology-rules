@@ -29,11 +29,11 @@
 - { name: ffdiaporama,                                               ruleset: [mageia],    untrusted: true } # accused of fake 2.1.9.devel.2014.0701
 - { name: ffdiaporama,                 ver: "2.2.D759",              ruleset: [aur],       incorrect: true }
 - { name: ffdiaporama,                                               ruleset: [aur],       untrusted: true } # accused of fake 2.2.D759
+- { name: "ffext:ublock-origin",       verpat: ".*b.*",                                    devel: true }
+- { name: "ffext:ublock-origin",       ver: "1.23.1b3",                                    incorrect: true } # no such version, latest https://github.com/gorhill/uBlock/releases/tag/1.23.1rc1
 - { name: ffmpeg,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # openbsd, chocolatey, pkgsrc
 - { name: ffmpegthumbs,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ffms2,                       ver: "2.23.1",                                      setver: "2.23" } # https://github.com/FFMS/ffms2/issues/313
-- { name: "ffext:ublock-origin",       verpat: ".*b.*",                                    devel: true }
-- { name: "ffext:ublock-origin",       ver: "1.23.1b3",                                    incorrect: true } # no such version, latest https://github.com/gorhill/uBlock/releases/tag/1.23.1rc1
 - { name: figlet,                      ver: "222",                                         ignore: true } # haikuports
 - { name: file-roller,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: filelight,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
