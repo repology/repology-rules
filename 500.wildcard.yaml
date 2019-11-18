@@ -156,7 +156,7 @@
 
 # Raku
 - { setname: "raku:$1", addflag: wconce, noflag: [wconce,not_raku], namepat: "libperl6-(.*)-perl", ruleset: debuntu }
-- { setname: "raku:$1", addflag: wconce, noflag: [wconce,not_raku], namepat: "perl6-(.*)", ruleset: [aur, debuntu, slackbuilds, guix] }
+- { setname: "raku:$1", addflag: wconce, noflag: [wconce,not_raku], namepat: "perl6-(.*)", ruleset: [aur,debuntu,slackbuilds,guix,sisyphus] }
 - { setname: "raku:$1", addflag: wconce, noflag: [wconce,not_raku], namepat: "rakudo-(.*)", ruleset: [fedora] }
 
 # ROS
