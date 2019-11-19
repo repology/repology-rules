@@ -64,6 +64,7 @@
 - { setname: percona-xtrabackup,       name: [percona-xtrabackup-bin,xtrabackup-bin], addflavor: bin }
 - { setname: percona-xtrabackup,       name: xtrabackup }
 - { setname: percona-xtradb-cluster,   namepat: "percona-xtradb-cluster[0-9._-]+" }
+- { setname: perdition,                name: [perdition-bdb,perdition-gdbm,perdition-ldap,perdition-mysql,perdition-odbc,perdition-pam,perdition-pgsql,perdition-postgresql], addflavor: true }
 - { setname: perf,                     name: perf-linux }
 - { setname: perkeep,                  name: camlistore } # former name
 - { setname: perl,                     name: microperl, addflavor: true }
