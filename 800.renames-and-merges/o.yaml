@@ -34,6 +34,8 @@
 - { setname: openafs,                  name: [openafs-kernel,openafs-modules,openafs-modules-dkms] }
 - { setname: openal,                   name: libopenal }
 - { setname: openal,                   name: [openal-static,openal-examples], addflavor: true }
+- { setname: openarena,                name: [openarena-data,openarena-maps,openarena-misc,openarena-players,openarena-players-mature,openarena-server,openarena-textures], addflavor: true }
+- { setname: openarena,                name: [openarena-085-data,openarena-088-data], addflavor: data }
 - { setname: openbabel,                name: open-babel }
 - { setname: openbazaar,               name: openbazaar-desktop }
 - { setname: openblas,                 name: [openblas-lapack,openblas-lapack-ilp64] }
