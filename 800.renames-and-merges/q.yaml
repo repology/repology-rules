@@ -23,6 +23,8 @@
 - { setname: qr-mumps,                 name: qrmumps }
 - { setname: qremotecontrol,           name: qremotecontrol-server }
 - { setname: qrencode,                 name: libqrencode }
+- { setname: qt-fsarchiver,            name: [qt4-fsarchiver,qt5-fsarchiver] } # former names XXX: warning
+- { setname: qt-fsarchiver-terminal,   name: qt5-fsarchiver-terminal } # XXX: warning, misleading name
 - { setname: qt-gstreamer,             name: [qt-gstreamer1,qt5-gstreamer,qt5-gstreamer1], addflavor: true }
 - { setname: qt-mobility,              name: qt-mobility11 }
 - { setname: qt-recordmydesktop,       name: recordmydesktop-qt }
