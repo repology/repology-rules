@@ -185,6 +185,8 @@
 - { name: curaengine,                  verpat: "1[45].*",                                  outdated: true }
 - { name: curses-hexedit,              verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)_[0-9]+",        setver: $1 } # slackbuilds - debian patchlevel
 - { name: cutegram,                    ver: "2.99",                                        incorrect: true }
+- { name: cutegram,                    ver: "2.9.5",                                       devel: true }
+- { name: cutegram,                    vergt: "2.9.5",               ruleset: chakra,      ignore: true } # my provide other devel versions
 - { name: cutycapt,                                                                        noscheme: true }
 - { name: cuyo,                        ver: "2.1.1",                 ruleset: gentoo,      outdated: true } # refers to some 2.~-1.1 from http://download-mirror.savannah.gnu.org/releases/cuyo/ from 2007, while the latest version is from 2014
 - { name: cuyo,                                                      ruleset: gentoo,      untrusted: true } # who knows what will they pick after 2.1.1
