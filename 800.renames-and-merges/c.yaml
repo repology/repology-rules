@@ -205,7 +205,8 @@
 - { setname: crimson-fields,           name: crimsonfields }
 - { setname: criticalmass,             name: critter }
 - { setname: cross-binutils$1,         namepat: "gnatcross-binutils(.*)", addflavor: gnat }
-- { setname: crossguid,                name: libcrossguid }
+- { setname: crossguid,                name: [libcrossguid,crossguid2] }
+- { setname: crossguid,                name: crossguid-git, weak_devel: true }
 - { setname: crossover,                name: wine-crossover }
 - { setname: crrcsim-models,           name: crrcsim-addon-models }
 - { setname: crypto++,                 name: [crypto++-562,cryptopp,libcrypto++,libcryptopp] }
