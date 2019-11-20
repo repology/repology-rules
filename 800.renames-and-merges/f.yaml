@@ -18,7 +18,7 @@
 - { setname: fastd,                    name: fastd-devel, weak_devel: true }
 - { setname: fcgi,                     name: [fcgi-devkit,libfcgi] }
 - { setname: fcgi-cgi,                 name: fcgi-cgi-static, addflavor: static }
-- { setname: fcitx,                    name: [fcitx-gtk2,fcitx-gtk3,fcitx-qt4], addflavor: true } # but qt5 is different project
+- { setname: fcitx,                    name: [fcitx-gtk2,fcitx-gtk3,fcitx-qt4,fcitx-gtk], addflavor: true } # but qt5 is different project
 - { setname: fcitx-qt5,                name: libfcitx-qt5 }
 - { setname: fdk-aac,                  name: libfdk-aac }
 - { setname: fdkaac,                   name: fdk-aac-encoder }
