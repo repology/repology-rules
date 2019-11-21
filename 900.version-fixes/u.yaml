@@ -14,6 +14,7 @@
 - { name: ufraw,                       ver: "0.23",                  ruleset: [sisyphus,fedora], incorrect: true }
 - { name: ufraw,                                                     ruleset: [sisyphus,fedora], untrusted: true }
 - { name: uhttpmock,                   ver: "0.6.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: ultimatestunts,              verpat: "[0-9]{3,}",                                incorrect: true } # 0.7.7.1, not 0771
 - { name: umbrello,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: uml-utilities,               ver: "20070815.1",                                  incorrect: true }
 - { name: uml-utilities,                                             ruleset: debuntu,     untrusted: true }
