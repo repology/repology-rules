@@ -140,7 +140,8 @@
 - { setname: tremor,                   name: [libtremor, libvorbisidec] }
 - { setname: tremulous,                name: tremulous-data, addflavor: data }
 - { setname: triceratops-lv2,          name: lv2-triceratops }
-- { setname: trigger-rally,            name: trigger, ruleset: gentoo }
+- { setname: trigger-rally,            name: trigger }
+- { setname: trigger-rally,            name: [trigger-data, trigger-rally-data], addflavor: data }
 - { setname: tripwire,                 name: [tripwire-131,tripwire12] }
 - { setname: trn,                      name: trn4 }
 - { setname: trnascan-se,              name: [trnascanse, trnascan] }
