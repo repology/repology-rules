@@ -58,5 +58,8 @@
 # don't trust npackd either, as it cannot into prerelease versions (firefox 67.0b9 is 67.0.9)
 - {                                                                  ruleset: npackd,      untrusted: true }
 
+# abandoned, 50% outdated, ignores flags, not a source of trusted new versions
+- {                                                                  ruleset: freshcode,   untrusted: true }
+
 # melpa always uses snapshots
 - {                                                                  ruleset: melpa,       rolling: true }
