@@ -69,10 +69,7 @@
 - { setname: thunderbird,              name: [mozilla-thunderbird,mozillathunderbird] }
 - { setname: thunderbird,              name: [thunderbird-45-gtk2,thunderbird-gtk2], addflavor: gtk2 }
 - { setname: thunderbird,              name: mozilla-thunderbird-l10n, addflavor: l10n }
-- { setname: thunderbird,              name: thunderbird-bin, addflavor: bin }
-- { setname: thunderbird,              name: thunderbird-i18n, addflavor: i18n }
-- { setname: thunderbird,              name: thunderbird-l10n-xpi, addflavor: l10n }
-- { setname: thunderbird,              name: thunderbird-ru, addflavor: ru }
+- { setname: thunderbird,              name: [thunderbird-bin,thunderbird-i18n,thunderbird-l10n-xpi,thunderbird-ru,thunderbird-kde], addflavor: true }
 - { setname: thunderbird,              namepat: "(?:mozilla-)?thunderbird-((?:i18n|l10n|langpack)-.*)", addflavor: $1 }
 - { setname: thunderbird,              namepat: "thunderbird-beta(.*)", addflavor: $1, ignore: true }
 - { setname: thunderbird,              namepat: "thunderbird-nightly(.*)", addflavor: $1, ignore: true }
