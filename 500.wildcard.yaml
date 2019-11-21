@@ -94,7 +94,7 @@
 
 # Nodejs
 - { setname: "node:$1", addflag: wconce, noflag: [wconce,not_node], namepat: "node-(.*)", ruleset: debuntu }
-- { setname: "node:$1", addflag: wconce, noflag: [wconce,not_node], namepat: "nodejs-(.*)", ruleset: [arch,fedora,mageia,rosa,sisyphus,opensuse,pld] }
+- { setname: "node:$1", addflag: wconce, noflag: [wconce,not_node], namepat: "nodejs-(.*)", ruleset: [arch,chakra,fedora,mageia,rosa,sisyphus,opensuse,pld] }
 
 # Ocaml
 - { namepat: "ocaml([0-9.]*)-(.*)", addflag: wconce, noflag: [wconce,not_ocaml], setname: "ocaml:$2", addflavor: "$1" }
@@ -122,6 +122,7 @@
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php-[0-9._]+-ext-(.*)", ruleset: openindiana }
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "libphp-(.*)", ruleset: debuntu }
 - { setname: "php:$2", addflag: wconce, noflag: [wconce,not_php], namepat: "pecl([0-9]+)-(.*)", ruleset: openbsd, addflavor: $1}
+- { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php-(.*)", ruleset: chakra }
 # Note: there are some clashes between pear- and pecl- modules, and possibly modules which are part of PHP,
 # see php:yaml php:dba php:zip php:mcrypt for examples - I'm letting it hang until it bothers somebody. Who
 # could probably shed some light on why's there multiple modules, and what's the difference. The affected
