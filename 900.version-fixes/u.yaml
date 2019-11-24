@@ -46,7 +46,8 @@
 - { name: urlview,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: urlview,                     verpat: "(0\\.9)-[0-9]+",                           setver: $1 } # debian suffix copied by homebrew, macports and nix
 - { name: urw-fonts,                   verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
-- { name: usbmuxd,                     ver: "1.1.1",                 ruleset: [openwrt,sisyphus], incorrect: true } # fake
+- { name: usbmuxd,                     ver: "1.1.1",                 ruleset: [openwrt,sisyphus,kaos,mageia], incorrect: true } # fake
+- { name: usbmuxd,                                                   ruleset: [openwrt,sisyphus,kaos,mageia], untrusted: true } # accused of fake 1.1.1
 - { name: usbmuxd,                     verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: usbmuxd,                     verpat: "20[0-9]{2}.*",                             snapshot: true } # openwrt, incorrect version parse actually
 - { name: usbrelay,                    verpat: "20[0-9]{6}",                               snapshot: true }
