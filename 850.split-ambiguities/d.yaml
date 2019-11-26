@@ -76,6 +76,11 @@
 
 - { name: dlib, wwwpart: gecko0307/dlib, setname: dlib-d }
 
+- { name: doas, wwwpart: slicer69, addflag: classified }
+- { name: doas, wwwpart: duncaen, setname: opendoas }
+- { name: doas, ruleset: [aosc,exherbo,], setname: opendoas }
+- { name: doas, warning: "please classify me", noflag: classified }
+
 - { name: wmdocker,                    setname: docker-tray }
 - { name: docker,                      category: [x11,x11-plugins,"Graphical desktop/Window Maker","User Interface/X","universe/x11"], setname: docker-tray }
 - { name: docker,                      wwwpart: icculus.org,              setname: docker-tray }
