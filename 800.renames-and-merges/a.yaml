@@ -99,6 +99,7 @@
 - { setname: android-tools,            name: adb, ruleset: openbsd }
 - { setname: android-tools,            namepat: "android-tools-[^-]+", ruleset: [freebsd,pkgsrc] }
 - { setname: android-tools,            namepat: android-platform-system-(core|extras), ruleset: debuntu }
+- { setname: angband,                  name: angband-sdl, addflavor: sdl }
 - { setname: angelscript,              namepat: "angelscript-?[0-9.-]+"}
 - { setname: angular.js,               name: angularjs }
 - { setname: anki,                     name: [anki12,anki20,"python:anki2"] }
