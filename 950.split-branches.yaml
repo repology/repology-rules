@@ -92,10 +92,8 @@
 
 - { name: gstreamermm,                                    setbranchcomps: 1 }
 
-- { name: gtk,               verpat: "(4|3\\.9[0-9]+).*", setname: gtk4 }
-- { name: gtk,               releq: "3",                  setname: gtk3 }
-- { name: gtk,               releq: "2",                  setname: gtk2 }
-- { name: gtk,               releq: "1",                  setname: gtk1 }
+- { name: gtk,                                            setbranchcomps: 1 }
+- { name: gtk,               verpat: "3\\.9[0-9]+\\..*",  setbranch: "4" }
 
 - { name: gtkhtml,                                        setbranchcomps: 1 }
 
