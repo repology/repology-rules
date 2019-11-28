@@ -104,6 +104,8 @@
 - { setname: opensmtpd-extras,         namepat: "opensmtpd-extras-.*", ruleset: [freebsd,openbsd] }
 - { setname: opensonic,                name: opensnc }
 - { setname: opensp,                   name: opensp-doc, addflavor: doc }
+- { setname: openttd,                  name: [open-ttd, openttd-stable] }
+- { setname: openttd,                  name: [openttd-version, openttd-btpro], addflavor: true }
 - { setname: openttd-$0,               namepat: "open(?:gfx|sfx)" }
 - { setname: openttd-$0,               namepat: openmsx, wwwpart: openttd }
 - { setname: openttd-open$1,           namepat: "openttd-(gfx|sfx|msx)" }
