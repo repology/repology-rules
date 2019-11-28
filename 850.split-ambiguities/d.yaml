@@ -29,6 +29,12 @@
 - { name: deco, summpart: extract, setname: demos-extractor }
 - { name: deco, warning: "please classify me" }
 
+- { name: delta, wwwpart: tigris, setname: delta-file-minimizer }
+- { name: delta, wwwpart: dandavison, setname: delta-git-pager }
+- { name: delta, summpart: minimizer, setname: delta-file-minimizer }
+- { name: delta, ruleset: [exherbo], setname: delta-file-minimizer }
+- { name: delta, warning: "please classify me" }
+
 - { name: detex, vergt: "2.8", setname: opendetex } # continuation; XXX: problem
 
 - { name: dex, wwwpart: tihirvon, setname: dex-editor }
