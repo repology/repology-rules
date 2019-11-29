@@ -231,7 +231,8 @@
 - { setname: libupnp,                  namepat: "(lib|p)upnp[0-9.-]*" }
 - { setname: libupnp,                  name: libupnp-legacy }
 - { setname: libupnp,                  name: upnp, ruleset: freebsd }
-- { setname: libusb,                   namepat: "libusb[0-9.-]*" }
+- {                                    name: libusb3380, addflag: libusb3380 }
+- { setname: libusb,                   namepat: "libusb[0-9.-]+", noflag: libusb3380 }
 - { setname: libusb,                   name: [libusb-compat,libusb-legacy] }
 - { setname: libuv,                    name: libuv1 }
 - { setname: libva,                    name: [libva-full,libva-gl,libva-headless,libva-minimal], addflavor: true }
