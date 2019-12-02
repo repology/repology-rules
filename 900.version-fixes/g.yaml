@@ -40,6 +40,8 @@
 - { name: gedit,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gedit-plugins,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: geeknote,                                                                        noscheme: true }
+- { name: generatorrunner,             ver: "0.6.17",                ruleset: sisyphus,    incorrect: true }
+- { name: generatorrunner,                                           ruleset: sisyphus,    untrusted: true } # accused of fake 0.6.17
 - { name: genext2fs,                   verpat: ".*-.*",                                    debianism: true }
 - { name: geocode-glib,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: getdns,                                                    ruleset: fedora,      untrusted: true } # accused of fake 1.5.2
@@ -62,6 +64,8 @@
 - { name: gimp-gap,                                                  ruleset: fedora,      untrusted: true } # accused of fake 2.7.0
 - { name: gimp-gap,                    ver: "2.6.1",                 ruleset: aur,         incorrect: true }
 - { name: gimp-gap,                                                  ruleset: aur,         untrusted: true } # accused of fake 2.6.1
+- { name: gimp-lensfun,                ver: "0.2.5",                 ruleset: sisyphus,    incorrect: true }
+- { name: gimp-lensfun,                                              ruleset: sisyphus,    untrusted: true } # accused of fake 0.2.5
 - { name: "gimp:beautify",             verpat: "20[0-9]{2}.*",                             snapshot: true }
 - { name: git-bzr-ng,                                                                      noscheme: true }
 - { name: git-crypt,                   verpat: ".*-.*",              ruleset: scoop,       snapshot: true }
@@ -245,6 +249,8 @@
 - { name: gsettings-desktop-schemas,   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gsettings-qt,                                                                    noscheme: true }
 - { name: gsfonts,                                                                         noscheme: true } # packages refer to ghostscript.com which says fonts have been merged with ghostscript; otherwise, it's http://git.ghostscript.com/?p=urw-core35-fonts.git with (no tags) https://github.com/ArtifexSoftware/urw-base35-fonts (not sure how this is related)
+- { name: gshutdown,                   ver: "0.3",                   ruleset: sisyphus,    incorrect: true }
+- { name: gshutdown,                                                 ruleset: sisyphus,    untrusted: true } # accused of fake 0.3
 - { name: gsmlib,                                                                          noscheme: true }
 - { name: gst-python,                  verpat: "1\\.[0-9]*[13579]\\..*",                   devel: true }
 - { namepat: "gstreamer:.*",           verpat: "1\\.[0-9]*[13579]\\..*",                   devel: true }

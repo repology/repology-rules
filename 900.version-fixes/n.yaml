@@ -39,6 +39,8 @@
 - { name: network-manager-applet,      verpat: "(.*?)-?dev",                               setver: $1, devel: true }
 - { name: network-manager-applet,      verpat: "[0-9]\\.[0-9]\\.[0-9]*[13579]",            devel: true } # https://gitlab.gnome.org/GNOME/network-manager-applet/tags
 - { name: networkmanager,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: networkmanager-iodine,       ver: "1.2.1",                 ruleset: sisyphus,    incorrect: true }
+- { name: networkmanager-iodine,                                     ruleset: sisyphus,    untrusted: true } # accused of fake 1.2.1
 - { name: neverball,                   verpat: ".*20[0-9]{6}",                             snapshot: true } # haiku
 - { name: newlib,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: newlisp,                     vergt: "10.7.1",                                    devel: true, maintenance: true } # http://www.newlisp.org/

@@ -99,6 +99,8 @@
 - { name: apache-spark,                ver: "2.6.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: apache-spark,                                              ruleset: sisyphus,    untrusted: true } # accused of fake 2.6.0
 - { name: apel,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: apiextractor,                ver: "0.10.11",               ruleset: sisyphus,    incorrect: true }
+- { name: apiextractor,                                              ruleset: sisyphus,    untrusted: true } # accused of fake 0.10.11
 - { name: apitrace,                                                                        noscheme: true }
 - { name: "apmod:rpaf",                verpat: "2015.*",             ruleset: [ arch ],    ignore: true }
 - { name: apparix,                     verpat: "20[0-9]{6}",                               snapshot: true }

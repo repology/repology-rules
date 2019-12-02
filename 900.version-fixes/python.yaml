@@ -12,6 +12,8 @@
 - { name: "python:configshell-fb",                                                         any_is_patch: true }
 - { name: "python:configshell-fb",     ver: "1.20",                                        incorrect: true }
 - { name: "python:configshell-fb",     verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1.fb$2 }
+- { name: "python:couchdbkit",         ver: "0.9.15",                ruleset: sisyphus,    incorrect: true }
+- { name: "python:couchdbkit",                                       ruleset: sisyphus,    untrusted: true } # accused of fake 0.9.15
 - { name: "python:crypto",             ver: "2.7",                   ruleset: unitedrpms,  incorrect: true } # 2.7a1 likely
 - { name: "python:crypto",                                           ruleset: unitedrpms,  untrusted: true } # accused of fake 2.7
 - { name: "python:django",             verpat: ".*[ab].*",                                 devel: true }
@@ -23,6 +25,8 @@
 - { name: "python:enzyme",             ver: "0.4.2",                 ruleset: sisyphus,    incorrect: true }
 - { name: "python:enzyme",                                           ruleset: sisyphus,    untrusted: true } # accused of fake 0.4.2
 - { name: "python:fiona",              verpat: ".*[ab].*",                                 devel: true }
+- { name: "python:flask-sphinx-themes", ver: "20130715",                                   outdated: true }
+- { name: "python:flask-sphinx-themes", verpat: "20[0-9]{6}",                              snapshot: true }
 - { name: "python:fuse",               ver: "2.5",                   ruleset: [mageia,pclinuxos,rosa], incorrect: true }
 - { name: "python:fuse",                                             ruleset: [mageia,pclinuxos,rosa], untrusted: true }
 - { name: "python:gmpy2",              ver: "2.1.0",                 ruleset: fedora,      incorrect: true }
@@ -36,6 +40,8 @@
 - { name: "python:jsonschema",         verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:leveldb",            ver: "0.193",                                       outdated: true }
 #- { name: "python:oauth2",                                                                 p_is_patch: true } # XXX: check if really needed
+- { name: "python:m2r",                ver: "0.11",                  ruleset: sisyphus,    incorrect: true }
+- { name: "python:m2r",                                              ruleset: sisyphus,    untrusted: true } # accused of fake 0.11
 - { name: "python:pcl",                verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "python:pivy",               verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "python:pivy",               verpat: "20[0-9]{6}", verlt: "20180608",            outdated: true } # 0.6.4 from 20180608
@@ -54,6 +60,8 @@
 - { name: "python:pygobject2",         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: "python:pygobject3",         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: "python:pygpgme",            ver: "0.3.1",                 ruleset: alpine,      incorrect: true }
+- { name: "python:pyhamcrest",         ver: "2.0.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: "python:pyhamcrest",                                       ruleset: sisyphus,    untrusted: true } # accused of fake 2.0.0
 - { name: "python:pykwalify",          verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: "python:pyode",              verpat: ".*2010.*",                                 ignore: true }
 - { name: "python:pyopengl",           verpat: ".*[ab].*",                                 devel: true }
@@ -65,22 +73,38 @@
 - { name: "python:pystache",           verpat: "[0-9]+(\\.[0-9]+){2}-[0-9.]+",             incorrect: true } # nix garbage
 - { name: "python:python-axolotl-curve25519", verpat: "[0-9]+\\.[0-9]+\\.[0-9]+[a-z]",     incorrect: true } # alpine fake
 - { name: "python:python-axolotl-curve25519", verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.([0-9]+)", setver: $1.post$2 }
+- { name: "python:pywebdav",           ver: "0.9.11",                ruleset: sisyphus,    incorrect: true }
+- { name: "python:pywebdav",                                         ruleset: sisyphus,    untrusted: true } # accused of fake 0.9.11
 - { name: "python:pywikibot",          verpat: ".*\\.20[0-9]{6}",                          ignore: false }
 - { name: "python:pyyaml",             ver: "4.1",                                         outdated: true } # retracted: https://github.com/yaml/pyyaml/issues/211
 - { name: "python:random2",            ver: "1.0.2",                 ruleset: sisyphus,    incorrect: true }  # never released development snapshot
 - { name: "python:recommonmark",       verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: "python:scikits.samplerate", ver: "0.4.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: "python:scikits.samplerate",                               ruleset: sisyphus,    untrusted: true } # accused of fake 0.4.0
+- { name: "python:setupdocs",          ver: "1.0.6",                 ruleset: sisyphus,    incorrect: true }
+- { name: "python:setupdocs",                                        ruleset: sisyphus,    untrusted: true } # accused of fake 1.0.6
 - { name: "python:shiboken",           ver: "2.0.0",                 ruleset: kaos,        incorrect: true }
+- { name: "python:simpleparse",        ver: "3.0.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: "python:simpleparse",                                      ruleset: sisyphus,    untrusted: true } # accused of fake 3.0.0
 - { name: "python:slowaes",            ver: "0.1",                   ruleset: [gentoo,solus], incorrect: true }
 - { name: "python:slowaes",                                          ruleset: [gentoo,solus], untrusted: true } # accused of fake 0.1
 - { name: "python:sphinx-py3doc-enhanced-theme", ver: "2.4.0",       ruleset: pld,         incorrect: true }
 - { name: "python:sphinx-py3doc-enhanced-theme",                     ruleset: pld,         untrusted: true }
 - { name: "python:sphinx-rtd-theme",   verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:sqlalchemy",         verpat: ".*b.*",                                    devel: true }
+- { name: "python:statistics",         ver: "3.4.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: "python:statistics",                                       ruleset: sisyphus,    untrusted: true } # accused of fake 3.4.0
+- { name: "python:suds-jurko",         ver: "0.7",                   ruleset: sisyphus,    incorrect: true }
+- { name: "python:suds-jurko",                                       ruleset: sisyphus,    untrusted: true } # accused of fake 0.7
 - { name: "python:tempita",            verpat: "(.*)dev",                                  setver: $1, devel: true }
 - { name: "python:tempita",            verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: "python:testoob",            ver: "1.16",                  ruleset: sisyphus,    incorrect: true }
+- { name: "python:testoob",                                          ruleset: sisyphus,    untrusted: true } # accused of fake 1.16
 - { name: "python:tornado",            verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:translationstring",  ver: "1.4",                   ruleset: sisyphus,    incorrect: true }
 - { name: "python:translationstring",                                ruleset: sisyphus,    untrusted: true } # accused of fake 1.4
+- { name: "python:turbokid",           ver: "1.0.6",                 ruleset: sisyphus,    incorrect: true }
+- { name: "python:turbokid",                                         ruleset: sisyphus,    untrusted: true } # accused of fake 1.0.6
 - { name: "python:tzlocal",            verpat: ".*b.*",                                    devel: true }
 - { name: "python:vdirsyncer",         verpat: ".*a.*",                                    devel: true }
 - { name: "python:webm",               vergt: "0.2.2",                                     successor: true } # http://xpra.org/src/ vs. https://github.com/expobrain/python-webm/releases

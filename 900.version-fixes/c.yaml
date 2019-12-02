@@ -136,6 +136,8 @@
 - { name: commandergenius,             verpat: ".*[0-9]{4}.*",                             ignore: true } # nixpkgs weirdness
 - { name: compizconfig-python,         ver: "0.9.5.94",                                    outdated: true } # some antient garbage from ubuntu 12
 - { name: compton,                                                                         noscheme: true } # some antient garbage from ubuntu 12
+- { name: conmon,                      ver: ["2.1","2.0.4"],         ruleset: [sisyphus,fedora], incorrect: true }
+- { name: conmon,                                                    ruleset: [sisyphus,fedora], untrusted: true } # accused of fake 2.0.4, 2.1
 - { name: connman-ui,                                                                      noscheme: true }
 - { name: cons,                        ver: "2.3.0.1",                                     ignore: true } # debian uses this to revert to 2.2.0. http://metadata.ftp-master.debian.org/changelogs/main/c/cons/cons_2.3.0.1+2.2.0-2_changelog "The odd version string is to avoid using epochs" <- that's what epochs are for, dammit
 - { name: conserver,                   ver: "8.5",                   ruleset: freebsd,     incorrect: true } # completely fake; https://github.com/conserver/conserver/releases
@@ -174,6 +176,8 @@
 - { name: cryptcat,                    ver: "20031202",                                    ignore: true }
 - { name: crypthook,                                                                       noscheme: true }
 - { name: crypto++,                    verpat: "[0-9]{3}",                                 incorrect: true }
+- { name: cssed,                       ver: "0.4.1",                 ruleset: sisyphus,    incorrect: true }
+- { name: cssed,                                                     ruleset: sisyphus,    untrusted: true } # accused of fake 0.4.1
 - { name: csync,                       ver: ["0.50.6","0.50.8"],     ruleset: [sisyphus, slitaz], incorrect: true }
 - { name: cubicsdr,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: cuda,                        verpat: ".*\\+.*",            ruleset: aosc,        incorrect: true } # driver version appended?

@@ -44,6 +44,8 @@
 - { name: remmina,                     ver: "1.2.0",                 ruleset: [alpine,sisyphus,debuntu,rosa], incorrect: true } # liars, it's at 1.2.0-rcgit.XX stage
 - { name: remmina,                                                   ruleset: [alpine,sisyphus,debuntu,rosa], untrusted: true } # liars
 - { name: remotery,                                                                        noscheme: true }
+- { name: rep-gtk,                     ver: "0.90.9",                ruleset: sisyphus,    incorrect: true }
+- { name: rep-gtk,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 0.90.9
 - { name: reptyr,                      ver: "0.6.3a",                ruleset: freebsd,     incorrect: true } # fake, no such tag
 - { name: resource-agents,             verpat: ".*[0-9a-f]{8}",      ruleset: opensuse,    incorrect: true }
 - { name: restbed,                     verpat: ".*-.*",              ruleset: vcpkg,       incorrect: true } # latest is 4.6, 4.16-07-28 is fake
@@ -73,6 +75,8 @@
 - { name: ruby,                        ver: "2.7.0",                 ruleset: debuntu,     incorrect: true }
 - { name: "ruby:hiera",                ver: "3.6.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: "ruby:hiera",                                              ruleset: sisyphus,    untrusted: true } # accused of fake 3.6.0
+- { name: "ruby:http-parser.rb",       ver: "0.6.1",                 ruleset: sisyphus,    incorrect: true }
+- { name: "ruby:http-parser.rb",                                     ruleset: sisyphus,    untrusted: true } # accused of fake 0.6.1
 - { name: "ruby:io-like",              ver: "0.3.0.20130301",                              ignore: true } # freebsd
 - { name: "ruby:locale",               ver: "2.1.3",                 ruleset: sisyphus,    incorrect: true }
 - { name: "ruby:locale",                                             ruleset: sisyphus,    untrusted: true } # accused of fake 2.1.3
