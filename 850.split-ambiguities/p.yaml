@@ -42,6 +42,8 @@
 - { name: pass, ruleset: [aosc,pclinuxos], setname: password-store }
 - { name: pass, warning: "please classify me" }
 
+- { name: passwd, ruleset: sisyphus, setname: passswd-alt }
+
 - { name: pcl, summpart: coroutine, setname: pcl-coroutines }
 - { name: pcl, wwwpart: xmailserver, setname: pcl-coroutines }
 - { name: pcl, summpart: cloud, setname: pcl-pointclouds }
