@@ -83,6 +83,11 @@
 - { name: todo, wwwpart: todotxt, setname: todo.txt-cli }
 - { name: todo, warning: "please classify me" }
 
+- { name: tofu, wwwpart: [oomadness,pyserial], setname: tofu-engine }
+- { name: tofu, category: python, setname: tofu-engine }
+- { name: tofu, summpart: todo, setname: tofu-todo }
+- { name: tofu, warning: "please classify me" }
+
 - { name: tomcat, wwwpart: tomcat-connectors, setname: tomcat-connectors } # XXX: problem
 
 # tales of majeyal vs. troubles of middle earth
