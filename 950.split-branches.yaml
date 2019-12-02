@@ -241,11 +241,6 @@
 - { name: protobuf,          releq: "2",                  setname: protobuf2 }
 
 - { name: python,                                         setbranchcomps: 2 }
-- { name: python,            releq: "2",                  setname: python2 }
-- { name: python,            releq: "3",                  setname: python3 }
-- { name: python,            ver: "999", ruleset: aosc,   setname: python2 }
-- { name: python,                        ruleset: openwrt, remove: true } # setuptools and pip with their own versions coming from python package o_O
-- { name: python,            warning: "please classify me" }
 
 - { name: "python:pygobject", releq: "2",                 setname: "python:pygobject2" }
 - { name: "python:pygobject", releq: "3",                 setname: "python:pygobject3" }
