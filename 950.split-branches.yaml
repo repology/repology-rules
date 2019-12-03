@@ -97,14 +97,10 @@
 
 - { name: gtkhtml,                                        setbranchcomps: 1 }
 
-- { name: gtkmm,             verpat: "(4|3\\.9[0-9]+)\\..*",  setname: gtkmm4 }
-- { name: gtkmm,             releq: "3",                  setname: gtkmm3 }
-- { name: gtkmm,             releq: "2",                  setname: gtkmm2 }
+- { name: gtkmm,                                          setbranchcomps: 1 }
+- { name: gtkmm,             verpat: "3\\.9[0-9]+\\..*",  setbranch: "4" }
 
-- { name: gtksourceview,     verpat: "(4|3\\.99)\\..*",   setname: gtksourceview4 }
-- { name: gtksourceview,     releq: "3",                  setname: gtksourceview3 }
-- { name: gtksourceview,     releq: "2",                  setname: gtksourceview2 }
-- { name: gtksourceview,     releq: "1",                  setname: gtksourceview1 }
+- { name: gtksourceview,                                  setbranchcomps: 1 }
 
 - { name: gtksourceviewmm,                                setbranchcomps: 1 }
 
