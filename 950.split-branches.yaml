@@ -289,7 +289,7 @@
 
 - { name: streamtuner,       releq: "0",                  setname: streamtuner0 }
 
-- { name: stringtemplate,    releq: "3",                  setname: stringtemplate3 }
+- { name: stringtemplate,                                 setbranchcomps: 1 }
 
 - { name: supertux,          verpat: "0\\.[^1]\\..*",     setname: supertux2 }
 
