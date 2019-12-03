@@ -84,8 +84,8 @@
 - { name: todo, warning: "please classify me" }
 
 - { name: tofu, wwwpart: [oomadness,pyserial], setname: tofu-engine }
-- { name: tofu, category: python, setname: tofu-engine }
 - { name: tofu, summpart: todo, setname: tofu-todo }
+- { name: tofu, ruleset: debuntu, setname: tofu-engine }
 - { name: tofu, warning: "please classify me" }
 
 - { name: tomcat, wwwpart: tomcat-connectors, setname: tomcat-connectors } # XXX: problem
