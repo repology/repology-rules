@@ -203,9 +203,7 @@
 
 - { name: node,                                           setbranchcomps: 1 }
 
-- { name: ns,                releq: "2"      ,            setname: ns2 }
-- { name: ns,                releq: "3",                  setname: ns3 }
-- { name: ns,                warning: "please classify me" }
+- { name: ns,                                             setbranchcomps: 1 }
 
 # note that versions in conditions are +1 to real versions
 - { name: nvidia, verlt: "71.87", setname: nvidia-lagacy-71.86 }
