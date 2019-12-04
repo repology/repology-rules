@@ -8,6 +8,8 @@
 - { name: qdjango,                     verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: qelectrotech,                verpat: ".*r.*",                                    snapshot: true }
 - { name: qemu,                        verpat: ".*pre[0-9]{5}.*",                          snapshot: true }
+- { name: qemu,                        verpat: ".*\\.9[0-9]+",       ruleset: opensuse,    incorrect: true }
+- { name: qemu,                                                      ruleset: opensuse,    untrusted: true } # accused of fake 4.1.93
 - { name: qgis,                                                      ruleset: kaos,        untrusted: true } # snapshot with random version
 - { name: qgis,                        verpat: "[0-9]{5}.*",                               incorrect: true }
 - { name: qgis,                        verpat: ".*unstable",                               ignore: true }
