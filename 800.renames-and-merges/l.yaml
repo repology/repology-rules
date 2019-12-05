@@ -107,6 +107,7 @@
 - { setname: lsof-freebsd,             name: lsof, ruleset: freebsd } # patched version with own versioning
 - { setname: lttng-modules,            name: lttng-modules-dkms }
 - { setname: lttng-modules,            name: lttng-modules-nopage, addflavor: true }
+- { setname: lttng-tools,              name: ltt-control, addflavor: control }
 - { setname: lttng-ust,                name: ust }
 - { setname: lttng-ust,                name: "python:lttngust", addflavor: python }
 - { setname: lua,                      namepat: "(?:lib)?lua[0-9.-]*" }
