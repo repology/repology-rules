@@ -86,8 +86,8 @@
 - { name: kidentitymanagement,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kig,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kigo,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: kile,                        verpat: ".*[ab].*",                                 devel: true }
-- { name: kile,                        verpat: "[0-9]+\\.9\\.9[0-9]+.*",                   devel: true } # 2.9.92 is the same as 3.0 beta2. We can't deal with this nonsense
+- { name: kile,                        verpat: ".*[ab].*",                                 devel: true, altver: true } # 2.9.92 is the same as 3.0 beta2
+- { name: kile,                        verpat: "[0-9]+\\.9\\.9[0-9]+.*",                   devel: true } # 2.9.92 is the same as 3.0 beta2
 - { name: killbots,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: killerbee,                   ver: "99",                                          incorrect: true }
 - { name: kimap,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
