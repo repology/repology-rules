@@ -61,6 +61,7 @@
 # in python category as python modules
 - { addflag: not_python,               name: python, ruleset: aosc }
 - { addflag: not_python,               name: python-debug, ruleset: guix }
+- { addflag: not_python,               name: [python-doc,python3-doc] }
 - { addflag: not_python,               name: python-docs }
 - { addflag: not_python,               name: python-mode }
 
