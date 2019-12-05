@@ -212,6 +212,8 @@
 - { name: sudo,                                                                            p_is_patch: true }
 - { name: sunpinyin,                   ver: "3.0.0",                 ruleset: aosc,        incorrect: true } # aosc fake, it's rc1
 - { name: sunpinyin,                                                 ruleset: aosc,        untrusted: true }
+- { name: sunpinyin,                   ver: "2.0.99",                ruleset: opensuse,    incorrect: true } # fake, it's 3.0.0-rc1
+- { name: sunpinyin,                                                 ruleset: opensuse,    untrusted: true } # accused of fake 2.0.99
 - { name: sunxi-tools,                 verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: sunxi-tools,                 ver: "1.5",                   ruleset: sisyphus,    incorrect: true }
 - { name: sunxi-tools,                                               ruleset: sisyphus,    untrusted: true } # accused of fake 1.5
