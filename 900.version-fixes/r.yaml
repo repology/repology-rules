@@ -52,6 +52,8 @@
 - { name: restbed,                                                   ruleset: vcpkg,       untrusted: true } # accused of fake 4.16-07-28
 - { name: riak,                        ver: "2.2.5",                 ruleset: openbsd,     incorrect: true } # no mention on the web site, seems fake
 - { name: rinetd,                      ver: "0.62.1sam",                                   ignore: true } # debian garbage
+- { name: ripit,                       ver: "3.9.90",                                      incorrect: true } # opensuse garbage, actually 4.0.0_beta20140508
+- { name: ripit,                                                     ruleset: opensuse,    untrusted: true } # accused of 3.9.90
 - { name: rocs,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ronn,                        verge: "0.8.0",                                     successor: true } # https://github.com/apjanke/ronn-ng, successor
 - { name: rpcgen,                                                    ruleset: ravenports,  ignore: true } # fake
