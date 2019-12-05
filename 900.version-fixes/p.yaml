@@ -80,6 +80,7 @@
 - { name: "php:apcu-bc",               verge: "7.2.21",              ruleset: sisyphus,    incorrect: true }
 - { name: "php:cache",                 ver: "1.5.7",                 ruleset: pld,         incorrect: true }
 - { name: "php:cache",                                               ruleset: pld,         untrusted: true } # accused of fake 1.5.7
+- { name: "php:interbase",             verge: "7.4.0",                                     incorrect: true } # no such extensions since php 7.4
 - { name: "php:mcrypt",                verge: "5",                                         outdated: true } # part of PHP up to 7.1
 - { name: "php:pear",                                                ruleset: aur,         untrusted: true } # "it's tracking https://github.com/pear/pearweb_phars which is not real PHP PEAR like anyone else is tracking"
 - { name: "php:php-compat",            verpat: ".*a.*",                                    devel: true }
