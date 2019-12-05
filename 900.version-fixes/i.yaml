@@ -9,6 +9,8 @@
 - { name: iagno,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: iannix,                      ver: "0.9.20b",                                     setver: "0.9.20" } # ambiguous release https://github.com/buzzinglight/IanniX/releases
 - { name: ibus-sunpinyin,              ver: "3.0.0",                                       ignore: true } # aosc fake, it's rc1
+- { name: ibus-sunpinyin,              ver: "2.0.99",                ruleset: opensuse,    incorrect: true } # fake, it's 3.0.0-rc1
+- { name: ibus-sunpinyin,                                            ruleset: opensuse,    untrusted: true } # accused of fake 2.0.99
 - { name: icebreaker,                  ver: "1.21",                                        setver: "1.2.1" }
 - { name: icecat,                                                                          setver: "$0gnu1" } # it uses gnu suffix, in most cases it's gnu1, but there were gnu2 as well
 - { name: icecat,                      verpat: "(.*gnu.*)gnu1",                            setver: "$1" }
