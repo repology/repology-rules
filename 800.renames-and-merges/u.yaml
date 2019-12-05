@@ -53,7 +53,7 @@
 - { setname: urdfdom-headers,          name: ros-urdfdom-headers }
 - { setname: uriparser,                name: [liburiparser,liburiparser1], addflavor: lib }
 - { setname: usbip,                    name: usbip-legacy }
-- { setname: userspace-rcu,            name: libuserspace-rcu }
+- { setname: userspace-rcu,            name: [libuserspace-rcu,liburcu,liburcu0] }
 - { setname: utf8proc,                 name: [libutf8proc,libutf8proc-julia] }
 - { setname: utfcpp,                   name: [libutfcpp,utf8cpp] }
 - { setname: uthash,                   name: [libuthash-devel,uthash-devel], weak_devel: true }
