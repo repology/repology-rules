@@ -83,6 +83,7 @@
 - { name: lsscsi,                      ver: "0.29",                  ruleset: opensuse,    incorrect: true } # fake
 - { name: ltrace,                      verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: ltrace,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: ltrace,                      verpat: ".*_.*",              ruleset: slackbuilds, debianism: true }
 - { name: ltunify,                     verpat: "20[0-9]{6}",                               ignore: true }
 - { name: lua,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]+[.-].*",           incorrect: true } # windows (XXX: https://github.com/rjpcomputing/luaforwindows project), split?
 - { name: "lua:cqueues",               verpat: ".*\\.5[1-9]",                              incorrect: true } # luarocks appends lua version
