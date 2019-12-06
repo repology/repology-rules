@@ -214,6 +214,8 @@
 - { name: sunpinyin,                                                 ruleset: aosc,        untrusted: true }
 - { name: sunpinyin,                   ver: "2.0.99",                ruleset: opensuse,    incorrect: true } # fake, it's 3.0.0-rc1
 - { name: sunpinyin,                                                 ruleset: opensuse,    untrusted: true } # accused of fake 2.0.99
+- { name: sunpinyin,                   ver: "2.0.4.r3",              ruleset: freebsd,     incorrect: true }
+- { name: sunpinyin,                                                 ruleset: freebsd,     untrusted: true } # accused of fake 2.0.4.r3
 - { name: sunxi-tools,                 verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: sunxi-tools,                 ver: "1.5",                   ruleset: sisyphus,    incorrect: true }
 - { name: sunxi-tools,                                               ruleset: sisyphus,    untrusted: true } # accused of fake 1.5
