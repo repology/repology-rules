@@ -243,4 +243,5 @@
 - { setname: python-caja,              name: ["python:caja", "python:python-caja", caja-python] } # not really a pypi packages, so rename according to upstream
 - { setname: python-caja,              name: "python:caja-dev", weak_devel: true }
 - { setname: python-docs,              namepat: "python[0-9.-]*-(doc)s?(-html|-pdf-a4|-pdf-letter|-text)?", addflavor: "$1$2" }
+- { setname: python-linux-procfs,      name: "python:linux-procfs" } # exherbo XXX: problem
 - { setname: pyzy,                     name: "python:pyzy" }
