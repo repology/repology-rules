@@ -102,6 +102,7 @@
 - { name: eventlog,                    verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: eventlog,                    ver: "0.2.14",                ruleset: pld,         incorrect: true }
 - { name: eventviews,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: evilvte,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: evince,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: evolution,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: evolution-data-server,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
