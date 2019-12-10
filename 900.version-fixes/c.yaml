@@ -136,6 +136,7 @@
 - { name: commandergenius,             verpat: ".*[0-9]{4}.*",                             ignore: true } # nixpkgs weirdness
 - { name: compizconfig-python,         ver: "0.9.5.94",                                    outdated: true } # some antient garbage from ubuntu 12
 - { name: compton,                                                                         noscheme: true } # some antient garbage from ubuntu 12
+- { name: confetti,                                                                        noscheme: true } # https://github.com/mailru/confetti/releases
 - { name: conmon,                      ver: ["2.1","2.0.4"],         ruleset: [sisyphus,fedora], incorrect: true }
 - { name: conmon,                                                    ruleset: [sisyphus,fedora], untrusted: true } # accused of fake 2.0.4, 2.1
 - { name: connman-ui,                                                                      noscheme: true }
