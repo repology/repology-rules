@@ -97,6 +97,8 @@
 - { name: skopeo,                      ver: "0.1.35",                ruleset: fedora,      incorrect: true }
 - { name: skopeo,                                                    ruleset: fedora,      untrusted: true }
 - { name: skypetab-ng,                 verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: sl,                          ver: "5.05",                  ruleset: nix,         incorrect: true }
+- { name: sl,                                                        ruleset: nix,         untrusted: true } # accused of fake 5.05
 - { name: slang,                       verpat: "2\\.3\\.3.*",                              devel: true, maintenance: true } # https://www.jedsoft.org/snapshots/#slang
 - { name: slashem,                     ver: "3.4.3.7e7f1",           ruleset: openbsd,     incorrect: true }
 - { name: slashem,                                                   ruleset: openbsd,     untrusted: true } # accused of fake 3.4.3.7e7f1
