@@ -109,6 +109,13 @@
 - { name: cmt, wwwpart: cmtsite.net, setname: cmt-configuration-management }
 - { name: cmt, warning: "please classify me" }
 
+- { name: conduit, wwwpart: conduit.io, setname: conduit-service-mesh }
+- { name: conduit, wwwpart: [conduit-project,gnome], setname: conduit-synchronization }
+- { name: conduit, category: gnome, setname: conduit-synchronization }
+- { name: conduit, summpart: synchronization, setname: conduit-synchronization }
+- { name: conduit, ruleset: ubuntu, setname: conduit-synchronization }
+- { name: conduit, warning: "please classify me" }
+
 - { name: cozy, setname: cozy-cloud, wwwpart: cozy.io }
 - { name: cozy, setname: cozy-audiobooks, wwwpart: geigi }
 - { name: cozy, setname: cozy-audiobooks, summpart: "audio book" }
