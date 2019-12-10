@@ -194,6 +194,7 @@
 - { setname: sqlite,                   name: [sqlite-analyzer,sqlite.analyzer,sqlite3-analyzer], addflavor: analyzer }
 - { setname: sqlite,                   name: [sqlite-doc,sqlite3-doc], addflavor: doc }
 - { setname: sqlite,                   name: [sqlite-interactive,sqlite-with-fts3,sqlite-with-fts5,sqlite.shell,sqlite3-tools], addflavor: true }
+- { setname: sqlmap,                   name: "python:sqlmap" }
 - { setname: squashfs-tools,           name: squashfs-tools-next, weak_devel: true }
 - { setname: squashfs-tools,           name: squashfs3-tools }
 - { setname: squashfs-tools,           name: [squashfs, squashfs-tools] } # squashfs and squashfs-tools are single project
