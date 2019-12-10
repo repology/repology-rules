@@ -99,6 +99,8 @@
 - { name: pingus,                      verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: pinta,                       ver: "1.7",                   ruleset: solus,       incorrect: true }
 - { name: pinta,                                                     ruleset: solus,       untrusted: true } # accused of fake 1.7
+- { name: pioneer,                     ver: ["20191117","20191009"],                       devel: true }
+- { name: pioneer,                     verpat: "0\\.0\\.(20[0-9]+)",                       setver: $1 }
 - { name: pitivi,                      verpat: "[0-9.]+",                                  devel: false } # all versions beta nonsense
 - { name: pkg,                         verpat: "[0-9]+\\.[0-9]+\\.99\\..*",                devel: true }
 - { name: pkg-config,                  verge: "1.6.0",                                     incorrect: true } # pkgconf actually (ravenports, cygwin); XXX: problem
