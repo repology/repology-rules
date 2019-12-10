@@ -59,6 +59,10 @@
 - { name: libfirm,                     verpat: ".*pl.*",             ruleset: openbsd,     incorrect: true } # https://github.com/libfirm/libfirm/tags
 - { name: libgda,                      verpat: "[0-9]+\\.9[0-9]+.*",                       devel: true }
 - { name: libggz,                      verpat: "0\\.99.*",                                 devel: true }
+- { name: libgksu,                     ver: "2.1.0",                 ruleset: antix,       incorrect: true }
+- { name: libgksu,                                                   ruleset: antix,       untrusted: true } # accused of fake 2.1.0
+- { name: libgksu,                     ver: "2.0.13",                ruleset: rosa,        incorrect: true } # 2.0.13pre1
+- { name: libgksu,                                                   ruleset: rosa,        untrusted: true } # accused of fake 2.0.13
 - { name: libglw,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: libgnome,                    ver: "2.32.2",                ruleset: opensuse,    incorrect: true }
 - { name: libgnome,                                                  ruleset: opensuse,    untrusted: true }
