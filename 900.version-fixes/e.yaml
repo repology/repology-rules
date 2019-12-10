@@ -108,6 +108,8 @@
 - { name: evolution-data-server,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: evolution-ews,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: evolution-mapi,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: evolvotron,                  ver: "0.7.1.3",               ruleset: aur,         incorrect: true }
+- { name: evolvotron,                                                ruleset: aur,         untrusted: true } # accused of fake 0.7.1.3
 - { name: exa,                         ver: "0.9~pre3",              ruleset: termux,      incorrect: true } # 0.9pre, nothing like 3
 - { name: exa,                                                       ruleset: termux,      untrusted: true } # accused of fake 0.9~pre3
 - { name: exa,                         ver: "0.9.0",                 ruleset: solus,       incorrect: true } # 0.9pre
