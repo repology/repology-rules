@@ -33,6 +33,7 @@
 - { name: jupp,                        verpat: "[0-9]+",                                   incorrect: true } # it's 3.1juppXX, but I'm not going to add setver rule since 3.1 may also change
 - { name: jupp,                        verpat: "([0-9]+\\.[0-9]+)[_.]p?([0-9]+)",          setver: $1jupp$2 }
 - { name: jupp,                                                                            any_is_patch: true }
+- { name: jutils,                                                                          noscheme: true }
 - { name: jwasm,                       verpat: "[0-9]{3}.*",                               incorrect: true } # it's e.g. 2.11, not 211
 - { name: jwm,                         verpat: "[0-9]+",                                   ignore: true }
 - { name: jxplorer,                    ver: "3.3.2",                                       incorrect: true } # not sure where debian got this (https://salsa.debian.org/java-team/jxplorer), but 3.3.1.2 (2016) is definitely newer than it (2013)
