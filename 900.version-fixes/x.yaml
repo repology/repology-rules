@@ -42,6 +42,7 @@
 - { name: "xdrv:sis",                  verpat: "20[0-9]{6}.*",                             snapshot: true } # slackware
 - { name: "xdrv:xgixp",                verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: xdu,                         verge: "3.1",                                       successor: true } # ?
+- { name: xevil,                                                                           any_is_patch: true } # assumed, most distros provide 2.02r2
 - { name: xf86rushproto,               ver: "1.2.2",                 ruleset: funtoo,      incorrect: true }
 - { name: xf86rushproto,                                             ruleset: funtoo,      untrusted: true } # accused of fake 1.2.2
 - { name: xfburn,                      ver: "0.5.6",                 ruleset: pclinuxos,   incorrect: true }
