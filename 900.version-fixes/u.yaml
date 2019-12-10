@@ -41,6 +41,7 @@
 - { name: upnp-inspector,              verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: upower,                                                    ruleset: fedora,      untrusted: true } # accused of fake 0.99.8
 - { name: upower,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: uqm,                         vereq: "0.7.0.1",                                   setver: "0.7.0" } # only cosmetic changes to source
 - { name: urbanterror,                 verpat: "[0-9]+",                                   incorrect: true }
 - { name: urbanterror,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: urlview,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
