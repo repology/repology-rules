@@ -88,6 +88,7 @@
 - { name: phyml,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: pianobooster,                ver: "0.7.0",                 ruleset: mageia,      incorrect: true }
 - { name: pianobooster,                                              ruleset: mageia,      untrusted: true }
+- { name: picmi,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: picolisp,                    ver: ["18.6.12", "18.6.17"],  ruleset: [aur,termux], incorrect: true }
 - { name: picolisp,                                                  ruleset: [aur,termux], untrusted: true }
 - { name: pidentd,                     ver: "3.1a25",                                      incorrect: true, disposable: true } # old opensuse leap, no idea where this comes from
