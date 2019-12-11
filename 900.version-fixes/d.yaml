@@ -46,6 +46,7 @@
 - { name: dia,                         verpat: ".*[0-9]{8}.*",                             ignore: true } # snapshot
 - { name: dialog,                      verpat: "[0-9]+\\.[0-9]+[^0-9]20[0-9]{6}",          devel: true }
 - { name: dialog,                      verpat: "1\\.320[0-9]{6}",                          incorrect: true } # 1.3-YYYYMMDD, not 1.3YYYYMMDD XXX problem
+- { name: diamond-graphite-collector,  verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: diction,                     ver: "1.14",                  ruleset: hpux,        incorrect: true }
 - { name: diction,                                                   ruleset: hpux,        untrusted: true }
 - { name: diction,                     verge: "1.13",                                      successor: true } # http://www.moria.de/~michael/diction/ vs. https://ftp.gnu.org/gnu/diction/
