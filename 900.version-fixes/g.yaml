@@ -71,6 +71,7 @@
 - { name: git-bzr-ng,                                                                      noscheme: true }
 - { name: git-crypt,                   verpat: ".*-.*",              ruleset: scoop,       snapshot: true }
 - { name: git-remote-hg,               verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: gitea,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: gitg,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gjs,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gksu,                        ver: "2.1.0",                 ruleset: antix,       incorrect: true }
