@@ -107,4 +107,5 @@
 - { name: xxdiff,                                                    ruleset: aur,         untrusted: true }
 - { name: xxdiff,                      verpat: ".*b.*",                                    devel: true }
 - { name: xz,                          ver: "5.03",                                        incorrect: true } # gobolinux garbage
+- { name: xz,                          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed (https://git.tukaani.org/?p=xz.git;a=blob;f=NEWS;hb=HEAD)
 - { name: xzoom,                       verlonger: 2,                                       debianism: true } # nix
