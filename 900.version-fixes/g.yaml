@@ -222,6 +222,7 @@
 - { name: googlecl,                    ver: "0.9.15.1",              ruleset: freebsd,     incorrect: true }
 - { name: googlecl,                                                  ruleset: freebsd,     untrusted: true }
 - { name: goom,                        verpat: "2004(.*)"                                  setver: "2k4$1" }
+- { name: gopher,                      ver: "3.0.17.3",              ruleset: debuntu,     incorrect: true } # latest is 3.0.17
 - { name: gotags,                      verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: gotty,                       ver: "2.0.0",                 ruleset: openwrt,     incorrect: true } # 2.0.0-alpha.3
 - { name: gotty,                                                     ruleset: openwrt,     untrusted: true } # accused of fake 2.0.0
