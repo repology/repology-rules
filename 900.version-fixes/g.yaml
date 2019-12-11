@@ -235,6 +235,9 @@
 - { name: gpsbabel,                    ver: "1.6.0.1",                                     setver: "1.6.0", disposable: true } # tags point to same commit
 - { name: gpsim,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: gpsim,                       ver: "20050905",                                    outdated: true }
+- { name: gr-osmosdr,                  verge: "2000", verlt: "2019.12.01",                 outdated: true } # latest is 0.1.5 from 2019.12.01
+- { name: gr-osmosdr,                  verge: "20000000", verlt: "20191201",               outdated: true } # latest is 0.1.5 from 2019.12.01
+- { name: gr-osmosdr,                  verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: gradm,                       verpat: "[0-9]{8}.*",                               incorrect: true } # it.s 3.1.YYYYMMDD.., see https://grsecurity.net/download.php
 - { name: grafx2,                      verpat: ".*wip.*",                                  ignore: true }
 - { name: grafx2,                      verpat: "([0-9]+\\.[0-9]+)\\.[0-9]{4}",             setver: $1 } # tags only contain X.Y, but filenames contain additional number (revision/build# ?)
