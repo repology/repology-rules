@@ -360,6 +360,8 @@
 - { setname: gtk-engines,              namepat: "gtk[0-9.-]*engines[0-9.-]*" }
 - { setname: gtk-engines-$1,           namepat: "gtk[0-9.-]*engines-(.*)" } # XXX: convert to wildcard rule?
 - { setname: gtk-recordmydesktop,      name: recordmydesktop-gtk }
+- { setname: gtk-sharp,                namepat: "(dotnet-|lib)?gtk-?sharp[0-9.-]*" }
+- { setname: gtk-sharp-beans,          name: dotnet-gtk-sharp-beans }
 - { setname: gtk-theme-arc-red,        name: arc-theme-red }
 - { setname: gtkdatabox,               name: libgtkdatabox }
 - { setname: gtkglarea,                name: gtkgl2 }
@@ -370,6 +372,7 @@
 - { setname: gtkhtml,                  namepat: "(?:lib|compat-)?gtkhtml[0-9.-]*" }
 - { setname: gtkmm,                    namepat: "(?:lib)?gtkmm[0-9.+-]*(-docs|-documentation|-reference)?", addflavor: $1 }
 - { setname: gtksourceview,            namepat: "(?:lib)?gtksourceview[0-9.-]*(-reference)?", addflavor: $1 }
+- { setname: gtksourceview-sharp,      name: [gtksourceview-sharp2,dotnet-gtksourceview-sharp2] }
 - { setname: gtksourceviewmm,          namepat: "(?:lib)?gtksourceviewmm[0-9.-]*" }
 - { setname: gtkspell,                 namepat: "(?:lib)?gtkspell[0-9.-]*(-reference)?", addflavor: $1 }
 - { setname: gtkspellmm,               namepat: "(?:lib)?gtkspellmm[0-9.-]*" }
