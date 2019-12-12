@@ -361,6 +361,7 @@
 - { setname: gtk-engines-$1,           namepat: "gtk[0-9.-]*engines-(.*)" } # XXX: convert to wildcard rule?
 - { setname: gtk-recordmydesktop,      name: recordmydesktop-gtk }
 - { setname: gtk-sharp,                namepat: "(dotnet-|lib)?gtk-?sharp[0-9.-]*" }
+- { setname: gtk-sharp,                name: gtk-sharp-3-mono }
 - { setname: gtk-sharp-beans,          name: dotnet-gtk-sharp-beans }
 - { setname: gtk-theme-arc-red,        name: arc-theme-red }
 - { setname: gtkdatabox,               name: libgtkdatabox }
