@@ -215,8 +215,8 @@
 - { name: spigot, ruleset: freebsd, setname: spigot-videocapture }
 - { name: spigot, warning: "please classify me" }
 
-- { name: spin, category: [dev-java,Development/Java], setname: libspin-java } # name already used in debian
-- { name: spin, wwwpart: spin.sourceforge.net, setname: libspin-java }
+- { name: spin, category: [dev-java,Development/Java], setname: "java:spin" }
+- { name: spin, wwwpart: spin.sourceforge.net, setname: "java:spin" }
 - { name: spin, summpart: spinner, setname: spin-spinner }
 - { name: spin, wwwpart: spinroot, setname: spin-verification }
 - { name: spin, ruleset: [pld,openbsd], setname: spin-verification }
