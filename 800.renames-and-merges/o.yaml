@@ -98,7 +98,7 @@
 - { setname: openscenegraph,           name: [open-scene-graph,osg] }
 - { setname: openscenegraph,           namepat: "openscenegraph[0-9.-]+" }
 - { setname: openscenegraph,           namepat: "osg[0-9.-]+" }
-- { setname: openscenegraph,           name: osg-devel, weak_devel: true }
+- { setname: openscenegraph,           name: [osg-devel,openscenegraph-dev], weak_devel: true }
 - { setname: openshadinglanguage,      namepat: "openshadinglanguage[0-9.-]+" }
 - { setname: openshot,                 name: openshot-qt, addflavor: qt }
 - { setname: opensm,                   name: compat-opensm-libs }
