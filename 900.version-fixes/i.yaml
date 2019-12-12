@@ -65,6 +65,7 @@
 - { name: iozone,                      verpat: "[0-9]{3}",                                 setver: "3.$0" } # fix confusion between iozone3 ver NNN and iozone ver 3.NNN
 - { name: iperf,                       ver: "2.0.14a",               ruleset: gentoo,      incorrect: true } # 2.0.13
 - { name: iperf,                                                     ruleset: gentoo,      untrusted: true } # accused of fake 2.0.14a
+- { name: ipmitool,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: [iproute,iproute2],          verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: [iproute,iproute2],          verge: "20000000", verlt: "20190510",               outdated: true } # 5.1.0 from 10 May 2019
 - { name: iputils,                     verpat: "[0-9]{8}\\.[0-9a-f]{7,}",                  ignore: true } # arch: commit id in version
