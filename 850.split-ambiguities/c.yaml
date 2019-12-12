@@ -91,6 +91,11 @@
 - { name: clac, wwwpart: soveran, setname: clac-soveran }
 - { name: clac, warning: "please classify me" }
 
+- { name: clean, wwwpart: clean.cs, setname: clean-lang }
+- { name: clean, wwwpart: [sourceforge.net/projects/clean, clean.sourceforge.io], setname: clean-file-remover }
+- { name: clean, summpart: "programming language", setname: clean-lang }
+- { name: clean, warning: "please classify me" }
+
 - { name: clink, wwwpart: mridgers, setname: clink-cmd }
 - { name: clink, wwwpart: [free-electrons,bootlin.com], setname: clink-symlink }
 - { name: clink, ruleset: pld, setname: clink-net }
