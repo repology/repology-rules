@@ -306,8 +306,10 @@
     pimcommon|
     plasma-desktop|
     plasma-framework|
+    plasma-nm|
     plasma-pa|
     plasma-sdk|
+    plasma-vault|
     plasma-workspace-wallpapers|
     plasma-workspace|
     polkit-kde-agent-1|
@@ -331,8 +333,14 @@
 
 - namepat: |
     (
+    kdeplasma-addons|
+    plasma-browser-integration|
+    plasma-integration|
+    plasma-nm|
     plasma-pa|
-    plasma-sdk
+    plasma-sdk|
+    plasma-vault|
+    plasma-workspace-wallpapers
     )-git
   setname: "$1"
   weak_devel: true
@@ -345,6 +353,7 @@
 
 - { setname: kdegraphics-mobipocket,   name: kde-graphics-mobipocket }
 - { setname: kdenetwork-filesharing,   name: [kde-network-filesharing, kdenetwork4-filesharing] }
+- { setname: kdeplasma-addons,         name: kde-plasma-addons }
 - { setname: libkmahjongg,             name: libkf5kmahjongg }
 - { setname: akonadi,                  name: [akonadi-qt4,akonadi-runtime], addflavor: true }
 - { setname: akonadi,                  name: akonadi1 }
