@@ -27,6 +27,7 @@
 - { name: "python:fiona",              verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:flask-sphinx-themes", ver: "20130715",                                   outdated: true }
 - { name: "python:flask-sphinx-themes", verpat: "20[0-9]{6}",                              snapshot: true }
+- { name: "python:fpylll",             verpat: "(.*)dev",                                  setver: $1 }
 - { name: "python:fuse",               ver: "2.5",                   ruleset: [mageia,pclinuxos,rosa], incorrect: true }
 - { name: "python:fuse",                                             ruleset: [mageia,pclinuxos,rosa], untrusted: true }
 - { name: "python:gmpy2",              ver: "2.1.0",                 ruleset: fedora,      incorrect: true }
