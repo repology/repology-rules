@@ -139,6 +139,7 @@
 - { name: mpdscribble,                 ver: "0.23",                  ruleset: openwrt,     incorrect: true } # entware
 - { name: mpdscribble,                                               ruleset: openwrt,     untrusted: true } # entware
 - { name: mpdviz,                                                    ruleset: aur,         rolling: true }
+- { name: mpeg-play,                   verpat: "(.*)patched",                              setver: $1 }
 - { name: mpfr,                        verlonger: 3,                                       incorrect: true } # openbsd, openpkg, openindiana fakes
 - { name: mpg123,                                                    ruleset: os4depot,    incorrect: true }
 - { name: mphidflash,                  verpat: "20[0-9]{6}.*",                             ignore: true } # fake
