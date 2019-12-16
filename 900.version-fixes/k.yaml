@@ -21,6 +21,7 @@
 - { name: katomic,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kbfs,                        verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: kbibtex,                     ver: "0.8",                   ruleset: debuntu,     ignore: true } # actually 0.8~20170819git31a77b27e8e83836e which cannot be parsed properly
+- { name: kbibtex,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kblackbox,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kblocks,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kbounce,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -66,6 +67,8 @@
 - { name: keepasshttp,                 verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: kexec-tools,                 verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: keybinder,                   verpat: "3\\..*",                                   incorrect: true }
+- { name: kfilemetadata,               ver: "5.65.0a",                                     incorrect: true }
+- { name: kfilemetadata,                                             ruleset: debuntu,     untrusted: true } # accused of fake 5.65.0a
 - { name: kfind,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kfloppy,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kfourinline,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -74,6 +77,7 @@
 - { name: kget,                        verpat: "20[0-9]{6}",                               ignore: true } # nix snapshot
 - { name: kgoldrunner,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kgpg,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kgraphviewer,                ver: "2.4.3a",                                      setver: "2.4.3" }
 - { name: khangman,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: khelpcenter,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kholidays,                   verpat: "(4|15|16|17)\\..*",                        outdated: true } # https://cgit.kde.org/kholidays.git/refs/tags
@@ -95,7 +99,8 @@
 - { name: killbots,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: killerbee,                   ver: "99",                                          incorrect: true }
 - { name: kimap,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: kio,                         ver: "5.47.0a",                                     incorrect: true }
+- { name: kio,                         ver: "5.65.0b",                                     incorrect: true }
+- { name: kio,                                                       ruleset: debuntu,     untrusted: true } # accused of fake 5.65.0b
 - { name: kio-extras,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kiriki,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kismet,                      verpat: "20[0-9]{4}.*",                             incorrect: true } # version format problem (it's YYYY-MM-RX)
