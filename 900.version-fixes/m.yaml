@@ -62,6 +62,7 @@
 - { name: mbrola,                      verpat: "([0-9])([0-9]+[a-z])",                     setver: $1.$2 }
 - { name: mbrola,                      verpat: "([0-9]+)\\.([0-9]+)\\.([0-9]+[a-z])",      setver: $1.$2$3 }
 - { name: mdadm,                                                     ruleset: fedora,      untrusted: true } # accused of fake 4.1
+- { name: mdns-repeater,               verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: mecab,                       ver: "1.0",                   ruleset: vcpkg,       incorrect: true }
 - { name: mecab,                                                     ruleset: vcpkg,       untrusted: true } # accused of fake 1.0
 - { name: mediatomb,                   ver: "0.12.2",                ruleset: fedora,      incorrect: true }
