@@ -179,6 +179,7 @@
 - { name: musepack,                                                                        noscheme: true }
 - { name: musescore,                   verpat: ".*[0-9]{4}",                               incorrect: true } # scoop garbage, debian snapshot
 - { name: mutter,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: muttprint,                   verpat: ".*_.*",                                    incorrect: true } # aur fake
 - { name: mve,                                                                             noscheme: true }
 - { name: mvwm,                                                                            noscheme: true }
 - { name: mx-clutter,                  verpat: "[0-9]+\\.99.*",                            devel: true }
