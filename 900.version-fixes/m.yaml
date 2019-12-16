@@ -8,6 +8,8 @@
 - { name: mailcommon,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mailimporter,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mailnag-gnome-shell,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mailsync,                    ver: "5.2.2",                 ruleset: debuntu,     incorrect: true }
+- { name: mailsync,                                                  ruleset: debuntu,     untrusted: true } # accused of fake 5.2.2
 - { name: mailx,                       verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: make,                        verpat: ".*pre.*",                                  ignore: true }
 - { name: make,                        verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true } # https://ftp.gnu.org/gnu/make/ vs https://alpha.gnu.org/gnu/make/
