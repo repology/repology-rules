@@ -158,6 +158,8 @@
 - { name: ms-gsl,                      verpat: "2017.*",                                   outdated: true } # official versioning scheme was introduced, 1.0.0 is the latest
 - { name: msbuild,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: msdl,                        verpat: ".*pl.*",             ruleset: openbsd,     incorrect: true }
+- { name: msgpuck,                     ver: "2.0.10",                ruleset: fedora,      incorrect: true }
+- { name: msgpuck,                                                   ruleset: fedora,      untrusted: true }
 - { name: mspdebug,                    verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: mtd-utils,                                                 ruleset: maemo,       ignore: true } # fork?
 - { name: mtd-utils,                   verpat: "[0-9]{6}",                                 incorrect: true } # slackware garbage
