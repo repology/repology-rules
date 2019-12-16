@@ -76,7 +76,8 @@
 - { name: longrun,                     verpat: ".*-.*",                                    debianism: true } # t2
 - { name: lpc21isp,                    verpat: "[0-9]{3}",                                 incorrect: true } # it's 1.97, not 197
 - { name: lprof,                       verpat: "20[0-9]{6}",                               ignore: true }
-- { name: lrslib,                      verpat: "[0-9]+[a-z]*",                             incorrect: true } # it's X.Y
+- { name: lrslib,                      verpat: "[0-9]+\\.[a-z]*",                          incorrect: true } # it's X.Y
+- { name: lrslib,                      verpat: "[0-9]+[a-z]*",                             altver: true }
 - { name: lrzsz,                       verge: "0.12.21",                                   successor: true } # debian fork? (needs investigation)
 - { name: lshw,                                                                            incorrect: true } # quirky schema
 - { name: lshw,                        verpat: "B(\\.[0-9]+)+",                            incorrect: false }
