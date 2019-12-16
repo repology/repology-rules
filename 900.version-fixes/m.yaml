@@ -52,6 +52,8 @@
 - { name: mate-settings-daemon,        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mate-system-monitor,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mate-terminal,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: mate-themes,                 ver: "3.22.20.1",             ruleset: debuntu,     incorrect: true }
+- { name: mate-themes,                                               ruleset: debuntu,     untrusted: true } # accused of fake 3.22.20.1
 - { name: mate-user-guide,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mate-user-share,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mate-utils,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
