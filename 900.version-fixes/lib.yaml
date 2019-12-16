@@ -182,6 +182,8 @@
 - { name: libspatialite,                                             ruleset: macports,    untrusted: true } # accused of fake 4.99.0
 - { name: libspatialite,               ver: "4.4.0rc1",              ruleset: debuntu,     incorrect: true }
 - { name: libspatialite,                                             ruleset: debuntu,     untrusted: true } # accused of fake 4.4.0rc1
+- { name: libspatialite,               ver: "5.0.0",                 ruleset: fedora,      incorrect: true }
+- { name: libspatialite,                                             ruleset: fedora,      untrusted: true } # accused of fake 5.0.0
 - { name: libspiro,                    verpat: "1~0\\.5\\.20[0-9]{6}",                     incorrect: true} # it's 0.5.20150702; XXX: problem
 - { name: libspiro,                    verpat: "20[0-9]{6}",                               incorrect: true} # it's 0.5.20150702; XXX: problem
 - { name: libspiro,                    verge: "20000000", verlt: "20150702",               outdated: true }
