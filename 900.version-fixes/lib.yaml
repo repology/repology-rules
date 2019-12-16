@@ -105,6 +105,8 @@
 - { name: libksba,                                                   ruleset: sisyphus,    untrusted: true } # accused in fake 1.3.6
 - { name: libksieve,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libkvkontakte,               verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: liblas,                      ver: "1.8.1.99",                                    incorrect: true }
+- { name: liblas,                                                    ruleset: macports,    untrusted: true } # accused of fake 1.8.1.99
 - { name: liblastfm,                   verlonger: 3,                                       incorrect: true } # freebsd garbage
 - { name: liblastfm,                   verpat: "1\\.1\\.0.*",        ruleset: arch,        incorrect: true } # antergos
 - { name: liblinear,                   verpat: "[0-9]+",                                   incorrect: true } # 2.30, not 230
