@@ -115,7 +115,7 @@
 - { name: moc,                         verpat: "2\\.6\\.0r.*",                             ignore: true }
 - { name: moc,                         verpat: "(2\\.6)\\.0(a.*)",                         setver: "$1$2" } # there's no third numeric component for alpha
 - { name: modemmanager,                ver: "1.7.990",                                     setver: "1.8-rc1" }
-- { name: molten,                      verpat: ".*[0-9]{14}.*",                            incorrect: true } # macports garbage 6.2-20190813131500; the version is plain 6.2
+- { name: molden,                      verpat: ".*[0-9]{14}.*",                            incorrect: true } # macports garbage 6.2-20190813131500; the version is plain 6.2
 - { name: moneydance,                  verpat: "20[0-9]{2}\\.[0-9]{4}.*",                  incorrect: true }
 - { name: mongodb,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mono,                        ver: ["5.12.0.260","5.12.0.273"],                   devel: true, maintenance: true }
