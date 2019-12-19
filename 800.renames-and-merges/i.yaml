@@ -63,6 +63,7 @@
 - { setname: intel-hybrid-driver,      name: [libva-intel-driver-hybrid,libva-intel-hybrid-driver,libva-driver-intel-hybrid, intel-hybrid-codec-driver] }
 - { setname: intel-media-driver,       name: intel-media-driver-non-free, addflavor: true }
 - { setname: intel-media-driver,       name: libva-intel-media-driver }
+- { setname: intel-media-sdk,          name: [intel-mediasdk, intel-media-stack] }
 - { setname: intel-microcode,          name: [microcode-intel,microcode-data-intel,intel-microcode-netbsd] }
 - { setname: intel-microcode,          name: microcode, ruleset: [mageia,rosa] } # limit family for safely
 - { setname: intel-vaapi-driver,       name: intel-vaapi-driver-shaders, addflavor: true }

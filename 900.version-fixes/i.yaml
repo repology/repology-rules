@@ -55,6 +55,8 @@
 - { name: inspectrum,                  ver: "20180603",                                    outdated: true, disposable: true } # latest official versions from 20180607
 - { name: intel-hybrid-driver,         verpat: "2.*",                ruleset: aur,         incorrect: true } # totally fake
 - { name: intel-hybrid-driver,                                       ruleset: aur,         untrusted: true } # accused if fake 2.0.0.r169.edead0c (intel-hybrid-codec-driver package)
+- { name: intel-media-sdk,             verpat: "20[0-9]{2}\\..*",                          incorrect: true } # aur invention, upstream uses 2 digit major
+- { name: intel-media-sdk,             verpat: ".*p.*",                                    devel: true } # preX
 - { name: intel-microcode,             verpat: ".*really.*",                               incorrect: true, addflag: garbage }
 - { name: intel-microcode,             verpat: "(?:[0-9]\\.)?(20[0-9]{6}a?).*",            setver: $1, noflag: garbage }
 - { name: intellij-idea-community,     verpat: "([0-9]+(?:\\.[0-9]+){1,2})(?:\\.[0-9]+){3}", setver: $1 } # 2018.3.5 vs 2018.3.5.183.5912.21; 2019.1 vs. 2019.1.191.6183.87
