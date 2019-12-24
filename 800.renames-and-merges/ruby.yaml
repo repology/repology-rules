@@ -2,6 +2,8 @@
 
 - { namepat: "(ruby:.*)-rails(?:4|5|50)", setname: "$1", ruleset: freebsd }
 
+- { namepat: "ruby:rails800", addflag: not_versioned }
+
 - namepat: |
     (ruby:(?:
     actioncable|
@@ -111,6 +113,7 @@
     utilrb|
     web-console
     ))[0-9.-]+
+  noflag: not_versioned
   setname: "$1"
 
 - { setname: "ruby:http-parser.rb",    name: "ruby:http-parser-rb" }
