@@ -2,4 +2,8 @@
 
 - { name: yacc, wwwpart: heirloom, setname: heirloom-devtools, addflavor: yacc }
 
+- { name: yard, wwwpart: yardoc, setname: "ruby:yard" }
+- { name: yard, ruleset: aosc, setname: "ruby:yard" }
+- { name: yard, warning: "please classify me" }
+
 - { name: yq, wwwpart: mikefarah, setname: yq-mikefarah }
