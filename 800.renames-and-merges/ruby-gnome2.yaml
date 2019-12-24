@@ -1,0 +1,74 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+# Real ruby gems
+- setname: ruby-gnome2
+  name:
+    - "ruby:atk"
+    - "ruby:cairo-gobject"
+    - "ruby:clutter"
+    - "ruby:clutter-gdk"
+    - "ruby:clutter-gstreamer"
+    - "ruby:clutter-gtk"
+    - "ruby:gdk3"
+    - "ruby:gdk_pixbuf2"
+    - "ruby:gdk-pixbuf2"
+    - "ruby:gio2"
+    - "ruby:glib2"
+    - "ruby:gnumeric"
+    - "ruby:gobject-introspection"
+    - "ruby:goffice"
+    - "ruby:gsf"
+    - "ruby:gstreamer"
+    - "ruby:gtk2"
+    - "ruby:gtk3"
+    - "ruby:gtksourceview2"
+    - "ruby:gtksourceview3"
+    - "ruby:gtksourceview4"
+    - "ruby:pango"
+    - "ruby:poppler"
+    - "ruby:rsvg2"
+    - "ruby:vte"
+    - "ruby:vte3"
+    - "ruby:webkit-gtk"
+    - "ruby:webkit-gtk2"
+    - "ruby:webkit2-gtk"
+  addflavor: true
+
+# Not real ruby gems, but same thing
+- setname: ruby-gnome2
+  name:
+    - "ruby:gnome"
+    - "ruby:gnome2"
+    - "ruby:ruby-gnome2"
+
+# Misc incorrectly named or obsolete packages, not real gems
+- setname: ruby-gnome2
+  name:
+    - "ruby:gnomecanvas"
+    - "ruby:goocanvas"
+    - "ruby:libart"
+    - "ruby:libglade"
+    - "ruby:libglade2"
+    - "ruby:rsvg"
+    - "ruby:ruby-atk"
+    - "ruby:ruby-cairo-gobject"
+    - "ruby:ruby-clutter"
+    - "ruby:ruby-clutter-gdk"
+    - "ruby:ruby-clutter-gstreamer"
+    - "ruby:ruby-clutter-gtk"
+    - "ruby:ruby-gdk3"
+    - "ruby:ruby-gdkpixbuf2"
+    - "ruby:ruby-gio2"
+    - "ruby:ruby-glib2"
+    - "ruby:ruby-gobject-introspection"
+    - "ruby:ruby-gstreamer"
+    - "ruby:ruby-gtk2"
+    - "ruby:ruby-gtk3"
+    - "ruby:ruby-gtksourceview"
+    - "ruby:ruby-gtksourceview3"
+    - "ruby:ruby-pango"
+    - "ruby:ruby-rsvg"
+    - "ruby:ruby-vte"
+    - "ruby:ruby-vte3"
+    - "ruby:ruby-webkit2-gtk"
+  addflavor: true
