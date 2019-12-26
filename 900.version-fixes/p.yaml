@@ -69,6 +69,8 @@
 - { name: pforth,                                                                          noscheme: true } # https://github.com/philburk/pforth
 - { name: pgadmin,                     verpat: "1\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: pgadmin,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: pgdbf,                       verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: pgdbf,                       verpat: "[0-9]{3}\\..*",                            incorrect: true }
 - { name: photivo,                                                                         noscheme: true }
 - { name: phototonic,                  ver: "2.1.10",                                      incorrect: true }
 - { name: phototonic,                  verpat: "2\\.1\\.[0-9]+",     ruleset: [sisyphus,mageia,pclinuxos], incorrect: true }
