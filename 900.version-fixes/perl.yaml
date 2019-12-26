@@ -47,6 +47,7 @@
 - { name: "perl:enum",                 verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:exporter-tiny",        verpat: ".*\\+.*",                                  devel: true } # AOSC devel
 - { name: "perl:extutils-parsexs",     verpat: "3\\.[0-9]{3}.*",                           incorrect: true }
+- { name: "perl:extutils-parsexs",                                   ruleset: fedora,      untrusted: true } # accused of fake 3.39, 3.40
 - { name: "perl:extutils-pkgconfig",   verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:extutils-xspp",        verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:file-path",            verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
