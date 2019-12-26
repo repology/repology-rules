@@ -86,6 +86,8 @@
 - { name: "php:crypt-blowfish",        ver: "1.1.0",                 ruleset: pld,         incorrect: true } # 1.1.0rc2
 - { name: "php:crypt-blowfish",                                      ruleset: pld,         untrusted: true } # accused of fake 1.1.0
 - { name: "php:dba-relational",        ver: "0.19",                                        outdated: true }
+- { name: "php:http-upload",           ver: "1.0.0",                 ruleset: pld,         incorrect: true } # 1.1.0b4
+- { name: "php:http-upload",                                         ruleset: pld,         untrusted: true } # accused of fake 1.0.0
 - { name: "php:interbase",             verge: "7.4.0",                                     incorrect: true } # no such extensions since php 7.4
 - { name: "php:mcrypt",                verge: "5",                                         outdated: true } # part of PHP up to 7.1
 - { name: "php:pear",                                                ruleset: aur,         untrusted: true } # "it's tracking https://github.com/pear/pearweb_phars which is not real PHP PEAR like anyone else is tracking"
