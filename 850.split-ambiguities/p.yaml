@@ -75,6 +75,8 @@
 - { name: "php56:excel", wwwpart: php_excel,           setname: "php56:php_excel" }
 - { name: "php56:excel", wwwpart: phpoffice,           setname: "php56:phpexcel" }
 
+- { name: "php:pam", wwwpart: amishmm, setname: "php:pam-amishmm" } # XXX: otherwise pecl
+
 - { name: picard,                      setname: java-picard, wwwpart: picard.sourceforge.net }
 
 # pico is a part of corresponding email clients
