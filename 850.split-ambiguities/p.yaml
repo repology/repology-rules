@@ -72,8 +72,8 @@
 - { name: pgf, wwwpart: libpgf, setname: libpgf }
 
 # https://github.com/PHPOffice/PHPExcel vs. https://github.com/iliaal/php_excel
-- { name: "php56:excel", wwwpart: php_excel,           setname: "php56:php_excel" }
-- { name: "php56:excel", wwwpart: phpoffice,           setname: "php56:phpexcel" }
+- { name: "php:excel", wwwpart: php_excel, setname: "php:php_excel" }
+- { name: "php:excel", wwwpart: phpoffice, setname: "php:phpexcel" }
 
 - { name: "php:pam", wwwpart: amishmm, setname: "php:pam-amishmm" } # XXX: otherwise pecl
 
