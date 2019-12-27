@@ -95,6 +95,8 @@
 - { name: "php:pear",                                                ruleset: aur,         untrusted: true } # "it's tracking https://github.com/pear/pearweb_phars which is not real PHP PEAR like anyone else is tracking"
 - { name: "php:php-compat",            verpat: ".*a.*",                                    devel: true }
 - { name: "php:tcpdf",                 ver: "2009-03-31",                                  ignore: true } # XXX: remove after repology/repology#891
+- { name: "php:uri-template",          ver: "1.0",                   ruleset: pld,         incorrect: true }
+- { name: "php:uri-template",                                        ruleset: pld,         untrusted: true } # accused of fake 1.0
 - { name: phyml,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: pianobooster,                ver: "0.7.0",                 ruleset: mageia,      incorrect: true }
 - { name: pianobooster,                                              ruleset: mageia,      untrusted: true }
