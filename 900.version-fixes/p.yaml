@@ -120,6 +120,7 @@
 - { name: pkg-config,                  verge: "1.6.0",                                     incorrect: true } # pkgconf actually (ravenports, cygwin); XXX: problem
 - { name: pkgdiff,                     ver: "1.8",                   ruleset: freshcode,   ignore: true } # https://github.com/lvc/pkgdiff/issues/35
 - { name: pktstat,                     verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: plan9port,                                                                       noscheme: true } # https://github.com/9fans/plan9port/releases
 - { name: plantuml,                    verpat: "[0-9]{4,5}",                               incorrect: true } # 1.2018.8
 - { name: plasma,                                                                          noscheme: true }
 - { name: plasma-desktop,              ver: "5.16.0a",               ruleset: debuntu,     incorrect: true } # ubuntu fake
