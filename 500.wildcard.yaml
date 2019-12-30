@@ -87,7 +87,7 @@
 - { setname: "lua:$2", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua([0-9.]*)-module-(?:lua)?(.+?)", ruleset: sisyphus, addflavor: $1 }
 
 # MinGW
-- { setname: "mingw:$1", addflag: wconce, noflag: [wconce,not_mingw], namepat: "mingw-(.*)",   ruleset: [ fedora, mageia, rosa ] }
+- { setname: "mingw:$1", addflag: wconce, noflag: [wconce,not_mingw], namepat: "mingw-(.*)",   ruleset: [ centos, fedora, mageia, rosa ] }
 - { setname: "mingw:$1", addflag: wconce, noflag: [wconce,not_mingw], namepat: "mingw32-(.*)", ruleset: [ sisyphus, rosa, freebsd ] }
 - { setname: "mingw:$1", addflag: wconce, noflag: [wconce,not_mingw], namepat: "mingw-w64-(.*)", ruleset: [ aur ] }
 - { setname: "mingw:$2", addflag: wconce, noflag: [wconce,not_mingw], namepat: "mingw64-(i686|x86_64)-(.*)", ruleset: cygwin, addflavor: $1 }
