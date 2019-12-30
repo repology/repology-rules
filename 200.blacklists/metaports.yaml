@@ -52,6 +52,9 @@
 
 - { remove: true,   name: rust-base,    ruleset: aosc }
 
+- { remove: true,   name: rust-toolset }
+- { remove: true,   name: rust-toolset-7 }
+
 # https://repology.org/metapackages/task-/?search=task-
 # No need to list unique packages though; and task-spooler is legit
 - remove: true
