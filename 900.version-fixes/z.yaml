@@ -15,6 +15,7 @@
 - { name: zfs,                                                       ruleset: pld,         untrusted: true } # accused of fake 0.8.0
 - { name: zfs,                         verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: zfs,                         verlonger: 4,                                       ignore: true } # likely kernel version appended
+- { name: zfs,                                                       ruleset: alpine,      untrusted: true } # linux kernel version
 - { name: zidrav,                      ver: "1.20",                  ruleset: pkgsrc,      incorrect: true } # 1.2.0
 - { name: zidrav,                                                    ruleset: pkgsrc,      untrusted: true }
 - { name: zip,                         verlonger: 2,                 ruleset: openmandriva, ignore: true } # fork
