@@ -182,8 +182,8 @@
 - { name: splitpatch,                  verpat: ".*20[0-9]{8}",                             snapshot: true }
 - { name: splitvt,                     ver: "1.6.6_6",                                     incorrect: true } # sisyphus
 - { name: splix,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: splix,                       ver: ["2.0.1", "2.0.0.315"],  ruleset: [fedora,opensuse,pclinuxos,pisi,sisyphus], incorrect: true }
-- { name: splix,                                                     ruleset: [fedora,opensuse,pclinuxos,pisi,sisyphus], untrusted: true } # accused of fake 2.0.1, 2.0.0.315 versions
+- { name: splix,                       ver: ["2.0.1", "2.0.0.315"],  ruleset: [fedora,opensuse,pclinuxos,pisi,sisyphus,centos], incorrect: true }
+- { name: splix,                                                     ruleset: [fedora,opensuse,pclinuxos,pisi,sisyphus,centos], untrusted: true } # accused of fake 2.0.1, 2.0.0.315 versions
 - { name: sprunge,                                                                         noscheme: true }
 - { name: spyder,                      verpat: ".*b.*",                                    devel: true }
 - { name: sqlite,                      verpat: ".*_[0-9]+",                                ignore: true } # slackbuilds using debian patch
