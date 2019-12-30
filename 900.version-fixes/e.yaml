@@ -38,7 +38,7 @@
 - { name: elementary,                  ver: "2009-07-29",                                  outdated: true }
 - { name: elinks,                      vergt: "0.12pre6",                                  untrusted: true } # too many snapshots
 - { name: elinks,                      ver: ["0.11.996","0.12.3.2","0.12rc6"],             incorrect: true }
-- { name: elinks,                      ver: "0.12", ruleset: [sisyphus,centos,mageia,openmandriva,rosa], incorrect: true }
+- { name: elinks,                      ver: "0.12", ruleset: [sisyphus,centos,fedora,mageia,openmandriva,rosa], incorrect: true }
 - { name: elinks,                      ver: "0.13", ruleset: [alpine,arch,rudix,chakra],   incorrect: true }
 - { name: elinks,                      verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: elisa,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
