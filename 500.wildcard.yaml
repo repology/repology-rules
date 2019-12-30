@@ -118,7 +118,7 @@
 #- { setname: "php:$0", addflag: wconce, noflag: [wconce,not_php], ruleset: gentoo, category: dev-php }
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "(?:pear-|pecl-|php-)*(.*?)", ruleset: [gentoo,exherbo], category: dev-php }
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "(?:pear|pecl)-(.*)", ruleset: [freebsd,macports,openbsd,pkgsrc,sisyphus] }
-- { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php[0-9]*-(?:pear-|pecl-)?(.*?)", ruleset: [adelie,alpine,arch,crux,debuntu,fedora,freebsd,macports,mageia,nix,openbsd,openmandriva,openpkg,opensuse,openwrt,pclinuxos,pkgsrc,pld,ravenports,rosa,sisyphus,slackbuilds,void,t2] }
+- { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php[0-9]*-(?:pear-|pecl-)?(.*?)", ruleset: [adelie,alpine,arch,crux,debuntu,fedora,freebsd,macports,mageia,nix,openbsd,openmandriva,openpkg,opensuse,openwrt,pclinuxos,pkgsrc,pld,ravenports,rosa,sisyphus,slackbuilds,void,t2,centos] }
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "php-[0-9._]+-ext-(.*)", ruleset: openindiana }
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_php], namepat: "libphp-(.*)", ruleset: debuntu }
 - { setname: "php:$2", addflag: wconce, noflag: [wconce,not_php], namepat: "pecl([0-9]+)-(.*)", ruleset: openbsd, addflavor: $1}
