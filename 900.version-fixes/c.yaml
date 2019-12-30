@@ -150,6 +150,7 @@
 - { name: copyq,                       verpat: "[0-9a-z]{4}",                              incorrect: true } # slitaz
 - { name: copyq,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: coreutils,                                                 ruleset: os4depot,    incorrect: true }
+- { name: corosync,                    verlonger: 3,                 ruleset: sisyphus,    incorrect: true }
 - { name: corsixth,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: courier-authlib,             verpat: ".*\\.20[0-9]{6}",                          devel: true }
 - { name: courier-unicode,             verpat: ".*\\.20[0-9]{6}",                          devel: true } # http://www.courier-mta.org/download.html#unicode
