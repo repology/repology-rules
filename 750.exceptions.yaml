@@ -9,7 +9,7 @@
 - { setname: espeak-ng,                name: espeak, verpat: "1\\.49\\..*", ruleset: [kaos,termux] } # XXX: problem
 - { setname: libdmx,                   name: xorg-dmx, ruleset: ravenports } # don't mix with xorg dmx server
 - { setname: mysql-connector-c,        name: libmysqlclient, ruleset: haikuports } # not really libmysqlclient from mysql
-- { setname: "perl:html-formatter",    name: "perl:html-format", ruleset: fedora } # XXX: problem
+- { setname: "perl:html-formatter",    name: "perl:html-format" } # XXX: problem
 - { setname: "python:pygpgme",         name: "python:gpgme", ruleset: pclinuxos }
 - { setname: "python:pygpgme",         name: "python:gpgme", wwwpart: pygpgme }
 - { setname: wine-etersoft,            name: wine, ruleset: sisyphus } # counterfeit
