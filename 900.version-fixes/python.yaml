@@ -35,6 +35,8 @@
 - { name: "python:gmpy2",              verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:gmusicapi",          ver: "2012.08.31",                                  incorrect: true }
 - { name: "python:gmusicapi",                                        ruleset: sisyphus,    untrusted: true } # accused of fake 2012.08.31
+- { name: "python:gpsoauth",           ver: "0.4.2.2",               ruleset: pisi,        incorrect: true } # 0.4.2.rc2
+- { name: "python:gpsoauth",                                         ruleset: pisi,        untrusted: true } # accused of fake 0.4.2.2
 - { name: "python:hg-git",             verpat: "[0-9a-f]{12}",                             incorrect: true, disposable: true } # slitaz
 - { name: "python:html2text",          ver: "2018.9.1",                                    incorrect: true, disposable: true } # 2018.1.9
 - { name: "python:httplib2",           verpat: "2-.*",                                     incorrect: true }
