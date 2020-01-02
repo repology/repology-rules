@@ -50,7 +50,7 @@
 - { name: elvis,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: elvis,                       ver: "2.2f",                                        incorrect: true } # source file gone, cannot check
 - { name: elvis-tiny,                  verpat: ".*-.*",                                    debianism: true } # t2
-- { name: emacs,                       ver: "26.1.90",               ruleset: sisyphus,    incorrect: true }
+- { name: emacs,                       verlonger: 2,                                       ignore: true } # snapshot versions, no clear scheme (27.0.60 vs. 27.0.60_2019-12-26)
 - { name: emacs,                                                     ruleset: sisyphus,    untrusted: true } # accused of fake 26.1.90
 - { name: emacs,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "emacs:apel",                verpat: ".*20[0-9]{6}",                             snapshot: true }
