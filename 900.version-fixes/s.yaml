@@ -240,6 +240,7 @@
 - { name: svox,                                                                            noscheme: true }
 - { name: svt-av1,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: sway,                        verpat: ".*\\.b\\..*",                              incorrect: true } # FreeBSD garbage
+- { name: sway,                        verpat: ".*r.*",                                    devel: true } # XXX: FreeBSD DISTVERSION
 - { name: sway,                        ver: "1.3",                   ruleset: openmandriva, incorrect: true }
 - { name: sway,                                                      ruleset: openmandriva, untrusted: true } # accused of fake 1.3
 - { name: sweeper,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
