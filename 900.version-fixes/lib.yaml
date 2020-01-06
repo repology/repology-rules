@@ -107,6 +107,7 @@
 - { name: libkvkontakte,               verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: libkvkontakte,               ver: "19.12.0",               ruleset: pclinuxos,   incorrect: true }
 - { name: libkvkontakte,                                             ruleset: pclinuxos,   untrusted: true } # accused of fake 19.12.0
+- { name: libkvkontakte,               verpat: "15\\..*",                                  incorrect: true } # fake, latest is 5.0.0
 - { name: liblas,                      ver: "1.8.1.99",                                    incorrect: true }
 - { name: liblas,                                                    ruleset: macports,    untrusted: true } # accused of fake 1.8.1.99
 - { name: liblastfm,                   verlonger: 3,                                       incorrect: true } # freebsd garbage
