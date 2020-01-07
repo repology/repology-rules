@@ -21,7 +21,7 @@
 - { name: "vdr:vnsiserver",            verpat: "14.*",                                     incorrect: true } # freebsd garbage
 - { name: vdrift,                      verpat: "([0-9]{4})\\.?([0-9]{2})\\.?([0-9]{2})",   setver: $1-$2-$3 } # XXX: problem
 - { name: vegeta,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: veracrypt,                   verpat: "(1\\.[0-9]{2})(?:[_.-](?:p|update|hotfix)?)([0-9])", setver: "$1-whatever$2", any_is_patch: true }
+- { name: veracrypt,                   verpat: "(1\\.[0-9]{2})(?:[_.-]|p|update|hotfix)+([0-9])", setver: "$1-whatever$2", any_is_patch: true }
 - { name: vespucci,                    verpat: "[0-9]+",                                   outdated: true } # remove after #891
 - { name: vgmstream,                   verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: vid.stab,                    verpat: ".*[0-9a-f]{7}.*",                          ignore: true } # git commit
