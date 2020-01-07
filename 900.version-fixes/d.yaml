@@ -40,6 +40,8 @@
 - { name: devilutionx,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: dex2jar,                     ver: "2.1",                   ruleset: [blackarch,debuntu], incorrect: true } # actually 2.1-nightly-NN; debuntu=kali linux
 - { name: dff,                         verpat: "(.*)\\.20[0-9]{6}",                        setver: "$1" } # aosc snapshot
+- { name: dhcp,                        ver: "4.4.2",                 ruleset: fedora,      incorrect: true }
+- { name: dhcp,                                                      ruleset: fedora,      untrusted: true } # accused of fake 4.4.2
 - { name: dhewm3,                      ver: "1.4.2",                 ruleset: [ fedora ],  ignore: true } # no such version (rpmfusion)
 - { name: dhewm3,                      ver: "1.5.1",                 ruleset: [haikuports,fedora], incorrect: true } # 1.5.1 pre1
 - { name: dhewm3,                                                    ruleset: [haikuports,fedora], untrusted: true } # accused of fake 1.5.1
