@@ -168,7 +168,7 @@
 - { setname: burp,                     name: [burp-devel,burp-backup-dev], weak_devel: true }
 - { setname: burp,                     name: [burp-server,burp2-server], addflavor: server }
 - { setname: burritun,                 name: "rust:burritun" }
-- { setname: busybox,                  name: [busybox-custom,busybox-norootreboot,busybox-static,mdev,mkinitcpio-busybox], addflavor: true }
+- { setname: busybox,                  name: [busybox-custom,busybox-norootreboot,busybox-static,mdev,mkinitcpio-busybox,busybox-init], addflavor: true }
 - { setname: byaccj,                   name: byacc-j, ruleset: debuntu }
 - { setname: bzflag,                   name: bzflag-server, addflavor: server }
 - { setname: bzr,                      name: bazaar }
