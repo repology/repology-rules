@@ -69,6 +69,8 @@
 - { name: shairplay,                                                                       noscheme: true }
 - { name: shairport-sync,              verpat: ".*d.*",                                    devel: true }
 - { name: shflags,                     ver: "2012",                                        incorrect: true } # openwrt
+- { name: shibboleth-sp,               ver: "3.0.4.1",               ruleset: nix,         incorrect: true }
+- { name: shibboleth-sp,                                             ruleset: nix,         untrusted: true } # accused of fake 3.0.4.1
 - { name: shiboken,                    ver: "2.0.0",                 ruleset: kaos,        incorrect: true } # fake
 - { name: shiboken,                                                  ruleset: kaos,        untrusted: true } # accused of fake 2.0.0
 - { name: shmux,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
