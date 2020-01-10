@@ -28,6 +28,8 @@
 - { name: sccs,                        verpat: "[0-9]{6}",                                 incorrect: true }
 - { name: schismtracker,               ver: "20150911005204",                              ignore: true }
 - { name: scim-input-pad,              verpat: ".*20[0-9]{6}",                             snapshot: true } # opensuse
+- { name: scim-skk,                    ver: "0.5.3",                 ruleset: pclinuxos,   incorrect: true }
+- { name: scim-skk,                                                  ruleset: pclinuxos,   untrusted: true } # accused of fake 0.5.3
 - { name: scite,                       verpat: "[0-9]{3}",                                 incorrect: true } # pclinuxos; it's x.y.z
 - { name: scm,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]+",                 incorrect: true } # 5f2
 - { name: scponly,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
