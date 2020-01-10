@@ -34,6 +34,10 @@
 - { name: screenruler, ruleset: [aosc,cygwin], setname: gnome-screenruler }
 - { name: screenruler, warning: "please classify me" }
 
+- { name: scripts, wwwpart: [x.org,xorg], setname: xorg-scripts }
+- { name: scripts, wwwpart: gobolinux, setname: gobolinux-scripts }
+- { name: scripts, warning: "please classify me" }
+
 - { name: sdb, wwwpart: libsdb, setname: libsdb }
 - { name: sdb, wwwpart: mono, setname: sdb-mono }
 - { name: sdb, wwwpart: [shotgun,game], setname: shotgun-debugger }
