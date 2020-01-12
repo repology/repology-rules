@@ -64,7 +64,7 @@
 - { name: openjazz,                                                  ruleset: openbsd,     untrusted: true } # accused of fake 20190120
 - { name: openjfx,                     verpat: "8\\.0\\..*",                               ignore: true } # fedora; the official scheme is e.g. 8u151b12
 - { name: openjk,                                                                          noscheme: true }
-- { name: openkim-models,              verpat: "20[0-9]{6}",                               incorrect: true } # it's YYYY-MM-DD
+- { name: openkim-models,              verpat: "(20[0-9]{2})([01][0-9])([03][0-9])",       setver: "$1.$2.$3" } # it's YYYY.MM.DD
 - { name: openlierox,                  ver: "0.58",                  ruleset: [fedora,debuntu], incorrect: true } # there's no 0.58, only 0.58beta3
 - { name: openmortal,                  ver: "0.7.1",                                       ignore: true } # legal release, but no source tarball
 - { name: opennap,                     ver: "0.45",                  ruleset: hpux,        incorrect: true }
