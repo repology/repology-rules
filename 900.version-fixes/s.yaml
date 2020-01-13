@@ -119,7 +119,9 @@
 - { name: slune,                       ver: "1.0.16",                ruleset: mageia,      incorrect: true } # latast is 1.0.15
 - { name: slune,                                                     ruleset: mageia,      untrusted: true } # accused of fake 1.0.16
 - { name: smake,                       ver: "1.3.2",                 ruleset: aix,         incorrect: true }
-- { name: smake,                                                     ruleset: aix,         untrusted: true }
+- { name: smake,                                                     ruleset: aix,         untrusted: true } # accused of fake 1.3.2
+- { name: smake,                       ver: "1.3",                   ruleset: pkgsrc,      incorrect: true }
+- { name: smake,                                                     ruleset: pkgsrc,      untrusted: true } # accused of fake 1.3
 - { name: smartmontools,               verpat: "([0-9]+\\.[0-9]+)[.-][0-9]+",              setver: $1 }
 - { name: smpeg,                       verpat: "[0-9]{3}",                                 incorrect: true } # slitaz
 - { name: smpeg,                       verpat: "[0-9]+\\.[0-9]+\\.[0-9]+-[0-9]{3}",        incorrect: true } # guix
