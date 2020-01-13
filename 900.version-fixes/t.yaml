@@ -140,6 +140,8 @@
 - { name: ttf2pt1,                     verpat: "[0-9]+",                                   incorrect: true, disposable: true } # 3.4.4, not 344 (opensuse 42.3)
 - { name: ttwatch,                                                                         noscheme: true }
 - { name: tunctl,                      verpat: "20[0-9]{6}",                               ignore: true }
+- { name: tuned,                       ver: "2.22.0",                ruleset: opensuse,    incorrect: true }
+- { name: tuned,                                                     ruleset: opensuse,    untrusted: true } # accused of fake 2.22.0
 - { name: tuxmath,                     ver: "20010907",                                    ignore: true }
 - { name: tuxmath,                                                   ruleset: os4depot,    incorrect: true }
 - { name: tuxmathscrabble,             ver: "2015",                  ruleset: fsd,         ignore: true } # out of line with versions encountered in other repos; cannot recheck as upstream is completely gone
