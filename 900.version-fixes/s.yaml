@@ -202,6 +202,7 @@
 - { name: sqlitebrowser,               ver: "3.10.80",               ruleset: kaos,        incorrect: true } # 3.11.0-alpha1
 - { name: sqlitebrowser,                                             ruleset: kaos,        untrusted: true } # accused of fake 3.10.80
 - { name: sqlninja,                    ver: "0.2.999",                                     incorrect: true } # it's 0.2.999-alpha1
+- { name: sqtop,                       verpat: "[0-9]{8}",                                 incorrect: true } # YYYY-MM-DD, not YYYYMMDD
 - { name: squashfs-tools,              verpat: "[0-9]+",                                   incorrect: true } # 4.3, not 43
 - { name: squashfs-tools,              verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: squeezelite,                                                                     noscheme: true }
