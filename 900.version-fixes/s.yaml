@@ -85,7 +85,7 @@
 - { name: signon-kwallet-extension,    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: signon-ui,                   verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: signon-ui,                   verpat: ".*20[0-9]{6}",                             ignore: true }
-- { name: signon-ui,                   ver: "0.17.2",                                      incorrect: true } # fake
+- { name: signon-ui,                   ver: ["0.17.2","0.17.3"],                           incorrect: true } # fake
 - { name: simage,                      ver: "1.7.1",                 ruleset: debuntu,     incorrect: true }
 - { name: simh,                        verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: simh,                        verpat: "[0-9]{2}.*",                               incorrect: true }
