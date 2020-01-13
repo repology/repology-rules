@@ -136,6 +136,7 @@ rulesets = families + [
     'pardus',
     'parrot',
     'pureos',
+    'rpm',
     'rpmsphere',
     'slitaz_next',
     'ubuntu',
