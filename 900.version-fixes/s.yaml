@@ -218,6 +218,7 @@
 - { name: sshttp,                      verpat: "(.*)p(.*)",                                setver: "$1s$2" } # gentoo cannot into upstream versioning scheme
 - { name: sshttp,                      verpat: "(.*)s",                                    setver: "$1s1" } # 0-33s < 0-33s2
 - { name: sshttp,                                                                          any_is_patch: true } # scheme is like 0-33s → 0-35s → 0-35s2
+- { name: sslwrap,                     verpat: "[0-9]{3}",                                 incorrect: true } # 2.0.6, not 206
 - { name: ssmtp,                       vergt: "2.64",                                      successor: true } # https://github.com/solbu/ssmtp
 - { name: steamcmd,                                                                        noscheme: true }
 - { name: step,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
