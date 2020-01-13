@@ -212,6 +212,9 @@
 - { name: squirrelmail,                verpat: ".*pre[0-9]{5}",                            ignore: true } # pkgsrc snapshot
 - { name: squirrelmail,                ver: "1.4.23",                ruleset: [rosa,fedora,mageia], incorrect: true } # no such release
 - { name: squirrelmail,                                              ruleset: [rosa,fedora,mageia], untrusted: true } # accused of fake 1.4.23
+- { name: squirrelmail-multilogin,     verpat: ".*-.*",                                    altver: true } # may contain squirrelmail version (?)
+- { name: squirrelmail-notes,          verpat: ".*-.*",                                    altver: true } # may contain squirrelmail version (?)
+- { name: squirrelmail-shared-calendars, verpat: ".*-.*",                                  altver: true } # may contain squirrelmail version (?)
 - { name: sshttp,                      verpat: "(.*)p(.*)",                                setver: "$1s$2" } # gentoo cannot into upstream versioning scheme
 - { name: sshttp,                      verpat: "(.*)s",                                    setver: "$1s1" } # 0-33s < 0-33s2
 - { name: sshttp,                                                                          any_is_patch: true } # scheme is like 0-33s → 0-35s → 0-35s2
