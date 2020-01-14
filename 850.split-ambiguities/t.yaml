@@ -1,5 +1,9 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: taipan, wwwpart: textrpg, setname: taipan-game }
+- { name: taipan, wwwpart: enkomio, setname: taipan-security-scanner }
+- { name: taipan, warning: "please classify me" }
+
 - { name: task, wwwpart: taskfile, setname: "go:task" }
 - { name: task, wwwpart: taskwarrior, setname: taskwarrior }
 - { name: task, summpart: todo, setname: taskwarrior }
