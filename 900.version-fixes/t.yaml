@@ -97,6 +97,7 @@
 - { name: tk,                          verpat: ".*a[0-9]+",                                devel: true }
 - { name: tk,                          verpat: "[0-9]+\\.[0-9]+\\.0\\.?a.*",               incorrect: true } # it's X.YaZ, not X.Y.0aZ
 - { name: tklib,                       verpat: ".*pl.*",             ruleset: openbsd,     incorrect: true }
+- { name: tktable,                     ver: "2.11",                  ruleset: macports,    devel: true } # see https://github.com/macports/macports-ports/blob/master/x11/tktable/Portfile#L17
 - { name: tmfs,                        verpat: "r([.0-9]+)",                               setver: "$1" }
 - { name: tnt,                         verpat: "[0-9]{3,}",                                incorrect: true } # sisyphus
 - { name: tnt,                         verge: "3",                                         devel: true } # beta as per https://math.nist.gov/tnt/download.html
