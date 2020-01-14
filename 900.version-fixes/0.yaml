@@ -5,6 +5,7 @@
 - { name: [0ad,0ad-data],              verpat: "[^a].*",                                   ignore: true }
 - { name: [0ad,0ad-data],              ver: "0.0.23.1",                                    incorrect: true }
 - { name: [0ad,0ad-data],                                                                  devel: true }
+- { name: 2048.c,                                                                          noscheme: true } # https://github.com/mevdschee/2048.c
 - { name: 2bwm,                        verpat: "[0-9]{8}.*",                               snapshot: true } # pkgsrc
 - { name: 2bwm,                        ver: "0.3",                   ruleset: openbsd,     incorrect: true } # fake
 - { name: 2bwm,                                                      ruleset: openbsd,     untrusted: true } # accused of fake 0.3
