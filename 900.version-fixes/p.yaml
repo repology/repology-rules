@@ -202,7 +202,6 @@
 - { name: properties-cpp,              verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: protonmail-bridge,           verpat: ".*-.*",              ruleset: nix,         debianism: true }
 - { name: protonvpn-cli,               verpat: "[0-9]{10}",                                incorrect: true }
-- { name: protracker,                                                                      noscheme: true }
 - { name: prover9,                     ver: "200911a",                                     incorrect: true }
 - { name: proxychains-ng,              verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: pscan,                       verpat: "20[0-9]{6}",                               snapshot: true }
@@ -215,6 +214,7 @@
 - { name: pssh,                        ver: "2.3.3",                 ruleset: mageia,      incorrect: true }
 - { name: pssh,                                                      ruleset: mageia,      untrusted: true } # accused of fake 2.3.3
 - { name: pstack,                      vergt: "1.3.1",               ruleset: deepin,      incorrect: true }
+- { name: pt2-clone,                   verpat: "2.*",                                      outdated: true } # https://github.com/8bitbubsy/pt2-clone/releases
 - { name: public-suffix-list,                                                              noscheme: true } # https://github.com/publicsuffix/list/releases
 - { name: pulseaudio-alsa,                                                                 noscheme: true } # just some versionless config for pulseaudio
 - { name: pulseaudio-equalizer,        ver: "2.7.0.2",                                     incorrect: true }
