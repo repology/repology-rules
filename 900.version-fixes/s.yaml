@@ -268,6 +268,8 @@
 - { name: swi-prolog,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed even/odd scheme; http://www.swi-prolog.org/Download.html
 - { name: swish-e,                     ver: "2.7.0",                 ruleset: pld,         incorrect: true }
 - { name: swish-e,                                                   ruleset: pld,         untrusted: true }
+- { name: symlinks,                    ver: "1.7",                   ruleset: fedora,      incorrect: true }
+- { name: symlinks,                                                  ruleset: fedora,      untrusted: true } # accused of fake 1.7
 - { name: syncthing,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: syncthing-gtk,               verpat: "0\\.14\\..*",                              incorrect: true } # sisyphus fake (uses syncthing version?)
 - { name: syndication,                 verge: "15",                                        outdated: true }
