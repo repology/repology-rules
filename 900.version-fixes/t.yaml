@@ -20,6 +20,7 @@
 - { name: tcb,                         ver: "1.1.0.1",               ruleset: sisyphus,    incorrect: true }
 - { name: tcb,                                                       ruleset: sisyphus,    untrusted: true } # 1.1.0.1
 - { name: tcc,                         verpat: "20[0-9]{2}.*",                             ignore: true } # freebsd
+- { name: tcc,                         verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: tcl,                         verpat: ".*20[0-9]{6}.*",                           ignore: true } # 8.7 snapshots
 - { name: tcl,                         verpat: ".*a[0-9]+",                                devel: true }
 - { name: tcl,                         verpat: "[0-9]+\\.[0-9]+\\.0\\.?a.*",               incorrect: true } # it's X.YaZ, not X.Y.0aZ
