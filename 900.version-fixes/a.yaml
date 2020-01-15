@@ -106,6 +106,7 @@
 - { name: apparix,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: appleseed,                   verpat: "(.*?)[._-]?beta",                          setver: $1, devel: false } # all versions beta nonsense
 - { name: appmenu-qt,                  verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
+- { name: appstream-glib,              verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: apr,                         verlonger: 3,                                       ignore: true } # FreeBSD
 - { name: apr,                         verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: apr,                         verpat: "2\\..*",                                   devel: true }
