@@ -113,6 +113,7 @@
 - { name: tor,                         verge: "0.4.3",                                     devel: true, maintenance: true } # 0.4.0 stable since 0.4.0.5
 - { name: tor-browser,                 verlonger: 3,                 ruleset: pkgsrc,      incorrect: true } # firefox version appended
 - { name: tora,                        verlonger: 2,                 ruleset: nix,         incorrect: true }
+- { name: torque,                      verpat: ".*h.*",                                    devel: true }
 - { name: torsocks,                    verpat: ".*20[0-9]{2}.*",                           ignore: true } # termux snapshot
 - { name: tortoisehg,                  ver: "5.0",                   ruleset: aur,         incorrect: true }
 - { name: tortoisehg,                                                ruleset: aur,         untrusted: true } # accused of fake 5.0
