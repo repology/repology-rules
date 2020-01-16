@@ -115,8 +115,10 @@
 - { name: tora,                        verlonger: 2,                 ruleset: nix,         incorrect: true }
 - { name: torque,                      verpat: ".*h.*",                                    devel: true }
 - { name: torsocks,                    verpat: ".*20[0-9]{2}.*",                           ignore: true } # termux snapshot
-- { name: tortoisehg,                  ver: "5.0",                   ruleset: aur,         incorrect: true }
-- { name: tortoisehg,                                                ruleset: aur,         untrusted: true } # accused of fake 5.0
+- { name: tortoisehg,                  ver: "5.2.0",                 ruleset: aur,         incorrect: true }
+- { name: tortoisehg,                                                ruleset: aur,         untrusted: true } # accused of fake 5.0, 5.2.0
+- { name: tortoisehg,                  ver: "5.2.1",                 ruleset: nix,         incorrect: true }
+- { name: tortoisehg,                                                ruleset: nix,         untrusted: true } # accused of fake 5.2.1
 - { name: totem,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: toxcore,                     verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: toxcore,                     verpat: "201[67].*",                                outdated: true }
