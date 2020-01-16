@@ -19,6 +19,10 @@
 - { setname: dbus,                     name: [dbus-1,dbus-libs,libdbus] }
 - { setname: dbus-c++,                 name: [dbus-cplusplus,libdbus-c++] }
 - { setname: dbus-glib,                name: [libdbus-glib,dbus-1-glib] }
+- { setname: dbus-sharp,               namepat: "dbus-sharp[0-9.-]+" }
+- { setname: dbus-sharp,               name: [dbus-sharp-legacy, dotnet-dbus-sharp] }
+- { setname: dbus-sharp-glib,          namepat: "dbus-sharp-glib[0-9.-]+" }
+- { setname: dbus-sharp-glib,          name: [dbus-sharp-glib-legacy, dotnet-dbus-sharp-glib] }
 - { setname: dcc,                      name: dcc-dccd }
 - { setname: dcmtk,                    name: libdcmtk12 }
 - { setname: dcmtk,                    name: dcmtk-snapshot, weak_devel: true }
