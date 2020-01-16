@@ -7,6 +7,7 @@
 - { setname: haproxy,                  namepat: "haproxy[0-9.-]*" }
 - { setname: haproxy,                  name: haproxy-devel, weak_devel: true }
 - { setname: haraka,                   name: "node:haraka" }
+- { setname: harfbuzz,                 name: [harfbuzz-icu,harfbuzz-hb-view], addflavor: true }
 - { setname: hashcat,                  name: hashcat-legacy }
 - { setname: haxe,                     name: haxe2 }
 - { setname: haxe,                     name: haxe-bin, addflavor: bin }
