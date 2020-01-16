@@ -23,6 +23,7 @@
 - { setname: dbus-sharp,               name: [dbus-sharp-legacy, dotnet-dbus-sharp] }
 - { setname: dbus-sharp-glib,          namepat: "dbus-sharp-glib[0-9.-]+" }
 - { setname: dbus-sharp-glib,          name: [dbus-sharp-glib-legacy, dotnet-dbus-sharp-glib] }
+- { setname: dbus-sharp-glib,          name: dbus-sharp-lib, disposable: true } # aosc
 - { setname: dcc,                      name: dcc-dccd }
 - { setname: dcmtk,                    name: libdcmtk12 }
 - { setname: dcmtk,                    name: dcmtk-snapshot, weak_devel: true }
