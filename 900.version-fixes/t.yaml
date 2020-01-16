@@ -138,6 +138,7 @@
 - { name: trellis,                     verpat: "20[0-9]{4}.*",                             snapshot: true }
 - { name: tribler,                     verpat: ".*exp.*",                                  devel: true }
 - { name: trinity,                     ver: "1.9",                   ruleset: opensuse,    setver: "1.9pre" } # https://github.com/kernelslacker/trinity/releases
+- { name: trlan,                       ver: "20021121",                                    outdated: true }
 - { name: trn,                         ver: ["4.77", "4.0"],                               incorrect: true }
 - { name: trn,                         verpat: "(4\\.0)(?:\\.|\\.?[a-z]+)([0-9]+)",        setver: $1-test$2 }
 - { name: trojita,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
