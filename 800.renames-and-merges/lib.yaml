@@ -207,6 +207,7 @@
 - { setname: libsodium,                name: [sodium,libsodium-static] }
 - { setname: libspatialite,            name: spatialite }
 - { setname: libsrs2,                  name: [libsrs2-debug,libsrs2-perl,libsrs2-python], addflavor: true }
+- { setname: libsrtp,                  namepat: "libsrtp[0-9.-]+" }
 - { setname: libstaroffice,            namepat: "libstaroffice[0-9.-]+" }
 - { setname: libstemmer,               name: [snowball,snowball-stemmer] }
 - { setname: libsysstat,               name: libsysstat-qt5 }
