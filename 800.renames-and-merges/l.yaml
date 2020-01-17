@@ -4,6 +4,13 @@
 - { setname: l-smash-works,            name: ["vapoursynth:l-smash-works", "vapoursynth:lsmashsource"], addflavor: vapoursynth }
 - { setname: labplot,                  name: [labplot-kf5, labplot2] }
 - { setname: ladspa-cmt,               name: ladspa-cmt-plugins }
+- { setname: lal,                      name: ["octave:lal","python:lal"], addflavor: true }
+- { setname: lalburst,                 name: ["octave:lalburst","python:lalburst"], addflavor: true }
+- { setname: lalframe,                 name: ["octave:lalframe","python:lalframe"], addflavor: true }
+- { setname: lalinspiral,              name: ["octave:lalinspiral","python:lalinspiral"], addflavor: true }
+- { setname: lalmetaio,                name: ["octave:lalmetaio","python:lalmetaio"], addflavor: true }
+- { setname: lalpulsar,                name: ["octave:lalpulsar","python:lalpulsar"], addflavor: true }
+- { setname: lalsimulation,            name: ["octave:lalsimulation","python:lalsimulation"], addflavor: true }
 - { setname: lambdahack,               name: "haskell:lambdahack" }
 - { setname: lame,                     name: libmp3lame }
 - { setname: lammps,                   name: lammps-beta, weak_devel: true }
