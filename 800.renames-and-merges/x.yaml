@@ -24,6 +24,7 @@
 - { setname: xapian-bindings,          namepat: "php[0-9]*:xapian", addflavor: php }
 - { setname: xapian-bindings,          namepat: "xapian[0-9.-]*-bindings[0-9.-]*" }
 - { setname: xapian-bindings,          namepat: xapian-bindings-(perl|python), addflavor: $1 }
+- { setname: xapian-bindings,          namepat: "xapian-bindings-((?:java|perl|php|python|ruby)[0-9.-]*)", addflavor: $1 }
 - { setname: xapian-core,              namepat: "xapian[0-9.-]*(-core[0-9.-]*)?" }
 - { setname: xapian-core,              name: libxapian }
 - { setname: xapian-omega,             namepat: "xapian-omega[0-9.-]*" }
