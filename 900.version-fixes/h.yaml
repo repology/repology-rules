@@ -43,4 +43,5 @@
 - { name: hydrogen,                    verpat: ".*beta2",            ruleset: rosa,        incorrect: true }
 - { name: hydrogen,                                                  ruleset: rosa,        untrusted: true } # accused of fake 1.0.0beta2
 - { name: hydrogen,                    verpat: ".*b[0-9]+\\.[0-9]+",                       incorrect: true } # freebsd garbage
+- { name: hyperrogue,                  verpat: "[0-9]{3}.*",                               incorrect: true } # 11.2d, not 112d
 - { name: hyphy,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true }
