@@ -50,6 +50,8 @@
 
 - { ruleset: kaos,            namepat: "(.*)-debug", setname: $1, addflavor: debug }
 
+- { ruleset: kiss,            namepat: "(.*)-git", ver: "git", setname: $1 } # Note: rolling status set for 'git' versions in 899 ruleset
+
 - { ruleset: [libregamewiki,fdroid], replaceinname: { " ": "-", "!": "", ",": "", ":": "", "'": "", ".": "", "(": "", ")": "" } }
 - { ruleset: [libregamewiki,fdroid], replaceinname: { "---": "-" } }
 

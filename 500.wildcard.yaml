@@ -111,7 +111,7 @@
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_perl], namepat: "p5-(.*)", ruleset: [crux,freebsd,macports,openbsd,pkgsrc,kwort] }
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_perl], namepat: "p5.[0-9]+-(.*)", ruleset: macports }
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_perl], namepat: "lib(.*)-perl", ruleset: debuntu }
-- { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_perl], namepat: "perl-(.*)", ruleset: [adelie,alpine,aosc,arch,chakra,centos,cygwin,fedora,gobolinux,guix,kaos,mageia,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds,pld,aix,slitaz,openwrt,pisi,void,conda,solus,salix,msys2_msys2,t2,mer,distri] }
+- { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_perl], namepat: "perl-(.*)", ruleset: [adelie,alpine,aosc,arch,chakra,centos,cygwin,fedora,gobolinux,guix,kaos,mageia,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds,pld,aix,slitaz,openwrt,pisi,void,conda,solus,salix,msys2_msys2,t2,mer,distri,kiss] }
 - { setname: "perl:$2", addflag: wconce, noflag: [wconce,not_perl], namepat: "perl(5[0-9.]+)-(.*)", ruleset: nix, addflavor: $1 }
 - { setname: "perl:$0", addflag: wconce, noflag: [wconce,not_perl], category: dev-perl, ruleset: [gentoo,exherbo,haikuports] }
 - { setname: "perl:$0", addflag: wconce, noflag: [wconce,not_perl], category: perl-core, ruleset: [gentoo,exherbo] }
