@@ -1,0 +1,11 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { setname: "nextcloud:calendar",     name: nextcloud-calendar }
+- { setname: "nextcloud:contacts",     name: nextcloud-contacts }
+- { setname: "nextcloud:deck",         name: nextcloud-deck }
+- { setname: "nextcloud:mail",         name: nextcloud-mail }
+- { setname: "nextcloud:notes",        name: nextcloud-notes }
+- { setname: "nextcloud:passman",      name: nextcloud-passman }
+- { setname: "nextcloud:tasks",        name: nextcloud-tasks }
+- { setname: "nextcloud:twofactor-totp", name: ["nextcloud:totp", nextcloud-twofactor-totp] }
+- { setname: "nextcloud:twofactor-u2f", name: ["nextcloud:u2f", nextcloud-twofactor-u2f] }

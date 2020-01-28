@@ -92,6 +92,9 @@
 - { setname: "mingw:$1", addflag: wconce, noflag: [wconce,not_mingw], namepat: "mingw-w64-(.*)", ruleset: [ aur ] }
 - { setname: "mingw:$2", addflag: wconce, noflag: [wconce,not_mingw], namepat: "mingw64-(i686|x86_64)-(.*)", ruleset: cygwin, addflavor: $1 }
 
+# Nextcloud
+- { setname: "nextcloud:$1", addflag: wconce, noflag: [wconce,not_nextcloud], namepat: "nextcloud-app-(.*)", ruleset: arch }
+
 # Nodejs
 - { setname: "node:$1", addflag: wconce, noflag: [wconce,not_node], namepat: "node-(.*)", ruleset: debuntu }
 - { setname: "node:$1", addflag: wconce, noflag: [wconce,not_node], namepat: "nodejs-(.*)", ruleset: [arch,chakra,fedora,mageia,rosa,sisyphus,opensuse,pld] }
