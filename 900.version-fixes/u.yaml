@@ -61,6 +61,7 @@
 - { name: usbview,                     ver: "2.0.1",                 ruleset: rosa,        incorrect: true }
 - { name: utf8proc,                    ver: "2.4.0.2",               ruleset: haikuports,  incorrect: true }
 - { name: utf8proc,                                                  ruleset: haikuports,  untrusted: true } # accused of fake 2.4.0.2
+- { name: utf8proc,                    verlonger: 3,                                       altver: true } # e.g. 2.4.0-1 http://git.netsurf-browser.org/libutf8proc.git/
 - { name: utfcpp,                      verpat: "2012.*",                                   snapshot: true } # slackbuilds
 - { name: util-vserver,                ver: "0.30.216",              ruleset: pld,         incorrect: true } # http://ftp.linux-vserver.org/pub/utils/util-vserver/
 - { name: util-vserver,                                              ruleset: pld,         untrusted: true } # http://ftp.linux-vserver.org/pub/utils/util-vserver/
