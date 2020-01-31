@@ -96,6 +96,7 @@
 - { name: xrdp,                        ver: "0.9.12.1",              ruleset: sisyphus,    incorrect: true }
 - { name: xrdp,                                                      ruleset: sisyphus,    untrusted: true } # Accused of fake 0.9.12.1
 - { name: xroach,                      verge: "12",                  ruleset: [opensuse,rpmsphere], incorrect: true }
+- { name: xrootconsole,                verlonger: 2,                 ruleset: void,        debianism: true }
 - { name: xsel,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: xsettings-kde,               ver: "0.12.3.2",              ruleset: openmandriva, incorrect: true }
 - { name: xsettings-kde,                                             ruleset: openmandriva, untrusted: true } # accused of fake 0.12.3.2
