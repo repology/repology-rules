@@ -15,6 +15,7 @@
 - { name: webkitgtk,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: weboob,                      ver: "9998",                                        ignore: true } # another gentoo rolling
 - { name: webp-pixbuf-loader,                                                              noscheme: true } # https://github.com/aruiz/webp-pixbuf-loader/releases
+- { name: webscarab,                                                                       noscheme: true } # https://github.com/OWASP/OWASP-WebScarab/releases
 - { name: webvfx,                      ver: "0.44",                                        incorrect: true }
 - { name: webvfx,                      verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: wego,                        verpat: "20[0-9]{2}.*",                             ignore: true } # nix
