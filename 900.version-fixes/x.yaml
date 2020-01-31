@@ -93,6 +93,8 @@
 - { name: xprompt,                     verge: "90",                  ruleset: opensuse,    incorrect: true }
 - { name: xproto,                      ver: "7.0.32",                ruleset: funtoo,      incorrect: true }
 - { name: xproto,                                                    ruleset: funtoo,      untrusted: true }
+- { name: xrdp,                        ver: "0.9.12.1",              ruleset: sisyphus,    incorrect: true }
+- { name: xrdp,                                                      ruleset: sisyphus,    untrusted: true } # Accused of fake 0.9.12.1
 - { name: xroach,                      verge: "12",                  ruleset: [opensuse,rpmsphere], incorrect: true }
 - { name: xsel,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: xsettings-kde,               ver: "0.12.3.2",              ruleset: openmandriva, incorrect: true }
