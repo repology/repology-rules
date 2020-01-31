@@ -76,7 +76,7 @@
 - { setname: dkms,                     name: dkms-sorted, addflavor: sorted }
 - { setname: dlib,                     name: [dlib-cpp,libdlib] }
 - { setname: dlib,                     name: ["python:dlib", "python:dlib-cuda"], addflavor: true }
-- { setname: dmd,                      name: dmd2 }
+- { setname: dmd,                      namepat: "dmd[0-9.-]+" }
 - { setname: dnscrypt-proxy,           name: [dnscrypt-proxy-go,dnscrypt-proxy2] }
 - { setname: doas,                     name: opendoas }
 - { setname: docbook-dsssl,            name: [docbook-dsssl-doc,docbook-style-dsssl-doc] }
@@ -123,6 +123,7 @@
 - { setname: ds9,                      name: saods9 }
 - { setname: dspam,                    name: [dspam-mysql,dspam-pgsql,dspam-web] }
 - { setname: dtc,                      name: [device-tree-compiler,device-tree-compiler-1.4.2,dtc-git-patched] }
+- { setname: dtools,                   name: [d-tools,dlang-tools,dmd-tools] }
 - { setname: dtorrent,                 name: [enhanced-ctorrent,enhanced-ctorrent-dhn,enhancedctorrent,ctorrent-dnh] }
 - { setname: duktape,                  name: [duktape-lib,libduktape] }
 - { setname: dumb,                     name: [aldumb, dumb-allegro], addflavor: allegro }
