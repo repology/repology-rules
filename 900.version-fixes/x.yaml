@@ -105,6 +105,8 @@
 - { name: xsnow,                       ver: "2.0.9",                 ruleset: debuntu,     incorrect: true }
 - { name: xsnow,                                                     ruleset: debuntu,     untrusted: true } # accused of fake 2.0.9
 - { name: xsp,                         verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: xsystem35,                   ver: "1.7.3",                 ruleset: aur,         incorrect: true } # 1.7.3pre5
+- { name: xsystem35,                                                 ruleset: aur,         untrusted: true } # accused ofa fake 1.7.3
 - { name: xtail,                       ver: "2.1.5",                 ruleset: aur,         incorrect: true } # debianism
 - { name: xtail,                                                     ruleset: aur,         untrusted: true }
 - { name: xteddy,                      verpat: ".*-.*",                                    debianism: true }
