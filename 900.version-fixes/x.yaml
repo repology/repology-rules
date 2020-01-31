@@ -87,6 +87,9 @@
 - { name: xournal,                     ver: "4.7",                                         outdated: true }
 - { name: xpdf,                        ver: "4.02",                  ruleset: freebsd,     incorrect: true }
 - { name: xpdf,                        verpat: ".*pl0",                                    incorrect: true }
+- { name: xplot,                       verge: "1",                   ruleset: debuntu,     incorrect: true }
+- { name: xplot,                       ver: "0.90.8",                ruleset: pkgsrc,      incorrect: true } # latest is 0.90.7.1: http://www.xplot.org/
+- { name: xplot,                                                     ruleset: pkgsrc,      untrusted: true } # accused of fake 0.90.8
 - { name: xprompt,                     verge: "90",                  ruleset: opensuse,    incorrect: true }
 - { name: xproto,                      ver: "7.0.32",                ruleset: funtoo,      incorrect: true }
 - { name: xproto,                                                    ruleset: funtoo,      untrusted: true }
