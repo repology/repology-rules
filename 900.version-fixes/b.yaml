@@ -70,6 +70,7 @@
 - { name: bloodfrontier,               ver: "0.85",                                        setver: b2 }
 - { name: bluej,                       verpat: "[0-9]+",                                   ignore: true }
 - { name: bluez-tools,                                                                     noscheme: true }
+- { name: bmf,                         verpat: "0\\.8[0-9]",                               outdated: true }
 - { name: bmon,                        ver: "999",                                         incorrect: true, disposable: true } # gentoo
 - { name: bochs,                                                     ruleset: freshcode,   untrusted: true }
 - { name: bomber,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
