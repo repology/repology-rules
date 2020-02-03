@@ -53,6 +53,7 @@
 - { verpat: "[0-9]{5}", namepat: "texlive:.*",                       ruleset: guix,        ignore: true } # ???
 - { verpat: ".*suse",                                                                      incorrect: true }
 - { verpat: ".*r.*", namepat: "php:.*",                              ruleset: freebsd,     devel: true }
+- { verpat: "5\\.[0-9]{2}\\.0",                                      ruleset: kaos_build,  untrusted: true } # accused of faking -rc versions of KDE stuff as release
 
 # nuget is terminally broken and can't handle arbitrary version schemes, so most are garbage
 - {                                                                  ruleset: chocolatey,  untrusted: true }

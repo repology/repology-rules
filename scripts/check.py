@@ -122,6 +122,7 @@ rulesets = families + [
     'funtoo',
     'gnuelpa',
     'hyperbola',
+    'kaos_build',
     'maemo',
     'macosx',
     'macosxbins',
