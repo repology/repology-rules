@@ -2,6 +2,10 @@
 
 - { name: yacc, wwwpart: heirloom, setname: heirloom-devtools, addflavor: yacc }
 
+- { name: yali, wwwpart: lolcore, setname: yali-lolcode }
+- { name: yali, wwwpart: pisi, setname: yali-installer }
+- { name: yali, warning: "please classify me" }
+
 - { name: yard, wwwpart: yardoc, setname: "ruby:yard" }
 - { name: yard, ruleset: aosc, setname: "ruby:yard" }
 - { name: yard, warning: "please classify me" }
