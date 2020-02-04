@@ -86,6 +86,7 @@
 - { name: minetest-game,               ver: "0.4.17.1",                                    setver: "0.4.17" } # same commit https://github.com/minetest/minetest_game/tags
 - { name: ming,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: minidlna,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: minijail,                    verpat: "55.*",                                     outdated: true } # https://chromium.googlesource.com/aosp/platform/external/minijail outdated in favor of https://android.googlesource.com/platform/external/minijail/
 - { name: minimodem,                   verpat: ".*-[0-9]+",                                incorrect: true } # -1 is not part of the version
 - { name: minimodem,                   ver: "0.24.1",                ruleset: gentoo,      ignore: true } # actually, pentoo. it's normalized 0.24-1 which is incorrect, see prev. rule
 - { name: minio,                       verpat: "[0-9]+",                                   incorrect: true } # should use separators
