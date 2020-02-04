@@ -160,6 +160,7 @@
 - { setname: bugs-everywhere,          name: bugseverywhere }
 - { setname: bugzilla,                 namepat: "bugzilla[0-9.-]+" }
 - { setname: buildbot,                 namepat: "buildbot[0-9.-]+" }
+- { setname: buildbot,                 name: "python:buildbot" }
 - { setname: buildbot,                 name: [buildbot-console-view,"python:buildbot-console-view"], addflavor: console-view }
 - { setname: buildbot,                 name: [buildbot-grid-view,"python:buildbot-grid-view"], addflavor: grid-view }
 - { setname: buildbot,                 name: [buildbot-pkg,"python:buildbot-pkg"], addflavor: pkg }
