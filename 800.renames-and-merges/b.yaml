@@ -159,6 +159,15 @@
 - { setname: bucardo,                  name: "perl:bucardo" }
 - { setname: bugs-everywhere,          name: bugseverywhere }
 - { setname: bugzilla,                 namepat: "bugzilla[0-9.-]+" }
+- { setname: buildbot,                 namepat: "buildbot[0-9.-]+" }
+- { setname: buildbot,                 name: [buildbot-console-view,"python:buildbot-console-view"], addflavor: console-view }
+- { setname: buildbot,                 name: [buildbot-grid-view,"python:buildbot-grid-view"], addflavor: grid-view }
+- { setname: buildbot,                 name: [buildbot-pkg,"python:buildbot-pkg"], addflavor: pkg }
+- { setname: buildbot,                 name: [buildbot-waterfall-view,"python:buildbot-waterfall-view"], addflavor: waterfall-view }
+- { setname: buildbot,                 name: [buildbot-worker,"python:buildbot-worker"], addflavor: worker }
+- { setname: buildbot,                 name: [buildbot-wsgi-dashboards,"python:buildbot-wsgi-dashboards"], addflavor: wsgi-dashboards }
+- { setname: buildbot,                 name: [buildbot-www,"python:buildbot-www"], addflavor: www }
+- { setname: buildbot-slave,           namepat: "buildbot-slave[0-9.-]+" }
 - { setname: buildstream,              name: "python:buildstream" }
 - { setname: buku,                     name: "python:buku" }
 - { setname: buku,                     name: bukuserver, addflavor: server }
