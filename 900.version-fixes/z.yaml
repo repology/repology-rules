@@ -4,6 +4,7 @@
 - { name: z3,                          verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: zabbix,                      ver: "3.4.7",                 ruleset: sisyphus,    incorrect: true }
 - { name: zabbix,                                                    ruleset: sisyphus,    untrusted: true }
+- { name: zapcc,                                                                           noscheme: true } # https://github.com/yrnkrn/zapcc/releases
 - { name: zathura,                     ver: "20101104",                                    snapshot: true }
 - { name: zbar,                        verge: "0.20",                                      successor: true } # linuxtv.org fork
 - { name: zbar,                        verpat: ".*20[0-9]{2}.*",                           snapshot: true }
