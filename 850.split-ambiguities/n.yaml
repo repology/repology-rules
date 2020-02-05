@@ -48,8 +48,11 @@
 - { name: nms, wwwpart: nms-cgi, setname: nms-formmail }
 - { name: nms, warning: "please classify me" }
 
-- { name: nodejs, wwwpart: ax25, setname: node-ax25 }
-- { name: nodejs, category: [universe/hamradio,lang,Development/Tools,hamradio], setname: node-ax25 }
+- { name: node, wwwpart: ax25, setname: node-ax25 }
+- { name: node, wwwpart: nodejs, setname: nodejs }
+- { name: node, category: [universe/hamradio,hamradio], setname: node-ax25 }
+- { name: node, category: [lang,Development/Tools,dev-lang], setname: nodejs }
+- { name: node, warning: "please classify me" }
 
 - { name: nomad, wwwpart: [nomadproject.io,hashicorp], setname: nomad-scheduler }
 - { name: nomad, wwwpart: nomad.menu, setname: nomad-active-directory }
