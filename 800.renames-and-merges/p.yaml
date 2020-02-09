@@ -192,6 +192,7 @@
 - { setname: proj,                     namepat: "proj[0-9.-]+" }
 - { setname: proj,                     name: libproj }
 - { setname: prometheus,               name: prometheus1 }
+- { setname: prometheus-blackbox-exporter, name: blackbox-exporter }
 - { setname: prometheus-node-exporter, name: node-exporter }
 - { setname: prometheus-postgres-exporter, name: [postgres-exporter,prometheus-postgresql-exporter] }
 - { setname: prometheus-pushgateway,   name: [pushgateway,prometheus-push-gateway] }
