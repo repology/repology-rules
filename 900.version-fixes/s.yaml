@@ -93,6 +93,8 @@
 - { name: simon,                       verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: simple-scan,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: simplescreenrecorder,        verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: simutrans,                   ver: "121.1",                 ruleset: scoop,       incorrect: true } # 121.0 in fact
+- { name: simutrans,                                                 ruleset: scoop,       untrusted: true } # accused of fake 121.1
 - { name: simutrans-pak128.german,     ver: "120",                                         incorrect: true }
 - { name: simutrans-pak128.german,                                   ruleset: aur,         untrusted: true } # accused of fake 120
 - { name: singular,                                                                        p_is_patch: true }
