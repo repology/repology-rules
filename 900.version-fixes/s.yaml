@@ -93,6 +93,8 @@
 - { name: simon,                       verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: simple-scan,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: simplescreenrecorder,        verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: simutrans-pak128.german,     ver: "120",                                         incorrect: true }
+- { name: simutrans-pak128.german,                                   ruleset: aur,         untrusted: true } # accused of fake 120
 - { name: singular,                                                                        p_is_patch: true }
 - { name: singularity,                 verpat: ".*a.*",                                    devel: true }
 - { name: sipgrep,                     ver: "2.2.1",                 ruleset: openwrt,     incorrect: true }
