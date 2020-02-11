@@ -117,6 +117,7 @@
 - { name: xtitle,                      ver: "20170206",                                    outdated: true } # 0.4.3 which is latest normal version ls from feb 15, e.g. newer
 - { name: xtreemfs,                    verlonger: 3,                 ruleset: nix,         incorrect: true }
 - { name: xtrlock-pam,                 verpat: ".*post.*",                                 snapshot: true }
+- { name: xwinwrap-shantz,                                                                 noscheme: true }
 - { name: xxdiff,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: xxdiff,                      verpat: "[0-9]{3}",                                 incorrect: true }
 - { name: xxdiff,                      ver: "5.0",                   ruleset: aur,         incorrect: true }
