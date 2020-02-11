@@ -24,6 +24,9 @@
 - { setname: samtools,                 name: samtools-legacy }
 - { setname: samtools,                 name: samtools-0.1 }
 - { setname: sauerbraten,              name: sauerbraten-data, addflavor: data }
+- { setname: saxon,                    namepat: "saxon[0-9.-]+" }
+- { setname: saxon,                    name: ["java:saxon", saxon-he, saxonhe] }
+- { setname: saxon-b,                  name: saxonb }
 - { setname: scala,                    namepat: "scala-docs[0-9.-]*", addflavor: docs }
 - { setname: scala,                    namepat: "scala-sources[0-9.-]*", addflavor: sources }
 - { setname: scala,                    namepat: "scala[0-9.-]+" }
