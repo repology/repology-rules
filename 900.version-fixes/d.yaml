@@ -13,6 +13,7 @@
 - { name: dbus,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: dbus,                        relge: "2",                   ruleset: pisi,        incorrect: true }
 - { name: dbus-cpp,                    verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
+- { name: dcmtk,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: dconf,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: dconf-editor,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ddate,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
