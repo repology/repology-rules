@@ -42,6 +42,7 @@
 - { setname: dell-unified-driver,      name: [dell-unified-driver-common,dell-unified-driver-printer,dell-unified-driver-scanner,dell-unified-printer-driver], addflavor: true }
 - { setname: deluge,                   name: [deluge-cli, "python:deluge"], addflavor: true }
 - { setname: deluge,                   name: deluge1 }
+- { setname: deno,                     name: ["rust:deno","rust:deno-cli","rust:deno-core"], addflavor: true }
 - { setname: derby,                    name: derby-server }
 - { setname: devede,                   name: devedeng }
 - { setname: devhelp,                  name: devhelp-gtk2, addflavor: gtk2 }
