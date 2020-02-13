@@ -4,7 +4,7 @@
 - { setname: "apmod:auth-kerb",        name: [apache-kerberos, "apmod:auth-kerb2", mod-auth-krb5] }
 - { setname: "apmod:cluster",          name: mod-cluster }
 - { setname: "apmod:dnssd",            name: mod-dnssd }
-- { setname: "apmod:fastcgi",          name: mod-fastcgi }
+- { setname: "apmod:fastcgi",          name: [mod-fastcgi,apache-fastcgi] }
 - { setname: "apmod:fcgid",            name: "apmod:fcgid-legacy" }
 - { setname: "apmod:geoip",            name: "apmod:geoip2" }
 - { setname: "apmod:limitipconn",      name: "apmod:limitipconn2" }
