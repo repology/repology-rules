@@ -1,7 +1,10 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
-- { name: dash, ruleset: gentoo, category: app-emacs, setname: "emacs:dash" }
-- { name: dash, wwwpart: dashpay, setname: dashcore }
+- { name: dash, wwwpart: dash.el, setname: "emacs:dash" }
+- { name: dash, wwwpart: [dashpay,dash.org], setname: dashcore }
+- { name: dash, wwwpart: herbert, setname: dash-shell }
+- { name: dash, summpart: shell, setname: dash-shell }
+- { name: dash, warning: "please classify me" }
 
 - { name: date, wwwpart: HowardHinnant, setname: howard-hinnant-date }
 
