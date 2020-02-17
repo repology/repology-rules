@@ -77,6 +77,7 @@
 - { name: metacity,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: metamail,                    verpat: "2\\.7\\..*",         ruleset: [gentoo,opensuse,pld], incorrect: true }
 - { name: metasploit,                                                ruleset: homebrew_casks, untrusted: true } # accused of fake 5.0.66
+- { name: mg,                                                                              noscheme: true } # comes from openbsd -> mess of different repositories
 - { name: microcode-ctl,               verpat: "2\\..*",                                   devel: true } # https://pagure.io/microcode_ctl/releases
 - { name: midori,                      ver: "0.5.12",                ruleset: aosc,        incorrect: true } # not released
 - { name: midori,                                                    ruleset: aosc,        untrusted: true }
