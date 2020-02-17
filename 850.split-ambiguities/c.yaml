@@ -166,6 +166,6 @@
 - { name: cutter, category: [net,universe/net,Networking/Other], setname: cutter-tcp }
 - { name: cutter, wwwpart: cutter.sourceforge, setname: cutter-unittest }
 - { name: cutter, summpart: testing, setname: cutter-unittest }
-- { name: cutter, wwwpart: radare, setname: radare2-cutter }
+- { name: cutter, wwwpart: [radare,cutter.re], setname: radare2-cutter }
 - { name: cutter, summpart: radare, setname: radare2-cutter }
 - { name: cutter, warning: "please classify me" }
