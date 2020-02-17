@@ -18,6 +18,8 @@
 - { name: calamares,                   verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: calendarsupport,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: calf,                        verpat: "20[0-9]{6}.*",                             ignore: true } # slackbuilds garbage
+- { name: calibre,                     ver: "4.99.4",                ruleset: debuntu,     incorrect: true }
+- { name: calibre,                                                   ruleset: debuntu,     untrusted: true } # accised of fake 4.99.4
 - { name: calibre,                                                   ruleset: parrot,      untrusted: true } # accused of 3.15.0.1 fake
 - { name: california,                  ver: "0.4.1",                 ruleset: deepin,      incorrect: true }
 - { name: california,                                                ruleset: deepin,      untrusted: true } # accused of fake 0.4.1
