@@ -51,6 +51,7 @@
 - { name: libdom,                      verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: libdom,                      verpat: "2017.*",                                   outdated: true } # latest is 0.3.3 from 2018
 - { name: libdvdread,                  ver: "5.0.4",                 ruleset: [arch,openindiana], ignore: true } # fake
+- { name: libevdev,                    verpat: ".*\\.9[0-9]+",                             devel: true } # assumed; https://www.freedesktop.org/software/libevdev/
 - { name: libfaketime,                 verpat: ".*201[67].*",                              ignore: true } # FreeBSD is using git snapshot
 - { name: libffi,                      ver: "3.3",                   ruleset: debuntu,     incorrect: true } # snapshot of nonexisting version
 - { name: libffi,                                                    ruleset: debuntu,     untrusted: true } # accused of fake 3.3
