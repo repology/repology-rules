@@ -65,6 +65,8 @@
 
 - { ruleset: parabola,        namepat: "(.*)-static-debug", setname: $1, addflavor: static-debug }
 
+- { ruleset: scoop,           namepat: "(.*)-(portable)", setname: $1, addflavor: $2 }
+
 - { ruleset: slackware,       namepat: "(.*)-(solibs)", setname: $1, addflavor: $2 }
 
 - { ruleset: slitaz,          namepat: "(.*)-(dev)", setname: $1, addflavor: $2 }
