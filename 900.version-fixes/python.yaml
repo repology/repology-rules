@@ -17,6 +17,8 @@
 - { name: "python:couchdbkit",                                       ruleset: sisyphus,    untrusted: true } # accused of fake 0.9.15
 - { name: "python:django",             verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:django-suit",        verpat: "0\\.3a[123]",                              outdated: true } # https://pypi.org/project/django-suit/#history
+- { name: "python:docker",             ver: "4.10",                  ruleset: pisi,        incorrect: true } # 4.1.0
+- { name: "python:docker",                                           ruleset: pisi,        untrusted: true } # accused of fake 4.10
 - { name: "python:dpkt",               verpat: "1\\.[0-9]{2}.*",                           incorrect: true } # openwrt's 1.91, should be 1.9.1
 - { name: "python:efilter",            verpat: "14[0-9]{8}",                               outdated: true } # https://pypi.org/project/efilter/#history
 - { name: "python:elib.intl",          verpat: ".*20[0-9]{6}",                             snapshot: true }
