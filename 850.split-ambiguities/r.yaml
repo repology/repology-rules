@@ -71,6 +71,10 @@
 
 - { name: "ruby:rash", setname: "ruby:rash-alt", ruleset: sisyphus } # fork
 
+- { name: run, wwwpart: linusdierheimer, setname: run-linusdierheimer }
+- { name: run, wwwpart: tekwizely, setname: run-tekwizely }
+- { name: run, warning: "please classify me" }
+
 - { name: rw, wwwpart: sortix, setname: sortix-rw }
 - { name: rw, ruleset: openbsd, setname: sortix-rw }
 - { name: rw, wwwpart: [rankwidth,philipp], setname: rankwidth }
