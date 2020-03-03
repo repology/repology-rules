@@ -85,8 +85,8 @@
 - { setname: "python:python-wifi",     name: "python:wifi", wwwpart: [python-wifi,pythonwifi] }
 - { setname: "python:python-wifi",     name: "python:wifi", ruleset: [pclinuxos, maemo] }
 - {                                    name: unclutter, verpat: "(0\\.)?8(-[0-9]+)?", addflag: plain_unclutter }
-- {                                    name: unclutter, wwwpart: unclutter.sourceforge.net, addflag: plain_unclutter }
-- { setname: unclutter-xfixes,         name: unclutter, noflag: plain_unclutter } # see #269
+- {                                    name: unclutter, wwwpart: [unclutter.sourceforge.net,debian], addflag: plain_unclutter }
+- { setname: unclutter-xfixes,         name: unclutter, noflag: plain_unclutter } # see #269; XXX: problem
 - { setname: dtorrent,                 name: ctorrent, wwwpart: [dtorrent,dholmes] }
 - { setname: dtorrent,                 name: ctorrent, verpat: ".*dnh.*" }
 - { setname: dtorrent,                 name: ctorrent, ruleset: [sisyphus, pld] }
