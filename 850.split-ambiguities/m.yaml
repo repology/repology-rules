@@ -172,6 +172,10 @@
 
 - { name: libmpack, ruleset: solus, setname: "lua:mpack" }
 
+- { name: mtail, wwwpart: immute, setname: mtail-tail }
+- { name: mtail, wwwpart: google/mtail, setname: mtail-logs-metrics }
+- { name: mtail, warning: "please classify me" }
+
 - { name: mu, wwwpart: [ntoll,mu-editor], setname: mu-editor }
 - { name: mu, wwwpart: kreogist, setname: kreogist-mu } # name taken form AUR package; may also use e.g. mu-music-manager
 # otherwise, maildir utils + emacs email client (mu4e)
