@@ -89,7 +89,7 @@
 - { setname: blas,                     name: [blas-reference,blas-docs], addflavor: docs }
 - { setname: blas,                     name: blas-tmg }
 - { setname: blasphemer,               name: blasphemer-wad }
-- { setname: blender,                  name: blender-binaries }
+- { setname: blender,                  name: [blender-alarm,blender-as-py-module,blender-binaries], addflavor: true }
 - { setname: blender,                  namepat: "blender[0-9.-]+" }
 - { setname: blitz++,                  name: blitz, ruleset: [gentoo,fedora,opensuse] } # XXX: recheck
 - { setname: blobby,                   name: blobby-volley-2 }
