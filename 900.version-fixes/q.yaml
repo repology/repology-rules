@@ -27,6 +27,7 @@
 - { name: qlcplus,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 5.0.0
 - { name: qlipper,                     verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: qml-box2d,                                                                       noscheme: true }
+- { name: qogir-theme,                 verpat: "20[0-9]{6}",                               incorrect: true } # YYYY-MM-DD
 - { name: qpdfview,                    verpat: ".*pre.*",                                  incorrect: true } # gentoo fakes
 - { name: qpdfview,                    ver: "0.4.18",                ruleset: [sisyphus,mageia,pclinuxos], incorrect: true } # beta
 - { name: qpdfview,                                                  ruleset: [sisyphus,mageia,pclinuxos], untrusted: true } # accused of fake 0.4.18
