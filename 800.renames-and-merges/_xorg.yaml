@@ -229,3 +229,5 @@
 - { setname: libxrandr, name: xorg-xrandr, ruleset: ravenports } # exclude from the following rule; XXX: problem
 - { setname: xrandr, name: [xorg-app-xrandr,xorg-xrandr] }
 - { setname: xorg-scripts, name: xorg-app-scripts }
+- { setname: xorgproto, name: [xorg-proto, xorg-proto-xorgproto] }
+- { setname: xorgproto, name: [xorg-proto-devel, xorg-x11-proto-devel], weak_devel: true }
