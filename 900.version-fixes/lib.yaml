@@ -227,6 +227,8 @@
 - { name: libvpx,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: libvterm,                                                                        noscheme: true }
 - { name: libwacom,                    verpat: "0\\.99.*",                                 devel: true }
+- { name: libwacom,                    ver: "1.22",                  ruleset: pisi,        incorrect: true }
+- { name: libwacom,                                                  ruleset: pisi,        untrusted: true } # accused of fake 1.22
 - { name: libwebsockets,               ver: "3.2.99.1",              ruleset: termux,      incorrect: true }
 - { name: libwebsockets,                                             ruleset: termux,      untrusted: true } # accused of fake 3.2.99.1
 - { name: libwnck,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
