@@ -37,6 +37,8 @@
 - { name: aeskulap,                    ver: "0.2.2",                 ruleset: [sisyphus,rosa,pclinuxos], incorrect: true } # 0.2.2beta2
 - { name: aeskulap,                                                  ruleset: [sisyphus,rosa,pclinuxos], untrusted: true } # accused of fake 0.2.2
 - { name: afdko,                       verpat: "([0-9]+\\.[0-9]+)\\.b?([0-9]+).*?",        setver: "$1.$2" }
+- { name: afl,                         ver: "2.62c",                                       incorrect: true } # afl++
+- { name: afl,                                                       ruleset: opensuse,    untrusted: true } # fakes afl++ as afl (https://build.opensuse.org/request/show/711649)
 - { name: aften,                       ver: [ "0.05", "0.08" ],                            incorrect: true }
 - { name: ag,                          verlonger: 3,                                       ignore: true } # windows-only
 - { name: agda-stdlib,                 verlonger: 2,                 ruleset: gentoo,      incorrect: true } # documented broken versioning (other project's version is prepended)
