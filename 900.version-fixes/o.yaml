@@ -17,6 +17,8 @@
 - { name: "octave:secs2d",             verpat: ".*r.*",                                    snapshot: true }
 - { name: octomap,                     verpat: "[0-9a-f]{40}",                             incorrect: true } # commit hash
 - { name: odoo,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: odrive-google-drive-client,  ver: "1.6.6",                 ruleset: deepin,      incorrect: true }
+- { name: odrive-google-drive-client,                                ruleset: deepin,      untrusted: true } # accused of fake 1.6.6
 - { name: oggfwd,                                                                          noscheme: true }
 - { name: ogle-gui,                    verpat: ".*patched.*",                              incorrect: true }
 - { name: ogre,                        verpat: "2.*",                                      ignore: true }
