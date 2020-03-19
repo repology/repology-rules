@@ -5,15 +5,6 @@
 # of better branches support) and more sane naming
 
 - { setname: "fonts:liberation",       name: ["fonts:liberation2"] }
-- { setname: "gstreamer:base",         name: ["gstreamer0plugins:base"] }
-- { setname: "gstreamer:base",         name: ["gstreamer1plugins:base"] }
-- { setname: "gstreamer:good",         name: ["gstreamer0plugins:good"] }
-- { setname: "gstreamer:good",         name: ["gstreamer1plugins:good"] }
-- { setname: "gstreamer:ugly",         name: ["gstreamer0plugins:ugly"] }
-- { setname: "gstreamer:ugly",         name: ["gstreamer1plugins:ugly"] }
-- { setname: "gstreamer:bad",          name: ["gstreamer0plugins:bad"] }
-- { setname: "gstreamer:bad",          name: ["gstreamer1plugins:bad"] }
-- { setname: jack,                     name: [jack-audio-connection-kit,jack-audio-connection-kit1] }
 - { setname: "python:pygobject",       name: ["python:pygobject2", "python:pygobject3"] }
 - { setname: "python:pyside2",         name: ["python:pyside"], verge: "5" }
 - { setname: "python:pyside",          name: ["python:pyside2"], verlt: "5" }
