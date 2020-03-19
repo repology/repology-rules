@@ -27,6 +27,8 @@
 # c++ library based on java one, https://math.nist.gov/javanumerics/jama/ vs. https://math.nist.gov/tnt/download.html
 - { name: jama, wwwpart: tnt, setname: jama-c++ }
 
+- { name: jbigkit, wwwpart: ImageMagick/jbig, incorrect: true } # versionless ancient garbage fork; XXX: outdated?
+
 - { name: jd, wwwpart: tidwall, setname: jd-json-editor }
 - { name: jd, wwwpart: josephburnett, setname: jd-json-tool }
 - { name: jd, wwwpart: [jd4linux,yama-natuki], setname: jd-2ch-browser }
