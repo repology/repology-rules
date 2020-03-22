@@ -33,6 +33,7 @@
 - { name: xd,                                                        ruleset: openbsd,     untrusted: true } # accused of fake 8087
 - { name: xdelta,                      verpat: "30.*",                                     outdated: true } # t2; 3.0* actually
 - { name: xdg-desktop-portal,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: xdg-desktop-portal-gtk,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: xdg-user-dirs-gtk,           ver: "0.18",                  ruleset: gobolinux,   incorrect: true }
 - { name: xdg-utils,                   verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: xdot,                        ver: "20121124",                                    snapshot: true }
