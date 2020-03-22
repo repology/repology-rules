@@ -63,6 +63,7 @@
     extra-cmake-modules|
     ffmpegthumbs|
     filelight|
+    frameworkintegration|
     gpgmepp|
     granatier|
     grantlee-editor|
@@ -100,14 +101,16 @@
     kbruch|
     kcachegrind|
     kcalcore|
-    kcalendarcore|
     kcalc|
+    kcalendarcore|
     kcalutils|
     kcharselect|
     kcmutils|
+    kcodecs|
     kcolorchooser|
     kcompletion|
     kconfigwidgets|
+    kconfig|
     kcontacts|
     kcoreaddons|
     kcrash|
@@ -142,7 +145,9 @@
     kdiamond|
     kdiff3|
     kdnssd|
+    kdoctools|
     keditbookmarks|
+    kemoticons|
     kfilemetadata|
     kfind|
     kfloppy|
@@ -158,14 +163,19 @@
     khelpcenter|
     kholidays|
     khotkeys|
+    khtml|
+    ki18n|
+    kiconthemes|
     kid3|
     kidentitymanagement|
     kidletime|
     kigo|
     kig|
     killbots|
+    kimageformats|
     kimap|
     kinfocenter|
+    kinit|
     kio-extras|
     kio-gdrive|
     kio|
@@ -329,6 +339,7 @@
     step|
     sweeper|
     syndication|
+    threadweaver|
     umbrello|
     yakuake
     )(?:4|5|-kde4|-kde5|-kf5|-light|-qt5)?
@@ -336,7 +347,17 @@
 
 - namepat: |
     (
+    frameworkintegration|
+    kcodecs|
+    kconfig|
     kdeplasma-addons|
+    kdoctools|
+    kemoticons|
+    khtml|
+    ki18n|
+    kiconthemes|
+    kimageformats|
+    kinit|
     libksysguard|
     plasma-browser-integration|
     plasma-integration|
@@ -344,6 +365,7 @@
     plasma-pa|
     plasma-sdk|
     plasma-vault|
+    threadweaver|
     plasma-workspace-wallpapers
     )-git
   setname: "$1"
