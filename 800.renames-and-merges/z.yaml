@@ -35,7 +35,8 @@
 - { setname: zoneminder,               name: zoneminder-h264, ignore: true }
 - { setname: zookeeper,                name: [zookeeper-bin, libzookeeper, zookeeper-c], addflavor: true }
 - { setname: zookeeper,                name: apache-zookeeper }
-- { setname: zoom,                     name: zoom-player }
+- { setname: zoom,                     name: zoom-player } # split in 850
+- { setname: zoom,                     name: [zoom-linux,zoom-us,zoom2] } # split in 850
 - { setname: zopfli,                   name: [libzopfli,libzopflipng,zopflipng], addflavor: true }
 - { setname: zork,                     name: [zork1,zork2,zork3] }
 - { setname: zou,                      name: "rust:zou" }
