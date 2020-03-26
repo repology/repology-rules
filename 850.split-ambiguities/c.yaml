@@ -161,6 +161,10 @@
 - { name: cpulimit, verle: "1.1", setname: cpulimit1 }
 - { name: cpulimit, setname: limitcpu }
 
+- { name: crash, wwwpart: redhat, setname: crash-redhat }
+- { name: crash, wwwpart: crashhub, setname: crash-java }
+- { name: crash, warning: "please classify me" }
+
 - { name: crawl, wwwpart: develz, setname: stone-soup }
 - { name: crawl, category: games, setname: stone-soup }
 
