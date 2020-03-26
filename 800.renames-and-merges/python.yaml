@@ -147,7 +147,8 @@
 - { setname: "python:munch",           name: munch }
 - { setname: "python:mwparserfromhell", name: mwparserfromhell }
 - { setname: "python:nbdime",          name: jupyter-nbdime }
-- { setname: "python:nbsphinx",        name: ["python:jupyter-nbsphinx",nbsphinx] }
+- { setname: "python:nbsphinx",        name: ["python:jupyter-nbsphinx",nbsphinx,nbsphinx0.3] } # XXX: problem
+- { setname: "python:nbsphinx-link",   name: ["python:jupyter-nbsphinx-link"] } # XXX: problem
 - { setname: "python:nbxmpp",          name: ["python:python-nbxmpp",nbxmpp] }
 - { setname: "python:netifaces",       name: netifaces }
 - { setname: "python:networkx",        name: networkx }
