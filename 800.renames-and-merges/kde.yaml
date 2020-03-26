@@ -180,6 +180,8 @@
     kio-gdrive|
     kio|
     kipi-plugins|
+    kirigami|
+    kirigami2|
     kiriki|
     kitemmodels|
     kitemviews|
@@ -365,6 +367,7 @@
     kimageformats|
     kinit|
     kitemmodels|
+    kirigami2|
     libksysguard|
     plasma-browser-integration|
     plasma-integration|
@@ -400,3 +403,5 @@
 - { setname: modemmanager-qt,          name: [modemmanager-qt5,kf5-modemmanager-qt,libkf5modemmanagerqt] }
 - { setname: plasma-framework,         name: plasma-framework-git, weak_devel: true }
 - { setname: plasma-framework,         name: kf5-plasma }
+- { setname: kirigami,                 name: [kirigami1,kirigami2] }
+- { setname: kirigami,                 name: kirigami2-qt5, addflavor: qt5 }
