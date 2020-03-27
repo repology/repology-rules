@@ -21,6 +21,10 @@
 
 - { name: caps, wwwpart: softpres, ruleset: gentoo, setname: ipfdevlib }
 
+- { name: caret, wwwpart: [careteditor,caret.io], setname: caret-editor }
+- { name: caret, wwwpart: brainvis, setname: caret-neuro }
+- { name: caret, warning: "please classify me" }
+
 # Clozure Common Lisp interpreter and compiler vs. CIGI Class Library
 - { name: ccl, summpart: cigi, setname: cigi-ccl }
 
