@@ -149,6 +149,7 @@
 - { setname: libmwaw,                  namepat: "libmwaw[0-9.-]+" }
 - { setname: libmygpo-qt,              name: [libmygpo-qt4,libmygpo-qt5], addflavor: true }
 - { setname: libmypaint,               name: libmypaint2 }
+- { setname: libnatpmp,                name: [natpmpc, "python:libnatpmp"], addflavor: true }
 - { setname: libnet,                   namepat: "libnet[012x.-]+" } # also account for libnet-1.0.x from entware, but not libnet6 which is a different thing
 - { setname: libnice,                  namepat: "libnice-(gst.*)", addflavor: true }
 - { setname: libnice,                  name: "gstreamer:libnice", addflavor: gstreamer }
