@@ -93,6 +93,7 @@
 - { name: epm,                         verge: "6",                                         ignore: true } # fork https://github.com/bsavelev/epm/blob/master/CHANGES
 - { name: epub2txt,                    verpat: ".*20[0-9]{6}",                             ignore: true } # aosc snapshot
 - { name: epydoc,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # fedora garbage
+- { name: erlang,                      verpat: ".*r.*",                                    devel: true } # XXX: FreeBSD DISTVERSION
 - { name: "erlang:cl",                 verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: espeak,                      ver: "1.48.15",                                     devel: true } # http://espeak.sourceforge.net/test/latest.html
 - { name: eterm,                       ver: "0.9.7",                 ruleset: mageia,      incorrect: true }
