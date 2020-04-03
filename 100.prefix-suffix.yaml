@@ -21,7 +21,7 @@
 - { ruleset: buckaroo,        wwwpart: pocoproject.org, setname: poco, addflavor: $0 }
 - { ruleset: buckaroo,        wwwpart: sfml-dev.org, setname: sfml, addflavor: $0 }
 
-- { ruleset: carbs,           namepat: "(.*)-git", ver: "git", setname: $1 } # Note: rolling status set for 'git' versions in 899 ruleset
+- { ruleset: carbs,           namepat: "(.*)-git", ver: "git", setname: $1, rolling: true }
 
 - { ruleset: chocolatey,      namepat: "(.*)\\.(install|portable|commandline)", setname: $1, addflavor: $2 }
 
