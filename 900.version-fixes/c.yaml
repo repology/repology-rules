@@ -94,6 +94,7 @@
 - { name: chromium,                    verpat: ".*-r[0-9]+",                               ignore: true } # scoop
 - { name: chromium,                    verpat: "[0-9]+",                                   snapshot: true } # homebrew casks <- https://commondatastorage.googleapis.com/chromium-browser-snapshots/Mac/675525/chrome-mac.zip
 - { name: chromium,                                                  ruleset: gentoo,      ignore: true } # there are unstable versions in gentoo; see https://github.com/repology/repology-updater/issues/996 on how to solve it globally
+- { name: chromium,                                                  ruleset: debian,      untrusted: true } # accused of using betas
 - { name: cht.sh,                                                                          noscheme: true } # https://github.com/chubin/cheat.sh/releases
 - { name: cimg,                        verpat: "[0-9]{3}", verle: "221",                   outdated: true } # see https://github.com/dtschump/CImg/tags?after=v.2.2.3
 - { name: cimg,                        verpat: "[0-9]{3}", vergt: "221",                   incorrect: true }

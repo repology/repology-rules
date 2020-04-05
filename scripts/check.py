@@ -117,6 +117,7 @@ rulesets = families + [
     'blackarch',
     'bunsenlabs',
     'deb_multimedia',
+    'debian',
     'deepin',
     'epel',
     'frugalware',
