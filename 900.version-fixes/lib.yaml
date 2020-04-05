@@ -60,6 +60,8 @@
 - { name: libffi,                                                    ruleset: opensuse,    untrusted: true } # accused of incorrect 4.8.5, 5.3.1
 - { name: libfirm,                     verpat: ".*pl.*",             ruleset: openbsd,     incorrect: true } # https://github.com/libfirm/libfirm/tags
 - { name: libgda,                      verpat: "[0-9]+\\.9[0-9]+.*",                       devel: true }
+- { name: libgda,                      ver: "5.2.10",                ruleset: sisyphus,    incorrect: true } # latest 5.2.x is 5.2.9
+- { name: libgda,                                                    ruleset: sisyphus,    untrusted: true } # accused of fake 5.2.10
 - { name: libggz,                      verpat: "0\\.99.*",                                 devel: true }
 - { name: libgksu,                     ver: "2.1.0",                 ruleset: antix,       incorrect: true }
 - { name: libgksu,                                                   ruleset: antix,       untrusted: true } # accused of fake 2.1.0
