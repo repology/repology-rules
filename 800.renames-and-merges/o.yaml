@@ -78,6 +78,7 @@
 - { setname: openldap,                 name: [compat-openldap,libldap,openldap-client,openldap-cloak,openldap-doc,openldap-nops,openldap-sasl-client,openldap-server,openldap-smbk5pwd], addflavor: true }
 - { setname: openldap,                 name: openldap-overlays-devel, addflavor: openldap-overlays, weak_devel: true }
 - { setname: openldap,                 name: openldap2 }
+- { setname: openlitespeed,            name: litespeed } # XXX: problem
 - { setname: openmesh,                 name: open-mesh }
 - { setname: openmpi,                  name: open-mpi }
 - { setname: opennlp,                  name: apache-opennlp }
