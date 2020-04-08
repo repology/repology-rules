@@ -3,6 +3,7 @@
 - { setname: galactrum,                name: galactrum-qt, addflavor: qt }
 - { setname: galaxy-forces-v2,         name: ["galaxy forces v2", galaxy-forces, galaxyv2] }
 - { setname: galculator,               name: galculator-gtk3, addflavor: true }
+- { setname: galera,                   namepat: "galera[0-9.-]+" }
 - { setname: gambas,                   name: [gambas2,gambas3] }
 - { setname: gambas,                   name: gambas3-devel, weak_devel: true }
 - { setname: gambas,                   namepat: "gambas3-(gb-.*)", addflavor: $1 }
