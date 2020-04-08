@@ -147,9 +147,9 @@
 - { name: btf, ruleset: pld, setname: suitesparse-btf }
 - { name: btf, warning: "please classify me" }
 
-- { name: build, summpart: suse, setname: suse-build }
-- { name: build, wwwpart: codesynthesis, addflag: classified }
-- { name: build, warning: "please classify me", noflag: classified }
+- { name: build, wwwpart: suse, setname: obs-build }
+- { name: build, wwwpart: codesynthesis, setname: build-codesynthesis }
+- { name: build, warning: "please classify me" }
 
 - { name: bum, wwwpart: dylanaraps,                       setname: bum-albums }
 - { name: bum, wwwpart: marzocca,                         setname: bum-runlevels }
