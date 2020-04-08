@@ -9,6 +9,8 @@
 - { name: "perl:array-diff",           verpat: "0\\.[0-9]{5}.*",                           incorrect: true } # 0.09, not 0.09000
 - { name: "perl:authen-sasl",          verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
 - { name: "perl:bio-asn1-entrezgene",  verpat: "1\\.[0-9]{3}",                             ignore: true }
+- { name: "perl:bssolv",               ver: "0.37",                  ruleset: openeuler,   incorrect: true }
+- { name: "perl:bssolv",                                             ruleset: openeuler,   untrusted: true } # accused of fake 0.37
 - { name: "perl:business-isbn",        verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: "perl:catalyst-plugin-authentication", ver: "0.100230",                          ignore: true }
 - { name: "perl:catmandu-store-mongodb", ver: ["0.0501","0.0403"],                         ignore: true }
