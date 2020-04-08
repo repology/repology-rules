@@ -134,6 +134,7 @@ rulesets = families + [
     'msys2_mingw',
     'msys2_msys2',
     'mx',
+    'openeuler',
     'packman',
     'parabola',
     'pardus',

@@ -158,6 +158,8 @@
 - { name: kopete,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: korganizer,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kpat,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kpatch,                      ver: "2.0",                   ruleset: openeuler,   incorrect: true }
+- { name: kpatch,                                                    ruleset: openeuler,   untrusted: true } # accused of fake 2.0
 - { name: kpimtextedit,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kpmcore,                     verpat: "3\\.[89][0-9]\\..*",                       devel: true }
 - { name: kpmcore,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
