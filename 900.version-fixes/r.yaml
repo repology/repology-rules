@@ -70,8 +70,10 @@
 - { name: rtl-sdr,                     ver: "0.20130412",                                  outdated: true, disposable: true }
 - { name: rtl-sdr,                     ver: "0.7.0",                 ruleset: solus,       incorrect: true } # uses some kind of ancient fork
 - { name: rtl-sdr,                                                   ruleset: solus,       untrusted: true } # accused of fake 0.7.0
+- { name: rtl8192eu,                                                                       noscheme: true }
 - { name: rtl8812au,                                                                       noscheme: true }
 - { name: rtl8821ce,                                                                       noscheme: true }
+- { name: rtl8821cu,                                                                       noscheme: true }
 - { name: rtmpdump,                    verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: rtmpdump,                    verlonger: 2,                                       ignore: true }
 - { name: rtorrent,                    verpat: "20[0-9]{6}.*",                             ignore: true } # nix fake
