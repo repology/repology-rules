@@ -221,6 +221,7 @@
 - { name: pstack,                      vergt: "1.3.1",               ruleset: deepin,      incorrect: true }
 - { name: pt2-clone,                   verpat: "2.*",                                      outdated: true } # https://github.com/8bitbubsy/pt2-clone/releases
 - { name: public-suffix-list,                                                              noscheme: true } # https://github.com/publicsuffix/list/releases
+- { name: pulseaudio,                  verpat: ".*99.*",                                   devel: true }
 - { name: pulseaudio-alsa,                                                                 noscheme: true } # just some versionless config for pulseaudio
 - { name: pulseaudio-equalizer,        ver: "2.7.0.2",                                     incorrect: true }
 - { name: pup,                         verlonger: 3,                 ruleset: freebsd,     incorrect: true }
