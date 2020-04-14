@@ -35,6 +35,7 @@
 - { name: ffdiaporama,                                               ruleset: [aur],       untrusted: true } # accused of fake 2.2.D759
 - { name: "ffext:ublock-origin",       verpat: ".*b.*",                                    devel: true }
 - { name: "ffext:ublock-origin",       ver: "1.23.1b3",                                    incorrect: true } # no such version, latest https://github.com/gorhill/uBlock/releases/tag/1.23.1rc1
+- { name: "ffext:ublock-origin",       verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true }
 - { name: ffmpeg,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # openbsd, chocolatey, pkgsrc
 - { name: ffmpeg,                      ver: "4.2.3",                 ruleset: aur,         incorrect: true } # fake
 - { name: ffmpeg,                                                    ruleset: aur,         untrusted: true } # accused of fake 4.2.3
