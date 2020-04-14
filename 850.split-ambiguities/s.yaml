@@ -106,9 +106,10 @@
 - { name: sim, wwwpart: similarity_tester, setname: similarity-tester }
 - { name: sim, warning: "please classify me" }
 
-- { name: singularity, wwwpart: singularity.lbl.gov, setname: singularity-container } # moving to sylabs.io
-- { name: singularity, wwwpart: sylabs.io, setname: singularity-container }
+- { name: singularity, wwwpart: [singularity.lbl.gov,sylabs.io,gmkurtzer], setname: singularity-container }
 - { name: singularity, wwwpart: ingularityviewer, setname: singularityviewer }
+- { name: singularity, wwwpart: [endgame,emhsoft], setname: endgame-singularity }
+- { name: singularity, warning: "please classify me" }
 
 - { name: six, wwwpart: six.retes.hu, setname: six-game }
 - { name: six, wwwpart: [pythonhosted,pypi,python.org], setname: "python:six" }
