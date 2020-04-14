@@ -7,7 +7,7 @@
 - { setname: dart,                     name: [dart-dev, dart-sdk-dev], weak_devel: true }
 - { setname: dartsim,                  name: libdart, addflavor: lib }
 - { setname: dash,                     name: [dash-static,dash-static-musl], addflavor: true }
-- { setname: dashcore,                 name: dashpay }
+- { setname: dashcore,                 name: [dashpay, dash-core] }
 - { setname: dashcore,                 name: dash-dash } # XXX: name problem
 - { setname: dave-gnukem,              name: gnukem }
 - { setname: db,                       name: berkeley-db }
