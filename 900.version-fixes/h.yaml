@@ -3,6 +3,7 @@
 - { name: ha,                          ver: ["0999", "0.999p"],                            incorrect: true }
 - { name: hackrf,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: handbrake,                   verpat: "[0-9]{4}.*",                               snapshot: true } # trisquel
+- { name: haproxy,                     verpat: ".*d.*",                                    devel: true } # *dev*; XXX: FreeBSD DISTVERSION
 - { name: hardinfo,                    ver: "0.6",                   ruleset: sisyphus,    incorrect: true }
 - { name: hardinfo,                                                  ruleset: sisyphus,    untrusted: true }
 - { name: "haskell:pandoc-citeproc",                                 ruleset: aur,         incorrect: true } # it's actually pandoc, not pandoc-cityproc
