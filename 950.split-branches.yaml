@@ -287,9 +287,8 @@
 
 - { name: spyder,                                         setbranchcomps: 1 }
 
-- { name: sqlite,            relle: "1",                  remove: true } # only present in wikidata, probably ancient garbage
-- { name: sqlite,            releq: "2",                  setname: sqlite2 }
-- { name: sqlite,            verpat: "3.*",               setname: sqlite3 } # also garbage like 3270200
+- { name: sqlite,                                         setbranchcomps: 1 }
+- { name: sqlite,            verpat: "3.*",               setbranch: "3" } # set branch for garbage like 3270200 as well
 
 - { name: squid,                                          setbranchcomps: 1 }
 - { name: squid,             relle: "4.0",                setbranchcomps: 2 }
