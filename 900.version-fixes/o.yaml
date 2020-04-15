@@ -43,6 +43,7 @@
 - { name: openal-creative,             ver: "20060211",                                    ignore: true } # freebsd (should probably be 0.0.8)
 - { name: openaptx,                                                                        noscheme: true }
 - { name: openarena,                                                 ruleset: os4depot,    incorrect: true }
+- { name: openbgpd,                    verpat: ".*p.*",              ruleset: gentoo,      untrusted: false }
 - { name: opencascade,                                                                     p_is_patch: true } # 7.3.0 < 7.3.0p3
 - { name: opencascade,                 ver: "7.3.3",                 ruleset: debuntu,     incorrect: true } # 7.3.0p3
 - { name: opencascade,                                               ruleset: debuntu,     untrusted: true } # accused of fake 7.3.3
