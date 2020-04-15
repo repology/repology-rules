@@ -103,8 +103,10 @@
 - { setname: ntfs-3g,                  name: [ntfs-3g-ar,ntfs-3g-advanced], addflavor: ar }
 - { setname: ntfs-3g,                  name: ntfs-3g-wimlib-patched, addflavor: wimlib }
 - { setname: ntp,                      name: [ntpd, ntpdate], addflavor: true }
+- { setname: nu,                       name: nu2 } # split later
 - { setname: numptyphysics,            name: numpty-physics }
 - { setname: nushell,                  name: "rust:nu" }
+- { setname: nushell,                  name: nushell-stable }
 - { setname: nvidia-cg-toolkit,        name: [cg, cg-toolkit, cgtoolkit] }
 - { setname: nvidia-cg-toolkit,        name: cg-compiler, addflavor: compiler }
 - { setname: nvidia-settings,          namepat: "nvidia[x0-9.-]*-settings" }
