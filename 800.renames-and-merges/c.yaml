@@ -95,7 +95,9 @@
 - { setname: chatty,                   name: chatty-beta, weak_devel: true }
 - { setname: check-lm-sensors,         name: [nagios-check-lm-sensors, nagios-plugin-check-lm-sensors] }
 - { setname: cheese,                   name: compat-cheese314 }
-- { setname: chef-dk,                  name: chefdk }
+- { setname: chef,                     name: ["ruby:chef", "ruby:chef12"] }
+- { setname: chef-dk,                  name: ["ruby:chef-dk", chefdk] }
+- { setname: chef-zero,                name: ["ruby:chef-zero", "ruby:chef-zero5"] }
 - { setname: chicken,                  name: chicken5 }
 - { setname: chipmunk,                 name: [chipmunk6,chipmunkphysics,libchipmunk] }
 - { setname: chmlib,                   name: libchm }
