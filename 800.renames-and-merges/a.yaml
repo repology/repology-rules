@@ -208,8 +208,8 @@
 - { setname: atspkg,                   name: "haskell:ats-pkg" }
 - { setname: attica,                   name: [attica-kf5,attica-qt4,attica-qt5,libattica], addflavor: true }
 - { setname: aubio,                    name: [libaubio,libaubio4,"python:aubio"] }
-- { setname: audacious,                name: [audacious-gtk3,audacious-core,audacious-qt5,audacious2,audacious-itself], addflavor: true }
-- { setname: audacious,                name: audacious2, addflavor: true }
+- { setname: audacious,                name: [audacious-gtk3,audacious-core,audacious-qt5,audacious-itself,audacious-player], addflavor: true }
+- { setname: audacious,                name: audacious2 }
 - { setname: audacious-plugins,        name: audacious2-plugins }
 - { setname: audacity,                 name: [audacity-freeworld,audacity-wxgtk2], addflavor: true }
 - { setname: audiofile,                name: libaudiofile }
