@@ -22,6 +22,11 @@
 - { name: gdl, ruleset: [sisyphus,aosc,cygwin,debuntu,exherbo,openbsd,pclinuxos,pld], setname: gdl-gnome-docking-library }
 - { name: gdl, warning: "please classify me" }
 
+- { name: gdm, wwwpart: gnome, setname: gdm-gnome-display-manager }
+- { name: gdm, summpart: gnome, setname: gdm-gnome-display-manager }
+- { name: gdm, wwwpart: sparrc, setname: gdm-go-dependency-manager }
+- { name: gdm, warning: "please classify me" }
+
 - { name: getopt, ruleset: openwrt, setname: util-linux }
 - { name: getopt, ruleset: sisyphus, setname: "java:getopt" }
 - { name: getopt, wwwpart: urbanophile.com, setname: "java:getopt" }
