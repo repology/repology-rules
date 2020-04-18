@@ -10,12 +10,16 @@
   name:
     - openssl-1.0-chacha20
     - openssl-chacha20
+    - openssl-freeworld
+    - openssl-legacy-static
+    - openssl-light
     - openssl-no-aesni
     - openssl-pre
     - openssl-purify
     - openssl-static
     - openssl-stream
     - openssl-tls1.3
-    - openssl-freeworld
+    - openssl10-light
+    - openssl11-threads
   addflavor: true
   ignore: true # XXX: why?
