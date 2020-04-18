@@ -1,6 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { setname: openssl,                  namepat: "(?:compat-)?(?:lib)?openssl[0-9.-]*(?:[0-9.-]+[a-z])?" }
+- { setname: openssl,                  namepat: "(?:compat-)?(?:lib)?openssl[0-9.-]*(?:[0-9]+[a-z])?" }
 - { setname: openssl,                  name: openssl-devel, weak_devel: true }
 - { setname: openssl,                  name: [openssl-nonfree,openssl-threads,openssl-zlib], addflavor: true }
 - { setname: openssl,                  name: [openssl098-dev,openssl+1.0] }
