@@ -91,10 +91,9 @@
 - { setname: lirc,                     name: lirc64, addflavor: true }
 - { setname: live555,                  name: [liblive,liblivemedia,live,live-media,livemedia] }
 - { setname: live555,                  name: livemedia-utils, addflavor: utils }
-- { setname: lldb,                     name: lldb-assert, addflavor: assert }
-- { setname: lldb,                     name: lldb-polly, addflavor: polly }
-- { setname: lldb,                     namepat: "lldb[0-9.-]*-split", addflavor: split }
-- { setname: lldb,                     namepat: "lldb[0-9.-]+" }
+- { setname: llvm,                     name: [lldb-assert,lldb-polly], addflavor: true }
+- { setname: llvm,                     namepat: "lldb[0-9.-]*-split", addflavor: true }
+- { setname: llvm,                     namepat: "lldb[0-9.-]+", addflavor: true }
 - { setname: llvm,                     namepat: "llvm[0-9.-]+" }
 - { setname: llvm,                     namepat: "libllvm[0-9.-]+", addflavor: lib }
 - { setname: llvm,                     namepat: "llvm-toolchain-[0-9.-]+", addflavor: toolchain }
