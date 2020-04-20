@@ -39,8 +39,8 @@
 - { verpat: ".*haiku.*",                                                                   ignore: true }
 - { verpat: ".*pardus.*",                                            ruleset: pardus,      ignore: true }
 - { verpat: ".*arch.*",                                                                    ignore: true } # arch, aur pseudoversions
-- { verpat: ".*_.*", name: [brotli,curl,openssl],                    ruleset: scoop,       incorrect: true } # ┐ windows builds from curl project
-- { verpat: ".*_.*",                                                 ruleset: scoop,       untrusted: true } # ┘
+- { verpat: ".*_.*", name: [brotli,curl,openssl],                    ruleset: scoop,       incorrect: true } # windows builds from curl project
+- { verpat: ".*[_-].*",                                              ruleset: scoop,       untrusted: true } # openssh 8.2p1-1, gcc 9.3.0-1 and many other garbage versions
 - { verpat: ".*-.*",                                                 ruleset: homebrew_casks, untrusted: true } # occasional build numbers
 - { ver: "latest",                                                   ruleset: homebrew_casks, rolling: true }
 - { verpat: ".*windows.*",                                           ruleset: scoop,       incorrect: true }
