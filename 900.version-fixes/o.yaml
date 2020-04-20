@@ -70,7 +70,7 @@
 - { name: openkim-models,              verpat: "20[0-9]{6}",                               incorrect: true } # it's YYYY-MM-DD
 - { name: openlierox,                  ver: "0.58",                  ruleset: [fedora,debuntu], incorrect: true } # there's no 0.58, only 0.58beta3
 - { name: openmortal,                  ver: "0.7.1",                                       ignore: true } # legal release, but no source tarball
-- { name: openmpi,                     verpat: ".*",                                       incorrect: true } # "use x to avoid epoch" bullshit
+- { name: openmpi,                     verpat: ".*x",                                      incorrect: true } # "use x to avoid epoch" bullshit
 - { name: openmpi,                                                   ruleset: fedora,      untrusted: true } # accused of fake 4.0.3x
 - { name: opennap,                     ver: "0.45",                  ruleset: hpux,        incorrect: true }
 - { name: opennap,                                                   ruleset: hpux,        untrusted: true }
