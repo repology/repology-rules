@@ -105,6 +105,7 @@
 - { name: picmi,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: picolisp,                    ver: ["18.6.12", "18.6.17"],  ruleset: [aur,termux], incorrect: true }
 - { name: picolisp,                                                  ruleset: [aur,termux], untrusted: true }
+- { name: picom,                       verpat: ".*r.*",              ruleset: freebsd,     devel: true } # XXX: FreeBSD DISTVERSION
 - { name: pidentd,                     ver: "3.1a25",                                      incorrect: true, disposable: true } # old opensuse leap, no idea where this comes from
 - { name: piglit,                                                                          noscheme: true }
 - { name: pilot-link,                  ver: "0.12.15",               ruleset: gobolinux,   incorrect: true } # gobolinux fake
