@@ -100,8 +100,6 @@
 - { name: aom,                         verpat: ".*[0-9]{4}",                               incorrect: true } # fake
 - { name: aom,                                                                             noscheme: true } # upstream does not care to do properly versioned releases
 - { name: apache,                      verpat: "2\\.[0-9]*[13579]\\..*",                   devel: true }
-- { name: apache-spark,                ver: "2.6.0",                 ruleset: sisyphus,    incorrect: true }
-- { name: apache-spark,                                              ruleset: sisyphus,    untrusted: true } # accused of fake 2.6.0
 - { name: apel,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: apiextractor,                ver: "0.10.11",               ruleset: sisyphus,    incorrect: true }
 - { name: apiextractor,                                              ruleset: sisyphus,    untrusted: true } # accused of fake 0.10.11
