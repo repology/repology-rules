@@ -106,8 +106,8 @@
 - { name: "lua:system",                                              ruleset: opensuse,    untrusted: true } # accused of fake 0.21
 - { name: "lua:utf8",                  ver: ["1.1", "1.2"],          ruleset: luarocks,    incorrect: true } # no such upstream releases
 - { name: "lua:utf8",                                                ruleset: luarocks,    untrusted: true } # accused of fake 1.1, 1.2
-- { name: luajit,                      ver: ["2.1", "2.1.0"],        ruleset: [sisyphus,fedora,mageia,openmandriva,pclinuxos], incorrect: true } # it's 2.1.0 betaN
-- { name: luajit,                                                    ruleset: [sisyphus,fedora,mageia,openmandriva,pclinuxos], untrusted: true }
+- { name: luajit,                      ver: ["2.1", "2.1.0"],        ruleset: rpm,         incorrect: true } # it's 2.1.0 betaN
+- { name: luajit,                                                    ruleset: rpm,         untrusted: true }
 - { name: luajit,                      verpat: "20[0-9]{2}.*",                             ignore: true }
 - { name: luajit,                      verpat: "5.*",                                      incorrect: true }
 - { name: luajit,                                                    ruleset: alpine,      untrusted: true } # accused of fake 5.1.20190925
