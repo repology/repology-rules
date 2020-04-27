@@ -38,6 +38,7 @@
 - { name: kconfig,                     ver: "5.61.0a",               ruleset: debuntu,     incorrect: true } # fake
 - { name: kconfig,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 5.61.0a
 - { name: kcontacts,                   verpat: "(15|16|17|18|19)\\..*",                    outdated: true } # https://cgit.kde.org/kcontacts.git
+- { name: kcontacts,                   ver: "20.04.0",                                     incorrect: true } # pclos
 - { name: kcron,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdav,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kde-common,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
