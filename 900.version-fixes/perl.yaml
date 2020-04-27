@@ -66,6 +66,7 @@
 - { name: "perl:json-pp",              verpat: "4\\.20\\..*",                              incorrect: true } # it's 4.02, not 4.20.0
 - { name: "perl:json-xs",              verpat: "[0-9]+\\.[0-9]{3,}.*",                     incorrect: true }
 - { name: "perl:json-xs",              verpat: "[0-9]+\\.[1-9]0.*",                        incorrect: true }
+- { name: "perl:lwp-protocol-https",   verpat: "(.*?)[._-]?TRIAL",                         setver: $1, devel: true } # XXX: upstream problem
 - { name: "perl:math-polygon-tree",    ver: "0.0691",                                      ignore: true } # 0.0691 < 0.08 (CPAN versioning brokenness)
 - { name: "perl:module-build",         verpat: "0\\.[0-9]{5,}.*",                          ignore: true }
 - { name: "perl:module-starter",       verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
