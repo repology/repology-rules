@@ -71,6 +71,10 @@
 
 - { name: "ruby:rash", setname: "ruby:rash-alt", ruleset: sisyphus } # fork
 
+- { name: rum, wwwpart: postgres, setname: postgresq-rum }
+- { name: rum, wwwpart: chrisduerr, setname: rum-rust-userstyle-manager }
+- { name: rum, warning: "please classify me" }
+
 - { name: run, wwwpart: linusdierheimer, setname: run-linusdierheimer }
 - { name: run, wwwpart: tekwizely, setname: run-tekwizely }
 - { name: run, warning: "please classify me" }
