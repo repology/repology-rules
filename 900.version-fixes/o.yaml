@@ -28,6 +28,8 @@
 - { name: ollydbg,                     verpat: "[0-9]{3}.*",                               incorrect: true } # it's 1.10, 2.0, 2.01g
 - { name: onboard,                     ver: "1.4.1.4",               ruleset: debuntu,     incorrect: true } # deepin
 - { name: onboard,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 1.4.1.4
+- { name: onigurama,                   ver: "6.9.5pl1",                                    incorrect: true }
+- { name: onigurama,                   verpat: ".*rev.*",                                  any_is_patch: true }
 - { name: onioncat,                    verpat: "0\\.2\\.2\\.r[0-9]+.*",                    any_is_patch: true } # https://www.cypherpunk.at/ocat/download/Source/stable/
 - { name: onioncat,                    ver: "0\\.2\\.2",                                   incorrect: true }
 - { name: opalang,                     verpat: "20[0-9]{6}",                               snapshot: true }
