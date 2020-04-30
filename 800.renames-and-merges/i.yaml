@@ -39,7 +39,7 @@
 - { setname: ignition-math,            namepat: "ign(?:ition)?-math[0-9.-]*" }
 - { setname: iksemel,                  name: libiksemel }
 - { setname: imagemagick,              name: [imagemagick-q8,imagemagick-q16,imagemagick-doc,imagemagick-fftw,imagemagick-full,imagemagick-full-doc,imagemagick-no-hdri,imagemagick-nox], addflavor: true }
-- { setname: imagemagick,              namepat: "(?:compat-)?imagemagick[0-9]+" }
+- { setname: imagemagick,              namepat: "(?:compat-)?imagemagick[0-9]*" }
 - { setname: imagemagick,              name: [libmagick,libmagick6,imagemagick-compat], addflavor: lib }
 - { setname: imagemagick,              name: [libmagick-fftw,libmagick-full], addflavor: true }
 - { setname: imagemagick,              name: imagemagick-git-doc, addflavor: doc, ignore: true }
