@@ -77,6 +77,10 @@
 - { name: goby, wwwpart: [campagne,chagakk], setname: goby-dns-sequencing }
 - { name: goby, warning: "please classify me" }
 
+- { name: gollum, wwwpart: github.com/gollum/gollum, setname: gollum-wiki }
+- { name: gollum, wwwpart: trivago, setname: gollum-message-multiplexor }
+- { name: gollum, noflag: classified, warning: "please classify me" }
+
 - { name: gom, category: [sound,media-sound,universe/sound], setname: gom-mixer }
 - { name: gom, wwwpart: installiert, setname: gom-mixer }
 
