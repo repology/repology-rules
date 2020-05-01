@@ -71,6 +71,8 @@
 - { name: flif,                        verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: flif,                        verlonger: 2,                 ruleset: freebsd,     incorrect: true }
 - { name: flight-of-the-amazon-queen,  verpat: "20[0-9]{6}",                               ignore: true }
+- { name: flink,                       verpat: ".*_.*",                                    incorrect: true }
+- { name: flink,                                                     ruleset: aur,         untrusted: true } # accused of fake 2.11_1.10.0
 - { name: flint,                       verpat: ".*[0-9]{4}",                               incorrect: true } # opensuse garbage
 - { name: flintqs,                     ver: "20070817",                                    outdated: true }
 - { name: flintqs,                     verpat: "20[0-9]{6}",                               ignore: true }
