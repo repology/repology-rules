@@ -4,6 +4,7 @@
 - { name: tabbed,                      verpat: "20[0-9]{6}",                               ignore: true } # nix snapshot
 - { name: tabixpp,                     ver: "1.0.0.10",                                    incorrect: true }
 - { name: tagainijisho,                verpat: ".*20[0-9]{6}.*",                           snapshot: true }
+- { name: taglib,                      verpat: ".*[ab].*",                                 devel: true } # XXX: FreeBSD DISTVERSION
 - { name: taisei,                      verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: takeover,                                                                        noscheme: true } # https://github.com/m4ll0k/takeover/releases
 - { name: tali,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
