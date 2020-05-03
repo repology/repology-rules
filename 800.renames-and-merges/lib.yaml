@@ -56,6 +56,7 @@
 - { setname: libfame,                  name: libfame-0-9-1 }
 - { setname: libfastjson,              name: fastjson }
 - { setname: libffi,                   namepat: "libffi[0-9.-]+" }
+- { setname: libffi,                   name: [libffi-compat, compat-libffi5] }
 - { setname: libffi,                   name: [libffi-gcc5, libffi-static], addflavor: true }
 - { setname: libfm,                    name: [libfm-directory-thumbnails,libfm-extra,libfm-gtk2,libfm-gtk3] }
 - { setname: libfprint,                name: [libfprint-upstream,libfprint-vfs0090,libfprint-vfs0097], addflavor: true }
