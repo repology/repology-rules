@@ -70,6 +70,8 @@
 - { name: bleachbit,                                                 ruleset: unitedrpms,  untrusted: true } # accused if fake 3.9.0
 - { name: blender,                     verpat: "([0-9]+\\.[0-9]+)\\.([a-z])",              setver: "$1$2" } # it's e.g. 2.78c, not 2.78.c
 - { name: blender,                                                   ruleset: os4depot,    incorrect: true }
+- { name: blender,                     ver: "2.83",                  ruleset: unitedrpms,  incorrect: true }
+- { name: blender,                                                   ruleset: unitedrpms,  untrusted: true } # accused of fake 2.83
 - { name: blinken,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: bloodfrontier,               ver: "0.85",                                        setver: b2 }
 - { name: bluej,                       verpat: "[0-9]+",                                   ignore: true }
