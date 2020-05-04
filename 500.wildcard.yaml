@@ -87,8 +87,8 @@
 - { setname: "lua:$2", addflag: wconce, noflag: [wconce,not_lua], namepat: "lua([0-9.]*)-module-(?:lua)?(.+?)", ruleset: sisyphus, addflavor: $1 }
 
 # MinGW
-- { setname: "mingw:$1", addflag: wconce, noflag: [wconce,not_mingw], namepat: "mingw-(.*)",   ruleset: [ centos, fedora, mageia, rosa ] }
-- { setname: "mingw:$1", addflag: wconce, noflag: [wconce,not_mingw], namepat: "mingw32-(.*)", ruleset: [ sisyphus, rosa, freebsd ] }
+- { setname: "mingw:$1", addflag: wconce, noflag: [wconce,not_mingw], namepat: "mingw-(.*)",   ruleset: [ centos, fedora, mageia ] }
+- { setname: "mingw:$1", addflag: wconce, noflag: [wconce,not_mingw], namepat: "mingw32-(.*)", ruleset: [ centos, sisyphus, freebsd ] }
 - { setname: "mingw:$1", addflag: wconce, noflag: [wconce,not_mingw], namepat: "mingw-w64-(.*)", ruleset: [ aur ] }
 - { setname: "mingw:$2", addflag: wconce, noflag: [wconce,not_mingw], namepat: "mingw64-(i686|x86_64)-(.*)", ruleset: cygwin, addflavor: $1 }
 
@@ -97,7 +97,7 @@
 
 # Nodejs
 - { setname: "node:$1", addflag: wconce, noflag: [wconce,not_node], namepat: "node-(.*)", ruleset: [debuntu,sisyphus] }
-- { setname: "node:$1", addflag: wconce, noflag: [wconce,not_node], namepat: "nodejs-(.*)", ruleset: [arch,chakra,fedora,mageia,rosa,sisyphus,opensuse,pld] }
+- { setname: "node:$1", addflag: wconce, noflag: [wconce,not_node], namepat: "nodejs-(.*)", ruleset: [arch,chakra,fedora,mageia,rosa,sisyphus,opensuse,pld,centos] }
 
 # Ocaml
 - { namepat: "ocaml([0-9.]*)-(.*)", addflag: wconce, noflag: [wconce,not_ocaml], setname: "ocaml:$2", addflavor: "$1" }
@@ -172,7 +172,7 @@
 - { setname: "ros:$1", addflag: wconce, noflag: [wconce,not_ros], namepat: "ros-(.*)", ruleset: [ debuntu, arch ] }
 
 # Ruby
-- { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "ruby-(.*)", ruleset: [adelie,alpine,aosc,arch,chakra,cygwin,debuntu,fedora,guix,mageia,ravenports,rosa,sisyphus,pld,aix,slitaz_next,void,solus,t2,msys2_mingw] }
+- { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "ruby-(.*)", ruleset: [adelie,alpine,aosc,arch,chakra,cygwin,debuntu,fedora,guix,mageia,ravenports,rosa,sisyphus,pld,aix,slitaz_next,void,solus,t2,msys2_mingw,centos] }
 - { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "rubygem-(.*)", ruleset: [centos,fedora,freebsd,opensuse,pclinuxos,rosa,slackbuilds] }
 - { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "gem-(.*)", ruleset: [sisyphus] }
 - { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_ruby], namepat: "ruby[0-9][0-9]-(.*)", ruleset: [freebsd,openbsd,pkgsrc] }
@@ -189,7 +189,7 @@
 # Texlive
 - { setname: "texlive:$1", addflag: wconce, noflag: [wconce,not_texlive], namepat: "tex-(.*)-doc", ruleset: pkgsrc, addflavor: doc }
 - { setname: "texlive:$1", addflag: wconce, noflag: [wconce,not_texlive], namepat: "tex-(.*)", ruleset: pkgsrc }
-- { setname: "texlive:$1", addflag: wconce, noflag: [wconce,not_texlive], namepat: "texlive-(.*)", ruleset: [openmandriva,rosa,guix] }
+- { setname: "texlive:$1", addflag: wconce, noflag: [wconce,not_texlive], namepat: "texlive-(.*)", ruleset: [openmandriva,rosa,guix,centos] }
 
 # Vaporsynth
 - { setname: "vapoursynth:$1", addflag: wconce, noflag: [wconce,not_vapoursynth], namepat: "vapoursynth-plugin-(.*)" }
