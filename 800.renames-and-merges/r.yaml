@@ -94,6 +94,7 @@
 - { setname: rtpengine,                name: rtpengine-dkms }
 - { setname: rtv,                      name: rtv-py36, addflavor: py36 }
 - { setname: rubocop,                  name: "ruby:rubocop" }
+- { setname: rundeck,                  namepat: "rundeck[0-9.-]+" }
 - { setname: rust,                     name: [rust-bin,rust-msvc], addflavor: true }
 - { setname: rust,                     name: [rustc-nightly, rust-msvc-nightly], addflavor: true, weak_devel: true }
 - { setname: rust,                     name: rust-toolset-7-rust }
