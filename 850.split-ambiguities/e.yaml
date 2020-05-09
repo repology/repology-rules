@@ -18,6 +18,10 @@
 - { name: ecm, summpart: "cd image", setname: cmdpack } # merged into
 - { name: ecm, warning: "please classify me" }
 
+- { name: edi, wwwpart: [enlightenment, edi-ide], setname: edi-ide }
+- { name: edi, wwwpart: edi.sourceforge.net, setname: edi-editor }
+- { name: edi, warning: "please classify me" }
+
 - { name: editline, wwwpart: troglobit, setname: editline-troglobit }
 - { name: editline, ruleset: yacp, setname: editline-troglobit }
 - { name: editline, wwwpart: thrysoee, setname: editline-thrysoee }
