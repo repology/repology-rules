@@ -223,6 +223,9 @@
 - { setname: pulseaudio,               name: [libpulseaudio,libpulse,libpulse-nosystemd], addflavor: true }
 - { setname: pulseaudio,               name: [pulseaudio-bluetooth,pulseaudio-gconf,pulseaudio-jack,pulseaudio-lirc,pulseaudio-zeroconf], addflavor: true }
 - { setname: puppet,                   namepat: "puppet[0-9.-]+" }
+- { setname: puppetdb,                 name: [puppetdb5, puppetdb6] }
+- { setname: puppetdb-terminus,        name: [puppetdb-terminus5, puppetdb-terminus6] }
+- { setname: puppetserver,             name: [puppetserver5, puppetserver6] }
 - { setname: "purple:pidgin-opensteamworks", name: [libpurple-steam,pidgin-opensteamworks,purple-libsteam] }
 - { setname: "purple:purple-facebook", name: [libpurple-facebook,purple-facebook,pidgin-facebook] }
 - { setname: "purple:purple-hangouts", name: libpurple-hangouts }
