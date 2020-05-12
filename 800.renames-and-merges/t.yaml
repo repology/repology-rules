@@ -81,7 +81,8 @@
 - { setname: tidy,                     name: [html-tidy,htmltidy,tidy-html,tidy-html5,tidy-lib,tidy4,tidyhtml,tidy,tidy5,compat-tidy] }
 - { setname: tiff,                     name: [libtiff,libtiff3,libtiff4,tiff3,compat-libtiff3] }
 - { setname: tiff,                     name: tiffgt, addflavor: true }
-- { setname: tigervnc,                 name: [tiger-vnc,tigervnc-viewer] }
+- { setname: tigervnc,                 name: tiger-vnc }
+- { setname: tigervnc,                 name: [tigervnc-viewer, tigervnc-client, tigervnc-server], addflavor: true }
 - { setname: tigervnc,                 name: tigervnc-devel, weak_devel: true }
 - { setname: tightvnc,                 name: [tightvncviewer], addflavor: viewer }
 - { setname: tightvnc,                 name: [vncviewer-jar,tightvnc-java], addflavor: java }
