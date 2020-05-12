@@ -15,10 +15,10 @@
 - { setname: hdf,                      name: hdf4 }
 - { setname: hdf,                      name: [hdf4-alt,hdf4-nonetcdf], addflavor: true }
 - { setname: hdf5,                     namepat: "hdf5[0-9.-]*(gnu.*)", addflavor: $1 }
-- { setname: hdf5,                     name: [libhdf5,hdf5-18,hdf5-1-8] }
-- { setname: hdf5,                     name: hdf5-18 }
+- { setname: hdf5,                     name: libhdf5 }
+- { setname: hdf5,                     namepat: "hdf5[0-9.-]+" }
 - { setname: hdf5,                     name: hdf5-18-cpp-fortran, addflavor: cpp-fortran }
-- { setname: hdf5,                     name: [hdf5-c++,hdf5-cpp,hdf5-cpp-fortran,hdf5-fortran,hdf5-mpi,hdf5-mvapich2,hdf5-openmpi,hdf5-openmpi-java,hdf5-parallel-openmpi,hdf5-salome,hdf5-threadsafe,hdf5-mpich,hdf5-openmpi2,hdf5-openmpi3], addflavor: true }
+- { setname: hdf5,                     name: [hdf5-c++,hdf5-cpp,hdf5-cpp-fortran,hdf5-fortran,hdf5-mpi,hdf5-mvapich2,hdf5-openmpi,hdf5-openmpi-java,hdf5-parallel-openmpi,hdf5-salome,hdf5-threadsafe,hdf5-mpich,hdf5-openmpi1,hdf5-openmpi2,hdf5-openmpi3,hdf5-java], addflavor: true }
 - { setname: hedgewars,                name: [hedgewars-server, 'haskell:hedgewars-server'], addflavor: server }
 - { setname: helm,                     namepat: "helm[0-9.-]+" }
 - { setname: helm,                     name: helm-vst, addflavor: vst }
