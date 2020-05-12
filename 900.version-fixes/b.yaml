@@ -38,6 +38,7 @@
 - { name: benchmark,                   verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: bennugd-core,                                                                    noscheme: true }
 - { name: bennugd-modules,                                                                 noscheme: true }
+- { name: bento4,                      verpat: "[0-9]+",                                   incorrect: true }
 - { name: beret,                                                                           noscheme: true }
 - { name: betty,                                                     ruleset: aur,         untrusted: true }
 - { name: betty,                       ver: "0.1.8",                 ruleset: aur,         incorrect: true }
