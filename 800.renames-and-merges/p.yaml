@@ -173,6 +173,7 @@
 - { setname: postgresql-1c,            namepat: "postgresql[0-9.-]+-1c" }
 - { setname: postgresql-multicorn,     name: multicorn }
 - { setname: postgresql-rum,           name: [pg-rum,postgresql11-rum] }
+- { setname: potrace,                  name: libpotrace, addflavor: true }
 - { setname: poudriere,                name: poudriere-devel, weak_devel: true }
 - { setname: povray,                   namepat: "povray[0-9]+" }
 - { setname: povray,                   name: pov-ray }
