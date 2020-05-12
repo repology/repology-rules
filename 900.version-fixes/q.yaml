@@ -58,6 +58,7 @@
 - { name: quadra,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: quadrapassel,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: quark,                                                                           noscheme: true }
+- { name: quassel,                     ver: "0.14.0",                ruleset: siduction,   ignore: true } # incorrectly parsed 0.14.0~pre-130-g01d67be2-1
 - { name: quickjs,                     verpat: "20[0-9]{6}",                               incorrect: true } # YYYY-MM-DD
 - { name: quota,                       verpat: "20[0-9]{6}.*",                             snapshot: true } # crux
 - { name: qupzilla,                                                  ruleset: kaos,        untrusted: true } # snapshot with random version
