@@ -168,6 +168,10 @@
 - { setname: modsecurity,              name: ["apmod:modsecurity","apmod:security","apmod:security2", libmodsecurity,mod-security,modsecurity,modsecurity-apache,modsecurity3] }
 - { setname: modsecurity-crs,          name: [modsecurity-crs,mod-security-crs,owasp-modsecurity-crs,"apmod:security-crs"] }
 - { setname: mongo-c-driver,           name: libbson, addflavor: true } # moved into, see https://github.com/mongodb/libbson
+- { setname: mongodb,                  namepat: "mongodb[0-9.-]+" }
+- { setname: mongodb,                  namepat: "mongodb-bin-[0-9.-]+", addflavor: bin }
+- { setname: mongodb,                  name: mongodb-beta, weak_devel: true }
+- { setname: mongodb-tools,            namepat: "mongodb[0-9.-]+-tools" }
 - { setname: mongoose,                 name: libmongoose }
 - { setname: mono-flickrnet,           name: flickrnet-bin, addflavor: true }
 - { setname: mono-flickrnet,           name: [libflickrnet,flickrnet,dotnet-flickrnet] }
