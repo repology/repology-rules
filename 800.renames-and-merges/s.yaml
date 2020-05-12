@@ -253,7 +253,8 @@
 - { setname: stringtemplate,           namepat: "stringtemplate[0-9]+" }
 - { setname: structuresynth,           name: structure-synth }
 - { setname: struts,                   name: libstruts1.2-java }
-- { setname: stunnel,                  name: stunnel4 }
+- { setname: stunnel,                  namepat: "stunnel[0-9.-]+" }
+- { setname: stunnel,                  name: stunnel-beta, weak_devel: true }
 - { setname: stuntrally,               name: stunt-rally }
 - { setname: stxxl,                    name: libstxxl }
 - { setname: sugar,                    namepat: "sugar[0-9.-]+" }
