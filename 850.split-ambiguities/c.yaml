@@ -41,6 +41,10 @@
 - { name: cdf3,                        setname: cdf                       } # Common Data Format lib; XXX: move to 800?
 - { name: cdf, verpat: "0.*",          setname: cdf-df                    } # split out colorized df
 
+- { name: cemu, wwwpart: cemu.info, setname: cemu-wii-u-emulator }
+- { name: cemu, wwwpart: ce-programming, setname: cemu-ti-emulator }
+- { name: cemu, warning: "please classify me" }
+
 - { name: ceres, wwwpart: ceres-solver, setname: ceres-solver }
 - { name: ceres, warning: "please classify me" }
 
