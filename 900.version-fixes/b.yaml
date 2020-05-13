@@ -119,6 +119,7 @@
 - { name: buildstream,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # https://buildstream.build/releases.html
 - { name: bully,                       verpat: "1\\.1.+",                                  ignore: true } # snapshots, latest is 1.1
 - { name: busybox,                     verpat: "[0-9]{4}.*",                               incorrect: true } # scoop
+- { name: busybox,                     verpat: ".*musl.*",                                 incorrect: true } # nix garbage
 - { name: byobu,                       ver: "5.126",                 ruleset: debuntu,     incorrect: true }
 - { name: byobu,                                                     ruleset: debuntu,     untrusted: true }
 - { name: byzanz,                      verpat: "20[0-9]{6}",                               snapshot: true }
