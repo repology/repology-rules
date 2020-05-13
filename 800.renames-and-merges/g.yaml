@@ -35,7 +35,7 @@
 - { setname: gconfmm,                  namepat: "(?:lib)?gconfmm[0-9.-]*(-docs)?", addflavor: $1 }
 - { setname: gcovr,                    name: "python:gcovr" }
 - { setname: gd,                       name: [gd2, libgd, libgd2] }
-- { setname: gdal,                     name: [gdal1,libgdal] }
+- { setname: gdal,                     name: [gdal1,libgdal,gdal2] }
 - { setname: gdal,                     name: [gdal-curl,gdal-filegdb,gdal-lib,gdal-hdf4], addflavor: true }
 - { setname: gdal,                     name: "python:gdal", addflavor: python }
 - { setname: gdal-grass,               name: libgdal-grass }
