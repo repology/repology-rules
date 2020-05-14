@@ -159,6 +159,8 @@
 - { setname: solfege,                  name: solfege-nosound, addflavor: true }
 - { setname: solid,                    name: [ksolid,kf5-solid] }
 - { setname: solidity,                 name: [solc,lll], addflavor: true }
+- { setname: solr,                     namepat: "solr[0-9.-]*(-war|zip)?", addflavor: $1 }
+- { setname: solr,                     namepat: "apache-solr[0-9.-]*" }
 - { setname: sonar-scanner-cli,        name: [sonar-scanner, sonarqube-scanner] }
 - { setname: sonarqube,                name: sonarqube-bin, addflavor: true }
 - { setname: sonarqube,                name: sonarqube-community }
