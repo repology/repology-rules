@@ -301,6 +301,8 @@
 - { setname: swig,                     namepat: "swig[0-9.-]+" }
 - { setname: swissfileknife,           name: sfk }
 - { setname: switchboard-plug-networking, name: switchboard-plug-network }
+- { setname: sylpheed,                 name: sylpheed-beta, weak_devel: true }
+- { setname: sylpheed,                 name: [sylpheed-full,sylpheed-lite], addflavor: true }
 - { setname: syncthing,                name: [syncthing-0.14,syncthing13] }
 - { setname: syncthing-gtk,            name: "python:syncthing-gtk" }
 - { setname: synergy,                  namepat: "synergy[0-9.-]+" }
