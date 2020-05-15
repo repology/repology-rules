@@ -214,6 +214,8 @@
 - { name: kvantum,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 0.10.9
 - { name: kvirc,                       ver: "4.9.2",                                       incorrect: true } # pclos garbage
 - { name: kvirc,                                                     ruleset: [mageia,openmandriva], untrusted: true } # accused of fake 5.0.0
+- { name: kvirc,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: kvirc,                                                     ruleset: freebsd,     untrusted: true } # accused of fake 5.0.0.73
 - { name: kvirc,                       verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: kvirustotal,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: kvmtool,                                                                         noscheme: true }
