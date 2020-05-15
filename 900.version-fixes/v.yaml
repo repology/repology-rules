@@ -35,6 +35,7 @@
 - { name: vimpc,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: virtme,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: virtualbox,                  verpat: ".*[0-9]{6}.*",                             incorrect: true }
+- { name: virtualbox,                  verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: virtualbox-guestadditions,   verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: virtualbox-modules,          verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: virtualgl,                   verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
