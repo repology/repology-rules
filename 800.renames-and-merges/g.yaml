@@ -410,6 +410,7 @@
 - { setname: gupnp-dlna,               name: libgupnp-dlna }
 - { setname: gupnp-igd,                name: libgupnp-igd }
 - { setname: guvcview,                 name: [guvcview-qt,guvcview-qt5], addflavor: true }
+- { setname: gvfs,                     name: gvfs-nosystemd, addflavor: true }
 - { setname: gvrng,                    name: guido-van-robot }
 - { setname: gwenhywfar,               namepat: "(?:lib)?gwenhywfar[0-9]*(-(?:fox|gtk|qt)[0-9]*)?", addflavor: $1 }
 - { setname: gwt,                      name: webtoolkit-java-sdk }
