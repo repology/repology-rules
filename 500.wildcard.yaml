@@ -154,7 +154,7 @@
 - { setname: "python:$0", addflag: wconce, noflag: [wconce,not_python], namepat: "zope\\..*" }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "(.*)-py([23][0-9])", ruleset: fink, addflavor: $2 }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python2-(.*)", addflavor: python2, ruleset: [chakra,centos] }
-- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python3-(.*)", addflavor: python3, ruleset: [chakra,centos] }
+- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python3-(.*)", addflavor: python3, ruleset: [chakra,centos,openwrt] }
 
 # R
 - { setname: "r:$1", addflag: wconce, noflag: [wconce,not_r], namepat: "r-cran-(.*)", ruleset: [ freebsd, debuntu, arch, pclinuxos, mageia, pld, void ] }
