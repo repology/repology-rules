@@ -157,6 +157,7 @@
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_python], namepat: "python3-(.*)", addflavor: python3, ruleset: [chakra,centos,openwrt] }
 
 # R
+- { setname: "r:$0", addflag: wconce, noflag: [wconce,not_r], ruleset: gentoo, category: dev-r } # only encountered in GURU overlay yet
 - { setname: "r:$1", addflag: wconce, noflag: [wconce,not_r], namepat: "r-cran-(.*)", ruleset: [ freebsd, debuntu, arch, pclinuxos, mageia, pld, void ] }
 - { setname: "r:$1", addflag: wconce, noflag: [wconce,not_r], namepat: "r-bioc-(.*)", ruleset: [ debuntu ] }
 - { setname: "r:$1", addflag: wconce, noflag: [wconce,not_r], namepat: "r-(.*)",      ruleset: [ pkgsrc, fedora, guix, arch, debuntu, rosa, sisyphus, opensuse, nix, pld, conda, ravenports ] }
