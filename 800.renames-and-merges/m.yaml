@@ -156,6 +156,7 @@
 - { setname: miro-video-converter,     name: mirovideoconverter  }
 - { setname: mirrormagic,              name: mirrormagic-sdl }
 - { setname: mit-scheme,               name: [mit-scheme-bin,mit-scheme-c,mit-scheme-x11], addflavor: true } # mit-scheme-c was available with 9.x, but not 10.x releases
+- { setname: mitmproxy,                name: "python:mitmproxy" }
 - { setname: mixxx,                    namepat: "mixxx[0-9.-]+" }
 - { setname: mixxx,                    name: [mixxx-unstable,mixxx-beta], weak_devel: true }
 - { setname: mixxx,                    name: mixxx-qt5, addflavor: true }
