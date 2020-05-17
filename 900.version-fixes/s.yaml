@@ -106,6 +106,7 @@
 - { name: sk1libs,                     ver: "0.9.2",                 ruleset: [arch,aosc], incorrect: true }
 - { name: sk1libs,                                                   ruleset: [arch,aosc], untrusted: true }
 - { name: skey,                        ver: "2.2",                                         ignore: true } # pld; not sure what this is, ftp is down
+- { name: skia,                                                                            noscheme: true }
 - { name: skopeo,                      ver: "0.1.35",                ruleset: fedora,      incorrect: true }
 - { name: skopeo,                                                    ruleset: fedora,      untrusted: true }
 - { name: skypetab-ng,                 verpat: "20[0-9]{6}",                               snapshot: true }
