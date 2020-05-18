@@ -109,6 +109,10 @@
 
 - { name: grepcidr, wwwpart: [taugh,grepcidr-2/], setname: grepcidr-2 } # explained on http://www.pc-tools.net/unix/grepcidr/
 
+- { name: grin, wwwpart: [mimblewimble,grin.mw], setname: grin-mimblewimble }
+- { name: grin, wwwpart: [pypi/grin,rkern], setname: grin-grep }
+- { name: grin, warning: "please classify me" }
+
 - { name: grip, wwwpart: [sourceforge.net/projects/grip,nostatic.org/grip], setname: grip-cd-ripper }
 - { name: grip, wwwpart: kokoko3k, setname: grip-gambas-previewer }
 - { name: grip, wwwpart: joeyespo, setname: grip-markdown-preview }
