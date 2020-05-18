@@ -41,6 +41,9 @@
 - { name: xdrawchem,                   ver: "2.0",                   ruleset: debuntu,     outdated: true } # from oldstable
 - { name: xdrawchem,                   verpat: ".*r[0-9]{3}",                              snapshot: true } # opensuse science, 2.0r209
 - { name: "xdrv:fbdev",                verpat: "[0-9]{3}.*",                               incorrect: true } # slackwarearm garbage
+- { name: "xdrv:fbturbo",              verpat: ".*[0-9]{6}",                               snapshot: true }
+- { name: "xdrv:fbturbo",              verpat: "[0-9]{3}.*",                               incorrect: true }
+- { name: "xdrv:fbturbo",              ver: "0.5.1",                                       ignore: true } # unreleased, but set in the source
 - { name: "xdrv:freedreno",            verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "xdrv:freedreno",            verpat: ".*-[0-9]+-[0-9a-f]{7}",                    incorrect: true }
 - { name: "xdrv:intel",                                                                    noscheme: true }
