@@ -130,6 +130,7 @@
 - { setname: merlin,                   name: "ocaml:merlin" }
 - { setname: mesa-demos,               name: [mesa-demo,mesademos] }
 - { setname: meson,                    name: ["python:meson",meson-internal,meson-testsuite], addflavor: true }
+- { setname: metasploit,               namepat: "metasploit[0-9.-]+" }
 - { setname: meters.lv2,               name: meters-lv2 }
 - { setname: mgba,                     name: mgba-qt, addflavor: true }
 - { setname: mgltools,                 namepat: "mgltools-.*", ruleset: debuntu }
