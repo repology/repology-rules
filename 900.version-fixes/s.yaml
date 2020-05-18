@@ -18,6 +18,7 @@
 - { name: sauerbraten,                                                                     ignore: true } # otherwise, garbage (e.g. 2013.02.03.20161112 from chocolatey)
 - { name: sawfish,                     verpat: ".*\\.9[0-9]+",                             devel: true }
 - { name: sayonara,                    verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: sbase,                                                                           noscheme: true }
 - { name: sbcl,                        verpat: ".*20[0-9]{6}.*",                           ignore: true } # nixpkgs garbage
 - { name: sblim-sfcc,                  ver: "2.2.9",                 ruleset: nix,         incorrect: true } # prerelease
 - { name: sblim-sfcc,                                                ruleset: nix,         untrusted: true }
