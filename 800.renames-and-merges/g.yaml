@@ -217,6 +217,8 @@
 - { setname: gnome-themes-extra,       name: gnome-themes-standard }
 - { setname: gnome-tweaks,             name: gnome-tweak-tool } # former name; XXX: problem
 - { setname: gnome-vfs,                name: gnome-vfs-reference, addflavor: true }
+- { setname: gnu-efi,                  namepat: "gnu-efi[0-9.-]*[a-z]?" }
+- { setname: gnu-efi,                  name: gnu-efi-libs, addflavor: true }
 - { setname: gnu-netcat,               name: [gnetcat,netcat-gnu] }
 - { setname: gnu-radius,               name: radius, ruleset: openpkg }
 - { setname: gnu-radius,               name: gnuradius }
