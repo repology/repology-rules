@@ -117,7 +117,8 @@
 - { name: clipit,                                                    ruleset: nix,         untrusted: true } # accused of fake 1.4.5
 - { name: clisp,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: clisp,                       verpat: "2\\.49[.-][0-9]{2}",                       ignore: true }
-- { name: clisp,                       ver: "2.50",                  ruleset: slitaz,      incorrect: true }
+- { name: clisp,                       ver: "2.50",                  ruleset: [slitaz,aur,ravenports], incorrect: true }
+- { name: clisp,                                                     ruleset: [slitaz,aur,ravenports], untrusted: true } # accused of fake 2.50
 - { name: clojure,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{3,}",     incorrect: true } # homebrew and nix garbage
 - { name: clonekeen,                   verpat: "0\\.(.*)",                                 setver: "$1" }
 - { name: cloog,                       ver: "0.18.5",                ruleset: [haikuports, aosc, arch], ignore: true } # unofficial fork
