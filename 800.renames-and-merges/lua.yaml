@@ -5,6 +5,7 @@
 - { setname: "lua:bcrypt",             name: [luabcrypt] }
 - { setname: "lua:bcrypt",             namepat: "luabcrypt([0-9.-]+)", addflavor: $1 } # suffix is lua version
 - { setname: "lua:cgi",                name: [cgilua, lua-cgilua, "lua:cgilua"] }
+- { setname: "lua:cjson",              name: [lua-cjson] }
 - { setname: "lua:copas",              name: [copas,lua-copas,luacopas] }
 - { setname: "lua:dbi",                name: [lua-dbi, luadbi] }
 - { setname: "lua:dbi",                name: [luadbi-mysql, luadbi-pgsql], addflavor: true }
