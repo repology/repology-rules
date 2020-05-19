@@ -60,7 +60,6 @@
 - { setname: "python:decorator",       name: decorator } # XXX: make upstream use prefix
 - { setname: "python:decoratortools",  name: decoratortools }
 - { setname: "python:defusedxml",      name: defusedxml }
-- { setname: "python:distutils-extra", name: "python:python-distutils-extra" } # not published on pypi -> unclear name
 - { setname: "python:django",          namepat: "(?:python:)?django[0-9.-]*" }
 - { setname: "python:django-$1",       namepat: "django-(.*)" }
 - { setname: "python:duecredit",       name: duecredit }
