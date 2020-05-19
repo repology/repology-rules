@@ -131,7 +131,7 @@
 - { setname: "python:lxml",            name: lxml }
 - { setname: "python:m2crypto",        name: m2crypto }
 - { setname: "python:mako",            name: "python:mako0.4" }
-- { setname: "python:markdown",        name: python-markdown }
+- { setname: "python:markdown",        name: [python-markdown,"python:markdown-2"] }
 - { setname: "python:markupsafe",      name: markupsafe }
 - { setname: "python:matplotlib",      name: matplotlib }
 - { setname: "python:matplotlib",      name: ["python:matplotlib-documentation","python:matplotlib-gtk","python:matplotlib-noqt","python:matplotlib-tk"], addflavor: true }
