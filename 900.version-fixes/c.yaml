@@ -116,7 +116,7 @@
 - { name: clipit,                      ver: "1.4.5",                 ruleset: nix,         incorrect: true }
 - { name: clipit,                                                    ruleset: nix,         untrusted: true } # accused of fake 1.4.5
 - { name: clisp,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
-- { name: clisp,                       verpat: "2\\.49[.-][0-9]{2}",                       ignore: true }
+- { name: clisp,                       verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: clisp,                       ver: "2.50",                  ruleset: [slitaz,aur,ravenports], incorrect: true }
 - { name: clisp,                                                     ruleset: [slitaz,aur,ravenports], untrusted: true } # accused of fake 2.50
 - { name: clisp,                       vereq: "2.49.93",             ruleset: [arch,freebsd,fedora,manjaro,ravenports], incorrect: true }
