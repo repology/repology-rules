@@ -45,7 +45,7 @@
 - { setname: telepathy-qt,             name: [telepathy-qt4,telepathy-qt5] }
 - { setname: template-glib,            name: libtemplate-glib }
 - { setname: tensorboard,              name: ["python:tensorboard", "python:tensorboard1", "python:tensorflow-tensorboard"] }
-- { setname: tensorflow,               namepat: "(?:lib)?tensorflow[0-9.-]*(gnu-hpc|gnu-openmpi2-hpc|lite)?", addflavor: $1 }
+- { setname: tensorflow,               namepat: "(?:lib|python:)?tensorflow[0-9.-]*(gnu-hpc|gnu-openmpi2-hpc|lite)?", addflavor: $1 }
 - { setname: tepl,                     name: tepl3 }
 - { setname: terminal-markdown-viewer, name: mdv }
 - { setname: termtosvg,                name: "python:termtosvg" }
