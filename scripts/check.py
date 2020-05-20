@@ -193,6 +193,7 @@ schema = Schema(
         'devel': bool,
         'weak_devel': bool,
         'altver': bool,
+        'vulnerable': bool,
         'p_is_patch': bool,
         'any_is_patch': bool,
         'outdated': bool,
