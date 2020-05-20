@@ -285,7 +285,7 @@
 - { setname: libxml2,                  name: emscripten-libxml2, addflavor: emscripten }
 - { setname: libxmlb,                  name: libxmlb1 }
 - { setname: libxmlbird,               name: xmlbird }
-- { setname: libxmp,                   name: libxmp-lite }
+- { setname: libxmp,                   name: libxmp-lite, addflavor: true }
 - { setname: libxrender,               name: [libx32-libxrender,xorg-libxrender,xrender] }
 - { setname: libxslt,                  name: [libxslt-reference,libxslt-python,xsltproc], addflavor: true }
 - { setname: libxslt,                  name: "python:libxslt", addflavor: python }
