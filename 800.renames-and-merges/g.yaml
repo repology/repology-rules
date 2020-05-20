@@ -11,6 +11,9 @@
 - { setname: gambit-c,                 name: [gambc,gambit-scheme] }
 - { setname: gamess,                   name: gamess-us }
 - { setname: ganeti,                   name: ganeti-2.15 }
+- { setname: ganglia,                  name: ganglia-minimal, addflavor: true }
+- { setname: ganglia,                  name: ganglia-monitor-core } # XXX: invented name
+- { setname: ganglia-web,              name: ganglia-webfrontend } # XXX: invented name
 - { setname: ganttproject,             name: ganttproject-bin, addflavor: true }
 - { setname: gap,                      namepat: "gap[0-9.-]+(data|doc|packages)?", addflavor: $1 }
 - { setname: gap-$1,                   namepat: "gap-pkg-(.*)" } # may belong to 500.wildcard ruleset if fact
