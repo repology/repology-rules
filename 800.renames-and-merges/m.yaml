@@ -225,6 +225,8 @@
 - { setname: mullvad-vpn,              name: [mullvad-app, mullvad] }
 - { setname: mullvad-vpn,              name: mullvad-vpn-beta, weak_devel: true }
 - { setname: multivalent,              name: [multivalent-tool-pdf,multivalent-pdf-tools] }
+- { setname: mumble,                   name: [mumble-minimal,mumble-stable-minimal], addflavor: minimal }
+- { setname: mumble,                   name: [mumble-snapshot, mumble-snapshot-minimal], addflavor: minimal, weak_devel: true }
 - { setname: mumps,                    name: mumps4 }
 - { setname: mumps,                    name: [mumps-metis,mumps-metis-openmpi,mumps-mpich,mumps-openmpi,mumps-par,mumps-seq,mumps-seq-shared], addflavor: true }
 - { setname: munin,                    namepat: munin-(master|node|server|common), addflavor: $1 }
