@@ -108,6 +108,7 @@
 - { setname: log4j,                    namepat: "(?:apache-|java-)?log4j[0-9.-]*(-mini|-eap6|-api|-core)?", addflavor: $1 }
 - { setname: logcat-color,             name: "python:logcat-color" }
 - { setname: logmein-hamachi,          name: logmein-hamachi-beta, devel: true }
+- { setname: logstash,                 namepat: "logstash[0-9.-]+" }
 - { setname: loki-lib,                 name: libloki }
 - { setname: lostpixels,               name: blinkensisters-with-addons }
 - { setname: loudmouth,                name: loudmouth-ossl, addflavor: openssl }
