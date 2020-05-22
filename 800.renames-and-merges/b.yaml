@@ -137,7 +137,7 @@
 - { setname: brasero,                  name: [brasero2,brasero-dvdcssfix] }
 - { setname: brave,                    name: brave-browser }
 - { setname: brave,                    name: brave-bin, addflavor: bin}
-- { setname: brave,                    name: brave-snapshot, weak_devel: true }
+- { setname: brave,                    name: [brave-snapshot,brave-beta,brave-dev,brave-nightly], weak_devel: true }
 - { setname: breakpad,                 name: google-breakpad }
 - { setname: breeze-icons,             name: [kf5-breeze-icons, breeze-icon-theme] }
 - { setname: breeze-icons,             name: [breeze-icons-qt5,breeze-icons-rcc], addflavor: true }
