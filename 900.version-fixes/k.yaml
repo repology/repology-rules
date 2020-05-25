@@ -85,6 +85,7 @@
 - { name: kgraphviewer,                ver: "2.4.3a",                                      setver: "2.4.3" }
 - { name: khangman,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: khelpcenter,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: khmer-sequencing,            verpat: ".*[ab].*",                                 devel: true }
 - { name: kholidays,                   verpat: "(4|15|16|17)\\..*",                        outdated: true } # https://cgit.kde.org/kholidays.git/refs/tags
 - { name: kholidays,                   verge: "18",                                        incorrect: true } # https://cgit.kde.org/kholidays.git/refs/tags
 - { name: kholidays,                   ver: "5.54.0",                ruleset: [kaos,openmandriva], incorrect: true } # 5.54.0-rc1

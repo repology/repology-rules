@@ -64,6 +64,8 @@
 - { name: notify-osd,                  ver: "0.9.35",                ruleset: [arch,debuntu], incorrect: true } # https://launchpad.net/notify-osd
 - { name: notify-osd,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: notion,                      verpat: "20[0-9]{6}.*",                             incorrect: true } # it's 3-YYYYMMDD, not just date
+- { name: nototools,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: nototools,                   verge: "20000000", verlt: "20191107",               outdated: true, disposable: true } # latest is 0.2.1 from 7 nov 2019
 - { name: notpacman,                   ver: ["1004", "1.4"],                               incorrect: true } # 1.0.4
 - { name: novnc,                       verpat: "201[1234567].*",                           outdated: true }
 - { name: novnc,                       verpat: "20[0-9]{2}.*",                             snapshot: true }
