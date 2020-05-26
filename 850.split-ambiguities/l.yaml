@@ -20,7 +20,8 @@
 - { name: lemon, ruleset: pclinuxos, setname: lemon-lalr1-sqlite }
 - { name: lemon, warning: "please classify me" }
 
-- { name: libelf,                      wwwpart: elfutils, setname: elfutils } # Arch: XXX: problem
+- { name: libelf, wwwpart: elfutils, setname: elfutils } # XXX: problem
+- { name: libelf, wwwpart: elftoolchain, setname: elftoolchain } # XXX: problem
 
 - { name: liberation, wwwpart: liberation-fonts, setname: "fonts:liberation" }
 - { name: liberation, warning: "please classify me" }
