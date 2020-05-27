@@ -8,6 +8,9 @@
 
 - { remove: true,   name: autotools }
 
+- { remove: true,   namepat: 'base-.*',  ruleset: void }
+- { remove: true,   namepat: '.*-base',  ruleset: void }
+
 - { remove: true,   name: base-files }
 
 - { remove: true,   name: basesystem }
@@ -129,3 +132,8 @@
 # openpkg uses module packs versioned after corresponding language
 - { ruleset: openpkg, namepat: "perl-.*",         remove: true }
 - { ruleset: openpkg, namepat: "python-.*",       remove: true }
+
+# VoidLinux meta-package
+- { ruleset: void,    summpart: "meta-package",   remove: true }
+- { ruleset: void,    summpart: "meta package",   remove: true }
+- { ruleset: void,    summpart: "meta-pkg",       remove: true }
