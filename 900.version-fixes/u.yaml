@@ -65,6 +65,8 @@
 - { name: usbmuxd,                     verpat: "20[0-9]{2}.*",                             snapshot: true } # openwrt, incorrect version parse actually
 - { name: usbrelay,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: usbview,                     ver: "2.0.1",                 ruleset: rosa,        incorrect: true }
+- { name: usrsctp,                     ver: "35c1d97020a",           ruleset: vcpkg,       incorrect: true }
+- { name: usrsctp,                                                   ruleset: vcpkg,       untrusted: true } # accused of using commit hash
 - { name: utf8proc,                    ver: "2.4.0.2",               ruleset: haikuports,  incorrect: true }
 - { name: utf8proc,                                                  ruleset: haikuports,  untrusted: true } # accused of fake 2.4.0.2
 - { name: utf8proc,                    verlonger: 3,                                       altver: true } # e.g. 2.4.0-1 http://git.netsurf-browser.org/libutf8proc.git/
