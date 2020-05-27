@@ -169,7 +169,8 @@
 - { setname: "raku:$1", addflag: wconce, noflag: [wconce,not_raku], namepat: "rakudo-(.*)", ruleset: [fedora] }
 
 # ROS
-- { setname: "ros:$0", addflag: wconce, noflag: [wconce,not_ros], category: dev-ros,   ruleset: [ gentoo, exherbo ] }
+- { setname: "ros:$0", addflag: wconce, noflag: [wconce,not_ros], category: dev-ros, ruleset: [ gentoo, exherbo ] }
+- { setname: "ros:$0", addflag: wconce, noflag: [wconce,not_ros], category: ros-meta, ruleset: [ gentoo, exherbo ] }
 - { setname: "ros:$1", addflag: wconce, noflag: [wconce,not_ros], namepat: "ros-(.*)", ruleset: [ debuntu, arch ] }
 
 # Ruby
