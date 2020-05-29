@@ -204,6 +204,7 @@
 - { name: printrun,                    verpat: ".*[0-9]{10}.*",                            incorrect: true } # opensuse unixtime nonsense
 - { name: processing,                  verpat: "[0-9]{4}.*",                               incorrect: true } # gobolinux garbage
 - { name: procmail,                    verpat: "[0-9]+",                                   incorrect: true } # homebrew
+- { name: procps,                      vergt: "3.2.8",                                     incorrect: true } # procps-ng in fact, and no WWW available to split
 - { name: progsreiserfs,               ver: "0.3.1",                 ruleset: pld,         incorrect: true }
 - { name: progsreiserfs,                                             ruleset: pld,         untrusted: true }
 - { name: proot,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
