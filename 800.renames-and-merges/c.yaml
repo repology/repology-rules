@@ -75,6 +75,8 @@
 - { setname: celt,                     namepat: "(?:lib)?celt[0-9.-]*" }
 - { setname: centerim,                 name: [center-im,centerim5] }
 - { setname: centerim,                 name: centerim-devel, weak_devel: true }
+- { setname: ceph,                     namepat: "ceph[0-9.-]+" }
+- { setname: ceph,                     name: [ceph-test, cephadm, ceph-common, ceph-client], addflavor: true}
 - { setname: ceti-2-theme,             name: ceti-2-themes }
 - { setname: cfengine,                 namepat: "cfengine[0-9]+" } # XXX: split?
 - { setname: cfengine,                 namepat: cfengine-devel, weak_devel: true }
