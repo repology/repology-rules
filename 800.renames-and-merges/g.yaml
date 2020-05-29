@@ -391,6 +391,7 @@
 - { setname: gtkhotkey,                name: libgtkhotkey }
 - { setname: gtkhtml,                  namepat: "(?:lib|compat-)?gtkhtml[0-9.-]*" }
 - { setname: gtkmm,                    namepat: "(?:lib)?gtkmm[0-9.+-]*(-docs|-documentation|-reference)?", addflavor: $1 }
+- { setname: gtkplatform,              name: [qt-gtk-platform-plugin,qt5-gtkplatform] }
 - { setname: gtksourceview,            namepat: "(?:lib)?gtksourceview[0-9.-]*(-reference)?", addflavor: $1 }
 - { setname: gtksourceview-sharp,      name: [gtksourceview-sharp2,dotnet-gtksourceview-sharp2] }
 - { setname: gtksourceviewmm,          namepat: "(?:lib)?gtksourceviewmm[0-9.-]*" }
