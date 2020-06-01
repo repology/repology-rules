@@ -54,6 +54,11 @@
 - { name: beagle, wwwpart: gnome.org, setname: beagle-gnome }
 - { name: beagle, warning: "please classify me" }
 
+- { name: beaker, wwwpart: beakerbrowser, setname: beaker-browser }
+- { name: beaker, wwwpart: [beaker.readthedocs.io,pypi], setname: "python:beaker" }
+- { name: beaker, wwwpart: beaker-project, setname: beaker-integration-testing }
+- { name: beaker, warning: "please classify me" }
+
 - { name: beanshell, ruleset: kaos,                       setname: beanshell2 }
 
 - { name: beast, wwwpart: beast.bio.ed.ac.uk, setname: beast-mcmc }
