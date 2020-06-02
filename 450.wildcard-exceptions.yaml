@@ -61,6 +61,7 @@
 - { addflag: not_php,                  name: php-elisp }
 
 # in python category as python modules
+- { setname: python,                   name: [python-minimal, python2-minimal], addflavor: minimal }
 - { addflag: not_python,               name: python, ruleset: aosc }
 - { addflag: not_python,               name: python-debug, ruleset: guix }
 - { addflag: not_python,               name: [python-doc,python3-doc] }
