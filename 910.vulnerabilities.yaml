@@ -3,3 +3,4 @@
 # CVE-2005-1513, https://github.com/repology/repology-vulnupdater/issues/6
 - { vulnerable: true, name: qmail, vereq: "1.03" }
 - { vulnerable: true, name: ksh, vereq: "2012.08.01" } # CVE-2019-14868, mentions 20120801
+- { vulnerable: true, name: grub, releq: "2.02" } # extend 2.02 CVE-2015-8370 onto 2.02beta*
