@@ -181,7 +181,9 @@
 - { name: kruler,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: krusader,                    verpat: "16\\..*",                                  incorrect: true } # pclinuxos; it uses e.g. 2.6.0 scheme
 - { name: kscd,                        verpat: ".*20[0-9]{6}",                             ignore: true } # exherbo snapshot
-- { name: ksh,                                                                             noscheme: true } # there are some tags https://github.com/att/ast/releases but latest one are not used
+- { name: ksh,                         verge: "20000000", verlt: "20200000",               outdated: true }
+- { name: ksh,                                                                             incorrect: true }
+- { name: ksh,                         verpat: "[0-9]{4}\\.[1-9]?[0-9]\\.[1-9]?[0-9](?:[._-](?:alpha|beta|devel)[0-9]*)?", incorrect: false }
 - { name: kshisen,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ksirk,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ksmtp,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
