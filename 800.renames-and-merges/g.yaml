@@ -324,6 +324,9 @@
 - { setname: gpsprune,                 name: gpsprune-dev-bin, addflavor: bin, weak_devel: true }
 - { setname: gqrx,                     name: gqrx-sdr }
 - { setname: gqrx,                     name: gqrx-xtrx, addflavor: true }
+- { setname: gr-osmosdr,               name: gnuradio-osmosdr }
+- { setname: gr-osmosdr,               name: gr-osmosdr-38 }
+- { setname: gr-osmosdr,               name: [gr-osmosdr-nonfree, gr-osmosdr-xtrx, gnuradio-osmosdr-xtrx], addflavor: true }
 - { setname: gradle,                   name: gradle-bin, addflavor: true }
 - { setname: grafana,                  name: grafana-bin }
 - { setname: grafana,                  namepat: "grafana[0-9]+" }
