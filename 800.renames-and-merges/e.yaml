@@ -32,6 +32,7 @@
 - { setname: eiskaltdcpp,              namepat: "eiskaltdcpp-(cli|daemon|data|gtk|lib|qt|core)", addflavor: $1 }
 - { setname: eiskaltdcpp,              name: eiskaltdcplusplus }
 - { setname: elasticsearch,            namepat: "elasticsearch[0-9]+" }
+- { setname: elasticsearch,            name: elasticsearch5-noconflict, addflavor: true }
 - { setname: elbcli,                   name: elb-tools }
 - { setname: electricfence,            name: electric-fence }
 - { setname: electrum,                 name: "python:electrum" }
