@@ -239,7 +239,7 @@
 - { setname: avogadro2,                name: avogadroapp, addflavor: app }
 - { setname: avogadrolibs,             name: avogadro2-libs }
 - { setname: avr8-burn-o-mat,          name: avr8-burn-omat }
-- { setname: avrdude,                  name: arduino-avrdude, addflavor: adruino }
+- { setname: avrdude,                  name: [arduino-avrdude,avrdude-bobdude], addflavor: true }
 - { setname: avro,                     name: [avro-c,avro-cpp,avro-c++,avro-java,avro-tools,"ruby:avro","python:avro","php:wikimedia-avro"], addflavor: true }
 - { setname: avw.lv2,                  name: avw-plugins-lv2 }
 - { setname: awesome,                  name: awesome-luajit, addflavor: jit }
