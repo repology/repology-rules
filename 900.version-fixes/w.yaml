@@ -58,6 +58,7 @@
 - { name: wordnet,                                                   ruleset: os4depot,    incorrect: true }
 - { name: words-latin,                 ver: "1.97F",                                       outdated: true } # latest is 1.97FC
 - { name: wordwarvi,                   ver: "1.1",                   ruleset: [ sisyphus, fedora ], incorrect: true }
+- { name: workflowy,                   vercomps: 4,                                        altver: true }
 - { name: wpa-supplicant,              verpat: "201[0-9]+.*",        ruleset: openwrt,     ignore: true }
 - { name: wrangler,                    verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: wslay,                       ver: "1.0.1",                 ruleset: debuntu,     incorrect: true }
