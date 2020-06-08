@@ -65,5 +65,8 @@
 # abandoned, 50% outdated, ignores flags, not a source of trusted new versions
 - {                                                                  ruleset: freshcode,   untrusted: true }
 
+# too many packages include additional (build?) version component
+- {                                                                  ruleset: appget,      untrusted: true }
+
 # melpa always uses snapshots
 - {                                                                  ruleset: melpa,       rolling: true }
