@@ -165,6 +165,7 @@ schema = Schema(
         'noruleset': Any(Any(*rulesets), [Any(*rulesets)]),
         'category': Any(str, [str]),
         'maintainer': Any(str, [str]),
+        'vercomps': int,
         'verlonger': int,
         'vergt': str,
         'verge': str,

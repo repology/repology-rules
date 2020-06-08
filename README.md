@@ -258,6 +258,14 @@ mean "any symbol" in regular expressions. Matching is case insensitive.
 - { name: firefox, verpat: "50\\..*", ... }
 ```
 
+#### vercomps
+
+Matches versions components count.
+
+```yaml
+- { name: gimp, vercomps: 3, ...} # matches 1.2.3, but not 1.2 or 1.2.3.4
+```
+
 #### verlonger
 
 Matches versions longer than a given number of dot-separated parts.
