@@ -74,6 +74,7 @@
 - { name: blender,                     ver: "2.83",                  ruleset: unitedrpms,  incorrect: true }
 - { name: blender,                                                   ruleset: unitedrpms,  untrusted: true } # accused of fake 2.83
 - { name: blinken,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: blobby,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: bloodfrontier,               ver: "0.85",                                        setver: b2 }
 - { name: bluej,                       verpat: "[0-9]+",                                   ignore: true }
 - { name: bluez-tools,                                                                     noscheme: true }
