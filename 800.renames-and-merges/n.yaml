@@ -68,6 +68,9 @@
 - { setname: nextcloud,                name: nextcloud-testing, weak_devel: true }
 - { setname: nextcloud-client,         name: [nextcloudclient,nextcloud-desktop] }
 - { setname: nghttp2,                  name: libnghttp2 }
+- { setname: nghttp2,                  name: [nghttp2-tools,nghttp2-python], addflavor: true }
+- { setname: nghttp2,                  name: libnghttp2-asio, addflavor: asio }
+- { setname: nghttp3,                  name: libnghttp3 }
 - { setname: nginx,                    name: [nginx-devel,nginx-mainline] }
 - { setname: nginx,                    name: [nginx-full,nginx-mainline-full], addflavor: full }
 - { setname: nginx,                    name: [nginx-libressl,nginx-mainline-libressl], addflavor: libressl }
