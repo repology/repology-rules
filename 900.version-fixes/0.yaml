@@ -11,5 +11,6 @@
 - { name: 2bwm,                                                      ruleset: openbsd,     untrusted: true } # accused of fake 0.3
 - { name: 2ping,                       verpat: "[0-9]{10}.*",                              snapshot: true } # opensuse
 - { name: 3270font,                    verpat: "[0-9]{3}\\..*",                            incorrect: true } # it has normal versioning schema
+- { name: 4k-video-downloader,         vercomps: 4,                                        altver: true } # build
 - { name: 7kaa-music,                  verpat: "20[0-9]{6}.*",                             snapshot: true } # opensuse games
 - { name: 9base,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true } # freebsd, pkgsrc snapshots
