@@ -18,6 +18,7 @@
 - { name: jinput,                      ver: "2.0.10",                ruleset: freebsd,     incorrect: true }
 - { name: jinput,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 2.0.10
 - { name: jinput,                      verge: "2000000", verlt: "20180601",                outdated: true } # 2.0.9 from 1 jun 2018
+- { name: jitsi,                       vercomps: 1,                                        incorrect: true } # 2.11.5633, not 5633
 - { name: jode,                        verpat: "20[0-9]{6}",                               ignore: true }
 - { name: john,                        verpat: "1\\.8\\.0\\.[0-9]+",                       incorrect: true } # sisyphus, kali fakes
 - { name: jool,                        verpat: "20[0-9]{2}.*",                             incorrect: true } # has normal x.y.z scheme https://www.jool.mx/en/download.html
