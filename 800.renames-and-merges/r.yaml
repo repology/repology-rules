@@ -84,7 +84,7 @@
 - { setname: rpm,                      namepat: "rpm[0-9.-]+" }
 - { setname: rpm,                      name: [rpm-python,"python:rpm"], addflavor: python } # python bindings are bundled
 - { setname: rrdtool,                  name: [rrdtool12, rrd, rrdtool1] }
-- { setname: rrdtool,                  name: [rrdtool-lite,rrdupdate,"ruby:rrd","ruby:rrdtool","ruby:rrdtool-bindings"], addflavor: true }
+- { setname: rrdtool,                  name: [rrdtool-lite,rrdupdate,"ruby:rrd","ruby:rrdtool","ruby:rrdtool-bindings", "python:rrd", rrdtool-php], addflavor: true }
 - { setname: rsh,                      name: rshd }
 - { setname: rss2email,                name: "python:rss2email" }
 - { setname: rss2email,                name: r2e }
