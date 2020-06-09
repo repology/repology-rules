@@ -62,8 +62,8 @@
 - { setname: libreoffice,              name: [libreoffice5-bin,libreoffice6-bin], addflavor: bin }
 - { setname: libreoffice-extension-barcode, name: barcode, ruleset: gentoo, category: app-officeext }
 - { setname: libreoffice-voikko,       name: voikko-libreoffice }
-- { setname: libressl,                 name: libressl-devel, weak_devel: true }
-- { setname: libressl,                 name: libressl-netcat, addflavor: netcat }
+- { setname: libressl,                 name: [libressl-devel,libressl-latest], weak_devel: true }
+- { setname: libressl,                 name: [libressl-netcat,libressl-static], addflavor: true }
 - { setname: libsvm,                   name: svm }
 - { setname: libtool,                  name: libtool-bin, addflavor: bin }
 - { setname: lightdm,                  name: lightdm-devel, weak_devel: true }
