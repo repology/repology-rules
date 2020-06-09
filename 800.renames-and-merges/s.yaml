@@ -43,6 +43,8 @@
 - { setname: schroedinger,             name: libschroedinger }
 - { setname: schroedinger,             namepat: "schroedinger[0-9.-]+" }
 - { setname: scilab,                   name: scilab-bin, addflavor: true }
+- { setname: scons,                    name: ["python:scons", scons2] }
+- { setname: scons,                    name: [scons-doc, scons-python2] }
 - { setname: scourge,                  name: scourge-data, addflavor: data }
 - { setname: screenfetch,              name: screenfetch-dev, weak_devel: true }
 - { setname: scrot,                    name: scrot-no-beep, addflavor: no-beep }
