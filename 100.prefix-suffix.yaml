@@ -16,6 +16,7 @@
 - { ruleset: aur,             name: python-svn, setname: "python:svn" } # save from following rule
 - { ruleset: aur,             namepat: "(.*)-(cvs|svn|hg|darcs|bzr|git)", setname: $1, rolling: true }
 - { ruleset: aur,             namepat: "(.*)-(bin|appimage)", setname: $1, addflavor: $2 }
+- { ruleset: aur,             namepat: "(android-(?:aarch64|armv7a-eabi|x86(?:-64)?))-(?!system-image|64)(.*?)", setname: $2, addflavor: $1 }
 
 - { ruleset: buckaroo,        wwwpart: boost.org, setname: boost, addflavor: $0 }
 - { ruleset: buckaroo,        wwwpart: pocoproject.org, setname: poco, addflavor: $0 }
