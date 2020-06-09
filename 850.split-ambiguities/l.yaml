@@ -43,6 +43,9 @@
 
 - { name: libmpc,                      wwwpart: multiprecision, setname: gnumpc }
 
+- { name: libtls-standalone, wwwpart: libressl, setname: libressl, addflavor: true }
+- { name: libtls-standalone, warning: "please classify me" }
+
 - { name: libtorrent, wwwpart: arvidn, setname: libtorrent-rasterbar }
 
 - { name: libucl, ruleset: openwrt, setname: ucl }
