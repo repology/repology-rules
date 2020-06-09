@@ -13,7 +13,7 @@
 - { setname: lalpulsar,                name: ["octave:lalpulsar","python:lalpulsar"], addflavor: true }
 - { setname: lalsimulation,            name: ["octave:lalsimulation","python:lalsimulation"], addflavor: true }
 - { setname: lambdahack,               name: "haskell:lambdahack" }
-- { setname: lame,                     name: libmp3lame }
+- { setname: lame,                     name: [libmp3lame, mp3lame] }
 - { setname: lammps,                   name: lammps-beta, weak_devel: true }
 - { setname: language-pack-gnome,      namepat: "language-pack-gnome-.*", ruleset: debuntu }
 - { setname: language-pack-kde,        namepat: "language-pack-kde-.*", ruleset: debuntu }
