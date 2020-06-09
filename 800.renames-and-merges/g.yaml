@@ -280,7 +280,8 @@
 - { setname: gnustep-talksoup,         name: talksoup }
 - { setname: gnustep-timemon,          name: timemon }
 - { setname: gnustep-volume,           name: volume-app }
-- { setname: gnutls,                   name: [gnutls-dane,gnutls-openssl,gnutls-tiny], addflavor: true }
+- { setname: gnutls,                   name: [gnutls-dane,gnutls-openssl,gnutls-tiny,guile-gnutls], addflavor: true }
+- { setname: gnutls,                   name: gnutls-next, weak_devel: true }
 - { setname: gnutls,                   namepat: "(?:lib)?gnutls[0-9.-]*" }
 - { setname: go-shadowsocks2,          name: [shadowsocks2, "go:shadowsocks2"] }
 - { setname: goat,                     name: "rust:goat" }
