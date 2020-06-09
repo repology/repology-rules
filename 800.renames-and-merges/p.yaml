@@ -171,6 +171,10 @@
 - { setname: postgresql,               namepat: "postgresql[0-9.-]*-plpython", addflavor: plpython }
 - { setname: postgresql,               namepat: "postgresql[0-9.-]*-pltcl", addflavor: pltcl }
 - { setname: postgresql,               namepat: "postgresql[0-9.-]*-server", addflavor: server }
+- { setname: postgresql,               name: [pgsql, postgresql-previous] }
+- { setname: postgresql,               name: postgresql-src, addflavor: src}
+- { setname: postgresql,               name: postgresql-src-beta, addflavor: src, weak_devel: true }
+- { setname: postgresql,               name: [libecpg, libpq, pgindent], addflavor: true }
 - { setname: postgresql-1c,            namepat: "postgresql[0-9.-]+-1c" }
 - { setname: postgresql-multicorn,     name: multicorn }
 - { setname: postgresql-rum,           name: [pg-rum,postgresql11-rum] }
