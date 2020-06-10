@@ -13,15 +13,17 @@
 - { name: hermes,                      setname: hermes-auth, wwwpart: ralt/hermes }
 # otherwise, (dead?) pixel format convertsion library
 
-- { name: hex, wwwpart: sitkevij, setname: hex-sitkevij }
-- { name: hex, wwwpart: [catb,ibiblio], setname: hex-esr }
+- { name: hex, wwwpart: sitkevij, setname: hx }
+- { name: hex, wwwpart: [esr,ibiblio], setname: hexd-esr }
 - { name: hex, wwwpart: janouch, setname: hex-janouch }
 - { name: hex, warning: "please classify me" }
 
 - { name: hexd, wwwpart: esr, setname: hexd-esr }
 - { name: hexd, wwwpart: fireyfly, setname: hexd-fireyfly }
-- { name: hexd, ruleset: gentoo, setname: hexd-esr }
 - { name: hexd, warning: "please classify me" }
+
+- { name: hexdump, wwwpart: esr, setname: hexd-esr }
+- { name: hexdump, warning: "please classify me" }
 
 - { name: hexer,                       wwwpart: hobu, setname: hexer-hobu }
 
