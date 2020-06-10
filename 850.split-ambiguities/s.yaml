@@ -42,6 +42,10 @@
 - { name: scripts, wwwpart: gobolinux, setname: gobolinux-scripts }
 - { name: scripts, warning: "please classify me" }
 
+- { name: sd, wwwpart: chmln, setname: sd-find-replace }
+- { name: sd, wwwpart: [syncwith,app-sd], setname: sd-simple-defects }
+- { name: sd, warning: "please classify me" }
+
 - { name: sdb, wwwpart: libsdb, setname: libsdb }
 - { name: sdb, wwwpart: mono, setname: sdb-mono }
 - { name: sdb, wwwpart: [shotgun,game], setname: shotgun-debugger }
