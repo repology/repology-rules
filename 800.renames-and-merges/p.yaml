@@ -177,7 +177,7 @@
 - { setname: postgresql,               name: postgresql-src-beta, addflavor: src, weak_devel: true }
 - { setname: postgresql,               name: [libecpg, libpq, pgindent], addflavor: true }
 - { setname: postgresql-1c,            namepat: "postgresql[0-9.-]+-1c" }
-- { setname: postgresql-jdbc,          name: [java-postgresql-jdbc, libpgjava] }
+- { setname: postgresql-jdbc,          name: [java-postgresql-jdbc, jdbc-postgresql, libpgjava] }
 - { setname: postgresql-multicorn,     name: multicorn }
 - { setname: postgresql-rum,           name: [pg-rum,postgresql11-rum] }
 - { setname: potrace,                  name: libpotrace, addflavor: true }
