@@ -79,6 +79,7 @@
 - { setname: pgagent,                  namepat: "postgresql[0-9.-]*pgagent" }
 - { setname: pgcli,                    name: "python:pgcli" }
 - { setname: pglogical,                name: [postgresql-pglogical,pglogical2] }
+- { setname: pgmigrate,                name: [yandex-pgmigrate,"python:pgmigrate"] }
 - { setname: pgplot,                   name: pgplot5 }
 - { setname: pgpool,                   name: [pgpool2,postgresql-pgpool-ii] }
 - { setname: pgpool,                   namepat: "pgpool-ii[0-9.-]*" }
