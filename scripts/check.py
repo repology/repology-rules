@@ -122,6 +122,7 @@ rulesets = families + [
     'deb_multimedia',
     'debian',
     'deepin',
+    'dports',
     'epel',
     'frugalware',
     'funtoo',
