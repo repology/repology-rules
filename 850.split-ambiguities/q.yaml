@@ -2,6 +2,10 @@
 
 - { name: qputty, wwwpart: qputty-qt5, setname: qputty-qt5 }
 
+- { name: qrcodegen, wwwpart: qrcodeforwn, setname: qrcodeforwn }
+- { name: qrcodegen, wwwpart: nayuki, setname: qrcodeforwn }
+- { name: qrcodegen, warning: "please classify me" }
+
 - { name: qterm, ruleset: pkgsrc, setname: qterm-ac } # terminal type recognizer vs. bbs client
 
 - { name: qtoctave, verge: "4", ruleset: guix, setname: octave }  # octave part?
