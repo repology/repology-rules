@@ -5,6 +5,7 @@
 - { setname: kaitai-struct,            name: [kaitai-struct-compiler,kaitai-struct-visualizer,"python:kaitaistruct","ruby:kaitai-struct","python:python-kaitaistruct"], addflavor: true }
 - { setname: kamailio,                 name: kamailio-5.x } # openwrt
 - { setname: kamailio,                 name: [kamailio-berkeley,kamailio-carrierroute,kamailio-ldap,kamailio-mysql,kamailio-perl,kamailio-postgresql,kamailio-presence,kamailio-radius,kamailio-snmpstats,kamailio-xml], ruleset: openbsd, addflavor: true }
+- { setname: karaf,                    name: apache-karaf }
 - { setname: kate,                     name: kate-root, addflavor: true }
 - { setname: kde-i18n,                 namepat: "kde-(i18n|l10n)-.*" }
 - { setname: kde4-l10n,                namepat: "kde4-l10n-.*", ruleset: pkgsrc }
