@@ -261,4 +261,5 @@
 - { setname: mysql-connector-c++,      namepat: "mysql[0-9]*-connector-cpp" }
 - { setname: mysql-connector-java,     namepat: "mysql-connector-java[0-9.-]+" }
 - { setname: mysql-connector-java,     name: [jdbc-mysql,mysql-jdbc] }
+- { setname: mysql-connector-java,     name: openmeetings-mysql-connector-java, addflavor: openmeetings }
 - { setname: mysql-fdw,                namepat: "(postgresql[0-9.-]*)-mysql-fdw", addflavor: $1 }
