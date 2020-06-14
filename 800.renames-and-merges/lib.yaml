@@ -178,6 +178,7 @@
 - { setname: libpagemaker,             namepat: "libpagemaker[0-9.-]+" }
 - { setname: libpano13,                name: libpano }
 - { setname: libpaper,                 name: libpaper1 }
+- { setname: libpeas,                  name: [libpeas-loader-python3,libpeas-lua51,libpeas-luajit,"python:libpeas"], addflavor: true }
 - { setname: libpng,                   name: [libpng-apng,libpng+apng], addflavor: apng }
 - { setname: libpng,                   name: [png,png14,libpng-compat] }
 - { setname: libpng,                   namepat: "libpng(?:-legacy)?[0-9.-]*" }
