@@ -62,7 +62,7 @@
 - { setname: newsboat,                 name: newsbeuter-dev, ignore: true }
 - { setname: newsboat,                 name: newsbeuter2.8 }
 - { setname: newt,                     name: [libnewt,newt52] }
-- { setname: nextcloud,                name: nextcloud-10 }
+- { setname: nextcloud,                namepat: "nextcloud[0-9.-]+" }
 - { setname: nextcloud,                name: nextcloud-server }
 - { setname: nextcloud,                name: "php:nextcloud", addflavor: php }
 - { setname: nextcloud,                name: nextcloud-testing, weak_devel: true }
