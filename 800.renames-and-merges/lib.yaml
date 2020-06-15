@@ -45,6 +45,7 @@
 - { setname: libdvdplay,               name: libdvdplay0 }
 - { setname: libdvdread,               name: libdvdread3 }
 - { setname: libe-book,                namepat: "libe-book[0-9.-]+" }
+- { setname: libebml,                  name: ebml }
 - { setname: libechonest,              name: [libechonest-qt4,libechonest-qt5], addflavor: true }
 - { setname: libedit,                  name: libedit3 }
 - { setname: libejdb,                  name: ejdb }
@@ -141,6 +142,7 @@
 - { setname: libmatemixer,             name: libmatemixer-dev, weak_devel: true }
 - { setname: libmateweather,           name: libmateweather-dev, weak_devel: true }
 - { setname: libmateweather,           name: libmateweather-gtk2, addflavor: true }
+- { setname: libmatroska,              name: matroska }
 - { setname: libmediaart,              namepat: "(?:compat-)?libmediaart[0-9.-]+" }
 - { setname: libmikmod,                name: libmikmod2 }
 - { setname: libmm,                    namepat: "libmm[0-9.-]+" }
