@@ -23,6 +23,8 @@
 
 - { ruleset: carbs,           namepat: "(.*)-git", ver: "git", setname: $1, rolling: true }
 
+- { ruleset: crux,            namepat: "(.*)-32", setname: $1, addflavor: compat-32 } # XXX: ideally, this should check for "subrepo: compat-32", but there's no such check and I'm too lazy to implement it
+
 - { ruleset: chocolatey,      namepat: "(.*)\\.(install|portable|commandline)", setname: $1, addflavor: $2 }
 
 # cygwin cross-packages
