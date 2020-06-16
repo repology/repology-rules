@@ -302,6 +302,7 @@
 - { setname: libxslt,                  name: "python:libxslt", addflavor: python }
 - { setname: libxtract,                name: libxtract0 }
 - { setname: libyaml,                  name: yaml }
+- { setname: libyang,                  name: libyang-devel, weak_devel: true }
 - { setname: libyubikey,               name: yubikey }
 - { setname: libykneomgr,              name: ykneomgr }
 - { setname: libzapojit,               namepat: "libzapojit[0-9.-]*" }
