@@ -26,6 +26,10 @@
 
 - { name: addresses, ruleset: [freebsd,openbsd,pkgsrc], setname: gnustep-addresses } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
+- { name: adios, wwwpart: mightypork, setname: adios-session-exit }
+- { name: adios, wwwpart: center-projects, setname: adios-adaptable-io-system }
+- { name: adios, warning: "please classify me" }
+
 - { name: agave, wwwpart: colorscheme, setname: agave-colorscheme }
 - { name: agave, wwwpart: agave, setname: "fonts:agave" }
 - { name: agave, summpart: colorscheme, setname: agave-colorscheme }
