@@ -109,9 +109,7 @@
 - { name: xrdp,                                                      ruleset: sisyphus,    untrusted: true } # Accused of fake 0.9.12.1
 - { name: xroach,                      verge: "12",                  ruleset: [opensuse,rpmsphere], incorrect: true }
 - { name: xrootconsole,                verlonger: 2,                 ruleset: void,        debianism: true }
-- { name: xsel,                        ver: "1.2.0",                                       outdated: true } # 1.2.0 is 12 years old
-- { name: xsel,                        verpat: "1\\.2\\.0\\-.*",                           noscheme: true } # most projects pull from newer commits, there is no point in comparing that, or is there?
-#- { name: xsel,                        verpat: ".*[.+-_]{1}[0-9a-x]{4,}",                           noscheme: true } # most projects pull from newer commits, there is no point in comparing that, or is there?
+- { name: xsel,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: xsettings-kde,               ver: "0.12.3.2",              ruleset: openmandriva, incorrect: true }
 - { name: xsettings-kde,                                             ruleset: openmandriva, untrusted: true } # accused of fake 0.12.3.2
 - { name: xsettingsd,                  ver: "1.0.0.2",               ruleset: freebsd,     incorrect: true }
