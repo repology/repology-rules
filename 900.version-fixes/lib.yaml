@@ -166,6 +166,7 @@
 - { name: libpsl,                      verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: libqinfinity,                ver: "0.6.0",                 ruleset: mageia,      incorrect: true } # no such tag, only 0.6 branch
 - { name: libqinfinity,                verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: libqmi,                      verpat: ".*\\.9[0-9]{2}",                           devel: true }
 - { name: libqxt,                      ver: "0.7.0",                                       incorrect: true } # not released and will likely never be, as the project is discontinued
 - { name: libraw,                      ver: "201903",                                      incorrect: true } # vcpkg; wtf, it's not even a date
 - { name: libraw,                      verpat: "20[0-9]{6}",                               snapshot: true }
