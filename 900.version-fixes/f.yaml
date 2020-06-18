@@ -1,5 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: f.lux,                       verpat: "[4-9]{1}\\..*",                             incorrect: true } # latest is version 1.2.0.. where does 4.x come from?
+- { name: f.lux,                       ruleset: chocolatey,                                untrusted: true } # sorry chocolatey
 - { name: f3,                          verpat: ".*unstable",                               ignore: true } # nix garbage
 - { name: facetimehd,                                                                      noscheme: true }
 - { name: fahclient,                   verlonger: 3,                                       incorrect: true }
@@ -88,8 +90,6 @@
 - { name: fluid-soundfont,                                           ruleset: [slackbuilds,macports], untrusted: true }
 - { name: fluidsynth-dssi,             ver: "1.9.9",                 ruleset: opensuse,    incorrect: true }
 - { name: fluidsynth-dssi,                                           ruleset: opensuse,    untrusted: true } # accused of fake 1.9.9
-- { name: f.lux,                       verpat: "[4-9]{1}\\.*"                              incorrect: true } # latest is version 1.2.0.. where does 4.x come from?
-- { name: f.lux,                       ruleset: chocolatey,                                untrusted: true } # sorry chocolatey
 - { name: flvstreamer,                 ver: "2.1.c.1",                                     setver: "2.1c1" }
 - { name: flvstreamer,                 ver: "2.1c",                                        setver: "2.1c0" }
 - { name: flvstreamer,                 ver: "2.1",                   ruleset: pisi,        incorrect: true } # 2.1c1
