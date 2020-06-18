@@ -33,6 +33,7 @@
 - { name: "perl:date-simple",          verpat: "3\\.30\\..*",                              incorrect: true } # 3.03, not 3.30
 - { name: "perl:date-simple",          verpat: "3\\.03[._][0-9]+",                         outdated: true } # 3.03_0[123] < 3.03
 - { name: "perl:datetime",             verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
+- { name: "perl:datetime-format-builder", verpat: "0\\.[0-9]{4}",                          incorrect: true }
 - { name: "perl:datetime-format-iso8601", verpat: "0\\.[0-9]{4}.*",                        incorrect: true }
 - { name: "perl:datetime-format-iso8601", verge: "0.70",                                   incorrect: true }
 - { name: "perl:datetime-format-mail", verpat: "0\\.[0-9]{4}",                             incorrect: true }
