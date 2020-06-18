@@ -199,6 +199,8 @@
 - { name: prboom-plus,                                               ruleset: slackbuilds, untrusted: true } # accused of fkae 2.5.1.7um
 - { name: prelink,                     ver: "20151030",              ruleset: gentoo,      incorrect: true }
 - { name: prelink,                                                   ruleset: gentoo,      untrusted: true }
+- { name: primus,                      verpat: "20[0-9]{6}", incorrect: true } # several repos use a date, but this is a tagged release
+- { name: primus,                      ruleset: [ arch, aosc, centos, chakra, gentoo, kaos, manjaro, opensuse, pisi, sisyphus, void], untrusted: true }
 - { name: print-manager,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: printrun,                    verpat: "20[0-9.]{6}",                              snapshot: true }
 - { name: printrun,                    verpat: "201[45].*",                                outdated: true } # 1.6.0, 2.0.0rc from 2017, 2018
