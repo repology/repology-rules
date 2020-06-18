@@ -236,7 +236,8 @@
 - { name: stp,                         verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: stp,                         verpat: "[0-9]{4,}",                                incorrect: true }
 - { name: stp,                         verpat: "201[56].*",                                outdated: true }
-- { name: strace,                      verpat: ".*ab.*", devel: true } # the version is technically never defined and rather incorrect than devel
+- { name: strace,                      verpat: ".*ab.*",             ruleset: [fedora,sisyphus], devel: true } 
+- { name: strace,                      ruleset: [fedora,sisyphus],                         untrusted: true } 
 - { name: strongswan,                  verpat: ".*dr.*",                                   devel: true }
 - { name: stunnel,                     verpat: ".*b.*",                                    devel: true }
 - { name: subtitleripper,              ver: "0.5.2",                 ruleset: aur,         incorrect: true }
