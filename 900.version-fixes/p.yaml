@@ -14,6 +14,7 @@
 - { name: pangox-compat,               verlonger: 3,                 ruleset: rosa,        incorrect: true }
 - { name: paper-icon-theme,            verpat: "20[0-9]{2}.*",                             snapshot: true }
 - { name: paper-icon-theme,            verpat: "2017.*",                                   outdated: true } # 1.5.0 from 2018
+- { name: papirus-libreoffice-theme,   ver: "20170914",                                    devel: true } # that version was never tagged
 - { name: parley,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: parole,                      ver: ["1.90","1.91","1.96"],                        outdated: true } # probably mistyped tags from 2009
 - { name: parted,                      verlonger: 2,                                       devel: true } # assumed; inconsistent tagging, see https://git.savannah.gnu.org/gitweb/?p=parted.git
