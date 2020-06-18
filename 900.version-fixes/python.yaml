@@ -101,6 +101,7 @@
 - { name: "python:shiboken",           ver: "2.0.0",                 ruleset: kaos,        incorrect: true }
 - { name: "python:simpleparse",        ver: "3.0.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: "python:simpleparse",                                      ruleset: sisyphus,    untrusted: true } # accused of fake 3.0.0
+- { name: "python:sip",                verpat: "5\\..*",                                   incorrect: true }
 - { name: "python:slowaes",            ver: "0.1",                   ruleset: [gentoo,solus], incorrect: true }
 - { name: "python:slowaes",                                          ruleset: [gentoo,solus], untrusted: true } # accused of fake 0.1
 - { name: "python:sphinx-py3doc-enhanced-theme", ver: "2.4.0",       ruleset: pld,         incorrect: true }
