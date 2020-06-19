@@ -414,7 +414,9 @@
 - { setname: gucharmap,                namepat: "gucharmap[0-9.-]+" }
 - { setname: gucharmap,                name: "libgucharmap" }
 - { setname: guichan,                  name: [libguichan,compat-guichan05,guichan05] }
-- { setname: guile,                    namepat: "guile[0-9.-]+" }
+- { setname: guile,                    namepat: "(?:compat-)?guile[0-9.-]+" }
+- { setname: guile,                    name: guile-1.8-non-dfsg }
+- { setname: guile,                    name: [guile-static-stripped,guile-static-stripped-tarball,guile-readline], addflavor: true }
 - { setname: guitarix,                 name: [guitarix-lv2,guitarix-webui], addflavor: true }
 - { setname: guitarix,                 name: guitarix2 }
 - { setname: gummi,                    name: [gummi-gtk2,gummi-gtk3], addflavor: true }
