@@ -133,6 +133,8 @@
 - { setname: metasploit,               namepat: "metasploit[0-9.-]+" }
 - { setname: metasploit,               name: metasploit-framework }
 - { setname: meters.lv2,               name: meters-lv2 }
+- { setname: metis,                    name: [metis0, metis4] }
+- { setname: metis,                    name: [metis-i8r8], addflavor: true }
 - { setname: mgba,                     name: mgba-qt, addflavor: true }
 - { setname: mgltools,                 namepat: "mgltools-.*", ruleset: debuntu }
 - { setname: mhash,                    name: libmhash }
