@@ -236,8 +236,8 @@
 - { name: stp,                         verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: stp,                         verpat: "[0-9]{4,}",                                incorrect: true }
 - { name: stp,                         verpat: "201[56].*",                                outdated: true }
-- { name: strace,                      verpat: ".*ab.*",             ruleset: [fedora,sisyphus], devel: true } 
-- { name: strace,                      ruleset: [fedora,sisyphus],                         untrusted: true } 
+- { name: strace,                      verpat: ".*ab.*",             ruleset: [fedora,sisyphus], incorrect: true }
+- { name: strace,                                                    ruleset: [fedora,sisyphus], untrusted: true } # accused of fake 5.7.0.6.7ab6
 - { name: strongswan,                  verpat: ".*dr.*",                                   devel: true }
 - { name: stunnel,                     verpat: ".*b.*",                                    devel: true }
 - { name: subtitleripper,              ver: "0.5.2",                 ruleset: aur,         incorrect: true }
