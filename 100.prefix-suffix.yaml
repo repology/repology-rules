@@ -80,6 +80,8 @@
 
 - { ruleset: manjaro,         namepat: "(linux[0-9]+-(?:rt-)?)(.*)", setname: $2, addflavor: $1 }
 
+- { ruleset: opensuse,        namepat: "(.*?)_[0-9_]*-(gnu(?:-[a-z0-9]+)?-hpc)", setname: $1, addflavor: $2 }
+
 - { ruleset: msys2_mingw,     namepat: "mingw-w64-(i686|x86_64)-(.*)", setname: $2, addflavor: $1 }
 - { ruleset: msys2_mingw,     namepat: "mingw-w64-(.*)", setname: $1 }
 - { ruleset: msys2,           namepat: "(.*)-(git|svn|hg)", setname: $1, weak_devel: true }
