@@ -38,6 +38,8 @@
 - { name: xdg-utils,                   verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: xdot,                        ver: "20121124",                                    snapshot: true }
 - { name: xdotool,                     verpat: "20[0-9]{6}.*",                             incorrect: true } # it's 3.YYYYMMDD; XXX: problem
+- { name: xdotool,                     ver: "3.20200618.1",          ruleset: openmandriva, incorrect: true } # the tag they pull is from 2016..
+- { name: xdotool,                                                   ruleset: openmandriva, untrusted: true } # the tag they pull is from 2016..
 - { name: xdrawchem,                   ver: "2.0",                   ruleset: debuntu,     outdated: true } # from oldstable
 - { name: xdrawchem,                   verpat: ".*r[0-9]{3}",                              snapshot: true } # opensuse science, 2.0r209
 - { name: "xdrv:fbdev",                verpat: "[0-9]{3}.*",                               incorrect: true } # slackwarearm garbage

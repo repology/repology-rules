@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: f.lux,                       verpat: "20[0-9]{2}\\-[0-9]{2}\\-[0-9]{2}",         incorrect: true }
 - { name: f3,                          verpat: ".*unstable",                               ignore: true } # nix garbage
 - { name: facetimehd,                                                                      noscheme: true }
 - { name: fahclient,                   verlonger: 3,                                       incorrect: true }
