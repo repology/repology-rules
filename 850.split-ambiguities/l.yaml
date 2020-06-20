@@ -61,7 +61,7 @@
 
 - { name: libusb, wwwpart: libusb-win32, setname: libusb-win32 }
 
-- { name: libuuid, verpat: "2\\.[0-9]{4}(\\.[0-9]+)?", setname: util-linux, addflavor: libuuid } # part of
+- { name: libuuid, wwwpart: util-linux, setname: util-linux, addflavor: libuuid } # part of
 
 - { name: libwww, wwwpart: w3.org, setname: w3c-libwww }
 - { name: libwww, summpart: w3c, setname: w3c-libwww }
