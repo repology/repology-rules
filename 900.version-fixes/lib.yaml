@@ -8,6 +8,7 @@
 - { name: libappindicator,             ver: "16.10",                 ruleset: [crux,slackbuilds], incorrect: true }
 - { name: libappindicator,                                           ruleset: [crux,slackbuilds], untrusted: true } # accused of fake 16.10
 - { name: libappindicator,             verpat: ".*p.*",                                    snapshot: true }
+- { name: libapreq2,                   verpat: "[0-9]+\\.[0-9]{3}.*",                      incorrect: true }
 - { name: libarc,                      ver: "2.02",                  ruleset: t2,          incorrect: true } # 2.0.2
 - { name: libarc,                                                    ruleset: t2,          untrusted: true } # accused o fake 2.02
 - { name: libarcus,                    verpat: "15\\..*",                                  outdated: true }
