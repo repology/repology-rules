@@ -36,6 +36,8 @@
 - { name: telnet, wwwpart: msys, setname: telnet-msys }
 - { name: telnet, warning: "please classify me" }
 
+- { name: termcolor, wwwpart: [pypi,pythonhosted], setname: "python:termcolor" } # XXX: problem
+
 # infrastructure manager vs. heighfield generation
 - { name: terraform, setname: gnome-terraform, ruleset: yacp }
 
