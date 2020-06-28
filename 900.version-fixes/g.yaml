@@ -201,6 +201,8 @@
 - { name: gnuastro,                    verlonger: 2,                                       devel: true } # alphas
 - { name: gnubg,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: gnucash,                     verpat: ".*\\.9[0-9]{2}",                           devel: true } # assumed based on single version 3.902
+- { name: gnucobol,                    ver: "3.1",                   ruleset: [mageia,fedora], incorrect: true }
+- { name: gnucobol,                                                  ruleset: [mageia,fedora], untrusted: true } # accused of fake 3.1
 - { name: gnugo,                       verpat: "[0-9]+\\.[0-9]*[13579](\\..*)?",           devel: true } # assumed; see http://git.savannah.gnu.org/cgit/gnugo.git/
 - { name: gnulib,                                                                          noscheme: true }
 - { name: gnumeric,                                                  ruleset: solus,       untrusted: true } # accused of fake 1.12.45
