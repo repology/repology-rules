@@ -66,6 +66,8 @@
 - { name: alpine,                      verpat: ".*99",                                     devel: true }
 - { name: alpine,                      ver: "2.21.1",                ruleset: gentoo,      incorrect: true }
 - { name: alpine,                                                    ruleset: gentoo,      untrusted: true } # accused of fake 2.21.1
+- { name: alpine,                      ver: "2.23.1",                ruleset: void,        incorrect: true }
+- { name: alpine,                                                    ruleset: void,        untrusted: true } # accused of fake 2.23.1
 - { name: alsamixergui,                ver: "0.9.0.1.2",                                   incorrect: true } # gentoo, so fake. it's 0.9.0rc1-2
 - { name: alsaplayer,                  ver: "0.99.82",               ruleset: rosa,        incorrect: true }
 - { name: alsaplayer,                                                ruleset: rosa,        untrusted: true }
