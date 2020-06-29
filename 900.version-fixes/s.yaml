@@ -279,9 +279,9 @@
 - { name: swh-lv2,                                                   ruleset: freebsd,     untrusted: true }
 - { name: swh-plugins,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: swi-prolog,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed even/odd scheme; http://www.swi-prolog.org/Download.html
-- { name: swift,                       ver: "5.3",                   ruleset: aur,         incorrect: true }
-- { name: swift,                                                     ruleset: aur,         untrusted: true } # accused of fake 5.3
-- { name: swift,                       verlonger: 4,                 ruleset: aur,         setver: snapshot } # trim garbage long version "swift.DEVELOPMENT.SNAPSHOT.2020.06.04.a.r65.gcc84c7b740a"
+- { name: swift-lang,                  ver: "5.3",                   ruleset: aur,         incorrect: true }
+- { name: swift-lang,                                                ruleset: aur,         untrusted: true } # accused of fake 5.3
+- { name: swift-lang,                  verlonger: 4,                 ruleset: aur,         setver: snapshot } # trim garbage long version "swift.DEVELOPMENT.SNAPSHOT.2020.06.04.a.r65.gcc84c7b740a"
 - { name: swish-e,                     ver: "2.7.0",                 ruleset: pld,         incorrect: true }
 - { name: swish-e,                                                   ruleset: pld,         untrusted: true }
 - { name: symlinks,                    ver: "1.7",                   ruleset: fedora,      incorrect: true }
