@@ -240,6 +240,7 @@
 - { setname: puppetserver,             name: [puppetserver5, puppetserver6] }
 - { setname: pure-ftpd,                name: pureftpd }
 - { setname: pure-ftpd,                name: [pure-ftpd-db, pure-ftpd-pam], addflavor: true }
+- { setname: "purple:mattermost",      name: [libpurple-mattermost,purple-mattermost] }
 - { setname: "purple:pidgin-opensteamworks", name: [libpurple-steam,pidgin-opensteamworks,purple-libsteam] }
 - { setname: "purple:purple-facebook", name: [libpurple-facebook,purple-facebook,pidgin-facebook] }
 - { setname: "purple:purple-hangouts", name: libpurple-hangouts }
