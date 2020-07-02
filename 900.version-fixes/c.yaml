@@ -114,6 +114,8 @@
 - { name: cld2,                        ver: "20160820",                                    ignore: true } # aosc fake (there were no commits to cld2 since 2015)
 - { name: clementine-player,           verlonger: 3,                                       ignore: true }
 - { name: clementine-player,           verpat: "1\\.3\\.1\\.[0-9]{,5}",                    incorrect: true }
+- { name: clementine-player,           ver: "1.4.0",                 ruleset: [freebsd,rpm], incorrect: true }
+- { name: clementine-player,                                         ruleset: [freebsd,rpm], untrusted: true } # accused of fake 1.4.0
 - { name: clex,                        verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1.patch$2 }
 - { name: clfswm,                      verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: clipit,                      ver: "1.4.5",                 ruleset: nix,         incorrect: true }
