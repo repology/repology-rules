@@ -268,7 +268,7 @@
 - { setname: stxxl,                    name: libstxxl }
 - { setname: sublime-text,             name: [sublime-text-3-imfix,sublime-text-imfix], addflavor: imfix }
 - { setname: sublime-text,             name: [sublime-text-4-dev, sublime-text-dev, sublime-text-nightly], weak_devel: true }
-- { setname: sublime-text,             namepat: "sublime-?text[0-9.-]?" }
+- { setname: sublime-text,             namepat: "sublime-?text[0-9.-]*" }
 - { setname: sudo,                     name: [sudo-pam,sudo-masochist], addflavor: true }
 - { setname: sugar,                    namepat: "sugar[0-9.-]+" }
 - { setname: sugar-activity,           namepat: "sugar-activity[0-9.-]+" }
