@@ -53,6 +53,7 @@
 - { name: ngspice,                     ver: "31.3",                  ruleset: debuntu,     incorrect: true } # 31
 - { name: ngspice,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 31.3
 - { name: nim,                         verpat: ".*20[0-9]{6}.*",                           snapshot: true } # haiku garbage
+- { name: ninvaders,                   verge: "1.2",                                       successor: true }
 - { name: nitrogen,                    verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: nkf,                         verpat: "2\\.[0-9]{2}",                             incorrect: true } # it's X.Y.Z, not X.YZ
 - { name: nlbwmon,                                                                         noscheme: true } # https://github.com/jow-/nlbwmon/releases
