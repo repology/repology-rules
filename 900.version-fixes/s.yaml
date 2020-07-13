@@ -171,6 +171,7 @@
 - { name: sparse,                                                    ruleset: sisyphus,    untrusted: true }
 - { name: spatialite-gui,              ver: "2.0.0",                                       devel: true }
 - { name: spdlog,                      ver: "1.6",                                         outdated: true }
+- { name: spdlog,                                                    ruleset: pld,         untrusted: true } # fork, not www to split
 - { name: spe,                         ver: "0.8.4h",                                      incorrect: true } # openbsd; it's 0.8.4.h
 - { name: spectacle-kde,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: speex,                       verlonger: 3,                 ruleset: openindiana, ignore: true }
