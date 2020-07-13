@@ -4,6 +4,7 @@
 - { setname: nvidia,                   name: kernel-modules-nvidia-std-def, addflavor: std-def }
 - { setname: nvidia,                   name: kernel-modules-nvidia-un-def, addflavor: un-def }
 - { setname: nvidia,                   namepat: "khd-nvidia[x0-9.-]*", addflavor: khd }
+- { setname: nvidia,                   namepat: "linux-nvidia-libs[0-9.-]*" }
 - { setname: nvidia,                   namepat: "module-nvidia[0-9.-]*" }
 - { setname: nvidia,                   name: module-nvidia-current }
 - { setname: nvidia,                   namepat: "nvidia\\+[0-9]*" }
@@ -20,6 +21,7 @@
 - { setname: nvidia,                   name: nvidia-fbcondecor, addflavor: true }
 - { setname: nvidia,                   name: nvidia-full-beta, weak_devel: true }
 - { setname: nvidia,                   name: nvidia-full-beta-all, weak_devel: true, addflavor: all }
+- { setname: nvidia,                   name: nvidia-full-vulkan-all, addflavor: true }
 - { setname: nvidia,                   name: nvidia-glx-common, addflavor: glx }
 - { setname: nvidia,                   name: nvidia-glx-driver, addflavor: glx }
 - { setname: nvidia,                   namepat: "nvidia-glx-src[x0-9.-]*", addflavor: glx-src }
