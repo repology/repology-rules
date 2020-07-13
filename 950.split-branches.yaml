@@ -212,17 +212,9 @@
 - { name: ns,                releq: "3",                  setname: ns3 }
 - { name: ns,                warning: "please classify me" }
 
-# note that versions in conditions are +1 to real versions
-- { name: nvidia, verlt: "71.87", setname: nvidia-lagacy-71.86 }
-- { name: nvidia, verlt: "96.44", setname: nvidia-legacy-96.43 }
-- { name: nvidia, verlt: "173.15", setname: nvidia-legacy-173.14 }
-- { name: nvidia, verlt: "305", setname: nvidia-legacy-304 }
-- { name: nvidia, verlt: "341", setname: nvidia-legacy-340 }
-- { name: nvidia, verlt: "391", setname: nvidia-legacy-390 }
-- { name: nvidia, verlt: "416", setname: nvidia-short-lived, maintenance: true }
-- { name: nvidia, verlt: "419", setname: nvidia-long-lived, maintenance: true }
-- { name: nvidia, setname: nvidia-current, maintenance: true }
 # (see http://www.nvidia.com/object/unix.html)
+- { name: nvidia,            verge: "300",                setbranchcomps: 1 } # e.g. 450.x
+- { name: nvidia,            verlt: "300",                setbranchcomps: 2 } # e.g. 71.86.x
 
 - { name: openjpeg,                                       setbranchcomps: 1 }
 
