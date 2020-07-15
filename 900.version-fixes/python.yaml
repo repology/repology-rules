@@ -4,7 +4,6 @@
 - { name: "python:apsw",               verpat: "(.*[0-9])[-._]?[pr]1",                     setver: $1 } # upstream use -r1 suffix
 - { name: "python:azure-storage",      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "python:backports",          ver: "4.0.0",                                       incorrect: true } # opensuse fake
-- { name: "python:black",              verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:bottle",             verpat: "0\\.13.*",                                 devel: true }
 - { name: "python:cffi",               ver: "2.8",                   ruleset: pisi,        incorrect: true }
 - { name: "python:cffi",                                             ruleset: pisi,        untrusted: true } # accused of fake 2.8
