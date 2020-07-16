@@ -43,6 +43,7 @@
 - { setname: imagemagick,              name: [libmagick,libmagick6,imagemagick-compat], addflavor: lib }
 - { setname: imagemagick,              name: [libmagick-fftw,libmagick-full], addflavor: true }
 - { setname: imagemagick,              name: imagemagick-git-doc, addflavor: doc, ignore: true }
+- { setname: img2pdf,                  name: "python:img2pdf" }
 - { setname: imhangul,                 name: imhangul-gtk2, addflavor: gtk2 }
 - { setname: imhangul,                 name: imhangul-gtk3, addflavor: gtk3 }
 - { setname: imhangul,                 name: imhangul3 }
