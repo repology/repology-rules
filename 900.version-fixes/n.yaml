@@ -13,6 +13,7 @@
 - { name: ndpi,                        verpat: ".*20[0-9]{2}.*",                           snapshot: true }
 - { name: ndpi,                        verpat: "2\\.2\\.2\\..*",                           incorrect: true }
 - { name: ndppd,                       verlonger: 3,                 ruleset: opensuse,    incorrect: true } # fake 0.2.5.43
+- { name: neatvnc,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: neofetch,                    verpat: "20[0-9]{6}",                               snapshot: true } # aosc
 - { name: neovim-qt,                   ver: "0.2.9",                 ruleset: aur,         incorrect: true }
 - { name: neovim-qt,                                                 ruleset: aur,         untrusted: true }
