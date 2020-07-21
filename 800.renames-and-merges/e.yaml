@@ -136,6 +136,8 @@
 - { setname: exiftool,                 name: [image-exiftool, "perl:image-exiftool"] }
 - { setname: exiftool,                 name: "perl:image-exiftool-devel", weak_devel: true }
 - { setname: exim,                     name: exim4 }
+- { setname: exim,                     name: [exim-doc, exim-doc-html, exim-doc-pdf, exim-doc-postscript, eximdoc4, exim-html], addflavor: true }
+- { setname: exim,                     name: [exim-gnutls, exim-heavy, exim-monitor, exim-mysql, exim-postgresql], addflavor: true }
 - { setname: exo,                      name: [libexo, xfce4-exo] }
 - { setname: exo,                      name: exo-devel, weak_devel: true }
 - { setname: exo,                      name: exo-gtk3, addflavor: true }
