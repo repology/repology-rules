@@ -128,6 +128,7 @@
 - { setname: apache,                   name: [apache-httpd,httpd,apache-http-server] }
 - { setname: apache,                   name: [apache-tools, apache-doc, apache-html-manual, htdigest], addflavor: true }
 - { setname: apache,                   namepat: "apache[0-9.]+" }
+- { setname: apache-airflow,           name: ["python:apache-airflow"] }
 - { setname: apache-arrow,             name: ["python:pyarrow",arrow-cpp] }
 - { setname: apache-arrow,             name: apache-arrow-glib, addflavor: glib }
 - { setname: apache-commons-lang,      name: [apache-commons-lang-eap6,apache-commons-lang3,commons-lang,jakarta-commons-lang,jakarta-commons-lang3,java-commons-lang,java-commons-lang3,libcommons-lang-java,libcommons-lang3-java] }
