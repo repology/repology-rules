@@ -159,7 +159,7 @@
 - { setname: portmidi,                 name: "python:pyportmidi", addflavor: python }
 - { setname: postfix,                  name: [postfix-current,postfix-current-sasl,postfix211,postfix211-sasl] }
 - { setname: postfwd,                  name: postfix-postfwd, ruleset: freebsd }
-- { setname: postgis,                  name: [postgis-src,postgis-sfcgal,liblwgeom] }
+- { setname: postgis,                  name: [postgis-src,postgis-sfcgal,liblwgeom], addflavor: true }
 - { setname: postgis,                  namepat: "postgis[0-9.-]+" }
 - { setname: postgis,                  namepat: "postgresql[0-9.-]*-postgis" }
 - { setname: postgresql,               namepat: "postgresql[0-9.-]*" }
