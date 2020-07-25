@@ -204,6 +204,7 @@
 - { name: splix,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: splix,                       ver: ["2.0.1", "2.0.0.315"],  ruleset: [fedora,opensuse,pclinuxos,pisi,sisyphus,centos], incorrect: true }
 - { name: splix,                                                     ruleset: [fedora,opensuse,pclinuxos,pisi,sisyphus,centos], untrusted: true } # accused of fake 2.0.1, 2.0.0.315 versions
+- { name: spotify,                     verpat: ".*g.*",                                    incorrect: true } # git commits
 - { name: springgraph,                 verpat: "[0-9]+",                                   incorrect: true } # 0.88, not 88
 - { name: sprunge,                                                                         noscheme: true }
 - { name: spyder,                      verpat: ".*b.*",                                    devel: true }
