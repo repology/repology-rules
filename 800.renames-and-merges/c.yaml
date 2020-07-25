@@ -203,6 +203,8 @@
 - { setname: contao,                   namepat: "php[0-9]*:contao[0-9.-]*" }
 - { setname: cookiecutter,             name: "python:cookiecutter" }
 - { setname: coolreader3,              name: coolreader }
+- { setname: coreutils,                name: coreutils-gnu }
+- { setname: coreutils,                name: [coreutils-minimal, coreutils-multicall, coreutils-selinux, coreutils-single, coreutils-testsuite], addflavor: true }
 - { setname: corsixth,                 name: corsix-th }
 - { setname: couchbase-server-community, name: couchbase4-server-community }
 - { setname: couchdb,                  name: [couchdb2, couchdb3, apache-couchdb] }
