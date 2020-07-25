@@ -65,6 +65,7 @@ families = [
     'homebrew',
     'homebrew_casks',
     'hpux',
+    'ibmi',
     'justinstall',
     'kaos',
     'kiss',
