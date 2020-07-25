@@ -36,7 +36,7 @@
 - { setname: password-store,           name: [passwordstore] }
 - { setname: password-store,           name: [emacs-password-store,"emacs:password-store"], addflavor: emacs }
 - { setname: pasystray,                name: [pasystray-gtk2,pasystray-gtk2-standalone,pasystray-gtk3-standalone] }
-- { setname: patch,                    name: gpatch }
+- { setname: patch,                    name: [gpatch, patch-gnu] }
 - { setname: payara,                   namepat: "payara[0-9]+" }
 - { setname: payara,                   name: payara5-micro, addflavor: micro }
 - { setname: pcg-c,                    name: [pcg,libpcg] }

@@ -181,6 +181,7 @@
 - { setname: gmm++,                    name: gmm }
 - { setname: gmmlib,                   name: intel-gmmlib }
 - { setname: gmock,                    name: [google-mock,googlemock,libgmock] }
+- { setname: gmp,                      name: gmp-aix, addflavor: true }
 - { setname: gmrun,                    name: [gmrun-multihead,gmrun-xdg] }
 - { setname: gmsynth.lv2,              name: gmsynth-lv2 }
 - { setname: gmt,                      namepat: "gmt[0-9.-]+" }
@@ -344,7 +345,7 @@
 - { setname: greed,                    name: greed-game }
 - { setname: greenbone-security-assistant, name: greenbone-security-assistant-alternative, addflavor: alternative }
 - { setname: greenbone-security-assistant, namepat: "greenbone-security-assistant[0-9.-]+" }
-- { setname: grep,                     name: [gnugrep, ggrep] }
+- { setname: grep,                     name: [gnugrep, ggrep, grep-gnu] }
 - { setname: grep,                     name: [ja-grep,gnuwin32-grep], addflavor: true }
 - { setname: gridcoin-research,        name: gridcoinresearch }
 - { setname: gridcoin-research,        name: gridcoinresearch-qt, addflavor: qt }
