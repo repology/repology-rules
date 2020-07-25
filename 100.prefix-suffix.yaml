@@ -70,6 +70,9 @@
 
 - { ruleset: parabola,        namepat: "(.*)-static-debug", setname: $1, addflavor: static-debug }
 
+- { ruleset: rebornos,        namepat: "(.*)-bin", setname: $1, addflavor: bin }
+- { ruleset: rebornos,        namepat: "(.*)-git", setname: $1, ignore: true }
+
 - { ruleset: scoop,           namepat: "(.*)-(portable)", setname: $1, addflavor: $2 }
 
 - { ruleset: slackware,       namepat: "(.*)-(solibs)", setname: $1, addflavor: $2 }

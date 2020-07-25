@@ -145,6 +145,7 @@ rulesets = families + [
     'pardus',
     'parrot',
     'pureos',
+    'rebornos',
     'rpm',
     'rpmsphere',
     'siduction',
