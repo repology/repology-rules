@@ -44,6 +44,7 @@
 - { name: scribus,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: scrot,                                                     ruleset: solus,       untrusted: true } # accused of fake 0.18.17
 - { name: sddm,                        verpat: "[0-9]{4,}.*",        ruleset: kaos,        ignore: true } # snapshot with random version
+- { name: sdl,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: sdl-sound,                   ver: "1.0.4",                 ruleset: rpm,         incorrect: true }
 - { name: sdl-sound,                                                 ruleset: rpm,         untrusted: true } # accused of fake 1.0.4
 - { name: sdl2,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]*[13579]",          devel: true } # https://discourse.libsdl.org/t/sdl-versioning-update-even-numbered-releases/26632
