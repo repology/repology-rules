@@ -49,6 +49,8 @@
 - { setname: scream-virtual-sound-card, name: [scream-alsa,scream-alsa-ivshmem,scream-pulseaudio,scream-pulseaudio-ivshmem,scream-receivers], addflavor: true }
 - { setname: screen,                   name: screen-pam, addflavor: true }
 - { setname: screenfetch,              name: screenfetch-dev, weak_devel: true }
+- { setname: scribus,                  name: [scribus-devel, scribus-ng], weak_devel: true }
+- { setname: scribus,                  name: scribus-stable }
 - { setname: scrot,                    name: scrot-no-beep, addflavor: no-beep }
 - { setname: sddm,                     name: [sddm-classic,sddm-elogind], addflavor: true }
 - { setname: sdl,                      name: [libsdl,sdl1,sdl12,libsdl1.2] }
