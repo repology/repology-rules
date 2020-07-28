@@ -246,7 +246,7 @@
 - { name: strace,                                                    ruleset: [fedora,sisyphus], untrusted: true } # accused of fake 5.7.0.6.7ab6
 - { name: strongswan,                  verpat: ".*dr.*",                                   devel: true }
 - { name: stunnel,                     verpat: ".*b.*",                                    devel: true }
-- { name: sublime-text,                verpat: "[0-9]{4}",                                 altver: true } # builds
+- { name: sublime-text,                verpat: "[0-9]{4}",                                 altscheme: true } # builds
 - { name: sublime-text,                verpat: "[0-9]\\..*[0-9]{2,}",                      incorrect: true } # from upstream website: "3.2.2 (Build 3211)" so either is valid, but not 3.211, not 3.2.11, not 3.2.2-3211 and other crap
 - { name: sublime-text,                verpat: "4\\..*",                                   devel: true }
 - { name: subtitleripper,              ver: "0.5.2",                 ruleset: aur,         incorrect: true }

@@ -398,20 +398,33 @@ Set to `false` to undo.
 
 #### altver
 
-Sometimes, projects may use two parallel versioning schemes. For example, a
-version may include build number, which may be ommitted in some repositories
-(and even upstream tags, or source releases):
+A project may use two parallel versioning schemes one of which contains
+additional version components, such as build number:
 
 `0.17`, `0.17.13509`, `0.17.13541`, `0.18`, `0.18.16131`
 
-Both schemes are valid and we neither want to ignore either of them, nor we
-want versions with build numbers outdate shorter versions. In this case, the
-schema which compares as greater may be marked with **altver**. Effectively,
-this disallows versions marked with **altver** outdate other versions, so
-in the example above both `0.18` and `0.18.16131` would be classified as newest.
+Normally, `0.18.16131` would outdate `0.18`, but if these refer to the same
+version, this is not desired behavior. In such case, version scheme containing
+extra components (e.g. one which compares greater) may be marked as **altver**,
+which would allow both `0.18` and `0.18.16131` to be considered latest, and both
+outdated by either `0.19` or `0.19.x`
 
 ```yaml
 - { name: freecad, verlonger: 3, altver: true }
+```
+
+#### altscheme
+
+Similar to **altver**, but for the case where versioning schemes do not have common
+prefix and are totally incomatible:
+
+`3.2.1`, `3207`, `3.2.2`, `3211`
+
+Marking either of the schemes with this flag results in completely independent processing,
+which would allow both `3.2.2` and `3211` to be treated as newest.
+
+```yaml
+- { name: sublime-text, verpat: "[0-9]+", altscheme: true }
 ```
 
 #### ignore, incorrect, untrusted, noscheme, snapshot, successor, debianism, rolling
