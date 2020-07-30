@@ -47,6 +47,8 @@
 - { name: ell,                         ver: "0~1304",                                      outdated: true } # judging by number of commits in the repo, it's before 0.1
 - { name: elm-format,                  verpat: "(.*?)[_-]?(?:alpha|exp)",                  setver: $1, devel: true }
 - { name: elmerfem,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: elogind,                     ver: "243.8",                 ruleset: debuntu,     incorrect: true }
+- { name: elogind,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 243.8
 - { name: elvis,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: elvis,                       ver: "2.2f",                                        incorrect: true } # source file gone, cannot check
 - { name: elvis-tiny,                  verpat: ".*-.*",                                    debianism: true } # t2
