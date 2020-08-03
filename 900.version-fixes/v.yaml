@@ -71,6 +71,7 @@
 - { name: vpnc,                        ver: "0.5.3.1",               ruleset: chakra,      incorrect: true } # fake
 - { name: vpnc,                                                      ruleset: chakra,      untrusted: true } # accused of fake 0.5.3.1
 - { name: vpnc,                        verpat: "0.5.3.*p.*",                               snapshot: true }
+- { name: vscode,                      verpat: "([0-9]+\\.){3}[0-9a-f]{6}.*",              incorrect: true } # winget garbage
 - { name: vte,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: vte,                         ver: "0.28.22",               ruleset: solus,       incorrect: true }
 - { name: vte,                                                       ruleset: solus,       untrusted: true } # accused of fake 0.28.22
