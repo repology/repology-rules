@@ -190,6 +190,7 @@
 - { name: libsndfile,                                                ruleset: vcpkg,       untrusted: true } # accused of fake 1.0.29
 - { name: libsndfile,                  ver: "2018b4",                ruleset: openwrt,     incorrect: true }
 - { name: libsndfile,                                                ruleset: openwrt,     untrusted: true } # accused of fake 2018b4
+- { name: libsndfile,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: libsoil,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: libsoup,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libspatialite,               verpat: ".*\\.99\\..*",                             incorrect: true } # macports garbage
