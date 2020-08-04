@@ -309,7 +309,7 @@
 - { name: gtksourceview,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gtksourceviewmm,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gtranslator,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: gts,                         verpat: ".*[0-9]{6}.*",                             snapshot: true } # 20121130, 121130, 0.7.6-20121130, and 0.7.6.121130
+- { name: gts-triangulated-surface,    verpat: ".*[0-9]{6}.*",                             snapshot: true } # 20121130, 121130, 0.7.6-20121130, and 0.7.6.121130
 - { name: guile,                       verpat: ".*-.*",              ruleset: guix,        incorrect: true } # accused of fake 2.2.6-1
 - { name: guile,                                                     ruleset: guix,        untrusted: true }
 - { name: gumbo-parser,                ver: "1.0",                   ruleset: yacp,        incorrect: true }
