@@ -88,6 +88,8 @@
 - { name: "php:apcu-bc",               verge: "7.2.21",              ruleset: sisyphus,    incorrect: true }
 - { name: "php:cache",                 ver: "1.5.7",                 ruleset: pld,         incorrect: true }
 - { name: "php:cache",                                               ruleset: pld,         untrusted: true } # accused of fake 1.5.7
+- { name: "php:crack",                 ver: "0.5.0",                 ruleset: pld,         incorrect: true }
+- { name: "php:crack",                                               ruleset: pld,         untrusted: true } # accused of fake 0.5.0
 - { name: "php:crypt-blowfish",        ver: "1.1.0",                 ruleset: pld,         incorrect: true } # 1.1.0rc2
 - { name: "php:crypt-blowfish",                                      ruleset: pld,         untrusted: true } # accused of fake 1.1.0
 - { name: "php:date",                  ver: "1.5.0",                 ruleset: rpm,         incorrect: true }
