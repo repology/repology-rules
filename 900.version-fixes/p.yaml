@@ -90,6 +90,8 @@
 - { name: "php:cache",                                               ruleset: pld,         untrusted: true } # accused of fake 1.5.7
 - { name: "php:crypt-blowfish",        ver: "1.1.0",                 ruleset: pld,         incorrect: true } # 1.1.0rc2
 - { name: "php:crypt-blowfish",                                      ruleset: pld,         untrusted: true } # accused of fake 1.1.0
+- { name: "php:date",                  ver: "1.5.0",                 ruleset: rpm,         incorrect: true }
+- { name: "php:date",                                                ruleset: rpm,         untrusted: true } # accused of fake 1.5.0
 - { name: "php:dba-relational",        ver: "0.19",                                        outdated: true }
 - { name: "php:http-upload",           ver: "1.0.0",                 ruleset: pld,         incorrect: true } # 1.1.0b4
 - { name: "php:http-upload",                                         ruleset: pld,         untrusted: true } # accused of fake 1.0.0
