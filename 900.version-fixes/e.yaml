@@ -3,6 +3,8 @@
 - { name: e-uae,                                                     ruleset: os4depot,    incorrect: true }
 - { name: e2fsprogs,                   ver: "1.46",                  ruleset: debuntu,     incorrect: true }
 - { name: e2fsprogs,                                                 ruleset: debuntu,     untrusted: true } # accused of fake 1.46
+- { name: e3,                          ver: "2.83",                  ruleset: t2,          incorrect: true }
+- { name: e3,                                                        ruleset: t2,          untrusted: true } # accused of fake 2.83
 - { name: easy-rsa,                    ver: "3.0.5",                 ruleset: ravenports,  incorrect: true }
 - { name: easy-rsa,                                                  ruleset: ravenports,  untrusted: true }
 - { name: easygit,                     verpat: "20[0-9]{6}",                               ignore: true } # pld snapshot
