@@ -78,8 +78,8 @@
 - { name: pgdbf,                       verpat: "[0-9]{3}\\..*",                            incorrect: true }
 - { name: photivo,                                                                         noscheme: true }
 - { name: phototonic,                  ver: "2.1.10",                                      incorrect: true }
-- { name: phototonic,                  verpat: "2\\.1\\.[0-9]+",     ruleset: [sisyphus,mageia,pclinuxos], incorrect: true }
-- { name: phototonic,                                                ruleset: [sisyphus,mageia,pclinuxos], untrusted: true }
+- { name: phototonic,                  verpat: "2\\.1\\.[0-9]+",     ruleset: [sisyphus,mageia,pclinuxos,fedora], incorrect: true }
+- { name: phototonic,                                                ruleset: [sisyphus,mageia,pclinuxos,fedora], untrusted: true }
 - { name: php,                         verpat: ".*r.*",                                    devel: true }
 - { name: php,                         ver: "7.4.0",                 ruleset: pld,         incorrect: true } # fake
 - { name: php,                                                       ruleset: pld,         untrusted: true } # accused of fake 7.4.0
