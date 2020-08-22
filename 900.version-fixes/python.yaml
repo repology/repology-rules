@@ -5,6 +5,7 @@
 - { name: "python:azure-storage",      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "python:backports",          ver: "4.0.0",                                       incorrect: true } # opensuse fake
 - { name: "python:bottle",             verpat: "0\\.13.*",                                 devel: true }
+- { name: "python:certifi",            verpat: "[0-9]{5,}",                                incorrect: true } # gentoo garbage
 - { name: "python:cffi",               ver: "2.8",                   ruleset: pisi,        incorrect: true }
 - { name: "python:cffi",                                             ruleset: pisi,        untrusted: true } # accused of fake 2.8
 - { name: "python:click",              ver: "8.0.1",                 ruleset: haikuports,  incorrect: true } # different unofficial pypi package (click8)
