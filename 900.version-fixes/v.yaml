@@ -64,6 +64,8 @@
 - { name: vobcopy,                     verpat: ".*-.*",                                    incorrect: true } # Debianism from crux
 - { name: vokoscreen,                  verpat: "(.+?)[._-]?beta",                          setver: $1 }
 - { name: vokoscreen,                  verge: "2.5.2",                                     devel: true, maintenance: true } # https://github.com/vkohaupt/vokoscreen/releases
+- { name: volatility3,                 ver: "1.0.0",                 ruleset: opensuse,    incorrect: true }
+- { name: volatility3,                                               ruleset: opensuse,    untrusted: true } # accused of fake 1.0.0
 - { name: vorbis-tools,                verlonger: 3,                 ruleset: kaos,        incorrect: true } # fake
 - { name: vpcs,                        verpat: ".*20[0-9]{6}",                             snapshot: true } # macports
 - { name: vpnc,                        ver: "0.5.3.5",               ruleset: kaos,        incorrect: true } # fake
