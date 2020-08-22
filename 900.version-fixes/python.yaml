@@ -116,6 +116,7 @@
 - { name: "python:testoob",            ver: "1.16",                  ruleset: sisyphus,    incorrect: true }
 - { name: "python:testoob",                                          ruleset: sisyphus,    untrusted: true } # accused of fake 1.16
 - { name: "python:tornado",            verpat: ".*[ab].*",                                 devel: true }
+- { name: "python:torrequest",         verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "python:translationstring",  ver: "1.4",                   ruleset: sisyphus,    incorrect: true }
 - { name: "python:translationstring",                                ruleset: sisyphus,    untrusted: true } # accused of fake 1.4
 - { name: "python:turbokid",           ver: "1.0.6",                 ruleset: sisyphus,    incorrect: true }
