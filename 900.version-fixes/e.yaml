@@ -33,6 +33,8 @@
 - { name: einstein,                    vergt: "2.0",                                       successor: true } # https://github.com/lksj/einstein-puzzle
 - { name: eiskaltdcpp,                 verpat: ".*g.*",                                    ignore: true }
 - { name: eiskaltdcpp,                 ver: "2.2.11",                ruleset: fedora,      ignore: true } # fake
+- { name: ekg2,                        ver: "1.0",                   ruleset: rosa,        incorrect: true }
+- { name: ekg2,                                                      ruleset: rosa,        untrusted: true } # accused of fake 1.0
 - { name: ekiga,                       ver: "4.1.0",                 ruleset: opensuse,    incorrect: true }
 - { name: ekiga,                                                     ruleset: opensuse,    incorrect: true } # accused of fake 4.1.0
 - { name: electricsheep,                                                                   noscheme: true } # https://github.com/scottdraves/electricsheep/releases
