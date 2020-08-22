@@ -81,6 +81,7 @@
 - { name: openntpd,                                                                        p_is_patch: true }
 - { name: openomf,                     ver: "0.6.5.2",               ruleset: openbsd,     incorrect: true } # latest is 0.6.5
 - { name: openomf,                                                   ruleset: openbsd,     untrusted: true } # accused of fake 0.6.5.2
+- { name: openpam,                                                   ruleset: openbsd,     incorrect: true } # not openpam at all
 - { name: openrazer,                   verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: openscad,                    verlonger: 2,                 ruleset: freebsd,     incorrect: true }
 - { name: openscenegraph,              verpat: "3\\.[0-9]*[13579]\\..*",                   devel: true }
