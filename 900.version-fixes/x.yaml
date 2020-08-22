@@ -53,6 +53,8 @@
 - { name: "xdrv:openchrome",           verpat: "20[0-9]{6}.*",                             snapshot: true } # slackware
 - { name: "xdrv:savage",               verpat: "20[0-9]{6}.*",                             snapshot: true } # slackware
 - { name: "xdrv:sis",                  verpat: "20[0-9]{6}.*",                             snapshot: true } # slackware
+- { name: "xdrv:vboxvideo",            ver: "1.0.1",                 ruleset: openindiana, incorrect: true }
+- { name: "xdrv:vboxvideo",                                          ruleset: openindiana, untrusted: true } # accused of fake 1.0.1
 - { name: "xdrv:xgixp",                verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: xdu,                         verge: "3.1",                                       successor: true } # ?
 - { name: xemeraldia,                  ver: "0.31",                                        incorrect: true }
