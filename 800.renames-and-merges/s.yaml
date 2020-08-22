@@ -242,6 +242,7 @@
 - { setname: sratom,                   name: libsratom }
 - { setname: ssmtp,                    name: ssmtp-plain, addflavor: plain }
 - { setname: sssd,                     name: sssd-nosmb, addflavor: true }
+- { setname: ssvnc,                    name: [ssvnc-nojava,ssvnc-viewer], addflavor: true }
 - { setname: st-term,                  name: stterm }
 - { setname: st-term,                  name: [st-n1,st-patched,st-scrollback,st-solarized,st-solarized-powerline,st-tomorrownight,st-white], addflavor: true }
 - { setname: stack,                    name: stack-static, addflavor: true }

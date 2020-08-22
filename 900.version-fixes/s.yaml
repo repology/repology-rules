@@ -237,6 +237,7 @@
 - { name: sshttp,                                                                          any_is_patch: true } # scheme is like 0-33s → 0-35s → 0-35s2
 - { name: sslwrap,                     verpat: "[0-9]{3}",                                 incorrect: true } # 2.0.6, not 206
 - { name: ssmtp,                       vergt: "2.64",                                      successor: true } # https://github.com/solbu/ssmtp
+- { name: ssvnc,                       ver: "1.0.30",                                      devel: true, maintenance: true } # http://www.karlrunge.com/x11vnc/ssvnc.html#download
 - { name: steamcmd,                                                                        noscheme: true }
 - { name: step-physical-simulator,     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: stepmania,                   verpat: ".*b.*",                                    devel: true }
