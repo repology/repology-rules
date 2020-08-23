@@ -22,3 +22,4 @@
 - { name: "php:tcpdf",                 ver: "2009-03-31",                                  ignore: true } # XXX: remove after repology/repology#891
 - { name: "php:uri-template",          ver: "1.0",                   ruleset: pld,         incorrect: true }
 - { name: "php:uri-template",                                        ruleset: pld,         untrusted: true } # accused of fake 1.0
+- { name: "php:yaml",                  verpat: ".*b.*",                                    devel: true }
