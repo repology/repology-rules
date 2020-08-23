@@ -46,6 +46,8 @@
 - { setname: gdl,                      namepat: "(?:lib)?gdl[0-9.-]*" }
 - { setname: gdlmm,                    namepat: "(?:lib)?gdlmm[0-9.-]*" }
 - { setname: gdm,                      name: [gdm-plymouth,gdm-prime], addflavor: true }
+- { setname: gdm,                      namepat: "gdm[0-9.-]+" }
+- { setname: gdm,                      name: gdm-old }
 - { setname: gdnsd,                    name: [gdnsd2,gdnsd3] }
 - { setname: geany-plugins,            namepat: "geany-plugin-.*", ruleset: freebsd }
 - { setname: gearhead2,                name: gearhead-2 }
