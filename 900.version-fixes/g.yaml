@@ -244,7 +244,8 @@
 - { name: gpaste,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gperftools,                  verpat: ".*\\.9[0-9]+",                             devel: true }
 - { name: gpm,                         verpat: "[0-9]+\\.99\\..*",                         devel: true } # assumed
-- { name: gprbuild,                    verpat: "[0-9]{5,}.*",                              ignore: true }
+- { name: gprbuild,                    verpat: "[0-9]{5,}.*",                              incorrect: true }
+- { name: gprbuild,                    verlonger: 1,                                       incorrect: true }
 - { name: gprolog,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 1.4.5
 - { name: gpsbabel,                    ver: "1.6.0.1",                                     setver: "1.6.0", disposable: true } # tags point to same commit
 - { name: gpsim,                       verpat: "20[0-9]{6}",                               snapshot: true }
