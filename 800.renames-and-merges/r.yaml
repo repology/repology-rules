@@ -66,6 +66,8 @@
 - { setname: ripgrep,                  name: ripgrep-simd, addflavor: true }
 - { setname: rl,                       name: randomize-lines } # it's too short to be unambigous, but there are no clashet (yet) and it's more canonical
 - { setname: rlog,                     name: librlog }
+- { setname: rna-star,                 name: [star-aligner,star-seq-alignment,starlong] }
+- { setname: rna-star,                 name: star-cshl, addflavor: cshl } # aur
 - { setname: rofi,                     name: "rofi-unwrapped" }
 - { setname: roguebox-adventures,      name: rogueboxadventures }
 - { setname: ronn,                     name: "ruby:ronn" }
