@@ -9,14 +9,14 @@
 - { name: calc, wwwpart: alfredxing, setname: calc-alfredxing }
 - { name: calc, ruleset: hpux, setname: calc-richard-lloyd }
 - { name: calc, ruleset: [openbsd,pld,solus], setname: calc-arbitrary-precision-calculator }
-- { name: calc, warning: "please classify me" }
+- { name: calc, addflag: unclassified }
 
 - { name: calendar, wwwpart: openbsd, setname: calendar-openbsd }
 - { name: calendar, wwwpart: ocaml, setname: "ocaml:calendar" }
 - { name: calendar, wwwpart: bsdcalendar, setname: bsdcalendar }
 - { name: calendar, wwwpart: haiku, setname: haiku-calendar }
 - { name: calendar, ruleset: exherbo, setname: bsdcalendar }
-- { name: calendar, warning: "please classify me" }
+- { name: calendar, addflag: unclassified }
 
 - { name: camera, ruleset: [freebsd,openbsd], setname: gnustep-camera } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
@@ -24,11 +24,11 @@
 
 - { name: caret, wwwpart: [careteditor,caret.io], setname: caret-editor }
 - { name: caret, wwwpart: brainvis, setname: caret-neuro }
-- { name: caret, warning: "please classify me" }
+- { name: caret, addflag: unclassified }
 
 - { name: castor, wwwpart: julienxx, setname: castor-browser }
 - { name: castor, wwwpart: [data-binding, castor.codehaus,castor.org], setname: castor-data-binding }
-- { name: castor, warning: "please classify me" }
+- { name: castor, addflag: unclassified }
 
 # Clozure Common Lisp interpreter and compiler vs. CIGI Class Library
 - { name: ccl, summpart: cigi, setname: cigi-ccl }
@@ -38,7 +38,7 @@
 - { name: cdcover, wwwpart: karlp, setname: cdcover-karlp }
 - { name: cdcover, ver: "0.9.1", setname: cdcover-karlp } # ancient ubuntu without url - version is unlikely to change
 - { name: cdcover, ruleset: aosc, setname: cdcover-rschaeuble }
-- { name: cdcover, warning: "please classify me" }
+- { name: cdcover, addflag: unclassified }
 
 - { name: cde,                         setname: cdesktopenv, wwwpart: cdesktopenv } # desktop env. vs packaging tool
 
@@ -47,10 +47,10 @@
 
 - { name: cemu, wwwpart: cemu.info, setname: cemu-wii-u-emulator }
 - { name: cemu, wwwpart: ce-programming, setname: cemu-ti-emulator }
-- { name: cemu, warning: "please classify me" }
+- { name: cemu, addflag: unclassified }
 
 - { name: ceres, wwwpart: ceres-solver, setname: ceres-solver }
-- { name: ceres, warning: "please classify me" }
+- { name: ceres, addflag: unclassified }
 
 - { name: cflow, wwwpart: marcusva, setname: cflow-marcusva }
 - { name: cflow, ruleset: [freebsd,openpkg], setname: cflow-ancient } # circa 1995; this rule happens to be too wide, fixed by the following one
@@ -62,11 +62,11 @@
 - { name: charm, wwwpart: juju, setname: charm-juju }
 - { name: charm, wwwpart: kdab, setname: charmtimetracker }
 - { name: charm, summpart: livejournal, setname: charm-livejournal }
-- { name: charm, warning: "please classify me" }
+- { name: charm, addflag: unclassified }
 
 - { name: chart, wwwpart: marianogappa, setname: chart-stdin }
 - { name: chart, wwwpart: user42, setname: chart-stock-and-commodity-market }
-- { name: chart, warning: "please classify me" }
+- { name: chart, addflag: unclassified }
 
 - { name: chatty, wwwpart: [purism,puri.sm], setname: purism-chatty }
 - { name: chatty, wwwpart: chatty.github.io, setname: chatty-twitch }
@@ -76,11 +76,11 @@
 - { name: checkmate, summpart: mp3, setname: checkmate-mp3-checker }
 - { name: checkmate, wwwpart: hepforge, setname: checkmate-terascale }
 - { name: checkmate, wwwpart: pazuzu156, setname: checkmate-checksum-checker }
-- { name: checkmate, warning: "please classify me" }
+- { name: checkmate, addflag: unclassified }
 
 - { name: cheetah, wwwpart: cheetahtemplate, setname: "python:cheetah" }
 - { name: cheetah, wwwpart: neuro-tech, setname: cheetah-webserver }
-- { name: cheetah, warning: "please classify me" }
+- { name: cheetah, addflag: unclassified }
 
 - { name: chef, wwwpart: ebrowne72, setname: chef-text-converter }
 - { name: chef, ruleset: pkgsrc, setname: chef-text-converter } # XXX: problem
@@ -94,17 +94,17 @@
 - { name: colorize, wwwpart: lonetwin, setname: colorize-lonetwin }
 - { name: colorize, wwwpart: refcnt, setname: colorize-refcnt }
 - { name: colorize, wwwpart: [raszi,solbu], setname: colorize-raszi }
-- { name: colorize, warning: "please classify me" }
+- { name: colorize, addflag: unclassified }
 
 - { name: crimson, wwwpart: [java,xml,apache], setname: crimson-jaxp }
 - { name: crimson, wwwpart: [aldusleaf,skosch], setname: "fonts:crimson" }
-- { name: crimson, warning: "please classify me" }
+- { name: crimson, addflag: unclassified }
 
 - { name: crystal, wwwpart: crystal-lang, setname: crystal-lang }
 - { name: crystal, category: games-mud, setname: crystal-mud }
 - { name: crystal, wwwpart: kde, setname: crystal-theme }
 - { name: crystal, ruleset: [sisyphus,openbsd], setname: crystal-lang }
-- { name: crystal, warning: "please classify me" }
+- { name: crystal, addflag: unclassified }
 
 - { name: cogl, ruleset: deepin,       setname: deepin-cogl } # fork?
 
@@ -118,28 +118,28 @@
 - { name: clac, ruleset: [pclinuxos], setname: clac-mborg }
 - { name: clac, ruleset: [sisyphus,yacp], setname: clac-soveran }
 - { name: clac, wwwpart: soveran, setname: clac-soveran }
-- { name: clac, warning: "please classify me" }
+- { name: clac, addflag: unclassified }
 
 - { name: clean, wwwpart: clean.cs, setname: clean-lang }
 - { name: clean, wwwpart: [sourceforge.net/projects/clean, clean.sourceforge.io], setname: clean-file-remover }
 - { name: clean, summpart: "programming language", setname: clean-lang }
-- { name: clean, warning: "please classify me" }
+- { name: clean, addflag: unclassified }
 
 - { name: cli, wwwpart: github.com/cli/cli, setname: github-cli }
 - { name: cli, wwwpart: codesynthesis.com, setname: cli-codesynthesis }
 - { name: cli, wwwpart: daniele77, setname: cli-daniele77 }
-- { name: cli, warning: "please classify me" }
+- { name: cli, addflag: unclassified }
 
 - { name: clink, wwwpart: mridgers, setname: clink-cmd }
 - { name: clink, wwwpart: [free-electrons,bootlin.com], setname: clink-symlink }
 - { name: clink, ruleset: pld, setname: clink-net }
-- { name: clink, warning: "please classify me" }
+- { name: clink, addflag: unclassified }
 
 - { name: clog, wwwpart: [clog-tool,clog-cli], setname: clog-changelog }
 - { name: clog, wwwpart: [tasktools,taskwarrior,gothenburgbitfactory], setname: clog-log-tail-utility }
 - { name: clog, wwwpart: webgroupmedia, setname: clog-c-logging-library }
 - { name: clog, ruleset: freebsd,  setname: clog-tcp-logger }
-- { name: clog, warning: "please classify me" }
+- { name: clog, addflag: unclassified }
 
 - { name: cmix, wwwpart: cmix.sourceforge.net, setname: cmix-mixer } # relic from 2002
 
@@ -147,23 +147,23 @@
 - { name: cmt, ruleset: openbsd, setname: ladspa-cmt }
 - { name: cmt, wwwpart: cmtsite.net, setname: cmt-configuration-management }
 - { name: cmt, wwwpart: smallhadroncollider, setname: cmt-commit-messages }
-- { name: cmt, warning: "please classify me" }
+- { name: cmt, addflag: unclassified }
 
 - { name: conduit, wwwpart: conduit.io, setname: conduit-service-mesh }
 - { name: conduit, wwwpart: [conduit-project,gnome], setname: conduit-synchronization }
 - { name: conduit, category: gnome, setname: conduit-synchronization }
 - { name: conduit, summpart: synchronization, setname: conduit-synchronization }
 - { name: conduit, ruleset: debuntu, setname: conduit-synchronization }
-- { name: conduit, warning: "please classify me" }
+- { name: conduit, addflag: unclassified }
 
 - { name: cops, wwwpart: seblucas, setname: cops-calibre-opds } # Calibre OPDS
 - { name: cops, wwwpart: fish2, setname: cops-secirity-tools } # Computer Oracle and Password System
-- { name: cops, warning: "please classify me" }
+- { name: cops, addflag: unclassified }
 
 - { name: cozy, setname: cozy-cloud, wwwpart: cozy.io }
 - { name: cozy, setname: cozy-audiobooks, wwwpart: geigi }
 - { name: cozy, setname: cozy-audiobooks, summpart: "audio book" }
-- { name: cozy, warning: "please classify me" }
+- { name: cozy, addflag: unclassified }
 
 - { name: command-not-found, wwwpart: metti, setname: command-not-found-arch }
 - { name: command-not-found, wwwpart: kaniini, setname: command-not-found-kaniini }
@@ -172,7 +172,7 @@
 - { name: command-not-found, ruleset: termux, setname: command-not-found-termux }
 - { name: command-not-found, ruleset: debuntu, setname: command-not-found-ubuntu }
 - { name: command-not-found, ruleset: rosa, setname: command-not-found-rosa } # no package info, no idea what this belongs to
-- { name: command-not-found, warning: "please classify me" }
+- { name: command-not-found, addflag: unclassified }
 
 - { name: compton, wwwpart: yshui, setname: picom }
 
@@ -188,7 +188,7 @@
 
 - { name: crash, wwwpart: redhat, setname: crash-redhat }
 - { name: crash, wwwpart: crashub, setname: crash-java }
-- { name: crash, warning: "please classify me" }
+- { name: crash, addflag: unclassified }
 
 - { name: crawl, wwwpart: develz, setname: stone-soup }
 - { name: crawl, category: games, setname: stone-soup }
@@ -199,7 +199,7 @@
 - { name: ctags, wwwpart: [universal,ctags.io], setname: universal-ctags }
 - { name: ctags, verpat: "5\\.[78].*", setname: exuberant-ctags }
 - { name: ctags, ruleset: [aosc], setname: universal-ctags }
-- { name: ctags, warning: "please classify me" }
+- { name: ctags, addflag: unclassified }
 
 - { name: cutter, wwwpart: [digitage,lowth], setname: cutter-tcp } # TCP/IP Connection Cutter
 - { name: cutter, category: [net,universe/net,Networking/Other], setname: cutter-tcp }
@@ -207,4 +207,4 @@
 - { name: cutter, summpart: testing, setname: cutter-unittest }
 - { name: cutter, wwwpart: [radare,cutter.re], setname: radare2-cutter }
 - { name: cutter, summpart: radare, setname: radare2-cutter }
-- { name: cutter, warning: "please classify me" }
+- { name: cutter, addflag: unclassified }

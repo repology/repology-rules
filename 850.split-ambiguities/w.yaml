@@ -14,25 +14,25 @@
 - { name: whereami, wwwpart: pjp, setname: whereami-pjp } # displays information about machine(location) you are working on
 - { name: whereami, ruleset: debuntu, setname: whereami-debian } # Automatically reconfigure your (laptop) system for a new location based of wifi hotspots
 - { name: whereami, ruleset: yacp, setname: whereami-pjp }
-- { name: whereami, warning: "please classify me" }
+- { name: whereami, addflag: unclassified }
 
 - { name: wipe, wwwpart: [wipe.sourceforge,wipe.sf.net,sourceforge.net/projects/wipe], setname: wipe-nester }
 - { name: wipe, wwwpart: [berke,lambda-diode,abaababa], setname: wipe-berke }
 - { name: wipe, ruleset: pclinuxos, setname: wipe-nester }
 - { name: wipe, ruleset: pld, setname: wipe-berke }
-- { name: wipe, warning: "please classify me" }
+- { name: wipe, addflag: unclassified }
 
 - { name: wise, wwwpart: jboss, setname: jboss-wise }
 - { name: wise, wwwpart: ebi.ac.uk, setname: wise2 }
 - { name: wise, category: [ Sciences/Biology, science, biology, sci-biology, universe/science ], setname: wise2 }
-- { name: wise, warning: "please classify me" }
+- { name: wise, addflag: unclassified }
 
 - { name: wlc, wwwpart: weblate, setname: wlc-weblate }
 
 - { name: wok, wwwpart: kimchi, setname: wok-plugins-kimchi }
 - { name: wok, wwwpart: mythmon, setname: wok-generator }
 - { name: wok, ruleset: maemo, setname: wok-game }
-- { name: wok, warning: "please classify me" }
+- { name: wok, addflag: unclassified }
 
 - { name: words, wwwpart: wordlist.sourceforge.net, setname: words-scrowl }
 - { name: words, wwwpart: moby, setname: words-moby }
@@ -40,7 +40,7 @@
 - { name: words, wwwpart: ftp.gnu.org/gnu/aspell, setname: words-international }
 - { name: words, ruleset: [pclinuxos], setname: words-moby }
 - { name: words, ruleset: [sisyphus,pld], setname: words-usr-share-dict } # distinguished by linux.words.2.tar.vz2 distname hosted on ibiblio/sunsite.unc.edu ancient mirrors
-- { name: words, warning: "please classify me" }
+- { name: words, addflag: unclassified }
 
 - { name: wpa, wwwpart: wpa_supplicant, setname: wpa-supplicant } # play it safe with essentially ambiguous name
 

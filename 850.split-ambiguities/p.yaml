@@ -8,12 +8,12 @@
 - { name: packit, wwwpart: [packit.sourceforge.net,eribertomota,resurrecting-open-source-projects,openwall,obtuse], setname: packit-network-auditing-tool }
 - { name: packit, wwwpart: packit-service, setname: packit-packaging-tool }
 - { name: packit, category: [net,universe/net], setname: packit-network-auditing-tool }
-- { name: packit, warning: "please classify me" }
+- { name: packit, addflag: unclassified }
 
 - { name: pal, wwwpart: palcal, setname: palcal }
 - { name: pal, wwwpart: starlink, setname: pal-astronomical }
 - { name: pal, ruleset: cygwin, setname: palcal }
-- { name: pal, warning: "please classify me" }
+- { name: pal, addflag: unclassified }
 
 # "A tool for building identical machine images" vs "Bash wrapper for pacman and aur"
 - { name: pachi, wwwpart: pachi.or.cz, setname: pachi-go }
@@ -28,25 +28,25 @@
 
 - { name: papercut, wwwpart: pessoal, setname: papercut-nntp }
 - { name: papercut, wwwpart: changemakerstudios, setname: papercut-smtp }
-- { name: papercut, warning: "please classify me" }
+- { name: papercut, addflag: unclassified }
 
 - { name: papyrus, wwwpart: eclipse, setname: eclipse-papyrus }
 - { name: papyrus, wwwpart: morkro, setname: morkro-papyrus } # name already used in chocolatey
 - { name: papyrus, wwwpart: expasy, setname: papyrus-dicom }
 - { name: papyrus, wwwpart: treshna, setname: papyrus-reporting }
 - { name: papyrus, ruleset: kaos, setname: papyrus-kaqaz }
-- { name: papyrus, warning: "please classify me" }
+- { name: papyrus, addflag: unclassified }
 
 - { name: par, wwwpart: nicemice, setname: par-paragraph-reformatter }
 - { name: par, wwwpart: parchive.sourceforge, setname: par-parchive }
 - { name: par, wwwpart: par2cmdline, setname: par-par2cmdline }
 - { name: par, category: [text,textproc], setname: par-paragraph-reformatter }
 - { name: par, ver: "1.52", setname: par-paragraph-reformatter }
-- { name: par, warning: "please classify me" }
+- { name: par, addflag: unclassified }
 
 - { name: pass, wwwpart: [passwordstore,password-store], setname: password-store }
 - { name: pass, ruleset: [aosc,pclinuxos], setname: password-store }
-- { name: pass, warning: "please classify me" }
+- { name: pass, addflag: unclassified }
 
 - { name: passwd, ruleset: sisyphus, setname: passswd-alt }
 
@@ -56,7 +56,7 @@
 - { name: pcl, wwwpart: pointcloud, setname: pcl-pointclouds }
 - { name: pcl, verpat: "[0-9]+(\\.[0-9]+)", setname: pcl-coroutines }
 - { name: pcl, verpat: "[0-9]+(\\.[0-9]+){2}", setname: pcl-pointclouds }
-- { name: pcl, warning: "please classify me" }
+- { name: pcl, addflag: unclassified }
 
 - { name: pdcurses, wwwpart: [projectpluto,bill-gray], setname: pdcurses-billgray } # fork https://github.com/Bill-Gray/PDCurses
 
@@ -67,7 +67,7 @@
 - { name: pfff, wwwpart: facebook, setname: pfff-code-analysis }
 - { name: pfff, summpart: "code analysis", setname: pfff-code-analysis }
 - { name: pfff, wwwpart: "cs.ut.ee", setname: pfff-fingerprint }
-- { name: pfff, warning: "please classify me" }
+- { name: pfff, addflag: unclassified }
 
 - { name: pg-top, wwwpart: cpan, setname: "perl:pgtop" }
 
@@ -87,18 +87,18 @@
 
 - { name: pinentry-dmenu, wwwpart: ritze, setname: pinentry-dmenu-ritze }
 - { name: pinentry-dmenu, wwwpart: ckyln, setname: pinentry-dmenu-cemkeylan }
-- { name: pinentry-dmenu, warning: "please classify me" }
+- { name: pinentry-dmenu, addflag: unclassified }
 
 - { name: piper, wwwpart: qwirx.com, setname: piper-socks5-manipulator }
 - { name: piper, wwwpart: libratbag, setname: piper-mice-configurator }
 - { name: piper, summpart: mice, setname: piper-mice-configurator }
 - { name: piper, ruleset: [exherbo,solus], setname: piper-mice-configurator }
-- { name: piper, warning: "please classify me" }
+- { name: piper, addflag: unclassified }
 
 - { name: piranha, wwwpart: bluescarni, setname: piranha-algebra }
 - { name: piranha, wwwpart: fedora, setname: piranha-cluster-admin-tools }
 - { name: piranha, wwwpart: smithlabcode, setname: piranha-peak-caller }
-- { name: piranha, warning: "please classify me" }
+- { name: piranha, addflag: unclassified }
 
 - { name: pixie, wwwpart: pixie-lang, setname: pixie-lang }
 
@@ -118,27 +118,27 @@
 - { name: pms, wwwpart: package_manager_specification, setname: pms-package-manager-specification }
 - { name: pms, wwwpart: passwordms, setname: pms-passwordms }
 - { name: pms, category: [media-sound,audio], setname: pms-practical-music-search }
-- { name: pms, warning: "please classify me" }
+- { name: pms, addflag: unclassified }
 
 - { name: poi, wwwpart: [poooi,poi.io], setname: poi-kancolle }
 - { name: poi, wwwpart: apache, setname: apache-poi }
-- { name: poi, warning: "please classify me" }
+- { name: poi, addflag: unclassified }
 
 - { name: polly, wwwpart: launchpad.net/polly, setname: polly-twitter-client }
 - { name: polly, wwwpart: llvm, setname: polly-llvm-opt }
-- { name: polly, warning: "please classify me" }
+- { name: polly, addflag: unclassified }
 
 - { name: polyglot, wwwpart: universaldevices, setname: polyglot-udi }
 - { name: polyglot, wwwpart: [ridderkerk,uhasselt,chess], setname: polyglot-chess }
 - { name: polyglot, category: [games,universe/games], setname: polyglot-chess }
 - { name: polyglot, summpart: chess, setname: polyglot-chess }
 - { name: polyglot, ruleset: pureos, setname: polyglot-chess }
-- { name: polyglot, warning: "please classify me" }
+- { name: polyglot, addflag: unclassified }
 
 - { name: postal, summpart: [game,shooter], setname: postal-game }
 - { name: postal, wwwpart: coker, setname: postal-benchmark }
 - { name: postal, ruleset: debuntu, setname: postal-benchmark }
-- { name: postal, warning: "please classify me" }
+- { name: postal, addflag: unclassified }
 
 - { name: poster, setname: "python:poster", category: python } # python module, not a postscript utility
 
@@ -146,7 +146,7 @@
 - { name: pp, wwwpart: cdsoft, setname: pp-generic-preprocessor }
 - { name: pp, wwwpart: avz, setname: pp-pipe-progressbar }
 - { name: pp, wwwpart: adi.tilde, setname: pp-preprocessor }
-- { name: pp, warning: "please classify me" }
+- { name: pp, addflag: unclassified }
 
 - { name: pq, wwwpart: progressquest, setname: progress-quest }
 - { name: pq, wwwpart: libpq, setname: libpq }
@@ -157,11 +157,11 @@
 
 - { name: presto, wwwpart: prestosql, setname: presto-sql-engine }
 - { name: presto, wwwpart: presto.readthedocs, setname: presto-sequencing-toolkit }
-- { name: presto, warning: "please classify me" }
+- { name: presto, addflag: unclassified }
 
 - { name: proton, wwwpart: valve, setname: proton-wine }
 - { name: proton, wwwpart: entynetproject, setname: proton-exploitation-framework }
-- { name: proton, warning: "please classify me" }
+- { name: proton, addflag: unclassified }
 
 - { name: proxychains, verge: "4", setname: proxychains-ng }
 
@@ -180,7 +180,7 @@
 - { name: puma, wwwpart: clawoflight, setname: puma-password-manager }
 - { name: puma, wwwpart: puma.io, setname: "ruby:puma" }
 - { name: puma, ruleset: sisyphus, setname: "ruby:puma" }
-- { name: puma, warning: "please classify me" }
+- { name: puma, addflag: unclassified }
 
 - { name: pwm, wwwpart: pwm-project, setname: pwm-password-self-service }
 # otherwise, a tabbed window manaker, ion successor
@@ -207,7 +207,7 @@
 
 - { name: "python:osc", wwwpart: attwad, setname: "python:python-osc" }
 - { name: "python:osc", wwwpart: opensuse, setname: osc }
-- { name: "python:osc", warning: "please classify me" }
+- { name: "python:osc", addflag: unclassified }
 
 - { name: "python:planet", setname: planet, wwwpart: planetplanet }
 

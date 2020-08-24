@@ -3,7 +3,7 @@
 - { name: saga, wwwpart: saga-gis, setname: saga-gis }
 - { name: saga, wwwpart: saga-cpp, setname: saga-cpp }
 - { name: saga, ruleset: os4depot, setname: saga-game }
-- { name: saga, warning: "please classify me" }
+- { name: saga, addflag: unclassified }
 
 - { name: sage, wwwpart: sagemath, setname: sagemath }
 - { name: sage, category: Sciences/Mathematics, setname: sagemath }
@@ -13,11 +13,11 @@
 - { name: sam, wwwpart: deadpixi, setname: sam-editor }
 - { name: sam, summpart: editor, setname: sam-editor }
 - { name: sam, ruleset: t2, setname: sam-t2 }
-- { name: sam, warning: "please classify me" }
+- { name: sam, addflag: unclassified }
 
 - { name: sample, wwwpart: silentbicycle, setname: sample-filter }
 - { name: sample, wwwpart: freenas, setname: sample-stack }
-- { name: sample, warning: "please classify me" }
+- { name: sample, addflag: unclassified }
 
 - { name: sasl, wwwpart: cyrus, setname: cyrus-sasl }
 
@@ -27,7 +27,7 @@
 
 - { name: scc, wwwpart: boyter, setname: scc-sloc-cloc-and-code }
 - { name: scc, wwwpart: 2f30, setname: scc-suckless-c-compiler }
-- { name: scc, warning: "please classify me" }
+- { name: scc, addflag: unclassified }
 
 - { name: scli, wwwpart: isamert, setname: scli-signal-cli }
 - { name: scli, wwwpart: [schoenw,tu-bs.de], setname: scli-snmp-cli }
@@ -39,27 +39,27 @@
 
 - { name: scream, wwwpart: duncanthrax, setname: scream-virtual-sound-card }
 - { name: scream, wwwpart: streetwalrus, setname: scream-x11-compositor }
-- { name: scream, warning: "please classify me" }
+- { name: scream, addflag: unclassified }
 
 - { name: screenruler, wwwpart: screenruler.sourceforge.io, setname: screenruler-bluegrams }
 - { name: screenruler, wwwpart: [gnome, launchpad], setname: gnome-screenruler }
 - { name: screenruler, ruleset: [aosc], setname: gnome-screenruler }
-- { name: screenruler, warning: "please classify me" }
+- { name: screenruler, addflag: unclassified }
 
 - { name: scripts, wwwpart: [www.x.org,xorg], setname: xorg-scripts }
 - { name: scripts, wwwpart: gobolinux, setname: gobolinux-scripts }
-- { name: scripts, warning: "please classify me" }
+- { name: scripts, addflag: unclassified }
 
 - { name: sd, wwwpart: chmln, setname: sd-find-replace }
 - { name: sd, wwwpart: [syncwith,app-sd], setname: sd-simple-defects }
-- { name: sd, warning: "please classify me" }
+- { name: sd, addflag: unclassified }
 
 - { name: sdb, wwwpart: libsdb, setname: libsdb }
 - { name: sdb, wwwpart: mono, setname: sdb-mono }
 - { name: sdb, wwwpart: [shotgun,game], setname: shotgun-debugger }
 - { name: sdb, wwwpart: radare, setname: sdb-hashtable }
 - { name: sdb, ruleset: openmandriva, setname: sdb-client }
-- { name: sdb, warning: "please classify me" }
+- { name: sdb, addflag: unclassified }
 
 - { name: secure-delete, wwwpart: gijack, setname: secure-delete-gijack }
 
@@ -69,16 +69,16 @@
 - { name: selene, wwwpart: jeremyong, setname: selene-lua-bindings }
 - { name: selene, wwwpart: kmhofmann, setname: selene-image-library }
 - { name: selene, ruleset: pclinuxos, setname: selene-media-encoder }
-- { name: selene, warning: "please classify me" }
+- { name: selene, addflag: unclassified }
 
 - { name: sewer, wwwpart: komuw, setname: sewer-acme-client }
 - { name: sewer, wwwpart: bio, setname: sewer-sequence-analysis }
-- { name: sewer, warning: "please classify me" }
+- { name: sewer, addflag: unclassified }
 
 - { name: sge, wwwpart: [liv.ac.uk,gridengine], setname: gridengine }
 - { name: sge, wwwpart: [flibitijibibo,e8cal1], setname: sdl-sge }
 - { name: sge, summpart: spectrum, setname: sge-spectrum-graphics }
-- { name: sge, noflag: classified, warning: "please classify me" }
+- { name: sge, noflag: classified, addflag: unclassified }
 
 - { name: shake, wwwpart: hackage, setname: "haskell:shake" }
 - { name: shake, wwwpart: luaforge, setname: shake-lua }
@@ -89,7 +89,7 @@
 - { name: shed, wwwpart: catch22, setname: shed-card-game }
 - { name: shed, summpart: "hex editor", setname: shed-hex-editor }
 - { name: shed, ruleset: pld, setname: shed-hex-editor }
-- { name: shed, warning: "please classify me" }
+- { name: shed, addflag: unclassified }
 
 - { name: shinonome, wwwpart: openlab, setname: "fonts:shinonome" }
 
@@ -99,12 +99,12 @@
 
 - { name: sift, wwwpart: [sift.jcvi.org, sift.bii.a-star.edu.sg], setname: sift-med } # XXX: cannot decide better name
 - { name: sift, wwwpart: [sift-tool,svent], addflag: classified }
-- { name: sift, noflag: classified, warning: "please classify me" }
+- { name: sift, noflag: classified, addflag: unclassified }
 
 # there are no other cases than signal-desktop, but stay on safe side
 - { name: signal, wwwpart: desktop, setname: signal-desktop }
 - { name: signal, ruleset: chocolatey, setname: signal-desktop }
-- { name: signal, warning: "please classify me" }
+- { name: signal, addflag: unclassified }
 
 - { name: signify, wwwpart: [aperezdc,flak,openbsd], setname: signify-openbsd }
 - { name: signify, wwwpart: signify.sf.net, setname: signify-bcwhite }
@@ -112,36 +112,36 @@
 - { name: signify, maintainer: bcwhite@pobox.com, setname: signify-bcwhite }
 - { name: signify, ruleset: [cygwin,openbsd], setname: signify-bcwhite }
 - { name: signify, ruleset: exherbo, setname: signify-openbsd }
-- { name: signify, warning: "please classify me" }
+- { name: signify, addflag: unclassified }
 
 - { name: silo, wwwpart: llnl, setname: silo-io-library } # Mesh and Field I/O Library
 - { name: silo, wwwpart: kernel.org, setname: silo-sparc-loader }
-- { name: silo, warning: "please classify me" }
+- { name: silo, addflag: unclassified }
 
 - { name: sim, wwwpart: [sim-im,sim-icq], setname: sim-im }
 - { name: sim, wwwpart: similarity_tester, setname: similarity-tester }
-- { name: sim, warning: "please classify me" }
+- { name: sim, addflag: unclassified }
 
 - { name: singularity, wwwpart: [singularity.lbl.gov,sylabs.io,gmkurtzer], setname: singularity-container }
 - { name: singularity, wwwpart: ingularityviewer, setname: singularityviewer }
 - { name: singularity, wwwpart: [endgame,emhsoft,singularity.github.io], setname: endgame-singularity }
-- { name: singularity, warning: "please classify me" }
+- { name: singularity, addflag: unclassified }
 
 - { name: six, wwwpart: six.retes.hu, setname: six-game }
 - { name: six, wwwpart: [pythonhosted,pypi,python.org], setname: "python:six" }
-- { name: six, warning: "please classify me" }
+- { name: six, addflag: unclassified }
 
 - { name: sk, wwwpart: skim, setname: skim }
 
 - { name: ska, category: net-wireless, setname: ska-wireless }
 - { name: ska, summpart: kmer, setname: ska-split-kmer }
 - { name: ska, wwwpart: simonrharris, setname: ska-split-kmer }
-- { name: ska, warning: "please classify me" }
+- { name: ska, addflag: unclassified }
 
 - { name: ski, wwwpart: esr, setname: ski-game }
 - { name: ski, wwwpart: ski.sourceforge.net, setname: ski-emulator }
 - { name: ski, summpart: [game], setname: ski-game }
-- { name: ski, warning: "please classify me" }
+- { name: ski, addflag: unclassified }
 
 - { name: skim, wwwpart: scim, setname: skim-scim }
 
@@ -150,24 +150,24 @@
 - { name: slack, category: [admin, universe/admin], setname: slack-configuration-management }
 
 - { name: slime, wwwpart: common-lisp, setname: "emacs:slime" }
-- { name: slime, warning: "please classify me" }
+- { name: slime, addflag: unclassified }
 
 - { name: slurm, wwwpart: [mattthias,raisdorf,wormulon], setname: slurm-monitor }
 - { name: slurm, ruleset: [aosc,openbsd,pkgsrc], setname: slurm-monitor }
 - { name: slurm, wwwpart: [schedmd,llnl], setname: slurm-wlm } # "workload manager": name used in freebsd and pksrc; there's also slurm-llnl, see rule in 800
-- { name: slurm, warning: "please classify me" }
+- { name: slurm, addflag: unclassified }
 
 - { name: smack, wwwpart: [igniterealtime,jivesoftware], setname: smack-xmpp-library }
 - { name: smack, wwwpart: reverbrain, setname: smack-storage }
 - { name: smack, ruleset: [sisyphus,nix], setname: smack-xmpp-library }
 - { name: smack, ruleset: pld, setname: smack-access-control }
 - { name: smack, ruleset: yacp, setname: smack-storage }
-- { name: smack, warning: "please classify me" }
+- { name: smack, addflag: unclassified }
 
 - { name: smc, wwwpart: secretmaryo, setname: secret-maryo-chronicles }
 - { name: smc, category: [games-arcade,games,Games/Arcade], setname: secret-maryo-chronicles }
 - { name: smc, wwwpart: smc.sourceforge.net, setname: smc-state-machine-compiler }
-- { name: smc, warning: "please classify me" }
+- { name: smc, addflag: unclassified }
 
 - { name: smem, verpat: "2007.*", ruleset: gentoo, setname: smem.pl } # unrelated python script
 
@@ -181,7 +181,7 @@
 - { name: snap, wwwpart: snap.stanford.edu, setname: snap-network-analysis-platform }
 - { name: snap, wwwpart: snap.berkeley.edu, setname: snap-lang }
 - { name: snap, wwwpart: wchunhao, setname: snap-ufs2-snapshots }
-- { name: snap, warning: "please classify me" }
+- { name: snap, addflag: unclassified }
 
 - { name: snappy, wwwpart: google, setname: snappy-compression }
 - { name: snappy, wwwpart: xerial, setname: snappy-java }
@@ -190,19 +190,19 @@
 - { name: snappy, ruleset: exherbo, category: app-arch, setname: snappy-compression }
 - { name: snappy, ruleset: exherbo, category: gnome-desktop, setname: snappy-player }
 - { name: snappy, ruleset: [pld,solus], setname: snappy-compression }
-- { name: snappy, warning: "please classify me" }
+- { name: snappy, addflag: unclassified }
 
 - { name: snoopy, wwwpart: tuxfamily, setname: snoopy-warcraft3 }
 - { name: snoopy, wwwpart: dssz, setname: snoopy-graph-anim }
 - { name: snoopy, wwwpart: [snoopylogger,a2o], setname: snoopylogger }
 - { name: snoopy, ruleset: sisyphus, setname: snoopylogger }
-- { name: snoopy, warning: "please classify me" }
+- { name: snoopy, addflag: unclassified }
 
 - { name: sokoban, wwwpart: dansoft, setname: sokoban-dansoft }
 - { name: sokoban, category: app-emacs, setname: sokoban-emacs }
 - { name: sokoban, ruleset: freebsd, setname: sokoban-ncurses }
 - { name: sokoban, wwwpart: sourceforge.net/projects/sokoban, setname: sokoban-tgfcoder }
-- { name: sokoban, warning: "please classify me" }
+- { name: sokoban, addflag: unclassified }
 
 - { name: solid, wwwpart: dtecta, setname: solid-dtecta }
 
@@ -214,24 +214,24 @@
 - { name: sp, summpart: school, setname: sp-school-portal }
 - { name: sp, wwwpart: wandernauta, setname: sp-spotify }
 - { name: sp, summpart: spotify, setname: sp-spotify }
-- { name: sp, warning: "please classify me" }
+- { name: sp, addflag: unclassified }
 
 - { name: spark, wwwpart: adacore, setname: spark-adacore }
 - { name: spark, wwwpart: apache, setname: apache-spark }
 - { name: spark, wwwpart: zachholman, setname: sparklines }
 - { name: spark, wwwpart: igniterealtime, setname: spark-im-client } # name already used in npackd
 - { name: spark, summpart: sparklines, setname: sparklines }
-- { name: spark, warning: "please classify me" }
+- { name: spark, addflag: unclassified }
 
 - { name: spectacle, wwwpart: kde.org, setname: spectacle-kde }
 - { name: spectacle, wwwpart: meego, setname: spectacle-meego }
 - { name: spectacle, category: ['Graphical desktop/KDE',kde,Graphics,x11,desktop.kde.core], setname: spectacle-kde }
 - { name: spectacle, vergt: "17", setname: spectacle-kde }
-- { name: spectacle, warning: "please classify me" }
+- { name: spectacle, addflag: unclassified }
 
 - { name: spectcl, wwwpart: spectcl.sourceforge.net, setname: spectcl-gui-builder }
 - { name: spectcl, wwwpart: nsclspectcl, setname: spectcl-nscl }
-- { name: spectcl, warning: "please classify me" }
+- { name: spectcl, addflag: unclassified }
 
 - { name: sphinx, wwwpart: cmusphinx, setname: cmusphinx }
 
@@ -241,14 +241,14 @@
 - { name: spigot, wwwpart: spigotmc, setname: spigot-minecraft }
 - { name: spigot, wwwpart: sgtatham, setname: spigot-calculator }
 - { name: spigot, ruleset: freebsd, setname: spigot-videocapture }
-- { name: spigot, warning: "please classify me" }
+- { name: spigot, addflag: unclassified }
 
 - { name: spin, category: [dev-java,Development/Java], setname: "java:spin" }
 - { name: spin, wwwpart: spin.sourceforge.net, setname: "java:spin" }
 - { name: spin, summpart: spinner, setname: spin-spinner }
 - { name: spin, wwwpart: spinroot, setname: spin-verification }
 - { name: spin, ruleset: [pld,openbsd], setname: spin-verification }
-- { name: spin, warning: "please classify me" }
+- { name: spin, addflag: unclassified }
 
 - { name: spl, wwwpart: shakespearelang, setname: shakespeare }
 - { name: spl, wwwpart: clifford.at, setname: spl-lang }
@@ -257,16 +257,16 @@
 - { name: splat, wwwpart: kd2bd, setname: splat-signal-propagation }
 - { name: splat, wwwpart: l8nite, setname: splat-portage }
 - { name: splat, wwwpart: threerings, setname: splat-ldap }
-- { name: splat, warning: "please classify me" }
+- { name: splat, addflag: unclassified }
 
 - { name: splice, wwwpart: scholnick, setname: splice-label-maker }
 - { name: splice, wwwpart: cipherprime, setname: splice-game }
-- { name: splice, warning: "please classify me" }
+- { name: splice, addflag: unclassified }
 
 - { name: splitter, wwwpart: mkgmap, setname: mkgmap-splitter } # no ambiguity at the time of writing, but let's be on the safe side
 
 - { name: spt, wwwpart: pickfire, setname: spt-timer }
-- { name: spt, warning: "please classify me" }
+- { name: spt, addflag: unclassified }
 
 - { name: ssr, wwwpart: spatialaudio, setname: soundscaperenderer }
 - { name: ssr, wwwpart: maarten, setname: simplescreenrecorder }
@@ -279,11 +279,11 @@
 - { name: st, category: [libs,universe/libs,misc,devel], setname: state-threads }
 - { name: st, wwwpart: state-threads, setname: state-threads }
 - { name: st, wwwpart: nferraz, setname: st-statistics }
-- { name: st, warning: "please classify me" }
+- { name: st, addflag: unclassified }
 
 - { name: stack, wwwpart: haskell, setname: "haskell:stack" }
 - { name: stack, wwwpart: transip, setname: stack-storage }
-- { name: stack, warning: "please classify me" }
+- { name: stack, addflag: unclassified }
 
 - { name: star, wwwpart: [berlios,freecode,s-tar,cdrtools,schilytools], setname: star-tar } # XXX: single or multiple projects?
 - { name: star, wwwpart: alexdobin, setname: rna-star } # already used in 3 families
@@ -296,7 +296,7 @@
 - { name: step, summpart: physic, setname: step-physical-simulator }
 - { name: step, category: kde, setname: step-physical-simulator }
 - { name: step, ruleset: [kaos,pld,slackware], setname: step-physical-simulator }
-- { name: step, warning: "please classify me" }
+- { name: step, addflag: unclassified }
 
 - { name: sterm, wwwpart: suckless, setname: st-term } # freebsd rename of st; but there's actual sterm project
 
@@ -304,26 +304,26 @@
 
 - { name: storm, wwwpart: apache, setname: apache-storm }
 - { name: storm, wwwpart: canonical, setname: "python:storm" }
-- { name: storm, warning: "please classify me" }
+- { name: storm, addflag: unclassified }
 
 - { name: sudoku, wwwpart: wimleers, setname: sudoki-wimleers }
 - { name: sudoku, wwwpart: cinemast, setname: sudoki-cinemast }
 - { name: sudoku, wwwpart: laurasia, setname: sudoki-laurasia }
 - { name: sudoku, wwwpart: aneventapart, setname: sudoku-aneventapart }
-- { name: sudoku, warning: "please classify me" }
+- { name: sudoku, addflag: unclassified }
 
 - { name: sugar, wwwpart: bach.istc.kobe-u.ac.jp/sugar, setname: sugar-solver }
 
 - { name: super, wwwpart: ucolick, setname: super-setuid }
 - { name: super, wwwpart: erightsoft, setname: super-video-converter }
-- { name: super, warning: "please classify me" }
+- { name: super, addflag: unclassified }
 
 - { name: surf, wwwpart: suckless, setname: surf-browser }
 - { name: surf, wwwpart: uiuc, setname: surf-surface } # Solvent accessible Surface calculator
 - { name: surf, wwwpart: [surf.sf.net, surf.sourceforge.net], setname: surf-alggeo }
 - { name: surf, summpart: geometry, setname: surf-alggeo }
 - { name: surf, summpart: browser, setname: surf-browser }
-- { name: surf, warning: "please classify me" }
+- { name: surf, addflag: unclassified }
 
 - { name: svn2git, wwwpart: [svn-all-fast-export,gitorious.org/svn2git], setname: svn-all-fast-export }
 
@@ -331,35 +331,35 @@
 - { name: swarp, wwwpart: suckless, setname: swarp-suckless }
 - { name: swarp, ruleset: openbsd, setname: swarp-suckless }
 - { name: swarp, ruleset: yacp, setname: swarp-astromatic }
-- { name: swarp, warning: "please classify me" }
+- { name: swarp, addflag: unclassified }
 
 # Programming language vs. XMPP client vs. openstack object storage
 - { name: swift, wwwpart: [apple,swift.org], setname: swift-lang }
 - { name: swift, wwwpart: swift.im, setname: swift-im }
 - { name: swift, wwwpart: [openstack,launchpad.net/swift], setname: openstack-swift }
 - { name: swift, summpart: openstack, setname: openstack-swift }
-- { name: swift, warning: "please classify me" }
+- { name: swift, addflag: unclassified }
 
 - { name: swm, wwwpart: dcat, setname: swm-simple-window-manager }
 - { name: swm, wwwpart: [small-window-manager,informatik.hu-berlin.de], setname: swm-small-window-manager }
-- { name: swm, warning: "please classify me" }
+- { name: swm, addflag: unclassified }
 
 - { name: sx, wwwpart: earnestly, setname: sx-startx }
 - { name: sx, wwwpart: skylable, setname: skylable-sx } # already used by fedora
 - { name: sx, wwwpart: fedorahosted, setname: sx-fedora }
 - { name: sx, wwwpart: septag, setname: sx-septag }
-- { name: sx, warning: "please classify me" }
+- { name: sx, addflag: unclassified }
 
 - { name: synapse, wwwpart: matrix, setname: matrix-synapse }
 - { name: synapse, wwwpart: [launchpad.net/synapse-project,synapse.zeitgeist-project.com], setname: synapse-launcher }
 - { name: synapse, summpart: launcher, setname: synapse-launcher }
 - { name: synapse, ruleset: exherbo, setname: matrix-synapse }
 - { name: synapse, ruleset: [pld,solus], setname: synapse-launcher }
-- { name: synapse, warning: "please classify me" }
+- { name: synapse, addflag: unclassified }
 
 - { name: sysinfo, wwwpart: magnicomp, setname: sysinfo-magnicomp }
 - { name: sysinfo, wwwpart: gsysinfo, setname: sysinfo-gsysinfo }
 - { name: sysinfo, wwwpart: forums.freebsd, setname: sysinfo-freebsd }
-- { name: sysinfo, warning: "please classify me" }
+- { name: sysinfo, addflag: unclassified }
 
 - { name: szip, wwwpart: compressconsult, setname: szip-compressconsult }

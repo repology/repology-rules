@@ -6,11 +6,11 @@
 - { name: zap, wwwpart: jehops, setname: zap-zfs }
 - { name: zap, wwwpart: uber, setname: "go:uber-zap" } # or go:go.uber-zap
 - { name: zap, ruleset: openbsd, setname: zap-process-killer }
-- { name: zap, warning: "please classify me" }
+- { name: zap, addflag: unclassified }
 
 - { name: zebra, wwwpart: indexdata, setname: idzebra }
 - { name: zebra, wwwpart: zebra.org, setname: zebra-routing }
-- { name: zebra, warning: "please classify me" }
+- { name: zebra, addflag: unclassified }
 
 - { name: zed, wwwpart: [ocamlcore, github.com/diml/zed], setname: "ocaml:zed" }
 
@@ -24,14 +24,14 @@
 
 - { name: zipper, wwwpart: xanthippe, setname: gnustep-zipper }
 - { name: zipper, wwwpart: fbergmann, setname: zipper-minizip-wrapper }
-- { name: zipper, warning: "please classify me" }
+- { name: zipper, addflag: unclassified }
 
 - { name: zoom, wwwpart: zoom.us, setname: zoom-videoconference }
 - { name: zoom, wwwpart: logicalshift, setname: zoom-zcode }
-- { name: zoom, warning: "please classify me" }
+- { name: zoom, addflag: unclassified }
 
 - { name: zxing-cpp, wwwpart: nu-book, setname: zxing-cpp-nu-book }
 - { name: zxing-cpp, wwwpart: glassechidna, setname: zxing-cpp-glassechidna }
 - { name: zxing-cpp, ruleset: [aosc,exherbo], setname: zxing-cpp-nu-book }
 - { name: zxing-cpp, ruleset: pld, setname: zxing-cpp-glassechidna }
-- { name: zxing-cpp, warning: "please classify me" }
+- { name: zxing-cpp, addflag: unclassified }

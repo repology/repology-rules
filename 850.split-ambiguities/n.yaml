@@ -6,7 +6,7 @@
 - { name: nc, ver: "0.7.1", setname: gnu-netcat, maintenance: true }
 - { name: nc, wwwpart: ncat, setname: ncat }
 - { name: nc, ruleset: [pld,slackware], setname: netcat-traditional }
-- { name: nc, warning: "please classify me" }
+- { name: nc, addflag: unclassified }
 
 # there are two `ne`s, and they are both editors; prefix is for `cambridge`
 # another is `nice editor`, but I don't feel like renaming it as it's `ne` everywhere
@@ -14,14 +14,14 @@
 
 - { name: neko, wwwpart: nekovm, setname: nekovm }
 - { name: neko, wwwpart: ataraxia, setname: neko-package-manager }
-- { name: neko, warning: "please classify me" }
+- { name: neko, addflag: unclassified }
 
 - { name: nemesis, wwwpart: exodus, setname: exodusii } # part of?
 # otherwise command-line network packet crafting and injection utility
 
 - { name: neo, wwwpart: hantz, setname: neo-lang }
 - { name: neo, wwwpart: neuralensemble, setname: neo-electrophysiology }
-- { name: neo, warning: "please classify me" }
+- { name: neo, addflag: unclassified }
 
 - { name: netcat, wwwpart: nc110, setname: netcat-traditional }
 - { name: netcat, verpat: "0\\..*", setname: gnu-netcat }
@@ -30,7 +30,7 @@
 - { name: netcat, verpat: "110.*", setname: netcat-traditional, incorrect: true }
 - { name: netcat, ruleset: sisyphus, setname: netcat-openbsd, incorrect: true } # not sure where other take version from, but it's the only different
 - { name: netcat, ruleset: openpkg, setname: netcat-openpkg } # no idea which implementation this is
-- { name: netcat, warning: "please classify me" }
+- { name: netcat, addflag: unclassified }
 
 - { name: netgen, wwwpart: netgen-mesher, setname: netgen-mesher }
 - { name: netgen, wwwpart: hpfem.jku.at/netgen, setname: netgen-mesher }
@@ -39,11 +39,11 @@
 - { name: netgen, category: cad, setname: netgen-lvs }
 - { name: netgen, wwwpart: opencircuitdesign.com, setname: netgen-lvs }
 - { name: netgen, summpart: vlsi, setname: netgen-lvs }
-- { name: netgen, warning: "please classify me" }
+- { name: netgen, addflag: unclassified }
 
 - { name: netpipe, wwwpart: [bitspjoule.org,ameslab], setname: netpipe-performance-evaluator }
 - { name: netpipe, wwwpart: wudika, setname: netpipe-udb-broadcast }
-- { name: netpipe, warning: "please classify me" }
+- { name: netpipe, addflag: unclassified }
 
 - { name: newt, wwwpart: mynewt, setname: mynewt-newt } # just using name existing in AUR and NIX
 
@@ -57,31 +57,31 @@
 
 - { name: nms, wwwpart: no-more-secrets, setname: no-more-secrets }
 - { name: nms, wwwpart: nms-cgi, setname: nms-formmail }
-- { name: nms, warning: "please classify me" }
+- { name: nms, addflag: unclassified }
 
 - { name: node, wwwpart: ax25, setname: node-ax25 }
 - { name: node, wwwpart: nodejs, setname: nodejs }
 - { name: node, category: [universe/hamradio,hamradio], setname: node-ax25 }
 - { name: node, category: [lang,Development/Tools,dev-lang], setname: nodejs }
 - { name: node, summpart: node.js, setname: nodejs }
-- { name: node, warning: "please classify me" }
+- { name: node, addflag: unclassified }
 
 - { name: nomad, wwwpart: [nomadproject.io,hashicorp], setname: nomad-scheduler }
 - { name: nomad, wwwpart: nomad.menu, setname: nomad-active-directory }
 - { name: nomad, wwwpart: slitaz, setname: nomad-wifi }
 - { name: nomad, wwwpart: savannah, setname: nomad-browser }
 - { name: nomad, ruleset: [openbsd], setname: nomad-scheduler }
-- { name: nomad, warning: "please classify me" }
+- { name: nomad, addflag: unclassified }
 
 - { name: nonpareil, wwwpart: brouhaha, setname: nonpareil-calculator-simulator }
 - { name: nonpareil, wwwpart: enve-omics, setname: nonpareil-metagenomic-coverage }
-- { name: nonpareil, warning: "please classify me" }
+- { name: nonpareil, addflag: unclassified }
 
 - { name: nstat, ruleset: freebsd, setname: nstat-netflix }
 
 - { name: nu, wwwpart: programming.nu, setname: nu-lang }
 - { name: nu, wwwpart: nushell, setname: nushell }
-- { name: nu, warning: "please classify me" }
+- { name: nu, addflag: unclassified }
 
 - { name: nut, wwwpart: [nut.sourceforge,sourceforge.net/projects/nut], setname: nut-nutrition }
 - { name: nut, ruleset: hpux, setname: nut-nutrition }

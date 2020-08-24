@@ -2,13 +2,13 @@
 
 - { name: dart, wwwpart: [dartlang,dart.dev], setname: dart-lang }
 - { name: dart, wwwpart: dartsim, setname: dart-sim }
-- { name: dart, warning: "please classify me" }
+- { name: dart, addflag: unclassified }
 
 - { name: dash, wwwpart: dash.el, setname: "emacs:dash" }
 - { name: dash, wwwpart: [dashpay,dash.org], setname: dashcore }
 - { name: dash, wwwpart: herbert, setname: dash-shell }
 - { name: dash, summpart: shell, setname: dash-shell }
-- { name: dash, warning: "please classify me" }
+- { name: dash, addflag: unclassified }
 
 - { name: date, wwwpart: HowardHinnant, setname: howard-hinnant-date }
 
@@ -17,7 +17,7 @@
 - { name: dce, wwwpart: opengroup, setname: dce-distributed-computing-infrastructure }
 - { name: dce, wwwpart: jnos, setname: dce-damn-cool-editor }
 - { name: dce, summpart: editor, setname: dce-damn-cool-editor }
-- { name: dce, warning: "please classify me" }
+- { name: dce, addflag: unclassified }
 
 - { name: db, wwwpat: netbsd, setname: db-netbsd }
 
@@ -34,13 +34,13 @@
 - { name: deco, wwwpart: [peha,hardlich], setname: deco-extractor }
 - { name: deco, summpart: demos, setname: demos-commander }
 - { name: deco, summpart: extract, setname: demos-extractor }
-- { name: deco, warning: "please classify me" }
+- { name: deco, addflag: unclassified }
 
 - { name: delta, wwwpart: tigris, setname: delta-file-minimizer }
 - { name: delta, wwwpart: dandavison, setname: git-delta }
 - { name: delta, summpart: minimizer, setname: delta-file-minimizer }
 - { name: delta, ruleset: [exherbo], setname: delta-file-minimizer }
-- { name: delta, warning: "please classify me" }
+- { name: delta, addflag: unclassified }
 
 - { name: detex, vergt: "2.8", setname: opendetex } # continuation; XXX: problem
 
@@ -50,19 +50,19 @@
 - { name: dex, ruleset: [sisyphus,aosc], setname: dex-autostart }
 - { name: dex, wwwpart: coreos, setname: dex-coreos }
 - { name: dex, wwwpart: dexidp, setname: dex-oidc }
-- { name: dex, warning: "please classify me" }
+- { name: dex, addflag: unclassified }
 
 - { name: dexed, wwwpart: asb2m10, setname: dexed-synth }
 - { name: dexed, wwwpart: bbasile, setname: dexed-ide }
-- { name: dexed, warning: "please classify me" }
+- { name: dexed, addflag: unclassified }
 
 - { name: dhcp6, wwwpart: isc, setname: dhcp }
 - { name: dhcp6, wwwpart: wide, setname: wide-dhcpv6 }
-- { name: dhcp6, warning: "please classify me" }
+- { name: dhcp6, addflag: unclassified }
 
 - { name: dhcpd, wwwpart: isc, setname: dhcp }
 - { name: dhcpd, wwwpart: koue, setname: dhcpd-openbsd }
-- { name: dhcpd, warning: "please classify me" }
+- { name: dhcpd, addflag: unclassified }
 
 - { name: di, wwwpart: boost, setname: boost-di }
 
@@ -71,10 +71,10 @@
 - { name: diamond, wwwpart: lattice, setname: diamond-lattice-fpga-tools }
 - { name: diamond, summpart: aligner, setname: diamond-aligner }
 - { name: diamond, ruleset: pld, setname: diamond-graphite-collector }
-- { name: diamond, warning: "please classify me" }
+- { name: diamond, addflag: unclassified }
 
 - { name: dictionary, wwwpart: myrkr, setname: "emacs:dictionary" }
-- { name: dictionary, warning: "please classify me" }
+- { name: dictionary, addflag: unclassified }
 
 - { name: diaspora, verpat: "1\\.[0-9]+\\.[0-9]+", setname: diaspora-game }
 - { name: diaspora, setname: diaspora-social }
@@ -82,7 +82,7 @@
 - { name: dino, wwwpart: [dino.im, github.com/dino/dino], setname: dino-im }
 - { name: dino, wwwpart: dino.nongnu.org, setname: dino-midi }
 - { name: dino, summpart: [xmpp,jabber], setname: dino-im }
-- { name: dino, warning: "please classify me" }
+- { name: dino, addflag: unclassified }
 
 - { name: discord, wwwpart: xnblank, setname: discord-linux }
 - { name: discord, ruleset: [chocolatey,scoop], setname: discord-windows } # different versioning for different OSes, see wikidata
@@ -94,7 +94,7 @@
 - { name: discover, summpart: plasma, setname: plasma-discover }
 - { name: discover, category: kde, setname: plasma-discover }
 - { name: discover, ruleset: kaos, setname: plasma-discover }
-- { name: discover, warning: "please classify me" }
+- { name: discover, addflag: unclassified }
 
 # game vs. fuzzer
 - { name: dizzy, wwwpart: c0decafe.de, setname: dizzy-fuzzer }
@@ -104,7 +104,7 @@
 - { name: doas, wwwpart: slicer69, addflag: classified }
 - { name: doas, wwwpart: duncaen, setname: opendoas }
 - { name: doas, ruleset: [aosc,exherbo,], setname: opendoas }
-- { name: doas, warning: "please classify me", noflag: classified }
+- { name: doas, addflag: unclassified, noflag: classified }
 
 - { name: wmdocker,                    setname: docker-tray }
 - { name: docker,                      category: [x11,x11-plugins,"Graphical desktop/Window Maker","User Interface/X","universe/x11"], setname: docker-tray }
@@ -117,7 +117,7 @@
 
 - { name: dotty, wwwpart: dotty.epfl.ch, setname: scala-dotty }
 - { name: dotty, wwwpart: google/dotty, setname: "python:efilter" }  # why the f is the repo named dotty?
-- { name: dotty, warning: "please classify me" }
+- { name: dotty, addflag: unclassified }
 
 - { name: dragon, wwwpart: kde.org, setname: dragon-player }
 - { name: dragon, category: [kde,multimedia], setname: dragon-player } # aosc, exherbo, openbsd
@@ -126,15 +126,15 @@
 - { name: dragon, summpart: player, setname: dragon-player }
 - { name: dragon, summpart: parser, setname: dragon-scannerparser }
 - { name: dragon, ruleset: [kaos,slackware], setname: dragon-player }
-- { name: dragon, warning: "please classify me" }
+- { name: dragon, addflag: unclassified }
 
 - { name: drake, wwwpart: ytomino, setname: drake-ada }
 - { name: drake, wwwpart: factual, setname: drake-workflow }
 - { name: drake, wwwpart: quix, setname: drake-rake }
-- { name: drake, warning: "please classify me" }
+- { name: drake, addflag: unclassified }
 
 - { name: draw, wwwpart: drawio-desktop, setname: drawio-desktop }
-- { name: draw, warning: "please classify me" }
+- { name: draw, addflag: unclassified }
 
 - { name: drbd, summpart: user-land, setname: drbd-utils } # fedora
 
@@ -146,13 +146,13 @@
 - { name: drive, wwwpart: odeke-em, setname: drive-google-drive-cli }
 - { name: drive, wwwpart: google.com, setname: drive-google }
 - { name: drive, ruleset: solus, setname: drive-google-drive-cli }
-- { name: drive, warning: "please classify me" }
+- { name: drive, addflag: unclassified }
 
 - { name: dsp, wwwpart: bmc0, setname: dsp-audio-processing }
 - { name: dsp, wwwpart: dns, setname: dsp-dns-statistics }
 - { name: dsp, wwwpart: dsp-emulator, setname: dsp-emulator }
 - { name: dsp, ruleset: solus, setname: dsp-audio-processing }
-- { name: dsp, warning: "please classify me" }
+- { name: dsp, addflag: unclassified }
 
 - { name: dt, wwwpart: 42wim/dt,       setname: dt-dns }
 - { name: dt, ruleset: pkgsrc,         setname: dt-virtconsoles }
@@ -162,6 +162,6 @@
 
 - { name: dust, wwwpart: bootandy, setname: du-dust }
 - { name: dust, wwwpart: pixie, setname: dust-pixie }
-- { name: dust, warning: "please classify me" }
+- { name: dust, addflag: unclassified }
 
 - { name: dwb, wwwpart: dwb3.3, setname: dwb3.3 } # documenter's workbench vs. webkit-based browser

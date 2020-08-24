@@ -2,20 +2,20 @@
 
 - { name: fail, ruleset: pld, setname: fail-atari }
 - { name: fail, wwwpart: [chneukirchen,leahneukirchen], setname: fail-crash }
-- { name: fail, warning: "please classify me" }
+- { name: fail, addflag: unclassified }
 
 - { name: fd, wwwpart: sharkdp, setname: fd-find }
 - { name: fd, wwwpart: vector.co.jp, setname: fdclone }
-- { name: fd, warning: "please classify me" }
+- { name: fd, addflag: unclassified }
 
 - { name: fetch, wwwpart: freebsd, setname: fetch-freebsd }
 - { name: fetch, wwwpart: sourceforge.net/projects/fetch, setname: fetch-lhanson }
-- { name: fetch, warning: "please classify me" }
+- { name: fetch, addflag: unclassified }
 
 - { name: fex, wwwpart: [semicomplete,jordansissel], setname: fex-field-extraction }
 - { name: fex, wwwpart: [uni-stuttgart,belwue], setname: fex-file-exchange }
 - { name: fex, ruleset: [aix,yacp], setname: fex-field-extraction }
-- { name: fex, warning: "please classify me" }
+- { name: fex, addflag: unclassified }
 
 - { name: flame, wwwpart: flam3, setname: flam3 } # not really an ambiguity, but stay safe; XXX: problem
 
@@ -25,7 +25,7 @@
 - { name: flash, wwwpart: hypriot, setname: flash-hypriot }
 - { name: flash, category: shells, setname: flash-shell }
 - { name: flash, wwwpart: ccb.jhu.edu, setname: flash-seq } # Fast Length Adjustment of SHort reads
-- { name: flash, warning: "please classify me" }
+- { name: flash, addflag: unclassified }
 
 - { name: flint, setname: flint-checker, wwwpart: pengwynn }
 
@@ -36,18 +36,18 @@
 - { name: flood, wwwpart: flood-ui, setname: flood-rtorrent-ui }
 - { name: flood, wwwpart: apache, setname: flood-http-load-tester }
 - { name: flood, ruleset: yacp, setname: flood-rapidly-invoke-command }
-- { name: flood, warning: "please classify me" }
+- { name: flood, addflag: unclassified }
 
 - { name: fluid, wwwpart: hammersound, setname: fluid-soundfont } # XXX: problem
 
 - { name: figurine, wwwpart: arsham, setname: figurine-banner }
 - { name: figurine, wwwpart: sourceforge, setname: figurine-graphics }
 - { name: figurine, ruleset: gobolinux, setname: figurine-graphics }
-- { name: figurine, warning: "please classify me" }
+- { name: figurine, addflag: unclassified }
 
 - { name: foomatic, ruleset: [sisyphus,aosc,gobolinux], remove: true } # metapackages
 - { name: foomatic, ruleset: [centos,fedora], setname: foomatic-db-engine } # metapackages
-- { name: foomatic, warning: "please classify me" }
+- { name: foomatic, addflag: unclassified }
 
 - { name: foreman, wwwpart: ddollar, setname: "ruby:foreman" }
 
@@ -55,7 +55,7 @@
 - { name: forge, wwwpart: nathandines, setname: forge-continuous-delivery }
 - { name: forge, wwwpart: arrayfire, setname: forge-visualizations }
 - { name: forge, summpart: visualization, setname: forge-visualizations }
-- { name: forge, warning: "please classify me" }
+- { name: forge, addflag: unclassified }
 
 - { name: fortune, wwwpart: ahills, setname: fortune-ahills }
 - { name: fortune, wwwpart: ibiblio, verpat: "0\\..*", setname: fortune-ibiblio }
@@ -64,7 +64,7 @@
 - { name: fortune, wwwpart: freebsd, setname: fortune-freebsd }
 - { name: fortune, wwwpart: fefe, setname: fortune-fefe }
 - { name: fortune, ruleset: pkgsrc, setname: fortune-mod-ibiblio } # http://cvsweb.netbsd.org/bsdweb.cgi/~checkout~/pkgsrc/games/fortune/Makefile?content-type=text/plain see DISTNAME
-- { name: fortune, warning: "please classify me" }
+- { name: fortune, addflag: unclassified }
 
 - { name: fmt, ruleset: exherbo, setname: fmt-plan9 }
 
@@ -74,7 +74,7 @@
 - { name: fred, wwwpart: enormousplow, setname: fred-action-game }
 - { name: fred, wwwpart: freenetproject, setname: fred-freenet-reference-daemon }
 - { name: fred, ruleset: os4depot, setname: fred-action-game }
-- { name: fred, warning: "please classify me" }
+- { name: fred, addflag: unclassified }
 
 - { name: frozen-bubble, verpat: "[0-9]+\\.[0-9]{3}.*", setname: "perl:games-frozenbubble" } # XXX: branches usecase?
 

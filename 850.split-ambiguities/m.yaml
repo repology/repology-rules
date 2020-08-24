@@ -2,7 +2,7 @@
 
 - { name: maddy, wwwpart: foxcpp, setname: maddy-mail-server }
 - { name: maddy, wwwpart: progsource, setname: maddy-markdown-parser }
-- { name: maddy, warning: "please classify me" }
+- { name: maddy, addflag: unclassified }
 
 - { name: maelstrom, ruleset: maemo, setname: maelstrom-maemo }
 
@@ -12,20 +12,20 @@
 - { name: magnum, wwwpart: openstack, setname: magnum-openstack }
 - { name: magnum, wwwpart: [magnum.graphics,mosra.cz], setname: magnum-middleware }
 - { name: magnum, summpart: middleware, setname: magnum-middleware }
-- { name: magnum, warning: "please classify me" }
+- { name: magnum, addflag: unclassified }
 
 - { name: mako, wwwpart: [mako-project,emersion], setname: mako-wayland }
 - { name: mako, wwwpart: makotemplates, setname: "python:mako" }
 - { name: mako, category: lang, ruleset: openwrt, setname: "python:mako" }
 - { name: mako, category: programming.python, setname: "python:mako" }
 - { name: mako, ruleset: slackware, setname: "python:mako" }
-- { name: mako, warning: "please classify me" }
+- { name: mako, addflag: unclassified }
 
 - { name: man, wwwpart: man-db,        setname: man-db }
 
 - { name: mantis, wwwpart: mantisbt, setname: mantisbt }
 - { name: mantis, wwwpart: splatlab, setname: mantis-sequence-search }
-- { name: mantis, warning: "please classify me" }
+- { name: mantis, addflag: unclassified }
 
 - { name: mars, category: games, setname: m.a.r.s. }
 - { name: mars, wwwpart: [marsshooter,mars-game], setname: m.a.r.s. }
@@ -34,28 +34,28 @@
 - { name: mars, category: Development/Java, setname: mars-mips }
 - { name: mars, wwwpart: courses.missouristate.edu, setname: mars-mips }
 - { name: mars, ruleset: pld, setname: marsnomercy }
-- { name: mars, warning: "please classify me" }
+- { name: mars, addflag: unclassified }
 
 - { name: martian, category: universe/python, setname: "python:martian" }
 - { name: martian, ver: "1.0", setname: pachi }
-- { name: martian, warning: "please classify me" }
+- { name: martian, addflag: unclassified }
 
 - { name: mas, wwwpart: aachen, setname: mas-assembler }
 - { name: mas, wwwpart: mas-cli, setname: mas-mac-app-store }
-- { name: mas, warning: "please classify me" }
+- { name: mas, addflag: unclassified }
 
 - { name: mash, wwwpart: [pagure,fedora], setname: mash-pagure }
 - { name: mash, wwwpart: [mash.readthedocs,marbl], setname: mash-genome-distance }
 - { name: mash, wwwpart: clutter, setname: mash-clutter }
 - { name: mash, ruleset: pld, setname: mash-clutter }
-- { name: mash, warning: "please classify me" } # nothing should be left here
+- { name: mash, addflag: unclassified } # nothing should be left here
 
 - { name: mc, wwwpart: minio, setname: minio-mc }
 - { name: mc, wwwpart: fetk, setname: mc-manifold-code }
 
 - { name: mcs, wwwpart: go-mono, setname: mcs-mono-compiler }
 - { name: mcs, wwwpart: atheme, setname: mcs-modular-config-system }
-- { name: mcs, warning: "please classify me" }
+- { name: mcs, addflag: unclassified }
 
 - { name: mdk, wwwpart: wlan, setname: mdk-wireless-injection }
 # otherwise, GNU MIX Development Kit
@@ -65,24 +65,24 @@
 - { name: mdp, wwwpart: navy.mil, setname: mdp-multicast-file-transfer }
 - { name: mdp, wwwpart: tamentis, setname: mdp-password-manager }
 - { name: mdp, summpart: markdown, setname: mdp-markdown-presentation-tool }
-- { name: mdp, warning: "please classify me" }
+- { name: mdp, addflag: unclassified }
 
 - { name: mdr, wwwpart: michaelmure, setname: mdr-markdown-renderer }
 - { name: mdr, wwwpart: halffullheart, setname: mdr-make-diffs-readable }
-- { name: mdr, warning: "please classify me" }
+- { name: mdr, addflag: unclassified }
 
 - { name: mds, wwwpart: mandriva, setname: mds-mandriva } # original
 - { name: mds, wwwpart: siveo, setname: mds-magaia } # forks?
 - { name: mds, wwwpart: rosa, setname: mds-rosa }
-- { name: mds, warning: "please classify me" }
+- { name: mds, addflag: unclassified }
 
 - { name: meme, wwwpart: meme-suite, setname: meme-motif-discovery }
 - { name: meme, wwwpart: nomad-software, setname: meme-image-generator }
-- { name: meme, warning: "please classify me" }
+- { name: meme, addflag: unclassified }
 
 - { name: memo, wwwpart: rox, setname: memo-rox }
 - { name: memo, wwwpart: vandalo, setname: memo-palovandalo }
-- { name: memo, warning: "please classify me" }
+- { name: memo, addflag: unclassified }
 
 - { name: memphis, wwwpart: compilertools, setname: memphis-compilertools }
 
@@ -90,7 +90,7 @@
 
 - { name: memwatch, wwwpart: [pascalrd,unixdev], setname: memwatch-viewer }
 - { name: memwatch, wwwpart: linkdata, setname: memwatch-leak-detection }
-- { name: memwatch, warning: "please classify me" }
+- { name: memwatch, addflag: unclassified }
 
 - { name: merlin, wwwpart: op5, setname: merlin-op5 }
 
@@ -98,39 +98,39 @@
 
 - { name: meteor, wwwpart: meteor.com, setname: meteorjs }
 - { name: meteor, wwwpart: [meteorgba,blastrock], setname: meteorgba }
-- { name: meteor, warning: "please classify me" }
+- { name: meteor, addflag: unclassified }
 
 - { name: metronome, wwwpart: metronome.im, setname: metronome-xmpp-server }
 - { name: metronome, wwwpart: ahupowerdns, setname: metronome-graph-script }
 - { name: metronome, wwwpart: artemanufrij, setname: metronome-elementary }
 - { name: metronome, ruleset: openbsd, setname: metronome-console }
-- { name: metronome, warning: "please classify me" }
+- { name: metronome, addflag: unclassified }
 
 - { name: mig, wwwpart: gnu.org, setname: gnu-mig }
 - { name: mig, wwwpart: mig.ninja, setname: mig-mozilla }
-- { name: mig, warning: "please classify me" }
+- { name: mig, addflag: unclassified }
 
 - { name: minder, wwwpart: phase1geo, setname: minder-mindmap }
 - { name: minder, wwwpart: alhem, setname: minder-peerlist }
-- { name: minder, warning: "please classify me" }
+- { name: minder, addflag: unclassified }
 
 - { name: minify, setname: "go:minify", wwwpart: tdewolff }
 
 - { name: minit, wwwpart: ckyln, setname: minit-ckyln }
 - { name: minit, wwwpart: cemkeylan, setname: minit-ckyln }
 - { name: minit, wwwpart: fefe, setname: minit-fefe }
-- { name: minit, warning: "please classify me" }
+- { name: minit, addflag: unclassified }
 
 - { name: minizip, wwwpart: nmoinvaz, setname: minizip-nmoinvaz } # fork
 
 - { name: minlog, wwwpart: [minlog-system,mathematik], setname: minlog-proof-system }
 - { name: minlog, wwwpart: esotericsoftware, setname: "java:minlog" }
 - { name: minlog, ruleset: sisyphus, setname: "java:minlog" }
-- { name: minlog, warning: "please classify me" }
+- { name: minlog, addflag: unclassified }
 
 - { name: mint, wwwpart: mint-lang, setname: mint-lang }
 - { name: mint, wwwpart: yonaskolb, setname: mint-swift-package-manager }
-- { name: mint, warning: "please classify me" }
+- { name: mint, addflag: unclassified }
 
 # no ambiguity (yet), but better be safe, as there are other *-mk-files
 - { name: mk-files, summpart: bmake, setname: bmake-mk-files }
@@ -140,30 +140,30 @@
 
 - { name: mmix, wwwpart: [cs.hm.edu,knuth], setname: mmix-knuth }
 - { name: mmix, wwwpart: mcmilk, setname: mmix-mixer }
-- { name: mmix, warning: "please classify me" }
+- { name: mmix, addflag: unclassified }
 
 - { name: mog, setname: mog-cat, wwwpart: witchard }
 - { name: mog, setname: mazeofgalious, wwwpart: braingames }
-- { name: mog, warning: "please classify me" }
+- { name: mog, addflag: unclassified }
 
 - { name: mongo, wwwpart: massd, setname: "ocaml:mongo" }
 - { name: mongo, wwwpart: namesys, setname: mongo-fs-load-tester }
 - { name: mongo, ruleset: sisyphus, setname: mongodb }
-- { name: mongo, warning: "please classify me" }
+- { name: mongo, addflag: unclassified }
 
 - { name: mpd, wwwpart: [musicpd,mpd.wikia.com], addflag: classified }
 - { name: mpd, category: [media-sound,Sound,audio], addflag: classified }
 - { name: mpd, wwwpart: cs.arizona.edu/mpd, setname: mpd-compiler }
 - { name: mpd, ruleset: [kaos,pld], addflag: classified }
 - { name: mpd, summpart: "music player daemon", addflag: classified }
-- { name: mpd, noflag: classified, warning: "please classify me" }
+- { name: mpd, noflag: classified, addflag: unclassified }
 
 - { name: mtree, wwwpart: deis.unibo.it, setname: m-tree }
 - { name: mtree, wwwpart: archiecobbs, setname: mtree-port }
 - { name: mtree, wwwpart: netbsd, setname: mtree-netbsd }
 - { name: mtree, ruleset: ravenports, setname: mtree-dragonfly }
 - { name: mtree, ruleset: sisyphus, setname: mtree-sisyphus } # source unknown, lazy to investigate
-- { name: mtree, warning: "please classify me" }
+- { name: mtree, addflag: unclassified }
 
 - { name: mustache, category: [Development/Ruby, ruby], setname: "ruby:mustache" }
 
@@ -178,7 +178,7 @@
 - { name: mpc, ruleset: [rudix,hpux,solus], setname: gnumpc }
 - { name: mpc, ruleset: aosc, category: libs, setname: gnumpc }
 - { name: mpc, ruleset: pld, addflag: classified }
-- { name: mpc, noflag: classified, warning: "please classify me" }
+- { name: mpc, noflag: classified, addflag: unclassified }
 
 - { name: msgpack, category: dev-java, setname: "java:msgpack" }
 
@@ -186,7 +186,7 @@
 
 - { name: mtail, wwwpart: immute, setname: mtail-tail }
 - { name: mtail, wwwpart: google/mtail, setname: mtail-logs-metrics }
-- { name: mtail, warning: "please classify me" }
+- { name: mtail, addflag: unclassified }
 
 - { name: mu, wwwpart: [ntoll,mu-editor], setname: mu-editor }
 - { name: mu, wwwpart: kreogist, setname: kreogist-mu } # name taken form AUR package; may also use e.g. mu-music-manager
@@ -199,7 +199,7 @@
 - { name: muscle, wwwpart: drive5, setname: muscle-sequence-alignment }
 - { name: muscle, wwwpart: msli, setname: muscle-messaging-system }
 - { name: muscle, ruleset: yacp, setname: muscle-mauve } # seem to somehow relate to muscle-sequence-alignment, but different homepage and versioning
-- { name: muscle, warning: "please classify me" }
+- { name: muscle, addflag: unclassified }
 
 - { name: muse, wwwpart: emacs, setname: "emacs:muse" }
 - { name: muse, wwwpart: [sequencer,lmuse], setname: muse-sequencer }
@@ -208,10 +208,10 @@
 - { name: muse, ruleset: exherbo, setname: muse-streaming }
 - { name: muse, wwwpart: spatula, setname: muse-memusage }
 - { name: muse, wwwpart: xzzz9097, setname: muse-spotify-controller }
-- { name: muse, warning: "please classify me" }
+- { name: muse, addflag: unclassified }
 
 - { name: mx, wwwpart: clutter, setname: mx-clutter }
 - { name: mx, wwwpart: graalvm, setname: mx-graal }
 - { name: mx, summpart: clutter, setname: mx-clutter }
 - { name: mx, ruleset: [exherbo,pld], setname: mx-clutter }
-- { name: mx, warning: "please classify me" }
+- { name: mx, addflag: unclassified }

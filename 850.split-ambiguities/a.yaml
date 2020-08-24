@@ -12,7 +12,7 @@
 - { name: ace, summpart: "adaptive communication environment", setname: ace-framework }
 - { name: ace, ruleset: solus, setname: ace-voip }
 - { name: ace, ruleset: yacp, setname: ace-error-correction }
-- { name: ace, warning: "please classify me" }
+- { name: ace, addflag: unclassified }
 
 - { name: aclock, ruleset: freebsd, setname: gnustep-aclock } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
@@ -22,25 +22,25 @@
 - { name: acme, wwwpart: "https://git.rapsys.eu/?p=acme", setname: acme-perl }
 - { name: acme, summpart: "6502", setname: acme-crossassembler }
 - { name: acme, ruleset: openwrt, setname: acme.sh }
-- { name: acme, warning: "please classify me" }
+- { name: acme, addflag: unclassified }
 
 - { name: addresses, ruleset: [freebsd,openbsd,pkgsrc], setname: gnustep-addresses } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
 - { name: adios, wwwpart: mightypork, setname: adios-session-exit }
 - { name: adios, wwwpart: center-projects, setname: adios-adaptable-io-system }
-- { name: adios, warning: "please classify me" }
+- { name: adios, addflag: unclassified }
 
 - { name: agave, wwwpart: colorscheme, setname: agave-colorscheme }
 - { name: agave, wwwpart: agave, setname: "fonts:agave" }
 - { name: agave, summpart: colorscheme, setname: agave-colorscheme }
-- { name: agave, warning: "please classify me" }
+- { name: agave, addflag: unclassified }
 
 - { name: agrep, verge: "4.17", setname: agrep-debian } # debian fork
-- { name: agrep, warning: "please classify me" }
+- { name: agrep, addflag: unclassified }
 
 - { name: alchemy, wwwpart: chemy.org, setname: alchemy-painting }
 - { name: alchemy, wwwpart: adobe, setname: alchemy-actionscript }
-- { name: alchemy, warning: "please classify me" }
+- { name: alchemy, addflag: unclassified }
 
 - { name: ale, wwwpart: aleditor, setname: aleditor }
 - { name: ale, wwwpart: sc932, setname: ale-assemby-likelihood-estimator }
@@ -50,14 +50,14 @@
 - { name: ale, ruleset: sisyphus, setname: ale-anti-lamenessing-engine }
 - { name: ale, wwwpart: aleditor, setname: aleditor }
 - { name: ale, ruleset: os4depot, setname: ale-image-processor }
-- { name: ale, warning: "please classify me" }
+- { name: ale, addflag: unclassified }
 
 - { name: alexandria, wwwpart: lisp, setname: cl-alexandria }
 # otherwise GNOME book manager
 
 - { name: allure, wwwpart: allureofthestars, setname: allureofthestars }
 - { name: allure, wwwpart: allure-framework/allure2, setname: allure-report }
-- { name: allure, warning: "please classify me" }
+- { name: allure, addflag: unclassified }
 
 - { name: alternatives, wwwpart: chkconfig, setname: chkconfig } # part of
 
@@ -65,7 +65,7 @@
 - { name: amap, wwwpart: thc, setname: amap-pentesting }
 - { name: amap, wwwpart: berkeley, setname: amap-protein }
 - { name: amap, ruleset: [pld,pkgsrc,openbsd], setname: amap-pentesting }
-- { name: amap, warning: "please classify me" }
+- { name: amap, addflag: unclassified }
 
 - { name: amber, setname: amber-search, wwwpart: dalance }
 
@@ -77,40 +77,40 @@
 - { name: amp, category: "Web Services/Application and Web Servers", setname: amp-apachephp }
 - { name: amp, category: audio, setname: amp-player }
 - { name: amp, ruleset: slackware, setname: amp-player }
-- { name: amp, warning: "please classify me" }
+- { name: amp, addflag: unclassified }
 
 - { name: anaconda, wwwpart: [continuum.io,anaconda.com], setname: anaconda-python }
 - { name: anaconda, wwwpart: fedoraproject, setname: anaconda-installer }
-- { name: anaconda, warning: "please classify me" }
+- { name: anaconda, addflag: unclassified }
 
 - { name: anna, wwwpart: marcelhollerbach, setname: anna-greeter }
 - { name: anna, category: debian-installer, setname: anna-package-manager }
-- { name: anna, warning: "please classify me" }
+- { name: anna, addflag: unclassified }
 
 - { name: ao, wwwpart: klaussinani, setname: ao-microsoft-to-do }
 - { name: ao, wwwpart: [libao,xiph], setname: libao }
-- { name: ao, warning: "please classify me" }
+- { name: ao, addflag: unclassified }
 
 - { name: ape, wwwpart: biology, setname: ape-plasmid-editor }
 - { name: ape, wwwpart: ape-project.org, setname: ape-ajax-push-engine }
 - { name: ape, wwwpart: tddft, setname: ape-atomic-pseudopotentials-engine }
 - { name: ape, ruleset: nix, setname: ape-attempto-controlled-english }
-- { name: ape, warning: "please classify me" }
+- { name: ape, addflag: unclassified }
 
 - { name: arb, wwwpart: [fredrikj,arblib], setname: arb-fp }
 - { name: arb, verpat: "2.*", setname: arb-fp }
 - { name: arb, wwwpart: arb-home, setname: arb-dna }
 - { name: arb, verpat: "6.*", setname: arb-dna }
-- { name: arb, warning: "please classify me" }
+- { name: arb, addflag: unclassified }
 
 - { name: areca, wwwpart: areca-backup, setname: areca-backup }
 - { name: areca, wwwpart: areca.com.tw, setname: areca-sata-driver }
 - { name: areca, category: Archiving/Backup, setname: areca-backup }
-- { name: areca, warning: "please classify me" }
+- { name: areca, addflag: unclassified }
 
 - { name: arena, wwwpart: elderscrolls, setname: elderscrolls-arena }
 #- { name: arena, wwwpart: minimalinux.org/arena, setname: arena-lang } # dead
-- { name: arena, warning: "please classify me" }
+- { name: arena, addflag: unclassified }
 
 - { name: ares, wwwpart: aresgalaxy, setname: ares-galaxy }
 - { name: ares, wwwpart: c-ares, setname: c-ares }
@@ -124,12 +124,12 @@
 
 - { name: arrow, wwwpart: apache, setname: apache-arrow }
 - { name: arrow, wwwpart: crsmithdev, setname: "python:arrow" }
-- { name: arrow, warning: "please classify me" }
+- { name: arrow, addflag: unclassified }
 
 - { name: artemis, wwwpart: sanger, setname: artemis-genome-viewer }
 - { name: artemis, wwwpart: apache, setname: apache-artemis }
 - { name: artemis, category: Development/Java, setname: apache-artemis }
-- { name: artemis, warning: "please classify me" }
+- { name: artemis, addflag: unclassified }
 
 - { name: artillery, wwwpart: artillery.io, setname: artillery-load-testing-toolkit }
 
@@ -152,7 +152,7 @@
 - { name: atlas, wwwpart: math-atlas, addflag: classified }
 - { name: atlas, summpart: "linear algebra", addflag: classified }
 - { name: atlas, summpart: "atlas protocol", setname: atlas-c++ }
-- { name: atlas, warning: "please classify me", noflag: classified }
+- { name: atlas, addflag: unclassified, noflag: classified }
 
 - { name: atom, wwwpart: bayofrum, setname: atom-converter } # "Converts text files to html with special attributes"
 # otherwise bloatware text editor
@@ -161,16 +161,16 @@
 - { name: astra, wwwpart: flipkart-incubator, setname: astra-pentest }
 - { name: astra, category: multimedia, setname: astra-iptv }
 - { name: astra, ruleset: sisyphus, setname: astra-iptv }
-- { name: astra, warning: "please classify me" }
+- { name: astra, addflag: unclassified }
 
 - { name: astral, wwwpart: pypi.python.org/pypi/astral, setname: "python:astral" }
 - { name: astral, wwwpart: smirarab, setname: astral-species-tree }
-- { name: astral, warning: "please classify me" }
+- { name: astral, addflag: unclassified }
 
 - { name: astroid, wwwpart: astroidmail, setname: astroidmail }
 - { name: astroid, wwwpart: astroid.org, setname: "python:astroid" }
 - { name: astroid, wwwpart: [pycqa,logilab/astroid], setname: "python:astroid" }
-- { name: astroid, warning: "please classify me" }
+- { name: astroid, addflag: unclassified }
 
 - { name: authenticator, setname: gnome-authenticator, wwwpart: [gnome,bilelmoussaoui] }
 
@@ -179,7 +179,7 @@
 - { name: awf, wwwpart: [scn.rain.com,henry_spencer], setname: awf-formatter } # Amazingly Workable Formatter
 - { name: awf, wwwpart: awf-cms, setname: awf-cms } # Amazingly Workable Formatter
 - { name: awf, wwwpart: valr, addflag: classified } # A Widget Factory
-- { name: awf, noflag: classified, warning: "please classify me" }
+- { name: awf, noflag: classified, addflag: unclassified }
 
 - { name: avro, wwwpart: maateen, setname: avro-maateen }
 
@@ -187,8 +187,8 @@
 - { name: axiom, wwwpart: axiom-developer, setname: axiom-algebra }
 - { name: axiom, ruleset: sisyphus, setname: apache-axiom }
 - { name: axiom, ruleset: debuntu, setname: axiom-algebra }
-- { name: axiom, warning: "please classify me" }
+- { name: axiom, addflag: unclassified }
 
 - { name: axl, wwwpart: ecp-veloc, setname: axl-async-transfer-library }
 - { name: axl, wwwpart: xml.aspl.es, setname: axl-xml-parsing-library }
-- { name: axl, warning: "please classify me" }
+- { name: axl, addflag: unclassified }

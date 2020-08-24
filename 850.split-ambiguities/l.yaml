@@ -5,11 +5,11 @@
 - { name: ldm, wwwpart: LemonBoy, setname: ldm-mounter }
 - { name: ldm, ruleset: nix, setname: ldm-mounter }
 - { name: ldm, wwwpart: ltsp, setname: ldm-ltsp }
-- { name: ldm, warning: "please classify me" }
+- { name: ldm, addflag: unclassified }
 
 - { name: leaflet, wwwpart: [leafletjs,leaflet.cloudmade.com], setname: "js:leaflet" }
 - { name: leaflet, category: dev-tex, setname: "texlive:leaflet" }
-- { name: leaflet, warning: "please classify me" }
+- { name: leaflet, addflag: unclassified }
 
 - { name: lemon, wwwpart: lemon.cs.elte.hu, setname: coin-or-lemon }
 - { name: lemon, summpart: "Efficient Modeling", setname: coin-or-lemon }
@@ -18,21 +18,21 @@
 - { name: lemon, summpart: deprecated, remove: true } # vcpkg deprecated package
 - { name: lemon, ruleset: pld, setname: coin-or-lemon }
 - { name: lemon, ruleset: pclinuxos, setname: lemon-lalr1-sqlite }
-- { name: lemon, warning: "please classify me" }
+- { name: lemon, addflag: unclassified }
 
 - { name: lepton, wwwpart: dropbox, setname: lepton-jpeg-compressor }
 - { name: lepton, wwwpart: hackjutsu, setname: lepton-snippet-manager }
-- { name: lepton, warning: "please classify me" }
+- { name: lepton, addflag: unclassified }
 
 - { name: libcrypt, wwwpart: cygwin, setname: libcrypt-cygwin }
 - { name: libcrypt, wwwpart: dipperstein, setname: libcrypt-dipperstein }
-- { name: libcrypt, warning: "please classify me" }
+- { name: libcrypt, addflag: unclassified }
 
 - { name: libelf, wwwpart: elfutils, setname: elfutils } # XXX: problem
 - { name: libelf, wwwpart: elftoolchain, setname: elftoolchain } # XXX: problem
 
 - { name: liberation, wwwpart: liberation-fonts, setname: "fonts:liberation" }
-- { name: liberation, warning: "please classify me" }
+- { name: liberation, addflag: unclassified }
 
 - { name: libfastjson, wwwpart: alibaba, setname: "java:fastjson" }
 
@@ -45,12 +45,12 @@
 
 - { name: libmfx, wwwpart: mfx_dispatch, setname: mfx-dispatch }
 - { name: libmfx, wwwpart: intel-media-sdk, setname: intel-media-sdk }
-- { name: libmfx, warning: "please classify me" }
+- { name: libmfx, addflag: unclassified }
 
 - { name: libmpc,                      wwwpart: multiprecision, setname: gnumpc }
 
 - { name: libtls-standalone, wwwpart: libressl, setname: libressl, addflavor: true }
-- { name: libtls-standalone, warning: "please classify me" }
+- { name: libtls-standalone, addflag: unclassified }
 
 - { name: libtorrent, wwwpart: arvidn, setname: libtorrent-rasterbar }
 
@@ -69,17 +69,17 @@
 
 - { name: libwww, wwwpart: w3.org, setname: w3c-libwww }
 - { name: libwww, summpart: w3c, setname: w3c-libwww }
-- { name: libwww, warning: "please classify me" }
+- { name: libwww, addflag: unclassified }
 
 - { name: lightning, wwwpart: gnu, setname: lightning-gnu }
 - { name: lightning, ruleset: [yacp,pld], setname: lightning-gnu }
 - { name: lightning, wwwpart: mozilla, setname: lightning-mozilla }
 - { name: lightning, summpart: mozilla, setname: lightning-mozilla }
-- { name: lightning, warning: "please classify me" }
+- { name: lightning, addflag: unclassified }
 
 - { name: lit, wwwpart: luvit, setname: lit-luvit }
 - { name: lit, wwwpart: llvm, setname: lit-llvm }
-- { name: lit, warning: "please classify me" }
+- { name: lit, addflag: unclassified }
 
 # gentoo vs. fedora livecd-tools
 - { name: livecd-tools,                wwwpart: gentoo, setname: livecd-tools-gentoo }
@@ -95,13 +95,13 @@
 - { name: loki, wwwpart: grafana, setname: loki-log-aggregation-system }
 - { name: loki, wwwpart: loki-lib, setname: loki-lib }
 - { name: loki, ruleset: debuntu, setname: loki-mcmc-linkage-analysis } # XXX: problem
-- { name: loki, warning: "please classify me" }
+- { name: loki, addflag: unclassified }
 
 - { name: lookup, wwwpart: [lookup2.github.io,ikazuhiro,edict], setname: "emacs:lookup" }
 - { name: lookup, wwwpart: dnssec-tools, setname: lookup-dns }
 - { name: lookup, ver: "1.08b", setname: lookup-search }
 - { name: lookup, ruleset: maemo, setname: lookup-dns }
-- { name: lookup, warning: "please classify me" }
+- { name: lookup, addflag: unclassified }
 
 - { name: "lua:path", wwwpart: lua-path, setname: "lua:lua-path" }
 
@@ -116,6 +116,6 @@
 - { name: lux, wwwpart: cybercatgurrl, setname: lux-brightness-cybercatgurrl }
 - { name: lux, ruleset: yacp, setname: lux-fulltext-search }
 - { name: lux, ruleset: exherbo, setname: lux-kernel-updater }
-- { name: lux, warning: "please classify me" }
+- { name: lux, addflag: unclassified }
 
 - { name: lzma, ruleset: gentoo, category: dev-java, addflavor: java } # add flavor to fix version accounting wrt. normal lzma library

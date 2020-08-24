@@ -6,26 +6,26 @@
 - { name: gcap, wwwpart: code.google.com/p/gcap, setname: gcap-youtube }
 - { name: gcap, summpart: youtube, setname: gcap-youtube }
 - { name: gcap, wwwpart: gnome.org, setname: gcap-cabfiles }
-- { name: gcap, warning: "please classify me" }
+- { name: gcap, addflag: unclassified }
 
 - { name: gambit, category: games-board, setname: gambitchess }
 - { name: gambit, summpart: [gambit-c,scheme], setname: gambit-c }
 - { name: gambit, wwwpart: [gambitscheme,iro.umontreal.ca,github.com/gambit/gambit], setname: gambit-c }
 - { name: gambit, wwwpart: gambit-project, setname: gambit-game-theory }
 - { name: gambit, wwwpart: gambit-viewer, setname: gambit-viewer }
-- { name: gambit, warning: "please classify me" }
+- { name: gambit, addflag: unclassified }
 
 - { name: gatling, wwwpart: gatling.io, setname: gatling-stress-tool }
 
 - { name: gdl, wwwpart: [gnome,anjuta], setname: gdl-gnome-docking-library }
 - { name: gdl, wwwpart: gnudatalanguage, setname: gnudatalanguage }
 - { name: gdl, ruleset: [sisyphus,aosc,cygwin,debuntu,exherbo,openbsd,pclinuxos,pld], setname: gdl-gnome-docking-library }
-- { name: gdl, warning: "please classify me" }
+- { name: gdl, addflag: unclassified }
 
 - { name: gdm, wwwpart: gnome, setname: gdm-gnome-display-manager }
 - { name: gdm, summpart: gnome, setname: gdm-gnome-display-manager }
 - { name: gdm, wwwpart: sparrc, setname: gdm-go-dependency-manager }
-- { name: gdm, warning: "please classify me" }
+- { name: gdm, addflag: unclassified }
 
 - { name: getopt, ruleset: openwrt, setname: util-linux }
 - { name: getopt, ruleset: sisyphus, setname: "java:getopt" }
@@ -37,12 +37,12 @@
 
 - { name: gimme, wwwpart: travis-ci/gimme, setname: gimme-go }
 - { name: gimme, wwwpart: netbsd, setname: gimme-netbsd }
-- { name: gimme, warning: "please classify me" }
+- { name: gimme, addflag: unclassified }
 
 - { name: ginkgo, wwwpart: mandriva, setname: ginkgo-navigator }
 - { name: ginkgo, wwwpart: ginkgo-project, setname: ginkgo-linear-algebra }
 - { name: ginkgo, wwwpart: onsi, setname: "go:ginkgo" }
-- { name: ginkgo, warning: "please classify me" }
+- { name: ginkgo, addflag: unclassified }
 
 - { name: gip, wwwpart: dalance, setname: "rust:gip" }
 
@@ -61,13 +61,13 @@
 - { name: glue, wwwpart: daswg, setname: lcsoft-glue }
 - { name: glue, wwwpart: owasp, setname: owasp-glue }
 - { name: glue, wwwpart: gluecss, setname: gluecss }
-- { name: glue, warning: "please classify me" }
+- { name: glue, addflag: unclassified }
 
 - { name: gmtk, wwwpart: j.ee.washington.edu, setname: "gmtk-graphical-models-toolkit" }
 
 - { name: gnat-util, ruleset: [arch,gentoo], setname: gnat-util-adacore }
 - { name: gnat-util, ruleset: [freebsd,pkgsrc,ravenports], setname: gnat-util-gcc }
-- { name: gnat-util, warning: "please classify me" }
+- { name: gnat-util, addflag: unclassified }
 
 - { name: gnupg, wwwpart: gpg4win, setname: gpg4win } # XXX: problem?
 
@@ -76,15 +76,15 @@
 - { name: goat, wwwpart: mispp, setname: goat-database }
 - { name: goat, wwwpart: blampe, setname: goat-diagrams }
 - { name: goat, wwwpart: brocode, setname: goat-sleep }
-- { name: goat, warning: "please classify me" }
+- { name: goat, addflag: unclassified }
 
 - { name: goby, wwwpart: kazu, setname: goby-presentation }
 - { name: goby, wwwpart: [campagne,chagakk], setname: goby-dns-sequencing }
-- { name: goby, warning: "please classify me" }
+- { name: goby, addflag: unclassified }
 
 - { name: gollum, wwwpart: github.com/gollum/gollum, setname: gollum-wiki }
 - { name: gollum, wwwpart: trivago, setname: gollum-message-multiplexor }
-- { name: gollum, noflag: classified, warning: "please classify me" }
+- { name: gollum, noflag: classified, addflag: unclassified }
 
 - { name: gom, category: [sound,media-sound,universe/sound], setname: gom-mixer }
 - { name: gom, wwwpart: installiert, setname: gom-mixer }
@@ -98,29 +98,29 @@
 - { name: gosu, wwwpart: libgosu, setname: "ruby:gosu" }
 - { name: gosu, summpart: "game development", setname: "ruby:gosu" }
 - { name: gosu, wwwpart: gosu-lang, setname: gosu-lang }
-- { name: gosu, noflag: classified, warning: "please classify me" }
+- { name: gosu, noflag: classified, addflag: unclassified }
 
 - { name: got, wwwpart: melbahja, setname: got-downloader }
 - { name: got, wwwpart: gameoftrees, setname: got-game-of-trees }
-- { name: got, warning: "please classify me" }
+- { name: got, addflag: unclassified }
 
 - { name: gpm, wwwpart: pote, setname: "go:gpm" }
 
 - { name: gps, wwwpart: adacore, setname: gnat-programming-studio }
 - { name: gps, wwwpart: gimp, setname: gimp-paint-studio }
 - { name: gps, ruleset: pclinuxos, setname: gps-applet }
-- { name: gps, warning: "please classify me" }
+- { name: gps, addflag: unclassified }
 
 - { name: greg, wwwpart: [gnu.org,gna.org], setname: greg-guile-test-framework } # buried by gna
 - { name: greg, wwwpart: manolomartinez, setname: greg-podcase-aggregator }
 - { name: greg, ruleset: openbsd, setname: greg-parser-generator }
-- { name: greg, warning: "please classify me" }
+- { name: greg, addflag: unclassified }
 
 - { name: grepcidr, wwwpart: [taugh,grepcidr-2/], setname: grepcidr-2 } # explained on http://www.pc-tools.net/unix/grepcidr/
 
 - { name: grin, wwwpart: [mimblewimble,grin.mw], setname: grin-mimblewimble }
 - { name: grin, wwwpart: [pypi/grin,rkern], setname: grin-grep }
-- { name: grin, warning: "please classify me" }
+- { name: grin, addflag: unclassified }
 
 - { name: grip, wwwpart: [sourceforge.net/projects/grip,nostatic.org/grip], setname: grip-cd-ripper }
 - { name: grip, wwwpart: kokoko3k, setname: grip-gambas-previewer }
@@ -128,11 +128,11 @@
 - { name: grip, wwwpart: wpiroboticsprojects, setname: grip-computer-vision }
 - { name: grip, summpart: ripper, setname: grip-cd-ripper }
 - { name: grip, ruleset: [pld], setname: grip-cd-ripper }
-- { name: grip, warning: "please classify me" }
+- { name: grip, addflag: unclassified }
 
 - { name: grok, wwwpart: [semicomplete,jordansissel], addflag: classified }
 - { name: grok, wwwpart: cpan, setname: "perl:grok" }
-- { name: grok, noflag: classified, warning: "please classify me" }
+- { name: grok, noflag: classified, addflag: unclassified }
 
 - { name: gsfonts, ruleset: freebsd, setname: ghostscript-fonts-std }
 
@@ -141,8 +141,8 @@
 - { name: gst, wwwpart: smalltalk.gnu, setname: smalltalk }
 
 - { name: gts, wwwpart: [gts.sourceforge.net,gts.sourceforge.io], setname: gts-triangulated-surface }
-- { name: gts, warning: "please classify me" }
+- { name: gts, addflag: unclassified }
 
 - { name: guppy, wwwpart: [guppy-pe,pypi], setname: "python:guppy" }
 - { name: guppy, ruleset: pclinuxos, setname: guppy-topfield }
-- { name: guppy, warning: "please classify me" }
+- { name: guppy, addflag: unclassified }

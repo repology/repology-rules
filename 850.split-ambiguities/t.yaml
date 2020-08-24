@@ -2,30 +2,30 @@
 
 - { name: taipan, wwwpart: textrpg, setname: taipan-game }
 - { name: taipan, wwwpart: enkomio, setname: taipan-security-scanner }
-- { name: taipan, warning: "please classify me" }
+- { name: taipan, addflag: unclassified }
 
 - { name: task, wwwpart: taskfile, setname: "go:task" }
 - { name: task, wwwpart: taskwarrior, setname: taskwarrior }
 - { name: task, summpart: todo, setname: taskwarrior }
 - { name: task, summpart: "to do", setname: taskwarrior }
 - { name: task, ruleset: exherbo, setname: taskwarrior }
-- { name: task, warning: "please classify me" }
+- { name: task, addflag: unclassified }
 
 - { name: tau, wwwpart: gnome, setname: tau-editor }
 - { name: tau, wwwpart: uoregon, setname: tau-fortran-profiling }
 - { name: tau, ruleset: debuntu, setname: tau-fortran-profiling }
-- { name: tau, warning: "please classify me" }
+- { name: tau, addflag: unclassified }
 
 - { name: tcp-wrappers, wwwpart: apple.com, setname: tcp-wrappers-apple }
 
 - { name: teco, wwwpart: matthiasr, setname: teco-tape-editor-and-corrector }
 - { name: teco, wwwpart: [almy.us,ibiblio], setname: teco-editor }
-- { name: teco, warning: "please classify me" }
+- { name: teco, addflag: unclassified }
 
 - { name: telegram, wwwpart: [telegram.org,tdesktop], setname: telegram-desktop }
 - { name: telegram, wwwpart: vysheng/tg, setname: telegram-cli }
 - { name: telegram, ruleset: [mx,solus,pclinuxos], setname: telegram-desktop }
-- { name: telegram, warning: "please classify me" }
+- { name: telegram, addflag: unclassified }
 
 - { name: telnet, wwwpart: apple.com, setname: telnet-apple } # 60
 - { name: telnet, ruleset: sisyphus, setname: telnet-openbsd } # 3.0
@@ -34,7 +34,7 @@
 - { name: telnet, wwwpart: microsoft, setname: telnet-microsoft } # 0.9.0
 - { name: telnet, ver: "0.17", setname: netkit-telnet }
 - { name: telnet, wwwpart: msys, setname: telnet-msys }
-- { name: telnet, warning: "please classify me" }
+- { name: telnet, addflag: unclassified }
 
 - { name: termcolor, wwwpart: [pypi,pythonhosted], setname: "python:termcolor" } # XXX: problem
 
@@ -49,23 +49,23 @@
 - { name: tesseract, summpart: ocr, setname: tesseract-ocr }
 - { name: tesseract, category: [graphics,app-text,libs], setname: tesseract-ocr }
 - { name: tesseract, ruleset: [openwrt,pld,solus], setname: tesseract-ocr }
-- { name: tesseract, warning: "please classify me" }
+- { name: tesseract, addflag: unclassified }
 
 - { name: tf, wwwpart: [tinyfugue,tf.tcp.com], setname: tinyfugue }
 - { name: tf, wwwpart: yanganto, setname: tag-finder }
 - { name: tf, ruleset: [pld,debuntu], setname: tinyfugue }
-- { name: tf, warning: "please classify me" }
+- { name: tf, addflag: unclassified }
 
 - { name: tg, wwwpart: vysheng/tg, setname: telegram-cli }
 
 - { name: theano, wwwpart: akryukov, setname: "fonts:theano" }
 - { name: theano, wwwpart: deeplearning, setname: "python:theano" }
-- { name: theano, warning: "please classify me" }
+- { name: theano, addflag: unclassified }
 
 - { name: thrust, wwwpart: breach, setname: thrust-framework }
 - { name: thrust, category: [games, universe/games], setname: thrust-game }
 - { name: thrust, wwwpart: [thrust.github.io,thrust.github.com,github.com/thrust/thrust,thrust.googlecode.com], setname: thrust-parallel-library }
-- { name: thrust, warning: "please classify me" }
+- { name: thrust, addflag: unclassified }
 
 # GNU time vs. xemacs module
 - { name: time, setname: xemacs-time, wwwpart: xemacs } # gentoo
@@ -77,26 +77,26 @@
 - { name: tint, wwwpart: [frogfoot,packages.debian.org], setname: tint-tetris }
 - { name: tint, ruleset: debuntu, setname: tint-tetris }
 - { name: tint, category: [games,Amusements/Games/Board/Puzzle], setname: tint-tetris }
-- { name: tint, warning: "please classify me" }
+- { name: tint, addflag: unclassified }
 
 - { name: tiv, wwwpart: xyne, setname: tiv-xyne }
 - { name: tiv, wwwpart: radare, setname: tiv-radare }
-- { name: tiv, warning: "please classify me" }
+- { name: tiv, addflag: unclassified }
 
 - { name: tmatrix, wwwpart: m4444, setname: tmatrix-m4444 }
 - { name: tmatrix, wwwpart: h0tw4t3r, setname: tmatrix-h0tw4t3r }
-- { name: tmatrix, warning: "please classify me" }
+- { name: tmatrix, addflag: unclassified }
 
 - { name: tnt, wwwpart: wspse, setname: tnt-host-mode-terminal }
 # otherwise, template numerical tookit
 
 - { name: todo, wwwpart: todotxt, setname: todo.txt-cli }
-- { name: todo, warning: "please classify me" }
+- { name: todo, addflag: unclassified }
 
 - { name: tofu, wwwpart: [oomadness,pyserial], setname: tofu-engine }
 - { name: tofu, summpart: todo, setname: tofu-todo }
 - { name: tofu, ruleset: debuntu, setname: tofu-engine }
-- { name: tofu, warning: "please classify me" }
+- { name: tofu, addflag: unclassified }
 
 - { name: tomcat, wwwpart: tomcat-connectors, setname: tomcat-connectors } # XXX: problem
 
@@ -104,18 +104,18 @@
 - { name: tome, verpat: "1\\..*", setname: tales-of-majeyal }
 - { name: tome, verpat: "2\\..*", setname: tome2 }
 - { name: tome, wwwpart: tome.te4.org, setname: tales-of-majeyal } # aur garbage
-- { name: tome, warning: "please classify me" }
+- { name: tome, addflag: unclassified }
 
 - { name: toolbox, wwwpart: [github.com/containers,debarshiray], setname: toolbox-development-environment }
 - { name: toolbox, wwwpart: [thkukuk,microos,kubic], setname: microos-toolbox }
 - { name: toolbox, wwwpart: jetbrains, setname: jetbrains-toolbox }
-- { name: toolbox, warning: "please classify me" }
+- { name: toolbox, addflag: unclassified }
 
 - { name: tornado, wwwpart: tornadoweb, setname: "python:tornado" }
 - { name: tornado, wwwpart: kouya, addflag: classified }
 - { name: tornado, category: games, addflag: classified }
 - { name: tornado, summpart: "web framework", setname: "python:tornado" }
-- { name: tornado, warning: "please classify me", noflag: classified }
+- { name: tornado, addflag: unclassified, noflag: classified }
 
 - { name: tox, wwwpart: tox.chat, setname: toxcore }
 - { name: tox, wwwpart: [tox.readthedocs.io,tox.readthedocs.org,testrun,codespeak.net/tox], setname: "python:tox" }
@@ -133,21 +133,21 @@
 - { name: trf, wwwpart: orzen.org, setname: trf-billing }
 - { name: trf, wwwpart: andem.bu.edu, setname: trf-tandem-repeats-finder }
 - { name: trf, wwwpart: core.tcl.tk, setname: trf-tcl }
-- { name: trf, warning: "please classify me" }
+- { name: trf, addflag: unclassified }
 
 - { name: trinity, ruleset: exherbo, setname: trinity-fuzzer }
 - { name: trinity, wwwpart: [codemonkey,kernelslacker], setname: trinity-fuzzer }
 - { name: trinity, wwwpart: trinityrnaseq, setname: trinityrnaseq } # already used in debian
-- { name: trinity, warning: "please classify me" }
+- { name: trinity, addflag: unclassified }
 
 - { name: tut, wwwpart: rasmuslindroth, setname: tut-mastodon-client }
 - { name: tut, wwwpart: [mrzechonek,mer-core], setname: tut-framework }
-- { name: tut, warning: "please classify me" }
+- { name: tut, addflag: unclassified }
 
 - { name: twemoji, wwwpart: eosrei, setname: "fonts:twemoji-color" }
 
 - { name: twiggy, wwwpart: rustwasm, setname: "rust:twiggy" }
 - { name: twiggy, wwwpart: cpan, setname: "perl:twiggy" }
-- { name: twiggy, warning: "please classify me" }
+- { name: twiggy, addflag: unclassified }
 
 - { name: twine, wwwpart: twinejs, setname: twinejs }

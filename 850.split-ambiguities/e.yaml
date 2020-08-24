@@ -5,45 +5,45 @@
 - { name: e, wwwpart: apdim, setname: e-expression-evaluator }
 - { name: e, wwwpart: eprover, setname: eprover }
 - { name: e, summpart: prover, setname: eprover }
-- { name: e, warning: "please classify me" }
+- { name: e, addflag: unclassified }
 
 - { name: eagle, wwwpart: [autodesk,cadsoft], setname: eagle-cad }
 - { name: eagle, wwwpart: eagle.to, setname: eagle-tcl }
-- { name: eagle, warning: "please classify me" }
+- { name: eagle, addflag: unclassified }
 
 - { name: ecm, wwwpart: gforge.inria.fr, setname: gmp-ecm }
 - { name: ecm, summpart: "elliptic curve", setname: gmp-ecm }
 - { name: ecm, summpart: cmake, setname: extra-cmake-modules }
 - { name: ecm, wwwpart: neillcorlett, setname: cmdpack } # merged into
 - { name: ecm, summpart: "cd image", setname: cmdpack } # merged into
-- { name: ecm, warning: "please classify me" }
+- { name: ecm, addflag: unclassified }
 
 - { name: edi, wwwpart: [enlightenment, edi-ide], setname: edi-ide }
 - { name: edi, wwwpart: edi.sourceforge.net, setname: edi-editor }
-- { name: edi, warning: "please classify me" }
+- { name: edi, addflag: unclassified }
 
 - { name: editline, wwwpart: troglobit, setname: editline-troglobit }
 - { name: editline, ruleset: yacp, setname: editline-troglobit }
 - { name: editline, wwwpart: thrysoee, setname: editline-thrysoee }
 - { name: editline, ruleset: hpux, setname: editline-rsalz }
 - { name: editline, ruleset: debuntu, setname: editline-debian } # source unknown
-- { name: editline, warning: "please classify me" }
+- { name: editline, addflag: unclassified }
 
 - { name: eject, wwwpart: [tranter,eject.sourceforge.net], setname: eject-tranter }
 - { name: eject, wwwpart: raizlabs, setname: eject-swift }
 - { name: eject, ruleset: freebsd, setname: eject-freebsd }
 - { name: eject, ruleset: nix, setname: eject-nix } # wtf is this?
 - { name: eject, ruleset: [sisyphus,pclinuxos,slackware,t2], setname: eject-tranter }
-- { name: eject, warning: "please classify me" }
+- { name: eject, addflag: unclassified }
 
 - { name: elan, wwwpart: tla, setname: elan-annotations }
 - { name: elan, wwwpart: cs.ru.nl, setname: elan-lang }
 - { name: elan, wwwpart: kha, setname: elan-lean-version-manager }
-- { name: elan, warning: "please classify me" }
+- { name: elan, addflag: unclassified }
 
 - { name: element, wwwpart: kushview, setname: element-audio-plugin-host }
 - { name: element, wwwpart: element.io, setname: element-desktop }
-- { name: element, warning: "please classify me" }
+- { name: element, addflag: unclassified }
 
 - { name: elisa, wwwpart: fluendo, setname: elisa-media-center }
 
@@ -53,17 +53,17 @@
 - { name: elk, wwwpart: sam.zoy.org, setname: elk-scheme }
 - { name: elk, category: [lisp,universe/interpreters], setname: elk-scheme }
 - { name: elk, summpart: scheme, setname: elk-scheme }
-- { name: elk, warning: "please classify me" }
+- { name: elk, addflag: unclassified }
 
 - { name: elm, wwwpart: [instinct.org,elmme-mailer], setname: elm-mua }
 - { name: elm, ruleset: [openbsd,hpux,slackware], setname: elm-mua }
 - { name: elm, wwwpart: elm-lang, setname: elm-lang }
 - { name: elm, ruleset: nix, setname: elm-lang }
-- { name: elm, warning: "please classify me" }
+- { name: elm, addflag: unclassified }
 
 - { name: emma,                        setname: emma-coverage, ruleset: [sisyphus, fedora, gentoo, mageia, rosa, nix] }
 - { name: emma,                        setname: emma-mysql, ruleset: [arch, freebsd, debuntu] }
-- { name: emma,                        warning: "please classify me" }
+- { name: emma,                        addflag: unclassified }
 
 - { name: empire, wwwpart: vms-empire, setname: vms-empire }
 - { name: empire, wwwpart: wolfpack, setname: wolfpack }
@@ -72,12 +72,12 @@
 
 - { name: envoy, wwwpart: vodik, setname: envoy-ssh-agent-wrapper }
 - { name: envoy, wwwpart: envoyproxy, setname: envoy-proxy }
-- { name: envoy, warning: "please classify me" }
+- { name: envoy, addflag: unclassified }
 
 - { name: epic, wwwpart: edwinb, setname: epic-compiler }
 - { name: epic, wwwpart: dcs.st-and, setname: epic-compiler }
 - { name: epic, wwwpart: epicsol, setname: epic-irc-client }
-- { name: epic, warning: "please classify me" }
+- { name: epic, addflag: unclassified }
 
 # not a browser
 - { name: epiphany,                    wwwpart: epiphany.sourceforge.net, setname: epiphany-game }
@@ -89,24 +89,24 @@
 - { name: epsilon, wwwpart: epsilon-project.sourceforge, setname: epsilon-compressor } # namy already used by pld
 - { name: epsilon, summpart: wavelet, setname: epsilon-compressor }
 - { name: epsilon, ruleset: aix, setname: epsilon-compressor }
-- { name: epsilon, warning: "please classify me" }
+- { name: epsilon, addflag: unclassified }
 
 - { name: erc, wwwpart: gnu.org, setname: "emacs:erc" }
 - { name: erc, ruleset: sisyphus, setname: erc-universal-archive-tool }
 - { name: erc, ruleset: debuntu, setname: "emacs:erc" }
-- { name: erc, warning: "please classify me" }
+- { name: erc, addflag: unclassified }
 
 - { name: espresso, wwwpart: quantum, setname: quantum-espresso }
 - { name: espresso, wwwpart: espressomd.org, setname: espressomd }
 - { name: espresso, wwwpart: eecs.berkeley.edu, setname: espresso-logic }
 - { name: espresso, ruleset: yacp, setname: espressomd }
-- { name: espresso, warning: "please classify me" }
+- { name: espresso, addflag: unclassified }
 
 - { name: et, wwwpart: mistertea, setname: eternalterminal }
 - { name: et, wwwpart: geistesk, setname: eggtimer }
 - { name: et, category: games, setname: enemy-territory }
 - { name: et, ruleset: solus, setname: eternalterminal }
-- { name: et, warning: "please classify me" }
+- { name: et, addflag: unclassified }
 
 - { name: etcd, verpat: "1.*", setname: "etcd-player" } # Enhanced Tiny CD, a simple ncurses-based CD player vs. coreos etcd
 
@@ -116,4 +116,4 @@
 - { name: express, wwwpart: bio.math.berkeley.edu, setname: express-rna-seq }
 - { name: express, wwwpart: expressjs, setname: expressjs }
 - { name: express, wwwpart: enlightenment.org, setname: express-irc }
-- { name: express, warning: "please classify me" }
+- { name: express, addflag: unclassified }

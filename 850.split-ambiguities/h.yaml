@@ -7,7 +7,7 @@
 - { name: helm, summpart: kubernetes, setname: kubernetes-helm }
 - { name: helm, wwwpart: tytel, setname: helm-synth }
 - { name: helm, summpart: synth, setname: helm-synth }
-- { name: helm, warning: "please classify me" }
+- { name: helm, addflag: unclassified }
 
 - { name: hermes,                      setname: hermes-proxy, wwwpart: hermes-project.com }
 - { name: hermes,                      setname: hermes-auth, wwwpart: ralt/hermes }
@@ -16,21 +16,21 @@
 - { name: hex, wwwpart: sitkevij, setname: hx }
 - { name: hex, wwwpart: [esr,ibiblio], setname: hexd-esr }
 - { name: hex, wwwpart: janouch, setname: hex-janouch }
-- { name: hex, warning: "please classify me" }
+- { name: hex, addflag: unclassified }
 
 - { name: hexd, wwwpart: esr, setname: hexd-esr }
 - { name: hexd, wwwpart: fireyfly, setname: hexd-fireyfly }
-- { name: hexd, warning: "please classify me" }
+- { name: hexd, addflag: unclassified }
 
 - { name: hexdump, wwwpart: esr, setname: hexd-esr }
-- { name: hexdump, warning: "please classify me" }
+- { name: hexdump, addflag: unclassified }
 
 - { name: hexer,                       wwwpart: hobu, setname: hexer-hobu }
 
 - { name: howl, wwwpart: [howl.io,howl-editor], setname: howl-editor }
 - { name: howl, wwwpart: [howl.sourceforge,porchdogsoft], setname: howl-zeroconf }
 - { name: howl, ruleset: pkgsrc, setname: howl-zeroconf }
-- { name: howl, warning: "please classify me" }
+- { name: howl, addflag: unclassified }
 
 - { name: htmlmin,                     wwwpart: html-minifier, setname: html-minifier } # XXX: problem
 
@@ -49,4 +49,4 @@
 - { name: hyperion, wwwpart: hyperion-project, setname: hyperion-ambilight }
 - { name: hyperion, wwwpart: nullsecurity, setname: hyperion-encrypter }
 - { name: hyperion, summpart: ambi, setname: hyperion-ambilight }
-- { name: hyperion, warning: "please classify me" }
+- { name: hyperion, addflag: unclassified }

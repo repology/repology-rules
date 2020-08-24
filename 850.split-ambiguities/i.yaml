@@ -2,22 +2,22 @@
 
 - { name: idea, wwwpart: de-moliner.ch, setname: idea-crypt }
 - { name: idea, wwwpart: jetbrains, setname: intellij-idea-community }
-- { name: idea, warning: "please classify me" }
+- { name: idea, addflag: unclassified }
 
 - { name: ice, wwwpart: zeroc, setname: zeroc-ice }
 - { name: ice, wwwpart: peppermintos, setname: ice-ssb-manager }
-- { name: ice, warning: "please classify me" }
+- { name: ice, addflag: unclassified }
 
 - { name: icecc, ruleset: gobolinux, setname: icecc-icewm } # icewm-control-center
 - { name: icecc, wwwpart: [icecc/icecream,opensuse.org/icecream], setname: icecream }
-- { name: icecc, warning: "please classify me" }
+- { name: icecc, addflag: unclassified }
 
 # distributed compiler vs. stream download utility
 - { name: icecream, wwwpart: icemon, setname: icemon }
 - { name: icecream, wwwpart: icecream.sourceforge.net, setname: icecream-stream-download }
 - { name: icecream, wwwpart: [icecc,opensuse.org/icecream], addflag: classified }
 - { name: icecream, ruleset: [sisyphus,exherbo,pld,slackware,yacp], addflag: classified }
-- { name: icecream, noflag: classified, warning: "please classify me" }
+- { name: icecream, noflag: classified, addflag: unclassified }
 
 - { name: imapd, wwwpart: cyrus, setname: cyrus-imapd }
 # otherwise some "imapd (IMAP4rev1 from alpine)" from slackware
@@ -29,7 +29,7 @@
 - { name: ion, wwwpart: [modeemi,tuomov], setname: ion3 }
 - { name: ion, ruleset: exherbo, setname: ion-redox }
 - { name: ion, ruleset: openbsd, setname: ion3 }
-- { name: ion, warning: "please classify me" }
+- { name: ion, addflag: unclassified }
 
 - { name: ipcalc, ruleset: openbsd, setname: ipcalc-pyr }
 - { name: ipcalc, wwwpart: nmav, setname: ipcalc-nmav }
@@ -37,7 +37,7 @@
 - { name: iris, wwwpart: projectiris.co.uk, setname: iris-eye-images }
 - { name: iris, wwwpart: iristech, setname: iris-eye-protection }
 - { name: iris, wwwpart: psi-im, setname: iris-psi }
-- { name: iris, warning: "please classify me" }
+- { name: iris, addflag: unclassified }
 
 - { name: itk, wwwpart: itk.org, setname: insighttoolkit }
 - { name: itk, summpart: insight, setname: insighttoolkit }
@@ -46,4 +46,4 @@
 - { name: itop, wwwpart: [hunz,kargig], setname: itop-monitor }
 - { name: itop, wwwpart: [combodo,sourceforge.net/projects/itop], setname: itop-itsm } # name already used in mageia
 - { name: itop, summpart: portal, setname: itop-itsm }
-- { name: itop, warning: "please classify me" }
+- { name: itop, addflag: unclassified }

@@ -2,7 +2,7 @@
 
 - { name: ucc, wwwpart: uditkarode, setname: ucc-turobc }
 - { name: ucc, wwwpart: [ucc.sf.net,ucc.sourceforge.net], setname: ucc-your-c-compiler }
-- { name: ucc, warning: "please classify me" }
+- { name: ucc, addflag: unclassified }
 
 - { name: uclibc, wwwpart: uclibc-ng, setname: uclibc-ng } # XXX: problem
 
@@ -14,7 +14,7 @@
 - { name: unicorn, wwwpart: bogomips.org, setname: "ruby:unicorn" }
 - { name: unicorn, ruleset: sisyphus, setname: "ruby:unicorn" }
 - { name: unicorn, ruleset: [gentoo], setname: unicorn-engine }
-- { name: unicorn, warning: "please classify me" }
+- { name: unicorn, addflag: unclassified }
 
 - { name: unique, ruleset: exherbo, setname: libunique }
 
@@ -23,14 +23,14 @@
 - { name: up, wwwpart: apex, setname: up-aws }
 - { name: up, wwwpart: burdell, setname: up-uptime }
 - { name: up, wwwpart: akavel, setname: up-plumber }
-- { name: up, warning: "please classify me" }
+- { name: up, addflag: unclassified }
 
 - { name: usql, wwwpart: "/xo/", setname: usql-cli }
 - { name: usql, wwwpart: cybergarage, setname: usql-parser }
-- { name: usql, warning: "please classify me" }
+- { name: usql, addflag: unclassified }
 
 - { name: uwm, wwwpart: uwm.sourceforge.net, setname: uwm-microwm }
 - { name: uwm, wwwpart: udeproject, setname: uwm-ude }
 - { name: uwm, ruleset: pkgsrc, setname: uwm-x11 }
 - { name: uwm, ruleset: openbsd, setname: uwm-ude }
-- { name: uwm, warning: "please classify me" }
+- { name: uwm, addflag: unclassified }

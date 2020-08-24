@@ -6,23 +6,23 @@
 - { name: jack, wwwpart: jackaudio, setname: jack-audio-connection-kit }
 - { name: jack, verpat: "3\\..*",  setname: jack-cd-ripper }
 - { name: jack, verpat: "[01]\\..*",  setname: jack-audio-connection-kit }
-- { name: jack, warning: "please classify me" }
+- { name: jack, addflag: unclassified }
 
 - { name: jackit, wwwpart: insecurityofthings, setname: jackit-mousejack }
 - { name: jackit, wwwpart: jackaudio, setname: jack-audio-connection-kit }
 - { name: jackit, ruleset: pclinuxos, setname: jack-audio-connection-kit }
-- { name: jackit, warning: "please classify me" }
+- { name: jackit, addflag: unclassified }
 
 - { name: jade,                        wwwpart: jade.cselt.it, setname: jade-java }
 
 - { name: jail, wwwpart: x.org, setname: jail-mouse }
 - { name: jail, wwwpart: spiculator, setname: jail-chroot-builder }
-- { name: jail, warning: "please classify me" }
+- { name: jail, addflag: unclassified }
 
 - { name: jal, wwwpart: unimi, setname: jal-java-stl-port }
 - { name: jal, wwwpart: jal.sourceforge, setname: jal-lang }
 - { name: jal, ruleset: sisyphus, setname: jal-java-application-loader }
-- { name: jal, warning: "please classify me" }
+- { name: jal, addflag: unclassified }
 
 # c++ library based on java one, https://math.nist.gov/javanumerics/jama/ vs. https://math.nist.gov/tnt/download.html
 - { name: jama, wwwpart: tnt, setname: jama-c++ }
@@ -33,15 +33,15 @@
 - { name: jd, wwwpart: josephburnett, setname: jd-json-tool }
 - { name: jd, wwwpart: [jd4linux,yama-natuki], setname: jd-2ch-browser }
 - { name: jd, summpart: 2ch, setname: jd-2ch-browser }
-- { name: jd, warning: "please classify me" }
+- { name: jd, addflag: unclassified }
 
 - { name: jist, wwwpart: [rubygems,conradirwin], setname: jist-gist }
 - { name: jist, wwwpart: nitrc, setname: jist-java-image-science-toolkit }
-- { name: jist, warning: "please classify me" }
+- { name: jist, addflag: unclassified }
 
 - { name: jellyfish, wwwpart: [genome,cbcb.umd.edu], setname: jellyfish-k-mer }
 - { name: jellyfish, wwwpart: [jamesturk,sunlightlabs], setname: "python:jellyfish" }
-- { name: jellyfish, warning: "please classify me" }
+- { name: jellyfish, addflag: unclassified }
 
 - { name: jpeg, wwwpart: turbo, setname: libjpeg-turbo }
 - { name: jpeg, wwwpart: thorfdbg, setname: libjpeg-thorfdbg }
@@ -56,4 +56,4 @@
 - { name: julius, wwwpart: [julius.sourceforge.jp,julius-speech], setname: julius-speech }
 - { name: julius, wwwpart: bvschaik, setname: julius-caesar3 }
 - { name: julius, category: games, setname: julius-caesar3 }
-- { name: julius, warning: "please classify me" }
+- { name: julius, addflag: unclassified }

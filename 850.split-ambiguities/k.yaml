@@ -3,7 +3,7 @@
 - { name: kaptan, ruleset: kaos, setname: kaptan-kaos } # forked from pisi
 - { name: kaptan, ruleset: pisi, setname: kaptan-pisi }
 - { name: kaptan, wwwpart: github.com/emre/kaptan, setname: "python:kaptan" }
-- { name: kaptan, warning: "please classify me" }
+- { name: kaptan, addflag: unclassified }
 
 - { name: kcc, wwwpart: ciromattia, setname: kcc-kindle-comic-converter }
 # otherwise kanji code converter
@@ -13,7 +13,7 @@
 - { name: keystone, wwwpart: keystone-engine, setname: keystone-engine }
 - { name: keystone, summpart: assembler, setname: keystone-engine }
 - { name: keystone, ruleset: openbsd, setname: keystone-engine }
-- { name: keystone, warning: "please classify me" }
+- { name: keystone, addflag: unclassified }
 
 - { name: kiki, category: [python,universe/python], setname: kiki-re }
 - { name: kiki, wwwpart: [freezope,kiki-re], setname: kiki-re }
@@ -24,11 +24,11 @@
 - { name: kiss, wwwpart: kisslinux, setname: kiss-package-manager }
 - { name: kiss, wwwpart: carbslinux, setname: kiss-package-manager-carbs }
 - { name: kiss, wwwpart: shell, setname: kiss-shell }
-- { name: kiss, warning: "please classify me" }
+- { name: kiss, addflag: unclassified }
 
 - { name: khmer, wwwpart: khmeros, setname: "fonts:khmeros" }
 - { name: khmer, wwwpart: [khmer.readthedocs.org,dib-lab], setname: "khmer-sequencing" }
-- { name: khmer, warning: "please classify me" }
+- { name: khmer, addflag: unclassified }
 
 - { name: knights, wwwpart: knightsgame.org.uk, setname: knightsgame }
 
@@ -36,10 +36,10 @@
 
 - { name: kr, wwwpart: guanine.evolbio.mpg.de, setname: kr-mutation-distances }
 - { name: kr, wwwpart: krypt, setname: kr-kryptco }
-- { name: kr, warning: "please classify me" }
+- { name: kr, addflag: unclassified }
 
 - { name: krb5, verpat: "4\\..*", setname: kerberos-for-windows }
 
 - { name: kup, wwwpart: [spersson, kde-apps, linux-apps.com/p/1127689], setname: kup-backup }
 - { name: kup, wwwpart: kernel.org, setname: kup-kernel.org-upload-tool }
-- { name: kup, warning: "please classify me" }
+- { name: kup, addflag: unclassified }

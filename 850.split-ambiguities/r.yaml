@@ -5,7 +5,7 @@
 
 - { name: rage, wwwpart: enlightenment, setname: rage-mediacenter }
 - { name: rage, wwwpart: str4d, setname: rage-encryption-tool }
-- { name: rage, warning: "please classify me" }
+- { name: rage, addflag: unclassified }
 
 - { name: range, ruleset: exherbo, setname: range-v3 }
 
@@ -18,32 +18,32 @@
 - { name: rebase, summpart: [dll,cygwin], setname: cygwin-rebase }
 - { name: rebase, wwwpart: rebase.neb.com, setname: rebase-enzyme }
 - { name: rebase, summpart: enzyme, setname: rebase-enzyme }
-- { name: rebase, warning: "please classify me" }
+- { name: rebase, addflag: unclassified }
 
 - { name: reduce, wwwpart: reduce-algebra, setname: reduce-algebra }
 - { name: reduce, wwwpart: kinemage, setname: reduce-hydrogens }
-- { name: reduce, warning: "please classify me" }
+- { name: reduce, addflag: unclassified }
 
 - { name: reflex, wwwpart: cespare, setname: reflex-run-command-on-file-change }
 - { name: reflex, wwwpart: invisible-island, setname: reflex-lexer-flex-fork }
 - { name: reflex, wwwpart: genivia, setname: reflex-c++-lexer }
-- { name: reflex, warning: "please classify me" }
+- { name: reflex, addflag: unclassified }
 
 - { name: rdd, category: [app-forensics,Archiving/Backup], setname: rdd-forensic }
 - { name: rdd, wwwpart: [chneukirchen,leahneukirchen], setname: rdd-random }
 - { name: rdd, ver: ["2.0.7", "3.0.1", "3.0.2", "3.0.4"], setname: rdd-forensic } # https://sourceforge.net/projects/rdd/files/rdd/
 - { name: rdd, wwwpart: r043v, setname: rdd-redis }
-- { name: rdd, warning: "please classify me" }
+- { name: rdd, addflag: unclassified }
 
 - { name: redo, wwwpart: jdebp.eu, setname: redo-jdebp }
 - { name: redo, wwwpart: [redo.readthedocs.io, github.com/apenwarr, apenwarr.ca], setname: redo-apenwarr }
 - { name: redo, ruleset: exherbo, setname: redo-jdebp }
 - { name: redo, ruleset: solus, setname: redo-apenwarr }
-- { name: redo, warning: "please classify me" }
+- { name: redo, addflag: unclassified }
 
 - { name: regexp, wwwpart: jakarta, setname: "java:regexp" }
 - { name: regexp, category: Development/Java, setname: "java:regexp" }
-- { name: regexp, warning: "please classify me" }
+- { name: regexp, addflag: unclassified }
 
 - { name: rem, wwwpart: kykim, setname: rem-kykim }
 
@@ -57,7 +57,7 @@
 - { name: ricochet, wwwpart: rr.nickle.org, setname: ricochet-game } # Ricochet Robot Game Server
 - { name: ricochet, summpart: "instant messaging", setname: ricochet-im }
 - { name: ricochet, ruleset: solus, setname: ricochet-im }
-- { name: ricochet, warning: "please classify me" }
+- { name: ricochet, addflag: unclassified }
 
 - { name: rocks, wwwpart: rocksndiamonds, setname: rocksndiamonds } # XXX: problem
 
@@ -66,7 +66,7 @@
 - { name: roundup, wwwpart: mizerany, setname: sh-roundup } # taken name already used in parabola/hyperbola
 
 - { name: rs, wwwpart: neukirchen, setname: openbsd-rs }
-- { name: rs, warning: "please classify me" }
+- { name: rs, addflag: unclassified }
 
 - { name: rsync, wwwpart: cwrsync, setname: cwrsync }
 
@@ -80,22 +80,22 @@
 
 - { name: rum, wwwpart: postgres, setname: postgresql-rum }
 - { name: rum, wwwpart: chrisduerr, setname: rum-rust-userstyle-manager }
-- { name: rum, warning: "please classify me" }
+- { name: rum, addflag: unclassified }
 
 - { name: run, wwwpart: linusdierheimer, setname: run-linusdierheimer }
 - { name: run, wwwpart: tekwizely, setname: run-tekwizely }
-- { name: run, warning: "please classify me" }
+- { name: run, addflag: unclassified }
 
 - { name: rush, wwwpart: gnu, setname: rush-gnu }
 - { name: rush, wwwpart: shenwei356, setname: rush-parallel-execute }
 - { name: rush, wwwpart: naaando, setname: rush-time-manager }
-- { name: rush, warning: "please classify me" }
+- { name: rush, addflag: unclassified }
 
 - { name: rw, wwwpart: sortix, setname: sortix-rw }
 - { name: rw, ruleset: openbsd, setname: sortix-rw }
 - { name: rw, wwwpart: [rankwidth,philipp], setname: rankwidth }
-- { name: rw, warning: "please classify me" }
+- { name: rw, addflag: unclassified }
 
 - { name: rx, wwwpart: cloudhead, setname: rx-editor } # named after crates.io crate
 - { name: rx, wwwpart: gnu, setname: librx } # used in a lot of repositories
-- { name: rx, warning: "please classify me" }
+- { name: rx, addflag: unclassified }

@@ -9,10 +9,10 @@
 - { name: babel, category: dev-lisp, setname: babel-lisp }
 - { name: babel, ruleset: sisyphus, setname: babel-llnl }
 - { name: babel, ruleset: aur, setname: babel-quytelda }
-- { name: babel, warning: "please classify me" }
+- { name: babel, addflag: unclassified }
 
 - { name: backbone, wwwpart: [backbonejs,documentcloud.github.com/backbone], setname: "js:backbone" }
-- { name: backbone, warning: "please classify me" }
+- { name: backbone, addflag: unclassified }
 
 # mail client vs. asynchronous synthesis system
 - { name: balsa, category: sci-electronics,               setname: balsa-synthesis }
@@ -23,11 +23,11 @@
 - { name: baselayout, ruleset: pisi, setname: baselayout-pisi }
 - { name: baselayout, ruleset: solus, setname: baselayout-solus }
 - { name: baselayout, ruleset: carbs, setname: baselayout-carbs }
-- { name: baselayout, warning: "please classify me" }
+- { name: baselayout, addflag: unclassified }
 
 - { name: bamm, wwwpart: ecogenomics, setname: bamm-metagenomics }
 - { name: bamm, wwwpart: bamm-project.org, setname: bamm-bayesian }
-- { name: bamm, warning: "please classify me" }
+- { name: bamm, addflag: unclassified }
 
 - { name: bandcamp-dl, wwwpart: bandcamp-downloader,      setname: bandcamp-downloader }
 
@@ -45,19 +45,19 @@
 - { name: bcc, wwwpart: wormt, setname: bcc-compiler }
 - { name: bcc, summpart: bpf, setname: bcc-bpf }
 - { name: bcc, ruleset: [freebsd,pkgsrc,openindiana,pld], setname: bcc-bruceevans }
-- { name: bcc, warning: "please classify me" }
+- { name: bcc, addflag: unclassified }
 
 - { name: beagle, wwwpart: faculty.washington.edu, setname: beagle-genotypes-phasing }
 - { name: beagle, wwwpart: [beagle.gel.ulaval.ca, chgagne], setname: beagle-evolutionary-computation }
 - { name: beagle, wwwpart: beagle-dev/beagle-lib, setname: beagle-sequence-likelihood }
 - { name: beagle, wwwpart: beagle-project.org, setname: beagle-search }
 - { name: beagle, wwwpart: gnome.org, setname: beagle-gnome }
-- { name: beagle, warning: "please classify me" }
+- { name: beagle, addflag: unclassified }
 
 - { name: beaker, wwwpart: beakerbrowser, setname: beaker-browser }
 - { name: beaker, wwwpart: [beaker.readthedocs.io,pypi], setname: "python:beaker" }
 - { name: beaker, wwwpart: beaker-project, setname: beaker-integration-testing }
-- { name: beaker, warning: "please classify me" }
+- { name: beaker, addflag: unclassified }
 
 - { name: beanshell, ruleset: kaos,                       setname: beanshell2 }
 
@@ -73,18 +73,18 @@
 
 - { name: berry, wwwpart: jlervin, setname: berry-wm }
 - { name: berry, wwwpart: aseman, setname: berry-image-viewer }
-- { name: berry, warning: "please classify me" }
+- { name: berry, addflag: unclassified }
 
 - { setname: bff4, name: bff, wwwpart: mazonka }
 
 - { name: bfm, wwwpart: jnrowe, setname: bubblefishymon }
 - { name: bfm, wwwpart: webhop, setname: bfm-fm }
-- { name: bfm, warning: "please classify me" }
+- { name: bfm, addflag: unclassified }
 
 - { name: binclock, wwwpart: ngolde, setname: binclock-ngolde }
 - { name: binclock, wwwpart: frenzymadness, setname: binclock-frenzymadness }
 - { name: binclock, wwwpart: binclock.sourceforge.net, setname: binclock-bzee }
-- { name: binclock, warning: "please classify me" }
+- { name: binclock, addflag: unclassified }
 
 - { name: bk, setname: bitkeeper,  wwwpart: bitkeeper }
 
@@ -94,20 +94,20 @@
 - { name: bless, wwwpart: bless-ec, setname: bless-ngs-error-correction }
 - { name: bless, wwwpart: [afrantzis,bwrsandman,gna.org/bless,debian], setname: bless-hex-editor }
 - { name: bless, ruleset: aosc, setname: bless-hex-editor }
-- { name: bless, warning: "please classify me" }
+- { name: bless, addflag: unclassified }
 
 - { name: bliss, summpart: intellivision, setname: bliss-emulator }
 - { name: bliss, summpart: music, setname: bliss-music-analyzer }
 - { name: bliss, summpart: graphs, setname: bliss-graphs } # name already used by some repos
 - { name: bliss, wwwpart: tcs, setname: bliss-graphs } # name already used by some repos
-- { name: bliss, warning: "please classify me" }
+- { name: bliss, addflag: unclassified }
 
 - { name: blitz, wwwpart: [blitzpp,blitz.sourceforge,oonumerics,sourceforge.net/projects/blitz], setname: blitz++ }
-- { name: blitz, warning: "please classify me" }
+- { name: blitz, addflag: unclassified }
 
 - { name: boomerang, wwwpart: [boomerang.sourceforge.net,decompiler], setname: boomerang-decompiler }
 - { name: boomerang, wwwpart: harmony, setname: boomerang-lang }
-- { name: boomerang, warning: "please classify me" }
+- { name: boomerang, addflag: unclassified }
 
 - { name: bootchart, wwwpart: [mmeeks,xrmr], setname: bootchart2 }
 - { name: bootchart, verpat: "2\\..*", setname: bootchart2 }
@@ -118,13 +118,13 @@
 - { name: bolt, wwwpart: [freedesktop,gicmo], setname: bolt-thunderbolt3 }
 - { name: bolt, wwwpart: boltdb, setname: bolt-db }
 - { name: bolt, ruleset: [solus,exherbo], setname: bolt-thunderbolt3 }
-- { name: bolt, warning: "please classify me" }
+- { name: bolt, addflag: unclassified }
 
 - { name: borg, wwwpart: borg-calendar,                   setname: borg-calendar }
 - { name: borg, wwwpart: ok-borg,                         setname: ok-borg }
 - { name: borg, wwwpart: borgbackup,                      setname: borgbackup }
 - { name: borg, ruleset: [sisyphus,solus],                setname: borgbackup }
-- { name: borg, warning: "please classify me" }
+- { name: borg, addflag: unclassified }
 
 - { name: bos, wwwpart: boswars,                          setname: boswars }
 
@@ -133,33 +133,33 @@
 
 - { name: brig, wwwpart: [sahib,brig.readthedocs.io], setname: brig-sync }
 - { name: brig, wwwpart: sourceforge.net/projects/brig, setname: brig-genome }
-- { name: brig, warning: "please classify me" }
+- { name: brig, addflag: unclassified }
 
 - { name: browserpass, wwwpart: browserpass-native, setname: browserpass-native }
 - { name: browserpass, wwwpart: [browserpass-extension,dannyvankooten], setname: browserpass-extension }
 - { name: browserpass, ruleset: debuntu, setname: browserpass-extension }
 - { name: browserpass, ruleset: [exherbo,void], setname: browserpass-native }
-- { name: browserpass, warning: "please classify me" }
+- { name: browserpass, addflag: unclassified }
 
 - { name: bsc, wwwpart: [besc,beesoft], setname: beesoft-commander }
 - { name: bsc, summpart: beesoft, setname: beesoft-commander }
 - { name: bsc, wwwpart: libbsc, setname: libbsc }
 - { name: bsc, summpart: block-sorting, setname: libbsc }
-- { name: bsc, warning: "please classify me" }
+- { name: bsc, addflag: unclassified }
 
 - { name: btf, wwwpart: sparse, setname: suitesparse-btf }
 - { name: btf, summpart: suitesparse, setname: suitesparse-btf }
 - { name: btf, wwwpart: fge, setname: btf-builder-pattern }
 - { name: btf, ruleset: pld, setname: suitesparse-btf }
-- { name: btf, warning: "please classify me" }
+- { name: btf, addflag: unclassified }
 
 - { name: build, wwwpart: suse, setname: obs-build }
 - { name: build, wwwpart: codesynthesis, setname: build-codesynthesis }
-- { name: build, warning: "please classify me" }
+- { name: build, addflag: unclassified }
 
 - { name: bum, wwwpart: dylanaraps,                       setname: bum-albums }
 - { name: bum, wwwpart: marzocca,                         setname: bum-runlevels }
-- { name: bum, warning: "please classify me" }
+- { name: bum, addflag: unclassified }
 
 - { name: bup, wwwpart: carlo, setname: bup-bash-patch }
 

@@ -3,7 +3,7 @@
 - { name: xalan, wwwpart: xalan-c, setname: xalan-c }
 - { name: xalan, wwwpart: xalan-j, setname: xalan-j }
 - { name: xalan, category: dev-java, setname: xalan-j }
-- { name: xalan, warning: "please classify me" }
+- { name: xalan, addflag: unclassified }
 
 - { name: xbase, setname: xbase-graywolf, wwwpart: graywolf }
 
@@ -15,21 +15,21 @@
 - { name: xed, wwwpart: sourceforge, setname: xed-ed }
 - { name: xed, ruleset: freebsd, setname: xed-xcontrib }
 - { name: xed, ruleset: [sisyphus,aosc,pclinuxos,mint,mx], setname: xed-mint }
-- { name: xed, warning: "please classify me" }
+- { name: xed, addflag: unclassified }
 
 - { name: xdrfile, ruleset: arch, verpat: "2\\..*", setname: xdrfile-wesbarnett } # fork
 
 - { name: xidle, wwwpart: steinex, setname: xidle-linux }
 
-#- { name: xine, warning: "please classify me" } # XXX: libxine or xine-ui; XXX: problem
+#- { name: xine, addflag: unclassified } # XXX: libxine or xine-ui; XXX: problem
 
 - { name: xp, wwwpart: jclark, setname: xp-xml-parser }
 # otherwise ancient text file viewer of unknown origin from pkgsrc
-- { name: xp, warning: "please classify me" }
+- { name: xp, addflag: unclassified }
 
 - { name: xst, wwwpart: gpe.handhelds, setname: xst-gpe }
 - { name: xst, wwwpart: neeasade, setname: xst-terminal }
-- { name: xst, warning: "please classify me" }
+- { name: xst, addflag: unclassified }
 
 - { name: xsv, wwwpart: burntsushi, setname: "rust:xsv" }
 
@@ -37,14 +37,14 @@
 
 - { name: xtl, wwwpart: [QuantStack,xtensor], setname: xtl-quant-stack }
 - { name: xtl, wwwpart: tl.sourceforge.net, setname: xtl-externalization-template-library }
-- { name: xtl, warning: "please classify me" }
+- { name: xtl, addflag: unclassified }
 
 - { name: xwinwrap, wwwpart: [shant,launchpad], setname: xwinwrap-shantz }
 - { name: xwinwrap, wwwpart: aaahh, setname: xwinwrap-aaahh }
 - { name: xwinwrap, wwwpart: ujjwal96, setname: xwinwrap-ujjwal96 }
 - { name: xwinwrap, ruleset: exherbo, setname: xwinwrap-shantz }
-- { name: xwinwrap, warning: "please classify me" }
+- { name: xwinwrap, addflag: unclassified }
 
 - { name: xxv, wwwpart: [vdr,xpix], setname: xxv-vdr }
 - { name: xxv, wwwpart: chrisvest, setname: xxv-hex-viewer }
-- { name: xxv, warning: "please classify me" }
+- { name: xxv, addflag: unclassified }
