@@ -154,6 +154,7 @@
 - { name: mp3diags,                    verpat: "1\\.[0-9]\\.[0-9]{3}.*",                   incorrect: true }
 - { name: mp3diags,                    verpat: "1\\.[0-9]*[13579]\\..*",                   devel: true } # assumed; https://sourceforge.net/projects/mp3diags/files/unstable/mp3diags-src/
 - { name: mp3rename,                   verlonger: 2,                                       debianism: true }
+- { name: mpc-hc,                      vergt: "1.7.13",              ruleset: winget,      incorrect: true }
 - { name: mpdcron,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: mpdscribble,                 ver: "0.23",                  ruleset: openwrt,     incorrect: true } # entware
 - { name: mpdscribble,                                               ruleset: openwrt,     untrusted: true } # entware
