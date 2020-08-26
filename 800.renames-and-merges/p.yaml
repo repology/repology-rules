@@ -118,6 +118,7 @@
 - { setname: piwigo,                   name: "php71:piwigo" }
 - { setname: pixman,                   name: [libpixman,xorg-libpixman,xorg-pixman] }
 - { setname: pixman,                   name: pixman-static, addflavor: static }
+- { setname: pjproject,                name: [pjsip,pjsua,pjproject-jami,pjsip-python,"python:pjproject"], addflavor: true }
 - { setname: pkg,                      name: pkg-bsd, ruleset: ravenports }
 - { setname: pkg,                      name: pkg-devel, weak_devel: true, ruleset: freebsd }
 - { setname: pkg-config,               name: pkgconfig }
