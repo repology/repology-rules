@@ -81,6 +81,10 @@
 # file change monitor vs. file system checksum checker
 - { name: fswatch, verpat: "1.*",      setname: fswatch-mon }
 
+- { name: ftl, wwwpart: ftlgame, setname: ftl-faster-than-light }
+- { name: ftl, wwwpart: rovertrueger, setname: ftl-fortran-template-library }
+- { name: ftl, addflag: unclassified }
+
 - { name: ftp, ruleset: openbsd, setname: gnustep-ftp } # gnustep; may be not ambiguity (yet), but too generic name for sure
 - { name: ftp, ruleset: exherbo, category: net-ftp, setname: inetutils } # XXX: problem
 
