@@ -47,6 +47,10 @@
 
 - { name: newt, wwwpart: mynewt, setname: mynewt-newt } # just using name existing in AUR and NIX
 
+- { name: nexus, wwwpart: sonatype, setname: nexus-repository }
+- { name: nexus, wwwpart: nexusformat, setname: nexusformat }
+- { name: nexus, addflag: unclassified }
+
 - { name: nightfall, wwwpart: kpcyrd, setname: nightfall-kpcyrd } # otherwise astronomical app
 
 - { name: ninja, wwwpart: qoop, setname: ninja-irc }
