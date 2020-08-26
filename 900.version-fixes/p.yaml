@@ -92,6 +92,10 @@
 - { name: pianobooster,                ver: "0.7.0",                 ruleset: mageia,      incorrect: true }
 - { name: pianobooster,                                              ruleset: mageia,      untrusted: true }
 - { name: picmi,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: picoc,                       ver: "2.1.9",                 ruleset: sisyphus,    incorrect: true }
+- { name: picoc,                                                     ruleset: sisyphus,    untrusted: true } # accused of fake 2.1.9
+- { name: picoc,                       ver: "2.2",                   ruleset: rpmsphere,   incorrect: true }
+- { name: picoc,                                                     ruleset: rpmsphere,   untrusted: true } # accused of fake 2.2
 - { name: picolisp,                    ver: ["18.6.12", "18.6.17"],  ruleset: [aur,termux], incorrect: true }
 - { name: picolisp,                                                  ruleset: [aur,termux], untrusted: true }
 - { name: picom,                       verpat: ".*r.*",              ruleset: freebsd,     devel: true } # XXX: FreeBSD DISTVERSION
