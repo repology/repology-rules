@@ -153,6 +153,7 @@
 - { setname: "python:netifaces",       name: netifaces }
 - { setname: "python:networkx",        name: networkx }
 - { setname: "python:networkx",        namepat: "python:networkx[0-9.-]+" }
+- { setname: "python:notebook",        name: ["python:jupyter-notebook", jupyter-notebook] }
 - { setname: "python:numarray",        name: numarray }
 - { setname: "python:numeric",         name: numeric, ruleset: [crux,gobolinux] }
 - { setname: "python:numpy",           name: "python:numpy-docs-devhelp", addflavor: devhelp }
