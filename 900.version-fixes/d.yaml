@@ -60,6 +60,7 @@
 - { name: diff-pdf,                                                                        noscheme: true }
 - { name: diffpdf,                     verge: "2.1.3.1",                                   successor: true }
 - { name: diffutils,                                                 ruleset: os4depot,    incorrect: true }
+- { name: dino-im,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: dirb,                        verpat: "[0-9]{3}",                                 incorrect: true, disposable: true } # slackbuilds; 2.22, not 222
 - { name: dircproxy,                   ver: "1.2.0",                 ruleset: macports,    incorrect: true } # rc1
 - { name: dircproxy,                                                 ruleset: macports,    untrusted: true } # accused of fake 1.2.0
