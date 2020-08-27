@@ -151,6 +151,10 @@
 - { name: mongo, ruleset: sisyphus, setname: mongodb }
 - { name: mongo, addflag: unclassified }
 
+- { name: mongoose, wwwpart: [cesanta, code.google.com/p/mongoose], setname: mongoose-web-server }
+- { name: mongoose, wwwpart: scottkolo, setname: mongoose-graph-library }
+- { name: mongoose, addflag: unclassified }
+
 - { name: mpd, wwwpart: [musicpd,mpd.wikia.com], addflag: classified }
 - { name: mpd, category: [media-sound,Sound,audio], addflag: classified }
 - { name: mpd, wwwpart: cs.arizona.edu/mpd, setname: mpd-compiler }
