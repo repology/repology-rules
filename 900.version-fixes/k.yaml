@@ -147,7 +147,7 @@
 - { name: kodi-addon-inputstream-adaptive, verge: "18",              ruleset: sisyphus,    incorrect: true }
 - { name: kodi-addon-pvr-hts,          verge: "18",                  ruleset: sisyphus,    incorrect: true }
 - { name: kodi-addon-pvr-iptvsimple,   verge: "18",                  ruleset: sisyphus,    incorrect: true }
-- { name: kodi-addon-pvr-vdr-vnsi,     verge: "18",              ruleset: sisyphus,    incorrect: true }
+- { name: kodi-addon-pvr-vdr-vnsi,     verge: "18",                  ruleset: sisyphus,    incorrect: true }
 - { namepat: "kodi-addon.*",           verge: "18",                  ruleset: sisyphus,    untrusted: true } # uses kodi version instead of addon version, see reports for kodi-addon-pvr-hts, kodi-addon-inputstream-adaptive
 - { name: kodi-platform,                                                                   noscheme: true } # no recent tags
 - { name: kolab,                       verpat: "20[0-9]{6}",                               ignore: true }
@@ -162,8 +162,8 @@
 - { name: konsole,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kontact,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kontactinterface,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: konversation,                ver: "18.08.3",              ruleset: pisi,         incorrect: true }
-- { name: konversation,                                             ruleset: pisi,         untrusted: true } # accused of fake 18.08.3
+- { name: konversation,                ver: "18.08.3",               ruleset: pisi,        incorrect: true }
+- { name: konversation,                                              ruleset: pisi,        untrusted: true } # accused of fake 18.08.3
 - { name: konwert,                     verlonger: 3,                                       debianism: true }
 - { name: kopete,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: korganizer,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
