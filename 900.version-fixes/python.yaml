@@ -43,6 +43,7 @@
 - { name: "python:gpsoauth",           ver: "0.4.2.2",               ruleset: pisi,        incorrect: true } # 0.4.2.rc2
 - { name: "python:gpsoauth",                                         ruleset: pisi,        untrusted: true } # accused of fake 0.4.2.2
 - { name: "python:hg-git",             verpat: "[0-9a-f]{12}",                             incorrect: true, disposable: true } # slitaz
+- { name: "python:hidapi",             verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true } # 0.9.0.post3, not 0.9.0.3
 - { name: "python:html2text",          ver: "2018.9.1",                                    incorrect: true, disposable: true } # 2018.1.9
 - { name: "python:httplib2",           verpat: "2-.*",                                     incorrect: true }
 - { name: "python:jcconv",             ver: "0.2.4",                 ruleset: fedora,      incorrect: true }
