@@ -122,6 +122,7 @@
 - { setname: antlr,                    namepat: "python:antlr[0-9.-]*(python[23])?(?:-runtime)?", addflavor: $1 }
 - { setname: antlr,                    name: python3-antlr3, addflavor: python3 }
 - { setname: antlr,                    name: antlr3-bin, addflavor: bin }
+- { setname: antlr,                    name: [antlr4-project, libantlr] }
 - { setname: antlr,                    name: libantlr3c, addflavor: c }
 - { setname: antlr,                    name: [java-antlr3,ant-antlr3] }
 - { setname: aolserver,                name: aolserver4 }
