@@ -35,6 +35,7 @@
 - { setname: pari,                     name: [parigp, pari25, libpari23] }
 - { setname: parted,                   name: libparted, addflavor: true }
 - { setname: pass,                     name: [pass-parcellite,pass-patched-passmenu-notify,pass-wl-clipboard], addflavor: true } # mostly same as password-store, merged in 850
+- { setname: passenger,                name: ["ruby:passenger-apache", "ruby:passenger-nginx", "nginx:passenger","apmod:ruby26-passenger","ruby:passenger"], addflavor: true }
 - { setname: password-store,           name: [passwordstore] }
 - { setname: password-store,           name: [emacs-password-store,"emacs:password-store"], addflavor: emacs }
 - { setname: pasystray,                name: [pasystray-gtk2,pasystray-gtk2-standalone,pasystray-gtk3-standalone] }
