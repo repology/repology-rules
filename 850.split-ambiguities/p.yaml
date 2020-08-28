@@ -18,8 +18,6 @@
 # "A tool for building identical machine images" vs "Bash wrapper for pacman and aur"
 - { name: pachi, wwwpart: pachi.or.cz, setname: pachi-go }
 
-- { name: packer, setname: "pacman-packer", ruleset: arch }
-
 - { name: pacman, wwwpart: ebuc99, setname: pacman-ebuc99 }
 - { name: pacman, wwwpart: pjsfreeware, setname: pacman-pjs }
 - { name: pacman, verpat: "0\\.9(\\..*)?", setname: pacman-ebuc99 }
