@@ -178,7 +178,7 @@
 - { setname: coin-or-lemon,            name: [coinlemon,coin-or-liblemon] }
 - { setname: coin-or-symphony,         name: coinsymphony }
 - { setname: coin3d,                   name: [coin, coin-framework, coin2, coin3] } # collisions possible in future
-- { setname: collectd,                 name: [collectd-amqp,collectd-curl,collectd-data,collectd-dbi,collectd-dns,collectd-lua,collectd-memcached,collectd-mysql,collectd-network,collectd-notify-email,collectd-postgresql95,collectd-riemann,collectd-rrdtool,collectd-snmp,collectd-write-prometheus,libcollectdclient,"perl:collectd","python:collectd"], addflavor: true }
+- { setname: collectd,                 name: [collectd-amqp,collectd-bind,collectd-curl,collectd-data,collectd-dbi,collectd-dns,collectd-lua,collectd-memcached,collectd-mysql,collectd-network,collectd-notify-email,collectd-postgresql95,collectd-postgresql12,collectd-postgresql13,collectd-riemann,collectd-rrdtool,collectd-snmp,collectd-write-prometheus,libcollectdclient,"perl:collectd","python:collectd"], addflavor: true }
 - { setname: collectd,                 name: collectd5 }
 - { setname: colorcode,                name: color-code }
 - { setname: colord,                   name: compat-colord10 }
