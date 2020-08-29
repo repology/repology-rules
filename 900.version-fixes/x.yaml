@@ -65,12 +65,20 @@
 - { name: xf86rushproto,                                             ruleset: funtoo,      untrusted: true } # accused of fake 1.2.2
 - { name: xfburn,                      ver: "0.5.6",                 ruleset: pclinuxos,   incorrect: true }
 - { name: xfburn,                                                    ruleset: pclinuxos,   untrusted: true } # accused of fake 0.5.6
+- { name: xfce4-appfinder,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: xfce4-dev-tools,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: xfce4-notes-plugin,          ver: "1.9.0",                 ruleset: pclinuxos,   incorrect: true }
 - { name: xfce4-notes-plugin,                                        ruleset: pclinuxos,   untrusted: true } # accused of fake 1.9.0
-- { name: xfce4-power-manager,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # accused of fake 0.2.4
+- { name: xfce4-panel,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: xfce4-power-manager,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: xfce4-session,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: xfce4-settings,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: xfce4-volumed-pulse,         ver: "0.2.4",                 ruleset: pclinuxos,   incorrect: true }
 - { name: xfce4-volumed-pulse,                                       ruleset: pclinuxos,   untrusted: true } # accused of fake 0.2.4
+- { name: xfconf,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: xfdesktop,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: xfractint,                   verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1p$2 }
+- { name: xfwm,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: xhyve,                       verpat: "20[0-9]{6}",                               snapshot: true } # macports
 - { name: xl2tpd,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: xl2tpd,                      verge: "20000000", verlt: "20180519",               outdated: true }
