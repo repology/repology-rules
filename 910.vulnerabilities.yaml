@@ -8,3 +8,4 @@
 - { vulnerable: true, name: gnutls, verlt: "3.6.14" } # CVE-2020-13777
 - { vulnerable: true, name: signing-party, verlt: "2.10" } # CVE-2019-11627
 - { vulnerable: true, name: kilo } # due to noscheme
+- { vulnerable: true, name: chrony, verlt: "3.5.1", disposable: true } # https://nvd.nist.gov/vuln/detail/CVE-2020-14367 (undergoing analysis)
