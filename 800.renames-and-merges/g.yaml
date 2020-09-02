@@ -61,6 +61,7 @@
 - { setname: geeklog,                  name: "php71:geeklog" }
 - { setname: geeknote,                 name: "python:geeknote" }
 - { setname: geeqie,                   name: geeqie-lirc, addflavor: lirc }
+- { setname: geeqie,                   name: geeqie-devel, weak_devel: true }
 - { setname: gegl,                     namepat: "(?:lib)?gegl[0-9.-]*" }
 - { setname: gegl,                     name: gegl-unstable, ignore: true }
 - { setname: geki2,                    name: geki2-kxl, ruleset: gentoo } # XXX: recheck
