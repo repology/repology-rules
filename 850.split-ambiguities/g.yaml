@@ -56,6 +56,9 @@
 
 - { name: github-cli, wwwpart: packages.python.org/github-cli, setname: "python:github-cli" }
 
+- { name: glance, wwwpart: [openstack,launchpad.net/glance], setname: openstack-glance }
+- { name: glance, addflag: unclassified }
+
 - { name: gle, wwwpart: [gle-graphics,glx.sourceforge.net,glx.sf.net], setname: gle-graphics }
 - { name: gle, ruleset: sisyphus, noflag: libgle, setname: gle-graphics }
 

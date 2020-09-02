@@ -89,6 +89,9 @@
 
 - { name: chromium, wwwpart: bsu, setname: chromium-bsu } # XXX: problem
 
+- { name: cinder, wwwpart: [openstack,launchpad.net/cinder], setname: openstack-cinder }
+- { name: cinder, addflag: unclassified }
+
 - { name: clementine,                  setname: clementine-player                            } # clementine player vs. window manager
 
 - { name: colorize, wwwpart: lonetwin, setname: colorize-lonetwin }

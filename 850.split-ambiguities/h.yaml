@@ -2,6 +2,9 @@
 
 - { name: hdf,                         verpat: "5\\.([0-9]+\\.[0-9]+\\.[0-9]+)", setver: $1, setname: hdf5 } # XXX: problem
 
+- { name: heat, wwwpart: [openstack,launchpad.net/heat], setname: openstack-heat }
+- { name: heat, addflag: unclassified }
+
 - { name: helm, wwwpart: emacs, setname: emacs-helm }
 - { name: helm, wwwpart: [kubernetes,helm.sh], setname: kubernetes-helm }
 - { name: helm, summpart: kubernetes, setname: kubernetes-helm }

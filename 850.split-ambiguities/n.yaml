@@ -45,6 +45,9 @@
 - { name: netpipe, wwwpart: wudika, setname: netpipe-udb-broadcast }
 - { name: netpipe, addflag: unclassified }
 
+- { name: neutron, wwwpart: [openstack,launchpad.net/neutron], setname: openstack-neutron }
+- { name: neutron, addflag: unclassified }
+
 - { name: newt, wwwpart: mynewt, setname: mynewt-newt } # just using name existing in AUR and NIX
 
 - { name: nexus, wwwpart: sonatype, setname: nexus-repository }
