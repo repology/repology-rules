@@ -69,6 +69,8 @@
 - { name: "python:pycrypto",                                         ruleset: pisi,        untrusted: true } # accused of fake 2.7a.1
 - { name: "python:pycrypto",           verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:pyenet",             verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: "python:pyfiglet",           ver: "0.8.1",                 ruleset: gentoo,      incorrect: true }
+- { name: "python:pyfiglet",                                         ruleset: gentoo,      untrusted: true } # accused of fake 0.8.1
 - { name: "python:pygame",             ver: "1.9.4.post1",           ruleset: debuntu,     incorrect: true }
 - { name: "python:pygame",                                           ruleset: debuntu,     untrusted: true }
 - { name: "python:pygobject",          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
