@@ -2,6 +2,9 @@
 
 - { name: obfsproxy,                   verpat: "[0-9]{3}",                                 incorrect: true }
 - { name: obmenu,                      ver: "2.0",                   ruleset: bunsenlabs,  incorrect: true } # fake
+- { name: obs-service-download-files,  verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: obs-service-download-url,    verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: obs-service-verify-file,     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: obs-studio,                  verge: "32",                  ruleset: t2,          incorrect: true } # 32.2.1, typo of 23.2.1
 - { name: "ocaml:calendar",            ver: "2.5",                   ruleset: nix,         incorrect: true }
 - { name: "ocaml:calendar",                                          ruleset: nix,         untrusted: true } # accused of fake 2.5 (it's really 2.03.2)
