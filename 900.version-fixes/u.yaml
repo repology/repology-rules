@@ -35,7 +35,7 @@
 - { name: unfs3,                       ver: "0.9.23",                ruleset: openwrt,     incorrect: true } # entware
 - { name: unfs3,                                                     ruleset: openwrt,     untrusted: true } # entware
 - { name: unicode-ucd,                 verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
-- { name: uniconvertor,                ver: "2.0",                   ruleset: rosa,        incorrect: true } # not yet released
+- { name: uniconvertor,                ver: "2.0",                   ruleset: rpm,         incorrect: true } # not yet released
 - { name: unison,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # XXX: assumed, not confirmed; http://www.cis.upenn.edu/~bcpierce/unison/download.html
 - { name: unit,                        ver: "1.7.1",                 ruleset: openpkg,     incorrect: true }
 - { name: unit,                                                      ruleset: openpkg,     untrusted: true } # accused of fake 1.7.1
