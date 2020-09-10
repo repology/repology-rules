@@ -34,9 +34,10 @@
 - { setname: re2,                      name: libre2 }
 - { setname: readline,                 namepat: "(?:compat-)?(?:lib)?readline[0-9.-]*" }
 - { setname: rear,                     name: [rear118a,relax-and-recover] }
-- { setname: rebar,                    name: ["erlang:rebar",rebar16,rebar17,rebar19,rebar3] }
-- { setname: rebar,                    name: rebar3-zsh, addflavor: zsh }
+- { setname: rebar,                    name: ["erlang:rebar",rebar16,rebar17,rebar19,rebar2,rebar21,erl-rebar] }
 - { setname: rebar,                    name: rebar-bin, addflavor: bin }
+- { setname: rebar3,                   name: ["erlang:rebar3",erl-rebar3] }
+- { setname: rebar3,                   name: rebar3-zsh, addflavor: zsh }
 - { setname: recutils,                 name: gnu-recutils }
 - { setname: recutils,                 name: "emacs:recutils", addflavor: emacs }
 - { setname: redeclipse,               name: red-eclipse }
