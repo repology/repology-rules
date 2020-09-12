@@ -149,6 +149,8 @@
 - { setname: cmdpack,                  namepat: "cmdpack-[a-z0-9]+" }
 - { setname: cmigemo,                  name: cmigemo-dict, addflavor: dict }
 - { setname: cmrt,                     name: libcmrt }
+- { setname: cni,                      name: [containernetworking-cni, "go:github-containernetworking-cni"] }
+- { setname: cni-plugins,              name: [containernetworking-plugins, "go:github-containernetworking-plugins"] }
 - { setname: cntk,                     name: "python:cntk" }
 - { setname: cockatrice,               name: [cockatrice-client,cockatrice-server] }
 - { setname: cockpit,                  name: cockpit-minimal, addflavor: true }
