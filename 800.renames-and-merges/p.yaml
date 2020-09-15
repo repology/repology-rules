@@ -74,6 +74,7 @@
 - { setname: perkeep,                  name: camlistore } # former name
 - { setname: perl,                     name: microperl, addflavor: true }
 - { setname: perlbal,                  name: "perl:perlbal" }
+- { setname: petite-chez-scheme,       name: petite-chez }
 - { setname: pg-dirtyread,             namepat: "(postgresql[0-9.-]*)-pg-dirtyread", addflavor: $1 }
 - { setname: pg-repack,                namepat: "(postgresql[0-9.-]*)-pg-repack", addflavor: $1 }
 - { setname: pg-top,                   name: pgtop }
