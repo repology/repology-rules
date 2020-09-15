@@ -109,6 +109,7 @@
 - { name: brisk-menu,                  ver: "0.5.1",                 ruleset: freebsd,     incorrect: true } # fork and a new fake version for the sake of single commit
 - { name: broadcom-sta,                verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: brotli,                      verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: btcd,                        verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: budgie-desktop,              verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: budgie-desktop,              ver: "10.5",                  ruleset: solus,       incorrect: true } # fake version of their own product, lol
 - { name: budgie-desktop,                                            ruleset: solus,       untrusted: true }
