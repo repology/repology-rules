@@ -27,6 +27,10 @@
 - { name: gdm, wwwpart: sparrc, setname: gdm-go-dependency-manager }
 - { name: gdm, addflag: unclassified }
 
+- { name: gerbil, wwwpart: [vyzo,cons.io], setname: gerbil-scheme }
+- { name: gerbil, wwwpart: gerbilvis, setname: gerbilvis }
+- { name: gerbil, addflag: unclassified }
+
 - { name: getopt, ruleset: openwrt, setname: util-linux }
 - { name: getopt, ruleset: sisyphus, setname: "java:getopt" }
 - { name: getopt, wwwpart: urbanophile.com, setname: "java:getopt" }
