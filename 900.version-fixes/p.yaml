@@ -134,6 +134,8 @@
 - { name: plib,                                                      ruleset: pisi,        untrusted: true } # accused of fake 2016.4.4
 - { name: ploticus,                    verpat: "[0-9]+",                                   incorrect: true } # t2 crap
 - { name: plowshare-modules,                                                               noscheme: true } # no official releases
+- { name: plt-scheme,                  verpat: "[0-9]{3}",                                 incorrect: true }
+- { name: plt-scheme,                  verge: "100", verlt: "425",                         outdated: true } # latest is 4.2.5
 - { name: pluma,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ply,                                                                             noscheme: true } # https://github.com/iovisor/ply/releases
 - { name: plymouth,                                                  ruleset: antergos,    ignore: true } # XXX: plymouth-theme-antergosm with different version, but base plymouth, no way to split!

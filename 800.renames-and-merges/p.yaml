@@ -131,6 +131,7 @@
 - { setname: platformio,               name: platformio-core }
 - { setname: plpgsql-check,            namepat: "(postgresql[0-9.-]*)-plpgsql-check", addflavor: $1 }
 - { setname: plr,                      namepat: "(postgresql[0-9.-]*)-plr", addflavor: $1 }
+- { setname: plt-scheme,               name: drscheme } # part of? https://plt-scheme.org/
 - { setname: pluma,                    name: pluma-1.16 }
 - { setname: pluma,                    name: pluma-dev, weak_devel: true }
 - { setname: pluma,                    name: pluma-gtk2, addflavor: true }
