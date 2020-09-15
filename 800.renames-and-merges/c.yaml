@@ -103,7 +103,8 @@
 - { setname: chef-dk,                  name: ["ruby:chef-dk", chefdk] }
 - { setname: chef-zero,                name: ["ruby:chef-zero", "ruby:chef-zero5"] }
 - { setname: chez-scheme,              name: chezscheme }
-- { setname: chicken,                  name: chicken5 }
+- { setname: chicken,                  name: [chicken5,chicken-scheme] }
+- { setname: chicken,                  name: chicken-bootstrap, addflavor: bootstrap }
 - { setname: chipmunk,                 name: [chipmunk6,chipmunkphysics,libchipmunk] }
 - { setname: chmlib,                   name: libchm }
 - { setname: chromaprint,              name: [chromaprint-fftw, chromaprint-tools, libchromaprint], addflavor: true }
