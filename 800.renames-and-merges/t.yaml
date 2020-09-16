@@ -131,7 +131,7 @@
 - { setname: toot,                     name: "python:toot" }
 - { setname: topgrade,                 name: "rust:topgrade" }
 - { setname: tor,                      name: [tor-devel,tor-unstable], weak_devel: true }
-- { setname: tor,                      name: tor-expert, addflavor: true }
+- { setname: tor,                      name: [tor-expert,tor-client], addflavor: true }
 - { setname: tor-browser,              name: torbrowser }
 - { setname: tor-browser,              name: [tor-browser-en, tor-browser-bundle-bin, tor-browser-behind-tor], addflavor: true }
 - { setname: tor-browser,              name: tor-browser-dev, weak_devel: true }
