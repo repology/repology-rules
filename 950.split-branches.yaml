@@ -154,6 +154,9 @@
 
 - { name: libftdi,                                        setbranchcomps: 1 }
 
+- { name: libhandy,                                       setbranchcomps: 1 }
+- { name: libhandy,          verge: "0.80", verlt: "1",   setbranch: "1" } # 1.x prerelease
+
 - { name: libmusicbrainz,                                 setbranchcomps: 1 }
 
 - { name: libnl,                                          setbranchcomps: 1 }
