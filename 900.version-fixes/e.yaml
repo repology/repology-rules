@@ -38,6 +38,8 @@
 - { name: ekg2,                                                      ruleset: rosa,        untrusted: true } # accused of fake 1.0
 - { name: ekiga,                       ver: "4.1.0",                 ruleset: opensuse,    incorrect: true }
 - { name: ekiga,                                                     ruleset: opensuse,    incorrect: true } # accused of fake 4.1.0
+- { name: electric-fence,              ver: "2_4_13",                                      incorrect: true }
+- { name: electric-fence,                                            ruleset: t2,          untrusted: true } # accused of fake 2_4_13
 - { name: electricsheep,                                                                   noscheme: true } # https://github.com/scottdraves/electricsheep/releases
 - { name: elementary,                  verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: elementary,                  ver: "2009-07-29",                                  outdated: true }
