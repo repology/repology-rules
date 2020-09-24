@@ -92,6 +92,7 @@
 - { name: xmltoman,                    verge: "0.5",                                       successor: true }
 - { name: xmms2,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: xmms2,                       verpat: ".*DrO.*",                                  ignore: true } # ?!
+- { name: xmotd,                       verpat: "(.*?)\\.?b",                               setver: $1-beta }
 - { name: xmoto,                       ver: "0.5.12",                ruleset: [pisi,rosa,haikuports], incorrect: true } # no such version
 - { name: xmoto,                                                     ruleset: [pisi,rosa,haikuports], untrusted: true } # accused of fake 0.5.12
 - { name: xmove,                       ver: "2.0",                   ruleset: sisyphus,    incorrect: true } # it's 2.0beta2
