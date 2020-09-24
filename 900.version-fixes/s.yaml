@@ -43,6 +43,7 @@
 - { name: scribus,                                                   ruleset: kaos,        untrusted: true } # accused of fake 1.5.4.80
 - { name: scribus,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: scrot,                                                     ruleset: solus,       untrusted: true } # accused of fake 0.18.17
+- { name: sct,                                                                             noscheme: true } # "actually, there is no upstream for this software. The original sct source code was just published in this blog post: https://flak.tedunangst.com/post/sct-set-color-temperature"
 - { name: sddm,                        verpat: "[0-9]{4,}.*",        ruleset: kaos,        ignore: true } # snapshot with random version
 - { name: sdl,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: sdl-sound,                   ver: "1.0.4",                 ruleset: rpm,         incorrect: true }
