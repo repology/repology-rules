@@ -18,6 +18,12 @@
 - { name: calendar, ruleset: exherbo, setname: bsdcalendar }
 - { name: calendar, addflag: unclassified }
 
+- { name: cam, wwwpart: wapmorgan, setname: cam-console-archive-manager }
+- { name: cam, wwwpart: itchyny, setname: cam-image-viewer }
+- { name: cam, wwwpart: nzxt, setname: nzxt-cam }
+# also sound mixer with no upstream
+- { name: cam, addflag: unclassified }
+
 - { name: camera, ruleset: [freebsd,openbsd], setname: gnustep-camera } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
 - { name: caps, wwwpart: softpres, ruleset: gentoo, setname: ipfdevlib }
