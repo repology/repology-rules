@@ -122,6 +122,8 @@
 - { name: plasma-desktop,              ver: "5.16.0a",               ruleset: debuntu,     incorrect: true } # ubuntu fake
 - { name: plasma-desktop,                                            ruleset: debuntu,     untrusted: true } # accused of fake 5.16.0a
 - { name: plasma-integration,          verpat: "[0-9]+\\.[0-9]+\\.9[0-9]",                 devel: true }
+- { name: plasma-workspace,            verpat: "[0-9]+\\.[0-9]+\\.9[0-9]",                 devel: true }
+- { name: plasma-workspace-wallpapers, verpat: "[0-9]+\\.[0-9]+\\.9[0-9]",                 devel: true }
 - { name: plata-theme,                 verpat: ".*\\.[89][0-9]",                           devel: true }
 - { name: pldebugger,                  verge: "9",                                         outdated: true } # https://git.postgresql.org/gitweb/?p=pldebugger.git;a=tag;h=264450daaf89455f92ebcd7d4ff2e8a0a9a19209
 - { name: plexus-active-collections,   ver: "1.0",                   ruleset: sisyphus,    incorrect: true }
