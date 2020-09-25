@@ -2,6 +2,10 @@
 
 - { name: j, wwwpart: armedbear, setname: j-armedbear } # text editor vs. programming language
 
+- { name: ja-man, ruleset: freebsd, setname: ja-man-freebsd }
+- { name: ja-man, ruleset: pkgsrc, setname: ja-man-netbsd }
+- { name: ja-man, addflag: unclassified }
+
 - { name: jack, wwwpart: unix-ag.org, setname: jack-cd-ripper }
 - { name: jack, wwwpart: jackaudio, setname: jack-audio-connection-kit }
 - { name: jack, verpat: "3\\..*",  setname: jack-cd-ripper }
