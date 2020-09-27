@@ -114,10 +114,8 @@
 - { name: toolbox, addflag: unclassified }
 
 - { name: tornado, wwwpart: tornadoweb, setname: "python:tornado" }
-- { name: tornado, wwwpart: kouya, addflag: classified }
-- { name: tornado, category: games, addflag: classified }
-- { name: tornado, summpart: "web framework", setname: "python:tornado" }
-- { name: tornado, addflag: unclassified, noflag: classified }
+- { name: tornado, wwwpart: kouya, setname: tornado-game }
+- { name: tornado, addflag: unclassified }
 
 - { name: totp-cli, wwwpart: whynothugo, setname: totp-cli-whynothugo }
 - { name: totp-cli, wwwpart: yitsushi, setname: totp-cli-yitsushi }
