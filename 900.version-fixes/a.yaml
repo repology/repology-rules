@@ -152,6 +152,9 @@
 - { name: asignify,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: asignify,                    ver: "1.1",                   ruleset: guix,        incorrect: true }
 - { name: asignify,                                                  ruleset: guix,        untrusted: true } # accused of fake 1.1
+- { name: asl-macroassembler,          verpat: "[0-9]{3}.*",                               incorrect: true }
+- { name: asl-macroassembler,          ver: "1.42_1.22",                                   incorrect: true, disposable: true } # old opensuse
+- { name: asl-macroassembler,                                                              any_is_patch: true } # 1.42_bld173
 - { name: asmjit,                                                                          noscheme: true }
 - { name: asp2php,                     ver: "20080813",                                    ignore: true }
 - { name: aspcud,                      ver: "2011.03.17",                                  ignore: true }
