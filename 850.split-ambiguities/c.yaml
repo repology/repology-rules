@@ -103,6 +103,12 @@
 
 - { name: clementine,                  setname: clementine-player                            } # clementine player vs. window manager
 
+- { name: cluster, wwwpart: redhat, setname: cluster-redhat }
+- { name: cluster, wwwpart: cran, setname: "r:cluster" }
+- { name: cluster, wwwpart: biochem, setname: cluster-interacting-items }
+- { name: cluster, wwwpart: mdehoon, setname: cluster-k-means }
+- { name: cluster, addflag: unclassified }
+
 - { name: colorize, wwwpart: lonetwin, setname: colorize-lonetwin }
 - { name: colorize, wwwpart: refcnt, setname: colorize-refcnt }
 - { name: colorize, wwwpart: [raszi,solbu], setname: colorize-raszi }
