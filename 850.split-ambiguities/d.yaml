@@ -31,9 +31,8 @@
 # otherwise, kde framework for real time communication services
 
 - { name: deco, wwwpart: ebzzry, setname: deco-root-image-setter }
-- { name: deco, wwwpart: [peha,hardlich], setname: deco-extractor }
+- { name: deco, wwwpart: [peha,hardlich,extract], setname: deco-extractor }
 - { name: deco, summpart: demos, setname: demos-commander }
-- { name: deco, summpart: extract, setname: demos-extractor }
 - { name: deco, addflag: unclassified }
 
 - { name: delta, wwwpart: tigris, setname: delta-file-minimizer }
