@@ -120,6 +120,10 @@
 
 - { name: cogl, ruleset: deepin,       setname: deepin-cogl } # fork?
 
+- { name: coral, wwwpart: caida, setname: coral-atm }
+- { name: coral, wwwpart: lmsalmel, setname: coral-seq }
+- { name: coral, addflag: unclassified }
+
 - { name: chess, wwwpart: gnu.org,     setname: gnuchess                  }
 - { name: chess, category: Games/Boards, setname: gnuchess                  }
 
