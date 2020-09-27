@@ -3,6 +3,10 @@
 - { name: g2, wwwpart: orefalo, setname: g2-git }
 # otherwise, graphics library
 
+- { name: gal, wwwpart: sequence, setname: gal-genome-annotation-library }
+- { name: gal, wwwpart: gnome, setname: gal-gnome-application-libs }
+- { name: gal, addflag: unclassified }
+
 - { name: gcap, wwwpart: code.google.com/p/gcap, setname: gcap-youtube }
 - { name: gcap, wwwpart: gnome.org, setname: gcap-cabfiles }
 - { name: gcap, wwwpart: gov.br, setname: gcap-brazilian-taxes }
