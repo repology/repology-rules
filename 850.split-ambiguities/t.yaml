@@ -118,8 +118,8 @@
 - { name: toolbox, wwwpart: jetbrains, setname: jetbrains-toolbox }
 - { name: toolbox, addflag: unclassified }
 
-- { name: tornado, wwwpart: tornadoweb, setname: "python:tornado" }
-- { name: tornado, wwwpart: kouya, setname: tornado-game }
+- { name: tornado, wwwpart: [tornadoweb,pypi.org], setname: "python:tornado" }
+- { name: tornado, wwwpart: [kouya,kiza], setname: tornado-game }
 - { name: tornado, addflag: unclassified }
 
 - { name: totp-cli, wwwpart: whynothugo, setname: totp-cli-whynothugo }
