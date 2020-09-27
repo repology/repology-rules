@@ -24,6 +24,7 @@
 - { name: ricochet-im,                                               ruleset: macosxbins,  ignore: true } # https://github.com/ozmartian/vidcutter/releases/tag/6.0.0
 - { name: scummvm,                                                   ruleset: macosxbins,  ignore: true } # https://scummvm.org/frs/scummvm/2.0.0/scummvm-2.0.0.1-macosx.dmg
 - { name: slack,                                                     ruleset: windows,     ignore: true } # different versions for linux and windows
+- { name: steam,                                                     ruleset: windows,     altscheme: true } # different versions
 - { name: stellarium,                                                ruleset: windows,     ignore: true } # http://stellarium.org/
 - { name: teams,                                                     ruleset: windows,     altver: true } # linux releases follow the same scheme, but lag behind
 - { name: telegram,                                                  ruleset: macosxbins,  ignore: true } # build numbers + specific versions
