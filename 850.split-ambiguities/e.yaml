@@ -12,10 +12,9 @@
 - { name: eagle, addflag: unclassified }
 
 - { name: ecm, wwwpart: gforge.inria.fr, setname: gmp-ecm }
-- { name: ecm, summpart: "elliptic curve", setname: gmp-ecm }
-- { name: ecm, summpart: cmake, setname: extra-cmake-modules }
-- { name: ecm, wwwpart: neillcorlett, setname: cmdpack } # merged into
-- { name: ecm, summpart: "cd image", setname: cmdpack } # merged into
+- { name: ecm, wwwpart: alucryd, setname: ecm-error-code-modeller }
+- { name: ecm, wwwpart: extra-cmake-modules, setname: extra-cmake-modules }
+- { name: ecm, wwwpart: [neillcorlett,cmdpack], setname: cmdpack } # merged into
 - { name: ecm, addflag: unclassified }
 
 - { name: edi, wwwpart: [enlightenment, edi-ide], setname: edi-ide }
