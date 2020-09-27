@@ -8,6 +8,7 @@
 - { name: digikam,                                                   ruleset: windows,     ignore: true } # http://download.kde.org/stable/digikam/digiKam-5.9.0-01-Win32.exe
 - { name: discord,                                                   ruleset: [windows,macosxbins], ignore: true } # different versions
 - { name: discord-canary,                                            ruleset: windows,     altscheme: true } # different versions
+- { name: discord-ptb,                                               ruleset: windows,     altscheme: true } # different versions
 - { name: evernote,                                                  ruleset: macosxbins,  ignore: true } # X.Y.NN.MMMM vs X.Y_KKKKKK
 - { name: gimp,                                  verlonger: 3,       ruleset: windows,     ignore: true } # build numbers: https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.12-setup-3.exe
 - { name: gitextensions,                         verlonger: 3,       ruleset: windows,     ignore: true } # build numbers: https://github.com/gitextensions/gitextensions/releases
