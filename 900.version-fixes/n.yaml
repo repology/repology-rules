@@ -41,6 +41,8 @@
 - { name: network-manager-applet,      verpat: "(.*?)-?dev",                               setver: $1, devel: true }
 - { name: network-manager-applet,      verpat: "[0-9]\\.[0-9]\\.[0-9]*[13579]",            devel: true } # https://gitlab.gnome.org/GNOME/network-manager-applet/tags
 - { name: networkmanager,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: networkmanager,              ver: "1.26.3",                ruleset: sisyphus,    incorrect: true }
+- { name: networkmanager,                                            ruleset: sisyphus,    untrusted: true } # accused of fake 1.26.3
 - { name: networkmanager-iodine,       ver: "1.2.1",                 ruleset: sisyphus,    incorrect: true }
 - { name: networkmanager-iodine,                                     ruleset: sisyphus,    untrusted: true } # accused of fake 1.2.1
 - { name: networkmanager-wireguard,                                                        noscheme: true }
