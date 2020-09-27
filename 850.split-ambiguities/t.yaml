@@ -38,6 +38,11 @@
 
 - { name: termcolor, wwwpart: [pypi,pythonhosted], setname: "python:termcolor" } # XXX: problem
 
+- { name: terra, wwwpart: terralang, setname: terra-lang }
+- { name: terra, wwwpart: launchpad.net/terra, setname: terra-term }
+- { name: terra, wwwpart: mgarland, setname: terra-terrain-approximation }
+- { name: terra, addflag: unclassified }
+
 # infrastructure manager vs. heighfield generation
 - { name: terraform, setname: gnome-terraform, ruleset: yacp }
 
