@@ -61,6 +61,7 @@
 - { name: rinetd,                      ver: "0.62.1sam",                                   ignore: true } # debian garbage
 - { name: ripit,                       ver: "3.9.90",                                      incorrect: true } # opensuse garbage, actually 4.0.0_beta20140508
 - { name: ripit,                                                     ruleset: opensuse,    untrusted: true } # accused of 3.9.90
+- { name: ripser,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: rlottie,                                                                         noscheme: true } # https://github.com/Samsung/rlottie/releases
 - { name: roaraudio,                   ver: "0.99",                  ruleset: packman,     incorrect: true } # 1.0beta11 in fact
 - { name: roaraudio,                                                 ruleset: packman,     untrusted: true } # accused of fake 0.99
