@@ -15,9 +15,8 @@
 # distributed compiler vs. stream download utility
 - { name: icecream, wwwpart: icemon, setname: icemon }
 - { name: icecream, wwwpart: icecream.sourceforge.net, setname: icecream-stream-download }
-- { name: icecream, wwwpart: [icecc,opensuse.org/icecream], addflag: classified }
-- { name: icecream, ruleset: [sisyphus,exherbo,pld,slackware,yacp], addflag: classified }
-- { name: icecream, noflag: classified, addflag: unclassified }
+- { name: icecream, wwwpart: [icecc,opensuse.org/icecream], addflag: icecream-compiler }
+- { name: icecream, addflag: unclassified }
 
 - { name: ikarus, wwwpart: scheme, setname: ikarus-scheme }
 - { name: ikarus, addflag: unclassified }
