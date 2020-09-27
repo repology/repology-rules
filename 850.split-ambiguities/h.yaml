@@ -12,9 +12,11 @@
 - { name: helm, summpart: synth, setname: helm-synth }
 - { name: helm, addflag: unclassified }
 
-- { name: hermes,                      setname: hermes-proxy, wwwpart: hermes-project.com }
-- { name: hermes,                      setname: hermes-auth, wwwpart: ralt/hermes }
-# otherwise, (dead?) pixel format convertsion library
+- { name: hermes, wwwpart: hermes-project.com, setname: hermes-proxy }
+- { name: hermes, wwwpart: ralt/hermes, setname: hermes-auth }
+- { name: hermes, wwwpart: [clanlib,scene.org], setname: hermes-pixel-format-library }
+- { name: hermes, wwwpart: tacc, setname: hermes-testing-manager }
+- { name: hermes, addflag: unclassified }
 
 - { name: hex, wwwpart: sitkevij, setname: hx }
 - { name: hex, wwwpart: [esr,ibiblio], setname: hexd-esr }
