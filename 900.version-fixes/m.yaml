@@ -133,8 +133,8 @@
 - { name: moarvm,                      ver: "9999",                  ruleset: rosa,        incorrect: true }
 - { name: moarvm,                                                    ruleset: rosa,        untrusted: true } # accused of fake 9999
 - { name: mobile-broadband-provider-info,                            ruleset: slackware,   untrusted: true } # accused of fake 20190822 (not official version, see https://gitlab.gnome.org/GNOME/mobile-broadband-provider-info/-/tags)
-- { name: moc,                         ver: ["2.6","2.6.0"],         ruleset: rpm,         incorrect: true } # 2.6alpha3
-- { name: moc,                                                       ruleset: rpm,         untrusted: true } # accused of fake 2.6
+- { name: moc,                         ver: ["2.6","2.6.0"],         ruleset: [rpm,pisi],  incorrect: true } # 2.6alpha3
+- { name: moc,                                                       ruleset: [rpm,pisi],  untrusted: true } # accused of fake 2.6
 - { name: moc,                         verpat: "2\\.6\\.0r.*",                             ignore: true }
 - { name: moc,                         verpat: "(2\\.6)\\.0(a.*)",                         setver: "$1$2" } # there's no third numeric component for alpha
 - { name: modemmanager,                ver: "1.7.990",                                     setver: "1.8-rc1" }
