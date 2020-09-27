@@ -16,6 +16,11 @@
 - { name: acme, wwwpart: rapsys.eu, setname: acme-perl }
 - { name: acme, addflag: unclassified }
 
+- { name: act, wwwpart: nektos, setname: act-run-github-actions }
+- { name: act, wwwpart: autodesk, setname: act-automatic-component-toolkit }
+- { name: act, wwwpart: artemis, setname: act-artemis-comparison-tool }
+- { name: act, addflag: unclassified }
+
 - { name: addresses, ruleset: [freebsd,openbsd,pkgsrc], setname: gnustep-addresses } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
 - { name: adios, wwwpart: mightypork, setname: adios-session-exit }
