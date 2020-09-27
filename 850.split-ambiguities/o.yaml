@@ -38,7 +38,7 @@
 - { name: omi, setname: omi-ftpmirror, category: ftp } # vs. Open Management Infrastructure
 
 - { name: opa, wwwpart: opalang, setname: opalang }
-- { name: opa, wwwpart: openpolicyagent, setname: openpolicyagent }
+- { name: opa, wwwpart: [openpolicyagent,open-policy-agent], setname: openpolicyagent }
 - { name: opa, addflag: unclassified }
 
 - { name: opal, wwwpart: opal.sourceforge, setname: opal-physics }
