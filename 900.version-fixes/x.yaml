@@ -36,6 +36,8 @@
 - { name: xdg-desktop-portal-gtk,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: xdg-user-dirs-gtk,           ver: "0.18",                  ruleset: gobolinux,   incorrect: true }
 - { name: xdg-utils,                   verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: xdg-utils,                   ver: "1.1.5",                 ruleset: [kaos,ravenports], incorrect: true }
+- { name: xdg-utils,                                                 ruleset: [kaos,ravenports], untrusted: true } # accused of fake 1.1.5
 - { name: xdot,                        ver: "20121124",                                    snapshot: true }
 - { name: xdotool,                     verpat: "20[0-9]{6}.*",                             incorrect: true } # it's 3.YYYYMMDD; XXX: problem
 - { name: xdotool,                     ver: "3.20200618.1",          ruleset: openmandriva, incorrect: true } # the tag they pull is from 2016..
