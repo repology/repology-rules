@@ -40,6 +40,8 @@
 - { name: netperf,                     verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: network-manager-applet,      verpat: "(.*?)-?dev",                               setver: $1, devel: true }
 - { name: network-manager-applet,      verpat: "[0-9]\\.[0-9]\\.[0-9]*[13579]",            devel: true } # https://gitlab.gnome.org/GNOME/network-manager-applet/tags
+- { name: network-manager-applet,      ver: "1.19.0",                ruleset: sisyphus,    incorrect: true }
+- { name: network-manager-applet,                                    ruleset: sisyphus,    untrusted: true } # accused of fake 1.19.0
 - { name: networkmanager,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: networkmanager,              ver: "1.26.3",                ruleset: sisyphus,    incorrect: true }
 - { name: networkmanager,                                            ruleset: sisyphus,    untrusted: true } # accused of fake 1.26.3
