@@ -135,6 +135,7 @@
 - { name: armitage,                                                                        noscheme: true } # no tags, the only official version from http://www.fastandeasyhacking.com/download/ is braindead MM.DD.YY format
 - { name: arora,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: arpd,                        ver: ["1.0","1.0.2"],                               ignore: true }
+- { name: arpon,                       verpat: "(.*)-ng",                                  setver: $1 } # meaningless suffix, upstream problem
 - { name: arptables,                   verpat: "20[0-9]{2}",                               ignore: true } # LEDE year
 - { name: arpwatch,                    ver: "2.1.15",                                      setver: "2.1a15" }
 - { name: artemis,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
