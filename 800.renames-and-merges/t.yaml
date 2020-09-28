@@ -22,7 +22,7 @@
 - { setname: tcllib,                   name: tcl-tcllib }
 - { setname: tcllib,                   name: tcllibc, addflavor: c } # FreeBSD artifact, c implementation split out of tcllib
 - { setname: tclreadline,              name: [tcl-readline,tcl-tclreadline] }
-- { setname: tdb,                      name: libtdb }
+- { setname: tdb,                      name: [libtdb,tdb1] }
 - { setname: tds-fdw,                  namepat: "(postgresql[0-9.-]*)-tds-fdw", addflavor: $1 }
 - { setname: teamcity,                 name: [teamcity-openjdk8,teamcity-preinstalledjre], addflavor: true }
 - { setname: teamocil,                 name: "ruby:teamocil" }
@@ -56,7 +56,7 @@
 - { setname: testdisk,                 name: [photorec, testdisk-photorec], addflavor: true } # distributed together https://www.cgsecurity.org/wiki/TestDisk_Download
 - { setname: testssl.sh,               name: testssl }
 - { setname: tetrinetx,                name: [tetrinet-x,tetrinet-server] }
-- { setname: tevent,                   name: libtevent }
+- { setname: tevent,                   name: [libtevent,tevent1] }
 - { setname: tevent,                   name: tevent-man, addflavor: man }
 - { setname: texlive,                  name: [texlive-combined-basic,texlive-combined-context,texlive-combined-full,texlive-combined-gust,texlive-combined-medium,texlive-combined-minimal,texlive-combined-small,texlive-combined-tetex,texlive-core], addflavor: true }
 - { setname: texlive-documentation,    namepat: "texlive-documentation-.*", ruleset: gentoo }
