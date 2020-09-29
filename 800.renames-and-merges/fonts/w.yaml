@@ -12,6 +12,13 @@
     - x11-font-winitzki-cyrillic
     - xorg-font-winitzki-cyrillic
 
+- setname: "fonts:wqy-bitmapfont"
+  name:
+    - wqy-bitmap-fonts
+    - wqy-bitmapfont
+    - x11-font-wqy-bitmapfont
+    - zh-wqy-bitmapfont
+
 - setname: "fonts:wqy-microhei"
   name:
     - font-wqy-microhei
@@ -25,6 +32,11 @@
     - wqy-microhei-kr-patched
     - wqy-microhei-lite
 - { setname: "fonts:wqy-microhei", name: wqy-microhei-nightly-build, weak_devel: true }
+
+- setname: "fonts:wqy-unibit"
+  name:
+    - wqy-unibit
+    - wqy-unibit-fonts
 
 - setname: "fonts:wqy-zenhei"
   name:

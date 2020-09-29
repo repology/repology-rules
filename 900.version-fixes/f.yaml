@@ -157,6 +157,8 @@
 - { name: "fonts:source-han-serif",    verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
 - { name: "fonts:ubuntu",              ver: "1.0",                   ruleset: pclinuxos,   ignore: true } # no such version on the website
 - { name: "fonts:unifont",             ver: "20080123",                                    outdated: true }
+- { name: "fonts:wqy-bitmapfont",      ver: "1.0.0",                 ruleset: rpm,         incorrect: true }
+- { name: "fonts:wqy-bitmapfont",                                    ruleset: rpm,         untrusted: true } # accused of fake 1.0.0
 - { name: "fonts:wqy-microhei",        verpat: "(.*?)[^0-9]?beta",                         setver: $1 }
 - { name: fonttools,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: fonttosfnt,                                                ruleset: opensuse,    untrusted: true } # accused of fake 1.0.5
