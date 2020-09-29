@@ -7,7 +7,9 @@
 
 - setname: xorg-server
   name:
+    - xephyr
     - xorg-dmx
+    - xorg-nestserver
     - xorg-server-bug865
     - xorg-server-common
     - xorg-server-common-mir
@@ -32,6 +34,7 @@
     - xorg-server-xwayland
     - xorg-server-xwayland-mir
     - xorg-server-xwayland-nosystemd
+    - xorg-vfbserver
   addflavor: true
 
 - setname: xorg-server
