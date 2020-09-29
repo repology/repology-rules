@@ -90,6 +90,8 @@
 - { setname: pgpool,                   namepat: "postgresql[0-9.-]*-pgpool[0-9.-]*" }
 - { setname: pgroonga,                 namepat: "(postgresql[0-9.-]*)-pgroonga", addflavor: $1 }
 - { setname: pgrouting,                name: pgrouting-1.x }
+- { setname: pgtcl,                    namepat: "pgtcl-(postgresql[0-9.-]+)", addflavor: true }
+- { setname: pgtcl,                    name: tcl-pgtcl }
 - { setname: phabricator,              name: "php:phabricator" }
 - { setname: phash,                    name: libphash }
 - { setname: phat,                     name: libphat }
