@@ -15,3 +15,6 @@
 - { vulnerable: true, name: openstack-nova, verge: "2010" } # old versioning scheme
 - { vulnerable: true, name: novnc, verge: "2000", verle: "2017" } # outdated scheme
 - { vulnerable: true, name: novnc, verge: "20000000", verle: "20170000" } # outdated scheme
+- { vulnerable: true, name: pdns, verge: "4.3", verlt: "4.3.1" } # https://blog.powerdns.com/2020/09/22/powerdns-authoritative-4-3-1-4-2-3-and-4-1-14/
+- { vulnerable: true, name: pdns, verge: "4.2", verlt: "4.2.3" } # https://blog.powerdns.com/2020/09/22/powerdns-authoritative-4-3-1-4-2-3-and-4-1-14/
+- { vulnerable: true, name: pdns, verlt: "4.1.14" } # https://blog.powerdns.com/2020/09/22/powerdns-authoritative-4-3-1-4-2-3-and-4-1-14/
