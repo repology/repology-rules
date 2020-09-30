@@ -18,6 +18,11 @@
 
 - { name: tcp-wrappers, wwwpart: apple.com, setname: tcp-wrappers-apple }
 
+- { name: tea, wwwpart: gitea, setname: tea-gitea-cli }
+- { name: tea, wwwpart: [semiletov,ourproject,tea-editor], setname: tea-editor }
+- { name: tea, wwwpart: x89, setname: tea-daemon }
+- { name: tea, addflag: unclassified }
+
 - { name: teco, wwwpart: matthiasr, setname: teco-tape-editor-and-corrector }
 - { name: teco, wwwpart: [almy.us,ibiblio], setname: teco-editor }
 - { name: teco, addflag: unclassified }
