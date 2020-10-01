@@ -136,6 +136,7 @@
 - { name: tpb,                                                       ruleset: sisyphus,    untrusted: true } # accused of fake 0.6.5
 - { name: tracker,                     verpat: ".*99.*",                                   devel: true }
 - { name: tracker-miners,              verpat: ".*99.*",                                   devel: true }
+- { name: traefik,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: transset,                    verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: transset,                    verpat: "[0-9]{6}",                                 incorrect: true }
 - { name: tre,                         verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
