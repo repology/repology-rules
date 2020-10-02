@@ -256,7 +256,7 @@
     styleplugins|
 
     nonexistingpackagenamejusttokeeppipeonthepreviousline
-    )(?:5[0-9]*)?(?:-docs|-examples|-everywhere-src|-opensource-src)*(?:-gles|-touch)*
+    )(?:5[0-9]*)?(?:-docs|-examples|-everywhere-src|-opensource-src|-src)*(?:-gles|-touch)*
   setname: qt5-$1
 
 - { setname: qt, name: [qt1, qt2, qt3, qt4, qt5] }
