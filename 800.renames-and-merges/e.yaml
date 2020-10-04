@@ -37,9 +37,9 @@
 - { setname: electricfence,            name: electric-fence }
 - { setname: electron,                 namepat: "electron[0-9]+" }
 - { setname: electrum,                 name: "python:electrum" }
-- { setname: element,                  name: [element.io, element-web, element-desktop] }
-- { setname: element,                  name: [riot, riot-desktop, riot-web] } # former name
-- { setname: element,                  name: [element-desktop-nightly,riot-desktop-nightly,riot-web-develop], weak_devel: true }
+- { setname: element-desktop,          name: [element.io, element-web, element-desktop] }
+- { setname: element-desktop,          name: [riot, riot-desktop, riot-web] } # former name
+- { setname: element-desktop,          name: [element-desktop-nightly,riot-desktop-nightly,riot-web-develop], weak_devel: true }
 - { setname: "elementary-$1",          namepat: "(?:pantheon-|io\\.elementary\\.)(applications-menu|calculator|calendar|camera|code|files|greeter|icons|music|photos|print|screenshot|shortcut-overlay|stylesheet|terminal|videos)" }
 - { setname: elementary-applications-menu, name: wingpanel-applications-menu }
 - { setname: elementary-screenshot,    name: elementary-screenshot-tool }
