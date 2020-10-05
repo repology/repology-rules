@@ -14,6 +14,7 @@
 - { name: oclgrind,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: ocropus,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: octave,                      verpat: ".*pre[0-9]{5}",                            snapshot: true }
+- { name: octave,                      verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true } # rc's https://hg.savannah.gnu.org/hgweb/octave/tags
 - { name: "octave:odepkg",             ver: "0.9.1",                 ruleset: fedora,      incorrect: true }
 - { name: "octave:odepkg",                                           ruleset: fedora,      untrusted: true } # accused of fake 0.9.1
 - { name: "octave:secs1d",             verpat: ".*r.*",                                    snapshot: true }
