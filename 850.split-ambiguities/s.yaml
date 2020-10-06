@@ -154,6 +154,10 @@
 - { name: slime, wwwpart: common-lisp, setname: "emacs:slime" }
 - { name: slime, addflag: unclassified }
 
+- { name: sls, wwwpart: illiliti, setname: sls-su }
+# upstreamless ls-like program from freebsd
+- { name: sls, addflag: unclassified }
+
 - { name: slurm, wwwpart: [mattthias,raisdorf,wormulon], setname: slurm-monitor }
 - { name: slurm, ruleset: [aosc,openbsd,pkgsrc], setname: slurm-monitor }
 - { name: slurm, wwwpart: [schedmd,llnl], setname: slurm-wlm } # "workload manager": name used in freebsd and pksrc; there's also slurm-llnl, see rule in 800
