@@ -92,6 +92,7 @@
 - { name: rttr,                        ver: "0.9.6.16",              ruleset: freebsd,     incorrect: true }
 - { name: rttr,                                                      ruleset: freebsd,     untrusted: true } # accused of fake 0.9.6.16
 - { name: ruby,                        ver: "2.7.0",                 ruleset: debuntu,     incorrect: true }
+- { name: ruby,                        verpat: ".*p.*",                                    devel: true } # e.g. 3.0.0-preview1
 - { namepat: "ruby:.*",                                              ruleset: sisyphus,    untrusted: true } # massive fake versions
 - { name: "ruby:io-like",              ver: "0.3.0.20130301",                              ignore: true } # freebsd
 - { name: run-scaled,                                                                      noscheme: true }
