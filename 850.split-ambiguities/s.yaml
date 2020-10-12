@@ -321,6 +321,10 @@
 - { name: storm, wwwpart: canonical, setname: "python:storm" }
 - { name: storm, addflag: unclassified }
 
+- { name: stylus, wwwpart: [github.com/stylus/stylus,stylus-lang], setname: stylus-stylesheet-language }
+- { name: stylus, wwwpart: github.com/openstyles/stylus, setname: stylus-userstyles-manager }
+- { name: stylus, addflag: unclassified }
+
 - { name: sudoku, wwwpart: wimleers, setname: sudoki-wimleers }
 - { name: sudoku, wwwpart: cinemast, setname: sudoki-cinemast }
 - { name: sudoku, wwwpart: laurasia, setname: sudoki-laurasia }
