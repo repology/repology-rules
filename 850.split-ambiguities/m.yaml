@@ -130,6 +130,8 @@
 - { name: minit, addflag: unclassified }
 
 - { name: minizip, wwwpart: nmoinvaz, setname: minizip-nmoinvaz } # fork
+- { name: minizip, wwwpart: [winimage,zlib], setname: zlib, addflavor: minizip }
+- { name: minizip, addflag: unclassified }
 
 - { name: minlog, wwwpart: [minlog-system,mathematik], setname: minlog-proof-system }
 - { name: minlog, wwwpart: esotericsoftware, setname: "java:minlog" }
