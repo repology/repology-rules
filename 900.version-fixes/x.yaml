@@ -91,6 +91,7 @@
 - { name: xmame,                                                     ruleset: os4depot,    incorrect: true }
 - { name: xmbmon,                      verpat: "[0-9]{3}",                                 incorrect: true } # it's 2.05, not 205. Also not 2.0.5.
 - { name: xml-coreutils,               ver: "0.8a",                                        outdated: true }
+- { name: xmlada,                                                                          noscheme: true }
 - { name: xmlrpc-c,                    relgt: "1.51",                                      devel: true, maintenance: true } # http://xmlrpc-c.sourceforge.net/change_super_stable.html
 - { name: xmltoman,                    verge: "0.5",                                       successor: true }
 - { name: xmms2,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true }
