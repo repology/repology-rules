@@ -65,6 +65,7 @@
 - { name: ceferino,                    verpat: ".*svn.*",                                  ignore: true }
 - { name: cegui,                       verpat: "6\\..*",                                   setver: "0.$0" } # it's 0.6.2!
 - { name: cegui,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: ceilometer,                  verge: "2000",                                      outdated: true } # 2014.1.4 < 15.0.0
 - { name: celestia,                    verpat: "[0-9]{3,4}",                               outdated: true }
 - { name: celestia,                    ver: "1.7.0",                 ruleset: [mageia,opensuse], incorrect: true }
 - { name: celestia,                                                  ruleset: [mageia,opensuse], untrusted: true }
