@@ -63,7 +63,7 @@
 - { setname: sdl-sound,                name: sdl-sound-patched, addflavor: patched }
 - { setname: sdl-sound,                namepat: "(?:lib)?sdl[0-9.-]*sound[0-9.-]*" }
 - { setname: sdl2,                     name: [libsdl2,sdl20] }
-- { setname: sdl2,                     name: [sdl2-nox,sdl2-rbp], addflavor: true }
+- { setname: sdl2,                     name: [sdl2-nox,sdl2-rbp,sdl2-minimal], addflavor: true }
 - { setname: sdl2-$1,                  namepat: "(?:lib)?sdl2[0-9.-]*(image|mixer|net|ttf|gfx)" }
 - { setname: sdl2-$1,                  namepat: "(?:lib)?sdl-?(image|mixer|net|ttf|gfx)2[0-9.-]*" }
 - { setname: sdl2-image,               name: sdl-image, verpat: "2.*" }
