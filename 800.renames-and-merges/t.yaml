@@ -177,4 +177,4 @@
 - { setname: typo3,                    name: typo3-src, addflavor: true }
 - { setname: typo3,                    name: "php:typo3" }
 - { setname: tyrian-data,              name: opentyrian-data }
-- { setname: tzdata,                   name: zoneinfo }
+- { setname: tzdata,                   name: [timezone-data,data-timezone,timezone,timezone-java,tzcode,tzutils,zoneinfo,tzdb] }
