@@ -2,6 +2,8 @@
 
 - { setname: "java:getopt",            name: [java-getopt, libgetopt-java] }
 - { setname: "java:gson",              name: [google-gson,gson,java-gson,libgoogle-gson-java] }
+- { setname: "java:itext",             name: [itext, itextpdf] }
+- { setname: "java:itext",             namepat: "java:itext[0-9.-]+" }
 - { setname: "java:jogl",              name: ["java:jogl2", jogl] }
 - { setname: "java:jssc",              name: [java-simple-serial-connector, jssc, libjssc-java] }
 - { setname: "java:libmatthew",        name: [libmatthew-java, libmatthew-unix-java, matthewlib-java, java-libmatthew, libmatthew, "java:matthew"] }
