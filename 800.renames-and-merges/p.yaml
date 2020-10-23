@@ -94,6 +94,8 @@
 - { setname: pgtcl,                    namepat: "pgtcl-(postgresql[0-9.-]+)", addflavor: true }
 - { setname: pgtcl,                    name: tcl-pgtcl }
 - { setname: phabricator,              name: "php:phabricator" }
+- { setname: phantomjs,                name: phantomjs19 }
+- { setname: phantomjs,                name: phantomjs-beta, weak_devel: true }
 - { setname: phash,                    name: libphash }
 - { setname: phat,                     name: libphat }
 - { setname: phoenix-emu,              name: phoenix-emu-project }
