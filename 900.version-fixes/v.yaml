@@ -4,6 +4,8 @@
 - { name: v4l2loopback,                verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: v86d,                        verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: vacuum-im,                   verpat: ".*20[0-9]{6}",                             snapshot: true } # opensuse games garbage
+- { name: vacuum-im,                   ver: "1.3.0",                 ruleset: rpm,         incorrect: true }
+- { name: vacuum-im,                                                 ruleset: rpm,         untrusted: true } # accused of fake 1.3.0
 - { name: vala,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: valentina,                   verpat: ".*a",                                      devel: true }
 - { name: vapoursynth,                 verpat: "R([.0-9]+)",                               setver: "$1" }
