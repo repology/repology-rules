@@ -190,6 +190,8 @@
 - { name: awf, noflag: classified, addflag: unclassified }
 
 - { name: audiofile, wwwpart: adamstark, setname: audiofile-adamstark }
+- { name: audiofile, wwwpart: 68k, addflag: classified }
+- { name: audiofile, noflag: classified, untrusted: true }
 
 - { name: avro, wwwpart: maateen, setname: avro-maateen }
 
