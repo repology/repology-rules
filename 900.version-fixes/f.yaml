@@ -9,6 +9,8 @@
 - { name: faifa,                       verpat: ".*svn.*",            ruleset: debuntu,     ignore: true }
 - { name: fairymax,                    verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: falkon,                                                    ruleset: pisi,        untrusted: true } # accused of fake 3.1.0
+- { name: falkon,                      ver: "3.1.99",                                      incorrect: true } # accused of fake 3.1.0
+- { name: falkon,                                                    ruleset: rosa,        untrusted: true } # accused of fake 3.1.99
 - { name: fann,                        verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: farstream,                   vercomps: 4,                  ruleset: sisyphus,    incorrect: true }
 - { name: farstream,                                                 ruleset: sisyphus,    untrusted: true } # accused of fake 0.2.9.1
