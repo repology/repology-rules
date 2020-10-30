@@ -32,6 +32,11 @@
 
 - { name: hexer,                       wwwpart: hobu, setname: hexer-hobu }
 
+- { name: horizon, wwwpart: [openstack,launchpad.net/horizon], setname: openstack-horizon }
+- { name: horizon, wwwpart: eda, setname: horizon-eda }
+- { name: horizon, wwwpart: adelie, setname: horizon-install }
+- { name: horizon, addflag: unclassified }
+
 - { name: howl, wwwpart: [howl.io,howl-editor], setname: howl-editor }
 - { name: howl, wwwpart: [howl.sourceforge,porchdogsoft], setname: howl-zeroconf }
 - { name: howl, ruleset: pkgsrc, setname: howl-zeroconf }
