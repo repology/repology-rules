@@ -61,6 +61,7 @@
 - { name: urlview,                     verpat: "(0\\.9)-[0-9]+",                           setver: $1 } # debian suffix copied by homebrew, macports and nix
 - { name: urw-fonts,                   verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: usb.ids,                     verpat: "20[0-9]{6}",                               incorrect: true } # YYYY.MM.DD
+- { name: usb.ids,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 20200828 (while the latest version is 2020.08.26)
 - { name: usbmuxd,                     ver: "1.1.1",                 ruleset: [openwrt,sisyphus,kaos,mageia,yacp], incorrect: true } # fake
 - { name: usbmuxd,                                                   ruleset: [openwrt,sisyphus,kaos,mageia,yacp], untrusted: true } # accused of fake 1.1.1
 - { name: usbmuxd,                     verpat: "20[0-9]{6}.*",                             snapshot: true }
