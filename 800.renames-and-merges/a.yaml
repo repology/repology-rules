@@ -138,6 +138,8 @@
 - { setname: apache-commons-configuration2, name: commons-configuration2 }
 - { setname: apache-commons-lang,      name: [apache-commons-lang-eap6,apache-commons-lang3,commons-lang,jakarta-commons-lang,jakarta-commons-lang3,java-commons-lang,java-commons-lang3,libcommons-lang-java,libcommons-lang3-java] }
 - { setname: apache-orc,               name: orc-tools }
+- { setname: apache-tinkerpop,         name: [apache-tinkerpop-gremlin-console,apache-gremlin-console,gremlin-console], addflavor: gremlin-console }
+- { setname: apache-tinkerpop,         name: apache-tinkerpop-gremlin-server, addflavor: gremlin-server }
 - { setname: apcupsd,                  name: [apcupsd-x11,apcupsd-cgi] }
 - { setname: apl,                      name: gnu-apl }
 - { setname: apm-planner,              name: apmplanner2 }
