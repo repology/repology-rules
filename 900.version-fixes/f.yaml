@@ -152,9 +152,7 @@
 - { name: "fonts:orbitron",                                                                noscheme: true }
 - { name: "fonts:powerline",                                                                noscheme: true }
 - { name: "fonts:quattrocento",        ver: "2.000",                 ruleset: arch,        ignore: true } # webpage says it's 1.1
-- { name: "fonts:raleway",             verpat: ".*20[0-9]{6}",                             snapshot: true } # dated packages are all snapshots, not even all from the same sources
-- { name: "fonts:raleway",             ver: "0.0.2016830",                                 snapshot: true } # irregular 7 digit dated snapshot
-- { name: "fonts:raleway",             verge: "4.0",                                       devel: true }  # 4.x series is still only an unreleased partial port to Glyphs
+- { name: "fonts:raleway",             verpat: ".*20[0-9]{2}.*",                           incorrect: true } # has proper tagged releases https://github.com/theleagueof/raleway/tags
 - { name: "fonts:siji",                                                                    noscheme: true }
 - { name: "fonts:source-han-code-jp",  verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
 - { name: "fonts:source-han-sans",     verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
