@@ -73,11 +73,10 @@
 - { setname: openjade,                 name: jade, ruleset: aosc }
 - { setname: openjade,                 namepat: "openjade[0-9.-]+" }
 - { setname: openjdk,                  namepat: "openjdk[0-9.-]*" }
-- { setname: openjdk,                  namepat: "openjdk[0-9.-]*-doc", addflavor: doc }
+- { setname: openjdk,                  namepat: "openjdk[0-9.-]*-(bin|doc)", addflavor: $1 }
 - { setname: openjdk,                  namepat: "bootstrap-openjdk[0-9.-]*", addflavor: bootstrap }
 - { setname: openjdk,                  namepat: "java[0-9.-]*openjdk" }
 - { setname: openjdk,                  namepat: "java[0-9.-]*openjdk-bootstrap", addflavor: bootstrap }
-- { setname: openjdk,                  name: openjdk-bin, addflavor: true }
 - { setname: openjpeg,                 name: [openjp2,libopenjpeg2.0,openjpeg-legacy] }
 - { setname: openjpeg,                 namepat: "(?:lib)?openjpeg[0-9]*" }
 - { setname: openldap,                 name: [compat-openldap,libldap,openldap-client,openldap-cloak,openldap-doc,openldap-nops,openldap-sasl-client,openldap-server,openldap-smbk5pwd], addflavor: true }
