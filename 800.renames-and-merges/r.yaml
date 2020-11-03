@@ -3,6 +3,8 @@
 - { setname: r,                        name: r-lang }
 - { setname: r,                        name: [r-base,r-mkl,r-minimal,librmath,rmath-standalone,r.latest,r.project], addflavor: true }
 - { setname: r3,                       name: libr3 }
+- { setname: rabbitmq-c,               name: [lib$0, librabbitmq] }
+- { setname: rabbitmq-c,               name: $0-devel, weak_devel: true }
 - { setname: rabbitmq-server,          name: rabbitmq }
 - { setname: rabid,                    name: "ruby:rabid" }
 - { setname: racket,                   name: [minimal-racket,racket-minimal], addflavor: minimal }
