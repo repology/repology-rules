@@ -1,6 +1,6 @@
 # Repology ruleset
 
-[![Build Status](https://travis-ci.org/repology/repology-rules.svg?branch=master)](https://travis-ci.org/repology/repology-rules)
+![CI](https://github.com/repology/repology-rules/workflows/CI/badge.svg)
 
 There can be a huge discrepancy in how packages for single project
 are named and versioned in different repositories, so Repology

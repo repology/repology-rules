@@ -1,9 +1,0 @@
-language: python
-dist: trusty
-python:
-  - 3.6
-before_install:
-  - pip install PyYAML
-  - pip install voluptuous
-script:
-  - make check
