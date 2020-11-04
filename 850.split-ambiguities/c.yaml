@@ -138,8 +138,8 @@
 - { name: [ck,concurrency-kit,libck],  setname: concurrencykit } # XXX: move to 800?
 
 - { name: clac, wwwpart: sourceforge, setname: clac-mborg }
-- { name: clac, ruleset: [pclinuxos], setname: clac-mborg }
-- { name: clac, ruleset: [sisyphus,yacp], setname: clac-soveran }
+- { name: clac, ruleset: pclinuxos, setname: clac-mborg }
+- { name: clac, ruleset: sisyphus, setname: clac-soveran }
 - { name: clac, wwwpart: soveran, setname: clac-soveran }
 - { name: clac, addflag: unclassified }
 

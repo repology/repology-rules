@@ -18,7 +18,7 @@
 
 - { name: fex, wwwpart: [semicomplete,jordansissel], setname: fex-field-extraction }
 - { name: fex, wwwpart: [uni-stuttgart,belwue], setname: fex-file-exchange }
-- { name: fex, ruleset: [aix,yacp], setname: fex-field-extraction }
+- { name: fex, ruleset: [aix], setname: fex-field-extraction }
 - { name: fex, addflag: unclassified }
 
 - { name: flame, wwwpart: flam3, setname: flam3 } # not really an ambiguity, but stay safe; XXX: problem
@@ -38,7 +38,6 @@
 - { name: flood, wwwpart: sjmulder, setname: flood-rapidly-invoke-command }
 - { name: flood, wwwpart: flood-ui, setname: flood-rtorrent-ui }
 - { name: flood, wwwpart: apache, setname: flood-http-load-tester }
-- { name: flood, ruleset: yacp, setname: flood-rapidly-invoke-command }
 - { name: flood, addflag: unclassified }
 
 - { name: fluid, wwwpart: hammersound, setname: fluid-soundfont } # XXX: problem

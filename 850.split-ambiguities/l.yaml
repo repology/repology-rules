@@ -72,7 +72,7 @@
 - { name: libwww, addflag: unclassified }
 
 - { name: lightning, wwwpart: gnu, setname: lightning-gnu }
-- { name: lightning, ruleset: [yacp,pld], setname: lightning-gnu }
+- { name: lightning, ruleset: pld, setname: lightning-gnu }
 - { name: lightning, wwwpart: mozilla, setname: lightning-mozilla }
 - { name: lightning, summpart: mozilla, setname: lightning-mozilla }
 - { name: lightning, addflag: unclassified }
@@ -117,7 +117,7 @@
 
 - { name: lux, wwwpart: ventto, setname: lux-brightness-ventto }
 - { name: lux, wwwpart: cybercatgurrl, setname: lux-brightness-cybercatgurrl }
-- { name: lux, ruleset: yacp, setname: lux-fulltext-search }
+- { name: lux, wwwpart: luxse, setname: lux-fulltext-search }
 - { name: lux, ruleset: exherbo, setname: lux-kernel-updater }
 - { name: lux, addflag: unclassified }
 

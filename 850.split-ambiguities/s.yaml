@@ -24,7 +24,7 @@
 
 - { name: sasl, wwwpart: cyrus, setname: cyrus-sasl }
 
-- { name: scala, ruleset: yacp, setname: scala-ccp4 }
+- { name: scala, wwwpart: ccp4, setname: scala-ccp4 }
 
 - { name: scamp, wwwpart: sourceforge.net/projects/scamp, setname: scamp-clamav }
 
@@ -167,7 +167,6 @@
 - { name: smack, wwwpart: reverbrain, setname: smack-storage }
 - { name: smack, ruleset: [sisyphus,nix], setname: smack-xmpp-library }
 - { name: smack, ruleset: pld, setname: smack-access-control }
-- { name: smack, ruleset: yacp, setname: smack-storage }
 - { name: smack, addflag: unclassified }
 
 - { name: smc, wwwpart: secretmaryo, setname: secret-maryo-chronicles }
@@ -349,7 +348,6 @@
 - { name: swarp, wwwpart: astromatic, setname: swarp-astromatic }
 - { name: swarp, wwwpart: suckless, setname: swarp-suckless }
 - { name: swarp, ruleset: openbsd, setname: swarp-suckless }
-- { name: swarp, ruleset: yacp, setname: swarp-astromatic }
 - { name: swarp, addflag: unclassified }
 
 - { name: sweet, wwwpart: eliverlara, setname: sweet-theme }
