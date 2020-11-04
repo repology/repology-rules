@@ -68,6 +68,8 @@
 - { name: testdisk,                    verpat: "(.*?)\\.?w(?:ip)?",                        setver: $1 }
 - { name: testssl.sh,                  verpat: ".*r.*",                                    devel: true, disposable: true } # FreeBSD, mangled rc
 - { name: tetgen,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: texlive,                     verpat: "[0-9]{4}(\\.[0-9]+)?",                     altscheme: true } # allow versions YYYY and YYYYMMDD to coexist
+- { name: texlive,                     verlonger: 2,                                       altver: true } # allow versions YYYY and YYYY.YYYYMMDD to coexist
 - { name: texlive,                     ver: "20180617",              ruleset: homebrew,    incorrect: true }
 - { name: texlive,                                                   ruleset: homebrew,    untrusted: true }
 - { name: texlive,                     ver: "20190509",              ruleset: cygwin,      incorrect: true }
