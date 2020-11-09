@@ -260,6 +260,8 @@
 - { name: pycharm,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: pychess,                     ver: "1.0.1",                                       setver: "1.0.0" } # upstream problem: 1.0.1 is repackaging of 1.0.0
 - { name: python,                      verpat: ".*[ab].*",                                 devel: true }
+- { name: python,                      verpat: ".*150.*",                                  incorrect: true }
+- { name: python,                                                    ruleset: appget,      untrusted: true } # accused of fake 3.7.4150.0, 3.8.150.0
 - { name: python-caja,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: pythonmagick,                ver: "0.9.64",                ruleset: sisyphus,    incorrect: true }
 - { name: pythonmagick,                                              ruleset: sisyphus,    untrusted: true } # accused of fake 0.9.64
