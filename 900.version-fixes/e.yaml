@@ -140,5 +140,5 @@
 - { name: exploitdb,                   verpat: "([0-9]{4})([0-9]{2})([0-9]{2})",           setver: $1-$2-$3 } # XXX: problem
 - { name: exploitdb,                   verpat: "[0-9]{8}.*",                               incorrect: true } # if it doesn't get converted to YYYY-MM-DD
 - { name: exuberant-ctags,             verpat: "[0-9]{3}",                                 incorrect: true } # nix: revision
-- { name: exult,                                                                           noscheme: true } # last release 1.4.9rc1 in 2016, ~1000 commits since then and no more official releases
+- { name: exult,                       verpat: "20[0-9]{2}\\.[0-9]{2}\\.[0-9]{2}_.*", ruleset: slackbuilds, snapshot: true } # slackbuild has incorrect YYYY.MM.DD_* version snapshot
 - { name: ez-pine-gpg,                 ver: "0.4.h",                                       setver: "0.4h" }
