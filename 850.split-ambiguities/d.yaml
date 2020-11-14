@@ -108,8 +108,8 @@
 - { name: docker,                      wwwpart: icculus.org,              setname: docker-tray }
 - { name: docker,                      ruleset: gobolinux,                setname: docker-tray }
 
-- { name: dog, wwwpart: dns, setname: dog-dns-client }
-- { name: dog, wwwpart: photodex, setname: dog-cat-replacement } # upstream is dead, most repos don't have real homepage url
+- { name: dog, wwwpart: dns, setname: dog-dns } # reuse name from aur
+- { name: dog, wwwpart: photodex, setname: dog-cat } # upstream is dead, most repos don't have real homepage url
 - { name: dog, addflag: unclassified }
 
 - { name: doit, wwwpart: sgtatham, setname: doit-sgtatham }
