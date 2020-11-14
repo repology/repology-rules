@@ -94,6 +94,11 @@
 - { name: chibi, wwwpart: scheme, setname: chibi-scheme }
 - { name: chibi, addflag: unclassified }
 
+- { name: chisel, wwwpart: [berkeley,chisel-lang], setname: $0-hardware-compiler }
+- { name: chisel, wwwpart: jpillora, setname: $0-tcp-tunnel-over-http }
+- { name: chisel, wwwpart: facebook, setname: $0-lldb-ios-debugging }
+- { name: chisel, addflag: unclassified }
+
 - { name: chroma, setname: "go:github-alecthomas-chroma", wwwpart: alecthomas }
 
 - { name: chromium, wwwpart: bsu, setname: chromium-bsu } # XXX: problem
