@@ -247,6 +247,7 @@
 - { name: gpart,                       vergt: "0.1h",                                      successor: true } # https://github.com/baruch/gpart
 - { name: gpaste,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gperftools,                  verpat: ".*\\.9[0-9]+",                             devel: true }
+- { name: gping,                       ver: "1.1",                                         outdated: true } # python version, rewritten in rust with other versioning scheme
 - { name: gpm,                         verpat: "[0-9]+\\.99\\..*",                         devel: true } # assumed
 - { name: gprbuild,                    verpat: "[0-9]{5,}.*",                              incorrect: true }
 - { name: gprbuild,                    verlonger: 1,                                       incorrect: true }
