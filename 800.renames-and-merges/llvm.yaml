@@ -1,0 +1,46 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+# llvm misc.
+- { setname: llvm, namepat: "llvm-toolchain-[0-9.-]+", addflavor: toolchain }
+- { setname: llvm, namepat: "llvm[0-9.-]+" }
+- { setname: llvm, name: [llvm-common,llvm-manpages,llvm-runtime,"python:llvm"], addflavor: true }
+- { setname: llvm, name: llvm-devel, weak_devel: true }
+- { setname: llvm, namepat: "llvm-toolset-[0-9.-]+-([a-z]+)", addflavor: $1 }
+
+- { setname: llvm, name: [clang+llvm-binaries], addflavor: true }
+
+# See https://github.com/llvm/llvm-project/releases for full list of components which belong to LLVM
+
+# clang
+- { setname: llvm, name: [clang, clang-runtime, clang-toolchain, clang-common, clang-manpages, clang-tools, clang-format], addflavor: true }
+- { setname: llvm, name: clang-wrapper, addflavor: clang, ruleset: nix } # see report
+- { setname: llvm, namepat: "clang[0-9.-]+", addflavor: clang }
+
+# clang-tools-extra
+- { setname: llvm, name: clang-tools-extra, addflavor: true }
+
+# compiler-rt
+- { setname: llvm, name: [compiler-rt, compiler-rt-sanitizers], addflavor: true }
+- { setname: llvm, name: compiler-rt8, addflavor: compiler-rt }
+- { setname: llvm, name: wasi-compiler-rt11, addflavor: wasi-compiler-rt }
+
+# libllvm
+- { setname: llvm, name: libllvm, addflavor: true }
+- { setname: llvm, namepat: "libllvm[0-9.-]+", addflavor: libllvm }
+
+# libc++
+- { setname: llvm, name: libc++, addflavor: true }
+- { setname: llvm, name: wasi-libcxx, addflavor: wasi-libc++ }
+- { setname: llvm, name: klee-libc++, addflavor: true }
+
+# libc++abi
+- { setname: llvm, name: libc++abi, addflavor: true }
+
+# lld
+- { setname: llvm, name: lld, addflavor: true }
+- { setname: llvm, name: lld7, addflavor: lld }
+
+# lldb
+- { setname: llvm, name: [lldb, lldb-assert,lldb-polly], addflavor: true }
+- { setname: llvm, namepat: "lldb[0-9.-]*-split", addflavor: lldb }
+- { setname: llvm, namepat: "lldb[0-9.-]+", addflavor: lldb }
