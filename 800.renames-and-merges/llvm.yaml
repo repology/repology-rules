@@ -5,7 +5,7 @@
 - { setname: llvm, namepat: "llvm[0-9.-]+" }
 - { setname: llvm, name: [llvm-common,llvm-manpages,llvm-runtime,"python:llvm"], addflavor: true }
 - { setname: llvm, name: llvm-devel, weak_devel: true }
-- { setname: llvm, namepat: "llvm-toolset-[0-9.-]+-([a-z]+)", addflavor: $1 }
+- { setname: llvm, namepat: "llvm-toolset-[0-9.-]+-([a-z-]+)", addflavor: $1 }
 
 - { setname: llvm, name: [clang+llvm-binaries], addflavor: true }
 
