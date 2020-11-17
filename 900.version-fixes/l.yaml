@@ -69,7 +69,8 @@
 - { name: llvm,                        ver: "9.0.0",                 ruleset: [haikuports,openmandriva], incorrect: true } # rc3
 - { name: llvm,                                                      ruleset: [haikuports,openmandriva], untrusted: true } # accused of fake 9.0.0
 - { name: llvm,                                                      ruleset: debuntu,     ignore: true } # 10~++20200121023453+de4b2a7fad6-1~exp1 parsed as 10, fix with #811
-- { name: llvm-libunwind,              verpat: ".*20[0-9]{6}",                             snapshot: true } # freebsd snapshot
+- { name: llvm,                        verpat: ".*20[0-9]{6}.*",                           incorrect: true }
+- { name: llvm,                        verge: "20000000", verlt: "20201012",               outdated: true } # llvm11 from 12 oct 2020
 - { name: lm4tools,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: lmbench,                     ver: "3.0",                   ruleset: sisyphus,    incorrect: true } # 3.0-a9
 - { name: lmbench,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 3.0
