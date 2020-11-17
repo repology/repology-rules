@@ -3,7 +3,7 @@
 # llvm misc.
 - { setname: llvm, namepat: "llvm-toolchain-[0-9.-]+", addflavor: toolchain }
 - { setname: llvm, namepat: "llvm[0-9.-]+" }
-- { setname: llvm, name: [llvm-common,llvm-manpages,llvm-runtime,"python:llvm",mesa-private-llvm,llvm-minimal,llvm-test-suite], addflavor: true }
+- { setname: llvm, name: [llvm-common,llvm-manpages,llvm-runtime,"python:llvm",mesa-private-llvm,llvm-minimal,llvm-test-suite,llvm-private], addflavor: true }
 - { setname: llvm, name: llvm-devel, weak_devel: true }
 - { setname: llvm, namepat: "llvm-toolset-[0-9.-]+-([a-z-]+)", addflavor: $1 }
 
@@ -38,6 +38,9 @@
 
 # libc++abi
 - { setname: llvm, name: libc++abi, addflavor: true }
+
+# libomp
+- { setname: llvm, name: libomp, addflavor: true }
 
 # lld
 - { setname: llvm, name: lld, addflavor: true }
