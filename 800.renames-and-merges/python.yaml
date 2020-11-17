@@ -355,7 +355,7 @@
 - { setname: "python:socksipy",        name: socksipy } # XXX: make upstream use prefix
 - { setname: "python:sortedcontainers",name: sortedcontainers }
 - { setname: "python:soundfile",       name: [pysoundfile, "python:pysoundfile"] }
-- { setname: "python:sphinx",          name: "python:sphinx10" }
+- { setname: "python:sphinx",          namepat: "python:sphinx[0-9.-]+" }
 - { setname: "python:sphinx",          name: ["python:sphinx-doc", sphinx-doc] }
 - { setname: "python:sphinx",          name: sphinx, wwwpart: [pocoo.org,sphinx-doc.org] }
 - { setname: "python:sphinxcontrib-adadomain",name: sphinxcontrib-adadomain } # XXX: make upstream use prefix
