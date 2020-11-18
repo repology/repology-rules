@@ -93,6 +93,7 @@
 - { name: dnstop,                                                                          noscheme: true }
 - { name: doas,                                                                            p_is_patch: true }
 - { name: doas,                        verpat: "6.0p[0-9]+",                               successor: true }
+- { name: docker,                      verpat: ".*ce",                                     incorrect: true }
 - { name: docker-compose,              ver: "1.26.0",                ruleset: sisyphus,    incorrect: true }
 - { name: docker-compose,                                            ruleset: sisyphus,    untrusted: true }
 - { name: docker-compose,              verpat: ".*20[0-9]{6}",                             snapshot: true }
