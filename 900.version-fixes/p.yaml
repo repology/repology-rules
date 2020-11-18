@@ -165,6 +165,7 @@
 - { name: polari,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: polkit-gnome,                ver: "0.106",                 ruleset: sisyphus,    incorrect: true }
 - { name: polkit-gnome,                                              ruleset: sisyphus,    untrusted: true } # accused of fake 0.106
+- { name: polkit-gnome,                verpat: "[0-9]+",                                   incorrect: true } # 0.105, not 105
 - { name: polkit-kde-agent-1,          verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: polkit-qt-1,                 ver: "0.112.0.1",             ruleset: kaos,        incorrect: true }
 - { name: polkit-qt-1,                                               ruleset: kaos,        untrusted: true } # accused of fake 0.112.0.1
