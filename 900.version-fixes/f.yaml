@@ -31,6 +31,7 @@
 - { name: fdupes,                      verpat: "[0-9]+",                                   ignore: true }
 - { name: fdutils,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: feathernotes,                verpat: "[0-9]{6}",                                 incorrect: true } # slitaz
+- { name: feedbackd,                                                                       noscheme: true } # there are official tags, but in braindead format v0.0.0+git20201114
 - { name: fern-wifi-cracker,           ver: "222",                                         outdated: true } # that's an SVN rev, and GH repo as more commits
 - { name: fern-wifi-cracker,           verpat: "[0-9]{3}",                                 incorrect: true } # blackarch's 222
 - { namepat: "fest(lex|vox)-.*",       ver: "20040804",                                    outdated: true } # some old crap from openbsd
