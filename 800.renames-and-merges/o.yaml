@@ -123,6 +123,8 @@
 - { setname: opentyrian,               name: open-tyrian }
 - { setname: openvpn,                  name: [openvpn-mbedtls,openvpn-polarssl,openvpn2,openvpn23] }
 - { setname: openzwave,                name: open-zwave }
+- { setname: opera,                    name: [opera-stable, opera-legacy, linux-opera, opera9, opera-presto, opera-blink] }
+- { setname: opera,                    name: [opera-beta, opera-developer], weak_devel: true }
 - { setname: opus,                     name: libopus }
 - { setname: opusfile,                 name: libopusfile }
 - { setname: orafce,                   namepat: "(postgresql[0-9.-]*)-orafce", addflavor: $1 }
