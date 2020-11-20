@@ -1,6 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { setname: xorg-server$1,            namepat: "xorg-server[0-9.]+(-.+)?" } # XXX: should be before large xorg-server rule at the end
+- { setname: xorg-server$1,            namepat: "xorg-server[0-9.-]+(-.+)?" } # XXX: should be before large xorg-server rule at the end
 - { setname: xorg-server$1,            namepat: "xorg-server(-.+)?-dev", ignore: true } # XXX: should be before large xorg-server rule at the end
 - { setname: xorg-server,              name: modular-xorg-server }
 - { setname: xorg-server,              namepat: "xorg-server-lts-[a-z]+" }
@@ -14,10 +14,16 @@
     - xorg-server-common
     - xorg-server-common-mir
     - xorg-server-common-nosystemd
+    - xorg-server-hidpi
     - xorg-server-hwcursor-gamma
     - xorg-server-hwe-16.04
+    - xorg-server-light
     - xorg-server-mir
     - xorg-server-nosystemd
+    - xorg-server-notty
+    - xorg-server-noudev
+    - xorg-server-rootless-nosystemd-minimal
+    - xorg-server-sd-notify
     - xorg-server-systemd
     - xorg-server-xdmx
     - xorg-server-xdmx-mir
