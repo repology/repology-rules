@@ -10,6 +10,8 @@
 - { name: "haskell:stack",             ver: "9.9.9",                                       ignore: true } # http://hackage.haskell.org/package/stack/preferred, see also https://github.com/repology/repology/issues/838
 - { name: haveged,                     ver: "1.9.8c",                                      setver: "1.9.8", disposable: true } # 2 tags on single commit
 - { name: haxe,                        verpat: "4\\..*",             ruleset: freshcode,   ignore: true } # there's no 4.0.0
+- { name: hcloud,                      ver: "1.20.1",                ruleset: arch,        incorrect: true }
+- { name: hcloud,                                                    ruleset: arch,        untrusted: true } # accused of fake 1.20.1
 - { name: hddtemp,                     ver: "0.3",                   ruleset: [sisyphus,mageia,openmandriva,pld,pclinuxos], incorrect: true } # 0.3beta15
 - { name: hddtemp,                     verpat: ".*(52|53)",                                incorrect: true } # 0.3beta15
 - { name: hdrmerge,                    verge: "5.0",                 ruleset: aur,         incorrect: true } # 0.5.0
