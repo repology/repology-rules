@@ -93,6 +93,7 @@
 - { name: libjpeg-thorfdbg,                                                                noscheme: true }
 - { name: libjpeg-turbo,               verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: libkcddb,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libkcompactdisc,             verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: libkdcraw,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libkdegames,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libkdepim,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -110,6 +111,7 @@
 - { name: libkscreen,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: libksieve,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libksysguard,                verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: libktorrent,                 verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: libkvkontakte,               verpat: ".*20[0-9]{6}",                             snapshot: true } # aosc snapshot
 - { name: libkvkontakte,               ver: "19.12.0",               ruleset: pclinuxos,   incorrect: true }
 - { name: libkvkontakte,                                             ruleset: pclinuxos,   untrusted: true } # accused of fake 19.12.0

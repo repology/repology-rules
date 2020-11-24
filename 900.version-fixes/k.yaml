@@ -23,6 +23,7 @@
 - { name: kapptemplate,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kate,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: katomic,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kbackup,                     verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kbfs,                        verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: kbibtex,                     verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kblackbox,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -46,8 +47,11 @@
 - { name: kdav,                        verge: "17",                                        outdated: true } # 5.x > 20.x: https://github.com/KDE/kdav/releases?after=v5.73.0
 - { name: kde-cli-tools,               verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kde-common,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kde-dev-scripts,             verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: kde-dev-utils,               verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kde-gtk-config,              verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kdebugsettings,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdeconnect,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kdecoration,                 verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kdeedu-data,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdegraphics-mobipocket,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -114,16 +118,21 @@
 - { name: killbots,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: killerbee,                   ver: "99",                                          incorrect: true }
 - { name: kilo,                                                                            noscheme: true }
+- { name: kimagemapeditor,             verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kimap,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kinfocenter,                 verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kio,                         ver: "5.65.0b",                                     incorrect: true }
 - { name: kio,                                                       ruleset: debuntu,     untrusted: true } # accused of fake 5.65.0b
 - { name: kio-extras,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kio-gdrive,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: kipi-plugins,                verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: kirigami-gallery,            verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kiriki,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kismet,                      verpat: "20[0-9]{4}.*",                             incorrect: true } # version format problem (it's YYYY-MM-RX)
 - { name: kismet,                      verpat: "2008.*",                                   outdated: true } # XXX: version format problem
 - { name: kismet,                      verpat: "([0-9]{4})\\.([0-9]+)\\.([0-9]+)",         setver: $1-$2-R$3 }
 - { name: kiten,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kitinerary,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kjumpingcube,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kldap,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kleopatra,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -151,6 +160,7 @@
 - { name: knetwalk,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: knights,                     ver: "2.5.85",                                      incorrect: true } # kaos
 - { name: knights,                     verpat: ".*20[0-9]{6}.*",                           ignore: true } # gentoo
+- { name: knights,                     verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: knotes,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kodi,                        verpat: "18.*alpha.*",        ruleset: guix,        ignore: true }
 - { name: kodi,                        ver: "19.0",                  ruleset: rpm,         incorrect: true }
@@ -173,8 +183,10 @@
 - { name: konsole,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kontact,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kontactinterface,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kontrast,                    verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: konversation,                ver: "18.08.3",               ruleset: pisi,        incorrect: true }
 - { name: konversation,                                              ruleset: pisi,        untrusted: true } # accused of fake 18.08.3
+- { name: konversation,                verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: konwert,                     verlonger: 3,                                       debianism: true }
 - { name: kopete,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: korganizer,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -183,9 +195,13 @@
 - { name: kpatch,                      ver: "2.0",                   ruleset: openeuler,   incorrect: true }
 - { name: kpatch,                                                    ruleset: openeuler,   untrusted: true } # accused of fake 2.0
 - { name: kpimtextedit,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kpkpass,                     verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kpmcore,                     verpat: "3\\.[89][0-9]\\..*",                       devel: true }
 - { name: kpmcore,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: kpmcore,                     verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: kpublictransport,            verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kqlives,                     verpat: "20[0-9]{6}",                               ignore: true }
+- { name: kqtquickcharts,              verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: krank,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: krb5,                                                      ruleset: fedora,      untrusted: true } # accused of fake 1.17
 - { name: krdc,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -220,6 +236,7 @@
 - { name: kteatime,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ktimer,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ktnef,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: ktorrent,                    verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: ktouch,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ktp-accounts-kcm,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ktp-approver,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -230,6 +247,7 @@
 - { name: ktp-contact-runner,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ktp-desktop-applets,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ktp-filetransfer-handler,    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: ktp-kded-integration-module, verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: ktp-kded-module,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ktp-send-file,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ktp-text-ui,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

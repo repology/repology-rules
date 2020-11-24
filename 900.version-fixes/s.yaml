@@ -289,6 +289,7 @@
 - { name: sushi,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: sutils,                      verpat: "[0-9][0-9]",                               ignore: true } # manjaro, aur snapshots
 - { name: svg2pdf,                                                                         noscheme: true }
+- { name: svgpart,                     verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: svkbd,                       verge: "20000000", verlt: "20200918",               outdated: true }
 - { name: svkbd,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: svn2git,                     verpat: "20[0-9]{6}.*",                             ignore: true } # macports
