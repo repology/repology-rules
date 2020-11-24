@@ -9,6 +9,8 @@
 
 - { ruleset: aosc,            namepat: "(.*)\\+32", setname: $1, addflavor: "32" }
 
+- { ruleset: apertis,         namepat: "(.*)-gplv2", setname: $1 }
+
 - { ruleset: [arch,chakra],   namepat: "lib32-(.*)", setname: $1, addflavor: lib32 }
 - { ruleset: arch,            namepat: "(.*)-multilib", setname: $1, addflavor: multilib }
 
