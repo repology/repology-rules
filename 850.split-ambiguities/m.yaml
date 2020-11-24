@@ -175,7 +175,7 @@
 - { name: mpd, wwwpart: cs.arizona.edu/mpd, setname: mpd-compiler }
 - { name: mpd, ruleset: [kaos,pld], addflag: classified }
 - { name: mpd, summpart: "music player daemon", addflag: classified }
-- { name: mpd, noflag: classified, addflag: unclassified }
+- { name: mpd, addflag: unclassified }
 
 - { name: mtree, wwwpart: deis.unibo.it, setname: m-tree }
 - { name: mtree, wwwpart: archiecobbs, setname: mtree-port }
@@ -197,7 +197,7 @@
 - { name: mpc, ruleset: [rudix,hpux,solus], setname: gnumpc }
 - { name: mpc, ruleset: aosc, category: libs, setname: gnumpc }
 - { name: mpc, ruleset: pld, addflag: classified }
-- { name: mpc, noflag: classified, addflag: unclassified }
+- { name: mpc, addflag: unclassified }
 
 - { name: msgpack, category: dev-java, setname: "java:msgpack" }
 

@@ -81,7 +81,7 @@
 - { name: sge, wwwpart: [liv.ac.uk,gridengine], setname: gridengine }
 - { name: sge, wwwpart: [flibitijibibo,e8cal1], setname: sdl-sge }
 - { name: sge, summpart: spectrum, setname: sge-spectrum-graphics }
-- { name: sge, noflag: classified, addflag: unclassified }
+- { name: sge, addflag: unclassified }
 
 - { name: shake, wwwpart: hackage, setname: "haskell:shake" }
 - { name: shake, wwwpart: luaforge, setname: shake-lua }
@@ -102,7 +102,7 @@
 
 - { name: sift, wwwpart: [sift.jcvi.org, sift.bii.a-star.edu.sg], setname: sift-med } # XXX: cannot decide better name
 - { name: sift, wwwpart: [sift-tool,svent], addflag: classified }
-- { name: sift, noflag: classified, addflag: unclassified }
+- { name: sift, addflag: unclassified }
 
 # there are no other cases than signal-desktop, but stay on safe side
 - { name: signal, wwwpart: desktop, setname: signal-desktop }

@@ -160,7 +160,7 @@
 - { name: atlas, wwwpart: worldforge, setname: atlas-c++ }
 - { name: atlas, wwwpart: math-atlas, setname: atlas-linear-algebra }
 - { name: atlas, wwwpart: atlas-whole-genome-assembly-suite, setname: atlas-whole-genome-assembly-suite }
-- { name: atlas, addflag: unclassified, noflag: classified }
+- { name: atlas, addflag: unclassified }
 
 - { name: atom, wwwpart: bayofrum, setname: atom-converter } # "Converts text files to html with special attributes"
 # otherwise bloatware text editor
@@ -186,12 +186,12 @@
 
 - { name: awf, wwwpart: [scn.rain.com,henry_spencer], setname: awf-formatter } # Amazingly Workable Formatter
 - { name: awf, wwwpart: awf-cms, setname: awf-cms } # Amazingly Workable Formatter
-- { name: awf, wwwpart: valr, addflag: classified } # A Widget Factory
-- { name: awf, noflag: classified, addflag: unclassified }
+- { name: awf, wwwpart: valr, setname: awf-widget-factory } # A Widget Factory
+- { name: awf, addflag: unclassified }
 
 - { name: audiofile, wwwpart: adamstark, setname: audiofile-adamstark }
 - { name: audiofile, wwwpart: 68k, addflag: classified }
-- { name: audiofile, noflag: classified, untrusted: true }
+- { name: audiofile, noflag: classified, untrusted: true } # assume the same project, but be safe against potential clashes
 
 - { name: avro, wwwpart: maateen, setname: avro-maateen }
 
