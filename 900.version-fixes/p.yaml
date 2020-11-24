@@ -263,6 +263,8 @@
 - { name: pvpgn,                       verpat: "[0-9]+\\.r[0-9]+",                         devel: true } # different schemas for stable/devel releases: https://sourceforge.net/projects/pvpgn.berlios/files/
 - { name: pwnat,                                                                           noscheme: true }
 - { name: pwsafe,                      verpat: "20[0-9]{6}",                               snapshot: true } # aur, hyperbola
+- { name: pycam,                       ver: "7.0",                   ruleset: sisyphus,    incorrect: true }
+- { name: pycam,                                                     ruleset: sisyphus,    untrusted: true } # accused of fake 7.0
 - { name: pycharm,                     verlonger: 3,                                       devel: true } # e.g. 2019.3.1.193.5662.61 - assuming EAP (early access) version
 - { name: pycharm,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: pychess,                     ver: "1.0.1",                                       setver: "1.0.0" } # upstream problem: 1.0.1 is repackaging of 1.0.0
