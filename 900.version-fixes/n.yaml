@@ -34,6 +34,9 @@
 - { name: netdiscover,                 ver: "0.3",                   ruleset: [blackarch, mageia], incorrect: true }
 - { name: netdiscover,                 verpat: "(.*)pre(beta.*)",                          setver: $1$2 }
 - { name: nethack,                     verpat: "[0-9]{3}",                                 incorrect: true } # T2: 3.6.1, not 361
+- { name: netkit-ftp,                  verpat: "20[0-9]{6}.*",                             ignore: true } # haiku snapshot
+- { name: netkit-ftp,                  ver: "0.18",                  ruleset: sisyphus,    ignore: true } # fake; actually 0.18pre1
+- { name: netkit-ftp,                  verlonger: 2,                 ruleset: gentoo,      debianism: true }
 - { name: netopeer2,                   verpat: "[0-9]+\\.[0-9]+\\.[0-9]{2}",               incorrect: true } # openwrt's fake 0.4.13; https://github.com/CESNET/Netopeer2/tags
 - { name: netopeer2,                                                 ruleset: openwrt,     untrusted: true } # accused of fake 0.4.13
 - { name: netpbm,                      verpat: "[0-9]{4}",                                 incorrect: true } # aosc, termux wtf

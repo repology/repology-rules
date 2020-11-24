@@ -68,7 +68,7 @@
 - { name: fortune, ruleset: pkgsrc, setname: fortune-mod-ibiblio } # http://cvsweb.netbsd.org/bsdweb.cgi/~checkout~/pkgsrc/games/fortune/Makefile?content-type=text/plain see DISTNAME
 - { name: fortune, addflag: unclassified }
 
-- { name: fmt, ruleset: exherbo, setname: fmt-plan9 }
+- { name: fmt, wwwpart: plan9, setname: fmt-plan9 }
 
 - { name: fpp, wwwpart: pathpicker, setname: pathpicker } # https://github.com/facebook/PathPicker vs. fortran preprocessor
 
@@ -87,8 +87,10 @@
 - { name: ftl, wwwpart: [robertrueger,scm-nv], setname: ftl-fortran-template-library }
 - { name: ftl, addflag: unclassified }
 
-- { name: ftp, ruleset: openbsd, setname: gnustep-ftp } # gnustep; may be not ambiguity (yet), but too generic name for sure
-- { name: ftp, ruleset: exherbo, category: net-ftp, setname: inetutils } # XXX: problem
+- { name: ftp, wwwpart: [gap.nongnu.org,nongnu.org/gap], setname: gnustep-ftp }
+- { name: ftp, wwwpart: inetutils, setname: inetutils } # XXX: problem
+- { name: ftp, wwwpart: netkit, setname: netkit-ftp }
+- { name: ftp, addflag: unclassified }
 
 - { name: fts, wwwpart: musl-fts, setname: musl-fts } # file tree traversal for musl
 - { name: fts, wwwpart: gonicus, setname: "fusefs:fts" } # fuse TFTP supplicant

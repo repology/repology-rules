@@ -16,7 +16,8 @@
 - { name: unicorn, ruleset: [gentoo], setname: unicorn-engine }
 - { name: unicorn, addflag: unclassified }
 
-- { name: unique, ruleset: exherbo, setname: libunique }
+- { name: unique, wwwpart: [ebassi,libunique], setname: libunique }
+- { name: unique, addflag: unclassified }
 
 - { name: unreal, wwwpart: unrealircd, setname: unrealircd }
 

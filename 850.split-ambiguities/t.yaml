@@ -8,7 +8,6 @@
 - { name: task, wwwpart: taskwarrior, setname: taskwarrior }
 - { name: task, summpart: todo, setname: taskwarrior }
 - { name: task, summpart: "to do", setname: taskwarrior }
-- { name: task, ruleset: exherbo, setname: taskwarrior }
 - { name: task, addflag: unclassified }
 
 - { name: tau, wwwpart: gnome, setname: tau-editor }
@@ -33,12 +32,12 @@
 - { name: telegram, addflag: unclassified }
 
 - { name: telnet, wwwpart: apple.com, setname: telnet-apple } # 60
-- { name: telnet, ruleset: sisyphus, setname: telnet-openbsd } # 3.0
-- { name: telnet, ruleset: exherbo, setname: inetutils, addflavor: telnet } # 1.9.4 (rectnt 1.9.5)
-- { name: telnet, ruleset: [aix,opensuse], setname: telnet-suse } # 1.2
+- { name: telnet, wwwpart: inetutils, setname: inetutils, addflavor: telnet }
 - { name: telnet, wwwpart: microsoft, setname: telnet-microsoft } # 0.9.0
-- { name: telnet, ver: "0.17", setname: netkit-telnet }
 - { name: telnet, wwwpart: msys, setname: telnet-msys }
+- { name: telnet, ruleset: sisyphus, setname: telnet-openbsd } # 3.0
+- { name: telnet, ruleset: [aix,opensuse], setname: telnet-suse } # 1.2
+- { name: telnet, ver: "0.17", setname: netkit-telnet }
 - { name: telnet, addflag: unclassified }
 
 - { name: termcolor, wwwpart: [pypi,pythonhosted], setname: "python:termcolor" } # XXX: problem
@@ -83,7 +82,7 @@
 
 - { name: tint, category: Graphics, setname: tint-photo-editor }
 - { name: tint, wwwpart: indii, setname: tint-photo-editor }
-- { name: tint, ruleset: exherbo, setname: tint-panel }
+- { name: tint, wwwpart: [code.google.com/p/tint2,tint2.googlecode.com], setname: tint2 }
 - { name: tint, wwwpart: [frogfoot,packages.debian.org,davidgriffith], setname: tint-tetris }
 - { name: tint, ruleset: debuntu, setname: tint-tetris }
 - { name: tint, category: [games,Amusements/Games/Board/Puzzle], setname: tint-tetris }
@@ -149,7 +148,6 @@
 - { name: trf, wwwpart: core.tcl.tk, setname: trf-tcl }
 - { name: trf, addflag: unclassified }
 
-- { name: trinity, ruleset: exherbo, setname: trinity-fuzzer }
 - { name: trinity, wwwpart: [codemonkey,kernelslacker], setname: trinity-fuzzer }
 - { name: trinity, wwwpart: trinityrnaseq, setname: trinityrnaseq } # already used in debian
 - { name: trinity, addflag: unclassified }
