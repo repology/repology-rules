@@ -12,6 +12,7 @@
 - { name: jcsp,                                                      ruleset: sisyphus,    untrusted: true } # accused of fake 1.1
 - { name: jcsp,                        ver: "1.1-rc6",               ruleset: mageia,      incorrect: true }
 - { name: jed,                         verpat: "[0-9]+(\\.[0-9]+){2}[_.-][0-9]+",          devel: true } # http://www.jedsoft.org/snapshots/
+- { name: jerry,                       verpat: "[0-9]+\\.[0-9]+",    ruleset: exherbo,     incorrect: true } # 3.0.6, not 3.06
 - { name: jersey,                      ver: "1.19.3",                ruleset: debuntu,     incorrect: true }
 - { name: jersey,                                                    ruleset: debuntu,     untrusted: true } # accused of fake 1.19.3
 - { name: jicofo,                                                                          noscheme: true } # braindead upstream versioning
