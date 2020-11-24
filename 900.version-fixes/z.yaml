@@ -24,6 +24,7 @@
 - { name: zlib,                        verpat: ".*[0-9]{3}.*",                             snapshot: true } # msys2
 - { name: zlib-ada,                    ver: "1.4",                   ruleset: fedora,      incorrect: true }
 - { name: zlib-ada,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true }
+- { name: zod-engine,                  verpat: "20[0-9]{6}",                               incorrect: true } # 2011-09-06, not 20110906
 - { name: zoneminder,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: zoneminder,                  ver: "1.31.1",                ruleset: slackbuilds, incorrect: true }
 - { name: zoneminder,                                                ruleset: slackbuilds, untrusted: true }
