@@ -63,6 +63,10 @@
 
 - { name: libusb, wwwpart: libusb-win32, setname: libusb-win32 }
 
+- { name: libutf, wwwpart: plan9, setname: libutf-plan9 }
+- { name: libutf, wwwpart: /clc/, setname: libutf-clc }
+- { name: libutf, addflag: unclassified }
+
 - { name: libuuid, wwwpart: util-linux, setname: util-linux, addflavor: libuuid } # part of
 - { name: libuuid, wwwpart: e2fsprogs, setname: e2fsprocs, addflavor: libuuid } # part of
 - { name: libuuid, wwwpart: kallisti5, setname: libuuid-kallisti5 }
