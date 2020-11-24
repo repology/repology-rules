@@ -160,6 +160,10 @@
 - { name: pp, wwwpart: [adi.tilde, mkws.sh], setname: pp-preprocessor }
 - { name: pp, addflag: unclassified }
 
+- { name: pprint, wwwpart: fpottier, setname: "ocaml:pprint" }
+- { name: pprint, wwwpart: p-ranav, addflag: classified }
+- { name: pprint, addflag: unclassified, noflag: classified }
+
 - { name: pq, wwwpart: progressquest, setname: progress-quest }
 - { name: pq, wwwpart: libpq, setname: libpq }
 
