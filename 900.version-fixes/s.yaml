@@ -29,6 +29,7 @@
 - { name: sccs,                        ver: "5.0.8",                                       incorrect: true } # XXX: problem, incorrect scheme
 - { name: sccs,                        verpat: "[0-9]{6}",                                 incorrect: true }
 - { name: schismtracker,               ver: "20150911005204",                              ignore: true }
+- { name: schroot,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: scim-input-pad,              verpat: ".*20[0-9]{6}",                             snapshot: true } # opensuse
 - { name: scim-skk,                    ver: "0.5.3",                 ruleset: pclinuxos,   incorrect: true }
 - { name: scim-skk,                                                  ruleset: pclinuxos,   untrusted: true } # accused of fake 0.5.3
