@@ -106,7 +106,7 @@
 - { name: flvstreamer,                                               ruleset: pisi,        untrusted: true } # accused of fake 2.1
 - { name: folks,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: fondu,                       verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: fontconfig,                  verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
+- { name: fontconfig,                  verpat: "[0-9]+\\.[0-9]+\\.9[0-9].*",               devel: true }
 - { name: fontmatrix,                  ver: "0.9.99",                ruleset: [fedora,sisyphus], incorrect: true }
 - { name: fontmatrix,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "fonts:adobe-100dpi",        verge: "7",                                         incorrect: true } # xorg version used (openindiana)
