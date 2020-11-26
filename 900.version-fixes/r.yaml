@@ -44,6 +44,8 @@
 - { name: recode,                      verge: "3.7",                                       successor: true } # fork
 - { name: redis,                       ver: "6.0",                   ruleset: [rpm, openindiana], incorrect: true }
 - { name: redis,                                                     ruleset: [rpm, openindiana], untrusted: true } # accused of fake 6.0
+- { name: redshift,                    ver: "1.12.1",                ruleset: deepin,      incorrect: true }
+- { name: redshift,                                                  ruleset: deepin,      untrusted: true } # accused of fake 1.12.1
 - { name: regexxer,                    verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: remmina,                     verpat: "(.*?)([^0-9]*r[^0-9]*)(.*?)",              setver: "$1-rcgit.$3", devel: true, ignore: false } # r, rc, rcgit, etc.
 - { name: remmina,                     ver: "1.2.0",                 ruleset: [alpine,sisyphus,debuntu,rosa], incorrect: true } # liars, it's at 1.2.0-rcgit.XX stage
