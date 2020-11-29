@@ -3,8 +3,8 @@
 - { name: l-smash-works,                                                                   noscheme: true }
 - { name: labyrinth,                   verpat: ".*a.*",                                    devel: true } # https://github.com/labyrinth-team/labyrinth/blob/b8c74806082083a97f6938773380d034ab658e6e/labyrinth_lib/__init__.py#L1
 - { name: lame,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: lame,                        ver: "3.100.1",               ruleset: deepin,      incorrect: true }
-- { name: lame,                                                      ruleset: deepin,      untrusted: true } # accused of fake 3.100.1
+- { name: lame,                        ver: "3.100.1",               ruleset: [deepin,scoop], incorrect: true }
+- { name: lame,                                                      ruleset: [deepin,scoop], untrusted: true } # accused of fake 3.100.1
 - { name: lammps,                                                    ruleset: [fedora,opensuse], untrusted: true } # accused of packaging prerelease versions
 - { name: lasem,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: lash,                        verpat: "0\\.6\\.0\\.[0-9]{3}.*",                   incorrect: true } # 0.6.0rc2
