@@ -39,6 +39,10 @@
 - { name: agrep, verge: "4.17", setname: agrep-debian } # debian fork
 - { name: agrep, setname: agrep-legacy }
 
+- { name: alarm, wwwpart: maandree, setname: alarm-maandree }
+- { name: alarm, wwwpart: dslackw, setname: alarm-dslackw }
+- { name: alarm, addflag: unclassified }
+
 - { name: alchemy, wwwpart: chemy.org, setname: alchemy-painting }
 - { name: alchemy, wwwpart: adobe, setname: alchemy-actionscript }
 - { name: alchemy, addflag: unclassified }
