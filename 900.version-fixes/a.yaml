@@ -220,4 +220,10 @@
 - { name: aview,                       verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+",        incorrect: true } # 1.3.0rc1, not 1.3.0.1 (pkgsrc)
 - { name: avinfo,                      ver: "1.0",                   ruleset: [ sisyphus ], ignore: true }
 - { name: avinfo,                      verpat: ".*a.*",                                    devel: true }
+- { name: ax25-apps,                   verge: "1",                   ruleset: fedora,      incorrect: true } # a fork; incorrect as long is it has official WWW as homepage
+- { name: ax25-apps,                   ver: "0.0.8",                 ruleset: rosa,        incorrect: true }
+- { name: ax25-apps,                                                 ruleset: rosa,        untrusted: true } # accused of fake 0.0.8
+- { name: ax25-tools,                  verge: "1",                   ruleset: fedora,      incorrect: true } # a fork; incorrect as long is it has official WWW as homepage
+- { name: ax25-tools,                  ver: "0.0.10",                ruleset: rosa,        incorrect: true }
+- { name: ax25-tools,                                                ruleset: rosa,        untrusted: true } # accused of fake 0.0.10
 - { name: axrtools,                    verlonger: 3,                                       incorrect: true }
