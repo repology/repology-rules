@@ -377,6 +377,7 @@
 - { setname: groovy,                   namepat: "groovy[0-9.-]+" }
 - { setname: grpc,                     name: [libgrpc,grpc-cli,"php:grpc"], addflavor: true }
 - { setname: grub,                     name: grub2 } # since grub legacy is obsoleted, just let grub2 eat it away
+- { setname: grub2-theme-preview,      name: "python:$0" }
 - { setname: gsasl,                    name: gsasl-ntlm, addflavor: ntlm }
 - { setname: gsasl,                    name: libgsasl }
 - { setname: gscan2pdf,                name: "perl:gscan2pdf" }
