@@ -130,6 +130,7 @@
 - { name: slim,                                                      ruleset: antix,       untrusted: true }
 - { name: slim,                        ver: "1.3.6.2",                                     successor: true } # https://github.com/somasis/slim
 - { name: slime,                       verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: slstatus,                                                                        noscheme: true }
 - { name: slune,                       ver: "1.0.16",                ruleset: mageia,      incorrect: true } # latast is 1.0.15
 - { name: slune,                                                     ruleset: mageia,      untrusted: true } # accused of fake 1.0.16
 - { name: smake,                       ver: "1.3.2",                 ruleset: aix,         incorrect: true }
