@@ -3,7 +3,7 @@
 # Projects which use different (official) versioning scheme for different systems,
 # e.g. include build number for windows
 - { name: 1password,                                                 ruleset: [windows,macosxbins], altscheme: true }
-- { name: anydesk,                                                   ruleset: [windows,macosxbins], altscheme: true }
+- { name: anydesk,                                                   ruleset: [windows,macosxbins], ignore: true }
 - { name: claws-mail,                                                ruleset: windows,     ignore: true } # https://www.claws-mail.org/win32/
 - { name: darktable,                                                 ruleset: macosxbins,  ignore: true } # https://github.com/darktable-org/darktable/releases osx-specific 3.0.1.2
 - { name: digikam,                                                   ruleset: windows,     ignore: true } # http://download.kde.org/stable/digikam/digiKam-5.9.0-01-Win32.exe
