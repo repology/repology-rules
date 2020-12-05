@@ -29,6 +29,7 @@
 - { name: rblcheck,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: rblcheck,                    ver: "20020316",                                    outdated: true, disposable: true }
 - { name: rbldnsd,                     verpat: ".*20[0-9]{6}.*",                           ignore: true }
+- { name: rbutil,                      verpat: ".*final",                                  incorrect: true }
 - { name: rc,                          verpat: "[0-9a-f]{10}",                             incorrect: true } # carbs
 - { name: rdate,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: rdesktop,                    ver: "1.8.99",                ruleset: openindiana, incorrect: true } # fake
