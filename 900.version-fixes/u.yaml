@@ -48,6 +48,8 @@
 - { name: unrar,                       verpat: "5\\.[0-9]{2}",                             incorrect: true } # it uses 5.X.Y schema
 - { name: unzip,                       verpat: ".*c.*",                                    incorrect: true } # haikuports
 - { name: unzip,                       verpat: "60.*",                                     incorrect: true } # pisi
+- { name: unzip,                       ver: "3.0.1",                 ruleset: [carbs, deepin], incorrect: true }
+- { name: unzip,                                                     ruleset: [carbs, deepin], untrusted: true } # accused of fake 3.0.1
 - { name: up-imapproxy,                verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: uperf,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: uperf,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true }
