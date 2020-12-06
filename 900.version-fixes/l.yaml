@@ -75,6 +75,8 @@
 - { name: llvm,                        verpat: "[0-9]{2}",                                 outdated: true }
 - { name: llvm,                        ver: "19b",                                         incorrect: true } # wtf?
 - { name: llvm,                                                      ruleset: termux,      untrusted: true } # accused of fake 19b
+- { name: llvm,                        ver: "11.0.1",                ruleset: [rpm,trisquel], incorrect: true }
+- { name: llvm,                                                      ruleset: [rpm,trisquel], untrusted: true } # accused of fake 11.0.1
 - { name: lm4tools,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: lmbench,                     ver: "3.0",                   ruleset: sisyphus,    incorrect: true } # 3.0-a9
 - { name: lmbench,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 3.0
