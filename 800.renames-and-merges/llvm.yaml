@@ -26,6 +26,7 @@
 
 # flang
 - { setname: llvm, name: flang, addflavor: true }
+- { setname: llvm, name: [flang-11,flang-clang,flang-driver], addflavor: flang } # some legacy bits
 
 # libllvm
 - { setname: llvm, name: libllvm, addflavor: true }
