@@ -68,6 +68,7 @@
 - { name: qutebrowser,                 ver: "1.11.1.post1",          ruleset: debuntu,     incorrect: true }
 - { name: qutebrowser,                                               ruleset: debuntu,     untrusted: true } # accused of fake 1.11.1.post1
 - { name: qvwm,                        ver: "1.1.12.1",              ruleset: aur,         incorrect: true }
+- { name: qweechat,                                                                        noscheme: true }
 - { name: qwit,                        ver: "1.1",                   ruleset: sisyphus,    incorrect: true }
 - { name: qwit,                                                      ruleset: sisyphus,    untrusted: true } # accused of fake 1.1
 - { name: qxkb,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }

@@ -62,11 +62,13 @@
 - { name: rfcat,                       verpat: ".*[0-9]{6}",                               incorrect: true } # uses semver since Aug 2020
 - { name: rfcat,                       ver: ["170508", "190423"],                          outdated: true }
 - { name: riak,                        ver: "2.2.5",                 ruleset: openbsd,     incorrect: true } # no mention on the web site, seems fake
+- { name: ridl,                                                                            noscheme: true }
 - { name: rinetd,                      ver: "0.62.1sam",                                   ignore: true } # debian garbage
 - { name: rinetd,                                                    ruleset: debuntu,     untrusted: true }
 - { name: rinetd,                      ver: "0.64",                  ruleset: aur,         incorrect: true }
 - { name: rinetd,                                                    ruleset: aur,         untrusted: true } # accused of fake 0.64
 - { name: rinetd,                      verpat: "20[0-9]{2}.*",                             incorrect: true } # termux
+- { name: ring,                                                                            noscheme: true }
 - { name: ripit,                       ver: "3.9.90",                                      incorrect: true } # opensuse garbage, actually 4.0.0_beta20140508
 - { name: ripit,                                                     ruleset: opensuse,    untrusted: true } # accused of 3.9.90
 - { name: ripser,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }

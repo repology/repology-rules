@@ -159,6 +159,7 @@
 - { name: liborigin,                   verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: libosmo-dsp,                 ver: "0.3.8",                 ruleset: opensuse,    incorrect: true } # http://cgit.osmocom.org/libosmo-dsp/
 - { name: libosmo-dsp,                 verpat: "20[0-9]{6}",                               ignore: true }
+- { name: libosmosdr,                                                                      noscheme: true }
 - { name: libp11,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: libpano13,                   verpat: "13.*",                                     incorrect: true }
 - { name: libpaper,                    ver: "1.1.24",                                      setver: "$0nmu0" }
