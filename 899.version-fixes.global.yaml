@@ -17,9 +17,12 @@
 - { verpat: ".*-[0-9]+-g[0-9a-f]{7,}.*",                                                   ignore: true }
 - { verpat: ".*\\.[0-9]+\\.g[0-9a-f]{7}",                                                  ignore: true }
 
-# git commit hashes
+# plain git commit hashes
 - { verpat: "(?!20[0-2][0-9])[0-9a-f]{7}",                                                 incorrect: true }
 - { verpat: "[0-9a-f]{40}",                                                                incorrect: true }
+
+# git hash appendage, treat as snapshot scheme (note that ~3.7% which consist of only numbers are missed)
+- { verpat: ".*[.-](?=.{0,6}[a-f])[0-9a-f]{7}",                                            ignore: true }
 
 # these are reversed dates (e.g. DDMMYYYY), beyond madness
 - { verpat: "[0123][0-9][01][0-9]20[0-2][0-9]",                                            ignore: true }
