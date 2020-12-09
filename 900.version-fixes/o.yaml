@@ -75,6 +75,7 @@
 - { name: openjdk,                                                   ruleset: freebsd,     untrusted: true } # accused of appending custom component to the upstream release
 - { name: openjdk,                                                   wwwpart: battleblow,  untrusted: true } # accused of appending custom component to the upstream release
 - { name: openjdk,                                                   ruleset: debuntu,     untrusted: true } # debian experimental uses snapshot should be fixed by repology/repology-updater#811
+- { name: openjdk,                                                                         noscheme: true } # tags in jdk-15+36 format, versions in 15.0.1 format, adoptopenjdk versions in 15.0.1+9.1 format
 - { name: openjfx,                     verpat: "8\\.0\\..*",                               ignore: true } # fedora; the official scheme is e.g. 8u151b12
 - { name: openjk,                                                                          noscheme: true }
 - { name: openkim-models,              verpat: "20[0-9]{6}",                               incorrect: true } # it's YYYY-MM-DD
