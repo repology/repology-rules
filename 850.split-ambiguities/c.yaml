@@ -178,9 +178,7 @@
 
 - { name: conduit, wwwpart: conduit.io, setname: conduit-service-mesh }
 - { name: conduit, wwwpart: [conduit-project,gnome], setname: conduit-synchronization }
-- { name: conduit, category: gnome, setname: conduit-synchronization }
-- { name: conduit, summpart: synchronization, setname: conduit-synchronization }
-- { name: conduit, ruleset: debuntu, setname: conduit-synchronization }
+- { name: conduit, wwwpart: llnl, setname: conduit-llnl } # Simplified Data Exchange for HPC Simulations
 - { name: conduit, addflag: unclassified }
 
 - { name: cops, wwwpart: seblucas, setname: cops-calibre-opds } # Calibre OPDS
