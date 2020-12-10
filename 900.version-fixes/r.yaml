@@ -52,6 +52,7 @@
 - { name: remmina,                     ver: "1.2.0",                 ruleset: [alpine,sisyphus,debuntu,rosa], incorrect: true } # liars, it's at 1.2.0-rcgit.XX stage
 - { name: remmina,                                                   ruleset: [alpine,sisyphus,debuntu,rosa], untrusted: true } # liars
 - { name: remotery,                                                                        noscheme: true }
+- { name: renpy,                       verlonger: 3,                                       altver: true } # used in tags
 - { name: rep-gtk,                     ver: "0.90.9",                ruleset: sisyphus,    incorrect: true }
 - { name: rep-gtk,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 0.90.9
 - { name: reptyr,                      ver: "0.6.3a",                ruleset: freebsd,     incorrect: true } # fake, no such tag
