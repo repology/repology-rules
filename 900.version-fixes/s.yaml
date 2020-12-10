@@ -322,6 +322,7 @@
 - { name: syncthing,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: syncthing-gtk,               verpat: "0\\.14\\..*",                              incorrect: true } # sisyphus fake (uses syncthing version?)
 - { name: syndication,                 verge: "15",                                        outdated: true }
+- { name: synergy,                     releq: "2",                                         outdated: true } # branch 2.x discontinued: https://symless.com/blog/putting-ux-first
 - { name: synfig,                      verge: "1.3",                                       devel: true }
 - { name: synfig,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: sysbench,                    verpat: "20[0-9]{6}",                               snapshot: true }
