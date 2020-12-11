@@ -145,6 +145,7 @@
 - { name: xtitle,                      ver: "20170206",                                    outdated: true } # 0.4.3 which is latest normal version ls from feb 15, e.g. newer
 - { name: xtreemfs,                    verlonger: 3,                 ruleset: nix,         incorrect: true }
 - { name: xtrlock-pam,                 verpat: ".*post.*",                                 snapshot: true }
+- { name: xtruss,                      verpat: "([0-9]{8})\\.[0-9a-fr]+",                  setver: "$1" } # braindead upstream versioning
 - { name: xview,                       vergt: "3.2p1.4",                                   untrusted: true } # ancient abandonware, no new versions are expected after last official 3.2p1.4
 - { name: xview,                       ver: ["3.2.1","3.2_p1428","3.2p4","3.2p1.4-28"],    incorrect: true }
 - { name: xwinwrap-shantz,                                                                 noscheme: true }
