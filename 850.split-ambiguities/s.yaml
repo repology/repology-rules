@@ -105,7 +105,7 @@
 - { name: sift, addflag: unclassified }
 
 # there are no other cases than signal-desktop, but stay on safe side
-- { name: signal, wwwpart: desktop, setname: signal-desktop }
+- { name: signal, wwwpart: [desktop,/signal.org/], setname: signal-desktop }
 - { name: signal, ruleset: chocolatey, setname: signal-desktop }
 - { name: signal, addflag: unclassified }
 
