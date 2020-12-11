@@ -112,7 +112,9 @@
 
 - { name: doit, wwwpart: sgtatham, setname: doit-sgtatham }
 
-- { name: dolphin,                     setname: dolphin-emu,              wwwpart: dolphin-emu.org }
+- { name: dolphin, wwwpart: dolphin-emu, setname: dolphin-emu }
+- { name: dolphin, wwwpart: kde, setname: dolphin-fm }
+- { name: dolphin, addflag: unclassified }
 
 - { name: dotty, wwwpart: dotty.epfl.ch, setname: scala-dotty }
 - { name: dotty, wwwpart: google/dotty, setname: "python:efilter" }  # why the f is the repo named dotty?

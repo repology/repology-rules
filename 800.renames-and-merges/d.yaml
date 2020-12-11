@@ -103,7 +103,10 @@
 - { setname: doh-proxy,                name: "rust:doh-proxy" }
 - { setname: doh-proxy,                name: "rust:libdoh", addflavor: libdoh }
 - { setname: doit,                     name: "python:doit" }
-- { setname: dolphin-emu,              name: dolphin-emu4 }
+- { setname: dolphin,                  name: dolphin-dev, weak_devel: true }
+- { setname: dolphin-emu,              name: [dolphin-emu4, dolphinemu] }
+- { setname: dolphin-emu,              name: dolphin-emu-beta, weak_devel: true }
+- { setname: dolphin-emu,              name: [dolphin-emu-debugfast, dolphin-emu-osvr, dolphin-emu-triforce, dolphin-emu-vr ], weak_devel: true }
 - { setname: dolphin-plugins,          name: [dolphin-plugins-bazaar,dolphin-plugins-dropbox,dolphin-plugins-git,dolphin-plugins-mercurial,dolphin-plugins-subversion], addflavor: true }
 - { setname: doom-data,                name: doomgame-iwad } # ravenports
 - { setname: doomsday,                 name: [deng, doomsday-engine] }
