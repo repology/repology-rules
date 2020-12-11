@@ -23,6 +23,7 @@
 
 # git hash appendage, treat as snapshot scheme (note that ~3.7% which consist of only numbers are missed)
 - { verpat: ".*[.-](?=.{0,6}[a-f])[0-9a-f]{7}",                                            ignore: true }
+- { verpat: ".*[.-](?=.{0,7}[a-f])[0-9a-f]{8}",                                            ignore: true }  # 2.3% missed
 
 # these are reversed dates (e.g. DDMMYYYY), beyond madness
 - { verpat: "[0123][0-9][01][0-9]20[0-2][0-9]",                                            ignore: true }
