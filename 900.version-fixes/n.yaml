@@ -33,6 +33,10 @@
 - { name: netcat-traditional,          verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: netdiscover,                 ver: "0.3",                   ruleset: [blackarch, mageia], incorrect: true }
 - { name: netdiscover,                 verpat: "(.*)pre(beta.*)",                          setver: $1$2 }
+- { name: netevent,                    ver: "20201018",                                    incorrect: true } # no commit with such date
+- { name: netevent,                                                  ruleset: nix,         untrusted: true } # accused of fake 20201018
+- { name: netevent,                    ver: "0.2.1.79",              ruleset: freebsd,     incorrect: true }
+- { name: netevent,                                                  ruleset: freebsd,     untrusted: true } # accused of fake 0.2.1.79
 - { name: nethack,                     verpat: "[0-9]{3}",                                 incorrect: true } # T2: 3.6.1, not 361
 - { name: netkit-ftp,                  verpat: "20[0-9]{6}.*",                             ignore: true } # haiku snapshot
 - { name: netkit-ftp,                  ver: "0.18",                  ruleset: sisyphus,    ignore: true } # fake; actually 0.18pre1
