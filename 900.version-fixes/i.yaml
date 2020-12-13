@@ -84,6 +84,7 @@
 - { name: ipxe,                        verpat: ".*-[0-9a-f]{7}",                           incorrect: true }
 - { name: ircd,                                                                            p_is_patch: true } # http://www.irc.org/ftp/irc/server/
 - { name: irfanview,                   verpat: "[0-9]{3}",                                 incorrect: true } # 4.52, not 452
+- { name: irssi,                       verpat: ".*\\.d\\..*",                              incorrect: true } # freebsd garbage
 - { name: irssi-otr,                   ver: "1.2.1",                 ruleset: openbsd,     incorrect: true }
 - { name: irssi-otr,                                                 ruleset: openbsd,     untrusted: true } # accused of fake 1.2.1
 - { name: irssi-scripts,                                                                   noscheme: true }
