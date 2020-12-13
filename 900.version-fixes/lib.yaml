@@ -83,6 +83,8 @@
 - { name: libhidapi,                   ver: "0.8.0",                 ruleset: sisyphus,    incorrect: true } # 0.8.0-rc1
 - { name: libhidapi,                                                 ruleset: sisyphus,    untrusted: true }
 - { name: libiconv,                    verpat: "[0-9]",                                    ignore: true } # lede/openwrt strange version
+- { name: libid3tag,                   ver: "0.15.1c",               ruleset: macports,    incorrect: true } # fork
+- { name: libid3tag,                                                 ruleset: macports,    untrusted: true } # accused of fake 0.15.1c
 - { name: libiio,                      verpat: "20[0-9]{6}",                               snapshot: true } # macports
 - { name: libimobiledevice,            ver: "1.2.1",                 ruleset: [openwrt,rpm], incorrect: true } # fake
 - { name: libimobiledevice,            verlonger: 3,                 ruleset: kaos,        incorrect: true } # fake
