@@ -88,6 +88,8 @@
 - { name: flint,                       verpat: ".*[0-9]{4}",                               incorrect: true } # opensuse garbage
 - { name: flintqs,                     ver: "20070817",                                    outdated: true }
 - { name: flintqs,                     verpat: "20[0-9]{6}",                               ignore: true }
+- { name: florist,                     verpat: "2020",               ruleset: aur,         incorrect: true } # fork, and no such tag
+- { name: florist,                                                   ruleset: aur,         untrusted: true } # accused of fake 2020
 - { name: flowd,                       verpat: ".*20[0-9]{6}",                             ignore: true } # openbsd
 - { name: flsynclient,                 ver: "0.7-1",                 ruleset: t2,          incorrect: true } # unknown origin, hosted on http://distro.ibiblio.org/quirky/quirky6/sources/t2
 - { name: flsynclient,                                               ruleset: t2,          untrusted: true }
