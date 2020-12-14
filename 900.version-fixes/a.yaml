@@ -156,6 +156,7 @@
 - { name: asignify,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: asignify,                    ver: "1.1",                   ruleset: guix,        incorrect: true }
 - { name: asignify,                                                  ruleset: guix,        untrusted: true } # accused of fake 1.1
+- { name: asis,                                                                            noscheme: true }
 - { name: asl-macroassembler,          verpat: "[0-9]{3}.*",                               incorrect: true }
 - { name: asl-macroassembler,          ver: "1.42_1.22",                                   incorrect: true, disposable: true } # old opensuse
 - { name: asl-macroassembler,                                                              any_is_patch: true } # 1.42_bld173
