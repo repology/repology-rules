@@ -3,6 +3,7 @@
 - { addflag: not_linux,                name: linux86 }
 - { setname: linux,                    namepat: "linux(?:-kernel|-lts)*[0-9.-]*", noflag: not_linux }
 - { setname: linux,                    namepat: "linux-[0-9.-]+-(antix.*)", noflag: not_linux, addflavor: $1 }
+- { setname: linux,                    namepat: "kernel[0-9.-]+" }
 - { setname: linux,                    name: kernel }
 
 - setname: linux
@@ -10,11 +11,22 @@
     - kernel-debug
     - kernel-default
     - kernel-docs
+    - kernel-headers
     - kernel-kvmsmall
     - kernel-latest
+    - kernel-libc-headers
     - kernel-linus
     - kernel-pae
     - kernel-release
     - kernel-source
+    - kernel-tools
+    - kernel-userspace-headers
+    - kernel-vanilla
+    - linux-api-headers
+    - linux-header
+    - linux-headers
+    - linux-tools
+    - linux-vanilla
+    - vanilla-kernel
     - vanilla-sources
   addflavor: true
