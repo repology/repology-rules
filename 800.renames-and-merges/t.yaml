@@ -68,6 +68,9 @@
 - { setname: the-silver-searcher,      name: [silver-searcher,silversearcher-ag,thesilversearcher,silversearcher] }
 - { setname: theme-obsidian-2,         name: [obsidian-2-gtk-theme,obsidian-2-theme,obsidian2-gtk-theme,theme-obsidian2] } # XXX: gtkthemes
 - { setname: thermald,                 name: thermal-daemon }
+- { setname: thrift,                   namepat: "thrift[0-9.-]+" }
+- { setname: thrift,                   name: thrift-compiler }
+- { setname: thrift,                   name: [thrift-c-glib,thrift-cpp,thrift-java,thrift-static], addflavor: true }
 - { setname: thrust,                   name: libthrust }
 - { setname: thunarx-python,           name: thunarx-python-0.3 }
 - { setname: thunder-and-lightning,    name: "thunder&lightning" }
