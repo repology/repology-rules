@@ -15,6 +15,7 @@
 - { name: ndppd,                       verlonger: 3,                 ruleset: opensuse,    incorrect: true } # fake 0.2.5.43
 - { name: neatvnc,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: neofetch,                    verpat: "20[0-9]{6}",                               snapshot: true } # aosc
+- { name: neovim,                      verpat: "[0-9]+\\.[0-9]+\\.[0-9]{10}.*",            incorrect: true } # funtoo garbage
 - { name: neovim-qt,                   ver: "0.2.9",                 ruleset: aur,         incorrect: true }
 - { name: neovim-qt,                                                 ruleset: aur,         untrusted: true }
 - { name: net-tools,                   verpat: ".*20[0-9]{6}.*",                           snapshot: true } # tons of snapshots
