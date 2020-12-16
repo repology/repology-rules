@@ -79,7 +79,6 @@
 - { name: texworks,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: theharvester,                verpat: "(2\\.7)\\.[12]",                           setver: $1 } # versions are mentioned in the changelog, but there are no tags
 - { name: theharvester,                ver: "2.7.3",                                       incorrect: true }
-- { name: thrift,                      verpat: "[0-9]{7}.*",                               ignore: true } # vcpkg and macports garbage
 - { name: thunar,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: thunderbird,                 verpat: ".*[ab].*",                                 devel: true }
 - { name: thunderbird,                                               ruleset: freebsd,     untrusted: true } # accused of faking RCs as releases
