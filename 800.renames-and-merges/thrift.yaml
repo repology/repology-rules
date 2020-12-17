@@ -1,0 +1,19 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { setname: thrift, namepat: "thrift[0-9.-]+" }
+- { setname: thrift, name: thrift-compiler }
+
+- setname: thrift
+  name:
+    - "haskell:thrift"
+    - "lua:thrift"
+    - "perl:thrift"
+    - "python:thrift"
+    - "ruby:thrift"
+    - libthrift
+    - libthrift-c-glib
+    - thrift-c-glib
+    - thrift-cpp
+    - thrift-java
+    - thrift-static
+  addflavor: true }
