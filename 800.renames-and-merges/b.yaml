@@ -122,7 +122,6 @@
 - { setname: botan,                    name: botan-old-stable }
 - { setname: botan,                    name: botan-with-compression, addflavor: compression }
 - { setname: bouncycastle,             namepat: "bouncycastle[0-9.-]*" }
-- { setname: bouncycastle,             namepat: "bouncycastle[0-9.-]*" }
 - { setname: bouncycastle,             name: [bcmail,bouncycastle-mail], addflavor: mail }
 - { setname: bouncycastle,             name: [bcpg,bouncycastle-pg], addflavor: pg }
 - { setname: bouncycastle,             name: [bcpkix,bouncycastle-pkix,java-bouncycastle-bcpkix], addflavor: pkix }
