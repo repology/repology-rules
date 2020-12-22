@@ -30,6 +30,11 @@
 - { name: flash, wwwpart: [flashpage,ccb.jhu.edu], setname: flash-seq } # Fast Length Adjustment of SHort reads
 - { name: flash, addflag: unclassified }
 
+- { name: fleet, wwwpart: rancher, setname: fleet-rancher }
+- { name: fleet, wwwpart: coreos, setname: fleet-coreos }
+- { name: fleet, wwwpart: fleetdm, setname: fleet-fleetdm }
+- { name: fleet, addflag: unclassified }
+
 - { name: flint, setname: flint-checker, wwwpart: pengwynn }
 
 - { name: flock, wwwpart: flock.com, setname: flock-browser }
