@@ -4,6 +4,7 @@
 # - however, in almost all cases these are snapshots which need to be ignored
 # - the exceptions from the previous rule are projects which officially use `p` in their versions
 - { ruleset: gentoo, is_p_is_patch: false, verpat: '.*_p[0-9].*', untrusted: true }
+- { ruleset: gentoo, is_p_is_patch: false, verpat: '.*_p20[0-9]{6}', untrusted: false, snapshot: true }
 - { ruleset: gentoo, p_is_patch: true }
 
 # finalize, catch-all rule
