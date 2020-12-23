@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: v2ray,                    name: [v2ray-core, "go:v2ray-core"] }
 - { setname: v4l2loopback,             name: v4l2loopback-dkms }
 - { setname: v8,                       name: [v8-static-gyp,v8-static-gyp-5.4], addflavor: static-gyp }
 - { setname: v8,                       name: v8-devel, weak_devel: true }
