@@ -303,7 +303,6 @@
 - { name: gtetrinet,                   verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: gtk,                         verpat: "[0-9]+\\.9[0-9]+\\..*",                    devel: true }
 - { name: gtk,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: gtk-doc,                     verlonger: 2,                                       ignore: true } # sisyphus fake
 - { name: gtk-engines,                 verpat: "[0-9]+\\.9[0-9]+\\..*",                    devel: true }
 - { name: gtk-engines,                 ver: "2.21.0",                                      successor: true } # arch hosted successor
 - { name: gtk-sharp,                   verpat: "[0-9]+\\.99\\..*",                         devel: true }
