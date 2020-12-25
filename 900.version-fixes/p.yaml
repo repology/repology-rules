@@ -80,6 +80,7 @@
 - { name: pgadmin,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: pgdbf,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: pgdbf,                       verpat: "[0-9]{3}\\..*",                            incorrect: true }
+- { name: phabricator,                                                                     noscheme: true }
 - { name: phonon-vlc,                  ver: "0.11.1.7",                                    incorrect: true }
 - { name: phonon-vlc,                                                ruleset: macports,    untrusted: true } # accused of fake 0.11.1.7
 - { name: photivo,                                                                         noscheme: true }

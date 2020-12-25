@@ -163,6 +163,7 @@
 - { setname: arb,                      name: flint-arb }
 - { setname: arcan,                    name: [acfgfs,aclip,aloadimage,arcan-aclip,arcan-aloadimage,arcan-waybridge,arcan-wayland], addflavor: true }
 - { setname: arcanist,                 name: "php:arcanist" }
+- { setname: arcanist,                 name: arcanist-lib, addflavor: true }
 - { setname: archipel-agents,          namepat: "archipel-agent-.*", ruleset: debuntu }
 - { setname: archiva,                  name: apache-archiva }
 - { setname: ardour,                   namepat: "ardour[0-9]+" }
