@@ -105,6 +105,9 @@
 - { name: lshw,                        verpat: "[0-9]+\\.[0-9]+",                          setver: B.$0, incorrect: false } # XXX: problem
 - { name: lskat,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: lsscsi,                      ver: "0.29",                  ruleset: opensuse,    incorrect: true } # fake
+- { name: lsscsi,                                                    ruleset: opensuse,    untrusted: true } # accused of fake 0.29
+- { name: lsscsi,                      ver: "0.32",                  ruleset: fedora,      incorrect: true } # fake
+- { name: lsscsi,                                                    ruleset: fedora,      untrusted: true } # accused of fake 0.32
 - { name: ltrace,                      verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: ltrace,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: ltrace,                      verpat: ".*_.*",              ruleset: slackbuilds, debianism: true }
