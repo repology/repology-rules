@@ -21,3 +21,4 @@
 - { vulnerable: true, name: tensorflow, ver: "2.0.0b1", disposable: true }
 - { vulnerable: true, name: cryptacular, verlt: "1.2.3" } # https://nvd.nist.gov/vuln/detail/CVE-2020-7226 reported
 - { vulnerable: true, name: spotweb, verge: "20000000", verle: "20201222" } # https://nvd.nist.gov/vuln/detail/CVE-2020-35545 affects letest ATOW 1.4.9
+- { vulnerable: true, name: openstack-horizon, verpat: "201[24].*" } # outdate scheme
