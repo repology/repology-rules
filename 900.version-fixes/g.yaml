@@ -8,6 +8,8 @@
 - { name: gap,                         verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: gap,                         verpat: "([0-9]+)r([0-9]+)p([0-9]+)",               setver: $1.$2.$3 }
 - { name: garcon,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: garcon,                      verpat: "4\\..*",                                   incorrect: true } # uses xfce version instead of project version
+- { name: garcon,                                                    ruleset: pclinuxos,   untrusted: true } # accused of fake 4.16.0
 - { name: gaupol,                      ver: "1.4.3",                 ruleset: freebsd,     incorrect: true }
 - { name: gaupol,                                                    ruleset: freebsd,     untrusted: true }
 - { name: gb,                          verpat: "20[0-9]{6}",                               snapshot: true }
