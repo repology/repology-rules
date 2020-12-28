@@ -125,7 +125,7 @@
   setname: qt
   addflavor: true
 
-# Qt5
+# Qt5/6
 # 1) official submodules, https://download.qt.io/official_releases/qt/5.12/5.12.1/submodules/
 # 2) additional splits made by most distros
 # 3) third part is variants
@@ -136,7 +136,7 @@
 # we could merge them into separate metapackages instead
 
 - namepat: |
-    (?:qt5[0-9]*-qt|qt5[0-9]*-|qt|qt-|libqt5[0-9]*-qt)(
+    (?:qt[56][0-9]*-qt|qt[56][0-9]*-|qt|qt-|libqt[56][0-9]*-qt)(
     3d|
     activeqt|
     androidextras|
@@ -243,7 +243,7 @@
     quick1|
 
     nonexistingpackagenamejusttokeeppipeonthepreviousline
-    )(?:5[0-9]*)?(?:-docs|-examples|-everywhere-src|-opensource-src)*(?:-gles|-touch)*
+    )(?:[56][0-9]*)?(?:-docs|-examples|-everywhere-src|-opensource-src)*(?:-gles|-touch)*
   setname: qt
   addflavor: true
   addflag: qt5_component  # make sure components with (old) own versions don't mismerge with qt1/2/3 (like qtvirtualkeyboard 2.0)
@@ -259,4 +259,4 @@
     )(?:5[0-9]*)?(?:-docs|-examples|-everywhere-src|-opensource-src|-src)*(?:-gles|-touch)*
   setname: qt5-$1
 
-- { setname: qt, name: [qt1, qt2, qt3, qt4, qt5] }
+- { setname: qt, name: [qt1, qt2, qt3, qt4, qt5, qt6] }
