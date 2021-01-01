@@ -2,7 +2,8 @@
 
 - { name: p11-kit,                     ver: "0.23.18.1",             ruleset: hpux,        incorrect: true } # typo of 0.23.16.1
 - { name: p11-kit,                                                   ruleset: hpux,        untrusted: true }
-- { name: p7zip,                                                     ruleset: sisyphus,    untrusted: true } # fork, no homepage to split
+- { name: p7zip,                       verpat: "17\\..*",            ruleset: [sisyphus,termux], incorrect: true }
+- { name: p7zip,                                                     ruleset: [sisyphus,termux], untrusted: true } # fork
 - { name: palapeli,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: pam,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: pam-ldap,                    verpat: "([0-9]+)\\.([0-9]+)\\.([0-9]+)",           setver: "$1$2$3" } # FreeBSD garbage
