@@ -52,6 +52,7 @@
 - { name: generatorrunner,             ver: "0.6.17",                ruleset: sisyphus,    incorrect: true }
 - { name: generatorrunner,                                           ruleset: sisyphus,    untrusted: true } # accused of fake 0.6.17
 - { name: genext2fs,                   verpat: ".*-.*",                                    debianism: true }
+- { name: genfit,                                                                          noscheme: true }
 - { name: geocode-glib,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: geos,                        ver: "3.9.0",                 ruleset: [debuntu,gentoo,fedora], ignore: true } # refer to non-existing tarball, maybe it was recalled
 - { name: getdns,                                                    ruleset: fedora,      untrusted: true } # accused of fake 1.5.2
