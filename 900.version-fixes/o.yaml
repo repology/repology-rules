@@ -19,6 +19,7 @@
 - { name: "octave:odepkg",                                           ruleset: fedora,      untrusted: true } # accused of fake 0.9.1
 - { name: "octave:secs1d",             verpat: ".*r.*",                                    snapshot: true }
 - { name: "octave:secs2d",             verpat: ".*r.*",                                    snapshot: true }
+- { namepat: "octetos-.*",                                           ruleset: aur,         untrusted: true } # strips alpha/beta suffix
 - { name: octomap,                     verpat: "[0-9a-f]{40}",                             incorrect: true } # commit hash
 - { name: odoo,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: odrive-google-drive-client,  ver: "1.6.6",                 ruleset: deepin,      incorrect: true }
