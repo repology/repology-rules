@@ -21,6 +21,7 @@
 - { setname: fasta,                    name: fasta3 }
 - { setname: fastd,                    name: fastd-devel, weak_devel: true }
 - { setname: fasttracker2,             name: ft2-clone }
+- { setname: fbreader,                 name: [fbreader-qt4,fbreader-qt5], addflavor: true }
 - { setname: fcgi,                     name: [fcgi-devkit,libfcgi, fastcgi] }
 - { setname: fcgi-cgi,                 name: fcgi-cgi-static, addflavor: static }
 - { setname: fcitx,                    name: [fcitx-gtk2,fcitx-gtk3,fcitx-qt4,fcitx-gtk], addflavor: true } # but qt5 is different project
