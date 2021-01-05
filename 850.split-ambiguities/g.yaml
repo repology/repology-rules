@@ -65,6 +65,10 @@
 
 - { name: github-cli, wwwpart: packages.python.org/github-cli, setname: "python:github-cli" }
 
+- { name: gitup, wwwpart: johnmehr, setname: gitup-freebsd }
+- { name: gitup, wwwpart: git-repo-updater, setname: git-repo-updater }
+- { name: gitup, addflag: unclassified }
+
 - { name: glab, wwwpart: upc.edi, setname: glab-gnss }
 - { name: glab, wwwpart: clementsam.tech, setname: glab-gitlab-cli }
 - { name: glab, addflag: unclassified }
