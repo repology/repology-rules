@@ -211,6 +211,9 @@
 - { name: krename,                                                   ruleset: fedora,      untrusted: true } # accused of fake 5.0.60
 - { name: kreversi,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: krfb,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kristall,                    verpat: "20[0-9]{6}.*",                             incorrect: true } # openbsd
+- { name: kristall,                    verpat: "0\\.7.*",            ruleset: haikuports,  incorrect: true }
+- { name: kristall,                                                  ruleset: haikuports,  untrusted: true } # accused of fake 0.7.3
 - { name: kruler,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: krusader,                    verpat: "16\\..*",                                  incorrect: true } # pclinuxos; it uses e.g. 2.6.0 scheme
 - { name: kscd,                        verpat: ".*20[0-9]{6}",                             ignore: true } # exherbo snapshot
