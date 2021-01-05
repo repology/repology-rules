@@ -38,6 +38,7 @@
 - { name: gdb,                         verpat: ".*\\.[59]0",                               devel: true }
 - { name: gdk-pixbuf,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gdm-gnome-display-manager,   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: geant-vmc,                                                                       p_is_patch: true }
 - { name: geany-themes,                ver: "1.27",                  ruleset: fedora,      incorrect: true } # it all looks like RPM points to 1.27 tag of https://github.com/geany/geany-themes/releases, but there's no such tag (gone?)
 - { name: geany-themes,                                              ruleset: fedora,      untrusted: true } # accused of fake 1.27
 - { name: geary,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
