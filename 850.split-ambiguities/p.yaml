@@ -232,6 +232,10 @@
 - { name: "python:magic", wwwpart: darwinsys.com/file, setname: file, addflavor: python }
 - { name: "python:magic", wwwpart: [ahupp/python-magic,pypi/python-magic], setname: "python:python-magic" } # XXX: problem
 
+- { name: "python:migrate", wwwpart: sqlalchemy-migrate, setname: "python:sqlalchemy-migrate" } # XXX: problem
+- { name: "python:migrate", wwwpart: kofrasa, addflag: classified }
+- { name: "python:migrate", addflag: unclassified }
+
 - { name: "python:osc", wwwpart: attwad, setname: "python:python-osc" }
 - { name: "python:osc", wwwpart: opensuse, setname: osc }
 - { name: "python:osc", addflag: unclassified }
