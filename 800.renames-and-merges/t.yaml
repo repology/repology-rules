@@ -18,6 +18,7 @@
 - { setname: tcc,                      name: tinycc }
 - { setname: tcl,                      namepat: "tcl8[0-9.-]+" }
 - { setname: tcl,                      name: tcltk } # hpux has tcl and tk merged; actually it should be merged to both, but we can't
+- { setname: tcl-itk,                  name: [tcl-incrtk4,tcl-itk,itk-tcl,tk-itk] }
 - { setname: tclhttpd,                 name: tcl-httpd }
 - { setname: tcllib,                   name: tcl-tcllib }
 - { setname: tcllib,                   name: tcllibc, addflavor: c } # FreeBSD artifact, c implementation split out of tcllib
