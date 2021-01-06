@@ -118,6 +118,11 @@
 - { name: mig, wwwpart: mig.ninja, setname: mig-mozilla }
 - { name: mig, addflag: unclassified }
 
+- { name: migrate, wwwpart: sqlalchemy-migrate, setname: "python:sqlalchemy-migrate" }
+- { name: migrate, wwwpart: golang-migrate, setname: "go:migrate" }
+- { name: migrate, wwwpart: popgen, setname: migrate-population }
+- { name: migrate, addflag: unclassified }
+
 - { name: minder, wwwpart: phase1geo, setname: minder-mindmap }
 - { name: minder, wwwpart: alhem, setname: minder-peerlist }
 - { name: minder, addflag: unclassified }
