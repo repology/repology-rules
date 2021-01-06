@@ -120,7 +120,7 @@
 
 - { name: migrate, wwwpart: sqlalchemy-migrate, setname: "python:sqlalchemy-migrate" }
 - { name: migrate, wwwpart: golang-migrate, setname: "go:migrate" }
-- { name: migrate, wwwpart: popgen, setname: migrate-population }
+- { name: migrate, wwwpart: [popgen,peterbeerli], setname: migrate-population }
 - { name: migrate, addflag: unclassified }
 
 - { name: minder, wwwpart: phase1geo, setname: minder-mindmap }
