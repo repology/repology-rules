@@ -14,6 +14,11 @@
 # another is `nice editor`, but I don't feel like renaming it as it's `ne` everywhere
 - { name: ne, wwwpart: wordprocessing/unix/ne, setname: ne-cam }
 
+- { name: nebula, wwwpart: slackhq, setname: nebula-overlay-networking }
+- { name: nebula, wwwpart: carnivore, setname: nebula-signature-generator }
+- { name: nebula, wwwpart: irc, setname: nebula-irc }
+- { name: nebula, addflag: unclassified }
+
 - { name: neko, wwwpart: nekovm, setname: nekovm }
 - { name: neko, wwwpart: ataraxia, setname: neko-package-manager }
 - { name: neko, addflag: unclassified }
