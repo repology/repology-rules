@@ -49,6 +49,8 @@
 
 - { remove: true,   name: plasma,       category: kde-frameworks } # gentoo metaport
 
+- { remove: true,   name: plasma-meta }
+
 # these are metaports pointing to "current" version of python (which is named pythonX.Y)
 - { remove: true,   name: python,       ruleset: freebsd }
 - { remove: true,   name: python2,      ruleset: freebsd }
