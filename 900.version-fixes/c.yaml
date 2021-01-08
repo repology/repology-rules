@@ -213,7 +213,7 @@
 - { name: cuda,                        verpat: ".*\\+.*",            ruleset: aosc,        incorrect: true } # driver version appended?
 - { name: cup,                         verpat: "11.*",                                     incorrect: true } # 0.11b
 - { name: cups,                        verpat: ".*b.*",                                    devel: true }
-- { name: cups,                        verpat: ".*op.*",                                   any_is_patch: true }
+- { name: cups-openprinting,                                                               any_is_patch: true } # e.g. 2.3.3op1
 - { name: cups-pk-helper,              ver: "0.2.7",                 ruleset: sisyphus,    incorrect: true }
 - { name: cups-pk-helper,                                            ruleset: sisyphus,    untrusted: true } # accused of fake 0.2.7
 - { name: cura,                        verpat: "1[45].*",                                  outdated: true }
