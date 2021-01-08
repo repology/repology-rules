@@ -27,7 +27,6 @@
 - { name: marco,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mari0,                       ver: "1.6.1",                 ruleset: fedora,      incorrect: true } # rpmfusion
 - { name: mari0,                                                     ruleset: fedora,      untrusted: true }
-- { name: mariadb,                     verge: "10.5",                                      devel: true, maintenance: true } # https://downloads.mariadb.org/
 - { name: marisa,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: markdown,                    ver: "1.0.2b8",               ruleset: debuntu,     incorrect: true }
 - { name: markdown,                                                  ruleset: debuntu,     untrusted: true }
