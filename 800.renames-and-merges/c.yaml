@@ -262,8 +262,8 @@
 - { setname: cuda,                     namepat: "cuda-?[0-9.]+" }
 - { setname: cumulus,                  name: cumuluslanguagede, addflavor: de }
 - { setname: cuneiform,                name: cuneiform-linux }
-- { setname: cups,                     name: [cups-libs,cups-base,cups-minimal,cups-nosystemd,libcups,libcups-ipp14,cups-doc,cups-ipp14], addflavor: true }
-- { setname: cups-filters,             name: [cups-filters-debug,cups-filters-driverless], addflavor: true }
+- { setname: cups,                     name: [cups-libs,cups-base,cups-minimal,cups-nosystemd,libcups,libcups-ipp14,cups-doc,cups-ipp14,cups-noudev,cups-pam], addflavor: true }
+- { setname: cups-filters,             name: [cups-filters-debug,cups-filters-driverless,cups-filters-patched], addflavor: true }
 - { setname: cura,                     name: cura-beta, weak_devel: true }
 - { setname: cura,                     name: [cura-old, cura-not-so-old] }
 - { setname: curaengine,               name: curaengine-beta, weak_devel: true }
