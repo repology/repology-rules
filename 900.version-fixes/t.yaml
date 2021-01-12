@@ -135,6 +135,7 @@
 - { name: tpacpi-bat,                  verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: tpb,                         ver: "0.6.5",                 ruleset: sisyphus,    incorrect: true }
 - { name: tpb,                                                       ruleset: sisyphus,    untrusted: true } # accused of fake 0.6.5
+- { name: trac,                        releq: "1.5",                                       devel: true }
 - { name: tracker,                     verpat: ".*99.*",                                   devel: true }
 - { name: tracker-miners,              verpat: ".*99.*",                                   devel: true }
 - { name: traefik,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
