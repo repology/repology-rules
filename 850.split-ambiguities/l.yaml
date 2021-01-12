@@ -20,6 +20,10 @@
 - { name: lemon, ruleset: pclinuxos, setname: lemon-lalr1-sqlite }
 - { name: lemon, addflag: unclassified }
 
+- { name: lens, wwwpart: k8lens, setname: lens-kubernetes }
+- { name: lens, wwwpart: pitecan, setname: lens-mail-filter }
+- { name: lens, addflag: unclassified }
+
 - { name: lepton, wwwpart: dropbox, setname: lepton-jpeg-compressor }
 - { name: lepton, wwwpart: hackjutsu, setname: lepton-snippet-manager }
 - { name: lepton, addflag: unclassified }
