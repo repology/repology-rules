@@ -151,7 +151,7 @@
 - { setname: toxcore,                  name: [c-toxcore,libtoxcore,tox-libtoxcore] } # there's some discrepancy between https://github.com/TokTok/c-toxcore and https://github.com/irungentoo/toxcore, but only the former has releases
 - { setname: tpm2-tools,               name: tpm2.0-tools, disposable: true } # past upstream naming fluctiations
 - { setname: trac,                     name: trac-devel, weak_devel: true }
-- { setname: trac,                     name: trac10 }
+- { setname: trac,                     name: [trac10, "python:trac"] }
 - { setname: trac-mercurial,           name: trac-mercurial-plugin }
 - { setname: traceroute,               name: traceroute2 }
 - { setname: tracker,                  name: [tracker2, tracker3, compat-tracker1] }
