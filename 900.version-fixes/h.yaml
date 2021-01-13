@@ -47,6 +47,8 @@
 - { name: hunspell-it,                 ver: "2016.2.13",                                   incorrect: true } # the real version is 2016.02.10, see #298
 - { name: hunspell-pt-br,              ver: ["20131017","20130317"],                       outdated: true } # see report
 - { name: hunspell-pt-br,              ver: "2013.10.30",                                  setver: "3.2" } # see report
+- { name: hw-probe,                    ver: "1.6",                   ruleset: manjaro,     incorrect: true }
+- { name: hw-probe,                                                  ruleset: manjaro,     untrusted: true } # accused of fake 1.6
 - { name: hydra,                       verpat: ".*20[0-9]{6}",                             snapshot: true } # termux
 - { name: hydrogen,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true } # gobolinux, gentoo
 - { name: hydrogen,                    verpat: ".*beta2",            ruleset: rosa,        incorrect: true }
