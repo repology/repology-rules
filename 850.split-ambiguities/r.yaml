@@ -74,6 +74,10 @@
 
 - { name: roundup, wwwpart: mizerany, setname: sh-roundup } # taken name already used in parabola/hyperbola
 
+- { name: rr, wwwpart: [rr-project,mozilla], setname: rr-record-replay }
+- { name: rr, wwwpart: retain, setname: rr-retain-recall }
+- { name: rr, addflag: unclassified }
+
 - { name: rs, wwwpart: neukirchen, setname: openbsd-rs }
 - { name: rs, addflag: unclassified }
 
