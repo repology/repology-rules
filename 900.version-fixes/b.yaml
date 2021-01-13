@@ -130,6 +130,7 @@
 - { name: busybox,                     verpat: ".*musl.*",                                 incorrect: true } # nix garbage
 - { name: busybox,                                                   ruleset: fdroid,      devel: false } # accused of fake devel 1.31.1
 - { name: busybox,                     verpat: "([0-9]+\\.){2}0+",                         devel: true } # X.Y.0 versions are (assumed) unstable
+- { name: busybox,                     ver: "1.33.1",                ruleset: distrowatch, incorrect: true }
 - { name: byobu,                       ver: "5.126",                 ruleset: debuntu,     incorrect: true }
 - { name: byobu,                                                     ruleset: debuntu,     untrusted: true }
 - { name: byzanz,                      verpat: "20[0-9]{6}",                               snapshot: true }
