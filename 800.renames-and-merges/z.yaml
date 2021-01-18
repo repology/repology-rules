@@ -26,6 +26,7 @@
 - { setname: zerotier-one,             name: [zerotier-one-armv7h,zerotier-one-debug], addflavor: true }
 - { setname: zhparser,                 namepat: "(postgresql[0-9.-]*)-zhparser", addflavor: $1 }
 - { setname: zig,                      name: ziglang }
+- { setname: zig,                      name: zig-static, addflavor: true }
 - { setname: zim,                      name: "python:zim" }
 - { setname: zim,                      name: zim-wiki }
 - { setname: zimg,                     name: sekrit-twc-zimg }
