@@ -130,6 +130,7 @@
 - { name: otter-browser,                                             ruleset: rosa,        untrusted: true } # accused of fake 1.1.0
 - { name: otter-browser,               ver: "1.0.01.1",              ruleset: freebsd,     incorrect: true } # fake
 - { name: otter-browser,                                             ruleset: freebsd,     untrusted: true } # accused of fake 1.1.01.1
+- { name: otter-browser,               verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true } # assumed https://sourceforge.net/projects/otter-browser/files/otter-browser-weekly360/
 - { name: owamp,                       ver: "3.5.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: owamp,                                                     ruleset: sisyphus,    untrusted: true }
 - { name: owfs,                                                                            p_is_patch: true }
