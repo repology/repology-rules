@@ -189,6 +189,7 @@
 - { name: mpv,                         verpat: "20[0-9]{2}[.-][0-9]{2}[.-][0-9]{2}",       ignore: true } # chocolatey and scoop
 - { name: mpv,                         ver: "0.30.0",                ruleset: [openmandriva,opensuse], incorrect: true } # fake
 - { name: mpv,                                                       ruleset: [openmandriva,opensuse], untrusted: true } # accused of fake 0.30.0
+- { name: mpv,                         verpat: ".*20[0-9]{6}",                             snapshot: true } # funtoo
 - { name: mrboom,                      verpat: ".*20[0-9]{6}",                             snapshot: true } # haikuports
 - { name: ms-gsl,                      verpat: "20[0-9]{2}.*",                             incorrect: true } # official versioning scheme was introduced, 1.0.0 is the latest
 - { name: ms-gsl,                      verpat: "2017.*",                                   outdated: true } # official versioning scheme was introduced, 1.0.0 is the latest
