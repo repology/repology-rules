@@ -26,6 +26,8 @@
 - { name: calligra,                    verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]",              devel: true }
 - { name: camd,                                                      ruleset: os4depot,    incorrect: true }
 - { name: camlp5,                      verpat: "[0-9]{3}",                                 incorrect: true } # XXX: add problem
+- { name: camotics,                    ver: "1.2.1",                 ruleset: sisyphus,    incorrect: true }
+- { name: camotics,                                                  ruleset: sisyphus,    untrusted: true } # accused of fake 1.2.1
 - { name: can-utils,                                                                       noscheme: true }
 - { name: candy-icons,                                                                     noscheme: true }
 - { name: canna,                                                                           p_is_patch: true }
