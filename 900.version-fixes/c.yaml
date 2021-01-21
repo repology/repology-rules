@@ -41,6 +41,7 @@
 - { name: carla,                                                     ruleset: fedora,      untrusted: true } # accused of fake 2.0.0
 - { name: carla,                       verpat: ".*b.*",                                    devel: true }
 - { name: carla,                       ver: "2.1-b1-test1",                                incorrect: true } # freshcode, no such version
+- { name: carps-cups,                                                                      noscheme: true }
 - { name: cassandra,                   verpat: ".*[ab].*",                                 devel: true } # XXX: FreeBSD DISTVERSION
 - { name: castxml,                                                                         noscheme: true }
 - { name: cataclysm-dda,               verpat: ".*[0-9]{4}.*",                             snapshot: true }
