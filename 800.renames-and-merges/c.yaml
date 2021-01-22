@@ -152,6 +152,8 @@
 - { setname: cmdpack,                  namepat: "cmdpack-[a-z0-9]+" }
 - { setname: cmigemo,                  name: cmigemo-dict, addflavor: dict }
 - { setname: cmrt,                     name: libcmrt }
+- { setname: cnagios,                  name: cnagios4 }
+- { setname: cnagios,                  name: [cnagios-nagios3, cnagios-nagios4], addflavor: true }
 - { setname: cni,                      name: [containernetworking-cni, "go:github-containernetworking-cni"] }
 - { setname: cni-plugins,              name: [containernetworking-plugins, "go:github-containernetworking-plugins"] }
 - { setname: cntk,                     name: "python:cntk" }
