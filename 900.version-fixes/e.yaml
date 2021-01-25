@@ -77,6 +77,8 @@
 - { name: "emacs:slime",               verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: "emacs:slime",               ver: "3.0",                   ruleset: [mageia,epel], incorrect: true }
 - { name: "emacs:slime",                                             ruleset: [mageia,epel], untrusted: true } # accused of fake 3.0
+- { name: "emacs:slime",               verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: "emacs:slime",                                             ruleset: freebsd,     untrusted: true } # accused of fake 2.26.1.9
 - { name: "emacs:tdtd",                ver: "0.71",                                        incorrect: true } # sisyphus fake
 - { name: "emacs:verilog-mode",                                                            noscheme: true }
 - { name: "emacs:w3m",                 ver: "1.5",                   ruleset: [sisyphus,guix,rosa], incorrect: true }
