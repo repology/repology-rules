@@ -262,6 +262,7 @@
 - { setname: cuda,                     name: nvidia-cuda-sdk }
 - { setname: cuda,                     name: nvidia-cuda-toolkit }
 - { setname: cuda,                     namepat: "cuda-?[0-9.]+" }
+- { setname: cudatext,                 name: [cudatext-qt5,cudatext-gtk2], addflavor: true }
 - { setname: cumulus,                  name: cumuluslanguagede, addflavor: de }
 - { setname: cuneiform,                name: cuneiform-linux }
 - { setname: cups,                     name: [cups-libs,cups-base,cups-minimal,cups-nosystemd,libcups,libcups-ipp14,cups-doc,cups-ipp14,cups-noudev,cups-pam], addflavor: true }
