@@ -114,6 +114,8 @@
 - { name: apiextractor,                ver: "0.10.11",               ruleset: sisyphus,    incorrect: true }
 - { name: apiextractor,                                              ruleset: sisyphus,    untrusted: true } # accused of fake 0.10.11
 - { name: apitrace,                                                                        noscheme: true }
+- { name: "apmod:auth-ntlm-winbind",   ver: "0.1",                   ruleset: alpine,      incorrect: true }
+- { name: "apmod:auth-ntlm-winbind",                                 ruleset: alpine,      untrusted: true } # accused of fake 0.1
 - { name: "apmod:rpaf",                verpat: "2015.*",             ruleset: [ arch ],    ignore: true }
 - { name: apparix,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: appleseed,                   verpat: "(.*?)[._-]?beta",                          setver: $1, devel: false } # all versions beta nonsense
