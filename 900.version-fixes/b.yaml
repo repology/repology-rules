@@ -92,6 +92,7 @@
 - { name: bombadillo,                  verpat: ".*20[0-9]{6}",                             snapshot: true } # openbsd
 - { name: bomber,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: bonnie++,                    verpat: "1\\.9[0-9]+.*",                            devel: true } # https://doc.coker.com.au/projects/bonnie/; 2.0 will be stable
+- { name: bonzomatic,                  verpat: "20[0-9]{6}",                               incorrect: true} # YYYY-MM-DD https://github.com/Gargaj/Bonzomatic
 - { name: boomaga,                     ver: "3.3.0",                 ruleset: fedora,      incorrect: true }
 - { name: boomaga,                                                   ruleset: fedora,      untrusted: true }
 - { name: boost,                       ver: "3.1.18",                                      ignore: true }
