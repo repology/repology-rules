@@ -111,6 +111,8 @@
 - { name: "python:simpleparse",                                      ruleset: sisyphus,    untrusted: true } # accused of fake 3.0.0
 - { name: "python:slowaes",            ver: "0.1",                   ruleset: [gentoo,solus], incorrect: true }
 - { name: "python:slowaes",                                          ruleset: [gentoo,solus], untrusted: true } # accused of fake 0.1
+- { name: "python:soappy",             ver: "0.52.25",               ruleset: alpine,      incorrect: true } # fork
+- { name: "python:soappy",                                           ruleset: alpine,      untrusted: true } # accused of fake 0.52.25
 - { name: "python:sphinx-py3doc-enhanced-theme", ver: "2.4.0",       ruleset: pld,         incorrect: true }
 - { name: "python:sphinx-py3doc-enhanced-theme",                     ruleset: pld,         untrusted: true }
 - { name: "python:sphinx-rtd-theme",   verpat: ".*[ab].*",                                 devel: true }
