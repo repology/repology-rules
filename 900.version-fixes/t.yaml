@@ -105,7 +105,7 @@
 - { name: tk,                          verpat: "[0-9]+\\.[0-9]+\\.0\\.?a.*",               incorrect: true } # it's X.YaZ, not X.Y.0aZ
 - { name: tklib,                       verpat: ".*pl.*",             ruleset: openbsd,     incorrect: true }
 - { name: tklib,                       verpat: ".*[0-9a-f]{10}",                           incorrect: true }
-- { name: tklib,                                                     ruleset: msys,        untrusted: true } # accused of fake 0.7.0+1.29e6d0e6da
+- { name: tklib,                                                     ruleset: msys2,       untrusted: true } # accused of fake 0.7.0+1.29e6d0e6da
 - { name: tktable,                     ver: "2.11",                  ruleset: macports,    devel: true } # see https://github.com/macports/macports-ports/blob/master/x11/tktable/Portfile#L17
 - { name: tm,                          verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: tmfs,                        verpat: "r([.0-9]+)",                               setver: "$1" }
