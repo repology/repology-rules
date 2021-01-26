@@ -234,6 +234,7 @@
 - { name: sqlite,                      verpat: "3[0-9]{6}",                                incorrect: true }
 - { name: sqlite-replication,          verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true } # 3.32.3+replication4, not 3.32.3.4
 - { name: sqlite-replication,                                                              any_is_patch: true } # 3.32.3+replication4
+- { name: sqlite-replication,                                        ruleset: alpine,      untrusted: true } # accused of fake 1.20.2.1
 - { name: sqlitebrowser,               ver: "3.10.80",               ruleset: kaos,        incorrect: true } # 3.11.0-alpha1
 - { name: sqlitebrowser,                                             ruleset: kaos,        untrusted: true } # accused of fake 3.10.80
 - { name: sqlninja,                    ver: "0.2.999",                                     incorrect: true } # it's 0.2.999-alpha1

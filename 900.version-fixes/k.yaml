@@ -1,9 +1,9 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: k3b,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: k3s,                         verlonger: 3,                 ruleset: alpine,      incorrect: true }
-- { name: k3s,                                                       ruleset: alpine,      untrusted: true }
-- { name: k3s,                                                                             any_is_patch: true } # uses +k3sN suffix
+- { name: k3s,                         verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true }
+- { name: k3s,                                                                             any_is_patch: true } # e.g. 1.19.4+k3s2
+- { name: k3s,                                                       ruleset: alpine,      untrusted: true } # accused of fake 1.20.2.1
 - { name: kaccounts-integration,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kaccounts-providers,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kactivitymanagerd,           verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
