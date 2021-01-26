@@ -1,5 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: b2sum,                       ver: "20190729",              ruleset: alpine,      incorrect: true }
+- { name: b2sum,                                                     ruleset: alpine,      untrusted: true } # accused of fake 20190729
 - { name: backintime,                  ver: "1.2",                   ruleset: antix,       incorrect: true }
 - { name: backintime,                                                ruleset: antix,       untrusted: true }
 - { name: backup-manager,              ver: "0.7.15",                ruleset: mageia,      incorrect: true } # latast is 0.7.14
