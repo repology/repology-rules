@@ -47,5 +47,10 @@
 
 - { name: wpa, wwwpart: wpa_supplicant, setname: wpa-supplicant } # play it safe with essentially ambiguous name
 
+- { name: ws, wwwpart: ixwebsocket, setname: ixwebsocket }
+- { name: ws, wwwpart: hashrocket, setname: ws-websocket }
+- { name: ws, wwwpart: winshares, setname: ws-winshares }
+- { name: ws, addflag: unclassified }
+
 - { name: wtf, wwwpart: wtfutil, setname: wtfutil }
 - { name: wtf, ruleset: pclinuxos, setname: wtfutil }
