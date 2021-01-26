@@ -14,6 +14,10 @@
 - { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_apache], namepat: "(?:lib)?apache2?-mod[_-](.*)" }
 - { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_apache], namepat: "mod_(.*)[_-](ap[0-9]+)", ruleset: aix, addflavor: $2 }
 
+# Coq
+- { setname: "coq:$1", addflag: wconce, noflag: [wconce,not_coq], namepat: "coq[0-9.]+-(.*)", ruleset: [ nix ] }
+- { setname: "coq:$1", addflag: wconce, noflag: [wconce,not_coq], namepat: "coq-(.*)", ruleset: [ guix ] }
+
 # Cursors
 - { setname: "cursors:$1", addflag: wconce, noflag: [wconce,not_cursors], namepat: "(.*)-cursor-theme", ruleset: [ debuntu ] }
 - { setname: "cursors:$1", addflag: wconce, noflag: [wconce,not_cursors], namepat: "(.*)-xcursors", ruleset: [ gentoo, exherbo ] }
