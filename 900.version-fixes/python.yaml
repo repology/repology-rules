@@ -80,6 +80,7 @@
 - { name: "python:pyhamcrest",         ver: "2.0.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: "python:pyhamcrest",                                       ruleset: sisyphus,    untrusted: true } # accused of fake 2.0.0
 - { name: "python:pykwalify",          verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: "python:pyldap",             vergt: "3.0.0.post1",                               incorrect: true } # obsolete, merged into python-ldap
 - { name: "python:pyode",              verpat: ".*2010.*",                                 ignore: true }
 - { name: "python:pyopengl",           verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:pyparsing",          verpat: ".*test.*",           ruleset: opensuse,    incorrect: true } # fake
