@@ -1,6 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: dahdi-linux,                 verlonger: 4,                                       incorrect: true }
+- { name: dahdi-linux,                 verge: "5",                   ruleset: alpine,      incorrect: true } # uses kernel version
+- { name: dahdi-linux,                                               ruleset: alpine,      untrusted: true } # accused of fake 5.x
 - { name: dapl,                        verpat: ".*[0-9a-f]{8}",                            snapshot: true }
 - { name: darcnes,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: darcs,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
