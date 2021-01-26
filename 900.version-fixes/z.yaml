@@ -4,6 +4,8 @@
 - { name: z3,                          verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: zabbix,                      ver: "3.4.7",                 ruleset: sisyphus,    incorrect: true }
 - { name: zabbix,                                                    ruleset: sisyphus,    untrusted: true }
+- { name: zangband,                    verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true } # 2.7.5pre1, not 2.7.5.1
+- { name: zangband,                                                  ruleset: alpine,      untrusted: true } # accused of fake 2.7.5.1
 - { name: zapcc,                                                                           noscheme: true } # https://github.com/yrnkrn/zapcc/releases
 - { name: zathura,                     ver: "20101104",                                    snapshot: true }
 - { name: zbar,                        verge: "0.20",                                      successor: true } # linuxtv.org fork
