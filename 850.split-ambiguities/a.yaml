@@ -115,6 +115,10 @@
 - { name: ape, wwwpart: helicontech, setname: ape-helicon }
 - { name: ape, addflag: unclassified }
 
+- { name: apf, wwwpart: pr_af, setname: apf-active-port-forwarder }
+# also upstreamless utility from alt
+- { name: apf, addflag: unclassified }
+
 - { name: arb, wwwpart: [fredrikj,arblib], setname: arb-fp }
 - { name: arb, verpat: "2.*", setname: arb-fp }
 - { name: arb, wwwpart: arb-home, setname: arb-dna }
