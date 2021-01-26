@@ -56,6 +56,8 @@
 - { name: "perl:extutils-xspp",        verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:file-path",            verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
 - { name: "perl:file-path",            ver: "2.90.0",                                      incorrect: true }
+- { name: "perl:file-rsync",           verge: "0.70",                ruleset: [alpine,slitaz], incorrect: true } # fake File-RsyncP as File-Rsync
+- { name: "perl:file-rsync",                                         ruleset: [alpine,slitaz], untrusted: true } # fake File-RsyncP as File-Rsync
 - { name: "perl:html-formfu",          verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
 - { name: "perl:html-formfu",          verge: "2.10",                                      incorrect: true }
 - { name: "perl:html-packer",          verpat: "2\\.[0-9]{3}",                             incorrect: true }
