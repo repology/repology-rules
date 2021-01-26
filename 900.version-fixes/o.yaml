@@ -124,6 +124,7 @@
 - { name: orc,                                                       ruleset: sisyphus,    untrusted: true } # accused of fake 0.4.30.1
 - { name: orca,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: osinfo-db,                                                 ruleset: sisyphus,    untrusted: true } # accused of fake 20201107
+- { name: osinfo-db,                   ver: "20210105",              ruleset: alpine,      incorrect: true }
 - { name: osinfo-db,                                                 ruleset: alpine,      untrusted: true } # accused of fake 20210105
 - { name: osm-gps-map,                 verpat: "r.*",                                      snapshot: true }
 - { name: osquery,                     ver: "3.0.0",                                       devel: true }
