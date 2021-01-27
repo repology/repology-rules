@@ -18,6 +18,7 @@
 - { name: kate,                                                      ruleset: windows,     ignore: true } # build numbers: https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Release_win64/lastSuccessfulBuild/artifact/kate-20.08.0-981-windows-msvc2019_64-cl-sideload.appx
 - { name: krita,                                                     ruleset: macosxbins,  ignore: true } # https://download.kde.org/stable/krita/4.2.2/
 - { name: lazarus,                                                   ruleset: macosxbins,  ignore: true } # https://sourceforge.net/projects/lazarus/files/Lazarus Mac OS X i386/Lazarus 2.0.2/
+- { name: linphone,                                                  ruleset: fdroid,      ignore: true }
 - { name: megasync,                                                  ruleset: [windows,macosxbins], ignore: true } # close, but different versions https://github.com/meganz/MEGAsync/releases
 - { name: minitube,                                                  ruleset: macosxbins,  ignore: true } # https://flavio.tordini.org/minitube-ws/appcast.xml 3.3.1, not present as tags
 - { name: nomacs,                                                    ruleset: windows,     ignore: true } # http://download.nomacs.org/portable has 3.12.1, but no tag
