@@ -90,6 +90,8 @@
 - { name: lmms,                        ver: "1.2.0.9",               ruleset: opensuse,    incorrect: true }
 - { name: lmms,                                                      ruleset: opensuse,    untrusted: true } # accused of fake 1.2.0.9
 - { name: lockdev,                                                                         noscheme: true } # no upstream, everybody fetch from debian, random versions
+- { name: lockrun,                     verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: lockrun,                     vergt: "20000000", verlt: "20141103",               outdated: true }
 - { name: lodepng,                                                                         noscheme: true } # https://github.com/lvandeve/lodepng/tags
 - { name: log4cxx,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: logfsprogs,                                                                      noscheme: true }
