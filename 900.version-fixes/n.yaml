@@ -33,6 +33,7 @@
 - { name: netcat-openbsd,              verpat: "[0-9]+\\.[0-9]{3}_.*",                     incorrect: true } # debian suffixes
 - { name: netcat-openbsd,              verlonger: 2,                 ruleset: chakra,      debianism: true }
 - { name: netcat-traditional,          verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: netcat-traditional,          verpat: "110.*",                                    incorrect: true } # 1.10, not 110
 - { name: netdiscover,                 ver: "0.3",                   ruleset: [blackarch, mageia], incorrect: true }
 - { name: netdiscover,                 verpat: "(.*)pre(beta.*)",                          setver: $1$2 }
 - { name: netevent,                    ver: "20201018",                                    incorrect: true } # no commit with such date
