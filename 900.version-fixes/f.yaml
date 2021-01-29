@@ -19,6 +19,7 @@
 - { name: fatrat,                      verlonger: 3,                 ruleset: kaos,        ignore: true }
 - { name: fbg,                         ver: "0.9.1",                 ruleset: sisyphus,    incorrect: true }
 - { name: fbg,                                                       ruleset: sisyphus,    untrusted: true } # accused of fake 0.9.1
+- { name: fbpager,                     verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: fbpdf,                                                                           noscheme: true }
 - { name: fcgi,                        ver: "2.4.1",                 ruleset: solus,       incorrect: true }
 - { name: fcgi,                                                      ruleset: solus,       untrusted: true } # accused of fake 2.4.1
