@@ -137,6 +137,8 @@
 - { name: apr,                         verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: apr,                         verpat: "2\\..*",                                   devel: true }
 - { name: apricots,                    ver: "0.26",                                        incorrect: true } # 0.2.6
+- { name: apt-mirror,                  ver: "1.0",                   ruleset: gentoo,      incorrect: true }
+- { name: apt-mirror,                                                ruleset: gentoo,      untrusted: true } # accused of fake 1.0
 - { name: aptly,                       verpat: "2010.*",                                   incorrect: true }
 - { name: apvlv,                       verpat: ".*pl.*",             ruleset: openbsd,     incorrect: true } # fake
 - { name: apvlv,                       verlonger: 3,                 ruleset: aur,         incorrect: true } # fake
