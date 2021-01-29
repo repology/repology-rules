@@ -235,6 +235,7 @@
 - { name: procps,                      vergt: "3.2.8",                                     incorrect: true } # procps-ng in fact, and no WWW available to split
 - { name: progsreiserfs,               ver: "0.3.1",                 ruleset: pld,         incorrect: true }
 - { name: progsreiserfs,                                             ruleset: pld,         untrusted: true }
+- { name: projectx,                    verlonger: 3,                                       incorrect: true } # gentoo suffixes of unknown origin
 - { name: proot,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: proot,                       verpat: "5\\.1\\.[0-9]{3}.*",                       incorrect: true }
 - { name: properties-cpp,              verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
