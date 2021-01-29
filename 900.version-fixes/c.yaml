@@ -118,6 +118,8 @@
 - { name: citra,                                                                           noscheme: true }
 - { name: ckermit,                     ver: "302",                                         setver: "9.0.$0" }
 - { name: ckermit,                     ver: "9.0.304",                                     devel: true }
+- { name: cl-alexandria,               verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: cl-alexandria,               verpat: "20[0-9]{2}\\..*",                          incorrect: true }
 - { name: cl-fad,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: clamav,                      verpat: "[0-9]{4}",                                 outdated: true } # ancient version from wikidata
 - { name: claws-mail,                  verlonger: 3,                 ruleset: pisi,        incorrect: true }
