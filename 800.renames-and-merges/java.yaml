@@ -10,6 +10,8 @@
 - { setname: "java:libmatthew",        name: [libmatthew-java, libmatthew-unix-java, matthewlib-java, java-libmatthew, libmatthew, "java:matthew"] }
 - { setname: "java:readline",          name: [libreadline-java,java-readline] }
 - { setname: "java:regexp",            name: [jakarta-regexp, libregexp-java] }
+- { setname: "java:slf4j",             name: [slf4j,java-slf4j,libslf4j-java] }
+- { setname: "java:slf4j",             name: [java-slf4j-api,java-slf4j-simple,slf4j-api,slf4j-eap6,slf4j-ext,slf4j-log4j12,slf4j-nop,slf4j-simple,slf4j-sources], addflavor: true }
 - { setname: "java:spin",              name: [libspin-java] }
 - { setname: "java:spring-ldap",       name: spring-ldap }
 - { setname: "java:xml",               name: [libxml-java] }
