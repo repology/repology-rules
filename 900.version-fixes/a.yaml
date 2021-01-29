@@ -148,6 +148,7 @@
 - { name: arcanist,                                                                        noscheme: true }
 - { name: arcem,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: arduino,                     ver: "0021",                                        ignore: true } # EPEL 6
+- { name: arduino-ctags,               verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: argon2,                      ver: "20181109",              ruleset: haikuports,  incorrect: true }
 - { name: argon2,                                                    ruleset: haikuports,  untrusted: true }
 - { name: argp-standalone,             verpat: "20[0-9]{6}",                               snapshot: true }
