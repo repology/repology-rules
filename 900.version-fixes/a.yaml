@@ -38,6 +38,14 @@
 - { name: aeskulap,                    verpat: ".*g.*",                                    snapshot: true }
 - { name: aeskulap,                    ver: "0.2.2",                 ruleset: [sisyphus,rosa,pclinuxos], incorrect: true } # 0.2.2beta2
 - { name: aeskulap,                                                  ruleset: [sisyphus,rosa,pclinuxos], untrusted: true } # accused of fake 0.2.2
+- { name: aewm++,                      ver: "1.0.1",                 ruleset: aur,         incorrect: true }
+- { name: aewm++,                                                    ruleset: aur,         untrusted: true } # accused of fake 1.0.1
+- { name: aewm++,                      ver: "1.1.2",                 ruleset: [cygwin,debuntu], incorrect: true }
+- { name: aewm++,                                                    ruleset: [cygwin,debuntu], untrusted: true } # accused of fake 1.1.2
+- { name: aewm++,                      ver: "1.1.5",                 ruleset: gentoo,      incorrect: true }
+- { name: aewm++,                                                    ruleset: gentoo,      untrusted: true } # accused of fake 1.1.5
+- { name: aewm++,                      ver: "1.0.24",                ruleset: pkgsrc,      incorrect: true }
+- { name: aewm++,                                                    ruleset: pkgsrc,      untrusted: true } # accused of fake 1.0.24
 - { name: afdko,                       verpat: "([0-9]+\\.[0-9]+)\\.b?([0-9]+).*?",        setver: "$1.$2" }
 - { name: afl,                         ver: ["2.62c","2.66c"],                             incorrect: true } # afl++
 - { name: afl,                                                       ruleset: [opensuse,crux,rosa], untrusted: true } # fake afl++ as afl (https://build.opensuse.org/request/show/711649)
