@@ -79,6 +79,8 @@
 - { name: "python:pygpgme",            ver: "0.3.1",                 ruleset: alpine,      incorrect: true }
 - { name: "python:pyhamcrest",         ver: "2.0.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: "python:pyhamcrest",                                       ruleset: sisyphus,    untrusted: true } # accused of fake 2.0.0
+- { name: "python:pykerberos",         wwwpart: "calendarserver",                          incorrect: true } # kerberos
+- { name: "python:pykerberos",                                       ruleset: gentoo,      untrusted: true } # accused of fakeing kerberos as pykerberos
 - { name: "python:pykwalify",          verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: "python:pyldap",             vergt: "3.0.0.post1",                               incorrect: true } # obsolete, merged into python-ldap
 - { name: "python:pymaging",                                                               noscheme: true }
