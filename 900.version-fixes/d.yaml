@@ -151,8 +151,8 @@
 - { name: dvdstyler,                   ver: "3.1",                   ruleset: fedora,      incorrect: true } # rpm fusion
 - { name: dvdstyler,                                                 ruleset: fedora,      untrusted: true } # accused of fake 3.1
 - { name: dvdstyler,                   verpat: ".*b.*",                                    devel: true }
-- { name: dvorakng,                    ver: "0.6.0",                 ruleset: gentoo,      incorrect: true } # 0.6.0rc1
-- { name: dvorakng,                                                  ruleset: gentoo,      untrusted: true } # accused of fake 0.6.0
+- { name: dvorakng,                    ver: "0.6.0",                 ruleset: [gentoo,t2], incorrect: true } # 0.6.0rc1
+- { name: dvorakng,                                                  ruleset: [gentoo,t2], untrusted: true } # accused of fake 0.6.0
 - { name: dwb,                         verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: dwb,                         ver: "2015.10.09",                                  incorrect: true } # https://bitbucket.org/portix/dwb/downloads/
 - { name: dzen,                                                                            noscheme: true }
