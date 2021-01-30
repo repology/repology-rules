@@ -68,6 +68,8 @@
 - { name: "python:pycrypto",           ver: "2.7a.1",                ruleset: pisi,        incorrect: true } # 2.7a1
 - { name: "python:pycrypto",                                         ruleset: pisi,        untrusted: true } # accused of fake 2.7a.1
 - { name: "python:pycrypto",           verpat: ".*[ab].*",                                 devel: true }
+- { name: "python:pydispatcher",       wwwpart: pypydispatcher,                            incorrect: true }
+- { name: "python:pydispatcher",                                     ruleset: gentoo,      untrusted: true } # accused of faking pypydispatcher as pydispatcher
 - { name: "python:pyenet",             verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "python:pyfiglet",           ver: "0.8.1",                 ruleset: gentoo,      incorrect: true }
 - { name: "python:pyfiglet",                                         ruleset: gentoo,      untrusted: true } # accused of fake 0.8.1
