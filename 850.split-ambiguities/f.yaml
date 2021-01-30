@@ -21,6 +21,10 @@
 - { name: fex, ruleset: [aix], setname: fex-field-extraction }
 - { name: fex, addflag: unclassified }
 
+- { name: fisher, wwwpart: pietroalbini, setname: fisher-webhooks-catcher }
+- { name: fisher, wwwpart: jorgebucaran, setname: fisher-fish-package-manager }
+- { name: fisher, addflag: unclassified }
+
 - { name: flame, wwwpart: flam3, setname: flam3 } # not really an ambiguity, but stay safe; XXX: problem
 
 # swf extractor vs. game engine
