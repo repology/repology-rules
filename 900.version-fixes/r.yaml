@@ -104,7 +104,8 @@
 - { name: ruby,                        ver: "2.7.0",                 ruleset: debuntu,     incorrect: true }
 - { name: ruby,                        verpat: ".*p.*",                                    devel: true } # e.g. 3.0.0-preview1
 - { namepat: "ruby:.*",                                              ruleset: sisyphus,    untrusted: true } # massive fake versions
-- { name: "ruby:io-like",              ver: "0.3.0.20130301",                              ignore: true } # freebsd
+- { name: "ruby:fakeweb",              verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: "ruby:io-like",              verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: run-scaled,                                                                      noscheme: true }
 - { name: runc,                        verpat: "[0-9a-f]{7}",                              ignore: true }
 - { name: runc,                        verpat: ".*rc6.*",            ruleset: exherbo,     incorrect: true }
