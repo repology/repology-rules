@@ -20,6 +20,8 @@
 - { name: vcsh,                        ver: "1.20170226",                                  incorrect: true } # nix fake
 - { name: vcsh,                        verpat: "([0-9]+\\.20[0-9]{6})[._-]1",              setver: $1 } # -1 suffix denotes the branch with added debian stuff, otherwise it's the same
 - { name: vcsh,                                                      ruleset: nix,         untrusted: true }
+- { name: "vdr:dvd",                   verpat: "0\\.3\\.7.*",        ruleset: gentoo,      incorrect: true }
+- { name: "vdr:dvd",                                                 ruleset: gentoo,      untrusted: true } # accused of fake 0.3.7_something
 - { name: "vdr:skinenigmang",          ver: "0.1.3",                 ruleset: fedora,      incorrect: true }
 - { name: "vdr:skinenigmang",                                        ruleset: fedora,      untrusted: true } # accused of fake 0.1.3
 - { name: "vdr:skinenigmang",          verpat: ".*20[0-9]{6}",                             snapshot: true }
