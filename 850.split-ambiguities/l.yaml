@@ -96,6 +96,10 @@
 - { name: livecd-tools,                category: app-misc, ruleset: gentoo, setname: livecd-tools-gentoo }
 - { name: livecd-tools,                setname: "$0-fedora" }
 
+- { name: lll, wwwpart: [etherium,solidity], setname: solidity, addflavor: lll }
+- { name: lll, wwwpart: walle, setname: lll-line-length-linter }
+- { name: lll, addflag: unclassified }
+
 - { name: loderunner, wwwpart: daggert, setname: loderunner-daggert }
 - { name: loderunner, wwwpart: loderunnerwebgame.com, setname: loderunner-html5 }
 
