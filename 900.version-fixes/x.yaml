@@ -132,6 +132,8 @@
 - { name: xsettingsd,                                                ruleset: freebsd,     untrusted: true } # accused of fake 1.0.0.2
 - { name: xsnow,                       ver: "2.0.9",                 ruleset: debuntu,     incorrect: true }
 - { name: xsnow,                                                     ruleset: debuntu,     untrusted: true } # accused of fake 2.0.9
+- { name: xsom,                        ver: "20140925",              ruleset: gentoo,      incorrect: true } # no such tag https://github.com/kohsuke/xsom/tags
+- { name: xsom,                                                      ruleset: gentoo,      untrusted: true } # accused of fake 20140925
 - { name: xsp,                         verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: xsystem35,                   ver: "1.7.3",                 ruleset: aur,         incorrect: true } # 1.7.3pre5
 - { name: xsystem35,                                                 ruleset: aur,         untrusted: true } # accused ofa fake 1.7.3
