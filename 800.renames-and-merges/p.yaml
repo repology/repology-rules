@@ -50,6 +50,8 @@
 - { setname: pcre,                     name: [pcre-static,pcre-cpp] }
 - { setname: pcre,                     namepat: "(?:lib)?pcre[0-9.-]*" }
 - { setname: pcre++,                   name: [libpcre++,pcrexx] }
+- { setname: pcsc-lite,                name: [libpcsclite,pcsclite] }
+- { setname: pcsc-lite,                name: pcsclite-nopy, addflavor: nopy }
 - { setname: pdd,                      name: "python:pdd" }
 - { setname: pdfjam,                   name: "texlive:pdfjam" }
 - { setname: pdfstudio,                namepat: "pdfstudio[0-9]+" }
