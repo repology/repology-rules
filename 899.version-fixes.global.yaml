@@ -19,7 +19,7 @@
 
 # plain git commit hashes
 - { verpat: "(?!20[0-2][0-9])[0-9a-f]{7}",                                                 incorrect: true }
-- { verpat: "[0-9a-f]{40}",                                                                incorrect: true }
+- { verpat: ".*(?=.{0,39}[a-f])[0-9a-f]{40}",                                              incorrect: true }
 
 # git hash appendage, treat as snapshot scheme (note that ~3.7% which consist of only numbers are missed)
 - { verpat: ".*[.-](?=.{0,6}[a-f])[0-9a-f]{7}",                                            ignore: true }
