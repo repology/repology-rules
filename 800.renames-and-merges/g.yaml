@@ -190,7 +190,6 @@
 - { setname: gmime,                    namepat: "(?:lib)?gmime[0-9.-]*-sharp", addflavor: sharp }
 - { setname: gmm++,                    name: gmm }
 - { setname: gmmlib,                   name: intel-gmmlib }
-- { setname: gmock,                    name: [google-mock,googlemock,libgmock] }
 - { setname: gmp,                      name: gmp-aix, addflavor: true }
 - { setname: gmrun,                    name: [gmrun-multihead,gmrun-xdg] }
 - { setname: gmsynth.lv2,              name: gmsynth-lv2 }
@@ -402,6 +401,7 @@
 - { setname: gstreamermm,              namepat: "(?:lib)?gstreamer[0-9.-]*mm[0-9.-]*" }
 - { setname: gsutil,                   name: "python:gsutil" }
 - { setname: gtest,                    name: [googletest,libgtest] }
+- { setname: gtest,                    name: [gmock,google-mock,googlemock,libgmock], addflavor: gmock } # merged into
 - { setname: gtk,                      namepat: "(?:lib)?gtk[0-9.+-]*(-reference)?", addflavor: $1 }
 - { setname: gtk-doc,                  name: gtk-doc-am, addflavor: am }
 - { setname: gtk-engines,              namepat: "gtk[0-9.-]*engines[0-9.-]*" }
