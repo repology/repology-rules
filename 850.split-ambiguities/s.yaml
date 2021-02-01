@@ -171,6 +171,10 @@
 - { name: smack, ruleset: pld, setname: smack-access-control }
 - { name: smack, addflag: unclassified }
 
+- { name: smart, wwwpart: ctuffli, setname: smart-disks }
+- { name: smart, wwwpart: [labix,launchpad,smartpm], setname: smart-package-manager }
+- { name: smart, addflag: unclassified }
+
 - { name: smc, wwwpart: secretmaryo, setname: secret-maryo-chronicles }
 - { name: smc, category: [games-arcade,games,Games/Arcade], setname: secret-maryo-chronicles }
 - { name: smc, wwwpart: smc.sourceforge.net, setname: smc-state-machine-compiler }
