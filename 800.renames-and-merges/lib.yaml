@@ -270,6 +270,7 @@
 - {                                    name: libusb3380, addflag: libusb3380 }
 - { setname: libusb,                   namepat: "libusb[0-9.-]+", noflag: libusb3380 }
 - { setname: libusb,                   name: [libusb-compat,libusb-legacy] }
+- { setname: libusbmuxd,               name: libusbmuxd6 }
 - { setname: libuv,                    name: libuv1 }
 - { setname: libva,                    name: [libva-compat,libva1] }
 - { setname: libva,                    name: [libva-full,libva-gl,libva-glx,libva-headless,libva-minimal], addflavor: true }
