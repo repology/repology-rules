@@ -193,6 +193,8 @@
 - { name: cowsay,                      ver: "3.04.01",                                     ignore: true }
 - { name: cparser,                     verpat: ".*pl.*",             ruleset: openbsd,     incorrect: true }
 - { name: cpdup,                                                     ruleset: openbsd,     untrusted: true } # from dragonfly, but not enough data (homepage) to split it
+- { name: cpptoml,                     ver: "0.4.0",                 ruleset: openmamba,   incorrect: true } # latest ATOW is 0.1.1
+- { name: cpptoml,                                                   ruleset: openmamba,   untrusted: true } # accused of fake 0.4.0
 - { name: cpufreqd,                    ver: "2.4.3",                 ruleset: sisyphus,    ignore: true } # fake
 - { name: cpulimit,                    verpat: "20[0-8]{6}.*",                             ignore: true } # hyperbola
 - { name: cpuminer-multi,              verpat: "20[0-9]{6}.*",                             snapshot: true }

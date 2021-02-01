@@ -171,6 +171,8 @@
 - { name: sonata,                      verpat: ".*[ab].*",                                 devel: true }
 - { name: soqt,                        ver: ["1.6.0", "1.6.0a"],      ruleset: [aur,debuntu], incorrect: true }
 - { name: soqt,                                                       ruleset: [aur,debuntu], untrusted: true } # accused of fake 1.6.0, 1.6.0a
+- { name: soundfont-personalcopy,      ver: 51f,                                           incorrect: true }
+- { name: soundfont-personalcopy,                                     ruleset: openmamba,  untrusted: true } # accused of fake 51f
 - { name: soundkonverter,              vercomps: 4,                   ruleset: kaos,       incorrect: true }
 - { name: soundkonverter,                                             ruleset: kaos,       untrusted: true } # accused of fake 3.0.1.1
 - { name: sourcenav,                   ver: "6.0",                    ruleset: t2,         incorrect: true }

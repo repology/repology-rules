@@ -19,6 +19,7 @@
 - { name: icecat,                                                    ruleset: [chocolatey,fedora,guix], untrusted: true } # accused of fake 60.4.0 (no tag as of 2019-01-08 at http://git.savannah.gnu.org/cgit/gnuzilla.git)
 - { name: icecat,                                                    ruleset: gobolinux,   untrusted: true } # accused of fake 3.0.5g1gnu1
 - { name: icecream,                    verpat: "20[0-9]{6}.*",                             snapshot: true }
+- { name: icedtea,                     verpat: "8u.*",                                     incorrect: true }
 - { name: icemon,                      verpat: "[0-9a-f]{7}",                              incorrect: true }
 - { name: ices,                        verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: icestorm,                                                                        noscheme: true }

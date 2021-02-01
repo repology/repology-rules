@@ -243,6 +243,7 @@
 - { name: libubox,                                                                         noscheme: true }
 - { name: libui,                       verpat: "([0-9.]+?)[^0-9]+",                        setver: $1 }
 - { name: libui,                       verpat: "[^0-9]+([0-9.]+?)",                        setver: $1 }
+- { name: libunity,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: libunwind,                   verpat: ".*20[0-9]{6}",                             snapshot: true } # termux snapshot
 - { name: libusbmuxd,                  verpat: "1\\.1\\.0.*",        ruleset: [openwrt,debuntu], ignore: true } # fake
 - { name: libusbmuxd,                  verpat: ".*20[0-9]{6}.*",                           snapshot: true }

@@ -167,7 +167,10 @@
 - { name: tunctl,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: tuned,                       ver: "2.22.0",                ruleset: opensuse,    incorrect: true }
 - { name: tuned,                                                     ruleset: opensuse,    untrusted: true } # accused of fake 2.22.0
-- { name: tuxmath,                     ver: "20010907",                                    ignore: true }
+- { name: tuxmath,                     vergt: "2000", verlt: "2011",                       outdated: true } # 2.0.3 from 20110505 or later
+- { name: tuxmath,                     vergt: "20000000", verlt: "20110505",               outdated: true } # 2.0.3 from 20110505 or later
+- { name: tuxmath,                     verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: tuxmath,                     verpat: "20[0-9]{2}\\..*",                          incorrect: true }
 - { name: tuxmath,                                                   ruleset: os4depot,    incorrect: true }
 - { name: tuxmathscrabble,             ver: "2015",                  ruleset: fsd,         ignore: true } # out of line with versions encountered in other repos; cannot recheck as upstream is completely gone
 - { name: tuxnes,                      verpat: "20[0-9]{6}",                               snapshot: true }

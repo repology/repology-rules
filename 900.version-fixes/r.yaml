@@ -55,6 +55,8 @@
 - { name: renpy,                       verlonger: 3,                                       altver: true } # used in tags
 - { name: rep-gtk,                     ver: "0.90.9",                ruleset: sisyphus,    incorrect: true }
 - { name: rep-gtk,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 0.90.9
+- { name: repo,                        verge: "20000000", verlt: "20210121",               outdated: true } # 2.12 from 20210121
+- { name: repo,                        verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: reptyr,                      ver: "0.6.3a",                ruleset: freebsd,     incorrect: true } # fake, no such tag
 - { name: resource-agents,             verpat: ".*[0-9a-f]{8}",      ruleset: opensuse,    incorrect: true }
 - { name: restbed,                     verpat: ".*-.*",              ruleset: vcpkg,       incorrect: true } # latest is 4.6, 4.16-07-28 is fake
