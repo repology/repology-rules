@@ -69,7 +69,7 @@
 - { setname: percona-server,           namepat: "percona[0-9._-]*client[0-9._-]*", addflavor: client } # freebsd artifact; package is still named percona-server
 - { setname: percona-server,           name: percona }
 - { setname: percona-xtrabackup,       name: [percona-xtrabackup-bin,xtrabackup-bin], addflavor: bin }
-- { setname: percona-xtrabackup,       name: xtrabackup }
+- { setname: percona-xtrabackup,       name: [xtrabackup,xtrabackup8] }
 - { setname: percona-xtradb-cluster,   namepat: "percona-xtradb-cluster[0-9._-]+" }
 - { setname: perdition,                name: [perdition-bdb,perdition-gdbm,perdition-ldap,perdition-mysql,perdition-odbc,perdition-pam,perdition-pgsql,perdition-postgresql], addflavor: true }
 - { setname: perf,                     name: perf-linux }
