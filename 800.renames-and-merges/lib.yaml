@@ -72,8 +72,9 @@
 - { setname: libftdi,                  namepat: "libftdi[0-9.-]+" }
 - { setname: libftdi,                  name: libftdi-compat }
 - { setname: libgcrypt,                namepat: "libgcrypt[0-9.-]+" }
-- { setname: libgcrypt,                name: [libgcrypt-compat,compat-libgcrypt] }
-- { setname: libgcrypt,                name: libgcrypt-static, addflavor: static }
+- { setname: libgcrypt,                name: [libgcrypt-compat,compat-libgcrypt,libgcrypt11-compat] }
+- { setname: libgcrypt,                name: [libgcrypt-static,libgcrypt-gost], addflavor: true }
+- { setname: libgcrypt,                name: libgcrypt15-minimal, addflavor: minimal }
 - { setname: libgda,                   name: compat-libgdata013 }
 - { setname: libgda,                   namepat: "libgda[0-9.-]*(?:-(bdb|firebird|jdbc|ldap|mdb|mysql|ui))?", addflavor: $1 }
 - { setname: libgda,                   namepat: "libgda[0-9.-]*-(?:pgsql|postgres|postgresql)", addflavor: pgsql }
