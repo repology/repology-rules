@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# Copyright (C) 2016-2018 Dmitry Marakasov <amdmi3@amdmi3.ru>
+# Copyright (C) 2016-2021 Dmitry Marakasov <amdmi3@amdmi3.ru>
 #
 # This file is part of repology
 #
@@ -81,6 +81,7 @@ families = [
     'npackd',
     'openbsd',
     'openindiana',
+    'openmamba',
     'openmandriva',
     'openpkg',
     'opensuse',
