@@ -117,8 +117,7 @@
 - { name: antlr,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: anydesk,                     ver: "5.2.3",                 ruleset: scoop,       incorrect: true }
 - { name: anydesk,                                                   ruleset: scoop,       untrusted: true } # accused of fake 5.2.3
-- { name: aom,                         verpat: ".*[0-9]{4}",                               incorrect: true } # fake
-- { name: aom,                                                                             noscheme: true } # upstream does not care to do properly versioned releases
+- { name: aom,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: apache,                      verpat: "2\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: apel,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: apidb,                       ver: "5.0.0",                 ruleset: aur,         incorrect: true }
