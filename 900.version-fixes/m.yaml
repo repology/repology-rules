@@ -198,6 +198,9 @@
 - { name: msgpuck,                     ver: "2.0.10",                ruleset: fedora,      incorrect: true }
 - { name: msgpuck,                                                   ruleset: fedora,      untrusted: true }
 - { name: mspdebug,                    verpat: ".*20[0-9]{6}",                             ignore: true }
+- { name: msv,                         verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: msv,                         ver: ["2013.5.1","2013.6.1"], ruleset: rpm,         incorrect: true }
+- { name: msv,                                                       ruleset: rpm,         untrusted: true }
 - { name: mtd-utils,                                                 ruleset: maemo,       ignore: true } # fork?
 - { name: mtd-utils,                   verpat: "[0-9]{6}",                                 incorrect: true } # slackware garbage
 - { name: mtxclient,                   verpat: "20[-0-9]{8}",                              snapshot: true }
