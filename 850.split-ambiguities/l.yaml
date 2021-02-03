@@ -53,6 +53,10 @@
 
 - { name: libmpc,                      wwwpart: multiprecision, setname: gnumpc }
 
+- { name: libopenaptx, wwwpart: arkq, setname: $0-arkq }
+- { name: libopenaptx, wwwpart: pali, setname: $0-pali }
+- { name: libopenaptx, addflag: unclassified }
+
 - { name: libtls-standalone, wwwpart: libressl, setname: libressl, addflavor: true }
 - { name: libtls-standalone, addflag: unclassified }
 
