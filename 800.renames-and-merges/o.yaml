@@ -66,6 +66,8 @@
 - { setname: opendnssec,               name: opendnssec2 }
 - { setname: openerp,                  namepat: "openerp[0-9.-]+" }
 - { setname: openexr,                  namepat: "openexr[0-9.-]+" }
+- { setname: openexr,                  namepat: "(?:lib)?ilmbase[0-9.-]*", addflavor: ilmbase } # part of
+- { setname: openexr,                  name: "python:pyilmbase", addflavor: pyilmbase }
 - { setname: openfoam,                 namepat: "openfoam(-esi)?[0-9x.-]+" }
 - { setname: openfoam,                 name: [openfoam-esi,openfoam-plus] }
 - { setname: openh264,                 name: libopenh264 }
