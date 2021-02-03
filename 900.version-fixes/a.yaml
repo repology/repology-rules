@@ -18,6 +18,9 @@
 - { name: abuse,                       ver: "0.9",                   ruleset: fedora,      incorrect: true }
 - { name: abuse,                                                     ruleset: fedora,      untrusted: true }
 - { name: accerciser,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: accessx,                     verpat: "[0-9]{4}",                                 incorrect: true } # 0.951, not 0951
+- { name: accessx,                     ver: "7.5",                   ruleset: openindiana, incorrect: true }
+- { name: accessx,                                                   ruleset: openindiana, untrusted: true } # accused of fake 7.5
 - { name: ack,                         verpat: "2\\.[0-9]{3,}.*",                          incorrect: true } # perl version mangling issues
 - { name: ack,                         verpat: "2\\.[0-9]{,2}[._]0[0-9]",                  devel: true } # e.g. 2.23_02, 2.23_01 as opposed to 2.22
 - { name: acl,                         verlonger: 3,                                       incorrect: true }
