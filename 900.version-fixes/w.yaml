@@ -64,6 +64,7 @@
 - { name: woff2,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: woff2,                       ver: "20160306",                                    outdated: true } # latest 1.0.2 from 2017
 - { name: wordnet,                                                   ruleset: os4depot,    incorrect: true }
+- { name: wordpress,                                                 ruleset: winget,      incorrect: true } # fakes wordpress desktop as wordpress
 - { name: words-latin,                 ver: "1.97F",                                       outdated: true } # latest is 1.97FC
 - { name: wordwarvi,                   ver: "1.1",                   ruleset: [ sisyphus, fedora ], incorrect: true }
 - { name: workflowy,                   vercomps: 4,                                        altver: true }
