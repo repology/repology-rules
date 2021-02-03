@@ -131,6 +131,9 @@
 - { name: exa,                                                       ruleset: termux,      untrusted: true } # accused of fake 0.9~pre3
 - { name: exa,                         ver: "0.9.0",                 ruleset: solus,       incorrect: true } # 0.9pre
 - { name: exa,                                                       ruleset: solus,       untrusted: true } # accused of fake 0.9.0
+- { name: excel-writer,                ver: "15.2",                  ruleset: ravenports,  incorrect: true } # 15_r2
+- { name: excel-writer,                                              ruleset: ravenports,  untrusted: true } # accused of fake 15.2
+- { name: excel-writer,                verpat: ".*r.*",                                    any_is_patch: true } # 15_r2
 - { name: exempi,                      ver: "2.5.2",                 ruleset: sisyphus,    incorrect: true }
 - { name: exempi,                                                    ruleset: sisyphus,    untrusted: true } # accused of fake 2.5.2
 - { name: exifprobe,                   ver: "2.1.0",                 ruleset: yacp,        incorrect: true } # no such release
