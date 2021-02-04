@@ -108,6 +108,7 @@
 
 # Ocaml
 - { namepat: "ocaml([0-9.]*)-(.*)", addflag: wconce, noflag: [wconce,not_ocaml], setname: "ocaml:$2", addflavor: "$1" }
+- { setname: "ocaml:$0", addflag: wconce, noflag: [wconce,not_ocaml], category: dev-ml, ruleset: gentoo }
 
 # Octave
 - { setname: "octave:$1", addflag: wconce, noflag: [wconce,not_octave], namepat: "octave-forge-(.*)", ruleset: [ freebsd, opensuse ] }
