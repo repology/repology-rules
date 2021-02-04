@@ -269,6 +269,7 @@
 - { setname: "python:pyqt5",           name: "python:pyqt5-common", addflavor: common }
 - { setname: "python:pyqt5",           namepat: "python:qt5-(core|dbus|dbussupport|demo|designer|designerplugin|gui|help|multimedia|multimediawidgets|network|opengl|printsupport|qml|quick|quickwidgets|serialport|sql|svg|test|webchannel|webkit|webkitwidgets|widgets|xml|xmlpatterns)", addflavor: $1 }
 - { setname: "python:pyrex",           name: [pyrex, pyrexc] }
+- { setname: "python:pysaml2",         name: "python:pysaml24" }
 - { setname: "python:pyside",          name: pyside }
 - { setname: "python:pyside",          name: [pyside-qt4,pyside-qt4-py3], addflavor: true }
 - { setname: "python:pyside2",         name: pyside2 }
