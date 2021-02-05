@@ -36,6 +36,7 @@
 - { name: adjtimex,                    verpat: ".*_.*",                                    debianism: true }
 - { name: adwaita-icon-theme,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: adwaita-qt,                  verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
+- { name: aerial-sddm-theme,                                                               noscheme: true } # https://github.com/3ximus/aerial-sddm-theme/releases
 - { name: aescrypt,                    verpat: "[0-9]+",                                   incorrect: true } # 3.10, not 310
 - { name: aeskulap,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: aeskulap,                    verpat: ".*g.*",                                    snapshot: true }
