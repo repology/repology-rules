@@ -111,6 +111,10 @@
 
 - { name: clementine,                  setname: clementine-player                            } # clementine player vs. window manager
 
+- { name: clip,    wwwpart: itk,            setname: clip-compiler } # clip compiler vs the clip cli graph visualizer
+- { name: clip,    wwwpart: clip-lang,      setname: clip-lang }
+- { name: clip,    addflag: unclassified }
+
 - { name: cluster, wwwpart: redhat, setname: cluster-redhat }
 - { name: cluster, wwwpart: cran, setname: "r:cluster" }
 - { name: cluster, wwwpart: biochem, setname: cluster-interacting-items }
