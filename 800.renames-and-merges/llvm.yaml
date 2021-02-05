@@ -54,3 +54,6 @@
 
 # llvm-libunwind
 - { setname: llvm, name: llvm-libunwind, addflavor: true } # also some 'unwind' bits are merged in 850 ruleset
+
+# ocaml
+- { setname: llvm, name: ["ocaml:llvm", "ocaml:llvm-ocaml"], addflavor: ocaml }
