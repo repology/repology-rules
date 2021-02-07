@@ -118,6 +118,8 @@
 - { name: xplot,                       verge: "1",                   ruleset: debuntu,     incorrect: true }
 - { name: xplot,                       ver: "0.90.8",                ruleset: pkgsrc,      incorrect: true } # latest is 0.90.7.1: http://www.xplot.org/
 - { name: xplot,                                                     ruleset: pkgsrc,      untrusted: true } # accused of fake 0.90.8
+- { name: xpra,                        ver: "4.1",                   ruleset: homebrew_casks, incorrect: true } # 4.0.6 in fact
+- { name: xpra,                                                      ruleset: homebrew_casks, untrusted: true } # accused of fake 4.1
 - { name: xprompt,                     verge: "90",                  ruleset: opensuse,    incorrect: true }
 - { name: xproto,                      ver: "7.0.32",                ruleset: funtoo,      incorrect: true }
 - { name: xproto,                                                    ruleset: funtoo,      untrusted: true }
