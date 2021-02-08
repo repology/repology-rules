@@ -129,6 +129,7 @@
 - { name: osinfo-db,                                                 ruleset: alpine,      untrusted: true } # accused of fake 20210105
 - { name: osm-gps-map,                 verpat: "r.*",                                      snapshot: true }
 - { name: osquery,                     ver: "3.0.0",                                       devel: true }
+- { name: otrs,                        verge: "7",                                         ignore: true } # no community releases after 6.x
 - { name: otter-browser,               ver: "1.1.0",                 ruleset: rosa,        incorrect: true }
 - { name: otter-browser,                                             ruleset: rosa,        untrusted: true } # accused of fake 1.1.0
 - { name: otter-browser,               ver: "1.0.01.1",              ruleset: freebsd,     incorrect: true } # fake
