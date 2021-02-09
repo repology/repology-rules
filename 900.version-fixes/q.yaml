@@ -42,6 +42,7 @@
 - { name: qrupdate,                                                  ruleset: alpine,      untrusted: true } # fakes a fork as qrupdate XXX: problem
 - { name: qstat,                       ver: "2.15",                  ruleset: [debuntu,fedora,mageia,rosa], incorrect: true }
 - { name: qstat,                                                     ruleset: [debuntu,fedora,mageia,rosa], untrusted: true } # accused of fake 2.15
+- { name: qt,                          verpat: ".*20[0-9]{10}",                            incorrect: true } # gentoo garbage
 - { name: [qt,qt3],                    verpat: "3\\.8.*",                                  incorrect: true } # openbsd garbage (3.3.8*, not 3.8*)
 - { name: [qt,qt3],                    ver: ["3.3.8c","3.3.8d"],                           incorrect: true }
 - { name: qt5-styleplugins,            verpat: ".*20[0-9]{6}.*",                           snapshot: true }
