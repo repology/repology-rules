@@ -17,7 +17,8 @@
 - { name: "php:mcrypt",                verge: "5",                                         outdated: true } # part of PHP up to 7.1
 - { name: "php:net-ftp",               ver: "1.4.0.1",               ruleset: mageia,      incorrect: true } # 1.4.0
 - { name: "php:net-ftp",                                             ruleset: mageia,      untrusted: true } # accused of fake 1.4.0.1
-- { name: "php:pear",                                                ruleset: aur,         untrusted: true } # "it's tracking https://github.com/pear/pearweb_phars which is not real PHP PEAR like anyone else is tracking"
+- { name: "php:pear",                  ver: "1.10.19",               ruleset: [aur,opensuse], incorrect: true } # tracking another project
+- { name: "php:pear",                                                ruleset: [aur,opensuse], untrusted: true } # tracking another project
 - { name: "php:php-compat",            verpat: ".*a.*",                                    devel: true }
 - { name: "php:tcpdf",                 ver: "2009-03-31",                                  ignore: true } # XXX: remove after repology/repology#891
 - { name: "php:uri-template",          ver: "1.0",                   ruleset: pld,         incorrect: true }
