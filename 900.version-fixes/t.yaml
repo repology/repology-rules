@@ -29,7 +29,7 @@
 - { name: tcl,                         ver: "8.6.10",                ruleset: [vcpkg,sisyphus], incorrect: true }
 - { name: tcl,                                                       ruleset: [vcpkg,sisyphus], untrusted: true } # accused of fake 8.6.10
 - { name: tcllib,                      verpat: ".*pl0",                                    incorrect: true } # openbsd garbage; see also https://github.com/repology/libversion/issues/21
-- { name: tcp-wrappers,                ver: ["7.6.4","7.6.22","7.6.24"],                   incorrect: true }
+- { name: tcp-wrappers,                vergt: "7.6",                                       incorrect: true } # debian patchlevels
 - { name: tcpblast,                    verpat: "20[0-9]{6}",                               ignore: true }
 - { name: tcpcrypt,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: tcpflow,                     ver: "1.4.6",                 ruleset: nix,         incorrect: true }
