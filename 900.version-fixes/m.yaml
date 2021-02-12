@@ -233,3 +233,4 @@
 - { name: mysql,                                                     ruleset: cygwin,      untrusted: true } # accused of fake 10.3.14 (packages mariadb as mysql)
 - { name: mysql2pgsql,                 verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: mythes-fr,                   verpat: "20[0-9]{6}",                               ignore: true }
+- { name: mytop,                       verge: "10",                  ruleset: void,        ignore: true } # XXX: tracks script from mariadb; original upstream dead. not sure how to handle
