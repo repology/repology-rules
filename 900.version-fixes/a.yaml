@@ -217,6 +217,7 @@
 - { name: assaultcube,                 verge: "1.2.0.2.1",                                 devel: true } # https://gitlab.com/coringao/assaultcube fork
 - { name: asterisk-chan-dongle,                                                            noscheme: true }
 - { name: asterisk-moh-opsound,        verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: asterisk-opus,               verpat: "20[0-9]{6}",                               incorrect: true } # probably another project (https://github.com/traud/asterisk-opus), but no WWW defined in OpenWrt and no tags in upstream repo
 - { name: at-spi2-atk,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: at-spi2-core,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: at-spi2-core,                ver: "2.34.1",                ruleset: pisi,        incorrect: true, disposable: true }
