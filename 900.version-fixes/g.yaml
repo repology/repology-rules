@@ -104,7 +104,7 @@
 - { name: glitz,                       ver: "0.5.7",                 ruleset: sisyphus,    incorrect: true } # fake
 - { name: glitz,                                                     ruleset: sisyphus,    untrusted: true }
 - { name: glm,                         verpat: ".*a.*",                                    devel: true }
-- { name: glmark2,                                                                         noscheme: true }
+- { name: glmark2,                     verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: globulation2,                ver: "0.9.4.5",               ruleset: rosa,        ignore: true } # not released yet
 - { name: glock,                                                                           noscheme: true }
 - { name: gltron,                      verpat: "(.*)final",                                setver: $1 } # Maemo
