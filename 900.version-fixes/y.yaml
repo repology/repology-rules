@@ -27,3 +27,4 @@
 - { name: ytnef,                       ver: "2.6",                                         outdated: true } # see https://github.com/Yeraze/ytnef/blob/master/ChangeLog; latest is 1.9.2, rename it so it's outdated
 - { name: yubioath-desktop,            ver: "4.3.5",                 ruleset: fedora,      incorrect: true }
 - { name: yubioath-desktop,                                          ruleset: fedora,      untrusted: true }
+- { name: yuzu,                                                                            noscheme: true } # https://github.com/yuzu-emu/yuzu/releases
