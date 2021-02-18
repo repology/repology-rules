@@ -181,7 +181,7 @@
 - { name: mpd, summpart: "music player daemon", addflag: classified }
 - { name: mpd, addflag: unclassified }
 
-- { name: mrsh, wwwpart: emersion, setname: mrsh-minimal-posix-shell }
+- { name: mrsh, wwwpart: [emersion,mrsh.sh], setname: mrsh-minimal-posix-shell }
 - { name: mrsh, wwwpart: chaos, setname: mrsh-remote-shell-program }
 - { name: mrsh, addflag: unclassified }
 
