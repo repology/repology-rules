@@ -181,6 +181,10 @@
 - { name: mpd, summpart: "music player daemon", addflag: classified }
 - { name: mpd, addflag: unclassified }
 
+- { name: mrsh, wwwpart: emersion, setname: mrsh-minimal-posix-shell }
+- { name: mrsh, wwwpart: chaos, setname: mrsh-remote-shell-program }
+- { name: mrsh, addflag: unclassified }
+
 - { name: mtree, wwwpart: deis.unibo.it, setname: m-tree }
 - { name: mtree, wwwpart: archiecobbs, setname: mtree-port }
 - { name: mtree, wwwpart: netbsd, setname: mtree-netbsd }
