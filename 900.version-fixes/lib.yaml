@@ -176,8 +176,8 @@
 - { name: libplacebo,                  ver: "2.88.0",                ruleset: sisyphus,    incorrect: true }
 - { name: libplacebo,                                                ruleset: sisyphus,    untrusted: true } # accused if fake 2.88.0
 - { name: libpng,                      verpat: "1\\.7\\.0beta.*",    ruleset: freshcode,   ignore: true }
-- { name: libpng,                      ver: "1.7.0",                 ruleset: opensuse,    incorrect: true } # 1.7.0beta89
-- { name: libpng,                                                    ruleset: opensuse,    untrusted: true } # accused of fake 1.7.0
+- { name: libpng,                      ver: "1.7.0",                 ruleset: rpm,         incorrect: true } # 1.7.0beta89
+- { name: libpng,                                                    ruleset: rpm,         untrusted: true } # accused of fake 1.7.0
 - { name: libprotobuf-mutator,         verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: libpsl,                      verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: libqinfinity,                ver: "0.6.0",                 ruleset: mageia,      incorrect: true } # no such tag, only 0.6 branch
