@@ -126,6 +126,8 @@
 - { name: clamav,                      verpat: "[0-9]{4}",                                 outdated: true } # ancient version from wikidata
 - { name: claws-mail,                  verlonger: 3,                 ruleset: pisi,        incorrect: true }
 - { name: claws-mail,                                                ruleset: pisi,        untrusted: true }
+- { name: claws-mail,                  ver: "3.99.0",                ruleset: nix,         incorrect: true }
+- { name: claws-mail,                                                ruleset: nix,         untrusted: true } # accused of fake 3.99.0
 - { name: cld2,                        ver: "20160820",                                    ignore: true } # aosc fake (there were no commits to cld2 since 2015)
 - { name: clementine-player,           verlonger: 3,                                       incorrect: true }
 - { name: clementine-player,           verpat: "1\\.3\\.1\\.[0-9]{,5}",                    incorrect: true }
