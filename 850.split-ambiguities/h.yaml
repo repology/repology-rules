@@ -1,5 +1,9 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: hd-idle, wwwpart: adelolmo, setname: hd-idle-adelolmo }
+- { name: hd-idle, wwwpart: [sf.net, sourceforge], setname: hd-idle-cjmueller }
+- { name: hd-idle, addflag: unclassified }
+
 - { name: hdf,                         verpat: "5\\.([0-9]+\\.[0-9]+\\.[0-9]+)", setver: $1, setname: hdf5 } # XXX: problem
 
 - { name: heat, wwwpart: [openstack,launchpad.net/heat], setname: openstack-heat }
