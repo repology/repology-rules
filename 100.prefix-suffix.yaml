@@ -14,6 +14,8 @@
 - { ruleset: [arch,chakra],   namepat: "lib32-(.*)", setname: $1, addflavor: lib32 }
 - { ruleset: arch,            namepat: "(.*)-multilib", setname: $1, addflavor: multilib }
 
+- { ruleset: artix,           namepat: "(.*)-(openrc|runit|s6)", addflag: not_wildcard }
+
 - { ruleset: aur,             name: php-svn, setname: "php:svn" } # save from following rule
 - { ruleset: aur,             name: python-svn, setname: "python:svn" } # save from following rule
 - { ruleset: aur,             namepat: "(.*)-(cvs|svn|hg|darcs|bzr|git)", setname: $1, rolling: true }
