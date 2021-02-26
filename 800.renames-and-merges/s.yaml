@@ -2,7 +2,7 @@
 
 - { setname: s3backer,                 name: s3-backer }
 - { setname: sabredav,                 name: "php:sabredav" }
-- { setname: saga,                     name: [saga-gis,saga-gis-ltr] }
+- { setname: saga-gis,                 name: saga-gis-ltr, addflavor: true }
 - { setname: sage,                     name: sage-bin, addflavor: true }
 - { setname: sagemath,                 name: sage-math }
 - { setname: sagemath,                 name: [sagemath-doc,sagemath-jupyter,sagemath-src], addflavor: true }
