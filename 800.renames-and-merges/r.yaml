@@ -4,7 +4,7 @@
 - { setname: r,                        name: [r-base,r-mkl,r-minimal,librmath,rmath-standalone,r.latest,r.project], addflavor: true }
 - { setname: r3,                       name: libr3 }
 - { setname: rabbitmq-c,               name: [lib$0, librabbitmq] }
-- { setname: rabbitmq-c,               name: $0-devel, weak_devel: true }
+- { setname: rabbitmq-c,               name: $0-devel, weak_devel: true, nolegacy: true }
 - { setname: rabbitmq-server,          name: rabbitmq }
 - { setname: rabid,                    name: "ruby:rabid" }
 - { setname: racket,                   name: [minimal-racket,racket-minimal], addflavor: minimal }
@@ -15,24 +15,24 @@
 - { setname: radicale,                 name: ["python:radicale","python:radicale2",radicale2] }
 - { setname: rage,                     name: [rage-player,rageplayer] }
 - { setname: ragel,                    name: [ragel-6,ragel7] }
-- { setname: ragel,                    name: ragel-dev, weak_devel: true }
+- { setname: ragel,                    name: ragel-dev, weak_devel: true, nolegacy: true }
 - { setname: rainloop,                 name: rainloop-webmail }
 - { setname: rainloop,                 name: rainloop-community, addflavor: true }
 - { setname: rainmeter,                name: rainmeter-portable, addflavor: true }
-- { setname: range-v3,                 name: [range-v3-devel,range-v3-v1-beta], weak_devel: true }
+- { setname: range-v3,                 name: [range-v3-devel,range-v3-v1-beta], weak_devel: true, nolegacy: true }
 - { setname: ranger,                   name: "python:ranger" }
 - { setname: raptor,                   name: [raptor1,raptor2] }
 - { setname: rarian,                   name: librarian }
 - { setname: rawtherapee,              name: rawtherapee-gtk2 }
-- { setname: rawtherapee,              name: rawtherapee-unstable, weak_devel: true }
+- { setname: rawtherapee,              name: rawtherapee-unstable, weak_devel: true, nolegacy: true }
 - { setname: raxml,                    name: raxml-mpi, addflavor: true }
 - { setname: razor-qt,                 name: razorqt }
 - { setname: rbutil,                   name: [rockbox, rockbox-utility, rockboxutility] }
-- { setname: rclone,                   name: rclone-beta, weak_devel: true }
+- { setname: rclone,                   name: rclone-beta, weak_devel: true, nolegacy: true }
 - { setname: rdesktop,                 name: rdesktop-legacy }
 - { setname: rdiff-backup,             name: "python:rdiff-backup" } # XXX: FreeBSD crap, problem
-- { setname: rdiff-backup,             name: rdiff-backup-devel, weak_devel: true }
-- { setname: rdis,                     name: rdis-git, weak_devel: true }
+- { setname: rdiff-backup,             name: rdiff-backup-devel, weak_devel: true, nolegacy: true }
+- { setname: rdis,                     name: rdis-git, weak_devel: true, nolegacy: true }
 - { setname: re2,                      name: libre2 }
 - { setname: readline,                 namepat: "(?:compat-)?(?:lib)?readline[0-9.-]*" }
 - { setname: readymedia,               name: minidlna } # former name
@@ -76,7 +76,7 @@
 - { setname: roguebox-adventures,      name: rogueboxadventures }
 - { setname: ronn,                     name: "ruby:ronn" }
 - { setname: roomeqwizard,             name: room-eq-wizard }
-- { setname: roomeqwizard,             name: roomeqwizard-beta, weak_devel: true }
+- { setname: roomeqwizard,             name: roomeqwizard-beta, weak_devel: true, nolegacy: true }
 - { setname: root,                     name: [root-extra,root-system], addflavor: true }
 - { setname: root,                     name: [root5, root6] }
 - { setname: ropgadget,                name: [ropgadget2,"python:ropgadget"] }
@@ -98,7 +98,7 @@
 - { setname: rss2email,                name: "python:rss2email" }
 - { setname: rss2email,                name: r2e }
 - { setname: rstudio,                  name: [rstudio-desktop, rstudio-server], addflavor: true }
-- { setname: rstudio,                  name: [rstudio-desktop-preview], addflavor: desktop, weak_devel: true }
+- { setname: rstudio,                  name: [rstudio-desktop-preview], addflavor: desktop, weak_devel: true, nolegacy: true }
 - { setname: rsync,                    name: rsync2 }
 - { setname: rtaudio,                  name: rt-audio }
 - { setname: rtl8814au,                name: rtl8814au-dkms, addflavor: dkms }
@@ -108,9 +108,9 @@
 - { setname: rubocop,                  name: "ruby:rubocop" }
 - { setname: rundeck,                  namepat: "rundeck[0-9.-]+" }
 - { setname: rust,                     name: [rust-bin,rust-msvc], addflavor: true }
-- { setname: rust,                     name: [rustc-nightly, rust-msvc-nightly], addflavor: true, weak_devel: true }
+- { setname: rust,                     name: [rustc-nightly, rust-msvc-nightly], addflavor: true, weak_devel: true, nolegacy: true }
 - { setname: rust,                     name: rust-toolset-7-rust }
 - { setname: rust-dwm-status,          name: "rust:rust-dwm-status" }
 - { setname: rusty-diceware,           name: "rust:diceware" }
 - { setname: rx-editor,                name: "rust:rx-editor" }
-- { setname: rxvt,                     name: rxvt-beta, weak_devel: true }
+- { setname: rxvt,                     name: rxvt-beta, weak_devel: true, nolegacy: true }

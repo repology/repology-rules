@@ -30,7 +30,7 @@
 - { setname: netcat-openbsd,           name: openbsd-netcat }
 - { setname: netcat6,                  name: nc6 }
 - { setname: netcdf,                   namepat: "netcdf(?:[0-9.-]*)?(-gnu.*hpc)?", addflavor: $1 }
-- { setname: netcdf,                   name: netcdf-devel, weak_devel: true }
+- { setname: netcdf,                   name: netcdf-devel, weak_devel: true, nolegacy: true }
 - { setname: netcdf,                   name: [netcdf-mpi,netcdf-openmpi,netcdf-parallel-openmpi], addflavor: true }
 - { setname: netcdf,                   name: netcdf-c }
 - { setname: netcdf-cxx,               namepat: "netcdf-cxx(?:[0-9.-]*)(-gnu.*hpc)?", addflavor: $1 }
@@ -70,7 +70,7 @@
 - { setname: nextcloud,                namepat: "nextcloud[0-9.-]+" }
 - { setname: nextcloud,                name: nextcloud-server }
 - { setname: nextcloud,                name: "php:nextcloud", addflavor: php }
-- { setname: nextcloud,                name: nextcloud-testing, weak_devel: true }
+- { setname: nextcloud,                name: nextcloud-testing, weak_devel: true, nolegacy: true }
 - { setname: nextcloud-client,         name: [nextcloudclient,nextcloud-desktop,nextclouddesktop] }
 - { setname: nexus,                    name: [nexus-oss,libnexus,nexus2-oss] }
 - { setname: nghttp2,                  name: libnghttp2 }
@@ -129,6 +129,6 @@
 - { setname: nvidia-cg-toolkit,        name: cg-compiler, addflavor: compiler }
 - { setname: nvidia-settings,          namepat: "nvidia[x0-9.-]*-settings" }
 - { setname: nvidia-settings,          namepat: "nvidia-settings-.*" }
-- { setname: nvidia-settings,          namepat: "nvidia-settings-experimental.*", weak_devel: true }
+- { setname: nvidia-settings,          namepat: "nvidia-settings-experimental.*", weak_devel: true, nolegacy: true }
 - { setname: nvidiabl,                 name: [dkms-nvidiabl,nvidiabl-kernel] }
 - { setname: nyx,                      name: "python:nyx" }

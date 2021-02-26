@@ -27,4 +27,4 @@
     - bareos-webui
     - bareos-x11
   addflavor: true
-- { setname: bareos, name: bareos-devel, weak_devel: true }
+- { setname: bareos, name: bareos-devel, weak_devel: true, nolegacy: true }

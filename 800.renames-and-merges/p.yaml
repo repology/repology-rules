@@ -66,7 +66,7 @@
 - { setname: pegtl,                    name: tao-pegtl }
 - { setname: pelican,                  name: "python:pelican" }
 - { setname: pencil,                   name: [evolus-pencil,pencil-v2,pencil3] }
-- { setname: pencil,                   name: evolus-pencil-devel, weak_devel: true }
+- { setname: pencil,                   name: evolus-pencil-devel, weak_devel: true, nolegacy: true }
 - { setname: percona-server,           namepat: "percona[0-9._-]*server[0-9._-]*" }
 - { setname: percona-server,           namepat: "percona[0-9._-]*client[0-9._-]*", addflavor: client } # freebsd artifact; package is still named percona-server
 - { setname: percona-server,           name: percona }
@@ -98,7 +98,7 @@
 - { setname: pgtcl,                    name: tcl-pgtcl }
 - { setname: phabricator,              name: "php:phabricator" }
 - { setname: phantomjs,                name: phantomjs19 }
-- { setname: phantomjs,                name: phantomjs-beta, weak_devel: true }
+- { setname: phantomjs,                name: phantomjs-beta, weak_devel: true, nolegacy: true }
 - { setname: phash,                    name: libphash }
 - { setname: phat,                     name: libphat }
 - { setname: phoenix-emu,              name: phoenix-emu-project }
@@ -131,10 +131,10 @@
 - { setname: pixman,                   name: pixman-static, addflavor: static }
 - { setname: pjproject,                name: [pjsip,pjsua,pjproject-jami,pjsip-python,"python:pjproject"], addflavor: true }
 - { setname: pkg,                      name: pkg-bsd, ruleset: ravenports }
-- { setname: pkg,                      name: pkg-devel, weak_devel: true, ruleset: freebsd }
+- { setname: pkg,                      name: pkg-devel, weak_devel: true, nolegacy: true, ruleset: freebsd }
 - { setname: pkg-config,               name: pkgconfig }
 - { setname: plasma-browser-integration, name: plasma5-plasma-browser-integration }
-- { setname: plasma-camera,            name: plasma-camera-git, weak_devel: true }
+- { setname: plasma-camera,            name: plasma-camera-git, weak_devel: true, nolegacy: true }
 - { setname: plasma-discover,          name: [plasma5-discover, kp5-discover] }
 - { setname: plasma-integration,       name: [plasma5-integration,plasma5-plasma-integration] }
 - { setname: plasma-workspace,         name: plasma5-workspace }
@@ -147,7 +147,7 @@
 - { setname: plr,                      namepat: "(postgresql[0-9.-]*)-plr", addflavor: $1 }
 - { setname: plt-scheme,               name: drscheme } # part of? https://plt-scheme.org/
 - { setname: pluma,                    name: pluma-1.16 }
-- { setname: pluma,                    name: pluma-dev, weak_devel: true }
+- { setname: pluma,                    name: pluma-dev, weak_devel: true, nolegacy: true }
 - { setname: pluma,                    name: pluma-gtk2, addflavor: true }
 - { setname: plumed,                   name: plumed-namd, addflavor: namd }
 - { setname: plv8,                     namepat: "(postgresql[0-9.-]*)-plv8(js)?", addflavor: $1 }
@@ -176,7 +176,7 @@
 - { setname: poppler,                  name: [poppler-base,poppler-qt5-cairo], addflavor: true }
 - { setname: popt,                     name: libpopt }
 - { setname: portaudio,                name: [portaudio19,portaudio2,portaudio0] }
-- { setname: portaudio,                name: [portaudio-devel,portaudio-svn], weak_devel: true }
+- { setname: portaudio,                name: [portaudio-devel,portaudio-svn], weak_devel: true, nolegacy: true }
 - { setname: portmidi,                 name: libportmidi }
 - { setname: portmidi,                 name: "python:pyportmidi", addflavor: python }
 - { setname: postfix,                  name: [postfix-current,postfix-current-sasl,postfix211,postfix211-sasl] }
@@ -197,14 +197,14 @@
 - { setname: postgresql,               namepat: "postgresql[0-9.-]*-server", addflavor: server }
 - { setname: postgresql,               name: [pgsql, postgresql-previous] }
 - { setname: postgresql,               name: postgresql-src, addflavor: src}
-- { setname: postgresql,               name: postgresql-src-beta, addflavor: src, weak_devel: true }
+- { setname: postgresql,               name: postgresql-src-beta, addflavor: src, weak_devel: true, nolegacy: true }
 - { setname: postgresql,               name: [libecpg, libpq, pgindent], addflavor: true }
 - { setname: postgresql-1c,            namepat: "postgresql[0-9.-]+-1c" }
 - { setname: postgresql-jdbc,          name: [java-postgresql-jdbc, jdbc-postgresql, libpgjava] }
 - { setname: postgresql-multicorn,     name: multicorn }
 - { setname: postgresql-rum,           name: [pg-rum,postgresql11-rum] }
 - { setname: potrace,                  name: libpotrace, addflavor: true }
-- { setname: poudriere,                name: poudriere-devel, weak_devel: true }
+- { setname: poudriere,                name: poudriere-devel, weak_devel: true, nolegacy: true }
 - { setname: povray,                   namepat: "povray[0-9]+" }
 - { setname: povray,                   name: pov-ray }
 - { setname: powder-toy,               name: [powdertoy,the-powder-toy,thepowdertoy] }
@@ -214,8 +214,8 @@
 - { setname: powershell,               name: pwsh }
 - { setname: powertop,                 name: [powertop-1.13,powertop1] }
 - { setname: ppsspp,                   name: [ppsspp-ex,ppsspp-headless,ppsspp-qt,ppsspp-qt5], addflavor: true }
-- { setname: ppsspp,                   name: ppsspp-devel, weak_devel: true }
-- { setname: ppsspp,                   name: ppsspp-qt5-devel, addflavor: qt5, weak_devel: true }
+- { setname: ppsspp,                   name: ppsspp-devel, weak_devel: true, nolegacy: true }
+- { setname: ppsspp,                   name: ppsspp-qt5-devel, addflavor: qt5, weak_devel: true, nolegacy: true }
 - { setname: pptpd,                    name: [bcrelay,poptop,poptop-man,pptpd-server], addflavor: true }
 - { setname: premake,                  name: [premake3,premake4,premake5] }
 - { setname: presto,                   name: presto-cli }
@@ -270,7 +270,7 @@
 - { setname: "purple:pidgin-opensteamworks", name: [libpurple-steam,pidgin-opensteamworks,purple-libsteam] }
 - { setname: "purple:purple-facebook", name: [libpurple-facebook,purple-facebook,pidgin-facebook] }
 - { setname: "purple:purple-hangouts", name: [libpurple-hangouts,purple-hangouts] }
-- { setname: "purple:purple-hangouts", name: purple-hangouts-hg, weak_devel: true }
+- { setname: "purple:purple-hangouts", name: purple-hangouts-hg, weak_devel: true, nolegacy: true }
 - { setname: "purple:skype4pidgin",    name: [libpurple-protocol-skypeweb,libpurple-skypeweb,pidgin-skypeweb,purple-plugin-skypeweb,purple-skypeweb,skype4pidgin,skypeweb-purple] }
 - { setname: "purple:telegram-purple", name: [libpurple-telegram,pidgin-telegram,purple-telegram,telegram-purple] }
 - { setname: putty,                    name: [putty-gtk2,putty-nogtk], addflavor: true }
@@ -282,7 +282,7 @@
 - { setname: pycharm,                  name: pycharm-professional, addflavor: professional }
 - { setname: pycsw,                    name: "python:pycsw" }
 - { setname: pygtksourceview,          name: ["python:gtksourceview","python:pygtksourceview","python:pygtksourceview2",pygtksourceview,pygtksourceview2,"python:gtksourceview2"] }
-- { setname: pyload,                   name: pyload-nightly, weak_devel: true }
+- { setname: pyload,                   name: pyload-nightly, weak_devel: true, nolegacy: true }
 - { setname: pymol,                    name: [pymol2, "python:pymol", pymol-python2 ] }
 - { setname: pypanel,                  name: "python:pypanel" }
 - { setname: pypy,                     name: ["python:pypy","python:pypy-bin",pypy2] }
@@ -293,9 +293,9 @@
 - { setname: python,                   name: "python:sqlite3", addflavor: true } # part of; split into separate package in FreeBSD, ravenports and pkgsrc
 - { setname: python,                   name: [python3-minimal], addflavor: minimal }
 - { setname: python,                   name: [python-debug,python-base], addflavor: true }
-- { setname: python,                   name: [python27-beta,python-alpha,python-beta], weak_devel: true }
+- { setname: python,                   name: [python27-beta,python-alpha,python-beta], weak_devel: true, nolegacy: true }
 - { setname: python-caja,              name: ["python:caja", "python:python-caja", caja-python] } # not really a pypi packages, so rename according to upstream
-- { setname: python-caja,              name: "python:caja-dev", weak_devel: true }
+- { setname: python-caja,              name: "python:caja-dev", weak_devel: true, nolegacy: true }
 - { setname: python-distutils-extra,   name: ["python:distutils-extra","python:python-distutils-extra"] } # debian invention
 - { setname: python-docs,              namepat: "python[0-9.-]*-(doc)s?(-html|-pdf-a4|-pdf-letter|-text)?", addflavor: "$1$2" }
 - { setname: python-linux-procfs,      name: "python:linux-procfs" } # exherbo XXX: problem

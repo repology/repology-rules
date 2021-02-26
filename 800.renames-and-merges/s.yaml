@@ -50,8 +50,8 @@
 - { setname: scourge,                  name: scourge-data, addflavor: data }
 - { setname: scream-virtual-sound-card, name: [scream-alsa,scream-alsa-ivshmem,scream-pulseaudio,scream-pulseaudio-ivshmem,scream-receivers,scream-receiver,scream-raw], addflavor: true }
 - { setname: screen,                   name: screen-pam, addflavor: true }
-- { setname: screenfetch,              name: screenfetch-dev, weak_devel: true }
-- { setname: scribus,                  name: [scribus-devel, scribus-ng], weak_devel: true }
+- { setname: screenfetch,              name: screenfetch-dev, weak_devel: true, nolegacy: true }
+- { setname: scribus,                  name: [scribus-devel, scribus-ng], weak_devel: true, nolegacy: true }
 - { setname: scribus,                  name: scribus-stable }
 - { setname: scrot,                    name: scrot-no-beep, addflavor: no-beep }
 - { setname: sddm,                     name: [sddm-classic,sddm-elogind], addflavor: true }
@@ -108,7 +108,7 @@
 - { setname: sidef,                    name: "perl:sidef" }
 - { setname: sidplay,                  namepat: "sidplay[0-9]+" }
 - { setname: sidplay,                  name: sidplay-base, addflavor: true }
-- { setname: signal-desktop,           name: signal-desktop-beta, weak_devel: true }
+- { setname: signal-desktop,           name: signal-desktop-beta, weak_devel: true, nolegacy: true }
 - { setname: sile,                     name: sile-luajit, addflavor: true }
 - { setname: silgraphite,              name: [silgraphite-ft,silgraphite-xft], addflavor: true }
 - { setname: silgraphite,              name: [silgraphite2.0,graphite,libgraphite2,graphite2,libgraphite] }
@@ -126,18 +126,18 @@
 - { setname: sk1libs,                  name: "python:sk1libs" }
 - { setname: skim,                     name: "rust:skim" }
 - { setname: skype,                    name: [get-skypeforlinux, get-skype, skypeforlinux, skypeforlinux-stable] }
-- { setname: skype,                    name: skypeforlinux-preview, weak_devel: true }
+- { setname: skype,                    name: skypeforlinux-preview, weak_devel: true, nolegacy: true }
 - { setname: slack,                    name: slack-bin, addflavor: bin }
 - { setname: slang,                    name: [libslang,libslang2,s-lang,slang2,slang1] }
 - { setname: slashem,                  name: slash-em }
 - { setname: slashem,                  name: slashem-tty }
-- { setname: slic3r,                   name: slic3r-dev, weak_devel: true }
+- { setname: slic3r,                   name: slic3r-dev, weak_devel: true, nolegacy: true }
 - { setname: slic3r-prusa,             name: [slic3r-prusa3d, slic3r-prusa-edition] }
-- { setname: slmenu,                   name: slmenu-hg, weak_devel: true }
+- { setname: slmenu,                   name: slmenu-hg, weak_devel: true, nolegacy: true }
 - { setname: slony1,                   namepat: "slony1(?:-2|v2)" }
 - { setname: slony1,                   name: postgresql-slony1 }
 - { setname: slurm-wlm,                name: slurm-llnl } # see rule in 850
-- { setname: slurm-wlm,                name: slurm-llnl-dev, weak_devel: true }
+- { setname: slurm-wlm,                name: slurm-llnl-dev, weak_devel: true, nolegacy: true }
 - { setname: smalltalk,                name: gnu-smalltalk }
 - { setname: smb4k,                    name: [kde4-smb4k,kde5-smb4k] }
 - { setname: smc,                      name: secret-maryo-chronicles }
@@ -173,7 +173,7 @@
 - { setname: solfege,                  name: solfege-nosound, addflavor: true }
 - { setname: solid,                    name: [ksolid, kf5-solid, solid-qt5] }
 - { setname: solid,                    name: [solid3] }
-- { setname: solid,                    name: solid-git, weak_devel: true }
+- { setname: solid,                    name: solid-git, weak_devel: true, nolegacy: true }
 - { setname: solidity,                 name: [solc], addflavor: true }
 - { setname: solr,                     namepat: "solr[0-9.-]*(-war|zip)?", addflavor: $1 }
 - { setname: solr,                     namepat: "apache-solr[0-9.-]*" }
@@ -200,23 +200,23 @@
 - { setname: spark-adacore,            name: spark2014 }
 - { setname: sparsehash,               name: google-sparsehash }
 - { setname: spatialindex,             name: libspatialindex }
-- { setname: spatialite-gui,           name: spatialite-gui-devel, weak_devel: true }
+- { setname: spatialite-gui,           name: spatialite-gui-devel, weak_devel: true, nolegacy: true }
 - { setname: speed-dreams,             name: speeddreams }
 - { setname: speed-dreams,             namepat: "speed-?dreams-.*", addflavor: true }
 - { setname: speex,                    name: libspeex }
 - { setname: speexdsp,                 name: libspeexdsp }
 - { setname: sphinx,                   name: sphinxsearch }
 - { setname: sphinx,                   name: libsphinxclient, addflavor: true }
-- { setname: sphinx,                   name: sphinx-beta, weak_devel: true }
+- { setname: sphinx,                   name: sphinx-beta, weak_devel: true, nolegacy: true }
 - { setname: spice-gtk,                namepat: "(?:lib)?spice-gtk[0-9.-]*" }
 - { setname: spidermonkey,             namepat: "spidermonkey[0-9.-]+" }
 - { setname: spidermonkey,             namepat: "mozjs[0-9.-]*" }
 - { setname: spidermonkey,             namepat: "js[0-9]{2}" }
 - { setname: spidermonkey,             name: [libspidermonkey,spidermonkey-ff17] }
 - { setname: spl,                      name: [spl-linux,spl-solaris,spl-utils], addflavor: true }
-- { setname: spl,                      name: spl-git, weak_devel: true }
+- { setname: spl,                      name: spl-git, weak_devel: true, nolegacy: true }
 - { setname: splix,                    name: [cups-driver-splix, cups-drivers-splix, printer-driver-splix] }
-- { setname: splix,                    name: splix-svn, weak_devel: true }
+- { setname: splix,                    name: splix-svn, weak_devel: true, nolegacy: true }
 - { setname: spotify,                  name: [spotify-stable,spotify094] }
 - { setname: spotify,                  name: spotify-client, addflavor: client }
 - { setname: spring,                   name: springrts }
@@ -231,12 +231,12 @@
 - { setname: sqlite,                   name: [sqlite-interactive,sqlite-with-fts3,sqlite-with-fts5,sqlite.shell,sqlite3-tools,sqlite-source,sqlite-with-column-metadata], addflavor: true }
 - { setname: sqlitebrowser,            name: [sqlitebrowser32,sqlitebrowser-cipher], addflavor: true }
 - { setname: sqlmap,                   name: "python:sqlmap" }
-- { setname: squashfs-tools,           name: squashfs-tools-next, weak_devel: true }
+- { setname: squashfs-tools,           name: squashfs-tools-next, weak_devel: true, nolegacy: true }
 - { setname: squashfs-tools,           name: squashfs3-tools }
 - { setname: squashfs-tools,           name: [squashfs, squashfs-tools] } # squashfs and squashfs-tools are single project
 - { setname: squashfs-tools,           name: squashfs-lzma, addflavor: lzma } # squashfs and squashfs-tools are single project
 - { setname: squid,                    name: [squid-ldap,squid-ntlm], addflavor: true, ruleset: openbsd }
-- { setname: squid,                    name: squid-devel, weak_devel: true }
+- { setname: squid,                    name: squid-devel, weak_devel: true, nolegacy: true }
 - { setname: squid,                    name: squid-4x }
 - { setname: squid,                    namepat: "squid[0-9.-]+" }
 - { setname: squirrel,                 name: squirrel3 }
@@ -259,7 +259,7 @@
 - { setname: stb,                      name: libstb }
 - { setname: steak,                    name: xsteak }
 - { setname: stellarium,               name: stellarium-qt4, addflavor: true }
-- { setname: stepmania,                name: stepmania-devel, weak_devel: true }
+- { setname: stepmania,                name: stepmania-devel, weak_devel: true, nolegacy: true }
 - { setname: stfl,                     name: [libstfl,libstfl0] }
 - { setname: sthttpd,                  name: thttpd, ruleset: gentoo } # actually fork of thttpd; XXX: problem
 - { setname: stlport,                  namepat: "stlport[0-9.]+" }
@@ -268,20 +268,20 @@
 - { setname: stone-soup,               name: stone-soup-sdl, addflavor: sdl }
 - { setname: stone-soup,               name: [stone-soup-tiles,crawl-tiles], addflavor: tiles } # separate distfile, but same version
 - { setname: storebackup,              name: store-backup }
-- { setname: storm,                    name: storm-beta, weak_devel: true }
+- { setname: storm,                    name: storm-beta, weak_devel: true, nolegacy: true }
 - { setname: stormssh,                 name: "python:stormssh" }
 - { setname: streamtuner,              namepat: "streamtuner[0-9]+" }
 - { setname: stremio,                  name: [stremio-shell, stremio-legacy] }
-- { setname: stremio,                  name: stremio-beta, weak_devel: true }
+- { setname: stremio,                  name: stremio-beta, weak_devel: true, nolegacy: true }
 - { setname: stringtemplate,           namepat: "stringtemplate[0-9]+" }
 - { setname: structuresynth,           name: structure-synth }
 - { setname: struts,                   name: [libstruts1.2-java, apache-struts] }
 - { setname: stunnel,                  namepat: "stunnel[0-9.-]+" }
-- { setname: stunnel,                  name: stunnel-beta, weak_devel: true }
+- { setname: stunnel,                  name: stunnel-beta, weak_devel: true, nolegacy: true }
 - { setname: stuntrally,               name: stunt-rally }
 - { setname: stxxl,                    name: libstxxl }
 - { setname: sublime-text,             name: [sublime-text-3-imfix,sublime-text-imfix], addflavor: imfix }
-- { setname: sublime-text,             name: [sublime-text-4-dev, sublime-text-dev, sublime-text-nightly], weak_devel: true }
+- { setname: sublime-text,             name: [sublime-text-4-dev, sublime-text-dev, sublime-text-nightly], weak_devel: true, nolegacy: true }
 - { setname: sublime-text,             namepat: "sublime-?text[0-9.-]*" }
 - { setname: sudo,                     name: [sudo-pam,sudo-masochist,sudo-selinux], addflavor: true }
 - { setname: sugar,                    namepat: "sugar[0-9.-]+" }
@@ -301,7 +301,7 @@
 - { setname: suitesparse,              name: [suitesparse-mkl], addflavor: true }
 - { setname: suitesparse,              name: [suitesparseconfig,suitesparse-config], addflavor: config }
 - { setname: suitesparseconfig,        name: ufconfig } # from report: ufconfig is an old name for suitesparseconfig
-- { setname: suitesparseconfig,        name: suitesparse-common-devel, weak_devel: true }
+- { setname: suitesparseconfig,        name: suitesparse-common-devel, weak_devel: true, nolegacy: true }
 - { setname: sunsetscreen,             name: sunset-screen } # grr, windows-only
 - { setname: supertransball2,          name: [stransball2,super-transball] }
 - { setname: supertux,                 name: [supertux,supertux1,supertux2,supertux-old,supertux-stable] }
@@ -323,7 +323,7 @@
 - { setname: sweethome3d,              name: [sweet-home-3d,sweethome3d-application] }
 - { setname: swell-foop,               name: gnome-games-swell-foop }
 - { setname: swi-prolog,               name: [swi-prolog-doc,swi-prolog-jpl,swi-prolog-lite,swi-prolog-packages], addflavor: true }
-- { setname: swi-prolog,               name: swi-prolog-devel, weak_devel: true }
+- { setname: swi-prolog,               name: swi-prolog-devel, weak_devel: true, nolegacy: true }
 - { setname: swift,                    name: swift-bin, addflavor: bin }
 - { setname: swift,                    name: swift-bin, addflavor: bin }
 - { setname: swift-lang,               name: swift-language }
@@ -331,7 +331,7 @@
 - { setname: swig,                     namepat: "swig[0-9.-]+" }
 - { setname: swissfileknife,           name: sfk }
 - { setname: switchboard-plug-networking, name: switchboard-plug-network }
-- { setname: sylpheed,                 name: sylpheed-beta, weak_devel: true }
+- { setname: sylpheed,                 name: sylpheed-beta, weak_devel: true, nolegacy: true }
 - { setname: sylpheed,                 name: [sylpheed-full,sylpheed-lite], addflavor: true }
 - { setname: syncthing,                name: [syncthing-0.14,syncthing13] }
 - { setname: syncthing-gtk,            name: "python:syncthing-gtk" }

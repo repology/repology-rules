@@ -84,6 +84,7 @@
     )-devel
   setname: $1
   weak_devel: true
+  nolegacy: true
 
 # utils
 - namepat: |
@@ -230,4 +231,4 @@
 - { setname: xrandr, name: [xorg-app-xrandr,xorg-xrandr] }
 - { setname: xorg-scripts, name: xorg-app-scripts }
 - { setname: xorgproto, name: [xorg-proto, xorg-proto-xorgproto] }
-- { setname: xorgproto, name: [xorg-proto-devel, xorg-x11-proto-devel], weak_devel: true }
+- { setname: xorgproto, name: [xorg-proto-devel, xorg-x11-proto-devel], weak_devel: true, nolegacy: true }

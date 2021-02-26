@@ -51,8 +51,8 @@
   addflavor: true
 
 # Developer
-- { setname: firefox,                  namepat: "firefox-developer(.*)", addflavor: $1, weak_devel: true }
-- { setname: firefox,                  namepat: "firefox-developer-edition(.*)", addflavor: $1, weak_devel: true }
+- { setname: firefox,                  namepat: "firefox-developer(.*)", addflavor: $1, weak_devel: true, nolegacy: true }
+- { setname: firefox,                  namepat: "firefox-developer-edition(.*)", addflavor: $1, weak_devel: true, nolegacy: true }
 
 - setname: firefox
   name:
@@ -60,10 +60,11 @@
     - firefox-devedition-bin-unwrapped
   addflavor: true
   weak_devel: true
+  nolegacy: true
 
 # Beta
-- { setname: firefox,                  name: [firefox-beta], weak_devel: true }
-- { setname: firefox,                  namepat: "firefox-beta-(i18n-.*)", addflavor: $1, weak_devel: true }
+- { setname: firefox,                  name: [firefox-beta], weak_devel: true, nolegacy: true }
+- { setname: firefox,                  namepat: "firefox-beta-(i18n-.*)", addflavor: $1, weak_devel: true, nolegacy: true }
 
 - setname: firefox
   name:
@@ -75,6 +76,7 @@
     - firefox-kde-opensuse-beta
   addflavor: true
   weak_devel: true
+  nolegacy: true
 
 # Nighly
 - { setname: firefox,                  name: [firefox-nightly], rolling: true }

@@ -8,8 +8,8 @@
 - { setname: libapreq2,                name: ["apmod:apreq",apache-apreq] }
 - { setname: libarcus,                 name: arcus }
 - { setname: libart-lgpl,              namepat: "libart-lgpl[0-9.-]+" }
-- { setname: libasr,                   name: [libasr-devel,libasr-snapshot], weak_devel: true }
-- { setname: libarchive,               name: libarchive-devel, weak_devel: true }
+- { setname: libasr,                   name: [libasr-devel,libasr-snapshot], weak_devel: true, nolegacy: true }
+- { setname: libarchive,               name: libarchive-devel, weak_devel: true, nolegacy: true }
 - { setname: libarchive,               name: libarchive3 }
 - { setname: libassuan,                name: libassuan1 }
 - { setname: libatomic-ops,            name: [atomic-ops,libatomicops] }
@@ -27,7 +27,7 @@
 - { setname: libcdr,                   namepat: "libcdr[0-9.-]+" }
 - { setname: libchamplain,             namepat: "libchamplain[0-9.-]+" }
 - { setname: libchipcard,              name: libchipcard1 }
-- { setname: libclc,                   name: libclc-git, weak_devel: true }
+- { setname: libclc,                   name: libclc-git, weak_devel: true, nolegacy: true }
 - { setname: libcmis,                  name: cmis-client, addflavor: client }
 - { setname: libcompizconfig,          name: libcompizconfig0.8 }
 - { setname: libconfuse,               namepat: "libconfuse[0-9.-]+" }
@@ -45,7 +45,7 @@
 - { setname: libdmapsharing,           namepat: "libdmapsharing[0-9.-]+" }
 - { setname: libdnet,                  name: libdumbnet }
 - { setname: libdnet,                  name: ["python:libdnet", libdnet-ipv6], addflavor: true }
-- { setname: libdri2,                  name: libdri2-git, weak_devel: true }
+- { setname: libdri2,                  name: libdri2-git, weak_devel: true, nolegacy: true }
 - { setname: libdvbpsi,                namepat: "libdvbpsi[0-9.-]+" }
 - { setname: libdvdplay,               name: libdvdplay0 }
 - { setname: libdvdread,               name: libdvdread3 }
@@ -133,7 +133,7 @@
 - { setname: libinfinity,              namepat: "libinfinity[0-9.-]+" }
 - { setname: libisofs,                 name: libisofs1 }
 - { setname: libisoburn,               name: libisoburn1 }
-- { setname: libixp,                   name: libixp-hg, weak_devel: true }
+- { setname: libixp,                   name: libixp-hg, weak_devel: true, nolegacy: true }
 - { setname: libjpeg-turbo,            name: libjpeg-turbo6 }
 - { setname: libjson-rpc-cpp,          namepat: "libjson-rpc-cpp[0-9.-]+" }
 - { setname: libkdcraw,                name: libkdcraw23 }
@@ -148,17 +148,17 @@
 - { setname: libm4rie,                 name: m4rie }
 - { setname: libmcs,                   name: libmcs1 }
 - { setname: libdmapsharing,           name: [libdmapsharing3,libdmapsharing4] }
-- { setname: libmatekbd,               name: libmatekbd-dev, weak_devel: true }
+- { setname: libmatekbd,               name: libmatekbd-dev, weak_devel: true, nolegacy: true }
 - { setname: libmatekbd,               name: libmatekbd-gtk2, addflavor: true }
-- { setname: libmatemixer,             name: libmatemixer-dev, weak_devel: true }
-- { setname: libmateweather,           name: libmateweather-dev, weak_devel: true }
+- { setname: libmatemixer,             name: libmatemixer-dev, weak_devel: true, nolegacy: true }
+- { setname: libmateweather,           name: libmateweather-dev, weak_devel: true, nolegacy: true }
 - { setname: libmateweather,           name: libmateweather-gtk2, addflavor: true }
 - { setname: libmatroska,              name: matroska }
 - { setname: libmediaart,              namepat: "(?:compat-)?libmediaart[0-9.-]+" }
 - { setname: libmikmod,                name: libmikmod2 }
 - { setname: libmm,                    namepat: "libmm[0-9.-]+" }
 - { setname: libmng,                   name: libmng1 }
-- { setname: libmodbus,                name: libmodbus-dev, weak_devel: true }
+- { setname: libmodbus,                name: libmodbus-dev, weak_devel: true, nolegacy: true }
 - { setname: libmowgli,                name: [libmowgli-2,libmowgli2,mowgli] }
 - { setname: libmozjs,                 namepat: "libmozjs[0-9.-]+" }
 - { setname: libmp4v2,                 name: [mp4v2,libmp4v2-2,libmp4v2-3] }
@@ -301,7 +301,7 @@
 - { setname: libxaw3dxft,              name: xaw3dxft }
 - { setname: libxcb,                   name: [libx32-libxcb,xorg-libxcb,compat-libxcb] }
 - { setname: libxfont,                 name: [libxfont,libxfont1,libxfont2,xorg-libxfont,xorg-libxfont2,xorg-xfont,xorg-xfont2] }
-- { setname: libxfce4util,             name: libxfce4util-devel, weak_devel: true }
+- { setname: libxfce4util,             name: libxfce4util-devel, weak_devel: true, nolegacy: true }
 - { setname: libxfce4util,             name: libxfce4util-gtk3, addflavor: gtk3 }
 - { setname: libxkbcommon,             name: libxkbcommon-doc, addflavor: doc }
 - { setname: libxkbcommon,             name: libxkbcommon-x11, addflavor: x11 }
@@ -320,7 +320,7 @@
 - { setname: libxslt,                  name: "python:libxslt", addflavor: python }
 - { setname: libxtract,                name: libxtract0 }
 - { setname: libyaml,                  name: yaml }
-- { setname: libyang,                  name: libyang-devel, weak_devel: true }
+- { setname: libyang,                  name: libyang-devel, weak_devel: true, nolegacy: true }
 - { setname: libyubikey,               name: yubikey }
 - { setname: libykneomgr,              name: ykneomgr }
 - { setname: libzapojit,               namepat: "libzapojit[0-9.-]*" }

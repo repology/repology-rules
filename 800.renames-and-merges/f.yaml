@@ -5,7 +5,7 @@
 - { setname: facter,                   name: facter2 } # Note: not the same as ruby:facter (https://github.com/puppetlabs/facter vs. https://github.com/puppetlabs/facter-ng)
 - { setname: factor,                   name: factor-lang }
 - { setname: fahclient,                name: foldingathome-noroot, addflavor: true }
-- { setname: fahclient,                name: foldingathome-beta, weak_devel: true }
+- { setname: fahclient,                name: foldingathome-beta, weak_devel: true, nolegacy: true }
 - { setname: fahclient,                name: [fah,foldingathome,folding-at-home,linux-foldingathome] }
 - { setname: fail2ban,                 name: "python:fail2ban" }
 - { setname: fail2ban,                 name: fail2ban6 }
@@ -19,7 +19,7 @@
 - { setname: farstream,                namepat: "farstream[0-9.-]+" }
 - { setname: fasm,                     name: [fasm-bin,fasm-linux], addflavor: true }
 - { setname: fasta,                    name: fasta3 }
-- { setname: fastd,                    name: fastd-devel, weak_devel: true }
+- { setname: fastd,                    name: fastd-devel, weak_devel: true, nolegacy: true }
 - { setname: fasttracker2,             name: ft2-clone }
 - { setname: fbreader,                 name: [fbreader-qt4,fbreader-qt5], addflavor: true }
 - { setname: fcgi,                     name: [fcgi-devkit,libfcgi, fastcgi] }
@@ -29,7 +29,7 @@
 - { setname: fd-find,                  name: "rust:fd-find" }
 - { setname: fdk-aac,                  name: libfdk-aac }
 - { setname: fdkaac,                   name: fdk-aac-encoder }
-- { setname: feedreader,               name: feedreader-beta, weak_devel: true }
+- { setname: feedreader,               name: feedreader-beta, weak_devel: true, nolegacy: true }
 - { setname: fend,                     name: "rust:fend" }
 - { setname: fet.sh,                   name: [fetsh, fet-sh] }
 - { setname: fetch-crl,                name: fetch-crl3 }
@@ -37,7 +37,7 @@
 - { setname: ffcall,                   name: libffcall }
 - { setname: ffmpeg,                   name: [ffmpeg-svt,ffmpeg-shared,ffmpeg-vaapi-crop,ffmpeg-amd-full], addflavor: true }
 - { setname: ffmpeg,                   name: ffmpeg063-static, addflavor: static }
-- { setname: ffmpeg,                   name: [ffmpeg-git,ffmpeg-git-nc,ffmpeg-nightly], weak_devel: true }
+- { setname: ffmpeg,                   name: [ffmpeg-git,ffmpeg-git-nc,ffmpeg-nightly], weak_devel: true, nolegacy: true }
 - { setname: ffmpeg-normalize,         name: "python:ffmpeg-normalize" }
 - { setname: ffms2,                    name: [ffmpegsource, ffms] }
 - { setname: fftw,                     name: [fftwf,fftw-avx,fftw-static] }
@@ -45,7 +45,7 @@
 - { setname: fgfs-atlas,               name: flightgear-atlas }
 - { setname: fgfs-base,                name: flightgear-base }
 - { setname: fife,                     name: [fifengine,"python:fife"] }
-- { setname: fifechan,                 name: fifechan-git, weak_devel: true }
+- { setname: fifechan,                 name: fifechan-git, weak_devel: true, nolegacy: true }
 - { setname: file,                     name: libmagic, addflavor: true }
 - { setname: file-roller,              name: [file-roller-ja,file-roller-tmp,file-roller2-nn,file-roller-debug], addflavor: true }
 - { setname: file-roller,              name: legacy-file-roller }
@@ -87,7 +87,7 @@
 - { setname: flrig,                    name: flrig-docs, addflavor: true }
 - { setname: fltk,                     name: [fltk-docs,fltk-editor,fltk-games,fltk-blocks,fltk-checkers,fltk-colbrowser,fltk-sudoku], addflavor: true }
 - { setname: fltk,                     namepat: "(?:lib)?fltk[0-9.-]*" }
-- { setname: fltk,                     name: fltk-devel, weak_devel: true }
+- { setname: fltk,                     name: fltk-devel, weak_devel: true, nolegacy: true }
 - { setname: fluid-soundfont,          name: [soundfont-fluid, soundfont-fluid-src] }
 - { setname: fluid-soundfont,          name: soundfont-fluid-gm, addflavor: gm }
 - { setname: fluid-soundfont,          name: soundfont-fluid-gs, addflavor: gs }
@@ -106,7 +106,7 @@
 - { setname: fontconfig,               name: fontconfig-reference, addflavor: true }
 - { setname: fontmake,                 name: "python:fontmake" }
 - { setname: fonttools,                name: "python:fonttools" }
-- { setname: foo2js,                   name: foo2zjs-nightly, weak_devel: true }
+- { setname: foo2js,                   name: foo2zjs-nightly, weak_devel: true, nolegacy: true }
 - { setname: foobillard++,             name: foobillardplus }
 - { setname: foomatic-filterrs,        name: [foomatic-filters-cups, foomatic-filters-lprng], addflavor: true }
 - { setname: fop,                      name: [apache-fop,fop2,xmlgraphics-fop] }
@@ -115,7 +115,7 @@
 - { setname: foundationdb,             name: [foundationdb-clients,foundationdb-server], addflavor: true }
 - { setname: four-in-a-row,            name: gnome-games-four-in-a-row }
 - { setname: fox,                      name: fox-toolkit }
-- { setname: fox,                      name: [fox-devel,fox-toolkit-devel], weak_devel: true }
+- { setname: fox,                      name: [fox-devel,fox-toolkit-devel], weak_devel: true, nolegacy: true }
 - { setname: fox,                      namepat: "(?:lib)?fox[0-9.-]*" }
 - { setname: fox,                      name: [adie,calculator], wwwpart: fox-toolkit, addflavor: true } # bundled apps
 - { setname: foxdot,                   name: "python:foxdot" }
@@ -147,7 +147,7 @@
 - { setname: freeradius,               name: [freeradius-freetds,freeradius-iodbc,freeradius-krb5,freeradius-ldap,freeradius-memcached,freeradius-mysql,freeradius-perl,freeradius-pgsql,freeradius-python,freeradius-rest,freeradius-sqlite3,freeradius-unixodbc,freeradius-wpe,freeradius-yubikey], addflavor: true }
 - { setname: freeradius,               name: [freeradius-server,freeradius3,freeradius2] }
 - { setname: freerdp,                  namepat: "(?:compat-)?freerdp[0-9.-]+" }
-- { setname: freetds,                  name: freetds-devel, weak_devel: true }
+- { setname: freetds,                  name: freetds-devel, weak_devel: true, nolegacy: true }
 - { setname: freetds,                  name: [freetds-krb5,freetds-patched-enum], addflavor: true }
 - { setname: freetype,                 name: [libfreetype,freetype1,freetype2] }
 - { setname: freetype-infinality,      name: [freetype2-infinality,libfreetype-infinality] }
@@ -162,16 +162,16 @@
 - { setname: frozen-bubble,            name: frozenbubble2 }
 - { setname: frr,                      namepat: "frr[0-9.-]+" }
 - { setname: frr,                      name: frrouting }
-- { setname: fs-uae,                   name: [fs-uae-devel, fs-uae-dev], weak_devel: true }
-- { setname: fs-uae-arcade,            name: [fs-uae-arcade-devel, fs-uae-arcade-dev], weak_devel: true }
-- { setname: fs-uae-launcher,          name: [fs-uae-launcher-devel, fs-uae-launcher-dev], weak_devel: true }
+- { setname: fs-uae,                   name: [fs-uae-devel, fs-uae-dev], weak_devel: true, nolegacy: true }
+- { setname: fs-uae-arcade,            name: [fs-uae-arcade-devel, fs-uae-arcade-dev], weak_devel: true, nolegacy: true }
+- { setname: fs-uae-launcher,          name: [fs-uae-launcher-devel, fs-uae-launcher-dev], weak_devel: true, nolegacy: true }
 - { setname: fselect,                  name: "rust:fselect" }
 - { setname: fsv,                      name: fsv2 }
 - { setname: fteproxy,                 name: "python:fteproxy" }
 - { setname: ftgl,                     name: [libftgl,libftgl2] }
 - { setname: functionalplus,           name: fplus }
 - { setname: futhark,                  name: "haskell:futhark" }
-- { setname: futhark,                  name: futhark-nightly, weak_devel: true }
+- { setname: futhark,                  name: futhark-nightly, weak_devel: true, nolegacy: true }
 - { setname: fuzzylite,                name: fuzzylite5 }
 - { setname: fvwm,                     name: [fvwm1,fvwm2] }
 - { setname: fvwm,                     name: fvwm+, addflavor: true }

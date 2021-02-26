@@ -502,6 +502,16 @@ an outdated version of specific project for compatibility purposes.
 - { name: ruby-slack-notifier-1, ruleset: aur, legacy: true }
 ```
 
+#### nolegacy
+
+Set to `true` to prevent the package to ever have legacy status.
+This is useful for marking packages which declare to be of development
+version, but are never the less outdated.
+
+```yaml
+- { name: ffmpeg-git, nolegacy: true }
+```
+
 #### warning
 
 Output a given warning when matched. Useful to catch places which

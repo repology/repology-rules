@@ -384,6 +384,7 @@
     )-git
   setname: "$1"
   weak_devel: true
+  nolegacy: true
 
 - { setname: ktp-$1,                   namepat: "(?:telepathy-kde|kde4-ktp|kde5-ktp)-(.*)" }
 
@@ -401,7 +402,7 @@
 - { setname: baloo-widgets,            name: [baloo4-widgets, baloo5-widgets] }
 - { setname: oxygen-icons,             name: oxygen-icons5-svg, addflavor: svg }
 - { setname: modemmanager-qt,          name: [modemmanager-qt5,kf5-modemmanager-qt,libkf5modemmanagerqt] }
-- { setname: plasma-framework,         name: plasma-framework-git, weak_devel: true }
+- { setname: plasma-framework,         name: plasma-framework-git, weak_devel: true, nolegacy: true }
 - { setname: plasma-framework,         name: kf5-plasma }
 - { setname: kirigami,                 name: [kirigami1,kirigami2] }
 - { setname: kirigami,                 name: kirigami2-qt5, addflavor: qt5 }

@@ -14,7 +14,7 @@
 - { setname: lalsimulation,            name: ["octave:lalsimulation","python:lalsimulation"], addflavor: true }
 - { setname: lambdahack,               name: "haskell:lambdahack" }
 - { setname: lame,                     name: [libmp3lame, mp3lame] }
-- { setname: lammps,                   name: lammps-beta, weak_devel: true }
+- { setname: lammps,                   name: lammps-beta, weak_devel: true, nolegacy: true }
 - { setname: language-pack-gnome,      namepat: "language-pack-gnome-.*", ruleset: debuntu }
 - { setname: language-pack-kde,        namepat: "language-pack-kde-.*", ruleset: debuntu }
 - { setname: languagetool,             name: [libreoffice-extension-languagetool,openoffice-extension-languagetool], addflavor: true }
@@ -59,28 +59,28 @@
 - { setname: libreoffice,              namepat: "libreoffice-still-(.*)", ruleset: arch, addflavor: $1 }
 - { setname: libreoffice,              name: libreofficehelp, addflavor: help }
 - { setname: libreoffice,              name: libreofficestill }
-- { setname: libreoffice,              name: [libreoffice-dev-alpha,libreoffice-dev-beta], weak_devel: true }
+- { setname: libreoffice,              name: [libreoffice-dev-alpha,libreoffice-dev-beta], weak_devel: true, nolegacy: true }
 - { setname: libreoffice,              name: [libreoffice5-bin,libreoffice6-bin], addflavor: bin }
 - { setname: libreoffice-extension-barcode, name: barcode, ruleset: gentoo, category: app-officeext }
 - { setname: libreoffice-voikko,       name: voikko-libreoffice }
-- { setname: libressl,                 name: [libressl-devel,libressl-latest], weak_devel: true }
+- { setname: libressl,                 name: [libressl-devel,libressl-latest], weak_devel: true, nolegacy: true }
 - { setname: libressl,                 name: [libressl-netcat,libressl-static], addflavor: true }
 - { setname: libsvm,                   name: svm }
 - { setname: libtool,                  name: libtool-bin, addflavor: bin }
-- { setname: lightdm,                  name: lightdm-devel, weak_devel: true }
+- { setname: lightdm,                  name: lightdm-devel, weak_devel: true, nolegacy: true }
 - { setname: lightdm,                  name: lightdm-ubuntu, addflavor: ubuntu }
-- { setname: lightdm,                  namepat: "(liblightdm(?:-qt4|-qt5)*)-devel", addflavor: $1, weak_devel: true }
+- { setname: lightdm,                  namepat: "(liblightdm(?:-qt4|-qt5)*)-devel", addflavor: $1, weak_devel: true, nolegacy: true }
 - { setname: lightdm,                  namepat: "liblightdm(?:-qt4|-qt5|-ubuntu)*", addflavor: true }
 - { setname: lightdm,                  name: [lightdm-guest,liblightdm-qt4-guest,liblightdm-qt5-guest] }
 - { setname: lightdm-gtk-greeter,      name: [lightdm-gtk,lightdm-gtk2-greeter,lightdm-gtk3-greeter] }
-- { setname: lightdm-gtk-greeter,      name: lightdm-gtk-greeter-devel, weak_devel: true }
+- { setname: lightdm-gtk-greeter,      name: lightdm-gtk-greeter-devel, weak_devel: true, nolegacy: true }
 - { setname: lightsoff,                name: gnome-games-lightsoff }
 - { setname: lightyears,               name: 20kly }
-- { setname: lilypond,                 name: lilypond-devel-docs, addflavor: docs, weak_devel: true }
+- { setname: lilypond,                 name: lilypond-devel-docs, addflavor: docs, weak_devel: true, nolegacy: true }
 - { setname: lilypond,                 name: [lilypond-doc,lilypond-docs], addflavor: docs }
-- { setname: lilypond,                 name: lilypond-devel, weak_devel: true }
+- { setname: lilypond,                 name: lilypond-devel, weak_devel: true, nolegacy: true }
 - { setname: lilypond,                 name: lilypond-with-fonts, addflavor: true }
-- { setname: lincity-ng,               name: lincity-ng-beta, weak_devel: true }
+- { setname: lincity-ng,               name: lincity-ng-beta, weak_devel: true, nolegacy: true }
 - { setname: links,                    name: [links1,links2,links+] }
 - { setname: links,                    name: [links-g-directfb,links-gui,links-x11,links-dfb], addflavor: true }
 - { setname: linux-firmware,           name: kernel-firmware }
@@ -108,9 +108,9 @@
 - { setname: loudmouth,                name: loudmouth-ossl, addflavor: openssl }
 - { setname: love,                     namepat: "love(?:-legacy)?[0-9.-]+" }
 - { setname: love,                     name: love2d }
-- { setname: lprof,                    name: lprof-devel, weak_devel: true }
+- { setname: lprof,                    name: lprof-devel, weak_devel: true, nolegacy: true }
 - { setname: lrslib,                   name: lrs }
-- { setname: ls++,                     name: ls++-git, weak_devel: true }
+- { setname: ls++,                     name: ls++-git, weak_devel: true, nolegacy: true }
 - { setname: lsof-freebsd,             name: lsof, ruleset: freebsd } # patched version with own versioning
 - { setname: lttng-modules,            name: lttng-modules-dkms }
 - { setname: lttng-modules,            name: lttng-modules-nopage, addflavor: true }

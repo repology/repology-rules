@@ -10,7 +10,7 @@
 - { setname: tar,                      name: [gnutar,gnu-tar,gtar,tar-gnu] }
 - { setname: tar,                      name: [gtar-base,gtar-info], addflavor: true }
 - { setname: tarsnapper,               name: "python:tarsnapper" }
-- { setname: task,                     name: task-dev, weak_devel: true }
+- { setname: task,                     name: task-dev, weak_devel: true, nolegacy: true }
 - { setname: taskcoach,                name: task-coach }
 - { setname: tautulli,                 name: tautulli-beta, ignore: true }
 - { setname: tbb,                      name: [intel-tbb,libtbb,threadingbuildingblocks] }
@@ -56,7 +56,7 @@
 - { setname: termtosvg,                name: "python:termtosvg" }
 - { setname: tesseract-ocr-data,       namepat: "tesseract(?:-ocr|-data)*-(?!ocr)[a-z]{3}(?:-.*)?" }
 - { setname: tesseract-ocr-data,       name: [tesseract-tessdata,tesseract-data, tessdata] }
-- { setname: testdisk,                 name: testdisk-wip, weak_devel: true }
+- { setname: testdisk,                 name: testdisk-wip, weak_devel: true, nolegacy: true }
 - { setname: testdisk,                 name: [photorec, testdisk-photorec], addflavor: true } # distributed together https://www.cgsecurity.org/wiki/TestDisk_Download
 - { setname: testssl.sh,               name: testssl }
 - { setname: tetrinetx,                name: [tetrinet-x,tetrinet-server] }
@@ -84,13 +84,13 @@
 - { setname: thunderbird,              namepat: "thunderbird-nightly(.*)", addflavor: $1, ignore: true }
 - { setname: thunderbird,              namepat: "thunderbird[0-9.-]*" }
 - { setname: thunderbird,              namepat: "thunderbird[0-9.-]*-l10n", addflavor: l10n }
-- { setname: tidy,                     name: tidy-devel, weak_devel: true }
+- { setname: tidy,                     name: tidy-devel, weak_devel: true, nolegacy: true }
 - { setname: tidy,                     name: [html-tidy,htmltidy,tidy-html,tidy-html5,tidy-lib,tidy4,tidyhtml,tidy,tidy5,compat-tidy] }
 - { setname: tiff,                     name: [libtiff,libtiff3,libtiff4,tiff3,compat-libtiff3] }
 - { setname: tiff,                     name: tiffgt, addflavor: true }
 - { setname: tigervnc,                 name: tiger-vnc }
 - { setname: tigervnc,                 name: [tigervnc-viewer, tigervnc-client, tigervnc-server], addflavor: true }
-- { setname: tigervnc,                 name: tigervnc-devel, weak_devel: true }
+- { setname: tigervnc,                 name: tigervnc-devel, weak_devel: true, nolegacy: true }
 - { setname: tightvnc,                 name: [tightvncviewer], addflavor: viewer }
 - { setname: tightvnc,                 name: [vncviewer-jar,tightvnc-java], addflavor: java }
 - { setname: tika,                     name: apache-tika }
@@ -137,11 +137,11 @@
 - { setname: tomsfastmath,             name: libtomfastmath }
 - { setname: toot,                     name: "python:toot" }
 - { setname: topgrade,                 name: "rust:topgrade" }
-- { setname: tor,                      name: [tor-devel,tor-unstable], weak_devel: true }
+- { setname: tor,                      name: [tor-devel,tor-unstable], weak_devel: true, nolegacy: true }
 - { setname: tor,                      name: [tor-expert,tor-client], addflavor: true }
 - { setname: tor-browser,              name: torbrowser }
 - { setname: tor-browser,              name: [tor-browser-en, tor-browser-bundle-bin, tor-browser-behind-tor], addflavor: true }
-- { setname: tor-browser,              name: tor-browser-dev, weak_devel: true }
+- { setname: tor-browser,              name: tor-browser-dev, weak_devel: true, nolegacy: true }
 - { setname: torrent-file-editor,      name: [torrent-file-editor-qt4,torrent-file-editor-qt5], addflavor: true }
 - { setname: tortoisehg,               name: "python:tortoisehg" }
 - { setname: totalcommander,           name: total-commander }
@@ -152,7 +152,7 @@
 - { setname: toxcore,                  name: [toxcore-static1,toxcore-static2], addflavor: static }
 - { setname: toxcore,                  name: [c-toxcore,libtoxcore,tox-libtoxcore] } # there's some discrepancy between https://github.com/TokTok/c-toxcore and https://github.com/irungentoo/toxcore, but only the former has releases
 - { setname: tpm2-tools,               name: tpm2.0-tools, disposable: true } # past upstream naming fluctiations
-- { setname: trac,                     name: trac-devel, weak_devel: true }
+- { setname: trac,                     name: trac-devel, weak_devel: true, nolegacy: true }
 - { setname: trac,                     name: [trac10, "python:trac"] }
 - { setname: trac-mercurial,           name: trac-mercurial-plugin }
 - { setname: traceroute,               name: traceroute2 }
@@ -172,7 +172,7 @@
 - { setname: truckersmp-cli,           name: "python:truckersmp-cli" }
 - { setname: tsc,                      name: the-secret-chronicles-of-dr-m }
 - { setname: tsmuxer,                  name: linux-tsmuxer, ruleset: freebsd }
-- { setname: ttyload,                  name: ttyload-git, weak_devel: true }
+- { setname: ttyload,                  name: ttyload-git, weak_devel: true, nolegacy: true }
 - { setname: tufao,                    name: tufao0, addflavor: true }
 - { setname: tufao,                    name: tufao0-qt5, addflavor: qt5 }
 - { setname: tumbler,                  name: xfce4-tumbler }

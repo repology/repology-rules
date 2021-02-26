@@ -5,7 +5,7 @@
 - { setname: galculator,               name: galculator-gtk3, addflavor: true }
 - { setname: galera,                   namepat: "galera[0-9.-]+" }
 - { setname: gambas,                   name: [gambas2,gambas3] }
-- { setname: gambas,                   name: gambas3-devel, weak_devel: true }
+- { setname: gambas,                   name: gambas3-devel, weak_devel: true, nolegacy: true }
 - { setname: gambas,                   namepat: "gambas3-(gb-.*)", addflavor: $1 }
 - { setname: gambas,                   name: [gambas3-ide,gambas3-runtime,gambas3-script], addflavor: true }
 - { setname: gambit-c,                 name: [gambc,gambit-scheme] }
@@ -23,11 +23,11 @@
 - { setname: garlic,                   name: garlic-doc }
 - { setname: garmindev,                name: qlandkartegt-garmindev }
 - { setname: garmintools,              name: garmin-forerunner-tools }
-- { setname: gaul,                     name: gaul-devel, weak_devel: true }
+- { setname: gaul,                     name: gaul-devel, weak_devel: true, nolegacy: true }
 - { setname: gavl,                     name: libgavl }
 - { setname: gcc,                      name: [g++,gcc3-c,gcc3-c++,gcc3-f77,gcc3-objc,gcc48-libs,gcc49-libs,gcc5-libs,gcc-g++,gcc-gfortran,gcc-gnat,gcc-go,gcc-fortran,gcc-libs,gcc-libs-i686,gcc-runtime,libstdcplusplus,libgcc,libgfortran], addflavor: true }
 - { setname: gcc,                      namepat: "(?:compat-)?gcc[0-9.-]+" }
-- { setname: gcc,                      namepat: "gcc[0-9.-]+-devel", weak_devel: true }
+- { setname: gcc,                      namepat: "gcc[0-9.-]+-devel", weak_devel: true, nolegacy: true }
 - { setname: gccgo,                    namepat: "gccgo[0-9.-]+" }
 - { setname: gcide,                    name: dict-gcide }
 - { setname: gcin,                     name: gcin-gtk3, addflavor: gtk3 }
@@ -55,15 +55,15 @@
 - { setname: gearhead,                 name: gearhead1 }
 - { setname: gearhead2,                name: gearhead-2 }
 - { setname: gearmand,                 name: gearman }
-- { setname: gearmand,                 name: gearmand-devel, weak_devel: true  }
+- { setname: gearmand,                 name: gearmand-devel, weak_devel: true, nolegacy: true }
 - { setname: geckodriver,              name: geckodriver-unstable, ignore: true }
 - { setname: geckodriver,              name: selenium-gecko-driver }
 - { setname: geda-gaf,                 name: geda }
-- { setname: geda-gaf,                 name: geda-gaf-unstable, weak_devel: true }
+- { setname: geda-gaf,                 name: geda-gaf-unstable, weak_devel: true, nolegacy: true }
 - { setname: geeklog,                  name: "php71:geeklog" }
 - { setname: geeknote,                 name: "python:geeknote" }
 - { setname: geeqie,                   name: geeqie-lirc, addflavor: lirc }
-- { setname: geeqie,                   name: geeqie-devel, weak_devel: true }
+- { setname: geeqie,                   name: geeqie-devel, weak_devel: true, nolegacy: true }
 - { setname: gegl,                     namepat: "(?:lib)?gegl[0-9.-]*" }
 - { setname: gegl,                     name: gegl-unstable, ignore: true }
 - { setname: geki2,                    name: geki2-kxl, ruleset: gentoo } # XXX: recheck
@@ -106,7 +106,7 @@
 - { setname: gimagereader,             name: gimagereader-qt5, addflavor: qt5 }
 - { setname: gimp,                     name: [gimp-app,gimp-with-plugins,"python:gimp"], addflavor: true }
 - { setname: gimp,                     name: gimp2 }
-- { setname: gimp,                     name: [gimp-devel,gimp3-devel,gimp-git,gimp3,gimp-gtk3], weak_devel: true }
+- { setname: gimp,                     name: [gimp-devel,gimp3-devel,gimp-git,gimp3,gimp-gtk3], weak_devel: true, nolegacy: true }
 - { setname: gimp-docs,                namepat: "gimp-docs-.*" }
 - { setname: gimp-help,                namepat: ".*gimp-help.*" }
 - { setname: girara,                   name: libgirara }
@@ -118,7 +118,7 @@
 - { setname: git-review,               name: "python:git-review" }
 - { setname: git-review,               name: git-reveiw } # XXX: CREATE PROBLEM
 - { setname: git-revise,               name: "python:git-revise" }
-- { setname: gitea,                    name: gitea-beta, weak_devel: true }
+- { setname: gitea,                    name: gitea-beta, weak_devel: true, nolegacy: true }
 - { setname: gitflow,                  name: git-flow }
 - { setname: gitg,                     name: gitg0 }
 - { setname: github-cli,               name: gh }
@@ -179,7 +179,7 @@
 - { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9.-]*(-docs|-reference)", addflavor: docs }
 - { setname: glimpse-gimp,             name: glimpse-editor }
 - { setname: glitz,                    name: libglitz }
-- { setname: glm,                      name: glm-devel, weak_devel: true }
+- { setname: glm,                      name: glm-devel, weak_devel: true, nolegacy: true }
 - { setname: globulation2,             name: [globulation-2,glob2] }
 - { setname: glog,                     name: google-glog }
 - { setname: gloox,                    name: libgloox }
@@ -216,7 +216,7 @@
 - { setname: gnome-latex,              name: latexila } # renamed
 - { setname: gnome-mahjongg,           name: gnome-games-mahjongg }
 - { setname: gnome-menus,              name: [libgnome-menus, gnome-menus2] }
-- { setname: gnome-menus,              name: gnome-menus2-dev, weak_devel: true }
+- { setname: gnome-menus,              name: gnome-menus2-dev, weak_devel: true, nolegacy: true }
 - { setname: gnome-mines,              name: gnome-games-mines }
 - { setname: gnome-mines,              name: gnome-mines-3.12.2 }
 - { setname: gnome-nibbles,            name: gnome-games-nibbles }
@@ -238,7 +238,7 @@
 - { setname: gnu-netcat,               name: [gnetcat,netcat-gnu] }
 - { setname: gnu-radius,               name: radius, ruleset: openpkg }
 - { setname: gnu-radius,               name: gnuradius }
-- { setname: gnucash,                  name: gnucash-dev, weak_devel: true }
+- { setname: gnucash,                  name: gnucash-dev, weak_devel: true, nolegacy: true }
 - { setname: gnucash,                  name: gnucash-legacy }
 - { setname: gnucash,                  name: [gnucash-python,gnucash-xbt,gnucash-xbt-minimal], addflavor: true }
 - { setname: gnucash-docs,             name: gnucash-legacy-docs }
@@ -295,7 +295,7 @@
 - { setname: gnustep-timemon,          name: timemon }
 - { setname: gnustep-volume,           name: volume-app }
 - { setname: gnutls,                   name: [gnutls-dane,gnutls-openssl,gnutls-tiny,guile-gnutls], addflavor: true }
-- { setname: gnutls,                   name: gnutls-next, weak_devel: true }
+- { setname: gnutls,                   name: gnutls-next, weak_devel: true, nolegacy: true }
 - { setname: gnutls,                   namepat: "(?:lib)?gnutls[0-9.-]*" }
 - { setname: go-shadowsocks2,          name: [shadowsocks2, "go:shadowsocks2"] }
 - { setname: goat-sleep,               name: "rust:goat" }
@@ -306,13 +306,13 @@
 - { setname: godot,                    name: [godot-pulse,godot-tools,godot-mono,godot-engine,godot-osc,godot-headless,godot-classic], addflavor: true }
 - { setname: godot,                    name: [godot2,godot3] }
 - { setname: godot,                    name: godot2-tools, addflavor: tools }
-- { setname: godot,                    name: [godot-rc,godot-beta], weak_devel: true }
+- { setname: godot,                    name: [godot-rc,godot-beta], weak_devel: true, nolegacy: true }
 - { setname: goffice,                  name: [goffice-light,goffice-gtk2,libgoffice], addflavor: true }
 - { setname: goffice,                  namepat: "goffice[0-9.-]+" }
-- { setname: gogs,                     name: gogs-dev, weak_devel: true }
+- { setname: gogs,                     name: gogs-dev, weak_devel: true, nolegacy: true }
 - { setname: gogs,                     name: gogs0 }
 - { setname: goldencheetah,            name: golden-cheetah }
-- { setname: goldencheetah,            name: golden-cheetah-dev, weak_devel: true }
+- { setname: goldencheetah,            name: golden-cheetah-dev, weak_devel: true, nolegacy: true }
 - { setname: golint,                   name: "go:golint" }
 - { setname: gom,                      name: libgom }
 - { setname: goobook,                  name: "python:goobook" }
@@ -321,7 +321,7 @@
 - { setname: google-authenticator-libpam, name: [libpam-google-authenticator,pam-pam-google-authenticator,pam-google-authenticator] }
 - { setname: google-chrome,            name: [chrome,google-chrome-stable,googlechrome] }
 - { setname: google-chrome,            name: [google-chrome-bin, google-chrome-x64], addflavor: true }
-- { setname: google-chrome,            name: [google-chrome-beta,google-chrome-dev,google-chrome-unstable,googlechrome-betagooglechrome-canary,googlechrome-dev], weak_devel: true }
+- { setname: google-chrome,            name: [google-chrome-beta,google-chrome-dev,google-chrome-unstable,googlechrome-betagooglechrome-canary,googlechrome-dev], weak_devel: true, nolegacy: true }
 - { setname: google-earth,             name: [google-earth-stable, googleearth] }
 - { setname: google-earth-pro,         name: google-earth-pro-stable }
 - { setname: google-guice,             name: [guice,java-guice,java-guice-servlet] }
@@ -342,7 +342,7 @@
 - { setname: gprof2dot,                name: "python:gprof2dot" }
 - { setname: gprolog,                  name: gnu-prolog }
 - { setname: gpsbabel,                 name: [gpsbabel-app, gpsbabel-gui, gpsbabel14] }
-- { setname: gpsprune,                 name: gpsprune-dev-bin, addflavor: bin, weak_devel: true }
+- { setname: gpsprune,                 name: gpsprune-dev-bin, addflavor: bin, weak_devel: true, nolegacy: true }
 - { setname: gqrx,                     name: gqrx-sdr }
 - { setname: gqrx,                     name: gqrx-xtrx, addflavor: true }
 - { setname: gr-osmosdr,               name: gnuradio-osmosdr }
@@ -369,9 +369,9 @@
 - { setname: grep,                     name: [ja-grep,gnuwin32-grep], addflavor: true }
 - { setname: gridcoin-research,        name: gridcoinresearch }
 - { setname: gridcoin-research,        name: gridcoinresearch-qt, addflavor: qt }
-- { setname: gridcoin-research,        name: gridcoinresearch-qt-staging, addflavor: qt, weak_devel: true }
+- { setname: gridcoin-research,        name: gridcoinresearch-qt-staging, addflavor: qt, weak_devel: true, nolegacy: true }
 - { setname: gridcoin-research,        name: gridcoinresearchd, addflavor: d }
-- { setname: gridcoin-research,        name: gridcoinresearchd-staging, addflavor: d, weak_devel: true }
+- { setname: gridcoin-research,        name: gridcoinresearchd-staging, addflavor: d, weak_devel: true, nolegacy: true }
 - { setname: grilo,                    name: compat-grilo02 }
 - { setname: grilo,                    namepat: "grilo[0-9.-]+" }
 - { setname: grilo-plugins,            name: grilo-plugins2 }

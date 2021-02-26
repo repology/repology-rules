@@ -13,10 +13,10 @@
 - { setname: cairo-clock,              name: cairo-clock-ccw }
 - { setname: cairo-dock-plugins,       name: cairo-dock-plug-ins }
 - { setname: cairomm,                  namepat: "(?:lib)?cairomm[0-9.-]*(-docs)?", addflavor: $1 }
-- { setname: caja,                     name: caja-dev, weak_devel: true }
+- { setname: caja,                     name: caja-dev, weak_devel: true, nolegacy: true }
 - { setname: caja,                     name: caja-gtk2, addflavor: true }
 - { setname: caja-extensions,          name: [caja-extensions-common,caja-gksu,caja-image-converter,caja-open-terminal,caja-sendto,caja-share,caja-wallpaper,caja-xattr-tags], addflavor: true }
-- { setname: caja-extensions,          name: [caja-extensions-common-dev,caja-gksu-dev,caja-image-converter-dev,caja-open-terminal-dev,caja-sendto-dev,caja-share-dev,caja-wallpaper-dev,caja-xattr-tags-dev], addflavor: true, weak_devel: true }
+- { setname: caja-extensions,          name: [caja-extensions-common-dev,caja-gksu-dev,caja-image-converter-dev,caja-open-terminal-dev,caja-sendto-dev,caja-share-dev,caja-wallpaper-dev,caja-xattr-tags-dev], addflavor: true, weak_devel: true, nolegacy: true }
 - { setname: calc,                     name: [apcalc, capc-calc] }
 - { setname: calculix,                 name: [calculix-ccx,calculix-ccx-doc,calculix-ccx-test,calculix-cgx,calculix-doc,ccx,cgx], addflavor: true } # ccx and cgx are parts of, distributed separately but with same version scheme http://www.dhondt.de/
 - { setname: calibre,                  name: [calibre-debug,calibre-normal], addflavor: true }
@@ -33,7 +33,7 @@
 - { setname: capstone,                 name: capstone4 }
 - { setname: cargo,                    name: ["rust:cargo",rust-toolset-7-cargo] }
 - { setname: cargo,                    name: [cargo-completion,cargo-standalone,cargo-bootstrap,cargo-stage1], addflavor: true }
-- { setname: cargo,                    name: cargo-nightly, weak_devel: true }
+- { setname: cargo,                    name: cargo-nightly, weak_devel: true, nolegacy: true }
 - { setname: cargo-audit,              name: ["rust:cargo-audit",rust-cargo-audit] }
 - { setname: cargo-bloat,              name: ["rust:cargo-bloat",rust-cargo-bloat] }
 - { setname: cargo-c,                  name: "rust:cargo-c" }
@@ -48,7 +48,7 @@
 - { setname: catch,                    name: libcatch-cpp-headers }
 - { setname: catdoc,                   name: catdoc-tk, addflavor: true }
 - { setname: catfish,                  name: catfish-gtk3, addflavor: true }
-- { setname: catfish,                  name: catfish-devel, weak_devel: true }
+- { setname: catfish,                  name: catfish-devel, weak_devel: true, nolegacy: true }
 - { setname: cattle,                   name: cattle-1.0 }
 - { setname: cavezofphear,             name: cavez-of-phear }
 - { setname: cbatticon,                name: cbatticon-gtk2, addflavor: gtk2 }
@@ -70,7 +70,7 @@
 - { setname: cdogs-sdl,                name: [cdogs,cyberdogs-sdl,c-dogs-sdl,cdogssdl] }
 - { setname: cdparanoia,               name: cdparanoia-iii }
 - { setname: cdparanoia,               name: cdparanoia-overread, addflavor: overread }
-- { setname: cdrtools,                 name: cdrtools-devel, weak_devel: true }
+- { setname: cdrtools,                 name: cdrtools-devel, weak_devel: true, nolegacy: true }
 - { setname: ce,                       name: ce-x11, addflavor: x11 }
 - { setname: cef,                      name: [cef-minimal,cef-standard], addflavor: true }
 - { setname: cegui,                    name: [cegui-mk2, cegui-mk-2] }
@@ -79,15 +79,15 @@
 - { setname: celluloid,                name: gnome-mpv } # former name
 - { setname: celt,                     namepat: "(?:lib)?celt[0-9.-]*" }
 - { setname: centerim,                 name: [center-im,centerim5] }
-- { setname: centerim,                 name: centerim-devel, weak_devel: true }
+- { setname: centerim,                 name: centerim-devel, weak_devel: true, nolegacy: true }
 - { setname: ceph,                     namepat: "ceph[0-9.-]+" }
 - { setname: ceph,                     name: [ceph-test, cephadm, ceph-common, ceph-client], addflavor: true}
 - { setname: cernbox,                  name: cernbox-client }
 - { setname: ceti-2-theme,             name: ceti-2-themes }
 - { setname: cfengine,                 namepat: "cfengine[0-9]+" } # XXX: split?
-- { setname: cfengine,                 namepat: cfengine-devel, weak_devel: true }
+- { setname: cfengine,                 namepat: cfengine-devel, weak_devel: true, nolegacy: true }
 - { setname: cfengine-masterfiles,     namepat: "cfengine-masterfiles[0-9]+" }
-- { setname: cfengine-masterfiles,     namepat: cfengine-masterfiles-devel, weak_devel: true }
+- { setname: cfengine-masterfiles,     namepat: cfengine-masterfiles-devel, weak_devel: true, nolegacy: true }
 - { setname: cfitsio,                  name: cfitsio3 }
 - { setname: cflow,                    name: [bsdcflow,gcflow,gnucflow] } # split later
 - { setname: cfr,                      name: cfr-decompiler }
@@ -100,7 +100,7 @@
 - { setname: chaosesque-anthology,     name: chaos-esque-anthology }
 - { setname: charls,                   name: charls1 }
 - { setname: charm,                    name: charm-qt5 }
-- { setname: chatty,                   name: chatty-beta, weak_devel: true }
+- { setname: chatty,                   name: chatty-beta, weak_devel: true, nolegacy: true }
 - { setname: check-lm-sensors,         name: [nagios-check-lm-sensors, nagios-plugin-check-lm-sensors] }
 - { setname: cheese,                   name: compat-cheese314 }
 - { setname: chef,                     name: ["ruby:chef", "ruby:chef12"] }
@@ -112,7 +112,7 @@
 - { setname: chipmunk,                 name: [chipmunk6,chipmunkphysics,libchipmunk] }
 - { setname: chmlib,                   name: libchm }
 - { setname: chromaprint,              name: [chromaprint-fftw, chromaprint-tools, libchromaprint], addflavor: true }
-- { setname: chromium,                 name: [chromium-beta,chromium-dev,chromium-browser-dev], weak_devel: true }
+- { setname: chromium,                 name: [chromium-beta,chromium-dev,chromium-browser-dev], weak_devel: true, nolegacy: true }
 - { setname: chromium,                 name: [chromium-browser,chromium-browser-stable,chromium-stable] }
 - { setname: chromium,                 name: [chromium-gtk2,chromium-bin,chromium-no-extras,chromium-vaapi], addflavor: true }
 - { setname: chromium-bsu,             name: chromiumbsu }
@@ -161,7 +161,7 @@
 - { setname: cockatrice,               name: [cockatrice-client,cockatrice-server] }
 - { setname: cockpit,                  name: cockpit-minimal, addflavor: true }
 - { setname: codeblocks,               name: [codeblocks-gcc,codeblocks-full], addflavor: true }
-- { setname: codeblocks,               name: codeblocks-devel, weak_devel: true }
+- { setname: codeblocks,               name: codeblocks-devel, weak_devel: true, nolegacy: true }
 - { setname: codec2,                   name: libcodec2 }
 - { setname: codespell,                name: "python:codespell" }
 - { setname: coffee-script,            name: coffeescript } # XXX: problem
@@ -205,7 +205,7 @@
 - { setname: conky,                    name: [conky-all,conky-audacious,conky-awesome,conky-cairo,conky-cli,conky-lua,conky-lua-archers,conky-lua-nv,conky-mt,conky-nvidia,conky-utfscroll,conky-cairo-no-nvidia], addflavor: true }
 - { setname: conky,                    name: conky19-lua-nv, addflavor: lua-nv }
 - { setname: conky-manager,            name: conky-manager2 }
-- { setname: connman-ui,               name: connman-ui-git, weak_devel: true }
+- { setname: connman-ui,               name: connman-ui-git, weak_devel: true, nolegacy: true }
 - { setname: connman-ui,               name: connmanui }
 - { setname: conntrack-tools,          name: conntrack }
 - { setname: conserver,                name: conserver8 }
@@ -242,7 +242,7 @@
 - { setname: criticalmass,             name: critter }
 - { setname: cross-binutils$1,         namepat: "gnatcross-binutils(.*)", addflavor: gnat }
 - { setname: crossguid,                name: [libcrossguid,crossguid2] }
-- { setname: crossguid,                name: crossguid-git, weak_devel: true }
+- { setname: crossguid,                name: crossguid-git, weak_devel: true, nolegacy: true }
 - { setname: crossover,                name: wine-crossover }
 - { setname: crrcsim-models,           name: crrcsim-addon-models }
 - { setname: crypto++,                 name: [crypto++-562,cryptopp,libcrypto++,libcryptopp] }
@@ -266,14 +266,14 @@
 - { setname: cuda,                     name: nvidia-cuda-toolkit }
 - { setname: cuda,                     namepat: "cuda-?[0-9.]+" }
 - { setname: cudatext,                 name: [cudatext-qt5,cudatext-gtk2], addflavor: true }
-- { setname: cudatext,                 name: cudatext-beta, weak_devel: true }
+- { setname: cudatext,                 name: cudatext-beta, weak_devel: true, nolegacy: true }
 - { setname: cumulus,                  name: cumuluslanguagede, addflavor: de }
 - { setname: cuneiform,                name: cuneiform-linux }
 - { setname: cups,                     name: [cups-libs,cups-base,cups-minimal,cups-nosystemd,libcups,libcups-ipp14,cups-doc,cups-ipp14,cups-noudev,cups-pam], addflavor: true }
 - { setname: cups-filters,             name: [cups-filters-debug,cups-filters-driverless,cups-filters-patched], addflavor: true }
-- { setname: cura,                     name: cura-beta, weak_devel: true }
+- { setname: cura,                     name: cura-beta, weak_devel: true, nolegacy: true }
 - { setname: cura,                     name: [cura-old, cura-not-so-old] }
-- { setname: curaengine,               name: curaengine-beta, weak_devel: true }
+- { setname: curaengine,               name: curaengine-beta, weak_devel: true, nolegacy: true }
 - { setname: curaengine,               name: cura-engine }
 - { setname: curl,                     name: [curl-ca-bundle,curl-http2,curl-openssl,libcurl-compat,libcurl-compat-nostatic,libcurl-gnutls,libcurl-openssl-1.0,curl-ssh,curl-gnutls,curl-mini,libcurl3-gnutls,curl-http3], addflavor: true }
 - { setname: curl,                     name: [curl3, libcurl4, libcurl] }
@@ -284,7 +284,7 @@
 - { setname: cutecom,                  name: cutecom-legacy }
 - { setname: cutter-unittest,          name: [cutter-test-framework,cutter-testing-framework] }
 - { setname: cutycapt,                 name: cutycapt-qt5, addflavor: true }
-- { setname: cvs,                      name: cvs-devel, weak_devel: true }
+- { setname: cvs,                      name: cvs-devel, weak_devel: true, nolegacy: true }
 - { setname: cvsps,                    namepat: "cvsps[0-9]+" }
 - { setname: cvsweb,                   name: cvsweb3 }
 - { setname: cwiid,                    name: libcwiid }

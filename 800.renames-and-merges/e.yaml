@@ -23,13 +23,13 @@
 - { setname: edgar,                    name: [the-legend-of-edgar,legend-of-edgar,legendofedgar] }
 - { setname: ee,                       name: ee-editor }
 - { setname: eekboard,                 name: eekboard-gtk2 }
-- { setname: eggdrop,                  name: eggdrop-devel, weak_devel: true }
+- { setname: eggdrop,                  name: eggdrop-devel, weak_devel: true, nolegacy: true }
 - { setname: egoboo,                   name: egoboo-data, addflavor: true }
 - { setname: eid-mw,                   name: [beid-middleware,beid,libbeid] }
 - { setname: eid-viewer,               name: eid-viewer-bin }
 - { setname: eigen,                    namepat: "eigen[0-9.-]+(-doc)?", addflavor: $1 }
 - { setname: eigen,                    name: libeigen }
-- { setname: eigen,                    name: libeigen2-devel, weak_devel: true }
+- { setname: eigen,                    name: libeigen2-devel, weak_devel: true, nolegacy: true }
 - { setname: einstein,                 name: einstein-puzzle, ruleset: pkgsrc }
 - { setname: eiskaltdcpp,              namepat: "eiskaltdcpp-(cli|daemon|data|gtk|lib|qt|core)", addflavor: $1 }
 - { setname: eiskaltdcpp,              name: eiskaltdcplusplus }
@@ -41,7 +41,7 @@
 - { setname: electrum,                 name: "python:electrum" }
 - { setname: element-desktop,          name: [element.io, element-web, element-desktop] }
 - { setname: element-desktop,          name: [riot, riot-desktop, riot-web] } # former name
-- { setname: element-desktop,          name: [element-desktop-nightly,riot-desktop-nightly,riot-web-develop], weak_devel: true }
+- { setname: element-desktop,          name: [element-desktop-nightly,riot-desktop-nightly,riot-web-develop], weak_devel: true, nolegacy: true }
 - { setname: "elementary-$1",          namepat: "(?:pantheon-|io\\.elementary\\.)(applications-menu|calculator|calendar|camera|code|files|greeter|icons|music|photos|print|screenshot|shortcut-overlay|stylesheet|terminal|videos)" }
 - { setname: elementary-applications-menu, name: wingpanel-applications-menu }
 - { setname: elementary-screenshot,    name: elementary-screenshot-tool }
@@ -57,8 +57,8 @@
 - { setname: elmerfem,                 name: elmer-fem }
 - { setname: elvis,                    name: elvis-x11 }
 - { setname: emacs,                    name: [emacs-24bit,emacs-nox,emacs-docs,emacs-minimal,emacs-no-x-toolkit,emacs-nox-24bit,emacs-canna], addflavor: true }
-- { setname: emacs,                    name: [emacs-devel,emacs-git], weak_devel: true }
-- { setname: emacs,                    name: [emacs-devel-nox], addflavor: nox11, weak_devel: true }
+- { setname: emacs,                    name: [emacs-devel,emacs-git], weak_devel: true, nolegacy: true }
+- { setname: emacs,                    name: [emacs-devel-nox], addflavor: nox11, weak_devel: true, nolegacy: true }
 - { setname: emacs,                    name: emacs-git-gtk2, addflavor: gtk2, ignore: true }
 - { setname: emacs,                    namepat: "emacs[0-9.-]+(-non-dfsg)?" }
 - { setname: emacs-lua-mode,           name: emacs-lua }
@@ -84,7 +84,7 @@
 - { setname: enet,                     name: [libenet,enet1.2] }
 - { setname: engauge,                  name: [engauge-digitizer,engauge-samples], addflavor: true }
 - { setname: engauge,                  name: digitzer } # t2; XXX: problem (misspelled name as well)
-- { setname: engrampa,                 name: engrampa-dev, weak_devel: true }
+- { setname: engrampa,                 name: engrampa-dev, weak_devel: true, nolegacy: true }
 - { setname: engrampa,                 name: engrampa-gtk2, addflavor: true }
 - { setname: enigma,                   name: enigma-sdl }
 - { setname: enigma-sgtatham,          name: enygma, ruleset: freebsd }
@@ -94,7 +94,7 @@
 - { setname: entagged,                 name: entagged-tageditor, ruleset: gentoo }
 - { setname: environment-modules,      name: [modules,env-modules,env-modules-tcl] }
 - { setname: envoy-proxy,              name: envoyproxy }
-- { setname: eom,                      name: eom-dev, weak_devel: true }
+- { setname: eom,                      name: eom-dev, weak_devel: true, nolegacy: true }
 - { setname: eom,                      name: eom-gtk2, addflavor: true }
 - { setname: eot-utils,                name: eot-utilities }
 - { setname: ephoto,                   name: ephoto-git, ignore: true }
@@ -132,25 +132,25 @@
 - { setname: eureka-ideas,             name: "rust:eureka" }
 - { setname: eventlog,                 name: libevtlog }
 - { setname: everything,               name: everythingse, addflavor: true }
-- { setname: everything,               name: everything.beta, weak_devel: true }
+- { setname: everything,               name: everything.beta, weak_devel: true, nolegacy: true }
 - { setname: evince,                   name: [evince-light,evince-lite,evince2,evince2-light,evince-no-gnome,evince-lcdfilter] }
 - { setname: evolus-pencil,            name: evoluspencil }
 - { setname: evopedia,                 name: evopedia-qt, addflavor: qt }
 - { setname: exa,                      name: "rust:exa" }
 - { setname: exabayes,                 name: exabayes-mpi, addflavor: true }
 - { setname: exact-image,              name: exactimage }
-- { setname: exaile,                   name: exaile-devel, weak_devel: true }
+- { setname: exaile,                   name: exaile-devel, weak_devel: true, nolegacy: true }
 - { setname: excalibar,                name: libexcalibar, addflavor: lib }
 - { setname: exempi,                   name: libexempi }
 - { setname: exercism-cli,             name: [exercism,"go:github-exercism-cli"] }
 - { setname: exiftool,                 name: [image-exiftool, "perl:image-exiftool"] }
-- { setname: exiftool,                 name: "perl:image-exiftool-devel", weak_devel: true }
+- { setname: exiftool,                 name: "perl:image-exiftool-devel", weak_devel: true, nolegacy: true }
 - { setname: exim,                     name: exim4 }
 - { setname: exim,                     name: [exim-doc, exim-doc-html, exim-doc-pdf, exim-doc-postscript, eximdoc4, exim-html], addflavor: true }
 - { setname: exim,                     name: [exim-gnutls, exim-heavy, exim-monitor, exim-mysql, exim-postgresql, exim-ldap2, exim-sqlite, exim-sa-exim], addflavor: true }
 - { setname: exiv2,                    namepat: "compat-exiv2-[0-9]+" }
 - { setname: exo,                      name: [libexo, xfce4-exo] }
-- { setname: exo,                      name: exo-devel, weak_devel: true }
+- { setname: exo,                      name: exo-devel, weak_devel: true, nolegacy: true }
 - { setname: exo,                      name: exo-gtk3, addflavor: true }
 - { setname: exosip,                   name: [libexosip,libexosip2,exosip2] }
 - { setname: expat,                    namepat: "(?:compat-)?(?:lib)?expat[0-9.-]*" }

@@ -37,7 +37,7 @@
 - { setname: qt-virt-manager,          name: virt-manager-qt }
 - { setname: qtbinpatcher,             name: [qtbinpatcher-x64,qtbinpatcher-x86], addflavor: true }
 - { setname: qtcreator,                name: [qt-creator,qt-creator-qt4,qt-creator2,qt4-creator,qtcreator-src,libqt5-creator,qt5-qtcreator,qt5-qtcreator-docs,qtcreator-debug], addflavor: true }
-- { setname: qtcreator,                name: qtcreator-prerelease, weak_devel: true }
+- { setname: qtcreator,                name: qtcreator-prerelease, weak_devel: true, nolegacy: true }
 - { setname: qtcreator,                namepat: "qt-?creator[0-9]*", addflavor: true }
 - { setname: qtdmm,                    name: qtdmm-qt5, addflavor: true }
 - { setname: qtermwidget,              namepat: "qtermwidget[0-9.-]+" }
@@ -45,7 +45,7 @@
 - { setname: qtermwidget,              name: qtermwidget-qt5, addflavor: qt5 }
 - { setname: qtkeychain,               name: [qt4-qtkeychain,qt5-qtkeychain,qt5keychain,qtkeychain-qt4,qtkeychain-qt5,qt5-keychain,libqtkeychain], addflavor: true }
 - { setname: qtoctave,                 name: qtoctave-mac }
-- { setname: qtox,                     name: qtox-alpha, weak_devel: true }
+- { setname: qtox,                     name: qtox-alpha, weak_devel: true, nolegacy: true }
 - { setname: qtpbfimageplugin,         name: [qt5-pbfimageplugin,libqt5-qtpbfimageformat,qt5-qtpbfimageformat] }
 - { setname: quadrapassel,             name: gnome-games-quadrapassel }
 - { setname: quake3,                   name: linux-quake3, ruleset: freebsd }

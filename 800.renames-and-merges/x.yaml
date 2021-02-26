@@ -4,12 +4,12 @@
 - { setname: x264,                     name: [libx264-10bit,x264-10bit], addflavor: 10bit }
 - { setname: x264,                     name: libx264-all, addflavor: all }
 - { setname: x264,                     name: x264-encoder, addflavor: encoder }
-- { setname: x264,                     name: libx264-devel, weak_devel: true }
-- { setname: x264,                     name: x264-devel, weak_devel: true }
+- { setname: x264,                     name: libx264-devel, weak_devel: true, nolegacy: true }
+- { setname: x264,                     name: x264-devel, weak_devel: true, nolegacy: true }
 - { setname: x265,                     name: libx265 }
 - { setname: x2goclient,               name: x2goclient-qt5, addflavor: true }
 - { setname: x2vnc,                    name: x2vnc-no-xinerama, addflavor: true }
-- { setname: x2x,                      name: x2x-git, weak_devel: true }
+- { setname: x2x,                      name: x2x-git, weak_devel: true, nolegacy: true }
 - { setname: x42-plugins,              name: [lv2-x42-plugins,x42-plugins-lv2] }
 - { setname: xa,                       name: xa65 }
 - { setname: xalan,                    name: xalan-serializer, addflavor: true } # triaged into -c/-j in 850
@@ -36,7 +36,7 @@
 - { setname: xawtv,                    name: xawtv4 }
 - { setname: xbase,                    name: [libxbase,xbase64] }
 - { setname: xcb-proto,                name: libxcbutil-proto }
-- { setname: xcb-proto,                name: xorg-xcbproto-devel, weak_devel: true }
+- { setname: xcb-proto,                name: xorg-xcbproto-devel, weak_devel: true, nolegacy: true }
 - { setname: xcb-util,                 name: xcb-util036 }
 - { setname: xcb-util$1,               namepat: "libxcbutil(.*)" }
 - { setname: xcb-util-keysyms,         name: xcb-util-keysyms1 }
@@ -56,11 +56,11 @@
 - { setname: xfce4-whiskermenu-plugin, name: [xfce4-whiskermenu-plugin-gtk2,xfce4-whiskermenu-plugin-gtk3], addflavor: true }
 - { setname: xfconf,                   name: [xfce4-conf,xfce4-config,xfconf4.12] }
 - { setname: xfconf,                   name: libxfconf, addflavor: lib }
-- { setname: xfconf,                   name: xfconf-devel, weak_devel: true }
+- { setname: xfconf,                   name: xfconf-devel, weak_devel: true, nolegacy: true }
 - { setname: xfconf,                   name: xfconf-gtk3, addflavor: gtk3 }
 - { setname: xfdashboard,              name: xfce4-dashboard }
 - { setname: xfdesktop,                name: [xfdesktop4,xfce4-desktop] }
-- { setname: xfdesktop,                name: xfdesktop-devel, weak_devel: true }
+- { setname: xfdesktop,                name: xfdesktop-devel, weak_devel: true, nolegacy: true }
 - { setname: xfdesktop,                name: xfdesktop-gtk3, addflavor: gtk3 }
 - { setname: xgboost,                  name: ["python:xgboost"], addflavor: true }
 - { setname: xine-lib,                 name: [xine-lib-1.2,xine-lib1.2,libxine,libxine2] }
@@ -91,11 +91,11 @@
 - { setname: xplayer-plparser,         name: libxplayer-plparser }
 - { setname: xproxymanagementprotocol, name: xproxymngproto }
 - { setname: xrdb,                     name: xorg-xrdb-mcpp, addflavor: mcpp }
-- { setname: xrdp,                     name: xrdp-devel, weak_devel: true }
+- { setname: xrdp,                     name: xrdp-devel, weak_devel: true, nolegacy: true }
 - { setname: xsel,                     name: xsel-conrad }
 - { setname: xtrans,                   name: xorg-xtransproto } # ravenports manually split this out of xtrans
-- { setname: xtrans,                   name: xtrans-devel, weak_devel: true }
-- { setname: xulrunner,                name: xulrunner-devel, weak_devel: true }
+- { setname: xtrans,                   name: xtrans-devel, weak_devel: true, nolegacy: true }
+- { setname: xulrunner,                name: xulrunner-devel, weak_devel: true, nolegacy: true }
 - { setname: xulrunner,                namepat: "xulrunner[0-9.-]+" }
 - { setname: xvidcore,                 name: [xvid,libxvid,libxvidcore] }
 - { setname: xvideoservicethief,       name: xvsd }

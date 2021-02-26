@@ -1,12 +1,12 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { setname: h2o,                      name: h2o-devel, weak_devel: true }
+- { setname: h2o,                      name: h2o-devel, weak_devel: true, nolegacy: true }
 - { setname: hadoop,                   name: hadoop2 }
 - { setname: haiti,                    name: ["ruby:haiti-hash", haiti-hash] }
 - { setname: handbrake,                name: [handbrake-cli,handbrake-fdkaac,handbrakecli], addflavor: true }
 - { setname: hangups,                  name: "python:hangups" }
 - { setname: haproxy,                  namepat: "haproxy[0-9.-]*" }
-- { setname: haproxy,                  name: haproxy-devel, weak_devel: true }
+- { setname: haproxy,                  name: haproxy-devel, weak_devel: true, nolegacy: true }
 - { setname: haraka,                   name: "node:haraka" }
 - { setname: harfbuzz,                 name: [harfbuzz-icu,harfbuzz-hb-view], addflavor: true }
 - { setname: hashcat,                  name: hashcat-legacy }
@@ -31,7 +31,7 @@
 - { setname: hg-evolve,                name: "python:$0" }
 - { setname: hgflow,                   name: hg-flow }
 - { setname: hibernate,                name: [hibernate3, hibernate4, hibernate5, "java:hibernate3"] }
-- { setname: hibiscus,                 name: hibiscus-nightly, weak_devel: true }
+- { setname: hibiscus,                 name: hibiscus-nightly, weak_devel: true, nolegacy: true }
 - { setname: hidapi,                   name: libhidapi }
 - { setname: higan,                    name: higan-qt, addflavor: true }
 - { setname: hiredis,                  name: hiredis0.12 }

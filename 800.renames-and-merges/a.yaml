@@ -68,7 +68,7 @@
 - { setname: agda-stdlib,              name: "haskell:agda-stdlib" }
 - { setname: agg,                      name: antigraingeometry }
 - { setname: agg,                      name: libagg }
-- { setname: aircrack-ng,              name: aircrack-ng-beta, weak_devel: true }
+- { setname: aircrack-ng,              name: aircrack-ng-beta, weak_devel: true, nolegacy: true }
 - { setname: airspy,                   name: [airspy-host, airspyone-host] }
 - { setname: aisleriot,                name: gnome-games-aisleriot }
 - { setname: akode,                    name: [akode-plugins-alsa,akode-plugins-jack,akode-plugins-mpc,akode-plugins-mpeg,akode-plugins-oss,akode-plugins-pulseaudio,akode-plugins-resampler,akode-plugins-sun,akode-plugins-xiph], addflavor: true }
@@ -89,12 +89,12 @@
 - { setname: alkimia,                  name: [alkimia-qt5,libalkimia-qt5], addflavor: qt5 }
 - { setname: allacrost,                name: hero-of-allacrost }
 - { setname: allegro,                  namepat: "allegro[0-9.-]*" }
-- { setname: allegro,                  namepat: "allegro[0-9.-]*-devel", weak_devel: true }
+- { setname: allegro,                  namepat: "allegro[0-9.-]*-devel", weak_devel: true, nolegacy: true }
 - { setname: allureofthestars,         name: allure-of-the-stars }
 - { setname: allureofthestars,         name: "haskell:allure" }
 - { setname: alogg,                    name: [liballegroogg,allegroogg] }
 - { setname: alpine,                   name: alpine-fancythreading, addflavor: true }
-- { setname: alsa-lib,                 name: alsa-lib-devel, weak_devel: true }
+- { setname: alsa-lib,                 name: alsa-lib-devel, weak_devel: true, nolegacy: true }
 - { setname: alsa-lib,                 name: [alsa,libalsa,libalsa2] }
 - { setname: alsa-lib,                 name: alsa-lib-noassertion, addflavor: true }
 - { setname: alsa-plugins,             name: [alsa-plugins-pulse,alsa-plugins-pulseaudio], addflavor: pulse }
@@ -109,7 +109,7 @@
 - { setname: amp-editor,               name: "rust:amp" }
 - { setname: ampy,                     name: ["python:adafruit-ampy","python:ampy",adafruit-ampy], wwwpart: adafruit }
 - { setname: amule,                    name: [amule-daemon,amule-gui], addflavor: true }
-- { setname: amule,                    name: amule-devel, weak_devel: true }
+- { setname: amule,                    name: amule-devel, weak_devel: true, nolegacy: true }
 - { setname: amzn-drivers,             name: [ena, dkms-ena], addflavor: true }
 - { setname: anacron2,                 name: anacron, verpat: "2\\.[4-9].*" } # different project (a fork?)
 - { setname: android-file-transfer,    name: [android-file-transfer-linux,android-file-transfer-qt4,android-file-transfer-qt5], addflavor: true }
@@ -159,7 +159,7 @@
 - { setname: apr-util,                 namepat: "(?:lib)?apr-?util[0-9.-]*" }
 - { setname: aptana-studio,            name: aptanastudio }
 - { setname: aqbanking,                namepat: "(?:lib)?aqbanking[0-9]*(-(?:gtk)[0-9]*)?", addflavor: $1 }
-- { setname: aqbanking,                namepat: "(?:lib)?aqbanking[0-9]*(-(?:gtk)[0-9]*)?(?:-svn|-devel)", addflavor: $1, weak_devel: true }
+- { setname: aqbanking,                namepat: "(?:lib)?aqbanking[0-9]*(-(?:gtk)[0-9]*)?(?:-svn|-devel)", addflavor: $1, weak_devel: true, nolegacy: true }
 - { setname: aqmoney,                  name: aqmoney2 }
 - { setname: aquaria,                  name: aquaria-ose }
 - { setname: arangodb,                 namepat: "arangodb[0-9.-]+" }
@@ -172,7 +172,7 @@
 - { setname: archiva,                  name: apache-archiva }
 - { setname: ardour,                   namepat: "ardour[0-9]+" }
 - { setname: arduino,                  namepat: "arduino[0-9.-]+" }
-- { setname: areca,                    name: areca-beta, weak_devel: true }
+- { setname: areca,                    name: areca-beta, weak_devel: true, nolegacy: true }
 - { setname: areca-backup,             name: arecabackup }
 - { setname: arena-tracker,            name: arenatracker }
 - { setname: ares,                     name: libares }
@@ -208,7 +208,7 @@
 - { setname: astroid,                  name: astroid2 }
 - { setname: astromenace,              name: openastromenace }
 - { setname: astromenace,              name: astromenace-data, addflavor: data }
-- { setname: astromenace,              name: openastromenace-devel, weak_devel: true }
+- { setname: astromenace,              name: openastromenace-devel, weak_devel: true, nolegacy: true }
 - { setname: astrometry,               name: [astrometrynet,astrometry.net] }
 - { setname: asylum,                   name: sdl-asylum }
 - { setname: async-http-client,        name: async-http-client1 }
@@ -222,16 +222,16 @@
 - { setname: atkmm,                    namepat: "(?:lib)?atkmm[0-9.-]*(-docs)", addflavor: docs }
 - { setname: atlas,                    name: [atlas-with-lapack,atlas-lapack,atlas-lapack-for-flexiblas], addflavor: true }
 - { setname: atlas,                    name: [atlas-math, libatlas3] }
-- { setname: atlas,                    name: atlas-devel, weak_devel: true }
+- { setname: atlas,                    name: atlas-devel, weak_devel: true, nolegacy: true }
 - { setname: atlas-c++,                name: [atlas-cpp,atlascpp,libatlascpp] }
-- { setname: atom,                     name: [atom-beta,atom-editor-beta], weak_devel: true }
+- { setname: atom,                     name: [atom-beta,atom-editor-beta], weak_devel: true, nolegacy: true }
 - { setname: atom,                     name: [atom-editor,atom-ide] }
 - { setname: atom,                     name: [atom-amd64,atom-bin], addflavor: true }
 - { setname: atom,                     name: [atom-transparent,atom-editor-transparent], addflavor: transparent }
 - { setname: atomix,                   name: gnome-games-atomix }
 - { setname: atop-freebsd,             name: atop, ruleset: freebsd } # fork
 - { setname: atril,                    name: mate-atril }
-- { setname: atril,                    name: atril-dev, weak_devel: true }
+- { setname: atril,                    name: atril-dev, weak_devel: true, nolegacy: true }
 - { setname: atril,                    name: [atril-gtk2, atril-lite, atril-nocaja-gtk2, atril-gtk], addflavor: true }
 - { setname: ats$1,                    namepat: "ats2(.*)" }
 - { setname: atspkg,                   name: "haskell:ats-pkg" }

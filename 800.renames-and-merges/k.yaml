@@ -21,10 +21,10 @@
 - { setname: kea,                      name: isc-kea }
 - { setname: keepass,                  name: keepass2 }
 - { setname: keepasshttp,              name: [keepass-keepasshttp,keepass-plugin-http,keepass-plugin-keepasshttp,keepass2-plugin-keepasshttp] } # XXX: other plugins may need this; also may need better scheme (keepass:...?)
-- { setname: keepassx,                 name: keepassx-devel, weak_devel: true }
+- { setname: keepassx,                 name: keepassx-devel, weak_devel: true, nolegacy: true }
 - { setname: keepassx,                 namepat: "keepassx[0-9]*" }
 - { setname: key,                      name: key-logic }
-- { setname: key,                      name: key-nightly, weak_devel: true }
+- { setname: key,                      name: key-nightly, weak_devel: true, nolegacy: true }
 - { setname: keybase-client,           name: keybase-desktop }
 - { setname: keybinder,                namepat: "(lib)?keybinder[0-9.-]*", addflavor: $1 }
 - { setname: keybinder,                name: [keybinder-gtk3,keybinder-python,"lua:keybinder","python:keybinder","python:keybinder2"], addflavor: true }
@@ -33,18 +33,18 @@
 - { setname: kibana,                   name: kibana-bin }
 - { setname: kibana,                   namepat: "kibana[0-9]+" }
 - { setname: kibi,                     name: "rust:kibi" }
-- { setname: kicad,                    name: kicad-devel, weak_devel: true }
-- { setname: kicad,                    name: kicad-rc, weak_devel: true }
+- { setname: kicad,                    name: kicad-devel, weak_devel: true, nolegacy: true }
+- { setname: kicad,                    name: kicad-rc, weak_devel: true, nolegacy: true }
 - { setname: kicad-doc,                name: kicad-docs }
 - { setname: kicad-footprints,         name: kicad-library-footprints }
-- { setname: kicad-footprints,         name: kicad-library-footprints-devel, weak_devel: true }
+- { setname: kicad-footprints,         name: kicad-library-footprints-devel, weak_devel: true, nolegacy: true }
 - { setname: kicad-library,            name: kicad-lib }
 - { setname: kicad-packages3d,         name: kicad-library-packages3d }
-- { setname: kicad-packages3d,         name: kicad-library-packages3d-devel, weak_devel: true }
+- { setname: kicad-packages3d,         name: kicad-library-packages3d-devel, weak_devel: true, nolegacy: true }
 - { setname: kicad-symbols,            name: kicad-library-symbols }
-- { setname: kicad-symbols,            name: kicad-library-symbols-devel, weak_devel: true }
+- { setname: kicad-symbols,            name: kicad-library-symbols-devel, weak_devel: true, nolegacy: true }
 - { setname: kicad-templates,          name: kicad-library-tmpl }
-- { setname: kicad-templates,          name: kicad-library-tmpl-devel, weak_devel: true }
+- { setname: kicad-templates,          name: kicad-library-tmpl-devel, weak_devel: true, nolegacy: true }
 - { setname: kid3,                     name: [kid3-qt,kid3-qt4,kid3-qt5,kid4-qt,kid3-cli] }
 - { setname: kiki,                     name: kiki-the-nano-bot }
 - { setname: kipi-plugins,             namepat: "kipi-plugin-.*", ruleset: freebsd }
@@ -61,7 +61,7 @@
 - { setname: koffice-l10n,             namepat: "koffice-l10n-.*", ruleset: pkgsrc }
 - { setname: kompozer-i18n,            namepat: "kompozer-i18n-.*", ruleset: arch }
 - { setname: kondo,                    name: "rust:kondo" }
-- { setname: kongress,                 name: kongress-git, weak_devel: true }
+- { setname: kongress,                 name: kongress-git, weak_devel: true, nolegacy: true }
 - { setname: kora-icon-theme,          name: korla-icon-theme } # renamed
 - { setname: kotlin,                   name: kotlin-bin, addflavor: true }
 - { setname: kpat,                     name: kpatience } # XXX: problem
@@ -71,13 +71,13 @@
 - { setname: krb5,                     namepat: "krb5-[0-9]+" }
 - { setname: krb5,                     name: [libkrb5,krb5-mini], addflavor: true }
 - { setname: krb5,                     name: [mit-krb5,kerberos5,kerberos,mit-kerberos,mitkerberos] }
-- { setname: krb5,                     name: krb5-devel, weak_devel: true }
+- { setname: krb5,                     name: krb5-devel, weak_devel: true, nolegacy: true }
 - { setname: krb5-appl,                name: mit-krb5-appl }
 - { setname: krita,                    namepat: "krita[0-9.-]+" }
 - { setname: krita,                    name: krita-beta, ignore: true }
 - { setname: krita,                    name: krita-minimal, addflavor: minimal }
 - { setname: ksh,                      name: ksh93 }
-- { setname: ksh,                      name: ksh93-devel, weak_devel: true }
+- { setname: ksh,                      name: ksh93-devel, weak_devel: true, nolegacy: true }
 - { setname: ksh,                      name: ast-ksh }
 - { setname: ksh,                      name: static-ast-ksh, addflavor: static }
 - { setname: ktechlab,                 name: ktechlab-qt5 }
@@ -90,7 +90,7 @@
 - { setname: kubernetes,               name: kubernetes-cli, addflavor: cli }
 - { setname: kubernetes-helm,          name: [kubernetes-helm2,kubernetes-helm3] }
 - { setname: kvirc,                    name: kvirc-qt4, addflavor: true }
-- { setname: kvirc,                    name: kvirc-git-nokde, weak_devel: true, addflavor: nokde }
+- { setname: kvirc,                    name: kvirc-git-nokde, weak_devel: true, nolegacy: true, addflavor: nokde }
 - { setname: kxml,                     name: kxml2 }
 - { setname: kye,                      name: "python:kye" }
 - { setname: kyotocabinet,             name: kyoto-cabinet }

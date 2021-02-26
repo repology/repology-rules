@@ -9,25 +9,25 @@
 - { setname: nvidia,                   name: module-nvidia-current }
 - { setname: nvidia,                   namepat: "nvidia\\+[0-9]*" }
 - { setname: nvidia,                   namepat: "nvidia[x0-9.-]*(-ck|-kmod|-lqx|-rt|-utils|-dkms|-glx-driver)?(?:-lts[0-9]*|-next)?", addflavor: $1 }
-- { setname: nvidia,                   name: nvidia-beta, weak_devel: true }
-- { setname: nvidia,                   name: nvidia-beta-all, weak_devel: true, addflavor: all }
-- { setname: nvidia,                   name: nvidia-beta-dkms, weak_devel: true }
-- { setname: nvidia,                   name: nvidia-beta-driver, weak_devel: true }
+- { setname: nvidia,                   name: nvidia-beta, weak_devel: true, nolegacy: true }
+- { setname: nvidia,                   name: nvidia-beta-all, weak_devel: true, nolegacy: true, addflavor: all }
+- { setname: nvidia,                   name: nvidia-beta-dkms, weak_devel: true, nolegacy: true }
+- { setname: nvidia,                   name: nvidia-beta-driver, weak_devel: true, nolegacy: true }
 - { setname: nvidia,                   name: nvidia-ck, addflavor: true }
 - { setname: nvidia,                   name: nvidia-ck-fbcondecor, addflavor: true }
-- { setname: nvidia,                   name: nvidia-current, weak_devel: true }
-- { setname: nvidia,                   name: nvidia-developer-driver, weak_devel: true }
+- { setname: nvidia,                   name: nvidia-current, weak_devel: true, nolegacy: true }
+- { setname: nvidia,                   name: nvidia-developer-driver, weak_devel: true, nolegacy: true }
 - { setname: nvidia,                   namepat: "nvidia-drivers?[x0-9.-]*" }
 - { setname: nvidia,                   name: nvidia-fbcondecor, addflavor: true }
-- { setname: nvidia,                   name: nvidia-full-beta, weak_devel: true }
-- { setname: nvidia,                   name: nvidia-full-beta-all, weak_devel: true, addflavor: all }
+- { setname: nvidia,                   name: nvidia-full-beta, weak_devel: true, nolegacy: true }
+- { setname: nvidia,                   name: nvidia-full-beta-all, weak_devel: true, nolegacy: true, addflavor: all }
 - { setname: nvidia,                   name: nvidia-full-vulkan-all, addflavor: true }
 - { setname: nvidia,                   name: nvidia-glx-common, addflavor: glx }
 - { setname: nvidia,                   name: nvidia-glx-driver, addflavor: glx }
 - { setname: nvidia,                   namepat: "nvidia-glx-src[x0-9.-]*", addflavor: glx-src }
 - { setname: nvidia,                   namepat: "nvidia-graphics-drivers[0-9.-]*" }
 - { setname: nvidia,                   namepat: "nvidia-graphics-drivers[0-9.-]*-updates", addflavor: updates }
-- { setname: nvidia,                   namepat: "nvidia-graphics-drivers-experimental[x0-9.-]*", weak_devel: true }
+- { setname: nvidia,                   namepat: "nvidia-graphics-drivers-experimental[x0-9.-]*", weak_devel: true, nolegacy: true }
 - { setname: nvidia,                   namepat: "nvidia-graphics-drivers-legacy[x0-9.-]*" }
 - { setname: nvidia,                   name: nvidia-graphics-drivers-updates, addflavor: updates }
 - { setname: nvidia,                   name: nvidia-graphics-modules }
@@ -42,18 +42,18 @@
 - { setname: nvidia,                   name: nvidia-pae, addflavor: true }
 - { setname: nvidia,                   name: nvidia-pf, addflavor: true }
 - { setname: nvidia,                   name: nvidia-rt, addflavor: true }
-- { setname: nvidia,                   name: nvidia-sl, weak_devel: true }
+- { setname: nvidia,                   name: nvidia-sl, weak_devel: true, nolegacy: true }
 - { setname: nvidia,                   name: nvidia-tesla, addflavor: true }
 - { setname: nvidia,                   name: nvidia-tesla-utils, addflavor: true }
 - { setname: nvidia,                   name: nvidia-tomoyo, addflavor: true }
 - { setname: nvidia,                   name: nvidia-userspace, addflavor: true }
 - { setname: nvidia,                   name: nvidia-utils, addflavor: true }
 - { setname: nvidia,                   name: nvidia-utils-352, addflavor: utils }
-- { setname: nvidia,                   name: nvidia-utils-beta, addflavor: utils, weak_devel: true }
+- { setname: nvidia,                   name: nvidia-utils-beta, addflavor: utils, weak_devel: true, nolegacy: true }
 - { setname: nvidia,                   name: nvidia-utils-llb, addflavor: utils }
-- { setname: nvidia,                   name: nvidia-utils-vulkan-developer-beta, addflavor: true, weak_devel: true }
+- { setname: nvidia,                   name: nvidia-utils-vulkan-developer-beta, addflavor: true, weak_devel: true, nolegacy: true }
 - { setname: nvidia,                   name: nvidia-vulkan, addflavor: true }
-- { setname: nvidia,                   name: nvidia-vulkan-developer-beta, addflavor: true, weak_devel: true }
+- { setname: nvidia,                   name: nvidia-vulkan-developer-beta, addflavor: true, weak_devel: true, nolegacy: true }
 - { setname: nvidia,                   name: nvidia-x11 }
 - { setname: nvidia,                   namepat: "nvidia-x11-drv[x0-9.-]*" }
 - { setname: nvidia,                   name: nvidia-zen, addflavor: true }

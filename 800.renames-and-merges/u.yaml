@@ -23,7 +23,7 @@
 - { setname: unar,                     name: unarchiver }
 - { setname: unarr,                    name: libunarr }
 - { setname: unbound,                  name: [libunbound,"python:unbound",pyunbound,unbound-ecs], addflavor: true }
-- { setname: unbound,                  name: libunbound-devel-mini, addflavor: true, weak_devel: true }
+- { setname: unbound,                  name: libunbound-devel-mini, addflavor: true, weak_devel: true, nolegacy: true }
 - { setname: unburden-home-dir,        name: "perl:unburden-home-dir" }
 - { setname: unclutter,                name: unclutter-patched, addflavor: true }
 - { setname: uncrustify,               name: uncrustify0.60 }
@@ -32,10 +32,10 @@
 - { setname: unicorn-engine,           name: ["python:unicorn", unicorn-emulator] }
 - { setname: unicorn-engine,           name: unicorn-bindings, addflavor: bindings }
 - { setname: unifi,                    name: [unifi5, unifi6, ubiquiti-unifi-controller, unifi-controller] }
-- { setname: unifi,                    name: [unifi-beta, unifi-devel], weak_devel: true }
+- { setname: unifi,                    name: [unifi-beta, unifi-devel], weak_devel: true, nolegacy: true }
 - { setname: unigine-heaven,           name: linux-unigine-heaven, ruleset: freebsd }
 - { setname: unigine-valley,           name: linux-unigine-valley, ruleset: freebsd }
-- { setname: unison,                   name: unison-devel, weak_devel: true }
+- { setname: unison,                   name: unison-devel, weak_devel: true, nolegacy: true }
 - { setname: unison,                   namepat: "unison([0-9.-]*)(?:-compat)?" }
 - { setname: unit,                     name: [nginx-unit, nginx-unitd] }
 - { setname: unit,                     namepat: "(?:nginx-)?unit-((?:go|php|python|perl)[0-9.-]*)", addflavor: $1 }
@@ -65,7 +65,7 @@
 - { setname: userspace-rcu,            name: [libuserspace-rcu,liburcu,liburcu0] }
 - { setname: utf8proc,                 name: [libutf8proc,libutf8proc-julia] }
 - { setname: utfcpp,                   name: [libutfcpp,utf8cpp] }
-- { setname: uthash,                   name: [libuthash-devel,uthash-devel], weak_devel: true }
+- { setname: uthash,                   name: [libuthash-devel,uthash-devel], weak_devel: true, nolegacy: true }
 - { setname: util-linux,               name: [libutil-linux,libutil-linux-static,libutil-linux-aarch64,libutil-linux-nosystemd,libutil-linux-nosystemd-debug,libutil-linux-selinux], addflavor: true }
 - { setname: util-linux,               name: [util-linux-aes,util-linux-debug,util-linux-minimal,util-linux-nosystemd,util-linux-nosystemd-debug,util-linux-selinux,util-linux-systemd], addflavor: true }
 - { setname: util-linux,               name: util-linux-ng } # former fork merged back

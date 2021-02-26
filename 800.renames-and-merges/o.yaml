@@ -72,7 +72,7 @@
 - { setname: openfoam,                 namepat: "openfoam(-esi)?[0-9x.-]+" }
 - { setname: openfoam,                 name: [openfoam-esi,openfoam-plus] }
 - { setname: openh264,                 name: libopenh264 }
-- { setname: openhab,                  name: openhab-beta, weak_devel: true }
+- { setname: openhab,                  name: openhab-beta, weak_devel: true, nolegacy: true }
 - { setname: openhab,                  name: openhab2 }
 - { setname: openhab-addons,           name: openhab2-addons }
 - { setname: openjade,                 name: jade, ruleset: aosc }
@@ -85,7 +85,7 @@
 - { setname: openjpeg,                 name: [openjp2,libopenjpeg2.0,openjpeg-legacy] }
 - { setname: openjpeg,                 namepat: "(?:lib)?openjpeg[0-9]*" }
 - { setname: openldap,                 name: [compat-openldap,libldap,openldap-client,openldap-cloak,openldap-doc,openldap-nops,openldap-sasl-client,openldap-server,openldap-smbk5pwd], addflavor: true }
-- { setname: openldap,                 name: openldap-overlays-devel, addflavor: openldap-overlays, weak_devel: true }
+- { setname: openldap,                 name: openldap-overlays-devel, addflavor: openldap-overlays, weak_devel: true, nolegacy: true }
 - { setname: openldap,                 name: openldap2 }
 - { setname: openlitespeed,            name: litespeed } # XXX: problem
 - { setname: openmesh,                 name: open-mesh }
@@ -93,24 +93,24 @@
 - { setname: opennlp,                  name: apache-opennlp }
 - { setname: openobex,                 name: libopenobex }
 - { setname: openocd,                  name: open-ocd }
-- { setname: openoctavemidi,           name: openoctavemidi-unstable, weak_devel: true }
+- { setname: openoctavemidi,           name: openoctavemidi-unstable, weak_devel: true, nolegacy: true }
 - { setname: openoffice,               name: apache-openoffice }
-- { setname: openoffice,               name: apache-openoffice-devel, weak_devel: true }
+- { setname: openoffice,               name: apache-openoffice-devel, weak_devel: true, nolegacy: true }
 - { setname: openoffice,               name: openoffice-bin, addflavor: bin }
 - { setname: openoffice,               name: openoffice.org }
 - { setname: openr2,                   namepat: "(?:lib)?openr2[0-9.-]*" }
 - { setname: openrazer,                name: openrazer-meta }
 - { setname: openrc,                   name: [openrc-debug,openrc-init], addflavor: true }
 - { setname: openrct2,                 name: [libopenrct2,openrct2-cli], addflavor: true }
-- { setname: openrefine,               name: openrefine-beta, weak_devel: true }
+- { setname: openrefine,               name: openrefine-beta, weak_devel: true, nolegacy: true }
 - { setname: opensc,                   namepat: "opensc[0-9.-]+" }
 - { setname: opensc,                   name: opensc-openct, addflavor: openct }
-- { setname: openscad,                 name: [openscad-dev,openscad-devel], weak_devel: true }
+- { setname: openscad,                 name: [openscad-dev,openscad-devel], weak_devel: true, nolegacy: true }
 - { setname: openscenegraph,           name: [openscenegraph-data,openscenegraph-dae], addflavor: true }
 - { setname: openscenegraph,           name: [open-scene-graph,osg] }
 - { setname: openscenegraph,           namepat: "openscenegraph[0-9.-]+" }
 - { setname: openscenegraph,           namepat: "osg[0-9.-]+" }
-- { setname: openscenegraph,           name: [osg-devel,openscenegraph-dev], weak_devel: true }
+- { setname: openscenegraph,           name: [osg-devel,openscenegraph-dev], weak_devel: true, nolegacy: true }
 - { setname: openshadinglanguage,      namepat: "openshadinglanguage[0-9.-]+" }
 - { setname: openshot,                 name: openshot-qt, addflavor: qt }
 - { setname: opensm,                   name: compat-opensm-libs }
@@ -121,7 +121,7 @@
 - { setname: openttd,                  name: [open-ttd, openttd-stable] }
 - { setname: openttd,                  name: [openttd-version, openttd-btpro], addflavor: true }
 - { setname: openttd-opengfx,          name: [opengfx, openttd-opengfx] }
-- { setname: openttd-opengfx,          name: openttd-opengfx-snapshot, weak_devel: true }
+- { setname: openttd-opengfx,          name: openttd-opengfx-snapshot, weak_devel: true, nolegacy: true }
 - { setname: openttd-openmsx,          name: [openttd-openmsx] }  # plain openmsx is ambigious, see 850 ruleset
 - { setname: openttd-opensfx,          name: [opensfx, openttd-opensfx] }
 - { setname: opentx,                   name: [opentx-companion,opentx-companion21] }
@@ -130,7 +130,7 @@
 - { setname: openvpn,                  name: [openvpn-mbedtls,openvpn-polarssl,openvpn2,openvpn23] }
 - { setname: openzwave,                name: open-zwave }
 - { setname: opera,                    name: [opera-stable, opera-legacy, linux-opera, opera9, opera-presto, opera-blink] }
-- { setname: opera,                    name: [opera-beta, opera-developer], weak_devel: true }
+- { setname: opera,                    name: [opera-beta, opera-developer], weak_devel: true, nolegacy: true }
 - { setname: opus,                     name: libopus }
 - { setname: opusfile,                 name: libopusfile }
 - { setname: orafce,                   namepat: "(postgresql[0-9.-]*)-orafce", addflavor: $1 }

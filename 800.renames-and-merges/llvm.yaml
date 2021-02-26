@@ -4,7 +4,7 @@
 - { setname: llvm, namepat: "llvm-toolchain-[0-9.-]+", addflavor: toolchain }
 - { setname: llvm, namepat: "llvm[0-9.-]+" }
 - { setname: llvm, name: [llvm-common,llvm-manpages,llvm-runtime,"python:llvm",mesa-private-llvm,llvm-minimal,llvm-test-suite,llvm-private], addflavor: true }
-- { setname: llvm, name: llvm-devel, weak_devel: true }
+- { setname: llvm, name: llvm-devel, weak_devel: true, nolegacy: true }
 - { setname: llvm, namepat: "llvm-toolset-[0-9.-]+-([a-z-]+)", addflavor: $1 }
 
 - { setname: llvm, name: [clang+llvm-binaries], addflavor: true }
