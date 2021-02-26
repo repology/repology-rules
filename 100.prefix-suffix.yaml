@@ -85,7 +85,7 @@
 
 - { ruleset: void,            namepat: "chroot-(.*)", setname: $1, addflavor: chroot }
 
-- { ruleset: manjaro,         namepat: "(linux[0-9]+-(?:rt-)?)(.*)", setname: $2, addflavor: $1 }
+- { ruleset: manjaro,         namepat: "(linux[0-9]+-(?:rt-)?)((?!rt$).*)", setname: $2, addflavor: $1 }
 
 - { ruleset: opensuse,        namepat: "(.*?)_[0-9_]*-(gnu(?:-[a-z0-9]+)?-hpc)", setname: $1, addflavor: $2 }
 
