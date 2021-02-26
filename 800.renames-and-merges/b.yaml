@@ -23,7 +23,7 @@
 - { setname: bash,                     namepat: "bash[0-9]+" }
 - { setname: basiliskii,               name: basilisk2 }
 - { setname: basiliskii,               name: basiliskii-gui, addflavor: true }
-- { setname: bat,                      name: ["rust:bat", bat-cat] }
+- { setname: bat-cat,                  name: "rust:bat" }
 - { setname: batctl,                   name: batctl14 }
 - { setname: batik,                    name: [java-batik, java-xmlgraphics-batik, xmlgraphics-batik] }
 - { setname: batman-adv,               name: [batman-adv-dkms,batman-adv-legacy-dkms], addflavor: dkms }
