@@ -243,7 +243,7 @@
 - { name: ctags, addflag: unclassified }
 
 - { name: cups, setname: cups-openprinting, verpat: ".*op.*" }
-- { name: cups, setname: cups-openprinting, wwwpart: openprinting }
+- { name: cups, setname: cups-openprinting, wwwpart: openprinting, noruleset: wikidata }
 
 - { name: cutter, wwwpart: [digitage,lowth], setname: cutter-tcp } # TCP/IP Connection Cutter
 - { name: cutter, category: [net,universe/net,Networking/Other], setname: cutter-tcp }
