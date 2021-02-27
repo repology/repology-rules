@@ -170,6 +170,8 @@
 - { name: podman,                      ver: "1.0.1",                 ruleset: fedora,      incorrect: true }
 - { name: podman,                                                    ruleset: fedora,      untrusted: true }
 - { name: poedit,                      verpat: ".*\\.[0-9]{4,5}",                          altver: true } # windows builds
+- { name: poke,                        ver: "1.48.1",                ruleset: t2,          incorrect: true }
+- { name: poke,                                                      ruleset: t2,          untrusted: true } # accused of fake 1.48.1
 - { name: polari,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: polkit-gnome,                ver: "0.106",                 ruleset: sisyphus,    incorrect: true }
 - { name: polkit-gnome,                                              ruleset: sisyphus,    untrusted: true } # accused of fake 0.106
