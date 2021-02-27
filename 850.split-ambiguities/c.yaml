@@ -236,7 +236,7 @@
 - { name: crawl, wwwpart: develz, setname: stone-soup }
 - { name: crawl, category: games, setname: stone-soup }
 
-- { name: ctags, wwwpart: sourceforge, setname: exuberant-ctags }
+- { name: ctags, wwwpart: [ctags.sourceforge.net,ctags.sf.net], setname: exuberant-ctags }
 - { name: ctags, wwwpart: [universal,ctags.io], setname: universal-ctags }
 - { name: ctags, verpat: "5\\.[78].*", setname: exuberant-ctags }
 - { name: ctags, ruleset: [aosc], setname: universal-ctags }
