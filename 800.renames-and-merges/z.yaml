@@ -45,7 +45,7 @@
 - { setname: zou,                      name: "rust:zou" }
 - { setname: zoxide,                   name: "rust:zoxide" }
 - { setname: zsa-wally-cli,            name: wally-cli }
-- { setname: zsh,                      name: zsh-doc, addflavor: doc }
+- { setname: zsh,                      name: [zsh-doc,zsh-minimal], addflavor: true }
 - { setname: zsh,                      name: zsh-beta, weak_devel: true, nolegacy: true }
 - { setname: zstd,                     name: [zstandard,zstd-static] }
 - { setname: zstd,                     name: libzstd }
