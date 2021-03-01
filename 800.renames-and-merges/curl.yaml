@@ -1,0 +1,21 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { setname: curl, name: [curl3, libcurl4, libcurl, libcurl-compat] }
+
+- setname: curl
+  name:
+    - curl-ca-bundle
+    - curl-gnutls
+    - curl-http2
+    - curl-http3
+    - curl-mini
+    - curl-openssl
+    - curl-ssh
+    - libcurl-compat-nostatic
+    - libcurl-gnutls
+    - libcurl-openssl-1.0
+    - libcurl3-gnutls
+    - curl-minimal
+    - libcurl-compat-minimal
+    - libcurl-gnutls-minimal
+  addflavor: true
