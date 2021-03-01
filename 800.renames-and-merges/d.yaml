@@ -119,7 +119,7 @@
 - { setname: dovecot,                  namepat: "dovecot[0-9]+" }
 - { setname: dovecot,                  name: [dovecot-gssapi,dovecot-ldap,dovecot-mysql,dovecot-pgsql,dovecot-postgresql,dovecot-sqlite], addflavor: true }
 - { setname: dovecot-pigeonhole,       name: [dovecot-pigeonhole04,pigeonhole,dovecot-plugin-pigeonhole] }
-- { setname: doxygen,                  name: [doxygen-gui,doxygen-docs,doxygen-doc,doxywizard], addflavor: true }
+- { setname: doxygen,                  name: [doxygen-gui,doxygen-docs,doxygen-doc,doxywizard,doxygen-launcher], addflavor: true }
 - { setname: dr14tmeter,               name: dr14-tmeter }
 - { setname: dragon-drag-and-drop,     name: dragon-drop }
 - { setname: dragon-player,            name: [dragonplayer,kde4-dragon,kde5-dragon] }
