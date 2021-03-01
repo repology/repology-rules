@@ -94,6 +94,7 @@
 - { setname: blasphemer,               name: blasphemer-wad }
 - { setname: blender,                  name: [blender-alarm,blender-as-py-module,blender-binaries], addflavor: true }
 - { setname: blender,                  namepat: "blender[0-9.-]+" }
+- { setname: blender,                  name: blender-develop, weak_devel: true, nolegacy: true }
 - { setname: blobby,                   name: blobby-volley-2 }
 - { setname: blobby,                   name: [blobby2,blobby-volley] }
 - { setname: blobwars,                 name: blobwars-data, addflavor: true }
