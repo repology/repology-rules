@@ -228,7 +228,7 @@
 - { setname: cpio,                     name: [gcpio, cpio-gnu] }
 - { setname: cpmtools,                 name: cpmtools2 }
 - { setname: cpp-hocon,                name: libcpp-hocon }
-- { setname: cppcheck,                 name: [cppcheck-nox,cppcheck-gui] }
+- { setname: cppcheck,                 name: [cppcheck-nox,cppcheck-gui,cppcheck-fixed], addflavor: true }
 - { setname: cpprestsdk,               name: [cpprest,casablanca] }
 - { setname: cpptest,                  name: libcpptest }
 - { setname: cppunit,                  name: libcppunit }
