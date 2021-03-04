@@ -285,6 +285,8 @@
 - { name: grub,                        ver: "2.03.0",                ruleset: manjaro,     incorrect: true } # 2.02rcX
 - { name: grub,                                                      ruleset: manjaro,     untrusted: true }
 - { name: grub,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: grub,                        ver: "2.05",                  ruleset: ataraxia,    incorrect: true }
+- { name: grub,                                                      ruleset: ataraxia,    untrusted: true } # accused of fake 2.05
 - { name: grub-customizer,             ver: "5.0.7",                 ruleset: debuntu,     incorrect: true } # mx and sparky, actually
 - { name: grub-customizer,                                           ruleset: debuntu,     untrusted: true }
 - { name: gsettings-desktop-schemas,   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
