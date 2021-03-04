@@ -63,7 +63,7 @@
 - { name: fim,                         ver: "0.5.3",                                       incorrect: true } # 0.5rc3
 - { name: fim,                         verpat: "(.*)trunk",                                setver: $1, devel: true }
 - { name: fim,                         ver: "0.6",                                         devel: true }
-- { name: firebird,                    verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.[0-9]{5,}.*", setver: "$1" }
+- { name: firebird,                    verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.[0-9]{5,}.*", altver: true }
 - { name: firebird,                    ver: "3.0.4",                 ruleset: debuntu,     incorrect: true } # no tag, no website mention
 - { name: firebird,                                                  ruleset: debuntu,     untrusted: true } # accused of fake 3.0.4
 - { name: firefox,                     verpat: ".*[ab].*",                                 devel: true, weak_devel: false }
