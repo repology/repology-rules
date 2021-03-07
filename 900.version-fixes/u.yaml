@@ -48,7 +48,7 @@
 - { name: unnethack,                   ver: "5.3.1",                 ruleset: nix,         incorrect: true }
 - { name: unnethack,                                                 ruleset: nix,         untrusted: true }
 - { name: unpaper,                     verpat: "20[0-9]{6}.*",                             snapshot: true } # aosc
-- { name: unrar,                       verpat: "5\\.[0-9]{2}",                             incorrect: true } # it uses 5.X.Y schema
+- { name: unrar,                       verpat: "[1-9]\\.[0-9]{2}",                         incorrect: true } # it's X.Y.Z, not X.YZ
 - { name: unzip,                       verpat: ".*c.*",                                    incorrect: true } # haikuports
 - { name: unzip,                       verpat: "60.*",                                     incorrect: true } # pisi
 - { name: unzip,                       ver: "3.0.1",                 ruleset: [carbs, deepin], incorrect: true }
