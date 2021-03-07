@@ -184,7 +184,7 @@
 - { name: conserver,                   ver: "8.5",                   ruleset: freebsd,     incorrect: true } # completely fake; https://github.com/conserver/conserver/releases
 - { name: conserver,                                                 ruleset: freebsd,     untrusted: true }
 - { name: containerd,                  verpat: "[0-9a-f]{7}",                              ignore: true } # crux garbage
-- { name: containers-common,           verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: containers-common,           verpat: "[0-9]+",                                   incorrect: true } # both dates and e.g. "1"
 - { name: cool-retro-term,             ver: "1.0.2",                 ruleset: debuntu,     incorrect: true }
 - { name: cool-retro-term,                                           ruleset: debuntu,     untrusted: true }
 - { name: coolkey,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+_[0-9]+",          incorrect: true } # AUR using fedora package revision
