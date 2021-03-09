@@ -203,6 +203,8 @@
 - { name: authenticator, setname: gnome-authenticator, wwwpart: [gnome,bilelmoussaoui] }
 
 - { name: augustus, wwwpart: Keriew, setname: augustus-game }
+- { name: augustus, wwwpart: [gobics,bioinf], setname: augustus-game-prediction }
+- { name: augustus, addflag: unclassified }
 
 - { name: avogadro, verge: "1.8", setname: avogadro2 } # actually it starts with 1.90, but also cover strange 1.9 from KDE Neon
 
