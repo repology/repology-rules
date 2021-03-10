@@ -124,6 +124,9 @@
 - { name: ckermit,                     ver: "9.0.304",                                     devel: true }
 - { name: cl-alexandria,               verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: cl-alexandria,               verpat: "20[0-9]{2}\\..*",                          incorrect: true }
+- { name: cl-asdf,                     verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: cl-asdf,                     ver: "20101028",                                    outdated: true }
+- { name: cl-asdf,                     verlonger: 3,                                       devel: true } # https://gitlab.common-lisp.net/asdf/asdf/blob/3.3.1.7/upgrade.lisp#L94
 - { name: cl-fad,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: clamav,                      verpat: "[0-9]{4}",                                 outdated: true } # ancient version from wikidata
 - { name: claws-mail,                  verlonger: 3,                 ruleset: pisi,        incorrect: true }
