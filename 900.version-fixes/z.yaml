@@ -25,6 +25,7 @@
 - { name: zfs,                                                       ruleset: alpine,      untrusted: true } # linux kernel version
 - { name: zidrav,                      ver: "1.20",                  ruleset: pkgsrc,      incorrect: true } # 1.2.0
 - { name: zidrav,                                                    ruleset: pkgsrc,      untrusted: true }
+- { name: zile,                        verpat: ".*\\.[5-9][0-9]",                          devel: true } # assumed https://git.savannah.gnu.org/cgit/zile.git/refs/tags
 - { name: zip,                         verlonger: 2,                 ruleset: openmandriva, ignore: true } # fork
 - { name: zip,                         verpat: "[0-9]{2}",                                 incorrect: true } # T2; it's 3.0, not 30
 - { name: zip,                         ver: "3.0.1",                 ruleset: [carbs,deepin], incorrect: true }
