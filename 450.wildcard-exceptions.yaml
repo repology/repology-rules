@@ -14,7 +14,8 @@
 - { setname: erlang,                   namepat: "erlang-runtime[0-9._-]+", addflavor: runtime }
 
 - { setname: fuse,                     name: [fuse2,fuse3,fusefs] }
-- { setname: fuse,                     name: [fuse-common,fusefs-fusexmp_fh,fusefs-libs,fusefs-libs3,libfuse], addflavor: true }
+- { setname: fuse,                     name: [fuse-common,fusefs-fusexmp_fh], addflavor: true }
+- { setname: fuse,                     name: [fusefs-libs,fusefs-libs3,libfuse], addflavor: libs }
 - { addflag: not_fusefs,               namepat: "fuse-emulator.*" }
 - { addflag: not_fusefs,               name: fuse-python }
 
