@@ -221,6 +221,13 @@
 - { name: audiofile, wwwpart: 68k, addflag: classified }
 - { name: audiofile, noflag: classified, untrusted: true } # assume the same project, but be safe against potential clashes
 
+- { name: aurora, wwwpart: hunterbrodie, setname: aurora-pacman-aur-wrapper }
+- { name: aurora, wwwpart: xuri.me, setname: aurora-beanstalkd-console }
+- { name: aurora, wwwpart: [project-aurora.com,antonpup], setname: aurora-lighting-effects }
+- { name: aurora, wwwpart: solar, setname: aurora-solar }
+- { name: aurora, wwwpart: bromeon, setname: aurora-c++ }
+- { name: aurora, addflag: unclassified }
+
 - { name: avro, wwwpart: maateen, setname: avro-maateen }
 
 - { name: axiom, wwwpart: apache, setname: apache-axiom }
