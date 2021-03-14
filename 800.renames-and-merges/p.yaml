@@ -177,7 +177,8 @@
 - { setname: popt,                     name: libpopt }
 - { setname: portaudio,                name: [portaudio19,portaudio2,portaudio0] }
 - { setname: portaudio,                name: [portaudio-devel,portaudio-svn], weak_devel: true, nolegacy: true }
-- { setname: portfolioperformance,     name: portfolio-performance }
+- { setname: portfolio-file-manager,   name: portfolio-filemanager }
+- { setname: portfolio-performance,    name: portfolioperformance }
 - { setname: portmidi,                 name: libportmidi }
 - { setname: portmidi,                 name: "python:pyportmidi", addflavor: python }
 - { setname: postfix,                  name: [postfix-current,postfix-current-sasl,postfix211,postfix211-sasl] }
