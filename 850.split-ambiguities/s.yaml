@@ -210,6 +210,10 @@
 - { name: snoopy, ruleset: sisyphus, setname: snoopylogger }
 - { name: snoopy, addflag: unclassified }
 
+- { name: snowpack, wwwpart: models.slf.ch, setname: snowpack-model }
+- { name: snowpack, wwwpart: snowpack.dev, setname: snowpack-frontend-build-tool }
+- { name: snowpack, addflag: unclassified }
+
 - { name: sokoban, wwwpart: dansoft, setname: sokoban-dansoft }
 - { name: sokoban, category: app-emacs, setname: sokoban-emacs }
 - { name: sokoban, ruleset: freebsd, setname: sokoban-ncurses }
