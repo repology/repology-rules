@@ -203,12 +203,12 @@
 - { name: aspell-fo,                   ver: ["0.51.0","0.4.2"],                            ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fo/
 - { name: aspell-fr,                   ver: "0.60",                                        ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fr/
 - { name: aspell-gl,                   ver: "0.50",                                        outdated: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fr/
-- { name: aspell-he,                   releq: "1.1",                 ruleset: [nix,rpm,ravenports], incorrect: true }
+- { name: aspell-he,                   vereq: "1.1",                 ruleset: [nix,rpm,ravenports], incorrect: true }
 - { name: aspell-he,                                                 ruleset: [nix,rpm,ravenports], untrusted: true } # accused of fake 1.1
 - { name: aspell-pl,                   verpat: "20[0-9]{6}",                               incorrect: true } # 6.0_20200916-0
 - { name: aspell-qu,                   ver: "20040424.1",                                  ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/qu/
 - { name: aspell-ru,                   ver: ["0.99.15.7.1","0.99.1"],                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/ru/
-- { name: aspell-sk,                   verge: "2.0.4",                                     successor: true } # debian fork
+- { name: aspell-sk,                   verge: "2.04",                                      successor: true } # debian fork
 - { name: aspell-sl,                   ver: "0.60",                                        ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/sl/
 - { name: aspell-sr,                   ver: ["0.60.0", "0.60"],                            ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/sr/
 - { name: aspell-te,                   ver: "0.60.0",                                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/te/
