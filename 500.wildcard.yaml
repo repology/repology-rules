@@ -167,6 +167,7 @@
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python3-(.*)", addflavor: python3, ruleset: [chakra,centos,openwrt] }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(python[23])-(.*)", addflavor: $1, ruleset: ibmi }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(python3[0-9]+)-(.*)", ruleset: yacp, addflavor: $1 }
+- { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(python3x)-(.*)", ruleset: centos, addflavor: $1 }
 
 # R
 - { setname: "r:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_r], ruleset: gentoo, category: dev-r } # only encountered in GURU overlay yet
