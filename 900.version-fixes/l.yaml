@@ -125,6 +125,7 @@
 - { name: "lua:check",                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "lua:cjson",                 verlonger: 3,                                       incorrect: true } # 2.1.0
 - { name: "lua:cqueues",               verpat: ".*\\.5[1-9]",                              incorrect: true } # luarocks appends lua version
+- { name: "lua:dkjson",                verlonger: 2,                                       incorrect: true } # opensuse, nix garbage
 - { name: "lua:expat",                 ver: "1.3.3",                 ruleset: sisyphus,    incorrect: true }
 - { name: "lua:expat",                                               ruleset: sisyphus,    untrusted: true } # accused of fake 1.3.3
 - { name: "lua:ldbus",                                                                     noscheme: true } # https://github.com/daurnimator/ldbus/tags
