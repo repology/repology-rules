@@ -33,6 +33,8 @@
 
 - { namepat: "php[0-9]*:.*", ruleset: sisyphus,                                            untrusted: true }
 
+- { namepat: "lua:.*", verpat: ".*-[0-9]+", ruleset: nix,                                  untrusted: true } # accused of using fake suffix from luarocks
+
 # other global rules
 - { verpat: ".*20[0-9]{6}T[0-9]{6}\\.[0-9a-f]{7}",                   ruleset: opensuse,    ignore: true }
 - { verpat: ".*[0-9]{8,10}\\.[0-9a-f]{7,8}",                         ruleset: opensuse,    ignore: true }
