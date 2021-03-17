@@ -35,6 +35,7 @@
 - { name: librespot,                   verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: librespot,                   verge: "20000000", verlt: "20200729",               outdated: true }
 - { name: libressl,                    relgt: "3.2",                                       devel: true, maintenance: true }
+- { name: libretls,                                                                        p_is_patch: true }
 - { name: libudev0-shim,               verpat: "[0-9]{3}",                                 incorrect: true }
 - { name: liferea,                     verpat: "(.*)[ab]",                                 setver: $1 } # distfiles are sometimes rerolled, upstream misbehavior
 - { name: liferea,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed
