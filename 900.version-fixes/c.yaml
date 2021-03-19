@@ -230,7 +230,8 @@
 - { name: csync,                       ver: ["0.50.6","0.50.8"],     ruleset: [sisyphus, slitaz], incorrect: true }
 - { name: cuberite,                                                                        noscheme: true } # https://github.com/cuberite/cuberite/tags
 - { name: cubicsdr,                    verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: cuda,                        verpat: ".*\\+.*",            ruleset: aosc,        incorrect: true } # driver version appended?
+- { name: cuda,                        verlonger: 4,                                       altver: true } # driver version appended by upstream
+- { name: cuda,                        verlonger: 4,                 ruleset: scoop,       untrusted: false }
 - { name: cup,                         verpat: "11.*",                                     incorrect: true } # 0.11b
 - { name: cups,                        verpat: ".*b.*",                                    devel: true }
 - { name: cups-openprinting,                                                               any_is_patch: true } # e.g. 2.3.3op1
