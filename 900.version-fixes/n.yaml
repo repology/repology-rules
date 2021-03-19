@@ -103,7 +103,7 @@
 - { name: nrg2iso,                     ver: "0.5",                   ruleset: opensuse,    incorrect: true }
 - { name: nrg2iso,                                                   ruleset: opensuse,    untrusted: true } # accused of fake 0.5
 - { name: nss-ldap,                    verpat: "1\\.([0-9]{3,})",                          setver: "$1" } # FreeBSD garbage
-- { name: ntfs-3g,                     verpat: "(\\.[0-9]+){3}(\\.[0-9]+)",                setver: "$1AR$2" } # incorrect scheme for ARs
+- { name: ntfs-3g,                     verpat: "(\\.[0-9]+\\.[0-9]+\\.[0-9]+)(\\.[0-9]+)",                setver: "$1AR$2" } # incorrect scheme for ARs
 - { name: ntfs-3g,                     verpat: ".*ar.*",                                   any_is_patch: true, devel: true } # http://jp-andre.pagesperso-orange.fr/advanced-ntfs-3g.html
 - { name: ntp,                         verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.([0-9]+)",    setver: "$1p$2" }
 - { name: ntp,                                                                             p_is_patch: true }
