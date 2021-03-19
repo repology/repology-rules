@@ -125,6 +125,7 @@
 - { setname: "python:kapteyn",         name: kapteyn }
 - { setname: "python:khal",            name: khal }
 - { setname: "python:kiwisolver",      name: kiwisolver }
+- { setname: "python:lark-parser",     name: "python:lark", addflavor: lark } # both present on pypi from same author referencing the same upstream; XXX: upstream error
 - { setname: "python:lektor",          name: lektor }
 - { setname: "python:python-levenshtein", name: "python:levenshtein" } # XXX: problem
 - { setname: "python:lhafile",         name: "python:python-lhafile" }
