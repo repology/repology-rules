@@ -92,8 +92,8 @@
 - { setname: cfitsio,                  name: cfitsio3 }
 - { setname: cflow,                    name: [bsdcflow,gcflow,gnucflow] } # split later
 - { setname: cfr,                      name: cfr-decompiler }
-- { setname: cgal,                     name: cgal-ipelets, addflavor: ipelets }
-- { setname: cgal,                     name: cgal9 }
+- { setname: cgal,                     name: [cgal-headers,cgal-ipelets], addflavor: true }
+- { setname: cgal,                     name: [cgal4,cgal5,cgal9] }
 - { setname: cglib,                    name: cglib3 }
 - { setname: cgoban,                   name: cgoban1 }
 - { setname: chakracore,               name: chakaracore } # AUR misspell
