@@ -104,6 +104,7 @@
 - { name: boost-build,                 verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: boost-build,                 verpat: "2\\.0.*",                                  incorrect: true }
 - { name: boost-build,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: boost-jam,                   verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: bootp,                       verpat: ".*_.*",                                    successor: true } # debian
 - { name: borgbackup,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: boringssl,                                                                       noscheme: true }
