@@ -1,0 +1,30 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: gettext
+  name:
+    - gettext-asprintf
+    - gettext-bootstrap
+    - gettext-csharp
+    - gettext-full
+    - gettext-java
+    - gettext-lib
+    - gettext-m4
+    - gettext-minimal
+    - gettext-mono
+    - gettext-progs
+    - gettext-runtime
+    - gettext-runtime-mini
+    - gettext-tools
+    - gettextruntime
+    - libgettext
+    - libintl
+  addflavor: true
+
+- setname: gettext
+  name:
+    - "emacs:po-mode"
+    - emacs-po-mode
+    - gettext-po-mode
+    - po-mode
+    - po-mode.el
+  addflavor: emacs
