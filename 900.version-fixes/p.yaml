@@ -73,6 +73,8 @@
 - { name: perl,                        verpat: "5\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: perlbal,                     verpat: "1\\.[0-9]{3,}.*",                          incorrect: true }
 - { name: peruse,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: peruse,                      verpat: "([0-9]+\\.){2}[0-9]{3,4}",                 incorrect: true } # freebsd garbage
+- { name: peruse,                                                    ruleset: freebsd,     untrusted: true } # accused if fake 1.2.502
 - { name: pfft,                        verpat: "(.*?)[_-]?alpha",                          setver: $1 } # meaningless alpha suffix
 - { name: pfft,                                                                            devel: false }
 - { name: pforth,                                                                          noscheme: true } # https://github.com/philburk/pforth
