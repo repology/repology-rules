@@ -66,6 +66,7 @@
 - { name: nextpnr,                                                                         noscheme: true }
 - { name: nexuiz,                      verpat: "[0-9]{2}",                                 incorrect: true } # T2; 2.5.2, not 25
 - { name: nginx,                       verpat: "[0-9]+(\\.[0-9]+){2}",                     devel: false } # mainline version is not beta/devel, explained here: https://www.nginx.com/blog/nginx-1-6-1-7-released/
+- { name: ngrep,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: ngrok,                       ver: [stable,4VmDzA7iaHb],    ruleset: scoop,       incorrect: true }
 - { name: ngrok,                                                     ruleset: scoop,       untrusted: true }
 - { name: ngspice,                     ver: "31.3",                  ruleset: debuntu,     incorrect: true } # 31
