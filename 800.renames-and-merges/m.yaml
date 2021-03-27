@@ -254,6 +254,7 @@
 - { setname: mumps,                    name: mumps4 }
 - { setname: mumps,                    name: [mumps-metis,mumps-metis-openmpi,mumps-mpich,mumps-openmpi,mumps-par,mumps-seq,mumps-seq-shared], addflavor: true }
 - { setname: munin,                    namepat: munin-(master|node|server|common), addflavor: $1 }
+- { setname: munt,                     name: [munt-alsadrv, munt-mt32emu-alsadrv], addflavor: alsadrv }
 - { setname: muparser,                 namepat: "libmuparser[0-9.-]*" }
 - { setname: mupdf,                    name: [libmupdf,mupdf-nojs,mupdf-seccomp,mupdf-tools], addflavor: true }
 - { setname: musepack,                 name: [musepack-tools,libmusepack], addflavor: true }
