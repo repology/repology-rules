@@ -248,6 +248,11 @@
 - { name: ctags, ruleset: [aosc], setname: universal-ctags }
 - { name: ctags, addflag: unclassified }
 
+- { name: cue, wwwpart: cuelang, setname: cuelang } # reused name
+- { name: cue, wwwpart: corsair, setname: cue-corsair }
+- { name: cue, wwwpart: wide, setname: cue-mua }
+- { name: cue, addflag: unclassified }
+
 - { name: cups, setname: cups-openprinting, verpat: ".*op.*" }
 - { name: cups, setname: cups-openprinting, wwwpart: openprinting, noruleset: wikidata }
 
