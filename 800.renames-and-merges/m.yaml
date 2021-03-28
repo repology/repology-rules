@@ -241,7 +241,8 @@
 - { setname: ms-gsl,                   name: [guidelines-support-library,microsoft-gsl,c++gsl,cpp-gsl] }
 - { setname: msbuild,                  name: [msbuild-stable,msbuild-15] }
 - { setname: msbuild,                  name: msbuild-bin, addflavor: true }
-- { setname: msgpack,                  name: [msgpack-c,msgpack-c-cpp,libmsgpack,msgpack1] } # c/cpp by default
+- { setname: msgpack,                  name: [msgpack-c,msgpack-c-cpp,libmsgpack] } # c/cpp by default
+- { setname: msgpack,                  namepat: "msgpack[0-9.-]+" }
 - { setname: mstflint,                 name: mstflint4 }
 - { setname: msynctool,                namepat: "msynctool[0-9]+" }
 - { setname: mt32emu,                  name: [libmt32emu, munt-mt32emu] }
