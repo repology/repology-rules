@@ -125,6 +125,8 @@
 - { name: lua,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]+[.-].*",           incorrect: true } # windows (XXX: https://github.com/rjpcomputing/luaforwindows project), split?
 - { name: "lua:check",                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "lua:cjson",                 verlonger: 3,                                       incorrect: true } # 2.1.0
+- { name: "lua:cliargs",               ver: "3.02",                                        incorrect: true } # 2.1.0
+- { name: "lua:cliargs",                                             ruleset: opensuse,    untrusted: true } # accused of fake 3.02
 - { name: "lua:cqueues",               verpat: ".*\\.5[1-9]",                              incorrect: true } # luarocks appends lua version
 - { name: "lua:dkjson",                vereq: "2.5-2",                                     incorrect: true } # opensuse, nix garbage
 - { name: "lua:dkjson",                                              ruleset: opensuse,    untrusted: true } # accused of fake 2.5.2
