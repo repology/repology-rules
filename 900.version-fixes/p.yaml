@@ -245,6 +245,7 @@
 - { name: proot,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: proot,                       verpat: "5\\.1\\.[0-9]{3}.*",                       incorrect: true }
 - { name: properties-cpp,              verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
+- { name: prosody-modules,                                                                 noscheme: true }
 - { name: protonmail-bridge,           verpat: ".*-.*",              ruleset: nix,         debianism: true }
 - { name: protonvpn-cli,               verpat: "[0-9]{10}",                                incorrect: true }
 - { name: prover9,                     ver: "200911a",                                     incorrect: true }
