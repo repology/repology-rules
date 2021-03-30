@@ -127,6 +127,9 @@
 
 - { name: gonvert, ruleset: maemo, setname: gonvert-maemo }
 
+- { name: gorm, wwwpart: gnustep, setname: gnustep-gorm }
+- { name: gorm, addflag: unclassified }
+
 - { name: gosu, wwwpart: tianon, addflag: classified }
 - { name: gosu, summpart: setuid, addflag: classified }
 - { name: gosu, wwwpart: libgosu, setname: "ruby:gosu" }
