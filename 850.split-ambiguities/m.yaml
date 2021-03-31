@@ -1,6 +1,6 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
-- { name: maddy, wwwpart: foxcpp, setname: maddy-mail-server }
+- { name: maddy, wwwpart: [foxcpp,maddy.email], setname: maddy-mail-server }
 - { name: maddy, wwwpart: progsource, setname: maddy-markdown-parser }
 - { name: maddy, addflag: unclassified }
 
