@@ -229,6 +229,8 @@
 - { name: fs-utils,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: fsarchiver,                  ver: "0.8.6",                 ruleset: pclinuxos,   incorrect: true } # fake
 - { name: fsarchiver,                                                ruleset: pclinuxos,   untrusted: true } # accused of fake 0.8.6
+- { name: fsearch,                     verpat: "0\\.[0-9]{8}",                             incorrect: true }
+- { name: fsearch,                                                   ruleset: pclinuxos,   untrusted: true } # accused of fake 0.20200325
 - { name: fskbsetting,                 ver: "0.5.3.1",               ruleset: antix,       incorrect: true }
 - { name: fskbsetting,                                               ruleset: antix,       untrusted: true }
 - { name: fslint,                      verpat: "[0-9]+\\.[0-9]*[13579]",                   devel: true }
