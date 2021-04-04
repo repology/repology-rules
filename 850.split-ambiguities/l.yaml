@@ -70,7 +70,7 @@
 
 - { name: libunwind, wwwpart: llvm, setname: llvm, addflavor: true }
 - { name: libunwind, summpart: [llvm,clang], setname: llvm, addflavor: true }
-- { name: libunwind, wwwpart: nongnu, addflag: classified }
+- { name: libunwind, wwwpart: [nongnu,github.com/libunwind], addflag: classified }
 - { name: libunwind, addflag: unclassified }
 
 - { name: libusb, wwwpart: libusb-win32, setname: libusb-win32 }
