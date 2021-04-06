@@ -94,6 +94,11 @@
 - { name: shed, ruleset: pld, setname: shed-hex-editor }
 - { name: shed, addflag: unclassified }
 
+- { name: shim, wwwpart: [rhboot,mjg59], setname: shim-loader }
+- { name: shim, wwwpart: [nmathewson], setname: shim-proxy }
+- { name: shim, wwwpart: [psutils], setname: psutils-powershell }
+- { name: shim, addflag: unclassified }
+
 - { name: shinonome, wwwpart: openlab, setname: "fonts:shinonome" }
 
 - { name: shutter, ruleset: maemo, setname: shutter-maemo }
