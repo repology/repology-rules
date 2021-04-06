@@ -185,6 +185,7 @@
 - { setname: burp,                     name: burp-backup }
 - { setname: burp,                     name: [burp-devel,burp-backup-dev], weak_devel: true, nolegacy: true }
 - { setname: burp,                     name: [burp-server,burp2-server], addflavor: server }
+- { setname: burpsuite,                name: [burp-suite,burp-suite-free-edition,burpsuite-pro] }
 - { setname: burritun,                 name: "rust:burritun" }
 - { setname: busybox,                  name: [busybox-custom,busybox-norootreboot,busybox-static,mdev,mkinitcpio-busybox,busybox-init], addflavor: true }
 - { setname: byaccj,                   name: byacc-j }
