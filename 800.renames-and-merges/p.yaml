@@ -294,6 +294,7 @@
 - { setname: python,                   name: python-exp } # scoop
 - { setname: python,                   namepat: "python[0-9.-]+" }
 - { setname: python,                   name: "python:sqlite3", addflavor: true } # part of; split into separate package in FreeBSD, ravenports and pkgsrc
+- { setname: python,                   name: python-legacy }
 - { setname: python,                   name: [python3-minimal], addflavor: minimal }
 - { setname: python,                   name: [python-debug,python-base], addflavor: true }
 - { setname: python,                   name: [python27-beta,python-alpha,python-beta], weak_devel: true, nolegacy: true }

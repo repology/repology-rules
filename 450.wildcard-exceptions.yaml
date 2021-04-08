@@ -66,10 +66,16 @@
 - { addflag: not_python,               name: python, ruleset: aosc }
 - { addflag: not_python,               name: python-debug, ruleset: guix }
 - { addflag: not_python,               name: [python-doc,python3-doc] }
-- { addflag: not_python,               name: python-docs }
+- { addflag: not_python,               name: [python2-docs,python3-docs,python-docs] }
+- { addflag: not_python,               name: [python3-documentation] }
 - { addflag: not_python,               name: python-mode }
+- { addflag: not_python,               name: python-next }
+- { addflag: not_python,               name: python-defaults }
+- { addflag: not_python,               name: [python-base,python3-base] }
+- { addflag: not_python,               name: [python3-core] }
 - { addflag: not_python,               name: python-linux-procfs }
 - { addflag: not_python,               name: [python-rpm-macros,python2-rpm-macros] }
+- { addflag: not_python,               namepat: "python[0-9]+-htmldocs" }
 
 # python package manager vs. program wrapper (which was renamed to pipo upstream)
 # XXX: generate problem from this
