@@ -36,6 +36,8 @@
 - { name: adacurses,                                                 ruleset: aur,         untrusted: true } # accused of packageing unstable version (from current subdirectoory of https://invisible-mirror.net/archives/AdaCurses/); XXX: if info on download url was available for AUR, we could mark it as devel
 - { name: adjtimex,                    verpat: ".*_.*",                                    debianism: true }
 - { name: adwaita-icon-theme,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: adwaita-icon-theme,          ver: "40",                    ruleset: rpm,         incorrect: true }
+- { name: adwaita-icon-theme,                                        ruleset: rpm,         untrusted: true } # accused of fake 40
 - { name: adwaita-qt,                  verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: aerial-sddm-theme,                                                               noscheme: true } # https://github.com/3ximus/aerial-sddm-theme/releases
 - { name: aescrypt,                    verpat: "[0-9]+",                                   incorrect: true } # 3.10, not 310
