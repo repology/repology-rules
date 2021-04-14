@@ -47,6 +47,7 @@
 - { setname: openbazaar,               name: openbazaar-desktop }
 - { setname: openbgpd,                 name: openbgpd6 }
 - { setname: openblas,                 name: [openblas-lapack,openblas-lapack-ilp64] }
+- { setname: openboard,                name: openboard-develop, weak_devel: true }
 - { setname: openbor,                  namepat: "openbor[0-9]+" }
 - { setname: openbve,                  name: openbve-data, addflavor: true }
 - { setname: opencascade,              name: [opencascade-data,opencascade-doc,opencascade-samples], addflavor: true } # sisyphus artifacts
