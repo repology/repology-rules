@@ -122,6 +122,8 @@
 - { name: android-tools,               verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: android-tools,               ver: "21",                                          outdated: true } # debian oldstable, assuming ancient version
 - { name: anki,                        ver: "2.1.0",                 ruleset: debuntu,     ignore: true } # fake
+- { name: ant-contrib,                 ver: "1.0",                   ruleset: rpm,         incorrect: true }
+- { name: ant-contrib,                                               ruleset: rpm,         untrusted: true } # accused of fake 1.0
 - { name: anthy,                       verpat: "[0-9]+[a-z]_[0-9]+",                       snapshot: true }
 - { name: antimicro,                   verpat: "2\\.24\\.[0-9]+",                          successor: true } # https://github.com/juliagoda/antimicro, abandoned as well
 - { name: antlr,                       verpat: "20[0-9]{6}",                               snapshot: true }
