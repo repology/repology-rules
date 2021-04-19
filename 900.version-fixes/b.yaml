@@ -135,6 +135,7 @@
 - { name: buildbot-slave,                                            ruleset: haikuports,  untrusted: true } # accused of fake 0.9.5
 - { name: buildstream,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # https://buildstream.build/releases.html
 - { name: bully,                       verpat: "1\\.1.+",                                  ignore: true } # snapshots, latest is 1.1
+- { name: bumpversion,                 vergt: "0.6.0",                                     incorrect: true } # bump2version, different module
 - { name: busybox,                     verpat: "[0-9]{4}.*",                               incorrect: true } # scoop
 - { name: busybox,                     verpat: ".*musl.*",                                 incorrect: true } # nix garbage
 - { name: busybox,                                                   ruleset: fdroid,      devel: false } # accused of fake devel 1.31.1

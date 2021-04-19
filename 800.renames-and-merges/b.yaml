@@ -182,6 +182,8 @@
 - { setname: bullet,                   name: bullet-docs, addflavor: docs }
 - { setname: bullet,                   name: bullet3 }
 - { setname: bullet,                   name: libbullet }
+- { setname: bump2version,             name: "python:bump2version" }
+- { setname: bumpversion,              name: "python:bumpversion" }
 - { setname: burp,                     name: burp-backup }
 - { setname: burp,                     name: [burp-devel,burp-backup-dev], weak_devel: true, nolegacy: true }
 - { setname: burp,                     name: [burp-server,burp2-server], addflavor: server }
