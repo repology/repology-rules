@@ -134,6 +134,7 @@
 - { setname: antlr,                    name: [java-antlr3,ant-antlr3,libantlr4] }
 - { setname: aolserver,                name: aolserver4 }
 - { setname: aom,                      name: libaom }
+- { setname: aom,                      name: libaom-av1, addflavor: av1 }
 - { setname: apache,                   name: [apache-httpd,httpd,apache-http-server] }
 - { setname: apache,                   name: [apache-tools, apache-doc, apache-html-manual, htdigest], addflavor: true }
 - { setname: apache,                   namepat: "apache[0-9.]+" }
