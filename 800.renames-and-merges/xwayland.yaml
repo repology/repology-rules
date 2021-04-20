@@ -1,0 +1,17 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: xwayland
+  name:
+    - x11-server-xwayland
+    - xorg-server-xwayland
+    - xorg-x11-server-xwayland
+    - xorg-xwayland
+    - xwayland
+
+- setname: xwayland
+  name:
+    - xorg-xwayland-hidpi
+    - xorg-xwayland-rootless-nosystemd-minimal
+  addflavor: true
+
+- { setname: xwayland,                 name: xwayland-devel, weak_devel: true }
