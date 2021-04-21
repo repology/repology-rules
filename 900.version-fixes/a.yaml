@@ -127,6 +127,7 @@
 - { name: ant-contrib,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: anthy,                       verpat: "[0-9]+[a-z]_[0-9]+",                       snapshot: true }
 - { name: antimicro,                   verpat: "2\\.24\\.[0-9]+",                          successor: true } # https://github.com/juliagoda/antimicro, abandoned as well
+- { name: antimicro,                   verge: "3",                                         incorrect: true } # antimicrox
 - { name: antlr,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: anydesk,                     ver: "5.2.3",                 ruleset: scoop,       incorrect: true }
 - { name: anydesk,                                                   ruleset: scoop,       untrusted: true } # accused of fake 5.2.3
