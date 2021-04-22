@@ -89,6 +89,8 @@
 - { name: shotcut,                     verpat: "[0-9]{6,}.*",                              incorrect: true } # aur; it's not 180102, but 18.01
 - { name: shotcut,                     verpat: ".+20[0-9]{6}",                             snapshot: true } # funtoo
 - { name: shotcut,                     ver: "19.08.05",                                    devel: true, maintenance: true } # https://github.com/mltframework/shotcut/releases
+- { name: shotcut,                     ver: "21.04.14",                                    incorrect: true }
+- { name: shotcut,                                                   ruleset: winget,      untrusted: true } # accused of fake 21.04.14
 - { name: shotgun-debugger,            wwwpart: msarnoff,                                  successor: true }
 - { name: shotwell,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed
 - { name: showkeys,                                                                        noscheme: true } # https://github.com/nibrahim/showkeys/releases
