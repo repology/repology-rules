@@ -82,7 +82,7 @@
 - { setname: pg-dirtyread,             namepat: "(postgresql[0-9.-]*)-pg-dirtyread", addflavor: $1 }
 - { setname: pg-repack,                namepat: "(postgresql[0-9.-]*)-pg-repack", addflavor: $1 }
 - { setname: pg-top,                   name: pgtop }
-- { setname: pgadmin,                  name: [pgadmin3, pgadmin4] }
+- { setname: pgadmin,                  name: [pgadmin3, pgadmin4, pgadmin-4, "python:pgadmin4"] }
 - { setname: pgadmin,                  name: pgadmin3-testing, ignore: true }
 - { setname: pgagent,                  namepat: "postgresql[0-9.-]*pgagent" }
 - { setname: pgcli,                    name: "python:pgcli" }
