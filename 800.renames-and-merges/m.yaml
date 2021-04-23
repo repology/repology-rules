@@ -165,7 +165,8 @@
 - { setname: minetest-mineclone2,      name: minetest-mineclone }
 - { setname: ming,                     name: libming }
 - { setname: miniserve,                name: "rust:miniserve" }
-- { setname: miniupnpc,                name: "python:miniupnpc" }
+- { setname: miniupnpc,                name: "python:miniupnpc", addflavor: python }
+- { setname: miniupnpc,                name: miniupnpc16 }
 - { setname: minivmac,                 namepat: "minivmac-(.*)", addflavor: $1 }
 - { setname: minixml,                  name: libmxml }
 - { setname: minizip,                  name: libminizip }
