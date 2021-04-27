@@ -17,8 +17,10 @@
 - { name: zimg, wwwpart: sourceforge, setname: zimg-vis }
 - { name: zimg, ruleset: hpux, setname: zimg-vis }
 
-# emulator vs. (deprecated) scala compiler
 - { name: zinc, wwwpart: logiqx, setname: zinc-emulator }
+- { name: zinc, wwwpart: sbt, setname: zinc-compiler }
+- { name: zinc, wwwpart: typesafehub, setname: zinc-compiler-deprecated }
+- { name: zinc, addflag: unclassified }
 
 - { name: zipios++, verge: "2", setname: zipios }
 
