@@ -1,97 +1,101 @@
 # vim: tabstop=30 expandtab softtabstop=30
 
+# exceptions from prefix/suffix processing
+- { name: oh-my-git, addflag: no_suffix }
+
 # common rules
-- { namepat: "libx32-(.*)", setname: "$1", addflavor: libx32 }
-- { namepat: "(.*)-(nogui|nox11)", setname: $1, addflavor: $2 }
-- { namepat: "(.*)-lts", setname: $1 }
+- { noflag: no_suffix,                            namepat: "libx32-(.*)", setname: "$1", addflavor: libx32 }
+- { noflag: no_suffix,                            namepat: "(.*)-(nogui|nox11)", setname: $1, addflavor: $2 }
+- { noflag: no_suffix,                            namepat: "(.*)-lts", setname: $1 }
 
-- { ruleset: aix,             namepat: "(.*)(_64|-64|-64bit)", setname: $1, addflavor: "64" }
+# repo-specific rules
+- { noflag: no_suffix, ruleset: aix,             namepat: "(.*)(_64|-64|-64bit)", setname: $1, addflavor: "64" }
 
-- { ruleset: aosc,            namepat: "(.*)\\+32", setname: $1, addflavor: "32" }
+- { noflag: no_suffix, ruleset: aosc,            namepat: "(.*)\\+32", setname: $1, addflavor: "32" }
 
-- { ruleset: apertis,         namepat: "(.*)-gplv2", setname: $1 }
+- { noflag: no_suffix, ruleset: apertis,         namepat: "(.*)-gplv2", setname: $1 }
 
-- { ruleset: [arch,chakra],   namepat: "lib32-(.*)", setname: $1, addflavor: lib32 }
-- { ruleset: arch,            namepat: "(.*)-multilib", setname: $1, addflavor: multilib }
+- { noflag: no_suffix, ruleset: [arch,chakra],   namepat: "lib32-(.*)", setname: $1, addflavor: lib32 }
+- { noflag: no_suffix, ruleset: arch,            namepat: "(.*)-multilib", setname: $1, addflavor: multilib }
 
-- { ruleset: artix,           namepat: "(.*)-(openrc|runit|s6)", addflag: not_wildcard }
+- { noflag: no_suffix, ruleset: artix,           namepat: "(.*)-(openrc|runit|s6)", addflag: not_wildcard }
 
-- { ruleset: aur,             name: php-svn, setname: "php:svn" } # save from following rule
-- { ruleset: aur,             name: python-svn, setname: "python:svn" } # save from following rule
-- { ruleset: aur,             namepat: "(.*)-(cvs|svn|hg|darcs|bzr|git)", setname: $1, rolling: true }
-- { ruleset: aur,             namepat: "(.*)-(bin|appimage)", setname: $1, addflavor: $2 }
-- { ruleset: aur,             namepat: "(android-(?:aarch64|armv7a-eabi|x86(?:-64)?))-(?!system-image|64)(.*?)", setname: $2, addflavor: $1 }
+- { noflag: no_suffix, ruleset: aur,             name: php-svn, setname: "php:svn" } # save from following rule
+- { noflag: no_suffix, ruleset: aur,             name: python-svn, setname: "python:svn" } # save from following rule
+- { noflag: no_suffix, ruleset: aur,             namepat: "(.*)-(cvs|svn|hg|darcs|bzr|git)", setname: $1, rolling: true }
+- { noflag: no_suffix, ruleset: aur,             namepat: "(.*)-(bin|appimage)", setname: $1, addflavor: $2 }
+- { noflag: no_suffix, ruleset: aur,             namepat: "(android-(?:aarch64|armv7a-eabi|x86(?:-64)?))-(?!system-image|64)(.*?)", setname: $2, addflavor: $1 }
 
-- { ruleset: buckaroo,        wwwpart: boost.org, setname: boost, addflavor: $0 }
-- { ruleset: buckaroo,        wwwpart: pocoproject.org, setname: poco, addflavor: $0 }
-- { ruleset: buckaroo,        wwwpart: sfml-dev.org, setname: sfml, addflavor: $0 }
+- { noflag: no_suffix, ruleset: buckaroo,        wwwpart: boost.org, setname: boost, addflavor: $0 }
+- { noflag: no_suffix, ruleset: buckaroo,        wwwpart: pocoproject.org, setname: poco, addflavor: $0 }
+- { noflag: no_suffix, ruleset: buckaroo,        wwwpart: sfml-dev.org, setname: sfml, addflavor: $0 }
 
-- { ruleset: carbs,           namepat: "(.*)-git", ver: "git", setname: $1, rolling: true }
+- { noflag: no_suffix, ruleset: carbs,           namepat: "(.*)-git", ver: "git", setname: $1, rolling: true }
 
-- { ruleset: crux,            namepat: "(.*)-32", setname: $1, addflavor: compat-32 } # XXX: ideally, this should check for "subrepo: compat-32", but there's no such check and I'm too lazy to implement it
+- { noflag: no_suffix, ruleset: crux,            namepat: "(.*)-32", setname: $1, addflavor: compat-32 } # XXX: ideally, this should check for "subrepo: compat-32", but there's no such check and I'm too lazy to implement it
 
-- { ruleset: chocolatey,      namepat: "(.*)\\.(install|portable|commandline)", setname: $1, addflavor: $2 }
+- { noflag: no_suffix, ruleset: chocolatey,      namepat: "(.*)\\.(install|portable|commandline)", setname: $1, addflavor: $2 }
 
 # cygwin cross-packages
-- { ruleset: cygwin,          namepat: "cygwin(32|64)", setname: "cygwin$1-cygwin" }
-- { ruleset: cygwin,          namepat: "cygwin(32|64)-default-manifest", setname: "cygwin$1-windows-default-manifest" }
-- { ruleset: cygwin,          namepat: "cygwin32-(.*)", setname: $1, addflavor: i686-pc-cygwin }
-- { ruleset: cygwin,          namepat: "cygwin64-(.*)", setname: $1, addflavor: x86_64-pc-cygwin }
+- { noflag: no_suffix, ruleset: cygwin,          namepat: "cygwin(32|64)", setname: "cygwin$1-cygwin" }
+- { noflag: no_suffix, ruleset: cygwin,          namepat: "cygwin(32|64)-default-manifest", setname: "cygwin$1-windows-default-manifest" }
+- { noflag: no_suffix, ruleset: cygwin,          namepat: "cygwin32-(.*)", setname: $1, addflavor: i686-pc-cygwin }
+- { noflag: no_suffix, ruleset: cygwin,          namepat: "cygwin64-(.*)", setname: $1, addflavor: x86_64-pc-cygwin }
 
-- { ruleset: deb_multimedia,  namepat: "(.*)-dmo", setname: "$1" }
+- { noflag: no_suffix, ruleset: deb_multimedia,  namepat: "(.*)-dmo", setname: "$1" }
 
-- { ruleset: debuntu,         namepat: "(.*)-lts-(quantal|raring|saucy|trusty|utopic|vivid|wily|xenial|yakkety|zesty|artful|bionic)", setname: $1 }
-- { ruleset: debuntu,         namepat: "(.*)-(hwe-[0-9]{2}\\.[0-9]{2})", setname: $1, addflavor: $2 }
+- { noflag: no_suffix, ruleset: debuntu,         namepat: "(.*)-lts-(quantal|raring|saucy|trusty|utopic|vivid|wily|xenial|yakkety|zesty|artful|bionic)", setname: $1 }
+- { noflag: no_suffix, ruleset: debuntu,         namepat: "(.*)-(hwe-[0-9]{2}\\.[0-9]{2})", setname: $1, addflavor: $2 }
 
 # XXX: handle (.*)-devel for freebsd?
-- { ruleset: freebsd,         namepat: "(.*)-(emacs[0-9]+(?:_canna|_nox)?)", setname: $1, addflavor: $2, addflag: emacs }
-- { ruleset: freebsd,         namepat: "(.*)-(php[0-9]+)", setname: $1, addflavor: $2 }
-- { ruleset: freebsd,         namepat: "(.*)-(py[0-9]+)", setname: $1, addflavor: $2 }
-- { ruleset: freebsd,         namepat: "(linux-(?:c6|c7|f10))-(.*)", setname: $2, addflavor: $1, legacy: true }
-- { ruleset: freebsd,         namepat: "(.*)-kde4", setname: $1, addflavor: kde4 }
+- { noflag: no_suffix, ruleset: freebsd,         namepat: "(.*)-(emacs[0-9]+(?:_canna|_nox)?)", setname: $1, addflavor: $2, addflag: emacs }
+- { noflag: no_suffix, ruleset: freebsd,         namepat: "(.*)-(php[0-9]+)", setname: $1, addflavor: $2 }
+- { noflag: no_suffix, ruleset: freebsd,         namepat: "(.*)-(py[0-9]+)", setname: $1, addflavor: $2 }
+- { noflag: no_suffix, ruleset: freebsd,         namepat: "(linux-(?:c6|c7|f10))-(.*)", setname: $2, addflavor: $1, legacy: true }
+- { noflag: no_suffix, ruleset: freebsd,         namepat: "(.*)-kde4", setname: $1, addflavor: kde4 }
 
-- { ruleset: gentoo,          namepat: "(.*)-(bin)", setname: $1, addflavor: $2 }
+- { noflag: no_suffix, ruleset: gentoo,          namepat: "(.*)-(bin)", setname: $1, addflavor: $2 }
 
-- { ruleset: guix,            namepat: "(guile)([0-9.]+)(-.*)", setname: $1$3, addflavor: $1$2 }
+- { noflag: no_suffix, ruleset: guix,            namepat: "(guile)([0-9.]+)(-.*)", setname: $1$3, addflavor: $1$2 }
 
 # XXX: expand this onto whole haiku-apps category
-- { ruleset: haikuports,      setname: "haiku-$0", category: haiku-apps, name: [peek, rename, mev, moe] }
+- { noflag: no_suffix, ruleset: haikuports,      setname: "haiku-$0", category: haiku-apps, name: [peek, rename, mev, moe] }
 
-- { ruleset: kaos,            namepat: "(.*)-debug", setname: $1, addflavor: debug }
+- { noflag: no_suffix, ruleset: kaos,            namepat: "(.*)-debug", setname: $1, addflavor: debug }
 
-- { ruleset: kiss,            namepat: "(.*)-git", ver: "git", setname: $1 } # Note: rolling status set for 'git' versions in 899 ruleset
+- { noflag: no_suffix, ruleset: kiss,            namepat: "(.*)-git", ver: "git", setname: $1 } # Note: rolling status set for 'git' versions in 899 ruleset
 
-- { ruleset: [libregamewiki,fdroid,ruckzuck], replaceinname: { " ": "-", "!": "", ",": "", ":": "", "'": "", ".": "", "(": "", ")": "" } }
-- { ruleset: [libregamewiki,fdroid,ruckzuck], replaceinname: { "---": "-" } }
+- { noflag: no_suffix, ruleset: [libregamewiki,fdroid,ruckzuck], replaceinname: { " ": "-", "!": "", ",": "", ":": "", "'": "", ".": "", "(": "", ")": "" } }
+- { noflag: no_suffix, ruleset: [libregamewiki,fdroid,ruckzuck], replaceinname: { "---": "-" } }
 
-- { ruleset: macports,        namepat: "(.*)-devel", setname: $1, weak_devel: true }
+- { noflag: no_suffix, ruleset: macports,        namepat: "(.*)-devel", setname: $1, weak_devel: true }
 
-- { ruleset: nix,             namepat: "(.*)-unstable", setname: $1, weak_devel: true }
+- { noflag: no_suffix, ruleset: nix,             namepat: "(.*)-unstable", setname: $1, weak_devel: true }
 
-- { ruleset: npackd,          namepat: "(.*?)(-?64)", setname: $1, addflavor: "64" }
+- { noflag: no_suffix, ruleset: npackd,          namepat: "(.*?)(-?64)", setname: $1, addflavor: "64" }
 
-- { ruleset: openwrt,         namepat: "(.*)_nohf", setname: $1, addflavor: nohf } # entware, on some arm platforms
+- { noflag: no_suffix, ruleset: openwrt,         namepat: "(.*)_nohf", setname: $1, addflavor: nohf } # entware, on some arm platforms
 
-- { ruleset: parabola,        namepat: "(.*)-static-debug", setname: $1, addflavor: static-debug }
+- { noflag: no_suffix, ruleset: parabola,        namepat: "(.*)-static-debug", setname: $1, addflavor: static-debug }
 
-- { ruleset: rebornos,        namepat: "(.*)-bin", setname: $1, addflavor: bin }
-- { ruleset: rebornos,        namepat: "(.*)-git", setname: $1, ignore: true }
+- { noflag: no_suffix, ruleset: rebornos,        namepat: "(.*)-bin", setname: $1, addflavor: bin }
+- { noflag: no_suffix, ruleset: rebornos,        namepat: "(.*)-git", setname: $1, ignore: true }
 
-- { ruleset: scoop,           namepat: "(.*)-(portable)", setname: $1, addflavor: $2 }
+- { noflag: no_suffix, ruleset: scoop,           namepat: "(.*)-(portable)", setname: $1, addflavor: $2 }
 
-- { ruleset: slackware,       namepat: "(.*)-(solibs)", setname: $1, addflavor: $2 }
+- { noflag: no_suffix, ruleset: slackware,       namepat: "(.*)-(solibs)", setname: $1, addflavor: $2 }
 
-- { ruleset: slitaz,          namepat: "(.*)-(dev)", setname: $1, addflavor: $2 }
+- { noflag: no_suffix, ruleset: slitaz,          namepat: "(.*)-(dev)", setname: $1, addflavor: $2 }
 
-- { ruleset: void,            namepat: "chroot-(.*)", setname: $1, addflavor: chroot }
+- { noflag: no_suffix, ruleset: void,            namepat: "chroot-(.*)", setname: $1, addflavor: chroot }
 
-- { ruleset: manjaro,         namepat: "(linux[0-9]+-(?:rt-)?)((?!rt$).*)", setname: $2, addflavor: $1 }
+- { noflag: no_suffix, ruleset: manjaro,         namepat: "(linux[0-9]+-(?:rt-)?)((?!rt$).*)", setname: $2, addflavor: $1 }
 
-- { ruleset: opensuse,        namepat: "(.*?)_[0-9_]*-(gnu(?:-[a-z0-9]+)?-hpc)", setname: $1, addflavor: $2 }
+- { noflag: no_suffix, ruleset: opensuse,        namepat: "(.*?)_[0-9_]*-(gnu(?:-[a-z0-9]+)?-hpc)", setname: $1, addflavor: $2 }
 
-- { ruleset: msys2_mingw,     namepat: "mingw-w64-(i686|x86_64)-(.*)", setname: $2, addflavor: $1 }
-- { ruleset: msys2_mingw,     namepat: "mingw-w64-(.*)", setname: $1 }
-- { ruleset: msys2,           namepat: "(.*)-(git|svn|hg)", setname: $1, weak_devel: true }
+- { noflag: no_suffix, ruleset: msys2_mingw,     namepat: "mingw-w64-(i686|x86_64)-(.*)", setname: $2, addflavor: $1 }
+- { noflag: no_suffix, ruleset: msys2_mingw,     namepat: "mingw-w64-(.*)", setname: $1 }
+- { noflag: no_suffix, ruleset: msys2,           namepat: "(.*)-(git|svn|hg)", setname: $1, weak_devel: true }
 
 # repeat suffix common rules again, as suffix order may vary (e.g. foo-git-nox11 vs. foo-nox11-git)
-- { namepat: "(.*)-(nogui|nox11)", setname: $1, addflavor: $2 }
+- { noflag: no_suffix, namepat: "(.*)-(nogui|nox11)", setname: $1, addflavor: $2 }
