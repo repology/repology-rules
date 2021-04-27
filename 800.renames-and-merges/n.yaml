@@ -75,6 +75,7 @@
 - { setname: nextcloud,                name: "php:nextcloud", addflavor: php }
 - { setname: nextcloud,                name: nextcloud-testing, weak_devel: true, nolegacy: true }
 - { setname: nextcloud-client,         name: [nextcloudclient,nextcloud-desktop,nextclouddesktop] }
+- { setname: nextcloud-client,         name: nextcloud-client-appimage-daily, weak_devel: true }
 - { setname: nexus,                    name: [nexus-oss,libnexus,nexus2-oss] }
 - { setname: nghttp2,                  name: libnghttp2 }
 - { setname: nghttp2,                  name: [nghttp2-tools,nghttp2-python], addflavor: true }
