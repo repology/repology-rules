@@ -163,6 +163,11 @@
 - { name: mog, setname: mazeofgalious, wwwpart: braingames }
 - { name: mog, addflag: unclassified }
 
+- { name: monero, wwwpart: gui, setname: monero-gui }
+- { name: monero, wwwpart: [cli,"github.com/monero-project/monero/"], setname: monero-cli }
+- { name: monero, wwwpat: "github.com/monero-project/monero$", setname: monero-cli }
+- { name: monero, addflag: unclassified }
+
 - { name: mongo, wwwpart: namesys, setname: mongo-fs-load-tester }
 - { name: mongo, ruleset: sisyphus, setname: mongodb }
 - { name: mongo, addflag: unclassified }
