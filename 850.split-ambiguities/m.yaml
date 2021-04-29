@@ -165,7 +165,7 @@
 
 - { name: monero, wwwpart: gui, setname: monero-gui }
 - { name: monero, wwwpart: [cli,"github.com/monero-project/monero/"], setname: monero-cli }
-- { name: monero, wwwpat: "github.com/monero-project/monero$", setname: monero-cli }
+- { name: monero, wwwpat: ".*github.com/monero-project/monero", setname: monero-cli }
 - { name: monero, addflag: unclassified }
 
 - { name: mongo, wwwpart: namesys, setname: mongo-fs-load-tester }
