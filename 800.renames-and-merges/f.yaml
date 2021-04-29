@@ -45,7 +45,7 @@
 - { setname: fftw,                     namepat: "(?:lib)?fftw[0-9.-]*(-double|-float|-long-double|-quad|-single|-long|-mpi|-mpich|-openmpi|-common|-gnu-.*)?", addflavor: $1 }
 - { setname: fgfs-atlas,               name: flightgear-atlas }
 - { setname: fgfs-base,                name: flightgear-base }
-- { setname: fife,                     name: [fifengine,"python:fife"] }
+- { setname: fife,                     name: fifengine }
 - { setname: fifechan,                 name: fifechan-git, weak_devel: true, nolegacy: true }
 - { setname: file,                     name: libmagic, addflavor: true }
 - { setname: file-roller,              name: [file-roller-ja,file-roller-tmp,file-roller2-nn,file-roller-debug], addflavor: true }
