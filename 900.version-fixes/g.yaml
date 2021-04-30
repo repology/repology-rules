@@ -123,7 +123,7 @@
 - { name: gnome-boxes,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-builder,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-calculator,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: gnome-calculator,            verge: "5",                                         outdated: true } # old version scheme from gcalctool
+- { name: gnome-calculator,            verge: "5", verlt: "7",                             outdated: true } # old version scheme from gcalctool
 - { name: gnome-calendar,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-characters,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-chess,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
