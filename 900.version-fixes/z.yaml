@@ -9,9 +9,9 @@
 - { name: zangband,                    verpat: ".*p.*",                                    devel: true }
 - { name: zapcc,                                                                           noscheme: true } # https://github.com/yrnkrn/zapcc/releases
 - { name: zathura,                     ver: "20101104",                                    snapshot: true }
-- { name: zbar,                        verge: "0.20",                                      successor: true } # linuxtv.org fork
-- { name: zbar,                        verpat: ".*20[0-9]{2}.*",                           snapshot: true }
-- { name: zbar,                                                      ruleset: os4depot,    incorrect: true }
+- { name: zbar,                        verge: ".*\\.9[1-9]",                               devel: true } # assumed (0.23.90 is release, 0.23.9[12] is devel)
+- { name: zbar,                        verpat: ".+20[0-9]{2}.*",                           snapshot: true }
+- { name: zbar,                                                      ruleset: os4depot,    incorrect: true } # fake 1.1(0.10)
 - { name: zd1211-firmware,             ver: "3.0.0.56",                                    outdated: true } # some obsolete garbage from debian oldstable
 - { name: zeal,                        ver: "0.6.999",               ruleset: nix,         incorrect: true }
 - { name: zeal,                                                      ruleset: nix,         untrusted: true } # accused of fake 0.6.999
