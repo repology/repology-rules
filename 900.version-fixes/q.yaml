@@ -21,6 +21,11 @@
 - { name: qimageblitz,                                               ruleset: astra,       untrusted: true }
 - { name: qimageblitz,                 ver: "4.0.0",                                       outdated: true } # pclinuxos, circa 2008
 - { name: qimageblitz,                 verlonger: 3,                                       incorrect: true }
+- { name: qimageblitz,                 ver: "5.0.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: qimageblitz,                                               ruleset: sisyphus,    untrusted: true } # accused of fake 5.0.0
+- { name: qimageblitz,                 ver: "0.1.0",                 ruleset: [astra,freebsd], incorrect: true } # "a made-up version also used in some linux distros" as per FreeBSD port
+- { name: qimageblitz,                                               ruleset: [astra,freebsd], untrusted: true } # accused of fake 0.1.0
+- { name: qimageblitz,                 verpat: ".*[0-9]{7}.*",                             snapshot: true } # date or SVN revision
 - { name: qjson,                       ver: "1.0.0",                 ruleset: openmandriva, incorrect: true }
 - { name: qjson,                                                     ruleset: openmandriva, untrusted: true }
 - { name: qjson,                                                     ruleset: pisi,        untrusted: true } # repacked, accused of fake 0.82
