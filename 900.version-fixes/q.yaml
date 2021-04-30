@@ -34,6 +34,7 @@
 - { name: qlipper,                     verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: qml-box2d,                                                                       noscheme: true }
 - { name: qoauth,                      ver: "2.0.1",                                       setver: "2.0.0" } # seem to be upstream misversion https://github.com/ayoy/qoauth/commit/fc4ff853c10f4bac99d1a1d8a36ca86c019f2ed2
+- { name: qoauth,                      verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: qogir-theme,                 verpat: "20[0-9]{6}",                               incorrect: true } # YYYY-MM-DD
 - { name: qpdfview,                    verpat: ".*pre.*",                                  incorrect: true } # gentoo fakes
 - { name: qpdfview,                    ver: "0.4.18",                ruleset: [sisyphus,mageia,pclinuxos], incorrect: true } # beta
