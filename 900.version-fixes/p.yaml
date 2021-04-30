@@ -55,6 +55,7 @@
 - { name: pcsx2,                       vereq: "1.5",                 ruleset: [debuntu,wikidata], incorrect: true }
 - { name: pcsx2,                                                     ruleset: [debuntu,wikidata], untrusted: true } # accused of fake 1.5
 - { name: pcsx2,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: pcsxr,                       verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: pdf2svg,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: pdf4tcl,                     verpat: "[0-9]+",                                   incorrect: true } # 0.9.2, not 092
 - { name: pdfbook,                                                                         noscheme: true }
