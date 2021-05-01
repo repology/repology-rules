@@ -187,6 +187,7 @@
 - { name: libqxt,                      ver: "0.7.0",                                       incorrect: true } # not released and will likely never be, as the project is discontinued
 - { name: libraw,                      ver: "201903",                                      incorrect: true } # vcpkg; wtf, it's not even a date
 - { name: libraw,                      verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: librem,                      verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: libreplaygain,                                                                   noscheme: true }
 - { name: librsb,                      ver: "1.2.0",                 ruleset: [freshcode], incorrect: true } # 1.2.0rc7
 - { name: librsvg,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
