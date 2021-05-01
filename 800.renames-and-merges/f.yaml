@@ -43,6 +43,7 @@
 - { setname: ffsend,                   name: "rust:ffsend" }
 - { setname: fftw,                     name: [fftwf,fftw-avx,fftw-static] }
 - { setname: fftw,                     namepat: "(?:lib)?fftw[0-9.-]*(-double|-float|-long-double|-quad|-single|-long|-mpi|-mpich|-openmpi|-common|-gnu-.*)?", addflavor: $1 }
+- { setname: ffuf,                     name: "go:ffuf" }
 - { setname: fgfs-atlas,               name: flightgear-atlas }
 - { setname: fgfs-base,                name: flightgear-base }
 - { setname: fife,                     name: fifengine }
