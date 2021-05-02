@@ -45,6 +45,7 @@
 - { name: telegram-cli,                                              ruleset: [slackbuilds,termux], untrusted: true }
 - { name: telegram-cli,                ver: "1.3.3",                 ruleset: sisyphus,    incorrect: true }
 - { name: telegram-cli,                                              ruleset: sisyphus,    untrusted: true }
+- { name: telegram-cli,                ver: "20200106",                                    ignore: false }
 - { name: telepathy-butterfly,         ver: "0.5.18",                ruleset: pisi,        incorrect: true }
 - { name: telepathy-butterfly,                                       ruleset: pisi,        untrusted: true } # accused of fake 0.5.18
 - { name: telepathy-glib,              verpat: "0\\.99\\..*",                              devel: true }
