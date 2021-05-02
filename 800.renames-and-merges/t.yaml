@@ -26,6 +26,7 @@
 - { setname: tcllib,                   name: tcllibc, addflavor: c } # FreeBSD artifact, c implementation split out of tcllib
 - { setname: tclreadline,              name: [tcl-readline,tcl-tclreadline] }
 - { setname: tdb,                      name: [libtdb,tdb1] }
+- { setname: tdlib,                    name: libtd }
 - { setname: tds-fdw,                  namepat: "(postgresql[0-9.-]*)-tds-fdw", addflavor: $1 }
 - { setname: tea,                      name: [teaqt, tea-qt] }
 - { setname: teamcity,                 name: [teamcity-openjdk8,teamcity-preinstalledjre], addflavor: true }
