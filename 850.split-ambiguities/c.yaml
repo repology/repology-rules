@@ -15,6 +15,10 @@
 - { name: calc, ruleset: [openbsd,pld,solus], setname: calc-arbitrary-precision-calculator }
 - { name: calc, addflag: unclassified }
 
+- { name: calculix, wwwpart: ccx, setname: calculix-ccx }
+- { name: calculix, wwwpart: cgx, setname: calculix-cgx }
+- { name: calculix, addflag: unclassified }
+
 - { name: calendar, wwwpart: openbsd, setname: calendar-openbsd }
 - { name: calendar, wwwpart: ocaml, setname: "ocaml:calendar" }
 - { name: calendar, wwwpart: bsdcalendar, setname: bsdcalendar }
