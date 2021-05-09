@@ -6,6 +6,8 @@
 - { setname: llvm, name: [llvm-common,llvm-manpages,llvm-runtime,"python:llvm",mesa-private-llvm,llvm-minimal,llvm-test-suite,llvm-private], addflavor: true }
 - { setname: llvm, name: llvm-devel, weak_devel: true, nolegacy: true }
 - { setname: llvm, namepat: "llvm-toolset-[0-9.-]+-([a-z-]+)", addflavor: $1 }
+- { setname: llvm, name: llvm-stable }
+- { setname: llvm, name: llvm-rc, weak_devel: true }
 
 - { setname: llvm, name: [clang+llvm-binaries], addflavor: true }
 
@@ -15,6 +17,8 @@
 - { setname: llvm, name: [clang, clang-runtime, clang-toolchain, clang-common, clang-manpages, clang-tools, clang-format], addflavor: true }
 - { setname: llvm, name: clang-wrapper, addflavor: clang, ruleset: nix } # see report
 - { setname: llvm, namepat: "clang[0-9.-]+", addflavor: clang }
+- { setname: llvm, name: clang-stable, addflavor: clang }
+- { setname: llvm, name: clang-rc, addflavor: clang, weak_devel: true }
 
 # clang-tools-extra
 - { setname: llvm, name: clang-tools-extra, addflavor: true }
@@ -23,6 +27,8 @@
 - { setname: llvm, name: [compiler-rt, compiler-rt-sanitizers], addflavor: true }
 - { setname: llvm, name: compiler-rt8, addflavor: compiler-rt }
 - { setname: llvm, name: wasi-compiler-rt11, addflavor: wasi-compiler-rt }
+- { setname: llvm, name: compiler-rt-stable, addflavor: compiler-rt }
+- { setname: llvm, name: compiler-rt-rc, addflavor: compiler-rt, weak_devel: true }
 
 # flang
 - { setname: llvm, name: flang, addflavor: true }
@@ -36,9 +42,11 @@
 - { setname: llvm, name: libc++, addflavor: true }
 - { setname: llvm, name: wasi-libcxx, addflavor: wasi-libc++ }
 - { setname: llvm, name: klee-libc++, addflavor: true }
+- { setname: llvm, name: libc++-stable, addflavor: libc++ }
+- { setname: llvm, name: libc++-rc, addflavor: libc++, weak_devel: true }
 
 # libc++abi
-- { setname: llvm, name: libc++abi, addflavor: true }
+- { setname: llvm, name: [libc++abi,libcxx+libcxxabi], addflavor: libc++abi }
 
 # libomp
 - { setname: llvm, name: libomp, addflavor: true }
@@ -46,14 +54,22 @@
 # lld
 - { setname: llvm, name: lld, addflavor: true }
 - { setname: llvm, name: lld7, addflavor: lld }
+- { setname: llvm, name: lld-stable, addflavor: lld }
+- { setname: llvm, name: lld-rc, addflavor: lld, weak_devel: true }
 
 # lldb
 - { setname: llvm, name: [lldb, lldb-assert,lldb-polly], addflavor: true }
 - { setname: llvm, namepat: "lldb[0-9.-]*-split", addflavor: lldb }
 - { setname: llvm, namepat: "lldb[0-9.-]+", addflavor: lldb }
+- { setname: llvm, name: lldb-stable, addflavor: lldb }
+- { setname: llvm, name: lldb-rc, addflavor: lldb, weak_devel: true }
 
 # llvm-libunwind
 - { setname: llvm, name: llvm-libunwind, addflavor: true } # also some 'unwind' bits are merged in 850 ruleset
 
 # ocaml
 - { setname: llvm, name: ["ocaml:llvm", "ocaml:llvm-ocaml"], addflavor: ocaml }
+
+# polly
+- { setname: llvm, name: polly-stable, addflavor: polly }
+- { setname: llvm, name: polly-rc, addflavor: polly, weak_devel: true }
