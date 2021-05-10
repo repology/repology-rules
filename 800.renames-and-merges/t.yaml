@@ -63,7 +63,7 @@
 - { setname: tetrinetx,                name: [tetrinet-x,tetrinet-server] }
 - { setname: tevent,                   name: [libtevent,tevent1] }
 - { setname: tevent,                   name: tevent-man, addflavor: man }
-- { setname: texlive,                  name: [texlive-combined-basic,texlive-combined-context,texlive-combined-full,texlive-combined-gust,texlive-combined-medium,texlive-combined-minimal,texlive-combined-small,texlive-combined-tetex,texlive-core], addflavor: true }
+- { setname: texlive,                  name: [texlive-combined-basic,texlive-combined-context,texlive-combined-full,texlive-combined-gust,texlive-combined-medium,texlive-combined-minimal,texlive-combined-small,texlive-combined-tetex,texlive-core,texlive-bin], addflavor: true }
 - { setname: texlive-documentation,    namepat: "texlive-documentation-.*", ruleset: gentoo }
 - { setname: texmaker,                 name: texmaker-qt4, addflavor: true }
 - { setname: texshop,                  name: texshop4 }
