@@ -15,8 +15,11 @@
 - { name: calc, ruleset: [openbsd,pld,solus], setname: calc-arbitrary-precision-calculator }
 - { name: calc, addflag: unclassified }
 
-- { name: calculix, wwwpart: ccx, setname: calculix-ccx }
-- { name: calculix, wwwpart: cgx, setname: calculix-cgx }
+# seemingly parts of single project, but still may have different versions
+- { name: calculix, wwwpart: ccx, addflag: ccx }
+- { name: calculix, wwwpart: cgx, addflag: cgx }
+- { name: calculix, wwwpart: ccx, noflag: cgx, setname: calculix-ccx }
+- { name: calculix, wwwpart: cgx, noflag: ccx, setname: calculix-cgx }
 - { name: calculix, addflag: unclassified }
 
 - { name: calendar, wwwpart: openbsd, setname: calendar-openbsd }
