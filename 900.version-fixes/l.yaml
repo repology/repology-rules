@@ -123,6 +123,10 @@
 - { name: ltrace,                      verpat: ".*_.*",              ruleset: slackbuilds, debianism: true }
 - { name: ltunify,                     verpat: "20[0-9]{6}",                               ignore: true }
 - { name: lua,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]+[.-].*",           incorrect: true } # windows (XXX: https://github.com/rjpcomputing/luaforwindows project), split?
+- { name: "lua:ada",                   ver: "1.0",                   ruleset: freebsd,     incorrect: true }
+- { name: "lua:ada",                                                 ruleset: freebsd,     untrusted: true } # accused of fake 1.0
+- { name: "lua:ada",                   ver: "1.01",                  ruleset: ravenports,  incorrect: true }
+- { name: "lua:ada",                                                 ruleset: ravenports,  untrusted: true } # accused of fake 1.01
 - { name: "lua:check",                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "lua:cjson",                 verlonger: 3,                                       incorrect: true } # 2.1.0
 - { name: "lua:cliargs",               ver: "3.02",                                        incorrect: true } # 2.1.0
