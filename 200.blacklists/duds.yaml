@@ -6,3 +6,4 @@
 - { remove: true,   name: hello,        ruleset: distri }
 - { remove: true,   name: elrepo-release }
 - { remove: true,   name: zp,           ruleset: opensuse } # just a shorter alias for zypper
+- { remove: true,   name: genpatch,     ruleset: [freebsd,ravenports] } # freebsd or ravenports specific utils
