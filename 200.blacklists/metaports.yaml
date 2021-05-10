@@ -134,4 +134,4 @@
 - { ruleset: openpkg, namepat: "perl-.*",         remove: true }
 - { ruleset: openpkg, namepat: "python-.*",       remove: true }
 
-- { remove: true,   name: gstreamer1-plugins-core, ruleset: freebsd } # custom metaport
+- { remove: true,   name: [gstreamer1-plugins-core, gst-core, gstreamer-plugins-core] } # custom metaports
