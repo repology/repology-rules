@@ -394,9 +394,6 @@
 - { setname: gssdp,                    name: libgssdp }
 - { setname: gssproxy,                 name: gss-proxy }
 - { setname: gst-python,               namepat: "python:(gst|gstreamer|gst-python)[0-9.-]*" }
-- { setname: "gstreamer:bad",          name: ["gstreamer:bad-debug","gstreamer:bad-free", "gstreamer:bad-freeworld", "gstreamer:bad-nonfree"], addflavor: true }
-- { setname: "gstreamer:base",         name: ["gstreamer:base-libs"], addflavor: true }
-- { setname: "gstreamer:ugly",         name: ["gstreamer:ugly-free"], addflavor: true }
 - { setname: gstreamermm,              namepat: "(?:lib)?gstreamer[0-9.-]*mm[0-9.-]*" }
 - { setname: gsutil,                   name: "python:gsutil" }
 - { setname: gtest,                    name: [googletest,libgtest] }

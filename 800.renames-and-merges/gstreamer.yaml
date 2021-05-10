@@ -1,0 +1,47 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { setname: "gstreamer:bad",          name: ["gstreamer:bad-debug","gstreamer:bad-free", "gstreamer:bad-freeworld", "gstreamer:bad-nonfree"], addflavor: true }
+- { setname: "gstreamer:base",         name: ["gstreamer:base-libs"], addflavor: true }
+- { setname: "gstreamer:ugly",         name: ["gstreamer:ugly-free"], addflavor: true }
+
+- setname: "gstreamer:base"
+  name:
+    - "gstreamer:ogg"
+    - "gstreamer:pango"
+    - "gstreamer:theora"
+    - "gstreamer:vorbis"
+  addflavor: true
+
+- setname: "gstreamer:good"
+  name:
+    - "gstreamer:aalib"
+    - "gstreamer:cairo"
+    - "gstreamer:flac"
+    - "gstreamer:gdkpixbuf"
+    - "gstreamer:jpeg"
+    - "gstreamer:libpng"
+    - "gstreamer:soup"
+    - "gstreamer:speex"
+    - "gstreamer:taglib"
+    - "gstreamer:v4l2"
+    - "gstreamer:vpx"
+    - "gstreamer:wavpack"
+    - "gstreamer:x"
+  addflavor: true
+
+- setname: "gstreamer:bad"
+  name:
+    - "gstreamer:curl"
+    - "gstreamer:faac"
+    - "gstreamer:faad"
+    - "gstreamer:resindvd"
+    - "gstreamer:webp"
+    - "gstreamer:x265"
+  addflavor: true
+
+- setname: "gstreamer:ugly"
+  name:
+    - "gstreamer:a52dec"
+    - "gstreamer:dvdread"
+    - "gstreamer:x264"
+  addflavor: true

@@ -133,3 +133,5 @@
 # openpkg uses module packs versioned after corresponding language
 - { ruleset: openpkg, namepat: "perl-.*",         remove: true }
 - { ruleset: openpkg, namepat: "python-.*",       remove: true }
+
+- { remove: true,   name: gstreamer1-plugins-core, ruleset: freebsd } # custom metaport
