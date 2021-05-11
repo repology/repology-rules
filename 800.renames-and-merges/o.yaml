@@ -29,6 +29,8 @@
 - { setname: ombi,                     name: [ombi-beta,ombi-dev] }
 - { setname: onehouronelife,           namepat: onehouronelife-latest, rolling: true }
 - { setname: onehouronelife,           name: one-hour-one-life }
+- { setname: onetbb,                   name: [intel-tbb,libtbb,threadingbuildingblocks,tbb,intel-oneapi-tbb] }
+- { setname: onetbb,                   name: [intel-tbb-gcc6], addflavor: true }
 - { setname: oniguruma,                name: [onig,libonig], addflavor: onig }
 - { setname: oniguruma,                namepat: "oniguruma[0-9.-]+" }
 - { setname: onscripter,               name: onscripter-1byte, addflavor: 1byte }
