@@ -6,7 +6,10 @@
 
 - setname: "gstreamer:base"
   name:
+    - "gstreamer:alsa"
     - "gstreamer:cdparanoia"
+    - "gstreamer:gio"
+    - "gstreamer:gnomevfs"
     - "gstreamer:ogg"
     - "gstreamer:pango"
     - "gstreamer:theora"
@@ -19,9 +22,11 @@
   name:
     - "gstreamer:aalib"
     - "gstreamer:cairo"
+    - "gstreamer:dv"
     - "gstreamer:flac"
     - "gstreamer:gdkpixbuf"
     - "gstreamer:jpeg"
+    - "gstreamer:lame"
     - "gstreamer:libpng"
     - "gstreamer:soup"
     - "gstreamer:speex"
@@ -34,9 +39,21 @@
 
 - setname: "gstreamer:bad"
   name:
+    - "gstreamer:aom"
+    - "gstreamer:assrender"
+    - "gstreamer:bluez"
+    - "gstreamer:bs2b"
+    - "gstreamer:chromaprint"
+    - "gstreamer:colormanagement"
     - "gstreamer:curl"
+    - "gstreamer:dash"
+    - "gstreamer:dtls"
+    - "gstreamer:dts"
     - "gstreamer:faac"
     - "gstreamer:faad"
+    - "gstreamer:flite"
+    - "gstreamer:gme"
+    - "gstreamer:ladspa"
     - "gstreamer:resindvd"
     - "gstreamer:webp"
     - "gstreamer:x265"
@@ -44,8 +61,12 @@
 
 - setname: "gstreamer:ugly"
   name:
+    - "gstreamer:a52" # same as a52, pkgsrc artifact
     - "gstreamer:a52dec"
+    - "gstreamer:amr" # same as amrnb+amrwb, gentoo artifact
     - "gstreamer:amrnb"
+    - "gstreamer:amrwbdec"
+    - "gstreamer:cdio"
     - "gstreamer:dvdread"
     - "gstreamer:x264"
   addflavor: true
