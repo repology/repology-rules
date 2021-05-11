@@ -14,7 +14,7 @@
 - { setname: qlandkartegt,             name: qlandkarte-gt }
 - { setname: qlcplus,                  name: qlcplus-qt5, addflavor: true }
 - { setname: qlipper,                  name: qlipper2 }
-- { setname: qmk,                      name: "python:$0" }
+- { setname: qmk,                      name: ["python:$0", qmk-cli] }
 - { setname: qmmp,                     name: qmmp1 }
 - { setname: qmmp,                     name: qmmp-qt5, addflavor: true }
 - { setname: qmmp-plugin-pack,         name: qmmp-plugin-pack-qt5, addflavor: true }
