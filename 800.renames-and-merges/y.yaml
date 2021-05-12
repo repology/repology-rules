@@ -22,8 +22,8 @@
 - { setname: youtube-dl,               name: "python:youtube-dl" }
 - { setname: youtube-dl-gui,           name: youtube-dlg }
 - { setname: ypsilon,                  name: ypsilon-scheme }
-- { setname: yq,                       name: ["python:yq",python-yq] }
-- { setname: yq-mikefarah,             name: yq-go }
+- { setname: yq-kislyuk,               name: ["python:yq",python-yq] }
+- { setname: yq-mikefarah,             name: [yq-go,"go:yq",yq2] }
 - { setname: ytnef,                    name: libytnef } # see https://github.com/Yeraze/ytnef/blob/master/ChangeLog
 - { setname: ytop,                     name: "rust:ytop" }
 - { setname: yubico-piv-tool,          name: ykpivmgr }
