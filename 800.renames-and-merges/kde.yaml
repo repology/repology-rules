@@ -411,3 +411,5 @@
 - { setname: kimageannotator,          name: lib$0 }
 - { setname: plasma-desktop,           name: plasma5-desktop }
 - { setname: plasma-$1,                namepat: "(?:plasma-applet-|plasma5-applets?-|plasmoid-)(.+)" }
+- { setname: angelfish,                name: [kde5-plasma-angelfish,plasma-angelfish] }
+- { setname: angelfish,                name: plasma-angelfish-git, weak_devel: true }
