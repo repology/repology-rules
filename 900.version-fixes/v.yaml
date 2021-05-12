@@ -89,6 +89,8 @@
 - { name: vscode,                      verpat: "[0-9]+",                                   incorrect: true } # aur garbage
 - { name: vscode,                      ver: "1.56.0",                ruleset: funtoo,      incorrect: true } # fakes insider as release
 - { name: vscode,                                                    ruleset: funtoo,      untrusted: true } # accused of fake 1.56.0
+- { name: vsftpd,                      verpat: ".*el.*",             ruleset: guix,        incorrect: true } # 3.0.3-32.el8
+- { name: vsftpd,                                                    ruleset: guix,        untrusted: true } # accused of fake 3.0.3-32.el8
 - { name: vte,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: vte,                         ver: "0.28.22",               ruleset: solus,       incorrect: true }
 - { name: vte,                                                       ruleset: solus,       untrusted: true } # accused of fake 0.28.22
