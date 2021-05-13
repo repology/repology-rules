@@ -10,6 +10,6 @@
 - { name: yard, ruleset: aosc, setname: "ruby:yard" }
 - { name: yard, addflag: unclassified }
 
-- { name: yq, wwwpart: mikefarah, setname: yq-mikefarah }
-- { name: yq, wwwpart: kislyuk, setname: yq-kislyuk }
+- { name: yq, wwwpart: mikefarah, setname: yq-mikefarah } # or yq-go?
+- { name: yq, wwwpart: [kislyuk,readthedocs], setname: yq-kislyuk } # or yq-python?
 - { name: yq, addflag: unclassified }
