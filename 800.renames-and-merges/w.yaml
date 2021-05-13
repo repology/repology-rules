@@ -21,8 +21,6 @@
 - { setname: webkitgtk,                namepat: "(?:lib)?webkit[0-9.-]*gtk[0-9.-]*-unstable", weak_devel: true, nolegacy: true }
 - { setname: webkitgtk,                namepat: "webkit[0-9.-]" } # assuming gtk
 - { setname: webkitgtk-sharp,          name: [webkitgtk-sharp3,dotnet-webkitgtk-sharp] }
-- { setname: weboob,                   name: "python:weboob" }
-- { setname: weboob,                   name: weboob-headless, addflavor: headless }
 - { setname: websocketpp,              name: websocket++ }
 - { setname: webvfx,                   name: webvfx-qt5, addflavor: qt5 }
 - { setname: welle.io,                 name: welle-io }
@@ -72,6 +70,9 @@
 - { setname: wlroots,                  name: wlroots-full, addflavor: true }
 - { setname: wmii,                     name: [wmii-devel,wmii-hg], weak_devel: true, nolegacy: true }
 - { setname: wok-plugins-kimchi,       name: wokd }
+- { setname: woob,                     name: ["python:weboob","python:woob",weboob] }
+- { setname: woob,                     name: weboob-headless, addflavor: headless }
+- { setname: woob-qt,                  name: ["python:woob-qt", "python:weboob-qt", weboob-qt] }
 - { setname: words-latin,              name: [latin-words,latin-words-bin] }
 - { setname: worldofpadman,            name: worldofpadman-data, addflavor: data }
 - { setname: worldofpadman,            name: worldofpadman-beta, ignore: true }
