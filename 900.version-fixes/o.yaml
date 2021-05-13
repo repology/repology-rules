@@ -130,6 +130,8 @@
 - { name: orc,                         ver: "0.4.30.1",              ruleset: sisyphus,    incorrect: true }
 - { name: orc,                                                       ruleset: sisyphus,    untrusted: true } # accused of fake 0.4.30.1
 - { name: orca,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: orthorobot,                  verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: orthorobot,                                                ruleset: freebsd,     untrusted: true } # accused of fake 1.1.1.1
 - { name: osinfo-db,                                                 ruleset: sisyphus,    untrusted: true } # accused of fake 20201107
 - { name: osinfo-db,                   ver: "20210105",              ruleset: alpine,      incorrect: true }
 - { name: osinfo-db,                                                 ruleset: alpine,      untrusted: true } # accused of fake 20210105
