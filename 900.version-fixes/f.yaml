@@ -250,6 +250,8 @@
 - { name: functionalplus,                                                                  p_is_patch: true } # https://github.com/Dobiasd/FunctionalPlus/tags
 - { name: fuse,                        verpat: "20[0-9]{6}",         ruleset: ataraxia,    ignore: true } # artifical package with stuff common to fuse and fuse2
 - { name: fuse,                        ver: "3.9.4",                                       setver: "3.9.3", disposable: true } # This was an "accidental" release, it is equivalent to 3.9.3.
+- { name: "fusefs:overlayfs",          ver: "1.6",                   ruleset: fedora,      incorrect: true }
+- { name: "fusefs:overlayfs",                                        ruleset: fedora,      untrusted: true } # accused of fake 1.6
 - { name: fvwm,                        ver: "2.7.0",                 ruleset: t2,          incorrect: true } # latest 2.6.8; how the hell do they reference non-existing version on (ex-) official ftp?
 - { name: fxload,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: fxload,                      ver: "20081013",                                    incorrect: true } # it's 2008_10_13
