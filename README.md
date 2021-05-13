@@ -2,27 +2,29 @@
 
 ![CI](https://github.com/repology/repology-rules/workflows/CI/badge.svg)
 
-There can be a huge discrepancy in how packages for single project
+There can be a huge discrepancy in how packages for a single project
 are named and versioned in different repositories, so Repology
 needs a flexible ruleset in order to overcome the differences,
-match packages and make versions comparable.
+match packages, and make versions comparable.
 
 ## TL;DR
 
-You are welcome to submit pull requests with rules you need. Here's
-a quick pointer of how to add specific rules:
+You are welcome to submit pull requests with the rules you need.
+Here's a quick pointer of how to add specific rules:
 
 ### You want to **merge** differently named packages into a single entry?
 
-- Choose target name (prefer least ambiguous and/or most widely used name)
-- Open corresponding yaml file under `800.renames-and-merges/` (if there's no existing yaml file relevant to your package, use the file named with the first letter of your target name, like `a.yaml`)
-- Add rule like `- { setname: <target name>, name: <original name> }`
+- Choose a target name (prefer the least ambiguous and/or most widely used name)
+- Open the corresponding yaml file under [`800.renames-and-merges/`](./800.renames-and-merges/)
+  (if there's no existing yaml file relevant to your package,
+  use the file named with the first letter of your target name, like `a.yaml`)
+- Add a rule like `- { setname: <target name>, name: <original name> }`
 
-### You want to mark incorrect version of specific package?
+### You want to mark incorrect versions of a specific package?
 
-- Open corresponding yaml file under `900.version-fixes/`
-- Add rule like: `- { name: <package name>, ver: <bad version>, ignore: true }`
-- Consider using a `verpat` with regular expression to match similar
+- Open the corresponding yaml file under [`900.version-fixes/`](./900.version-fixes/)
+- Add a rule like: `- { name: <package name>, ver: <bad version>, ignore: true }`
+- Consider using a `verpat` with a regular expression to match similar
   bad versions which may appear in the future. Examples:
   - `verpat: "20[0-9]{6}"` to match dates (`20110323`)
   - `verpat: "20[0-9]{2}\\.[0-9]{2}\\.[0-9]{2}"` same, but for delimited date, (`2010.03.23`)
@@ -32,44 +34,45 @@ a quick pointer of how to add specific rules:
 
 ### You want to split different projects with the same name
 
-- Open corresponding yaml file under `850.split-ambiguities/`
-- Add a set of rules which distinct packages, such as:
+- Open the corresponding yaml file under [`850.split-ambiguities/`](./850.split-ambiguities/)
+- Add a set of rules which distinguish packages, such as:
   - `- { name: <ambiguous name>, wwwpart: <part of the homepage url>, setname: <specific name> }`
   - `- { name: <ambiguous name>, category: <category>, setname: <specific name> }`
   - `- { name: <ambiguous name>, verpat: <version pattern>, setname: <specific name> }`
-  - `- { name: <ambiguous name>, ruleset: <families>, setname: <specific name> }` as a least resort
+  - `- { name: <ambiguous name>, ruleset: <families>, setname: <specific name> }` as a last resort
 
 ## Contributing
 
-Things to know if you're submitting pull request or have push access
+Things to know if you're submitting a pull request or have push access
 to this repository.
 
-- Repology is currently set up to automatically pull latest ruleset
-from `master` branch in this repo on each update, so everything
-committed here will be automatically applied to repology in several
-hours.
-- Repology runs `make check` after updating the repo, and if it
-fails, rolls back to the latest good commit, so it's somewhat
-protected from broken ruleset.
-- In the worst case, broken ruleset will prevent repology from
-updating until the problem is resolved.
+- Repology is currently set up to automatically pull the latest ruleset
+  from the `master` branch in this repository on each update, so everything
+  committed here will be automatically applied to Repology in several
+  hours.
+- Repology runs `make check` after updating the repository, and if it
+  fails, rolls back to the latest good commit, so it's somewhat
+  protected from a broken ruleset.
+- In the worst case, a broken ruleset will prevent Repology from
+  updating until the problem is resolved.
 - Still, please run `make check` before committing, and/or install
-a git hook (`scripts/pre-push`) which runs it for you (you can copy
-it into `.git/hooks` or just run `make install-hook`).
-- The checker script requires python modules `voluptous` and `PyYAML`.
-`pip install PyYAML voluptuous` should install them for you.
+  the git hook in [`scripts/pre-push`](./scripts/pre-push),
+  which runs it for you (you can copy it into `.git/hooks`
+  or just run `make install-hook`).
+- The checker script requires the Python modules `voluptuous` and `PyYAML`.
+  `pip install PyYAML voluptuous` should install them for you.
 - In general, stay close to the style already used in the ruleset,
-use existing rules as examples, keep it simple and have fun!
-- If in doubt, you can always just submit a report on the website
-and avoid all the work!
+  use existing rules as examples, keep it simple and have fun!
+- If in doubt, you can always just submit a report from the package's page
+  on the website and avoid all the work!
 
 ## Rule basics
 
 Rules are stored in a set of files in [YAML](http://yaml.org/) format,
-a flexible human friendly markup format for structured data. Each
-rule is a single item of big array, and may be written in single or
+a flexible human-friendly markup format for structured data.
+Each rule is a single item of a big array, and may be written in a single or
 multiple lines (depending on what's more convenient for the particular
-case), for example this rule renames `etracer` into `extreme-tuxracer`.
+case). For example, the following rule renames `etracer` into `extreme-tuxracer`:
 
 ```yaml
 - { name: etracer, setname: extreme-tuxracer }
@@ -84,46 +87,48 @@ which is the same as:
 
 Each rule has a set of keywords which specify how a package is matched
 (by name, version, repository, category etc.) and how it is modified
-(package is renamed, version scheme is changed, flags are applied etc.).
+(package is renamed, version scheme is changed, flags are applied, etc.).
 
 Rule order matters, as multiple rules may match a single package, and
-they are applied in order. Further more, changes applied by earlier
-rules are affecting further matches: for instance, if a package is
-renamed, new name will be matched for the following rules.
+they are applied in order. Furthermore, changes applied by earlier
+rules affect further matches: for instance, if a package is renamed,
+the new name will be matched for the following rules.
 
 While rules are basically arbitrary, it's practical though to attribute
-each rule to specific class of action, most distinctive of which are:
+each rule to a specific class of action, the most distinctive of which are:
 
-- Rename or merge rules. Match name, and set another name. Main purpose
-  is to merge differently named packages into the same project. Such as
+- **Rename or merge rules.** Match a name, and set another name. The main purpose
+  is to merge differently-named packages into the same project. For example,
   `etracer`, `extremetuxracer`, `extreme-tuxracer` → `extreme-tuxracer`.
-- Split rules. Match name and some additional property (version, homepage
-  or repository) and set another name. Used to split similarly named
-  packages of different projects. Such as `clementine` → `clementine-wm`,
+- **Split rules.** Match a name and some additional property (version, homepage
+  or repository), and set another name. Used to split similarly-named
+  packages of different projects. For example, `clementine` → `clementine-wm`,
   `clementine-player`.
-- Version fixes. Match name but do not change it, instead change versions
+- **Version fixes.** Match a name but do not change it; instead, change versions
   or set some version-related flags. Used to fix incorrect versioning scheme
   (`v1.0` → `1.0`), mark some versions as devel (such as beta versions),
-  or ignore some versions (e.g. snapshots like `20130523` while there's
-  official version like `1.0`).
+  or ignore some versions (e.g. snapshots like `20130523` when there are
+  official versions like `1.0`).
 
 ## Ruleset structure
 
-Ruleset is split into several distinctive parts, mostly based on functional
-class of rules described above. They are arranged in such a way that when
-adding a rule into a specific part you don't need to be aware of the rest of
-the ruleset.
+The ruleset is split into several distinctive parts,
+mostly based on the functional class of rules described above.
+They are arranged in such a way that when adding a rule into a specific part
+you don't need to be aware of the rest of the ruleset.
 
 - **100.prefix-suffix** - normalization of repository specific prefixes and
   suffixes which are not part of the meaningful package name. Such as removal
   of `lib32-` prefixes.
+
 - **2xx.handpicked** - a block where access to unmodified package names is
   needed, such as manual whitelists or blacklists.
+
 - **[45]xx.wildcard** - wildcard rules which affect a lot of packages. These
   mostly handle modules for specific languages such as Perl (which may be
-  named like `p5-Foo-Bar` or `libfoo-bar-perl` in different repos) by adding
-  distinctive prefix (`perl:` in this case) to them, so they do not conflict
-  with modules for other languages and other software.
+  named like `p5-Foo-Bar` or `libfoo-bar-perl` in different repositories)
+  by adding distinctive prefix (`perl:` in this case) to them,
+  so they do not conflict with modules for other languages and other software.
 
   There are three subsets here:
   - **pure** rules which are known to not have any false positives
@@ -131,45 +136,49 @@ the ruleset.
   - **exceptions** for the wildcard rules
   - **wildcard** rules themselves
 
-- **750.exceptions** - the small set of remaining exceptions. If a package
-  needs rule here, it's most positively incorrectly named.
+- **750.exceptions** - the small set of remaining exceptions.
+  If a package needs a rule here, it's most positively incorrectly named.
+
 - **800.renames-and-merges** - pure merge rules
+
 - **850.split-ambiguities** - pure split rules
+
 - **900.version-fixes** - pure version fixes
-- **950.split-branches** - additional split section for project which
+
+- **950.split-branches** - additional split section for projects which
   have multiple development branches which are incompatible and may
   present in a single repository at the same time for compatibility
-  purposes. Such as `gtk2` and `gtk3`.
+  purposes. For example, `gtk2` and `gtk3`.
 
-- There are also some **fixme** subsets which are remainings of previous
+- There are also some **fixme** subsets which are remainings of the previous
   generation of the ruleset. These files will eventually be refactored
   and removed.
 
 This may seem complex, but in practice the mostly used rulesets are
 **800**, **850** and **900**, which cleanly correspond to three functional
-classes of rules described in the previous section.
+classes of rules described in the [previous section](#tldr).
 
 Other parts of the ruleset may need attention when new repositories are
 introduced.
 
 ## Rule syntax
 
-As already mentioned, keywords which rules consist are related to either
-matching packages or modifying them. Here's detailed description for all
+As already mentioned, the keywords that comprise rules are related to either
+matching packages, or modifying them. Below are detailed descriptions for all
 of them.
 
 ### Conditions
 
 #### ruleset
 
-Each repository Repology supports has a set of *rulesets* associated with
-it. For instance, all Debian-based distros have ruleset `debuntu`. It may
-be used to only match packages in specific repositories, but without need
-to chase specific repository version. You may look up repositories and
-their retails in [repos.d](https://github.com/repology/repology/tree/master/repos.d)
-directory of main Repology repository.
+Each repository that Repology supports has a set of *rulesets* associated with
+it. For instance, all Debian-based distros have the ruleset `debuntu`. This may
+be used to only match packages in specific repositories, but without the need
+to chase a specific repository version. You may look up repositories and
+their details in the [repos.d](./repos.d) directory of the main Repology
+repository.
 
-You may specify a list of rulesets to match either of them.
+You may specify a list of rulesets to match any of them.
 
 ```yaml
 - { ruleset: freebsd, ... }
@@ -188,12 +197,12 @@ Disable rule matching for specified ruleset(s).
 
 #### family
 
-Deprecated. Same as **ruleset** and may be just changed into it.
+Deprecated. Same as **ruleset**, and may be just changed into it.
 
 #### category
 
 Matches package category(ies). Note that category information is not
-available for all repositories and each repository may have its
+available for all repositories, and each repository may have its
 own set of categories.
 
 ```yaml
@@ -204,7 +213,7 @@ own set of categories.
 
 #### maintainer
 
-Matches package maintainer(s). Match is case insensitive.
+Matches package maintainer(s). The matching is case-insensitive.
 
 ```yaml
 - { maintainer: "nobody@nowhere.com" }
@@ -222,11 +231,11 @@ Match exact package name(s).
 
 #### namepat
 
-Matches package name against a regular expression. Whole name is
-matched. May contain captures.
+Matches package name against a regular expression.
+The whole name is matched. May contain captures.
 
 ```yaml
-- { name: "swig[0-9]+", ... }
+- { namepat: "swig[0-9]+", ... }
 ```
 
 #### ver
@@ -239,7 +248,7 @@ Matches exact package version(s).
 
 #### notver
 
-The opposite of **ver**: matches if package version is none of specified
+The opposite of **ver**: matches if the package version is none of specified
 version(s).
 
 ```yaml
@@ -248,9 +257,9 @@ version(s).
 
 #### verpat
 
-Matches package version name against a regular expression. Whole
-version is matched. Note that you need to escape periods which
-mean "any symbol" in regular expressions. Matching is case insensitive.
+Matches a package version name against a regular expression.
+The whole version is matched. Note that you need to escape periods,
+which mean "any symbol" in regular expressions. Matching is case-insensitive.
 
 ```yaml
 - { name: firefox, verpat: "50\\.[0-9]+", ... }
@@ -260,7 +269,7 @@ mean "any symbol" in regular expressions. Matching is case insensitive.
 
 #### vercomps
 
-Matches versions components count.
+Matches the number of components (dot-separated parts) of a version.
 
 ```yaml
 - { name: gimp, vercomps: 3, ...} # matches 1.2.3, but not 1.2 or 1.2.3.4
@@ -268,10 +277,9 @@ Matches versions components count.
 
 #### verlonger
 
-Matches versions longer than a given number of dot-separated parts.
+Matches versions longer than a given number of components (dot-separated parts).
 
-Mostly useful to match broken version schemes with extra versions
-components added.
+Mostly useful to match broken version schemes that add extra version components.
 
 ```yaml
 - { name: gimp, verlonger: 3, ...} # 2.9.8.12345 is something unofficial
@@ -279,7 +287,7 @@ components added.
 
 #### vergt, verge, verlt, verle, vereq, verne
 
-Compares version to a given one and matches if it's:
+Compares version to a given one and matches if it is:
 
 - **vergt**: greater (>)
 - **verge**: greater or equal (≥)
@@ -299,17 +307,17 @@ You may use **verpat** instead.
 
 #### relgt, relge, rellt, relle, releq, relne
 
-Similar to **verXX** family, but checks how a package version relates
-to a specified release. A release includes all pre-release and
-post-release with a given prefix, e.g. `releq: "1.0"` would match
-for `1.0alpha1`, `1.0`, `1.0patch`, `1.0.1`, but not `0.99` and `1.1`.
+Similar to the **verXX** family, but checks how a package version relates
+to a specified release. A release includes all pre-releases and
+post-releases with a given prefix; e.g. `releq: "1.0"` would match
+`1.0alpha1`, `1.0`, `1.0patch`, `1.0.1`, but not `0.99` and `1.1`.
 
 #### wwwpat
 
-Matches package homepage against a regular expression. Note that
-unlike namepat and verpat, partial match is allowed here. Also
-note that it's preferred to escape dots with double slash, as `.`
-means "any character" in regular expressions.
+Matches the package homepage against a regular expression. Note that
+unlike namepat and verpat, a partial match is allowed here.
+Also note that dots should be escaped with double slash,
+as `.` means "any character" in regular expressions.
 
 ```yaml
 - { name: firefox, wwwpat: "mozilla\\.org", ... }
@@ -320,8 +328,8 @@ means "any character" in regular expressions.
 Matches when a package homepage contains given substring. This
 is usually more practical than **wwwpat** as in most cases you
 just need to match an URL part and don't need complex patterns,
-also you don't want to bother with escaping here. Matching is
-case insensitive.
+and you don't need to worry about escaping here. Matching is
+case-insensitive.
 
 ```yaml
 - { name: firefox, wwwpart: "mozilla.org", ... }
@@ -329,9 +337,9 @@ case insensitive.
 
 #### summpart
 
-Matches when a package summary contains given substring. Useful
-as as an alternative to **wwwpart** for cases where package
-homepage is not available. Matching is case insensitive.
+Matches when a package summary contains a given substring. Useful
+as an alternative to **wwwpart** for cases where the package
+homepage is not available. Matching is case-insensitive.
 
 ```yaml
 - { name: firefox, summpart: "browser", ... }
@@ -339,16 +347,16 @@ homepage is not available. Matching is case insensitive.
 
 #### is_p_is_patch
 
-Matches when a package has `p_is_patch` flag set (see `p_is_patch`
-action below).
+Matches when a package has the `p_is_patch` flag set
+(see the [`p_is_patch`](#p_is_patch) action below).
 
 ### Actions
 
 #### setname
 
-Effectively rename the package. You may use `$0` placeholder to
-substitute original name or `$1`, `$2` etc. to subsided contents
-of corresponding captures of regular expression used in **namepat**.
+Effectively rename the package. You may use the `$0` placeholder to
+substitute original name, or `$1`, `$2` etc. to substitute the contents
+of the corresponding captures of the regular expression used in **namepat**.
 Note that you don't need to use neither **name** nor **namepat** for
 `$0` to work, but you must have **namepat** with corresponding
 captures to use `$1` and so on.
@@ -368,7 +376,7 @@ captures to use `$1` and so on.
 #### setver
 
 Changes the version of the package. As with **setname**, you may
-use `$0`, `$1` placeholders.
+use the placeholders `$0`, `$1`, etc.
 
 ```yaml
 # remove bogus leading version component
@@ -377,8 +385,8 @@ use `$0`, `$1` placeholders.
 
 #### remove
 
-Set to `true` to completely remove package. It will not appear
-anywhere in repology. Set to `false` to undo.
+Set to `true` to completely remove a package. It will not appear
+anywhere in Repology. Set to `false` to undo.
 
 ```yaml
 # a metapackage which does not refer to any real project, we don't need it
@@ -387,9 +395,9 @@ anywhere in repology. Set to `false` to undo.
 
 #### devel
 
-Set to `true` to mark version of matched package as development or
-unstable version, so it does not make latest stable version outdated.
-Set to `false` to undo.
+Set to `true` to mark the version of a matched package as a development or
+unstable version, so it does not make the latest stable version be marked
+as outdated. Set to `false` to undo.
 
 ```yaml
 # mark versions with odd second component as devel
@@ -398,16 +406,17 @@ Set to `false` to undo.
 
 #### altver
 
-A project may use two parallel versioning schemes one of which contains
-additional version components, such as build number:
+A project may use two parallel versioning schemes, one of which contains
+additional version components, such as a build number:
 
 `0.17`, `0.17.13509`, `0.17.13541`, `0.18`, `0.18.16131`
 
-Normally, `0.18.16131` would outdate `0.18`, but if these refer to the same
-version, this is not desired behavior. In such case, version scheme containing
-extra components (e.g. one which compares greater) may be marked as **altver**,
-which would allow both `0.18` and `0.18.16131` to be considered latest, and both
-outdated by either `0.19` or `0.19.x`
+Normally, `0.18.16131` would be considered more recent than `0.18`,
+but if these refer to the same version, this is not desired behavior.
+In such case, a version scheme containing extra components
+(e.g. one which compares greater) may be marked as **altver**,
+which would allow both `0.18` and `0.18.16131` to be considered the latest,
+and both to be marked as outdated by the presence of either `0.19` or `0.19.x`.
 
 ```yaml
 - { name: freecad, verlonger: 3, altver: true }
@@ -415,13 +424,13 @@ outdated by either `0.19` or `0.19.x`
 
 #### altscheme
 
-Similar to **altver**, but for the case where versioning schemes do not have common
-prefix and are totally incomatible:
+Similar to **altver**, but for the case where versioning schemes
+do not have a common prefix and are totally incompatible:
 
 `3.2.1`, `3207`, `3.2.2`, `3211`
 
 Marking either of the schemes with this flag results in completely independent processing,
-which would allow both `3.2.2` and `3211` to be treated as newest.
+which would allow both `3.2.2` and `3211` to be treated as the newest version.
 
 ```yaml
 - { name: sublime-text, verpat: "[0-9]+", altscheme: true }
@@ -430,27 +439,27 @@ which would allow both `3.2.2` and `3211` to be treated as newest.
 #### ignore, incorrect, untrusted, noscheme, snapshot, successor, debianism, rolling
 
 Set to `true` to ignore specific package versions. This is meant for the
-cases where comparison is not possible - ignore version are excluded from
-comparison and do not affect status of other versions. There are multiple
+cases where comparison is not possible - ignored versions are excluded from
+comparison and do not affect the status of other versions. There are multiple
 ignore flavors:
 
-- `rolling` - package is fetched from always latest snapshot or VCS
+- `rolling` - the package is always fetched from the latest snapshot or VCS
   master/trunk. Its version has no meaning (like Gentoo's `9999`),
-  it may contain repository specific format of commit hash, revision or
-  date.
+  and may contain repository-specific formats such as a commit hash,
+  revision or date.
 - `noscheme` - there's no official versioning scheme. Repositories may
   use random versions or dates, there's no point comparing them.
 - `incorrect` - known incorrect version (e.g. version which was not
   released yet)
 - `untrusted` - used for repositories which are known for providing
-  incorrect versions, to ignore them proactively. It's common pattern
-  to create a pair of `incorrect` rule matching specific version and
+  incorrect versions, to ignore them proactively. It's a common pattern
+  to create a pair of `incorrect` rules matching specific versions, and an
   `untrusted` rule for the following versions in a given repository.
-- `ignored` - general ignore
-- `successor` - currently alias for `devel` used to convey additional
-  meaning: this is a fork of unmaintained original project
-- `debianism` - currently alias for `devel` used to convey additional
-  meaning: this package uses distribution maintained at debian (probably
+- `ignored` - general ignore action
+- `successor` - currently an alias for `devel`, used to convey the additional
+  meaning of this being a fork of an unmaintained original project
+- `debianism` - currently an alias for `devel`, used to convey the additional
+  meaning of this package using a distribution maintained at Debian (probably
   with version addendum)
 - `snapshot` - currently alias for `ignored`
 
@@ -463,7 +472,7 @@ ignore flavors:
 
 #### p_is_patch
 
-Set to `true` to indicate that this project uses `p` letter in version
+Set to `true` to indicate that this project uses `p` letter in the version
 to indicate post- or patch releases. This fixes version comparison, as
 by default `p` is treated as pre-release.
 
@@ -474,7 +483,7 @@ by default `p` is treated as pre-release.
 
 #### any_is_patch
 
-Set to `true` to indicate that this project uses any letter in version
+Set to `true` to indicate that this project uses any letter in the version
 to indicate post- releases.
 
 ```yaml
@@ -485,7 +494,7 @@ to indicate post- releases.
 #### outdated
 
 Set to `true` to force the package to be outdated, even if its version
-is compared as greatest. `false` to undo.
+compares as the most recent. Set to `false` to undo.
 
 ```yaml
 # when 0.20 follows 0.193:
@@ -495,8 +504,8 @@ is compared as greatest. `false` to undo.
 #### legacy
 
 Set to `true` to force the package to be legacy instead of outdated.
-`false` to undo. Useful when a specific repository purposely contains
-an outdated version of specific project for compatibility purposes.
+Set to `false` to undo. Useful when a specific repository purposely contains
+an outdated version of a specific project for compatibility purposes.
 
 ```yaml
 - { name: ruby-slack-notifier-1, ruleset: aur, legacy: true }
@@ -504,9 +513,9 @@ an outdated version of specific project for compatibility purposes.
 
 #### nolegacy
 
-Set to `true` to prevent the package to ever have legacy status.
+Set to `true` to prevent the package from ever having legacy status.
 This is useful for marking packages which declare to be of development
-version, but are never the less outdated.
+version, but are nevertheless outdated.
 
 ```yaml
 - { name: ffmpeg-git, nolegacy: true }
@@ -514,7 +523,7 @@ version, but are never the less outdated.
 
 #### warning
 
-Output a given warning when matched. Useful to catch places which
+Output a given warning when matched.
 
 ```yaml
 # will catch unexpected versions
@@ -534,21 +543,21 @@ Output a given warning when matched. Useful to catch places which
 
 #### addflavor
 
-Flavors are used to distinct set of packages denoting a multiple
-version of a project and a set of packages denoting a multiple parts
+Flavors are used to distinguish a set of packages denoting multiple
+versions of a project and a set of packages denoting a multiple parts
 or variants of a project. Consider an example:
 
 - `foo1 1.0` and `foo2 2.0` merged into `foo`. In this case they denote
-  a multiple versions of the same project, flavors are not needed here
+  multiple versions of the same project, flavors are not needed here
   and `foo1` will have `legacy` status.
 - `foo-client 1.0` and `foo-server 1.1` merged into `foo`. In this case
-  they denote a parts of the same project, which are expected to be of
+  they denote parts of the same project, which are expected to be of
   the same version. Flavors should be used in this case, so `foo-client`
-  will have `outdated` status.
+  will have the `outdated` status.
 
-Flavors a plain strings and may be arbitrary, for example `client`
-and `server` in the last example. You may specify flavor explicitly
-or use `true` value to make flavor taken from the package name.
+Flavors are plain strings and may be arbitrary, for example `client`
+and `server` in the last example. You may specify a flavor explicitly,
+or use the `true` value to make the flavor be taken from the package name.
 
 ```yaml
 - { name: postgresql-client, setname: postgresql, addflavor: client }
@@ -566,11 +575,11 @@ Set to `true` to remove all previously added flavors.
 
 Set to `true` to stop ruleset processing right after the current rule.
 
-Consider this a legacy, it should not be needed
+Consider this a legacy feature; it should not be needed.
 
 #### replaceinname
 
-Takes pattern and replacement strings and applies them to the package
+Takes a pattern and replacement strings, and applies them to the package
 name. Used for low-level normalization.
 
 ```yaml
@@ -600,7 +609,7 @@ based on the previous rules.
 #### addflag
 
 Sets a virtual flag (arbitrary string) which only exists for the duration
-of rule processing and may be checked in the following rules.
+of rule processing, and may be checked in the following rules.
 
 ```yaml
 - { name: python, addflag: not_python_module }
@@ -626,7 +635,7 @@ to ruleset maintenance.
 #### maintenance
 
 Indicates that a rule needs manual maintenance. For example, when
-development version cannot be determined from the version schema,
+a development version cannot be determined from the version schema,
 one would need to revisit and update the version occasionally.
 
 ```yaml
@@ -645,7 +654,7 @@ Indicates that a rule may be removed if it doesn't match any packages.
 
 ## Author
 
-* [Dmitry Marakasov](https://github.com/AMDmi3) <amdmi3@amdmi3.ru>
+- [Dmitry Marakasov](https://github.com/AMDmi3) <amdmi3@amdmi3.ru>
 
 ## License
 
