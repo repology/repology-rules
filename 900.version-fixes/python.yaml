@@ -46,6 +46,7 @@
 - { name: "python:hidapi",             verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true } # 0.9.0.post3, not 0.9.0.3
 - { name: "python:html2text",          ver: "2018.9.1",                                    incorrect: true, disposable: true } # 2018.1.9
 - { name: "python:httplib2",           verpat: "2-.*",                                     incorrect: true }
+- { name: "python:igraph",             verge: "0.6",                                       incorrect: true } # igraph vs. python-igraph
 - { name: "python:jcconv",             ver: "0.2.4",                 ruleset: fedora,      incorrect: true }
 - { name: "python:jcconv",                                           ruleset: fedora,      untrusted: true }
 - { name: "python:jinja",              verge: "2",                                         incorrect: true }
