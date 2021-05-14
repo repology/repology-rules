@@ -116,7 +116,7 @@
 - { name: bowtie,                                                                          p_is_patch: true }
 - { name: brandy,                      vergt: "1.20.1",                                    successor: true } # http://brandy.matrixnetwork.co.uk/
 - { name: brasero,                     ver: "3.12.2",                ruleset: opensuse,    ignore: true } # not released yet
-- { name: brave,                       verge: "0.70",                                      devel: true, maintenance: true } # N-1 = release, N = beta, N+1 = dev, N+2 = nightly
+- { name: brave,                       vercomps: 4,                  ruleset: homebrew,    incorrect: true } # prefixed with the major version of chromium it's based on
 - { name: breakpad,                                                                        noscheme: true }
 - { name: breeze,                      verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: breeze-gtk,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
