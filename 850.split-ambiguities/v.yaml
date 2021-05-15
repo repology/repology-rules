@@ -21,8 +21,10 @@
 
 - { name: vault, wwwpart: taskotron, setname: vault-taskotron }
 
-- { name: vc, category: dev-tex, setname: tex-vc }
-# otherwise, SIMD library
+- { name: vc, wwwpart: ctan, setname: tex-vc }
+- { name: vc, wwwpart: [github.com/libvc/libvc,rolo], setname: libvc } # vcard library
+- { name: vc, wwwpart: vcdevel, addflag: classified } # simd library
+- { name: vc, addflag: unclassified }
 
 - { name: via, wwwpart: caniusevia, setname: via-keyboard-configurator }
 - { name: via, wwwpart: lipsia, setname: via-lipsia }
