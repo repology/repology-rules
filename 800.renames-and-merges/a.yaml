@@ -123,6 +123,8 @@
 - { setname: anki,                     name: [anki12,anki20,"python:anki2"] }
 - { setname: annex,                    name: annex-conquer-the-world }
 - { setname: ansible,                  namepat: "(?:python:)?ansible[0-9]*" }
+- { setname: ansible,                  name: [ansible-base, "python:ansible-base" ] } # XXX: there's a mess in ansible releases (ansible vs. core vs. base and 2.x vs 3.x)
+- { setname: ansible,                  name: [ansible-core, "python:ansible-core" ] } # would be nice of someone with knowledge to sort this out
 - { setname: ansible-runner,           name: "python:ansible-runner" }
 - { setname: ant,                      name: ant-junit5, addflavor: true }
 - { setname: anthy,                    name: libanthy }
