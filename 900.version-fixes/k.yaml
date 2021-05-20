@@ -137,6 +137,7 @@
 - { name: kismet,                      verpat: "([0-9]{4})\\.([0-9]+)\\.([0-9]+)",         setver: $1-$2-R$3 }
 - { name: kiten,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kitinerary,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: kitty,                       verpat: ".+20[0-9]{6}",                             snapshot: true }  # Funtoo adds a build date
 - { name: kjumpingcube,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kldap,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kleopatra,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
