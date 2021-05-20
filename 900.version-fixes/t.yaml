@@ -73,6 +73,7 @@
 - { name: texlive-core,                verpat: "(20[0-9]{2}).[0-9]{5,}",                   ignore: true }
 - { name: "texlive:leaflet",           verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "texlive:leaflet",           ver: "20041222",                                    outdated: true }
+- { name: "texlive:mathabx",                                                               noscheme: true }
 - { name: "texlive:xetex",                                                                 noscheme: true }
 - { name: texworks,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: tg-owt,                                                                          noscheme: true } # https://github.com/desktop-app/tg_owt/tags
