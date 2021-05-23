@@ -153,7 +153,7 @@
 - { setname: cloud-init,               name: "python:cloud-init" }
 - { setname: clucene,                  name: [clucene09,clucene-core,libclucene,libclucene-core] }
 - { setname: clustalw,                 name: clustal-w }
-- { setname: clusterssh,               name: cssh }
+- { setname: clusterssh,               name: [cssh, "perl:app-clusterssh"] }
 - { setname: clutter,                  namepat: "clutter[0-9.-]+" }
 - { setname: clutter-gst,              namepat: "clutter-gst[0-9.-]+" }
 - { setname: clutter-gtk,              namepat: "clutter-gtk[0-9.-]+" }
