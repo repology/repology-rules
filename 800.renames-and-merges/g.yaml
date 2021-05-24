@@ -40,7 +40,8 @@
 - { setname: gdal,                     name: [gdal-curl,gdal-filegdb,gdal-lib,gdal-hdf4], addflavor: true }
 - { setname: gdal,                     name: "python:gdal", addflavor: python }
 - { setname: gdal-grass,               name: libgdal-grass }
-- { setname: gdk-pixbuf,               namepat: "(?:lib)?gdk-pixbuf[0-9.-]*(\\+svg|-jasper|-xlib)?" }
+- { setname: gdk-pixbuf,               namepat: "(?:lib)?gdk-pixbuf[0-9.-]*(\\+svg|-jasper)?" }
+- { setname: gdk-pixbuf-xlib,          namepat: "(?:lib)?gdk-pixbuf[0-9.-]*-xlib[0-9.-]*" }
 - { setname: gdl,                      namepat: "(?:lib)?gdl[0-9.-]*" }
 - { setname: gdlmm,                    namepat: "(?:lib)?gdlmm[0-9.-]*" }
 - { setname: gdm,                      name: [gdm-plymouth,gdm-prime], addflavor: true }
