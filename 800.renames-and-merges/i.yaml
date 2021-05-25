@@ -64,6 +64,7 @@
 - { setname: inih,                     name: libinih }
 - { setname: iniparser,                name: [libiniparser,iniparser-legacy] }
 - { setname: inkscape,                 name: [inkscape-app,inkscape32bit], addflavor: true }
+- { setname: inkscape,                 namepat: "inkscape[0-9.-]+" }
 - { setname: inn,                      namepat: "inn[0-9]+" }
 - { setname: innosetup,                name: inno-setup }
 - { setname: inotify-tools,            name: inotify-tools-inc, addflavor: inc }
