@@ -106,6 +106,7 @@
 - { name: nss-ldap,                    verpat: "1\\.([0-9]{3,})",                          setver: "$1" } # FreeBSD garbage
 - { name: ntfs-3g,                     verpat: ".*ar.*",                                   any_is_patch: true, devel: true } # http://jp-andre.pagesperso-orange.fr/advanced-ntfs-3g.html
 - { name: ntfs-3g,                     verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true } # incorrect scheme for ARs
+- { name: ntlmrecon,                   verpat: "(.*?)[_.-]?b(?:eta)?",                     setver: $1 }
 - { name: ntp,                         verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.([0-9]+)",    setver: "$1p$2" }
 - { name: ntp,                                                                             p_is_patch: true }
 - { name: nuget,                       vercomps: 4,                                        altver: true }
