@@ -78,8 +78,8 @@
 # too many packages include additional (build?) version component
 - {                                                                  ruleset: appget,      untrusted: true }
 
-# melpa always uses snapshots
-- {                                                                  ruleset: melpa,       rolling: true }
+# melpa "unstable" always uses snapshots
+- {                                                                  ruleset: melpa_unstable, rolling: true }
 
 # a lot of versions with fake .1 suffix
 - {                                                                  ruleset: deepin,      untrusted: true }
