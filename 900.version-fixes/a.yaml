@@ -66,6 +66,8 @@
 - { name: aiccu,                       ver: "20070115",                                    setver: "2007.01.15" }
 - { name: aiccu,                       verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: aircrack-ng,                 ver: "1.2",                   ruleset: [ fedora, debuntu, gentoo, mageia, openwrt, rosa ], ignore: true }
+- { name: aircrack-ng,                 verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: aircrack-ng,                 verpat: ".+20[0-9]{6}.*",                           snapshot: true }
 - { name: airspy,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: airspy,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: akonadi,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
