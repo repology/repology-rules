@@ -107,6 +107,7 @@
 - { name: ntfs-3g,                     verpat: ".*ar.*",                                   any_is_patch: true, devel: true } # http://jp-andre.pagesperso-orange.fr/advanced-ntfs-3g.html
 - { name: ntfs-3g,                     verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true } # incorrect scheme for ARs
 - { name: ntlmrecon,                   verpat: "(.*?)[_.-]?b(?:eta)?",                     setver: $1 }
+- { name: ntlmrecon,                                                                       devel: false } # always-beta case
 - { name: ntp,                         verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.([0-9]+)",    setver: "$1p$2" }
 - { name: ntp,                                                                             p_is_patch: true }
 - { name: nuget,                       vercomps: 4,                                        altver: true }
