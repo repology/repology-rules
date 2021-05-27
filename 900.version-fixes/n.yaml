@@ -3,6 +3,9 @@
 - { name: nano,                        verpat: ".*-.*",              ruleset: scoop,       snapshot: true }
 - { name: nastran-95,                                                                      noscheme: true } # https://github.com/nasa/NASTRAN-95/releases
 - { name: nautilus,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: nauty,                       verpat: "[0-9]+\\.[0-9]+\\.[0-9]+",                 incorrect: true } # 2.7r1, not 2.7.1
+- { name: nauty,                       verpat: "[0-9]{2,}r[0-9]+",                         incorrect: true } # 2.7r1, not 27r1
+- { name: nauty,                       verpat: ".*r[^c].*",                                any_is_patch: true } # 2.7r1
 - { name: nawk,                        vergt: "20121220",                                  noscheme: true } # weird way of using noscheme, but there are no (https://github.com/onetrueawk/awk) versions after last 20121220 official release
 - { name: nbwmon,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: nbwmon,                      ver: "20140917",                                    outdated: true } # at least 0.5.1 and 0.5.2 released since then: https://github.com/causes-/nbwmon/releases
