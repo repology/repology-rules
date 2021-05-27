@@ -22,6 +22,12 @@
 
 - { name: bird,                                           setbranchcomps: 1 }
 
+# https://www.blender.org/download/lts/; from greater to lower, following rules rewrite the branch
+- { name: blender,           releq: "3.7",                setbranch: "3.7lts" }
+- { name: blender,           releq: "3.3",                setbranch: "3.3lts" }
+- { name: blender,           releq: "2.93",               setbranch: "2.93lts" }
+- { name: blender,           releq: "2.83",               setbranch: "2.83lts" }
+
 - { name: botan,                                          setbranchcomps: 1 }
 
 - { name: bowtie,            releq: "2",                  setname: bowtie2 }
