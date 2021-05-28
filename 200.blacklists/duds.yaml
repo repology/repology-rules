@@ -8,3 +8,4 @@
 - { remove: true,   name: zp,           ruleset: opensuse } # just a shorter alias for zypper
 - { remove: true,   name: genpatch,     ruleset: [freebsd,ravenports] } # freebsd or ravenports specific utils
 - { remove: true,   namepat: ".*-66",   ruleset: artix } # init scripts which occasionally get merged as versioned packages
+- { remove: true,   namepat: "autoselect-.*", ruleset: ravenports }
