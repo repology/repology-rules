@@ -123,6 +123,8 @@
 - { name: opentracker,                                                                     noscheme: true }
 - { name: opentyrian,                                                ruleset: os4depot,    incorrect: true }
 - { name: openuniverse,                ver: "1.0beta3.1",                                  incorrect: true } # debian garbage
+- { name: openvpn,                     verpat: ".*\\.[0-9]]{3}",                           incorrect: true }
+- { name: openvpn,                                                   ruleset: winget,      untrusted: true } # accused of fake 2.5.020, 2.5.021
 - { name: openvsp,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: openxcom,                    verpat: ".*20[0-9]{2}.*",                           snapshot: true } # git snapshots
 - { name: openxcom,                    verpat: ".*[0-9]{10}.*",                            snapshot: true } # opensuse games, totally braindead
