@@ -1,0 +1,71 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { setname: $1, namepat: "gnat(cross-binutils.*)", addflavor: gnat }
+
+- setname: binutils
+  name: 
+    - cross-binutils
+    - binutils-libs
+  addflavor: true
+
+- namepat: |
+    (?:cross-?)?(
+    aarch64|
+    amd64|
+    armv7l|
+    arm|
+    avr32|
+    avr|
+    avr|
+    i686|
+    mips64|
+    mipsel|
+    mips|
+    native|
+    powerpc64le|
+    powerpc64|
+    ppc64le|
+    ppc64|
+    riscv32|
+    riscv64|
+    riscv|
+    sparc64|
+    sparc|
+    x86-64|
+    nonexistingpackagenamejusttokeeppipeonthepreviousline
+    )(
+    -eabi|
+    -gnu|
+    -linux|
+    -none|
+    -elf|
+    nonexistingpackagenamejusttokeeppipeonthepreviousline
+    )*-binutils[0-9.-]*
+  setname: binutils
+  addflavor: true
+
+- namepat: |
+    binutils(?:[+-]?cross)?-(
+    amd64|
+    arm64|
+    armel|
+    armhf|
+    avr|
+    hppa64|
+    mips|
+    powerpc|
+    ppc64el|
+    ppc64|
+    riscv64|
+    nonexistingpackagenamejusttokeeppipeonthepreviousline
+    )(
+    -eabi|
+    -gnu|
+    -linux|
+    -none|
+    -elf|
+    -cross|
+    nonexistingpackagenamejusttokeeppipeonthepreviousline
+    )*[0-9.-]*
+  setname: binutils
+  addflavor: true
