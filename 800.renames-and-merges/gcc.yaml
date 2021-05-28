@@ -5,7 +5,40 @@
 - { setname: gcc, name: legacy-gcc }
 
 - setname: gcc
-  namepat: "(cross-)?((arm|avr|mips|mips64|mipsel|aarch64|amd64|i386|ppc64|m68k|riscv64|sparc64|sparc)-)?(linux-|gnu-|elf-|none-|eabi-|gnueabi-|gnueabihf-)*gcc[0-9.-]*"
+  namepat: |
+    (?:cross-?)?(
+    aarch64|
+    amd64|
+    arm|
+    avr|
+    hppa|
+    i386|
+    m68k|
+    mips64|
+    mipsel|
+    mips|
+    mips|
+    nvptx|
+    ppc64le|
+    ppc64|
+    ppc|
+    riscv64|
+    rx|
+    s390x|
+    sparc64|
+    sparc|
+    x86-64|
+    nonexistingpackagenamejusttokeeppipeonthepreviousline
+    )?(
+    -eabi|
+    -elf|
+    -gnueabihf|
+    -gnueabi|
+    -gnu|
+    -linux|
+    -none|
+    nonexistingpackagenamejusttokeeppipeonthepreviousline
+    )*gcc[0-9.-]*
   verpat: ".*\\..*"  # excludes different thing from debian
   addflavor: true
 
@@ -27,6 +60,7 @@
     - gcc48-libs
     - gcc49-libs
     - gcc5-libs
+    - gnatcross
     - libgcc
     - libgfortran
     - libstdcplusplus
