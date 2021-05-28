@@ -42,8 +42,8 @@
 - { name: pcbasic,                     verge: "13",                                        outdated: true } # superceded by x.y: https://sourceforge.net/projects/pcbasic/files/
 - { name: pcbasic,                     releq: "2",                                         devel: true } # https://robhagemans.github.io/pcbasic/download.html
 - { name: pcc,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: pcc,                         ver: "1.2.0",                 ruleset: debuntu,     incorrect: true }
-- { name: pcc,                                                       ruleset: debuntu,     untrusted: true } # accused of fake 1.2.0
+- { name: pcc,                         ver: "1.2.0",                 ruleset: [debuntu,sisyphus], incorrect: true }
+- { name: pcc,                                                       ruleset: [debuntu,sisyphus], untrusted: true } # accused of fake 1.2.0
 - { name: pcc-libs,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: pcc-libs,                    ver: "1.2.0",                 ruleset: debuntu,     incorrect: true }
 - { name: pcc-libs,                                                  ruleset: debuntu,     untrusted: true } # accused of fake 1.2.0
