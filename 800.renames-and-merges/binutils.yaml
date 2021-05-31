@@ -59,6 +59,7 @@
     nonexistingpackagenamejusttokeeppipeonthepreviousline
     )*-binutils(?:-cs)?[0-9.-]*
   setname: binutils
+  verpat: ".*\\..*"  # excludes different thing from debian
   addflavor: true
 
 - namepat: |
@@ -88,4 +89,5 @@
     nonexistingpackagenamejusttokeeppipeonthepreviousline
     )*[0-9.-]*
   setname: binutils
+  verpat: ".*\\..*"  # excludes different thing from debian
   addflavor: true
