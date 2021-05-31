@@ -36,7 +36,7 @@
 
 - { namepat: "lua:.*", verpat: ".*-[0-9]+", ruleset: nix,                                  untrusted: true } # accused of using fake suffix from luarocks
 
-- { namepat: "gnome-shell-extension-*",                              ruleset: nix,         untrusted: true } # all versions are fake
+- { namepat: "gnome-shell-extension-.*",                             ruleset: nix,         untrusted: true } # all versions are fake
 
 # other global rules
 - { verpat: ".*20[0-9]{6}T[0-9]{6}\\.[0-9a-f]{7}",                   ruleset: opensuse,    ignore: true }
