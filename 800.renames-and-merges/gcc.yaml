@@ -37,7 +37,7 @@
     -linux|
     -none|
     nonexistingpackagenamejusttokeeppipeonthepreviousline
-    )*gcc[0-9.-]*
+    )*-gcc[0-9.-]*
   verpat: ".*\\..*"  # excludes different thing from debian
   addflavor: true
 
