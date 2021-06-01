@@ -11,7 +11,9 @@
     amd64|
     arm|
     avr|
+    epiphany|
     hppa|
+    h8300|
     i386|
     m68k|
     mips64|
@@ -29,6 +31,7 @@
     x86-64|
     nonexistingpackagenamejusttokeeppipeonthepreviousline
     )?(
+    -aout|
     -eabi|
     -elf|
     -gnueabihf|
@@ -36,8 +39,9 @@
     -gnu|
     -linux|
     -none|
+    -unknown|
     nonexistingpackagenamejusttokeeppipeonthepreviousline
-    )*-gcc[0-9.-]*
+    )*-gcc[0-9.-]*(-cs|-nolibc|-stage1|-stage2|-bootstrap)?
   verpat: ".*\\..*"  # excludes different thing from debian
   addflavor: true
 
