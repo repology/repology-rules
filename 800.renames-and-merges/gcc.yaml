@@ -1,7 +1,9 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { setname: gcc, namepat: "(?:compat-)?gcc[0-9.-]+" }
+- { setname: gcc, namepat: "libgcc[0-9.-]*", addflavor: libgcc }
 - { setname: gcc, namepat: "gcc[0-9.-]+-devel", weak_devel: true, nolegacy: true }
+- { setname: gcc, namepat: "gcc[0-9.-]*(-libs|-testresults|-alternative|-doc)", addflavor: $1 }
 - { setname: gcc, name: legacy-gcc }
 
 - setname: gcc
@@ -12,14 +14,20 @@
     arm|
     avr|
     epiphany|
-    hppa|
     h8300|
+    hppa|
     i386|
+    i586|
+    i686|
     m68k|
     mips64|
     mipsel|
     mips|
+    msp430|
     nvptx|
+    powerpc64le|
+    powerpc64|
+    powerpc|
     ppc64le|
     ppc64|
     ppc|
