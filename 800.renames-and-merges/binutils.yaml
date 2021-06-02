@@ -18,6 +18,7 @@
     aarch64|
     amd64|
     armv7l|
+    armv8l|
     arm|
     avr32|
     avr|
@@ -46,16 +47,21 @@
     sparc64|
     sparc|
     x86-64|
+    xtensa|
     nonexistingpackagenamejusttokeeppipeonthepreviousline
     )(
     -aout|
     -eabi|
     -elf|
+    -frc|
     -gnueabihf|
     -gnueabi|
     -gnu|
+    -hyperbolabsd|
+    -linaro|
     -linux|
     -none|
+    -unknown|
     nonexistingpackagenamejusttokeeppipeonthepreviousline
     )*-binutils(?:-cs)?[0-9.-]*
   setname: binutils
