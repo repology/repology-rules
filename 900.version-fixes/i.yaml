@@ -101,5 +101,5 @@
 - { name: irssi-otr,                                                 ruleset: openbsd,     untrusted: true } # accused of fake 1.2.1
 - { name: irssi-scripts,                                                                   noscheme: true }
 - { name: isdn4k-utils,                verpat: "20[0-9-]{8}",                              snapshot: true }
-- { name: ivan,                        vergt: "0.50",                                      successor: true }
+- { name: ivan,                        vergt: "50",                                        incorrect: true } # 0.58, not 58
 - { name: iverilog,                    verpat: "20[0-9]{2}\\.?[0-9]{2}\\.?[0-9]{2}",       incorrect: true } # nixpkgs garbage
