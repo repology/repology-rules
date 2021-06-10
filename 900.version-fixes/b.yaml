@@ -28,6 +28,9 @@
 - { name: batman-adv,                  verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: batmand,                     verpat: "[0-9]{4}",                                 ignore: true } # revision
 - { name: bats,                        ver: "1.0",                   ruleset: sisyphus,    ignore: true } # totally fake
+- { name: bb,                          vereq: "1.3",                 ruleset: rpm,         incorrect: true } # 1.3rc1
+- { name: bb,                                                        ruleset: rpm,         untrusted: true } # accused of fake 1.3
+- { name: bb,                          ver: "1.3.0_rc1",                                   incorrect: true } # 1.3rc1
 - { name: bbswitch,                    verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: bcache-tools,                ver: "1.0.9",                 ruleset: opensuse,    incorrect: true }
 - { name: bcache-tools,                                              ruleset: opensuse,    untrusted: true }
