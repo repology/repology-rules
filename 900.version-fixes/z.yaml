@@ -23,6 +23,7 @@
 - { name: zfs,                         verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: zfs,                         verlonger: 4,                                       ignore: true } # likely kernel version appended
 - { name: zfs,                                                       ruleset: alpine,      untrusted: true } # linux kernel version
+- { name: zfs,                         verpat: ".*\\.99",                                  ignore: true } # master branch, not a real version https://github.com/openzfs/zfs/commit/9ac82cab2d8e5235b61e6811203793758c30b994
 - { name: zidrav,                      ver: "1.20",                  ruleset: pkgsrc,      incorrect: true } # 1.2.0
 - { name: zidrav,                                                    ruleset: pkgsrc,      untrusted: true }
 - { name: zile,                        verpat: ".*\\.[5-9][0-9]",                          devel: true } # assumed https://git.savannah.gnu.org/cgit/zile.git/refs/tags
