@@ -54,6 +54,8 @@
 - { name: wl-clipboard,                verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: wlrobs,                      verge: "20000000", verlt: "20200901",               outdated: true }
 - { name: wlrobs,                      verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: wlroots,                     ver: "1.13.0",                ruleset: solus,       incorrect: true }
+- { name: wlroots,                                                   ruleset: solus,       untrusted: true } # accused of fake 1.13.0
 - { name: wmbatteries,                 verge: "0.1.5",                                     successor: true }
 - { name: wmblueclock,                 verpat: "[0-9]+",                                   incorrect: true } # 0.5
 - { name: wmbluecpu,                   verpat: "[0-9]+",                                   incorrect: true } # 0.10
