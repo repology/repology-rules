@@ -208,6 +208,7 @@
 - { name: mtxclient,                   verpat: "20[-0-9]{8}",                              snapshot: true }
 - { name: mu,                          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: multibootusb,                ver: "9.3.0",                 ruleset: freshcode,   incorrect: true }
+- { name: multimc,                     verlonger: 3,                 ruleset: aur,         incorrect: true }
 - { name: multimon-ng,                 verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: mumble,                                                    ruleset: kaos,        ignore: true } # snapshot with random version
 - { name: mumble,                      ver: "1.2.89",                                      incorrect: true }
