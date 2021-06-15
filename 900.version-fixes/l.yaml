@@ -50,6 +50,7 @@
 - { name: lincity,                     verpat: "1\\.13\\..*",                              devel: true }
 - { name: lincity-ng,                  ver: "2.9",                   ruleset: [rpm,aur,slitaz], incorrect: true }
 - { name: lincity-ng,                                                ruleset: [rpm,aur,slitaz], untrusted: true }
+- { name: lincity-ng,                  verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: linenoise,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: linenoise,                   verlonger: 2,                 ruleset: nix,         incorrect: true }
 - { name: linenoise-ng,                verpat: "[0-9a-f]{10,}",                            incorrect: true } # vcpkg hash
