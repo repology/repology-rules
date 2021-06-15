@@ -123,7 +123,7 @@
 - { name: tomcat,                                                    ruleset: scoop,       untrusted: true }
 - { name: tome2,                       ver: "235",                                         incorrect: true }
 - { name: tor,                         verpat: "([0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)[._-]?[abr].*", setver: "$1", devel: true } # version is self-sufficient; remove redundant alpha/rc suffix, but set devel
-- { name: tor,                         verge: "0.4.6",                                     devel: true, maintenance: true }
+- { name: tor,                         verge: "0.4.7",                                     devel: true, maintenance: true }
 - { name: tor-browser,                 verlonger: 3,                 ruleset: pkgsrc,      incorrect: true } # firefox version appended
 - { name: tora,                        verlonger: 2,                 ruleset: nix,         incorrect: true }
 - { name: torque,                      verpat: ".*h.*",                                    devel: true }
