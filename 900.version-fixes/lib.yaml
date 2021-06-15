@@ -8,6 +8,9 @@
 - { name: libadwaita,                                                ruleset: [sisyphus,pld], untrusted: true } # accused of fake 1.1.0
 - { name: libadwaita,                  ver: "1.0.2",                 ruleset: [unitedrpms], incorrect: true }
 - { name: libadwaita,                                                ruleset: [unitedrpms], untrusted: true } # accused of fake 1.0.2
+- { name: libadwaita,                  verpat: ".+20[0-9]{6}",                             snapshot: true }
+- { name: libadwaita,                  verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: libadwaita,                  ver: "0.1",                                         incorrect: true }
 - { name: libappindicator,             ver: "12.10.1",               ruleset: [opensuse,debuntu], incorrect: true }
 - { name: libappindicator,                                           ruleset: [opensuse,debuntu], untrusted: true } # accused of fake 12.10.1
 - { name: libappindicator,             ver: "16.10",                 ruleset: [crux,slackbuilds], incorrect: true }
