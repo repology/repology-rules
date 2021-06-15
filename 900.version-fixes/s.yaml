@@ -161,7 +161,6 @@
 - { name: sndlib,                                                                          noscheme: true }
 - { name: snmpenum,                                                                        noscheme: true }
 - { name: snortsnarf,                  verpat: ".*[0-9]{6}.*",                             incorrect: true } # https://sourceforge.net/projects/snortsnarf/files/snortsnarf/Initial Release 1.0/
-- { name: snownews,                    verge: "1.5.13",                                    successor: true } # https://github.com/kouya/snownews
 - { name: snzip,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: snzip,                       ver: "20120803",                                    outdated: true } # 1.0.4 from 2016
 - { name: socat,                       ver: "2.0.0",                 ruleset: rpm,         incorrect: true } # 2.0.0b9
