@@ -249,6 +249,8 @@
 - { name: kstars,                      verge: "18",                                        incorrect: true } # and some repos fake old scheme; XXX: problem
 - { name: ksudoku,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ksysguard,                   verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: ksysguard,                   ver: "5.22.1",                ruleset: pclinuxos,   incorrect: true }
+- { name: ksysguard,                                                 ruleset: pclinuxos,   untrusted: true } # accused of fake 5.22.1
 - { name: ksystemlog,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kteatime,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ktimer,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
