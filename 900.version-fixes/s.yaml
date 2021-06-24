@@ -63,6 +63,8 @@
 - { name: sdparm,                      verpat: ".*r[0-9]+",                                snapshot: true } # aosc
 - { name: seafile-client,              verpat: ".*20[0-9]{6}",       ruleset: openbsd,     incorrect: true } # uses snapshots or regular basis
 - { name: seahorse,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: seahorse-nautilus,           verlonger: 3,                 ruleset: openbsd,     incorrect: true }
+- { name: seahorse-nautilus,                                         ruleset: openbsd,     untrusted: true } # accused of fake 3.11.92.1
 - { name: seahorse-plugins,            verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: seahub,                                                    ruleset: freebsd,     untrusted: true } # uses -pro (nonfree) releases as opposed to -server ones
 - { name: seamonkey,                                                 ruleset: gentoo,      untrusted: true } # accused of fake 2.49.8.0_p0
