@@ -24,6 +24,11 @@
 
 - { name: sasl, wwwpart: cyrus, setname: cyrus-sasl }
 
+- { name: sbd, wwwpart: clusterlabs, setname: sbd-storage-based-death }
+- { name: sbd, wwwpart: [packetstorm,tigerteam], setname: sbd-netcat }
+- { name: sbd, wwwpart: sourceforge.net/projects/sbd, setname: sbd-secure-back-door }
+- { name: sbd, addflag: unclassified }
+
 - { name: scala, wwwpart: ccp4, setname: scala-ccp4 }
 
 - { name: scamp, wwwpart: sourceforge.net/projects/scamp, setname: scamp-clamav }
