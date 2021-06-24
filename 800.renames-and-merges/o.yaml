@@ -26,6 +26,7 @@
 - { setname: oil-shell,                name: oilshell } # alls see 900/o ruleset
 - { setname: olive-video-editor,       name: olive-editor }
 - { setname: olm,                      name: libolm }
+- { setname: olm,                      name: ["python:olm", olm-python3], addflavor: python }
 - { setname: ombi,                     name: [ombi-beta,ombi-dev] }
 - { setname: onehouronelife,           namepat: onehouronelife-latest, rolling: true }
 - { setname: onehouronelife,           name: one-hour-one-life }
