@@ -6,6 +6,7 @@
 - { name: lame,                        ver: "3.100.1",               ruleset: [deepin,scoop], incorrect: true }
 - { name: lame,                                                      ruleset: [deepin,scoop], untrusted: true } # accused of fake 3.100.1
 - { name: lammps,                                                    ruleset: [fedora,opensuse], untrusted: true } # accused of packaging prerelease versions
+- { name: langkit,                                                                         noscheme: true }
 - { name: lasem,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: lash,                        verpat: "0\\.6\\.0\\.[0-9]{3}.*",                   incorrect: true } # 0.6.0rc2
 - { name: lastools,                                                                        noscheme: true } # 0.6.0rc2
