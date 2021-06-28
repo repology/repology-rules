@@ -89,6 +89,7 @@
 - { setname: "php:phpunit",            namepat: "phpunit[0-9]" }
 - { setname: "php:psalm",              name: psalm }
 - { setname: "php:psysh",              name: psysh }
+- { setname: "php:redis",              name: ["php:redis-3", "php:redis4", "php:redis5", phpredis, php-redis] }
 - { setname: "php:smarty",             namepat: "(php[0-9]*:)?smarty[23]?" }
 - { setname: "php:symfony",            namepat: "php[0-9]*:symfony[0-9]*" }
 - { setname: "php:symfony",            name: symfony }
