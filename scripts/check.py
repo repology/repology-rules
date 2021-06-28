@@ -158,6 +158,7 @@ rulesets = families + [
     'rebornos',
     'rpm',
     'rpmsphere',
+    'sclo',
     'siduction',
     'slitaz_next',
     'trisquel',

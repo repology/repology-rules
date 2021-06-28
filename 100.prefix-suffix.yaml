@@ -32,6 +32,8 @@
 
 - { noflag: no_suffix, ruleset: carbs,           namepat: "(.*)-git", ver: "git", setname: $1, rolling: true }
 
+- { noflag: no_suffix, ruleset: sclo,            namepat: "sclo-([^-]+)-(.*)", setsubrepo: $1, setname: $2, addflavor: $1 }
+
 - { noflag: no_suffix, ruleset: crux,            namepat: "(.*)-32", setname: $1, addflavor: compat-32 } # XXX: ideally, this should check for "subrepo: compat-32", but there's no such check and I'm too lazy to implement it
 
 - { noflag: no_suffix, ruleset: chocolatey,      namepat: "(.*)\\.(install|portable|commandline)", setname: $1, addflavor: $2 }
