@@ -231,6 +231,7 @@ schema = Schema(
         'tolowername': bool,
         'replaceinname': {str: str},
         'warning': str,
+        'setsubrepo': str,
 
         'maintenance': bool,
         'disposable': bool,

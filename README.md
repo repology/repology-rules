@@ -601,6 +601,16 @@ be distinguished solely by the case of their names.
 - { tolowername: true }
 ```
 
+#### setsubrepo
+
+Changes the subrepo property of the package. As with **setname**,
+you may use the placeholders `$0`, `$1`, etc.
+
+```yaml
+# split subrepo name from package name
+- { namepat: "([^-]+)-(.*)", setsubrepo: $1, setname: $2 }
+```
+
 ### Conditional rules
 
 For additional flexibility, a mechanism exists to toggle some rules
