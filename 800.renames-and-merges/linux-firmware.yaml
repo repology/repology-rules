@@ -1,0 +1,21 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: linux-firmware
+  name: 
+    - kernel-firmware
+
+- setname: linux-firmware
+  name:
+    - amd-microcode
+    - amd-ucode
+    - ar3k-firmware
+    - firmware-linux-nonfree
+    - i915-firmware
+    - kernel-firmware-extra
+    - kernel-firmware-nonfree
+    - linux-firmware-full-surface
+    - linux-firmware-minimal
+    - realtek-firmware
+    - rtl8192cu-firmware
+    - tegra-firmware
+  addflavor: true
