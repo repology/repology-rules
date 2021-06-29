@@ -5,6 +5,12 @@
 - { setname: linux,                    namepat: "linux-[0-9.-]+-(antix.*)", noflag: not_linux, addflavor: $1 }
 - { setname: linux,                    namepat: "kernel[0-9.-]+" }
 - { setname: linux,                    name: kernel }
+- { setname: linux,                    name: kernel-rc, weak_devel: true, nolegacy: true }
+
+- setname: linux
+  name:
+    - kernel-latest
+    - kernel-lt
 
 - setname: linux
   name:
@@ -14,11 +20,11 @@
     - kernel-docs
     - kernel-headers
     - kernel-kvmsmall
-    - kernel-latest
     - kernel-libc-headers
     - kernel-linus
     - kernel-pae
     - kernel-release
+    - kernel-release-clang
     - kernel-source
     - kernel-tools
     - kernel-userspace-headers
