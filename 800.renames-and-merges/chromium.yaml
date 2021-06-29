@@ -1,0 +1,47 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: chromium
+  name:
+    - chromium-browser
+    - chromium-browser-stable
+    - chromium-stable
+    - chromium-legacy
+
+# flavors
+- setname: chromium
+  name:
+    - chromium-base
+    - chromium-bin
+    - chromium-ffmpeg-codecs
+    - chromium-ffmpeg-extra
+    - chromium-freeworld
+    - chromium-freeworld-libs-media
+    - chromium-gost
+    - chromium-gtk2
+    - chromium-no-extras
+    - chromium-nosync
+    - chromium-ozone
+    - chromium-vaapi
+  addflavor: true
+
+# unstable
+- setname: chromium
+  name:
+    - chromium-beta
+    - chromium-browser-beta
+    - chromium-browser-dev
+    - chromium-dev
+    - chromium-snapshot
+  weak_devel: true
+  nolegacy: true
+
+# unstable + flavors
+- setname: chromium
+  name:
+    - chromium-beta-ozone
+    - chromium-beta-widevine-plugin
+    - chromium-dev-nosync
+    - chromium-dev-ozone
+  weak_devel: true
+  nolegacy: true
+  addflavor: true
