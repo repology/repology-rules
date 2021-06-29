@@ -44,6 +44,7 @@
 - { setname: payara,                   namepat: "payara[0-9]+" }
 - { setname: payara,                   name: payara5-micro, addflavor: micro }
 - { setname: pcg-c,                    name: [pcg,libpcg] }
+- { setname: pciutils,                 name: [libpci,pciutils-staticlibs], addflavor: true }
 - { setname: pcl,                      name: [libpcl,libpcl1,pcl-pointclouds,pcllib] }
 - { setname: pcmanfm,                  name: [pcmanfm-gtk3,pcmanfm-gtk3-root], addflavor: true }
 - { setname: pcmanx,                   name: [pcmanx-gtk2, pcmanx-gtk3], addflavor: true }
