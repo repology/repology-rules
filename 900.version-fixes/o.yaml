@@ -9,14 +9,11 @@
 - { name: "ocaml:calendar",            ver: "2.5",                   ruleset: nix,         incorrect: true }
 - { name: "ocaml:calendar",                                          ruleset: nix,         untrusted: true } # accused of fake 2.5 (it's really 2.03.2)
 - { name: "ocaml:libvirt",             verpat: ".*unstable",                               incorrect: true } # nix garbage
-- { name: "ocaml:opam-file-format",    ver: "2.0.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: "ocaml:opam-file-format",                                  ruleset: sisyphus,    untrusted: true }
 - { name: oclgrind,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: ocropus,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: octave,                      verpat: ".*pre[0-9]{5}",                            snapshot: true }
 - { name: octave,                      verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true } # rc's https://hg.savannah.gnu.org/hgweb/octave/tags
-- { name: "octave:odepkg",             ver: "0.9.1",                 ruleset: fedora,      incorrect: true }
-- { name: "octave:odepkg",                                           ruleset: fedora,      untrusted: true } # accused of fake 0.9.1
 - { name: "octave:secs1d",             verpat: ".*r.*",                                    snapshot: true }
 - { name: "octave:secs2d",             verpat: ".*r.*",                                    snapshot: true }
 - { namepat: "octetos-.*",                                           ruleset: aur,         untrusted: true } # strips alpha/beta suffix
@@ -29,8 +26,6 @@
 - { name: ogre,                        verpat: "2.*",                                      ignore: true }
 - { name: oh-my-zsh,                                                                       noscheme: true }
 - { name: oilwar,                                                    ruleset: os4depot,    incorrect: true }
-- { name: oinkmaster,                  ver: "2.1",                   ruleset: rpm,         incorrect: true }
-- { name: oinkmaster,                                                ruleset: rpm,         untrusted: true } # accused of fake 2.1
 - { name: okteta,                      verpat: "(4|14|15|16|17|18).*",                     outdated: true }  # went from following KDE versioning to its own 0.x/1.x-based versioning
 - { name: okular,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ollydbg,                     verpat: "[0-9]{3}.*",                               incorrect: true } # it's 1.10, 2.0, 2.01g
@@ -44,8 +39,7 @@
 - { name: onioncat,                    ver: "0\\.2\\.2",                                   incorrect: true }
 - { name: opalang,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: opalang,                     verpat: "[0-9]{4}",                                 outdated: true } # judging by https://github.com/MLstate/opalang/releases, 1.1.1 is the latest
-- { name: opam,                        ver: "2.0.0",                 ruleset: [sisyphus,mageia], incorrect: true }
-- { name: opam,                                                      ruleset: [sisyphus,mageia], untrusted: true }
+- { name: opam,                                                      ruleset: [sisyphus,mageia], untrusted: true } # accused of fake 2.0.0
 - { name: open-adventure,              ver: "2.5",                   ruleset: guix,        incorrect: true }
 - { name: open-adventure,                                            ruleset: guix,        untrusted: true } # accused of fake 2.5
 - { name: open-vm-tools,               verpat: "20[0-9]{2}.*",                             snapshot: true }
@@ -71,8 +65,8 @@
 - { name: opencolorio,                 verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: opencvs,                                                                         noscheme: true }
 - { name: opendbx,                     ver: "1.5.0",                                       devel: true } # https://linuxnetworks.de/doc/index.php?title=OpenDBX/Download; XXX probably needs pattern, but the devel scheme is unknown
-- { name: opendkim,                    ver: "2.11.0",                ruleset: [sisyphus,fedora], incorrect: true } # it's 2.11.0.alpha0: https://sourceforge.net/projects/opendkim/files/
-- { name: opendkim,                                                  ruleset: [sisyphus,fedora], untrusted: true } # accused of fake 2.11.0
+- { name: opendkim,                    ver: "2.11.0",                ruleset: [rpm,alpine], incorrect: true } # it's 2.11.0.alpha0: https://sourceforge.net/projects/opendkim/files/
+- { name: opendkim,                                                  ruleset: [rpm,alpine], untrusted: true } # accused of fake 2.11.0
 - { name: openfoam,                    verpat: ".*20[0-9]{6}",                             devel: true } # XXX: alternative schema; https://github.com/OpenFOAM/OpenFOAM-6/releases
 - { name: openfoam-plus,               verpat: "v([0-9]{4})",                              setver: $1 }
 - { name: openjade,                    verpat: ".*(p|pre|devel)[0-9]*",                    devel: true }
@@ -86,10 +80,8 @@
 - { name: openjfx,                     verpat: "8\\.0\\..*",                               ignore: true } # fedora; the official scheme is e.g. 8u151b12
 - { name: openjk,                                                                          noscheme: true }
 - { name: openkim-models,              verpat: "20[0-9]{6}",                               incorrect: true } # it's YYYY-MM-DD
-- { name: openlierox,                  ver: "0.58",                  ruleset: [fedora,debuntu], incorrect: true } # there's no 0.58, only 0.58beta3
 - { name: openmortal,                  ver: "0.7.1",                                       ignore: true } # legal release, but no source tarball
 - { name: openmpi,                     verpat: ".*x",                                      incorrect: true } # "use x to avoid epoch" bullshit
-- { name: openmpi,                                                   ruleset: fedora,      untrusted: true } # accused of fake 4.0.3x
 - { name: opennap,                     ver: "0.45",                  ruleset: hpux,        incorrect: true }
 - { name: opennap,                                                   ruleset: hpux,        untrusted: true }
 - { name: openntpd,                    ver: "20080406p",                                   snapshot: true }
@@ -131,6 +123,7 @@
 - { name: openxcom,                    verpat: ".*[0-9]{10}.*",                            snapshot: true } # opensuse games, totally braindead
 - { name: openzfs,                     verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: orbit2,                      ver: "2.14.20",               ruleset: sisyphus,    incorrect: true } # alt fake
+- { name: orbit2,                                                    ruleset: sisyphus,    untrusted: true } # accused of fake 2.14.20
 - { name: orc,                         ver: "0.4.30.1",              ruleset: sisyphus,    incorrect: true }
 - { name: orc,                                                       ruleset: sisyphus,    untrusted: true } # accused of fake 0.4.30.1
 - { name: orca,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -147,8 +140,7 @@
 - { name: otter-browser,               ver: "1.0.01.1",              ruleset: freebsd,     incorrect: true } # fake
 - { name: otter-browser,                                             ruleset: freebsd,     untrusted: true } # accused of fake 1.1.01.1
 - { name: otter-browser,               verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true } # assumed https://sourceforge.net/projects/otter-browser/files/otter-browser-weekly360/
-- { name: owamp,                       ver: "3.5.0",                 ruleset: sisyphus,    incorrect: true }
-- { name: owamp,                                                     ruleset: sisyphus,    untrusted: true }
+- { name: owamp,                                                     ruleset: sisyphus,    untrusted: true } # accused of fake 3.5.0
 - { name: owfs,                                                                            p_is_patch: true }
 - { name: owncloudclient,              verpat: ".*[0-9]{5}",                               snapshot: true } # openbsd
 - { name: oxygen,                      verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }

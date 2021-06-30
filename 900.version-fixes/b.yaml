@@ -27,13 +27,12 @@
 - { name: batman-adv,                  verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: batman-adv,                  verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: batmand,                     verpat: "[0-9]{4}",                                 ignore: true } # revision
-- { name: bats,                        ver: "1.0",                   ruleset: sisyphus,    ignore: true } # totally fake
+- { name: bats,                                                      ruleset: sisyphus,    untrusted: true } # accused of fake 1.0
 - { name: bb,                          vereq: "1.3",                 ruleset: rpm,         incorrect: true } # 1.3rc1
 - { name: bb,                                                        ruleset: rpm,         untrusted: true } # accused of fake 1.3
 - { name: bb,                          ver: "1.3.0_rc1",                                   incorrect: true } # 1.3rc1
 - { name: bbswitch,                    verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
-- { name: bcache-tools,                ver: "1.0.9",                 ruleset: opensuse,    incorrect: true }
-- { name: bcache-tools,                                              ruleset: opensuse,    untrusted: true }
+- { name: bcache-tools,                                              ruleset: opensuse,    untrusted: true } # accused of fake 1.0.9
 - { name: bcache-tools,                verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: bcachefs-tools,                                                                  noscheme: true }
 - { name: bcal,                        ver: "2.1.12",                ruleset: freebsd,     incorrect: true }
@@ -78,7 +77,8 @@
 - { name: black,                                                     ruleset: solus,       untrusted: true } # accused of fake 20.8_1
 - { name: blackbox,                    verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: blas,                        verpat: "20[0-9]{6}.*",                             ignore: true }
-- { name: blas,                        ver: "3.9.2",                 ruleset: sisyphus,    ignore: true } # totally fake
+- { name: blas,                        ver: "3.9.2",                 ruleset: sisyphus,    incorrect: true }
+- { name: blas,                                                      ruleset: sisyphus,    untrusted: true } # accused of fake 3.9.2
 - { name: blastem,                     verlonger: 3,                 ruleset: debuntu,     incorrect: true }
 - { name: bleachbit,                   ver: "2.1",                   ruleset: void,        incorrect: true }
 - { name: bleachbit,                   ver: "3.1.0",                                       devel: true } # https://github.com/bleachbit/bleachbit/commit/6db68113c7eb5248e772d5311627be35f9564f93
@@ -87,7 +87,6 @@
 - { name: bleachbit,                   verlonger: 3,                 ruleset: winget,      incorrect: true }
 - { name: blender,                     verpat: "([0-9]+\\.[0-9]+)\\.([a-z])",              setver: "$1$2" } # it's e.g. 2.78c, not 2.78.c
 - { name: blender,                                                   ruleset: os4depot,    incorrect: true }
-- { name: blender,                     ver: "2.83",                  ruleset: unitedrpms,  incorrect: true }
 - { name: blender,                                                   ruleset: unitedrpms,  untrusted: true } # accused of fake 2.83
 - { name: blinken,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: blobby,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
@@ -102,8 +101,6 @@
 - { name: bomber,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: bonnie++,                    verpat: "1\\.9[0-9]+.*",                            devel: true } # https://doc.coker.com.au/projects/bonnie/; 2.0 will be stable
 - { name: bonzomatic,                  verpat: "20[0-9]{6}",                               incorrect: true} # YYYY-MM-DD https://github.com/Gargaj/Bonzomatic
-- { name: boomaga,                     ver: "3.3.0",                 ruleset: fedora,      incorrect: true }
-- { name: boomaga,                                                   ruleset: fedora,      untrusted: true }
 - { name: boost,                       ver: "3.1.18",                                      outdated: true } # legacy versions of boost-jam
 - { name: boost,                       verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: boost,                                                     ruleset: vcpkg,       ignore: true } # accused of using individual version 2.3.2 for boost-callable-traits
@@ -140,7 +137,6 @@
 - { name: budgie-screensaver,          vergt: "20000000", verlt: "20210427",               outdated: true } # switched to "4.0"
 - { name: budgie-screensaver,          verpat: "20[0-9]{6}",                               incorrect: true } # e.g. 4.0 since Apr 2021
 - { name: buffer,                      verpat: "20[0-9]{2}.*",                             snapshot: true } # latest 1.19, github fork w/o releases
-- { name: buildah,                     ver: "1.6",                   ruleset: fedora,      incorrect: true }
 - { name: buildah,                                                   ruleset: fedora,      untrusted: true } # accused of fake 1.6
 - { name: buildbot-slave,              ver: "0.9.5",                 ruleset: haikuports,  incorrect: true } # it should probably be 0.9.0b5 https://pypi.org/project/buildbot-slave/#history
 - { name: buildbot-slave,                                            ruleset: haikuports,  untrusted: true } # accused of fake 0.9.5

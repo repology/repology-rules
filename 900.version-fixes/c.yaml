@@ -41,7 +41,6 @@
 - { name: caribou,                     ver: "0.4.22",                ruleset: sisyphus,    incorrect: true }
 - { name: caribou,                                                   ruleset: sisyphus,    untrusted: true }
 - { name: carla,                                                     ruleset: pld,         untrusted: true } # accused of fake 2.0
-- { name: carla,                                                     ruleset: fedora,      untrusted: true } # accused of fake 2.0.0
 - { name: carla,                       verpat: ".*b.*",                                    devel: true }
 - { name: carla,                       ver: "2.1-b1-test1",                                incorrect: true } # freshcode, no such version
 - { name: carps-cups,                                                                      noscheme: true }
@@ -75,8 +74,8 @@
 - { name: cegui,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: ceilometer,                  verge: "2000",                                      outdated: true } # 2014.1.4 < 15.0.0
 - { name: celestia,                    verpat: "[0-9]{3,4}",                               outdated: true }
-- { name: celestia,                    ver: "1.7.0",                 ruleset: [mageia,opensuse], incorrect: true }
-- { name: celestia,                                                  ruleset: [mageia,opensuse], untrusted: true }
+- { name: celestia,                    ver: "1.7.0",                 ruleset: opensuse,    incorrect: true }
+- { name: celestia,                                                  ruleset: opensuse,    untrusted: true }
 - { name: celestia,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: ceph,                        verlonger: 3,                 ruleset: opensuse,    incorrect: true }
 - { name: ceph,                        verpat: "[0-9]+[13579]\\..*",                       devel: true } # assumed
@@ -102,7 +101,7 @@
 - { name: check-mk-agent,                                                                  p_is_patch: true }
 - { name: checkbashisms,               verpat: "20[0-9]{6}.*",                             ignore: true } # AUR
 - { name: checkinstall,                ver: "1.6.2.16",                                    incorrect: true }
-- { name: checkinstall,                                              ruleset: [mageia,openmandriva,pclinuxos,rosa], untrusted: true } # XXX: ruleset: rpm # accused of fake 1.6.2.16
+- { name: checkinstall,                                              ruleset: rpm,         untrusted: true } # accused of fake 1.6.2.16
 - { name: cheese,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: chef,                        verpat: ".*g.*",                                    incorrect: true } # git commit
 - { name: cherokee,                    verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
@@ -111,7 +110,6 @@
 - { name: chmlib,                      ver: "0.40a",                                       devel: true } # mentioned in readme, no tags, used by debian and aosc
 - { name: chntpw,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: chntpw,                      ver: "20100627",                                    outdated: true }
-- { name: chromaprint,                 ver: "1.4.4",                 ruleset: rosa,        incorrect: true }
 - { name: chromaprint,                                               ruleset: rosa,        untrusted: true } # accused of fake 1.4.4
 - { name: chromium,                    verpat: ".*-r[0-9]+",                               ignore: true } # scoop
 - { name: chromium,                    verpat: "[0-9]+",                                   snapshot: true } # homebrew casks <- https://commondatastorage.googleapis.com/chromium-browser-snapshots/Mac/675525/chrome-mac.zip
@@ -142,10 +140,10 @@
 - { name: cld2,                        ver: "20160820",                                    ignore: true } # aosc fake (there were no commits to cld2 since 2015)
 - { name: clementine-player,           verlonger: 3,                                       incorrect: true }
 - { name: clementine-player,           verpat: "1\\.3\\.1\\.[0-9]{,5}",                    incorrect: true }
-- { name: clementine-player,           ver: "1.4.0",                 ruleset: [freebsd,rpm], incorrect: true }
-- { name: clementine-player,           ver: "1.3.2",                 ruleset: [freebsd,rpm], incorrect: true }
+- { name: clementine-player,           ver: "1.4.0",                 ruleset: freebsd,     incorrect: true }
 - { name: clementine-player,           verpat: "1\\.3\\.9[0-9]",     ruleset: [rpm,kaos],  incorrect: true }
 - { name: clementine-player,           verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: clementine-player,           verpat: ".*pl.*",                                   incorrect: true } # openbsd
 - { name: clementine-player,                                         ruleset: [freebsd,rpm,kaos], untrusted: true } # accused of fake 1.4.0, 1.3.9x, 1.3.2
 - { name: clex,                        verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1.patch$2 }
 - { name: clfswm,                      verpat: "20[0-9]{6}.*",                             snapshot: true }
@@ -156,8 +154,8 @@
 - { name: clisp,                       ver: "2.50",                  ruleset: [slitaz,aur,ravenports,pld], incorrect: true }
 - { name: clisp,                                                     ruleset: [slitaz,aur,ravenports,pld], untrusted: true } # accused of fake 2.50
 - { name: clisp,                       ver: "2.50",                                        untrusted: true } # very likely fake, see reports
-- { name: clisp,                       vereq: "2.49.93",             ruleset: [arch,freebsd,fedora,manjaro,ravenports], incorrect: true }
-- { name: clisp,                                                     ruleset: [arch,freebsd,fedora,manjaro,ravenports], untrusted: true } # accused of fake 2.49.93
+- { name: clisp,                       vereq: "2.49.93",             ruleset: [arch,crux,freebsd,manjaro,openmamba,ravenports], incorrect: true }
+- { name: clisp,                                                     ruleset: [arch,crux,freebsd,manjaro,openmamba,ravenports], untrusted: true } # accused of fake 2.49.93
 - { name: clojure,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{3,}",     altver: true } # extra deps version appended by upstream
 - { name: clonekeen,                   verpat: "0\\.(.*)",                                 setver: "$1" }
 - { name: cloog,                       ver: "0.18.5",                ruleset: [haikuports, aosc, arch], ignore: true } # unofficial fork
@@ -171,7 +169,6 @@
 - { name: cmdpack,                     vergt: "1.03",                                      successor: true }
 - { name: cmst,                        verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" } # manjaro
 - { name: cmus,                        verpat: ".*20[0-9]{6}.*",                           ignore: true }
-- { name: cmus,                        ver: "2.8.0",                 ruleset: fedora,      ignore: true } # it's rc0
 - { name: coccigrep,                   verpat: "20[0-9]{6}",                               ignore: true }
 - { name: cockatrice,                  verpat: "20[0-9]{2}.*",                             snapshot: true }
 - { name: cockatrice,                  verge: "20000000", verlt: "20190608",               outdated: true } # latest 2.7.1 from 20190608
@@ -190,7 +187,6 @@
 - { name: compizconfig-python,         ver: "0.9.5.94",                                    outdated: true } # some antient garbage from ubuntu 12
 - { name: compton,                                                                         noscheme: true } # some antient garbage from ubuntu 12
 - { name: confetti,                                                                        noscheme: true } # https://github.com/mailru/confetti/releases
-- { name: conmon,                      ver: ["2.1","2.0.4"],         ruleset: [sisyphus,fedora], incorrect: true }
 - { name: conmon,                                                    ruleset: [sisyphus,fedora], untrusted: true } # accused of fake 2.0.4, 2.1
 - { name: connect-proxy,               verpat: "[0-9]+",                                   incorrect: true }
 - { name: connectagram,                verpat: ".*20[0-9]{6}",                             snapshot: true }
@@ -219,7 +215,8 @@
 - { name: cppreference-doc,            ver: "20201016",                                    devel: true, maintenance: true } # https://en.cppreference.com/w/Cppreference:Archives
 - { name: cpptoml,                     ver: "0.4.0",                 ruleset: openmamba,   incorrect: true } # latest ATOW is 0.1.1
 - { name: cpptoml,                                                   ruleset: openmamba,   untrusted: true } # accused of fake 0.4.0
-- { name: cpufreqd,                    ver: "2.4.3",                 ruleset: sisyphus,    ignore: true } # fake
+- { name: cpufreqd,                    ver: "2.4.3",                 ruleset: sisyphus,    incorrect: true }
+- { name: cpufreqd,                                                  ruleset: sisyphus,    untrusted: true } # accused of fake 2.4.3
 - { name: cpulimit,                    verpat: "20[0-8]{6}.*",                             ignore: true } # hyperbola
 - { name: cpuminer-multi,              verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: crack-attack,                ver: "1.1.15_cvs_01",                               ignore: true }
@@ -251,8 +248,6 @@
 - { name: cups,                        verpat: ".*op.*",                                   any_is_patch: true } # e.g. 2.3.3op1
 - { name: cups,                        verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true } # 2.3.3op1, not 2.3.3.1
 - { name: cups,                        verpat: ".*[^o]p.*",                                incorrect: true }
-- { name: cups-pk-helper,              ver: "0.2.7",                 ruleset: sisyphus,    incorrect: true }
-- { name: cups-pk-helper,                                            ruleset: sisyphus,    untrusted: true } # accused of fake 0.2.7
 - { name: cura,                        verpat: "1[45].*",                                  outdated: true }
 - { name: curaengine,                  verpat: "1[45].*",                                  outdated: true }
 - { name: curses-hexedit,              verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)_[0-9]+",        setver: $1 } # slackbuilds - debian patchlevel
@@ -277,4 +272,4 @@
 - { name: cwm,                         ver: "6.2.9",                                       ignore: true } # FreeBSD fake
 - { name: cwm,                         verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: cyrus-imapd,                 verpat: "3\\.[0-9]*[13579]\\..*",                   devel: true}  # assumed; https://www.cyrusimap.org/ -> 3.0.10 stable, 3.1.6 devel
-- { name: cyrus-sasl,                                 ruleset: [debuntu,fedora,openmandriva,pkgsrc,sisyphus], untrusted: true } # accused of fake 2.1.27
+- { name: cyrus-sasl,                                 ruleset: [debuntu,openmandriva,pkgsrc,sisyphus], untrusted: true } # accused of fake 2.1.27
