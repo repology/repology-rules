@@ -12,6 +12,7 @@
 - { name: darkplaces,                                                ruleset: pclinuxos,   untrusted: true } # accused of fake 20141016
 - { name: darktable,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: darktable,                   ver: "2.6.3.1",                                     setver: "2.6.3" } # mac osx dedicated rerelease
+- { name: dasher,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: dbus,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: dbus,                        relge: "2",                   ruleset: pisi,        incorrect: true }
 - { name: dbus-cpp,                    verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
