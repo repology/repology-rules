@@ -48,8 +48,6 @@
 - { name: virtualbox-modules,          verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: virtualgl,                   verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: vis,                         verpat: "[0-9]{4,}",                                ignore: true } # LEDE
-- { name: visitors,                    ver: "1.1",                   ruleset: rosa,        ignore: true }
-- { name: visitors,                                                  ruleset: rosa,        untrusted: true }
 - { name: vit,                         verpat: "1\\.3.*20[0-9]{6}.*",                      ignore: true }
 - { name: vite,                                                                            noscheme: true } # https://gitlab.inria.fr/solverstack/vite/tags
 - { name: vitetris,                    ver: "0.60",                  ruleset: crux,        incorrect: true }
