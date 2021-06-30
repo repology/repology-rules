@@ -212,6 +212,7 @@
 - { name: courier-unicode,             verpat: ".*\\.20[0-9]{6}",                          devel: true } # http://www.courier-mta.org/download.html#unicode
 - { name: coursier,                    ver: "1.0.2",                                       outdated: true } # Known bad version https://github.com/coursier/coursier/commit/2cb42444cdbd6ad2a50f963378ff27259a4fb1a7
 - { name: cowsay,                      ver: "3.04.01",                                     ignore: true }
+- { name: coxeter,                                                                         noscheme: true }
 - { name: cparser,                     verpat: ".*pl.*",             ruleset: openbsd,     incorrect: true }
 - { name: cpdup,                                                     ruleset: openbsd,     untrusted: true } # from dragonfly, but not enough data (homepage) to split it
 - { name: cpptoml,                     ver: "0.4.0",                 ruleset: openmamba,   incorrect: true } # latest ATOW is 0.1.1
