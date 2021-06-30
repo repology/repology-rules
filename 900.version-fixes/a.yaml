@@ -93,6 +93,9 @@
 - { name: alpm-octopi-utils,           ver: "1.0.3",                 ruleset: kaos,        incorrect: true }
 - { name: alpm-octopi-utils,                                         ruleset: kaos,        untrusted: true } # accused of fake 1.0.3
 - { name: alsamixergui,                ver: "0.9.0.1.2",                                   incorrect: true } # gentoo, so fake. it's 0.9.0rc1-2
+- { name: alsamixergui,                                              ruleset: gentoo,      untrusted: true } # accused of fake 0.9.0.1.2
+- { name: alsamixergui,                ver: "0.9.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: alsamixergui,                                              ruleset: sisyphus,    untrusted: true } # accused of fake 0.9.0
 - { name: alsaplayer,                  ver: "0.99.82",               ruleset: rosa,        incorrect: true }
 - { name: alsaplayer,                                                ruleset: rosa,        untrusted: true }
 - { name: alternatives,                ver: "0.5.1",                 ruleset: sisyphus,    incorrect: true } # latest is 0.2.0
