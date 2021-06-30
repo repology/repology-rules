@@ -99,6 +99,7 @@
 - { name: check-lm-sensors,            verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: check-mk,                    verpat: ".*b.*",                                    devel: true }
 - { name: check-mk,                                                                        p_is_patch: true }
+- { name: check-mk-agent,                                                                  p_is_patch: true }
 - { name: checkbashisms,               verpat: "20[0-9]{6}.*",                             ignore: true } # AUR
 - { name: checkinstall,                ver: "1.6.2.16",                                    incorrect: true }
 - { name: checkinstall,                                              ruleset: [mageia,openmandriva,pclinuxos,rosa], untrusted: true } # XXX: ruleset: rpm # accused of fake 1.6.2.16
