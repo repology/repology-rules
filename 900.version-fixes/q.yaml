@@ -8,6 +8,7 @@
 - { name: qdevelop,                                                  ruleset: os4depot,    incorrect: true }
 - { name: qdjango,                     verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: qelectrotech,                verpat: ".*r.*",                                    snapshot: true }
+- { name: qemacs,                      verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: qemu,                        verpat: ".*pre[0-9]{5}.*",                          snapshot: true }
 - { name: qemu,                        verpat: ".*\\.9[0-9]+",       ruleset: opensuse,    incorrect: true }
 - { name: qemu,                                                      ruleset: opensuse,    untrusted: true } # accused of fake 4.1.93
