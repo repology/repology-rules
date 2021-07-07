@@ -15,6 +15,7 @@
 - { name: ragel,                       verpat: "7\\..*",                                   devel: true } # http://www.colm.net/open-source/ragel/
 - { name: rakarrack,                   ver: "0.6.2",                 ruleset: [sisyphus,fedora,rosa,opensuse], incorrect: true }
 - { name: rakarrack,                                                 ruleset: [sisyphus,fedora,rosa,opensuse], untrusted: true } # accused of fake 0.6.2
+- { name: rakudo,                      verlonger: 2,                                       altver: true } # official binary packages
 - { name: range-v3,                    ver: "1.0.0",                 ruleset: buckaroo,    incorrect: true } # 0.5.0 https://github.com/ericniebler/range-v3/releases
 - { name: range-v3,                                                  ruleset: buckaroo,    untrusted: true } # accused of fake 1.0.0
 - { name: range-v3,                    ver: "0.9.0",                 ruleset: vcpkg,       incorrect: true } # 0.5.0 https://github.com/ericniebler/range-v3/releases
