@@ -59,6 +59,11 @@
 - { name: jellyfish, wwwpart: [jamesturk,sunlightlabs], setname: "python:jellyfish" }
 - { name: jellyfish, addflag: unclassified }
 
+- { name: jp, wwwpart: sgreben, setname: jp-terminal-plots }
+- { name: jp, wwwpart: jmespath, setname: jp-jmespath }
+- { name: jp, wwwpart: jpp, setname: jpp } # XXX: problem
+- { name: jp, addflag: unclassified }
+
 - { name: jpeg, wwwpart: turbo, setname: libjpeg-turbo }
 - { name: jpeg, wwwpart: thorfdbg, setname: libjpeg-thorfdbg }
 - { name: jpeg, verlt: "5", setname: libjpeg-turbo } # ijg versions start with 6b1, latest turbo ATOW is 2.0.1
