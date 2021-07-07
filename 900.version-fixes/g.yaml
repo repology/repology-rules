@@ -84,6 +84,7 @@
 - { name: "gimp:lensfun",              ver: "0.2.5",                 ruleset: sisyphus,    incorrect: true }
 - { name: "gimp:lensfun",                                            ruleset: sisyphus,    untrusted: true } # accused of fake 0.2.5
 - { name: "gimp:resynthesizer",        verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: git,                                                       ruleset: winget,      untrusted: true } # "microsoft git"
 - { name: git-blame-someone-else,                                                          noscheme: true }
 - { name: git-bzr-ng,                                                                      noscheme: true }
 - { name: git-crypt,                   verpat: ".*-.*",              ruleset: scoop,       snapshot: true }
