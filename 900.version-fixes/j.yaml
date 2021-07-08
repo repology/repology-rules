@@ -16,7 +16,6 @@
 - { name: jersey,                      ver: "1.19.3",                ruleset: debuntu,     incorrect: true }
 - { name: jersey,                                                    ruleset: debuntu,     untrusted: true } # accused of fake 1.19.3
 - { name: jicofo,                                                                          noscheme: true } # braindead upstream versioning
-- { name: jimtcl,                      verpat: ".*pl.*",                                   incorrect: true } # openbsd garbage
 - { name: jinput,                      ver: "2.0.10",                ruleset: freebsd,     incorrect: true }
 - { name: jinput,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 2.0.10
 - { name: jinput,                      verge: "2000000", verlt: "20180601",                outdated: true } # 2.0.9 from 1 jun 2018

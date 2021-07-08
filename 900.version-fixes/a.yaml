@@ -162,7 +162,6 @@
 - { name: apt-mirror,                  ver: "1.0",                   ruleset: gentoo,      incorrect: true }
 - { name: apt-mirror,                                                ruleset: gentoo,      untrusted: true } # accused of fake 1.0
 - { name: aptly,                       verpat: "2010.*",                                   incorrect: true }
-- { name: apvlv,                       verpat: ".*pl.*",             ruleset: openbsd,     incorrect: true } # fake
 - { name: apvlv,                       verlonger: 3,                 ruleset: aur,         incorrect: true } # fake
 - { name: aqbanking,                   verpat: "[0-9]+\\.99.*",                            devel: true }
 - { name: aqmoney,                     verpat: "1\\..*",                                   devel: true }

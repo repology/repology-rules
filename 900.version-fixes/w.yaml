@@ -63,7 +63,6 @@
 - { name: wmfs,                        ver: ["201902","201104"],     ruleset: [aur,void,nix], incorrect: true } # YYYYNN
 - { name: wmfs,                                                      ruleset: [aur,void,nix], untrusted: true } # accused of fake 201902 and 201104
 - { name: wmutils,                     verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: woboq-codebrowser,           verpat: ".*pl.*",             ruleset: openbsd,     incorrect: true }
 - { name: woff2,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: woff2,                       ver: "20160306",                                    outdated: true } # latest 1.0.2 from 2017
 - { name: wordnet,                                                   ruleset: os4depot,    incorrect: true }
