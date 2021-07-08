@@ -103,6 +103,7 @@
 - { setname: docker-compose,           name: "python:docker-compose" }
 - { setname: dog-dns,                  name: dogdns }
 - { setname: dogecoin,                 name: [dogecoind,dogecoin-qt,dogecoin-daemon] }
+- { setname: dogtail,                  name: [dogtail3, "python:dogtail"] }
 - { setname: doh-proxy,                name: "rust:doh-proxy" }
 - { setname: doh-proxy,                name: "rust:libdoh", addflavor: libdoh }
 - { setname: doit,                     name: "python:doit" }
