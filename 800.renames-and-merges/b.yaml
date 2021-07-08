@@ -35,6 +35,7 @@
 - { setname: bazel,                    name: bazel-clang38, addflavor: true }
 - { setname: bazel,                    namepat: "bazel[0-9.-]+" }
 - { setname: bazel-buildtools,         name: buildifier, addflavor: true }
+- { setname: bazel-watcher,            name: ibazel, addflavor: true }
 - { setname: bbpager,                  name: [bbpager03,bbpager04] }
 - { setname: bbswitch,                 name: dkms-bbswitch }
 - { setname: bbswitch,                 name: [bbswitch-ck,bbswitch-ck-fbcondecor,bbswitch-dkms,bbswitch-mainline,bbswitch-next,bbswitch-pf,kernel-modules-bbswitch-std-def,kernel-modules-bbswitch-un-def], addflavor: true }
