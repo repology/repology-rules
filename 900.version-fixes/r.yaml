@@ -64,6 +64,7 @@
 - { name: resource-agents,             verpat: ".*[0-9a-f]{8}",      ruleset: opensuse,    incorrect: true }
 - { name: restbed,                     verpat: ".*-.*",              ruleset: vcpkg,       incorrect: true } # latest is 4.6, 4.16-07-28 is fake
 - { name: restbed,                                                   ruleset: vcpkg,       untrusted: true } # accused of fake 4.16-07-28
+- { name: restund,                     verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: retux,                       ver: "1.4.1-1",                                     setver: "1.4.1", disposable: true }
 - { name: rfcat,                       verpat: ".*[0-9]{6}",                               incorrect: true } # uses semver since Aug 2020
 - { name: rfcat,                       ver: ["170508", "190423"],                          outdated: true }
