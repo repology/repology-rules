@@ -122,6 +122,8 @@
 - { name: minissdpd,                   verpat: "[0-9]+\\.[0-9]+\\.20[0-9]{6}",             devel: true }
 - { name: minissdpd,                   ver: "2.1",                   ruleset: entware,     incorrect: true }
 - { name: minissdpd,                                                 ruleset: entware,     untrusted: true } # accused of fake 2.1
+- { name: minitube,                    ver: "3.9.1",                 ruleset: pclinuxos,   incorrect: true }
+- { name: minitube,                                                  ruleset: pclinuxos,   untrusted: true } # accused of fake 3.9.1
 - { name: miniupnpc,                   verpat: "[0-9]+\\.[0-9]+\\.20[0-9]{6}",             devel: true }
 - { name: miniupnpd,                   verpat: "[0-9]+\\.[0-9]+\\.20[0-9]{6}",             devel: true }
 - { name: minuet,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
