@@ -14,7 +14,7 @@
 - { setname: navi,                     name: navi-bash }
 - { setname: nawk,                     name: awk, ruleset: homebrew }
 - { setname: nbd,                      name: nbd-server }
-- { setname: ncbi-blast+,              name: ncbi-blast-plus }
+- { setname: ncbi-blast+,              name: [ncbi-blast-plus,blast+,ncbi-blast] }
 - { setname: ncftp,                    name: [ncftp3,ncftpclient] }
 - { setname: ncspot,                   name: "rust:ncspot" }
 - { setname: ncurses,                  name: [ncurses-full,ncurses-with-gpm,ncursesw,ncurses-nohex,ncurses-bootstrap,ncurses-nonwide], addflavor: true }
