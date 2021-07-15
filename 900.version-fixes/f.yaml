@@ -27,6 +27,9 @@
 - { name: fbpdf,                                                                           noscheme: true }
 - { name: fcgi,                        ver: "2.4.1",                 ruleset: solus,       incorrect: true }
 - { name: fcgi,                                                      ruleset: solus,       untrusted: true } # accused of fake 2.4.1
+- { name: fcitx,                       releq: "5",                                         incorrect: true } # fcitx5, different project
+- { name: fcitx,                       ver: "4.2.9.31.79",                                 incorrect: true }
+- { name: fcitx,                                                     ruleset: deepin,      untrusted: true } # accused of fake 4.2.9.31.79
 - { name: fcitx5,                      verpat: ".*20[0-9]{2}.*",                           incorrect: true } # official tags since nov 2020
 - { name: fcron,                       ver: "3.3.0",                                       devel: true } # http://fcron.free.fr/
 - { name: fdk-aac,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
