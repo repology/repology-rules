@@ -84,6 +84,7 @@
 - { name: bleachbit,                   ver: "3.1.0",                                       devel: true } # https://github.com/bleachbit/bleachbit/commit/6db68113c7eb5248e772d5311627be35f9564f93
 - { name: bleachbit,                   ver: "3.9.0",                 ruleset: unitedrpms,  incorrect: true }
 - { name: bleachbit,                                                 ruleset: unitedrpms,  untrusted: true } # accused if fake 3.9.0
+- { name: bleachbit,                   verlonger: 3,                 ruleset: winget,      incorrect: true }
 - { name: blender,                     verpat: "([0-9]+\\.[0-9]+)\\.([a-z])",              setver: "$1$2" } # it's e.g. 2.78c, not 2.78.c
 - { name: blender,                                                   ruleset: os4depot,    incorrect: true }
 - { name: blender,                     ver: "2.83",                  ruleset: unitedrpms,  incorrect: true }
