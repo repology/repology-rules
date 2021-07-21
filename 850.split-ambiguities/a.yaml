@@ -230,6 +230,11 @@
 
 - { name: avro, wwwpart: maateen, setname: avro-maateen }
 
+- { name: aws, wwwpart: ada, setname: ada-web-server } # reuse name from aur
+- { name: aws, wwwpart: timkay, setname: aws-timkay }
+- { name: aws, wwwpart: aws.amazon.com, setname: aws-cli }
+- { name: aws, addflag: unclassified }
+
 - { name: axiom, wwwpart: apache, setname: apache-axiom }
 - { name: axiom, wwwpart: axiom-developer, setname: axiom-algebra }
 - { name: axiom, wwwpart: axiomui, setname: axiom-ffmpeg-ui }
