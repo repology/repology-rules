@@ -267,6 +267,7 @@
 - { name: libvmime,                    ver: ["0.9.4", "0.9.2.50"],   ruleset: [openbsd,opensuse], incorrect: true }
 - { name: libvmime,                                                  ruleset: [openbsd,opensuse], untrusted: true }
 - { name: libvpx,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: libvss,                                                                          noscheme: true }
 - { name: libvterm,                                                                        noscheme: true }
 - { name: libwacom,                    verpat: "0\\.99.*",                                 devel: true }
 - { name: libwacom,                    ver: "1.22",                  ruleset: pisi,        incorrect: true }
