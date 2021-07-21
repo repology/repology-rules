@@ -108,6 +108,7 @@
 - { setname: "nginx:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_nginx], namepat: "nginx(?:-mainline)?-mod-(.*)" }
 
 # Nodejs
+- { setname: "node:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_node], category: [nodePackages,nodePackages_latest], ruleset: nix }
 - { setname: "node:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_node], namepat: "node-(.*)", ruleset: [debuntu,sisyphus,openpkg] }
 - { setname: "node:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_node], namepat: "nodejs-(.*)", ruleset: [arch,chakra,fedora,mageia,rosa,sisyphus,opensuse,pld,centos] }
 
