@@ -69,6 +69,7 @@
 - { name: cdrtools,                    ver: "3.02_9",                ruleset: solus,       incorrect: true } # 3.02a09
 - { name: cdrtools,                                                  ruleset: solus,       untrusted: true }
 - { name: cdrtools,                    verpat: ".*a.*",                                    devel: true }
+- { name: cdrtools,                    verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: ceferino,                    verpat: ".*svn.*",                                  ignore: true }
 - { name: cegui,                       verpat: "6\\..*",                                   setver: "0.$0" } # it's 0.6.2!
 - { name: cegui,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
