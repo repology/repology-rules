@@ -35,6 +35,7 @@
 - { name: acpitool,                                                  ruleset: t2,          untrusted: true }
 - { name: actiona,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: ada-libfswatch,                                                                  noscheme: true }
+- { name: ada-spawn,                                                                       noscheme: true }
 - { name: adacurses,                                                 ruleset: aur,         untrusted: true } # accused of packageing unstable version (from current subdirectoory of https://invisible-mirror.net/archives/AdaCurses/); XXX: if info on download url was available for AUR, we could mark it as devel
 - { name: adjtimex,                    verpat: ".*_.*",                                    debianism: true }
 - { name: adwaita-icon-theme,                                        ruleset: rpm,         untrusted: true } # accused of fake 40
