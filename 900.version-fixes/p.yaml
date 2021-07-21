@@ -287,6 +287,9 @@
 - { name: pychess,                     ver: "1.0.1",                                       setver: "1.0.0" } # upstream problem: 1.0.1 is repackaging of 1.0.0
 - { name: python,                      verpat: ".*[ab].*",                                 devel: true }
 - { name: python,                      verpat: ".*150.*",                                  incorrect: true }
+- { name: python,                      verpat: ".*[0-9]{3}.*",                             incorrect: true }
+- { name: python,                      ver: "2.7.18.4",                                    incorrect: true } # void
+- { name: python,                                                    ruleset: void,        untrusted: true } # accused of fake 2.7.18.4
 - { name: python,                                                    ruleset: appget,      untrusted: true } # accused of fake 3.7.4150.0, 3.8.150.0
 - { name: python,                                                    ruleset: entware,     untrusted: true } # module versions
 - { name: python-caja,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
