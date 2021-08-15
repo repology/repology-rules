@@ -95,6 +95,8 @@
 - { name: cgrep,                                                     ruleset: aix,         untrusted: true }
 - { name: cgterm,                      verpat: ".*b.*",                                    devel: true }
 - { name: chakracore,                  wwwpart: cauldrondevelopmentllc,                    ignore: true } # fork with different versioning
+- { name: charles,                     ver: "4.6.2.8",               ruleset: winget,      incorrect: true }
+- { name: charles,                                                   ruleset: winget,      untrusted: true } # accused of fake 4.6.2.8
 - { name: charls,                                                    ruleset: pisi,        untrusted: true } # repacked, fake mbigous version
 - { name: check-lm-sensors,            verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: check-mk,                    verpat: ".*b.*",                                    devel: true }
