@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: obfsproxy,                   verpat: "[0-9]{3}",                                 incorrect: true }
+- { name: objconv,                     verpat: "20[0-9]{6}",                               incorrect: true } # macosx
 - { name: obmenu,                      ver: "2.0",                   ruleset: bunsenlabs,  incorrect: true } # fake
 - { name: obs-service-download-files,  verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: obs-service-download-url,    verpat: "20[0-9]{6}",                               snapshot: true }
