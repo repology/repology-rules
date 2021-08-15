@@ -122,6 +122,8 @@
 - { name: amule,                       verlonger: 3,                 ruleset: [kaos],      incorrect: true } # fake
 - { name: amzn-drivers,                verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: analitza,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: anarchism,                   ver: "15.3-1",                ruleset: nix,         incorrect: true }
+- { name: anarchism,                                                 ruleset: nix,         incorrect: true } # accused of fake 15.3-1
 - { name: anbox,                                                                           noscheme: true }
 - { name: anbox-image,                                                                     noscheme: true }
 - { name: anbox-modules,                                                                   noscheme: true }
