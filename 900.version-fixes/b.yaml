@@ -133,6 +133,7 @@
 - { name: budgie-desktop,              verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: budgie-desktop,              ver: "10.5",                  ruleset: solus,       incorrect: true } # fake version of their own product, lol
 - { name: budgie-desktop,                                            ruleset: solus,       untrusted: true }
+- { name: budgie-desktop-branding,                                                         noscheme: true }
 - { name: budgie-extras,               verpat: "[0-9]+\\.9[0-9]+\\..*",                    devel: true } # XXX: may need to be revised after 1.x or whatever is released https://github.com/UbuntuBudgie/budgie-extras/releases
 - { name: budgie-screensaver,          vergt: "20000000", verlt: "20210427",               outdated: true } # switched to "4.0"
 - { name: budgie-screensaver,          verpat: "20[0-9]{6}",                               incorrect: true } # e.g. 4.0 since Apr 2021
