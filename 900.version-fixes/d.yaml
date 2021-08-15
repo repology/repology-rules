@@ -126,6 +126,7 @@
 - { name: dosbox-x,                    ver: "0.801",                                       outdated: true }
 - { name: dosemu,                      verpat: "2013.*",                                   ignore: true }
 - { name: dosemu,                      verpat: "1\\.4\\.1.*",        ruleset: [sisyphus,gentoo], ignore: true }
+- { name: dotconf,                     verpat: ".*repack",                                 incorrect: true }
 - { name: doublecmd,                                                                       devel: false } # they state all version to be beta: https://sourceforge.net/p/doublecmd/news/, this is pointless
 - { name: doublecmd,                   verpat: ".*svn.*",                                  ignore: true }
 - { name: dovecot-pigeonhole,          verpat: "2\\..*",                                   incorrect: true } # dovecot version prepended (openwrt, pld)
