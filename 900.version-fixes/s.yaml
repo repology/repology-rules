@@ -37,6 +37,8 @@
 - { name: scim-skk,                                                  ruleset: pclinuxos,   untrusted: true } # accused of fake 0.5.3
 - { name: scite,                       verpat: "[0-9]{3}",                                 incorrect: true } # pclinuxos; it's x.y.z
 - { name: scm,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]+",                 incorrect: true } # 5f2
+- { name: scons,                       ver: "4.20",                  ruleset: kaos,        incorrect: true }
+- { name: scons,                                                     ruleset: kaos,        untrusted: true } # accused of fake 4.20
 - { name: scponly,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: screenfetch,                 verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: screengen,                   ver: "1.10",                                        devel: true } # https://github.com/OlegKochkin/screengen/blob/master/src/build_number.h -> no tags, but current devel version
