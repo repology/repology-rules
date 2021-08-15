@@ -274,5 +274,6 @@
 - { name: cwiid,                       verpat: "20.*",                                     incorrect: true } # abandonware; a lot of snapshots
 - { name: cwm,                         ver: "6.2.9",                                       ignore: true } # FreeBSD fake
 - { name: cwm,                         verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: cyberjack,                   verpat: "(.*)_p(.*)",         ruleset: gentoo,      setver: $1_sp$2, untrusted: false } # 3.99.5 SP14, not representable in gentoo
 - { name: cyrus-imapd,                 verpat: "3\\.[0-9]*[13579]\\..*",                   devel: true}  # assumed; https://www.cyrusimap.org/ -> 3.0.10 stable, 3.1.6 devel
 - { name: cyrus-sasl,                                 ruleset: [debuntu,openmandriva,pkgsrc,sisyphus], untrusted: true } # accused of fake 2.1.27
