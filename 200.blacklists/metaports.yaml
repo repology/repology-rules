@@ -92,6 +92,8 @@
     - task-x11
     - task-xfce
 
+- { remove: true,   name: schilytools, ruleset: freebsd } # metaport
+
 - { remove: true,   name: ttf-sil-fonts } # depends on all sil fonts
 
 - { remove: true,   name: vuze-coreplugins, ruleset: gentoo } # just a set of bundled plugins under vuze version
