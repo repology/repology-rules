@@ -54,6 +54,7 @@
 - { name: "python:jinja2",             verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:jsonschema",         verpat: ".*[ab].*",                                 devel: true }
 - { name: "python:leveldb",            ver: "0.193",                                       outdated: true }
+- { name: "python:lexicon",            verge: "3",                   ruleset: pkgsrc,      incorrect: true } # fakes py-dns-lexicon as py-lexicon
 #- { name: "python:oauth2",                                                                 p_is_patch: true } # XXX: check if really needed
 - { name: "python:m2r",                ver: "0.11",                  ruleset: sisyphus,    incorrect: true }
 - { name: "python:m2r",                                              ruleset: sisyphus,    untrusted: true } # accused of fake 0.11
