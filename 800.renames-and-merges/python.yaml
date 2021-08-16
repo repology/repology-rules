@@ -302,14 +302,37 @@
 - { setname: "python:python-augeas",   name: ["python:augeas", python-augeas] } # as per PyPi; XXX: problem
 - { setname: "python:python-axolotl",  name: "python:axolotl" } # as per PyPi; XXX: problem
 - { setname: "python:python-axolotl-curve25519", name: "python:axolotl-curve25519" } # as per PyPi
+- { setname: "python:python-barbicanclient", name: "python:barbicanclient" }
+- { setname: "python:python-blazarclient", name: "python:blazarclient" }
+- { setname: "python:python-cinderclient", name: "python:cinderclient" }
 - { setname: "python:python-dateutil", name: ["python:dateutil","python:dateutil15"] } # XXX: problem
+- { setname: "python:python-designateclient", name: "python:designateclient" }
 - { setname: "python:python-djvulibre", name: "python:djvulibre" } # correct name on PyPi
 - { setname: "python:python-editor",   name: "python:editor" }
+- { setname: "python:python-glanceclient", name: "python:glanceclient" }
+- { setname: "python:python-heatclient", name: "python:heatclient" }
 - { setname: "python:python-hglib",    name: "python:hglib" }
+- { setname: "python:python-ironicclient", name: "python:ironicclient" }
+- { setname: "python:python-keystoneclient",  name: "python:keystoneclient" }
 - { setname: "python:python-magic",    name: "python:magic-ahupp" } # XXX: problem
+- { setname: "python:python-magnumclient", name: "python:magnumclient" }
+- { setname: "python:python-manilaclient", name: "python:manilaclient" }
+- { setname: "python:python-mistralclient", name: "python:mistralclient" }
+- { setname: "python:python-monascaclient", name: "python:monascaclient" }
+- { setname: "python:python-neutronclient", name: "python:neutronclient" }
+- { setname: "python:python-novaclient", name: "python:novaclient" }
+- { setname: "python:python-octaviaclient", name: "python:octaviaclient" }
+- { setname: "python:python-openstackclient", name: "openstackclient" }
 - { setname: "python:python-periphery", name: "python:periphery" }
 - { setname: "python:python-poppler-qt4", name: "python:poppler-qt4" }
 - { setname: "python:python-poppler-qt5", name: "python:poppler-qt5" }
+- { setname: "python:python-saharaclient", name: "python:saharaclient" }
+- { setname: "python:python-senlinclient", name: "python:senlinclient" }
+- { setname: "python:python-swiftclient", name: ["python:swiftclient","python-swiftclient","python2-swiftclient","python3-swiftclient"] }
+- { setname: "python:python-troveclient", name: "python:troveclient" }
+- { setname: "python:python-vitrageclient", name: "python:vitrageclient" }
+- { setname: "python:python-zaqarclient", name: "python:zaqarclient" }
+- { setname: "python:python-zunclient", name: "python:zunclient" }
 - { setname: "python:python-vxi11",    name: "python:vxi11" } # as per PyPi
 - { setname: "python:pytidylib",       name: ["python:pytidylib6","python:tidylib"] }
 - { setname: "python:pytz",            name: pytz }
