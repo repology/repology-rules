@@ -14,6 +14,7 @@
 - { name: qemu,                                                      ruleset: opensuse,    untrusted: true } # accused of fake 4.1.93
 - { name: qemu,                        ver: "6.0.93",                ruleset: winget,      incorrect: true }
 - { name: qemu,                                                      ruleset: winget,      untrusted: true } # accused of fake 6.0.93
+- { name: qepcad,                      verpat: "b[._-]?(.*?)",                             setver: $1 } # naming and versioning mess
 - { name: qgis,                                                      ruleset: kaos,        untrusted: true } # snapshot with random version
 - { name: qgis,                        verpat: "[0-9]{5}.*",                               incorrect: true }
 - { name: qgis,                        verpat: ".*unstable",                               ignore: true }
