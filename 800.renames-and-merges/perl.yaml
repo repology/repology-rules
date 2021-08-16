@@ -8,6 +8,7 @@
 - { setname: "perl:catalyst-plugin-session-$1", namepat: "perl:catalyst-p-s-(.*)" } # mageia, pclinusos, rosa do this
 - { setname: "perl:cddb-get",          name: cddb-get }
 - { setname: "perl:cpan-meta",         name: "perl:parse-cpan-meta" } # merged into, see https://github.com/Perl-Toolchain-Gang/Parse-CPAN-Meta
+- { setname: "perl:dbd-mysql",         namepat: "perl:dbd-mysql([0-9]+)", addflavor: $1 } # different mysql versions
 - { setname: "perl:gearman-server",    name: gearman-server }
 - { setname: "perl:goocanvas2",        name: "perl:goo-canvas2" }
 - { setname: "perl:libintl-perl",      name: [libintl-perl, "perl:intl", "perl:libintl", "perl:locale-libintl"] }
