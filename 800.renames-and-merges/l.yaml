@@ -50,7 +50,7 @@
 - { setname: lesstif,                  name: lesstif2 }
 - { setname: leveldb,                  name: libleveldb }
 - { setname: leveldb,                  name: leveldb-mcpe, addflavor: mcpe }
-- { setname: lexicon,                  name: "python:dns-lexicon" }
+- { setname: lexicon,                  name: ["python:dns-lexicon", dns-lexicon] }
 - { setname: liberal-crime-squad,      name: [lcs,liberalcrimesquad] }
 - { setname: libmediainfo,             name: [mediainfolib,libmediainfo0] }
 - { setname: libreoffice,              name: [libreoffice-bin,libreoffice-bin-debug,libreoffice-gtk3], addflavor: true }
