@@ -51,6 +51,7 @@
 - { name: geeknote,                                                                        noscheme: true }
 - { name: gef,                         verpat: "[0-9]{8}",                                 incorrect: true } # official version is 2020.03, not 20200206
 - { name: gemato,                      verpat: "[0-9]+m",                                  ignore: true } # gentoo artifact
+- { name: gemmlowp,                                                                        noscheme: true }
 - { name: generatorrunner,             ver: "0.6.17",                ruleset: sisyphus,    incorrect: true }
 - { name: generatorrunner,                                           ruleset: sisyphus,    untrusted: true } # accused of fake 0.6.17
 - { name: genext2fs,                   verpat: ".*-.*",                                    debianism: true }

@@ -82,6 +82,7 @@
 - { name: nitrogen,                    verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: nkf,                         verpat: "2\\.[0-9]{2}",                             incorrect: true } # it's X.Y.Z, not X.YZ
 - { name: nlbwmon,                                                                         noscheme: true } # https://github.com/jow-/nlbwmon/releases
+- { name: nnpack,                                                                          noscheme: true }
 - { name: no-more-secrets,             verpat: "[0-9]{8}",                                 incorrect: true } # slitaz
 - { name: nodejs,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: nogravity,                                                 ruleset: os4depot,    incorrect: true }
