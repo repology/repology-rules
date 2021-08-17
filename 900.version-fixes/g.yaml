@@ -25,7 +25,7 @@
 - { name: gcc-arm-none-eabi,           verpat: "([0-9]+)[._-]([0-9]{4})[._-]q?([0-9]+)(?:[-_]update)?", setver: $1-$2q$3 }
 - { name: gcc-arm-none-eabi,           verpat: ".*q.*",                                    any_is_patch: true }
 - { name: gcc-arm-none-eabi,           verpat: "(.*)[_-]?(update|major)",                  setver: $1 }
-- { name: gccxml,                                                                          noscheme: true } # also superceded by castxml, could instead mark as forced outdated
+- { name: gccxml,                                                                          force_outdated: true } # superceded by castxml
 - { name: gcompris,                    verge: "11",                                        outdated: true }
 - { name: gcr,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gd,                          ver: "2.25",                                        incorrect: true } # 2.2.5
