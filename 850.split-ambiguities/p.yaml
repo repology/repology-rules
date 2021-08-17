@@ -86,7 +86,9 @@
 
 - { name: "php:pam", wwwpart: amishmm, setname: "php:pam-amishmm" } # XXX: otherwise pecl
 
-- { name: picard,                      setname: java-picard, wwwpart: picard.sourceforge.net }
+- { name: picard, wwwpart: [picard.sourceforge.net,sourceforge.net/projects/picard,broadinstitute], setname: picard-sequencing-data-tools }
+- { name: picard, wwwpart: brainz, setname: picard-tagger }
+- { name: picard, addflag: unclassified }
 
 # pico is a part of corresponding email clients
 - { name: pico, wwwpart: washington.edu/pine, setname: pine }
