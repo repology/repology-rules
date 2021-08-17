@@ -5,6 +5,8 @@
 - { name: p7zip-original,              verge: "17",                                        incorrect: true } # likely belong to p7zip-jinfeihan57, but provide incorrect homepage
 - { name: palapeli,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: pam,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: pam,                         ver: "1.09",                                        incorrect: true } # google-authenticator-libpam instead
+- { name: pam,                                                       ruleset: spack,       untrusted: true } # accused of fake 1.09
 - { name: pam-ldap,                    verpat: "([0-9]+)\\.([0-9]+)\\.([0-9]+)",           setver: "$1$2$3" } # FreeBSD garbage
 - { name: pam-radius,                  verge: "4",                   ruleset: dports,      incorrect: true }
 - { name: pam-tacplus,                 verge: "4",                   ruleset: dports,      incorrect: true }
