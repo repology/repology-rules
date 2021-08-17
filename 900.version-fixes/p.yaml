@@ -260,6 +260,7 @@
 - { name: psh,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: psi-plus,                    verpat: "20[0-9]{6}.*",                             snapshot: true } # opensuse garbage
 - { name: psi-plus,                    verlonger: 3,                                       incorrect: true } # aur garbage
+- { name: psimd,                                                                           noscheme: true }
 - { name: pspp,                        ver: ["1.3.0", "1.3.0a"],     ruleset: [macports,pisi], incorrect: true }
 - { name: pspp,                                                      ruleset: [macports,pisi], untrusted: true }
 - { name: pssh,                        ver: "2.3.3",                 ruleset: mageia,      incorrect: true }
@@ -268,6 +269,7 @@
 - { name: psutils-postscript-angus,    vercomps: 1,                                        incorrect: true } # "release 1 patchlevel 17", most commonly represented as 1.17
 - { name: psutils-postscript-angus,    ver: "2.05",                                        incorrect: true }
 - { name: pt2-clone,                   verpat: "2.*",                                      outdated: true } # https://github.com/8bitbubsy/pt2-clone/releases
+- { name: pthreadpool,                                                                     noscheme: true } # excluding 0.1 tag from 2015 it's not tagged
 - { name: public-suffix-list,                                                              noscheme: true } # https://github.com/publicsuffix/list/releases
 - { name: pulseaudio,                  verpat: ".*99.*",                                   devel: true }
 - { name: pulseaudio-alsa,                                                                 noscheme: true } # just some versionless config for pulseaudio

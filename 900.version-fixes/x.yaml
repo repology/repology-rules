@@ -109,6 +109,7 @@
 - { name: xmrig,                                                     ruleset: [sisyphus,aur], untrusted: true } # accused of fake 2.6.0
 - { name: xmris,                       ver: "4.05",                                        incorrect: true } # 4.0.5
 - { name: xmris,                       ver: "4.04",                                        outdated: true } # 4.0.5 > 4.04
+- { name: xnnpack,                                                                         noscheme: true }
 - { name: xnp2,                        verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: xombrero,                    verlonger: 3,                 ruleset: slitaz,      incorrect: true }
 - { name: xorg-server,                 verlonger: 3,                 ruleset: crux,        ignore: true } # bogus suffux
