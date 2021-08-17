@@ -10,8 +10,7 @@
 - { name: kaddressbook,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kafka,                       verpat: "2\\.12.*",           ruleset: aur,         incorrect: true } # includes scala version
 - { name: kafka,                                                     ruleset: aur,         untrusted: true } # accused of fake 2.12.2.3.0
-- { name: kafka,                       verpat: ".*-.*",              ruleset: nix,         incorrect: true } # some other version prepended
-- { name: kafka,                                                     ruleset: nix,         untrusted: true } # accused of fake 2.12-2.4.0
+- { name: kafka,                       verpat: "([0-9]+\\.[0-9]+)[._-]([0-9]+\\.[0-9]+\\.[0-9]+)", setver: $2 } # scala version prepended (by upstream as well)
 - { name: kairo,                                                                           noscheme: true }
 - { name: kajongg,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kalarm,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
