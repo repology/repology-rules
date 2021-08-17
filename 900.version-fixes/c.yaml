@@ -223,6 +223,8 @@
 - { name: cpulimit,                    verpat: "20[0-8]{6}.*",                             ignore: true } # hyperbola
 - { name: cpuminer-multi,              verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: crack-attack,                ver: "1.1.15_cvs_01",                               ignore: true }
+- { name: crack-attack,                ver: "1.1.15",                ruleset: rosa,        incorrect: true }
+- { name: crack-attack,                                              ruleset: rosa,        untrusted: true } # accused of fake 1.1.15
 - { name: crconf,                      ver: "0.2",                   ruleset: aur,         incorrect: true } # it's "pre2"
 - { name: crconf,                      ver: "0_pre2",                ruleset: alpine,      incorrect: true } # it's "pre2"
 - { name: crda,                        ver: "3.18_2016.02.08",                             ignore: true }
