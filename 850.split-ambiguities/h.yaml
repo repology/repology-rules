@@ -1,5 +1,10 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: hal, wwwpart: freedesktop, setname: hal-hardware-abstraction-layer }
+- { name: hal, wwwpart: emsec, setname: hal-hardware-analyzer }
+- { name: hal, wwwpart: ComparativeGenomicsToolkit, setname: hal-hierarchical-alignment }
+- { name: hal, addflag: unclassified }
+
 - { name: hd-idle, wwwpart: adelolmo, setname: hd-idle-adelolmo }
 - { name: hd-idle, wwwpart: [sf.net, sourceforge], setname: hd-idle-cjmueller }
 - { name: hd-idle, addflag: unclassified }
