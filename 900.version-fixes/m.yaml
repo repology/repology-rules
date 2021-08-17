@@ -231,6 +231,7 @@
 - { name: mutt,                                                      ruleset: sisyphus,    untrusted: true } # accused of fake 2.0.4.0.4.gd6732de7d
 - { name: mutter,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: muttprint,                   verpat: ".*_.*",                                    incorrect: true } # aur fake
+- { name: mvapich2,                    ver: "2.3a",                                        outdated: true }
 - { name: mve,                                                                             noscheme: true }
 - { name: mvwm,                                                                            noscheme: true }
 - { name: mx-clutter,                  verpat: "[0-9]+\\.99.*",                            devel: true }
