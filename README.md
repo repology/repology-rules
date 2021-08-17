@@ -491,15 +491,35 @@ to indicate post- releases.
 - { name: webalizer, verpat: ".*rb.*", any_is_patch: true }
 ```
 
-#### outdated
+#### sink
 
-Set to `true` to force the package to be outdated, even if its version
-compares as the most recent. Set to `false` to undo.
+Set to `true` to force the package version to compare lower than
+any other package version. Useful to handle upstream versioning
+schema change when new versions compare lower than legacy ones.
+Set to `false` to undo.
+
+```yaml
+# when 0.20 follows 0.193:
+- { version: "0.193", sink: true }
+```
+
+Result: `0.20 (newest)` > `0.193 (outdated)`
+
+#### force_outdated
+
+Set to `true` to force the package to be outdated, even if it
+classifies as the most recent. Note that this does not lead to
+another version being selected as newest. Useful to convey that
+a version is outdated even when there are no newer versions (for
+instance, when a project is superceded by another project).
+Set to `false` to undo.
 
 ```yaml
 # when 0.20 follows 0.193:
 - { version: "0.193", outdated: true }
 ```
+
+Result: `0.193 (outdated)` > `0.20 (outdated)`
 
 #### legacy
 
