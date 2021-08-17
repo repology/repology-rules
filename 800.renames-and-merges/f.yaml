@@ -113,7 +113,7 @@
 - { setname: foobillard++,             name: foobillardplus }
 - { setname: foomatic-filterrs,        name: [foomatic-filters-cups, foomatic-filters-lprng], addflavor: true }
 - { setname: fop,                      name: [apache-fop,fop2,xmlgraphics-fop] }
-- { setname: fossology,                name: fossology-nomos-standalone } # part of fossology
+- { setname: fossology,                name: [fossology-nomos-standalone,fossology-nomos] } # part of fossology
 - { setname: foswiki,                  name: "perl:foswiki" }
 - { setname: foundationdb,             name: [foundationdb-clients,foundationdb-server], addflavor: true }
 - { setname: four-in-a-row,            name: gnome-games-four-in-a-row }
