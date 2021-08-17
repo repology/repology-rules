@@ -258,6 +258,10 @@
 - { name: cpulimit, verle: "1.1", setname: cpulimit1 }
 - { name: cpulimit, setname: limitcpu }
 
+- { name: cram, wwwpart: llnl, setname: cram-mpi }
+- { name: cram, wwwpart: bitheap, setname: "python:cram" }
+- { name: cram, addflag: unclassified }
+
 - { name: crash, wwwpart: redhat, setname: crash-redhat }
 - { name: crash, wwwpart: crashub, setname: crash-java }
 - { name: crash, addflag: unclassified }
