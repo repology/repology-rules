@@ -21,6 +21,10 @@
 - { name: helm, summpart: synth, setname: helm-synth }
 - { name: helm, addflag: unclassified }
 
+- { name: hercules, wwwpart: src-d, setname: hercules-git-history-analysis }
+- { name: hercules, wwwpart: [hercules-390], setname: hercules-emulator }
+- { name: hercules, addflag: unclassified }
+
 - { name: hermes, wwwpart: hermes-project.com, setname: hermes-proxy }
 - { name: hermes, wwwpart: ralt/hermes, setname: hermes-auth }
 - { name: hermes, wwwpart: [clanlib,scene.org], setname: hermes-pixel-format-library }
