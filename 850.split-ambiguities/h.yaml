@@ -91,6 +91,10 @@
 - { name: thc-hydra, setname: hydra } # XXX: HACK
 # otherwise thc-hydra, network logon cracker
 
+- { name: hydrogen, wwwpart: libelemental, setname: hydrogen-linear-algebra }
+- { name: hydrogen, wwwpart: hydrogen-music, setname: hydrogen-drum-machine }
+- { name: hydrogen, addflag: unclassified }
+
 - { name: hyperion, wwwpart: hyperion-project, setname: hyperion-ambilight }
 - { name: hyperion, wwwpart: nullsecurity, setname: hyperion-encrypter }
 - { name: hyperion, summpart: ambi, setname: hyperion-ambilight }
