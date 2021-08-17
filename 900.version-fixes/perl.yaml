@@ -60,7 +60,7 @@
 - { name: "perl:file-rsync",                                         ruleset: [alpine,slitaz], untrusted: true } # fake File-RsyncP as File-Rsync
 - { name: "perl:findbin-libs",         verge: "2.1000", verlt: "2.2100",                   outdated: true }
 - { name: "perl:findbin-libs",         verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:gd-graph",             verpat: "1\\.4[34][0-9]{2}.*",                      outdated: true }
+- { name: "perl:gdgraph",              verpat: "1\\.4[34][0-9]{2}.*",                      outdated: true }
 - { name: "perl:html-formfu",          verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
 - { name: "perl:html-formfu",          verge: "2.10",                                      incorrect: true }
 - { name: "perl:html-packer",          verpat: "2\\.[0-9]{3}",                             incorrect: true }
