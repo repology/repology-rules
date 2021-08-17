@@ -288,6 +288,7 @@
 - { name: pycharm,                     verlonger: 3,                                       devel: true } # e.g. 2019.3.1.193.5662.61 - assuming EAP (early access) version
 - { name: pycharm,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: pychess,                     ver: "1.0.1",                                       setver: "1.0.0" } # upstream problem: 1.0.1 is repackaging of 1.0.0
+- { name: pythia,                      verpat: "[0-9]{4}",                                 incorrect: true } # spack, 8.304, not 8304
 - { name: python,                      verpat: ".*[ab].*",                                 devel: true }
 - { name: python,                      verpat: ".*150.*",                                  incorrect: true }
 - { name: python,                      verpat: ".*[0-9]{3}.*",                             incorrect: true }
