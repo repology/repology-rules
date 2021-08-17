@@ -88,7 +88,11 @@
 - { name: amap, ruleset: [pld,pkgsrc,openbsd], setname: amap-pentesting }
 - { name: amap, addflag: unclassified }
 
-- { name: amber, setname: amber-search, wwwpart: dalance }
+- { name: amber, wwwpart: dalance, setname: amber-code-search-replace }
+- { name: amber, wwwpart: amberframework, setname: amber-web-framework }
+- { name: amber, wwwpart: google/amber, setname: amber-shader-test-framework }
+- { name: amber, wwwpart: ambermd, setname: amber-biomolecular-simulation }
+- { name: amber, addflag: unclassified }
 
 - { name: amd, wwwpart: plosone, setname: amd-automated-motif-discovery }
 - { name: amd, wwwpart: am-utils, setname: am-utils }
