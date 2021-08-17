@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { name: namd,                        verpat: ".*a.*",                                    devel: true }
 - { name: nano,                        verpat: ".*-.*",              ruleset: scoop,       snapshot: true }
 - { name: nastran-95,                                                                      noscheme: true } # https://github.com/nasa/NASTRAN-95/releases
 - { name: nautilus,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
