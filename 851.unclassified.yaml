@@ -1,3 +1,9 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { flag: unclassified, noflag: classified, setname: $0-unclassified, force_outdated: true }
+- flag: unclassified
+  noflag: classified
+  setname: $0-unclassified
+  force_outdated: true
+  ignore: false
+  rolling: false
+  untrusted: false
