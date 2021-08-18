@@ -294,7 +294,7 @@
 - { setname: pypy,                     name: ["python:pypy","python:pypy-bin",pypy2] }
 - { setname: pypy3,                    name: ["python:pypy3","python:pypy3-bin"] }
 - { setname: pyspread,                 name: "python:pyspread" }
-- { setname: pythia,                   name: pythia8 }
+- { setname: pythia,                   name: [pythia8, "python:pythia8", pythia6] }
 - { setname: python,                   name: python-exp } # scoop
 - { setname: python,                   namepat: "python[0-9.-]+" }
 - { setname: python,                   name: "python:sqlite3", addflavor: true } # part of; split into separate package in FreeBSD, ravenports and pkgsrc
