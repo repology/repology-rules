@@ -116,8 +116,8 @@
 - { name: goby, wwwpart: [campagne,chagakk], setname: goby-dns-sequencing }
 - { name: goby, addflag: unclassified }
 
-- { name: gollum, wwwpart: github.com/gollum/gollum, setname: gollum-wiki }
-- { name: gollum, wwwpart: trivago, setname: gollum-message-multiplexor }
+- { name: gollum, wwwpart: [github.com/gollum/gollum,rubygems.org/gems/gollum], setname: "ruby:gollum" }
+- { name: gollum, wwwpart: [gollum.readthedocs.io,trivago], setname: gollum-message-multiplexor }
 - { name: gollum, addflag: unclassified }
 
 - { name: gom, category: [sound,media-sound,universe/sound], setname: gom-mixer }
