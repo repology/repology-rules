@@ -18,8 +18,7 @@
 
 - { name: xed, wwwpart: mint, setname: xed-mint }
 - { name: xed, wwwpart: sourceforge, setname: xed-ed }
-- { name: xed, ruleset: freebsd, setname: xed-xcontrib }
-- { name: xed, ruleset: [sisyphus,aosc,pclinuxos,mint,mx], setname: xed-mint }
+- { name: xed, wwwpart: intel, setname: intel-xed }
 - { name: xed, addflag: unclassified }
 
 - { name: xdrfile, ruleset: arch, verpat: "2\\..*", setname: xdrfile-wesbarnett } # fork
