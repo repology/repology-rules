@@ -92,6 +92,9 @@
 - { name: dkms,                        ver: "2.022.0",                                     ignore: true } # gobolinux fake
 - { name: dmake,                       verpat: ".*20[0-9]{6}",                             ignore: true } # freebsd snapshot
 - { name: dmenu,                       verlonger: 2,                 ruleset: freebsd,     incorrect: true }
+- { name: dmlc-core,                   verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: dmlc-core,                   verlonger: 2,                                       snapshot: true }
+- { name: dmlc-core,                   ver: "0.3",                                         force_outdated: true, disposable: true } # latest is 0.5
 - { name: dmraid,                      ver: "1.0.0",                 ruleset: [mageia,openmandriva,pclinuxos,pld], incorrect: true } # it's 1.0.0rc16
 - { name: dnrd,                        ver: "2.20.4",                ruleset: aix,         incorrect: true }
 - { name: dnrd,                                                      ruleset: aix,         untrusted: true }
