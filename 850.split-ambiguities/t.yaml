@@ -151,6 +151,11 @@
 - { name: tox, wwwpart: tox.chat, setname: toxcore }
 - { name: tox, wwwpart: [tox.readthedocs.io,tox.readthedocs.org,testrun,codespeak.net/tox], setname: "python:tox" }
 
+- { name: tracer, wwwpart: tracer-package, setname: tracer-outdated-apps }
+- { name: tracer, wwwpart: beast-dev, setname: tracer-bayesian-phylogenetics }
+- { name: tracer, wwwpart: tracer-codes, setname: tracer-trace-replay-tool }
+- { name: tracer, addflag: unclassified }
+
 - { name: traceroute, wwwpart: nanog, setname: traceroute-nanog }
 - { name: traceroute, ruleset: freebsd, setname: traceroute-as }
 
