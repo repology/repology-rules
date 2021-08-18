@@ -54,7 +54,7 @@
 - { name: cayley,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: cblas,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: cbonsai,                     verpat: "20[0-9]{6}",                               incorrect: true }
-- { name: ccd2iso,                     ver: "0.9",                   ruleset: freebsd,     outdated: true } # it's fake, no mention of 0.9 at all, and it uses file which was released before 0.3
+- { name: ccd2iso,                     ver: "0.9",                   ruleset: freebsd,     sink: true } # it's fake, no mention of 0.9 at all, and it uses file which was released before 0.3
 - { name: ccid,                        ver: "1.54",                  ruleset: t2,          incorrect: true } # 1.3.8
 - { name: ccid,                                                      ruleset: t2,          untrusted: true } # accused of fake 1.54
 - { name: ccls,                        ver: "0.20190731",                                  incorrect: true } # fake
@@ -74,8 +74,8 @@
 - { name: ceferino,                    verpat: ".*svn.*",                                  ignore: true }
 - { name: cegui,                       verpat: "6\\..*",                                   setver: "0.$0" } # it's 0.6.2!
 - { name: cegui,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: ceilometer,                  verge: "2000",                                      outdated: true } # 2014.1.4 < 15.0.0
-- { name: celestia,                    verpat: "[0-9]{3,4}",                               outdated: true }
+- { name: ceilometer,                  verge: "2000",                                      sink: true } # 2014.1.4 < 15.0.0
+- { name: celestia,                    verpat: "[0-9]{3,4}",                               sink: true }
 - { name: celestia,                    ver: "1.7.0",                 ruleset: opensuse,    incorrect: true }
 - { name: celestia,                                                  ruleset: opensuse,    untrusted: true }
 - { name: celestia,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
@@ -91,7 +91,7 @@
 - { name: cfssl,                       verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: cfssl,                       verpat: ".+\\.20[0-9]{6}",                          snapshot: true }
 - { name: cgo,                         verpat: "20[0-9]{6}.*",                             incorrect: true }
-- { name: cgo,                         verge: "20000000", verlt: "20200522",               outdated: true } # latest from May 22, 2020
+- { name: cgo,                         verge: "20000000", verlt: "20200522",               sink: true } # latest from May 22, 2020
 - { name: cgrep,                       ver: "8.15",                  ruleset: aix,         incorrect: true }
 - { name: cgrep,                                                     ruleset: aix,         untrusted: true }
 - { name: cgterm,                      verpat: ".*b.*",                                    devel: true }
@@ -113,7 +113,7 @@
 - { name: chkconfig,                   verpat: "11\\..*",                                  ignore: true } # some fossil from ancient debian
 - { name: chmlib,                      ver: "0.40a",                                       devel: true } # mentioned in readme, no tags, used by debian and aosc
 - { name: chntpw,                      verpat: "20[0-9]{6}",                               ignore: true }
-- { name: chntpw,                      ver: "20100627",                                    outdated: true }
+- { name: chntpw,                      ver: "20100627",                                    sink: true }
 - { name: chromaprint,                                               ruleset: rosa,        untrusted: true } # accused of fake 1.4.4
 - { name: chromium,                    verpat: ".*-r[0-9]+",                               ignore: true } # scoop
 - { name: chromium,                    verpat: "[0-9]+",                                   snapshot: true } # homebrew casks <- https://commondatastorage.googleapis.com/chromium-browser-snapshots/Mac/675525/chrome-mac.zip
@@ -124,7 +124,7 @@
 - { name: chrpath,                     ver: "0.16.1",                ruleset: deepin,      incorrect: true }
 - { name: chrpath,                                                   ruleset: deepin,      untrusted: true } # accused of fake 0.16.1
 - { name: cht.sh,                                                                          noscheme: true } # https://github.com/chubin/cheat.sh/releases
-- { name: cimg,                        verpat: "[0-9]{3}", verle: "221",                   outdated: true } # see https://github.com/dtschump/CImg/tags?after=v.2.2.3
+- { name: cimg,                        verpat: "[0-9]{3}", verle: "221",                   sink: true } # see https://github.com/dtschump/CImg/tags?after=v.2.2.3
 - { name: cimg,                        verpat: "[0-9]{3}", vergt: "221",                   incorrect: true }
 - { name: circleci-cli,                verpat: "([0-9.]+)-[0-9a-f]+",                      setver: $1 } # commit hash is not a part of the version https://github.com/circleci/local-cli/releases
 - { name: citra,                                                                           noscheme: true }
@@ -133,10 +133,10 @@
 - { name: cl-alexandria,               verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: cl-alexandria,               verpat: "20[0-9]{2}\\..*",                          incorrect: true }
 - { name: cl-asdf,                     verpat: "20[0-9]{6}.*",                             ignore: true }
-- { name: cl-asdf,                     ver: "20101028",                                    outdated: true }
+- { name: cl-asdf,                     ver: "20101028",                                    sink: true }
 - { name: cl-asdf,                     verlonger: 3,                                       devel: true } # https://gitlab.common-lisp.net/asdf/asdf/blob/3.3.1.7/upgrade.lisp#L94
 - { name: cl-fad,                      verpat: "20[0-9]{6}",                               ignore: true }
-- { name: clamav,                      verpat: "[0-9]{4}",                                 outdated: true } # ancient version from wikidata
+- { name: clamav,                      verpat: "[0-9]{4}",                                 sink: true } # ancient version from wikidata
 - { name: claws-mail,                  verlonger: 3,                 ruleset: pisi,        incorrect: true }
 - { name: claws-mail,                                                ruleset: pisi,        untrusted: true }
 - { name: claws-mail,                  ver: "3.99.0",                ruleset: nix,         incorrect: true }
@@ -175,8 +175,8 @@
 - { name: cmus,                        verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: coccigrep,                   verpat: "20[0-9]{6}",                               ignore: true }
 - { name: cockatrice,                  verpat: "20[0-9]{2}.*",                             snapshot: true }
-- { name: cockatrice,                  verge: "20000000", verlt: "20190608",               outdated: true } # latest 2.7.1 from 20190608
-- { name: cockatrice,                  verge: "2000.00.00", verlt: "2019.06.08",           outdated: true } # latest 2.7.1 from 20190608
+- { name: cockatrice,                  verge: "20000000", verlt: "20190608",               sink: true } # latest 2.7.1 from 20190608
+- { name: cockatrice,                  verge: "2000.00.00", verlt: "2019.06.08",           sink: true } # latest 2.7.1 from 20190608
 - { name: codelite,                    ver: "17.12",                 ruleset: pisi,        incorrect: true } # 14.0 in fact
 - { name: codelite,                                                  ruleset: pisi,        untrusted: true } # accused of fake 17.12
 - { name: codesearch,                                                                      noscheme: true }
@@ -188,7 +188,7 @@
 - { name: colormake,                   ver: ["2.1.0", "0.9.20140504", "0.9.20170221"],     ignore: true }
 - { name: comedilib,                   ver: "140410",                                      ignore: true } # pclinuxos weirdness
 - { name: commandergenius,             verpat: ".*[0-9]{4}.*",                             ignore: true } # nixpkgs weirdness
-- { name: compizconfig-python,         ver: "0.9.5.94",                                    outdated: true } # some antient garbage from ubuntu 12
+- { name: compizconfig-python,         ver: "0.9.5.94",                                    sink: true } # some antient garbage from ubuntu 12
 - { name: compton,                                                                         noscheme: true } # some antient garbage from ubuntu 12
 - { name: confetti,                                                                        noscheme: true } # https://github.com/mailru/confetti/releases
 - { name: conmon,                                                    ruleset: [sisyphus,fedora], untrusted: true } # accused of fake 2.0.4, 2.1
@@ -212,7 +212,7 @@
 - { name: corsixth,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: courier-authlib,             verpat: ".*\\.20[0-9]{6}",                          devel: true }
 - { name: courier-unicode,             verpat: ".*\\.20[0-9]{6}",                          devel: true } # http://www.courier-mta.org/download.html#unicode
-- { name: coursier,                    ver: "1.0.2",                                       outdated: true } # Known bad version https://github.com/coursier/coursier/commit/2cb42444cdbd6ad2a50f963378ff27259a4fb1a7
+- { name: coursier,                    ver: "1.0.2",                                       sink: true } # Known bad version https://github.com/coursier/coursier/commit/2cb42444cdbd6ad2a50f963378ff27259a4fb1a7
 - { name: cowsay,                      ver: "3.04.01",                                     ignore: true }
 - { name: coxeter,                                                                         noscheme: true }
 - { name: cpdup,                                                     ruleset: openbsd,     untrusted: true } # from dragonfly, but not enough data (homepage) to split it
@@ -235,7 +235,7 @@
 - { name: critterding,                 verpat: "1\\.0(beta.*)",                            setver: "$1" }
 - { name: cronolog,                    ver: "1.7.0",                 ruleset: openpkg,     incorrect: true } # 1.7.0-beta
 - { name: crossguid,                   verpat: "20[0-9]{6}",                               ignore: true }
-- { name: crossguid,                   verpat: "201[56].*",                                outdated: true } # there's 0.2.2 from Aug 2017
+- { name: crossguid,                   verpat: "201[56].*",                                sink: true } # there's 0.2.2 from Aug 2017
 - { name: crossguid,                   verpat: "0\\.2\\.2-20[0-9]+(-[0-9]+)*",             incorrect: true }
 - { name: crossguid,                   ver: "1.0.0",                 ruleset: openindiana, incorrect: true }
 - { name: crossguid,                                                 ruleset: vcpkg,       untrusted: true } # accused of fake 0.2.2-2018-06-16
@@ -254,16 +254,16 @@
 - { name: cups,                        verpat: ".*op.*",                                   any_is_patch: true } # e.g. 2.3.3op1
 - { name: cups,                        verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true } # 2.3.3op1, not 2.3.3.1
 - { name: cups,                        verpat: ".*[^o]p.*",                                incorrect: true }
-- { name: cura,                        verpat: "1[45].*",                                  outdated: true }
-- { name: curaengine,                  verpat: "1[45].*",                                  outdated: true }
+- { name: cura,                        verpat: "1[45].*",                                  sink: true }
+- { name: curaengine,                  verpat: "1[45].*",                                  sink: true }
 - { name: curses-hexedit,              verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)_[0-9]+",        setver: $1 } # slackbuilds - debian patchlevel
 - { name: cutechess,                   verpat: "20[0-9]+",                                 incorrect: true }
-- { name: cutechess,                   verge: "20000000", verlt: "20200809",               outdated: true } # 1.2.0 from Aug 9, 2020
+- { name: cutechess,                   verge: "20000000", verlt: "20200809",               sink: true } # 1.2.0 from Aug 9, 2020
 - { name: cutegram,                    ver: "2.99",                                        incorrect: true }
 - { name: cutegram,                    ver: "2.9.5",                                       devel: true }
 - { name: cutegram,                    vergt: "2.9.5",               ruleset: chakra,      ignore: true } # my provide other devel versions
 - { name: cutycapt,                                                                        noscheme: true }
-- { name: cuyo,                        ver: "2.1.1",                 ruleset: gentoo,      outdated: true } # refers to some 2.~-1.1 from http://download-mirror.savannah.gnu.org/releases/cuyo/ from 2007, while the latest version is from 2014
+- { name: cuyo,                        ver: "2.1.1",                 ruleset: gentoo,      sink: true } # refers to some 2.~-1.1 from http://download-mirror.savannah.gnu.org/releases/cuyo/ from 2007, while the latest version is from 2014
 - { name: cuyo,                                                      ruleset: gentoo,      untrusted: true } # who knows what will they pick after 2.1.1
 - { name: cvs,                         ver: "1.20120905",                                  ignore: true }
 - { name: cvs,                         ver: "1.12.13.1",                                   ignore: true } # respin for Windows *only* to fix carriage returns, it does not make sense to list it

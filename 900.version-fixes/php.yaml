@@ -10,11 +10,11 @@
 - { name: "php:crypt-blowfish",                                      ruleset: pld,         untrusted: true } # accused of fake 1.1.0
 - { name: "php:date",                  ver: "1.5.0",                 ruleset: rpm,         incorrect: true }
 - { name: "php:date",                                                ruleset: rpm,         untrusted: true } # accused of fake 1.5.0
-- { name: "php:dba-relational",        ver: "0.19",                                        outdated: true }
+- { name: "php:dba-relational",        ver: "0.19",                                        sink: true }
 - { name: "php:http-upload",           ver: "1.0.0",                 ruleset: pld,         incorrect: true } # 1.1.0b4
 - { name: "php:http-upload",                                         ruleset: pld,         untrusted: true } # accused of fake 1.0.0
 - { name: "php:interbase",             verge: "7.4.0",                                     incorrect: true } # no such extensions since php 7.4
-- { name: "php:mcrypt",                verge: "5",                                         outdated: true } # part of PHP up to 7.1
+- { name: "php:mcrypt",                verge: "5",                                         sink: true } # part of PHP up to 7.1
 - { name: "php:net-ftp",               ver: "1.4.0.1",               ruleset: mageia,      incorrect: true } # 1.4.0
 - { name: "php:net-ftp",                                             ruleset: mageia,      untrusted: true } # accused of fake 1.4.0.1
 - { name: "php:pear",                  ver: "1.10.19",               ruleset: [aur,opensuse], incorrect: true } # tracking another project

@@ -14,7 +14,7 @@
 - { name: xapian-core,                 verpat: "[0-9]{3}",                                 incorrect: true } # homebrew
 - { name: xaralx,                      verpat: ".*1750",                                   snapshot: true } # > stable < devel
 - { name: xastir,                      verpat: "[0-9]{3}",                                 incorrect: true } # XXX: problem
-- { name: xastir,                      ver: "208",                                         outdated: true }
+- { name: xastir,                      ver: "208",                                         sink: true }
 - { name: xawtv,                       ver: "4.0",                   ruleset: sisyphus,    incorrect: true }
 - { name: xc3sprog,                                                                        noscheme: true } # https://github.com/xtrx-sdr/xc3sprog/releases
 - { name: xcalib,                      verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
@@ -33,7 +33,7 @@
 - { name: xcwd,                                                                            noscheme: true }
 - { name: xd,                          ver: "8087",                                        incorrect: true } # openbsd
 - { name: xd,                                                        ruleset: openbsd,     untrusted: true } # accused of fake 8087
-- { name: xdelta,                      verpat: "30.*",                                     outdated: true } # t2; 3.0* actually
+- { name: xdelta,                      verpat: "30.*",                                     sink: true } # t2; 3.0* actually
 - { name: xdg-desktop-portal,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: xdg-desktop-portal-gtk,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: xdg-desktop-portal-kde,      verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
@@ -45,7 +45,7 @@
 - { name: xdotool,                     verpat: "20[0-9]{6}.*",                             incorrect: true } # it's 3.YYYYMMDD; XXX: problem
 - { name: xdotool,                     ver: "3.20200618.1",          ruleset: openmandriva, incorrect: true } # the tag they pull is from 2016..
 - { name: xdotool,                                                   ruleset: openmandriva, untrusted: true } # the tag they pull is from 2016..
-- { name: xdrawchem,                   ver: "2.0",                   ruleset: debuntu,     outdated: true } # from oldstable
+- { name: xdrawchem,                   ver: "2.0",                   ruleset: debuntu,     sink: true } # from oldstable
 - { name: xdrawchem,                   verpat: ".*r[0-9]{3}",                              snapshot: true } # opensuse science, 2.0r209
 - { name: "xdrv:fbdev",                verpat: "[0-9]{3}.*",                               incorrect: true } # slackwarearm garbage
 - { name: "xdrv:fbturbo",              verpat: ".*[0-9]{6}",                               snapshot: true }
@@ -54,7 +54,7 @@
 - { name: "xdrv:freedreno",            verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "xdrv:freedreno",            verpat: ".*-[0-9]+-[0-9a-f]{7}",                    incorrect: true }
 - { name: "xdrv:intel",                                                                    noscheme: true }
-- { name: "xdrv:mga",                  verpat: "1\\.9\\..*",                               outdated: true } # 2007, while latest 1.6.5 is 2017
+- { name: "xdrv:mga",                  verpat: "1\\.9\\..*",                               sink: true } # 2007, while latest 1.6.5 is 2017
 - { name: "xdrv:openchrome",           verpat: "20[0-9]{6}.*",                             snapshot: true } # slackware
 - { name: "xdrv:savage",               verpat: "20[0-9]{6}.*",                             snapshot: true } # slackware
 - { name: "xdrv:sis",                  verpat: "20[0-9]{6}.*",                             snapshot: true } # slackware
@@ -88,12 +88,12 @@
 - { name: xfwm,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: xhyve,                       verpat: "20[0-9]{6}",                               snapshot: true } # macports
 - { name: xl2tpd,                      verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: xl2tpd,                      verge: "20000000", verlt: "20180519",               outdated: true }
+- { name: xl2tpd,                      verge: "20000000", verlt: "20180519",               sink: true }
 - { name: xloadimage,                  verlonger: 2,                                       debianism: true } # freebsd, openbsd
 - { name: xmahjongg,                   ver: "3.70",                  ruleset: [ pkgsrc ],  incorrect: true }
 - { name: xmame,                                                     ruleset: os4depot,    incorrect: true }
 - { name: xmbmon,                      verpat: "[0-9]{3}",                                 incorrect: true } # it's 2.05, not 205. Also not 2.0.5.
-- { name: xml-coreutils,               ver: "0.8a",                                        outdated: true }
+- { name: xml-coreutils,               ver: "0.8a",                                        sink: true }
 - { name: xmlada,                                                                          noscheme: true }
 - { name: xmlrpc-c,                    relgt: "1.51",                                      devel: true, maintenance: true } # http://xmlrpc-c.sourceforge.net/change_super_stable.html
 - { name: xmltoman,                    verge: "0.5",                                       successor: true }
@@ -108,7 +108,7 @@
 - { name: xmrig,                       ver: "2.6.0",                 ruleset: [sisyphus,aur], incorrect: true } # beta3
 - { name: xmrig,                                                     ruleset: [sisyphus,aur], untrusted: true } # accused of fake 2.6.0
 - { name: xmris,                       ver: "4.05",                                        incorrect: true } # 4.0.5
-- { name: xmris,                       ver: "4.04",                                        outdated: true } # 4.0.5 > 4.04
+- { name: xmris,                       ver: "4.04",                                        sink: true } # 4.0.5 > 4.04
 - { name: xnnpack,                                                                         noscheme: true }
 - { name: xnp2,                        verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: xombrero,                    verlonger: 3,                 ruleset: slitaz,      incorrect: true }
@@ -116,7 +116,7 @@
 - { name: xorg-server,                 verpat: "[0-9]+\\.[0-9]+\\.99.*",                   devel: true }
 - { name: xorgproto,                   verpat: "20[0-9]{6}",                               incorrect: true } # 2019.2, not YYYYMMDD
 - { name: xorriso,                     ver: "1.5.1",                                       devel: true } # https://www.gnu.org/software/xorriso/ / Development snapshot
-- { name: xournal,                     ver: "4.7",                                         outdated: true }
+- { name: xournal,                     ver: "4.7",                                         sink: true }
 - { name: xpdf,                        ver: "4.02",                  ruleset: freebsd,     incorrect: true }
 - { name: xpdf,                        verpat: ".*pl0",                                    incorrect: true }
 - { name: xplot,                       verge: "1",                   ruleset: debuntu,     incorrect: true }
@@ -150,7 +150,7 @@
 - { name: xteddy,                      verpat: ".*-.*",                                    debianism: true }
 - { name: xterm,                       ver: "9999",                                        incorrect: true }
 - { name: xtitle,                      verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: xtitle,                      ver: "20170206",                                    outdated: true } # 0.4.3 which is latest normal version ls from feb 15, e.g. newer
+- { name: xtitle,                      ver: "20170206",                                    sink: true } # 0.4.3 which is latest normal version ls from feb 15, e.g. newer
 - { name: xtreemfs,                    verlonger: 3,                 ruleset: nix,         incorrect: true }
 - { name: xtrlock-pam,                 verpat: ".*post.*",                                 snapshot: true }
 - { name: xtruss,                      verpat: "([0-9]{8})\\.[0-9a-fr]+",                  setver: "$1" } # braindead upstream versioning

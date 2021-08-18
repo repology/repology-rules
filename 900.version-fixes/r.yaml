@@ -8,7 +8,7 @@
 - { name: "r:nws",                     ver: "2.0.0.3",               ruleset: debuntu,     ignore: true } # fake
 - { name: "r:waveslim",                ver: "1.12",                  ruleset: rosa,        ignore: true } # fake
 - { name: racer-game,                  ver: "1.1.64",                                      incorrect: true } # it's 1.1 64bit version
-- { name: racket,                      verpat: "299.*",                                    outdated: true } # something from 2005
+- { name: racket,                      verpat: "299.*",                                    sink: true } # something from 2005
 - { name: radare2-cutter,              verpat: "[0-9a-f]{8}",                              incorrect: true }
 - { name: rage,                        verlonger: 3,                                       incorrect: true }
 - { name: rage,                        verpat: "[0-9]{5}",                                 incorrect: true }
@@ -29,7 +29,7 @@
 - { name: rawstudio,                   ver: "2.1",                   ruleset: [sisyphus,fedora], incorrect: true } # Fedora and ALT Sisphus are packaging devel snapshot as version number not released ustream
 - { name: rawstudio,                                                 ruleset: [sisyphus,fedora], untrusted: true }
 - { name: rblcheck,                    verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: rblcheck,                    ver: "20020316",                                    outdated: true, disposable: true }
+- { name: rblcheck,                    ver: "20020316",                                    sink: true, disposable: true }
 - { name: rbldnsd,                     verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: rbutil,                      verpat: ".*final",                                  incorrect: true }
 - { name: rc,                          verpat: "[0-9a-f]{10}",                             incorrect: true } # carbs
@@ -58,7 +58,7 @@
 - { name: renpy,                       verlonger: 3,                                       altver: true } # used in tags
 - { name: rep-gtk,                     ver: "0.90.9",                ruleset: sisyphus,    incorrect: true }
 - { name: rep-gtk,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 0.90.9
-- { name: repo,                        verge: "20000000", verlt: "20210121",               outdated: true } # 2.12 from 20210121
+- { name: repo,                        verge: "20000000", verlt: "20210121",               sink: true } # 2.12 from 20210121
 - { name: repo,                        verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: reptyr,                      ver: "0.6.3a",                ruleset: freebsd,     incorrect: true } # fake, no such tag
 - { name: resource-agents,             verpat: ".*[0-9a-f]{8}",      ruleset: opensuse,    incorrect: true }
@@ -67,7 +67,7 @@
 - { name: restund,                     verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: retux,                       ver: "1.4.1-1",                                     setver: "1.4.1", disposable: true }
 - { name: rfcat,                       verpat: ".*[0-9]{6}",                               incorrect: true } # uses semver since Aug 2020
-- { name: rfcat,                       ver: ["170508", "190423"],                          outdated: true }
+- { name: rfcat,                       ver: ["170508", "190423"],                          sink: true }
 - { name: riak,                        ver: "2.2.5",                 ruleset: openbsd,     incorrect: true } # no mention on the web site, seems fake
 - { name: ridl,                                                                            noscheme: true }
 - { name: rinetd,                      ver: "0.62.1sam",                                   ignore: true } # debian garbage
@@ -91,8 +91,8 @@
 - { name: rss-glx,                                                   ruleset: t2,          untrusted: true }
 - { name: rstudio,                     verpat: "1\\.3\\.[0-9]+",                           devel: true, maintenance: true } # 1.2 is now stable, but there's no 1.3 yet; to stay on the safe side, assuming there will be unstable 1.3 releases. Otherwise, remove this completely.
 - { name: rtl-sdr,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: rtl-sdr,                     verge: "20000000", verlt: "20180827",               outdated: true } # 0.6.0 from 2018-08-27
-- { name: rtl-sdr,                     ver: "0.20130412",                                  outdated: true, disposable: true }
+- { name: rtl-sdr,                     verge: "20000000", verlt: "20180827",               sink: true } # 0.6.0 from 2018-08-27
+- { name: rtl-sdr,                     ver: "0.20130412",                                  sink: true, disposable: true }
 - { name: rtl-sdr,                     ver: "0.7.0",                 ruleset: solus,       incorrect: true } # uses some kind of ancient fork
 - { name: rtl-sdr,                                                   ruleset: solus,       untrusted: true } # accused of fake 0.7.0
 - { name: rtl8192eu,                                                                       noscheme: true }

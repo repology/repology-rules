@@ -9,7 +9,7 @@
 - { name: nauty,                       verpat: ".*r[^c].*",                                any_is_patch: true } # 2.7r1
 - { name: nawk,                        vergt: "20121220",                                  noscheme: true } # weird way of using noscheme, but there are no (https://github.com/onetrueawk/awk) versions after last 20121220 official release
 - { name: nbwmon,                      verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: nbwmon,                      ver: "20140917",                                    outdated: true } # at least 0.5.1 and 0.5.2 released since then: https://github.com/causes-/nbwmon/releases
+- { name: nbwmon,                      ver: "20140917",                                    sink: true } # at least 0.5.1 and 0.5.2 released since then: https://github.com/causes-/nbwmon/releases
 - { name: ncbi,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: ncurses,                     verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: ndisc6,                                                    ruleset: sisyphus,    untrusted: true } # accused of fake 1.0.4
@@ -95,9 +95,9 @@
 - { name: noto-emoji,                  ver: "20201214",                                    incorrect: true }
 - { name: noto-emoji,                                                ruleset: gentoo,      untrusted: true } # accused of fake 20201214
 - { name: nototools,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: nototools,                   verge: "20000000", verlt: "20191107",               outdated: true, disposable: true } # latest is 0.2.1 from 7 nov 2019
+- { name: nototools,                   verge: "20000000", verlt: "20191107",               sink: true, disposable: true } # latest is 0.2.1 from 7 nov 2019
 - { name: notpacman,                   ver: ["1004", "1.4"],                               incorrect: true } # 1.0.4
-- { name: novnc,                       verpat: "201[1234567].*",                           outdated: true }
+- { name: novnc,                       verpat: "201[1234567].*",                           sink: true }
 - { name: novnc,                       verpat: "20[0-9]{2}.*",                             snapshot: true }
 - { name: npapi-sdk,                   ver: "0.27.3r23",                                   incorrect: true }
 - { name: npm,                         ver: ["5.5.0", "5.5.1"],                            devel: true, maintenance: true }
@@ -121,14 +121,14 @@
 - { name: numad,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: numix-gtk-theme,             verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: numix-icon-theme,            verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: numix-icon-theme,            verge: "20000000", verlt: "20180717",               outdated: true }
+- { name: numix-icon-theme,            verge: "20000000", verlt: "20180717",               sink: true }
 - { name: numix-icon-theme-circle,     verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: numix-icon-theme-circle,     verge: "20000000", verlt: "20190507",               outdated: true }
+- { name: numix-icon-theme-circle,     verge: "20000000", verlt: "20190507",               sink: true }
 - { name: numix-icon-theme-circle,     ver: "19.07.03",              ruleset: debuntu,     incorrect: true }
 - { name: numix-icon-theme-circle,                                   ruleset: debuntu,     untrusted: true } # accused of fake 19.07.03
-- { name: numix-icon-theme-circle,     verge: "20000000", verlt: "20190507",               outdated: true }
+- { name: numix-icon-theme-circle,     verge: "20000000", verlt: "20190507",               sink: true }
 - { name: numix-icon-theme-square,     verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: numix-icon-theme-square,     verge: "20000000", verlt: "20190507",               outdated: true }
+- { name: numix-icon-theme-square,     verge: "20000000", verlt: "20190507",               sink: true }
 - { name: numptyphysics,                                                                   noscheme: true }
 - { name: numptyphysics-npcomplete,                                                        noscheme: true }
 - { name: nuvie,                                                                           noscheme: true }

@@ -8,7 +8,7 @@
 - { name: i7z,                         verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: iagno,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: iannix,                      ver: "0.9.20b",                                     setver: "0.9.20" } # ambiguous release https://github.com/buzzinglight/IanniX/releases
-- { name: ibmtss,                      verpat: "[0-9]+",                                   outdated: true } # older scheme https://sourceforge.net/projects/ibmtpm20tss/files/
+- { name: ibmtss,                      verpat: "[0-9]+",                                   sink: true } # older scheme https://sourceforge.net/projects/ibmtpm20tss/files/
 - { name: ibus-libpinyin,              verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: ibus-sunpinyin,              ver: "3.0.0",                                       ignore: true } # aosc fake, it's rc1
 - { name: ibus-sunpinyin,              ver: "2.0.99",                ruleset: opensuse,    incorrect: true } # fake, it's 3.0.0-rc1
@@ -66,8 +66,8 @@
 - { name: inotify-tools,               ver: ["3.14.01","3.14pl0"],                         ignore: true } # fake
 - { name: input-utils,                 verpat: "20[0-9]{2}.*",                             snapshot: true }
 - { name: inspectrum,                  verpat: "20[0-9]{2}.*",                             ignore: true }
-- { name: inspectrum,                  verpat: "2017.*",                                   outdated: true, disposable: true }
-- { name: inspectrum,                  ver: "20180603",                                    outdated: true, disposable: true } # latest official versions from 20180607
+- { name: inspectrum,                  verpat: "2017.*",                                   sink: true, disposable: true }
+- { name: inspectrum,                  ver: "20180603",                                    sink: true, disposable: true } # latest official versions from 20180607
 - { name: intel-hybrid-driver,         verpat: "2.*",                ruleset: aur,         incorrect: true } # totally fake
 - { name: intel-hybrid-driver,                                       ruleset: aur,         untrusted: true } # accused if fake 2.0.0.r169.edead0c (intel-hybrid-codec-driver package)
 - { name: intel-media-driver,          verpat: ".*p.*",                                    devel: true } # preX: XXX: FreeBSD DISTVERSION
@@ -91,7 +91,7 @@
 - { name: ipmitool,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: ipmiview,                    verlonger: 3,                                       altver: true }
 - { name: [iproute,iproute2],          verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: [iproute,iproute2],          verge: "20000000", verlt: "20190510",               outdated: true } # 5.1.0 from 10 May 2019
+- { name: [iproute,iproute2],          verge: "20000000", verlt: "20190510",               sink: true } # 5.1.0 from 10 May 2019
 - { name: iputils,                     verpat: "[0-9]{8}\\.[0-9a-f]{7,}",                  ignore: true } # arch: commit id in version
 - { name: ipxe,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: ipxe,                        verpat: ".*-[0-9a-f]{7}",                           incorrect: true }

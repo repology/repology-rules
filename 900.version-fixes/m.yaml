@@ -1,6 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { name: m2vrequantiser,              ver: "20030929",                                    outdated: true }
+- { name: m2vrequantiser,              ver: "20030929",                                    sink: true }
 - { name: macvim,                      verpat: "([0-9]+\\.[0-9]+)-([0-9]+)",               setver: "$1.snapshot$2" } # https://github.com/macvim-dev/macvim/releases
 - { name: magic,                       verpat: "8\\.2\\..*",                               devel: true }
 - { name: magic,                       verpat: "[0-9]\\.[0-9]\\.[0-9]{3}",                 ignore: false } # unignore some good -devel's
@@ -84,7 +84,7 @@
 - { name: memethesis-cli,              ver: "3.3.0",                 ruleset: aur,         incorrect: true }
 - { name: memethesis-cli,                                            ruleset: aur,         untrusted: true } # accused of fake 3.3.0
 - { name: memtester,                   verpat: ".*_.*",              ruleset: slackbuilds, incorrect: true } # debianism
-- { name: menulibre,                   verpat: "13\\..*",                                  outdated: true }
+- { name: menulibre,                   verpat: "13\\..*",                                  sink: true }
 - { name: meritous,                    ver: "1.4",                                         incorrect: true } # was? an unofficial fork at https://gitorious.org/meritous, now dead
 - { name: mesa,                        verpat: "[^a-z]+",            ruleset: [fedora,mageia], ignore: true } # accused in ignoring rc suffix
 - { name: mesa,                        verpat: "[0-9]+\\.[0-9]+\\.0",                      devel: true } # .0 are devel releases, example: https://www.mesa3d.org/relnotes/17.2.0.html
@@ -109,7 +109,7 @@
 - { name: minetest-game,               ver: "0.4.17.1",                                    setver: "0.4.17" } # same commit https://github.com/minetest/minetest_game/tags
 - { name: ming,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: minidlna,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: minijail,                    verpat: "55.*",                                     outdated: true } # https://chromium.googlesource.com/aosp/platform/external/minijail outdated in favor of https://android.googlesource.com/platform/external/minijail/
+- { name: minijail,                    verpat: "55.*",                                     sink: true } # https://chromium.googlesource.com/aosp/platform/external/minijail outdated in favor of https://android.googlesource.com/platform/external/minijail/
 - { name: minimodem,                   verpat: ".*-[0-9]+",                                incorrect: true } # -1 is not part of the version
 - { name: minimodem,                   ver: "0.24.1",                ruleset: gentoo,      ignore: true } # actually, pentoo. it's normalized 0.24-1 which is incorrect, see prev. rule
 - { name: minio,                       verpat: "[0-9]+",                                   incorrect: true } # should use separators
@@ -164,7 +164,7 @@
 - { name: moon-buggy,                  verpat: "20[0-9]{6}",                               ignore: true }
 - { name: mopac7,                      verpat: "7\\.[0-9]+\\.[0-9]+",                      incorrect: true } # mopac7 1.15, not mopac 7.1.15
 - { name: morituri,                    verpat: ".*20[0-9]{6}",                             ignore: true } # nix snapshot
-- { name: mothur,                      ver: "1.41.21",                                     outdated: true, disposable: true } # strange verioning scheme
+- { name: mothur,                      ver: "1.41.21",                                     sink: true, disposable: true } # strange verioning scheme
 - { name: mousetweaks,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mozo,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mp3diags,                    verpat: "1\\.[0-9]\\.[0-9]{3}.*",                   incorrect: true }
@@ -199,7 +199,7 @@
 - { name: mrrescue,                    verpat: ".+20[0-9]{6}.*",                           snapshot: true }
 - { name: mrsh-minimal-posix-shell,                                                        noscheme: true }
 - { name: ms-gsl,                      verpat: "20[0-9]{2}.*",                             incorrect: true } # official versioning scheme was introduced, 1.0.0 is the latest
-- { name: ms-gsl,                      verpat: "2017.*",                                   outdated: true } # official versioning scheme was introduced, 1.0.0 is the latest
+- { name: ms-gsl,                      verpat: "2017.*",                                   sink: true } # official versioning scheme was introduced, 1.0.0 is the latest
 - { name: msbuild,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: msgpuck,                     ver: "2.0.10",                ruleset: fedora,      incorrect: true }
 - { name: msgpuck,                                                   ruleset: fedora,      untrusted: true }
@@ -231,7 +231,7 @@
 - { name: mutt,                                                      ruleset: sisyphus,    untrusted: true } # accused of fake 2.0.4.0.4.gd6732de7d
 - { name: mutter,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: muttprint,                   verpat: ".*_.*",                                    incorrect: true } # aur fake
-- { name: mvapich2,                    ver: "2.3a",                                        outdated: true }
+- { name: mvapich2,                    ver: "2.3a",                                        sink: true }
 - { name: mve,                                                                             noscheme: true }
 - { name: mvwm,                                                                            noscheme: true }
 - { name: mx-clutter,                  verpat: "[0-9]+\\.99.*",                            devel: true }

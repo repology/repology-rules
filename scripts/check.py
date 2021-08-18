@@ -217,7 +217,6 @@ schema = Schema(
         'vulnerable': bool,
         'p_is_patch': bool,
         'any_is_patch': bool,
-        'outdated': bool,
         'sink': bool,
         'force_outdated': bool,
         'legacy': bool,

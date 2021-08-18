@@ -27,9 +27,9 @@
 - { name: acl,                         verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: acme-crossassembler,                                                             noscheme: true } # no tags in official repo, releases only for win&mac
 - { name: acme-tiny,                   verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: acme-tiny,                   verge: "20000000", verlt: "20180517",               outdated: true } # 4.0.4
+- { name: acme-tiny,                   verge: "20000000", verlt: "20180517",               sink: true } # 4.0.4
 - { name: acpi-call,                   verpat: "[45]\\..*",          ruleset: nix,         incorrect: true } # uses kernel versions instead of software's
-- { name: acpi-call,                   ver: "3.17",                                        outdated: true } # kernel version based too, however used by upstream too https://github.com/damadmai/acpi_call/releases, but older than latest 1.2.0
+- { name: acpi-call,                   ver: "3.17",                                        sink: true } # kernel version based too, however used by upstream too https://github.com/damadmai/acpi_call/releases, but older than latest 1.2.0
 - { name: acpi-call,                   verlonger: 4,                                       incorrect: true } # nix X.Y.Z-U.V.W (kerner versions appended)
 - { name: acpitool,                    ver: "0.5.2",                 ruleset: t2,          incorrect: true }
 - { name: acpitool,                                                  ruleset: t2,          untrusted: true }
@@ -130,7 +130,7 @@
 - { name: android-studio,              verpat: "([0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)([._].*)", setver: $1 } # drop meaningless build numbers
 - { name: android-studio,              verpat: "[0-9]{3}\\..*",                            incorrect: true } # mx fake
 - { name: android-tools,               verpat: "20[0-9]{6}.*",                             snapshot: true }
-- { name: android-tools,               ver: "21",                                          outdated: true } # debian oldstable, assuming ancient version
+- { name: android-tools,               ver: "21",                                          sink: true } # debian oldstable, assuming ancient version
 - { name: anki,                        ver: "2.1.0",                 ruleset: debuntu,     ignore: true } # fake
 - { name: ansible-runner,              verpat: ".*[ab].*",                                 devel: true }
 - { name: ant-contrib,                 ver: "1.0",                   ruleset: rpm,         incorrect: true }
@@ -217,15 +217,15 @@
 - { name: aspell-be,                   ver: ["0.50.0", "0.60"],                            ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/be/
 - { name: aspell-bn,                   ver: "0.02",                  ruleset: arch,        ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/bn/
 - { name: aspell-br,                   ver: "0.60.2",                                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/br/
-- { name: aspell-ca,                   verpat: "20040130.*",                               outdated: true } # see https://ftp.gnu.org/gnu/aspell/dict/ca/
+- { name: aspell-ca,                   verpat: "20040130.*",                               sink: true } # see https://ftp.gnu.org/gnu/aspell/dict/ca/
 - { name: aspell-ca,                   ver: "20090721",                                    incorrect: true } # actually 2.1.5-1, see https://ftp.gnu.org/gnu/aspell/dict/ca/
 - { name: aspell-ca,                   ver: "2.5.0.1",               ruleset: ravenports,  incorrect: true }
 - { name: aspell-ca,                                                 ruleset: ravenports,  untrusted: true } # accused of fake 2.5.0.1
-- { name: [aspell-el,el-aspell],       ver: ["0.50","0.50.3","0.50-3","0.50_3"],           outdated: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/el/
+- { name: [aspell-el,el-aspell],       ver: ["0.50","0.50.3","0.50-3","0.50_3"],           sink: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/el/
 - { name: aspell-fi,                   ver: "0.60.0",                                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fi/
 - { name: aspell-fo,                   ver: ["0.51.0","0.4.2"],                            ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fo/
 - { name: aspell-fr,                   ver: "0.60",                                        ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fr/
-- { name: aspell-gl,                   ver: "0.50",                                        outdated: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fr/
+- { name: aspell-gl,                   ver: "0.50",                                        sink: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/fr/
 - { name: aspell-he,                   vereq: "1.1",                 ruleset: [nix,rpm,ravenports], incorrect: true }
 - { name: aspell-he,                                                 ruleset: [nix,rpm,ravenports], untrusted: true } # accused of fake 1.1
 - { name: aspell-pl,                   verpat: "20[0-9]{6}",                               incorrect: true } # 6.0_20200916-0

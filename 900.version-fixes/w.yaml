@@ -26,7 +26,7 @@
 - { name: weston,                      verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: whatweb,                     vergt: "0.4.7",               ruleset: [debuntu,openbsd,gentoo,freebsd], ignore: true } # 0.4.8 has never been released
 - { name: widelands,                   verpat: "20[0-9]{6}.*",                             incorrect: true }
-- { name: widelands,                   verge: "15",                                        outdated: true } # buildNN
+- { name: widelands,                   verge: "15",                                        sink: true } # buildNN
 - { name: wifi-radar,                  verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1.s$2 } # XXX: problem
 - { name: wifi-radar,                  verpat: "[0-9]+\\.[0-9]+",                          incorrect: true } # it's X.Y.sZ
 - { name: wifite,                      verpat: "[0-9]{2}.*",                               ignore: true } # https://github.com/repology/repology-rules/issues/21
@@ -52,7 +52,7 @@
 - { name: wizznic,                     verpat: "[0-9]{3}",                                 altver: true }
 - { name: wkhtmltopdf,                 verpat: ".*-.*",              ruleset: scoop,       incorrect: true }
 - { name: wl-clipboard,                verlonger: 3,                 ruleset: freebsd,     incorrect: true }
-- { name: wlrobs,                      verge: "20000000", verlt: "20200901",               outdated: true }
+- { name: wlrobs,                      verge: "20000000", verlt: "20200901",               sink: true }
 - { name: wlrobs,                      verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: wlroots,                     ver: "1.13.0",                ruleset: solus,       incorrect: true }
 - { name: wlroots,                                                   ruleset: solus,       untrusted: true } # accused of fake 1.13.0
@@ -64,10 +64,10 @@
 - { name: wmfs,                                                      ruleset: [aur,void,nix], untrusted: true } # accused of fake 201902 and 201104
 - { name: wmutils,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: woff2,                       verpat: "20[0-9]{6}",                               ignore: true }
-- { name: woff2,                       ver: "20160306",                                    outdated: true } # latest 1.0.2 from 2017
+- { name: woff2,                       ver: "20160306",                                    sink: true } # latest 1.0.2 from 2017
 - { name: wordnet,                                                   ruleset: os4depot,    incorrect: true }
 - { name: wordpress,                                                 ruleset: winget,      incorrect: true } # fakes wordpress desktop as wordpress
-- { name: words-latin,                 ver: "1.97F",                                       outdated: true } # latest is 1.97FC
+- { name: words-latin,                 ver: "1.97F",                                       sink: true } # latest is 1.97FC
 - { name: wordwarvi,                   ver: "1.1",                   ruleset: [ sisyphus, fedora ], incorrect: true }
 - { name: workflowy,                   vercomps: 4,                                        altver: true }
 - { name: wpa-supplicant,              verpat: "201[0-9]+.*",        ruleset: openwrt,     ignore: true }

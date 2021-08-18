@@ -1,6 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { name: t50,                         verge: "20000000", verlt: "20180429",               outdated: true } # 5.7.2 from 29 apr 2018
+- { name: t50,                         verge: "20000000", verlt: "20180429",               sink: true } # 5.7.2 from 29 apr 2018
 - { name: tabbed,                      verpat: "20[0-9]{6}",                               ignore: true } # nix snapshot
 - { name: tabixpp,                     ver: "1.0.0.10",                                    incorrect: true }
 - { name: tagainijisho,                verpat: ".*20[0-9]{6}.*",                           snapshot: true }
@@ -11,7 +11,7 @@
 - { name: talloc,                      ver: "3.6.2",                 ruleset: pclinuxos,   incorrect: true } # pclinuxos wtf; https://www.samba.org/ftp/talloc/
 - { name: talloc,                                                    ruleset: pclinuxos,   untrusted: true }
 - { name: tapclean,                    verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: tapclean,                    ver: "20130522",                                    outdated: true, disposable: true }
+- { name: tapclean,                    ver: "20130522",                                    sink: true, disposable: true }
 - { name: tar,                         ver: "1.29b",                                       ignore: true } # debian garbage http://metadata.ftp-master.debian.org/changelogs/main/t/tar/tar_1.29b-2_changelog
 - { name: tar,                         verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true } # https://alpha.gnu.org/gnu/tar/
 - { name: targetcli-fb,                ver: "3.0pre4.1",                                   incorrect: true } # raspbian
@@ -75,7 +75,7 @@
 - { name: texlive-core,                verpat: "(20[0-9]{2}).[0-9]{5,}",                   ignore: true }
 - { name: "texlive:csplain",                                                               noscheme: true }
 - { name: "texlive:leaflet",           verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: "texlive:leaflet",           ver: "20041222",                                    outdated: true }
+- { name: "texlive:leaflet",           ver: "20041222",                                    sink: true }
 - { name: "texlive:mathabx",                                                               noscheme: true }
 - { name: "texlive:xetex",                                                                 noscheme: true }
 - { name: texworks,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
@@ -136,9 +136,9 @@
 - { name: tortoisehg,                                                ruleset: nix,         untrusted: true } # accused of fake 5.2.1
 - { name: totem,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: toxcore,                     verpat: "20[0-9]{6}.*",                             ignore: true }
-- { name: toxcore,                     verpat: "201[67].*",                                outdated: true }
+- { name: toxcore,                     verpat: "201[67].*",                                sink: true }
 - { name: toxic,                       verpat: "20[0-9]{6}.*",                             ignore: true }
-- { name: toxic,                       verpat: "2017.*",                                   outdated: true } # 0.8.2 from 2018
+- { name: toxic,                       verpat: "2017.*",                                   sink: true } # 0.8.2 from 2018
 - { name: tp-smapi,                    verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: tpacpi-bat,                  verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: tpb,                         ver: "0.6.5",                 ruleset: sisyphus,    incorrect: true }
@@ -155,7 +155,7 @@
 - { name: trellis,                     verpat: "20[0-9]{4}.*",                             snapshot: true }
 - { name: tribler,                     verpat: ".*exp.*",                                  devel: true }
 - { name: trinity,                     ver: "1.9",                   ruleset: opensuse,    setver: "1.9pre" } # https://github.com/kernelslacker/trinity/releases
-- { name: trlan,                       ver: "20021121",                                    outdated: true }
+- { name: trlan,                       ver: "20021121",                                    sink: true }
 - { name: trn,                         ver: ["4.77", "4.0"],                               incorrect: true }
 - { name: trn,                         verpat: "(4\\.0)(?:\\.|\\.?[a-z]+)([0-9]+)",        setver: $1-test$2 }
 - { name: trojita,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
@@ -172,8 +172,8 @@
 - { name: tunctl,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: tuned,                       ver: "2.22.0",                ruleset: opensuse,    incorrect: true }
 - { name: tuned,                                                     ruleset: opensuse,    untrusted: true } # accused of fake 2.22.0
-- { name: tuxmath,                     vergt: "2000", verlt: "2011",                       outdated: true } # 2.0.3 from 20110505 or later
-- { name: tuxmath,                     vergt: "20000000", verlt: "20110505",               outdated: true } # 2.0.3 from 20110505 or later
+- { name: tuxmath,                     vergt: "2000", verlt: "2011",                       sink: true } # 2.0.3 from 20110505 or later
+- { name: tuxmath,                     vergt: "20000000", verlt: "20110505",               sink: true } # 2.0.3 from 20110505 or later
 - { name: tuxmath,                     verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: tuxmath,                     verpat: "20[0-9]{2}\\..*",                          incorrect: true }
 - { name: tuxmath,                                                   ruleset: os4depot,    incorrect: true }
@@ -181,7 +181,7 @@
 - { name: tuxnes,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: tuxpaint-stamps,             verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" }
 - { name: tvheadend,                   verpat: "[0-9]+\\.[0-9]*[13579](?:\\..*)?",         devel: true } # https://tvheadend.org/projects/tvheadend/wiki/download
-- { name: tvnamer,                     ver: "3.0.0",                                       outdated: true } # 3.0.0 < 2.3: https://github.com/dbr/tvnamer/releases
+- { name: tvnamer,                     ver: "3.0.0",                                       sink: true } # 3.0.0 < 2.3: https://github.com/dbr/tvnamer/releases
 - { name: tvtwm,                       ver: "11",                                          incorrect: true } # pl11
 - { name: tvtwm,                       verpat: "0\\.?(pl[0-9]+)",                          setver: $1 } # pl11
 - { name: twm,                         verpat: "6.*",                                      incorrect: true } # Xorg version used instead of application individual version

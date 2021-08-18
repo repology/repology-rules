@@ -1,7 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: yaaw,                                                                            noscheme: true } # https://github.com/binux/yaaw/releases
-- { name: yabasic,                     verpat: "2\\.[0-9]{3}",                             outdated: true } # latest is 2.81.1
+- { name: yabasic,                     verpat: "2\\.[0-9]{3}",                             sink: true } # latest is 2.81.1
 - { name: yabause,                     ver: "2.3.1",                 ruleset: chocolatey,  incorrect: true }
 - { name: yabause,                                                   ruleset: chocolatey,  untrusted: true } # accused of fake 2.3.1
 - { name: yacc,                                                      ruleset: os4depot,    incorrect: true }
@@ -24,7 +24,7 @@
 - { name: youtube-dl,                  verpat: "20[0-9]{6}.*",                             incorrect: true } # version is period-separated
 - { name: youtube-dl,                                                ruleset: antix,       untrusted: true } # accused of fake 2019.01.19
 - { name: ypsilon,                     verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true } # X.Y.Z.updateU, not X.Y.Z.U
-- { name: ytnef,                       ver: "2.6",                                         outdated: true } # see https://github.com/Yeraze/ytnef/blob/master/ChangeLog; latest is 1.9.2, rename it so it's outdated
+- { name: ytnef,                       ver: "2.6",                                         sink: true } # see https://github.com/Yeraze/ytnef/blob/master/ChangeLog; latest is 1.9.2, rename it so it's outdated
 - { name: yubioath-desktop,            ver: "4.3.5",                 ruleset: fedora,      incorrect: true }
 - { name: yubioath-desktop,                                          ruleset: fedora,      untrusted: true }
 - { name: yuzu,                                                                            noscheme: true } # https://github.com/yuzu-emu/yuzu/releases

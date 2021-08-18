@@ -40,15 +40,15 @@
 - { name: kcachegrind,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kcalc,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kcalcore,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: kcalendarcore,               verpat: "(15|16|17|18|19)\\..*",                    outdated: true } # https://cgit.kde.org/kcalendarcore.git
+- { name: kcalendarcore,               verpat: "(15|16|17|18|19)\\..*",                    sink: true } # https://cgit.kde.org/kcalendarcore.git
 - { name: kcalutils,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kcharselect,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kcolorchooser,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kconfig,                     ver: "5.61.0a",               ruleset: debuntu,     incorrect: true } # fake
 - { name: kconfig,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 5.61.0a
-- { name: kcontacts,                   verge: "15",                                        outdated: true } # https://github.com/KDE/kcontacts/releases?after=v5.65.0-rc1
+- { name: kcontacts,                   verge: "15",                                        sink: true } # https://github.com/KDE/kcontacts/releases?after=v5.65.0-rc1
 - { name: kcron,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: kdav,                        verge: "17",                                        outdated: true } # 5.x > 20.x: https://github.com/KDE/kdav/releases?after=v5.73.0
+- { name: kdav,                        verge: "17",                                        sink: true } # 5.x > 20.x: https://github.com/KDE/kdav/releases?after=v5.73.0
 - { name: kde-cli-tools,               verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kde-common,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kde-dev-scripts,             verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
@@ -102,7 +102,7 @@
 - { name: khangman,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: khelpcenter,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: khmer-sequencing,            verpat: ".*[ab].*",                                 devel: true }
-- { name: kholidays,                   verpat: "(4|15|16|17)\\..*",                        outdated: true } # https://cgit.kde.org/kholidays.git/refs/tags
+- { name: kholidays,                   verpat: "(4|15|16|17)\\..*",                        sink: true } # https://cgit.kde.org/kholidays.git/refs/tags
 - { name: kholidays,                   verge: "18",                                        incorrect: true } # https://cgit.kde.org/kholidays.git/refs/tags
 - { name: kholidays,                   ver: "5.54.0",                ruleset: [kaos,openmandriva], incorrect: true } # 5.54.0-rc1
 - { name: kholidays,                                                 ruleset: [kaos,openmandriva], untrusted: true } # accused of fake 5.54.0
@@ -112,7 +112,7 @@
 - { name: kicad,                       ver: "5.1",                   ruleset: debuntu,     incorrect: true }
 - { name: kicad,                                                     ruleset: debuntu,     untrusted: true }
 - { name: kicad-doc,                   verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: kicad-doc,                   ver: "20100505",                                    outdated: true, disposable: true } # openbsd
+- { name: kicad-doc,                   ver: "20100505",                                    sink: true, disposable: true } # openbsd
 - { name: kicad-library,               verpat: "20[0-9][0-9].*",                           ignore: true }
 - { name: kidentitymanagement,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kig,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -133,7 +133,7 @@
 - { name: kirigami-gallery,            verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kiriki,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kismet,                      verpat: "20[0-9]{4}.*",                             incorrect: true } # version format problem (it's YYYY-MM-RX)
-- { name: kismet,                      verpat: "2008.*",                                   outdated: true } # XXX: version format problem
+- { name: kismet,                      verpat: "2008.*",                                   sink: true } # XXX: version format problem
 - { name: kismet,                      verpat: "([0-9]{4})\\.([0-9]+)\\.([0-9]+)",         setver: $1-$2-R$3 }
 - { name: kiten,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kitinerary,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
@@ -233,7 +233,7 @@
 - { name: kscd,                        verpat: ".*20[0-9]{6}",                             ignore: true } # exherbo snapshot
 - { name: kscreen,                     verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kscreenlocker,               verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
-- { name: ksh,                         verge: "20000000", verlt: "20200000",               outdated: true }
+- { name: ksh,                         verge: "20000000", verlt: "20200000",               sink: true }
 - { name: ksh,                                                                             incorrect: true }
 - { name: ksh,                         verpat: "[0-9]{4}\\.[1-9]?[0-9]\\.[1-9]?[0-9](?:[._-](?:alpha|beta|devel)[0-9]*)?", incorrect: false }
 - { name: kshisen,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -246,7 +246,7 @@
 - { name: ksquares,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ksshaskpass,                 verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kst,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: kstars,                      verpat: "(4|14|15|16|17)\\..*",                     outdated: true } # switched from yy.mm.rev to x.y.z: https://cgit.kde.org/kstars.git/refs/
+- { name: kstars,                      verpat: "(4|14|15|16|17)\\..*",                     sink: true } # switched from yy.mm.rev to x.y.z: https://cgit.kde.org/kstars.git/refs/
 - { name: kstars,                      verge: "18",                                        incorrect: true } # and some repos fake old scheme; XXX: problem
 - { name: ksudoku,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ksysguard,                   verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }

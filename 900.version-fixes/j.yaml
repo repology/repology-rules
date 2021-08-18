@@ -1,6 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { name: j,                           ver: "808",                                         outdated: true } # 808 from 2016 and 807 from oct 2018, wtf
+- { name: j,                           ver: "808",                                         sink: true } # 808 from 2016 and 807 from oct 2018, wtf
 - { name: ja2-stracciatella,           verpat: ".*[0-9]{4}.*",                             ignore: true } # year and 8296.9202397c2 from aur
 - { name: jade,                        verpat: "1\\.2\\.1-[0-9]{2}.*",                     ignore: true } # nix, adds debian patchlevel
 - { name: jarnal,                      verpat: "[0-9]{4}",                                 incorrect: true } # 10.78, not 1078
@@ -18,7 +18,7 @@
 - { name: jicofo,                                                                          noscheme: true } # braindead upstream versioning
 - { name: jinput,                      ver: "2.0.10",                ruleset: freebsd,     incorrect: true }
 - { name: jinput,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 2.0.10
-- { name: jinput,                      verge: "2000000", verlt: "20180601",                outdated: true } # 2.0.9 from 1 jun 2018
+- { name: jinput,                      verge: "2000000", verlt: "20180601",                sink: true } # 2.0.9 from 1 jun 2018
 - { name: jitsi,                       vercomps: 1,                                        incorrect: true } # 2.11.5633, not 5633
 - { name: jitsi-meet,                                                                      noscheme: true } # braindead upstream versioning
 - { name: jitsi-videobridge,                                                               noscheme: true } # braindead upstream versioning https://github.com/jitsi/jitsi-videobridge/releases/tag/stable%2Fjitsi-meet_4857
@@ -34,7 +34,7 @@
 - { name: js185,                       ver: "1.85",                                        incorrect: true } # this says it all: http://ftp.mozilla.org/pub/js/js185-1.0.0.tar.gz
 - { name: "js:three",                                                                      noscheme: true }
 - { name: jslint,                      verpat: "20[0-9]{2}.*",                             incorrect: true }
-- { name: jslint,                      verpat: "201[12].*",                                outdated: true } # 0.10.3 from 2016 https://github.com/reid/node-jslint/releases
+- { name: jslint,                      verpat: "201[12].*",                                sink: true } # 0.10.3 from 2016 https://github.com/reid/node-jslint/releases
 - { name: json-c,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # macports garbage
 - { name: jsonrpc-glib,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: juffed,                      verpat: "20[0-9]{6}.*",                             snapshot: true }
