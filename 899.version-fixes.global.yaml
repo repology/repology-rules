@@ -35,6 +35,7 @@
 - { namepat: "php[0-9]*:.*", ruleset: sisyphus,                                            untrusted: true }
 
 - { namepat: "lua:.*", verpat: ".*-[0-9]+", ruleset: nix,                                  untrusted: true } # accused of using fake suffix from luarocks
+- { category: emacs27Packages, ruleset: nix,                                               untrusted: true } # accused of using fake versions from MELPA
 
 - { namepat: "gnome-shell-extension-.*",                             ruleset: nix,         untrusted: true } # all versions are fake
 
