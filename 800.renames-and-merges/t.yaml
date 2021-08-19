@@ -17,7 +17,6 @@
 - { setname: tbftss,                   name: tbftss-the-pandoran-war }
 - { setname: tcc,                      name: tinycc }
 - { setname: tcl,                      namepat: "tcl8[0-9.-]+" }
-- { setname: tcl,                      name: tcltk } # hpux has tcl and tk merged; actually it should be merged to both, but we can't
 - { setname: tcl-itk,                  name: [tcl-incrtk4,tcl-itk,itk-tcl,tk-itk] }
 - { setname: tclap,                    name: libtclap }
 - { setname: tclap,                    name: tclap-doc, addflavor: true }
@@ -25,6 +24,7 @@
 - { setname: tcllib,                   name: tcl-tcllib }
 - { setname: tcllib,                   name: tcllibc, addflavor: c } # FreeBSD artifact, c implementation split out of tcllib
 - { setname: tclreadline,              name: [tcl-readline,tcl-tclreadline] }
+- { setname: tcltk,                    name: [tcltk85,tcl-tk] } # no knowing whether it's tcl or tk
 - { setname: tdb,                      name: [libtdb,tdb1] }
 - { setname: tdlib,                    name: libtd }
 - { setname: tds-fdw,                  namepat: "(postgresql[0-9.-]*)-tds-fdw", addflavor: $1 }
