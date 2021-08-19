@@ -19,6 +19,7 @@
 - { setname: tcl,                      namepat: "tcl8[0-9.-]+" }
 - { setname: tcl,                      name: tcl-nothreading, addflavor: true }
 - { setname: tcl-itk,                  name: [tcl-incrtk4,tcl-itk,itk-tcl,tk-itk] }
+- { setname: tcl-thread,               name: tclthread }
 - { setname: tclap,                    name: libtclap }
 - { setname: tclap,                    name: tclap-doc, addflavor: true }
 - { setname: tclhttpd,                 name: tcl-httpd }
