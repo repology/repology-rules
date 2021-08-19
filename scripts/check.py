@@ -218,7 +218,7 @@ schema = Schema(
         'p_is_patch': bool,
         'any_is_patch': bool,
         'sink': bool,
-        'force_outdated': bool,
+        'outdated': bool,
         'legacy': bool,
         'nolegacy': bool,
         'incorrect': bool,

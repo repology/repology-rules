@@ -505,7 +505,7 @@ Set to `false` to undo.
 
 Result: `0.20 (newest)` > `0.193 (outdated)`
 
-#### force_outdated
+#### outdated
 
 Set to `true` to force the package to be outdated, even if it
 classifies as the most recent. Note that this does not lead to
