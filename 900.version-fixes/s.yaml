@@ -170,6 +170,7 @@
 - { name: socat,                       ver: "2.0.0",                 ruleset: [sisyphus,pclinuxos], incorrect: true } # 2.0.0b9
 - { name: socat,                                                     ruleset: [sisyphus,pclinuxos], untrusted: true } # accused of fake 2.0.0
 - { name: soil,                                                                            noscheme: true } # distfile unversioned; "alternate makefile" mentions 1.07-20071110, bit that's not reliable and is likely outdated since website mentions 2008; ancient garbage anyway
+- { name: soju,                        verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: solaar,                      verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{3,}",     ignore: true } # FreeBSD snapshot
 - { name: solarus,                     ver: "1.6.5",                  ruleset: [aur,kiss], incorrect: true }
 - { name: solarus,                                                    ruleset: [aur,kiss], untrusted: true } # accused of fake 1.6.5
