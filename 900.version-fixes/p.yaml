@@ -214,6 +214,7 @@
 - { name: postgresql,                  ver: "12.4.1",                                      incorrect: true }
 - { name: postgresql,                                                ruleset: windows,     untrusted: true } # accused of fake 12.4.1 (some garbage from enterprisedb.com)
 - { name: postgresql,                  verpat: "[0-9]+",                                   incorrect: true }
+- { name: postgresql,                  verpat: ".*ab.*",                                   devel: true }
 - { name: postgresql-autodoc,          verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: postgresql-jdbc,             verpat: "[0-9]{4}.*",                               incorrect: true } # pld garbage
 - { name: pound,                       verpat: ".*[0-9][a-z]",                             devel: true }
