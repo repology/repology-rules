@@ -253,6 +253,11 @@
 
 - { name: sope, wwwpart: opengroupware, setname: sope-skyrix }
 
+- { name: sos, wwwpart: [sosreport,fedorahosted], setname: sos-system-data-collection }
+- { name: sos, wwwpart: skx, setname: sos-simple-object-storage }
+- { name: sos, wwwpart: openshmem, setname: sos-sandia-openshmem }
+- { name: sos, addflag: unclassified }
+
 - { name: sp, wwwpart: jclark, setname: sp-sgml }
 - { name: sp, summpart: sgml, setname: sp-sgml }
 - { name: sp, wwwpart: spcms, setname: sp-school-portal }
