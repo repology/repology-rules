@@ -87,6 +87,8 @@
 - { setname: bitwig-studio,            name: bitwig-studio-beta, weak_devel: true, nolegacy: true }
 - { setname: bitwig-studio,            name: bitwig-studio-legacy }
 - { setname: black,                    name: "python:black" }
+- { setname: blackbox,                 name: blackboxwm }
+- { setname: blackbox,                 name: [vcs-blackbox,scm-blackbox] } # different project, split in 850
 - { setname: blackshades,              name: blackshades-svn, ignore: true }
 - { setname: blackshadeselite,         name: blackshades-elite-svn, ignore: true }
 - { setname: blas,                     name: [blas-reference,blas-docs], addflavor: docs }
