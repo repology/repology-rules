@@ -20,6 +20,10 @@
 - { name: tau, ruleset: debuntu, setname: tau-fortran-profiling }
 - { name: tau, addflag: unclassified }
 
+- { name: tcl, wwwpart: [tcl.tk,tcl.sourceforge,sourceforge.net/projects/tcl,tcl-lang,tcltk], setname: tcl-lang }
+- { name: tcl, wwwpart: bsc-pm, setname: tcl-checkpointing-library }
+- { name: tcl, addflag: unclassified }
+
 - { name: tcp-wrappers, wwwpart: apple.com, setname: tcp-wrappers-apple }
 
 - { name: tea, wwwpart: gitea, setname: gitea-tea } # reuse name from aur and macports

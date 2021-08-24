@@ -22,11 +22,11 @@
 - { name: tcb,                                                       ruleset: sisyphus,    untrusted: true } # 1.1.0.1
 - { name: tcc,                         verpat: "20[0-9]{2}.*",                             ignore: true } # freebsd
 - { name: tcc,                         verpat: ".*20[0-9]{6}.*",                           snapshot: true }
-- { name: tcl,                         verpat: ".*20[0-9]{6}.*",                           ignore: true } # 8.7 snapshots
-- { name: tcl,                         verpat: ".*a[0-9]+",                                devel: true }
-- { name: tcl,                         verpat: "[0-9]+\\.[0-9]+\\.0\\.?a.*",               incorrect: true } # it's X.YaZ, not X.Y.0aZ
-- { name: tcl,                         ver: "8.6.10",                ruleset: [vcpkg,sisyphus], incorrect: true }
-- { name: tcl,                                                       ruleset: [vcpkg,sisyphus], untrusted: true } # accused of fake 8.6.10
+- { name: tcl-lang,                    verpat: ".*20[0-9]{6}.*",                           ignore: true } # 8.7 snapshots
+- { name: tcl-lang,                    verpat: ".*a[0-9]+",                                devel: true }
+- { name: tcl-lang,                    verpat: "[0-9]+\\.[0-9]+\\.0\\.?a.*",               incorrect: true } # it's X.YaZ, not X.Y.0aZ
+- { name: tcl-lang,                    ver: "8.6.10",                ruleset: [vcpkg,sisyphus], incorrect: true }
+- { name: tcl-lang,                                                  ruleset: [vcpkg,sisyphus], untrusted: true } # accused of fake 8.6.10
 - { name: tcp-wrappers,                vergt: "7.6",                                       incorrect: true } # debian patchlevels
 - { name: tcpblast,                    verpat: "20[0-9]{6}",                               ignore: true }
 - { name: tcpcrypt,                    verpat: "20[0-9]{6}",                               snapshot: true }
