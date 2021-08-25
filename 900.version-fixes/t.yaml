@@ -97,8 +97,8 @@
 - { name: timezonemap,                 ver: "0.4.6",                 ruleset: exherbo,     incorrect: true }
 - { name: timezonemap,                                               ruleset: exherbo,     untrusted: true } # accused of fake 0.4.6
 - { name: timidity++,                                                ruleset: rosa,        untrusted: true } # accused of fake 2.15.0
-- { name: tinc,                        ver: "1.1",                   ruleset: entware,     incorrect: true }
-- { name: tinc,                                                      ruleset: entware,     untrusted: true } # accused of fake 1.1
+- { name: tinc,                        ver: "1.1",                   ruleset: [entware,openwrt], incorrect: true }
+- { name: tinc,                                                      ruleset: [entware,openwrt], untrusted: true } # accused of fake 1.1
 - { name: tiny-dnn,                    ver: "1.0.0",                 ruleset: buckaroo,    incorrect: true } # 1.0.0a3 https://github.com/tiny-dnn/tiny-dnn/releases
 - { name: tiny-dnn,                                                  ruleset: buckaroo,    untrusted: true }
 - { name: tinyca,                      relge: "2.0.7.5",                                   incorrect: true } # tinyca2 0.7.5
