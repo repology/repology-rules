@@ -160,6 +160,7 @@
 - { name: smplayer-themes,             verpat: "2012.*",                                   sink: true }
 - { name: smtp-fuzz,                                                                       noscheme: true }
 - { name: smtube,                      verpat: ".*[0-9]{4}",                               incorrect: true } # os4depot
+- { name: sn1per,                      verpat: "[0-9]{3}.*",                               incorrect: true, outdated: true, vulnerable: true } # has official versions
 - { name: snack,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: sndio,                       verpat: "20[0-9]{6}",                               incorrect: true } # last version month ago, snapshots are not justified
 - { name: sndlib,                                                                          noscheme: true }
