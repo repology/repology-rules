@@ -105,6 +105,8 @@
 - { name: pianobooster,                ver: "0.7.0",                 ruleset: mageia,      incorrect: true }
 - { name: pianobooster,                                              ruleset: mageia,      untrusted: true }
 - { name: picard-plugins,                                                                  noscheme: true }
+- { name: picard-tagger,               verpat: ".*[0-9]{5}.*",                             incorrect: true } # fake 2.6.30000.0 from winget
+- { name: picard-tagger,                                             ruleset: winget,      untrusted: true } # accused of fake 2.6.30000.0
 - { name: picmi,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: picoc,                       ver: "2.1.9",                 ruleset: sisyphus,    incorrect: true }
 - { name: picoc,                                                     ruleset: sisyphus,    untrusted: true } # accused of fake 2.1.9
