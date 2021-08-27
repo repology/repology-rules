@@ -266,6 +266,7 @@
 - { name: ssss,                        verlonger: 2,                 ruleset: alpine,      incorrect: true } # fork faked as the original
 - { name: ssvnc,                       ver: "1.0.30",                                      devel: true, maintenance: true } # http://www.karlrunge.com/x11vnc/ssvnc.html#download
 - { name: stb,                                                                             noscheme: true }
+- { name: steam,                                                     ruleset: [windows,macosx], altscheme: true }
 - { name: steamcmd,                                                                        noscheme: true }
 - { name: step-physical-simulator,     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: stepmania,                   verpat: ".*b.*",                                    devel: true }
