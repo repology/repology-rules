@@ -86,7 +86,7 @@
 
 - { name: "php:pam", wwwpart: amishmm, setname: "php:pam-amishmm" } # XXX: otherwise pecl
 
-- { name: picard, wwwpart: [picard.sourceforge.net,sourceforge.net/projects/picard,broadinstitute], setname: picard-sequencing-data-tools }
+- { name: picard, wwwpart: [picard.sourceforge.net,sourceforge.net/projects/picard,broadinstitute], setname: picard-tools } # reuse widely used name
 - { name: picard, wwwpart: brainz, setname: picard-tagger }
 - { name: picard, addflag: unclassified }
 
