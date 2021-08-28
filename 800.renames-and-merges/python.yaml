@@ -318,6 +318,7 @@
 - { setname: "python:pyusb",           name: pyusb }
 - { setname: "python:pyviennacl",      name: pyviennacl }
 - { setname: "python:pywebkitgtk",     name: ["python:webkitgtk",pywebkitgtk] }
+- { setname: "python:pywps",           name: pywps } # vulnerable
 - { setname: "python:pyxdg",           name: pyxdg }
 - { setname: "python:pyyaml",          name: [pypy-yaml,pypy3-yaml], addflavor: pypy } # XXX: global rule for pypy-*?
 - { setname: "python:pyyaml",          name: [pyyaml,"python:yaml"] }
