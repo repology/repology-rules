@@ -112,6 +112,8 @@
 - { name: docker-compose,                                            ruleset: sisyphus,    untrusted: true }
 - { name: docker-compose,              verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: docker-tray,                 verge: "1.5.1",                                     successor: true }
+- { name: doit,                        verge: "2",                   ruleset: winget,      incorrect: true } # fake 2.28.0
+- { name: doit,                                                      ruleset: winget,      untrusted: true } # accused of fake 2.28.0
 - { name: dokuwiki,                    verpat: "20[0-9]{6}.*",                             incorrect: true } # YYYY-MM-DD
 - { name: dolphin-emu,                 verpat: ".*\\.20[0-9]{6}",                          snapshot: true }
 - { name: dolphin-emu,                 verpat: "20[0-9]{6}",                               incorrect: true }
