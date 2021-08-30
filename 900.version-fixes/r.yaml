@@ -48,6 +48,8 @@
 - { name: recode,                      verge: "3.7",                                       successor: true } # fork
 - { name: redis,                       ver: "6.0",                   ruleset: [rpm, openindiana], incorrect: true }
 - { name: redis,                                                     ruleset: [rpm, openindiana], untrusted: true } # accused of fake 6.0
+- { name: redland,                     ver: "1.0.17.1",              ruleset: t2,          incorrect: true } # redland-bindings
+- { name: redland,                                                   ruleset: t2,          untrusted: true } # accused of fake 1.0.17.1
 - { name: redshift,                    ver: "1.12.1",                ruleset: deepin,      incorrect: true }
 - { name: redshift,                                                  ruleset: deepin,      untrusted: true } # accused of fake 1.12.1
 - { name: regexxer,                    verpat: ".*20[0-9]{6}",                             ignore: true }
