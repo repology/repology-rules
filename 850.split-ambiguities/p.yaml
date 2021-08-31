@@ -51,6 +51,11 @@
 - { name: par, ver: "1.52", setname: par-paragraph-reformatter }
 - { name: par, addflag: unclassified }
 
+- { name: parsec, wwwpart: parallaxsecond, setname: parsec-security }
+- { name: parsec, wwwpart: [icldistcomp,icl.utk.edu], setname: parsec-scheduled }
+- { name: parsec, wwwpart: parsec.app, setname: parsec-remote-access }
+- { name: parsec, addflag: unclassified }
+
 - { name: pass, wwwpart: [passwordstore,password-store], setname: password-store }
 - { name: pass, ruleset: [aosc,pclinuxos], setname: password-store }
 - { name: pass, addflag: unclassified }
