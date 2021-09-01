@@ -10,9 +10,9 @@
 
 - { name: ndiff, wwwpart: nmap, setname: nmap, addflavor: ndiff }
 
-# there are two `ne`s, and they are both editors; prefix is for `cambridge`
-# another is `nice editor`, but I don't feel like renaming it as it's `ne` everywhere
-- { name: ne, wwwpart: wordprocessing/unix/ne, setname: ne-cam }
+- { name: ne, wwwpart: quercite.dx.am, setname: ne-new-e }
+- { name: ne, wwwpart: [ne.di.unimi.it,vigna], setname: ne-nice-editor }
+- { name: ne, addflag: unclassified }
 
 - { name: nebula, wwwpart: slackhq, setname: nebula-overlay-networking }
 - { name: nebula, wwwpart: carnivore, setname: nebula-signature-generator }
