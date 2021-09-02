@@ -55,6 +55,7 @@
 - { name: vlc,                         verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: vlc,                         ver: "3.0.12.1",                                    altver: true, disposable: true } # mac-only release
 - { name: vlmc,                        verpat: ".*ff",                                     incorrect: true } # not a version, but feature freeze tag
+- { name: vmc-virtual-monte-carlo,                                                         p_is_patch: true }
 - { name: vmd-visual-molecular-dynamics, verpat: ".*a.*",                                  devel: true }
 - { name: vmware-view-open-client,     verpat: ".*[0-9]{5}",                               ignore: true }
 - { name: vndr,                        verpat: "20[0-9]{6}.*",                             snapshot: true }
