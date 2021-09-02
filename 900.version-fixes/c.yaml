@@ -233,7 +233,8 @@
 - { name: creduce,                     verpat: "2\\.8.*",            ruleset: [debuntu,openmandriva], incorrect: true }
 - { name: creduce,                                                   ruleset: [debuntu,openmandriva], untrusted: true }
 - { name: crimson,                     ver: "2014.10",                                     ignore: true }
-- { name: critterding,                 verpat: "1\\.0(beta.*)",                            setver: "$1" }
+- { name: critterding,                 verpat: "1\\.0.*b.*",                               incorrect: true }
+- { name: critterding,                 verpat: ".*b.*",                                    devel: true }
 - { name: cronolog,                    ver: "1.7.0",                 ruleset: openpkg,     incorrect: true } # 1.7.0-beta
 - { name: crossguid,                   verpat: "20[0-9]{6}",                               ignore: true }
 - { name: crossguid,                   verpat: "201[56].*",                                sink: true } # there's 0.2.2 from Aug 2017
