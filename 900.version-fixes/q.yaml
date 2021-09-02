@@ -78,6 +78,7 @@
 - { name: quadrapassel,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: quark,                                                                           noscheme: true }
 - { name: quassel,                     ver: "0.14.0",                ruleset: siduction,   ignore: true } # incorrectly parsed 0.14.0~pre-130-g01d67be2-1
+- { name: quasselc,                                                                        noscheme: true }
 - { name: quaternion,                  ver: "0.0.9.5",               ruleset: [aur,rpm],   incorrect: true } # 0.0.9.5-beta2
 - { name: quaternion,                                                ruleset: [aur,rpm],   untrusted: true } # accused of fake 0.0.9.5
 - { name: quickjs,                     verpat: "20[0-9]{6}",                               incorrect: true } # YYYY-MM-DD
