@@ -24,7 +24,7 @@
 - { name: tcc,                         verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: tcl-lang,                    verpat: ".*20[0-9]{6}.*",                           ignore: true } # 8.7 snapshots
 - { name: tcl-lang,                    verpat: ".*a[0-9]+",                                devel: true }
-- { name: tcl-lang,                    verpat: "[0-9]+\\.[0-9]+\\.0\\.?a.*",               incorrect: true } # it's X.YaZ, not X.Y.0aZ
+- { name: tcl-lang,                    verpat: "[0-9]+\\.[0-9]+\\.0[.~]?a.*",              incorrect: true } # it's X.YaZ, not X.Y.0aZ
 - { name: tcl-lang,                    ver: "8.6.10",                ruleset: [vcpkg,sisyphus], incorrect: true }
 - { name: tcl-lang,                                                  ruleset: [vcpkg,sisyphus], untrusted: true } # accused of fake 8.6.10
 - { name: tcp-wrappers,                vergt: "7.6",                                       incorrect: true } # debian patchlevels
@@ -111,7 +111,7 @@
 - { name: tivodecode,                  ver: "0.2",                   ruleset: fedora,      incorrect: true }
 - { name: tivodecode,                                                ruleset: fedora,      untrusted: true }
 - { name: tk,                          verpat: ".*a[0-9]+",                                devel: true }
-- { name: tk,                          verpat: "[0-9]+\\.[0-9]+\\.0\\.?a.*",               incorrect: true } # it's X.YaZ, not X.Y.0aZ
+- { name: tk,                          verpat: "[0-9]+\\.[0-9]+\\.0[.~]?a.*",              incorrect: true } # it's X.YaZ, not X.Y.0aZ
 - { name: tklib,                       verpat: ".*[0-9a-f]{10}",                           incorrect: true }
 - { name: tklib,                                                     ruleset: msys2,       untrusted: true } # accused of fake 0.7.0+1.29e6d0e6da
 - { name: tktable,                     ver: "2.11",                  ruleset: macports,    devel: true } # see https://github.com/macports/macports-ports/blob/master/x11/tktable/Portfile#L17
