@@ -123,6 +123,8 @@
 - { setname: lua,                      namepat: "(?:lib)?lua[0-9.-]*" }
 - { setname: lua,                      name: compat-lua }
 - { setname: luabind,                  namepat: "lua([0-9]+)bind", addflavor: $1 }
+- { setname: luaformatter,             name: "lua:format" }
+- { setname: luaformatter,             name: "lua:format-ext", addflavor: ext }
 - { setname: luajit,                   name: [luajit-2.1,luajit2,"lua:luajit",libluajit,"lua:jit"] }
 - { setname: luarocks,                 name: ["lua:rocks",lua-rocks,lua5.3-luarocks,lua-luarocks,luarocks-lua53] }
 - { setname: luarocks,                 name: luarocks-nix, addflavor: true }
