@@ -208,7 +208,7 @@
 - { name: asl-macroassembler,                                                              any_is_patch: true } # 1.42_bld173
 - { name: asmjit,                                                                          noscheme: true }
 - { name: asp2php,                     ver: "20080813",                                    ignore: true }
-- { name: aspcud,                      ver: "2011.03.17",                                  ignore: true }
+- { name: aspcud,                      releq: "2011.03.17",                                outdated: true }
 - { name: aspell,                      ver: "0.60.7",                ruleset: [debuntu,openmandriva], incorrect: true } # snapshot actually
 - { name: aspell,                                                    ruleset: [debuntu,openmandriva], untrusted: true }
 - { name: aspell,                      ver: "0.60.6.90",             ruleset: kaos,        incorrect: true } # 0.60.7-rc1 actually
