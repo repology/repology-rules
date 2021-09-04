@@ -68,6 +68,8 @@
 - { name: opendbx,                     ver: "1.5.0",                                       devel: true } # https://linuxnetworks.de/doc/index.php?title=OpenDBX/Download; XXX probably needs pattern, but the devel scheme is unknown
 - { name: opendkim,                    ver: "2.11.0",                ruleset: [rpm,alpine], incorrect: true } # it's 2.11.0.alpha0: https://sourceforge.net/projects/opendkim/files/
 - { name: opendkim,                                                  ruleset: [rpm,alpine], untrusted: true } # accused of fake 2.11.0
+- { name: opendoas,                    ver: "6.9",                   ruleset: aur,         incorrect: true } # fork using the name of original project
+- { name: opendoas,                                                  ruleset: aur,         untrusted: true } # accused of fake 6.9 from an insecure fork
 - { name: openfoam,                    verpat: ".*20[0-9]{6}",                             devel: true } # XXX: alternative schema; https://github.com/OpenFOAM/OpenFOAM-6/releases
 - { name: openfoam-plus,               verpat: "v([0-9]{4})",                              setver: $1 }
 - { name: openjade,                    verpat: ".*(p|pre|devel)[0-9]*",                    devel: true }
