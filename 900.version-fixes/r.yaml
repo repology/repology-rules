@@ -82,6 +82,7 @@
 - { name: ripit,                                                     ruleset: opensuse,    untrusted: true } # accused of 3.9.90
 - { name: ripser,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: rlottie,                                                                         noscheme: true } # https://github.com/Samsung/rlottie/releases
+- { name: rmlint,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: roaraudio,                   ver: "0.99",                  ruleset: packman,     incorrect: true } # 1.0beta11 in fact
 - { name: roaraudio,                                                 ruleset: packman,     untrusted: true } # accused of fake 0.99
 - { name: rocs,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
