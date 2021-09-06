@@ -80,6 +80,7 @@
 - { name: blas,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: blas,                        ver: "3.9.2",                 ruleset: sisyphus,    incorrect: true }
 - { name: blas,                                                      ruleset: sisyphus,    untrusted: true } # accused of fake 3.9.2
+- { name: blasphemer,                  ver: "0.1.6",                                       outdated: true, disposable: true } # 0.1.7
 - { name: blastem,                     verlonger: 3,                 ruleset: debuntu,     incorrect: true }
 - { name: bleachbit,                   ver: "2.1",                   ruleset: void,        incorrect: true }
 - { name: bleachbit,                   ver: "3.1.0",                                       devel: true } # https://github.com/bleachbit/bleachbit/commit/6db68113c7eb5248e772d5311627be35f9564f93
