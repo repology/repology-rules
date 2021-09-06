@@ -107,7 +107,7 @@
 - { setname: doh-proxy,                name: "rust:doh-proxy" }
 - { setname: doh-proxy,                name: "rust:libdoh", addflavor: libdoh }
 - { setname: doit,                     name: "python:doit" }
-- { setname: dolphin,                  name: dolphin-dev, weak_devel: true, nolegacy: true }
+- { setname: dolphin,                  name: [dolphin-dev, dolphin-beta], weak_devel: true, nolegacy: true }
 - { setname: dolphin-emu,              name: [dolphin-emu4, dolphinemu] }
 - { setname: dolphin-emu,              name: dolphin-emu-beta, weak_devel: true, nolegacy: true }
 - { setname: dolphin-emu,              name: [dolphin-emu-debugfast, dolphin-emu-osvr, dolphin-emu-triforce, dolphin-emu-vr ], weak_devel: true, nolegacy: true }
