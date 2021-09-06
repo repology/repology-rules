@@ -54,6 +54,7 @@
 - { setname: lexicon,                  name: ["python:dns-lexicon", dns-lexicon] }
 - { setname: liberal-crime-squad,      name: [lcs,liberalcrimesquad] }
 - { setname: libmediainfo,             name: [mediainfolib,libmediainfo0] }
+- { setname: libreddit,                name: "rust:libreddit" }
 - { setname: libreoffice,              name: [libreoffice-bin,libreoffice-bin-debug,libreoffice-gtk3], addflavor: true }
 - { setname: libreoffice,              name: [libreoffice-dev,libreoffice-fresh,libreoffice-oldstable,libreoffice-still,libreoffice-stable] }
 - { setname: libreoffice,              namepat: "([^-]+)-libreoffice", ruleset: freebsd, addflavor: $1 }
