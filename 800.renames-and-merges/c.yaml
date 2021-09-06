@@ -160,6 +160,7 @@
 - { setname: cmdpack,                  namepat: "cmdpack-[a-z0-9]+" }
 - { setname: cmigemo,                  name: cmigemo-dict, addflavor: dict }
 - { setname: cmrt,                     name: libcmrt }
+- { setname: cmucl,                    name: [cmucl-binary,cmucl-extra], addflavor: true }
 - { setname: cnagios,                  name: cnagios4 }
 - { setname: cnagios,                  name: [cnagios-nagios3, cnagios-nagios4], addflavor: true }
 - { setname: cni,                      name: [containernetworking-cni, "go:github-containernetworking-cni"] }
