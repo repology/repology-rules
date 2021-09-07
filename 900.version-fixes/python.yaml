@@ -1,6 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { namepat: "python:.*",              verpat: "[^a-z]+[ab][^a-z]+",                       devel: true }
+- { namepat: "python:.*",              verpat: ".*[^a-z](a|b|rc|dev|alpha|beta|c|pre|preview)[^a-z].*", devel: true } # PEP440, see also PyPI parser
 
 - { name: "python:aiohttp-socks",                                    ruleset: aur,         rolling: true }
 - { name: "python:apsw",               verpat: "(.*[0-9])[-._]?[pr]1",                     setver: $1 } # upstream use -r1 suffix
