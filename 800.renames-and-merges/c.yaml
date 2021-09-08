@@ -3,6 +3,7 @@
 - { setname: c++-gtk-utils,            name: cxx-gtk-utils }
 - { setname: c++-gtk-utils,            name: c++-gtk-utils-gtk2, addflavor: gtk2 }
 - { setname: c-ares,                   name: [libcares,libcares2] }
+- { setname: c-ares,                   name: c-ares-tests, addflavor: true }
 - { setname: c-blosc,                  name: blosc }
 - { setname: c-lightning,              name: clightning }
 - { setname: c-lolcat,                 name: lolcat-c } # as per PKGBUILD from upstream repo
