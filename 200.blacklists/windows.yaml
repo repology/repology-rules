@@ -65,7 +65,7 @@
 - { name: sendmail,          ruleset: scoop,               remove: true }
 - { name: sim,               ruleset: chocolatey,          remove: true }
 - { name: shadow,            ruleset: [appget,winget],     remove: true }
-- { name: shutter,           ruleset: scoop,               remove: true }
+- { name: shutter,           ruleset: windows,             remove: true }
 - { name: snoopy,            ruleset: reactos,             remove: true }
 - { name: spectcl,           ruleset: chocolatey,          remove: true }
 - { name: steam,             ruleset: [chocolatey,reactos],remove: true }
