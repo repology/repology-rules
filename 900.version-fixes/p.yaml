@@ -165,6 +165,9 @@
 - { name: plexus-component-factories-pom,                            ruleset: sisyphus,    untrusted: true } # accused of fake 1.0
 - { name: plib,                        ver: "2016.4.4",                                    incorrect: true }
 - { name: plib,                                                      ruleset: pisi,        untrusted: true } # accused of fake 2016.4.4
+- { name: plink,                       verpat: "[0-9]{6}.*",                               incorrect: true } # spack garbage
+- { name: plink,                       verpat: ".*pre.*",                                  incorrect: true } # gentoo garbage
+- { name: plink,                       verpat: ".*b.*",                                    devel: true }
 - { name: ploticus,                    verpat: "[0-9]+",                                   incorrect: true } # t2 crap
 - { name: plowshare-modules,                                                               noscheme: true } # no official releases
 - { name: plt-scheme,                  verpat: "[0-9]{3}",                                 incorrect: true }

@@ -264,6 +264,8 @@
 
 - { name: "php:redis",                                    setbranchcomps: 1 }
 
+- { name: plink,             relge: "2",                  setname: plink2 }
+
 - { name: postgresql,        relge: "10",                 setbranchcomps: 1 }
 - { name: postgresql,        rellt: "10",                 setbranchcomps: 2 }
 

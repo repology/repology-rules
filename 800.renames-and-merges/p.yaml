@@ -149,6 +149,7 @@
 - { setname: please-build,             name: please.build }
 - { setname: pleaser,                  name: "rust:pleaser" }
 - { setname: pleaserun,                name: "ruby:pleaserun" }
+- { setname: plink,                    name: [plink1.9, pling-ng, plink2] }
 - { setname: plpgsql-check,            namepat: "(postgresql[0-9.-]*)-plpgsql-check", addflavor: $1 }
 - { setname: plr,                      namepat: "(postgresql[0-9.-]*)-plr", addflavor: $1 }
 - { setname: plt-scheme,               name: drscheme } # part of? https://plt-scheme.org/
