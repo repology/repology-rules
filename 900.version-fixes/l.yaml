@@ -134,6 +134,8 @@
 - { name: "lua:ada",                                                 ruleset: freebsd,     untrusted: true } # accused of fake 1.0
 - { name: "lua:ada",                   ver: "1.01",                  ruleset: ravenports,  incorrect: true }
 - { name: "lua:ada",                                                 ruleset: ravenports,  untrusted: true } # accused of fake 1.01
+- { name: "lua:bit32",                 verpat: ".*_.*",                                    incorrect: true } # arch
+- { name: "lua:bit32",                                               ruleset: arch,        untrusted: true } # accused of fake 5.3.5.1_0.10
 - { name: "lua:check",                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "lua:cjson",                 verlonger: 3,                                       incorrect: true } # 2.1.0
 - { name: "lua:cliargs",               ver: "3.02",                                        incorrect: true } # 2.1.0
