@@ -59,6 +59,8 @@
 - { name: linkchecker,                 ver: "9.4",                   ruleset: aur,         incorrect: true } # not released
 - { name: links,                       ver: "2.21.1",                ruleset: antix,       incorrect: true }
 - { name: links,                                                     ruleset: antix,       untrusted: true } # accused of fake 2.21.1
+- { name: links,                       ver: "2.24",                  ruleset: kaos,        incorrect: true }
+- { name: links,                                                     ruleset: kaos,        untrusted: true } # accused of fake 2.24
 - { name: linphone,                    verge: "4.4",                 ruleset: [alpine,debuntu,opensuse,void], incorrect: true } # liblinphone
 - { name: linphone,                                                  ruleset: [alpine,debuntu,opensuse,void], untrusted: true } # accused of fake 4.4.x
 - { name: linux,                       verpat: ".*20[0-9]{2}.*",                           incorrect: true } # it has clear enough versioning scheme, do not allow snapshots
