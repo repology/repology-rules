@@ -253,6 +253,8 @@
 - { setname: "python:pyode",           name: pyode }
 - { setname: "python:pyomo",           name: pyomo }
 - { setname: "python:pyopenssl",       name: ["python:openssl", pyopenssl] } # XXX: problem
+- { setname: "python:pysvn",           name: pysvn }
+- { setname: "python:pysvn",           name: [svn-workbench, pysvn-workbench], addflavor: workbench }
 - { setname: "python:pyftpdlib",       name: "python:pyftpdlib-docs", addflavor: true }
 - { setname: "python:pyperclip",       name: pyperclip } # XXX: make upstream use prefix
 - { setname: "python:pypillowfight",   name: "python:libpillowfight" } # as per PyPi

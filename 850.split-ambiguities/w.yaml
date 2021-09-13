@@ -49,6 +49,10 @@
 - { name: words, ruleset: [sisyphus,pld], setname: words-usr-share-dict } # distinguished by linux.words.2.tar.vz2 distname hosted on ibiblio/sunsite.unc.edu ancient mirrors
 - { name: words, addflag: unclassified }
 
+- { name: workbench, wwwpart: pysvn, setname: "python:pysvn", addflavor: workbench }
+- { name: workbench, wwwpart: mxcl, setname: svn-icloud }
+- { name: workbench, addflag: unclassified }
+
 - { name: wpa, wwwpart: wpa_supplicant, setname: wpa-supplicant } # play it safe with essentially ambiguous name
 
 - { name: ws, wwwpart: ixwebsocket, setname: ixwebsocket }
