@@ -48,6 +48,7 @@
 - { name: zpaq,                        verpat: "[0-9]+",                                   incorrect: true } # 7.15, not 715
 - { name: zsh-syntax-highlighting,     verpat: "20[0-9]{6}.*",                             snapshot: true } # FreeBSD
 - { name: zsh-syntax-highlighting,     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: zsh-theme-powerlevel10k,     verge: "21",                  ruleset: mx,          incorrect: true }
 - { name: zshdb,                       verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: zsnes,                       verpat: "(1\\.51)0",                                setver: $1 } # debian seems to have added a zero to end of the version, XXX: problem
 - { name: zsnes,                       verpat: "[0-9]{3}",                                 incorrect: true } # T2; it's 1.51, not 151
