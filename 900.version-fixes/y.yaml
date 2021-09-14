@@ -11,6 +11,7 @@
 - { name: yadifa,                      verpat: "[0-9]+\\.[0-9]+\\.[0-9]+[._-][0-9]{4,5}",  altver: true }
 - { name: yafaray,                     verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: yafaray,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: yafetch,                                                                         noscheme: true }
 - { name: yakuake,                     verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: yara,                        verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)-[0-9]+",        setver: $1 } # build number
 - { name: yarn,                        ver: "1.8.0",                                       devel: true, maintenance: true } # devel scheme is unclear; https://github.com/yarnpkg/yarn/releases
