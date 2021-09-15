@@ -60,8 +60,8 @@
 - { name: "python:paramiko",           verge: "2.8.4",               ruleset: rosa,        incorrect: true } # paramiko-ng
 - { name: "python:paramiko",                                         ruleset: rosa,        untrusted: true } # accused of fake 2.8.4
 - { name: "python:pcl",                verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: "python:pivy",               verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: "python:pivy",               verpat: "20[0-9]{6}", verlt: "20180608",            sink: true } # 0.6.4 from 20180608
+- { name: "python:pivy",               verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: "python:pivy",               verpat: "20[0-9]{6}", verlt: "20210319",            sink: true } # 0.6.6 from 20210319
 - { name: "python:pivy",               ver: "0.6.5",                 ruleset: fedora,      incorrect: true } # 0.6.5a0
 - { name: "python:pivy",                                             ruleset: fedora,      untrusted: true } # accused of fake 0.6.5
 - { name: "python:prettytable",        ver: "0.10",                                        incorrect: true } # sisyphus fake
