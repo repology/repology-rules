@@ -71,6 +71,8 @@
 - { name: qtemu,                       ver: "2.0",                   ruleset: sisyphus,    incorrect: true } # 2.0alpha1
 - { name: qtemu,                                                     ruleset: sisyphus,    untrusted: true }
 - { name: qtermwidget,                 verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: qtfeedback,                  ver: "5.0.0.b1.32",                                 incorrect: true } # freebsd
+- { name: qtfeedback,                                                                      untrusted: true } # accused of fake 5.0.0.b1.32 (XXX: DISTVERSION)
 - { name: qtox,                        verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: qtox,                        verpat: "2017.*",                                   sink: true } # 1.15 from 2018
 - { name: qtractor,                                                                        devel: false } # all versions beta nonsense
