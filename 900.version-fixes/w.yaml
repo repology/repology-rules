@@ -24,6 +24,7 @@
 - { name: weka,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: wesnoth,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: weston,                      verpat: ".*\\.9[0-9]",                              devel: true }
+- { name: wget,                        verge: "2",                   ruleset: distrowatch, incorrect: true } # fakes wget2 for wget, refuses to fix
 - { name: whatweb,                     vergt: "0.4.7",               ruleset: [debuntu,openbsd,gentoo,freebsd], ignore: true } # 0.4.8 has never been released
 - { name: widelands,                   verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: widelands,                   verge: "15",                                        sink: true } # buildNN
