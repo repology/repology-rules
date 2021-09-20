@@ -3,23 +3,29 @@
 - { setname: openssl,                  namepat: "(?:compat-)?(?:lib)?openssl[0-9.-]*(?:[0-9]+[a-z])?" }
 - { setname: openssl,                  name: openssl-devel, weak_devel: true, nolegacy: true }
 - { setname: openssl,                  name: [openssl-nonfree,openssl-threads,openssl-zlib], addflavor: true }
-- { setname: openssl,                  name: [openssl098-dev,openssl+1.0] }
+- { setname: openssl,                  name: [openssl098-dev,openssl+1.0,openssl1.1-compat] }
 - { setname: openssl,                  name: openssl-compat }
 
 - setname: openssl
   name:
     - openssl-1.0-chacha20
+    - openssl-1.0-hardened
     - openssl-chacha20
     - openssl-freeworld
+    - openssl-hardened
     - openssl-legacy-static
     - openssl-libs
     - openssl-light
     - openssl-no-aesni
     - openssl-pre
     - openssl-purify
+    - openssl-spotify
     - openssl-static
+    - openssl-steam
     - openssl-stream
     - openssl-tls1.3
+    - openssl-weak-ciphers
+    - openssl.light
     - openssl10-light
     - openssl11-threads
   addflavor: true
