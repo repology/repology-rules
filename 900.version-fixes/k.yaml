@@ -219,6 +219,8 @@
 - { name: kpublictransport,            verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kqlives,                     verpat: "20[0-9]{6}",                               ignore: true }
 - { name: kqtquickcharts,              verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: kquickcharts,                ver: "5.86.0a",               ruleset: ubuntu,      incorrect: true }
+- { name: kquickcharts,                                              ruleset: ubuntu,      untrusted: true } # accused of fake 5.86.0a
 - { name: krank,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: krb5,                                                      ruleset: fedora,      untrusted: true } # accused of fake 1.17
 - { name: krdc,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
