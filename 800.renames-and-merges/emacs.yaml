@@ -110,6 +110,7 @@
 - { setname: "emacs:vm",               name: [emacs-vm] }
 - { setname: "emacs:w3m",              name: [emacs-common-w3m,emacs-w3m,"emacs:emacs-w3m",w3m-el] }
 - { setname: "emacs:w3m",              name: w3m-el-snapshot, weak_devel: true, nolegacy: true }
+- { setname: "emacs:wget",             name: ["emacs:emacs-wget", wget-el] }
 - { setname: "emacs:wgrep",            name: [emacs-wgrep-helm], addflavor: true }
 - { setname: "emacs:wgrep",            name: [emacs-wgrep] }
 - { setname: "emacs:which-key",        name: [emacs-which-key] }
