@@ -58,6 +58,7 @@
 - { name: telepathy-qt,                                              ruleset: kaos,        untrusted: true } # accused of fake 0.9.7.90
 - { name: telepathy-sunshine,          ver: "2.0",                   ruleset: pisi,        incorrect: true }
 - { name: telepathy-sunshine,                                        ruleset: pisi,        untrusted: true } # accused of fake 2.0
+- { name: tempest,                     verpat: "201[13].*",                                sink: true }
 - { name: template-glib,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: tensorpipe,                                                                      noscheme: true }
 - { name: tentakel,                    verpat: "[0-9]+",                                   incorrect: true } # openbsd
