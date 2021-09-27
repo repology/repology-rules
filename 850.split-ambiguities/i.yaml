@@ -32,6 +32,10 @@
 - { name: imapd, wwwpart: cyrus, setname: cyrus-imapd }
 # otherwise some "imapd (IMAP4rev1 from alpine)" from slackware
 
+- { name: imgcat, wwwpart: eddieantonio, setname: imgcat-eddieantonio }
+- { name: imgcat, wwwpart: trashhalo, setname: imgcat-trashhalo }
+- { name: imgcat, addflag: unclassified }
+
 - { name: imposm, ruleset: aur, setname: imposm3 }
 
 - { name: index, wwwpart: [index-fm,maui], setname: index-fm }
