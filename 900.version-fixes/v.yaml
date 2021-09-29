@@ -62,7 +62,7 @@
 - { name: vndr,                        verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: vo-aacenc,                   ver: "1.3",                   ruleset: pisi,        incorrect: true }
 - { name: vo-aacenc,                                                 ruleset: pisi,        untrusted: true } # accused of fake 1.3
-- { name: vo-aacenc,                   ver: "1.5",                   ruleset: aur,         incorrect: true }
+- { name: vo-aacenc,                   ver: "0.1.5",                 ruleset: aur,         incorrect: true }
 - { name: vo-aacenc,                                                 ruleset: aur,         untrusted: true } # accused of fake 1.5 (fakes opencore-amr as vo-aacenc)
 - { name: vo-amrwbenc,                 ver: "1.3",                   ruleset: pisi,        incorrect: true }
 - { name: vo-amrwbenc,                                               ruleset: pisi,        untrusted: true } # accused of fake 1.3
