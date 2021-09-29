@@ -56,6 +56,7 @@
 - setname: gcc
   name:
     - g++
+    - gcc-epel  # "missing bits that Red Hat removed from the gcc package for RHEL 8 and derivatives"
     - gcc-fortran
     - gcc-g++
     - gcc-gfortran
@@ -63,6 +64,8 @@
     - gcc-go
     - gcc-libs
     - gcc-libs-i686
+    - gcc-objc
+    - gcc-objc++
     - gcc-runtime
     - gcc3-c
     - gcc3-c++
