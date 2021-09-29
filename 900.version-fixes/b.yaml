@@ -119,6 +119,7 @@
 - { name: botan,                                                     ruleset: vcpkg,       untrusted: true }
 - { name: bovo,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: bowtie,                                                                          p_is_patch: true }
+- { name: boxfort,                                                                         noscheme: true }
 - { name: brandy,                      vergt: "1.20.1",                                    successor: true } # http://brandy.matrixnetwork.co.uk/
 - { name: brasero,                     ver: "3.12.2",                ruleset: opensuse,    ignore: true } # not released yet
 - { name: brave,                       verlonger: 3,                 ruleset: homebrew_casks, incorrect: true } # prefixed with the major version of chromium it's based on
