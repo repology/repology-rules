@@ -73,6 +73,7 @@
 - { name: aircrack-ng,                 verpat: ".+20[0-9]{6}.*",                           snapshot: true }
 - { name: airspy,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: airspy,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: airstrike,                   ver: ["1.0-pre6","0.99+1.0pre6a"],                  incorrect: true } # it's "pre6a"
 - { name: akonadi,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: akonadi-calendar,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: akonadi-calendar-tools,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
