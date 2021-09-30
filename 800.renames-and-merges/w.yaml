@@ -70,6 +70,7 @@
 - { setname: wlc,                      name: libwlc0 }
 - { setname: wlrobs,                   name: obs-wlrobs }
 - { setname: wlroots,                  name: wlroots-full, addflavor: true }
+- { setname: wlroots,                  namepat: "wlroots[0-9.-]+" }
 - { setname: wmii,                     name: [wmii-devel,wmii-hg], weak_devel: true, nolegacy: true }
 - { setname: wok-plugins-kimchi,       name: wokd }
 - { setname: woob,                     name: ["python:weboob","python:woob",weboob] }
