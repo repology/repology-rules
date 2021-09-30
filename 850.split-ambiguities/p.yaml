@@ -264,6 +264,10 @@
 - { name: "python:keystone", wwwpart: openstack, setname: openstack-keystone }
 - { name: "python:keystone", wwwpart: keystone-engine, setname: "python:keystone-engine" }
 
+- { name: "python:leo", wwwpart: leoeditor, setname: leo-editor }
+- { name: "python:leo", wwwpart: [keachi,andiwand], setname: python-leo }
+- { name: "python:leo", addflag: unclassified }
+
 - { name: "python:ldap", setname: "python:python-ldap", wwwpart: python-ldap }
 - { name: "python:ldap", setname: "python:python-ldap", ruleset: [sisyphus,openbsd,pclinuxos] }
 
