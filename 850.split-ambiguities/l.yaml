@@ -24,7 +24,7 @@
 - { name: lemon, ruleset: pclinuxos, setname: lemon-lalr1-sqlite }
 - { name: lemon, addflag: unclassified }
 
-- { name: leo, wwwpart: leoeditor, setname: leo-editor }
+- { name: leo, wwwpart: [leoeditor,leo-editor], setname: leo-editor }
 - { name: leo, wwwpart: scriptsleo, setname: leo-dict }
 - { name: leo, addflag: unclassified }
 
