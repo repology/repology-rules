@@ -26,7 +26,7 @@
 - { name: icestorm,                                                                        noscheme: true }
 - { name: icewm,                       ver: ["1.4.3","1.4.3.0"],     ruleset: [debuntu,distrowatch], incorrect: true } # no such release
 - { name: icon,                        verpat: "[0-9]{3}",                                 ignore: true } # XXX: transform + problem
-- { name: icu-le-hb,                   ver: "1.0.3.3",                                     ignore: true } # fake (FreeBSD)
+- { name: icu-le-hb,                   verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: idesk,                       ver: "0.7.7",                 ruleset: pclinuxos,   incorrect: true }
 - { name: idesk,                                                     ruleset: pclinuxos,   untrusted: true } # accused of fake 0.7.7
 - { name: idesk,                       ver: "1",                     ruleset: alpine,      incorrect: true }
