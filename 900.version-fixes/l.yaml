@@ -37,6 +37,7 @@
 - { name: libreplan,                   verpat: "[1234]",                                   sink: true } # XXX: remove after repology/repology#891
 - { name: librespot,                   verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: librespot,                   verge: "20000000", verlt: "20200729",               sink: true }
+- { name: libresprite,                 ver: "1.1.7",                                       sink: true } # not a relase, just marks point of fork from aseprite; real versions start from 1.0 https://github.com/LibreSprite/LibreSprite/releases
 - { name: libressl,                    relgt: "3.2",                                       devel: true, maintenance: true }
 - { name: libretls,                                                                        p_is_patch: true }
 - { name: libudev0-shim,               verpat: "[0-9]{3}",                                 incorrect: true }
