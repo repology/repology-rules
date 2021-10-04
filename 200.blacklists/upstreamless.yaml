@@ -1,7 +1,3 @@
 # vim: tabstop=50 expandtab softtabstop=50
 
-- ruleset: freebsd
-  remove: true
-  wwwpart: freshports.org
-  name:
-    - beep
+- { name: beep, ruleset: freebsd, remove: true }
