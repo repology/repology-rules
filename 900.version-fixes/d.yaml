@@ -127,8 +127,9 @@
 - { name: doomrl,                      verpat: "[0-9]{4}",                                 incorrect: true } # 0.9.9.7, not 0997
 - { name: dosage,                      verpat: "20[0-9]{2}.*",                             incorrect: true } # nix garbage
 - { name: dosbox,                      verpat: "0\\.74\\.r?[0-9]{4}.*",                    snapshot: true }
-- { name: dosbox,                      ver: "0.76.0",                ruleset: [openmamba,msys2], incorrect: true } # dosbox-staging
-- { name: dosbox,                                                    ruleset: [openmamba,msys2], untrusted: true } # accused of fake 0.76.0
+- { name: dosbox,                      wwwpart: staging,                                   incorrect: true }
+- { name: dosbox,                      ver: "0.76.0",                ruleset: [openmamba,msys2,opensuse], incorrect: true } # dosbox-staging
+- { name: dosbox,                                                    ruleset: [openmamba,msys2,opensuse], untrusted: true } # accused of fake 0.76.0
 - { name: dosbox-x,                    ver: "0.801",                                       sink: true }
 - { name: dosemu,                      verpat: "2013.*",                                   ignore: true }
 - { name: dosemu,                      verpat: "1\\.4\\.1.*",        ruleset: [sisyphus,gentoo], ignore: true }
