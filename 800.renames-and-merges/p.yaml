@@ -71,6 +71,7 @@
 - { setname: peazip,                   name: [peazip-gtk2,peazip-gtk2-build,peazip-gtk2-portable,peazip-qt,peazip-qt-build,peazip-qt-opensuse-latest,peazip-qt4,peazip-qt5], addflavor: true }
 - { setname: peda,                     name: gdb-peda }
 - { setname: pegtl,                    name: [tao-pegtl,taocpp-pegtl] }
+- { setname: pegtl,                    namepat: "pegtl[0-9.-]+" }
 - { setname: pelican,                  name: "python:pelican" }
 - { setname: pencil,                   name: [evolus-pencil,pencil-v2,pencil3] }
 - { setname: pencil,                   name: evolus-pencil-devel, weak_devel: true, nolegacy: true }
