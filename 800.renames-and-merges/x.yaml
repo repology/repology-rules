@@ -47,6 +47,7 @@
 - { setname: xdg-utils,                name: [xdg-utils-mimeo,xdg-utils-no-open,xdg-utils-patched,xdg-utils-slock] }
 - { setname: xdot,                     name: ["python:xdot","python:xdot-06"] }
 - { setname: xerces-c,                 namepat: "(?:compat-)?(?:lib)?xerces-?c[0-9.+-]*" }
+- { setname: xerces-c,                 name: xerces-c-icu, addflavor: true }
 - { setname: xerces-j,                 name: xerces, ruleset: [openbsd,slackbuilds] }
 - { setname: xerces-j,                 name: xerces, ruleset: gentoo, category: dev-java }
 - { setname: xerces-j,                 namepat: "(?:lib)?xerces2?-?j(?:ava)?[0-9-]*" }
