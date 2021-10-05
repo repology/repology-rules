@@ -86,7 +86,8 @@
 - { setname: sed,                      name: [gnu-sed,gnused,gsed,sed-gnu] }
 - { setname: sed,                      name: [devbox-sed,gnuwin32-sed,ja-sed], addflavor: true }
 - { setname: seexpr,                   name: seexpr-doc, addflavor: doc }
-- { setname: selene-linter,            name: "rust:selene" }
+- { setname: selene,                   name: "rust:selene" }
+- { setname: selene,                   name: selene-media-converter }
 - { setname: sendmail,                 namepat: "sendmail\\+.*", ruleset: freebsd }
 - { setname: sendmail,                 name: [sendmail-cf,sendmail-cidrexpand,sendmail-libmilter,sendmail-qtool,libmilter,milter,smrsh], addflavor: true }
 - { setname: seqan,                    name: seqan-apps, addflavor: true }
