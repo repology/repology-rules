@@ -94,6 +94,7 @@
 - { setname: allacrost,                name: hero-of-allacrost }
 - { setname: allegro,                  namepat: "(?:lib)?allegro[0-9.-]*" }
 - { setname: allegro,                  namepat: "allegro[0-9.-]*-devel", weak_devel: true, nolegacy: true }
+- { setname: allegro,                  name: allegro-static, addflavor: true }
 - { setname: allureofthestars,         name: allure-of-the-stars }
 - { setname: allureofthestars,         name: "haskell:allure" }
 - { setname: alogg,                    name: [liballegroogg,allegroogg] }
