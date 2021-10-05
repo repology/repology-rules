@@ -42,8 +42,6 @@
 
 - { setname: meld,                     name: meld3, wwwpart: meldmerge } # XXX: create problem; this is wrongly named
 
-- { addflag: not_mingw,                name: mingw-w64-meson, ruleset: aur }
-
 - { setname: node,                     namepat: "node[0-9._-]+" }
 - { setname: nodejs,                   name: [nodejs-bigger-heap,nodejs-slim] }
 - { setname: nodejs,                   name: nodejs-current, weak_devel: true }

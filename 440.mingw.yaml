@@ -1,0 +1,40 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+# Special handling of wildcard rules for mingw packages:
+# - first, we accumulate them under mingw: namespace
+# - next, we remove mingw: prefix to flatten them with their "normal" counterparts
+
+- { setname: "mingw:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_mingw], namepat: "mingw-(.*)",   ruleset: [ centos, fedora, mageia ] }
+- { setname: "mingw:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_mingw], namepat: "mingw32-(.*)", ruleset: [ centos, sisyphus, freebsd ] }
+- { setname: "mingw:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_mingw], namepat: "mingw-w64-(.*)", ruleset: [ aur ] }
+- { setname: "mingw:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_mingw], namepat: "mingw64-(i686|x86_64)-(.*)", ruleset: cygwin, addflavor: $1 }
+
+# Note that this has its own set of exceptions; we leave mingw-specific
+# parts (like different wrapper scripts) under mingw
+
+- { setname: mingweditline,            name: "mingw:editline" }
+
+- { addflag: not_unmingw,              name: "mingw:bin-msvcrt" }
+- { addflag: not_unmingw,              name: "mingw:cmake" }
+- { addflag: not_unmingw,              name: "mingw:cmake-static" }
+- { addflag: not_unmingw,              name: "mingw:configure" }
+- { addflag: not_unmingw,              name: "mingw:crt" }
+- { addflag: not_unmingw,              name: "mingw:directx" } # does it belong here?
+- { addflag: not_unmingw,              name: "mingw:docbook-wrapper" }
+- { addflag: not_unmingw,              name: "mingw:endian" }
+- { addflag: not_unmingw,              name: "mingw:environment" }
+- { addflag: not_unmingw,              name: "mingw:flex-wrapper" }
+- { addflag: not_unmingw,              name: "mingw:headers" }
+- { addflag: not_unmingw,              name: "mingw:headers-bootstrap" }
+- { addflag: not_unmingw,              name: "mingw:ldd" }
+- { addflag: not_unmingw,              name: "mingw:libcharset" } # valid library, but mingw-specific
+- { addflag: not_unmingw,              name: "mingw:make" }
+- { addflag: not_unmingw,              name: "mingw:meson" }
+- { addflag: not_unmingw,              name: "mingw:mman-win32" }
+- { addflag: not_unmingw,              name: "mingw:pthreads" }
+- { addflag: not_unmingw,              name: "mingw:resource" }
+- { addflag: not_unmingw,              name: "mingw:runtime" }
+- { addflag: not_unmingw,              name: "mingw:tools" }
+- { addflag: not_unmingw,              name: "mingw:w64-tools" }
+
+- { setname: "$1", noflag: not_unmingw, namepat: "mingw:(.*)", addflavor: mingw }
