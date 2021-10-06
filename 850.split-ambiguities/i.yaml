@@ -48,6 +48,10 @@
 
 - { name: iops, wwwpart: vanheusden, incorrect: true } # upstream dead, not worth splitting
 
+- { name: iotop, wwwpart: guichaz.free.fr, setname: iotop-python }
+- { name: iotop, wwwpart: tomas-m, setname: iotop-c }
+- { name: iotop, addflag: unclassified }
+
 - { name: ipcalc, ruleset: openbsd, setname: ipcalc-pyr }
 - { name: ipcalc, wwwpart: nmav, setname: ipcalc-nmav }
 
