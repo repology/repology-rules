@@ -14,6 +14,8 @@
 - { setname: xa,                       name: xa65 }
 - { setname: xalan,                    name: xalan-serializer, addflavor: true } # triaged into -c/-j in 850
 - { setname: xalan-c,                  name: [xalanc,xalan-c++] }
+- { setname: xalan-c,                  name: xalan-c-icu, addflavor: true }
+- { setname: xalan-c,                  name: [libxalan-c111] }
 - { setname: xalan-j,                  name: [java-xalan,libxalan2-java,xalan-j,xalan-j2,xalan-java,xalan-xerces-j,xalanj] }
 - { setname: xandikos,                 name: "python:xandikos" }
 - { setname: xapian-bindings,          name: "lua:xapian", addflavor: lua }
