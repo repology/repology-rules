@@ -123,6 +123,8 @@
 - { name: chromium,                                                  ruleset: mint,        untrusted: true } # accused of fake 2020.06.15
 - { name: chrpath,                     ver: "0.16.1",                ruleset: deepin,      incorrect: true }
 - { name: chrpath,                                                   ruleset: deepin,      untrusted: true } # accused of fake 0.16.1
+- { name: chrpath,                     ver: "0.16.2",                ruleset: mageia,      incorrect: true }
+- { name: chrpath,                                                   ruleset: mageia,      untrusted: true } # accused of fake 0.16.2
 - { name: cht.sh,                                                                          noscheme: true } # https://github.com/chubin/cheat.sh/releases
 - { name: cimg,                        verpat: "[0-9]{3}", verle: "221",                   sink: true } # see https://github.com/dtschump/CImg/tags?after=v.2.2.3
 - { name: cimg,                        verpat: "[0-9]{3}", vergt: "221",                   incorrect: true }
