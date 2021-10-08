@@ -120,6 +120,8 @@
 - { setname: nsca,                     name: [nsca27,nagios-nsca] }
 - { setname: nsca,                     name: [nsca-client, nsca27-client], addflavor: client }
 - { setname: nsca-ng,                  name: nsca-ng-client, addflavor: true }
+- { setname: nsis,                     name: [nsis-i686, nsis-x86-64, makensis], addflavor: true }
+- { setname: nsis,                     name: nsis2 }
 - { setname: nspr,                     name: [mozilla-nspr,libnspr] }
 - { setname: nss,                      name: [mozilla-nss,libnss] }
 - { setname: nss-ldap,                 name: libnss-ldap }
