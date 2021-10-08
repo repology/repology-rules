@@ -1,4 +1,7 @@
 # vim: tabstop=20 expandtab softtabstop=20
 
+# NOTE: using `ruleset` condition along with `maintainer` is advised
+# here to optimize lookup
+
 # too many fake versions created by appending an extra component
-- { untrusted: true,         maintainer: "yuri@freebsd.org" }
+- { untrusted: true,         maintainer: "yuri@freebsd.org", ruleset: freebsd }
