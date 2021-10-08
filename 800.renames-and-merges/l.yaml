@@ -128,7 +128,8 @@
 - { setname: luabind,                  namepat: "lua([0-9]+)bind", addflavor: $1 }
 - { setname: luaformatter,             name: "lua:format" }
 - { setname: luaformatter,             name: "lua:format-ext", addflavor: ext }
-- { setname: luajit,                   name: [luajit-2.1,luajit2,"lua:luajit",libluajit,"lua:jit"] }
+- { setname: luajit,                   name: [luajit-2.1,luajit2,"lua:luajit",libluajit,"lua:jit",lua-luajit] }
+- { setname: luajit-openresty,         name: [luajit-openresty-stable,luajit-lua52-openresty] }
 - { setname: luarocks,                 name: ["lua:rocks",lua-rocks,lua5.3-luarocks,lua-luarocks,luarocks-lua53] }
 - { setname: luarocks,                 name: luarocks-nix, addflavor: true }
 - { setname: lucene,                   namepat: "lucene[0-9.-]+" }
