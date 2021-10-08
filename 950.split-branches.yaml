@@ -237,6 +237,8 @@
 - { name: ns,                releq: "3",                  setname: ns3 }
 - { name: ns,                warning: "please classify me" }
 
+- { name: nsis,                                           setbranchcomps: 1 }
+
 # (see http://www.nvidia.com/object/unix.html)
 - { name: nvidia,            verge: "300",                setbranchcomps: 1 } # e.g. 450.x
 - { name: nvidia,            verlt: "300",                setbranchcomps: 2 } # e.g. 71.86.x
