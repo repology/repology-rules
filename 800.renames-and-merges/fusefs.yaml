@@ -12,4 +12,5 @@
 - { setname: "fusefs:s3fs",            name: [s3fs,s3fs-fuse] }
 - { setname: "fusefs:simple-mtpfs",    name: simple-mtpfs }
 - { setname: "fusefs:sshfs",           name: [sshfs-fuse,sshfs] }
+- { setname: "fusefs:unreliablefs",    name: "lua:unreliablefs" }
 - { setname: "fusefs:zfs",             name: zfs-fuse }
