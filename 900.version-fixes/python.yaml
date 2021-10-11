@@ -18,6 +18,8 @@
 - { name: "python:configshell-fb",     verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: $1.fb$2 }
 - { name: "python:couchdbkit",         ver: "0.9.15",                ruleset: sisyphus,    incorrect: true }
 - { name: "python:couchdbkit",                                       ruleset: sisyphus,    untrusted: true } # accused of fake 0.9.15
+- { name: "python:dbus-python",        ver: "1.12.18",               ruleset: solus,       incorrect: true } # 1.2.18
+- { name: "python:dbus-python",                                      ruleset: solus,       untrusted: true } # accused of fake 1.12.18
 - { name: "python:django-solo",        ver: "1.1.3.8",                                     incorrect: true }
 - { name: "python:django-solo",                                      ruleset: freebsd,     untrusted: true } # accused of fake 1.1.3.8
 - { name: "python:docker",             ver: "4.10",                  ruleset: pisi,        incorrect: true } # 4.1.0
