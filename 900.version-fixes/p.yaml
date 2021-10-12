@@ -118,6 +118,7 @@
 - { name: picom,                       verpat: ".*r.*",              ruleset: freebsd,     devel: true } # XXX: FreeBSD DISTVERSION
 - { name: pidentd,                     ver: "3.1a25",                                      incorrect: true, disposable: true } # old opensuse leap, no idea where this comes from
 - { name: piglit,                                                                          noscheme: true }
+- { name: pikchr,                                                                          noscheme: true } # https://pikchr.org/home/taglist
 - { name: pilot-link,                  ver: "0.12.15",               ruleset: gobolinux,   incorrect: true } # gobolinux fake
 - { name: pim-data-exporter,           verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: pimcommon,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
