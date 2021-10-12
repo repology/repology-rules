@@ -59,6 +59,8 @@
 #- { name: "python:oauth2",                                                                 p_is_patch: true } # XXX: check if really needed
 - { name: "python:m2r",                ver: "0.11",                  ruleset: sisyphus,    incorrect: true }
 - { name: "python:m2r",                                              ruleset: sisyphus,    untrusted: true } # accused of fake 0.11
+- { name: "python:m2r",                ver: "0.2.5",                 ruleset: rosa,        incorrect: true }
+- { name: "python:m2r",                                              ruleset: rosa,        untrusted: true } # accused of fake 0.2.5 (m2r2 in fact)
 - { name: "python:openstackclient",    verge: "5",                                         incorrect: true } # openstackclient vs python-openstackclient
 - { name: "python:ots",                                              ruleset: fedora,      untrusted: true } # python:opentype-sanitizer in fact (XXX: problem)
 - { name: "python:pandoc-attributes",  verpat: "[0-9a-f]{8}",                              incorrect: true }
