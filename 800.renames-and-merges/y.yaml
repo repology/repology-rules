@@ -7,8 +7,8 @@
 - { setname: yaml-cpp,                 name: yaml-cpp-static, addflavor: true }
 - { setname: yarn,                     name: yarn-bin, addflavor: true }
 - { setname: yarn,                     name: yarn-nightly, weak_devel: true, nolegacy: true }
-- { setname: yarn,                     name: ["node:yarn","node:yarnpkg"] }
-- { setname: yarn,                     name: [yarn-node8, yarn-node10], addflavor: true }
+- { setname: yarn,                     name: ["node:yarn","node:yarnpkg", yarnpkg] }
+- { setname: yarn,                     name: [yarn-node8, yarn-node10, yarn-node14], addflavor: true }
 - { setname: yarock,                   name: [yarock-mpv,yarock-qt5], addflavor: true }
 - { setname: yaru-theme,               name: yaru }
 - { setname: yasm,                     name: yasm-devel, weak_devel: true, nolegacy: true }
