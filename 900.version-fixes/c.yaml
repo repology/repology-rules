@@ -261,7 +261,7 @@
 - { name: cups,                        verpat: ".*[^o]p.*",                                incorrect: true }
 - { name: cura,                        verpat: "1[45].*",                                  sink: true }
 - { name: curaengine,                  verpat: "1[45].*",                                  sink: true }
-- { name: curses-hexedit,              verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)_[0-9]+",        setver: $1 } # slackbuilds - debian patchlevel
+- { name: curses-hexedit,              verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)_.*",            incorrect: true } # slackbuilds - debian patchlevel
 - { name: cutechess,                   verpat: "20[0-9]+",                                 incorrect: true }
 - { name: cutechess,                   verge: "20000000", verlt: "20200809",               sink: true } # 1.2.0 from Aug 9, 2020
 - { name: cutecom,                     verpat: ".*patch",                                  incorrect: true } # nix garbage
