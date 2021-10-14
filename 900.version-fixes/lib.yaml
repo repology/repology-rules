@@ -50,6 +50,7 @@
 - { name: libchipcard,                                               ruleset: opensuse,    untrusted: true } # accused of fake 5.0.99
 - { name: libchipcard,                 ver: "5.1.3",                                       incorrect: true } # 5.1.3beta
 - { name: libchipcard,                                               ruleset: sisyphus,    untrusted: true } # accused of fake 5.1.3
+- { name: libcircllhist,                                                                   noscheme: true }
 - { name: libclc,                                                                          noscheme: true }
 - { name: libcmis,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 0.5.2
 - { name: libcoap,                     verpat: ".*20[0-9]{6}",                             snapshot: true } # openbsd
