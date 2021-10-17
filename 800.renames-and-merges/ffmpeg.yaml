@@ -1,7 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { setname: ffmpeg,                   namepat: "(?:compat-)?ffmpeg(?:-compat)?[0-9.-]*" }
-- { setname: ffmpeg,                   name: [ffmpeg-ex,ffmpeg-full3.4,ffmpeg-libfdk-aac,ffmpeg-mmal,ffmpeg-qsv], addflavor: true }
 - { setname: ffmpeg,                   name: [ffplay,ffplay4], addflavor: ffplay }
 - { setname: ffmpeg,                   name: ffserver, addflavor: true }
 - { setname: ffmpeg,                   name: libavutil-52, addflavor: libavutil }
@@ -13,17 +12,28 @@
     - ffmpeg-cuda
     - ffmpeg-decklink
     - ffmpeg-full
+    - ffmpeg-full3.4
     - ffmpeg-full-nvenc
     - ffmpeg-gl-transition
     - ffmpeg-headless
     - ffmpeg-headless2.8
+    - ffmpeg-intel-full
     - ffmpeg-jami
+    - ffmpeg-libfdk-aac
     - ffmpeg-minimal
+    - ffmpeg-mmal
     - ffmpeg-ndi
     - ffmpeg-nocuda
     - ffmpeg-nox
     - ffmpeg-nvenc
-    - ffmpeg-nvenc-manjaro
+    - ffmpeg-qsv
+    - ffmpeg-shinobi
+    - ffmpeg-svt-av1
+    - ffmpeg-svt-vp9
+    - ffmpeg-tmblock
+    - ffmpeg-v4l2-request
+    - ffmpeg-vp9-timestamp
+    - ffmpeg-vulkan
     - ffplay1
     - ffplay2
     - ffplay3
