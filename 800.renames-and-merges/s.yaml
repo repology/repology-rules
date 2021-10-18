@@ -281,7 +281,7 @@
 - { setname: storebackup,              name: store-backup }
 - { setname: storm,                    name: storm-beta, weak_devel: true, nolegacy: true }
 - { setname: stormssh,                 name: "python:stormssh" }
-- { setname: strawberry,               name: [strawberry-lite,strawberry-full,strawberry-qt5] }
+- { setname: strawberry,               name: [strawberry-lite,strawberry-full,strawberry-qt5], addflavor: true }
 - { setname: streamtuner,              namepat: "streamtuner[0-9]+" }
 - { setname: stremio,                  name: [stremio-shell, stremio-legacy] }
 - { setname: stremio,                  name: stremio-beta, weak_devel: true, nolegacy: true }
