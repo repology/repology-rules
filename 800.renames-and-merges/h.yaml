@@ -3,7 +3,7 @@
 - { setname: h2o,                      name: h2o-devel, weak_devel: true, nolegacy: true }
 - { setname: hadoop,                   name: hadoop2 }
 - { setname: haiti,                    name: ["ruby:haiti-hash", haiti-hash] }
-- { setname: handbrake,                name: [handbrake-cli,handbrake-fdkaac,handbrakecli], addflavor: true }
+- { setname: handbrake,                name: [handbrake-cli,handbrake-fdkaac,handbrakecli,handbrake-full,handbrake-nvenc,handbrake-no-qsv], addflavor: true }
 - { setname: hangups,                  name: "python:hangups" }
 - { setname: haproxy,                  namepat: "haproxy[0-9.-]*" }
 - { setname: haproxy,                  name: haproxy-devel, weak_devel: true, nolegacy: true }
