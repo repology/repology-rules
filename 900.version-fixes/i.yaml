@@ -48,6 +48,8 @@
 - { name: iio-sensor-proxy,            verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: ike-scan,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: imagej,                      verpat: "[0-9]{3}.*",                               incorrect: true } # 1.50 not 150
+- { name: img2pdf,                     ver: "1.4.2",                 ruleset: solus,       incorrect: true }
+- { name: img2pdf,                                                   ruleset: solus,       untrusted: true } # accused of fake 1.4.2
 - { name: imgcat-eddieantonio,         verlt: "2.5.0",                                     outdated: true, disposable: true }
 - { name: impressive,                  verpat: ".*r.*",              ruleset: aur,         snapshot: true }
 - { name: inchi,                       ver: ["1.0.3","1.0.4","1.0.5"],                     incorrect: true } # XXX: problem
