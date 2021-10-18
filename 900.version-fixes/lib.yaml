@@ -3,6 +3,9 @@
 - { name: lib2geom,                    verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: lib3ds,                      ver: "20080909",                                    setver: "2.0.0-rc1" } # https://code.google.com/archive/p/lib3ds/downloads
 - { name: lib3ds,                      ver: "2.0.0",                 ruleset: haikuports,  incorrect: true } # 2.0.0-rc1
+- { name: libad9361-iio,               ver: "0.2.8",                 ruleset: freebsd,     incorrect: true }
+- { name: libad9361-iio,                                             ruleset: freebsd,     untrusted: true } # accused of fake 0.2.8
+- { name: libad9361-iio,               verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: libadacrypt,                                                                     noscheme: true }
 - { name: libadalang,                                                                      noscheme: true }
 - { name: libadalang-tools,                                                                noscheme: true }
