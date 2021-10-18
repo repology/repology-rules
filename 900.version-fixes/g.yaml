@@ -2,7 +2,7 @@
 
 - { name: gajim,                       ver: "1.1.99.1",                                    incorrect: true } # 1.2.0beta1
 - { name: gajim,                                                     ruleset: debuntu,     untrusted: true } # accused of fake 1.1.99.1
-- { name: gamehub,                     verpat: ".*master",                                 snapshot: true }
+- { name: gamehub,                                                   ruleset: openmandriva, ignore: true } # devel versions
 - { name: ganv,                        ver: "1.5.4",                 ruleset: guix,        incorrect: true }
 - { name: ganv,                                                      ruleset: guix,        untrusted: true }
 - { name: gap,                         verpat: ".*20[0-9]{6}",                             ignore: true }
