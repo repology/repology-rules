@@ -201,7 +201,7 @@
 - { name: fossil,                      verpat: "20[0-9]{6}.*",       ruleset: cygwin,      incorrect: true } # it has proper versioning scheme
 - { name: fotowall,                    verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: four-in-a-row,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: fox,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: fox-toolkit,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: fp16,                                                                            noscheme: true }
 - { name: fpc,                         ver: "3.3.1",                 ruleset: sisyphus,    incorrect: true }
 - { name: fpc,                                                       ruleset: sisyphus,    untrusted: true } # accused of fake 3.3.1
