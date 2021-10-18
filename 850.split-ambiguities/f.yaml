@@ -90,6 +90,10 @@
 - { name: fortune, ruleset: pkgsrc, setname: fortune-mod-ibiblio } # http://cvsweb.netbsd.org/bsdweb.cgi/~checkout~/pkgsrc/games/fortune/Makefile?content-type=text/plain see DISTNAME
 - { name: fortune, addflag: unclassified }
 
+- { name: fox, wwwpart: fox-toolkit, setname: fox-toolkit }
+- { name: fox, wwwpart: earawa, setname: fox-fortran-xml-library }
+- { name: fox, addflag: unclassified }
+
 - { name: fmt, wwwpart: plan9, setname: fmt-plan9 }
 
 - { name: fpp, wwwpart: pathpicker, setname: pathpicker } # https://github.com/facebook/PathPicker vs. fortran preprocessor
