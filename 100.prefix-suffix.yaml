@@ -2,6 +2,7 @@
 
 # exceptions from prefix/suffix processing
 - { name: oh-my-git, addflag: no_suffix }
+- { name: multimc-bin, addflag: no_suffix }
 
 # common rules
 - { noflag: no_suffix,                            namepat: "libx32-(.*)", setname: "$1", addflavor: libx32 }
