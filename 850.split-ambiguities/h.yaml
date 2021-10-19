@@ -57,6 +57,10 @@
 - { name: highway, wwwpart: tkengo, setname: highway-code-search }
 - { name: highway, addflag: unclassified }
 
+- { name: hgrep, wwwpart: rhysd, addflag: classified }
+- { name: hgrep, wwwpart: acme, setname: hgrep-acme } # deprecated since 1988
+- { name: hgrep, addflag: unclassified }
+
 - { name: horizon, wwwpart: [openstack,launchpad.net/horizon], setname: openstack-horizon }
 - { name: horizon, wwwpart: eda, setname: horizon-eda }
 - { name: horizon, wwwpart: adelie, setname: horizon-install }
