@@ -8,7 +8,7 @@
 
 # Apache
 - { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "ap[0-9]+-(?:mod_)?(.*?)", ruleset: [freebsd,openbsd,pkgsrc] }
-- { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "mod_(.*)", category: www-apache, ruleset: [ gentoo, exherbo ] }
+- { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "mod_(.*)", category: [www-apache,apache-mod], ruleset: [ gentoo, exherbo ] }
 - { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "mod-(.*)", ruleset: debuntu }
 - { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "mod_(.*)", ruleset: [arch,centos,fedora,freebsd,gobolinux,macports,openindiana,rosa,sisyphus,slackbuilds] }
 - { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "(?:lib)?apache2?-mod[_-](.*)" }
