@@ -7,6 +7,7 @@
 - { name: vacuum-im,                   ver: "1.3.0",                 ruleset: opensuse,    incorrect: true }
 - { name: vacuum-im,                                                 ruleset: opensuse,    untrusted: true } # accused of fake 1.3.0
 - { name: vala,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: vala0.44,                                                  ruleset: aur,         legacy: true }
 - { name: valentina,                   verpat: ".*a",                                      devel: true }
 - { name: vapoursynth,                 verpat: "R([.0-9]+)",                               setver: "$1" }
 - { name: "vapoursynth:fmtconv",       verpat: "[0-9]+",                                   setver: r$0 }
