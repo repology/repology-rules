@@ -46,6 +46,8 @@
 - { name: recode,                      ver: "3.7-2fd838565",                               ignore: true }
 - { name: recode,                      verpat: ".*20[0-9]{4}.*",                           ignore: true }
 - { name: recode,                      verge: "3.7",                                       successor: true } # fork
+- { name: redasm,                      verpat: "[0-9]{4}.*",                               incorrect: true } # blackarch
+- { name: redasm,                      vereq: "2.1.1.fix",                                 setver: "2.1.1", disposable: true } # fixup tag thing https://github.com/REDasmOrg/REDasm/releases/tag/v2.1.1-fix
 - { name: redis,                       ver: "6.0",                   ruleset: [rpm, openindiana], incorrect: true }
 - { name: redis,                                                     ruleset: [rpm, openindiana], untrusted: true } # accused of fake 6.0
 - { name: redland,                     ver: "1.0.17.1",              ruleset: t2,          incorrect: true } # redland-bindings
