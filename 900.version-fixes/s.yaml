@@ -20,7 +20,9 @@
 - { name: sauerbraten,                                                                     ignore: true } # otherwise, garbage (e.g. 2013.02.03.20161112 from chocolatey)
 - { name: sawfish,                     verpat: ".*\\.9[0-9]+",                             devel: true }
 - { name: sawfish,                     ver: "2.0",                                         sink: true } # ancient version branched for gnome2
-- { name: sayonara,                    verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: sayonara,                    verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: sayonara,                    verpat: "[0-9]+([._-][0-9]+){3}",                   incorrect: true } # X.Y.Z-stable3, not X.Y.Z_3
+- { name: sayonara,                    verpat: ".*stable.*",                               any_is_patch: true }
 - { name: sbase,                                                                           noscheme: true }
 - { name: sbcl,                        verpat: ".*20[0-9]{6}.*",                           ignore: true } # nixpkgs garbage
 - { name: sblim-sfcc,                  ver: "2.2.9",                 ruleset: nix,         incorrect: true } # prerelease
