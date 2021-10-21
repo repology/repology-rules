@@ -295,3 +295,4 @@
 - { setname: mysql-connector-java,     name: [jdbc-mysql,mysql-jdbc] }
 - { setname: mysql-connector-java,     name: openmeetings-mysql-connector-java, addflavor: openmeetings }
 - { setname: mysql-fdw,                namepat: "(postgresql[0-9.-]*)-mysql-fdw", addflavor: $1 }
+- { setname: mysql-workbench,          name: [mysql-workbench-community, mysql-workbench-oss, mysqlworkbench] }
