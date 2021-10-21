@@ -70,6 +70,8 @@
 - { name: qt5-webkit,                                                ruleset: cygwin,      untrusted: true } # accused of fake 5.9.3
 - { name: qt5-webkit,                  ver: "5.9.4",                 ruleset: fedora,      incorrect: true }
 - { name: qt5-webkit,                                                ruleset: fedora,      untrusted: true } # accused of fake 5.9.4
+- { name: qt5-webkit,                  ver: "5.212.0.1+dde",         ruleset: deepin,      incorrect: true }
+- { name: qt5-webkit,                                                ruleset: deepin,      untrusted: true } # accused of fake 5.212.0.1+dde
 - { name: qtalarm,                     verpat: "[0-9]{7}.*",                               incorrect: true } # aur garbage
 - { name: qtav,                        verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware garbage
 - { name: qtemu,                       ver: "2.0",                   ruleset: sisyphus,    incorrect: true } # 2.0alpha1
