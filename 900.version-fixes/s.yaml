@@ -159,6 +159,8 @@
 - { name: smithwaterman,                                                                   noscheme: true } # https://github.com/ekg/smithwaterman/releases
 - { name: smpeg,                       verpat: "[0-9]{3}",                                 incorrect: true } # slitaz
 - { name: smpeg,                       verpat: "[0-9]+\\.[0-9]+\\.[0-9]+-[0-9]{3}",        incorrect: true } # guix
+- { name: smplayer,                    ver: "21.8.0.9999",           ruleset: mx,          incorrect: true }
+- { name: smplayer,                                                  ruleset: mx,          untrusted: true } # accused of fake 21.8.0.9999
 - { name: smplayer-skins,              verpat: "20[0-9]{6}",                               ignore: true }
 - { name: smplayer-themes,             verpat: "20[0-9]{6}",                               ignore: true }
 - { name: smplayer-themes,             verpat: "2012.*",                                   sink: true }
