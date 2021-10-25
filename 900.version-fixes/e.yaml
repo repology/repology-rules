@@ -132,6 +132,8 @@
 - { name: eventviews,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: evilvte,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: evince,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: evince,                      verpat: "[0-9]+a",                                  incorrect: true }
+- { name: evince,                                                    ruleset: solus,       untrusted: true } # accused of fake 41a
 - { name: evolution,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: evolution-data-server,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: evolution-ews,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
