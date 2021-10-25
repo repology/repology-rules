@@ -54,6 +54,8 @@
 - { name: "python:jcconv",             ver: "0.2.4",                 ruleset: fedora,      incorrect: true }
 - { name: "python:jcconv",                                           ruleset: fedora,      untrusted: true }
 - { name: "python:jinja",              verge: "2",                                         incorrect: true }
+- { name: "python:jupyter",            ver: "4.7.1",                 ruleset: void,        incorrect: true }
+- { name: "python:jupyter",                                          ruleset: void,        untrusted: true } # accused of fake 4.7.1
 - { name: "python:leveldb",            ver: "0.193",                                       sink: true }
 - { name: "python:lexicon",            verge: "3",                   ruleset: pkgsrc,      incorrect: true } # fakes py-dns-lexicon as py-lexicon
 #- { name: "python:oauth2",                                                                 p_is_patch: true } # XXX: check if really needed
