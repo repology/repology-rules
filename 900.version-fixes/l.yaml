@@ -184,8 +184,12 @@
 - { namepat: "lumina.*",               ver: "1.4.1",                 ruleset: [freebsd,ravenports], incorrect: true }
 - { namepat: "lumina.*",                                                                   p_is_patch: true }
 - { name: lumina,                      verpat: ".*p",                                      incorrect: true } # openmandriva
-- { name: lumina-calculator,           verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: lumina-pdf,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: lumina-calculator,           verpat: ".+20[0-9]{6}",                             snapshot: true }
+- { name: lumina-calculator,           ver: "1.6.1",                 ruleset: ravenports,  incorrect: true }
+- { name: lumina-calculator,                                         ruleset: ravenports,  untrusted: true } # accused of fake 1.6.1
+- { name: lumina-pdf,                  verpat: ".+20[0-9]{6}",                             snapshot: true }
+- { name: lumina-pdf,                  ver: "1.6.1",                 ruleset: ravenports,  incorrect: true }
+- { name: lumina-pdf,                                                ruleset: ravenports,  untrusted: true } # accused of fake 1.6.1
 - { name: "lv2:noise-repellent",       verpat: ".*\\.20[0-9]{6}",                          snapshot: true }
 - { name: lxdm,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: lxpanel,                     verlonger: 3,                 ruleset: slitaz,      incorrect: true }
