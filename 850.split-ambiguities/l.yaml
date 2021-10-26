@@ -133,6 +133,10 @@
 
 - { name: log4cpp, wwwpart: orocos, setname: log4cpp-orocos } # fork
 
+- { name: lok, wwwpart: dimkr, setname: lok-openbsd-awk }
+- { name: lok, wwwpart: wyhaya, setname: lok-lines-of-code }
+- { name: lok, addflag: unclassified }
+
 - { name: loki, wwwpart: c0decafe, setname: loki-packet-generation-framework }
 - { name: loki, wwwpart: grafana, setname: grafana-loki } # name already used in nix
 - { name: loki, wwwpart: loki-lib, setname: loki-lib }
