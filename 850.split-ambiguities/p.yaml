@@ -89,6 +89,10 @@
 
 - { name: "php:pam", wwwpart: amishmm, setname: "php:pam-amishmm" } # XXX: otherwise pecl
 
+# part of php or PEAR package
+- { name: "php:soap", wwwpart: pear, addflag: classified }
+- { name: "php:soap", noflag: classified, setname: php, addflavor: soap }
+
 - { name: picard, wwwpart: [picard.sourceforge.net,sourceforge.net/projects/picard,broadinstitute], setname: picard-tools } # reuse widely used name
 - { name: picard, wwwpart: brainz, setname: picard-tagger }
 - { name: picard, addflag: unclassified }
