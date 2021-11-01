@@ -26,6 +26,7 @@
 - { name: gcc-arm-none-eabi,           verpat: ".*q.*",                                    any_is_patch: true }
 - { name: gcc-arm-none-eabi,           verpat: "(.*?)[_-]?(update|major)",                 setver: $1 }
 - { name: gcc-arm-none-eabi,           verpat: "([0-9]+)[._-]([0-9]{4}).*",                sink: true } # actual scheme is AA.B(upstream version)-YYYY.MM
+- { name: gcc-arm-none-eabi,           verpat: "([0-9]+\\.[0-9]+)-([0-9]{4}).*",           ignore: false, untrusted: false }
 - { name: gccxml,                                                                          outdated: true, ignore: false, rolling: false } # superceded by castxml
 - { name: gcompris,                    verge: "11",                                        sink: true }
 - { name: gcr,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
