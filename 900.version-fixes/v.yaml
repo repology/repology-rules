@@ -32,6 +32,8 @@
 - { name: vid.stab,                    verpat: ".*[0-9a-f]{7}.*",                          ignore: true } # git commit
 - { name: vidcutter,                                                 ruleset: unitedrpms,  untrusted: true } # accused of fake 6.0.0.6
 - { name: vigra,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: vigra,                       ver: "27",                                          incorrect: true }
+- { name: vigra,                                                     ruleset: t2,          untrusted: true } # accused of fake 27
 - { name: vilistextum,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: vim,                         ver: "9999",                                        incorrect: true }
 - { name: vim-airline-themes,                                                              noscheme: true }
