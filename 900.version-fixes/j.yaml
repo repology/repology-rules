@@ -2,6 +2,8 @@
 
 - { name: j,                           ver: "808",                                         sink: true } # 808 from 2016 and 807 from oct 2018, wtf
 - { name: ja2-stracciatella,           verpat: ".*[0-9]{4}.*",                             ignore: true } # year and 8296.9202397c2 from aur
+- { name: jabref,                      verlonger: 2,                 ruleset: winget,      incorrect: true }
+- { name: jabref,                                                    ruleset: winget,      untrusted: true } # accused of fake 5.3.60000
 - { name: jade,                        verpat: "1\\.2\\.1-[0-9]{2}.*",                     ignore: true } # nix, adds debian patchlevel
 - { name: jarnal,                      verpat: "[0-9]{4}",                                 incorrect: true } # 10.78, not 1078
 - { name: java-cup,                    verpat: "[0-9]{2}.*",                               incorrect: true } # it's e.g. 0.11b
