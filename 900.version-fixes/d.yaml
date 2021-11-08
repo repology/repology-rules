@@ -134,6 +134,8 @@
 - { name: dosemu,                      verpat: "2013.*",                                   ignore: true }
 - { name: dosemu,                      verpat: "1\\.4\\.1.*",        ruleset: [sisyphus,gentoo], ignore: true }
 - { name: dotconf,                     verpat: ".*repack",                                 incorrect: true }
+- { name: double-conversion,           verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: double-conversion,                                         ruleset: freebsd,     untrusted: true } # accused of fake 3.1.5.19
 - { name: doublecmd,                                                                       devel: false } # they state all version to be beta: https://sourceforge.net/p/doublecmd/news/, this is pointless
 - { name: doublecmd,                   verpat: ".*svn.*",                                  ignore: true }
 - { name: dovecot-pigeonhole,          verpat: "2\\..*",                                   incorrect: true } # dovecot version prepended (openwrt, pld)
