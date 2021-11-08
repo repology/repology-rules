@@ -81,6 +81,7 @@
 - { name: "texlive:leaflet",           ver: "20041222",                                    sink: true }
 - { name: "texlive:mathabx",                                                               noscheme: true }
 - { name: "texlive:xetex",                                                                 noscheme: true }
+- { name: text2pdf,                    ver: "53",                                          sink: true, vulnerable: true } # unknown version, probably older than latest 1.1
 - { name: texworks,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: tg-owt,                                                                          noscheme: true } # https://github.com/desktop-app/tg_owt/tags
 - { name: theharvester,                verpat: "(2\\.7)\\.[12]",                           setver: $1 } # versions are mentioned in the changelog, but there are no tags
