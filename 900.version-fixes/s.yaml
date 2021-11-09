@@ -196,6 +196,8 @@
 - { name: spamassassin,                verpat: "([0-9]+)\\.([0-9]{3})([0-9]{3})",          setver: $1.$2.$3 } # MetaCPAN weirdness
 - { name: spamassassin,                ver: "4.0.0",                 ruleset: debian,      incorrect: true }
 - { name: spamassassin,                                              ruleset: debian,      untrusted: true } # accused of fakek 4.0.0; XXX: debian tilda
+- { name: spamd,                       ver: "20060330",                                    sink: true }
+- { name: spamd,                       ver: "4.9.1",                                       outdated: true } # openbsd 4.9 is 10 years old
 - { name: spandsp,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: sparc-utils,                 verpat: ".*-.*",                                    debianism: true } # t2
 - { name: sparse-semantic-parser,      verpat: "20[0-9]{6}",                               incorrect: true }
