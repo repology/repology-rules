@@ -194,6 +194,8 @@
 - { name: commandergenius,             verpat: ".*[0-9]{4}.*",                             ignore: true } # nixpkgs weirdness
 - { name: compiz,                      verpat: ".*ubuntu.*",                               incorrect: true }
 - { name: compizconfig-python,         ver: "0.9.5.94",                                    sink: true } # some antient garbage from ubuntu 12
+- { name: compsize,                    ver: "5.14",                  ruleset: t2,          incorrect: true }
+- { name: compsize,                                                  ruleset: t2,          untrusted: true } # accused of fake 5.14 (package page is blank, no way to check what this is)
 - { name: compton,                                                                         noscheme: true } # some antient garbage from ubuntu 12
 - { name: confetti,                                                                        noscheme: true } # https://github.com/mailru/confetti/releases
 - { name: conmon,                                                    ruleset: [sisyphus,fedora], untrusted: true } # accused of fake 2.0.4, 2.1
