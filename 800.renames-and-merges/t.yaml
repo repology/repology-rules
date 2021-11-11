@@ -33,6 +33,7 @@
 - { setname: tdlib,                    name: libtd }
 - { setname: tds-fdw,                  namepat: "(postgresql[0-9.-]*)-tds-fdw", addflavor: $1 }
 - { setname: tea,                      name: [teaqt, tea-qt] }
+- { setname: tealdeer,                 name: "rust:tealdeer" }
 - { setname: teamcity,                 name: [teamcity-openjdk8,teamcity-preinstalledjre], addflavor: true }
 - { setname: teamocil,                 name: "ruby:teamocil" }
 - { setname: teamviewer,               namepat: "teamviewer[0-9.-]+" }
