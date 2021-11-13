@@ -239,6 +239,7 @@
 - { name: prboom-plus,                 verlonger: 4,                                       incorrect: true } # gentoo, fake 2.5.1.5.4540.1
 - { name: prboom-plus,                 verpat: "2\\.5\\.1\\.7.*",    ruleset: slackbuilds, incorrect: true }
 - { name: prboom-plus,                                               ruleset: slackbuilds, untrusted: true } # accused of fkae 2.5.1.7um
+- { name: prboom-plus,                 verpat: "(.*)um",                                   setver: $1 }
 - { name: prelink,                     ver: "20151030",              ruleset: gentoo,      incorrect: true }
 - { name: prelink,                                                   ruleset: gentoo,      untrusted: true }
 - { name: premake,                     verpat: ".*[ab].*",                                 devel: true }
