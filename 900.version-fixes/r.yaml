@@ -117,6 +117,7 @@
 - { namepat: "ruby:.*",                                              ruleset: sisyphus,    untrusted: true } # massive fake versions
 - { name: "ruby:fakeweb",              verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "ruby:io-like",              verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: "ruby:mysql2",               verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "ruby:narray",               wwwpart: numo,                                      incorrect: true } # numo-narray, not narray XXX problem
 - { name: run-scaled,                                                                      noscheme: true }
 - { name: runc,                        verpat: "[0-9a-f]{7}",                              ignore: true }
