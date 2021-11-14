@@ -30,6 +30,8 @@
 - { name: libart-lgpl,                 ver: "14.0.4",                                      incorrect: true }
 - { name: libart-lgpl,                                               ruleset: aosc,        untrusted: true }
 - { name: libasr,                      verpat: "[0-9]{8}.*",                               ignore: true } # guix crap
+- { name: libatomic-ops,               ver: "7.7.0",                 ruleset: vcpkg,       incorrect: true }
+- { name: libatomic-ops,                                             ruleset: vcpkg,       untrusted: true } # accused of fake 7.7.0
 - { name: libaudclient,                ver: "3.5",                   ruleset: pld,         incorrect: true }
 - { name: libaudclient,                                              ruleset: pld,         untrusted: true }
 - { name: libb2,                       verpat: "20[0-9]{6}",                               snapshot: true }
