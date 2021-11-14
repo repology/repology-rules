@@ -308,9 +308,10 @@
 - { setname: python,                   name: python-exp } # scoop
 - { setname: python,                   namepat: "python[0-9.-]+" }
 - { setname: python,                   name: "python:sqlite3", addflavor: true } # part of; split into separate package in FreeBSD, ravenports and pkgsrc
+- { setname: python,                   name: cpython }
 - { setname: python,                   name: python-legacy }
 - { setname: python,                   name: [python3-minimal], addflavor: minimal }
-- { setname: python,                   name: [python-debug,python-base], addflavor: true }
+- { setname: python,                   name: [python-debug,python-base,python-llvm,platform-python], addflavor: true }
 - { setname: python,                   name: [python27-beta,python-alpha,python-beta], weak_devel: true, nolegacy: true }
 - { setname: python-caja,              name: ["python:caja", "python:python-caja", caja-python] } # not really a pypi packages, so rename according to upstream
 - { setname: python-caja,              name: "python:caja-dev", weak_devel: true, nolegacy: true }
