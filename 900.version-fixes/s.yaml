@@ -285,6 +285,8 @@
 - { name: stp,                         verpat: "201[56].*",                                sink: true }
 - { name: strace,                      verpat: ".*ab.*",             ruleset: [fedora,sisyphus], incorrect: true }
 - { name: strace,                                                    ruleset: [fedora,sisyphus], untrusted: true } # accused of fake 5.7.0.6.7ab6
+- { name: strawberryperl,              ver: "5.32.1001",                                   incorrect: true }
+- { name: strawberryperl,                                            ruleset: winget,      untrusted: true } # accused of fake 5.32.1001
 - { name: strongswan,                  verpat: ".*dr.*",                                   devel: true }
 - { name: stunnel,                     verpat: ".*b.*",                                    devel: true }
 - { name: sublime-text,                verpat: "[0-9]{4}",                                 altscheme: true } # builds
