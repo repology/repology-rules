@@ -21,6 +21,7 @@
 - { name: paper-icon-theme,            verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: papirus-libreoffice-theme,   ver: "20170914",                                    incorrect: true } # that version was never tagged
 - { name: papirus-libreoffice-theme,                                 ruleset: aosc,        untrusted: true } # accused of fake 20170914
+- { name: parallel,                    verpat: "20[0-9]{6}",                               devel: false } # official version scheme is YYYYMMDD; some release announcements have a vague comment "No new functionality was introduced so this is a good candidate for a stable release.", which are supposednly a base for wikidata "stable" status. Regardless, consider all releases stable.
 - { name: parley,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: parole,                      ver: ["1.90","1.91","1.96"],                        sink: true } # probably mistyped tags from 2009
 - { name: parted,                      verlonger: 2,                                       devel: true } # assumed; inconsistent tagging, see https://git.savannah.gnu.org/gitweb/?p=parted.git
