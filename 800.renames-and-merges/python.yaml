@@ -55,6 +55,7 @@
 - { setname: "python:cython",          name: [cython,cython3] }
 - { setname: "python:cython",          name: pypy-cython, addflavor: pypy }
 - { setname: "python:cython",          name: "python:cython-doc", addflavor: doc }
+- { setname: "python:cython",          name: "python:cython-devel", weak_devel: true, nolegacy: true }
 - { setname: "python:darts.util.lru",  name: darts.util.lru } # XXX: make upstream use prefix
 - { setname: "python:dbus-python",     name: ["python:dbus","python:dbus-common"] } # as per PyPi
 - { setname: "python:dbus-python",     name: [dbus-python-common,pydbus-common] }
