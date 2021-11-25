@@ -61,6 +61,8 @@
 - { name: genfit,                                                                          noscheme: true }
 - { name: geocode-glib,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: geos,                        ver: "3.9.0",                 ruleset: [debuntu,gentoo,fedora], ignore: true } # refer to non-existing tarball, maybe it was recalled
+- { name: gerbv,                       ver: "2.8.0",                 ruleset: debuntu,     incorrect: true }
+- { name: gerbv,                                                     ruleset: debuntu,     untrusted: true } # accused of fake 2.8.0
 - { name: getdns,                                                    ruleset: fedora,      untrusted: true } # accused of fake 1.5.2
 - { name: gettext,                     ver: "2",                                           ignore: true } # libintl from LEDE
 - { name: gettext,                     ver: "2.2",                                         ignore: true } # pkgsrc po-mode, own version?
