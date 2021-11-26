@@ -51,7 +51,7 @@
 - { setname: netsurf,                  name: netsurf-browser }
 - { setname: netsurf,                  name: [netsurf-fb,netsurf-sdl], addflavor: true }
 - { setname: nettle,                   name: [libnettle,nettle4] }
-- { setname: network-manager-applet,   name: network-manager-applet-gtk2, addflavor: gtk2 }
+- { setname: network-manager-applet,   name: [network-manager-applet-gtk2, network-manager-applet-nolibappindicator], addflavor: true }
 - { setname: network-manager-applet,   name: network-manager-applet-indicator, addflavor: indicator }
 - { setname: network-manager-applet,   name: network-manager-applet-passwordstore, addflavor: passwordstore }
 - { setname: network-manager-applet,   name: [networkmanager-applet, nm-applet] }
