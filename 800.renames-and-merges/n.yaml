@@ -54,7 +54,7 @@
 - { setname: network-manager-applet,   name: network-manager-applet-gtk2, addflavor: gtk2 }
 - { setname: network-manager-applet,   name: network-manager-applet-indicator, addflavor: indicator }
 - { setname: network-manager-applet,   name: network-manager-applet-passwordstore, addflavor: passwordstore }
-- { setname: network-manager-applet,   name: networkmanager-applet }
+- { setname: network-manager-applet,   name: [networkmanager-applet, nm-applet] }
 - { setname: network-manager-applet,   name: networkmanager-applet-gtk, addflavor: gtk }
 - { setname: networkmanager,           name: network-manager }
 - { setname: networkmanager,           name: networkmanager-elogind, addflavor: elogind }
