@@ -70,6 +70,8 @@
 - { setname: insighttoolkit,           namepat: "insight-?toolkit[0-9]*" }
 - { setname: intel-compute-runtime,    name: compute-runtime }
 - { setname: intel-compute-runtime,    name: intel-neo, addflavor: neo }
+- { setname: intel-compute-runtime,    namepat: "intel-compute-runtime(-llvm[0-9]+)", addflavor: $1 }
+- { setname: intel-graphics-compiler,  namepat: "intel-compute-runtime(-llvm[0-9]+)", addflavor: $1 }
 - { setname: intel-hybrid-driver,      name: [libva-intel-driver-hybrid,libva-intel-hybrid-driver,libva-driver-intel-hybrid, intel-hybrid-codec-driver] }
 - { setname: intel-media-driver,       name: intel-media-driver-non-free, addflavor: true }
 - { setname: intel-media-driver,       name: libva-intel-media-driver }
