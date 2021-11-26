@@ -64,6 +64,8 @@
 - { name: networkmanager-fortisslvpn,  verpat: "[0-9]+\\.[0-9]+\\.[0-9]*[13579]([^0-9].*)?", devel: true }
 - { name: networkmanager-iodine,       ver: "1.2.1",                 ruleset: sisyphus,    incorrect: true }
 - { name: networkmanager-iodine,                                     ruleset: sisyphus,    untrusted: true } # accused of fake 1.2.1
+- { name: networkmanager-openconnect,  verpat: ".+20[0-9]{6}",                             snapshot: true }
+- { name: networkmanager-pptp,         verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: networkmanager-wireguard,                                                        noscheme: true }
 - { name: neverball,                   verpat: ".*20[0-9]{6}",                             snapshot: true } # haiku
 - { name: newlib,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
