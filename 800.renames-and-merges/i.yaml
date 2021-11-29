@@ -68,7 +68,7 @@
 - { setname: innosetup,                name: inno-setup }
 - { setname: inotify-tools,            name: inotify-tools-inc, addflavor: inc }
 - { setname: insighttoolkit,           namepat: "insight-?toolkit[0-9]*" }
-- { setname: intel-compute-runtime,    name: compute-runtime }
+- { setname: intel-compute-runtime,    name: [compute-runtime, intel-opencl] }
 - { setname: intel-compute-runtime,    name: intel-neo, addflavor: neo }
 - { setname: intel-compute-runtime,    namepat: "intel-compute-runtime(-llvm[0-9]+)", addflavor: $1 }
 - { setname: intel-graphics-compiler,  namepat: "intel-graphics-compiler(-llvm[0-9]+)", addflavor: $1 }
