@@ -105,6 +105,8 @@
 - { name: xmove,                       ver: "2.0",                   ruleset: sisyphus,    incorrect: true } # it's 2.0beta2
 - { name: xmove,                                                     ruleset: sisyphus,    untrusted: true } # accused of fake 2.0
 - { name: xmp,                                                       ruleset: os4depot,    incorrect: true }
+- { name: xmp,                         ver: "6.1.7.810",             ruleset: rosa,        incorrect: true }
+- { name: xmp,                                                       ruleset: rosa,        untrusted: true } # accused of fake 6.1.7.810
 - { name: xmrig,                       ver: "2.6.0",                 ruleset: [sisyphus,aur], incorrect: true } # beta3
 - { name: xmrig,                                                     ruleset: [sisyphus,aur], untrusted: true } # accused of fake 2.6.0
 - { name: xmris,                       ver: "4.05",                                        incorrect: true } # 4.0.5
