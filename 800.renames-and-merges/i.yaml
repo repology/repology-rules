@@ -74,7 +74,7 @@
 - { setname: intel-graphics-compiler,  namepat: "intel-graphics-compiler(-llvm[0-9]+)", addflavor: $1 }
 - { setname: intel-hybrid-driver,      name: [libva-intel-driver-hybrid,libva-intel-hybrid-driver,libva-driver-intel-hybrid, intel-hybrid-codec-driver] }
 - { setname: intel-media-driver,       name: intel-media-driver-non-free, addflavor: true }
-- { setname: intel-media-driver,       name: libva-intel-media-driver }
+- { setname: intel-media-driver,       name: [libva-intel-media-driver, intel-media, media-driver] }
 - { setname: intel-media-sdk,          name: [intel-mediasdk, intel-media-stack] }
 - { setname: intel-microcode,          name: [microcode-intel,microcode-data-intel,intel-microcode-netbsd,intel-ucode,ucode-intel,intel-firmware,firmware-intel-ucode] }
 - { setname: intel-microcode,          name: microcode, ruleset: [mageia,rosa] } # limit family for safely
