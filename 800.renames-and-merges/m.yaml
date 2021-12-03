@@ -100,6 +100,7 @@
 - { setname: matrix-synapse,           name: "python:matrix-synapse" }
 - { setname: mattermost,               name: [mattermost-server, mattermost-webapp], addflavor: true }
 - { setname: mattermost-desktop,       name: mattermostdesktop }
+- { setname: maturin,                  name: ["python:maturin", "rust:maturin"] }
 - { setname: maven,                    name: apache-maven }
 - { setname: maven,                    name: [apache-maven-bin,maven-bin], addflavor: bin }
 - { setname: maven,                    namepat: "maven[0-9]+(-core)?", addflavor: $1 }
