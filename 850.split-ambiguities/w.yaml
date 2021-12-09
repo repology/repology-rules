@@ -17,6 +17,10 @@
 - { name: websocket, category: app-emacs, setname: emacs-$0 }
 - { name: websocket, category: dev-go, setname: "go:websocket" }
 
+- { name: when, wwwpart: mitsuhiko, setname: when-timezones }
+- { name: when, wwwpart: [bcrowell,lightandmatter], setname: when-calendar }
+- { name: when, addflag: unclassified }
+
 - { name: whereami, wwwpart: gpakosz, setname: whereami-gpakosz } # Locate the current executable and the current module/library on the file system
 - { name: whereami, wwwpart: kootenpv, setname: whereami-kootenpv } # Uses WiFi signals and machine learning to predict where you are
 - { name: whereami, wwwpart: pjp, setname: whereami-pjp } # displays information about machine(location) you are working on
