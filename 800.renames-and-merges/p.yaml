@@ -251,6 +251,7 @@
 - { setname: proofgeneral,             name: ["emacs:proofgeneral", emacs-common-proofgeneral] }
 - { setname: proot,                    name: proot-static, addflavor: true }
 - { setname: proot,                    namepat: "proot[0-9.-]+" }
+- { setname: propellor,                name: "haskell:propellor" }
 - { setname: protobuf,                 namepat: "(lib)?protobuf(?:cpp|compat|[0-9.-])*", addflavor: $1 }
 - { setname: protobuf,                 name: [protobuf-java,protobuf3-java], addflavor: java }
 - { setname: protobuf,                 name: [protoc, protobuf-static], addflavor: true }
