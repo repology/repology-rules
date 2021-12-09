@@ -60,6 +60,7 @@
 - { setname: quiterss,                 name: quiterss-qt4, addflavor: true }
 - { setname: quota,                    name: quota-tools }
 - { setname: qwt,                      namepat: "(?:lib)?qwt[0-9.-]*(-qt[0-9]+)?", addflavor: $1 }
+- { setname: qwtplot3d,                name: [libqwtplot3d, libqwtplot3d-qt5, qwtplot3d-qt5] }
 - { setname: qwtpolar,                 name: qwtpolar-qt4, addflavor: qt4 }
 - { setname: qwtpolar,                 name: qwtpolar-qt5, addflavor: qt5 }
 - { setname: qxmpp,                    name: [libqxmpp,libqxmpp-qt5,qxmpp-qt5,qxmpp-qt4], addflavor: true }
