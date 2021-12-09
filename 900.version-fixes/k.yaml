@@ -276,7 +276,7 @@
 - { name: ktp-kded-module,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ktp-send-file,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ktp-text-ui,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: ktsuss,                      verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: ktsuss,                      verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: ktuberling,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kturtle,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kubernetes,                  verpat: ".+20[0-9]{6}",                             snapshot: true }
@@ -287,7 +287,7 @@
 - { name: kvirc,                                                     ruleset: [mageia,openmandriva], untrusted: true } # accused of fake 5.0.0
 - { name: kvirc,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: kvirc,                                                     ruleset: freebsd,     untrusted: true } # accused of fake 5.0.0.73
-- { name: kvirc,                       verpat: "20[0-9]{6}.*",                             snapshot: true }
+- { name: kvirc,                       verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: kvirustotal,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: kvmtool,                                                                         noscheme: true }
 - { name: kwallet-pam,                 verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
