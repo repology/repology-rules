@@ -79,4 +79,5 @@
 - { setname: uucp,                     name: taylor-uucp }
 - { setname: uwm-ude,                  name: ude } # technically it's named uwm; see also rule in 850
 - { setname: uwsgi,                    name: "python:uwsgi" }
+- { setname: uwsgi,                    name: [uwsgi-plugin-php53,uwsgi-plugin-php56,uwsgi-plugin-php71,uwsgi-plugin-rack22], addflavor: true } # these come from uwsgi itself
 - { setname: uwsgitop,                 name: "python:uwsgitop" }
