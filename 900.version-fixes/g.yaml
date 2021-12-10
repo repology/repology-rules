@@ -218,6 +218,7 @@
 - { name: gnome-weather,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: "gnome:openweather",         verpat: "[0-9]{3}.*",                               incorrect: true }
 - { name: "gnome:openweather",                                       ruleset: nix,         untrusted: true } # accused of fake 106
+- { name: "gnome:openweather",         verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: "gnome:pixel-saver",         verpat: "[0-9]+",                                   incorrect: true } # 1.24, not 24
 - { name: "gnome:pixel-saver",                                       ruleset: nix,         untrusted: true } # accused of fake 24
 - { name: gnote,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
