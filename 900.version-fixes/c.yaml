@@ -32,6 +32,8 @@
 - { name: candy-icons,                                                                     noscheme: true }
 - { name: canna,                                                                           p_is_patch: true }
 - { name: cantor,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: cantor,                      ver: "21.12.0a",              ruleset: debuntu,     incorrect: true }
+- { name: cantor,                                                    ruleset: debuntu,     untrusted: true } # accused of fake 21.12.0a
 - { name: capstone,                    verpat: ".*20[0-9]{6}",                             snapshot: true } # pentoo
 - { name: capstone,                    ver: "4.0",                   ruleset: freebsd,     incorrect: true }
 - { name: caret-editor,                ver: "4.0",                   ruleset: winget,      incorrect: true } # 4.0.0-rc23
