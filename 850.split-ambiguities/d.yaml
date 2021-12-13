@@ -175,6 +175,10 @@
 - { name: drive, ruleset: solus, setname: drive-google-drive-cli }
 - { name: drive, addflag: unclassified }
 
+- { name: druid, wwwpart: apache, setname: apache-druid }
+- { name: druid, wwwpart: alibaba, setname: druid-alibaba }
+- { name: druid, addflag: unclassified }
+
 - { name: dsp, wwwpart: bmc0, setname: dsp-audio-processing }
 - { name: dsp, wwwpart: dns, setname: dsp-dns-statistics }
 - { name: dsp, wwwpart: dsp-emulator, setname: dsp-emulator }
