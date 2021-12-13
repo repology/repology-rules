@@ -90,6 +90,7 @@
 - { setname: nginx,                    name: nginx-mainline-openssl-weak, addflavor: openssl-weak }
 - { setname: nginx,                    name: [nginx-rtmp,nginx-lite,nginx-extras], addflavor: true }
 - { setname: ngircd,                   name: ngircd-pam, addflavor: true }
+- { setname: ngs,                      name: [ngs-lang, ngslang, java-ngs, ngs-python, ngs-sdk] } # two projects, split in 850
 - { setname: ngspice,                  name: [libngspice,ng-spice,ngspice-docs,ngspice-rework,ngspice-shared], addflavor: true }
 - { setname: nheko,                    name: nheko-reborn }
 - { setname: nicotine+,                name: [nicotine,nicotine-plus] }
