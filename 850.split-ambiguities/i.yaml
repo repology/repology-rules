@@ -1,8 +1,9 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
-# competing outdated forks
-- { name: i7z, wwwpart: dimitryandric, setname: i7z-dimitryandric }
-- { name: i7z, wwwpart: afontenot, setname: i7z-afontenot }
+- { name: i7z, wwwpart: dimitryandric, setname: i7z-dimitryandric } # \ competing
+- { name: i7z, wwwpart: afontenot, setname: i7z-afontenot }         # / outdated forks
+- { name: i7z, wwwpart: [ajaiantilal, code.google.com], setname: i7z-ajaiantilal }
+- { name: i7z, addflag: unclassified }
 
 - { name: idea, wwwpart: de-moliner.ch, setname: idea-crypt }
 - { name: idea, wwwpart: jetbrains, setname: intellij-idea-community }
