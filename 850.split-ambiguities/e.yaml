@@ -77,9 +77,9 @@
 - { name: ember, wwwpart: sst, setname: ember-element-library }
 - { name: ember, addflag: unclassified }
 
-- { name: emma,                        setname: emma-coverage, ruleset: [sisyphus, fedora, gentoo, mageia, rosa, nix] }
-- { name: emma,                        setname: emma-mysql, ruleset: [arch, freebsd, debuntu] }
-- { name: emma,                        addflag: unclassified }
+- { name: emma, wwwpart: sourceforge, setname: emma-coverage }
+- { name: emma, wwwpart: [seeschloss,koter85,clayadavis], setname: emma-mysql }
+- { name: emma, addflag: unclassified }
 
 - { name: empire, wwwpart: vms-empire, setname: vms-empire }
 - { name: empire, wwwpart: wolfpack, setname: wolfpack }
@@ -113,8 +113,7 @@
 - { name: epsilon, addflag: unclassified }
 
 - { name: erc, wwwpart: gnu.org, setname: "emacs:erc" }
-- { name: erc, ruleset: sisyphus, setname: erc-universal-archive-tool }
-- { name: erc, ruleset: debuntu, setname: "emacs:erc" }
+- { name: erc, wwwpart: etersoft, setname: erc-universal-archive-tool }
 - { name: erc, addflag: unclassified }
 
 - { name: esh, wwwpart: jirutka, setname: esh-shell-template-engine }

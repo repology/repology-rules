@@ -65,12 +65,7 @@
 
 - { name: ale, wwwpart: aleditor, setname: aleditor }
 - { name: ale, wwwpart: sc932, setname: ale-assemby-likelihood-estimator }
-- { name: ale, wwwpart: auricle, setname: ale-anti-lamenessing-engine }
-- { name: ale, wwwpart: repo.or.cz/ale, setname: ale-image-processor }
-- { name: ale, summpart: lameness, setname: ale-anti-lamenessing-engine }
-- { name: ale, ruleset: sisyphus, setname: ale-anti-lamenessing-engine }
-- { name: ale, wwwpart: aleditor, setname: aleditor }
-- { name: ale, ruleset: os4depot, setname: ale-image-processor }
+- { name: ale, wwwpart: [auricle,repo.or.cz/ale,repo.or.cz/w/ale], setname: ale-anti-lamenessing-engine }
 - { name: ale, addflag: unclassified }
 
 - { name: alexandria, wwwpart: lisp, setname: cl-alexandria }
@@ -206,10 +201,9 @@
 - { name: atom, wwwpart: bayofrum, setname: atom-converter } # "Converts text files to html with special attributes"
 # otherwise bloatware text editor
 
-- { name: astra, wwwpart: inoriy, setname: astra-inoriy } # upstream dead, no idea what this is
 - { name: astra, wwwpart: flipkart-incubator, setname: astra-pentest }
-- { name: astra, category: multimedia, setname: astra-iptv }
-- { name: astra, ruleset: sisyphus, setname: astra-iptv }
+- { name: astra, wwwpart: cesbo, setname: astra-iptv }
+- { name: astra, wwwpart: mpyflo, setname: astra-space-charge-tracking }
 - { name: astra, addflag: unclassified }
 
 - { name: astral, wwwpart: pypi.python.org/pypi/astral, setname: "python:astral" }

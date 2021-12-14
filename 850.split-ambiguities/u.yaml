@@ -12,8 +12,6 @@
 # emulator vs. ruby-rack http server
 - { name: unicorn, wwwpart: unicorn-engine, setname: unicorn-engine }
 - { name: unicorn, wwwpart: bogomips.org, setname: "ruby:unicorn" }
-- { name: unicorn, ruleset: sisyphus, setname: "ruby:unicorn" }
-- { name: unicorn, ruleset: [gentoo], setname: unicorn-engine }
 - { name: unicorn, addflag: unclassified }
 
 - { name: unique, wwwpart: [ebassi,libunique], setname: libunique }

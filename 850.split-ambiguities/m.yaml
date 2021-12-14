@@ -144,7 +144,6 @@
 
 - { name: minlog, wwwpart: [minlog-system,mathematik], setname: minlog-proof-system }
 - { name: minlog, wwwpart: esotericsoftware, setname: "java:minlog" }
-- { name: minlog, ruleset: sisyphus, setname: "java:minlog" }
 - { name: minlog, addflag: unclassified }
 
 - { name: mint, wwwpart: mint-lang, setname: mint-lang }
@@ -176,7 +175,7 @@
 - { name: monero, addflag: unclassified }
 
 - { name: mongo, wwwpart: namesys, setname: mongo-fs-load-tester }
-- { name: mongo, ruleset: sisyphus, setname: mongodb }
+- { name: mongo, wwwpart: mongodb, setname: mongodb }
 - { name: mongo, addflag: unclassified }
 
 - { name: mongoose, wwwpart: [cesanta, code.google.com/p/mongoose], setname: mongoose-web-server }
@@ -200,8 +199,6 @@
 - { name: mtree, wwwpart: deis.unibo.it, setname: m-tree }
 - { name: mtree, wwwpart: archiecobbs, setname: mtree-port }
 - { name: mtree, wwwpart: netbsd, setname: mtree-netbsd }
-- { name: mtree, ruleset: ravenports, setname: mtree-dragonfly }
-- { name: mtree, ruleset: sisyphus, setname: mtree-sisyphus } # source unknown, lazy to investigate
 - { name: mtree, addflag: unclassified }
 
 - { name: mustache, category: [Development/Ruby, ruby], setname: "ruby:mustache" }

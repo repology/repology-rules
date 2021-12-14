@@ -58,7 +58,9 @@
 - { name: pass, ruleset: [aosc,pclinuxos], setname: password-store }
 - { name: pass, addflag: unclassified }
 
-- { name: passwd, ruleset: sisyphus, setname: passswd-alt }
+- { name: passwd, wwwpart: [fedora,pagure], setname: passwd-redhat }
+- { name: passwd, wwwpart: altlinux, setname: passwd-alt }
+- { name: passwd, addflag: unclassified }
 
 - { name: pcl, summpart: coroutine, setname: pcl-coroutines }
 - { name: pcl, wwwpart: xmailserver, setname: pcl-coroutines }
@@ -251,8 +253,7 @@
 - { name: pulseaudio-equalizer, wwwpart: freedesktop.org/wiki/Software/PulseAudio, setname: pulseaudio, addflavor: equalizer }
 
 - { name: puma, wwwpart: clawoflight, setname: puma-password-manager }
-- { name: puma, wwwpart: puma.io, setname: "ruby:puma" }
-- { name: puma, ruleset: sisyphus, setname: "ruby:puma" }
+- { name: puma, wwwpart: [puma.io,github.com/puma/puma], setname: "ruby:puma" }
 - { name: puma, addflag: unclassified }
 
 - { name: pwm, wwwpart: pwm-project, setname: pwm-password-self-service }

@@ -6,9 +6,7 @@
 - { name: babel, wwwpart: babeljs, setname: babel.js }
 - { name: babel, wwwpart: [smog,chem], setname: babel-chem }
 - { name: babel, wwwpart: [llnl], setname: babel-llnl }
-- { name: babel, category: dev-lisp, setname: babel-lisp }
-- { name: babel, ruleset: sisyphus, setname: babel-llnl }
-- { name: babel, ruleset: aur, setname: babel-quytelda }
+- { name: babel, wwwpart: [lisp], setname: cl-babel }
 - { name: babel, addflag: unclassified }
 
 - { name: backbone, wwwpart: [backbonejs,documentcloud.github.com/backbone], setname: "js:backbone" }
@@ -155,7 +153,6 @@
 - { name: borg, wwwpart: borg-calendar,                   setname: borg-calendar }
 - { name: borg, wwwpart: ok-borg,                         setname: ok-borg }
 - { name: borg, wwwpart: borgbackup,                      setname: borgbackup }
-- { name: borg, ruleset: [sisyphus,solus],                setname: borgbackup }
 - { name: borg, addflag: unclassified }
 
 - { name: bos, wwwpart: boswars,                          setname: boswars }

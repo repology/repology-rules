@@ -42,11 +42,11 @@
 - { name: gerbil, wwwpart: gerbilvis, setname: gerbilvis }
 - { name: gerbil, addflag: unclassified }
 
-- { name: getopt, ruleset: openwrt, setname: util-linux }
-- { name: getopt, ruleset: sisyphus, setname: "java:getopt" }
 - { name: getopt, wwwpart: urbanophile.com, setname: "java:getopt" }
 - { name: getopt, wwwpart: util-linux, setname: util-linux }
 - { name: getopt, wwwpart: ossp, setname: ossp-getopt }
+- { name: getopt, wwwpart: looijaard, setname: getopt-standalone } # actual version included into util-linux
+- { name: getopt, addflag: unclassified }
 
 - { name: gf, wwwpart: gamedevframework, setname: gamedev-framework }
 - { name: gf, wwwpart: grammaticalframework, setname: grammatical-framework }
@@ -89,7 +89,8 @@
 - { name: glance, addflag: unclassified }
 
 - { name: gle, wwwpart: [gle-graphics,glx.sourceforge.net,glx.sf.net], setname: gle-graphics }
-- { name: gle, ruleset: sisyphus, noflag: libgle, setname: gle-graphics }
+- { name: gle, wwwpart: [linas,sourceforge.net/projects/gle], setname: gle-tubing-and-extrusion }
+- { name: gle, addflag: unclassified }
 
 - { name: glide, wwwpart: glide.sf.net, setname: glide-3dfx }
 - { name: glide, setname: "go:glide" }

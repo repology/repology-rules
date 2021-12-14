@@ -162,9 +162,8 @@
 - { setname: glassfish,                name: [eclipse-glassfish5,eclipse-glassfish,glassfish5,glassfishv3] }
 - { setname: glaurung,                 name: [glaurung121,glaurung22] }
 - { setname: glc-lib,                  name: glclib }
-- { setname: gle,                      name: libgle, addflag: libgle } # gle is ambiguous, split in 850
-- { setname: gle,                      name: gle-te } # gle is ambiguous, split in 850
-- { setname: gle,                      name: [qgle,gle-doc], addflavor: true } # gle is ambiguous, split in 850
+- { setname: gle,                      name: [libgle,gle-te] } # multiple projects, split in 850
+- { setname: gle,                      name: [qgle,gle-doc], addflavor: true }
 - { setname: glew,                     namepat: "(?:compat-)?(?:lib)?glew[0-9.-]*" }
 - { setname: glew,                     name: glew-wayland, addflavor: true }
 - { setname: glfw,                     name: [glfw-doc,glfw-wayland,glfw-x11] }
