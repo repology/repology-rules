@@ -267,7 +267,7 @@
 - { name: cram, wwwpart: bitheap, setname: "python:cram" }
 - { name: cram, addflag: unclassified }
 
-- { name: crash, wwwpart: redhat, setname: crash-redhat }
+- { name: crash, wwwpart: [redhat,crash-utility], setname: crash-redhat }
 - { name: crash, wwwpart: crashub, setname: crash-java }
 - { name: crash, addflag: unclassified }
 
