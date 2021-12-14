@@ -35,7 +35,6 @@
 
 - { name: deco, wwwpart: ebzzry, setname: deco-root-image-setter }
 - { name: deco, wwwpart: [peha,hartlich,extract], setname: deco-extractor }
-- { name: deco, summpart: demos, setname: demos-commander }
 - { name: deco, addflag: unclassified }
 
 - { name: delta, wwwpart: tigris, setname: delta-file-minimizer }
@@ -50,7 +49,7 @@
 - { name: detex, vergt: "2.8", setname: opendetex } # continuation; XXX: problem
 
 - { name: dex, wwwpart: tihirvon, setname: dex-editor }
-- { name: dex, wwwpart: jceb, setname: dex-autostart }
+- { name: dex, wwwpart: [jceb,e-jc], setname: dex-autostart }
 - { name: dex, wwwpart: coreos, setname: dex-coreos }
 - { name: dex, wwwpart: dexidp, setname: dex-oidc }
 - { name: dex, wwwpart: samsung, setname: dex-samsung }
