@@ -309,6 +309,7 @@
 - { setname: libx11,                   name: libx11-nokeyboardgrab }
 - { setname: libxaw3dxft,              name: xaw3dxft }
 - { setname: libxcb,                   name: [libx32-libxcb,xorg-libxcb,compat-libxcb] }
+- { setname: libxcrypt,                name: [libxcrypt-compat, libxcrypt2.4] }
 - { setname: libxfont,                 name: [libxfont,libxfont1,libxfont2,xorg-libxfont,xorg-libxfont2,xorg-xfont,xorg-xfont2] }
 - { setname: libxfce4util,             name: libxfce4util-devel, weak_devel: true, nolegacy: true }
 - { setname: libxfce4util,             name: libxfce4util-gtk3, addflavor: gtk3 }
