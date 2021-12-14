@@ -3,9 +3,9 @@
 - { name: i3blocks,                    ver: "1.4.93",                ruleset: freebsd,     incorrect: true }
 - { name: i3blocks,                                                  ruleset: freebsd,     untrusted: true } # accused of fake 1.4.93
 - { name: i3lock-color,                verpat: "(.*?)[._-]?c",                             setver: $1 } # useless appendage, used inconsistently
-- { name: i7z,                         verpat: "93.*",                                     incorrect: true }
-- { name: i7z,                         verlonger: 3,                 ruleset: arch,        incorrect: true } # 0.27.2.git1 @ Arch
-- { name: i7z,                         verpat: "20[0-9]{6}",                               incorrect: true } # aosc snapshot
+- { namepat: "i7z(-.*)?",              verpat: "93.*",                                     incorrect: true }
+- { namepat: "i7z(-.*)?",              verpat: "20[0-9]{6}",                               incorrect: true } # aosc snapshot
+- { name: i7z-afontenot,               verpat: "0.27.2.*",                                 incorrect: true } # there's only 0.28 tag for this fork
 - { name: iagno,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: iannix,                      ver: "0.9.20b",                                     setver: "0.9.20" } # ambiguous release https://github.com/buzzinglight/IanniX/releases
 - { name: ibmtss,                      verpat: "[0-9]+",                                   sink: true } # older scheme https://sourceforge.net/projects/ibmtpm20tss/files/
