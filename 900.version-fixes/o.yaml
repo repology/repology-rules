@@ -91,6 +91,7 @@
 - { name: openntpd,                    ver: "20080406p",                                   snapshot: true }
 - { name: openntpd,                                                                        p_is_patch: true }
 - { name: openocd,                     verpat: "20[0-9]{6}",                               incorrect: true } # scoop
+- { name: openoffice,                  verpat: "([0-9]+\\.){2}[0-9]{3}.*",                 incorrect: true }
 - { name: openomf,                     ver: "0.6.5.2",               ruleset: openbsd,     incorrect: true } # latest is 0.6.5
 - { name: openomf,                                                   ruleset: openbsd,     untrusted: true } # accused of fake 0.6.5.2
 - { name: openpam,                                                   ruleset: openbsd,     incorrect: true } # not openpam at all
