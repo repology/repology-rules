@@ -27,8 +27,9 @@
 
 - { name: hermes, wwwpart: hermes-project.com, setname: hermes-proxy }
 - { name: hermes, wwwpart: ralt/hermes, setname: hermes-auth }
-- { name: hermes, wwwpart: [clanlib,scene.org], setname: hermes-pixel-format-library }
+- { name: hermes, wwwpart: [clanlib,scene.org,pixel-format], setname: hermes-pixel-format-library }
 - { name: hermes, wwwpart: tacc, setname: hermes-testing-manager }
+- { name: hermes, wwwpart: [informal.systems], setname: "rust:ibc" }
 - { name: hermes, addflag: unclassified }
 
 - { name: hermit, wwwpart: cashapp, setname: hermit-tooling }
