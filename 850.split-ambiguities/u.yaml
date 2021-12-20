@@ -7,7 +7,8 @@
 - { name: uclibc, wwwpart: uclibc-ng, setname: uclibc-ng } # XXX: problem
 
 - { name: udptunnel, wwwpart: lennox, setname: udptunnel-lennox }
-- { name: udptunnel, ruleset: openbsd, setname: udptunnel-lennox }
+- { name: udptunnel, wwwpart: [code.google.com,antonbutanaev], setname: udptunnel-dmeekins }
+- { name: udptunnel, addflag: unclassified }
 
 # emulator vs. ruby-rack http server
 - { name: unicorn, wwwpart: unicorn-engine, setname: unicorn-engine }
@@ -34,6 +35,4 @@
 
 - { name: uwm, wwwpart: uwm.sourceforge.net, setname: uwm-microwm }
 - { name: uwm, wwwpart: udeproject, setname: uwm-ude }
-- { name: uwm, ruleset: pkgsrc, setname: uwm-x11 }
-- { name: uwm, ruleset: openbsd, setname: uwm-ude }
 - { name: uwm, addflag: unclassified }
