@@ -54,8 +54,9 @@
 - { name: iotop, wwwpart: tomas-m, setname: iotop-c }
 - { name: iotop, addflag: unclassified }
 
-- { name: ipcalc, ruleset: openbsd, setname: ipcalc-pyr }
-- { name: ipcalc, wwwpart: nmav, setname: ipcalc-nmav }
+- { name: ipcalc, wwwpart: [jodies,kjokjo], setname: ipcalc-kjokjo }
+- { name: ipcalc, wwwpart: [gitlab.com/ipcalc/ipcalc,nmav], setname: ipcalc-nmav }
+- { name: ipcalc, addflag: unclassified }
 
 - { name: iris, wwwpart: projectiris.co.uk, setname: iris-eye-images }
 - { name: iris, wwwpart: iristech, setname: iris-eye-protection }
