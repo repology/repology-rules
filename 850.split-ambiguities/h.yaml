@@ -79,7 +79,6 @@
 
 - { name: howl, wwwpart: [howl.io,howl-editor], setname: howl-editor }
 - { name: howl, wwwpart: [howl.sourceforge,porchdogsoft], setname: howl-zeroconf }
-- { name: howl, ruleset: pkgsrc, setname: howl-zeroconf }
 - { name: howl, addflag: unclassified }
 
 - { name: htmlmin,                     wwwpart: html-minifier, setname: html-minifier } # XXX: problem
@@ -94,12 +93,10 @@
 - { name: hurl, wwwpart: fnord0, setname: hurl-hex-url-encoder }
 - { name: hurl, addflag: unclassified }
 
-- { name: hydra, wwwpart: thc, setname: thc-hydra } # XXX: HACK
-- { name: hydra, wwwpart: ory.am, setname: hydra-openid } # XXX: must be before hydra-nix rule
+- { name: hydra, wwwpart: thc, setname: thc-hydra }
+- { name: hydra, wwwpart: ory.am, setname: hydra-openid }
 - { name: hydra, wwwpart: nixos, setname: hydra-nix }
-- { name: hydra, ruleset: nix, setname: hydra-nix }
-- { name: thc-hydra, setname: hydra } # XXX: HACK
-# otherwise thc-hydra, network logon cracker
+- { name: hydra, addflag: unclassified }
 
 - { name: hydrogen, wwwpart: libelemental, setname: hydrogen-linear-algebra }
 - { name: hydrogen, wwwpart: hydrogen-music, setname: hydrogen-drum-machine }
