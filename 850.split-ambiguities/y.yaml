@@ -10,8 +10,7 @@
 - { name: yell, wwwpart: critical.ch, setname: yell-pc-speaker }
 - { name: yell, addflag: unclassified }
 
-- { name: yard, wwwpart: yardoc, setname: "ruby:yard" }
-- { name: yard, ruleset: aosc, setname: "ruby:yard" }
+- { name: yard, wwwpart: [yardoc,lsegal], setname: "ruby:yard" }
 - { name: yard, addflag: unclassified }
 
 - { name: yj, wwwpart: bruceadams, setname: yj-bruceadams }
