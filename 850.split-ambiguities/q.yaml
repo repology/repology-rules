@@ -6,7 +6,9 @@
 - { name: qrcodegen, wwwpart: nayuki, setname: qr-code-generator }
 - { name: qrcodegen, addflag: unclassified }
 
-- { name: qterm, ruleset: pkgsrc, setname: qterm-ac } # terminal type recognizer vs. bbs client
+- { name: qterm, wwwpart: [qterm.sourceforge.net, github.com/qterm/qterm, sourceforge.net/projects/qterm], setname: qterm-bbs-client }
+- { name: qterm, wwwpart: alistaircrooks, setname: qterm-ac }
+- { name: qterm, addflag: unclassified }
 
 - { name: qtoctave, verge: "4", ruleset: guix, setname: octave }  # octave part?
 
