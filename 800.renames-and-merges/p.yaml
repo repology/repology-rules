@@ -62,6 +62,9 @@
 - { setname: pdd,                      name: "python:pdd" }
 - { setname: pdfjam,                   name: "texlive:pdfjam" }
 - { setname: pdfstudio,                namepat: "pdfstudio[0-9]+" }
+- { setname: pdftk,                    name: pdftk-gcj }
+- { setname: pdftk,                    name: pdftk-java }
+- { setname: pdftk,                    name: [pdftk-server, pdftkserver], addflavor: server }
 - { setname: pdns,                     name: [powerdns-geoip,powerdns-ldap,powerdns-mysql,powerdns-odbc,powerdns-pgsql] }
 - { setname: pdns,                     name: pdns-common }
 - { setname: pdns,                     name: powerdns }
