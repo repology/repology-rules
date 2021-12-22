@@ -98,6 +98,9 @@
 - { setname: iproute2,                 name: iproute }
 - { setname: iproute2,                 name: iproute2-cake, addflavor: cake }
 - { setname: iproute2,                 name: iproute2-doc, addflavor: doc }
+- { setname: iptables,                 name: iptables-epel, addflavor: true } # "provides parts of iptables run-time that Red Hat doesn't want to ship"
+- { setname: iptables,                 name: [iptables-fullconenat,iptables-minimal,iptables-nosystemd-minimal], addflavor: true }
+- { setname: iptables,                 name: compat-iptables }
 - { setname: iputils,                  name: tracepath, addflavor: yes } # split in termux
 - { setname: ipython,                  name: ["python:ipython",ipython,ipython2,ipython3,python2-ipython,ipython-py2] }
 - { setname: ipython,                  namepat: "ipython[0-9x.-]+" }
