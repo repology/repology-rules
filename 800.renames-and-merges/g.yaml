@@ -405,6 +405,7 @@
 - { setname: gtest,                    name: [googletest,libgtest] }
 - { setname: gtest,                    name: [gmock,google-mock,googlemock,libgmock], addflavor: gmock } # merged into
 - { setname: gtk,                      namepat: "(?:lib)?gtk[0-9.+-]*(-reference)?", addflavor: $1 }
+- { setname: gtk,                      name: gtk-update-icon-cache, addflavor: true }
 - { setname: gtk-doc,                  name: gtk-doc-am, addflavor: am }
 - { setname: gtk-engines,              namepat: "gtk[0-9.-]*engines[0-9.-]*" }
 - { setname: gtk-engines-$1,           namepat: "gtk[0-9.-]*engines-(.*)" } # XXX: convert to wildcard rule?
