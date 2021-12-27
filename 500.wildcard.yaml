@@ -13,7 +13,7 @@
 - { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "mod_(.*)", ruleset: [arch,centos,fedora,freebsd,gobolinux,macports,openindiana,rosa,sisyphus,slackbuilds] }
 - { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "(?:lib)?apache2?-mod[_-](.*)" }
 - { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "mod_(.*)[_-](ap[0-9]+)", ruleset: aix, addflavor: $2 }
-- { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "mod24-(.*)", ruleset: amazon, addflavor: "24" }
+- { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "mod24_(.*)", ruleset: amazon, addflavor: "24" }
 
 # Coq
 - { setname: "coq:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_coq], namepat: "coq[0-9.]+-(.*)", ruleset: [ nix ] }
