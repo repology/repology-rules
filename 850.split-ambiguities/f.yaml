@@ -107,6 +107,10 @@
 
 - { name: fpp, wwwpart: pathpicker, setname: pathpicker } # https://github.com/facebook/PathPicker vs. fortran preprocessor
 
+- { name: fq, wwwpart: wader, setname: fq-inspect-binary-data }
+- { name: fq, wwwpart: circonus, setname: fq-message-queue }
+- { name: fq, addflag: unclassified }
+
 - { name: fred, wwwpart: pinguin.lu, setname: fred-registry-editor }
 - { name: fred, wwwpart: enormousplow, setname: fred-action-game }
 - { name: fred, wwwpart: freenetproject, setname: fred-freenet-reference-daemon }
