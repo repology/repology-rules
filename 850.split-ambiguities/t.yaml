@@ -69,6 +69,10 @@
 - { name: tesseract, ruleset: [openwrt,pld,solus], setname: tesseract-ocr }
 - { name: tesseract, addflag: unclassified }
 
+- { name: tiptop, wwwpart: nschloe, setname: tiptop-nschloe }
+# also another one with dead upstream
+- { name: tiptop, addflag: unclassified }
+
 - { name: tf, wwwpart: [tinyfugue,tf.tcp.com], setname: tinyfugue }
 - { name: tf, wwwpart: yanganto, setname: tag-finder }
 - { name: tf, ruleset: [pld,debuntu], setname: tinyfugue }
