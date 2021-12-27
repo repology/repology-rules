@@ -123,6 +123,8 @@
 - { name: gltron,                      verpat: "(.*)final",                                setver: $1 } # Maemo
 - { name: gmap,                        verpat: "[0-9]{4}(-[0-9]{2}){2}", ruleset: debuntu, ignore: false } # official version, not a snapshot
 - { name: gmic-qt,                     verpat: "[0-9]{3}",                                 incorrect: true }
+- { name: gmic-qt,                     ver: "3.0.0.1",                                     incorrect: true }
+- { name: gmic-qt,                                                   ruleset: kaos,        untrusted: true } # accused of fake 3.0.0.1
 - { name: gmrun,                       verge: "0.9.4",                                     successor: true } # https://github.com/wdlkmpx/gmrun
 - { name: gmusicbrowser,               verpat: ".*99.*",                                   devel: true }
 - { name: gn,                                                                              noscheme: true }
