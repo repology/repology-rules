@@ -124,6 +124,8 @@
 - { name: brasero,                     ver: "3.12.2",                ruleset: opensuse,    ignore: true } # not released yet
 - { name: brave,                       verlonger: 3,                 ruleset: homebrew_casks, incorrect: true } # prefixed with the major version of chromium it's based on
 - { name: brave,                                                     ruleset: homebrew_casks, untrusted: true } # accused of fake 90.1.24.86
+- { name: brave,                       verlonger: 3,                 ruleset: winget,      incorrect: true }
+- { name: brave,                                                     ruleset: winget,      untrusted: true } # accused of fake 96.1.33.105
 - { name: breakpad,                                                                        noscheme: true }
 - { name: breeze,                      verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: breeze-gtk,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
