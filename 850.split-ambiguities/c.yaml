@@ -129,15 +129,16 @@
 - { name: cinder, wwwpart: [openstack,launchpad.net/cinder], setname: openstack-cinder }
 - { name: cinder, addflag: unclassified }
 
-- { name: cinema, wwwpart: maui, setname: cinema-maui }
+- { name: cinema, wwwpart: maui, setname: maui-clip }
 - { name: cinema, wwwpart: artemanufrij, setname: cinema-artemanufrij }
 - { name: cinema, addflag: unclassified }
 
 - { name: clementine,                  setname: clementine-player                            } # clementine player vs. window manager
 
-- { name: clip,    wwwpart: itk,            setname: clip-compiler } # clip compiler vs the clip cli graph visualizer
-- { name: clip,    wwwpart: clip-lang,      setname: clip-lang }
-- { name: clip,    addflag: unclassified }
+- { name: clip, wwwpart: itk, setname: clip-compiler } # clip compiler vs the clip cli graph visualizer
+- { name: clip, wwwpart: clip-lang, setname: clip-lang }
+- { name: clip, wwwpart: [maui,kde], setname: maui-clip }
+- { name: clip, addflag: unclassified }
 
 - { name: clipper, wwwpart: [polyclipping,delphi], setname: polyclipping }
 - { name: clipper, wwwpart: cowtan, setname: clipper-crystallography }
