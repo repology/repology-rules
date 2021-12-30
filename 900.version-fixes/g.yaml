@@ -75,6 +75,7 @@
 - { name: ggz-client-libs,             verpat: "0\\.99.*",                                 devel: true }
 - { name: ggz-gtk-client,              verpat: "0\\.99.*",                                 devel: true }
 - { name: ghasher,                     verpat: ".*patched.*",                              incorrect: true }
+- { name: ghc,                         verpat: "[0-9]+\\.[0-9]+\\.20[0-9]{6}",             incorrect: true } # nix garbage
 - { name: ghostscript,                 ver: "9.28",                  ruleset: sisyphus,    incorrect: true }
 - { name: ghostscript,                                               ruleset: sisyphus,    untrusted: true } # accused of fake 9.28
 - { name: ghostscript,                 ver: "9.52.1",                ruleset: debuntu,     incorrect: true }
