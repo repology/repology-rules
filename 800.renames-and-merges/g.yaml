@@ -89,6 +89,7 @@
 - { setname: gfbgraph,                 name: libgfbgraph }
 - { setname: gfbgraph,                 namepat: "gfbgraph[0-9.-]+" }
 - { setname: gflags,                   name: [google-gflags,libgflags] }
+- { setname: gfold,                    name: "rust:gfold" }
 - { setname: ghc,                      namepat: "ghc[0-9.-]+" }
 - { setname: ghc,                      name: [ghc-bin,ghc-bootstrap,ghc-libs,ghc-pristine,ghc-raspbian,ghc-static], addflavor: true }
 - { setname: ghc,                      name: haskell, ruleset: scoop }
