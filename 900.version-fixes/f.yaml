@@ -156,6 +156,7 @@
 - { name: "fonts:gentium-basic",       ver: "1102",                                        setver: "1.102" }
 - { name: "fonts:gnutypewriter",                                                           noscheme: true }
 - { name: "fonts:go",                                                                      noscheme: true }
+- { name: "fonts:hannom",              verpat: "[0-9]{4}\\..*",                            incorrect: true } # 2005, not 2005.02.06
 - { name: "fonts:inconsolata-lgc",     verge: "20000000", verlt: "20160404",               sink: true } # 1.3.0 from 2016 apr 04
 - { name: "fonts:inconsolata-lgc",     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "fonts:inconsolata-lgc",     ver: "1.12",                  ruleset: aur,         incorrect: true }
