@@ -115,7 +115,7 @@
 - { setname: md5deep,                  name: hashdeep }
 - { setname: mda-lv2,                  name: mda.lv2 }
 - { setname: mdbook,                   name: "rust:mdbook" }
-- { setname: mdds,                     namepat: "mdds[0-9.-]+" }
+- { setname: mdds,                     namepat: "(?:lib)?mdds[0-9.-]*" }
 - { setname: mdk,                      name: gnu-mdk }
 - { setname: mdk,                      name: mdk-doc, addflavor: true }
 - { setname: mdp,                      name: gpg-mdp } # different from mdp-src, split in 850
