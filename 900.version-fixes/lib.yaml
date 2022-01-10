@@ -71,6 +71,8 @@
 - { name: libdiscid,                                                 ruleset: solus,       untrusted: true } # accused of fake 1.6.2
 - { name: libdom,                      verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: libdom,                      verpat: "2017.*",                                   sink: true } # latest is 0.3.3 from 2018
+- { name: libdwarf,                    verpat: "20[0-9]{6}",                               sink: true } # latest is 0.3.1
+- { name: libdwarf,                    verpat: ".+20[0-9]{6}",                             incorrect: true }
 - { name: libevdev,                    verpat: ".*\\.9[0-9]+",                             devel: true } # assumed; https://www.freedesktop.org/software/libevdev/
 - { name: libevdev,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: libfaketime,                 verpat: ".*201[67].*",                              ignore: true } # FreeBSD is using git snapshot
