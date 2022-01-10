@@ -100,6 +100,8 @@
 - { name: alpine,                                                    ruleset: void,        untrusted: true } # accused of fake 2.23.1
 - { name: alpm-octopi-utils,           ver: "1.0.3",                 ruleset: kaos,        incorrect: true }
 - { name: alpm-octopi-utils,                                         ruleset: kaos,        untrusted: true } # accused of fake 1.0.3
+- { name: alsa-lib,                    ver: "1.2.6.3",               ruleset: solus,       incorrect: true } # uses alsa-ucm-conf version instead of alsa-lib version
+- { name: alsa-lib,                                                  ruleset: solus,       untrusted: true } # accused of fake 1.2.6.3
 - { name: alsamixergui,                ver: "0.9.0.1.2",                                   incorrect: true } # gentoo, so fake. it's 0.9.0rc1-2
 - { name: alsamixergui,                                              ruleset: gentoo,      untrusted: true } # accused of fake 0.9.0.1.2
 - { name: alsamixergui,                ver: "0.9.0",                 ruleset: sisyphus,    incorrect: true }
