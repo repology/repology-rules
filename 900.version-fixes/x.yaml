@@ -31,8 +31,6 @@
 - { name: xcolors,                     verge: "90",                  ruleset: opensuse,    incorrect: true }
 - { name: xconq,                       ver: "7.5.0",                 ruleset: [rosa,rpmsphere], incorrect: true } # latest is 7.5.0-0pre.0.20050612
 - { name: xcwd,                                                                            noscheme: true }
-- { name: xd,                          ver: "8087",                                        incorrect: true } # openbsd
-- { name: xd,                                                        ruleset: openbsd,     untrusted: true } # accused of fake 8087
 - { name: xdelta,                      verpat: "30.*",                                     sink: true } # t2; 3.0* actually
 - { name: xdg-desktop-portal,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: xdg-desktop-portal-gtk,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
