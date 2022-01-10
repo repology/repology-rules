@@ -23,7 +23,8 @@
 - { name: bass,                        verpat: "20[0-9]{6}",                               ignore: true }
 - { name: bastet,                      ver: "0.43.1.2015083000",                           ignore: true }
 - { name: bastet,                      verpat: ".*\\+[0-9]+",                              snapshot: true }
-- { name: bat-cat,                     verge: "18",                  ruleset: solus,       incorrect: true } # 0.18, not 18
+- { name: bat-cat,                     ver: "0.19.3",                ruleset: solus,       incorrect: true } # 0.19.0
+- { name: bat-cat,                                                   ruleset: solus,       untrusted: true } # 0.18, not 18
 - { name: batman-adv,                  verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: batman-adv,                  verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: batmand,                     verpat: "[0-9]{4}",                                 ignore: true } # revision
