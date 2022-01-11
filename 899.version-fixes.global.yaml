@@ -97,3 +97,9 @@
 # lots of deliberately incorrect versions (look through the ruleset for examples)
 # no way to contruct links to corresponding package recipes
 - {                                                                  ruleset: rosa,        untrusted: true }
+
+# Stackage is just a snapshot of hackage, and is not expected to provide any versions never than it - if it
+# does, it's very likely incorrect (at time of writing, it's providing recalled hledger 1.24.99, either
+# ignoring preferred_versions or lagging with updates), so mark them so. In other cases package statuses
+# will not be affected as incorrect status is suppressed by equal or higher trusted version from hackage.
+- {                                                                  ruleset: stackage,    incorrect: true }
