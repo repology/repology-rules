@@ -235,6 +235,8 @@
 - { name: kristall,                    verpat: "20[0-9]{6}.*",                             incorrect: true } # openbsd
 - { name: kristall,                    verpat: "0\\.7.*",            ruleset: haikuports,  incorrect: true }
 - { name: kristall,                                                  ruleset: haikuports,  untrusted: true } # accused of fake 0.7.3
+- { name: krita,                       ver: "5.0.2.102",             ruleset: winget,      incorrect: true }
+- { name: krita,                                                     ruleset: winget,      untrusted: true } # accused of fake 5.0.2.102
 - { name: kruler,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: krusader,                    verpat: "16\\..*",                                  incorrect: true } # pclinuxos; it uses e.g. 2.6.0 scheme
 - { name: kscd,                        verpat: ".*20[0-9]{6}",                             ignore: true } # exherbo snapshot
