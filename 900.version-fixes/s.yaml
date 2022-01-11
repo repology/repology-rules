@@ -279,9 +279,10 @@
 - { name: steamcmd,                                                                        noscheme: true }
 - { name: step-physical-simulator,     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: stepmania,                   verpat: ".*b.*",                                    devel: true }
-- { name: stepmania,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: sterm,                       verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: stlink,                      verpat: "20[0-9]{2}.*",                             ignore: true } # snapshot
+- { name: stepmania,                   verpat: ".+20[0-9]{6}",                             snapshot: true }
+- { name: sterm,                       verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: stlink,                      verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: stormlib,                    verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: stp,                         verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: stp,                         verpat: "[0-9]{4,}",                                incorrect: true }
 - { name: stp,                         verpat: "201[56].*",                                sink: true }
