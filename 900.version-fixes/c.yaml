@@ -36,6 +36,7 @@
 - { name: cantor,                                                    ruleset: debuntu,     untrusted: true } # accused of fake 21.12.0a
 - { name: capstone,                    verpat: ".*20[0-9]{6}",                             snapshot: true } # pentoo
 - { name: capstone,                    ver: "4.0",                   ruleset: freebsd,     incorrect: true }
+- { name: cardboard,                                                                       noscheme: true } # https://gitlab.com/cardboardwm/cardboard
 - { name: caret-editor,                ver: "4.0",                   ruleset: winget,      incorrect: true } # 4.0.0-rc23
 - { name: caret-editor,                                              ruleset: winget,      untrusted: true } # accused of fake 4.0
 - { name: cargo,                       verpat: "1\\..*",             ruleset: [nix,macports], incorrect: true } # rust version used?
