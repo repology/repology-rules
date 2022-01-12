@@ -400,6 +400,7 @@
 - { setname: "python:turbogears",      name: turbogears2-doc, addflavor: doc }
 - { setname: "python:twisted",         name: twisted }
 - { setname: "python:twisted",         name: py-twisted-docs, addflavor: docs }
+- { setname: "python:ujson",           name: ["python:ultrajson", ujson] } # vilnerable
 - { setname: "python:utidylib",        name: utidylib }
 - { setname: "python:vdirsyncer",      name: vdirsyncer }
 - { setname: "python:vim-bridge",      name: vim-bridge } # probably not a problem that it's unprefixed
