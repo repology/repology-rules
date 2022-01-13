@@ -33,6 +33,8 @@
 - { name: scantailor-advanced,         verpat: "2016.*",                                   ignore: true }
 - { name: sccs,                        ver: "5.0.8",                                       incorrect: true } # XXX: problem, incorrect scheme
 - { name: sccs,                        verpat: "[0-9]{6}",                                 incorrect: true }
+- { name: scdoc,                       ver: "1.11.12",               ruleset: conan,       incorrect: true }
+- { name: scdoc,                                                     ruleset: conan,       untrusted: true } # accused of fake 1.11.12
 - { name: schismtracker,               ver: "20150911005204",                              ignore: true }
 - { name: schroot,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: scim-input-pad,              verpat: ".*20[0-9]{6}",                             snapshot: true } # opensuse
