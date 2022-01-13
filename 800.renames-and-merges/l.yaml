@@ -129,6 +129,7 @@
 - { setname: lttng-ust,                name: "python:lttngust", addflavor: python }
 - { setname: lua,                      namepat: "(?:lib)?lua[0-9.-]*" }
 - { setname: lua,                      name: compat-lua }
+- { setname: lua-language-server,      name: sumneko-lua-language-server }
 - { setname: luabind,                  namepat: "lua([0-9]+)bind", addflavor: $1 }
 - { setname: luaformatter,             name: "lua:format" }
 - { setname: luaformatter,             name: "lua:format-ext", addflavor: ext }
