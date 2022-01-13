@@ -200,7 +200,8 @@
 - { setname: postfwd,                  name: postfix-postfwd, ruleset: freebsd }
 - { setname: postgis,                  name: [postgis-src,postgis-sfcgal,liblwgeom], addflavor: true }
 - { setname: postgis,                  namepat: "postgis[0-9.-]+" }
-- { setname: postgis,                  namepat: "postgresql[0-9.-]*-postgis" }
+- { setname: postgis,                  namepat: "postgis-postgresql[0-9.-]+", addflavor: true }
+- { setname: postgis,                  namepat: "postgresql[0-9.-]*-postgis", addflavor: true }
 - { setname: postgresql,               namepat: "postgresql[0-9.-]*" }
 - { setname: postgresql,               namepat: "postgresql[0-9.-]*-beta.*", devel: true }
 - { setname: postgresql,               namepat: "postgresql[0-9.-]*-client", addflavor: client }
