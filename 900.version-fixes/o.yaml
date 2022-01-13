@@ -3,17 +3,17 @@
 - { name: obfsproxy,                   verpat: "[0-9]{3}",                                 incorrect: true }
 - { name: objconv,                     verpat: "20[0-9]{6}",                               incorrect: true } # macosx
 - { name: obmenu,                      ver: "2.0",                   ruleset: bunsenlabs,  incorrect: true } # fake
-- { name: obs-service-download-files,  verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: obs-service-download-url,    verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: obs-service-verify-file,     verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: obs-studio,                  verge: "32",                  ruleset: t2,          incorrect: true } # 32.2.1, typo of 23.2.1
+- { name: obs-service-download-files,  verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: obs-service-download-url,    verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: obs-service-verify-file,     verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: obs-studio,                                                ruleset: t2,          untrusted: true } # accused of fake 32.2.1
 - { name: "ocaml:calendar",            ver: "2.5",                   ruleset: nix,         incorrect: true }
 - { name: "ocaml:calendar",                                          ruleset: nix,         untrusted: true } # accused of fake 2.5 (it's really 2.03.2)
 - { name: "ocaml:libvirt",             verpat: ".*unstable",                               incorrect: true } # nix garbage
 - { name: "ocaml:opam-file-format",                                  ruleset: sisyphus,    untrusted: true }
 - { name: "ocaml:yojson",              verpat: ".+20[0-9]{6}",                             snapshot: true }
-- { name: oclgrind,                    verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: ocropus,                     verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: oclgrind,                    verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: ocropus,                     verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: octave,                      verpat: ".*pre[0-9]{5}",                            snapshot: true }
 - { name: octave,                      verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true } # rc's https://hg.savannah.gnu.org/hgweb/octave/tags
 - { name: "octave:secs1d",             verpat: ".*r.*",                                    snapshot: true }
@@ -33,9 +33,9 @@
 - { name: okular,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ollydbg,                     verpat: "[0-9]{3}.*",                               incorrect: true } # it's 1.10, 2.0, 2.01g
 - { name: omega-rpg,                   releq: "0.90",                                      devel: true } # not sure how wide should the coverage be
-- { name: onboard,                     ver: "1.4.1.4",               ruleset: debuntu,     incorrect: true } # deepin
+- { name: onboard,                     ver: "1.4.1.12",              ruleset: debuntu,     incorrect: true } # deepin
 - { name: onboard,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 1.4.1.4
-- { name: oniguruma,                   ver: "6.9.5pl1",                                    incorrect: true }
+- { name: oniguruma,                                                 ruleset: openbsd,     untrusted: true } # accused of fake 6.9.5pl1
 - { name: oniguruma,                   verpat: ".*rev.*",                                  any_is_patch: true }
 - { name: onioncat,                    verpat: "0\\.2\\.2\\.r[0-9]+.*",                    any_is_patch: true } # https://www.cypherpunk.at/ocat/download/Source/stable/
 - { name: onioncat,                    ver: "0\\.2\\.2",                                   incorrect: true }
@@ -60,10 +60,10 @@
 - { name: opencascade-oce,             verlonger: 3,                                       incorrect: true } # weird mix of occt and oce versions
 - { name: opencity,                    ver: "0.0.6.5stable",                               ignore: true } # 0.0.6.5; "stable" is not a part of the version
 - { name: opencl,                                                                          noscheme: true } # GH/KhronosGroup/OpenCL-Headers w/o releases or mix of OpenCL-Headers with OpenCL-CLHPP
-- { name: opencl-clhpp,                verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: opencl-clhpp,                verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: opencl-headers,                                                                  noscheme: true }
 - { name: opencollada,                 verpat: ".*3335ac.*",                               incorrect: true }
-- { name: opencollada,                 verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
+- { name: opencollada,                 verpat: "20[0-9]{6}",                               incorrect: true } # aosc
 - { name: opencolorio,                 verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: opencvs,                                                                         noscheme: true }
 - { name: opendbx,                     ver: "1.5.0",                                       devel: true } # https://linuxnetworks.de/doc/index.php?title=OpenDBX/Download; XXX probably needs pattern, but the devel scheme is unknown
@@ -125,7 +125,7 @@
 - { name: openuniverse,                ver: "1.0beta3.1",                                  incorrect: true } # debian garbage
 - { name: openvpn,                     verpat: ".*\\.[0-9]{3}",                            incorrect: true }
 - { name: openvpn,                                                   ruleset: winget,      untrusted: true } # accused of fake 2.5.020, 2.5.021
-- { name: openvsp,                     verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: openvsp,                     verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: openxcom,                    verpat: ".*20[0-9]{2}.*",                           snapshot: true } # git snapshots
 - { name: openxcom,                    verpat: ".*[0-9]{10}.*",                            snapshot: true } # opensuse games, totally braindead
 - { name: openzfs,                     verpat: "20[0-9]{6}",                               incorrect: true }
