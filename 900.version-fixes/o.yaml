@@ -11,6 +11,7 @@
 - { name: "ocaml:calendar",                                          ruleset: nix,         untrusted: true } # accused of fake 2.5 (it's really 2.03.2)
 - { name: "ocaml:libvirt",             verpat: ".*unstable",                               incorrect: true } # nix garbage
 - { name: "ocaml:opam-file-format",                                  ruleset: sisyphus,    untrusted: true }
+- { name: "ocaml:yojson",              verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: oclgrind,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: ocropus,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: octave,                      verpat: ".*pre[0-9]{5}",                            snapshot: true }
