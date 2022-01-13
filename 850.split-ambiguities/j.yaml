@@ -29,6 +29,10 @@
 # c++ library based on java one, https://math.nist.gov/javanumerics/jama/ vs. https://math.nist.gov/tnt/download.html
 - { name: jama, wwwpart: tnt, setname: jama-c++ }
 
+- { name: james, wwwpart: apache, setname: apache-james }
+- { name: james, wwwpart: james-proxy, setname: james-proxy }
+- { name: james, addflag: unclassified }
+
 - { name: janet, wwwpart: janet-lang, setname: janet-lang }
 - { name: janet, wwwpart: projectjanet, setname: janet-iot-framework }
 - { name: janet, addflag: unclassified }
