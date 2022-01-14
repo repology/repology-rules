@@ -167,6 +167,7 @@
 - { name: treeviewx,                   verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: trellis,                     verpat: "20[0-9]{4}.*",                             snapshot: true }
 - { name: tribler,                     verpat: ".*exp.*",                                  devel: true }
+- { name: trickle,                     verpat: ".*_[0-9a-f]+",                             incorrect: true } # slitaz
 - { name: trinity,                     ver: "1.9",                   ruleset: opensuse,    setver: "1.9pre" } # https://github.com/kernelslacker/trinity/releases
 - { name: trlan,                       ver: "20021121",                                    sink: true }
 - { name: trn,                         ver: ["4.77", "4.0"],                               incorrect: true }
