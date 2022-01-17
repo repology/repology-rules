@@ -263,6 +263,7 @@
 - { setname: protobuf,                 namepat: "(lib)?protobuf(?:cpp|compat|[0-9.-])*", addflavor: $1 }
 - { setname: protobuf,                 name: [protobuf-java,protobuf3-java], addflavor: java }
 - { setname: protobuf,                 name: [protoc, protobuf-static], addflavor: true }
+- { setname: protobuf,                 name: "ruby:google-protobuf", addflavor: ruby }
 - { setname: protobuf-c,               name: protobuf2-c }
 - { setname: proton,                   name: proton-native }
 - { setname: protonmail-bridge,        name: protonmail-bridge-bin, addflavor: bin }
