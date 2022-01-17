@@ -183,6 +183,7 @@
 - { name: ttcp,                        verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: ttf2pt1,                     verpat: "[0-9]+",                                   incorrect: true, disposable: true } # 3.4.4, not 344 (opensuse 42.3)
 - { name: ttwatch,                                                                         noscheme: true }
+- { name: tumbler,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: tunctl,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: tuned,                       ver: "2.22.0",                ruleset: opensuse,    incorrect: true }
 - { name: tuned,                                                     ruleset: opensuse,    untrusted: true } # accused of fake 2.22.0
