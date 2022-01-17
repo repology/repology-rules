@@ -250,9 +250,12 @@
 - { setname: projectx,                 name: project-x }
 - { setname: prometheus,               name: prometheus1 }
 - { setname: prometheus-blackbox-exporter, name: blackbox-exporter }
+- { setname: prometheus-collectd-exporter, name: collectd-exporter }
+- { setname: prometheus-nginx-exporter, name: [nginx-prometheus-exporter,nginx-exporter] }
 - { setname: prometheus-node-exporter, name: node-exporter }
 - { setname: prometheus-postgres-exporter, name: [postgres-exporter,prometheus-postgresql-exporter] }
 - { setname: prometheus-pushgateway,   name: [pushgateway,prometheus-push-gateway] }
+- { setname: prometheus-systemd-exporter, name: systemd-exporter }
 - { setname: proofgeneral,             name: ["emacs:proofgeneral", emacs-common-proofgeneral] }
 - { setname: proot,                    name: proot-static, addflavor: true }
 - { setname: proot,                    namepat: "proot[0-9.-]+" }
