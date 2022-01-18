@@ -130,8 +130,6 @@
 - { name: fontmatrix,                  ver: "0.9.99",                ruleset: [fedora,sisyphus], incorrect: true }
 - { name: fontmatrix,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "fonts:adobe-100dpi",        verge: "7",                                         incorrect: true } # xorg version used (openindiana)
-- { name: "fonts:adobe-source-sans-pro", verpat: "20[0-9]{6}",                             snapshot: true }
-- { name: "fonts:adobe-source-sans-pro", verpat: "(.*)ro",                                 setver: $1 } # ??
 - { name: "fonts:allerta",                                                                 noscheme: true }
 - { name: "fonts:apl385",                                                                  noscheme: true }
 - { name: "fonts:b612",                ver: "1.005",                 ruleset: freebsd,     incorrect: true }
@@ -184,6 +182,9 @@
 - { name: "fonts:source-han-code-jp",  verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
 - { name: "fonts:source-han-sans",     verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
 - { name: "fonts:source-han-serif",    verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
+- { name: "fonts:source-sans",         verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
+- { name: "fonts:source-sans",         verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: "fonts:source-serif",        verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
 - { name: "fonts:ubuntu",              ver: "1.0",                   ruleset: pclinuxos,   ignore: true } # no such version on the website
 - { name: "fonts:unifont",             ver: "20080123",                                    sink: true }
 - { name: "fonts:wqy-bitmapfont",      ver: "1.0.0",                 ruleset: rpm,         incorrect: true }
