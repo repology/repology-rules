@@ -75,6 +75,7 @@
 - { noflag: no_suffix, ruleset: macports,        namepat: "(.*)-devel", setname: $1, weak_devel: true }
 
 - { noflag: no_suffix, ruleset: nix,             namepat: "(.*)-unstable", setname: $1, weak_devel: true }
+- { noflag: no_suffix, ruleset: nix,             namepat: "(.*)-(wrapped|unwrapped)", setname: $1 }
 
 - { noflag: no_suffix, ruleset: npackd,          namepat: "(.*?)(-?64)", setname: $1, addflavor: "64" }
 
