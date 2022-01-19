@@ -26,6 +26,8 @@
 - { name: hidapi,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: hidapi,                      ver: "0.8.0",                 ruleset: [fedora,mageia,sisyphus,macports,pclinuxos,pld], incorrect: true } # 0.8.0rc1
 - { name: hidapi,                                                    ruleset: [fedora,mageia,sisyphus,macports,pclinuxos,pld], untrusted: true } # accused of fake 0.8.0
+- { name: highs,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: highs,                                                     ruleset: freebsd,     untrusted: true } # accused of fake 1.1.1.886
 - { name: hisat2,                      verlonger: 3,                 ruleset: [freebsd,pkgsrc], incorrect: true }
 - { name: hitori,                      ver: "3.24.1",                ruleset: nix,         incorrect: true }
 - { name: hitori,                                                    ruleset: nix,         untrusted: true }
