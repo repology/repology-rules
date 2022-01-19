@@ -29,6 +29,7 @@
 - { setname: nvidia,                   namepat: "nvidia-graphics-drivers[0-9.-]*-updates", addflavor: updates }
 - { setname: nvidia,                   namepat: "nvidia-graphics-drivers-experimental[x0-9.-]*", weak_devel: true, nolegacy: true }
 - { setname: nvidia,                   namepat: "nvidia-graphics-drivers-legacy[x0-9.-]*" }
+- { setname: nvidia,                   namepat: "driver-graphics-nvidia-[0-9.-]+" }
 - { setname: nvidia,                   name: nvidia-graphics-drivers-updates, addflavor: updates }
 - { setname: nvidia,                   name: nvidia-graphics-modules }
 - { setname: nvidia,                   name: nvidia-kernel }
