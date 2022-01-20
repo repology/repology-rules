@@ -56,6 +56,7 @@
 - { setname: wine-gecko,               namepat: "wine-gecko[0-9.-]+" }
 - { setname: wine-mono,                name: wine-mono-devel, weak_devel: true, nolegacy: true }
 - { setname: wine-mono,                namepat: "wine-mono[0-9.-]+" }
+- { setname: wine-mono,                name: wine-stable-mono }
 - { setname: wine-nine-standalone,     name: [gallium-nine, gallium-nine-standalone, wine-nine] }
 - { setname: winewizard,               name: wine-wizard }
 - { setname: winff,                    name: [winff-gtk2,winff-qt4], addflavor: true }
