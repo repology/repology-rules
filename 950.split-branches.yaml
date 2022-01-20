@@ -205,13 +205,8 @@
 
 - { name: llvm,                                           setbranchcomps: 1 }
 
-#- { name: love,              releq: "11",                 setname: love11, maintenance: true } # next version, enable when 12.x is released
-- { name: love,              releq: "0.10",               setname: love10, maintenance: true }
-- { name: love,              releq: "0.9",                setname: love09 }
-- { name: love,              releq: "0.8",                setname: love08 }
-- { name: love,              releq: "0.7",                setname: love07 }
-- { name: love,              releq: "0.6",                setname: love06 }
-- { name: love,              releq: "0.5",                setname: love05 }
+- { name: love,              relge: "1",                  setbranchcomps: 1 } # 11 and so on
+- { name: love,              releq: "0",                  setbranchcomps: 2 } # 0.5 .. 0.10
 
 - { name: lua,                                            setbranchcomps: 2 }
 
