@@ -1,7 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 # ESR
-- { setname: firefox,                  namepat: "firefox-esr[0-9.-]*(-l10n|-i18n|-gtk2|-privacy|-unwrapped)*", addflavor: $1 }
+- { setname: firefox,                  namepat: "firefox-esr[0-9.-]*(-l10n|-i18n|-gtk2|-privacy)*", addflavor: $1 }
 - { setname: firefox,                  namepat: "firefox[0-9.-]*esr" }
 - { setname: firefox,                  namepat: "firefox-esr-(i18n-.*)", addflavor: $1 }
 
@@ -39,12 +39,11 @@
     - firefox-official-pt-br
     - firefox-official-ru
     - firefox-official-uk
-    - firefox-release-bin-unwrapped
+    - firefox-release-bin
     - firefox-ru
     - firefox-ubuntu
     - firefox-uk
     - firefox-unbranded
-    - firefox-unwrapped
     - firefox-wayland
     - firefox-zh
     - mozilla-firefox-bin
@@ -57,7 +56,6 @@
 - setname: firefox
   name:
     - firefox-devedition-bin
-    - firefox-devedition-bin-unwrapped
   addflavor: true
   weak_devel: true
   nolegacy: true
@@ -70,7 +68,6 @@
   name:
     - firefox-beta-bin
     - firefox-beta-bin-all-localizations
-    - firefox-beta-bin-unwrapped
     - firefox-beta-hardened
     - firefox-beta-i18n
     - firefox-kde-opensuse-beta
