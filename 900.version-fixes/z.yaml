@@ -53,4 +53,6 @@
 - { name: zsnes,                       verpat: "(1\\.51)0",                                setver: $1 } # debian seems to have added a zero to end of the version, XXX: problem
 - { name: zsnes,                       verpat: "[0-9]{3}",                                 incorrect: true } # T2; it's 1.51, not 151
 - { name: zsnes,                       ver: "1.51b",                                       devel: true } # experimental development release
+- { name: zstd,                        ver: "1.5.2",                 ruleset: vcpkg,       incorrect: true }
+- { name: zstd,                                                      ruleset: vcpkg,       untrusted: true } # accused of fake 1.5.2
 - { name: zxing,                       verpat: "20[0-9]{6}",                               snapshot: true } # openbsd
