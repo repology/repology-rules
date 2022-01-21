@@ -4,6 +4,9 @@
 - { setname: fabla,                    name: [openav-fabla,lv2-fabla] }
 - { setname: facter,                   name: facter2 } # Note: not the same as ruby:facter (https://github.com/puppetlabs/facter vs. https://github.com/puppetlabs/facter-ng)
 - { setname: factor,                   name: factor-lang }
+- { setname: factorio,                 name: [factorio-headless], addflavor: headless }
+- { setname: factorio,                 name: [factorio-alpha, factorio-experimental], weak_devel: true, nolegacy: true }
+- { setname: factorio,                 name: [factorio-headless-experimental], addflavor: headless, weak_devel: true, nolegacy: true }
 - { setname: fahclient,                name: foldingathome-noroot, addflavor: true }
 - { setname: fahclient,                name: foldingathome-beta, weak_devel: true, nolegacy: true }
 - { setname: fahclient,                name: [fah,foldingathome,folding-at-home,linux-foldingathome] }
