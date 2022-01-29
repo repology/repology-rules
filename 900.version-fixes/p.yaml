@@ -195,6 +195,8 @@
 - { name: poke,                        ver: "1.48.1",                ruleset: t2,          incorrect: true }
 - { name: poke,                                                      ruleset: t2,          untrusted: true } # accused of fake 1.48.1
 - { name: polari,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: polkit,                      ver: "1.121",                 ruleset: guix,        incorrect: true }
+- { name: polkit,                                                    ruleset: guix,        untrusted: true } # accused of fake 1.121
 - { name: polkit-gnome,                ver: "0.106",                 ruleset: sisyphus,    incorrect: true }
 - { name: polkit-gnome,                                              ruleset: sisyphus,    untrusted: true } # accused of fake 0.106
 - { name: polkit-gnome,                verpat: "[0-9]+",                                   incorrect: true } # 0.105, not 105
