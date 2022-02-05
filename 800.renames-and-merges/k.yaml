@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { setname: k3s,                      namepat: "k3s[0-9.-]+" }
+- { setname: k40-whisperer,            name: k40whisperer }
 - { setname: kactivities-stats,        name: kactivities5-stats }
 - { setname: kafka,                    name: apache-kafka }
 - { setname: kaitai-struct,            name: [kaitai-struct-compiler,kaitai-struct-visualizer,"python:kaitaistruct","ruby:kaitai-struct","python:python-kaitaistruct"], addflavor: true }
