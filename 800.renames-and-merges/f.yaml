@@ -136,6 +136,9 @@
 - { setname: frandom,                  name: dkms-frandom }
 - { setname: free42,                   name: free42-nologo, addflavor: true }
 - { setname: freebasic,                name: fbc, addflavor: true }
+- { setname: freecad,                  name: free-cad } # XXX: problem
+- { setname: freecad,                  name: [freecad-test,freecad-weekly], weak_devel: true, nolegacy: true }
+- { setname: freecad,                  name: [freecad-linkdaily,freecad-linkstage3], addflavor: true, ignore: true } # branches, rolling anyway, but add ignore to be safe
 - { setname: freeciv,                  name: [freeciv-gtk,freeciv-sdl,freeciv-x11,freeciv-client,freeciv-server,freeciv-share], addflavor: true }
 - { setname: freedink,                 name: freedink-engine }
 - { setname: freedink-dfarc,           name: dfarc }
