@@ -193,6 +193,7 @@
 - { setname: buildbot,                 name: [buildbot-wsgi-dashboards,"python:buildbot-wsgi-dashboards"], addflavor: wsgi-dashboards }
 - { setname: buildbot,                 name: [buildbot-www,"python:buildbot-www"], addflavor: www }
 - { setname: buildbot-slave,           namepat: "buildbot-slave[0-9.-]+" }
+- { setname: buildcatrust,             name: "python:buildcatrust" }
 - { setname: buildstream,              name: "python:buildstream" }
 - { setname: buku,                     name: "python:buku" }
 - { setname: buku,                     name: bukuserver, addflavor: server }
