@@ -168,6 +168,8 @@
 - { name: kmscube,                                                                         noscheme: true }
 - { name: kmymoney,                    verpat: ".*[0-9]{3}",         ruleset: t2,          incorrect: true }
 - { name: kmymoney,                                                  ruleset: t2,          untrusted: true } # accused of fake 5.1-890
+- { name: kmymoney,                    verpat: ".+[0-9a-f]{7,}",                           incorrect: true } # winget commit hash
+- { name: kmymoney,                                                  ruleset: t2,          untrusted: true } # accused of fake 5.1-890
 - { name: knavalbattle,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: knetwalk,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: knights,                     ver: "2.5.85",                                      incorrect: true } # kaos
