@@ -233,6 +233,7 @@
 - { name: libskk,                      ver: "1.2.0",                 ruleset: opensuse,    incorrect: true }
 - { name: libskk,                                                    ruleset: opensuse,    untrusted: true } # accused of fake 1.2.0
 - { name: libslirp,                    verpat: ".*g.*",                                    snapshot: true } # sisyphus
+- { name: libsmacker,                  verpat: ".*r.*",                                    any_is_patch: true }
 - { name: libsndfile,                  ver: "1.0.29",                ruleset: vcpkg,       incorrect: true }
 - { name: libsndfile,                                                ruleset: vcpkg,       untrusted: true } # accused of fake 1.0.29
 - { name: libsndfile,                  ver: "2018b4",                ruleset: openwrt,     incorrect: true }
