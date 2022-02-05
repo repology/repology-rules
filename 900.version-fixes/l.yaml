@@ -186,8 +186,8 @@
 - { name: lugaru,                      verpat: "[0-9]{3}.*",                               ignore: true } # dates and snapshots
 - { name: lugaru,                      verpat: "201[56].*",                                sink: true } # 1.2 from 2017
 - { name: luit-xterm,                  verpat: "20[0-9]{6}",                               setver: "2.0-$0" }
-- { namepat: "lumina.*",               ver: "1.4.1",                 ruleset: [freebsd,ravenports], incorrect: true }
 - { namepat: "lumina.*",                                                                   p_is_patch: true }
+- { namepat: "lumina.*",                                             ruleset: [freebsd,ravenports], untrusted: true } # accused of fake versions (1.6.1, 1.6.2) for individual components (calculator, pdf)
 - { name: lumina,                      verpat: ".*p",                                      incorrect: true } # openmandriva
 - { name: lumina-calculator,           verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: lumina-calculator,           ver: "1.6.1",                 ruleset: ravenports,  incorrect: true }
