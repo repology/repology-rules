@@ -26,6 +26,8 @@
 - { name: youtube-dl,                                                ruleset: antix,       untrusted: true } # accused of fake 2019.01.19
 - { name: youtube-dl,                  ver: "2021.10.22",                                  incorrect: true } # opensuse fakes yt-dlp as youtube-dl
 - { name: youtube-dl,                                                ruleset: opensuse,    untrusted: true } # accused of fake 2021.10.22
+- { name: youtube-dl,                  ver: "2021.12.27",                                  incorrect: true }
+- { name: youtube-dl,                                                ruleset: t2,          untrusted: true } # accused of fake 2021.12.27
 - { name: ypsilon,                     verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true } # X.Y.Z.updateU, not X.Y.Z.U
 - { name: ytnef,                       ver: "2.6",                                         sink: true } # see https://github.com/Yeraze/ytnef/blob/master/ChangeLog; latest is 1.9.2, rename it so it's outdated
 - { name: yubioath-desktop,            ver: "4.3.5",                 ruleset: fedora,      incorrect: true }
