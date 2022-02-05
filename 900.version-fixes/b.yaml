@@ -73,7 +73,6 @@
 - { name: bittornado,                  verge: "0.4.0",                                     successor: true } # https://github.com/effigies/BitTornado
 - { name: bitwarden-cli,               vercomps: 6,                                        incorrect: true }
 - { name: bitwarden-cli,                                             ruleset: nix,         untrusted: true } # accused of fake 1.18.1-1.18.1
-- { name: black,                       verpat: "[^ab]+",                                   incorrect: true } # all versions are alpha/beta: https://pypi.org/project/black/#history
 - { name: black,                       verpat: ".*[ab].*",                                 devel: true }
 - { name: black,                       verpat: ".*_.*",              ruleset: solus,       incorrect: true }
 - { name: black,                                                     ruleset: solus,       untrusted: true } # accused of fake 20.8_1
