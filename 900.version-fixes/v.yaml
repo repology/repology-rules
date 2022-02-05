@@ -31,6 +31,8 @@
 - { name: vgrep,                                                     ruleset: [aur,homebrew], untrusted: true } # accused of fake 5.2.2
 - { name: vid.stab,                    verpat: ".*[0-9a-f]{7}.*",                          ignore: true } # git commit
 - { name: vidcutter,                                                 ruleset: unitedrpms,  untrusted: true } # accused of fake 6.0.0.6
+- { name: video4linux,                 ver: "1.23.0",                ruleset: freebsd,     incorrect: true }
+- { name: video4linux,                                               ruleset: freebsd,     untrusted: true } # accused of fake 1.23.0
 - { name: vigra,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: vigra,                       ver: "27",                                          incorrect: true }
 - { name: vigra,                                                     ruleset: t2,          untrusted: true } # accused of fake 27
