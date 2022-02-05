@@ -46,6 +46,8 @@
 - { name: kcolorchooser,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kconfig,                     ver: "5.61.0a",               ruleset: debuntu,     incorrect: true } # fake
 - { name: kconfig,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 5.61.0a
+- { name: kconfigwidgets,              ver: "5.91.0",                ruleset: debuntu,     incorrect: true } # kde neon
+- { name: kconfigwidgets,                                            ruleset: debuntu,     untrusted: true } # kde neon, accused of fake 5.91.0
 - { name: kcontacts,                   verge: "15",                                        sink: true } # https://github.com/KDE/kcontacts/releases?after=v5.65.0-rc1
 - { name: kcron,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdav,                        verge: "17",                                        sink: true } # 5.x > 20.x: https://github.com/KDE/kdav/releases?after=v5.73.0
