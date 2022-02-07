@@ -88,6 +88,7 @@
 - { name: roaraudio,                   ver: "0.99",                  ruleset: packman,     incorrect: true } # 1.0beta11 in fact
 - { name: roaraudio,                                                 ruleset: packman,     untrusted: true } # accused of fake 0.99
 - { name: rocs,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: rofi-wayland,                verpat: ".*wayland.*",                              any_is_patch: true }
 - { name: ronn,                        verge: "0.8.0",                                     successor: true } # https://github.com/apjanke/ronn-ng, successor
 - { name: rpcgen,                                                    ruleset: ravenports,  ignore: true } # fake
 - { name: rpcs3,                       verlonger: 3,                                       snapshot: true }
