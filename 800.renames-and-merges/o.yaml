@@ -5,7 +5,7 @@
 - { setname: obfs4proxy,               name: obfs4 }
 - { setname: obfs4proxy,               name: obfs4proxy-behind-tor, addflavor: true }
 - { setname: obfsproxy,                name: ["python:obfsproxy", "python:obfsproxy-tor"] }
-- { setname: objectweb-asm,            namepat: "(java-|objectweb-)?asm[0-9]*" }
+- { setname: objectweb-asm,            namepat: "(java-|objectweb-)?asm[0-9]?" } # be sure to not include asm1825 and asm6809
 - { setname: objectweb-asm,            name: libasm4-java }
 - { setname: obs-studio,               name: [obs,open-broadcaster-software,obsstudio] }
 - { setname: obs-studio,               name: [obs-studio-small,obs-studio-vaapi], addflavor: true }
