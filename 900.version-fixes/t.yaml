@@ -1,7 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: t50,                         verge: "20000000", verlt: "20180429",               sink: true } # 5.7.2 from 29 apr 2018
-- { name: tabbed,                      verpat: "20[0-9]{6}.*",                             incorrect: true } # nix snapshot
+- { name: tabbed,                      verpat: "20[0-9]{2}.*",                             incorrect: true } # nix snapshot
 - { name: tabixpp,                     ver: "1.0.0.10",                                    incorrect: true }
 - { name: tagainijisho,                verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: taglib,                      verpat: ".*[ab].*",                                 devel: true } # XXX: FreeBSD DISTVERSION
@@ -10,14 +10,13 @@
 - { name: tali,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: talloc,                      ver: "3.6.2",                 ruleset: pclinuxos,   incorrect: true } # pclinuxos wtf; https://www.samba.org/ftp/talloc/
 - { name: talloc,                                                    ruleset: pclinuxos,   untrusted: true }
-- { name: tapclean,                    verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: tapclean,                    verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: tapclean,                    ver: "20130522",                                    sink: true, disposable: true }
 - { name: tar,                         ver: "1.29b",                                       ignore: true } # debian garbage http://metadata.ftp-master.debian.org/changelogs/main/t/tar/tar_1.29b-2_changelog
 - { name: tar,                         verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true } # https://alpha.gnu.org/gnu/tar/
 - { name: targetcli-fb,                ver: "3.0pre4.1",                                   incorrect: true } # raspbian
 - { name: targetcli-fb,                                              ruleset: raspbian,    untrusted: true } # accused of fake 3.0pre4.1
-- { name: tboot,                       verpat: "20[0-9]{6}.*",                             snapshot: true }
-- { name: tboot,                       verpat: "20[0-9]{6}_.*",                            incorrect: true } # opensuse garbage
+- { name: tboot,                       verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: tcb,                         ver: "1.1.0.1",               ruleset: sisyphus,    incorrect: true }
 - { name: tcb,                                                       ruleset: sisyphus,    untrusted: true } # 1.1.0.1
 - { name: tcc,                         verpat: "20[0-9]{2}.*",                             ignore: true } # freebsd
@@ -29,12 +28,12 @@
 - { name: tcl-lang,                                                  ruleset: [vcpkg,sisyphus], untrusted: true } # accused of fake 8.6.10
 - { name: tcp-wrappers,                vergt: "7.6",                                       incorrect: true } # debian patchlevels
 - { name: tcpblast,                    verpat: "20[0-9]{6}",                               ignore: true }
-- { name: tcpcrypt,                    verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: tcpcrypt,                    verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: tcpflow,                     ver: "1.4.6",                 ruleset: nix,         incorrect: true }
 - { name: tcpslice,                    verge: "20000000", verlt: "20211230",               sink: true, vulnerable: true } # CVE-2021-41043
 - { name: tcpslice,                    verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: tcptrack,                    wwwpart: bchretien,                                 successor: true } # fork
-- { name: tcsh,                        verpat: "20[0-9]{6}",                               snapshot: true } # solus 20170131 is likely based on cvs2git meaningless snapshot: https://github.com/tcsh-org/tcsh/releases
+- { name: tcsh,                        verpat: "20[0-9]{6}",                               incorrect: true } # solus
 - { name: tdb,                                                       ruleset: pclinuxos,   incorrect: true } # pclinuxos wtf; https://www.samba.org/ftp/tdb/
 - { name: teem,                        ver: "1.12.0",                ruleset: debuntu,     incorrect: true }
 - { name: teem,                                                      ruleset: debuntu,     untrusted: true } # accused of fake 1.12.0
@@ -69,7 +68,7 @@
 - { name: tesseract-ocr,               verpat: ".*[ab].*",                                 devel: true }
 - { name: tesseract-ocr,               verpat: ".*[ab]",                                   incorrect: true }
 - { name: tesseract-ocr,               verpat: ".+20[0-9]{6}",                             snapshot: true }
-- { name: tesseract-ocr-data,          verpat: "20[0-9]{6}.*",                             ignore: true }
+- { name: tesseract-ocr-data,          verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: testdisk,                    verge: "7.2",                                       devel: true, maintenance: true } # https://www.cgsecurity.org/wiki/TestDisk_Download; confusing versioned schema, devel version is named x.yWIP, some reops ignore the suffix
 - { name: testdisk,                    verpat: "(.*?)\\.?w(?:ip)?",                        setver: $1 }
 - { name: testssl.sh,                  verpat: ".*r.*",                                    devel: true, disposable: true } # FreeBSD, mangled rc
@@ -83,7 +82,7 @@
 - { name: "texlive:cm-super",          verpat: "[0-9]{5}",                                 incorrect: true } # guix garbara
 - { name: "texlive:cm-super",          verpat: "20[0-9]{6}",                               incorrect: true } # dates; official version is 0.3.4
 - { name: "texlive:csplain",                                                               noscheme: true }
-- { name: "texlive:leaflet",           verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: "texlive:leaflet",           verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: "texlive:leaflet",           ver: "20041222",                                    sink: true }
 - { name: "texlive:mathabx",                                                               noscheme: true }
 - { name: "texlive:xetex",                                                                 noscheme: true }
@@ -124,7 +123,7 @@
 - { name: tklib,                                                     ruleset: msys2,       untrusted: true } # accused of fake 0.7.0+1.29e6d0e6da
 - { name: tktable,                     ver: "2.11",                  ruleset: macports,    devel: true } # see https://github.com/macports/macports-ports/blob/master/x11/tktable/Portfile#L17
 - { name: tl-expected,                 verpat: "20[0-9]{2}.*",                             incorrect: true } # conancenter, nix snapshots
-- { name: tm,                          verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: tm,                          verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: tmfs,                        verpat: "r([.0-9]+)",                               setver: "$1" }
 - { name: tnt,                         verpat: "[0-9]{3,}",                                incorrect: true } # sisyphus
 - { name: tnt,                         verge: "3",                                         devel: true } # beta as per https://math.nist.gov/tnt/download.html
@@ -162,11 +161,11 @@
 - { name: traefik,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: transset,                    verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: transset,                    verpat: "[0-9]{6}",                                 incorrect: true }
-- { name: tre,                         verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: tre,                         verpat: "20[0-9]{6}",                               incorrect: true } # aosc snapshot
 - { name: treesheets,                  verpat: ".*20[0-9]{2}.*",                           incorrect: true } # it has recent 1.0.0 release, see https://github.com/aardappel/treesheets/releases
 - { name: treesheets,                  verpat: ".*[0-9]{6}.*",                             incorrect: true } # it has recent 1.0.0 release, see https://github.com/aardappel/treesheets/releases
 - { name: treeviewx,                   verpat: ".+20[0-9]{6}",                             snapshot: true }
-- { name: trellis,                     verpat: "20[0-9]{4}.*",                             snapshot: true }
+- { name: trellis,                     verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: tribler,                     verpat: ".*exp.*",                                  devel: true }
 - { name: trickle,                     verpat: ".*_[0-9a-f]+",                             incorrect: true } # slitaz
 - { name: trinity,                     ver: "1.9",                   ruleset: opensuse,    setver: "1.9pre" } # https://github.com/kernelslacker/trinity/releases
@@ -181,7 +180,7 @@
 - { name: tsocks,                      ver: "1.8",                   ruleset: [sisyphus,mageia,openmandriva,pclinuxos,pld], incorrect: true } # 1.8beta5
 - { name: tsocks,                                                    ruleset: [sisyphus,mageia,openmandriva,pclinuxos,pld], untrusted: true } # accused of fake 1.8
 - { name: tt-rss,                                                                          noscheme: true }
-- { name: ttcp,                        verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: ttcp,                        verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: ttf2pt1,                     verpat: "[0-9]+",                                   incorrect: true, disposable: true } # 3.4.4, not 344 (opensuse 42.3)
 - { name: ttwatch,                                                                         noscheme: true }
 - { name: tumbler,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -194,12 +193,12 @@
 - { name: tuxmath,                     verpat: "20[0-9]{2}\\..*",                          incorrect: true }
 - { name: tuxmath,                                                   ruleset: os4depot,    incorrect: true }
 - { name: tuxmathscrabble,             ver: "2015",                  ruleset: fsd,         ignore: true } # out of line with versions encountered in other repos; cannot recheck as upstream is completely gone
-- { name: tuxnes,                      verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: tuxnes,                      verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: tuxpaint-stamps,             verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" }
 - { name: tvheadend,                   verpat: "[0-9]+\\.[0-9]*[13579](?:\\..*)?",         devel: true } # https://tvheadend.org/projects/tvheadend/wiki/download
 - { name: tvnamer,                     ver: "3.0.0",                                       sink: true } # 3.0.0 < 2.3: https://github.com/dbr/tvnamer/releases
 - { name: tvtwm,                       ver: "11",                                          incorrect: true } # pl11
 - { name: tvtwm,                       verpat: "0\\.?(pl[0-9]+)",                          setver: $1 } # pl11
 - { name: twm,                         verpat: "6.*",                                      incorrect: true } # Xorg version used instead of application individual version
-- { name: txt2tags,                    verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: txt2tags,                    verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: typora,                      ver: "0.11.18",                                     legacy: true } # last free version
