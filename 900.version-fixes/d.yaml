@@ -71,6 +71,12 @@
 - { name: diff-pdf,                                                                        noscheme: true }
 - { name: diffpdf,                     verge: "2.1.3.1",                                   successor: true }
 - { name: diffutils,                                                 ruleset: os4depot,    incorrect: true }
+- { name: digger,                      ver: "20160420",              ruleset: [mageia,rosa], incorrect: true }
+- { name: digger,                                                    ruleset: [mageia,rosa], untrusted: true } # accused of fake 20160420
+- { name: digger,                      ver: "20140423",              ruleset: [gentoo],    incorrect: true }
+- { name: digger,                                                    ruleset: [gentoo],    untrusted: true } # accused of fake 20140423
+- { name: digger,                      ver: "20130313",              ruleset: [rosa,sisyphus], incorrect: true }
+- { name: digger,                                                    ruleset: [rosa,sisyphus], untrusted: true } # accused of fake 20130313
 - { name: dino-im,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: dirb,                        verpat: "[0-9]{3}",                                 incorrect: true, disposable: true } # slackbuilds; 2.22, not 222
 - { name: dircproxy,                   ver: "1.2.0",                 ruleset: macports,    incorrect: true } # rc1

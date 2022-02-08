@@ -191,6 +191,10 @@
 - { name: trf, wwwpart: core.tcl.tk, setname: trf-tcl }
 - { name: trf, addflag: unclassified }
 
+- { name: trillian, wwwpart: trillian.im, setname: trillian-im }
+- { name: trillian, wwwpart: google, setname: trillian-data-store }
+- { name: trillian, addflag: unclassified }
+
 - { name: trinity, wwwpart: [codemonkey,kernelslacker], setname: trinity-fuzzer }
 - { name: trinity, wwwpart: trinityrnaseq, setname: trinityrnaseq } # already used in debian
 - { name: trinity, addflag: unclassified }
