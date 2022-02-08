@@ -106,6 +106,8 @@
 - { setname: lmdb,                     name: liblmdb }
 - { setname: lmdb++,                   name: lmdbxx }
 - { setname: local-log4j-vuln-scanner, name: log4j-vuln-scanner }
+- { setname: log4cpp,                  name: liblog5cpp }
+- { setname: log4cpp,                  name: log5cpp-rc, weak_devel: true, nolegacy: true }
 - { setname: log4cxx,                  name: apache-log4cxx }
 - { setname: log4j,                    namepat: "(?:apache-|java-)?log4j[0-9.-]*(-mini|-eap6|-api|-core)?", addflavor: $1 }
 - { setname: logcat-color,             name: "python:logcat-color" }
