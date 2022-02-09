@@ -71,6 +71,8 @@
 - { name: kdepim-runtime,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdepimlibs,                                                ruleset: pisi,        untrusted: true } # repackaged, fake version
 - { name: kdeplasma-addons,            verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: kdeplasma-addons,            ver: "5.24.0a",               ruleset: ubuntu,      incorrect: true }
+- { name: kdeplasma-addons,                                          ruleset: ubuntu,      untrusted: true } # accused of fake 5.24.0a
 - { name: kdesdk-kioslaves,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdesdk-thumbnailers,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdesvn,                      ver: "2.0.95",                ruleset: fedora,      incorrect: true }
