@@ -21,6 +21,10 @@
 
 - { name: vault, wwwpart: taskotron, setname: vault-taskotron }
 
+- { name: vault-cli, wwwpart: rackrabbit, setname: vault-cli-jackrabbit }
+- { name: vault-cli, wwwpart: peopledoc, setname: vault-cli-hashicorp }
+- { name: vault-cli, addflag: unclassified }
+
 - { name: vc, wwwpart: ctan, setname: tex-vc }
 - { name: vc, wwwpart: [github.com/libvc/libvc,rolo], setname: libvc } # vcard library
 - { name: vc, wwwpart: vcdevel, addflag: classified } # simd library

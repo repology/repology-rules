@@ -16,6 +16,7 @@
 - { setname: valyriatear,              name: valyria-tear }
 - { setname: varnish,                  namepat: "varnish[0-9.-]+" }
 - { setname: vault,                    name: vault-bin, addflavor: true }
+- { setname: vault-cli,                name: "python:vault-cli" } # different things in fact, split later
 - { setname: vbsmin,                   name: "ruby:vbsmin" }
 - { setname: vc,                       name: libvc } # different things, but mixed together, split in 850
 - { setname: vcvrack,                  name: vcv-rack }
