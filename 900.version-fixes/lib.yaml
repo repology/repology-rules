@@ -142,6 +142,8 @@
 - { name: libkscreen,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: libksieve,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libksysguard,                verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: libksysguard,                ver: "5.24.0a",               ruleset: ubuntu,      incorrect: true }
+- { name: libksysguard,                                              ruleset: ubuntu,      untrusted: true } # accused of fake 5.24.0a
 - { name: libktorrent,                 verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: libkvkontakte,               verpat: ".*20[0-9]{6}",                             snapshot: true } # aosc snapshot
 - { name: libkvkontakte,               ver: "19.12.0",               ruleset: pclinuxos,   incorrect: true }
