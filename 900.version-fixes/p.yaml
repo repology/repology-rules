@@ -159,6 +159,8 @@
 - { name: plasma-sdk,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: plasma-vault,                verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: plasma-workspace,            verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: plasma-workspace,            ver: "5.24.0b",               ruleset: ubuntu,      incorrect: true }
+- { name: plasma-workspace,                                          ruleset: ubuntu,      untrusted: true } # accused of fake 5.24.0b
 - { name: plasma-workspace-wallpapers, verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: plata-theme,                 verpat: ".*\\.[89][0-9]",                           devel: true }
 - { name: pldebugger,                  verge: "9",                                         sink: true } # https://git.postgresql.org/gitweb/?p=pldebugger.git;a=tag;h=264450daaf89455f92ebcd7d4ff2e8a0a9a19209

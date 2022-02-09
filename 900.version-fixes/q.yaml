@@ -49,8 +49,6 @@
 - { name: qps,                         verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: qrfcview,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: qrfcview,                    ver: "1.0.0",                 ruleset: openbsd,     successor: true } # uses unofficial fork (dead as well)
-- { name: qrupdate,                    verge: "1.1.4",               ruleset: alpine,      incorrect: true } # a fork
-- { name: qrupdate,                                                  ruleset: alpine,      untrusted: true } # fakes a fork as qrupdate XXX: problem
 - { name: qstat,                       ver: "2.15",                  ruleset: [debuntu,fedora,mageia,rosa], incorrect: true }
 - { name: qstat,                                                     ruleset: [debuntu,fedora,mageia,rosa], untrusted: true } # accused of fake 2.15
 - { name: qt,                          verpat: ".*20[0-9]{10}",                            incorrect: true } # gentoo garbage
