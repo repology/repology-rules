@@ -59,6 +59,8 @@
 - { name: sdl-sound,                   ver: "2.0",                   ruleset: rosa,        incorrect: true }
 - { name: sdl-sound,                                                 ruleset: rosa,        untrusted: true } # accused of fake 2.0
 - { name: sdl-ttf,                     ver: "2.0.11.1",                                    ignore: true } # unofficial release (changelog entry, but no tag)
+- { name: sdl-ttf,                     ver: "2.0.18",                ruleset: conan,       incorrect: true } # sdl2-ttf in fact
+- { name: sdl-ttf,                                                   ruleset: conan,       untrusted: true } # accused of fake 2.0.18
 - { name: sdl2,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]*[13579]",          devel: true } # https://discourse.libsdl.org/t/sdl-versioning-update-even-numbered-releases/26632
 - { name: sdl2,                        verpat: "2.0.15.*",           ruleset: postmarketos, incorrect: true }
 - { name: sdl2,                                                      ruleset: postmarketos, untrusted: true } # accused o fake 2.0.15_hg20210201
