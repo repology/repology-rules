@@ -21,6 +21,8 @@
 - { name: makepp,                      verpat: "[0-9]+",                                   incorrect: true }
 - { name: mame,                        verpat: "[0-9]{3}.*",                               incorrect: true } # latest is 0.204
 - { name: man,                         verge: "2",                   ruleset: cygwin,      incorrect: true } # man-db actually, seems to incorrectly handle redirection
+- { name: mandown-manpage-from-markdown, ver: "0.1.3",               ruleset: nix,         incorrect: true }
+- { name: mandown-manpage-from-markdown,                             ruleset: nix,         untrusted: true } # accused of fake 0.1.3
 - { name: marathon-evil,                                                                   noscheme: true }
 - { name: marathon-red,                                                                    noscheme: true }
 - { name: marble,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
