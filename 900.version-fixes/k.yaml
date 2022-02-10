@@ -35,6 +35,8 @@
 - { name: kbounce,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kbreakout,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kbruch,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kbruch,                      ver: "21.12.2a",              ruleset: ubuntu,      incorrect: true } # fake
+- { name: kbruch,                                                    ruleset: ubuntu,      untrusted: true } # accused of fake 5.61.0a
 - { name: kbuild,                      verlonger: 3,                                       ignore: true } # 0.1.9998.8.2814.25 @ pkgsrc
 - { name: kbuild,                      verpat: ".*[rs].*",                                 ignore: true } # 0.1.9998.r2813 | 0.1.9998svn2814
 - { name: kcachegrind,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
