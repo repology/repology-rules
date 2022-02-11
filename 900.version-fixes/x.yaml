@@ -114,6 +114,7 @@
 - { name: xnnpack,                                                                         noscheme: true }
 - { name: xnp2,                        verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: xombrero,                    verlonger: 3,                 ruleset: slitaz,      incorrect: true }
+- { name: xonotic,                     verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: xorg-server,                 verlonger: 3,                 ruleset: crux,        ignore: true } # bogus suffux
 - { name: xorg-server,                 verpat: "[0-9]+\\.[0-9]+\\.99.*",                   devel: true }
 - { name: xorgproto,                   verpat: "20[0-9]{6}",                               incorrect: true } # 2019.2, not YYYYMMDD
