@@ -112,8 +112,6 @@
 - { name: mimetex,                     verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: mimikatz,                    verpat: ".*20[0-9]{6}",                             ignore: true } # BlackArch snap
 - { name: minbif,                      verpat: ".*20[0-9]{6}",                             ignore: true }
-- { name: minetest,                    ver: "5.4.2",                                       altver: true, disposable: true } # claimed to be android-only release, but contains some useful optimizations https://github.com/minetest/minetest/issues/11765
-- { name: minetest-game,               ver: "0.4.17.1",                                    setver: "0.4.17" } # same commit https://github.com/minetest/minetest_game/tags
 - { name: ming,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: minidlna,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: minijail,                    verpat: "55.*",                                     sink: true } # https://chromium.googlesource.com/aosp/platform/external/minijail outdated in favor of https://android.googlesource.com/platform/external/minijail/
