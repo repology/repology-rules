@@ -10,7 +10,7 @@
 - { name: xalan-c,                     verpat: "1\\.11_[0-9]{5}.*",                        snapshot: true } # slackbuilds garbage
 - { name: xanim,                       ver: "2801",                                        incorrect: true } # 2.80.1
 - { name: xanim,                                                     ruleset: t2,          untrusted: true } # accused of fake 2801
-- { name: xantfarm,                    verpat: "20[0-9]{2}.*",                             snapshot: true }
+- { name: xantfarm,                    verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: xapian-core,                 verpat: "[0-9]{3}",                                 incorrect: true } # homebrew
 - { name: xar,                         verpat: "1\\.8.*[^0-9]([0-9]{3}(?:\\.[0-9]+)?)",    setver: "1.8dev+$1" } # apple fork, configure.ac says 1.8dev, and append apple own version in XXX or XXX.Y format
 - { name: xaralx,                      verpat: ".*1750",                                   snapshot: true } # > stable < devel
@@ -26,7 +26,7 @@
 - { name: xchm,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true } # macports
 - { name: xchm,                        verpat: "1\\.24.*",           ruleset: macports,    incorrect: true }
 - { name: xcircuit,                    verge: "3.10",                                      devel: true, maintenance: true } # new version numbers are considered development at first then upgraded to stable http://opencircuitdesign.com/xcircuit/notes.html hopefully this will change with http://opencircuitdesign.com/pipermail/xcircuit-dev/2018-June/000987.html
-- { name: xclip,                       verpat: "20[0-9]{6}.*",                             snapshot: true }
+- { name: xclip,                       verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: xclip,                       ver: "0.13.1",                ruleset: kaos,        incorrect: true }
 - { name: xclip,                                                     ruleset: kaos,        untrusted: true } # accused of fake 0.13.1
 - { name: xcolors,                     verge: "90",                  ruleset: opensuse,    incorrect: true }
@@ -37,10 +37,10 @@
 - { name: xdg-desktop-portal-gtk,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: xdg-desktop-portal-kde,      verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: xdg-user-dirs-gtk,           ver: "0.18",                  ruleset: gobolinux,   incorrect: true }
-- { name: xdg-utils,                   verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: xdg-utils,                   verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: xdg-utils,                   ver: "1.1.5",                 ruleset: [kaos,ravenports], incorrect: true }
 - { name: xdg-utils,                                                 ruleset: [kaos,ravenports], untrusted: true } # accused of fake 1.1.5
-- { name: xdot,                        ver: "20121124",                                    snapshot: true }
+- { name: xdot,                        verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: xdotool,                     verpat: "20[0-9]{6}.*",                             incorrect: true } # it's 3.YYYYMMDD; XXX: problem
 - { name: xdotool,                     ver: "3.20200618.1",          ruleset: openmandriva, incorrect: true } # the tag they pull is from 2016..
 - { name: xdotool,                                                   ruleset: openmandriva, untrusted: true } # the tag they pull is from 2016..
@@ -54,9 +54,9 @@
 - { name: "xdrv:freedreno",            verpat: ".*-[0-9]+-[0-9a-f]{7}",                    incorrect: true }
 - { name: "xdrv:intel",                                                                    noscheme: true }
 - { name: "xdrv:mga",                  verpat: "1\\.9\\..*",                               sink: true } # 2007, while latest 1.6.5 is 2017
-- { name: "xdrv:openchrome",           verpat: "20[0-9]{6}.*",                             snapshot: true } # slackware
-- { name: "xdrv:savage",               verpat: "20[0-9]{6}.*",                             snapshot: true } # slackware
-- { name: "xdrv:sis",                  verpat: "20[0-9]{6}.*",                             snapshot: true } # slackware
+- { name: "xdrv:openchrome",           verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
+- { name: "xdrv:savage",               verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
+- { name: "xdrv:sis",                  verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
 - { name: "xdrv:vboxvideo",            ver: "1.0.1",                 ruleset: openindiana, incorrect: true }
 - { name: "xdrv:vboxvideo",                                          ruleset: openindiana, untrusted: true } # accused of fake 1.0.1
 - { name: "xdrv:xgixp",                verpat: ".*20[0-9]{6}",                             snapshot: true }
