@@ -67,6 +67,10 @@
 - { name: jj, wwwpart: tidwall, setname: jj-json-stream-editor }
 - { name: jj, addflag: unclassified }
 
+- { name: jless, wwwpart: PaulJuliusMartinez, addflag: classified } # or setname: jless-json-pager
+# otherwise some ancient version of less from debian, no upstream defined
+- { name: jless, addflag: unclassified }
+
 - { name: jp, wwwpart: sgreben, setname: jp-terminal-plots }
 - { name: jp, wwwpart: jmespath, setname: jp-jmespath }
 - { name: jp, wwwpart: jpp, setname: jpp } # XXX: problem
