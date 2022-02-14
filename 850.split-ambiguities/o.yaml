@@ -1,14 +1,8 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
-- { name: occt, wwwpart: opencascade, setname: opencascade }
+- { name: occt, wwwpart: opencascade, setname: opencascade-occt }
 - { name: occt, wwwpart: ocbase.com, setname: occt-perestroika }
 - { name: occt, addflag: unclassified }
-
-- { name: oce, wwwpart: tpaviot, setname: opencascade-oce }
-- { name: oce, wwwpart: groups.google.com/group/oce-dev, setname: opencascade-oce }
-- { name: oce, summpart: opencascade, setname: opencascade-oce }
-- { name: oce, ruleset: [pld,aosc,openbsd], setname: opencascade-oce }
-- { name: oce, addflag: unclassified }
 
 - { name: ocp, wwwpart: maxsatula, setname: ocp-oracle-copy-tool }
 - { name: ocp, wwwpart: cubic, setname: ocp-open-cubic-player }
@@ -58,6 +52,10 @@
 - { name: openal, setname: openal-soft } # most openal's are openal-soft, even if they erroneously list openal.org as a website
 
 - { name: openbox-themes, wwwpart: openbox.org, setname: openbox, addflavor: themes } # slitaz
+
+- { name: opencascade, wwwpart: tpaviot, setname: opencascade-oce }
+- { name: opencascade, wwwpart: [opencascade.com, opencascade.org], setname: opencascade-occt }
+- { name: opencascade, addflag: unclassified }
 
 - { name: openfoam, verpat: "v?[0-9]{4}", setname: openfoam-plus } # fork with different versioning, see #231
 

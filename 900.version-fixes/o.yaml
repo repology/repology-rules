@@ -54,10 +54,10 @@
 - { name: openarena,                                                 ruleset: os4depot,    incorrect: true }
 - { name: openbgpd,                    verpat: ".*p.*",              ruleset: gentoo,      untrusted: false }
 - { name: openbor,                     verpat: ".*[^0-9]([0-9]{4,5})",                     setver: $1 }
-- { name: opencascade,                                                                     p_is_patch: true } # 7.3.0 < 7.3.0p3
-- { name: opencascade,                 ver: "7.3.3",                 ruleset: debuntu,     incorrect: true } # 7.3.0p3
-- { name: opencascade,                                               ruleset: debuntu,     untrusted: true } # accused of fake 7.3.3
+- { name: opencascade-occt,                                          ruleset: debuntu,     untrusted: true } # accused of fake 7.3.3
+- { name: opencascade-occt,                                                                p_is_patch: true } # 7.3.0 < 7.3.0p3
 - { name: opencascade-oce,             verlonger: 3,                                       incorrect: true } # weird mix of occt and oce versions
+- { name: opencascade-oce,             verge: "6",                                         incorrect: true } # latest oce version is 0.18.3
 - { name: opencity,                    ver: "0.0.6.5stable",                               ignore: true } # 0.0.6.5; "stable" is not a part of the version
 - { name: opencl,                                                                          noscheme: true } # GH/KhronosGroup/OpenCL-Headers w/o releases or mix of OpenCL-Headers with OpenCL-CLHPP
 - { name: opencl-clhpp,                verpat: "20[0-9]{6}",                               incorrect: true }

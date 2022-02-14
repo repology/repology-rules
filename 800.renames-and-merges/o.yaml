@@ -57,8 +57,11 @@
 - { setname: openbor,                  namepat: "openbor[0-9]+" }
 - { setname: openbve,                  name: openbve-data, addflavor: true }
 - { setname: opencascade,              name: [opencascade-data,opencascade-doc,opencascade-samples], addflavor: true } # sisyphus artifacts
-- { setname: opencascade,              name: opencascade-occt }
-- { setname: opencascade-oce,          name: opencascade-ce }
+- { setname: opencascade,              name: opencascade-re, weak_devel: true, nolegacy: true }
+- { setname: opencascade,              name: opencascade740 }
+- { setname: opencascade,              name: opencascade-cadquery, addflavor: true }
+- { setname: opencascade-occt,         name: occt-webgl-viewer, addflavor: webgl-viewer } # occt in 850
+- { setname: opencascade-oce,          name: [opencascade-ce, oce] }
 - { setname: opencc,                   name: opencc-doc, addflavor: doc }
 - { setname: opencl-clang,             name: intel-opencl-clang }
 - { setname: opencl-clang,             namepat: "opencl-clang(-llvm[0-9]+)" }
