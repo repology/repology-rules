@@ -222,7 +222,8 @@
 - { name: portaudio,                   verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: portaudio,                   ver: "20161030",                                    incorrect: true } # it's 190600_20161030
 - { name: portmidi,                    verpat: "[0-9]{7}",                                 incorrect: true }
-- { name: portmidi,                    verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: portmidi,                    verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: portmidi,                    verpat: "[0-9]{3}",                                 sink: true } # maintained fork uses e.g. 2.0.2 scheme
 - { name: posterazor,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: posterazor,                  ver: "1.9.7",                 ruleset: arch,        incorrect: true }
 - { name: posterazor,                                                ruleset: arch,        untrusted: true } # accused of fake 1.9.7
