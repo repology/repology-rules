@@ -3,5 +3,11 @@
 # NOTE: using `ruleset` condition along with `maintainer` is advised
 # here to optimize lookup
 
-# too many fake versions created by appending an extra component
+# Too many fake versions created by appending an extra component
 - { untrusted: true,         maintainer: "yuri@freebsd.org", ruleset: freebsd }
+
+# KDE packages in Ubuntu publish nonexisting versions such as 5.91.0a
+# According to changelog, the culprit is rikmills@kde.org, but it's not
+# recorded anywhere in the metadata, so we have to ban by KDE groups
+- { untrusted: true,         maintainer: "kubuntu-devel@lists.ubuntu.com", ruleset: debuntu }
+- { untrusted: true,         maintainer: "debian-qt-kde@lists.debian.org", ruleset: debuntu }
