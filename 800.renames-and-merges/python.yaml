@@ -162,6 +162,7 @@
 - { setname: "python:netifaces",       name: netifaces }
 - { setname: "python:networkx",        name: networkx }
 - { setname: "python:networkx",        namepat: "python:networkx[0-9.-]+" }
+- { setname: "python:nltk",            name: nltk }
 - { setname: "python:notebook",        name: ["python:jupyter-notebook", jupyter-notebook] }
 - { setname: "python:numarray",        name: numarray }
 - { setname: "python:numeric",         name: numeric, ruleset: [crux,gobolinux] }
@@ -415,4 +416,5 @@
 - { setname: "python:wxpython",        name: [wxpython-phoenix, wxpythongtk] }
 - { setname: "python:wxpython",        name: [wxpython-gtk2, wxpython-nuitka], addflavor: true }
 - { setname: "python:wxpython",        namepat: "python:wxwidgets[0-9.-]*" }
+- { setname: "python:xarray",          name: xarray }
 - { setname: "python:zopfli",          name: "python:pyzopfli" }
