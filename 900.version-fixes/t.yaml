@@ -159,6 +159,8 @@
 - { name: tracker,                     verpat: ".*99.*",                                   devel: true }
 - { name: tracker-miners,              verpat: ".*99.*",                                   devel: true }
 - { name: traefik,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: transifex-client,            ver: "1.0.0",                 ruleset: gentoo,      incorrect: true } # transifex-cli
+- { name: transifex-client,                                          ruleset: gentoo,      untrusted: true } # accused of fake 1.0.0
 - { name: transset,                    verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: transset,                    verpat: "[0-9]{6}",                                 incorrect: true }
 - { name: tre,                         verpat: "20[0-9]{6}",                               incorrect: true } # aosc snapshot
