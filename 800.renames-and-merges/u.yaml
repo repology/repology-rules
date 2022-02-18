@@ -72,6 +72,7 @@
 - { setname: utfcpp,                   name: [libutfcpp,utf8cpp] }
 - { setname: uthash,                   name: [libuthash-devel,uthash-devel], weak_devel: true, nolegacy: true }
 - { setname: uucp,                     name: taylor-uucp }
+- { setname: uutils-coreutils,         name: [coreutils-uutils, uutils, "rust:coreutils", "rust:uucore"] } # also rust:uu-*, but that may mismerge findutils bits
 - { setname: uwm-ude,                  name: ude } # technically it's named uwm; see also rule in 850
 - { setname: uwsgi,                    name: "python:uwsgi" }
 - { setname: uwsgi,                    name: [uwsgi-plugin-php53,uwsgi-plugin-php56,uwsgi-plugin-php71,uwsgi-plugin-rack22], addflavor: true } # these come from uwsgi itself
