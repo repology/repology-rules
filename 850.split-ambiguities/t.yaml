@@ -69,6 +69,11 @@
 - { name: tesseract, ruleset: [openwrt,pld,solus], setname: tesseract-ocr }
 - { name: tesseract, addflag: unclassified }
 
+- { name: timer, wwwpart: elitetk, setname: timer-elitetk }
+- { name: timer, wwwpart: yoarch, setname: timer-yoarch }
+- { name: timer, wwwpart: caarlos0, setname: timer-caarlos0 }
+- { name: timer, addflag: unclassified }
+
 - { name: tiptop, wwwpart: nschloe, setname: tiptop-nschloe }
 # also another one with dead upstream
 - { name: tiptop, addflag: unclassified }
