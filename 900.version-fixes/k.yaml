@@ -89,6 +89,7 @@
 - { name: kdiff3,                      ver: "1.8.4",                 ruleset: winget,      incorrect: true }
 - { name: kdiff3,                                                    ruleset: winget,      untrusted: true } # accused of fake 1.8.4
 - { name: kdnssd,                      verge: "16",                                        incorrect: true } # probably packages of zeroconf-ioslave instead of kdnssd
+- { name: kea,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*", relge: "1.6.0", devel: true } # https://gitlab.isc.org/isc-projects/kea/-/wikis/Processes/release-process
 - { name: keditbookmarks,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: keepasshttp,                 verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: kexec-tools,                 verpat: "20[0-9]{6}",                               snapshot: true }
