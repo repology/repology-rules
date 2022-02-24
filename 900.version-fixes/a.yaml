@@ -153,6 +153,7 @@
 - { name: aom,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: apache,                      verpat: "2\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: apel,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: apfs,                                                                            noscheme: true } # https://github.com/linux-apfs/linux-apfs-rw/tags
 - { name: apfsprogs,                                                                       noscheme: true } # no tags, binaries and man pages show 0.1 as a "version"
 - { name: apidb,                       ver: "5.0.0",                 ruleset: aur,         incorrect: true }
 - { name: apidb,                                                     ruleset: aur,         untrusted: true } # accused of fake 5.0.0
