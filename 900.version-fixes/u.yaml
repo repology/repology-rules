@@ -52,6 +52,8 @@
 - { name: unnethack,                                                 ruleset: nix,         untrusted: true }
 - { name: unpaper,                     verpat: "20[0-9]{6}.*",                             snapshot: true } # aosc
 - { name: unrar,                       verpat: "[1-9]\\.[0-9]{2}",                         incorrect: true } # it's X.Y.Z, not X.YZ
+- { name: unrar,                       ver: "6.11.1",                ruleset: baulk,       incorrect: true }
+- { name: unrar,                                                     ruleset: baulk,       untrusted: true } # accused of fake 6.11.1
 - { name: unzip,                       verpat: ".*c.*",                                    incorrect: true } # haikuports
 - { name: unzip,                       verpat: "60.*",                                     incorrect: true } # pisi
 - { name: unzip,                       ver: "3.0.1",                 ruleset: [carbs, deepin], incorrect: true }
