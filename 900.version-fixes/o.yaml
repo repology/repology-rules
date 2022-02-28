@@ -71,8 +71,6 @@
 - { name: opendkim,                                                  ruleset: [rpm,alpine], untrusted: true } # accused of fake 2.11.0
 - { name: opendoas,                    ver: "6.9",                   ruleset: aur,         incorrect: true } # fork using the name of original project
 - { name: opendoas,                                                  ruleset: aur,         untrusted: true } # accused of fake 6.9 from an insecure fork
-- { name: openfoam,                    verpat: ".*20[0-9]{6}",                             devel: true } # XXX: alternative schema; https://github.com/OpenFOAM/OpenFOAM-6/releases
-- { name: openfoam-plus,               verpat: "v([0-9]{4})",                              setver: $1 }
 - { name: openjade,                    verpat: ".*(p|pre|devel)[0-9]*",                    devel: true }
 - { name: openjade,                    ver: "1.3.3",                 ruleset: [openpkg,rpm], incorrect: true } # fake, it's 1.3.3pre1
 - { name: openjazz,                    ver: "20190120",                                    incorrect: true } # openbsd (latest is 20190106)

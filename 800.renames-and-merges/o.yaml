@@ -85,7 +85,7 @@
 - { setname: openexr,                  name: "python:pyilmbase", addflavor: pyilmbase }
 - { setname: openexr-viewers,          name: openexr-viewers-nonfree, addflavor: true }
 - { setname: openfoam,                 namepat: "openfoam(-esi)?[0-9x.-]+" }
-- { setname: openfoam,                 name: [openfoam-esi,openfoam-plus] }
+- { setname: openfoam,                 name: [openfoam-esi,openfoam-plus,openfoam-com,openfoam-org] }
 - { setname: openh264,                 name: libopenh264 }
 - { setname: openhab,                  name: openhab-beta, weak_devel: true, nolegacy: true }
 - { setname: openhab,                  name: openhab2 }
