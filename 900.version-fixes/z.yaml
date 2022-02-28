@@ -26,6 +26,8 @@
 - { name: zfs,                         verpat: ".*\\.99",                                  ignore: true } # master branch, not a real version https://github.com/openzfs/zfs/commit/9ac82cab2d8e5235b61e6811203793758c30b994
 - { name: zidrav,                      ver: "1.20",                  ruleset: pkgsrc,      incorrect: true } # 1.2.0
 - { name: zidrav,                                                    ruleset: pkgsrc,      untrusted: true }
+- { name: zig,                         verlonger: 3,                 ruleset: funtoo,      incorrect: true }
+- { name: zig,                                                       ruleset: funtoo,      untrusted: true } # accused of fake 0.10.0.1018
 - { name: zile,                        verpat: ".*\\.[5-9][0-9]",                          devel: true } # assumed https://git.savannah.gnu.org/cgit/zile.git/refs/tags
 - { name: zip,                         verlonger: 2,                 ruleset: openmandriva, ignore: true } # fork
 - { name: zip,                         verpat: "[0-9]{2}",                                 incorrect: true } # T2; it's 3.0, not 30
