@@ -106,6 +106,8 @@
 - { name: libhangul,                   verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: libharu,                     ver: "2.4.0",                 ruleset: pkgsrc,      incorrect: true }
 - { name: libharu,                                                   ruleset: pkgsrc,      untrusted: true } # accused of fake 2.4.0
+- { name: libheif,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: libheif,                                                   ruleset: freebsd,     untrusted: true } # accused of fake 1.12.0.62
 - { name: libhid,                      ver: "0.2.17",                ruleset: [fedora,rosa], incorrect: true } # nonexisting release
 - { name: libhid,                                                    ruleset: [fedora,rosa], untrusted: true }
 - { name: libhidapi,                   ver: "0.8.0",                 ruleset: sisyphus,    incorrect: true } # 0.8.0-rc1
