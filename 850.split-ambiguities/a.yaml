@@ -223,6 +223,10 @@
 - { name: augustus, wwwpart: [gobics,bioinf], setname: augustus-gene-prediction }
 - { name: augustus, addflag: unclassified }
 
+- { name: avl, wwwpart: [adtinfo, gnu], setname: libavl } # gnu libavl; there's another libavl by Wessel Dankers in debian, upstreamless
+- { name: avl, wwwpart: drela, addflag: classified } # aerodynamics
+- { name: avl, addflag: unclassified }
+
 - { name: avogadro, verge: "1.8", setname: avogadro2 } # actually it starts with 1.90, but also cover strange 1.9 from KDE Neon
 
 - { name: awf, wwwpart: [scn.rain.com,henry_spencer], setname: awf-formatter } # Amazingly Workable Formatter
