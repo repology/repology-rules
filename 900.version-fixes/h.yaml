@@ -14,6 +14,7 @@
 - { name: hcloud,                                                    ruleset: arch,        untrusted: true } # accused of fake 1.20.1
 - { name: hddtemp,                     ver: "0.3",                   ruleset: [sisyphus,mageia,openmandriva,pld,pclinuxos], incorrect: true } # 0.3beta15
 - { name: hddtemp,                     verpat: ".*(52|53)",                                incorrect: true } # 0.3beta15
+- { name: hdf5,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*", relge: "1.13", devel: true } # https://www.hdfgroup.org/2021/12/hdf5-1-13-0-introducing-experimental-releases/
 - { name: hdrmerge,                    verge: "5.0",                 ruleset: aur,         incorrect: true } # 0.5.0
 - { name: heaptrack,                   ver: "1.2.80",                ruleset: sisyphus,    incorrect: true }
 - { name: heaptrack,                                                 ruleset: sisyphus,    untrusted: true } # accused of fake 1.2.80
