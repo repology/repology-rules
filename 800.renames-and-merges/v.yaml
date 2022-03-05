@@ -15,6 +15,7 @@
 - { setname: valgrind,                 name: valgrind-client-headers-source, addflavor: true }
 - { setname: valyriatear,              name: valyria-tear }
 - { setname: varnish,                  namepat: "varnish[0-9.-]+" }
+- { setname: varnish,                  name: varnish-cache }
 - { setname: vault,                    name: vault-bin, addflavor: true }
 - { setname: vault-cli,                name: "python:vault-cli" } # different things in fact, split later
 - { setname: vbsmin,                   name: "ruby:vbsmin" }
