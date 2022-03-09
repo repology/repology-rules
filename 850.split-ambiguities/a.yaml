@@ -198,7 +198,7 @@
 - { name: async, wwwpart: gitpython-developers, setname: "python:async" } # XXX: problem; discontinued by upstream
 - { name: async, addflag: unclassified }
 
-- { name: aterm, wwwpart: meta-environment, setname: aterm-annotated-terms }
+- { name: aterm, wwwpart: meta-environment, setname: libaterm } # reuse name from macports
 - { name: aterm, wwwpart: [aterm.sourceforge.net, sourceforge.net/projects/aterm, afterstep.org], setname: aterm-terminal }
 - { name: aterm, addflag: unclassified }
 
