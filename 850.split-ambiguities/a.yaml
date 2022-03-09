@@ -158,7 +158,9 @@
 
 - { name: argp, wwwpart: [lysator,gnu.org], setname: argp-standalone }
 
-- { name: argtable, wwwpart: argtable.org, setname: argtable3 }
+- { name: argtable, wwwpart: [argtable.org,argtable3], setname: argtable3 }
+- { name: argtable, wwwpart: [argtable.sourceforge.net,sourceforge.net/projects/argtable/], setname: argtable2 }
+- { name: argtable, addflag: unclassified }
 
 # both argus projects refer to monitoring, but argus-monitor name is already used in macports
 - { name: argus, wwwpart: tcp4me.com, setname: argus-monitor }
