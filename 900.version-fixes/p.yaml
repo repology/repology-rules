@@ -279,6 +279,8 @@
 - { name: proot,                       verpat: "5\\.1\\.[0-9]{3}.*",                       incorrect: true }
 - { name: properties-cpp,              verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: prosody-modules,                                                                 noscheme: true }
+- { name: protobuf,                    ver: "3.20.0",                ruleset: funtoo,      incorrect: true }
+- { name: protobuf,                                                  ruleset: funtoo,      untrusted: true } # accused of fake 3.20.0
 - { name: protonmail-bridge,           verpat: ".*-.*",              ruleset: nix,         debianism: true }
 - { name: protonvpn-cli,               verpat: "[0-9]{10}",                                incorrect: true }
 - { name: prototypejs,                 verpat: ".*js",                                     incorrect: true }
