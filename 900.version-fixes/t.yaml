@@ -128,6 +128,8 @@
 - { name: tnt,                         verpat: "[0-9]{3,}",                                incorrect: true } # sisyphus
 - { name: tnt,                         verge: "3",                                         devel: true } # beta as per https://math.nist.gov/tnt/download.html
 # from https://github.com/macports/macports-ports/blob/master/x11/Togl/Portfile: The developers of Netgen seem to be updating a local copy and calling it version 2.1. See https://github.com/NGSolve/netgen/tree/master/ng.
+- { name: todo.txt-cli,                ver: "2.12.0.post1",                                incorrect: true }
+- { name: todo.txt-cli,                                              ruleset: aur,         untrusted: true } # accused of fake 2.12.0.post1
 - { name: togl,                        verge: "2.1",                                       successor: true }
 - { name: tolua++,                     ver: "1.0.94",                ruleset: maemo,       ignore: true }
 - { name: tomahawk,                    verpat: "0\\.8\\.99.*",                             ignore: true } # fake
