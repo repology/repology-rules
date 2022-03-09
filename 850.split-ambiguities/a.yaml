@@ -198,7 +198,9 @@
 - { name: async, wwwpart: gitpython-developers, setname: "python:async" } # XXX: problem; discontinued by upstream
 - { name: async, addflag: unclassified }
 
-- { name: aterm, wwwpart: strategoxt.org, setname: libaterm } # http://strategoxt.org/Tools/ATermFormat, not a terminal emulator. target name taken from macports
+- { name: aterm, wwwpart: meta-environment, setname: aterm-annotated-terms }
+- { name: aterm, wwwpart: [aterm.sourceforge.net, sourceforge.net/projects/aterm, afterstep.org], setname: aterm-terminal }
+- { name: aterm, addflag: unclassified }
 
 - { name: atlas, wwwpart: [/atlas.sourceforge.net,sourceforge.net/projects/atlas], setname: fgfs-atlas }
 - { name: atlas, wwwpart: worldforge, setname: atlas-c++ }
