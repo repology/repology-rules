@@ -27,6 +27,10 @@
 - { name: whereami, ruleset: debuntu, setname: whereami-debian } # Automatically reconfigure your (laptop) system for a new location based of wifi hotspots
 - { name: whereami, addflag: unclassified }
 
+- { name: wio, wwwpart: github.com/wio/wio, setname: wio-iot }
+- { name: wio, wwwpart: wio-project.org, setname: wio-compositor }
+- { name: wio, addflag: unclassified }
+
 - { name: wipe, wwwpart: [wipe.sourceforge,wipe.sf.net,sourceforge.net/projects/wipe], setname: wipe-nester }
 - { name: wipe, wwwpart: [berke,lambda-diode,abaababa], setname: wipe-berke }
 - { name: wipe, ruleset: pclinuxos, setname: wipe-nester }
