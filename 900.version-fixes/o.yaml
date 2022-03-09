@@ -121,6 +121,10 @@
 - { name: openstack-nova,              verpat: "201[24].*",                                sink: true }
 - { name: opentracker,                                                                     noscheme: true }
 - { name: opentyrian,                                                ruleset: os4depot,    incorrect: true }
+- { name: opentyrian,                  ver: "2.1.20201204",          ruleset: openbsd,     incorrect: true }
+- { name: opentyrian,                                                ruleset: openbsd,     untrusted: true } # accused of fake 2.1.20201204
+- { name: opentyrian,                  ver: "2.1.20201203",          ruleset: opensuse,    incorrect: true }
+- { name: opentyrian,                                                ruleset: opensuse,    untrusted: true } # accused of fake 2.1.20201203
 - { name: openuniverse,                ver: "1.0beta3.1",                                  incorrect: true } # debian garbage
 - { name: openvpn,                     verpat: ".*\\.[0-9]{3}",                            incorrect: true }
 - { name: openvpn,                                                   ruleset: winget,      untrusted: true } # accused of fake 2.5.020, 2.5.021
