@@ -18,6 +18,8 @@
 - { name: zenity,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: zeroconf-ioslave,            verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: zeromq,                      verpat: "20[0-9]{6}.*",                             snapshot: true } # vcpkg snapshot
+- { name: zeronet,                     ver: "0.7.2",                 ruleset: homebrew_casks, incorrect: true }
+- { name: zeronet,                                                   ruleset: homebrew_casks, untrusted: true } # accused of fake 0.7.2
 - { name: zfs,                         ver: "0.8.0",                 ruleset: pld,         incorrect: true } # latest is 0.8.0rc2
 - { name: zfs,                                                       ruleset: pld,         untrusted: true } # accused of fake 0.8.0
 - { name: zfs,                         verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
