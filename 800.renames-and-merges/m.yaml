@@ -30,6 +30,8 @@
 - { setname: manpages-zh,              name: [man-pages-zh, man-pages-zh-cn] } # upstream claims that this is the official name
 - { setname: mapnik,                   name: libmapnik }
 - { setname: mapproxy,                 name: "python:mapproxy" }
+- { setname: maptool,                  name: maptool-stable }
+- { setname: maptool,                  name: maptool-beta, weak_devel: true, nolegacy: true }
 - { setname: marathon,                 name: [alephone-marathon, marathon-data] }
 - { setname: marathon-evil,            name: marathon-evil-data }
 - { setname: marathon-infinity,        name: [marathon-infinity-data, marathoninfinity] }
