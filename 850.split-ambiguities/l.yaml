@@ -83,7 +83,9 @@
 - { name: libtls-standalone, wwwpart: libressl, setname: libressl, addflavor: true }
 - { name: libtls-standalone, addflag: unclassified }
 
-- { name: libtorrent, wwwpart: arvidn, setname: libtorrent-rasterbar }
+- { name: libtorrent, wwwpart: [arvidn,libtorrent.org], setname: libtorrent-rasterbar }
+- { name: libtorrent, wwwpart: [rakshasa,rtorrent], setname: libtorrent-rakshasa }
+- { name: libtorrent, addflag: unclassified }
 
 - { name: libtree, wwwpart: haampie, setname: libtree-ldd }
 - { name: libtree, wwwpart: piumarta, setname: libtree-avl }
