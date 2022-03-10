@@ -86,6 +86,10 @@
 - { name: json, wwwpart: nlohmann, setname: nlohmann-json }
 # XXX: other stuff remains
 
+- { name: julia-compat, wwwpart: compat.jl, setname: "julia:compat" } # compat module
+- { name: julia-compat, wwwpart: julialang.org, setname: julia, weak_devel: true, nolegacy: true } # legacy julia
+- { name: julia-compat, addflag: unclassified }
+
 - { name: julius, wwwpart: [julius.sourceforge.jp,julius-speech], setname: julius-speech }
 - { name: julius, wwwpart: bvschaik, setname: julius-caesar3 }
 - { name: julius, category: games, setname: julius-caesar3 }

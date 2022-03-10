@@ -60,6 +60,8 @@
 - { setname: juffed,                   name: juffed-qt5, addflavor: true }
 - { setname: julia,                    name: julialang }
 - { setname: julia,                    namepat: "julia[0-9._]+" }
+- { setname: julia,                    name: julia-beta, weak_devel: true, nolegacy: true }
+- { setname: julia,                    name: julia-bin, addflavor: true }
 - { setname: julius-caesar3,           name: [julius-caesariii,julius-game] }
 - { setname: jumpnbump,                name: jump-n-bump }
 - { setname: jungledisk,               name: [junglediskserver,junglediskservermanagement,junglediskworkgroup], addflavor: true }
