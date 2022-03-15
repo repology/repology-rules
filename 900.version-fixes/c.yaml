@@ -177,6 +177,7 @@
 - { name: clutter-box2d,               verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: cmake,                       ver: "3.23.0",                ruleset: winget,      incorrect: true }
 - { name: cmake,                                                     ruleset: winget,      untrusted: true } # accused of fake 3.23.0
+- { name: cmark-gfm,                                                                       any_is_patch: true } # e.g. 0.29.0.gfm.3
 - { name: cmatrix,                     ver: "1.2b",                  ruleset: termux,      incorrect: true }
 - { name: cmatrix,                                                   ruleset: termux,      untrusted: true }
 - { name: cmdpack,                     vergt: "1.03",                                      successor: true }
