@@ -94,6 +94,8 @@
 - { name: shadowsocks,                 verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: shairplay,                                                                       noscheme: true }
 - { name: shairport-sync,              verpat: ".*d.*",                                    devel: true }
+- { name: sharpconstruct,              ver: "0.12",                  ruleset: aur,         incorrect: true } # 0.12-rc3
+- { name: sharpconstruct,                                            ruleset: aur,         untrusted: true } # accused of fake 0.12
 - { name: shattered-pixel-dungeon,                                   ruleset: aur,         untrusted: true } # wierd version mangling
 - { name: shflags,                     ver: "2012",                                        incorrect: true } # openwrt
 - { name: shibboleth-sp,               ver: "3.0.4.1",               ruleset: nix,         incorrect: true }
