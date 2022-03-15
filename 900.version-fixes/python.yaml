@@ -158,3 +158,4 @@
 - { name: "python:turbokid",                                         ruleset: sisyphus,    untrusted: true } # accused of fake 1.0.6
 - { name: "python:webm",               vergt: "0.2.2",                                     successor: true } # http://xpra.org/src/ vs. https://github.com/expobrain/python-webm/releases
 - { name: "python:xlib",               verlonger: 2,                 ruleset: freebsd,     incorrect: true }
+- { name: "python:yarl",               ver: "1.8.0",                                       ignore: true, disposable: true } # not an official release https://github.com/aio-libs/yarl/discussions/689
