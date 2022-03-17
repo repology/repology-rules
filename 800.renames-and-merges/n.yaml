@@ -143,5 +143,6 @@
 - { setname: nvidia-settings,          namepat: "nvidia[x0-9.-]*-settings" }
 - { setname: nvidia-settings,          namepat: "nvidia-settings-.*" }
 - { setname: nvidia-settings,          namepat: "nvidia-settings-experimental.*", weak_devel: true, nolegacy: true }
+- { setname: nvidia-texture-tools,     name: nvtt }
 - { setname: nvidiabl,                 name: [dkms-nvidiabl,nvidiabl-kernel] }
 - { setname: nyx,                      name: "python:nyx" }
