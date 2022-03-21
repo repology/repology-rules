@@ -312,6 +312,7 @@
     mailcommon|
     mailimporter|
     marble|
+    mbox-importer|
     messagelib|
     milou|
     minuet|
@@ -320,6 +321,7 @@
     oxygen-icons|
     palapeli|
     parley|
+    pim-sieve-editor|
     pimcommon|
     plasma-desktop|
     plasma-framework|
@@ -350,7 +352,8 @@
     threadweaver|
     umbrello|
     xdg-desktop-portal-kde|
-    yakuake
+    yakuake|
+    zanshin
     )(?:4|5|-kde4|-kde5|-kf5|-light|-qt5)?
   setname: "$1"
 
@@ -414,3 +417,4 @@
 - { setname: plasma-$1,                namepat: "(?:plasma-applet-|plasma5-applets?-|plasmoid-)(.+)" }
 - { setname: angelfish,                name: [kde5-plasma-angelfish,plasma-angelfish] }
 - { setname: angelfish,                name: plasma-angelfish-git, weak_devel: true }
+- { setname: pim-sieve-editor,         name: sieveeditor }

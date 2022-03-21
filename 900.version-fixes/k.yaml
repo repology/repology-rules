@@ -16,6 +16,7 @@
 - { name: kalarm,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kalarmcal,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kaldi,                                                                           noscheme: true }
+- { name: kalendar,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kalgebra,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kalzium,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kamera,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -79,6 +80,9 @@
 - { name: kdesdk-thumbnailers,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdesvn,                      ver: "2.0.95",                ruleset: fedora,      incorrect: true }
 - { name: kdesvn,                                                    ruleset: fedora,      untrusted: true } # accused of fake 2.0.95
+- { name: kdev-php,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdev-python,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kdevelop,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdf,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdgantt2,                    ver: "16.12.0",               ruleset: pisi,        incorrect: true }
 - { name: kdgantt2,                                                  ruleset: pisi,        untrusted: true } # accused of fake 16.12.0
@@ -215,9 +219,11 @@
 - { name: konversation,                verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: konwert,                     verlonger: 3,                                       debianism: true }
 - { name: kooha,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true } # fake 1.2.1.665
+- { name: kopeninghours,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kopete,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: korganizer,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: korla-icon-theme,            ver: "2.0.0",                                       incorrect: true } # 2.0.0 release was a mistage from developer https://github.com/bikass/korla/issues/94
+- { name: kosmindoormap,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kotlin,                      verpat: ".*m.*",                                    devel: true }
 - { name: kpat,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kpatch,                      ver: "2.0",                   ruleset: openeuler,   incorrect: true }
