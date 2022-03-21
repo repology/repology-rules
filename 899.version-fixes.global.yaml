@@ -103,3 +103,6 @@
 # ignoring preferred_versions or lagging with updates), so mark them so. In other cases package statuses
 # will not be affected as incorrect status is suppressed by equal or higher trusted version from hackage.
 - {                                                                  ruleset: stackage,    incorrect: true }
+
+# repositories which fail to provide links to package sources
+- {                                                                  ruleset: openpkg,     untrusted: true }
