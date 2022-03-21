@@ -39,6 +39,10 @@
 
 - { name: jbigkit, wwwpart: ImageMagick/jbig, incorrect: true } # versionless ancient garbage fork; XXX: outdated?
 
+- { name: jcli, wwwpart: jenkins-zh, setname: jenkins-cli }
+- { name: jcli, wwwpart: brokenpip3, setname: jenkins-job-cli }
+- { name: jcli, addflag: unclassified }
+
 - { name: jd, wwwpart: tidwall, setname: jd-json-editor }
 - { name: jd, wwwpart: josephburnett, setname: jd-json-tool }
 - { name: jd, wwwpart: [jd4linux,yama-natuki], setname: jd-2ch-browser }
