@@ -75,7 +75,7 @@
 - { setname: "gstreamer:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_gstreamer], namepat: "gst_(?:plugins_)?(.*)", ruleset: haikuports }
 
 # Haskell
-- { setname: "haskell:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_haskell], namepat: "haskell-(.*)", ruleset: [arch,chakra,debuntu,gobolinux,slackbuilds,solus] }
+- { setname: "haskell:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_haskell], namepat: "haskell-(.*)", ruleset: [arch,chakra,debuntu,gobolinux,slackbuilds,solus,termux] }
 - { setname: "haskell:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_haskell], namepat: "hs-(.*)", ruleset: [freebsd,macports,openbsd,pkgsrc] }
 - { setname: "haskell:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_haskell], namepat: "ghc-(.*)", ruleset: [fedora,guix,opensuse,rosa,pld,fink,openmamba] }
 - { setname: "haskell:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_haskell], category: dev-haskell, ruleset: [ gentoo, exherbo ] }
