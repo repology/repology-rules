@@ -258,6 +258,7 @@
 - { name: cryptcat,                    ver: "20031202",                                    ignore: true }
 - { name: crypthook,                                                                       noscheme: true }
 - { name: crypto++,                    verpat: "[0-9]{3}",                                 incorrect: true }
+- { name: cryptodev-linux,             verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: cssed,                       ver: "0.4.1",                 ruleset: sisyphus,    incorrect: true }
 - { name: cssed,                                                     ruleset: sisyphus,    untrusted: true } # accused of fake 0.4.1
 - { name: csync,                       ver: ["0.50.6","0.50.8"],     ruleset: [sisyphus, slitaz], incorrect: true }
