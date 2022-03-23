@@ -31,6 +31,8 @@
 - { name: can-utils,                                                                       noscheme: true }
 - { name: candy-icons,                                                                     noscheme: true }
 - { name: canna,                                                                           p_is_patch: true }
+- { name: cantera,                     ver: "2.6.0",                 ruleset: fedora,      incorrect: true }
+- { name: cantera,                                                   ruleset: fedora,      untrusted: true } # accused of fake 2.6.0
 - { name: cantor,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: cantor,                      ver: "21.12.0a",              ruleset: debuntu,     incorrect: true }
 - { name: cantor,                                                    ruleset: debuntu,     untrusted: true } # accused of fake 21.12.0a
