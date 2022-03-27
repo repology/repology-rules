@@ -16,6 +16,8 @@
 - { setname: maildrop,                 name: courier-maildrop }
 - { setname: mailman,                  name: mailman3 }
 - { setname: mailman,                  name: [mailman3-core,mailman-core], addflavor: core }
+- { setname: mailman,                  name: "python:mailman" }
+- { setname: mailman,                  name: [mailman-exim4,mailman-postfix], addflavor: true }
 - { setname: mailx,                    name: bsd-mailx }
 - { setname: make,                     name: [gmake,gnumake,make-3.81,make3,make-gnu,make381] }
 - { setname: make,                     name: [make-dfsg,make-doc-non-dfsg], addflavor: true }
