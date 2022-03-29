@@ -69,6 +69,7 @@
     - "php:zend-test"
     - "php:zip"
     - "php:zlib"
+  noflag: pearpecl
   addflavor: true
 
 - { setname: "php:awl",                name: [awl, "php:libawl"] }
