@@ -23,6 +23,10 @@
 - { name: keystone, ruleset: openbsd, setname: keystone-engine }
 - { name: keystone, addflag: unclassified }
 
+- { name: kermit, wwwpart: kermitproject.org, setname: ckermit }
+- { name: kermit, wwwpart: orhun, setname: kermit-terminal-emulator }
+- { name: kermit, addflag: unclassified }
+
 - { name: kiki, category: [python,universe/python], setname: kiki-re }
 - { name: kiki, wwwpart: [freezope,kiki-re], setname: kiki-re }
 
