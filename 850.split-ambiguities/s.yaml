@@ -73,6 +73,11 @@
 
 - { name: sensors, wwwpart: lm-sensors, setname: lm-sensors } # XXX: problem
 
+- { name: sentinel, wwwpart: smfilter, setname: sentinel-smfilter }
+- { name: sentinel, wwwpart: hashicorp, setname: sentinel-hashicorp }
+- { name: sentinel, wwwpart: yerseyah, setname: sentinel-log-viewer }
+- { name: sentinel, addflag: unclassified }
+
 - { name: selene, wwwpart: teejee, setname: selene-media-converter }
 - { name: selene, wwwpart: jeremyong, setname: selene-lua-bindings }
 - { name: selene, wwwpart: kmhofmann, setname: selene-image-library }
