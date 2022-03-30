@@ -37,8 +37,8 @@
 - { setname: "emacs:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_emacs], category: emacs27Packages, namepat: "(?:emacs-)?(.*?)", ruleset: nix }
 
 # Erlang
-- { setname: "erlang:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_arlang], category: dev-erlang, ruleset: [ gentoo, exherbo ] }
-- { setname: "erlang:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_arlang], namepat: "erlang-(.*)" }
+- { setname: "erlang:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_erlang], category: dev-erlang, ruleset: [ gentoo, exherbo ] }
+- { setname: "erlang:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_erlang], namepat: "erlang-(.*)" }
 
 # Fortunes
 - { setname: "fortunes:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_fortunes], namepat: "fortune-mod-(.*)" }
