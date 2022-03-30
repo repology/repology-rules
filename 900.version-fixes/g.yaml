@@ -223,6 +223,7 @@
 - { name: gnome-usage,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-user-docs,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-user-share,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-video-effects,         verpat: ".+20[0-9]{6}",                             snapshot: true } # openbsd
 - { name: gnome-weather,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: "gnome:openweather",         verpat: "[0-9]{3}.*",                               incorrect: true }
 - { name: "gnome:openweather",                                       ruleset: nix,         untrusted: true } # accused of fake 106
