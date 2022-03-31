@@ -137,6 +137,7 @@
 - { setname: opensmtpd-extras,         namepat: "opensmtpd-extras-.*", ruleset: [freebsd,openbsd] }
 - { setname: opensonic,                name: opensnc }
 - { setname: opensp,                   name: opensp-doc, addflavor: doc }
+- { setname: openstack-placement,      name: "python:$0" }
 - { setname: openttd,                  name: [open-ttd, openttd-stable] }
 - { setname: openttd,                  name: [openttd-version, openttd-btpro], addflavor: true }
 - { setname: openttd-opengfx,          name: [opengfx, openttd-opengfx] }

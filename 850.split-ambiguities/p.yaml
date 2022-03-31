@@ -126,6 +126,9 @@
 - { name: pkgtools, ruleset: [arch,aur], setname: $0-arch }
 - { name: pkgtools, ruleset: slackware, setname: $0-slackware }
 
+- { name: placement, wwwpart: openstack, setname: openstack-placement }
+- { name: placement, addflag: unclassified }
+
 - { name: plank, wwwpart: pinterest, setname: plank-framework }
 
 - { name: planner, wwwpart: alainm23, setname: elementary-planner }
