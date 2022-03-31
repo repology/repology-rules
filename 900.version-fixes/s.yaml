@@ -60,6 +60,8 @@
 - { name: sdl,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: sdl-sound,                   ver: "2.0",                   ruleset: rosa,        incorrect: true }
 - { name: sdl-sound,                                                 ruleset: rosa,        untrusted: true } # accused of fake 2.0
+- { name: sdl-sound,                   ver: "1.0.4",                 ruleset: [sisyphus,mageia], incorrect: true }
+- { name: sdl-sound,                                                 ruleset: [sisyphus,mageia], untrusted: true } # accused of fake 1.0.4
 - { name: sdl-ttf,                     ver: "2.0.11.1",                                    ignore: true } # unofficial release (changelog entry, but no tag)
 - { name: sdl-ttf,                     ver: "2.0.18",                ruleset: conan,       incorrect: true } # sdl2-ttf in fact
 - { name: sdl-ttf,                                                   ruleset: conan,       untrusted: true } # accused of fake 2.0.18
