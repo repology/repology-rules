@@ -15,11 +15,11 @@
 - { setname: wine-etersoft,            name: wine, ruleset: sisyphus } # counterfeit
 - { setname: "python:pyxdg",           name: "python:xdg", verpat: "0\\..*" } # XXX: problem
 - { setname: s-nail,                   name: mailx, ruleset: crux } # XXX: problem
-- { setname: sdl2,                     name: sdl, verge: "2" }
-- { setname: sdl2-ttf,                 name: sdl-ttf, ruleset: [exherbo,gobolinux,kaos] }
-- { setname: sdl2-ttf,                 name: sdl-ttf, wwwpart: sdl2_ttf }
-- { setname: sdl2-net,                 name: sdl-net, verge: "2" }
-- { setname: sdl2-mixer,               name: sdl-mixer, verge: "2" }
+- { setname: sdl2,                     name: sdl, verge: "2" } # XXX: move to 850
+- { setname: sdl2-ttf,                 name: sdl-ttf, ruleset: [exherbo,gobolinux,kaos] } # XXX: move to 850
+- { setname: sdl2-ttf,                 name: sdl-ttf, wwwpart: sdl2_ttf } # XXX: move to 850
+- { setname: sdl2-net,                 name: sdl-net, verge: "2" } # XXX: move to 850
+- { setname: sdl2-mixer,               name: sdl-mixer, verge: "2" } # XXX: move to 850
 - { setname: mandoc,                   name: man, wwwpart: mdocml }
 - { setname: google-authenticator-libpam, name: google-authenticator, wwwpart: google-authenticator-libpam }
 - { setname: "python:iso-8601",        name: "python:iso8601", ver: "0.2.4" } # rosa problem
