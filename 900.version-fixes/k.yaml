@@ -121,7 +121,8 @@
 - { name: kholidays,                                                 ruleset: [kaos,openmandriva], untrusted: true } # accused of fake 5.54.0
 - { name: khotkeys,                    verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: khronos-api,                                                                     noscheme: true }
-- { name: kicad,                       verpat: "20[0-9][0-9].*",                           ignore: true }
+- { name: kicad,                       verpat: "20[0-9][0-9].*",                           incorrect: true } # rosa
+- { name: kicad,                       verpat: "[0-9a-f]+",                                incorrect: true } # nix
 - { name: kicad,                       ver: "5.1",                   ruleset: debuntu,     incorrect: true }
 - { name: kicad,                                                     ruleset: debuntu,     untrusted: true }
 - { name: kicad-doc,                   verpat: "20[0-9]{6}",                               snapshot: true }
