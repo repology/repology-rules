@@ -53,6 +53,8 @@
 - { name: pcc-libs,                    verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: pcc-libs,                    ver: "1.2.0",                 ruleset: debuntu,     incorrect: true }
 - { name: pcc-libs,                                                  ruleset: debuntu,     untrusted: true } # accused of fake 1.2.0
+- { name: pcem,                        verpat: "[0-9a-f]{7}.*",                            incorrect: true }
+- { name: pcem,                                                      ruleset: slackbuilds, untrusted: true } # accused of fake 965ea55.20220306
 - { name: pciids,                                                                          noscheme: true }
 - { name: pclcomp,                     ver: "0.99.2",                ruleset: t2,          incorrect: true }
 - { name: pclcomp,                                                   ruleset: t2,          untrusted: true } # accused of fake 0.99.2
