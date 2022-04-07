@@ -93,6 +93,10 @@
 - { name: "php:soap", wwwpart: pear, addflag: classified }
 - { name: "php:soap", noflag: classified, setname: php, addflavor: soap }
 
+- { name: "python:exif", wwwpart: [TNThieding,pypi.org/project/exif/], addflag: classified }
+- { name: "python:exif", wwwpart: exif-pt, setname: "python:exifread" } # XXX: problem
+- { name: "python:exif", addflag: unclassified }
+
 - { name: picard, wwwpart: [picard.sourceforge.net,sourceforge.net/projects/picard,broadinstitute], setname: picard-tools } # reuse widely used name
 - { name: picard, wwwpart: brainz, setname: picard-tagger }
 - { name: picard, addflag: unclassified }
