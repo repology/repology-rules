@@ -142,4 +142,6 @@
 - { name: nvclock,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: nvidia,                      verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: nvidiabl,                    verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
+- { name: nvme-cli,                    verpat: ".*~.*",                                    incorrect: true }
+- { name: nvme-cli,                                                  ruleset: opensuse,    untrusted: true } # accused if fake 2.0~7
 - { name: nzbget,                      verpat: ".*r.*",                                    snapshot: true } # 20.0r<rev> and 20.0pre<rev> garbage
