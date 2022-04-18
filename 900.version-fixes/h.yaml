@@ -51,6 +51,8 @@
 - { name: hunspell-he,                 verpat: "20[0-9]{6}",                               incorrect: true } # pkgsrc
 - { name: hunspell-hu,                 verpat: "20[0-9]{2}.*",                             incorrect: true } # pkgsrc
 - { name: hunspell-it,                 ver: "2016.2.13",                                   incorrect: true } # the real version is 2016.02.10, see #298
+- { name: hunspell-nl,                 verpat: "201[0-9].*",                               sink: true }
+- { name: hunspell-nl,                 verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: hunspell-pt-br,              ver: ["20131017","20130317"],                       sink: true } # see report
 - { name: hunspell-pt-br,              ver: "2013.10.30",                                  setver: "3.2" } # see report
 - { name: hw-probe,                    ver: "1.6",                   ruleset: manjaro,     incorrect: true }
