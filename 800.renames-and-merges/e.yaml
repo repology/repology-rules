@@ -111,10 +111,11 @@
 - { setname: epsxe,                    name: epsxe1.9 }
 - { setname: epydoc,                   name: "python:epydoc" }
 - { setname: eric,                     name: [eric-common,eric-i18n,"python:eric"], addflavor: true }
-- { setname: eric,                     name: [eric4,eric5,eric6] }
-- { setname: eric,                     namepat: "([a-z]{2})-eric6", addflavor: $1 } # freebsd l10n ports
+- { setname: eric,                     name: [eric4, eric5, eric6, eric7] }
+- { setname: eric,                     namepat: "([a-z]{2})-eric[0-9]", addflavor: $1 } # freebsd l10n ports
 - { setname: eric,                     namepat: "eric-(i18n-.*)", addflavor: $1 }
 - { setname: eric,                     name: [eric6-qt4, eric6-qt5], addflavor: true }
+- { setname: eric,                     name: "python:eric-ide" }
 - { setname: erkale,                   name: erkale-serial, addflavor: true }
 - { setname: erlang,                   name: "erlang:wx", addflavor: wx } # part of
 - { setname: "erlang:cl",              name: cl }
