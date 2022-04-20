@@ -211,6 +211,15 @@ own set of categories.
 - { category: [ mail-client, mail-filter, mail-mta ], ... }
 ```
 
+#### categorypat
+
+Matches package category(ies) against a regular expression.
+The whole category is matched, match is case insensitive.
+
+```yaml
+- { categorypat: "emacs[0-9]+Packages" }
+```
+
 #### maintainer
 
 Matches package maintainer(s). The matching is case-insensitive.
