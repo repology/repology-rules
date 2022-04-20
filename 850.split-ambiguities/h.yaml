@@ -85,6 +85,10 @@
 - { name: howl, wwwpart: [howl.sourceforge,porchdogsoft], setname: howl-zeroconf }
 - { name: howl, addflag: unclassified }
 
+- { name: hpack, wwwpart: twitter, setname: hpack-header-compression }
+- { name: hpack, wwwpart: [sol,haskell], setname: "haskell:hpack" }
+- { name: hpack, addflag: unclassified }
+
 - { name: htmlmin,                     wwwpart: html-minifier, setname: html-minifier } # XXX: problem
 
 - { name: hugo,                        setname: hugo-interactive-fiction, verpat: "3\\..*" }
