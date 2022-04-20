@@ -39,6 +39,10 @@
 
 - { name: omi, setname: omi-ftpmirror, category: ftp } # vs. Open Management Infrastructure
 
+- { name: ooniprobe, wwwpart: cli, setname: ooni-probe-cli }
+- { name: ooniprobe, wwwpart: desktop, setname: ooni-probe-desktop }
+- { name: ooniprobe, addflag: unclassified }
+
 - { name: opa, wwwpart: opalang, setname: opalang }
 - { name: opa, wwwpart: [openpolicyagent,open-policy-agent], setname: openpolicyagent }
 - { name: opa, addflag: unclassified }
