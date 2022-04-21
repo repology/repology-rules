@@ -2,6 +2,7 @@
 
 - { setname: "apmod:auth-cas",         name: mod-auth-cas }
 - { setname: "apmod:auth-kerb",        name: [apache-kerberos, "apmod:auth-kerb2", mod-auth-krb5] }
+- { setname: "apmod:auth-mellon",      name: [mod-auth-mellon] }
 - { setname: "apmod:cluster",          name: mod-cluster }
 - { setname: "apmod:dnssd",            name: mod-dnssd }
 - { setname: "apmod:fastcgi",          name: [mod-fastcgi,apache-fastcgi] }
