@@ -21,6 +21,8 @@
 
 - { addflag: not_fortunes,             name: fortune-mod }
 
+- { addflag: not_gnome,                name: gnome-shell-extension-manager }
+
 - { addflag: not_gstreamer,            name: gstreamer-player } # python module actually
 - { addflag: not_gstreamer,            namepat: "gstreamer[0-9.-]*mm[0-9.-]*" }
 - { addflag: not_gstreamer,            name: gstreamer1-plugins-svt-av1, setname: "gstreamer:svt-av1" }
