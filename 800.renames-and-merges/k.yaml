@@ -83,6 +83,7 @@
 - { setname: krita,                    namepat: "krita[0-9.-]+" }
 - { setname: krita,                    name: krita-beta, ignore: true }
 - { setname: krita,                    name: krita-minimal, addflavor: minimal }
+- { setname: kryoflux,                 name: [kryoflux-dtc, kryoflux-bin], addflavor: true }
 - { setname: ksh,                      name: ksh93 }
 - { setname: ksh,                      name: ksh93-devel, weak_devel: true, nolegacy: true }
 - { setname: ksh,                      name: ast-ksh }
