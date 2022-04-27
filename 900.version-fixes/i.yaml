@@ -2,7 +2,7 @@
 
 - { name: i3blocks,                    ver: "1.4.93",                ruleset: freebsd,     incorrect: true }
 - { name: i3blocks,                                                  ruleset: freebsd,     untrusted: true } # accused of fake 1.4.93
-- { name: i3lock-color,                verpat: "(.*?)[._-]?c",                             setver: $1 } # useless appendage, used inconsistently
+- { name: i3lock-color,                verpat: "[^c]+",                                    incorrect: true } # appends "c" and own revision
 - { namepat: "i7z(-.*)?",              verpat: "93.*",                                     incorrect: true }
 - { namepat: "i7z(-.*)?",              verpat: "20[0-9]{6}",                               incorrect: true } # aosc snapshot
 - { name: i7z-afontenot,               verpat: "0.27.2.*",                                 incorrect: true } # there's only 0.28 tag for this fork
