@@ -74,6 +74,12 @@
 
 - { name: orbit2, wwwpart: gulien, setname: orbit-task-runner } # mismerge from orbit
 
+- { name: orca, wwwpart: gnome, setname: gnome-orca }
+- { name: orca, wwwpart: plotpy, setname: plotly-orca } # reuse name from aur
+- { name: orca, wwwpart: 100r, setname: orca-lang }
+- { name: orca, wwwpart: microsoft, setname: orca.exe }
+- { name: orca, addflag: unclassified }
+
 - { name: orion, wwwpart: [alamminsalo,drac69], setname: orion-twitch }
 - { name: orion, wwwpart: shimmerproject, setname: orion-theme }
 - { name: orion, wwwpart: siderus, setname: orion-ifps }
