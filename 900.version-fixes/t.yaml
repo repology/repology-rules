@@ -7,7 +7,6 @@
 - { name: taglib,                      verpat: ".*[ab].*",                                 devel: true } # XXX: FreeBSD DISTVERSION
 - { name: taisei,                      verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: takeover,                                                                        noscheme: true } # https://github.com/m4ll0k/takeover/releases
-- { name: tali,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: talloc,                      ver: "3.6.2",                 ruleset: pclinuxos,   incorrect: true } # pclinuxos wtf; https://www.samba.org/ftp/talloc/
 - { name: talloc,                                                    ruleset: pclinuxos,   untrusted: true }
 - { name: tapclean,                    verpat: "20[0-9]{6}",                               incorrect: true }
@@ -146,7 +145,6 @@
 - { name: tortoisehg,                                                ruleset: aur,         untrusted: true } # accused of fake 5.0, 5.2.0
 - { name: tortoisehg,                  ver: "5.2.1",                 ruleset: nix,         incorrect: true }
 - { name: tortoisehg,                                                ruleset: nix,         untrusted: true } # accused of fake 5.2.1
-- { name: totem,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: toxcore,                     verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: toxcore,                     verpat: "201[67].*",                                sink: true }
 - { name: toxic,                       verpat: "20[0-9]{6}.*",                             ignore: true }
