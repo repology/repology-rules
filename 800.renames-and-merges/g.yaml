@@ -208,6 +208,8 @@
 - { setname: gnome-bluetooth,          namepat: "(?:compat-)?gnome-bluetooth[0-9.-]*" }
 - { setname: gnome-calculator,         name: gcalctool }
 - { setname: gnome-calculator,         name: gcalctool-oldgui, addflavor: true }
+- { setname: gnome-calculator,         name: gnome-calculator-41 }
+- { setname: gnome-calculator,         name: gnome-calculator-gtk3, addflavor: true }
 - { setname: gnome-chemistry-utils,    name: gchemutils }
 - { setname: gnome-chess,              name: gnome-games-chess }
 - { setname: gnome-control-center,     name: control-center }
