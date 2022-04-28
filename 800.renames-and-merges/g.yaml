@@ -205,7 +205,7 @@
 - { setname: gnet,                     namepat: "gnet[0-9]+" }
 - { setname: gnet,                     name: libgnet }
 - { setname: gnome-2048,               name: [gnome-games-2048, gnome2048] }
-- { setname: gnome-bluetooth,          name: compat-gnome-bluetooth38, disposable: true }
+- { setname: gnome-bluetooth,          namepat: "(?:compat-)?gnome-bluetooth[0-9.-]*" }
 - { setname: gnome-calculator,         name: gcalctool }
 - { setname: gnome-calculator,         name: gcalctool-oldgui, addflavor: true }
 - { setname: gnome-chemistry-utils,    name: gchemutils }
