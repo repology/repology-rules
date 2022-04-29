@@ -11,7 +11,6 @@
 - { name: banshee,                     ver: "2.6.3",                 ruleset: mint,        incorrect: true }
 - { name: banshee,                                                   ruleset: mint,        untrusted: true } # accused of fake 2.6.3
 - { name: banshee,                     releq: "2.9",                                       devel: true }
-- { name: baobab,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: barvinok,                    verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: bash,                                                                            p_is_patch: true }
 - { name: bash,                        verpat: "([0-9]+\\.[0-9]+)\\.0*([0-9]+?)",          setver: $1.p$2 } # bash has braindead versioning scheme: X.YpatchZ with occasional X.Y.Z releases
@@ -55,7 +54,6 @@
 - { name: betty,                       ver: "0.1.8",                 ruleset: aur,         incorrect: true }
 - { name: bibtex2html,                 verlonger: 2,                 ruleset: aur,         incorrect: true }
 - { name: biew,                        verpat: "[0-9]{3}.*",                               incorrect: true }
-- { name: bijiben,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: bind,                                                                            p_is_patch: true }
 - { name: bind,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*", verge: "9.13.0", devel: true } # https://lists.isc.org/pipermail/bind-announce/2018-May/001092.html
 - { name: bind,                        ver: "9.13.3",                ruleset: debuntu,     incorrect: true }
