@@ -3,6 +3,8 @@
 - { namepat: "python:.*",              verpat: ".*[^a-z](a|b|rc|dev|alpha|beta|c|pre|preview)[^a-z].*", devel: true } # PEP440, see also PyPI parser
 
 - { name: "python:aiohttp-socks",                                    ruleset: aur,         rolling: true }
+- { name: "python:amqpstorm",          ver: "3.0.0",                 ruleset: aur,         incorrect: true }
+- { name: "python:amqpstorm",                                        ruleset: aur,         untrusted: true } # accused of fake 3.0.0
 - { name: "python:apsw",               verpat: "(.*[0-9])[-._]?[pr]1",                     setver: $1 } # upstream use -r1 suffix
 - { name: "python:azure-storage",      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "python:backports",          ver: "4.0.0",                                       incorrect: true } # opensuse fake
