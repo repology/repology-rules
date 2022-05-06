@@ -17,6 +17,7 @@
 - { name: make,                        verpat: ".*pre.*",                                  ignore: true }
 - { name: make,                        verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true } # https://ftp.gnu.org/gnu/make/ vs https://alpha.gnu.org/gnu/make/
 - { name: makebootfat,                 verpat: ".*patched.*",                              incorrect: true }
+- { name: makehuman,                   verpat: ".+20[0-9]{6}.*",                           snapshot: true }
 - { name: makepasswd,                  verpat: "[0-9]+\\.[0-9]+[._-][0-9]+",               debianism: true }
 - { name: makepp,                      verpat: "[0-9]+",                                   incorrect: true }
 - { name: mame,                        verpat: "[0-9]{3}.*",                               incorrect: true } # latest is 0.204
