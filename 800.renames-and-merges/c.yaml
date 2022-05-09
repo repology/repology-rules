@@ -106,6 +106,7 @@
 - { setname: cgif,                     name: libcgif }
 - { setname: cglib,                    name: cglib3 }
 - { setname: cgns,                     name: [libcgns,cgnslib] }
+- { setname: cgns,                     name: [cgns-mpi,cgns-seq], addflavor: true }
 - { setname: cgoban,                   name: cgoban1 }
 - { setname: chakracore,               name: chakaracore } # AUR misspell
 - { setname: chakracore,               name: chakra, ruleset: homebrew }
