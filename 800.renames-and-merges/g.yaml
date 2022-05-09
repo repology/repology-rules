@@ -402,7 +402,8 @@
 - { setname: gsm,                      name: libgsm }
 - { setname: gsoap,                    namepat: 'gsoap[0-9.-]+' }
 - { setname: gspell,                   name: libgspell }
-- { setname: gssdp,                    name: libgssdp }
+- { setname: gssdp,                    namepat: "(?:lib)?gssdp[0-9.-]*" }
+- { setname: gssdp,                    name: [gssdp-gi, gssdp-tools], addflavor: true }
 - { setname: gssproxy,                 name: gss-proxy }
 - { setname: gst-python,               namepat: "python:(gst|gstreamer|gst-python)[0-9.-]*" }
 - { setname: gstreamermm,              namepat: "(?:lib)?gstreamer[0-9.-]*mm[0-9.-]*" }
