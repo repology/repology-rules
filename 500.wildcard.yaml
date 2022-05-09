@@ -140,7 +140,7 @@
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_php], namepat: "php-[0-9._]+-ext-(.*)", ruleset: openindiana }
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_php], namepat: "libphp-(.*)", ruleset: debuntu }
 - { setname: "php:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_php], namepat: "pecl([0-9]+)-(.*)", ruleset: openbsd, addflavor: $1, addflag: pearpecl }
-- { setname: "php:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_php], namepat: "php-(.*)", ruleset: chakra }
+- { setname: "php:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_php], namepat: "php-(.*)", ruleset: [chakra, openmamba] }
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_php], namepat: "php[0-9]*-(.*)", ruleset: macports }
 - { setname: "php:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_php], namepat: "pear-(.*)", ruleset: [aur, openmamba] }
 # Note: there are some clashes between pear- and pecl- modules, and possibly modules which are part of PHP,
