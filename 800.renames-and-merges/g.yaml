@@ -454,8 +454,10 @@
 - { setname: guitarix,                 name: guitarix2 }
 - { setname: gummi,                    name: [gummi-gtk2,gummi-gtk3], addflavor: true }
 - { setname: gunicorn,                 name: "python:gunicorn" }
-- { setname: gupnp,                    name: libgupnp }
+- { setname: gupnp,                    namepat: "(?:lib)?gupnp[0-9.-]*" }
+- { setname: gupnp,                    name: gupnp-gi, addflavor: true }
 - { setname: gupnp-av,                 name: libgupnp-av }
+- { setname: gupnp-av,                 name: libgupnp-av-gi, addflavor: true }
 - { setname: gupnp-dlna,               name: libgupnp-dlna }
 - { setname: gupnp-igd,                name: libgupnp-igd }
 - { setname: gutenprint,               name: [gimp-gutenprint,gimp-print,gutenprint-gimp,gutenprint-lib] } # gimp-print is a former name
