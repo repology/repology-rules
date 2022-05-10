@@ -85,6 +85,7 @@
 - { name: ripser,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: rlottie,                                                                         noscheme: true } # https://github.com/Samsung/rlottie/releases
 - { name: rmlint,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: rnote,                       verpat: ".*hotfix.*",                               any_is_patch: true }
 - { name: roaraudio,                   ver: "0.99",                  ruleset: packman,     incorrect: true } # 1.0beta11 in fact
 - { name: roaraudio,                                                 ruleset: packman,     untrusted: true } # accused of fake 0.99
 - { name: robotfindskitten,            verpat: "20[0-9]{2}.*",                             incorrect: true } # termux
