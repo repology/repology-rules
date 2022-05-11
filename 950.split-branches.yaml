@@ -283,8 +283,7 @@
 
 - { name: python,                                         setbranchcomps: 2 }
 
-- { name: "python:pygobject", releq: "2",                 setname: "python:pygobject2" }
-- { name: "python:pygobject", releq: "3",                 setname: "python:pygobject3" }
+- { name: "python:pygobject",                             setbranchcomps: 1 }
 
 - { name: "python:pyqt",     releq: "4",                  setname: "python:pyqt4" }
 - { name: "python:pyqt",     releq: "5",                  setname: "python:pyqt5" }
