@@ -73,9 +73,9 @@
 - { noflag: no_suffix, ruleset: [libregamewiki,fdroid,ruckzuck], replaceinname: { " ": "-", "!": "", ",": "", ":": "", "'": "", ".": "", "(": "", ")": "" } }
 - { noflag: no_suffix, ruleset: [libregamewiki,fdroid,ruckzuck], replaceinname: { "---": "-" } }
 
-- { noflag: no_suffix, ruleset: macports,        namepat: "(.*)-devel", setname: $1, weak_devel: true }
+- { noflag: no_suffix, ruleset: macports,        namepat: "(.*)-devel", setname: $1, weak_devel: true, nolegacy: true }
 
-- { noflag: no_suffix, ruleset: nix,             namepat: "(.*)-unstable", setname: $1, weak_devel: true }
+- { noflag: no_suffix, ruleset: nix,             namepat: "(.*)-unstable", setname: $1, weak_devel: true, nolegacy: true }
 - { noflag: no_suffix, ruleset: nix,             namepat: "(.*)-(wrapped|unwrapped)", setname: $1, addflavor: $2 } # https://github.com/repology/repology-rules/pull/586#issuecomment-1015789670
 
 - { noflag: no_suffix, ruleset: npackd,          namepat: "(.*?)(-?64)", setname: $1, addflavor: "64" }
@@ -101,7 +101,7 @@
 
 - { noflag: no_suffix, ruleset: msys2_mingw,     namepat: "mingw-w64-(i686|x86_64)-(.*)", setname: $2, addflavor: $1 }
 - { noflag: no_suffix, ruleset: msys2_mingw,     namepat: "mingw-w64-(.*)", setname: $1 }
-- { noflag: no_suffix, ruleset: msys2,           namepat: "(.*)-(git|svn|hg)", setname: $1, weak_devel: true }
+- { noflag: no_suffix, ruleset: msys2,           namepat: "(.*)-(git|svn|hg)", setname: $1, weak_devel: true, nolegacy: true }
 
 - { noflag: no_suffix, ruleset: pacstall,        namepat: "(.*)-bin", setname: $1, addflavor: bin }
 - { noflag: no_suffix, ruleset: pacstall,        namepat: "(.*)-deb", setname: $1, ignore: true }  # may have debian revisions appended
