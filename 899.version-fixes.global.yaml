@@ -29,12 +29,12 @@
 - { verpat: "[0123][0-9][01][0-9]20[0-2][0-9]",                                            ignore: true }
 
 # r module versions may have '-' in them, and some repos replace it with 'r'
-- { verpat: "(.*)r(.*)", namepat: 'r:.*', ruleset: [ pld, void ],                          setver: $1-$2 }
+- { verpat: "(.*)r(.*)", namepat: 'r:.*',                            ruleset: [pld,void],  setver: $1-$2 }
 
-- { namepat: "php[0-9]*:.*", ruleset: sisyphus,                                            untrusted: true }
+- { namepat: "php[0-9]*:.*",                                         ruleset: sisyphus,    untrusted: true }
 
-- { namepat: "lua:.*", verpat: ".*-[0-9]+", ruleset: nix,                                  untrusted: true } # accused of using fake suffix from luarocks
-- { categorypat: "emacs[0-9]+Packages", ruleset: nix,                                      untrusted: true } # accused of using fake versions from MELPA
+- { namepat: "lua:.*", verpat: ".*-[0-9]+",                          ruleset: nix,         untrusted: true } # accused of using fake suffix from luarocks
+- { categorypat: "emacs[0-9]+Packages",                              ruleset: nix,         untrusted: true } # accused of using fake versions from MELPA
 
 - { namepat: "gnome-shell-extension-.*",                             ruleset: nix,         untrusted: true } # all versions are fake
 
