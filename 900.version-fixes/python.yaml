@@ -158,6 +158,7 @@
 - { name: "python:torrequest",         verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "python:translationstring",  ver: "1.4",                   ruleset: sisyphus,    incorrect: true }
 - { name: "python:translationstring",                                ruleset: sisyphus,    untrusted: true } # accused of fake 1.4
+- { name: "python:turbogears",         verge: "2",                                         incorrect: true } # turbogears2
 - { name: "python:turbokid",           ver: "1.0.6",                 ruleset: sisyphus,    incorrect: true }
 - { name: "python:turbokid",                                         ruleset: sisyphus,    untrusted: true } # accused of fake 1.0.6
 - { name: "python:webm",               vergt: "0.2.2",                                     successor: true } # http://xpra.org/src/ vs. https://github.com/expobrain/python-webm/releases
