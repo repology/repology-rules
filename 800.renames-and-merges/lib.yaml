@@ -61,7 +61,7 @@
 - { setname: libev,                    name: libev4 }
 - { setname: libev,                    name: libev-static, addflavor: true }
 - { setname: libev,                    name: libev-epel, addflavor: true } # "contains the parts of libev that Red Hat doesn't want to ship"
-- { setname: libevent,                 name: [libevent2,libevent1,libevent-compat,libevent0.9] }
+- { setname: libevent,                 namepat: "(?:compat-)libevent(?:-compat)?[0-9.-]*" }
 - { setname: libevent,                 name: [libevent-fb,libevent-hiphop,libeventextra], addflavor: true }
 - { setname: libfame,                  name: libfame-0-9-1 }
 - { setname: libfastjson,              name: fastjson }
