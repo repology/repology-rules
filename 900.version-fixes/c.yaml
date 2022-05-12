@@ -231,6 +231,7 @@
 - { name: corosync,                    verlonger: 3,                 ruleset: sisyphus,    incorrect: true }
 - { name: corrosion,                                                                       noscheme: true }
 - { name: corsixth,                    verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: cortex-reddit-browser,                                                           noscheme: true }
 - { name: courier-authlib,             verpat: ".*\\.20[0-9]{6}",                          devel: true }
 - { name: courier-unicode,             verpat: ".*\\.20[0-9]{6}",                          devel: true } # http://www.courier-mta.org/download.html#unicode
 - { name: coursier,                    ver: "1.0.2",                                       sink: true } # Known bad version https://github.com/coursier/coursier/commit/2cb42444cdbd6ad2a50f963378ff27259a4fb1a7
