@@ -86,6 +86,8 @@
 - { name: xfractint,                                                                       p_is_patch: true }
 - { name: xfwm,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: xhyve,                       verpat: "20[0-9]{6}",                               snapshot: true } # macports
+- { name: xidle,                       verpat: "[0123][0-9][01][0-9]20[0-2][0-9]",         incorrect: true } # reverse date version
+- { name: xidle,                       ver: "26052015",                                    sink: true } # older than other date versions
 - { name: xl2tpd,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: xl2tpd,                      verge: "20000000", verlt: "20180519",               sink: true }
 - { name: xloadimage,                  verlonger: 2,                                       debianism: true } # freebsd, openbsd

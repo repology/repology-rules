@@ -8,6 +8,8 @@
 - { name: s5cmd,                                                     ruleset: aur,         untrusted: true } # accused of fake 2.0.0
 - { name: s5cmd,                       ver: "2.0.0.b",               ruleset: freebsd,     incorrect: true } # 2.0.0-beta
 - { name: s5cmd,                                                     ruleset: freebsd,     untrusted: true } # 2.0.0.b
+- { name: safeclib,                    verpat: "[0-9]{8}",                                 incorrect: true }
+- { name: safeclib,                    ver: "10052013",                                    sink: true } # older than 3.7.1
 - { name: salmid,                      verpat: "0\\.[0-9]{3}",                             sink: true } # upstream 0.122 -> 0.1.23 https://github.com/hcdenbakker/SalmID/releases
 - { name: salt,                        verpat: "20[0-9]{2}\\.[0-9]{1,2}",                  devel: true } # 2-part versions are not official releases
 - { name: salt,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
@@ -357,6 +359,8 @@
 - { name: swift-lang,                  ver: "5.3",                   ruleset: aur,         incorrect: true }
 - { name: swift-lang,                                                ruleset: aur,         untrusted: true } # accused of fake 5.3
 - { name: swift-lang,                  verlonger: 4,                 ruleset: aur,         setver: snapshot } # trim garbage long version "swift.DEVELOPMENT.SNAPSHOT.2020.06.04.a.r65.gcc84c7b740a"
+- { name: sxiv,                        verpat: "[0-9]{8}",                                 incorrect: true }
+- { name: sxiv,                        ver: "09122016",                                    sink: true } # older than normal versions
 - { name: symlinks,                    ver: "1.7",                   ruleset: rpm,         incorrect: true }
 - { name: symlinks,                                                  ruleset: rpm,         untrusted: true } # accused of fake 1.7
 - { name: syncthing,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
