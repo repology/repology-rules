@@ -30,7 +30,7 @@
 - { setname: "icons:zafiro",           name: [zafiro-icon-theme,zafiro-icons] }
 - { setname: icu,                      name: [icu-docs,icu-doxygen-docs,icu-layoutex,icu-staticlibs,icu-lx,icu4c,libicu4c], addflavor: true }
 - { setname: icu,                      name: icu55-staticlibs, addflavor: icu-staticlibs }
-- { setname: icu,                      namepat: "(?:compat-)?(?:lib)?icu[0-9.-]*" }
+- { setname: icu,                      namepat: "(?:compat-)?(?:lib)?icu(?:-compat)?[0-9.-]*" }
 - { setname: icu4j,                    namepat: "icu4j[0-9.-]+" }
 - { setname: icu4j,                    name: java-icu4j }
 - { setname: id3lib,                   name: id3lib-debian-patches, addflavor: true }
