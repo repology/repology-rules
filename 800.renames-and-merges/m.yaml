@@ -241,7 +241,7 @@
 - { setname: mpd,                      name: [mpd-light,mpd-light-pulse,mpd-minimal,mpd-server-minimal,mpd-sidplay], addflavor: true }
 - { setname: mpd,                      name: musicpd }
 - { setname: mpeg-lib,                 name: [libmpeg, mpeg] }
-- { setname: mpfr,                     name: [mpfr3,mpfr4,libmpfr] }
+- { setname: mpfr,                     namepat: "(?:compat-)?(?:lib)?mpfr[0-9.-]*" }
 - { setname: mpfr,                     name: mpfr-aix, addflavor: true }
 - { setname: mpich,                    name: mpich-default }
 - { setname: mpich,                    namepat: "mpich(?:-clang|-gcc|-llvm)?[0-9.-]*" }
