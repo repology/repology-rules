@@ -16,15 +16,15 @@
 # kde- prefix or -kde suffix, but ignore cases where there's neither of them
 - namepat: |
     (?:kde-|kde4-|kde5-|plasma5-|kde-?(?:edu|graphics|utils|multimedia|sdk)-|kf5-)?(
-    dev-scripts|
-    network-filesharing|
-    sdk-thumbnailers
+    dev-scripts
     )(?:4|5|-kde4|-kde5|-kf5|-light|-qt5)?
   setname: "kde-$1"
 - namepat: |
     (?:kde-|kde4-|kde5-|plasma5-|kde-?(?:edu|graphics|utils|multimedia|sdk)-|kf5-)?(
+    network-filesharing|
     pim-apps-libs|
-    pim-runtime
+    pim-runtime|
+    sdk-thumbnailers
     )(?:4|5|-kde4|-kde5|-kf5|-light|-qt5)?
   setname: "kde$1"
 
@@ -122,6 +122,7 @@
     kdav|
     kdbusaddons|
     kde-cli-tools|
+    kde-dev-scripts|
     kde-gtk-config|
     kdebugsettings|
     kdeclarative|
