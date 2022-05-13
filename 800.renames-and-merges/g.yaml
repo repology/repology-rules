@@ -107,10 +107,10 @@
 - { setname: giflib,                   name: [giflib4,libgif,libungif,compat-giflib,giflib5.0,giflib5] } # libungif is a former name
 - { setname: gimagereader,             name: gimagereader-beta, devel: true }
 - { setname: gimagereader,             name: gimagereader-qt5, addflavor: qt5 }
-- { setname: gimp,                     name: [gimp-app,gimp-with-plugins,"python:gimp"], addflavor: true }
+- { setname: gimp,                     name: [gimp-app,gimp-with-plugins,"python:gimp",gimp-stripped], addflavor: true }
 - { setname: gimp,                     name: gimp2 }
-- { setname: gimp,                     name: [gimp-devel,gimp3-devel,gimp-git,gimp3,gimp-gtk3], weak_devel: true, nolegacy: true }
-- { setname: gimp-docs,                namepat: "gimp-docs-.*" }
+- { setname: gimp,                     name: [gimp-devel,gimp3-devel,gimp-git,gimp3,gimp-gtk3,gimp.nightly,gimp-devel-stripped,gimp-dev], weak_devel: true, nolegacy: true }
+- { setname: gimp-docs,                namepat: "gimp-docs-.*", addflavor: true } # languages in pkgsrc
 - { setname: gimp-help,                namepat: ".*gimp-help.*" }
 - { setname: girara,                   name: libgirara }
 - { setname: git,                      name: [git-base,git-docs,git-gitk,git-contrib,git-lite,git-gui,git-bashcompletion,gitweb,git-minimal,git-with-svn,git-send-email,git-svn], addflavor: true }
