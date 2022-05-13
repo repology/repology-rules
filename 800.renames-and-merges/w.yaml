@@ -83,7 +83,7 @@
 - { setname: woob-qt,                  name: ["python:woob-qt", "python:weboob-qt", weboob-qt] }
 - { setname: words-latin,              name: [latin-words,latin-words-bin] }
 - { setname: worldofpadman,            name: worldofpadman-data, addflavor: data }
-- { setname: worldofpadman,            name: worldofpadman-beta, ignore: true }
+- { setname: worldofpadman,            name: worldofpadman-beta, weak_devel: true, nolegacy: true }
 - { setname: wormsofprey,              name: wop }
 - { setname: wpa-supplicant,           name: wpasupplicant }
 - { setname: wpa-supplicant,           name: [wpa-gui, wpa-supplicant-gui], addflavor: gui }
