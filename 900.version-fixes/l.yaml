@@ -196,6 +196,7 @@
 - { name: luufs,                       verpat: "[0-9]{8}",                                 incorrect: true }
 - { name: luufs,                       ver: "05012015",                                    sink: true } # older than 0.1
 - { name: "lv2:noise-repellent",       verpat: ".*\\.20[0-9]{6}",                          snapshot: true }
+- { name: lxc,                         wwwpart: lxd,                                       incorrect: true }
 - { name: lxdm,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: lxpanel,                     verlonger: 3,                 ruleset: slitaz,      incorrect: true }
 - { name: lxsplit,                     verlonger: 3,                 ruleset: openbsd,     incorrect: true } # "1." component prepended
