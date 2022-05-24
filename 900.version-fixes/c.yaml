@@ -229,7 +229,8 @@
 - { name: corenlp,                     verlt: "4.3.1",                                     outdated: true, disposable: true }
 - { name: coreutils,                                                 ruleset: os4depot,    incorrect: true }
 - { name: corosync,                    verlonger: 3,                 ruleset: sisyphus,    incorrect: true }
-- { name: corrosion,                                                                       noscheme: true }
+- { name: corrosion,                   verge: "2000", verlt: "2022",                       sink: true }
+- { name: corrosion,                   verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: corsixth,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: cortex-reddit-browser,                                                           noscheme: true }
 - { name: courier-authlib,             verpat: ".*\\.20[0-9]{6}",                          devel: true }
