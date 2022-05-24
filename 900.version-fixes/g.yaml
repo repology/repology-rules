@@ -280,6 +280,8 @@
 - { name: gsfonts,                                                                         noscheme: true } # packages refer to ghostscript.com which says fonts have been merged with ghostscript; otherwise, it's http://git.ghostscript.com/?p=urw-core35-fonts.git with (no tags) https://github.com/ArtifexSoftware/urw-base35-fonts (not sure how this is related)
 - { name: gshutdown,                   ver: "0.3",                   ruleset: sisyphus,    incorrect: true }
 - { name: gshutdown,                                                 ruleset: sisyphus,    untrusted: true } # accused of fake 0.3
+- { name: gsl,                         ver: "4.1.5",                 ruleset: gentoo,      incorrect: true } # GURU
+- { name: gsl,                                                       ruleset: gentoo,      incorrect: true } # GURU, accused of fake 4.1.5
 - { name: gsmc,                        ver: "1.2.1",                 ruleset: debuntu,     incorrect: true }
 - { name: gsmc,                                                      ruleset: debuntu,     untrusted: true } # accused of fake 1.2.1
 - { name: gsmlib,                                                                          noscheme: true }
