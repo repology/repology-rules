@@ -14,6 +14,7 @@
 - { name: "python:certifi",                                          ruleset: gentoo,      untrusted: true } # fakes certifi-system-store as certifi
 - { name: "python:cffi",               ver: "2.8",                   ruleset: pisi,        incorrect: true }
 - { name: "python:cffi",                                             ruleset: pisi,        untrusted: true } # accused of fake 2.8
+- { name: "python:cheetah3",           verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true } # 3.2.6.post2, not 3.2.6.2
 - { name: "python:click",              ver: "8.0.1",                 ruleset: haikuports,  incorrect: true } # different unofficial pypi package (click8)
 - { name: "python:click",                                            ruleset: haikuports,  untrusted: true } # accused of fake 8.0.1
 - { name: "python:coherence",          verpat: ".*20[0-9]{6}",                             snapshot: true }
