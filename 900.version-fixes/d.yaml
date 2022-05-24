@@ -189,4 +189,5 @@
 - { name: dvorakng,                                                  ruleset: [gentoo,t2], untrusted: true } # accused of fake 0.6.0
 - { name: dwb,                         verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: dwb,                         ver: "2015.10.09",                                  incorrect: true } # https://bitbucket.org/portix/dwb/downloads/
+- { name: dwz,                         verpat: ".*patches",                                incorrect: true }
 - { name: dzen,                                                                            noscheme: true }
