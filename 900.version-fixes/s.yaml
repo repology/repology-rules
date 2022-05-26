@@ -78,6 +78,10 @@
 - { name: sdl2,                                                      ruleset: postmarketos, untrusted: true } # accused o fake 2.0.15_hg20210201
 - { name: sdl2-image,                  ver: "2.1.0",                 ruleset: pisi,        incorrect: true }
 - { name: sdl2-image,                                                ruleset: pisi,        untrusted: true } # accused of fake 2.1.0
+- { name: sdl2-image,                  ver: "2.5.1",                 ruleset: debian,      incorrect: true }
+- { name: sdl2-image,                                                ruleset: debian,      untrusted: true } # accused of fake 2.5.1
+- { name: sdl2-mixer,                  ver: "2.5.1",                 ruleset: debian,      incorrect: true }
+- { name: sdl2-mixer,                                                ruleset: debian,      untrusted: true } # accused of fake 2.5.1
 - { name: sdl2-ttf,                    ver: "2.19.1",                ruleset: debian,      incorrect: true }
 - { name: sdl2-ttf,                                                  ruleset: debian,      untrusted: true } # accused of fake 2.19.1
 - { name: sdlmame,                     verpat: "[0-9]{4}",                                 incorrect: true }
