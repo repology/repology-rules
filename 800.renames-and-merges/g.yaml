@@ -199,8 +199,8 @@
 - { setname: gmm++,                    name: gmm }
 - { setname: gmmlib,                   name: intel-gmmlib }
 - { setname: gmp,                      name: gmp-aix, addflavor: true }
-- { setname: gmp,                      name: [compat-gmp4,gmp4,libgmp] }
-- { setname: gmp,                      name: [gmp-doc,gmp-gcc4,gmp-with-cxx,libgmp-static,gmp-mpbsd], addflavor: true }
+- { setname: gmp,                      name: [compat-gmp4,gmp4,libgmp,libgmp3] }
+- { setname: gmp,                      name: [gmp-doc,gmp-gcc4,gmp-with-cxx,libgmp-static,gmp-mpbsd,gmpxx], addflavor: true }
 - { setname: gmrun,                    name: [gmrun-multihead,gmrun-xdg] }
 - { setname: gmsynth.lv2,              name: gmsynth-lv2 }
 - { setname: gmt,                      namepat: "gmt[0-9.-]+" }
