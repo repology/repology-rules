@@ -11,6 +11,7 @@
 - { setname: "mingw:$2", addflag: mingw_once, noflag: [mingw_once,not_wildcard,not_mingw], namepat: "mingw-w64-(i686|x86_64)-(.*)", ruleset: pkgsrc, addflavor: $1 }
 - { setname: "mingw:$1", addflag: mingw_once, noflag: [mingw_once,not_wildcard,not_mingw], namepat: "mingw-w64-(.*)", ruleset: alpine }
 - { setname: "mingw:$1", addflag: mingw_once, noflag: [mingw_once,not_wildcard,not_mingw], namepat: "crossmingw32-(.*)", ruleset: pld }
+- { setname: "mingw:$2", addflag: mingw_once, noflag: [mingw_once,not_wildcard,not_mingw], namepat: "mingw((?:32|64)(?:-cross)?)-(.*)", ruleset: opensuse, addflavor: $1 }
 # NOTE: you don't need to add mingw flavor above - it's added below; only arch-specific flavor should be added
 
 # Note that this has its own set of exceptions; we leave mingw-specific
