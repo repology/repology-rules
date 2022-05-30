@@ -50,7 +50,8 @@
 - { setname: netrek-client-cow,        name: netrek-cow }
 - { setname: netsurf,                  name: netsurf-browser }
 - { setname: netsurf,                  name: [netsurf-fb,netsurf-sdl], addflavor: true }
-- { setname: nettle,                   name: [libnettle,nettle4] }
+- { setname: nettle,                   namepat: "(?:lib)nettle[0-9.-]*" }
+- { setname: nettle,                   name: nettle-compat }
 - { setname: network-manager-applet,   name: [network-manager-applet-gtk2, network-manager-applet-nolibappindicator], addflavor: true }
 - { setname: network-manager-applet,   name: network-manager-applet-indicator, addflavor: indicator }
 - { setname: network-manager-applet,   name: network-manager-applet-passwordstore, addflavor: passwordstore }
