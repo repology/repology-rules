@@ -2,6 +2,13 @@
 
 - { name: wakeonlan, ruleset: slackbuilds, setname: "python:wakeonlan" }
 
+- { name: warp, wwwpart: facebook, setname: warp-preprocessor }
+- { name: warp, wwwpart: one.one.one.one, setname: warp-vpn }
+- { name: warp, wwwpart: gnome.org, setname: warp-file-transfer }
+- { name: warp, wwwpart: warp.dev, setname: warp-terminal }
+- { name: warp, wwwpart: dgiagio, setname: warp-single-binary }
+- { name: warp, addflag: unclassified }
+
 - { name: watson, wwwpart: framework, setname: "python:watson-framework" }
 
 - { name: wcd, wwwpart: [waterlan,wcd.sourceforge.net,freshmeat.net/projects/wcd], setname: wcd-werever-change-directory }
