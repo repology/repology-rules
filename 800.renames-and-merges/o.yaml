@@ -108,6 +108,7 @@
 - { setname: openlitespeed,            name: litespeed } # XXX: problem
 - { setname: openmesh,                 name: open-mesh }
 - { setname: openmpi,                  name: open-mpi }
+- { setname: openmpi,                  namepat: "(?:compat-)?(java-)*openmpi(-clang|-gcc|-c\\+\\+|-default|-slurm|-thread-multiple)*[0-9.-]*(-gnu-hpc|-testsuite)*", addflavor: $1$2$3 }
 - { setname: openmw,                   name: openmw-nightly, weak_devel: true, nolegacy: true }
 - { setname: opennlp,                  name: apache-opennlp }
 - { setname: openobex,                 name: libopenobex }
