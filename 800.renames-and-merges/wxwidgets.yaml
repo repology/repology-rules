@@ -1,0 +1,23 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- setname: wxwidgets
+  name:
+    - compat-wxgtk3-gtk2
+
+- setname: wxwidgets
+  name:
+    - wxmac
+    - wxmsw
+    - wxmsw3.1
+    - wxwidgets-3.0-cxx11
+    - wxwidgets-ansi
+    - wxwidgets-media
+    - wxwidgets-wxcontainer
+    - wxwidgets-wxcontainer24c
+    - wxx11
+  addflavor: true
+
+- { setname: wxwidgets, namepat: "(?:wx|wxgtk|wxwidgets|wxcommon|wxbase)[0-9.-]*((?:-light|-gtk3|-gtk2|-contrib|-doc|-docs|-common|-libcxx|-nostl)*)", addflavor: $1 }
+- { setname: wxwidgets, name: wxgtk-dev, weak_devel: true, nolegacy: true }
+- { setname: wxwidgets, name: [wxgtk-dev-314-opt, wxgtk-dev-opt], weak_devel: true, nolegacy: true, addflavor: opt }
+- { setname: wxwidgets, name: wxwidgets-dev-light, weak_devel: true, nolegacy: true, addflavor: light }
