@@ -97,4 +97,5 @@
 - { setname: wv,                       name: libwv }
 - { setname: wvstreams,                name: libwvstreams }
 - { setname: wxqt,                     namepat: "wxqt[0-9.-]+" }
+- { setname: wxqt,                     name: wxqt-dev, weak_devel: true, nolegacy: true }
 - { setname: wxsqlite3,                name: [libwxsqlite3,libwxsqlite3-wx3.0,wxsqlite3-2.8] }
