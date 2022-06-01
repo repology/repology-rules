@@ -140,8 +140,8 @@
 - { setname: tokei,                    name: "rust:tokei" }
 - { setname: tokyocabinet,             name: tokyo-cabinet }
 - { setname: tokyodystopia,            name: tokyo-dystopia }
-- { setname: tolua++,                  name: [toluapp,"lua:toluapp"] }
-- { setname: tolua++,                  namepat: "tolua\\+\\+[0-9.-]+" }
+- { setname: tolua++,                  name: [toluapp,"lua:toluapp",compat-tolua++] }
+- { setname: tolua++,                  namepat: "tolua\\+\\+(-lua[0-9.-]+)?[0-9.-]*", addflavor: $1 }
 - { setname: tomahawk,                 name: tomahawk-player }
 - { setname: tomahawk,                 name: tomahawk-qt5, addflavor: qt5 }
 - { setname: tomcat,                   name: [tomcat-bin,tomcat-examples,tomcat-servlet-api], addflavor: true }
