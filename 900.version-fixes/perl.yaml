@@ -115,6 +115,7 @@
 - { name: "perl:test-trap",            verpat: "v(.*)",                                    setver: "$1" }
 - { name: "perl:text-autoformat",      verpat: "1\\.[0-9]{3}.*",                           incorrect: true } # 1.75, not 1.750000 or 1.750
 - { name: "perl:text-autoformat",      verpat: "1\\.6[67].*",                              sink: true }
+- { name: "perl:text-xslate",          verpat: ".*_[0-9]+",                                devel: true }
 - { name: "perl:time-duration",        verpat: "1\\.[0-9]{3}.*",                           incorrect: true }
 - { name: "perl:timedate",             verpat: "2\\.[0-9]{3,}",                            ignore: true }
 - { name: "perl:tree-simple-view",     verpat: "0\\.[0-9]{3}.*",                           incorrect: true } # it's 0.19, not 0.190.0 or 0.190000
