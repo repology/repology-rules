@@ -214,15 +214,11 @@
 
 - { name: mp3check, wwwpart: icculus, setname: mp3check-icculus }
 
-- { name: mpc, wwwpart: [musicpd,mpd.wikia.com], addflag: classified }
-- { name: mpc, category: [media-sound,Sound,audio,Sound/Players,universe/sound], addflag: classified }
-- { name: mpc, wwwpart: [multiprecision.org,gnu.org], setname: gnumpc }
+- { name: mpc, wwwpart: [musicpd, mpd.wikia.com], addflag: classified }
+- { name: mpc, category: [media-sound, Sound, audio, Sound/Players, universe/sound], addflag: classified }
+- { name: mpc, wwwpart: [multiprecision.org, gnu.org], setname: gnumpc }
 - { name: mpc, category: dev-libs, setname: gnumpc }
 - { name: mpc, wwwpart: mpc-hc, setname: mpc-hc }
-- { name: mpc, summpart: "music player daemon", addflag: classified }
-- { name: mpc, ruleset: [rudix,hpux,solus], setname: gnumpc }
-- { name: mpc, ruleset: aosc, category: libs, setname: gnumpc }
-- { name: mpc, ruleset: pld, addflag: classified }
 - { name: mpc, addflag: unclassified }
 
 - { name: msgpack, category: dev-java, setname: "java:msgpack" }
