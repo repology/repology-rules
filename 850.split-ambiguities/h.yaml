@@ -94,6 +94,10 @@
 - { name: hpack, wwwpart: [sol,haskell], setname: "haskell:hpack" }
 - { name: hpack, addflag: unclassified }
 
+- { name: hss, wwwpart: six-ddc, setname: hss-ssh-client }
+- { name: hss, wwwpart: akerl, setname: hss-ssh-helper }
+- { name: hss, addflag: unclassified }
+
 - { name: htmlmin,                     wwwpart: html-minifier, setname: html-minifier } # XXX: problem
 
 - { name: hugo,                        setname: hugo-interactive-fiction, verpat: "3\\..*" }
