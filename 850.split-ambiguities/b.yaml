@@ -198,6 +198,11 @@
 - { name: btf, ruleset: pld, setname: suitesparse-btf }
 - { name: btf, addflag: unclassified }
 
+- { name: bud, wwwpart: livebud, setname: bud-go-web-framework }
+- { name: bud, wwwpart: urbas, setname: bud-build-tool }
+- { name: bud, wwwpart: indutny, setname: bud-proxy }
+- { name: bud, addflag: unclassified }
+
 - { name: build, wwwpart: suse, setname: obs-build }
 - { name: build, wwwpart: codesynthesis, setname: build-codesynthesis }
 - { name: build, addflag: unclassified }
