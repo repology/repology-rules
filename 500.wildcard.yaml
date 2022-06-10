@@ -110,6 +110,8 @@
 - { setname: "node:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_node], namepat: "nodejs-(.*)", ruleset: [arch,chakra,fedora,mageia,rosa,sisyphus,opensuse,pld,centos] }
 
 # Ocaml
+- { setname: "ocaml:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_ocaml], category: ocamlPackages, namepat: "(ocaml[0-9.]+)-(.*?)", ruleset: nix, addflavor: $1 }
+- { setname: "ocaml:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_ocaml], category: ocamlPackages, ruleset: nix }
 - { namepat: "ocaml([0-9.]*)-(.*)", addflag: wconce, noflag: [wconce,not_wildcard,not_ocaml], setname: "ocaml:$2", addflavor: "$1" }
 - { setname: "ocaml:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_ocaml], category: dev-ocaml, ruleset: exherbo }
 - { setname: "ocaml:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_ocaml], category: dev-ml, ruleset: gentoo }
