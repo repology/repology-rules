@@ -110,6 +110,11 @@
 - { name: gnat-util, ruleset: [freebsd,pkgsrc,ravenports], setname: gnat-util-gcc }
 - { name: gnat-util, addflag: unclassified }
 
+# https://extensions.gnome.org/extension/1064/system-monitor/ vs https://extensions.gnome.org/extension/120/system-monitor/
+- { name: "gnome:system-monitor", wwwpart: ["120", paradoxxxzero], setname: "gnome:system-monitor-paradoxxxzero" }
+- { name: "gnome:system-monitor", wwwpart: "1064", setname: "gnome:system-monitor-elvetemedve" }
+- { name: "gnome:system-monitor", addflag: unclassified }
+
 - { name: gnupg, wwwpart: gpg4win, setname: gpg4win } # XXX: problem?
 
 - { name: gnustep-pixen, wwwpart: pixenapp.com, successor: true } # became proprietary, bug there is GH fork containing source
