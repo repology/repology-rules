@@ -52,7 +52,7 @@
 - { setname: nodejs,                   namepat: "nodejs-lts.*" }
 - { addflag: not_node,                 name: nodejs-packaging }
 
-- { setname: ocaml,                    name: ocaml3 }
+- { setname: ocaml, addflag: not_ocaml, namepat: "ocaml[0-9.-]+" }
 - { addflag: not_ocaml,                name: ocaml-mode }
 - { addflag: not_ocaml,                name: ocaml-mode.el }
 
