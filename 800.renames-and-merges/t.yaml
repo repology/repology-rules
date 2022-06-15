@@ -59,7 +59,7 @@
 - { setname: template-glib,            name: libtemplate-glib }
 - { setname: tensorboard,              name: ["python:tensorboard", "python:tensorboard1", "python:tensorflow-tensorboard"] }
 - { setname: tensorflow,               namepat: "(?:lib|python:)?tensorflow[0-9.-]*(gnu-hpc|gnu-openmpi2-hpc|lite|cpu|gpu)?", addflavor: $1 }
-- { setname: tepl,                     name: tepl3 }
+- { setname: tepl,                     namepat: "(?:lib)?tepl[0-9.-]*" }
 - { setname: terminal-markdown-viewer, name: mdv }
 - { setname: termtosvg,                name: "python:termtosvg" }
 - { setname: terraform-compliance,     name: "python:terraform-compliance" }
