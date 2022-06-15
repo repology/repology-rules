@@ -177,6 +177,7 @@
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(python3x)-(.*)", ruleset: centos, addflavor: $1 }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "py-(.*)", ruleset: spack }
 - { setname: "python:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_python], category: Development/Python, ruleset: openindiana }
+- { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(pypy3?)-(.*)", ruleset: aur, addflavor: $1 }
 
 # R
 - { setname: "r:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_r], ruleset: gentoo, category: dev-r } # only encountered in GURU overlay yet
