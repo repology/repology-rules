@@ -66,6 +66,8 @@
 
 # in python category as python modules
 - { setname: python,                   name: [python-minimal, python2-minimal], addflavor: minimal }
+- { setname: python,                   namepat: "python[0-9]+-core" }
+- { setname: python,                   namepat: "python[0-9]+-(htmldocs|documentation)", addflavor: $1 }
 - { addflag: not_python,               name: python }
 - { addflag: not_python,               name: python-debug, ruleset: guix }
 - { addflag: not_python,               name: [python-doc,python3-doc] }
@@ -78,7 +80,6 @@
 - { addflag: not_python,               name: [python3-core] }
 - { addflag: not_python,               name: python-linux-procfs }
 - { addflag: not_python,               name: [python-rpm-macros,python2-rpm-macros] }
-- { addflag: not_python,               namepat: "python[0-9]+-htmldocs" }
 - { addflag: not_python,               name: python-slip }
 
 # python package manager vs. program wrapper (which was renamed to pipo upstream)
