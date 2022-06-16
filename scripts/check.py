@@ -278,6 +278,7 @@ schema = Schema(
         'setname': str,
         'setver': str,
         'addflavor': Any(bool, str, [str]),
+        'setflavor': Any(bool, str, [str]),
         'resetflavors': bool,
         'setbranch': str,
         'setbranchcomps': int,

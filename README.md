@@ -596,6 +596,11 @@ or use the `true` value to make the flavor be taken from the package name.
 - { name: [postgresql-client, postgresql-server], setname: postgresql, addflavor: true }
 ```
 
+#### setflavor
+
+Same as addflavor, but replaces flavor instead to appending to
+flavors list.
+
 #### resetflavors
 
 Set to `true` to remove all previously added flavors.
