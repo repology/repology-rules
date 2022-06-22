@@ -114,6 +114,11 @@
 
 - { name: fmt, wwwpart: plan9, setname: fmt-plan9 }
 
+- { name: fpm, wwwpart: fortran, setname: fpm-fortran-package-manager }
+- { name: fpm, wwwpart: jordansissel, setname: fpm-package-builder }
+- { name: fpm, wwwpart: fpm.sourceforge.net, setname: fpm-password-manager }
+- { name: fpm, addflag: unclassified }
+
 - { name: fpp, wwwpart: pathpicker, setname: pathpicker } # https://github.com/facebook/PathPicker vs. fortran preprocessor
 
 - { name: fq, wwwpart: wader, setname: fq-inspect-binary-data }
