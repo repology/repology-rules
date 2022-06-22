@@ -141,6 +141,7 @@
 - { setname: libisoburn,               name: libisoburn1 }
 - { setname: libixp,                   name: libixp-hg, weak_devel: true, nolegacy: true }
 - { setname: libjpeg-turbo,            name: libjpeg-turbo6 }
+- { setname: libjpeg-turbo,            name: [libjpeg-turbo-static, libjpeg-turbo-minimal], addflavor: true }
 - { setname: libjson-rpc-cpp,          namepat: "libjson-rpc-cpp[0-9.-]+" }
 - { setname: libjxl,                   name: [jpeg-xl, jpegxl] }
 - { setname: libjxl,                   name: "gimp:jxl", addflavor: gimp } # gimp plugin comes with the library
