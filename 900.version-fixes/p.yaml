@@ -104,7 +104,7 @@
 - { name: phototonic,                  ver: "2.1.10",                                      incorrect: true }
 - { name: phototonic,                  verpat: "2\\.1\\.[0-9]+",     ruleset: [sisyphus,mageia,pclinuxos,fedora], incorrect: true }
 - { name: phototonic,                                                ruleset: [sisyphus,mageia,pclinuxos,fedora], untrusted: true }
-- { name: php,                         verpat: ".*r.*",                                    devel: true }
+- { name: php,                         verpat: ".*[abr].*",                                devel: true }
 - { name: php,                         ver: "7.4.0",                 ruleset: pld,         incorrect: true } # fake
 - { name: php,                                                       ruleset: pld,         untrusted: true } # accused of fake 7.4.0
 - { name: php-xdebug,                  verpat: "(.*)-[0-9]+\\.[0-9]+", ruleset: scoop,     setver: "$1" } # the suffix seem to encode php version?
