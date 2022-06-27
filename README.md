@@ -174,9 +174,9 @@ of them.
 Each repository that Repology supports has a set of *rulesets* associated with
 it. For instance, all Debian-based distros have the ruleset `debuntu`. This may
 be used to only match packages in specific repositories, but without the need
-to chase a specific repository version. You may look up repositories and
-their details in the [repos.d](./repos.d) directory of the main Repology
-repository.
+to chase a specific repository version. You may look up repositories and their
+details in the [repos.d](https://github.com/repology/repology-updater/tree/master/repos.d)
+directory of the main Repology repository.
 
 You may specify a list of rulesets to match any of them.
 
