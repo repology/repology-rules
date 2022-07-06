@@ -150,6 +150,7 @@
 - { name: buildbot-slave,              ver: "0.9.5",                 ruleset: haikuports,  incorrect: true } # it should probably be 0.9.0b5 https://pypi.org/project/buildbot-slave/#history
 - { name: buildbot-slave,                                            ruleset: haikuports,  untrusted: true } # accused of fake 0.9.5
 - { name: buildstream,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # https://buildstream.build/releases.html
+- { name: buku,                        ver: "4.7.1",                                       setver: "4.7" } # misrelease on pypi
 - { name: bully,                       verpat: "1\\.1.+",                                  ignore: true } # snapshots, latest is 1.1
 - { name: bumpversion,                 vergt: "0.6.0",                                     incorrect: true } # bump2version, different module
 - { name: burpsuite,                   releq: "2021.6",                                    devel: true, maintenance: true }
