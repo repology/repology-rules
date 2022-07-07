@@ -123,6 +123,8 @@
 - { setname: love,                     namepat: "love(?:-legacy)?[0-9.-]+" }
 - { setname: love,                     name: love2d }
 - { setname: lprof,                    name: lprof-devel, weak_devel: true, nolegacy: true }
+- { setname: lpsolve,                  name: [lp-solve, liblp-solve] }
+- { setname: lpsolve,                  name: [lpsolve-ide, lp-solve-java] } # addflavor: true
 - { setname: lrslib,                   name: lrs }
 - { setname: ls++,                     name: ls++-git, weak_devel: true, nolegacy: true }
 - { setname: lsd,                      name: "rust:lsd" }
