@@ -254,6 +254,9 @@
 
 - { name: p0f,                                            setbranchcomps: 1 }
 
+- { name: pango,                                          setbranchcomps: 1 }
+- { name: pango,             verge: "1.90", verlt: "2",   setbranch: "2" }
+
 - { name: pcre,              verpat: "[0-9]{2}\\..*",     setname: pcre2 }
 
 - { name: pdftk,                                          setbranchcomps: 1 }
