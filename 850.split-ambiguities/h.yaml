@@ -105,6 +105,10 @@
 - { name: hugo,                        setname: hugo-sitegen }
 - { name: gohugo,                      setname: hugo-sitegen }
 
+- { name: hunt, wwwpart: LyonSyonII, setname: hunt-find }
+# also abandonware connection intruder
+- { name: hunt, addflag: unclassified }
+
 - { name: hurl, wwwpart: codemadness, setname: hurl-http-file-grabber }
 - { name: hurl, wwwpart: [orange-opensource, hurl.dev], setname: hurl-http-requester }
 - { name: hurl, wwwpart: fnord0, setname: hurl-hex-url-encoder }
