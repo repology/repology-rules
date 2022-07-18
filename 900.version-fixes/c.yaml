@@ -14,6 +14,8 @@
 - { name: caja,                                                      ruleset: mint,        untrusted: true } # accused of fake 1.22.1.1
 - { name: caja-dropbox,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: caja-extensions,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: cal10n,                      ver: "0.8.1.10",              ruleset: opensuse,    incorrect: true }
+- { name: cal10n,                                                    ruleset: opensuse,    untrusted: true } # accused of fake 0.8.1.10
 - { name: calamares,                   verlonger: 3,                 ruleset: manjaro,     incorrect: true }
 - { name: calamares,                   verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: calendarsupport,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
