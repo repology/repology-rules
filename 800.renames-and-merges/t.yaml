@@ -69,6 +69,7 @@
 - { setname: terraform-compliance,     name: "python:terraform-compliance" }
 - { setname: tesseract-ocr-data,       namepat: "tesseract(?:-ocr|-data)*-(?!ocr)[a-z]{3}(?:-.*)?" }
 - { setname: tesseract-ocr-data,       name: [tesseract-tessdata,tesseract-data, tessdata] }
+- { setname: test-drive,               name: fortran-test-drive }
 - { setname: testdisk,                 name: testdisk-wip, weak_devel: true, nolegacy: true }
 - { setname: testdisk,                 name: [photorec, testdisk-photorec], addflavor: true } # distributed together https://www.cgsecurity.org/wiki/TestDisk_Download
 - { setname: testssl.sh,               name: testssl }
