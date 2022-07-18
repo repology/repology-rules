@@ -90,6 +90,10 @@
 - { name: json, wwwpart: nlohmann, setname: nlohmann-json }
 # XXX: other stuff remains
 
+- { name: jta, wwwpart: thinkberg, setname: jta-java-ssh }
+- { name: jta, wwwpart: oracle, setname: jta-java-transaction-api }
+- { name: jta, addflag: unclassified }
+
 - { name: julia-compat, wwwpart: compat.jl, setname: "julia:compat" } # compat module
 - { name: julia-compat, wwwpart: julialang.org, setname: julia, weak_devel: true, nolegacy: true } # legacy julia
 - { name: julia-compat, addflag: unclassified }
