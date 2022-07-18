@@ -28,6 +28,9 @@
     )(?:4|5|-kde4|-kde5|-kf5|-light|-qt5)?
   setname: "kde$1"
 
+# exceptions due to name klashes after the following rule
+- { setname: kdesdk-kioslaves, name: kdesdk-kio, addflag: not_kde } # kdesdk-kio vs. kf5-kio
+
 # standalone kde apps and projects
 - namepat: |
     (?:kde-|kde4-|kde5-|plasma5-|kf5-?|ka5-|kp5-|libkf5|kde-?(?:accessibility|edu|games|graphics|utils|multimedia|sdk|network)4?-)?(
@@ -366,6 +369,7 @@
     yakuake|
     zanshin
     )(?:4|5|-kde4|-kde5|-kf5|-light|-qt5)?
+  noflag: not_kde
   setname: "$1"
 
 - namepat: |

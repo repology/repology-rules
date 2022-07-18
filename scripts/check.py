@@ -205,6 +205,7 @@ flags = [
     'not_haskell',
     'not_java',
     'not_js',
+    'not_kde',
     'not_linux',
     'not_lua',
     'not_mingw',
