@@ -29,7 +29,7 @@
   setname: "kde$1"
 
 # exceptions due to name klashes after the following rule
-- { setname: kdesdk-kioslaves, name: kdesdk-kio, addflag: not_kde } # kdesdk-kio vs. kf5-kio
+- { name: kdesdk-kio, addflag: not_kde } # kdesdk-kio vs. kf5-kio
 
 # standalone kde apps and projects
 - namepat: |
@@ -434,3 +434,5 @@
 - { setname: angelfish,                name: plasma-angelfish-git, weak_devel: true }
 - { setname: pim-sieve-editor,         name: sieveeditor }
 - { setname: kfilemetadata,            name: kf5-kfilemetadata-l10n, addflavor: l10n }
+- { setname: kdesdk-kio,               name: kdesdk-kioslaves } # renamed
+- { setname: kio-zeroconf,             name: zeroconf-ioslave } # renamed
