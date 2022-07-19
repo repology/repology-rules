@@ -168,6 +168,8 @@
 - { setname: plpgsql-check,            namepat: "(postgresql[0-9.-]*)-plpgsql-check", addflavor: $1 }
 - { setname: plr,                      namepat: "(postgresql[0-9.-]*)-plr", addflavor: $1 }
 - { setname: plt-scheme,               name: drscheme } # part of? https://plt-scheme.org/
+- { setname: plug,                     name: mustang-plug }
+- { setname: plug,                     name: mustang-plug-qt5, addflavor: qt5 }
 - { setname: pluma,                    name: pluma-1.16 }
 - { setname: pluma,                    name: pluma-dev, weak_devel: true, nolegacy: true }
 - { setname: pluma,                    name: pluma-gtk2, addflavor: true }
