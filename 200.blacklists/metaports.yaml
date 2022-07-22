@@ -2,7 +2,8 @@
 
 - { remove: true,   category: "Meta Packages/Group Packages" } # openindiana
 
-- { remove: true,   category: virtual, ruleset: exherbo }
+- { remove: true,   category: virtual, ruleset: [exherbo,gentoo] }
+- { remove: true,   category: java-virtuals, ruleset: [exherbo,gentoo] }
 
 - { remove: true,   name: alias-font,   ruleset: freebsd }
 
