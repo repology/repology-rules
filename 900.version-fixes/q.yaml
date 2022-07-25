@@ -1,7 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { name: qarma,                                                                           noscheme: true } # https://github.com/luebking/qarma/releases there's some strange old tag, but no version releases
-- { name: qbe,                                                                             noscheme: true }
+- { name: qbe,                         verge: "2000-00-00", verle: "2022-06-16",           sink: true }
+- { name: qbe,                         verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: qca,                         ver: "2.2.0",                 ruleset: vcpkg,       incorrect: true } # not released yet
 - { name: qca,                         ver: "2.1.4",                 ruleset: openmandriva, incorrect: true } # git snapshot, not release
 - { name: qca,                         verpat: ".*\\.9[0-9]+",                             devel: true }
