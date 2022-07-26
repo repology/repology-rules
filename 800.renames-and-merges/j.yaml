@@ -10,6 +10,7 @@
 - { setname: jadesktop,                name: [jade-dashboard-git,jade-dashboard] }
 - { setname: jag,                      name: jag-level-editor, addflavor: editor }
 - { setname: jakarta-activation,       name: jakarta-activation-api, addflavor: true }
+- { setname: jakarta-messaging,        name: [javax.jms, javax-jms-api] } # not quote apparent, trusting the report here: https://repology.org/project/javax-jms-api/report
 - { setname: jansson,                  name: libjansson }
 - { setname: jasper,                   name: [libjasper,jasper-libs] }
 - { setname: jasper,                   name: jasper-doc, addflavor: docs }
