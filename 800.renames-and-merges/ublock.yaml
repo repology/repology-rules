@@ -1,16 +1,19 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { setname: "ublock-origin", name: [ublock, ublock-origin] }
-- { setname: "ublock-origin", name: [chromium-ublock-origin, ublock-origin-chromium], addflavor: chromium }
-- { setname: "ublock-origin", name: [librewolf-ublock-origin], addflavor: librewolf }
-
 - setname: "ublock-origin"
-  addflavor: firefox
+  addflavor: true
   name:
+    - chromium-extension-ublock-origin
+    - chromium-ublock-origin
+    - firefox-esr-ublock-origin
     - firefox-ublock
     - firefox-ublock-origin
     - icecat-ublock-origin
     - iceweasel-ublock-origin
+    - librewolf-ublock-origin
     - mozilla-ublock-origin
+    - ublock
+    - ublock-origin
+    - ublock-origin-chromium
     - ublockorigin-firefox
     - xpi-ublock-origin
