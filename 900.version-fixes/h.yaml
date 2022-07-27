@@ -6,6 +6,8 @@
 - { name: haproxy,                     verpat: ".*d.*",                                    devel: true } # *dev*; XXX: FreeBSD DISTVERSION
 - { name: hardinfo,                    ver: "0.6",                   ruleset: sisyphus,    incorrect: true }
 - { name: hardinfo,                                                  ruleset: sisyphus,    untrusted: true }
+- { name: hare-lang,                                                                       noscheme: true }
+- { name: harec,                                                                           noscheme: true }
 - { name: hared,                       ver: "1.0.45",                ruleset: freebsd,     incorrect: true }
 - { name: hared,                                                     ruleset: freebsd, maintainer: 0mp@freebsd.org, untrusted: true } # accused of fake 1.0.45
 - { name: "haskell:pandoc-citeproc",                                 ruleset: aur,         incorrect: true } # it's actually pandoc, not pandoc-cityproc
