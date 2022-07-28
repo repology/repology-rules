@@ -44,6 +44,7 @@
 - { setname: vim,                      name: vim-nightly, weak_devel: true, nolegacy: true }
 - { setname: vim-gnupg,                name: gnupg, category: app-vim, ruleset: gentoo }
 - { setname: vim-spell,                namepat: "vim-spell-.*", ruleset: [openbsd,gentoo,arch] }
+- { setname: vimv,                     name: ["rust:vimv", vimv-rs] }
 - { setname: vint,                     name: "python:vint" }
 - { setname: vint,                     name: vim-vint }
 - { setname: vips,                     name: libvips }
