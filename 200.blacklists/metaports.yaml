@@ -52,6 +52,8 @@
 
 - { remove: true,   name: plasma-meta }
 
+- { remove: true,   name: postgresql-common }
+
 # these are metaports pointing to "current" version of python (which is named pythonX.Y)
 - { remove: true,   name: python,       ruleset: freebsd }
 - { remove: true,   name: python2,      ruleset: freebsd }
