@@ -168,6 +168,10 @@
 - { name: gps, ruleset: pclinuxos, setname: gps-applet }
 - { name: gps, addflag: unclassified }
 
+- { name: grabber, wwwpart: rgaucher, setname: grabber-web-application-scanner }
+- { name: grabber, wwwpart: bionus, setname: grabber-imageboard-browser }
+- { name: grabber, addflag: unclassified }
+
 - { name: greg, wwwpart: [gnu.org,gna.org], setname: greg-guile-test-framework } # buried by gna
 - { name: greg, wwwpart: manolomartinez, setname: greg-podcase-aggregator }
 - { name: greg, ruleset: openbsd, setname: greg-parser-generator }
