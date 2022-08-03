@@ -73,6 +73,8 @@
 - { name: linux,                       ver: "5.0.0",                 ruleset: [aosc,fedora], incorrect: true }
 - { name: linux,                                                     ruleset: [aosc,fedora], untrusted: true } # accused of fake 5.0.0
 - { name: linux,                                                     ruleset: arch,        untrusted: true } # accused of fake 5.3.12.1
+- { name: linux-exploit-suggester,     verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: linux-exploit-suggester,     verge: "32",                                        incorrect: true }
 - { name: linux-firmware,                                            ruleset: [openmandriva,kaos,pclinuxos,gentoo,opensuse,openmamba,solus,mageia], untrusted: true } # generate random snapshots unstead of using official tags
 - { name: linux-live,                  verpat: "6\\..*",                                   sink: true } # old scheme from 9 years ago, see #41
 - { name: liquid-dsp,                  verpat: "20[0-9]{6}",                               snapshot: true }
