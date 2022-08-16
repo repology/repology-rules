@@ -142,6 +142,8 @@
 - { name: xroach,                      verge: "12",                  ruleset: [opensuse,rpmsphere], incorrect: true }
 - { name: xrootconsole,                verlonger: 2,                 ruleset: void,        debianism: true }
 - { name: xsel,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }
+- { name: xsel,                        ver: "1.2.0.10032022",                              incorrect: true }
+- { name: xsel,                                                      ruleset: pisi,        untrusted: true } # accused of fake 1.2.0.10032022
 - { name: xsettings-kde,               ver: "0.12.3.2",              ruleset: openmandriva, incorrect: true }
 - { name: xsettings-kde,                                             ruleset: openmandriva, untrusted: true } # accused of fake 0.12.3.2
 - { name: xsettingsd,                  ver: "1.0.0.2",               ruleset: freebsd,     incorrect: true }
