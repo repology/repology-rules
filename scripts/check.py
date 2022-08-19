@@ -81,6 +81,7 @@ families = [
     'msys2',
     'nix',
     'npackd',
+    'noir',
     'openbsd',
     'openindiana',
     'openmamba',
