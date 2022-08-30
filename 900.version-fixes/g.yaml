@@ -330,6 +330,8 @@
 - { name: gupnp,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gupnp-igd,                   ver: "0.20.16",               ruleset: pisi,        incorrect: true }
 - { name: gupnp-igd,                                                 ruleset: pisi,        untrusted: true } # accused of fake 0.20.16
+- { name: gutenprint,                  verpat: ".+20[0-9]{6}.*",                           snapshot: true }
+- { name: gutenprint,                  ver: "5.3.4.20220624T01008808d602",                 incorrect: true }
 - { name: gvfs,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gwenhywfar,                  verpat: "[0-9]+\\.99.*",                            devel: true }
 - { name: gwenview,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
