@@ -97,6 +97,7 @@
 - { name: openomf,                                                   ruleset: openbsd,     untrusted: true } # accused of fake 0.6.5.2
 - { name: openpam,                                                   ruleset: openbsd,     incorrect: true } # not openpam at all
 - { name: openrazer,                   verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
+- { name: openrgb,                     verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: openscad,                    verlonger: 2,                 ruleset: freebsd,     incorrect: true }
 - { name: openscenegraph,              verpat: "3\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: openshot,                    verlonger: 3,                 ruleset: freebsd,     incorrect: true }
