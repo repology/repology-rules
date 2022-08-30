@@ -39,6 +39,9 @@
 - { setname: elbcli,                   name: elb-tools }
 - { setname: electricfence,            name: electric-fence }
 - { setname: electron,                 namepat: "electron[0-9]+" }
+- { setname: electron,                 name: "node:electron" }
+- { setname: electron,                 name: electron-beta, weak_devel: true, nolegacy: true }
+- { setname: electron,                 name: electron-nightly-npm, addflavor: npm, weak_devel: true, nolegacy: true }
 - { setname: electrum,                 name: "python:electrum" }
 - { setname: element-desktop,          name: [element.io, element-web, element-desktop] }
 - { setname: element-desktop,          name: [riot, riot-desktop, riot-web] } # former name
