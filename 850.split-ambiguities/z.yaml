@@ -12,7 +12,11 @@
 - { name: zebra, wwwpart: zebra.org, setname: zebra-routing }
 - { name: zebra, addflag: unclassified }
 
-- { name: zed, wwwpart: [ocamlcore, github.com/diml/zed], setname: "ocaml:zed" }
+- { name: zed, wwwpart: [ocaml, github.com/diml/zed], setname: "ocaml:zed" }
+- { name: zed, wwwpart: zedapp.org, setname: "zed-code-editor" }
+- { name: zed, wwwpart: brimdata, setname: "zed-super-structured-data" }
+- { name: zed, wwwpart: authzed, setname: "zed-spicedb" }
+- { name: zed, addflag: unclassified }
 
 - { name: zimg, wwwpart: sourceforge, setname: zimg-vis }
 - { name: zimg, ruleset: hpux, setname: zimg-vis }
