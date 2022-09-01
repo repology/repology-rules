@@ -392,6 +392,8 @@
 - { setname: "python:sqlparse",        name: "python:sqlparse-0-3-0" }
 - { setname: "python:straight.plugin", name: ["python:straight-plugin", straight.plugin] } # XXX: problem
 - { setname: "python:stopit",          name: stopit }
+- { setname: "python:streamlit",       name: streamlit } # vulnerable
+- { setname: "python:streamlit",       name: "python:streamlit-nightly", weak_devel: true, nolegacy: true }
 - { setname: "python:sympy",           name: sympy }
 - { setname: "python:sympy",           name: "python:sympy-docs", addflavor: true }
 - { setname: "python:tempita",         name: tempita } # XXX: make upstream use prefix
