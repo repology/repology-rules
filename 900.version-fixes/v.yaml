@@ -52,7 +52,7 @@
 - { name: virtualgl,                   verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: vis,                         verpat: "[0-9]{4,}",                                ignore: true } # LEDE
 - { name: vit,                         verpat: "1\\.3.*20[0-9]{6}.*",                      ignore: true }
-- { name: vite,                                                                            noscheme: true } # https://gitlab.inria.fr/solverstack/vite/tags
+- { name: vite-trace-exporter,                                                             noscheme: true } # https://gitlab.inria.fr/solverstack/vite/tags
 - { name: vitetris,                    ver: "0.60",                  ruleset: crux,        incorrect: true }
 - { name: vitetris,                                                  ruleset: crux,        untrusted: true } # accused of fake 0.60
 - { name: vivaldi,                     verpat: ".*-.*",              ruleset: nix,         debianism: true }
