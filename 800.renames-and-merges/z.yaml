@@ -58,6 +58,8 @@
 - { setname: zstd,                     name: libzstd }
 - { setname: zthread,                  name: zthreads }
 - { setname: zulip-desktop,            name: [zulip, zulip-desktop-electron] }
+- { setname: zulu,                     namepat: "zulu(?:-openjdk)?[0-9.-]+(?:jre|jdk)?" }
+- { setname: zulu,                     namepat: "openjdk[0-9.-]+-zulu" }
 - { setname: zvbi,                     name: libzvbi }
 - { setname: zxing-cpp,                name: [libzxing-cpp,nu-book-zxing-cpp,zxing-cpp-nu] }
 - { setname: zynaddsubfx,              name: [zynaddsubfx-doc,zynaddsubfx-fusion], addflavor: true }
