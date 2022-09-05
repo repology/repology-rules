@@ -110,6 +110,7 @@
 - { name: "perl:test-differences",     verpat: "0\\.[0-9]{3,}",                            ignore: true }
 - { name: "perl:test-exception",       ver: [ "0.430000", "0.400", "0.320" ],              ignore: true }
 - { name: "perl:test-exception",       verpat: "0\\.[0-9]{3,}",                            ignore: true }
+- { name: "perl:test-exit",            ver: "0.097",                                       incorrect: true }
 - { name: "perl:test-number-delta",    verpat: "1\\.[0-9]{3,}",                            ignore: true }
 - { name: "perl:test-reporter",        verpat: "1\\.[0-9]{3}.*",                           incorrect: true } # it's 1.62, not 1.6200 or 1.620.0
 - { name: "perl:test-trap",            verpat: "v(.*)",                                    setver: "$1" }
