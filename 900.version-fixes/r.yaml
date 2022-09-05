@@ -79,6 +79,11 @@
 - { name: rfcat,                       ver: ["170508", "190423"],                          sink: true }
 - { name: riak,                        ver: "2.2.5",                 ruleset: openbsd,     incorrect: true } # no mention on the web site, seems fake
 - { name: ridl,                                                                            noscheme: true }
+- { name: rime-bopomofo,                                                                   noscheme: true }
+- { name: rime-double-pinyin,                                                              noscheme: true }
+- { name: rime-quick,                                                                      noscheme: true }
+- { name: rime-wubi,                                                                       noscheme: true }
+- { name: rime-wugniu,                                                                     noscheme: true }
 - { name: rinetd,                      ver: "0.62.1sam",                                   ignore: true } # debian garbage
 - { name: rinetd,                                                    ruleset: debuntu,     untrusted: true }
 - { name: rinetd,                      ver: "0.64",                  ruleset: aur,         incorrect: true }
