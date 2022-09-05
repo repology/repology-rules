@@ -282,6 +282,10 @@
 - { name: ctags, ruleset: [aosc], setname: universal-ctags }
 - { name: ctags, addflag: unclassified }
 
+- { name: ctop, wwwpart: bcicen, setname: ctop-bcicen }
+- { name: ctop, wwwpart: yadutaf, setname: ctop-yadutaf }
+- { name: ctop, addflag: unclassified }
+
 - { name: cue, wwwpart: [cuelang,cue-lang], setname: cuelang } # reused name
 - { name: cue, wwwpart: corsair, setname: cue-corsair }
 - { name: cue, wwwpart: wide, setname: cue-mua }
