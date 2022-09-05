@@ -45,6 +45,8 @@
 - { name: scdoc,                                                     ruleset: conan,       untrusted: true } # accused of fake 1.11.12
 - { name: schismtracker,               ver: "20150911005204",                              ignore: true }
 - { name: schroot,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: schroot,                     ver: "1.7.2",                 ruleset: [mageia,rosa], incorrect: true }
+- { name: schroot,                                                   ruleset: [mageia,rosa], untrusted: true } # accused of fake 1.7.2
 - { name: scim-input-pad,              verpat: ".*20[0-9]{6}",                             snapshot: true } # opensuse
 - { name: scim-skk,                    ver: "0.5.3",                 ruleset: pclinuxos,   incorrect: true }
 - { name: scim-skk,                                                  ruleset: pclinuxos,   untrusted: true } # accused of fake 0.5.3
