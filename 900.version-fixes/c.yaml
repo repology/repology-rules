@@ -248,8 +248,8 @@
 - { name: coxeter,                                                                         noscheme: true }
 - { name: cpdup,                                                     ruleset: openbsd,     untrusted: true } # from dragonfly, but not enough data (homepage) to split it
 - { name: cppreference-doc,            ver: "20201016",                                    devel: true, maintenance: true } # https://en.cppreference.com/w/Cppreference:Archives
-- { name: cpptoml,                     ver: "0.4.0",                 ruleset: openmamba,   incorrect: true } # latest ATOW is 0.1.1
-- { name: cpptoml,                                                   ruleset: openmamba,   untrusted: true } # accused of fake 0.4.0
+- { name: cpptoml,                     ver: "0.4.0",                 ruleset: [openmamba,nix], incorrect: true } # latest ATOW is 0.1.1
+- { name: cpptoml,                                                   ruleset: [openmamba,nix], untrusted: true } # accused of fake 0.4.0
 - { name: cpufreqd,                    ver: "2.4.3",                 ruleset: sisyphus,    incorrect: true }
 - { name: cpufreqd,                                                  ruleset: sisyphus,    untrusted: true } # accused of fake 2.4.3
 - { name: cpulimit,                    verpat: "20[0-8]{6}.*",                             ignore: true } # hyperbola
