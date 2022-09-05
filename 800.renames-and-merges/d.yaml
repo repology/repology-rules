@@ -29,6 +29,7 @@
 - { setname: dbus-sharp-glib,          name: [dbus-sharp-glib-legacy, dotnet-dbus-sharp-glib] }
 - { setname: dbus-sharp-glib,          name: dbus-sharp-lib, disposable: true } # aosc
 - { setname: dcc,                      name: dcc-dccd }
+- { setname: dcd,                      name: [dcd-client, dcd-server], addflavor: true }
 - { setname: dcmtk,                    name: libdcmtk12 }
 - { setname: dcmtk,                    name: dcmtk-snapshot, weak_devel: true, nolegacy: true }
 - { setname: dconf,                    name: d-conf }
