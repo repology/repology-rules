@@ -103,8 +103,7 @@
 - { name: cfssl,                       verpat: ".+\\.20[0-9]{6}",                          snapshot: true }
 - { name: cgo,                         verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: cgo,                         verge: "20000000", verlt: "20200522",               sink: true } # latest from May 22, 2020
-- { name: cgrep,                       ver: "8.15",                  ruleset: aix,         incorrect: true }
-- { name: cgrep,                                                     ruleset: aix,         untrusted: true }
+- { name: cgrep,                       ver: "8.15",                  ruleset: [aix,rpmsphere], incorrect: true } # another project. since it's abandonware, too lazy to split it
 - { name: cgterm,                      verpat: ".*b.*",                                    devel: true }
 - { name: chakracore,                  wwwpart: cauldrondevelopmentllc,                    ignore: true } # fork with different versioning
 - { name: charles,                     ver: "4.6.2.8",               ruleset: winget,      incorrect: true }
