@@ -272,7 +272,9 @@
 - { name: atom,                                                      ruleset: solus,       untrusted: true } # accused of fake 1.61.0
 - { name: atomicparsley,               verlonger: 3,                                       incorrect: true }
 - { name: atomicparsley,                                             ruleset: packman,     untrusted: true } # accused of fake 0.9.6.109
-- { name: atomicparsley,               verpat: "[0-9]{8}\\.[0-9]{1,6}\\.[0-9a-f]{7}",      ignore: false, altver: true } # official broken scheme
+- { name: atomicparsley,               verpat: "[0-9]{8}\\.[0-9]{1,6}\\.[0-9a-f]{7}",      ignore: false, altver: true } # new official broken scheme; we allow just YYYYMMDD too
+- { name: atomicparsley,               ver: "20220331",              ruleset: openbsd,     incorrect: true }
+- { name: atomicparsley,                                             ruleset: openbsd,     untrusted: true } # accused of fake 20220331
 - { name: atomix,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: atril,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: attr,                        verpat: "20[0-9]{6}.*",                             ignore: true }
