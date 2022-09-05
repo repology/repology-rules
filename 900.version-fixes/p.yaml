@@ -47,6 +47,8 @@
 - { name: patchelf,                    verpat: ".*pre.*",                                  snapshot: true } # nix
 - { name: pauker,                      verpat: ".*b.*",                                    devel: true }
 - { name: pavucontrol,                 verpat: ".*\\+[0-9]+",                              incorrect: true } # slitaz
+- { name: pax,                         ver: "20210219",              ruleset: pkgsrc,      incorrect: true }
+- { name: pax,                                                       ruleset: pkgsrc,      untrusted: true } # accused of fake 20210219
 - { name: pcb,                         verpat: "20[0-9]{6}.*",                             sink: true } # superceded by x.y.z: https://sourceforge.net/projects/pcb/files/pcb/
 - { name: pcbasic,                     verge: "13",                                        sink: true } # superceded by x.y: https://sourceforge.net/projects/pcbasic/files/
 - { name: pcbasic,                     releq: "2",                                         devel: true } # https://robhagemans.github.io/pcbasic/download.html
