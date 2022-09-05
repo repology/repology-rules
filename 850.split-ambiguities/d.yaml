@@ -196,6 +196,10 @@
 - { name: dsp, ruleset: solus, setname: dsp-audio-processing }
 - { name: dsp, addflag: unclassified }
 
+- { name: dstat, wwwpart: umaxx, setname: dstat-dwm-status-bar }
+- { name: dstat, wwwpart: [wiee.rs, wieers], setname: dstat-resource-statistics }
+- { name: dstat, addflag: unclassified }
+
 - { name: dt, wwwpart: 42wim/dt,       setname: dt-dns }
 - { name: dt, ruleset: pkgsrc,         setname: dt-virtconsoles }
 
