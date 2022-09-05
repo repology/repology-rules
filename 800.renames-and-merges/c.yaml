@@ -291,6 +291,7 @@
 - { setname: cuda,                     namepat: "cuda-?[0-9.]+" }
 - { setname: cudatext,                 name: [cudatext-qt5,cudatext-gtk2], addflavor: true }
 - { setname: cudatext,                 name: cudatext-beta, weak_devel: true, nolegacy: true }
+- { setname: cue,                      name: cue-cli, addflavor: true }
 - { setname: cumulus,                  name: cumuluslanguagede, addflavor: de }
 - { setname: cuneiform,                name: cuneiform-linux }
 - { setname: cups,                     name: [cups-libs,cups-base,cups-minimal,cups-nosystemd,libcups,libcups-ipp14,cups-doc,cups-ipp14,cups-noudev,cups-pam,libcups-minimal,libcups-nosystemd-minimal], addflavor: true }
