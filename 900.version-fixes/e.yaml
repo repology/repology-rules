@@ -85,6 +85,7 @@
 - { name: "emacs:php-mode",            verge: "20000000", verlt: "20180512",               sink: true }
 - { name: "emacs:puppet-mode",         verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "emacs:scheme-complete",     verpat: "20[0-9]{6}.*",                             snapshot: true }
+- { name: "emacs:semi",                verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: "emacs:slime",               verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: "emacs:slime",               ver: "3.0",                   ruleset: [mageia,epel], incorrect: true }
 - { name: "emacs:slime",                                             ruleset: [mageia,epel], untrusted: true } # accused of fake 3.0
