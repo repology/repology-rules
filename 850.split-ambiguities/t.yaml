@@ -30,6 +30,16 @@
 
 - { name: tcp-wrappers, wwwpart: apple.com, setname: tcp-wrappers-apple }
 
+- { name: td, wwwpart: [telegram, tdlib], setname: tdlib }
+- { name: td, wwwpart: treasure-data, setname: td-treasure-data }
+- { name: td, wwwpart: swatto, setname: td-todo-swatto }
+- { name: td, wwwpart: KenjiTakahashi, setname: td-todo-KenjiTakahashi }
+- { name: td, addflag: unclassified }
+
+- { name: tdlib, wwwpart: [telegram,github.com/tdlib/td], setname: tdlib-telegram }
+- { name: tdlib, wwwpart: [freetdi], setname: tdlib-treedec }
+- { name: tdlib, addflag: unclassified }
+
 - { name: tea, wwwpart: gitea, setname: gitea-tea } # reuse name from aur and macports
 - { name: tea, wwwpart: [semiletov,ourproject,tea-editor], setname: tea-editor }
 - { name: tea, wwwpart: x89, setname: tea-daemon }
