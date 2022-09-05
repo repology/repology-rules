@@ -44,7 +44,7 @@
 - { name: wine,                                                      ruleset: mageia,      untrusted: true } # accused of fake 4.0
 - { name: winexe,                      ver: "1.1",                   ruleset: debuntu,     incorrect: true } # snapshot
 - { name: winff,                       verpat: "20[0-9]{6}.*",                             ignore: true }
-- { name: wire,                        verpat: "20[0-9]{6}",                               ignore: true } # aur snapshot
+- { name: wire,                        verpat: "20[0-9]{2}.*",                             incorrect: true } # aur snapshot
 - { name: wiredtiger,                  verlonger: 3,                 ruleset: [alpine,arch], incorrect: true }
 - { name: wiredtiger,                  ver: "4.0.14",                                      incorrect: true } # mongodb version used by WT not really related to wiredtiger version
 - { name: wiredtiger,                                                ruleset: blackarch,   untrusted: true } # accused of fake 4.0.14 (mongodb version used by WT not really related to wiredtiger version)
