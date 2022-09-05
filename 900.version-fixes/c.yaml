@@ -147,7 +147,10 @@
 - { name: cl-asdf,                     verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: cl-asdf,                     ver: "20101028",                                    sink: true }
 - { name: cl-asdf,                     verlonger: 3,                                       devel: true } # https://gitlab.common-lisp.net/asdf/asdf/blob/3.3.1.7/upgrade.lisp#L94
+- { name: cl-babel,                    verpat: "2010.*",                                   sink: true }
 - { name: cl-fad,                      verpat: "20[0-9]{6}",                               ignore: true }
+- { name: cl-rt,                                                                           noscheme: true }
+- { name: cl-trivial-backtrace,                                                            noscheme: true }
 - { name: clamav,                      verpat: "[0-9]{4}",                                 sink: true } # ancient version from wikidata
 - { name: claws-mail,                  verlonger: 3,                 ruleset: pisi,        incorrect: true }
 - { name: claws-mail,                                                ruleset: pisi,        untrusted: true }
