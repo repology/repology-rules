@@ -117,6 +117,8 @@
 - { name: lockrun,                     vergt: "20000000", verlt: "20141103",               sink: true }
 - { name: lodepng,                                                                         noscheme: true } # https://github.com/lvandeve/lodepng/tags
 - { name: log4cxx,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: log4cxx,                     ver: "0.13.0.1",              ruleset: vcpkg,       incorrect: true }
+- { name: log4cxx,                                                   ruleset: vcpkg,       untrusted: true } # accused of fake 0.13.0.1
 - { name: logfsprogs,                                                                      noscheme: true }
 - { name: logtop,                      ver: "0.6.1",                 ruleset: sisyphus,    incorrect: true }
 - { name: loic,                        verpat: ".*9.*9.*9.*",                              devel: true } # prerelease (2.9.9.99)
