@@ -96,6 +96,8 @@
 - { name: "emacs:w3m",                 verpat: "[0-9]+\\.[0-9]+\\.[0-9]{3}.*",             devel: true }
 - { name: "emacs:w3m",                 verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: "emacs:zenburn",             verpat: ".*20[0-9]{6}.*",                           snapshot: true }
+- { name: embree,                      ver: "3.14.4",                ruleset: solus,       incorrect: true }
+- { name: embree,                                                    ruleset: solus,       untrusted: true } # accused of fake 3.14.4
 - { name: emc2,                        verpat: "([0-9]+\\.[0-9]+)\\.([a-z]+)",             setver: $1$2 }
 - { name: emerald,                     ver: "0.9.5",                                       sink: true } # these come from https://launchpad.net/~nilarimogard/+archive/ubuntu/webupd8/+index?batch=75&memo=75&start=75 and these are older than latest 0.8.x releases
 - { name: emoslib,                     verpat: "000[0-9]{3}",                              sink: true } # ancient crap from debian oldstable
