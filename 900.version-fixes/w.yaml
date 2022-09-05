@@ -1,8 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { name: w3m,                         verlonger: 3,                                       snapshot: true }
-- { name: w3m,                         verpat: ".*p.*",                                    snapshot: true }
-- { name: w3m,                         verpat: ".*20[0-9]{6}.*",                           snapshot: true }
+- { name: w3m,                         verlonger: 3,                                       incorrect: true }
+- { name: w3m,                         verpat: ".*20[0-9]{6}.*",                           incorrect: true }
+- { name: w3m,                         verpat: "0\\.5\\.3[.+_-]?git20[0-9]{6}",            incorrect: false, any_is_patch: true } # https://github.com/tats/w3m/tags
 - { name: wakatime,                    relge: "10", relle: "13",                           sink: true } # deprecated python version https://github.com/wakatime/legacy-python-cli
 - { name: wakeonlan,                   verlonger: 3,                 ruleset: sisyphus,    ignore: true }
 - { name: walinuxagent,                verpat: "20[0-9]{6}.*",                             ignore: true }
