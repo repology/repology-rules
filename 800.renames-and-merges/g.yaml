@@ -376,7 +376,7 @@
 - { setname: grafana,                  name: grafana-bin }
 - { setname: grafana,                  namepat: "grafana[0-9]+" }
 - { setname: grafana-loki,             name: [logcli,promtail], addflavor: true } # parts of
-- { setname: granite,                  name: libgranite }
+- { setname: granite,                  namepat: "(?:lib)?granite[0-9.-]*" }
 - { setname: grantlee,                 name: [grantlee-qt4,grantlee-qt5,grantlee5], addflavor: true }
 - { setname: grantlee-editor,          name: grantleeeditor }
 - { setname: graphicsmagick,           name: [graphicsmagick-q8,graphicsmagick-q16,graphicsmagickq16], addflavor: true }
