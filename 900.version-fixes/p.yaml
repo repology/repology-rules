@@ -117,6 +117,8 @@
 - { name: php-xdebug,                  verpat: "(.*)-[0-9]+\\.[0-9]+", ruleset: scoop,     setver: "$1" } # the suffix seem to encode php version?
 - { name: phpipam,                     ver: "1.40.000",              ruleset: sisyphus,    incorrect: true } # 1.4
 - { name: phpipam,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 1.40.000
+- { name: phpvirtualbox,               ver: "6.1",                   ruleset: freebsd,     incorrect: true }
+- { name: phpvirtualbox,                                             ruleset: freebsd,     untrusted: true } # accused of fake 6.1
 - { name: phyml,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: pianobooster,                ver: "0.7.0",                 ruleset: mageia,      incorrect: true }
 - { name: pianobooster,                                              ruleset: mageia,      untrusted: true }
