@@ -65,6 +65,7 @@
 - { name: "perl:html-formfu",          verge: "2.10",                                      incorrect: true }
 - { name: "perl:html-packer",          verpat: "2\\.[0-9]{3}",                             incorrect: true }
 - { name: "perl:html-packer",          verge: "2.30",                                      incorrect: true }
+- { name: "perl:inline-java",          verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
 - { name: "perl:io-stty",              ver: ["02","0.30.0"],                               incorrect: true }
 - { name: "perl:io-tty",               verpat: ".*\\+.*",                                  devel: true } # AOSC devel
 - { name: "perl:ip-country",           verpat: ".*20[0-9]{6}",                             snapshot: true } # openbsd
