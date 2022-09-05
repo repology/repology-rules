@@ -4,6 +4,7 @@
 - { name: "perl:algorithm-diff",       verpat: "1\\.[0-9]{4}.*",                           incorrect: true } # 1.200, not 1.2000
 - { name: "perl:anyevent",             ver: "7.70.0",                                      ignore: true }
 - { name: "perl:anyevent",             verpat: "7\\.[0-9]{3}.*",                           ignore: true }
+- { name: "perl:app-cli",              verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
 - { name: "perl:app-cpanminus",                                                            noscheme: true } # repository contains two modules with different versioning schemes, so it's messed up in cpan and some repositories
 - { name: "perl:app-perlbrew",         verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:app-tlsme",            ver: "0.110000",                                    ignore: true }
