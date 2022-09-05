@@ -275,6 +275,7 @@
 - { name: crossguid,                   ver: "1.0.2",                 ruleset: [openindiana,openmamba], incorrect: true }
 - { name: crossguid,                                                 ruleset: [openindiana,openmamba], untrusted: true } # accused of fake 1.0.2
 - { name: crossguid,                                                 ruleset: vcpkg,       untrusted: true } # accused of fake 0.2.2-2018-06-16
+- { name: crossguid,                   verlonger: 3,                 ruleset: freebsd,     incorrect: true } # XXX: FreeBSD DISTVERSION
 - { name: cryptcat,                    ver: "20031202",                                    ignore: true }
 - { name: crypthook,                                                                       noscheme: true }
 - { name: crypto++,                    verpat: "[0-9]{3}",                                 incorrect: true }
