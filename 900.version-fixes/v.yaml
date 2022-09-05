@@ -91,7 +91,7 @@
 - { name: vscode,                                                    ruleset: funtoo,      untrusted: true } # accused of fake 1.56.0
 - { name: vsftpd,                      verpat: ".*el.*",             ruleset: guix,        incorrect: true } # 3.0.3-32.el8
 - { name: vsftpd,                                                    ruleset: guix,        untrusted: true } # accused of fake 3.0.3-32.el8
-- { name: vst3sdk,                     verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\[._-]?b.*",    setver: $1 } # one build per version, so it's probably safe to drop build https://github.com/steinbergmedia/vst3sdk/tags
+- { name: vst3sdk,                     verpat: ".*build.*",                                any_is_patch: true }
 - { name: vte,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: vte,                         ver: "0.28.22",               ruleset: solus,       incorrect: true }
 - { name: vte,                                                       ruleset: solus,       untrusted: true } # accused of fake 0.28.22
