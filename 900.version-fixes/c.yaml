@@ -178,6 +178,7 @@
 - { name: clisp,                                                     ruleset: [arch,crux,freebsd,manjaro,openmamba,ravenports], untrusted: true } # accused of fake 2.49.93
 - { name: clojure,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{3,}",     altver: true } # extra deps version appended by upstream
 - { name: clonekeen,                   verpat: "0\\.(.*)",                                 setver: "$1" }
+- { name: clonezilla,                  vergt: "3.35.2",                                    devel: true, maintenance: true } # https://free.nchc.org.tw/drbl-core/src/stable/
 - { name: cloog,                       ver: "0.18.5",                ruleset: [haikuports, aosc, arch], ignore: true } # unofficial fork
 - { name: cloudfuse,                   verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: cluster-glue,                verpat: "20[0-9]{6}.*",                             incorrect: true }
