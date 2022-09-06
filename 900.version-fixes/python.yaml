@@ -156,6 +156,10 @@
 - { name: "python:speaklater",                                       ruleset: [gentoo,pisi], untrusted: true } # accused if fake 1.4
 - { name: "python:sphinx-py3doc-enhanced-theme", ver: "2.4.0",       ruleset: pld,         incorrect: true }
 - { name: "python:sphinx-py3doc-enhanced-theme",                     ruleset: pld,         untrusted: true }
+- { name: "python:sphinx-theme-builder", ver: "0.2.2_beta",          ruleset: liguros,     incorrect: true }
+- { name: "python:sphinx-theme-builder",                             ruleset: liguros,     untrusted: true } # accused of fake 0.2.2_beta
+- { name: "python:sphinx-theme-builder", ver: "0.2.0",               ruleset: fedora,      incorrect: true }
+- { name: "python:sphinx-theme-builder",                             ruleset: fedora,      untrusted: true } # accused of fake 0.2.0
 - { name: "python:statistics",         ver: "3.4.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: "python:statistics",                                       ruleset: sisyphus,    untrusted: true } # accused of fake 3.4.0
 - { name: "python:suds-jurko",         ver: "0.7",                   ruleset: sisyphus,    incorrect: true }
