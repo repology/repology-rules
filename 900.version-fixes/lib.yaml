@@ -20,6 +20,8 @@
 - { name: libadwaita,                  ver: "0.1",                                         incorrect: true }
 - { name: libantlr3c,                  ver: "3.5.3",                 ruleset: arch,        incorrect: true } # latest is 3.4
 - { name: libantlr3c,                                                ruleset: arch,        untrusted: true } # accused of fake 3.5.3
+- { name: libantlr3c,                  ver: "3.5.2",                 ruleset: void,        incorrect: true } # latest is 3.4
+- { name: libantlr3c,                                                ruleset: void,        untrusted: true } # accused of fake 3.5.2
 - { name: libappindicator,             ver: "12.10.1",               ruleset: [opensuse,debuntu], incorrect: true }
 - { name: libappindicator,                                           ruleset: [opensuse,debuntu], untrusted: true } # accused of fake 12.10.1
 - { name: libappindicator,             ver: "16.10",                 ruleset: [crux,slackbuilds], incorrect: true }
