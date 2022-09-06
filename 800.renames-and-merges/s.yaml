@@ -372,6 +372,7 @@
 - { setname: syncthing-gtk,            name: "python:syncthing-gtk" }
 - { setname: synergy,                  namepat: "synergy[0-9.-]+" }
 - { setname: synfig,                   name: [synfigstudio, synfig-studio] }
+- { setname: synfig,                   name: [synfig-dev, synfigstudio-dev], weak_devel: true, nolegacy: true }
 - { setname: syntax-highlighting,      name: ksyntax-highlighting }
 - { setname: synthv1,                  name: synthv1-lv2 }
 - { setname: syslinux,                 name: syslinux-legacy }
