@@ -282,7 +282,7 @@
 - { name: ctags, ruleset: [aosc], setname: universal-ctags }
 - { name: ctags, addflag: unclassified }
 
-- { name: ctop, wwwpart: bcicen, setname: ctop-bcicen }
+- { name: ctop, wwwpart: [bcicen,ctop.sh], setname: ctop-bcicen }
 - { name: ctop, wwwpart: yadutaf, setname: ctop-yadutaf }
 - { name: ctop, addflag: unclassified }
 
