@@ -37,6 +37,11 @@
 
 - { name: bandcamp-dl, wwwpart: bandcamp-downloader,      setname: bandcamp-downloader }
 
+- { name: banner, wwwpart: [pronovic,cedar], setname: banner-kenneth-pronovici }
+- { name: banner, wwwpart: shh, setname: banner-sverre-huseby }
+- { name: banner, wwwpart: moria.de, setname: banner-michael-haardt }
+- { name: banner, addflag: unclassified }
+
 # http://www.theiling.de/projects/bar.html vs http://clpbar.sourceforge.net
 # some of the latter lack WWWs, while all of the former do have them
 - { name: bar, wwwpart: clp,                              setname: clpbar }
