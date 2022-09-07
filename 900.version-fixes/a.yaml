@@ -2,6 +2,7 @@
 
 - { name: a52dec,                      ver: "0.7.5",                 ruleset: [openbsd,opensuse,pld], incorrect: true }
 - { name: a52dec,                      ver: "0.7.4.1",               ruleset: [kaos],      incorrect: true }
+- { name: aaaaxy,                      verpat: ".+20[0-9]{6}.*",                           snapshot: true }
 - { name: aalib,                       ver: [ "1.4", "1.4p5" ],                            incorrect: true } # 1.4rc5
 - { name: aalib,                       verpat:  "1\\.4\\.0.*",                             incorrect: true } # 1.4rc5
 - { name: abbaye-des-morts,                                          ruleset: os4depot,    incorrect: true }
