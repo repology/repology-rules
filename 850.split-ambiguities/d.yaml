@@ -26,6 +26,10 @@
 
 - { name: david, wwwpart: david-dm, setname: david-dm }
 
+- { name: db, wwwpat: netbsd, setname: db-netbsd }
+
+- { name: dbus-c++, verpat: ".*pw", setname: dbus-c++-pw }
+
 - { name: dcd, wwwpart: player, setname: dcdplayer }
 - { name: dcd, wwwpart: dlang, setname: dcd-d-completion }
 - { name: dcd, addflag: unclassified }
@@ -33,10 +37,6 @@
 - { name: dce, wwwpart: opengroup, setname: dce-distributed-computing-infrastructure }
 - { name: dce, wwwpart: jmos, setname: dce-damn-cool-editor }
 - { name: dce, addflag: unclassified }
-
-- { name: db, wwwpat: netbsd, setname: db-netbsd }
-
-- { name: dbus-c++, verpat: ".*pw", setname: dbus-c++-pw }
 
 - { name: ddrescue, setname: dd-rescue, wwwpart: garloff } # dd_rescue, not GNU one
 
@@ -92,6 +92,9 @@
 - { name: diamond, ruleset: pld, setname: diamond-graphite-collector }
 - { name: diamond, addflag: unclassified }
 
+- { name: diaspora, verpat: "1\\.[0-9]+\\.[0-9]+", setname: diaspora-game }
+- { name: diaspora, setname: diaspora-social }
+
 - { name: dice, wwwpart: lambdabot, setname: dice-dice-rolling-system }
 - { name: dice, wwwpart: suse, setname: dice-image-build-system }
 - { name: dice, wwwpart: adamulation, setname: dice-emulator }
@@ -99,9 +102,6 @@
 
 - { name: dictionary, wwwpart: myrkr, setname: "emacs:dictionary" }
 - { name: dictionary, addflag: unclassified }
-
-- { name: diaspora, verpat: "1\\.[0-9]+\\.[0-9]+", setname: diaspora-game }
-- { name: diaspora, setname: diaspora-social }
 
 - { name: dino, wwwpart: [dino.im, github.com/dino/dino], setname: dino-im }
 - { name: dino, wwwpart: dino.nongnu.org, setname: dino-midi }

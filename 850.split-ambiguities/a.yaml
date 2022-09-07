@@ -203,6 +203,20 @@
 - { name: asl, wwwpart: avtech, setname: asl-multiphysics-simulation }
 - { name: asl, addflag: unclassified }
 
+- { name: astra, wwwpart: flipkart-incubator, setname: astra-pentest }
+- { name: astra, wwwpart: cesbo, setname: astra-iptv }
+- { name: astra, wwwpart: mpyflo, setname: astra-space-charge-tracking }
+- { name: astra, addflag: unclassified }
+
+- { name: astral, wwwpart: pypi.python.org/pypi/astral, setname: "python:astral" }
+- { name: astral, wwwpart: smirarab, setname: astral-species-tree }
+- { name: astral, addflag: unclassified }
+
+- { name: astroid, wwwpart: astroidmail, setname: astroidmail }
+- { name: astroid, wwwpart: astroid.org, setname: "python:astroid" }
+- { name: astroid, wwwpart: [pycqa,logilab/astroid], setname: "python:astroid" }
+- { name: astroid, addflag: unclassified }
+
 - { name: async, wwwpart: ctbur, setname: async-shell-command-runner }
 - { name: async, wwwpart: stumbleupon, setname: async-java }
 - { name: async, wwwpart: janestreet, setname: async-janestreet }
@@ -220,44 +234,17 @@
 - { name: atlas, wwwpart: m4ll0k, setname: atlas-ids-bypass }
 - { name: atlas, wwwpart: atlasgo, setname: atlas-database-toolkit }
 - { name: atlas, addflag: unclassified }
-
-- { name: atom, wwwpart: bayofrum, setname: atom-converter } # "Converts text files to html with special attributes"
 # otherwise bloatware text editor
 
-- { name: astra, wwwpart: flipkart-incubator, setname: astra-pentest }
-- { name: astra, wwwpart: cesbo, setname: astra-iptv }
-- { name: astra, wwwpart: mpyflo, setname: astra-space-charge-tracking }
-- { name: astra, addflag: unclassified }
-
-- { name: astral, wwwpart: pypi.python.org/pypi/astral, setname: "python:astral" }
-- { name: astral, wwwpart: smirarab, setname: astral-species-tree }
-- { name: astral, addflag: unclassified }
-
-- { name: astroid, wwwpart: astroidmail, setname: astroidmail }
-- { name: astroid, wwwpart: astroid.org, setname: "python:astroid" }
-- { name: astroid, wwwpart: [pycqa,logilab/astroid], setname: "python:astroid" }
-- { name: astroid, addflag: unclassified }
-
-- { name: authenticator, setname: gnome-authenticator, wwwpart: [gnome,bilelmoussaoui] }
-
-- { name: augustus, wwwpart: Keriew, setname: augustus-game }
-- { name: augustus, wwwpart: [gobics,bioinf], setname: augustus-gene-prediction }
-- { name: augustus, addflag: unclassified }
-
-- { name: avl, wwwpart: [adtinfo, gnu], setname: libavl } # gnu libavl; there's another libavl by Wessel Dankers in debian, upstreamless
-- { name: avl, wwwpart: drela, addflag: classified } # aerodynamics
-- { name: avl, addflag: unclassified }
-
-- { name: avogadro, verge: "1.8", setname: avogadro2 } # actually it starts with 1.90, but also cover strange 1.9 from KDE Neon
-
-- { name: awf, wwwpart: [scn.rain.com,henry_spencer], setname: awf-formatter } # Amazingly Workable Formatter
-- { name: awf, wwwpart: awf-cms, setname: awf-cms } # Amazingly Workable Formatter
-- { name: awf, wwwpart: valr, setname: awf-widget-factory } # A Widget Factory
-- { name: awf, addflag: unclassified }
+- { name: atom, wwwpart: bayofrum, setname: atom-converter } # "Converts text files to html with special attributes"
 
 - { name: audiofile, wwwpart: adamstark, setname: audiofile-adamstark }
 - { name: audiofile, wwwpart: 68k, addflag: classified }
 - { name: audiofile, noflag: classified, untrusted: true } # assume the same project, but be safe against potential clashes
+
+- { name: augustus, wwwpart: Keriew, setname: augustus-game }
+- { name: augustus, wwwpart: [gobics,bioinf], setname: augustus-gene-prediction }
+- { name: augustus, addflag: unclassified }
 
 - { name: aurora, wwwpart: hunterbrodie, setname: aurora-pacman-aur-wrapper }
 - { name: aurora, wwwpart: xuri.me, setname: aurora-beanstalkd-console }
@@ -266,11 +253,24 @@
 - { name: aurora, wwwpart: bromeon, setname: aurora-c++ }
 - { name: aurora, addflag: unclassified }
 
+- { name: authenticator, setname: gnome-authenticator, wwwpart: [gnome,bilelmoussaoui] }
+
 - { name: avizo, wwwpart: misterdanb, setname: avizo-notification-daemon }
 - { name: avizo, wwwpart: thermofisher, setname: avizo-3d-analysis }
 - { name: avizo, addflag: unclassified }
 
+- { name: avl, wwwpart: [adtinfo, gnu], setname: libavl } # gnu libavl; there's another libavl by Wessel Dankers in debian, upstreamless
+- { name: avl, wwwpart: drela, addflag: classified } # aerodynamics
+- { name: avl, addflag: unclassified }
+
+- { name: avogadro, verge: "1.8", setname: avogadro2 } # actually it starts with 1.90, but also cover strange 1.9 from KDE Neon
+
 - { name: avro, wwwpart: maateen, setname: avro-maateen }
+
+- { name: awf, wwwpart: [scn.rain.com,henry_spencer], setname: awf-formatter } # Amazingly Workable Formatter
+- { name: awf, wwwpart: awf-cms, setname: awf-cms } # Amazingly Workable Formatter
+- { name: awf, wwwpart: valr, setname: awf-widget-factory } # A Widget Factory
+- { name: awf, addflag: unclassified }
 
 - { name: aws, wwwpart: ada, setname: ada-web-server } # reuse name from aur
 - { name: aws, wwwpart: timkay, setname: aws-timkay }

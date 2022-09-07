@@ -49,6 +49,10 @@
 - { name: jd, summpart: 2ch, setname: jd-2ch-browser }
 - { name: jd, addflag: unclassified }
 
+- { name: jellyfish, wwwpart: [genome,cbcb.umd.edu], setname: jellyfish-k-mer }
+- { name: jellyfish, wwwpart: [jamesturk,sunlightlabs], setname: "python:jellyfish" }
+- { name: jellyfish, addflag: unclassified }
+
 - { name: jet, wwwpart: codeship, setname: jet-codeship }
 - { name: jet, wwwpart: borkdude, setname: jet-transform }
 - { name: jet, wwwpart: cognocoder, setname: jet-strings }
@@ -66,10 +70,6 @@
 - { name: jist, wwwpart: [rubygems,conradirwin], setname: jist-gist }
 - { name: jist, wwwpart: nitrc, setname: jist-java-image-science-toolkit }
 - { name: jist, addflag: unclassified }
-
-- { name: jellyfish, wwwpart: [genome,cbcb.umd.edu], setname: jellyfish-k-mer }
-- { name: jellyfish, wwwpart: [jamesturk,sunlightlabs], setname: "python:jellyfish" }
-- { name: jellyfish, addflag: unclassified }
 
 - { name: jj, wwwpart: 23.fi, setname: jj-xmpp-client }
 - { name: jj, wwwpart: tidwall, setname: jj-json-stream-editor }

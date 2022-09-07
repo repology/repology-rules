@@ -7,15 +7,17 @@
 - { setname: libappindicator,          name: libappindicator3 }
 - { setname: libapreq2,                name: ["perl:libapreq2", "perl:ap24-libapreq2"], addflavor: perl }
 - { setname: libapreq2,                name: ["apmod:apreq",apache-apreq] }
+- { setname: libarchive,               name: libarchive-devel, weak_devel: true, nolegacy: true }
+- { setname: libarchive,               name: libarchive3 }
 - { setname: libarcus,                 name: arcus }
 - { setname: libart-lgpl,              namepat: "libart-lgpl[0-9.-]+" }
 - { setname: libasr,                   name: [libasr-devel,libasr-snapshot], weak_devel: true, nolegacy: true }
-- { setname: libarchive,               name: libarchive-devel, weak_devel: true, nolegacy: true }
-- { setname: libarchive,               name: libarchive3 }
 - { setname: libassuan,                name: libassuan1 }
 - { setname: libatomic-ops,            name: [atomic-ops,libatomicops] }
 - { setname: libavif,                  name: avif }
+- { setname: libbonobo,                name: libbonobo-reference, addflavor: true }
 - { setname: libbonobo,                namepat: "libbonobo[0-9.-]+" }
+- { setname: libbonoboui,              name: libbonoboui-reference, addflavor: true }
 - { setname: libbonoboui,              namepat: "libbonoboui[0-9.-]+" }
 - { setname: libburn,                  name: libburn1 }
 - { setname: libc++,                   name: libcxx }
@@ -35,8 +37,6 @@
 - { setname: libconfuse,               namepat: "libconfuse[0-9.-]+" }
 - { setname: libconfuse,               name: confuse }
 - { setname: libcpuid,                 name: libcpuid11 }
-- { setname: libbonobo,                name: libbonobo-reference, addflavor: true }
-- { setname: libbonoboui,              name: libbonoboui-reference, addflavor: true }
 - { setname: libdbi-drivers,           name: [libdbi-drivers-freetds,libdbi-drivers-mysql,libdbi-drivers-pgsql,libdbi-drivers-sqlite,libdbi-drivers-sqlite3], addflavor: true }
 - { setname: libdbusmenu,              name: [libdbusmenu-glib,libdbusmenu-gtk,libdbusmenu-gtk-doc,libdbusmenu-gtk2,libdbusmenu-gtk3,libdbusmenu-tools], addflavor: true }
 - { setname: libdbusmenu-qt,           name: dbusmenu-qt }
@@ -86,6 +86,9 @@
 - { setname: libgdamm,                 namepat: "libgdamm[0-9.-]+" }
 - { setname: libgdata,                 namepat: "libgdata[0-9.-]+" }
 - { setname: libgdiplus,               name: [libgdiplus0,mono-libgdiplus] }
+- { setname: libgee,                   namepat: "libgee[0-9.-]+" }
+- { setname: libgeotiff,               name: [libgeotiff-dfsg,libgeotiff-epsg] }
+- { setname: libgeotiff,               name: geotiff }
 - { setname: libgeotiff,               name: libgeotiff2 }
 - { setname: libgfortran,              namepat: "(compat-)?libgfortran[0-9.-]+" }
 - { setname: libggi,                   namepat: "libggi[0-9.-]+" }
@@ -96,13 +99,8 @@
 - { setname: libgit2,                  namepat: "libgit2-[0-9.-]+" }
 - { setname: libgit2-glib,             namepat: "libgit2-glib[0-9.-]+" }
 - { setname: libglade,                 name: libglade-compat }
-- { setname: libgnt,                   name: [gnt,libgnt3] }
-- { setname: libgweather,              namepat: "(?:compat-)?libgweather[0-9.-]*" }
-- { setname: libgee,                   namepat: "libgee[0-9.-]+" }
-- { setname: libgeotiff,               name: [libgeotiff-dfsg,libgeotiff-epsg] }
-- { setname: libgeotiff,               name: geotiff }
 - { setname: libglade,                 namepat: "libglade[0-9.-]*" }
-- { setname: libglade,                 namepat: "libglade[0-9.-]*-reference" }
+- { setname: libglade,                 namepat: "libglade[0-9.-]*-reference", addflavor: reference }
 - { setname: libglademm,               namepat: "(?:lib)?glademm[0-9.]*" }
 - { setname: libglib-testing,          name: glib-testing }
 - { setname: libglu,                   name: mesa-libglu }
@@ -121,10 +119,12 @@
 - { setname: libgnomeui,               name: libgnomeui2 }
 - { setname: libgnomeui,               name: libgnomeui-reference, addflavor: reference }
 - { setname: libgnomeuimm,             namepat: "(?:lib)?gnomeuimm[0-9.-]*" }
+- { setname: libgnt,                   name: [gnt,libgnt3] }
 - { setname: libgphoto2,               name: libgphoto }
 - { setname: libgpod,                  name: libgpod4 }
 - { setname: libgsf,                   name: libgsf1 }
 - { setname: libgtop,                  namepat: "libgtop[0-9.-]+" }
+- { setname: libgweather,              namepat: "(?:compat-)?libgweather[0-9.-]*" }
 - { setname: libhandy,                 namepat: "libhandy[0-9.-]+" }
 - { setname: libharu,                  name: haru }
 - { setname: libical,                  namepat: "(?:compat-)?libical[0-9.-]*" }
@@ -138,8 +138,8 @@
 - { setname: libindicator,             name: [libindicator-gtk2,libindicator-gtk3,libindicator-tools], addflavor: true }
 - { setname: libindicator,             name: libindicator3 }
 - { setname: libinfinity,              namepat: "libinfinity[0-9.-]+" }
-- { setname: libisofs,                 name: libisofs1 }
 - { setname: libisoburn,               name: libisoburn1 }
+- { setname: libisofs,                 name: libisofs1 }
 - { setname: libixp,                   name: libixp-hg, weak_devel: true, nolegacy: true }
 - { setname: libjpeg-turbo,            name: libjpeg-turbo6 }
 - { setname: libjpeg-turbo,            name: [libjpeg-turbo-static, libjpeg-turbo-minimal], addflavor: true }
@@ -158,14 +158,13 @@
 - { setname: liblzf,                   name: lzf }
 - { setname: libm4ri,                  name: m4ri }
 - { setname: libm4rie,                 name: m4rie }
-- { setname: libmcs,                   name: libmcs1 }
-- { setname: libdmapsharing,           name: [libdmapsharing3,libdmapsharing4] }
 - { setname: libmatekbd,               name: libmatekbd-dev, weak_devel: true, nolegacy: true }
 - { setname: libmatekbd,               name: libmatekbd-gtk2, addflavor: true }
 - { setname: libmatemixer,             name: libmatemixer-dev, weak_devel: true, nolegacy: true }
 - { setname: libmateweather,           name: libmateweather-dev, weak_devel: true, nolegacy: true }
 - { setname: libmateweather,           name: libmateweather-gtk2, addflavor: true }
 - { setname: libmatroska,              name: matroska }
+- { setname: libmcs,                   name: libmcs1 }
 - { setname: libmediaart,              namepat: "(?:compat-)?libmediaart[0-9.-]+" }
 - { setname: libmikmod,                name: libmikmod2 }
 - { setname: libmm,                    namepat: "libmm[0-9.-]+" }
@@ -208,13 +207,13 @@
 - { setname: libpagemaker,             namepat: "libpagemaker[0-9.-]+" }
 - { setname: libpano13,                name: libpano }
 - { setname: libpaper,                 name: libpaper1 }
+- { setname: libpcap,                  name: libpcap-1.4 }
 - { setname: libpeas,                  name: [libpeas-loader-python3,libpeas-lua51,libpeas-luajit,"python:libpeas"], addflavor: true }
 - { setname: libphutil,                name: ["php:libphutil", libphutil-stable] }
 - { setname: libpng,                   name: [libpng-apng,libpng+apng], addflavor: apng }
 - { setname: libpng,                   name: [png,png14,libpng-compat] }
 - { setname: libpng,                   namepat: "libpng(?:-legacy)?[0-9.-]*" }
 - { setname: libpqxx,                  name: postgresql-libpqxx }
-- { setname: libpcap,                  name: libpcap-1.4 }
 - { setname: libpsl,                   name: libpsl-docs, addflavor: true }
 - { setname: libpst,                   name: pst-utils, addflavor: true }
 - { setname: libqb,                    name: libqb0 }
@@ -223,37 +222,37 @@
 - { setname: libqtxdg,                 name: libqtxdg-qt4, addflavor: qt4 }
 - { setname: libquicktime,             name: libquicktime-lame, addflavor: lame }
 - { setname: libquicktime,             name: libquicktime111 }
-- { setname: libquvi,                  namepat: "libquvi[0-9.-]+" }
 - { setname: libquotient,              name: libqmatrixclient } # former name
+- { setname: libquvi,                  namepat: "libquvi[0-9.-]+" }
 - { setname: libquvi-scripts,          namepat: "libquvi[0-9.-]+-scripts" }
 - { setname: libquvi-scripts,          namepat: "libquvi-scripts[0-9.-]+" }
 - { setname: libraqm,                  name: raqm }
 - { setname: libraw,                   name: libraw16 }
+- { setname: librdkafka,               name: rdkafka }
 - { setname: librealsense,             namepat: "librealsense[0-9.-]+" }
 - { setname: librem,                   name: rem }
 - { setname: librest,                  namepat: "librest[0-9.-]+" }
 - { setname: librevenge,               namepat: "librevenge[0-9.-]+" }
-- { setname: librdkafka,               name: rdkafka }
 - { setname: librfm,                   name: librfm5 }
-- { setname: librvngabw,               namepat: "librvngabw[0-9.-]+" }
 - { setname: librsvg,                  name: [librsvg-stable,librsvg2,librsvg-compat,librsvg-c,librsvg2-rust] }
 - { setname: librsvg,                  name: [rsvg-convert], addflavor: true }
 - { setname: librsync,                 name: librsync2 }
+- { setname: librvngabw,               namepat: "librvngabw[0-9.-]+" }
+- { setname: libsdl2pp,                name: sdl2pp }
 - { setname: libsecp256k1,             name: secp256k1 }
 - { setname: libsecp256k1,             name: [secp256k1-git], ignore: true }
 - { setname: libsecret,                namepat: "libsecret[0-9.-]+" }
-- { setname: libsdl2pp,                name: sdl2pp }
 - { setname: libshout,                 name: libshout2 }
-- { setname: libsndfile,               name: libsndfile-progs, addflavor: true }
-- { setname: libsodium,                name: libsodium13 }
-- { setname: libsoup,                  name: [libsoup-gnome,libsoup-reference], addflavor: true }
-- { setname: libsoup,                  namepat: "libsoup[0-9.-]+" }
 - { setname: libsidplay,               name: [libsidplay2, sidplay-libs, sidplay2-libs] }
 - { setname: libsigc++,                name: [libsigc++-docs,libsigc++-patched], addflavor: true }
 - { setname: libsigc++,                name: libsigc++-legacy12 }
 - { setname: libsigc++,                namepat: "libsigc(\\+\\+|xx|pp|)[0-9.-]*" }
 - { setname: libsignon-glib,           name: signon-glib }
-- { setname: libsodium,                name: [sodium,libsodium-static] }
+- { setname: libsndfile,               name: libsndfile-progs, addflavor: true }
+- { setname: libsodium,                name: [sodium,libsodium13] }
+- { setname: libsodium,                name: libsodium-static, addflavor: true }
+- { setname: libsoup,                  name: [libsoup-gnome,libsoup-reference], addflavor: true }
+- { setname: libsoup,                  namepat: "libsoup[0-9.-]+" }
 - { setname: libspatialite,            name: spatialite }
 - { setname: libsrs2,                  name: [libsrs2-debug,libsrs2-perl,libsrs2-python], addflavor: true }
 - { setname: libsrtp,                  namepat: "libsrtp[0-9.-]+" }
@@ -266,7 +265,7 @@
 - { setname: libtermcap,               name: [compat-libtermcap,libtermcap-compat] }
 - { setname: libtheora,                name: theora }
 - { setname: libtheora,                name: libtheora-docs, addflavor: docs }
-- { setname: libtool,                  name: [libtool-base,libtool-fortran,libtool-info] }
+- { setname: libtool,                  name: [libtool-base,libtool-fortran,libtool-info], addflavor: true }
 - { setname: libtool,                  namepat: "libtool[0-9.-]+" }
 - { setname: libtorrent,               name: [libtorrent-ipv6,libtorrent-extended], addflavor: true }
 - { setname: libtorrent,               namepat: "libtorrent[0-9.-]+" }
@@ -319,9 +318,9 @@
 - { setname: libxaw3dxft,              name: xaw3dxft }
 - { setname: libxcb,                   name: [libx32-libxcb,xorg-libxcb,compat-libxcb] }
 - { setname: libxcrypt,                name: [libxcrypt-compat, libxcrypt2.4] }
-- { setname: libxfont,                 name: [libxfont,libxfont1,libxfont2,xorg-libxfont,xorg-libxfont2,xorg-xfont,xorg-xfont2] }
 - { setname: libxfce4util,             name: libxfce4util-devel, weak_devel: true, nolegacy: true }
 - { setname: libxfce4util,             name: libxfce4util-gtk3, addflavor: gtk3 }
+- { setname: libxfont,                 name: [libxfont,libxfont1,libxfont2,xorg-libxfont,xorg-libxfont2,xorg-xfont,xorg-xfont2] }
 - { setname: libxkbcommon,             name: libxkbcommon-doc, addflavor: doc }
 - { setname: libxkbcommon,             name: libxkbcommon-x11, addflavor: x11 }
 - { setname: libxkbcommon,             name: xkbcommon }
@@ -340,11 +339,11 @@
 - { setname: libxtract,                name: libxtract0 }
 - { setname: libyaml,                  name: yaml }
 - { setname: libyang,                  name: libyang-devel, weak_devel: true, nolegacy: true }
-- { setname: libyubikey,               name: yubikey }
 - { setname: libykneomgr,              name: ykneomgr }
+- { setname: libyubikey,               name: yubikey }
 - { setname: libzapojit,               namepat: "libzapojit[0-9.-]*" }
-- { setname: libzeitgeist,             namepat: "libzeitgeist[0-9.-]*" }
 - { setname: libzdb,                   namepat: "libzdb-(mariadb|mysql|oracle|percona|postgresql|sqlite)[0-9.-]*" }
+- { setname: libzeitgeist,             namepat: "libzeitgeist[0-9.-]*" }
 - { setname: libzen,                   name: libzen0 }
 - { setname: libzim,                   name: zimlib }
 - { setname: libzrtpcpp,               name: libzrtpcppcore, addflavor: core }

@@ -19,18 +19,6 @@
 # mail client vs. asynchronous synthesis system
 - { name: balsa, category: sci-electronics,               setname: balsa-synthesis }
 
-- { name: base, wwwpart: secureideas, setname: acidbase }
-- { name: base, wwwpart: [archlinux,msys2,parabola], remove: true } # metapackage
-- { name: base, addflag: unclassified }
-
-- { name: baselayout, ruleset: funtoo, setname: baselayout-funtoo }
-- { name: baselayout, ruleset: gentoo, setname: baselayout-gentoo }
-- { name: baselayout, ruleset: kiss, setname: baselayout-kiss }
-- { name: baselayout, ruleset: pisi, setname: baselayout-pisi }
-- { name: baselayout, ruleset: solus, setname: baselayout-solus }
-- { name: baselayout, ruleset: carbs, setname: baselayout-carbs }
-- { name: baselayout, addflag: unclassified }
-
 - { name: bamm, wwwpart: ecogenomics, setname: bamm-metagenomics }
 - { name: bamm, wwwpart: bamm-project.org, setname: bamm-bayesian }
 - { name: bamm, addflag: unclassified }
@@ -47,6 +35,18 @@
 - { name: bar, wwwpart: clp,                              setname: clpbar }
 - { name: bar, wwwpart: theiling,                         addflag: theiling }
 - { name: bar, noflag: theiling,                          setname: clpbar }
+
+- { name: base, wwwpart: secureideas, setname: acidbase }
+- { name: base, wwwpart: [archlinux,msys2,parabola], remove: true } # metapackage
+- { name: base, addflag: unclassified }
+
+- { name: baselayout, ruleset: funtoo, setname: baselayout-funtoo }
+- { name: baselayout, ruleset: gentoo, setname: baselayout-gentoo }
+- { name: baselayout, ruleset: kiss, setname: baselayout-kiss }
+- { name: baselayout, ruleset: pisi, setname: baselayout-pisi }
+- { name: baselayout, ruleset: solus, setname: baselayout-solus }
+- { name: baselayout, ruleset: carbs, setname: baselayout-carbs }
+- { name: baselayout, addflag: unclassified }
 
 - { name: bat, wwwpart: [sharkdp,crates.io/crates/bat], setname: bat-cat }
 - { name: bat, wwwpart: binaryanalysis, setname: bat-binary-analysis-tool }
@@ -158,6 +158,13 @@
 # neither has alive homepage
 - { name: blueprint, addflag: unclassified }
 
+- { name: bolt, wwwpart: bolt.cm, setname: bolt-cms }
+- { name: bolt, wwwpart: s0md3v, setname: bolt-csrf-scanner }
+- { name: bolt, wwwpart: [freedesktop,gicmo], setname: bolt-thunderbolt3 }
+- { name: bolt, wwwpart: boltdb, setname: bolt-db }
+- { name: bolt, wwwpart: omp, setname: bolt-openmp }
+- { name: bolt, addflag: unclassified }
+
 - { name: bonsai, wwwpart: bonsai.sh, setname: bonsai.sh }
 - { name: bonsai, wwwpart: dnbaker, setname: bonsai-taxonomic-analysis }
 - { name: bonsai, wwwpart: mozilla, setname: bonsai-cvs-browser }
@@ -169,13 +176,6 @@
 
 - { name: bootchart, wwwpart: [mmeeks,xrmr], setname: bootchart2 }
 - { name: bootchart, verpat: "2\\..*", setname: bootchart2 }
-
-- { name: bolt, wwwpart: bolt.cm, setname: bolt-cms }
-- { name: bolt, wwwpart: s0md3v, setname: bolt-csrf-scanner }
-- { name: bolt, wwwpart: [freedesktop,gicmo], setname: bolt-thunderbolt3 }
-- { name: bolt, wwwpart: boltdb, setname: bolt-db }
-- { name: bolt, wwwpart: omp, setname: bolt-openmp }
-- { name: bolt, addflag: unclassified }
 
 - { name: bore, wwwpart: ekzhang, setname: bore-cli }
 - { name: bore, wwwpart: delan, setname: bore-dns }

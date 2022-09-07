@@ -59,6 +59,10 @@
 
 - { name: hexer,                       wwwpart: hobu, setname: hexer-hobu }
 
+- { name: hgrep, wwwpart: rhysd, addflag: classified }
+- { name: hgrep, wwwpart: acme, setname: hgrep-acme } # deprecated since 1988
+- { name: hgrep, addflag: unclassified }
+
 - { name: hibernate, wwwpart: tuxonice, setname: hibernate-script }
 - { name: hibernate, wwwpart: hibernate.org, setname: hibernate-orm }
 - { name: hibernate, addflag: unclassified }
@@ -66,10 +70,6 @@
 - { name: highway, wwwpart: google, setname: highway-simd-library }
 - { name: highway, wwwpart: tkengo, setname: highway-code-search }
 - { name: highway, addflag: unclassified }
-
-- { name: hgrep, wwwpart: rhysd, addflag: classified }
-- { name: hgrep, wwwpart: acme, setname: hgrep-acme } # deprecated since 1988
-- { name: hgrep, addflag: unclassified }
 
 - { name: horizon, wwwpart: [openstack,launchpad.net/horizon], setname: openstack-horizon }
 - { name: horizon, wwwpart: eda, setname: horizon-eda }

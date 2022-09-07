@@ -1,9 +1,5 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
-- { name: taipan, wwwpart: textrpg, setname: taipan-game }
-- { name: taipan, wwwpart: enkomio, setname: taipan-security-scanner }
-- { name: taipan, addflag: unclassified }
-
 - { name: tag, wwwpart: jdberry, setname: tag-macos }
 - { name: tag, wwwpart: feisty-dog, setname: tag-music-tag-editor }
 - { name: tag, wwwpart: aykamko, setname: tag-ag }
@@ -12,6 +8,10 @@
 - { name: taiga, wwwpart: taiga.moe, setname: taiga-animer-tracker }
 - { name: taiga, wwwpart: scoopta, setname: taiga-animated-screenshots }
 - { name: taiga, addflag: unclassified }
+
+- { name: taipan, wwwpart: textrpg, setname: taipan-game }
+- { name: taipan, wwwpart: enkomio, setname: taipan-security-scanner }
+- { name: taipan, addflag: unclassified }
 
 - { name: task, wwwpart: taskfile, setname: "go:task" }
 - { name: task, wwwpart: taskwarrior, setname: taskwarrior }
@@ -91,15 +91,6 @@
 - { name: tesseract, ruleset: [openwrt,pld,solus], setname: tesseract-ocr }
 - { name: tesseract, addflag: unclassified }
 
-- { name: timer, wwwpart: elitetk, setname: timer-elitetk }
-- { name: timer, wwwpart: yoarch, setname: timer-yoarch }
-- { name: timer, wwwpart: caarlos0, setname: timer-caarlos0 }
-- { name: timer, addflag: unclassified }
-
-- { name: tiptop, wwwpart: [nschloe,pypi.org/project/tiptop/], setname: tiptop-nschloe }
-- { name: tiptop, wwwpart: [inria,fecastle], setname: tiptop-inria }
-- { name: tiptop, addflag: unclassified }
-
 - { name: tf, wwwpart: [tinyfugue,tf.tcp.com], setname: tinyfugue }
 - { name: tf, wwwpart: yanganto, setname: tag-finder }
 - { name: tf, ruleset: [pld,debuntu], setname: tinyfugue }
@@ -138,6 +129,11 @@
 - { name: timeline, wwwpart: mozilla, setname: "ffext:timeline" }
 - { name: timeline, addflag: unclassified }
 
+- { name: timer, wwwpart: elitetk, setname: timer-elitetk }
+- { name: timer, wwwpart: yoarch, setname: timer-yoarch }
+- { name: timer, wwwpart: caarlos0, setname: timer-caarlos0 }
+- { name: timer, addflag: unclassified }
+
 - { name: tint, category: Graphics, setname: tint-photo-editor }
 - { name: tint, wwwpart: indii, setname: tint-photo-editor }
 - { name: tint, wwwpart: [code.google.com/p/tint2,tint2.googlecode.com], setname: tint2 }
@@ -145,6 +141,10 @@
 - { name: tint, ruleset: debuntu, setname: tint-tetris }
 - { name: tint, category: [games,Amusements/Games/Board/Puzzle], setname: tint-tetris }
 - { name: tint, addflag: unclassified }
+
+- { name: tiptop, wwwpart: [nschloe,pypi.org/project/tiptop/], setname: tiptop-nschloe }
+- { name: tiptop, wwwpart: [inria,fecastle], setname: tiptop-inria }
+- { name: tiptop, addflag: unclassified }
 
 - { name: tiv, wwwpart: xyne, setname: tiv-xyne }
 - { name: tiv, wwwpart: terminalimageviewer, setname: tiv-terminalimageviewer }
@@ -196,15 +196,15 @@
 - { name: tracer, wwwpart: tracer-codes, setname: tracer-trace-replay-tool }
 - { name: tracer, addflag: unclassified }
 
+- { name: traceroute, wwwpart: nanog, setname: traceroute-nanog }
+- { name: traceroute, ruleset: freebsd, setname: traceroute-as }
+
 - { name: tracker, wwwpart: gnome, setname: gnome-tracker }
 - { name: tracker, wwwpart: [opensourcephysics,physlets], setname: tracker-opensourcephysics }
 # also something with http://www.tracker-project.org/ url, which is an empty site
 - { name: tracker, addflag: unclassified }
 
-- { name: traceroute, wwwpart: nanog, setname: traceroute-nanog }
-- { name: traceroute, ruleset: freebsd, setname: traceroute-as }
-
-- { name: tracker, setname: tracker-modplayer, category: audio }
+- { name: tracker, setname: tracker-modplayer, category: audio } # XXX
 
 - { name: trash, wwwpart: andreafrancia, setname: trash-cli }
 - { name: trash, wwwpart: [hasseg,ali-rantakari], setname: trash-osx }
@@ -213,14 +213,14 @@
 - { name: tree, wwwpart: mama.indstate, setname: tree-steve-baker }
 - { name: tree, addflag: unclassified }
 
-- { name: triangle, wwwpart: quake, setname: triangle-mesh-generator }
-- { name: triangle, wwwpart: esimov, setname: triangle-art }
-- { name: triangle, addflag: unclassified }
-
 - { name: trf, wwwpart: orzen.org, setname: trf-billing }
 - { name: trf, wwwpart: andem.bu.edu, setname: trf-tandem-repeats-finder }
 - { name: trf, wwwpart: core.tcl.tk, setname: trf-tcl }
 - { name: trf, addflag: unclassified }
+
+- { name: triangle, wwwpart: quake, setname: triangle-mesh-generator }
+- { name: triangle, wwwpart: esimov, setname: triangle-art }
+- { name: triangle, addflag: unclassified }
 
 - { name: trillian, wwwpart: trillian.im, setname: trillian-im }
 - { name: trillian, wwwpart: google, setname: trillian-data-store }

@@ -32,13 +32,13 @@
 - { name: lemon, ruleset: pclinuxos, setname: lemon-lalr1-sqlite }
 - { name: lemon, addflag: unclassified }
 
-- { name: leo, wwwpart: [leoeditor,leo-editor], setname: leo-editor }
-- { name: leo, wwwpart: scriptsleo, setname: leo-dict }
-- { name: leo, addflag: unclassified }
-
 - { name: lens, wwwpart: k8slens, setname: lens-kubernetes }
 - { name: lens, wwwpart: pitecan, setname: lens-mail-filter }
 - { name: lens, addflag: unclassified }
+
+- { name: leo, wwwpart: [leoeditor,leo-editor], setname: leo-editor }
+- { name: leo, wwwpart: scriptsleo, setname: leo-dict }
+- { name: leo, addflag: unclassified }
 
 - { name: lepton, wwwpart: dropbox, setname: lepton-jpeg-compressor }
 - { name: lepton, wwwpart: hackjutsu, setname: lepton-snippet-manager }
@@ -74,7 +74,9 @@
 - { name: libmfx, wwwpart: intel-media-sdk, setname: intel-media-sdk }
 - { name: libmfx, addflag: unclassified }
 
-- { name: libmpc,                      wwwpart: multiprecision, setname: gnumpc }
+- { name: libmpack, ruleset: solus, setname: "lua:mpack" }
+
+- { name: libmpc, wwwpart: multiprecision, setname: gnumpc }
 
 - { name: libopenaptx, wwwpart: arkq, setname: $0-arkq }
 - { name: libopenaptx, wwwpart: pali, setname: $0-pali }
@@ -93,7 +95,7 @@
 
 - { name: libucl, ruleset: openwrt, setname: ucl }
 
-- { name: libunicode,                  wwwpart: courier, setname: courier-unicode }
+- { name: libunicode, wwwpart: courier, setname: courier-unicode }
 
 - { name: libunwind, wwwpart: llvm, setname: llvm, addflavor: true }
 - { name: libunwind, summpart: [llvm,clang], setname: llvm, addflavor: true }
@@ -110,11 +112,11 @@
 - { name: libuuid, wwwpart: e2fsprogs, setname: e2fsprocs, addflavor: libuuid } # part of
 - { name: libuuid, wwwpart: kallisti5, setname: libuuid-kallisti5 }
 
+- { name: libvgm, wwwpart: ivana, setname: vgm }
+
 - { name: libwww, wwwpart: w3.org, setname: w3c-libwww }
 - { name: libwww, summpart: w3c, setname: w3c-libwww }
 - { name: libwww, addflag: unclassified }
-
-- { name: libvgm, wwwpart: ivana, setname: vgm }
 
 - { name: libzt, wwwpart: zerotao, setname: libzt-zerotao }
 - { name: libzt, wwwpart: zyga, setname: libzt-unittest }

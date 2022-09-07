@@ -17,6 +17,12 @@
     - x11-font-ibm-type1
     - xorg-font-ibm-type1
 
+- setname: "fonts:impallari-lobster"
+  name:
+    - fonts-otf-impallari-lobster
+    - impallari-lobster-fonts
+    - ttf-impallari-lobster-font
+
 - setname: "fonts:inconsolata"
   name:
     - font-inconsolata-otf
@@ -57,15 +63,15 @@
     - fonts-ttf-inkboy
     - inkboy-fonts
 
-- setname: "fonts:inria"
-  name:
-    - font-blackfoundry-inria
-    - inriafonts
-
 - setname: "fonts:input"
   name:
     - input-fonts
     - ttf-input
+
+- setname: "fonts:inria"
+  name:
+    - font-blackfoundry-inria
+    - inriafonts
 
 - setname: "fonts:inter"
   name:
@@ -109,12 +115,6 @@
     - ttf-iosevka
 
 - { setname: "fonts:iosevka",          namepat: "ttf-iosevka-(.*)" }
-
-- setname: "fonts:impallari-lobster"
-  name:
-    - fonts-otf-impallari-lobster
-    - impallari-lobster-fonts
-    - ttf-impallari-lobster-font
 
 - setname: "fonts:ipa"
   name:

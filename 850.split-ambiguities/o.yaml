@@ -74,6 +74,8 @@
 
 - { name: orbit2, wwwpart: gulien, setname: orbit-task-runner } # mismerge from orbit
 
+- { name: orc, wwwpart: apache, setname: apache-orc }
+
 - { name: orca, wwwpart: gnome, setname: gnome-orca }
 - { name: orca, wwwpart: plotly, setname: plotly-orca } # reuse name from aur
 - { name: orca, wwwpart: 100r, setname: orca-lang }
@@ -97,14 +99,12 @@
 - { name: ots, ruleset: [pld], setname: ots-text-summarizer }
 - { name: ots, addflag: unclassified }
 
-- { name: overpass, wwwpart: [font,redhatbrand], setname: "fonts:overpass" }
-- { name: overpass, wwwpart: api, setname: "python:overpass" }
-- { name: overpass, category: [fonts,media-fonts], setname: "fonts:overpass" }
-- { name: overpass, addflag: unclassified }
-
-- { name: orc, wwwpart: apache, setname: apache-orc }
-
 - { name: otter, wwwpart: [otter-browser,otterbrowser], setname: otter-browser }
 - { name: otter, wwwpart: [ar/otter,mccune], setname: otter-prover }
 - { name: otter, ver: "3.3f", setname: otter-prover } # circa 2004, unlikely to change
 - { name: otter, addflag: unclassified }
+
+- { name: overpass, wwwpart: [font,redhatbrand], setname: "fonts:overpass" }
+- { name: overpass, wwwpart: api, setname: "python:overpass" }
+- { name: overpass, category: [fonts,media-fonts], setname: "fonts:overpass" }
+- { name: overpass, addflag: unclassified }
