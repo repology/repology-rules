@@ -344,6 +344,10 @@
 - { name: spigot, ruleset: freebsd, setname: spigot-videocapture }
 - { name: spigot, addflag: unclassified }
 
+- { name: spike, wwwpart: riscv, setname: spike-riscv-simulator }
+- { name: spike, wwwpart: skipenow.com, setname: spike-email }
+- { name: spike, addflag: unclassified }
+
 - { name: spin, category: [dev-java,Development/Java], setname: "java:spin" }
 - { name: spin, wwwpart: spin.sourceforge.net, setname: "java:spin" }
 - { name: spin, summpart: spinner, setname: spin-spinner }
