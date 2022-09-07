@@ -297,6 +297,8 @@
 - { name: sqtop,                       verpat: "[0-9]{8}",                                 incorrect: true } # YYYY-MM-DD, not YYYYMMDD
 - { name: squashfs-tools,              verpat: "[0-9]+",                                   incorrect: true } # 4.3, not 43
 - { name: squashfs-tools,              verpat: ".*20[0-9]{6}.*",                           snapshot: true }
+- { name: squeak-vm,                   ver: "4.19.9.3816",           ruleset: slackbuilds, incorrect: true }
+- { name: squeak-vm,                                                 ruleset: slackbuilds, untrusted: true } # accused of fake 4.19.9.3816
 - { name: squid,                       verpat: "[0-9]+\\.0([^0-9].*)?",                    devel: true } # unconfirmed, suggested via report
 - { name: squid,                                                     ruleset: aur,         untrusted: true } # accused of fake 5.0.0
 - { name: squirrelmail,                verpat: "20[0-9]{6}.*",                             ignore: true } # freebsd snapshot
