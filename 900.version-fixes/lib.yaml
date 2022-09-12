@@ -139,6 +139,8 @@
 - { name: libjxl,                      verpat: "0.7.0_pre.*",                              incorrect: true } # made up "next" version
 - { name: libjxl,                                                    ruleset: gentoo,      untrusted: true } # accused of fake 0.7.0_pre.*
 - { name: libjxl,                      verpat: ".*r.*",                                    devel: true } # XXX: FreeBSD DISTVERSION
+- { name: libjxl,                      ver: "0.7.0",                 ruleset: [kaos,openmandriva], incorrect: true }
+- { name: libjxl,                                                    ruleset: [kaos,openmandriva], untrusted: true } # accused of fake 0.7.0
 - { name: libkcddb,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libkcompactdisc,             verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: libkdcraw,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
