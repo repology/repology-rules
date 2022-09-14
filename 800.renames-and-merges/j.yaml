@@ -38,6 +38,11 @@
 - { setname: jetty,                    name: [jetty-minimal, jetty-websocket], addflavor: true }
 - { setname: jfrog-cli,                name: jfrog }
 - { setname: jira-cli,                 name: [jira-cli-go, "python:jira-cli"] }
+- { setname: jitsi,                    name: "jitsi-nightly", weak_devel: true, nolegacy: true }
+- { setname: jitsi-meet,               name: "jitsi-meet-nightly", weak_devel: true, nolegacy: true }
+- { setname: jitsi-meet-prosody,       name: ["jitsi-meet-prosody-nightly", "jitsi-prosody-plugins"] }
+- { setname: jitsi-meet-turnserver,    name: "jitsi-meet-turnserver-nightly", weak_devel: true, nolegacy: true }
+- { setname: jitsi-videobridge,        name: ["jitsi-videobridge-nightly", "jitsi-videobridge2"] }
 - { setname: jlatexmath,               name: [jlatexmath-fop, libjlatexmath-java], addflavor: true }
 - { setname: jless,                    name: "rust:jless" }
 - { setname: jogl,                     name: [jogamp-jogl,jogl2,libjogl-java,libjogl2-java] }
