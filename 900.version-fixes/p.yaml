@@ -233,8 +233,8 @@
 - { name: pony-stable,                 ver: "0.1.6.1",               ruleset: openbsd,     incorrect: true }
 - { name: pony-stable,                                               ruleset: openbsd,     untrusted: true } # accused of fake 0.1.6.1
 - { name: popt,                                                      ruleset: pld,         untrusted: true } # accused of fake 1.17
-- { name: popt,                        ver: "1.19",                  ruleset: openmandriva, incorrect: true }
-- { name: popt,                                                      ruleset: openmandriva, untrusted: true } # accused of fake 1.19
+- { name: popt,                        ver: "1.19",                  ruleset: [openmandriva,t2], incorrect: true }
+- { name: popt,                                                      ruleset: [openmandriva,t2], untrusted: true } # accused of fake 1.19
 - { name: portablesinger,                                                                  ignore: false } # 2.0.38c0573 is real version
 - { name: portablexdr,                 verpat: ".*r[0-9]+.*",                              snapshot: true }
 - { name: portaudio,                   verpat: "20[0-9]{6}",                               snapshot: true }
