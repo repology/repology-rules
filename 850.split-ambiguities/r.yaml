@@ -73,6 +73,9 @@
 
 - { name: rescue, wwwpart: rescue.sourceforge.net, setname: rescue-max }
 
+- { name: revbump, wwwpart: pkgsrc, setname: revbump-pkgsrc }
+- { name: revbump, addflag: unclassified }
+
 - { name: rex, wwwpart: gnu.org, setname: rex-gray } # https://puszcza.gnu.org.ua/projects/rex
 - { name: rex, wwwpart: shellphish, setname: rex-shellphish } # https://github.com/shellphish/rex
 # otherwise rexify.org - remote execution framework
