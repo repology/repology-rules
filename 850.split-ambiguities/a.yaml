@@ -25,6 +25,10 @@
 
 - { name: addresses, ruleset: [freebsd,openbsd,pkgsrc], setname: gnustep-addresses } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
+- { name: ade, wwwpart: opencv, setname: ade-opencv }
+- { name: ade, wwwpart: ApexAI, setname: ade-cli }
+- { name: ade, addflag: unclassified }
+
 - { name: adios, wwwpart: mightypork, setname: adios-session-exit }
 - { name: adios, wwwpart: center-projects, setname: adios-adaptable-io-system }
 - { name: adios, addflag: unclassified }
