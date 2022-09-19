@@ -64,6 +64,7 @@
 - { name: opencl-headers,                                                                  noscheme: true }
 - { name: opencollada,                 verpat: ".*3335ac.*",                               incorrect: true }
 - { name: opencollada,                 verpat: "20[0-9]{6}",                               incorrect: true } # aosc
+- { name: opencollada,                 ver: "1.6.70",                                      incorrect: true } # unofficial, windows-only changes
 - { name: opencolorio,                 verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: opencvs,                                                                         noscheme: true }
 - { name: opendbx,                     ver: "1.5.0",                                       devel: true } # https://linuxnetworks.de/doc/index.php?title=OpenDBX/Download; XXX probably needs pattern, but the devel scheme is unknown
