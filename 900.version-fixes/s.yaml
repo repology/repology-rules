@@ -71,6 +71,7 @@
 - { name: sdl,                         ver: "1.2.16",                ruleset: os4depot,    incorrect: true }
 - { name: sdl,                                                       ruleset: os4depot,    untrusted: true } # accused of fake 1.2.16
 - { name: sdl-audiolib,                                                                    noscheme: true }
+- { name: sdl-image,                   verpat: ".+20[0-9]{6}",                             snapshot: true } # macports
 - { name: sdl-sound,                   ver: "2.0",                   ruleset: rosa,        incorrect: true }
 - { name: sdl-sound,                                                 ruleset: rosa,        untrusted: true } # accused of fake 2.0
 - { name: sdl-sound,                   ver: "1.0.4",                 ruleset: [sisyphus,mageia], incorrect: true }
