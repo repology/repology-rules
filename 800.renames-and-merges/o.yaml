@@ -75,7 +75,9 @@
 - { setname: opencolorio,              name: [opencolorio-tools, opencolorio-qfix, "python:opencolorio"], addflavor: true }
 - { setname: opencore-amr,             name: [libopencore-amr,libopencore-amr0] }
 - { setname: "opencpn:gshhs",          name: [opencpn-plugin-gshhs,opencpn-gshhs,opencpn-gshhs-crude] }
-- { setname: opencv,                   name: [opencv2,libopencv3.4,opencv-legacy] }
+- { setname: opencv,                   namepat: "(?:lib)?opencv[0-9.-]*" }
+- { setname: opencv,                   namepat: opencv-legacy }
+- { setname: opencv,                   name: [opencv2-opt, opencv3-opt], addflavor: opt }
 - { setname: opencv,                   name: [opencv-contrib-face,opencv-core,opencv-docs,opencv-cuda,opencv-java,opencv-qt5,opencv-samples], addflavor: true }
 - { setname: opendbx,                  name: libopendbx }
 - { setname: opendht,                  name: "python:opendht" }
