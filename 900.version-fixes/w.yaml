@@ -29,6 +29,7 @@
 - { name: wesnoth,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: weston,                      verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: whatweb,                     vergt: "0.4.7",               ruleset: [debuntu,openbsd,gentoo,freebsd], ignore: true } # 0.4.8 has never been released
+- { name: whitakers-words,                                                                 noscheme: true }
 - { name: widelands,                   verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: widelands,                   verge: "15", verle: "21",                           sink: true } # buildNN < 1.0
 - { name: widevine,                    verge: "61",                                        incorrect: true } # chrome version instead of plugin version
