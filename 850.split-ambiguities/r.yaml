@@ -71,6 +71,9 @@
 
 - { name: rem, wwwpart: kykim, setname: rem-kykim }
 
+- { name: renderer, wwwpart: grafana, setname: grafana-image-renderer } # XXX: nix problem
+- { name: renderer, addflag: unclassified }
+
 - { name: rescue, wwwpart: rescue.sourceforge.net, setname: rescue-max }
 
 - { name: revbump, wwwpart: pkgsrc, setname: revbump-pkgsrc }
