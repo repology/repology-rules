@@ -43,8 +43,9 @@
 - { name: cardboard,                                                                       noscheme: true } # https://gitlab.com/cardboardwm/cardboard
 - { name: caret-editor,                ver: "4.0",                   ruleset: winget,      incorrect: true } # 4.0.0-rc23
 - { name: caret-editor,                                              ruleset: winget,      untrusted: true } # accused of fake 4.0
-- { name: cargo,                       verpat: "1\\..*",             ruleset: [nix,macports], incorrect: true } # rust version used?
-- { name: cargo,                                                     ruleset: [nix,macports], untrusted: true } # accused of fake 1.x
+- { name: cargo,                       verpat: "1\\..*",             ruleset: [nix,macports,void], incorrect: true } # rust version used?
+- { name: cargo,                                                     ruleset: [nix,macports,void], untrusted: true } # accused of fake 1.x
+- { name: cargo,                       verpat: "1\\..*",                                   untrusted: true } # rust version used?
 - { name: caribou,                     ver: "0.4.22",                ruleset: sisyphus,    incorrect: true }
 - { name: caribou,                                                   ruleset: sisyphus,    untrusted: true }
 - { name: carla,                                                     ruleset: pld,         untrusted: true } # accused of fake 2.0
