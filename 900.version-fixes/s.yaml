@@ -43,6 +43,7 @@
 - { name: sccs,                        verpat: "[0-9]{6}",                                 incorrect: true }
 - { name: scdoc,                       ver: "1.11.12",               ruleset: conan,       incorrect: true }
 - { name: scdoc,                                                     ruleset: conan,       untrusted: true } # accused of fake 1.11.12
+- { name: schilytools,                 verpat: "20[0-9]{6}",                               incorrect: true } # YYYY.MM.DD
 - { name: schismtracker,               ver: "20150911005204",                              ignore: true }
 - { name: schroot,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: schroot,                     ver: "1.7.2",                 ruleset: [mageia,rosa], incorrect: true }
