@@ -170,11 +170,12 @@
 - { name: clipit,                                                    ruleset: nix,         untrusted: true } # accused of fake 1.4.5
 - { name: clisp,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: clisp,                       verpat: ".*\\.9[0-9]",                              devel: true }
-- { name: clisp,                       ver: "2.50",                  ruleset: [slitaz,aur,ravenports,pld], incorrect: true }
-- { name: clisp,                                                     ruleset: [slitaz,aur,ravenports,pld], untrusted: true } # accused of fake 2.50
-- { name: clisp,                       ver: "2.50",                                        untrusted: true } # very likely fake, see reports
-- { name: clisp,                       vereq: "2.49.93",             ruleset: [arch,crux,freebsd,manjaro,openmamba,ravenports], incorrect: true }
-- { name: clisp,                                                     ruleset: [arch,crux,freebsd,manjaro,openmamba,ravenports], untrusted: true } # accused of fake 2.49.93
+- { name: clisp,                       vereq: "2.50",                ruleset: [aur,kaos,macports,pld,ravenports,slitaz], incorrect: true }
+- { name: clisp,                                                     ruleset: [aur,kaos,macports,pld,ravenports,slitaz], untrusted: true } # accused of fake 2.50
+- { name: clisp,                       vereq: "2.50",                                      untrusted: true } # very likely fake, see reports
+- { name: clisp,                       vereq: "2.49.93",             ruleset: [arch,crux,freebsd,fedora,manjaro,openmamba,ravenports,rosa], incorrect: true }
+- { name: clisp,                                                     ruleset: [arch,crux,freebsd,fedora,manjaro,openmamba,ravenports,rosa], untrusted: true } # accused of fake 2.49.93
+- { name: clisp,                       vereq: "2.49.93",                                   untrusted: true } # most likely fake
 - { name: clojure,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{3,}",     altver: true } # extra deps version appended by upstream
 - { name: clonekeen,                   verpat: "0\\.(.*)",                                 setver: "$1" }
 - { name: clonezilla,                  vergt: "3.35.2",                                    devel: true, maintenance: true } # https://free.nchc.org.tw/drbl-core/src/stable/, see also drbl
