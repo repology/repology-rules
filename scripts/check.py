@@ -35,7 +35,7 @@ families = [
     'arch',
     'ataraxia',
     'baulk',
-    'buckaroo',
+    'buckaroo',  # removed in fact, may want to garbage collect rules at some point
     'carbs',
     'centos',
     'chakra',
