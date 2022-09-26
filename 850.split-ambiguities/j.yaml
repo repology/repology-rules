@@ -79,6 +79,10 @@
 # otherwise some ancient version of less from debian, no upstream defined
 - { name: jless, addflag: unclassified }
 
+- { name: jot, wwwpart: araekiel, setname: jot-note-management }
+# a bunch upstreamless `print sequential or random data` packages
+- { name: jot, addflag: unclassified }
+
 - { name: jp, wwwpart: sgreben, setname: jp-terminal-plots }
 - { name: jp, wwwpart: jmespath, setname: jp-jmespath }
 - { name: jp, wwwpart: jpp, setname: jpp } # XXX: problem
