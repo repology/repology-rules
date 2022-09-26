@@ -198,7 +198,10 @@
 - { setname: ponscripter,              name: onscripter-en }
 - { setname: ponscripter-sekai,        name: ponscripter-sekaiproject }
 - { setname: popcorntime,              name: popcorn-time }
-- { setname: poppler,                  name: [poppler-base,poppler-qt5-cairo], addflavor: true }
+- { setname: poppler,                  namepat: "libpoppler[0-9.-]*" }
+- { setname: poppler,                  name: [poppler-base,poppler-qt5-cairo,poppler-static,poppler-qt6], addflavor: true }
+- { setname: poppler,                  name: poppler-current, weak_devel: true, nolegacy: true }
+- { setname: poppler,                  name: poppler-devel-qt5, weak_devel: true, nolegacy: true, addflavor: qt5 }
 - { setname: popt,                     name: libpopt }
 - { setname: portaudio,                name: [portaudio19,portaudio2,portaudio0] }
 - { setname: portaudio,                name: [portaudio-devel,portaudio-svn], weak_devel: true, nolegacy: true }
