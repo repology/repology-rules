@@ -24,6 +24,10 @@
 - { name: tau, ruleset: debuntu, setname: tau-fortran-profiling }
 - { name: tau, addflag: unclassified }
 
+- { name: tcat, wwwpart: marcomorain, setname: tcat-time-cat }
+- { name: tcat, wwwpart: rsc, setname: tablecat } # reuse name from macports
+- { name: tcat, addflag: unclassified }
+
 - { name: tcl, wwwpart: [tcl.tk,tcl.sourceforge,sourceforge.net/projects/tcl,tcl-lang,tcltk], setname: tcl-lang }
 - { name: tcl, wwwpart: bsc-pm, setname: tcl-checkpointing-library }
 - { name: tcl, addflag: unclassified }
