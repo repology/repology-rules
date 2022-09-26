@@ -232,6 +232,8 @@
 - { name: polyorb,                                                                         noscheme: true }
 - { name: pony-stable,                 ver: "0.1.6.1",               ruleset: openbsd,     incorrect: true }
 - { name: pony-stable,                                               ruleset: openbsd,     untrusted: true } # accused of fake 0.1.6.1
+- { name: poppler-data,                verge: "22",                  ruleset: t2,          incorrect: true } # version from poppler
+- { name: poppler-data,                                              ruleset: t2,          untrusted: true } # accused of fake 22.09.0
 - { name: popt,                                                      ruleset: pld,         untrusted: true } # accused of fake 1.17
 - { name: popt,                        ver: "1.19",                  ruleset: [openmandriva,t2], incorrect: true }
 - { name: popt,                                                      ruleset: [openmandriva,t2], untrusted: true } # accused of fake 1.19
