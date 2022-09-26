@@ -222,6 +222,8 @@
 - { name: "go:tools",                  releq: "1.8",                                       sink: true }
 - { name: "go:tools",                  releq: "1.12",                                      sink: true }
 - { name: "go:tools",                  releq: "1.14",                                      sink: true }
+- { name: gobang,                      ver: "0.1.0",                 ruleset: aur,         incorrect: true } # 0.1.0-alpha.5 in fact
+- { name: gobang,                                                    ruleset: aur,         untrusted: true } # accused of fake 0.1.0
 - { name: gobject-introspection,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: goldencheetah,               verpat: ".*dev.*",                                  ignore: true }
 - { name: goldendict,                  ver: ["1.5", "1.5.0"],        ruleset: [sisyphus,fedora,mageia,pisi], incorrect: true }
