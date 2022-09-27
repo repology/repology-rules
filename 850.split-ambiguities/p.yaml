@@ -138,6 +138,10 @@
 - { name: pkgtools, ruleset: [arch,aur], setname: $0-arch }
 - { name: pkgtools, ruleset: slackware, setname: $0-slackware }
 
+- { name: pkgutils, wwwpart: crux, setname: pkgutils-crux }
+# also pclinuxos counterpart, but pclinuxos do not provide urls
+- { name: pkgutils, addflag: unclassified }
+
 - { name: placement, wwwpart: openstack, setname: openstack-placement }
 - { name: placement, addflag: unclassified }
 
