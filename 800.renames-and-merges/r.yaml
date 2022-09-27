@@ -118,6 +118,7 @@
 - { setname: rtpengine,                name: rtpengine-dkms }
 - { setname: rtv,                      name: rtv-py36, addflavor: py36 }
 - { setname: rubocop,                  name: "ruby:rubocop" }
+- { setname: ruff,                     name: "python:$0" }
 - { setname: rundeck,                  namepat: "rundeck[0-9.-]+" }
 - { setname: runiq,                    name: "rust:runiq" }
 - { setname: rust,                     name: [rust-bin,rust-msvc], addflavor: true }

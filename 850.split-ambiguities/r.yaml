@@ -125,6 +125,10 @@
 
 - { name: "ruby:rash", setname: "ruby:rash-alt", ruleset: sisyphus } # fork
 
+- { name: ruff, wwwpart: charliermarsh, setname: ruff-python-linter }
+- { name: ruff, wwwpart: magicsplat, setname: ruff-docs-generator }
+- { name: ruff, addflag: unclassified }
+
 - { name: rum, wwwpart: postgres, setname: postgresql-rum }
 - { name: rum, wwwpart: chrisduerr, setname: rum-rust-userstyle-manager }
 - { name: rum, wwwpart: itmat, setname: rum-rna-mapper }
