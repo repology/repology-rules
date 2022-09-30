@@ -25,7 +25,11 @@
     - ttf-dejavu-ib
     - ttf-dejavu-lgc
     - xorg-font-dejavu-ttf
-- { setname: "fonts:dejavu", name: ttf-dejavu-snapshot, weak_devel: true }
+
+- setname: "fonts:dejavu"
+  name:
+    - ttf-dejavu-snapshot
+  weak_devel: true
 
 - setname: "fonts:dina"
   name:
@@ -58,7 +62,6 @@
     - ttf-doulos-sil
     - ttf-sil-doulos
 
-- { setname: ttf-droid, name: [ttf-droid-emojiless, ttf-droid-min, ttf-droid-simple], addflavor: true }
 - setname: "fonts:droid"
   name:
     - droid
@@ -77,10 +80,12 @@
     - google-droid-fonts
     - ttf-droid
 
-- setname: "fonts:dustin-dustismo"
+- setname: "fonts:droid"
   name:
-    - dustin-dustismo-fonts
-    - fonts-ttf-dustin-dustismo
+    - ttf-droid-emojiless
+    - ttf-droid-min
+    - ttf-droid-simple
+  addflavor: true
 
 - setname: "fonts:dseg"
   name:
@@ -91,6 +96,8 @@
 
 - setname: "fonts:dustismo"
   name:
+    - dustin-dustismo-fonts
+    - fonts-ttf-dustin-dustismo
     - fonts-ttf-dustismo
 
 - setname: "fonts:dyuthi"

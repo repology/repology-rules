@@ -320,7 +320,7 @@ schema = Schema(
 
 
 features_by_pattern = {
-    '.*800.renames-and-merges/(.|apmod|emacs|ffext|gimpplugins|haskell|lib|libretro|lua|lv2|nextcloud|node|perl|php|python|rhytmbox|texlive|vim|fonts/[^d])\.yaml': {
+    '.*800.renames-and-merges/(.|apmod|emacs|ffext|gimpplugins|haskell|lib|libretro|lua|lv2|nextcloud|node|perl|php|python|rhytmbox|texlive|vim|fonts/.)\.yaml': {
         'sort_field': 'setname',
     },
     '.*850.split-ambiguities/[^cdh]\.yaml': {
