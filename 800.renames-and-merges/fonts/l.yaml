@@ -112,6 +112,7 @@
 - setname: "fonts:linuxlibertine"
   name:
     - font-libertine-ttf
+    - font-linux-libertine
     - font-linuxlibertine
     - fonts-linuxlibertine
     - fonts-ttf-libertine
@@ -125,8 +126,10 @@
     - linuxlibertine-fonts-ttf
     - ttf-linux-libertine
 
-- { setname: "fonts:linuxlibertine",   name: libertine, category: media-fonts }
-- { setname: "fonts:linuxlibertine-g", name: [linuxlibertine-g,ttf-linux-libertine-g] }
+- setname: "fonts:linuxlibertine-g"
+  name:
+    - linuxlibertine-g
+    - ttf-linux-libertine-g
 
 - setname: "fonts:lklug"
   name:
@@ -149,5 +152,12 @@
     - luculent
     - ttf-luculent
 
+- setname: "fonts:lohit"
+  name:
+    - font-lohit
+    - fonts-ttf-lohit
+    - lohit
+    - lohit-fonts
+    - lohit-ttf
+
 - { setname: "fonts:$1",               namepat: "(?:fonts-)?(?:ttf-)?(lohit-.+?)(?:-fonts)?", last: true }
-- { setname: "fonts:lohit",            name: [fonts-ttf-lohit,lohit,font-lohit] }
