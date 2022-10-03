@@ -62,6 +62,8 @@
 - { setname: pcsc-lite,                name: pcsclite-nopy, addflavor: nopy }
 - { setname: pdd,                      name: "python:pdd" }
 - { setname: pdepend,                  name: "php:pdepend-php-depend" }
+- { setname: pdfbox,                   name: [apache-pdfbox, pdfbox-legacy, "java:pdfbox", "java:pdfbox2"] }
+- { setname: pdfbox,                   name: pdfbox-alpha, weak_devel: true, nolegacy: true }
 - { setname: pdfjam,                   name: "texlive:pdfjam" }
 - { setname: pdfstudio,                namepat: "pdfstudio[0-9]+" }
 - { setname: pdftk,                    name: pdftk-gcj }
