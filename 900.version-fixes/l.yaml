@@ -24,7 +24,7 @@
 - { name: lcov,                                                      ruleset: opensuse,    untrusted: true } # accused of fake 1.14
 - { name: leftwm,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true } # XXX: FreeBSD DISTVERSION
 - { name: lensfun,                     verpat: "[0-9]+\\.[0-9]+\\.9[0-9]",                 devel: true }
-- { name: less,                        vergt: "590",                                       devel: true, maintenance: true } # http://www.greenwoodsoftware.com/less/
+- { name: less,                        vergt: "608",                                       devel: true, maintenance: true } # http://www.greenwoodsoftware.com/less/
 - { name: lf,                          verpat: "r([.0-9]+)",                               setver: $1 }
 - { name: lf,                          verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: lft,                         verpat: "([0-9]+)\\.([0-9])",                       setver: "$1.$20" } # upstream inadequacy
