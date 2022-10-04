@@ -37,6 +37,7 @@
 - { setname: libconfuse,               namepat: "libconfuse[0-9.-]+" }
 - { setname: libconfuse,               name: confuse }
 - { setname: libcpuid,                 name: libcpuid11 }
+- { setname: libdazzle,                name: libdazzle-unstable, weak_devel: true, nolegacy: true }
 - { setname: libdbi-drivers,           name: [libdbi-drivers-freetds,libdbi-drivers-mysql,libdbi-drivers-pgsql,libdbi-drivers-sqlite,libdbi-drivers-sqlite3], addflavor: true }
 - { setname: libdbusmenu,              name: [libdbusmenu-glib,libdbusmenu-gtk,libdbusmenu-gtk-doc,libdbusmenu-gtk2,libdbusmenu-gtk3,libdbusmenu-tools], addflavor: true }
 - { setname: libdbusmenu-qt,           name: dbusmenu-qt }
