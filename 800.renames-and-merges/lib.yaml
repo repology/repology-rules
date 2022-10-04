@@ -107,6 +107,7 @@
 - { setname: libglw,                   name: [glw,mesa-glw,mesa-libglw] }
 - { setname: libgnome,                 name: libgnome2 }
 - { setname: libgnome,                 name: [libgnome-data,libgnome-reference], addflavor: true }
+- { setname: libgnome-keyring,         name: libgnome-keyring3 }
 - { setname: libgnomecanvas,           namepat: "(?:lib)?gnomecanvas[0-9.-]*(-reference)?", addflavor: $1 }
 - { setname: libgnomecanvasmm,         namepat: "(?:lib)?gnomecanvasmm[0-9.-]*" }
 - { setname: libgnomedb,               namepat: "libgnomedb[0-9.-]+" }
