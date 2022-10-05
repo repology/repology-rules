@@ -73,6 +73,20 @@
 - { name: vmd, wwwpart: yoshuawuyts, setname: vmd-markdown-previewer }
 - { name: vmd, addflag: unclassified }
 
+- { name: vnc-server, wwwpart: realvnc, setname: realvnc-vnc-server }
+- { name: vnc-server, addflag: unclassified }
+
+- { name: vnc-viewer, wwwpart: realvnc, setname: realvnc-vnc-viewer }
+- { name: vnc-viewer, addflag: unclassified }
+
+- { name: vncserver, wwwpart: realvnc, setname: realvnc-vnc-server }
+- { name: vncserver, wwwpart: haiku, setname: haiku-vncserver }
+- { name: vncserver, addflag: unclassified }
+
+- { name: vncviewer, wwwpart: realvnc, setname: realvnc-vnc-viewer }
+- { name: vncviewer, wwwpart: haiku, setname: haiku-vncviewer }
+- { name: vncviewer, addflag: unclassified }
+
 - { name: volt, wwwpart: volt-app, setname: volt-slack-client }
 - { name: volt, wwwpart: vim-volt, setname: "vim:volt" }
 - { name: volt, addflag: unclassified }
