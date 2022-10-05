@@ -291,6 +291,7 @@
 - { setname: protobuf,                 namepat: "(?:compat-)?(?:lib)?protobuf(?:compat|[0-9.-])*" }
 - { setname: protobuf,                 name: [protoc, protobuf-static], addflavor: true }
 - { setname: protobuf-c,               name: protobuf2-c }
+- { setname: protobuf-cpp,             name: protobuf3-cpp }
 - { setname: proton,                   name: proton-native }
 - { setname: proton-caller,            name: "rust:proton-call" }
 - { setname: protonmail-bridge,        name: protonmail-bridge-bin, addflavor: bin }
