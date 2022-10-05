@@ -288,10 +288,8 @@
 - { setname: proot,                    name: proot-static, addflavor: true }
 - { setname: proot,                    namepat: "proot[0-9.-]+" }
 - { setname: propellor,                name: "haskell:propellor" }
-- { setname: protobuf,                 namepat: "(?:compat-)?(?:lib)?protobuf(?:cpp|compat|[0-9.-])*" }
-- { setname: protobuf,                 name: [protobuf-java,protobuf3-java], addflavor: java }
+- { setname: protobuf,                 namepat: "(?:compat-)?(?:lib)?protobuf(?:compat|[0-9.-])*" }
 - { setname: protobuf,                 name: [protoc, protobuf-static], addflavor: true }
-- { setname: protobuf,                 name: "ruby:google-protobuf", addflavor: ruby }
 - { setname: protobuf-c,               name: protobuf2-c }
 - { setname: proton,                   name: proton-native }
 - { setname: proton-caller,            name: "rust:proton-call" }

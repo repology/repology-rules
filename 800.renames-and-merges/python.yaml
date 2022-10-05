@@ -199,6 +199,7 @@
 - { setname: "python:pre-commit",      name: pre-commit }
 - { setname: "python:prompt-toolkit",  name: ["python:prompt-toolkit-doc","python:prompt-toolkit-gns3"], addflavor: true }
 - { setname: "python:prompt-toolkit",  name: [prompt-toolkit,prompt-toolkit1] }
+- { setname: "python:protobuf",        name: protobuf-python }
 - { setname: "python:psycopg",         name: "python:psycopg1" } # XXX: problem
 - { setname: "python:psycopg",         name: psycopg }
 - { setname: "python:psycopg2",        name: "python:psycopg2-binary", addflavor: true }
