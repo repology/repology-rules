@@ -307,6 +307,7 @@
 - { setname: libvorbis,                name: vorbis }
 - { setname: libvpx,                   namepat: "(?:compat-)?libvpx[0-9.-]*" }
 - { setname: libvpx,                   name: libvpx-full, addflavor: full }
+- { setname: libvterm,                 name: [libvterm-0.1, libvterm-neovim, libvterm01] }
 - { setname: libwbxml,                 name: libwbxml-compat }
 - { setname: libwebp,                  name: [webp,libwebp6,compat-libwebp05] }
 - { setname: libwmf,                   name: libwmf-docs, addflavor: true }
