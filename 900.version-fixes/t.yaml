@@ -80,6 +80,7 @@
 - { name: texlive,                     ver: "20220403",              ruleset: termux,      incorrect: true }
 - { name: texlive,                                                   ruleset: termux,      untrusted: true } # accused of fake 20220403
 - { name: texlive,                     verlonger: 1,                 ruleset: alpine,      incorrect: true }
+- { name: texlive,                                                                         noscheme: true } # no clear versioning scheme: 2022 vs. 20220321 vs 2022[./-]20220321
 - { name: texlive-core,                verpat: "(20[0-9]{2}).[0-9]{5,}",                   ignore: true }
 - { name: texlive-docs,                                                                    noscheme: true } # ambiguous upstream versioning
 - { name: "texlive:cm-super",          verpat: "[0-9]{5}",                                 incorrect: true } # guix garbara
