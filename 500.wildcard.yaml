@@ -209,6 +209,7 @@
 - { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ruby], namepat: "(.*)-rb(2[0-9])", ruleset: fink, addflavor: $2 }
 - { setname: "ruby:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_ruby], namepat: "ruby([0-9.]+)-(.*)", ruleset: blackarch, addflavor: $1 }
 - { setname: "ruby:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_ruby], namepat: "ruby([0-9.]+)-(.*)", ruleset: nix, addflavor: $1 }
+- { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ruby], namepat: "rb-(.*)", ruleset: conda }
 
 # Rust
 - { setname: "rust:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_rust], namepat: "rust-(.*)", ruleset: [ arch,debuntu,fedora,nix,sisyphus,guix,openmandriva ] }
