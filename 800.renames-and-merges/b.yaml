@@ -1,6 +1,5 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { setname: b3sum,                    name: "rust:b3sum" }
 - { setname: b4,                       name: "python:$0" }
 - { setname: babel.js,                 name: babel-cli }
 - { setname: babeltrace,               name: "python:babeltrace", addflavor: python }
@@ -106,6 +105,8 @@
 - { setname: blackbox,                 name: [vcs-blackbox,scm-blackbox] } # different project, split in 850
 - { setname: blackshades,              name: blackshades-svn, ignore: true }
 - { setname: blackshadeselite,         name: blackshades-elite-svn, ignore: true }
+- { setname: blake3,                   name: [libblake3, "rust:blake3"] }
+- { setname: blake3,                   name: [b3sum, "rust:b3sum"], addflavor: b3sum }
 - { setname: blas,                     name: [blas-reference,blas-docs], addflavor: docs }
 - { setname: blas,                     name: blas-tmg }
 - { setname: blas,                     name: blas64, addflavor: true }
