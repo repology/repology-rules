@@ -184,7 +184,7 @@
 - { setname: transifex-client,         name: "python:transifex-client" }
 - { setname: translate-toolkit,        name: ["python:translate-toolkit","python:translate-toolkit-lib"] }
 - { setname: tre,                      name: libtre } # XXX: reverse?
-- { setname: tree,                     name: tree-pkg }
+- { setname: tree,                     name: [tree-pkg, colortree] }
 - { setname: tremor,                   name: [libtremor, libvorbisidec] }
 - { setname: tremulous,                name: tremulous-data, addflavor: data }
 - { setname: triceratops-lv2,          name: lv2-triceratops }
