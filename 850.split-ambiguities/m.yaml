@@ -77,6 +77,11 @@
 - { name: mdk, wwwpart: wlan, setname: mdk-wireless-injection }
 # otherwise, GNU MIX Development Kit
 
+- { name: mdl, wwwpart: [markdownlint/markdownlint,rubygems], setname: "mdl-markdownlint" }
+- { name: mdl, wwwpart: [DavidAnson], setname: "mdl-markdownlint-node" }
+- { name: mdl, wwwpart: dopsi, setname: "mdl-markdownless" }
+- { name: mdl, addflag: unclassified }
+
 - { name: mdp, wwwpart: [toolkit,mdpdocs.readthedocs], setname: "python:mdp" }
 - { name: mdp, wwwpart: visit1985, setname: mdp-markdown-presentation-tool }
 - { name: mdp, wwwpart: navy.mil, setname: mdp-multicast-file-transfer }

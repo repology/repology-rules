@@ -132,6 +132,8 @@
 - { setname: mdformat,                 name: "python:$0" }
 - { setname: mdk,                      name: gnu-mdk }
 - { setname: mdk,                      name: mdk-doc, addflavor: true }
+# All the MDLs get disambiguated in the 850 ruleset
+- { setname: mdl,                      name: "ruby:mdl" }
 - { setname: mdp,                      name: gpg-mdp } # different from mdp-src, split in 850
 - { setname: mdp,                      name: mdp-src } # different from gpg-mdp, split in 850
 - { setname: me-cleaner,               name: "python:me-cleaner" }
