@@ -132,6 +132,10 @@
 
 - { name: pixie, wwwpart: pixie-lang, setname: pixie-lang }
 
+- { name: pkg, wwwpart: freebsd, setname: freebsd-pkg }
+- { name: pkg, wwwpart: zeit, setname: "node:pkg" }
+- { name: pkg, addflag: unclassified }
+
 - { name: pkgdiff, ruleset: pkgsrc, setname: pkgdiff-pkgsrc }
 
 # distro-specific
