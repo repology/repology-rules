@@ -73,6 +73,7 @@
 - { name: testdisk,                    verpat: "(.*?)\\.?w(?:ip)?",                        setver: $1 }
 - { name: testssl.sh,                  verpat: ".*r.*",                                    devel: true, disposable: true } # FreeBSD, mangled rc
 - { name: tetgen,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: texinfo,                     verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: texlive,                     ver: "20180617",              ruleset: homebrew,    incorrect: true }
 - { name: texlive,                                                   ruleset: homebrew,    untrusted: true } # accused of fake 20180617
 - { name: texlive,                     ver: "20190509",              ruleset: cygwin,      incorrect: true }
