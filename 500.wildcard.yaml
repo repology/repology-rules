@@ -97,6 +97,9 @@
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_lua], namepat: "lua-(.+)", ruleset: [cygwin,openwrt,t2] }
 - { setname: "lua:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_lua], namepat: "lua([0-9.]*)-module-(?:lua)?(.+?)", ruleset: sisyphus, addflavor: $1 }
 
+# Nim
+- { setname: "nim:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_nim], category: dev-nim, ruleset: gentoo }
+
 # Nextcloud
 - { setname: "nextcloud:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_nextcloud], namepat: "nextcloud-app-(.*)", ruleset: arch }
 

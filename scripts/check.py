@@ -211,6 +211,7 @@ flags = [
     'not_lua',
     'not_mingw',
     'not_nextcloud',
+    'not_nim',
     'not_nginx',
     'not_node',
     'not_ocaml',
