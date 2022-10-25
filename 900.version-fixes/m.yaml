@@ -96,6 +96,8 @@
 - { name: memethesis-cli,                                            ruleset: aur,         untrusted: true } # accused of fake 3.3.0
 - { name: memtester,                   verpat: ".*_.*",              ruleset: slackbuilds, incorrect: true } # debianism
 - { name: menulibre,                   verpat: "13\\..*",                                  sink: true }
+- { name: mercurial,                   ver: "6.3.0",                 ruleset: baulk,       incorrect: true }
+- { name: mercurial,                                                 ruleset: baulk,       untrusted: true } # accused of fake 6.3.0
 - { name: meritous,                    ver: "1.4",                                         incorrect: true } # was? an unofficial fork at https://gitorious.org/meritous, now dead
 - { name: mesa,                        verpat: "[^a-z]+",            ruleset: [fedora,mageia], ignore: true } # accused in ignoring rc suffix
 - { name: mesa,                        verpat: "[0-9]+\\.[0-9]+\\.0",                      devel: true } # .0 are devel releases, example: https://www.mesa3d.org/relnotes/17.2.0.html
