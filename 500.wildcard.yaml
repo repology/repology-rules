@@ -99,6 +99,7 @@
 
 # Nim
 - { setname: "nim:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_nim], category: dev-nim, ruleset: gentoo }
+- { setname: "nim:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_nim], category: nimPackages, ruleset: nix }
 
 # Nextcloud
 - { setname: "nextcloud:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_nextcloud], namepat: "nextcloud-app-(.*)", ruleset: arch }
