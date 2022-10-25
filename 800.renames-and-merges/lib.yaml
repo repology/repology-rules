@@ -289,6 +289,7 @@
 - { setname: libusb,                   namepat: "libusb[0-9.-]+", noflag: libusb3380 }
 - { setname: libusb,                   name: [libusb-compat,libusb-legacy,libusb-compat-0.1] }
 - { setname: libusb,                   name: libusbx, outdated: true } # merged back into libusb https://github.com/libusb/libusb/wiki/FAQ#libusborg_libusbxorg_and_libusbinfo
+- { setname: libusb,                   name: fxload-libusb, addflavor: true }
 - { setname: libusbmuxd,               name: libusbmuxd6 }
 - { setname: libutp,                   name: bittorrent-libutp }
 - { setname: libuv,                    name: [libuv1, libuv0.10] }
