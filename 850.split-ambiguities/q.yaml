@@ -22,6 +22,11 @@
 
 - { name: qtoctave, verge: "4", ruleset: guix, setname: octave }  # octave part?
 
+- { name: quill, wwwpart: anchore, setname: quill-mac-binary-signing }
+- { name: quill, wwwpart: dfinity, setname: quill-cold-wallets-ledger }
+- { name: quill, wwwpart: odygrd, setname: quill-logging-library }
+- { name: quill, addflag: unclassified }
+
 - { name: quorum, wwwpart: [goquorum,jpmorgan,consensys.net], setname: quorum-blockchain }
 - { name: quorum, wwwpart: [gmarcais,genome], setname: quorum-seq }
 - { name: quorum, addflag: unclassified }
