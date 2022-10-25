@@ -67,7 +67,6 @@
 - { name: gettext,                     ver: "2",                                           ignore: true } # libintl from LEDE
 - { name: gettext,                     ver: "2.2",                                         ignore: true } # pkgsrc po-mode, own version?
 - { name: gettext,                                                   ruleset: pkgsrc,      untrusted: true }
-- { name: gettext,                     ver: "0.21.1",                                      incorrect: true }
 - { name: gettext,                                                   ruleset: npackd,      untrusted: true } # accused of fake 0.21.1 ("gettext for windows"?)
 - { name: gettext,                                                   ruleset: aosc,        untrusted: true } # accused of fake 0.21.1
 - { name: gettext,                     verpat: "20[0-9]{2}.*",                             incorrect: true }
