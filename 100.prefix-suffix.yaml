@@ -80,8 +80,6 @@
 
 - { noflag: no_suffix, ruleset: npackd,          namepat: "(.*?)(-?64)", setname: $1, addflavor: "64" }
 
-- { noflag: no_suffix, ruleset: noir,           namepat: "(.*)-git", ver: "git", setname: $1, rolling: true }
-
 - { noflag: no_suffix, ruleset: openwrt,         namepat: "(.*)_nohf", setname: $1, addflavor: nohf } # entware, on some arm platforms
 
 - { noflag: no_suffix, ruleset: parabola,        namepat: "(.*)-static-debug", setname: $1, addflavor: static-debug }
