@@ -208,6 +208,7 @@ flags = [
     'not_js',
     'not_kde',
     'not_linux',
+    'not_lisp',
     'not_lua',
     'not_mingw',
     'not_nextcloud',
