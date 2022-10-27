@@ -1,6 +1,6 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
-- { name: cadence, wwwpart: [ks.studio,kxstudio,falktx], setname: cadence-audio-production }
+- { name: cadence, wwwpart: [kx.studio,kxstudio,falktx], setname: cadence-audio-production }
 - { name: cadence, wwwpart: [onflow], setname: cadence-smart-contract-lang }
 - { name: cadence, addflag: unclassified }
 
@@ -90,7 +90,7 @@
 - { name: charm, wwwpart: uiuc, setname: charm-parallel }
 - { name: charm, wwwpart: juju, setname: charm-juju }
 - { name: charm, wwwpart: kdab, setname: charmtimetracker }
-- { name: charm, summpart: livejournal, setname: charm-livejournal }
+- { name: charm, wwwpart: [cloud,charmbracelet], setname: charm-cloud }
 - { name: charm, addflag: unclassified }
 
 - { name: chart, wwwpart: marianogappa, setname: chart-stdin }
@@ -282,7 +282,11 @@
 - { name: ctags, ruleset: [aosc], setname: universal-ctags }
 - { name: ctags, addflag: unclassified }
 
-- { name: cue, wwwpart: cuelang, setname: cuelang } # reused name
+- { name: ctop, wwwpart: [bcicen,ctop.sh], setname: ctop-bcicen }
+- { name: ctop, wwwpart: yadutaf, setname: ctop-yadutaf }
+- { name: ctop, addflag: unclassified }
+
+- { name: cue, wwwpart: [cuelang,cue-lang], setname: cuelang } # reused name
 - { name: cue, wwwpart: corsair, setname: cue-corsair }
 - { name: cue, wwwpart: wide, setname: cue-mua }
 - { name: cue, addflag: unclassified }

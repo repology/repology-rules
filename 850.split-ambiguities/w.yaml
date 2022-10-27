@@ -61,15 +61,15 @@
 - { name: woof, wwwpart: simon, setname: woof-file-exchange }
 - { name: woof, addflag: unclassified }
 
-- { name: words, wwwpart: wordlist.sourceforge.net, setname: words-scrowl }
-- { name: words, wwwpart: moby, setname: words-moby }
-- { name: words, wwwpart: wordsdoc, setname: words-latin }
-- { name: words, wwwpart: ftp.gnu.org/gnu/aspell, setname: words-international }
-- { name: words, addflag: unclassified }
-
 - { name: wop, wwwpart: wormsofprey, setname: wormsofprey }
 - { name: wop, wwwpart: worldofpadman, setname: worldofpadman }
 - { name: wop, addflag: unclassified }
+
+- { name: words, wwwpart: wordlist.sourceforge.net, setname: words-scrowl }
+- { name: words, wwwpart: moby, setname: words-moby }
+- { name: words, wwwpart: whitaker, setname: whitakers-words } # whitakers-words
+- { name: words, wwwpart: ftp.gnu.org/gnu/aspell, setname: words-international }
+- { name: words, addflag: unclassified }
 
 - { name: workbench, wwwpart: pysvn, setname: "python:pysvn", addflavor: workbench }
 - { name: workbench, wwwpart: mxcl, setname: workbench-icloud }

@@ -13,7 +13,7 @@
 - { setname: yarn,                     name: yarn-bin, addflavor: true }
 - { setname: yarn,                     name: yarn-nightly, weak_devel: true, nolegacy: true }
 - { setname: yarn,                     name: ["node:yarn","node:yarnpkg", yarnpkg] }
-- { setname: yarn,                     name: [yarn-node8, yarn-node10, yarn-node14], addflavor: true }
+- { setname: yarn,                     namepat: "yarn-(node[0-9]+)", addflavor: $1 }
 - { setname: yarock,                   name: [yarock-mpv,yarock-qt5], addflavor: true }
 - { setname: yaru-theme,               name: yaru }
 - { setname: yasm,                     name: yasm-devel, weak_devel: true, nolegacy: true }
@@ -35,3 +35,5 @@
 - { setname: yubikey-personalization,  name: ykpers }
 - { setname: yubikey-personalization-gui, name: ykpers-gui }
 - { setname: yuicompressor,            name: yui-compressor }
+- { setname: yuzu,                     name: yuzu-mainline }
+- { setname: yuzu,                     name: [yuzu-ea, yuzu-early-access], weak_devel: true, nolegacy: true }

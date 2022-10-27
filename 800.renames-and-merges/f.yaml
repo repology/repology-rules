@@ -33,6 +33,8 @@
 - { setname: fd-find,                  name: "rust:fd-find" }
 - { setname: fdk-aac,                  name: [libfdk-aac,fdk-aac-enc,libaac] }
 - { setname: fdkaac,                   name: fdk-aac-encoder }
+- { setname: feather,                  name: [featherwallet, monero-feather] }
+- { setname: featherpad,               name: $0-qt5, addflavor: true }
 - { setname: fec,                      name: libfec }
 - { setname: feedreader,               name: feedreader-beta, weak_devel: true, nolegacy: true }
 - { setname: fend,                     name: "rust:fend" }
@@ -86,7 +88,7 @@
 - { setname: flight-of-the-amazon-queen, name: scummvm-fotaq }
 - { setname: flim,                     name: [flim-xemacs,flim-emacs25,emacs-flim] }
 - { setname: flink,                    name: apache-flink }
-- { setname: flint,                    name: [flint1, flint2] }
+- { setname: flint,                    name: [flint1, flint2, flintlib] }
 - { setname: flipit,                   name: flipit-x10 }
 - { setname: flite,                    name: [flite1,flite-fpic] }
 - { setname: floating-ips,             name: flips }
@@ -97,6 +99,7 @@
 - { setname: fltk,                     name: [fltk-docs,fltk-editor,fltk-games,fltk-blocks,fltk-checkers,fltk-colbrowser,fltk-sudoku], addflavor: true }
 - { setname: fltk,                     namepat: "(?:lib)?fltk[0-9.-]*" }
 - { setname: fltk,                     name: fltk-devel, weak_devel: true, nolegacy: true }
+- { setname: fluent-bit,               name: [fluent-bit18, fluentbit] }
 - { setname: fluid-soundfont,          name: [soundfont-fluid, soundfont-fluid-src] }
 - { setname: fluid-soundfont,          name: soundfont-fluid-gm, addflavor: gm }
 - { setname: fluid-soundfont,          name: soundfont-fluid-gs, addflavor: gs }
@@ -113,6 +116,7 @@
 - { setname: fomp,                     name: [fomp-lv2,lv2-fomp-plugins] }
 - { setname: fon-flash,                name: fon-flash-cli }
 - { setname: font-util,                name: fontutil }
+- { setname: fontbakery,               name: "python:$0" }
 - { setname: fontconfig,               name: fontconfig-reference, addflavor: true }
 - { setname: fontmake,                 name: "python:fontmake" }
 - { setname: fonttools,                name: "python:fonttools" }

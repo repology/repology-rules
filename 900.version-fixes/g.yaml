@@ -10,6 +10,7 @@
 - { name: garcon,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gaupol,                      ver: "1.4.3",                 ruleset: freebsd,     incorrect: true }
 - { name: gaupol,                                                    ruleset: freebsd,     untrusted: true }
+- { name: gawk,                        verpat: "5\\.1\\.[0-9][0-9]",                       incorrect: true } # 5.1.1, not 5.1.65
 - { name: gb,                          verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: gbrainy,                     ver: "2.21",                  ruleset: pkgsrc,      incorrect: true }
 - { name: gbrainy,                                                   ruleset: pkgsrc,      untrusted: true }
@@ -66,9 +67,9 @@
 - { name: gettext,                     ver: "2",                                           ignore: true } # libintl from LEDE
 - { name: gettext,                     ver: "2.2",                                         ignore: true } # pkgsrc po-mode, own version?
 - { name: gettext,                                                   ruleset: pkgsrc,      untrusted: true }
-- { name: gettext,                     ver: "0.21.1",                                      incorrect: true }
 - { name: gettext,                                                   ruleset: npackd,      untrusted: true } # accused of fake 0.21.1 ("gettext for windows"?)
 - { name: gettext,                                                   ruleset: aosc,        untrusted: true } # accused of fake 0.21.1
+- { name: gettext,                     verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: gexiv2,                      ver: "0.11.0",                                      devel: true } # https://mail.gnome.org/archives/gexiv2-list/2019-January/msg00001.html
 #- { name: gexiv2,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # enable if there's pattern with even/odd versions which is unapparent ATOW
 - { name: ggz-client-libs,             verpat: "0\\.99.*",                                 devel: true }
@@ -165,6 +166,8 @@
 - { name: gnome-panel,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-pilot,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-planner,               verpat: ".+20[0-9]{6}",                             snapshot: true }
+- { name: gnome-planner,               ver: "0.14.90",               ruleset: aur,         incorrect: true }
+- { name: gnome-planner,                                             ruleset: aur,         untrusted: true } # accused of fake 0.14.90
 - { name: gnome-power-manager,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-python-extras,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-screenruler,           verpat: "[0-9]+\\.[0-9]{2}",                        incorrect: true } # 0.9.6, not 0.96
@@ -181,6 +184,7 @@
 - { name: gnome-usage,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-user-share,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-video-effects,         verpat: ".+20[0-9]{6}",                             snapshot: true } # openbsd
+- { name: "gnome:autohidetopbar",      verpat: "20[0-9]{6}",                               sink: true } # changed to e.g. 108
 - { name: "gnome:openweather",         verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: "gnome:pixel-saver",         verpat: "[0-9]+",                                   incorrect: true } # 1.24, not 24
 - { name: "gnome:pixel-saver",                                       ruleset: nix,         untrusted: true } # accused of fake 24
@@ -208,7 +212,7 @@
 - { name: gnuradio,                    verpat: ".*t.*",                                    ignore: true } # tech preview
 - { name: gnustep-edenmath,            ver: "1.1.1a",                                      incorrect: true } # debian fake; their archive of "1.1.1a" only mentions 1.1.1
 - { name: gnustep-pikopixel,           verpat: ".*b.*",                                    devel: true }
-- { name: gnutls,                      verpat: "3\\.7\\..*",                               devel: true, maintenance: true } # stable-next branch; it's claimed to be stable but undertested, but in fact it is widely used already, so `devel' is not entirely correct here, but use it to allow 3.6 and 3.5 coexist for now
+- { name: gnutls,                      releq: "3.7",                                       devel: false } # forciby disable devel coming from e.g. wikidata; while 3.7 is officially still "next" stable release, "current" 3.6 is outdated and contains vulnerabilities vulnerable
 - { name: go,                                                        ruleset: aur,         untrusted: true } # blunt lie https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=go1.13
 - { name: "go:bindata",                verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: "go:bindata",                ver: "3.1.0",                 ruleset: freebsd,     incorrect: true }
@@ -220,6 +224,8 @@
 - { name: "go:tools",                  releq: "1.8",                                       sink: true }
 - { name: "go:tools",                  releq: "1.12",                                      sink: true }
 - { name: "go:tools",                  releq: "1.14",                                      sink: true }
+- { name: gobang,                      ver: "0.1.0",                 ruleset: aur,         incorrect: true } # 0.1.0-alpha.5 in fact
+- { name: gobang,                                                    ruleset: aur,         untrusted: true } # accused of fake 0.1.0
 - { name: gobject-introspection,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: goldencheetah,               verpat: ".*dev.*",                                  ignore: true }
 - { name: goldendict,                  ver: ["1.5", "1.5.0"],        ruleset: [sisyphus,fedora,mageia,pisi], incorrect: true }
@@ -329,6 +335,8 @@
 - { name: gupnp,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gupnp-igd,                   ver: "0.20.16",               ruleset: pisi,        incorrect: true }
 - { name: gupnp-igd,                                                 ruleset: pisi,        untrusted: true } # accused of fake 0.20.16
+- { name: gutenprint,                  verpat: ".+20[0-9]{6}.*",                           snapshot: true }
+- { name: gutenprint,                  ver: "5.3.4.20220624T01008808d602",                 incorrect: true }
 - { name: gvfs,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gwenhywfar,                  verpat: "[0-9]+\\.99.*",                            devel: true }
 - { name: gwenview,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

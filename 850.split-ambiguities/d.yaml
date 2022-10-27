@@ -1,5 +1,9 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
+- { name: dagger, wwwpart: [square,google], setname: dagger-dependency-injection }
+- { name: dagger, wwwpart: [dagger.io,github.com/dagger], setname: dagger-ci-cd-devkit }
+- { name: dagger, addflag: unclassified }
+
 - { name: dagrab, wwwpart: marcellou, setname: dagrab-marcellou }
 - { name: dagrab, wwwpart: stibor, setname: dagrab-stibor }
 - { name: dagrab, addflag: unclassified }
@@ -7,6 +11,10 @@
 - { name: dap, wwwpart: gnu.org, setname: dap-statistics-and-graphics }
 #- { name: dap, wwwpart: "<none>", setname: dap-digital-audio-processing }
 - { name: dap, addflag: unclassified }
+
+- { name: dapper, wwwpart: jjacky.com/dapper, setname: dapper-autostarter }
+- { name: dapper, wwwpart: rancher, setname: dapper-docker-build-wrapper }
+- { name: dapper, addflag: unclassified }
 
 - { name: dart, wwwpart: [dartlang,dart.dev], setname: dart-lang }
 - { name: dart, wwwpart: dartsim, setname: dart-sim }
@@ -22,13 +30,17 @@
 
 - { name: david, wwwpart: david-dm, setname: david-dm }
 
-- { name: dce, wwwpart: opengroup, setname: dce-distributed-computing-infrastructure }
-- { name: dce, wwwpart: jmos, setname: dce-damn-cool-editor }
-- { name: dce, addflag: unclassified }
-
 - { name: db, wwwpat: netbsd, setname: db-netbsd }
 
 - { name: dbus-c++, verpat: ".*pw", setname: dbus-c++-pw }
+
+- { name: dcd, wwwpart: player, setname: dcdplayer }
+- { name: dcd, wwwpart: dlang, setname: dcd-d-completion }
+- { name: dcd, addflag: unclassified }
+
+- { name: dce, wwwpart: opengroup, setname: dce-distributed-computing-infrastructure }
+- { name: dce, wwwpart: jmos, setname: dce-damn-cool-editor }
+- { name: dce, addflag: unclassified }
 
 - { name: ddrescue, setname: dd-rescue, wwwpart: garloff } # dd_rescue, not GNU one
 
@@ -84,11 +96,16 @@
 - { name: diamond, ruleset: pld, setname: diamond-graphite-collector }
 - { name: diamond, addflag: unclassified }
 
-- { name: dictionary, wwwpart: myrkr, setname: "emacs:dictionary" }
-- { name: dictionary, addflag: unclassified }
-
 - { name: diaspora, verpat: "1\\.[0-9]+\\.[0-9]+", setname: diaspora-game }
 - { name: diaspora, setname: diaspora-social }
+
+- { name: dice, wwwpart: lambdabot, setname: dice-dice-rolling-system }
+- { name: dice, wwwpart: suse, setname: dice-image-build-system }
+- { name: dice, wwwpart: adamulation, setname: dice-emulator }
+- { name: dice, addflag: unclassified }
+
+- { name: dictionary, wwwpart: myrkr, setname: "emacs:dictionary" }
+- { name: dictionary, addflag: unclassified }
 
 - { name: dino, wwwpart: [dino.im, github.com/dino/dino], setname: dino-im }
 - { name: dino, wwwpart: dino.nongnu.org, setname: dino-midi }
@@ -117,6 +134,10 @@
 - { name: distro-release, wwwpart: rosalinux, setname: distro-release-rosa }
 - { name: distro-release, addflag: unclassified }
 
+- { name: diy, wwwpart: coq, setname: diy-weak-memory-models }
+- { name: diy, wwwpart: diatomic, setname: diy-block-parallel-library }
+- { name: diy, addflag: unclassified }
+
 # game vs. fuzzer
 - { name: dizzy, wwwpart: c0decafe.de, setname: dizzy-fuzzer }
 
@@ -131,7 +152,7 @@
 - { name: docker,                      wwwpart: icculus.org,              setname: docker-tray }
 - { name: docker,                      ruleset: gobolinux,                setname: docker-tray }
 
-- { name: dog, wwwpart: dns, setname: dog-dns } # reuse name from aur
+- { name: dog, wwwpart: [dns,ogham], setname: dog-dns } # reuse name from aur
 - { name: dog, wwwpart: photodex, setname: dog-cat } # upstream is dead, most repos don't have real homepage url
 - { name: dog, addflag: unclassified }
 
@@ -187,6 +208,10 @@
 - { name: dsp, wwwpart: dsp-emulator, setname: dsp-emulator }
 - { name: dsp, ruleset: solus, setname: dsp-audio-processing }
 - { name: dsp, addflag: unclassified }
+
+- { name: dstat, wwwpart: umaxx, setname: dstat-dwm-status-bar }
+- { name: dstat, wwwpart: [wiee.rs, wieers, dstat-real], setname: dstat-resource-statistics }
+- { name: dstat, addflag: unclassified }
 
 - { name: dt, wwwpart: 42wim/dt,       setname: dt-dns }
 - { name: dt, ruleset: pkgsrc,         setname: dt-virtconsoles }

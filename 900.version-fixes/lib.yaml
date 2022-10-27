@@ -18,6 +18,10 @@
 - { name: libadwaita,                  verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: libadwaita,                  verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: libadwaita,                  ver: "0.1",                                         incorrect: true }
+- { name: libantlr3c,                  ver: "3.5.3",                 ruleset: arch,        incorrect: true } # latest is 3.4
+- { name: libantlr3c,                                                ruleset: arch,        untrusted: true } # accused of fake 3.5.3
+- { name: libantlr3c,                  ver: "3.5.2",                 ruleset: void,        incorrect: true } # latest is 3.4
+- { name: libantlr3c,                                                ruleset: void,        untrusted: true } # accused of fake 3.5.2
 - { name: libappindicator,             ver: "12.10.1",               ruleset: [opensuse,debuntu], incorrect: true }
 - { name: libappindicator,                                           ruleset: [opensuse,debuntu], untrusted: true } # accused of fake 12.10.1
 - { name: libappindicator,             ver: "16.10",                 ruleset: [crux,slackbuilds], incorrect: true }
@@ -77,6 +81,8 @@
 - { name: libdom,                      verpat: "2017.*",                                   sink: true } # latest is 0.3.3 from 2018
 - { name: libdwarf,                    verpat: "20[0-9]{6}",                               sink: true } # latest is 0.3.1
 - { name: libdwarf,                    verpat: ".+20[0-9]{6}",                             incorrect: true }
+- { name: libelf,                      ver: "0.187",                 ruleset: glaucus,     incorrect: true }
+- { name: libelf,                                                    ruleset: glaucus,     untrusted: true } # accused of fake 0.187
 - { name: libevdev,                    verpat: ".*\\.9[0-9]+",                             devel: true } # assumed; https://www.freedesktop.org/software/libevdev/
 - { name: libevdev,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: libfaketime,                 verpat: ".*201[67].*",                              ignore: true } # FreeBSD is using git snapshot
@@ -84,6 +90,8 @@
 - { name: libffi,                                                    ruleset: debuntu,     untrusted: true } # accused of fake 3.3
 - { name: libffi,                      ver: ["4.8.5","5.3.1"],       ruleset: opensuse,    incorrect: true } # gcc version?
 - { name: libffi,                                                    ruleset: opensuse,    untrusted: true } # accused of incorrect 4.8.5, 5.3.1
+- { name: libfilteraudio,              ver: "0.1",                   ruleset: solus,       incorrect: true }
+- { name: libfilteraudio,                                            ruleset: solus,       untrusted: true } # accused of fake 0.1
 - { name: libgda,                      verpat: "[0-9]+\\.9[0-9]+.*",                       devel: true }
 - { name: libgda,                      ver: "5.2.10",                ruleset: sisyphus,    incorrect: true } # latest 5.2.x is 5.2.9
 - { name: libgda,                                                    ruleset: sisyphus,    untrusted: true } # accused of fake 5.2.10
@@ -133,6 +141,8 @@
 - { name: libjxl,                      verpat: "0.7.0_pre.*",                              incorrect: true } # made up "next" version
 - { name: libjxl,                                                    ruleset: gentoo,      untrusted: true } # accused of fake 0.7.0_pre.*
 - { name: libjxl,                      verpat: ".*r.*",                                    devel: true } # XXX: FreeBSD DISTVERSION
+- { name: libjxl,                      ver: "0.7.0",                 ruleset: [kaos,openmandriva], incorrect: true }
+- { name: libjxl,                                                    ruleset: [kaos,openmandriva], untrusted: true } # accused of fake 0.7.0
 - { name: libkcddb,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libkcompactdisc,             verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: libkdcraw,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -186,8 +196,11 @@
 - { name: libmspack,                   verge: "1.5",                                       incorrect: true } # cabextract versions instead of libmspack ones
 - { name: libmspack,                   verpat: "([0-9.]+)[_~-]?alpha",                     setver: $1 }
 - { name: libmspack,                                                                       devel: false } # all versions alpha crap
-- { name: libmusicbrainz,              verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: libmusicbrainz,              verlonger: 3,                 ruleset: freebsd,     incorrect: true } # XXX: FreeBSD DISTVERSION
 - { name: libmusicbrainz,                                            ruleset: freebsd,     untrusted: true } # accused of fake 5.1.0.19
+- { name: libmysofa,                   verlonger: 3,                 ruleset: freebsd,     incorrect: true } # XXX: FreeBSD DISTVERSION
+- { name: libnatpmp,                   ver: "20220122",              ruleset: [freebsd,ravenports], incorrect: true }
+- { name: libnatpmp,                                                 ruleset: [freebsd,ravenports], untrusted: true } # accused of fake 20220122
 - { name: libnetconf2,                 verpat: "[0-9]+\\.[0-9]+\\.[0-9]{2}",               incorrect: true } # openwrt's fake 0.10.17; https://github.com/CESNET/libnetconf2/tags
 - { name: libnetconf2,                                               ruleset: openwrt,     untrusted: true } # accused of fake 0.10.17
 - { name: libnetfilter-cthelper,       verpat: ".*q.*",                                    incorrect: true } # spack, vyos fork
@@ -233,7 +246,6 @@
 - { name: librem,                      verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: libreplaygain,                                                                   noscheme: true }
 - { name: librsb,                      ver: "1.2.0",                 ruleset: [freshcode], incorrect: true } # 1.2.0rc7
-- { name: librsvg,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libsamplerate,               ver: "0.1.9.1",               ruleset: deepin,      incorrect: true }
 - { name: libsamplerate,                                             ruleset: deepin,      untrusted: true } # accused of fake 0.1.9.1
 - { name: libsearpc,                   ver: ["3.1.7","6.2.2"],       ruleset: openwrt,     incorrect: true }
@@ -303,7 +315,6 @@
 - { name: libvmime,                                                  ruleset: [openbsd,opensuse], untrusted: true }
 - { name: libvpx,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: libvss,                                                                          noscheme: true }
-- { name: libvterm,                                                                        noscheme: true }
 - { name: libwacom,                    verpat: "0\\.99.*",                                 devel: true }
 - { name: libwacom,                    ver: "1.22",                  ruleset: pisi,        incorrect: true }
 - { name: libwacom,                                                  ruleset: pisi,        untrusted: true } # accused of fake 1.22

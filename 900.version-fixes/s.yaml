@@ -43,8 +43,11 @@
 - { name: sccs,                        verpat: "[0-9]{6}",                                 incorrect: true }
 - { name: scdoc,                       ver: "1.11.12",               ruleset: conan,       incorrect: true }
 - { name: scdoc,                                                     ruleset: conan,       untrusted: true } # accused of fake 1.11.12
+- { name: schilytools,                 verpat: "20[0-9]{6}",                               incorrect: true } # YYYY.MM.DD
 - { name: schismtracker,               ver: "20150911005204",                              ignore: true }
 - { name: schroot,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: schroot,                     ver: "1.7.2",                 ruleset: [mageia,rosa], incorrect: true }
+- { name: schroot,                                                   ruleset: [mageia,rosa], untrusted: true } # accused of fake 1.7.2
 - { name: scim-input-pad,              verpat: ".*20[0-9]{6}",                             snapshot: true } # opensuse
 - { name: scim-skk,                    ver: "0.5.3",                 ruleset: pclinuxos,   incorrect: true }
 - { name: scim-skk,                                                  ruleset: pclinuxos,   untrusted: true } # accused of fake 0.5.3
@@ -52,6 +55,8 @@
 - { name: scm,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]+",                 incorrect: true } # 5f2
 - { name: scons,                       ver: "4.20",                  ruleset: kaos,        incorrect: true }
 - { name: scons,                                                     ruleset: kaos,        untrusted: true } # accused of fake 4.20
+- { name: scour,                       ver: "038.1",                                       incorrect: true }
+- { name: scour,                                                     ruleset: ataraxia,    untrusted: true } # accused if fake 038.1
 - { name: scponly,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: screenfetch,                 verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: screengen,                   ver: "1.10",                                        devel: true } # https://github.com/OlegKochkin/screengen/blob/master/src/build_number.h -> no tags, but current devel version
@@ -67,6 +72,9 @@
 - { name: sdl,                         ver: "1.2.16",                ruleset: os4depot,    incorrect: true }
 - { name: sdl,                                                       ruleset: os4depot,    untrusted: true } # accused of fake 1.2.16
 - { name: sdl-audiolib,                                                                    noscheme: true }
+- { name: sdl-image,                   verpat: ".+20[0-9]{6}",                             snapshot: true } # macports
+- { name: sdl-mixer,                   verpat: ".+20[0-9]{6}",                             snapshot: true } # macports, kaos
+- { name: sdl-net,                     verpat: ".+20[0-9]{6}",                             snapshot: true } # macports, kaos
 - { name: sdl-sound,                   ver: "2.0",                   ruleset: rosa,        incorrect: true }
 - { name: sdl-sound,                                                 ruleset: rosa,        untrusted: true } # accused of fake 2.0
 - { name: sdl-sound,                   ver: "1.0.4",                 ruleset: [sisyphus,mageia], incorrect: true }
@@ -74,6 +82,7 @@
 - { name: sdl-ttf,                     ver: "2.0.11.1",                                    ignore: true } # unofficial release (changelog entry, but no tag)
 - { name: sdl-ttf,                     ver: "2.0.18",                ruleset: conan,       incorrect: true } # sdl2-ttf in fact
 - { name: sdl-ttf,                                                   ruleset: conan,       untrusted: true } # accused of fake 2.0.18
+- { name: sdl-ttf,                     verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: sdl2,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]*[13579]",          devel: true } # https://discourse.libsdl.org/t/sdl-versioning-update-even-numbered-releases/26632
 - { name: sdl2,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # https://github.com/libsdl-org/SDL/releases/tag/prerelease-2.23.1
 - { name: sdl2,                        verpat: "2.0.15.*",           ruleset: postmarketos, incorrect: true }
@@ -82,6 +91,7 @@
 - { name: sdl2-image,                                                ruleset: pisi,        untrusted: true } # accused of fake 2.1.0
 - { name: sdl2-image,                  ver: "2.5.1",                 ruleset: debian,      incorrect: true }
 - { name: sdl2-image,                                                ruleset: debian,      untrusted: true } # accused of fake 2.5.1
+- { name: sdl2-image,                  verpat: ".+20[0-9]{6}",                             snapshot: true } # macports
 - { name: sdl2-mixer,                  ver: "2.5.1",                 ruleset: debian,      incorrect: true }
 - { name: sdl2-mixer,                                                ruleset: debian,      untrusted: true } # accused of fake 2.5.1
 - { name: sdl2-ttf,                    ver: "2.19.1",                ruleset: debian,      incorrect: true }
@@ -102,6 +112,7 @@
 - { name: seexpr,                      relge: "3.4.4.0",                                   successor: true} # KDE fork
 - { name: selene-lua-bindings,         verpat: "20[0-9]{2}.*",                             snapshot: true } # guix
 - { name: sendmail,                    verlonger: 3,                                       devel: true }
+- { name: senpai-irc,                  verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: sensei-raw-ctl,                                                                  noscheme: true }
 - { name: sg3-utils,                   verpat: "[0-9]+\\.[0-9]+~[0-9]+",                   snapshot: true } # opensuse
 - { name: sgabios,                                                                         noscheme: true }
@@ -121,6 +132,7 @@
 - { name: shiboken,                    ver: "2.0.0",                 ruleset: kaos,        incorrect: true } # fake
 - { name: shiboken,                                                  ruleset: kaos,        untrusted: true } # accused of fake 2.0.0
 - { name: shmux,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: shockolate,                  verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: shotcut,                     verpat: "[0-9]{6,}.*",                              incorrect: true } # aur; it's not 180102, but 18.01
 - { name: shotcut,                     verpat: ".+20[0-9]{6}",                             snapshot: true } # funtoo
 - { name: shotcut,                     ver: "19.08.05",                                    devel: true, maintenance: true } # https://github.com/mltframework/shotcut/releases
@@ -167,7 +179,7 @@
 - { name: skypetab-ng,                 verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: sl,                          ver: "5.05",                  ruleset: nix,         incorrect: true }
 - { name: sl,                                                        ruleset: nix,         untrusted: true } # accused of fake 5.05
-- { name: slang,                       verpat: "2\\.3\\.3.*",                              devel: true, maintenance: true } # https://www.jedsoft.org/snapshots/#slang
+- { name: slang,                       verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)-([0-9]+)",      setver: $1pre$2, devel: true } # A.B.C-D come before A.B.C
 - { name: slashem,                     ver: "3.4.3.7e7f1",           ruleset: openbsd,     incorrect: true }
 - { name: slashem,                                                   ruleset: openbsd,     untrusted: true } # accused of fake 3.4.3.7e7f1
 - { name: slashem,                     verpat: "(0\\.0\\.[0-9][A-Z])([0-9][A-Z])([0-9])",  setver: $1.$2.$3 } # braindead versioning scheme, fix to something comprehensible
@@ -293,6 +305,8 @@
 - { name: sqtop,                       verpat: "[0-9]{8}",                                 incorrect: true } # YYYY-MM-DD, not YYYYMMDD
 - { name: squashfs-tools,              verpat: "[0-9]+",                                   incorrect: true } # 4.3, not 43
 - { name: squashfs-tools,              verpat: ".*20[0-9]{6}.*",                           snapshot: true }
+- { name: squeak-vm,                   ver: "4.19.9.3816",           ruleset: slackbuilds, incorrect: true }
+- { name: squeak-vm,                                                 ruleset: slackbuilds, untrusted: true } # accused of fake 4.19.9.3816
 - { name: squid,                       verpat: "[0-9]+\\.0([^0-9].*)?",                    devel: true } # unconfirmed, suggested via report
 - { name: squid,                                                     ruleset: aur,         untrusted: true } # accused of fake 5.0.0
 - { name: squirrelmail,                verpat: "20[0-9]{6}.*",                             ignore: true } # freebsd snapshot
@@ -328,6 +342,7 @@
 - { name: strawberryperl,              ver: "5.32.1001",                                   incorrect: true }
 - { name: strawberryperl,                                            ruleset: winget,      untrusted: true } # accused of fake 5.32.1001
 - { name: strongswan,                  verpat: ".*dr.*",                                   devel: true }
+- { name: stumpwm,                     verlonger: 2,                 ruleset: freebsd,     incorrect: true } # XXX: FreeBSD DISTVERSION
 - { name: stunnel,                     verpat: ".*b.*",                                    devel: true }
 - { name: sublime-text,                verpat: "[0-9]{4}",                                 altscheme: true } # builds
 - { name: sublime-text,                verpat: "[0-9]\\..*[0-9]{2,}",                      incorrect: true } # from upstream website: "3.2.2 (Build 3211)" so either is valid, but not 3.211, not 3.2.11, not 3.2.2-3211 and other crap

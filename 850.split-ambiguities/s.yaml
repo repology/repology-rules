@@ -81,18 +81,27 @@
 
 - { name: secure-delete, wwwpart: gijack, setname: secure-delete-gijack }
 
-- { name: sensors, wwwpart: lm-sensors, setname: lm-sensors } # XXX: problem
-
-- { name: sentinel, wwwpart: smfilter, setname: sentinel-smfilter }
-- { name: sentinel, wwwpart: hashicorp, setname: sentinel-hashicorp }
-- { name: sentinel, wwwpart: yerseyah, setname: sentinel-log-viewer }
-- { name: sentinel, addflag: unclassified }
+- { name: seer, wwwpart: dwrensha, setname: "rust:$0" }
+- { name: seer, wwwpart: epasveer, setname: seer-gdb-gui }
+- { name: seer, wwwpart: johnlees, setname: seer-kmer-enrichment }
+- { name: seer, addflag: unclassified }
 
 - { name: selene, wwwpart: teejee, setname: selene-media-converter }
 - { name: selene, wwwpart: jeremyong, setname: selene-lua-bindings }
 - { name: selene, wwwpart: kmhofmann, setname: selene-image-library }
 - { name: selene, wwwpart: kampfkarren, setname: selene-linter }
 - { name: selene, addflag: unclassified }
+
+- { name: senpai, wwwpart: chess, setname: senpai-chess }
+- { name: senpai, wwwpart: taiite, setname: senpai-irc }
+- { name: senpai, addflag: unclassified }
+
+- { name: sensors, wwwpart: lm-sensors, setname: lm-sensors } # XXX: problem
+
+- { name: sentinel, wwwpart: smfilter, setname: sentinel-smfilter }
+- { name: sentinel, wwwpart: hashicorp, setname: sentinel-hashicorp }
+- { name: sentinel, wwwpart: yerseyah, setname: sentinel-log-viewer }
+- { name: sentinel, addflag: unclassified }
 
 - { name: sewer, wwwpart: komuw, setname: sewer-acme-client }
 - { name: sewer, wwwpart: bio, setname: sewer-sequence-analysis }
@@ -106,6 +115,8 @@
 - { name: sge, wwwpart: [flibitijibibo,e8cal1], setname: sdl-sge }
 - { name: sge, summpart: spectrum, setname: sge-spectrum-graphics }
 - { name: sge, addflag: unclassified }
+
+- { name: shadowsocks, wwwpart: windows, setname: shadowsocks-windows }
 
 - { name: shake, wwwpart: hackage, setname: "haskell:shake" }
 - { name: shake, wwwpart: luaforge, setname: shake-lua }
@@ -186,14 +197,14 @@
 - { name: slack, wwwpart: code.google.com/p/slack, setname: slack-configuration-management }
 - { name: slack, category: [admin, universe/admin], setname: slack-configuration-management }
 
+- { name: slice, wwwpart: source-foundry, setname: slice-fonts-generator }
+- { name: slice, wwwpart: [ossp,engelschall], setname: slice-textproc }
+- { name: slice, addflag: unclassified }
+
 - { name: slides, wwwpart: docbook, setname: slides-docbook }
 - { name: slides, wwwpart: itamarst, setname: slides-generator }
 - { name: slides, wwwpart: maaslalani, setname: slides-presentation-tool }
 - { name: slides, addflag: unclassified }
-
-- { name: slice, wwwpart: source-foundry, setname: slice-fonts-generator }
-- { name: slice, wwwpart: [ossp,engelschall], setname: slice-textproc }
-- { name: slice, addflag: unclassified }
 
 - { name: slim, wwwpart: messerlab, setname: slim-simulator }
 - { name: slim, wwwpart: [slim.berlios,berlios.de/projects/slim,iwamatsu,somasis], setname: slim-login-manager }
@@ -267,10 +278,6 @@
 - { name: sokoban, wwwpart: sourceforge.net/projects/sokoban, setname: sokoban-tgfcoder }
 - { name: sokoban, addflag: unclassified }
 
-- { name: sonic, wwwpart: [waywardgeek,espeak-ng], setname: sonic-speech-rate-library }
-- { name: sonic, wwwpart: valeriansaliou, setname: sonic-search-backend }
-- { name: sonic, addflag: unclassified }
-
 - { name: solanum, wwwpart: ircd, setname: solanum-ircd }
 - { name: solanum, wwwpart: gnome.org, setname: solanum-pomodoro }
 - { name: solanum, addflag: unclassified }
@@ -278,6 +285,10 @@
 - { name: solid, wwwpart: dtecta, setname: solid-interference-detection }
 - { name: solid, wwwpart: kde, setname: solid-hardware-abstraction }
 - { name: solid, addflag: unclassified }
+
+- { name: sonic, wwwpart: [waywardgeek,espeak-ng], setname: sonic-speech-rate-library }
+- { name: sonic, wwwpart: valeriansaliou, setname: sonic-search-backend }
+- { name: sonic, addflag: unclassified }
 
 - { name: sope, wwwpart: opengroupware, setname: sope-skyrix }
 
@@ -301,6 +312,10 @@
 - { name: spark, summpart: sparklines, setname: sparklines }
 - { name: spark, addflag: unclassified }
 
+- { name: sparrow, wwwpart: scine, setname: "python:scine-sparrow" }
+- { name: sparrow, wwwpart: wallet, setname: sparrow-wallet }
+- { name: sparrow, addflag: unclassified }
+
 - { name: sparse, wwwpart: sparse.sourceforge.net, setname: sparse-equation-solver }
 - { name: sparse, wwwpart: kernel.org, setname: sparse-semantic-parser }
 - { name: sparse, addflag: unclassified }
@@ -311,13 +326,13 @@
 - { name: spectacle, vergt: "17", setname: spectacle-kde }
 - { name: spectacle, addflag: unclassified }
 
-- { name: spectral, wwwpart: [b0,spectral.im,spectral-im], setname: spectral-matrix } # reuses name from aur
-- { name: spectral, wwwpart: bsc, setname: spectral-signal-processing }
-- { name: spectral, addflag: unclassified }
-
 - { name: spectcl, wwwpart: spectcl.sourceforge.net, setname: spectcl-gui-builder }
 - { name: spectcl, wwwpart: nsclspectcl, setname: spectcl-nscl }
 - { name: spectcl, addflag: unclassified }
+
+- { name: spectral, wwwpart: [b0,spectral.im,spectral-im], setname: spectral-matrix } # reuses name from aur
+- { name: spectral, wwwpart: bsc, setname: spectral-signal-processing }
+- { name: spectral, addflag: unclassified }
 
 - { name: speedtest, wwwpart: [fdossena,librespeed], setname: speedtest-librespeed }
 - { name: speedtest, wwwpart: speedtest.net, setname: speedtest-speedtest.net }
@@ -332,6 +347,10 @@
 - { name: spigot, wwwpart: sgtatham, setname: spigot-calculator }
 - { name: spigot, ruleset: freebsd, setname: spigot-videocapture }
 - { name: spigot, addflag: unclassified }
+
+- { name: spike, wwwpart: riscv, setname: spike-riscv-simulator }
+- { name: spike, wwwpart: spikenow.com, setname: spike-email }
+- { name: spike, addflag: unclassified }
 
 - { name: spin, category: [dev-java,Development/Java], setname: "java:spin" }
 - { name: spin, wwwpart: spin.sourceforge.net, setname: "java:spin" }

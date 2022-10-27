@@ -11,11 +11,11 @@
 - { name: eagle, wwwpart: eagle.to, setname: eagle-tcl }
 - { name: eagle, addflag: unclassified }
 
-- { name: eclipse, wwwpart: extensions.gnome, setname: eclipse-gnome-extension } # XXX: problem
-
 - { name: eclair, wwwpart: acinq, setname: eclair-lightning-network }
 - { name: eclair, wwwpart: enlightenment, setname: eclair-media-player }
 - { name: eclair, addflag: unclassified }
+
+- { name: eclipse, wwwpart: extensions.gnome, setname: eclipse-gnome-extension } # XXX: problem
 
 - { name: ecm, wwwpart: gforge.inria.fr, setname: gmp-ecm }
 - { name: ecm, wwwpart: alucryd, setname: ecm-error-code-modeller }
@@ -134,7 +134,15 @@
 - { name: et, ruleset: solus, setname: eternalterminal }
 - { name: et, addflag: unclassified }
 
+- { name: etc-update, wwwpart: [gentoo,portage], setname: portage, addflavor: etc-update } # part of
+# also upstreamless mergemaster-like tool from 2002
+- { name: etc-update, addflag: unclassified }
+
 - { name: etcd, verpat: "1.*", setname: "etcd-player" } # Enhanced Tiny CD, a simple ncurses-based CD player vs. coreos etcd
+
+- { name: etl, wwwpart: etlcpp, setname: etlcpp }
+- { name: etl, wwwpart: synfig, setname: etl-synfig }
+- { name: etl, addflag: unclassified }
 
 - { name: eureka, wwwpart: eureka-editor, setname: eureka-editor }
 - { name: eureka, wwwpart: simeg, setname: eureka-ideas }

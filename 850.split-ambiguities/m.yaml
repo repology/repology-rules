@@ -10,13 +10,13 @@
 - { name: mage, wwwpart: biochem, setname: mage-kinemage }
 - { name: mage, addflag: unclassified }
 
-- { name: mailx, wwwpart: heirloom, setname: heirloom-mailx }
-- { name: mailx, verpat: "12\\..*", setname: heirloom-mailx }
-
 - { name: magnum, wwwpart: openstack, setname: magnum-openstack }
 - { name: magnum, wwwpart: [magnum.graphics,mosra.cz], setname: magnum-middleware }
 - { name: magnum, summpart: middleware, setname: magnum-middleware }
 - { name: magnum, addflag: unclassified }
+
+- { name: mailx, wwwpart: heirloom, setname: heirloom-mailx }
+- { name: mailx, verpat: "12\\..*", setname: heirloom-mailx }
 
 - { name: mako, wwwpart: [mako-project,emersion], setname: mako-notifier }
 - { name: mako, wwwpart: makotemplates, setname: "python:mako" }
@@ -77,6 +77,11 @@
 - { name: mdk, wwwpart: wlan, setname: mdk-wireless-injection }
 # otherwise, GNU MIX Development Kit
 
+- { name: mdl, wwwpart: [markdownlint/markdownlint,rubygems], setname: "mdl-markdownlint" }
+- { name: mdl, wwwpart: [DavidAnson], setname: "mdl-markdownlint-node" }
+- { name: mdl, wwwpart: dopsi, setname: "mdl-markdownless" }
+- { name: mdl, addflag: unclassified }
+
 - { name: mdp, wwwpart: [toolkit,mdpdocs.readthedocs], setname: "python:mdp" }
 - { name: mdp, wwwpart: visit1985, setname: mdp-markdown-presentation-tool }
 - { name: mdp, wwwpart: navy.mil, setname: mdp-multicast-file-transfer }
@@ -131,6 +136,9 @@
 - { name: metronome, ruleset: openbsd, setname: metronome-console }
 - { name: metronome, addflag: unclassified }
 
+- { name: mh, wwwpart: oz123, setname: mh-makefile-help }
+- { name: mh, addflag: unclassified }
+
 - { name: mig, wwwpart: gnu.org, setname: gnu-mig }
 - { name: mig, wwwpart: mig.ninja, setname: mig-mozilla }
 - { name: mig, addflag: unclassified }
@@ -168,6 +176,11 @@
 - { name: miranda, wwwpart: microrna, setname: miranda-microrna }
 - { name: miranda, addflag: unclassified }
 
+- { name: mist, wwwpart: ethereum, setname: ethereum-mist } # reuse name from appget
+- { name: mist, wwwpart: ninxsoft, setname: mist-macos-firmware-downloader }
+- { name: mist, wwwpart: makedeb, setname: mist-makedeb }
+- { name: mist, addflag: unclassified }
+
 # no ambiguity (yet), but better be safe, as there are other *-mk-files
 - { name: mk-files, summpart: bmake, setname: bmake-mk-files }
 
@@ -198,24 +211,6 @@
 - { name: monica, wwwpart: monicahq, setname: monica-personal-crm }
 #- { name: monica, addflag: unclassified } # monitor calibration tool, upstreamless
 
-- { name: mpd, wwwpart: [musicpd,mpd.wikia.com], addflag: classified }
-- { name: mpd, category: [media-sound,Sound,audio], addflag: classified }
-- { name: mpd, wwwpart: cs.arizona.edu/mpd, setname: mpd-compiler }
-- { name: mpd, ruleset: [kaos,pld], addflag: classified }
-- { name: mpd, summpart: "music player daemon", addflag: classified }
-- { name: mpd, addflag: unclassified }
-
-- { name: mrsh, wwwpart: [emersion,mrsh.sh], setname: mrsh-minimal-posix-shell }
-- { name: mrsh, wwwpart: chaos, setname: mrsh-remote-shell-program }
-- { name: mrsh, addflag: unclassified }
-
-- { name: mtree, wwwpart: deis.unibo.it, setname: m-tree }
-- { name: mtree, wwwpart: archiecobbs, setname: mtree-port }
-- { name: mtree, wwwpart: netbsd, setname: mtree-netbsd }
-- { name: mtree, addflag: unclassified }
-
-- { name: mustache, category: [Development/Ruby, ruby], setname: "ruby:mustache" }
-
 - { name: mp3check, wwwpart: icculus, setname: mp3check-icculus }
 
 - { name: mpc, wwwpart: [musicpd, mpd.wikia.com], addflag: classified }
@@ -225,25 +220,43 @@
 - { name: mpc, wwwpart: mpc-hc, setname: mpc-hc }
 - { name: mpc, addflag: unclassified }
 
+- { name: mpd, wwwpart: [musicpd,mpd.wikia.com], addflag: classified }
+- { name: mpd, category: [media-sound,Sound,audio], addflag: classified }
+- { name: mpd, wwwpart: cs.arizona.edu/mpd, setname: mpd-compiler }
+- { name: mpd, ruleset: [kaos,pld], addflag: classified }
+- { name: mpd, summpart: "music player daemon", addflag: classified }
+- { name: mpd, addflag: unclassified }
+
+- { name: mps, wwwpart: jetbrains, setname: jetbrains-mps }
+- { name: mps, wwwpart: ravenbrook, setname: mps-memory-pool-system }
+- { name: mps, addflag: unclassified }
+
+- { name: mrsh, wwwpart: [emersion,mrsh.sh], setname: mrsh-minimal-posix-shell }
+- { name: mrsh, wwwpart: chaos, setname: mrsh-remote-shell-program }
+- { name: mrsh, addflag: unclassified }
+
 - { name: msgpack, category: dev-java, setname: "java:msgpack" }
 
 - { name: msi-keyboard, wwwpart: bparker06, setname: msi-keyboard-bparker06 }
 - { name: msi-keyboard, wwwpart: makkarpov, setname: msi-keyboard-makkarpov }
 - { name: msi-keyboard, addflag: unclassified }
 
-- { name: libmpack, ruleset: solus, setname: "lua:mpack" }
-
 - { name: mtail, wwwpart: immute, setname: mtail-tail }
 - { name: mtail, wwwpart: google/mtail, setname: mtail-logs-metrics }
 - { name: mtail, addflag: unclassified }
+
+- { name: mtree, wwwpart: deis.unibo.it, setname: m-tree }
+- { name: mtree, wwwpart: archiecobbs, setname: mtree-port }
+- { name: mtree, wwwpart: netbsd, setname: mtree-netbsd }
+- { name: mtree, addflag: unclassified }
 
 - { name: mu, wwwpart: [ntoll,mu-editor], setname: mu-editor }
 - { name: mu, wwwpart: kreogist, setname: kreogist-mu } # name taken form AUR package; may also use e.g. mu-music-manager
 # otherwise, maildir utils + emacs email client (mu4e)
 
-- { name: munin, wwwpart: neo23x0, setname: munin-hash-checker }
-
 - { name: mumps, summpart: massachusetts, setname: mumps-lang }
+
+- { name: munin, wwwpart: neo23x0, setname: munin-hash-checker }
 
 - { name: muon, wwwpart: nickmqb, setname: muon-lang }
 - { name: muon, wwwpart: muon.build, setname: muon-meson }
@@ -262,6 +275,8 @@
 - { name: muse, wwwpart: spatula, setname: muse-memusage }
 - { name: muse, wwwpart: xzzz9097, setname: muse-spotify-controller }
 - { name: muse, addflag: unclassified }
+
+- { name: mustache, category: [Development/Ruby, ruby], setname: "ruby:mustache" }
 
 - { name: mx, wwwpart: clutter, setname: mx-clutter }
 - { name: mx, wwwpart: graalvm, setname: mx-graal }

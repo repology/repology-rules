@@ -16,6 +16,7 @@
 - { setname: pagmo,                    name: "python:pygmo", addflavor: pygmo }
 - { setname: paho.mqtt.c,              name: [paho,paho-c,paho-mqtt-c] }
 - { setname: paho.mqtt.cpp,            name: [paho-mqtt-cpp,paho-mqttpp3] }
+- { setname: paint.net,                name: paintdotnet }
 - { setname: paintown,                 name: paintown-data, addflavor: true }
 - { setname: palemoon,                 name: [palemoon-26, pale-moon] }
 - { setname: palemoon,                 name: palemoon-bin, addflavor: bin }
@@ -42,6 +43,7 @@
 - { setname: pass,                     name: [pass-parcellite,pass-patched-passmenu-notify,pass-wl-clipboard], addflavor: true } # mostly same as password-store, merged in 850
 - { setname: pass-station,             name: "ruby:pass-station" }
 - { setname: passenger,                name: ["ruby:passenger-apache", "ruby:passenger-nginx", "nginx:passenger","apmod:ruby26-passenger","ruby:passenger"], addflavor: true }
+- { setname: passes,                   name: passes-gtk, addflavor: true }
 - { setname: password-store,           name: [passwordstore] }
 - { setname: password-store,           name: [emacs-password-store,"emacs:password-store"], addflavor: emacs }
 - { setname: pasystray,                name: [pasystray-gtk2,pasystray-gtk2-standalone,pasystray-gtk3-standalone] }
@@ -62,6 +64,8 @@
 - { setname: pcsc-lite,                name: pcsclite-nopy, addflavor: nopy }
 - { setname: pdd,                      name: "python:pdd" }
 - { setname: pdepend,                  name: "php:pdepend-php-depend" }
+- { setname: pdfbox,                   name: [apache-pdfbox, pdfbox-legacy, "java:pdfbox", "java:pdfbox2"] }
+- { setname: pdfbox,                   name: pdfbox-alpha, weak_devel: true, nolegacy: true }
 - { setname: pdfjam,                   name: "texlive:pdfjam" }
 - { setname: pdfstudio,                namepat: "pdfstudio[0-9]+" }
 - { setname: pdftk,                    name: pdftk-gcj }
@@ -151,12 +155,13 @@
 - { setname: pixman,                   name: pixman-static, addflavor: static }
 - { setname: pjproject,                name: [pjsip,pjsua,pjproject-jami,pjsip-python,"python:pjproject"], addflavor: true }
 - { setname: pkcs11-tools,             name: mastercard-pkcs11-tools }
-- { setname: pkg,                      name: pkg-bsd, ruleset: ravenports }
-- { setname: pkg,                      name: pkg-devel, weak_devel: true, nolegacy: true, ruleset: freebsd }
+- { setname: pkg,                      name: [freebsd-pkg, pkg-bsd] }
+- { setname: pkg,                      name: pkg-devel, weak_devel: true, nolegacy: true }
 - { setname: pkg-config,               name: pkgconfig }
 - { setname: plasma-browser-integration, name: plasma5-plasma-browser-integration }
 - { setname: plasma-camera,            name: plasma-camera-git, weak_devel: true, nolegacy: true }
 - { setname: plasma-discover,          name: [plasma5-discover, kp5-discover] }
+- { setname: plasma-gmailfeed,         name: [ultimate-gmail-feed,kdeplasma-applets-ultimate-gmailfeed,gmail-feed,gmailfeed,kdeplasma-applets-gmailfeed] } # ultimate is split in 850
 - { setname: plasma-integration,       name: [plasma5-integration,plasma5-plasma-integration] }
 - { setname: plasma-workspace,         name: plasma5-workspace }
 - { setname: plasma-workspace-wallpapers, name: plasma5-workspace-wallpapers }
@@ -198,7 +203,10 @@
 - { setname: ponscripter,              name: onscripter-en }
 - { setname: ponscripter-sekai,        name: ponscripter-sekaiproject }
 - { setname: popcorntime,              name: popcorn-time }
-- { setname: poppler,                  name: [poppler-base,poppler-qt5-cairo], addflavor: true }
+- { setname: poppler,                  namepat: "libpoppler[0-9.-]*" }
+- { setname: poppler,                  name: [poppler-base,poppler-qt5-cairo,poppler-static,poppler-qt6], addflavor: true }
+- { setname: poppler,                  name: poppler-current, weak_devel: true, nolegacy: true }
+- { setname: poppler,                  name: poppler-devel-qt5, weak_devel: true, nolegacy: true, addflavor: qt5 }
 - { setname: popt,                     name: libpopt }
 - { setname: portaudio,                name: [portaudio19,portaudio2,portaudio0] }
 - { setname: portaudio,                name: [portaudio-devel,portaudio-svn], weak_devel: true, nolegacy: true }
@@ -246,11 +254,13 @@
 - { setname: ppsspp,                   name: ppsspp-devel, weak_devel: true, nolegacy: true }
 - { setname: ppsspp,                   name: ppsspp-qt5-devel, addflavor: qt5, weak_devel: true, nolegacy: true }
 - { setname: pptpd,                    name: [bcrelay,poptop,poptop-man,pptpd-server], addflavor: true }
+- { setname: preflight,                name: [pdfbox-preflight, preflight-app] }
 - { setname: premake,                  name: [premake3,premake4,premake5] }
 - { setname: presto,                   name: presto-cli }
 - { setname: prettier,                 name: "node:prettier" }
 - { setname: prey,                     name: prey-node-client }
 - { setname: printproto,               name: xprintproto }
+- { setname: prismlauncher,            name: prismlauncher-qt5, addflavor: true }
 - { setname: privoxy,                  name: freedombox-privoxy, addflavor: true }
 - { setname: procdump,                 name: procdump-for-linux }
 - { setname: processhacker,            name: process-hacker }
@@ -281,11 +291,10 @@
 - { setname: proot,                    name: proot-static, addflavor: true }
 - { setname: proot,                    namepat: "proot[0-9.-]+" }
 - { setname: propellor,                name: "haskell:propellor" }
-- { setname: protobuf,                 namepat: "(?:compat-)?(?:lib)?protobuf(?:cpp|compat|[0-9.-])*" }
-- { setname: protobuf,                 name: [protobuf-java,protobuf3-java], addflavor: java }
+- { setname: protobuf,                 namepat: "(?:compat-)?(?:lib)?protobuf(?:compat|[0-9.-])*" }
 - { setname: protobuf,                 name: [protoc, protobuf-static], addflavor: true }
-- { setname: protobuf,                 name: "ruby:google-protobuf", addflavor: ruby }
 - { setname: protobuf-c,               name: protobuf2-c }
+- { setname: protobuf-cpp,             name: protobuf3-cpp }
 - { setname: proton,                   name: proton-native }
 - { setname: proton-caller,            name: "rust:proton-call" }
 - { setname: protonmail-bridge,        name: protonmail-bridge-bin, addflavor: bin }

@@ -263,6 +263,8 @@
 - { name: frescobaldi,                 ver: "3.0.1",                 ruleset: sisyphus,    ignore: true } # fake
 - { name: frescobaldi,                 verpat: "3\\..*",                                   devel: true }
 - { name: fritzing-parts,              verpat: "[0-9]{8}",                                 incorrect: true }
+- { name: frogatto,                    ver: "1.3.3",                 ruleset: rpm,         incorrect: true }
+- { name: frogatto,                                                  ruleset: rpm,         untrusted: true } # accused of fake 1.3.3 (sisyphus, rosa, rpm fusion fedora)
 - { name: frozen-bubble,               ver: ["905bf71","2.212.0"],                         incorrect: true } # fake?
 - { name: frozen-bubble,               ver: "2.2.1_1",               ruleset: solus,       incorrect: true } # 2.2.1beta1
 - { name: frozen-bubble,                                             ruleset: solus,       untrusted: true } # accused of fake 2.2.1_1

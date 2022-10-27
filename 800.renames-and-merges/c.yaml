@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: c,                        name: [c-script,large-c] }
 - { setname: c++-gtk-utils,            name: cxx-gtk-utils }
 - { setname: c++-gtk-utils,            name: c++-gtk-utils-gtk2, addflavor: gtk2 }
 - { setname: c-ares,                   name: [libcares,libcares2] }
@@ -7,6 +8,7 @@
 - { setname: c-blosc,                  name: blosc }
 - { setname: c-lightning,              name: clightning }
 - { setname: c-lolcat,                 name: lolcat-c } # as per PKGBUILD from upstream repo
+- { setname: c2nim,                    name: "nim:$0" }
 - { setname: cacti-spine,              name: cacti-cactid } # cactid renamed to spine upstream
 - { setname: caddy,                    name: [caddy-full,caddy-with-cgi,caddy-no-telemetry,caddy-with-quic, caddy-bin], addflavor: true }
 - { setname: caddy,                    name: caddy2 }
@@ -47,6 +49,7 @@
 - { setname: cargo-deb,                name: "rust:cargo-deb" }
 - { setname: cargo-play,               name: "rust:cargo-play" }
 - { setname: cargo-vendor,             name: ["rust:cargo-vendor",rust-toolset-7-cargo-vendor] }
+- { setname: cargo-zigbuild,           name: ["python:$0", "rust:$0"], addflavor: true }
 - { setname: cassandra,                name: [apache-cassandra,cassandra2] }
 - { setname: cassandra,                name: cassandra-bin, addflavor: true }
 - { setname: cassandra,                namepat: "cassandra[0-9.-]+" }
@@ -238,6 +241,7 @@
 - { setname: coolreader3,              name: coolreader }
 - { setname: copydeps,                 name: "rust:copydeps" }
 - { setname: "coq:gappalib",           name: ["coq:gappa",gappalib-coq] }
+- { setname: coreboot,                 name: coreboot-utils, addflavor: true }
 - { setname: coreutils,                name: coreutils-gnu }
 - { setname: coreutils,                name: [coreutils-minimal, coreutils-multicall, coreutils-selinux, coreutils-single, coreutils-testsuite], addflavor: true }
 - { setname: corosync,                 name: [corosync2,corosync3] }
@@ -246,6 +250,7 @@
 - { setname: couchdb,                  name: [couchdb2, couchdb3, apache-couchdb] }
 - { setname: couchpotato,              name: couchpotatoserver }
 - { setname: courier-authlib,          name: [courier-authlib-base,courier-authlib-ldap,courier-authlib-mysql,courier-authlib-pgsql,courier-authlib-userdb,courier-authlib-usergdbm,courier-authlib-vchkpw], addflavor: true }
+- { setname: coxeter,                  name: coxeter3 }
 - { setname: cozy-audiobooks,          name: com.github.geigi.cozy }
 - { setname: cpio,                     name: [gcpio, cpio-gnu] }
 - { setname: cpmtools,                 name: cpmtools2 }
@@ -290,6 +295,7 @@
 - { setname: cuda,                     namepat: "cuda-?[0-9.]+" }
 - { setname: cudatext,                 name: [cudatext-qt5,cudatext-gtk2], addflavor: true }
 - { setname: cudatext,                 name: cudatext-beta, weak_devel: true, nolegacy: true }
+- { setname: cue,                      name: cue-cli, addflavor: true }
 - { setname: cumulus,                  name: cumuluslanguagede, addflavor: de }
 - { setname: cuneiform,                name: cuneiform-linux }
 - { setname: cups,                     name: [cups-libs,cups-base,cups-minimal,cups-nosystemd,libcups,libcups-ipp14,cups-doc,cups-ipp14,cups-noudev,cups-pam,libcups-minimal,libcups-nosystemd-minimal], addflavor: true }

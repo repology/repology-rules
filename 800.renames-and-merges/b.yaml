@@ -1,6 +1,5 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-- { setname: b3sum,                    name: "rust:b3sum" }
 - { setname: b4,                       name: "python:$0" }
 - { setname: babel.js,                 name: babel-cli }
 - { setname: babeltrace,               name: "python:babeltrace", addflavor: python }
@@ -59,6 +58,7 @@
 - { setname: beast,                    name: beastbse }
 - { setname: beast2,                   name: beast2-mcmc }
 - { setname: bedrock-server,           name: minecraft-bedrock-server }
+- { setname: bedtools,                 name: bedtools2 }
 - { setname: bedup,                    name: "python:bedup" }
 - { setname: beef-browser-exploitation, name: beef-xss }
 - { setname: belle-sip,                name: libbelle-sip }
@@ -105,13 +105,15 @@
 - { setname: blackbox,                 name: [vcs-blackbox,scm-blackbox] } # different project, split in 850
 - { setname: blackshades,              name: blackshades-svn, ignore: true }
 - { setname: blackshadeselite,         name: blackshades-elite-svn, ignore: true }
+- { setname: blake3,                   name: [libblake3, "rust:blake3"] }
+- { setname: blake3,                   name: [b3sum, "rust:b3sum"], addflavor: b3sum }
 - { setname: blas,                     name: [blas-reference,blas-docs], addflavor: docs }
 - { setname: blas,                     name: blas-tmg }
 - { setname: blas,                     name: blas64, addflavor: true }
 - { setname: blasphemer,               name: blasphemer-wad }
 - { setname: blast,                    name: blast-legacy }
-- { setname: blender,                  name: [blender-alarm,blender-as-py-module,blender-binaries,blender-wayland], addflavor: true }
-- { setname: blender,                  namepat: "blender(?:-lts)?[0-9.-]+" }
+- { setname: blender,                  name: [blender-alarm,blender-as-py-module,blender-binaries,blender-wayland,blender-rocm], addflavor: true }
+- { setname: blender,                  namepat: "blender(?:-lts)?[0-9.-]*" }
 - { setname: blender,                  name: blender-develop, weak_devel: true, nolegacy: true }
 - { setname: blobby,                   name: blobby-volley-2 }
 - { setname: blobby,                   name: [blobby2,blobby-volley] }
@@ -139,6 +141,8 @@
 - { setname: boomaga,                  name: boomaga-qt5, addflavor: true }
 - { setname: boostnote,                name: boost-note }
 - { setname: bootstrap,                name: [twitter-bootstrap3,twitter-bootstrap4] }
+- { setname: bore,                     name: "rust:$0" }
+- { setname: bore-cli,                 name: "rust:$0" }
 - { setname: borg-space,               name: "python:borg-space" }
 - { setname: boswars,                  name: bos-wars }
 - { setname: botan,                    namepat: "(?:lib)?botan[0-9.-]*" }

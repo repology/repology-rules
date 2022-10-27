@@ -151,7 +151,6 @@
 - { setname: antlr,                    name: python3-antlr3, addflavor: python3 }
 - { setname: antlr,                    name: antlr3-bin, addflavor: bin }
 - { setname: antlr,                    name: [antlr4-project, libantlr] }
-- { setname: antlr,                    name: libantlr3c, addflavor: c }
 - { setname: antlr,                    name: [java-antlr3,ant-antlr3,libantlr4] }
 - { setname: aolserver,                name: aolserver4 }
 - { setname: aom,                      name: libaom }
@@ -164,6 +163,7 @@
 - { setname: apache-arrow,             name: apache-arrow-glib, addflavor: glib }
 - { setname: apache-commons-configuration, name: commons-configuration }
 - { setname: apache-commons-configuration2, name: commons-configuration2 }
+- { setname: apache-commons-jxpath,    name: [commons-jxpath, java-commons-jxpath, 'java:commons-jxpath'] }
 - { setname: apache-commons-lang,      name: [apache-commons-lang-eap6,apache-commons-lang3,commons-lang,jakarta-commons-lang,jakarta-commons-lang3,java-commons-lang,java-commons-lang3,libcommons-lang-java,libcommons-lang3-java] }
 - { setname: apache-directory-studio,  name: [directory-studio,apachedirectorystudio,directorystudio] }
 - { setname: apache-directory-studio,  name: apache-directory-studio-bin, addflavor: true }
@@ -193,7 +193,7 @@
 - { setname: aqmoney,                  name: aqmoney2 }
 - { setname: aquaria,                  name: aquaria-ose }
 - { setname: arangodb,                 namepat: "arangodb[0-9.-]+" }
-- { setname: arb,                      name: flint-arb }
+- { setname: arb,                      name: [flint-arb, libarb] }
 - { setname: arbtt,                    name: "haskell:arbtt" }
 - { setname: arcan,                    name: [acfgfs,aclip,aloadimage,arcan-aclip,arcan-aloadimage,arcan-waybridge,arcan-wayland], addflavor: true }
 - { setname: arcanist,                 name: "php:arcanist" }
@@ -290,7 +290,7 @@
 - { setname: autopep8,                 name: "python:autopep8" }
 - { setname: autotools,                name: autotools-dev, ignore: true }
 - { setname: autotools,                name: autotools-wrappers } # ravenports
-- { setname: av1an,                    name: "python:av1an" }
+- { setname: av1an,                    name: ["python:av1an", "python:av1an-minimal", "rust:av1an", "rust:av1an-cli", "rust:av1an-core"] }
 - { setname: avidemux,                 name: [avidemux2.6,avidemux3] }
 - { setname: avidemux,                 name: [avidemux-cli,avidemux-core,avidemux-plugins,avidemux-qt,avidemux-qt4], addflavor: true }
 - { setname: avl,                      name: libavl } # unrelated projects, but sometimes mixed up, split in 850

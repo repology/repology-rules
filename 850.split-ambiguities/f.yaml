@@ -41,6 +41,11 @@
 - { name: fex, ruleset: [aix], setname: fex-field-extraction }
 - { name: fex, addflag: unclassified }
 
+- { name: figurine, wwwpart: arsham, setname: figurine-banner }
+- { name: figurine, wwwpart: sourceforge, setname: figurine-graphics }
+- { name: figurine, ruleset: gobolinux, setname: figurine-graphics }
+- { name: figurine, addflag: unclassified }
+
 - { name: firectl, wwwpart: rahiel, setname: firectl-firejail }
 - { name: firectl, wwwpart: firecracker, setname: firectl-firecracker }
 - { name: firectl, addflag: unclassified }
@@ -88,10 +93,7 @@
 - { name: fms, wwwpart: gfdl, setname: fms-flexible-modeling-system }
 - { name: fms, addflag: unclassified }
 
-- { name: figurine, wwwpart: arsham, setname: figurine-banner }
-- { name: figurine, wwwpart: sourceforge, setname: figurine-graphics }
-- { name: figurine, ruleset: gobolinux, setname: figurine-graphics }
-- { name: figurine, addflag: unclassified }
+- { name: fmt, wwwpart: plan9, setname: fmt-plan9 }
 
 - { name: foomatic, ruleset: [sisyphus,aosc,gobolinux], remove: true } # metapackages
 - { name: foomatic, ruleset: [centos,fedora,chakra], setname: foomatic-db-engine } # metapackages
@@ -117,8 +119,6 @@
 - { name: fox, wwwpart: fox-toolkit, setname: fox-toolkit }
 - { name: fox, wwwpart: earawa, setname: fox-fortran-xml-library }
 - { name: fox, addflag: unclassified }
-
-- { name: fmt, wwwpart: plan9, setname: fmt-plan9 }
 
 - { name: fpm, wwwpart: fortran, setname: fpm-fortran-package-manager }
 - { name: fpm, wwwpart: jordansissel, setname: fpm-package-builder }

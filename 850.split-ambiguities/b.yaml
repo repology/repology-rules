@@ -12,8 +12,29 @@
 - { name: backbone, wwwpart: [backbonejs,documentcloud.github.com/backbone], setname: "js:backbone" }
 - { name: backbone, addflag: unclassified }
 
+- { name: bacon, wwwpart: basic-converter.org, setname: bacon-basic-to-c }
+- { name: bacon, wwwpart: [dystroy,canop], setname: bacon-rust-code-checker }
+- { name: bacon, addflag: unclassified }
+
 # mail client vs. asynchronous synthesis system
 - { name: balsa, category: sci-electronics,               setname: balsa-synthesis }
+
+- { name: bamm, wwwpart: ecogenomics, setname: bamm-metagenomics }
+- { name: bamm, wwwpart: bamm-project.org, setname: bamm-bayesian }
+- { name: bamm, addflag: unclassified }
+
+- { name: bandcamp-dl, wwwpart: bandcamp-downloader,      setname: bandcamp-downloader }
+
+- { name: banner, wwwpart: [pronovic,cedar], setname: banner-kenneth-pronovici }
+- { name: banner, wwwpart: shh, setname: banner-sverre-huseby }
+- { name: banner, wwwpart: moria.de, setname: banner-michael-haardt }
+- { name: banner, addflag: unclassified }
+
+# http://www.theiling.de/projects/bar.html vs http://clpbar.sourceforge.net
+# some of the latter lack WWWs, while all of the former do have them
+- { name: bar, wwwpart: clp,                              setname: clpbar }
+- { name: bar, wwwpart: theiling,                         addflag: theiling }
+- { name: bar, noflag: theiling,                          setname: clpbar }
 
 - { name: base, wwwpart: secureideas, setname: acidbase }
 - { name: base, wwwpart: [archlinux,msys2,parabola], remove: true } # metapackage
@@ -27,18 +48,6 @@
 - { name: baselayout, ruleset: carbs, setname: baselayout-carbs }
 - { name: baselayout, ruleset: noir, setname: baselayout-noir }
 - { name: baselayout, addflag: unclassified }
-
-- { name: bamm, wwwpart: ecogenomics, setname: bamm-metagenomics }
-- { name: bamm, wwwpart: bamm-project.org, setname: bamm-bayesian }
-- { name: bamm, addflag: unclassified }
-
-- { name: bandcamp-dl, wwwpart: bandcamp-downloader,      setname: bandcamp-downloader }
-
-# http://www.theiling.de/projects/bar.html vs http://clpbar.sourceforge.net
-# some of the latter lack WWWs, while all of the former do have them
-- { name: bar, wwwpart: clp,                              setname: clpbar }
-- { name: bar, wwwpart: theiling,                         addflag: theiling }
-- { name: bar, noflag: theiling,                          setname: clpbar }
 
 - { name: bat, wwwpart: [sharkdp,crates.io/crates/bat], setname: bat-cat }
 - { name: bat, wwwpart: binaryanalysis, setname: bat-binary-analysis-tool }
@@ -72,6 +81,11 @@
 - { name: beaker, addflag: unclassified }
 
 - { name: beanshell, ruleset: kaos,                       setname: beanshell2 }
+
+- { name: bear, wwwpart: j-jorge, setname: bear-engine }
+- { name: bear, wwwpart: rizsotto, setname: bear-clang }
+- { name: bear, wwwpart: the-sz, setname: bear-gdi-usage }
+- { name: bear, addflag: unclassified }
 
 - { name: beast, wwwpart: beast.bio.ed.ac.uk, setname: beast-mcmc }
 - { name: beast, wwwpart: boost, setname: boost-beast }
@@ -150,6 +164,13 @@
 # neither has alive homepage
 - { name: blueprint, addflag: unclassified }
 
+- { name: bolt, wwwpart: bolt.cm, setname: bolt-cms }
+- { name: bolt, wwwpart: s0md3v, setname: bolt-csrf-scanner }
+- { name: bolt, wwwpart: [freedesktop,gicmo], setname: bolt-thunderbolt3 }
+- { name: bolt, wwwpart: boltdb, setname: bolt-db }
+- { name: bolt, wwwpart: omp, setname: bolt-openmp }
+- { name: bolt, addflag: unclassified }
+
 - { name: bonsai, wwwpart: bonsai.sh, setname: bonsai.sh }
 - { name: bonsai, wwwpart: dnbaker, setname: bonsai-taxonomic-analysis }
 - { name: bonsai, wwwpart: mozilla, setname: bonsai-cvs-browser }
@@ -162,12 +183,10 @@
 - { name: bootchart, wwwpart: [mmeeks,xrmr], setname: bootchart2 }
 - { name: bootchart, verpat: "2\\..*", setname: bootchart2 }
 
-- { name: bolt, wwwpart: bolt.cm, setname: bolt-cms }
-- { name: bolt, wwwpart: s0md3v, setname: bolt-csrf-scanner }
-- { name: bolt, wwwpart: [freedesktop,gicmo], setname: bolt-thunderbolt3 }
-- { name: bolt, wwwpart: boltdb, setname: bolt-db }
-- { name: bolt, wwwpart: omp, setname: bolt-openmp }
-- { name: bolt, addflag: unclassified }
+- { name: bore, wwwpart: ekzhang, setname: bore-cli }
+- { name: bore, wwwpart: delan, setname: bore-dns }
+- { name: bore, wwwpat: 'https://crates.io/crates/bore', setname: bore-dns }
+- { name: bore, addflag: unclassified }
 
 - { name: borg, wwwpart: borg-calendar,                   setname: borg-calendar }
 - { name: borg, wwwpart: ok-borg,                         setname: ok-borg }
@@ -175,6 +194,10 @@
 - { name: borg, addflag: unclassified }
 
 - { name: bos, wwwpart: boswars,                          setname: boswars }
+
+- { name: bosh, wwwpart: [bosh.sourceforge.net,sourceforge.net/projects/bosh], setname: bosh-browsable-output-shell }
+- { name: bosh, wwwpart: schily, setname: schilytools }
+- { name: bosh, addflag: unclassified }
 
 - { name: bower, wwwpart: wangp, setname: bower-mail }
 # otherwise bower.io, js package manager

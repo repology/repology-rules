@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
+- { setname: d-spy,                    name: dspy }
 - { setname: dapl,                     name: compat-dapl }
 - { setname: dapl,                     name: dapl-debug, addflavor: true }
 - { setname: darcs,                    name: "haskell:darcs" }
@@ -11,6 +12,7 @@
 - { setname: dash,                     name: [dash-static,dash-static-musl], addflavor: true }
 - { setname: dashcore,                 name: [dashpay, dash-core] }
 - { setname: dashcore,                 name: dash-dash } # XXX: name problem
+- { setname: datalad,                  name: "python:$0" }
 - { setname: dav1d,                    name: libdav1d }
 - { setname: dave-gnukem,              name: gnukem }
 - { setname: db,                       name: [berkeley-db, compat-db] }
@@ -29,6 +31,7 @@
 - { setname: dbus-sharp-glib,          name: [dbus-sharp-glib-legacy, dotnet-dbus-sharp-glib] }
 - { setname: dbus-sharp-glib,          name: dbus-sharp-lib, disposable: true } # aosc
 - { setname: dcc,                      name: dcc-dccd }
+- { setname: dcd,                      name: [dcd-client, dcd-server], addflavor: true }
 - { setname: dcmtk,                    name: libdcmtk12 }
 - { setname: dcmtk,                    name: dcmtk-snapshot, weak_devel: true, nolegacy: true }
 - { setname: dconf,                    name: d-conf }
@@ -114,6 +117,7 @@
 - { setname: doh-proxy,                name: "rust:doh-proxy" }
 - { setname: doh-proxy,                name: "rust:libdoh", addflavor: libdoh }
 - { setname: doit,                     name: "python:doit" }
+- { setname: dolfinx,                  name: ["python:fenics-dolfinx", fenics-dolfinx] }
 - { setname: dolphin,                  name: [dolphin-dev, dolphin-beta], weak_devel: true, nolegacy: true }
 - { setname: dolphin-emu,              name: [dolphin-emu4, dolphinemu] }
 - { setname: dolphin-emu,              name: dolphin-emu-beta, weak_devel: true, nolegacy: true }

@@ -3,6 +3,7 @@
 - { name: dahdi-linux,                 verlonger: 4,                                       incorrect: true }
 - { name: dahdi-linux,                 verge: "5",                   ruleset: alpine,      incorrect: true } # uses kernel version
 - { name: dahdi-linux,                                               ruleset: alpine,      untrusted: true } # accused of fake 5.x
+- { name: danmaq,                      verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: dapl,                        verpat: ".*[0-9a-f]{8}",                            snapshot: true }
 - { name: darcnes,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: darcs,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
@@ -37,6 +38,7 @@
 - { name: deadbeef,                                                  ruleset: [fedora,rosa], untrusted: true } # accused of fake 0.7.3
 - { name: deadbeef,                    verpat: "20[0-9]{2}.*",                             snapshot: true }
 - { name: debian-installer,            ver: "201507023",                                   sink: true } # miscomparison due to unexpected format (9 numbers instead of YYYYMMDD)
+- { name: debugedit,                   verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: dee-qt,                      verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: deepin-sound-theme,          ver: "17.07.31",              ruleset: pardus,      ignore: true }
 - { name: deepin-utils,                                                                    noscheme: true }
@@ -89,6 +91,7 @@
 - { name: distcc,                      ver: "3.4",                   ruleset: [debuntu,ataraxia], incorrect: true }
 - { name: distcc,                                                    ruleset: [debuntu,ataraxia], untrusted: true } # accused of fake 3.4
 - { name: distorm,                     verpat: "20[0-9]{6}.*",                             ignore: true } # freebsd garbage
+- { name: distrho-ports,               verpat: "20[0-9]{6}",                               incorrect: true } # YYYY-MM-DD, not YYYYMMDD
 - { name: distrobuilder,               verpat: "20[0-9]{2}_.*",                            incorrect: true }
 - { name: distrobuilder,                                             ruleset: nix,         untrusted: true } # accused of fake 2019_10_07
 - { name: dive,                        verpat: ".+20[0-9]{6}",                             snapshot: true }
@@ -124,6 +127,8 @@
 - { name: dolphin-emu,                 verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: dolphin-emu,                 verpat: "[0-9]+\\.[0-9]+\\.[0-9]{3}",               incorrect: true }
 - { name: dolphin-emu,                 verpat: "[0-9]+\\.[0-9]+[.-][0-9]{4,}",             devel: true }
+- { name: dolphin-emu,                 ver: "5.0.16795",             ruleset: freebsd,     incorrect: true } # latest official beta build atow is 5.0-16793
+- { name: dolphin-emu,                                               ruleset: freebsd,     untrusted: true } # accused of fake 5.0.16795
 - { name: dolphin-fm,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: dolphin-plugins,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: dolt,                        verge: "2",                   ruleset: winget,      incorrect: true } # fake 2.28.0
@@ -151,11 +156,14 @@
 - { name: dragon-player,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: drawterm,                                                                        noscheme: true }
 - { name: drawxtl,                     verpat: "[0-9]+",                                   incorrect: true } # 5.5, not 55
+- { name: drbl,                        vergt: "2.30.5",                                    devel: true, maintenance: true } # https://free.nchc.org.tw/drbl-core/src/stable/, see also clonezilla
 - { name: dreampie,                    ver: "1.3.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: dreampie,                                                  ruleset: sisyphus,    untrusted: true }
 - { name: drgeo,                       ver: "12.10a",                ruleset: opensuse,    incorrect: true }
 - { name: drgeo,                                                     ruleset: opensuse,    untrusted: true }
 - { name: drkonqi,                     verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: drone-runner-exec,           ver: "1.0.0",                 ruleset: mpr,         incorrect: true }
+- { name: drone-runner-exec,                                         ruleset: mpr,         untrusted: true } # accused of fake 1.0.0
 - { name: dropbox,                     verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: dsd,                         ver: "1.7.0",                 ruleset: [sisyphus],  incorrect: true } # no such version
 - { name: dsd,                                                       ruleset: [sisyphus],  untrusted: true }
@@ -164,6 +172,8 @@
 - { name: dsniff,                                                    ruleset: [sisyphus,rpm,gentoo], untrusted: true } # accused of fake 2.4
 - { name: dsniff,                      ver: "2.4",                                         untrusted: true } # unmaintainer for 2 decades, release is unlikely 
 - { name: dsniff,                      verpat: ".*b.*",                                    devel: true }
+- { name: dsview,                      ver: "1.12",                  ruleset: nix,         incorrect: true } # 1.1.2
+- { name: dsview,                                                    ruleset: nix,         untrusted: true } # accused of fake 1.12
 - { name: dtc,                         ver: "20130410",                                    sink: true }
 - { name: dtc,                         verpat: "20[0-9]{6}",                               ignore: true }
 - { name: dtrace-toolkit,              ver: "1.0",                   ruleset: freebsd,     incorrect: true }
@@ -182,6 +192,7 @@
 - { name: dust3d,                      verpat: ".*b.*",                                    devel: true }
 - { name: duviz,                       verpat: "[0-9]{8}",                                 incorrect: true }
 - { name: duviz,                       ver: "09032015",                                    sink: true } # older than 1.1.1
+- { name: dvdauthor,                   verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: dvdstyler,                   ver: "3.1",                   ruleset: fedora,      incorrect: true } # rpm fusion
 - { name: dvdstyler,                                                 ruleset: fedora,      untrusted: true } # accused of fake 3.1
 - { name: dvdstyler,                   verpat: ".*b.*",                                    devel: true }

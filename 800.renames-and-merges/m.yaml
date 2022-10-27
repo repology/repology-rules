@@ -32,7 +32,8 @@
 - { setname: mandelbulber,             name: [mandelbulber-opencl, mandelbulber2-opencl], addflavor: opencl }
 - { setname: mandoc,                   name: mdocml } # mdocml is an old name (schwarze@openbsd.org)
 - { setname: mandown,                  name: "rust:$0" }
-- { setname: manpages,                 name: [man-pages,linux-man-pages,linux-manpages] }
+- { setname: manpages,                 name: [man-pages,linux-man-pages,linux-manpages,man-pages-linux] }
+- { setname: manpages-l10n,            name: [man-pages-l10n, manpages-pt-br] }
 - { setname: manpages-zh,              name: [man-pages-zh, man-pages-zh-cn] } # upstream claims that this is the official name
 - { setname: mapnik,                   name: libmapnik }
 - { setname: mapproxy,                 name: "python:mapproxy" }
@@ -102,6 +103,8 @@
 - { setname: mate-user-share,          name: mate-user-share-gtk2, addflavor: true }
 - { setname: mate-utils,               name: mate-utils-dev, weak_devel: true, nolegacy: true }
 - { setname: mate-utils,               name: mate-utils-gtk2, addflavor: true }
+- { setname: mathematica,              name: mathematica-cuda, addflavor: true }
+- { setname: mathematica,              name: mathematica-09 }
 - { setname: mathics,                  name: "python:mathics" }
 - { setname: matio,                    name: libmatio }
 - { setname: matomo,                   name: matomo-beta, weak_devel: true, nolegacy: true }
@@ -129,6 +132,8 @@
 - { setname: mdformat,                 name: "python:$0" }
 - { setname: mdk,                      name: gnu-mdk }
 - { setname: mdk,                      name: mdk-doc, addflavor: true }
+# All the MDLs get disambiguated in the 850 ruleset
+- { setname: mdl,                      name: "ruby:mdl" }
 - { setname: mdp,                      name: gpg-mdp } # different from mdp-src, split in 850
 - { setname: mdp,                      name: mdp-src } # different from gpg-mdp, split in 850
 - { setname: me-cleaner,               name: "python:me-cleaner" }
@@ -254,6 +259,7 @@
 - { setname: mplayer,                  name: [mencoder,mplayer-cli,mplayer-share], addflavor: true }
 - { setname: mpqc,                     name: mpqc-shared, addflavor: true }
 - { setname: mpqc,                     name: mpqc3 }
+- { setname: mps,                      name: [mps.eap, mps-eap] }
 - { setname: mps-youtube,              name: "python:mps-youtube" }
 - { setname: mpv,                      name: mpv-player }
 - { setname: mpv,                      name: [mpv-full,mpv-light,mpv-rpi,mpv-scripts,mpv-sndio,mpv-thin,mpv-tools,mpv-with-scripts], addflavor: true }

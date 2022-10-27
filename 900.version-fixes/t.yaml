@@ -73,11 +73,15 @@
 - { name: testdisk,                    verpat: "(.*?)\\.?w(?:ip)?",                        setver: $1 }
 - { name: testssl.sh,                  verpat: ".*r.*",                                    devel: true, disposable: true } # FreeBSD, mangled rc
 - { name: tetgen,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: texinfo,                     verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: texlive,                     ver: "20180617",              ruleset: homebrew,    incorrect: true }
-- { name: texlive,                                                   ruleset: homebrew,    untrusted: true }
+- { name: texlive,                                                   ruleset: homebrew,    untrusted: true } # accused of fake 20180617
 - { name: texlive,                     ver: "20190509",              ruleset: cygwin,      incorrect: true }
-- { name: texlive,                                                   ruleset: cygwin,      untrusted: true }
+- { name: texlive,                                                   ruleset: cygwin,      untrusted: true } # accused of fake 20190509
+- { name: texlive,                     ver: "20220403",              ruleset: termux,      incorrect: true }
+- { name: texlive,                                                   ruleset: termux,      untrusted: true } # accused of fake 20220403
 - { name: texlive,                     verlonger: 1,                 ruleset: alpine,      incorrect: true }
+- { name: texlive,                                                                         noscheme: true } # no clear versioning scheme: 2022 vs. 20220321 vs 2022[./-]20220321
 - { name: texlive-core,                verpat: "(20[0-9]{2}).[0-9]{5,}",                   ignore: true }
 - { name: texlive-docs,                                                                    noscheme: true } # ambiguous upstream versioning
 - { name: "texlive:cm-super",          verpat: "[0-9]{5}",                                 incorrect: true } # guix garbara
@@ -88,6 +92,7 @@
 - { name: "texlive:mathabx",                                                               noscheme: true }
 - { name: "texlive:xetex",                                                                 noscheme: true }
 - { name: text2pdf,                    ver: "53",                                          sink: true, vulnerable: true } # unknown version, probably older than latest 1.1
+- { name: texvc,                       verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: texworks,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: tg-owt,                                                                          noscheme: true } # https://github.com/desktop-app/tg_owt/tags
 - { name: theharvester,                verpat: "(2\\.7)\\.[12]",                           setver: $1 } # versions are mentioned in the changelog, but there are no tags
@@ -138,7 +143,7 @@
 - { name: tomcat,                                                    ruleset: scoop,       untrusted: true }
 - { name: tome2,                       ver: "235",                                         incorrect: true }
 - { name: tor,                         verpat: "([0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)[._-]?[abr].*", setver: "$1", devel: true } # version is self-sufficient; remove redundant alpha/rc suffix, but set devel
-- { name: tor,                         verge: "0.4.7",                                     devel: true, maintenance: true }
+- { name: tor,                         verge: "0.4.8",                                     devel: true, maintenance: true }
 - { name: tor-browser,                 verlonger: 3,                 ruleset: pkgsrc,      incorrect: true } # firefox version appended
 - { name: tora,                        verlonger: 2,                 ruleset: nix,         incorrect: true }
 - { name: torque,                      verpat: ".*h.*",                                    devel: true }

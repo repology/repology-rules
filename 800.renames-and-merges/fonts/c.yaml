@@ -28,28 +28,6 @@
     - fonts-cascadia-code
     - ttf-cascadia-code
 
-- setname: "fonts:cica"
-  name:
-    - font-cica
-    - ttf-cica
-
-- setname: "fonts:cjkuni"
-  name:
-    - cjkuni-fonts
-    - cjkunifonts
-
-- setname: "fonts:cjkuni"
-  name:
-    - cjkuni-ukai-fonts
-    - fonts-ttf-cjkuni-ukai
-  addflavor: ukai
-
-- setname: "fonts:cjkuni"
-  name:
-    - cjkuni-uming-fonts
-    - fonts-ttf-cjkuni-uming
-  addflavor: uming
-
 - setname: "fonts:charis-sil"
   name:
     - charis
@@ -81,6 +59,28 @@
   name:
     - fonts-ttf-chinese-opendesktop
 
+- setname: "fonts:cica"
+  name:
+    - font-cica
+    - ttf-cica
+
+- setname: "fonts:cjkuni"
+  name:
+    - cjkuni-fonts
+    - cjkunifonts
+
+- setname: "fonts:cjkuni"
+  name:
+    - cjkuni-ukai-fonts
+    - fonts-ttf-cjkuni-ukai
+  addflavor: ukai
+
+- setname: "fonts:cjkuni"
+  name:
+    - cjkuni-uming-fonts
+    - fonts-ttf-cjkuni-uming
+  addflavor: uming
+
 - setname: "fonts:clearsans"
   name:
     - clear-sans
@@ -93,6 +93,13 @@
     - cm-unicode-fonts
     - otf-cm-unicode
     - ttf-cm-unicode
+
+- setname: "fonts:cns11643"
+  name:
+    - cns11643-font
+    - font-cns11643
+    - font-cns11643-swjz
+    - fonts-cns11643
 
 - setname: "fonts:comfortaa"
   name:
@@ -111,6 +118,10 @@
     - fonts-otf-comic-neue
     - ttf-comic-neue
 
+- setname: "fonts:consolamono"
+  name:
+    - consolamono-ttf
+
 - setname: "fonts:cormorant"
   name:
     - otf-cormorant
@@ -123,17 +134,6 @@
     - fonts-courier-prime
     - ttf-courier-prime
     - ttf-courier-prime-ib
-
-- setname: "fonts:cns11643"
-  name:
-    - cns11643-font
-    - font-cns11643
-    - font-cns11643-swjz
-    - fonts-cns11643
-
-- setname: "fonts:consolamono"
-  name:
-    - consolamono-ttf
 
 - setname: "fonts:crimson"
   name:

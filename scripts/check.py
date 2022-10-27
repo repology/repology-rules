@@ -35,7 +35,7 @@ families = [
     'arch',
     'ataraxia',
     'baulk',
-    'buckaroo',
+    'buckaroo',  # removed in fact, may want to garbage collect rules at some point
     'carbs',
     'centos',
     'chakra',
@@ -59,6 +59,7 @@ families = [
     'freshcode',
     'fsd',
     'gentoo',
+    'glaucus',
     'gobolinux',
     'guix',
     'hackage',
@@ -208,9 +209,11 @@ flags = [
     'not_js',
     'not_kde',
     'not_linux',
+    'not_lisp',
     'not_lua',
     'not_mingw',
     'not_nextcloud',
+    'not_nim',
     'not_nginx',
     'not_node',
     'not_ocaml',
@@ -321,13 +324,18 @@ schema = Schema(
 
 
 features_by_pattern = {
-    '.*800.renames-and-merges/(.|emacs)\.yaml': {
+    '.*800.renames-and-merges/(.|apmod|emacs|ffext|gimpplugins|haskell|lib|libretro|lua|lv2|nextcloud|node|perl|php|python|rhytmbox|texlive|vim|fonts/.)\.yaml': {
         'sort_field': 'setname',
     },
-#    '.*850.split-ambiguities/.*\.yaml': 'name',
+    '.*850.split-ambiguities/[^cdh]\.yaml': {
+        'sort_field': 'name',
+    },
     '.*900.version-fixes/.*\.yaml': {
         'sort_field': 'name',
         'disallowed': {'setname'},
+    },
+    '.*910.vulnerabilities.yaml': {
+        'sort_field': 'name',
     },
     '.*950.split-branches.yaml': {
         'sort_field': 'name',

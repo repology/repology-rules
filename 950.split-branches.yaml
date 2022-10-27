@@ -104,9 +104,13 @@
 
 - { name: gnupg,                                          setbranchcomps: 1 }
 
+- { name: gnutls,                                         setbranchcomps: 2 }
+
 - { name: godot,                                          setbranchcomps: 1 }
 
 - { name: grafana,                                        setbranchcomps: 1 }
+
+- { name: granite,                                        setbranchcomps: 1 }
 
 - { name: grantlee,          verlt: "5",                  setbranch: qt4 }
 
@@ -247,6 +251,8 @@
 - { name: nvidia,            verlt: "300",                setbranchcomps: 2 } # e.g. 71.86.x
 
 - { name: opencolorio,                                    setbranchcomps: 1 }
+
+- { name: opencv,                                         setbranchcomps: 1 }
 
 - { name: openjpeg,                                       setbranchcomps: 1 }
 

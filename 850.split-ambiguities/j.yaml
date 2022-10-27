@@ -49,6 +49,14 @@
 - { name: jd, summpart: 2ch, setname: jd-2ch-browser }
 - { name: jd, addflag: unclassified }
 
+- { name: jellyfish, wwwpart: [genome,cbcb.umd.edu], setname: jellyfish-k-mer }
+- { name: jellyfish, wwwpart: [jamesturk,sunlightlabs], setname: "python:jellyfish" }
+- { name: jellyfish, addflag: unclassified }
+
+- { name: jester, wwwpart: [dom96,nimble], setname: "nim:jester" }
+- { name: jester, wwwpart: wiki.debian.org/Games/Jester, setname: jester-game }
+- { name: jester, addflag: unclassified }
+
 - { name: jet, wwwpart: codeship, setname: jet-codeship }
 - { name: jet, wwwpart: borkdude, setname: jet-transform }
 - { name: jet, wwwpart: cognocoder, setname: jet-strings }
@@ -59,13 +67,13 @@
 - { name: jigsaw, wwwpart: w3, setname: jigsaw-java-server }
 - { name: jigsaw, addflag: unclassified }
 
+- { name: jira-cli, wwwpart: ankitpokhrel, setname: $0-go }
+- { name: jira-cli, wwwpart: alisaifee, setname: $0-python }
+- { name: jira-cli, addflag: unclassified }
+
 - { name: jist, wwwpart: [rubygems,conradirwin], setname: jist-gist }
 - { name: jist, wwwpart: nitrc, setname: jist-java-image-science-toolkit }
 - { name: jist, addflag: unclassified }
-
-- { name: jellyfish, wwwpart: [genome,cbcb.umd.edu], setname: jellyfish-k-mer }
-- { name: jellyfish, wwwpart: [jamesturk,sunlightlabs], setname: "python:jellyfish" }
-- { name: jellyfish, addflag: unclassified }
 
 - { name: jj, wwwpart: 23.fi, setname: jj-xmpp-client }
 - { name: jj, wwwpart: tidwall, setname: jj-json-stream-editor }
@@ -74,6 +82,10 @@
 - { name: jless, wwwpart: PaulJuliusMartinez, addflag: classified } # or setname: jless-json-pager
 # otherwise some ancient version of less from debian, no upstream defined
 - { name: jless, addflag: unclassified }
+
+- { name: jot, wwwpart: araekiel, setname: jot-note-management }
+# a bunch upstreamless `print sequential or random data` packages
+- { name: jot, addflag: unclassified }
 
 - { name: jp, wwwpart: sgreben, setname: jp-terminal-plots }
 - { name: jp, wwwpart: jmespath, setname: jp-jmespath }
@@ -108,3 +120,8 @@
 - { name: junction, wwwpart: sysinternals, setname: sysinternals-junction }
 - { name: junction, wwwpart: preshing, setname: junction-concurrent-data-structures }
 - { name: junction, addflag: unclassified }
+
+- { name: jxrlib, wwwpart: glencoesoftware, setname: jxrlib-glencoe }
+- { name: jxrlib, wwwpart: 4creators, setname: jxrlib-4creators }
+# most others are original microsoft code from codeplex, upstream now dead
+- { name: jxrlib, addflag: unclassified }

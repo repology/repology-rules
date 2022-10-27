@@ -3,6 +3,7 @@
 - { name: l-smash-works,                                                                   noscheme: true }
 - { name: labyrinth,                   verpat: ".*a.*",                                    devel: true } # https://github.com/labyrinth-team/labyrinth/blob/b8c74806082083a97f6938773380d034ab658e6e/labyrinth_lib/__init__.py#L1
 - { name: ladish,                      verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: ladybird,                                                                        noscheme: true }
 - { name: lame,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: lame,                        ver: "3.100.1",               ruleset: [deepin,scoop], incorrect: true }
 - { name: lame,                                                      ruleset: [deepin,scoop], untrusted: true } # accused of fake 3.100.1
@@ -14,6 +15,8 @@
 - { name: lastools,                    verpat: "[0-9]{2}[.-][0-9]{2}[.-][0-9]{2}",         sink: true } # some distros packaged as yy-mm-dd or yy.mm.dd
 - { name: latexmk,                     verpat: "[0-9]{3}.*",                               incorrect: true } # 4.69, not 469
 - { name: latte-dock,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: latte-dock,                  verpat: ".*~.*",              ruleset: opensuse,    incorrect: true } # 0.11.0~20220619T183501
+- { name: layer-shell-qt,              verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: lazarus,                     ver: "2.0.1",                 ruleset: sisyphus,    incorrect: true }
 - { name: lazarus,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 2.0.1
 - { name: lbd,                         verpat: "20[0-9]{6}",                               ignore: true } # BlackArch snap
@@ -21,7 +24,7 @@
 - { name: lcov,                                                      ruleset: opensuse,    untrusted: true } # accused of fake 1.14
 - { name: leftwm,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true } # XXX: FreeBSD DISTVERSION
 - { name: lensfun,                     verpat: "[0-9]+\\.[0-9]+\\.9[0-9]",                 devel: true }
-- { name: less,                        vergt: "590",                                       devel: true, maintenance: true } # http://www.greenwoodsoftware.com/less/
+- { name: less,                        vergt: "608",                                       devel: true, maintenance: true } # http://www.greenwoodsoftware.com/less/
 - { name: lf,                          verpat: "r([.0-9]+)",                               setver: $1 }
 - { name: lf,                          verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: lft,                         verpat: "([0-9]+)\\.([0-9])",                       setver: "$1.$20" } # upstream inadequacy
@@ -41,7 +44,7 @@
 - { name: librespot,                   verge: "20000000", verlt: "20200729",               sink: true }
 - { name: libresprite,                 ver: "1.1.7",                                       sink: true } # not a relase, just marks point of fork from aseprite; real versions start from 1.0 https://github.com/LibreSprite/LibreSprite/releases
 - { name: libresprite,                 ver: "1.0.dev",                                     incorrect: true }
-- { name: libressl,                    relgt: "3.4",                                       devel: true, maintenance: true }
+- { name: libressl,                    relgt: "3.5",                                       devel: true, maintenance: true }
 - { name: libretls,                                                                        p_is_patch: true }
 - { name: libudev0-shim,               verpat: "[0-9]{3}",                                 incorrect: true }
 - { name: libvpx,                      ver: "2.0.0",                 ruleset: rosa,        incorrect: true }
@@ -116,6 +119,8 @@
 - { name: lockrun,                     vergt: "20000000", verlt: "20141103",               sink: true }
 - { name: lodepng,                                                                         noscheme: true } # https://github.com/lvandeve/lodepng/tags
 - { name: log4cxx,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: log4cxx,                     ver: "0.13.0.1",              ruleset: vcpkg,       incorrect: true }
+- { name: log4cxx,                                                   ruleset: vcpkg,       untrusted: true } # accused of fake 0.13.0.1
 - { name: logfsprogs,                                                                      noscheme: true }
 - { name: logtop,                      ver: "0.6.1",                 ruleset: sisyphus,    incorrect: true }
 - { name: loic,                        verpat: ".*9.*9.*9.*",                              devel: true } # prerelease (2.9.9.99)
@@ -125,8 +130,8 @@
 - { name: looking-glass,               verpat: "0[ab].*",                                  incorrect: true } # debian; it's b4, not 0b4
 - { name: lpc21isp,                    verpat: "[0-9]{3}",                                 incorrect: true } # it's 1.97, not 197
 - { name: lprof,                       verpat: "20[0-9]{6}",                               ignore: true }
-- { name: lrslib,                      verpat: "[0-9]+\\.[a-z]*",                          incorrect: true } # it's X.Y
-- { name: lrslib,                      verpat: "[0-9]+[a-z]*",                             altver: true }
+- { name: lrslib,                      verpat: "[0-9]{3}.*",                               incorrect: true } # it's X.Y
+- { name: lrslib,                      verpat: ".*autotools.*",                            incorrect: true }
 - { name: lrzsz,                       verge: "0.12.21",                                   successor: true } # debian fork? (needs investigation)
 - { name: lshw,                        verpat: "[^B].*",                                   incorrect: true } # broken schema
 - { name: lskat,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

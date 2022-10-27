@@ -12,7 +12,11 @@
 - { name: zebra, wwwpart: zebra.org, setname: zebra-routing }
 - { name: zebra, addflag: unclassified }
 
-- { name: zed, wwwpart: [ocamlcore, github.com/diml/zed], setname: "ocaml:zed" }
+- { name: zed, wwwpart: [ocaml, github.com/diml/zed], setname: "ocaml:zed" }
+- { name: zed, wwwpart: zedapp.org, setname: "zed-code-editor" }
+- { name: zed, wwwpart: brimdata, setname: "zed-super-structured-data" }
+- { name: zed, wwwpart: authzed, setname: "zed-spicedb" }
+- { name: zed, addflag: unclassified }
 
 - { name: zimg, wwwpart: sourceforge, setname: zimg-vis }
 - { name: zimg, ruleset: hpux, setname: zimg-vis }
@@ -33,6 +37,11 @@
 - { name: zoom, wwwpart: zoom.us, setname: zoom-videoconference }
 - { name: zoom, wwwpart: logicalshift, setname: zoom-zcode }
 - { name: zoom, addflag: unclassified }
+
+- { name: zulu, wwwpart: azul, setname: zulu-openjdk }
+- { name: zulu, wwwpart: zulu-wireless, setname: zulu-wireless }
+- { name: zulu, wwwpart: sangoma, setname: zulu-pbx }
+- { name: zulu, addflag: unclassified }
 
 - { name: zxing-cpp, wwwpart: nu-book, setname: zxing-cpp-nu-book }
 - { name: zxing-cpp, wwwpart: glassechidna, setname: zxing-cpp-glassechidna }

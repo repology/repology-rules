@@ -30,17 +30,21 @@
 - { name: vc, wwwpart: vcdevel, addflag: classified } # simd library
 - { name: vc, addflag: unclassified }
 
+- { name: vdt, wwwpart: dpiparo, setname: cern-vdt }
+- { name: vdt, wwwpart: budtoolshed, setname: vdt-visual-disk-test }
+- { name: vdt, addflag: unclassified }
+
 - { name: via, wwwpart: caniusevia, setname: via-keyboard-configurator }
 - { name: via, wwwpart: lipsia, setname: via-lipsia }
 - { name: via, addflag: unclassified }
 
-- { name: vine, wwwpart: [celery,pypi], setname: "python:vine" }
-- { name: vine, wwwpart: bitblaze, setname: vine-bitblaze }
-- { name: vine, addflag: unclassified }
-
 - { name: vimv, wwwpart: dmulholl, setname: vimv-dmulholl }
 - { name: vimv, wwwpart: thameera, setname: vimv-thameera  }
 - { name: vimv, addflag: unclassified }
+
+- { name: vine, wwwpart: [celery,pypi], setname: "python:vine" }
+- { name: vine, wwwpart: bitblaze, setname: vine-bitblaze }
+- { name: vine, addflag: unclassified }
 
 - { name: vis, wwwpart: [martanne, brain-dump], setname: vis-editor }
 - { name: vis, wwwpart: open-mech, setname: vis-batman }
@@ -49,6 +53,10 @@
 - { name: visitors, wwwpart: hping, setname: visitors-salvatore-sanfilippo }
 - { name: visitors, wwwpart: stedee, setname: visitors-stephen-mcinerney }
 - { name: visitors, addflag: unclassified }
+
+- { name: vite, wwwpart: inria, setname: vite-trace-exporter }
+- { name: vite, wwwpart: vitejs, setname: vitejs }
+- { name: vite, addflag: unclassified }
 
 - { name: vlan, wwwpart: alpinelinux, setname: vlan-alpine-scripts }
 - { name: vlan, wwwpart: greear, setname: vlan-utils }
@@ -64,6 +72,20 @@
 - { name: vmd, wwwpart: cpascoe95, setname: vmd-terminal-markdown-viewer }
 - { name: vmd, wwwpart: yoshuawuyts, setname: vmd-markdown-previewer }
 - { name: vmd, addflag: unclassified }
+
+- { name: vnc-server, wwwpart: realvnc, setname: realvnc-vnc-server }
+- { name: vnc-server, addflag: unclassified }
+
+- { name: vnc-viewer, wwwpart: realvnc, setname: realvnc-vnc-viewer }
+- { name: vnc-viewer, addflag: unclassified }
+
+- { name: vncserver, wwwpart: realvnc, setname: realvnc-vnc-server }
+- { name: vncserver, wwwpart: haiku, setname: haiku-vncserver }
+- { name: vncserver, addflag: unclassified }
+
+- { name: vncviewer, wwwpart: realvnc, setname: realvnc-vnc-viewer }
+- { name: vncviewer, wwwpart: haiku, setname: haiku-vncviewer }
+- { name: vncviewer, addflag: unclassified }
 
 - { name: volt, wwwpart: volt-app, setname: volt-slack-client }
 - { name: volt, wwwpart: vim-volt, setname: "vim:volt" }

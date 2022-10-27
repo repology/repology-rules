@@ -8,6 +8,10 @@
 
 - { name: qputty, wwwpart: qputty-qt5, setname: qputty-qt5 }
 
+- { name: qr, wwwpart: y2z, setname: qr-terminal }
+- { name: qr, wwwpart: tpanj, setname: qr-vlang }
+- { name: qr, addflag: unclassified }
+
 - { name: qrcodegen, wwwpart: qrcodeforwn, setname: qrcodeforwn }
 - { name: qrcodegen, wwwpart: nayuki, setname: qr-code-generator }
 - { name: qrcodegen, addflag: unclassified }
@@ -18,10 +22,11 @@
 
 - { name: qtoctave, verge: "4", ruleset: guix, setname: octave }  # octave part?
 
+- { name: quill, wwwpart: anchore, setname: quill-mac-binary-signing }
+- { name: quill, wwwpart: dfinity, setname: quill-cold-wallets-ledger }
+- { name: quill, wwwpart: odygrd, setname: quill-logging-library }
+- { name: quill, addflag: unclassified }
+
 - { name: quorum, wwwpart: [goquorum,jpmorgan,consensys.net], setname: quorum-blockchain }
 - { name: quorum, wwwpart: [gmarcais,genome], setname: quorum-seq }
 - { name: quorum, addflag: unclassified }
-
-- { name: qr, wwwpart: y2z, setname: qr-terminal }
-- { name: qr, wwwpart: tpanj, setname: qr-vlang }
-- { name: qr, addflag: unclassified }

@@ -91,9 +91,9 @@
 - { setname: "python:gitpython",       name: "python:git-python" } # XXX: problem
 - { setname: "python:gitpython",       name: "python:gitpython-211" }
 - { setname: "python:gitpython",       name: "python:git" } # XXX: problem
-- { setname: "python:google-i18n-address", name: google-i18n-address } # debian
 - { setname: "python:google-api-python-client", name: [google-api-python-client] }
 - { setname: "python:google-api-python-client", name: ["python:google-api-client","python:google-api","python:googleapi"] } # XXX: problems
+- { setname: "python:google-i18n-address", name: google-i18n-address } # debian
 - { setname: "python:graph-tool",      name: "python:python2.7-graph-tool", addflavor: python-2.7 }
 - { setname: "python:graph-tool",      name: "python:python3.6-graph-tool", addflavor: python-3.6 }
 - { setname: "python:graph-tool",      name: graph-tool }
@@ -127,6 +127,7 @@
 - { setname: "python:jaraco.util",     name: "python:jaraco-utils" } # XXX: problem, incorrect name
 - { setname: "python:jdcal",           name: jdcal }
 - { setname: "python:jinja2",          name: jinja2 }
+- { setname: "python:joblib",          name: joblib } # vulerable
 - { setname: "python:josepy",          name: josepy }
 - { setname: "python:jsonpickle",      name: jsonpickle }
 - { setname: "python:jsonschema",      name: jsonschema }
@@ -135,7 +136,6 @@
 - { setname: "python:kiwisolver",      name: kiwisolver }
 - { setname: "python:lark-parser",     name: "python:lark", addflavor: lark } # both present on pypi from same author referencing the same upstream; XXX: upstream error
 - { setname: "python:lektor",          name: lektor }
-- { setname: "python:python-levenshtein", name: "python:levenshtein" } # XXX: problem
 - { setname: "python:lhafile",         name: "python:python-lhafile" }
 - { setname: "python:libvirt-python",  name: ["python:libvirt", libvirt-python ] }
 - { setname: "python:libvirt-python",  name: [libvirt-python2, libvirt-python3], addflavor: true }
@@ -151,8 +151,8 @@
 - { setname: "python:mdtraj",          name: mdtraj }
 - { setname: "python:meld3",           name: meld3 }
 - { setname: "python:memphis",         name: pymemphis }
-- { setname: "python:mini-amf",        name: mini-amf }
 - { setname: "python:minfx",           name: minfx }
+- { setname: "python:mini-amf",        name: mini-amf }
 - { setname: "python:mitogen",         name: mitogen }
 - { setname: "python:monty",           name: monty }
 - { setname: "python:msoffcrypto-tool",name: msoffcrypto-tool }
@@ -199,6 +199,7 @@
 - { setname: "python:pre-commit",      name: pre-commit }
 - { setname: "python:prompt-toolkit",  name: ["python:prompt-toolkit-doc","python:prompt-toolkit-gns3"], addflavor: true }
 - { setname: "python:prompt-toolkit",  name: [prompt-toolkit,prompt-toolkit1] }
+- { setname: "python:protobuf",        name: protobuf-python }
 - { setname: "python:psycopg",         name: "python:psycopg1" } # XXX: problem
 - { setname: "python:psycopg",         name: psycopg }
 - { setname: "python:psycopg2",        name: "python:psycopg2-binary", addflavor: true }
@@ -234,6 +235,7 @@
 - { setname: "python:pyexiv2",         name: "pyexiv2" }
 - { setname: "python:pyfiglet",        name: pyfiglet } # XXX: make upstream use prefix
 - { setname: "python:pyfltk",          name: [pyfltk, "python:fltk"] }
+- { setname: "python:pyftpdlib",       name: "python:pyftpdlib-docs", addflavor: true }
 - { setname: "python:pyfxa",           name: "python:fxa" }
 - { setname: "python:pygame",          name: [pygame,"python:game"] }
 - { setname: "python:pygame-sdl2",     name: [pygame-sdl2,"python:game-sdl2"] }
@@ -261,9 +263,6 @@
 - { setname: "python:pyomo",           name: pyomo }
 - { setname: "python:pyopenssl",       name: ["python:openssl", pyopenssl] } # XXX: problem
 - { setname: "python:pypdf2",          name: [pypdf2, "python:pdf2"] } # vuln
-- { setname: "python:pysvn",           name: pysvn }
-- { setname: "python:pysvn",           name: [svn-workbench, pysvn-workbench], addflavor: workbench }
-- { setname: "python:pyftpdlib",       name: "python:pyftpdlib-docs", addflavor: true }
 - { setname: "python:pyperclip",       name: pyperclip } # XXX: make upstream use prefix
 - { setname: "python:pypillowfight",   name: "python:libpillowfight" } # as per PyPi
 - { setname: "python:pypillowfight",   name: pypillowfight }
@@ -284,12 +283,14 @@
 - { setname: "python:pyqt5",           namepat: "python:qt5-(core|dbus|dbussupport|demo|designer|designerplugin|gui|help|multimedia|multimediawidgets|network|opengl|printsupport|qml|quick|quickwidgets|serialport|sql|svg|test|webchannel|webkit|webkitwidgets|widgets|xml|xmlpatterns)", addflavor: $1 }
 - { setname: "python:pyrex",           name: [pyrex, pyrexc] }
 - { setname: "python:pysaml2",         name: "python:pysaml24" }
+- { setname: "python:pyserial",        name: pyserial }
 - { setname: "python:pyside",          name: pyside }
 - { setname: "python:pyside",          name: [pyside-qt4,pyside-qt4-py3], addflavor: true }
 - { setname: "python:pyside2",         name: pyside2 }
-- { setname: "python:pyserial",        name: pyserial }
 - { setname: "python:pysolar",         name: pysolar }
 - { setname: "python:pyspatialite",    name: pyspatialite } # XXX: make upstream use prefix
+- { setname: "python:pysvn",           name: pysvn }
+- { setname: "python:pysvn",           name: [svn-workbench, pysvn-workbench], addflavor: workbench }
 - { setname: "python:pytest",          name: pytest }
 - { setname: "python:pytest-catchlog", name: pytest-catchlog }
 - { setname: "python:pytest-cookies",  name: pytest-cookies }
@@ -316,6 +317,7 @@
 - { setname: "python:python-dateutil", name: ["python:dateutil","python:dateutil15"] } # XXX: problem
 - { setname: "python:python-djvulibre", name: "python:djvulibre" } # correct name on PyPi
 - { setname: "python:python-hglib",    name: "python:hglib" }
+- { setname: "python:python-levenshtein", name: "python:levenshtein" } # XXX: problem
 - { setname: "python:python-magic",    name: "python:magic-ahupp" } # XXX: problem
 - { setname: "python:python-periphery", name: "python:periphery" }
 - { setname: "python:python-poppler-qt4", name: "python:poppler-qt4" }
@@ -369,7 +371,7 @@
 - { setname: "python:shiboken2",       name: shiboken2 }
 - { setname: "python:shutilwhich",     name: shutilwhich }
 - { setname: "python:sip",             namepat: "sip[0-9.-]*" }
-- { setname: "python:sip",             namepat: "python:sip(?:-(?:(?:py)?qt)?)?[456][0-9.-]*" }
+- { setname: "python:sip",             namepat: "python:sip(?:-(?:(?:py)?qt)?)?[45][0-9.-]*" }
 - { setname: "python:slixmpp",         name: slixmpp } # see repology/repology#809
 - { setname: "python:social-auth-core", name: social-auth-core }
 - { setname: "python:socksipy",        name: socksipy } # XXX: make upstream use prefix
@@ -390,8 +392,10 @@
 - { setname: "python:sqlalchemy-migrate",name: sqlalchemy-migrate } # XXX: make upstream use prefix
 - { setname: "python:sqlparse",        name: sqlparse } # vulnerable
 - { setname: "python:sqlparse",        name: "python:sqlparse-0-3-0" }
-- { setname: "python:straight.plugin", name: ["python:straight-plugin", straight.plugin] } # XXX: problem
 - { setname: "python:stopit",          name: stopit }
+- { setname: "python:straight.plugin", name: ["python:straight-plugin", straight.plugin] } # XXX: problem
+- { setname: "python:streamlit",       name: streamlit } # vulnerable
+- { setname: "python:streamlit",       name: "python:streamlit-nightly", weak_devel: true, nolegacy: true }
 - { setname: "python:sympy",           name: sympy }
 - { setname: "python:sympy",           name: "python:sympy-docs", addflavor: true }
 - { setname: "python:tempita",         name: tempita } # XXX: make upstream use prefix
@@ -401,8 +405,6 @@
 - { setname: "python:tornado",         name: [tornadoweb] }
 - { setname: "python:tornado",         namepat: "python:tornado[0-9.-]+" }
 - { setname: "python:trezor",          name: trezor }
-- { setname: "python:turbogears",      name: [turbogears, turbogears2] }
-- { setname: "python:turbogears",      name: turbogears2-doc, addflavor: doc }
 - { setname: "python:twisted",         name: twisted }
 - { setname: "python:twisted",         name: py-twisted-docs, addflavor: docs }
 - { setname: "python:ujson",           name: ["python:ultrajson", ujson] } # vilnerable

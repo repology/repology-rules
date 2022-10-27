@@ -36,6 +36,7 @@
 - { setname: gconf,                    name: [gconf2,gconf110] }
 - { setname: gconfmm,                  namepat: "(?:lib)?gconfmm[0-9.-]*(-docs)?", addflavor: $1 }
 - { setname: gcovr,                    name: "python:gcovr" }
+- { setname: gcr,                      name: [gcr3, gcr4] }
 - { setname: gd,                       name: [gd2, libgd, libgd2] }
 - { setname: gdal,                     name: [gdal1,libgdal,gdal2] }
 - { setname: gdal,                     name: [gdal-curl,gdal-filegdb,gdal-lib,gdal-hdf4], addflavor: true }
@@ -62,6 +63,8 @@
 - { setname: geckodriver,              name: selenium-gecko-driver }
 - { setname: geda-gaf,                 name: geda }
 - { setname: geda-gaf,                 name: geda-gaf-unstable, weak_devel: true, nolegacy: true }
+- { setname: gedit,                    name: gedit2 }
+- { setname: gedit,                    name: [gedit-menubar], addflavor: true }
 - { setname: geeklog,                  name: "php71:geeklog" }
 - { setname: geeknote,                 name: "python:geeknote" }
 - { setname: geeqie,                   name: geeqie-lirc, addflavor: lirc }
@@ -78,7 +81,7 @@
 - { setname: gens,                     name: gensemulator }
 - { setname: gens,                     name: gens-opengl, addflavor: true }
 - { setname: geoclue,                  namepat: "(?:lib)?geoclue[0-9.-]*" }
-- { setname: geocode-glib,             name: libgeocode-glib }
+- { setname: geocode-glib,             name: [libgeocode-glib, geocode-glib2] }
 - { setname: geogebra,                 name: [geogebra-5,geogebra6] }
 - { setname: geoip,                    name: libgeoip }
 - { setname: geolite2,                 name: [geolite2-asn,geolite2-city,geolite2-country,geolite2-city-csv,geolite2-country-csv], addflavor: true }
@@ -119,6 +122,7 @@
 - { setname: git,                      name: [git-base,git-docs,git-gitk,git-contrib,git-lite,git-gui,git-bashcompletion,gitweb,git-minimal,git-with-svn,git-send-email,git-svn], addflavor: true }
 - { setname: git,                      name: git19 }
 - { setname: git-big-picture,          name: "python:git-big-picture" }
+- { setname: git-delete-merged-branches, name: "python:$0" }
 - { setname: git-delta,                name: "rust:git-delta" }
 - { setname: git-for-windows,          name: msysgit } # https://github.com/git-for-windows/git/wiki/FAQ#what-is-the-relationship-between-git-for-windows-and-msysgit
 - { setname: git-review,               name: "python:git-review" }
@@ -225,10 +229,11 @@
 - { setname: gnome-console,            name: kgx } # former name
 - { setname: gnome-control-center,     name: control-center }
 - { setname: gnome-desktop,            name: "python:pygnome-desktop", addflavor: python }
-- { setname: gnome-desktop,            name: [libgnome-desktop, gnome-desktop2, gnome-desktop3, compat-gnome-desktop38, compat-gnome-desktop314] }
+- { setname: gnome-desktop,            name: [libgnome-desktop, gnome-desktop2, gnome-desktop3, compat-gnome-desktop38, compat-gnome-desktop314, gnome-desktop4] }
 - { setname: gnome-desktop,            name: gnome-desktop-reference, addflavor: reference }
 - { setname: gnome-desktop-sharp,      name: gnome-desktop-sharp2 }
 - { setname: gnome-feeds,              name: gfeeds }
+- { setname: gnome-keyring,            name: gnome-keyring3 }
 - { setname: gnome-klotski,            name: klotski }
 - { setname: gnome-latex,              name: latexila } # renamed
 - { setname: gnome-mahjongg,           name: gnome-games-mahjongg }
@@ -314,7 +319,7 @@
 - { setname: gnustep-timemon,          name: timemon }
 - { setname: gnustep-volume,           name: volume-app }
 - { setname: gnutls,                   name: [gnutls-dane,gnutls-openssl,gnutls-tiny,guile-gnutls], addflavor: true }
-- { setname: gnutls,                   name: gnutls-next, weak_devel: true, nolegacy: true }
+- { setname: gnutls,                   name: [gnutls-next,gnutls-devel], weak_devel: true, nolegacy: true }
 - { setname: gnutls,                   namepat: "(?:lib)?gnutls[0-9.-]*" }
 - { setname: go-shadowsocks2,          name: [shadowsocks2, "go:shadowsocks2"] }
 - { setname: goat-sleep,               name: "rust:goat" }
@@ -375,7 +380,7 @@
 - { setname: grafana,                  name: grafana-bin }
 - { setname: grafana,                  namepat: "grafana[0-9]+" }
 - { setname: grafana-loki,             name: [logcli,promtail], addflavor: true } # parts of
-- { setname: granite,                  name: libgranite }
+- { setname: granite,                  namepat: "(?:lib)?granite[0-9.-]*" }
 - { setname: grantlee,                 name: [grantlee-qt4,grantlee-qt5,grantlee5], addflavor: true }
 - { setname: grantlee-editor,          name: grantleeeditor }
 - { setname: graphicsmagick,           name: [graphicsmagick-q8,graphicsmagick-q16,graphicsmagickq16], addflavor: true }

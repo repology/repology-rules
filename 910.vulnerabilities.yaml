@@ -1,31 +1,32 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 # CVE-2005-1513, https://github.com/repology/repology-vulnupdater/issues/6
-- { vulnerable: true, name: qmail, vereq: "1.03" }
-- { vulnerable: true, name: ksh, vereq: "2012.08.01" } # CVE-2019-14868, mentions 20120801
-- { vulnerable: true, name: grub, releq: "2.02" } # extend 2.02 CVE-2015-8370 onto 2.02beta*
+- { vulnerable: true, name: aptdaemon, verpat: ".*982" } # CVE-2020-15703
+- { vulnerable: true, name: btcd, relle: "0.20.1" } # CVE-2018-17145; braindead versioning
+- { vulnerable: true, name: cryptacular, verlt: "1.2.3" } # https://nvd.nist.gov/vuln/detail/CVE-2020-7226 reported
+- { vulnerable: true, name: edk2, verge: "20000000", verlt: "20201021" } # as per CVE-2019-14584
+- { vulnerable: true, name: element-desktop, verle: "1.11.7" } # CVE-2022-39249, CVE-2022-39250, CVE-2022-39251, CVE-2022-39236
+- { vulnerable: true, name: gif2apng, releq: "1.9" } # mark 1.9+srconly debian garbage
 - { vulnerable: true, name: gnulib, verge: "2000000", verlt: "20180923" } # CVE-2018-17942, extend onto incompatible snapshot scheme
-- { vulnerable: true, name: gnutls, verlt: "3.6.14" } # CVE-2020-13777
-- { vulnerable: true, name: signing-party, verlt: "2.10" } # CVE-2019-11627
-- { vulnerable: true, name: kilo } # due to noscheme
-- { vulnerable: true, name: libgcrypt, ver: "1.9.0" }
-- { vulnerable: true, name: ldb, verlt: "2.2.1" } # CVE-2021-20277, range may not be entirely correct as ldb version is derived from samba version; NVD refuses to introduce dedicated CPEs for ldb
 - { vulnerable: true, name: gnupg, verlt: "2.2.23", disposable: true } # https://nvd.nist.gov/vuln/detail/CVE-2020-25125 (undergoing analysis)
+- { vulnerable: true, name: gnutls, verlt: "3.6.14" } # CVE-2020-13777
+- { vulnerable: true, name: grub, releq: "2.02" } # extend 2.02 CVE-2015-8370 onto 2.02beta*
+- { vulnerable: true, name: kilo } # due to noscheme
+- { vulnerable: true, name: ksh, vereq: "2012.08.01" } # CVE-2019-14868, mentions 20120801
+- { vulnerable: true, name: ldb, verlt: "2.2.1" } # CVE-2021-20277, range may not be entirely correct as ldb version is derived from samba version; NVD refuses to introduce dedicated CPEs for ldb
+- { vulnerable: true, name: libgcrypt, ver: "1.9.0" }
+- { vulnerable: true, name: libmspack, relle: "0.9.1" } # CVE-2019-1010305, others; braindead versioning
+- { vulnerable: true, name: novnc, verge: "2000", verle: "2017" } # outdated scheme
+- { vulnerable: true, name: novnc, verge: "20000000", verle: "20170000" } # outdated scheme
 - { vulnerable: true, name: openstack-cinder, verge: "2010" } # old versioning scheme
+- { vulnerable: true, name: openstack-horizon, verpat: "201[24].*" } # outdate scheme
 - { vulnerable: true, name: openstack-keystone, verge: "2010" } # old versioning scheme
 - { vulnerable: true, name: openstack-neutron, verge: "2010" } # old versioning scheme
 - { vulnerable: true, name: openstack-nova, verge: "2010" } # old versioning scheme
-- { vulnerable: true, name: novnc, verge: "2000", verle: "2017" } # outdated scheme
-- { vulnerable: true, name: novnc, verge: "20000000", verle: "20170000" } # outdated scheme
-- { vulnerable: true, name: pdns, verge: "4.3", verlt: "4.3.1" } # https://blog.powerdns.com/2020/09/22/powerdns-authoritative-4-3-1-4-2-3-and-4-1-14/
 - { vulnerable: true, name: pdns, verge: "4.2", verlt: "4.2.3" } # https://blog.powerdns.com/2020/09/22/powerdns-authoritative-4-3-1-4-2-3-and-4-1-14/
+- { vulnerable: true, name: pdns, verge: "4.3", verlt: "4.3.1" } # https://blog.powerdns.com/2020/09/22/powerdns-authoritative-4-3-1-4-2-3-and-4-1-14/
 - { vulnerable: true, name: pdns, verlt: "4.1.14" } # https://blog.powerdns.com/2020/09/22/powerdns-authoritative-4-3-1-4-2-3-and-4-1-14/
-- { vulnerable: true, name: tensorflow, ver: "2.0.0b1", disposable: true }
-- { vulnerable: true, name: cryptacular, verlt: "1.2.3" } # https://nvd.nist.gov/vuln/detail/CVE-2020-7226 reported
+- { vulnerable: true, name: qmail, vereq: "1.03" }
+- { vulnerable: true, name: signing-party, verlt: "2.10" } # CVE-2019-11627
 - { vulnerable: true, name: spotweb, verge: "20000000", verle: "20201222" } # https://nvd.nist.gov/vuln/detail/CVE-2020-35545 affects letest ATOW 1.4.9
-- { vulnerable: true, name: openstack-horizon, verpat: "201[24].*" } # outdate scheme
-- { vulnerable: true, name: aptdaemon, verpat: ".*982" } # CVE-2020-15703
-- { vulnerable: true, name: btcd, relle: "0.20.1" } # CVE-2018-17145; braindead versioning
-- { vulnerable: true, name: libmspack, relle: "0.9.1" } # CVE-2019-1010305, others; braindead versioning
-- { vulnerable: true, name: edk2, verge: "20000000", verlt: "20201021" } # as per CVE-2019-14584
-- { vulnerable: true, name: gif2apng, releq: "1.9" } # mark 1.9+srconly debian garbage
+- { vulnerable: true, name: tensorflow, ver: "2.0.0b1", disposable: true }

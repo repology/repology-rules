@@ -112,6 +112,7 @@
 - setname: "fonts:linuxlibertine"
   name:
     - font-libertine-ttf
+    - font-linux-libertine
     - font-linuxlibertine
     - fonts-linuxlibertine
     - fonts-ttf-libertine
@@ -125,8 +126,10 @@
     - linuxlibertine-fonts-ttf
     - ttf-linux-libertine
 
-- { setname: "fonts:linuxlibertine",   name: libertine, category: media-fonts }
-- { setname: "fonts:linuxlibertine-g", name: [linuxlibertine-g,ttf-linux-libertine-g] }
+- setname: "fonts:linuxlibertine-g"
+  name:
+    - linuxlibertine-g
+    - ttf-linux-libertine-g
 
 - setname: "fonts:lklug"
   name:
@@ -144,5 +147,181 @@
     - lobstertwo
     - ttf-impallari-lobstertwo
 
-- { setname: "fonts:$1",               namepat: "(?:fonts-)?(?:ttf-)?(lohit-.+?)(?:-fonts)?", last: true }
-- { setname: "fonts:lohit",            name: [fonts-ttf-lohit,lohit,font-lohit] }
+- setname: "fonts:lohit"
+  name:
+    - font-lohit
+    - fonts-ttf-lohit
+    - lohit
+    - lohit-fonts
+    - lohit-ttf
+
+- setname: "fonts:lohit-assamese"
+  name:
+    - fonts-ttf-lohit-assamese
+    - lohit-assamese
+    - lohit-assamese-fonts
+
+- setname: "fonts:lohit-beng-assamese"
+  name:
+    - fonts-lohit-beng-assamese
+
+- setname: "fonts:lohit-beng-bengali"
+  name:
+    - fonts-lohit-beng-bengali
+
+- setname: "fonts:lohit-bengali"
+  name:
+    - fonts-ttf-lohit-bengali
+    - lohit-bengali
+    - lohit-bengali-fonts
+
+- setname: "fonts:lohit-deva"
+  name:
+    - fonts-lohit-deva
+
+- setname: "fonts:lohit-deva-marathi"
+  name:
+    - fonts-lohit-deva-marathi
+
+- setname: "fonts:lohit-deva-nepali"
+  name:
+    - fonts-lohit-deva-nepali
+
+- setname: "fonts:lohit-devanagari"
+  name:
+    - fonts-ttf-lohit-devanagari
+    - lohit-devanagari
+    - lohit-devanagari-fonts
+
+- setname: "fonts:lohit-fonts"
+  name:
+    - lohit-fonts
+
+- setname: "fonts:lohit-gujarati"
+  name:
+    - fonts-ttf-lohit-gujarati
+    - lohit-gujarati
+    - lohit-gujarati-fonts
+
+- setname: "fonts:lohit-gujr"
+  name:
+    - fonts-lohit-gujr
+
+- setname: "fonts:lohit-gurmukhi"
+  name:
+    - fonts-ttf-lohit-gurmukhi
+    - lohit-gurmukhi
+    - lohit-gurmukhi-fonts
+
+- setname: "fonts:lohit-guru"
+  name:
+    - fonts-lohit-guru
+
+- setname: "fonts:lohit-kannada"
+  name:
+    - fonts-ttf-lohit-kannada
+    - lohit-kannada
+    - lohit-kannada-fonts
+    - ttf-lohit-kannada
+
+- setname: "fonts:lohit-kashmiri"
+  name:
+    - lohit-kashmiri
+
+- setname: "fonts:lohit-knda"
+  name:
+    - fonts-lohit-knda
+
+- setname: "fonts:lohit-konkani"
+  name:
+    - lohit-konkani
+
+- setname: "fonts:lohit-maithili"
+  name:
+    - lohit-maithili
+
+- setname: "fonts:lohit-malayalam"
+  name:
+    - fonts-ttf-lohit-malayalam
+    - lohit-malayalam
+    - lohit-malayalam-fonts
+
+- setname: "fonts:lohit-marathi"
+  name:
+    - fonts-ttf-lohit-marathi
+    - lohit-marathi
+    - lohit-marathi-fonts
+
+- setname: "fonts:lohit-mlym"
+  name:
+    - fonts-lohit-mlym
+
+- setname: "fonts:lohit-nepali"
+  name:
+    - fonts-ttf-lohit-nepali
+    - lohit-nepali
+    - lohit-nepali-fonts
+
+- setname: "fonts:lohit-odia"
+  name:
+    - fonts-ttf-lohit-odia
+    - lohit-odia
+    - lohit-odia-fonts
+
+- setname: "fonts:lohit-oriya"
+  name:
+    - fonts-ttf-lohit-oriya
+    - lohit-oriya-fonts
+
+- setname: "fonts:lohit-orya"
+  name:
+    - fonts-lohit-orya
+
+- setname: "fonts:lohit-punjabi"
+  name:
+    - fonts-ttf-lohit-punjabi
+    - lohit-punjabi-fonts
+
+- setname: "fonts:lohit-sindhi"
+  name:
+    - lohit-sindhi
+
+- setname: "fonts:lohit-tamil"
+  name:
+    - fonts-ttf-lohit-tamil
+    - lohit-tamil
+    - lohit-tamil-fonts
+
+- setname: "fonts:lohit-tamil-classical"
+  name:
+    - fonts-ttf-lohit-tamil-classical
+    - lohit-tamil-classical
+    - lohit-tamil-classical-fonts
+
+- setname: "fonts:lohit-taml"
+  name:
+    - fonts-lohit-taml
+
+- setname: "fonts:lohit-taml-classical"
+  name:
+    - fonts-lohit-taml-classical
+
+- setname: "fonts:lohit-telu"
+  name:
+    - fonts-lohit-telu
+
+- setname: "fonts:lohit-telugu"
+  name:
+    - fonts-ttf-lohit-telugu
+    - lohit-telugu
+    - lohit-telugu-fonts
+    - ttf-lohit-telugu
+
+- setname: "fonts:lohit-ttf"
+  name:
+    - lohit-ttf
+
+- setname: "fonts:luculent"
+  name:
+    - luculent
+    - ttf-luculent

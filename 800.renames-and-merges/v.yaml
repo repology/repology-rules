@@ -26,6 +26,7 @@
 - { setname: vde,                      name: [vde2-dosemu2,vde2-static], addflavor: true }
 - { setname: vdr,                      name: vdr-devel, weak_devel: true, nolegacy: true }
 - { setname: vdrift,                   name: vdrift-data, addflavor: data }
+- { setname: vdt,                      name: lib$0 }
 - { setname: vegastrike,               name: vega-strike }
 - { setname: velocity,                 name: [velocity-engine,java-velocity] }
 - { setname: veloren,                  name: veloren-nightly, weak_devel: true, nolegacy: true }
@@ -78,7 +79,7 @@
 - { setname: vscodium,                 name: [codium,vscodium-electron] }
 - { setname: vsftpd,                   name: vsftpd-ssl, addflavor: ssl }
 - { setname: vsqlite++,                name: [libvsqlite++,libvsqlitepp,vsqlite] }
-- { setname: vte,                      name: [vte-common,vte-gtk2-compat,vte-gtk2-xfce,vte-gtk3,vte-reference,vte-gtk2,vte-legacy,vte-notification-common,vte3-notification], addflavor: true }
+- { setname: vte,                      name: [vte-common,vte-gtk2-compat,vte-gtk2-xfce,vte-gtk3,vte-reference,vte-gtk2,vte-legacy,vte-notification-common,vte3-notification,vte3-nohang,vte3-selectall], addflavor: true }
 - { setname: vte,                      namepat: "(?:lib)?vte[0-9.-]*" }
 - { setname: vte-ng,                   name: vte3-ng }
 - { setname: vte-ng,                   name: [vte3-ng-emoji-terminix-zsh-notify, vte3-ng-fullwidth-emoji], addflavor: true }

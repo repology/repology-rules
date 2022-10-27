@@ -22,6 +22,8 @@
 - { name: makepp,                      verpat: "[0-9]+",                                   incorrect: true }
 - { name: mame,                        verpat: "[0-9]{3}.*",                               incorrect: true } # latest is 0.204
 - { name: man,                         verge: "2",                   ruleset: cygwin,      incorrect: true } # man-db actually, seems to incorrectly handle redirection
+- { name: man2html,                    ver: "3.1.20220714",          ruleset: freebsd,     incorrect: true }
+- { name: man2html,                                                  ruleset: freebsd,     untrusted: true } # accused of fake 3.1.20220714
 - { name: mandown-manpage-from-markdown, ver: "0.1.3",               ruleset: nix,         incorrect: true }
 - { name: mandown-manpage-from-markdown,                             ruleset: nix,         untrusted: true } # accused of fake 0.1.3
 - { name: marathon-evil,                                                                   noscheme: true }
@@ -94,6 +96,8 @@
 - { name: memethesis-cli,                                            ruleset: aur,         untrusted: true } # accused of fake 3.3.0
 - { name: memtester,                   verpat: ".*_.*",              ruleset: slackbuilds, incorrect: true } # debianism
 - { name: menulibre,                   verpat: "13\\..*",                                  sink: true }
+- { name: mercurial,                   ver: "6.3.0",                 ruleset: baulk,       incorrect: true }
+- { name: mercurial,                                                 ruleset: baulk,       untrusted: true } # accused of fake 6.3.0
 - { name: meritous,                    ver: "1.4",                                         incorrect: true } # was? an unofficial fork at https://gitorious.org/meritous, now dead
 - { name: mesa,                        verpat: "[^a-z]+",            ruleset: [fedora,mageia], ignore: true } # accused in ignoring rc suffix
 - { name: mesa,                        verpat: "[0-9]+\\.[0-9]+\\.0",                      devel: true } # .0 are devel releases, example: https://www.mesa3d.org/relnotes/17.2.0.html
@@ -116,6 +120,8 @@
 - { name: mimikatz,                    verpat: ".*20[0-9]{6}",                             ignore: true } # BlackArch snap
 - { name: minbif,                      verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: ming,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: ming,                        ver: "0.4.9",                 ruleset: rpm,         incorrect: true }
+- { name: ming,                                                      ruleset: rpm,         untrusted: true } # accused of fake 0.4.9 (fedora, megeia, rosa, rpm spere)
 - { name: minidlna,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: minijail,                    verpat: "55.*",                                     sink: true } # https://chromium.googlesource.com/aosp/platform/external/minijail outdated in favor of https://android.googlesource.com/platform/external/minijail/
 - { name: minimodem,                   verpat: ".*-[0-9]+",                                incorrect: true } # -1 is not part of the version
@@ -208,7 +214,8 @@
 - { name: mrboom,                      verpat: ".*20[0-9]{6}",                             snapshot: true } # haikuports
 - { name: mrrescue,                    verpat: ".+20[0-9]{6}.*",                           snapshot: true }
 - { name: mrsh-minimal-posix-shell,                                                        noscheme: true }
-- { name: mrustc,                      verpat: "20[0-9]{6}",                               incorrect: true } # macports
+- { name: mrustc,                      ver: "1.54-20220904",         ruleset: macports,    incorrect: true } # macports
+- { name: mrustc,                                                    ruleset: macports,    untrusted: true } # accused of fake 1.54-20220904
 - { name: ms-gsl,                      verpat: "20[0-9]{2}.*",                             incorrect: true } # official versioning scheme was introduced, 1.0.0 is the latest
 - { name: ms-gsl,                      verpat: "2017.*",                                   sink: true } # official versioning scheme was introduced, 1.0.0 is the latest
 - { name: ms-sys,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -222,6 +229,7 @@
 - { name: msv,                                                       ruleset: rpm,         untrusted: true }
 - { name: mtd-utils,                                                 ruleset: maemo,       ignore: true } # fork?
 - { name: mtd-utils,                   verpat: "[0-9]{6}",                                 incorrect: true } # slackware garbage
+- { name: mtpfs,                                                                           noscheme: true }
 - { name: mtxclient,                   verpat: "20[-0-9]{8}",                              snapshot: true }
 - { name: mu,                          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: multibootusb,                ver: "9.3.0",                 ruleset: freshcode,   incorrect: true }

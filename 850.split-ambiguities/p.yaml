@@ -5,41 +5,41 @@
 - { name: p7zip, wwwpart: sourceforge, setname: p7zip-original }
 - { name: p7zip, addflag: unclassified }
 
-- { name: pack, wwwpart: buildpacks, setname: pack-buildpack-cli }
-- { name: pack, wwwpart: iphelix, setname: pack-passwords }
-- { name: pack, addflag: unclassified }
-
-- { name: packup, wwwpart: mikolas, setname: packup-sat-solver }
-- { name: packup, wwwpart: [evertiro,ghost1227], setname: packup-pacman-backup }
-- { name: packup, addflag: unclassified }
-
-- { name: pam-config, wwwpart: suse, setname: pam-config-suse }
-- { name: pam-config, wwwpart: alt, setname: pam-config-alt }
-- { name: pam-config, addflag: unclassified }
-
 - { name: pac, wwwpart: [davidtv,pacmanager], setname: pacmanager }
 - { name: pac, wwwpart: parabola, setname: "fonts:pac" }
-
-- { name: packit, wwwpart: [packit.sourceforge.net,eribertomota,resurrecting-open-source-projects,openwall,obtuse], setname: packit-network-auditing-tool }
-- { name: packit, wwwpart: [packit-service,github.com/packit/packit], setname: packit-packaging-tool }
-- { name: packit, category: [net,universe/net], setname: packit-network-auditing-tool }
-- { name: packit, addflag: unclassified }
-
-- { name: pal, wwwpart: palcal, setname: palcal }
-- { name: pal, wwwpart: starlink, setname: pal-astronomical }
-- { name: pal, ruleset: cygwin, setname: palcal }
-- { name: pal, addflag: unclassified }
 
 # "A tool for building identical machine images" vs "Bash wrapper for pacman and aur"
 - { name: pachi, wwwpart: pachi.or.cz, setname: pachi-go }
 - { name: pachi, wwwpart: dragontech, setname: pachi-game }
 - { name: pachi, addflag: unclassified }
 
+- { name: pack, wwwpart: buildpacks, setname: pack-buildpack-cli }
+- { name: pack, wwwpart: iphelix, setname: pack-passwords }
+- { name: pack, addflag: unclassified }
+
+- { name: packit, wwwpart: [packit.sourceforge.net,eribertomota,resurrecting-open-source-projects,openwall,obtuse], setname: packit-network-auditing-tool }
+- { name: packit, wwwpart: [packit-service,github.com/packit/packit], setname: packit-packaging-tool }
+- { name: packit, category: [net,universe/net], setname: packit-network-auditing-tool }
+- { name: packit, addflag: unclassified }
+
+- { name: packup, wwwpart: mikolas, setname: packup-sat-solver }
+- { name: packup, wwwpart: [evertiro,ghost1227], setname: packup-pacman-backup }
+- { name: packup, addflag: unclassified }
+
 - { name: pacman, wwwpart: ebuc99, setname: pacman-ebuc99 }
 - { name: pacman, wwwpart: pjsfreeware, setname: pacman-pjs }
 - { name: pacman, verpat: "0\\.9(\\..*)?", setname: pacman-ebuc99 }
 - { name: pacman, ver: "10", setname: pacman10 } # origin unknown
 - { name: pacman, ver: "1.002", setname: pacman1.002 } # origin unknown
+
+- { name: pal, wwwpart: palcal, setname: palcal }
+- { name: pal, wwwpart: starlink, setname: pal-astronomical }
+- { name: pal, ruleset: cygwin, setname: palcal }
+- { name: pal, addflag: unclassified }
+
+- { name: pam-config, wwwpart: suse, setname: pam-config-suse }
+- { name: pam-config, wwwpart: alt, setname: pam-config-alt }
+- { name: pam-config, addflag: unclassified }
 
 - { name: papercut, wwwpart: pessoal, setname: papercut-nntp }
 - { name: papercut, wwwpart: changemakerstudios, setname: papercut-smtp }
@@ -101,10 +101,6 @@
 - { name: "php:soap", wwwpart: pear, addflag: classified }
 - { name: "php:soap", noflag: classified, setname: php, addflavor: soap }
 
-- { name: "python:exif", wwwpart: [TNThieding,pypi.org/project/exif/], addflag: classified }
-- { name: "python:exif", wwwpart: exif-py, setname: "python:exifread" } # XXX: problem
-- { name: "python:exif", addflag: unclassified }
-
 - { name: picard, wwwpart: [picard.sourceforge.net,sourceforge.net/projects/picard,broadinstitute], setname: picard-tools } # reuse widely used name
 - { name: picard, wwwpart: brainz, setname: picard-tagger }
 - { name: picard, addflag: unclassified }
@@ -136,11 +132,19 @@
 
 - { name: pixie, wwwpart: pixie-lang, setname: pixie-lang }
 
+- { name: pkg, wwwpart: freebsd, setname: pkg-freebsd }
+- { name: pkg, wwwpart: zeit, setname: "node:pkg" }
+- { name: pkg, addflag: unclassified }
+
 - { name: pkgdiff, ruleset: pkgsrc, setname: pkgdiff-pkgsrc }
 
 # distro-specific
 - { name: pkgtools, ruleset: [arch,aur], setname: $0-arch }
 - { name: pkgtools, ruleset: slackware, setname: $0-slackware }
+
+- { name: pkgutils, wwwpart: crux, setname: pkgutils-crux }
+# also pclinuxos counterpart, but pclinuxos do not provide urls
+- { name: pkgutils, addflag: unclassified }
 
 - { name: placement, wwwpart: openstack, setname: openstack-placement }
 - { name: placement, addflag: unclassified }
@@ -150,6 +154,10 @@
 - { name: planner, wwwpart: alainm23, setname: elementary-planner }
 - { name: planner, wwwpart: gnome, setname: gnome-planner }
 - { name: planner, addflag: unclassified }
+
+- { name: plasma-gmailfeed, wwwpart: anthon38, addflag: classified }
+- { name: plasma-gmailfeed, wwwpart: intika, setname: plasma-ultimate-gmail-feed }
+- { name: plasma-gmailfeed, addflag: unclassified }
 
 - { name: please, wwwpart: please.build, setname: please-build }
 - { name: please, wwwpart: magikbsd, setname: please-sudo }
@@ -308,15 +316,19 @@
 
 - { name: "python:eventlib", setname: "python:eventlib-icanblink", wwwpart: icanblink }
 
+- { name: "python:exif", wwwpart: [TNThieding,pypi.org/project/exif/], addflag: classified }
+- { name: "python:exif", wwwpart: exif-py, setname: "python:exifread" } # XXX: problem
+- { name: "python:exif", addflag: unclassified }
+
 - { name: "python:keystone", wwwpart: openstack, setname: openstack-keystone }
 - { name: "python:keystone", wwwpart: keystone-engine, setname: "python:keystone-engine" }
+
+- { name: "python:ldap", setname: "python:python-ldap", wwwpart: python-ldap }
+- { name: "python:ldap", setname: "python:python-ldap", ruleset: [sisyphus,openbsd,pclinuxos] }
 
 - { name: "python:leo", wwwpart: leoeditor, setname: leo-editor }
 - { name: "python:leo", wwwpart: [keachi,andiwand], setname: python-leo }
 - { name: "python:leo", addflag: unclassified }
-
-- { name: "python:ldap", setname: "python:python-ldap", wwwpart: python-ldap }
-- { name: "python:ldap", setname: "python:python-ldap", ruleset: [sisyphus,openbsd,pclinuxos] }
 
 - { name: "python:magic", wwwpart: darwinsys.com/file, setname: file, addflavor: python }
 - { name: "python:magic", wwwpart: [ahupp/python-magic,pypi/python-magic], setname: "python:python-magic" } # XXX: problem

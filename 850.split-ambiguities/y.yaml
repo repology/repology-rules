@@ -6,6 +6,9 @@
 - { name: yali, wwwpart: pisi, setname: yali-installer }
 - { name: yali, addflag: unclassified }
 
+- { name: yard, wwwpart: [yardoc,lsegal], setname: "ruby:yard" }
+- { name: yard, addflag: unclassified }
+
 - { name: yass, wwwpart: kokkinizita, setname: yass-scrolling-scope }
 - { name: yass, wwwpart: bioinfo, setname: yass-genomic-similarity }
 - { name: yass, wwwpart: yass-along, setname: yass-karaoke }
@@ -14,9 +17,6 @@
 - { name: yell, wwwpart: 42LoCo42, setname: yell-tcp-broadcaster }
 - { name: yell, wwwpart: critical.ch, setname: yell-pc-speaker }
 - { name: yell, addflag: unclassified }
-
-- { name: yard, wwwpart: [yardoc,lsegal], setname: "ruby:yard" }
-- { name: yard, addflag: unclassified }
 
 - { name: yj, wwwpart: bruceadams, setname: yj-bruceadams }
 - { name: yj, wwwpart: sclevine, setname: yj-sclevine }

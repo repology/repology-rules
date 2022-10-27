@@ -43,8 +43,9 @@
 - { name: cardboard,                                                                       noscheme: true } # https://gitlab.com/cardboardwm/cardboard
 - { name: caret-editor,                ver: "4.0",                   ruleset: winget,      incorrect: true } # 4.0.0-rc23
 - { name: caret-editor,                                              ruleset: winget,      untrusted: true } # accused of fake 4.0
-- { name: cargo,                       verpat: "1\\..*",             ruleset: [nix,macports], incorrect: true } # rust version used?
-- { name: cargo,                                                     ruleset: [nix,macports], untrusted: true } # accused of fake 1.x
+- { name: cargo,                       verpat: "1\\..*",             ruleset: [nix,macports,void], incorrect: true } # rust version used?
+- { name: cargo,                                                     ruleset: [nix,macports,void], untrusted: true } # accused of fake 1.x
+- { name: cargo,                       verpat: "1\\..*",                                   untrusted: true } # rust version used?
 - { name: caribou,                     ver: "0.4.22",                ruleset: sisyphus,    incorrect: true }
 - { name: caribou,                                                   ruleset: sisyphus,    untrusted: true }
 - { name: carla,                                                     ruleset: pld,         untrusted: true } # accused of fake 2.0
@@ -103,8 +104,7 @@
 - { name: cfssl,                       verpat: ".+\\.20[0-9]{6}",                          snapshot: true }
 - { name: cgo,                         verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: cgo,                         verge: "20000000", verlt: "20200522",               sink: true } # latest from May 22, 2020
-- { name: cgrep,                       ver: "8.15",                  ruleset: aix,         incorrect: true }
-- { name: cgrep,                                                     ruleset: aix,         untrusted: true }
+- { name: cgrep,                       ver: "8.15",                  ruleset: [aix,rpmsphere], incorrect: true } # another project. since it's abandonware, too lazy to split it
 - { name: cgterm,                      verpat: ".*b.*",                                    devel: true }
 - { name: chakracore,                  wwwpart: cauldrondevelopmentllc,                    ignore: true } # fork with different versioning
 - { name: charles,                     ver: "4.6.2.8",               ruleset: winget,      incorrect: true }
@@ -147,7 +147,10 @@
 - { name: cl-asdf,                     verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: cl-asdf,                     ver: "20101028",                                    sink: true }
 - { name: cl-asdf,                     verlonger: 3,                                       devel: true } # https://gitlab.common-lisp.net/asdf/asdf/blob/3.3.1.7/upgrade.lisp#L94
+- { name: cl-babel,                    verpat: "2010.*",                                   sink: true }
 - { name: cl-fad,                      verpat: "20[0-9]{6}",                               ignore: true }
+- { name: cl-rt,                                                                           noscheme: true }
+- { name: cl-trivial-backtrace,                                                            noscheme: true }
 - { name: clamav,                      verpat: "[0-9]{4}",                                 sink: true } # ancient version from wikidata
 - { name: claws-mail,                  verlonger: 3,                 ruleset: pisi,        incorrect: true }
 - { name: claws-mail,                                                ruleset: pisi,        untrusted: true }
@@ -168,13 +171,15 @@
 - { name: clipit,                                                    ruleset: nix,         untrusted: true } # accused of fake 1.4.5
 - { name: clisp,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: clisp,                       verpat: ".*\\.9[0-9]",                              devel: true }
-- { name: clisp,                       ver: "2.50",                  ruleset: [slitaz,aur,ravenports,pld], incorrect: true }
-- { name: clisp,                                                     ruleset: [slitaz,aur,ravenports,pld], untrusted: true } # accused of fake 2.50
-- { name: clisp,                       ver: "2.50",                                        untrusted: true } # very likely fake, see reports
-- { name: clisp,                       vereq: "2.49.93",             ruleset: [arch,crux,freebsd,manjaro,openmamba,ravenports], incorrect: true }
-- { name: clisp,                                                     ruleset: [arch,crux,freebsd,manjaro,openmamba,ravenports], untrusted: true } # accused of fake 2.49.93
+- { name: clisp,                       vereq: "2.50",                ruleset: [aur,kaos,macports,pld,ravenports,slitaz], incorrect: true }
+- { name: clisp,                                                     ruleset: [aur,kaos,macports,pld,ravenports,slitaz], untrusted: true } # accused of fake 2.50
+- { name: clisp,                       vereq: "2.50",                                      untrusted: true } # very likely fake, see reports
+- { name: clisp,                       vereq: "2.49.93",             ruleset: [arch,crux,freebsd,fedora,manjaro,openmamba,ravenports,rosa], incorrect: true }
+- { name: clisp,                                                     ruleset: [arch,crux,freebsd,fedora,manjaro,openmamba,ravenports,rosa], untrusted: true } # accused of fake 2.49.93
+- { name: clisp,                       vereq: "2.49.93",                                   untrusted: true } # most likely fake
 - { name: clojure,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{3,}",     altver: true } # extra deps version appended by upstream
 - { name: clonekeen,                   verpat: "0\\.(.*)",                                 setver: "$1" }
+- { name: clonezilla,                  vergt: "3.35.2",                                    devel: true, maintenance: true } # https://free.nchc.org.tw/drbl-core/src/stable/, see also drbl
 - { name: cloog,                       ver: "0.18.5",                ruleset: [haikuports, aosc, arch], ignore: true } # unofficial fork
 - { name: cloudfuse,                   verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: cluster-glue,                verpat: "20[0-9]{6}.*",                             incorrect: true }
@@ -184,6 +189,8 @@
 - { name: clutter-box2d,               verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: cmake,                       ver: "3.23.0",                ruleset: winget,      incorrect: true }
 - { name: cmake,                                                     ruleset: winget,      untrusted: true } # accused of fake 3.23.0
+- { name: cmake,                       verpat: "20[0-9]{6}.*",                             incorrect: true } # macports cmake-devel
+- { name: cmark-gfm,                   verpat: "([0-9]+\\.){3}[0-9]+",                     incorrect: true } # A.B.C.gfm.D
 - { name: cmark-gfm,                                                                       any_is_patch: true } # e.g. 0.29.0.gfm.3
 - { name: cmatrix,                     ver: "1.2b",                  ruleset: termux,      incorrect: true }
 - { name: cmatrix,                                                   ruleset: termux,      untrusted: true }
@@ -194,13 +201,18 @@
 - { name: cockatrice,                  verpat: "20[0-9]{2}.*",                             snapshot: true }
 - { name: cockatrice,                  verge: "20000000", verlt: "20190608",               sink: true } # latest 2.7.1 from 20190608
 - { name: cockatrice,                  verge: "2000.00.00", verlt: "2019.06.08",           sink: true } # latest 2.7.1 from 20190608
+- { name: codec2,                      ver: "1.03",                  ruleset: openmandriva, incorrect: true }
+- { name: codec2,                                                    ruleset: openmandriva, untrusted: true } # accused of fake 1.03
 - { name: codelite,                    ver: "17.12",                 ruleset: pisi,        incorrect: true } # 14.0 in fact
 - { name: codelite,                                                  ruleset: pisi,        untrusted: true } # accused of fake 17.12
 - { name: codesearch,                                                                      noscheme: true }
 - { name: cogl,                        ver: "1.22.5",                ruleset: pardus,      incorrect: true }
 - { name: cogl,                                                      ruleset: pardus,      untrusted: true }
+- { name: coin-or-clp,                 verpat: "20[0-9]{2}.*",                             incorrect: true } # termux
 - { name: coin3d,                      vergt: "3.1.3",               ruleset: [aur,debuntu,gentoo,guix], incorrect: true } # 3.1.3 is the latest
 - { name: coin3d,                                                    ruleset: [aur,debuntu,gentoo,guix], untrusted: true } # accused of fake 3.1.4, 4.0.0, 4.0.0a, 4.0.0a_pre20180416,  3.1.3-1-ab8d0e4
+- { name: coin3d,                      verpat: "([0-9]+\\.){3}[0-9a-f]{6}",                incorrect: true } # arch
+- { name: coin3d,                                                    ruleset: arch,        untrusted: true } # accused of fake 4.0.0.04c190 
 - { name: colormake,                   verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: colormake,                   ver: ["2.1.0", "0.9.20140504", "0.9.20170221"],     ignore: true }
 - { name: comedilib,                   ver: "140410",                                      ignore: true } # pclinuxos weirdness
@@ -212,6 +224,8 @@
 - { name: compsize,                                                  ruleset: t2,          untrusted: true } # accused of fake 5.14 (package page is blank, no way to check what this is)
 - { name: compton,                                                                         noscheme: true } # some antient garbage from ubuntu 12
 - { name: confetti,                                                                        noscheme: true } # https://github.com/mailru/confetti/releases
+- { name: conky-manager,               ver: "2.72",                  ruleset: solus,       incorrect: true }
+- { name: conky-manager,                                             ruleset: solus,       untrusted: true } # accused of fake 2.72
 - { name: conmon,                                                    ruleset: [sisyphus,fedora], untrusted: true } # accused of fake 2.0.4, 2.1
 - { name: connect-proxy,               verpat: "[0-9]+",                                   incorrect: true }
 - { name: connectagram,                verpat: ".*20[0-9]{6}",                             snapshot: true }
@@ -242,8 +256,8 @@
 - { name: coxeter,                                                                         noscheme: true }
 - { name: cpdup,                                                     ruleset: openbsd,     untrusted: true } # from dragonfly, but not enough data (homepage) to split it
 - { name: cppreference-doc,            ver: "20201016",                                    devel: true, maintenance: true } # https://en.cppreference.com/w/Cppreference:Archives
-- { name: cpptoml,                     ver: "0.4.0",                 ruleset: openmamba,   incorrect: true } # latest ATOW is 0.1.1
-- { name: cpptoml,                                                   ruleset: openmamba,   untrusted: true } # accused of fake 0.4.0
+- { name: cpptoml,                     ver: "0.4.0",                 ruleset: [openmamba,nix], incorrect: true } # latest ATOW is 0.1.1
+- { name: cpptoml,                                                   ruleset: [openmamba,nix], untrusted: true } # accused of fake 0.4.0
 - { name: cpufreqd,                    ver: "2.4.3",                 ruleset: sisyphus,    incorrect: true }
 - { name: cpufreqd,                                                  ruleset: sisyphus,    untrusted: true } # accused of fake 2.4.3
 - { name: cpulimit,                    verpat: "20[0-8]{6}.*",                             ignore: true } # hyperbola
@@ -259,11 +273,13 @@
 - { name: crimson,                     ver: "2014.10",                                     ignore: true }
 - { name: critterding,                 verpat: ".*b.*",                                    devel: true }
 - { name: cronolog,                    ver: "1.7.0",                 ruleset: openpkg,     incorrect: true } # 1.7.0-beta
-- { name: crossguid,                   verpat: "20[0-9]{6}",                               ignore: true }
+- { name: crossguid,                   verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: crossguid,                   verpat: "201[56].*",                                sink: true } # there's 0.2.2 from Aug 2017
 - { name: crossguid,                   verpat: "0\\.2\\.2-20[0-9]+(-[0-9]+)*",             incorrect: true }
-- { name: crossguid,                   ver: "1.0.0",                 ruleset: openindiana, incorrect: true }
+- { name: crossguid,                   ver: "1.0.2",                 ruleset: [openindiana,openmamba], incorrect: true }
+- { name: crossguid,                                                 ruleset: [openindiana,openmamba], untrusted: true } # accused of fake 1.0.2
 - { name: crossguid,                                                 ruleset: vcpkg,       untrusted: true } # accused of fake 0.2.2-2018-06-16
+- { name: crossguid,                   verlonger: 3,                 ruleset: freebsd,     incorrect: true } # XXX: FreeBSD DISTVERSION
 - { name: cryptcat,                    ver: "20031202",                                    ignore: true }
 - { name: crypthook,                                                                       noscheme: true }
 - { name: crypto++,                    verpat: "[0-9]{3}",                                 incorrect: true }

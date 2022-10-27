@@ -44,6 +44,7 @@
 - { setname: readline,                 namepat: "(?:compat-)?(?:lib)?readline[0-9.-]*" }
 - { setname: readymedia,               name: minidlna } # former name
 - { setname: readymedia,               name: [minidlna-custom-icon,minidlna-listen-interface-fix,minidlna-video-thumb], addflavor: true }
+- { setname: realvnc-vnc-viewer,       name: realvnc-viewer }
 - { setname: rear,                     name: [rear118a,relax-and-recover] }
 - { setname: rebar,                    name: ["erlang:rebar",rebar16,rebar17,rebar19,rebar2,rebar21,erl-rebar] }
 - { setname: rebar,                    name: rebar-bin, addflavor: bin }
@@ -118,6 +119,7 @@
 - { setname: rtpengine,                name: rtpengine-dkms }
 - { setname: rtv,                      name: rtv-py36, addflavor: py36 }
 - { setname: rubocop,                  name: "ruby:rubocop" }
+- { setname: ruff,                     name: "python:$0" }
 - { setname: rundeck,                  namepat: "rundeck[0-9.-]+" }
 - { setname: runiq,                    name: "rust:runiq" }
 - { setname: rust,                     name: [rust-bin,rust-msvc], addflavor: true }
