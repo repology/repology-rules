@@ -137,6 +137,7 @@
 - { name: eterm,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: ethtool,                     verpat: "6.*",                                      ignore: true } # XXX: check if https://www.kernel.org/pub/software/network/ethtool/ and ethtool from https://sourceforge.net/projects/gkernel/ are the same project. Anyway, the former is fresh and the latter is ancient crap from 2007
 - { name: eudev,                       verlonger: 3,                 ruleset: antix,       incorrect: true }
+- { name: eva,                         verpat: ".*-.*",              ruleset: nix,         ignore: true } # https://github.com/NixOS/nixpkgs/commit/2f07e90947246f81835f1701e79574d45b06ed6c#r88435083
 - { name: eventlog,                    verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: eventlog,                    ver: "0.2.14",                ruleset: pld,         incorrect: true }
 - { name: eventviews,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
