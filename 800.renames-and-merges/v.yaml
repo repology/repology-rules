@@ -21,6 +21,7 @@
 - { setname: vaultwarden-web,          name: "vaultwarden-vault" }
 - { setname: vbsmin,                   name: "ruby:vbsmin" }
 - { setname: vc,                       name: libvc } # different things, but mixed together, split in 850
+- { setname: vcspull,                  name: "python:$0" }
 - { setname: vcvrack,                  name: vcv-rack }
 - { setname: vde,                      name: vde2 }
 - { setname: vde,                      name: [vde2-dosemu2,vde2-static], addflavor: true }
