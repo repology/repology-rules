@@ -136,7 +136,8 @@
 - { setname: tmux,                     name: tmux-fullwidth-backspace, addflavor: true }
 - { setname: tmux,                     name: tmux-ver-28 }
 - { setname: tmux,                     namepat: "tmux[0-9.-]+" }
-- { setname: tmuxinator,               name: "ruby:tmuxinator" }
+- { setname: tmuxinator,               name: "ruby:$0" }
+- { setname: tmuxp,                    name: "python:$0" }
 - { setname: tmw,                      name: the-mana-world }
 - { setname: tntnet,                   name: libtntnet }
 - { setname: todo.txt-cli,             name: [todo-txt,todotxt,todotxt-cli] }
