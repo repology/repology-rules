@@ -321,5 +321,6 @@
 - { name: kwin,                        verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kwin,                        ver: "5.24.0a",               ruleset: ubuntu,      incorrect: true }
 - { name: kwin,                                                      ruleset: ubuntu,      untrusted: true } # accused of fake 5.24.0a
+- { name: kwin-effects-cube,           verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: kwordquiz,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kwrited,                     verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
