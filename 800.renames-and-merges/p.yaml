@@ -262,6 +262,8 @@
 - { setname: prey,                     name: prey-node-client }
 - { setname: printproto,               name: xprintproto }
 - { setname: prismlauncher,            name: prismlauncher-qt5, addflavor: true }
+- { setname: prismlauncher,            name: prismlauncher-nightly, weak_devel: true, nolegacy: true }
+- { setname: prismlauncher,            name: prismlauncher-qt5-nightly, addflavor: qt5, weak_devel: true, nolegacy: true }
 - { setname: privoxy,                  name: freedombox-privoxy, addflavor: true }
 - { setname: procdump,                 name: procdump-for-linux }
 - { setname: processhacker,            name: process-hacker }
