@@ -93,6 +93,8 @@
 - { name: xhyve,                       verpat: "20[0-9]{6}",                               snapshot: true } # macports
 - { name: xidle,                       verpat: "[0123][0-9][01][0-9]20[0-2][0-9]",         incorrect: true } # reverse date version
 - { name: xidle,                       ver: "26052015",                                    sink: true } # older than other date versions
+- { name: xiphos,                      ver: "4.2.1.7",               ruleset: opensuse,    incorrect: true }
+- { name: xiphos,                                                    ruleset: opensuse,    untrusted: true } # accused of fake 4.2.1.7
 - { name: xl2tpd,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: xl2tpd,                      verge: "20000000", verlt: "20180519",               sink: true }
 - { name: xloadimage,                  verlonger: 2,                                       debianism: true } # freebsd, openbsd
