@@ -84,6 +84,8 @@
 - { name: ghostscript,                                               ruleset: debuntu,     untrusted: true } # accused of fake 9.52.1
 - { name: ghostscript,                 ver: "9.56.0",                ruleset: openmandriva, incorrect: true }
 - { name: ghostscript,                                               ruleset: openmandriva, untrusted: true } # accused of fake 9.56.0
+- { name: ghostwriter,                 ver: "22.11.70",              ruleset: kaos,        incorrect: true }
+- { name: ghostwriter,                                               ruleset: kaos,        untrusted: true } # accused of fake 22.11.70
 - { name: gi-docgen,                   ver: "2021.6",                ruleset: sisyphus,    incorrect: true }
 - { name: gi-docgen,                                                 ruleset: sisyphus,    untrusted: true } # accused of fake 2021.6
 - { name: gimagereader,                verpat: ".*\\.9[0-9]+",                             devel: true }
