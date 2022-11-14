@@ -90,7 +90,7 @@
 - { name: ricochet, addflag: unclassified }
 
 - { name: riff, wwwpart: DeterminateSystems, setname: riff-rust-external-deps }
-- { name: riff, wwwpart: walles, setname: riff-refining-diff }
+- { name: riff, wwwpart: [walles,riffdiff], setname: riffdiff } # reuse crate name
 - { name: riff, wwwpart: projectriff.io, setname: riff-kubernetes }
 - { name: riff, addflag: unclassified }
 
