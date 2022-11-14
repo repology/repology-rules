@@ -90,6 +90,8 @@
 - { name: "texlive:leaflet",           verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: "texlive:leaflet",           ver: "20041222",                                    sink: true }
 - { name: "texlive:mathabx",                                                               noscheme: true }
+- { name: "texlive:media9",            verpat: "[0-9]{5,}",                                incorrect: true }
+- { name: "texlive:media9",                                          ruleset: openmandriva, untrusted: true } # accused of fake 64047
 - { name: "texlive:xetex",                                                                 noscheme: true }
 - { name: text2pdf,                    ver: "53",                                          sink: true, vulnerable: true } # unknown version, probably older than latest 1.1
 - { name: texvc,                       verpat: "20[0-9]{6}",                               incorrect: true }
