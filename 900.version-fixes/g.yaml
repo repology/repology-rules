@@ -141,8 +141,9 @@
 - { name: gnash,                       ver: "0.8.11",                ruleset: debuntu,     ignore: true } # not released yet
 - { name: gnat-programming-studio,                                                         noscheme: true }
 - { name: gnat-util-gcc,                                                                   noscheme: true }
-- { name: gnatcoll-bindings,                                                               noscheme: true }
-- { name: gnatcoll-db,                                                                     noscheme: true }
+- { name: gnatcoll-bindings,           verpat: "20[0-9]{2}",                               sink: true }
+- { name: gnatcoll-core,               verpat: "20[0-9]{2}",                               sink: true }
+- { name: gnatcoll-db,                 verpat: "20[0-9]{2}",                               sink: true }
 - { name: gnome-2048,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-activity-journal,      verpat: ".*is.really.*",                            incorrect: true }
 - { name: gnome-applets,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -251,7 +252,7 @@
 - { name: gping,                       ver: "1.1",                                         sink: true } # python version, rewritten in rust with other versioning scheme
 - { name: gpm,                         verpat: "[0-9]+\\.99\\..*",                         devel: true } # assumed
 - { name: gprbuild,                    verpat: "[0-9]{5,}.*",                              incorrect: true }
-- { name: gprbuild,                    verlonger: 1,                                       incorrect: true }
+- { name: gprbuild,                    verpat: "20[0-9]{2}",                               sink: true }
 - { name: gpredict,                    ver: "2.3",                                         devel: true } # https://github.com/csete/gpredict/releases/tag/v2.3
 - { name: gprolog,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 1.4.5
 - { name: gpsbabel,                    ver: "1.6.0.1",                                     setver: "1.6.0", disposable: true } # tags point to same commit
