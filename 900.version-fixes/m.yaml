@@ -155,6 +155,8 @@
 - { name: mksh,                        verpat: "r(.*)",                                    setver: $1 }
 - { name: mkvtoolnix,                  verlonger: 3,                                       incorrect: true } # homebrew casks
 - { name: mlt,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: mlton,                       ver: "20210816",              ruleset: freebsd,     incorrect: true }
+- { name: mlton,                                                     ruleset: freebsd,     untrusted: true } # accused of fake 20210816
 - { name: mmc-utils,                                                                       noscheme: true }
 - { name: mmv,                         verpat: "1\\.01b.+[0-9]+",                          successor: true } # maintained by debian
 - { name: moarvm,                      ver: "9999",                  ruleset: rosa,        incorrect: true }
