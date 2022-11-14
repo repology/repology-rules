@@ -87,6 +87,8 @@
 - { name: "texlive:cm-super",          verpat: "[0-9]{5}",                                 incorrect: true } # guix garbara
 - { name: "texlive:cm-super",          verpat: "20[0-9]{6}",                               incorrect: true } # dates; official version is 0.3.4
 - { name: "texlive:csplain",                                                               noscheme: true }
+- { name: "texlive:enumitem",          verpat: "[0-9]{5,}",                                incorrect: true }
+- { name: "texlive:enumitem",                                        ruleset: openmandriva, untrusted: true } # accused of fake 51423
 - { name: "texlive:leaflet",           verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: "texlive:leaflet",           ver: "20041222",                                    sink: true }
 - { name: "texlive:mathabx",                                                               noscheme: true }
