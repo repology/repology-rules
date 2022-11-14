@@ -117,8 +117,8 @@
 - { name: checkbashisms,               verpat: "20[0-9]{6}.*",                             ignore: true } # AUR
 - { name: checkinstall,                ver: "1.6.2.16",                                    incorrect: true }
 - { name: checkinstall,                                              ruleset: rpm,         untrusted: true } # accused of fake 1.6.2.16
-- { name: cheese,                      ver: "43.0",                  ruleset: [pisi,opemnamba], incorrect: true } # 43.alpha
-- { name: cheese,                                                    ruleset: [pisi,opemnamba], untrusted: true } # accused of fake 43.0
+- { name: cheese,                      ver: "43.0",                  ruleset: [pisi,openmamba], incorrect: true } # 43.alpha
+- { name: cheese,                                                    ruleset: [pisi,openmamba], untrusted: true } # accused of fake 43.0
 - { name: chef,                        verpat: ".*g.*",                                    incorrect: true } # git commit
 - { name: cherokee,                    verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
 - { name: chez-scheme,                 ver: "9.5.1",                 ruleset: nix,         incorrect: true }
