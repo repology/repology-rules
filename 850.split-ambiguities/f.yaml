@@ -139,6 +139,10 @@
 
 - { name: frozen-bubble, verpat: "[0-9]+\\.[0-9]{3}.*", setname: "perl:games-frozenbubble" } # XXX: branches usecase?
 
+- { name: fst, wwwpart: BurntSushi, setname: fst-finite-state-transducers }
+- { name: fst, wwwpart: zmoelnig, setname: fst-free-studio-technology }
+- { name: fst, addflag: unclassified }
+
 # file change monitor vs. file system checksum checker
 - { name: fswatch, verpat: "1.*",      setname: fswatch-mon }
 
