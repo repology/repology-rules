@@ -102,6 +102,8 @@
 - { name: rocksndiamonds-data,                                                             noscheme: true } # usually a bunch of versionless level sets
 - { name: rocs,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: rofi-wayland,                verpat: ".*wayland.*",                              any_is_patch: true }
+- { name: rogue,                       ver: "5.4.5",                 ruleset: [fedora,slackbuilds], incorrect: true }
+- { name: rogue,                                                     ruleset: [fedora,slackbuilds], untrusted: true } # accused of fake 5.4.5
 - { name: rpcgen,                                                    ruleset: ravenports,  ignore: true } # fake
 - { name: rpcs3,                       verlonger: 3,                                       snapshot: true }
 - { name: rpmextract,                  ver: "1.1",                   ruleset: void,        incorrect: true } # comes from arch, which has 1.0
