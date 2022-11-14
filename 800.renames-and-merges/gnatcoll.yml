@@ -1,0 +1,29 @@
+# vim: tabstop=39 expandtab softtabstop=39
+
+- { setname: gnatcoll-bindings, name: libgnatcoll-bindings }
+
+- setname: gnatcoll-bindings
+  addflavor: true
+  name:
+    - gnatcoll-gmp
+    - gnatcoll-iconv
+    - gnatcoll-lzma
+    - gnatcoll-omp
+    - gnatcoll-python
+    - gnatcoll-python3
+    - gnatcoll-readline
+    - gnatcoll-syslog
+    - gnatcoll-zlib
+    - libgnatcoll-python
+
+- { setname: gnatcoll-db, name: libgnatcoll-db }
+
+- setname: gnatcoll-db
+  addflavor: true
+  name:
+    - gnatcoll-db2ada
+    - gnatcoll-postgres
+    - gnatcoll-sql
+    - gnatcoll-sqlite
+    - gnatcoll-xref
+    - gnatinspect
