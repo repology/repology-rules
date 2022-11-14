@@ -30,6 +30,8 @@
 
 - { namepat: "php[0-9]*:.*",                                         ruleset: sisyphus,    untrusted: true }
 
+- { namepat: "fcitx-.*",                                             ruleset: openbsd,     untrusted: true } # fakes fcitx5-* as fcitx-*
+
 - { namepat: "lua:.*", verpat: ".*-[0-9]+",                          ruleset: nix,         untrusted: true } # accused of using fake suffix from luarocks
 - { categorypat: "emacs[0-9]*Packages",                              ruleset: nix,         untrusted: true } # accused of using fake versions from MELPA
 
