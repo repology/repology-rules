@@ -1,6 +1,8 @@
 # vim: tabstop=29 expandtab softtabstop=29
 
-- { name: b2, wwwpart: boostorg/build, setname: boost-build } # XXX: problem
+- { name: b2, wwwpart: backblaze, setname: backblaze-b2 }
+- { name: b2, wwwpart: bfgroup, setname: b2-build-system }
+- { name: b2, addflag: unclassified }
 
 - { name: babel, wwwpart: [edgewall,pocoo], setname: "python:babel" }
 - { name: babel, wwwpart: babeljs, setname: babel.js }
