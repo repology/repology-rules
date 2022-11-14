@@ -5,6 +5,7 @@
 - { name: FakeWeb, addflag: preserve_case } # ruby packages FakeWeb vs. fakeweb
 - { name: Stack, addflag: preserve_case } # haskell packages stack vs. Stack
 - { name: Thrift, addflag: preserve_case } # haskell packages thrift vs. Thrift
+- { name: Vec, addflag: preserve_case } # haskell packages vec vs. Vec
 
 # Lowercase all names first
 # if there's a need to process mixed case names, it should be done before this rule
