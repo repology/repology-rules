@@ -148,6 +148,10 @@
 - { name: migrate, wwwpart: [popgen,peterbeerli], setname: migrate-population }
 - { name: migrate, addflag: unclassified }
 
+- { name: mimir, wwwpart: grafana, setname: mimir-prometheus }
+# also "Data-structure library used by the Elan Programming Environment" with dead upstream
+- { name: mimir, addflag: unclassified }
+
 - { name: minder, wwwpart: phase1geo, setname: minder-mindmap }
 - { name: minder, wwwpart: alhem, setname: minder-peerlist }
 - { name: minder, addflag: unclassified }
