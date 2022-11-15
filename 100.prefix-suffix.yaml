@@ -4,8 +4,8 @@
 - { name: oh-my-git, addflag: no_suffix }
 - { name: multimc-bin, addflag: no_suffix } # upstream probem, official binary from https://multimc.org/#Download has different versioning scheme
 - { name: mingw-w64-python-setuptools-git, addflag: no_suffix }
-- { name: robocop-lts, addflag: no_suffix }
-- { name: gem-robocop-lts, addflag: no_suffix }
+- { name: rubocop-lts, addflag: no_suffix }
+- { name: gem-rubocop-lts, addflag: no_suffix }
 
 # common rules
 - { noflag: no_suffix,                           namepat: "libx32-(.*)", setname: "$1", addflavor: libx32 }
