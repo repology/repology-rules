@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
 - { setname: h2o,                      name: h2o-devel, weak_devel: true, nolegacy: true }
+- { setname: hadolint,                 name: "haskell:$0" }
 - { setname: hadoop,                   name: hadoop2 }
 - { setname: haiti,                    name: ["ruby:haiti-hash", haiti-hash] }
 - { setname: handbrake,                name: [handbrake-cli,handbrake-fdkaac,handbrakecli,handbrake-full,handbrake-nvenc,handbrake-no-qsv], addflavor: true }
