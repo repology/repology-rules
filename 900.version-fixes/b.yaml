@@ -148,6 +148,8 @@
 - { name: buildah,                                                   ruleset: fedora,      untrusted: true } # accused of fake 1.6
 - { name: buildah,                     ver: "1.25.2",                ruleset: solus,       incorrect: true }
 - { name: buildah,                                                   ruleset: solus,       untrusted: true } # accused of fake 1.25.2
+- { name: buildah,                     releq: "1.28.1",              ruleset: freebsd,     incorrect: true }
+- { name: buildah,                                                   ruleset: freebsd,     untrusted: true } # accused of fake 1.28.1.d
 - { name: buildbot-slave,              ver: "0.9.5",                 ruleset: haikuports,  incorrect: true } # it should probably be 0.9.0b5 https://pypi.org/project/buildbot-slave/#history
 - { name: buildbot-slave,                                            ruleset: haikuports,  untrusted: true } # accused of fake 0.9.5
 - { name: buildstream,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # https://buildstream.build/releases.html
