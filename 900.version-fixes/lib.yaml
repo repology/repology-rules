@@ -73,6 +73,8 @@
 - { name: libdbusmenu,                                               ruleset: crux,        untrusted: true } # accused of fake 18.10
 - { name: libdbusmenu,                 verpat: "16\\.04\\.1.*",      ruleset: [mageia,pclinuxos,debuntu,exherbo,rosa], incorrect: true }
 - { name: libdbusmenu,                                               ruleset: [mageia,pclinuxos,debuntu,exherbo,rosa], untrusted: true } # accused of fake 16.04.1
+- { name: libdbusmenu,                 ver: "16.04.0-496",           ruleset: guix,        incorrect: true }
+- { name: libdbusmenu,                                               ruleset: guix,        untrusted: true } # accused of fake 16.04.0-496
 - { name: libdbusmenu-qt,              verpat: ".*[0-9]{12}",                              incorrect: true } # freebsd removes separators
 - { name: libdecor,                    verpat: "[0-9a-f]{8,}",                             incorrect: true } # t2
 - { name: libdiscid,                   ver: "1.6.2",                 ruleset: solus,       incorrect: true } # 0.6.2
