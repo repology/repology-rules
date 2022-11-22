@@ -5,7 +5,7 @@
 - { setname: linux,                    namepat: "linux-[0-9.-]+-(antix.*)", noflag: not_linux, addflavor: $1 }
 - { setname: linux,                    namepat: "kernel[0-9.-]+" }
 - { setname: linux,                    name: kernel }
-- { setname: linux,                    name: kernel-rc, weak_devel: true, nolegacy: true }
+- { setname: linux,                    name: [kernel-rc,git-sources,linux-next], weak_devel: true, nolegacy: true }
 
 - setname: linux
   name:
@@ -17,6 +17,7 @@
     - evdev-proto  # some bsds fetch from linux sources
     - kernel-debug
     - kernel-default
+    - kernel-default-base
     - kernel-docs
     - kernel-headers
     - kernel-kvmsmall
@@ -26,6 +27,7 @@
     - kernel-release
     - kernel-release-clang
     - kernel-source
+    - kernel-syms
     - kernel-tools
     - kernel-userspace-headers
     - kernel-vanilla
@@ -33,6 +35,7 @@
     - linux-edge
     - linux-header
     - linux-headers
+    - linux-mainline
     - linux-tools
     - linux-vanilla
     - perf
