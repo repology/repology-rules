@@ -39,3 +39,6 @@
     - vanilla-kernel
     - vanilla-sources
   addflavor: true
+
+- { setname: linux-pf, name: pf-sources }
+- { setname: linux-zen, name: [zen-sources, linux-zen-versioned] }
