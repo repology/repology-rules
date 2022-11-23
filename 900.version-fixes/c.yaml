@@ -180,6 +180,7 @@
 - { name: clisp,                                                     ruleset: [arch,crux,freebsd,fedora,manjaro,openmamba,ravenports,rosa], untrusted: true } # accused of fake 2.49.93
 - { name: clisp,                       vereq: "2.49.93",                                   untrusted: true } # most likely fake
 - { name: clojure,                     verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{3,}",     altver: true } # extra deps version appended by upstream
+- { name: clojure-lsp,                 verpat: "[0-9]{8}.*",                               incorrect: true } # YYYY.MM.DD-hh.mm.ss
 - { name: clonekeen,                   verpat: "0\\.(.*)",                                 setver: "$1" }
 - { name: clonezilla,                  vergt: "3.35.2",                                    devel: true, maintenance: true } # https://free.nchc.org.tw/drbl-core/src/stable/, see also drbl
 - { name: cloog,                       ver: "0.18.5",                ruleset: [haikuports, aosc, arch], ignore: true } # unofficial fork
