@@ -1,10 +1,9 @@
 # vim: tabstop=39 expandtab softtabstop=39
 
-# A lot of libs under https://github.com/libyal which don't do
-# releases timely, so some repos package snapshots
+# Libraries from a single uncooperative upstream with no clear
+# release scheme, see https://github.com/repology/repology-rules/issues/489
 
-- ruleset: [opensuse]
-  untrusted: true
+- noscheme: true
   name:
   # curl -s "https://api.github.com/users/libyal/repos?per_page=100&page=1" | jq -r '.[] | .name' | sed -ne '/^lib/{s|^|    - |;p;}'
     - libagdb
@@ -37,11 +36,13 @@
     - libfdatetime
     - libfguid
     - libfmapi
+    - libfmos
     - libfole
     - libfplist
     - libfsapfs
     - libfsclfs
     - libfsext
+    - libfsfat
     - libfshfs
     - libfsntfs
     - libfsrefs
@@ -85,6 +86,7 @@
     - libvsapm
     - libvsgpt
     - libvshadow
+    - libvsldm
     - libvslvm
     - libvsmbr
     - libwrc
