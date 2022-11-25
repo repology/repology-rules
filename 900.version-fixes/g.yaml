@@ -319,8 +319,7 @@
 - { name: gtk-sharp,                   ver: "2.99.4",                ruleset: opensuse,    incorrect: true }
 - { name: gtk-sharp,                                                 ruleset: opensuse,    untrusted: true } # accused of fake 2.99.4
 - { name: gtk-theme-arc-red,                                                               noscheme: true }
-- { name: gtkada,                                                                          noscheme: true }
-- { name: gtkada3,                                                                         noscheme: true }
+- { name: gtkada,                      verpat: "20[0-9]{2}.*",                             sink: true }
 - { name: gtkam,                       ver: "2.30.0",                ruleset: openindiana, incorrect: true }
 - { name: gtkam,                                                     ruleset: openindiana, untrusted: true } # accused of fake 2.30.0
 - { name: gtkglext,                    verpat: ".+20[0-9]{2}.*",                           snapshot: true } # accused of fake 2.30.0
