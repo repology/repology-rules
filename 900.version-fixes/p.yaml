@@ -119,6 +119,8 @@
 - { name: php,                         verpat: ".*[abr].*",                                devel: true }
 - { name: php,                         ver: "7.4.0",                 ruleset: pld,         incorrect: true } # fake
 - { name: php,                                                       ruleset: pld,         untrusted: true } # accused of fake 7.4.0
+- { name: php,                         ver: "8.2.0",                 ruleset: nix,         incorrect: true } # 8.2.0RC6 fakes as 8.2.0
+- { name: php,                                                       ruleset: nix,         untrusted: true } # accused of fake 8.2.0
 - { name: php-xdebug,                  verpat: "(.*)-[0-9]+\\.[0-9]+", ruleset: scoop,     setver: "$1" } # the suffix seem to encode php version?
 - { name: phpipam,                     ver: "1.40.000",              ruleset: sisyphus,    incorrect: true } # 1.4
 - { name: phpipam,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 1.40.000
