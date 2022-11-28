@@ -33,6 +33,7 @@
 - { namepat: "fcitx-.*",                                             ruleset: openbsd,     untrusted: true } # fakes fcitx5-* as fcitx-*
 
 - { namepat: "lua:.*", verpat: ".*-[0-9]+",                          ruleset: nix,         untrusted: true } # accused of using fake suffix from luarocks
+- { namepat: "lua:.*", verpat: ".*-[0-9]+",                          ruleset: macports,    untrusted: true } # accused of using fake suffix from luarocks
 - { categorypat: "emacs[0-9]*Packages",                              ruleset: nix,         untrusted: true } # accused of using fake versions from MELPA
 
 - { namepat: "gnome-shell-extension-.*",                             ruleset: nix,         untrusted: true } # all versions are fake

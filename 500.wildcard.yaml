@@ -101,6 +101,7 @@
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_lua], namepat: "(?:lua[_-]?)?(.+?)", category: dev-lua, ruleset: [gentoo,exherbo,haikuports] }
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_lua], namepat: "lua-(.+)", ruleset: [cygwin,openwrt,t2] }
 - { setname: "lua:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_lua], namepat: "lua([0-9.]*)-module-(?:lua)?(.+?)", ruleset: sisyphus, addflavor: $1 }
+- { setname: "lua:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_lua], namepat: "lua([0-9.]*)-(.+?)", ruleset: macports, addflavor: $1 }
 
 # Nim
 - { setname: "nim:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_nim], category: dev-nim, ruleset: gentoo }
