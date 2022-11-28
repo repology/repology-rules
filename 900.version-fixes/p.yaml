@@ -360,6 +360,7 @@
 - { name: python,                                                    ruleset: void,        untrusted: true } # accused of fake 2.7.18.4
 - { name: python,                                                    ruleset: appget,      untrusted: true } # accused of fake 3.7.4150.0, 3.8.150.0
 - { name: python,                                                    ruleset: entware,     untrusted: true } # module versions
+- { name: python,                      verpat: ".*[0-9]{3}.*",                             incorrect: true }
 - { name: python-caja,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: python-rpm-macros,                                                               noscheme: true }
 - { name: pythonmagick,                ver: "0.9.64",                ruleset: sisyphus,    incorrect: true }
