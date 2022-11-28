@@ -73,3 +73,4 @@
 - { name: hyper,                       vercomps: 4,                                        altver: true } # build
 - { name: hyperrogue,                  verpat: "[0-9]{3}.*",                               incorrect: true } # 11.2d, not 112d
 - { name: hyphy,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: hyprland,                    verpat: "(.*?)[._-]?b(?:eta)?",                     setver: $1, devel: false } # all versions beta nonsense
