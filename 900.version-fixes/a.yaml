@@ -3,8 +3,7 @@
 - { name: a52dec,                      ver: "0.7.5",                 ruleset: [openbsd,opensuse,pld], incorrect: true }
 - { name: a52dec,                                                    ruleset: [openbsd,opensuse,pld], untrusted: true } # accused of fake 0.7.5
 - { name: a52dec,                      ver: "0.7.4.1",               ruleset: kaos,        untrusted: true } # accused of fake 0.7.4.1
-- { name: a52dec,                      ver: "0.8.0",                 ruleset: adelie,      incorrect: true }
-- { name: a52dec,                                                    ruleset: adelie,      untrusted: true } # accused of fake 0.8.0
+- { name: a52dec,                      ver: "0.8.0",                 ruleset: adelie,      disposable: true, ignore: true } # alive fork, needs some more adoption to be considered valid
 - { name: aaaaxy,                      verpat: ".+20[0-9]{6}.*",                           snapshot: true }
 - { name: aalib,                       ver: [ "1.4", "1.4p5" ],                            incorrect: true } # 1.4rc5
 - { name: aalib,                       verpat:  "1\\.4\\.0.*",                             incorrect: true } # 1.4rc5
