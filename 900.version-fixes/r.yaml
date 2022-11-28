@@ -153,5 +153,6 @@
 - { name: rust,                        verpat: ".*dev",                                    snapshot: true } # haikuports garbage
 - { name: rust,                        verpat: ".*nightly",                                snapshot: true }
 - { name: rust,                        verpat: ".*20[0-9]{2}.*",                           snapshot: true }
+- { name: rustup,                      verpat: ".*~.*",              ruleset: opensuse,    incorrect: true }
 - { name: rx-tools,                    verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: rygel,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
