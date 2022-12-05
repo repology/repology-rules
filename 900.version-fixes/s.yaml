@@ -364,6 +364,7 @@
 - { name: sunxi-tools,                                               ruleset: sisyphus,    untrusted: true } # accused of fake 1.5
 - { name: suomi-malaga,                verge: "2",                                         incorrect: true } # https://voikko.puimula.org/sources.html, https://www.puimula.org/voikko-sources/suomi-malaga/: 2.0 has different name
 - { name: superlu-mt,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: supermin,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed even/odd scheme; https://download.libguestfs.org/supermin/
 - { name: supertransball2,             verpat: "2\\.[0-9]+\\.[0-9]+",                      incorrect: true } # 2 is port of the project name, not version
 - { name: supertuxkart,                                              ruleset: sisyphus,    untrusted: true } # accused of fake 0.10
 - { name: supybot,                     verpat: "(.*)\\.ds",                                setver: $1 } # cut away debian crap
