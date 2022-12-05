@@ -54,6 +54,10 @@
 - { setname: mariadb-mytop,            name: mytop, ruleset: arch }
 - { setname: mariadb-mytop,            name: "mytop-10.3" }
 - { setname: mariadb-mytop,            name: mytop-mainline-noconflict, addflavor: true }
+- { setname: marisa,                   name: [lib$0, marisa-trie] }
+- { setname: marisa,                   name: ["python:$0", "python:lib$0"], addflavor: python }
+- { setname: marisa,                   name: ["perl:$0", "perl:lib$0"], addflavor: perl }
+- { setname: marisa,                   name: ["ruby:$0"], addflavor: ruby }
 - { setname: markdown-link-check,      name: "node:$0" }
 - { setname: markdownfmt,              name: "go:github-shurcool-markdownfmt" }
 - { setname: markets,                  name: bitstower-markets }
