@@ -63,6 +63,7 @@
 - { setname: scribus,                  name: scribus-stable }
 - { setname: scrot,                    name: scrot-no-beep, addflavor: no-beep }
 - { setname: sddm,                     name: [sddm-classic,sddm-elogind], addflavor: true }
+- { setname: sdkmanager,               name: "python:$0" }
 - { setname: sdl,                      name: [libsdl,sdl1,sdl12,libsdl1.2] }
 - { setname: sdl,                      name: sdl-runtime, addflavor: true }
 - { setname: sdl-$1,                   namepat: "(?:lib)?sdl(?:1[0-9.]*)?-?(image|mixer|net|ttf|gfx)(?:1[0-9.-]*)?" }
