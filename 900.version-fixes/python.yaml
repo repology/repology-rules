@@ -155,6 +155,8 @@
 - { name: "python:slowaes",                                          ruleset: [gentoo,solus], untrusted: true } # accused of fake 0.1
 - { name: "python:soappy",             ver: "0.52.25",               ruleset: alpine,      incorrect: true } # fork
 - { name: "python:soappy",                                           ruleset: alpine,      untrusted: true } # accused of fake 0.52.25
+- { name: "python:soupsieve",          ver: "2.3.2.1",                                     incorrect: true } # 2.3.2.post1
+- { name: "python:soupsieve",                                        ruleset: pkgsrc,      untrusted: true } # accused of fake 2.3.2.1
 - { name: "python:speaklater",         ver: "1.4",                   ruleset: [gentoo,pisi], incorrect: true } # speaklater3 in fact
 - { name: "python:speaklater",                                       ruleset: [gentoo,pisi], untrusted: true } # accused if fake 1.4
 - { name: "python:sphinx-py3doc-enhanced-theme", ver: "2.4.0",       ruleset: pld,         incorrect: true }
