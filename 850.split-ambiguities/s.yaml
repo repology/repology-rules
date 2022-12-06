@@ -27,6 +27,10 @@
 
 - { name: sasl, wwwpart: cyrus, setname: cyrus-sasl }
 
+- { name: sass, wwwpart: dart-sass, setname: dart-sass }
+- { name: sass, wwwpat: 'github.com/sass/sass(?:/.*)?$', setname: "ruby:sass" }
+- { name: sass, summpart: mathematics, setname: sagemath }
+
 - { name: sbd, wwwpart: clusterlabs, setname: sbd-storage-based-death }
 - { name: sbd, wwwpart: [packetstorm,tigerteam], setname: sbd-netcat }
 - { name: sbd, wwwpart: sourceforge.net/projects/sbd, setname: sbd-secure-back-door }
