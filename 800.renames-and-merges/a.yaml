@@ -73,8 +73,8 @@
 - { setname: agda,                     name: "haskell:agda" }
 - { setname: agda,                     name: agda-bin, addflavor: bun }
 - { setname: agda-stdlib,              name: "haskell:agda-stdlib" }
-- { setname: agg,                      name: antigraingeometry }
-- { setname: agg,                      name: libagg }
+- { setname: agg,                      name: [antigraingeometry,libagg] }
+- { setname: agg,                      name: asciinema-agg }
 - { setname: aircrack-ng,              name: aircrack-ng-beta, weak_devel: true, nolegacy: true }
 - { setname: airspy,                   name: [airspy-host, airspyone-host] }
 - { setname: aisleriot,                name: gnome-games-aisleriot }
