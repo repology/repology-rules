@@ -28,8 +28,9 @@
 - { name: sasl, wwwpart: cyrus, setname: cyrus-sasl }
 
 - { name: sass, wwwpart: dart-sass, setname: dart-sass }
-- { name: sass, wwwpat: 'github.com/sass/sass(?:/.*)?$', setname: "ruby:sass" }
-- { name: sass, summpart: mathematics, setname: sagemath }
+- { name: sass, wwwpat: 'https://github.com/sass/sass(?:/.*)?', setname: "ruby:sass" }
+- { name: sass, wwwpart: rubygems, setname: "ruby:sass" }
+- { name: sass, addflag: unclassified }
 
 - { name: sbd, wwwpart: clusterlabs, setname: sbd-storage-based-death }
 - { name: sbd, wwwpart: [packetstorm,tigerteam], setname: sbd-netcat }
