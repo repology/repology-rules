@@ -458,9 +458,10 @@
 - { setname: gtksourceviewmm,          namepat: "(?:lib)?gtksourceviewmm[0-9.-]*" }
 - { setname: gtkspell,                 namepat: "(?:lib)?gtkspell[0-9.-]*(-reference)?", addflavor: $1 }
 - { setname: gtkspellmm,               namepat: "(?:lib)?gtkspellmm[0-9.-]*" }
-- { setname: "gtktheme:blackbird",     name: [blackbird-gtk-theme,blackbird-themes,gtk-theme-blackbird,xfce-theme-blackbird] }
+- { setname: "gtktheme:blackbird",     name: [blackbird-gtk-theme,blackbird-themes,gtk-theme-blackbird,xfce-theme-blackbird,blackbird-gnome-theme] }
 - { setname: "gtktheme:bluebird",      name: [bluebird-gtk-theme,bluebird,bluebird-theme,bluebird-themes,gtk-theme-bluebird,xfce-theme-bluebird] }
 - { setname: "gtktheme:greybird",      name: [greybird,greybird-gtk-theme,gtk-theme-greybird,greybird-theme,greybird-themes,xfce-theme-greybird] }
+- { setname: "gtktheme:orion",         name: [gtk-theme-orion,orion-gnome-theme,orion-theme] }
 - { setname: gtkwrite,                 name: gtkedit }
 - { setname: gts,                      name: gnugts }
 - { setname: gtypist,                  name: gnu-typist }
