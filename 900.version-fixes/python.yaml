@@ -146,6 +146,7 @@
 - { name: "python:scikits.samplerate",                               ruleset: sisyphus,    untrusted: true } # accused of fake 0.4.0
 - { name: "python:selinux",            ver: "2.9",                   ruleset: pld,         incorrect: true }
 - { name: "python:selinux",                                          ruleset: pld,         untrusted: true } # accused of fake 2.9
+- { name: "python:semanticversion",    verge: "2",                                         incorrect: true } # solus, void - fake python:semantic-version
 - { name: "python:setupdocs",          ver: "1.0.6",                 ruleset: sisyphus,    incorrect: true }
 - { name: "python:setupdocs",                                        ruleset: sisyphus,    untrusted: true } # accused of fake 1.0.6
 - { name: "python:shiboken",           ver: "2.0.0",                 ruleset: kaos,        incorrect: true }
