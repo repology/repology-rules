@@ -222,7 +222,7 @@
 - { name: dtm, wwwpart: dtm.pub, setname: dtm-transaction-manager }
 - { name: dtm, addflag: unclassified }
 
-- { name: dust, wwwpart: bootandy, setname: du-dust }
+- { name: dust, wwwpart: [bootandy,du-dust], setname: du-dust }
 - { name: dust, wwwpart: pixie, setname: dust-pixie }
 - { name: dust, addflag: unclassified }
 
