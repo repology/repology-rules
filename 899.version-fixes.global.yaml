@@ -61,6 +61,7 @@
 - { verpat: ".*-[0-9]+", namepat: "lua.*",                           ruleset: nix,         untrusted: true } # uses luarocks versions which add extra component
 - { verpat: "[0-9]{5}", namepat: "texlive:.*",                       ruleset: [guix,openmandriva], untrusted: true } # some kind of ctan revisions which have nothing to do with upstream versions
 - { verpat: ".*r.*", namepat: "php:.*",                              ruleset: freebsd,     devel: true }
+- { verpat: ".*\\.[rab][0-9]+",                                      ruleset: freebsd,     ignore: true } # XXX: FreeBSD DISTVERSION
 - { verpat: "5\\.[0-9]{2}\\.0",                                      ruleset: kaos_build,  untrusted: true } # accused of faking -rc versions of KDE stuff as release
 - { verpat: ".+_git.+",                                              ruleset: [alpine,postmarketos], any_is_patch: true, ignore: true } # snapshots
 - { verpat: ".*pl.*",                                                ruleset: openbsd,     ignore: true } # snapshots
