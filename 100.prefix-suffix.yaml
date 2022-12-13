@@ -80,7 +80,7 @@
 - { noflag: no_suffix, ruleset: nix,             namepat: "(.*)-unstable", setname: $1, weak_devel: true, nolegacy: true }
 - { noflag: no_suffix, ruleset: nix,             namepat: "(.*)-(wrapped|unwrapped)", setname: $1, addflavor: $2 } # https://github.com/repology/repology-rules/pull/586#issuecomment-1015789670
 
-- { noflag: no_suffix, ruleset: npackd,          namepat: "(.*?)(-?64)", setname: $1, addflavor: "64" }
+- { noflag: no_suffix, ruleset: npackd,          namepat: "(.*?)([_-]?64)", setname: $1, addflavor: "64" }
 
 - { noflag: no_suffix, ruleset: openwrt,         namepat: "(.*)_nohf", setname: $1, addflavor: nohf } # entware, on some arm platforms
 
