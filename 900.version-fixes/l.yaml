@@ -167,6 +167,7 @@
 - { name: "lua:expat",                                               ruleset: [sisyphus,adelie,luarocks,cygwin], untrusted: true } # use fork which is said to be inferior to original
 - { name: "lua:filesystem",            verlonger: 3,                 ruleset: macports,    incorrect: true }
 - { name: "lua:ldbus",                                                                     noscheme: true } # https://github.com/daurnimator/ldbus/tags
+- { name: "lua:lua-argparse",          verge: "0.7.1",                                     incorrect: true } # lua:argparse in fact
 - { name: "lua:mediator-lua",          ver: "1.120",                                       incorrect: true } # opensuse, 1.1.2-0
 - { name: "lua:mediator-lua",                                        ruleset: opensuse,    incorrect: true } # accused of fake 1.120
 - { name: "lua:mediator-lua",          verpat: ".*p.*",              ruleset: gentoo,      incorrect: true } # 1.1.2-0, not 1.1.2_p0
