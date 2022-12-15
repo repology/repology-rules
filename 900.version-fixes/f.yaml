@@ -232,6 +232,7 @@
 - { name: fractal,                     verpat: ".*[ab].*",                                 devel: true }
 - { name: fractal,                     ver: "4.4.1",                 ruleset: opensuse,    incorrect: true }
 - { name: fractal,                                                   ruleset: opensuse,    untrusted: true } # accused of fake 4.4.1
+- { name: fractal,                     ver: "4.4.1b_rc1",                                  incorrect: true }
 - { name: fractal,                     ver: "5.1",                   ruleset: [liguros,mpr], incorrect: true }
 - { name: fractal,                                                   ruleset: [liguros,mpr], untrusted: true } # accused of fake 5.1
 - { name: fragrouter,                  ver: "1.7",                                         sink: true, vulnerable: true } # https://linuxsecurity.com/news/hackscracks/fragrouter-trojaned-anzencom-hacked
