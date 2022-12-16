@@ -103,6 +103,10 @@
 - { name: json, wwwpart: nlohmann, setname: nlohmann-json }
 # XXX: other stuff remains
 
+- { name: jsonlint, wwwpart: zaach, setname: "node:jsonlint" }
+- { name: jsonlint, wwwpart: Seldaek, setname: "php:jsonlint" }
+- { name: jsonlint, addflag: unclassified }
+
 - { name: jta, wwwpart: thinkberg, setname: jta-java-ssh }
 - { name: jta, wwwpart: oracle, setname: jta-java-transaction-api }
 - { name: jta, addflag: unclassified }
