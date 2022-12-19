@@ -94,6 +94,7 @@
 - { name: sdl2-image,                  verpat: ".+20[0-9]{6}",                             snapshot: true } # macports
 - { name: sdl2-mixer,                  ver: "2.5.1",                 ruleset: debian,      incorrect: true }
 - { name: sdl2-mixer,                                                ruleset: debian,      untrusted: true } # accused of fake 2.5.1
+- { name: sdl2-sound,                  verpat: ".*~.*",              ruleset: haikuports,  snapshot: true }
 - { name: sdl2-ttf,                    ver: "2.19.1",                ruleset: debian,      incorrect: true }
 - { name: sdl2-ttf,                                                  ruleset: debian,      untrusted: true } # accused of fake 2.19.1
 - { name: sdlmame,                     verpat: "[0-9]{4}",                                 incorrect: true }
