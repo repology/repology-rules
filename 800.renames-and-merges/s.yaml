@@ -44,6 +44,8 @@
 - { setname: scamp,                    name: astromatic-scamp }
 - { setname: scapy,                    name: "python:scapy" }
 - { setname: scc,                      name: "go:scc" }
+- { setname: sccache,                  name: [sccache-dist, sccache-overlay], addflavor: true }
+- { setname: sccache,                  name: "rust:$0" }
 - { setname: scheme9,                  name: scheme-9-from-empty-space }
 - { setname: schilytools,              name: [schily, schily-tools] }
 - { setname: schilytools,              name: [schilybase, schilyutils], addflavor: true } # FreeBSD
