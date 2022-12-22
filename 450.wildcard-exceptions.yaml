@@ -100,7 +100,8 @@
 
 - { setname: rust$1,                   namepat: "rust-nightly(.*)", ignore: true }
 - { setname: rust,                     name: rust-always-nightly, ignore: true }
-- { setname: rust,                     name: [rust-analysis,rust-bin,rust-doc,rust-docs,rust-ms,rust-src,rustc,rustc-stage0], addflavor: true }
+- { setname: rust,                     name: [rust-analysis,rust-bin,rust-doc,rust-docs,rust-ms,rust-src,rustc,rustc-stage0,rust-bootstrap], addflavor: true }
+- { addflag: not_rust,                 name: rust-analyzer }
 - { addflag: not_rust,                 name: rust-doom }
 - { addflag: not_rust,                 name: rust-dwm-status }
 - { addflag: not_rust,                 name: rust-mode }
