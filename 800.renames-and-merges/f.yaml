@@ -111,7 +111,9 @@
 - { setname: fluxbox,                  name: [fluxbox-wm,fluxbox-noslit] }
 - { setname: flwm,                     name: flwm-tc }
 - { setname: fmod,                     namepat: "(?:lib)?fmod(?:ex|api)?[0-9.-]*" }
-- { setname: fmt,                      name: [fmtlib,libfmt,cppformat] } # cppformat is the former name, see http://fmtlib.net
+- { setname: fmt,                      name: [fmtlib,cppformat] } # cppformat is the former name, see http://fmtlib.net
+- { setname: fmt,                      name: [fmt-nocheck], addflavor: true }
+- { setname: fmt,                      namepat: "(?:lib)?fmt[0-9.-]*" }
 - { setname: fofix,                    name: fofix-dfsg }
 - { setname: folly,                    name: fb-folly }
 - { setname: fomp,                     name: [fomp-lv2,lv2-fomp-plugins] }
