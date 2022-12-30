@@ -165,6 +165,11 @@
 - { name: cortex, wwwpart: cortexmetrics, setname: cortex-prometeus-storage }
 - { name: cortex, addflag: unclassified }
 
+- { name: crane, wwwpart: michaelsauter, setname: michaelsauter-crane }
+- { name: crane, wwwpart: go-containerregistry, setname: go:containerregistry }
+- { name: crane, wwwpart: ewilde, setname: ewilde-crane }
+- { name: crane, addflag: unclassified }
+
 - { name: crimson, wwwpart: [java,xml,apache], setname: crimson-jaxp }
 - { name: crimson, wwwpart: [aldusleaf,skosch], setname: "fonts:crimson" }
 - { name: crimson, addflag: unclassified }
