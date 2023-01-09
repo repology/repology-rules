@@ -11,6 +11,8 @@
 - { name: "ocaml:calendar",                                          ruleset: nix,         untrusted: true } # accused of fake 2.5 (it's really 2.03.2)
 - { name: "ocaml:cryptokit",           ver: "1.161",                                       incorrect: true } # 1.16.1
 - { name: "ocaml:cryptokit",                                         ruleset: gentoo,      untrusted: true } # accused of fake 1.161
+- { name: "ocaml:cryptokit",           ver: "1161",                                        incorrect: true } # 1.16.1
+- { name: "ocaml:cryptokit",                                         ruleset: rosa,        untrusted: true } # accused of fake 1161
 - { name: "ocaml:libvirt",             verpat: ".*unstable",                               incorrect: true } # nix garbage
 - { name: "ocaml:opam-file-format",                                  ruleset: sisyphus,    untrusted: true }
 - { name: "ocaml:yojson",              verpat: ".+20[0-9]{6}",                             snapshot: true }
