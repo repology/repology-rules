@@ -71,6 +71,8 @@
 - { name: sdl,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: sdl,                         ver: "1.2.16",                ruleset: os4depot,    incorrect: true }
 - { name: sdl,                                                       ruleset: os4depot,    untrusted: true } # accused of fake 1.2.16
+- { name: sdl,                         ver: "1.2.60",                                      incorrect: true } # sdl-compat
+- { name: sdl,                                                       ruleset: gentoo,      untrusted: true } # fakes sdl-compat as sdl
 - { name: sdl-audiolib,                                                                    noscheme: true }
 - { name: sdl-image,                   verpat: ".+20[0-9]{6}",                             snapshot: true } # macports
 - { name: sdl-mixer,                   verpat: ".+20[0-9]{6}",                             snapshot: true } # macports, kaos
