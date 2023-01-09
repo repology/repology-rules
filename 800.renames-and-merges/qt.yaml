@@ -263,3 +263,6 @@
   setname: qt5-$1
 
 - { setname: qt, name: [qt1, qt2, qt3, qt4, qt5, qt6] }
+
+- { setname: qt, name: [qt5compat, qt5compat6, qt6-5compat, qt65compat], addflavor: 5compat }
+- { setname: qt, name: qt6-5compat-static, addflavor: 5compat-static }
