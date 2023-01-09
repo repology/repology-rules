@@ -137,6 +137,10 @@
 - { name: hydrus, wwwpart: http-apis, setname: hydrus-rest-server }
 - { name: hydrus, addflag: unclassified }
 
+- { name: hyper, wwwpart: [hyperium,hyper.rs], setname: "rust:hyper" }
+- { name: hyper, wwwpart: [vercel,hyper.is], setname: "hyper-terminal" }
+- { name: hyper, addflag: unclassified }
+
 - { name: hyperion, wwwpart: hyperion-project, setname: hyperion-ambilight }
 - { name: hyperion, wwwpart: nullsecurity, setname: hyperion-encrypter }
 - { name: hyperion, summpart: ambi, setname: hyperion-ambilight }
