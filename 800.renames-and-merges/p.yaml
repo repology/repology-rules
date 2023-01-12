@@ -346,6 +346,7 @@
 - { setname: pycsw,                    name: "python:pycsw" }
 - { setname: pygtksourceview,          name: ["python:gtksourceview","python:pygtksourceview","python:pygtksourceview2",pygtksourceview,pygtksourceview2,"python:gtksourceview2"] }
 - { setname: pyload,                   name: pyload-nightly, weak_devel: true, nolegacy: true }
+- { setname: pyload-ng,                name: "python:$0" }
 - { setname: pymol,                    name: [pymol2, "python:pymol", pymol-python2 ] }
 - { setname: pypanel,                  name: "python:pypanel" }
 - { setname: pypy,                     name: ["python:pypy","python:pypy-bin",pypy2] }
