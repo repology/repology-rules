@@ -239,6 +239,7 @@
 
 # vim
 - { setname: "vim:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_vim], category: app-vim, ruleset: [gentoo, exherbo] }
+- { setname: "vim:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_vim], namepat: "vimplugin-(.*)", category: vimPlugins, ruleset: nix }
 
 # Xemacs
 - { setname: "xemacs:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_xemacs], category: app-xemacs, ruleset: [gentoo, exherbo] }
