@@ -165,9 +165,9 @@
 - { name: cortex, wwwpart: cortexmetrics, setname: cortex-prometeus-storage }
 - { name: cortex, addflag: unclassified }
 
-- { name: crane, wwwpart: michaelsauter, setname: michaelsauter-crane }
-- { name: crane, wwwpart: go-containerregistry, setname: go:containerregistry }
-- { name: crane, wwwpart: ewilde, setname: ewilde-crane }
+- { name: crane, wwwpart: michaelsauter, setname: crane-docker-orchestration-tool }
+- { name: crane, wwwpart: go-containerregistry, setname: "go:containerregistry" }
+- { name: crane, wwwpart: ewilde, setname: crane-build-scripts-creator }
 - { name: crane, addflag: unclassified }
 
 - { name: crimson, wwwpart: [java,xml,apache], setname: crimson-jaxp }
