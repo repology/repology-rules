@@ -159,6 +159,7 @@
 - { name: antimicro,                   verpat: "2\\.24\\.[0-9]+",                          successor: true } # https://github.com/juliagoda/antimicro, abandoned as well
 - { name: antimicro,                   verge: "3",                                         incorrect: true } # antimicrox
 - { name: antlr,                       verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: ants-advanced-normalization-tools, verpat: "20[0-9]{6}.*",                       incorrect: true }
 - { name: anubis,                      ver: "4.2.90",                ruleset: guix,        incorrect: true }
 - { name: anubis,                                                    ruleset: guix,        untrusted: true } # accused of fake 4.2.90
 - { name: anydesk,                     ver: "5.2.3",                 ruleset: scoop,       incorrect: true }
