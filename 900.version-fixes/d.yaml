@@ -51,7 +51,7 @@
 - { name: desmume,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: devhelp,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: devilutionx,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: dex2jar,                     ver: "2.1",                   ruleset: [blackarch,debuntu], incorrect: true } # actually 2.1-nightly-NN; debuntu=kali linux
+- { name: dex2jar,                     verpat: ".*20[0-9]{2}.*",                           devel: true }
 - { name: dff,                         verpat: "(.*)\\.20[0-9]{6}",                        setver: "$1" } # aosc snapshot
 - { name: dhcp,                        ver: "4.4.2",                 ruleset: fedora,      incorrect: true }
 - { name: dhcp,                                                      ruleset: fedora,      untrusted: true } # accused of fake 4.4.2
