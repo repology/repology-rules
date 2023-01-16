@@ -141,6 +141,10 @@
 
 - { name: gomoku, ruleset: [freebsd,macports,openbsd], setname: gnustep-gomoku } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
+- { name: gomp, wwwpart: aditya, setname: gomp-mpd-client }
+- { name: gomp, wwwpart: markforged, setname: gomp-git-compare }
+- { name: gomp, addflag: unclassified }
+
 - { name: gonvert, ruleset: maemo, setname: gonvert-maemo }
 
 - { name: gopass, wwwpart: [gopasspw,gopass.pw], setname: gopass-gopasspw }
