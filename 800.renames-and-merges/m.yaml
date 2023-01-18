@@ -303,6 +303,7 @@
 - { setname: musl,                     name: musl-libc }
 - { setname: musl,                     name: musl-bootstrap, addflavor: true }
 - { setname: musl-rpmatch,             name: rpmatch-standalone }
+- { setname: mutmut,                   name: "python:$0" }
 - { setname: mutt,                     name: mutt-devel, weak_devel: true, nolegacy: true }
 - { setname: mutt,                     name: [mutt-lite,mutt14,mutt14-lite,mutt-patched,mutt-slang,mutt-kiss] }
 - { setname: mvapich2,                 namepat: "mvapich2(?:-psm2?)?(?:-2-2)?(?:-gnu-hpc)?", addflavor: true }
