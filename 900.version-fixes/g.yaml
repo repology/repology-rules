@@ -45,6 +45,8 @@
 - { name: gdk-pixbuf-xlib,             ver: "2.42.0",                ruleset: t2,          incorrect: true }
 - { name: gdk-pixbuf-xlib,                                           ruleset: t2,          untrusted: true } # accused of fake 2.42.0
 - { name: geant4-vmc,                                                                      p_is_patch: true }
+- { name: geany,                       ver: "3.80.1",                ruleset: mpr,         incorrect: true } # 1.38.0
+- { name: geany,                                                     ruleset: mpr,         untrusted: true } # accused of fake 3.80.1
 - { name: geany-themes,                ver: "1.27",                  ruleset: fedora,      incorrect: true } # it all looks like RPM points to 1.27 tag of https://github.com/geany/geany-themes/releases, but there's no such tag (gone?)
 - { name: geany-themes,                                              ruleset: fedora,      untrusted: true } # accused of fake 1.27
 - { name: gecko-mediaplayer,           verpat: ".*[ab]",                                   devel: true }
