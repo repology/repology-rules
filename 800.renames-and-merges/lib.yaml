@@ -126,6 +126,8 @@
 - { setname: libgpod,                  name: libgpod4 }
 - { setname: libgsf,                   name: libgsf1 }
 - { setname: libgtop,                  namepat: "libgtop[0-9.-]+" }
+- { setname: libgusb,                  name: gusb }
+- { setname: libgusb,                  name: gusb-minimal, addflavor: minimal }
 - { setname: libgweather,              namepat: "(?:compat-)?libgweather[0-9.-]*" }
 - { setname: libhandy,                 namepat: "libhandy[0-9.-]+" }
 - { setname: libharu,                  name: haru }
