@@ -92,6 +92,7 @@
 - { name: "python:publicsuffix",       verpat: "2.*",                                      incorrect: true } # gentoo fakes publicsuffix2 as publicsuffix
 - { name: "python:publicsuffix2",      verpat: "20[0-9]{2}.*",                             incorrect: true } # 2.20191221
 - { name: "python:py-cpuinfo",         verpat: "201.*",                                    ignore: true }
+- { name: "python:pyatag",             ver: "3.5.1",                                       sink: true } # https://github.com/MatsNl/pyatag/issues/7
 - { name: "python:pycha",              ver: "279",                                         ignore: true }
 - { name: "python:pycrypto",           ver: "2.7",                   ruleset: [unitedrpms,sisyphus], incorrect: true } # 2.7a1
 - { name: "python:pycrypto",                                         ruleset: [unitedrpms,sisyphus], untrusted: true } # accused of fake 2.7
