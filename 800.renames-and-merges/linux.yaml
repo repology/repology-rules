@@ -1,4 +1,4 @@
-# vim: tabstop=39 expandtab softtabstop=39
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { addflag: not_linux,                name: linux86 }
 - { setname: linux,                    namepat: "linux(?:-kernel|-lts)*[0-9.-]*", noflag: not_linux }

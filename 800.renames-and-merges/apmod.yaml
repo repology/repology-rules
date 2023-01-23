@@ -1,4 +1,4 @@
-# vim: tabstop=39 expandtab softtabstop=39
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { setname: "apmod:auth-cas",         name: mod-auth-cas }
 - { setname: "apmod:auth-kerb",        name: [apache-kerberos, "apmod:auth-kerb2", mod-auth-krb5] }

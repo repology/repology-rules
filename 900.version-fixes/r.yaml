@@ -1,4 +1,4 @@
-# vim: tabstop=39 expandtab softtabstop=39
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { name: r,                           verpat: ".*20[0-9]{6}",                             snapshot: true } # debian
 - { name: r3,                          ver: "2.0.0",                 ruleset: buckaroo,    incorrect: true } # https://github.com/LoopPerfect/r3/tags

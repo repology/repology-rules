@@ -1,4 +1,4 @@
-# vim: tabstop=39 expandtab softtabstop=39
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { name: v-for-vim,                   verpat: "[0-9]+",                                   incorrect: true } # aur; correct versions is 1.1
 - { name: v4l2loopback,                verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended

@@ -1,4 +1,4 @@
-# vim: tabstop=39 expandtab softtabstop=39
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { name: u-boot,                      verpat: "20[0-9]{6}.*",                             incorrect: true } # it's XXXX.YY; XXX: problem
 - { name: u-boot-tools,                verpat: "20[0-9]{6}.*",                             snapshot: true }

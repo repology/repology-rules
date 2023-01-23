@@ -1,4 +1,4 @@
-# vim: tabstop=39 expandtab softtabstop=39
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { setname: xorg-server$1,            namepat: "xorg-server[0-9.-]+(-.+)?" } # XXX: should be before large xorg-server rule at the end
 - { setname: xorg-server$1,            namepat: "xorg-server(-.+)?-dev", ignore: true } # XXX: should be before large xorg-server rule at the end

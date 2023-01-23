@@ -1,4 +1,4 @@
-# vim: tabstop=39 expandtab softtabstop=39
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { setname: boost,                    name: ["python:boost","python:boost-libs","boost-python3"], addflavor: python }
 - { setname: boost,                    namepat: "boost-mpi-source[0-9-.]+", addflavor: boost-mpi }
