@@ -232,6 +232,7 @@
 - { name: kpatch,                      ver: "2.0",                   ruleset: openeuler,   incorrect: true }
 - { name: kpatch,                                                    ruleset: openeuler,   untrusted: true } # accused of fake 2.0
 - { name: kpimtextedit,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kpipewire,                   verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kpkpass,                     verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kplex,                       verpat: "20[0-9]{6}.*",                             incorrect: true } # ancient openwrt
 - { name: kpmcore,                     verpat: "3\\.[89][0-9]\\..*",                       devel: true }
@@ -281,6 +282,7 @@
 - { name: ksysguard,                   vergt: "5.22.0",              ruleset: [pclinuxos,t2], incorrect: true }
 - { name: ksysguard,                                                 ruleset: [pclinuxos,t2], untrusted: true } # accused of fake 5.22.1, 5.25.3
 - { name: ksystemlog,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: ksystemstats,                verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kteatime,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ktimer,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ktnef,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }

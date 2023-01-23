@@ -179,6 +179,8 @@
 - { name: plasma-discover,             verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: plasma-discover,             ver: "5.24.0a",               ruleset: ubuntu,      incorrect: true }
 - { name: plasma-discover,                                           ruleset: ubuntu,      untrusted: true } # accused of fake 5.24.0a
+- { name: plasma-disks,                verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: plasma-firewall,             verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: plasma-gmailfeed,            ver: "2.1",                   ruleset: kaos,        incorrect: true }
 - { name: plasma-gmailfeed,                                          ruleset: kaos,        untrusted: true } # accused of fake 2.1
 - { name: plasma-integration,          verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
@@ -187,6 +189,7 @@
 - { name: plasma-pa,                   verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: plasma-phone-componenbts,    verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: plasma-sdk,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: plasma-systemmonitor,        verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: plasma-vault,                verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: plasma-workspace,            verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: plasma-workspace,            ver: "5.24.0b",               ruleset: ubuntu,      incorrect: true }
