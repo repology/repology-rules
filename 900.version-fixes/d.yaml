@@ -27,6 +27,7 @@
 - { name: ddate,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: ddate,                       ver: "0.2.2.6",               ruleset: freebsd,     incorrect: true }
 - { name: ddate,                                                     ruleset: freebsd,     untrusted: true } # accused of fake 0.2.2.6
+- { name: ddcci-driver-linux,          verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version prepended
 - { name: ddrescueview,                ver: "1.23",                  ruleset: aosc,        incorrect: true }
 - { name: ddrescueview,                                              ruleset: aosc,        untrusted: true } # accused of fake 1.23
 - { name: ddskk,                       verpat: "20[0-9]{6}",                               snapshot: true }
