@@ -257,6 +257,7 @@
 - { name: gperftools,                  verpat: ".*\\.9[0-9]+",                             devel: true }
 - { name: gping,                       ver: "1.1",                                         sink: true } # python version, rewritten in rust with other versioning scheme
 - { name: gpm,                         verpat: "[0-9]+\\.99\\..*",                         devel: true } # assumed
+- { name: gpm,                         verpat: ".*[0-9]{4}20[0-9]{2}",                     incorrect: true } # snapshot with reversed date
 - { name: gprbuild,                    verpat: "[0-9]{5,}.*",                              incorrect: true }
 - { name: gprbuild,                    verpat: "20[0-9]{2}.*",                             sink: true }
 - { name: gpredict,                    ver: "2.3",                                         devel: true } # https://github.com/csete/gpredict/releases/tag/v2.3
