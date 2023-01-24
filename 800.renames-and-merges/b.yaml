@@ -104,8 +104,9 @@
 - { setname: black,                    name: "python:black" }
 - { setname: blackbox,                 name: blackboxwm }
 - { setname: blackbox,                 name: [vcs-blackbox,scm-blackbox] } # different project, split in 850
-- { setname: blackshades,              name: blackshades-svn, ignore: true }
-- { setname: blackshadeselite,         name: blackshades-elite-svn, ignore: true }
+- { setname: blackshades,              name: blackshades-svn, weak_devel: true, nolegacy: true }
+- { setname: blackshadeselite,         name: blackshades-elite-svn, weak_devel: true, nolegacy: true }
+- { setname: blackshadeselite,         name: black-shades-elite }
 - { setname: blake3,                   name: [libblake3, "rust:blake3"] }
 - { setname: blake3,                   name: [b3sum, "rust:b3sum"], addflavor: b3sum }
 - { setname: blas,                     name: [blas-reference,blas-docs], addflavor: docs }
