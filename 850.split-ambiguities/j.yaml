@@ -88,6 +88,10 @@
 # otherwise some ancient version of less from debian, no upstream defined
 - { name: jless, addflag: unclassified }
 
+- { name: jolly, wwwpart: prior99, setname: jolly-gallery-generator }
+- { name: jolly, wwwpart: apgoetz, setname: jolly-bookmarking-launcher }
+- { name: jolly, addflag: unclassified }
+
 - { name: jot, wwwpart: araekiel, setname: jot-note-management }
 # a bunch upstreamless `print sequential or random data` packages
 - { name: jot, addflag: unclassified }
