@@ -188,7 +188,8 @@
 - { setname: minetest,                 name: [minetest-common,minetest-server], addflavor: true }
 - { setname: minetest,                 name: minetest-git-leveldb, addflavor: true, ignore: true }
 - { setname: minetest,                 name: minetest4 }
-- { setname: minetest-mineclone2,      name: minetest-mineclone }
+- { setname: minetest-mineclone2,      name: [minetest-mineclone, mineclone-2] }
+- { setname: minetest-mineclone5,      name: mineclone-5 }
 - { setname: ming,                     name: libming }
 - { setname: miniaudicle,              name: mini-audicle } # XXX problem, incorrect name
 - { setname: miniserve,                name: "rust:miniserve" }
