@@ -126,6 +126,10 @@
 
 - { name: chromium, wwwpart: bsu, setname: chromium-bsu } # XXX: problem
 
+- { name: chrono, wwwpart: projectchrono, setname: chrono-physics-simulation-engine }
+- { name: chrono, wwwpart: gochrono, setname: chrono-time-tracking }
+- { name: chrono, addflag: unclassified }
+
 - { name: cinder, wwwpart: [openstack,launchpad.net/cinder], setname: openstack-cinder }
 - { name: cinder, addflag: unclassified }
 
