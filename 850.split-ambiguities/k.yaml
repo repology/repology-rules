@@ -69,6 +69,10 @@
 
 - { name: krb5, verpat: "4\\..*", setname: kerberos-for-windows }
 
+- { name: krill, wwwpart: nlnetlabs, setname: krill-rpki }
+- { name: krill, wwwpart: p-e-w, setname: krill-feed-filter }
+- { name: krill, addflag: unclassified }
+
 - { name: kup, wwwpart: [spersson, kde-apps, linux-apps.com/p/1127689, kde.org], setname: kup-backup }
 - { name: kup, wwwpart: kernel.org, setname: kup-kernel.org-upload-tool }
 - { name: kup, addflag: unclassified }

@@ -83,6 +83,7 @@
 - { setname: krb5,                     name: [mit-krb5,kerberos5,kerberos,mit-kerberos,mitkerberos] }
 - { setname: krb5,                     name: krb5-devel, weak_devel: true, nolegacy: true }
 - { setname: krb5-appl,                name: mit-krb5-appl }
+- { setname: krill,                    name: rust:$0 }
 - { setname: krita,                    namepat: "krita[0-9.-]+" }
 - { setname: krita,                    name: krita-beta, ignore: true }
 - { setname: krita,                    name: krita-minimal, addflavor: minimal }
