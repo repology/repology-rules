@@ -122,6 +122,7 @@
 - { name: mimetex,                     verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: mimikatz,                    verpat: ".*20[0-9]{6}",                             ignore: true } # BlackArch snap
 - { name: minbif,                      verpat: ".*20[0-9]{6}",                             ignore: true }
+- { name: minetest-mineclone5,         verpat: "5(\\.[0-9]+){2}",                          incorrect: true } # 5 is part of the name, not version
 - { name: ming,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: ming,                        ver: "0.4.9",                 ruleset: rpm,         incorrect: true }
 - { name: ming,                                                      ruleset: rpm,         untrusted: true } # accused of fake 0.4.9 (fedora, megeia, rosa, rpm spere)
