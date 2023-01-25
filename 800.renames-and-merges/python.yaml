@@ -82,6 +82,7 @@
 - { setname: "python:flask$1",         namepat: "flask(.*)" }
 - { setname: "python:flup",            name: flup }
 - { setname: "python:fs",              name: ["python:fs2", "python:pyfilesystem2"] }
+- { setname: "python:future",          name: future } # CVE
 - { setname: "python:geoalchemy2",     name: geoalchemy2 }
 - { setname: "python:geographiclib",   name: geographiclib-python }
 - { setname: "python:geohash",         name: geohash, ruleset: slackbuilds }
