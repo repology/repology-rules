@@ -71,6 +71,7 @@
 - { name: repo,                        verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: reptyr,                      ver: "0.6.3a",                ruleset: freebsd,     incorrect: true } # fake, no such tag
 - { name: resource-agents,             verpat: ".*[0-9a-f]{8}",      ruleset: opensuse,    incorrect: true }
+- { name: rest,                        ver: "1.0.0",                                       sink: true } # https://gitlab.gnome.org/GNOME/librest/-/issues/17
 - { name: restbed,                     verpat: ".*-.*",              ruleset: vcpkg,       incorrect: true } # latest is 4.6, 4.16-07-28 is fake
 - { name: restbed,                                                   ruleset: vcpkg,       untrusted: true } # accused of fake 4.16-07-28
 - { name: restund,                     verpat: ".+20[0-9]{6}",                             snapshot: true }
