@@ -113,6 +113,7 @@
 - { name: bootloadhid,                 verpat: "20[0-9]{6}",                               incorrect: true } # YYYY-MM-DD
 - { name: bootp,                       verpat: ".*_.*",                                    successor: true } # debian
 - { name: borgbackup,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: borgbackup,                  verpat: ".*[ab].*",                                 devel: true } # openbsd
 - { name: boringssl,                                                                       noscheme: true }
 - { name: botan,                       ver: "2.8.0",                 ruleset: vcpkg,       incorrect: true }
 - { name: botan,                                                     ruleset: vcpkg,       untrusted: true }
