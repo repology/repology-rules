@@ -16,7 +16,8 @@
 - { name: zd1211-firmware,             ver: "3.0.0.56",                                    sink: true } # some obsolete garbage from debian oldstable
 - { name: zeal,                        ver: "0.6.999",               ruleset: nix,         incorrect: true }
 - { name: zeal,                                                      ruleset: nix,         untrusted: true } # accused of fake 0.6.999
-- { name: zenity,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: zenity,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # XXX: outdated?
+- { name: zenity,                      verpat: "[0-9]+\\.[89][0-9]\\..*",                  devel: true }
 - { name: zeromq,                      verpat: "20[0-9]{6}.*",                             snapshot: true } # vcpkg snapshot
 - { name: zeronet,                     ver: "0.7.2",                 ruleset: homebrew_casks, incorrect: true }
 - { name: zeronet,                                                   ruleset: homebrew_casks, untrusted: true } # accused of fake 0.7.2
