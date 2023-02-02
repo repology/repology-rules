@@ -309,6 +309,7 @@
 - { setname: mutt,                     name: [mutt-lite,mutt14,mutt14-lite,mutt-patched,mutt-slang,mutt-kiss] }
 - { setname: mvapich2,                 namepat: "mvapich2(?:-psm2?)?(?:-2-2)?(?:-gnu-hpc)?", addflavor: true }
 - { setname: mvapich2,                 name: mvapich2-testsuite, addflavor: true }
+- { setname: mvapich2,                 name: [mvapich2x, mvapich] }
 - { setname: mvwm,                     name: mvwm-git, weak_devel: true, nolegacy: true }
 - { setname: mx,                       name: libmx }
 - { setname: mxml,                     name: mxml-static, addflavor: true }
