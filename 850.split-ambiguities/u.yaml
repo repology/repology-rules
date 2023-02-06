@@ -1,7 +1,7 @@
 # vim: tabstop=29 expandtab softtabstop=29 nomodeline
 
 - { name: ucc, wwwpart: uditkarode, setname: ucc-turobc }
-- { name: ucc, wwwpart: [ucc.sf.net,ucc.sourceforge.net], setname: ucc-your-c-compiler }
+- { name: ucc, sourceforge: ucc, setname: ucc-your-c-compiler }
 - { name: ucc, addflag: unclassified }
 
 - { name: uclibc, wwwpart: uclibc-ng, setname: uclibc-ng } # XXX: problem
@@ -41,6 +41,6 @@
 - { name: usql, wwwpart: cybergarage, setname: usql-parser }
 - { name: usql, addflag: unclassified }
 
-- { name: uwm, wwwpart: uwm.sourceforge.net, setname: uwm-microwm }
+- { name: uwm, sourceforge: uwm, setname: uwm-microwm }
 - { name: uwm, wwwpart: udeproject, setname: uwm-ude }
 - { name: uwm, addflag: unclassified }

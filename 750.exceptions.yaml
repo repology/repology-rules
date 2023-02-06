@@ -54,7 +54,7 @@
 - { setname: ruby,                     name: "ruby:gdbm", verge: "2.3" } # *BSD: part of ruby, not "gdbm" rubygem
 - { setname: memtest86+,               name: memtest86, verpat: "5.*" } # pisi, t2
 - { setname: gnome-keyring,            name: libgnome-keyring, ruleset: pisi }
-- { setname: "python:config-py-dmgass", name: "python:config", wwwpart: config-py.sourceforge.net }
+- { setname: "python:config-py-dmgass", name: "python:config", sourceforge: config-py }
 - { setname: lrs-lang,                 name: lrs, wwwpart: lrs-lang }
 - { setname: xtrlock-pam,              name: xtrlock, wwwpart: xtrlock-pam }
 - { setname: file,                     name: "python:magic", ruleset: freebsd }
@@ -83,7 +83,8 @@
 - { setname: "python:python-wifi",     name: "python:wifi", wwwpart: [python-wifi,pythonwifi] }
 - { setname: "python:python-wifi",     name: "python:wifi", ruleset: [pclinuxos, maemo] }
 - {                                    name: unclutter, verpat: "(0\\.)?8(-[0-9]+)?", addflag: plain_unclutter }
-- {                                    name: unclutter, wwwpart: [unclutter.sourceforge.net,debian], addflag: plain_unclutter }
+- {                                    name: unclutter, wwwpart: debian, addflag: plain_unclutter }
+- {                                    name: unclutter, sourceforge: unclutter, addflag: plain_unclutter }
 - { setname: unclutter-xfixes,         name: unclutter, noflag: plain_unclutter } # see #269; XXX: problem
 - { setname: dtorrent,                 name: ctorrent, wwwpart: [dtorrent,dholmes] }
 - { setname: dtorrent,                 name: ctorrent, verpat: ".*dnh.*" }

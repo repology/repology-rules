@@ -39,7 +39,7 @@
 - { name: adios, addflag: unclassified }
 
 - { name: adl, wwwpart: RaitaroH, setname: adl-anime-downloader }
-- { name: adl, wwwpart: adl.sourceforge.net, setname: adl-adventure-definition-language }
+- { name: adl, sourceforge: adl, setname: adl-adventure-definition-language }
 - { name: adl, addflag: unclassified }
 
 - { name: agave, wwwpart: colorscheme, setname: agave-colorscheme }
@@ -56,7 +56,8 @@
 - { name: aget, addflag: unclassified }
 
 - { name: agg, wwwpart: [asciinema], setname: agg-asciinema }
-- { name: agg, wwwpart: [antigrain, anti-grain, agg.sf.net, agg.sourceforge, sourceforge.net/projects/agg], setname: agg-antigrain }
+- { name: agg, wwwpart: [antigrain, anti-grain], setname: agg-antigrain }
+- { name: agg, sourceforge: agg, setname: agg-antigrain }
 - { name: agg, addflag: unclassified }
 
 - { name: agrep, verge: "4.17", setname: agrep-debian } # debian fork
@@ -139,7 +140,7 @@
 - { name: anna, addflag: unclassified }
 
 - { name: antimony, wwwpart: keeter, setname: antimony-cad }
-- { name: antimony, wwwpart: antimony.sourceforge.net, setname: antimony-mdl }
+- { name: antimony, sourceforge: antimony, setname: antimony-mdl }
 - { name: antimony, addflag: unclassified }
 
 - { name: ants, wwwpart: [stnava,antsx,picsl], setname: ants-advanced-normalization-tools }
@@ -188,7 +189,7 @@
 - { name: argp, wwwpart: [lysator,gnu.org], setname: argp-standalone }
 
 - { name: argtable, wwwpart: [argtable.org,argtable3], setname: argtable3 }
-- { name: argtable, wwwpart: [argtable.sourceforge.net,sourceforge.net/projects/argtable/], setname: argtable2 }
+- { name: argtable, sourceforge: argtable, setname: argtable2 }
 - { name: argtable, addflag: unclassified }
 
 # both argus projects refer to monitoring, but argus-monitor name is already used in macports
@@ -242,10 +243,11 @@
 - { name: async, addflag: unclassified }
 
 - { name: aterm, wwwpart: meta-environment, setname: libaterm } # reuse name from macports
-- { name: aterm, wwwpart: [aterm.sourceforge.net, sourceforge.net/projects/aterm, afterstep.org], setname: aterm-terminal }
+- { name: aterm, wwwpart: afterstep.org, setname: aterm-terminal }
+- { name: aterm, sourceforge: aterm, setname: aterm-terminal }
 - { name: aterm, addflag: unclassified }
 
-- { name: atlas, wwwpart: [/atlas.sourceforge.net,sourceforge.net/projects/atlas], setname: fgfs-atlas }
+- { name: atlas, sourceforge: atlas, setname: fgfs-atlas }
 - { name: atlas, wwwpart: worldforge, setname: atlas-c++ }
 - { name: atlas, wwwpart: math-atlas, setname: atlas-linear-algebra }
 - { name: atlas, wwwpart: atlas-whole-genome-assembly-suite, setname: atlas-whole-genome-assembly-suite }

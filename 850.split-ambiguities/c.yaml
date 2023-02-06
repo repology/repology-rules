@@ -8,7 +8,8 @@
 - { name: cage, wwwpart: hjdskes, setname: cage-kiosk }
 - { name: cage, addflag: unclassified }
 
-- { name: calc, wwwpart: [isthe,sourceforge.net/projects/calc], setname: calc-arbitrary-precision-calculator }
+- { name: calc, wwwpart: isthe, setname: calc-arbitrary-precision-calculator }
+- { name: calc, sourceforge: calc, setname: calc-arbitrary-precision-calculator }
 - { name: calc, wwwpart: darshanparajuli, setname: calc-darshanparajuli }
 - { name: calc, wwwpart: directory.fsf.org/project/calc, setname: "emacs:calc" }
 - { name: calc, wwwpart: alfredxing, setname: calc-alfredxing }
@@ -59,7 +60,7 @@
 - { name: ccl, summpart: cigi, setname: cigi-ccl }
 
 - { name: cdcover, category: dev-tex, setname: "texlive:cdcover" }
-- { name: cdcover, wwwpart: [cdcover.sourceforge], setname: cdcover-rschaeuble }
+- { name: cdcover, sourceforge: cdcover, setname: cdcover-rschaeuble }
 - { name: cdcover, wwwpart: karlp, setname: cdcover-karlp }
 - { name: cdcover, ver: "0.9.1", setname: cdcover-karlp } # ancient ubuntu without url - version is unlikely to change
 - { name: cdcover, ruleset: aosc, setname: cdcover-rschaeuble }
@@ -178,7 +179,7 @@
 - { name: crimson, wwwpart: [aldusleaf,skosch], setname: "fonts:crimson" }
 - { name: crimson, addflag: unclassified }
 
-- { name: crosswords, wwwpart: xwords.sourceforge.io, setname: crosswords-android }
+- { name: crosswords, sourceforge: xwords, setname: crosswords-android }
 - { name: crosswords, wwwpart: gnome, setname: gnome-crosswords }
 - { name: crosswords, addflag: unclassified }
 
@@ -200,12 +201,12 @@
 - { name: ck,                          setname: ck-tcl, ruleset: gentoo, category: dev-tcltk }
 - { name: [ck,concurrency-kit,libck],  setname: concurrencykit } # XXX: move to 800?
 
-- { name: clac, wwwpart: sourceforge, setname: clac-mborg }
+- { name: clac, sourceforge: clac, setname: clac-mborg }
 - { name: clac, wwwpart: soveran, setname: clac-soveran }
 - { name: clac, addflag: unclassified }
 
 - { name: clean, wwwpart: clean.cs, setname: clean-lang }
-- { name: clean, wwwpart: [sourceforge.net/projects/clean, clean.sourceforge.io], setname: clean-file-remover }
+- { name: clean, sourceforge: clean, setname: clean-file-remover }
 - { name: clean, summpart: "programming language", setname: clean-lang }
 - { name: clean, addflag: unclassified }
 
@@ -225,7 +226,7 @@
 - { name: clog, ruleset: freebsd,  setname: clog-tcp-logger }
 - { name: clog, addflag: unclassified }
 
-- { name: cmix, wwwpart: cmix.sourceforge.net, setname: cmix-mixer } # relic from 2002
+- { name: cmix, sourceforge: cmix, setname: cmix-mixer } # relic from 2002
 
 - { name: cmt, wwwpart: ladspa, setname: ladspa-cmt }
 - { name: cmt, ruleset: openbsd, setname: ladspa-cmt }
@@ -289,7 +290,7 @@
 - { name: crawl, wwwpart: develz, setname: stone-soup }
 - { name: crawl, category: games, setname: stone-soup }
 
-- { name: ctags, wwwpart: [ctags.sourceforge.net,ctags.sf.net], setname: exuberant-ctags }
+- { name: ctags, sourceforge: ctags, setname: exuberant-ctags }
 - { name: ctags, wwwpart: [universal,ctags.io], setname: universal-ctags }
 - { name: ctags, verpat: "5\\.[78].*", setname: exuberant-ctags }
 - { name: ctags, ruleset: [aosc], setname: universal-ctags }
@@ -306,7 +307,7 @@
 
 - { name: cutter, wwwpart: [digitage,lowth], setname: cutter-tcp } # TCP/IP Connection Cutter
 - { name: cutter, category: [net,universe/net,Networking/Other], setname: cutter-tcp }
-- { name: cutter, wwwpart: cutter.sourceforge, setname: cutter-unittest }
+- { name: cutter, sourceforge: cutter, setname: cutter-unittest }
 - { name: cutter, summpart: testing, setname: cutter-unittest }
 - { name: cutter, wwwpart: [radare,cutter.re], setname: radare2-cutter }
 - { name: cutter, summpart: radare, setname: radare2-cutter }

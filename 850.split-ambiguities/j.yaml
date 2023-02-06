@@ -22,7 +22,7 @@
 - { name: jail, addflag: unclassified }
 
 - { name: jal, wwwpart: unimi, setname: jal-java-stl-port }
-- { name: jal, wwwpart: [jal.sourceforge,sourceforge.net/projects/jal], setname: jal-lang }
+- { name: jal, sourceforge: jal, setname: jal-lang }
 - { name: jal, wwwpart: softmile, setname: jal-java-application-loader }
 - { name: jal, addflag: unclassified }
 
@@ -123,7 +123,7 @@
 - { name: julia-compat, wwwpart: julialang.org, setname: julia, weak_devel: true, nolegacy: true } # legacy julia
 - { name: julia-compat, addflag: unclassified }
 
-- { name: julius, wwwpart: [julius.sourceforge.jp,julius-speech], setname: julius-speech }
+- { name: julius, wwwpart: [julius-speech,julius.osdn.jp], setname: julius-speech }
 - { name: julius, wwwpart: bvschaik, setname: julius-caesar3 }
 - { name: julius, category: games, setname: julius-caesar3 }
 - { name: julius, addflag: unclassified }

@@ -74,7 +74,8 @@
 - { name: renderer, wwwpart: grafana, setname: grafana-image-renderer } # XXX: nix problem
 - { name: renderer, addflag: unclassified }
 
-- { name: rescue, wwwpart: rescue.sourceforge.net, setname: rescue-max }
+- { name: rescue, sourceforge: rescue, setname: rescue-max }
+- { name: rescue, addflag: unclassified }
 
 - { name: revbump, wwwpart: pkgsrc, setname: revbump-pkgsrc }
 - { name: revbump, addflag: unclassified }
@@ -122,7 +123,7 @@
 
 - { name: rsync, wwwpart: cwrsync, setname: cwrsync }
 
-- { name: rtf2html, wwwpart: sourceforge.net/projects/rtf2html, addflag: classified }
+- { name: rtf2html, sourceforge: rtf2html, addflag: classified }
 - { name: rtf2html, addflag: unclassified }
 
 - { name: ruby, wwwpart: rubyinstaller, setname: rubyinstaller }

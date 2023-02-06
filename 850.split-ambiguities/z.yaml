@@ -18,8 +18,9 @@
 - { name: zed, wwwpart: authzed, setname: "zed-spicedb" }
 - { name: zed, addflag: unclassified }
 
-- { name: zimg, wwwpart: sourceforge, setname: zimg-vis }
-- { name: zimg, ruleset: hpux, setname: zimg-vis }
+- { name: zimg, sourceforge: zimg, setname: zimg-vis }
+- { name: zimg, wwwpart: sekrit-twc, setname: zimg-image-processing }
+- { name: zimg, addflag: unclassified }
 
 - { name: zinc, wwwpart: logiqx, setname: zinc-emulator }
 - { name: zinc, wwwpart: sbt, setname: zinc-compiler }

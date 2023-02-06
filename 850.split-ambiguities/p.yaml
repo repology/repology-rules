@@ -2,7 +2,7 @@
 
 - { name: p7zip, wwwpart: szcnick, setname: p7zip-szcnick } # fork
 - { name: p7zip, wwwpart: jinfeihan57, setname: p7zip-jinfeihan57 } # active fork
-- { name: p7zip, wwwpart: sourceforge, setname: p7zip-original }
+- { name: p7zip, sourceforge: p7zip, setname: p7zip-original }
 - { name: p7zip, addflag: unclassified }
 
 - { name: pac, wwwpart: [davidtv,pacmanager], setname: pacmanager }
@@ -17,7 +17,8 @@
 - { name: pack, wwwpart: iphelix, setname: pack-passwords }
 - { name: pack, addflag: unclassified }
 
-- { name: packit, wwwpart: [packit.sourceforge.net,eribertomota,resurrecting-open-source-projects,openwall,obtuse], setname: packit-network-auditing-tool }
+- { name: packit, sourceforge: packit, setname: packit-network-auditing-tool }
+- { name: packit, wwwpart: [eribertomota,resurrecting-open-source-projects,openwall,obtuse], setname: packit-network-auditing-tool }
 - { name: packit, wwwpart: [packit-service,github.com/packit/packit], setname: packit-packaging-tool }
 - { name: packit, category: [net,universe/net], setname: packit-network-auditing-tool }
 - { name: packit, addflag: unclassified }
@@ -53,7 +54,7 @@
 - { name: papyrus, addflag: unclassified }
 
 - { name: par, wwwpart: nicemice, setname: par-paragraph-reformatter }
-- { name: par, wwwpart: parchive.sourceforge, setname: par-parchive }
+- { name: par, sourceforge: parchive, setname: par-parchive }
 - { name: par, wwwpart: par2cmdline, setname: par2cmdline }
 - { name: par, addflag: unclassified }
 
@@ -101,7 +102,8 @@
 - { name: "php:soap", wwwpart: pear, addflag: classified }
 - { name: "php:soap", noflag: classified, setname: php, addflavor: soap }
 
-- { name: picard, wwwpart: [picard.sourceforge.net,sourceforge.net/projects/picard,broadinstitute], setname: picard-tools } # reuse widely used name
+- { name: picard, sourceforge: picard, setname: picard-tools } # reuse widely used name
+- { name: picard, wwwpart: broadinstitute, setname: picard-tools } # reuse widely used name
 - { name: picard, wwwpart: brainz, setname: picard-tagger }
 - { name: picard, addflag: unclassified }
 
@@ -180,7 +182,8 @@
 - { name: pmenu, addflag: unclassified }
 
 - { name: pms, wwwpart: ps3, setname: pms-ps3 }
-- { name: pms, wwwpart: [ambientsound,pms.sourceforge], setname: pms-practical-music-search }
+- { name: pms, wwwpart: ambientsound, setname: pms-practical-music-search }
+- { name: pms, sourceforge: pms, setname: pms-practical-music-search }
 - { name: pms, wwwpart: package_manager_specification, setname: pms-package-manager-specification }
 - { name: pms, wwwpart: passwordms, setname: pms-passwordms }
 - { name: pms, category: [media-sound,audio], setname: pms-practical-music-search }
@@ -245,7 +248,8 @@
 - { name: prey, wwwpart: [preyproject.com,prey-node-client], setname: prey-anti-theft }
 - { name: prey, addflag: unclassified }
 
-- { name: price, wwwpart: [price.sourceforge.net, sourceforge.net/projects/price, cs.ut.ee], setname: gnustep-price }
+- { name: price, sourceforge: price, setname: gnustep-price }
+- { name: price, wwwpart: cs.ut.ee, setname: gnustep-price }
 - { name: price, wwwpart: derisilab, setname: price-genome-assembler }
 - { name: price, addflag: unclassified }
 
@@ -292,7 +296,7 @@
 
 - { name: pulp, wwwpart: bodil, setname: "node:pulp" }
 
-- { name: pulsar, wwwpart: pulsar.sourceforge.net, setname: pulsar-pop3-daemon }
+- { name: pulsar, sourceforge: pulsar, setname: pulsar-pop3-daemon }
 - { name: pulsar, wwwpart: hgascon, setname: pulsar-protocol-learning }
 - { name: pulsar, addflag: unclassified }
 

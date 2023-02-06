@@ -32,7 +32,8 @@
 - { name: tcat, wwwpart: rsc, setname: tablecat } # reuse name from macports
 - { name: tcat, addflag: unclassified }
 
-- { name: tcl, wwwpart: [tcl.tk,tcl.sourceforge,sourceforge.net/projects/tcl,tcl-lang,tcltk], setname: tcl-lang }
+- { name: tcl, wwwpart: [tcl.tk,tcl-lang,tcltk], setname: tcl-lang }
+- { name: tcl, sourceforge: tcl, setname: tcl-lang }
 - { name: tcl, wwwpart: bsc-pm, setname: tcl-checkpointing-library }
 - { name: tcl, addflag: unclassified }
 
@@ -262,7 +263,8 @@
 - { name: tv, wwwpart: uzimaru0000, setname: tv-format-as-table }
 - { name: tv, addflag: unclassified }
 
-- { name: tvision, wwwpart: [tvision.sourceforge.net, set-soft], setname: rhtvision } # Salvador E. Tropea; reuse widely used name
+- { name: tvision, sourceforge: tvision, setname: rhtvision } # Salvador E. Tropea; reuse widely used name
+- { name: tvision, wwwpart: set-soft, setname: rhtvision } # Salvador E. Tropea; reuse widely used name
 - { name: tvision, wwwpart: sergio, setname: tvision-sergio } # Sergio Sigala
 - { name: tvision, wwwpart: magiblot, setname: tvision-magiblot }
 - { name: tvision, addflag: unclassified }
@@ -277,7 +279,8 @@
 - { name: twiggy, wwwpart: cpan, setname: "perl:twiggy" }
 - { name: twiggy, addflag: unclassified }
 
-- { name: twin, wwwpart: [sourceforge.net/projects/twin,cosmos72], setname: twin-textmode-environment }
+- { name: twin, sourceforge: twin, setname: twin-textmode-environment }
+- { name: twin, wwwpart: cosmos72, setname: twin-textmode-environment }
 # also upstreamless winapi emulator
 - { name: twin, addflag: unclassified }
 

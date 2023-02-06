@@ -34,12 +34,12 @@
 
 - { name: sbd, wwwpart: clusterlabs, setname: sbd-storage-based-death }
 - { name: sbd, wwwpart: [packetstorm,tigerteam], setname: sbd-netcat }
-- { name: sbd, wwwpart: sourceforge.net/projects/sbd, setname: sbd-secure-back-door }
+- { name: sbd, sourceforge: sbd, setname: sbd-secure-back-door }
 - { name: sbd, addflag: unclassified }
 
 - { name: scala, wwwpart: ccp4, setname: scala-ccp4 }
 
-- { name: scamp, wwwpart: sourceforge.net/projects/scamp, setname: scamp-clamav }
+- { name: scamp, sourceforge: scamp, setname: scamp-clamav }
 
 - { name: scc, wwwpart: boyter, setname: scc-sloc-cloc-and-code }
 - { name: scc, wwwpart: 2f30, setname: scc-suckless-c-compiler }
@@ -62,7 +62,7 @@
 - { name: scream, wwwpart: streetwalrus, setname: scream-x11-compositor }
 - { name: scream, addflag: unclassified }
 
-- { name: screenruler, wwwpart: screenruler.sourceforge.io, setname: screenruler-bluegrams }
+- { name: screenruler, sourceforge: screenruler, setname: screenruler-bluegrams }
 - { name: screenruler, wwwpart: [gnome, launchpad], setname: gnome-screenruler }
 - { name: screenruler, ruleset: [aosc], setname: gnome-screenruler }
 - { name: screenruler, addflag: unclassified }
@@ -127,7 +127,7 @@
 - { name: shake, wwwpart: luaforge, setname: shake-lua }
 # otherwise defragmenter
 
-- { name: shed, wwwpart: [sourceforge, shed.sf.net], setname: shed-hex-editor }
+- { name: shed, sourceforge: shed, setname: shed-hex-editor }
 - { name: shed, wwwpart: enkomio, setname: shed-net-inspector }
 - { name: shed, wwwpart: catch22, setname: shed-card-game }
 - { name: shed, summpart: "hex editor", setname: shed-hex-editor }
@@ -159,7 +159,7 @@
 - { name: signal, addflag: unclassified }
 
 - { name: signify, wwwpart: [aperezdc,flak,openbsd], setname: signify-openbsd }
-- { name: signify, wwwpart: signify.sf.net, setname: signify-bcwhite }
+- { name: signify, sourceforge: signify, setname: signify-bcwhite }
 - { name: signify, wwwpart: [chneukirchen,outils], setname: outils, addflavor: true }
 - { name: signify, addflag: unclassified }
 
@@ -193,7 +193,7 @@
 - { name: ska, addflag: unclassified }
 
 - { name: ski, wwwpart: esr, setname: ski-game }
-- { name: ski, wwwpart: [ski.sourceforge.net,sourceforge.net/projects/ski], setname: ski-emulator }
+- { name: ski, sourceforge: ski, setname: ski-emulator }
 - { name: ski, addflag: unclassified }
 
 - { name: skim, wwwpart: scim, setname: skim-scim }
@@ -245,7 +245,7 @@
 
 - { name: smc, wwwpart: secretmaryo, setname: secret-maryo-chronicles }
 - { name: smc, category: [games-arcade,games,Games/Arcade], setname: secret-maryo-chronicles }
-- { name: smc, wwwpart: smc.sourceforge.net, setname: smc-state-machine-compiler }
+- { name: smc, sourceforge: smc, setname: smc-state-machine-compiler }
 - { name: smc, addflag: unclassified }
 
 - { name: smem, verpat: "2007.*", ruleset: gentoo, setname: smem.pl } # unrelated python script
@@ -284,7 +284,6 @@
 - { name: sokoban, wwwpart: dansoft, setname: sokoban-dansoft }
 - { name: sokoban, category: app-emacs, setname: sokoban-emacs }
 - { name: sokoban, ruleset: freebsd, setname: sokoban-ncurses }
-- { name: sokoban, wwwpart: sourceforge.net/projects/sokoban, setname: sokoban-tgfcoder }
 - { name: sokoban, addflag: unclassified }
 
 - { name: solanum, wwwpart: ircd, setname: solanum-ircd }
@@ -325,7 +324,7 @@
 - { name: sparrow, wwwpart: wallet, setname: sparrow-wallet }
 - { name: sparrow, addflag: unclassified }
 
-- { name: sparse, wwwpart: sparse.sourceforge.net, setname: sparse-equation-solver }
+- { name: sparse, sourceforge: sparse, setname: sparse-equation-solver }
 - { name: sparse, wwwpart: kernel.org, setname: sparse-semantic-parser }
 - { name: sparse, addflag: unclassified }
 
@@ -339,7 +338,7 @@
 - { name: spectacle, vergt: "17", setname: spectacle-kde }
 - { name: spectacle, addflag: unclassified }
 
-- { name: spectcl, wwwpart: spectcl.sourceforge.net, setname: spectcl-gui-builder }
+- { name: spectcl, sourceforge: spectcl, setname: spectcl-gui-builder }
 - { name: spectcl, wwwpart: nsclspectcl, setname: spectcl-nscl }
 - { name: spectcl, addflag: unclassified }
 
@@ -366,7 +365,7 @@
 - { name: spike, addflag: unclassified }
 
 - { name: spin, category: [dev-java,Development/Java], setname: "java:spin" }
-- { name: spin, wwwpart: spin.sourceforge.net, setname: "java:spin" }
+- { name: spin, sourceforge: spin, setname: "java:spin" }
 - { name: spin, summpart: spinner, setname: spin-spinner }
 - { name: spin, wwwpart: spinroot, setname: spin-verification }
 - { name: spin, ruleset: [pld,openbsd], setname: spin-verification }
@@ -470,7 +469,7 @@
 
 - { name: surf, wwwpart: suckless, setname: surf-browser }
 - { name: surf, wwwpart: uiuc, setname: surf-surface } # Solvent accessible Surface calculator
-- { name: surf, wwwpart: [surf.sf.net, surf.sourceforge.net], setname: surf-alggeo }
+- { name: surf, sourceforge: surf, setname: surf-alggeo }
 - { name: surf, summpart: geometry, setname: surf-alggeo }
 - { name: surf, summpart: browser, setname: surf-browser }
 - { name: surf, addflag: unclassified }

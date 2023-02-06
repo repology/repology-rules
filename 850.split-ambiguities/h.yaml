@@ -25,7 +25,7 @@
 - { name: hatchet, addflag: unclassified }
 
 - { name: hd-idle, wwwpart: adelolmo, setname: hd-idle-adelolmo }
-- { name: hd-idle, wwwpart: [sf.net, sourceforge], setname: hd-idle-cjmueller }
+- { name: hd-idle, sourceforge: hd-idle, setname: hd-idle-cjmueller }
 - { name: hd-idle, addflag: unclassified }
 
 - { name: hdf,                         verpat: "5\\.([0-9]+\\.[0-9]+\\.[0-9]+)", setver: $1, setname: hdf5 } # XXX: problem
@@ -98,11 +98,12 @@
 - { name: hourglass, wwwpart: sgpthomas, setname: hourclass-clock-app }
 - { name: hourglass, wwwpart: dziemborowicz, setname: hourclass-windows-countdown-timer }
 - { name: hourglass, wwwpart: regehr, setname: hourclass-cpu-scheduling }
-- { name: hourglass, wwwpart: [sourceforge.net/projects/hourglass,hourglass.wiki.sourceforge.net], setname: hourclass-time-tracking }
+- { name: hourglass, sourceforge: hourglass, setname: hourclass-time-tracking }
 - { name: hourglass, addflag: unclassified }
 
 - { name: howl, wwwpart: [howl.io,howl-editor], setname: howl-editor }
-- { name: howl, wwwpart: [howl.sourceforge,porchdogsoft], setname: howl-zeroconf }
+- { name: howl, sourceforge: howl, setname: howl-zeroconf }
+- { name: howl, wwwpart: porchdogsoft, setname: howl-zeroconf }
 - { name: howl, addflag: unclassified }
 
 - { name: hpack, wwwpart: twitter, setname: hpack-header-compression }

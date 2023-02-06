@@ -27,12 +27,12 @@
 - { name: eden, wwwpart: gromacs, setname: eden-crystallography }
 - { name: eden, addflag: unclassified }
 
-- { name: edge, wwwpart: sourceforge, setname: edge-engine }
+- { name: edge, sourceforge: edge, setname: edge-engine }
 - { name: edge, wwwpart: microsoft, setname: edge-browser }
 - { name: edge, addflag: unclassified }
 
 - { name: edi, wwwpart: [enlightenment, edi-ide], setname: edi-ide }
-- { name: edi, wwwpart: edi.sourceforge.net, setname: edi-editor }
+- { name: edi, sourceforge: edi, setname: edi-editor }
 - { name: edi, addflag: unclassified }
 
 - { name: editline, wwwpart: troglobit, setname: editline-troglobit }
@@ -41,7 +41,8 @@
 - { name: editline, ruleset: debuntu, setname: editline-debian } # source unknown
 - { name: editline, addflag: unclassified }
 
-- { name: eject, wwwpart: [tranter,eject.sourceforge.net], setname: eject-tranter }
+- { name: eject, wwwpart: tranter, setname: eject-tranter }
+- { name: eject, sourceforge: eject, setname: eject-tranter }
 - { name: eject, wwwpart: [raizlabs,rightpoint], setname: eject-swift }
 - { name: eject, addflag: unclassified }
 
@@ -62,7 +63,7 @@
 
 - { name: elixir, wwwpart: elixir.ematia.de, setname: "python:elixir" }
 
-- { name: elk, wwwpart: elk.sourceforge.net, setname: elkcode }
+- { name: elk, sourceforge: elk, setname: elkcode }
 - { name: elk, wwwpart: sam.zoy.org, setname: elk-scheme }
 - { name: elk, category: [lisp,universe/interpreters], setname: elk-scheme }
 - { name: elk, summpart: scheme, setname: elk-scheme }
@@ -81,7 +82,7 @@
 - { name: ember, wwwpart: sst, setname: ember-element-library }
 - { name: ember, addflag: unclassified }
 
-- { name: emma, wwwpart: sourceforge, setname: emma-coverage }
+- { name: emma, sourceforge: emma, setname: emma-coverage }
 - { name: emma, wwwpart: [seeschloss,koter85,clayadavis], setname: emma-mysql }
 - { name: emma, addflag: unclassified }
 
@@ -105,13 +106,13 @@
 - { name: epic, addflag: unclassified }
 
 # not a browser
-- { name: epiphany,                    wwwpart: epiphany.sourceforge.net, setname: epiphany-game }
-- { name: epiphany,                    category: games-arcade, setname: epiphany-game }
+- { name: epiphany, sourceforge: epiphany, setname: epiphany-game }
+- { name: epiphany, category: games-arcade, setname: epiphany-game }
 
 - { name: epsilon, wwwpart: lugaru, setname: epsilon-editor }
 - { name: epsilon, wwwpart: enlightenment, setname: epsilon-thumbnailing-library }
 - { name: epsilon, wwwpart: [launchpad.net/epsilon,divmod], setname: "python:epsilon" }
-- { name: epsilon, wwwpart: epsilon-project.sourceforge, setname: epsilon-compressor } # namy already used by pld
+- { name: epsilon, sourceforge: epsilon-project, setname: epsilon-compressor } # namy already used by pld
 - { name: epsilon, summpart: wavelet, setname: epsilon-compressor }
 - { name: epsilon, ruleset: aix, setname: epsilon-compressor }
 - { name: epsilon, addflag: unclassified }

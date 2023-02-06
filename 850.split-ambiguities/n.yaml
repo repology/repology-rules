@@ -118,7 +118,8 @@
 - { name: nsh, addflag: unclassified }
 
 - { name: nsnake, wwwpart: malikania, setname: nsnake-malikania }
-- { name: nsnake, wwwpart: [alexdantas,nsnake.sourceforge.net], setname: nsnake-alexdantas }
+- { name: nsnake, wwwpart: alexdantas, setname: nsnake-alexdantas }
+- { name: nsnake, sourceforge: nsnake, setname: nsnake-alexdantas }
 - { name: nsnake, addflag: unclassified }
 
 - { name: nstat, ruleset: freebsd, setname: nstat-netflix }
@@ -131,7 +132,7 @@
 - { name: nu, wwwpart: nushell, setname: nushell }
 - { name: nu, addflag: unclassified }
 
-- { name: nut, wwwpart: [nut.sourceforge,sourceforge.net/projects/nut], setname: nut-nutrition }
+- { name: nut, sourceforge: nut, setname: nut-nutrition }
 - { name: nut, ruleset: hpux, setname: nut-nutrition }
 
 - { name: nvi, verpat: "2\\..*",       setname: nvi2 }

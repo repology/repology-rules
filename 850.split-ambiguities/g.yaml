@@ -88,11 +88,13 @@
 - { name: glance, wwwpart: [openstack,launchpad.net/glance], setname: openstack-glance }
 - { name: glance, addflag: unclassified }
 
-- { name: gle, wwwpart: [gle-graphics,glx.sourceforge.net,glx.sf.net], setname: gle-graphics }
-- { name: gle, wwwpart: [linas,sourceforge.net/projects/gle], setname: gle-tubing-and-extrusion }
+- { name: gle, wwwpart: gle-graphics, setname: gle-graphics }
+- { name: gle, sourceforge: glx, setname: gle-graphics }
+- { name: gle, wwwpart: linas, setname: gle-tubing-and-extrusion }
+- { name: gle, sourceforge: gle, setname: gle-tubing-and-extrusion }
 - { name: gle, addflag: unclassified }
 
-- { name: glide, wwwpart: glide.sf.net, setname: glide-3dfx }
+- { name: glide, sourceforge: glide, setname: glide-3dfx }
 - { name: glide, setname: "go:glide" }
 
 - { name: glimpse, wwwpart: glimpse-editor, setname: glimpse-gimp }
@@ -187,7 +189,8 @@
 - { name: grin, wwwpart: [pypi/grin,rkern], setname: grin-grep }
 - { name: grin, addflag: unclassified }
 
-- { name: grip, wwwpart: [sourceforge.net/projects/grip,nostatic.org/grip], setname: grip-cd-ripper }
+- { name: grip, sourceforge: grip, setname: grip-cd-ripper }
+- { name: grip, wwwpart: nostatic.org/grip, setname: grip-cd-ripper }
 - { name: grip, wwwpart: kokoko3k, setname: grip-gambas-previewer }
 - { name: grip, wwwpart: joeyespo, setname: grip-markdown-preview }
 - { name: grip, wwwpart: wpiroboticsprojects, setname: grip-computer-vision }
@@ -212,7 +215,8 @@
 - { name: gst, wwwpart: leinardi, setname: gtkstresstesting }
 - { name: gst, addflag: unclassified }
 
-- { name: gts, wwwpart: [gts.sourceforge.net,gts.sourceforge.io,finetjul], setname: gts-triangulated-surface }
+- { name: gts, sourceforge: gts, setname: gts-triangulated-surface }
+- { name: gts, wwwpart: finetjul, setname: gts-triangulated-surface }
 - { name: gts, wwwpart: opentoonz, setname: gts-scanning-tool }
 - { name: gts, addflag: unclassified }
 

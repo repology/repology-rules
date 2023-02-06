@@ -16,7 +16,8 @@
 - { name: fd, wwwpart: vector.co.jp, setname: fdclone }
 - { name: fd, addflag: unclassified }
 
-- { name: fdm, wwwpart: [nicm,fdm.sf.net,sourceforge.net/projects/fdm], setname: fdm-email-fetcher }
+- { name: fdm, wwwpart: nicm, setname: fdm-email-fetcher }
+- { name: fdm, sourceforge: fdm, setname: fdm-email-fetcher }
 # free download manager, upstream unknown
 - { name: fdm, addflag: unclassified }
 
@@ -37,7 +38,7 @@
 - { name: ferret, addflag: unclassified }
 
 - { name: fetch, wwwpart: freebsd, setname: fetch-freebsd }
-- { name: fetch, wwwpart: sourceforge.net/projects/fetch, setname: fetch-lhanson }
+- { name: fetch, sourceforge: fetch, setname: fetch-lhanson }
 - { name: fetch, addflag: unclassified }
 
 - { name: fex, wwwpart: [semicomplete,jordansissel], setname: fex-field-extraction }
@@ -46,7 +47,7 @@
 - { name: fex, addflag: unclassified }
 
 - { name: figurine, wwwpart: arsham, setname: figurine-banner }
-- { name: figurine, wwwpart: sourceforge, setname: figurine-graphics }
+- { name: figurine, sourceforge: figurine, setname: figurine-graphics }
 - { name: figurine, ruleset: gobolinux, setname: figurine-graphics }
 - { name: figurine, addflag: unclassified }
 
@@ -126,7 +127,7 @@
 
 - { name: fpm, wwwpart: fortran, setname: fpm-fortran-package-manager }
 - { name: fpm, wwwpart: jordansissel, setname: fpm-package-builder }
-- { name: fpm, wwwpart: fpm.sourceforge.net, setname: fpm-password-manager }
+- { name: fpm, sourceforge: fpm, setname: fpm-password-manager }
 - { name: fpm, addflag: unclassified }
 
 - { name: fpp, wwwpart: pathpicker, setname: pathpicker } # https://github.com/facebook/PathPicker vs. fortran preprocessor

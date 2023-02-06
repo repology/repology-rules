@@ -13,10 +13,11 @@
 - { name: watson, wwwpart: framework, setname: "python:watson-framework" }
 
 - { name: wcalc, wwwpart: w-calc, setname: wcalc-calculator }
-- { name: wcalc, wwwpart: [sourceforge.net/projects/wcalc,wcalc.sourceforge.net], setname: wcalc-electronics }
+- { name: wcalc, sourceforge: wcalc, setname: wcalc-electronics }
 - { name: wcalc, addflag: unclassified }
 
-- { name: wcd, wwwpart: [waterlan,wcd.sourceforge.net,freshmeat.net/projects/wcd], setname: wcd-werever-change-directory }
+- { name: wcd, wwwpart: [waterlan,freshmeat.net/projects/wcd], setname: wcd-werever-change-directory }
+- { name: wcd, sourceforge: wcd, setname: wcd-werever-change-directory }
 - { name: wcd, wwwpart: wcdest, setname: wcd-est-sequence-clustering }
 - { name: wcd, addflag: unclassified }
 
@@ -43,7 +44,7 @@
 - { name: wio, wwwpart: wio-project.org, setname: wio-compositor }
 - { name: wio, addflag: unclassified }
 
-- { name: wipe, wwwpart: [wipe.sourceforge,wipe.sf.net,sourceforge.net/projects/wipe], setname: wipe-nester }
+- { name: wipe, sourceforge: wipe, setname: wipe-nester }
 - { name: wipe, wwwpart: [berke,lambda-diode,abaababa], setname: wipe-berke }
 - { name: wipe, ruleset: pclinuxos, setname: wipe-nester }
 - { name: wipe, ruleset: pld, setname: wipe-berke }
@@ -69,7 +70,7 @@
 - { name: wop, wwwpart: worldofpadman, setname: worldofpadman }
 - { name: wop, addflag: unclassified }
 
-- { name: words, wwwpart: wordlist.sourceforge.net, setname: words-scrowl }
+- { name: words, sourceforge: wordlist, setname: words-scrowl }
 - { name: words, wwwpart: moby, setname: words-moby }
 - { name: words, wwwpart: whitaker, setname: whitakers-words } # whitakers-words
 - { name: words, wwwpart: ftp.gnu.org/gnu/aspell, setname: words-international }

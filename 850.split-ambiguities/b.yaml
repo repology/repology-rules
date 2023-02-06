@@ -121,7 +121,7 @@
 
 - { name: binclock, wwwpart: ngolde, setname: binclock-ngolde }
 - { name: binclock, wwwpart: frenzymadness, setname: binclock-frenzymadness }
-- { name: binclock, wwwpart: binclock.sourceforge.net, setname: binclock-bzee }
+- { name: binclock, sourceforge: binclock, setname: binclock-bzee }
 - { name: binclock, addflag: unclassified }
 
 - { name: bit, wwwpart: chriswalz, setname: bit-git }
@@ -162,7 +162,8 @@
 - { name: bliss, wwwpart: tcs, setname: bliss-graphs } # name already used by some repos
 - { name: bliss, addflag: unclassified }
 
-- { name: blitz, wwwpart: [blitzpp,blitz.sourceforge,oonumerics,sourceforge.net/projects/blitz], setname: blitz++ }
+- { name: blitz, wwwpart: [blitzpp,oonumerics], setname: blitz++ }
+- { name: blitz, sourceforge: blitz, setname: blitz++ }
 - { name: blitz, addflag: unclassified }
 
 - { name: bloat, wwwpart: freesoftwareextremist, setname: bloat-mastodon-client }
@@ -185,7 +186,8 @@
 - { name: bonsai, wwwpart: mozilla, setname: bonsai-cvs-browser }
 - { name: bonsai, addflag: unclassified }
 
-- { name: boomerang, wwwpart: [boomerang.sourceforge.net,decompiler], setname: boomerang-decompiler }
+- { name: boomerang, sourceforge: boomerang, setname: boomerang-decompiler }
+- { name: boomerang, wwwpart: decompiler, setname: boomerang-decompiler }
 - { name: boomerang, wwwpart: harmony, setname: boomerang-lang }
 - { name: boomerang, addflag: unclassified }
 
@@ -204,7 +206,7 @@
 
 - { name: bos, wwwpart: boswars,                          setname: boswars }
 
-- { name: bosh, wwwpart: [bosh.sourceforge.net,sourceforge.net/projects/bosh], setname: bosh-browsable-output-shell }
+- { name: bosh, sourceforge: bosh, setname: bosh-browsable-output-shell }
 - { name: bosh, wwwpart: schily, setname: schilytools }
 - { name: bosh, addflag: unclassified }
 
@@ -212,7 +214,7 @@
 # otherwise bower.io, js package manager
 
 - { name: brig, wwwpart: [sahib,brig.readthedocs.io], setname: brig-sync }
-- { name: brig, wwwpart: sourceforge.net/projects/brig, setname: brig-genome }
+- { name: brig, sourceforge: brig, setname: brig-genome }
 - { name: brig, addflag: unclassified }
 
 - { name: browserpass, wwwpart: browserpass-native, setname: browserpass-native }

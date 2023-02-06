@@ -13,12 +13,12 @@
 - { name: ice, wwwpart: [peppermintos,pizzalovingnerd], setname: ice-ssb-manager }
 - { name: ice, addflag: unclassified }
 
-- { name: icecc, wwwpart: sourceforge.net/projects/icecc, setname: icecc-icewm }
+- { name: icecc, sourceforge: icecc, setname: icecc-icewm }
 - { name: icecc, wwwpart: icecream, setname: icecream-compiler }
 - { name: icecc, addflag: unclassified }
 
 - { name: icecream, wwwpart: icemon, setname: icemon }
-- { name: icecream, wwwpart: [icecream.sourceforge.net,sourceforge.net/projects/icecream], setname: icecream-stream-download }
+- { name: icecream, sourceforge: icecream, setname: icecream-stream-download }
 - { name: icecream, wwwpart: [icecc,opensuse.org/icecream], setname: icecream-compiler }
 - { name: icecream, addflag: unclassified }
 
@@ -68,7 +68,8 @@
 - { name: itk, addflag: unclassified }
 
 - { name: itop, wwwpart: [hunz,kargig], setname: itop-monitor }
-- { name: itop, wwwpart: [combodo,sourceforge.net/projects/itop], setname: itop-itsm } # name already used in mageia
+- { name: itop, wwwpart: combodo, setname: itop-itsm } # name already used in mageia
+- { name: itop, sourceforge: itop, setname: itop-itsm } # name already used in mageia
 - { name: itop, summpart: portal, setname: itop-itsm }
 - { name: itop, addflag: unclassified }
 
