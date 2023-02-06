@@ -41,6 +41,7 @@
 - { setname: capistrano,               name: "ruby:capistrano" }
 - { setname: capnproto,                name: [capnp,capnproto-0.6] }
 - { setname: capstone,                 name: capstone4 }
+- { setname: carburetor,               name: python:$0 }
 - { setname: cargo,                    name: ["rust:cargo",rust-toolset-7-cargo] }
 - { setname: cargo,                    name: [cargo-completion,cargo-standalone,cargo-bootstrap,cargo-stage1], addflavor: true }
 - { setname: cargo,                    name: cargo-nightly, weak_devel: true, nolegacy: true }
