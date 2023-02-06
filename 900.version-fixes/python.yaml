@@ -143,6 +143,8 @@
 - { name: "python:pywikibot",          verpat: ".*\\.20[0-9]{6}",                          ignore: false }
 - { name: "python:pyyaml",             ver: "4.1",                                         sink: true } # retracted: https://github.com/yaml/pyyaml/issues/211
 - { name: "python:random2",            ver: "1.0.2",                 ruleset: sisyphus,    incorrect: true }  # never released development snapshot
+- { name: "python:rcssmin",            ver: "1.2.1",                 ruleset: debjanitor,  incorrect: true }
+- { name: "python:rcssmin",                                          ruleset: debjanitor,  untrusted: true } # accused of fake 1.2.1
 - { name: "python:recommonmark",       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "python:scikits.samplerate", ver: "0.4.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: "python:scikits.samplerate",                               ruleset: sisyphus,    untrusted: true } # accused of fake 0.4.0
