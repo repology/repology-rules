@@ -390,6 +390,8 @@
 - { name: swift-lang,                  verlonger: 4,                 ruleset: aur,         setver: snapshot } # trim garbage long version "swift.DEVELOPMENT.SNAPSHOT.2020.06.04.a.r65.gcc84c7b740a"
 - { name: sxiv,                        verpat: "[0-9]{8}",                                 incorrect: true }
 - { name: sxiv,                        ver: "09122016",                                    sink: true } # older than normal versions
+- { name: sylpheed,                    ver: "3.8.0",                 ruleset: aur,         incorrect: true } # 3.8.0beta1
+- { name: sylpheed,                                                  ruleset: aur,         untrusted: true } # accused of fake 3.8.0
 - { name: symlinks,                    ver: "1.7",                   ruleset: rpm,         incorrect: true }
 - { name: symlinks,                                                  ruleset: rpm,         untrusted: true } # accused of fake 1.7
 - { name: syncthing,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
