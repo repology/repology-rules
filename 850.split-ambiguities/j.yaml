@@ -97,8 +97,7 @@
 - { name: jot, addflag: unclassified }
 
 - { name: jp, wwwpart: sgreben, setname: jp-terminal-plots }
-- { name: jp, wwwpart: jmespath, setname: jp-jmespath }
-- { name: jp, wwwpart: jpp, setname: jpp } # XXX: problem
+- { name: jp, wwwpart: github.com/jmespath/jp, setname: jp-jmespath } # not jmespath/jmespath.rs!
 - { name: jp, addflag: unclassified }
 
 - { name: jpeg, wwwpart: turbo, setname: libjpeg-turbo }
