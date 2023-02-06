@@ -151,6 +151,11 @@
 - { name: bless, ruleset: aosc, setname: bless-hex-editor }
 - { name: bless, addflag: unclassified }
 
+- { name: blink, wwwpart: icanblink, setname: blink-sip-client }
+- { name: blink, wwwpart: jart, setname: blink-emulator }
+- { name: blink, wwwpart: ychclone, setname: blink-code-search }
+- { name: blink, addflag: unclassified }
+
 - { name: bliss, summpart: intellivision, setname: bliss-emulator }
 - { name: bliss, summpart: music, setname: bliss-music-analyzer }
 - { name: bliss, summpart: graphs, setname: bliss-graphs } # name already used by some repos
