@@ -65,7 +65,6 @@
 - { name: opencity,                    ver: "0.0.6.5stable",                               ignore: true } # 0.0.6.5; "stable" is not a part of the version
 - { name: opencl,                                                                          noscheme: true } # GH/KhronosGroup/OpenCL-Headers w/o releases or mix of OpenCL-Headers with OpenCL-CLHPP
 - { name: opencl-clhpp,                verpat: "20[0-9]{6}",                               incorrect: true }
-- { name: opencl-clhpp,                ver: "2022.09.30",                                  ignore: true, disposable: true } # until versining scheme resolved https://github.com/KhronosGroup/OpenCL-CLHPP/issues/185
 - { name: opencl-headers,                                                                  noscheme: true }
 - { name: opencollada,                 verpat: ".*3335ac.*",                               incorrect: true }
 - { name: opencollada,                 verpat: "20[0-9]{6}",                               incorrect: true } # aosc
