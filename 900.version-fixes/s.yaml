@@ -230,6 +230,7 @@
 - { name: solarus,                                                    ruleset: [aur,kiss], untrusted: true } # accused of fake 1.6.5
 - { name: solvespace,                  verpat: ".*[0-9]{8}.*",                             ignore: true } # nix garbage
 - { name: sonata,                      verpat: ".*[ab].*",                                 devel: true }
+- { name: soplex,                      verpat: "[0-9]+",                                   incorrect: true } # sagemath
 - { name: soqt,                        ver: ["1.6.0", "1.6.0a"],      ruleset: [aur,debuntu], incorrect: true }
 - { name: soqt,                                                       ruleset: [aur,debuntu], untrusted: true } # accused of fake 1.6.0, 1.6.0a
 - { name: soundfont-personalcopy,      ver: 51f,                                           incorrect: true }
