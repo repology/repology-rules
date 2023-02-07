@@ -30,7 +30,7 @@
 - { setname: zig,                      name: zig-static, addflavor: true }
 - { setname: zim,                      name: "python:zim" }
 - { setname: zim,                      name: zim-wiki }
-- { setname: zimg,                     name: sekrit-twc-zimg }
+- { setname: zimg,                     name: [sekrit-twc-zimg, libzimg, zimgtool] } # different projects, merged in 850
 - { setname: zint,                     name: [zint-gui,zint-qt] }
 - { setname: zipios,                   name: zipios++ } # rebranded
 - { setname: zipper,                   name: libzipper }
