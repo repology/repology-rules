@@ -5,20 +5,17 @@
 
 - { name: saga, wwwpart: saga-gis, setname: saga-gis }
 - { name: saga, wwwpart: saga-cpp, setname: saga-cpp }
-- { name: saga, ruleset: os4depot, setname: saga-game }
 - { name: saga, addflag: unclassified }
 
 - { name: sage, wwwpart: sagemath, setname: sagemath }
-- { name: sage, category: Sciences/Mathematics, setname: sagemath }
-- { name: sage, summpart: mathematics, setname: sagemath }
+- { name: sage, wwwpart: worldforge, setname: worldforge-sage }
+- { name: sage, addflag: unclassified }
 
 - { name: sagittarius, wwwpart: scheme, setname: sagittarius-scheme }
 - { name: sagittarius, addflag: unclassified }
 
 - { name: sam, wwwpart: [simulationcorner,s-macke], setname: sam-speech-synthesizer }
 - { name: sam, wwwpart: deadpixi, setname: sam-editor }
-- { name: sam, summpart: editor, setname: sam-editor }
-- { name: sam, ruleset: t2, setname: sam-t2 }
 - { name: sam, addflag: unclassified }
 
 - { name: sample, wwwpart: silentbicycle, setname: sample-filter }
@@ -64,7 +61,6 @@
 
 - { name: screenruler, sourceforge: screenruler, setname: screenruler-bluegrams }
 - { name: screenruler, wwwpart: [gnome, launchpad], setname: gnome-screenruler }
-- { name: screenruler, ruleset: [aosc], setname: gnome-screenruler }
 - { name: screenruler, addflag: unclassified }
 
 - { name: scripts, wwwpart: [www.x.org,xorg], setname: xorg-scripts }
@@ -79,7 +75,6 @@
 - { name: sdb, wwwpart: mono, setname: sdb-mono }
 - { name: sdb, wwwpart: [shotgun,game], setname: shotgun-debugger }
 - { name: sdb, wwwpart: radare, setname: sdb-hashtable }
-- { name: sdb, ruleset: openmandriva, setname: sdb-client }
 - { name: sdb, addflag: unclassified }
 
 - { name: sdl-sound, relge: "2", setname: sdl2-sound }
@@ -118,7 +113,6 @@
 
 - { name: sge, wwwpart: [liv.ac.uk,gridengine], setname: gridengine }
 - { name: sge, wwwpart: [flibitijibibo,e8cal1], setname: sdl-sge }
-- { name: sge, summpart: spectrum, setname: sge-spectrum-graphics }
 - { name: sge, addflag: unclassified }
 
 - { name: shadowsocks, wwwpart: windows, setname: shadowsocks-windows }
@@ -130,8 +124,6 @@
 - { name: shed, sourceforge: shed, setname: shed-hex-editor }
 - { name: shed, wwwpart: enkomio, setname: shed-net-inspector }
 - { name: shed, wwwpart: catch22, setname: shed-card-game }
-- { name: shed, summpart: "hex editor", setname: shed-hex-editor }
-- { name: shed, ruleset: pld, setname: shed-hex-editor }
 - { name: shed, addflag: unclassified }
 
 - { name: shim, wwwpart: [rhboot,mjg59], setname: shim-loader }
@@ -155,7 +147,6 @@
 
 # there are no other cases than signal-desktop, but stay on safe side
 - { name: signal, wwwpart: [desktop,/signal.org/], setname: signal-desktop }
-- { name: signal, ruleset: chocolatey, setname: signal-desktop }
 - { name: signal, addflag: unclassified }
 
 - { name: signify, wwwpart: [aperezdc,flak,openbsd], setname: signify-openbsd }
@@ -187,7 +178,7 @@
 
 - { name: sk, wwwpart: skim, setname: skim }
 
-- { name: ska, category: net-wireless, setname: ska-wireless }
+- { name: ska, wwwpart: homepages.tu-darmstadt.de, setname: ska-wireless }
 - { name: ska, summpart: kmer, setname: ska-split-kmer }
 - { name: ska, wwwpart: simonrharris, setname: ska-split-kmer }
 - { name: ska, addflag: unclassified }
@@ -227,7 +218,6 @@
 - { name: sls, addflag: unclassified }
 
 - { name: slurm, wwwpart: [mattthias,raisdorf,wormulon], setname: slurm-monitor }
-- { name: slurm, ruleset: [aosc,pkgsrc], setname: slurm-monitor }
 - { name: slurm, wwwpart: [schedmd,llnl], setname: slurm-wlm } # "workload manager": name used in freebsd and pksrc; there's also slurm-llnl, see rule in 800
 - { name: slurm, addflag: unclassified }
 
@@ -244,7 +234,6 @@
 - { name: smart, addflag: unclassified }
 
 - { name: smc, wwwpart: secretmaryo, setname: secret-maryo-chronicles }
-- { name: smc, category: [games-arcade,games,Games/Arcade], setname: secret-maryo-chronicles }
 - { name: smc, sourceforge: smc, setname: smc-state-machine-compiler }
 - { name: smc, addflag: unclassified }
 
@@ -282,8 +271,6 @@
 - { name: sofia-sip, addflag: unclassified }
 
 - { name: sokoban, wwwpart: dansoft, setname: sokoban-dansoft }
-- { name: sokoban, category: app-emacs, setname: sokoban-emacs }
-- { name: sokoban, ruleset: freebsd, setname: sokoban-ncurses }
 - { name: sokoban, addflag: unclassified }
 
 - { name: solanum, wwwpart: ircd, setname: solanum-ircd }
@@ -306,18 +293,14 @@
 - { name: sos, addflag: unclassified }
 
 - { name: sp, wwwpart: jclark, setname: sp-sgml }
-- { name: sp, summpart: sgml, setname: sp-sgml }
 - { name: sp, wwwpart: spcms, setname: sp-school-portal }
-- { name: sp, summpart: school, setname: sp-school-portal }
 - { name: sp, wwwpart: wandernauta, setname: sp-spotify }
-- { name: sp, summpart: spotify, setname: sp-spotify }
 - { name: sp, addflag: unclassified }
 
 - { name: spark, wwwpart: adacore, setname: spark-adacore }
 - { name: spark, wwwpart: apache, setname: apache-spark }
-- { name: spark, wwwpart: zachholman, setname: sparklines }
+- { name: spark, wwwpart: holman, setname: sparklines }
 - { name: spark, wwwpart: igniterealtime, setname: spark-im-client } # name already used in npackd
-- { name: spark, summpart: sparklines, setname: sparklines }
 - { name: spark, addflag: unclassified }
 
 - { name: sparrow, wwwpart: scine, setname: "python:scine-sparrow" }
@@ -334,8 +317,6 @@
 
 - { name: spectacle, wwwpart: kde.org, setname: spectacle-kde }
 - { name: spectacle, wwwpart: meego, setname: spectacle-meego }
-- { name: spectacle, category: ['Graphical desktop/KDE',kde,Graphics,x11,desktop.kde.core], setname: spectacle-kde }
-- { name: spectacle, vergt: "17", setname: spectacle-kde }
 - { name: spectacle, addflag: unclassified }
 
 - { name: spectcl, sourceforge: spectcl, setname: spectcl-gui-builder }
@@ -359,7 +340,6 @@
 
 - { name: spigot, wwwpart: spigotmc, setname: spigot-minecraft }
 - { name: spigot, wwwpart: sgtatham, setname: spigot-calculator }
-- { name: spigot, ruleset: freebsd, setname: spigot-videocapture }
 - { name: spigot, addflag: unclassified }
 
 - { name: spike, wwwpart: riscv, setname: spike-riscv-simulator }
@@ -368,9 +348,7 @@
 
 - { name: spin, category: [dev-java,Development/Java], setname: "java:spin" }
 - { name: spin, sourceforge: spin, setname: "java:spin" }
-- { name: spin, summpart: spinner, setname: spin-spinner }
 - { name: spin, wwwpart: spinroot, setname: spin-verification }
-- { name: spin, ruleset: [pld], setname: spin-verification }
 - { name: spin, addflag: unclassified }
 
 - { name: spl, wwwpart: shakespearelang, setname: shakespeare }
@@ -410,8 +388,6 @@
 - { name: ssss, wwwpart: okoeroo, setname: ssss-okoeroo }
 
 - { name: st, wwwpart: suckless, setname: st-term }
-- { name: st, category: [Terminals,x11,x11-apps], setname: st-term }
-- { name: st, category: [libs,universe/libs,misc,devel], setname: state-threads }
 - { name: st, wwwpart: state-threads, setname: state-threads }
 - { name: st, wwwpart: nferraz, setname: st-statistics }
 - { name: st, addflag: unclassified }
@@ -432,9 +408,6 @@
 
 - { name: step, wwwpart: smallstep, setname: step-smallstep }
 - { name: step, wwwpart: kde.org, setname: step-physical-simulator }
-- { name: step, summpart: physic, setname: step-physical-simulator }
-- { name: step, category: kde, setname: step-physical-simulator }
-- { name: step, ruleset: [kaos,pld,slackware], setname: step-physical-simulator }
 - { name: step, addflag: unclassified }
 
 - { name: sterm, wwwpart: suckless, setname: st-term } # freebsd rename of st; but there's actual sterm project
@@ -472,8 +445,6 @@
 - { name: surf, wwwpart: suckless, setname: surf-browser }
 - { name: surf, wwwpart: uiuc, setname: surf-surface } # Solvent accessible Surface calculator
 - { name: surf, sourceforge: surf, setname: surf-alggeo }
-- { name: surf, summpart: geometry, setname: surf-alggeo }
-- { name: surf, summpart: browser, setname: surf-browser }
 - { name: surf, addflag: unclassified }
 
 - { name: svn2git, wwwpart: [svn-all-fast-export,gitorious.org/svn2git], setname: svn-all-fast-export }
@@ -495,7 +466,6 @@
 - { name: swift, wwwpart: [apple,swift.org], setname: swift-lang }
 - { name: swift, wwwpart: swift.im, setname: swift-im }
 - { name: swift, wwwpart: [openstack,launchpad.net/swift], setname: openstack-swift }
-- { name: swift, summpart: openstack, setname: openstack-swift }
 - { name: swift, addflag: unclassified }
 
 - { name: swm, wwwpart: dcat, setname: swm-simple-window-manager }

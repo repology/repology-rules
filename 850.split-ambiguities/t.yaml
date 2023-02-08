@@ -19,13 +19,10 @@
 
 - { name: task, wwwpart: taskfile, setname: "go:task" }
 - { name: task, wwwpart: taskwarrior, setname: taskwarrior }
-- { name: task, summpart: todo, setname: taskwarrior }
-- { name: task, summpart: "to do", setname: taskwarrior }
 - { name: task, addflag: unclassified }
 
 - { name: tau, wwwpart: gnome, setname: tau-editor }
 - { name: tau, wwwpart: uoregon, setname: tau-fortran-profiling }
-- { name: tau, ruleset: debuntu, setname: tau-fortran-profiling }
 - { name: tau, addflag: unclassified }
 
 - { name: tcat, wwwpart: marcomorain, setname: tcat-time-cat }
@@ -71,16 +68,13 @@
 
 - { name: telegram, wwwpart: [telegram.org,tdesktop], setname: telegram-desktop }
 - { name: telegram, wwwpart: vysheng/tg, setname: telegram-cli }
-- { name: telegram, ruleset: [mx,solus,pclinuxos], setname: telegram-desktop }
 - { name: telegram, addflag: unclassified }
 
 - { name: telnet, wwwpart: apple.com, setname: telnet-apple } # 60
 - { name: telnet, wwwpart: inetutils, setname: inetutils, addflavor: telnet }
 - { name: telnet, wwwpart: microsoft, setname: telnet-microsoft } # 0.9.0
 - { name: telnet, wwwpart: msys, setname: telnet-msys }
-- { name: telnet, ruleset: sisyphus, setname: telnet-openbsd } # 3.0
-- { name: telnet, ruleset: [aix,opensuse], setname: telnet-suse } # 1.2
-- { name: telnet, ver: "0.17", setname: netkit-telnet }
+- { name: telnet, wwwpart: dholland, setname: netkit-telnet }
 - { name: telnet, addflag: unclassified }
 
 - { name: termcolor, wwwpart: [pypi,pythonhosted], setname: "python:termcolor" } # XXX: problem
@@ -98,18 +92,13 @@
 - { name: terraform, setname: gnome-terraform, wwwpart: code.google.com/p/terraform }
 
 - { name: tesseract, wwwpart: tesseract.gg, setname: tesseract-game }
-- { name: tesseract, category: games, setname: tesseract-game }
 - { name: tesseract, wwwpart: tesseract-ocr, setname: tesseract-ocr }
 - { name: tesseract, wwwpart: tessdata, setname: tesseract-ocr-data }
 - { name: tesseract, wwwpart: UB-Mannheim/tesseract, setname: tesseract-ocr, ignore: true } # some kind of fork with version addendum
-- { name: tesseract, summpart: ocr, setname: tesseract-ocr }
-- { name: tesseract, category: [graphics,app-text,libs], setname: tesseract-ocr }
-- { name: tesseract, ruleset: [openwrt,pld,solus], setname: tesseract-ocr }
 - { name: tesseract, addflag: unclassified }
 
 - { name: tf, wwwpart: [tinyfugue,tf.tcp.com], setname: tinyfugue }
 - { name: tf, wwwpart: yanganto, setname: tag-finder }
-- { name: tf, ruleset: [pld,debuntu], setname: tinyfugue }
 - { name: tf, addflag: unclassified }
 
 - { name: tg, wwwpart: vysheng/tg, setname: telegram-cli }
@@ -128,8 +117,7 @@
 - { name: thrift, addflag: unclassified }
 
 - { name: thrust, wwwpart: breach, setname: thrust-framework }
-- { name: thrust, category: [games, universe/games], setname: thrust-game }
-- { name: thrust, wwwpart: [thrust.github.io,thrust.github.com,github.com/thrust/thrust,thrust.googlecode.com], setname: thrust-parallel-library }
+- { name: thrust, wwwpart: [thrust.github.io, nvidia], setname: thrust-parallel-library }
 - { name: thrust, addflag: unclassified }
 
 - { name: ticker, wwwpart: achannarasappa, setname: ticker-achannarasappa }
@@ -150,12 +138,9 @@
 - { name: timer, wwwpart: caarlos0, setname: timer-caarlos0 }
 - { name: timer, addflag: unclassified }
 
-- { name: tint, category: Graphics, setname: tint-photo-editor }
 - { name: tint, wwwpart: indii, setname: tint-photo-editor }
 - { name: tint, wwwpart: [code.google.com/p/tint2,tint2.googlecode.com], setname: tint2 }
 - { name: tint, wwwpart: [frogfoot,packages.debian.org,davidgriffith], setname: tint-tetris }
-- { name: tint, ruleset: debuntu, setname: tint-tetris }
-- { name: tint, category: [games,Amusements/Games/Board/Puzzle], setname: tint-tetris }
 - { name: tint, addflag: unclassified }
 
 - { name: tiptop, wwwpart: [nschloe,pypi.org/project/tiptop/], setname: tiptop-nschloe }
@@ -180,15 +165,13 @@
 
 - { name: tofu, wwwpart: [oomadness,pyserial], setname: tofu-engine }
 - { name: tofu, summpart: todo, setname: tofu-todo }
-- { name: tofu, ruleset: debuntu, setname: tofu-engine }
 - { name: tofu, addflag: unclassified }
 
 - { name: tomcat, wwwpart: tomcat-connectors, setname: tomcat-connectors } # XXX: problem
 
 # tales of majeyal vs. troubles of middle earth
-- { name: tome, verpat: "1\\..*", setname: tales-of-majeyal }
-- { name: tome, verpat: "2\\..*", setname: tome2 }
-- { name: tome, wwwpart: tome.te4.org, setname: tales-of-majeyal } # aur garbage
+- { name: tome, wwwpart: te4.org, setname: tales-of-majeyal }
+- { name: tome, wwwpart: [t-o-m-e,tome2], setname: tales-of-middle-earth }
 - { name: tome, addflag: unclassified }
 
 - { name: toolbox, wwwpart: [github.com/containers,debarshiray], setname: toolbox-development-environment }
@@ -217,7 +200,8 @@
 - { name: tracer, addflag: unclassified }
 
 - { name: traceroute, wwwpart: nanog, setname: traceroute-nanog }
-- { name: traceroute, ruleset: freebsd, setname: traceroute-as }
+- { name: traceroute, sourceforge: traceroute, setname: traceroute-for-linux }
+- { name: traceroute, addflag: unclassified }
 
 - { name: tracker, wwwpart: gnome, setname: gnome-tracker }
 - { name: tracker, wwwpart: [opensourcephysics,physlets], setname: tracker-opensourcephysics }

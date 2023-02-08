@@ -157,8 +157,8 @@
 - { setname: tomcat,                   name: [tomcat-bin,tomcat-examples,tomcat-servlet-api], addflavor: true }
 - { setname: tomcat,                   name: [apache-tomcat, java-tomcat] }
 - { setname: tomcat,                   namepat: "tomcat[0-9.-]+" }
-- { setname: tome,                     name: [t-engine4,tales-of-majeyal,tome4,tome4-data,tome-ah] }
-- { setname: tome,                     name: tome4-beta, ignore: true }
+- { setname: tome,                     name: [t-engine4,tales-of-majeyal,tome4,tome2,tome4-data,tome-ah] }
+- { setname: tome,                     name: tome4-beta, weak_devel: true, nolegacy: true }
 - { setname: tomee,                    name: [tomee-jax-rs,tomee-plume,tomee-plus,tomee-webprofile] }
 - { setname: tomsfastmath,             name: libtomfastmath }
 - { setname: toot,                     name: "python:toot" }

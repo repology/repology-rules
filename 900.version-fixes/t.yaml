@@ -7,6 +7,7 @@
 - { name: taglib,                      verpat: ".*[ab].*",                                 devel: true } # XXX: FreeBSD DISTVERSION
 - { name: taisei,                      verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: takeover,                                                                        noscheme: true } # https://github.com/m4ll0k/takeover/releases
+- { name: tales-of-middle-earth,       ver: "235",                                         incorrect: true }
 - { name: talloc,                      ver: "3.6.2",                 ruleset: pclinuxos,   incorrect: true } # pclinuxos wtf; https://www.samba.org/ftp/talloc/
 - { name: talloc,                                                    ruleset: pclinuxos,   untrusted: true }
 - { name: tapclean,                    verpat: "20[0-9]{6}",                               incorrect: true }
@@ -141,7 +142,6 @@
 - { name: tomahawk,                    verpat: "0\\.8\\.99.*",                             ignore: true } # fake
 - { name: tomcat,                      ver: "9.0.20",                ruleset: scoop,       incorrect: true }
 - { name: tomcat,                                                    ruleset: scoop,       untrusted: true }
-- { name: tome2,                       ver: "235",                                         incorrect: true }
 - { name: tor,                         verpat: "([0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)[._-]?[abr].*", setver: "$1", devel: true } # version is self-sufficient; remove redundant alpha/rc suffix, but set devel
 - { name: tor,                         verge: "0.4.8",                                     devel: true, maintenance: true }
 - { name: tor-browser,                 verlonger: 3,                 ruleset: pkgsrc,      incorrect: true } # firefox version appended
