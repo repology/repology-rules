@@ -193,6 +193,7 @@
 - { name: slstatus,                                                                        noscheme: true }
 - { name: slune,                       ver: "1.0.16",                ruleset: mageia,      incorrect: true } # latast is 1.0.15
 - { name: slune,                                                     ruleset: mageia,      untrusted: true } # accused of fake 1.0.16
+- { name: slurm-monitor,               verpat: "20[0-9]+",                                 incorrect: true } # macports
 - { name: smake,                       ver: "1.3.2",                 ruleset: aix,         incorrect: true }
 - { name: smake,                                                     ruleset: aix,         untrusted: true } # accused of fake 1.3.2
 - { name: smake,                       ver: "1.3",                   ruleset: pkgsrc,      incorrect: true }
