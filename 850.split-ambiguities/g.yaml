@@ -141,7 +141,8 @@
 - { name: gom, category: [sound,media-sound,universe/sound], setname: gom-mixer }
 - { name: gom, wwwpart: installiert, setname: gom-mixer }
 
-- { name: gomoku, ruleset: [freebsd,macports,openbsd], setname: gnustep-gomoku } # gnustep; may be not ambiguity (yet), but too generic name for sure
+- { name: gomoku, wwwpart: gnustep, setname: gnustep-gomoku }
+- { name: gomoku, addflag: unclassified }
 
 - { name: gomp, wwwpart: aditya, setname: gomp-mpd-client }
 - { name: gomp, wwwpart: markforged, setname: gomp-git-compare }
