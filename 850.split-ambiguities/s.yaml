@@ -352,8 +352,10 @@
 
 - { name: sphinx, wwwpart: cmusphinx, setname: cmusphinx }
 
-- { name: spice, wwwpart: [berkeley.edu,ibiblio], setname: spice-cad } # just move ancient garbage away
-- { name: spice, ruleset: [pld,t2], setname: spice-cad }
+- { name: spice, wwwpart: berkeley, setname: spice-circuit-simulator }
+- { name: spice, wwwpart: spice-space, setname: spice-remote-access }
+- { name: spice, wwwpart: spicelang, setname: spice-lang }
+- { name: spice, addflag: unclassified }
 
 - { name: spigot, wwwpart: spigotmc, setname: spigot-minecraft }
 - { name: spigot, wwwpart: sgtatham, setname: spigot-calculator }
