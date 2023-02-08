@@ -36,8 +36,6 @@
 # also sound mixer with no upstream
 - { name: cam, addflag: unclassified }
 
-- { name: camera, ruleset: [freebsd,openbsd], setname: gnustep-camera } # gnustep; may be not ambiguity (yet), but too generic name for sure
-
 - { name: caps, wwwpart: softpres, ruleset: gentoo, setname: ipfdevlib }
 
 - { name: caret, wwwpart: [careteditor,caret.io], setname: caret-editor }
