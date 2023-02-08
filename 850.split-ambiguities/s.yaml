@@ -227,7 +227,7 @@
 - { name: sls, addflag: unclassified }
 
 - { name: slurm, wwwpart: [mattthias,raisdorf,wormulon], setname: slurm-monitor }
-- { name: slurm, ruleset: [aosc,openbsd,pkgsrc], setname: slurm-monitor }
+- { name: slurm, ruleset: [aosc,pkgsrc], setname: slurm-monitor }
 - { name: slurm, wwwpart: [schedmd,llnl], setname: slurm-wlm } # "workload manager": name used in freebsd and pksrc; there's also slurm-llnl, see rule in 800
 - { name: slurm, addflag: unclassified }
 
@@ -370,7 +370,7 @@
 - { name: spin, sourceforge: spin, setname: "java:spin" }
 - { name: spin, summpart: spinner, setname: spin-spinner }
 - { name: spin, wwwpart: spinroot, setname: spin-verification }
-- { name: spin, ruleset: [pld,openbsd], setname: spin-verification }
+- { name: spin, ruleset: [pld], setname: spin-verification }
 - { name: spin, addflag: unclassified }
 
 - { name: spl, wwwpart: shakespearelang, setname: shakespeare }
@@ -482,7 +482,6 @@
 
 - { name: swarp, wwwpart: astromatic, setname: swarp-astromatic }
 - { name: swarp, wwwpart: suckless, setname: swarp-suckless }
-- { name: swarp, ruleset: openbsd, setname: swarp-suckless }
 - { name: swarp, addflag: unclassified }
 
 - { name: sweet, wwwpart: eliverlara, setname: sweet-theme }

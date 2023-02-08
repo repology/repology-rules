@@ -14,7 +14,7 @@
 - { name: calc, wwwpart: directory.fsf.org/project/calc, setname: "emacs:calc" }
 - { name: calc, wwwpart: alfredxing, setname: calc-alfredxing }
 - { name: calc, ruleset: hpux, setname: calc-richard-lloyd }
-- { name: calc, ruleset: [openbsd,pld,solus], setname: calc-arbitrary-precision-calculator }
+- { name: calc, ruleset: [pld,solus], setname: calc-arbitrary-precision-calculator }
 - { name: calc, addflag: unclassified }
 
 # seemingly parts of single project, but still may have different versions
@@ -227,7 +227,6 @@
 - { name: cmix, sourceforge: cmix, setname: cmix-mixer } # relic from 2002
 
 - { name: cmt, wwwpart: ladspa, setname: ladspa-cmt }
-- { name: cmt, ruleset: openbsd, setname: ladspa-cmt }
 - { name: cmt, wwwpart: cmtsite.net, setname: cmt-configuration-management }
 - { name: cmt, wwwpart: smallhadroncollider, setname: cmt-commit-messages }
 - { name: cmt, addflag: unclassified }
