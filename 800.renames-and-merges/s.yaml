@@ -313,6 +313,8 @@
 - { setname: stremio,                  name: [stremio-shell, stremio-legacy] }
 - { setname: stremio,                  name: stremio-beta, weak_devel: true, nolegacy: true }
 - { setname: stringtemplate,           namepat: "stringtemplate[0-9]+" }
+- { setname: strip-nondeterminism,     name: perl:$0 }
+- { setname: strip-nondeterminism,     name: dh-strip-nondeterminism, addflavor: true }
 - { setname: structuresynth,           name: structure-synth }
 - { setname: struts,                   name: [libstruts1.2-java, apache-struts] }
 - { setname: stunnel,                  namepat: "stunnel[0-9.-]+" }
