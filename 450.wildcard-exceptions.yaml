@@ -88,6 +88,7 @@
 - { setname: pipo,                     name: pip, ruleset: arch }
 - { setname: pipo,                     name: pip, ruleset: gentoo, category: app-misc }
 
+- { addflag: not_r,                    name: r-app }
 - { addflag: not_r,                    name: r-base }
 - { addflag: not_r,                    name: r-devel }
 - { addflag: not_r,                    name: r-minimal }
