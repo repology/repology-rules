@@ -393,6 +393,8 @@
 - { name: sxiv,                        ver: "09122016",                                    sink: true } # older than normal versions
 - { name: sylpheed,                    ver: "3.8.0",                 ruleset: aur,         incorrect: true } # 3.8.0beta1
 - { name: sylpheed,                                                  ruleset: aur,         untrusted: true } # accused of fake 3.8.0
+- { name: symbiyosys,                  verpat: "20[0-9]{2}.*",                             incorrect: true } # 0.26 since 2023.02.09
+- { name: symbiyosys,                  verge: "2000.00.00", verlt: "2023.02.09",           sink: true }
 - { name: symlinks,                    ver: "1.7",                   ruleset: rpm,         incorrect: true }
 - { name: symlinks,                                                  ruleset: rpm,         untrusted: true } # accused of fake 1.7
 - { name: syncthing,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
