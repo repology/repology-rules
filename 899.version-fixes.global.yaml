@@ -26,9 +26,9 @@
 - { verpat: ".*[.-](?=.{0,7}[a-f])[0-9a-f]{8}",                                            ignore: true }  # 2.3% missed
 
 # r module versions may have '-' in them, and some repos replace it with 'r'
-- { verpat: "(.*)r(.*)", namepat: 'r:.*',                            ruleset: [pld,void],  setver: $1-$2 }
+- { namepat: 'r:.*', verpat: "(.*)r(.*)",                            ruleset: [pld,void],  setver: $1-$2 }
 
-- { namepat: 'r:.*',                                                 ruleset: debjanitor,  untrusted: true } # garbage version suffixes e.g. r:blob, r:here, r:mockr, r:pillar, r:rsqlite
+- { namepat: "r:.*", verpat: "([0-9]+\\.){3}9[0-9]{3}",                                    devel: true } # https://combine-australia.github.io/r-pkg-dev/versioning.html
 
 - { namepat: "php[0-9]*:.*",                                         ruleset: sisyphus,    untrusted: true }
 
