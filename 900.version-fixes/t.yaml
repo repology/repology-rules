@@ -179,6 +179,7 @@
 - { name: trellis,                     verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: tribler,                     verpat: ".*exp.*",                                  devel: true }
 - { name: trickle,                     verpat: ".*_[0-9a-f]+",                             incorrect: true } # slitaz
+- { name: triehash,                    verlonger: 2,                                       debianism: true }
 - { name: trigger-rally,               ver: "0.6.7",                 ruleset: alpine,      incorrect: true }
 - { name: trigger-rally,                                             ruleset: alpine,      untrusted: true } # accused of fake 0.6.7
 - { name: trillian-im,                 verpat: ".*00[0-9]{2}.*",                           incorrect: true }
