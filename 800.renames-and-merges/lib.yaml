@@ -78,7 +78,7 @@
 - { setname: libftdi,                  name: libftdi-compat }
 - { setname: libgcrypt,                namepat: "libgcrypt[0-9.-]+" }
 - { setname: libgcrypt,                name: [libgcrypt-compat,compat-libgcrypt,libgcrypt11-compat] }
-- { setname: libgcrypt,                name: [libgcrypt-static,libgcrypt-gost], addflavor: true }
+- { setname: libgcrypt,                name: [libgcrypt-static,libgcrypt-gost,shiftmedia-libgcrypt], addflavor: true }
 - { setname: libgcrypt,                name: libgcrypt15-minimal, addflavor: minimal }
 - { setname: libgda,                   name: compat-libgdata013 }
 - { setname: libgda,                   namepat: "libgda[0-9.-]*(?:-(bdb|firebird|jdbc|ldap|mdb|mysql|ui))?", addflavor: $1 }
@@ -122,6 +122,7 @@
 - { setname: libgnomeui,               name: libgnomeui-reference, addflavor: reference }
 - { setname: libgnomeuimm,             namepat: "(?:lib)?gnomeuimm[0-9.-]*" }
 - { setname: libgnt,                   name: [gnt,libgnt3] }
+- { setname: libgpg-error,             name: shiftmedia-libgpg-error, addflavor: true }
 - { setname: libgphoto2,               name: libgphoto }
 - { setname: libgpod,                  name: libgpod4 }
 - { setname: libgsf,                   name: libgsf1 }
