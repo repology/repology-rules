@@ -68,6 +68,7 @@
 - { verpat: ".+20[0-9]{2}-[0-9]{2}-[0-9]{2}.*",                      ruleset: nix,         ignore: true }
 - { verpat: "[0-9a-f]{8}",                                           ruleset: pacstall, flag: git, rolling: true } # flag set in 100
 - { ver: "0",                                                        ruleset: vcpkg,       ignore: true } # deprecated, renamed, or meta port
+- { ver: "deprecated",                                               ruleset: vcpkg,       ignore: true }
 
 # nuget is terminally broken and can't handle arbitrary version schemes, so most are garbage
 - {                                                                  ruleset: chocolatey,  untrusted: true }
