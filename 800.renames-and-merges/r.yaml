@@ -43,6 +43,9 @@
 - { setname: re,                       name: libre }
 - { setname: re2,                      name: libre2 }
 - { setname: readline,                 namepat: "(?:compat-)?(?:lib)?readline[0-9.-]*" }
+- { setname: readline,                 name: "readline-osx", ignore: true } # plain readline(-unix)
+- { setname: readline,                 name: "readline-unix" }
+- { setname: readline,                 name: "readline-win32", addflavor: win32 } # different source
 - { setname: readymedia,               name: minidlna } # former name
 - { setname: readymedia,               name: [minidlna-custom-icon,minidlna-listen-interface-fix,minidlna-video-thumb], addflavor: true }
 - { setname: realvnc-vnc-viewer,       name: realvnc-viewer }
