@@ -129,6 +129,7 @@
 - { setname: rust,                     name: [rustc-nightly, rust-msvc-nightly], addflavor: true, weak_devel: true, nolegacy: true }
 - { setname: rust,                     name: rust-toolset-7-rust }
 - { setname: rust-dwm-status,          name: "rust:rust-dwm-status" }
+- { setname: rustup,                   name: [rustup-gnu, rustup-msvc, rustup-init], addflavor: true }
 - { setname: rusty-diceware,           name: "rust:diceware" }
 - { setname: rwho,                     name: netkit-rwho }
 - { setname: rwho,                     name: netkit-rwho-debian, addflavor: debian }
