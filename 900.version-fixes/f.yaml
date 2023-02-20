@@ -150,6 +150,8 @@
 - { name: "fonts:cascadia-code",       verge: "21000",               ruleset: sisyphus,    incorrect: true }
 - { name: "fonts:cascadia-code",                                     ruleset: sisyphus,    untrusted: true }
 - { name: "fonts:cheapskate",                                                              noscheme: true }
+- { name: "fonts:cjkuni",              ver: "0.5.11",                ruleset: openindiana, incorrect: true }
+- { name: "fonts:cjkuni",                                            ruleset: openindiana, untrusted: true } # accused of fake 0.5.11
 - { name: "fonts:courier-prime",       verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: "fonts:courier-prime",       ver: "03142015",                                    sink: true } # old reverse date
 - { name: "fonts:crimson",                                                                 noscheme: true }
