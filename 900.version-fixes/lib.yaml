@@ -87,7 +87,6 @@
 - { name: libelf,                                                    ruleset: glaucus,     untrusted: true } # accused of fake 0.187
 - { name: libevdev,                    verpat: ".*\\.9[0-9]+",                             devel: true } # assumed; https://www.freedesktop.org/software/libevdev/
 - { name: libevdev,                    verpat: ".+20[0-9]{6}",                             snapshot: true }
-- { name: libevent,                    verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: libfaketime,                 verpat: ".*201[67].*",                              ignore: true } # FreeBSD is using git snapshot
 - { name: libffi,                      ver: "3.3",                   ruleset: debuntu,     incorrect: true } # snapshot of nonexisting version
 - { name: libffi,                                                    ruleset: debuntu,     untrusted: true } # accused of fake 3.3
@@ -288,7 +287,6 @@
 - { name: libssh,                                                    ruleset: pkgsrc,      untrusted: true }
 - { name: libssh,                      ver: ["0.11"],                                      incorrect: true }
 - { name: libssh,                                                    ruleset: gobolinux,   untrusted: true } # accused of fake 0.11
-- { name: libssh,                      verpat: ".+20[0-9]{6}",                             snapshot: true } # vcpkg
 - { name: libstemmer,                  verpat: "20[0-9]{2}.*",                             incorrect: true } # 2.0.0 since Oct 2, 2019: https://github.com/snowballstem/snowball/tags
 - { name: libstemmer,                  verge: "20000000", verlt: "20191002",               sink: true }
 - { name: libstemmer,                  verge: "2000", verlt: "2019",                       sink: true }
