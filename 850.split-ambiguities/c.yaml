@@ -147,6 +147,10 @@
 - { name: clip, wwwpart: [maui,kde], setname: maui-clip }
 - { name: clip, addflag: unclassified }
 
+- { name: clippy, wwwpart: rust-clippy, setname: rust-clippy }
+- { name: clippy, wwwpart: frr, setname: frr, addflavor: clippy } # Standalone clippy tool built from FRR sources
+- { name: clippy, addflag: unclassified }
+
 - { name: clipper, wwwpart: [polyclipping,delphi], setname: polyclipping }
 - { name: clipper, wwwpart: cowtan, setname: clipper-crystallography }
 - { name: clipper, wwwpart: yeolab, setname: clipper-clip-peak-recognition }
