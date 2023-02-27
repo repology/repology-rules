@@ -18,6 +18,8 @@
 - { name: tar,                         verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true } # https://alpha.gnu.org/gnu/tar/
 - { name: targetcli-fb,                ver: "3.0pre4.1",                                   incorrect: true } # raspbian
 - { name: targetcli-fb,                                              ruleset: raspbian,    untrusted: true } # accused of fake 3.0pre4.1
+- { name: tbftss,                      verpat: "1\\.5[0-9].*",                             incorrect: true }
+- { name: tbftss,                                                    ruleset: os4depot,    untrusted: true } # accused if fake 1.50.1r1
 - { name: tboot,                       verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: tcb,                         ver: "1.1.0.1",               ruleset: sisyphus,    incorrect: true }
 - { name: tcb,                                                       ruleset: sisyphus,    untrusted: true } # 1.1.0.1
