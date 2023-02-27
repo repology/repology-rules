@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
+- { name: d-spy,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed
 - { name: dahdi-linux,                 verlonger: 4,                                       incorrect: true }
 - { name: dahdi-linux,                 verge: "5",                   ruleset: alpine,      incorrect: true } # uses kernel version
 - { name: dahdi-linux,                                               ruleset: alpine,      untrusted: true } # accused of fake 5.x
