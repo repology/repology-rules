@@ -249,6 +249,7 @@
 - { name: librem,                      verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: libreplaygain,                                                                   noscheme: true }
 - { name: librsb,                      ver: "1.2.0",                 ruleset: [freshcode], incorrect: true } # 1.2.0rc7
+- { name: librsvg,                     verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: libsamplerate,               ver: "0.1.9.1",               ruleset: deepin,      incorrect: true }
 - { name: libsamplerate,                                             ruleset: deepin,      untrusted: true } # accused of fake 0.1.9.1
 - { name: libsearpc,                   ver: ["3.1.7","6.2.2"],       ruleset: openwrt,     incorrect: true }
