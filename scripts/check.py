@@ -191,6 +191,7 @@ flags = [
     'no_suffix',
     'not_apache',
     'not_coq',
+    'not_crystal',
     'not_cursors',
     'not_deadbeef',
     'not_deepin',

@@ -19,6 +19,9 @@
 - { setname: "coq:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_coq], namepat: "coq[0-9.]+-(.*)", ruleset: [ nix ] }
 - { setname: "coq:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_coq], namepat: "coq-(.*)", ruleset: [ guix ] }
 
+# Crystal
+- { setname: "crystal:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_crystal], category: dev-crystal, ruleset: [ gentoo, exherbo ] }
+
 # Cursors
 - { setname: "cursors:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_cursors], namepat: "(.*)-cursor-theme", ruleset: [ debuntu ] }
 - { setname: "cursors:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_cursors], namepat: "(.*)-xcursors", ruleset: [ gentoo, exherbo ] }
