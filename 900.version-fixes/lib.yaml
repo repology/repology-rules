@@ -193,6 +193,8 @@
 - { name: libmilter,                   verlonger: 3,                                       devel: true } # sendmail snapshots
 - { name: libmilter,                   verpat: "1\\..*",                                   incorrect: true } # XXX: problem; Gentoo&friends are too clever to dig deep into the code to get internal library version, but it's not really related to code version
 - { name: libmm-qt,                    ver: "1.0.2",                                       incorrect: true, disposable: true } # old fedora
+- { name: libmodplug,                  ver: "0.8.9.1",               ruleset: [gentoo,crux], incorrect: true }
+- { name: libmodplug,                                                ruleset: [gentoo,crux], untrusted: true } # accused of fake 0.8.9.1
 - { name: libmp4v2,                    verge: "3", verle: "5.0.1",                         sink: true } # https://mp4v2.org/, latest is 2.1.1
 - { name: libmpsse,                    verpat: "20[0-9]{6}.*",       ruleset: sisyphus,    ignore: true }
 - { name: libmspack,                   verge: "1.5",                                       incorrect: true } # cabextract versions instead of libmspack ones
