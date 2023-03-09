@@ -77,12 +77,17 @@
 
 - { name: github-cli, wwwpart: packages.python.org/github-cli, setname: "python:github-cli" }
 
+- { name: gitlab-cli, wwwpart: makkes, setname: gitlab-cli-makkes }
+- { name: gitlab-cli, wwwpart: T4cC0re, setname: gitlab-cli-t4cc0re }
+- { name: gitlab-cli, wwwpart: [gitlab-org/cli,docs.gitlab.com/ee/integration/glab], setname: glab-gitlab-cli } # also comes from glab rule
+- { name: gitlab-cli, addflag: unclassified }
+
 - { name: gitup, wwwpart: johnmehr, setname: gitup-freebsd }
 - { name: gitup, wwwpart: git-repo-updater, setname: git-repo-updater }
 - { name: gitup, addflag: unclassified }
 
 - { name: glab, wwwpart: upc.edu, setname: glab-gnss }
-- { name: glab, wwwpart: [clementsam.tech,profclems,glab.readthedocs.io,gitlab-org/cli], setname: glab-gitlab-cli }
+- { name: glab, wwwpart: [clementsam.tech,profclems,glab.readthedocs.io,gitlab-org/cli], setname: glab-gitlab-cli } # also comes from gitlab-cli rule
 - { name: glab, addflag: unclassified }
 
 - { name: glance, wwwpart: [openstack,launchpad.net/glance], setname: openstack-glance }
