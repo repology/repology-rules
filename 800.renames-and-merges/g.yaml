@@ -139,6 +139,7 @@
 - { setname: gitinspector,             name: "python:gitinspector" }
 - { setname: gitit,                    name: "haskell:gitit" }
 - { setname: gitlab,                   name: [gitlab-ce, gitlab-ee, gitlab-common], addflavor: true }
+- { setname: gitlab-clippy,            name: rust:$0 }
 - { setname: gitlab-runner,            name: [gitlab-runner-images, gitlab-ci-multi-runner, gitlab-ci-multi-runner-images, gitlab-runner-custom-executors], addflavor: true }
 - { setname: gitolite,                 name: [gitolite2,gitolite3] }
 - { setname: gitter,                   name: gitter-bin }
