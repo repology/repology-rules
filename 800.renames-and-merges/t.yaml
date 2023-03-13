@@ -189,6 +189,7 @@
 - { setname: transdecoder,             name: "perl:transdecoder" }
 - { setname: transifex-client,         name: "python:transifex-client" }
 - { setname: translate-toolkit,        name: ["python:translate-toolkit","python:translate-toolkit-lib"] }
+- { setname: trash-cli,                name: python:$0 }
 - { setname: tre,                      name: libtre } # XXX: reverse?
 - { setname: tree,                     name: [tree-pkg, colortree] }
 - { setname: tremor,                   name: [libtremor, libvorbisidec] }
