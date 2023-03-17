@@ -229,6 +229,11 @@
 - { name: cli, wwwpart: daniele77, setname: cli-daniele77 }
 - { name: cli, addflag: unclassified }
 
+- { name: click, wwwpart: databricks, setname: click-kubernetes-cli }
+- { name: click, wwwpart: ubports, setname: click-packaging }
+# also unprefixed python:click
+- { name: click, addflag: unclassified }
+
 - { name: clink, wwwpart: mridgers, setname: clink-cmd }
 - { name: clink, wwwpart: [free-electrons,bootlin.com], setname: clink-symlink }
 - { name: clink, ruleset: pld, setname: clink-net }
