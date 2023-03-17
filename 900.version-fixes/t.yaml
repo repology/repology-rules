@@ -175,6 +175,7 @@
 - { name: transset,                    verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: transset,                    verpat: "[0-9]{6}",                                 incorrect: true }
 - { name: tre,                         verpat: "20[0-9]{6}",                               incorrect: true } # aosc snapshot
+- { name: tree-sitter-go-mod,                                                              noscheme: true }
 - { name: treesheets,                  verpat: ".*20[0-9]{2}.*",                           incorrect: true } # it has recent 1.0.0 release, see https://github.com/aardappel/treesheets/releases
 - { name: treesheets,                  verpat: ".*[0-9]{6}.*",                             incorrect: true } # it has recent 1.0.0 release, see https://github.com/aardappel/treesheets/releases
 - { name: treeviewx,                   verpat: ".+20[0-9]{6}",                             snapshot: true }
