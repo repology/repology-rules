@@ -350,6 +350,7 @@
 - { setname: pyload,                   name: pyload-nightly, weak_devel: true, nolegacy: true }
 - { setname: pyload-ng,                name: "python:$0" }
 - { setname: pymol,                    name: [pymol2, "python:pymol", pymol-python2 ] }
+- { setname: pympress,                 name: python:$0 }
 - { setname: pypanel,                  name: "python:pypanel" }
 - { setname: pypy,                     name: ["python:pypy","python:pypy-bin",pypy2] }
 - { setname: pypy3,                    name: ["python:pypy3","python:pypy3-bin"] }
