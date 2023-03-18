@@ -290,6 +290,8 @@
 - { name: atomicparsley,                                             ruleset: openbsd,     untrusted: true } # accused of fake 20220331
 - { name: atomix,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: atril,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: attica,                      ver: "5.240.0",               ruleset: kaos,        incorrect: true }
+- { name: attica,                                                    ruleset: kaos,        untrusted: true } # accused of fake 5.240.0
 - { name: attr,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: audacity,                    ver: "2.3.2x",                                      incorrect: true } # freshcode
 - { name: audex,                       ver: "0.95",                  ruleset: pisi,        snapshot: true }
