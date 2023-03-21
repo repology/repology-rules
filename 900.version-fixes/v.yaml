@@ -1,8 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { name: v-for-vim,                   verpat: "[0-9]+",                                   incorrect: true } # aur; correct versions is 1.1
-- { name: v4l-utils,                   ver: "1.25.0",                ruleset: fedora,      incorrect: true }
-- { name: v4l-utils,                                                 ruleset: fedora,      untrusted: true } # accused of fake 1.25.0
 - { name: v4l2loopback,                verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: v86d,                        verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: vacuum-im,                   verpat: ".*20[0-9]{6}",                             snapshot: true } # opensuse games garbage
@@ -38,6 +36,8 @@
 - { name: vidcutter,                                                 ruleset: unitedrpms,  untrusted: true } # accused of fake 6.0.0.6
 - { name: video4linux,                 ver: "1.23.0",                ruleset: freebsd,     incorrect: true }
 - { name: video4linux,                                               ruleset: freebsd,     untrusted: true } # accused of fake 1.23.0
+- { name: video4linux,                 ver: "1.25.0",                ruleset: fedora,      incorrect: true }
+- { name: video4linux,                                               ruleset: fedora,      untrusted: true } # accused of fake 1.25.0
 - { name: vigra,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: vigra,                       ver: "27",                                          incorrect: true }
 - { name: vigra,                                                     ruleset: t2,          untrusted: true } # accused of fake 27
