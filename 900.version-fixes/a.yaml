@@ -37,6 +37,8 @@
 - { name: acpi-call,                   verpat: "[45]\\..*",          ruleset: nix,         incorrect: true } # uses kernel versions instead of software's
 - { name: acpi-call,                   ver: "3.17",                                        sink: true } # kernel version based too, however used by upstream too https://github.com/damadmai/acpi_call/releases, but older than latest 1.2.0
 - { name: acpi-call,                   verlonger: 4,                                       incorrect: true } # nix X.Y.Z-U.V.W (kerner versions appended)
+- { name: acpica,                      ver: "20221022",                                    incorrect: true }
+- { name: acpica,                                                    ruleset: [homebrew,macports,pisi], untrusted: true } # accused of fake 20221022
 - { name: acpitool,                    ver: "0.5.2",                 ruleset: t2,          incorrect: true }
 - { name: acpitool,                                                  ruleset: t2,          untrusted: true }
 - { name: actiona,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
