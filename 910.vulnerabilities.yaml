@@ -16,6 +16,8 @@
 - { vulnerable: true, name: ldb, verlt: "2.2.1" } # CVE-2021-20277, range may not be entirely correct as ldb version is derived from samba version; NVD refuses to introduce dedicated CPEs for ldb
 - { vulnerable: true, name: libgcrypt, ver: "1.9.0" }
 - { vulnerable: true, name: libmspack, relle: "0.9.1" } # CVE-2019-1010305, others; braindead versioning
+- { vulnerable: true, name: lua:multipart, ver: "0.5.8" } # CVE-2020-36661
+- { vulnerable: true, name: nekohtml, ver: "1.9.22" } # CVE-2022-24839
 - { vulnerable: true, name: novnc, verge: "2000", verle: "2017" } # outdated scheme
 - { vulnerable: true, name: novnc, verge: "20000000", verle: "20170000" } # outdated scheme
 - { vulnerable: true, name: openstack-cinder, verge: "2010" } # old versioning scheme
@@ -30,5 +32,3 @@
 - { vulnerable: true, name: signing-party, verlt: "2.10" } # CVE-2019-11627
 - { vulnerable: true, name: spotweb, verge: "20000000", verle: "20201222" } # https://nvd.nist.gov/vuln/detail/CVE-2020-35545 affects letest ATOW 1.4.9
 - { vulnerable: true, name: tensorflow, ver: "2.0.0b1", disposable: true }
-- { vulnerable: true, name: nekohtml, ver: "1.9.22" } # CVE-2022-24839
-- { vulnerable: true, name: lua:multipart, ver: "0.5.8" } # CVE-2020-36661
