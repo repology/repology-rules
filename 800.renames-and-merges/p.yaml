@@ -352,8 +352,8 @@
 - { setname: pymol,                    name: [pymol2, "python:pymol", pymol-python2 ] }
 - { setname: pympress,                 name: python:$0 }
 - { setname: pypanel,                  name: "python:pypanel" }
-- { setname: pypy,                     name: ["python:pypy","python:pypy-bin",pypy2] }
-- { setname: pypy3,                    name: ["python:pypy3","python:pypy3-bin"] }
+- { setname: pypy,                     namepat: "(?:python:)?pypy[0-9.-]*(-tkinter|-bin)", addflavor: $1 }
+- { setname: pypy,                     name: [pypy-bootstrap, pypy-tkinter], addflavor: true }
 - { setname: pyspread,                 name: "python:pyspread" }
 - { setname: pythia,                   name: [pythia8, "python:pythia8", pythia6] }
 - { setname: python,                   name: python-exp } # scoop
