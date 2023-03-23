@@ -215,7 +215,8 @@
 - { name: bosh, addflag: unclassified }
 
 - { name: bower, wwwpart: wangp, setname: bower-mail }
-# otherwise bower.io, js package manager
+- { name: bower, wwwpart: [bower.io, twitter, npmjs.com/package/bower], setname: node:bower }
+- { name: bower, addflag: unclassified }
 
 - { name: brig, wwwpart: [sahib,brig.readthedocs.io], setname: brig-sync }
 - { name: brig, sourceforge: brig, setname: brig-genome }
