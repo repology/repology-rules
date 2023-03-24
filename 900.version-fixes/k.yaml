@@ -46,6 +46,7 @@
 - { name: kcalendarcore,               verpat: "(15|16|17|18|19)\\..*",                    sink: true } # https://cgit.kde.org/kcalendarcore.git
 - { name: kcalutils,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kcharselect,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kclock,                      verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kcolorchooser,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kconfig,                     ver: "5.61.0a",               ruleset: debuntu,     incorrect: true } # fake
 - { name: kconfig,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 5.61.0a
