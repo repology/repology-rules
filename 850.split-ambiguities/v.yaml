@@ -26,8 +26,8 @@
 - { name: vault-cli, addflag: unclassified }
 
 - { name: vc, wwwpart: ctan, setname: tex-vc }
-- { name: vc, wwwpart: [github.com/libvc/libvc,rolo], setname: libvc } # vcard library
-- { name: vc, wwwpart: vcdevel, addflag: classified } # simd library
+- { name: vc, wwwpart: [github.com/libvc/libvc,rolo,yourealwaysbe], setname: libvc } # vcard library
+- { name: vc, wwwpart: vcdevel, setname: vc-simd } # simd library
 - { name: vc, addflag: unclassified }
 
 - { name: vdt, wwwpart: dpiparo, setname: cern-vdt }
