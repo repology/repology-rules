@@ -3,6 +3,7 @@
 # distro-specific
 - { name: aaa-base, ruleset: opensuse, setname: $0-opensuse }
 - { name: aaa-base, ruleset: slackware, setname: $0-slackware }
+- { name: aaa-base, addflag: unclassified }
 
 - { name: ace, wwwpart: ucsniff, setname: ace-voip }
 - { name: ace, wwwpart: delorie, setname: ace-of-penguins }
@@ -111,7 +112,6 @@
 - { name: amap, wwwpart: sikorskiy, setname: amap-analyze-map-files }
 - { name: amap, wwwpart: thc, setname: amap-pentesting }
 - { name: amap, wwwpart: berkeley, setname: amap-protein }
-- { name: amap, ruleset: [pld,pkgsrc], setname: amap-pentesting }
 - { name: amap, addflag: unclassified }
 
 - { name: amber, wwwpart: dalance, setname: amber-code-search-replace }
@@ -126,9 +126,6 @@
 
 - { name: amp, wwwpart: [amp.rs, jmacdonald/amp], setname: amp-editor }
 - { name: amp, wwwpart: andrewpeterson, setname: amp-machinelearning }
-- { name: amp, category: "Web Services/Application and Web Servers", setname: amp-apachephp }
-- { name: amp, category: audio, setname: amp-player }
-- { name: amp, ruleset: slackware, setname: amp-player }
 - { name: amp, addflag: unclassified }
 
 - { name: anaconda, wwwpart: [continuum.io,anaconda.com], setname: anaconda-python }
@@ -136,7 +133,6 @@
 - { name: anaconda, addflag: unclassified }
 
 - { name: anna, wwwpart: marcelhollerbach, setname: anna-greeter }
-- { name: anna, category: debian-installer, setname: anna-package-manager }
 - { name: anna, addflag: unclassified }
 
 - { name: antimony, wwwpart: keeter, setname: antimony-cad }
@@ -176,7 +172,6 @@
 
 - { name: areca, wwwpart: areca-backup, setname: areca-backup }
 - { name: areca, wwwpart: areca.com.tw, setname: areca-sata-driver }
-- { name: areca, category: Archiving/Backup, setname: areca-backup }
 - { name: areca, addflag: unclassified }
 
 - { name: arena, wwwpart: elderscrolls, setname: elderscrolls-arena }
@@ -208,12 +203,12 @@
 
 - { name: artemis, wwwpart: sanger, setname: artemis-genome-viewer }
 - { name: artemis, wwwpart: apache, setname: apache-artemis }
-- { name: artemis, category: Development/Java, setname: apache-artemis }
 - { name: artemis, addflag: unclassified }
 
 - { name: artillery, wwwpart: artillery.io, setname: artillery-load-testing-toolkit }
 
-- { name: arts, category: trinity, setname: arts-tde } # trinity desktop environment fork/successor
+- { name: arts, wwwpart: kde.org, setname: arts-kde }
+- { name: arts, addflag: unclassified }
 
 - { name: arx, wwwpart: arx-libertatis, setname: arx-libertatis }
 - { name: arx, wwwpart: arx.org, setname: arxtools }
@@ -221,8 +216,6 @@
 - { name: asdf, wwwpart: common-lisp, setname: cl-asdf }
 - { name: asdf, wwwpart: asdf-vm, setname: asdf-vm }
 - { name: asdf, addflag: unclassified }
-
-- { name: ash, ruleset: aur, setname: ash-reviews }
 
 - { name: asl, wwwpart: asl.org.il, setname: asl-advanced-simulation-library }
 - { name: asl, wwwpart: aachen.de, setname: asl-macroassembler }

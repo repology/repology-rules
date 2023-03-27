@@ -4,15 +4,12 @@
 - { name: maddy, wwwpart: progsource, setname: maddy-markdown-parser }
 - { name: maddy, addflag: unclassified }
 
-- { name: maelstrom, ruleset: maemo, setname: maelstrom-maemo }
-
 - { name: mage, wwwpart: magefile, setname: mage-make }
 - { name: mage, wwwpart: biochem, setname: mage-kinemage }
 - { name: mage, addflag: unclassified }
 
 - { name: magnum, wwwpart: openstack, setname: magnum-openstack }
 - { name: magnum, wwwpart: [magnum.graphics,mosra.cz], setname: magnum-middleware }
-- { name: magnum, summpart: middleware, setname: magnum-middleware }
 - { name: magnum, addflag: unclassified }
 
 - { name: mailx, wwwpart: heirloom, setname: heirloom-mailx }
@@ -42,17 +39,14 @@
 - { name: markdown, wwwpart: jgm, setname: peg-markdown }
 - { name: markdown, addflag: unclassified }
 
-- { name: mars, category: games, setname: m.a.r.s. }
 - { name: mars, wwwpart: [marsshooter,mars-game], setname: m.a.r.s. }
 - { name: mars, wwwpart: www.mpibpc.mpg.de, setname: mars-proteins-assignment }
 - { name: mars, wwwpart: Sony-PS3/mars, setname: mars-runtime-system }
-- { name: mars, category: Development/Java, setname: mars-mips }
 - { name: mars, wwwpart: courses.missouristate.edu, setname: mars-mips }
-- { name: mars, ruleset: pld, setname: marsnomercy }
+- { name: mars, wwwpart: marsnomercy, setname: marsnomercy }
 - { name: mars, addflag: unclassified }
 
-- { name: martian, category: universe/python, setname: "python:martian" }
-- { name: martian, ver: "1.0", setname: pachi }
+- { name: martian, sourceforge: dragontech, setname: pachi }
 - { name: martian, addflag: unclassified }
 
 - { name: mas, wwwpart: aachen, setname: mas-assembler }
@@ -62,8 +56,7 @@
 - { name: mash, wwwpart: [pagure,fedora], setname: mash-pagure }
 - { name: mash, wwwpart: [mash.readthedocs,marbl], setname: mash-genome-distance }
 - { name: mash, wwwpart: clutter, setname: mash-clutter }
-- { name: mash, ruleset: pld, setname: mash-clutter }
-- { name: mash, addflag: unclassified } # nothing should be left here
+- { name: mash, addflag: unclassified }
 
 - { name: materialize, wwwpart: boundingboxsoftware, setname: materialize-material-generator }
 - { name: materialize, wwwpart: materialize.com, setname: materialize-streaming-database }
@@ -197,9 +190,6 @@
 - { name: mist, wwwpart: makedeb, setname: mist-makedeb }
 - { name: mist, addflag: unclassified }
 
-# no ambiguity (yet), but better be safe, as there are other *-mk-files
-- { name: mk-files, summpart: bmake, setname: bmake-mk-files }
-
 - { name: mm, wwwpart: meutraa, setname: mm-matrix }
 # otherwise, shared memory lib
 
@@ -241,17 +231,12 @@
 - { name: mp4ff, addflag: unclassified }
 
 - { name: mpc, wwwpart: [musicpd, mpd.wikia.com], addflag: classified }
-- { name: mpc, category: [media-sound, Sound, audio, Sound/Players, universe/sound], addflag: classified }
 - { name: mpc, wwwpart: [multiprecision.org, gnu.org], setname: gnumpc }
-- { name: mpc, category: dev-libs, setname: gnumpc }
 - { name: mpc, wwwpart: mpc-hc, setname: mpc-hc }
 - { name: mpc, addflag: unclassified }
 
 - { name: mpd, wwwpart: [musicpd,mpd.wikia.com], addflag: classified }
-- { name: mpd, category: [media-sound,Sound,audio], addflag: classified }
 - { name: mpd, wwwpart: cs.arizona.edu/mpd, setname: mpd-compiler }
-- { name: mpd, ruleset: [kaos,pld], addflag: classified }
-- { name: mpd, summpart: "music player daemon", addflag: classified }
 - { name: mpd, addflag: unclassified }
 
 - { name: mps, wwwpart: jetbrains, setname: jetbrains-mps }
@@ -261,8 +246,6 @@
 - { name: mrsh, wwwpart: [emersion,mrsh.sh], setname: mrsh-minimal-posix-shell }
 - { name: mrsh, wwwpart: chaos, setname: mrsh-remote-shell-program }
 - { name: mrsh, addflag: unclassified }
-
-- { name: msgpack, category: dev-java, setname: "java:msgpack" }
 
 - { name: msi-keyboard, wwwpart: bparker06, setname: msi-keyboard-bparker06 }
 - { name: msi-keyboard, wwwpart: makkarpov, setname: msi-keyboard-makkarpov }
@@ -281,7 +264,9 @@
 - { name: mu, wwwpart: kreogist, setname: kreogist-mu } # name taken form AUR package; may also use e.g. mu-music-manager
 # otherwise, maildir utils + emacs email client (mu4e)
 
-- { name: mumps, summpart: massachusetts, setname: mumps-lang }
+- { name: mumps, wwwpart: mumps-solver.org, setname: mumps-solver }
+- { name: mumps, sourceforge: mumps, setname: mumps-lang }
+- { name: mumps, addflag: unclassified }
 
 - { name: munin, wwwpart: neo23x0, setname: munin-hash-checker }
 
@@ -302,8 +287,6 @@
 - { name: muse, wwwpart: spatula, setname: muse-memusage }
 - { name: muse, wwwpart: xzzz9097, setname: muse-spotify-controller }
 - { name: muse, addflag: unclassified }
-
-- { name: mustache, category: [Development/Ruby, ruby], setname: "ruby:mustache" }
 
 - { name: mx, wwwpart: clutter, setname: mx-clutter }
 - { name: mx, wwwpart: graalvm, setname: mx-graal }
