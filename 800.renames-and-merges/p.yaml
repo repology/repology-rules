@@ -351,6 +351,7 @@
 - { setname: pyload-ng,                name: "python:$0" }
 - { setname: pymol,                    name: [pymol2, "python:pymol", pymol-python2 ] }
 - { setname: pympress,                 name: python:$0 }
+- { setname: pyoxidizer,               name: [python:$0, rust:$0] }
 - { setname: pypanel,                  name: "python:pypanel" }
 - { setname: pypy,                     namepat: "(?:python:)?pypy[0-9.-]*(-tkinter|-bin)?", addflavor: $1 }
 - { setname: pypy,                     name: [pypy-bootstrap, pypy-tkinter], addflavor: true }
