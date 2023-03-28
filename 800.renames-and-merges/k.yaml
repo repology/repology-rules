@@ -9,6 +9,7 @@
 - { setname: kamailio,                 name: kamailio-5.x } # openwrt
 - { setname: kamailio,                 name: [kamailio-berkeley,kamailio-carrierroute,kamailio-ldap,kamailio-mysql,kamailio-perl,kamailio-postgresql,kamailio-presence,kamailio-radius,kamailio-snmpstats,kamailio-xml], ruleset: openbsd, addflavor: true }
 - { setname: kapow,                    name: [kapow-punch-clock, kapowbang] } # different projects, split in 850
+- { setname: kapp,                     name: carvel-$0 }
 - { setname: karaf,                    name: apache-karaf }
 - { setname: kate,                     name: kate-root, addflavor: true }
 - { setname: kde-cdemu,                name: [kcdemu,kde-cdemu-manager,kde-cdemu-manager-kf5] }
