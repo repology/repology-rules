@@ -157,6 +157,7 @@
 - { setname: openzwave,                name: open-zwave }
 - { setname: opera,                    name: [opera-stable, opera-legacy, linux-opera, opera9, opera-presto, opera-blink] }
 - { setname: opera,                    name: [opera-beta, opera-developer], weak_devel: true, nolegacy: true }
+- { setname: ops2deb,                  name: python:$0 }
 - { setname: opus,                     name: libopus }
 - { setname: opusfile,                 name: libopusfile }
 - { setname: orafce,                   namepat: "(postgresql[0-9.-]*)-orafce", addflavor: $1 }
