@@ -117,6 +117,7 @@ families = [
     'termux',
     'vcpkg',
     'void',
+    'wakemeops',
     'wikidata',
     'winget',
     'yacp',
