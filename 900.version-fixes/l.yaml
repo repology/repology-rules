@@ -65,7 +65,7 @@
 - { name: linenoise,                   verlonger: 2,                 ruleset: nix,         incorrect: true }
 - { name: linenoise-ng,                verpat: "[0-9a-f]{10,}",                            incorrect: true } # vcpkg hash
 - { name: linkchecker,                 ver: "9.4",                   ruleset: aur,         incorrect: true } # not released
-- { name: linkerd,                     verge: "22",                                        devel: true } # "edge" branch
+- { name: linkerd,                     verge: "21",                                        devel: true } # "edge" branch
 - { name: links,                       ver: "2.21.1",                ruleset: antix,       incorrect: true }
 - { name: links,                                                     ruleset: antix,       untrusted: true } # accused of fake 2.21.1
 - { name: links,                       ver: "2.24",                  ruleset: kaos,        incorrect: true }
