@@ -30,6 +30,8 @@
 - { name: xclip,                       verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: xclip,                       ver: "0.13.1",                ruleset: kaos,        incorrect: true }
 - { name: xclip,                                                     ruleset: kaos,        untrusted: true } # accused of fake 0.13.1
+- { name: xclip,                       ver: "0.13.82",               ruleset: freebsd,     incorrect: true }
+- { name: xclip,                                                     ruleset: freebsd,     untrusted: true } # accused of fake 0.13.82
 - { name: xcolors,                     verge: "90",                  ruleset: opensuse,    incorrect: true }
 - { name: xconq,                       ver: "7.5.0",                 ruleset: [rosa,rpmsphere], incorrect: true } # latest is 7.5.0-0pre.0.20050612
 - { name: xcwd,                                                                            noscheme: true }
