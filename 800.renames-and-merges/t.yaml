@@ -62,6 +62,7 @@
 - { setname: telepathy-mission-control, name: telepathy-mission-control-5 }
 - { setname: telepathy-python,         name: ["python:telepathy","python:telepathy-python"] }
 - { setname: telepathy-qt,             name: [telepathy-qt4,telepathy-qt5] }
+- { setname: telepresence,             name: telepresence2 }
 - { setname: template-glib,            name: libtemplate-glib }
 - { setname: tensorboard,              name: ["python:tensorboard", "python:tensorboard1", "python:tensorflow-tensorboard"] }
 - { setname: tensorflow,               namepat: "(?:lib|python:)?tensorflow[0-9.-]*(gnu-hpc|gnu-openmpi2-hpc|lite|cpu|gpu)?", addflavor: $1 }
