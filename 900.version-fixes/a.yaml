@@ -306,6 +306,7 @@
 - { name: autoconf,                    verpat: "[0-9]+",                                   incorrect: true } # cygwin
 - { name: autoconf,                    verlonger: 2,                 ruleset: mageia,      incorrect: true }
 - { name: autoconf,                                                  ruleset: mageia,      untrusted: true } # accused of fake 2.69.209
+- { name: autoconf,                    verpat: ".*[0-9][a-z]",                             devel: true } # https://alpha.gnu.org/pub/gnu/autoconf/
 - { name: autoconf-archive,            verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" }
 - { name: autoconf-archive,            verlonger: 3,                                       incorrect: true } # mageia fake
 - { name: autodia,                     verpat: "2\\.[0-9]{3}.*",                           incorrect: true } # perl versioning issues
