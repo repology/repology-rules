@@ -390,6 +390,8 @@
 - { name: swift-lang,                  ver: "5.3",                   ruleset: aur,         incorrect: true }
 - { name: swift-lang,                                                ruleset: aur,         untrusted: true } # accused of fake 5.3
 - { name: swift-lang,                  verlonger: 4,                 ruleset: aur,         setver: snapshot } # trim garbage long version "swift.DEVELOPMENT.SNAPSHOT.2020.06.04.a.r65.gcc84c7b740a"
+- { name: swt,                         ver: "4.333",                 ruleset: opensuse,    incorrect: true }
+- { name: swt,                                                       ruleset: opensuse,    untrusted: true } # accused of fake 4.333
 - { name: sxiv,                        verpat: "[0-9]{8}",                                 incorrect: true }
 - { name: sxiv,                        ver: "09122016",                                    sink: true } # older than normal versions
 - { name: sylpheed,                    ver: "3.8.0",                 ruleset: aur,         incorrect: true } # 3.8.0beta1
