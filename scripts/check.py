@@ -129,6 +129,7 @@ rulesets = families + [
     'antergos',
     'antix',
     'apertis',
+    'archpower',
     'artix',
     'astra',
     'aur',
