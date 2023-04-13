@@ -186,7 +186,9 @@
 - { name: "fonts:lklug",                                                                   noscheme: true }
 - { name: "fonts:mikachan",            ver: "9.1.2006.08.09",                              ignore: true } # openSUSE garbage
 - { name: "fonts:misc-cyrillic",                                     ruleset: openindiana, incorrect: true } # uses version from font-screen-cyrillic https://github.com/OpenIndiana/oi-userland/blob/454f95e1962006a48cd00a0d3540eb603f91d8db/components/fonts/xorg-cyrillic/Makefile
-- { name: "fonts:noto",                                                                    noscheme: true }
+- { name: "fonts:noto",                verge: "20000000", verle: "20230201",               sink: true } # 23.2.1 since feb 2023
+- { name: "fonts:noto",                vergt: "20230201",                                  incorrect: true } # 23.2.1 since feb 2023
+- { name: "fonts:noto-cjk",                                                                noscheme: true } # sans and serif fonts with different versions https://github.com/notofonts/noto-cjk/tags
 - { name: "fonts:noto-emoji",          verge: "2000",                                      sink: true } # latest is 2.034 https://github.com/googlefonts/noto-emoji/tags
 - { name: "fonts:ocr-a",               verpat: "20[0-9]{2}",                               incorrect: true } # aur
 - { name: "fonts:oldstandard",         ver: "2.2really",                                   ignore: true } # debian garbage

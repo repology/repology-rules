@@ -108,21 +108,12 @@
   name:
     - font-google-noto
     - font-noto
-    - font-notosanscjktc
     - fonts-noto
-    - fonts-noto-cjk
-    - google-noto-cjk-fonts
     - google-noto-fonts
-    - google-noto-sans-cjk-fonts
-    - google-noto-serif-cjk-fonts
     - noto
     - noto-cfk
-    - noto-cjk
-    - noto-cjk-fonts
     - noto-fonts
     - noto-fonts-all
-    - noto-fonts-cjk
-    - noto-fonts-cjk-otf
     - noto-fonts-compat
     - noto-fonts-emoji-blob
     - noto-fonts-emoji-lollipop
@@ -132,20 +123,40 @@
     - noto-fonts-sc
     - noto-fonts-ttf
     - noto-lite
-    - noto-sans-cjk
     - noto-ttf
-    - notosanscjktc
     - ttf-noto
-    - ttf-noto-cjk
     - ttf-noto-fonts-emoji-ib
     - ttf-noto-fonts-ib
     - ttf-noto-fonts-simple
 
+- setname: "fonts:noto-cjk"  # may be an overmerge - unclassified cjk fonts
+  name:
+    - fonts-noto-cjk
+    - google-noto-cjk-fonts
+    - noto-cjk
+    - noto-cjk-fonts
+    - noto-fonts-cjk
+    - noto-fonts-cjk-otf
+    - ttf-noto-cjk
+
+- setname: "fonts:noto-cjk-sans"
+  name:
+    - font-notosanscjktc
+    - google-noto-sans-cjk-fonts
+    - noto-sans-cjk
+    - notosanscjktc
+
+- setname: "fonts:noto-cjk-serif"
+  name:
+    - google-noto-serif-cjk-fonts
+
 - setname: "fonts:noto-emoji"
   name:
+    - font-google-noto-emoji
     - font-noto-emoji
     - fonts-noto-color-emoji
     - fonts-ttf-google-noto-emoji
+    - fonts-ttf-noto-emoji
     - google-noto-emoji-fonts
     - noto-coloremoji-fonts
     - noto-emoji
