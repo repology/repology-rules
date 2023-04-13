@@ -77,6 +77,8 @@
 - { setname: libressl,                 name: [libressl-netcat,libressl-static], addflavor: true }
 - { setname: libressl,                 name: libressl-libtls, addflavor: libtls }
 - { setname: libressl,                 name: libressl-devel-libtls, weak_devel: true, nolegacy: true, addflavor: libtls }
+- { setname: librewolf,                name: [$0-bin-wayland], addflavor: true }
+- { setname: librewolf,                name: [librewolf-app, librewolf-browser] }
 - { setname: libsvm,                   name: svm }
 - { setname: libtool,                  name: libtool-bin, addflavor: bin }
 - { setname: lightdm,                  name: lightdm-devel, weak_devel: true, nolegacy: true }
