@@ -109,46 +109,90 @@
     - font-google-noto
     - font-noto
     - fonts-noto
+    - fonts-noto-hinted
+    - fonts-ttf-google-noto
+    - fonts-ttf-noto-mono
+    - fonts-ttf-noto-sans
+    - fonts-ttf-noto-serif
     - google-noto-fonts
     - noto
     - noto-cfk
+    - noto-extra
     - noto-fonts
     - noto-fonts-all
+    - noto-fonts-alpha
+    - noto-fonts-ar
     - noto-fonts-compat
     - noto-fonts-emoji-blob
     - noto-fonts-emoji-lollipop
     - noto-fonts-extra
+    - noto-fonts-lgc-plus
     - noto-fonts-lite
     - noto-fonts-main
-    - noto-fonts-sc
     - noto-fonts-ttf
+    - noto-fonts-variable-ar
+    - noto-fonts-variable-lite
+    - noto-fonts-vf
     - noto-lite
+    - noto-mono
+    - noto-sans
+    - noto-serif
     - noto-ttf
     - ttf-noto
     - ttf-noto-fonts-emoji-ib
     - ttf-noto-fonts-ib
     - ttf-noto-fonts-simple
+    - ttf-noto-sans-kannada
 
 - setname: "fonts:noto-cjk"  # may be an overmerge - unclassified cjk fonts
   name:
+    - font-noto-cjk
     - fonts-noto-cjk
+    - fonts-otf-google-noto-cjk
     - google-noto-cjk-fonts
     - noto-cjk
     - noto-cjk-fonts
+    - noto-cjk-fonts-ttf
     - noto-fonts-cjk
     - noto-fonts-cjk-otf
+    - noto-fonts-cjk-vf
+    - noto-fonts-sc
+    - noto-fonts-tc
+    - noto-hk
+    - noto-jp
+    - noto-kr
+    - noto-sc
+    - noto-tc
     - ttf-noto-cjk
 
 - setname: "fonts:noto-cjk-sans"
   name:
+    - font-google-noto-sans-cjk
     - font-notosanscjktc
     - google-noto-sans-cjk-fonts
+    - google-noto-sans-cjk-subset-fonts
+    - google-noto-sans-cjk-vf-fonts
+    - noto-fonts-cjk-sans
     - noto-sans-cjk
+    - noto-sans-hk
+    - noto-sans-jp
+    - noto-sans-kr
+    - noto-sans-sc
+    - noto-sans-tc
     - notosanscjktc
 
 - setname: "fonts:noto-cjk-serif"
   name:
+    - font-google-noto-serif-cjk
     - google-noto-serif-cjk-fonts
+    - google-noto-serif-cjk-vf-fonts
+    - noto-fonts-cjk-serif
+    - noto-serif-cjk
+    - noto-serif-hk
+    - noto-serif-jp
+    - noto-serif-kr
+    - noto-serif-sc
+    - noto-serif-tc
 
 - setname: "fonts:noto-emoji"
   name:
@@ -157,6 +201,7 @@
     - fonts-noto-color-emoji
     - fonts-ttf-google-noto-emoji
     - fonts-ttf-noto-emoji
+    - google-noto-coloremoji-fonts
     - google-noto-emoji-fonts
     - noto-coloremoji-fonts
     - noto-emoji
