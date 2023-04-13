@@ -171,9 +171,15 @@
 
 - setname: "fonts:croscore"
   name:
+    - croscore-fonts
     - croscorefonts
+    - font-croscore
+    - fonts-croscore
+    - fonts-croscore-ttf
+    - fonts-ttf-google-croscore
     - google-croscore-fonts
-    - ttf-crosscorefonts # XXX: should be renamed to ttf-crosscorefonts in SlackBuilds (it's CrOS (as in Chrome OS), not cross)
+    - ttf-croscore
+    - ttf-crosscorefonts # XXX: should be renamed to ttf-croscorefonts in SlackBuilds (it's CrOS (as in Chrome OS), not cross)
 
 - setname: "fonts:crosextra-caladea"
   name:
