@@ -106,6 +106,7 @@
 - { setname: selene,                   name: "rust:selene" }
 - { setname: selene,                   name: selene-media-converter }
 - { setname: semgrep,                  name: python:$0 }
+- { setname: semgrep,                  name: semgrep-core, addflavor: core }
 - { setname: sendmail,                 namepat: "sendmail\\+.*", ruleset: freebsd }
 - { setname: sendmail,                 name: [sendmail-cf,sendmail-cidrexpand,sendmail-libmilter,sendmail-qtool,libmilter,milter,smrsh], addflavor: true }
 - { setname: seqan,                    name: seqan-apps, addflavor: true }
