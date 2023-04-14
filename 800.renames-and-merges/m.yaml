@@ -290,6 +290,9 @@
 - { setname: mtxclient,                name: libmtxclient }
 - { setname: mullvad-vpn,              name: [mullvad-app, mullvad] }
 - { setname: mullvad-vpn,              name: mullvad-vpn-beta, weak_devel: true, nolegacy: true }
+- { setname: multimc,                  name: multimc5 }
+- { setname: multimc,                  name: multimc-bin, addflavor: true }
+- { setname: multimc,                  name: multimc-development, weak_devel: true, nolegacy: true }
 - { setname: multivalent,              name: [multivalent-tool-pdf,multivalent-pdf-tools] }
 - { setname: mumble,                   name: [mumble-minimal,mumble-stable-minimal], addflavor: minimal }
 - { setname: mumble,                   name: [mumble-snapshot, mumble-snapshot-minimal], addflavor: minimal, weak_devel: true, nolegacy: true }
