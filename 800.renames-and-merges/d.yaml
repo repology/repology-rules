@@ -87,6 +87,9 @@
 - { setname: discord,                  name: [discord-arch-electron,discord-electron,discord-electron-openasar,discord-openasar,discord-windows], addflavor: true }
 - { setname: discord,                  name: [discord-canary,discord-development,discord-ptb], weak_devel: true, nolegacy: true }
 - { setname: discord,                  name: [discord-canary-electron,discord-canary-openasar,discord-development-electron,discord-ptb-openasar], weak_devel: true, nolegacy: true, addflavor: true }
+- { setname: discord-game-sdk,         name: discord-gamesdk }
+- { setname: discord-rpc-extension,    name: discord-rpc-extension-no-tray, addflavor: true }
+- { setname: discord-update-skip,      name: [discord-canary-update-skip,discord-ptb-update-skip], addflavor: true }
 - { setname: discordchatexporter,      name: [discordchatexporter-cli, discord-chat-exporter-cli], addflavor: cli }
 - { setname: discover,                 name: discover-snap, addflavor: snap }
 - { setname: discover,                 name: discover-git, weak_devel: true, nolegacy: true }
