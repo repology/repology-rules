@@ -84,6 +84,9 @@
 - { setname: dircproxy,                name: dircproxy-snapshot, weak_devel: true, nolegacy: true }
 - { setname: disable-c6,               name: disable-c6-systemd } # XXX: problem?
 - { setname: discord,                  name: discord-bin }
+- { setname: discord,                  name: [discord-arch-electron,discord-electron,discord-electron-openasar,discord-openasar,discord-windows], addflavor: true }
+- { setname: discord,                  name: [discord-canary,discord-development,discord-ptb], weak_devel: true, nolegacy: true }
+- { setname: discord,                  name: [discord-canary-electron,discord-canary-openasar,discord-development-electron,discord-ptb-openasar], weak_devel: true, nolegacy: true, addflavor: true }
 - { setname: discordchatexporter,      name: [discordchatexporter-cli, discord-chat-exporter-cli], addflavor: cli }
 - { setname: discover,                 name: discover-snap, addflavor: snap }
 - { setname: discover,                 name: discover-git, weak_devel: true, nolegacy: true }
