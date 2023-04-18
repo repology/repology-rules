@@ -92,6 +92,10 @@
 - { setname: "js:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_js], namepat: "libjs-(.*)", ruleset: [debuntu] }
 - { setname: "js:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_js], namepat: "js-(.*)", ruleset: [pld,fedora,guix,mageia] }
 
+# Jg
+- { setname: "jg:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_jg], namepat: "jg-(.*)", ruleset: slackbuilds }
+- { setname: "jg:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_jg], namepat: "(.*)-jg", ruleset: gentoo }
+
 # Kubernetes
 - { setname: "kubernetes:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_kubernetes], category: kubernetes, ruleset: exherbo }
 

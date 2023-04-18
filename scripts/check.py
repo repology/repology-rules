@@ -209,6 +209,7 @@ flags = [
     'not_gstreamer',
     'not_haskell',
     'not_java',
+    'not_jg',
     'not_js',
     'not_kde',
     'not_kubernetes',
