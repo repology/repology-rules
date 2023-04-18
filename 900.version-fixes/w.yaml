@@ -3,6 +3,8 @@
 - { name: w3m,                         verlonger: 3,                                       incorrect: true }
 - { name: w3m,                         verpat: ".*20[0-9]{6}.*",                           incorrect: true }
 - { name: w3m,                         verpat: "0\\.5\\.3[.+_-]?git20[0-9]{6}",            incorrect: false, ignore: false, any_is_patch: true, devel: false } # https://github.com/tats/w3m/tags
+- { name: w3m,                         ver: "0.5.3+git20230129",                           incorrect: true } # deb janitor
+- { name: w3m,                                                       ruleset: debjanitor,  untrusted: true } # accused of fake 0.5.3+git20230129
 - { name: wakatime,                    relge: "10", relle: "13",                           sink: true } # deprecated python version https://github.com/wakatime/legacy-python-cli
 - { name: wakeonlan,                   verlonger: 3,                 ruleset: sisyphus,    ignore: true }
 - { name: walinuxagent,                verpat: "20[0-9]{6}.*",                             ignore: true }
