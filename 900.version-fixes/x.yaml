@@ -62,6 +62,8 @@
 - { name: "xdrv:mtrack",                                             ruleset: [aur,pclinuxos], untrusted: true } # accused of fake 0.5.1
 - { name: "xdrv:openchrome",           verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
 - { name: "xdrv:savage",               verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
+- { name: "xdrv:siliconmotion",        ver: "2.2.19",                ruleset: aosc,        incorrect: true }
+- { name: "xdrv:siliconmotion",                                      ruleset: aosc,        untrusted: true } # accused of fake 2.2.19
 - { name: "xdrv:sis",                  verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
 - { name: "xdrv:vboxvideo",            ver: "1.0.1",                 ruleset: openindiana, incorrect: true }
 - { name: "xdrv:vboxvideo",                                          ruleset: openindiana, untrusted: true } # accused of fake 1.0.1
