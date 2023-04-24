@@ -110,6 +110,7 @@
 - { name: libgnomeui,                  ver: "2.24.6",                ruleset: opensuse,    incorrect: true }
 - { name: libgnomeui,                                                ruleset: opensuse,    untrusted: true }
 - { name: libgravatar,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libgtkflow,                                                                      outdated: true } # was split into libgtkflow3, libgtkflow4 and libgflow, remaining libgtkflow packages are outdated
 - { name: libgtop,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libguestfs,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libgweather,                 vereq: "40.0",                                      sink: true } # 40 < 3.9x < 4
