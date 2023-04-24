@@ -6,6 +6,12 @@
 
 - setname: virtualbox
   name:
+    - virtualbox51
+    - virtualbox6
+    - virtualbox6.1
+
+- setname: virtualbox
+  name:
     - kernel-modules-virtualbox-addition-std-def
     - kernel-modules-virtualbox-addition-un-def
     - kernel-modules-virtualbox-std-def
@@ -64,7 +70,7 @@
     - virtualbox-ose-legacy
     - virtualbox-ose-nox11-legacy
     - virtualbox-qt5
-    - virtualbox51
+    - virtualbox-unattended-templates
     - virtualbox51-guest-iso
     - virtualbox6-ext-oracle
   addflavor: true
