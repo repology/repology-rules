@@ -17,6 +17,7 @@
 - { name: cal10n,                      ver: "0.8.1.10",              ruleset: opensuse,    incorrect: true }
 - { name: cal10n,                                                    ruleset: opensuse,    untrusted: true } # accused of fake 0.8.1.10
 - { name: calamares,                   verlonger: 3,                 ruleset: manjaro,     incorrect: true }
+- { name: calamares,                   verlonger: 4,                 ruleset: blackarch,   incorrect: true }
 - { name: calamares,                   verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: calendarsupport,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: calf,                        verpat: "20[0-9]{6}.*",                             ignore: true } # slackbuilds garbage
