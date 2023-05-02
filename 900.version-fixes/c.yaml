@@ -31,7 +31,8 @@
 - { name: camlp5,                      verpat: "[0-9]{3}",                                 incorrect: true } # XXX: add problem
 - { name: camotics,                    ver: "1.2.1",                 ruleset: sisyphus,    incorrect: true }
 - { name: camotics,                                                  ruleset: sisyphus,    untrusted: true } # accused of fake 1.2.1
-- { name: can-utils,                                                                       noscheme: true }
+- { name: can-utils,                   verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: can-utils,                   verge: "20230300",                                  sink: true } # 2023.03
 - { name: candy-icons,                                                                     noscheme: true }
 - { name: canna,                                                                           p_is_patch: true }
 - { name: cantera,                     ver: "2.6.0",                 ruleset: fedora,      incorrect: true }
