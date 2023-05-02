@@ -229,6 +229,8 @@
 - { name: confetti,                                                                        noscheme: true } # https://github.com/mailru/confetti/releases
 - { name: conky-manager,               ver: "2.72",                  ruleset: solus,       incorrect: true }
 - { name: conky-manager,                                             ruleset: solus,       untrusted: true } # accused of fake 2.72
+- { name: conky-manager,               verpat: "[0-9a-f]{7}.*",                            incorrect: true }
+- { name: conky-manager,                                             ruleset: pacstall,    untrusted: true } # accused of fake 4dbad463
 - { name: conmon,                                                    ruleset: [sisyphus,fedora], untrusted: true } # accused of fake 2.0.4, 2.1
 - { name: connect-proxy,               verpat: "[0-9]+",                                   incorrect: true }
 - { name: connectagram,                verpat: ".*20[0-9]{6}",                             snapshot: true }
