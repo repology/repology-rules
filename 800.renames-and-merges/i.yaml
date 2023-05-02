@@ -25,6 +25,7 @@
 - { setname: icinga,                   name: icinga2 } # split later
 - { setname: icinga,                   name: [icinga-base,icinga-cgi,icinga-classic-ui,icinga-idoutils,icinga2-ido-mysql,icinga2-ido-pgsql,icinga2-ido], addflavor: true }
 - { setname: icingaweb2,               name: icinga-web2 }
+- { setname: icoextract,               name: python:$0 }
 - { setname: icon,                     name: icon-lang }
 - { setname: iconpack-obsidian,        name: obsidian-icon-theme }
 - { setname: "icons:zafiro",           name: [zafiro-icon-theme,zafiro-icons] }
