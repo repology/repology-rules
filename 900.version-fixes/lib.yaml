@@ -50,6 +50,7 @@
 - { name: libcaca,                     ver: "0.99", ruleset: [sisyphus,pclinuxos,mageia,openmandriva,pld], incorrect: true } # it's 0.99.betaX!
 - { name: libcaca,                                  ruleset: [sisyphus,pclinuxos,mageia,openmandriva,pld], untrusted: true }
 - { name: libcaca,                     verpat: "0.99.[0-9]+.*",                            incorrect: true } # it.s 0.99.betaX, not 0.99.X
+- { name: libcaca,                     ver: "0.9",                                         outdated: true } # deprecated as per upstream
 - { name: libcamera,                                                                       noscheme: true }
 - { name: libcangjie,                  verpat: ".*[0-9a-f]{40}",                           incorrect: true } # nix crap
 - { name: libcapi,                     ver: "3.27",                                        sink: true }
