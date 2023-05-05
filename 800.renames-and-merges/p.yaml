@@ -46,6 +46,7 @@
 - { setname: passes,                   name: passes-gtk, addflavor: true }
 - { setname: password-store,           name: [passwordstore] }
 - { setname: password-store,           name: [emacs-password-store,"emacs:password-store"], addflavor: emacs }
+- { setname: pastel,                   name: [rust:$0, python:$0, ruby:$0] }
 - { setname: pasystray,                name: [pasystray-gtk2,pasystray-gtk2-standalone,pasystray-gtk3,pasystray-gtk3-standalone,pasystray-wayland] }
 - { setname: patch,                    name: [gpatch, patch-gnu] }
 - { setname: payara,                   namepat: "payara[0-9]+" }
