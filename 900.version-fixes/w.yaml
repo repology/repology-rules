@@ -32,6 +32,8 @@
 - { name: weka,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: wesnoth,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: weston,                      verpat: ".*\\.9[0-9]",                              devel: true }
+- { name: wget,                        ver: "1.21.3.24",                                   incorrect: true } # guix
+- { name: wget,                                                      ruleset: guix,        untrusted: true } # accused of fake 1.21.3.24
 - { name: whatweb,                     vergt: "0.4.7",               ruleset: [debuntu,openbsd,gentoo,freebsd], ignore: true } # 0.4.8 has never been released
 - { name: whitakers-words,                                                                 noscheme: true }
 - { name: widelands,                   verpat: "20[0-9]{6}.*",                             incorrect: true }
