@@ -112,6 +112,9 @@
 - { name: charles,                     ver: "4.6.2.8",               ruleset: winget,      incorrect: true }
 - { name: charles,                                                   ruleset: winget,      untrusted: true } # accused of fake 4.6.2.8
 - { name: charls,                                                    ruleset: pisi,        untrusted: true } # repacked, fake mbigous version
+- { name: chatgpt-shell-cli,           ver: "0.3",                   ruleset: aur,         incorrect: true }
+- { name: chatgpt-shell-cli,                                         ruleset: aur,         untrusted: true } # accused of fake 0.3
+- { name: chatgpt-shell-cli,                                                               noscheme: true }
 - { name: check-lm-sensors,            verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: check-mk,                    verpat: ".*b.*",                                    devel: true }
 - { name: check-mk,                                                                        p_is_patch: true }
