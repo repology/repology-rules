@@ -101,7 +101,7 @@
 - { name: roaraudio,                                                 ruleset: packman,     untrusted: true } # accused of fake 0.99
 - { name: robotfindskitten,            verpat: "20[0-9]{2}.*",                             incorrect: true } # termux
 - { name: rocksndiamonds-data,                                                             noscheme: true } # usually a bunch of versionless level sets
-- { name: rocm-device-libs,            verge: "16",                                        incorrect: true } # fedora, uses llvm version
+- { name: rocm-device-libs,            verge: "15",                                        incorrect: true } # fedora, uses llvm version
 - { name: rocs,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: rofi-wayland,                verpat: ".*wayland.*",                              any_is_patch: true }
 - { name: rogue,                       ver: "5.4.5",                 ruleset: [fedora,slackbuilds], incorrect: true }
