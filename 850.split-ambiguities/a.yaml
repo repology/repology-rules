@@ -73,6 +73,11 @@
 - { name: air, wwwpart: imager, setname: air-imager }
 - { name: air, addflag: unclassified }
 
+- { name: alac, wwwpart: macosforge, setname: $0-macosforge }
+- { name: alac, wwwpart: mikebrady, setname: $0-mikebrady }
+# also craz.net dead upstream
+- { name: alac, addflag: unclassified }
+
 - { name: alan, wwwpart: [alantech,alan-lang], setname: alan-lang }
 - { name: alan, wwwpart: launchpad.net/alan, setname: alan-menu-framework }
 - { name: alan, wwwpart: mpdunne, setname: alan-alignment-viewer }
