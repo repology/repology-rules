@@ -132,6 +132,7 @@
 - { name: chntpw,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: chntpw,                      ver: "20100627",                                    sink: true }
 - { name: chromaprint,                                               ruleset: rosa,        untrusted: true } # accused of fake 1.4.4
+- { name: chromaprint,                 verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: chromium,                    verpat: ".*-r[0-9]+",                               ignore: true } # scoop
 - { name: chromium,                    verpat: "[0-9]+",                                   snapshot: true } # homebrew casks <- https://commondatastorage.googleapis.com/chromium-browser-snapshots/Mac/675525/chrome-mac.zip
 - { name: chromium,                                                  ruleset: gentoo,      ignore: true } # there are unstable versions in gentoo; see https://github.com/repology/repology-updater/issues/996 on how to solve it globally
