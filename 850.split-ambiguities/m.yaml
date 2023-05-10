@@ -21,6 +21,10 @@
 
 - { name: man, wwwpart: man-db,        setname: man-db }
 
+- { name: man2html, wwwpart: [savannah,nongnu], setname: $0-savannah }
+- { name: man2html, wwwpart: dickey, setname: $0-dickey }
+- { name: man2html, addflag: unclassified }
+
 - { name: mandown, wwwpart: potatoeggy, setname: mandown-comics }
 - { name: mandown, wwwpart: titor8115, setname: mandown-md-viewer }
 - { name: mandown, wwwpart: kornelski, setname: mandown-manpage-from-markdown }
