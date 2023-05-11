@@ -88,7 +88,7 @@
 - { setname: intel-vaapi-driver,       name: [intel-driver,libva-intel-driver,libva1-intel-driver,vaapi-intel-driver,libva-driver-intel,libva-intel,vaapi-driver-intel] }
 - { setname: intel-vc-intrinsics,      name: vc-intrinsics }
 - { setname: intel-vc-intrinsics,      namepat: "vc-intrinsics-(llvm[0-9]+)", addflavor: $1 }
-- { setname: intel-vc-intrinsics,      namepat: "intel-(llvm[0-9.-]+)-intrinsics", addflavor: $1 }
+- { setname: intel-vc-intrinsics,      namepat: "intel-(llvm[0-9.-]+)-vc-intrinsics", addflavor: $1 }
 - { setname: intel-xed,                name: intelxed }
 - { setname: intellij-idea-community,  name: [intellij-idea-ce,idea-community,intellij-idea-community-edition,intellij,intellijidea-community] }
 - { setname: intellij-idea-community,  name: [intellij-idea-community-edition-jre,intellij-idea-community-edition-no-jre], addflavor: true }
