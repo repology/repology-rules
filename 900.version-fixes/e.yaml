@@ -82,6 +82,8 @@
 - { name: "emacs:navi2ch",             ver: "2.0.0.d",                                     incorrect: true } # fake
 - { name: "emacs:php-mode",            verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: "emacs:php-mode",            verge: "20000000", verlt: "20180512",               sink: true }
+- { name: "emacs:poke",                ver: "3.2",                   ruleset: guix,        incorrect: true } # poke, not emacs poke
+- { name: "emacs:poke",                                              ruleset: guix,        untrusted: true } # accused of fake 3.2
 - { name: "emacs:puppet-mode",         verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "emacs:scheme-complete",     verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: "emacs:semi",                verpat: ".+20[0-9]{6}",                             snapshot: true }
