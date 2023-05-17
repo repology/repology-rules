@@ -269,7 +269,7 @@
 - { name: audiofile, noflag: classified, untrusted: true } # assume the same project, but be safe against potential clashes
 
 - { name: augur, wwwpart: AugurProject/augur-app, setname: augur-ethereum }
-- { name: augur, wwwpart: nextstrain, setname: augur-bioinformatics }
+- { name: augur, wwwpart: nextstrain, setname: python:nextstrain-augur }
 - { name: augur, addflag: unclassified }
 
 - { name: augustus, wwwpart: Keriew, setname: augustus-game }
