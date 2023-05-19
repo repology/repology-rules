@@ -139,6 +139,10 @@
 
 - { name: shutter, ruleset: maemo, setname: shutter-maemo }
 
+- { name: shuttle, wwwpart: [shuttle.rs,shuttle-hq], setname: "rust:cargo-shuttle" }
+- { name: shuttle, wwwpart: fitztrev, setname: shuttle-macos-shortcut-menu }
+- { name: shuttle, addflag: unclassified }
+
 - { name: sic, wwwpart: suckless, setname: sic-irc }
 - { name: sic, wwwpart: foresterre, setname: sic-image-tool }
 - { name: sic, addflag: unclassified }
