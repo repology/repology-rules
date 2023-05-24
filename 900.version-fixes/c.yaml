@@ -122,7 +122,7 @@
 - { name: checkbashisms,               verpat: "20[0-9]{6}.*",                             ignore: true } # AUR
 - { name: checkinstall,                ver: "1.6.2.16",                                    incorrect: true }
 - { name: checkinstall,                                              ruleset: rpm,         untrusted: true } # accused of fake 1.6.2.16
-- { name: checkpwn,                    ver: "1.0.1",                                       sink: true, incorrect: true }
+- { name: checkpwn,                    ver: "1.1.0",                                       sink: true, incorrect: true }
 - { name: cheese,                      vereq: "43",                  ruleset: [pisi,openmamba], incorrect: true } # 43.alpha
 - { name: cheese,                                                    ruleset: [pisi,openmamba], untrusted: true } # accused of fake 43.0
 - { name: chef,                        verpat: ".*g.*",                                    incorrect: true } # git commit
