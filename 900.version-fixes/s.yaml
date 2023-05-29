@@ -434,5 +434,7 @@
 - { name: systemd,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: systemd,                     verpat: ".*\\.[0-9]{2,7}",                          incorrect: true }
 - { name: systemsettings,              verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: systemsettings,              ver: "5.240.0",               ruleset: openmandriva, incorrect: true }
+- { name: systemsettings,                                            ruleset: openmandriva, untrusted: true } # accused of fake 5.240.0
 - { name: systemtap,                   verpat: "4.*20[0-9]{2}.*",                          incorrect: true }
 - { name: systemtap,                   verpat: ".*-.*",              ruleset: nix,         incorrect: true } # total garbage not even including the official version
