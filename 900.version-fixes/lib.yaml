@@ -88,6 +88,8 @@
 - { name: libelf,                                                    ruleset: glaucus,     untrusted: true } # accused of fake 0.187
 - { name: libevdev,                    verpat: ".*\\.9[0-9]+",                             devel: true } # assumed; https://www.freedesktop.org/software/libevdev/
 - { name: libevdev,                    verpat: ".+20[0-9]{6}",                             snapshot: true }
+- { name: libevent,                    ver: "2.2.1",                 ruleset: gentoo,      incorrect: true }
+- { name: libevent,                                                  ruleset: gentoo,      untrusted: true } # accused of fake 2.2.1
 - { name: libfaketime,                 verpat: ".*201[67].*",                              ignore: true } # FreeBSD is using git snapshot
 - { name: libffi,                      ver: "3.3",                   ruleset: debuntu,     incorrect: true } # snapshot of nonexisting version
 - { name: libffi,                                                    ruleset: debuntu,     untrusted: true } # accused of fake 3.3
