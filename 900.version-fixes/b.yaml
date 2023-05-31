@@ -63,6 +63,9 @@
 - { name: binutils,                    verpat: ".*r.*",                                    ignore: true } # snapshots
 - { name: binutils,                    verpat: ".*[0-9]{4}.*",                             snapshot: true } # snapshots and GUIX 2281 garbage
 - { name: binutils,                    verpat: ".*\\.[59][0-9]",                           devel: true } # ftp://sourceware.org/pub/binutils/snapshots
+- { name: bioawk,                      ver: "1.0.7",                 ruleset: freebsd,     incorrect: true }
+- { name: bioawk,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 1.0.7
+- { name: bioawk,                      verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: biogenesis,                  ver: "0.8.1.42.1",                                  ignore: true } # mageia garbage
 - { name: bioperl,                     verpat: "[0-9]+\\.[0-9]{2}.*",                      incorrect: true }
 - { name: birdfont,                    verge: "3",                                         ignore: true } # https://birdfont.org/purchase.php (3.x is either different versioning for binary releases, or just not available in source)
