@@ -259,6 +259,8 @@
 - { name: librsvg,                     verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: libsamplerate,               ver: "0.1.9.1",               ruleset: deepin,      incorrect: true }
 - { name: libsamplerate,                                             ruleset: deepin,      untrusted: true } # accused of fake 0.1.9.1
+- { name: libsbml,                     ver: "5.20.1",                ruleset: bioarch,     incorrect: true }
+- { name: libsbml,                                                   ruleset: bioarch,     untrusted: true } # accused of fake 5.20.1
 - { name: libsearpc,                   ver: ["3.1.7","6.2.2"],       ruleset: openwrt,     incorrect: true }
 - { name: libsearpc,                                                 ruleset: openwrt,     untrusted: true }
 - { name: libsearpc,                   verpat: ".*20[0-9]{6}",                             snapshot: true } # openbsd
