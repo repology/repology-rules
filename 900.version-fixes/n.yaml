@@ -97,6 +97,8 @@
 - { name: nikto,                       ver: "2.2.0",                 ruleset: nix,         incorrect: true }
 - { name: nikto,                                                     ruleset: nix,         untrusted: true } # accused of fake 2.2.0
 - { name: nim,                         verpat: ".*20[0-9]{6}.*",                           snapshot: true } # haiku garbage
+- { name: nim,                         ver: "1.9.3",                 ruleset: spack,       incorrect: true }
+- { name: nim,                                                       ruleset: spack,       untrusted: true } # accused of fake 1.9.3
 - { name: ninvaders,                   verge: "0.1.2",                                     successor: true }
 - { name: nitrogen,                    verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: nkf,                         verpat: "2\\.[0-9]{2}",                             incorrect: true } # it's X.Y.Z, not X.YZ
