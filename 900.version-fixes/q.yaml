@@ -51,7 +51,6 @@
 - { name: qpdfview,                    ver: "0.4.17",                                      incorrect: true } # skipped upstream
 - { name: qpdfview,                    verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\..80",           incorrect: true } # kaos fakes
 - { name: qpdfview,                                                  ruleset: kaos,        untrusted: true } # accused of fake 0.4.16.80
-- { name: qpress,                      verpat: "[0-9]+",                                   incorrect: true }
 - { name: qps,                         verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: qrfcview,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: qrfcview,                    ver: "1.0.0",                 ruleset: openbsd,     successor: true } # uses unofficial fork (dead as well)
