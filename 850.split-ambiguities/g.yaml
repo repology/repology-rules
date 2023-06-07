@@ -57,6 +57,10 @@
 
 - { name: ghostscript-fonts, wwwpart: gs-fonts, setname: ghostscript-fonts-std }
 
+- { name: gig, wwwpart: linuxsampler, setname: libgig }
+- { name: gig, wwwpart: shihanng, setname: gig-gitignore }
+- { name: gig, addflag: unclassified }
+
 - { name: gimme, wwwpart: travis-ci/gimme, setname: gimme-go }
 - { name: gimme, wwwpart: netbsd, setname: gimme-netbsd }
 - { name: gimme, addflag: unclassified }
