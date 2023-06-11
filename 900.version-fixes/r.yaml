@@ -30,6 +30,7 @@
 - { name: rav1e,                                                     ruleset: aur,         untrusted: true } # accused of fake 0.4.0
 - { name: rawstudio,                   ver: "2.1",                   ruleset: [sisyphus,fedora], incorrect: true } # Fedora and ALT Sisphus are packaging devel snapshot as version number not released ustream
 - { name: rawstudio,                                                 ruleset: [sisyphus,fedora], untrusted: true }
+- { name: rawstudio,                   verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: rblcheck,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: rblcheck,                    ver: "20020316",                                    sink: true, disposable: true }
 - { name: rbldnsd,                     verpat: ".*20[0-9]{6}.*",                           ignore: true }
