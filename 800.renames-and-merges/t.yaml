@@ -14,6 +14,7 @@
 - { setname: tar,                      name: [gtar-base,gtar-info], addflavor: true }
 - { setname: targetcli-fb,             name: targetcli, addflavor: true } # ancient predecessor, probably affected by cves as well, but mostly misnamed targetcli-fp packages XXX problems
 - { setname: tarsnapper,               name: "python:tarsnapper" }
+- { setname: tart,                     name: haskell:$0 }
 - { setname: task,                     name: task-dev, weak_devel: true, nolegacy: true }
 - { setname: taskcoach,                name: task-coach }
 - { setname: tautulli,                 name: tautulli-beta, ignore: true }
