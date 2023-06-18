@@ -143,6 +143,7 @@
 - { name: amtterm,                     verpat: ".*-.*",              ruleset: nix,         snapshot: true }
 - { name: amule,                       verpat: "[0-9]{5}",                                 incorrect: true } # revision
 - { name: amule,                       verpat: ".+20[0-9]{6}.*",                           snapshot: true }
+- { name: amule,                       verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: amule,                       ver: "2.3.2.1",                                     incorrect: true }
 - { name: amule,                       verpat: "2\\.4\\.0.*",        ruleset: [rpm,debuntu], incorrect: true } # unreleased
 - { name: amule,                                                     ruleset: [rpm,debuntu], untrusted: true } # accused of fake 2.4.0
