@@ -345,6 +345,16 @@ case-insensitive.
 - { name: firefox, wwwpart: "mozilla.org", ... }
 ```
 
+#### sourceforge
+
+Matches when a package homepage is a sourceforge page for a given
+project name (`https://<project>.sourceforge.net`,
+`https://sourceforge.net/project/<project>` etc.):
+
+```yaml
+- { name: aterm, sourceforge: aterm, ... }
+```
+
 #### summpart
 
 Matches when a package summary contains a given substring. Useful
