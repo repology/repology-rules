@@ -76,6 +76,7 @@
 - { setname: libfreenect,              name: freenect }
 - { setname: libftdi,                  namepat: "libftdi[0-9.-]+" }
 - { setname: libftdi,                  name: libftdi-compat }
+- { setname: libfuse,                  name: [libfuse2, libfuse3] }
 - { setname: libgcrypt,                namepat: "libgcrypt[0-9.-]+" }
 - { setname: libgcrypt,                name: [libgcrypt-compat,compat-libgcrypt,libgcrypt11-compat] }
 - { setname: libgcrypt,                name: [libgcrypt-static,libgcrypt-gost], addflavor: true }
