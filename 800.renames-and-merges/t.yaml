@@ -70,6 +70,8 @@
 - { setname: tepl,                     namepat: "(?:lib)?tepl[0-9.-]*" }
 - { setname: terminal-markdown-viewer, name: mdv }
 - { setname: termtosvg,                name: "python:termtosvg" }
+- { setname: terraform,                namepat: "terraform[0-9.-]+" }
+- { setname: terraform,                name: terraform-with-plugins, addflavor: true }
 - { setname: terraform-compliance,     name: "python:terraform-compliance" }
 - { setname: tesseract-ocr-data,       namepat: "tesseract(?:-ocr|-data)*-(?!ocr)[a-z]{3}(?:-.*)?" }
 - { setname: tesseract-ocr-data,       name: [tesseract-tessdata,tesseract-data, tessdata] }
