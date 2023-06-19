@@ -38,12 +38,12 @@ Here's a quick pointer of how to add specific rules:
 - Add a group of rules to distinguish packages by upstream URL
   ([wwwpart](#wwwpart), [wwwpat](#wwwpat) and [sourceforge](#sourceforge)
   conditions are allowed). Such group must end with a
-  catch-all rule for unclassified packages. Example:
+  catch-all rule for packages not matched by specific
+  rules. Example:
   ```yaml
-  - { name: howl, wwwpart: [howl.io,howl-editor], setname: howl-editor }
-  - { name: howl, sourceforge: howl, setname: howl-zeroconf }
-  - { name: howl, wwwpart: porchdogsoft, setname: howl-zeroconf }
-  - { name: howl, addflag: unclassified }
+  - { name: <ambiguous name>, wwwpart: <part of the homepage url for distinctive project A>, setname: <specific name A> }`
+  - { name: <ambiguous name>, wwwpart: <part of the homepage url for distinctive project B>, setname: <specific name B> }`
+  - { name: <ambiguous name>, addflag: unclassified }
   ```
 
 ## Contributing
