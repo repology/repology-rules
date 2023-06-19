@@ -35,7 +35,8 @@ Here's a quick pointer of how to add specific rules:
 ### You want to split different projects with the same name
 
 - Open the corresponding yaml file under [`850.split-ambiguities/`](./850.split-ambiguities/)
-- Add a set of rules which distinguish packages, such as:
+- Add one or more rules which distinguish packages via specific [conditions](#conditions),
+  such as `wwwpart`, `category`, `verpat`, etc. For example:
   - `- { name: <ambiguous name>, wwwpart: <part of the homepage url>, setname: <specific name> }`
   - `- { name: <ambiguous name>, category: <category>, setname: <specific name> }`
   - `- { name: <ambiguous name>, verpat: <version pattern>, setname: <specific name> }`
