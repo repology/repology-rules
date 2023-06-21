@@ -41,8 +41,8 @@ Here's a quick pointer of how to add specific rules:
   catch-all rule for packages not matched by specific
   rules. Example:
   ```yaml
-  - { name: <ambiguous name>, wwwpart: <part of the homepage url for distinctive project A>, setname: <specific name A> }`
-  - { name: <ambiguous name>, wwwpart: <part of the homepage url for distinctive project B>, setname: <specific name B> }`
+  - { name: <ambiguous name>, wwwpart: <url part for project A>, setname: <name A> }`
+  - { name: <ambiguous name>, wwwpart: <url part for project B>, setname: <name B> }`
   - { name: <ambiguous name>, addflag: unclassified }
   ```
 
