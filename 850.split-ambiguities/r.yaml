@@ -138,7 +138,7 @@
 
 - { name: "ruby:rash", setname: "ruby:rash-alt", ruleset: sisyphus } # fork
 
-- { name: ruff, wwwpart: [charliermarsh,ruff.rs], setname: ruff-python-linter }
+- { name: ruff, wwwpart: [ruff.rs,astral-sh], setname: ruff-python-linter }
 - { name: ruff, wwwpart: magicsplat, setname: ruff-docs-generator }
 - { name: ruff, addflag: unclassified }
 
