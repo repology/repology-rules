@@ -6,6 +6,7 @@
 - { name: tagainijisho,                verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: taglib,                      verpat: ".*[ab].*",                                 devel: true } # XXX: FreeBSD DISTVERSION
 - { name: taisei,                      verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
+- { name: taizen,                      verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: takeover,                                                                        noscheme: true } # https://github.com/m4ll0k/takeover/releases
 - { name: tales-of-middle-earth,       verpat: "[0-9]{3}",                                 incorrect: true } # 2.3.5, not 235
 - { name: tales-of-middle-earth,       verpat: "2\\.41.*",                                 incorrect: true } # version scheme is "2.4.0", and 2.4.1 was never released
