@@ -322,6 +322,8 @@
 - { name: squirrelmail-multilogin,     verpat: ".*-.*",                                    altver: true } # may contain squirrelmail version (?)
 - { name: squirrelmail-notes,          verpat: ".*-.*",                                    altver: true } # may contain squirrelmail version (?)
 - { name: squirrelmail-shared-calendars, verpat: ".*-.*",                                  altver: true } # may contain squirrelmail version (?)
+- { name: sratom,                      ver: "0.16.14",               ruleset: pisi,        incorrect: true }
+- { name: sratom,                                                    ruleset: pisi,        untrusted: true } # accused of fake 0.16.14
 - { name: srelay,                                                                          p_is_patch: true } # https://sourceforge.net/projects/socks-relay/files/socks-relay/srelay-0.4.8/
 - { name: sshttp,                      verpat: "(.*)p(.*)",                                setver: "$1s$2" } # gentoo cannot into upstream versioning scheme
 - { name: sshttp,                      verpat: "(.*)s",                                    setver: "$1s1" } # 0-33s < 0-33s2
