@@ -303,6 +303,7 @@
 - { setname: muparser,                 namepat: "libmuparser[0-9.-]*" }
 - { setname: mupdf,                    name: [libmupdf,mupdf-nojs,mupdf-seccomp,mupdf-tools], addflavor: true }
 - { setname: musepack,                 name: [musepack-tools,libmusepack], addflavor: true }
+- { setname: musescore,                name: mscore } # XXX: problem?
 - { setname: musescore,                name: [musescore-dev,musescore-snapshot], weak_devel: true, nolegacy: true }
 - { setname: musl,                     name: musl-libc }
 - { setname: musl,                     name: musl-bootstrap, addflavor: true }
