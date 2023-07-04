@@ -291,7 +291,9 @@
 - { setname: "python:pysha3",          name: pysha3 } # CVE
 - { setname: "python:pyside",          name: pyside }
 - { setname: "python:pyside",          name: [pyside-qt4,pyside-qt4-py3], addflavor: true }
-- { setname: "python:pyside2",         name: pyside2 }
+- { setname: "python:pyside-tools",    name: pyside-tools }
+- { setname: "python:pyside2",         namepat: "(?:python:)?pyside-?2(-tools)?", addflavor: $1 }
+- { setname: "python:pyside6",         namepat: "(?:python:)?pyside-?6(-tools)?", addflavor: $1 }
 - { setname: "python:pysolar",         name: pysolar }
 - { setname: "python:pyspatialite",    name: pyspatialite } # XXX: make upstream use prefix
 - { setname: "python:pysvn",           name: pysvn }
@@ -374,7 +376,8 @@
 - { setname: "python:shiboken",        name: shiboken-qt4, addflavor: qt4 }
 - { setname: "python:shiboken",        name: "python:pyside-shiboken" }
 - { setname: "python:shiboken",        name: shiboken-py3, addflavor: py3 }
-- { setname: "python:shiboken2",       name: shiboken2 }
+- { setname: "python:shiboken2",       namepat: "(?:python:)?shiboken-?2" }
+- { setname: "python:shiboken6",       namepat: "(?:python:)?shiboken-?6" }
 - { setname: "python:shutilwhich",     name: shutilwhich }
 - { setname: "python:sip",             namepat: "sip[0-9.-]*" }
 - { setname: "python:sip",             namepat: "python:sip(?:-(?:(?:py)?qt)?)?[45][0-9.-]*" }

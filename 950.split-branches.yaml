@@ -302,6 +302,14 @@
 
 - { name: "python:pygobject",                             setbranchcomps: 1 }
 
+- { name: "python:pyside",   releq: "5",                  setname: "python:pyside2" }
+- { name: "python:pyside",   releq: "6",                  setname: "python:pyside6" }
+- { name: "python:pyside",   relge: "7",                  warning: "please classify me" }
+
+- { name: "python:shiboken", releq: "5",                  setname: "python:shiboken2" }
+- { name: "python:shiboken", releq: "6",                  setname: "python:shiboken6" }
+- { name: "python:shiboken", relge: "7",                  warning: "please classify me" }
+
 - { name: "python:sip",                                   setbranchcomps: 1 }
 
 - { name: "python:unit",     wwwpart: nginx,              setname: unit, addflavor: python }
