@@ -126,6 +126,10 @@
 
 - { name: disktype, wwwpart: kamwoods, setname: disktype-kamwoods } # fork
 
+- { name: distribution, wwwpart: [philovivero, time-less-ness, wizzat], setname: "python:distribution" }
+- { name: distribution, wwwpart: [docker, github.com/distribution/], setname: distribution-cncf }
+- { name: distribution, addflag: unclassified }
+
 - { name: distro-info, wwwpart: debian, setname: distro-info-debian }
 - { name: distro-info, wwwpart: etersoft, setname: distro-info-etersoft }
 - { name: distro-info, addflag: unclassified }
