@@ -31,6 +31,7 @@
 - { name: hex2bin,                     verpat: "20[0-9]{6}.*",                             snapshot: true } # AUR snapshot
 - { name: hexcalc,                     verpat: "19[0-9]{6}",                               snapshot: true } # openbsd
 - { name: hexdump,                     verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: hg-fast-export,              verpat: "201[0-9]{5}",                              sink: true }
 - { name: hidapi,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: hidapi,                      ver: "0.8.0",                 ruleset: [fedora,mageia,sisyphus,macports,pclinuxos,pld], incorrect: true } # 0.8.0rc1
 - { name: hidapi,                                                    ruleset: [fedora,mageia,sisyphus,macports,pclinuxos,pld], untrusted: true } # accused of fake 0.8.0
