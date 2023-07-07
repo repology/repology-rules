@@ -92,6 +92,7 @@
 - { name: rinetd,                                                    ruleset: aur,         untrusted: true } # accused of fake 0.64
 - { name: rinetd,                      verpat: "20[0-9]{2}.*",                             incorrect: true } # termux
 - { name: ring,                                                                            noscheme: true }
+- { name: rio-terminal-emulator,       verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: ripit,                       ver: "3.9.90",                                      incorrect: true } # opensuse garbage, actually 4.0.0_beta20140508
 - { name: ripit,                                                     ruleset: opensuse,    untrusted: true } # accused of 3.9.90
 - { name: ripser,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }
