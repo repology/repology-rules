@@ -14,7 +14,7 @@
 - { setname: caddy,                    name: caddy2 }
 - { setname: caffe,                    name: [caffe-1-0-gnu-hpc,caffe-contrib,caffe-cpu,caffe-cuda,caffe-opencl], addflavor: true }
 - { setname: cage,                     name: [cage-no-xwayland,cage-scenegraph], addflavor: true }
-- { setname: cairo,                    name: cairo-bootstrap, addflavor: true }
+- { setname: cairo,                    name: [cairo-bootstrap,cairo-gl,cairo-glesv2,cairo-glesv3,cairo-spice,cairo-xml], addflavor: true }
 - { setname: cairo-clock,              name: cairo-clock-ccw }
 - { setname: cairo-dock-plugins,       name: cairo-dock-plug-ins }
 - { setname: cairomm,                  namepat: "(?:lib)?cairomm[0-9.-]*(-docs)?", addflavor: $1 }
