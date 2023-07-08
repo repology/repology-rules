@@ -16,6 +16,7 @@
 - { setname: icecast,                  name: icecast2 }
 - { setname: icecat,                   name: icecat-debug, addflavor: debug }
 - { setname: icecat,                   namepat: "icecat-(l10n.*)", addflavor: $1 }
+- { setname: icecat,                   name: [icecat-bin,icecat-minimal,icecat-rpm], addflavor: true }
 - { setname: icedove,                  namepat: "icedove-(l10n.*)", addflavor: $1 }
 - { setname: icemon,                   name: [icecream-monitor, icecc-monitor] }
 - { setname: ices,                     namepat: "ices[0-9]+" }

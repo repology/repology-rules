@@ -7,6 +7,10 @@
 - { setname: warzone2100,              name: warzone2100-data, addflavor: true }
 - { setname: watchexec,                name: "rust:watchexec-cli" }
 - { setname: waterfox,                 name: waterfox-kde, addflavor: kde }
+- { setname: waterfox,                 name: [waterfox-current,waterfox-g,waterfox-g-browser,waterfox-g3,waterfox-g4,waterfox-g5]}
+- { setname: waterfox,                 name: [waterfox-current-kpe,waterfox-g-kpe,waterfox-g3-kpe,waterfox-g4-kpe], addflavor: true}
+- { setname: waterfox-classic,         name: waterfox-classic-browser}
+- { setname: waterfox-classic,         name: waterfox-classic-kpe, addflavor: true}
 - { setname: watson,                   name: td-watson }
 - { setname: wavpack,                  name: libwavpack }
 - { setname: waylandpp,                name: libwaylandpp }
