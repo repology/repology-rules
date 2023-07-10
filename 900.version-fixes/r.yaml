@@ -6,6 +6,8 @@
 - { name: r8s,                         verpat: "1\\.([0-9])",                              setver: 1.$10 } # 1.70->1.71->1.8
 - { name: "r:hexbin",                  ver: "1.27.1-1",                                    ignore: true } # guix fake
 - { name: "r:nws",                     ver: "2.0.0.3",               ruleset: debuntu,     ignore: true } # fake
+- { name: "r:rcppeigen",               ver: "0.3.3.9.3.1",                                 incorrect: true }
+- { name: "r:rcppeigen",                                             ruleset: macports,    untrusted: true } # accused of fake 0.3.3.9.3.1
 - { name: "r:waveslim",                ver: "1.12",                  ruleset: rosa,        ignore: true } # fake
 - { name: racer-game,                  ver: "1.1.64",                                      incorrect: true } # it's 1.1 64bit version
 - { name: racket,                      verpat: "299.*",                                    sink: true } # something from 2005
