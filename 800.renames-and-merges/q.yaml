@@ -1,6 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { setname: q-text-as-data,           name: q-textasdata }
+- { setname: qalculate-gtk,            name: qalculate-gtk-nognome, addflavor: true }
+- { setname: qalculate-qt,             name: [qalculate-qt5, qalculate-qt6], addflavor: true }
 - { setname: qastools,                 name: qastools-qt5 }
 - { setname: qbittorrent,              name: [qbittorrent-nox,qbittorrent-qt4,qbittorrent-qt5,qbittorrent-dark,qbittorrent-stable], addflavor: true }
 - { setname: qbs,                      name: qbs-docs, addflavor: docs }
