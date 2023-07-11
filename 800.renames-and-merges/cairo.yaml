@@ -1,9 +1,16 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
+# 3 projects are mixed up here, split in 850 rule
+- { setname: cairo, name: cairoshell }
+
 - setname: cairo
   name:
+    - cairo-bootstrap
     - cairo-coloredemoji
     - cairo-dfb
+    - cairo-gl
+    - cairo-glesv2
+    - cairo-glesv3
     - cairo-gobject
     - cairo-infinality
     - cairo-infinality-lcdfilter
@@ -12,7 +19,52 @@
     - cairo-minimal
     - cairo-nomesa
     - cairo-reference
+    - cairo-spice
     - cairo-ubuntu
     - cairo-xcb
+    - cairo-xml
     - libcairo
+  addflavor: true
+
+- setname: cairo
+  name:
+    # https://github.com/starkware-libs/cairo/tree/main/crates
+    # https://github.com/starkware-libs/cairo/tree/main/crates/bin
+    - rust:cairo-lang-casm
+    - rust:cairo-lang-compiler
+    - rust:cairo-lang-debug
+    - rust:cairo-lang-defs
+    - rust:cairo-lang-diagnostics
+    - rust:cairo-lang-eq-solver
+    - rust:cairo-lang-filesystem
+    - rust:cairo-lang-formatter
+    - rust:cairo-lang-language-server
+    - rust:cairo-lang-lowering
+    - rust:cairo-lang-parser
+    - rust:cairo-lang-plugins
+    - rust:cairo-lang-proc-macros
+    - rust:cairo-lang-project
+    - rust:cairo-lang-runner
+    - rust:cairo-lang-semantic
+    - rust:cairo-lang-sierra
+    - rust:cairo-lang-sierra-ap-change
+    - rust:cairo-lang-sierra-gas
+    - rust:cairo-lang-sierra-generator
+    - rust:cairo-lang-sierra-to-casm
+    - rust:cairo-lang-sierra-type-size
+    - rust:cairo-lang-starknet
+    - rust:cairo-lang-syntax
+    - rust:cairo-lang-syntax-codegen
+    - rust:cairo-lang-test-runner
+    - rust:cairo-lang-test-utils
+    - rust:cairo-lang-utils
+    - rust:cairo-compile
+    - rust:cairo-format
+    - rust:cairo-language-server
+    - rust:cairo-run
+    - rust:cairo-test
+    - rust:generate-syntax
+    - rust:sierra-compile
+    - rust:starknet-compile
+    - rust:starknet-sierra-compile
   addflavor: true
