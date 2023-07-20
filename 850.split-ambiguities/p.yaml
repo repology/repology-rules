@@ -23,11 +23,11 @@
 - { name: packup, wwwpart: [evertiro,ghost1227], setname: packup-pacman-backup }
 - { name: packup, addflag: unclassified }
 
-- { name: pacman, wwwpart: ebuc99, setname: pacman-ebuc99 }
-- { name: pacman, wwwpart: pjsfreeware, setname: pacman-pjs }
-- { name: pacman, verpat: "0\\.9(\\..*)?", setname: pacman-ebuc99 }
-- { name: pacman, ver: "10", setname: pacman10 } # origin unknown
-- { name: pacman, ver: "1.002", setname: pacman1.002 } # origin unknown
+- { name: pacman, wwwpart: ebuc99, setname: pacman-game-ebuc99 }
+- { name: pacman, wwwpart: pjsfreeware, setname: pacman-game-pjs }
+- { name: pacman, wwwpart: ziw, setname: pacman-game-ziw }
+- { name: pacman, wwwpart: archlinux, setname: pacman-package-manager }
+- { name: pacman, addflag: unclassified }
 
 - { name: pal, wwwpart: palcal, setname: palcal }
 - { name: pal, wwwpart: starlink, setname: pal-astronomical }
