@@ -172,6 +172,8 @@
 - { setname: cloog-ppl,                name: cloog-ppl-gcc4, addflavor: gcc4 }
 - { setname: cloud-init,               name: "python:cloud-init" }
 - { setname: cloudflare-ddns,          name: "python:$0" }
+- { setname: cloudfoundry-cli,         name: [cloudfoundry6-cli, cf-cli] }
+- { setname: cloudfoundry-cli,         name: cf-cli-test, addflavor: test }
 - { setname: clucene,                  name: [clucene09,clucene-core,libclucene,libclucene-core] }
 - { setname: clufter,                  name: "python:clufter" }
 - { setname: clustalw,                 name: clustal-w }
