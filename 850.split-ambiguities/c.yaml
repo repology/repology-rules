@@ -107,9 +107,8 @@
 - { name: cf, addflag: unclassified }
 
 - { name: cflow, wwwpart: marcusva, setname: cflow-marcusva }
-- { name: cflow, ruleset: [freebsd,openpkg], setname: cflow-ancient } # circa 1995; this rule happens to be too wide, fixed by the following one
-- { name: cflow-ancient, wwwpart: gnu, setname: cflow }
-# otherwise, GNU cflow
+- { name: cflow, wwwpart: gnu, setname: cflow-gnu }
+- { name: cflow, addflag: unclassified }
 
 - { name: charm, wwwpart: ljcharm, setname: charm-livejournal }
 - { name: charm, wwwpart: uiuc, setname: charm-parallel }
