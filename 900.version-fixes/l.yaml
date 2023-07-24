@@ -186,6 +186,7 @@
 - { name: "lua:openssl",               verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: "lua:openssl",               verge: "20000000", verlt: "20180804",               sink: true, disposable: true } # 0.7.3 from 2018-08-04
 - { name: "lua:penlight",              verpat: "5.*",                                      incorrect: true } # nix garbage - uses lua version
+- { name: "lua:readline",              verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: "lua:say",                   ver: "1.31",                  ruleset: opensuse,    incorrect: true } # 1.3-1
 - { name: "lua:say",                                                 ruleset: opensuse,    untrusted: true } # accused of fake 1.31
 - { name: "lua:utf8",                  ver: ["1.1", "1.2"],          ruleset: luarocks,    incorrect: true } # no such upstream releases
