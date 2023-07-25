@@ -8,7 +8,8 @@
 - { setname: packagekit,               name: compat-packagekit08, disposable: true }
 - { setname: packagekit,               name: [packagekit-gtk,libpackagekit-glib, packagekit-base], addflavor: true }
 - { setname: packagekit-qt,            name: packagekit-qt5, addflavor: true }
-- { setname: pacman,                   name: [pacman-static,pacman-debug], addflavor: true }
+- { setname: pacman,                   name: archlinux-pacman }
+- { setname: pacman,                   name: [pacman-static,pacman-debug,pacman-pb], addflavor: true }
 - { setname: pacman-arena,             name: pacmanarena }
 - { setname: pactorio,                 name: "rust:pactorio" }
 - { setname: padthv1,                  name: padthv1-lv2 }
