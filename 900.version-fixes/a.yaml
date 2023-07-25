@@ -277,6 +277,8 @@
 - { name: aspell-tet,                  ver: "0.50.0",                                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/tet/
 - { name: assaultcube,                 verpat: "[0-9]{8}",                                 ignore: true }
 - { name: assaultcube,                 verge: "1.2.0.2.1",                                 devel: true } # https://gitlab.com/coringao/assaultcube fork
+- { name: assimp,                      ver: "5.2.5.1",                                     incorrect: true } # assimp-docs in fact
+- { name: assimp,                                                    ruleset: haikuports,  untrusted: true } # contains assimp-docs in assimp
 - { name: asterisk-chan-dongle,                                                            noscheme: true }
 - { name: asterisk-moh-opsound,        verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: asterisk-opus,               verpat: "20[0-9]{6}",                               incorrect: true } # probably another project (https://github.com/traud/asterisk-opus), but no WWW defined in OpenWrt and no tags in upstream repo
