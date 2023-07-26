@@ -283,7 +283,7 @@
 - { name: powder-toy,                  ver: "97.0.351",              ruleset: aur,         incorrect: true }
 - { name: powder-toy,                                                ruleset: aur,         untrusted: true } # accused of fake 97.0.351
 - { name: powder-toy,                  verpat: ".*b",                                      devel: true }
-- { name: powder-toy,                  verpat: "(?:s[a-z]*[.-]?)?([0-9]{3})",              setver: snapshot-$1, altscheme: true, devel: true }
+- { name: powder-toy,                  verpat: "(?:s[a-z]*[.-]?)?([0-9]{3})",              setver: snapshot-$1, altscheme: true, devel: true, ignore: false, untrusted: false }
 - { name: powerdevil,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: powertop,                    verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: poxml,                       verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
