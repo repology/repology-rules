@@ -56,6 +56,8 @@
 - { name: "perl:extutils-parsexs",                                   ruleset: fedora,      untrusted: true } # accused of fake 3.39, 3.40
 - { name: "perl:extutils-pkgconfig",   verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:extutils-xspp",        verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
+- { name: "perl:file-listing",         ver: "6.160.0",                                     incorrect: true } # 6.16
+- { name: "perl:file-listing",                                       ruleset: opensuse,    untrusted: true } # accused of fake 6.160.0
 - { name: "perl:file-path",            verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
 - { name: "perl:file-path",            ver: "2.90.0",                                      incorrect: true }
 - { name: "perl:file-rsync",           verge: "0.70",                ruleset: [alpine,slitaz], incorrect: true } # fake File-RsyncP as File-Rsync
