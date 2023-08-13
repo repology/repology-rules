@@ -9,7 +9,6 @@
 - { name: "perl:app-perlbrew",         verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
 - { name: "perl:app-tlsme",            ver: "0.110000",                                    ignore: true }
 - { name: "perl:array-diff",           verpat: "0\\.[0-9]{5}.*",                           incorrect: true } # 0.09, not 0.09000
-- { name: "perl:authen-sasl",          verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
 - { name: "perl:bio-asn1-entrezgene",  verpat: "1\\.[0-9]{3}",                             ignore: true }
 - { name: "perl:bssolv",               ver: "0.37",                  ruleset: openeuler,   incorrect: true }
 - { name: "perl:bssolv",                                             ruleset: openeuler,   untrusted: true } # accused of fake 0.37
