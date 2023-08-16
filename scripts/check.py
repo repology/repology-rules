@@ -183,6 +183,7 @@ rulesets = families + [
 ]
 
 flags = [
+    'badwww',
     'ccx',
     'cgx',
     'classified',

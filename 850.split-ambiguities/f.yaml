@@ -64,7 +64,8 @@
 # swf extractor vs. game engine
 - { name: flare, wwwpart: nowrap.de, setname: flare-swf-extractor }
 - { name: flare, wwwpart: [flareteam,flarerpg], setname: flare-rpg }
-- { name: flare, wwwpart: schmiddiii, setname: flare-signal-client }
+- { name: flare, wwwpart: flare-bin, addflag: badwww }
+- { name: flare, wwwpart: schmiddi, noflag: badwww, setname: flare-signal-client }
 - { name: flare, addflag: unclassified }
 
 - { name: flash, wwwpart: hypriot, setname: flash-hypriot }
