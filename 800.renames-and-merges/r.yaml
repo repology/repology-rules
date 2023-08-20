@@ -42,7 +42,7 @@
 - { setname: rdma-core,                name: rdma-core-no-pandoc, addflavor: true }
 - { setname: re,                       name: libre }
 - { setname: re2,                      name: libre2 }
-- { setname: re2,                      name: re2-10 }
+- { setname: re2,                      name: [re2-10, re2-6] }
 - { setname: readline,                 namepat: "(?:compat-)?(?:lib)?readline[0-9.-]*" }
 - { setname: readline,                 name: readline-unix } # vcpkg
 - { setname: readymedia,               name: minidlna } # former name
