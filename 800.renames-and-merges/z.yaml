@@ -25,6 +25,7 @@
 - { setname: zeronet,                  name: zeronet-git, ignore: true }
 - { setname: zerotier-one,             name: [zerotier,zerotier-one-with-controller,zerotierone] }
 - { setname: zerotier-one,             name: [zerotier-one-armv7h,zerotier-one-debug], addflavor: true }
+- { setname: zettlr,                   name: [zettlr.beta, zettlr-beta], weak_devel: true, nolegacy: true }
 - { setname: zhparser,                 namepat: "(postgresql[0-9.-]*)-zhparser", addflavor: $1 }
 - { setname: zig,                      name: ziglang }
 - { setname: zig,                      name: zig-static, addflavor: true }
