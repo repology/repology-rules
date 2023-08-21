@@ -127,9 +127,8 @@
 - { name: "perl:syntax-highlight-perl",                              ruleset: openbsd,     untrusted: true } # accused of fake 1.01
 - { name: "perl:template-toolkit",     ver: "2.51",                  ruleset: t2,          incorrect: true }
 - { name: "perl:template-toolkit",                                   ruleset: t2,          untrusted: true }
-- { name: "perl:test-differences",     verpat: "0\\.[0-9]{3,}",                            ignore: true }
-- { name: "perl:test-exception",       ver: [ "0.430000", "0.400", "0.320" ],              ignore: true }
-- { name: "perl:test-exception",       verpat: "0\\.[0-9]{3,}",                            ignore: true }
+- { name: "perl:test-differences",     verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
+- { name: "perl:test-exception",       verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
 - { name: "perl:test-exit",            ver: "0.097",                                       incorrect: true }
 - { name: "perl:test-number-delta",    verpat: "1\\.[0-9]{3,}",                            ignore: true }
 - { name: "perl:test-reporter",        verpat: "1\\.[0-9]{3}.*",                           incorrect: true } # it's 1.62, not 1.6200 or 1.620.0
