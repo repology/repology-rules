@@ -76,6 +76,8 @@
 - { name: wlrobs,                      verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: wlroots,                     ver: "1.13.0",                ruleset: solus,       incorrect: true }
 - { name: wlroots,                                                   ruleset: solus,       untrusted: true } # accused of fake 1.13.0
+- { name: wlroots,                     ver: "0.16.99",               ruleset: void,        incorrect: true }
+- { name: wlroots,                                                   ruleset: void,        untrusted: true } # accused of fake 0.16.99
 - { name: wmbatteries,                 verge: "0.1.5",                                     successor: true }
 - { name: wmblueclock,                 verpat: "[0-9]+",                                   incorrect: true } # 0.5
 - { name: wmbluecpu,                   verpat: "[0-9]+",                                   incorrect: true } # 0.10
