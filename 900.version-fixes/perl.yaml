@@ -1,6 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- { namepat: "perl:(.*)",              ruleset: [ gentoo, mageia, rosa, macports, pclinuxos, openmandriva ], untrusted: true } # perl module name manging
+- { namepat: "perl:(.*)",              ruleset: [gentoo,mageia,rosa,macports,pclinuxos,openmandriva,opensuse], untrusted: true } # perl module name manging
 - { namepat: "perl:(.*)",              verpat: ".*+perl[0-9].*",                           incorrect: true }
 - { name: "perl:algorithm-diff",       verpat: "1\\.[0-9]{4}.*",                           incorrect: true } # 1.200, not 1.2000
 - { name: "perl:anyevent",             ver: "7.70.0",                                      ignore: true }
