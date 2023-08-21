@@ -47,6 +47,10 @@
 
 - { name: ddrescue, setname: dd-rescue, wwwpart: garloff } # dd_rescue, not GNU one
 
+- { name: ddu, wwwpart: wagnardsoft, setname: ddu-display-driver-uninstaller }
+- { name: ddu, wwwpart: OpenIndiana, setname: ddu-device-driver-utility }
+- { name: ddu, addflag: unclassified }
+
 - { name: debugedit, wwwpart: [rpm.org, rpm5.org], setname: rpm } # part of rpm, apart from FreeBSD port which is a separate project
 
 - { name: decibel, wwwpart: silent-blade.org, setname: decibel-audio-player }
