@@ -352,6 +352,13 @@
 - { name: "python:migrate", wwwpart: kofrasa, addflag: classified }
 - { name: "python:migrate", addflag: unclassified }
 
+- { name: "python:notify", wwwpart: https://galago-project.org, setname: notify-python }
+- { name: "python:notify", wwwpart: [pypi.org/project/notify/, lambdalisue], addflag: classified }
+- { name: "python:notify", addflag: unclassified }
+
+- { name: "python:notify-python", wwwpart: https://galago-project.org, setname: notify-python }
+- { name: "python:notify-python", addflag: unclassified }
+
 - { name: "python:osc", wwwpart: attwad, setname: "python:python-osc" }
 - { name: "python:osc", wwwpart: opensuse, setname: osc }
 - { name: "python:osc", addflag: unclassified }
@@ -359,6 +366,10 @@
 - { name: "python:planet", setname: planet, wwwpart: planetplanet }
 
 - { name: "python:poppler-qt", ruleset: kaos, setname: "python:python-poppler-qt5" }
+
+- { name: "python:pynotify", wwwpart: https://galago-project.org, setname: notify-python, sink: true } # XXX: problem
+- { name: "python:pynotify", wwwpart: pynotify, addflag: classified }
+- { name: "python:pynotify", addflag: unclassified }
 
 - { name: "python:rrdtool", wwwpart: pbanaszkiewicz, setname: "python-rrdtool-pbanaszkiewicz" }
 - { name: "python:rrdtool", wwwpart: oetiker.ch, setname: rrdtool }
