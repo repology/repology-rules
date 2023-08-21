@@ -69,6 +69,8 @@
 - { name: "python:lexicon",            verge: "3",                   ruleset: pkgsrc,      incorrect: true } # fakes py-dns-lexicon as py-lexicon
 - { name: "python:lxml",               ver: "4.6.4.5",                                     incorrect: true }
 - { name: "python:lxml",                                             ruleset: solus,       untrusted: true } # accused of fake 4.6.4.5
+- { name: "python:lxml",               ver: "4.9.3-3",                                     incorrect: true }
+- { name: "python:lxml",                                             ruleset: nix,         untrusted: true } # accused of fake 4.9.3-3
 #- { name: "python:oauth2",                                                                 p_is_patch: true } # XXX: check if really needed
 - { name: "python:m2r",                ver: "0.11",                  ruleset: sisyphus,    incorrect: true }
 - { name: "python:m2r",                                              ruleset: sisyphus,    untrusted: true } # accused of fake 0.11
