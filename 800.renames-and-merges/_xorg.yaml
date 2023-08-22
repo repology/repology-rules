@@ -88,7 +88,7 @@
 
 # utils
 - namepat: |
-    (?:xorg-|x11-)+(?:app-|data-)?(
+    (?:xorg-|x11-|xapp-)+(?:app-|data-)?(
     appres|
     bdftopcf|
     beforelight|
@@ -166,7 +166,7 @@
 
 # libs
 - namepat: |
-    (?:xorg-|x11-)+(?:lib-)?(?:lib)?(
+    (?:xorg-|x11-|xlib-)+(?:lib-)?(?:lib)?(
     evdev|
     fontenc|
     fs|
