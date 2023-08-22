@@ -112,6 +112,9 @@
 - { setname: mathematica,              name: mathematica-cuda, addflavor: true }
 - { setname: mathematica,              name: mathematica-09 }
 - { setname: mathics,                  name: [python:mathics, python:mathics3] }
+- { setname: mathics-pygments,         name: python:$0 }
+- { setname: mathics-scanner,          name: python:$0 }
+- { setname: mathicsscript,            name: python:$0 }
 - { setname: matio,                    name: libmatio }
 - { setname: matomo,                   name: matomo-beta, weak_devel: true, nolegacy: true }
 - { setname: matomo,                   name: "php:matomo" }
