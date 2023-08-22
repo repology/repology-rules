@@ -67,6 +67,11 @@
 - { name: iris, wwwpart: psi-im, setname: iris-psi }
 - { name: iris, addflag: unclassified }
 
+# see https://github.com/repology/repology-rules/issues/730
+- { name: iscan, releq: "2", addflag: classified }
+- { name: iscan, releq: "3", setname: imagescan }
+- { name: iscan, addflag: unclassified }
+
 - { name: itk, wwwpart: [itk.org,insight], setname: insighttoolkit }
 - { name: itk, wwwpart: incrtcl, setname: tcl-itk }
 - { name: itk, addflag: unclassified }
