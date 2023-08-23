@@ -90,6 +90,9 @@
 - {                                                                  ruleset: appget,      untrusted: true }
 - {                                                                  ruleset: winget,      untrusted: true }
 
+# android versions may differ
+- {                                                                  ruleset: fdroid,      untrusted: true }
+
 # melpa "unstable" always uses snapshots
 - {                                                                  ruleset: melpa_unstable, rolling: true }
 
