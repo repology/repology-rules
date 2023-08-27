@@ -3,6 +3,7 @@
 - { name: p11-kit,                     ver: "0.23.18.1",             ruleset: hpux,        incorrect: true } # typo of 0.23.16.1
 - { name: p11-kit,                                                   ruleset: hpux,        untrusted: true }
 - { name: p7zip-original,              verge: "17",                                        incorrect: true } # likely belong to p7zip-jinfeihan57, but provide incorrect homepage
+- { name: pacparser,                   verpat: ".*20[0-9]{6}",                             snapshot: true } # freebsd
 - { name: padbuster,                   verpat: "[0-9]+",                                   incorrect: true } # 0.3.3 (no tag, but mentione in source)
 - { name: padbuster,                   verge: "11",                                        incorrect: true } # blackarch
 - { name: palapeli,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
