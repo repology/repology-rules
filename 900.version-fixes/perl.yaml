@@ -83,6 +83,7 @@
 - { name: "perl:json-xs",              verpat: "[0-9]+\\.[0-9]{3,}.*",                     incorrect: true }
 - { name: "perl:json-xs",              verpat: "[0-9]+\\.[1-9]0.*",                        incorrect: true }
 - { name: "perl:lwp-protocol-https",   verpat: "(.*?)[._-]?TRIAL",                         setver: $1, devel: true } # XXX: upstream problem
+- { name: "perl:math-pari",                                                                noscheme: true } # random upstream versioning
 - { name: "perl:math-polygon-tree",    ver: "0.0691",                                      ignore: true } # 0.0691 < 0.08 (CPAN versioning brokenness)
 - { name: "perl:module-build",         verpat: "0\\.[0-9]{5}.*",                           incorrect: true }
 - { name: "perl:module-build-tiny",    ver: "0.4231",                ruleset: openmamba,   incorrect: true }
