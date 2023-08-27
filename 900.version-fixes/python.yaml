@@ -130,6 +130,8 @@
 - { name: "python:pyqt",                                                                   outdated: true } # incorrect package name
 - { name: "python:pyqt5",              ver: "5.15.2",                ruleset: blackarch,   incorrect: true } # 5.15.2.dev2009281246 in fact
 - { name: "python:pyqt5",                                            ruleset: blackarch,   incorrect: true } # accused of fake 5.15.2
+- { name: "python:pyqtwebengine",      ver: "5.15.9",                ruleset: guix,        incorrect: true }
+- { name: "python:pyqtwebengine",                                    ruleset: guix,        untrusted: true } # accused of fake 5.15.9
 - { name: "python:pyserial",           verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "python:pyside",             ver: "2.0.0",                 ruleset: kaos,        incorrect: true }
 - { name: "python:pyside",             verpat: "4\\.[0-9]+_.*",                            incorrect: true } # pld
