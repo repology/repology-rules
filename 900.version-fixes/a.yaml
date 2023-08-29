@@ -40,8 +40,8 @@
 - { name: acpi-call,                   verlonger: 4,                                       incorrect: true } # nix X.Y.Z-U.V.W (kerner versions appended)
 - { name: acpica,                      ver: "20221022",                                    incorrect: true }
 - { name: acpica,                                                    ruleset: [homebrew,macports,pisi], untrusted: true } # accused of fake 20221022
-- { name: acpitool,                    ver: "0.5.2",                 ruleset: t2,          incorrect: true }
-- { name: acpitool,                                                  ruleset: t2,          untrusted: true }
+- { name: acpitool,                    ver: "0.5.2",                 ruleset: [t2,openmandriva], incorrect: true }
+- { name: acpitool,                                                  ruleset: [t2,openmandriva], untrusted: true } # accused of fake 0.5.2
 - { name: actiona,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: ada-language-server,         verpat: ".*w",                                      devel: true }
 - { name: ada-language-server,         verpat: "20[0-9]{2}.*",                             incorrect: true }
