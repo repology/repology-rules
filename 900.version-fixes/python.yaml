@@ -96,6 +96,8 @@
 - { name: "python:pivy",                                             ruleset: fedora,      untrusted: true } # accused of fake 0.6.5
 - { name: "python:prettytable",        ver: "0.10",                                        incorrect: true } # sisyphus fake
 - { name: "python:progressbar",        ver: "2.4",                   ruleset: sisyphus,    incorrect: true } # fake
+- { name: "python:protobuf",           verpat: "[0-9]+\\.[0-9]+",                          incorrect: true } # 4.21.12, not 21.12
+- { name: "python:protobuf",           verpat: "[0-9]+\\.[0-9]+", verlt: "24.2",           sink: true, disposable: true }
 - { name: "python:publicsuffix",       verpat: "2.*",                                      incorrect: true } # gentoo fakes publicsuffix2 as publicsuffix
 - { name: "python:publicsuffix2",      verpat: "20[0-9]{2}.*",                             incorrect: true } # 2.20191221
 - { name: "python:py-cpuinfo",         verpat: "201.*",                                    ignore: true }
