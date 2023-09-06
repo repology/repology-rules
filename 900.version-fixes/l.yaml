@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
+- { name: l-smash,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true } # XXX: DISTVERSION
 - { name: l-smash-works,                                                                   noscheme: true }
 - { name: labyrinth,                   verpat: ".*a.*",                                    devel: true } # https://github.com/labyrinth-team/labyrinth/blob/b8c74806082083a97f6938773380d034ab658e6e/labyrinth_lib/__init__.py#L1
 - { name: ladish,                      verpat: "20[0-9]{6}",                               incorrect: true }
