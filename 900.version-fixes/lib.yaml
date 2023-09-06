@@ -101,6 +101,8 @@
 - { name: libffi,                                                    ruleset: opensuse,    untrusted: true } # accused of incorrect 4.8.5, 5.3.1
 - { name: libfilteraudio,              ver: "0.1",                   ruleset: solus,       incorrect: true }
 - { name: libfilteraudio,                                            ruleset: solus,       untrusted: true } # accused of fake 0.1
+- { name: libftdi,                     ver: "1.5.12",                ruleset: opensuse,    incorrect: true }
+- { name: libftdi,                                                   ruleset: opensuse,    untrusted: true } # addcused of fake 1.5.12
 - { name: libfuse,                     verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: libgda,                      verpat: "[0-9]+\\.9[0-9]+.*",                       devel: true }
 - { name: libgda,                      ver: "5.2.10",                ruleset: sisyphus,    incorrect: true } # latest 5.2.x is 5.2.9
