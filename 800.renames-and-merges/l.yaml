@@ -167,7 +167,7 @@
 - { setname: lux-video-downloader,     name: [lux-dl, lux-go, annie] } # https://github.com/iawia002/lux/pull/993 https://github.com/repology/repology-rules/issues/592
 - { setname: luxcorerender,            name: [luxrender,luxrender14] } # former name
 - { setname: lvm2,                     name: lvm }
-- { setname: lvm2,                     name: [lvm2-static,"python:lvm",lvm2-clvm], addflavor: true }
+- { setname: lvm2,                     name: [lvm2-static,"python:lvm",lvm2-clvmmlvm2-noudev,device-mapper,lvm2-device-mapper,lvm2-with-dmeventd,lvm2-with-dmeventd-with-vdo], addflavor: true }
 - { setname: lwjgl,                    name: lwjgl2 }
 - { setname: lxappearance,             name: lxappearance-gtk2, addflavor: gtk2 }
 - { setname: lxappearance,             name: lxappearance-gtk3, addflavor: gtk3 }
