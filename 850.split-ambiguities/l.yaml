@@ -164,6 +164,10 @@
 - { name: livecd-tools,                category: app-misc, ruleset: gentoo, setname: livecd-tools-gentoo }
 - { name: livecd-tools,                setname: "$0-fedora" }
 
+- { name: lizard, wwwpart: inikep, setname: lizard-compressor }
+- { name: lizard, wwwpart: [terryyin,lizard.ws], setname: lizard-complexity-analyzer }
+- { name: lizard, addflag: unclassified }
+
 - { name: lll, wwwpart: [etherium,solidity], setname: solidity, addflavor: lll }
 - { name: lll, wwwpart: walle, setname: lll-line-length-linter }
 - { name: lll, addflag: unclassified }
