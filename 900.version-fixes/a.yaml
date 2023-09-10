@@ -51,6 +51,7 @@
 - { name: ada-spawn,                   verpat: "20[0-9]{2}.*",                             sink: true }
 - { name: ada-web-server,              verpat: "20[0-9]{2}",                               sink: true } # latest is 23.0.0
 - { name: adacurses,                                                 ruleset: aur,         untrusted: true } # accused of packageing unstable version (from current subdirectoory of https://invisible-mirror.net/archives/AdaCurses/); XXX: if info on download url was available for AUR, we could mark it as devel
+- { name: adasat,                      verpat: ".*w",                                      devel: true }
 - { name: adjtimex,                    verpat: ".*_.*",                                    debianism: true }
 - { name: adwaita-icon-theme,                                        ruleset: rpm,         untrusted: true } # accused of fake 40
 - { name: adwaita-qt,                  verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
