@@ -116,6 +116,8 @@
 - { setname: mathics-pygments,         name: python:$0 }
 - { setname: mathics-scanner,          name: python:$0 }
 - { setname: mathicsscript,            name: python:$0 }
+- { setname: mathjax,                  name: [mathjax2, mathjax3] }
+- { setname: mathjax,                  name: [node:mathjax, js-mathjax, js:mathjax] }
 - { setname: matio,                    name: libmatio }
 - { setname: matomo,                   name: matomo-beta, weak_devel: true, nolegacy: true }
 - { setname: matomo,                   name: "php:matomo" }
