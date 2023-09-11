@@ -88,6 +88,8 @@
 - { name: pdfposter,                                                 ruleset: alpine,      untrusted: true } # accused of fake 0.7.1
 - { name: pdftk,                       verpat: ".*_.*",                                    snapshot: true } # aur - debianisms
 - { name: peass,                                                                           noscheme: true }
+- { name: peazip,                      ver: "9.9.0",                 ruleset: nix,         incorrect: true }
+- { name: peazip,                                                    ruleset: nix,         untrusted: true } # accused of fake 9.9.0
 - { name: peda,                        verlonger: 2,                 ruleset: freebsd,     incorrect: true }
 - { name: pencil2d,                    verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: perf,                        verpat: ".*20[0-9]{2}.*",                           incorrect: true }
