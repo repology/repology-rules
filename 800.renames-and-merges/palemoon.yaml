@@ -1,0 +1,28 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- setname: palemoon
+  name:
+    - pale-moon
+    - palemoon-26
+    - palemoon-browser
+
+- { setname: palemoon, namepat: "palemoon-i18n-.*", addflavor: true }
+
+- setname: palemoon
+  name:
+    - palemoon-bin
+    - palemoon-browser-gtk3
+    - palemoon-el
+    - palemoon-gtk3
+    - palemoon-i18n
+    - palemoon-pt
+    - palemoon-pt-br
+    - palemoon-ru
+    - palemoon-uk
+  addflavor: true
+
+- setname: palemoon
+  name:
+    - palemoon-unstable
+  weak_devel: true
+  nolegacy: true
