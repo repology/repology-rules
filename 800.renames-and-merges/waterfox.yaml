@@ -1,0 +1,37 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- setname: waterfox
+  name:
+    - waterfox.classic
+    - waterfox-classic
+    - waterfox-g
+    - waterfox-g3
+    - waterfox-g4
+    - waterfox-g5
+
+- setname: waterfox
+  name:
+    - waterfox-current
+  weak_devel: true
+  nolegacy: true
+
+- setname: waterfox
+  name:
+    - waterfox-current-kpe
+  addflavor: kpe
+  weak_devel: true
+  nolegacy: true
+
+- setname: waterfox
+  name:
+    - waterfox-kde
+  addflavor: kde
+
+- setname: waterfox
+  name:
+    - waterfox-g-kpe
+    - waterfox-g3-kpe
+    - waterfox-g4-kpe
+    - waterfox-g5-kpe
+    - waterfox-classic-kpe
+  addflavor: kpe
