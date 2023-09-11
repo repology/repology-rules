@@ -148,7 +148,9 @@
 - { setname: bootstrap,                name: [twitter-bootstrap3,twitter-bootstrap4] }
 - { setname: bore,                     name: "rust:$0" }
 - { setname: bore-cli,                 name: "rust:$0" }
+- { setname: borg,                     name: borg2 }
 - { setname: borg-space,               name: "python:borg-space" }
+- { setname: borgbackup,               name: [borgbackup2, python:borgbackup, python:borgbackup11] }
 - { setname: boswars,                  name: bos-wars }
 - { setname: botan,                    namepat: "(?:lib)?botan[0-9.-]*" }
 - { setname: botan,                    name: botan-old-stable }
