@@ -78,6 +78,10 @@
 - { name: relayd, wwwpart: freebsd, setname: relayd-freebsd }
 - { name: relayd, addflag: unclassified }
 
+- { name: relic, wwwpart: sassoftwaare, setname: relic-package-signing }
+- { name: relic, wwwpart: relic-toolkit, setname: relic-crypto-toolkit }
+- { name: relic, addflag: unclassified }
+
 - { name: rem, wwwpart: kykim, setname: rem-kykim }
 
 - { name: renderer, wwwpart: grafana, setname: grafana-image-renderer } # XXX: nix problem
