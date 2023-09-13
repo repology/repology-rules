@@ -151,9 +151,11 @@
 - { name: siesta,                      verpat: ".*b.*",                                    devel: true }
 - { name: signify,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: signon-kwallet-extension,    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: signon-ui,                   verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: signon-ui,                   verpat: ".*20[0-9]{6}",                             ignore: true }
-- { name: signon-ui,                   ver: ["0.17.2","0.17.3"],                           incorrect: true } # fake
+- { name: signon-ui,                   ver: "0.17.3",                ruleset: kaos,        incorrect: true }
+- { name: signon-ui,                                                 ruleset: kaos,        untrusted: true } # accuse of fake 0.17.3
+- { name: signon-ui,                   ver: "0.17.355",              ruleset: freebsd,     incorrect: true }
+- { name: signon-ui,                                                 ruleset: freebsd,     untrusted: true } # accuse of fake 0.17.355
 - { name: simage,                      ver: "1.7.1",                 ruleset: debuntu,     incorrect: true }
 - { name: simh,                        verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: simh,                        verpat: "[0-9]{2}.*",                               incorrect: true }
