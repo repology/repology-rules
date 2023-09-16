@@ -188,6 +188,7 @@
 - { name: "apmod:auth-ntlm-winbind",                                 ruleset: alpine,      untrusted: true } # accused of fake 0.1
 - { name: "apmod:auth-ntlm-winbind",   verpat: ".*lorikeet",                               incorrect: true }
 - { name: "apmod:rpaf",                verpat: "2015.*",             ruleset: [ arch ],    ignore: true }
+- { name: apophenia,                   verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: apparix,                     verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: apparmor,                    ver: "4.0.0",                 ruleset: fedora,      incorrect: true } # actually terra
 - { name: apparmor,                                                  ruleset: fedora,      untrusted: true } # actually terra, accused of fake 4.0.0
