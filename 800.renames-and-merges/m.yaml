@@ -161,6 +161,7 @@
 - { setname: megasync,                 name: megasync-nopdfium, addflavor: true }
 - { setname: meld,                     name: meld-dev, ignore: true }
 - { setname: meld,                     name: meld-gtk2 }
+- { setname: melonds,                  name: [$0-qt5, $0-qt6], addflavor: true }
 - { setname: meme,                     name: meme-suite }
 - { setname: memphis,                  namepat: "libmemphis[0-9.-]*"  }
 - { setname: memtest,                  name: memtest-bin, addflavor: true }
