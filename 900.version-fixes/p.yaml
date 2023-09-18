@@ -308,6 +308,8 @@
 - { name: primus,                      ver: "20150328",                                    incorrect: true } # same as properly tagged 0.2
 - { name: primus,                      ver: "20131226",                                    sink: true } # older than 0.2
 - { name: print-manager,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: printer-driver-ptouch,       ver: "1.6.1",                 ruleset: mageia,      incorrect: true }
+- { name: printer-driver-ptouch,                                     ruleset: mageia,      untrusted: true } # accused of fake 1.6.1
 - { name: printrun,                    verpat: "20[0-9.]{6}",                              snapshot: true }
 - { name: printrun,                    verpat: "201[45].*",                                sink: true } # 1.6.0, 2.0.0rc from 2017, 2018
 - { name: printrun,                    verpat: ".*[0-9]{10}.*",                            incorrect: true } # opensuse unixtime nonsense
