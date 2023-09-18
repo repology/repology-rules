@@ -4,6 +4,11 @@
 - { name: fail, wwwpart: [chneukirchen,leahneukirchen], setname: fail-crash }
 - { name: fail, addflag: unclassified }
 
+- { name: falco, wwwpart: smithlabcode, setname: falco-fastqc }
+- { name: falco, wwwpart: ysugimoto, setname: falco-vcl-parser }
+- { name: falco, wwwpart: falco.org, setname: falco-cloud-native-security }
+- { name: falco, addflag: unclassified }
+
 - { name: fargatecli, wwwpart: turnerlabs, setname: fargatecli-turnerlabs }
 - { name: fargatecli, wwwpart: awslabs, setname: fargatecli-awslabs }
 - { name: fargatecli, addflag: unclassified }
