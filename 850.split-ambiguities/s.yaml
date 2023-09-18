@@ -464,6 +464,12 @@
 - { name: sumo, wwwpart: kcsoftwares, setname: sumo-software-update-monitor }
 - { name: sumo, addflag: unclassified }
 
+- { name: sun, wwwpart: troglobit, setname: sun-sunset-times }
+- { name: sun, wwwpart: dslackw, setname: sun-slackware-update-notifier }
+- { name: sun, wwwpart: [dslackw,slackwareupdatenotifier], setname: sun-slackware-update-notifier }
+- { name: sun, wwwpart: [stand-up-notes.org,basbossink], setname: sun-stand-up-notebook }
+- { name: sun, addflag: unclassified }
+
 - { name: super, wwwpart: ucolick, setname: super-setuid }
 - { name: super, wwwpart: erightsoft, setname: super-video-converter }
 - { name: super, addflag: unclassified }
