@@ -99,6 +99,8 @@
 - { setname: xpilot-ng,                name: [xpilot-ng-client, xpilot-ng-server], addflavor: true }
 - { setname: xplayer-plparser,         name: libxplayer-plparser }
 - { setname: xplr,                     name: "rust:xplr" }
+- { setname: xpra,                     name: python:$0 }
+- { setname: xpra,                     name: xpra-gtk2, addflavor: true }
 - { setname: xproxymanagementprotocol, name: xproxymngproto }
 - { setname: xq,                       name: "rust:$0" }
 - { setname: xrdb,                     name: xorg-xrdb-mcpp, addflavor: mcpp }
