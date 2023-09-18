@@ -132,6 +132,7 @@
 - { name: epm,                         verge: "6",                                         ignore: true } # fork https://github.com/bsavelev/epm/blob/master/CHANGES
 - { name: epub2txt,                    verpat: ".*20[0-9]{6}",                             ignore: true } # aosc snapshot
 - { name: epydoc,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # fedora garbage
+- { name: erigon,                      verpat: "20[0-9]{2}\\..*",                          sink: true }
 - { name: erlang,                      verpat: ".*r.*",                                    devel: true } # XXX: FreeBSD DISTVERSION
 - { name: erlang,                                                    ruleset: entware,     untrusted: true } # module versions
 - { name: "erlang:cl",                 verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
