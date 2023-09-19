@@ -64,6 +64,8 @@
 - { name: zsnes,                       ver: "1.51b",                                       devel: true } # experimental development release
 - { name: zstd,                        ver: "1.5.2",                 ruleset: vcpkg,       incorrect: true }
 - { name: zstd,                                                      ruleset: vcpkg,       untrusted: true } # accused of fake 1.5.2
+- { name: zug,                         ver: "79.5408",               ruleset: mpr,         incorrect: true }
+- { name: zug,                                                       ruleset: mpr,         untrusted: true } # accused of fake 79.5408
 - { name: zuo,                                                                             noscheme: true } # https://github.com/racket/zuo/tags
 - { name: zutty,                       verlonger: 2,                 ruleset: debuntu,     incorrect: true } # 0.11.2.20220109.192032 garbage
 - { name: zxing,                       verpat: "20[0-9]{6}",                               snapshot: true } # openbsd
