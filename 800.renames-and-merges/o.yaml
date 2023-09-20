@@ -85,6 +85,7 @@
 - { setname: opendht,                  name: "python:opendht" }
 - { setname: opendkim,                 name: libopendkim }
 - { setname: opendnssec,               name: opendnssec2 }
+- { setname: opendrop,                 name: python:$0 }
 - { setname: openerp,                  namepat: "openerp[0-9.-]+" }
 - { setname: openexr,                  namepat: "openexr[0-9.-]+" }
 - { setname: openexr,                  namepat: "(?:lib)?ilmbase[0-9.-]*", addflavor: ilmbase } # part of
