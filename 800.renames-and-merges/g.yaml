@@ -395,6 +395,7 @@
 - { setname: graphicsmagick,           name: [graphicsmagick-q8,graphicsmagick-q16,graphicsmagickq16], addflavor: true }
 - { setname: graphviz,                 name: [graphviz-frozen,graphviz-gvedit,graphviz-plugins,graphviz-smyrna,graphviz-gui], addflavor: true }
 - { setname: grass,                    namepat: "grass[0-9.-]+" }
+- { setname: grass,                    name: [grass-gis, rust:grass] } # different projects split in 850
 - { setname: graylog,                  name: graylog2 }
 - { setname: graylog-collector-sidecar, name: collector-sidecar }
 - { setname: grcov,                    name: "rust:grcov" }
