@@ -5,6 +5,8 @@
 - { name: r3,                                                        ruleset: buckaroo,    untrusted: true }
 - { name: r8s,                         verpat: "1\\.([0-9])",                              setver: 1.$10 } # 1.70->1.71->1.8
 - { name: "r:hexbin",                  ver: "1.27.1-1",                                    ignore: true } # guix fake
+- { name: "r:matrixstats",             ver: "1.0.0-9002",                                  incorrect: true }
+- { name: "r:matrixstats",                                           ruleset: macports,    untrusted: true } # accused of fake 1.0.0-9002
 - { name: "r:nws",                     ver: "2.0.0.3",               ruleset: debuntu,     ignore: true } # fake
 - { name: "r:rcppeigen",               ver: "0.3.3.9.3.1",                                 incorrect: true }
 - { name: "r:rcppeigen",                                             ruleset: macports,    untrusted: true } # accused of fake 0.3.3.9.3.1
