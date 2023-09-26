@@ -53,6 +53,7 @@
 - { name: ilspy,                       verpat: "([0-9]+\\.){3}[0-9]{4,5}",                 altver: true }
 - { name: imagej,                      verpat: "[0-9]{3}.*",                               incorrect: true } # 1.50 not 150
 - { name: imap,                        verpat: ".*suse",                                   incorrect: true }
+- { name: imdbpy,                                                                          outdated: true } # renamed to cinemagoer
 - { name: img2pdf,                     ver: "1.4.2",                 ruleset: solus,       incorrect: true }
 - { name: img2pdf,                                                   ruleset: solus,       untrusted: true } # accused of fake 1.4.2
 - { name: imgcat-eddieantonio,         verlt: "2.5.0",                                     outdated: true, disposable: true }

@@ -60,6 +60,8 @@
 - { name: "python:html5lib",           ver: "099",                                         incorrect: true }
 - { name: "python:html5lib",                                         ruleset: spack,       untrusted: true } # accused of fake 099
 - { name: "python:httplib2",           verpat: "2-.*",                                     incorrect: true }
+- { name: "python:imdb",               verge: "3.2",                                       incorrect: true } # IMDb python module is 0.1.2, others are likely cinemagoer
+- { name: "python:imdbpy",                                                                 outdated: true } # renamed to cinemagoer
 - { name: "python:jcconv",             ver: "0.2.4",                 ruleset: fedora,      incorrect: true }
 - { name: "python:jcconv",                                           ruleset: fedora,      untrusted: true }
 - { name: "python:jinja",              verge: "2",                                         incorrect: true }
