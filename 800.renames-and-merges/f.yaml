@@ -44,6 +44,7 @@
 - { setname: fetch-crl,                name: fetch-crl3 }
 - { setname: fetchmail,                name: fetchmailconf, addflavor: fetchmailconf }
 - { setname: ffcall,                   name: libffcall }
+- { setname: ffind,                    name: python:$0 }
 - { setname: ffmpeg,                   name: [ffmpeg-svt,ffmpeg-shared,ffmpeg-vaapi-crop,ffmpeg-amd-full], addflavor: true }
 - { setname: ffmpeg,                   name: ffmpeg063-static, addflavor: static }
 - { setname: ffmpeg,                   name: [ffmpeg-git,ffmpeg-git-nc,ffmpeg-nightly], weak_devel: true, nolegacy: true }
@@ -182,7 +183,6 @@
 - { setname: frescobaldi,              name: "python:frescobaldi" } # XXX: FreeBSD crap, problem
 - { setname: fretsonfire,              name: frets-on-fire }
 - { setname: fribidi,                  name: libfribidi }
-- { setname: friently-find,            name: ffind }
 - { setname: frotz,                    name: [frotz-sdl, frotz-dumb-terminal, sfrotz], addflavor: true }
 - { setname: frozen-bubble,            name: frozen-bubble-server, addflavor: server }
 - { setname: frozen-bubble,            name: frozenbubble2 }
