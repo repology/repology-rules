@@ -58,6 +58,7 @@
 - { name: hunspell-ca,                 verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: hunspell-en,                 verpat: "20[0-9]{6}.*",                             incorrect: true } # ALT
 - { name: hunspell-en-ca,              verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: hunspell-en-ca,              verpat: "20[01][0-9].*",                            sink: true }
 - { name: hunspell-eo,                                                                     noscheme: true }
 - { name: hunspell-es,                 verpat: "20[0-9]{2}.*",                             incorrect: true } # actual version is 2.2
 - { name: hunspell-fr,                 verpat: "20[0-9]{2}.*",                             incorrect: true } # termux
