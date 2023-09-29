@@ -210,6 +210,7 @@
 - { setname: sobjectizer,              name: libsobjectizer }
 - { setname: socat,                    namepat: "socat[0-9]+" }
 - { setname: socid-extractor,          namepat: python:$0 }
+- { setname: socket.io-client-cpp,     name: [sioclient, libsioclient, socket-io-client] }
 - { setname: sofia-sip,                name: [sofia-sip-fs, sofia-sip-freeswitch, sofia-sip-bc] }
 - { setname: softhsm,                  namepat: "softhsm[0-9]+" }
 - { setname: sogo,                     name: [sogo2, sogo3, gnustep-sogo,gnustep-sogo3,sogo4] }
