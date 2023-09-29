@@ -205,6 +205,10 @@
 - { name: bootchart, wwwpart: [mmeeks,xrmr], setname: bootchart2 }
 - { name: bootchart, verpat: "2\\..*", setname: bootchart2 }
 
+- { name: booth, wwwpart: clusterlabs, setname: booth-cluster-ticket-manager }
+- { name: booth, wwwpart: maui/booth, setname: maui-booth }
+- { name: booth, addflag: unclassified }
+
 - { name: bore, wwwpart: ekzhang, setname: bore-cli }
 - { name: bore, wwwpart: delan, setname: bore-dns }
 - { name: bore, wwwpat: 'https://crates.io/crates/bore', setname: bore-dns }
