@@ -235,6 +235,8 @@
 - { name: forecast,                    ver: "0.5.1",                                       rolling: false, disposable: true }
 - { name: forego,                      ver: "20180217041714",        ruleset: scoop,       incorrect: true }
 - { name: forego,                                                    ruleset: scoop,       untrusted: true }
+- { name: fortran-language-server,     verpat: "2.*",                ruleset: debuntu,     incorrect: true } # different project
+- { name: fortran-language-server,                                   ruleset: debuntu,     untrusted: true } # accused of fake 2.13.0
 - { name: fortran-stdlib,              verpat: "20[0-9]{2}.*",                             incorrect: true } # macports
 - { name: fossil,                      verpat: "20[0-9]{6}.*",       ruleset: cygwin,      incorrect: true } # it has proper versioning scheme
 - { name: fotowall,                    verpat: "20[0-9]{6}.*",                             ignore: true }
