@@ -173,6 +173,10 @@
 - { name: tnt, wwwpart: wspse, setname: tnt-host-mode-terminal }
 # otherwise, template numerical tookit
 
+- { name: today, wwwpart: gtoday, setname: gtoday }
+- { name: today, wwwpart: sotirisp, setname: today-journal }
+- { name: today, addflag: unclassified }
+
 - { name: todo, wwwpart: todotxt, setname: todo.txt-cli }
 - { name: todo, wwwpart: maxrbriggs, setname: todo-maxrbriggs }
 - { name: todo, addflag: unclassified }
