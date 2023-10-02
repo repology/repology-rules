@@ -30,6 +30,8 @@
 
 - { namepat: "r:.*", verpat: "([0-9]+\\.){3}9[0-9]{3}",                                    devel: true } # https://combine-australia.github.io/r-pkg-dev/versioning.html
 
+- { namepat: "r:.*", wwwpart: r-forge,                                                     snapshot: true } # https://github.com/repology/repology-rules/issues/741#issuecomment-1742307444
+
 - { namepat: "php[0-9]*:.*",                                         ruleset: sisyphus,    untrusted: true }
 
 - { namepat: "fcitx-.*",                                             ruleset: openbsd,     untrusted: true } # fakes fcitx5-* as fcitx-*
