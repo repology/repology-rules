@@ -81,6 +81,14 @@
 
 - { name: git-fame, setname: git-fame-rb, wwwpart: oleander.io }
 
+- { name: git-hound, wwwpart: ezekg, setname: git-hound-ezekg } # XXX: upstream problem
+- { name: git-hound, wwwpart: tillson, setname: git-hound-tillson } # XXX: upstream problem
+- { name: git-hound, addflag: unclassified }
+
+- { name: git-open, wwwpart: jeffreyiacono, setname: git-open-jeffreyiacono } # XXX: upstream problem
+- { name: git-open, wwwpart: paulirish, setname: git-open-paulirish } # XXX: upstream problem
+- { name: git-open, addflag: unclassified }
+
 - { name: github-backup, wwwpart: github-backup.branchable.com, setname: "haskell:github-backup" }
 - { name: github-backup, wwwpart: josegonzalez, setname: "python:github-backup" }
 - { name: github-backup, addflag: unclassified }
