@@ -78,7 +78,7 @@
 - { name: scripts, wwwpart: gobolinux, setname: gobolinux-scripts }
 - { name: scripts, addflag: unclassified }
 
-- { name: sd, wwwpart: chmln, setname: sd-find-replace }
+- { name: sd, wwwpart: [chmln,crates.io], setname: sd-find-replace }
 - { name: sd, wwwpart: [syncwith,app-sd], setname: sd-simple-defects }
 - { name: sd, addflag: unclassified }
 
