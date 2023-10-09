@@ -323,6 +323,8 @@
 - { name: cups,                        verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true } # 2.3.3op1, not 2.3.3.1
 - { name: cups,                        verpat: ".*[^o]p.*",                                incorrect: true }
 - { name: cups,                        relgt: "2.3.3", verpat: ".*op.*",                   incorrect: true } # no more op suffix, debian still uses it
+- { name: cups,                        ver: "2.4.8",                 ruleset: pclinuxos,   incorrect: true }
+- { name: cups,                                                      ruleset: pclinuxos,   untrusted: true } # accused of fake 2.4.8
 - { name: cups-filters,                verpat: ".*~.*",              ruleset: fedora,      devel: true } # ~b3
 - { name: cura,                        verpat: "1[45].*",                                  sink: true }
 - { name: curaengine,                  verpat: "1[45].*",                                  sink: true }
