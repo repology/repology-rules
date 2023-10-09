@@ -69,7 +69,7 @@
 - { setname: scribus,                  name: [scribus-devel, scribus-ng], weak_devel: true, nolegacy: true }
 - { setname: scribus,                  name: scribus-stable }
 - { setname: scrot,                    name: scrot-no-beep, addflavor: no-beep }
-- { setname: sd,                       name: [rust:$0, perl:app-sd] } # different projects, split in 850
+- { setname: sd,                       name: [rust:$0, perl:app-sd, sd-cli] } # different projects, split in 850
 - { setname: sddm,                     name: [sddm-classic,sddm-elogind], addflavor: true }
 - { setname: sdkmanager,               name: "python:$0" }
 - { setname: sdl,                      name: [libsdl,sdl1,sdl12,libsdl1.2] }
