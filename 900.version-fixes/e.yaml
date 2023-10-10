@@ -1,6 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- { name: e-uae,                                                     ruleset: os4depot,    incorrect: true }
+- { name: e-uae,                       ver: "0.8.29/1.6",                                  incorrect: true }
+- { name: e-uae,                                                     ruleset: os4depot,    untrusted: true } # accused of fake 0.8.29/1.6
+- { name: e-uae,                       verpat: ".+wip[0-9]+",                              ignore: false } # official release is 0.8.29-WIP4
 - { name: e2fsprogs,                   ver: "1.46",                  ruleset: debuntu,     incorrect: true }
 - { name: e2fsprogs,                                                 ruleset: debuntu,     untrusted: true } # accused of fake 1.46
 - { name: e3,                          ver: "2.83",                  ruleset: t2,          incorrect: true }
