@@ -29,6 +29,10 @@
 - { name: pacman, wwwpart: archlinux, setname: pacman-package-manager }
 - { name: pacman, addflag: unclassified }
 
+- { name: paho-mqtt, wwwpart: paho.mqtt.c, setname: paho.mqtt.c } # XXX: problem
+# also unprefixed python module
+- { name: paho-mqtt, addflag: unclassified }
+
 - { name: pal, wwwpart: palcal, setname: palcal }
 - { name: pal, wwwpart: starlink, setname: pal-astronomical }
 - { name: pal, ruleset: cygwin, setname: palcal }
