@@ -226,8 +226,9 @@
 - { name: dstat, wwwpart: [wiee.rs, wieers, dstat-real], setname: dstat-resource-statistics }
 - { name: dstat, addflag: unclassified }
 
-- { name: dt, wwwpart: 42wim/dt,       setname: dt-dns }
-- { name: dt, ruleset: pkgsrc,         setname: dt-virtconsoles }
+- { name: dt, wwwpart: 42wim/dt, setname: dt-dns }
+- { name: dt, wwwpart: [dt.plumbing, so-dang-cool/dt], setname: dt-script }
+- { name: dt, ruleset: pkgsrc, setname: dt-virtconsoles }
 
 # upstream completely dead, different project than https://github.com/craigbarnes/dte
 - { name: dte,                         setname: dte-dougt, ruleset: macports }
