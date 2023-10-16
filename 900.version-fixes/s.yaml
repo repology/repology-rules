@@ -77,8 +77,14 @@
 - { name: sdl,                                                       ruleset: gentoo,      untrusted: true } # fakes sdl-compat as sdl
 - { name: sdl-audiolib,                                                                    noscheme: true }
 - { name: sdl-image,                   verpat: ".+20[0-9]{6}",                             snapshot: true } # macports
+- { name: sdl-image,                   ver: "1.2.13",                ruleset: [crux,kaos], incorrect: true }
+- { name: sdl-image,                                                 ruleset: [crux,kaos], untrusted: true } # accused of fake 1.2.13
 - { name: sdl-mixer,                   verpat: ".+20[0-9]{6}",                             snapshot: true } # macports, kaos
+- { name: sdl-mixer,                   ver: "1.2.13",                ruleset: [crux,kaos], incorrect: true }
+- { name: sdl-mixer,                                                 ruleset: [crux,kaos], untrusted: true } # accused of fake 1.2.13
 - { name: sdl-net,                     verpat: ".+20[0-9]{6}",                             snapshot: true } # macports, kaos
+- { name: sdl-net,                     ver: "1.2.9",                 ruleset: [crux,kaos], incorrect: true }
+- { name: sdl-net,                                                   ruleset: [crux,kaos], untrusted: true } # accused of fake 1.2.9
 - { name: sdl-sound,                   ver: "2.0",                   ruleset: rosa,        incorrect: true }
 - { name: sdl-sound,                                                 ruleset: rosa,        untrusted: true } # accused of fake 2.0
 - { name: sdl-sound,                   ver: "1.0.4",                 ruleset: [sisyphus,mageia], incorrect: true }
