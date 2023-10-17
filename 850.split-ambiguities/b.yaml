@@ -55,6 +55,10 @@
 - { name: baselayout, ruleset: noir, setname: baselayout-noir }
 - { name: baselayout, addflag: unclassified }
 
+- { name: bashunit, wwwpart: typeddevs, setname: bashunit-typeddevs }
+- { name: bashunit, wwwpart: djui, setname: bashunit-djui }
+- { name: bashunit, addflag: unclassified }
+
 - { name: bat, wwwpart: [sharkdp,crates.io/crates/bat], setname: bat-cat }
 - { name: bat, wwwpart: binaryanalysis, setname: bat-binary-analysis-tool }
 - { name: bat, wwwpart: astaxie, setname: bat-curl }
