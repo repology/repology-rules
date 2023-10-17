@@ -123,6 +123,7 @@
 - { setname: tightvnc,                 name: [tightvncviewer], addflavor: viewer }
 - { setname: tightvnc,                 name: [vncviewer-jar,tightvnc-java], addflavor: java }
 - { setname: tika,                     name: apache-tika }
+- { setname: tile-world,               name: [tworld, tileworld] }
 - { setname: tiled,                    name: [tiled-java,tiled-qt] }
 - { setname: tilp2,                    name: tilp, incorrect: true } # ATOW, all tilp packages are actually tilp2; there IS ancient tilp package with higher version, mark incorrect for the case it's actually encountered; XXX: problem
 - { setname: time,                     name: [gnu-time,gtime,gnutime] }
