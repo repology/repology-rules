@@ -184,8 +184,6 @@
 - { name: gnome-power-manager,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-python-extras,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-screenruler,           verpat: "[0-9]+\\.[0-9]{2}",                        incorrect: true } # 0.9.6, not 0.96
-- { name: gnome-shell-extension-appindicator, ver: "436.53.0",                             incorrect: true }
-- { name: gnome-shell-extension-appindicator,                        ruleset: pardus,      untrusted: true } # accused of fake 436.53.0
 - { name: gnome-shell-extension-system-monitor,     ver: "20121027",                       sink: true } # last official release in 2018
 - { name: gnome-shell-extension-workspaces-to-dock, ver: "20121027",                       sink: true } # last official release in 2018
 - { name: gnome-shell-extension-workspaces-to-dock, verpat: "([0-9]{2,})_[0-9.]+",         setver: $1 } # meaningless gnome version addendum
@@ -199,6 +197,8 @@
 - { name: gnome-usage,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-user-share,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-video-effects,         verpat: ".+20[0-9]{6}",                             snapshot: true } # openbsd
+- { name: gnome:appindicator,          ver: "436.53.0",                                    incorrect: true }
+- { name: gnome:appindicator,                                        ruleset: pardus,      untrusted: true } # accused of fake 436.53.0
 - { name: "gnome:autohidetopbar",      verpat: "20[0-9]{6}",                               sink: true } # changed to e.g. 108
 - { name: "gnome:openweather",         verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: "gnome:pixel-saver",         verpat: "[0-9]+",                                   incorrect: true } # 1.24, not 24
