@@ -218,6 +218,8 @@
 - { name: gnucobol,                                                  ruleset: [mageia,fedora], untrusted: true } # accused of fake 3.1
 - { name: gnucobol,                    ver: "4.0",                   ruleset: debuntu,     incorrect: true }
 - { name: gnucobol,                                                  ruleset: debuntu,     untrusted: true } # accused of fake 4.0; XXX: debian tilda
+- { name: gnufdisk,                    ver: "2.0.0a",                                      sink: true } # upstream, problem, 2.0.0a < 2.0.0a1
+- { name: gnufdisk,                    verpat: ".*a",                                      ignore: true } # upstream, problem, 2.0.0a < 2.0.0a1
 - { name: gnugo,                       verpat: "[0-9]+\\.[0-9]*[13579](\\..*)?",           devel: true } # assumed; see http://git.savannah.gnu.org/cgit/gnugo.git/
 - { name: gnulib,                                                                          noscheme: true }
 - { name: gnumeric,                                                  ruleset: solus,       untrusted: true } # accused of fake 1.12.45
