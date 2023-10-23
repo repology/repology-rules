@@ -9,7 +9,7 @@
 - { setname: jack,                     name: jack2-no-dbus, addflavor: no-dbus }
 - { setname: jadesktop,                name: [jade-dashboard-git,jade-dashboard] }
 - { setname: jag,                      name: jag-level-editor, addflavor: editor }
-- { setname: jakarta-activation,       name: jakarta-activation-api, addflavor: true }
+- { setname: jakarta-activation,       name: [jakarta-activation1, jakarta-activation2] }
 - { setname: jakarta-mail,             name: [javamail,jakarta-mail1,java-mail,javax-mail,java-javax-mail] }
 - { setname: jakarta-messaging,        name: [javax.jms, javax-jms-api] } # not quote apparent, trusting the report here: https://repology.org/project/javax-jms-api/report
 - { setname: jansson,                  name: libjansson }
