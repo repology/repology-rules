@@ -1,6 +1,5 @@
 # vim: tabstop=29 expandtab softtabstop=29 nomodeline
 
-- { name: fail, ruleset: pld, setname: fail-atari }
 - { name: fail, wwwpart: [chneukirchen,leahneukirchen], setname: fail-crash }
 - { name: fail, addflag: unclassified }
 
@@ -51,7 +50,6 @@
 
 - { name: fex, wwwpart: [semicomplete,jordansissel], setname: fex-field-extraction }
 - { name: fex, wwwpart: [uni-stuttgart,belwue], setname: fex-file-exchange }
-- { name: fex, ruleset: [aix], setname: fex-field-extraction }
 - { name: fex, addflag: unclassified }
 
 - { name: ffind, wwwpart: friendly-find, setname: friendly-find  }
@@ -60,7 +58,6 @@
 
 - { name: figurine, wwwpart: arsham, setname: figurine-banner }
 - { name: figurine, sourceforge: figurine, setname: figurine-graphics }
-- { name: figurine, ruleset: gobolinux, setname: figurine-graphics }
 - { name: figurine, addflag: unclassified }
 
 - { name: firectl, wwwpart: rahiel, setname: firectl-firejail }
@@ -141,7 +138,6 @@
 - { name: fortune, wwwpart: sunsite, setname: fortune-sunsite }
 - { name: fortune, wwwpart: freebsd, setname: fortune-freebsd }
 - { name: fortune, wwwpart: fefe, setname: fortune-fefe }
-- { name: fortune, ruleset: pkgsrc, setname: fortune-mod-ibiblio } # http://cvsweb.netbsd.org/bsdweb.cgi/~checkout~/pkgsrc/games/fortune/Makefile?content-type=text/plain see DISTNAME
 - { name: fortune, addflag: unclassified }
 
 - { name: fox, wwwpart: fox-toolkit, setname: fox-toolkit }
@@ -162,7 +158,6 @@
 - { name: fred, wwwpart: pinguin.lu, setname: fred-registry-editor }
 - { name: fred, wwwpart: enormousplow, setname: fred-action-game }
 - { name: fred, wwwpart: freenetproject, setname: fred-freenet-reference-daemon }
-- { name: fred, ruleset: os4depot, setname: fred-action-game }
 - { name: fred, addflag: unclassified }
 
 - { name: fst, wwwpart: BurntSushi, setname: fst-finite-state-transducers }
@@ -186,7 +181,6 @@
 # otherwise fts3, "File Transfer Service V3"
 
 - { name: fuse, wwwpart: fuse-emulator, setname: fuse-emulator }
-- { name: fuse, category: [emulators,app-emulation], setname: fuse-emulator }
 - { name: fuse, wwwpart: [fuse-open.github.io,fuseopen.com], setname: fuse-studio }
 - { name: fuse, wwwpart: libfuse, setname: libfuse }
 - { name: fuse, addflag: unclassified }
