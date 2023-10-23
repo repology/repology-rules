@@ -41,8 +41,8 @@
 
 - { name: xidle, wwwpart: steinex, setname: xidle-linux }
 
-- { name: xivlauncher, wwwpart: goatcorp/FFXIVQuickLauncher, setname: ffxivquicklauncher }
 - { name: xivlauncher, wwwpart: goatcorp/XIVLauncher.Core, setname: xivlauncher.core }
+- { name: xivlauncher, wwwpart: goatcorp/FFXIVQuickLauncher, setname: ffxivquicklauncher } # gentoo packages may reference files from xivlauncher.core, so order matters
 - { name: xivlauncher, addflag: unclassified }
 
 #- { name: xine, addflag: unclassified } # XXX: libxine or xine-ui; XXX: problem
