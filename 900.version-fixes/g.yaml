@@ -342,6 +342,7 @@
 - { name: gtk-sharp,                   verpat: "[0-9]+\\.99\\..*",                         devel: true }
 - { name: gtk-sharp,                   ver: "2.99.4",                ruleset: opensuse,    incorrect: true }
 - { name: gtk-sharp,                                                 ruleset: opensuse,    untrusted: true } # accused of fake 2.99.4
+- { name: gtk-sharp,                   ver: "3.22.6",                ruleset: pld,         sink: true } # ancient fork
 - { name: gtk-theme-arc-red,                                                               noscheme: true }
 - { name: gtkada,                      verpat: ".*w",                                      devel: true }
 - { name: gtkada,                      verpat: "20[0-9]{2}.*",                             sink: true }
