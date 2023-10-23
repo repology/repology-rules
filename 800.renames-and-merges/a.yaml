@@ -287,7 +287,7 @@
 - { setname: audiofile,                name: [libaudiofile,libaudiofile0] }
 - { setname: audit,                    name: [compat-audit] }
 - { setname: audit,                    name: audit-secondary, addflavor: true }
-- { setname: augustus,                 name: augustus-caesar-3 }
+- { setname: augustus,                 name: [augustus-caesar-3, augustus-game] }
 - { setname: aumix,                    name: aumix-gtk, addflavor: true }
 - { setname: aunit,                    name: libaunit }
 - { setname: autoconf,                 namepat: "autoconf[0-9.-]+" }
