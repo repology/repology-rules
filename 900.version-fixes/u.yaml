@@ -27,6 +27,7 @@
 - { name: ufw,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: uget,                        verlonger: 3,                                       altver: true } # 2.2.3-1 vs. 2.2.3 (https://sourceforge.net/projects/urlget/files/uget (stable)/2.2.3/)
 - { name: uhttpmock,                   ver: "0.6.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: uim,                         verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: uisp,                        verpat: ".*suse",                                   incorrect: true }
 - { name: ultimatestunts,              verpat: "[0-9]{3,}",                                incorrect: true } # 0.7.7.1, not 0771
 - { name: umbrello,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
