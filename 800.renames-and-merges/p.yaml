@@ -153,7 +153,7 @@
 - { setname: pip,                      name: ["python:pip-py27", python2-pip], addflavor: py2 }
 - { setname: pipenv,                   name: "python:pipenv" }
 - { setname: pipewire,                 namepat: "(lib)?pipewire[0-9.-]*", addflavor: $1 }
-- { setname: pipewire,                 name: [pipewire-common,pipewire-full,pipewire-codec-aptx,pipewire-aptx,pipewire-native-jack], addflavor: true }
+- { setname: pipewire,                 name: [pipewire-common,pipewire-full,pipewire-codec-aptx,pipewire-aptx,pipewire-native-jack,pipewire-alsa], addflavor: true }
 - { setname: pipewire-media-session,   name: media-session }
 - { setname: pipsi,                    name: [pipsi2,"python:pipsi"] }
 - { setname: pipx,                     name: "python:pipx" }
