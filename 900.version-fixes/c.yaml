@@ -77,6 +77,8 @@
 - { name: ccls,                        ver: "0.20190731",                                  incorrect: true } # fake
 - { name: ccls,                                                      ruleset: freebsd,     untrusted: true } # accused of fake 0.20190731
 - { name: ccnet,                                                     ruleset: sisyphus,    untrusted: true } # ccnet-server really
+- { name: cd-discid,                   ver: "1.4.14",                ruleset: freebsd,     incorrect: true }
+- { name: cd-discid,                                                 ruleset: freebsd,     untrusted: true } # accused of fale 1.4.14
 - { name: cdbfasta,                                                                        noscheme: true }
 - { name: cddetect,                    ver: "2.1-1",                 ruleset: t2,          incorrect: true } # unknown origin, hosted on http://distro.ibiblio.org/quirky/quirky6/sources/t2
 - { name: cddetect,                                                  ruleset: t2,          untrusted: true }
