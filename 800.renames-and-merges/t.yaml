@@ -68,7 +68,9 @@
 - { setname: telepresence,             name: telepresence2 }
 - { setname: template-glib,            name: libtemplate-glib }
 - { setname: tensorboard,              name: ["python:tensorboard", "python:tensorboard1", "python:tensorflow-tensorboard"] }
-- { setname: tensorflow,               namepat: "(?:lib|python:)?tensorflow[0-9.-]*(gnu-hpc|gnu-openmpi2-hpc|lite|cpu|gpu)?", addflavor: $1 }
+- { setname: tensorflow,               namepat: "(?:lib)?tensorflow[0-9.-]*(gnu-hpc|gnu-openmpi2-hpc|lite|cpu|gpu)?", addflavor: $1 }
+- { setname: tensorflow,               name: python:tensorflow }
+- { setname: tensorflow,               name: [python:tensorflow-cpu, python:tensorflow-gpu], addflavor: true }
 - { setname: tepl,                     namepat: "(?:lib)?tepl[0-9.-]*" }
 - { setname: terminal-markdown-viewer, name: mdv }
 - { setname: termtosvg,                name: "python:termtosvg" }
