@@ -50,6 +50,10 @@
 - { name: markdown, wwwpart: jgm, setname: peg-markdown }
 - { name: markdown, addflag: unclassified }
 
+- { name: markdownlint, wwwpart: github.com/markdownlint/markdownlint, setname: mdl-markdownlint } # see also mdl rules in this file
+- { name: markdownlint, wwwpart: DavidAnson, setname: node:markdownlint }
+- { name: markdownlint, addflag: unclassified }
+
 - { name: mars, wwwpart: [marsshooter,mars-game], setname: m.a.r.s. }
 - { name: mars, wwwpart: www.mpibpc.mpg.de, setname: mars-proteins-assignment }
 - { name: mars, wwwpart: Sony-PS3/mars, setname: mars-runtime-system }
@@ -90,9 +94,9 @@
 - { name: mdk, wwwpart: wlan, setname: mdk-wireless-injection }
 # otherwise, GNU MIX Development Kit
 
-- { name: mdl, wwwpart: [markdownlint/markdownlint,rubygems], setname: "mdl-markdownlint" }
-- { name: mdl, wwwpart: [DavidAnson], setname: "mdl-markdownlint-node" }
-- { name: mdl, wwwpart: dopsi, setname: "mdl-markdownless" }
+- { name: mdl, wwwpart: [markdownlint/markdownlint,rubygems], setname: mdl-markdownlint } # see also markdownlint rules in this file
+- { name: mdl, wwwpart: DavidAnson, setname: node:markdownlint }
+- { name: mdl, wwwpart: dopsi, setname: mdl-markdownless }
 - { name: mdl, addflag: unclassified }
 
 - { name: mdp, wwwpart: [toolkit,mdpdocs.readthedocs], setname: "python:mdp" }
