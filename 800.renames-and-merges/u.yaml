@@ -31,8 +31,8 @@
 - { setname: uncrustify,               name: uncrustify0.60 }
 - { setname: unfs3,                    name: unfsd, addflavor: true }
 - { setname: unfs3,                    name: unfs3-sunrpc, disposable: true } # ravenports: latest unfs3 version which supposedly works on bsd preserved
-- { setname: ungoogled-chromium,       name: [chromium-browser-privacy,chromium-ungoogled] }
-- { setname: ungoogled-chromium,       name: ungoogled-chromium-wayland, addflavor: true }
+- { setname: ungoogled-chromium,       name: [chromium-browser-privacy,chromium-ungoogled,chromium-ungoogled-browser] }
+- { setname: ungoogled-chromium,       name: [ungoogled-chromium-linchrome,ungoogled-chromium-wayland,ungoogled-chromium-xdg], addflavor: true }
 - { setname: unibilium,                name: libunibilium }
 - { setname: unicorn-engine,           name: ["python:unicorn", unicorn-emulator] }
 - { setname: unicorn-engine,           name: unicorn-bindings, addflavor: bindings }
