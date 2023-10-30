@@ -72,6 +72,7 @@
 - { name: "perl:html-packer",          verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
 - { name: "perl:html-packer",          verge: "2.30",                                      incorrect: true }
 - { name: "perl:inline-java",          verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
+- { name: "perl:io-compress-brotli",   ver: "0.004001",                                    sink: true }
 - { name: "perl:io-stty",              ver: ["02","0.30.0"],                               incorrect: true }
 - { name: "perl:io-tty",               verpat: ".*\\+.*",                                  devel: true } # AOSC devel
 - { name: "perl:io-util",              ver: "1.50",                                        incorrect: true }
