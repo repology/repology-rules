@@ -241,6 +241,7 @@
 - { name: asciidoc,                    ver: "9.0.0",                 ruleset: [mageia,solus], incorrect: true } # 9.0.0rc1
 - { name: asciidoc,                                                  ruleset: [mageia,solus], untrusted: true } # accused of fake 9.0.0
 - { name: asciijump,                   ver: "1.0.2",                 ruleset: pld,         incorrect: true } # 1.0.2beta
+- { name: asciio,                      ver: "1.51.3",                                      sink: true } # 1.9.1.1 after 1.51.3
 - { name: asignify,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: asignify,                    ver: "1.1",                   ruleset: guix,        incorrect: true }
 - { name: asignify,                                                  ruleset: guix,        untrusted: true } # accused of fake 1.1
