@@ -98,6 +98,8 @@
 - { name: quasselc,                                                                        noscheme: true }
 - { name: quaternion,                  ver: "0.0.9.5",               ruleset: [aur,rpm],   incorrect: true } # 0.0.9.5-beta2
 - { name: quaternion,                                                ruleset: [aur,rpm],   untrusted: true } # accused of fake 0.0.9.5
+- { name: quaternion,                  ver: "0.0.95.81",             ruleset: nix,         incorrect: true }
+- { name: quaternion,                                                ruleset: nix,         untrusted: true } # accused of fake 0.0.95.81
 - { name: quickjs,                     verpat: "20[0-9]{6}",                               incorrect: true } # YYYY-MM-DD
 - { name: quota,                       verpat: "20[0-9]{6}.*",                             snapshot: true } # crux
 - { name: qupzilla,                                                  ruleset: kaos,        untrusted: true } # snapshot with random version
