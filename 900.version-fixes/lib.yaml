@@ -348,6 +348,8 @@
 - { name: libx11,                      verpat: ".*A",                                      incorrect: true } # guix garbage
 - { name: libx11,                                                    ruleset: guix,        untrusted: true } # accused of fake 1.7.1A
 - { name: libx86emu,                   verlonger: 2,                 ruleset: kaos,        ignore: true } # uses some opensuse package with mangled version
+- { name: libxdiff-davide,             ver: "1.0",                   ruleset: openmandriva, incorrect: true } # different project
+- { name: libxdiff-davide,                                           ruleset: openmandriva, untrusted: true } # accused of fake 1.0
 - { name: libxfce4ui,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libxfce4util,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libxmi,                      ver: "1.3",                   ruleset: gentoo,      incorrect: true }
