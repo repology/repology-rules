@@ -30,7 +30,8 @@
 - { setname: net6,                     name: libnet6 }
 - { setname: netatalk,                 namepat: "netatalk[0-9.-]+" }
 - { setname: netbeans,                 namepat: "netbeans-.*", ruleset: gentoo }
-- { setname: netcat-openbsd,           name: openbsd-netcat }
+- { setname: netcat,                   name: [netcat-openbsd, openbsd-netcat] }
+- { setname: netcat,                   name: netcat-traditional }
 - { setname: netcat6,                  name: nc6 }
 - { setname: netcdf,                   namepat: "netcdf(?:[0-9.-]*)?(-gnu.*hpc)?", addflavor: $1 }
 - { setname: netcdf,                   name: netcdf-devel, weak_devel: true, nolegacy: true }
