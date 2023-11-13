@@ -2,10 +2,8 @@
 
 - { name: nail, verpat: "12\\.[0-9]+", setname: heirloom-mailx, addflavor: true }
 
-- { name: nc, wwwpart: openbsd, setname: netcat-openbsd }
-- { name: nc, ver: "0.7.1", setname: gnu-netcat, maintenance: true }
+- { name: nc, wwwpart: [openbsd,eternallybored], setname: netcat } # this is classified once more in the netcat block below
 - { name: nc, wwwpart: ncat, setname: ncat }
-- { name: nc, ruleset: [pld,slackware], setname: netcat-traditional }
 - { name: nc, addflag: unclassified }
 
 - { name: ndiff, wwwpart: nmap, setname: nmap, addflavor: ndiff }
@@ -42,9 +40,9 @@
 - { name: netcat, sourceforge: nc110, setname: netcat-nc110 }
 - { name: netcat, sourceforge: netcat, setname: gnu-netcat }
 - { name: netcat, wwwpart: duncan-roe, setname: netcat-openbsd-duncan-roe }
-- { name: netcat, wwwpat: "debian.*netcat-openbsd", setname: netcat-openbsd-debian }
-- { name: netcat, wwwpat: "openbsd.org.*nc.1", setname: netcat-openbsd }
-- { name: netcat, wwwpat: "openbsd.org.*usb.bin/nc", setname: netcat-openbsd }
+- { name: netcat, wwwpat: ".*debian.*netcat-openbsd", setname: netcat-openbsd-debian }
+- { name: netcat, wwwpat: ".*openbsd\\.org.*(nc\\.1|usr\\.bin/nc/)", setname: netcat-openbsd }
+- { name: netcat, wwwpart: eternallybored, setname: netcat-win32 }
 - { name: netcat, addflag: unclassified }
 
 - { name: netgen, wwwpart: netgen-mesher, setname: netgen-mesher }
