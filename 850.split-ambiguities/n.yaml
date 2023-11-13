@@ -41,7 +41,8 @@
 - { name: netcat, sourceforge: netcat, setname: gnu-netcat }
 - { name: netcat, wwwpart: duncan-roe, setname: netcat-openbsd-duncan-roe }
 - { name: netcat, wwwpat: ".*debian.*netcat-openbsd", setname: netcat-openbsd-debian }
-- { name: netcat, wwwpat: ".*openbsd\\.org.*(nc\\.1|usr\\.bin/nc/)", setname: netcat-openbsd }
+- { name: netcat, wwwpat: ".*openbsd\\.org.*nc\\.1", setname: netcat-openbsd }
+- { name: netcat, wwwpat: ".*cvsweb\\.openbsd\\.org.*usr\\.bin/nc/", setname: netcat-openbsd }
 - { name: netcat, wwwpart: eternallybored, setname: netcat-win32 }
 - { name: netcat, addflag: unclassified }
 
