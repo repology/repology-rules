@@ -39,13 +39,12 @@
 - { name: nestopia, wwwpart: [nestopiaua,0ldsk00l], setname: nestopia-ue }
 - { name: nestopia, addflag: unclassified }
 
-- { name: netcat, wwwpart: nc110, setname: netcat-traditional }
-- { name: netcat, verpat: "0\\..*", setname: gnu-netcat }
-- { name: netcat, verpat: "1\\.[0-9]{2,3}", verge: "1.80", setname: netcat-openbsd }
-- { name: netcat, verpat: "1\\.[0-9]{2}", setname: netcat-traditional }
-- { name: netcat, verpat: "110.*", setname: netcat-traditional, incorrect: true }
-- { name: netcat, ruleset: sisyphus, setname: netcat-openbsd, incorrect: true } # not sure where other take version from, but it's the only different
-- { name: netcat, ruleset: openpkg, setname: netcat-openpkg } # no idea which implementation this is
+- { name: netcat, sourceforge: nc110, setname: netcat-nc110 }
+- { name: netcat, sourceforge: netcat, setname: gnu-netcat }
+- { name: netcat, wwwpart: duncan-roe, setname: netcat-openbsd-duncan-roe }
+- { name: netcat, wwwpat: "debian.*netcat-openbsd", setname: netcat-openbsd-debian }
+- { name: netcat, wwwpat: "openbsd.org.*nc.1", setname: netcat-openbsd }
+- { name: netcat, wwwpat: "openbsd.org.*usb.bin/nc", setname: netcat-openbsd }
 - { name: netcat, addflag: unclassified }
 
 - { name: netgen, wwwpart: netgen-mesher, setname: netgen-mesher }
