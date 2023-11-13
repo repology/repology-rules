@@ -185,6 +185,8 @@
 - { setname: mgltools,                 namepat: "mgltools-.*", ruleset: debuntu }
 - { setname: mhash,                    name: libmhash }
 - { setname: mhonarc,                  name: "perl:mhonarc" }
+- { setname: micro,                    name: micro-editor }
+- { setname: micro,                    name: micro-nightly, weak_devel: true, nolegacy: true }
 - { setname: microcode-ctl,            name: microcode.ctl }
 - { setname: micropython,              name: micropython-lib, addflavor: true }
 - { setname: microsoft-edge,           name: [microsoft-edge-stable] }
