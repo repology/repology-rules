@@ -49,7 +49,8 @@
 - { name: delta-file-minimizer,        ver: "20060803",                                    incorrect: true } # 2006.08.03
 - { name: demoroniser,                                                                     noscheme: true }
 - { name: denemo,                      verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: denyhosts,                   ver: ["3.0","3.1"],                                 devel: true , maintenance: true}
+- { name: denyhosts,                   releq: "3.0",                                       devel: true , maintenance: true}
+- { name: denyhosts,                   releq: "3.1",                                       devel: true , maintenance: true}
 - { name: denyhosts,                   verlonger: 2,                                       altscheme: true } # 3.1.2 (version from tarball) = 3.1 (version from tag)
 - { name: depot-tools,                                                                     noscheme: true }
 - { name: desmume,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
