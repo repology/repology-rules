@@ -200,6 +200,7 @@
 - { name: dust3d,                      verpat: ".*b.*",                                    devel: true }
 - { name: duviz,                       verpat: "[0-9]{8}",                                 incorrect: true }
 - { name: duviz,                       ver: "09032015",                                    sink: true } # older than 1.1.1
+- { name: dvb-apps,                                                                        noscheme: true }
 - { name: dvdauthor,                   verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: dvdstyler,                   ver: "3.1",                   ruleset: fedora,      incorrect: true } # rpm fusion
 - { name: dvdstyler,                                                 ruleset: fedora,      untrusted: true } # accused of fake 3.1
