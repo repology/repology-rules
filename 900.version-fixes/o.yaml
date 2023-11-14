@@ -161,6 +161,7 @@
 - { name: osinfo-db,                   ver: "20210105",              ruleset: alpine,      incorrect: true }
 - { name: osinfo-db,                                                 ruleset: alpine,      untrusted: true } # accused of fake 20210105
 - { name: osm-gps-map,                 verpat: "r.*",                                      snapshot: true }
+- { name: osmosis,                     ver: "0.49.0",                                      setver: "0.49.1", disposable: true } # build system fix which does not affect release
 - { name: osquery,                     ver: "3.0.0",                                       devel: true }
 - { name: otrs,                        verge: "7",                                         ignore: true } # no community releases after 6.x
 - { name: otter-browser,               ver: "1.1.0",                 ruleset: rosa,        incorrect: true }
