@@ -25,6 +25,7 @@
 - { name: "python:couchdbkit",         ver: "0.9.15",                ruleset: sisyphus,    incorrect: true }
 - { name: "python:couchdbkit",                                       ruleset: sisyphus,    untrusted: true } # accused of fake 0.9.15
 - { name: "python:crontab",            verge: "1.8",                                       incorrect: true } # python-crontab package faked as crontab
+- { name: "python:dash",               wwwpart: pydash,                                    incorrect: true } # pkgsrc
 - { name: "python:dbus-python",        ver: "1.12.18",               ruleset: solus,       incorrect: true } # 1.2.18
 - { name: "python:dbus-python",                                      ruleset: solus,       untrusted: true } # accused of fake 1.12.18
 - { name: "python:deploykit",          wwwpart: Paddle2ONNX,         ruleset: nix,         incorrect: true } # paddle2onnx module
