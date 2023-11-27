@@ -40,6 +40,7 @@
 - { name: tcptrack,                    wwwpart: bchretien,                                 successor: true } # fork
 - { name: tcsh,                        verpat: "20[0-9]{6}",                               incorrect: true } # solus
 - { name: tdb,                                                       ruleset: pclinuxos,   incorrect: true } # pclinuxos wtf; https://www.samba.org/ftp/tdb/
+- { name: teco,                                                                            noscheme: true } # assortment of forks of '62 software
 - { name: teem,                        ver: "1.12.0",                ruleset: debuntu,     incorrect: true }
 - { name: teem,                                                      ruleset: debuntu,     untrusted: true } # accused of fake 1.12.0
 - { name: tela-icon-theme,             verpat: "20[0-9]{6}.*",                             incorrect: true } # YYYY-MM-DD, not YYYYMMDD
