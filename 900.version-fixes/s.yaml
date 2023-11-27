@@ -404,6 +404,7 @@
 - { name: sway,                        verpat: ".*\\.b\\..*",                              incorrect: true } # FreeBSD garbage
 - { name: sway,                        verpat: ".*r.*",                                    devel: true } # XXX: FreeBSD DISTVERSION
 - { name: sway,                                                      ruleset: openmandriva, untrusted: true } # accused of fake 1.3
+- { name: sway,                                                      ruleset: openbsd,     untrusted: true } # accused of fake 20231108
 - { name: sweeper,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: swh-lv2,                     ver: "1.0.16.4",              ruleset: freebsd,     incorrect: true }
 - { name: swh-lv2,                                                   ruleset: freebsd,     untrusted: true }
