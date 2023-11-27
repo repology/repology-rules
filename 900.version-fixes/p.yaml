@@ -262,8 +262,9 @@
 - { name: popt,                                                      ruleset: [openmandriva,t2], untrusted: true } # accused of fake 1.19
 - { name: portablesinger,                                                                  ignore: false } # 2.0.38c0573 is real version
 - { name: portablexdr,                 verpat: ".*r[0-9]+.*",                              snapshot: true }
-- { name: portaudio,                   verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: portaudio,                   ver: "20161030",                                    incorrect: true } # it's 190600_20161030
+- { name: portaudio,                   verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: portaudio,                   ver: "190700_20231103",       ruleset: crux,        incorrect: true }
+- { name: portaudio,                                                 ruleset: crux,        untrusted: true }
 - { name: portmidi,                    verpat: "[0-9]{7}",                                 incorrect: true }
 - { name: portmidi,                    verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: portmidi,                    verpat: "[0-9]{3}",                                 sink: true } # maintained fork uses e.g. 2.0.2 scheme
