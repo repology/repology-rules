@@ -67,6 +67,8 @@
 - { setname: quesoglc,                 name: libglc }
 - { setname: quiterss,                 name: quiterss-qt4, addflavor: true }
 - { setname: quota,                    name: quota-tools }
+- { setname: qutebrowser,              name: [qutebrowser-qt5, qutebrowser-bin, qutebrowser-not-only-latin ], addflavor: true }
+- { setname: qutebrowser,              name: python:$0 }
 - { setname: qwt,                      namepat: "(?:lib)?qwt[0-9.-]*(-qt[0-9]+)?", addflavor: $1 }
 - { setname: qwtplot3d,                name: [libqwtplot3d, libqwtplot3d-qt5, qwtplot3d-qt5] }
 - { setname: qwtpolar,                 name: qwtpolar-qt4, addflavor: qt4 }
