@@ -118,6 +118,7 @@
 - { setname: sequoia-sq,               name: "rust:sequoia-sq" }
 - { setname: sequoia-sqv,              name: "rust:sequoia-sqv" }
 - { setname: serf,                     namepat: "(?:lib)?serf[0-9.-]*" }
+- { setname: serf,                     name: [serf-cluster, hashicorp-serf] }
 - { setname: set,                      name: [setoolkit, social-engineer-toolkit] }
 - { setname: sexpp,                    name: sexp, outdated: true } # renamed
 - { setname: sextractor,               name: astromatic-sextractor }

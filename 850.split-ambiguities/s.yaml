@@ -119,6 +119,10 @@
 - { name: sentinel, wwwpart: yarseyah, setname: sentinel-log-viewer }
 - { name: sentinel, addflag: unclassified }
 
+- { name: serf, wwwpart: apache, setname: apache-serf }
+- { name: serf, wwwpart: [hashicorp,serf.io], setname: hashicorp-serf }
+- { name: serf, addflag: unclassified }
+
 - { name: sewer, wwwpart: komuw, setname: sewer-acme-client }
 - { name: sewer, wwwpart: bio, setname: sewer-sequence-analysis }
 - { name: sewer, addflag: unclassified }
