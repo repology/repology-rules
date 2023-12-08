@@ -124,6 +124,9 @@
 - { setname: log4j,                    namepat: "(?:apache-|java-)?log4j[0-9.-]*(-mini|-eap6|-api|-core)?", addflavor: $1 }
 - { setname: logcat-color,             name: "python:logcat-color" }
 - { setname: logmein-hamachi,          name: logmein-hamachi-beta, devel: true }
+- { setname: logseq,                   name: [logseq-desktop] }
+- { setname: logseq,                   name: [logseq-desktop-non-opt, logseq-desktop-wayland], addflavor: true }
+- { setname: logseq,                   name: logseq-nightly, weak_devel: true, nolegacy: true }
 - { setname: logstash,                 namepat: "logstash[0-9.-]+" }
 - { setname: loki-lib,                 name: libloki }
 - { setname: lolcode-lci,              name: lolcode }
