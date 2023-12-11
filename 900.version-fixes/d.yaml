@@ -43,6 +43,7 @@
 - { name: debian-installer,            ver: "201507023",                                   sink: true } # miscomparison due to unexpected format (9 numbers instead of YYYYMMDD)
 - { name: debugedit,                   verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: dee-qt,                      verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
+- { name: deepin-gtk-theme,            ver: "2020.06.10",                                  sink: true } # 17.10.11 < 2020.06.10 < 23.11.23
 - { name: deepin-sound-theme,          ver: "17.07.31",              ruleset: pardus,      ignore: true }
 - { name: deepin-utils,                                                                    noscheme: true }
 - { name: dehydrated,                  verlonger: 3,                                       incorrect: true } # freebsd
