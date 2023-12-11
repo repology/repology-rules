@@ -139,7 +139,7 @@
 - { name: brise,                       verpat: "20[0-9]{6}",                               snapshot: true } # NOTE: dates allowed at version tail
 - { name: brisk-menu,                  ver: "0.5.1",                 ruleset: freebsd,     incorrect: true } # fork and a new fake version for the sake of single commit
 - { name: broadcom-sta,                verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
-- { name: brogue,                      verge: "1.10",                ruleset: freebsd,     incorrect: true } # brogue-ce
+- { name: brogue,                      verge: "1.10",                                      incorrect: true } # brogue-ce
 - { name: brotli,                      verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: bsd-games,                   verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: btcd,                        verpat: "20[0-9]{6}.*",                             incorrect: true }
