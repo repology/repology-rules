@@ -49,6 +49,8 @@
 - { name: rdiff-backup,                                              ruleset: homebrew,    untrusted: true } # accused of fake 2.4.0
 - { name: rdist,                       verpat: ".*a.*",                                    devel: true }
 - { name: re2,                         verpat: "[0-9]{5}.*",                               incorrect: true }
+- { name: reaction-quake3,             ver: "3.2",                   ruleset: aur,         incorrect: true }
+- { name: reaction-quake3,                                           ruleset: aur,         untrusted: true } # accused of fake 3.2
 - { name: readline,                    verpat: "([0-9]+\\.[0-9]+)[.-]([0-9]+)",            setver: $1p$2 }
 - { name: readline,                    verpat: "(.*)p0+",                                  setver: $1 }
 - { name: readline,                    verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)\\.([0-9]+)",  incorrect: true } # slackware garbage
