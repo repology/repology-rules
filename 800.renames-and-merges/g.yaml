@@ -67,6 +67,7 @@
 - { setname: gedit,                    name: gedit2 }
 - { setname: gedit,                    name: [gedit-menubar], addflavor: true }
 - { setname: geekbench,                namepat: "geekbench[0-9.-]+" }
+- { setname: geekbench,                name: geekbench-preview, weak_devel: true, nolegacy: true }
 - { setname: geeklog,                  name: "php71:geeklog" }
 - { setname: geeknote,                 name: "python:geeknote" }
 - { setname: geeqie,                   name: geeqie-lirc, addflavor: lirc }
