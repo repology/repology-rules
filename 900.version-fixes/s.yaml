@@ -236,6 +236,9 @@
 - { name: sndlib,                                                                          noscheme: true }
 - { name: snmpenum,                                                                        noscheme: true }
 - { name: snortsnarf,                  verpat: ".*[0-9]{6}.*",                             incorrect: true } # https://sourceforge.net/projects/snortsnarf/files/snortsnarf/Initial Release 1.0/
+- { name: snowballstemmer,             verpat: "20[0-9]{2}.*",                             incorrect: true } # 2.0.0 since Oct 2, 2019: https://github.com/snowballstem/snowball/tags
+- { name: snowballstemmer,             verge: "20000000", verlt: "20191002",               sink: true }
+- { name: snowballstemmer,             verge: "2000", verlt: "2019",                       sink: true }
 - { name: sntpd,                       verge: "2000",                                      sink: true } # older versioning scheme https://github.com/troglobit/sntpd/tags
 - { name: snzip,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: snzip,                       ver: "20120803",                                    sink: true } # 1.0.4 from 2016
