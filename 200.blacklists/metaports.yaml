@@ -18,6 +18,8 @@
 
 - { remove: true,   name: build-essential }
 
+- { remove: true,   name: cpu-microcode }
+
 - { remove: true,   name: docbook,      ruleset: [ freebsd, ravenports ] }
 
 - { remove: true,   name: gnome }
