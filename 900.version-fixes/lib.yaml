@@ -53,7 +53,9 @@
 - { name: libcaca,                                  ruleset: [sisyphus,pclinuxos,mageia,openmandriva,pld], untrusted: true }
 - { name: libcaca,                     verpat: "0.99.[0-9]+.*",                            incorrect: true } # it.s 0.99.betaX, not 0.99.X
 - { name: libcaca,                     ver: "0.9",                                         outdated: true } # deprecated as per upstream
-- { name: libcamera,                                                                       noscheme: true }
+- { name: libcamera,                   verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: libcamera,                   ver: "0~1118.4de31cc",                              sink: true, disposable: true } # ancient opensuse
+- { name: libcamera,                   verge: "2000.00.00", verlt: "2022.10.14",           sink: true } # 0.0.1 release date
 - { name: libcangjie,                  verpat: ".*[0-9a-f]{40}",                           incorrect: true } # nix crap
 - { name: libcapi,                     ver: "3.27",                                        sink: true }
 - { name: libcdaudio,                                                                      p_is_patch: true }
