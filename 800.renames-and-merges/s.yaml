@@ -208,7 +208,8 @@
 - { setname: sniffglue,                name: "rust:sniffglue" }
 - { setname: snorenotify,              name: snorenotify-qt5 }
 - { setname: snort,                    name: snort3 }
-- { setname: snowballstemmer,          name: [python:$0, snowball-stemmer] }
+- { setname: snowballstemmer,          name: python:$0, addflavor: py }
+- { setname: snowballstemmer,          name: snowball-stemmer }
 - { setname: sntpd,                    name: ntpclient } # former name
 - { setname: snyk,                     name: [node:snyk, snyk-cli] }
 - { setname: soapyairspy,              name: soapy-airspy }
