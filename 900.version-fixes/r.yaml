@@ -96,6 +96,7 @@
 - { name: rime-quick,                                                                      noscheme: true }
 - { name: rime-wubi,                                                                       noscheme: true }
 - { name: rime-wugniu,                                                                     noscheme: true }
+- { name: rimgo,                       verpat: "20[0-9]{2}\\.[0-9]{2}\\.[0-9]{2}",         incorrect: true }
 - { name: rinetd,                      ver: "0.62.1sam",                                   ignore: true } # debian garbage
 - { name: rinetd,                                                    ruleset: debuntu,     untrusted: true }
 - { name: rinetd,                      ver: "0.64",                  ruleset: aur,         incorrect: true }
