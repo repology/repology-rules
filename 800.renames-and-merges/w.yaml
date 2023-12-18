@@ -16,7 +16,8 @@
 - { setname: webex-meetings,           name: ciscowebexmeetings }
 - { setname: webkitfltk,               name: webkitfltk-static, addflavor: static }
 - { setname: webkitgtk,                name: [webkit,libwebkit,libwebkit-1.0-2] }
-- { setname: webkitgtk,                name: [webkitgtk-gtk2,webkitgtk+,gtk-webkit] }
+- { setname: webkitgtk,                name: [webkitgtk+,gtk-webkit] }
+- { setname: webkitgtk,                name: [webkitgtk-gtk2,webkitgtk-for-gtk3,webkitgtk-with-libsoup2,webkit2gtk3-soup2,webkit2gtk-imgpaste,webkit2gtk-4.1-imgpaste], addflavor: true }
 - { setname: webkitgtk,                namepat: "(?:lib)?webkit[0-9.-]*gtk[0-9.-]*" }
 - { setname: webkitgtk,                namepat: "(?:lib)?webkit[0-9.-]*gtk[0-9.-]*-unstable", weak_devel: true, nolegacy: true }
 - { setname: webkitgtk,                namepat: "webkit[0-9.-]" } # assuming gtk
