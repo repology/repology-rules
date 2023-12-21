@@ -95,6 +95,8 @@
 - { name: "python:pandoc-attributes",  verpat: "[0-9a-f]{8}",                              incorrect: true }
 - { name: "python:paramiko",           verge: "2.8.4",               ruleset: rosa,        incorrect: true } # paramiko-ng
 - { name: "python:paramiko",                                         ruleset: rosa,        untrusted: true } # accused of fake 2.8.4
+- { name: "python:pathlib2",           ver: "2.3.7.1",                                     incorrect: true } # 2.3.7.post1
+- { name: "python:pathlib2",                                         ruleset: pkgsrc,      untrusted: true } # accused of fake 2.3.7.1
 - { name: "python:pcl",                verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "python:pivy",               verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: "python:pivy",               verpat: "20[0-9]{6}", verlt: "20210319",            sink: true } # 0.6.6 from 20210319
