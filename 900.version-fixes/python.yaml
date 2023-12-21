@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { namepat: "python:.*",              verpat: ".*[^a-z](a|b|rc|dev|alpha|beta|c|pre|preview)[^a-z].*", devel: true } # PEP440, see also PyPI parser
+- { namepat: "python:.*",                                            ruleset: pkgsrc,      untrusted: true } # accused of faking multiple X.Y.Z.postW as X.Y.Z.W
 
 - { name: "python:aiohttp-socks",                                    ruleset: aur,         rolling: true }
 - { name: "python:amqpstorm",          ver: "3.0.0",                 ruleset: aur,         incorrect: true }
