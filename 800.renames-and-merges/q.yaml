@@ -66,6 +66,8 @@
 - { setname: quazip,                   name: [quazip1,quazip-legacy] }
 - { setname: quesoglc,                 name: libglc }
 - { setname: quiterss,                 name: quiterss-qt4, addflavor: true }
+- { setname: quodlibet,                name: [quodlibet-full,quodlibet-without-gst-plugins,quodlibet-xine,quodlibet-xine-full], addflavor: true }
+- { setname: quodlibet,                name: python:$0 }
 - { setname: quota,                    name: quota-tools }
 - { setname: qutebrowser,              name: [qutebrowser-qt5, qutebrowser-bin, qutebrowser-not-only-latin ], addflavor: true }
 - { setname: qutebrowser,              name: python:$0 }
