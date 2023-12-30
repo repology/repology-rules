@@ -70,6 +70,7 @@
 # Go
 - { setname: "go:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_go], ruleset: gentoo, category: dev-go }
 - { setname: "go:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_go], namepat: "go-(.*)" }
+- { setname: "go:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_go], namepat: "go-github-com-(.*)" }
 - { setname: "go:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_go], namepat: "golang-(.*)" }
 
 # GStreamer
