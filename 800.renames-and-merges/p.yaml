@@ -66,6 +66,7 @@
 - { setname: pd,                       name: [puredata, pure-data] }
 - { setname: pdd,                      name: "python:pdd" }
 - { setname: pdepend,                  name: "php:pdepend-php-depend" }
+- { setname: pdfarranger,              name: python:$0 } # XXX: FreeBSD problem
 - { setname: pdfbox,                   name: [apache-pdfbox, pdfbox-legacy, "java:pdfbox", "java:pdfbox2"] }
 - { setname: pdfbox,                   name: pdfbox-alpha, weak_devel: true, nolegacy: true }
 - { setname: pdfjam,                   name: "texlive:pdfjam" }
