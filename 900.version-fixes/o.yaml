@@ -22,6 +22,8 @@
 - { name: ocropus,                     verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: octave,                      verpat: ".*pre[0-9]{5}",                            snapshot: true }
 - { name: octave,                      verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true } # rc's https://hg.savannah.gnu.org/hgweb/octave/tags
+- { name: "octave:biosig",             ver: "3.0.1",                 ruleset: freebsd,     incorrect: true }
+- { name: "octave:biosig",                                           ruleset: freebsd,     untrusted: true } # accused of fake 3.0.1
 - { name: "octave:secs1d",             verpat: ".*r.*",                                    snapshot: true }
 - { name: "octave:secs2d",             verpat: ".*r.*",                                    snapshot: true }
 - { namepat: "octetos-.*",                                           ruleset: aur,         untrusted: true } # strips alpha/beta suffix
