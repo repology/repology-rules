@@ -27,6 +27,10 @@
 - { name: sample, wwwpart: freenas, setname: sample-stack }
 - { name: sample, addflag: unclassified }
 
+- { name: samurai, wwwpart: [michaelforney,mcf], setname: samurai-build-tool }
+- { name: samurai, wwwpart: hpc-maths, setname: samurai-adaptive-mesh }
+- { name: samurai, addflag: unclassified }
+
 - { name: sapling, wwwpart: kneasle, setname: sapling-editor }
 - { name: sapling, wwwpart: sapling-scm.com, setname: sapling-scm }
 - { name: sapling, addflag: unclassified }
