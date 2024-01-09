@@ -6,6 +6,7 @@
 - { name: backintime,                                                ruleset: antix,       untrusted: true }
 - { name: backup-manager,              ver: "0.7.16",                ruleset: mageia,      incorrect: true }
 - { name: backup-manager,                                            ruleset: mageia,      untrusted: true } # accused of fake 0.7.15, 0.7.16
+- { name: ballerburg,                  verpat: ".*89er.*",                                 sink: true }
 - { name: baloo,                       ver: "15.04.26",                                    ignore: true }
 - { name: baloo-widgets,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: banshee,                     ver: "2.6.3",                 ruleset: mint,        incorrect: true }
