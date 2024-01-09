@@ -220,6 +220,7 @@
 - { name: "fonts:source-sans",         verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
 - { name: "fonts:source-sans",         verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: "fonts:source-serif",        verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
+- { name: "fonts:stix",                verpat: ".*b.*",                                    any_is_patch: true }
 - { name: "fonts:ubuntu",              ver: "1.0",                   ruleset: pclinuxos,   ignore: true } # no such version on the website
 - { name: "fonts:unifont",             ver: "20080123",                                    sink: true }
 - { name: "fonts:wqy-bitmapfont",      ver: "1.0.0",                 ruleset: rpm,         incorrect: true }
