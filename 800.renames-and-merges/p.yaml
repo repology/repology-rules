@@ -197,6 +197,7 @@
 - { setname: poetry,                   name: "python:$0" }
 - { setname: poke,                     name: gnu-poke }
 - { setname: pokerth,                  name: [pokerth-client,pokerth-server], addflavor: true }
+- { setname: poketex,                  name: rust:$0 }
 - { setname: polkit,                   name: [polkit-consolekit,polkit-elogind], addflavor: true }
 - { setname: polkit,                   name: polkit105 }
 - { setname: polkit,                   name: [policykit,policykit-1] }
