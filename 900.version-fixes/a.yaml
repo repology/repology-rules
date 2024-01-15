@@ -140,6 +140,7 @@
 - { name: amiwm,                       ver: "0.21.2",                                      incorrect: true } # it's 0.21pl2; the projects is dead since 2010, so I see no need to bother with pattern rule
 - { name: amiwm,                                                                           p_is_patch: true }
 - { name: among-sus,                                                                       noscheme: true }
+- { name: amp-editor,                  verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: amphetamine,                                               ruleset: os4depot,    incorrect: true } # 0.8.10b, source unknown
 - { name: amtk,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: amtterm,                     verpat: ".*-.*",              ruleset: nix,         snapshot: true }
