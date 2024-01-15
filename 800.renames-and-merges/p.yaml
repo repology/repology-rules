@@ -54,6 +54,7 @@
 - { setname: pciutils,                 name: [libpci,pciutils-staticlibs], addflavor: true }
 - { setname: pcl,                      name: [libpcl,libpcl1,pcl-pointclouds,pcllib] }
 - { setname: pcmanfm,                  name: [pcmanfm-gtk3,pcmanfm-gtk3-root], addflavor: true }
+- { setname: pcmanfm,                  name: pcmanfm-legacy }
 - { setname: pcmanx,                   name: [pcmanx-gtk2, pcmanx-gtk3], addflavor: true }
 - { setname: pcre,                     name: [pcre-static,pcre-cpp] }
 - { setname: pcre,                     namepat: "(?:lib)?pcre[0-9.-]*" }
