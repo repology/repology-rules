@@ -82,6 +82,11 @@
 - { name: telnet, wwwpart: dholland, setname: netkit-telnet }
 - { name: telnet, addflag: unclassified }
 
+- { name: termcap, wwwpat: "gnu.*termutils", setname: termutils }
+- { name: termcap, wwwpat: "gnu.*termcap", setname: termcap-gnu }
+- { name: termcap, wwwpart: esr, setname: termcap-esr }
+- { name: termcap, addflag: unclassified }
+
 - { name: termcolor, wwwpart: [pypi,pythonhosted], setname: "python:termcolor" } # XXX: problem
 
 - { name: termshot, wwwpart: shell-utils, setname: termshot-shell-utils }
