@@ -197,9 +197,11 @@
 - { name: tome, wwwpart: [t-o-m-e,tome2], setname: tales-of-middle-earth }
 - { name: tome, addflag: unclassified }
 
-- { name: toolbox, wwwpart: [github.com/containers,debarshiray], setname: toolbox-development-environment }
-- { name: toolbox, wwwpart: [thkukuk,microos,kubic], setname: microos-toolbox }
+- { name: toolbox, wwwpart: [github.com/containers,containertoolbx], setname: toolbox-development-environment }
+- { name: toolbox, wwwpart: microos, setname: microos-toolbox }
 - { name: toolbox, wwwpart: jetbrains, setname: jetbrains-toolbox }
+- { name: toolbox, wwwpart: coreos, setname: rhcos-toolbox }
+- { name: toolbox, wwwpart: japplis, setname: japplis-toolbox }
 - { name: toolbox, addflag: unclassified }
 
 - { name: tornado, wwwpart: [tornadoweb,pypi.org], setname: "python:tornado" }
