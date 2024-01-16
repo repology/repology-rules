@@ -82,8 +82,8 @@
 - { name: telnet, wwwpart: dholland, setname: netkit-telnet }
 - { name: telnet, addflag: unclassified }
 
-- { name: termcap, wwwpat: "gnu.*termutils", setname: termutils }
-- { name: termcap, wwwpat: "gnu.*termcap", setname: termcap-gnu }
+- { name: termcap, wwwpat: ".*gnu.*termutils.*", setname: termutils }
+- { name: termcap, wwwpat: ".*gnu.*termcap.*", setname: termcap-gnu }
 - { name: termcap, wwwpart: esr, setname: termcap-esr }
 - { name: termcap, addflag: unclassified }
 
