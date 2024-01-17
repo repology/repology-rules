@@ -71,6 +71,7 @@
 - { setname: pdfbox,                   name: [apache-pdfbox, pdfbox-legacy, "java:pdfbox", "java:pdfbox2"] }
 - { setname: pdfbox,                   name: pdfbox-alpha, weak_devel: true, nolegacy: true }
 - { setname: pdfjam,                   name: "texlive:pdfjam" }
+- { setname: pdfminer,                 name: [pdfminer-six, pdfminersix, python:pdfminer, python:pdfminer-six, python:pdfminer.six] }
 - { setname: pdfstudio,                namepat: "pdfstudio[0-9]+" }
 - { setname: pdftk,                    name: pdftk-gcj }
 - { setname: pdftk,                    name: pdftk-java }
