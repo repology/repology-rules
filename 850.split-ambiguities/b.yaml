@@ -46,6 +46,10 @@
 - { name: base, wwwpart: [archlinux,msys2,parabola], remove: true } # metapackage
 - { name: base, addflag: unclassified }
 
+- { name: base91, wwwpart: pypi, setname: "python:base91" } # kali; XXX: problem
+- { name: base91, sourceforge: base91, addflag: classified }
+- { name: base91, addflag: unclassified }
+
 - { name: baselayout, ruleset: funtoo, setname: baselayout-funtoo }
 - { name: baselayout, ruleset: gentoo, setname: baselayout-gentoo }
 - { name: baselayout, ruleset: kiss, setname: baselayout-kiss }
