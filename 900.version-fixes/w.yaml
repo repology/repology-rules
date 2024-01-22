@@ -24,6 +24,7 @@
 - { name: waynergy,                    ver: "0.16",                  ruleset: opensuse,    incorrect: true }
 - { name: waynergy,                                                  ruleset: opensuse,    untrusted: true } # accused of fake0.16
 - { name: wayvnc,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: web-eid,                     verlonger: 3,                 ruleset: arch,        incorrect: true } # Arch treats BUILD number as fourth version component
 - { name: webalizer,                   verpat: "([0-9]+\\.[0-9]+\\.[0-9]+)\\.([0-9]+)",    setver: $1.rb$2 }
 - { name: webalizer,                   verpat: ".*rb.*",                                   successor: true, any_is_patch: true } # patchset
 - { name: webcamd,                     ver: "9.9.9.9",                                     incorrect: true }
