@@ -73,6 +73,7 @@
 - { name: tentakel,                    verpat: "[0-9]+",                                   incorrect: true } # openbsd
 - { name: tepl,                        verpat: ".*99.*",                                   devel: true } # assumed
 - { name: tepl,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed
+- { name: termbox,                     verge: "2",                                         incorrect: true } # termbox2
 - { name: termcap-gnu,                 ver: "11.0.1",                                      incorrect: true }
 - { name: termcap-gnu,                                               ruleset: ravenports,  untrusted: true } # accused of fake 11.0.1
 - { name: termscp,                     ver: "0.12.3.2",              ruleset: aur,         incorrect: true }
