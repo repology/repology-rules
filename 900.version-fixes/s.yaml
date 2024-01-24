@@ -15,8 +15,7 @@
 - { name: salt,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: sam-speech-synthesizer,                                                          noscheme: true }
 - { name: sameboy,                     verpat: "[0-9]+",                                   incorrect: true }
-- { name: samurai,                     ver: "0.3.21",                ruleset: freebsd,     incorrect: true }
-- { name: samurai,                                                   ruleset: freebsd,     untrusted: true }
+- { name: samurai-build-tool,          verlonger: 2,                 ruleset: freebsd,     incorrect: true }
 - { name: sandfox,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: sane-frontends,              verge: "1.0.25",                                    incorrect: true } # https://gitlab.com/sane-project/frontends/tags latest is 1.0.14
 - { name: sane-frontends,              ver: "1.0.15",                ruleset: pclinuxos,   incorrect: true } # https://gitlab.com/sane-project/frontends/tags latest is 1.0.14
