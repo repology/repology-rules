@@ -97,7 +97,8 @@
 - { setname: texstudio,                name: [texstudio-dark,texstudio-lcd,texstudio-phonon,texstudio-qt4,texstudio-qt5], addflavor: true }
 - { setname: texttest,                 name: python:$0 }
 - { setname: tf,                       name: tf5 }
-- { setname: tg-owt,                   name: libtg-owt }
+- { setname: tg-owt,                   name: [libtg-owt, libtgowt] }
+- { setname: tg-owt,                   name: [libowt-tg, webrtc-for-telegram-desktop] } # XXX: misnamed
 - { setname: the-foundation,           name: tfdn } # XXX: problem
 - { setname: the-silver-searcher,      name: [silver-searcher,silversearcher-ag,thesilversearcher,silversearcher,ag] }
 - { setname: thefuck,                  name: "python:thefuck" }
