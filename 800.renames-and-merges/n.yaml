@@ -134,6 +134,7 @@
 - { setname: nsis,                     name: nsis2 }
 - { setname: nspr,                     name: [mozilla-nspr,libnspr] }
 - { setname: nss,                      name: [mozilla-nss,libnss] }
+- { setname: nss,                      name: nss-util, addflavor: util } # as explained n fedora rps spcs, the nss-util tar ball is a subset of nss
 - { setname: nss-ldap,                 name: libnss-ldap }
 - { setname: nss-pam-ldapd,            name: nss-pam-ldapd-sasl, addflavor: true }
 - { setname: ntfs-3g,                  name: ["fusefs:ntfs","fusefs:ntfs-3g",ntfs-3g-fuse,ntfs-3g-ntfsprogs,ntfsprogs,ntfs3g,libntfs-3g,libntfs] }
