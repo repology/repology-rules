@@ -85,6 +85,10 @@
 - { name: digger,                                                    ruleset: [gentoo],    untrusted: true } # accused of fake 20140423
 - { name: digger,                      ver: "20130313",              ruleset: [rosa,sisyphus], incorrect: true }
 - { name: digger,                                                    ruleset: [rosa,sisyphus], untrusted: true } # accused of fake 20130313
+- { name: dillo,                       ver: "3.2.1",                 ruleset: haikuports,  incorrect: true } # dillo-plus fork
+- { name: dillo,                                                     ruleset: haikuports,  untrusted: true } # accused of fake 3.2.1
+- { name: dillo,                       ver: "3.1.0",                 ruleset: alpine,      incorrect: true } # dillong fork
+- { name: dillo,                                                     ruleset: alpine,      untrusted: true } # accused of fake 3.1.0
 - { name: dino-im,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: dirb,                        verpat: "[0-9]{3}",                                 incorrect: true, disposable: true } # slackbuilds; 2.22, not 222
 - { name: dircproxy,                   ver: "1.2.0",                 ruleset: macports,    incorrect: true } # rc1
