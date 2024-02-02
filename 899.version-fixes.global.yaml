@@ -80,6 +80,8 @@
 - {                                                                  ruleset: chocolatey,  untrusted: true }
 
 # don't trust npackd either, as it cannot into prerelease versions (firefox 67.0b9 is 67.0.9)
+# also, is's believed to provide incorrect data, for instance https://www.npackd.org/p/io.mpv.mpv/0.37
+# says version 0.37 while pointing to 0.35 tarball
 - {                                                                  ruleset: npackd,      untrusted: true }
 
 # fake versions for popular packages (openvpn, python), no information to verify versions
