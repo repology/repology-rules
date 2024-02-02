@@ -208,8 +208,9 @@
 - { name: "fonts:noto-emoji",          verge: "2000",                                      sink: true } # latest is 2.034 https://github.com/googlefonts/noto-emoji/tags
 - { name: "fonts:ocr-a",               verpat: "20[0-9]{2}",                               incorrect: true } # aur
 - { name: "fonts:oldstandard",         ver: "2.2really",                                   ignore: true } # debian garbage
+- { name: "fonts:opensans",                                                                noscheme: true }
 - { name: "fonts:orbitron",                                                                noscheme: true }
-- { name: "fonts:powerline",                                                                noscheme: true }
+- { name: "fonts:powerline",                                                               noscheme: true }
 - { name: "fonts:quattrocento",        ver: "2.000",                 ruleset: arch,        ignore: true } # webpage says it's 1.1
 - { name: "fonts:quicksand",                                                               noscheme: true }
 - { name: "fonts:raleway",             verpat: ".*20[0-9]{2}.*",                           incorrect: true } # has proper tagged releases https://github.com/theleagueof/raleway/tags
