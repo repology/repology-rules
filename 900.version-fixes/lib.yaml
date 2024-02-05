@@ -250,6 +250,7 @@
 - { name: libphutil,                                                                       noscheme: true }
 - { name: libplacebo,                  ver: "2.88.0",                ruleset: sisyphus,    incorrect: true }
 - { name: libplacebo,                                                ruleset: sisyphus,    untrusted: true } # accused if fake 2.88.0
+- { name: libplasma,                   verge: "5.112",                                     incorrect: true } # latest libplasma is 5.93
 - { name: libpng,                      verpat: "1\\.7\\.0beta.*",    ruleset: freshcode,   ignore: true }
 - { name: libpng,                      ver: "1.7.0",                 ruleset: rpm,         incorrect: true } # 1.7.0beta89
 - { name: libpng,                                                    ruleset: rpm,         untrusted: true } # accused of fake 1.7.0
