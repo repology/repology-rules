@@ -1,5 +1,9 @@
 # vim: tabstop=29 expandtab softtabstop=29 nomodeline
 
+- { name: hack, wwwpart: foundry, setname: fonts:hack }
+- { name: hack, wwwpart: game, setname: hack-game }
+- { name: hack, addflag: unclassified }
+
 - { name: hal, wwwpart: freedesktop, setname: hal-hardware-abstraction-layer }
 - { name: hal, wwwpart: emsec, setname: hal-hardware-analyzer }
 - { name: hal, wwwpart: ComparativeGenomicsToolkit, setname: hal-hierarchical-alignment }
