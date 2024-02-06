@@ -105,9 +105,11 @@
 - { name: revbump, wwwpart: pkgsrc, setname: revbump-pkgsrc }
 - { name: revbump, addflag: unclassified }
 
-- { name: rex, wwwpart: gnu.org, setname: rex-gray } # https://puszcza.gnu.org.ua/projects/rex
-- { name: rex, wwwpart: shellphish, setname: rex-shellphish } # https://github.com/shellphish/rex
-# otherwise rexify.org - remote execution framework
+- { name: rex, wwwpart: angr, setname: rex-exploitation-engine } # moved from shellphish GH user
+- { name: rex, wwwpart: [cpan,RexOps,rexify.org], setname: rex-automation-framework }
+- { name: rex, wwwpart: dbrodie, setname: rex-hex-editor }
+- { name: rex, wwwpart: TheRustyPickle, setname: rex-finance }
+- { name: rex, addflag: unclassified }
 
 - { name: ricochet, wwwpart: [ricochet.im,ricochet-im], setname: ricochet-im }
 - { name: ricochet, wwwpart: rr.nickle.org, setname: ricochet-game } # Ricochet Robot Game Server
