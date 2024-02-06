@@ -273,6 +273,7 @@
 - { setname: pptpd,                    name: [bcrelay,poptop,poptop-man,pptpd-server], addflavor: true }
 - { setname: preflight,                name: [pdfbox-preflight, preflight-app] }
 - { setname: premake,                  name: [premake3,premake4,premake5] }
+- { setname: premake,                  name: premake-core, addflavor: true }
 - { setname: presto,                   name: presto-cli }
 - { setname: prettier,                 name: "node:prettier" }
 - { setname: prey,                     name: prey-node-client }
