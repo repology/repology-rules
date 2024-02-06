@@ -80,7 +80,7 @@
 - { setname: resvg,                    name: [resvg-qt,resvg-cairo,"rust:resvg","rust:resvg-qt","rust:resvg-skia","rust:usvg"], addflavor: true }
 - { setname: retro12,                  name: [forth-retro,retro,retroforth] }
 - { setname: reuse,                    name: "python:reuse" }
-- { setname: rex,                      name: "perl:rex" }
+- { setname: rex,                      name: [perl:rex, rex-jobcontrol, rust:rex-tui, rust:rex] } # mixed projects, split in 850
 - { setname: rhash,                    name: librhash }
 - { setname: rhvoice,                  name: rhvoice-core, addflavor: true }
 - { setname: riemann-dash,             name: "ruby:riemann-dash" }
