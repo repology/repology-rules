@@ -290,6 +290,8 @@
 - { setname: procs,                    name: "rust:procs" }
 - { setname: proj,                     namepat: "proj[0-9.-]+" }
 - { setname: proj,                     name: libproj }
+- { setname: projectm,                 name: [libprojectm, projectm-4] }
+- { setname: projectm,                 name: [projectm-qt5, projectm-presets, projectm-sdl2], addflavor: true }
 - { setname: projectx,                 name: project-x }
 - { setname: prometheus,               name: prometheus1 }
 - { setname: prometheus-apcupsd-exporter, name: apcupsd-exporter }
