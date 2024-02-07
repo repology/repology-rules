@@ -274,6 +274,7 @@
 - { setname: "gnome:appindicator",     name: ["gnome:appindicator-support", "gnome:appindicator43"] }
 - { setname: "gnome:system-monitor",   name: "gnome:system-monitor-applet" }
 - { setname: gnonlin,                  name: gnonlin1.0 }
+- { setname: gnss-sdr,                 name: [volk-gnss-sdr, gnss-sdr-volk], addflavor: volk }
 - { setname: gnu-efi,                  namepat: "gnu-efi[0-9.-]*[a-z]?" }
 - { setname: gnu-efi,                  name: gnu-efi-libs, addflavor: true }
 - { setname: gnu-netcat,               name: [gnetcat,netcat-gnu] }
