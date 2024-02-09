@@ -384,6 +384,7 @@
 - { name: unifi,                                          setbranchcomps: 1 }
 
 - { name: varnish,                                        setbranchcomps: 1 }
+- { name: varnish,           releq: "6.0",                setbranch: "6.0lts", maintenance: true }
 
 - { name: virtualbox,                                     setbranchcomps: 2 }
 
