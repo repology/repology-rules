@@ -18,8 +18,8 @@
 - { name: cage, wwwpart: hjdskes, setname: cage-kiosk }
 - { name: cage, addflag: unclassified }
 
-- { name: cairo, wwwpart: starkware, setname: cairo-lang }
-- { name: cairo, wwwpart: cairographics, setname: cairo-graphics-library }
+- { name: cairo, wwwpart: [starkware,cairo-lang], setname: cairo-lang }
+- { name: cairo, wwwpart: [cairographics,gitlab.freedesktop.org/cairo], setname: cairo-graphics-library }
 - { name: cairo, wwwpart: [cairodesktop,cairoshell], setname: cairoshell }
 - { name: cairo, addflag: unclassified }
 
