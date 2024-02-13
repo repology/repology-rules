@@ -358,5 +358,5 @@
 - { setname: mysqltuner,               name: mysqltuner-perl }
 - { setname: mythtv,                   namepat: "mythtv(-core)?[0-9.-]*" }
 - { setname: mythtv,                   namepat: "myth(tv-)?plugins[0-9.-]*", addflavor: plugins }
-- { setname: mythweb,                  name: mythtv-mythweb }
+- { setname: mythweb,                  name: [mythtv-mythweb, mythplugin-mythweb] }
 - { setname: mythweb,                  namepat: "mythweb[0-9.-]*" }
