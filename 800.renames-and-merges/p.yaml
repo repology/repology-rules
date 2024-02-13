@@ -389,6 +389,7 @@
 - { setname: python-caja,              name: "python:caja-dev", weak_devel: true, nolegacy: true }
 - { setname: python-distutils-extra,   name: ["python:distutils-extra","python:python-distutils-extra"] } # debian invention
 - { setname: python-docs,              namepat: "python[0-9.-]*-(doc)s?(-html|-pdf-a4|-pdf-letter|-text)?", addflavor: "$1$2" }
+- { setname: python-launcher,          name: rust:$0 }
 - { setname: python-linux-procfs,      name: "python:linux-procfs" } # exherbo XXX: problem
 - { setname: pythonmagick,             name: ["python:pythonmagick","python:magick"] }
 - { setname: pyzy,                     name: "python:pyzy" }
