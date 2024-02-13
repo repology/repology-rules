@@ -11,6 +11,7 @@
 - { setname: racket,                   name: racket-docs, addflavor: docs }
 - { setname: radare2,                  name: radare } # deprecated in favor of
 - { setname: radare2-bindings,         name: r2-bindings }
+- { setname: radexreader,              name: python:$0 }
 - { setname: radicale,                 name: ["python:radicale","python:radicale2",radicale2] }
 - { setname: radon,                    name: "python:radon" }
 - { setname: raft,                     name: lib$0 }
@@ -61,7 +62,6 @@
 - { setname: recyclarr,                name: recyclarr-cli }
 - { setname: redeclipse,               name: red-eclipse }
 - { setname: redeclipse,               name: redeclipse-data, addflavor: data }
-- { setname: redexreader,              name: python:$0 }
 - { setname: redis-desktop-manager,    name: redisdesktopmanager }
 - { setname: redis-plus-plus,          name: redis++ }
 - { setname: redland,                  name: [libredland,redland-mysql,redland-pgsql,redland-storage-mysql,redland-storage-postgresql,redland-storage-sqlite,redland-storage-virtuoso], addflavor: true }
