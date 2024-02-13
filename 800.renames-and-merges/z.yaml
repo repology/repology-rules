@@ -64,6 +64,7 @@
 - { setname: zulip-desktop,            name: [zulip, zulip-desktop-electron] }
 - { setname: zulu,                     namepat: "zulu(?:-openjdk)?[0-9.-]+(?:jre|jdk)?" }
 - { setname: zulu,                     namepat: "openjdk[0-9.-]+-zulu" }
+- { setname: zulu,                     name: [zulu-ca-jdk, zulu-embedded-jdk, zulu-jdk-fx, zulu-jre-fx], addflavor: true }
 - { setname: zvbi,                     name: libzvbi }
 - { setname: zxing-cpp,                name: [libzxing-cpp,nu-book-zxing-cpp,zxing-cpp-nu] }
 - { setname: zynaddsubfx,              name: [zynaddsubfx-doc,zynaddsubfx-fusion], addflavor: true }
