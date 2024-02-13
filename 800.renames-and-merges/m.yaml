@@ -356,3 +356,7 @@
 - { setname: mysql-fdw,                namepat: "(postgresql[0-9.-]*)-mysql-fdw", addflavor: $1 }
 - { setname: mysql-workbench,          name: [mysql-workbench-community, mysql-workbench-oss, mysqlworkbench] }
 - { setname: mysqltuner,               name: mysqltuner-perl }
+- { setname: mythtv,                   namepat: "mythtv(-core)?[0-9.-]*" }
+- { setname: mythtv,                   namepat: "myth(tv-)?plugins[0-9.-]*", addflavor: plugins }
+- { setname: mythweb,                  name: mythtv-mythweb }
+- { setname: mythweb,                  namepat: "mythweb[0-9.-]*" }
