@@ -144,6 +144,10 @@
 - { name: chibi, wwwpart: scheme, setname: chibi-scheme }
 - { name: chibi, addflag: unclassified }
 
+- { name: chipmunk, wwwpart: [chipmunk-physics,slembcke,chipmunk2d], setname: chipmunk-physics }
+- { name: chipmunk, wwwpart: esrlabs, setname: chipmunk-log-analisys }
+- { name: chipmunk, addflag: unclassified }
+
 - { name: chisel, wwwpart: [berkeley,chisel-lang], setname: $0-hardware-compiler }
 - { name: chisel, wwwpart: jpillora, setname: $0-tcp-tunnel-over-http }
 - { name: chisel, wwwpart: facebook, setname: $0-lldb-ios-debugging }
@@ -282,6 +286,10 @@
 - { name: clog, wwwpart: webgroupmedia, setname: clog-c-logging-library }
 - { name: clog, ruleset: freebsd,  setname: clog-tcp-logger }
 - { name: clog, addflag: unclassified }
+
+- { name: cm, wwwpart: esrlabs, setname: chipmunk-log-analysis } # XXX: problem
+- { name: cm, wwwpart: multiprecision, setname: cm-math }
+- { name: cm, addflag: unclassified }
 
 - { name: cmix, sourceforge: cmix, setname: cmix-mixer } # relic from 2002
 
