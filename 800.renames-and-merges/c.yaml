@@ -135,7 +135,8 @@
 - { setname: chez-scheme,              name: [chez, chezscheme] }
 - { setname: chicken,                  name: [chicken5,chicken-scheme] }
 - { setname: chicken,                  name: chicken-bootstrap, addflavor: bootstrap }
-- { setname: chipmunk,                 name: [chipmunk6,chipmunkphysics,libchipmunk,chipmunk2d,cmonk] }
+- { setname: chipmunk,                 name: [chipmunk6,chipmunkphysics,libchipmunk,chipmunk2d] }
+- { setname: chipmunk,                 name: cmonk, addflavor: true } # duplicate package in aur, avoid legacy status
 - { setname: chirp,                    name: [chirp-next, chirp-daily] }
 - { setname: chmlib,                   name: libchm }
 - { setname: chowtapemodel,            name: chow-tape-model }
