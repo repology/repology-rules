@@ -321,8 +321,10 @@
 - { setname: protobuf-cpp,             name: protobuf3-cpp }
 - { setname: proton,                   name: proton-native }
 - { setname: proton-caller,            name: "rust:proton-call" }
+- { setname: proton-vpn-gtk-app,       name: [protonvpn-gui, protonvpn-linux-gui] }
 - { setname: protonmail-bridge,        name: protonmail-bridge-bin, addflavor: bin }
 - { setname: protontricks,             name: "python:protontricks" }
+- { setname: protonvpn-cli,            name: [protonvpn-cli-2, protonvpn-linux-cli] }
 - { setname: prusaslicer,              name: [slic3r-prusa, prusa-slicer, slic3r-prusa3d, slic3r-prusa-edition] }
 - { setname: psautohint,               name: "python:psautohint" }
 - { setname: psfex,                    name: astromatic-psfex }
