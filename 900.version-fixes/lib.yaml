@@ -42,6 +42,7 @@
 - { name: libaudclient,                                              ruleset: pld,         untrusted: true }
 - { name: libb2,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: libbacktrace,                                                                    noscheme: true }
+- { name: libbitcoin-system,           verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: libbpf,                      verge: "5",                   ruleset: opensuse,    incorrect: true } # kernel version
 - { name: libbpf,                                                    ruleset: opensuse,    incorrect: true } # accused of fake 5.x
 - { name: libbtbb,                     verpat: "20[0-9]{4}.*",                             incorrect: true } # yyyy-mm-Rn, not yyyymm*
