@@ -83,6 +83,7 @@
 - { name: libdbusmenu,                                               ruleset: guix,        untrusted: true } # accused of fake 16.04.0-496
 - { name: libdbusmenu-qt,              verpat: ".*[0-9]{12}",                              incorrect: true } # freebsd removes separators
 - { name: libdecor,                    verpat: "[0-9a-f]{8,}",                             incorrect: true } # t2
+- { name: libdex,                      ver: "0.5.0",                                       devel: true }
 - { name: libdiscid,                   ver: "1.6.2",                 ruleset: solus,       incorrect: true } # 0.6.2
 - { name: libdiscid,                                                 ruleset: solus,       untrusted: true } # accused of fake 1.6.2
 - { name: libdom,                      verpat: "20[0-9]{6}.*",                             snapshot: true }
