@@ -108,6 +108,8 @@
 - { name: nonpareil, wwwpart: enve-omics, setname: nonpareil-metagenomic-coverage }
 - { name: nonpareil, addflag: unclassified }
 
+- { name: noson, verge: '5', setname: noson-app } # noson = lib, noson-app = program, nixpkgs ignored "-app"
+
 - { name: nostromo, wwwpart: nazgul.ch, setname: nostromo-httpd }
 - { name: nostromo, wwwpart: nostromo.sh, setname: nostromo-aliases-cli }
 - { name: nostromo, addflag: unclassified }
