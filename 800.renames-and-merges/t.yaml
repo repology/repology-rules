@@ -188,6 +188,7 @@
 - { setname: tomsfastmath,             name: libtomfastmath }
 - { setname: toot,                     name: "python:toot" }
 - { setname: topgrade,                 name: "rust:topgrade" }
+- { setname: topgrade,                 name: topgrade-musl, addflavor: true }
 - { setname: tor,                      name: [tor-devel,tor-unstable], weak_devel: true, nolegacy: true }
 - { setname: tor,                      name: [tor-expert,tor-client], addflavor: true }
 - { setname: tor-browser,              name: torbrowser }
