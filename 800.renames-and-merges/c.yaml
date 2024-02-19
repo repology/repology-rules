@@ -353,3 +353,6 @@
 - { setname: cyrus-sasl,               name: [cy2-anonymous,cy2-crammd5,cy2-digestmd5,cy2-gssapi,cy2-ldapdb,cy2-login,cy2-ntlm,cy2-otp,cy2-plain,cy2-scram,cy2-sql], addflavor: true }
 - { setname: cython,                   name: cython2 }
 - { setname: cython-kivy,              name: cython2-kivy }
+- { setname: czkawka,                  name: [czkawka-cli, czkawka.cli, rust:czkawka-cli], addflavor: cli }
+- { setname: czkawka,                  name: [czkawka-gui, rust:czkawka-gui], addflavor: gui }
+- { setname: czkawka,                  name: [rust:czkawka-core], addflavor: core }
