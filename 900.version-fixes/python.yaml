@@ -47,7 +47,7 @@
 - { name: "python:enchant",                                                                outdated: true } # pyenchant, not enchant
 - { name: "python:enzyme",             ver: "0.4.2",                 ruleset: sisyphus,    incorrect: true }
 - { name: "python:enzyme",                                           ruleset: sisyphus,    untrusted: true } # accused of fake 0.4.2
-- { name: "python:falcon",             verpat: ".*~^.*",                                   incorrect: true } # fedora garbage
+- { name: "python:falcon",             verpat: ".*~\\^.*",                                 incorrect: true } # fedora garbage
 - { name: "python:falcon",                                           ruleset: fedora,      untrusted: true }
 - { name: "python:flask-sphinx-themes", ver: "20130715",                                   sink: true }
 - { name: "python:flask-sphinx-themes", verpat: "20[0-9]{6}",                              snapshot: true }
