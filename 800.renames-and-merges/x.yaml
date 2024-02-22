@@ -66,6 +66,8 @@
 - { setname: xfdesktop,                name: [xfdesktop4,xfce4-desktop] }
 - { setname: xfdesktop,                name: xfdesktop-devel, weak_devel: true, nolegacy: true }
 - { setname: xfdesktop,                name: xfdesktop-gtk3, addflavor: gtk3 }
+- { setname: xfsprogs,                 name: $0-legacy }
+- { setname: xfsprogs,                 name: $0-static, addflavor: true }
 - { setname: xfwm4-themes,             name: xfce4-wm-themes } # XXX: problem, incorrect name
 - { setname: xgboost,                  name: ["python:xgboost"], addflavor: true }
 - { setname: xh,                       name: "rust:xh" }
