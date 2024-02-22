@@ -182,6 +182,8 @@
 - { setname: osm-gps-map,              name: osm-gps-map-gtk2, addflavor: gtk2 }
 - { setname: osm-gps-map,              name: osmgpsmap }
 - { setname: osm-gps-map,              name: "python:osmgpsmap", addflavor: python }
+- { setname: osm2pgsql,                name: osm2pgsql-legacy }
+- { setname: osm2pgsql,                name: osm2pgsql-lua, addflavor: true }
 - { setname: ospd,                     name: [openvas-ospd, "python:ospd"] }
 - { setname: ossp-al,                  name: al, ruleset: openpkg }
 - { setname: ossp-cfg,                 name: cfg, ruleset: openpkg }
