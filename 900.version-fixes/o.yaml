@@ -19,6 +19,8 @@
 - { name: "ocaml:cryptokit",                                         ruleset: rosa,        untrusted: true } # accused of fake 1161
 - { name: "ocaml:libvirt",             verpat: ".*unstable",                               incorrect: true } # nix garbage
 - { name: "ocaml:opam-file-format",                                  ruleset: sisyphus,    untrusted: true }
+- { name: "ocaml:sexplib",             ver: "7.0.5",                 ruleset: fedora,      incorrect: true }
+- { name: "ocaml:sexplib",                                           ruleset: fedora,      untrusted: true } # accused of fake 7.0.5
 - { name: "ocaml:yojson",              verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: oclgrind,                    verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: ocropus,                     verpat: "20[0-9]{6}",                               incorrect: true }
