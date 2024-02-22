@@ -286,8 +286,9 @@
 - { setname: splix,                    name: splix-svn, weak_devel: true, nolegacy: true }
 - { setname: spotdl,                   name: python:$0 }
 - { setname: spotdl,                   name: spotdl-beta, weak_devel: true, nolegacy: true }
-- { setname: spotify,                  name: [spotify-stable,spotify094] }
-- { setname: spotify,                  name: spotify-client, addflavor: client }
+- { setname: spotify,                  name: [spotify-stable,spotify094,spotify-legacy,spotify-snapstore] }
+- { setname: spotify,                  name: [spotify-dev,spotify-edge], weak_devel: true, nolegacy: true }
+- { setname: spotify,                  name: [$0-client,$0-noshows], addflavor: true }
 - { setname: spotify-dl,               name: "python:spotify-dl" }
 - { setname: spr,                      name: rust:$0 }
 - { setname: spring,                   name: springrts }
