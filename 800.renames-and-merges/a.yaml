@@ -288,7 +288,9 @@
 - { setname: audacious,                name: [audacious-gtk3,audacious-core,audacious-qt5,audacious-itself,audacious-player], addflavor: true }
 - { setname: audacious,                name: audacious2 }
 - { setname: audacious-plugins,        name: audacious2-plugins }
-- { setname: audacity,                 name: [audacity-freeworld,audacity-wxgtk2], addflavor: true }
+- { setname: audacity,                 name: [audacity-wxgtk2, audacity-3.1-wxgtk2], addflavor: wxgtk2 }
+- { setname: audacity,                 name: [audacity-freeworld,audacity-qt,audacity-local], addflavor: true }
+- { setname: audacity,                 name: [audacity-legacy, audacity2.4.2] }
 - { setname: audiofile,                name: [libaudiofile,libaudiofile0] }
 - { setname: audit,                    name: [compat-audit] }
 - { setname: audit,                    name: audit-secondary, addflavor: true }
