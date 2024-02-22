@@ -367,8 +367,8 @@
 - { setname: google-chrome,            name: [chrome,google-chrome-stable,googlechrome] }
 - { setname: google-chrome,            name: [google-chrome-bin, google-chrome-x64], addflavor: true }
 - { setname: google-chrome,            name: [google-chrome-beta,google-chrome-dev,google-chrome-unstable,googlechrome-betagooglechrome-canary,googlechrome-dev], weak_devel: true, nolegacy: true }
-- { setname: google-earth,             name: [google-earth-stable, googleearth] }
-- { setname: google-earth-pro,         name: google-earth-pro-stable }
+- { setname: google-earth,             name: [google-earth-stable, googleearth,google-earth-legacy] }
+- { setname: google-earth-pro,         name: [google-earth-pro-stable,earthpro,googleearth-pro] }
 - { setname: google-guice,             name: [guice,java-guice,java-guice-servlet] }
 - { setname: gopass,                   name: gopass184 }
 - { setname: gopro-vr-player,          name: gopro-vr-player-beta, weak_devel: true, nolegacy: true }
