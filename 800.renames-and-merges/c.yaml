@@ -348,7 +348,7 @@
 - { setname: cydia-impactor,           name: impactor }
 - { setname: cyphesis,                 name: cyphesis-cpp, ruleset: debuntu }
 - { setname: cyrus-imapd,              name: cyrus-imapd-ldap, addflavor: true }
-- { setname: cyrus-imapd,              namepat: "cyrus[0-9]*-imapd[0-9.-]*" }
+- { setname: cyrus-imapd,              namepat: "cyrus[0-9]*-imapd[0-9.-]*(http)?", addflavor: $1 }
 - { setname: cyrus-sasl,               name: [cyrus-sasl-lib,libsasl,libsasl2], addflavor: lib }
 - { setname: cyrus-sasl,               name: [cyrus-sasl2,cyrus-sasl2125] }
 - { setname: cyrus-sasl,               name: [cyrus-sasl-gssapi,cyrus-sasl-ldap,cyrus-sasl-ldapdb,cyrus-sasl-saslauthd,cyrus-sasl-sql,cyrus-sasl-srp,cyrus-saslauthd,cyrus-sasl-pam,libsasl-without-ldap], addflavor: true }
