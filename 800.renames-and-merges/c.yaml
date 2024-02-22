@@ -98,6 +98,8 @@
 - { setname: centerim,                 name: centerim-devel, weak_devel: true, nolegacy: true }
 - { setname: ceph,                     namepat: "ceph[0-9.-]+" }
 - { setname: ceph,                     name: [ceph-test, cephadm, ceph-common, ceph-client], addflavor: true}
+- { setname: ceres-solver,             name: [lib$0, $0-legacy] }
+- { setname: ceres-solver,             name: $0-benchmarks, addflavor: true }
 - { setname: cernbox,                  name: cernbox-client }
 - { setname: certomancer,              name: python:$0 }
 - { setname: ceti-2-theme,             name: ceti-2-themes }
