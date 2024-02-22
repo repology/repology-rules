@@ -25,7 +25,8 @@
 - { setname: pam-ldap,                 name: libpam-ldap }
 - { setname: pam-radius,               name: [libpam-radius-auth,pam-pam-radius-auth,pam-radius-auth] }
 - { setname: pamac,                    name: [pamac-aur, pamac-cli, pamac-tray-appindicator], addflavor: true }
-- { setname: pango,                    name: pango-reference, addflavor: reference }
+- { setname: pango,                    name: [$0-reference, $0-static], addflavor: true }
+- { setname: pango,                    name: pango-legacy }
 - { setname: pango,                    namepat: "(?:lib)?pango[0-9.-]*" }
 - { setname: pangomm,                  namepat: "(?:lib)?pangomm[0-9.-]*" }
 - { setname: pangomm,                  namepat: "(?:lib)?pangomm[0-9.-]*(-docs)", addflavor: docs }
