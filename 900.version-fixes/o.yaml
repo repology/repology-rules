@@ -9,6 +9,8 @@
 - { name: obs-studio,                                                ruleset: t2,          untrusted: true } # accused of fake 32.2.1
 - { name: obs-studio,                  ver: "29.3.1",                ruleset: pisi,        incorrect: true }
 - { name: obs-studio,                                                ruleset: pisi,        untrusted: true } # accused of fake 29.3.1
+- { name: "ocaml:bin-prot",            ver: "2.0.9",                 ruleset: fedora,      incorrect: true }
+- { name: "ocaml:bin-prot",                                          ruleset: fedora,      untrusted: true } # accused of fake 2.0.9
 - { name: "ocaml:calendar",            ver: "2.5",                   ruleset: nix,         incorrect: true }
 - { name: "ocaml:calendar",                                          ruleset: nix,         untrusted: true } # accused of fake 2.5 (it's really 2.03.2)
 - { name: "ocaml:cryptokit",           ver: "1.161",                                       incorrect: true } # 1.16.1
