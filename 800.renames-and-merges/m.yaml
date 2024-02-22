@@ -251,6 +251,7 @@
 - { setname: money,                    name: nickvision-money, addflavor: true } # aur has two packages, add flavor to avoid unwanted legacy status
 - { setname: mongo-c-driver,           name: libbson, addflavor: true } # moved into, see https://github.com/mongodb/libbson
 - { setname: mongo-c-driver,           name: [libmongoc,mongoc] }
+- { setname: mongo-cxx-driver,         name: [$0-legacy, mongocxx] }
 - { setname: mongodb,                  namepat: "mongodb[0-9.-]+" }
 - { setname: mongodb,                  namepat: "mongodb-bin-[0-9.-]+", addflavor: bin }
 - { setname: mongodb,                  name: mongodb-beta, weak_devel: true, nolegacy: true }
