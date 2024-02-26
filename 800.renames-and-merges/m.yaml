@@ -330,6 +330,7 @@
 - { setname: musescore,                name: mscore } # XXX: problem?
 - { setname: musescore,                name: [musescore-dev,musescore-snapshot,musescore3-nightly,musescore-nightly], weak_devel: true, nolegacy: true }
 - { setname: musescore,                name: [musescore-legacy,musescore.3,musescore3,musescore2] }
+- { setname: musescore,                name: $0-midi, addflavor: true }
 - { setname: musl,                     name: musl-libc }
 - { setname: musl,                     name: musl-bootstrap, addflavor: true }
 - { setname: musl-rpmatch,             name: rpmatch-standalone }
