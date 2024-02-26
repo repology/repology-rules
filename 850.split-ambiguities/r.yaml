@@ -8,7 +8,8 @@
 - { name: rack, addflag: unclassified }
 
 - { name: raft, wwwpart: gill_martinez, setname: raft-tomography }
-- { name: raft, wwwpart: canonical, setname: raft-consensus }
+- { name: raft, wwwpart: [cowsql,raft.readthedocs.io], setname: raft-consensus-cowsql }
+- { name: raft, wwwpart: [canonical], setname: raft-consensus-canonical }
 - { name: raft, addflag: unclassified }
 
 - { name: rage, wwwpart: enlightenment, setname: rage-player }
