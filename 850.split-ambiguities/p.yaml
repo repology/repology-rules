@@ -71,6 +71,10 @@
 - { name: pass, ruleset: [aosc,pclinuxos], setname: password-store }
 - { name: pass, addflag: unclassified }
 
+- { name: passage, wwwpart: hcsoftware, setname: passage-game }
+- { name: passage, wwwpart: FiloSottile, setname: passage-password-store }
+- { name: passage, addflag: unclassified }
+
 - { name: passwd, wwwpart: [fedora,pagure], setname: passwd-redhat }
 - { name: passwd, wwwpart: altlinux, setname: passwd-alt }
 - { name: passwd, addflag: unclassified }
