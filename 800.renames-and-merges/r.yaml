@@ -14,7 +14,7 @@
 - { setname: radexreader,              name: python:$0 }
 - { setname: radicale,                 name: ["python:radicale","python:radicale2",radicale2] }
 - { setname: radon,                    name: "python:radon" }
-- { setname: raft,                     name: lib$0 }
+- { setname: raft,                     name: [lib$0, $0-canonical, c-$0] }
 - { setname: rage-encryption,          name: "rust:rage" }
 - { setname: rage-player,              name: rageplayer }
 - { setname: ragel,                    name: [ragel-6,ragel7] }
