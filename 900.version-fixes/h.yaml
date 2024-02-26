@@ -58,6 +58,8 @@
 - { name: hugs,                        verpat: ".*2006.*",                                 noscheme: true }
 - { name: hugs,                                                                            outdated: true }
 - { name: hunspell-ca,                 verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: hunspell-de,                 ver: "20240224",              ruleset: fedora,      incorrect: true }
+- { name: hunspell-de,                                               ruleset: fedora,      untrusted: true } # accused of fake 20240224
 - { name: hunspell-en,                 verpat: "20[0-9]{6}.*",                             incorrect: true } # ALT
 - { name: hunspell-en-ca,              verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: hunspell-en-ca,              verpat: "20[01][0-9].*",                            sink: true }
