@@ -109,8 +109,9 @@
 - { setname: openjpeg,                 name: [openjp2,libopenjpeg2.0,openjpeg-legacy] }
 - { setname: openjpeg,                 namepat: "(?:lib)?openjpeg[0-9]*" }
 - { setname: openldap,                 name: [libldap,libldap-legacy,libldap-2.5,libldap24], addflavor: lib }
-- { setname: openldap,                 name: [compat-openldap,libldap,openldap-cloak,openldap-doc,openldap-nops,openldap-sasl-client,openldap-smbk5pwd], addflavor: true }
+- { setname: openldap,                 name: [$0-autogroup, $-epel, $0-cloak, $0-doc, $0-nops, $0-sasl-client, $0-smbk5pwd], addflavor: true }
 - { setname: openldap,                 name: openldap-overlays-devel, addflavor: openldap-overlays, weak_devel: true, nolegacy: true }
+- { setname: openldap,                 name: compat-$0 }
 - { setname: openldap,                 namepat: "openldap[0-9.-]*(client|server)?", addflavor: $1 }
 - { setname: openlitespeed,            name: litespeed } # XXX: problem
 - { setname: openmesh,                 name: open-mesh }
