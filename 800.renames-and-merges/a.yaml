@@ -311,6 +311,7 @@
 - { setname: automake,                 namepat: "automake-?[0-9.]+" } # do we need splits for this?
 - { setname: automoc,                  namepat: "automoc[0-9]+" }
 - { setname: autopep8,                 name: "python:autopep8" }
+- { setname: autopilot,                name: $0-legacy }
 - { setname: autotools,                name: autotools-dev, ignore: true }
 - { setname: autotools,                name: autotools-wrappers } # ravenports
 - { setname: av1an,                    name: ["python:av1an", "python:av1an-minimal", "rust:av1an", "rust:av1an-cli", "rust:av1an-core"] }
