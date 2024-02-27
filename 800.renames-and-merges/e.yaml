@@ -22,6 +22,8 @@
 - { setname: ecryptfs-utils,           name: ecryptfs}
 - { setname: ed,                       name: ged }
 - { setname: edgar,                    name: [the-legend-of-edgar,legend-of-edgar,legendofedgar] }
+- { setname: edgedriver,               name: [edgedriver-legacy, msedgedriver-stable, selenium-chromium-edge-driver, selenium-edge-driver] }
+- { setname: edgedriver,               name: [edgedriver-canary, edgedriver-dev, msedgedriver-beta, msedgedriver-dev], weak_devel: true, nolegacy: true }
 - { setname: edk2,                     name: edk2-ovmf }
 - { setname: ee,                       name: ee-editor }
 - { setname: eekboard,                 name: eekboard-gtk2 }
