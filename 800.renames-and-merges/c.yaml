@@ -46,6 +46,7 @@
 - { setname: cargo,                    name: [cargo-completion,cargo-standalone,cargo-bootstrap,cargo-stage1], addflavor: true }
 - { setname: cargo,                    name: cargo-nightly, weak_devel: true, nolegacy: true }
 - { setname: cargo-audit,              name: ["rust:cargo-audit",rust-cargo-audit] }
+- { setname: cargo-auditable,          name: ["rust:cargo-auditable",rust-cargo-auditable] }
 - { setname: cargo-bloat,              name: ["rust:cargo-bloat",rust-cargo-bloat] }
 - { setname: cargo-c,                  name: "rust:cargo-c" }
 - { setname: cargo-deb,                name: "rust:cargo-deb" }
