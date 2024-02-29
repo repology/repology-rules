@@ -396,4 +396,6 @@
 - { setname: python-launcher,          name: rust:$0 }
 - { setname: python-linux-procfs,      name: "python:linux-procfs" } # exherbo XXX: problem
 - { setname: pythonmagick,             name: ["python:pythonmagick","python:magick"] }
+- { setname: pywal,                    name: python:$0 }
+- { setname: pywal16,                  name: [python:$0, pywal-16-colors] }
 - { setname: pyzy,                     name: "python:pyzy" }
