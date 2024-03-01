@@ -165,6 +165,13 @@
     )
   setname: "$1"
 
+# util
+- namepat: |
+    (?:xorg-|x11-|xutil-)+(?:util-)?(
+    util-macros
+    )
+  setname: "$1"
+
 # libs
 - namepat: |
     (?:xorg-|x11-|xlib-)+(?:lib-)?(?:lib)?(
