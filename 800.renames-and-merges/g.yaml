@@ -11,6 +11,7 @@
 - { setname: gambas,                   namepat: "gambas3-(gb-.*)", addflavor: $1 }
 - { setname: gambas,                   name: [gambas3-ide,gambas3-runtime,gambas3-script], addflavor: true }
 - { setname: gambit-c,                 name: [gambc,gambit-scheme] }
+- { setname: gamescope,                name: [$0-amd-color, $0-nvidia], addflavor: true }
 - { setname: gamess,                   name: gamess-us }
 - { setname: ganeti,                   name: ganeti-2.15 }
 - { setname: ganglia,                  name: ganglia-minimal, addflavor: true }
