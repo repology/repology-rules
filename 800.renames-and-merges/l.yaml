@@ -39,6 +39,7 @@
 - { setname: lcms,                     name: [lcms,lcms1,lcms2,little-cms,little-cms2,lcms-python,liblcms,liblcms2,littlecms] }
 - { setname: ldb,                      namepat: "(?:lib)?ldb[0-9]*" }
 - { setname: ldc,                      name: liblphobos, addflavor: true }
+- { setname: ldid,                     name: ldid-procursus } # see #786
 - { setname: ldns,                     name: "perl:dns-ldns", wwwpart: nlnetlabs, addflavor: perl } # part of
 - { setname: ldns,                     name: "python:ldns", addflavor: python }
 - { setname: ldns,                     name: [ldns-tools,ldns-utils] }

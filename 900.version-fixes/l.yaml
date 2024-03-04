@@ -25,6 +25,7 @@
 - { name: lbd,                         verpat: "20[0-9]{6}",                               ignore: true } # BlackArch snap
 - { name: lcms,                        verpat: "2.2[0-9]",                                 ignore: true } # gobolinux brokenness
 - { name: lcov,                                                      ruleset: opensuse,    untrusted: true } # accused of fake 1.14
+- { name: ldid,                        verpat: ".*procursus.*",                            any_is_patch: true }
 - { name: leafnode,                    ver: "2.0.0",                 ruleset: [openmandriva,opensuse], incorrect: true }
 - { name: leafnode,                                                  ruleset: [openmandriva,opensuse], untrusted: true } # accused of fake 2.0.0
 - { name: leftwm,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true } # XXX: FreeBSD DISTVERSION
