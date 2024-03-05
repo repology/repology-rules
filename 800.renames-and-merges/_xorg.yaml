@@ -172,6 +172,13 @@
     )
   setname: "$1"
 
+# font
+- namepat: |
+    (?:xorg-|x11-|xfont-)+(?:font-)?(
+    font-util
+    )
+  setname: "$1"
+
 # libs
 - namepat: |
     (?:xorg-|x11-|xlib-)+(?:lib-)?(?:lib)?(
