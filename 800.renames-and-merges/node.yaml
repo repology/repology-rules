@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { setname: "node:colors",            name: colors.js }
+- { setname: "node:corepack",          name: corepack } # note that this may also be part of nodejs like https://repology.org/project/corepack-nodejs/information
 - { setname: "node:d3",                name: d3js }
 - { setname: "node:grunt",             name: grunt }
 - { setname: "node:highlight",         name: [highlight.js,"node:highlight-js","js:highlight"] }
