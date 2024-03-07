@@ -50,6 +50,7 @@
 - { setname: cargo-bloat,              name: ["rust:cargo-bloat",rust-cargo-bloat] }
 - { setname: cargo-c,                  name: "rust:cargo-c" }
 - { setname: cargo-deb,                name: "rust:cargo-deb" }
+- { setname: cargo-edit,               name: rust:$0 }
 - { setname: cargo-i18n,               name: rust:$0 }
 - { setname: cargo-play,               name: "rust:cargo-play" }
 - { setname: cargo-vendor,             name: ["rust:cargo-vendor",rust-toolset-7-cargo-vendor] }
