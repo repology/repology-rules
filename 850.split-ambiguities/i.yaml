@@ -47,6 +47,10 @@
 - { name: index, wwwpart: [index-fm,maui], setname: index-fm }
 - { name: index, addflag: unclassified }
 
+- { name: installkernel, wwwpart: alpine, setname: installkernel-alpine }
+- { name: installkernel, wwwpart: gentoo, setname: installkernel-gentoo }
+- { name: installkernel, addflag: unclassified }
+
 - { name: ioctl, wwwpart: iotex, setname: ioctl-iotex }
 - { name: ioctl, wwwpart: jerome-pouiller, setname: ioctl-ioctl } # couldn't come with better name
 - { name: ioctl, addflag: unclassified }
