@@ -73,7 +73,8 @@
 - { name: libcpuid,                    ver: "0.21",                                        setver: "0.2.1" } # deepin crap
 - { name: libcuckoo,                   ver: "1.0",                   ruleset: yacp,        incorrect: true }
 - { name: libcuckoo,                                                 ruleset: yacp,        untrusted: true }
-- { name: libcuefile,                                                                      noscheme: true }
+- { name: libcuefile,                                                                      incorrect: true }
+- { name: libcuefile,                  verpat: "r[0-9]{3,}",                               incorrect: false }
 - { name: libdazzle,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libdbusmenu,                 ver: "18.10",                 ruleset: crux,        incorrect: true }
 - { name: libdbusmenu,                                               ruleset: crux,        untrusted: true } # accused of fake 18.10
@@ -268,7 +269,8 @@
 - { name: libraw,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: librdata,                                                                        noscheme: true }
 - { name: librem,                      verpat: "20[0-9]{6}",                               incorrect: true }
-- { name: libreplaygain,                                                                   noscheme: true }
+- { name: libreplaygain,                                                                   incorrect: true }
+- { name: libreplaygain,               verpat: "r[0-9]{3,}",                               incorrect: false }
 - { name: librsb,                      ver: "1.2.0",                 ruleset: [freshcode], incorrect: true } # 1.2.0rc7
 - { name: librsvg,                     verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: libsamplerate,               ver: "0.1.9.1",               ruleset: deepin,      incorrect: true }
