@@ -32,6 +32,9 @@
 - { setname: olm,                      name: libolm }
 - { setname: olm,                      name: ["python:olm", olm-python3], addflavor: python }
 - { setname: ombi,                     name: [ombi-beta,ombi-dev] }
+- { setname: omlibraries,              name: [omlibrary, openmodelica-omlibraries] }
+- { setname: omplot,                   name: openmodelica-omplot }
+- { setname: omshell,                  name: openmodelica-omshell }
 - { setname: onehouronelife,           namepat: onehouronelife-latest, rolling: true }
 - { setname: onehouronelife,           name: one-hour-one-life }
 - { setname: onetbb,                   name: [intel-tbb,libtbb,threadingbuildingblocks,tbb,intel-oneapi-tbb] }
