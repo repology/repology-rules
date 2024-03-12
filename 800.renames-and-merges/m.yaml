@@ -241,6 +241,7 @@
 - { setname: mmtf-cpp,                 name: libmmtf }
 - { setname: moc,                      name: moc-pulse, addflavor: pulse }
 - { setname: moc,                      name: mocp }
+- { setname: mockgen,                  name: [go:github-golang-mock, go:github-mock, go:mockgen] } # just for the sake of version rule
 - { setname: modemmanager,             name: modem-manager }
 - { setname: modemmanager,             name: libmm-glib, addflavor: true }
 - { setname: modplug-tools,            name: modplugplay, sink: true } # modplugplay (2003, upstream dead) is now contained in modplugtools (2010); the latter also uses own versioning scheme

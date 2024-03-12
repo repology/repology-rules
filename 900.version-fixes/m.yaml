@@ -177,6 +177,8 @@
 - { name: moc,                                                       ruleset: [rpm,pisi],  untrusted: true } # accused of fake 2.6
 - { name: moc,                         verpat: "2\\.6\\.0r.*",                             ignore: true }
 - { name: moc,                         verpat: "(2\\.6)\\.0(a.*)",                         setver: "$1$2" } # there's no third numeric component for alpha
+- { name: mockgen,                     verge: "1.0.0", verle: "1.6.0",                     sink: true }
+- { name: mockgen,                     wwwpart: github.com/golang/mock,                    sink: true } # deprecated in favor of uber-go/mock
 - { name: modelio,                     verpat: ".+20[0-9]{6}.*",                           snapshot: true } # winget
 - { name: modemmanager,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mold,                        verpat: ".+20[0-9]{6}",                             snapshot: true }
