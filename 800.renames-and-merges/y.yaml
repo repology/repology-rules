@@ -13,7 +13,7 @@
 - { setname: yamlfix,                  name: "python:yamlfix" }
 - { setname: yarn,                     name: yarn-bin, addflavor: true }
 - { setname: yarn,                     name: yarn-nightly, weak_devel: true, nolegacy: true }
-- { setname: yarn,                     name: ["node:yarn","node:yarnpkg", yarnpkg] }
+- { setname: yarn,                     name: ["node:yarn","node:yarnpkg", yarnpkg, yarn-berry] }
 - { setname: yarn,                     namepat: "yarn-(node[0-9]+)", addflavor: $1 }
 - { setname: yarock,                   name: [yarock-mpv,yarock-qt5], addflavor: true }
 - { setname: yaru-theme,               name: yaru }
