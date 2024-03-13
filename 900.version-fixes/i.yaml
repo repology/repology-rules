@@ -7,6 +7,7 @@
 - { namepat: "i7z(-.*)?",              verpat: "20[0-9]{6}",                               incorrect: true } # aosc snapshot
 - { name: i7z-afontenot,               verpat: "0.27.2.*",                                 incorrect: true } # there's only 0.28 tag for this fork
 - { name: iagno,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: iana-etc,                                                                        noscheme: true }
 - { name: iannix,                      ver: "0.9.20b",                                     setver: "0.9.20" } # ambiguous release https://github.com/buzzinglight/IanniX/releases
 - { name: ibmtss,                      verpat: "[0-9]+",                                   sink: true } # older scheme https://sourceforge.net/projects/ibmtpm20tss/files/
 - { name: ibus-kkc,                    verpat: "20[0-9]{6}",                               incorrect: true }
