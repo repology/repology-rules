@@ -248,6 +248,7 @@
 - { setname: libxrandr, name: xorg-xrandr, ruleset: ravenports } # exclude from the following rule; XXX: problem
 - { setname: xrandr, name: [xorg-app-xrandr,xorg-xrandr] }
 - { setname: xorg-scripts, name: [xorg-app-scripts,x11-scripts] }
+- { setname: xorg-server, name: [xorg-x11-server, xorg-xserver-serverxserver-xorg-server] }
 - { setname: xorg-sgml-doctools, name: x11-sgml-doctools } # XXX: problem
 - { setname: xorgproto, name: [xorg-proto, xorg-proto-xorgproto] }
 - { setname: xorgproto, name: [xorg-proto-devel, xorg-x11-proto-devel], weak_devel: true, nolegacy: true }
