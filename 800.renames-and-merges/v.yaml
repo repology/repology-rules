@@ -59,8 +59,9 @@
 - { setname: vivaldi,                  name: [vivaldi-stable, vivaldi-browser] }
 - { setname: vivaldi,                  name: [vivaldi.snapshot, vivaldi-snapshot], weak_devel: true, nolegacy: true }
 - { setname: vlan-utils,               name: vconfig }
-- { setname: vlc,                      name: [vlc-qt,vlc-qt4,vlc-qt5,vlc-nox,vlc-decklink,libvlc], addflavor: true }
-- { setname: vlc,                      name: vlc-nightly, weak_devel: true, nolegacy: true }
+- { setname: vlc,                      name: [vlcmediaplayer,vlc2] }
+- { setname: vlc,                      name: [vlc-qt,vlc-qt4,vlc-qt5,vlc-nox,vlc-decklink,libvlc,vlc-bin-universal,vlc-luajit], addflavor: true }
+- { setname: vlc,                      name: [vlc-nightly,vlc-beta], weak_devel: true, nolegacy: true }
 - { setname: vm.lv2,                   name: vm-lv2 }
 - { setname: vmaf,                     name: [lib$0, python:$0] }
 - { setname: vmd,                      name: "node:vmd" }
