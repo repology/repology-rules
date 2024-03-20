@@ -33,6 +33,8 @@
 - { name: xclip,                                                     ruleset: kaos,        untrusted: true } # accused of fake 0.13.1
 - { name: xclip,                       ver: "0.13.82",               ruleset: freebsd,     incorrect: true }
 - { name: xclip,                                                     ruleset: freebsd,     untrusted: true } # accused of fake 0.13.82
+- { name: xcodes,                      wwwpart: xcodesapp,                                 incorrect: true }
+- { name: xcodes,                                                    ruleset: homebrew_casks, untrusted: true } # accused of fake 2.1.2b26 (xcodesapp instead of xcodes)
 - { name: xcolors,                     verge: "90",                  ruleset: opensuse,    incorrect: true }
 - { name: xconq,                       ver: "7.5.0",                 ruleset: [rosa,rpmsphere], incorrect: true } # latest is 7.5.0-0pre.0.20050612
 - { name: xcwd,                                                                            noscheme: true }
