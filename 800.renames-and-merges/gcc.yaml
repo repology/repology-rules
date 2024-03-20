@@ -5,6 +5,7 @@
 - { setname: gcc, namepat: "gcc[0-9.-]+-devel", weak_devel: true, nolegacy: true }
 - { setname: gcc, namepat: "gcc[0-9.-]*(-libs|-testresults|-alternative|-doc)", addflavor: $1 }
 - { setname: gcc, name: legacy-gcc }
+- { setname: gcc, name: libiberty, addflavor: libiberty }
 
 - setname: gcc
   namepat: |
