@@ -14,7 +14,7 @@
 - { setname: ibus,                     name: libibus }
 - { setname: ice,                      name: ice37 }
 - { setname: icecast,                  name: icecast2 }
-- { setname: icecat,                   name: icecat-debug, addflavor: debug }
+- { setname: icecat,                   name: [$0-debug,$0-bin,$0-minimal], addflavor: true }
 - { setname: icecat,                   namepat: "icecat-(l10n.*)", addflavor: $1 }
 - { setname: icedove,                  namepat: "icedove-(l10n.*)", addflavor: $1 }
 - { setname: icemon,                   name: [icecream-monitor, icecc-monitor] }

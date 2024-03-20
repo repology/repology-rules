@@ -17,8 +17,7 @@
 - { name: ibus-sunpinyin,              ver: "2.0.99",                ruleset: opensuse,    incorrect: true } # fake, it's 3.0.0-rc1
 - { name: ibus-sunpinyin,                                            ruleset: opensuse,    untrusted: true } # accused of fake 2.0.99
 - { name: icebreaker,                  ver: "1.21",                                        setver: "1.2.1" }
-- { name: icecat,                                                                          setver: "$0gnu1" } # it uses gnu suffix, in most cases it's gnu1, but there were gnu2 as well
-- { name: icecat,                      verpat: "(.*gnu.*)gnu1",                            setver: "$1" }
+- { name: icecat,                      verpat: ".*gnu[0-9]+",                              altver: true } # official versioning scheme is X.Y.Z-gnuN, but most repos omit gnu suffix
 - { name: icecat,                      verpat: "60\\.[45].*",        ruleset: [chocolatey,fedora,guix], incorrect: true }
 - { name: icecat,                                                    ruleset: [chocolatey,fedora,guix], untrusted: true } # accused of fake 60.4.0 (no tag as of 2019-01-08 at http://git.savannah.gnu.org/cgit/gnuzilla.git)
 - { name: icecat,                                                    ruleset: gobolinux,   untrusted: true } # accused of fake 3.0.5g1gnu1
