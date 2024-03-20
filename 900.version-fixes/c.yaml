@@ -100,8 +100,8 @@
 - { name: cegui,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: ceilometer,                  verge: "2000",                                      sink: true } # 2014.1.4 < 15.0.0
 - { name: celestia,                    verpat: "[0-9]{3,4}",                               sink: true }
-- { name: celestia,                    ver: "1.7.0",                 ruleset: [opensuse,mageia], incorrect: true }
-- { name: celestia,                                                  ruleset: [opensuse,mageia], untrusted: true }
+- { name: celestia,                    ver: "1.7.0",                 ruleset: [opensuse,mageia,rosa], incorrect: true }
+- { name: celestia,                                                  ruleset: [opensuse,mageia,rosa], untrusted: true }
 - { name: celestia,                    verpat: ".*[0-9a-f]{7}",                            incorrect: true }
 - { name: celestia,                    verpat: ".*20[0-9]{6}",                             snapshot: true, incorrect: false }
 - { name: cemu-wii-u-emulator,         ver: "2.0.468",               ruleset: t2,          incorrect: true }
