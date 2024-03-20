@@ -179,6 +179,7 @@
 - { setname: mesa,                     name: [mesa-minimal,mesa-wayland,mesa-enable-h264,mesa-freeworld,mesa-gallium-va,mesa-gallium-vdpau,mesa-gallium-xa], addflavor: true }
 - { setname: mesa,                     name: [mesa-devel, mesa-git], weak_devel: true, nolegacy: true }
 - { setname: mesa-demos,               name: [mesa-demo,mesademos] }
+- { setname: mesa-demos,               name: glxinfo, addflavor: true }
 - { setname: meson,                    name: ["python:meson",meson-internal,meson-testsuite], addflavor: true }
 - { setname: meta-package-manager,     name: "python:$0" }
 - { setname: metasploit,               namepat: "metasploit[0-9.-]+" }
