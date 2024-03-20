@@ -120,6 +120,7 @@
 - { setname: docker,                   name: docker-git-x86, ignore: true } # ignore version just for the cause, because of suspicious name
 - { setname: docker-compose,           name: ["python:docker-compose", docker-compose-v2] }
 - { setname: dog-dns,                  name: dogdns }
+- { setname: doge,                     name: python:$0 }
 - { setname: dogecoin,                 name: [dogecoind,dogecoin-qt,dogecoin-daemon] }
 - { setname: dogtail,                  name: [dogtail3, "python:dogtail"] }
 - { setname: doh-proxy,                name: "rust:doh-proxy" }
