@@ -19,6 +19,8 @@
 - { name: bash,                        verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true } # slackwarearm invention
 - { name: bash,                        verpat: "[0-9]+\\.[0-9]+[._-][0-9]{3}.*",           incorrect: true }
 - { name: bash-supergenpass,                                                               noscheme: true }
+- { name: bashdb,                      ver: "5.1_20210713",                                incorrect: true }
+- { name: bashdb,                                                    ruleset: slackbuilds, untrusted: true } # accused of fake 5.1_20210713
 - { name: bashunit-djui,               verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: basiliskii,                                                                      noscheme: true }
 - { name: bastet,                      ver: "0.43.1.2015083000",                           ignore: true }
