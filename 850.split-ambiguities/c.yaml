@@ -351,6 +351,10 @@
 - { name: cpulimit, verle: "1.1", setname: cpulimit1 }
 - { name: cpulimit, setname: limitcpu }
 
+- { name: cpustat, wwwpart: uber, setname: cpustat-uber }
+- { name: cpustat, wwwpart: ColinIanKing, setname: cpustat-colinianking }
+- { name: cpustat, addflag: unclassified }
+
 - { name: cram, wwwpart: llnl, setname: cram-mpi }
 - { name: cram, wwwpart: bitheap, setname: "python:cram" }
 - { name: cram, addflag: unclassified }
