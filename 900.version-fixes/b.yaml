@@ -84,6 +84,7 @@
 - { name: black,                       verpat: ".*_.*",              ruleset: solus,       incorrect: true }
 - { name: black,                                                     ruleset: solus,       untrusted: true } # accused of fake 20.8_1
 - { name: blackbox,                    verpat: ".*20[0-9]{6}.*",                           ignore: true }
+- { name: blackshades,                 ver: "20070723",                                    sink: true }
 - { name: blas,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: blas,                        ver: "3.9.2",                 ruleset: sisyphus,    incorrect: true }
 - { name: blas,                                                      ruleset: sisyphus,    untrusted: true } # accused of fake 3.9.2
