@@ -78,8 +78,10 @@
 - { name: ccd2iso,                     ver: "0.9",                   ruleset: freebsd,     sink: true } # it's fake, no mention of 0.9 at all, and it uses file which was released before 0.3
 - { name: ccid,                        ver: "1.54",                  ruleset: t2,          incorrect: true } # 1.3.8
 - { name: ccid,                                                      ruleset: t2,          untrusted: true } # accused of fake 1.54
-- { name: ccls,                        ver: "0.20190731",                                  incorrect: true } # fake
-- { name: ccls,                                                      ruleset: freebsd,     untrusted: true } # accused of fake 0.20190731
+- { name: ccls,                        ver: "0.20231116",                                  incorrect: true } # made up, not official
+- { name: ccls,                                                      ruleset: freebsd,     untrusted: true } # accused of fake 0.20190731, 0.20231116
+- { name: ccls,                        ver: "0.20240202",                                  incorrect: true } # made up, not official
+- { name: ccls,                                                      ruleset: termux,      untrusted: true } # accused of fake 0.20240202
 - { name: ccnet,                                                     ruleset: sisyphus,    untrusted: true } # ccnet-server really
 - { name: cd-discid,                   ver: "1.4.14",                ruleset: freebsd,     incorrect: true }
 - { name: cd-discid,                                                 ruleset: freebsd,     untrusted: true } # accused of fale 1.4.14
