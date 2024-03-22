@@ -329,6 +329,8 @@
 - { name: cubicsdr,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: cuda,                        verlonger: 4,                                       altver: true } # driver version appended by upstream
 - { name: cuda,                        verlonger: 4,                 ruleset: scoop,       untrusted: false }
+- { name: cudnn,                       verpat: "8.9.7.29-12",        ruleset: spack,       incorrect: true } # cuda version, not part of software version
+- { name: cudnn,                                                     ruleset: spack,       untrusted: true } # accused of fake 8.9.7.29-12
 - { name: cup,                         verpat: "11.*",                                     incorrect: true } # 0.11b
 - { name: cups,                        verpat: ".*b.*",                                    devel: true }
 - { name: cups,                        verpat: ".*op.*",                                   any_is_patch: true } # e.g. 2.3.3op1
