@@ -3,7 +3,7 @@
 - { setname: d-spy,                    name: dspy }
 - { setname: damo,                     name: "python:damo" }
 - { setname: dapl,                     name: compat-dapl }
-- { setname: dapl,                     name: dapl-debug, addflavor: true }
+- { setname: dapl,                     name: [dapl-native,dapl-debug], addflavor: true }
 - { setname: darcs,                    name: "haskell:darcs" }
 - { setname: darktable,                name: darktable-rc, weak_devel: true, nolegacy: true } # AUR "RC/Stable version" nonsense
 - { setname: dart,                     name: dart-1.x }
