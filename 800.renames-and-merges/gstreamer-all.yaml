@@ -1,0 +1,75 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- { setname: "gstreamer:bad",          name: ["gstreamer:bad-debug","gstreamer:bad-free", "gstreamer:bad-freeworld", "gstreamer:bad-nonfree"], addflavor: true }
+- { setname: "gstreamer:base",         name: ["gstreamer:base-libs"], addflavor: true }
+- { setname: "gstreamer:ugly",         name: ["gstreamer:ugly-free"], addflavor: true }
+
+- setname: "gstreamer:base"
+  name:
+    - "gstreamer:alsa"
+    - "gstreamer:cdparanoia"
+    - "gstreamer:gio"
+    - "gstreamer:gnomevfs"
+    - "gstreamer:ogg"
+    - "gstreamer:pango"
+    - "gstreamer:theora"
+    - "gstreamer:vorbis"
+    - "gstreamer:xshm"
+    - "gstreamer:xvideo"
+  addflavor: true
+
+- setname: "gstreamer:good"
+  name:
+    - "gstreamer:aalib"
+    - "gstreamer:cairo"
+    - "gstreamer:dv"
+    - "gstreamer:flac"
+    - "gstreamer:gdkpixbuf"
+    - "gstreamer:jpeg"
+    - "gstreamer:lame"
+    - "gstreamer:libpng"
+    - "gstreamer:soup"
+    - "gstreamer:speex"
+    - "gstreamer:taglib"
+    - "gstreamer:v4l2"
+    - "gstreamer:vpx"
+    - "gstreamer:wavpack"
+    - "gstreamer:x"
+  addflavor: true
+
+- setname: "gstreamer:bad"
+  name:
+    - "gstreamer:aom"
+    - "gstreamer:assrender"
+    - "gstreamer:bluez"
+    - "gstreamer:bs2b"
+    - "gstreamer:chromaprint"
+    - "gstreamer:colormanagement"
+    - "gstreamer:curl"
+    - "gstreamer:dash"
+    - "gstreamer:dtls"
+    - "gstreamer:dts"
+    - "gstreamer:faac"
+    - "gstreamer:faad"
+    - "gstreamer:flite"
+    - "gstreamer:gme"
+    - "gstreamer:ladspa"
+    - "gstreamer:modplug"
+    - "gstreamer:mpeg2enc"
+    - "gstreamer:resindvd"
+    - "gstreamer:webp"
+    - "gstreamer:x265"
+  addflavor: true
+
+- setname: "gstreamer:ugly"
+  name:
+    - "gstreamer:a52" # same as a52, pkgsrc artifact
+    - "gstreamer:a52dec"
+    - "gstreamer:amr" # same as amrnb+amrwb, gentoo artifact
+    - "gstreamer:amrnb"
+    - "gstreamer:amrwbdec"
+    - "gstreamer:cdio"
+    - "gstreamer:dvdread"
+    - "gstreamer:mpeg2dec"
+    - "gstreamer:x264"
+  addflavor: true

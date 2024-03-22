@@ -1,0 +1,20 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- { setname: "fusefs:apfs",            name: apfs-fuse }
+- { setname: "fusefs:btfs",            name: btfs }
+- { setname: "fusefs:curlftpfs",       name: curlftpfs }
+- { setname: "fusefs:darling-dmg",     name: darling-dmg }
+- { setname: "fusefs:disorderfs",      name: disorderfs }
+- { setname: "fusefs:encfs",           name: [encfs,encfs18] }
+- { setname: "fusefs:exfat",           name: [exfat-fuse,exfat] }
+- { setname: "fusefs:gitfs",           name: gitfs }
+- { setname: "fusefs:httpdirfs",       name: [httpdirfs,httpdirfs-fuse] }
+- { setname: "fusefs:ifuse",           name: ifuse }
+- { setname: "fusefs:jmtpfs",          name: jmtpfs }
+- { setname: "fusefs:mp3fs",           name: mp3fs }
+- { setname: "fusefs:rmfuse",          name: [rmfuse, "python:rmfuse"] }
+- { setname: "fusefs:s3fs",            name: [s3fs,s3fs-fuse] }
+- { setname: "fusefs:simple-mtpfs",    name: simple-mtpfs }
+- { setname: "fusefs:sshfs",           name: [sshfs-fuse,sshfs] }
+- { setname: "fusefs:unreliablefs",    name: ["lua:unreliablefs", unreliablefs] }
+- { setname: "fusefs:zfs",             name: zfs-fuse }
