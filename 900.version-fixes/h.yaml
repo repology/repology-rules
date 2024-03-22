@@ -44,6 +44,7 @@
 - { name: hlsdk,                                                                           noscheme: true }
 - { name: hmmer,                       verpat: ".*b.*",                                    devel: true }
 - { name: hnb,                         ver: [ "1.9.18", "1.9.19" ],                        ignore: true } # unofficial
+- { name: hobbes,                      verpat: "20[0-9]{2}-.*",      ruleset: nix,         sink: true, disposable: true } # due to unstable versioning scheme change in nix
 - { name: horizon,                     verpat: "20[0-9]{2}\\..*",                          sink: true }
 - { name: hostapd,                     verpat: "20[0-9]{2}.*",       ruleset: openwrt,     snapshot: true }
 - { name: hotkeys,                     verlonger: 4,                 ruleset: funtoo,      debianism: true }
