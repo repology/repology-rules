@@ -307,8 +307,9 @@
 - { name: crconf,                      ver: "0.2",                   ruleset: aur,         incorrect: true } # it's "pre2"
 - { name: crconf,                      ver: "0_pre2",                ruleset: alpine,      incorrect: true } # it's "pre2"
 - { name: crda,                        verpat: ".*20[0-9]{2}.*",                           snapshot: true }
-- { name: creduce,                     verpat: "2\\.8.*",            ruleset: [debuntu,openmandriva], incorrect: true }
-- { name: creduce,                                                   ruleset: [debuntu,openmandriva], untrusted: true }
+- { name: creduce,                     verpat: "2\\.11.*",           ruleset: [debuntu,openmandriva,freebsd,rosa], incorrect: true }
+- { name: creduce,                                                   ruleset: [debuntu,openmandriva,freebsd,rosa], untrusted: true } # accused of fake 2.11.x
+- { name: creduce,                     verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: critterding,                 verpat: ".*b.*",                                    devel: true }
 - { name: cronolog,                    ver: "1.7.0",                 ruleset: openpkg,     incorrect: true } # 1.7.0-beta
 - { name: crossguid,                   verpat: "20[0-9]{6}",                               incorrect: true }
