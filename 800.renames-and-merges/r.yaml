@@ -123,6 +123,7 @@
 - { setname: rpcs3,                    name: rpcs3-ex, addflavor: ex }
 - { setname: rpm,                      namepat: "rpm[0-9.-]+" }
 - { setname: rpm,                      name: [rpm-python,"python:rpm"], addflavor: python } # python bindings are bundled
+- { setname: rqbit,                    name: rust:$0 }
 - { setname: rrdtool,                  name: [rrdtool12, rrd, rrdtool1] }
 - { setname: rrdtool,                  name: [rrdtool-lite,rrdupdate,"ruby:rrd","ruby:rrdtool","ruby:rrdtool-bindings", "python:rrd", rrdtool-php], addflavor: true }
 - { setname: rsh,                      name: rshd }
