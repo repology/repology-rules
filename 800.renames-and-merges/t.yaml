@@ -35,6 +35,7 @@
 - { setname: tcllib,                   name: tcllibc, addflavor: c } # FreeBSD artifact, c implementation split out of tcllib
 - { setname: tclreadline,              name: [tcl-readline,tcl-tclreadline] }
 - { setname: tcltk,                    name: [tcltk85,tcl-tk] } # no knowing whether it's tcl or tk
+- { setname: tcltls,                   name: tcl-tls }
 - { setname: tcping,                   name: [$0-go, "go:$0"] }
 - { setname: tdb,                      name: [libtdb,tdb1] }
 - { setname: tdlib,                    name: libtd }
