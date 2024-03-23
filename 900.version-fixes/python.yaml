@@ -215,6 +215,8 @@
 - { name: "python:turbogears",         verge: "2",                                         incorrect: true } # turbogears2
 - { name: "python:turbokid",           ver: "1.0.6",                 ruleset: sisyphus,    incorrect: true }
 - { name: "python:turbokid",                                         ruleset: sisyphus,    untrusted: true } # accused of fake 1.0.6
+- { name: "python:tzdata",             ver: "10000",                                       incorrect: true }
+- { name: "python:tzdata",                                           ruleset: gentoo,      untrusted: true } # accused of fake 10000
 - { name: "python:watchgod",           relge: "0.10",                                      incorrect: true } # watchfiles, not watchgod
 - { name: "python:webm",               vergt: "0.2.2",                                     successor: true } # http://xpra.org/src/ vs. https://github.com/expobrain/python-webm/releases
 - { name: "python:whisper",            verpat: "20[0-9]{2}.*",                             incorrect: true } # may be misnamed python:openai-whisper
