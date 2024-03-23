@@ -320,9 +320,8 @@
 - { name: cops, wwwpart: fish2, setname: cops-secirity-tools } # Computer Oracle and Password System
 - { name: cops, addflag: unclassified }
 
-- { name: cozy, setname: cozy-cloud, wwwpart: cozy.io }
-- { name: cozy, setname: cozy-audiobooks, wwwpart: geigi }
-- { name: cozy, setname: cozy-audiobooks, summpart: "audio book" }
+- { name: cozy, wwwpart: cozy.io, setname: cozy-cloud }
+- { name: cozy, wwwpart: [geigi,cozy.sh], setname: cozy-audiobooks }
 - { name: cozy, addflag: unclassified }
 
 - { name: command-not-found, wwwpart: metti, setname: command-not-found-arch }
