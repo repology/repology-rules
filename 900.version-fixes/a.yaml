@@ -43,6 +43,7 @@
 - { name: acpitool,                    ver: "0.5.2",                 ruleset: [t2,openmandriva], incorrect: true }
 - { name: acpitool,                                                  ruleset: [t2,openmandriva], untrusted: true } # accused of fake 0.5.2
 - { name: actiona,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: activitywatch,               verpat: ".*b.*",                                    devel: true }
 - { name: ada-language-server,         verpat: ".*w",                                      devel: true }
 - { name: ada-language-server,         verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: ada-libfswatch,                                                                  noscheme: true }
