@@ -130,8 +130,12 @@
 - { setname: rss2email,                name: "python:rss2email" }
 - { setname: rss2email,                name: r2e }
 - { setname: rssguard,                 name: rss-guard }
-- { setname: rstudio,                  name: [rstudio-desktop, rstudio-server], addflavor: true }
-- { setname: rstudio,                  name: [rstudio-desktop-preview], addflavor: desktop, weak_devel: true, nolegacy: true }
+- { setname: rstudio,                  name: rstudio11 }
+- { setname: rstudio,                  name: [rstudio-daily, rstudio-preview], weak_devel: true, nolegacy: true }
+- { setname: rstudio,                  name: [rstudio-desktop, rstudio-desktop-legacy], addflavor: desktop }
+- { setname: rstudio,                  name: [rstudio-desktop-preview, rstudio-desktop-daily], addflavor: desktop, weak_devel: true, nolegacy: true }
+- { setname: rstudio,                  name: [rstudio-server], addflavor: server }
+- { setname: rstudio,                  name: [rstudio-server-preview], addflavor: server, weak_devel: true, nolegacy: true }
 - { setname: rsync,                    name: rsync2 }
 - { setname: rsync,                    name: [rsync-reflink, rrsync, rsync-ovz], addflavor: true }
 - { setname: rtaudio,                  name: rt-audio }
