@@ -76,6 +76,7 @@
 - { setname: kodi,                     name: xbmc } # old name; XXX: problem
 - { setname: koffice-l10n,             namepat: "koffice-l10n-.*", ruleset: pkgsrc }
 - { setname: koka,                     name: haskell:koka } # XXX: problem
+- { setname: kokkos,                   name: [$0-legacy, lib$0] }
 - { setname: kommit,                   name: gitklient } # former name: https://github.com/HamedMasafi/GitKlient
 - { setname: kompozer-i18n,            namepat: "kompozer-i18n-.*", ruleset: arch }
 - { setname: kondo,                    name: "rust:kondo" }
