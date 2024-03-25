@@ -226,6 +226,7 @@
 - { setname: libpng,                   name: [libpng-apng,libpng+apng], addflavor: apng }
 - { setname: libpng,                   name: [png,png14,libpng-compat] }
 - { setname: libpng,                   namepat: "libpng(?:-legacy)?[0-9.-]*" }
+- { setname: libppd,                   name: $0-legacy }
 - { setname: libpqxx,                  name: postgresql-libpqxx }
 - { setname: libpsl,                   name: libpsl-docs, addflavor: true }
 - { setname: libpst,                   name: pst-utils, addflavor: true }
