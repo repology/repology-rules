@@ -41,6 +41,8 @@
 - { setname: unifi,                    name: [unifi-beta, unifi-devel], weak_devel: true, nolegacy: true }
 - { setname: unigine-heaven,           name: linux-unigine-heaven, ruleset: freebsd }
 - { setname: unigine-valley,           name: linux-unigine-valley, ruleset: freebsd }
+- { setname: unison,                   name: unison-upstream, addflavor: true }
+- { setname: unison,                   name: unison-doc, addflavor: true }
 - { setname: unison,                   name: unison-devel, weak_devel: true, nolegacy: true }
 - { setname: unison,                   namepat: "unison([0-9.+-]*)(?:-compat)?" }
 - { setname: unison,                   namepat: "unison-gtk([0-9.+-]*)(?:-compat)?", addflavor: gtk }
