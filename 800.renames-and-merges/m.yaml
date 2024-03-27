@@ -319,8 +319,9 @@
 - { setname: mt32emu,                  name: [libmt32emu, munt-mt32emu] }
 - { setname: mtdev,                    name: libmtdev }
 - { setname: mtxclient,                name: libmtxclient }
-- { setname: mullvad-vpn,              name: [mullvad-app, mullvad] }
+- { setname: mullvad-vpn,              name: [mullvad-app, mullvad, mullvadvpn-app, mullvadvpn] }
 - { setname: mullvad-vpn,              name: mullvad-vpn-beta, weak_devel: true, nolegacy: true }
+- { setname: mullvad-vpn,              name: mullvad-vpn-cli, addflavor: true }
 - { setname: multimc,                  name: multimc5 }
 - { setname: multimc,                  name: multimc-bin, addflavor: true }
 - { setname: multimc,                  name: multimc-development, weak_devel: true, nolegacy: true }
