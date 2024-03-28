@@ -455,6 +455,7 @@
 - { setname: gtest,                    name: [googletest,libgtest] }
 - { setname: gtest,                    name: [gmock,google-mock,googlemock,libgmock], addflavor: gmock } # merged into
 - { setname: gtg,                      name: getting-things-gnome }
+- { setname: gtimelog,                 name: python:$0 }
 - { setname: gtk,                      namepat: "(?:lib)?gtk[0-9.+-]*(-reference)?", addflavor: $1 }
 - { setname: gtk,                      name: gtk-update-icon-cache, addflavor: true }
 - { setname: gtk-doc,                  name: gtk-doc-am, addflavor: am }
