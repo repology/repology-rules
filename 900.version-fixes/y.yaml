@@ -31,7 +31,7 @@
 - { name: youtube-dl,                                                ruleset: freebsd,     untrusted: true } # accused of fake 2023.03.14
 - { name: youtube-dl,                  ver: "2023.12.22",                                  incorrect: true }
 - { name: youtube-dl,                                                ruleset: mageia,      untrusted: true } # accused of fake 2023.12.22
-- { name: youtube-dl-gui-wxpython,     verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: youtube-dl-gui-wxpython,     verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: ypsilon,                     verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true } # X.Y.Z.updateU, not X.Y.Z.U
 - { name: yt-dlg,                      verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: yt-dlp,                      verpat: "[0-9]+(\\.[0-9]+){3}",                     devel: true } # nightly builds
