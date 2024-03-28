@@ -33,6 +33,7 @@
 - { setname: olm,                      name: ["python:olm", olm-python3], addflavor: python }
 - { setname: ombi,                     name: [ombi-beta,ombi-dev] }
 - { setname: omlibraries,              name: [omlibrary, openmodelica-omlibraries] }
+- { setname: omnilinter,               name: rust:$0 }
 - { setname: omplot,                   name: openmodelica-omplot }
 - { setname: omshell,                  name: openmodelica-omshell }
 - { setname: onehouronelife,           namepat: onehouronelife-latest, rolling: true }
