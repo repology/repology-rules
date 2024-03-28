@@ -31,6 +31,8 @@
 - { setname: ypsilon,                  name: [ypsilon-scheme,ypsilon-scheme2] }
 - { setname: yq-kislyuk,               name: ["python:yq",python-yq] }
 - { setname: yq-mikefarah,             name: [yq-go,"go:yq",yq2] }
+- { setname: yt-dlp,                   name: python:$0 }
+- { setname: yt-dlp,                   name: yt-dlp-nightly, weak_devel: true, nolegacy: true }
 - { setname: ytnef,                    name: libytnef } # see https://github.com/Yeraze/ytnef/blob/master/ChangeLog
 - { setname: ytop,                     name: "rust:ytop" }
 - { setname: ytt,                      name: carvel-$0 }
