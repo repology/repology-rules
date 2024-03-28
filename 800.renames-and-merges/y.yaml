@@ -27,7 +27,7 @@
 - { setname: yofrankie,                name: yofrankie-bge }
 - { setname: youtube-dl,               name: youtube-dl-dmo, addflavor: true }
 - { setname: youtube-dl,               name: "python:youtube-dl" }
-- { setname: youtube-dl-gui,           name: youtube-dlg }
+- { setname: youtube-dl-gui,           name: [youtube-dlg,yt-dlg,open-video-downloader,python:yt-dlg,python:youtube-dlg] }
 - { setname: ypsilon,                  name: [ypsilon-scheme,ypsilon-scheme2] }
 - { setname: yq-kislyuk,               name: ["python:yq",python-yq] }
 - { setname: yq-mikefarah,             name: [yq-go,"go:yq",yq2] }

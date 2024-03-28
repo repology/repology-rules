@@ -22,6 +22,12 @@
 - { name: yj, wwwpart: sclevine, setname: yj-sclevine }
 - { name: yj, addflag: unclassified }
 
+# MrS0m30n3 abandoned in 2018, oleksis is an active fork
+- { name: youtube-dl-gui, wwwpart: [MrS0m30n3,oleksis], setname: youtube-dl-gui-wxpython }
+# jely2002 abandoned in 2022, StefanLobbenmeier is an active fork
+- { name: youtube-dl-gui, wwwpart: [jely2002,StefanLobbenmeier], setname: youtube-dl-gui-electron }
+- { name: youtube-dl-gui, addflag: unclassified }
+
 - { name: yq, wwwpart: mikefarah, setname: yq-mikefarah } # or yq-go?
 - { name: yq, wwwpart: [kislyuk,readthedocs], setname: yq-kislyuk } # or yq-python?
 - { name: yq, addflag: unclassified }
