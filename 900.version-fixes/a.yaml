@@ -286,6 +286,8 @@
 - { name: aspell-pl,                   verpat: "20[0-9]{6}",                               incorrect: true } # 6.0_20200916-0
 - { name: aspell-qu,                   ver: "20040424.1",                                  ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/qu/
 - { name: aspell-ru,                   ver: ["0.99.15.7.1","0.99.1"],                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/ru/
+- { name: aspell-ru,                   verpat: ".*p.*",                                    incorrect: true }
+- { name: aspell-ru,                                                 ruleset: alpine,      untrusted: true } # accused of fake 0.99_p7
 - { name: aspell-sk,                   verge: "2.04",                                      successor: true } # debian fork
 - { name: aspell-sl,                   ver: "0.60",                                        ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/sl/
 - { name: aspell-sr,                   ver: ["0.60.0", "0.60"],                            ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/sr/
