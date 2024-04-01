@@ -5,17 +5,22 @@
 - setname: curl
   name:
     - curl-ca-bundle
+    - curl-c-ares
     - curl-gnutls
     - curl-http2
     - curl-http3
+    - curl-http3-msquic
+    - curl-http3-ngtcp2
     - curl-mini
+    - curl-minimal
     - curl-openssl
+    - curl-quic
+    - curl-rustls
     - curl-ssh
+    - libcurl3-gnutls
+    - libcurl-compat-minimal
     - libcurl-compat-nostatic
     - libcurl-gnutls
-    - libcurl-openssl-1.0
-    - libcurl3-gnutls
-    - curl-minimal
-    - libcurl-compat-minimal
     - libcurl-gnutls-minimal
+    - libcurl-openssl-1.0
   addflavor: true
