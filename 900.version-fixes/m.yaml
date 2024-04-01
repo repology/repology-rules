@@ -196,6 +196,8 @@
 - { name: moon-buggy,                  verpat: "20[0-9]{6}",                               ignore: true }
 - { name: mopac7,                      verpat: "7\\.[0-9]+\\.[0-9]+",                      incorrect: true } # mopac7 1.15, not mopac 7.1.15
 - { name: morituri,                    verpat: ".*20[0-9]{6}",                             ignore: true } # nix snapshot
+- { name: mosesdecoder,                verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: mosesdecoder,                verpat: "4.0git",                                   incorrect: true }
 - { name: mothur,                      ver: "1.41.21",                                     sink: true, disposable: true } # strange verioning scheme
 - { name: motif,                       verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: mousetweaks,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
