@@ -165,6 +165,11 @@
 - { name: fred, wwwpart: freenetproject, setname: fred-freenet-reference-daemon }
 - { name: fred, addflag: unclassified }
 
+- { name: freeze, wwwpart: charm, setname: freeze-terminal-images }
+- { name: freeze, wwwpart: optiv, setname: freeze-payload-toolkit, outdated: true }
+- { name: freeze, wwwpart: Tylous, setname: freeze-payload-toolkit }
+- { name: freeze, addflag: unclassified }
+
 - { name: fst, wwwpart: BurntSushi, setname: fst-finite-state-transducers }
 - { name: fst, wwwpart: zmoelnig, setname: fst-free-studio-technology }
 - { name: fst, addflag: unclassified }
