@@ -196,7 +196,8 @@
 - { setname: micro,                    name: micro-editor }
 - { setname: micro,                    name: micro-nightly, weak_devel: true, nolegacy: true }
 - { setname: microcode-ctl,            name: microcode.ctl }
-- { setname: micropython,              name: micropython-lib, addflavor: true }
+- { setname: micropython,              name: [micropython-lib, mpy-cross, ], addflavor: true }
+- { setname: micropython,              name: [micropython-mpremote, mpremote, python:mpremote], addflavor: mpremote }
 - { setname: microsoft-edge,           name: [microsoft-edge-stable] }
 - { setname: microsoft-edge,           name: [edge.beta,edge.dev,microsoft-edge-beta,microsoft-edge-dev,microsoft-edge-insider,microsoft-edge-insider-dev], weak_devel: true, nolegacy: true }
 - { setname: midi-matrix.lv2,          name: midi-matrix-lv2 }
