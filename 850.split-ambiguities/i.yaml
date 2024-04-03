@@ -74,6 +74,11 @@
 - { name: ipcalc, wwwpart: [gitlab.com/ipcalc/ipcalc,nmav], setname: ipcalc-nmav }
 - { name: ipcalc, addflag: unclassified }
 
+- { name: iperf, sourceforge: iperf, setname: iperf2 } # ancestor of iperf2, abandoned
+- { name: iperf, sourceforge: iperf2, setname: iperf2 }
+- { name: iperf, wwwpart: [iperf.fr, es.net, esnet], setname: iperf3 }
+- { name: iperf, addflag: unclassified }
+
 - { name: iris, wwwpart: projectiris.co.uk, setname: iris-eye-images }
 - { name: iris, wwwpart: iristech, setname: iris-eye-protection }
 - { name: iris, wwwpart: psi-im, setname: iris-psi }
