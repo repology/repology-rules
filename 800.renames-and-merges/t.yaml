@@ -251,7 +251,7 @@
 - { setname: twine,                    name: ["python:twine", twine-pypi] }
 - { setname: twinejs,                  name: twinejs-standalone, addflavor: true }
 - { setname: twinkle,                  name: twinkle-qt5, addflavor: true }
-- { setname: twolame,                  name: two-lame }
+- { setname: twolame,                  name: [lib$0, two-lame] }
 - { setname: twtxt,                    name: "python:twtxt" }
 - { setname: typescript-language-server, name: node:$0 }
 - { setname: typo3,                    namepat: "typo3-[0-9]+" }
