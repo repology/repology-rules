@@ -343,6 +343,7 @@
 - { setname: gnutls,                   name: [gnutls-dane,gnutls-openssl,gnutls-tiny], addflavor: true }
 - { setname: gnutls,                   name: [gnutls-next,gnutls-devel], weak_devel: true, nolegacy: true }
 - { setname: gnutls,                   namepat: "(?:lib)?gnutls[0-9.-]*" }
+- { setname: go,                       name: go-bootstrap, legacy: true }
 - { setname: go-shadowsocks2,          name: [shadowsocks2, "go:shadowsocks2"] }
 - { setname: goat-sleep,               name: "rust:goat" }
 - { setname: goatee-gtk,               name: "haskell:goatee-gtk" }
