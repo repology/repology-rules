@@ -394,6 +394,8 @@
 - { name: sunxi-tools,                 ver: "1.5",                   ruleset: sisyphus,    incorrect: true }
 - { name: sunxi-tools,                                               ruleset: sisyphus,    untrusted: true } # accused of fake 1.5
 - { name: suomi-malaga,                verge: "2",                                         incorrect: true } # https://voikko.puimula.org/sources.html, https://www.puimula.org/voikko-sources/suomi-malaga/: 2.0 has different name
+- { name: superiotool,                 verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: superiotool,                 ver: "20121019",                                    sink: true, disposable: true }
 - { name: superlu-mt,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: supermin,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed even/odd scheme; https://download.libguestfs.org/supermin/
 - { name: supertransball2,             verpat: "2\\.[0-9]+\\.[0-9]+",                      incorrect: true } # 2 is port of the project name, not version
