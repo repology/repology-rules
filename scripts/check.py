@@ -106,6 +106,7 @@ families = [
     'rubygems',
     'ruckzuck',
     'rudix',
+    'sagemath',
     'salix',
     'scoop',
     'sisyphus',

@@ -168,6 +168,8 @@
 - { name: pitivi,                      verpat: "[0-9.]+",                                  devel: false } # all versions beta nonsense
 - { name: piu-piu-sh,                                                                      noscheme: true }
 - { name: pkg-config,                  verge: "1.6.0",                                     incorrect: true } # pkgconf actually (ravenports, cygwin); XXX: problem
+- { name: pkg-config,                  ver: "1.5.5",                 ruleset: sagemath,    incorrect: true } # pkgconfig python module
+- { name: pkg-config,                                                ruleset: sagemath,    untrusted: true } # accused of fake 1.5.5
 - { name: pkg-freebsd,                 verpat: "[0-9]+\\.[0-9]+\\.99\\..*",                devel: true, ignore: false }
 - { name: pkgdiff,                     ver: "1.8",                   ruleset: freshcode,   ignore: true } # https://github.com/lvc/pkgdiff/issues/35
 - { name: pktstat,                     verpat: "20[0-9]{6}",                               snapshot: true }
