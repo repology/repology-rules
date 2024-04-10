@@ -1,0 +1,28 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- { setname: "php:atoum",              name: [atoum, atoum.php] }
+- { setname: "php:awl",                name: [awl, "php:libawl"] }
+- { setname: "php:composer",           name: "php:composer2" }
+- { setname: "php:datadog-trace",      name: "php:ddtrace" }
+- { setname: "php:doctrine",           name: doctrine }
+- { setname: "php:geshi",              name: geshi }
+- { setname: "php:imagick",            name: "php:imagick-im7" }
+- { setname: "php:kohana",             name: kohana }
+- { setname: "php:kohana",             namepat: "libkohana[0-9.]+-php" }
+- { setname: "php:phalcon",            namepat: "php[0-9]+:phalcon" }
+- { setname: "php:php-cs-fixer",       name: ["php:cs-fixer", php-cs-fixer] }
+- { setname: "php:phpcs",              name: phpcs }
+- { setname: "php:phpmailer",          name: ["php:phpmailer6",phpmailer,phpmailer6] }
+- { setname: "php:phpseclib",          name: [phpseclib, "php:phpseclib3", pear-phpseclib] }
+- { setname: "php:phpstan",            name: ["php:stan", phpstan] }
+- { setname: "php:phpunit",            name: phpunit }
+- { setname: "php:phpunit",            name: "php:phpunit2" }
+- { setname: "php:phpunit",            namepat: "phpunit[0-9]" }
+- { setname: "php:psalm",              name: psalm }
+- { setname: "php:psysh",              name: psysh }
+- { setname: "php:redis",              name: ["php:redis-3", "php:redis4", "php:redis5", phpredis, php-redis] }
+- { setname: "php:smarty",             namepat: "(php[0-9]*:)?smarty[23]?" }
+- { setname: "php:symfony",            namepat: "php[0-9]*:symfony[0-9]*" }
+- { setname: "php:symfony",            name: symfony }
+- { setname: "php:tcpdf",              name: tcpdf }
+- { setname: "php:twig",               name: ["php:twig2", "php:twig3"] }
