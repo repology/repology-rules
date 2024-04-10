@@ -157,7 +157,7 @@
 - { setname: rust-script,              name: rust:$0 }
 - { setname: rustic,                   name: [rustic-rs, rust:rustic-rs] }
 - { setname: rustls-ffi,               name: [librustls, rust:$0] }
-- { setname: rustup,                   name: [rustup-gnu, rustup-msvc, rustup-init], addflavor: true }
+- { setname: rustup,                   name: [rustup-gnu, rustup-msvc, rustup-init, rustup-bin], addflavor: true }
 - { setname: rusty-diceware,           name: "rust:diceware" }
 - { setname: rwho,                     name: netkit-rwho }
 - { setname: rwho,                     name: netkit-rwho-debian, addflavor: debian }
