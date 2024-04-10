@@ -120,7 +120,8 @@
 - { setname: docbook-xsl,              name: [docbook-xsl-ns,docbook-xsl-ns-stylesheets,docbook-style-xsl-ns], addflavor: ns }
 - { setname: docker,                   name: [docker-io,docker.io] }
 - { setname: docker,                   name: docker-git-x86, ignore: true } # ignore version just for the cause, because of suspicious name
-- { setname: docker-compose,           name: ["python:docker-compose", docker-compose-v2] }
+- { setname: docker-compose,           name: [python:$0, $0-v1, $0-v2] }
+- { setname: docker-compose,           name: $0-bin, addflavor: true }
 - { setname: dog-dns,                  name: dogdns }
 - { setname: doge,                     name: python:$0 }
 - { setname: dogecoin,                 name: [dogecoind,dogecoin-qt,dogecoin-daemon] }
