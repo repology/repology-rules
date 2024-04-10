@@ -227,8 +227,8 @@
 - { setname: poppler,                  name: poppler-current, weak_devel: true, nolegacy: true }
 - { setname: poppler,                  name: poppler-devel-qt5, weak_devel: true, nolegacy: true, addflavor: qt5 }
 - { setname: popt,                     name: libpopt }
-- { setname: portaudio,                name: [portaudio19,portaudio2,portaudio0] }
-- { setname: portaudio,                name: [portaudio-devel,portaudio-svn], weak_devel: true, nolegacy: true }
+- { setname: portaudio,                name: [portaudio0,portaudio19,portaudio2,libportaudio,libportaudio2] }
+- { setname: portaudio,                name: [portaudio-devel,portaudio-svn, portaudio-git], weak_devel: true, nolegacy: true }
 - { setname: portfolio-file-manager,   name: portfolio-filemanager }
 - { setname: portfolio-performance,    name: portfolioperformance }
 - { setname: portmidi,                 name: libportmidi }
