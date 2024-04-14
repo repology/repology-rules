@@ -183,7 +183,8 @@
 - { setname: freetype,                 name: [freetype2-bootstrap,freetype2-minimal,freetype2-old-hinting,freetype2-ttmetrics,freetype2-ultimate5,freetype2-v35,freetype2-static,freetype2-static-bootstrap], addflavor: true }
 - { setname: freetype-infinality,      name: [freetype2-infinality,libfreetype-infinality] }
 - { setname: freexl,                   name: libfreexl, addflavor: true }
-- { setname: frei0r-plugins,           name: [frei0r-plugins-gavl,frei0r-plugins-opencv,frei0r-plugins-qt5], addflavor: true }
+- { setname: frei0r,                   name: frei0r-plugins }
+- { setname: frei0r,                   name: [frei0r-plugins-gavl,frei0r-plugins-opencv,frei0r-plugins-qt5], addflavor: true }
 - { setname: frescobaldi,              name: frescobaldi2 }
 - { setname: frescobaldi,              name: "python:frescobaldi" } # XXX: FreeBSD crap, problem
 - { setname: fretsonfire,              name: frets-on-fire }
