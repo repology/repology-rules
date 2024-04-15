@@ -177,10 +177,11 @@
 - { setname: libmatroska,              name: matroska }
 - { setname: libmcs,                   name: libmcs1 }
 - { setname: libmediaart,              namepat: "(?:compat-)?libmediaart[0-9.-]+" }
+- { setname: libmediainfo,             name: [mediainfolib,libmediainfo0] }
 - { setname: libmemcached,             name: libmemcached-old }
 - { setname: libmikmod,                name: libmikmod2 }
 - { setname: libmm,                    namepat: "libmm[0-9.-]+" }
-- { setname: libmng,                   name: libmng1 }
+- { setname: libmng,                   name: [mng,libmng1] }
 - { setname: libmodbus,                name: libmodbus-dev, weak_devel: true, nolegacy: true }
 - { setname: libmodulemd,              name: [libmodulemd1, libmodulemd2, modulemd1] }
 - { setname: libmowgli,                name: [libmowgli-2,libmowgli2,mowgli,libmowgli1] }
@@ -252,6 +253,7 @@
 - { setname: librdkafka,               name: rdkafka }
 - { setname: librealsense,             namepat: "librealsense[0-9.-]+" }
 - { setname: librealsense,             name: [librealsense-legacy, realsense-sdk2, realsense2] }
+- { setname: libreddit,                name: "rust:libreddit" }
 - { setname: librem,                   name: rem }
 - { setname: librest,                  namepat: "librest[0-9.-]+" }
 - { setname: librevenge,               namepat: "librevenge[0-9.-]+" }
@@ -280,6 +282,7 @@
 - { setname: libsrtp,                  namepat: "libsrtp[0-9.-]+" }
 - { setname: libssh,                   name: libssh-gnutls, addflavor: true }
 - { setname: libstaroffice,            namepat: "libstaroffice[0-9.-]+" }
+- { setname: libsvm,                   name: svm }
 - { setname: libsysstat,               name: libsysstat-qt5 }
 - { setname: libtasn1,                 namepat: "libtasn1[0-9.-]+" }
 - { setname: libtermcap,               name: [compat-libtermcap,libtermcap-compat] }
