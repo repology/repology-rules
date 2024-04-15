@@ -204,10 +204,28 @@
 - { name: gnome-video-effects,         verpat: ".+20[0-9]{6}",                             snapshot: true } # openbsd
 - { name: gnome:appindicator,          ver: "436.53.0",                                    incorrect: true }
 - { name: gnome:appindicator,                                        ruleset: pardus,      untrusted: true } # accused of fake 436.53.0
+- { name: gnome:arcmenu,               ver: "436.47.1",                                    incorrect: true }
+- { name: gnome:arcmenu,                                             ruleset: pardus,      untrusted: true } # accused of fake 436.47.1
 - { name: "gnome:autohidetopbar",      verpat: "20[0-9]{6}",                               sink: true } # changed to e.g. 108
+- { name: gnome:caffeine,              ver: "436.48.1",                                    incorrect: true }
+- { name: gnome:caffeine,                                            ruleset: pardus,      untrusted: true } # accused of fake 436.48.1
+- { name: gnome:clipboard-indicator,   ver: "436.44.1",                                    incorrect: true }
+- { name: gnome:clipboard-indicator,                                 ruleset: pardus,      untrusted: true } # accused of fake 436.44.1
+- { name: gnome:dash-to-panel,         ver: "436.56.0",                                    incorrect: true }
+- { name: gnome:dash-to-panel,                                       ruleset: pardus,      untrusted: true } # accused of fake 436.56.0
+- { name: gnome:dashtodock,            ver: "436.84.1",                                    incorrect: true }
+- { name: gnome:dashtodock,                                          ruleset: pardus,      untrusted: true } # accused of fake 436.84.1
+- { name: gnome:desktop-icons-ng,      ver: "436.47.0",                                    incorrect: true }
+- { name: gnome:desktop-icons-ng,                                    ruleset: pardus,      untrusted: true } # accused of fake 436.47.0
+- { name: gnome:gtk3-theme-switcher,   ver: "436.2",                                       incorrect: true }
+- { name: gnome:gtk3-theme-switcher,                                 ruleset: pardus,      untrusted: true } # accused of fake 436.2
 - { name: "gnome:openweather",         verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: "gnome:pixel-saver",         verpat: "[0-9]+",                                   incorrect: true } # 1.24, not 24
 - { name: "gnome:pixel-saver",                                       ruleset: nix,         untrusted: true } # accused of fake 24
+- { name: gnome:rounded-window-corners, ver: "436.11",                                     incorrect: true }
+- { name: gnome:rounded-window-corners,                              ruleset: pardus,      untrusted: true } # accused of fake 436.11
+- { name: gnome:start-overlay-in-application-view, ver: "436.1.0",                         incorrect: true }
+- { name: gnome:start-overlay-in-application-view,                   ruleset: pardus,      untrusted: true } # accused of fake 436.1.0
 - { name: gns3,                        verge: "2"                                          } # XXX: create problem - no such project, it's either gns2-server or gui and should be named properly
 - { name: gns3-gui,                    ver: "2.2.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: gns3-gui,                                                  ruleset: sisyphus,    untrusted: true }
