@@ -499,10 +499,10 @@
 - { setname: gtkwrite,                 name: gtkedit }
 - { setname: gts,                      name: gnugts }
 - { setname: gtypist,                  name: gnu-typist }
+- { setname: guacamole,                name: [$0-client], addflavor: client }
+- { setname: guacamole,                name: [$0-server, guacd], addflavor: server }
 - { setname: guava,                    namepat: "guava(?:-libraries)?[0-9.-]*" }
 - { setname: guava,                    name: [google-guava, java-guava] }
-- { setname: gucamole,                 name: [$0-client], addflavor: client }
-- { setname: gucamole,                 name: [$0-server, guacd], addflavor: server }
 - { setname: gucharmap,                name: gucharmap-gtk2, addflavor: gtk2 }
 - { setname: gucharmap,                namepat: "gucharmap[0-9.-]+" }
 - { setname: gucharmap,                name: "libgucharmap" }
