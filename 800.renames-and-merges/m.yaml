@@ -335,7 +335,8 @@
 - { setname: munt,                     name: [munt-alsadrv, munt-mt32emu-alsadrv], addflavor: alsadrv }
 - { setname: muparser,                 namepat: "libmuparser[0-9.-]*" }
 - { setname: mupdf,                    name: [libmupdf,mupdf-nojs,mupdf-seccomp,mupdf-tools], addflavor: true }
-- { setname: musepack,                 name: [musepack-tools,libmusepack,libmpcdec], addflavor: true }
+- { setname: musepack,                 name: [musepack-tools,libmusepack], addflavor: true }
+- { setname: musepack,                 name: [libmpcdec,libmpcdec5], addflavor: libmpcdec }
 - { setname: musescore,                name: mscore } # XXX: problem?
 - { setname: musescore,                name: [musescore-dev,musescore-snapshot,musescore3-nightly,musescore-nightly], weak_devel: true, nolegacy: true }
 - { setname: musescore,                name: [musescore-legacy,musescore.3,musescore3,musescore2] }
