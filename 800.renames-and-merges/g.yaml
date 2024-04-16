@@ -372,9 +372,9 @@
 - { setname: goocanvas,                namepat: "(?:lib)?goocanvas[0-9.-]*" }
 - { setname: goocanvasmm,              namepat: "(?:lib)?goocanvasmm[0-9.-]*" }
 - { setname: google-authenticator-libpam, name: [libpam-google-authenticator,pam-pam-google-authenticator,pam-google-authenticator] }
-- { setname: google-chrome,            name: [chrome,google-chrome-stable,googlechrome] }
-- { setname: google-chrome,            name: [google-chrome-bin, google-chrome-x64], addflavor: true }
-- { setname: google-chrome,            name: [google-chrome-beta,google-chrome-dev,google-chrome-unstable,googlechrome-betagooglechrome-canary,googlechrome-dev], weak_devel: true, nolegacy: true }
+- { setname: google-chrome,            name: [chrome,google-chrome-stable,googlechrome,chrome-48,google-chrome-browser] }
+- { setname: google-chrome,            name: [google-chrome-bin, google-chrome-x64,googlechrome-allusers], addflavor: true }
+- { setname: google-chrome,            name: [google-chrome-beta,google-chrome-dev,google-chrome-unstable,googlechrome-beta,googlechrome-canary,googlechrome-dev,chrome.dev], weak_devel: true, nolegacy: true }
 - { setname: google-earth,             name: [google-earth-stable, googleearth,google-earth-legacy] }
 - { setname: google-earth-pro,         name: [google-earth-pro-stable,earthpro,googleearth-pro] }
 - { setname: google-guice,             name: [guice,java-guice,java-guice-servlet] }
