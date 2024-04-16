@@ -280,10 +280,10 @@
 - { name: muse-sequencer,              verpat: ".*\\.9[0-9]+",                             incorrect: true } # kaos fake
 - { name: musepack,                                                                        incorrect: true }
 - { name: musepack,                    verpat: "r[0-9]{3,}",                               incorrect: false }
-- { name: musepack,                    verpat: "1\\.1.*",            ruleset: debian,      incorrect: false }
-- { name: musepack,                                                  ruleset: debian,      untrusted: false } # accused of fake 1.1.x
-- { name: musepack,                    verpat: "0\\.1.*",            ruleset: [aur,msys2_mingw,arch], incorrect: false }
-- { name: musepack,                                                  ruleset: [aur,msys2_mingw,arch], untrusted: false } # accused of fake 0.1.x
+- { name: musepack,                    verpat: "1\\.1.*",            ruleset: debian,      incorrect: true }
+- { name: musepack,                                                  ruleset: debian,      untrusted: true } # accused of fake 1.1.x
+- { name: musepack,                    verpat: "0\\.1.*",            ruleset: [aur,msys2_mingw,arch,artix], incorrect: true }
+- { name: musepack,                                                  ruleset: [aur,msys2_mingw,arch,artix], untrusted: true } # accused of fake 0.1.x
 - { name: musepack,                    ver: ["1.2.2", "1.2.4", "1.2.6"],                   sink: true } # old libmpcdec superceded by main musepack distribution with rXXX versions, see https://www.musepack.net/index.php?pg=src
 - { name: musescore,                   verpat: ".*[0-9]{4}",                               incorrect: true } # scoop garbage, debian snapshot
 - { name: musl-locales,                                                                    noscheme: true }
