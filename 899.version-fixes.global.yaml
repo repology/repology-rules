@@ -39,7 +39,7 @@
 - { namepat: "lua:.*", verpat: ".*-[0-9]+",                          ruleset: [nix,macports,buildroot], untrusted: true } # accused of using fake suffix from luarocks
 - { categorypat: "emacs[0-9]*Packages",                              ruleset: nix,         untrusted: true } # accused of using fake versions from MELPA
 
-- { namepat: "gnome:*",                                              ruleset: pardus,      untrusted: true } # uses fake versions (example: gnome:arc-menu 436.47.1, gnome:caffeine 436.48.1)
+- { namepat: "gnome:.*",                                             ruleset: pardus,      untrusted: true } # uses fake versions (example: gnome:arc-menu 436.47.1, gnome:caffeine 436.48.1)
 
 # other global rules
 - { verpat: ".*20[0-9]{6}T[0-9]{6}\\.[0-9a-f]{7}",                   ruleset: opensuse,    ignore: true }
