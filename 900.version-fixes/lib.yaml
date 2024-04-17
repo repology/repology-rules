@@ -41,6 +41,8 @@
 - { name: libaudclient,                ver: "3.5",                   ruleset: pld,         incorrect: true }
 - { name: libaudclient,                                              ruleset: pld,         untrusted: true }
 - { name: libb2,                       verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: libb64,                      ver: "2.0.0.15",              ruleset: freebsd,     incorrect: true }
+- { name: libb64,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 2.0.0.15
 - { name: libbacktrace,                                                                    noscheme: true }
 - { name: libbitcoin-system,           verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: libblockdev,                 ver: "3.1.1_1",               ruleset: slackware,   incorrect: true }
