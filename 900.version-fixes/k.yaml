@@ -323,6 +323,8 @@
 - { name: kwave,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kwayland-integration,        verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kwayland-server,             verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: kweathercore,                ver: "21.05",                 ruleset: fedora,      incorrect: true }
+- { name: kweathercore,                                              ruleset: fedora,      untrusted: true } # accused of fake 21.05
 - { name: kwin,                        verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kwin,                        ver: "5.24.0a",               ruleset: ubuntu,      incorrect: true }
 - { name: kwin,                                                      ruleset: ubuntu,      untrusted: true } # accused of fake 5.24.0a
