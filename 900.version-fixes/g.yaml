@@ -67,6 +67,8 @@
 - { name: genext2fs,                   verpat: ".*-.*",                                    debianism: true }
 - { name: genfit,                                                                          noscheme: true }
 - { name: geocode-glib,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: geoip,                       ver: "1.7.0",                 ruleset: cygwin,      incorrect: true }
+- { name: geoip,                                                     ruleset: cygwin,      untrusted: true } # accused of fake 1.7.0
 - { name: geos,                        ver: "3.9.0",                 ruleset: [debuntu,gentoo,fedora], ignore: true } # refer to non-existing tarball, maybe it was recalled
 - { name: gerbv,                       ver: "2.8.0",                 ruleset: debuntu,     incorrect: true }
 - { name: gerbv,                                                     ruleset: debuntu,     untrusted: true } # accused of fake 2.8.0
