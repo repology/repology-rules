@@ -34,16 +34,16 @@
 # standalone kde apps and projects
 - namepat: |
     (?:kde-|kde4-|kde5-|plasma5-|plasma6-|kf5-?|ka5-|kp5-|libkf5|kf6-|kde-?(?:accessibility|edu|games|graphics|utils|multimedia|sdk|network)4?-)?(
-    akonadi-calendar-tools|
+    akonadi|
     akonadi-calendar|
+    akonadi-calendar-tools|
+    akonadiconsole|
     akonadi-contacts|
     akonadi-import-wizard|
     akonadi-mime|
     akonadi-notes|
     akonadi-search|
     akonadi-server|
-    akonadiconsole|
-    akonadi|
     akregator|
     amarok|
     analitza|
@@ -51,23 +51,29 @@
     artikulate|
     attica|
     audiocd-kio|
-    baloo-widgets|
     baloo|
+    baloo-widgets|
     basket|
     blinken|
     blogilo|
     bluedevil|
+    bluez-qt|
     bomber|
     bovo|
+    breeze-grub|
     breeze-gtk|
+    breeze-icons|
+    breeze-plymouth|
     calendarsupport|
     calindori|
     cantor|
     cervisia|
     colibri|
     digikam|
-    dolphin-plugins|
     dolphin|
+    dolphin-plugins|
+    dragonplayer|
+    drkonqi|
     eventviews|
     extra-cmake-modules|
     ffmpegthumbs|
@@ -83,13 +89,13 @@
     k3b|
     kaccounts-integration|
     kaccounts-providers|
-    kactivities-stats|
     kactivities|
+    kactivities-stats|
     kactivitymanagerd|
     kaddressbook|
     kaffeine|
-    kalarmcal|
     kalarm|
+    kalarmcal|
     kalgebra|
     kalzium|
     kamera|
@@ -109,8 +115,8 @@
     kbreakout|
     kbruch|
     kcachegrind|
-    kcalcore|
     kcalc|
+    kcalcore|
     kcalendarcore|
     kcalutils|
     kcharselect|
@@ -120,25 +126,27 @@
     kcolorpicker|
     kcolorscheme|
     kcompletion|
-    kconfigwidgets|
     kconfig|
+    kconfigwidgets|
     kcontacts|
     kcoreaddons|
     kcrash|
     kcron|
     kdav|
     kdbusaddons|
-    kde-cli-tools|
-    kde-dev-scripts|
-    kde-gtk-config|
     kdebugsettings|
     kdeclarative|
+    kde-cli-tools|
     kdeconnect|
     kdecoration|
+    kdecorations|
     kded|
+    kde-dev-scripts|
     kdeedu-data|
     kdegraphics-mobipocket|
+    kdegraphics-svgpart|
     kdegraphics-thumbnailers|
+    kde-gtk-config|
     kdelibs4support|
     kdenetwork-filesharing|
     kdenlive|
@@ -182,28 +190,30 @@
     kid3|
     kidentitymanagement|
     kidletime|
-    kigo|
     kig|
+    kigo|
     killbots|
     kimageannotator|
     kimageformats|
     kimap|
     kinfocenter|
     kinit|
+    kio|
+    kio-admin|
     kio-extras|
     kio-gdrive|
-    kio|
+    kio-zeroconf|
     kipi-plugins|
-    kirigami2|
     kirigami|
+    kirigami2|
     kiriki|
     kitemmodels|
     kitemviews|
     kiten|
     kitinerary|
     kjobwidgets|
-    kjsembed|
     kjs|
+    kjsembed|
     kjumpingcube|
     kldap|
     kleopatra|
@@ -212,9 +222,9 @@
     klines|
     kmag|
     kmahjongg|
+    kmail|
     kmail-account-wizard|
     kmailtransport|
-    kmail|
     kmbox|
     kmediaplayer|
     kmime|
@@ -239,8 +249,8 @@
     konqueror|
     konquest|
     konsole|
-    kontactinterface|
     kontact|
+    kontactinterface|
     konversation|
     kopete|
     korganizer|
@@ -264,16 +274,16 @@
     kreport|
     kreversi|
     krfb|
-    kross-interpreters|
     kross|
+    kross-interpreters|
     kruler|
     krunner|
     krusader|
     ksanecore|
     ksaneplugin|
     kscd|
-    kscreenlocker|
     kscreen|
+    kscreenlocker|
     kservice|
     kshisen|
     ksirk|
@@ -283,10 +293,14 @@
     ksquares|
     ksshaskpass|
     kstars|
+    kstatusnotifieritem|
     ksudoku|
+    ksvg|
     ksystemlog|
     kteatime|
+    ktextaddons|
     ktexteditor|
+    ktexttemplate|
     ktextwidgets|
     ktimer|
     ktnef|
@@ -297,15 +311,15 @@
     kubrick|
     kunitconversion|
     kuserfeedback|
-    kwalletmanager|
     kwallet|
+    kwalletmanager|
     kwave|
-    kwayland-integration|
     kwayland|
+    kwayland-integration|
     kweathercore|
     kwidgetsaddons|
-    kwindowsystem|
     kwin|
+    kwindowsystem|
     kwordquiz|
     kwrited|
     kxmlgui|
@@ -345,10 +359,11 @@
     palapeli|
     parley|
     picmi|
-    pim-sieve-editor|
     pimcommon|
-    plasma-activities-stats|
+    pim-sieve-editor|
+    plasma5support|
     plasma-activities|
+    plasma-activities-stats|
     plasma-browser-integration|
     plasma-desktop|
     plasma-firewall|
@@ -361,9 +376,8 @@
     plasma-vault|
     plasma-wayland-protocols|
     plasma-welcome|
-    plasma-workspace-wallpapers|
     plasma-workspace|
-    plasma5support|
+    plasma-workspace-wallpapers|
     polkit-kde-agent-1|
     powerdevil|
     poxml|
