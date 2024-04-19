@@ -206,6 +206,7 @@
     kipi-plugins|
     kirigami|
     kirigami2|
+    kirigami-addons|
     kiriki|
     kitemmodels|
     kitemviews|
@@ -227,6 +228,7 @@
     kmailtransport|
     kmbox|
     kmediaplayer|
+    kmenuedit|
     kmime|
     kmines|
     kmix|
@@ -262,6 +264,7 @@
     kpipewire|
     kpkpass|
     kplotting|
+    kpmcore|
     kppp|
     kproperty|
     kpty|
@@ -296,7 +299,9 @@
     kstatusnotifieritem|
     ksudoku|
     ksvg|
+    ksyndication|
     ksystemlog|
+    ksystemstats|
     kteatime|
     ktextaddons|
     ktexteditor|
@@ -313,6 +318,7 @@
     kuserfeedback|
     kwallet|
     kwalletmanager|
+    kwallet-pam|
     kwave|
     kwayland|
     kwayland-integration|
@@ -353,6 +359,7 @@
     messagelib|
     milou|
     minuet|
+    networkmanager-qt|
     okteta|
     okular|
     oxygen-icons|
@@ -360,6 +367,7 @@
     parley|
     picmi|
     pimcommon|
+    pim-data-exporter|
     pim-sieve-editor|
     plasma5support|
     plasma-activities|
@@ -368,6 +376,7 @@
     plasma-desktop|
     plasma-firewall|
     plasma-framework|
+    plasma-integration|
     plasma-mediacenter|
     plasma-nm|
     plasma-pa|
@@ -378,6 +387,7 @@
     plasma-welcome|
     plasma-workspace|
     plasma-workspace-wallpapers|
+    plymouth-kcm|
     polkit-kde-agent-1|
     powerdevil|
     poxml|
@@ -396,6 +406,7 @@
     sweeper|
     syndication|
     syntax-highlighting|
+    systemsettings|
     threadweaver|
     umbrello|
     xdg-desktop-portal-kde|
@@ -453,7 +464,7 @@
 - { setname: akonadi,                  name: akonadi4-data, addflavor: data }
 - { setname: baloo-widgets,            name: [baloo4-widgets, baloo5-widgets] }
 - { setname: oxygen-icons,             name: oxygen-icons5-svg, addflavor: svg }
-- { setname: modemmanager-qt,          name: [modemmanager-qt5,kf5-modemmanager-qt,libkf5modemmanagerqt] }
+- { setname: modemmanager-qt,          name: [modemmanager-qt5,kf5-modemmanager-qt,libkf5modemmanagerqt,kf6-modemmanager-qt] }
 - { setname: plasma-framework,         name: plasma-framework-git, weak_devel: true, nolegacy: true }
 - { setname: plasma-framework,         name: kf5-plasma }
 - { setname: kirigami,                 name: [kirigami1,kirigami2] }
@@ -469,3 +480,4 @@
 - { setname: kfilemetadata,            name: kf5-kfilemetadata-l10n, addflavor: l10n }
 - { setname: kdesdk-kio,               name: kdesdk-kioslaves } # renamed
 - { setname: kio-zeroconf,             name: zeroconf-ioslave } # renamed
+- { setname: systemsettings,           name: [system-settings, system-settings-kf6] }
