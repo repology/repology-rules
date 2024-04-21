@@ -267,6 +267,7 @@
 - { name: mumble,                                                    ruleset: kaos,        ignore: true } # snapshot with random version
 - { name: mumble,                      ver: "1.2.89",                                      incorrect: true }
 - { name: mumble,                      verpat: ".*20[0-9]{6}",                             ignore: true }
+- { name: mumble,                      verge: "1.5.0", verle: "1.5.629",                   devel: true, maintenance: true } # https://www.mumble.info/blog/mumble-1.5.629-rc-3/
 - { name: munin,                       verpat: "[0-9]+\\.99.*",                            devel: true } # devel version evolution: 2.1.x -> 2.99.x -> 2.999.x (maybe all minor-odd?)
 - { name: munin,                       verpat: "2\\.1\\..*",                               devel: true }
 - { name: munipack,                    relge: "1.2",                 ruleset: [mageia,epel], incorrect: true } # c-munipack
