@@ -88,6 +88,8 @@
 - { name: "emacs:poke",                ver: "3.2",                   ruleset: guix,        incorrect: true } # poke, not emacs poke
 - { name: "emacs:poke",                                              ruleset: guix,        untrusted: true } # accused of fake 3.2
 - { name: "emacs:puppet-mode",         verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: "emacs:scad-mode",           ver: "2021.01",               ruleset: guix,        incorrect: true }
+- { name: "emacs:scad-mode",                                         ruleset: guix,        untrusted: true } # accused of fake 2021.01
 - { name: "emacs:scheme-complete",     verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: "emacs:semi",                verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: "emacs:slime",               verpat: "20[0-9]{6}.*",                             snapshot: true }
