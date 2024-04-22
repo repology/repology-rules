@@ -233,7 +233,7 @@
 - { setname: libpng,                   namepat: "libpng(?:-legacy)?[0-9.-]*" }
 - { setname: libppd,                   name: $0-legacy }
 - { setname: libpqxx,                  name: postgresql-libpqxx }
-- { setname: libproxy,                 name: [libproxy-backend,libproxy-client], addflavor: true }
+- { setname: libproxy,                 name: [libproxy-backend,libproxy-client,libproxy-duktape,libproxy-gnome3,libproxy-kde,libproxy-pacrunner,libproxy-perl,libproxy-plugins,libproxy-webkit3], addflavor: true }
 - { setname: libpsl,                   name: libpsl-docs, addflavor: true }
 - { setname: libpst,                   name: pst-utils, addflavor: true }
 - { setname: libqb,                    name: libqb0 }
