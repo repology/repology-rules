@@ -38,6 +38,7 @@
 - { setname: tcltls,                   name: tcl-tls }
 - { setname: tcping,                   name: [$0-go, "go:$0"] }
 - { setname: tdb,                      name: [libtdb,tdb1] }
+- { setname: tdl,                      name: telegram-downloader }
 - { setname: tdlib,                    name: libtd }
 - { setname: tds-fdw,                  namepat: "(postgresql[0-9.-]*)-tds-fdw", addflavor: $1 }
 - { setname: tea,                      name: [teaqt, tea-qt] }
