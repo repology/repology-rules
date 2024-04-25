@@ -181,6 +181,7 @@
 - { setname: cln,                      name: [cln6, libcln] }
 - { setname: clog-changelog,           name: [clog-cli, "rust:clog-cli"] }
 - { setname: clojure,                  namepat: "clojure[0-9.]+" }
+- { setname: clonezilla,               name: $0-unstable, weak_devel: true, nolegacy: true }
 - { setname: cloog,                    name: [cloog-isl,cloog-isl14], addflavor: isl }
 - { setname: cloog-ppl,                name: cloog-ppl-gcc4, addflavor: gcc4 }
 - { setname: cloud-init,               name: "python:cloud-init" }
