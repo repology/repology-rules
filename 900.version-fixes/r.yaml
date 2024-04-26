@@ -124,6 +124,7 @@
 - { name: rogue,                                                     ruleset: [fedora,slackbuilds], untrusted: true } # accused of fake 5.4.5
 - { name: rpcgen,                                                    ruleset: ravenports,  ignore: true } # fake
 - { name: rpcs3,                       verlonger: 3,                                       snapshot: true }
+- { name: rpm,                         verpat: ".*9[0-9]",                                 devel: true }
 - { name: rpmextract,                  ver: "1.1",                   ruleset: void,        incorrect: true } # comes from arch, which has 1.0
 - { name: rpmextract,                                                ruleset: void,        untrusted: true } # accused of fake 1.1
 - { name: rsh,                         verpat: "[0-9]{2}",                                 incorrect: true }
