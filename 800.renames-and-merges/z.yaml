@@ -9,6 +9,8 @@
 - { setname: zathura,                  name: zathura-with-plugins, addflavor: true }
 - { setname: zbar,                     name: [zbar-headless,zbar-gtk,zbar-qt,"python:zbar"], addflavor: true }
 - { setname: zcad,                     name: [zcad-gtk2,zcad-qt4,zcad-qt5], addflavor: true }
+- { setname: zed,                      name: zed-editor }
+- { setname: zed,                      name: zed-editor-preview, weak_devel: true, nolegacy: true }
 - { setname: zeek,                     name: bro } # former name
 - { setname: zef,                      name: zef-without-alacryd, addflavor: without-alacryd }
 - { setname: zendframework,            namepat: "zendframework[0-9.-]+" }
