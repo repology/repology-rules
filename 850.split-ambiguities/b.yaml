@@ -205,7 +205,8 @@
 # neither has alive homepage
 - { name: blueprint, addflag: unclassified }
 
-- { name: bob, wwwpart: ibm, setname: bob-build-system }
+- { name: bob, wwwpart: ibmi, setname: bob-ibmi }
+- { name: bob, wwwpart: [benchkram,bob.build], setname: bob-build-tool }
 - { name: bob, wwwpart: MordechaiHadad, setname: bob-neovim-version-manager }
 - { name: bob, wwwpart: dosowisko, setname: bob-game }
 - { name: bob, addflag: unclassified }
