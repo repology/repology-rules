@@ -14,8 +14,8 @@
 - { name: "java:jakarta-oro",          ver: "2.0.8a",                                      incorrect: true } # debian invention
 - { name: javahelp2,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: jbig2enc,                    verpat: "20[0-9]{2}.*",                             incorrect: true } # termux
-- { name: jbigkit,                     ver: "2.2",                   ruleset: void,        incorrect: true }
-- { name: jbigkit,                                                   ruleset: void,        untrusted: true } # accused of fake 2.2
+- { name: jbigkit,                     ver: "2.2",                   ruleset: [void,chimera], incorrect: true }
+- { name: jbigkit,                                                   ruleset: [void,chimera], untrusted: true } # accused of fake 2.2
 - { name: jcsp,                        ver: "1.1",                   ruleset: sisyphus,    incorrect: true }
 - { name: jcsp,                                                      ruleset: sisyphus,    untrusted: true } # accused of fake 1.1
 - { name: jcsp,                        ver: "1.1-rc6",               ruleset: mageia,      incorrect: true }
