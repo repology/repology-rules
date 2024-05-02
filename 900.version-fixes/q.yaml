@@ -57,6 +57,8 @@
 - { name: qrfcview,                    ver: "1.0.0",                 ruleset: openbsd,     successor: true } # uses unofficial fork (dead as well)
 - { name: qstat,                       ver: "2.15",                  ruleset: [debuntu,fedora,mageia,rosa], incorrect: true }
 - { name: qstat,                                                     ruleset: [debuntu,fedora,mageia,rosa], untrusted: true } # accused of fake 2.15
+- { name: qsudo,                       verpat: "20[0-9]{10}",                              incorrect: true } # freebsd
+- { name: qsudo,                       verpat: "2017.*",                                   sink: true } # v2020.03.27
 - { name: qt,                          verpat: ".*20[0-9]{10}",                            incorrect: true } # gentoo garbage
 - { name: [qt,qt3],                    verpat: "3\\.8.*",                                  incorrect: true } # openbsd garbage (3.3.8*, not 3.8*)
 - { name: [qt,qt3],                    ver: ["3.3.8c","3.3.8d"],                           incorrect: true }
