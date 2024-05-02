@@ -118,10 +118,12 @@
 - setname: "fonts:gentium-basic"
   name:
     - fonts-gentium-basic
+    - font-sil-gentium-basic
     - fonts-sil-gentium-basic
     - fonts-ttf-sil-gentium-basic
-    - gentium-book-basic
     - gentiumbasic
+    - gentiumbasic-ttf
+    - gentium-book-basic
     - sil-gentium-basic-fonts
     - ttf-gentium-basic
 
@@ -143,13 +145,21 @@
 
 - setname: "fonts:gentium-plus"
   name:
+    - fonts-gentium-plus
     - fonts-sil-gentiumplus
-    - fonts-sil-gentiumplus-compact
-    - gentium-plus-font
+    - fonts-ttf-sil-gentium-plus
     - gentiumplus
-    - sil-gentium-plus-compact-fonts
+    - gentium-plus-font
+    - gentiumplus-ttf
     - sil-gentium-plus-fonts
     - ttf-gentium-plus
+
+- setname: "fonts:gentium-plus"
+  addflavor: compact
+  name:
+    - fonts-sil-gentiumplus-compact
+    - fonts-ttf-sil-gentium-plus-compact
+    - sil-gentium-plus-compact-fonts
 
 - setname: "fonts:georgewilliams"
   name:
