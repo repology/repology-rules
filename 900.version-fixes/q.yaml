@@ -36,6 +36,8 @@
 - { name: qimageblitz,                 ver: "0.1.0",                 ruleset: [astra,freebsd], incorrect: true } # "a made-up version also used in some linux distros" as per FreeBSD port
 - { name: qimageblitz,                                               ruleset: [astra,freebsd], untrusted: true } # accused of fake 0.1.0
 - { name: qimageblitz,                 verpat: ".*[0-9]{7}.*",                             snapshot: true } # date or SVN revision
+- { name: qimgv,                       ver: "1.0.3a",                                      incorrect: true } # 1.0.3-alpha
+- { name: qimgv,                                                     ruleset: opensuse,    untrusted: true } # accused of fake 1.0.3a
 - { name: qjson,                       ver: "1.0.0",                 ruleset: openmandriva, incorrect: true }
 - { name: qjson,                                                     ruleset: openmandriva, untrusted: true }
 - { name: qjson,                                                     ruleset: pisi,        untrusted: true } # repacked, accused of fake 0.82
