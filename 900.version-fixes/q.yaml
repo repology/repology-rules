@@ -38,6 +38,8 @@
 - { name: qimageblitz,                 verpat: ".*[0-9]{7}.*",                             snapshot: true } # date or SVN revision
 - { name: qimgv,                       ver: "1.0.3a",                                      incorrect: true } # 1.0.3-alpha
 - { name: qimgv,                                                     ruleset: opensuse,    untrusted: true } # accused of fake 1.0.3a
+- { name: qimgv,                       ver: "1.0.3",                 ruleset: [aur,fedora], incorrect: true } # 1.0.3-alpha
+- { name: qimgv,                                                     ruleset: [aur,fedora], untrusted: true } # accused of fake 1.0.3
 - { name: qjson,                       ver: "1.0.0",                 ruleset: openmandriva, incorrect: true }
 - { name: qjson,                                                     ruleset: openmandriva, untrusted: true }
 - { name: qjson,                                                     ruleset: pisi,        untrusted: true } # repacked, accused of fake 0.82
