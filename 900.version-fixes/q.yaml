@@ -91,7 +91,7 @@
 - { name: qtcreator,                                                 ruleset: mageia,      untrusted: true } # accused of fake 6.0.0
 - { name: qtemu,                       ver: "2.0",                   ruleset: sisyphus,    incorrect: true } # 2.0alpha1
 - { name: qtemu,                                                     ruleset: sisyphus,    untrusted: true }
-- { name: qtemu,                       ver: "2.1",                   ruleset: openmandriva, ignore: true } # fork with qt6 migration, arguably alive
+- { name: qtemu,                       ver: "2.1.1",                 ruleset: openmandriva, ignore: true } # fork with qt6 migration, arguably alive
 - { name: qtermwidget,                 verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: qtfeedback,                  ver: "5.0.0.b1.32",                                 incorrect: true } # freebsd
 - { name: qtfeedback,                                                                      untrusted: true } # accused of fake 5.0.0.b1.32 (XXX: DISTVERSION)
