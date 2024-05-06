@@ -92,7 +92,9 @@
 - { name: qtemu,                       ver: "2.0",                   ruleset: sisyphus,    incorrect: true } # 2.0alpha1
 - { name: qtemu,                                                     ruleset: sisyphus,    untrusted: true }
 - { name: qtemu,                       ver: "2.1.1",                 ruleset: openmandriva, ignore: true } # fork with qt6 migration, arguably alive
-- { name: qtermwidget,                 verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: qtermwidget,                 verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: qtermwidget,                 ver: "2.0.0",                 ruleset: [openmandriva,pisi], incorrect: true }
+- { name: qtermwidget,                                               ruleset: [openmandriva,pisi], untrusted: true } # accused of fake 2.0.0
 - { name: qtfeedback,                  ver: "5.0.0.b1.32",                                 incorrect: true } # freebsd
 - { name: qtfeedback,                                                                      untrusted: true } # accused of fake 5.0.0.b1.32 (XXX: DISTVERSION)
 - { name: qtox,                        verpat: "20[0-9]{6}.*",                             snapshot: true }
