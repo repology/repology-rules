@@ -7,7 +7,7 @@
 - { setname: babl,                     name: libbabl }
 - { setname: babl,                     name: babl0.1 }
 - { setname: backblaze-b2,             name: [b2-tools,"python:b2"] }
-- { setname: backintime,               name: [backintime-cli,backintime-common,backintime-qt4], addflavor: true }
+- { setname: backintime,               name: [backintime-cli,backintime-common,backintime-qt4,backintime-qt], addflavor: true }
 - { setname: backuppc,                 name: backuppc-devel, weak_devel: true, nolegacy: true }
 - { setname: backuppc,                 name: backuppc4 }
 - { setname: bacula,                   namepat: "bacula[0-9]*(-(?:bat|client|client-static|clientonly|common|doc|docs|fd|qt-console|server|tray-monitor|wx-console))?", addflavor: $1 }
