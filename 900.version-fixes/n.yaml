@@ -22,6 +22,7 @@
 - { name: ndppd,                       verlonger: 3,                 ruleset: opensuse,    incorrect: true } # fake 0.2.5.43
 - { name: neatvnc,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: nekohtml,                    verpat: ".*noko[0-9]+",                             any_is_patch: true }
+- { name: neochat,                     verpat: ".*\\.[89][0-9]",                           devel: true }
 - { name: neofetch,                    verpat: "20[0-9]{6}.*",                             incorrect: true } # aosc, slackware
 - { name: neofetch,                    ver: "7.1.1",                 ruleset: pclinuxos,   incorrect: true }
 - { name: neofetch,                                                  ruleset: pclinuxos,   untrusted: true } # accused of fake 7.1.1
