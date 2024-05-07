@@ -88,6 +88,7 @@
 - { setname: sdl2-$1,                  namepat: "(?:lib)?sdl-?(image|mixer|net|ttf|gfx)2[0-9.-]*" }
 - { setname: sdl2-image,               name: sdl-image, verpat: "2.*" }
 - { setname: sdl2-image,               name: sdl2-image-minimal, addflavor: true }
+- { setname: sdl3,                     name: libsdl3 }
 - { setname: sdlconsole,               name: [libsdl-console,sdl-console] }
 - { setname: sdllopan,                 name: sdl-lopan }
 - { setname: sdlmame,                  name: sdlmame-wout-toolkits, addflavor: wout-toolkits }
