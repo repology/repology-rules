@@ -47,6 +47,9 @@
 
 - { name: omi, setname: omi-ftpmirror, category: ftp } # vs. Open Management Infrastructure
 
+- { name: onlyoffice, wwwpart: desktopeditors, setname: onlyoffice-desktopeditors }
+- { name: onlyoffice, addflag: unclassified }
+
 - { name: ooniprobe, wwwpart: cli, setname: ooni-probe-cli }
 - { name: ooniprobe, wwwpart: desktop, setname: ooni-probe-desktop }
 - { name: ooniprobe, addflag: unclassified }
