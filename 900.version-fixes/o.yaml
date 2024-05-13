@@ -56,6 +56,7 @@
 - { name: oniguruma,                   verpat: ".*rev.*",                                  any_is_patch: true }
 - { name: onioncat,                    verpat: "0\\.2\\.2\\.r[0-9]+.*",                    any_is_patch: true } # https://www.cypherpunk.at/ocat/download/Source/stable/
 - { name: onioncat,                    ver: "0\\.2\\.2",                                   incorrect: true }
+- { name: onlyoffice-documentserver,   verlonger: 3,                 ruleset: freebsd,     incorrect: true } # FreeBSD DISTVERSION
 - { name: opalang,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: opalang,                     verpat: "[0-9]{4}",                                 sink: true } # judging by https://github.com/MLstate/opalang/releases, 1.1.1 is the latest
 - { name: opam,                                                      ruleset: [sisyphus,mageia], untrusted: true } # accused of fake 2.0.0
