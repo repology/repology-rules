@@ -114,8 +114,7 @@
 
 - { name: ots, wwwpart: khaledhosny, setname: ots-font-sanitizer }
 - { name: ots, wwwpart: libots, setname: ots-text-summarizer }
-- { name: ots, summpart: summariz, setname: ots-text-summarizer }
-- { name: ots, ruleset: [pld], setname: ots-text-summarizer }
+- { name: ots, wwwpart: sniptt, setname: ots-secret-sharing }
 - { name: ots, addflag: unclassified }
 
 - { name: otter, wwwpart: [otter-browser,otterbrowser], setname: otter-browser }
