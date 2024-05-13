@@ -158,6 +158,7 @@
 - { setname: tix,                      name: [tcl-tix,tk-tix] }
 - { setname: tk,                       namepat: "tk8[0-9.-]+" } # don't mix with tk2, tk5, tk707 which are unrelated projects
 - { setname: tkimg,                    name: [libtk-img,libtkimg,tcl-img] }
+- { setname: tkrev,                    name: tkcvs, outdated: true } # former name
 - { setname: tl-expected,              name: [expected, libexpected] }
 - { setname: tl-expected,              name: tl-expected-devel, weak_devel: true, nolegacy: true }
 - { setname: tldr++,                   name: tldr-plusplus }
