@@ -41,6 +41,11 @@
 
 - { namepat: "gnome:.*",                                             ruleset: pardus,      untrusted: true } # uses fake versions (example: gnome:arc-menu 436.47.1, gnome:caffeine 436.48.1)
 
+# prevent newly introduced nix categories from polluting unrelated projects before being added to 500 ruleset
+#- { category: "XXX",                                                 ruleset: nix,         addflag: classified_category }
+- { categorypat: ".*", flag: wconce,                                 ruleset: nix,         addflag: classified_category }
+- { categorypat: ".*Packages", noflag: classified_category,          ruleset: nix,         setname: $0-unclassified }
+
 # other global rules
 - { verpat: ".*20[0-9]{6}T[0-9]{6}\\.[0-9a-f]{7}",                   ruleset: opensuse,    ignore: true }
 - { verpat: ".*[0-9]{8,10}\\.[0-9a-f]{7,8}",                         ruleset: opensuse,    ignore: true }
