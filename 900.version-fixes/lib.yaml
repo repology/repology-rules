@@ -150,7 +150,7 @@
 - { name: libhomfly,                   ver: "1.02.6",                ruleset: gentoo,      incorrect: true }
 - { name: libhomfly,                                                 ruleset: gentoo,      untrusted: true } # accused of fake 1.02.6
 - { name: libhomfly,                   verpat: ".*r.*",                                    any_is_patch: true } # 1.02rX follow 1.02
-- { name: libiconv,                    verpat: "[0-9]",                                    ignore: true } # lede/openwrt strange version
+- { name: libiconv,                    verpat: "[0-9]+",                                   incorrect: true } # lede/openwrt, nix garbage
 - { name: libid3tag,                   ver: "0.15.1c",               ruleset: macports,    incorrect: true } # fork
 - { name: libid3tag,                                                 ruleset: macports,    untrusted: true } # accused of fake 0.15.1c
 - { name: libiio,                      verpat: "20[0-9]{6}",                               snapshot: true } # macports
