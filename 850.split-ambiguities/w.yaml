@@ -42,6 +42,9 @@
 - { name: whereami, ruleset: debuntu, setname: whereami-debian } # Automatically reconfigure your (laptop) system for a new location based of wifi hotspots
 - { name: whereami, addflag: unclassified }
 
+- { name: wind, sourceforge: windwm, setname: wind-wm }
+- { name: wind, addflag: unclassified }
+
 - { name: wio, wwwpart: github.com/wio/wio, setname: wio-iot }
 - { name: wio, wwwpart: Rubo, setname: wio-compositor }
 - { name: wio, addflag: unclassified }
