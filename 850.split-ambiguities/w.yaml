@@ -1,5 +1,9 @@
 # vim: tabstop=29 expandtab softtabstop=29 nomodeline
 
+- { name: wakatime, wwwpart: wakatime-cli, setname: wakatime-cli }
+- { name: wakatime, wwwpart: mac, setname: macos-wakatime }
+- { name: wakatime, addflag: unclassified }
+
 - { name: wakeonlan, ruleset: slackbuilds, setname: "python:wakeonlan" }
 
 - { name: warp, wwwpart: facebook, setname: warp-preprocessor }
