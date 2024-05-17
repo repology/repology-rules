@@ -23,6 +23,7 @@
 - { name: linphone,                                                  ruleset: fdroid,      ignore: true }
 - { name: megasync,                                                  ruleset: [windows,macosxbins], ignore: true } # close, but different versions https://github.com/meganz/MEGAsync/releases
 - { name: minitube,                                                  ruleset: macosxbins,  ignore: true } # https://flavio.tordini.org/minitube-ws/appcast.xml 3.3.1, not present as tags
+- { name: mosquitto,                                                 ruleset: windows,     ignore: true }
 - { name: nomacs,                                                    ruleset: windows,     ignore: true } # http://download.nomacs.org/portable has 3.12.1, but no tag
 - { name: opencpn,                                                   ruleset: macosxbins,  ignore: true } # https://opencpn.org/OpenCPN/info/downloadopencpn.html 5.0.1 for mac, but no such tag or releases for other oses
 - { name: ricochet-im,                                               ruleset: macosxbins,  ignore: true } # https://github.com/ozmartian/vidcutter/releases/tag/6.0.0
