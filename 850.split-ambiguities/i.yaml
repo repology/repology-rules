@@ -70,6 +70,10 @@
 - { name: iotop, wwwpart: tomas-m, setname: iotop-c }
 - { name: iotop, addflag: unclassified }
 
+- { name: ipaddress, wwwpart: seancfoley, setname: java:ipaddress }
+# otherwise outdated python ipaddress port to outdated python versions
+- { name: ipaddress, addflag: unclassified }
+
 - { name: ipcalc, wwwpart: [jodies,kjokjo], setname: ipcalc-kjokjo }
 - { name: ipcalc, wwwpart: [gitlab.com/ipcalc/ipcalc,nmav], setname: ipcalc-nmav }
 - { name: ipcalc, addflag: unclassified }
