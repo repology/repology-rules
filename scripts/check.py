@@ -336,13 +336,13 @@ schema = Schema(
 
 
 features_by_pattern = {
-    '.*800.renames-and-merges/(.|apmod|emacs|ffext|gimpplugins|haskell|lib|libretro|lua|lv2|nextcloud|node|perl|php|python|rhytmbox|texlive|vim|fonts/.)\.yaml': {
+    r'.*800.renames-and-merges/(.|apmod|emacs|ffext|gimpplugins|haskell|lib|libretro|lua|lv2|nextcloud|node|perl|php|python|rhytmbox|texlive|vim|fonts/.)\.yaml': {
         'sort_field': 'setname',
     },
-    '.*850.split-ambiguities/[^cdh]\.yaml': {
+    r'.*850.split-ambiguities/[^cdh]\.yaml': {
         'sort_field': 'name',
     },
-    '.*900.version-fixes/.*\.yaml': {
+    r'.*900.version-fixes/.*\.yaml': {
         'sort_field': 'name',
         'disallowed': {'setname'},
     },
