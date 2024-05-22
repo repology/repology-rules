@@ -240,7 +240,9 @@
 - { setname: collectd,                 name: collectd5 }
 - { setname: colorcode,                name: color-code }
 - { setname: colord,                   name: compat-colord10 }
-- { setname: colord,                   name: [colord-nopolkit,colord-sane], addflavor: true }
+- { setname: colord,                   name: [$0-nopolkit,$0-sane,$0-minimal], addflavor: true }
+- { setname: colord-gtk,               name: libcolord-gtk }
+- { setname: colord-gtk,               name: colord-gtk4, addflavor: true }
 - { setname: colorls,                  name: ruby:$0 }
 - { setname: coloursum,                name: "rust:coloursum" }
 - { setname: comedilib,                name: libcomedi }
