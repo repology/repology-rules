@@ -98,6 +98,8 @@
 - { setname: texmaker,                 name: texmaker-qt4, addflavor: true }
 - { setname: texshop,                  name: texshop4 }
 - { setname: texstudio,                name: [texstudio-dark,texstudio-lcd,texstudio-phonon,texstudio-qt4,texstudio-qt5], addflavor: true }
+- { setname: textadept,                name: [$0-curses, $0-gtk2, $0-gtk3], addflavor: true }
+- { setname: textadept,                name: textadept11 }
 - { setname: texttest,                 name: python:$0 }
 - { setname: tf,                       name: tf5 }
 - { setname: tg-owt,                   name: [libtg-owt, libtgowt] }
