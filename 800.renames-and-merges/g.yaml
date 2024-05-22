@@ -463,6 +463,7 @@
 - { setname: gsutil,                   name: "python:gsutil" }
 - { setname: gtest,                    name: [googletest,libgtest] }
 - { setname: gtest,                    name: [gmock,google-mock,googlemock,libgmock], addflavor: gmock } # merged into
+- { setname: gtetrinet,                name: gtetrinet-gtk3, addflavor: true }
 - { setname: gtg,                      name: getting-things-gnome }
 - { setname: gtimelog,                 name: python:$0 }
 - { setname: gtk,                      namepat: "(?:lib)?gtk[0-9.+-]*(-reference)?", addflavor: $1 }
