@@ -55,7 +55,9 @@
 - { setname: zoom,                     name: [zoom-linux,zoom-us,zoom2] } # split in 850
 - { setname: zopfli,                   name: [libzopfli,libzopflipng,zopflipng], addflavor: true }
 - { setname: zork,                     name: [zork1,zork2,zork3] }
-- { setname: zotero,                   name: [linux-zotero, zotero-esr] }
+- { setname: zotero,                   name: [linux-$0, $0-esr] }
+- { setname: zotero,                   name: [$0-gtk2, $0-standalone], addflavor: true }
+- { setname: zotero,                   name: $0@beta, weak_devel: true, nolegacy: true }
 - { setname: zou,                      name: "rust:zou" }
 - { setname: zoxide,                   name: "rust:zoxide" }
 - { setname: zram-generator,           name: "rust:zram-generator" }
