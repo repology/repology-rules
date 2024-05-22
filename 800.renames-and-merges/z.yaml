@@ -14,7 +14,7 @@
 - { setname: zeek,                     name: bro } # former name
 - { setname: zef,                      name: zef-without-alacryd, addflavor: without-alacryd }
 - { setname: zendframework,            namepat: "zendframework[0-9.-]+" }
-- { setname: zenity,                   name: zenity-gtk2 }
+- { setname: zenity,                   name: [$0-gtk2, $0-gtk3], addflavor: true }
 - { setname: zenpower,                 name: zenpower-dkms }
 - { setname: zenstates,                name: zenstates-linux }
 - { setname: zenxml,                   name: libzenxml }
