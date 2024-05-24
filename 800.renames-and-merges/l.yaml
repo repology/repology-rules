@@ -81,6 +81,7 @@
 - { setname: librewolf,                name: [$0-bin-wayland], addflavor: true }
 - { setname: librewolf,                name: [librewolf-app, librewolf-browser] }
 - { setname: libtool,                  name: libtool-bin, addflavor: bin }
+- { setname: license-finder,           name: [licensefinder, ruby:license-finder] }
 - { setname: lightdm,                  name: lightdm-devel, weak_devel: true, nolegacy: true }
 - { setname: lightdm,                  name: lightdm-ubuntu, addflavor: ubuntu }
 - { setname: lightdm,                  namepat: "(liblightdm(?:-qt4|-qt5)*)-devel", addflavor: $1, weak_devel: true, nolegacy: true }
