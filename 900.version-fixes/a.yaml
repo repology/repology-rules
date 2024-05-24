@@ -86,7 +86,7 @@
 - { name: age-encryption,                                            ruleset: freebsd,     untrusted: true } # accused of fake 1.0.0
 - { name: age-encryption,              verpat: ".*p.*",                                    incorrect: true } # alpine, p instead of beta
 - { name: agedu,                       verpat: "(20[0-9]{6})\\.[0-9a-f]{7}",               setver: $1 } # remove commit hashes and revisions (upstream problem)
-- { name: agg,                         verpat: ".*r.*",                                    snapshot: true } # debian
+- { name: agg-antigrain,               verpat: ".*r.*",                                    incorrect: true } # debian snapshots with made up versions
 - { name: aiccu,                       ver: "20070115",                                    setver: "2007.01.15" }
 - { name: aiccu,                       verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: aide,                        verpat: ".+20[0-9]{6}",                             snapshot: true }
