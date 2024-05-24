@@ -60,6 +60,7 @@
     bluez-qt|
     bomber|
     bovo|
+    breeze|
     breeze-grub|
     breeze-gtk|
     breeze-icons|
@@ -482,3 +483,7 @@
 - { setname: kdesdk-kio,               name: kdesdk-kioslaves } # renamed
 - { setname: kio-zeroconf,             name: zeroconf-ioslave } # renamed
 - { setname: systemsettings,           name: [system-settings, system-settings-kf6] }
+- { setname: breeze,                   name: [breeze4-style, kde-style-breeze, kde4-styles-breeze] }
+- { setname: breeze-grub,              name: [grub2-breeze-theme, grub2-theme-breeze] }
+- { setname: breeze-gtk,               name: [breeze-gtk-theme, breeze6-gtk] }
+- { setname: breeze-icons,             name: [breeze5-icons] }
