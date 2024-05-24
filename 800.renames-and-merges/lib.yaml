@@ -115,7 +115,7 @@
 - { setname: libglademm,               namepat: "(?:lib)?glademm[0-9.]*" }
 - { setname: libglib-testing,          name: glib-testing }
 - { setname: libglu,                   name: mesa-libglu }
-- { setname: libglw,                   name: [glw,mesa-glw,mesa-libglw] }
+- { setname: libglw,                   name: [glw,mesa-glw,mesa-libglw,libglw-mesa] }
 - { setname: libgnome,                 name: libgnome2 }
 - { setname: libgnome,                 name: [libgnome-data,libgnome-reference], addflavor: true }
 - { setname: libgnome-games-support,   namepat: "libgnome-games-support[0-9.-]+" }
