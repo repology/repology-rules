@@ -251,6 +251,8 @@
 - { setname: arduino,                  namepat: "arduino[0-9.-]+" }
 - { setname: areca,                    name: areca-beta, weak_devel: true, nolegacy: true }
 - { setname: areca-backup,             name: arecabackup }
+- { setname: arelle,                   name: "python:arelle" }
+- { setname: arelle,                   name: "python:arelle-headless", addflavor: true }
 - { setname: arena-tracker,            name: arenatracker }
 - { setname: ares,                     name: libares }
 - { setname: ares,                     name: ares-emu }
