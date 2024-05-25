@@ -137,6 +137,10 @@
 
 - { name: alternatives, wwwpart: chkconfig, setname: chkconfig } # part of
 
+- { name: altserver, wwwpart: altstore, setname: altserver-altstore }
+- { name: altserver, wwwpart: [nyamisty,curve], setname: altserver-linux }
+- { name: altserver, addflag: unclassified }
+
 - { name: amap, wwwpart: sikorskiy, setname: amap-analyze-map-files }
 - { name: amap, wwwpart: thc, setname: amap-pentesting }
 - { name: amap, wwwpart: berkeley, setname: amap-protein }
