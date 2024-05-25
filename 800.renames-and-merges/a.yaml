@@ -219,6 +219,7 @@
 - { setname: apm-planner,              name: apmplanner2 }
 - { setname: apparmor,                 name: [$0-bin-utils,$0-binutils,$0-kernel-patches,$0-pam,$0-parser,$0-profiles,$0-utils,lib$0,pam-$0,pam-pam-$0], addflavor: true }
 - { setname: appimagekit,              name: [appimagetool,appimagetool-continuous] }
+- { setname: appindicator-sharp,       name: appindicator3-sharp }
 - { setname: appium,                   name: appium-desktop }
 - { setname: appmenu-qt,               name: appmenu-qt4 }
 - { setname: appstream,                name: appstream-qt }
@@ -237,6 +238,7 @@
 - { setname: arangodb,                 namepat: "arangodb[0-9.-]+" }
 - { setname: arb,                      name: [flint-arb, libarb] }
 - { setname: arbtt,                    name: "haskell:arbtt" }
+- { setname: arc,                      name: arc-browser }
 - { setname: arcan,                    name: [acfgfs,aclip,aloadimage,arcan-aclip,arcan-aloadimage,arcan-waybridge,arcan-wayland], addflavor: true }
 - { setname: arcanist,                 name: "php:arcanist" }
 - { setname: arcanist,                 name: arcanist-lib, addflavor: true }
