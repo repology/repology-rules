@@ -220,6 +220,7 @@
 - { setname: apparmor,                 name: [apparmor-bin-utils,apparmor-binutils,apparmor-kernel-patches,apparmor-pam,apparmor-parser,apparmor-profiles,apparmor-utils], addflavor: true }
 - { setname: apparmor,                 name: [libapparmor,pam-apparmor,pam-pam-apparmor] }
 - { setname: appimagekit,              name: [appimage,appimagetool,appimagetool-continuous] }
+- { setname: appindicator-sharp,       name: appindicator3-sharp }
 - { setname: appium,                   name: appium-desktop }
 - { setname: appmenu-qt,               name: appmenu-qt4 }
 - { setname: appstream,                name: appstream-qt }
@@ -238,6 +239,8 @@
 - { setname: arangodb,                 namepat: "arangodb[0-9.-]+" }
 - { setname: arb,                      name: [flint-arb, libarb] }
 - { setname: arbtt,                    name: "haskell:arbtt" }
+- { setname: arc,                      name: [arc-browser,archiver] }
+- { setname: arc,                      name: "go:github-mholt-archiver" }
 - { setname: arcan,                    name: [acfgfs,aclip,aloadimage,arcan-aclip,arcan-aloadimage,arcan-waybridge,arcan-wayland], addflavor: true }
 - { setname: arcanist,                 name: "php:arcanist" }
 - { setname: arcanist,                 name: arcanist-lib, addflavor: true }
