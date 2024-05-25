@@ -172,6 +172,7 @@
 - { setname: ansible,                  namepat: "(?:python:)?ansible[0-9]*" }
 - { setname: ansible-core,             name: [ansible-base, "python:ansible-base", "python:ansible-core" ] }
 - { setname: ansible-doctor,           name: "python:ansible-doctor" }
+- { setname: ansible-later,            name: "python:ansible-later" }
 - { setname: ansible-lint,             name: "python:ansible-lint" }
 - { setname: ansible-runner,           name: "python:ansible-runner" }
 - { setname: ant,                      name: ant-junit5, addflavor: true }
