@@ -1,0 +1,39 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- setname: arm-trusted-firmware
+  name:
+    - arm-trusted-firmware-a80x0-mcbin
+    - arm-trusted-firmware-fiptool
+    - arm-trusted-firmware-gxbb
+    - arm-trusted-firmware-imx8mm
+    - arm-trusted-firmware-imx8mq
+    - arm-trusted-firmware-poplar
+    - arm-trusted-firmware-qemu
+    - arm-trusted-firmware-qemu-sbsa
+    - arm-trusted-firmware-rk3328
+    - arm-trusted-firmware-rk3368
+    - arm-trusted-firmware-rk3399
+    - arm-trusted-firmware-rk3588
+    - arm-trusted-firmware-rpi3
+    - arm-trusted-firmware-rpi4
+    - arm-trusted-firmware-sun50i-a64
+    - arm-trusted-firmware-sun50i-h6
+    - arm-trusted-firmware-sun50i-h616
+    - arm-trusted-firmware-tegra186
+    - arm-trusted-firmware-tegra210
+    - arm-trusted-firmware-zynqmp
+    - atf-allwinner
+    - atf-fvp
+    - atf-imx
+    - atf-meson
+    - atf-none
+    - atf-rk3328
+    - atf-rk3399
+    - atf-rockchip
+    - atf-sun50i-a64
+    - atf-sun50i-h6
+    - atf-sunxi
+    - trusted-firmware-a-fiptool
+    - trusted-firmware-a-rk3328
+    - trusted-firmware-a-rk3399
+  addflavor: true
