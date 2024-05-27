@@ -261,7 +261,7 @@
 - { name: multimc,                     verlonger: 3,                 ruleset: aur,         incorrect: true }
 - { name: multimc,                     ver: "0.7.0",                 ruleset: homebrew_casks, incorrect: true }
 - { name: multimc,                                                   ruleset: homebrew_casks, untrusted: true } # accused of fake 0.7.0
-- { name: multimc,                     relge: "0.7.0",                                     noscheme: true } # abandoned stable releases since 0.7.0 https://multimc.org/posts/0-7-0-update.html
+- { name: multimc,                     releq: "0.7.0",                                     noscheme: true } # abandoned stable releases since 0.7.0 https://multimc.org/posts/0-7-0-update.html
 - { name: multimc,                     ver: "1.6",                   ruleset: gentoo,      incorrect: true }
 - { name: multimc,                                                   ruleset: gentoo,      untrusted: true } # accused of fake 1.6
 - { name: multimon-ng,                 verpat: "20[0-9]{6}.*",                             ignore: true }
