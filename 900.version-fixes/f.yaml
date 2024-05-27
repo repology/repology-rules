@@ -70,6 +70,7 @@
 - { name: ffsb,                        ver: "6.0",                   ruleset: sisyphus,    incorrect: true }
 - { name: ffsb,                                                      ruleset: sisyphus,    untrusted: true } # accused of fake 6.0
 - { name: fheroes2,                    verge: "20000000", verlt: "20201004",               sink: true } # 0.8.2 from 2020.10.04: https://github.com/ihhub/fheroes2/releases/tag/0.8.2
+- { name: fheroes2,                                                  ruleset: openmandriva, untrusted: true } # accused of faking fheroes2enh as fheroes
 - { name: fife,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: fig2dev,                     ver: "3.2.7",                                       incorrect: true } # 3.2.7a or 3.2.7b
 - { name: figlet,                      ver: "222",                                         ignore: true } # haikuports
