@@ -271,7 +271,8 @@
 - { setname: consolekit,               name: consolekit2 }
 - { setname: containers-common,        name: [libcontainers-common,"go:github-containers-common"] }
 - { setname: contao,                   namepat: "php[0-9]*:contao[0-9.-]*" }
-- { setname: cookiecutter,             name: "python:cookiecutter" }
+- { setname: cookiecutter,             name: python:$0 }
+- { setname: cooklang-chef,            name: rust:$0 }
 - { setname: coolreader3,              name: coolreader }
 - { setname: copydeps,                 name: "rust:copydeps" }
 - { setname: copyq,                    name: [copyq-qt5, copyq-qt6], addflavor: true }
