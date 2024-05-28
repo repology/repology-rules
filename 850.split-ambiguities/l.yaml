@@ -183,6 +183,10 @@
 - { name: livecd-tools,                category: app-misc, ruleset: gentoo, setname: livecd-tools-gentoo }
 - { name: livecd-tools,                setname: "$0-fedora" }
 
+- { name: lix, wwwpart: [lixgame.com,SimonN], setname: lix-game }
+- { name: lix, wwwpart: lix.systems, setname: lix-nix }
+- { name: lix, addflag: unclassified }
+
 - { name: lizard, wwwpart: inikep, setname: lizard-compressor }
 - { name: lizard, wwwpart: [terryyin,lizard.ws], setname: lizard-complexity-analyzer }
 - { name: lizard, addflag: unclassified }
