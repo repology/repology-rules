@@ -311,6 +311,7 @@
 - { name: creduce,                                                   ruleset: [debuntu,openmandriva,freebsd,rosa], untrusted: true } # accused of fake 2.11.x
 - { name: creduce,                     verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: critterding,                 verpat: ".*b.*",                                    devel: true }
+- { name: croc,                        ver: "10.04",                                       setver: "10.0.4", disposable: true } # incorrect tagging
 - { name: cronolog,                    ver: "1.7.0",                 ruleset: openpkg,     incorrect: true } # 1.7.0-beta
 - { name: crossguid,                   verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: crossguid,                   verpat: "201[56].*",                                sink: true } # there's 0.2.2 from Aug 2017
