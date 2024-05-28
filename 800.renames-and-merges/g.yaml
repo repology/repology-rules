@@ -223,6 +223,7 @@
 - { setname: glu,                      name: [libglu, libglu-mesa, mesa-glu, mesa-libglu] }
 - { setname: glucose,                  name: glucose-syrup, addflavor: true } # (nix parallel vs. sequential version)
 - { setname: gluegen,                  name: gluegen2 }
+- { setname: gluon,                    name: [gluon-language,rust:gluon] }
 - { setname: glusterfs,                namepat: "glusterfs[0-9.-]+" }
 - { setname: gmime,                    namepat: "(?:lib)?gmime[0-9.-]*" }
 - { setname: gmime,                    namepat: "(?:lib)?gmime[0-9.-]*-sharp", addflavor: sharp }
