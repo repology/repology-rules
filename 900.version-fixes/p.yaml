@@ -288,8 +288,9 @@
 - { name: postgresql-autodoc,          verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: postgresql-jdbc,             verpat: "[0-9]{4}.*",                               incorrect: true } # pld garbage
 - { name: pound,                       verpat: ".*[0-9][a-z]",                             devel: true }
-- { name: povray,                      ver: "3.7.1",                 ruleset: pld,         incorrect: true }
-- { name: povray,                                                    ruleset: pld,         untrusted: true }
+- { name: povray,                                                    ruleset: pld,         untrusted: true } # accused of fake 3.7.1
+- { name: povray,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: povray,                      ver: "3.8.0-x.10064738",                            sink: true, disposable: true }
 - { name: powder-toy,                  ver: "97.0.351",              ruleset: aur,         incorrect: true }
 - { name: powder-toy,                                                ruleset: aur,         untrusted: true } # accused of fake 97.0.351
 - { name: powder-toy,                  verpat: ".*b",                                      devel: true }
