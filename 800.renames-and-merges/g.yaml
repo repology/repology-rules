@@ -133,7 +133,7 @@
 - { setname: gimp-help,                namepat: "gimp-docs-.*", addflavor: true } # languages in pkgsrc
 - { setname: gimp-help,                namepat: ".*gimp-help.*", addflavor: true }
 - { setname: girara,                   name: libgirara }
-- { setname: git,                      name: [git-base,git-docs,git-gitk,git-contrib,git-lite,git-gui,git-bashcompletion,gitweb,git-minimal,git-with-svn,git-send-email,git-svn], addflavor: true }
+- { setname: git,                      name: [git-base,git-docs,git-gitk,git-contrib,git-lite,git-gui,git-bashcompletion,gitweb,git-minimal,git-with-svn,git-send-email,git-svn,git-p4,git-tiny,git-cvs,git-perlscripts,git-credential-osxkeychain], addflavor: true }
 - { setname: git,                      name: git19 }
 - { setname: git-big-picture,          name: "python:git-big-picture" }
 - { setname: git-delete-merged-branches, name: "python:$0" }
