@@ -17,6 +17,7 @@
 - { setname: qgis,                     namepat: "qgis[0-9.-]+" }
 - { setname: qgis,                     name: qgis-ltr }
 - { setname: qgnomeplatform,           name: qt5-qgnomeplatform }
+- { setname: qhull,                    namepat: "(:?lib)?qhull[0-9.-]*" }
 - { setname: qimageblitz,              name: [libqimageblitz4,qimageblitz5,libqimageblitz] }
 - { setname: qimgv,                    name: [$0-light, $0-qt6-kde, $0-video], addflavor: true }
 - { setname: qjson,                    name: libqjson }
