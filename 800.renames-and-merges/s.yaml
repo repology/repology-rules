@@ -153,6 +153,7 @@
 - { setname: sidplay,                  name: sidplay-base, addflavor: true }
 - { setname: signal-desktop,           name: signal-desktop-beta, weak_devel: true, nolegacy: true }
 - { setname: signond,                  name: signon } # XXX: problem
+- { setname: signond,                  name: [signon-qt5, signon-qt6], addflavor: true } # XXX: problem
 - { setname: signond,                  name: signond-qt6, addflavor: true }
 - { setname: sile,                     name: sile-luajit, addflavor: true }
 - { setname: silgraphite,              name: [silgraphite-ft,silgraphite-xft], addflavor: true }
