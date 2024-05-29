@@ -4,6 +4,9 @@
 - { setname: lib3ds,                   name: lib3ds13 }
 - { setname: libabw,                   namepat: "libabw[0-9.-]+" }
 - { setname: libacars,                 name: libacars2 }
+- { setname: libaccounts-qt,           name: [accounts-qt, accountsqt] }
+- { setname: libaccounts-qt,           name: [accounts-qt6, libaccounts-qt6], addflavor: "6" }
+- { setname: libaccounts-qt,           name: [libaccounts-qt4, libaccounts-qt5], addflavor: true }
 - { setname: libad9361-iio,            name: libad9361 }
 - { setname: libappindicator,          name: [libappindicator-activate-gtk2,libappindicator-activate-gtk3,libappindicator-activate-sharp,libappindicator-gtk2,libappindicator-gtk3,libappindicator-sharp], addflavor: true }
 - { setname: libappindicator,          name: libappindicator3 }
