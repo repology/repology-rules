@@ -312,6 +312,8 @@
 - { name: spirv-llvm-translator,                                     ruleset: fedora,      untrusted: true } # accused of fake 11.1.0
 - { name: spirv-tools,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: spirv-tools,                 verpat: ".*sdk.*",                                  incorrect: true }
+- { name: spirv-tools,                 ver: "2024.2",                ruleset: fedora,      incorrect: true }
+- { name: spirv-tools,                                               ruleset: fedora,      incorrect: true } # accused of fake 2024.2
 - { name: spl,                                                       ruleset: nix,         untrusted: true } # nix appends kernel version
 - { name: splitpatch,                  verpat: ".*20[0-9]{8}",                             snapshot: true }
 - { name: splitvt,                     ver: "1.6.6_6",                                     incorrect: true } # sisyphus
