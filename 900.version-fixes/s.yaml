@@ -398,6 +398,8 @@
 - { name: sunxi-tools,                 ver: "1.5",                   ruleset: sisyphus,    incorrect: true }
 - { name: sunxi-tools,                                               ruleset: sisyphus,    untrusted: true } # accused of fake 1.5
 - { name: suomi-malaga,                verge: "2",                                         incorrect: true } # https://voikko.puimula.org/sources.html, https://www.puimula.org/voikko-sources/suomi-malaga/: 2.0 has different name
+- { name: superfile,                   ver: "1.1.3.0.20240512232412",                      incorrect: true, sink: true } # commit before 1.1.3
+- { name: superfile,                                                 ruleset: freebsd,     untrusted: true } # accused of fake 1.1.3.0.20240512232412
 - { name: superiotool,                 verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: superiotool,                 ver: "20121019",                                    sink: true, disposable: true }
 - { name: superlu-mt,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
