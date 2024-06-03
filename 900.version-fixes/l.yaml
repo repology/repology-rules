@@ -105,6 +105,10 @@
 - { name: lizard-compressor,           ver: ["1.5", "2.0"],                                sink: true } # according to upstream, "LZ5 v2.0 is renamed to Lizard v1.0", so sink former lz5 versions
 - { name: lizardfs,                    ver: "3.13.0",                ruleset: sisyphus,    incorrect: true }
 - { name: lizardfs,                                                  ruleset: sisyphus,    untrusted: true } # accused of fake 3.13.0
+- { name: llama.cpp,                                                                       incorrect: true }
+- { name: llama.cpp,                   verpat: "[0-9]{4}",                                 setver: b$0 }
+- { name: llama.cpp,                   verpat: "b[0-9]{4}",                                incorrect: false }
+- { name: llama.cpp,                   verge: "20000000", verlt: "20240603",               sink: true }
 - { name: llgen,                                                                           noscheme: true }
 - { name: llvm,                        verpat: ".*r[0-9]{6,}",                             ignore: true } # ignore revisions, allow release candidates
 - { name: llvm,                        verpat: ".*r.*",                                    devel: true }
