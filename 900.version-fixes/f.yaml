@@ -238,6 +238,7 @@
 - { name: "fonts:wqy-bitmapfont",      ver: "1.0.0",                 ruleset: rpm,         incorrect: true }
 - { name: "fonts:wqy-bitmapfont",                                    ruleset: rpm,         untrusted: true } # accused of fake 1.0.0
 - { name: "fonts:wqy-microhei",        verpat: "(.*?)[^0-9]?beta",                         setver: $1 }
+- { name: "fonts:xkcd",                                                                    noscheme: true }
 - { name: fonttools,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: fonttosfnt,                                                ruleset: opensuse,    untrusted: true } # accused of fake 1.0.5
 - { name: foo2zjs,                                                                         noscheme: true }
