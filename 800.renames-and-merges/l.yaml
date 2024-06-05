@@ -90,6 +90,7 @@
 - { setname: lightdm,                  name: [lightdm-guest,liblightdm-qt4-guest,liblightdm-qt5-guest] }
 - { setname: lightdm-gtk-greeter,      name: [lightdm-gtk,lightdm-gtk2-greeter,lightdm-gtk3-greeter] }
 - { setname: lightdm-gtk-greeter,      name: lightdm-gtk-greeter-devel, weak_devel: true, nolegacy: true }
+- { setname: lightning,                name: liblightning }
 - { setname: lightsoff,                name: gnome-games-lightsoff }
 - { setname: lightyears,               name: 20kly }
 - { setname: lilypond,                 name: lilypond-devel-docs, addflavor: docs, weak_devel: true, nolegacy: true }
