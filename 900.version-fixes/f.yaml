@@ -214,6 +214,7 @@
 - { name: "fonts:oldstandard",         ver: "2.2really",                                   ignore: true } # debian garbage
 - { name: "fonts:opensans",                                                                noscheme: true }
 - { name: "fonts:orbitron",                                                                noscheme: true }
+- { name: "fonts:oxygen",              verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: "fonts:powerline",                                                               noscheme: true }
 - { name: "fonts:quattrocento",        ver: "2.000",                 ruleset: arch,        ignore: true } # webpage says it's 1.1
 - { name: "fonts:quicksand",                                                               noscheme: true }
