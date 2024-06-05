@@ -67,7 +67,6 @@
 
 - { name: bcc, wwwpart: iovisor, setname: bcc-bpf }
 - { name: bcc, wwwpart: wormt, setname: bcc-compiler }
-- { name: bcc, summpart: bpf, setname: bcc-bpf }
 - { name: bcc, ruleset: [freebsd,pkgsrc,openindiana,pld], setname: bcc-bruceevans }
 - { name: bcc, addflag: unclassified }
 
@@ -174,10 +173,8 @@
 - { name: blink, wwwpart: ychclone, setname: blink-code-search }
 - { name: blink, addflag: unclassified }
 
-- { name: bliss, summpart: intellivision, setname: bliss-emulator }
-- { name: bliss, summpart: music, setname: bliss-music-analyzer }
-- { name: bliss, summpart: graphs, setname: bliss-graphs } # name already used by some repos
-- { name: bliss, wwwpart: tcs, setname: bliss-graphs } # name already used by some repos
+- { name: bliss, wwwpart: [lelele.io, Polochon-street], setname: bliss-music-analyzer }
+- { name: bliss, wwwpart: tjunttil, setname: bliss-graphs } # name already used by some repos
 - { name: bliss, addflag: unclassified }
 
 - { name: blitz, wwwpart: [blitzpp,oonumerics], setname: blitz++ }
@@ -276,15 +273,11 @@
 - { name: bs, addflag: unclassified }
 
 - { name: bsc, wwwpart: [besc,beesoft], setname: beesoft-commander }
-- { name: bsc, summpart: beesoft, setname: beesoft-commander }
 - { name: bsc, wwwpart: libbsc, setname: libbsc }
-- { name: bsc, summpart: block-sorting, setname: libbsc }
 - { name: bsc, addflag: unclassified }
 
 - { name: btf, wwwpart: sparse, setname: suitesparse-btf }
-- { name: btf, summpart: suitesparse, setname: suitesparse-btf }
 - { name: btf, wwwpart: fge, setname: btf-builder-pattern }
-- { name: btf, ruleset: pld, setname: suitesparse-btf }
 - { name: btf, addflag: unclassified }
 
 - { name: bud, wwwpart: livebud, setname: bud-go-web-framework }
