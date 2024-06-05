@@ -30,12 +30,8 @@
 - { name: legit, addflag: unclassified }
 
 - { name: lemon, wwwpart: lemon.cs.elte.hu, setname: coin-or-lemon }
-- { name: lemon, summpart: "Efficient Modeling", setname: coin-or-lemon }
 - { name: lemon, wwwpart: hwaci, setname: lemon-lalr1 }
 - { name: lemon, wwwpart: sqlite, setname: lemon-lalr1-sqlite }
-- { name: lemon, summpart: deprecated, remove: true } # vcpkg deprecated package
-- { name: lemon, ruleset: pld, setname: coin-or-lemon }
-- { name: lemon, ruleset: pclinuxos, setname: lemon-lalr1-sqlite }
 - { name: lemon, addflag: unclassified }
 
 - { name: lens, wwwpart: k8slens, setname: lens-kubernetes }
