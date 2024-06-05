@@ -72,9 +72,8 @@
 
 - { name: rebar, verge: "3", setname: rebar3 }
 
-- { name: rebase, summpart: [dll,cygwin], setname: cygwin-rebase }
+- { name: rebase, wwwpart: cygwin, setname: cygwin-rebase }
 - { name: rebase, wwwpart: rebase.neb.com, setname: rebase-enzyme }
-- { name: rebase, summpart: enzyme, setname: rebase-enzyme }
 - { name: rebase, addflag: unclassified }
 
 - { name: recorder, wwwpart: [c3d,tao-3d], setname: recorder-tracing-dinechin }
