@@ -388,7 +388,8 @@
 - { setname: gopro-vr-player,          name: gopro-vr-player-beta, weak_devel: true, nolegacy: true }
 - { setname: gopro-vr-player,          name: gopro-vrplayer }
 - { setname: gossip,                   name: sonatype-gossip } # ambiguous target namem split in 850
-- { setname: got,                      name: gotweb }
+- { setname: got,                      name: gameoftrees }
+- { setname: got,                      name: [gotweb,gotwebd,gotd], addflavor: true }
 - { setname: govendor,                 name: "go:github-kardianos-govendor" }
 - { setname: gpac,                     name: [gpac-headless, gpac-libgpac, gpac-mp4box], addflavor: true }
 - { setname: gpaste,                   name: gpaste-daemon, addflavor: true }
