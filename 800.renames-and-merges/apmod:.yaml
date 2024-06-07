@@ -10,6 +10,7 @@
 - { setname: "apmod:geoip",            name: "apmod:geoip2" }
 - { setname: "apmod:limitipconn",      name: "apmod:limitipconn2" }
 - { setname: "apmod:mono",             name: apache-mono }
+- { setname: "apmod:mpm-itk",          name: [mpm-itk, apmod:itk, httpd-itk, mod-itk] }
 - { setname: "apmod:perl",             name: "apmod:perl2" }
 - { setname: "apmod:perl",             name: mod-perl }
 - { setname: "apmod:perl",             name: "perl:mod-perl" }
