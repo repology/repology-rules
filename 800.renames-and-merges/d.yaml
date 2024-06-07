@@ -91,7 +91,9 @@
 - { setname: dino,                     name: dino-unstable, ignore: true }
 - { setname: dircproxy,                name: dircproxy-snapshot, weak_devel: true, nolegacy: true }
 - { setname: disable-c6,               name: disable-c6-systemd } # XXX: problem?
-- { setname: discord,                  name: discord-bin }
+- { setname: discord,                  name: [discord-bin, discord-arch-electron] }
+- { setname: discord,                  name: discord-electron-openasar, addflavor: true }
+- { setname: discord-ptb,              name: discord@ptb }
 - { setname: discordchatexporter,      name: [discordchatexporter-cli, discord-chat-exporter-cli], addflavor: cli }
 - { setname: discover,                 name: discover-snap, addflavor: snap }
 - { setname: discover,                 name: discover-git, weak_devel: true, nolegacy: true }
