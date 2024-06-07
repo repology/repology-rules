@@ -166,7 +166,7 @@
 - { setname: android-studio,           name: [android-studio-ide,android-studio-stable,androidstudio] }
 - { setname: android-tools,            name: adb, ruleset: openbsd }
 - { setname: android-tools,            namepat: "android-tools-[^-]+", ruleset: [freebsd,pkgsrc] }
-- { setname: android-tools,            namepat: android-platform-system-(core|extras), ruleset: debuntu }
+- { setname: android-tools,            name: [android-platform-system-core, android-platform-system-extras], addflavor: true }
 - { setname: android-udev-rules,       name: [android-udev, udev-android] }
 - { setname: angelscript,              namepat: "angelscript-?[0-9.-]+"}
 - { setname: angular.js,               name: angularjs }
