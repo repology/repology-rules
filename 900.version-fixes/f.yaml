@@ -65,6 +65,11 @@
 - { name: ffmpeg,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # openbsd, chocolatey, pkgsrc
 - { name: ffmpeg,                      ver: "4.2.3",                 ruleset: aur,         incorrect: true } # fake
 - { name: ffmpeg,                                                    ruleset: aur,         untrusted: true } # accused of fake 4.2.3
+- { name: ffmpegthumbnailer,           verpat: ".+20[0-9]{6}",                             snapshot: true }
+- { name: ffmpegthumbnailer,           ver: "2.2.3",                 ruleset: fedora,      incorrect: true }
+- { name: ffmpegthumbnailer,                                         ruleset: fedora,      untrusted: true } # accused of fake 2.2.3
+- { name: ffmpegthumbnailer,           releq: "2.2.3",               ruleset: haikuports,  incorrect: true }
+- { name: ffmpegthumbnailer,                                         ruleset: haikuports,  untrusted: true } # accused of fake 2.2.3~git
 - { name: ffmpegthumbs,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ffms2,                       ver: "2.23.1",                                      setver: "2.23" } # https://github.com/FFMS/ffms2/issues/313
 - { name: ffsb,                        ver: "6.0",                   ruleset: sisyphus,    incorrect: true }
