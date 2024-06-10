@@ -8,8 +8,7 @@
 - { name: kapow, wwwpart: [kapow.readthedocs.io,BBVA], setname: kapow-http-api }
 - { name: kapow, addflag: unclassified }
 
-- { name: kaptan, ruleset: kaos, setname: kaptan-kaos } # forked from pisi
-- { name: kaptan, ruleset: pisi, setname: kaptan-pisi }
+- { name: kaptan, wwwpart: pisi, setname: kaptan-pisi }
 - { name: kaptan, wwwpart: github.com/emre/kaptan, setname: "python:kaptan" }
 - { name: kaptan, addflag: unclassified }
 
