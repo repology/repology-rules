@@ -232,6 +232,7 @@
 - { name: arduino,                     ver: "0021",                                        ignore: true } # EPEL 6
 - { name: arduino-ctags,               verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: arduino-ctags,               verpat: ".*arduino.*",                              any_is_patch: true } # e.g. 5.8_arduino11; just e.g. 5.8 is also technically incorrect, but we're ok with .*arduino.* outdating it
+- { name: arena-chess,                 verpat: "(.*)beta",                                 setver: $1 } # meaningless beta suffix (upstream problem)
 - { name: argon2,                      ver: "20181109",              ruleset: haikuports,  incorrect: true }
 - { name: argon2,                                                    ruleset: haikuports,  untrusted: true }
 - { name: argp-standalone,             verpat: "20[0-9]{6}",                               snapshot: true }
