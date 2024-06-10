@@ -159,6 +159,7 @@
 - { setname: citra,                    name: citra-qt5, addflavor: true }
 - { setname: cityhash,                 name: libcityhash }
 - { setname: cjson,                    name: libcjson }
+- { setname: ck,                       name: libck }
 - { setname: ckeditor,                 name: ckeditor3 }
 - { setname: ckermit,                  name: [c-kermit] }
 - { setname: cl-asdf,                  name: uiop, addflavor: true }
@@ -218,8 +219,7 @@
 - { setname: codespell,                name: "python:codespell" }
 - { setname: coffee-script,            name: coffeescript } # XXX: problem
 - { setname: cog,                      name: cog-wpe } # ambiguous target name, split in 850
-- { setname: cogl,                     name: cogl-amdgpu-pro }
-- { setname: cogl,                     name: libcogl }
+- { setname: cogl,                     name: [libcogl,libcogl9,cogl-epel] }
 - { setname: cogl,                     namepat: "compat-cogl[0-9]+" }
 - { setname: coin-or-$1,               namepat: "coinor-(.*)" } # XXX: problem
 - { setname: coin-or-alps,             name: coinalps }
@@ -259,6 +259,7 @@
 - { setname: compp,                    name: "python:compp" }
 - { setname: compsize,                 name: btrfs-compsize }
 - { setname: comrak,                   name: "rust:comrak" }
+- { setname: concurrencykit,           name: concurrency-kit }
 - { setname: conda,                    name: "python:conda" }
 - { setname: conduit,                  name: [matrix-conduit, rust:matrix-conduit] }
 - { setname: conky,                    name: conky19 }

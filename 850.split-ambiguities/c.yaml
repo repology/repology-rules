@@ -28,8 +28,6 @@
 - { name: calc, wwwpart: darshanparajuli, setname: calc-darshanparajuli }
 - { name: calc, wwwpart: directory.fsf.org/project/calc, setname: "emacs:calc" }
 - { name: calc, wwwpart: alfredxing, setname: calc-alfredxing }
-- { name: calc, ruleset: hpux, setname: calc-richard-lloyd }
-- { name: calc, ruleset: [pld,solus], setname: calc-arbitrary-precision-calculator }
 - { name: calc, addflag: unclassified }
 
 # seemingly parts of single project, but still may have different versions
@@ -55,8 +53,6 @@
 - { name: camp, wwwpart: [tegesoft,greenjava,fw4spl-org,IRCAD], setname: camp-reflection }
 - { name: camp, addflag: unclassified }
 
-- { name: caps, wwwpart: softpres, ruleset: gentoo, setname: ipfdevlib }
-
 - { name: caret, wwwpart: [careteditor,caret.io], setname: caret-editor }
 - { name: caret, wwwpart: brainvis, setname: caret-neuro }
 - { name: caret, addflag: unclassified }
@@ -79,11 +75,8 @@
 - { name: ccl, wwwpart: cigi, setname: ccl-cigi-class-library }
 - { name: ccl, addflag: unclassified }
 
-- { name: cdcover, category: dev-tex, setname: "texlive:cdcover" }
 - { name: cdcover, sourceforge: cdcover, setname: cdcover-rschaeuble }
 - { name: cdcover, wwwpart: karlp, setname: cdcover-karlp }
-- { name: cdcover, ver: "0.9.1", setname: cdcover-karlp } # ancient ubuntu without url - version is unlikely to change
-- { name: cdcover, ruleset: aosc, setname: cdcover-rschaeuble }
 - { name: cdcover, addflag: unclassified }
 
 - { name: cde,                         setname: cdesktopenv, wwwpart: cdesktopenv } # desktop env. vs packaging tool
@@ -141,11 +134,14 @@
 - { name: cheetah, wwwpart: neuro-tech, setname: cheetah-webserver }
 - { name: cheetah, addflag: unclassified }
 
-- { name: chef, wwwpart: ebrowne72, setname: chef-text-converter }
-- { name: chef, ruleset: pkgsrc, setname: chef-text-converter } # XXX: problem
+- { name: chef, wwwpart: github.com/chef/ched, setname: chef-infra }
+- { name: chef, addflag: unclassified }
 
 - { name: cherry, wwwpart: turquoise-hexagon, setname: fonts:cherry }
 - { name: cherry, addflag: unclassified }
+
+- { name: chess, wwwpart: gnu, setname: gnuchess }
+- { name: chess, addflag: unclassified }
 
 - { name: chibi, wwwpart: scheme, setname: chibi-scheme }
 - { name: chibi, addflag: unclassified }
@@ -263,18 +259,13 @@
 - { name: crystal, wwwpart: kde, setname: crystal-theme }
 - { name: crystal, addflag: unclassified }
 
-- { name: cogl, ruleset: deepin,       setname: deepin-cogl } # fork?
-
 - { name: coral, wwwpart: caida, setname: coral-atm }
 - { name: coral, wwwpart: lmsalmel, setname: coral-seq }
 - { name: coral, wwwpart: mde.abo.fi, setname: coral-metamodelling-toolkit }
 - { name: coral, addflag: unclassified }
 
-- { name: chess, wwwpart: gnu.org,     setname: gnuchess                  }
-- { name: chess, category: Games/Boards, setname: gnuchess                  }
-
-- { name: ck,                          setname: ck-tcl, ruleset: gentoo, category: dev-tcltk }
-- { name: [ck,concurrency-kit,libck],  setname: concurrencykit } # XXX: move to 800?
+- { name: ck, wwwpart: concurrencykit, setname: concurrencykit }
+- { name: ck, addflag: unclassified }
 
 - { name: clac, sourceforge: clac, setname: clac-mborg }
 - { name: clac, wwwpart: soveran, setname: clac-soveran }
@@ -296,13 +287,11 @@
 
 - { name: clink, wwwpart: mridgers, setname: clink-cmd }
 - { name: clink, wwwpart: [free-electrons,bootlin.com], setname: clink-symlink }
-- { name: clink, ruleset: pld, setname: clink-net }
 - { name: clink, addflag: unclassified }
 
 - { name: clog, wwwpart: [clog-tool,clog-cli], setname: clog-changelog }
 - { name: clog, wwwpart: [tasktools,taskwarrior,gothenburgbitfactory], setname: clog-log-tail-utility }
 - { name: clog, wwwpart: webgroupmedia, setname: clog-c-logging-library }
-- { name: clog, ruleset: freebsd,  setname: clog-tcp-logger }
 - { name: clog, addflag: unclassified }
 
 - { name: cm, wwwpart: esrlabs, setname: chipmunk-log-analysis } # XXX: problem
@@ -387,8 +376,6 @@
 
 - { name: ctags, sourceforge: ctags, setname: exuberant-ctags }
 - { name: ctags, wwwpart: [universal,ctags.io], setname: universal-ctags }
-- { name: ctags, verpat: "5\\.[78].*", setname: exuberant-ctags }
-- { name: ctags, ruleset: [aosc], setname: universal-ctags }
 - { name: ctags, addflag: unclassified }
 
 - { name: ctop, wwwpart: [bcicen,ctop.sh], setname: ctop-bcicen }

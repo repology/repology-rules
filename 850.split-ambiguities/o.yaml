@@ -61,12 +61,12 @@
 - { name: opa, addflag: unclassified }
 
 - { name: opal, sourceforge: opal, setname: opal-physics }
-- { name: opal, wwwpart: [opalvoip,gnome,ekiga,openh323], setname: opal-voip }
-- { name: opal, ruleset: [pld,salix,pclinuxos], setname: opal-voip }
+- { name: opal, wwwpart: opalvoip, setname: opal-voip }
 - { name: opal, addflag: unclassified }
 
-- { name: openal, ruleset: [pkgsrc,chocolatey,freebsd,macports], setname: openal-creative }
-- { name: openal, setname: openal-soft } # most openal's are openal-soft, even if they erroneously list openal.org as a website
+- { name: openal, wwwpart: openal.org, setname: openal-creative }
+- { name: openal, wwwpart: openal-soft, setname: openal-soft }
+- { name: openal, addflag: unclassified }
 
 - { name: openbox-themes, wwwpart: openbox.org, setname: openbox, addflavor: themes } # slitaz
 
@@ -103,8 +103,6 @@
 - { name: orion, wwwpart: shimmerproject, setname: "gtktheme:orion" }
 - { name: orion, wwwpart: siderus, setname: orion-ifps }
 - { name: orion, addflag: unclassified }
-
-- { name: orrery, ruleset: maemo, setname: orrery-maemo }
 
 - { name: osh, wwwpart: oilshell, setname: oil-shell }
 - { name: osh, wwwpart: v6shell, setname: v6shell }
