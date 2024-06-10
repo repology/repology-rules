@@ -1,10 +1,5 @@
 # vim: tabstop=29 expandtab softtabstop=29 nomodeline
 
-# distro-specific
-- { name: aaa-base, ruleset: opensuse, setname: $0-opensuse }
-- { name: aaa-base, ruleset: slackware, setname: $0-slackware }
-- { name: aaa-base, addflag: unclassified }
-
 - { name: abc, wwwpart: appbaseio, setname: abc-appbase-cli }
 - { name: abc, wwwpart: berkeley, setname: berkeley-abc }
 - { name: abc, addflag: unclassified }

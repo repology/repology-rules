@@ -1,7 +1,5 @@
 # vim: tabstop=29 expandtab softtabstop=29 nomodeline
 
-- { name: lander, ruleset: solus, setname: lander-kevinarefunny }
-
 - { name: lava, wwwpart: lavasoftware.org, setname: lava-linaro }
 - { name: lava, wwwpart: haiku, setname: lava-haiku }
 - { name: lava, wwwpart: iwantmyname, setname: lava-couchdb }
@@ -12,7 +10,6 @@
 - { name: lci, addflag: unclassified }
 
 - { name: ldm, wwwpart: LemonBoy, setname: ldm-mounter }
-- { name: ldm, ruleset: nix, setname: ldm-mounter }
 - { name: ldm, wwwpart: ltsp, setname: ldm-ltsp }
 - { name: ldm, addflag: unclassified }
 
@@ -81,13 +78,9 @@
 
 - { name: libkeepalive, wwwpart: nemomobile, setname: namo-keepalive }
 
-- { name: libmd, ruleset: dports, setname: libmd-dragonflybsd }
-
 - { name: libmfx, wwwpart: mfx_dispatch, setname: mfx-dispatch }
 - { name: libmfx, wwwpart: intel-media-sdk, setname: intel-media-sdk }
 - { name: libmfx, addflag: unclassified }
-
-- { name: libmpack, ruleset: solus, setname: "lua:mpack" }
 
 - { name: libmpc, wwwpart: multiprecision, setname: gnumpc }
 - { name: libmpc, wwwpart: musepack, setname: musepack }
@@ -119,8 +112,6 @@
 - { name: libtree, wwwpart: haampie, setname: libtree-ldd }
 - { name: libtree, wwwpart: piumarta, setname: libtree-avl }
 - { name: libtree, addflag: unclassified }
-
-- { name: libucl, ruleset: openwrt, setname: ucl }
 
 - { name: libunicode, wwwpart: courier, setname: courier-unicode }
 
@@ -169,10 +160,9 @@
 - { name: lit, wwwpart: llvm, setname: lit-llvm }
 - { name: lit, addflag: unclassified }
 
-# gentoo vs. fedora livecd-tools
-- { name: livecd-tools,                wwwpart: gentoo, setname: livecd-tools-gentoo }
-- { name: livecd-tools,                category: app-misc, ruleset: gentoo, setname: livecd-tools-gentoo }
-- { name: livecd-tools,                setname: "$0-fedora" }
+- { name: livecd-tools, wwwpart: gentoo, setname: $0-gentoo }
+- { name: livecd-tools, wwwpart: [fedora,github.com/livecd-tools/livecd-tools], setname: $0-fedora }
+- { name: livecd-tools, addflag: unclassified }
 
 - { name: lix, wwwpart: [lixgame.com,SimonN], setname: lix-game }
 - { name: lix, wwwpart: lix.systems, setname: lix-nix }
@@ -202,7 +192,6 @@
 - { name: loki, wwwpart: c0decafe, setname: loki-packet-generation-framework }
 - { name: loki, wwwpart: grafana, setname: grafana-loki } # name already used in nix
 - { name: loki, wwwpart: loki-lib, setname: loki-lib }
-- { name: loki, ruleset: debuntu, setname: loki-mcmc-linkage-analysis } # XXX: problem
 - { name: loki, addflag: unclassified }
 
 - { name: loko, wwwpart: scheme, setname: loko-scheme }
@@ -215,8 +204,6 @@
 
 - { name: lookup, wwwpart: [lookup2.github.io,ikazuhiro,edict], setname: "emacs:lookup" }
 - { name: lookup, wwwpart: dnssec-tools, setname: lookup-dns }
-- { name: lookup, ver: "1.08b", setname: lookup-search }
-- { name: lookup, ruleset: maemo, setname: lookup-dns }
 - { name: lookup, addflag: unclassified }
 
 - { name: "lua:path", wwwpart: lua-path, setname: "lua:lua-path" }

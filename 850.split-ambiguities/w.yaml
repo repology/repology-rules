@@ -4,7 +4,10 @@
 - { name: wakatime, wwwpart: mac, setname: macos-wakatime }
 - { name: wakatime, addflag: unclassified }
 
-- { name: wakeonlan, ruleset: slackbuilds, setname: "python:wakeonlan" }
+- { name: wakeonlan, wwwpart: GramThanos, setname: wakeonlan-gramthanos }
+- { name: wakeonlan, wwwpart: jpoliv, setname: wakeonlan-jpoliv }
+- { name: wakeonlan, wwwpart: remcohaszing, setname: "python:wakeonlan" }
+- { name: wakeonlan, addflag: unclassified }
 
 - { name: warp, wwwpart: facebook, setname: warp-preprocessor }
 - { name: warp, wwwpart: one.one.one.one, setname: warp-vpn }
@@ -43,7 +46,6 @@
 - { name: whereami, wwwpart: gpakosz, setname: whereami-gpakosz } # Locate the current executable and the current module/library on the file system
 - { name: whereami, wwwpart: kootenpv, setname: whereami-kootenpv } # Uses WiFi signals and machine learning to predict where you are
 - { name: whereami, wwwpart: pjp, setname: whereami-pjp } # displays information about machine(location) you are working on
-- { name: whereami, ruleset: debuntu, setname: whereami-debian } # Automatically reconfigure your (laptop) system for a new location based of wifi hotspots
 - { name: whereami, addflag: unclassified }
 
 - { name: wind, sourceforge: windwm, setname: wind-wm }
@@ -55,8 +57,6 @@
 
 - { name: wipe, sourceforge: wipe, setname: wipe-nester }
 - { name: wipe, wwwpart: [berke,lambda-diode,abaababa], setname: wipe-berke }
-- { name: wipe, ruleset: pclinuxos, setname: wipe-nester }
-- { name: wipe, ruleset: pld, setname: wipe-berke }
 - { name: wipe, addflag: unclassified }
 
 - { name: wise, wwwpart: jboss, setname: jboss-wise }
@@ -68,7 +68,6 @@
 
 - { name: wok, wwwpart: kimchi, setname: wok-plugins-kimchi }
 - { name: wok, wwwpart: mythmon, setname: wok-generator }
-- { name: wok, ruleset: maemo, setname: wok-game }
 - { name: wok, addflag: unclassified }
 
 - { name: woof, wwwpart: fabiangreffrath, setname: woof-doom }
@@ -100,4 +99,6 @@
 - { name: ws, addflag: unclassified }
 
 - { name: wtf, wwwpart: wtfutil, setname: wtfutil }
-- { name: wtf, ruleset: pclinuxos, setname: wtfutil }
+- { name: wtf, sourceforge: bsdwtf, setname: bsdwtf }
+- { name: wtf, sourceforge: wtf, addflavor: classified }
+- { name: wtf, addflag: unclassified }

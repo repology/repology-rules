@@ -43,6 +43,8 @@
 - { name: bcal,                                                      ruleset: freebsd,     untrusted: true } # accused of fake 2.1.12
 - { name: bcm20702a1-firmware,         verpat: "[0-9]{7}",                                 ignore: false } # unignore global rule from 900/0.yaml
 - { name: bdfresize,                   verpat: ".*-.*",                                    debianism: true }
+- { name: beanshell,                   ver: "2.1.9",                 ruleset: kaos,        incorrect: true } # beanshell2
+- { name: beanshell,                                                 ruleset: kaos,        untrusted: true } # accused of fake 2.1.9
 - { name: beautyline,                                                                      noscheme: true }
 - { name: beef-browser-exploitation,   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: bees,                        verpat: ".*20[0-9]{6}",                             snapshot: true }

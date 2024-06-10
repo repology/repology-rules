@@ -128,8 +128,6 @@
 - { name: nsnake, sourceforge: nsnake, setname: nsnake-alexdantas }
 - { name: nsnake, addflag: unclassified }
 
-- { name: nstat, ruleset: freebsd, setname: nstat-netflix }
-
 - { name: ntfy, wwwpart: [binwiederhier, ntfy.sh], setname: ntfy-binwiederhier }
 - { name: ntfy, wwwpart: [dschep, ntfy.readthedocs.io], setname: ntfy-dschep }
 - { name: ntfy, addflag: unclassified }
@@ -139,7 +137,8 @@
 - { name: nu, addflag: unclassified }
 
 - { name: nut, sourceforge: nut, setname: nut-nutrition }
-- { name: nut, ruleset: hpux, setname: nut-nutrition }
+- { name: nut, wwwpart: networkupstools, setname: network-ups-tools }
+- { name: nut, addflag: unclassified }
 
 - { name: nvi, verpat: "2\\..*",       setname: nvi2 }
 

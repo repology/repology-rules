@@ -164,8 +164,6 @@
 
 - { name: shinonome, wwwpart: openlab, setname: "fonts:shinonome" }
 
-- { name: shutter, ruleset: maemo, setname: shutter-maemo }
-
 - { name: shuttle, wwwpart: [shuttle.rs,shuttle-hq], setname: "rust:cargo-shuttle" }
 - { name: shuttle, wwwpart: fitztrev, setname: shuttle-macos-shortcut-menu }
 - { name: shuttle, addflag: unclassified }
@@ -294,8 +292,6 @@
 - { name: smc, wwwpart: secretmaryo, setname: secret-maryo-chronicles }
 - { name: smc, sourceforge: smc, setname: smc-state-machine-compiler }
 - { name: smc, addflag: unclassified }
-
-- { name: smem, verpat: "2007.*", ruleset: gentoo, setname: smem.pl } # unrelated python script
 
 - { name: sn, wwwpart: standardnotes, setname: standardnotes }
 # otherwise, dead "Hassle-free Usenet news system for small sites"
@@ -499,7 +495,8 @@
 - { name: stk, wwwpart: kaolin, setname: stk-scheme }
 - { name: stk, addflag: unclassified }
 
-- { name: stone, ruleset: t2, setname: stone-t2 }
+- { name: stone, wwwpart: gengoku, setname: stone-packet-repeater }
+- { name: stone, addflag: unclassified }
 
 - { name: storm, wwwpart: apache, setname: apache-storm }
 - { name: storm, wwwpart: canonical, setname: "python:storm" }

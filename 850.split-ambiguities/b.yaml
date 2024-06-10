@@ -67,7 +67,6 @@
 
 - { name: bcc, wwwpart: iovisor, setname: bcc-bpf }
 - { name: bcc, wwwpart: wormt, setname: bcc-compiler }
-- { name: bcc, ruleset: [freebsd,pkgsrc,openindiana,pld], setname: bcc-bruceevans }
 - { name: bcc, addflag: unclassified }
 
 - { name: bcd, wwwpart: mandriva, setname: bcd-mandriva }
@@ -85,8 +84,6 @@
 - { name: beaker, wwwpart: [beaker.readthedocs.io,pypi], setname: "python:beaker" }
 - { name: beaker, wwwpart: beaker-project, setname: beaker-integration-testing }
 - { name: beaker, addflag: unclassified }
-
-- { name: beanshell, ruleset: kaos,                       setname: beanshell2 }
 
 - { name: bear, wwwpart: j-jorge, setname: bear-engine }
 - { name: bear, wwwpart: rizsotto, setname: bear-clang }
@@ -164,8 +161,7 @@
 - { name: blast, addflag: unclassified }
 
 - { name: bless, wwwpart: bless-ec, setname: bless-ngs-error-correction }
-- { name: bless, wwwpart: [afrantzis,bwrsandman,gna.org/bless,debian], setname: bless-hex-editor }
-- { name: bless, ruleset: aosc, setname: bless-hex-editor }
+- { name: bless, wwwpart: afrantzis, setname: bless-hex-editor }
 - { name: bless, addflag: unclassified }
 
 - { name: blink, wwwpart: icanblink, setname: blink-sip-client }
