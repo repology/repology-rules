@@ -67,7 +67,8 @@
 - { name: open-vm-tools,               verpat: ".*[0-9]{8}",                               altver: true } # used in tarballs, see https://github.com/vmware/open-vm-tools/releases
 - { name: open2300,                    ver: "1.12",                  ruleset: openwrt,     incorrect: true } # latest version is 1.10
 - { name: openafs,                     verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
-- { name: openal-creative,             ver: "20060211",                                    ignore: true } # freebsd (should probably be 0.0.8)
+- { name: openal-creative,             verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: openal-creative,             verge: "1.15",                                      incorrect: true } # openal-soft
 - { name: openaptx,                                                                        noscheme: true }
 - { name: openarena,                                                 ruleset: os4depot,    incorrect: true }
 - { name: openasar,                                                                        noscheme: true }
