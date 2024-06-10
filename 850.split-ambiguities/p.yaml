@@ -85,12 +85,8 @@
 - { name: pastel, wwwpart: japplis, setname: jappis-pastel }
 - { name: pastel, addflag: unclassified }
 
-- { name: pcl, summpart: coroutine, setname: pcl-coroutines }
 - { name: pcl, wwwpart: xmailserver, setname: pcl-coroutines }
-- { name: pcl, summpart: cloud, setname: pcl-pointclouds }
 - { name: pcl, wwwpart: pointcloud, setname: pcl-pointclouds }
-- { name: pcl, verpat: "[0-9]+(\\.[0-9]+)", setname: pcl-coroutines }
-- { name: pcl, verpat: "[0-9]+(\\.[0-9]+){2}", setname: pcl-pointclouds }
 - { name: pcl, addflag: unclassified }
 
 - { name: pdcurses, wwwpart: [projectpluto,bill-gray], setname: pdcurses-billgray } # fork https://github.com/Bill-Gray/PDCurses
@@ -105,9 +101,8 @@
 - { name: perseus, wwwpart: nanda, setname: perseus-persistent-homology }
 - { name: perseus, addflag: unclassified }
 
-- { name: pfff, wwwpart: facebook, setname: pfff-code-analysis }
-- { name: pfff, summpart: "code analysis", setname: pfff-code-analysis }
-- { name: pfff, wwwpart: "cs.ut.ee", setname: pfff-fingerprint }
+# Probabilistic fast file fingerprinting tool, dead upstream
+# Code analysis tool, no longer packaged anywhere
 - { name: pfff, addflag: unclassified }
 
 - { name: pg-top, wwwpart: cpan, setname: "perl:pgtop" }
@@ -231,10 +226,7 @@
 - { name: polly, addflag: unclassified }
 
 - { name: polyglot, wwwpart: universaldevices, setname: polyglot-udi }
-- { name: polyglot, wwwpart: [ridderkerk,uhasselt,chess], setname: polyglot-chess }
-- { name: polyglot, category: [games,universe/games], setname: polyglot-chess }
-- { name: polyglot, summpart: chess, setname: polyglot-chess }
-- { name: polyglot, ruleset: pureos, setname: polyglot-chess }
+- { name: polyglot, wwwpart: [ridderkerk,chess], setname: polyglot-chess }
 - { name: polyglot, addflag: unclassified }
 
 - { name: pop, wwwpart: charm, setname: pop-email-sender }
@@ -249,9 +241,8 @@
 - { name: portmaster, wwwpart: safing, setname: portmaster-firewall }
 - { name: portmaster, addflag: unclassified }
 
-- { name: postal, summpart: [game,shooter], setname: postal-game }
+- { name: postal, wwwpart: runningwithscissors, setname: postal-game }
 - { name: postal, wwwpart: coker, setname: postal-benchmark }
-- { name: postal, ruleset: debuntu, setname: postal-benchmark }
 - { name: postal, addflag: unclassified }
 
 - { name: poster, setname: "python:poster", category: python } # python module, not a postscript utility

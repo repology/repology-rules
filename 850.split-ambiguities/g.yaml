@@ -37,7 +37,6 @@
 - { name: gdl, addflag: unclassified }
 
 - { name: gdm, wwwpart: gnome, setname: gdm-gnome-display-manager }
-- { name: gdm, summpart: gnome, setname: gdm-gnome-display-manager }
 - { name: gdm, wwwpart: sparrc, setname: gdm-go-dependency-manager }
 - { name: gdm, addflag: unclassified }
 
@@ -209,10 +208,8 @@
 - { name: gossip, wwwpart: mikedilger, setname: gossip-nostr }
 - { name: gossip, addflag: unclassified }
 
-- { name: gosu, wwwpart: tianon, addflag: classified }
-- { name: gosu, summpart: setuid, addflag: classified }
-- { name: gosu, wwwpart: libgosu, setname: "ruby:gosu" }
-- { name: gosu, summpart: "game development", setname: "ruby:gosu" }
+- { name: gosu, wwwpart: tianon, setname: gosu-su }
+- { name: gosu, wwwpart: libgosu.org, setname: ruby:gosu }
 - { name: gosu, wwwpart: gosu-lang, setname: gosu-lang }
 - { name: gosu, addflag: unclassified }
 
@@ -250,12 +247,9 @@
 - { name: grin, addflag: unclassified }
 
 - { name: grip, sourceforge: grip, setname: grip-cd-ripper }
-- { name: grip, wwwpart: nostatic.org/grip, setname: grip-cd-ripper }
 - { name: grip, wwwpart: kokoko3k, setname: grip-gambas-previewer }
 - { name: grip, wwwpart: joeyespo, setname: grip-markdown-preview }
 - { name: grip, wwwpart: wpiroboticsprojects, setname: grip-computer-vision }
-- { name: grip, summpart: ripper, setname: grip-cd-ripper }
-- { name: grip, ruleset: [pld], setname: grip-cd-ripper }
 - { name: grip, addflag: unclassified }
 
 - { name: grit, wwwpart: devkitpro, setname: grit-image-transmogrifier }

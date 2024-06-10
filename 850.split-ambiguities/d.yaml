@@ -30,7 +30,6 @@
 - { name: dash, wwwpart: dash.el, setname: "emacs:dash" }
 - { name: dash, wwwpart: [dashpay,dash.org], setname: dashcore }
 - { name: dash, wwwpart: herbert, setname: dash-shell }
-- { name: dash, summpart: shell, setname: dash-shell }
 - { name: dash, addflag: unclassified }
 
 - { name: date, wwwpart: HowardHinnant, setname: howard-hinnant-date }
@@ -73,9 +72,7 @@
 - { name: deco, wwwpart: [peha,hartlich,extract], setname: deco-extractor }
 - { name: deco, addflag: unclassified }
 
-- { name: delta, wwwpart: tigris, setname: delta-file-minimizer }
 - { name: delta, wwwpart: dandavison, setname: git-delta }
-- { name: delta, summpart: minimizer, setname: delta-file-minimizer }
 - { name: delta, addflag: unclassified }
 
 - { name: deltachat, wwwpart: desktop, setname: deltachat-desktop }
@@ -115,10 +112,8 @@
 - { name: di, wwwpart: boost, setname: boost-di }
 
 - { name: diamond, wwwpart: python-diamond, setname: diamond-graphite-collector }
-- { name: diamond, wwwpart: [uni-tuebingen.de,bbuchfink], setname: diamond-aligner }
+- { name: diamond, wwwpart: bbuchfink, setname: diamond-aligner }
 - { name: diamond, wwwpart: lattice, setname: diamond-lattice-fpga-tools }
-- { name: diamond, summpart: aligner, setname: diamond-aligner }
-- { name: diamond, ruleset: pld, setname: diamond-graphite-collector }
 - { name: diamond, addflag: unclassified }
 
 - { name: diaspora, verpat: "1\\.[0-9]+\\.[0-9]+", setname: diaspora-game }
@@ -134,7 +129,6 @@
 
 - { name: dino, wwwpart: [dino.im, github.com/dino/dino], setname: dino-im }
 - { name: dino, wwwpart: dino.nongnu.org, setname: dino-midi }
-- { name: dino, summpart: [xmpp,jabber], setname: dino-im }
 - { name: dino, addflag: unclassified }
 
 - { name: discord, wwwpart: xnblank, setname: discord-linux }
@@ -142,11 +136,7 @@
 
 - { name: discover, wwwpart: discoverd, setname: discoverd }
 - { name: discover, wwwpart: launchpad.net/discover, setname: discover-hardware-identification }
-- { name: discover, ruleset: debuntu, setname: discover-hardware-identification }
 - { name: discover, wwwpart: kde.org, setname: plasma-discover }
-- { name: discover, summpart: plasma, setname: plasma-discover }
-- { name: discover, category: kde, setname: plasma-discover }
-- { name: discover, ruleset: kaos, setname: plasma-discover }
 - { name: discover, addflag: unclassified }
 
 - { name: disktype, wwwpart: kamwoods, setname: disktype-kamwoods } # fork
@@ -201,11 +191,9 @@
 - { name: dpp, addflag: unclassified }
 
 - { name: dragon, wwwpart: kde.org, setname: dragon-player }
-- { name: dragon, category: [kde,multimedia], setname: dragon-player } # aosc, openbsd
 - { name: dragon, wwwpart: comodo, setname: dragon-comodo }
 - { name: dragon, wwwpart: mwh, setname: dragon-drag-and-drop }
-- { name: dragon, summpart: player, setname: dragon-player }
-- { name: dragon, summpart: parser, setname: dragon-scannerparser }
+- { name: dragon, wwwpart: lemke-it.com, setname: dragon-parser-generator }
 - { name: dragon, addflag: unclassified }
 
 - { name: drake, wwwpart: ytomino, setname: drake-ada }
@@ -220,8 +208,6 @@
 
 - { name: draw, wwwpart: drawio-desktop, setname: drawio-desktop }
 - { name: draw, addflag: unclassified }
-
-- { name: drbd, summpart: user-land, setname: drbd-utils } # fedora
 
 - { name: drgeo, wwwpart: drgeo.eu, setname: gnu-drgeo }
 

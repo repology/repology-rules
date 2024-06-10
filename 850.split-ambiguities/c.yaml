@@ -75,7 +75,9 @@
 - { name: catalyst, addflag: unclassified }
 
 # Clozure Common Lisp interpreter and compiler vs. CIGI Class Library
-- { name: ccl, summpart: cigi, setname: cigi-ccl }
+- { name: ccl, wwwpart: clozure, setname: ccl-clozure }
+- { name: ccl, wwwpart: cigi, setname: ccl-cigi-class-library }
+- { name: ccl, addflag: unclassified }
 
 - { name: cdcover, category: dev-tex, setname: "texlive:cdcover" }
 - { name: cdcover, sourceforge: cdcover, setname: cdcover-rschaeuble }
@@ -280,7 +282,6 @@
 
 - { name: clean, wwwpart: clean.cs, setname: clean-lang }
 - { name: clean, sourceforge: clean, setname: clean-file-remover }
-- { name: clean, summpart: "programming language", setname: clean-lang }
 - { name: clean, addflag: unclassified }
 
 - { name: cli, wwwpart: github.com/cli/cli, setname: github-cli }

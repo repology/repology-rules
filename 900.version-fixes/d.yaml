@@ -169,6 +169,7 @@
 - { name: dragon-player,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: drawterm,                                                                        noscheme: true }
 - { name: drawxtl,                     verpat: "[0-9]+",                                   incorrect: true } # 5.5, not 55
+- { name: drbd,                                                      ruleset: [nix,fedora], untrusted: true } # drbd-utils, not drbd
 - { name: drbl,                        vergt: "2.30.5",                                    devel: true, maintenance: true } # https://free.nchc.org.tw/drbl-core/src/stable/, see also clonezilla
 - { name: dreampie,                    ver: "1.3.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: dreampie,                                                  ruleset: sisyphus,    untrusted: true }
