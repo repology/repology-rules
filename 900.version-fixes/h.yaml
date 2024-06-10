@@ -1,5 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
+- { name: h2o,                         verpat: ".*d\\.20[0-9]{6}",                         incorrect: true }
+- { name: h2o,                         verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: ha,                          ver: ["0999", "0.999p"],                            incorrect: true }
 - { name: hackrf,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: handbrake,                   verpat: "[0-9]{4}.*",                               snapshot: true } # trisquel
