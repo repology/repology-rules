@@ -161,9 +161,9 @@
 - { setname: drakconf,                 name: $0-legacy }
 - { setname: drawio-desktop,           name: [draw.io,drawio] }
 - { setname: drbd,                     namepat: "drbd[0-9]+" }
-- { setname: drbd,                     name: [drbd-doc,drbd-kernel,drbd-kmod], addflavor: true }
-- { setname: drbd,                     name: drbd90-kmod, addflavor: drbd-kmod }
-- { setname: drbd-utils,               name: drbd90-utils }
+- { setname: drbd,                     name: drbd-doc, addflavor: true }
+- { setname: drbd,                     name: [drbd-kernel, drbd-kmod, drbd90-kmod, drbd84-kmod] }
+- { setname: drbd-utils,               name: [drbd90-utils, drbd84-utils] }
 - { setname: drbl,                     name: drbl-experimental, ignore: true }
 - { setname: dreampie,                 name: "python:dreampie" }
 - { setname: drgeo,                    name: drgeo1 }
