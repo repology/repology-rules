@@ -76,7 +76,7 @@
 - { setname: sddm,                     name: [sddm-classic,sddm-elogind], addflavor: true }
 - { setname: sdkmanager,               name: "python:$0" }
 - { setname: sdl,                      name: [libsdl,sdl1,sdl12,libsdl1.2] }
-- { setname: sdl,                      name: sdl-runtime, addflavor: true }
+- { setname: sdl,                      name: [sdl-runtime,sdl-nokbgrab,sdl-openglhq,sdl-openglhq-nokbgrab], addflavor: true }
 - { setname: sdl-$1,                   namepat: "(?:lib)?sdl(?:1[0-9.]*)?-?(image|mixer|net|ttf|gfx)(?:1[0-9.-]*)?" }
 - { setname: sdl-pango,                name: [libsdl-pango,sdlpango,sdl-pango1,sdl1-pango] }
 - { setname: sdl-sge,                  name: libsdl-sge }
@@ -90,6 +90,10 @@
 - { setname: sdl2-image,               name: sdl-image, verpat: "2.*" }
 - { setname: sdl2-image,               name: sdl2-image-minimal, addflavor: true }
 - { setname: sdl3,                     name: libsdl3 }
+- { setname: sdl3-image,               name: libsdl3-image }
+- { setname: sdl3-mixer,               name: libsdl3-mixer }
+- { setname: sdl3-net,                 name: libsdl3-net }
+- { setname: sdl3-ttf,                 name: libsdl3-ttf }
 - { setname: sdlconsole,               name: [libsdl-console,sdl-console] }
 - { setname: sdllopan,                 name: sdl-lopan }
 - { setname: sdlmame,                  name: sdlmame-wout-toolkits, addflavor: wout-toolkits }
