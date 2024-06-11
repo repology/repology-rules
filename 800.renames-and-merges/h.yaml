@@ -56,7 +56,7 @@
 - { setname: hledger$1,                namepat: "haskell:hledger(.*)" } # note: has overlapping reverse rule in 800.renames-and-merges.haskell
 - { setname: hmm,                      name: rust:hmmcli }
 - { setname: hmmer,                    namepat: "hmmer[0-9.-]+" }
-- { setname: home-assistant,           name: homeassistant }
+- { setname: home-assistant,           name: [homeassistant,hass,python:homeassistant] }
 - { setname: horde,                    name: horde3 }
 - { setname: hostapd,                  name: [hostapd-rtl,hostapd-rtl871xdrv,hostapd1] }
 - { setname: howard-hinnant-date,      name: [hhdate,hinnant-date,chrono-date] }
