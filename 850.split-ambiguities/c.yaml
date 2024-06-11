@@ -285,8 +285,9 @@
 # also unprefixed python:click
 - { name: click, addflag: unclassified }
 
-- { name: clink, wwwpart: mridgers, setname: clink-cmd }
+- { name: clink, wwwpart: [mridgers,chrisant996], setname: clink-cmd }
 - { name: clink, wwwpart: [free-electrons,bootlin.com], setname: clink-symlink }
+- { name: clink, wwwpart: Lurk, setname: clink-url-cleaner }
 - { name: clink, addflag: unclassified }
 
 - { name: clog, wwwpart: [clog-tool,clog-cli], setname: clog-changelog }
