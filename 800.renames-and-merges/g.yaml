@@ -127,6 +127,7 @@
 - { setname: giflib,                   name: [giflib4,libgif,libungif,compat-giflib,giflib5.0,giflib5] } # libungif is a former name
 - { setname: gimagereader,             name: gimagereader-beta, devel: true }
 - { setname: gimagereader,             name: gimagereader-qt5, addflavor: qt5 }
+- { setname: gimoji,                   name: rust:$0 }
 - { setname: gimp,                     name: [gimp-app,gimp-with-plugins,"python:gimp",gimp-stripped], addflavor: true }
 - { setname: gimp,                     name: gimp2 }
 - { setname: gimp,                     name: [gimp-devel,gimp3-devel,gimp-git,gimp3,gimp-gtk3,gimp.nightly,gimp-devel-stripped,gimp-dev,gimp-develop], weak_devel: true, nolegacy: true }
