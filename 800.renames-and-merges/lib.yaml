@@ -310,6 +310,7 @@
 - { setname: libtsm,                   name: [libtsm-asciinema,libtsm-patched] }
 - { setname: libtubo,                  name: [tubo,libtubo0] }
 - { setname: libucl,                   name: [libucl1, libucl5] }
+- { setname: libucl,                   name: python:ucl, addflavor: python }
 - { setname: libunique,                namepat: "libunique[0-9.-]+" }
 - { setname: libunique,                name: [libunique-doc,libunique-gtk3], addflavor: true }
 - { setname: libunique,                name: unique3 }
