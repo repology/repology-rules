@@ -18,6 +18,7 @@
 - { setname: icecat,                   name: [$0-debug,$0-bin,$0-minimal], addflavor: true }
 - { setname: icecat,                   namepat: "icecat-(l10n.*)", addflavor: $1 }
 - { setname: icedove,                  namepat: "icedove-(l10n.*)", addflavor: $1 }
+- { setname: icedove,                  name: [icedove-minimal, icedove-wayland], addflavor: true }
 - { setname: icedtea-web,              name: [icedtea-web-java7,adoptopenjdk-icedtea-web,mozilla-plugin-java-1.8.0-openjdk] }
 - { setname: icemon,                   name: [icecream-monitor, icecc-monitor] }
 - { setname: ices,                     namepat: "ices[0-9]+" }
