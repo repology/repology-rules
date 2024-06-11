@@ -403,6 +403,8 @@
 - { setname: sumo,                     name: eclipse-sumo }
 - { setname: sunsetscreen,             name: sunset-screen } # grr, windows-only
 - { setname: supermicro-update-manager, name: smc-sum }
+- { setname: superset,                 name: python:apache-superset }
+- { setname: superset,                 name: superset-venv, addflavor: true }
 - { setname: superslicer,              name: superslicer-prerelease , weak_devel: true, nolegacy: true }
 - { setname: superslicer,              name: super-slicer }
 - { setname: supertransball2,          name: [stransball2,super-transball] }
