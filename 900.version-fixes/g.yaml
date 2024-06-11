@@ -265,6 +265,11 @@
 - { name: googlecl,                                                  ruleset: freebsd,     untrusted: true }
 - { name: goom,                        verpat: "2004(.*)",                                 setver: "2k4$1" }
 - { name: gopher,                      ver: "3.0.17.3",              ruleset: debuntu,     incorrect: true } # latest is 3.0.17
+- { name: gorilla,                     verpat: "[0-9]{4}.*",                               incorrect: true }
+- { name: gorilla,                     releq: "1.6.0",               ruleset: kali,        incorrect: true }
+- { name: gorilla,                                                   ruleset: kali,        untrusted: true } # accused of fake 1.6.0~git20180203.228bbbb
+- { name: gorilla,                     ver: "1.5.3.8",               ruleset: openmandriva, incorrect: true }
+- { name: gorilla,                                                   ruleset: openmandriva, untrusted: true } # accused of fake 1.5.3.8
 - { name: gotags,                      verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: gotktrix,                    verpat: "[0-9]{3}.*",                               incorrect: true } # mpr
 - { name: gotktrix,                                                  ruleset: mpr,         untrusted: true } # accused of fake 362.1876

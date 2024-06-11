@@ -152,6 +152,7 @@ rulesets = families + [
     'funtoo',
     'gnuelpa',
     'hyperbola',
+    'kali',
     'kaos_build',
     'liguros',
     'maemo',
