@@ -394,6 +394,12 @@
 - { setname: pypy,                     namepat: "(?:python:)?pypy[0-9.-]*(-tkinter|-bin)?", addflavor: $1 }
 - { setname: pypy,                     name: [pypy-bootstrap, pypy-tkinter], addflavor: true }
 - { setname: pyradio,                  name: python:$0 }
+- { setname: pyside,                   name: python:pyside }
+- { setname: pyside-tools,             name: python:pyside-tools }
+- { setname: pyside2,                  name: [python:pyside2, python:pyside-2] }
+- { setname: pyside2,                  name: [python:pyside2-tools, python:pyside-2-tools], addflavor: tools }
+- { setname: pyside6,                  name: [python:pyside6, python:pyside-6] }
+- { setname: pyside6,                  name: [python:pyside6-tools, python:pyside-6-tools], addflavor: tools }
 - { setname: pyspread,                 name: "python:pyspread" }
 - { setname: pythia,                   name: [pythia8, "python:pythia8", pythia6] }
 - { setname: python,                   name: python-exp } # scoop
