@@ -353,6 +353,7 @@
 - { name: automake,                    verpat: "[0-9]+",                                   incorrect: true } # cygwin
 - { name: automoc,                     ver: "1.0",                   ruleset: debuntu,     incorrect: true } # 1.0~version-0.9.88 in fact
 - { name: autopep8,                    verpat: "2.*",                ruleset: hyperbola,   ignore: true }
+- { name: autorandr,                   verpat: ".*\\.[0-9]{10}",                           snapshot: true } # opensuse
 - { name: autotools,                                                                       noscheme: true }
 - { name: autotrace,                   verpat: ".*20[0-9]{6}.*",                           snapshot: true } # 0.31.1 latest
 - { name: av1an,                       ver: ["5.5.4","6.1.5"],                             sink: true } # legacy python code removed from the main repo
