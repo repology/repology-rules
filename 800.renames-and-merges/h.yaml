@@ -11,6 +11,7 @@
 - { setname: haproxy,                  namepat: "haproxy[0-9.-]*" }
 - { setname: haproxy,                  name: haproxy-devel, weak_devel: true, nolegacy: true }
 - { setname: haraka,                   name: "node:haraka" }
+- { setname: hardinfo2,                name: hardinfo }
 - { setname: hardlink,                 name: hardlink-osx }
 - { setname: harfbuzz,                 name: [libharfbuzz, harfbuzz-2.9.1] }
 - { setname: harfbuzz,                 name: [harfbuzz-icu,harfbuzz-hb-view, harfbuzz-static, harfbuzz-cairo], addflavor: true }
