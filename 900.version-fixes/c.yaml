@@ -198,6 +198,7 @@
 - { name: cling,                       verpat: "20[0-9]{2}([.-][0-9]{2}){2}",              devel: true } # snapshots use dated scheme
 - { name: clipit,                      ver: "1.4.5",                 ruleset: nix,         incorrect: true }
 - { name: clipit,                                                    ruleset: nix,         untrusted: true } # accused of fake 1.4.5
+- { name: clips,                       verge: "6.20",                                      sink: true } # 6.40 -> 6.4.1
 - { name: clisp,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
 - { name: clisp,                       verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: clisp,                       vereq: "2.50",                ruleset: [aur,kaos,macports,pld,ravenports,slitaz], incorrect: true }
