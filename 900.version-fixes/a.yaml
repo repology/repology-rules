@@ -351,6 +351,7 @@
 - { name: autoconf-archive,            verlonger: 3,                                       incorrect: true } # mageia fake
 - { name: autodia,                     verpat: "2\\.[0-9]{3}.*",                           incorrect: true } # perl versioning issues
 - { name: automake,                    verpat: "[0-9]+",                                   incorrect: true } # cygwin
+- { name: automake,                    verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: automoc,                     ver: "1.0",                   ruleset: debuntu,     incorrect: true } # 1.0~version-0.9.88 in fact
 - { name: autopep8,                    verpat: "2.*",                ruleset: hyperbola,   ignore: true }
 - { name: autorandr,                   verpat: ".*\\.[0-9]{10}",                           snapshot: true } # opensuse
