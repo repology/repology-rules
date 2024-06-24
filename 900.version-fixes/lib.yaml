@@ -206,6 +206,8 @@
 - { name: liblockfile,                 verpat: "[0-9]+\\.[0-9]+_[0-9]+.*",                 ignore: true } # some debian suffix?
 - { name: liblqr,                      verpat: "1-.*",                                     ignore: true } # "1" is not part of the version
 - { name: liblsl,                      verpat: ".*b.*",                                    devel: true }
+- { name: libltdl,                     ver: "2.5.0",                                       devel: true }
+#- { name: libltdl,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed
 - { name: libmad,                      ver: "0.16.0",                ruleset: freebsd,     incorrect: true } # presumably maintained fork at https://github.com/tenacityteam/libmad, but no tags
 - { name: libmatekbd,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libmatemixer,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
