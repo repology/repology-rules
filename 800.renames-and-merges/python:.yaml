@@ -142,6 +142,7 @@
 - { setname: "python:kiwisolver",      name: kiwisolver }
 - { setname: "python:lark-parser",     name: "python:lark", addflavor: lark } # both present on pypi from same author referencing the same upstream; XXX: upstream error
 - { setname: "python:lektor",          name: lektor }
+- { setname: "python:levenshtein",     name: "python:python-levenshtein", outdated: true } # python-levenstein renamed to levenstein; XXX: problem
 - { setname: "python:lhafile",         name: "python:python-lhafile" }
 - { setname: "python:libvirt-python",  name: ["python:libvirt", libvirt-python ] }
 - { setname: "python:libvirt-python",  name: [libvirt-python2, libvirt-python3], addflavor: true }
@@ -328,7 +329,6 @@
 - { setname: "python:python-dateutil", name: ["python:dateutil","python:dateutil15"] } # XXX: problem
 - { setname: "python:python-djvulibre", name: "python:djvulibre" } # correct name on PyPi
 - { setname: "python:python-hglib",    name: "python:hglib" }
-- { setname: "python:python-levenshtein", name: "python:levenshtein" } # XXX: problem
 - { setname: "python:python-magic",    name: "python:magic-ahupp" } # XXX: problem
 - { setname: "python:python-periphery", name: "python:periphery" }
 - { setname: "python:python-poppler-qt4", name: "python:poppler-qt4" }
