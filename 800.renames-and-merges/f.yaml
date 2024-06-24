@@ -9,7 +9,10 @@
 - { setname: factorio,                 name: [factorio-headless-experimental], addflavor: headless, weak_devel: true, nolegacy: true }
 - { setname: fahclient,                name: foldingathome-noroot, addflavor: true }
 - { setname: fahclient,                name: foldingathome-beta, weak_devel: true, nolegacy: true }
-- { setname: fahclient,                name: [fah,foldingathome,folding-at-home,linux-foldingathome] }
+- { setname: fahclient,                name: [fah,foldingathome,folding-at-home,linux-foldingathome,fahclient] }
+- { setname: fahcontrol,               name: fahcontrol-beta, weak_devel: true, nolegacy: true }
+- { setname: fahcontrol,               name: fahcontrol-gtk3, addflavor: true }
+- { setname: fahviewer,                name: fahviewer-beta, weak_devel: true, nolegacy: true }
 - { setname: fail2ban,                 name: "python:fail2ban" }
 - { setname: fail2ban,                 name: fail2ban6 }
 - { setname: falco,                    name: falco-ebpf, addflavor: true }
