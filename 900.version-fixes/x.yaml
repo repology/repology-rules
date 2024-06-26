@@ -64,6 +64,8 @@
 - { name: "xdrv:mga",                  verpat: "1\\.9\\..*",                               sink: true } # 2007, while latest 1.6.5 is 2017
 - { name: "xdrv:mtrack",               ver: "0.5.1",                 ruleset: [aur,pclinuxos], incorrect: true }
 - { name: "xdrv:mtrack",                                             ruleset: [aur,pclinuxos], untrusted: true } # accused of fake 0.5.1
+- { name: "xdrv:nouveau",              ver: "1.0.17-7",              ruleset: crux,        incorrect: true }
+- { name: "xdrv:nouveau",                                            ruleset: crux,        untrusted: true } # accused of fake 1.0.17-7
 - { name: "xdrv:openchrome",           verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
 - { name: "xdrv:savage",               verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
 - { name: "xdrv:siliconmotion",        ver: "2.2.19",                ruleset: aosc,        incorrect: true }
