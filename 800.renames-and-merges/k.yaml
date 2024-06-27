@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
+- { setname: k-meleon,                 name: k-meleon-bin-wine, addflavor: true }
 - { setname: k3d,                      name: [kube3d, rancher-k3d] }
 - { setname: k3d,                      name: rancher-k3d-beta, weak_devel: true, nolegacy: true }
 - { setname: k3s,                      namepat: "k3s[0-9.-]+" }
