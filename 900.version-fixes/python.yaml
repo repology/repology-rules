@@ -97,6 +97,7 @@
 - { name: "python:meshio",                                           ruleset: debuntu,     untrusted: true } # accused of fake 7.0.0
 - { name: "python:mlt",                wwwpart: mltframework,                              incorrect: true }
 - { name: "python:mlt",                                              ruleset: unitedrpms,  untrusted: true } # not python mlt module
+- { name: "python:mongo",              verge: "4.0.0",                                     incorrect: true, vulnerable: true } # pymongo, not mongo
 - { name: "python:nose",               ver: "1.3.8",                 ruleset: cygwin,      incorrect: true } # fakes nose3 as nose
 - { name: "python:nose",                                             ruleset: cygwin,      untrusted: true } # accused of fake 1.3.8
 - { name: "python:openstackclient",    verge: "5",                                         incorrect: true } # openstackclient vs python-openstackclient
