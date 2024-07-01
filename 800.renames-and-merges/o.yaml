@@ -169,6 +169,8 @@
 - { setname: opentyrian,               name: open-tyrian }
 - { setname: openvas,                  name: openvas-scanner }
 - { setname: openvpn,                  name: [openvpn-mbedtls,openvpn-polarssl,openvpn2,openvpn23] }
+- { setname: openxr,                   name: openxr-loader, addflavor: true }
+- { setname: openxr,                   name: [openxr-sdk, openxr-sdk-source] }
 - { setname: openzwave,                name: open-zwave }
 - { setname: opera,                    name: [opera-stable, opera-legacy, linux-opera, opera9, opera-presto, opera-blink] }
 - { setname: opera,                    name: [opera-beta, opera-developer], weak_devel: true, nolegacy: true }
