@@ -75,6 +75,7 @@
 - { verpat: ".+-unstable-20[0-9]{2}-[0-9]{2}-[0-9]{2}",              ruleset: nix,         any_is_patch: true, ignore: true } # https://github.com/NixOS/nixpkgs/blob/master/pkgs/README.md#package-naming
 - { verpat: "[0-9a-f]{8}",                                           ruleset: pacstall, flag: git, rolling: true } # flag set in 100
 - { verpat: ".*\\+20[0-9]{6}",                                       ruleset: vcpkg,       snapshot: true }
+- { verpat: "[0-9a-f]{6,7}",                                         ruleset: chromebrew,  incorrect: true }
 
 # nuget is terminally broken and can't handle arbitrary version schemes, so most are garbage
 - {                                                                  ruleset: chocolatey,  untrusted: true }
