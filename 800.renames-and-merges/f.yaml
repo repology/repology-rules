@@ -66,6 +66,7 @@
 - { setname: fife,                     name: fifengine }
 - { setname: fifechan,                 name: fifechan-git, weak_devel: true, nolegacy: true }
 - { setname: file,                     name: libmagic, addflavor: true }
+- { setname: file,                     name: [filecmd, file-formula, file5] }
 - { setname: file-roller,              name: [file-roller-ja,file-roller-tmp,file-roller2-nn,file-roller-debug], addflavor: true }
 - { setname: file-roller,              name: legacy-file-roller }
 - { setname: filebot,                  name: [filebot47, filebot-legacy] }
