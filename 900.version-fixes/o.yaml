@@ -59,8 +59,7 @@
 - { name: opalang,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: opalang,                     verpat: "[0-9]{4}",                                 sink: true } # judging by https://github.com/MLstate/opalang/releases, 1.1.1 is the latest
 - { name: opam,                                                      ruleset: [sisyphus,mageia], untrusted: true } # accused of fake 2.0.0
-- { name: opam,                        ver: "2.2.0-1",               ruleset: homebrew,    incorrect: true }
-- { name: opam,                                                      ruleset: homebrew,    untrusted: true } # accused of fake 2.2.0-1
+- { name: opam,                        ver: "2.2.0-1",                                     setver: "2.2.0" } # artifact; see note at https://github.com/ocaml/opam/releases/tag/2.2.0
 - { name: open-adventure,              ver: "2.5",                   ruleset: guix,        incorrect: true }
 - { name: open-adventure,                                            ruleset: guix,        untrusted: true } # accused of fake 2.5
 - { name: open-vm-tools,               verpat: "20[0-9]{2}.*",                             snapshot: true }
