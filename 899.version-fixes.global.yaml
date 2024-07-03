@@ -76,6 +76,7 @@
 - { verpat: "[0-9a-f]{8}",                                           ruleset: pacstall, flag: git, rolling: true } # flag set in 100
 - { verpat: ".*\\+20[0-9]{6}",                                       ruleset: vcpkg,       snapshot: true }
 - { verpat: "[0-9a-f]{6,7}",                                         ruleset: chromebrew,  incorrect: true }
+- { verpat: ".*-.*",                                                 ruleset: chromebrew,  untrusted: true } # no way to tell -N revisions from upstream versions with - separator
 
 # nuget is terminally broken and can't handle arbitrary version schemes, so most are garbage
 - {                                                                  ruleset: chocolatey,  untrusted: true }
