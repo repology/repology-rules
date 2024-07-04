@@ -231,6 +231,7 @@
 - { name: "fonts:roboto-slab",                                                             noscheme: true }
 - { name: "fonts:siji",                                                                    noscheme: true }
 - { name: "fonts:source-code-pro",     verpat: "(.*?)[rR].*",                              setver: $1 } # upstream version is 2.038R-ro/1.058R-it/1.018R-VAR - cut off garbage
+- { name: "fonts:source-code-pro",     verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: "fonts:source-han-code-jp",  verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
 - { name: "fonts:source-han-sans",     verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
 - { name: "fonts:source-han-serif",    verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
