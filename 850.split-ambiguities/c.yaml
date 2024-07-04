@@ -23,6 +23,10 @@
 - { name: cairo, wwwpart: [cairodesktop,cairoshell], setname: cairoshell }
 - { name: cairo, addflag: unclassified }
 
+- { name: cake, wwwpart: [cake-build, cakebuild], setname: cake-build-tool }
+- { name: cake, wwwpart: thradams, setname: cake-c-transpiler }
+- { name: cake, addflag: unclassified }
+
 - { name: calc, wwwpart: [isthe,lcn2], setname: calc-arbitrary-precision-calculator }
 - { name: calc, sourceforge: calc, setname: calc-arbitrary-precision-calculator }
 - { name: calc, wwwpart: darshanparajuli, setname: calc-darshanparajuli }
