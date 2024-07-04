@@ -148,6 +148,7 @@
 - { setname: dotenv-linter,            name: "rust:$0" }
 - { setname: dotnet,                   namepat: "dotnet[0-9.-]+" }
 - { setname: dotnet,                   name: dotnetpreview, weak_devel: true, nolegacy: true }
+- { setname: dotnet-script,            name: dotnet.script }
 - { setname: double-conversion,        name: [libdouble-conversion,doubleconversion] }
 - { setname: doublecmd,                name: [doublecmd-gtk2,doublecmd-qt,doublecmd-qt4,doublecmd-qt5], addflavor: true }
 - { setname: doublecmd,                name: doublecommander }
