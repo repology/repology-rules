@@ -287,6 +287,8 @@
 - { name: musepack,                    verpat: "0\\.1.*",            ruleset: [aur,msys2_mingw,arch,artix], incorrect: true }
 - { name: musepack,                                                  ruleset: [aur,msys2_mingw,arch,artix], untrusted: true } # accused of fake 0.1.x
 - { name: musepack,                    ver: ["1.2.2", "1.2.4", "1.2.6"],                   sink: true } # old libmpcdec superceded by main musepack distribution with rXXX versions, see https://www.musepack.net/index.php?pg=src
+- { name: musepack,                    ver: "r495",                  ruleset: chromebrew,  incorrect: true }
+- { name: musepack,                                                  ruleset: chromebrew,  untrusted: true } # accused of fake r495
 - { name: musescore,                   verpat: ".*[0-9]{4}",                               incorrect: true } # scoop garbage, debian snapshot
 - { name: musl-locales,                                                                    noscheme: true }
 - { name: mutt,                        verlonger: 3,                 ruleset: sisyphus,    incorrect: true }
