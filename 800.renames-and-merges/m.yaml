@@ -187,6 +187,7 @@
 - { setname: mesa-demos,               name: glxinfo, addflavor: true }
 - { setname: meson,                    name: ["python:meson",meson-internal,meson-testsuite], addflavor: true }
 - { setname: meta-package-manager,     name: "python:$0" }
+- { setname: metadata,                 name: rust:$0 }
 - { setname: metasploit,               namepat: "metasploit[0-9.-]+" }
 - { setname: metasploit,               name: metasploit-framework }
 - { setname: meters.lv2,               name: meters-lv2 }
