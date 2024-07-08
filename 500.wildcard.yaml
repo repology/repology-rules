@@ -149,7 +149,8 @@
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "p5-(.*)", ruleset: [crux,freebsd,macports,openbsd,pkgsrc,kwort] }
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "p5.[0-9]+-(.*)", ruleset: macports }
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "lib(.*)-perl", ruleset: debuntu }
-- { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "perl-(.*)", ruleset: [adelie,alpine,aosc,arch,chakra,centos,cygwin,fedora,gobolinux,guix,kaos,mageia,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds,pld,aix,slitaz,openwrt,pisi,void,conda,solus,salix,msys2_msys2,msys2_mingw,msys2_clang64,msys2_ucrt64,t2,mer,distri,kiss,ataraxia,openmamba,spack,yiffos,glaucus,buildroot,chimera,chromebrew] }
+- { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "perl-(.*)", ruleset: [adelie,alpine,aosc,arch,chakra,centos,cygwin,fedora,gobolinux,guix,kaos,mageia,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds,pld,aix,slitaz,openwrt,pisi,void,conda,solus,salix,msys2_msys2,msys2_mingw,msys2_clang64,msys2_ucrt64,t2,mer,distri,kiss,ataraxia,openmamba,spack,yiffos,glaucus,buildroot,chimera] }
+- { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "perl_(.*)", ruleset: chromebrew }
 - { setname: "perl:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "perl(5[0-9.]+)-(.*)", ruleset: nix, addflavor: $1 }
 - { setname: "perl:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], category: dev-perl, ruleset: [gentoo,exherbo,haikuports] }
 - { setname: "perl:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], category: perl-core, ruleset: [gentoo,exherbo] }
@@ -204,7 +205,7 @@
 - { setname: "python:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_python], category: Development/Python, ruleset: openindiana }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(pypy3?)-(.*)", ruleset: aur, addflavor: $1 }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python(3[0-9][0-9])-(.*)", ruleset: opensuse, addflavor: $1 } # since 15.6
-- { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "py([23])-(.*)", ruleset: chromebrew, addflavor: $1 }
+- { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "py([23])_(.*)", ruleset: chromebrew, addflavor: $1 }
 
 # R
 - { setname: "r:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_r], ruleset: gentoo, category: dev-r } # only encountered in GURU overlay yet
@@ -224,7 +225,8 @@
 - { setname: "ros:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ros], namepat: "ros-(.*)", ruleset: [ debuntu, arch ] }
 
 # Ruby
-- { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ruby], namepat: "ruby-(.*)", ruleset: [adelie,alpine,aosc,arch,chakra,cygwin,debuntu,fedora,guix,mageia,ravenports,rosa,sisyphus,pld,aix,slitaz_next,void,solus,t2,msys2_mingw,msys2_clang64,msys2_ucrt64,centos,openmamba,spack,chromebrew] }
+- { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ruby], namepat: "ruby-(.*)", ruleset: [adelie,alpine,aosc,arch,chakra,cygwin,debuntu,fedora,guix,mageia,ravenports,rosa,sisyphus,pld,aix,slitaz_next,void,solus,t2,msys2_mingw,msys2_clang64,msys2_ucrt64,centos,openmamba,spack] }
+- { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ruby], namepat: "ruby_(.*)", ruleset: chromebrew }
 - { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ruby], namepat: "rubygem-(.*)", ruleset: [centos,fedora,freebsd,opensuse,pclinuxos,rosa,slackbuilds] }
 - { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ruby], namepat: "gem-(.*)", ruleset: [sisyphus] }
 - { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ruby], namepat: "ruby[0-9][0-9]-(.*)", ruleset: [freebsd,openbsd,pkgsrc] }
