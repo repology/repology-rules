@@ -237,6 +237,7 @@
 - { setname: aqbanking,                namepat: "(?:lib)?aqbanking[0-9]*(-(?:gtk)[0-9]*)?", addflavor: $1 }
 - { setname: aqbanking,                namepat: "(?:lib)?aqbanking[0-9]*(-(?:gtk)[0-9]*)?(?:-svn|-devel)", addflavor: $1, weak_devel: true, nolegacy: true }
 - { setname: aqmoney,                  name: aqmoney2 }
+- { setname: aqua,                     name: $0-eap }
 - { setname: aquaria,                  name: aquaria-ose }
 - { setname: arangodb,                 namepat: "arangodb[0-9.-]+" }
 - { setname: arb,                      name: [flint-arb, libarb] }
