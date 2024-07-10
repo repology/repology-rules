@@ -188,6 +188,7 @@
 - { name: "lua:expat",                                               ruleset: [sisyphus,adelie,luarocks,cygwin], untrusted: true } # use fork which is said to be inferior to original
 - { name: "lua:filesystem",            verlonger: 3,                 ruleset: macports,    incorrect: true }
 - { name: "lua:ldbus",                                                                     noscheme: true } # https://github.com/daurnimator/ldbus/tags
+- { name: "lua:lpeg",                  verpat: ".*-.*",                                    incorrect: true } # fake luarocks version (spack); remove this if spack is added ti 899 lua rule
 - { name: "lua:lua-argparse",          verge: "0.7.1",                                     incorrect: true } # lua:argparse in fact
 - { name: "lua:luasocket",             verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: "lua:luasocket",             ver: "3.0",                   ruleset: [mageia,pld,rosa], incorrect: true } # 3.0rc1
