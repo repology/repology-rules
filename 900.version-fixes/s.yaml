@@ -72,8 +72,8 @@
 - { name: sdl,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: sdl,                         ver: "1.2.16",                ruleset: os4depot,    incorrect: true }
 - { name: sdl,                                                       ruleset: os4depot,    untrusted: true } # accused of fake 1.2.16
-- { name: sdl,                         ver: "1.2.68",                                      incorrect: true } # sdl-compat
-- { name: sdl,                                                       ruleset: [gentoo,openmandriva], untrusted: true } # fake sdl-compat as sdl
+- { name: sdl,                         verpat: "1\\.2\\.[6789][0-9]",                      incorrect: true } # sdl-compat
+- { name: sdl,                                                       ruleset: [gentoo,openmandriva,kaos,termux], untrusted: true } # fake sdl-compat as sdl
 - { name: sdl-audiolib,                                                                    noscheme: true }
 - { name: sdl-image,                   verpat: ".+20[0-9]{6}",                             snapshot: true } # macports
 - { name: sdl-image,                   ver: "1.2.13",                ruleset: [crux,kaos], incorrect: true }
