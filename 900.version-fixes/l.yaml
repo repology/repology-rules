@@ -215,6 +215,7 @@
 - { name: luajit,                                                    ruleset: alpine,      untrusted: true } # accused of fake 5.1.20190925, 2.2.0
 - { name: luajit,                      wwwpart: moonjit,                                   sink: true } # dead fork
 - { name: luakit,                      verpat: "201[0-9].*",                               sink: true }
+- { name: luarocks,                                                  ruleset: nix,         untrusted: true } # should fall under 899 "lua:.*" rule, but doesn't due to rename
 - { name: luau,                        verpat: "[0-9]+",                                   incorrect: true } # homebrew
 - { name: luciole,                     ver: "1.0",                   ruleset: openbsd,     incorrect: true }
 - { name: luciole,                                                   ruleset: openbsd,     untrusted: true } # accused of fake 1.0
