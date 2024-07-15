@@ -188,7 +188,7 @@
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python(2)?-(.*)", ruleset: [arch,guix,openmandriva,lunar,msys2_mingw,msys2_clang64,msys2_ucrt64], addflavor: $1 }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python(3)?-(.*)", ruleset: [crux,fedora,opensuse,rosa,pld,pisi,void,solus,pclinuxos,kwort,aix], addflavor: $1 }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python([23])?-(.*)", ruleset: [slackbuilds], addflavor: $1 }
-- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python[0-9]\\.[0-9]{1,2}-(.*)", ruleset: nix }
+- { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python([0-9]\\.[0-9]{1,2})-(.*)", ruleset: nix, addflavor: $1 }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "py[23]?-(.*)", ruleset: [alpine,adelie] }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "py[0-9]*-(.*)", ruleset: macports }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python[23]?-(.*)", ruleset: kaos }
