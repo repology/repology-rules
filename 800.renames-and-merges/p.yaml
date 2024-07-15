@@ -130,10 +130,12 @@
 - { setname: pgtcl,                    namepat: "pgtcl-(postgresql[0-9.-]+)", addflavor: true }
 - { setname: pgtcl,                    name: tcl-pgtcl }
 - { setname: phabricator,              name: "php:phabricator" }
+- { setname: phan,                     name: php:$0 }
 - { setname: phantomjs,                name: phantomjs19 }
 - { setname: phantomjs,                name: phantomjs-beta, weak_devel: true, nolegacy: true }
 - { setname: phash,                    name: libphash }
 - { setname: phat,                     name: libphat }
+- { setname: phing,                    name: php:$0 }
 - { setname: phoenix-emu,              name: phoenix-emu-project }
 - { setname: phonon-backend-gstreamer, name: [phonon-backend-gstreamer-qt4,phonon-gstreamer-qt4,phonon-qt4-gstreamer], addflavor: qt4 }
 - { setname: phonon-backend-gstreamer, name: [phonon-backend-gstreamer-qt5,phonon-gstreamer-qt5,phonon-qt5-gstreamer,phonon-qt5-backend-gstreamer,phonon4qt5-backend-gstreamer,qt5-phonon-backend-gstreamer], addflavor: qt5 }
@@ -145,10 +147,15 @@
 - { setname: phonon-vlc,               name: phonon-backend-vlc } # ambiguous: phonon-vlc is used in repository name, phonon-backend-vlc for distfile name
 - { setname: photivo,                  name: photivo-qt4, addflavor: true }
 - { setname: php,                      namepat: "php[0-9.-]*" }
+- { setname: php,                      name: [php-with-extensions], addflavor: true }
 - { setname: phpbb,                    name: phpbb3 }
+- { setname: phpinsights,              name: php:$0 }
+- { setname: phpive,                   name: php:$0 }
+- { setname: phpmd,                    name: php:$0 }
 - { setname: phpmyadmin,               namepat: "php[0-9]*:phpmyadmin[0-9]*" }
 - { setname: phpmyadmin,               name: phpmyadmin5 }
 - { setname: phppgadmin,               name: "php:pgadmin" }
+- { setname: phpspy,                   name: php:$0 }
 - { setname: physfs,                   name: libphysfs }
 - { setname: picard,                   name: [musicbrainzpicard, musicbrainz-picard, "python:picard"] }
 - { setname: picard,                   name: java-picard }
