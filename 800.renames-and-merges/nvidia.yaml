@@ -60,6 +60,7 @@
 - { setname: nvidia,                   name: nvidia-zen, addflavor: true }
 - { setname: nvidia,                   namepat: "nvidia[0-9.-]*" }
 - { setname: nvidia,                   namepat: "xdrv:nvidia(?:-kernel|-legacy)?[x0-9.-]*(?:-kernel)?(-nopae)?", addflavor: $1 }
+- { setname: nvidia,                   namepat: "kmod-nvidia-[0-9]+xx" }
 
 ##- { setname: nvidia,                   namepat: "nvidia[0-9.-]+xx.*" }
 #- { setname: nvidia,                   namepat: "nvidia[0-9.-]+" }
