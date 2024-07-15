@@ -163,10 +163,12 @@
 - { setname: dragon-player,            name: [dragonplayer,kde4-dragon,kde5-dragon] }
 - { setname: drakconf,                 name: $0-legacy }
 - { setname: drawio-desktop,           name: [draw.io,drawio] }
-- { setname: drbd,                     namepat: "drbd[0-9]+" }
+- { setname: drbd,                     namepat: "(?:kmod-)?drbd[0-9x]+" }
 - { setname: drbd,                     name: drbd-doc, addflavor: true }
 - { setname: drbd,                     name: [drbd-kernel, drbd-kmod, drbd90-kmod, drbd84-kmod] }
-- { setname: drbd-utils,               name: [drbd90-utils, drbd84-utils] }
+- { setname: drbd,                     name: kernel-modules-drbd9-std-def, addflavor: std-def }
+- { setname: drbd,                     name: kernel-modules-drbd9-un-def, addflavor: un-def }
+- { setname: drbd-utils,               name: [drbd90-utils, drbd84-utils, drbd9x-utils] }
 - { setname: drbl,                     name: drbl-experimental, ignore: true }
 - { setname: dreampie,                 name: "python:dreampie" }
 - { setname: drgeo,                    name: drgeo1 }
