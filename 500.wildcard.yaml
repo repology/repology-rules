@@ -105,6 +105,7 @@
 
 # Lisp
 - { setname: "lisp:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_lisp], category: lispPackages, namepat: "lisp-(.+)", ruleset: nix }
+- { setname: "lisp:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_lisp], category: quicklispPackagesClisp, namepat: "lisp-(.+)", ruleset: nix }
 - { setname: "lisp:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_lisp], category: lispPackages_new, ruleset: nix }
 - { setname: "lisp:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_lisp], category: lispPackages, ruleset: nix } # for the case nix switches lispPackages_new to lispPackages at some point
 - { setname: "lisp:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_lisp], category: sbclPackages, ruleset: nix, addflavor: sbcl }
