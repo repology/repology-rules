@@ -218,6 +218,7 @@ flags = [
     'not_go',
     'not_gstreamer',
     'not_haskell',
+    'not_haxe',
     'not_java',
     'not_jg',
     'not_js',

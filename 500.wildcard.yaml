@@ -86,6 +86,9 @@
 - { setname: "haskell:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_haskell], namepat: "ghc[0-9.]+-(.*)", ruleset: sisyphus }
 - { setname: "haskell:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_haskell], category: "haskellPackages", ruleset: [ nix ] }
 
+# Haxe
+- { setname: "haxe:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_haxe], category: haxePackages, ruleset: nix }
+
 # Java
 - { setname: "java:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_java], namepat: "lib(.*)-java", ruleset: debuntu }
 
