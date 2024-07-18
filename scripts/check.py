@@ -110,6 +110,7 @@ families = [
     'sagemath',
     'salix',
     'scoop',
+    'serpentos',
     'sisyphus',
     'slackbuilds',
     'slackware',
