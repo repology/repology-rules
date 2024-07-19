@@ -370,6 +370,7 @@
 - { setname: stone-soup,               name: [stone-soup-ncurses,stone-soup-sdl,stone-soup-tiles,crawl-tiles,dungeon-crawl-stone-soup-console,dungeon-crawl-stone-soup-tiles,stonesoup-sdl], addflavor: ncurses }
 - { setname: storebackup,              name: store-backup }
 - { setname: stork,                    name: rust:stork-search }
+- { setname: stork,                    name: [stork-agent, stork-server], addflavor: true } # counterparts
 - { setname: storm,                    name: storm-beta, weak_devel: true, nolegacy: true }
 - { setname: stormssh,                 name: "python:stormssh" }
 - { setname: strawberry,               name: [strawberry-lite,strawberry-full,strawberry-qt5], addflavor: true }
