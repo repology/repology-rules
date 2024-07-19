@@ -125,6 +125,7 @@
 - { setname: kubetui,                  name: rust:$0 }
 - { setname: kubo,                     name: ipfs, outdated: true } # former name
 - { setname: kuro,                     name: [$0-electron, $0-legacy] }
+- { setname: kustomize,                name: [kustomize-3, kustomize-4] }
 - { setname: kvirc,                    name: [kvirc-qt4, kvirc-nokde], addflavor: true }
 - { setname: kvirc,                    name: kvirc-git-nokde, weak_devel: true, nolegacy: true, addflavor: nokde }
 - { setname: kxml,                     name: kxml2 }
