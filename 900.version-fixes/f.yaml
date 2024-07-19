@@ -242,6 +242,8 @@
 - { name: "fonts:source-sans",         verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: "fonts:source-serif",        verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
 - { name: "fonts:stix",                verpat: ".*b.*",                                    any_is_patch: true }
+- { name: "fonts:terminus",            ver: "4.49.3",                ruleset: homebrew_casks, incorrect: true } # terminus-ttf
+- { name: "fonts:terminus",                                          ruleset: homebrew_casks, untrusted: true } # terminus-ttf
 - { name: "fonts:tinos",                                                                   noscheme: true }
 - { name: "fonts:ubuntu",              ver: "1.0",                   ruleset: pclinuxos,   incorrect: true } # no such version on the website
 - { name: "fonts:ucs-miscfixed",       verpat: "20[0-9]+",                                 incorrect: true }
