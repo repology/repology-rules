@@ -99,7 +99,6 @@
 - { name: ngspice,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 31.3
 - { name: nikto,                       ver: "2.2.0",                 ruleset: nix,         incorrect: true }
 - { name: nikto,                                                     ruleset: nix,         untrusted: true } # accused of fake 2.2.0
-- { name: nim,                         verpat: ".*20[0-9]{6}.*",                           snapshot: true } # haiku garbage
 - { name: nim,                         ver: "1.9.3",                 ruleset: spack,       incorrect: true }
 - { name: nim,                                                       ruleset: spack,       untrusted: true } # accused of fake 1.9.3
 - { name: ninvaders,                   verge: "0.1.2",                                     successor: true }
