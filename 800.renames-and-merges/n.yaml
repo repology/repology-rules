@@ -106,6 +106,8 @@
 - { setname: nift,                     name: nsm }
 - { setname: nikola,                   name: python:$0 }
 - { setname: nim,                      name: nim-lang }
+- { setname: nim,                      name: nim-nightly, weak_devel: true, nolegacy: true }
+- { setname: nim,                      name: nim-nighlty, weak_devel: true, nolegacy: true, incorrect: true } # XXX: bad naming
 - { setname: ninja,                    name: ninja-build }
 - { setname: ninja-irc,                name: irc-ninja }
 - { setname: nixnote2,                 name: nixnote }
