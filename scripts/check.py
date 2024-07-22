@@ -185,6 +185,7 @@ rulesets = families + [
     'siduction',
     'stackage',
     'slitaz_next',
+    'terra',
     'trisquel',
     'ubuntu',
     'unitedrpms',
