@@ -10,6 +10,7 @@
 - { setname: vala,                     name: vala-compat }
 - { setname: vala,                     name: vala-common, addflavor: common }
 - { setname: vala,                     name: valac }
+- { setname: vala-lint,                name: vala-lint-nightly, weak_devel: true, nolegacy: true }
 - { setname: valgrind,                 name: valgrind312 }
 - { setname: valgrind,                 name: valgrind-devel, weak_devel: true, nolegacy: true }
 - { setname: valgrind,                 name: valgrind-client-headers-source, addflavor: true }
