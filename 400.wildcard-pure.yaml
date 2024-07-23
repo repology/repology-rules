@@ -12,6 +12,7 @@
 # XXX: may consider adding e.g. gentoo and haikuports categories here
 
 - { setname: "haskell:$0",             ruleset: hackage, addflag: wconce }
+- { setname: "ocaml:$0",               ruleset: opam, addflag: wconce }
 - { setname: "perl:$0",                ruleset: cpan, addflag: wconce }
 - { setname: "python:$0",              ruleset: pypi, addflag: wconce }
 - { setname: "r:$0",                   ruleset: cran, addflag: wconce }
