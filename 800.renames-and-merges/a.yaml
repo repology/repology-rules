@@ -171,7 +171,8 @@
 - { setname: android-udev-rules,       name: [android-udev, udev-android] }
 - { setname: angelscript,              namepat: "angelscript-?[0-9.-]+"}
 - { setname: angular.js,               name: angularjs }
-- { setname: anki,                     name: [anki12,anki20,"python:anki2"] }
+- { setname: anki,                     name: [anki12,anki20,anki2,"python:anki2"] }
+- { setname: anki,                     name: [anki-bin, anki-qt5, anki-before-bazel], addflavor: true }
 - { setname: annex,                    name: annex-conquer-the-world }
 - { setname: ansi-escape-sequences-cli, name: "rust:$0" }
 - { setname: ansible,                  namepat: "(?:python:)?ansible[0-9]*" }
