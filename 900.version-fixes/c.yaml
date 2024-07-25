@@ -180,6 +180,8 @@
 - { name: cl-fad,                      verpat: "20[0-9]{6}",                               ignore: true }
 - { name: cl-rt,                                                                           noscheme: true }
 - { name: cl-trivial-backtrace,                                                            noscheme: true }
+- { name: cl-trivial-features,         ver: "2010.01.16",                                  sink: true }
+- { name: cl-trivial-features,                                       ruleset: freebsd,     untrusted: true } # accused of fake 2010.01.16
 - { name: cl-trivial-gray-streams,                                                         noscheme: true }
 - { name: clamav,                      verpat: "[0-9]{4}",                                 sink: true } # ancient version from wikidata
 - { name: claws-mail,                  verlonger: 3,                 ruleset: pisi,        incorrect: true }
