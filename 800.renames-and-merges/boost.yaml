@@ -2,34 +2,35 @@
 
 - { setname: boost,                    name: ["python:boost","python:boost-libs","boost-python3"], addflavor: python }
 - { setname: boost,                    namepat: "boost-mpi-source[0-9-.]+", addflavor: boost-mpi }
-- { setname: boost,                    namepat: "(?:compat-)?(?:lib)?boost[0-9.-]*(?:-compat)?" }
+- { setname: boost,                    namepat: "(?:compat-)?(?:lib)?boost[0-9.-]*(?:-compat|-libs)?" }
+- { setname: boost,                    namepat: "boost-(msvc[0-9.-]*)", addflavor: $1 }
+- { setname: boost,                    namepat: "boost[0-9.-]*-(numpy|base|extra)", addflavor: $1 }
 - { setname: boost,                    name: [boost-base, boost-legacy-base], addflavor: base }
 - { setname: boost,                    name: libboost }
 
 - setname: boost
   name:
-    - boost-63-compat
     - boost-all
     - boost-bcp
     - boost-cropped
     - boost-defaults
     - boost-docs
     - boost-extra
+    - boost-for-irods
     - boost-headers
     - boost-jam
     - boost-libraries
     - boost-libs
     - boost-libs-171-opt
     - boost-mpi
-    - boost-msvc-14.1
-    - boost-msvc-14.2
     - boost-numpy
     - boost-python
-    - boost-python-libs
     - boost-python2
     - boost-python3-libs
+    - boost-python-libs
     - boost-stacktrace-backtrace
     - boost-static
+    - percona-boost
   addflavor: true
 
 - setname: boost
