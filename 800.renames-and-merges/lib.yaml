@@ -281,6 +281,7 @@
 - { setname: libsigc++,                name: [libsigc++-docs,libsigc++-patched], addflavor: true }
 - { setname: libsigc++,                name: libsigc++-legacy12 }
 - { setname: libsigc++,                namepat: "libsigc(\\+\\+|xx|pp|)[0-9.-]*" }
+- { setname: libsigc++,                name: [libsigcplusplus, libsigcplusplus3, sigcpp] }
 - { setname: libsignon-glib,           name: signon-glib }
 - { setname: libsndfile,               name: libsndfile-progs, addflavor: true }
 - { setname: libsodium,                name: [sodium,libsodium13] }
