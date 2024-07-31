@@ -236,6 +236,7 @@
 - { name: pmw,                         ver: "4.240",                                       sink: true } # #693
 - { name: png2ico,                     verpat: "20[0-9]{6}",                               incorrect: true } # it's 2002-12-08
 - { name: png2ico,                     ver: "2008.12.08",                                  incorrect: true }
+- { name: pocketfft,                                                                       noscheme: true } # https://github.com/mreineck/pocketfft
 - { name: pocketsphinx,                ver: "0.9",                                         incorrect: true } # there's 5prealpha, no signs of 0.9
 - { name: podman,                      ver: "1.0.1",                 ruleset: fedora,      incorrect: true }
 - { name: podman,                                                    ruleset: fedora,      untrusted: true }
