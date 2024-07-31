@@ -1,0 +1,16 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+# we accept either YYYYMMDD which denotes commit date at mozilla repository
+# unfortunately, there are multiple locations:
+#   https://hg.mozilla.org/projects/nss/log/tip/lib/ckfw/builtins/certdata.txt
+#   https://hg.mozilla.org/releases/mozilla-release/log/tip/security/nss/lib/ckfw/builtins/certdata.txt
+#   https://hg.mozilla.org/mozilla-central/log/tip/security/nss/lib/ckfw/builtins/certdata.txt
+# or YYYY-MM-DD which denotes extract from curl
+#   https://curl.se/docs/caextract.html
+- { name: ca-certificates, incorrect: true }
+- { name: ca-certificates, verpat: "20[0-9]{6}", incorrect: false, altscheme: true }
+- { name: ca-certificates, verpat: "20[0-9]{2}[.-][0-1][0-9][.-][0-3][0-9]", incorrect: false }
+
+- { name: ca-certificates, ruleset: alpine, untrusted: true } # accused of fake 20240705
+- { name: ca-certificates, ruleset: arch, untrusted: true } # accused of fake 20240618
+- { name: ca-certificates, ruleset: serpentos, untrusted: true } # accused of fake 20240708
