@@ -242,6 +242,9 @@
     )
   setname: $1
 
+- { setname: xorg:evdev, name: [xorg-evdev-driver, xdriver-xf86-input-evdev] }
+- { setname: xorg:evdev, name: xdrv:evdev-ahm, addflavor: true }
+
 # special rules to avoid mixing up corresponding apps and libs
 - { setname: libdmx, name: xorg-libdmx }
 - { setname: libxrandr, name: [xorg-libxrandr,xorg-lib-libxrandr] }
