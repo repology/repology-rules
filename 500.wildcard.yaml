@@ -6,6 +6,9 @@
 # wconce flag is used to make a package only processed by ONE wildcard rule
 #
 
+# Agda
+- { setname: "agda:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_agda], category: agdaPackages, ruleset: nix }
+
 # Apache
 - { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "ap[0-9]+-(?:mod_)?(.*?)", ruleset: [freebsd,openbsd,pkgsrc] }
 - { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "mod_(.*)", category: [www-apache,apache-mod], ruleset: [ gentoo, exherbo ] }
@@ -247,6 +250,9 @@
 
 # Rust
 - { setname: "rust:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_rust], namepat: "rust-(.*)", ruleset: [ arch,debuntu,fedora,nix,sisyphus,guix,openmandriva,mageia ] }
+
+# Scheme
+- { setname: "scheme:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_scheme], category: akkuPackages, ruleset: nix }
 
 # Texlive
 - { setname: "texlive:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_texlive], namepat: "tex-(.*)-doc", ruleset: pkgsrc, addflavor: doc }
