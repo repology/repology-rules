@@ -335,7 +335,8 @@
 - { name: attica,                      ver: "5.240.0",               ruleset: kaos,        incorrect: true }
 - { name: attica,                                                    ruleset: kaos,        untrusted: true } # accused of fake 5.240.0
 - { name: attr,                        verpat: "20[0-9]{6}.*",                             ignore: true }
-- { name: audacity,                    ver: "2.3.2x",                                      incorrect: true } # freshcode
+- { name: audacity,                    ver: "3.6.2",                 ruleset: opensuse,    incorrect: true }
+- { name: audacity,                                                  ruleset: opensuse,    untrusted: true } # accused of fake 3.6.2
 - { name: audex,                       ver: "0.95",                  ruleset: pisi,        snapshot: true }
 - { name: audiocd-kio,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: aufs-util,                                                                       noscheme: true }
