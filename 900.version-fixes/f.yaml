@@ -248,6 +248,9 @@
 - { name: "fonts:terminus",                                          ruleset: homebrew_casks, untrusted: true } # terminus-ttf
 - { name: "fonts:tinos",                                                                   noscheme: true }
 - { name: "fonts:ubuntu",              ver: "1.0",                   ruleset: pclinuxos,   incorrect: true } # no such version on the website
+- { name: "fonts:ubuntu",              ver: "0.863",                 ruleset: [alpine,ubuntu], incorrect: true } # 0.83 is the latest on official website
+- { name: "fonts:ubuntu",              ver: "0.869",                 ruleset: [alpine,openmandriva,ubuntu], incorrect: true } # 0.83 is the latest on official website
+- { name: "fonts:ubuntu",                                            ruleset: [alpine,openmandriva,ubuntu], untrusted: true } # accused of fake 0.863, 0.869
 - { name: "fonts:ucs-miscfixed",       verpat: "20[0-9]+",                                 incorrect: true }
 - { name: "fonts:unifont",             ver: "20080123",                                    sink: true }
 - { name: "fonts:wqy-bitmapfont",      ver: "1.0.0",                 ruleset: rpm,         incorrect: true }
