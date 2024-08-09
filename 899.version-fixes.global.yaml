@@ -46,8 +46,13 @@
 
 # prevent newly introduced nix categories from polluting unrelated projects before being added to 500 ruleset
 #- { category: "XXX",                                                 ruleset: nix,         addflag: classified_category }
+- { category: "androidStudio(?:ForPlatform)?Packages",               ruleset: nix,         addflag: classified_category }
+- { category: "beetsPackages", namepat: "beets-.*",                  ruleset: nix,         addflag: classified_category } # beets plugins
+- { categorypat: "cudaPackages[0-9_]*",                              ruleset: nix,         addflag: classified_category }
 - { categorypat: "chickenPackages[0-9_]*", namepat: "chicken-.*",    ruleset: nix,         addflag: classified_category }
+- { category: "dotnetCorePackages",                                  ruleset: nix,         addflag: classified_category } # Dotnet Core Utils like runtime and sdk
 - { category: "elmPackages", namepat: "elm-.*",                      ruleset: nix,         addflag: classified_category }
+- { categorypat: "flutterPackages(?:-source)?",                      ruleset: nix,         addflag: classified_category } # Just flutter
 - { category: "idrisPackages", namepat: "idris-.*",                  ruleset: nix,         addflag: classified_category }
 - { category: "kdePackages",                                         ruleset: nix,         addflag: classified_category }
 - { category: "kodiPackages",                                        ruleset: nix,         addflag: classified_category }
@@ -57,6 +62,7 @@
 - { category: "purePackages",                                        ruleset: nix,         addflag: classified_category }
 - { categorypat: "python[0-9]+Packages",                             ruleset: nix,         addflag: classified_category } # python [apps], not covered by python wildcard rule
 - { category: "qt6Packages",                                         ruleset: nix,         addflag: classified_category }
+- { categorypat: "rocmPackages[0-9_]*",                              ruleset: nix,         addflag: classified_category }
 - { categorypat: ".*", flag: wconce,                                 ruleset: nix,         addflag: classified_category }
 - { categorypat: ".*Packages.*", noflag: classified_category,        ruleset: nix,         setname: $0-unclassified }
 
