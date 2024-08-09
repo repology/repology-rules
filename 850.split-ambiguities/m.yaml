@@ -309,6 +309,10 @@
 - { name: mu, wwwpart: kreogist, setname: kreogist-mu } # name taken form AUR package; may also use e.g. mu-music-manager
 # otherwise, maildir utils + emacs email client (mu4e)
 
+- { name: multipass, wwwpart: [multipass.run, canonical], setname: canonical-multipass }
+- { name: multipass, wwwpart: uninformativ.de, setname: multipass-broadcast-x11-events }
+- { name: multipass, addflag: unclassified }
+
 - { name: multiplex, wwwpart: dankilman, setname: $0-output-multiplexor }
 - { name: multiplex, wwwpart: pojntfx, setname: $0-watch-torrents }
 - { name: multiplex, addflag: unclassified }
