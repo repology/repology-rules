@@ -323,6 +323,7 @@
 - { setname: springframework,          name: [libspring-java,"java:spring"] }
 - { setname: spsdeclib,                name: [libcapsimage, capsimage] } # alternate name
 - { setname: spyder,                   name: ["python:spyder",spyder3] }
+- { setname: spytrap-adb,              name: rust:$0 }
 - { setname: sql-operations-studio,    name: sqlopsstudio }
 - { setname: sqlite,                   name: [sqlite-tcl,sqlite3-tcl,tcl-sqlite,tcl-sqlite3,tclsqlite2], addflavor: tcl }
 - { setname: sqlite,                   namepat: "(?:lib)?sqlite[0-9.-]*" }
