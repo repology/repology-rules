@@ -7,6 +7,8 @@
 - { name: cadical,                     ver: "06w",                                         sink: true }
 - { name: caffe,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: cairo-graphics-library,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: cairo-graphics-library,      ver: "1.18.1",                ruleset: chromebrew,  incorrect: true }
+- { name: cairo-graphics-library,                                    ruleset: chromebrew,  untrusted: true } # accused of fake 1.18.1
 - { name: cairomm,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: caja,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: caja,                        ver: "1.22.1.1",              ruleset: mint,        incorrect: true }
