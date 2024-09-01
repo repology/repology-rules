@@ -59,6 +59,9 @@
 - { name: wine,                        verpat: ".*r.*",                                    devel: true }
 - { name: wine,                        ver: "4.0",                   ruleset: mageia,      incorrect: true }
 - { name: wine,                                                      ruleset: mageia,      untrusted: true } # accused of fake 4.0
+- { name: wine,                        ver: "9.0_3",                 ruleset: homebrew_casks, incorrect: true }
+- { name: wine,                                                      ruleset: homebrew_casks, untrusted: true } # accused of fake 9.0_3
+- { name: wine,                        wwwpat: macOS_Wine_builds,                          untrusted: true }
 - { name: winexe,                      ver: "1.1",                   ruleset: debuntu,     incorrect: true } # snapshot
 - { name: winff,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: wire,                        verpat: "20[0-9]{2}.*",                             incorrect: true } # aur snapshot
