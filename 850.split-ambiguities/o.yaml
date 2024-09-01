@@ -37,6 +37,10 @@
 # also rss aggregator with dead upstream
 - { name: olive, addflag: unclassified }
 
+- { name: oma, wwwpart: aosc, setname: oma-package-manager }
+- { name: oma, wwwpart: omabrowser, setname: oma-orthologs }
+- { name: oma, addflag: unclassified }
+
 - { name: omega, wwwpart: alcyone, setname: omega-rpg }
 - { name: omega, category: games, setname: omega-rpg }
 - { name: omega, wwwpart: sheard, setname: omega-lang }
