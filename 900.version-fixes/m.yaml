@@ -148,6 +148,8 @@
 - { name: minissdpd,                                                 ruleset: entware,     untrusted: true } # accused of fake 2.1
 - { name: minitube,                    ver: "3.9.1",                 ruleset: pclinuxos,   incorrect: true }
 - { name: minitube,                                                  ruleset: pclinuxos,   untrusted: true } # accused of fake 3.9.1
+- { name: miniupnpc,                   ver: "2.3.7",                 ruleset: vcpkg,       incorrect: true }
+- { name: miniupnpc,                                                 ruleset: vcpkg,       untrusted: true } # accused of fake 2.3.7 (miniupnpd version)
 - { name: miniupnpc,                   verpat: "[0-9]+\\.[0-9]+\\.20[0-9]{6}",             devel: true }
 - { name: miniupnpd,                   verpat: "[0-9]+\\.[0-9]+\\.20[0-9]{6}",             devel: true }
 - { name: minuet,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
