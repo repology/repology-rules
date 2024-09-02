@@ -215,6 +215,8 @@
 - { setname: pnmixer,                  name: $0-gtk3, addflavor: true }
 - { setname: pnp4nagios,               name: pnp4nagios-cgi }
 - { setname: pocketfft,                name: pocketfft-cpp } # XXX: problem
+- { setname: pocketsphinx,             name: [cmu-pocketsphinx, python:pocketsphinx, pocketsphinx5, cmusphinx, sphinx2, sphinx3, cmu-sphinx3] }
+- { setname: pocketsphinx,             name: [cmu-sphinxbase, sphinxbase, sphinxbase5], addflavor: sphinxbase } # merged into
 - { setname: podman,                   name: libpod, addflavor: true }
 - { setname: podofo,                   name: libpodofo }
 - { setname: poetry,                   name: "python:$0" }
