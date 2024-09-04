@@ -414,7 +414,9 @@
 - { name: speedtest, wwwpart: speedtest.net, setname: speedtest-speedtest.net }
 - { name: speedtest, addflag: unclassified }
 
-- { name: sphinx, wwwpart: cmusphinx, setname: cmusphinx }
+- { name: sphinx, wwwpart: cmusphinx, setname: pocketsphinx }
+- { name: sphinx, wwwpart: sphinxsearch, setname: sphinx-search }
+- { name: sphinx, addflag: unclassified }
 
 - { name: spice, wwwpart: berkeley, setname: spice-circuit-simulator }
 - { name: spice, wwwpart: spice-space, setname: spice-remote-access }
