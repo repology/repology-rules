@@ -1,0 +1,21 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- { setname: "kodi:audioencoder.flac", name: [kodi-audioencoder-flac, kodi-addon-audioencoder-flac] }
+- { setname: "kodi:audioencoder.lame", name: [kodi-audioencoder-lame, kodi-addon-audioencoder-lame] }
+- { setname: "kodi:audioencoder.vorbis", name: [kodi-audioencoder-vorbis, kodi-addon-audioencoder-vorbis] }
+- { setname: "kodi:audioencoder.wav", name: [kodi-audioencoder-wav, kodi-addon-audioencoder-wav] }
+- { setname: "kodi:game.libretro", name: [kodi-addon-game-libretro, kodi-addon-game.libretro, kodi-game-libretro] }
+- { setname: "kodi:imagedecoder.heif", name: [kodi-imagedecoder-heif, kodi-addon-imagedecoder-heif] }
+- { setname: "kodi:imagedecoder.raw", name: [kodi-imagedecoder-raw, kodi-addon-imagedecoder-raw] }
+- { setname: "kodi:inputstream.adaptive", name: kodi-addon-inputstream-adaptive-any, addflavor: any }
+- { setname: "kodi:inputstream.adaptive", name: [kodi-inputstream-adaptive, kodi-addon-inputstream-adaptive, kodi-addon-inputstream.adaptive, inputstream.adaptive] }
+- { setname: "kodi:inputstream.adaptive", name: kodi-matrix-addon-inputstream-adaptive, addflavor: matrix }
+- { setname: "kodi:inputstream.adaptive", name: kodi-nexus-addon-inputstream-adaptive, addflavor: nexus }
+- { setname: "kodi:inputstream.ffmpegdirect", name: [kodi-inputstream-ffmpegdirect, kodi-addon-inputstream-ffmpegdirect] }
+- { setname: "kodi:inputstream.rtmp", name: [kodi-inputstream-rtmp, kodi-addon-inputstream-rtmp] }
+- { setname: "kodi:screensaver.asteroids", name: [kodi-screensaver-asteroids, kodi-addon-screensaver-asteroids] }
+- { setname: "kodi:screensaver.biogenesis", name: [kodi-screensaver-biogenesis, kodi-addon-screensaver-biogenesis, kodi-addon-screensaver.biogenesis] }
+- { setname: "kodi:visualization.fishbmc", name: [kodi-addon-visualization.fishbmc, kodi-visualization-fishbmc, kodi-visualisation-fishbmc] }
+- { setname: "kodi:visualization.shadertoy", name: [kodi-addon-visualization.shadertoy, kodi-addon-visualization-shadertoy, kodi-visualization-shadertoy, kodi-visualisation-shadertoy] }
+- { setname: "kodi:visualization.spectrum", name: [kodi-addon-visualization.spectrum, kodi-addon-visualization-spectrum, kodi-visualization-spectrum, kodi-visualisation-spectrum] }
+- { setname: "kodi:visualization.waveform", name: [kodi-addon-visualization-waveform, kodi-visualization-waveform, kodi-visualisation-waveform] }
