@@ -279,6 +279,8 @@
 - { name: govendor,                    ver: "1.0.9.6",                                     incorrect: true } # FreeBSD garbage
 - { name: gpart,                       vergt: "0.1h",                                      successor: true } # https://github.com/baruch/gpart
 - { name: gpaste,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gperf,                       ver: "3.2",                   ruleset: chromebrew,  incorrect: true }
+- { name: gperf,                                                     ruleset: chromebrew,  untrusted: true } # accused of fake 3.2
 - { name: gperftools,                  verpat: ".*\\.9[0-9]+",                             devel: true }
 - { name: gping,                       ver: "1.1",                                         sink: true } # python version, rewritten in rust with other versioning scheme
 - { name: gpm,                         verpat: "[0-9]+\\.99\\..*",                         devel: true } # assumed
