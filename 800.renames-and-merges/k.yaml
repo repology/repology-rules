@@ -86,6 +86,7 @@
 - { setname: kobodeluxe,               name: skobo } # old name
 - { setname: kodi,                     name: xbmc } # old name; XXX: problem
 - { setname: kodi,                     name: [kodi-dev, kodi-nightly], weak_devel: true, nolegacy: true }
+- { setname: kodi,                     name: kodi-gbm, addflavor: true }
 - { setname: koffice-l10n,             namepat: "koffice-l10n-.*", ruleset: pkgsrc }
 - { setname: koka,                     name: haskell:koka } # XXX: problem
 - { setname: kokkos,                   name: [$0-legacy, lib$0] }

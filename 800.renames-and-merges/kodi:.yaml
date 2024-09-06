@@ -13,8 +13,17 @@
 - { setname: "kodi:inputstream.adaptive", name: kodi-nexus-addon-inputstream-adaptive, addflavor: nexus }
 - { setname: "kodi:inputstream.ffmpegdirect", name: [kodi-inputstream-ffmpegdirect, kodi-addon-inputstream-ffmpegdirect] }
 - { setname: "kodi:inputstream.rtmp", name: [kodi-inputstream-rtmp, kodi-addon-inputstream-rtmp] }
+- { setname: "kodi:peripheral.joystick", name: [kodi-peripheral-joystick, kodi-addon-peripheral-joystick, kodi-addon-peripheral.joystick] }
+- { setname: "kodi:pvr.hdhomerun", name: [kodi-pvr-hdhomerun, kodi-addon-pvr-hdhomerun] }
+- { setname: "kodi:pvr.hts", name: [kodi-pvr-hts, kodi-addon-pvr-hts, kodi-addon-pvr.hts] }
+- { setname: "kodi:pvr.iptvsimple", name: kodi-addon-pvr.iptvsimple, addflavor: matrix }
+- { setname: "kodi:pvr.iptvsimple", name: [kodi-pvr-iptvsimple, kodi-addon-pvr-iptvsimple, kodi-addon-pvr.iptvsimple] }
+- { setname: "kodi:pvr.mythtv", name: [kodi-pvr-mythtv, kodi-addon-pvr-mythtv] }
 - { setname: "kodi:screensaver.asteroids", name: [kodi-screensaver-asteroids, kodi-addon-screensaver-asteroids] }
 - { setname: "kodi:screensaver.biogenesis", name: [kodi-screensaver-biogenesis, kodi-addon-screensaver-biogenesis, kodi-addon-screensaver.biogenesis] }
+- { setname: "kodi:screensaver.pingpong", name: [kodi-screensaver-pingpong, kodi-addon-screensaver-pingpong] }
+- { setname: "kodi:vfs.libarchive", name: [kodi-vfs-libarchive, kodi-addon-vfs-libarchive] }
+- { setname: "kodi:vfs.sftp", name: [kodi-vfs-sftp, kodi-addon-vfs-sftp] }
 - { setname: "kodi:visualization.fishbmc", name: [kodi-addon-visualization.fishbmc, kodi-visualization-fishbmc, kodi-visualisation-fishbmc] }
 - { setname: "kodi:visualization.shadertoy", name: [kodi-addon-visualization.shadertoy, kodi-addon-visualization-shadertoy, kodi-visualization-shadertoy, kodi-visualisation-shadertoy] }
 - { setname: "kodi:visualization.spectrum", name: [kodi-addon-visualization.spectrum, kodi-addon-visualization-spectrum, kodi-visualization-spectrum, kodi-visualisation-spectrum] }
