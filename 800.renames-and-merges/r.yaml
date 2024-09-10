@@ -162,6 +162,8 @@
 - { setname: rust,                     name: rust-toolset-7-rust }
 - { setname: rust-dwm-status,          name: "rust:rust-dwm-status" }
 - { setname: rust-script,              name: rust:$0 }
+- { setname: rust:bindgen,             namepat: "rust:bindgen[0-9.-]+" }
+- { setname: rust:bindgen-cli,         name: [bindgen-cli, rust-bindgen-cli] }
 - { setname: rustic,                   name: [rustic-rs, rust:rustic-rs] }
 - { setname: rustls-ffi,               name: [librustls, rust:$0] }
 - { setname: rustup,                   name: [rustup-gnu, rustup-msvc, rustup-init, rustup-bin], addflavor: true }
