@@ -204,7 +204,7 @@
 - { setname: glew,                     name: glew-wayland, addflavor: true }
 - { setname: glfw,                     name: [glfw-doc,glfw-wayland,glfw-x11] }
 - { setname: glfw,                     namepat: "(?:lib)?glfw[0-9.-]*" }
-- { setname: glib,                     name: [glib-reference,glib-static,glib2-docs,glib2-patched-thumbnailer,glib2-quiet,glib2-static,glib-utils,glib2-clear,glib2-sched-policy,glib2-tools], addflavor: true }
+- { setname: glib,                     name: [glib-reference,glib-static,glib2-docs,glib2-patched-thumbnailer,glib2-quiet,glib2-static,glib-utils,glib2-clear,glib2-sched-policy,glib2-tools,glib-bootstrap], addflavor: true }
 - { setname: glib,                     namepat: "(?:lib)?glib[0-9.-]*" }
 - { setname: glib-networking,          namepat: "glib[0-9.-]+networking" }
 - { setname: glib-openssl,             namepat: "glib[0-9.-]+openssl" }
@@ -484,7 +484,7 @@
 - { setname: gtimelog,                 name: python:$0 }
 - { setname: gtk,                      namepat: "(?:lib)?gtk[0-9.+-]*(-reference)?", addflavor: $1 }
 - { setname: gtk,                      name: gtk-update-icon-cache, addflavor: true }
-- { setname: gtk-doc,                  name: gtk-doc-am, addflavor: am }
+- { setname: gtk-doc,                  name: [gtk-doc-am,gtk-doc-tools], addflavor: true }
 - { setname: gtk-engines,              namepat: "gtk[0-9.-]*engines[0-9.-]*" }
 - { setname: gtk-engines-$1,           namepat: "gtk[0-9.-]*engines-(.*)" } # XXX: convert to wildcard rule?
 - { setname: gtk-recordmydesktop,      name: recordmydesktop-gtk }
