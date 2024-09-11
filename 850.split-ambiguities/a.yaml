@@ -323,6 +323,10 @@
 
 - { name: atom, wwwpart: bayofrum, setname: atom-converter } # "Converts text files to html with special attributes"
 
+- { name: attic, wwwpart: [attic-backup,jborg], setname: attic-backup }
+- { name: attic, wwwpart: zhaofengli, setname: attic-nix-cache }
+- { name: attic, addflag: unclassified }
+
 - { name: audiofile, wwwpart: adamstark, setname: audiofile-adamstark }
 - { name: audiofile, wwwpart: 68k, addflag: classified }
 - { name: audiofile, noflag: classified, untrusted: true } # assume the same project, but be safe against potential clashes
