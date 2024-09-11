@@ -78,6 +78,7 @@
 - { setname: emacs,                    name: [emacs-devel-nox], addflavor: nox11, weak_devel: true, nolegacy: true }
 - { setname: emacs,                    name: emacs-git-gtk2, addflavor: gtk2, ignore: true }
 - { setname: emacs,                    namepat: "emacs[0-9.-]+(-non-dfsg)?" }
+- { setname: emacs,                    name: emacs-console, addflavor: true }
 - { setname: emacs-lua-mode,           name: emacs-lua }
 - { setname: emacs-mediawiki,          name: mediawiki, category: app-emacs }
 - { setname: emacs-mmm-mode,           name: emacs-mmm }

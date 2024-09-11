@@ -51,6 +51,7 @@
 - { setname: cargo,                    name: cargo-nightly, weak_devel: true, nolegacy: true }
 - { setname: cargo-audit,              name: ["rust:cargo-audit",rust-cargo-audit] }
 - { setname: cargo-auditable,          name: rust:$0 }
+- { setname: cargo-auditable,          name: cargo-auditable-bootstrap, addflavor: true }
 - { setname: cargo-bloat,              name: ["rust:cargo-bloat",rust-cargo-bloat] }
 - { setname: cargo-c,                  name: "rust:cargo-c" }
 - { setname: cargo-deb,                name: "rust:cargo-deb" }

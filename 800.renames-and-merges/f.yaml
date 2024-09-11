@@ -135,6 +135,7 @@
 - { setname: font-v,                   name: python:$0 }
 - { setname: fontbakery,               name: "python:$0" }
 - { setname: fontconfig,               name: fontconfig-reference, addflavor: true }
+- { setname: fontforge,                name: fontforge-cli, addflavor: true }
 - { setname: fontmake,                 name: "python:fontmake" }
 - { setname: fonttools,                name: "python:fonttools" }
 - { setname: foo2js,                   name: foo2zjs-nightly, weak_devel: true, nolegacy: true }
@@ -189,7 +190,7 @@
 - { setname: freetds,                  name: freetds-devel, weak_devel: true, nolegacy: true }
 - { setname: freetds,                  name: [freetds-krb5,freetds-patched-enum], addflavor: true }
 - { setname: freetype,                 name: [libfreetype,freetype1,freetype2] }
-- { setname: freetype,                 name: [freetype2-bootstrap,freetype2-minimal,freetype2-old-hinting,freetype2-ttmetrics,freetype2-ultimate5,freetype2-v35,freetype2-static,freetype2-static-bootstrap], addflavor: true }
+- { setname: freetype,                 name: [freetype2-bootstrap,freetype2-minimal,freetype2-old-hinting,freetype2-ttmetrics,freetype2-ultimate5,freetype2-v35,freetype2-static,freetype2-static-bootstrap,freetype-bootstrap], addflavor: true }
 - { setname: freetype-infinality,      name: [freetype2-infinality,libfreetype-infinality] }
 - { setname: freexl,                   name: libfreexl, addflavor: true }
 - { setname: frei0r,                   name: frei0r-plugins }
