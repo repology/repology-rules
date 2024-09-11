@@ -80,6 +80,7 @@
 - { name: "python:jinja",              verge: "2",                                         incorrect: true }
 - { name: "python:jupyter",            ver: "4.7.1",                 ruleset: void,        incorrect: true }
 - { name: "python:jupyter",                                          ruleset: void,        untrusted: true } # accused of fake 4.7.1
+- { name: "python:kaleido",            ver: "0.2.1.post1",                                 setver: "0.2.1" } # 0.2.1.post1 is the aarch64 wheel of 0.2.1
 - { name: "python:leveldb",            ver: "0.193",                                       sink: true }
 - { name: "python:lexicon",            verge: "3",                   ruleset: pkgsrc,      incorrect: true } # fakes py-dns-lexicon as py-lexicon
 - { name: "python:lxml",               ver: "4.6.4.5",                                     incorrect: true }
