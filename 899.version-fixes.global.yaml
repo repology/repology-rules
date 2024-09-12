@@ -44,6 +44,9 @@
 - { namepat: "cl-.*", verpat: "20[0-9]{6}.*",                        ruleset: macports,    untrusted: true } # fake YYYYMMDD versions for a lot of lisp packages
 - { namepat: "cl-.*", verpat: "20[0-9]{6}.*",                        ruleset: debuntu,     untrusted: true } # fake YYYYMMDD versions for a lot of lisp packages
 
+- { namepat: "texlive:.*",                                           ruleset: guix,        untrusted: true } # fake date versions
+- { namepat: "texlive:.*",                                           ruleset: openmandriva, untrusted: true } # some kind of ctan revisions which have nothing to do with upstream versions
+
 # prevent newly introduced nix categories from polluting unrelated projects before being added to 500 ruleset
 #- { category: "XXX",                                                 ruleset: nix,         addflag: classified_category }
 - { categorypat: "chickenPackages[0-9_]*", namepat: "chicken-.*",    ruleset: nix,         addflag: classified_category }
@@ -81,7 +84,6 @@
 - { verpat: "(git|hg)-(20[0-9]{2}-[0-9]{2}-[0-9]{2})",               ruleset: nix,         setver: $2, snapshot: true } # see repology#854
 - { verpat: ".*-wrapper",                                            ruleset: nix,         ignore: true }
 - { verpat: ".*latest.*",                                            ruleset: justinstall, rolling: true }
-- { verpat: "[0-9]{5}", namepat: "texlive:.*",                       ruleset: [guix,openmandriva], untrusted: true } # some kind of ctan revisions which have nothing to do with upstream versions
 - { verpat: ".*r.*", namepat: "php:.*",                              ruleset: freebsd,     devel: true }
 - { verpat: ".*\\.[rab][0-9]+",                                      ruleset: freebsd,     ignore: true } # XXX: FreeBSD DISTVERSION
 - { verpat: "5\\.[0-9]{2}\\.0",                                      ruleset: kaos_build,  untrusted: true } # accused of faking -rc versions of KDE stuff as release
