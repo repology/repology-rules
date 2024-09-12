@@ -252,6 +252,7 @@ flags = [
     'not_vdr',
     'not_versioned',
     'not_vim',
+    'not_vscode',
     'not_wildcard',
     'not_xemacs',
     'not_xorg',
