@@ -89,6 +89,7 @@
 - { name: restbed,                                                   ruleset: vcpkg,       untrusted: true } # accused of fake 4.16-07-28
 - { name: restund,                     verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: retroarch-assets,                                                                noscheme: true }
+- { name: retroshare,                  ver: "0.6.7a",                                      sink: true, disposable: true } # 0.6.7 → 0.6.7a → 0.6.7.1; if this persists, mark as noscheme
 - { name: retux,                       ver: "1.4.1-1",                                     setver: "1.4.1", disposable: true }
 - { name: rfcat,                       verpat: ".*[0-9]{6}",                               incorrect: true } # uses semver since Aug 2020
 - { name: rfcat,                       ver: ["170508", "190423"],                          sink: true }
