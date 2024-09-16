@@ -21,6 +21,8 @@
 - { setname: yaze-ag,                  name: yaze }
 - { setname: yazi,                     name: rust:yazi-fm }
 - { setname: yder,                     name: libyder }
+- { setname: ydiff,                    name: [cdiff, python:cdiff], outdated: true } # renamed
+- { setname: ydiff,                    name: python:$0 }
 - { setname: yggdrasil-go,             name: yggdrasil }
 - { setname: ykclient,                 name: libykclient }
 - { setname: yofrankie,                name: yo-frankie }
