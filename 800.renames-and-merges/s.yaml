@@ -457,6 +457,7 @@
 - { setname: swift,                    name: [swift-language,swiftlang] }
 - { setname: swig,                     namepat: "swig[0-9]*-(.*)", ruleset: macports, addflavor: $1 } # split by supported language
 - { setname: swig,                     namepat: "swig[0-9.-]+" }
+- { setname: swipeguess,               name: swipe-guess }
 - { setname: swissfileknife,           name: sfk }
 - { setname: switchboard-plug-networking, name: switchboard-plug-network }
 - { setname: switcheroo,               name: $0-gtk4, addflavor: true }
