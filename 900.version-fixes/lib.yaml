@@ -227,6 +227,8 @@
 - { name: libmodplug,                  ver: "0.8.9.1",               ruleset: [gentoo,crux], incorrect: true }
 - { name: libmodplug,                                                ruleset: [gentoo,crux], untrusted: true } # accused of fake 0.8.9.1
 - { name: libmodplug,                  verpat: ".*r[0-9]{3}",                              incorrect: true } # ShiftMediaProject fork
+- { name: libmongocrypt,               ver: "2.3.0",                 ruleset: termux,      incorrect: true }
+- { name: libmongocrypt,                                             ruleset: termux,      untrusted: true } # accused of fake 2.3.0
 - { name: libmp4v2,                    verge: "3", verle: "5.0.1",                         sink: true } # https://mp4v2.org/, latest is 2.1.1
 - { name: libmpsse,                    verpat: "20[0-9]{6}.*",       ruleset: sisyphus,    ignore: true }
 - { name: libmspack,                   verge: "1.5",                                       incorrect: true } # cabextract versions instead of libmspack ones
