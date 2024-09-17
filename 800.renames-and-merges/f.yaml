@@ -135,7 +135,7 @@
 - { setname: font-v,                   name: python:$0 }
 - { setname: fontbakery,               name: "python:$0" }
 - { setname: fontconfig,               name: fontconfig-reference, addflavor: true }
-- { setname: fontforge,                name: fontforge-cli, addflavor: true }
+- { setname: fontforge,                name: [fontforge-cli, fontforge-gtk], addflavor: true }
 - { setname: fontmake,                 name: "python:fontmake" }
 - { setname: fonttools,                name: "python:fonttools" }
 - { setname: foo2js,                   name: foo2zjs-nightly, weak_devel: true, nolegacy: true }
