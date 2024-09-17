@@ -103,6 +103,8 @@
 
 - { noflag: no_suffix, ruleset: slitaz,          namepat: "(.*)-(dev)", setname: $1, addflavor: $2 }
 
+- { noflag: no_suffix, ruleset: termux,          namepat: "lib32-(.*)", setname: $1, addflavor: lib32 }
+
 - { noflag: no_suffix, ruleset: void,            namepat: "chroot-(.*)", setname: $1, addflavor: chroot }
 
 - { noflag: no_suffix, ruleset: manjaro,         namepat: "(linux[0-9]+-(?:rt-)?)((?!rt$).*)", setname: $2, addflavor: $1 }
