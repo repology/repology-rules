@@ -61,6 +61,8 @@
 - { name: qps,                         verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: qrfcview,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: qrfcview,                    ver: "1.0.0",                 ruleset: openbsd,     successor: true } # uses unofficial fork (dead as well)
+- { name: qsstv,                       ver: "9.5.11",                ruleset: mageia,      incorrect: true }
+- { name: qsstv,                                                     ruleset: mageia,      untrusted: true } # accused of fake 9.5.11
 - { name: qstat,                       ver: "2.15",                  ruleset: [debuntu,fedora,mageia,rosa], incorrect: true }
 - { name: qstat,                                                     ruleset: [debuntu,fedora,mageia,rosa], untrusted: true } # accused of fake 2.15
 - { name: qsudo,                       verpat: "20[0-9]{10}",                              incorrect: true } # freebsd
