@@ -41,7 +41,6 @@
 - { name: xdelta,                      verpat: "30.*",                                     sink: true } # t2; 3.0* actually
 - { name: xdg-desktop-portal,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: xdg-desktop-portal-gtk,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: xdg-desktop-portal-kde,      verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: xdg-terminal-exec,           verpat: ".*20[0-9]{6}.*",                           sink: true } # doing proper releases since jan 2024
 - { name: xdg-user-dirs-gtk,           ver: "0.18",                  ruleset: gobolinux,   incorrect: true }
 - { name: xdg-utils,                   verpat: "20[0-9]{6}",                               incorrect: true }
