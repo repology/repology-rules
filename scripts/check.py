@@ -262,6 +262,7 @@ flags = [
     'preserve_case',
     'preserve_underscore',
     'qt5_component',
+    'set_kdeplasma',
     'theiling',
     'unclassified',
     'wconce',
