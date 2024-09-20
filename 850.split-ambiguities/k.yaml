@@ -22,8 +22,9 @@
 - { name: kb, wwwpart: gnebbia, setname: "kb-knowledge-base-manager" }
 - { name: kb, addflag: unclassified }
 
-- { name: kcc, wwwpart: ciromattia, setname: kcc-kindle-comic-converter }
-# otherwise kanji code converter
+- { name: kcc, wwwpart: ciromattia, setname: kcc-comic-converter }
+# otherwise upstreamless kanji code converter
+- { name: kcc, addflag: unclassified }
 
 - { name: kcp, wwwpart: bvaudour, setname: kcp-kaos-community-packages }
 - { name: kcp, wwwpart: kcp-dev, setname: kcp-control-plane }
@@ -47,8 +48,10 @@
 - { name: khmer, wwwpart: [khmer.readthedocs.org,dib-lab,ged-lab], setname: "khmer-sequencing" }
 - { name: khmer, addflag: unclassified }
 
-- { name: kiki, category: [python,universe/python], setname: kiki-re }
-- { name: kiki, wwwpart: [freezope,kiki-re], setname: kiki-re }
+- { name: kiki, sourceforge: kiki, setname: kiki-nanobot-game }
+- { name: kiki, wwwpart: CSaratakij, setname: kiki-sacrifice-remake }
+# otherwise upstreamless kiki-re
+- { name: kiki, addflag: unclassified }
 
 - { name: kim, wwwpart: bouveyron, setname: kim-kde-menu }
 - { name: kim, wwwpart: rancher, setname: kim-kubernetes }
@@ -69,6 +72,8 @@
 - { name: kiss, addflag: unclassified }
 
 - { name: kitty, wwwpart: 9bis, setname: kitty-putty }
+- { name: kitty, wwwpart: kovidgoyal, setname: kitty-terminal }
+- { name: kitty, addflag: unclassified }
 
 - { name: kiwi, wwwpart: [async.com.br,stoq], setname: kiwi-framework }
 - { name: kiwi, wwwpart: [suse,osinside,pypi.org/project/kiwi/], setname: kiwi-appliance-builder }
