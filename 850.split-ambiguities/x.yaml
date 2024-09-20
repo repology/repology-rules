@@ -5,7 +5,8 @@
 - { name: xalan, category: dev-java, setname: xalan-j }
 - { name: xalan, addflag: unclassified }
 
-- { name: xbase, setname: xbase-graywolf, wwwpart: graywolf }
+- { name: xbase, sourceforge: xdb, setname: xbase-datafiles }
+- { name: xbase, addflag: unclassified }
 
 - { name: xc, wwwpart: [joerdav,xcfile.dev], setname: xc-task-runner }
 - { name: xc, sourceforge: execomm, setname: xc-sudo }
@@ -42,6 +43,7 @@
 - { name: xed, addflag: unclassified }
 
 - { name: xidle, wwwpart: steinex, setname: xidle-linux }
+- { name: xidle, addflag: unclassified }
 
 - { name: xivlauncher, wwwpart: goatcorp/XIVLauncher.Core, setname: xivlauncher.core }
 - { name: xivlauncher, wwwpart: goatcorp/FFXIVQuickLauncher, setname: ffxivquicklauncher } # gentoo packages may reference files from xivlauncher.core, so order matters
@@ -77,8 +79,11 @@
 - { name: xst, addflag: unclassified }
 
 - { name: xsv, wwwpart: burntsushi, setname: "rust:xsv" }
+- { name: xsv, addflag: unclassified }
 
 - { name: xtitle, wwwpart: kinzler, setname: xtitle-kinzler }
+- { name: xtitle, wwwpart: baskerville, setname: xtitle-baskerville }
+- { name: xtitle, addflag: unclassified }
 
 - { name: xtl, wwwpart: [QuantStack,xtensor], setname: xtl-quant-stack }
 - { name: xtl, sourceforge: xtl, setname: xtl-externalization-template-library }

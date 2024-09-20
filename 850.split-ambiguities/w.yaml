@@ -17,7 +17,8 @@
 - { name: warp, wwwpart: reverbrain, setname: warp-word-analysis }
 - { name: warp, addflag: unclassified }
 
-- { name: watson, wwwpart: framework, setname: "python:watson-framework" }
+- { name: watson, wwwpart: [tailordev/watson, jezzband.github.io], setname: watson-time-tracling-cli }
+- { name: watson, addflag: unclassified }
 
 - { name: wcalc, wwwpart: w-calc, setname: wcalc-calculator }
 - { name: wcalc, sourceforge: wcalc, setname: wcalc-electronics }
@@ -35,9 +36,6 @@
 - { name: weave, wwwpart: amrhassan, setname: weave-status-bars }
 - { name: weave, wwwpart: weaveworks, setname: weavenet }
 - { name: weave, addflag: unclassified }
-
-- { name: websocket, category: app-emacs, setname: emacs-$0 }
-- { name: websocket, category: dev-go, setname: "go:websocket" }
 
 - { name: when, wwwpart: mitsuhiko, setname: when-timezones }
 - { name: when, wwwpart: [bcrowell,lightandmatter], setname: when-calendar }
@@ -69,6 +67,8 @@
 - { name: wise, addflag: unclassified }
 
 - { name: wlc, wwwpart: weblate, setname: wlc-weblate }
+- { name: wlc, wwwpart: cloudef, setname: wlc-wayland-library }
+- { name: wlc, addflag: unclassified }
 
 - { name: wok, wwwpart: kimchi, setname: wok-plugins-kimchi }
 - { name: wok, wwwpart: mythmon, setname: wok-generator }
@@ -96,6 +96,7 @@
 - { name: workbench, addflag: unclassified }
 
 - { name: wpa, wwwpart: wpa_supplicant, setname: wpa-supplicant } # play it safe with essentially ambiguous name
+- { name: wpa, addflag: unclassified }
 
 - { name: ws, wwwpart: ixwebsocket, setname: ixwebsocket }
 - { name: ws, wwwpart: hashrocket, setname: ws-websocket }
