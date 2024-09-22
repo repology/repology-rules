@@ -278,7 +278,8 @@
 - { name: sparc-utils,                 verpat: ".*-.*",                                    debianism: true } # t2
 - { name: sparse-semantic-parser,      verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: sparse-semantic-parser,      verge: "20000000", verle: "20180430",               sink: true } # 0.5.2 from 20180430
-- { name: spatialite-gui,              ver: "2.0.0",                                       devel: true }
+- { name: spatialite-gui,              ver: "2.1.0",                 ruleset: [sisyphus,freebsd,msys2,aur], incorrect: true }
+- { name: spatialite-gui,              ver: "2.1.0",                 ruleset: [sisyphus,freebsd,msys2,aur], untrusted: true } # accused of fake 2.1.0
 - { name: spdlog,                                                    ruleset: pld,         untrusted: true } # fork, not www to split
 - { name: spe,                         ver: "0.8.4h",                                      incorrect: true } # openbsd; it's 0.8.4.h
 - { name: spectacle-kde,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
