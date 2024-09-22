@@ -37,7 +37,7 @@
 - { setname: xaw3d,                    name: libxaw3d }
 - { setname: xawtv,                    name: xawtv4 }
 - { setname: xbase,                    name: [libxbase,xbase64] }
-- { setname: xcb-proto,                name: libxcbutil-proto }
+- { setname: xcb-proto,                name: [libxcbutil-proto,xcbproto] }
 - { setname: xcb-proto,                name: xorg-xcbproto-devel, weak_devel: true, nolegacy: true }
 - { setname: xcb-util,                 name: xcb-util036 }
 - { setname: xcb-util$1,               namepat: "libxcbutil(.*)" }
