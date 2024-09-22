@@ -296,7 +296,7 @@
 - { setname: mozo,                     name: mozo-gtk2, addflavor: true }
 - { setname: mozo,                     name: mozo-dev, weak_devel: true, nolegacy: true }
 - { setname: mozvoikko,                name: [browser-plugin-mozvoikko,firefox-ext-mozvoikko] }
-- { setname: mpc,                      name: [mpd-mpc,mpclient,mpc-client,mpcli,musicpc] }
+- { setname: mpc,                      name: [mpd-mpc,mpclient,mpc-client,mpcli,musicpc,mpdc] }
 - { setname: mpc-hc,                   name: mediaplayerclassichomecinema }
 - { setname: mpd,                      name: [mpd-light,mpd-light-pulse,mpd-minimal,mpd-server-minimal,mpd-sidplay,mpd-lightest,mpd-light-pulse-ffmpeg,mpd-smbclient], addflavor: true }
 - { setname: mpd,                      name: musicpd }
@@ -367,7 +367,7 @@
 - { setname: mvwm,                     name: mvwm-git, weak_devel: true, nolegacy: true }
 - { setname: mx,                       name: libmx }
 - { setname: mxml,                     name: mxml-static, addflavor: true }
-- { setname: mxml,                     name: [minixml, mini-xml] }
+- { setname: mxml,                     name: [minixml, mini-xml, mxml3] }
 - { setname: mybrowse,                 name: "python:mybrowse" }
 - { setname: mygnuhealth,              name: python:$0 }
 - { setname: mygui,                    namepat: "mygui-(docs|dummy|gl|opengl|ogre[0-9.-]*)", addflavor: $1 }

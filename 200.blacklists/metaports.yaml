@@ -132,6 +132,8 @@
 - { remove: true,   name: xorg-truetype-fonts }
 - { remove: true,   name: xorg-x11-apps }
 - { remove: true,   name: xorg-x11-utils }
+- { remove: true,   name: xserver-xorg, ruleset: chimera }
+- { remove: true,   name: xserver-xorg-minimal, ruleset: chimera }
 - { remove: true,   name: [xorg-100dpi-fonts,xorg-fonts-100dpi], ruleset: [ freebsd, ravenports ] }
 - { remove: true,   name: [xorg-75dpi-fonts,xorg-fonts-75dpi], ruleset: [ freebsd, ravenports ] }
 - { remove: true,   name: [xorg-cyrillic-fonts,xorg-fonts-cyrillic], ruleset: [ freebsd, ravenports ] }
@@ -146,3 +148,16 @@
 - { ruleset: openpkg, namepat: "python-.*",       remove: true }
 
 - { remove: true,   name: [gstreamer1-plugins-core, gst-core, gstreamer-plugins-core] } # custom metaports
+
+# Chimera Linux base packages
+- { remove: true,   name: base-bootstrap }
+- { remove: true,   name: base-cbuild }
+- { remove: true,   name: base-cbuild-bootstrap }
+- { remove: true,   name: base-cbuild-host }
+- { remove: true,   name: base-cross }
+- { remove: true,   name: base-desktop }
+- { remove: true,   name: base-kernel }
+- { remove: true,   name: base-locale }
+- { remove: true,   name: base-shells }
+- { remove: true,   name: base-steamdeck }
+- { remove: true,   name: base-vpsfree }
