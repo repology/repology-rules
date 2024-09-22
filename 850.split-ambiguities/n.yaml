@@ -141,6 +141,11 @@
 - { name: nut, wwwpart: lanl, setname: nut-neutrino-transport }
 - { name: nut, addflag: unclassified }
 
+- { name: nux, wwwpart: launchpad, setname: nux-opengl-toolkit }
+- { name: nux, wwwpart: lbl, setname: "java:nux" }
+- { name: nux, wwwpart: NuxPackage, setname: nux-package-manager }
+- { name: nux, addflag: unclassified }
+
 - { name: nvi, verpat: "2\\..*",       setname: nvi2 }
 
 - { name: nvm, wwwpart: coreybutler, setname: nvm-windows }
