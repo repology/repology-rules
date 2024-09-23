@@ -718,3 +718,7 @@ Indicates that a rule may be removed if it doesn't match any packages.
 ## License
 
 GPLv3 or later, see [COPYING](COPYING).
+
+### Contributors
+
+<img src="https://markupgo.com/github/repology/repology-rules/contributors?count=0&circleSize=40&circleRadius=40&center=true" width="100%" /> 
