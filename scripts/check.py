@@ -93,6 +93,7 @@ families = [
     'openmandriva',
     'openpkg',
     'opensuse',
+    'openvsx',
     'openwrt',
     'os4depot',
     'pacstall',
