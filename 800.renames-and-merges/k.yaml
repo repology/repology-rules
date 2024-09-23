@@ -108,6 +108,8 @@
 - { setname: krb5,                     name: [libkrb5,krb5-mini], addflavor: true }
 - { setname: krb5,                     name: [mit-krb5,kerberos5,kerberos,mit-kerberos,mitkerberos] }
 - { setname: krb5,                     name: krb5-devel, weak_devel: true, nolegacy: true }
+- { setname: krb5,                     name: krb5-ldap-devel, addflavor: ldap, weak_devel: true, nolegacy: true }
+- { setname: krb5,                     name: [krb5-ldap, krb5-ldap-120, krb5-ldap-121], addflavor: ldap }
 - { setname: krb5-appl,                name: mit-krb5-appl }
 - { setname: krill,                    name: rust:$0 }
 - { setname: krita,                    namepat: "krita[0-9.-]+" }
