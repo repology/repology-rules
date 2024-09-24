@@ -51,7 +51,7 @@
 - { setname: marble,                   name: marble-qt, addflavor: true }
 - { setname: marco,                    name: marco-dev, weak_devel: true, nolegacy: true }
 - { setname: marco,                    name: marco-gtk2, addflavor: true }
-- { setname: mariadb,                  namepat: "mariadb[0-9.-]*(clients?|server)?[0-9.-]*", addflavor: [$1,$2] }
+- { setname: mariadb,                  namepat: "mariadb[0-9.-]*(clients?|server)?[0-9.-]*", addflavor: $1 }
 - { setname: mariadb,                  name: [libmariadbclient-mainline-noconflict,mariadb-clients-mainline-noconflict], addflavor: true }
 - { setname: mariadb,                  name: [mariadb-galera,mariadb-mainline-noconflict], addflavor: true }
 - { setname: mariadb-mysql-kbs,        name: "php:williamdes-mariadb-mysql-kbs" } # XXX: problem
