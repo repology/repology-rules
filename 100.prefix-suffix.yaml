@@ -59,7 +59,7 @@
 # XXX: handle (.*)-devel for freebsd?
 - { noflag: no_suffix, ruleset: freebsd,         namepat: "(.*)-(php[0-9]+)", setname: $1, addflavor: $2 }
 - { noflag: no_suffix, ruleset: freebsd,         namepat: "(.*)-(py[0-9]+)", setname: $1, addflavor: $2 }
-- { noflag: no_suffix, ruleset: freebsd,         namepat: "(linux-(?:c6|c7|f10))-(.*)", setname: $2, addflavor: $1, legacy: true }
+- { noflag: no_suffix, ruleset: freebsd,         namepat: "(linux-(?:c7|rl9))-(.*)", setname: $2, addflavor: $1, legacy: true }
 - { noflag: no_suffix, ruleset: freebsd,         namepat: "(.*)-kde4", setname: $1, addflavor: kde4 }
 - { noflag: no_suffix, ruleset: freebsd,         namepat: "(py[0-9]*)-(dj[0-9]+)-(.*)", setname: $1-$3, addflavor: $2 }
 - { noflag: no_suffix, ruleset: freebsd,         namepat: "(.*)-emacs_(canna|nox|devel|devel_nox|wayland)", setname: $1, addflavor: $2 } # emacs module flavors
