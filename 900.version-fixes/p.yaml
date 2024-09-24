@@ -152,6 +152,8 @@
 - { name: pidentd,                     ver: "3.1a25",                                      incorrect: true, disposable: true } # old opensuse leap, no idea where this comes from
 - { name: piglit,                                                                          noscheme: true }
 - { name: pikchr,                                                                          noscheme: true } # https://pikchr.org/home/taglist
+- { name: piksemel,                    ver: "1.3.1.1",               ruleset: side,        incorrect: true }
+- { name: piksemel,                                                  ruleset: side,        untrusted: true } # accused of fake 1.3.1.1
 - { name: pilot-link,                  ver: "0.12.15",               ruleset: gobolinux,   incorrect: true } # gobolinux fake
 - { name: pim-data-exporter,           verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: pim-sieve-editor,            verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }

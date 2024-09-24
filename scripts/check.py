@@ -184,6 +184,7 @@ rulesets = families + [
     'rpm',
     'rpmsphere',
     'sclo',
+    'side',
     'siduction',
     'stackage',
     'slitaz_next',
