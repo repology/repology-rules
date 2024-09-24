@@ -159,6 +159,8 @@
 - { name: libid3tag,                                                 ruleset: macports,    untrusted: true } # accused of fake 0.15.1c
 - { name: libiff,                                                                          noscheme: true }
 - { name: libiio,                      verpat: "20[0-9]{6}",                               snapshot: true } # macports
+- { name: libilbc,                     ver: "3951",                                        incorrect: true } # it's RFC number for iLBC, not even a revision
+- { name: libilbc,                                                   ruleset: opensuse,    untrusted: true } # accused of fake 3951
 - { name: libimobiledevice,            ver: "1.2.1",                 ruleset: [openwrt,rpm], incorrect: true } # fake
 - { name: libimobiledevice,            verlonger: 3,                 ruleset: [kaos,freebsd], incorrect: true } # fake
 - { name: libimobiledevice,            verpat: ".*20[0-9]{6}.*",                           snapshot: true }
