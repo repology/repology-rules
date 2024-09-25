@@ -338,6 +338,7 @@
 - { setname: libva,                    name: [libva-full,libva-gl,libva-glx,libva-headless,libva-minimal], addflavor: true }
 - { setname: libva-utils,              name: [libva-utils-headless], addflavor: true }
 - { setname: libva-vdpau-driver,       name: libva-driver-vdpau }
+- { setname: libversion,               name: libversion1 }
 - { setname: libverto,                 name: [libverto-glib,libverto-libev,libverto-tevent], addflavor: true }
 - { setname: libvirt,                  name: libvirt-zfs, addflavor: true }
 - { setname: libvirt-glib,             namepat: "libvirt-glib[0-9.-]+" }
