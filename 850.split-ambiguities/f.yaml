@@ -118,6 +118,10 @@
 - { name: flower, wwwpart: nuxinl, setname: flower-networking-daemon }
 - { name: flower, addflag: unclassified }
 
+- { name: flox, wwwpart: flox.dev, setname: flox-dev-environments }
+- { name: flox, wwwpart: xarray-contrib, setname: dask-array:flox }
+- { name: flox, addflag: unclassified }
+
 - { name: fluid, wwwpart: hammersound, setname: fluid-soundfont } # XXX: problem
 
 - { name: flux, wwwpart: influxdata, setname: flux-influx }
