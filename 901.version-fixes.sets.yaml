@@ -1,3 +1,5 @@
 # vim: tabstop=30 expandtab softtabstop=30 nomodeline
 
 - { flag: set_kdeplasma,               verpat: ".*\\.9[0-9]",                              devel: true }
+- { flag: set_kdeplasma,               verpat: "[12][0-9]\\..*",                           sink: true } # services moved to plasma such as print-manager
+- { flag: set_kdeplasma,               verlt: "6",                                         sink: true }
