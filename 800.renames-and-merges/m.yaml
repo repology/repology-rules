@@ -54,6 +54,7 @@
 - { setname: mariadb,                  namepat: "mariadb[0-9.-]*(clients?|server)?[0-9.-]*", addflavor: $1 }
 - { setname: mariadb,                  name: [libmariadbclient-mainline-noconflict,mariadb-clients-mainline-noconflict], addflavor: true }
 - { setname: mariadb,                  name: [mariadb-galera,mariadb-mainline-noconflict], addflavor: true }
+- { setname: mariadb-connector-c,      name: [libmariadb, libmariadbclient, mariadb-c-client], ignore: true } # incorrect names, may come from other projects
 - { setname: mariadb-mysql-kbs,        name: "php:williamdes-mariadb-mysql-kbs" } # XXX: problem
 - { setname: mariadb-mytop,            name: mytop, ruleset: arch }
 - { setname: mariadb-mytop,            name: "mytop-10.3" }
