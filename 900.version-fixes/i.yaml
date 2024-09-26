@@ -57,6 +57,8 @@
 - { name: img2pdf,                     ver: "1.4.2",                 ruleset: solus,       incorrect: true }
 - { name: img2pdf,                                                   ruleset: solus,       untrusted: true } # accused of fake 1.4.2
 - { name: imgcat-eddieantonio,         verlt: "2.5.0",                                     outdated: true, disposable: true }
+- { name: immich-go,                   ver: "1.21.3",                ruleset: manjaro,     incorrect: true }
+- { name: immich-go,                                                 ruleset: manjaro,     untrusted: true } # accused of fake 1.21.3
 - { name: imposm,                      releq: "2",                                         sink: true } # imposm2 2.x < imposm3 0.x
 - { name: impressive,                  verpat: ".*r.*",              ruleset: aur,         snapshot: true }
 - { name: imwheel,                     ver: "1.0.0",                 ruleset: void,        incorrect: true }
