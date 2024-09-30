@@ -21,3 +21,4 @@
 - { setname: "emacs:$0",               ruleset: elpa, addflag: wconce }
 - { setname: "lua:$0",                 ruleset: luarocks, addflag: wconce }
 - { setname: "vscode:$0",              ruleset: openvsx, addflag: wconce }
+- { setname: "android:$0",             ruleset: fdroid, addflag: wconce, noflag: android_ok }

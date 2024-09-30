@@ -196,6 +196,7 @@ rulesets = families + [
 ]
 
 flags = [
+    'android_ok',
     'badwww',
     'ccx',
     'cgx',
