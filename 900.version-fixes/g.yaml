@@ -11,6 +11,8 @@
 - { name: garcon,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gaupol,                      ver: "1.4.3",                 ruleset: freebsd,     incorrect: true }
 - { name: gaupol,                                                    ruleset: freebsd,     untrusted: true }
+- { name: gavl,                        ver: "2.0.0",                 ruleset: side,        incorrect: true }
+- { name: gavl,                                                      ruleset: side,        untrusted: true } # accused of fake 2.0.0
 - { name: gawk,                        verpat: "5\\.1\\.[0-9][0-9]",                       incorrect: true } # 5.1.1, not 5.1.65
 - { name: gawk,                        verpat: ".*[0-9][a-z]",                             devel: true } # assumed by https://www.skeeve.com/gawk/gawk-5.2.1c.tar.gz
 - { name: gb,                          verpat: "20[0-9]{6}",                               snapshot: true }
