@@ -114,6 +114,9 @@
 - { name: emoslib,                     verpat: "000[0-9]{3}",                              sink: true } # ancient crap from debian oldstable
 - { name: empathy,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: enblend-enfuse,              verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: enca,                        verpat: ".+20[0-9]{6}",                             snapshot: true }
+- { name: enca,                        ver: "1.19.1",                ruleset: deepin,      incorrect: true }
+- { name: enca,                                                      ruleset: deepin,      untrusted: true } # accused of fake 1.19.1
 - { name: endgame-singularity,         verpat: ".*[ab].*",                                 devel: true }
 - { name: endless-sky,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: endless-sky,                 verpat: "[0-9]+\\.[0-9]+\\.[0-9]*[13579]",          devel: true }
