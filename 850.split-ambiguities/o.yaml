@@ -49,6 +49,10 @@
 
 - { name: omi, setname: omi-ftpmirror, category: ftp } # vs. Open Management Infrastructure
 
+- { name: omm, wwwpart: [dhth,tools.dhruvs.space], setname: omm-task-manager }
+- { name: omm, wwwpart: ElectronicStructureLibrary, setname: omm-kohn-sham-solver }
+- { name: omm, addflag: unclassified }
+
 - { name: onlyoffice, wwwpart: desktopeditors, setname: onlyoffice-desktopeditors }
 - { name: onlyoffice, addflag: unclassified }
 
