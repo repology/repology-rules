@@ -106,6 +106,10 @@
 - { name: flock, wwwpart: util-linux, setname: util-linux, addflavor: flock }
 - { name: flock, addflag: unclassified }
 
+- { name: flog, wwwpart: ezic, setname: flog-file-logger }
+- { name: flog, wwwpart: mingrammer, setname: flog-fake-log-generator }
+- { name: flog, addflag: unclassified }
+
 - { name: flood, wwwpart: sjmulder, setname: flood-rapidly-invoke-command }
 - { name: flood, wwwpart: [flood.js.org, jesec], setname: flood-rtorrent-ui }
 - { name: flood, wwwpart: apache, setname: flood-http-load-tester }
