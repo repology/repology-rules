@@ -123,6 +123,7 @@
 - { setname: docbook-xsl,              name: [docbook-xsl-docs], addflavor: docs }
 - { setname: docbook-xsl,              name: [docbook-xsl-nons,docbook-xsl-stylesheets,docbook-style-xsl] } # assuming non-namespaced is "normal" docbook-xsl
 - { setname: docbook-xsl,              name: [docbook-xsl-ns,docbook-xsl-ns-stylesheets,docbook-style-xsl-ns], addflavor: ns }
+- { setname: docify,                   name: python:$0 }
 - { setname: docker,                   name: [docker-io,docker.io] }
 - { setname: docker,                   name: docker-git-x86, ignore: true } # ignore version just for the cause, because of suspicious name
 - { setname: docker-compose,           name: [python:$0, $0-v1, $0-v2] }
