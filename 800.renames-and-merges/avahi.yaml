@@ -2,6 +2,10 @@
 
 - setname: avahi
   name:
+    - avahi-compat
+
+- setname: avahi
+  name:
     - avahi-app
     - avahi-autoipd
     - avahi-base
@@ -16,6 +20,8 @@
     - avahi-mono
     - avahi-nosystemd
     - avahi-qt4
+    - avahi-qt5
+    - avahi-qt6
     - avahi-sharp
     - avahi-ui
     - avahi-ui-progs
