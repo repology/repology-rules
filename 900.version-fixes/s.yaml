@@ -129,7 +129,7 @@
 - { name: sgt-puzzles,                 verpat: "([0-9]{8})\\.[0-9a-f]+",                   setver: "$1" } # remove commit hashes
 - { name: sgt-puzzles,                 verpat: "20[0-9]{6}",                               ignore: false } # unignores chocolatey if it has correct version, it's often the newest
 - { name: sgt-puzzles,                                               ruleset: void,        untrusted: true } # accused of fake 20230909
-- { name: sgt-puzzles,                                               ruleset: homebrew_casks, untrusted: true } # pretends to be latest version, upstream macOS binaries no longer updated since version 20230918
+- { name: sgt-puzzles,                                               ruleset: homebrew_casks, setver: "20230918", incorrect: true } # pretends to be latest version, upstream macOS binaries no longer updated since version 20230918
 - { name: shaderc,                     verpat: "[0-9a-f]{40}",                             ignore: true } # commit
 - { name: shadowsocks,                 verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: shairplay,                                                                       noscheme: true }
