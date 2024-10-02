@@ -168,6 +168,10 @@
 - { name: meow, wwwpart: pnmougel, setname: meow-menu-manager }
 - { name: meow, addflag: unclassified }
 
+- { name: mercator, wwwpart: mrusme, setname: mercator-osm-tui }
+# otherwise worldforge library, now part of worldforge
+- { name: mercator, addflag: unclassified }
+
 - { name: merlin, wwwpart: op5, setname: merlin-op5 }
 - { name: merlin, wwwpart: [ocaml,the-lambda-church], setname: merlin-ocaml-completion }
 - { name: merlin, wwwpart: abecasis, setname: merlin-linkage } # name already used in AUR; my variant would be merlin-gene-flow
