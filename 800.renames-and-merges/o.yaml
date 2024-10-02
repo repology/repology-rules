@@ -206,6 +206,8 @@
 - { setname: ossp-al,                  name: al, ruleset: openpkg }
 - { setname: ossp-cfg,                 name: cfg, ruleset: openpkg }
 - { setname: ostree,                   name: libostree }
+- { setname: osu,                      name: [osu-lazer-bin, osu-lazer-extracted], addflavor: true }
+- { setname: osu,                      name: [osu-lazer, osulazer] }
 - { setname: otb,                      name: [orfeo-toolbox,orfeotoolbox,otb-legacy] }
 - { setname: otrs,                     name: otrs2 }
 - { setname: otter-browser,            name: otterbrowser }

@@ -182,8 +182,9 @@
 - { name: osm-gps-map,                 verpat: "r.*",                                      snapshot: true }
 - { name: osmosis,                     ver: "0.49.0",                                      setver: "0.49.1", disposable: true } # build system fix which does not affect release
 - { name: osquery,                     ver: "3.0.0",                                       devel: true }
-- { name: osu-lazer,                   ver: "2024.911.0",            ruleset: aosc,        incorrect: true }
-- { name: osu-lazer,                                                 ruleset: aosc,        untrusted: true } # accused of fake 2024.911.0
+- { name: osu,                         ver: "2024.911.0",            ruleset: aosc,        incorrect: true }
+- { name: osu,                                                       ruleset: aosc,        untrusted: true } # accused of fake 2024.911.0
+- { name: osu,                         verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: otrs,                        verge: "7",                                         ignore: true } # no community releases after 6.x
 - { name: otter-browser,               ver: "1.1.0",                 ruleset: rosa,        incorrect: true }
 - { name: otter-browser,                                             ruleset: rosa,        untrusted: true } # accused of fake 1.1.0
