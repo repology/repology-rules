@@ -221,7 +221,7 @@
 - { name: luciole,                                                   ruleset: openbsd,     untrusted: true } # accused of fake 1.0
 - { name: lugaru,                      verpat: "[0-9]{3}.*",                               ignore: true } # dates and snapshots
 - { name: lugaru,                      verpat: "201[56].*",                                sink: true } # 1.2 from 2017
-- { name: luit-xterm,                  verpat: "20[0-9]{6}",                               setver: "2.0-$0" }
+- { name: luit-xterm,                  verpat: "20[0-9]{4}.*",                             incorrect: true }
 - { namepat: "lumina.*",                                                                   p_is_patch: true }
 - { namepat: "lumina.*",                                             ruleset: freebsd,     untrusted: true } # accused of fake versions (1.6.1, 1.6.2) for individual components (calculator, pdf)
 - { name: lumina,                      verpat: ".*p",                                      incorrect: true } # openmandriva
