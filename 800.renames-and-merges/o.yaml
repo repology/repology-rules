@@ -20,6 +20,7 @@
 - { setname: ode,                      name: [libode,open-dynamics-engine,ode-011] }
 - { setname: ode,                      name: ode-python-bindings, addflavor: true }
 - { setname: odin,                     name: odin-dev }
+- { setname: odin,                     name: odin-nightly, weak_devel: true, nolegacy: true }
 - { setname: odoo,                     namepat: "odoo[0-9.-]+" }
 - { setname: ods2sql,                  name: "rust:ods2sql" }
 - { setname: offlinemsmtp,             name: "python:offlinemsmtp" }
