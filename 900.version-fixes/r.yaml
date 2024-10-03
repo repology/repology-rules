@@ -17,6 +17,7 @@
 - { name: rage,                        verlonger: 3,                                       incorrect: true }
 - { name: rage,                        verpat: "[0-9]{5}",                                 incorrect: true }
 - { name: ragel,                       verpat: "7\\..*",                                   devel: true } # http://www.colm.net/open-source/ragel/
+- { name: rainbow-cm,                                                                      noscheme: true }
 - { name: rakarrack,                   ver: "0.6.2",                 ruleset: [sisyphus,fedora,rosa,opensuse], incorrect: true }
 - { name: rakarrack,                                                 ruleset: [sisyphus,fedora,rosa,opensuse], untrusted: true } # accused of fake 0.6.2
 - { name: rakudo,                      verlonger: 2,                                       altver: true } # official binary packages
