@@ -64,6 +64,7 @@
 - { setname: deptry,                   name: python:$0 }
 - { setname: derby,                    name: derby-server }
 - { setname: desed,                    name: "rust:desed" }
+- { setname: destination-sol,          name: destinationsol }
 - { setname: devdocs,                  name: [devdocs-desktop, devdocs-app] } # split in 850
 - { setname: devede,                   name: devedeng }
 - { setname: devhelp,                  name: devhelp-gtk2, addflavor: gtk2 }
@@ -137,7 +138,7 @@
 - { setname: doit,                     name: "python:doit" }
 - { setname: dolfinx,                  name: ["python:fenics-dolfinx", fenics-dolfinx] }
 - { setname: dolphin,                  name: [dolphin-dev, dolphin-beta], weak_devel: true, nolegacy: true }
-- { setname: dolphin-emu,              name: [dolphin-emu4, dolphinemu] }
+- { setname: dolphin-emu,              name: [dolphin-emu4, dolphinemu, dolphin-emulator] }
 - { setname: dolphin-emu,              name: dolphin-emu-beta, weak_devel: true, nolegacy: true }
 - { setname: dolphin-emu,              name: [dolphin-emu-debugfast, dolphin-emu-osvr, dolphin-emu-triforce, dolphin-emu-vr ], weak_devel: true, nolegacy: true }
 - { setname: dolphin-emu-primehack,    name: primehack }

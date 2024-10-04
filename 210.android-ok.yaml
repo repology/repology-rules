@@ -1,21 +1,45 @@
-- { ruleset: fdroid, name: aaaaxy,       addflag: android_ok }
-- { ruleset: fdroid, name: andors-trail, addflag: android_ok }
-- { ruleset: fdroid, name: busybox,      addflag: android_ok }
-- { ruleset: fdroid, name: easer,        addflag: android_ok }
-- { ruleset: fdroid, name: endless-sky,  addflag: android_ok }
-- { ruleset: fdroid, name: freeminer,    addflag: android_ok }
-- { ruleset: fdroid, name: hyperrogue,   addflag: android_ok }
-- { ruleset: fdroid, name: i2p,          addflag: android_ok }
-- { ruleset: fdroid, name: i2pd,         addflag: android_ok }
-- { ruleset: fdroid, name: kouchat,      addflag: android_ok }
-- { ruleset: fdroid, name: linphone,     addflag: android_ok }
-- { ruleset: fdroid, name: mindustry,    addflag: android_ok }
-- { ruleset: fdroid, name: minilens,     addflag: android_ok }
-- { ruleset: fdroid, name: mupdf,        addflag: android_ok }
-- { ruleset: fdroid, name: onscripter,   addflag: android_ok }
-- { ruleset: fdroid, name: reicast,      addflag: android_ok }
-- { ruleset: fdroid, name: scummvm,      addflag: android_ok }
-- { ruleset: fdroid, name: napcast,      addflag: android_ok }
-- { ruleset: fdroid, name: supertuxkart, addflag: android_ok }
-- { ruleset: fdroid, name: vespucci,     addflag: android_ok }
-- { ruleset: fdroid, name: yabause,      addflag: android_ok }
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+# software which is available both on *nix and Android
+- ruleset: fdroid
+  addflag: android_ok
+  name:
+   - aaaaxy
+   - andors-trail
+   - battle-for-wesnoth
+   - boinc
+   - busybox
+   - destination-sol
+   - dolphin-emulator
+   - easer
+   - easyrpg-player
+   - endless-sky
+   - flare
+   - freeminer
+   - gcompris
+   - hyperrogue
+   - i2p
+   - i2pd
+   - immich
+   - joplin
+   - kouchat
+   - krita
+   - linphone
+   - li-ri
+   - logseq
+   - mindustry
+   - minetest
+   - minilens
+   - mupdf
+   - napcast
+   - onscripter
+   - reicast
+   - retroarch
+   - rocks-n-diamonds
+   - scummvm
+   - shattered-pixel-dungeon
+   - supertuxkart
+   - tanks-of-freedom
+   - vcmi
+   - vespucci
+   - yabause
