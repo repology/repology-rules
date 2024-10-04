@@ -98,6 +98,7 @@
 - { verpat: "[0-9a-f]{6,7}",                                         ruleset: chromebrew,  incorrect: true }
 - { verpat: ".*-.*",                                                 ruleset: chromebrew,  untrusted: true } # no way to tell -N revisions from upstream versions with - separator
 - { verpat: "v[0-9].*",                                                                    nolegacy: true }
+- { verpat: "v[0-9].*", namepat: "android:.*",                                             nolegacy: false } # `v` is quite common and used symmetrically in f-droid and izzy
 - { verpat: ".*\\^.*",                                               ruleset: fedora,      ignore: true } # nolegacy?
 - { verpat: ".*-r[0-9]+\\.[a-f0-9]{7}",                              ruleset: termux,      ignore: true } # tur mostly
 
@@ -121,6 +122,7 @@
 
 # android versions may differ
 - {                                                                  ruleset: fdroid,      untrusted: true }
+- { namepat: "android:.*",                                           ruleset: fdroid,      untrusted: false } # allow version comparison for android packages
 
 # melpa "unstable" always uses snapshots
 - {                                                                  ruleset: melpa_unstable, rolling: true }
