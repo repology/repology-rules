@@ -238,6 +238,11 @@
 - { name: cortex, wwwpart: cortexmetrics, setname: cortex-prometeus-storage }
 - { name: cortex, addflag: unclassified }
 
+- { name: cr, wwwpart: cfungos, setname: cr.h }
+- { name: cr, wwwpart: chart-releaser, setname: chart-releaser }
+- { name: cr, wwwpart: crengine, setname: coolreader3 }
+- { name: cr, addflag: unclassified }
+
 - { name: crane, wwwpart: michaelsauter, setname: crane-docker-orchestration-tool }
 - { name: crane, wwwpart: go-containerregistry, setname: "go:containerregistry" }
 - { name: crane, wwwpart: ewilde, setname: crane-build-scripts-creator }
