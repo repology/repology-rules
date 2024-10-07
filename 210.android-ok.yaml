@@ -1,6 +1,10 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 # software which is available both on *nix and Android
+
+# packages NOT to add here, which have separate android codebases (and have either different or (seemingly) compatible) versioning schemes
+# - tailscale                          # https://repology.org/project/android:tailscale/related
+# - syncthing                          # https://github.com/syncthing/syncthing-android
 - ruleset: fdroid
   addflag: android_ok
   name:
