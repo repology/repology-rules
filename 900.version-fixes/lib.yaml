@@ -135,6 +135,7 @@
 - { name: libgravatar,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libgtkflow,                                                                      outdated: true } # was split into libgtkflow3, libgtkflow4 and libgflow, remaining libgtkflow packages are outdated
 - { name: libgtop,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libguess,                    verpat: ".*20[0-9]{6}",                             snapshot: true } # XXX: new upstream problem
 - { name: libguestfs,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libgweather,                 vereq: "40.0",                                      sink: true } # 40 < 3.9x < 4
 - { name: libgweather,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
