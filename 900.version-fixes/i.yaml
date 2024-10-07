@@ -120,9 +120,9 @@
 - { name: ipxe,                        verpat: ".*-[0-9a-f]{7}",                           incorrect: true }
 - { name: ircd,                                                                            p_is_patch: true } # http://www.irc.org/ftp/irc/server/
 - { name: irfanview,                   verpat: "[0-9]{3}",                                 incorrect: true } # 4.52, not 452
-- { name: irrlicht-mt,                                                                     outdated: true } #  > part of minetest, separate packages does not make sense
-- { name: irrlicht-mt-headers,                                                             outdated: true } # /
-- { name: irrlichtmt,                                                                      outdated: true } # \
+- { name: irrlicht-mt,                                                                     outdated: true, disposable: true } #                   \
+- { name: irrlicht-mt-headers,                                                             outdated: true, disposable: true } #                    > part of minetest, separate packages does not make sense
+- { name: irrlichtmt,                                                                      outdated: true, disposable: true, untrusted: false } # /
 - { name: irssi,                       verpat: ".*\\.d\\..*",                              incorrect: true } # freebsd garbage
 - { name: irssi-otr,                   ver: "1.2.1",                 ruleset: openbsd,     incorrect: true }
 - { name: irssi-otr,                                                 ruleset: openbsd,     untrusted: true } # accused of fake 1.2.1
