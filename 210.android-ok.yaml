@@ -3,8 +3,10 @@
 # software which is available both on *nix and Android
 
 # packages NOT to add here, which have separate android codebases (and have either different or (seemingly) compatible) versioning schemes
-# - tailscale                          # https://repology.org/project/android:tailscale/related
+# - activitywatch                      # https://github.com/ActivityWatch/aw-android
 # - syncthing                          # https://github.com/syncthing/syncthing-android
+# - tailscale                          # https://repology.org/project/android:tailscale/related
+
 - ruleset: fdroid
   addflag: android_ok
   name:
