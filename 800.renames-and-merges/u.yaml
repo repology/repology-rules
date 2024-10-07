@@ -99,3 +99,4 @@
 - { setname: uwsgi,                    name: "python:uwsgi" }
 - { setname: uwsgi,                    name: [uwsgi-plugin-php53,uwsgi-plugin-php56,uwsgi-plugin-php71,uwsgi-plugin-rack22], addflavor: true } # these come from uwsgi itself
 - { setname: uwsgitop,                 name: "python:uwsgitop" }
+- { setname: uyou-todo,                name: $0-snap, addflavor: true }
