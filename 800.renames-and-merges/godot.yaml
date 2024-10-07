@@ -1,0 +1,34 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- setname: godot
+  addflavor: true
+  name: 
+    - godot-as
+    - godot-classic
+    - godot-cpp
+    - godot-debug
+    - godot-debug-server
+    - godot-engine
+    - godot-headers
+    - godot-headless
+    - godot-headless-export-templates
+    - godot-mono
+    - godot-mono-debug-server
+    - godot-mono-headless
+    - godot-mono-server
+    - godot-osc
+    - godot-pulse
+    - godot-server
+    - godot-tools
+    - godotengine.mono
+
+- setname: godot
+  name: 
+    - godot2
+    - godot3
+    - godot35
+    - godot4
+
+- { setname: godot, name: [godot-rc,godot-beta,godot-alpha], weak_devel: true, nolegacy: true }
+- { setname: godot, name: [godot-mono-rc,godot-mono-beta], weak_devel: true, nolegacy: true, addflavor: mono }
+- { setname: godot, name: [godot-editor-3, godot-editor-4], addflavor: editor }
