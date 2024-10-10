@@ -283,7 +283,7 @@
 - { setname: contao,                   namepat: "php[0-9]*:contao[0-9.-]*" }
 - { setname: cookiecutter,             name: python:$0 }
 - { setname: cooklang-chef,            name: rust:$0 }
-- { setname: coolreader3,              name: coolreader }
+- { setname: coolreader,               name: [coolreader3, cool-reader] }
 - { setname: copydeps,                 name: "rust:copydeps" }
 - { setname: copyq,                    name: [copyq-qt5, copyq-qt6], addflavor: true }
 - { setname: "coq:gappalib",           name: ["coq:gappa",gappalib-coq] }
