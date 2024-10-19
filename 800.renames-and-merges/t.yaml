@@ -24,7 +24,7 @@
 - { setname: tbftss,                   name: tbftss-the-pandoran-war }
 - { setname: tblite,                   name: "python:$0" }
 - { setname: tcc,                      name: tinycc }
-- { setname: tcl,                      namepat: "tcl8[0-9.-]+" }
+- { setname: tcl,                      namepat: "tcl[89][0-9.-]+" }
 - { setname: tcl,                      name: tcl-nothreading, addflavor: true }
 - { setname: tcl-itk,                  name: [tcl-incrtk4,tcl-itk,itk-tcl,tk-itk] }
 - { setname: tcl-thread,               name: tclthread }
@@ -161,7 +161,7 @@
 - { setname: tinyxml,                  name: [tinyxml2, libtinyxml2] }
 - { setname: tiptop,                   name: [tiptop-cli, "python:tiptop"] }
 - { setname: tix,                      name: [tcl-tix,tk-tix] }
-- { setname: tk,                       namepat: "tk8[0-9.-]+" } # don't mix with tk2, tk5, tk707 which are unrelated projects
+- { setname: tk,                       namepat: "tk[89][0-9.-]+" } # don't mix with tk2, tk5, tk707 which are unrelated projects
 - { setname: tkimg,                    name: [libtk-img,libtkimg,tcl-img] }
 - { setname: tkrev,                    name: tkcvs, outdated: true } # former name
 - { setname: tl-expected,              name: [expected, libexpected] }
