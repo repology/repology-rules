@@ -1,0 +1,26 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- { setname: lidarr,            name: $0-bin,                        addflavor: binary }
+- { setname: prowlarr,          name: $0-bin,                        addflavor: binary }
+- { setname: radarr,            name: $0-bin,                        addflavor: binary }
+- { setname: readarr,           name: $0-bin,                        addflavor: binary }
+- { setname: sonarr,            name: $0-bin,                        addflavor: binary }
+- { setname: whisparr,          name: $0-bin,                        addflavor: binary }
+
+- { setname: lidarr,            name: [$0-develop, $0-develop-bin],  addflavor: develop, devel: true}
+- { setname: prowlarr,          name: [$0-develop, $0-develop-bin],  addflavor: develop, devel: true}
+- { setname: radarr,            name: [$0-develop, $0-develop-bin],  addflavor: develop, devel: true}
+- { setname: readarr,           name: [$0-develop, $0-develop-bin],  addflavor: develop, devel: true}
+- { setname: sonarr,            name: [$0-develop, $0-develop-bin],  addflavor: develop, devel: true}
+- { setname: whisparr,          name: [$0-develop, $0-develop-bin],  addflavor: develop, devel: true}
+
+- { setname: lidarr,            name: [$0-nightly, $0-nightly-bin],  addflavor: nightly, devel: true}
+- { setname: prowlarr,          name: [$0-nightly, $0-nightly-bin],  addflavor: nightly, devel: true}
+- { setname: radarr,            name: [$0-nightly, $0-nightly-bin],  addflavor: nightly, devel: true}
+- { setname: readarr,           name: [$0-nightly, $0-nightly-bin],  addflavor: nightly, devel: true}
+- { setname: sonarr,            name: [$0-nightly, $0-nightly-bin],  addflavor: nightly, devel: true}
+- { setname: whisparr,          name: [$0-nightly, $0-nightly-bin],  addflavor: nightly, devel: true}
+
+- { setname: recyclarr,         name: [$0-bin, $0-cli],              addflavor: true }
+- { setname: autobrr,           name: $0-bin,                        addflavor: true }
+- { setname: bazarr,            name: $0-beta,                                           devel: true }
