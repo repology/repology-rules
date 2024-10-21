@@ -195,6 +195,7 @@
 - { name: anydesk,                                                   ruleset: scoop,       untrusted: true } # accused of fake 5.2.3
 - { name: aom,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: apache,                      verpat: "2\\.[0-9]*[13579]\\..*",                   devel: true }
+- { name: apache-directory-server,     verpat: ".*AM.*",                                   any_is_patch: true }
 - { name: apache-directory-studio,     verpat: ".*20[0-9]{6}[.-][0-9]+",                   incorrect: true } # 2.0.0.v20210717-M17, not 2.0.0.v20210717.17
 - { name: apache-directory-studio,     verpat: ".*20[0-9]{6}",                             incorrect: true } # 2.0.0.v20210717-M17, not 2.0.0.v20210717
 - { name: apel,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
