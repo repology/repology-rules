@@ -14,6 +14,7 @@
 - { setname: abiword,                  name: abiword26 }
 - { setname: ableton-link,             name: [ableton, abletonlink] }
 - { setname: abseil-cpp,               name: [abseil, libabseil-cpp] }
+- { setname: abseil-cpp,               namepat: "(?:lib)?abseil-cpp[0-9.]*" }
 - { setname: abuse,                    name: abuse-free, addflavor: free }
 - { setname: abuse,                    name: abuse-sdl }
 - { setname: accounts-qml-module,      name: [accounts-qml, accounts-qml6-module] }
