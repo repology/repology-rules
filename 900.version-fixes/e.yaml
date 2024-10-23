@@ -149,9 +149,6 @@
 - { name: erlang,                      verpat: ".*r.*",                                    devel: true } # XXX: FreeBSD DISTVERSION
 - { name: erlang,                                                    ruleset: entware,     untrusted: true } # module versions
 - { name: "erlang:cl",                 verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
-- { name: espeak,                      ver: "1.48.15",                                     devel: true } # http://espeak.sourceforge.net/test/latest.html
-- { name: espeak,                      vergt: "1.48.15",                                   incorrect: true }
-- { name: espeak,                                                                          outdated: true } # superseded by espeak-ng
 - { name: espeakedit,                  ver: "1.48.15",                                     incorrect: true } # latest is 1.48.03
 - { name: eterm,                       ver: "0.9.7",                 ruleset: mageia,      incorrect: true }
 - { name: eterm,                                                     ruleset: mageia,      untrusted: true }
