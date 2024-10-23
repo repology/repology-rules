@@ -151,7 +151,8 @@
 - { name: "erlang:cl",                 verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: espeak,                      ver: "1.48.15",                                     devel: true } # http://espeak.sourceforge.net/test/latest.html
 - { name: espeak,                      vergt: "1.48.15",                                   incorrect: true }
-- { name: espeakedit,                  ver: "1.48.04",                                     incorrect: true } # latest is 1.48.03
+- { name: espeak,                                                                          outdated: true } # superseded by espeak-ng
+- { name: espeakedit,                  ver: "1.48.15",                                     incorrect: true } # latest is 1.48.03
 - { name: eterm,                       ver: "0.9.7",                 ruleset: mageia,      incorrect: true }
 - { name: eterm,                                                     ruleset: mageia,      untrusted: true }
 - { name: eterm,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
