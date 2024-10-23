@@ -6,7 +6,6 @@
 #
 
 - { setname: dash,                     name: ash, ruleset: sisyphus } # XXX: problem
-- { setname: espeak-ng,                name: espeak, verpat: "1\\.49\\..*", ruleset: [kaos,termux] } # XXX: problem
 - { setname: libdmx,                   name: xorg-dmx, ruleset: ravenports } # don't mix with xorg dmx server
 - { setname: mysql-connector-c,        name: libmysqlclient, ruleset: haikuports } # not really libmysqlclient from mysql
 - { setname: "perl:html-formatter",    name: "perl:html-format" } # XXX: problem
