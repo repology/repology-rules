@@ -55,6 +55,8 @@
 - { name: libudev0-shim,               verpat: "[0-9]{3}",                                 incorrect: true }
 - { name: libvpx,                      ver: "2.0.0",                 ruleset: rosa,        incorrect: true }
 - { name: libvpx,                                                    ruleset: rosa,        untrusted: true } # accused of fake 2.0.0
+- { name: lidarr,                      ver: "2.7.0.4413",            ruleset: [gentoo, chocolatey], incorrect: true } # develop version
+- { name: lidarr,                                                    ruleset: [gentoo, chocolatey], untrusted: true } # accused of packaging develop versions
 - { name: liferea,                     verpat: "(.*)[ab]",                                 setver: $1 } # distfiles are sometimes rerolled, upstream misbehavior
 - { name: liferea,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed
 - { name: lightdm-gtk-greeter,         verpat: "20[0-9]{6}.*",                             ignore: true }
