@@ -6,6 +6,8 @@
 - { setname: ubisoft-connect,          name: ubisoftconnect }
 - { setname: uchardet,                 name: libuchardet }
 - { setname: ucsc-genome-browser,      name: [kent, kent-tools] }
+- { setname: udis86,                   name: libudis86 }
+- { setname: udis86,                   name: udis86-git, weak_devel: true, nolegacy: true }
 - { setname: udiskie,                  name: "python:udiskie" }
 - { setname: udisks,                   name: [udisks-2,udisks2] }
 - { setname: udisks,                   name: [udisks2-elogind,udisks2-nosystemd,libudisks], addflavor: true }
