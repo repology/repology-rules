@@ -341,6 +341,7 @@
 - { name: protonvpn-cli,               verpat: "[0-9]{10}",                                incorrect: true }
 - { name: prototypejs,                 verpat: ".*js",                                     incorrect: true }
 - { name: prover9,                     ver: "200911a",                                     incorrect: true }
+- { name: prowlarr,                                                  ruleset: [gentoo, chocolatey], untrusted: true } # accused of packaging develop versions
 - { name: proxychains-ng,              verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: pscan,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: psftools,                    ver: "1.1.10",                ruleset: homebrew,    incorrect: true } # 1.0.10 actually; any incorrcet URL like https://www.seasip.info/Unix/PSF/psftools-X.Y.Z.tar.gz downloads as the latest version

@@ -260,6 +260,8 @@
 - { name: solarus,                     ver: "1.6.5",                  ruleset: [aur,kiss], incorrect: true }
 - { name: solarus,                                                    ruleset: [aur,kiss], untrusted: true } # accused of fake 1.6.5
 - { name: solvespace,                  verpat: ".*[0-9]{8}.*",                             ignore: true } # nix garbage
+- { name: sonarr,                      ver: "4.0.9.2513",            ruleset: [gentoo, chocolatey], incorrect: true } # develop version
+- { name: sonarr,                                                    ruleset: [gentoo, chocolatey], untrusted: true } # accused of packaging develop versions
 - { name: sonata,                      verpat: ".*[ab].*",                                 devel: true }
 - { name: soplex,                      verpat: "[0-9]+",                                   incorrect: true } # sagemath
 - { name: soqt,                        ver: ["1.6.0", "1.6.0a"],      ruleset: [aur,debuntu], incorrect: true }
