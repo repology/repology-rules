@@ -14,6 +14,8 @@
 - { name: racer-game,                  ver: "1.1.64",                                      incorrect: true } # it's 1.1 64bit version
 - { name: racket,                      verpat: "299.*",                                    sink: true } # something from 2005
 - { name: radare2-cutter,              verpat: "[0-9a-f]{8}",                              incorrect: true }
+- { name: radarr,                      ver: "5.13.0.9361",           ruleset: gentoo,      incorrect: true } # develop version
+- { name: radarr,                                                    ruleset: gentoo,      untrusted: true } # accused of packaging develop versions
 - { name: rage,                        verlonger: 3,                                       incorrect: true }
 - { name: rage,                        verpat: "[0-9]{5}",                                 incorrect: true }
 - { name: ragel,                       verpat: "7\\..*",                                   devel: true } # http://www.colm.net/open-source/ragel/
