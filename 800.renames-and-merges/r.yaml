@@ -12,6 +12,7 @@
 - { setname: racket,                   name: racket-docs, addflavor: docs }
 - { setname: radare2,                  name: radare } # deprecated in favor of
 - { setname: radare2-bindings,         name: r2-bindings }
+- { setname: radarr,                   name: [$0-develop, $0-nightly], weak_devel: true, nolegacy: true }
 - { setname: radexreader,              name: python:$0 }
 - { setname: radicale,                 name: ["python:radicale","python:radicale2",radicale2] }
 - { setname: radon,                    name: "python:radon" }
@@ -50,6 +51,7 @@
 - { setname: re2,                      name: libre2 }
 - { setname: re2,                      name: [re2-10, re2-6] }
 - { setname: reaction,                 name: quake3-reactionq3 }
+- { setname: readarr,                  name: [$0-develop, $0-nightly], weak_devel: true, nolegacy: true }
 - { setname: readline,                 namepat: "(?:compat-)?(?:lib)?readline[0-9.-]*" }
 - { setname: readline,                 name: readline-unix } # vcpkg
 - { setname: readymedia,               name: minidlna } # former name
