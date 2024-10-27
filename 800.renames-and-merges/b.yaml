@@ -38,7 +38,7 @@
 - { setname: bats,                     name: [bats-core,bash-bats] }
 - { setname: battery-monitor,          name: battery-monitor-devel, weak_devel: true, nolegacy: true }
 - { setname: baudline,                 name: linux-baudline, ruleset: freebsd }
-- { setname: bazarr,                   name: $0-beta, weak_devel: true, nolegacy: true }
+- { setname: bazarr,                   name: $0-beta, devel: true }
 - { setname: bazel,                    name: bazel-clang38, addflavor: true }
 - { setname: bazel,                    namepat: "bazel[0-9.-]+" }
 - { setname: bazel-buildtools,         name: buildifier, addflavor: true }
