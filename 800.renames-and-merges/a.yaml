@@ -56,6 +56,8 @@
 - { setname: add,                      name: tapecalc }
 - { setname: add-determinism,          name: "rust:$0" }
 - { setname: adementary-theme,         name: gtk-theme-adementary }
+- { setname: adi1090x-plymouth-themes, name: plymouth-themes-adi1090x }
+- { setname: adi1090x-plymouth-themes, name: [plymouth-themes-adi1090x-pack1, plymouth-themes-adi1090x-pack2, plymouth-themes-adi1090x-pack3, plymouth-themes-adi1090x-pack4], addflavor: true }
 - { setname: adlplug,                  name: opnplug, addflavor: true }
 - { setname: adms,                     name: [adms-qucs,mot-adms] }
 - { setname: adobe-air,                name: [adobeair] }
