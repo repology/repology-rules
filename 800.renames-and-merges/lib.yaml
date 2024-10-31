@@ -195,6 +195,7 @@
 - { setname: libmediaart,              namepat: "(?:compat-)?libmediaart[0-9.-]+" }
 - { setname: libmediainfo,             name: [mediainfolib,libmediainfo0] }
 - { setname: libmemcached,             name: libmemcached-old }
+- { setname: libmesh-openmpi4,         name: $0-openmpi4, addflavor: true }
 - { setname: libmikmod,                name: libmikmod2 }
 - { setname: libmm,                    namepat: "libmm[0-9.-]+" }
 - { setname: libmng,                   name: [mng,libmng1] }
