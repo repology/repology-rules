@@ -371,6 +371,7 @@
 - { setname: gobby,                    namepat: "gobby[0-9.-]+" }
 - { setname: gobby,                    name: gobby-infinote, addflavor: infinote }
 - { setname: gobject-introspection,    name: [gobject-introspection-common,gobject-introspection-runtime] }
+- { setname: gocryptfs,                name: go:github-rfjakob-gocryptfs }
 - { setname: goffice,                  name: [goffice-light,goffice-gtk2,libgoffice], addflavor: true }
 - { setname: goffice,                  namepat: "goffice[0-9.-]+" }
 - { setname: gogs,                     name: gogs-dev, weak_devel: true, nolegacy: true }
