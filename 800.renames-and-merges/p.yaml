@@ -150,7 +150,8 @@
 - { setname: phonon-vlc,               name: [phonon-vlc-qt6], addflavor: qt6 }
 - { setname: phonon-vlc,               name: phonon-backend-vlc } # ambiguous: phonon-vlc is used in repository name, phonon-backend-vlc for distfile name
 - { setname: photivo,                  name: photivo-qt4, addflavor: true }
-- { setname: php,                      namepat: "php[0-9.-]*" }
+- { setname: php,                      namepat: "php[0-9.-]+" }
+- { setname: php,                      namepat: "php[0-9.-]*-fpm", addflavor: fpm }
 - { setname: php,                      name: [php-with-extensions], addflavor: true }
 - { setname: phpbb,                    name: phpbb3 }
 - { setname: phpinsights,              name: php:$0 }
