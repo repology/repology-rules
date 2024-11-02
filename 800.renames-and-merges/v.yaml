@@ -41,7 +41,7 @@
 - { setname: victoriametrics,          name: victoria-metrics }
 - { setname: vid.stab,                 name: [libvidstab,vid-stab,vidstab] }
 - { setname: video4linux,              name: [libv4l,v4l-utils,v4l-compat] }
-- { setname: viewnior,                 name: viewnior-hide-scrollbars, addflavor: true }
+- { setname: viewnior,                 name: [viewnior-hide-scrollbars,viewnior-gtk3], addflavor: true }
 - { setname: vigra,                    name: [libvigra,libvigraimpex] }
 - { setname: vigra,                    name: vigra-doc, addflavor: doc }
 - { setname: vim,                      name: [gvim,gvim-gtk2], addflavor: true }
