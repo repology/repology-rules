@@ -384,5 +384,3 @@
 - { name: libyuv,                                                                          noscheme: true }
 - { name: libz,                        ver: "1.3.1",                 ruleset: [openmamba, os4depot], incorrect: true } # zlib instead of libz
 - { name: libz,                                                      ruleset: [openmamba, os4depot], untrusted: true } # zlib instead of libz
-- { name: libzen,                      verpat: "17\\..*",            ruleset: freebsd,     incorrect: true } # version from mediainfo is used, while libzen has its own version scheme
-- { name: libzen,                                                    ruleset: freebsd,     untrusted: true }

@@ -23,6 +23,8 @@
 - { name: zenity,                      verpat: "[0-9]+\\.[89][0-9]\\..*",                  devel: true }
 - { name: zenlib,                      ver: "9999",                                        incorrect: true }
 - { name: zenlib,                                                    ruleset: aur,         untrusted: true } # accused of fake 9999
+- { name: zenlib,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true } # mediainfo version appended
+- { name: zenlib,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 17.*, 0.4.41.24.06
 - { name: zeromq,                      verpat: "20[0-9]{6}.*",                             snapshot: true } # vcpkg snapshot
 - { name: zeronet,                     ver: "0.7.2",                 ruleset: homebrew_casks, incorrect: true }
 - { name: zeronet,                                                   ruleset: homebrew_casks, untrusted: true } # accused of fake 0.7.2
