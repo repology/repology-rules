@@ -123,6 +123,7 @@
 - { setname: cfengine-masterfiles,     namepat: cfengine-masterfiles-devel, weak_devel: true, nolegacy: true }
 - { setname: cfitsio,                  name: cfitsio3 }
 - { setname: cflow,                    name: [bsdcflow,gcflow,gnucflow] } # split later
+- { setname: cfonts,                   name: rust:$0 }
 - { setname: cfr,                      name: cfr-decompiler }
 - { setname: cgal,                     name: [cgal-headers,cgal-ipelets], addflavor: true }
 - { setname: cgal,                     name: [cgal4,cgal5,cgal9] }
