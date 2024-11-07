@@ -156,8 +156,9 @@
 - { setname: tint,                     name: tint-tetris }
 - { setname: tintin++,                 name: [tintin,tintinxx] }
 - { setname: tintin++,                 name: tintin-debug, addflavor: true }
-- { setname: tinyfugue,                name: tinyfugue-patched, addflavor: patched }
+- { setname: tinyfugue,                name: tinyfugue-patched, addflavor: true }
 - { setname: tinyfugue,                name: tinyfugue4-stable }
+- { setname: tinyfugue,                name: tinyfugue-devel, weak_devel: true, nolegacy: true }
 - { setname: tinygo,                   name: $0-bin, addflavor: true }
 - { setname: tinymce,                  name: tinymce2 }
 - { setname: tinymediamanager,         name: tiny-media-manager }
