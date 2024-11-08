@@ -287,6 +287,8 @@
 - { name: powder-toy,                                                ruleset: aur,         untrusted: true } # accused of fake 97.0.351
 - { name: powder-toy,                  ver: "98.2.367",              ruleset: opensuse,    incorrect: true }
 - { name: powder-toy,                                                ruleset: opensuse,    untrusted: true } # accused of fake 98.2.367 (opensuse games tumbleweed)
+- { name: powder-toy,                  ver: "98.2.372",              ruleset: mageia,      incorrect: true }
+- { name: powder-toy,                                                ruleset: mageia,      untrusted: true } # accused of fake 98.2.372
 - { name: powder-toy,                  verpat: ".*b",                                      devel: true }
 - { name: powder-toy,                  verpat: "(?:s[a-z]*[.-]?)?([0-9]{3})",              setver: snapshot-$1, altscheme: true, devel: true, ignore: false, untrusted: false }
 - { name: powertop,                    verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
