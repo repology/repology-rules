@@ -291,6 +291,7 @@
 - { name: libreplaygain,               verpat: "r[0-9]{3,}",                               incorrect: false }
 - { name: librsb,                      ver: "1.2.0",                 ruleset: [freshcode], incorrect: true } # 1.2.0rc7
 - { name: librsvg,                     verpat: ".*\\.9[0-9]",                              devel: true }
+- { name: librsvg,                     rellt: "2.41",                                      nolegacy: true } # unsafe non-rust version
 - { name: libsamplerate,               ver: "0.1.9.1",               ruleset: deepin,      incorrect: true }
 - { name: libsamplerate,                                             ruleset: deepin,      untrusted: true } # accused of fake 0.1.9.1
 - { name: libsbml,                     ver: "5.20.1",                ruleset: bioarch,     incorrect: true }
