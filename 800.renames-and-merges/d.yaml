@@ -87,6 +87,7 @@
 - { setname: dictd,                    name: [dict, dict-client, dictd-client], addflavor: client }
 - { setname: dictd,                    name: [dictd, dict-server], addflavor: client }
 - { setname: dictd,                    name: colorit, addflavor: true }
+- { setname: die,                      name: die-engine }
 - { setname: diffenator2,              name: python:$0 }
 - { setname: diffoscope,               name: "python:diffoscope" }
 - { setname: difftastic,               name: "rust:$0" }
