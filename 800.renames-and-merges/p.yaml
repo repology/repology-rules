@@ -415,6 +415,7 @@
 - { setname: pypy,                     name: [pypy-bootstrap, pypy-tkinter], addflavor: true }
 - { setname: pyradio,                  name: python:$0 }
 - { setname: pyside,                   name: python:pyside }
+- { setname: pyside,                   name: [pyside-qt4,pyside-qt4-py3], addflavor: true }
 - { setname: pyside-tools,             name: python:pyside-tools }
 - { setname: pyside2,                  name: [python:pyside2, python:pyside-2] }
 - { setname: pyside2,                  name: [python:pyside2-tools, python:pyside-2-tools], addflavor: tools }
