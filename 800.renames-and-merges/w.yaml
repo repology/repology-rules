@@ -40,6 +40,7 @@
 - { setname: wfuzz,                    name: "python:wfuzz" }
 - { setname: wget,                     name: [wget120, wget2] }
 - { setname: wget,                     name: devbox-wget }
+- { setname: wget,                     name: [wget2-no-docs], addflavor: true }
 - { setname: whatsapp,                 name: [whatsapp.beta,whatsapp-beta], weak_devel: true, nolegacy: true }
 - { setname: wheel2deb,                name: python:$0 }
 - { setname: which,                    name: [gnu-which,gwhich] }
