@@ -167,7 +167,7 @@
 - { setname: luajit,                   name: luajit-ppc64le, addflavor: true }
 - { setname: luajit,                   name: luajit-devel, weak_devel: true, nolegacy: true }
 - { setname: luajit-openresty,         name: [luajit-openresty-stable,luajit-lua52-openresty,lua-luajit-openresty] }
-- { setname: luanti,                   name: [minetest-common,minetest-server], addflavor: true }
+- { setname: luanti,                   name: [minetest-common,minetest-server,luanti-modern], addflavor: true }
 - { setname: luanti,                   name: minetest-git-leveldb, addflavor: true, ignore: true }
 - { setname: luanti,                   name: [minetest, minetest4] }
 - { setname: luarocks,                 name: ["lua:rocks","lua:luarocks",lua-rocks,lua5.3-luarocks,lua-luarocks,luarocks-lua53] }
