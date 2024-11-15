@@ -58,6 +58,7 @@
 - { setname: qt-mobility,              name: qt-mobility11 }
 - { setname: qt-recordmydesktop,       name: recordmydesktop-qt }
 - { setname: qt-virt-manager,          name: virt-manager-qt }
+- { setname: qt6ct,                    name: qt6ct-kde, addflavor: true }
 - { setname: qtbinpatcher,             name: [qtbinpatcher-x64,qtbinpatcher-x86], addflavor: true }
 - { setname: qtcreator,                name: [qt-creator,qt-creator-qt4,qt-creator2,qt4-creator,qtcreator-src,libqt5-creator,qt5-qtcreator,qt5-qtcreator-docs,qtcreator-debug], addflavor: true }
 - { setname: qtcreator,                name: qtcreator-prerelease, weak_devel: true, nolegacy: true }
