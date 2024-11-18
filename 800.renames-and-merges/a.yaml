@@ -193,8 +193,9 @@
 - { setname: anki,                     name: [anki-bin, anki-qt5, anki-before-bazel], addflavor: true }
 - { setname: annex,                    name: annex-conquer-the-world }
 - { setname: ansi-escape-sequences-cli, name: "rust:$0" }
-- { setname: ansible,                  namepat: "(?:python:)?ansible[0-9]*" }
+- { setname: ansible,                  namepat: "(?:python:)?ansible[0-9.-]*" }
 - { setname: ansible-core,             name: [ansible-base, "python:ansible-base", "python:ansible-core" ] }
+- { setname: ansible-core,             namepat: "ansible-core[0-9.-]+" }
 - { setname: ansible-doctor,           name: "python:ansible-doctor" }
 - { setname: ansible-later,            name: "python:ansible-later" }
 - { setname: ansible-lint,             name: "python:ansible-lint" }
