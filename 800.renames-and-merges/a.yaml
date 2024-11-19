@@ -113,7 +113,7 @@
 - { setname: aisleriot,                name: gnome-games-aisleriot }
 - { setname: akode,                    name: [akode-plugins-alsa,akode-plugins-jack,akode-plugins-mpc,akode-plugins-mpeg,akode-plugins-oss,akode-plugins-pulseaudio,akode-plugins-resampler,akode-plugins-sun,akode-plugins-xiph], addflavor: true }
 - { setname: akonadi-contacts,         name: akonadi-contact } # XXX: problem
-- { setname: alac,                     name: alac-decoder, addflavor: true } # supposedly the same
+- { setname: alac,                     name: [alac-decoder,libalac,alacconvert], addflavor: true } # supposedly the same
 - { setname: alacritty,                name: [alacritty-externalpipe, alacritty-ligatures], addflavor: true }
 - { setname: alacritty,                name: "rust:$0" }
 - { setname: albatross-gtk-theme,      name: albatross, verpat: "1\\.7.*" }
