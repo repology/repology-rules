@@ -30,6 +30,7 @@
 - { name: calibre,                                                   ruleset: parrot,      untrusted: true } # accused of 3.15.0.1 fake
 - { name: california,                  ver: "0.4.1",                 ruleset: deepin,      incorrect: true }
 - { name: california,                                                ruleset: deepin,      untrusted: true } # accused of fake 0.4.1
+- { name: calindori,                   verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: calligra,                    verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]",              devel: true }
 - { name: camd,                                                      ruleset: os4depot,    incorrect: true }
 - { name: camlp5,                      verpat: "[0-9]{3}",                                 incorrect: true } # XXX: add problem
@@ -258,6 +259,7 @@
 - { name: coin3d,                                                    ruleset: arch,        untrusted: true } # accused of fake 4.0.0.04c190 
 - { name: collada2gltf,                verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: collada2gltf,                vergt: "20000000", verlt: "20190522",               sink: true }
+- { name: colord-kde,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: colormake,                   verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: colormake,                   ver: ["2.1.0", "0.9.20140504", "0.9.20170221"],     incorrect: true }
 - { name: comedilib,                   ver: "140410",                                      incorrect: true } # pclinuxos weirdness
