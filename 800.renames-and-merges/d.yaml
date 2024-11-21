@@ -131,6 +131,7 @@
 - { setname: docker,                   name: docker-git-x86, ignore: true } # ignore version just for the cause, because of suspicious name
 - { setname: docker-compose,           name: [python:$0, $0-v1, $0-v2] }
 - { setname: docker-compose,           name: $0-bin, addflavor: true }
+- { setname: docx2txt,                 name: perl:$0, outdated: true } # XXX: problem; incorrect naming
 - { setname: dog-dns,                  name: dogdns }
 - { setname: doge,                     name: python:$0 }
 - { setname: dogecoin,                 name: [dogecoind,dogecoin-qt,dogecoin-daemon] }
