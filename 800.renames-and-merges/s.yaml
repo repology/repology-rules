@@ -128,6 +128,7 @@
 - { setname: sendmail,                 name: [sendmail-cf,sendmail-cidrexpand,sendmail-libmilter,sendmail-qtool,libmilter,milter,smrsh], addflavor: true }
 - { setname: seqan,                    name: seqan-apps, addflavor: true }
 - { setname: seqan,                    namepat: "seqan[0-9.-]+" }
+- { setname: seqlib,                   name: libseqlib } # XXX: problem
 - { setname: sequencer64,              name: sequencer64-next, ignore: true }
 - { setname: sequoia-sq,               name: "rust:sequoia-sq" }
 - { setname: sequoia-sqv,              name: "rust:sequoia-sqv" }
