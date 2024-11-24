@@ -366,7 +366,11 @@
 - { setname: stack,                    name: stack-static, addflavor: true }
 - { setname: stan-math,                name: stanc }
 - { setname: standardnotes,            name: standardnotes-desktop }
+- { setname: stardust-xr-atmosphere,   name: [stardust-atmosphere, rust:stardust-xr-atmosphere] }
 - { setname: stardust-xr-flatland,     name: [stardust-flatland, rust:flatland] }
+- { setname: stardust-xr-gravity,      name: [stardust-gravity, rust:stardust-xr-gravity] }
+- { setname: stardust-xr-magnetar,     name: stardust-magnetar }
+- { setname: stardust-xr-protostar,    name: stardust-protostar }
 - { setname: stardust-xr-server,       name: [stardust-server, stardust-xr] }
 - { setname: starship,                 name: "rust:starship" }
 - { setname: staruml,                  name: staruml-bin, addflavor: true }

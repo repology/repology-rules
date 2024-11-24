@@ -365,7 +365,14 @@
 - { name: ssmtp,                       vergt: "2.64",                                      successor: true } # https://github.com/solbu/ssmtp
 - { name: ssss,                        verlonger: 2,                 ruleset: alpine,      incorrect: true } # fork faked as the original
 - { name: ssvnc,                       ver: "1.0.30",                                      devel: true, maintenance: true } # http://www.karlrunge.com/x11vnc/ssvnc.html#download
+- { name: stardust-xr-atmosphere,                                                          noscheme: true }
 - { name: stardust-xr-flatland,                                                            noscheme: true }
+- { name: stardust-xr-gravity,                                                             noscheme: true }
+- { name: stardust-xr-kiara,                                                               noscheme: true }
+- { name: stardust-xr-magnetar,                                                            noscheme: true }
+- { name: stardust-xr-phobetor,                                                            noscheme: true }
+- { name: stardust-xr-protostar,                                                           noscheme: true }
+- { name: stardust-xr-sphereland,                                                          noscheme: true }
 - { name: stb,                                                                             noscheme: true }
 - { name: steam,                                                     ruleset: [windows,macosx], altscheme: true }
 - { name: steamcmd,                                                                        noscheme: true }
