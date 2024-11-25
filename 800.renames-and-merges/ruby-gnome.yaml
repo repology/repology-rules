@@ -1,7 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 # Real ruby gems
-- setname: ruby-gnome2
+- setname: ruby-gnome
   name:
     - "ruby:atk"
     - "ruby:cairo-gobject"
@@ -31,20 +31,21 @@
     - "ruby:rsvg2"
     - "ruby:vte"
     - "ruby:vte3"
+    - "ruby:vte4"
     - "ruby:webkit-gtk"
     - "ruby:webkit-gtk2"
     - "ruby:webkit2-gtk"
   addflavor: true
 
 # Not real ruby gems, but same thing
-- setname: ruby-gnome2
+- setname: ruby-gnome
   name:
     - "ruby:gnome"
     - "ruby:gnome2"
     - "ruby:ruby-gnome2"
 
 # Misc incorrectly named or obsolete packages, not real gems
-- setname: ruby-gnome2
+- setname: ruby-gnome
   name:
     - "ruby:gnomecanvas"
     - "ruby:libart"
