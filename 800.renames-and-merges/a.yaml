@@ -31,8 +31,7 @@
 - { setname: acme-tiny,                name: "python:acme-tiny" }
 - { setname: acme.sh,                  name: [acme-sh,acmesh] }
 - { setname: acorn,                    name: acorn-cli }
-- { setname: acpi-call,                name: [acpi-call-ck-fbcondecor,acpi-call-dkms,acpi-call-pf], addflavor: true }
-- { setname: acpi-call,                name: acpi-call-ck, addflavor: true }
+- { setname: acpi-call,                name: [acpi-call-ck-fbcondecor,acpi-call-dkms,acpi-call-pf,kernel-modules-acpi-call-std-def,acpi-call-linux-module,acpi-call-src,acpi-call-ck], addflavor: true }
 - { setname: acpica,                   namepat: "acpica-(?:tools|unix|utils)" }
 - { setname: acpid,                    name: acpid2 }
 - { setname: acquire,                  name: "python:acquire" }
