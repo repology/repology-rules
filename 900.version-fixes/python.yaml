@@ -33,6 +33,7 @@
 - { name: "python:crontab",            verge: "1.8",                                       incorrect: true } # python-crontab package faked as crontab
 - { name: "python:curio",              verpat: ".*\\^.*",                                  incorrect: true } # 1.6^1.1484546 garbage
 - { name: "python:curio",                                            ruleset: fedora,      untrusted: true } # accused of fake 1.6^1.1484546
+- { name: "python:cxx",                verge: "6",                                         incorrect: true } # latest cxx python module is 0.3.0
 - { name: "python:dash",               wwwpart: pydash,                                    incorrect: true } # pkgsrc
 - { name: "python:dbus-python",        ver: "1.12.18",               ruleset: solus,       incorrect: true } # 1.2.18
 - { name: "python:dbus-python",                                      ruleset: solus,       untrusted: true } # accused of fake 1.12.18
@@ -130,6 +131,7 @@
 - { name: "python:pycrypto",                                         ruleset: [unitedrpms,sisyphus], untrusted: true } # accused of fake 2.7
 - { name: "python:pycrypto",           ver: "2.7a.1",                ruleset: pisi,        incorrect: true } # 2.7a1
 - { name: "python:pycrypto",                                         ruleset: pisi,        untrusted: true } # accused of fake 2.7a.1
+- { name: "python:pycxx",              verge: "6",                                         incorrect: true } # latest pycxx python module is 0.0.4
 - { name: "python:pydispatcher",       wwwpart: pypydispatcher,                            incorrect: true }
 - { name: "python:pydispatcher",                                     ruleset: gentoo,      untrusted: true } # accused of faking pypydispatcher as pydispatcher
 - { name: "python:pyenet",             verpat: "20[0-9]{6}",                               snapshot: true }
