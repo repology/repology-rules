@@ -29,6 +29,7 @@
 - { setname: icinga,                   name: [icinga-base,icinga-cgi,icinga-classic-ui,icinga-idoutils,icinga2-ido-mysql,icinga2-ido-pgsql,icinga2-ido], addflavor: true }
 - { setname: icingadb-web,             name: icingaweb2-module-icingadb }
 - { setname: icingaweb2,               name: icinga-web2 }
+- { setname: icnsify,                  name: rust:$0 }
 - { setname: icoextract,               name: python:$0 }
 - { setname: icon,                     name: [icon-lang, icon-interp] }
 - { setname: iconpack-obsidian,        name: obsidian-icon-theme }
