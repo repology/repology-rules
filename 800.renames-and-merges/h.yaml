@@ -78,7 +78,8 @@
 - { setname: htop,                     name: [htop-blueweb,htop-solarized,htop-temperature,htop-temperature-rpi,htop-vim,htop-vim-solarized], addflavor: true }
 - { setname: http-parser,              name: libhttp-parser }
 - { setname: hugin,                    name: [hugin-app,hugin-tools], addflavor: true }
-- { setname: hugo-sitegen,             name: "go:hugo" }
+- { setname: hugo,                     name: [hugo.extended, hugo-extended], addflavor: extended }
+- { setname: hugo,                     name: [go:hugo,gohugo,hu-go] } # different projects, split in 850 
 - { setname: hugs,                     name: hugs98 }
 - { setname: huhnitor,                 name: $0-snap }
 - { setname: hunspell,                 name: [libhunspell,libhunspell1.3], addflavor: lib }

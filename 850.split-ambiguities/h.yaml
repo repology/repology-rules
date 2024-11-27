@@ -142,10 +142,10 @@
 - { name: http-ping, wwwpart: coretechnologies, setname: http-ping-coretechnologies }
 - { name: http-ping, addflag: unclassified }
 
-- { name: hugo,                        setname: hugo-interactive-fiction, verpat: "3\\..*" }
-- { name: hugo,                        setname: hugo-emulator, verpat: "2\\..*" }
-- { name: hugo,                        setname: hugo-sitegen }
-- { name: gohugo,                      setname: hugo-sitegen }
+- { name: hugo, wwwpart: generalcoffee.com, setname: hugo-interactive-fiction }
+- { name: hugo, wwwpart: gohugo, setname: hugo-sitegen }
+- { name: hugo, wwwpart: zeograd, setname: hugo-emulator }
+- { name: hugo, addflag: unclassified }
 
 - { name: hunt, wwwpart: LyonSyonII, setname: hunt-find }
 # also abandonware connection intruder
