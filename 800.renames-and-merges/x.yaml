@@ -54,6 +54,8 @@
 - { setname: xdot,                     name: ["python:xdot","python:xdot-06"] }
 - { setname: xed,                      name: xed-editor }
 - { setname: xed,                      name: [xed-intel,intel-xed,intelxed] }
+- { setname: xen,                      name: [xen-tools,xen-guest-tools,xen-kernel,xenstoretools], addflavor: true }
+- { setname: xen,                      namepat: "xenkernel[0-9.-]+", addflavor: kernel }
 - { setname: xerces-c,                 namepat: "(?:compat-)?(?:lib)?xerces-?c[0-9.+-]*" }
 - { setname: xerces-c,                 name: xerces-c-icu, addflavor: true }
 - { setname: xerces-j,                 name: xerces, ruleset: [openbsd,slackbuilds] }

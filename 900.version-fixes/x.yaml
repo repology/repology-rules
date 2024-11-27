@@ -78,6 +78,10 @@
 - { name: xemeraldia,                  ver: "0.31",                                        incorrect: true }
 - { name: xemeraldia,                                                ruleset: pkgsrc,      untrusted: true } # accused of fake 0.31
 - { name: xen,                         verpat: ".*_.*",              ruleset: opensuse,    incorrect: true }
+- { name: xen,                                                       ruleset: opensuse,    untrusted: true } # accused of fake 4.19.0_06
+- { name: xen,                         verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: xen,                         verpat: ".+20[0-9]{6}",                             snapshot: true }
+- { name: xen,                         verpat: ".*pre.*",                                  incorrect: true }
 - { name: xephem,                      verpat: ".*20[0-9]{6}[0-9a-f]{6}.*",                incorrect: true } # unusual garbage from opensuse
 - { name: xevil,                                                                           any_is_patch: true } # assumed, most distros provide 2.02r2
 - { name: xf86rushproto,               ver: "1.2.2",                 ruleset: funtoo,      incorrect: true }
