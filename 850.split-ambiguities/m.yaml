@@ -27,7 +27,7 @@
 - { name: magpie, addflag: unclassified }
 
 - { name: mailx, wwwpart: heirloom, setname: heirloom-mailx }
-- { name: mailx, verpat: "12\\..*", setname: heirloom-mailx }
+- { name: mailx, addflag: unclassified }
 
 - { name: mako, wwwpart: [mako-project,emersion], setname: mako-notifier }
 - { name: mako, wwwpart: makotemplates, setname: "python:mako" }
@@ -105,7 +105,8 @@
 - { name: mcs, addflag: unclassified }
 
 - { name: mdk, wwwpart: wlan, setname: mdk-wireless-injection }
-# otherwise, GNU MIX Development Kit
+- { name: mdk, wwwpart: gnu, setname: mdk-mix-development-kit }
+- { name: mdk, addflag: unclassified }
 
 - { name: mdl, wwwpart: [markdownlint/markdownlint,rubygems], setname: mdl-markdownlint } # see also markdownlint rules in this file
 - { name: mdl, wwwpart: DavidAnson, setname: node:markdownlint }
@@ -160,8 +161,11 @@
 - { name: memo, addflag: unclassified }
 
 - { name: memphis, wwwpart: compilertools, setname: memphis-compilertools }
+- { name: memphis, wwwpart: [jiuka,trac.openstreetmap], setname: memphis-map-renderer }
+- { name: memphis, addflag: unclassified }
 
 - { name: memtest, wwwpart: memtest.org, setname: memtest86+ }
+- { name: memtest, addflag: unclassified }
 
 - { name: memwatch, wwwpart: [pascalrd,unixdev], setname: memwatch-viewer }
 - { name: memwatch, wwwpart: linkdata, setname: memwatch-leak-detection }
@@ -180,7 +184,8 @@
 - { name: merlin, wwwpart: abecasis, setname: merlin-linkage } # name already used in AUR; my variant would be merlin-gene-flow
 - { name: merlin, addflag: unclassified }
 
-- { name: meteo, wwwpart: radit, setname: meteo-radit } # wtf with spanish summary
+- { name: meteo, wwwpart: bitseater/meteo, setname: meteo-forecast }
+- { name: meteo, addflag: unclassified }
 
 - { name: meteor, wwwpart: meteor.com, setname: meteorjs }
 - { name: meteor, wwwpart: [meteorgba,blastrock], setname: meteorgba }
@@ -342,6 +347,8 @@
 - { name: mumps, addflag: unclassified }
 
 - { name: munin, wwwpart: neo23x0, setname: munin-hash-checker }
+- { name: munin, wwwpart: munin-monitoring.org, setname: munin-monitoring }
+- { name: munin, addflag: unclassified }
 
 - { name: muon, wwwpart: nickmqb, setname: muon-lang }
 - { name: muon, wwwpart: muon.build, setname: muon-meson }

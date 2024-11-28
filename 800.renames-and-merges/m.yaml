@@ -349,7 +349,8 @@
 - { setname: mumble,                   name: [mumble-snapshot, mumble-snapshot-minimal], addflavor: minimal, weak_devel: true, nolegacy: true }
 - { setname: mumps,                    name: mumps4 }
 - { setname: mumps,                    name: [mumps-metis,mumps-metis-openmpi,mumps-mpich,mumps-openmpi,mumps-par,mumps-seq,mumps-seq-shared], addflavor: true }
-- { setname: munin,                    namepat: munin-(master|node|server|common), addflavor: $1 }
+- { setname: munin,                    name: [$0-master, $0-node, $0-server, $0-common], addflavor: true }
+- { setname: munin,                    name: munin-hashchecker } # different project tha munin-monitoring, split in 850
 - { setname: munt,                     name: [munt-alsadrv, munt-mt32emu-alsadrv], addflavor: alsadrv }
 - { setname: muparser,                 namepat: "libmuparser[0-9.-]*" }
 - { setname: mupdf,                    name: [libmupdf,mupdf-nojs,mupdf-seccomp,mupdf-tools], addflavor: true }
