@@ -119,6 +119,7 @@
 - { setname: live555,                  name: livemedia-utils, addflavor: utils }
 - { setname: lizard,                   name: [lizard-analyzer, python:lizard] } # name is ambiguous, split in 850
 - { setname: lizard,                   name: lz5 } # former name; new name is ambiguous, split in 850
+- { setname: lla,                      name: rust:$0 }
 - { setname: llama.cpp,                name: llama-cpp }
 - { setname: lls,                      name: [list-listening-sockets, rust:lls] }
 - { setname: lm-sensors,               name: lm-sensors-max-of-fctemps, addflavor: true }
