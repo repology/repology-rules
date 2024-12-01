@@ -66,6 +66,8 @@
 - { name: aescrypt,                    verpat: "[0-9]+",                                   incorrect: true } # 3.10, not 310
 - { name: aeskulap,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: aeskulap,                    verpat: ".*g.*",                                    snapshot: true }
+- { name: aeskulap,                    ver: "0.2.2_e710562d",                              incorrect: true } # slackbuilds
+- { name: aeskulap,                                                  ruleset: slackbuilds, untrusted: true } # accused of fake 0.2.2_e710562d
 - { name: aeskulap,                    ver: "0.2.2",                 ruleset: [sisyphus,rosa,pclinuxos], incorrect: true } # 0.2.2beta2
 - { name: aeskulap,                                                  ruleset: [sisyphus,rosa,pclinuxos], untrusted: true } # accused of fake 0.2.2
 - { name: aewm++,                      ver: "1.0.1",                 ruleset: aur,         incorrect: true }
