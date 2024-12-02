@@ -66,7 +66,7 @@
 # Developer
 - { setname: firefox,                  namepat: "firefox-developer(.*)", addflavor: $1, weak_devel: true, nolegacy: true }
 - { setname: firefox,                  namepat: "firefox-developer-edition(.*)", addflavor: $1, weak_devel: true, nolegacy: true }
-- { setname: firefox,                  namepat: "firefox-developeredition(.*)", addflavor: $1, weak_devel: true, nolegacy: true }
+- { setname: firefox,                  namepat: "firefox\\.developeredition\\.(.*)", addflavor: $1, weak_devel: true, nolegacy: true }
 - { setname: firefox,                  name: [firefox-devedition, firefox.developeredition], weak_devel: true, nolegacy: true }
 
 - setname: firefox
