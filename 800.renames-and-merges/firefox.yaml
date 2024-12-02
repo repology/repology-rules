@@ -13,6 +13,7 @@
     - firefox-esr-l10n-xpi
     - firefox-esr-pt-br
     - firefox-esr-zh-cn
+    - firefox-esr-globalmenu
   addflavor: true
 
 # Normal
@@ -58,12 +59,15 @@
     - firefox-wayland
     - firefox-zh
     - mozilla-firefox-bin
+    - firefox-kde-opensuse-no-telemetry
+    - firefox-globalmenu
   addflavor: true
 
 # Developer
 - { setname: firefox,                  namepat: "firefox-developer(.*)", addflavor: $1, weak_devel: true, nolegacy: true }
 - { setname: firefox,                  namepat: "firefox-developer-edition(.*)", addflavor: $1, weak_devel: true, nolegacy: true }
-- { setname: firefox,                  name: firefox-devedition, weak_devel: true, nolegacy: true }
+- { setname: firefox,                  namepat: "firefox-developeredition(.*)", addflavor: $1, weak_devel: true, nolegacy: true }
+- { setname: firefox,                  name: [firefox-devedition, firefox.developeredition], weak_devel: true, nolegacy: true }
 
 - setname: firefox
   name:
@@ -88,7 +92,8 @@
   nolegacy: true
 
 # Nighly
-- { setname: firefox,                  name: [firefox-nightly], rolling: true }
+- { setname: firefox,                  name: [firefox-nightly], weak_devel: true, nolegacy: true }
+- { setname: firefox,                  namepat: "firefox-nightly-(i18n-.*)", addflavor: $1, weak_devel: true, nolegacy: true }
 
 - setname: firefox
   name:
@@ -107,4 +112,5 @@
     - firefox-nightly-zh-cn
     - firefox-nightly-zh-tw
   addflavor: true
-  rolling: true
+  weak_devel: true
+  nolegacy: true
