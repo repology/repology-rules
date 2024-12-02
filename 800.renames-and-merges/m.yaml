@@ -131,6 +131,7 @@
 - { setname: mattermost,               name: [mattermost-server, mattermost-webapp], addflavor: true }
 - { setname: mattermost-desktop,       name: mattermostdesktop }
 - { setname: maturin,                  name: ["python:maturin", "rust:maturin"] }
+- { setname: mauikit-archiver,         name: maui-mauikit-archiver }
 - { setname: maven,                    name: apache-maven }
 - { setname: maven,                    name: [apache-maven-bin,maven-bin], addflavor: bin }
 - { setname: maven,                    namepat: "maven[0-9]+(-core)?", addflavor: $1 }
