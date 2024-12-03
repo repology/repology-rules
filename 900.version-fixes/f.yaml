@@ -89,8 +89,8 @@
 - { name: firebird,                                                  ruleset: debuntu,     untrusted: true } # accused of fake 3.0.4
 - { name: firectl-firecracker,         ver: "0.1.50",                ruleset: opensuse,    incorrect: true }
 - { name: firectl-firecracker,                                       ruleset: opensuse,    untrusted: true } # accused of fake 0.1.50
-- { name: firefox,                     verpat: ".*[^a-z][ab][^a-z].*",                     devel: true, weak_devel: false }
-- { name: firefox,                     verpat: ".*[^a-z][b][^a-z].*",                      devel: true, ignore: false } # there are *a* nightlies and *b* betas; while we can't have two devel versions, prefer beta, especially that nightlies are mostly garbage
+- { name: firefox,                     verpat: ".*[^a-z][ab].*",                           devel: true, weak_devel: false }
+- { name: firefox,                     verpat: ".*[^a-z]a.*",                              devel: true, ignore: true } # there are *a* nightlies and *b* betas; while we can't have two devel versions, prefer beta, especially that nightlies are mostly garbage
 - { name: firefox,                     verpat: "(.*?) *esr",                               setver: $1 }
 - { name: firefox,                                                   ruleset: freebsd,     untrusted: true } # accused of faking RCs as releases
 - { name: firefox,                                                   ruleset: ubuntu,      untrusted: true } # accused of faking 75 RC as release
