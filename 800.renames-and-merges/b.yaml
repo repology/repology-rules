@@ -135,7 +135,7 @@
 - { setname: blasphemer,               name: blasphemer-wad }
 - { setname: blast,                    name: blast-legacy }
 - { setname: blender,                  name: [blender-alarm,blender-as-py-module,blender-binaries,blender-wayland,blender-rocm], addflavor: true }
-- { setname: blender,                  namepat: "blender(?:-lts)?[0-9.-]*" }
+- { setname: blender,                  namepat: "blender(?:[.-]lts)?[0-9.-]*" }
 - { setname: blender,                  name: blender-develop, weak_devel: true, nolegacy: true }
 - { setname: blink,                    name: $0-qt, addflavor: true }
 - { setname: bliss,                    name: bliss-graphs }
