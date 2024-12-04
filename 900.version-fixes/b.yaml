@@ -40,7 +40,10 @@
 - { name: bbswitch,                    verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: bcache-tools,                                              ruleset: opensuse,    untrusted: true } # accused of fake 1.0.9
 - { name: bcache-tools,                verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: bcachefs-tools,                                                                  noscheme: true }
+- { name: bcachefs-tools,              verpat: "24.*",                                     sink: true } # debian garbage
+- { name: bcachefs-tools,                                            ruleset: debuntu,     untrusted: true } # accused of fake 24
+- { name: bcachefs-tools,              verpat: "202[23].*",                                sink: true } # 1.13.0 from 2024-10-09
+- { name: bcachefs-tools,              verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: bcal,                        ver: "2.1.12",                ruleset: freebsd,     incorrect: true }
 - { name: bcal,                                                      ruleset: freebsd,     untrusted: true } # accused of fake 2.1.12
 - { name: bcm20702a1-firmware,         verpat: "[0-9]{7}",                                 ignore: false } # unignore global rule from 900/0.yaml
