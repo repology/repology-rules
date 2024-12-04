@@ -4,6 +4,7 @@
 - { setname: firefox,                  namepat: "firefox-esr[0-9.-]*(-l10n|-i18n|-gtk2|-privacy)*", addflavor: $1 }
 - { setname: firefox,                  namepat: "firefox[0-9.-]*esr" }
 - { setname: firefox,                  namepat: "firefox-esr-(i18n-.*)", addflavor: $1 }
+- { setname: firefox,                  namepat: "firefox\\.esr\\.([a-z]{2,3}(?:-[a-z]+))", addflavor: $1 }
 - { setname: firefox,                  name: firefox-legacy }
 
 - setname: firefox
