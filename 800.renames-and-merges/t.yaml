@@ -121,7 +121,8 @@
 - { setname: thunar-media-tags-plugin, name: [thunar-media-tags, thunar-plugin-media-tags, xfce4-thunar-media-tags-plugin] } # XXX: consider wildcard rule
 - { setname: thunarx-python,           name: thunarx-python-0.3 }
 - { setname: thunder-and-lightning,    name: "thunder&lightning" }
-- { setname: thunderbird,              name: [mozilla-thunderbird,mozillathunderbird] }
+- { setname: thunderbird,              name: [mozilla-thunderbird,mozillathunderbird,thunderbird-esr] }
+- { setname: thunderbird,              namepat: "thunderbird\\.([a-z]{2,3}(?:-[a-z]+))", addflavor: $1 }
 - { setname: thunderbird,              name: [thunderbird-45-gtk2,thunderbird-gtk2], addflavor: gtk2 }
 - { setname: thunderbird,              name: mozilla-thunderbird-l10n, addflavor: l10n }
 - { setname: thunderbird,              name: [thunderbird-bin,thunderbird-i18n,thunderbird-l10n-xpi,thunderbird-ru,thunderbird-kde,thunderbird-it,thunderbird-en-us,mozilla-thunderbird-bin,thunderbird-globalmenu,thunderbird-it-bin-wayland,thunderbird-bin-fr,thunderbird-en-us-bin-wayland], addflavor: true }
