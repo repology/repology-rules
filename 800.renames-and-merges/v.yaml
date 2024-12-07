@@ -95,8 +95,7 @@
 - { setname: vte,                      namepat: "(?:lib)?vte[0-9.-]*" }
 - { setname: vte-ng,                   name: vte3-ng }
 - { setname: vte-ng,                   name: [vte3-ng-emoji-terminix-zsh-notify, vte3-ng-fullwidth-emoji], addflavor: true }
-- { setname: vtk,                      namepat: "vtk[0-9.-]*(?:-?(base|data|doc|doc-html|docs|qt4|qvtk)[0-9.-]*)?", addflavor: $1 }
-- { setname: vtk,                      name: vtk6-legacy }
+- { setname: vtk,                      namepat: "vtk[0-9.-]*(?:-?(base|data|doc|doc-html|docs|qvtk)[0-9.-]*)?", addflavor: $1 }
 - { setname: vtk,                      name: [vtk-openmpi, vtk-openmpi2, vtk-openmpi3, vtk-openmpi4], addflavor: true }
 - { setname: vue-cli,                  name: "node:vue-cli" }
 - { setname: vulkan-extensionlayer,    name: vulkan-extension-layer }
