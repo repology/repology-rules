@@ -232,6 +232,7 @@
 - { setname: cni,                      name: [containernetworking-cni, "go:github-containernetworking-cni"] }
 - { setname: cni-plugins,              name: [containernetworking-plugins, "go:github-containernetworking-plugins"] }
 - { setname: cntk,                     name: "python:cntk" }
+- { setname: coal,                     name: [hpp-fcl, python:hpp-fcl] } # renamed
 - { setname: cockatrice,               name: [cockatrice-client,cockatrice-server] }
 - { setname: cockpit,                  name: cockpit-minimal, addflavor: true }
 - { setname: code2prompt,              name: rust:$0 }
