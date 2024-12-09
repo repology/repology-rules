@@ -103,6 +103,8 @@
 - { name: perkeep,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: perl,                        ver: "5.26.2",                ruleset: fedora,      incorrect: true } # rc1
 - { name: perl,                                                      ruleset: fedora,      untrusted: true }
+- { name: perl,                        verpat: "20.*",                                     incorrect: true } # openindiana garbage
+- { name: perl,                                                      ruleset: openindiana, untrusted: true } # accused of fake 2024.001
 - { name: perl,                        verpat: ".*r.*",                                    devel: true }
 - { name: perl,                        verpat: "5\\.[0-9]*[13579]\\..*",                   devel: true }
 - { name: perlbal,                     verpat: "1\\.[0-9]{3,}.*",                          incorrect: true }
