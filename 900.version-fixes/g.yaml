@@ -153,6 +153,10 @@
 - { name: gmic-qt,                     ver: "3.0.0.1",                                     incorrect: true }
 - { name: gmic-qt,                                                   ruleset: kaos,        untrusted: true } # accused of fake 3.0.0.1
 - { name: gmrun,                       verge: "0.9.4",                                     successor: true } # https://github.com/wdlkmpx/gmrun
+- { name: gmsh,                        ver: "4.13.2",                ruleset: fedora,      incorrect: true }
+- { name: gmsh,                                                      ruleset: fedora,      untrusted: true } # accused of fake 4.13.2
+- { name: gmsh,                        ver: "4.13.2",                ruleset: mageia,      incorrect: true }
+- { name: gmsh,                                                      ruleset: mageia,      untrusted: true } # accused of fake 4.13.2
 - { name: gmusicbrowser,               verpat: ".*99.*",                                   devel: true }
 - { name: gn,                                                                              noscheme: true }
 - { name: gnash,                       ver: "0.8.11",                ruleset: debuntu,     ignore: true } # not released yet
