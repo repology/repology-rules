@@ -20,6 +20,7 @@
 - { name: wayfire,                                                   ruleset: bioarch,     untrusted: true } # accused of fake 0.8.0.20230521.121235
 - { name: wayland,                     verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: wayland,                     verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: wayland,                     ver: "2023.01.28",                                  sink: true }
 - { name: wayland,                                                   ruleset: macports,    untrusted: true } # accused of fake 2023.01.28
 - { name: wayland-utils,               verlonger: 3,                                       incorrect: true } # kde neon garbage
 - { name: waynergy,                    ver: "0.16",                  ruleset: opensuse,    incorrect: true }
