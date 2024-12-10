@@ -162,6 +162,7 @@
 - { name: opentyrian,                  ver: "2.1.20201203",          ruleset: opensuse,    incorrect: true }
 - { name: opentyrian,                                                ruleset: opensuse,    untrusted: true } # accused of fake 2.1.20201203
 - { name: openuniverse,                ver: "1.0beta3.1",                                  incorrect: true } # debian garbage
+- { name: openvas,                     verpat: "20[0-9]{2}.*",                             incorrect: true } # blackarch
 - { name: openvpn,                     verpat: ".*\\.[0-9]{3}",                            incorrect: true }
 - { name: openvpn,                                                   ruleset: winget,      untrusted: true } # accused of fake 2.5.020, 2.5.021
 - { name: openvpn3,                    relge: "18",                                        incorrect: true } # openvpn3-linux, not openvpn3
