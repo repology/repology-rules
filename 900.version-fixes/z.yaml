@@ -52,6 +52,7 @@
 - { name: zlib,                                                      ruleset: deepin,      untrusted: true } # accused of fake 1.2.12.1
 - { name: zlib,                        ver: "2.2.2",                 ruleset: [serpentos,aosc], incorrect: true }
 - { name: zlib,                                                      ruleset: [serpentos,aosc], untrusted: true } # accused of fake 2.2.2
+- { name: zlib,                        verge: "2",                                         untrusted: true } # assuming it's misnamed zlib-ng
 - { name: zlib-ada,                    ver: "1.4",                   ruleset: fedora,      incorrect: true }
 - { name: zlib-ada,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: zod-engine,                  verpat: "20[0-9]{6}",                               incorrect: true } # 2011-09-06, not 20110906
