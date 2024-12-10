@@ -50,8 +50,8 @@
 - { name: zlib,                        verpat: ".*[0-9]{3}.*",                             snapshot: true } # msys2
 - { name: zlib,                        verlonger: 3,                                       incorrect: true }
 - { name: zlib,                                                      ruleset: deepin,      untrusted: true } # accused of fake 1.2.12.1
-- { name: zlib,                        ver: "2.2.1",                 ruleset: serpentos,   incorrect: true }
-- { name: zlib,                                                      ruleset: serpentos,   untrusted: true } # accused of fake 2.2.1
+- { name: zlib,                        ver: "2.2.2",                 ruleset: [serpentos,aosc], incorrect: true }
+- { name: zlib,                                                      ruleset: [serpentos,aosc], untrusted: true } # accused of fake 2.2.2
 - { name: zlib-ada,                    ver: "1.4",                   ruleset: fedora,      incorrect: true }
 - { name: zlib-ada,                    verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: zod-engine,                  verpat: "20[0-9]{6}",                               incorrect: true } # 2011-09-06, not 20110906
