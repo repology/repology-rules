@@ -202,6 +202,8 @@
 - { name: apache-directory-studio,     verpat: ".*20[0-9]{6}[.-][0-9]+",                   incorrect: true } # 2.0.0.v20210717-M17, not 2.0.0.v20210717.17
 - { name: apache-directory-studio,     verpat: ".*20[0-9]{6}",                             incorrect: true } # 2.0.0.v20210717-M17, not 2.0.0.v20210717
 - { name: apel,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: apfsprogs,                   verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: apfsprogs,                   verge: "2000", verle: "2024",                       sink: true }
 - { name: apidb,                       ver: "5.0.0",                 ruleset: aur,         incorrect: true }
 - { name: apidb,                                                     ruleset: aur,         untrusted: true } # accused of fake 5.0.0
 - { name: apiextractor,                ver: "0.10.11",               ruleset: sisyphus,    incorrect: true }
