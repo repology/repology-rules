@@ -230,6 +230,7 @@
 - { setname: pocketsphinx,             name: [cmu-sphinxbase, sphinxbase, sphinxbase5], addflavor: sphinxbase } # merged into
 - { setname: pocketsphinx,             name: [pocketsphinx-python, python:pocketsphinx-python], outdated: true } # deprecated python bindings
 - { setname: podman,                   name: libpod, addflavor: true }
+- { setname: podman-compose,           name: python:$0 }
 - { setname: podofo,                   name: libpodofo }
 - { setname: poetry,                   name: "python:$0" }
 - { setname: poke,                     name: gnu-poke }
