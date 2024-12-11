@@ -14,9 +14,8 @@
 - { name: falkon,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: falkon,                      verpat: ".*\\.[89][0-9]",                           devel: true }
 - { name: fann,                        verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
-- { name: far2l,                                                                           incorrect: true }
-- { name: far2l,                       verpat: "20[0-9]{2}([.-][0-9]{2}){2}([_.-]alpha)?", incorrect: false } # e.g. 2021-04-26_alpha https://github.com/elfmz/far2l/tags
-- { name: far2l,                       verpat: "(.*?)([_.-]alpha)",                        setver: $1 } # meaningless alpha suffix
+- { name: far2l,                       verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: far2l,                       verge: "2000", verlt: "2024",                       sink: true }
 - { name: farstream,                   vercomps: 4,                  ruleset: sisyphus,    incorrect: true }
 - { name: farstream,                                                 ruleset: sisyphus,    untrusted: true } # accused of fake 0.2.9.1
 - { name: fast-cpp-csv-parser,                                                             noscheme: true }
