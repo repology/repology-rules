@@ -136,6 +136,8 @@
 - { name: ent,                                                                             noscheme: true }
 - { name: enventor,                    verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: envision-ide,                                                                    noscheme: true }
+- { name: envision-xr,                 verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: envision-xr,                 verge: "20000000", verlt: "20241211",               sink: true } # 2.0.1 from 2024-12-11
 - { name: envytools,                                                                       noscheme: true }
 - { name: eog,                         ver: "42.2",                  ruleset: solus,       incorrect: true }
 - { name: eog,                                                       ruleset: solus,       untrusted: true } # accused of fake 42.2
