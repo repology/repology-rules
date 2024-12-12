@@ -120,8 +120,6 @@
 - { name: xml-coreutils,               ver: "0.8a",                                        sink: true }
 - { name: xmlada,                      verpat: ".*w",                                      devel: true }
 - { name: xmlada,                      verpat: "20[0-9]{2}.*",                             sink: true }
-- { name: xmlident,                    ver: "0.2.18",                ruleset: debuntu,     incorrect: true }
-- { name: xmlident,                                                  ruleset: debuntu,     untrusted: true } # accused of fake 0.2.18
 - { name: xmlrpc-c,                    relgt: "1.51",                                      devel: true, maintenance: true } # http://xmlrpc-c.sourceforge.net/change_super_stable.html
 - { name: xmltoman,                    verge: "0.5",                                       successor: true }
 - { name: xmms2,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true }
