@@ -99,6 +99,10 @@
 
 - { name: pdcurses, wwwpart: [projectpluto,bill-gray], setname: pdcurses-billgray } # fork https://github.com/Bill-Gray/PDCurses
 
+- { name: pdf-tools, wwwpart: vedang, setname: emacs:pdf-tools }
+- { name: pdf-tools, wwwpart: pdf-xchange, setname: pdf-xchange-tools }
+- { name: pdf-tools, addflag: unclassified }
+
 - { name: peep, wwwpart: ryochack, setname: peep-pager }
 # also abandonware network utility
 - { name: peep, addflag: unclassified }

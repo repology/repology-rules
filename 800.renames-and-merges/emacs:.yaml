@@ -82,6 +82,8 @@
 - { setname: "emacs:org-mode",         name: org-mode-doc, addflavor: doc }
 - { setname: "emacs:p4",               name: p4.el }
 - { setname: "emacs:paredit",          name: [emacs-paredit,paredit-el,paredit-mode.el] }
+- { setname: "emacs:pdf-tools",        name: [emacs-pdf-tools] }
+- { setname: "emacs:pdf-tools",        name: [emacs-pdf-tools-server, epdfinfo], addflavor: true }
 - { setname: "emacs:php-mode",         name: [emacs-php-mode,php-mode.el,php-elisp,php-mode] }
 - { setname: "emacs:pkg-info",         name: [emacs-pkg-info,pkg-info-el,pkg-info.el] }
 - { setname: "emacs:planner",          name: [emacs-planner,planner-el] }
