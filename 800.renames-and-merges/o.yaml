@@ -57,7 +57,7 @@
 - { setname: open-ath9k-htc-firmware,  name: [open-ath9k-htc-firmware-k2, open-ath9k-htc-firmware-magpie], addflavor: true }
 - { setname: open-axiom,               name: openaxiom }
 - { setname: open-vm-tools,            name: [open-vm-tools-dkms,open-vm-tools-lts-trusty,open-vm-tools-kernel], addflavor: true }
-- { setname: open3d,                   name: "python:open3d-python", addflavor: python }
+- { setname: open3d,                   name: ["python:open3d-python", "python:open3d", "python:open3d-cpu"], addflavor: true }
 - { setname: openafs,                  name: [openafs-kernel,openafs-modules,openafs-modules-dkms] }
 - { setname: openal,                   name: libopenal }
 - { setname: openal,                   name: [openal-static,openal-examples], addflavor: true }
