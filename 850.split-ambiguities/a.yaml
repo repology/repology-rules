@@ -120,8 +120,10 @@
 - { name: ale, wwwpart: [auricle,repo.or.cz/ale,repo.or.cz/w/ale], setname: ale-anti-lamenessing-engine }
 - { name: ale, addflag: unclassified }
 
+- { name: alexandria, wwwpart: alexandria-book-collection-manager, setname: alexandria-book-manager }
+- { name: alexandria, wwwpart: btpf, setname: alexandria-ebook-reader }
 - { name: alexandria, wwwpart: lisp, setname: cl-alexandria }
-# otherwise GNOME book manager
+- { name: alexandria, addflag: unclassified }
 
 - { name: alice, wwwpart: cyrealtype, setname: fonts:alice }
 - { name: alice, wwwpart: alice.org, setname: alice-programming-environment }
