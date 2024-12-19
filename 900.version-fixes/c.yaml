@@ -67,6 +67,9 @@
 - { name: cataclysm-dda,               verpat: ".+[0-9]{4}.*",                             snapshot: true }
 - { name: cataclysm-dda,               verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: cataclysm-dda,               verpat: "20[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{4}",    incorrect: false, devel: true } # experimental releases; should these be ignored instead?
+- { name: cataclysm-dda,                                                                   any_is_patch: false } # any_is_patch intended to affect gitXXX, but it also affects letter version here, which is unwanted
+- { name: cataclysm-dda,               verpat: "0[a-z].*",                                 incorrect: true } # official scheme is 0.<letter>; XXX: upstream problem
+- { name: cataclysm-dda,               verpat: "0\\.[0-9].*",                              incorrect: true } # official scheme is 0.<letter>
 - { name: catch,                       verpat: ".*preview.*",                              devel: true }
 - { name: catclock,                                                                        noscheme: true }
 - { name: catppuccin-kvantum,                                                              noscheme: true }
