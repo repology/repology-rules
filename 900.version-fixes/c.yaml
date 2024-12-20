@@ -64,7 +64,9 @@
 - { name: cassandra,                   verpat: ".*[ab].*",                                 devel: true } # XXX: FreeBSD DISTVERSION
 - { name: castget,                     verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: castnow,                     verpat: "20[0-9]{6}",                               incorrect: true }
-- { name: cataclysm-dda,               verpat: ".*[0-9]{4}.*",                             snapshot: true }
+- { name: cataclysm-dda,               verpat: ".+[0-9]{4}.*",                             snapshot: true }
+- { name: cataclysm-dda,               verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: cataclysm-dda,               verpat: "20[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{4}",    incorrect: false, devel: true } # experimental releases; should these be ignored instead?
 - { name: catch,                       verpat: ".*preview.*",                              devel: true }
 - { name: catclock,                                                                        noscheme: true }
 - { name: catppuccin-kvantum,                                                              noscheme: true }

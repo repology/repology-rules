@@ -67,9 +67,9 @@
 - { setname: cassandra,                name: [apache-cassandra,cassandra2] }
 - { setname: cassandra,                name: cassandra-bin, addflavor: true }
 - { setname: cassandra,                namepat: "cassandra[0-9.-]+" }
-- { setname: cataclysm-dda,            name: cataclysm } # homebrew
-- { setname: cataclysm-dda,            name: cataclysm-dark-days-ahead }
-- { setname: cataclysm-dda,            name: [cataclysm-dda-ncurses, cataclysm-dda-tiles], addflavor: true }
+- { setname: cataclysm-dda,            name: [cataclysm, cataclysm-dark-days-ahead, cataclysmdda] }
+- { setname: cataclysm-dda,            name: [cataclysm-dda-ncurses, cataclysm-dda-tiles, cataclysm-dda-sdl, cataclysm-dda-tiles-experimental], addflavor: true }
+- { setname: cataclysm-dda,            name: cataclysm-dda-git, weak_devel: true, nolegacy: true }
 - { setname: catch,                    name: libcatch-cpp-headers }
 - { setname: catch,                    name: [catch1, catch2, catch2-2, catch2-3, catch2v3, catch-classic] } # Note: don't include catch22, a different (python) library
 - { setname: catdoc,                   name: catdoc-tk, addflavor: true }
