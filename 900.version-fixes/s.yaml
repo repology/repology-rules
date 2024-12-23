@@ -10,6 +10,7 @@
 - { name: s5cmd,                                                     ruleset: freebsd,     untrusted: true } # 2.0.0.b
 - { name: safeclib,                    verpat: "[0-9]{8}",                                 incorrect: true }
 - { name: safeclib,                    ver: "10052013",                                    sink: true } # older than 3.7.1
+- { name: safeint,                     ver: "3.24",                                        sink: true } # upstream 3.24 → 3.0.26
 - { name: salmid,                      verpat: "0\\.[0-9]{3}",                             sink: true } # upstream 0.122 -> 0.1.23 https://github.com/hcdenbakker/SalmID/releases
 - { name: salt,                        verpat: "20[0-9]{2}\\.[0-9]{1,2}",                  devel: true } # 2-part versions are not official releases
 - { name: salt,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
