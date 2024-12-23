@@ -34,6 +34,8 @@
 - { name: umbrello,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: uml-utilities,               ver: "20070815.1",                                  incorrect: true }
 - { name: uml-utilities,                                             ruleset: debuntu,     untrusted: true }
+- { name: unac,                        verpat: ".*_.*",              ruleset: slackbuilds, incorrect: true }
+- { name: unac,                                                      ruleset: slackbuilds, untrusted: true } # accused of fake 1.8.0_9
 - { name: unace,                       ver: "2.50",                                        setver: "2.5" }
 - { name: unadf,                       ver: "1.0",                   ruleset: aur,         incorrect: true }
 - { name: unadf,                                                     ruleset: aur,         untrusted: true } # accused of fake 1.0
