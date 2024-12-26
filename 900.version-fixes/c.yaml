@@ -333,6 +333,8 @@
 - { name: critterding,                 verpat: ".*b.*",                                    devel: true }
 - { name: croc,                        ver: "10.04",                                       setver: "10.0.4", disposable: true } # incorrect tagging
 - { name: cronolog,                    ver: "1.7.0",                 ruleset: openpkg,     incorrect: true } # 1.7.0-beta
+- { name: crossfire-client,            verpat: "[0-9]+",                                   incorrect: true }
+- { name: crossfire-server,            verpat: "[0-9]+",                                   incorrect: true }
 - { name: crossguid,                   verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: crossguid,                   verpat: "201[56].*",                                sink: true } # there's 0.2.2 from Aug 2017
 - { name: crossguid,                   verpat: "0\\.2\\.2-20[0-9]+(-[0-9]+)*",             incorrect: true }
