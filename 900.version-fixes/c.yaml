@@ -179,6 +179,9 @@
 - { name: cht.sh,                                                                          noscheme: true } # https://github.com/chubin/cheat.sh/releases
 - { name: cimg,                        verpat: "[0-9]{3}", verle: "221",                   sink: true } # see https://github.com/dtschump/CImg/tags?after=v.2.2.3
 - { name: cimg,                        verpat: "[0-9]{3}", vergt: "221",                   incorrect: true }
+- { name: cinelerra,                   verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: cinelerra,                   verpat: "202[123].*",                               sink: true }
+- { name: cinelerra-gg,                verpat: "5\\.1\\.20[0-9]{6}",                       altscheme: true } # 2024.10 and 5.1.20241031
 - { name: circleci-cli,                verpat: "([0-9.]+)-[0-9a-f]+",                      setver: $1 } # commit hash is not a part of the version https://github.com/circleci/local-cli/releases
 - { name: citra,                                                                           noscheme: true }
 - { name: ckermit,                     verge: "300",                                       incorrect: true }
