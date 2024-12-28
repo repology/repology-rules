@@ -115,7 +115,7 @@
 - { setname: gg,                       name: [steelseries-gg, go-graft] } # different projects, split in 850
 - { setname: ghc,                      namepat: "ghc[0-9.-]+" }
 - { setname: ghc,                      name: ghc-bootstrap }
-- { setname: ghc,                      name: [ghc-bin,ghc-libs,ghc-pristine,ghc-raspbian,ghc-static], addflavor: true }
+- { setname: ghc,                      name: [ghc-bin,ghc-libs,ghc-pristine,ghc-raspbian,ghc-static,ghc-prebuilt,ghc-binary], addflavor: true }
 - { setname: ghc,                      name: haskell, ruleset: scoop }
 - { setname: ghcup,                    name: [ghcup-hs, "haskell:ghcup"] }
 - { setname: ghemical,                 name: ghemical-mpqc, addflavor: true }
