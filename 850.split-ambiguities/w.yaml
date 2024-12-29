@@ -9,6 +9,10 @@
 - { name: wakeonlan, wwwpart: remcohaszing, setname: "python:wakeonlan" }
 - { name: wakeonlan, addflag: unclassified }
 
+# Technically not a disambiguation since there's only one package with this name,
+# but it's generic and should be renamed to avoid potential future conflicts 
+- { name: wallpapers, wwwpart: ataraxialinux, setname: ataraxia-wallpapers }
+
 - { name: warp, wwwpart: facebook, setname: warp-preprocessor }
 - { name: warp, wwwpart: one.one.one.one, setname: warp-vpn }
 - { name: warp, wwwpart: gnome.org, setname: warp-share-files }
