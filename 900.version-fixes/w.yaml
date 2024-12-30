@@ -10,11 +10,10 @@
 - { name: walinuxagent,                verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: [warsow,warsow-data],        ver: "2.10",                  ruleset: debuntu,     incorrect: true } # playdeb weirdnes
 - { name: waterfox,                                                  ruleset: freebsd,     untrusted: true } # accused of fake 56.2.1.55
-- { name: waterfox,                    ver: "2019.10",               ruleset: antix,       incorrect: true }
 - { name: waterfox,                                                  ruleset: antix,       untrusted: true } # accused of fake 2019.10
-- { name: waterfox,                    verpat: "[^G].*",                                   incorrect: true } # official versioning scheme is Gx.y.z
-- { name: waterfox,                    verpat: "20[0-9]{2}\\..*",                          incorrect: false, sink: true } # classic version, abandoned and vulnerable
-- { name: waterfox,                    releq: "56",                                        incorrect: false, sink: true } # ancient classic version, abandoned and vulnerable
+- { name: waterfox,                    verpat: "20[0-9]{2}\\..*",                          incorrect: true, sink: true }
+- { name: waterfox,                    verpat: "[0-9]{5}.*",                               incorrect: true } # chocolatey garbage
+- { name: waterfox,                    verpat: "g.*",                                      sink: true }
 - { name: wavpack,                                                   ruleset: opensuse,    untrusted: true } # accused of fake 4.60.99
 - { name: wayfire,                     releq: "0.8.0",               ruleset: bioarch,     incorrect: true }
 - { name: wayfire,                                                   ruleset: bioarch,     untrusted: true } # accused of fake 0.8.0.20230521.121235
