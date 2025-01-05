@@ -72,7 +72,8 @@
 - { setname: elmerfem,                 name: elmer-fem }
 - { setname: eludris,                  name: [rust:eludris, eludris-cli] }
 - { setname: eludris,                  name: eludris-cli-doc, addflavor: doc }
-- { setname: elvis,                    name: elvis-x11 }
+- { setname: elvis,                    name: elvis-x11, addflavor: true }
+- { setname: elvis,                    name: elvis-erlang } # different projects, split in 850
 - { setname: elxocmcorekit,            name: elxocmcorekit-legacy }
 - { setname: emacs,                    name: [emacs-24bit,emacs-nox,emacs-docs,emacs-minimal,emacs-no-x-toolkit,emacs-nox-24bit,emacs-canna], addflavor: true }
 - { setname: emacs,                    name: [emacs-devel,emacs-git], weak_devel: true, nolegacy: true }
