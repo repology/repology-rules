@@ -73,8 +73,9 @@
 - { name: elmerfem,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: elogind,                     ver: "243.8",                 ruleset: debuntu,     incorrect: true }
 - { name: elogind,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 243.8
-- { name: elvis,                       verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: elvis,                       ver: "2.2f",                                        incorrect: true } # source file gone, cannot check
+- { name: elvis-editor,                verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: elvis-editor,                ver: "2.2f",                                        incorrect: true } # source file gone, cannot check
+- { name: elvis-editor,                ver: "2.2_1",                                       incorrect: true, disposable: true } # 2.2_1+pre3; https://github.com/repology/repology-updater/issues/1464
 - { name: elvis-tiny,                  verpat: ".*-.*",                                    debianism: true } # t2
 - { name: emacs,                       verlonger: 2,                                       ignore: true } # snapshot versions, no clear scheme (27.0.60 vs. 27.0.60_2019-12-26)
 - { name: emacs,                                                     ruleset: sisyphus,    untrusted: true } # accused of fake 26.1.90
