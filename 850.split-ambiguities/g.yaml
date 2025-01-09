@@ -280,6 +280,10 @@
 
 - { name: gsfonts, ruleset: freebsd, setname: ghostscript-fonts-std }
 
+- { name: gsh, wwwpart: atinylittleshell, setname: gsh-shell }
+- { name: gsh, wwwpart: [kees, https://outflux.net], setname: gsh-parallel-ssh }
+- { name: gsh, addflag: unclassified }
+
 - { name: gsl,                         wwwpart: microsoft, setname: ms-gsl }
 
 - { name: gst, wwwpart: smalltalk.gnu, setname: smalltalk }
