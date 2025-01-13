@@ -223,7 +223,7 @@
 - { name: luciole,                                                   ruleset: openbsd,     untrusted: true } # accused of fake 1.0
 - { name: lugaru,                      verpat: "[0-9]{3}.*",                               ignore: true } # dates and snapshots
 - { name: lugaru,                      verpat: "201[56].*",                                sink: true } # 1.2 from 2017
-- { name: luit-xterm,                  verpat: "20[0-9]{6}",                               altscheme: true } # XXX: problem
+- { name: luit-xterm,                  verpat: "20[0-9]{6}",                               altscheme: true } # XXX: upstream problem
 - { name: luit-xterm,                  verpat: "[0-9]{6}",                                 incorrect: true }
 - { name: luit-xterm,                                                ruleset: side,        untrusted: true } # accused of fake 240102
 - { namepat: "lumina.*",                                                                   p_is_patch: true }
