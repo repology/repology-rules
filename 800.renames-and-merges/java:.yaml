@@ -2,6 +2,9 @@
 
 - { setname: "java:commons-compress",  name: [java-commons-compress,apache-commons-compress,commons-compress] }
 - { setname: "java:commons-fileupload", name: [commons-fileupload, apache-commons-fileupload] }
+- { setname: "java:commons-io",        name: [java-commons-io,apache-commons-io,commons-io,jakarta-commons-io] }
+- { setname: "java:commons-logging",   name: [java-commons-logging,apache-commons-logging,commons-logging,jakarta-commons-logging] }
+- { setname: "java:commons-logging",   name: java-commons-logging-minimal, addflavor: minimal }
 - { setname: "java:commons-net",       name: [commons-net,apache-commons-net,jakarta-commons-net,java-commons-net,java-commons-net1,"java:commons-net1","java:commons-net2"] }
 - { setname: "java:getopt",            name: [java-getopt, libgetopt-java] }
 - { setname: "java:gson",              name: [google-gson,gson,java-gson,libgoogle-gson-java] }
