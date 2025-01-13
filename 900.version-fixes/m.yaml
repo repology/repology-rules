@@ -127,7 +127,8 @@
 - { name: mimetex,                     verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: mimikatz,                    verpat: ".*20[0-9]{6}",                             ignore: true } # BlackArch snap
 - { name: minbif,                      verpat: ".*20[0-9]{6}",                             ignore: true }
-- { name: minecraft-launcher,          verpat: ".*[0-9]{3,}.*",                            incorrect: true } # 2.2.xxxx is old launcher version that is obsolete, and bare xxx is old bootstrap version that needs to be masked for algorithm to work
+- { name: minecraft-launcher,          verpat: ".*[0-9]{3,}.*",                            sink: true } # 2.2.xxxx is old launcher version that is obsolete, and bare xxx is old bootstrap version that needs to be masked for algorithm to work
+- { name: minecraft-launcher,          verpat: "20[0-9]{6}",                               ignore: true } # unrelated timestamp
 - { name: minetest-mineclone5,         verpat: "5(\\.[0-9]+){2}",                          incorrect: true } # 5 is part of the name, not version
 - { name: ming,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: ming,                        ver: "0.4.9",                 ruleset: rpm,         incorrect: true }
