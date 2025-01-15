@@ -103,6 +103,10 @@
 - { name: pdf-tools, wwwpart: pdf-xchange, setname: pdf-xchange-tools }
 - { name: pdf-tools, addflag: unclassified }
 
+- { name: pebble, wwwpart: PebbleTemplates, setname: $0-template-engine }
+- { name: pebble, wwwpart: letsencrypt, setname: $0-acme-test-server }
+- { name: pebble, addflag: unclassified }
+
 - { name: peep, wwwpart: ryochack, setname: peep-pager }
 # also abandonware network utility
 - { name: peep, addflag: unclassified }
