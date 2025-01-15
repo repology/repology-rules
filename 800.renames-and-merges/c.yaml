@@ -367,7 +367,7 @@
 - { setname: cuda,                     name: nvidia-cuda-sdk }
 - { setname: cuda,                     name: nvidia-cuda-toolkit }
 - { setname: cuda,                     namepat: "cuda-?[0-9.]+" }
-- { setname: cudatext,                 name: [cudatext-qt5,cudatext-gtk2], addflavor: true }
+- { setname: cudatext,                 name: [cudatext-qt5,cudatext-gtk2,cudatext-qt6], addflavor: true }
 - { setname: cudatext,                 name: cudatext-beta, weak_devel: true, nolegacy: true }
 - { setname: cue,                      name: cue-cli, addflavor: true }
 - { setname: cumulus,                  name: cumuluslanguagede, addflavor: de }
