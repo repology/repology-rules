@@ -311,6 +311,7 @@
 - { setname: coreutils,                name: [coreutils-minimal, coreutils-multicall, coreutils-selinux, coreutils-single, coreutils-testsuite], addflavor: true }
 - { setname: corosync,                 name: [corosync2,corosync3] }
 - { setname: corsixth,                 name: corsix-th }
+- { setname: cotp,                     name: rust:$0 }
 - { setname: couchbase-server-community, name: couchbase4-server-community }
 - { setname: couchdb,                  name: [couchdb2, couchdb3, apache-couchdb] }
 - { setname: couchpotato,              name: couchpotatoserver }
