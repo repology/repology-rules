@@ -85,7 +85,7 @@
 - { setname: aescrypt,                 name: [aescrypt-packetizer,aescrypt-cli,aescrypt-gui], addflavor: true }
 - { setname: afay,                     name: aflex-ayacc } # ravenports
 - { setname: afdko,                    name: ["python:afdko",adobe-afdko] }
-- { setname: affine,                   name: affine-client, addflavor: true }
+- { setname: affine,                   name: [affine-client, affine-bin], addflavor: true }
 - { setname: affine,                   name: affine-latest, verpat: ".*canary.*", incorrect: true } # canary, not latest
 - { setname: affine,                   name: affine-latest }
 - { setname: affine,                   name: affine-canary, weak_devel: true, nolegacy: true }
