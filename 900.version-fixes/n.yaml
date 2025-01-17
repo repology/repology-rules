@@ -9,7 +9,6 @@
 - { name: nautilus-dropbox,            ver: "2022.10.07",            ruleset: solus,       incorrect: true }
 - { name: nautilus-dropbox,                                          ruleset: solus,       untrusted: true } # accused of fake 2022.10.07
 - { name: nauty,                       ver: "27r1",                                        incorrect: true }
-- { name: nawk,                        vergt: "20121220",                                  noscheme: true } # weird way of using noscheme, but there are no (https://github.com/onetrueawk/awk) versions after last 20121220 official release
 - { name: nblood,                                                                          noscheme: true }
 - { name: nbwmon,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: nbwmon,                      ver: "20140917",                                    sink: true } # at least 0.5.1 and 0.5.2 released since then: https://github.com/causes-/nbwmon/releases
