@@ -120,6 +120,7 @@
 - { setname: xsnow,                    name: $0-legacy }
 - { setname: xtrans,                   name: xorg-xtransproto } # ravenports manually split this out of xtrans
 - { setname: xtrans,                   name: xtrans-devel, weak_devel: true, nolegacy: true }
+- { setname: xtrans,                   name: lib$0 }
 - { setname: xulrunner,                name: xulrunner-devel, weak_devel: true, nolegacy: true }
 - { setname: xulrunner,                namepat: "xulrunner[0-9.-]+" }
 - { setname: xvidcore,                 name: [xvid,libxvid,libxvidcore] }
