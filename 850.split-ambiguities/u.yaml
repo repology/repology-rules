@@ -23,6 +23,10 @@
 - { name: unarchiver, wwwpart: theunarchiver, setname: the-unarchiver } # reuse name from homebrew casks
 - { name: unarchiver, addflag: unclassified }
 
+- { name: undocker, wwwpart: git.jakstys.lt/motiejus, setname: $0-flattener }
+- { name: undocker, wwwpart: larsks, setname: $0-extractor }
+- { name: undocker, addflag: unclassified }
+
 # emulator vs. ruby-rack http server
 - { name: unicorn, wwwpart: unicorn-engine, setname: unicorn-engine }
 - { name: unicorn, wwwpart: bogomips.org, setname: "ruby:unicorn" }
