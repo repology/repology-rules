@@ -229,6 +229,8 @@
 - { namepat: "lumina.*",                                                                   p_is_patch: true }
 - { namepat: "lumina.*",                                             ruleset: freebsd,     untrusted: true } # accused of fake versions (1.6.1, 1.6.2) for individual components (calculator, pdf)
 - { name: lumina,                      verpat: ".*p",                                      incorrect: true } # openmandriva
+- { name: lumina,                      ver: "1.6.2_p1",              ruleset: gentoo,      incorrect: true }
+- { name: lumina,                                                    ruleset: gentoo,      untrusted: true } # accused of fake 1.6.2_p1
 - { name: lumina-calculator,           verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: lumina-pdf,                  verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: luufs,                       verpat: "[0-9]{8}",                                 incorrect: true }
