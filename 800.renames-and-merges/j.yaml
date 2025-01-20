@@ -71,6 +71,7 @@
 - { setname: jrsonnet,                 name: [$0-cli, rust:$0-cli] }
 - { setname: js-beautify,              name: jsbeautifier }
 - { setname: js-beautify,              name: [node:js-beautify, python:jsbeautifier, python:cssbeautifier], addflavor: true }
+- { setname: json,                     name: [json-for-modern-cpp, json-cpp] } # also split in 850
 - { setname: json-c,                   name: [json-c12,json-c0.12,libjson0,libjson-c] }
 - { setname: json-c,                   name: emscripten-json-c, addflavor: emscripten }
 - { setname: json-glib,                name: [libjson-glib,json-glib1.0] }
