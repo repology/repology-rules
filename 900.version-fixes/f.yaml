@@ -121,8 +121,11 @@
 - { name: flintqs,                     ver: "20070817",                                    sink: true }
 - { name: flintqs,                     verpat: "20[0-9]{6}",                               ignore: true }
 - { name: floating-ips,                                                                    noscheme: true }
-- { name: florist,                     verpat: "2020",               ruleset: aur,         incorrect: true } # fork, and no such tag
-- { name: florist,                                                   ruleset: aur,         untrusted: true } # accused of fake 2020
+- { name: florist,                     ver: "2024",                  ruleset: aur,         incorrect: true } # fork, and no such tag
+- { name: florist,                                                   ruleset: aur,         untrusted: true } # accused of fake 2020, 2024
+- { name: florist,                     ver: "2025.01",               ruleset: slackbuilds, incorrect: true }
+- { name: florist,                                                   ruleset: slackbuilds, untrusted: true } # accused of fake 2025.01
+- { name: florist,                     verge: "2000", verlt: "2022",                       sink: true } # 22.0 from jan 2022
 - { name: flowblade,                   verpat: "[0-9]{4}.*",                               incorrect: true }
 - { name: flowd,                       verpat: ".*20[0-9]{6}",                             ignore: true } # openbsd
 - { name: flsynclient,                 ver: "0.7-1",                 ruleset: t2,          incorrect: true } # unknown origin, hosted on http://distro.ibiblio.org/quirky/quirky6/sources/t2
