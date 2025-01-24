@@ -11,6 +11,7 @@
 - { name: wakeonlan,                   verlonger: 3,                 ruleset: sisyphus,    ignore: true }
 - { name: walinuxagent,                verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: [warsow,warsow-data],        ver: "2.10",                  ruleset: debuntu,     incorrect: true } # playdeb weirdnes
+- { name: warzone2100,                 verpat: ".*deb",                                    incorrect: true }
 - { name: waterfox,                                                  ruleset: freebsd,     untrusted: true } # accused of fake 56.2.1.55
 - { name: waterfox,                                                  ruleset: antix,       untrusted: true } # accused of fake 2019.10
 - { name: waterfox,                    verpat: "20[0-9]{2}\\..*",                          incorrect: true, sink: true }
