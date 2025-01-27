@@ -97,6 +97,7 @@
 - { name: "python:m2r",                                              ruleset: openmandriva, untrusted: true } # accused of fake 0.3.2 (m2r2 in fact)
 - { name: "python:meshio",             ver: "7.0.0",                 ruleset: debuntu,     incorrect: true }
 - { name: "python:meshio",                                           ruleset: debuntu,     untrusted: true } # accused of fake 7.0.0
+- { name: "python:mesonpy",                                                                sink: true } # meson-python, not mesonpy
 - { name: "python:mlt",                wwwpart: mltframework,                              incorrect: true }
 - { name: "python:mlt",                                              ruleset: unitedrpms,  untrusted: true } # not python mlt module
 - { name: "python:mongo",              verge: "4.0.0",                                     incorrect: true, vulnerable: true } # pymongo, not mongo
