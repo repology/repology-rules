@@ -142,6 +142,9 @@
 - { setname: loki-lib,                 name: libloki }
 - { setname: lolcode-lci,              name: lolcode }
 - { setname: lookatme,                 name: "python:lookatme" }
+- { setname: looking-glass,            name: [lookingglass, looking-glass-client] }
+- { setname: looking-glass,            name: [obs-looking-glass, kvmfr-linux-module], addflavor: true }
+- { setname: looking-glass,            name: looking-glass-rc, weak_devel: true, nolegacy: true }
 - { setname: lostpixels,               name: blinkensisters-with-addons }
 - { setname: loudmouth,                name: loudmouth-ossl, addflavor: openssl }
 - { setname: loudmouth,                name: libloudmouth }
