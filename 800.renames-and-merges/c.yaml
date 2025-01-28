@@ -62,6 +62,7 @@
 - { setname: cargo-edit,               name: rust:$0 }
 - { setname: cargo-i18n,               name: rust:$0 }
 - { setname: cargo-msrv,               name: rust:$0 }
+- { setname: cargo-pgo,                name: rust:$0 }
 - { setname: cargo-play,               name: "rust:cargo-play" }
 - { setname: cargo-vendor,             name: ["rust:cargo-vendor",rust-toolset-7-cargo-vendor] }
 - { setname: cargo-zigbuild,           name: ["python:$0", "rust:$0"], addflavor: true }
