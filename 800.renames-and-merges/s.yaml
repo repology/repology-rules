@@ -80,7 +80,7 @@
 - { setname: sd,                       name: [rust:$0, perl:app-sd, sd-cli] } # different projects, split in 850
 - { setname: sddm,                     name: [sddm-classic,sddm-elogind], addflavor: true }
 - { setname: sdkmanager,               name: "python:$0" }
-- { setname: sdl,                      name: [libsdl,sdl1,sdl12,libsdl1.2] }
+- { setname: sdl,                      namepat: "(?:lib)?sdl[0-9.-]*" }
 - { setname: sdl,                      name: [sdl-runtime,sdl-nokbgrab,sdl-openglhq,sdl-openglhq-nokbgrab], addflavor: true }
 - { setname: sdl-$1,                   namepat: "(?:lib)?sdl(?:1[0-9.]*)?-?(image|mixer|net|ttf|gfx)(?:1[0-9.-]*)?" }
 - { setname: sdl-pango,                name: [libsdl-pango,sdlpango,sdl-pango1,sdl1-pango] }
@@ -88,13 +88,11 @@
 - { setname: sdl-sound,                name: sdl-sound-patched, addflavor: patched }
 - { setname: sdl-sound,                namepat: "(?:lib)?sdl[0-9.-]*sound[0-9.-]*" }
 - { setname: sdl-sound,                name: libsdl-sound-framework }
-- { setname: sdl2,                     name: [libsdl2,sdl20] }
 - { setname: sdl2,                     name: [sdl2-nox,sdl2-rbp,sdl2-minimal,sdl2-static,libsdl2-powerpc,libsdl2-snowleopard], addflavor: true }
 - { setname: sdl2-$1,                  namepat: "(?:lib)?sdl2[0-9.-]*(image|mixer|net|ttf|gfx)" }
 - { setname: sdl2-$1,                  namepat: "(?:lib)?sdl-?(image|mixer|net|ttf|gfx)2[0-9.-]*" }
 - { setname: sdl2-image,               name: sdl-image, verpat: "2.*" }
 - { setname: sdl2-image,               name: sdl2-image-minimal, addflavor: true }
-- { setname: sdl3,                     name: libsdl3 }
 - { setname: sdl3-image,               name: libsdl3-image }
 - { setname: sdl3-mixer,               name: libsdl3-mixer }
 - { setname: sdl3-net,                 name: libsdl3-net }
