@@ -82,13 +82,13 @@
 - { setname: sdkmanager,               name: "python:$0" }
 - { setname: sdl,                      namepat: "(?:lib)?sdl[0-9.-]*" }
 - { setname: sdl,                      name: [sdl-runtime,sdl-nokbgrab,sdl-openglhq,sdl-openglhq-nokbgrab], addflavor: true }
+- { setname: sdl,                      name: [sdl2-nox,sdl2-rbp,sdl2-minimal,sdl2-static,libsdl2-powerpc,libsdl2-snowleopard], addflavor: true }
 - { setname: sdl-$1,                   namepat: "(?:lib)?sdl(?:1[0-9.]*)?-?(image|mixer|net|ttf|gfx)(?:1[0-9.-]*)?" }
 - { setname: sdl-pango,                name: [libsdl-pango,sdlpango,sdl-pango1,sdl1-pango] }
 - { setname: sdl-sge,                  name: libsdl-sge }
 - { setname: sdl-sound,                name: sdl-sound-patched, addflavor: patched }
 - { setname: sdl-sound,                namepat: "(?:lib)?sdl[0-9.-]*sound[0-9.-]*" }
 - { setname: sdl-sound,                name: libsdl-sound-framework }
-- { setname: sdl2,                     name: [sdl2-nox,sdl2-rbp,sdl2-minimal,sdl2-static,libsdl2-powerpc,libsdl2-snowleopard], addflavor: true }
 - { setname: sdl2-$1,                  namepat: "(?:lib)?sdl2[0-9.-]*(image|mixer|net|ttf|gfx)" }
 - { setname: sdl2-$1,                  namepat: "(?:lib)?sdl-?(image|mixer|net|ttf|gfx)2[0-9.-]*" }
 - { setname: sdl2-image,               name: sdl-image, verpat: "2.*" }

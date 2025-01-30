@@ -103,6 +103,11 @@
 - { name: sdb, wwwpart: radare, setname: sdb-hashtable }
 - { name: sdb, addflag: unclassified }
 
+- { name: sdl, releq: "1", addflag: classified }
+- { name: sdl, releq: "2", setname: sdl2 }
+- { name: sdl, releq: "3", setname: sdl3 }
+- { name: sdl, addflag: unclassified }
+
 - { name: sdl-sound, relge: "2", setname: sdl2-sound }
 
 - { name: secure-delete, wwwpart: gijack, setname: secure-delete-gijack }
