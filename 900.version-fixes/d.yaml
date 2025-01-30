@@ -171,7 +171,8 @@
 - { name: double-conversion,                                         ruleset: freebsd,     untrusted: true } # accused of fake 3.1.5.19
 - { name: doublecmd,                                                                       devel: false } # they state all version to be beta: https://sourceforge.net/p/doublecmd/news/, this is pointless
 - { name: doublecmd,                   verpat: ".*svn.*",                                  ignore: true }
-- { name: dovecot-pigeonhole,          verpat: "2\\..*",                                   incorrect: true } # dovecot version prepended (openwrt, pld)
+- { name: dovecot-pigeonhole,          verpat: "2\.[0-9].*[-_].*",                         incorrect: true } # dovecot version prepended with separator (openwrt, pld)
+- { name: dovecot-pigeonhole,          verpat: "2\.[0-9]\.[0-9][0-9]?\.[0-9]\.[0-9].*",    incorrect: true } # dovecot version prepended with dot (openmamba)
 - { name: dpdk,                        verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: dpic,                        verpat: "20[0-9]{6}",                               incorrect: true } # 2019.08.30
 - { name: dpic,                        verge: "20000000", verlt: "20190830",               sink: true }
