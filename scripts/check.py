@@ -267,6 +267,8 @@ flags = [
     'preserve_underscore',
     'qt5_component',
     'set_kdeplasma',
+    'sdl2',
+    'sdl3',
     'theiling',
     'unclassified',
     'wconce',
