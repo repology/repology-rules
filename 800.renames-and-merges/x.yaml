@@ -125,7 +125,7 @@
 - { setname: xulrunner,                namepat: "xulrunner[0-9.-]+" }
 - { setname: xvidcore,                 name: [xvid,libxvid,libxvidcore] }
 - { setname: xvideoservicethief,       name: xvsd }
-- { setname: xxhash,                   name: xxhashlib }
+- { setname: xxhash,                   name: [$0lib, lib$0] }
 - { setname: xxv-hex-viewer,           name: "rust:xxv" }
 - { setname: xymon,                    name: [xymon-client,xymon-server,xymonclient], addflavor: true }
 - { setname: xz,                       name: [liblzma,xz-utils,xzutils,xz-static], addflavor: true }
