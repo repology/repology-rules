@@ -143,6 +143,10 @@
 - { setname: phat,                     name: libphat }
 - { setname: phing,                    name: php:$0 }
 - { setname: phoenix-emu,              name: phoenix-emu-project }
+- { setname: phonon,                   name: libphonon }
+- { setname: phonon,                   name: [phonon-qt4], addflavor: qt4 }
+- { setname: phonon,                   name: [phonon-qt5, phonon4qt5, qt5-phonon], addflavor: qt5 }
+- { setname: phonon,                   name: [phonon-qt6, phonon4qt6], addflavor: qt6 }
 - { setname: phonon-backend-gstreamer, name: [phonon-backend-gstreamer-qt4,phonon-gstreamer-qt4,phonon-qt4-gstreamer], addflavor: qt4 }
 - { setname: phonon-backend-gstreamer, name: [phonon-backend-gstreamer-qt5,phonon-gstreamer-qt5,phonon-qt5-gstreamer,phonon-qt5-backend-gstreamer,phonon4qt5-backend-gstreamer,qt5-phonon-backend-gstreamer], addflavor: qt5 }
 - { setname: phonon-backend-gstreamer, name: [phonon-gstreamer,phonon-backend-gstreamer1.0] }
