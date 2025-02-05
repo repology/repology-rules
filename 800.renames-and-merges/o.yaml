@@ -65,7 +65,7 @@
 - { setname: openarena,                name: [openarena-085-data,openarena-088-data], addflavor: data }
 - { setname: openbabel,                name: open-babel }
 - { setname: openbazaar,               name: openbazaar-desktop }
-- { setname: openbgpd,                 name: openbgpd6 }
+- { setname: openbgpd,                 namepat: "openbgpd[0-9.-]+" }
 - { setname: openblas,                 name: [openblas-lapack,openblas-lapack-ilp64] }
 - { setname: openboard,                name: openboard-develop, weak_devel: true }
 - { setname: openbor,                  namepat: "openbor[0-9]+" }
