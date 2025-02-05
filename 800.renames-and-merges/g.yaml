@@ -386,8 +386,8 @@
 - { setname: goocanvasmm,              namepat: "(?:lib)?goocanvasmm[0-9.-]*" }
 - { setname: google-authenticator-libpam, name: [libpam-google-authenticator,pam-pam-google-authenticator,pam-google-authenticator] }
 - { setname: google-chrome,            name: [chrome,google-chrome-stable,googlechrome,chrome-48,google-chrome-browser] }
-- { setname: google-chrome,            name: [google-chrome-bin, google-chrome-x64,googlechrome-allusers], addflavor: true }
-- { setname: google-chrome,            name: [google-chrome-beta,google-chrome-dev,google-chrome-unstable,googlechrome-beta,googlechrome-canary,googlechrome-dev,chrome.dev], weak_devel: true, nolegacy: true }
+- { setname: google-chrome,            name: [google-chrome-bin, google-chrome-x64,googlechrome-allusers,google-chrome-wayland-vulkan,chrome.exe,linux-chrome,google-chrome-for-enterprise ], addflavor: true }
+- { setname: google-chrome,            name: [google-chrome-beta,google-chrome-dev,google-chrome-unstable,googlechrome-beta,googlechrome-canary,googlechrome-dev,chrome.dev,chrome.dev.exe,chrome.canary,chrome.beta,chrome.beta.exe,google-chrome-canary], weak_devel: true, nolegacy: true }
 - { setname: google-drive-ocamlfuse,   name: [ocaml:google-drive-ocamlfuse, google-drive-ocamlfuse-opam] }
 - { setname: google-earth,             name: [google-earth-stable, googleearth,google-earth-legacy] }
 - { setname: google-earth-pro,         name: [google-earth-pro-stable,earthpro,googleearth-pro] }
