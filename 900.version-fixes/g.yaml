@@ -305,12 +305,8 @@
 - { name: gpsim,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: gpsim,                       ver: "20050905",                                    sink: true }
 - { name: gpu-burn,                                                                        noscheme: true }
-- { name: gpu-screen-recorder,         verpat: "20[0-9]{6}.*",                             incorrect: true }
-- { name: gpu-screen-recorder,         ver: "4.6.2",                 ruleset: openmandriva, incorrect: true } # 4.2.6
-- { name: gpu-screen-recorder,                                       ruleset: openmandriva, untrusted: true } # accused of fake 4.6.2
-- { name: gpu-screen-recorder-gtk,     verpat: "20[0-9]{6}.*",                             incorrect: true }
-- { name: gpu-screen-recorder-gtk,     ver: "4.6.2",                 ruleset: openmandriva, incorrect: true } # 4.2.6
-- { name: gpu-screen-recorder-gtk,                                   ruleset: openmandriva, untrusted: true } # accused of fake 4.6.2
+- { name: gpu-screen-recorder,         verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: gpu-screen-recorder-gtk,     verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: gr-osmosdr,                  verge: "2000", verlt: "2019.12.01",                 sink: true } # latest is 0.1.5 from 2019.12.01
 - { name: gr-osmosdr,                  verge: "20000000", verlt: "20191201",               sink: true } # latest is 0.1.5 from 2019.12.01
 - { name: gr-osmosdr,                  verpat: "20[0-9]{6}",                               snapshot: true }
