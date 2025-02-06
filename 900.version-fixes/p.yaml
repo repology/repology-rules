@@ -74,6 +74,7 @@
 - { name: pciids,                                                                          noscheme: true }
 - { name: pclcomp,                     ver: "0.99.2",                ruleset: t2,          incorrect: true }
 - { name: pclcomp,                                                   ruleset: t2,          untrusted: true } # accused of fake 0.99.2
+- { name: pcmanfm,                     verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: pcsc-lite,                   ver: "1.54",                  ruleset: t2,          incorrect: true } # 1.4.102
 - { name: pcsc-lite,                                                 ruleset: t2,          untrusted: true } # accused of fake 1.54
 - { name: pcsx2,                       verpat: ".*_.*",                                    incorrect: true }
