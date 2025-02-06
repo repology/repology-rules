@@ -118,6 +118,7 @@
 - { name: libffi,                                                    ruleset: opensuse,    untrusted: true } # accused of incorrect 4.8.5, 5.3.1
 - { name: libfilteraudio,              ver: "0.1",                   ruleset: solus,       incorrect: true }
 - { name: libfilteraudio,                                            ruleset: solus,       untrusted: true } # accused of fake 0.1
+- { name: libfm,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: libftdi,                     ver: "1.5.12",                ruleset: opensuse,    incorrect: true }
 - { name: libftdi,                                                   ruleset: opensuse,    untrusted: true } # addcused of fake 1.5.12
 - { name: libfuse,                     verpat: "20[0-9]{6}",                               incorrect: true }
