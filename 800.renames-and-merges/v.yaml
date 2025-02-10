@@ -78,6 +78,9 @@
 - { setname: vocabsieve,               name: "python:$0" }
 - { setname: vokoscreen,               name: vokoscreen-legacy }
 - { setname: vokoscreen,               name: [vokoscreenng, vokoscreen-ng] } # former project discontinued and removed
+- { setname: volatility,               name: volatility2-bin, addflavor: bin }
+- { setname: volatility,               name: python:volatility }
+- { setname: volatility3,              name: python:volatility3 }
 - { setname: volk,                     name: libvolk }
 - { setname: volumeicon,               name: $0-legacy }
 - { setname: volumeicon,               name: $0-gtk2, addflavor: true }
