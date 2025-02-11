@@ -451,6 +451,7 @@
 - { setname: python-linux-procfs,      name: "python:python-linux-procfs" } # nix
 - { setname: pythonmagick,             name: ["python:pythonmagick","python:magick"] }
 - { setname: pythonqt,                 name: python-qt }
+- { setname: pythonqt,                 name: pythonqt-qt5, addflavor: qt5 }
 - { setname: pytr,                     name: python:$0 }
 - { setname: pywal,                    name: python:$0 }
 - { setname: pywal16,                  name: [python:$0, pywal-16-colors] }
