@@ -59,6 +59,7 @@
 - { name: adjtimex,                    verpat: ".*_.*",                                    debianism: true }
 - { name: advancescan,                 ver: "2.0",                   ruleset: aur,         incorrect: true }
 - { name: advancescan,                                               ruleset: aur,         untrusted: true } # accused of fake 2.0
+- { name: adventuregamestudio,         verpat: "[0-9]+\\.99\\..*",                         devel: true }
 - { name: adwaita-icon-theme,                                        ruleset: rpm,         untrusted: true } # accused of fake 40
 - { name: adwaita-qt,                  verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: aegisub,                     verpat: ".+20[0-9]{6}",                             snapshot: true } # nix
