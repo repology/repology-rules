@@ -75,7 +75,8 @@
 - { setname: pcsc-cyberjack,           name: cyberjack }
 - { setname: pcsc-lite,                name: [libpcsclite,pcsclite] }
 - { setname: pcsc-lite,                name: pcsclite-nopy, addflavor: nopy }
-- { setname: pcsx2,                    name: pcsx2-avx, addflavor: true }
+- { setname: pcsx2,                    name: [pcsx2-avx,pcsx2-bin], addflavor: true }
+- { setname: pcsx2,                    name: [pcsx2-dev, pcsx2-latest], weak_devel: true, nolegacy: true }
 - { setname: pd,                       name: [puredata, pure-data] }
 - { setname: pdd,                      name: "python:pdd" }
 - { setname: pdepend,                  name: "php:pdepend-php-depend" }
