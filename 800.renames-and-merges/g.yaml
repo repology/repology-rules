@@ -213,6 +213,7 @@
 - { setname: glib,                     name: [glib-reference,glib-static,glib2-docs,glib2-patched-thumbnailer,glib2-quiet,glib2-static,glib-utils,glib2-clear,glib2-sched-policy,glib2-tools,glib-bootstrap], addflavor: true }
 - { setname: glib,                     namepat: "(?:lib)?glib[0-9.-]*" }
 - { setname: glib-networking,          namepat: "glib[0-9.-]+networking" }
+- { setname: glib-networking,          name: glib-networking-gnutls-openssl, addflavor: true }
 - { setname: glib-openssl,             namepat: "glib[0-9.-]+openssl" }
 - { setname: glibc,                    namepat: "glibc[0-9.-]*" }
 - { setname: glibc,                    name: compat-glibc }
