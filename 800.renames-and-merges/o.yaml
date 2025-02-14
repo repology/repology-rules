@@ -25,7 +25,7 @@
 - { setname: odoo,                     namepat: "odoo[0-9.-]+" }
 - { setname: ods2sql,                  name: "rust:ods2sql" }
 - { setname: offlinemsmtp,             name: "python:offlinemsmtp" }
-- { setname: ogre,                     name: [ogre-docs,ogre-samples], addflavor: true }
+- { setname: ogre,                     name: [ogre-docs,ogre-samples,python:ogre-python], addflavor: true }
 - { setname: ogre,                     name: [ogre3d,libogre,ogre3d19,ogre-legacy] }
 - { setname: ogre,                     namepat: "ogre[0-9.-]+" }
 - { setname: ogre-next,                name: ogre-next2 }
