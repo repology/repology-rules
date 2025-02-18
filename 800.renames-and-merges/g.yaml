@@ -208,7 +208,7 @@
 - { setname: gle,                      name: [qgle,gle-doc], addflavor: true }
 - { setname: glew,                     namepat: "(?:compat-)?(?:lib)?glew[0-9.-]*" }
 - { setname: glew,                     name: glew-wayland, addflavor: true }
-- { setname: glfw,                     name: [glfw-doc,glfw-wayland,glfw-x11] }
+- { setname: glfw,                     name: [glfw-doc,glfw-wayland,glfw-x11,glfw-waywall,glfw-minecraft,glfw-wayland-minecraft,glfw-wayland-minecraft-cursorfix], addflavor: true }
 - { setname: glfw,                     namepat: "(?:lib)?glfw[0-9.-]*" }
 - { setname: glib,                     name: [glib-reference,glib-static,glib2-docs,glib2-patched-thumbnailer,glib2-quiet,glib2-static,glib-utils,glib2-clear,glib2-sched-policy,glib2-tools,glib-bootstrap], addflavor: true }
 - { setname: glib,                     namepat: "(?:lib)?glib[0-9.-]*" }
