@@ -67,6 +67,7 @@
 - { setname: cargo-play,               name: "rust:cargo-play" }
 - { setname: cargo-vendor,             name: ["rust:cargo-vendor",rust-toolset-7-cargo-vendor] }
 - { setname: cargo-zigbuild,           name: ["python:$0", "rust:$0"], addflavor: true }
+- { setname: carl,                     name: ["rust:$0", carl-calendar] }
 - { setname: cassandra,                name: [apache-cassandra,cassandra2] }
 - { setname: cassandra,                name: cassandra-bin, addflavor: true }
 - { setname: cassandra,                namepat: "cassandra[0-9.-]+" }
