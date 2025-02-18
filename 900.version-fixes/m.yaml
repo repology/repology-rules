@@ -248,6 +248,7 @@
 - { name: ms-gsl,                      verpat: "2017.*",                                   sink: true } # official versioning scheme was introduced, 1.0.0 is the latest
 - { name: ms-sys,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: msbuild,                     verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: mscompress,                  verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: msgpack,                                                                         noscheme: true } # no way to tell whether it's c or cpp counterpart
 - { name: msgpuck,                     ver: "2.0.10",                ruleset: fedora,      incorrect: true }
 - { name: msgpuck,                                                   ruleset: fedora,      untrusted: true }
