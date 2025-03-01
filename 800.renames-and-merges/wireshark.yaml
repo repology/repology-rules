@@ -1,0 +1,20 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- { setname: wireshark, namepat: "wireshark[0-9.-]+" }
+
+- setname: wireshark
+  addflavor: true
+  name:
+    - tshark
+    - tshark-lite
+    - wireshark-chmodbpf
+    - wireshark-cli
+    - wireshark-common
+    - wireshark-gtk
+    - wireshark-gtk2
+    - wireshark-headers
+    - wireshark-libsmi
+    - wireshark-lite
+    - wireshark-oqs
+    - wireshark-qt
+    - wireshark-qt5
