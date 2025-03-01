@@ -71,6 +71,8 @@
 - { name: scrot,                                                     ruleset: solus,       untrusted: true } # accused of fake 0.18.17
 - { name: sct,                                                                             noscheme: true } # "actually, there is no upstream for this software. The original sct source code was just published in this blog post: https://flak.tedunangst.com/post/sct-set-color-temperature"
 - { name: sddm,                        verpat: "[0-9]{4,}.*",        ruleset: kaos,        ignore: true } # snapshot with random version
+- { name: sddm,                        ver: "0.21.0.36",                                   incorrect: true } # XXX: DISTVERSION
+- { name: sddm,                                                      ruleset: freebsd,     untrusted: true } # accused of fake 0.21.0.36
 - { name: sdl,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: sdl,                         ver: "1.2.16",                ruleset: os4depot,    incorrect: true }
 - { name: sdl,                                                       ruleset: os4depot,    untrusted: true } # accused of fake 1.2.16
