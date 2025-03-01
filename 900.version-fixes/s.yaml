@@ -376,6 +376,8 @@
 - { name: stardust-xr-protostar,                                                           noscheme: true }
 - { name: stardust-xr-sphereland,                                                          noscheme: true }
 - { name: stb,                                                                             noscheme: true }
+- { name: stdman,                      verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: stdman,                      verge: "20000000", verlt: "20240730",               sink: true }
 - { name: steam,                                                     ruleset: [windows,macosx], altscheme: true }
 - { name: steamcmd,                                                                        noscheme: true }
 - { name: step-physical-simulator,     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
