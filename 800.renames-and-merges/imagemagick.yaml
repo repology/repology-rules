@@ -1,0 +1,25 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- { setname: imagemagick,              namepat: "(?:compat-)?imagemagick[0-9+]*" }
+- { setname: imagemagick,              name: [libmagick,libmagick6,imagemagick-compat], addflavor: lib }
+- { setname: imagemagick,              name: imagemagick-git-doc, addflavor: doc, weak_devel: true, nolegacy: true }
+
+- setname: imagemagick
+  addflavor: true
+  name: 
+    - imagemagick-doc
+    - imagemagick-ffmpeg
+    - imagemagick-fftw
+    - imagemagick-full
+    - imagemagick-full-doc
+    - imagemagick-lean
+    - imagemagick-no-hdri
+    - imagemagick-nox
+    - imagemagick-q16
+    - imagemagick-q8
+    - imagemagick-x
+    - imagemagick.q16
+    - imagemagick.q8
+    - imagemagick.tool
+    - libmagick-fftw
+    - libmagick-full
