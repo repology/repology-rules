@@ -7,6 +7,8 @@
 - { name: 2bwm,                        ver: "0.3",                   ruleset: openbsd,     incorrect: true } # fake
 - { name: 2bwm,                                                      ruleset: openbsd,     untrusted: true } # accused of fake 0.3
 - { name: 2ping,                       verpat: "[0-9]{10}.*",                              snapshot: true } # opensuse
+- { name: 2ship2harkinian,             ver: "1.1.2.2",                                     incorrect: true }
+- { name: 2ship2harkinian,                                           ruleset: aur,         untrusted: true } # accused of fake 1.1.2.2
 - { name: 3270font,                    verpat: "[0-9]{3}\\..*",                            incorrect: true } # it has normal versioning schema
 - { name: 4k-video-downloader,         vercomps: 4,                                        altver: true } # build
 - { name: 7kaa,                                                                            p_is_patch: true }
