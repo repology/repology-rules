@@ -275,6 +275,7 @@
 - { setname: arc-theme,                name: [arc-gtk-theme, gtk2-theme-arc, gtk-arc-themes, gtk-theme-arc] }
 - { setname: arc-theme,                name: arc-themes-maia, addflavor: true }
 - { setname: arcan,                    name: [acfgfs,aclip,aloadimage,arcan-aclip,arcan-aloadimage,arcan-waybridge,arcan-wayland], addflavor: true }
+- { setname: arcanechat-tui,           name: python:$0 }
 - { setname: arcanist,                 name: "php:arcanist" }
 - { setname: arcanist,                 name: arcanist-lib, addflavor: true }
 - { setname: archipel-agents,          namepat: "archipel-agent-.*", ruleset: debuntu }
