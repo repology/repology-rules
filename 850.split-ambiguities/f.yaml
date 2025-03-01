@@ -144,6 +144,10 @@
 - { name: foomatic, ruleset: [centos,fedora,chakra], setname: foomatic-db-engine } # metapackages
 - { name: foomatic, addflag: unclassified }
 
+- { name: forecast, wwwpart: cosmic-utils, setname: forecast-weather-app }
+- { name: forecast, wwwpart: overcast.fm, setname: forecast-mp3-encoder }
+- { name: forecast, addflag: unclassified }
+
 - { name: foreman, wwwpart: ddollar, setname: "ruby:foreman" }
 
 - { name: forge, wwwpart: [fsharp,forge.run], setname: forge-fsharp }
