@@ -191,7 +191,7 @@
 - { setname: pipsi,                    name: [pipsi2,"python:pipsi"] }
 - { setname: pipx,                     name: "python:pipx" }
 - { setname: piu-piu-sh,               name: piu-piu }
-- { setname: piwigo,                   name: "php71:piwigo" }
+- { setname: piwigo,                   name: php:$0 }
 - { setname: pixman,                   name: [libpixman,xorg-libpixman,xorg-pixman] }
 - { setname: pixman,                   name: pixman-static, addflavor: static }
 - { setname: pjproject,                name: [pjsip,pjsua,pjproject-jami,pjsip-python,"python:pjproject"], addflavor: true }
