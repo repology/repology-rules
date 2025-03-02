@@ -47,6 +47,8 @@
 - { namepat: "texlive:.*",                                           ruleset: guix,        untrusted: true } # fake date versions
 - { namepat: "texlive:.*",                                           ruleset: openmandriva, untrusted: true } # some kind of ctan revisions which have nothing to do with upstream versions
 
+- { namepat: "perl:.*",                                              ruleset: openwrt,     untrusted: true } # perl version appended
+
 # prevent newly introduced nix categories from polluting unrelated projects before being added to 500 ruleset
 #- { category: "XXX",                                                 ruleset: nix,         addflag: classified_category }
 - { categorypat: "chickenPackages[0-9_]*", namepat: "chicken-.*",    ruleset: nix,         addflag: classified_category }
