@@ -40,7 +40,7 @@
 - { setname: acroread,                 namepat: "acroread[0-9.]*" }
 - { setname: acroread-asianfonts,      namepat: "acroread9-.*font.*", ruleset: pkgsrc }
 - { setname: acroread7-asianfonts,     namepat: "acroread7-.*font.*", ruleset: pkgsrc }
-- { setname: acsccid,                  name: [pcsc-acsccid,pcsc-driver-acsccid] }
+- { setname: acsccid,                  name: [pcsc-acsccid,pcsc-driver-acsccid,pcsclite-driver-acsccid] }
 - { setname: acsccid,                  name: pcsc-lite-acsccid, addflavor: true }
 - { setname: act,                      name: act-cli }
 - { setname: actiona,                  name: actionaz, ruleset: chocolatey }
