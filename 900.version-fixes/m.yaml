@@ -211,6 +211,10 @@
 - { name: mp3diags,                    verpat: "1\\.[0-9]\\.[0-9]{3}.*",                   incorrect: true }
 - { name: mp3diags,                    verpat: "1\\.[0-9]*[13579]\\..*",                   devel: true } # assumed; https://sourceforge.net/projects/mp3diags/files/unstable/mp3diags-src/
 - { name: mp3rename,                   verlonger: 2,                                       debianism: true }
+- { name: mp3splt,                     ver: "2.6.3.1519",            ruleset: aur,         incorrect: true }
+- { name: mp3splt,                                                   ruleset: aur,         untrusted: true } # accused of fake 2.6.3.1519
+- { name: mp3splt-gtk,                 ver: "0.9.3.1519",            ruleset: aur,         incorrect: true }
+- { name: mp3splt-gtk,                                               ruleset: aur,         untrusted: true } # accused of fake 0.9.3.1519
 - { name: mpc-hc,                      vergt: "1.7.13",              ruleset: winget,      incorrect: true }
 - { name: mpdcron,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: mpdscribble,                 ver: "0.23",                  ruleset: openwrt,     incorrect: true } # entware
