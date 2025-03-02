@@ -253,6 +253,7 @@
 - { setname: libpng,                   name: [libpng-apng,libpng+apng], addflavor: apng }
 - { setname: libpng,                   name: [png,png14,libpng-compat] }
 - { setname: libpng,                   namepat: "libpng(?:-legacy)?[0-9.-]*" }
+- { setname: libportal,                name: [$0-gtk3, $0-gtk4, $0-qt5, $0-qt6], addflavor: true }
 - { setname: libppd,                   name: $0-legacy }
 - { setname: libpqxx,                  name: postgresql-libpqxx }
 - { setname: libproxy,                 name: [libproxy-backend,libproxy-client,libproxy-duktape,libproxy-gnome3,libproxy-kde,libproxy-pacrunner,libproxy-perl,libproxy-plugins,libproxy-webkit3], addflavor: true }
