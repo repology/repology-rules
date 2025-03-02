@@ -48,6 +48,7 @@
 - { name: libb64,                      ver: "2.0.0.15",              ruleset: freebsd,     incorrect: true }
 - { name: libb64,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 2.0.0.15
 - { name: libbacktrace,                                                                    noscheme: true }
+- { name: libbgcode,                                                                       noscheme: true }
 - { name: libbitcoin-system,           verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: libblockdev,                 ver: "3.1.1_1",               ruleset: slackware,   incorrect: true }
 - { name: libblockdev,                                               ruleset: slackware,   untrusted: true } # accused of fake 3.1.1_1
