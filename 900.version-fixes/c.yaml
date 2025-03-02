@@ -157,6 +157,7 @@
 - { name: cheese,                                                    ruleset: [pisi,openmamba], untrusted: true } # accused of fake 43.0
 - { name: chef,                        verpat: ".*g.*",                                    incorrect: true } # git commit
 - { name: cherokee,                    verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
+- { name: cherrytree,                  verpat: "[0-9]+(\\.[0-9]+){3}",                     altver: true } # windows builds
 - { name: chez-scheme,                 ver: "9.5.1",                 ruleset: nix,         incorrect: true }
 - { name: chkconfig,                   verpat: "11\\..*",                                  ignore: true } # some fossil from ancient debian
 - { name: chmlib,                      ver: "0.40a",                                       devel: true } # mentioned in readme, no tags, used by debian and aosc
