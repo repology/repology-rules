@@ -223,8 +223,9 @@
 - { setname: apache,                   name: [apache-tools, apache-doc, apache-html-manual, htdigest], addflavor: true }
 - { setname: apache,                   namepat: "apache[0-9.]+" }
 - { setname: apache-airflow,           name: ["python:apache-airflow"] }
-- { setname: apache-arrow,             name: ["python:pyarrow",arrow-cpp] }
-- { setname: apache-arrow,             name: apache-arrow-glib, addflavor: glib }
+- { setname: apache-arrow,             name: "python:pyarrow", addflavor: python }
+- { setname: apache-arrow,             name: [arrow-cpp,libarrow-cpp,libarrow], addflavor: cpp }
+- { setname: apache-arrow,             name: [apache-arrow-glib,arrow-glib], addflavor: glib }
 - { setname: apache-commons-configuration, name: commons-configuration }
 - { setname: apache-commons-configuration2, name: commons-configuration2 }
 - { setname: apache-commons-jxpath,    name: [commons-jxpath, java-commons-jxpath, 'java:commons-jxpath'] }
