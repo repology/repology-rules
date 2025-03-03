@@ -268,7 +268,7 @@
 - { name: cos, addflag: unclassified }
 
 - { name: cot, wwwpart: glennmatthews, setname: cot-common-ovf-tool }
-- { name: cot, wwwpart: cot-rs, setname: "rust:cot-cli" }
+- { name: cot, wwwpart: [cot-rs,cot.rs], setname: "rust:cot-cli" }
 - { name: cot, addflag: unclassified }
 
 - { name: cr, wwwpart: cfungos, setname: cr.h }
