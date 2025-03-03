@@ -144,7 +144,7 @@
 - { name: foomatic, ruleset: [centos,fedora,chakra], setname: foomatic-db-engine } # metapackages
 - { name: foomatic, addflag: unclassified }
 
-- { name: forecast, wwwpart: cosmic-utils, setname: forecast-weather-app }
+- { name: forecast, wwwpart: cosmic-utils, setname: cosmic:forecast }
 - { name: forecast, wwwpart: overcast.fm, setname: forecast-mp3-encoder }
 - { name: forecast, addflag: unclassified }
 
