@@ -2,6 +2,8 @@
 
 - { name: l-smash,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true } # XXX: DISTVERSION
 - { name: l-smash-works,                                                                   noscheme: true }
+- { name: lab,                         ver: "0.25.2.0.20230225220034", ruleset: freebsd,   incorrect: true }
+- { name: lab,                                                       ruleset: freebsd,     untrusted: true } # accused of fake 0.25.2.0.20230225220034
 - { name: labyrinth,                   verpat: ".*a.*",                                    devel: true } # https://github.com/labyrinth-team/labyrinth/blob/b8c74806082083a97f6938773380d034ab658e6e/labyrinth_lib/__init__.py#L1
 - { name: ladish,                      verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: ladybird,                                                                        noscheme: true }
