@@ -39,6 +39,8 @@
 - { name: yt-dlp,                      verpat: "[0-9]+(\\.[0-9]+){3}",                     devel: true } # nightly builds
 - { name: ytarchive,                   verlonger: 3,                                       incorrect: true }
 - { name: ytnef,                       ver: "2.6",                                         sink: true } # see https://github.com/Yeraze/ytnef/blob/master/ChangeLog; latest is 1.9.2, rename it so it's outdated
+- { name: ytui-music,                  ver: "2.0.0b",                                      incorrect: true } # 2.0.0-beta
+- { name: ytui-music,                                                ruleset: aur,         untrusted: true } # accused of fake 2.0.0b
 - { name: yubikey-manager-qt,          ver: "1.2.4b",                ruleset: pclinuxos,   incorrect: true }
 - { name: yubikey-manager-qt,                                        ruleset: pclinuxos,   untrusted: true } # accused of fake 1.2.4b
 - { name: yubioath-desktop,            ver: "4.3.5",                 ruleset: fedora,      incorrect: true }
