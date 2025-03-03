@@ -219,7 +219,7 @@ flags = [
     'not_erlang',
     'not_fortunes',
     'not_fusefs',
-    'not_gimp',
+    'not_ghidra',
     'not_gimp',
     'not_gnome',
     'not_gnustep',

@@ -53,6 +53,9 @@
 # Fuse
 - { setname: "fusefs:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_fusefs], namepat: "fuse(?:fs)?-(.*)" }
 
+# Ghidra
+- { setname: "ghidra:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ghidra], namepat: "ghidra-extension-(.*)" }
+
 # Gimp
 - { setname: "gimp:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_gimp], namepat: "glimpse-plugin-(.*)", addflavor: glimpse }
 - { setname: "gimp:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_gimp], namepat: "gimp-plugin-(.*)" }
