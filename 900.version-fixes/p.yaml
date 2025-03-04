@@ -75,6 +75,8 @@
 - { name: pclcomp,                     ver: "0.99.2",                ruleset: t2,          incorrect: true }
 - { name: pclcomp,                                                   ruleset: t2,          untrusted: true } # accused of fake 0.99.2
 - { name: pcmanfm,                     verpat: ".*20[0-9]{6}.*",                           snapshot: true }
+- { name: pcsc-cyberjack,              ver: "3.99.5final.sp17",      ruleset: debuntu,     incorrect: true } # 1.4.102
+- { name: pcsc-cyberjack,                                            ruleset: debuntu,     untrusted: true } # accused of fake 3.99.5final.sp17
 - { name: pcsc-lite,                   ver: "1.54",                  ruleset: t2,          incorrect: true } # 1.4.102
 - { name: pcsc-lite,                                                 ruleset: t2,          untrusted: true } # accused of fake 1.54
 - { name: pcsx2,                       verpat: "[0-9]+\\.[0-9]*[13579]\\.[0-9]+",          devel: true, ignore: false } # according to https://pcsx2.net/downloads/, starting from 2.1, odd-minor are nightlies; also drop ignore coming from merging -dev/-latest packaged, as the versionpattern is known valid
