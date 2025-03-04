@@ -276,8 +276,10 @@
 - { name: argtable, sourceforge: argtable, setname: argtable2 }
 - { name: argtable, addflag: unclassified }
 
-# both argus projects refer to monitoring, but argus-monitor name is already used in macports
 - { name: argus, wwwpart: tcp4me.com, setname: argus-monitor }
+- { name: argus, wwwpart: openargus/argus, setname: openargus-sensor }
+- { name: argus, wwwpart: openargus/clients, setname: openargus-clients }
+- { name: argus, addflag: unclassified }
 
 - { name: arrow, wwwpart: apache, setname: apache-arrow }
 - { name: arrow, wwwpart: crsmithdev, setname: "python:arrow" }

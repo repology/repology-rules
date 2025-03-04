@@ -300,7 +300,10 @@
 - { setname: argparse,                 name: [cpp-argparse, libargparse] }
 - { setname: argtable,                 name: [argtable2,libargtable2] }
 - { setname: argtable,                 name: argtable-docs, addflavor: docs }
-- { setname: argus,                    name: [argus-client,argus-clients,argus-clients-sasl,argus-sasl], addflavor: true }
+- { setname: argus,                    name: argus-sasl, addflavor: true }
+- { setname: argus,                    name: argus-monitor }
+- { setname: argus-clients,            name: argus-client }
+- { setname: argus-clients,            name: argus-clients-sasl, addflavor: true }
 - { setname: argyllcms,                name: [argyll,argyll-cms] }
 - { setname: aria2,                    name: [aria2-fast, libaria2], addflavor: true }
 - { setname: aribb24,                  name: lib$0 }
