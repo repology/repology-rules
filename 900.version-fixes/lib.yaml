@@ -302,6 +302,7 @@
 - { name: librem,                      verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: libreplaygain,                                                                   incorrect: true }
 - { name: libreplaygain,               verpat: "r[0-9]{3,}",                               incorrect: false }
+- { name: librime-lua,                                                                     noscheme: true }
 - { name: librsb,                      ver: "1.2.0",                 ruleset: [freshcode], incorrect: true } # 1.2.0rc7
 - { name: librsvg,                     verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: librsvg,                     rellt: "2.41",                                      nolegacy: true } # unsafe non-rust version
