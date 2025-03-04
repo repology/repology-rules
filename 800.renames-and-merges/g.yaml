@@ -454,7 +454,7 @@
 - { setname: grip,                     name: python:$0 }
 - { setname: grive-tools,              name: grive-tools-patched, addflavor: patched }
 - { setname: groff,                    name: [groff-full,groff-minimal,ja-groff], addflavor: true }
-- { setname: gromox,                   name: grommunio-gromox }
+- { setname: gromox,                   name: [grommunio-gromox, gromox-core] }
 - { setname: groovy,                   name: groovy-docs, addflavor: docs }
 - { setname: groovy,                   name: groovysdk }
 - { setname: groovy,                   namepat: "groovy[0-9.-]+" }
