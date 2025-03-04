@@ -4,6 +4,11 @@
 - { name: abc, wwwpart: berkeley, setname: berkeley-abc }
 - { name: abc, addflag: unclassified }
 
+- { name: abuild, wwwpart: alpine, setname: $0-alpine } # NOTE: CPE attached
+- { name: abuild, wwwpart: adelie, setname: $0-adelie }
+- { name: abuild, wwwpart: coreboot, setname: $0-coreboot }
+- { name: abuild, addflag: unclassified }
+
 - { name: ace, wwwpart: ucsniff, setname: ace-voip }
 - { name: ace, wwwpart: delorie, setname: ace-of-penguins }
 - { name: ace, wwwpart: [schmidt,ace_tao], setname: ace-framework }
