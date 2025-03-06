@@ -84,9 +84,7 @@
     - navilu-fonts
 
 - setname: "fonts:nerd-fonts"
-  name:
-    - nerd-fonts-stable
-- setname: "fonts:nerd-fonts"
+  addflavor: true
   name:
     - cascadia-code-nerd-font
     - codenewroman-nerd-fonts
@@ -163,9 +161,11 @@
     - font-ubuntu-sans-nerd-font
     - font-victor-mono-nerd-font
     - font-zed-mono-nerd-font
+    - fonts-nerd
     - fonts-nerd-fonts
     - fonts-ttf-3270nerdfont
     - fonts-ttf-fira-code-nerd
+    - fonts-ttf-symbols-nerd
     - hack-nf
     - hack-nf-mono
     - hack-nf-propo
@@ -177,26 +177,40 @@
     - nerd-fonts-0xproto
     - nerd-fonts-3270
     - nerd-fonts-agave
+    - nerd-fonts-anonymice
     - nerd-fonts-anonymouspro
     - nerd-fonts-arimo
+    - nerd-fonts-aurulent-sans-mono
     - nerd-fonts-aurulentsansmono
+    - nerd-fonts-bigblue-terminal
     - nerd-fonts-bigblueterminal
     - nerd-fonts-bitstream-vera-mono
+    - nerd-fonts-bitstream-vera-sans-mono
     - nerd-fonts-bitstreamverasansmono
+    - nerd-fonts-blex-mono
     - nerd-fonts-cascadiacode
     - nerd-fonts-cascadiamono
+    - nerd-fonts-caskaydia-cove
+    - nerd-fonts-caskaydia-mono
+    - nerd-fonts-code-new-roman
     - nerd-fonts-codenewroman
+    - nerd-fonts-comic-shanns-mono
     - nerd-fonts-comicshannsmono
+    - nerd-fonts-commit-mono
     - nerd-fonts-commitmono
     - nerd-fonts-complete
     - nerd-fonts-complete-mono-glyphs
     - nerd-fonts-cousine
     - nerd-fonts-d2coding
+    - nerd-fonts-daddy-time-mono
     - nerd-fonts-daddytimemono
     - nerd-fonts-dejavu-complete
+    - nerd-fonts-dejavu-sans-mono
     - nerd-fonts-dejavusansmono
+    - nerd-fonts-departure-mono
     - nerd-fonts-droid-sans-mono
     - nerd-fonts-droidsansmono
+    - nerd-fonts-envy-code-r
     - nerd-fonts-envycoder
     - nerd-fonts-fantasque-sans-mono
     - nerd-fonts-fantasquesansmono
@@ -205,31 +219,44 @@
     - nerd-fonts-firacode
     - nerd-fonts-firamono
     - nerd-fonts-gabmus
+    - nerd-fonts-geist-mono
     - nerd-fonts-geistmono
     - nerd-fonts-git
     - nerd-fonts-go-mono
     - nerd-fonts-gohu
+    - nerd-fonts-gohufont
     - nerd-fonts-hack
     - nerd-fonts-hasklig
+    - nerd-fonts-hasklug
+    - nerd-fonts-heavy-data
     - nerd-fonts-heavydata
     - nerd-fonts-hermit
+    - nerd-fonts-hurmit
     - nerd-fonts-ia-writer
     - nerd-fonts-ibmplexmono
+    - nerd-fonts-im-writing
     - nerd-fonts-inconsolata
     - nerd-fonts-inconsolata-go
+    - nerd-fonts-inconsolata-lgc
     - nerd-fonts-inconsolatago
     - nerd-fonts-inconsolatalgc
     - nerd-fonts-intelonemono
+    - nerd-fonts-intone-mono
     - nerd-fonts-iosevka
+    - nerd-fonts-iosevka-term
+    - nerd-fonts-iosevka-term-slab
     - nerd-fonts-iosevkaterm
     - nerd-fonts-iosevkatermslab
     - nerd-fonts-jetbrains-mono
     - nerd-fonts-jetbrainsmono
     - nerd-fonts-lekton
+    - nerd-fonts-liberation
     - nerd-fonts-liberationmono
     - nerd-fonts-lilex
+    - nerd-fonts-martian-mono
     - nerd-fonts-martianmono
     - nerd-fonts-meslo
+    - nerd-fonts-meslo-lg
     - nerd-fonts-monaspace
     - nerd-fonts-monofur
     - nerd-fonts-monoid
@@ -239,33 +266,46 @@
     - nerd-fonts-noto
     - nerd-fonts-noto-sans-mono
     - nerd-fonts-noto-sans-regular-complete
+    - nerd-fonts-open-dyslexic
     - nerd-fonts-opendyslexic
     - nerd-fonts-otf
     - nerd-fonts-overpass
     - nerd-fonts-profont
+    - nerd-fonts-proggy-clean-tt
     - nerd-fonts-proggyclean
     - nerd-fonts-recursive
+    - nerd-fonts-recursive-mono
     - nerd-fonts-roboto-mono
     - nerd-fonts-robotomono
+    - nerd-fonts-sauce-code-pro
     - nerd-fonts-sharetechmono
+    - nerd-fonts-shure-tech-mono
     - nerd-fonts-source-code-pro
     - nerd-fonts-sourcecodepro
+    - nerd-fonts-space-mono
     - nerd-fonts-spacemono
+    - nerd-fonts-stable
+    - nerd-fonts-symbols
+    - nerd-fonts-symbols-only
+    - nerd-fonts-terminess-ttf
     - nerd-fonts-terminus
     - nerd-fonts-tinos
     - nerd-fonts-ttf
     - nerd-fonts-ubuntu
     - nerd-fonts-ubuntu-mono
+    - nerd-fonts-ubuntu-sans
     - nerd-fonts-ubuntumono
     - nerd-fonts-ubuntusans
     - nerd-fonts-victor-mono
     - nerd-fonts-victormono
+    - nerd-fonts-zed-mono
     - nerd-fonts-zedmono
     - nerdfont-hack
     - nerdfonts
     - noto-nerd-fonts
     - profont-nerd-fonts
     - robotomono-nerdfont
+    - symbols-nerd
     - symbols-nerd-font
     - symbols-only-nerd-fonts
     - terminus-nerd-fonts
@@ -277,7 +317,6 @@
     - ubuntu-nerd-fonts
     - ubuntumono-nerd-fonts
     - ubuntumono-nerdfont
-  addflavor: true
 
 - setname: "fonts:noto" # probably overmerge, may split later
   addflavor: true
