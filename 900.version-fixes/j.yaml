@@ -1,6 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- { name: j,                           ver: "808",                                         sink: true } # 808 from 2016 and 807 from oct 2018, wtf
+- { name: j,                           verpat: "[0-9]{3}.*",                               sink: true } # older versions were like 904-beta-j, newer are like 9.5.0-beta7
 - { name: ja2-stracciatella,           verpat: ".*[0-9]{4}.*",                             ignore: true } # year and 8296.9202397c2 from aur
 - { name: jabref,                      verlonger: 2,                 ruleset: winget,      incorrect: true }
 - { name: jabref,                                                    ruleset: winget,      untrusted: true } # accused of fake 5.3.60000
