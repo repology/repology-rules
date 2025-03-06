@@ -1,0 +1,43 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- setname: vim
+  addflavor: true
+  name:
+    - gvim
+    - gvim-gtk2
+    - vim-cli
+    - vim-clipboard
+    - vim-configurable
+    - vim-console
+    - vim-core
+    - vim-full
+    - vim-gnome
+    - vim-gtk
+    - vim-gtk2
+    - vim-gtk3
+    - vim-gvim
+    - vim-huge
+    - vim-lang
+    - vim-light
+    - vim-lite
+    - vim-min
+    - vim-minimal
+    - vim-motif
+    - vim-python
+    - vim-runtime
+    - vim-share
+    - vim-tiny
+    - vim-tux
+    - vim-x11
+    - vim-x64
+    - vim-x86
+    - vim-xaw
+    - vimruntime
+    - xxd-standalone
+
+- setname: vim
+  weak_devel: true
+  nolegacy: true
+  name:
+    - vim-nightly
+    - vim.nightly
