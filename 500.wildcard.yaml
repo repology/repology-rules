@@ -216,6 +216,7 @@
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(python3x)-(.*)", ruleset: centos, addflavor: $1 }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "py-(.*)", ruleset: spack }
 - { setname: "python:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_python], category: Development/Python, ruleset: openindiana }
+- { setname: "python:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_python], category: programming.python, ruleset: solus }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(pypy3?)-(.*)", ruleset: aur, addflavor: $1 }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python(3[0-9][0-9])-(.*)", ruleset: opensuse, addflavor: $1 } # since 15.6
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "py([23])_(.*)", ruleset: chromebrew, addflavor: $1 }
