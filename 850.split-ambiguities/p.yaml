@@ -93,6 +93,10 @@
 - { name: pastel, wwwpart: japplis, setname: jappis-pastel }
 - { name: pastel, addflag: unclassified }
 
+- { name: pbr, wwwpart: stangri, addflag: classified }
+# split unprefixed python module with the same name
+- { name: pbr, addflag: unclassified }
+
 - { name: pcl, wwwpart: xmailserver, setname: pcl-coroutines }
 - { name: pcl, wwwpart: pointcloud, setname: pcl-pointclouds }
 - { name: pcl, addflag: unclassified }
