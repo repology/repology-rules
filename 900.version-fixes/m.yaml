@@ -73,6 +73,7 @@
 - { name: materia-gtk-theme,                                         ruleset: alpine,      untrusted: true } # accused of fake 20200422
 - { name: mathpix-snipping-tool,       verpat: "[0-9]+\\.[0-9]+",                          incorrect: true } # homebrew casks, fake 3.4
 - { name: matreshka,                   ver: "0.8.0",                 ruleset: fedora,      ignore: true } # fake (see report)
+- { name: maui-booth,                  verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: mavibot,                     verpat: ".*m[0-9]+",                                incorrect: false, ignore: false } # official (meaning milestone, prerelease)
 - { name: mawk,                        verpat: "20[0-9]{6}",                               incorrect: true } # it's e.g. 1.3.4-20171017
 - { name: mawk,                        ver: "1.3.4.20210824",        ruleset: debuntu,     incorrect: true }
