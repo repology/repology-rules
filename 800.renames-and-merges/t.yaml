@@ -152,7 +152,8 @@
 - { setname: tilp2,                    name: tilp, incorrect: true } # ATOW, all tilp packages are actually tilp2; there IS ancient tilp package with higher version, mark incorrect for the case it's actually encountered; XXX: problem
 - { setname: time,                     name: [gnu-time,gtime,gnutime] }
 - { setname: timeline,                 name: [timelineproj,timelineproject] }
-- { setname: timescaledb,              name: [postgresql10-timescaledb,postgresql96-timescaledb], addflavor: true }
+- { setname: timescaledb,              namepat: "(?:postgresql|pg)([0-9]+)-timescaledb", addflavor: $1 }
+- { setname: timescaledb,              name: [postgresql-timescaledb, postgresql-timescale, timescaledb-apache, timescaledb-old-upgrade, timescaledb1] }
 - { setname: timew,                    name: timewarrior }
 - { setname: timidity++,               name: [timidity++-emacs,timidity++-gtk,timidity++-motif,timidity++-slang,timidity++-tcltk,timidity++-xaw,timidity++-xskin] }
 - { setname: timidity++,               name: timidity, verpat: "2\\..*" }
