@@ -71,6 +71,7 @@
 - { name: mate-utils,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: materia-gtk-theme,           ver: "20200422",                                    incorrect: true }
 - { name: materia-gtk-theme,                                         ruleset: alpine,      untrusted: true } # accused of fake 20200422
+- { name: material-kwin-decoration,                                                        noscheme: true }
 - { name: mathpix-snipping-tool,       verpat: "[0-9]+\\.[0-9]+",                          incorrect: true } # homebrew casks, fake 3.4
 - { name: matreshka,                   ver: "0.8.0",                 ruleset: fedora,      ignore: true } # fake (see report)
 - { name: maui-booth,                  verpat: ".+20[0-9]{6}",                             snapshot: true }
