@@ -316,8 +316,7 @@
 - { setname: coreutils,                name: [coreutils-minimal, coreutils-multicall, coreutils-selinux, coreutils-single, coreutils-testsuite], addflavor: true }
 - { setname: corosync,                 name: [corosync2,corosync3] }
 - { setname: corsixth,                 name: corsix-th }
-- { setname: cosmic-ctl,               name: rust:$0 }
-- { setname: cosmic-ctl,               name: cosmic-ext-ctl } # XXX: misnamed?
+- { setname: cosmic:ctl,               name: [cosmic-ctl, rust:cosmic-ctl] }
 - { setname: cot,                      name: python:$0 }
 - { setname: cotp,                     name: rust:$0 }
 - { setname: couchbase-server-community, name: couchbase4-server-community }
