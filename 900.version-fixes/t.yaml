@@ -195,6 +195,7 @@
 - { name: tree-sitter,                 ver: "0.20.10",               ruleset: [arch,alpine,crux,guix], incorrect: true }
 - { name: tree-sitter,                                               ruleset: [arch,alpine,crux,guix], untrusted: true } # accused of fake 0.20.10
 - { name: tree-sitter-go-mod,                                                              noscheme: true }
+- { name: tree-sitter-lua,             ver: "2.1.3",                                       sink: true } # abandoned fork
 - { name: treesheets,                  verpat: ".*20[0-9]{2}.*",                           incorrect: true } # it has recent 1.0.0 release, see https://github.com/aardappel/treesheets/releases
 - { name: treesheets,                  verpat: ".*[0-9]{6}.*",                             incorrect: true } # it has recent 1.0.0 release, see https://github.com/aardappel/treesheets/releases
 - { name: treeviewx,                   verpat: ".+20[0-9]{6}",                             snapshot: true }
