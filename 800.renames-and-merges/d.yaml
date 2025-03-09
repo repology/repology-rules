@@ -138,7 +138,7 @@
 - { setname: docx2txt,                 name: perl:$0, outdated: true } # XXX: problem; incorrect naming
 - { setname: dog-dns,                  name: dogdns }
 - { setname: doge,                     name: python:$0 } # split in 850
-- { setname: doge,                     name: [dogedns, dns-doge] } # split in 850
+- { setname: doge,                     name: [dogedns, dns-doge, rust:dns-doge] } # split in 850
 - { setname: dogecoin,                 name: [dogecoind,dogecoin-qt,dogecoin-daemon] }
 - { setname: dogtail,                  name: [dogtail3, "python:dogtail"] }
 - { setname: doh-proxy,                name: "rust:doh-proxy" }
