@@ -2,6 +2,8 @@
 
 - { setname: t,                        name: "ruby:t" }
 - { setname: ta-lib,                   name: libta-lib }
+- { setname: tabby,                    name: tabby-electron } # split in 850
+- { setname: tabby,                    name: [tabby-ai-coding-assistant, tabby-agent, tabbyml] } # split in 850
 - { setname: tabix,                    name: $0-legacy }
 - { setname: tabixpp,                  name: libtabixpp }
 - { setname: tailscale,                name: tailscale-unstable, weak_devel: true, nolegacy: true }
