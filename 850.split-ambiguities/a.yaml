@@ -6,7 +6,7 @@
 
 - { name: abuild, wwwpart: alpine, setname: $0-alpine } # NOTE: CPE attached
 - { name: abuild, wwwpart: adelie, setname: $0-adelie }
-- { name: abuild, wwwpart: coreboot, setname: $0-coreboot }
+- { name: abuild, wwwpart: coreboot, setname: coreboot, addflavor: true }
 - { name: abuild, addflag: unclassified }
 
 - { name: ace, wwwpart: ucsniff, setname: ace-voip }

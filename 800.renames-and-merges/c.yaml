@@ -312,6 +312,7 @@
 - { setname: copyq,                    name: [copyq-qt5, copyq-qt6], addflavor: true }
 - { setname: "coq:gappalib",           name: ["coq:gappa",gappalib-coq] }
 - { setname: coreboot,                 name: coreboot-utils, addflavor: true }
+- { setname: coreboot,                 name: [acpidump-all,amdfwtool,cbfstool,cbmem,ectool,ifdtool,intelmetool,inteltool,msrtool,nvramtool,superiotool], addflavor: true }
 - { setname: coreutils,                name: coreutils-gnu }
 - { setname: coreutils,                name: [coreutils-minimal, coreutils-multicall, coreutils-selinux, coreutils-single, coreutils-testsuite], addflavor: true }
 - { setname: corosync,                 name: [corosync2,corosync3] }
