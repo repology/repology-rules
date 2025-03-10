@@ -77,7 +77,7 @@
 - { setname: inotify-tools,            name: inotify-tools-inc, addflavor: inc }
 - { setname: insighttoolkit,           namepat: "insight-?toolkit[0-9]*" }
 - { setname: insighttoolkit,           name: [python:itk, python:insighttoolkit, python:insighttoolkit4], addflavor: python }
-- { setname: insomnia,                 name: [insomnia-rest-api-client, insomnia-electron] } # split in 850
+- { setname: insomnia,                 name: [insomnia-rest-api-client, insomnia-electron, insomnia-designer, inso] } # split in 850
 - { setname: insomnia,                 name: insomnia-dotnet } # split in 850
 - { setname: intel-compute-runtime,    name: [compute-runtime, intel-opencl] }
 - { setname: intel-compute-runtime,    name: intel-neo, addflavor: neo }
