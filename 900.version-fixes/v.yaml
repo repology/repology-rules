@@ -11,6 +11,7 @@
 - { name: valentina,                   verpat: ".*a",                                      devel: true }
 - { name: valgrind,                    ver: "3.21.0",                ruleset: archpower,   incorrect: true }
 - { name: valgrind,                                                  ruleset: archpower,   untrusted: true } # accused of fake 3.21.0
+- { name: vanilla-conquer,                                                                 noscheme: true }
 - { name: vapoursynth,                 verpat: "R([.0-9]+)",                               setver: "$1" }
 - { name: "vapoursynth:fmtconv",       verpat: "[0-9]+",                                   setver: r$0 }
 - { name: "vapoursynth:waifu2x-w2xc",  verpat: "[0-9]+",                                   setver: r$0 }
