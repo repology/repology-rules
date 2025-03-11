@@ -1,0 +1,39 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- { setname: emacs, namepat: "emacs[0-9.-]+(-non-dfsg)?" }
+
+- setname: emacs
+  addflavor: true
+  name:
+    - emacs-24bit
+    - emacs-nox
+    - emacs-docs
+    - emacs-minimal
+    - emacs-no-x-toolkit
+    - emacs-nox-24bit
+    - emacs-canna
+    - emacs-console
+    - emacs-full
+    - emacs-gtk3
+    - emacs-gtk2
+    - emacs-wayland
+    - emacs-x
+    - emacs-lucid
+    - emacs-pgtk
+    - emacs-app
+
+- setname: emacs
+  weak_devel: true
+  nolegacy: true
+  name:
+    - emacs-devel
+    - emacs-git
+    - emacs-pretest
+
+- setname: emacs
+  addflavor: true
+  weak_devel: true
+  nolegacy: true
+  name:
+    - emacs-devel-nox
+    - emacs-git-gtk2
