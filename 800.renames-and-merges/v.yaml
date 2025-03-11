@@ -82,7 +82,8 @@
 - { setname: volk,                     name: libvolk }
 - { setname: volumeicon,               name: $0-legacy }
 - { setname: volumeicon,               name: $0-gtk2, addflavor: true }
-- { setname: voxelibre,                name: minetest-mineclone2 } # project renamed
+- { setname: voxelibre,                name: minetest-mineclone2, outdated: true } # project renamed
+- { setname: voxelibre,                name: luanti-voxelibre }
 - { setname: vscli,                    name: rust:$0 }
 - { setname: vscode,                   name: [code,code-oss] } # may be ambiguous
 - { setname: vscode,                   name: [visual-studio-code,visual-studio-code-oss,visualstudiocode,vs-code] }
