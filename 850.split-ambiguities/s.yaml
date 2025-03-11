@@ -469,9 +469,9 @@
 - { name: spin, wwwpart: spinroot, setname: spin-verification }
 - { name: spin, addflag: unclassified }
 
-- { name: spl, wwwpart: shakespearelang, setname: shakespeare }
-- { name: spl, wwwpart: clifford.at, setname: spl-lang }
-# otherwise, solaris porting layer
+- { name: spl, wwwpart: https://zfsonlinux.org, setname: spl-solaris-porting-layer }
+- { name: spl, wwwpart: tudbut, setname: spl-stack-programming-lang }
+- { name: spl, addflag: unclassified }
 
 - { name: splat, wwwpart: kd2bd, setname: splat-signal-propagation }
 - { name: splat, wwwpart: l8nite, setname: splat-portage }
