@@ -88,6 +88,7 @@
 - { name: xf86rushproto,                                             ruleset: funtoo,      untrusted: true } # accused of fake 1.2.2
 - { name: xfburn,                      ver: "0.5.6",                 ruleset: pclinuxos,   incorrect: true }
 - { name: xfburn,                                                    ruleset: pclinuxos,   untrusted: true } # accused of fake 0.5.6
+- { name: xfce-theme-manager,          ver: "3.8",                                         sink: true } # 3.8 → 0.3.9
 - { name: xfce4-appfinder,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: xfce4-artwork,                                                                   noscheme: true } # upstreamless
 - { name: xfce4-dev-tools,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
