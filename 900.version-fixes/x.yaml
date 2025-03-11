@@ -143,6 +143,8 @@
 - { name: xnp2,                        verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: xombrero,                    verlonger: 3,                 ruleset: slitaz,      incorrect: true }
 - { name: xone,                        verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
+- { name: xone,                        ver: "1.0.46.1",              ruleset: terra,       incorrect: true } # xone-firmware with its own version
+- { name: xone,                                                      ruleset: terra,       untrusted: true } # accused of fake 1.0.46.1
 - { name: xonotic,                     verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: xorg-server,                 verlonger: 3,                 ruleset: crux,        ignore: true } # bogus suffux
 - { name: xorg-server,                 verpat: "[0-9]+\\.[0-9]+\\.99.*",                   devel: true }
