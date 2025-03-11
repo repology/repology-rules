@@ -97,9 +97,9 @@
 - { setname: bicyclerepair,            name: bicyclerepair-py27 }
 - { setname: billardgl,                name: billard-gl }
 - { setname: bincimap,                 name: bincimap12 }
-- { setname: bind,                     name: [dig,bind-rl,bind-tools,bind-toolsonly,bindutils,dnsutils,bind-utils], addflavor: true }
-- { setname: bind,                     name: bind-stable }
-- { setname: bind,                     name: bind9-devel, weak_devel: true, nolegacy: true }
+- { setname: bind,                     name: [dig,bind-rl,bind-tools,bind-toolsonly,bindutils,dnsutils,bind-utils,bind9-libs,libisc-export-dhcp], addflavor: true }
+- { setname: bind,                     name: [bind-stable, isc-bind] }
+- { setname: bind,                     name: [bind9-devel,bind9-next], weak_devel: true, nolegacy: true }
 - { setname: bind,                     namepat: "bind[0-9.-]+" }
 - { setname: bind,                     name: samba-nsupdate, addflavor: true }
 - { setname: bingo,                    name: bwplotka-bingo }
