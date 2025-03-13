@@ -1,7 +1,8 @@
 # vim: tabstop=29 expandtab softtabstop=29 nomodeline
 
-- { name: b2, wwwpart: backblaze, setname: backblaze-b2 }
+- { name: b2, wwwpart: [backblaze,pypi.org/project/b2/], setname: backblaze-b2 }
 - { name: b2, wwwpart: bfgroup, setname: b2-build-system }
+- { name: b2, wwwpart: tom-seddon, setname: b2-bbc-micro-emulator }
 - { name: b2, addflag: unclassified }
 
 - { name: babel, wwwpart: [edgewall,pocoo], setname: "python:babel" }
