@@ -1,12 +1,13 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
+- { setname: b2,                       name: [boost-build], outdated: true } # former name; split in 850
+- { setname: b2,                       name: [b2-tools,"python:b2"] } # split in 850
 - { setname: b4,                       name: "python:$0" }
 - { setname: babel.js,                 name: babel-cli }
 - { setname: babeltrace,               name: "python:babeltrace", addflavor: python }
 - { setname: babeltrace,               name: babeltrace2 }
 - { setname: babl,                     name: libbabl }
 - { setname: babl,                     name: babl0.1 }
-- { setname: backblaze-b2,             name: [b2-tools,"python:b2"] }
 - { setname: backintime,               name: [backintime-cli,backintime-common,backintime-qt4,backintime-qt], addflavor: true }
 - { setname: backuppc,                 name: backuppc-devel, weak_devel: true, nolegacy: true }
 - { setname: backuppc,                 name: backuppc4 }
