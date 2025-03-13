@@ -219,8 +219,8 @@
 - { setname: aolserver,                name: aolserver4 }
 - { setname: aom,                      name: [libaom,aom-libs] }
 - { setname: aom,                      name: [libaom-av1,libaom-devel-doc,aom-vmaf], addflavor: true }
-- { setname: apache,                   name: [apache-httpd,httpd,apache-http-server] }
-- { setname: apache,                   name: [apache-tools, apache-doc, apache-html-manual, htdigest], addflavor: true }
+- { setname: apache,                   name: [apache-httpd,httpd,apache-http-server,httpd24] }
+- { setname: apache,                   name: [apache-tools, apache-doc, apache-html-manual, htdigest, apache2-prefork, apache2-utils, apache2-worker, apache2-manual, apache2-event, apache2-devel, apache-utils], addflavor: true }
 - { setname: apache,                   namepat: "apache[0-9.]+" }
 - { setname: apache-airflow,           name: ["python:apache-airflow"] }
 - { setname: apache-arrow,             name: "python:pyarrow", addflavor: python }
