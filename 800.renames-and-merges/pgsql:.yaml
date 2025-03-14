@@ -1,0 +1,10 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- { setname: pgsql:pg-cron,       name: [pg-cron, postgresql-cron, postgresql-pg-cron] }
+- { setname: pgsql:pg-cron,       namepat: "postgresql([0-9]+(?:-1c)?)-pg-cron", addflavor: $1 }
+- { setname: pgsql:libversion,    name: [pg-libversion, postgresql-libversion] }
+- { setname: pgsql:libversion,    namepat: "postgresql([0-9]+)-libversion", addflavor: $1 }
+- { setname: pgsql:multicorn,     name: [multicorn] }
+- { setname: pgsql:multicorn2,    namepat: "postgresql([0-9]+)-multicorn2", addflavor: $1 }
+- { setname: pgsql:rum,           name: [pg-rum, postgresql-rum] }
+- { setname: pgsql:rum,           namepat: "postgresql([0-9]+)-rum", addflavor: $1 }
