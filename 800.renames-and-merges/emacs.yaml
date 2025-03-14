@@ -6,21 +6,27 @@
   addflavor: true
   name:
     - emacs-24bit
-    - emacs-nox
-    - emacs-docs
-    - emacs-minimal
-    - emacs-no-x-toolkit
-    - emacs-nox-24bit
+    - emacs-app
     - emacs-canna
     - emacs-console
+    - emacs-docs
     - emacs-full
-    - emacs-gtk3
     - emacs-gtk2
-    - emacs-wayland
-    - emacs-x
+    - emacs-gtk3
     - emacs-lucid
+    - emacs-minimal
+    - emacs-motif
+    - emacs-no-x
+    - emacs-no-x-toolkit
+    - emacs-nox
+    - emacs-nox-24bit
     - emacs-pgtk
-    - emacs-app
+    - emacs-pgtk-xwidgets
+    - emacs-wayland
+    - emacs-wide-int
+    - emacs-x
+    - emacs-xwidgets
+    - gemacs
 
 - setname: emacs
   weak_devel: true
@@ -28,6 +34,7 @@
   name:
     - emacs-devel
     - emacs-git
+    - emacs-next
     - emacs-pretest
 
 - setname: emacs
@@ -37,3 +44,8 @@
   name:
     - emacs-devel-nox
     - emacs-git-gtk2
+    - emacs-igc  # aur, summary claims "Development branch"
+    - emacs-native-comp  # aur, summary claims "Development master branch"
+    - emacs-next-minimal
+    - emacs-next-pgtk
+    - emacs-next-pgtk-xwidgets

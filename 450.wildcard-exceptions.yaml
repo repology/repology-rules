@@ -6,6 +6,8 @@
 # parts (e.g. ocaml-doc is ocaml documentation, not doc module)
 #
 
+- { addflag: not_emacs,                name: emacs }
+
 - { setname: erlang,                   namepat: "erlang[0-9._-]+" }
 - { setname: erlang,                   name: erlang-doc, addflavor: doc }
 - { setname: erlang,                   name: erlang-man, addflavor: man }
