@@ -125,6 +125,10 @@
 - { name: krill, wwwpart: p-e-w, setname: krill-feed-filter }
 - { name: krill, addflag: unclassified }
 
+- { name: kubelogin, wwwpart: Azure, setname: azure-kubelogin } # reused name
+- { name: kubelogin, wwwpart: int128, setname: kubectl-oidc-login } # reused name
+- { name: kubelogin, addflag: unclassified }
+
 - { name: kup, wwwpart: [spersson, kde-apps, linux-apps.com/p/1127689, kde.org], setname: kup-backup }
 - { name: kup, wwwpart: kernel.org, setname: kup-kernel.org-upload-tool }
 - { name: kup, addflag: unclassified }
