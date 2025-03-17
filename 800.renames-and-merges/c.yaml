@@ -317,6 +317,7 @@
 - { setname: coreutils,                name: [coreutils-minimal, coreutils-multicall, coreutils-selinux, coreutils-single, coreutils-testsuite], addflavor: true }
 - { setname: corosync,                 name: [corosync2,corosync3] }
 - { setname: corsixth,                 name: corsix-th }
+- { setname: cosmic-app-library,       name: cosmic-applibrary } # see also https://github.com/pop-os/cosmic-applibrary/issues/213
 - { setname: cosmic:ctl,               name: [cosmic-ctl, rust:cosmic-ctl] }
 - { setname: cot,                      name: python:$0 }
 - { setname: cotp,                     name: rust:$0 }
