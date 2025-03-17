@@ -63,7 +63,7 @@
 - { name: zoo,                                                       ruleset: slackware,   untrusted: true }
 - { name: zookeeper,                   ver: "3.4.11",                                      sink: true } # buggy version recalled by upstream
 - { name: zoom-videoconference,                                                            noscheme: true } # different schemes for same release, different schemes for different oses
-- { name: zork,                        ver: "20140219",                                    sink: true } # 1.0.2 is from 2017
+- { name: zork,                                                                            noscheme: true } # various ancient releases and abandoned forks
 - { name: zpaq,                        verpat: "[0-9]+",                                   incorrect: true } # 7.15, not 715
 - { name: zsh-syntax-highlighting,     verpat: "20[0-9]{6}.*",                             snapshot: true } # FreeBSD
 - { name: zsh-syntax-highlighting,     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
