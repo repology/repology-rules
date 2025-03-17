@@ -1,7 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { setname: gcc, namepat: "(?:compat-)?gcc[0-9.-]+" }
-- { setname: gcc, namepat: "libgcc[0-9.-]*", addflavor: libgcc }
 - { setname: gcc, namepat: "gcc[0-9.-]+-devel", weak_devel: true, nolegacy: true }
 - { setname: gcc, namepat: "gcc[0-9.-]*(-libs|-testresults|-alternative|-doc)", addflavor: $1 }
 - { setname: gcc, name: legacy-gcc }
