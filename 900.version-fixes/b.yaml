@@ -96,7 +96,7 @@
 - { name: black,                       verpat: ".*[ab].*",                                 devel: true }
 - { name: black,                       verpat: ".*_.*",              ruleset: solus,       incorrect: true }
 - { name: black,                                                     ruleset: solus,       untrusted: true } # accused of fake 20.8_1
-- { name: blackbox,                    verpat: ".*20[0-9]{6}.*",                           ignore: true }
+- { name: blackbox-vcs,                ver: "2.0.0",                                       sink: true } # https://github.com/StackExchange/blackbox/issues/354#issuecomment-1152902701
 - { name: blackshades,                 ver: "20070723",                                    sink: true }
 - { name: blas,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: blas,                        ver: "3.9.2",                 ruleset: sisyphus,    incorrect: true }
