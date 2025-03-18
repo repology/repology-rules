@@ -267,6 +267,8 @@
 - { name: coin3d,                                                    ruleset: [aur,debuntu,gentoo,guix], untrusted: true } # accused of fake 3.1.4, 4.0.0, 4.0.0a, 4.0.0a_pre20180416,  3.1.3-1-ab8d0e4
 - { name: coin3d,                      verpat: "([0-9]+\\.){3}[0-9a-f]{6}",                incorrect: true } # arch
 - { name: coin3d,                                                    ruleset: arch,        untrusted: true } # accused of fake 4.0.0.04c190 
+- { name: collada-dom,                 ver: "2.5.1",                 ruleset: opensuse,    incorrect: true }
+- { name: collada-dom,                                               ruleset: opensuse,    untrusted: true } # accused of fake 2.5.1
 - { name: collada2gltf,                verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: collada2gltf,                vergt: "20000000", verlt: "20190522",               sink: true }
 - { name: colord-kde,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
