@@ -259,6 +259,7 @@
 - { name: msgpack,                                                                         noscheme: true } # no way to tell whether it's c or cpp counterpart
 - { name: msgpuck,                     ver: "2.0.10",                ruleset: fedora,      incorrect: true }
 - { name: msgpuck,                                                   ruleset: fedora,      untrusted: true }
+- { name: msieve,                      verpat: "[0-9]{4,}",                                incorrect: true } # macports and nix
 - { name: msp430-gdb,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: mspdebug,                    verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: msv,                         verpat: "20[0-9]{6}",                               incorrect: true }
