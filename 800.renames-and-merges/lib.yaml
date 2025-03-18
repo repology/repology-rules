@@ -102,6 +102,7 @@
 - { setname: libftdi,                  name: libftdi-compat }
 - { setname: libftxui,                 name: ftxui }
 - { setname: libfuse,                  name: [libfuse2, libfuse3] }
+- { setname: libgcc,                   namepat: "libgcc[0-9.-]+" }
 - { setname: libgcrypt,                namepat: "libgcrypt[0-9.-]+" }
 - { setname: libgcrypt,                name: [libgcrypt-compat,compat-libgcrypt,libgcrypt11-compat] }
 - { setname: libgcrypt,                name: [libgcrypt-static,libgcrypt-gost], addflavor: true }
