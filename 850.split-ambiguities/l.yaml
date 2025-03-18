@@ -71,6 +71,10 @@
 
 - { name: libfastjson, wwwpart: alibaba, setname: "java:fastjson" }
 
+- { name: libgcc, wwwpart: gnu.org, setname: gcc, addflavor: true } # part of
+- { name: libgcc, wwwpart: llvm, setname: llvm, addflavor: true } # part of
+- { name: libgcc, addflag: unclassified }
+
 - { name: libgl, wwwpart: mesa, setname: mesa }
 - { name: libgl, verpat: "1[89]\\..*", setname: mesa } # kaos
 
