@@ -34,6 +34,7 @@
 - { name: mari0,                                                     ruleset: fedora,      untrusted: true }
 - { name: mari0,                       verpat: "[0-9]{3}.*",                               incorrect: true } # homebrew casks
 #- { name: mariadb,                     verge: "10.5",                                      devel: true, maintenance: true } # https://downloads.mariadb.org/
+- { name: mariadb,                     verpat: "[0-9]+\\.[0-9]+\\.[01]",                   devel: true }
 - { name: markdown,                    ver: "1.0.2b8",               ruleset: debuntu,     incorrect: true }
 - { name: markdown,                                                  ruleset: debuntu,     untrusted: true }
 - { name: markdownfmt,                 verlonger: 2,                 ruleset: freebsd,     incorrect: true }
