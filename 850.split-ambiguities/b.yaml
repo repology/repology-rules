@@ -218,6 +218,7 @@
 - { name: bolt, wwwpart: boltdb, setname: bolt-db }
 - { name: bolt, wwwpart: omp, setname: bolt-openmp }
 - { name: bolt, wwwpart: puppet, setname: puppet-bolt }
+- { name: bolt, wwwpart: llvm-project, setname: llvm, addflavor: bolt }
 # https://github.com/facebookarchive/BOLT not added → now part of llvm and archived
 - { name: bolt, addflag: unclassified }
 

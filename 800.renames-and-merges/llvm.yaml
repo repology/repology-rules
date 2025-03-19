@@ -11,6 +11,7 @@
 - { setname: llvm, name: llvm-rc, weak_devel: true }
 
 - { setname: llvm, name: [clang+llvm-binaries], addflavor: true }
+- { setname: llvm, name: [llvm-bolt, llvm-bolt15], addflavor: bolt }
 
 # See https://github.com/llvm/llvm-project/releases for full list of components which belong to LLVM
 
