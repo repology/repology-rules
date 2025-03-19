@@ -225,6 +225,11 @@
 - { name: lookup, wwwpart: dnssec-tools, setname: lookup-dns }
 - { name: lookup, addflag: unclassified }
 
+- { name: loop, wwwpart: Miserlou, setname: $0-cli-command }
+- { name: loop, wwwpart: MrKai77, setname: $0-window-management }
+- { name: loop, wwwpart: lightninglabs, setname: $0-bitcoin }
+- { name: loop, addflag: unclassified }
+
 - { name: "lua:path", wwwpart: lua-path, setname: "lua:lua-path" }
 
 - { name: "lua:yaml", verge: "5", setname: "lua:lyaml" }
