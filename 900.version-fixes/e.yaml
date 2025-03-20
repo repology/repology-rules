@@ -149,6 +149,8 @@
 - { name: erigon,                      verpat: "20[0-9]{2}\\..*",                          sink: true }
 - { name: erlang,                      verpat: ".*r.*",                                    devel: true } # XXX: FreeBSD DISTVERSION
 - { name: erlang,                                                    ruleset: entware,     untrusted: true } # module versions
+- { name: erlang,                      ver: "28.0",                  ruleset: freebsd,     incorrect: true } # rc1
+- { name: erlang,                                                    ruleset: freebsd,     incorrect: true } # accused of fake 28.0
 - { name: "erlang:cl",                 verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: espeakedit,                  ver: "1.48.15",                                     incorrect: true } # latest is 1.48.03
 - { name: eterm,                       ver: "0.9.7",                 ruleset: mageia,      incorrect: true }
