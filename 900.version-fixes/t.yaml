@@ -84,7 +84,7 @@
 - { name: tesseract-ocr,               verpat: ".*[ab]",                                   incorrect: true }
 - { name: tesseract-ocr,               verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: tesseract-ocr-data,          verpat: "20[0-9]{6}.*",                             incorrect: true }
-- { name: testdisk,                    verge: "7.3",                                       devel: true, maintenance: true } # https://www.cgsecurity.org/wiki/TestDisk_Download; confusing versioned schema, devel version is named x.yWIP, some reops ignore the suffix
+- { name: testdisk,                    vereq: "7.3",                                       devel: true, maintenance: true } # https://www.cgsecurity.org/wiki/TestDisk_Download; confusing versioned schema, devel version is named x.yWIP, some reops ignore the suffix
 - { name: testdisk,                    verpat: "(.*?)\\.?w(?:ip)?",                        setver: $1 }
 - { name: testssl.sh,                  verpat: ".*r.*",                                    devel: true, disposable: true } # FreeBSD, mangled rc
 - { name: tetgen,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
