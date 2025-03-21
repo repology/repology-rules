@@ -42,6 +42,8 @@
 - { name: odoo,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: odrive-google-drive-client,  ver: "1.6.6",                 ruleset: deepin,      incorrect: true }
 - { name: odrive-google-drive-client,                                ruleset: deepin,      untrusted: true } # accused of fake 1.6.6
+- { name: offlineimap,                 verpat: ".+20[0-9]{6}",                             snapshot: true }
+- { name: offlineimap,                 verlonger: 3,                 ruleset: freebsd,     incorrect: true } # FreeBSD DISTVERSION
 - { name: oggfwd,                                                                          noscheme: true }
 - { name: ogle-gui,                    verpat: ".*patched.*",                              incorrect: true }
 - { name: ogre,                        verpat: "2.*",                                      ignore: true }

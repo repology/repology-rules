@@ -24,6 +24,7 @@
 - { setname: odin,                     name: odin-nightly, weak_devel: true, nolegacy: true }
 - { setname: odoo,                     namepat: "odoo[0-9.-]+" }
 - { setname: ods2sql,                  name: "rust:ods2sql" }
+- { setname: offlineimap,              name: [offlineimap3, python:offlineimap3] }
 - { setname: offlinemsmtp,             name: "python:offlinemsmtp" }
 - { setname: ogre,                     name: [ogre-docs,ogre-samples,python:ogre-python], addflavor: true }
 - { setname: ogre,                     name: [ogre3d,libogre,ogre3d19,ogre-legacy] }
