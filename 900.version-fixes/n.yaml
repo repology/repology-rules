@@ -99,6 +99,7 @@
 - { name: ngrok,                                                     ruleset: scoop,       untrusted: true }
 - { name: ngspice,                     ver: "31.3",                  ruleset: debuntu,     incorrect: true } # 31
 - { name: ngspice,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 31.3
+- { name: nihstro,                                                                         noscheme: true }
 - { name: nikto,                       ver: "2.2.0",                 ruleset: nix,         incorrect: true }
 - { name: nikto,                                                     ruleset: nix,         untrusted: true } # accused of fake 2.2.0
 - { name: nim,                         ver: "1.9.3",                 ruleset: spack,       incorrect: true }
