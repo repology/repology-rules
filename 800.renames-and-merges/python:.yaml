@@ -230,6 +230,7 @@
 - { setname: "python:pybtex-docutils", name: pybtex-docutils }
 - { setname: "python:pycairo",         name: [py2cairo, py3cairo], addflavor: true }
 - { setname: "python:pycairo",         name: [pycairo, "python:cairo" ] }
+- { setname: "python:pycairo",         name: [python2-pycairo,pycairo-py27,pycairo118], addflavor: "python2" }
 - { setname: "python:pycassa",         name: pycassa }
 - { setname: "python:pycha",           name: pycha }
 - { setname: "python:pychart",         name: pychart }
