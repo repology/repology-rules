@@ -139,6 +139,7 @@
 - { name: doas,                        verpat: "6.0p[0-9]+",                               successor: true }
 - { name: docbook-xsl,                 ver: "1.79.2.1",              ruleset: opensuse,    incorrect: true }
 - { name: docbook-xsl,                                               ruleset: opensuse,    untrusted: true } # accused of fake 1.79.2.1
+- { name: docbook-xsl,                 verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: docker,                      verpat: ".*ce",                                     incorrect: true }
 - { name: docker-compose,              ver: "1.26.0",                ruleset: sisyphus,    incorrect: true }
 - { name: docker-compose,                                            ruleset: sisyphus,    untrusted: true }
