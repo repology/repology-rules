@@ -364,6 +364,7 @@
 - { setname: atkmm,                    namepat: "(?:lib)?atkmm[0-9.-]*(-docs)", addflavor: docs }
 - { setname: atlas,                    name: [atlas-with-lapack,atlas-lapack,atlas-lapack-for-flexiblas], addflavor: true }
 - { setname: atlas,                    name: [atlas-math, libatlas3, libatlas] }
+- { setname: atlas,                    name: [atlas-toolkit] }
 - { setname: atlas,                    name: atlas-devel, weak_devel: true, nolegacy: true }
 - { setname: atlas-c++,                name: [atlas-cpp,atlascpp,libatlascpp] }
 - { setname: atom,                     name: [atom-beta,atom-editor-beta], weak_devel: true, nolegacy: true }
