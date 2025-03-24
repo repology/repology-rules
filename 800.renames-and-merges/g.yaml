@@ -115,7 +115,7 @@
 - { setname: gflags,                   name: [google-gflags,libgflags] }
 - { setname: gfold,                    name: "rust:gfold" }
 - { setname: gftools,                  name: python:$0 }
-- { setname: gg,                       name: [steelseries-gg, go-graft] } # different projects, split in 850
+- { setname: gg,                       name: [steelseries-gg, go-graft, ggjj] } # different projects, split in 850
 - { setname: ghc,                      namepat: "ghc[0-9.-]+" }
 - { setname: ghc,                      name: ghc-bootstrap }
 - { setname: ghc,                      name: [ghc-bin,ghc-libs,ghc-pristine,ghc-raspbian,ghc-static,ghc-prebuilt,ghc-binary], addflavor: true }
