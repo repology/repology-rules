@@ -81,28 +81,23 @@
 - { setname: sd,                       name: [rust:$0, perl:app-sd, sd-cli] } # different projects, split in 850
 - { setname: sddm,                     name: [sddm-classic,sddm-elogind], addflavor: true }
 - { setname: sdkmanager,               name: "python:$0" }
-- { setname: sdl,                      name: [libsdl2, sdl2], addflag: sdl2 }
-- { setname: sdl,                      name: [libsdl3, sdl3], addflag: sdl3 }
+- { setname: sdl,                      namepat: "(?:lib)?sdl2[0-9.-]*", addflag: sdl2 }
+- { setname: sdl,                      namepat: "(?:lib)?sdl3[0-9.-]*", addflag: sdl3 }
 - { setname: sdl,                      namepat: "(?:lib)?sdl[0-9.-]*" }
 - { setname: sdl,                      name: [sdl-runtime,sdl-nokbgrab,sdl-openglhq,sdl-openglhq-nokbgrab], addflavor: true }
 - { setname: sdl,                      name: [sdl2-nox,sdl2-rbp,sdl2-minimal,sdl2-static,libsdl2-powerpc,libsdl2-snowleopard], addflavor: true, addflag: sdl2 }
 - { setname: sdl,                      name: controllermap, addflavor: true } # comes from sdl tests
-- { setname: sdl-$1,                   namepat: "(?:lib)?sdl(?:1[0-9.]*)?-?(image|mixer|net|ttf|gfx)(?:1[0-9.-]*)?" }
-- { setname: sdl-pango,                name: [libsdl-pango,sdlpango,sdl-pango1,sdl1-pango] }
+- { setname: sdl-$1,                   namepat: "(?:lib)?sdl2[0-9.-]*(image|mixer|net|ttf|gfx|sound|pango)[0-9.-]*", addflag: sdl2 }
+- { setname: sdl-$1,                   namepat: "(?:lib)?sdl[0-9.-]*(image|mixer|net|ttf|gfx|sound|pango)2[0-9.-]*", addflag: sdl2 }
+- { setname: sdl-$1,                   namepat: "(?:lib)?sdl3[0-9.-]*(image|mixer|net|ttf|gfx|sound|pango)[0-9.-]*", addflag: sdl3 }
+- { setname: sdl-$1,                   namepat: "(?:lib)?sdl[0-9.-]*(image|mixer|net|ttf|gfx|sound|pango)3[0-9.-]*", addflag: sdl3 }
+- { setname: sdl-$1,                   namepat: "(?:lib)?sdl[0-9.-]*(image|mixer|net|ttf|gfx|sound|pango)[0-9.-]*" }
+- { setname: sdl-image,                name: sdl2-image-minimal, addflavor: true, addflag: sdl2 }
+- { setname: sdl-net,                  name: libsdl-net-framework }
+- { setname: sdl-pango,                name: [libsdl-pango,sdlpango] }
 - { setname: sdl-sge,                  name: libsdl-sge }
-- { setname: sdl-sound,                name: sdl-sound-patched, addflavor: patched }
-- { setname: sdl-sound,                namepat: "(?:lib)?sdl[0-9.-]*sound[0-9.-]*" }
 - { setname: sdl-sound,                name: libsdl-sound-framework }
-- { setname: sdl2-$1,                  namepat: "(?:lib)?sdl2[0-9.-]*(image|mixer|net|ttf|gfx)" }
-- { setname: sdl2-$1,                  namepat: "(?:lib)?sdl-?(image|mixer|net|ttf|gfx)2[0-9.-]*" }
-- { setname: sdl2-image,               name: sdl-image, verpat: "2.*" }
-- { setname: sdl2-image,               name: sdl2-image-minimal, addflavor: true }
-- { setname: sdl3-image,               name: libsdl3-image }
-- { setname: sdl3-image,               name: sdl-image, verpat: "3.*" }
-- { setname: sdl3-mixer,               name: libsdl3-mixer }
-- { setname: sdl3-net,                 name: libsdl3-net }
-- { setname: sdl3-ttf,                 name: libsdl3-ttf }
-- { setname: sdl3-ttf,                 name: sdl-ttf, verpat: "3.*" }
+- { setname: sdl-sound,                name: sdl-sound-patched, addflavor: patched }
 - { setname: sdlconsole,               name: [libsdl-console,sdl-console] }
 - { setname: sdllopan,                 name: sdl-lopan }
 - { setname: sdlmame,                  name: sdlmame-wout-toolkits, addflavor: wout-toolkits }

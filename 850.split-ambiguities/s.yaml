@@ -117,7 +117,44 @@
 - { name: sdl, flag: sdl3, setname: sdl3 }
 - { name: sdl, addflag: unclassified }
 
-- { name: sdl-sound, relge: "2", setname: sdl2-sound }
+- { name: sdl-gfx, releq: "1", setname: sdl2-gfx } # sic: sdl-gfx is 2.x, sdl2-gfx is 1.x
+- { name: sdl-gfx, releq: "2", addflag: classified }
+- { name: sdl-gfx, addflag: unclassified }
+
+- { name: sdl-image, releq: "1", addflag: classified }
+- { name: sdl-image, releq: "2", setname: sdl2-image }
+- { name: sdl-image, releq: "3", setname: sdl3-image }
+- { name: sdl-image, flag: sdl2, setname: sdl2-image }
+- { name: sdl-image, flag: sdl3, setname: sdl3-image }
+- { name: sdl-image, addflag: unclassified }
+
+- { name: sdl-mixer, releq: "1", addflag: classified }
+- { name: sdl-mixer, releq: "2", setname: sdl2-mixer }
+- { name: sdl-mixer, releq: "3", setname: sdl3-mixer }
+- { name: sdl-mixer, flag: sdl2, setname: sdl2-mixer }
+- { name: sdl-mixer, flag: sdl3, setname: sdl3-mixer }
+- { name: sdl-mixer, addflag: unclassified }
+
+- { name: sdl-net, releq: "1", addflag: classified }
+- { name: sdl-net, releq: "2", setname: sdl2-net }
+- { name: sdl-net, flag: sdl2, setname: sdl2-net }
+- { name: sdl-net, addflag: unclassified }
+
+- { name: sdl-pango, releq: "0", addflag: classified }
+- { name: sdl-pango, releq: "2", setname: sdl2-pango }
+- { name: sdl-pango, flag: sdl2, setname: sdl2-pango }
+- { name: sdl-pango, addflag: unclassified }
+
+- { name: sdl-sound, releq: "1", addflag: classified }
+- { name: sdl-sound, releq: "2", setname: sdl2-sound }
+- { name: sdl-sound, addflag: unclassified }
+
+- { name: sdl-ttf, releq: "2", relle: "2.0.11", addflag: classified }
+- { name: sdl-ttf, releq: "2", relgt: "2.0.11", setname: sdl2-ttf }
+- { name: sdl-ttf, releq: "3", setname: sdl3-ttf }
+- { name: sdl-ttf, flag: sdl2, setname: sdl2-ttf }
+- { name: sdl-ttf, flag: sdl3, setname: sdl3-ttf }
+- { name: sdl-ttf, addflag: unclassified }
 
 - { name: secure-delete, wwwpart: gijack, setname: secure-delete-gijack }
 
