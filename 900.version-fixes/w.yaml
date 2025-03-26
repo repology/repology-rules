@@ -41,6 +41,7 @@
 - { name: webvfx,                      verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: wego,                        verpat: "20[0-9]{2}.*",                             ignore: true } # nix
 - { name: weka,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: wemux,                       verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: wesnoth,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: weston,                      verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: wf-config,                   releq: "0.8.0",               ruleset: bioarch,     incorrect: true }
