@@ -73,7 +73,7 @@
 - { setname: libdvbpsi,                namepat: "libdvbpsi[0-9.-]+" }
 - { setname: libdvdplay,               name: libdvdplay0 }
 - { setname: libdvdread,               name: libdvdread3 }
-- { setname: libdwarf,                 name: [dwarfdump, dwarfutils] }
+- { setname: libdwarf,                 name: [dwarfdump, dwarfutils], addflavor: true }
 - { setname: libe-book,                namepat: "libe-book[0-9.-]+" }
 - { setname: libe-book,                name: libebook }
 - { setname: libeatmydata,             name: eatmydata }
