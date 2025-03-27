@@ -91,7 +91,7 @@
 - { setname: vscli,                    name: rust:$0 }
 - { setname: vscode,                   name: [code,code-oss] } # may be ambiguous
 - { setname: vscode,                   name: [visual-studio-code,visual-studio-code-oss,visualstudiocode,vs-code] }
-- { setname: vscode,                   name: [vscode-bin,vscode-portable,vscode-with-extensions,code-wayland,code-transparent,vscode-languageservers], addflavor: true }
+- { setname: vscode,                   name: [vscode-bin,vscode-portable,vscode-with-extensions,code-wayland,code-transparent,vscode-languageservers,visual-studio-code-bin], addflavor: true }
 - { setname: vscode,                   name: [visual-studio-code-insiders,vscode-insiders,visualstudiocode.insiders,code-insiders], weak_devel: true, nolegacy: true }
 - { setname: vscodium,                 name: [codium,vscodium-electron] }
 - { setname: vsftpd,                   name: vsftpd-ssl, addflavor: ssl }
