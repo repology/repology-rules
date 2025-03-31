@@ -379,6 +379,9 @@
 
 - { name: pybind, wwwpart: pybind11, setname: "python:pybind11" }
 
+- { name: pyp, wwwpart: hauntsaninja, setname: "python:pypyp" }
+- { name: pyp, addflag: unclassified }
+
 - { name: "python:antlr", wwwpart: [antlr.org, antlr2.org], setname: antlr }
 
 - { name: "python:cheetah", verge: "3", setname: "python:cheetah3" } # XXX: problem
