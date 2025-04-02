@@ -193,6 +193,11 @@
 # otherwise worldforge library, now part of worldforge
 - { name: mercator, addflag: unclassified }
 
+- { name: mercury, wwwpart: [mercurylang,Mercury-Language], setname: mercury-lang }
+- { name: mercury, wwwpart: [Alex313031, thorium.rocks], setname: mercury-firefox }
+- { name: mercury, wwwpart: mercury-hpc, setname: mercury-tpc-framework }
+- { name: mercury, addflag: unclassified }
+
 - { name: merlin, wwwpart: op5, setname: merlin-op5 }
 - { name: merlin, wwwpart: [ocaml,the-lambda-church], setname: merlin-ocaml-completion }
 - { name: merlin, wwwpart: abecasis, setname: merlin-linkage } # name already used in AUR; my variant would be merlin-gene-flow

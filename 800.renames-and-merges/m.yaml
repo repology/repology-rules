@@ -186,6 +186,10 @@
 - { setname: mercator,                 name: libmercator }
 - { setname: mercurial,                name: [hg,"python:mercurial"] }
 - { setname: mercurial,                name: [hgweb, mercurial-full], addflavor: true }
+- { setname: mercury,                  name: mercury-minimal, addflavor: true } # NOTE: different projects, split in 850
+- { setname: mercury,                  name: [mercury-browser-avx2, mercury-browser-sse4], addflavor: true }
+- { setname: mercury,                  name: mercury-rpc }
+- { setname: mercury,                  name: ccdc-mercury }
 - { setname: mergiraf,                 name: rust:$0 }
 - { setname: merlin,                   name: "ocaml:merlin" }
 - { setname: mesa,                     name: [mesa-legacy,mesa18] }
