@@ -95,6 +95,7 @@
 - { name: innoextract,                 ver: "1.9.11",                ruleset: [freebsd,baulk], incorrect: true }
 - { name: innoextract,                                               ruleset: [freebsd,baulk], untrusted: true } # accused of fake 1.9.11
 - { name: inotify-tools,               ver: ["3.14.01","3.14pl0"],                         ignore: true } # fake
+- { name: input-leap,                  verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: input-utils,                 verpat: "20[0-9]{2}.*",                             snapshot: true }
 - { name: insighttoolkit,              ver: "5.4.2",                 ruleset: pypi,        remove: true, disposable: true } # yanked on pypi, remove not to poison whole 5.4.2
 - { name: insomnia-rest-client,        verpat: "202[0123].*",                              sink: true } # 2023.5.8 → 8.0.0
