@@ -92,8 +92,8 @@
 - { setname: xmlada,                   name: [libxmlada, gnat-xmlada] }
 - { setname: xmlgraphics-commons,      name: [xmlgraphics-common,java-xmlgraphics-commons,xmlgraphics-commons14] }
 - { setname: xmlrpc-c,                 name: xmlrpc-c-ss } # "super stable"
-- { setname: xmlsec,                   name: [xmlsec1,libxmlsec1] }
-- { setname: xmlsec,                   name: xmlsec-docs, addflavor: docs }
+- { setname: xmlsec,                   name: [xmlsec1,libxmlsec1,xmlsec-1.2] }
+- { setname: xmlsec,                   name: [xmlsec-docs,xmlsec-nss,xmlsec-openssl], addflavor: true }
 - { setname: xmltooling,               name: xmltooling-c }
 - { setname: xmobar,                   name: [xmobar-alsa,xmobar-volume,"haskell:xmobar"] }
 - { setname: xmonad,                   name: "haskell:xmonad" }
