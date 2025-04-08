@@ -260,6 +260,10 @@
 - { name: borg, wwwpart: borgbackup,                      setname: borgbackup }
 - { name: borg, addflag: unclassified }
 
+- { name: bork, wwwpart: [borksh, bork.sh], setname: bork-bash-assertions }
+- { name: bork, wwwpart: kristoff-it, setname: bork-tui-chat }
+- { name: bork, addflag: unclassified }
+
 - { name: bos, wwwpart: boswars,                          setname: boswars }
 
 - { name: bosh, sourceforge: bosh, setname: bosh-browsable-output-shell }
