@@ -358,6 +358,8 @@
 - { name: "gstreamer:bad",                                           ruleset: parabola,    untrusted: true }
 - { name: "gstreamer:libav",           verlonger: 3,                 ruleset: gentoo,      incorrect: true } # appended garbage
 - { name: "gstreamer:mpg123",          verpat: "20[0-9]{6}",                               ignore: true } # AUR
+- { name: "gstreamer:rs",              verge: "1.26",                                      incorrect: true } # uses gstreamer version which is not gst-plugins-rs version
+- { name: "gstreamer:rs",                                            ruleset: [msys2,openmandriva], untrusted: true } # accused of fake 1.26.0
 - { namepat: "gstreamer.*",            verpat: "1\\.13\\.9[0-9]+",                         devel: true }
 - { name: gstreamer,                   verlonger: 3,                 ruleset: aur,         incorrect: true }
 - { name: gstreamer,                   verpat: "1\\.[0-9]*[13579]\\..*",                   devel: true }
