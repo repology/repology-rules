@@ -198,8 +198,8 @@
 - { name: antimicro,                   verge: "3",                                         incorrect: true } # antimicrox
 - { name: antlr,                       verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: ants-advanced-normalization-tools, verpat: "20[0-9]{6}.*",                       incorrect: true }
-- { name: anubis,                      ver: "4.2.90",                ruleset: guix,        incorrect: true }
-- { name: anubis,                                                    ruleset: guix,        untrusted: true } # accused of fake 4.2.90
+- { name: anubis-smtp-submission,      ver: "4.2.90",                ruleset: guix,        incorrect: true }
+- { name: anubis-smtp-submission,                                    ruleset: guix,        untrusted: true } # accused of fake 4.2.90
 - { name: anydesk,                     ver: "5.2.3",                 ruleset: scoop,       incorrect: true }
 - { name: anydesk,                                                   ruleset: scoop,       untrusted: true } # accused of fake 5.2.3
 - { name: aom,                         verpat: ".*20[0-9]{6}",                             snapshot: true }
