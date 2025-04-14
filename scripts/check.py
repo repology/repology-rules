@@ -120,6 +120,7 @@ families = [
     'snap',
     'solus',
     'spack',
+    'stalix',
     't2',
     'termux',
     'vcpkg',
