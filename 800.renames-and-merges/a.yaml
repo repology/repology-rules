@@ -434,6 +434,7 @@
 - { setname: awesome,                  namepat: "awesome[0-9.-]+" }
 - { setname: awf,                      name: awf-git, weak_devel: true, nolegacy: true }
 - { setname: awf,                      name: [awf-gtk, awf-gtk2, awf-gtk3, awf-gtk4, awf-extended], addflavor: true }
+- { setname: awk,                      name: [one-true-awk, nawk, onetrueawk, original-awk] } # split int 850
 - { setname: aws-assume-role,          name: assume-role }
 - { setname: aws-cw-tools,             name: cloud-watch }
 - { setname: awsbck,                   name: "rust:$0" }

@@ -434,6 +434,10 @@
 - { name: awf, wwwpart: [valr,luigifab], setname: awf-widget-factory } # A Widget Factory
 - { name: awf, addflag: unclassified }
 
+- { name: awk, wwwpart: onetrueawk, setname: one-true-awk }
+- { name: awk, wwwpart: gnu.org, setname: gawk } # XXX: problem
+- { name: awk, addflag: unclassified }
+
 - { name: aws, wwwpart: ada, setname: ada-web-server } # reuse name from aur
 - { name: aws, wwwpart: timkay, setname: aws-timkay }
 - { name: aws, wwwpart: aws.amazon.com, setname: awscli }
