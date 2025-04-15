@@ -104,6 +104,11 @@
 
 - { name: termcolor, wwwpart: [pypi,pythonhosted], setname: "python:termcolor" } # XXX: problem
 
+- { name: terminal, wwwpart: elementary, setname: elementary-terminal }
+- { name: terminal, wwwpart: xfce, setname: xfce4-terminal }
+- { name: terminal, wwwpart: nongnu, setname: gnustep-terminal }
+- { name: terminal, addflag: unclassified }
+
 - { name: terminus, wwwpart: pantheon, setname: terminus-pantheon-cli }
 - { name: terminus, wwwpart: rastersoft, setname: terminus-terminal }
 - { name: terminus, addflag: unclassified }
