@@ -54,7 +54,8 @@
 - { setname: unison,                   namepat: "unison-gtk([0-9.+-]*)(?:-compat)?", addflavor: gtk }
 - { setname: unit,                     name: [nginx-unit, nginx-unitd] }
 - { setname: unit,                     namepat: "(?:nginx-)?unit-((?:go|php|python|perl)[0-9.-]*)", addflavor: $1 }
-- { setname: units,                    name: [gnu-units,gunits] }
+- { setname: units,                    name: [gnu-units,gunits] } # ambiguous, split in 850
+- { setname: units,                    name: [units-cpp, nholthaus-units] } # ambiguous, split in 850
 - { setname: unittest-cpp,             name: [libunittest-cpp,unittest++,unittestpp] }
 - { setname: unity,                    name: unity-shell }
 - { setname: unity,                    name: unity8 }
