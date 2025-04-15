@@ -65,6 +65,10 @@
 - { name: figurine, sourceforge: figurine, setname: figurine-graphics }
 - { name: figurine, addflag: unclassified }
 
+- { name: files, wwwpart: elementary, setname: elementary-files }
+- { name: files, wwwpart: [files-community, files.community], setname: files-community }
+- { name: files, addflag: unclassified }
+
 - { name: finch, wwwpart: runfinch, setname: finch-container-cli }
 - { name: finch, wwwpart: pidgin.im, setname: pidgin, addflavor: finch }
 - { name: finch, addflag: unclassified }
