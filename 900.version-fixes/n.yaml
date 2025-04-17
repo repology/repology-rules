@@ -120,7 +120,7 @@
 - { name: notepadqq,                                                 ruleset: debuntu,     untrusted: true } # accused of fake 2.0.0~beta1
 - { name: notify-osd,                  ver: "0.9.35",                ruleset: [arch,debuntu], incorrect: true } # https://launchpad.net/notify-osd
 - { name: notify-osd,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: notion,                      verpat: "20[0-9]{6}.*",                             incorrect: true } # it's 3-YYYYMMDD, not just date
+- { name: notion-wm,                   verpat: "20[0-9]{6}.*",                             incorrect: true } # it's 3-YYYYMMDD, not just date
 - { name: noto-emoji,                  ver: "20201214",                                    incorrect: true }
 - { name: noto-emoji,                                                ruleset: gentoo,      untrusted: true } # accused of fake 20201214
 - { name: nototools,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
