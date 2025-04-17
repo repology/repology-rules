@@ -1,6 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { name: c-ares,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: c-dvar,                      ver: "1.7",                   ruleset: opensuse,    incorrect: true }
+- { name: c-dvar,                                                    ruleset: opensuse,    untrusted: true } # accused of fake 1.7
 - { name: c-tbtree,                    ver: "3.30",                  ruleset: opensuse,    incorrect: true }
 - { name: c-tbtree,                                                  ruleset: opensuse,    untrusted: true } # accused of fake 3.30
 - { name: c0,                                                                              noscheme: true }
