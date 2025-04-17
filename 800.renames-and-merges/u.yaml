@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { setname: u-boot,                   name: [u-boot-tools,uboot-tools], addflavor: tools }
+- { setname: u-root,                   name: go:github-u-root } # XXX: problem
 - { setname: uade,                     name: [uade123,uade2] }
 - { setname: uap-core,                 name: ua-parser-core }
 - { setname: ubisoft-connect,          name: ubisoftconnect }
