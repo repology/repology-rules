@@ -61,7 +61,7 @@
 - { setname: elementary-xfce-icon-theme, name: [elementary-xfce, elementary-xfce-icons, icon-theme-elementary-xfce, xfce-icons-elementary] }
 - { setname: elf2nucleus,              name: "rust:$0" }
 - { setname: elfcat-ruslashev,         name: "rust:elfcat" }
-- { setname: elfutils,                 name: elfutils-libelf }
+- { setname: elfutils,                 name: [elfutils-libelf, elfutils-debuginfod, elfutils-libs], addflavor: true }
 - { setname: elinks,                   name: elinks-small, addflavor: true }
 - { setname: elisa,                    name: elisa-player }
 - { setname: elixir,                   name: elixir-lang }
