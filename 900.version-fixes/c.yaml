@@ -96,6 +96,8 @@
 - { name: ccls,                                                      ruleset: freebsd,     untrusted: true } # accused of fake 0.20190731, 0.20231116
 - { name: ccls,                                                      ruleset: termux,      untrusted: true } # accused of fake 0.20240202
 - { name: ccnet,                                                     ruleset: sisyphus,    untrusted: true } # ccnet-server really
+- { name: ccze,                        vereq: "0.2.1-2",                                   debianism: true }
+- { name: ccze,                        vereq: "0.2.1-8",                                   debianism: true }
 - { name: cd-discid,                   ver: "1.4.14",                ruleset: freebsd,     incorrect: true }
 - { name: cd-discid,                                                 ruleset: freebsd,     untrusted: true } # accused of fale 1.4.14
 - { name: cdbfasta,                                                                        noscheme: true }
