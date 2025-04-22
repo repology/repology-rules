@@ -10,7 +10,7 @@
 - { setname: haiti,                    name: ["ruby:haiti-hash", haiti-hash] }
 - { setname: hamster-time-tracker,     name: hamster-time-tracker-legacy }
 - { setname: handbrake,                name: [handbrake-cli,handbrake-fdkaac,handbrakecli,handbrake-full,handbrake-nvenc,handbrake-no-qsv], addflavor: true }
-- { setname: handlr,                   name: xdg-utils-handlr }
+- { setname: handlr,                   name: [xdg-utils-handlr, handlr-regex, rust:handlr-regex] } # handlr-regex is the alive fork; original project is abandoned
 - { setname: hangups,                  name: "python:hangups" }
 - { setname: haproxy,                  namepat: "haproxy[0-9.-]*" }
 - { setname: haproxy,                  name: haproxy-devel, weak_devel: true, nolegacy: true }
