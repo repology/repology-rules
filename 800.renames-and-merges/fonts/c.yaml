@@ -6,6 +6,22 @@
     - google-cabin-fonts
     - ttf-cabin
 
+- setname: "fonts:caladea"
+  name:
+    - caladea
+    - caladea-fonts
+    - crosextrafonts-caladea
+    - font-crosextra-caladea-ttf
+    - fonts-crosextra-caladea
+    - fonts-otf-ht-caladea
+    - fonts-ttf-google-crosextra-caladea
+    - google-caladea-fonts
+    - google-crosextra-caladea-fonts
+    - ht-caladea-fonts
+    - ttf-caladea
+    - ttf-caladea-ib
+    - xorg-font-ttf-caladea
+
 - setname: "fonts:cantarell"
   name:
     - abattis-cantarell-fonts
@@ -33,6 +49,21 @@
     - google-cardo-fonts
     - scholarsfonts-cardo-fonts
     - ttf-cardo
+
+- setname: "fonts:carlito"
+  name:
+    - carlito
+    - carlito-fonts
+    - crosextrafonts-carlito
+    - font-carlito
+    - font-crosextra-carlito-ttf
+    - fonts-crosextra-carlito
+    - fonts-ttf-google-crosextra-carlito
+    - google-carlito-fonts
+    - google-crosextra-carlito-fonts
+    - ttf-carlito
+    - ttf-carlito-ib
+    - xorg-font-ttf-carlito
 
 - setname: "fonts:cascadia-code"
   name:
@@ -106,6 +137,7 @@
     - fonts-arphic-ukai
     - fonts-ttf-cjkuni-ukai
     - ttf-arphic-ukai
+    - xorg-font-arphic-ukai
   addflavor: ukai
 
 - setname: "fonts:cjkuni"
@@ -117,6 +149,7 @@
     - fonts-arphic-uming
     - fonts-ttf-cjkuni-uming
     - ttf-arphic-uming
+    - xorg-font-arphic-uming
   addflavor: uming
 
 - setname: "fonts:clearsans"
@@ -218,28 +251,6 @@
     - google-croscore-fonts
     - ttf-croscore
     - ttf-crosscorefonts # XXX: should be renamed to ttf-croscorefonts in SlackBuilds (it's CrOS (as in Chrome OS), not cross)
-
-- setname: "fonts:crosextra-caladea"
-  name:
-    - caladea
-    - caladea-fonts
-    - crosextrafonts-caladea
-    - fonts-crosextra-caladea
-    - fonts-ttf-google-crosextra-caladea
-    - google-caladea-fonts
-    - google-crosextra-caladea-fonts
-    - ttf-caladea
-
-- setname: "fonts:crosextra-carlito"
-  name:
-    - carlito
-    - carlito-fonts
-    - crosextrafonts-carlito
-    - fonts-crosextra-carlito
-    - fonts-ttf-google-crosextra-carlito
-    - google-carlito-fonts
-    - google-crosextra-carlito-fonts
-    - ttf-carlito
 
 - setname: "fonts:culmus"
   name:
