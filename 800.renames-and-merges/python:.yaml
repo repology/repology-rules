@@ -350,6 +350,8 @@
 - { setname: "python:redis-py-cluster",name: redis-py-cluster }
 - { setname: "python:reparser",        name: reparser }
 - { setname: "python:resolvelib",      namepat: "python:resolvelib[0-9.-]+" }
+- { setname: "python:rns",             name: python:rnspure, addflavor: true }
+- { setname: "python:rns",             name: reticulum }
 - { setname: "python:robotframework",  name: robot-framework }
 - { setname: "python:robotframework",  name: robotframework }
 - { setname: "python:rpi.gpio",        name: ["python:raspberry-gpio","python:rpi-gpio",rpi.gpio] }
