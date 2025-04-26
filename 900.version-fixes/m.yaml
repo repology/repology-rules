@@ -98,6 +98,8 @@
 - { name: megatools,                   ver: "1.11.0",                ruleset: [aur,fedora], incorrect: true }
 - { name: megatools,                                                 ruleset: [aur,fedora], untrusted: true } # XXX: 1.11.0+20200830 in fact, fix AUR parser
 - { name: meld,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: meld,                        verpat: ".*\\+.*",                                  incorrect: true }
+- { name: meld,                                                      ruleset: homebrew_casks, untrusted: true } # accused of fake 3.22.3+105
 - { name: memethesis-cli,              ver: "3.3.0",                 ruleset: aur,         incorrect: true }
 - { name: memethesis-cli,                                            ruleset: aur,         untrusted: true } # accused of fake 3.3.0
 - { name: memtester,                   verpat: ".*_.*",              ruleset: slackbuilds, incorrect: true } # debianism
