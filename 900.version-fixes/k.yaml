@@ -100,6 +100,7 @@
 - { name: keybase,                     ver: "5.4.2.1",               ruleset: winget,      incorrect: true }
 - { name: keybase,                                                   ruleset: winget,      untrusted: true } # accused of fake 5.4.2.1
 - { name: keybinder,                   verpat: "3\\..*",                                   incorrect: true }
+- { name: keyguard,                                                                        noscheme: true } # a mess: 1.11.0 (app version) vs. 1.11.0-20250324 (GH release) vs. 20250324 (tag)
 - { name: keynav,                      verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: kfilemetadata,               ver: "5.65.0a",                                     incorrect: true }
 - { name: kfilemetadata,                                             ruleset: debuntu,     untrusted: true } # accused of fake 5.65.0a
