@@ -247,3 +247,5 @@
 - { name: txt2tags,                    verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: typora,                      ver: "0.11.18",                                     legacy: true } # last free version
 - { name: typst,                       verpat: "23.*",                                     sink: true } # old versioning scheme, new starts from 0.1.0
+- { name: tyrian-data,                 ver: "73",                    ruleset: mpr,         incorrect: true }
+- { name: tyrian-data,                                               ruleset: mpr,         untrusted: true } # accused of fake 73
