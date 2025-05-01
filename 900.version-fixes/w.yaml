@@ -35,6 +35,8 @@
 - { name: webkitgtk,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: weboob,                      ver: "9998",                                        ignore: true } # another gentoo rolling
 - { name: webp-pixbuf-loader,                                                              noscheme: true } # https://github.com/aruiz/webp-pixbuf-loader/releases
+- { name: webrtc-audio-processing,     ver: "0.3.1.0.202107202114.6467c436", ruleset: slackbuilds, incorrect: true }
+- { name: webrtc-audio-processing,                                   ruleset: slackbuilds, incorrect: true } # accused of fake 0.3.1.0.202107202114.6467c436
 - { name: webscarab,                                                                       noscheme: true } # https://github.com/OWASP/OWASP-WebScarab/releases
 - { name: webstorm,                    verlonger: 2,                                       incorrect: true } # 2022.1 https://www.jetbrains.com/webstorm/whatsnew/
 - { name: webvfx,                      ver: "0.44",                                        incorrect: true }
