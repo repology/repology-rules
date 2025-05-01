@@ -184,6 +184,7 @@
 - { setname: rust:bindgen-cli,         name: [bindgen-cli, rust-bindgen-cli] }
 - { setname: rustic,                   name: [rustic-rs, rust:rustic-rs] }
 - { setname: rustls-ffi,               name: [librustls, rust:$0] }
+- { setname: rustowl,                  name: rust:$0 }
 - { setname: rustup,                   name: [rustup-gnu, rustup-msvc, rustup-init, rustup-bin], addflavor: true }
 - { setname: rusty-diceware,           name: "rust:diceware" }
 - { setname: rutabaga-gfx,             name: [rutabaga-gfx-ffi, rust:rutabaga-gfx, rust:rutabaga-gfx-ffi], addflavor: true }
