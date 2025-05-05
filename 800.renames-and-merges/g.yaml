@@ -411,7 +411,6 @@
 - { setname: gpgme,                    namepat: "gpgme[0-9.-]+" }
 - { setname: gpgme,                    name: [gpgme-cpp,gpgme-python,gpgme-qt5,qgpgme,"python:gpgme"], addflavor: true }
 - { setname: gphoto2,                  name: gphoto }
-- { setname: gphotofs,                 name: gphoto2fs } # nix, problem
 - { setname: gpicview,                 name: [gpicview-gimp,gpicview-gtk3], addflavor: true }
 - { setname: gping,                    name: "rust:gping" }
 - { setname: gpodder,                  name: gpodder3 }
