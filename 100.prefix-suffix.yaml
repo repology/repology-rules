@@ -58,6 +58,8 @@
 
 - { noflag: no_suffix, ruleset: epel,            namepat: "(.*)-epel", setname: $1 }
 
+- { noflag: no_suffix, ruleset: exherbo,         namepat: "(.*)-(bin)", setname: $1, addflavor: $2 }
+
 # XXX: handle (.*)-devel for freebsd?
 - { noflag: no_suffix, ruleset: freebsd,         namepat: "(.*)-(php[0-9]+)", setname: $1, addflavor: $2 }
 - { noflag: no_suffix, ruleset: freebsd,         namepat: "(.*)-(py[0-9]+)", setname: $1, addflavor: $2 }
