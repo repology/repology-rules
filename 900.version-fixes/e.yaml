@@ -153,6 +153,8 @@
 - { name: erlang,                                                    ruleset: freebsd,     incorrect: true } # accused of fake 28.0
 - { name: "erlang:cl",                 verpat: "20[0-9]{6}",                               ignore: true } # aosc snapshot
 - { name: espeakedit,                  ver: "1.48.15",                                     incorrect: true } # latest is 1.48.03
+- { name: etcd,                        ver: "3.6.0.r.4",                                   incorrect: true }
+- { name: etcd,                                                      ruleset: freebsd,     untrusted: true } # accused of fake 3.6.0.r.4
 - { name: eterm,                       ver: "0.9.7",                 ruleset: mageia,      incorrect: true }
 - { name: eterm,                                                     ruleset: mageia,      untrusted: true }
 - { name: eterm,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
