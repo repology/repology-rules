@@ -331,6 +331,7 @@
 - { name: cpptoml,                     ver: "0.4.0",                 ruleset: [openmamba,nix], incorrect: true } # latest ATOW is 0.1.1
 - { name: cpptoml,                                                   ruleset: [openmamba,nix], untrusted: true } # accused of fake 0.4.0
 - { name: cppunit,                     verpat: ".+20[0-9]{6}",                             snapshot: true } # spack
+- { name: cproxy,                      ver: "4.3.4",                                       sink: true } # outdated abandoned fork https://github.com/light4/cproxy
 - { name: cpufreqd,                    ver: "2.4.3",                 ruleset: sisyphus,    incorrect: true }
 - { name: cpufreqd,                                                  ruleset: sisyphus,    untrusted: true } # accused of fake 2.4.3
 - { name: cpulimit,                    verpat: "20[0-8]{6}.*",                             incorrect: true } # hyperbola
