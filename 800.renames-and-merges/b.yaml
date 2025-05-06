@@ -164,7 +164,7 @@
 - { setname: boa,                      name: [boa-cli, rust:boa-cli] } # ambigous, split in 850
 - { setname: boa-constructor,          name: boaconstructor }
 - { setname: bob,                      name: rust:bob-nvim }
-- { setname: bochs,                    name: [bochs-gdb,bochs-sdl], addflavor: true }
+- { setname: bochs,                    name: [bochs-gdb,bochs-sdl,bochs-gdb-stub,bochs-sdl2], addflavor: true }
 - { setname: boehm-gc,                 name: [boehmgc,boehm-garbage-collector,bdw-gc,gc,libgc,bdwgc] }
 - { setname: boehm-gc,                 name: [libgc-back-pointers,boehm-gc-threaded,boehm-gc-redirect], addflavor: true }
 - { setname: bogofilter,               name: [bogofilter-sqlite,bogofilter-tc], addflavor: true }
