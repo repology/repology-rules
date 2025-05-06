@@ -110,7 +110,7 @@
 - { setname: hunt,                     name: "rust:$0" }
 - { setname: hwloc,                    name: hwloc2 }
 - { setname: hwloc,                    name: hwloc-contrib, addflavor: true }
-- { setname: hx,                       name: "rust:hx" }
+- { setname: hx,                       name: [rust:hx, hex-hx] }
 - { setname: hydra,                    name: thc-hydra }
 - { setname: hydralauncher,            name: hydra-launcher }
 - { setname: hydrus,                   name: [hydrus-network, "python:hydrus"] }
