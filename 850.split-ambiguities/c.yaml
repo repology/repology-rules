@@ -253,6 +253,10 @@
 - { name: cluster, wwwpart: mdehoon, setname: cluster-k-means }
 - { name: cluster, addflag: unclassified }
 
+- { name: codex, wwwpart: openai, setname: openai-codex }
+- { name: codex, wwwpart: [jcv8000, codexnotes], setname: codex-notes }
+- { name: codex, addflag: unclassified }
+
 - { name: cog, wwwpart: igalia, setname: cog-wpe }
 - { name: cog, wwwpart: replicate, setname: python:cog }
 - { name: cog, wwwpart: krakoa, setname: cog-gnome-configurator }
