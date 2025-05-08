@@ -48,6 +48,8 @@
 - { namepat: "texlive:.*",                                           ruleset: openmandriva, untrusted: true } # some kind of ctan revisions which have nothing to do with upstream versions
 
 - { namepat: "perl:.*",                                              ruleset: openwrt,     untrusted: true } # perl version appended
+- { verpat: ".*\\+perl[0-9]+\\.[0-9]+",                              ruleset: openwrt,     incorrect: true } # perl version appended
+- { verpat: ".*\\.5\\.[0-9]{2}",                                     ruleset: openwrt,     untrusted: true } # perl version appended, and it's not possible to tell it from valid versions not related to perl
 
 # prevent newly introduced nix categories from polluting unrelated projects before being added to 500 ruleset
 #- { category: "XXX",                                                 ruleset: nix,         addflag: classified_category }
