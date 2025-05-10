@@ -96,6 +96,9 @@
 - { name: black,                       verpat: ".*[ab].*",                                 devel: true }
 - { name: black,                       verpat: ".*_.*",              ruleset: solus,       incorrect: true }
 - { name: black,                                                     ruleset: solus,       untrusted: true } # accused of fake 20.8_1
+- { name: blackbox-terminal,           verpat: ".+20[0-9]{6}",                             snapshot: true }
+- { name: blackbox-terminal,           releq: "0.15.0",              ruleset: [fedora,terra], incorrect: true }
+- { name: blackbox-terminal,                                         ruleset: [fedora,terra], untrusted: true } # accused of fake 0.15.0.*
 - { name: blackbox-vcs,                ver: "2.0.0",                                       sink: true } # https://github.com/StackExchange/blackbox/issues/354#issuecomment-1152902701
 - { name: blackshades,                 ver: "20070723",                                    sink: true }
 - { name: blas,                        verpat: "20[0-9]{6}.*",                             ignore: true }
