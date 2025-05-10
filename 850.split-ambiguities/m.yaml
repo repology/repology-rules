@@ -33,6 +33,10 @@
 - { name: mako, wwwpart: makotemplates, setname: "python:mako" }
 - { name: mako, addflag: unclassified }
 
+- { name: malcontent, wwwpart: chainguard-dev, setname: $0-supply-chain-attack-detect }
+- { name: malcontent, wwwpart: pwithnall, setname: $0-parental-controls }
+- { name: malcontent, addflag: unclassified }
+
 - { name: man, wwwpart: man-db,        setname: man-db }
 
 - { name: man2html, wwwpart: [savannah,nongnu], setname: $0-savannah }
