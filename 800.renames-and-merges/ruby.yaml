@@ -1,6 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- { namepat: "(ruby:.*)-rails(?:4|5|50)", setname: "$1", ruleset: freebsd }
+- { namepat: "(ruby:.*)-(rails[0-9]{2})", setname: "$1", addflavor: "$2", ruleset: freebsd }
 
 - { namepat: "ruby:rails800", addflag: not_versioned }
 
