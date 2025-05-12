@@ -33,6 +33,10 @@
 - { name: pacman, wwwpart: archlinux, setname: pacman-package-manager }
 - { name: pacman, addflag: unclassified }
 
+- { name: padre, wwwpart: [cpan, peride], setname: perl:padre }
+- { name: padre, wwwpart: glebarez, setname: padre-exploit }
+- { name: padre, addflag: unclassified }
+
 - { name: paho-mqtt, wwwpart: paho.mqtt.c, setname: paho.mqtt.c } # XXX: problem
 # also unprefixed python module
 - { name: paho-mqtt, addflag: unclassified }
