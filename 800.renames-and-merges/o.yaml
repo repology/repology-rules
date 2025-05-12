@@ -154,6 +154,8 @@
 - { setname: openscenegraph,           namepat: "openscenegraph[0-9.-]+" }
 - { setname: openscenegraph,           namepat: "osg[0-9.-]+" }
 - { setname: openscenegraph,           name: [osg-devel,openscenegraph-dev], weak_devel: true, nolegacy: true }
+- { setname: opensearch,               namepat: "opensearch[0-9.-]+" }
+- { setname: opensearch-dashboards,    namepat: "opensearch-dashboards[0-9.-]+" }
 - { setname: openshadinglanguage,      namepat: "openshadinglanguage[0-9.-]+" }
 - { setname: openshot,                 name: openshot-qt, addflavor: qt }
 - { setname: opensm,                   name: compat-opensm-libs }
