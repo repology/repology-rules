@@ -240,8 +240,9 @@
 - { name: libmilter,                   verlonger: 3,                                       devel: true } # sendmail snapshots
 - { name: libmilter,                   verpat: "1\\..*",                                   incorrect: true } # XXX: problem; Gentoo&friends are too clever to dig deep into the code to get internal library version, but it's not really related to code version
 - { name: libmm-qt,                    ver: "1.0.2",                                       incorrect: true, disposable: true } # old fedora
-- { name: libmodplug,                  ver: "0.8.9.1",               ruleset: [gentoo,crux], incorrect: true }
-- { name: libmodplug,                                                ruleset: [gentoo,crux], untrusted: true } # accused of fake 0.8.9.1
+- { name: libmodplug,                  ver: "0.8.9.1",               ruleset: [gentoo,crux,openmandriva,os4depot], incorrect: true }
+- { name: libmodplug,                                                ruleset: [gentoo,crux,openmandriva,os4depot], untrusted: true } # accused of fake 0.8.9.1
+- { name: libmodplug,                  releq: "0.8.9.1",                                   untrusted: true } # unreleased version of abandoned fork
 - { name: libmodplug,                  verpat: ".*r[0-9]{3}",                              incorrect: true } # ShiftMediaProject fork
 - { name: libmongocrypt,               ver: "2.3.0",                 ruleset: termux,      incorrect: true }
 - { name: libmongocrypt,                                             ruleset: termux,      untrusted: true } # accused of fake 2.3.0
