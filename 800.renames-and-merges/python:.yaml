@@ -348,6 +348,7 @@
 - { setname: "python:readlike",        name: readlike }
 - { setname: "python:redis",           name: ["python:redis-py",redis-py] }
 - { setname: "python:redis-py-cluster",name: redis-py-cluster }
+- { setname: "python:rencode",         name: rencode } # CVE
 - { setname: "python:reparser",        name: reparser }
 - { setname: "python:resolvelib",      namepat: "python:resolvelib[0-9.-]+" }
 - { setname: "python:rns",             name: python:rnspure, addflavor: true }
