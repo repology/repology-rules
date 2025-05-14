@@ -60,6 +60,7 @@
 - { setname: cargo-bloat,              name: ["rust:cargo-bloat",rust-cargo-bloat] }
 - { setname: cargo-c,                  name: "rust:cargo-c" }
 - { setname: cargo-deb,                name: "rust:cargo-deb" }
+- { setname: cargo-debstatus,          name: rust:$0 }
 - { setname: cargo-deny,               name: rust:$0 }
 - { setname: cargo-edit,               name: rust:$0 }
 - { setname: cargo-i18n,               name: rust:$0 }
