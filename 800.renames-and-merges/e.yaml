@@ -26,6 +26,7 @@
 - { setname: edgedriver,               name: [edgedriver-legacy, msedgedriver-stable, selenium-chromium-edge-driver, selenium-edge-driver] }
 - { setname: edgedriver,               name: [edgedriver-canary, edgedriver-dev, msedgedriver-beta, msedgedriver-dev], weak_devel: true, nolegacy: true }
 - { setname: edk2,                     name: edk2-ovmf }
+- { setname: eduvpn-client,            name: [eduvpn, python:$0] }
 - { setname: eduvpn-common,            name: lib$0 }
 - { setname: eduvpn-common,            name: python:$0, addflavor: true }
 - { setname: ee,                       name: ee-editor }
