@@ -138,6 +138,8 @@
 - { setname: thunderbird,              namepat: "thunderbird-nightly(.*)", addflavor: $1, ignore: true }
 - { setname: thunderbird,              namepat: "thunderbird[0-9.-]*" }
 - { setname: thunderbird,              namepat: "thunderbird[0-9.-]*-l10n", addflavor: l10n }
+- { setname: thunderbird,              name: thunderbird-esr-bin, addflavor: bin }
+- { setname: thunderbird,              name: thunderbird-esr-globalmenu, addflavor: globalmenu }
 - { setname: tic-80,                   name: tic80 }
 - { setname: tidgi,                    name: tidgi-desktop } # another one is tidgi-mobile, so it's safe to merge
 - { setname: tidy,                     name: tidy-devel, weak_devel: true, nolegacy: true }
