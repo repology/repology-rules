@@ -69,7 +69,7 @@
 - { setname: kind2,                    name: rust:$0 }
 - { setname: kipi-plugins,             namepat: "kipi-plugin-.*", ruleset: freebsd }
 - { setname: kitscenarist,             name: scenarist } # XXX: problem
-- { setname: kitty,                    name: [kitty-shell-integration, kitty-terminfo, kitty-bin, kitty-shade-transparency-patch], addflavor: true }
+- { setname: kitty,                    name: [kitty-shell-integration, kitty-terminfo, kitty-bin, kitty-shade-transparency-patch,kitty-bitmap], addflavor: true }
 - { setname: kittysay,                 name: rust:$0 }
 - { setname: kiwi,                     name: "python:kiwi" } # totally intermixed, split in 850
 - { setname: kiwix-desktop,            name: kiwix }
