@@ -50,6 +50,8 @@
 - { name: libredwg,                    verpat: "([0-9]+\\.){2}[0-9]+",                     devel: false } # "all releases are beta" crap
 #- { name: libreoffice,                 relgt: "6.3.2",                                     devel: true, maintenance: true } # (use latest stable mentioned at https://www.libreoffice.org/download/download/)
 - { name: libreoffice,                 verpat: "[0-9]+(\\.[0-9]+){2}",                     incorrect: true } # a.b.c.d, not a.b.c
+- { name: libreoffice,                 ver: "25.04.1-1",             ruleset: nix,         incorrect: true }
+- { name: libreoffice,                                               ruleset: nix,         untrusted: true } # accused of fake 25.04.1-1
 - { name: libreplan,                   verpat: "[1234]",                                   sink: true } # XXX: remove after repology/repology#891
 - { name: librespot,                   verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: librespot,                   verge: "20000000", verlt: "20200729",               sink: true }
