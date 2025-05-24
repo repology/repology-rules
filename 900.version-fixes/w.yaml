@@ -70,6 +70,10 @@
 - { name: wine,                        ver: "9.0_3",                 ruleset: homebrew_casks, incorrect: true }
 - { name: wine,                                                      ruleset: homebrew_casks, untrusted: true } # accused of fake 9.0_3
 - { name: wine,                        wwwpat: macOS_Wine_builds,                          untrusted: true }
+- { name: winetricks,                  ver: "20250212",              ruleset: freebsd,     incorrect: true }
+- { name: winetricks,                                                ruleset: freebsd,     untrusted: true } # accused of fake 20250212
+- { name: winetricks,                  ver: "20250207",              ruleset: sisyphus,    incorrect: true }
+- { name: winetricks,                                                ruleset: sisyphus,    untrusted: true } # accused of fake 20250207
 - { name: winexe,                      ver: "1.1",                   ruleset: debuntu,     incorrect: true } # snapshot
 - { name: winff,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: wire,                        verpat: "20[0-9]{2}.*",                             incorrect: true } # aur snapshot
