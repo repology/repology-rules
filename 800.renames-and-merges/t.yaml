@@ -79,6 +79,7 @@
 - { setname: telepresence,             name: telepresence2 }
 - { setname: template-glib,            name: libtemplate-glib }
 - { setname: templedriver,             name: $0-snap, addflavor: true }
+- { setname: tempo,                    name: [ grafana-tempo, tempo-cli ] }
 - { setname: tensorboard,              name: ["python:tensorboard", "python:tensorboard1", "python:tensorflow-tensorboard"] }
 - { setname: tensorflow,               namepat: "(?:lib)?tensorflow[0-9.-]*(gnu-hpc|gnu-openmpi2-hpc|lite|cpu|gpu)?", addflavor: $1 }
 - { setname: tensorflow,               name: [python:tensorflow, python:tensorflow2] } # but not python:tensorflow1
