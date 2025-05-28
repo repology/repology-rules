@@ -198,6 +198,7 @@
 - { setname: mesa,                     name: [mesa-devel, mesa-git], weak_devel: true, nolegacy: true }
 - { setname: mesa-demos,               name: [mesa-demo,mesademos,mesa3d-demos] }
 - { setname: mesa-demos,               name: glxinfo, addflavor: true }
+- { setname: meshoptimizer,            name: gltfpack, addflavor: true } # part of
 - { setname: meson,                    name: ["python:meson",meson-internal,meson-testsuite], addflavor: true }
 - { setname: meson,                    name: [meson054, meson1] }
 - { setname: meta-package-manager,     name: "python:$0" }
