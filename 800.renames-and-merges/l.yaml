@@ -5,6 +5,8 @@
 - { setname: labelme,                  name: "python:labelme" }
 - { setname: labplot,                  name: [labplot-kf5, labplot2] }
 - { setname: labplot,                  name: $0-nightly, weak_devel: true, nolegacy: true }
+- { setname: labymodlauncher,          name: labymod-launcher }
+- { setname: labymodlauncher,          name: labymodlauncher-electron, addflavor: true }
 - { setname: ladish,                   name: ladish-no-gui, addflavor: true }
 - { setname: ladspa,                   name: ladspa-sdk }
 - { setname: ladspa-cmt,               name: [ladspa-cmt-plugins, cmt-plugins] }
