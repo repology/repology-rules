@@ -210,6 +210,7 @@ flags = [
     'git',
     'libusb3380',
     'mingw_once',
+    'misnamed',
     'no_suffix',
     'not_apache',
     'not_coq',
