@@ -62,7 +62,10 @@
 - { name: neutron, wwwpart: [openstack,launchpad.net/neutron], setname: openstack-neutron }
 - { name: neutron, addflag: unclassified }
 
-- { name: newt, wwwpart: mynewt, setname: mynewt-newt } # just using name existing in AUR and NIX
+- { name: newt, wwwpart: mynewt, setname: mynewt-newt } # just using name existing in AUR and NIX, also project name on GH
+- { name: newt, wwwpart: fosrl, setname: newt-pangolin-tunneling-client }
+- { name: newt, wwwpart: [pagure,mlichvar], setname: newt-tui }
+- { name: newt, addflag: unclassified }
 
 - { name: nexus, wwwpart: sonatype, setname: nexus-repository }
 - { name: nexus, wwwpart: nexusformat, setname: nexusformat }
