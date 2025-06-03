@@ -101,6 +101,7 @@
 - { name: blackbox-terminal,                                         ruleset: [fedora,terra], untrusted: true } # accused of fake 0.15.0.*
 - { name: blackbox-vcs,                ver: "2.0.0",                                       sink: true } # https://github.com/StackExchange/blackbox/issues/354#issuecomment-1152902701
 - { name: blackshades,                 ver: "20070723",                                    sink: true }
+- { name: blackvoxel,                  ver: "2.50",                                        incorrect: true }
 - { name: blas,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: blas,                        ver: "3.9.2",                 ruleset: sisyphus,    incorrect: true }
 - { name: blas,                                                      ruleset: sisyphus,    untrusted: true } # accused of fake 3.9.2
