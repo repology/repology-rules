@@ -34,6 +34,7 @@
 - { setname: oha,                      name: rust:$0 }
 - { setname: oils,                     name: [oils-for-unix, oilshell] }
 - { setname: olive-video-editor,       name: olive-editor }
+- { setname: ollama,                   name: [ollama-full, ollama-cuda, ollama-nogpu, ollama-rocm], addflavor: true }
 - { setname: olm,                      name: libolm }
 - { setname: olm,                      name: ["python:olm", olm-python3], addflavor: python }
 - { setname: ombi,                     name: [ombi-beta,ombi-dev] }
