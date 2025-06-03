@@ -184,6 +184,7 @@
 - { setname: "python:numpy",           name: [numpy-legacy,numpy-legacy3,numpy3] }
 - { setname: "python:numpy",           name: numpy } # XXX: make upstream use prefix
 - { setname: "python:numpy",           namepat: "python:numpy[0-9.-]+-gnu-hpc", addflavor: gnuhpc }
+- { setname: "python:ollama",          name: ollama-python }
 - { setname: "python:opentype-sanitizer", name: "python:ots-python" } # PyPI name is opentype-sanitizer, github name is ots-python
 - { setname: "python:pandas",          name: pandas }
 - { setname: "python:pandocfilters",   name: pandocfilters }
