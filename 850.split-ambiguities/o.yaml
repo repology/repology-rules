@@ -105,6 +105,8 @@
 - { name: orbit2, wwwpart: gulien, setname: orbit-task-runner } # mismerge from orbit
 
 - { name: orc, wwwpart: apache, setname: apache-orc }
+- { name: orc, wwwpart: gstreamer, setname: gstreamer-orc }
+- { name: orc, addflag: unclassified }
 
 - { name: orca, wwwpart: gnome, setname: gnome-orca }
 - { name: orca, wwwpart: plotly, setname: plotly-orca } # reuse name from aur
