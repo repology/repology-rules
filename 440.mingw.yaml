@@ -44,3 +44,6 @@
 - { addflag: not_unmingw,              name: "mingw:w64-tools" }
 
 - { setname: "$1", noflag: not_unmingw, namepat: "mingw:(.*)", addflavor: mingw }
+
+# these are unflavoured packages on cygwin, for cygwin toolchain access to Win32 API
+- { setname: mingw:$1,                 namepat: "win32api-(headers|runtime)", ruleset: [cygwin] }
