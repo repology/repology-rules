@@ -85,7 +85,6 @@
 - { setname: tensorflow,               name: [python:tensorflow, python:tensorflow2] } # but not python:tensorflow1
 - { setname: tensorflow,               name: [python:tensorflow-cpu, python:tensorflow-gpu, python:tensorflow-lite, tensorflow-cc, tensorflow-common], addflavor: true }
 - { setname: tensorflow,               name: libtensorflow1-noavx, addflavor: noavx }
-- { setname: tepl,                     namepat: "(?:lib)?tepl[0-9.-]*" }
 - { setname: terminal-image-viewer,    name: terminalimageviewer }
 - { setname: terminal-markdown-viewer, name: mdv }
 - { setname: termtosvg,                name: "python:termtosvg" }
