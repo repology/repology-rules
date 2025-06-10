@@ -124,6 +124,7 @@ families = [
     'stalix',
     't2',
     'termux',
+    'tincan',
     'vcpkg',
     'void',
     'wakemeops',
