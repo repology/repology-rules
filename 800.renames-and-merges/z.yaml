@@ -51,6 +51,7 @@
 - { setname: zkgroup,                  name: libzkgroup }
 - { setname: zlib,                     name: zlib-static, addflavor: static }
 - { setname: zlib,                     name: [minizip-zlib], addflavor: minizip }
+- { setname: zlib-ng,                  name: $0-compat, addflavor: true }
 - { setname: zls,                      name: [zig-$0, zig:$0] }
 - { setname: zn-poly,                  name: lib$0 }
 - { setname: zoneminder,               name: zoneminder-h264, ignore: true }
