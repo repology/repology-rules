@@ -10,3 +10,11 @@
 - { addflag: misnamed, name: python:tz,      wwwpart: pytz }
 - { addflag: misnamed, name: python:vlc,     wwwpart: videolan.org }
 - { addflag: misnamed, name: zlib,           wwwpart: zlib-ng }
+
+- flag: misnamed
+  setname: $0-misnamed
+  outdated: true
+  ignore: false
+  rolling: false
+  untrusted: false
+  nolegacy: true
