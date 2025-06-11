@@ -1,5 +1,12 @@
 # vim: tabstop=29 expandtab softtabstop=29 nomodeline
 
-- { name: pfetch, wwwpart: pfetch-rs, addflag: misnamed }
-- { name: python:pyyaml, wwwpart: pyyaml-ft, addflag: misnamed }
-- { name: zlib, wwwpart: zlib-ng, addflag: misnamed }
+- { addflag: misnamed, name: pfetch,         wwwpart: pfetch-rs }
+- { addflag: misnamed, name: python:cheetah, verge: "3" }
+- { addflag: misnamed, name: python:exif,    wwwpart: exif-py }
+- { addflag: misnamed, name: python:magic,   wwwpart: [ahupp/python-magic,pypi/python-magic] }
+- { addflag: misnamed, name: python:migrate, wwwpart: sqlalchemy-migrate }
+- { addflag: misnamed, name: python:osc,     wwwpart: attwad }
+- { addflag: misnamed, name: python:pyyaml,  wwwpart: pyyaml-ft }
+- { addflag: misnamed, name: python:tz,      wwwpart: pytz }
+- { addflag: misnamed, name: python:vlc,     wwwpart: videolan.org }
+- { addflag: misnamed, name: zlib,           wwwpart: zlib-ng }
