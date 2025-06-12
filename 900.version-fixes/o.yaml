@@ -15,6 +15,7 @@
 - { name: "ocaml:bin-prot",            verge: "100",                                       sink: true } # ... -> 113.x → 0.9.0
 - { name: "ocaml:calendar",            ver: "2.5",                   ruleset: nix,         incorrect: true }
 - { name: "ocaml:calendar",                                          ruleset: nix,         untrusted: true } # accused of fake 2.5 (it's really 2.03.2)
+- { name: "ocaml:console",              verpat: "20[0-9]{2}-[0-9]{2}-[0-9]{2}.*", ruleset: nix, incorrect: true } # accused of fake 2022-08-31-a0ddab6
 - { name: "ocaml:cryptokit",           ver: "1.161",                                       incorrect: true } # 1.16.1
 - { name: "ocaml:cryptokit",                                         ruleset: gentoo,      untrusted: true } # accused of fake 1.161
 - { name: "ocaml:cryptokit",           ver: "1161",                                        incorrect: true } # 1.16.1
