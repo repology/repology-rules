@@ -22,6 +22,7 @@
 - { name: "ocaml:cryptokit",                                         ruleset: rosa,        untrusted: true } # accused of fake 1161
 - { name: "ocaml:dir",                  verpat: "20[0-9]{2}-[0-9]{2}-[0-9]{2}.*", ruleset: nix, incorrect: true } # accused of fake 2022-08-31-a0ddab6
 - { name: "ocaml:dypgen",               verpat: "20[0-9]{6}.*",                   ruleset: nix, incorrect: true } # accused of fake 20120619-1
+- { name: "ocaml:file-context-printer", verpat: "20[0-9]{2}-[0-9]{2}-[0-9]{2}.*", ruleset: nix, incorrect: true } # accused of fake 2022-08-31-a0ddab6
 - { name: "ocaml:libvirt",             verpat: ".*unstable",                               incorrect: true } # nix garbage
 - { name: "ocaml:ocamlfuse",           verpat: ".*cvs[0-9]+",                              any_is_patch: true, ignore: false } # official versioning scheme https://github.com/astrada/ocamlfuse/tags
 - { name: "ocaml:opam-file-format",                                  ruleset: sisyphus,    untrusted: true }
