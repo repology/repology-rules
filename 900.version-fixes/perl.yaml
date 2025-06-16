@@ -73,8 +73,8 @@
 - { name: "perl:html-packer",          verge: "2.30",                                      incorrect: true }
 - { name: "perl:inline-java",          verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
 - { name: "perl:io-compress-brotli",   ver: "0.004001",                                    sink: true }
-- { name: "perl:io-compress-brotli",   ver: "0.012000",                                    incorrect: true }
-- { name: "perl:io-compress-brotli",                                 ruleset: freebsd,     untrusted: true } # accused of fake 0.012000
+- { name: "perl:io-compress-brotli",   ver: "0.019000",                                    incorrect: true }
+- { name: "perl:io-compress-brotli",                                 ruleset: [freebsd,fedora], untrusted: true } # accused of fake 0.012000, 0.017000, 0.019000
 - { name: "perl:io-stty",              ver: ["02","0.30.0"],                               incorrect: true }
 - { name: "perl:io-tty",               verpat: ".*\\+.*",                                  devel: true } # AOSC devel
 - { name: "perl:io-util",              ver: "1.50",                                        incorrect: true }
