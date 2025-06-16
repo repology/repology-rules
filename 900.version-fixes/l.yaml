@@ -220,8 +220,6 @@
 - { name: "lua:utf8",                  ver: ["1.1", "1.2"],          ruleset: luarocks,    incorrect: true } # no such upstream releases
 - { name: "lua:utf8",                                                ruleset: luarocks,    untrusted: true } # accused of fake 1.1, 1.2
 - { name: luajit,                                                                          noscheme: true }
-- { name: luajit,                      wwwpart: "openresty",                               noscheme: false, incorrect: true } # separate project
-- { name: luajit,                      wwwpart: "moonjit",                                 noscheme: false, outdated: true } # dead fork
 - { name: luakit,                      verpat: "201[0-9].*",                               sink: true }
 - { name: luanti,                      verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: luarocks,                                                  ruleset: nix,         untrusted: true } # should fall under 899 "lua:.*" rule, but doesn't due to rename
