@@ -376,6 +376,7 @@
 - { name: csxcad,                      verpat: "20[0-9]{2}.*",                             incorrect: true } # macports, nix
 - { name: csxcad,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true } # XXX: FreeBSD DISTVERSION
 - { name: csync,                       ver: ["0.50.6","0.50.8"],     ruleset: [sisyphus, slitaz], incorrect: true }
+- { name: cubeb,                       verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: cuberite,                                                                        noscheme: true } # https://github.com/cuberite/cuberite/tags
 - { name: cubicsdr,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: cubosphere,                  ver: "0.1",                   ruleset: opensuse,    incorrect: true } # beta_0.1
