@@ -121,6 +121,7 @@
 - { noflag: no_suffix, ruleset: [msys2_mingw,msys2_clang64,msys2_clangarm64,msys2_ucrt64], namepat: "mingw-w64-(.*)", setname: $1 }
 - { noflag: no_suffix, ruleset: msys2,           namepat: "(.*)-(git|svn|hg)", setname: $1, weak_devel: true, nolegacy: true }
 
+- { noflag: no_suffix, ruleset: pacstall,        namepat: "(.*)-app", setname: $1, addflavor: app }
 - { noflag: no_suffix, ruleset: pacstall,        namepat: "(.*)-bin", setname: $1, addflavor: bin }
 - { noflag: no_suffix, ruleset: pacstall,        namepat: "(.*)-deb", setname: $1, ignore: true }  # may have debian revisions appended
 - { noflag: no_suffix, ruleset: pacstall,        namepat: "(.*)-git", setname: $1, untrusted: true, addflag: git }  # for commit hashes, rolling is added in 899
