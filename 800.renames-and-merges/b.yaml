@@ -122,7 +122,7 @@
 - { setname: bitlbee,                  name: [bitlbee-libpurple, bitlbee-libpurple-unicode-channel, bitlbee-purple], addflavor: true } # these are NOT bitlbee plugins
 - { setname: bitrot,                   name: "python:$0" }
 - { setname: bitwig-studio,            name: bitwig-studio-beta, weak_devel: true, nolegacy: true }
-- { setname: bitwig-studio,            name: bitwig-studio-legacy }
+- { setname: bitwig-studio,            name: [bitwig-studio-legacy, bitwig-studio-3, bitwig-studio-4] }
 - { setname: bkt,                      name: rust:$0 }
 - { setname: black,                    name: "python:black" }
 - { setname: blackbox,                 name: blackboxwm }
