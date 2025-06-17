@@ -112,6 +112,7 @@
 - { setname: wpull,                    name: "python:wpull" }
 - { setname: wretch,                   name: rust:$0 }
 - { setname: write-good,               name: "node:write-good" }
+- { setname: wrk,                      name: [wrk-luajit, wrk-luajit-openresty], addflavor: true }
 - { setname: wrogue,                   name: warp-rogue }
 - { setname: wt,                       name: wt3 }
 - { setname: wtdbg2,                   name: wtdbg }
