@@ -41,7 +41,8 @@
 - { setname: dbus-sharp-glib,          name: dbus-sharp-lib, disposable: true } # aosc
 - { setname: dcc,                      name: dcc-dccd }
 - { setname: dcd,                      name: [dcd-client, dcd-server], addflavor: true }
-- { setname: dcmtk,                    name: libdcmtk12 }
+- { setname: dcmtk,                    namepat: "(?:lib)?dcmtk[0-9]*" }
+- { setname: dcmtk,                    name: dcmtk-static, addflavor: true }
 - { setname: dcmtk,                    name: dcmtk-snapshot, weak_devel: true, nolegacy: true }
 - { setname: dconf,                    name: d-conf }
 - { setname: dconf-editor,             name: dconf-editor-3.20 }
