@@ -198,6 +198,7 @@
 - { setname: luminance-hdr,            name: luminance-hdr-qt5, addflavor: true }
 - { setname: lustre,                   name: lustre-client }
 - { setname: lutgen,                   name: [rust:$0-cli, lutgen-rs] }
+- { setname: lutgen-studio,            name: rust:$0 }
 - { setname: lux-video-downloader,     name: [lux-dl, lux-go, annie] } # https://github.com/iawia002/lux/pull/993 https://github.com/repology/repology-rules/issues/592
 - { setname: luxcorerender,            name: [luxrender,luxrender14] } # former name
 - { setname: lv2-c++-tools,            name: lv2-cpp-tools }
