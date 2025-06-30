@@ -44,6 +44,7 @@
 - { setname: keybinder,                namepat: "(lib)?keybinder[0-9.-]*", addflavor: $1 }
 - { setname: keybinder,                name: [keybinder-gtk3,keybinder-python,"lua:keybinder","python:keybinder","python:keybinder2"], addflavor: true }
 - { setname: keystone,                 name: "python:keystone" }
+- { setname: keystore-explorer,        name: keystoreexplorer }
 - { setname: keyutils,                 name: lib$0 }
 - { setname: khronos-api,              name: [khronos-opengl-registry,glcorearb] }
 - { setname: ki,                       name: [ki-shell, kotlin-interactive-shell] }
