@@ -203,6 +203,10 @@
 - { name: anaconda, wwwpart: [fedoraproject,rhinstaller], setname: anaconda-installer }
 - { name: anaconda, addflag: unclassified }
 
+- { name: angle, wwwpart: google/angle, setname: angle-opengl-implementation }
+# also upstreamless bioinformatics package
+- { name: angle, addflag: unclassified }
+
 - { name: anna, wwwpart: marcelhollerbach, setname: anna-greeter }
 - { name: anna, addflag: unclassified }
 
