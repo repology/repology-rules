@@ -299,6 +299,7 @@
 - { name: gperf,                       ver: "3.2",                   ruleset: chromebrew,  incorrect: true }
 - { name: gperf,                                                     ruleset: chromebrew,  untrusted: true } # accused of fake 3.2
 - { name: gperftools,                  verpat: ".*\\.9[0-9]+",                             devel: true }
+- { name: gpgmepp,                     verpat: "1[56].*",                                  sink: true } # 2.0.0 from 2025-06-03 (https://www.gnupg.org/download/index.html#gpgme)
 - { name: gping,                       ver: "1.1",                                         sink: true } # python version, rewritten in rust with other versioning scheme
 - { name: gpm,                         verpat: "[0-9]+\\.99\\..*",                         devel: true } # assumed
 - { name: gpm,                         verpat: ".*[0-9]{4}20[0-9]{2}",                     incorrect: true } # snapshot with reversed date
