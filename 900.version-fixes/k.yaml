@@ -27,8 +27,8 @@
 - { name: kapman,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kapptemplate,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kate,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: kate,                        ver: "25.08",                 ruleset: homebrew,    incorrect: true }
-- { name: kate,                                                      ruleset: homebrew,    untrusted: true } # accused of fake 25.08
+- { name: kate,                        ver: "25.08",                 ruleset: homebrew_casks, incorrect: true }
+- { name: kate,                                                      ruleset: homebrew_casks, untrusted: true } # accused of fake 25.08
 - { name: katomic,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kbackup,                     verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kbfs,                        verpat: ".*20[0-9]{6}.*",                           ignore: true }
