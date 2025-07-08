@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { setname: "lua:ada",                name: lua-ada }
+- { setname: "lua:alt-getopt",         name: lua-alt-getopt }
 - { setname: "lua:bcrypt",             name: [luabcrypt] }
 - { setname: "lua:bcrypt",             namepat: "luabcrypt([0-9.-]+)", addflavor: $1 } # suffix is lua version
 - { setname: "lua:bitop",              name: [lua-bitop,lua-luabitop,lua5.2-bitop,luabitop,bitop] }
