@@ -72,6 +72,7 @@
 - { setname: qtermwidget,              namepat: "qtermwidget[0-9.-]+" }
 - { setname: qtermwidget,              name: [qtermwidget-q4,qtermwidget-qt4], addflavor: qt4 }
 - { setname: qtermwidget,              name: qtermwidget-qt5, addflavor: qt5 }
+- { setname: qtgreet,                  name: greetd-qtgreet }
 - { setname: qtile,                    name: python:$0 }
 - { setname: qtile,                    name: qtile-wayland, addflavor: true }
 - { setname: qtkeychain,               name: [qt4-qtkeychain,qt5-qtkeychain,qt5keychain,qtkeychain-qt4,qtkeychain-qt5,qt5-keychain,libqtkeychain], addflavor: true }
