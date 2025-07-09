@@ -54,6 +54,7 @@
 - { name: ike-scan,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: ilspy,                       verpat: "([0-9]+\\.){3}[0-9]{4,5}",                 altver: true }
 - { name: imagej,                      verpat: "[0-9]{3}.*",                               incorrect: true } # 1.50 not 150
+- { name: imaginary,                   verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: imap,                        verpat: ".*suse",                                   incorrect: true }
 - { name: imapdedup,                   verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: imapdedup,                   verpat: "2023.*",                                   sink: true }
