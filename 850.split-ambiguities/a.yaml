@@ -214,6 +214,11 @@
 - { name: annotator, wwwpart: snijderlab, setname: annotator-mass-spectrometry }
 - { name: annotator, addflag: unclassified }
 
+- { name: antares, wwwpart: arescentral, setname: antares-game }
+- { name: antares, wwwpart: [antares-sql,Fabio286], setname: antares-sql }
+# also X window manager with dead upstream
+- { name: antares, addflag: unclassified }
+
 - { name: antidote, wwwpart: [getantidote.github.io,mattmc3], setname: antidote-zsh-plugin-manager }
 - { name: antidote, addflag: unclassified }
 
