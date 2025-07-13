@@ -212,6 +212,8 @@
 - { setname: ansible-lint,             name: "python:ansible-lint" }
 - { setname: ansible-runner,           name: "python:ansible-runner" }
 - { setname: ant,                      name: ant-junit5, addflavor: true }
+- { setname: antares,                  name: antares-sql }
+- { setname: antares,                  name: antares-sql-beta, weak_devel: true, nolegacy: true }
 - { setname: anthy,                    name: libanthy }
 - { setname: antidote,                 name: zsh-antidote }
 - { setname: antimicro,                name: antimicro-qt4 }
