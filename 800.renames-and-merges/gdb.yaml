@@ -1,0 +1,55 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+# flavored
+- setname: gdb
+  addflavor: true
+  name:
+    - aarch64-elf-gdb
+    - aarch64-linux-gnu-gdb
+    - aarch64-none-elf-gdb
+    - arm-elf-gdb
+    - arm-gdb
+    - arm-linux-gnueabihf-gdb
+    - arm-none-eabi-gdb
+    - avr-gdb
+    - cross-arm-none-eabi-gdb
+    - cross-mingw-w64-gdb
+    - gdb-avr
+    - gdb-doc
+    - gdb-host-cpu-only
+    - gdb-mingw-w64
+    - gdb-minimal
+    - gdb-multiarch
+    - gdb-python
+    - i386-elf-gdb
+    - i686-elf-gdb
+    - lm32-elf-gdb
+    - m68k-elf-gdb
+    - mips64-elf-gdb
+    - mips64-linux-gnu-gdb
+    - mips64el-linux-gnu-gdb
+    - or1k-elf-gdb
+    - powerpc64-linux-gnu-gdb
+    - ppc64le-elf-gdb
+    - riscv32-elf-gdb
+    - riscv32-none-elf-gdb
+    - riscv64-elf-gdb
+    - riscv64-linux-gnu-gdb
+    - sh2-elf-gdb
+    - x86-64-elf-gdb
+
+# unflavored
+- setname: gdb
+  name:
+    - devtoolset-10-gdb
+    - devtoolset-12-gdb
+    - devtoolset-6-gdb
+    - devtoolset-7-gdb
+    - devtoolset-8-gdb
+    - gcc-toolset-10-gdb
+    - gcc-toolset-11-gdb
+    - gcc-toolset-12-gdb
+    - gcc-toolset-13-gdb
+    - gcc-toolset-14-gdb
+    - gcc-toolset-9-gdb
+    - gdb11
