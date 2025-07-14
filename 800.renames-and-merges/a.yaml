@@ -192,7 +192,7 @@
 - { setname: android-studio,           name: [android-studio-beta,android-studio-canary,android-studio-dummy,android-studio-preview,android-studio-dev,androidstudio.beta,androidstudio.canary], weak_devel: true, nolegacy: true } # these could be devel, but they do often fall behind, and due to viral devel property be safe and ignore them
 - { setname: android-studio,           name: [android-studio-ide,android-studio-stable,androidstudio] }
 - { setname: android-studio-tools,     name: [android-clt, android-commandlinetools]}
-- { setname: android-tools,            name: adb, ruleset: openbsd }
+- { setname: android-tools,            name: adb, addflavor: true }
 - { setname: android-tools,            namepat: "android-tools-[^-]+", ruleset: [freebsd,pkgsrc] }
 - { setname: android-tools,            name: [android-platform-system-core, android-platform-system-extras], addflavor: true }
 - { setname: android-tools,            name: [platformtools, android-platform-tools-latest,android-platform-tools] }
