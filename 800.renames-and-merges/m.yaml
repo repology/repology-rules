@@ -242,7 +242,10 @@
 - { setname: miniserve,                name: "rust:miniserve" }
 - { setname: miniupnpc,                name: "python:miniupnpc", addflavor: python }
 - { setname: miniupnpc,                name: miniupnpc16 }
-- { setname: minivmac,                 namepat: "minivmac-(.*)", addflavor: $1 }
+- { setname: minivmac,                 name: mini-vmac }
+- { setname: minivmac,                 name: [minivmac-devel, minivmac-beta], weak_devel: true, nolegacy: true }
+- { setname: minivmac,                 name: [$0-128k, $0-512k, $0-512ke, $0-plus, $0-se, $0-sefdhd, $0-classic, $0-custom, $0-ii, $0ii, $0-m128k], addflavor: true }
+- { setname: minivmac,                 name: [$0-128k-devel, $0-512k-devel, $0-512ke-devel, $0-plus-devel, $0-se-devel, $0-sefdhd-devel, $0-classic-devel, $0-custom-devel, $0-ii-devel], addflavor: true, weak_devel: true, nolegacy: true }
 - { setname: minixml,                  name: libmxml }
 - { setname: minizincide,              name: minizinc-ide }
 - { setname: minizip,                  name: libminizip }
