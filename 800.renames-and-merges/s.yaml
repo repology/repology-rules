@@ -170,6 +170,7 @@
 - { setname: sidef,                    name: "perl:sidef" }
 - { setname: sidplay,                  namepat: "sidplay[0-9]+" }
 - { setname: sidplay,                  name: sidplay-base, addflavor: true }
+- { setname: sieve,                    name: [sieve-app, sieve-editor-gui, thunderbird-sieve] }
 - { setname: signal-desktop,           name: signal-desktop-beta, weak_devel: true, nolegacy: true }
 - { setname: signond,                  name: signon } # XXX: problem
 - { setname: signond,                  name: [signon-qt5, signon-qt6], addflavor: true } # XXX: problem
