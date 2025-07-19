@@ -327,8 +327,6 @@
 - { setname: gnugo,                    name: "emacs:gnugo", addflavor: emacs } # bundled
 - { setname: gnumeric,                 name: gnumeric-minimal, addflavor: true }
 - { setname: gnumpc,                   name: [mpc1,mpclib,mpclib3,mpcomplex,libmpc3,compat-libmpc0,mpc-library] }
-- { setname: gnunet,                   name: [gnunet-fuse,gnunet-gtk,gnunet-qt], addflavor: true }
-- { setname: gnunet,                   name: gnunet-svn, ignore: true }
 - { setname: gnupg,                    name: [gpg-agent,gnupg-clavator,gnupg-large-rsa,gnupg-largekeys,gnupg-large-secmem,gnupg-modern,gnupg-scdaemon-shared-access], addflavor: true }
 - { setname: gnupg,                    namepat: "(gnupg|gpg)[0-9._-]*" }
 - { setname: gnupg,                    name: [gnupg-stable,gnupg1compat]  }
