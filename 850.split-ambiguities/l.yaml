@@ -33,8 +33,7 @@
 - { name: legit, addflag: unclassified }
 
 - { name: lemon, wwwpart: lemon.cs.elte.hu, setname: coin-or-lemon }
-- { name: lemon, wwwpart: hwaci, setname: lemon-lalr1 }
-- { name: lemon, wwwpart: sqlite, setname: lemon-lalr1-sqlite }
+- { name: lemon, wwwpart: [hwaci,sqlite], setname: lemon-parser-generator }
 - { name: lemon, addflag: unclassified }
 
 - { name: lens, wwwpart: k8slens, setname: lens-kubernetes }
