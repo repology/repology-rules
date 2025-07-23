@@ -152,6 +152,8 @@
 - { name: amarok,                                                    ruleset: freebsd,     untrusted: true }
 - { name: amass,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: amaya,                       ver: "11.4.7",                                      devel: true } # there's a tag, but no official release
+- { name: amber-lang,                                                                      incorrect: true } # all versions have alpha suffix bullshit
+- { name: amber-lang,                  verpat: ".*a.*",                                    devel: true, incorrect: false }
 - { name: amdvlk,                      verpat:  "[0-9]+\\.[0-9]+\\.[0-9]+",                incorrect: true } # xxxx.Qy.z
 - { name: amiwm,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: amiwm,                       ver: "0.21.2",                                      incorrect: true } # it's 0.21pl2; the projects is dead since 2010, so I see no need to bother with pattern rule
