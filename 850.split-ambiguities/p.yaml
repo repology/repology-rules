@@ -288,6 +288,10 @@
 - { name: portmaster, wwwpart: safing, setname: portmaster-firewall }
 - { name: portmaster, addflag: unclassified }
 
+- { name: portunus, wwwpart: andrei-pavel, setname: $0-package-manager }
+- { name: portunus, wwwpart: majewsky, setname: $0-user-group-manager }
+- { name: portunus, addflag: unclassified }
+
 - { name: postal, wwwpart: runningwithscissors, setname: postal-game }
 - { name: postal, wwwpart: coker, setname: postal-benchmark }
 - { name: postal, addflag: unclassified }
