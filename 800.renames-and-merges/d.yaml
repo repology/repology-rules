@@ -25,7 +25,9 @@
 - { setname: dave-gnukem,              name: [gnukem, davegnukem] }
 - { setname: davis,                    name: rust:$0 }
 - { setname: davs2,                    name: libdavs2 }
-- { setname: db,                       name: [berkeley-db, compat-db] }
+- { setname: db,                       name: [berkeley-db, compat-db, bdb, bdb33] }
+- { setname: db,                       name: [java-db3, bdb-java, bdb33-java, libdb-java-4-8, db46-java, db48-java, java-berkeleydb], addflavor: java }
+- { setname: db,                       name: db48-tcl, addflavor: tcl }
 - { setname: db,                       namepat: "(?:lib)?db[0-9.-]*" }
 - { setname: dbdesigner,               name: dbdesigner4 }
 - { setname: dbench,                   name: dbench4 }
