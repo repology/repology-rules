@@ -94,12 +94,11 @@
 - { name: ghc,                         verpat: "[0-9]+\\.[0-9]+\\.20[0-9]{6}",             incorrect: true } # nix garbage
 - { name: ghex,                        ver: "4.0.0_alpha",                                 incorrect: true } # 4.alpha.1 in fact
 - { name: ghex,                                                      ruleset: gentoo,      untrusted: true } # accused of fake 4.0.0_alpha
-- { name: ghostscript,                 ver: "9.28",                  ruleset: sisyphus,    incorrect: true }
 - { name: ghostscript,                                               ruleset: sisyphus,    untrusted: true } # accused of fake 9.28
-- { name: ghostscript,                 ver: "9.52.1",                ruleset: debuntu,     incorrect: true }
 - { name: ghostscript,                                               ruleset: debuntu,     untrusted: true } # accused of fake 9.52.1
-- { name: ghostscript,                 ver: "9.56.0",                ruleset: openmandriva, incorrect: true }
 - { name: ghostscript,                                               ruleset: openmandriva, untrusted: true } # accused of fake 9.56.0
+- { name: ghostscript,                 ver: "10.05.2",               ruleset: pisi,        incorrect: true }
+- { name: ghostscript,                                               ruleset: pisi,        untrusted: true } # accused of fake 10.05.2
 - { name: ghostty,                     ver: "1.1.4",                 ruleset: [sisyphus,openmandriva], incorrect: true }
 - { name: ghostty,                                                   ruleset: [sisyphus,openmandriva], untrusted: true } # accused of fake 1.1.4
 - { name: ghostwriter,                                               ruleset: kaos,        untrusted: true } # accused of fake 22.11.70
