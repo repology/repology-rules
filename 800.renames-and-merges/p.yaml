@@ -388,6 +388,8 @@
 - { setname: pt-pivotal-tracker-client, name: "ruby:pt" }
 - { setname: pt2-clone,                name: protracker } # name used by upstream
 - { setname: public-suffix-list,       name: [publicsuffix,publicsuffix-list] }
+- { setname: pug,                      name: [pug-hook, terraform-pug] } # different projects, split in 850
+- { setname: pug,                      name: pug-hook-noupgrade, addflavor: noupgrade }
 - { setname: pugixml,                  name: libpugixml }
 - { setname: pugixml,                  name: pugixml-shared, addflavor: shared }
 - { setname: pulseaudio,               name: [libpulseaudio,libpulse,libpulse-nosystemd], addflavor: true }
