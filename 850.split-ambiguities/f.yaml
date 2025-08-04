@@ -3,6 +3,11 @@
 - { name: fail, wwwpart: [chneukirchen,leahneukirchen], setname: fail-crash }
 - { name: fail, addflag: unclassified }
 
+- { name: fake, wwwpart: fake.build, setname: fake-fsharp-make }
+- { name: fake, wwwpart: fakeapp.com, setname: fake-browser }
+- { name: fake, wwwpart: horms.net, setname: fake-backup }
+- { name: fake, addflag: unclassified }
+
 - { name: falco, wwwpart: smithlabcode, setname: falco-fastqc }
 - { name: falco, wwwpart: ysugimoto, setname: falco-vcl-parser }
 - { name: falco, wwwpart: [falco.org,falcosecurity], setname: falco-cloud-native-security }
