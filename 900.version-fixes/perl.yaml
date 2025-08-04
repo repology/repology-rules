@@ -148,6 +148,8 @@
 - { name: "perl:time-local",           verge: "1.1000", verlt: "1.3500",                   sink: true } # latest is 1.35
 - { name: "perl:timedate",             verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
 - { name: "perl:tree-simple-view",     verpat: "0\\.[0-9]{3}.*",                           incorrect: true } # it's 0.19, not 0.190.0 or 0.190000
+- { name: "perl:ups-nut",              ver: "2.8.3",                 ruleset: pkgsrc,      incorrect: true }
+- { name: "perl:ups-nut",                                            ruleset: pkgsrc,      untrusted: true } # accused of fake 2.8.3
 - { name: "perl:urpm",                                                                     ignore: false } # seem to not be mangled
 - { name: "perl:uuid-tiny",            releq: "1", vergt: "1.30",                          incorrect: true }
 - { name: "perl:xml-namespacesupport", verpat: ".*\\+.*",                                  devel: true } # AOSC devel
