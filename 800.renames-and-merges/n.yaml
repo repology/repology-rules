@@ -172,6 +172,7 @@
 - { setname: nushell,                  name: rust:nu }
 - { setname: nushell,                  name: nushell-stable }
 - { setname: nut,                      name: [network-ups-tools, health-nut] } # different projects, split in 850
+- { setname: nut,                      name: nut-devel, weak_devel: true, nolegacy: true }
 - { setname: nut,                      name: [ups-nut, ups-nut-cgi, ups-nut-snmp, ups-nut-usb], addflavor: true }
 - { setname: nv-codec-headers,         name: [ffnvcodec,ffnvcodec-headers] }
 - { setname: nv-codec-headers,         name: ffnvcodec-headers8.1 }
