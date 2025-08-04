@@ -137,7 +137,7 @@
 - { setname: cfengine,                 namepat: cfengine-devel, weak_devel: true, nolegacy: true }
 - { setname: cfengine-masterfiles,     namepat: "cfengine-masterfiles[0-9]+" }
 - { setname: cfengine-masterfiles,     namepat: cfengine-masterfiles-devel, weak_devel: true, nolegacy: true }
-- { setname: cfitsio,                  name: cfitsio3 }
+- { setname: cfitsio,                  name: [cfitsio3, cfitsio9, libcfitsio] }
 - { setname: cflow,                    name: [bsdcflow,gcflow,gnucflow] } # split later
 - { setname: cfonts,                   name: rust:$0 }
 - { setname: cfr,                      name: cfr-decompiler }
