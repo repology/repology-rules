@@ -170,6 +170,9 @@
 - { name: nut, wwwpart: lanl, setname: nut-neutrino-transport }
 - { name: nut, addflag: unclassified }
 
+- { name: nut-monitor, wwwpart: https://networkupstools.org/, setname: network-ups-tools, addflavor: monitor }
+- { name: nut-monitor, addflag: unclassified }
+
 - { name: nux, wwwpart: launchpad, setname: nux-opengl-toolkit }
 - { name: nux, wwwpart: lbl, setname: "java:nux" }
 - { name: nux, wwwpart: NuxPackage, setname: nux-package-manager }
