@@ -285,6 +285,8 @@
 - { name: postgresql,                  verpat: ".*[ab].*",                                 devel: true }
 - { name: postgresql,                  ver: "15.0",                  ruleset: aur,         incorrect: true }
 - { name: postgresql,                                                ruleset: aur,         untrusted: true } # accused of fake 15.0
+- { name: postgresql,                  ver: "18.0",                  ruleset: fedora,      incorrect: true }
+- { name: postgresql,                                                ruleset: fedora,      untrusted: true } # accused of fake 18.0
 - { name: postgresql-autodoc,          verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: postgresql-jdbc,             verpat: "[0-9]{4}.*",                               incorrect: true } # pld garbage
 - { name: pound,                       verpat: ".*[0-9][a-z]",                             devel: true }
