@@ -52,6 +52,8 @@
 - { name: wezterm,                                                   ruleset: freebsd,     untrusted: true } # accused of fake 20250213.133349
 - { name: wezterm,                     releq: "20250307",            ruleset: pkgsrc,      incorrect: true }
 - { name: wezterm,                                                   ruleset: pkgsrc,      untrusted: true } # accused of fake 20250307.120843
+- { name: wezterm,                     releq: "20241015",            ruleset: macports,    incorrect: true }
+- { name: wezterm,                                                   ruleset: macports,    untrusted: true } # accused of fake 20241015-000000-9ddca7bde
 - { name: wf-config,                   releq: "0.8.0",               ruleset: bioarch,     incorrect: true }
 - { name: wf-config,                                                 ruleset: bioarch,     untrusted: true } # accused of fake 0.8.0.20230523.08480
 - { name: wf-shell,                    releq: "0.8.0",               ruleset: bioarch,     incorrect: true }
