@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
+- { name: 0ad,                                                                             devel: false } # all versions are alpha bullshit
 - { name: 2048-in-terminal,                                                                noscheme: true } # https://github.com/alewmoose/2048-in-terminal
 - { name: 2048.c,                      verge: "2000", verlt: "2024",                       sink: true } # 1.0.1 from 2024.05.09
 - { name: 2048.c,                      verpat: "20[0-9]{2}.*",                             incorrect: true } # 1.0.1 from 2024.05.09
