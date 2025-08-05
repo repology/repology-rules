@@ -369,6 +369,8 @@
 - { name: cryptodev-linux,             verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: csmith,                      ver: "2.4.0",                 ruleset: fedora,      incorrect: true }
 - { name: csmith,                                                    ruleset: fedora,      untrusted: true } # accused of fake 2.4.0
+- { name: csmith,                      ver: "2.3.0.79",              ruleset: freebsd,     incorrect: true }
+- { name: csmith,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 2.3.0.79
 - { name: csound,                      ver: "7.00.0",                ruleset: debuntu,     incorrect: true }
 - { name: csound,                                                    ruleset: debuntu,     untrusted: true } # accused of fake 7.00.0
 - { name: cssed,                       ver: "0.4.1",                 ruleset: sisyphus,    incorrect: true }
