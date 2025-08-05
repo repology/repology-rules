@@ -61,6 +61,8 @@
 - { name: scour,                       ver: "038.1",                                       incorrect: true }
 - { name: scour,                                                     ruleset: ataraxia,    untrusted: true } # accused if fake 038.1
 - { name: scponly,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: screen,                      ver: "5.0.1.2",               ruleset: openbsd,     incorrect: true }
+- { name: screen,                                                    ruleset: openbsd,     untrusted: true } # accused of fake 5.0.1.2
 - { name: screenfetch,                 verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: screenfetch,                 verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: screengen,                   ver: "1.10",                                        devel: true } # https://github.com/OlegKochkin/screengen/blob/master/src/build_number.h -> no tags, but current devel version
