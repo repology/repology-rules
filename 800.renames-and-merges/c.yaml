@@ -346,6 +346,7 @@
 - { setname: cppunit,                  name: libcppunit }
 - { setname: cppzmq,                   name: [cppzmq-devel, libzeromq-cpp-devel], weak_devel: true, nolegacy: true } # not entirely sure whether -devel means unstable package or package for development
 - { setname: cpr,                      name: libcpr }
+- { setname: cproxy,                   name: rust:$0 }
 - { setname: cq-editor,                name: python:$0 }
 - { setname: cqrlog,                   name: [cqrlog-gtk2,cqrlog-qt4,cqrlog-source], addflavor: true }
 - { setname: cracklib,                 name: cracklib2 }
