@@ -271,6 +271,7 @@ flags = [
     'preserve_case',
     'preserve_underscore',
     'qt5_component',
+    'set_kdeframeworks',
     'set_kdeplasma',
     'sdl2',
     'sdl3',

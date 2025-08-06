@@ -73,3 +73,80 @@
     - systemsettings
     - wacomtablet
     - xdg-desktop-portal-kde
+
+# XXX: use latest version!
+# curl -s 'https://download.kde.org/stable/frameworks/6.16/' | sed -ne 's|.*>\([^<]*\)-[0-9]*\.[0-9]*\.[0-9]*\.tar\.xz\.sig.*|    - \1| p'
+- addflag: set_kdeframeworks
+  name:
+    - attica
+    - baloo
+    - bluez-qt
+    - breeze-icons
+    - extra-cmake-modules
+    - frameworkintegration
+    - kapidox
+    - karchive
+    - kauth
+    - kbookmarks
+    - kcalendarcore
+    - kcmutils
+    - kcodecs
+    - kcolorscheme
+    - kcompletion
+    - kconfig
+    - kconfigwidgets
+    - kcontacts
+    - kcoreaddons
+    - kcrash
+    - kdav
+    - kdbusaddons
+    - kdeclarative
+    - kded
+    - kdesu
+    - kdnssd
+    - kdoctools
+    - kfilemetadata
+    - kglobalaccel
+    - kguiaddons
+    - kholidays
+    - ki18n
+    - kiconthemes
+    - kidletime
+    - kimageformats
+    - kio
+    - kirigami
+    - kitemmodels
+    - kitemviews
+    - kjobwidgets
+    - knewstuff
+    - knotifications
+    - knotifyconfig
+    - kpackage
+    - kparts
+    - kpeople
+    - kplotting
+    - kpty
+    - kquickcharts
+    - krunner
+    - kservice
+    - kstatusnotifieritem
+    - ksvg
+    - ktexteditor
+    - ktexttemplate
+    - ktextwidgets
+    - kunitconversion
+    - kuserfeedback
+    - kwallet
+    - kwidgetsaddons
+    - kwindowsystem
+    - kxmlgui
+    - modemmanager-qt
+    - networkmanager-qt
+    - prison
+    - purpose
+    - qqc2-desktop-style
+    - solid
+    - sonnet
+    - syndication
+    - syntax-highlighting
+    - threadweaver
