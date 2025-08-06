@@ -4,5 +4,5 @@
 - { flag: set_kdeplasma,               verpat: "[12][0-9]\\..*",                           sink: true } # services moved to plasma such as print-manager
 - { flag: set_kdeplasma,               verlt: "6",                                         sink: true }
 
-- { flag: set_kdeframeworks,           verlt: "6.16",                ruleset: fedora,      incorrect: true }
+- { flag: set_kdeframeworks,           verlt: "6.17",                ruleset: fedora,      incorrect: true } # 6.17-rc1
 - { flag: set_kdeframeworks,                                         ruleset: fedora,      untrusted: true } # accused of fake 6.17
