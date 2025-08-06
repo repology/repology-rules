@@ -272,6 +272,7 @@ flags = [
     'preserve_underscore',
     'qt5_component',
     'set_kdeframeworks',
+    'set_kdegears',
     'set_kdeplasma',
     'sdl2',
     'sdl3',
