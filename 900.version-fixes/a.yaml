@@ -245,6 +245,7 @@
 - { name: aqualung,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: arcanist,                                                                        noscheme: true }
 - { name: arcem,                       verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: arcload,                                                                         noscheme: true } # abandonware with no clear scheme
 - { name: ardentryst,                  verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: arduino,                     ver: "0021",                                        ignore: true } # EPEL 6
 - { name: arduino-ctags,               verpat: "20[0-9]{6}",                               incorrect: true }
