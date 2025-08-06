@@ -14,10 +14,12 @@
 - { name: kajongg,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kalarm,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kalarmcal,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kalc,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kaldi,                                                                           noscheme: true }
 - { name: kalendar,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kalgebra,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kalibrate-hackrf,                                                                noscheme: true }
+- { name: kalm,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kalzium,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kamera,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kamoso,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -26,6 +28,7 @@
 - { name: kapidox,                                                   ruleset: openmandriva, untrusted: true } # accused of fake 5.65.0
 - { name: kapman,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kapptemplate,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kasts,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kate,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kate,                        ver: "25.08",                 ruleset: homebrew_casks, incorrect: true }
 - { name: kate,                                                      ruleset: homebrew_casks, untrusted: true } # accused of fake 25.08
@@ -62,6 +65,7 @@
 - { name: kde-common,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kde-dev-scripts,             verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kde-dev-utils,               verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: kde-inotify-survey,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdebugsettings,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kdeconnect,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kdeedu-data,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -104,6 +108,7 @@
 - { name: keybinder,                   verpat: "3\\..*",                                   incorrect: true }
 - { name: keyguard,                                                                        noscheme: true } # a mess: 1.11.0 (app version) vs. 1.11.0-20250324 (GH release) vs. 20250324 (tag)
 - { name: keynav,                      verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: keysmith,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kfilemetadata,               ver: "5.65.0a",                                     incorrect: true }
 - { name: kfilemetadata,                                             ruleset: debuntu,     untrusted: true } # accused of fake 5.65.0a
 - { name: kfind,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -115,7 +120,9 @@
 - { name: kgoldrunner,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kgpg,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kgraphviewer,                ver: "2.4.3a",                                      setver: "2.4.3" }
+- { name: kgraphviewer,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: khangman,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: khealthcertificate,          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: khelpcenter,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: khmer-sequencing,            verpat: ".*[ab].*",                                 devel: true }
 - { name: kholidays,                   verpat: "(4|15|16|17)\\..*",                        sink: true } # https://cgit.kde.org/kholidays.git/refs/tags
@@ -143,6 +150,7 @@
 - { name: kimap,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kio,                         ver: "5.65.0b",                                     incorrect: true }
 - { name: kio,                                                       ruleset: debuntu,     untrusted: true } # accused of fake 5.65.0b
+- { name: kio-admin,                   verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kio-extras,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kio-gdrive,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kio-zeroconf,                verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
@@ -156,6 +164,7 @@
 - { name: kiten,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kitinerary,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kitty,                       verpat: ".+20[0-9]{6}",                             snapshot: true }  # Funtoo adds a build date
+- { name: kjournald,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kjumpingcube,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kldap,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kleopatra,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
@@ -214,6 +223,7 @@
 - { name: kongress,                                                                        noscheme: true }
 - { name: konqueror,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: konquest,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: konsole,                     verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: kontact,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kontactinterface,            verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kontrast,                    verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
@@ -247,6 +257,7 @@
 - { name: krb5,                        ver: "1.21.1",                ruleset: pisi,        incorrect: true }
 - { name: krb5,                                                      ruleset: pisi,        untrusted: true } # accused of fake 1.21.1
 - { name: krdc,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: krecorder,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: krename,                     verpat: ".+20[0-9]{6}.*",                           snapshot: true }
 - { name: krename,                     ver: "5.0.60",                ruleset: [fedora,mageia], incorrect: true }
 - { name: krename,                                                   ruleset: [fedora,mageia], untrusted: true } # accused of fake 5.0.60
@@ -300,11 +311,13 @@
 - { name: ktp-kded-module,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ktp-send-file,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ktp-text-ui,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: ktrip,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: ktsuss,                      verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: ktuberling,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kturtle,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kubernetes,                  verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: kubrick,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kunifiedpush,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kvantum,                     ver: "0.10.9",                ruleset: sisyphus,    incorrect: true }
 - { name: kvantum,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 0.10.9
 - { name: kvirc,                       ver: "4.9.2",                                       incorrect: true } # pclos garbage
@@ -317,6 +330,8 @@
 - { name: kwalletmanager,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kwave,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kwayland-server,             verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: kweather,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kweathercore,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kweathercore,                ver: "21.05",                 ruleset: fedora,      incorrect: true }
 - { name: kweathercore,                                              ruleset: fedora,      untrusted: true } # accused of fake 21.05
 - { name: kwin,                        ver: "5.24.0a",               ruleset: ubuntu,      incorrect: true }

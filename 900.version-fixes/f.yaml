@@ -305,6 +305,7 @@
 - { name: fragrouter,                  ver: "1.7",                                         sink: true, vulnerable: true } # https://linuxsecurity.com/news/hackscracks/fragrouter-trojaned-anzencom-hacked
 - { name: frama-c,                     verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: frama-c,                     verge: "20000000", verlt: "20210721",               sink: true }
+- { name: francis,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: freac,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: free42-skins,                                                                    noscheme: true }
 - { name: freealut,                    verpat: ".+20[0-9]{6}",                             snapshot: true }

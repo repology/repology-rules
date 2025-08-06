@@ -47,6 +47,7 @@
 - { name: qlcplus,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 5.0.0
 - { name: qlipper,                     verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: qml-box2d,                                                                       noscheme: true }
+- { name: qmlkonsole,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: qoauth,                      ver: "2.0.1",                                       setver: "2.0.0" } # seem to be upstream misversion https://github.com/ayoy/qoauth/commit/fc4ff853c10f4bac99d1a1d8a36ca86c019f2ed2
 - { name: qoauth,                      verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: qogir-icon-theme,            verpat: "20[0-9]{6}",                               incorrect: true } # YYYY-MM-DD

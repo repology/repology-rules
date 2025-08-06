@@ -41,6 +41,7 @@
 - { name: markdownpart,                verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: marksman,                    verpat: "[0-9]{8}",                                 incorrect: true } # YYYY-MM-DD, not YYYYMMDD
 - { name: masscan,                     verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: massif-visualizer,           verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: massren,                     verpat: "20[0-9]{6}",                               ignore: true }
 - { name: master-pdf-editor,           ver: "4.3.89",                                      legacy: true } # last free version
 - { name: matcha-gtk-theme,            verpat: "20[0-9]{6}",                               incorrect: true } # 2021-08-23, not 20210823
@@ -107,6 +108,7 @@
 - { name: mercurial,                   ver: "6.3.0",                 ruleset: baulk,       incorrect: true }
 - { name: mercurial,                                                 ruleset: baulk,       untrusted: true } # accused of fake 6.3.0
 - { name: meritous,                    ver: "1.4",                                         incorrect: true } # was? an unofficial fork at https://gitorious.org/meritous, now dead
+- { name: merkuro,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mesa,                        verpat: "[^a-z]+",            ruleset: [fedora,mageia], ignore: true } # accused in ignoring rc suffix
 - { name: mesa,                        verpat: "[0-9]+\\.[0-9]+\\.0",                      devel: true } # .0 are devel releases, example: https://www.mesa3d.org/relnotes/17.2.0.html
 - { name: mesa,                        verpat: "[0-9]+\\.[0-9]+",                          incorrect: true } # siduction
@@ -131,6 +133,7 @@
 - { name: midori,                                                    ruleset: aosc,        untrusted: true }
 - { name: milkytracker,                verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: mimetex,                     verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: mimetreeparser,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mimikatz,                    verpat: ".*20[0-9]{6}",                             ignore: true } # BlackArch snap
 - { name: minbif,                      verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: mindforger,                  ver: "2.0.1",                 ruleset: windows,     ignore: true, disposable: true } # 2.0.0 misnamed as 2.0.1 for windows on sf https://sourceforge.net/projects/mindforger/files/2.0.0/
