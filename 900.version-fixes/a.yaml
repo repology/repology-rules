@@ -28,6 +28,7 @@
 - { name: abuse,                       ver: "0.9",                   ruleset: fedora,      incorrect: true }
 - { name: abuse,                                                     ruleset: fedora,      untrusted: true }
 - { name: accerciser,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: accessibility-inspector,     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: accessx,                     verpat: "[0-9]{4}",                                 incorrect: true } # 0.951, not 0951
 - { name: accessx,                     ver: "7.5",                   ruleset: openindiana, incorrect: true }
 - { name: accessx,                                                   ruleset: openindiana, untrusted: true } # accused of fake 7.5
@@ -112,6 +113,7 @@
 - { name: akonadi-mime,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: akonadi-notes,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: akonadi-search,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: akonadi-server,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: akonadiconsole,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: akregator,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: alac-macosforge,                                                                 noscheme: true }

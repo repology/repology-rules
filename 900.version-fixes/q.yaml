@@ -61,6 +61,7 @@
 - { name: qpdfview,                    verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\..80",           incorrect: true } # kaos fakes
 - { name: qpdfview,                                                  ruleset: kaos,        untrusted: true } # accused of fake 0.4.16.80
 - { name: qps,                         verpat: "20[0-9]{6}.*",                             snapshot: true }
+- { name: qrca,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: qrfcview,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: qrfcview,                    ver: "1.0.0",                 ruleset: openbsd,     successor: true } # uses unofficial fork (dead as well)
 - { name: qsstv,                       ver: "9.5.11",                ruleset: mageia,      incorrect: true }
