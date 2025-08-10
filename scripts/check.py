@@ -363,6 +363,9 @@ features_by_pattern = {
     r'.*800.renames-and-merges/(.|apmod|emacs|ffext|gimpplugins|haskell|lib|libretro|lua|lv2|nextcloud|node|perl|php|python|rhytmbox|texlive|vim|fonts/.)\.yaml': {
         'sort_field': 'setname',
     },
+    r'.*840.split-misnamed.yaml': {
+        'sort_field': 'name',
+    },
     r'.*850.split-ambiguities/[^cdh]\.yaml': {
         'sort_field': 'name',
     },
