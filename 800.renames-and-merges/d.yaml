@@ -43,6 +43,7 @@
 - { setname: dbus-sharp-glib,          namepat: "dbus-sharp-glib[0-9.-]+" }
 - { setname: dbus-sharp-glib,          name: [dbus-sharp-glib-legacy, dotnet-dbus-sharp-glib] }
 - { setname: dbus-sharp-glib,          name: dbus-sharp-lib, disposable: true } # aosc
+- { setname: dcadec,                   name: lib$0 }
 - { setname: dcc,                      name: dcc-dccd }
 - { setname: dcd,                      name: [dcd-client, dcd-server], addflavor: true }
 - { setname: dcmtk,                    namepat: "(?:lib)?dcmtk[0-9]*" }
