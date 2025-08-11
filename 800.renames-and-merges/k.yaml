@@ -22,7 +22,6 @@
 - { setname: kde-cdemu,                name: [kcdemu,kde-cdemu-manager,kde-cdemu-manager-kf5] }
 - { setname: kde-i18n,                 namepat: "kde-(i18n|l10n)-.*" }
 - { setname: kde4-l10n,                namepat: "kde4-l10n-.*", ruleset: pkgsrc }
-- { setname: kdeconnect,               name: kdeconnect-kde }
 - { setname: kdeconnect,               name: kde-connect } # XXX: problem
 - { setname: kdeconnect,               name: kdeconnect-bluetooth, addflavor: true }
 - { setname: kdegraphics-mobipocket,   name: mobipocket }

@@ -152,7 +152,7 @@
     - threadweaver
 
 # XXX: use latest version!
-# curl -s https://download.kde.org/stable/release-service/25.04.3/src/ | sed -ne 's|.*>\([^<]*\)-[0-9]*\.[0-9]*\.[0-9]*\.tar\.xz\.sig.*|    - \1| p' | sed -e 's|bomber|kde-bomber|; s|dragon|dragon-player|'
+# curl -s https://download.kde.org/stable/release-service/25.04.3/src/ | sed -ne 's|.*>\([^<]*\)-[0-9]*\.[0-9]*\.[0-9]*\.tar\.xz\.sig.*|    - \1| p' | sed -e 's|bomber|kde-bomber|; s|dragon|dragon-player|; s|dolphin|dolphin-fm|'
 - addflag: set_kdegears
   name:
     - accessibility-inspector
@@ -183,7 +183,7 @@
     - cantor
     - cervisia
     - colord-kde
-    - dolphin
+    - dolphin-fm
     - dolphin-plugins
     - dragon-player
     - elisa
