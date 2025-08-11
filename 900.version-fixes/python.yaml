@@ -194,6 +194,7 @@
 - { name: "python:semanticversion",    verge: "2",                                         incorrect: true } # solus, void - fake python:semantic-version
 - { name: "python:setupdocs",          ver: "1.0.6",                 ruleset: sisyphus,    incorrect: true }
 - { name: "python:setupdocs",                                        ruleset: sisyphus,    untrusted: true } # accused of fake 1.0.6
+- { name: "python:setuptools-scm",     verge: "9", verle: "9.0.3",                         sink: true } # yanked
 - { name: "python:shiboken",           ver: "2.0.0",                 ruleset: kaos,        incorrect: true }
 - { name: "python:simpleparse",        ver: "3.0.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: "python:simpleparse",                                      ruleset: sisyphus,    untrusted: true } # accused of fake 3.0.0
