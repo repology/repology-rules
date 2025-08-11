@@ -1,8 +1,12 @@
 # vim: tabstop=30 expandtab softtabstop=30 nomodeline
 
+- { flag: set_kdeframeworks,           verlt: "6.17",                ruleset: fedora,      incorrect: true } # 6.17-rc1
+- { flag: set_kdeframeworks,                                         ruleset: fedora,      untrusted: true } # accused of fake 6.17
+
+- { flag: set_kdegears,                verlt: "25.08.0",             ruleset: fedora,      incorrect: true } # latest 25.07.90
+- { flag: set_kdegears,                                              ruleset: fedora,      untrusted: true } # accused of fake 25.08.0
+
 - { flag: set_kdeplasma,               verpat: "[0-9]+\\.[0-9]+\\.9[0-9].*",               devel: true }
 - { flag: set_kdeplasma,               verpat: "[12][0-9]\\..*",                           sink: true } # services moved to plasma such as print-manager
 - { flag: set_kdeplasma,               verlt: "6",                                         sink: true }
-
-- { flag: set_kdeframeworks,           verlt: "6.17",                ruleset: fedora,      incorrect: true } # 6.17-rc1
-- { flag: set_kdeframeworks,                                         ruleset: fedora,      untrusted: true } # accused of fake 6.17
+- { flag: set_kdeplasma,                                             ruleset: fedora,      untrusted: true } # accused of faking versions for frameworks and gears
