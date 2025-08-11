@@ -122,6 +122,8 @@
 - { name: rkward,                      ver: "0.8.1.1",               ruleset: opensuse,    incorrect: true }
 - { name: rkward,                                                    ruleset: opensuse,    untrusted: true } # accused of fake 0.8.1.1
 - { name: rlottie,                                                                         noscheme: true } # https://github.com/Samsung/rlottie/releases
+- { name: rman,                        ver: "3.3",                   ruleset: os4depot,    incorrect: true }
+- { name: rman,                                                      ruleset: os4depot,    untrusted: true } # accused of fake 3.3
 - { name: rmlint,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: rnnoise-xiph,                ver: "1.79",                                        sink: true, incorrect: true }
 - { name: rnnoise-xiph,                verpat: "0\\.4\\.1.*",                              sink: true, incorrect: true }
