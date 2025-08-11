@@ -139,6 +139,8 @@
 - { name: openshot,                    ver: "2.5.2",                 ruleset: [sisyphus,deb_multimedia], incorrect: true } # probably a misrelease
 - { name: opensmtpd,                                                                       p_is_patch: true }
 - { name: opensmtpd-extras,            verge: "200000000000", verlt: "201811070000",       sink: true } # 6.4.0 from 07 nov 2018
+- { name: opensph,                     ver: "0.4.3",                 ruleset: aur,         incorrect: true }
+- { name: opensph,                                                   ruleset: aur,         untrusted: true } # accused of fake 0.4.3
 - { name: openssh,                     verpat: "([0-9]+\\.[0-9]+)\\.([0-9]+)",             setver: "$1p$2" } # pkgrc: it's X.YpZ!
 - { name: openssh,                     verpat: "[0-9]+\\.[0-9]+",                          incorrect: true } # freshcode, pZ part missing
 - { name: openssh,                     verpat: "20[0-9-]{6}.*",                            snapshot: true } # scoop
