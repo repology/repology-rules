@@ -257,6 +257,10 @@
 - { name: cluster, wwwpart: mdehoon, setname: cluster-k-means }
 - { name: cluster, addflag: unclassified }
 
+- { name: coda, wwwpart: coda.cs.cmu.edu, setname: coda-filesystem }
+- { name: coda, wwwpart: stcorp, setname: coda-common-data-access }
+- { name: coda, addflag: unclassified }
+
 - { name: codex, wwwpart: openai, setname: openai-codex }
 - { name: codex, wwwpart: [jcv8000, codexnotes], setname: codex-notes }
 - { name: codex, addflag: unclassified }
