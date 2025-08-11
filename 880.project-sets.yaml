@@ -152,7 +152,7 @@
     - threadweaver
 
 # XXX: use latest version!
-# curl -s https://download.kde.org/stable/release-service/25.04.3/src/ | sed -ne 's|.*>\([^<]*\)-[0-9]*\.[0-9]*\.[0-9]*\.tar\.xz\.sig.*|    - \1| p'
+# curl -s https://download.kde.org/stable/release-service/25.04.3/src/ | sed -ne 's|.*>\([^<]*\)-[0-9]*\.[0-9]*\.[0-9]*\.tar\.xz\.sig.*|    - \1| p' | sed -e 's|bomber|kde-bomber|; s|dragon|dragon-player|'
 - addflag: set_kdegears
   name:
     - accessibility-inspector
@@ -176,7 +176,6 @@
     - audiotube
     - baloo-widgets
     - blinken
-    - bomber
     - bovo
     - calendarsupport
     - calindori
@@ -186,7 +185,7 @@
     - colord-kde
     - dolphin
     - dolphin-plugins
-    - dragon
+    - dragon-player
     - elisa
     - eventviews
     - falkon
@@ -233,6 +232,7 @@
     - kclock
     - kcolorchooser
     - kcron
+    - kde-bomber
     - kde-dev-scripts
     - kde-dev-utils
     - kde-inotify-survey
