@@ -153,6 +153,7 @@
 - { setname: nspr,                     name: [mozilla-nspr,libnspr] }
 - { setname: nss,                      name: [mozilla-nss,libnss] }
 - { setname: nss,                      name: [$0-util, $0-softokn, $0-certs, $0-rapid], addflavor: true }
+- { setname: nss-db,                   name: [nssdb, libnss-db] }
 - { setname: nss-ldap,                 name: libnss-ldap }
 - { setname: nss-pam-ldapd,            name: nss-pam-ldapd-sasl, addflavor: true }
 - { setname: ntfs-3g,                  name: ["fusefs:ntfs","fusefs:ntfs-3g",ntfs-3g-fuse,ntfs-3g-ntfsprogs,ntfsprogs,ntfs3g,libntfs-3g,libntfs] }
