@@ -415,6 +415,9 @@
 - { name: "python:exif", wwwpart: exif-py, setname: "python:exifread" } # XXX: problem
 - { name: "python:exif", addflag: unclassified }
 
+- { name: "python:gnuplot", sourceforge: gnuplot-py, setname: gnuplot-py }
+- { name: "python:gnuplot", addflag: unclassified }
+
 - { name: "python:keystone", wwwpart: openstack, setname: openstack-keystone }
 - { name: "python:keystone", wwwpart: keystone-engine, setname: "python:keystone-engine" }
 
