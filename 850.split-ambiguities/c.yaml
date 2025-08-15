@@ -105,8 +105,9 @@
 
 - { name: cde,                         setname: cdesktopenv, wwwpart: cdesktopenv } # desktop env. vs packaging tool
 
-- { name: cdf3,                        setname: cdf                       } # Common Data Format lib; XXX: move to 800?
-- { name: cdf, verpat: "0.*",          setname: cdf-df                    } # split out colorized df
+- { name: cdf, wwwpart: novel, setname: cdf-df }
+- { name: cdf, wwwpart: nasa, setname: cdf-common-dafa-format }
+- { name: cdf, addflag: unclassified }
 
 - { name: ce, wwwpart: chet, setname: ce-chets-editor }
 - { name: ce, wwwpart: sdsc, setname: ce-combinatorial-extension }
