@@ -366,7 +366,7 @@ features_by_pattern = {
     r'.*840\.split-misnamed\.yaml': {
         'sort_field': 'name',
     },
-    r'.*850\.split-ambiguities/[^h]\.yaml': {
+    r'.*850\.split-ambiguities/.*\.yaml': {
         'sort_field': 'name',
     },
     r'.*900\.version-fixes/.*\.yaml': {
