@@ -225,21 +225,44 @@
 - { name: citron, wwwpart: grtcdr, setname: citron-notifications }
 - { name: citron, addflag: unclassified }
 
-- { name: clementine,                  setname: clementine-player                            } # clementine player vs. window manager
+- { name: ck, wwwpart: concurrencykit, setname: concurrencykit }
+- { name: ck, wwwpart: mauricioaniche, setname: ck-java-code-metrics }
+- { name: ck, addflag: unclassified }
+
+- { name: clac, sourceforge: clac, setname: clac-mborg }
+- { name: clac, wwwpart: soveran, setname: clac-soveran }
+- { name: clac, addflag: unclassified }
 
 - { name: clap, wwwpart: [cleveraudio,free-audio], setname: clap-cleveraudio }
 - { name: clap, wwwpart: vim-clap, setname: vim:vim-clap }
 # also misnamed python:clap-api
 - { name: clap, addflag: unclassified }
 
+- { name: clean, wwwpart: clean.cs, setname: clean-lang }
+- { name: clean, sourceforge: clean, setname: clean-file-remover }
+- { name: clean, addflag: unclassified }
+
+- { name: clementine,                  setname: clementine-player                            } # clementine player vs. window manager
+
+- { name: cli, wwwpart: github.com/cli/cli, setname: github-cli }
+- { name: cli, wwwpart: codesynthesis.com, setname: cli-codesynthesis }
+- { name: cli, wwwpart: daniele77, setname: cli-daniele77 }
+- { name: cli, addflag: unclassified }
+
+- { name: click, wwwpart: databricks, setname: click-kubernetes-cli }
+- { name: click, wwwpart: ubports, setname: click-packaging }
+# also unprefixed python:click
+- { name: click, addflag: unclassified }
+
+- { name: clink, wwwpart: [mridgers,chrisant996], setname: clink-cmd }
+- { name: clink, wwwpart: [free-electrons,bootlin.com], setname: clink-symlink }
+- { name: clink, wwwpart: Lurk, setname: clink-url-cleaner }
+- { name: clink, addflag: unclassified }
+
 - { name: clip, wwwpart: itk, setname: clip-compiler } # clip compiler vs the clip cli graph visualizer
 - { name: clip, wwwpart: [maui,kde], setname: maui-clip }
 - { name: clip, wwwpart: [asmuth,clip-lang], setname: clip-cli-charts }
 - { name: clip, addflag: unclassified }
-
-- { name: clippy, wwwpart: rust-clippy, setname: rust-clippy }
-- { name: clippy, wwwpart: frr, setname: frr, addflavor: clippy } # Standalone clippy tool built from FRR sources
-- { name: clippy, addflag: unclassified }
 
 - { name: clipper, wwwpart: [polyclipping,delphi], setname: polyclipping }
 - { name: clipper, wwwpart: cowtan, setname: clipper-crystallography }
@@ -247,16 +270,36 @@
 - { name: clipper, wwwpart: wincent, setname: clipper-macos-clipboard }
 - { name: clipper, addflag: unclassified }
 
+- { name: clippy, wwwpart: rust-clippy, setname: rust-clippy }
+- { name: clippy, wwwpart: frr, setname: frr, addflavor: clippy } # Standalone clippy tool built from FRR sources
+- { name: clippy, addflag: unclassified }
+
 - { name: clive, sourceforge: clive, setname: clive-media-extractor }
 - { name: clive, sourceforge: ljclive, setname: ljclive }
 - { name: clive, wwwpart: koki-develop, setname: clive-test-automation }
 - { name: clive, addflag: unclassified }
+
+- { name: clog, wwwpart: [clog-tool,clog-cli], setname: clog-changelog }
+- { name: clog, wwwpart: [tasktools,taskwarrior,gothenburgbitfactory], setname: clog-log-tail-utility }
+- { name: clog, wwwpart: webgroupmedia, setname: clog-c-logging-library }
+- { name: clog, addflag: unclassified }
 
 - { name: cluster, wwwpart: redhat, setname: cluster-redhat }
 - { name: cluster, wwwpart: cran, setname: "r:cluster" }
 - { name: cluster, wwwpart: biochem, setname: cluster-interacting-items }
 - { name: cluster, wwwpart: mdehoon, setname: cluster-k-means }
 - { name: cluster, addflag: unclassified }
+
+- { name: cm, wwwpart: esrlabs, setname: chipmunk-log-analysis } # XXX: problem
+- { name: cm, wwwpart: multiprecision, setname: cm-math }
+- { name: cm, addflag: unclassified }
+
+- { name: cmix, sourceforge: cmix, setname: cmix-mixer } # relic from 2002
+
+- { name: cmt, wwwpart: ladspa, setname: ladspa-cmt }
+- { name: cmt, wwwpart: cmtsite.net, setname: cmt-configuration-management }
+- { name: cmt, wwwpart: smallhadroncollider, setname: cmt-commit-messages }
+- { name: cmt, addflag: unclassified }
 
 - { name: coda, wwwpart: coda.cs.cmu.edu, setname: coda-filesystem }
 - { name: coda, wwwpart: stcorp, setname: coda-common-data-access }
@@ -271,6 +314,10 @@
 - { name: cog, wwwpart: krakoa, setname: cog-gnome-configurator }
 - { name: cog, addflag: unclassified }
 
+- { name: colo, wwwpart: aloso.github.io/colo/, setname: $0-color-management-tui }
+# also mips bootloader with dead upstream
+- { name: colo, addflag: unclassified }
+
 - { name: colorize, wwwpart: lonetwin, setname: colorize-lonetwin }
 - { name: colorize, wwwpart: refcnt, setname: colorize-refcnt }
 - { name: colorize, wwwpart: [raszi,solbu], setname: colorize-raszi }
@@ -279,9 +326,13 @@
 - { name: colorls, wwwpart: [athityakumar,rubygems], setname: ruby:colorls }
 - { name: colorls, addflag: unclassified }
 
-- { name: colo, wwwpart: aloso.github.io/colo/, setname: $0-color-management-tui }
-# also mips bootloader with dead upstream
-- { name: colo, addflag: unclassified }
+- { name: command-not-found, wwwpart: metti, setname: command-not-found-arch }
+- { name: command-not-found, wwwpart: kaniini, setname: command-not-found-kaniini }
+- { name: command-not-found, wwwpart: [jrabbit,haiku], setname: command-not-found-haiku }
+- { name: command-not-found, wwwpart: abf, setname: command-not-found-abf }
+- { name: command-not-found, wwwpart: AndrewAmmerlaan, setname: command-not-found-gentoo }
+- { name: command-not-found, wwwpart: termux, setname: command-not-found-termux }
+- { name: command-not-found, addflag: unclassified }
 
 - { name: compose, wwwpart: obspm.fr, setname: compose-astrophysics }
 - { name: compose, wwwpart: claui, setname: compose-unicode }
@@ -291,9 +342,38 @@
 - { name: composer, wwwpart: performous, setname: performous-composer }
 - { name: composer, addflag: unclassified }
 
+- { name: compton, wwwpart: yshui, setname: picom }
+
+- { name: conduit, wwwpart: conduit.io, setname: conduit-service-mesh }
+- { name: conduit, wwwpart: [conduit-project,gnome], setname: conduit-synchronization }
+- { name: conduit, wwwpart: llnl, setname: conduit-llnl } # Simplified Data Exchange for HPC Simulations
+- { name: conduit, wwwpart: [famedly,conduit.rs], setname: matrix-conduit }
+- { name: conduit, addflag: unclassified }
+
 - { name: conman, wwwpart: dun, setname: $0-console-manager }
 - { name: conman, wwwpart: teaperr, setname: $0-configuration-manager }
 - { name: conman, addflag: unclassified }
+
+- { name: connect, wwwpart: [gotoh,goto-san], setname: connect-proxy }
+- { name: connect, wwwpart: ubisoft, setname: ubisoft-connect }
+- { name: connect, addflag: unclassified }
+
+- { name: construct, wwwpart: construct.readthedocs.io, setname: python:construct } # XXX: problem
+- { name: construct, wwwpart: Thomas-de-Bock, setname: construct-assembler }
+- { name: construct, addflag: unclassified }
+
+- { name: contour, wwwpart: contour-terminal, setname: contour-terminal }
+- { name: contour, wwwpart: kde.org, setname: contour-kde }
+- { name: contour, addflag: unclassified }
+
+- { name: cops, wwwpart: seblucas, setname: cops-calibre-opds } # Calibre OPDS
+- { name: cops, wwwpart: fish2, setname: cops-secirity-tools } # Computer Oracle and Password System
+- { name: cops, addflag: unclassified }
+
+- { name: coral, wwwpart: caida, setname: coral-atm }
+- { name: coral, wwwpart: lmsalmel, setname: coral-seq }
+- { name: coral, wwwpart: mde.abo.fi, setname: coral-metamodelling-toolkit }
+- { name: coral, addflag: unclassified }
 
 - { name: core, wwwpart: coreemu, setname: coreemu }
 - { name: core, addflag: unclassified }
@@ -315,15 +395,56 @@
 - { name: countdown, wwwpart: lainsce, setname: $0-event-tracker }
 - { name: countdown, addflag: unclassified }
 
+- { name: cozy, wwwpart: cozy.io, setname: cozy-cloud }
+- { name: cozy, wwwpart: [geigi,cozy.sh], setname: cozy-audiobooks }
+- { name: cozy, addflag: unclassified }
+
+- { name: cpuid, wwwpart: etallen, setname: cpuid-etallen }
+- { name: cpuid, wwwpart: ka9q, setname: cpuid-ka9q }
+- { name: cpuid, wwwpart: tycho, setname: cpuid-tycho }
+- { name: cpuid, wwwpart: anrieff, setname: cpuid-anrieff }
+- { name: cpuid, addflag: unclassified }
+
+- { name: cpuinfo, wwwpart: dell, setname: dell-cpuinfo }
+
+# this one is messed up:
+# - http://cpulimit.sourceforge.net/ https://sourceforge.net/projects/cpulimit/files/cpulimit/cpulimit/ (1.0, 1.1 - year 2006)
+#   moved to https://github.com/opsengine/cpulimit (0.1, 0.2 - year 2015)
+# - http://limitcpu.sourceforge.net/download.php https://sourceforge.net/projects/limitcpu/files/limitcpu/ - 1.2+ - year 2017
+- { name: cpulimit, verlt: "1.0", setname: cpulimit0 }
+- { name: cpulimit, verle: "1.1", setname: cpulimit1 }
+- { name: cpulimit, setname: limitcpu }
+
+- { name: cpustat, wwwpart: uber, setname: cpustat-uber }
+- { name: cpustat, wwwpart: ColinIanKing, setname: cpustat-colinianking }
+- { name: cpustat, addflag: unclassified }
+
 - { name: cr, wwwpart: cfungos, setname: cr.h }
 - { name: cr, wwwpart: chart-releaser, setname: chart-releaser }
 - { name: cr, wwwpart: crengine, setname: coolreader }
 - { name: cr, addflag: unclassified }
 
+- { name: craft, wwwpart: fogleman, setname: craft-minecraft-clone }
+# also commercial project without clear explanation of what is it
+- { name: craft, addflag: unclassified }
+
+- { name: cram, wwwpart: llnl, setname: cram-mpi }
+- { name: cram, wwwpart: bitheap, setname: "python:cram" }
+- { name: cram, addflag: unclassified }
+
 - { name: crane, wwwpart: michaelsauter, setname: crane-docker-orchestration-tool }
 - { name: crane, wwwpart: go-containerregistry, setname: "go:containerregistry" }
 - { name: crane, wwwpart: ewilde, setname: crane-build-scripts-creator }
 - { name: crane, addflag: unclassified }
+
+- { name: crash, wwwpart: [redhat,crash-utility], setname: crash-redhat }
+- { name: crash, wwwpart: crashub, setname: crash-java }
+- { name: crash, addflag: unclassified }
+
+- { name: crawl, wwwpart: develz, setname: stone-soup }
+- { name: crawl, wwwpart: ale, setname: crawl-web-crawler-ale }
+- { name: crawl, wwwpart: provos, setname: crawl-web-crawler-provos }
+- { name: crawl, addflag: unclassified }
 
 - { name: creds, wwwpart: DanMcInerney, setname: creds-credential-sniffer }
 - { name: creds, wwwpart: ihebski, setname: creds-default-credentials }
@@ -354,127 +475,6 @@
 - { name: crystal, wwwpart: kde, setname: crystal-theme }
 - { name: crystal, addflag: unclassified }
 
-- { name: coral, wwwpart: caida, setname: coral-atm }
-- { name: coral, wwwpart: lmsalmel, setname: coral-seq }
-- { name: coral, wwwpart: mde.abo.fi, setname: coral-metamodelling-toolkit }
-- { name: coral, addflag: unclassified }
-
-- { name: ck, wwwpart: concurrencykit, setname: concurrencykit }
-- { name: ck, wwwpart: mauricioaniche, setname: ck-java-code-metrics }
-- { name: ck, addflag: unclassified }
-
-- { name: clac, sourceforge: clac, setname: clac-mborg }
-- { name: clac, wwwpart: soveran, setname: clac-soveran }
-- { name: clac, addflag: unclassified }
-
-- { name: clean, wwwpart: clean.cs, setname: clean-lang }
-- { name: clean, sourceforge: clean, setname: clean-file-remover }
-- { name: clean, addflag: unclassified }
-
-- { name: cli, wwwpart: github.com/cli/cli, setname: github-cli }
-- { name: cli, wwwpart: codesynthesis.com, setname: cli-codesynthesis }
-- { name: cli, wwwpart: daniele77, setname: cli-daniele77 }
-- { name: cli, addflag: unclassified }
-
-- { name: click, wwwpart: databricks, setname: click-kubernetes-cli }
-- { name: click, wwwpart: ubports, setname: click-packaging }
-# also unprefixed python:click
-- { name: click, addflag: unclassified }
-
-- { name: clink, wwwpart: [mridgers,chrisant996], setname: clink-cmd }
-- { name: clink, wwwpart: [free-electrons,bootlin.com], setname: clink-symlink }
-- { name: clink, wwwpart: Lurk, setname: clink-url-cleaner }
-- { name: clink, addflag: unclassified }
-
-- { name: clog, wwwpart: [clog-tool,clog-cli], setname: clog-changelog }
-- { name: clog, wwwpart: [tasktools,taskwarrior,gothenburgbitfactory], setname: clog-log-tail-utility }
-- { name: clog, wwwpart: webgroupmedia, setname: clog-c-logging-library }
-- { name: clog, addflag: unclassified }
-
-- { name: cm, wwwpart: esrlabs, setname: chipmunk-log-analysis } # XXX: problem
-- { name: cm, wwwpart: multiprecision, setname: cm-math }
-- { name: cm, addflag: unclassified }
-
-- { name: cmix, sourceforge: cmix, setname: cmix-mixer } # relic from 2002
-
-- { name: cmt, wwwpart: ladspa, setname: ladspa-cmt }
-- { name: cmt, wwwpart: cmtsite.net, setname: cmt-configuration-management }
-- { name: cmt, wwwpart: smallhadroncollider, setname: cmt-commit-messages }
-- { name: cmt, addflag: unclassified }
-
-- { name: conduit, wwwpart: conduit.io, setname: conduit-service-mesh }
-- { name: conduit, wwwpart: [conduit-project,gnome], setname: conduit-synchronization }
-- { name: conduit, wwwpart: llnl, setname: conduit-llnl } # Simplified Data Exchange for HPC Simulations
-- { name: conduit, wwwpart: [famedly,conduit.rs], setname: matrix-conduit }
-- { name: conduit, addflag: unclassified }
-
-- { name: connect, wwwpart: [gotoh,goto-san], setname: connect-proxy }
-- { name: connect, wwwpart: ubisoft, setname: ubisoft-connect }
-- { name: connect, addflag: unclassified }
-
-- { name: construct, wwwpart: construct.readthedocs.io, setname: python:construct } # XXX: problem
-- { name: construct, wwwpart: Thomas-de-Bock, setname: construct-assembler }
-- { name: construct, addflag: unclassified }
-
-- { name: contour, wwwpart: contour-terminal, setname: contour-terminal }
-- { name: contour, wwwpart: kde.org, setname: contour-kde }
-- { name: contour, addflag: unclassified }
-
-- { name: cops, wwwpart: seblucas, setname: cops-calibre-opds } # Calibre OPDS
-- { name: cops, wwwpart: fish2, setname: cops-secirity-tools } # Computer Oracle and Password System
-- { name: cops, addflag: unclassified }
-
-- { name: cozy, wwwpart: cozy.io, setname: cozy-cloud }
-- { name: cozy, wwwpart: [geigi,cozy.sh], setname: cozy-audiobooks }
-- { name: cozy, addflag: unclassified }
-
-- { name: command-not-found, wwwpart: metti, setname: command-not-found-arch }
-- { name: command-not-found, wwwpart: kaniini, setname: command-not-found-kaniini }
-- { name: command-not-found, wwwpart: [jrabbit,haiku], setname: command-not-found-haiku }
-- { name: command-not-found, wwwpart: abf, setname: command-not-found-abf }
-- { name: command-not-found, wwwpart: AndrewAmmerlaan, setname: command-not-found-gentoo }
-- { name: command-not-found, wwwpart: termux, setname: command-not-found-termux }
-- { name: command-not-found, addflag: unclassified }
-
-- { name: compton, wwwpart: yshui, setname: picom }
-
-- { name: cpuid, wwwpart: etallen, setname: cpuid-etallen }
-- { name: cpuid, wwwpart: ka9q, setname: cpuid-ka9q }
-- { name: cpuid, wwwpart: tycho, setname: cpuid-tycho }
-- { name: cpuid, wwwpart: anrieff, setname: cpuid-anrieff }
-- { name: cpuid, addflag: unclassified }
-
-- { name: cpuinfo, wwwpart: dell, setname: dell-cpuinfo }
-
-# this one is messed up:
-# - http://cpulimit.sourceforge.net/ https://sourceforge.net/projects/cpulimit/files/cpulimit/cpulimit/ (1.0, 1.1 - year 2006)
-#   moved to https://github.com/opsengine/cpulimit (0.1, 0.2 - year 2015)
-# - http://limitcpu.sourceforge.net/download.php https://sourceforge.net/projects/limitcpu/files/limitcpu/ - 1.2+ - year 2017
-- { name: cpulimit, verlt: "1.0", setname: cpulimit0 }
-- { name: cpulimit, verle: "1.1", setname: cpulimit1 }
-- { name: cpulimit, setname: limitcpu }
-
-- { name: cpustat, wwwpart: uber, setname: cpustat-uber }
-- { name: cpustat, wwwpart: ColinIanKing, setname: cpustat-colinianking }
-- { name: cpustat, addflag: unclassified }
-
-- { name: craft, wwwpart: fogleman, setname: craft-minecraft-clone }
-# also commercial project without clear explanation of what is it
-- { name: craft, addflag: unclassified }
-
-- { name: cram, wwwpart: llnl, setname: cram-mpi }
-- { name: cram, wwwpart: bitheap, setname: "python:cram" }
-- { name: cram, addflag: unclassified }
-
-- { name: crash, wwwpart: [redhat,crash-utility], setname: crash-redhat }
-- { name: crash, wwwpart: crashub, setname: crash-java }
-- { name: crash, addflag: unclassified }
-
-- { name: crawl, wwwpart: develz, setname: stone-soup }
-- { name: crawl, wwwpart: ale, setname: crawl-web-crawler-ale }
-- { name: crawl, wwwpart: provos, setname: crawl-web-crawler-provos }
-- { name: crawl, addflag: unclassified }
-
 - { name: ctags, sourceforge: ctags, setname: exuberant-ctags }
 - { name: ctags, wwwpart: [universal,ctags.io], setname: universal-ctags }
 - { name: ctags, addflag: unclassified }
@@ -499,10 +499,10 @@
 - { name: cvm, wwwpart: untroubled, setname: cvm-credential-validation-modules }
 - { name: cvm, addflag: unclassified }
 
-- { name: cycode, wwwpart: magayagalabs, setname: cycode-html-editor }
-- { name: cycode, wwwpart: cycode-cli, setname: cycode-cli }
-- { name: cycode, addflag: unclassified }
-
 - { name: cyclone, wwwpart: justinethier, setname: cyclone-scheme }
 - { name: cyclone, wwwpart: puredata, setname: pd-cyclone }
 - { name: cyclone, addflag: unclassified }
+
+- { name: cycode, wwwpart: magayagalabs, setname: cycode-html-editor }
+- { name: cycode, wwwpart: cycode-cli, setname: cycode-cli }
+- { name: cycode, addflag: unclassified }
