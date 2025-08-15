@@ -140,6 +140,9 @@
 - { name: cfm, wwwpart: microchip-ung, setname: cfm-connectivity-fault-management }
 - { name: cfm, addflag: unclassified }
 
+# misnamed chaos-client; abandoned language
+- { name: chaos, addflag: unclassified }
+
 - { name: charm, wwwpart: ljcharm, setname: charm-livejournal }
 - { name: charm, wwwpart: uiuc, setname: charm-parallel }
 - { name: charm, wwwpart: juju, setname: charm-juju }
