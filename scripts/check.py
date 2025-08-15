@@ -363,20 +363,20 @@ features_by_pattern = {
     r'.*800.renames-and-merges/(?!(_xorg|gstreamer:|kde|rust|rxvt-unicode|ocaml:|qt|ruby|xorg-server)).*\.yaml': {
         'sort_field': 'setname',
     },
-    r'.*840.split-misnamed.yaml': {
+    r'.*840\.split-misnamed\.yaml': {
         'sort_field': 'name',
     },
-    r'.*850.split-ambiguities/[^cdh]\.yaml': {
+    r'.*850\.split-ambiguities/[^cdh]\.yaml': {
         'sort_field': 'name',
     },
-    r'.*900.version-fixes/.*\.yaml': {
+    r'.*900\.version-fixes/.*\.yaml': {
         'sort_field': 'name',
         'disallowed': {'setname'},
     },
-    '.*910.vulnerabilities.yaml': {
+    '.*910\.vulnerabilities\.yaml': {
         'sort_field': 'name',
     },
-    '.*950.split-branches.yaml': {
+    '.*950\.split-branches\.yaml': {
         'sort_field': 'name',
         'disallowed': {'setver'},
     }
