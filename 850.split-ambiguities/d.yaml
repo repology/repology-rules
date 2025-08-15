@@ -186,10 +186,11 @@
 - { name: doas, wwwpart: duncaen, setname: opendoas }
 - { name: doas, addflag: unclassified }
 
-- { name: wmdocker,                    setname: docker-tray }
-- { name: docker,                      category: [x11,x11-plugins,"Graphical desktop/Window Maker","User Interface/X","universe/x11"], setname: docker-tray }
-- { name: docker,                      wwwpart: icculus.org,              setname: docker-tray }
-- { name: docker,                      ruleset: gobolinux,                setname: docker-tray }
+- { name: docker, wwwpart: [wmdocker, https://icculus.org/openbox/2/docker/], setname: docker-tray }
+- { name: docker, wwwpart: docker-cli, setname: docker-cli }
+- { name: docker, wwwpart: moby, setname: moby }
+- { name: docker, wwwpart: https://www.docker.com/, setname: docker-containers } # TODO: This should probably be left in unclassified, it may be either cli or moby
+- { name: docker, addflag: unclassified }
 
 - { name: dog, wwwpart: [dns,ogham], setname: dog-dns } # reuse name from aur
 - { name: dog, wwwpart: photodex, setname: dog-cat } # upstream is dead, most repos don't have real homepage url
