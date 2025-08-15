@@ -199,6 +199,21 @@
   name:
     - consolamono-ttf
 
+- setname: "fonts:corefonts"
+  name:
+    - corefonts
+    - fonts-core
+    - microsoft-web-core-fonts
+    - ms-ttf
+    - msttcorefonts
+    - ttf-ms-fonts
+    - xorg-font-msttcorefonts
+
+- setname: "fonts:corefonts"
+  addflavor: true
+  name:
+    - ttf-times-new-roman
+
 - setname: "fonts:cormorant"
   name:
     - otf-cormorant

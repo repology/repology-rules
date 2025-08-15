@@ -170,6 +170,7 @@
 - { name: "fonts:cjkuni",              ver: "0.5.11",                ruleset: openindiana, incorrect: true }
 - { name: "fonts:cjkuni",                                            ruleset: openindiana, untrusted: true } # accused of fake 0.5.11
 - { name: "fonts:cjkuni",              verpat: "20[0-9]{6}.*",                             incorrect: true } # opensuse
+- { name: "fonts:corefonts",                                                               noscheme: true }
 - { name: "fonts:courier-prime",       verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: "fonts:courier-prime",       ver: "03142015",                                    sink: true } # old reverse date
 - { name: "fonts:crimson",                                                                 noscheme: true }
