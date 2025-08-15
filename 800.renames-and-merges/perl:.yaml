@@ -5,12 +5,12 @@
 - { setname: "perl:app-perlbrew",      name: perlbrew }
 - { setname: "perl:backuppc-xs",       name: backuppc-xs }
 - { setname: "perl:build",             name: perl-build }
-- { setname: "perl:cstools",           name: cstools }
-- { setname: "perl:cstools",           name: cstocs, addflavor: true }
 - { setname: "perl:catalyst-plugin-authentication-$1", namepat: "perl:catalyst-p-a-(.*)" } # mageia, pclinusos, rosa do this
 - { setname: "perl:catalyst-plugin-session-$1", namepat: "perl:catalyst-p-s-(.*)" } # mageia, pclinusos, rosa do this
 - { setname: "perl:cddb-get",          name: cddb-get }
 - { setname: "perl:cpan-meta",         name: "perl:parse-cpan-meta" } # merged into, see https://github.com/Perl-Toolchain-Gang/Parse-CPAN-Meta
+- { setname: "perl:cstools",           name: cstocs, addflavor: true }
+- { setname: "perl:cstools",           name: cstools }
 - { setname: "perl:dbd-mysql",         namepat: "perl:dbd-mysql([0-9]+)", addflavor: $1 } # different mysql versions
 - { setname: "perl:gdgraph",           name: "perl:gd-graph" }
 - { setname: "perl:gearman-server",    name: gearman-server }
