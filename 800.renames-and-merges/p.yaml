@@ -48,6 +48,7 @@
 - { setname: parted,                   name: libparted, addflavor: true }
 - { setname: pass,                     name: [pass-parcellite,pass-patched-passmenu-notify,pass-wl-clipboard], addflavor: true } # mostly same as password-store, merged in 850
 - { setname: pass-station,             name: "ruby:pass-station" }
+- { setname: passbolt-cli,             name: "go:passbolt-cli" }
 - { setname: passenger,                name: ["ruby:passenger-apache", "ruby:passenger-nginx", "nginx:passenger","apmod:ruby26-passenger","ruby:passenger"], addflavor: true }
 - { setname: passes,                   name: passes-gtk, addflavor: true }
 - { setname: password-store,           name: [passwordstore] }
