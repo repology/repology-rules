@@ -157,6 +157,9 @@
 
 - { name: fmt, wwwpart: plan9, setname: fmt-plan9 }
 
+- { name: fog, wwwpart: vitorgalvao, setname: fog-overcast.fm }
+- { name: fog, addflag: unclassified }
+
 - { name: foomatic, ruleset: [sisyphus,aosc,gobolinux], remove: true } # metapackages
 - { name: foomatic, ruleset: [centos,fedora,chakra], setname: foomatic-db-engine } # metapackages
 - { name: foomatic, addflag: unclassified }
