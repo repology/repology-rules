@@ -185,10 +185,12 @@
 - { name: gnat-util, ruleset: [freebsd,pkgsrc,ravenports], setname: gnat-util-gcc }
 - { name: gnat-util, addflag: unclassified }
 
-# either metapackages which depend on all gnome games, or real gnome project which was renamed to `highscore`
-# until the latter has any releases, allow legacy gnome-games to be classified, though the correct urls is not
-# encountered in the wild ATOW
+# Either metapackages which depend on all gnome games, or real gnome
+# project which was renamed to `highscore`. Until the latter has any
+# releases, allow legacy gnome-games to be classified. For that case,
+# use gitlab url or download urls pattern
 - { name: gnome-games, wwwpart: https://gitlab.gnome.org/Archive/gnome-games, addflag: classified, disposable: true }
+- { name: gnome-games, wwwpat: ".*/gnome-games-[0-9.]+\\.tar.*", addflag: classified, disposable: true }
 - { name: gnome-games, addflag: unclassified }
 
 # https://extensions.gnome.org/extension/1064/system-monitor/ vs https://extensions.gnome.org/extension/120/system-monitor/
