@@ -292,6 +292,7 @@
 - { name: fpc,                                                       ruleset: sisyphus,    untrusted: true } # accused of fake 3.3.1
 - { name: fpc,                                                       ruleset: os4depot,    incorrect: true }
 - { name: fpc,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: fpc,                         verpat: "[0-9]+\\.[0-9]*[13579]\\.[0-9]*[13579]",   altver: true } # rolling stable
 - { name: fpc,                         verpat: ".+20[0-9]{6}",                             incorrect: true }
 - { name: fplll,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: fplll,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true }
