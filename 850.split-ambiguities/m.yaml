@@ -290,8 +290,8 @@
 - { name: mkalias, addflag: unclassified }
 
 - { name: mkbootimg, wwwpart: osm0sis, setname: mkbootimg-osm0sis }
-- { name: mkbootimg, wwwpart: nmeum, setname: mkbootimg-nmeum }
-- { name: mkbootimg, wwwpart: developer.android.com, setname: android-tools, addflavor: true }
+- { name: mkbootimg, wwwpart: nmeum, setname: android-tools-nmeum, addflavor: true }
+- { name: mkbootimg, wwwpart: developer.android.com, setname: android-tools-upstream, addflavor: true }
 - { name: mkbootimg, addflag: unclassified }
 
 - { name: mkinitcpio-tailscale, wwwpart: dangra, setname: mkinitcpio-tailscale-dangra }
