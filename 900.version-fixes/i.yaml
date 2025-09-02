@@ -62,6 +62,8 @@
 - { name: img2pdf,                     ver: "1.4.2",                 ruleset: solus,       incorrect: true }
 - { name: img2pdf,                                                   ruleset: solus,       untrusted: true } # accused of fake 1.4.2
 - { name: imgcat-eddieantonio,         verlt: "2.5.0",                                     outdated: true, disposable: true }
+- { name: imhex,                       ver: "1.38.0",                ruleset: [t2, mpr],   incorrect: true }
+- { name: imhex,                                                     ruleset: [t2, mpr],   untrusted: true } # accused of fake 1.38.0
 - { name: immich-go,                   ver: "1.21.3",                ruleset: manjaro,     incorrect: true }
 - { name: immich-go,                                                 ruleset: manjaro,     untrusted: true } # accused of fake 1.21.3
 - { name: immudb,                      verpat: ".*DOM.*",                                  sink: true } # 1.9DOM.2 < 1.9.5
