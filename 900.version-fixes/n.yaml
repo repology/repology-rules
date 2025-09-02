@@ -170,6 +170,7 @@
 - { name: nvidia,                      verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: nvidia,                      ver: "515.48.07.2",           ruleset: chaotic-aur, incorrect: true }
 - { name: nvidia,                                                    ruleset: chaotic-aur, untrusted: true } # accused of fake 515.48.07.2
+- { name: nvidia,                      verlonger: 3,                                       incorrect: true } # freebsd garbage
 - { name: nvidia-cg-toolkit,           ver: "3.1.2012.04",                                 incorrect: true }
 - { name: nvidia-cg-toolkit,                                         ruleset: macports,    untrusted: true } # accused of fake 3.1.2021.04
 - { name: nvidiabl,                    verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
