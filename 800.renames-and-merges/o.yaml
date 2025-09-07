@@ -131,6 +131,7 @@
 - { setname: openmesh,                 name: open-mesh }
 - { setname: openmpi,                  name: [open-mpi,openmpi-compat] }
 - { setname: openmpi,                  namepat: "(?:compat-)?(java-)*openmpi(-clang|-gcc|-c\\+\\+|-default|-slurm|-thread-multiple)*[0-9.-]*(-gnu-hpc|-testsuite)*", addflavor: $1$2$3 }
+- { setname: openmsx,                  name: $0-emulator }
 - { setname: openmw,                   name: openmw-nightly, weak_devel: true, nolegacy: true }
 - { setname: opennlp,                  name: apache-opennlp }
 - { setname: openobex,                 name: libopenobex }
