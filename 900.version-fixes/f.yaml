@@ -338,6 +338,8 @@
 - { name: freewnn,                                                   ruleset: pld,         untrusted: true }
 - { name: frei0r,                      verlonger: 3,                                       incorrect: true }
 - { name: frei0r,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 1.7.0.18
+- { name: frei0r,                      ver: "2.4.2",                 ruleset: deb_multimedia, incorrect: true }
+- { name: frei0r,                                                    ruleset: deb_multimedia, untrusted: true } # accused of fake 2.4.2
 - { name: frei0r-plugins,              verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: frei0r-plugins,              verlonger: 3,                                       incorrect: true }
 - { name: frei0r-plugins,                                            ruleset: freebsd,     untrusted: true } # accused of fake 1.7.0.18
