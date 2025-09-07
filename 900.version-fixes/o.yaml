@@ -114,6 +114,7 @@
 - { name: openlierox,                  verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: openmortal,                  ver: "0.7.1",                                       ignore: true } # legal release, but no source tarball
 - { name: openmpi,                     verpat: ".*x",                                      incorrect: true } # "use x to avoid epoch" bullshit
+- { name: openmsx-catapult,                                                                outdated: true } # deprecated
 - { name: opennap,                     ver: "0.45",                  ruleset: hpux,        incorrect: true }
 - { name: opennap,                                                   ruleset: hpux,        untrusted: true }
 - { name: openntpd,                    ver: "20080406p",                                   snapshot: true }
