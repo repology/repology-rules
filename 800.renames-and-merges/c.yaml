@@ -261,22 +261,29 @@
 - { setname: cogl,                     namepat: "compat-cogl[0-9]+" }
 - { setname: coin-or-$1,               namepat: "coinor-(.*)" } # XXX: problem
 - { setname: coin-or-alps,             name: coinalps }
+- { setname: coin-or-asl,              name: coinasl }
 - { setname: coin-or-bcp,              name: coinbcp }
 - { setname: coin-or-bcps,             name: coinbcps }
 - { setname: coin-or-blis,             name: coinblis }
 - { setname: coin-or-bonmin,           name: coinbonmin }
 - { setname: coin-or-cbc,              name: [coincbc,cbc,coin-cbc] }
 - { setname: coin-or-cgl,              name: [coincgl,cgl,coin-cgl] }
-- { setname: coin-or-clp,              name: coinclp }
-- { setname: coin-or-coinutils,        name: [coin-or-utils,coinutils] }
+- { setname: coin-or-clp,              name: [coinclp,coin-clp] }
+- { setname: coin-or-coinutils,        name: [coin-or-utils,coinutils,coin-utils] }
 - { setname: coin-or-couenne,          name: coincouenne }
 - { setname: coin-or-csdp,             name: coincsdp }
+- { setname: coin-or-data-netlib,      name: coin-or-netlib }
+- { setname: coin-or-data-sample,      name: coin-or-sample }
 - { setname: coin-or-dip,              name: coindip }
 - { setname: coin-or-dylp,             name: coindylp }
 - { setname: coin-or-flopc++,          name: [coinflopcpp,coin-or-flopcpp] }
+- { setname: coin-or-hsl,              name: coinhsl }
 - { setname: coin-or-lemon,            name: [coinlemon,coin-or-liblemon, coin-lemon] }
+- { setname: coin-or-mumps,            name: coin-or-coinmumps }
+- { setname: coin-or-osi,              name: coin-osi }
 - { setname: coin-or-symphony,         name: coinsymphony }
 - { setname: coin3d,                   name: [coin, coin-framework, coin2, coin3, coin4] } # collisions possible in future
+- { setname: coinmp,                   name: [coin-or-mp, coin-or-coinmp] }
 - { setname: collectd,                 name: [collectd-amqp,collectd-bind,collectd-curl,collectd-data,collectd-dbi,collectd-dns,collectd-lua,collectd-memcached,collectd-mysql,collectd-network,collectd-notify-email,collectd-postgresql95,collectd-postgresql12,collectd-postgresql13,collectd-riemann,collectd-rrdtool,collectd-snmp,collectd-write-prometheus,libcollectdclient,"perl:collectd"], addflavor: true }
 - { setname: collectd,                 name: collectd5 }
 - { setname: colorcode,                name: color-code }
