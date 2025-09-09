@@ -108,6 +108,8 @@
 - { name: ninvaders,                   verge: "0.1.2",                                     successor: true }
 - { name: nitro-init,                  ver: "0.3.3",                 ruleset: aur,         incorrect: true }
 - { name: nitro-init,                                                ruleset: aur,         untrusted: true } # accused of fake 0.3.3
+- { name: nitro-init,                  ver: "0.3.0.0.20250907",      ruleset: pkgsrc,      incorrect: true }
+- { name: nitro-init,                                                ruleset: pkgsrc,      untrusted: true } # accused of fake 0.3.0.0.20250907
 - { name: nitrogen,                    verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: nkf,                         verpat: "2\\.[0-9]{2}",                             incorrect: true } # it's X.Y.Z, not X.YZ
 - { name: nlbwmon,                                                                         noscheme: true } # https://github.com/jow-/nlbwmon/releases
