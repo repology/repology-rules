@@ -115,6 +115,8 @@
 - { name: intel-media-sdk,             verpat: ".*p.*",                                    devel: true } # preX
 - { name: intel-microcode,             verpat: ".*really.*",                               incorrect: true, addflag: garbage }
 - { name: intel-microcode,             verpat: "(?:[0-9]\\.)?(20[0-9]{6}a?).*",            setver: $1, noflag: garbage }
+- { name: intel-vaapi-driver,          verge: "25.2.6",              ruleset: pld,         incorrect: true }
+- { name: intel-vaapi-driver,                                        ruleset: pld,         untrusted: true } # accused of fake 25.2.6
 - { name: intellij-idea-community,     verpat: "([0-9]+(?:\\.[0-9]+){1,2})(?:\\.[0-9]+){3}", setver: $1 } # 2018.3.5 vs 2018.3.5.183.5912.21; 2019.1 vs. 2019.1.191.6183.87
 - { name: inxi,                        verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: io,                          verpat: "20[0-9]{6}",                               incorrect: true } # it's YYYY.MM.DD
