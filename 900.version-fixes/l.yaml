@@ -96,6 +96,7 @@
 - { name: linux,                                                     ruleset: arch,        untrusted: true } # accused of fake 5.3.12.1
 - { name: linux,                       ver: "6.17",                  ruleset: ubuntu,      incorrect: true } # rc
 - { name: linux,                                                     ruleset: ubuntu,      untrusted: true } # accused of fake 6.17
+- { name: linux,                       verpat: "[0-9]+\\.[0-9]+\\.0.*rc.*",                incorrect: true } # 6.17-rc5, not 6.17.0-rc5
 - { name: linux-apfs-rw,               verpat: "20[0-9]{2}.*",                             incorrect: true } # https://github.com/linux-apfs/linux-apfs-rw/tags
 - { name: linux-apfs-rw,               verge: "2000-00-00", verlt: "2023-01-31",           sink: true } # 0.3.0 from 2023-01-31
 - { name: linux-apfs-rw,               verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
