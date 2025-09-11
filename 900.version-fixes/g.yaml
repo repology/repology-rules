@@ -144,6 +144,7 @@
 - { name: glabels,                     verpat: "3\\.99.*",                                 devel: true }
 - { name: glade,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: glaxnimate,                  verpat: "[0-9]+\\.[0-9]+\\.[789][0-9].*",           devel: true }
+- { name: gle-tubing-and-extrusion,    verge: "4",                                         incorrect: true, disposable: true } # t2, different project
 - { name: glee,                        verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: glfw,                        vereq: "3.5",                                       sink: true, disposable: true }
 - { name: glib,                        verpat: "[2-9][0-9]*\\.[0-9]*[13579]\\..*",         devel: true }
