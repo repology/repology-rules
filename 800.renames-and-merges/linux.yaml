@@ -6,6 +6,7 @@
 - { setname: linux,                    namepat: "kernel[0-9.-]+" }
 - { setname: linux,                    name: kernel }
 - { setname: linux,                    name: [kernel-rc,git-sources,linux-next], weak_devel: true, nolegacy: true }
+- { setname: linux,                    namepat: "linux-tools[0-9.-]+", addflavor: tools }
 
 - setname: linux
   name:
@@ -16,6 +17,9 @@
 - setname: linux
   name:
     - bpftools
+    - cpupower
+    - cpupowertools
+    - cpupowerutils
     - evdev-proto  # some bsds fetch from linux sources
     - kernel-debug
     - kernel-default
@@ -42,6 +46,12 @@
     - linux-tools
     - linux-vanilla
     - perf
+    - perf-linux
+    - tmon
+    - turbostat
+    - usbip
+    - usbip-linux
+    - usbip-utils
     - vanilla-kernel
     - vanilla-sources
   addflavor: true
