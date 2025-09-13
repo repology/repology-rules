@@ -178,7 +178,7 @@
 - { setname: chmlib,                   name: libchm }
 - { setname: choose,                   name: ["rust:choose", choose-rust] }
 - { setname: chowtapemodel,            name: chow-tape-model }
-- { setname: chr,                      name: chr-editor }
+- { setname: chr,                      name: [chr-editor, rust:chr] } # different projects, split int 850
 - { setname: chromaprint,              name: [chromaprint-fftw, chromaprint-tools, libchromaprint], addflavor: true }
 - { setname: chromium-bsu,             name: chromiumbsu }
 - { setname: chrono,                   name: [chrono-physics-simulation-engine, chrono-time-tracking, chronoengine] } # different projects, split later
