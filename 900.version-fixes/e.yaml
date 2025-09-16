@@ -74,7 +74,7 @@
 - { name: elisa,                                                     ruleset: rosa,        untrusted: true } # accused of fake 21.08.1
 - { name: ell,                         ver: "0~1304",                                      sink: true } # judging by number of commits in the repo, it's before 0.1
 - { name: elm-format,                  verpat: "(.*?)[_-]?(?:alpha|exp)",                  setver: $1, devel: true }
-- { name: elmerfem,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: elmerfem,                    verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: elogind,                     ver: "243.8",                 ruleset: debuntu,     incorrect: true }
 - { name: elogind,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 243.8
 - { name: elvis-editor,                verpat: "20[0-9]{6}",                               incorrect: true }
