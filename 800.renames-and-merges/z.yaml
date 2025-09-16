@@ -35,9 +35,10 @@
 - { setname: zexy,                     name: pd-$0 }
 - { setname: zhparser,                 namepat: "(postgresql[0-9.-]*)-zhparser", addflavor: $1 }
 - { setname: zig,                      name: ziglang }
-- { setname: zig,                      name: [zig-0.10, zig010] }
+- { setname: zig,                      namepat: "zig[0-9.-]+" }
 - { setname: zig,                      name: [zig-static, zig-bin], addflavor: true }
-- { setname: zig,                      name: [zig-dev, zig-devel, zig.nightly], weak_devel: true, nolegacy: true }
+- { setname: zig,                      name: [zig-dev, zig-devel, zig.nightly, zig-nightly, zig-master], weak_devel: true, nolegacy: true }
+- { setname: zig,                      name: [zig-master-bootstrap], addflavor: true, weak_devel: true, nolegacy: true }
 - { setname: zim,                      name: "python:zim" }
 - { setname: zim,                      name: zim-wiki }
 - { setname: zimg,                     name: [sekrit-twc-zimg, libzimg, zimgtool] } # different projects, merged in 850
