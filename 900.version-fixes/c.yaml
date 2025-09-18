@@ -427,8 +427,8 @@
 - { name: cvsync,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 0.25.0
 - { name: cvsync,                      ver: "0.25.0pre0",            ruleset: openbsd,     incorrect: true }
 - { name: cvsync,                                                    ruleset: openbsd,     untrusted: true } # accused of fake 0.25.0pre0
-- { name: cwiid,                       ver: ["0.6.01","0.6.02","0.6.91","3.0.0"],          incorrect: true } # abandonware; a lot of snapshots
-- { name: cwiid,                       verpat: "20.*",                                     incorrect: true } # abandonware; a lot of snapshots
+- { name: cwiid,                       vergt: "0.6.00",                                    incorrect: true } # abandonware
+- { name: cwiid,                       verpat: "20.*",                                     incorrect: true }
 - { name: cwm,                         ver: "6.2.9",                                       ignore: true } # FreeBSD fake
 - { name: cwm,                         verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: cyberjack,                   verpat: "(.*)_p(.*)",         ruleset: gentoo,      setver: $1_sp$2, untrusted: false } # 3.99.5 SP14, not representable in gentoo
