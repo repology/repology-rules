@@ -409,8 +409,8 @@
 - { name: cutechess,                   verpat: "20[0-9]+",                                 incorrect: true }
 - { name: cutechess,                   verge: "20000000", verlt: "20200809",               sink: true } # 1.2.0 from Aug 9, 2020
 - { name: cutecom,                     verpat: ".*patch",                                  incorrect: true } # nix garbage
-- { name: cutecom,                     ver: "0.60.0",                ruleset: opensuse,    incorrect: true }
-- { name: cutecom,                                                   ruleset: opensuse,    untrusted: true } # accused of fake 0.60.0
+- { name: cutecom,                     ver: "0.60.0",                ruleset: [opensuse,freebsd], incorrect: true }
+- { name: cutecom,                                                   ruleset: [opensuse,freebsd], untrusted: true } # accused of fake 0.60.0
 - { name: cutegram,                    ver: "2.99",                                        incorrect: true }
 - { name: cutegram,                    ver: "2.9.5",                                       devel: true }
 - { name: cutegram,                    vergt: "2.9.5",               ruleset: chakra,      ignore: true } # my provide other devel versions
