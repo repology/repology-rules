@@ -145,7 +145,6 @@
 - { name: docker-compose,                                            ruleset: sisyphus,    untrusted: true }
 - { name: docker-compose,              verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: docker-containers,           verpat: ".*ce",                                     incorrect: true }
-- { name: docker-engine,                                                                   outdated: true, nolegacy: true, untrusted: false } # superseded by moby
 - { name: docker-tray,                 verge: "1.5.1",                                     successor: true }
 - { name: doge-dns-client,             ver: "2.7",                   ruleset: aur,         incorrect: true }
 - { name: doge-dns-client,                                           ruleset: aur,         untrusted: true } # accused of fake 2.7
