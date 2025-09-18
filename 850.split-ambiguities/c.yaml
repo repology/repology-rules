@@ -149,6 +149,10 @@
 - { name: cfm, wwwpart: microchip-ung, setname: cfm-connectivity-fault-management }
 - { name: cfm, addflag: unclassified }
 
+- { name: chai, wwwpart: llnl, setname: $0-data-migration }
+- { name: chai, wwwpart: lvillani, setname: $0-prevent-macos-split }
+- { name: chai, addflag: unclassified }
+
 # misnamed chaos-client; abandoned language
 - { name: chaos, addflag: unclassified }
 
