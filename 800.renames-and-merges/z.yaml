@@ -55,7 +55,7 @@
 - { setname: zlib,                     name: [minizip-zlib], addflavor: minizip }
 - { setname: zlib-ng,                  name: $0-compat, addflavor: true }
 - { setname: zls,                      name: [zig-$0, zig:$0] }
-- { setname: zls,                      namepat: "zig[0-9.-]+" }
+- { setname: zls,                      namepat: "zls[0-9.-]+" }
 - { setname: zls,                      name: [zig-dev, zig-master], weak_devel: true, nolegacy: true }
 - { setname: zn-poly,                  name: lib$0 }
 - { setname: zoneminder,               name: zoneminder-h264, ignore: true }
