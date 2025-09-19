@@ -42,6 +42,7 @@
 - { name: hidapi,                                                    ruleset: [fedora,mageia,sisyphus,macports,pclinuxos,pld], untrusted: true } # accused of fake 0.8.0
 - { name: highs,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: highs,                                                     ruleset: freebsd,     untrusted: true } # accused of fake 1.1.1.886
+- { name: highs,                       verpat: ".*\\+.*",                                  incorrect: true } # scoop
 - { name: hiredis,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true } # XXX: DISTVERSION
 - { name: hisat2,                      verlonger: 3,                 ruleset: [freebsd,pkgsrc], incorrect: true }
 - { name: hitori,                      ver: "3.24.1",                ruleset: nix,         incorrect: true }
