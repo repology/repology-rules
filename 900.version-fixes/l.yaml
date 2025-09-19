@@ -20,6 +20,10 @@
 - { name: lash,                        verpat: "0\\.6\\.0\\.[0-9]{3}.*",                   incorrect: true } # 0.6.0rc2
 - { name: lastools,                    verpat: "[0-9]{6}",                                 sink: true } # upstream used yymmdd prior to v2.0.0
 - { name: lastools,                    verpat: "[0-9]{2}[.-][0-9]{2}[.-][0-9]{2}",         sink: true } # some distros packaged as yy-mm-dd or yy.mm.dd
+- { name: laszip,                      ver: "3.5.0",                 ruleset: debuntu,     incorrect: true }
+- { name: laszip,                                                    ruleset: debuntu,     untrusted: true } # accused of fake 3.5.0
+- { name: laszip,                      ver: "3.5.1",                 ruleset: freebsd,     incorrect: true }
+- { name: laszip,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 3.5.1
 - { name: latexmk,                     verpat: "[0-9]{3}.*",                               incorrect: true } # 4.69, not 469
 - { name: latte-dock,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: layan-gtk-theme,             verpat: "20[0-9]{6}.*",                             incorrect: true }
