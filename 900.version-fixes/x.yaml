@@ -88,6 +88,7 @@
 - { name: xen,                         verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: xen,                         verpat: ".*pre.*",                                  incorrect: true }
 - { name: xephem,                      verpat: ".*20[0-9]{6}[0-9a-f]{6}.*",                incorrect: true } # unusual garbage from opensuse
+- { name: xevd,                        verpat: "[0-9a-f]{7}.*",                            incorrect: true } # slackbuilds
 - { name: xevil,                                                                           any_is_patch: true } # assumed, most distros provide 2.02r2
 - { name: xf86rushproto,               ver: "1.2.2",                 ruleset: funtoo,      incorrect: true }
 - { name: xf86rushproto,                                             ruleset: funtoo,      untrusted: true } # accused of fake 1.2.2
