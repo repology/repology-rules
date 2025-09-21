@@ -38,6 +38,8 @@
 - { name: john,                        verpat: ".*j.*",                                    any_is_patch: true, devel: true } # X-jumbo-1 follows X
 - { name: jool,                        verpat: "20[0-9]{2}.*",                             incorrect: true } # has normal x.y.z scheme https://www.jool.mx/en/download.html
 - { name: jool,                        verlonger: 3, verpat: ".*-.*",                      incorrect: true } # kernel version appended
+- { name: jool,                        verge: "5",                   ruleset: alpine,      incorrect: true } # kernel version instead of own version
+- { name: jool,                                                      ruleset: alpine,      untrusted: true } # uses kernel version instead
 - { name: josm,                        verpat: "0\\.0\\.svn([0-9]+)",                      setver: "$1" }
 - { name: jp2a,                        ver: "1.0.8",                 ruleset: termux,      incorrect: true }
 - { name: jp2a,                                                      ruleset: termux,      untrusted: true } # accused of fake 1.0.8
