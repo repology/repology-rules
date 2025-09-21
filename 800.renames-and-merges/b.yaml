@@ -15,6 +15,7 @@
 - { setname: bacon,                    name: bacon-runtime, addflavor: true }
 - { setname: bacula,                   namepat: "bacula[0-9]*(-(?:bat|client|client-static|clientonly|common|doc|docs|fd|qt-console|server|tray-monitor|wx-console))?", addflavor: $1 }
 - { setname: badtouch,                 name: "rust:badtouch" }
+- { setname: bagr,                     name: rust:$0 }
 - { setname: bahn-regio-entfernungsrechner, name: bahn-regio-entfernungsrechner-latest }
 - { setname: bakery,                   name: bakery2.6 }
 - { setname: balazar3,                 name: balazar-iii }
