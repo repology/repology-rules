@@ -67,6 +67,7 @@
 - { setname: beagle,                   name: [libbeagle, beagle-lib, libhmsbeagle] } # ambiguous, split in 850
 - { setname: beagle,                   name: [beagle-lib-all, beagle-lib-cuda, beagle-lib-opencl], addflavor: true }
 - { setname: beancount,                name: "python:beancount" }
+- { setname: beanhub-cli,              name: python:$0 }
 - { setname: beast,                    name: beastbse }
 - { setname: beast2,                   name: beast2-mcmc }
 - { setname: beat-saber-mod-manager,   name: beatsabermodmanager }
