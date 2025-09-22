@@ -255,6 +255,8 @@
 - { name: libmspack,                   verge: "1.5",                                       incorrect: true } # cabextract versions instead of libmspack ones
 - { name: libmspack,                   verpat: "([0-9.]+)[_~-]?alpha",                     setver: $1 }
 - { name: libmspack,                                                                       devel: false } # all versions alpha crap
+- { name: libmsym,                     ver: "0.2.4",                 ruleset: sisyphus,    incorrect: true }
+- { name: libmsym,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 0.2.4
 - { name: libmusicbrainz,              verlonger: 3,                 ruleset: freebsd,     incorrect: true } # XXX: FreeBSD DISTVERSION
 - { name: libmusicbrainz,                                            ruleset: freebsd,     untrusted: true } # accused of fake 5.1.0.19
 - { name: libmysofa,                   verlonger: 3,                 ruleset: freebsd,     incorrect: true } # XXX: FreeBSD DISTVERSION
