@@ -35,6 +35,10 @@
 - { name: gatling, wwwpart: fefe.de, setname: gatling-web-server }
 - { name: gatling, addflag: unclassified }
 
+#- { name: gauge, wwwpart: theknight.co.uk, setname: $0-??? } # no project description
+- { name: gauge, wwwpart: [gauge.org, getgaige], setname: $0-test-automation  }
+- { name: gauge, addflag: unclassified }
+
 - { name: gcap, wwwpart: code.google.com/p/gcap, setname: gcap-youtube }
 - { name: gcap, wwwpart: gnome.org, setname: gcap-cabfiles }
 - { name: gcap, wwwpart: gov.br, setname: gcap-brazilian-taxes }
