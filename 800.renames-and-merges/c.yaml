@@ -13,6 +13,7 @@
 - { setname: ca-certificates,          name: [ca-certs, cacert] }
 - { setname: cabal2nix,                name: haskell:$0 }
 - { setname: cabin,                    name: cabinpkg }
+- { setname: cachix,                   name: haskell:$0 }
 - { setname: cacti-spine,              name: cacti-cactid } # cactid renamed to spine upstream
 - { setname: caddy,                    name: [caddy-full,caddy-with-cgi,caddy-no-telemetry,caddy-with-quic, caddy-bin], addflavor: true }
 - { setname: caddy,                    name: caddy2 }
