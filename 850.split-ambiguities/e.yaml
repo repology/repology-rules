@@ -14,6 +14,10 @@
 - { name: ebur128, wwwpart: sdroege/ebur128, setname: rust:ebur128 }
 - { name: ebur128, addflag: unclassified }
 
+- { name: ec, wwwpart: subsetpark, setname: ec-rpn-calculator }
+- { name: ec, wwwpart: linux-libre, setname: linux-libre, addflavor: true }
+- { name: ec, addflag: unclassified }
+
 - { name: eclair, wwwpart: acinq, setname: eclair-lightning-network }
 - { name: eclair, wwwpart: enlightenment, setname: eclair-media-player }
 - { name: eclair, addflag: unclassified }
