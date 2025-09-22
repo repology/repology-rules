@@ -72,7 +72,9 @@
 - { setname: elfutils,                 name: [elfutils-libelf, elfutils-debuginfod, elfutils-libs], addflavor: true }
 - { setname: elinks,                   name: elinks-small, addflavor: true }
 - { setname: elisa,                    name: elisa-player }
-- { setname: elixir,                   name: elixir-lang }
+- { setname: elixir,                   name: [elixir-lang, elixir115] }
+- { setname: elixir,                   name: elixir-doc, addflavor: doc }
+- { setname: elixir,                   name: elixir-devel, weak_devel: true, nolegacy: true }
 - { setname: elkcode,                  name: elk-chemistry }
 - { setname: elm-format,               name: "haskell:elm-format" }
 - { setname: elm-format,               namepat: "elm-format[0-9.-]+(?:-exp)?" }
