@@ -151,6 +151,7 @@
 - { setname: eris,                     name: lib$0 }
 - { setname: erkale,                   name: erkale-serial, addflavor: true }
 - { setname: erlang,                   name: "erlang:wx", addflavor: wx } # part of
+- { setname: erlang,                   name: [emacs-erlang, emacs:erlang, emacs:erlang-mode], addflavor: emacs } # part of
 - { setname: "erlang:cl",              name: cl }
 - { setname: "erlang:esdl",            name: ["erlang:sdl",esdl] }
 - { setname: es,                       name: es-shell }
