@@ -7,6 +7,7 @@
 - { vulnerable: true, name: cryptacular, verlt: "1.2.3" } # https://nvd.nist.gov/vuln/detail/CVE-2020-7226 reported
 - { vulnerable: true, name: edk2, verge: "20000000", verlt: "20201021" } # as per CVE-2019-14584
 - { vulnerable: true, name: element-desktop, verle: "1.11.7" } # CVE-2022-39249, CVE-2022-39250, CVE-2022-39251, CVE-2022-39236
+- { vulnerable: true, name: freenet } # no way to match with NVD due to ambiguous versioning scheme
 - { vulnerable: true, name: gif2apng, releq: "1.9" } # mark 1.9+srconly debian garbage
 - { vulnerable: true, name: gnulib, verge: "2000000", verlt: "20180923" } # CVE-2018-17942, extend onto incompatible snapshot scheme
 - { vulnerable: true, name: gnupg, verlt: "2.2.23", disposable: true } # https://nvd.nist.gov/vuln/detail/CVE-2020-25125 (undergoing analysis)
