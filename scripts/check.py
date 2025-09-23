@@ -222,6 +222,7 @@ flags = [
     'not_deepin',
     'not_emacs',
     'not_erlang',
+    'not_fonts',
     'not_fortunes',
     'not_fusefs',
     'not_ghidra',

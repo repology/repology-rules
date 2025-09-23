@@ -52,6 +52,9 @@
 - { setname: "fortunes:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_fortunes], namepat: "fortune-(.*)" }
 - { setname: "fortunes:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_fortunes], namepat: "fortune_(.*)" }
 
+# Fonts
+- { setname: "fonts:lohit-$0", addflag: wconce, noflag: [wconce,not_wildcard,not_fonts], ruleset: nix, category: lohit-fonts }
+
 # Fuse
 - { setname: "fusefs:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_fusefs], namepat: "fuse(?:fs)?-(.*)" }
 
