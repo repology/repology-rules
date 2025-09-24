@@ -255,3 +255,6 @@
 - { setname: xorgproto, name: [xorg-proto, xorg-proto-xorgproto] }
 - { setname: xorgproto, name: [xorg-proto-devel, xorg-x11-proto-devel], weak_devel: true, nolegacy: true }
 - { setname: util-macros, name: xorg-macros }
+- { setname: xcb-util-image, name: [libxcb-image, xcb-image] }
+- { setname: xcb-util-keysyms, name: [libxcb-keysyms, xcb-keysyms] }
+- { setname: xcb-util-wm, name: [libxcb-wm] }
