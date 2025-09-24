@@ -39,7 +39,7 @@
 - { setname: caldera,                  name: caldera4 }
 - { setname: calibre,                  name: [$0-debug,$0-normal,$0-bin], addflavor: true }
 - { setname: calibre-web,              name: python:calibreweb }
-- { setname: calico,                   name: $0ctl }
+- { setname: calico,                   name: $0ctl, addflavor: true }
 - { setname: caligula,                 name: rust:$0 }
 - { setname: calligra-l10n,            namepat: "calligra-l10n-(.*)", addflavor: $1 }
 - { setname: calligraplan,             name: calligra-plan }
