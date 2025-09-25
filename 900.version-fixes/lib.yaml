@@ -43,7 +43,8 @@
 - { name: libatomic-ops,                                             ruleset: vcpkg,       untrusted: true } # accused of fake 7.7.0
 - { name: libaudclient,                ver: "3.5",                   ruleset: pld,         incorrect: true }
 - { name: libaudclient,                                              ruleset: pld,         untrusted: true }
-- { name: libax25,                     verlt: "1.2.2",                                     outdated: true, sink: true, disposable: true } # 1.2.2 from aug 2023
+- { name: libax25-original,            ver: "0.0.12",                ruleset: alpine,      incorrect: true }
+- { name: libax25-original,                                          ruleset: alpine,      untrusted: true } # accused of fake 0.0.12
 - { name: libb2,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: libb64,                      ver: "2.0.0.15",              ruleset: freebsd,     incorrect: true }
 - { name: libb64,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 2.0.0.15
