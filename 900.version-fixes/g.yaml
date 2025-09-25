@@ -93,6 +93,7 @@
 - { name: ggz-gtk-client,              verpat: "0\\.99.*",                                 devel: true }
 - { name: ghasher,                     verpat: ".*patched.*",                              incorrect: true }
 - { name: ghc,                         verpat: "[0-9]+\\.[0-9]+\\.20[0-9]{6}",             incorrect: true } # nix garbage
+- { name: ghc,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.20[0-9]{6}",    incorrect: true } # fedora garbage
 - { name: ghex,                        ver: "4.0.0_alpha",                                 incorrect: true } # 4.alpha.1 in fact
 - { name: ghex,                                                      ruleset: gentoo,      untrusted: true } # accused of fake 4.0.0_alpha
 - { name: ghostscript,                                               ruleset: sisyphus,    untrusted: true } # accused of fake 9.28
