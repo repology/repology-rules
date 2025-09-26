@@ -393,8 +393,9 @@
 - { setname: libxkbcommon,             name: libxkbcommon-x11, addflavor: x11 }
 - { setname: libxkbcommon,             name: xkbcommon }
 - { setname: libxml++,                 namepat: "libxml(\\+\\+|pp|xx)[0-9.-]*(-docs|-reference)?", addflavor: $1 }
-- { setname: libxml2,                  name: [libxml, libxml1] }
-- { setname: libxml2,                  name: [libxml2-linenum,libxml2-reference,libxml2-min,libxml2-tools,xmllint], addflavor: true }
+- { setname: libxml2,                  name: [$0-compat,$0-legacy] }
+- { setname: libxml2,                  namepat: "libxml[0-9.-]*" }
+- { setname: libxml2,                  name: [$0-linenum,$0-reference,$0-min,$0-tools,xmllint,$0-autotools,$0-xpath0], addflavor: true }
 - { setname: libxml2,                  name: ["python:libxml2","python:libxml2-python",libxml2+py,libxml2-python], addflavor: python }
 - { setname: libxml2,                  name: emscripten-libxml2, addflavor: emscripten }
 - { setname: libxmlb,                  name: libxmlb1 }
