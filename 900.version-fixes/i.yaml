@@ -117,7 +117,7 @@
 - { name: intel-microcode,             verpat: "(?:[0-9]\\.)?(20[0-9]{6}a?).*",            setver: $1, noflag: garbage }
 - { name: intel-vaapi-driver,          verge: "25.2.6",              ruleset: pld,         incorrect: true }
 - { name: intel-vaapi-driver,                                        ruleset: pld,         untrusted: true } # accused of fake 25.2.6
-- { name: intellij-idea-community,     verpat: "[0-9]+(?:\\.[0-9]+){1,2}[._-][0-9]+(?:\\.[0-9]+){2}", altver: true } # 3-component builds
+- { name: intellij-idea-community,     verpat: "([0-9]+(?:\\.[0-9]+){1,2})[._-][0-9]+(?:\\.[0-9]+){2}", setver: $1 } # builds X.Y_A.B.C and X.Y.Z_A.B.C. We strip them instead of using altver to prevent incorrect X.Y_A.B.C vs. X.Y.Z ordering
 - { name: inxi,                        verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: io,                          verpat: "20[0-9]{6}",                               incorrect: true } # it's YYYY.MM.DD
 - { name: ion3,                        verpat: "3[^0-9](.*)",                              setver: $1 }
