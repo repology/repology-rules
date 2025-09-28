@@ -50,6 +50,8 @@
 - { name: fern-wifi-cracker,           ver: "222",                                         sink: true } # that's an SVN rev, and GH repo as more commits
 - { name: fern-wifi-cracker,           verpat: "[0-9]{3}",                                 incorrect: true } # blackarch's 222
 - { namepat: "fest(lex|vox)-.*",       ver: "20040804",                                    sink: true } # some old crap from openbsd
+- { name: fex-emu,                     ver: "2590.1",                ruleset: t2,          incorrect: true }
+- { name: fex-emu,                                                   ruleset: t2,          untrusted: true } # accused of fake 2590.1
 - { name: ffcall,                      verpat: "20[0-9]{6}",                               snapshot: true } # slitaz
 - { name: ffdiaporama,                 ver: "2.2",                   ruleset: [pclinuxos,rosa], incorrect: true }
 - { name: ffdiaporama,                                               ruleset: [pclinuxos,rosa], untrusted: true } # accused of fake 2.2
