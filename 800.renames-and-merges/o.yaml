@@ -228,5 +228,7 @@
 - { setname: owntracks-recorder,       name: ot-recorder }
 - { setname: oxidized,                 name: "ruby:oxidized" }
 - { setname: oxipng,                   name: "rust:oxipng" }
+- { setname: oxker,                    name: oxker-bin, addflavor: true }
+- { setname: oxker,                    name: rust:$0 }
 - { setname: oxygen-gtk2,              name: [oxygen-gtk+,gtk2-theme-oxygen-gtk] }
 - { setname: oxygen-gtk3,              name: [oxygen-gtk+3,gtk3-theme-oxygen-gtk] }
