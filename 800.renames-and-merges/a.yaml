@@ -45,6 +45,7 @@
 - { setname: acsccid,                  name: [pcsc-acsccid,pcsc-driver-acsccid,pcsclite-driver-acsccid] }
 - { setname: acsccid,                  name: pcsc-lite-acsccid, addflavor: true }
 - { setname: act,                      name: act-cli }
+- { setname: actdiag,                  name: python:$0 }
 - { setname: action-validator,         name: rust:$0 }
 - { setname: actiona,                  name: actionaz, ruleset: chocolatey }
 - { setname: activeio,                 name: activemq-activeio }
