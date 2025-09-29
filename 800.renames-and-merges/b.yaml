@@ -14,6 +14,7 @@
 - { setname: bacon,                    name: [rust:bacon, rust-bacon] } # different projects, split in 850
 - { setname: bacon,                    name: bacon-runtime, addflavor: true }
 - { setname: bacula,                   namepat: "bacula[0-9]*(-(?:bat|client|client-static|clientonly|common|doc|docs|fd|qt-console|server|tray-monitor|wx-console))?", addflavor: $1 }
+- { setname: baddns,                   name: python:$0 }
 - { setname: badtouch,                 name: "rust:badtouch" }
 - { setname: bagr,                     name: rust:$0 }
 - { setname: bahn-regio-entfernungsrechner, name: bahn-regio-entfernungsrechner-latest }
