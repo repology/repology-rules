@@ -96,6 +96,8 @@
 - { setname: afflib,                   name: libaff }
 - { setname: afl,                      name: [american-fuzzy-lop,afl-fuzz] }
 - { setname: afl++,                    name: aflplusplus }
+- { setname: afl++,                    name: libdislocator, addflavor: true } # part of
+- { setname: afl++,                    name: afl++-llvm, addflavor: true } # XXX: FreeBSD, misnamed
 - { setname: aften,                    name: libaften }
 - { setname: afterstep,                name: afterstep1 }
 - { setname: agar,                     name: libagar }
