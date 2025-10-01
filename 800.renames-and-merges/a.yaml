@@ -267,6 +267,8 @@
 - { setname: apfs,                     name: [linux-apfs-rw,linux-apfs-rw-dkms,linux-apfs-rw-src] }
 - { setname: aphorme,                  name: "rust:$0" }
 - { setname: apicula,                  name: [python:apicula, apycula, python:apycula, prjapicula] } # XXX: upstream problem with python package naming
+- { setname: apio,                     name: python:$0 }
+- { setname: apio,                     name: apio-udev-rules, addflavor: true }
 - { setname: apk-tools,                name: apk-tools-static, addflavor: true }
 - { setname: apk-tools,                name: alpine-apk-tools }
 - { setname: apkleaks,                 name: "python:apkleaks" }
