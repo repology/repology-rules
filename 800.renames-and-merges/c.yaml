@@ -10,7 +10,7 @@
 - { setname: c-lightning,              name: clightning }
 - { setname: c-lolcat,                 name: lolcat-c } # as per PKGBUILD from upstream repo
 - { setname: c2nim,                    name: "nim:$0" }
-- { setname: ca-certificates,          name: [ca-certs, cacert] }
+- { setname: ca-certificates,          name: [ca-certs, cacert, ca-certificates-cacert, ca-cacert, cacerts] }
 - { setname: cabal2nix,                name: haskell:$0 }
 - { setname: cabin,                    name: cabinpkg }
 - { setname: cachix,                   name: haskell:$0 }
