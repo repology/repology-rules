@@ -360,7 +360,7 @@
 - { setname: asmjit,                   name: asmjit-1.0 }
 - { setname: aspell-$1,                namepat: "aspell-dict-(.*)" }
 - { setname: aster,                    name: code-aster }
-- { setname: asterisk,                 namepat: "asterisk[0-9.-]+x?" } # e.g. asterisk-11.x from openwrt as well
+- { setname: asterisk,                 namepat: "asterisk(?:-lts)?[0-9.-]+x?" } # e.g. asterisk-11.x from openwrt as well
 - { setname: asterisk-core-sounds,     namepat: "asterisk-core-sounds-.*", ruleset: openbsd }
 - { setname: asterisk-espeak,          namepat: "(asterisk[0-9]+)-espeak", addflavor: $1 }
 - { setname: asterisk-extra-sounds,    namepat: "asterisk-extra-sounds-.*", ruleset: openbsd }
