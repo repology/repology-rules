@@ -7,6 +7,7 @@
 - { name: c-rbtree,                                                  ruleset: opensuse,    untrusted: true } # accused of fake 3.30
 - { name: c0,                                                                              noscheme: true }
 - { name: c2man,                       verpat: "2\\.[0-9]{2,}",                            incorrect: true, disposable: true } # hpux, it's 2.0.4X
+- { name: ca-certificates-mozilla,     verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: caddy,                       verpat: "[^0-9].*",                                 incorrect: true } # "caddy2" "beta10" - "2" is part of the version
 - { name: cadence,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: cadical,                     ver: "06w",                                         sink: true }
