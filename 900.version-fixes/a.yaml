@@ -331,8 +331,7 @@
 - { name: assaultcube,                 verge: "1.2.0.2.1",                                 devel: true } # https://gitlab.com/coringao/assaultcube fork
 - { name: assimp,                      ver: "5.2.5.1",                                     incorrect: true } # assimp-docs in fact
 - { name: assimp,                                                    ruleset: haikuports,  untrusted: true } # contains assimp-docs in assimp
-- { name: asterisk,                    ver: "23-testing",                                  incorrect: true }
-- { name: asterisk,                                                  ruleset: t2,          untrusted: true } # accused of fake 23-testing
+- { name: asterisk,                    verpat: "[0-9]+-(testing|current)",                 incorrect: true } # testings are in fact rolling links to X.Y.0-rcN, nobody should package that
 - { name: asterisk-chan-dongle,                                                            noscheme: true }
 - { name: asterisk-moh-opsound,        verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: asterisk-opus,               verpat: "20[0-9]{6}",                               incorrect: true } # probably another project (https://github.com/traud/asterisk-opus), but no WWW defined in OpenWrt and no tags in upstream repo
