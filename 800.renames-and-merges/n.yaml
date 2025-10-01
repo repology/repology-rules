@@ -155,7 +155,7 @@
 - { setname: nsis,                     name: nsis2 }
 - { setname: nspr,                     name: [mozilla-nspr,libnspr] }
 - { setname: nss,                      name: [mozilla-nss,libnss] }
-- { setname: nss,                      name: [$0-util, $0-softokn, $0-certs, $0-rapid], addflavor: true }
+- { setname: nss,                      name: [$0-util, $0-softokn, $0-certs, $0-cacert, $0-rapid, $0-certs-for-test], addflavor: true }
 - { setname: nss-db,                   name: [nssdb, libnss-db] }
 - { setname: nss-ldap,                 name: libnss-ldap }
 - { setname: nss-pam-ldapd,            name: nss-pam-ldapd-sasl, addflavor: true }
