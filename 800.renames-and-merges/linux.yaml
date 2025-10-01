@@ -12,9 +12,11 @@
   name:
     - kernel-latest
     - kernel-lt
+    - linux-lts-versioned
     - linux-stable
 
 - setname: linux
+  addflavor: true
   name:
     - bpftools
     - cpupower
@@ -39,10 +41,12 @@
     - kernel-vanilla
     - linux-api-headers
     - linux-desktop
+    - linux-docs
     - linux-edge
     - linux-header
     - linux-headers
     - linux-mainline
+    - linux-manual
     - linux-perf
     - linux-tools
     - linux-vanilla
@@ -55,7 +59,6 @@
     - usbip-utils
     - vanilla-kernel
     - vanilla-sources
-  addflavor: true
 
 - { setname: linux-pf, name: pf-sources }
 - { setname: linux-zen, name: [zen-sources, linux-zen-versioned] }
