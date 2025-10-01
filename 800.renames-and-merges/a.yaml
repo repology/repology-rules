@@ -154,6 +154,7 @@
 - { setname: alkimia,                  namepat: "alkimia[0-9.-]+" }
 - { setname: alkimia,                  name: [alkimia-qt4,libalkimia-qt4], addflavor: qt4 }
 - { setname: alkimia,                  name: [alkimia-qt5,libalkimia-qt5], addflavor: qt5 }
+- { setname: all-the-package-names,    name: node:$0 }
 - { setname: allacrost,                name: hero-of-allacrost }
 - { setname: allegro,                  namepat: "(?:lib)?allegro[0-9.-]*" }
 - { setname: allegro,                  namepat: "allegro[0-9.-]*-devel", weak_devel: true, nolegacy: true }
