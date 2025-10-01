@@ -19,7 +19,7 @@
 - { setname: libarcus,                 name: arcus }
 - { setname: libart-lgpl,              namepat: "libart-lgpl[0-9.-]+" }
 - { setname: libasr,                   name: [libasr-devel,libasr-snapshot], weak_devel: true, nolegacy: true }
-- { setname: libassuan,                name: libassuan1 }
+- { setname: libassuan,                name: [libassuan0, libassuan1] }
 - { setname: libatomic-ops,            name: [atomic-ops,libatomicops] }
 - { setname: libavif,                  name: avif }
 - { setname: libax25,                  name: ax25 }
