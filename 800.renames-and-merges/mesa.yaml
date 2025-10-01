@@ -6,17 +6,29 @@
 
 - setname: mesa
   name:
-    - libosmesa
     - libva-mesa-driver
+    - mesa-compat
+    - mesa3d
+    - mesalib
+    - mesalib7
+
+- setname: mesa
+  addflavor: true
+  name:
+    - libosmesa
     - libva-mesa-driver-noglvnd
     - libva-mesa-driver-vanilla
     - mesa+dri1
+    - mesa-amd-bc250
+    - mesa-clc
     - mesa-dri
     - mesa-dri1-drivers
+    - mesa-gl-headers
     - mesa-headers
     - mesa-hybris
     - mesa-hybris-libgl
     - mesa-hybris-wayland-egl
+    - mesa-libgbm
     - mesa-libgl-noglvnd
     - mesa-libgl-vanilla
     - mesa-libs
@@ -29,9 +41,14 @@
     - mesa-vdpau
     - mesa-vdpau-noglvnd
     - mesa-vdpau-vanilla
-    - mesa3d
-    - mesalib
-    - mesalib7
+    - mesa-wsl2
+    - mesa-zink
+    - mesa3d-mingw
     - opencl-mesa
     - opencl-mesa-noglvnd
     - opencl-mesa-vanilla
+    - vulkan-nouveau
+
+# do not merge:
+#   - mesa-amber (different branch)
+#   - mesa-asahi (metapackage)
