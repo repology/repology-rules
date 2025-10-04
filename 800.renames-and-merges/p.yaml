@@ -52,7 +52,7 @@
 - { setname: passenger,                name: ["ruby:passenger-apache", "ruby:passenger-nginx", "nginx:passenger","apmod:ruby26-passenger","ruby:passenger"], addflavor: true }
 - { setname: passes,                   name: passes-gtk, addflavor: true }
 - { setname: password-store,           name: [passwordstore] }
-- { setname: password-store,           name: [emacs-password-store,"emacs:password-store"], addflavor: emacs }
+- { setname: password-store,           name: "emacs:password-store", addflavor: emacs }
 - { setname: pastel,                   name: [rust:$0, python:$0, ruby:$0] }
 - { setname: pastel,                   name: jappis-pastel }
 - { setname: pasystray,                name: [pasystray-gtk2,pasystray-gtk2-standalone,pasystray-gtk3,pasystray-gtk3-standalone,pasystray-wayland] }
@@ -355,7 +355,7 @@
 - { setname: prometheus-statsd-exporter, name: [prometheus-statsd, statsd-exporter] }
 - { setname: prometheus-systemd-exporter, name: systemd-exporter }
 - { setname: prometheus-wireguard-exporter, name: [wireguard-exporter, "rust:prometheus-wireguard-exporter"] }
-- { setname: proofgeneral,             name: ["emacs:proofgeneral", emacs-common-proofgeneral] }
+- { setname: proofgeneral,             name: ["emacs:proofgeneral", "emacs:common-proofgeneral"] }
 - { setname: proot,                    name: proot-static, addflavor: true }
 - { setname: proot,                    namepat: "proot[0-9.-]+" }
 - { setname: propellor,                name: "haskell:propellor" }
