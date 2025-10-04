@@ -41,7 +41,7 @@
 # Emacs
 - { setname: "emacs:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_emacs], category: app-emacs, ruleset: [gentoo, exherbo] }
 - { setname: "emacs:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_emacs], categorypat: "emacs[0-9]*Packages", namepat: "(?:emacs-)?(.*?)", ruleset: nix }
-- { setname: "emacs:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_emacs], namepat: "emacs-(.*)", ruleset: guix }
+- { setname: "emacs:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_emacs], namepat: "emacs-(.*)", ruleset: [guix,alpine,fedora,debuntu,openmandriva] }
 
 # Erlang
 - { setname: "erlang:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_erlang], category: dev-erlang, ruleset: [ gentoo, exherbo ] }
