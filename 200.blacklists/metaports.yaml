@@ -1,7 +1,6 @@
 # vim: tabstop=20 expandtab softtabstop=20 nomodeline
 
-- { remove: true,   category: "Meta Packages/Group Packages" } # openindiana
-
+- { remove: true,   category: "Meta Packages/Group Packages", ruleset: openindiana }
 - { remove: true,   category: virtual, ruleset: [exherbo,gentoo] }
 - { remove: true,   category: java-virtuals, ruleset: [exherbo,gentoo] }
 - { remove: true,   category: app-alternatives, ruleset: gentoo }
@@ -9,60 +8,46 @@
 - { remove: true,   name: alias-font,   ruleset: freebsd }
 
 - { remove: true,   name: autotools }
-
+- { remove: true,   name: base }
 - { remove: true,   name: base-files }
-
 - { remove: true,   name: base-full }
-
 - { remove: true,   name: basesystem }
-
+- { remove: true,   name: build-essential }
 - { remove: true,   name: build-tools,  ruleset: adelie }  # like Debian 'build-essential'
 
-- { remove: true,   name: build-essential }
-
-- { remove: true,   name: cpu-microcode }
+- { remove: true,   name: [cpu-microcode,cpu-microcode-amd,cpu-microcode-rc] }
 
 - { remove: true,   name: docbook,      ruleset: [ freebsd, ravenports ] }
 
-- { remove: true,   name: gnome }
-- { remove: true,   name: gnome3 }
-- { remove: true,   name: gnome3-lite }
+- { remove: true,   name: [gnome,gnome3,gnome3-lite] }
 
 - { remove: true,   name: gnustep }
 
 - { remove: true,   name: haskell-platform, ruleset: gentoo }
 
 - { remove: true,   name: [kde-baseapps,kde-baseapps4,kde4-baseapps,kde5-baseapps] }
-
 - { remove: true,   name: [kde-education,kde-system,kde-utilities], ruleset: adelie }
 
 - { remove: true,   name: kicad-meta }
 
 - { remove: true,   name: llvm, ruleset: freebsd } # "Meta-port for the default version of the LLVM Toolchain"
 
-- { remove: true,   name: lxde }
-- { remove: true,   name: lxde-meta }
-- { remove: true,   name: lxde-metapackages }
+- { remove: true,   name: [lxde,lxde-meta,lxde-metapackages] }
 
-- { remove: true,   name: lxqt }
-- { remove: true,   name: lxqt-meta }
-- { remove: true,   name: lxqt-metapackages }
+- { remove: true,   name: [lxqt,lxqt-meta,lxqt-metapackages] }
 
-- { remove: true,   name: mate }
-- { remove: true,   name: mate-applets-meta }
+- { remove: true,   name: [mate,mate-applets-meta,mate-desktop-environment] }
+- { remove: true,   name: mate-base,     ruleset: [freebsd,mports] }
 - { remove: true,   name: mate-complete, ruleset: adelie }  # equivalent to mate-desktop-environment
-- { remove: true,   name: mate-desktop-environment }
 
 - { remove: true,   name: plasma,       category: kde-frameworks } # gentoo metaport
-
+- { remove: true,   name: plasma,       ruleset: alpine }
 - { remove: true,   name: plasma-meta }
 
 - { remove: true,   name: postgresql-common }
 
 # these are metaports pointing to "current" version of python (which is named pythonX.Y)
-- { remove: true,   name: python,       ruleset: freebsd }
-- { remove: true,   name: python2,      ruleset: freebsd }
-- { remove: true,   name: python3,      ruleset: freebsd }
+- { remove: true,   name: [python,python2,python3], ruleset: freebsd }
 
 - { remove: true,   name: rust-base,    ruleset: aosc }
 
@@ -75,9 +60,20 @@
   name:
     - task-3ddesktop
     - task-astronomy
+    - task-bootloaders
     - task-c++-devel
     - task-c-devel
     - task-cinnamon
+    - task-codec
+    - task-codecs
+    - task-common
+    - task-common-fonts
+    - task-compiz
+    - task-compiz-stable
+    - task-cosmic
+    - task-debug
+    - task-devel
+    - task-e17
     - task-edu
     - task-enlightenment
     - task-esteid
@@ -106,58 +102,115 @@
 
 - { remove: true,   name: vuze-coreplugins, ruleset: gentoo } # just a set of bundled plugins under vuze version
 
-# X11 metaports
-- { remove: true,   name: x11 }
-- { remove: true,   name: x11-app }
-- { remove: true,   name: x11-apps }
-- { remove: true,   name: x11-base }
-- { remove: true,   name: x11-font }
-- { remove: true,   name: x11-lib }
-- { remove: true,   name: x11-proto }
-- { remove: true,   name: x11-utils }
-- { remove: true,   name: xorg }
-- { remove: true,   name: xorg-app }
-- { remove: true,   name: xorg-apps }
-- { remove: true,   name: xorg-driver }
-- { remove: true,   name: xorg-drivers }
-- { remove: true,   name: xorg-drivers-minimal }
-- { remove: true,   name: xorg-font }
-- { remove: true,   name: xorg-fonts }
-- { remove: true,   name: xorg-fonts-miscbitmaps }
-- { remove: true,   name: xorg-fonts-truetype }
-- { remove: true,   name: xorg-lib }
-- { remove: true,   name: xorg-libs }
-- { remove: true,   name: xorg-libraries }
-- { remove: true,   name: xorg-misc-bitmap-fonts }
-- { remove: true,   name: xorg-truetype-fonts }
-- { remove: true,   name: xorg-x11-apps }
-- { remove: true,   name: xorg-x11-utils }
-- { remove: true,   name: xserver-xorg, ruleset: chimera }
-- { remove: true,   name: xserver-xorg-minimal, ruleset: chimera }
-- { remove: true,   name: [xorg-100dpi-fonts,xorg-fonts-100dpi], ruleset: [ freebsd, ravenports ] }
-- { remove: true,   name: [xorg-75dpi-fonts,xorg-fonts-75dpi], ruleset: [ freebsd, ravenports ] }
-- { remove: true,   name: [xorg-cyrillic-fonts,xorg-fonts-cyrillic], ruleset: [ freebsd, ravenports ] }
-- { remove: true,   name: [xorg-type1-fonts,xorg-fonts-type1], ruleset: [ freebsd, ravenports ] }
+- remove: true
+  name:
+    - x11
+    - x11-app
+    - x11-apps
+    - x11-base
+    - x11-font
+    - x11-lib
+    - x11-proto
+    - x11-utils
+    - xorg
+    - xorg-app
+    - xorg-apps
+    - xorg-cyrillic-fonts
+    - xorg-driver
+    - xorg-drivers
+    - xorg-drivers-minimal
+    - xorg-font
+    - xorg-fonts
+    - xorg-fonts-alias
+    - xorg-fonts-alias-cyrillic
+    - xorg-fonts-alias-misc
+    - xorg-fonts-cyrillic
+    - xorg-fonts-cyrillic-otb
+    - xorg-fonts-encodings
+    - xorg-fonts-misc
+    - xorg-fonts-miscbitmaps
+    - xorg-fonts-misc-otb
+    - xorg-fonts-truetype
+    - xorg-fonts-type1
+    - xorg-fonts-web-otb
+    - xorg-fonts-75dpi
+    - xorg-fonts-75dpi-otb
+    - xorg-fonts-100dpi
+    - xorg-fonts-100dpi-otb
+    - xorg-lib
+    - xorg-libs
+    - xorg-libraries
+    - xorg-misc-bitmap-fonts
+    - xorg-truetype-fonts
+    - xorg-type1-fonts
+    - xorg-x11-apps
+    - xorg-x11-utils
+    - xorg-75dpi-fonts
+    - xorg-100dpi-fonts
+
+- { remove: true,   name: [xserver-xorg,xserver-xorg-minimal], ruleset: chimera }
 
 - { remove: true,   name: [xfce-desktop,xfce-plugins], ruleset: adelie }
-
 - { remove: true,   name: [xfce,xfce4] }
 
 # openpkg uses module packs versioned after corresponding language
-- { ruleset: openpkg, namepat: "perl-.*",         remove: true }
-- { ruleset: openpkg, namepat: "python-.*",       remove: true }
+- { remove: true,   namepat: "perl-.*",   ruleset: openpkg }
+- { remove: true,   namepat: "python-.*", ruleset: openpkg }
 
 - { remove: true,   name: [gstreamer1-plugins-core, gst-core, gstreamer-plugins-core] } # custom metaports
 
-# Chimera Linux base packages
-- { remove: true,   name: base-bootstrap }
-- { remove: true,   name: base-cbuild }
-- { remove: true,   name: base-cbuild-bootstrap }
-- { remove: true,   name: base-cbuild-host }
-- { remove: true,   name: base-cross }
-- { remove: true,   name: base-desktop }
-- { remove: true,   name: base-kernel }
-- { remove: true,   name: base-locale }
-- { remove: true,   name: base-shells }
-- { remove: true,   name: base-steamdeck }
-- { remove: true,   name: base-vpsfree }
+- remove: true
+  name:
+    - base-bootstrap
+    - base-cbuild
+    - base-cbuild-bootstrap
+    - base-cbuild-host
+    - base-cross
+    - base-desktop
+    - base-doc
+    - base-kernel
+    - base-live
+    - base-locale
+    - base-man
+    - base-shells
+    - base-steamdeck
+    - base-vpsfree
+  ruleset: chimera
+
+- remove: true
+  name:
+    - desktop-common-data
+    - distro-plasma-config
+    - distro-release-desktop-plasma-mobile
+    - distro-release-desktop-plasma6
+    - distro-release-openmandriva
+    - kde4-macros
+    - mailserver-config
+    - mandriva-doc
+    - mandriva-kde-icons
+    - mandriva-kde-translations
+    - mandriva-kde4-config
+    - mandriva-lxde-config
+    - om-bug-report
+    - om-feeling-like
+    - om-update-config
+    - om-wallpaper-extra
+    - omdv-bug-report
+    - openmandriva-kde-icons
+    - openmandriva-kde-translations
+    - openmandriva-mate-config
+    - openmandriva-nevoso
+    - openmandriva-repos
+    - rpm-mandriva-setup
+    - rpm-openmandriva-setup
+  ruleset: [rosa,mageia,openmandriva]
+
+# Altlinux
+- remove: true
+  name:
+    - fonts-bitmap-100dpi
+    - fonts-bitmap-75dpi
+    - fonts-bitmap-iso8859-2
+    - fonts-bitmap-misc
+    - fonts-ttf-xorg
+    - fonts-type1-xorg

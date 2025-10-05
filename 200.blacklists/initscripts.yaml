@@ -3,3 +3,4 @@
 - { remove: true,   name: gre, ruleset: openwrt }
 - { remove: true,   name: sshtunnel, ruleset: openwrt }
 - { remove: true,   name: zram-swap, ruleset: [openwrt,sisyphus] }
+- { remove: true,   namepat: ".*-66", ruleset: artix } # occasionally get merged as versioned packages

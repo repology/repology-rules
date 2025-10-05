@@ -3,8 +3,6 @@
 - { remove: true,   name: aaa_base }
 - { remove: true,   name: qt-base,      ruleset: aosc } # https://github.com/AOSC-Dev/aosc-os-abbs/blob/explosive/extra-bases/qt-base/spec
 - { remove: true,   name: qt,           ruleset: pclinuxos } # "This package is a fake-package to provide a dependency for the google-musicmanager-beta_current_x86_64.rpm"
-- { remove: true,   name: base,         ruleset: distri } # just a bunch of runtime deps
-- { remove: true,   name: base-devel }
 - { remove: true,   name: baselayout }
 - { remove: true,   name: baseinit }
 - { remove: true,   name: rails5,       ruleset: rubygems }
@@ -12,7 +10,6 @@
 - { remove: true,   name: elrepo-release }
 - { remove: true,   name: zp,           ruleset: opensuse } # just a shorter alias for zypper
 - { remove: true,   name: genpatch,     ruleset: [freebsd,ravenports] } # freebsd or ravenports specific utils
-- { remove: true,   namepat: ".*-66",   ruleset: artix } # init scripts which occasionally get merged as versioned packages
 - { remove: true,   namepat: "autoselect-.*", ruleset: ravenports }
 - { remove: true,   name: libusbmuxd6,  ruleset: aur } # just library symlinks
-- { remove: true,   name: contrib-placeholder } # only there to deal with the removal of contrib repository in Chimera Linux
+- { remove: true,   name: contrib-placeholder, ruleset: chimera } # only there to deal with the removal of contrib repository in Chimera Linux
