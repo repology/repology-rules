@@ -78,8 +78,8 @@
 
 - { noflag: no_suffix, ruleset: kaos,            namepat: "(.*)-debug", setname: $1, addflavor: debug }
 
-- { noflag: no_suffix, ruleset: [libregamewiki,fdroid,ruckzuck], replaceinname: { " ": "-", "!": "", ",": "", ":": "", "'": "", ".": "", "(": "", ")": "" } }
-- { noflag: no_suffix, ruleset: [libregamewiki,fdroid,ruckzuck], replaceinname: { "---": "-" } }
+- { noflag: no_suffix, ruleset: [libregamewiki,fdroid], replaceinname: { " ": "-", "!": "", ",": "", ":": "", "'": "", ".": "", "(": "", ")": "" } }
+- { noflag: no_suffix, ruleset: [libregamewiki,fdroid], replaceinname: { "---": "-" } }
 
 - { noflag: no_suffix, ruleset: macports,        namepat: "(.*)-devel", setname: $1, weak_devel: true, nolegacy: true }
 

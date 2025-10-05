@@ -95,7 +95,6 @@ families = [
     'reactos',
     'rosa',
     'rubygems',
-    'ruckzuck',
     'rudix',
     'sagemath',
     'salix',

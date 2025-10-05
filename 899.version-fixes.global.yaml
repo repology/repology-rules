@@ -116,9 +116,6 @@
 # says version 0.37 while pointing to 0.35 tarball
 - {                                                                  ruleset: npackd,      untrusted: true }
 
-# fake versions for popular packages (openvpn, python), no information to verify versions
-- {                                                                  ruleset: ruckzuck,    untrusted: true }
-
 # abandoned, 50% outdated, ignores flags, not a source of trusted new versions
 - {                                                                  ruleset: freshcode,   untrusted: true }
 
