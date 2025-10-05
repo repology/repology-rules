@@ -29,7 +29,6 @@ families = [
     'adelie',
     'aix',
     'alpine',
-    'anitya',
     'aosc',
     'appget',
     'arch',
