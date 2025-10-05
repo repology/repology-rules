@@ -8,7 +8,7 @@
 - { verpat: ".*(?:alpha|beta|dev|rc|pre[a-z]*)(?:[0-9._-].*)?$",                           devel: true }
 - { verpat: ".*9999",                                                ruleset: gentoo,      rolling: true }
 - { verpat: "9999.*",                                                ruleset: postmarketos, rolling: true }
-- { ver: "git",                                                      ruleset: [kiss,carbs,glaucus,noir], rolling: true }
+- { ver: "git",                                                      ruleset: [carbs,glaucus,noir], rolling: true }
 - { ver: "nightly",                                                                        rolling: true } # e.g. scoop
 
 # global vcs snapshot ignore

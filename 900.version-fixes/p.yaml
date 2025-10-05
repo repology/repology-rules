@@ -179,7 +179,6 @@
 - { name: pipewalker,                                                ruleset: debuntu,     untrusted: true } # accused of fake 0.9.5
 - { name: pipewire,                    verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: pipewire,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: pipewire,                    verpat: ".*\\+.*",            ruleset: kiss,        incorrect: true }
 - { name: pitivi,                      verpat: "[0-9.]+",                                  devel: false } # all versions beta nonsense
 - { name: piu-piu-sh,                                                                      noscheme: true }
 - { name: pkg-config,                  verge: "1.6.0",                                     incorrect: true } # pkgconf actually (ravenports, cygwin); XXX: problem
@@ -328,7 +327,6 @@
 - { name: premake,                     verpat: ".*[ab].*",                                 devel: true }
 - { name: premake,                     verpat: ".*[ab]",                                   incorrect: true } # (kiss) 5.0.0-alpha16, not 5.0.0a
 - { name: premake,                     ver: "5.0.0a",                                      sink: true, disposable: true }
-- { name: premake,                                                   ruleset: kiss,        untrusted: true } # accused of fake 5.0.0a
 - { name: premake,                     ver: "5.0.0",                 ruleset: [chromebrew,fedora], incorrect: true }
 - { name: premake,                                                   ruleset: [chromebrew,fedora], untrusted: true } # accused of fake 5.0.0
 - { name: prettier-ada,                verpat: ".*w",                                      devel: true }

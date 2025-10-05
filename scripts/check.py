@@ -64,7 +64,6 @@ families = [
     'hpux',
     'ibmi',
     'kaos',
-    'kiss',
     'libregamewiki',
     'luarocks',
     'lunar',

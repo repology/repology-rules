@@ -78,8 +78,6 @@
 
 - { noflag: no_suffix, ruleset: kaos,            namepat: "(.*)-debug", setname: $1, addflavor: debug }
 
-- { noflag: no_suffix, ruleset: kiss,            namepat: "(.*)-git", ver: "git", setname: $1 } # Note: rolling status set for 'git' versions in 899 ruleset
-
 - { noflag: no_suffix, ruleset: [libregamewiki,fdroid,ruckzuck], replaceinname: { " ": "-", "!": "", ",": "", ":": "", "'": "", ".": "", "(": "", ")": "" } }
 - { noflag: no_suffix, ruleset: [libregamewiki,fdroid,ruckzuck], replaceinname: { "---": "-" } }
 

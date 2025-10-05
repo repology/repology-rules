@@ -272,8 +272,8 @@
 - { name: soil,                                                                            noscheme: true } # distfile unversioned; "alternate makefile" mentions 1.07-20071110, bit that's not reliable and is likely outdated since website mentions 2008; ancient garbage anyway
 - { name: soju,                        verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: solaar,                      verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]{3,}",     ignore: true } # FreeBSD snapshot
-- { name: solarus,                     ver: "1.6.5",                  ruleset: [aur,kiss], incorrect: true }
-- { name: solarus,                                                    ruleset: [aur,kiss], untrusted: true } # accused of fake 1.6.5
+- { name: solarus,                     ver: "1.6.5",                  ruleset: aur,        incorrect: true }
+- { name: solarus,                                                    ruleset: aur,        untrusted: true } # accused of fake 1.6.5
 - { name: solvespace,                  verpat: ".*[0-9]{8}.*",                             ignore: true } # nix garbage
 - { name: sonarr,                      ver: "4.0.9.2513",            ruleset: [gentoo, chocolatey], incorrect: true } # develop version
 - { name: sonarr,                                                    ruleset: [gentoo, chocolatey], untrusted: true } # accused of packaging develop versions
