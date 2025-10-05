@@ -127,8 +127,6 @@
 - { name: ipbt,                        verpat: "([0-9]{8})\\.[0-9a-f]+",                   setver: "$1" } # remove commit hashes and revisions
 - { name: iperf2,                      ver: "2.0.14a",               ruleset: gentoo,      incorrect: true } # 2.0.13
 - { name: iperf2,                                                    ruleset: gentoo,      untrusted: true } # accused of fake 2.0.14a
-- { name: iperf2,                      ver: "3.9",                   ruleset: ataraxia,    incorrect: true }
-- { name: iperf2,                                                    ruleset: ataraxia,    untrusted: true } # accused of fake 3.9
 - { name: ipmicfg,                     verlonger: 3,                                       altver: true }
 - { name: ipmitool,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: ipmiview,                    verlonger: 3,                                       altver: true }

@@ -379,7 +379,6 @@
 - { name: ftjam,                       ver: "2.5.3",                 ruleset: kiss,        incorrect: true }
 - { name: ftjam,                                                     ruleset: kiss,        untrusted: true } # accused of fake 2.5.3
 - { name: functionalplus,                                                                  p_is_patch: true } # https://github.com/Dobiasd/FunctionalPlus/tags
-- { name: fuse,                        verpat: "20[0-9]{6}",         ruleset: ataraxia,    ignore: true } # artifical package with stuff common to fuse and fuse2
 - { name: fuse,                        ver: "3.9.4",                                       setver: "3.9.3", disposable: true } # This was an "accidental" release, it is equivalent to 3.9.3.
 - { name: "fusefs:darling-dmg",        verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: "fusefs:darling-dmg",        verpat: ".+20[0-9]{6}",                             snapshot: true }

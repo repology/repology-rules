@@ -31,7 +31,6 @@ families = [
     'alpine',
     'aosc',
     'arch',
-    'ataraxia',
     'baulk',
     'buckaroo',  # removed in fact, may want to garbage collect rules at some point
     'buildroot',

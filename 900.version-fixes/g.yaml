@@ -350,8 +350,6 @@
 - { name: grub,                        ver: "2.03.0",                ruleset: manjaro,     incorrect: true } # 2.02rcX
 - { name: grub,                                                      ruleset: manjaro,     untrusted: true }
 - { name: grub,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: grub,                        ver: "2.05",                  ruleset: ataraxia,    incorrect: true }
-- { name: grub,                                                      ruleset: ataraxia,    untrusted: true } # accused of fake 2.05
 - { name: grub,                        verpat: "0\\.97.+",                                 snapshot: true } # garbage version in legacy branch
 - { name: grub-customizer,             ver: "5.0.7",                 ruleset: debuntu,     incorrect: true } # mx and sparky, actually
 - { name: grub-customizer,                                           ruleset: debuntu,     untrusted: true }

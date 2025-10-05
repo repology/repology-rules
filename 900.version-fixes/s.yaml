@@ -60,7 +60,6 @@
 - { name: scons,                       ver: "4.20",                  ruleset: kaos,        incorrect: true }
 - { name: scons,                                                     ruleset: kaos,        untrusted: true } # accused of fake 4.20
 - { name: scour,                       ver: "038.1",                                       incorrect: true }
-- { name: scour,                                                     ruleset: ataraxia,    untrusted: true } # accused if fake 038.1
 - { name: scponly,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: screen,                      ver: "5.0.1.2",               ruleset: openbsd,     incorrect: true }
 - { name: screen,                                                    ruleset: openbsd,     untrusted: true } # accused of fake 5.0.1.2
@@ -494,8 +493,6 @@
 - { name: system-config-printer,                                     ruleset: openindiana, untrusted: true } # accused of fake 2.30.0
 - { name: system-config-printer,       ver: "1.5.12.80",             ruleset: kaos,        incorrect: true }
 - { name: system-config-printer,                                     ruleset: kaos,        untrusted: true } # accused of fake 1.5.12.80
-- { name: system-config-printer,       ver: "1.15.13",               ruleset: ataraxia,    incorrect: true }
-- { name: system-config-printer,                                     ruleset: ataraxia,    untrusted: true } # accused of fake 1.15.13
 - { name: system76-acpi-dkms,          verlonger: 3,                 ruleset: nix,         incorrect: true } # appends kernel version
 - { name: system76-dkms,               verlonger: 3,                 ruleset: nix,         incorrect: true } # appends kernel version
 - { name: systemd,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
