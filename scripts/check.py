@@ -32,14 +32,14 @@ families = [
     'aosc',
     'arch',
     'baulk',
-    'buildroot',
+    'buildroot', # no parser
     'carbs',
     'centos',
     'chimera',
     'chocolatey',
     'chromebrew',
     'conan',
-    'conda',
+    'conda', # no parser
     'cpan',
     'cran',
     'crates_io',
