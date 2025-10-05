@@ -53,7 +53,6 @@ families = [
     'fedora',
     'freebsd',
     'freshcode', # dead
-    'fsd',
     'gentoo',
     'glaucus',
     'gobolinux',
