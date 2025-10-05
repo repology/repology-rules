@@ -31,10 +31,6 @@
 - { noflag: no_suffix, ruleset: mpr,             namepat: "(.*)-(bin)", setname: $1, addflavor: $2 }
 - { noflag: no_suffix, ruleset: aur,             namepat: "(android-(?:aarch64|armv7a-eabi|riscv64|x86(?:-64)?))-(?!system-image|64)(.*?)", setname: $2, addflavor: $1 }
 
-- { noflag: no_suffix, ruleset: buckaroo,        wwwpart: boost.org, setname: boost, addflavor: $0 }
-- { noflag: no_suffix, ruleset: buckaroo,        wwwpart: pocoproject.org, setname: poco, addflavor: $0 }
-- { noflag: no_suffix, ruleset: buckaroo,        wwwpart: sfml-dev.org, setname: sfml, addflavor: $0 }
-
 - { noflag: no_suffix, ruleset: carbs,           namepat: "(.*)-git", ver: "git", setname: $1, rolling: true }
 
 - { noflag: no_suffix, ruleset: chromebrew,      namepat: "musl_(.*)", setname: $1, addflavor: musl }

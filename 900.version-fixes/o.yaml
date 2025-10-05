@@ -153,7 +153,6 @@
 - { name: openssh,                     ver: "9.7.1_p1",              ruleset: chimera,     incorrect: true }
 - { name: openssh,                                                   ruleset: chimera,     untrusted: true } # accused of fake 9.7.1_p1
 - { name: openssh,                                                   ruleset: scoop,       untrusted: true } # accused of fake 8.9.1.0p1
-- { name: openssl,                     verpat: "([0-9]+\\.){2}[0-9]{2,}",                  incorrect: true } # buckaroo's 1.0.211
 - { name: openssl,                                                   ruleset: liguros,     incorrect: true } # fakes libressl as openssl
 - { name: openssl,                     verpat: "([0-9]+\\.){3}[0-9]+",                     incorrect: true, vulnerable: true } # 1.1.1.11
 - { name: openssl,                     verpat: "([0-9]+\\.){3}[a-z]",                      incorrect: true, vulnerable: true } # 1.1.1.i
