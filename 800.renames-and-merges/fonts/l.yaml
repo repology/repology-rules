@@ -186,6 +186,7 @@
     - lohit-assamese
     - lohit-assamese-fonts
     - xorg-font-ttf-lohit-assamese
+    - fonts-lohit-beng-assamese
 
 - setname: "fonts:lohit-bengali"
   name:
@@ -193,17 +194,15 @@
     - lohit-bengali
     - lohit-bengali-fonts
     - xorg-font-ttf-lohit-bengali
+    - fonts-lohit-beng-bengali
 
 - setname: "fonts:lohit-devanagari"
   name:
     - fonts-ttf-lohit-devanagari
     - lohit-devanagari
     - lohit-devanagari-fonts
-    - xorg-font-ttf-lohit-bengali
-
-- setname: "fonts:lohit-fonts"
-  name:
-    - lohit-fonts
+    - xorg-font-ttf-lohit-devanagari
+    - fonts-lohit-deva
 
 - setname: "fonts:lohit-gujarati"
   name:
@@ -211,9 +210,6 @@
     - lohit-gujarati
     - lohit-gujarati-fonts
     - xorg-font-ttf-lohit-gujarati
-
-- setname: "fonts:lohit-gujr"
-  name:
     - fonts-lohit-gujr
 
 - setname: "fonts:lohit-gurmukhi"
@@ -221,9 +217,6 @@
     - fonts-ttf-lohit-gurmukhi
     - lohit-gurmukhi
     - lohit-gurmukhi-fonts
-
-- setname: "fonts:lohit-guru"
-  name:
     - fonts-lohit-guru
 
 - setname: "fonts:lohit-kannada"
@@ -233,18 +226,7 @@
     - lohit-kannada-fonts
     - ttf-lohit-kannada
     - xorg-font-ttf-lohit-kannada
-
-- setname: "fonts:lohit-kashmiri"
-  name:
-    - lohit-kashmiri
-
-- setname: "fonts:lohit-konkani"
-  name:
-    - lohit-konkani
-
-- setname: "fonts:lohit-maithili"
-  name:
-    - lohit-maithili
+    - fonts-lohit-knda
 
 - setname: "fonts:lohit-malayalam"
   name:
@@ -252,22 +234,21 @@
     - lohit-malayalam
     - lohit-malayalam-fonts
     - xorg-font-ttf-lohit-malayalam
+    - fonts-lohit-mlym
 
 - setname: "fonts:lohit-marathi"
   name:
     - fonts-ttf-lohit-marathi
     - lohit-marathi
     - lohit-marathi-fonts
-
-- setname: "fonts:lohit-mlym"
-  name:
-    - fonts-lohit-mlym
+    - fonts-lohit-deva-marathi
 
 - setname: "fonts:lohit-nepali"
   name:
     - fonts-ttf-lohit-nepali
     - lohit-nepali
     - lohit-nepali-fonts
+    - fonts-lohit-deva-nepali
 
 - setname: "fonts:lohit-odia"
   name:
@@ -280,9 +261,6 @@
     - fonts-ttf-lohit-oriya
     - lohit-oriya-fonts
     - xorg-font-ttf-lohit-oriya
-
-- setname: "fonts:lohit-orya"
-  name:
     - fonts-lohit-orya
 
 - setname: "fonts:lohit-punjabi"
@@ -291,16 +269,13 @@
     - lohit-punjabi-fonts
     - xorg-font-ttf-lohit-punjabi
 
-- setname: "fonts:lohit-sindhi"
-  name:
-    - lohit-sindhi
-
 - setname: "fonts:lohit-tamil"
   name:
     - fonts-ttf-lohit-tamil
     - lohit-tamil
     - lohit-tamil-fonts
     - xorg-font-ttf-lohit-tamil
+    - fonts-lohit-taml
 
 - setname: "fonts:lohit-tamil-classical"
   name:
@@ -308,6 +283,7 @@
     - lohit-tamil-classical
     - lohit-tamil-classical-fonts
     - xorg-font-ttf-lohit-tamil-classical
+    - fonts-lohit-taml-classical
 
 - setname: "fonts:lohit-telugu"
   name:
@@ -316,10 +292,7 @@
     - lohit-telugu-fonts
     - ttf-lohit-telugu
     - xorg-font-ttf-lohit-telugu
-
-- setname: "fonts:lohit-ttf"
-  name:
-    - lohit-ttf
+    - fonts-lohit-telu
 
 - setname: "fonts:luculent"
   name:
