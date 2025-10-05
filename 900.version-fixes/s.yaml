@@ -311,7 +311,7 @@
 - { name: speex,                       ver: "1.2.1",                 ruleset: deepin,      incorrect: true }
 - { name: speex,                                                     ruleset: deepin,      untrusted: true } # accused of fake 1.2.1
 - { name: speexdsp,                    ver: "1.2.0.3",                                     incorrect: true } # it's 1.2rc3
-- { name: speexdsp,                                                  ruleset: [sisyphus,mageia,openmandriva,pld,mer], untrusted: true } # accused of fake 1.2
+- { name: speexdsp,                                                  ruleset: [sisyphus,mageia,openmandriva,pld], untrusted: true } # accused of fake 1.2
 - { name: spek,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]+_[0-9a-f]{10}",    ignore: true }
 - { name: sphinxbase,                  ver: "0.9",                                         incorrect: true } # 5prealpha
 - { name: spi-tools,                   ver: "1",                                           incorrect: true } # https://github.com/cpb-/spi-tools/releases

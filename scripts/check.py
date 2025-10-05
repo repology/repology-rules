@@ -68,7 +68,6 @@ families = [
     'luarocks',
     'macports',
     'mageia',
-    'mer',
     'mpr',
     'msys2',
     'nix',
