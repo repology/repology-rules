@@ -116,7 +116,6 @@ families = [
     'wikidata',
     'winget',
     'yacp',
-    'yiffos',
 ]
 
 rulesets = families + [
