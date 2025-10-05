@@ -52,7 +52,7 @@ families = [
     'fdroid',
     'fedora',
     'freebsd',
-    'freshcode',
+    'freshcode', # dead
     'fsd',
     'gentoo',
     'glaucus',
