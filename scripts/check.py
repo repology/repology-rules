@@ -47,7 +47,6 @@ families = [
     'cygwin',
     'debuntu',
     'distri',
-    'distrowatch',
     'elpa',
     'exherbo',
     'fdroid',

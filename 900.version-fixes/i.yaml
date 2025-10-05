@@ -25,7 +25,7 @@
 - { name: icemon,                      verpat: "[0-9a-f]{7}",                              incorrect: true }
 - { name: ices,                        verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: icestorm,                                                                        noscheme: true }
-- { name: icewm,                       ver: ["1.4.3","1.4.3.0"],     ruleset: [debuntu,distrowatch], incorrect: true } # no such release
+- { name: icewm,                       ver: ["1.4.3","1.4.3.0"],     ruleset: debuntu,     incorrect: true } # no such release
 - { name: icon,                        verpat: "[0-9]{3}",                                 ignore: true } # XXX: transform + problem
 - { name: icu-le-hb,                   verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: id3lib,                      verpat: ".+20[0-9]{6}",                             snapshot: true }
