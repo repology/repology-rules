@@ -1,5 +1,7 @@
 # vim: tabstop=15 expandtab softtabstop=15 nomodeline
 
+- { category: darwin,        ruleset: nix,                 remove: true }
+
 - { name: agenda,            ruleset: homebrew_casks,      remove: true }
 - { name: alfred,            ruleset: homebrew_casks,      remove: true }
 - { name: ammonite,          ruleset: homebrew_casks,      remove: true }
