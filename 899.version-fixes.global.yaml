@@ -89,7 +89,6 @@
 - { verpat: "20[0-9]{6}-[0-9a-f]{8}",                                ruleset: macports,    ignore: true }
 - { verpat: "(git|hg)-(20[0-9]{2}-[0-9]{2}-[0-9]{2})",               ruleset: nix,         setver: $2, snapshot: true } # see repology#854
 - { verpat: ".*-wrapper",                                            ruleset: nix,         ignore: true }
-- { verpat: ".*latest.*",                                            ruleset: justinstall, rolling: true }
 - { verpat: ".*r.*", namepat: "php:.*",                              ruleset: freebsd,     devel: true }
 - { verpat: ".*\\.[rab][0-9]+",                                      ruleset: freebsd,     ignore: true } # XXX: FreeBSD DISTVERSION
 - { verpat: "5\\.[0-9]{2}\\.0",                                      ruleset: kaos_build,  untrusted: true } # accused of faking -rc versions of KDE stuff as release

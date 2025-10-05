@@ -63,7 +63,6 @@ families = [
     'homebrew_casks',
     'hpux',
     'ibmi',
-    'justinstall',
     'kaos',
     'kiss',
     'libregamewiki',

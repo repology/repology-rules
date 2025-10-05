@@ -206,8 +206,8 @@
 - { name: knotes,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kodi,                        verpat: "18.*alpha.*",        ruleset: guix,        ignore: true }
 - { name: kodi,                        verpat: ".*[ab].*",                                 devel: true }
-- { name: kodi,                        ver: "19.0",                  ruleset: [rpm,justinstall], incorrect: true }
-- { name: kodi,                                                      ruleset: [rpm,justinstall], untrusted: true } # accused of fake 19.0
+- { name: kodi,                        ver: "19.0",                  ruleset: rpm,         incorrect: true }
+- { name: kodi,                                                      ruleset: rpm,         untrusted: true } # accused of fake 19.0
 - { name: kodi-addon-inputstream-adaptive, verge: "18",              ruleset: sisyphus,    incorrect: true }
 - { name: kodi-addon-pvr-hts,          verge: "18",                  ruleset: sisyphus,    incorrect: true }
 - { name: kodi-addon-pvr-iptvsimple,   verge: "18",                  ruleset: sisyphus,    incorrect: true }
