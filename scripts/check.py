@@ -74,7 +74,6 @@ families = [
     'justinstall',
     'kaos',
     'kiss',
-    'kwort',
     'libregamewiki',
     'luarocks',
     'lunar',

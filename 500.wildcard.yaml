@@ -161,7 +161,7 @@
 - { setname: "octave:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_octave], namepat: "(.*)-oct([0-9]{3})?", ruleset: fink, addflavor: $2 }
 
 # Perl
-- { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "p5-(.*)", ruleset: [crux,freebsd,macports,openbsd,pkgsrc,kwort] }
+- { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "p5-(.*)", ruleset: [crux,freebsd,macports,openbsd,pkgsrc] }
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "p5.[0-9]+-(.*)", ruleset: macports }
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "lib(.*)-perl", ruleset: debuntu }
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "perl-(.*)", ruleset: [adelie,alpine,aosc,arch,chakra,centos,cygwin,fedora,gobolinux,guix,kaos,mageia,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds,pld,aix,slitaz,openwrt,pisi,void,conda,solus,salix,msys2_msys2,msys2_mingw,msys2_clang64,msys2_clangarm64,msys2_ucrt64,t2,mer,distri,kiss,ataraxia,openmamba,spack,yiffos,glaucus,buildroot,chimera] }
@@ -202,7 +202,7 @@
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python-(.*)", ruleset: [centos,cygwin,debuntu,gobolinux,mageia,ravenports,rudix,slitaz,openwrt,slackware,conda,salix,t2,mer,kiss,chakra,carbs,ataraxia,openmamba,yacp,yiffos,termux,buildroot,chimera,homebrew,msys2_msys2,serpentos,tincan] }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python3?-module-(.*)", ruleset: sisyphus }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python(2)?-(.*)", ruleset: [arch,guix,openmandriva,lunar,msys2_mingw,msys2_clang64,msys2_clangarm64,msys2_ucrt64], addflavor: $1 }
-- { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python(3)?-(.*)", ruleset: [crux,fedora,opensuse,rosa,pld,pisi,void,solus,pclinuxos,kwort,aix], addflavor: $1 }
+- { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python(3)?-(.*)", ruleset: [crux,fedora,opensuse,rosa,pld,pisi,void,solus,pclinuxos,aix], addflavor: $1 }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python([23])?-(.*)", ruleset: [slackbuilds], addflavor: $1 }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python([0-9]\\.[0-9]{1,2})-(.*)", ruleset: nix, addflavor: $1 }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "py[23]?-(.*)", ruleset: [alpine,adelie] }
