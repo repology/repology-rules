@@ -30,7 +30,6 @@ families = [
     'aix',
     'alpine',
     'aosc',
-    'appget',
     'arch',
     'ataraxia',
     'baulk',
