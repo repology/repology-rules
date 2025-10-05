@@ -66,7 +66,6 @@ families = [
     'kaos',
     'libregamewiki',
     'luarocks',
-    'lunar',
     'macports',
     'mageia',
     'mer',
