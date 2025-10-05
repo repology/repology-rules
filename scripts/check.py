@@ -35,7 +35,6 @@ families = [
     'buildroot',
     'carbs',
     'centos',
-    'chakra',
     'chimera',
     'chocolatey',
     'chromebrew',

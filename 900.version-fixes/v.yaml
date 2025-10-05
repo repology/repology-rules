@@ -97,8 +97,6 @@
 - { name: vpcs,                        verpat: ".*20[0-9]{6}",                             snapshot: true } # macports
 - { name: vpnc,                        ver: "0.5.3.5",               ruleset: kaos,        incorrect: true } # fake
 - { name: vpnc,                                                      ruleset: kaos,        untrusted: true } # accused of fake 0.5.3.3, 0.5.3.5
-- { name: vpnc,                        ver: "0.5.3.1",               ruleset: chakra,      incorrect: true } # fake
-- { name: vpnc,                                                      ruleset: chakra,      untrusted: true } # accused of fake 0.5.3.1
 - { name: vpnc,                        verpat: "0.5.3.*p.*",                               snapshot: true }
 - { name: vscode,                      verpat: "([0-9]+\\.){3}[0-9a-f]{6}.*",              incorrect: true } # winget garbage
 - { name: vscode,                      verpat: "[0-9]+",                                   incorrect: true } # aur garbage

@@ -19,7 +19,7 @@
 
 - { noflag: no_suffix, ruleset: apertis,         namepat: "(.*)-gplv2", setname: $1 }
 
-- { noflag: no_suffix, ruleset: [arch,chakra],   namepat: "lib32-(.*)", setname: $1, addflavor: lib32 }
+- { noflag: no_suffix, ruleset: arch,            namepat: "lib32-(.*)", setname: $1, addflavor: lib32 }
 - { noflag: no_suffix, ruleset: arch,            namepat: "(.*)-multilib", setname: $1, addflavor: multilib }
 
 - { noflag: no_suffix, ruleset: artix,           namepat: "(.*)-(openrc|runit|s6)", addflag: not_wildcard }

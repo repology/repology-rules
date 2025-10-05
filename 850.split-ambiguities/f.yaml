@@ -164,7 +164,7 @@
 - { name: fog, addflag: unclassified }
 
 - { name: foomatic, ruleset: [sisyphus,aosc,gobolinux], remove: true } # metapackages
-- { name: foomatic, ruleset: [centos,fedora,chakra], setname: foomatic-db-engine } # metapackages
+- { name: foomatic, ruleset: [centos,fedora], setname: foomatic-db-engine } # metapackages
 - { name: foomatic, addflag: unclassified }
 
 - { name: forecast, wwwpart: cosmic-utils, setname: cosmic:forecast }

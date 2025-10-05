@@ -414,7 +414,6 @@
 - { name: cutecom,                                                   ruleset: [opensuse,freebsd], untrusted: true } # accused of fake 0.60.0
 - { name: cutegram,                    ver: "2.99",                                        incorrect: true }
 - { name: cutegram,                    ver: "2.9.5",                                       devel: true }
-- { name: cutegram,                    vergt: "2.9.5",               ruleset: chakra,      ignore: true } # my provide other devel versions
 - { name: cutter-unittest,             releq: "1.2.9",               ruleset: aur,         incorrect: true }
 - { name: cutter-unittest,                                           ruleset: aur,         untrusted: true } # accused of fake 1.2.9
 - { name: cutycapt,                                                                        noscheme: true }
