@@ -21,6 +21,8 @@
 - { name: ndpi,                        verpat: "2\\.2\\.2\\..*",                           incorrect: true }
 - { name: ndppd,                       verlonger: 3,                 ruleset: opensuse,    incorrect: true } # fake 0.2.5.43
 - { name: neatvnc,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
+- { name: neatvnc,                     ver: "0.10",                  ruleset: chromebrew,  incorrect: true }
+- { name: neatvnc,                                                   ruleset: chromebrew,  untrusted: true } # accused of fake 0.10
 - { name: nekohtml,                    verpat: ".*noko[0-9]+",                             any_is_patch: true }
 - { name: neochat,                     verpat: ".*\\.[89][0-9]",                           devel: true }
 - { name: neofetch,                    verpat: "20[0-9]{6}.*",                             incorrect: true } # aosc, slackware
