@@ -44,6 +44,7 @@
 - { setname: "lua:luassert",           namepat: ".*luassert", addflag: not_lua }
 - { addflag: not_lua,                  name: lua }
 - { addflag: not_lua,                  name: lua-macros }
+- { addflag: not_lua,                  name: lua-mode }
 - { addflag: not_lua,                  name: lua-language-server }
 
 - { setname: meld,                     name: meld3, wwwpart: meldmerge } # XXX: create problem; this is wrongly named
