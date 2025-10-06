@@ -225,6 +225,7 @@ flags = [
     'not_fonts',
     'not_fortunes',
     'not_fusefs',
+    'not_gap',
     'not_ghidra',
     'not_gimp',
     'not_gnome',
