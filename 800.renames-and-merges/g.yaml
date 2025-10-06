@@ -20,7 +20,6 @@
 - { setname: ganglia-web,              name: ganglia-webfrontend } # XXX: invented name
 - { setname: ganttproject,             name: ganttproject-bin, addflavor: true }
 - { setname: gap,                      namepat: "gap[0-9.-]+(data|doc|packages)?", addflavor: $1 }
-- { setname: gap-$1,                   namepat: "gap-pkg-(.*)" } # may belong to 500.wildcard ruleset if fact
 - { setname: garcon,                   name: [garcon-gtk3,libgarcon,xfce4-garcon], addflavor: true }
 - { setname: garden,                   name: rust:garden-tools }
 - { setname: gargoyle,                 name: garglk }

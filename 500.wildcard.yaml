@@ -62,6 +62,7 @@
 
 # Gap
 - { setname: "gap:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_gap], category: app-emacs, ruleset: gentoo }
+- { setname: "gap:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_gap], namepat: "gap-pkg-(.*)", ruleset: fedora }
 
 # Ghidra
 - { setname: "ghidra:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ghidra], namepat: "ghidra-extension-(.*)" }
