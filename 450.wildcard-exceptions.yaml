@@ -89,11 +89,6 @@
 - { addflag: not_python,               name: python-slip }
 - { addflag: not_python,               name: python-launcher }
 
-# python package manager vs. program wrapper (which was renamed to pipo upstream)
-# XXX: generate problem from this
-- { setname: pipo,                     name: pip, ruleset: arch }
-- { setname: pipo,                     name: pip, ruleset: gentoo, category: app-misc }
-
 - { addflag: not_r,                    name: r-app }
 - { addflag: not_r,                    name: r-base }
 - { addflag: not_r,                    name: r-devel }
