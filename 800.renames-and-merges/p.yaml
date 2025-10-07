@@ -182,7 +182,11 @@
 - { setname: pinta,                    name: $0-gtk3, addflavor: true }
 - { setname: pioneer,                  name: pioneerspacesim }
 - { setname: pip,                      name: ["python:pip", pip3, "python:pip-compat"] }
-- { setname: pip,                      name: ["python:pip-py27", python2-pip], addflavor: py2 }
+- { setname: pip,                      namepat: "python[0-9.]*-pip", addflavor: true }
+- { setname: pip,                      name: ["python:pip-py27", python2-pip, pip2], addflavor: py2 }
+- { setname: pip,                      name: "python:ensurepip-pip", addflavor: ensurepip }
+- { setname: pip,                      name: "python:pip-wheel", addflavor: wheel }
+- { setname: pip,                      name: "python:bootstrapped-pip", addflavor: bootstraped }
 - { setname: pipenv,                   name: "python:pipenv" }
 - { setname: pipewire,                 namepat: "(lib)?pipewire[0-9.-]*", addflavor: $1 }
 - { setname: pipewire,                 name: [pipewire-common,pipewire-full,pipewire-codec-aptx,pipewire-aptx,pipewire-native-jack,pipewire-alsa], addflavor: true }
