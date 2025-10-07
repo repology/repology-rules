@@ -228,6 +228,7 @@
 - { setname: glibmm,                   name: glib2mm }
 - { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9.-]*" }
 - { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9.-]*(-docs|-reference)", addflavor: docs }
+- { setname: glibmm,                   name: glibmm-gtk3 }
 - { setname: glimpse,                  name: glimpse-editor }
 - { setname: glimpse,                  name: glimpse-with-plugins, addflavor: true }
 - { setname: glitter,                  name: glitter-git-tool }
