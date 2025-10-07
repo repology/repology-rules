@@ -436,6 +436,10 @@
 - { setname: "python:waitress",        name: waitress } # CVE
 - { setname: "python:webob",           namepat: "python:webob[0-9.-]+" }
 - { setname: "python:werkzeug",        name: werkzeug } # XXX: make upstream use prefix
+- { setname: "python:wheel",           name: wheel }
+- { setname: "python:wheel",           namepat: "python[0-9.]*-wheel" }
+- { setname: "python:wheel",           namepat: "python:wheel[0-9]*" }
+- { setname: "python:wheel",           name: "python:ensurepip-wheel", addflavor: ensurepip }
 - { setname: "python:wxpython",        namepat: "(?:python:)?wxpython[0-9.-]*" }
 - { setname: "python:wxpython",        name: [wxpython-phoenix, wxpythongtk] }
 - { setname: "python:wxpython",        name: [wxpython-gtk2, wxpython-nuitka], addflavor: true }
