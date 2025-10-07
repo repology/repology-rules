@@ -225,10 +225,8 @@
 - { setname: glibc,                    namepat: "glibc[0-9.-]*" }
 - { setname: glibc,                    name: compat-glibc }
 - { setname: glibc,                    name: [glibc-doc-reference,glibc-gd,glibc-info,glibc-i18n,glibc-profile,glibc-locales], addflavor: true }
-- { setname: glibmm,                   name: glib2mm }
-- { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9.-]*" }
-- { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9.-]*(-docs|-reference)", addflavor: docs }
-- { setname: glibmm,                   name: glibmm-gtk3 }
+- { setname: glibmm,                   name: [glib2mm, glibmm-gtk3] }
+- { setname: glibmm,                   namepat: "(?:lib)?glibmm[0-9.-]*(-docs|-reference)?", addflavor: $1 }
 - { setname: glimpse,                  name: glimpse-editor }
 - { setname: glimpse,                  name: glimpse-with-plugins, addflavor: true }
 - { setname: glitter,                  name: glitter-git-tool }
