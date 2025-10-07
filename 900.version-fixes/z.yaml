@@ -65,6 +65,7 @@
 - { name: zoom-videoconference,                                                            noscheme: true } # different schemes for same release, different schemes for different oses
 - { name: zork,                                                                            noscheme: true } # various ancient releases and abandoned forks
 - { name: zpaq,                        verpat: "[0-9]+",                                   incorrect: true } # 7.15, not 715
+- { name: zsh,                         verlonger: 3,                                       devel: true } # -test versions
 - { name: zsh-syntax-highlighting,     verpat: "20[0-9]{6}.*",                             snapshot: true } # FreeBSD
 - { name: zsh-syntax-highlighting,     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: zsh-theme-powerlevel10k,     verge: "21",                  ruleset: mx,          incorrect: true }
