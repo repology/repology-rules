@@ -246,7 +246,7 @@
     quick3d|
 
     nonexistingpackagenamejusttokeeppipeonthepreviousline
-    )(?:[56][0-9]*)?(?:-docs|-examples|-everywhere-src|-opensource-src)*(?:-gles|-touch)*
+    )(?:[56][0-9]*)?(?:-docs|-examples|-everywhere-src|-opensource-src)*(?:-gles|-touch|-static)*
   setname: qt
   addflavor: true
   addflag: qt5_component  # make sure components with (old) own versions don't mismerge with qt1/2/3 (like qtvirtualkeyboard 2.0)
@@ -259,7 +259,7 @@
     styleplugins|
 
     nonexistingpackagenamejusttokeeppipeonthepreviousline
-    )(?:5[0-9]*)?(?:-docs|-examples|-everywhere-src|-opensource-src|-src)*(?:-gles|-touch)*
+    )(?:5[0-9]*)?(?:-docs|-examples|-everywhere-src|-opensource-src|-src)*(?:-gles|-touch|-static)*
   setname: qt5-$1
 
 - { setname: qt, name: [qt1, qt2, qt3, qt4, qt5, qt6] }
