@@ -216,10 +216,9 @@
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python[23]?-(.*)", ruleset: kaos }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], category: dev-python, ruleset: [calculate, liguros], namepat: "(.*)-python2", addflavor: python2 }
 - { setname: "python:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_python], category: dev-python, ruleset: [gentoo,exherbo,haikuports] }
-- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python2-(.*)", ruleset: [epel,fedora,opensuse] }
 - { setname: "python:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "zope\\..*" }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(.*)-py([23][0-9]{1,2})", ruleset: fink, addflavor: $2 }
-- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python2-(.*)", addflavor: python2, ruleset: [chakra,centos] }
+- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python2-(.*)", addflavor: python2, ruleset: [chakra,centos,epel,fedora,opensuse] }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python3-(.*)", addflavor: python3, ruleset: [chakra,centos,openwrt,mpr,ptxdist,pacstall] }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(python[23][0-9]*)-(.*)", addflavor: $1, ruleset: ibmi }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(python3[0-9]+)-(.*)", ruleset: yacp, addflavor: $1 }
