@@ -377,7 +377,12 @@
 - { setname: "python:scipy",           name: [scipy,scipy3] }
 - { setname: "python:scipy",           name: ["python:scipy-doc","python:scipy-mkl","python:scipy-openblas"], addflavor: true }
 - { setname: "python:scrapy",          name: scrapy }
+- { setname: "python:setuptools",      name: [setuptools,"python:setuptools-python3"] }
+- { setname: "python:setuptools",      namepat: "python[0-9.]*-setuptools" }
+- { setname: "python:setuptools",      namepat: "python:setuptools[0-9]*" }
+- { setname: "python:setuptools",      name: "python2-setuptools", addflavor: py2 }
 - { setname: "python:setuptools",      name: "python:setuptools-wheel", addflavor: wheel }
+- { setname: "python:setuptools",      name: "python:ensurepip-setuptools", addflavor: ensurepip }
 - { setname: "python:setuptools-scm",  name: setuptools-scm }
 - { setname: "python:setuptools-scm-git-archive",  name: setuptools-scm-git-archive }
 - { setname: "python:shapely",         name: shapely }
