@@ -8,7 +8,8 @@
 - { setname: 0install,                 name: ocaml:0install, addflavor: true }
 - { setname: 1password,                name: 1password-beta, weak_devel: true, nolegacy: true }
 - { setname: 1password,                namepat: "1password[0-9.-]+" }
-- { setname: 1password-cli,            name: [1password-client, 1password-cli1, 1password-client2, op-cli, 1password.cli] }
+- { setname: 1password,                name: onepassword-gui }
+- { setname: 1password-cli,            name: [1password-client, 1password-cli1, 1password-client2, op-cli, 1password.cli, onepassword-cli] }
 - { setname: 1password-cli,            name: [1password-cli-beta, 1password-client2-beta], weak_devel: true, nolegacy: true }
 - { setname: 1password-cli,            name: 1password-cli-bin, addflavor: bin }
 - { setname: 2048-cli,                 name: "2048", ruleset: freebsd } # differentiate from 2048-qt
