@@ -61,7 +61,7 @@
 - { setname: "fusefs:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_fusefs], namepat: "fuse(?:fs)?-(.*)" }
 
 # Gap
-- { setname: "gap:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_gap], category: app-emacs, ruleset: gentoo }
+- { setname: "gap:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_gap], category: dev-gap, ruleset: gentoo }
 - { setname: "gap:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_gap], namepat: "gap-pkg-(.*)", ruleset: fedora }
 
 # Ghidra
