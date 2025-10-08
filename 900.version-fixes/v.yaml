@@ -78,9 +78,10 @@
 - { name: vlc,                                                       ruleset: exherbo,     untrusted: true } # accused of fake 4.0.0_pre20231016
 - { name: vlc,                                                       ruleset: sisyphus,    untrusted: true } # accused of fake 3.0.0.1
 - { name: vlc,                                                       ruleset: fedora,      untrusted: true } # unitedrpms, rpm fusion accused of fake 3.0.5
-- { name: vlc,                         verpat: "20[0-9]{6}.*",                             incorrect: true }
-- { name: vlc,                         ver: "5.6.0",                 ruleset: kiss,        incorrect: true }
 - { name: vlc,                                                       ruleset: kiss,        untrusted: true } # accused of fake 5.6.0
+- { name: vlc,                         verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: vlc,                         ver: "3.0.22",                ruleset: [kaos,deb_multimedia], incorrect: true }
+- { name: vlc,                                                       ruleset: [kaos,deb_multimedia], untrusted: true } # accused of fake 3.0.22
 - { name: vlmc,                        verpat: ".*ff",                                     incorrect: true } # not a version, but feature freeze tag
 - { name: vmc-virtual-monte-carlo,                                                         p_is_patch: true }
 - { name: vmd-visual-molecular-dynamics, verpat: ".*a.*",                                  devel: true }
