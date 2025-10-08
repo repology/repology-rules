@@ -1,163 +1,144 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- { setname: "emacs:ag",               name: [emacs-ag, silversearcher-ag-el] }
+- { setname: "emacs:ag",               name: [silversearcher-ag-el] }
 - { setname: "emacs:anything",         name: [anything-el] }
-- { setname: "emacs:apache-mode",      name: [apache-mode.el,apache-mode-el,emacs-apache-mode] }
-- { setname: "emacs:apel",             name: [apel, emacs-apel] }
-- { setname: "emacs:auctex",           name: [auctex,emacs-auctex,emacs-mode-auctex] }
+- { setname: "emacs:apache-mode",      name: [apache-mode.el,apache-mode-el] }
+- { setname: "emacs:apel",             name: [apel] }
+- { setname: "emacs:auctex",           name: [auctex,"emacs:mode-auctex"] }
 - { setname: "emacs:auto-complete",    name: [auto-complete-el] }
-- { setname: "emacs:auto-dictionary",  name: [auto-dictionary-mode, emacs-auto-dictionary] }
-- { setname: "emacs:bbdb",             name: [bbdb,bbdb3,emacs-bbdb] }
-- { setname: "emacs:beginend",         name: [beginend-el, emacs-beginend ] }
-- { setname: "emacs:calfw",            name: [emacs-calfw, "emacs:emacs-calfw"] }
-- { setname: "emacs:cider",            name: [clojure-cider,emacs-cider ] }
-- { setname: "emacs:circe",            name: [circe, emacs-circe] }
-- { setname: "emacs:clojure-mode",     name: [clojure-mode,clojure-mode.el,emacs-clojure-mode] }
+- { setname: "emacs:auto-dictionary",  name: [auto-dictionary-mode] }
+- { setname: "emacs:bbdb",             name: [bbdb,bbdb3] }
+- { setname: "emacs:beginend",         name: [beginend-el] }
+- { setname: "emacs:calfw",            name: ["emacs:emacs-calfw"] }
+- { setname: "emacs:cider",            name: [clojure-cider ] }
+- { setname: "emacs:circe",            name: [circe] }
+- { setname: "emacs:clojure-mode",     name: [clojure-mode,clojure-mode.el] }
 - { setname: "emacs:closql",           name: [closql, closql-el] }
-- { setname: "emacs:cmake-mode",       name: [emacs-cmake-mode,cmake-mode] }
+- { setname: "emacs:cmake-mode",       name: [cmake-mode] }
 - { setname: "emacs:cobol-mode",       name: [cobol-mode,cobol-mode.el] }
-- { setname: "emacs:color-theme",      name: [color-theme,emacs-color-theme,color-theme-mode.el] }
-- { setname: "emacs:company-lsp",      name: [company-lsp, emacs-company-lsp ] }
-- { setname: "emacs:company-mode",     name: [company-mode,emacs-company,emacs-company-mode] }
+- { setname: "emacs:color-theme",      name: [color-theme,color-theme-mode.el] }
+- { setname: "emacs:company-lsp",      name: [company-lsp ] }
+- { setname: "emacs:company-mode",     name: [company-mode,"emacs:company"] }
 - { setname: "emacs:compat",           name: [compat-el, compat.el] }
 - { setname: "emacs:consult",          name: [consult-el] }
 - { setname: "emacs:csharp-mode",      name: [csharp-mode.el] }
 - { setname: "emacs:css-mode",         name: [css-mode] }
-- { setname: "emacs:csv-mode",         name: [csv-mode, emacs-csv-mode] }
-- { setname: "emacs:d-mode",           name: [emacs-d-mode,d-mode.el] }
-- { setname: "emacs:dash",             name: [emacs-dash, dash.el, dash-el] }
-- { setname: "emacs:debpaste",         name: [debpaste-el, emacs-debpaste] }
-- { setname: "emacs:deft",             name: [deft, emacs-deft] }
-- { setname: "emacs:dictionary",       name: [dictionary-el,emacs-dictionary] }
-- { setname: "emacs:diff-hl",          name: [diff-hl-el, emacs-diff-hl] }
-- { setname: "emacs:diminish",         name: [diminish-el, emacs-diminish] }
-- { setname: "emacs:dired-du",         name: [dired-du, emacs-dired-du] }
+- { setname: "emacs:csv-mode",         name: [csv-mode] }
+- { setname: "emacs:d-mode",           name: [d-mode.el] }
+- { setname: "emacs:dash",             name: [dash.el, dash-el] }
+- { setname: "emacs:debpaste",         name: [debpaste-el] }
+- { setname: "emacs:deft",             name: [deft] }
+- { setname: "emacs:dictionary",       name: [dictionary-el] }
+- { setname: "emacs:diff-hl",          name: [diff-hl-el] }
+- { setname: "emacs:diminish",         name: [diminish-el] }
+- { setname: "emacs:dired-du",         name: [dired-du] }
 - { setname: "emacs:doc-mode",         name: doc-mode.el }
 - { setname: "emacs:dockerfile-mode",  name: [dockerfile-mode] }
-- { setname: "emacs:doom-modeline",    name: emacs-doom-modeline }
 - { setname: "emacs:doxymacs",         name: [doxymacs] }
-- { setname: "emacs:dracula-theme",    name: [emacs-dracula] }
-- { setname: "emacs:ebuild-mode",      name: [emacs-ebuild-mode] }
+- { setname: "emacs:dracula-theme",    name: ["emacs:dracula"] }
 - { setname: "emacs:ecb",              name: [ecb] }
-- { setname: "emacs:edit-server",      name: [emacs-edit-server] }
 - { setname: "emacs:elfeed",           name: [elfeed] }
-- { setname: "emacs:elib",             name: [emacs-elib,elib,emacs20-elib] }
+- { setname: "emacs:elib",             name: [elib,emacs20-elib] }
 - { setname: "emacs:elixir-mode",      name: elixir-mode.el }
 - { setname: "emacs:emacsql",          name: [emacsql] }
 - { setname: "emacs:embark",           name: [embark] }
 - { setname: "emacs:ement",            name: [ement-el] }
-- { setname: "emacs:emhacks",          name: [emhacks,emacs-emhacks] }
-- { setname: "emacs:emms",             name: [emacs-emms,emms] }
+- { setname: "emacs:emhacks",          name: [emhacks] }
+- { setname: "emacs:emms",             name: [emms] }
 - { setname: "emacs:ert-async",        name: [ert-async-el] }
-- { setname: "emacs:ess",              name: [emacs-common-ess,emacs-ess,ess] }
-- { setname: "emacs:evil",             name: [emacs-evil,evil-el] }
+- { setname: "emacs:ess",              name: ["emacs:common-ess",ess] }
+- { setname: "emacs:evil",             name: [evil-el] }
 - { setname: "emacs:f",                name: [f-el] }
 - { setname: "emacs:forge",            name: [magit-forge-el] }
 - { setname: "emacs:fountain-mode",    name: [fountain-mode] }
 - { setname: "emacs:fsm",              name: [fsm-el] }
-- { setname: "emacs:general",          name: [emacs-general, emacs-general.el] }
+- { setname: "emacs:general",          name: ["emacs:general.el"] }
 - { setname: "emacs:git-modes",        name: [git-modes] }
 - { setname: "emacs:git-timemachine",  name: [git-timemachine] }
 - { setname: "emacs:gnugo",            name: [gnugo.el] }
 - { setname: "emacs:gnuplot-mode",     name: [gnuplot-mode] }
-- { setname: "emacs:go-mode",          name: [emacs-go-mode, go-mode.el] }
-- { setname: "emacs:goodies",          name: [emacs-goodies,emacs-goodies-el] }
-- { setname: "emacs:graphql",          name: [emacs-graphql,graphql-el,graphql.el] }
-- { setname: "emacs:haskell-mode",     name: [emacs-haskell-mode,haskell-mode,haskell-mode.el] }
-- { setname: "emacs:howm",             name: [howm,emacs-howm] }
-- { setname: "emacs:htmlize",          name: [emacs-htmlize,htmlize,htmlize.el] }
+- { setname: "emacs:go-mode",          name: [go-mode.el] }
+- { setname: "emacs:goodies",          name: ["emacs:goodies-el"] }
+- { setname: "emacs:graphql",          name: [graphql-el,graphql.el] }
+- { setname: "emacs:haskell-mode",     name: [haskell-mode,haskell-mode.el] }
+- { setname: "emacs:howm",             name: [howm] }
+- { setname: "emacs:htmlize",          name: [htmlize,htmlize.el] }
 - { setname: "emacs:hydra",            name: [hydra-el] }
-- { setname: "emacs:icicles",          name: [emacs-icicles,icicles] }
+- { setname: "emacs:icicles",          name: [icicles] }
 - { setname: "emacs:iedit",            name: iedit }
 - { setname: "emacs:inform-mode",      name: [inform-mode] }
-- { setname: "emacs:jabber",           name: [emacs-jabber,"emacs:emacs-jabber",jabber.el] }
-- { setname: "emacs:jedi",             name: emacs-jedi }
+- { setname: "emacs:jabber",           name: ["emacs:emacs-jabber",jabber.el] }
 - { setname: "emacs:liberime",         name: [liberime] }
 - { setname: "emacs:llama",            name: [llama.el] }
-- { setname: "emacs:lookup",           name: [emacs-lookup,lookup-el] }
+- { setname: "emacs:lookup",           name: [lookup-el] }
 - { setname: "emacs:lsp-mode",         name: [lsp-mode] }
 - { setname: "emacs:lua-mode",         name: ["emacs:lua",lua-mode] }
-- { setname: "emacs:m-buffer",         name: [emacs-m-buffer-el,m-buffer-el] }
-- { setname: "emacs:magit",            name: [magit,emacs-magit] }
+- { setname: "emacs:m-buffer",         name: ["emacs:m-buffer-el",m-buffer-el] }
+- { setname: "emacs:magit",            name: [magit] }
 - { setname: "emacs:magit",            name: [magit-devel], weak_devel: true, nolegacy: true }
-- { setname: "emacs:magit-popup",      name: [emacs-magit-popup,magit-popup] }
+- { setname: "emacs:magit-popup",      name: [magit-popup] }
 - { setname: "emacs:mailcrypt",        name: [mailcrypt] }
-- { setname: "emacs:markdown-mode",    name: [emacs-markdown-mode,markdown-mode,markdown-mode.el] }
-- { setname: "emacs:matlab",           name: [emacs-matlab] }
+- { setname: "emacs:markdown-mode",    name: [markdown-mode,markdown-mode.el] }
 - { setname: "emacs:mediawiki",        name: mediawiki.el }
 - { setname: "emacs:mediawiki",        name: mediawiki, category: app-emacs }
-- { setname: "emacs:mew",              name: [emacs-mew,mew] }
+- { setname: "emacs:mew",              name: [mew] }
 - { setname: "emacs:mew",              name: mew-beta, weak_devel: true, nolegacy: true }
-- { setname: "emacs:mmm-mode",         name: [emacs-mmm-mode,mmm-mode,"emacs:mmm"] }
-- { setname: "emacs:mpg123",           name: [emacs-mpg123,"emacs:mpg123-el", mpg123-el, mpg123.el] }
+- { setname: "emacs:mmm-mode",         name: [mmm-mode,"emacs:mmm"] }
+- { setname: "emacs:mpg123",           name: ["emacs:mpg123-el",mpg123-el,mpg123.el] }
 - { setname: "emacs:mu-cite",          name: [mu-cite] }
-- { setname: "emacs:multi-term",       name: [emacs-multi-term] }
-- { setname: "emacs:multiple-cursors", name: [emacs-multiple-cursors] }
-- { setname: "emacs:muse",             name: [emacs-muse, emacs-muse-mode, muse-el] }
-- { setname: "emacs:nasm-mode",        name: emacs-nasm-mode }
-- { setname: "emacs:navi2ch",          name: [emacs-navi2ch,navi2ch] }
-- { setname: "emacs:nim-mode",         name: [emacs-nim-mode] }
-- { setname: "emacs:nix-mode",         name: [emacs-nix-mode] }
-- { setname: "emacs:no-littering",     name: [no-littering-el, emacs-no-littering] }
-- { setname: "emacs:nov",              name: [emacs-nov-el,nov-el] }
+- { setname: "emacs:muse",             name: ["emacs:muse-mode", muse-el] }
+- { setname: "emacs:navi2ch",          name: [navi2ch] }
+- { setname: "emacs:no-littering",     name: [no-littering-el] }
+- { setname: "emacs:nov",              name: ["emacs:nov-el",nov-el] }
 - { setname: "emacs:ocaml-mode",       name: ocaml-mode.el }
-- { setname: "emacs:org-mode",         name: [emacs-org,emacs-org-mode,org-mode,"emacs:org"] }
+- { setname: "emacs:org-mode",         name: [org-mode,"emacs:org"] }
 - { setname: "emacs:org-mode",         name: org-mode-doc, addflavor: doc }
 - { setname: "emacs:p4",               name: p4.el }
-- { setname: "emacs:paredit",          name: [emacs-paredit,paredit-el,paredit-mode.el] }
-- { setname: "emacs:pdf-tools",        name: [emacs-pdf-tools] }
-- { setname: "emacs:pdf-tools",        name: [emacs-pdf-tools-server, epdfinfo], addflavor: true }
+- { setname: "emacs:paredit",          name: [paredit-el,paredit-mode.el] }
+- { setname: "emacs:pdf-tools",        name: ["emacs:pdf-tools-server",epdfinfo], addflavor: true }
 - { setname: "emacs:persist",          name: [persist-el] }
-- { setname: "emacs:php-mode",         name: [emacs-php-mode,php-mode.el,php-elisp,php-mode] }
-- { setname: "emacs:pkg-info",         name: [emacs-pkg-info,pkg-info-el,pkg-info.el] }
-- { setname: "emacs:planner",          name: [emacs-planner,planner-el] }
+- { setname: "emacs:php-mode",         name: [php-mode.el,php-elisp,php-mode] }
+- { setname: "emacs:pkg-info",         name: [pkg-info-el,pkg-info.el] }
+- { setname: "emacs:planner",          name: [planner-el] }
 - { setname: "emacs:plz",              name: [plz-el] }
-- { setname: "emacs:popup",            name: [emacs-popup,emacs-popup-el,popup-el] }
-- { setname: "emacs:popwin",           name: emacs-popwin }
-- { setname: "emacs:powerline",        name: emacs-powerline }
+- { setname: "emacs:popup",            name: ["emacs:popup-el",popup-el] }
 - { setname: "emacs:prolog-mode",      name: prolog-mode.el }
-- { setname: "emacs:psgml",            name: [psgml, emacs-psgml, emacs-mode-psgml, psgml-mode] }
-- { setname: "emacs:puppet-mode",      name: [emacs-puppet-mode, puppet-mode.el] }
+- { setname: "emacs:psgml",            name: [psgml,"emacs:mode-psgml",psgml-mode] }
+- { setname: "emacs:puppet-mode",      name: [puppet-mode.el] }
 - { setname: "emacs:pure-mode",        name: pure-mode.el }
-- { setname: "emacs:python-mode",      name: [emacs-python-mode,python-mode.el,python-mode] }
-- { setname: "emacs:queue",            name: [emacs-queue,queue-el] }
-- { setname: "emacs:rfcview",          name: [emacs-rfcview] }
-- { setname: "emacs:riece",            name: [emacs-common-riece,riece,emacs-riece] }
-- { setname: "emacs:rpm-spec-mode",    name: [emacs-rpm-spec-mode, rpm-spec-mode.el] }
-- { setname: "emacs:rust-mode",        name: [emacs-rust-mode,elpa-rust-mode] }
+- { setname: "emacs:python-mode",      name: [python-mode.el,python-mode] }
+- { setname: "emacs:queue",            name: [queue-el] }
+- { setname: "emacs:riece",            name: ["emacs:common-riece",riece] }
+- { setname: "emacs:rpm-spec-mode",    name: [rpm-spec-mode.el] }
+- { setname: "emacs:rust-mode",        name: [elpa-rust-mode] }
 - { setname: "emacs:s",                name: [s-el] }
-- { setname: "emacs:scratch",          name: emacs-scratch-el }
-- { setname: "emacs:semi",             name: [emacs-semi,semi,semi-emacs] }
-- { setname: "emacs:seq",              name: [emacs-seq,seq-el] }
-- { setname: "emacs:session",          name: [emacs-session] }
-- { setname: "emacs:slime",            name: [emacs-slime] }
-- { setname: "emacs:sml-mode",         name: [emacs-sml-mode,sml-mode,sml-mode.el] }
-- { setname: "emacs:solidity",         name: [emacs-solidity-mode] }
-- { setname: "emacs:speechd",          name: [emacs-speechd-el,speechd-el] }
+- { setname: "emacs:scratch",          name: ["emacs:scratch-el"] }
+- { setname: "emacs:semi",             name: [semi,semi-emacs] }
+- { setname: "emacs:seq",              name: [seq-el] }
+- { setname: "emacs:sml-mode",         name: [sml-mode,sml-mode.el] }
+- { setname: "emacs:solidity",         name: ["emacs:solidity-mode"] }
+- { setname: "emacs:speechd",          name: ["emacs:speechd-el",speechd-el] }
 - { setname: "emacs:srv",              name: [srv-el] }
 - { setname: "emacs:taxy",             name: [taxy-el] }
-- { setname: "emacs:tdtd",             name: [emacs-mode-tdtd] }
-- { setname: "emacs:transient",        name: [emacs-transient, elpa-transient, transient] }
+- { setname: "emacs:tdtd",             name: ["emacs:mode-tdtd"] }
+- { setname: "emacs:transient",        name: [elpa-transient,transient] }
 - { setname: "emacs:transient",        name: [transient-emacs-canna, transient-emacs-nox, transient-emacs-devel, transient-emacs-devel-nox], addflavor: true } # devel refers to emacs version here (FreeBSD ports)
-- { setname: "emacs:treepy",           name: [emacs-treepy,treepy-el,treepy.el] }
-- { setname: "emacs:tuareg-mode",      name: [emacs-common-tuareg,emacs-tuareg,emacs-tuareg-mode,tuareg-mode,tuareg-mode.el] }
-- { setname: "emacs:twittering-mode",  name: [emacs-twittering-mode,twittering-mode] }
-- { setname: "emacs:undo-tree",        name: [emacs-undo-tree, elpa-undo-tree] }
-- { setname: "emacs:use-package",      name: [emacs-use-package, use-package] }
-- { setname: "emacs:verilog-mode",     name: [emacs-verilog-mode,verilog-mode,verilog-mode.el] }
-- { setname: "emacs:vm",               name: [emacs-vm] }
-- { setname: "emacs:w3m",              name: [emacs-common-w3m,emacs-w3m,"emacs:emacs-w3m",w3m-el] }
+- { setname: "emacs:treepy",           name: [treepy-el,treepy.el] }
+- { setname: "emacs:tuareg-mode",      name: ["emacs:common-tuareg","emacs:tuareg",tuareg-mode,tuareg-mode.el] }
+- { setname: "emacs:twittering-mode",  name: [twittering-mode] }
+- { setname: "emacs:undo-tree",        name: [elpa-undo-tree] }
+- { setname: "emacs:use-package",      name: [use-package] }
+- { setname: "emacs:verilog-mode",     name: [verilog-mode,verilog-mode.el] }
+- { setname: "emacs:w3m",              name: ["emacs:common-w3m","emacs:w3m","emacs:emacs-w3m",w3m-el] }
 - { setname: "emacs:w3m",              name: w3m-el-snapshot, weak_devel: true, nolegacy: true }
 - { setname: "emacs:wget",             name: ["emacs:emacs-wget", wget-el] }
-- { setname: "emacs:wgrep",            name: [emacs-wgrep-helm], addflavor: true }
-- { setname: "emacs:wgrep",            name: [emacs-wgrep] }
-- { setname: "emacs:which-key",        name: [emacs-which-key] }
-- { setname: "emacs:with-editor",      name: [emacs-with-editor, with-editor] }
+- { setname: "emacs:wgrep",            name: ["emacs:wgrep-helm"], addflavor: true }
+- { setname: "emacs:with-editor",      name: [with-editor] }
 - { setname: "emacs:with-editor",      name: [emacs-with-editor-git, with-editor-devel], weak_devel: true, nolegacy: true }
 - { setname: "emacs:xr",               name: [xr-el] }
-- { setname: "emacs:xslide",           name: [emacs-xslide,xslide,xslide.el] }
-- { setname: "emacs:yaml-mode",        name: [emacs-yaml-mode,yaml-mode,yaml-mode.el] }
+- { setname: "emacs:xslide",           name: [xslide,xslide.el] }
+- { setname: "emacs:yaml-mode",        name: [yaml-mode,yaml-mode.el] }
 - { setname: "emacs:yatex",            name: [yatex] }
 - { setname: "emacs:yc",               name: [yc.el] }
-- { setname: "emacs:zenburn",          name: [emacs-zenburn-theme, zenburn-emacs] }
+- { setname: "emacs:zenburn",          name: [zenburn-emacs] }
 - { setname: "emacs:zenirc",           name: zenirc }
