@@ -76,7 +76,7 @@
 - { setname: "emacs:llama",            name: [llama.el] }
 - { setname: "emacs:lookup",           name: [emacs-lookup,lookup-el] }
 - { setname: "emacs:lsp-mode",         name: [lsp-mode] }
-- { setname: "emacs:lua-mode",         name: [lua-mode] }
+- { setname: "emacs:lua-mode",         name: ["emacs:lua",lua-mode] }
 - { setname: "emacs:m-buffer",         name: [emacs-m-buffer-el,m-buffer-el] }
 - { setname: "emacs:magit",            name: [magit,emacs-magit] }
 - { setname: "emacs:magit",            name: [magit-devel], weak_devel: true, nolegacy: true }
