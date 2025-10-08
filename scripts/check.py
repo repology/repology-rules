@@ -214,6 +214,7 @@ flags = [
     'misnamed',
     'no_suffix',
     'not_apache',
+    'not_chicken',
     'not_coq',
     'not_cosmic',
     'not_crystal',
