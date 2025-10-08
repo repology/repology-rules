@@ -52,7 +52,7 @@
 - { setname: passenger,                name: ["ruby:passenger-apache", "ruby:passenger-nginx", "nginx:passenger","apmod:ruby26-passenger","ruby:passenger"], addflavor: true }
 - { setname: passes,                   name: passes-gtk, addflavor: true }
 - { setname: password-store,           name: [passwordstore] }
-- { setname: password-store,           name: [emacs-password-store,"emacs:password-store"], addflavor: emacs }
+- { setname: password-store,           name: "emacs:password-store", addflavor: emacs }
 - { setname: pastel,                   name: [rust:$0, python:$0, ruby:$0] }
 - { setname: pastel,                   name: jappis-pastel }
 - { setname: pasystray,                name: [pasystray-gtk2,pasystray-gtk2-standalone,pasystray-gtk3,pasystray-gtk3-standalone,pasystray-wayland] }
