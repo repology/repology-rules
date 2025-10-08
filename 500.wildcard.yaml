@@ -16,6 +16,10 @@
 - { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "mod24_(.*)", ruleset: amazon, addflavor: "24" }
 - { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "mod_(.*)", ruleset: nix, category: apacheHttpdPackages }
 
+# Chicken
+- { setname: "chicken:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_chicken], categorypat: "chickenPackages[0-9_]*", namepat: "chicken-(.*)", ruleset: nix }
+- { setname: "chicken:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_chicken], namepat: "chicken-(.*)", ruleset: [guix,aur] }
+
 # Cosmic
 - { setname: "cosmic:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_cosmic], namepat: "cosmic-ext-(.*)" }
 

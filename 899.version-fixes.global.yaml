@@ -53,7 +53,6 @@
 
 # prevent newly introduced nix categories from polluting unrelated projects before being added to 500 ruleset
 #- { category: "XXX",                                                 ruleset: nix,         addflag: classified_category }
-- { categorypat: "chickenPackages[0-9_]*", namepat: "chicken-.*",    ruleset: nix,         addflag: classified_category }
 - { category: "elmPackages", namepat: "elm-.*",                      ruleset: nix,         addflag: classified_category }
 - { category: "idrisPackages", namepat: "idris-.*",                  ruleset: nix,         addflag: classified_category }
 - { category: "kdePackages",                                         ruleset: nix,         addflag: classified_category }
