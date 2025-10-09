@@ -242,6 +242,14 @@
 - { name: loop, wwwpart: lightninglabs, setname: lightning-$0 }
 - { name: loop, addflag: unclassified }
 
+- { name: lsb, sourceforge: lsb, setname: lsb-release-sf }
+- { name: lsb, addflag: unclassified }
+
+- { name: lsb-release, wwwpart: minimal, setname: lsb-release-minimal }
+- { name: lsb-release, wwwpart: lsb-release_os-release, setname: lsb-release-os-release }
+- { name: lsb-release, sourceforge: lsb, setname: lsb-release-sf }
+- { name: lsb-release, addflag: unclassified }
+
 - { name: "lua:path", wwwpart: lua-path, setname: "lua:lua-path" }
 
 - { name: "lua:yaml", verge: "5", setname: "lua:lyaml" }
