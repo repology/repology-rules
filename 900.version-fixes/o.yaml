@@ -57,6 +57,8 @@
 - { name: omega-rpg,                   releq: "0.90",                                      devel: true } # not sure how wide should the coverage be
 - { name: onboard,                     ver: "1.4.1.12",              ruleset: debuntu,     incorrect: true } # deepin
 - { name: onboard,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 1.4.1.4
+- { name: one-true-awk,                ver: "20250804",              ruleset: arch,        incorrect: true } # not tagged
+- { name: one-true-awk,                                              ruleset: arch,        untrusted: true } # accused of fake 20250804
 - { name: oniguruma,                                                 ruleset: openbsd,     untrusted: true } # accused of fake 6.9.5pl1
 - { name: oniguruma,                   verpat: ".*rev.*",                                  any_is_patch: true }
 - { name: onioncat,                    verpat: "0\\.2\\.2\\.r[0-9]+.*",                    any_is_patch: true } # https://www.cypherpunk.at/ocat/download/Source/stable/
