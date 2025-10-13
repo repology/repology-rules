@@ -124,6 +124,8 @@
 - { name: pgadmin,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: pgdbf,                       verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: pgdbf,                       verpat: "[0-9]{3}\\..*",                            incorrect: true }
+- { name: pgsql:age,                                                                       incorrect: true }
+- { name: pgsql:age,                   verpat: ".+rc0",                                    incorrect: false } # braindead upstream versioning
 - { name: phabricator,                                                                     noscheme: true }
 - { name: phantap,                     verpat: "[0-9]{4}\\.[0-9]{2}\\.[0-9]{2}-[0-9a-f]{8}", ignore: false, incorrect: false, untrusted: false } # official
 - { name: phonon-vlc,                  ver: "0.11.1.7",                                    incorrect: true }
