@@ -103,6 +103,7 @@
 - { setname: cbindgen,                 name: ["rust:cbindgen",rust-cbindgen] } # XXX: rust-cbindgen is the only rust-* in FreeBSD, may need to add global rule if there are more
 - { setname: cblas,                    name: cblas-reference, addflavor: docs }
 - { setname: cblas,                    name: cblas-tmg, addflavor: tmg }
+- { setname: cbor-tool,                name: haskell:$0 }
 - { setname: ccache,                   name: [ccache-memcached,ccache-memcached-static,ccache-static], addflavor: true } # freebsd subpackages
 - { setname: ccaudio2,                 name: libccaudio2 }
 - { setname: ccfits,                   name: libccfits }
