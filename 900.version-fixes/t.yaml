@@ -3,6 +3,9 @@
 - { name: t50,                         verge: "20000000", verlt: "20180429",               sink: true } # 5.7.2 from 29 apr 2018
 - { name: tabbed,                      verpat: "20[0-9]{2}.*",                             incorrect: true } # nix snapshot
 - { name: tabixpp,                     ver: "1.0.0.10",                                    incorrect: true }
+- { name: tac-plus,                    verpat: "20[0-9]{2}.*",                             incorrect: true } # nix snapshot
+- { name: tac-plus,                    ver: "4.4b2",                                       incorrect: true }
+- { name: tac-plus,                                                  ruleset: openpkg,     untrusted: true } # accused of fake 4.4b2
 - { name: tagainijisho,                verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: taglib,                      verpat: ".*[ab].*",                                 devel: true } # XXX: FreeBSD DISTVERSION
 - { name: taglib-extras,               ver: "1.0.2.r1444333",                              incorrect: true } # cygwin; no 1.0.2
