@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
+- { name: i2pd-tools,                                                                      noscheme: true }
 - { name: i3blocks,                    ver: "1.4.93",                ruleset: freebsd,     incorrect: true }
 - { name: i3blocks,                                                  ruleset: freebsd,     untrusted: true } # accused of fake 1.4.93
 - { name: i3lock-color,                verpat: "[^c]+",                                    incorrect: true } # appends "c" and own revision
