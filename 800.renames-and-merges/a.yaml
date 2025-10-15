@@ -46,7 +46,7 @@
 - { setname: acroread7-asianfonts,     namepat: "acroread7-.*font.*", ruleset: pkgsrc }
 - { setname: acsccid,                  name: [pcsc-acsccid,pcsc-driver-acsccid,pcsclite-driver-acsccid] }
 - { setname: acsccid,                  name: pcsc-lite-acsccid, addflavor: true }
-- { setname: act,                      name: act-cli }
+- { setname: act,                      name: [act-cli, gh-act, act-github-actions] }
 - { setname: actdiag,                  name: python:$0 }
 - { setname: action-validator,         name: rust:$0 }
 - { setname: actiona,                  name: actionaz, ruleset: chocolatey }
