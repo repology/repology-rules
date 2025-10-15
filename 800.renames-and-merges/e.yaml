@@ -158,6 +158,7 @@
 - { setname: espanso,                  name: [espanso-wayland, espanso-x11], addflavor: true }
 - { setname: espanso,                  name: espanso-pre, weak_devel: true, nolegacy: true }
 - { setname: espeak,                   name: espeak-ng } # successor
+- { setname: esphome,                  name: python:$0 }
 - { setname: etcd,                     namepat: "coreos-etcd[0-9.-]*" }
 - { setname: etcher,                   name: [balena-etcher, balena-etcher-electron, balenaetcher] }
 - { setname: eterm,                    name: eterm16 }
