@@ -126,4 +126,4 @@
 - { setname: hyperfine,                name: rust:$0 }
 - { setname: hyphen,                   name: lib$0 }
 - { setname: hypre,                    name: hypre-openmpi, addflavor: true }
-- { setname: hyprland,                 name: [$0-bin, $0-legacyrenderer, $0-nox], addflavor: true }
+- { setname: hyprland,                 name: [$0-bin,$0-legacyrenderer,$0-nox,$0-hidpi-xprop,$0-cmake], addflavor: true }
