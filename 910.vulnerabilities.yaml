@@ -2,6 +2,7 @@
 
 # CVE-2005-1513, https://github.com/repology/repology-vulnupdater/issues/6
 - { vulnerable: true, name: aptdaemon, verpat: ".*982" } # CVE-2020-15703
+- { vulnerable: true, name: bento4, releq: "1.6.0.641" } # CVE-2025-25947 and friends; covers invalid versions
 - { vulnerable: true, name: btcd, relle: "0.20.1" } # CVE-2018-17145; braindead versioning
 - { vulnerable: true, name: crasm, ver: "1.8" } # CVE-2023-23108, CVE-2023-23109
 - { vulnerable: true, name: cryptacular, verlt: "1.2.3" } # https://nvd.nist.gov/vuln/detail/CVE-2020-7226 reported
