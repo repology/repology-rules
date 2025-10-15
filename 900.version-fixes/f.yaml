@@ -268,6 +268,7 @@
 - { name: "fonts:wqy-microhei",        verpat: "(.*?)[^0-9]?beta",                         setver: $1 }
 - { name: "fonts:xkcd",                                                                    noscheme: true }
 - { name: fonttools,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: fonttools-opentype-feature-freezer, ver: "1.32.2",                               sink: true } # old versioning scheme
 - { name: fonttosfnt,                                                ruleset: opensuse,    untrusted: true } # accused of fake 1.0.5
 - { name: foo2zjs,                                                                         noscheme: true }
 - { name: foobillard++,                verpat: "3\\.43.*",           ruleset: slackbuilds, incorrect: true }
