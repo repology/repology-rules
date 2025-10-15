@@ -22,6 +22,8 @@
 - { setname: harfbuzz,                 name: [libharfbuzz, harfbuzz-2.9.1] }
 - { setname: harfbuzz,                 name: [harfbuzz-icu,harfbuzz-hb-view, harfbuzz-static, harfbuzz-cairo], addflavor: true }
 - { setname: hashcat,                  name: hashcat-legacy }
+- { setname: hasktags,                 name: haskell:$0 }
+- { setname: hasktags,                 name: hasktags-static, addflavor: true }
 - { setname: hatch,                    name: "python:hatch" }
 - { setname: hatchling,                name: "python:hatchling" }
 - { setname: haunt,                    name: guile-haunt }
