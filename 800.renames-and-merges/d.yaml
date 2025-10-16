@@ -58,7 +58,7 @@
 - { setname: ddgr,                     name: "python:ddgr", addflavor: python }
 - { setname: ddh,                      name: rust:$0 }
 - { setname: ddrescue,                 name: [gddrescue,gnu-ddrescue] }
-- { setname: ddskk,                    name: [emacs-common-ddskk,"emacs:ddskk"] }
+- { setname: ddskk,                    name: ["emacs:ddskk", "emacs:common-ddskk"] }
 - { setname: deadbeef,                 name: deadbeef-with-plugins }
 - { setname: deal.ii,                  name: [dealii,dealii-openmpi,deal-ii] }
 - { setname: debian-repro-status,      name: rust:$0 }
