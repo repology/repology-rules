@@ -125,6 +125,7 @@
 - { setname: selene,                   name: selene-media-converter }
 - { setname: semgrep,                  name: python:$0 }
 - { setname: semgrep,                  name: semgrep-core, addflavor: core }
+- { setname: semver,                   name: [neargye-semver, semver-cpp, node-semver] } # different projects, split in 850
 - { setname: sendmail,                 namepat: "sendmail\\+.*", ruleset: freebsd }
 - { setname: sendmail,                 name: [sendmail-cf,sendmail-cidrexpand,sendmail-libmilter,sendmail-qtool,libmilter,milter,smrsh], addflavor: true }
 - { setname: seqan,                    name: seqan-apps, addflavor: true }
