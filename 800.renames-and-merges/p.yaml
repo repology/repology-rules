@@ -356,7 +356,7 @@
 - { setname: prometheus-statsd-exporter, name: [prometheus-statsd, statsd-exporter] }
 - { setname: prometheus-systemd-exporter, name: systemd-exporter }
 - { setname: prometheus-wireguard-exporter, name: [wireguard-exporter, "rust:prometheus-wireguard-exporter"] }
-- { setname: proofgeneral,             name: ["emacs:proofgeneral", emacs-common-proofgeneral] }
+- { setname: proofgeneral,             name: ["emacs:proofgeneral", "emacs:common-proofgeneral"] }
 - { setname: proot,                    name: proot-static, addflavor: true }
 - { setname: proot,                    namepat: "proot[0-9.-]+" }
 - { setname: propellor,                name: "haskell:propellor" }
