@@ -185,6 +185,10 @@
 - { name: simon,                       verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: simplescreenrecorder,        verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: simulide,                    verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: simulide,                    verpat: ".*[0-9]{4}",                               incorrect: true } # debian
+- { name: simulide,                    ver: "1.2.0",                 ruleset: sisyphus,    incorrect: true }
+- { name: simulide,                                                  ruleset: sisyphus,    untrusted: true } # accused of fake 1.2.0
+- { name: simulide,                    verpat: ".*sr[1-9]",                                any_is_patch: true }
 - { name: simutrans,                   ver: "121.1",                 ruleset: scoop,       incorrect: true } # 121.0 in fact
 - { name: simutrans,                                                 ruleset: scoop,       untrusted: true } # accused of fake 121.1
 - { name: simutrans-pak128.german,     ver: "120",                                         incorrect: true }
