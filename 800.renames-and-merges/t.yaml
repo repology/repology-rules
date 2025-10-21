@@ -277,6 +277,7 @@
 - { setname: tt-kmd,                   name: tt-kmd-git-dkms, weak_devel: true, nolegacy: true  }
 - { setname: ttf-tw,                   name: ttf-tw-moe } # moe = ministry of edication
 - { setname: ttfb,                     name: rust:$0 }
+- { setname: ttrpc,                    name: [protoc-gen-go-ttrpc, go:github-containerd-ttrpc, go:gogottrpc] }
 - { setname: ttyload,                  name: ttyload-git, weak_devel: true, nolegacy: true }
 - { setname: ttyper,                   name: "rust:$0" }
 - { setname: tufao,                    name: tufao0, addflavor: true }
