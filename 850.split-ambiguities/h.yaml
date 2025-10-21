@@ -150,6 +150,10 @@
 - { name: http-ping, wwwpart: coretechnologies, setname: http-ping-coretechnologies }
 - { name: http-ping, addflag: unclassified }
 
+- { name: httpcore, wwwpart: apache, setname: java:httpcore }
+# also misnamed python:httpcore
+- { name: httpcore, addflag: unclassified }
+
 - { name: huc, wwwpart: zeograd, setname: huc-pc-engine-compiler }
 - { name: huc, wwwpart: zint21.de, setname: huc-html-umlaut-conversion }
 - { name: huc, addflag: unclassified }
