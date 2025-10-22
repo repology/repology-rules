@@ -146,6 +146,7 @@
 - { setname: blas,                     name: blas64, addflavor: true }
 - { setname: blasphemer,               name: blasphemer-wad }
 - { setname: blast,                    name: blast-legacy }
+- { setname: blast,                    name: blast-bin, addflavor: true }
 - { setname: blender,                  name: [blender-alarm,blender-as-py-module,blender-binaries,blender-wayland,blender-rocm], addflavor: true }
 - { setname: blender,                  namepat: "blender(?:[.-]lts)?[0-9.-]*" }
 - { setname: blender,                  name: blender-develop, weak_devel: true, nolegacy: true }
