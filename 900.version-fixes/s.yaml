@@ -105,8 +105,8 @@
 - { name: sdl2,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # https://github.com/libsdl-org/SDL/releases/tag/prerelease-2.23.1
 - { name: sdl2,                        verpat: "2.0.15.*",           ruleset: postmarketos, incorrect: true }
 - { name: sdl2,                                                      ruleset: postmarketos, untrusted: true } # accused o fake 2.0.15_hg20210201
-- { name: sdl2,                        ver: "2.32.56",               ruleset: [cygwin,gentoo], incorrect: true }
-- { name: sdl2,                                                      ruleset: [cygwin,gentoo], untrusted: true } # accused o fake 2.32.56 (fakes sdl-compat as sdl2)
+- { name: sdl2,                        ver: "2.32.56",               ruleset: [cygwin,gentoo,pisi], incorrect: true }
+- { name: sdl2,                                                      ruleset: [cygwin,gentoo,pisi], untrusted: true } # accused o fake 2.32.56 (fakes sdl-compat as sdl2)
 - { name: sdl2-image,                  ver: "2.1.0",                 ruleset: pisi,        incorrect: true }
 - { name: sdl2-image,                                                ruleset: pisi,        untrusted: true } # accused of fake 2.1.0
 - { name: sdl2-image,                  ver: "2.5.1",                 ruleset: debian,      incorrect: true }
