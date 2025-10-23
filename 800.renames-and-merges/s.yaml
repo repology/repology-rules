@@ -100,6 +100,8 @@
 - { setname: sdl-sge,                  name: libsdl-sge }
 - { setname: sdl-sound,                name: libsdl-sound-framework }
 - { setname: sdl-sound,                name: sdl-sound-patched, addflavor: patched }
+- { setname: sdl12-compat,             name: sdl-compat }
+- { setname: sdl2-compat,              name: lib$0 }
 - { setname: sdlconsole,               name: [libsdl-console,sdl-console] }
 - { setname: sdllopan,                 name: sdl-lopan }
 - { setname: sdlmame,                  name: sdlmame-wout-toolkits, addflavor: wout-toolkits }
