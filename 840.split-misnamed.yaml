@@ -42,9 +42,9 @@
 - { addflag: misnamed, name: python:vlc,     wwwpart: videolan.org }
 - { addflag: misnamed, name: rott,           wwwpart: fabiangreffrath }
 - { addflag: misnamed, name: sdl,            wwwpart: sdl12-compat }
-- { addflag: misnamed, name: sdl,            verge: "1.2.60" }
+- { addflag: misnamed, name: sdl,            verge: "1.2.60", verlt: "2" }
 - { addflag: misnamed, name: sdl2,           wwwpart: sdl2-compat }
-- { addflag: misnamed, name: sdl2,           verge: "2.32.56" }
+- { addflag: misnamed, name: sdl2,           verge: "2.32.56", verlt: "3" }
 - { addflag: misnamed, name: xcb-util-renderutils } # ...-renderutil
 - { addflag: misnamed, name: xorg-autoconf }
 - { addflag: misnamed, name: xorg-xcb-util-error }  # ...-errors
