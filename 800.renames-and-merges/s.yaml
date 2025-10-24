@@ -485,6 +485,8 @@
 - { setname: swarp,                    name: astromatic-swarp } # ambiguity, split later
 - { setname: sway,                     name: [sway-wlroots,sway-with-tray,sway-inactive-windows-transparency], addflavor: true }
 - { setname: sway-notification-center, name: [swaync, swaynotificationcenter] }
+- { setname: swaylock,                 name: swaylock-1.5 }
+- { setname: swaylock,                 name: swaylock-no-password, addflavor: true }
 - { setname: swc,                      name: [swc-wl, swc-js, rust:swc ] } # multiple projects, split in 850
 - { setname: sweet-theme,              name: sweet-gtk-theme }
 - { setname: sweet-theme,              name: [sweet-theme-ambar,sweet-theme-ambar-blue,sweet-theme-dark,sweet-theme-mars] }
