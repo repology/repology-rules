@@ -99,7 +99,7 @@
 - { setname: wlrobs,                   name: obs-wlrobs }
 - { setname: wlroots,                  name: [libwlroots, libwlroots12] }
 - { setname: wlroots,                  name: [wlroots-full, wlroots-asan, wlroots-docs, wlroots-nogpu], addflavor: true }
-- { setname: wlroots,                  namepat: "(?:lib)?wlroots[0-9.-]*(-nvidia|-hidpi-xprop)", addflavor: $1 }
+- { setname: wlroots,                  namepat: "(?:lib)?wlroots[0-9.-]*(-nvidia|-hidpi-xprop)?", addflavor: $1 }
 - { setname: wmii,                     name: [wmii-devel,wmii-hg], weak_devel: true, nolegacy: true }
 - { setname: wmime,                    name: libwmime }
 - { setname: wok-plugins-kimchi,       name: wokd }
