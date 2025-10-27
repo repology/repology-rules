@@ -324,9 +324,6 @@
 - { name: spice-circuit-simulator,     ver: ["3f5.1","3f5.2","3f5sfix"],                   incorrect: true } # not sure where these come from
 - { name: spice-circuit-simulator,     ver: "3f.5",                                        setver: "3f5" }
 - { name: spice-circuit-simulator,     ver: "3.5.5",                                       incorrect: true }
-- { name: spidermonkey,                ver: "1.70",                                        setver: "1.7.0" }
-- { name: spidermonkey,                ver: "1.85",                                        setver: "1.8.5" }
-- { name: spidermonkey,                ver: ["1.7.0","1.8.5","17.0.0"],                    legacy: true } # needed for some software; see https://github.com/repology/repology/issues/550
 - { name: spidermonkey,                                              ruleset: openmandriva, untrusted: true } # accused of fake 52.8.1
 - { name: spidermonkey,                verpat: ".*esr",                                    incorrect: true }
 - { name: spigot-calculator,           verpat: "([0-9]{8})\\.[0-9a-fr]+",                  setver: "$1" } # braindead upstream versioning
