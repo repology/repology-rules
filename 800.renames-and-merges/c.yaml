@@ -406,6 +406,7 @@
 - { setname: cstore-fdw,               namepat: "(postgresql[0-9.-]*)-cstore-fdw", addflavor: $1 }
 - { setname: csvkit,                   name: "python:csvkit" }
 - { setname: csxcad,                   name: [python:csxcad, python:python-csxcad] }
+- { setname: csync,                    name: [csync-release,pam-csync], addflavor: true } # different projects, also parts of
 - { setname: ctemplate,                name: [google-ctemplate,libctemplate] }
 - { setname: ctf-party,                name: "ruby:ctf-party" }
 - { setname: ctffind,                  name: ctffind4 }
