@@ -208,9 +208,9 @@
 - { name: mono,                        ver: ["5.12.0.260","5.12.0.273"],                   devel: true, maintenance: true }
 - { name: mono,                        ver: "5.10.0.79",             ruleset: aosc,        incorrect: true }
 - { name: mono,                                                      ruleset: aosc,        untrusted: true }
-- { name: mono-addins,                 ver: "1.3.5",                 ruleset: slackbuilds, incorrect: true }
-- { name: mono-addins,                                               ruleset: slackbuilds, untrusted: true }
 - { name: mono-xsp,                    verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: mono.addins,                 ver: "1.3.5",                 ruleset: slackbuilds, incorrect: true }
+- { name: mono.addins,                                               ruleset: slackbuilds, untrusted: true }
 - { name: monotone,                    ver: "1.2",                   ruleset: sisyphus,    incorrect: true }
 - { name: monotone,                                                  ruleset: sisyphus,    untrusted: true }
 - { name: moon-buggy,                  verpat: "20[0-9]{6}",                               ignore: true }
