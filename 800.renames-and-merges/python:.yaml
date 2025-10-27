@@ -446,5 +446,20 @@
 - { setname: "python:zope.component",  name: python:zope-component-bootstrap, addflavor: bootstrap }
 - { setname: "python:zope.configuration", name: python:zope-configuration }
 - { setname: "python:zope.configuration", name: python:zope-configuration-bootstrap, addflavor: bootstrap }
+- { setname: "python:zope.copy",       name: python:zope-copy }
+- { setname: "python:zope.deferredimport", name: python:zope-deferredimport }
+- { setname: "python:zope.deprecation", name: python:zope-deprecation }
+- { setname: "python:zope.event",      name: python:zope-event }
+- { setname: "python:zope.exceptions", name: python:zope-exceptions }
+- { setname: "python:zope.exceptions", name: python:zope-exceptions-bootstrap, addflavor: bootstrap }
+- { setname: "python:zope.hookable",   name: python:zope-hookable }
+- { setname: "python:zope.i18nmessageid", name: python:zope-i18nmessageid }
 - { setname: "python:zope.interface",  name: [python:zope-interface, python:zope-interface4] }
+- { setname: "python:zope.proxy",      name: python:zope-proxy }
+- { setname: "python:zope.proxy",      name: python:zope-proxy-bootstrap, addflavor: bootstrap }
+- { setname: "python:zope.security",   name: python:zope-security }
+- { setname: "python:zope.security",   name: python:zope-security-bootstrap, addflavor: bootstrap }
+- { setname: "python:zope.testing",    name: python:zope-testing }
+- { setname: "python:zope.testrunner", name: python:zope-testrunner }
+- { setname: "python:zope.testrunner", name: python:zope-testrunner-bootstrap, addflavor: bootstrap }
 - { setname: "python:zopfli",          name: "python:pyzopfli" }
