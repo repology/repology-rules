@@ -455,10 +455,14 @@
 - { setname: "python:zope.hookable",   name: python:zope-hookable }
 - { setname: "python:zope.i18nmessageid", name: python:zope-i18nmessageid }
 - { setname: "python:zope.interface",  name: [python:zope-interface, python:zope-interface4] }
+- { setname: "python:zope.location",   name: python:zope-location }
+- { setname: "python:zope.location",   name: python:zope-location-bootstrap, addflavor: bootstrap }
 - { setname: "python:zope.proxy",      name: python:zope-proxy }
 - { setname: "python:zope.proxy",      name: python:zope-proxy-bootstrap, addflavor: bootstrap }
+- { setname: "python:zope.schema",     name: python:zope-schema }
 - { setname: "python:zope.security",   name: python:zope-security }
 - { setname: "python:zope.security",   name: python:zope-security-bootstrap, addflavor: bootstrap }
+- { setname: "python:zope.sqlalchemy", name: python:zope-sqlalchemy }
 - { setname: "python:zope.testing",    name: python:zope-testing }
 - { setname: "python:zope.testrunner", name: python:zope-testrunner }
 - { setname: "python:zope.testrunner", name: python:zope-testrunner-bootstrap, addflavor: bootstrap }
