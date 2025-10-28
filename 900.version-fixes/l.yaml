@@ -258,4 +258,5 @@
 - { name: lyx,                                                       ruleset: macosx,      ignore: true } # different version for macos (2.3.6.2 when latest is 2.3.6.1)
 - { name: lz4,                         verpat: "[0-9]+",                                   ignore: true }
 - { name: lzbench,                     verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: lzham,                       verpat: ".*stable.*",                               any_is_patch: true }
 - { name: lzma,                        verpat: "[0-9]+",                                   incorrect: true }
