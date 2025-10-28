@@ -107,6 +107,7 @@
 - { verpat: ".*\\^.*",                                               ruleset: fedora,      ignore: true } # nolegacy?
 - { verpat: ".*-r[0-9]+\\.[a-f0-9]{7}",                              ruleset: termux,      ignore: true } # tur mostly
 - { verpat: ".*([0-9a-f-]{7}|r[0-9]).*",                             ruleset: t2,          untrusted: true } # all kinds of snapshots (commit hashes, dates and revisions)
+- { verpat: ".* .*",                                                 ruleset: t2,          any_is_patch: true, untrusted: false, ignore: true } # explicit snapshots
 
 # nuget is terminally broken and can't handle arbitrary version schemes, so most are garbage
 - {                                                                  ruleset: chocolatey,  untrusted: true }
