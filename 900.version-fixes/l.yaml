@@ -259,4 +259,5 @@
 - { name: lz4,                         verpat: "[0-9]+",                                   ignore: true }
 - { name: lzbench,                     verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: lzham,                       verpat: ".*stable.*",                               any_is_patch: true }
+- { name: lzham,                       ver: "1.0.1",                                       setver: "1_0_stable1" } # XXX: upstream problem
 - { name: lzma,                        verpat: "[0-9]+",                                   incorrect: true }
