@@ -40,6 +40,8 @@
 - { name: leanify,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: leftwm,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true } # XXX: FreeBSD DISTVERSION
 - { name: lensfun,                     verpat: "[0-9]+\\.[0-9]+\\.9[0-9]",                 devel: true }
+- { name: lerc,                        ver: "4.0.4",                 ruleset: [conan,stalix,vcpkg], incorrect: true }
+- { name: lerc,                                                      ruleset: [conan,stalix,vcpkg], untrusted: true } # accused of fake 4.0.4
 - { name: less,                        vergt: "668",                                       devel: true, maintenance: true } # http://www.greenwoodsoftware.com/less/
 - { name: lf,                          verpat: "r([.0-9]+)",                               setver: $1 }
 - { name: lf,                          verpat: ".*20[0-9]{6}",                             snapshot: true }
