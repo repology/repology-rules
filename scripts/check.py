@@ -348,7 +348,7 @@ schema = Schema(
         'debianism': bool,
         'generated': bool,
         'trace': bool,
-        'addflag': Any(*flags),
+        'addflag': Any(*flags, [Any(*flags)]),
         'last': bool,
         'tolowername': bool,
         'replaceinname': {str: str},
