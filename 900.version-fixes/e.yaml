@@ -36,6 +36,7 @@
 - { name: edid-decode,                                                                     noscheme: true }
 - { name: edirect,                     ver: "10.2.20181018",                               setver: "10.2", disposable: true }
 - { name: edirect,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: edit-c9x,                                                                        noscheme: true }
 - { name: edk2,                        verpat: "(.*)stable",                               incorrect: true }
 - { name: edk2,                        verpat: "[0-9]{8}.*",                               incorrect: true } # e.g. 202105
 - { name: edk2,                        verge: "20000000", verlt: "20220500",               sink: true, vulnerable: true }
