@@ -214,6 +214,7 @@
 - { name: monotone,                    ver: "1.2",                   ruleset: sisyphus,    incorrect: true }
 - { name: monotone,                                                  ruleset: sisyphus,    untrusted: true }
 - { name: moon-buggy,                  verpat: "20[0-9]{6}",                               ignore: true }
+- { name: mop,                                                                             noscheme: true }
 - { name: mopac7,                      verpat: "7\\.[0-9]+\\.[0-9]+",                      incorrect: true } # mopac7 1.15, not mopac 7.1.15
 - { name: mopidy,                      verpat: ".*a.*",                                    devel: true }
 - { name: morituri,                    verpat: ".*20[0-9]{6}",                             ignore: true } # nix snapshot
