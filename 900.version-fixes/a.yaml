@@ -63,6 +63,7 @@
 - { name: adbfs-rootless,                                                                  noscheme: true }
 - { name: adept-differentiation-library, verpat: "20[0-9]{2}.*",                           incorrect: true }
 - { name: adjtimex,                    verpat: ".*_.*",                                    debianism: true }
+- { name: adrgen,                      verpat: ".[^b][^e][^t][^a]",                        incorrect: true }
 - { name: advancescan,                 ver: "2.0",                   ruleset: aur,         incorrect: true }
 - { name: advancescan,                                               ruleset: aur,         untrusted: true } # accused of fake 2.0
 - { name: adventuregamestudio,         verpat: "[0-9]+\\.99\\..*",                         devel: true }
