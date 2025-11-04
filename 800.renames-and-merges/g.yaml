@@ -487,6 +487,7 @@
 - { setname: gst-python,               namepat: "python:(gst|gstreamer|gst-python)[0-9.-]*" }
 - { setname: gstreamermm,              namepat: "(?:lib)?gstreamer[0-9.-]*mm[0-9.-]*" }
 - { setname: gsutil,                   name: "python:gsutil" }
+- { setname: gt,                       name: [gotree, gadget-tool] } # Split in 850
 - { setname: gtest,                    name: [googletest,libgtest] }
 - { setname: gtest,                    name: [gmock,google-mock,googlemock,libgmock], addflavor: gmock } # merged into
 - { setname: gtetrinet,                name: gtetrinet-gtk3, addflavor: true }
