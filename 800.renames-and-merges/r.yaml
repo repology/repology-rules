@@ -174,6 +174,7 @@
 - { setname: ruff,                     name: [python:$0, rust:$0] } # python linter written in rust, present both or crates.io and pypi 
 - { setname: rundeck,                  namepat: "rundeck[0-9.-]+" }
 - { setname: runiq,                    name: "rust:runiq" }
+- { setname: rure,                     name: rust:$0 }
 - { setname: ruri,                     name: rust:$0 }
 - { setname: rust,                     name: [rust-bin,rust-msvc,rust-common,rust-std,rust-gnu,rust-musl,rust-opt,rust.gnu,rust.msvc,rust-wasm,rust-wasm-bin,rustc-mozilla,rustc-web], addflavor: true }
 - { setname: rust,                     name: [aarch64-rust-bootstrap,amd64-rust-bootstrap,armv7-rust-bootstrap,i386-rust-bootstrap,powerpc-rust-bootstrap,powerpc64-rust-bootstrap,powerpc64le-rust-bootstrap,riscv64-rust-bootstrap], addflavor: true }

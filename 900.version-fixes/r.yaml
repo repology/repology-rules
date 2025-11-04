@@ -187,6 +187,7 @@
 - { name: runc,                                                      ruleset: kaos,        untrusted: true } # accused of fake 0.9
 - { name: runc,                        verpat: ".*rc[0-9]+\\.[0-9]+",                      incorrect: true } # debian
 - { name: runc,                                                      ruleset: debian,      untrusted: true } # accused of fake 1.0.0rc92.346
+- { name: rure,                                                      ruleset: homebrew,    untrusted: true } # version from regex, not rure
 - { name: rush-gnu,                    ver: "2.1.90",                ruleset: openpkg,     incorrect: true }
 - { name: rush-gnu,                                                  ruleset: openpkg,     untrusted: true } # accused of fake 2.1.90
 - { name: rust,                        verpat: ".*dev",                                    snapshot: true } # haikuports garbage
