@@ -131,6 +131,7 @@
 - { name: rnnoise-xiph,                verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: rnnoise-xiph,                verpat: "2021.*",                                   sink: true, disposable: true }
 - { name: rnote,                       verpat: ".*hotfix.*",                               any_is_patch: true, untrusted: false }
+- { name: rnote,                       verpat: ".*\\+.*",                                  ignore: true } # homebrew casks
 - { name: roaraudio,                   ver: "0.99",                  ruleset: packman,     incorrect: true } # 1.0beta11 in fact
 - { name: roaraudio,                                                 ruleset: packman,     untrusted: true } # accused of fake 0.99
 - { name: robotfindskitten,            verpat: "20[0-9]{2}.*",                             incorrect: true } # termux
