@@ -97,6 +97,7 @@
 - { name: linphone,                                                  ruleset: [alpine,debuntu,opensuse,void], untrusted: true } # accused of fake 4.4.x
 - { name: linphone,                    verge: "5.1.61",              ruleset: [openmandriva], incorrect: true } # packages liblinphone as linphone
 - { name: linphone,                                                  ruleset: [openmandriva], untrusted: true } # accused of fake 5.1.61
+- { name: linthesia,                   verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: linux,                       verpat: ".*20[0-9]{2}.*",                           incorrect: true } # it has clear enough versioning scheme, do not allow snapshots
 - { name: linux,                       ver: "5.0.0",                 ruleset: [aosc,fedora], incorrect: true }
 - { name: linux,                                                     ruleset: [aosc,fedora], untrusted: true } # accused of fake 5.0.0
