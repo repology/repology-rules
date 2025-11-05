@@ -401,6 +401,10 @@
 - { name: connect, wwwpart: ubisoft, setname: ubisoft-connect }
 - { name: connect, addflag: unclassified }
 
+- { name: console, wwwpart: gnome, setname: gnome-console } # XXX: problem?
+# also 2 abandoned projects
+- { name: console, addflag: unclassified }
+
 - { name: construct, wwwpart: construct.readthedocs.io, setname: python:construct } # XXX: problem
 - { name: construct, wwwpart: Thomas-de-Bock, setname: construct-assembler }
 - { name: construct, addflag: unclassified }
