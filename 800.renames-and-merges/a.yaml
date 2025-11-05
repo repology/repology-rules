@@ -465,6 +465,7 @@
 - { setname: awk,                      name: [one-true-awk, nawk, onetrueawk, original-awk] } # split int 850
 - { setname: aws-assume-role,          name: assume-role }
 - { setname: aws-cw-tools,             name: cloud-watch }
+- { setname: aws-mfa,                  name: python:$0 }
 - { setname: awsbck,                   name: "rust:$0" }
 - { setname: awscli,                   name: ["python:awscli", "python:aws-cli", aws-cli, aws-cli-v2, awscli2] }
 - { setname: awsebcli,                 name: [aws-eb-cli,aws-elasticbeanstalk,"python:aws-eb-cli"] }

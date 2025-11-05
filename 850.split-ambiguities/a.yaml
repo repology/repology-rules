@@ -477,6 +477,10 @@
 - { name: aws, wwwpart: aws.amazon.com, setname: awscli }
 - { name: aws, addflag: unclassified }
 
+- { name: aws-mfa, wwwpart: broamski, addflag: classified }
+# also abandoned https://github.com/RueLaLa/aws-mfa
+- { name: aws-mfa, addflag: unclassified }
+
 - { name: awslogs, wwwpart: amazon, setname: awslogs-amazon }
 - { name: awslogs, wwwpart: jorgebastida, setname: awslogs-jorgebastida }
 - { name: awslogs, addflag: unclassified }
