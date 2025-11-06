@@ -100,6 +100,7 @@
 - { name: aiccu,                       ver: "20070115",                                    setver: "2007.01.15" }
 - { name: aiccu,                       verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: aide,                        verpat: ".+20[0-9]{6}",                             snapshot: true }
+- { name: aimp,                                                      ruleset: aur,         untrusted: true } # omits alpha support and uses volatile nighly snapshot download
 - { name: aircrack-ng,                 ver: "1.2",                   ruleset: [ fedora, debuntu, gentoo, mageia, openwrt, rosa ], ignore: true }
 - { name: aircrack-ng,                 verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: aircrack-ng,                 verpat: ".+20[0-9]{6}.*",                           snapshot: true }
