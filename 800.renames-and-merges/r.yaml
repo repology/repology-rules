@@ -172,6 +172,7 @@
 - { setname: rubberband,               name: lib$0 }
 - { setname: rubocop,                  name: "ruby:rubocop" }
 - { setname: ruff,                     name: [python:$0, rust:$0] } # python linter written in rust, present both or crates.io and pypi 
+- { setname: ruffle,                   name: ruffle-nightly, weak_devel: true, nolegacy: true }
 - { setname: rundeck,                  namepat: "rundeck[0-9.-]+" }
 - { setname: runiq,                    name: "rust:runiq" }
 - { setname: rure,                     name: rust:$0 }
