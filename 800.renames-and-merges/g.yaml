@@ -47,7 +47,6 @@
 - { setname: gd,                       name: [gd2, libgd, libgd2] }
 - { setname: gdal,                     name: [gdal1,libgdal,gdal2] }
 - { setname: gdal,                     name: [gdal-curl,gdal-filegdb,gdal-lib,gdal-hdf4], addflavor: true }
-- { setname: gdal,                     name: "python:gdal", addflavor: python }
 - { setname: gdal-grass,               name: libgdal-grass }
 - { setname: gdbm,                     namepat: "(?:compat-)?(?:lib)?gdbm(?:-compat)?[0-9.-]*" }
 - { setname: gdbm,                     name: gdbm-export, addflavor: true }
