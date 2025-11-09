@@ -11,6 +11,8 @@
 - { name: libadalang,                  verpat: "20[0-9]{2}.*",                             sink: true }
 - { name: libadalang-tools,            verpat: ".*w",                                      devel: true }
 - { name: libadalang-tools,            verpat: "20[0-9]{2}.*",                             sink: true }
+- { name: libadalang-tools,            ver: "25.2.0",                ruleset: pkgsrc,      incorrect: true }
+- { name: libadalang-tools,                                          ruleset: pkgsrc,      untrusted: true } # accused of fake 25.2.0
 - { name: libadwaita,                  ver: "1.1.0",                 ruleset: [sisyphus,pld], incorrect: true }
 - { name: libadwaita,                                                ruleset: [sisyphus,pld], untrusted: true } # accused of fake 1.1.0
 - { name: libadwaita,                  ver: "1.0.2",                 ruleset: [unitedrpms], incorrect: true }
