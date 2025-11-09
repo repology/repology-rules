@@ -315,6 +315,8 @@
 - { name: gprbuild,                    verpat: ".*w",                                      devel: true }
 - { name: gprbuild,                    verpat: "[0-9]{5,}.*",                              incorrect: true }
 - { name: gprbuild,                    verpat: "20[0-9]{2}.*",                             sink: true }
+- { name: gprbuild,                    ver: "25.2.0",                ruleset: pkgsrc,      incorrect: true }
+- { name: gprbuild,                                                  ruleset: pkgsrc,      untrusted: true } # accused of fake 25.2.0
 - { name: gpredict,                    ver: "2.3",                                         devel: true } # https://github.com/csete/gpredict/releases/tag/v2.3
 - { name: gprolog,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 1.4.5
 - { name: gpsbabel,                    ver: "1.6.0.1",                                     setver: "1.6.0", disposable: true } # tags point to same commit
