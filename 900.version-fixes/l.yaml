@@ -10,6 +10,8 @@
 - { name: lager,                       ver: "314.85211",             ruleset: mpr,         incorrect: true }
 - { name: lager,                                                     ruleset: mpr,         untrusted: true } # accused of fake 314.85211
 - { name: lal-refactor,                verpat: ".*w",                                      devel: true }
+- { name: lal-refactor,                ver: "25.2.0",                ruleset: pkgsrc,      incorrect: true }
+- { name: lal-refactor,                                              ruleset: pkgsrc,      untrusted: true } # accused of fake 25.2.0
 - { name: lame,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: lame,                        ver: "3.100.1",               ruleset: [deepin,scoop], incorrect: true }
 - { name: lame,                                                      ruleset: [deepin,scoop], untrusted: true } # accused of fake 3.100.1
