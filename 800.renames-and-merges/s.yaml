@@ -333,6 +333,7 @@
 - { setname: spirv-llvm-translator,    namepat: "spirv-llvm[0-9.-]*-translator(?:-llvm)?[0-9.-]*" }
 - { setname: spl,                      name: [spl-linux,spl-solaris,spl-utils], addflavor: true }
 - { setname: spl,                      name: spl-git, weak_devel: true, nolegacy: true }
+- { setname: splash,                   name: splash-logs }
 - { setname: splix,                    name: [cups-driver-splix, cups-drivers-splix, printer-driver-splix] }
 - { setname: splix,                    name: splix-svn, weak_devel: true, nolegacy: true }
 - { setname: spotdl,                   name: python:$0 }
