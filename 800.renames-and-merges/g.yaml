@@ -243,6 +243,7 @@
 - { setname: gluon,                    name: gluon-repl, addflavor: repl }
 - { setname: glusterfs,                namepat: "glusterfs[0-9.-]+" }
 - { setname: glvis,                    name: [glvis-mesh-visualizer, mfem-glvis] }
+- { setname: gmap,                     name: [gmap-gsnap, rust:gmap] } # different projects, split int 850
 - { setname: gmime,                    namepat: "(?:lib)?gmime[0-9.-]*" }
 - { setname: gmime,                    namepat: "(?:lib)?gmime[0-9.-]*-sharp", addflavor: sharp }
 - { setname: gmm++,                    name: gmm }
