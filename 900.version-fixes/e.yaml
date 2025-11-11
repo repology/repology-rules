@@ -10,6 +10,8 @@
 - { name: easy-rsa,                    ver: "3.0.5",                 ruleset: ravenports,  incorrect: true }
 - { name: easy-rsa,                                                  ruleset: ravenports,  untrusted: true }
 - { name: easyabc,                     verpat: "[0-9]+",                                   incorrect: true } # aur
+- { name: easyeffects,                 ver: "8.0.8",                 ruleset: openmamba,   incorrect: true }
+- { name: easyeffects,                                               ruleset: openmamba,   untrusted: true } # accused of fake 8.0.8
 - { name: easygit,                     verpat: "20[0-9]{6}",                               incorrect: true } # pld snapshot
 - { name: easystroke,                  ver: "0.8.0",                 ruleset: solus,       incorrect: true }
 - { name: easystroke,                                                ruleset: solus,       untrusted: true } # accused of fake 0.6.0
