@@ -1,12 +1,18 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- { setname: zfs, name: openzfs }
-
 - setname: zfs
   name:
+    - kernel-modules-zfs-std-def
+    - kernel-modules-zfs-talos
+    - kernel-modules-zfs-un-def
+    - linux-lts-zfs-bin
+    - linux-stable-zfs-bin
+    - openzfs
+    - openzfs-kmod
     - spl-zfs
     - zfs-archiso-linux
     - zfs-dkms
+    - zfs-headers
     - zfs-kernel
     - zfs-kernel-nopae
     - zfs-kmod
@@ -16,6 +22,8 @@
     - zfs-linux-vfio
     - zfs-linux-zen
     - zfs-on-linux
+    - zfs-src
+    - zfs-stable
     - zfs-user
     - zfs-utils
     - zfs-utils-common
@@ -25,6 +33,7 @@
   name:
     - zfs-dkms-rc
     - zfs-git
+    - zfs-kmod-next
     - zfs-linux-lts-rc
     - zfs-linux-rc
   addflavor: true

@@ -29,12 +29,10 @@
 - { name: zeronet,                     ver: "0.7.2",                 ruleset: homebrew_casks, incorrect: true }
 - { name: zeronet,                                                   ruleset: homebrew_casks, untrusted: true } # accused of fake 0.7.2
 - { name: zfp,                         verpat: "20[0-9]{2}.*",                             incorrect: true } # macports
-- { name: zfs,                         ver: "0.8.0",                 ruleset: pld,         incorrect: true } # latest is 0.8.0rc2
 - { name: zfs,                                                       ruleset: pld,         untrusted: true } # accused of fake 0.8.0
-- { name: zfs,                         verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
-- { name: zfs,                         verlonger: 4,                                       ignore: true } # likely kernel version appended
-- { name: zfs,                                                       ruleset: alpine,      untrusted: true } # linux kernel version
-- { name: zfs,                         verpat: ".*\\.99",                                  ignore: true } # master branch, not a real version https://github.com/openzfs/zfs/commit/9ac82cab2d8e5235b61e6811203793758c30b994
+- { name: zfs,                         verlonger: 4,                                       incorrect: true } # kernel version appended
+- { name: zfs,                         verge: "5",                                         incorrect: true } # kernel version instead
+- { name: zfs,                         verpat: ".*[0-9]{3}",                               incorrect: true } # snapshots
 - { name: zidrav,                      ver: "1.20",                  ruleset: pkgsrc,      incorrect: true } # 1.2.0
 - { name: zidrav,                                                    ruleset: pkgsrc,      untrusted: true }
 - { name: zig,                         verlonger: 3,                 ruleset: funtoo,      incorrect: true }
