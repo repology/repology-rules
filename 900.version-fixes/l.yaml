@@ -130,7 +130,7 @@
 - { name: llama.cpp,                                                                       incorrect: true }
 - { name: llama.cpp,                   verpat: "[0-9]{4}",                                 setver: b$0 }
 - { name: llama.cpp,                   verpat: "b[0-9]{4}",                                incorrect: false }
-- { name: llama.cpp,                   verge: "20000000", verlt: "20240603",               sink: true }
+- { name: llama.cpp,                   verpat: "20[0-9]{6}.*",                             sink: true } # each commit is tagged, assuming all date versions outdated
 - { name: llgen,                                                                           noscheme: true }
 - { name: llvm,                        verpat: ".*r[0-9]{6,}",                             ignore: true } # ignore revisions, allow release candidates
 - { name: llvm,                        verpat: ".*r.*",                                    devel: true }

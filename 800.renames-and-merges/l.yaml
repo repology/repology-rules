@@ -128,6 +128,7 @@
 - { setname: lizard,                   name: lz5 } # former name; new name is ambiguous, split in 850
 - { setname: lla,                      name: rust:$0 }
 - { setname: llama.cpp,                name: [llama-cpp, llamacpp] }
+- { setname: llama.cpp,                name: [$0-clblas,$0-cpu,$0-cu117,$0-cu124,$0-cublas,$0-cuda,$0-hip,$0-hip-gfx1030,$0-hip-gfx1100,$0-hip-gfx1101,$0-hipblas,$0-opencl,$0-sycl,$0-sycl-f16,$0-sycl-f32,$0-vulkan], addflavor: true }
 - { setname: lls,                      name: [list-listening-sockets, rust:lls] }
 - { setname: lm-sensors,               name: lm-sensors-max-of-fctemps, addflavor: true }
 - { setname: lm-sensors,               name: lm-sensors3 }
