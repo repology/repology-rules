@@ -499,6 +499,10 @@
 - { name: speedtest, wwwpart: speedtest.net, setname: speedtest-speedtest.net }
 - { name: speedtest, addflag: unclassified }
 
+- { name: speedtest-go, wwwpart: showwin, setname: $0-showwin }
+- { name: speedtest-go, wwwpart: librespeed, setname: $0-librespeed }
+- { name: speedtest-go, addflag: unclassified }
+
 - { name: sphinx, wwwpart: cmusphinx, setname: pocketsphinx }
 - { name: sphinx, wwwpart: sphinxsearch, setname: sphinx-search }
 - { name: sphinx, addflag: unclassified }
