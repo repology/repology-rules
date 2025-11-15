@@ -12,6 +12,7 @@
 - { setname: gambas,                   name: gambas3-devel, weak_devel: true, nolegacy: true }
 - { setname: gambas,                   namepat: "gambas3-(gb-.*)", addflavor: $1 }
 - { setname: gambas,                   name: [gambas3-ide,gambas3-runtime,gambas3-script], addflavor: true }
+- { setname: gambit,                   name: [$0-project, python:pygambit] } # split later
 - { setname: gambit-c,                 name: [gambc,gambit-scheme] }
 - { setname: game-music-emu,           name: libgme }
 - { setname: gamescope,                name: [$0-amd-color, $0-nvidia], addflavor: true }
