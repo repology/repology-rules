@@ -7,6 +7,7 @@
 - { setname: galculator,               name: galculator-gtk3, addflavor: true }
 - { setname: galene-stream,            name: python:$0}
 - { setname: galera,                   namepat: "galera[0-9.-]+" }
+- { setname: gama,                     name: [gama-github-actions-manager,gama-tui] } # split later
 - { setname: gambas,                   name: [gambas2,gambas3] }
 - { setname: gambas,                   name: gambas3-devel, weak_devel: true, nolegacy: true }
 - { setname: gambas,                   namepat: "gambas3-(gb-.*)", addflavor: $1 }
