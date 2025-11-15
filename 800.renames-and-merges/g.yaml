@@ -103,6 +103,7 @@
 - { setname: gens,                     name: gensemulator }
 - { setname: gens,                     name: gens-opengl, addflavor: true }
 - { setname: gentle,                   name: python:gentle-mxml }
+- { setname: geoclock,                 name: rust:$0 }
 - { setname: geoclue,                  namepat: "(?:lib)?geoclue[0-9.-]*" }
 - { setname: geocode-glib,             name: [libgeocode-glib, geocode-glib2] }
 - { setname: geode-sdk-cli,            name: [geode-cli, geodecli] }
