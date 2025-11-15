@@ -5,12 +5,16 @@
 - { setname: galaxy-forces-v2,         name: ["galaxy forces v2", galaxy-forces, galaxyv2] }
 - { setname: galaxybudsclient,         name: galaxy-buds-client }
 - { setname: galculator,               name: galculator-gtk3, addflavor: true }
+- { setname: galene-stream,            name: python:$0}
 - { setname: galera,                   namepat: "galera[0-9.-]+" }
+- { setname: gama,                     name: [gama-github-actions-manager,gama-tui] } # split later
 - { setname: gambas,                   name: [gambas2,gambas3] }
 - { setname: gambas,                   name: gambas3-devel, weak_devel: true, nolegacy: true }
 - { setname: gambas,                   namepat: "gambas3-(gb-.*)", addflavor: $1 }
 - { setname: gambas,                   name: [gambas3-ide,gambas3-runtime,gambas3-script], addflavor: true }
+- { setname: gambit,                   name: [$0-project, python:pygambit] } # split later
 - { setname: gambit-c,                 name: [gambc,gambit-scheme] }
+- { setname: game-devices-udev,        name: [game-device-udev,game-devices-udev-rules] }
 - { setname: game-music-emu,           name: libgme }
 - { setname: gamescope,                name: [$0-amd-color, $0-nvidia], addflavor: true }
 - { setname: gamess,                   name: gamess-us }
@@ -25,6 +29,7 @@
 - { setname: gargoyle,                 name: garglk }
 - { setname: gargoyle,                 name: gargoyle-free } # XXX: problem
 - { setname: garlic,                   name: garlic-doc }
+- { setname: garmindb,                 name: python:$0 }
 - { setname: garmindev,                name: qlandkartegt-garmindev }
 - { setname: garmintools,              name: garmin-forerunner-tools }
 - { setname: gash,                     name: guile-gash }
@@ -32,6 +37,7 @@
 - { setname: gaul,                     name: gaul-devel, weak_devel: true, nolegacy: true }
 - { setname: gav,                      name: gpl-arcade-volleyball }
 - { setname: gavl,                     name: libgavl }
+- { setname: gawd,                     name: python:$0 }
 - { setname: gawk,                     name: ja-gawk, addflavor: true }
 - { setname: gccgo,                    namepat: "gccgo[0-9.-]+" }
 - { setname: gcide,                    name: dict-gcide }
@@ -43,6 +49,7 @@
 - { setname: gconf,                    name: [gconf2,gconf110] }
 - { setname: gconfmm,                  namepat: "(?:lib)?gconfmm[0-9.-]*(-docs)?", addflavor: $1 }
 - { setname: gcovr,                    name: "python:gcovr" }
+- { setname: gcp-scanner,              name: python:$0 }
 - { setname: gcr,                      name: [gcr3, gcr4] }
 - { setname: gd,                       name: [gd2, libgd, libgd2] }
 - { setname: gdal,                     name: [gdal1,libgdal,gdal2] }
@@ -58,6 +65,7 @@
 - { setname: gdm,                      namepat: "gdm[0-9.-]+" }
 - { setname: gdm,                      name: gdm-old }
 - { setname: gdnsd,                    name: [gdnsd2,gdnsd3] }
+- { setname: gdtoolkit,                name: [gdtoolkit3,python:$0] }
 - { setname: geant4-data-g4abla,       name: geant4-abladata }
 - { setname: geant4-vmc,               name: geant-vmc }
 - { setname: geany,                    name: [$0-nogtk, $0-gtk2], addflavor: true }
@@ -82,6 +90,7 @@
 - { setname: geeqie,                   name: [geeqie-gtk2, geeqie15] }
 - { setname: gef,                      name: gdb-gef }
 - { setname: geforcenow-electron,      name: gfn-electron }
+- { setname: gefyra,                   name: python:$0 }
 - { setname: gegl,                     namepat: "(?:lib)?gegl[0-9.-]*" }
 - { setname: gegl,                     name: gegl-unstable, ignore: true }
 - { setname: geki2,                    name: geki2-kxl, ruleset: gentoo } # XXX: recheck
@@ -94,6 +103,7 @@
 - { setname: gens,                     name: gensemulator }
 - { setname: gens,                     name: gens-opengl, addflavor: true }
 - { setname: gentle,                   name: python:gentle-mxml }
+- { setname: geoclock,                 name: rust:$0 }
 - { setname: geoclue,                  namepat: "(?:lib)?geoclue[0-9.-]*" }
 - { setname: geocode-glib,             name: [libgeocode-glib, geocode-glib2] }
 - { setname: geode-sdk-cli,            name: [geode-cli, geodecli] }
