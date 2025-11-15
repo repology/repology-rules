@@ -49,6 +49,7 @@
 - { setname: gconf,                    name: [gconf2,gconf110] }
 - { setname: gconfmm,                  namepat: "(?:lib)?gconfmm[0-9.-]*(-docs)?", addflavor: $1 }
 - { setname: gcovr,                    name: "python:gcovr" }
+- { setname: gcp-scanner,              name: python:$0 }
 - { setname: gcr,                      name: [gcr3, gcr4] }
 - { setname: gd,                       name: [gd2, libgd, libgd2] }
 - { setname: gdal,                     name: [gdal1,libgdal,gdal2] }
