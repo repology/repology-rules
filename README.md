@@ -1,4 +1,4 @@
-# Repology ruleset
+# R- { name: python, addflag: not_python_module }epology ruleset
 
 ![CI](https://github.com/repology/repology-rules/workflows/CI/badge.svg)
 
