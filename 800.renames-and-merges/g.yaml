@@ -65,6 +65,7 @@
 - { setname: gdm,                      namepat: "gdm[0-9.-]+" }
 - { setname: gdm,                      name: gdm-old }
 - { setname: gdnsd,                    name: [gdnsd2,gdnsd3] }
+- { setname: gdtoolkit,                name: [gdtoolkit3,python:$0] }
 - { setname: geant4-data-g4abla,       name: geant4-abladata }
 - { setname: geant4-vmc,               name: geant-vmc }
 - { setname: geany,                    name: [$0-nogtk, $0-gtk2], addflavor: true }
