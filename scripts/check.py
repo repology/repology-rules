@@ -376,10 +376,10 @@ features_by_pattern = {
         'sort_field': 'name',
         'disallowed': {'setname'},
     },
-    '.*910\.vulnerabilities\.yaml': {
+    r'.*910\.vulnerabilities\.yaml': {
         'sort_field': 'name',
     },
-    '.*950\.split-branches\.yaml': {
+    r'.*950\.split-branches\.yaml': {
         'sort_field': 'name',
         'disallowed': {'setver'},
     }
