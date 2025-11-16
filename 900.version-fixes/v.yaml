@@ -48,6 +48,7 @@
 - { name: vigra,                                                     ruleset: t2,          untrusted: true } # accused of fake 27
 - { name: vilistextum,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: vim,                         ver: "9999",                                        incorrect: true }
+- { name: vim,                         verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: vim-airline-themes,                                                              noscheme: true }
 - { name: "vim:gentoo-syntax",         verpat: "20[0-9]{6}.*",                             sink: true } # old scheme, superceded by single short number
 - { name: "vim:gentoo-syntax",         verpat: "20[0-9]{2}-.*",                            incorrect: true }
