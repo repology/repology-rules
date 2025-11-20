@@ -39,6 +39,7 @@
 - { setname: yt-dlp,                   name: python:$0 }
 - { setname: yt-dlp,                   name: $0-bin, addflavor: true }
 - { setname: yt-dlp,                   name: [yt-dlp-nightly, yt-dlp.nightly, yt-dlp-git], weak_devel: true, nolegacy: true }
+- { setname: yt-dlp-ejs,               name: python:$0 }
 - { setname: ytdl-gui,                 name: youtubedl-gui }
 - { setname: ytnef,                    name: libytnef } # see https://github.com/Yeraze/ytnef/blob/master/ChangeLog
 - { setname: ytop,                     name: "rust:ytop" }
