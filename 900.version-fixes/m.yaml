@@ -87,6 +87,7 @@
 - { name: mbrola,                      verpat: "([0-9]+)\\.([0-9]+)\\.([0-9]+[a-z])",      setver: $1.$2$3 }
 - { name: mcpp,                        ver: "2.7.2.14",              ruleset: vcpkg,       incorrect: true }
 - { name: mcpp,                                                      ruleset: vcpkg,       untrusted: true } # accused of fake 2.7.2.14
+- { name: md4c,                        verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: mdadm,                                                     ruleset: fedora,      untrusted: true } # accused of fake 4.1
 - { name: mdns-repeater,               verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: mecab,                       ver: "1.0",                   ruleset: vcpkg,       incorrect: true }
