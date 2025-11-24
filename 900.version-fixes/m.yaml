@@ -307,6 +307,8 @@
 - { name: munipack,                                                  ruleset: [mageia,epel], untrusted: true } # accused of faking c-munipack as munipack
 - { name: munt,                        ver: "2.4.1",                 ruleset: nix,         incorrect: true }
 - { name: munt,                                                      ruleset: nix,         untrusted: true } # accused of fake 2.4.1
+- { name: munt,                        ver: "7_0",                   ruleset: t2,          incorrect: true }
+- { name: munt,                                                      ruleset: t2,          untrusted: true } # accused of fake 7_0
 - { name: muon-meson,                  verpat: "[0-9]{3}.*",                               incorrect: true } # t2
 - { name: muparser,                    verpat: "200\\..*",                                 incorrect: true } # pkgsrc admitted nonsense
 - { name: muparser,                    verpat: "[0-9a-f]{7}",                              ignore: true }
