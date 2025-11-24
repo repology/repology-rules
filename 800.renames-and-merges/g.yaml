@@ -554,6 +554,7 @@
 - { setname: gupnp-av,                 name: gupnp-av-gi, addflavor: true }
 - { setname: gupnp-dlna,               name: libgupnp-dlna }
 - { setname: gupnp-igd,                name: libgupnp-igd }
+- { setname: gurk,                     name: [rust:$0, $0-rs] }
 - { setname: gurobi,                   name: matlab-gurobi, addflavor: true }
 - { setname: gutenprint,               name: [gimp-gutenprint,gimp-print,gutenprint-gimp,gutenprint-lib] } # gimp-print is a former name
 - { setname: guvcview,                 name: [guvcview-qt,guvcview-qt5,guvcview-gtk], addflavor: true }
