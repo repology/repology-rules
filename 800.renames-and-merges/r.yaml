@@ -164,6 +164,7 @@
 - { setname: rtl8814au,                name: rtl8814au-dkms, addflavor: dkms }
 - { setname: rtmpdump,                 name: rtmpdump0 }
 - { setname: rtmpdump,                 name: [librtmp, librtmp0], addflavor: librtmp }
+- { setname: rtodo,                    name: rust:$0 }
 - { setname: rtorrent,                 name: [rtorrent-cdl,rtorrent-color,rtorrent-ipv6,rtorrent-vi-color], addflavor: true }
 - { setname: rtosc,                    name: lib$0 }
 - { setname: rtpengine,                name: rtpengine-dkms }
