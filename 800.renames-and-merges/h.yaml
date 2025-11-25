@@ -18,6 +18,7 @@
 - { setname: haproxy,                  name: haproxy-devel, weak_devel: true, nolegacy: true }
 - { setname: haproxy-dataplaneapi,     name: dataplaneapi }
 - { setname: haraka,                   name: "node:haraka" }
+- { setname: hardcpy,                  name: rust:$0 }
 - { setname: hardinfo2,                name: hardinfo }
 - { setname: hardlink,                 name: hardlink-osx }
 - { setname: harfbuzz,                 name: [libharfbuzz, harfbuzz-2.9.1] }
