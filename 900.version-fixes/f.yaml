@@ -214,6 +214,7 @@
 - { name: "fonts:lklug",                                                                   noscheme: true }
 - { name: "fonts:mikachan",            ver: "9.1.2006.08.09",                              ignore: true } # openSUSE garbage
 - { name: "fonts:misc-cyrillic",                                     ruleset: openindiana, incorrect: true } # uses version from font-screen-cyrillic https://github.com/OpenIndiana/oi-userland/blob/454f95e1962006a48cd00a0d3540eb603f91d8db/components/fonts/xorg-cyrillic/Makefile
+- { name: "fonts:national-park",       verpat: "[0-9]{6,}",                                incorrect: true } # just upload id, not a version
 - { name: "fonts:nerd-fonts",          verpat: "[0-9]{4}.*",                               incorrect: true }
 - { name: "fonts:nerd-fonts",          verpat: ".*\\+.*",                                  incorrect: true } # it's plain 3.3.0
 - { name: "fonts:noto",                verge: "20000000", verlt: "20250201",               sink: true } # outdated with incorrect versioning scheme
