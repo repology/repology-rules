@@ -517,6 +517,8 @@
 - { setname: syncthing,                name: [syncthing-discovery, syncthing-relay], addflavor: true }
 - { setname: syncthing-gtk,            name: "python:syncthing-gtk" }
 - { setname: synergy,                  namepat: "synergy[0-9.-]+" }
+- { setname: synergy,                  name: [synergy3-beta, synergy3-stable], weak_devel: true, nolegacy: true }
+- { setname: synergy,                  name: [synergy3-app, synergy3-core], addflavor: true }
 - { setname: synfig,                   name: [synfigstudio, synfig-studio] }
 - { setname: synfig,                   name: [synfig-dev, synfigstudio-dev], weak_devel: true, nolegacy: true }
 - { setname: syntax-highlighting,      name: ksyntax-highlighting }

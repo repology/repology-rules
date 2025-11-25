@@ -724,6 +724,10 @@
 - { name: sync, wwwpart: taler.net, setname: taler-sync }
 - { name: sync, addflag: unclassified }
 
+- { name: synergy, releq: "3", setname: synergy3 } # proprietary only?
+- { name: synergy, addflag: classified }
+- { name: synergy, addflag: unclassified }
+
 - { name: synth, wwwpart: ajg, setname: synth-templating-framework }
 - { name: synth, wwwpart: jrmarino, setname: synth-repository-builder }
 - { name: synth, wwwpart: getsynth, setname: synth-data-generator }
