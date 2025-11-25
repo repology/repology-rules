@@ -80,6 +80,10 @@
 # also abandoned flightgear launcher with no alive upstream
 - { name: fgo, addflag: unclassified }
 
+- { name: figma-agent, wwwpart: figma.com, setname: figma, addflavor: agent }
+- { name: figma-agent, wwwpart: neetly, setname: figma-agent-linux } # XXX: misnamed?
+- { name: figma-agent, addflag: unclassified }
+
 - { name: figurine, wwwpart: arsham, setname: figurine-banner }
 - { name: figurine, sourceforge: figurine, setname: figurine-graphics }
 - { name: figurine, addflag: unclassified }
