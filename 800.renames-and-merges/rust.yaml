@@ -1,12 +1,12 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- { setname: "rust:bindgen",           name: rust-bindgen }
-- { setname: "rust:cargo-asm",         name: cargo-asm }
-- { setname: "rust:crossterm",         namepat: "rust:crossterm[0-9.]+" }
-- { setname: "rust:getopts",           name: rust-getopts } # XXX: replace with wildcard?
-- { setname: "rust:lolcat",            name: lolcat-rs }
-- { setname: "rust:simple-http-server", name: simple-http-server }
-- { setname: "rust:xsv",               name: xsv-rs }
+- { setname: rust:bindgen,             name: rust-bindgen }
+- { setname: rust:cargo-asm,           name: cargo-asm }
+- { setname: rust:crossterm,           namepat: "rust:crossterm[0-9.]+" }
+- { setname: rust:getopts,             name: rust-getopts } # XXX: replace with wildcard?
+- { setname: rust:lolcat,              name: lolcat-rs }
+- { setname: rust:simple-http-server,  name: simple-http-server }
+- { setname: rust:xsv,                 name: xsv-rs }
 
 - namepat: |
     (rust:(?:

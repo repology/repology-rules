@@ -117,7 +117,7 @@
 - { setname: xpra,                     name: python:$0 }
 - { setname: xpra,                     name: xpra-gtk2, addflavor: true }
 - { setname: xproxymanagementprotocol, name: xproxymngproto }
-- { setname: xq,                       name: "rust:$0" }
+- { setname: xq,                       name: rust:$0 }
 - { setname: xrdb,                     name: xorg-xrdb-mcpp, addflavor: mcpp }
 - { setname: xrdp,                     name: xrdp-devel, weak_devel: true, nolegacy: true }
 - { setname: xsel,                     name: xsel-conrad }

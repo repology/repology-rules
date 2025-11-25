@@ -2,7 +2,7 @@
 
 - { setname: b2,                       name: [boost-build], outdated: true } # former name; split in 850
 - { setname: b2,                       name: [b2-tools,"python:b2"] } # split in 850
-- { setname: b4,                       name: "python:$0" }
+- { setname: b4,                       name: python:$0 }
 - { setname: babel.js,                 name: babel-cli }
 - { setname: babeltrace,               name: "python:babeltrace", addflavor: python }
 - { setname: babeltrace,               name: babeltrace2 }
@@ -129,7 +129,7 @@
 - { setname: bitkeeper,                name: bitkeeper-production }
 - { setname: bitkeeper,                name: bitkeeper-bk }
 - { setname: bitlbee,                  name: [bitlbee-libpurple, bitlbee-libpurple-unicode-channel, bitlbee-purple], addflavor: true } # these are NOT bitlbee plugins
-- { setname: bitrot,                   name: "python:$0" }
+- { setname: bitrot,                   name: python:$0 }
 - { setname: bitwig-studio,            name: bitwig-studio-beta, weak_devel: true, nolegacy: true }
 - { setname: bitwig-studio,            name: [bitwig-studio-legacy, bitwig-studio-3, bitwig-studio-4] }
 - { setname: bkt,                      name: rust:$0 }
@@ -192,8 +192,8 @@
 - { setname: booth,                    name: maui-booth }
 - { setname: bootspec,                 name: rust:bootspec }
 - { setname: bootstrap,                name: [twitter-bootstrap3,twitter-bootstrap4] }
-- { setname: bore,                     name: "rust:$0" }
-- { setname: bore-cli,                 name: "rust:$0" }
+- { setname: bore,                     name: rust:$0 }
+- { setname: bore-cli,                 name: rust:$0 }
 - { setname: borg,                     name: borg2 }
 - { setname: borg-space,               name: "python:borg-space" }
 - { setname: borgbackup,               name: [borgbackup2, python:borgbackup, python:borgbackup11] }

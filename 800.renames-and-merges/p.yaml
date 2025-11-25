@@ -117,7 +117,7 @@
 - { setname: perlbal,                  name: "perl:perlbal" }
 - { setname: perseus,                  name: perseus-cli }
 - { setname: petite-chez-scheme,       name: petite-chez }
-- { setname: pferd,                    name: "python:$0" }
+- { setname: pferd,                    name: python:$0 }
 - { setname: pg-dirtyread,             namepat: "(postgresql[0-9.-]*)-pg-dirtyread", addflavor: $1 }
 - { setname: pg-repack,                namepat: "(postgresql[0-9.-]*)-pg-repack", addflavor: $1 }
 - { setname: pg-top,                   name: pgtop }
@@ -239,7 +239,7 @@
 - { setname: podman-compose,           name: python:$0 }
 - { setname: podofo,                   name: libpodofo }
 - { setname: poethepoet,               name: python:$0 }
-- { setname: poetry,                   name: "python:$0" }
+- { setname: poetry,                   name: python:$0 }
 - { setname: poke,                     name: gnu-poke }
 - { setname: pokerth,                  name: [pokerth-client,pokerth-server], addflavor: true }
 - { setname: poketex,                  name: rust:$0 }
@@ -422,7 +422,7 @@
 - { setname: pycsw,                    name: "python:pycsw" }
 - { setname: pygtksourceview,          name: ["python:gtksourceview","python:pygtksourceview","python:pygtksourceview2",pygtksourceview,pygtksourceview2,"python:gtksourceview2"] }
 - { setname: pyload,                   name: pyload-nightly, weak_devel: true, nolegacy: true }
-- { setname: pyload-ng,                name: "python:$0" }
+- { setname: pyload-ng,                name: python:$0 }
 - { setname: pymol,                    name: [pymol2, "python:pymol", pymol-python2 ] }
 - { setname: pympress,                 name: python:$0 }
 - { setname: pyoxidizer,               name: [python:$0, rust:$0] }

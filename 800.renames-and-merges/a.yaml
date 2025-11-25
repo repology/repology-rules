@@ -62,7 +62,7 @@
 - { setname: adapta-kde,               name: [adapta-kde-theme,kde5-plasma-theme-adapta] }
 - { setname: adblock-plus,             name: adblockplus-firefox, ruleset: chocolatey }
 - { setname: add,                      name: tapecalc }
-- { setname: add-determinism,          name: "rust:$0" }
+- { setname: add-determinism,          name: rust:$0 }
 - { setname: adementary-theme,         name: gtk-theme-adementary }
 - { setname: adept,                    name: adept2 }
 - { setname: adguardhome,              name: adguardhome-go }
@@ -77,7 +77,7 @@
 - { setname: adolc,                    name: adol-c }
 - { setname: adplug,                   name: libadplug }
 - { setname: adplug,                   name: [adplug-mame], addflavor: true }
-- { setname: adrs,                     name: "rust:$0" }
+- { setname: adrs,                     name: rust:$0 }
 - { setname: advanced-installer,       name: advancedinstaller }
 - { setname: advanced-ip-scanner,      name: advancedipscanner }
 - { setname: advanced-renamer,         name: advancedrenamer }
@@ -128,7 +128,7 @@
 - { setname: akonadi-contacts,         name: akonadi-contact } # XXX: problem
 - { setname: alac,                     name: [alac-decoder,libalac,alacconvert], addflavor: true } # supposedly the same
 - { setname: alacritty,                name: [alacritty-externalpipe, alacritty-ligatures], addflavor: true }
-- { setname: alacritty,                name: "rust:$0" }
+- { setname: alacritty,                name: rust:$0 }
 - { setname: alan,                     name: alan2 }
 - { setname: albatross-gtk-theme,      name: albatross, verpat: "1\\.7.*" }
 - { setname: albatross-gtk-theme,      name: albatross-themes }
@@ -222,7 +222,7 @@
 - { setname: anki,                     name: [anki12,anki20,anki2,"python:anki2"] }
 - { setname: anki,                     name: [anki-bin, anki-qt5, anki-before-bazel], addflavor: true }
 - { setname: annex,                    name: annex-conquer-the-world }
-- { setname: ansi-escape-sequences-cli, name: "rust:$0" }
+- { setname: ansi-escape-sequences-cli, name: rust:$0 }
 - { setname: ansible,                  namepat: "(?:python:)?ansible[0-9.-]*" }
 - { setname: ansible-core,             name: [ansible-base, "python:ansible-base", "python:ansible-core" ] }
 - { setname: ansible-core,             namepat: "ansible-core[0-9.-]+" }
@@ -269,7 +269,7 @@
 - { setname: apache-tinkerpop,         name: apache-tinkerpop-gremlin-server, addflavor: gremlin-server }
 - { setname: apcupsd,                  name: [apcupsd-x11,apcupsd-cgi] }
 - { setname: apfs,                     name: [linux-apfs-rw,linux-apfs-rw-dkms,linux-apfs-rw-src] }
-- { setname: aphorme,                  name: "rust:$0" }
+- { setname: aphorme,                  name: rust:$0 }
 - { setname: apicula,                  name: [python:apicula, apycula, python:apycula, prjapicula] } # XXX: upstream problem with python package naming
 - { setname: apio,                     name: python:$0 }
 - { setname: apio,                     name: apio-udev-rules, addflavor: true }
@@ -358,7 +358,7 @@
 - { setname: asciidoctor,              name: "ruby:$0" }
 - { setname: asciidoctor-pdf,          name: "ruby:$0" }
 - { setname: asciinema,                name: "python:asciinema" }
-- { setname: asciinema-scenario,       name: "rust:$0" }
+- { setname: asciinema-scenario,       name: rust:$0 }
 - { setname: asciio,                   name: perl:app-asciio }
 - { setname: asciio,                   name: perl:asciio } # XXX: problem
 - { setname: asclock,                  name: asclock-xlib, addflavor: true }
@@ -437,7 +437,7 @@
 - { setname: autofs,                   name: autofs5 }
 - { setname: autokey,                  name: [autokey-py3,"python:autokey"] }
 - { setname: automake,                 namepat: "automake-?[0-9.]+" } # do we need splits for this?
-- { setname: automatic-timezoned,      name: "rust:$0" }
+- { setname: automatic-timezoned,      name: rust:$0 }
 - { setname: automoc,                  namepat: "automoc[0-9]+" }
 - { setname: autopep8,                 name: "python:autopep8" }
 - { setname: autopilot,                name: $0-legacy }
@@ -468,7 +468,7 @@
 - { setname: aws-assume-role,          name: assume-role }
 - { setname: aws-cw-tools,             name: cloud-watch }
 - { setname: aws-mfa,                  name: python:$0 }
-- { setname: awsbck,                   name: "rust:$0" }
+- { setname: awsbck,                   name: rust:$0 }
 - { setname: awscli,                   name: ["python:awscli", "python:aws-cli", aws-cli, aws-cli-v2, awscli2] }
 - { setname: awsebcli,                 name: [aws-eb-cli,aws-elasticbeanstalk,"python:aws-eb-cli"] }
 - { setname: awslogs,                  name: python:awslogs }

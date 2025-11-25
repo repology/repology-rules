@@ -17,7 +17,7 @@
 - { setname: dash,                     name: [dash-static,dash-static-musl], addflavor: true }
 - { setname: dashcore,                 name: [dashpay, dash-core] }
 - { setname: dashcore,                 name: dash-dash } # XXX: name problem
-- { setname: datalad,                  name: "python:$0" }
+- { setname: datalad,                  name: python:$0 }
 - { setname: date,                     name: [howard-hinnant-date, howardhinnant-date] }
 - { setname: date,                     name: libdate-tz, addflavor: true }
 - { setname: dav,                      name: dav-text }
@@ -85,7 +85,7 @@
 - { setname: devil,                    name: libdevil }
 - { setname: dexed,                    name: [dexed-gtk2,dexed-qt4,dexed-qt5], addflavor: true }
 - { setname: dfrs,                     name: "rust:dfrs" }
-- { setname: dftd4,                    name: "python:$0" }
+- { setname: dftd4,                    name: python:$0 }
 - { setname: dgen-sdl,                 name: dgen }
 - { setname: dhall,                    name: "haskell:dhall" }
 - { setname: dhcp,                     name: [dhclient,isc-dhclient,isc-dhcp], addflavor: client }
@@ -104,7 +104,7 @@
 - { setname: die,                      name: die-engine }
 - { setname: diffenator2,              name: python:$0 }
 - { setname: diffoscope,               name: "python:diffoscope" }
-- { setname: difftastic,               name: "rust:$0" }
+- { setname: difftastic,               name: rust:$0 }
 - { setname: diffutils,                name: gdiff }
 - { setname: digitalbitbox,            name: [dbb-app,dbb-cli,digital-bitbox-app] }
 - { setname: dino,                     name: dino-unstable, ignore: true }
@@ -173,7 +173,7 @@
 - { setname: dosage,                   name: [gnome-dosage, dosage-tracker, python:dosage] } # different projects, split in 850
 - { setname: dosbox,                   name: [dosbox-sdl2,dosbox-debug,dosbox-multilib-patched,dosbox-ex], addflavor: true }
 - { setname: dosbox,                   name: dosbox-dev }
-- { setname: dotenv-linter,            name: "rust:$0" }
+- { setname: dotenv-linter,            name: rust:$0 }
 - { setname: dotnet,                   namepat: "dotnet[0-9.-]+" }
 - { setname: dotnet,                   name: dotnetpreview, weak_devel: true, nolegacy: true }
 - { setname: dotnet-script,            name: dotnet.script }
@@ -204,7 +204,7 @@
 - { setname: dreampie,                 name: "python:dreampie" }
 - { setname: drgeo,                    name: drgeo1 }
 - { setname: drgn,                     name: "python:drgn" }
-- { setname: drill,                    name: "rust:$0" }
+- { setname: drill,                    name: rust:$0 }
 - { setname: drkonqi,                  name: drkonqi5 }
 - { setname: drpython,                 name: drpython-py27 }
 - { setname: drumkv1,                  name: drumkv1-lv2 }
@@ -233,7 +233,7 @@
 - { setname: duplicati,                name: [duplicati2-beta,duplicati-canary,duplicati-beta], weak_devel: true, nolegacy: true }
 - { setname: dustrac,                  name: [dust-racing-2d, dustracing2d] }
 - { setname: dutree,                   name: "rust:dutree" }
-- { setname: duviz,                    name: "python:$0" }
+- { setname: duviz,                    name: python:$0 }
 - { setname: dvb-apps,                 name: linuxtv-$0 }
 - { setname: "dvd+rw-tools",           name: [dvdrw-tools,dvd-rw-tools,dvd+rwtools] }
 - { setname: dwarf-fortress,           name: dwarffortress }

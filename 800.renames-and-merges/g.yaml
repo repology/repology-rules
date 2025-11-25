@@ -148,7 +148,7 @@
 - { setname: git,                      name: git19 }
 - { setname: git-absorb,               name: rust:$0 }
 - { setname: git-big-picture,          name: "python:git-big-picture" }
-- { setname: git-delete-merged-branches, name: "python:$0" }
+- { setname: git-delete-merged-branches, name: python:$0 }
 - { setname: git-delta,                name: "rust:git-delta" }
 - { setname: git-fame,                 name: python:$0 }
 - { setname: git-for-windows,          name: msysgit } # https://github.com/git-for-windows/git/wiki/FAQ#what-is-the-relationship-between-git-for-windows-and-msysgit
@@ -472,7 +472,7 @@
 - { setname: grpc,                     namepat: "grpc[0-9.-]+" }
 - { setname: grub,                     name: [grub2, grub-legacy, grub204] }
 - { setname: grub,                     name: [$0-blscfg, $0-coreboot, $0-efi, $0-efi-arm64, $0-efi32, $0-hybrid, $0-linux-default, $0-minimal, $0-silent, $0-static, grub2-efi, grub2-efi-x64, grub2-unsigned], addflavor: true }
-- { setname: grub2-theme-preview,      name: "python:$0" }
+- { setname: grub2-theme-preview,      name: python:$0 }
 - { setname: grumphp,                  name: php:$0 }
 - { setname: gsasl,                    name: gsasl-ntlm, addflavor: ntlm }
 - { setname: gsasl,                    name: libgsasl }

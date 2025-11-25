@@ -34,7 +34,7 @@
 - { setname: raptor,                   name: [raptor1,raptor2] }
 - { setname: rash,                     name: rust:$0 }
 - { setname: raul,                     name: lib$0 }
-- { setname: rav1e,                    name: [lib$0, "rust:$0"] }
+- { setname: rav1e,                    name: [lib$0, rust:$0] }
 - { setname: rawtherapee,              name: rawtherapee-gtk2 }
 - { setname: rawtherapee,              name: [rawtherapee-unstable,rawtherapee.dev], weak_devel: true, nolegacy: true }
 - { setname: raxml,                    name: raxml-mpi, addflavor: true }

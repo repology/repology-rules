@@ -33,7 +33,7 @@
 - { setname: mandelbulber,             name: mandelbulber2 }
 - { setname: mandelbulber,             name: [mandelbulber-opencl, mandelbulber2-opencl], addflavor: opencl }
 - { setname: mandoc,                   name: mdocml } # mdocml is an old name (schwarze@openbsd.org)
-- { setname: mandown,                  name: "rust:$0" }
+- { setname: mandown,                  name: rust:$0 }
 - { setname: mangle,                   name: rust:$0 }
 - { setname: manimce,                  name: python:manim }
 - { setname: manimgl,                  name: python:$0 }
@@ -65,7 +65,7 @@
 - { setname: mariadb-mytop,            name: mytop-mainline-noconflict, addflavor: true }
 - { setname: marimo,                   name: python:$0 }
 - { setname: marisa,                   name: [lib$0, marisa-trie] }
-- { setname: marisa,                   name: ["python:$0", "python:lib$0"], addflavor: python }
+- { setname: marisa,                   name: [python:$0, python:lib$0], addflavor: python }
 - { setname: marisa,                   name: ["perl:$0", "perl:lib$0"], addflavor: perl }
 - { setname: marisa,                   name: ["ruby:$0"], addflavor: ruby }
 - { setname: markdown-link-check,      name: "node:$0" }
@@ -155,7 +155,7 @@
 - { setname: mda-lv2,                  name: mda.lv2 }
 - { setname: mdbook,                   name: "rust:mdbook" }
 - { setname: mdds,                     namepat: "(?:lib)?mdds[0-9.-]*" }
-- { setname: mdformat,                 name: "python:$0" }
+- { setname: mdformat,                 name: python:$0 }
 - { setname: mdk,                      name: gnu-mdk }
 - { setname: mdk,                      name: mdk-doc, addflavor: true }
 # All the MDLs get disambiguated in the 850 ruleset
@@ -205,7 +205,7 @@
 - { setname: meshoptimizer,            name: gltfpack, addflavor: true } # part of
 - { setname: meson,                    name: ["python:meson",meson-internal,meson-testsuite], addflavor: true }
 - { setname: meson,                    name: [meson054, meson1] }
-- { setname: meta-package-manager,     name: "python:$0" }
+- { setname: meta-package-manager,     name: python:$0 }
 - { setname: metadata,                 name: rust:$0 }
 - { setname: metasploit,               namepat: "metasploit[0-9.-]+" }
 - { setname: metasploit,               name: metasploit-framework }
@@ -395,7 +395,7 @@
 - { setname: musl,                     name: musl-bootstrap, addflavor: true }
 - { setname: musl,                     name: [$0-cross, arm-$0, armhf-$0, i386-$0, $0-armv7, $0-mallocng, $0-x86-64, aarch64-linux-$0, arm-linux-gnueabihf-$0], addflavor: true }
 - { setname: musl-rpmatch,             name: rpmatch-standalone }
-- { setname: mutmut,                   name: "python:$0" }
+- { setname: mutmut,                   name: python:$0 }
 - { setname: mutt,                     name: mutt-devel, weak_devel: true, nolegacy: true }
 - { setname: mutt,                     name: [mutt-lite,mutt14,mutt14-lite,mutt-patched,mutt-slang,mutt-kiss] }
 - { setname: mvapich2,                 namepat: "mvapich2(?:-psm2?)?(?:-2-2)?(?:-gnu-hpc)?", addflavor: true }

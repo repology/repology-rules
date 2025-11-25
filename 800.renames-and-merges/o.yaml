@@ -166,7 +166,7 @@
 - { setname: opensmtpd-extras,         namepat: "opensmtpd-extras-.*", ruleset: [freebsd,openbsd] }
 - { setname: opensonic,                name: opensnc }
 - { setname: opensp,                   name: opensp-doc, addflavor: doc }
-- { setname: openstack-placement,      name: "python:$0" }
+- { setname: openstack-placement,      name: python:$0 }
 - { setname: opentelemetry-collector,  name: otelcol }
 - { setname: opentelemetry-collector-contrib, name: otelcol-contrib }
 - { setname: openttd,                  name: [open-ttd, openttd-stable] }

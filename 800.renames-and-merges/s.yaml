@@ -58,7 +58,7 @@
 - { setname: scapy,                    name: "python:scapy" }
 - { setname: scc,                      name: "go:scc" }
 - { setname: sccache,                  name: [sccache-dist, sccache-overlay], addflavor: true }
-- { setname: sccache,                  name: "rust:$0" }
+- { setname: sccache,                  name: rust:$0 }
 - { setname: scheme9,                  name: scheme-9-from-empty-space }
 - { setname: schilytools,              name: [schily, schily-tools] }
 - { setname: schilytools,              name: [schilybase, schilyutils], addflavor: true } # FreeBSD
@@ -72,7 +72,7 @@
 - { setname: scons,                    name: ["python:scons", scons2] }
 - { setname: scons,                    name: [scons-doc, scons-python2] }
 - { setname: scourge,                  name: scourge-data, addflavor: data }
-- { setname: scout,                    name: "rust:$0" }
+- { setname: scout,                    name: rust:$0 }
 - { setname: scream-virtual-sound-card, name: [scream-alsa,scream-alsa-ivshmem,scream-pulseaudio,scream-pulseaudio-ivshmem,scream-receivers,scream-receiver,scream-raw], addflavor: true }
 - { setname: screen,                   name: screen-pam, addflavor: true }
 - { setname: screenfetch,              name: screenfetch-dev, weak_devel: true, nolegacy: true }
@@ -82,7 +82,7 @@
 - { setname: scrot,                    name: scrot-no-beep, addflavor: no-beep }
 - { setname: sd,                       name: [rust:$0, perl:app-sd, sd-cli] } # different projects, split in 850
 - { setname: sddm,                     name: [sddm-classic,sddm-elogind], addflavor: true }
-- { setname: sdkmanager,               name: "python:$0" }
+- { setname: sdkmanager,               name: python:$0 }
 - { setname: sdl,                      namepat: "(?:lib)?sdl2[0-9.-]*", addflag: sdl2 }
 - { setname: sdl,                      namepat: "(?:lib)?sdl3[0-9.-]*", addflag: sdl3 }
 - { setname: sdl,                      namepat: "(?:lib)?sdl[0-9.-]*" }
@@ -108,7 +108,7 @@
 - { setname: sdlmm,                    name: libsdlmm }
 - { setname: sdocbook-xml,             name: docbook-xml-simple } # ravenports
 - { setname: sdr++,                    name: [sdrpp,sdrplusplus] }
-- { setname: sdr-heatmap,              name: "rust:sdr-heatmap" }
+- { setname: sdr-heatmap,              name: rust:sdr-heatmap }
 - { setname: sdsl-lite,                name: libsdsl }
 - { setname: seafile,                  name: [seafile-shared, seafile-libclient] }
 - { setname: seafile-client,           name: [seafile-client-qt,seafile-gui], addflavor: true }
@@ -123,7 +123,7 @@
 - { setname: see,                      name: [see-cat, rust:see-cat, rust:see] } # different projects, split in 850
 - { setname: seer,                     name: [seer-gdb, seergdb] }
 - { setname: seexpr,                   name: seexpr-doc, addflavor: doc }
-- { setname: selene,                   name: "rust:selene" }
+- { setname: selene,                   name: rust:selene }
 - { setname: selene,                   name: selene-media-converter }
 - { setname: semgrep,                  name: python:$0 }
 - { setname: semgrep,                  name: semgrep-core, addflavor: core }
@@ -134,14 +134,14 @@
 - { setname: seqan,                    namepat: "seqan[0-9.-]+" }
 - { setname: seqlib,                   name: libseqlib } # XXX: problem
 - { setname: sequencer64,              name: sequencer64-next, ignore: true }
-- { setname: sequoia-sq,               name: "rust:sequoia-sq" }
-- { setname: sequoia-sqv,              name: "rust:sequoia-sqv" }
+- { setname: sequoia-sq,               name: rust:sequoia-sq }
+- { setname: sequoia-sqv,              name: rust:sequoia-sqv }
 - { setname: serf,                     namepat: "(?:lib)?serf[0-9.-]*" }
 - { setname: serf,                     name: [serf-cluster, hashicorp-serf] }
 - { setname: set,                      name: [setoolkit, social-engineer-toolkit] }
 - { setname: sextractor,               name: astromatic-sextractor }
 - { setname: sfcgal,                   name: $0-legacy }
-- { setname: sfm,                      name: "rust:sfm" }
+- { setname: sfm,                      name: rust:sfm }
 - { setname: sfml,                     name: compat-sfml16 }
 - { setname: sfml,                     namepat: "(?:lib)?sfml[0-9.-]*" }
 - { setname: sfml,                     name: sfml-static, addflavor: true }
@@ -181,7 +181,7 @@
 - { setname: sile,                     name: sile-luajit, addflavor: true }
 - { setname: silgraphite,              name: [silgraphite-ft,silgraphite-xft], addflavor: true }
 - { setname: silgraphite,              name: [silgraphite2.0,graphite,libgraphite2,graphite2,libgraphite] }
-- { setname: silicon-code-image,       name: "rust:silicon" }
+- { setname: silicon-code-image,       name: rust:silicon }
 - { setname: simage,                   name: libsimage }
 - { setname: simdjson,                 name: lib$0 }
 - { setname: simh,                     name: simh-classic, addflavor: true }
@@ -202,7 +202,7 @@
 - { setname: sirocco,                  name: [sirocco2,lib$0] }
 - { setname: sisc,                     name: sisc-scheme }
 - { setname: sk1libs,                  name: "python:sk1libs" }
-- { setname: skim,                     name: "rust:skim" }
+- { setname: skim,                     name: rust:skim }
 - { setname: sky,                      name: perl:app-sky }
 - { setname: skype,                    name: [get-skypeforlinux, get-skype, skypeforlinux, skypeforlinux-stable] }
 - { setname: skype,                    name: skypeforlinux-preview, weak_devel: true, nolegacy: true }
@@ -247,7 +247,7 @@
 - { setname: snapshot,                 name: gnome-$0 }
 - { setname: snes9x,                   name: snes9x-gtk, addflavor: true }
 - { setname: sni-qt,                   name: sni-qt4 }
-- { setname: sniffglue,                name: "rust:sniffglue" }
+- { setname: sniffglue,                name: rust:sniffglue }
 - { setname: sniffnet,                 name: rust:$0 }
 - { setname: snmp++,                   name: snmppp }
 - { setname: snorenotify,              name: snorenotify-qt5 }
@@ -302,8 +302,8 @@
 - { setname: space-nerds-in-space,     name: snis }
 - { setname: spacearyarya,             name: spacearyarya-kxl, ruleset: gentoo } # XXX: recheck
 - { setname: spacefm,                  name: [spacefm-gtk2,spacefm-gtk3], addflavor: true }
-- { setname: spamassassin,             name: "perl:mail-spamassassin" }
-- { setname: spamassassin,             name: "perl:spamassassin" }
+- { setname: spamassassin,             name: perl:mail-spamassassin }
+- { setname: spamassassin,             name: perl:spamassassin }
 - { setname: spamassassin,             name: spamassassin-rules, addflavor: rules }
 - { setname: spamassassin,             name: spamassassin-spamc, addflavor: rules }
 - { setname: spamassassin-ixhash,      name: [spamassassin-ixhash2, spamass-ixhash] }
@@ -341,13 +341,13 @@
 - { setname: spotify,                  name: [spotify-stable,spotify094,spotify-legacy,spotify-snapstore] }
 - { setname: spotify,                  name: [spotify-dev,spotify-edge], weak_devel: true, nolegacy: true }
 - { setname: spotify,                  name: [$0-client,$0-noshows], addflavor: true }
-- { setname: spotify-dl,               name: "python:spotify-dl" }
+- { setname: spotify-dl,               name: python:spotify-dl }
 - { setname: spr,                      name: rust:$0 }
 - { setname: spring,                   name: springrts }
 - { setname: springframework,          namepat: "spring-?framework[0-9]*" }
 - { setname: springframework,          name: [libspring-java,"java:spring"] }
 - { setname: spsdeclib,                name: [libcapsimage, capsimage] } # alternate name
-- { setname: spyder,                   name: ["python:spyder",spyder3] }
+- { setname: spyder,                   name: [python:spyder,spyder3] }
 - { setname: spytrap-adb,              name: rust:$0 }
 - { setname: sql-operations-studio,    name: sqlopsstudio }
 - { setname: sqlite,                   name: [sqlite-tcl,sqlite3-tcl,tcl-sqlite,tcl-sqlite3,tclsqlite2], addflavor: tcl }
@@ -371,11 +371,11 @@
 - { setname: squirrel-sql,             name: squirrelsqlstandard, addflavor: standard }
 - { setname: squirrelmail-$1,          namepat: "squirrelmail-(.*)-plugin", ruleset: freebsd }
 - { setname: sratom,                   name: libsratom }
-- { setname: sreview,                  name: "perl:sreview" }
+- { setname: sreview,                  name: perl:sreview }
 - { setname: srt,                      name: libsrt }
-- { setname: ssh-audit,                name: "python:ssh-audit" }
+- { setname: ssh-audit,                name: python:ssh-audit }
 - { setname: sshuttle,                 name: python:$0 }
-- { setname: ssmtool,                  name: "python:ssmtool" }
+- { setname: ssmtool,                  name: python:ssmtool }
 - { setname: ssmtp,                    name: ssmtp-plain, addflavor: plain }
 - { setname: sssd,                     name: sssd-nosmb, addflavor: true }
 - { setname: sssd,                     name: sssd2 }
@@ -391,7 +391,7 @@
 - { setname: stardust-xr-magnetar,     name: stardust-magnetar }
 - { setname: stardust-xr-protostar,    name: stardust-protostar }
 - { setname: stardust-xr-server,       name: [stardust-server, stardust-xr] }
-- { setname: starship,                 name: "rust:starship" }
+- { setname: starship,                 name: rust:starship }
 - { setname: startup-notification,     name: lib$0 }
 - { setname: staruml,                  name: staruml-bin, addflavor: true }
 - { setname: staruml,                  name: staruml2 }
@@ -411,7 +411,7 @@
 - { setname: stork,                    name: rust:stork-search }
 - { setname: stork,                    name: [stork-agent, stork-server], addflavor: true } # counterparts
 - { setname: storm,                    name: storm-beta, weak_devel: true, nolegacy: true }
-- { setname: stormssh,                 name: "python:stormssh" }
+- { setname: stormssh,                 name: python:stormssh }
 - { setname: strawberry,               name: [strawberry-lite,strawberry-full,strawberry-qt5], addflavor: true }
 - { setname: streamtuner,              namepat: "streamtuner[0-9]+" }
 - { setname: stremio,                  name: [stremio-shell, stremio-legacy] }
@@ -425,7 +425,7 @@
 - { setname: stunnel,                  name: stunnel-beta, weak_devel: true, nolegacy: true }
 - { setname: stuntrally,               name: stunt-rally }
 - { setname: stxxl,                    name: libstxxl }
-- { setname: stylua,                   name: "rust:stylua" }
+- { setname: stylua,                   name: rust:stylua }
 - { setname: sublime-text,             name: [sublime-text-3-imfix,sublime-text-imfix], addflavor: imfix }
 - { setname: sublime-text,             name: [sublime-text-4-dev, sublime-text-dev, sublime-text-nightly], weak_devel: true, nolegacy: true }
 - { setname: sublime-text,             namepat: "sublime-?text[0-9.-]*" }
@@ -441,7 +441,7 @@
 - { setname: sugar-toolkit,            name: [sugar-toolkit-gtk2,sugar-toolkit-gtk3], addflavor: true }
 - { setname: sugar-toolkit,            namepat: "sugar-toolkit[0-9.-]+" }
 - { setname: sugar-write-activity,     namepat: "sugar-write-activity[0-9.-]+" }
-- { setname: sugarjar,                 name: "ruby:sugarjar" }
+- { setname: sugarjar,                 name: ruby:sugarjar }
 - { setname: suil,                     name: libsuil }
 - { setname: suil,                     name: [suil-qt4,suil-qt5], addflavor: true }
 - { setname: suitesparse,              name: [libsuitesparse,libsuitesparse3,suite-sparse] }
@@ -474,7 +474,7 @@
 - { setname: surge-xt,                 name: surge-synthesizer-xt-lv2, addflavor: lv2 }
 - { setname: sushi,                    name: gnome-sushi }
 - { setname: svg2tikz,                 name: python:$0 }
-- { setname: svgcleaner,               name: "rust:svgcleaner" }
+- { setname: svgcleaner,               name: rust:svgcleaner }
 - { setname: svgo,                     name: "node:svgo" }
 - { setname: svmlight,                 name: svm-light }
 - { setname: svn-all-fast-export,      name: kde-svn2git }
@@ -515,7 +515,7 @@
 - { setname: syncall,                  name: python:$0 }
 - { setname: syncthing,                name: [syncthing-0.14,syncthing13] }
 - { setname: syncthing,                name: [syncthing-discovery, syncthing-relay], addflavor: true }
-- { setname: syncthing-gtk,            name: "python:syncthing-gtk" }
+- { setname: syncthing-gtk,            name: python:syncthing-gtk }
 - { setname: synergy,                  namepat: "synergy[0-9.-]+" }
 - { setname: synergy,                  name: [synergy3-beta, synergy3-stable], weak_devel: true, nolegacy: true }
 - { setname: synergy,                  name: [synergy3-app, synergy3-core], addflavor: true }
@@ -529,6 +529,6 @@
 - { setname: system-syzygy,            name: syzygy }
 - { setname: system76-acpi-dkms,       name: system76-acpi-module }
 - { setname: system76-dkms,            name: system76-module }
-- { setname: systemd-manager,          name: "rust:systemd-manager" }
+- { setname: systemd-manager,          name: rust:systemd-manager }
 - { setname: systemtap,                name: [systemtap-docs,systemtap-headers,libsystemtap,systemtap-dtrace], addflavor: true }
 - { setname: szip,                     name: hdf-szip }

@@ -76,8 +76,8 @@
 - { setname: cargo-pgo,                name: rust:$0 }
 - { setname: cargo-play,               name: "rust:cargo-play" }
 - { setname: cargo-vendor,             name: ["rust:cargo-vendor",rust-toolset-7-cargo-vendor] }
-- { setname: cargo-zigbuild,           name: ["python:$0", "rust:$0"], addflavor: true }
-- { setname: carl,                     name: ["rust:$0", carl-calendar] }
+- { setname: cargo-zigbuild,           name: [python:$0, rust:$0], addflavor: true }
+- { setname: carl,                     name: [rust:$0, carl-calendar] }
 - { setname: cassandra,                name: [apache-cassandra,cassandra2] }
 - { setname: cassandra,                name: cassandra-bin, addflavor: true }
 - { setname: cassandra,                namepat: "cassandra[0-9.-]+" }
@@ -236,7 +236,7 @@
 - { setname: cloog,                    name: [cloog-isl,cloog-isl14], addflavor: isl }
 - { setname: cloog-ppl,                name: cloog-ppl-gcc4, addflavor: gcc4 }
 - { setname: cloud-init,               name: "python:cloud-init" }
-- { setname: cloudflare-ddns,          name: "python:$0" }
+- { setname: cloudflare-ddns,          name: python:$0 }
 - { setname: cloudfoundry-cli,         name: [cloudfoundry6-cli, cf-cli] }
 - { setname: cloudfoundry-cli,         name: cf-cli-test, addflavor: test }
 - { setname: clucene,                  name: [clucene09,clucene-core,libclucene,libclucene-core] }

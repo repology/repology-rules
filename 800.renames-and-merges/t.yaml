@@ -15,8 +15,8 @@
 - { setname: talkfilters,              name: talk-filters }
 - { setname: talloc,                   name: [libtalloc,talloc1] }
 - { setname: talloc,                   name: [talloc-man,talloc-static], addflavor: true }
-- { setname: taplo-cli,                name: "rust:$0" }
-- { setname: taplo-lsp,                name: "rust:$0" }
+- { setname: taplo-cli,                name: rust:$0 }
+- { setname: taplo-lsp,                name: rust:$0 }
 - { setname: tar,                      name: [gnutar,gnu-tar,gtar,tar-gnu] }
 - { setname: tar,                      name: [gtar-base,gtar-info], addflavor: true }
 - { setname: targetcli-fb,             name: targetcli, addflavor: true } # ancient predecessor, probably affected by cves as well, but mostly misnamed targetcli-fp packages XXX problems
@@ -28,7 +28,7 @@
 - { setname: tauon-music-box,          name: [tauon, tauonmb, tauonmusicbox] }
 - { setname: tautulli,                 name: tautulli-beta, ignore: true }
 - { setname: tbftss,                   name: tbftss-the-pandoran-war }
-- { setname: tblite,                   name: "python:$0" }
+- { setname: tblite,                   name: python:$0 }
 - { setname: tcc,                      name: tinycc }
 - { setname: tcl,                      namepat: "tcl[89][0-9.-]*" }
 - { setname: tcl,                      name: tcl-nothreading, addflavor: true }
@@ -200,7 +200,7 @@
 - { setname: tmux,                     name: tmux-ver-28 }
 - { setname: tmux,                     namepat: "tmux[0-9.-]+" }
 - { setname: tmuxinator,               name: "ruby:$0" }
-- { setname: tmuxp,                    name: "python:$0" }
+- { setname: tmuxp,                    name: python:$0 }
 - { setname: tmw,                      name: the-mana-world }
 - { setname: tntnet,                   name: libtntnet }
 - { setname: to-html,                  name: rust:$0 }
@@ -280,7 +280,7 @@
 - { setname: ttfb,                     name: rust:$0 }
 - { setname: ttrpc,                    name: [protoc-gen-go-ttrpc, go:github-containerd-ttrpc, go:gogottrpc] }
 - { setname: ttyload,                  name: ttyload-git, weak_devel: true, nolegacy: true }
-- { setname: ttyper,                   name: "rust:$0" }
+- { setname: ttyper,                   name: rust:$0 }
 - { setname: tufao,                    name: tufao0, addflavor: true }
 - { setname: tufao,                    name: tufao0-qt5, addflavor: qt5 }
 - { setname: tumbler,                  name: xfce4-tumbler }

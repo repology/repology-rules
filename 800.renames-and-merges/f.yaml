@@ -45,7 +45,7 @@
 - { setname: fd,                       name: [fd-find, rust:fd-find, fd-rs] }
 - { setname: fdk-aac,                  name: [libfdk-aac,fdk-aac-enc,libaac] }
 - { setname: fdkaac,                   name: fdk-aac-encoder }
-- { setname: fdroidserver,             name: "python:$0" }
+- { setname: fdroidserver,             name: python:$0 }
 - { setname: feather,                  name: [featherwallet, monero-feather] }
 - { setname: featherpad,               name: $0-qt5, addflavor: true }
 - { setname: fec,                      name: libfec }
@@ -66,7 +66,7 @@
 - { setname: ffmpeg-normalize,         name: "python:ffmpeg-normalize" }
 - { setname: ffms2,                    name: [ffmpegsource, ffms] }
 - { setname: ffsend,                   name: "rust:ffsend" }
-- { setname: ffsubsync,                name: "python:$0" }
+- { setname: ffsubsync,                name: python:$0 }
 - { setname: fftw,                     name: [fftwf,fftw-avx,fftw-static] }
 - { setname: fftw,                     namepat: "(?:lib)?fftw[0-9.-]*(-double|-float|-long-double|-quad|-single|-long|-mpi|-mpich|-openmpi|-common|-gnu-.*)?", addflavor: $1 }
 - { setname: ffuf,                     name: "go:ffuf" }
@@ -148,7 +148,7 @@
 - { setname: font-manager,             name: fontmanager }
 - { setname: font-util,                name: fontutil }
 - { setname: font-v,                   name: python:$0 }
-- { setname: fontbakery,               name: "python:$0" }
+- { setname: fontbakery,               name: python:$0 }
 - { setname: fontconfig,               name: fontconfig-reference, addflavor: true }
 - { setname: fontforge,                name: [fontforge-cli, fontforge-gtk], addflavor: true }
 - { setname: fontmake,                 name: "python:fontmake" }

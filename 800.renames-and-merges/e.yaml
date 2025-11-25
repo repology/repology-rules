@@ -45,7 +45,7 @@
 - { setname: eigen,                    namepat: "eigen[0-9.-]+(-doc)?", addflavor: $1 }
 - { setname: eigen,                    name: libeigen }
 - { setname: eigen,                    name: libeigen2-devel, weak_devel: true, nolegacy: true }
-- { setname: eigenpy,                  name: ["python:$0", "ros:noetic-$0"] }
+- { setname: eigenpy,                  name: [python:$0, ros:noetic-$0] }
 - { setname: einstein,                 name: einstein-puzzle, ruleset: pkgsrc }
 - { setname: eiskaltdcpp,              namepat: "eiskaltdcpp-(cli|daemon|data|gtk|lib|qt|core)", addflavor: $1 }
 - { setname: eiskaltdcpp,              name: eiskaltdcplusplus }
@@ -67,7 +67,7 @@
 - { setname: elementary-applications-menu, name: wingpanel-applications-menu }
 - { setname: elementary-screenshot,    name: elementary-screenshot-tool }
 - { setname: elementary-xfce-icon-theme, name: [elementary-xfce, elementary-xfce-icons, icon-theme-elementary-xfce, xfce-icons-elementary] }
-- { setname: elf2nucleus,              name: "rust:$0" }
+- { setname: elf2nucleus,              name: rust:$0 }
 - { setname: elfcat-ruslashev,         name: "rust:elfcat" }
 - { setname: elfutils,                 name: [elfutils-libelf, elfutils-debuginfod, elfutils-libs], addflavor: true }
 - { setname: elinks,                   name: elinks-small, addflavor: true }

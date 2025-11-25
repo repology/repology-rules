@@ -24,7 +24,7 @@
 - { setname: vaultwarden-web,          name: [vaultwarden-vault, vaultwarden-web-vault] }
 - { setname: vbsmin,                   name: "ruby:vbsmin" }
 - { setname: vc,                       name: libvc } # different things, but mixed together, split in 850
-- { setname: vcspull,                  name: "python:$0" }
+- { setname: vcspull,                  name: python:$0 }
 - { setname: vcvrack,                  name: vcv-rack }
 - { setname: vde,                      name: vde2 }
 - { setname: vde,                      name: [vde2-dosemu2,vde2-static], addflavor: true }
@@ -77,7 +77,7 @@
 - { setname: vo-aacenc,                name: libvo-aacenc }
 - { setname: vo-amrwbenc,              name: libvo-amrwbenc }
 - { setname: voadi,                    name: vegan-on-a-desert-island }
-- { setname: vocabsieve,               name: "python:$0" }
+- { setname: vocabsieve,               name: python:$0 }
 - { setname: vokoscreen,               name: vokoscreen-legacy }
 - { setname: vokoscreen,               name: [vokoscreenng, vokoscreen-ng] } # former project discontinued and removed
 - { setname: volatility,               name: volatility2-bin, addflavor: bin }
