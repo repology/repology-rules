@@ -100,6 +100,8 @@
 - { setname: kompozer-i18n,            namepat: "kompozer-i18n-.*", ruleset: arch }
 - { setname: kondo,                    name: "rust:kondo" }
 - { setname: kongress,                 name: kongress-git, weak_devel: true, nolegacy: true }
+- { setname: kops,                     name: [kops21, kubernetes-kops] }
+- { setname: kops,                     name: kops-beta, weak_devel: true, nolegacy: true }
 - { setname: kora-icon-theme,          name: korla-icon-theme } # renamed
 - { setname: kotlin,                   name: kotlin-bin, addflavor: true }
 - { setname: kpat,                     name: kpatience } # XXX: problem
