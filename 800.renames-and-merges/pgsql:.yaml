@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { setname: pgsql:age,           namepat: "postgresql([0-9-]*)-age", addflavor: $1 }
+- { setname: pgsql:amqp,          name: [pg-amqp, postgresql-amqp] }
 - { setname: pgsql:libversion,    name: [pg-libversion, postgresql-libversion] }
 - { setname: pgsql:libversion,    namepat: "postgresql([0-9]+)-libversion", addflavor: $1 }
 - { setname: pgsql:multicorn,     name: [multicorn] }
