@@ -162,6 +162,7 @@
 - { setname: nss-db,                   name: [nssdb, libnss-db] }
 - { setname: nss-ldap,                 name: libnss-ldap }
 - { setname: nss-pam-ldapd,            name: nss-pam-ldapd-sasl, addflavor: true }
+- { setname: nst,                      name: nst-static, addflavor: true }
 - { setname: ntfs-3g,                  name: ["fusefs:ntfs","fusefs:ntfs-3g",ntfs-3g-fuse,ntfs-3g-ntfsprogs,ntfsprogs,ntfs3g,libntfs-3g,libntfs] }
 - { setname: ntfs-3g,                  name: [ntfs-3g-ar,ntfs-3g-advanced], addflavor: ar }
 - { setname: ntfs-3g,                  name: ntfs-3g-wimlib-patched, addflavor: wimlib }
