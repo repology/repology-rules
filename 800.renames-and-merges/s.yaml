@@ -403,6 +403,7 @@
 - { setname: stfl,                     name: [libstfl,libstfl0] }
 - { setname: sthttpd,                  name: thttpd, ruleset: gentoo } # actually fork of thttpd; XXX: problem
 - { setname: sticky,                   name: sticky-notes } # split in 850
+- { setname: stigmerge,                name: rust:$0 }
 - { setname: stlport,                  namepat: "stlport[0-9.]+" }
 - { setname: stone-soup,               name: [dungeon-crawl-stone-soup,stonesoup,dungeoncrawlstonesoup] }
 - { setname: stone-soup,               name: [stone-soup-ncurses,stone-soup-sdl,stone-soup-tiles,crawl-tiles,dungeon-crawl-stone-soup-console,dungeon-crawl-stone-soup-tiles,stonesoup-sdl], addflavor: ncurses }
