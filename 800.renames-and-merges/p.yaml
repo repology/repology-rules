@@ -142,7 +142,8 @@
 - { setname: phash,                    name: libphash }
 - { setname: phat,                     name: libphat }
 - { setname: phing,                    name: php:$0 }
-- { setname: phoenix-emu,              name: phoenix-emu-project }
+- { setname: phoenix,                  name: [phoenix-flatpak, phoenix-arch], addflavor: true } # note: nothing arch-specific in `phoenix-arch`, just a duplicate
+- { setname: phoenix-emu,              name: phoenix-emu-project } # XXX: run through `phoenix` split?
 - { setname: phonon,                   name: libphonon }
 - { setname: phonon,                   name: [phonon-qt4], addflavor: qt4 }
 - { setname: phonon,                   name: [phonon-qt5, phonon4qt5, qt5-phonon], addflavor: qt5 }

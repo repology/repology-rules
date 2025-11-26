@@ -148,6 +148,13 @@
 
 - { name: pgf, wwwpart: libpgf, setname: libpgf }
 
+- { name: phoenix, wwwpart: signum-network, setname: $0-signum-wallet }
+- { name: phoenix, wwwpart: kasper, setname: $0-macos-window-manager }
+- { name: phoenix, wwwpart: team-phoenix, setname: $0-emulator }
+- { name: phoenix, wwwpart: celenity, setname: $0-firefox }
+- { name: phoenix, wwwpart: apache, setname: apache-$0 }
+- { name: phoenix, addflag: unclassified }
+
 # https://github.com/PHPOffice/PHPExcel vs. https://github.com/iliaal/php_excel
 - { name: php:excel, wwwpart: php_excel, setname: php:php_excel }
 - { name: php:excel, wwwpart: phpoffice, setname: php:phpexcel }

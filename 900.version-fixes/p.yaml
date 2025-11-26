@@ -128,6 +128,7 @@
 - { name: pgsql:age,                   verpat: ".+rc0",                                    incorrect: false } # braindead upstream versioning
 - { name: phabricator,                                                                     noscheme: true }
 - { name: phantap,                     verpat: "[0-9]{4}\\.[0-9]{2}\\.[0-9]{2}-[0-9a-f]{8}", ignore: false, incorrect: false, untrusted: false } # official
+- { name: phoenix-firefox,             verpat: "[0-9]{5}.*",                               incorrect: true } # 2025.11.07.1, not 202511071
 - { name: phonon-vlc,                  ver: "0.11.1.7",                                    incorrect: true }
 - { name: phonon-vlc,                                                ruleset: macports,    untrusted: true } # accused of fake 0.11.1.7
 - { name: photivo,                                                                         noscheme: true }
