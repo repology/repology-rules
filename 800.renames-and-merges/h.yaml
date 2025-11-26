@@ -124,7 +124,7 @@
 - { setname: hydra,                    name: thc-hydra }
 - { setname: hydralauncher,            name: hydra-launcher }
 - { setname: hydrus,                   name: [hydrus-network, "python:hydrus"] }
-- { setname: hyfetch,                  name: python:$0 }
+- { setname: hyfetch,                  name: [python:$0, rust:$0] }
 - { setname: hylafax+,                 name: hylafaxplus }
 - { setname: hyperfine,                name: rust:$0 }
 - { setname: hyphen,                   name: lib$0 }
