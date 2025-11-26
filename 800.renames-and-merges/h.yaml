@@ -5,7 +5,7 @@
 - { setname: hackrf,                   name: lib$0 }
 - { setname: hackrf,                   name: hackrf-devel, weak_devel: true, nolegacy: true }
 - { setname: hackrf,                   name: [hackrf-tools, hackrf-host], addflavor: true }
-- { setname: haconiwa,                 name: rust:$0 }
+- { setname: haconiwa,                 name: python:$0 }
 - { setname: hadolint,                 name: "haskell:$0" }
 - { setname: hadoop,                   name: hadoop2 }
 - { setname: haiti,                    name: ["ruby:haiti-hash", haiti-hash] }
