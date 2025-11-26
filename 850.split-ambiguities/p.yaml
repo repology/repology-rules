@@ -1,7 +1,7 @@
 # vim: tabstop=29 expandtab softtabstop=29 nomodeline
 
 - { name: pac, wwwpart: [davidtv,pacmanager], setname: pacmanager }
-- { name: pac, wwwpart: parabola, setname: "fonts:pac" }
+- { name: pac, wwwpart: parabola, setname: fonts:pac }
 
 - { name: pace, wwwpart: pace-rs, setname: pace-time-tracking }
 - { name: pace, wwwpart: softwareperonista, setname: pace-pacman-conf-editor }
@@ -133,7 +133,7 @@
 
 - { name: perl, wwwpart: strawberry, setname: strawberryperl }
 
-- { name: perseus, wwwpart: framesurge, setname: "rust:perseus" }
+- { name: perseus, wwwpart: framesurge, setname: rust:perseus }
 - { name: perseus, wwwpart: nanda, setname: perseus-persistent-homology }
 - { name: perseus, addflag: unclassified }
 
@@ -144,19 +144,19 @@
 - { name: pfm, sourceforge: p-f-m, setname: pfm-file-manager }
 - { name: pfm, addflag: unclassified }
 
-- { name: pg-top, wwwpart: cpan, setname: "perl:pgtop" }
+- { name: pg-top, wwwpart: cpan, setname: perl:pgtop }
 
 - { name: pgf, wwwpart: libpgf, setname: libpgf }
 
 # https://github.com/PHPOffice/PHPExcel vs. https://github.com/iliaal/php_excel
-- { name: "php:excel", wwwpart: php_excel, setname: "php:php_excel" }
-- { name: "php:excel", wwwpart: phpoffice, setname: "php:phpexcel" }
+- { name: php:excel, wwwpart: php_excel, setname: php:php_excel }
+- { name: php:excel, wwwpart: phpoffice, setname: php:phpexcel }
 
-- { name: "php:pam", wwwpart: amishmm, setname: "php:pam-amishmm" } # XXX: otherwise pecl
+- { name: php:pam, wwwpart: amishmm, setname: php:pam-amishmm } # XXX: otherwise pecl
 
 # part of php or PEAR package
-- { name: "php:soap", wwwpart: pear, addflag: classified }
-- { name: "php:soap", noflag: classified, setname: php, addflavor: soap }
+- { name: php:soap, wwwpart: pear, addflag: classified }
+- { name: php:soap, noflag: classified, setname: php, addflavor: soap }
 
 - { name: picard, sourceforge: picard, setname: picard-tools } # reuse widely used name
 - { name: picard, wwwpart: broadinstitute, setname: picard-tools } # reuse widely used name
@@ -194,14 +194,14 @@
 - { name: piranha, wwwpart: smithlabcode, setname: piranha-peak-caller }
 - { name: piranha, addflag: unclassified }
 
-- { name: pivy, wwwpart: coin3d, setname: "python:pivy" }
+- { name: pivy, wwwpart: coin3d, setname: python:pivy }
 - { name: pivy, wwwpart: [joyent,arekinath], setname: pivy-piv-tokens }
 - { name: pivy, addflag: unclassified }
 
 - { name: pixie, wwwpart: pixie-lang, setname: pixie-lang }
 
 - { name: pkg, wwwpart: freebsd, setname: pkg-freebsd }
-- { name: pkg, wwwpart: zeit, setname: "node:pkg" }
+- { name: pkg, wwwpart: zeit, setname: node:pkg }
 - { name: pkg, addflag: unclassified }
 
 - { name: pkgdiff, ruleset: pkgsrc, setname: pkgdiff-pkgsrc }
@@ -253,8 +253,8 @@
 - { name: pluto, wwwpart: CollectiveTyranny, setname: pluto-utility-library }
 - { name: pluto, addflag: unclassified }
 
-- { name: ply, wwwpart: dabeaz, setname: "python:ply" }
-- { name: ply, ruleset: gobolinux, setname: "python:ply" }
+- { name: ply, wwwpart: dabeaz, setname: python:ply }
+- { name: ply, ruleset: gobolinux, setname: python:ply }
 
 - { name: pmenu, wwwpart: sgtpep, setname: pmenu-terminal-menu }
 - { name: pmenu, wwwpart: phillbush, setname: pmenu-pie-menu }
@@ -309,7 +309,7 @@
 - { name: postal, wwwpart: coker, setname: postal-benchmark }
 - { name: postal, addflag: unclassified }
 
-- { name: poster, setname: "python:poster", category: python } # python module, not a postscript utility
+- { name: poster, setname: python:poster, category: python } # python module, not a postscript utility
 
 - { name: pp, wwwpart: maandree, setname: pp-page-pager }
 - { name: pp, wwwpart: cdsoft, setname: pp-generic-preprocessor }
@@ -317,7 +317,7 @@
 - { name: pp, wwwpart: [adi.tilde, mkws.sh], setname: pp-preprocessor }
 - { name: pp, addflag: unclassified }
 
-- { name: pprint, wwwpart: fpottier, setname: "ocaml:pprint" }
+- { name: pprint, wwwpart: fpottier, setname: ocaml:pprint }
 - { name: pprint, wwwpart: p-ranav, addflag: classified }
 - { name: pprint, addflag: unclassified }
 
@@ -326,7 +326,7 @@
 
 - { name: preferences, ruleset: freebsd, setname: gnustep-preferences } # gnustep; may be not ambiguity (yet), but too generic name for sure
 
-- { name: prest, wwwpart: prest.de, setname: "perl:text-restructured" }
+- { name: prest, wwwpart: prest.de, setname: perl:text-restructured }
 
 - { name: presto, wwwpart: prestosql, setname: presto-sql-engine }
 - { name: presto, wwwpart: presto.readthedocs, setname: presto-sequencing-toolkit }
@@ -390,7 +390,7 @@
 - { name: pug, wwwpart: leg100, setname: pug-terraform-tui }
 - { name: pug, addflag: unclassified }
 
-- { name: pulp, wwwpart: bodil, setname: "node:pulp" }
+- { name: pulp, wwwpart: bodil, setname: node:pulp }
 
 - { name: pulsar, sourceforge: pulsar, setname: pulsar-pop3-daemon }
 - { name: pulsar, wwwpart: hgascon, setname: pulsar-protocol-learning }
@@ -400,7 +400,7 @@
 - { name: pulseaudio-equalizer, wwwpart: freedesktop.org/wiki/Software/PulseAudio, setname: pulseaudio, addflavor: equalizer }
 
 - { name: puma, wwwpart: clawoflight, setname: puma-password-manager }
-- { name: puma, wwwpart: [puma.io,github.com/puma/puma], setname: "ruby:puma" }
+- { name: puma, wwwpart: [puma.io,github.com/puma/puma], setname: ruby:puma }
 - { name: puma, addflag: unclassified }
 
 - { name: pwm, wwwpart: pwm-project, setname: pwm-password-self-service }
@@ -409,64 +409,64 @@
 - { name: pwsafe, ruleset: maemo, setname: pwsafe-maemo }
 - { name: pwsafe, wwwpart: [passwordsafe,pwsafe.org], setname: passwordsafe }
 
-- { name: pybind, wwwpart: pybind11, setname: "python:pybind11" }
+- { name: pybind, wwwpart: pybind11, setname: python:pybind11 }
 
-- { name: pyp, wwwpart: hauntsaninja, setname: "python:pypyp" }
+- { name: pyp, wwwpart: hauntsaninja, setname: python:pypyp }
 - { name: pyp, addflag: unclassified }
 
-- { name: "python:antlr", wwwpart: [antlr.org, antlr2.org], setname: antlr }
+- { name: python:antlr, wwwpart: [antlr.org, antlr2.org], setname: antlr }
 
-- { name: "python:cheetah", verge: "3", setname: "python:cheetah3" } # XXX: problem
+- { name: python:cheetah, verge: "3", setname: python:cheetah3 } # XXX: problem
 
-- { name: "python:eventlib", setname: "python:eventlib-icanblink", wwwpart: icanblink }
+- { name: python:eventlib, setname: python:eventlib-icanblink, wwwpart: icanblink }
 
-- { name: "python:exif", wwwpart: [TNThieding,pypi.org/project/exif/], addflag: classified }
-- { name: "python:exif", wwwpart: exif-py, setname: "python:exifread" } # XXX: problem
-- { name: "python:exif", addflag: unclassified }
+- { name: python:exif, wwwpart: [TNThieding,pypi.org/project/exif/], addflag: classified }
+- { name: python:exif, wwwpart: exif-py, setname: python:exifread } # XXX: problem
+- { name: python:exif, addflag: unclassified }
 
-- { name: "python:gnuplot", sourceforge: gnuplot-py, setname: gnuplot-py }
-- { name: "python:gnuplot", addflag: unclassified }
+- { name: python:gnuplot, sourceforge: gnuplot-py, setname: gnuplot-py }
+- { name: python:gnuplot, addflag: unclassified }
 
-- { name: "python:keystone", wwwpart: openstack, setname: openstack-keystone }
-- { name: "python:keystone", wwwpart: keystone-engine, setname: "python:keystone-engine" }
+- { name: python:keystone, wwwpart: openstack, setname: openstack-keystone }
+- { name: python:keystone, wwwpart: keystone-engine, setname: python:keystone-engine }
 
-- { name: "python:ldap", setname: "python:python-ldap", wwwpart: python-ldap }
-- { name: "python:ldap", setname: "python:python-ldap", ruleset: [sisyphus,openbsd,pclinuxos] }
+- { name: python:ldap, setname: python:python-ldap, wwwpart: python-ldap }
+- { name: python:ldap, setname: python:python-ldap, ruleset: [sisyphus,openbsd,pclinuxos] }
 
-- { name: "python:leo", wwwpart: leoeditor, setname: leo-editor }
-- { name: "python:leo", wwwpart: [keachi,andiwand], setname: python-leo }
-- { name: "python:leo", addflag: unclassified }
+- { name: python:leo, wwwpart: leoeditor, setname: leo-editor }
+- { name: python:leo, wwwpart: [keachi,andiwand], setname: python-leo }
+- { name: python:leo, addflag: unclassified }
 
-- { name: "python:magic", wwwpart: darwinsys.com/file, setname: file, addflavor: python }
-- { name: "python:magic", wwwpart: [ahupp/python-magic,pypi/python-magic], setname: "python:python-magic" } # XXX: problem
+- { name: python:magic, wwwpart: darwinsys.com/file, setname: file, addflavor: python }
+- { name: python:magic, wwwpart: [ahupp/python-magic,pypi/python-magic], setname: python:python-magic } # XXX: problem
 
-- { name: "python:migrate", wwwpart: sqlalchemy-migrate, setname: "python:sqlalchemy-migrate" } # XXX: problem
-- { name: "python:migrate", wwwpart: kofrasa, addflag: classified }
-- { name: "python:migrate", addflag: unclassified }
+- { name: python:migrate, wwwpart: sqlalchemy-migrate, setname: python:sqlalchemy-migrate } # XXX: problem
+- { name: python:migrate, wwwpart: kofrasa, addflag: classified }
+- { name: python:migrate, addflag: unclassified }
 
-- { name: "python:notify", wwwpart: https://galago-project.org, setname: notify-python }
-- { name: "python:notify", wwwpart: [pypi.org/project/notify/, lambdalisue], addflag: classified }
-- { name: "python:notify", addflag: unclassified }
+- { name: python:notify, wwwpart: https://galago-project.org, setname: notify-python }
+- { name: python:notify, wwwpart: [pypi.org/project/notify/, lambdalisue], addflag: classified }
+- { name: python:notify, addflag: unclassified }
 
-- { name: "python:notify-python", wwwpart: https://galago-project.org, setname: notify-python }
-- { name: "python:notify-python", addflag: unclassified }
+- { name: python:notify-python, wwwpart: https://galago-project.org, setname: notify-python }
+- { name: python:notify-python, addflag: unclassified }
 
-- { name: "python:osc", wwwpart: attwad, setname: "python:python-osc" }
-- { name: "python:osc", wwwpart: opensuse, setname: osc }
-- { name: "python:osc", addflag: unclassified }
+- { name: python:osc, wwwpart: attwad, setname: python:python-osc }
+- { name: python:osc, wwwpart: opensuse, setname: osc }
+- { name: python:osc, addflag: unclassified }
 
-- { name: "python:planet", setname: planet, wwwpart: planetplanet }
+- { name: python:planet, setname: planet, wwwpart: planetplanet }
 
-- { name: "python:poppler-qt", ruleset: kaos, setname: "python:python-poppler-qt5" }
+- { name: python:poppler-qt, ruleset: kaos, setname: python:python-poppler-qt5 }
 
-- { name: "python:pynotify", wwwpart: https://galago-project.org, setname: notify-python, sink: true } # XXX: problem
-- { name: "python:pynotify", wwwpart: pynotify, addflag: classified }
-- { name: "python:pynotify", addflag: unclassified }
+- { name: python:pynotify, wwwpart: https://galago-project.org, setname: notify-python, sink: true } # XXX: problem
+- { name: python:pynotify, wwwpart: pynotify, addflag: classified }
+- { name: python:pynotify, addflag: unclassified }
 
-- { name: "python:rrdtool", wwwpart: pbanaszkiewicz, setname: "python-rrdtool-pbanaszkiewicz" }
-- { name: "python:rrdtool", wwwpart: oetiker.ch, setname: rrdtool }
+- { name: python:rrdtool, wwwpart: pbanaszkiewicz, setname: python-rrdtool-pbanaszkiewicz }
+- { name: python:rrdtool, wwwpart: oetiker.ch, setname: rrdtool }
 
-- { name: "python:tz", wwwpart: pytz, setname: "python:pytz" } # there is tz module, but in most (currently all) cases it misspelled pytz; XXX: problem
+- { name: python:tz, wwwpart: pytz, setname: python:pytz } # there is tz module, but in most (currently all) cases it misspelled pytz; XXX: problem
 
-- { name: "python:vlc", wwwpart: videolan.org, setname: "python:python-vlc" } # XXX: problem
-- { name: "python:vlc", ruleset: [sisyphus,solus],  setname: "python:python-vlc" }
+- { name: python:vlc, wwwpart: videolan.org, setname: python:python-vlc } # XXX: problem
+- { name: python:vlc, ruleset: [sisyphus,solus],  setname: python:python-vlc }
