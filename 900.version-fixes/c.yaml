@@ -170,6 +170,8 @@
 - { name: cherokee,                    verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
 - { name: cherrytree,                  verpat: "[0-9]+(\\.[0-9]+){3}",                     altver: true } # windows builds
 - { name: chez-scheme,                 ver: "9.5.1",                 ruleset: nix,         incorrect: true }
+- { name: chisel,                      ver: "1.11.3a",               ruleset: kali,        incorrect: true }
+- { name: chisel,                                                    ruleset: kali,        untrusted: true } # accused of fake 1.11.3a
 - { name: chkconfig,                   verpat: "11\\..*",                                  ignore: true } # some fossil from ancient debian
 - { name: chmlib,                      ver: "0.40a",                                       devel: true } # mentioned in readme, no tags, used by debian and aosc
 - { name: chntpw,                      verpat: "20[0-9]{6}",                               ignore: true }
