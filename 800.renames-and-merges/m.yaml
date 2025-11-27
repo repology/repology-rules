@@ -18,6 +18,7 @@
 - { setname: magic-wormhole-rs,        name: "wormhole-rs" }
 - { setname: magic-wormhole-transit-relay, name: "python:magic-wormhole-transit-relay" }
 - { setname: magpie,                   name: [magpie-wm, perl:app-magpie] } # unrelated, split in 850
+- { setname: mail-deduplicate,         name: python:$0 }
 - { setname: maildrop,                 name: courier-maildrop }
 - { setname: mailman,                  name: mailman3 }
 - { setname: mailman,                  name: [mailman3-core,mailman-core], addflavor: core }
