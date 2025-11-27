@@ -160,6 +160,7 @@
 - { name: tl-expected,                 verpat: "20[0-9]{2}.*",                             incorrect: true } # conancenter, nix snapshots
 - { name: tm,                          verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: tmfs,                        verpat: "r([.0-9]+)",                               setver: "$1" }
+- { name: tmux,                        verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: tnt,                         verpat: "[0-9]{3,}",                                incorrect: true } # sisyphus
 - { name: tnt,                         verge: "3",                                         devel: true } # beta as per https://math.nist.gov/tnt/download.html
 # from https://github.com/macports/macports-ports/blob/master/x11/Togl/Portfile: The developers of Netgen seem to be updating a local copy and calling it version 2.1. See https://github.com/NGSolve/netgen/tree/master/ng.
