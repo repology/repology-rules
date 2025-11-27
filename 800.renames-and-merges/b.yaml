@@ -153,7 +153,8 @@
 - { setname: blender,                  namepat: "blender(?:[.-]lts)?[0-9.-]*" }
 - { setname: blender,                  name: blender-develop, weak_devel: true, nolegacy: true }
 - { setname: blink,                    name: $0-qt, addflavor: true }
-- { setname: bliss,                    name: [bliss-graphs, bliss-graph-tool] }
+- { setname: bliss,                    name: [$0-graphs, $0-graph-tool] }
+- { setname: bliss,                    name: [rust:$0, $0-rust] } # split int 850
 - { setname: blobby,                   name: blobby-volley-2 }
 - { setname: blobby,                   name: [blobby2,blobby-volley] }
 - { setname: blobwars,                 name: blobwars-data, addflavor: true }
