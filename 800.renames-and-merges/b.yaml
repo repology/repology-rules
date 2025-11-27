@@ -153,7 +153,7 @@
 - { setname: blender,                  namepat: "blender(?:[.-]lts)?[0-9.-]*" }
 - { setname: blender,                  name: blender-develop, weak_devel: true, nolegacy: true }
 - { setname: blink,                    name: $0-qt, addflavor: true }
-- { setname: bliss,                    name: bliss-graphs }
+- { setname: bliss,                    name: [bliss-graphs, bliss-graph-tool] }
 - { setname: blobby,                   name: blobby-volley-2 }
 - { setname: blobby,                   name: [blobby2,blobby-volley] }
 - { setname: blobwars,                 name: blobwars-data, addflavor: true }
