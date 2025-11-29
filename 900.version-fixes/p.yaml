@@ -198,6 +198,8 @@
 - { name: plasma,                                                                          noscheme: true }
 - { name: plasma-desktop,              ver: "5.16.0a",               ruleset: debuntu,     incorrect: true } # ubuntu fake
 - { name: plasma-desktop,                                            ruleset: debuntu,     untrusted: true } # accused of fake 5.16.0a
+- { name: plasma-desktop,              ver: "6.5.3.1",               ruleset: artix,       incorrect: true }
+- { name: plasma-desktop,                                            ruleset: artix,       untrusted: true } # accused of fake 6.5.3.1
 - { name: plasma-dialer,               ver: "0.2",                   ruleset: alpine,      incorrect: true } # no such tag ATOW https://invent.kde.org/plasma-mobile/plasma-dialer/-/tags
 - { name: plasma-dialer,                                             ruleset: alpine,      untrusted: true } # accused of fake 0.2
 - { name: plasma-discover,             verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
