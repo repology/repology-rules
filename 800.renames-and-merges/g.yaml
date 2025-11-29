@@ -414,6 +414,7 @@
 - { setname: gperftools,               name: google-perftools }
 - { setname: gpg4win,                  name: [gpg4win-light,gpg4win-vanilla], addflavor: true }
 - { setname: gpgme,                    namepat: "gpgme[0-9.-]+" }
+- { setname: gpgme,                    name: [python:gpgmepy, python:gpgme], addflavor: python }
 - { setname: gpgmepp,                  name: gpgme-cpp }
 - { setname: gpgmeqt,                  name: [libqgpgme, qgpgme] }
 - { setname: gpgmeqt,                  name: [gpgme-qt6, gpgmeqt6, qgpgme-qt6], addflavor: qt6 }
