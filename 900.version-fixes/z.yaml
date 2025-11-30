@@ -37,6 +37,7 @@
 - { name: zidrav,                                                    ruleset: pkgsrc,      untrusted: true }
 - { name: zig,                         verlonger: 3,                 ruleset: funtoo,      incorrect: true }
 - { name: zig,                                                       ruleset: funtoo,      untrusted: true } # accused of fake 0.10.0.1018
+- { name: zigmod,                      verpat: "[0-9].*",                                  incorrect: true } # rNN, not NN
 - { name: zile,                        verpat: ".*\\.[5-9][0-9]",                          devel: true } # assumed https://git.savannah.gnu.org/cgit/zile.git/refs/tags
 - { name: zinnia,                      verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: zip,                         verlonger: 2,                 ruleset: openmandriva, ignore: true } # fork
