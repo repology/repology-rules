@@ -204,8 +204,9 @@
 - { name: transset,                    verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: transset,                    verpat: "[0-9]{6}",                                 incorrect: true }
 - { name: tre,                         verpat: "20[0-9]{6}",                               incorrect: true } # aosc snapshot
-- { name: tree-sitter,                 ver: "0.20.10",               ruleset: [arch,alpine,crux,guix], incorrect: true }
 - { name: tree-sitter,                                               ruleset: [arch,alpine,crux,guix], untrusted: true } # accused of fake 0.20.10
+- { name: tree-sitter,                 ver: "0.26.0",                ruleset: [chocolatey,crux,exherbo,slackbuilds,t2], incorrect: true }
+- { name: tree-sitter,                                               ruleset: [chocolatey,crux,exherbo,slackbuilds,t2], untrusted: true } # accused of fake 0.26.0
 - { name: tree-sitter-go-mod,                                                              noscheme: true }
 - { name: tree-sitter-lua,             ver: "2.1.3",                                       sink: true } # abandoned fork
 - { name: tree-sitter-markdown,        releq: "0.7.1",               ruleset: pkgsrc,      incorrect: true } # prefix for monotonicity instead of epoch
