@@ -303,8 +303,8 @@
 - { setname: powder-toy,               name: powder-toy-static, addflavor: static }
 - { setname: powder-toy,               name: [powder-toy-beta,powder-toy-snapshot,powder-toy-devel], weak_devel: true, nolegacy: true }
 - { setname: powerline-gitstatus,      name: python:$0 }
-- { setname: powershell,               name: powershell-core, addflavor: core }
-- { setname: powershell,               name: pwsh }
+- { setname: powershell,               name: [$0-core, libpowershell-native, powershell-fxdependent], addflavor: true }
+- { setname: powershell,               name: [pwsh, powershell-lts] }
 - { setname: powershell,               name: [powershell-preview, pwsh-beta], weak_devel: true, nolegacy: true }
 - { setname: powersupply,              name: powersupply-gtk }
 - { setname: powertop,                 name: [powertop-1.13,powertop1] }
