@@ -22,6 +22,7 @@
 - { setname: vault,                    name: vault-bin, addflavor: true }
 - { setname: vault-cli,                name: "python:vault-cli" } # different things in fact, split later
 - { setname: vaultwarden-web,          name: [vaultwarden-vault, vaultwarden-web-vault] }
+- { setname: vbisam,                   name: lib$0 }
 - { setname: vbsmin,                   name: "ruby:vbsmin" }
 - { setname: vc,                       name: libvc } # different things, but mixed together, split in 850
 - { setname: vcspull,                  name: python:$0 }
