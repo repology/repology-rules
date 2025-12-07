@@ -298,6 +298,10 @@
 - { name: mkinitcpio-tailscale, wwwpart: classabbyamp, setname: mkinitcpio-tailscale-classabbyamp }
 - { name: mkinitcpio-tailscale, addflag: unclassified }
 
+- { name: mkl, wwwpart: intel, setname: mkl-math-kernel-library }
+- { name: mkl, wwwpart: make0x20, setname: mkl-mookie-launcher }
+- { name: mkl, addflag: unclassified }
+
 - { name: mm, wwwpart: meutraa, setname: mm-matrix }
 # otherwise, shared memory lib
 
