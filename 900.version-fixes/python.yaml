@@ -131,6 +131,7 @@
 - { name: "python:publicsuffix",       verpat: "2.*",                                      incorrect: true } # gentoo fakes publicsuffix2 as publicsuffix
 - { name: "python:publicsuffix2",      verpat: "20[0-9]{2}.*",                             incorrect: true } # 2.20191221
 - { name: "python:py-cpuinfo",         verpat: "201.*",                                    ignore: true }
+- { name: "python:pyanglianwater",     verpat: "20[0-9]{2}.*",                             sink: true } # https://github.com/pantherale0/pyanglianwater/tags - 2025.6.0, then 2.0.0
 - { name: "python:pyatag",             ver: "3.5.1",                                       sink: true } # https://github.com/MatsNl/pyatag/issues/7
 - { name: "python:pycha",              ver: "279",                                         ignore: true }
 - { name: "python:pycrypto",           ver: "2.7",                   ruleset: [unitedrpms,sisyphus], incorrect: true } # 2.7a1
