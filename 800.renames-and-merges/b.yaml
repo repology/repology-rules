@@ -280,6 +280,8 @@
 - { setname: burpsuite,                name: [burp-suite,burp-suite-free-edition,burpsuite-pro,burpsuite-legacy] }
 - { setname: burritun,                 name: "rust:burritun" }
 - { setname: busybox,                  name: [busybox-custom,busybox-norootreboot,busybox-static,mdev,mkinitcpio-busybox,busybox-init], addflavor: true }
+- { setname: butterfly,                name: [python:butterfly, linwood-butterfly] } # different projects, split in 850
+- { setname: butterfly,                name: linwood-butterfly-nightly, weak_devel: true, nolegacy: true }
 - { setname: bx-python,                name: python:$0 } # not 100% clear it's not a module
 - { setname: byaccj,                   name: byacc-j }
 - { setname: bzflag,                   name: bzflag-server, addflavor: server }
