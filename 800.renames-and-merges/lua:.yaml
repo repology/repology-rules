@@ -37,4 +37,5 @@
 - { setname: lua:stdlib-normalize,     name: [lua-stdlib-normalize, lua:std-normalize] }
 - { setname: lua:sysctl,               name: [lua-sysctl] }
 - { setname: lua:unbound,              name: [luaunbound] }
-- { setname: lua:zlib,                 name: [lua-zlib] }
+- { setname: lua:zlib,                 name: [lua-zlib, luazlib, lua:lua-zlib] }
+- { setname: lua:zlib,                 name: [luajit-zlib], addflavor: luajit }
