@@ -1,40 +1,40 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- { setname: "lua:ada",                name: lua-ada }
-- { setname: "lua:alt-getopt",         name: lua-alt-getopt }
-- { setname: "lua:bcrypt",             name: [luabcrypt] }
-- { setname: "lua:bcrypt",             namepat: "luabcrypt([0-9.-]+)", addflavor: $1 } # suffix is lua version
-- { setname: "lua:bit32",              name: [lua-bit32, lua:lua-bit32] }
-- { setname: "lua:bitop",              name: [lua-bitop,lua-luabitop,lua5.2-bitop,luabitop,bitop] }
-- { setname: "lua:busted",             name: [busted] }
-- { setname: "lua:cgi",                name: [cgilua, lua-cgilua, "lua:cgilua"] }
-- { setname: "lua:cjson",              name: [lua-cjson] }
-- { setname: "lua:compat53",           name: [lua:compat-5.3, lua-compat53] }
-- { setname: "lua:copas",              name: [copas,lua-copas,luacopas] }
-- { setname: "lua:dbi",                name: [lua-dbi, luadbi] }
-- { setname: "lua:dbi",                name: [luadbi-mysql, luadbi-pgsql], addflavor: true }
-- { setname: "lua:doc",                name: ["lua:luadoc",lua-doc,luadoc] }
-- { setname: "lua:expat",              name: [lua-expat,lua-luaexpat,lua5.1-expat,"lua:lxp","lua:luaexpat",luaexpat] }
-- { setname: "lua:filesystem",         name: [lua-filesystem,lua-luafilesystem,"lua:fs","lua:lfs",luafilesystem,luafs] }
-- { setname: "lua:ldoc",               name: [lualdoc] }
-- { setname: "lua:lgi",                name: [lgi,lua-lgi] }
-- { setname: "lua:lgi",                name: [luajit-lgi], addflavor: luajit }
-- { setname: "lua:logging",            name: [lua-logging, lualogging] }
-- { setname: "lua:lpeg",               name: [lpeg,lua-lpeg,lualpeg] }
-- { setname: "lua:lsqlite3",           name: lsqlite3 }
-- { setname: "lua:luasocket",          name: [lua-luasocket,lua-socket,luasocket] }
-- { setname: "lua:lunit",              name: [lua-lunit, lunit] }
-- { setname: "lua:luvit",              name: luvit }
-- { setname: "lua:md5",                name: lua-md5 }
-- { setname: "lua:mediator-lua",       name: "lua:mediator" }
-- { setname: "lua:mpack",              name: ["lua:-mpack","lua:libmpack",libmpack-lua,lua-libmpack,lua-mpack,lua5.2-libmpack] } # XXX: de-mess
-- { setname: "lua:penlight",           name: [lua-penlight,penlight] }
-- { setname: "lua:posix",              name: [lua-posix,luaposix] }
-- { setname: "lua:readline",           name: [lua-readline] }
-- { setname: "lua:sec",                name: [lua-luasec,lua-sec,lua5.1-luasec,luasec,"lua:luasec"] }
-- { setname: "lua:sql",                name: [lua-sql,luasql] }
-- { setname: "lua:stdlib-debug",       name: [lua-stdlib-debug, "lua:std--debug"] }
-- { setname: "lua:stdlib-normalize",   name: [lua-stdlib-normalize, "lua:std-normalize"] }
-- { setname: "lua:sysctl",             name: [lua-sysctl] }
-- { setname: "lua:unbound",            name: [luaunbound] }
-- { setname: "lua:zlib",               name: [lua-zlib] }
+- { setname: lua:ada,                  name: lua-ada }
+- { setname: lua:alt-getopt,           name: lua-alt-getopt }
+- { setname: lua:bcrypt,               name: [luabcrypt] }
+- { setname: lua:bcrypt,               namepat: "luabcrypt([0-9.-]+)", addflavor: $1 } # suffix is lua version
+- { setname: lua:bit32,                name: [lua-bit32, lua:lua-bit32] }
+- { setname: lua:bitop,                name: [lua-bitop,lua-luabitop,lua5.2-bitop,luabitop,bitop] }
+- { setname: lua:busted,               name: [busted] }
+- { setname: lua:cgi,                  name: [cgilua, lua-cgilua, lua:cgilua] }
+- { setname: lua:cjson,                name: [lua-cjson] }
+- { setname: lua:compat53,             name: [lua:compat-5.3, lua-compat53] }
+- { setname: lua:copas,                name: [copas,lua-copas,luacopas] }
+- { setname: lua:dbi,                  name: [lua-dbi, luadbi] }
+- { setname: lua:dbi,                  name: [luadbi-mysql, luadbi-pgsql], addflavor: true }
+- { setname: lua:doc,                  name: [lua:luadoc,lua-doc,luadoc] }
+- { setname: lua:expat,                name: [lua-expat,lua-luaexpat,lua5.1-expat,lua:lxp,lua:luaexpat,luaexpat] }
+- { setname: lua:filesystem,           name: [lua-filesystem,lua-luafilesystem,lua:fs,lua:lfs,luafilesystem,luafs] }
+- { setname: lua:ldoc,                 name: [lualdoc] }
+- { setname: lua:lgi,                  name: [lgi,lua-lgi] }
+- { setname: lua:lgi,                  name: [luajit-lgi], addflavor: luajit }
+- { setname: lua:logging,              name: [lua-logging, lualogging] }
+- { setname: lua:lpeg,                 name: [lpeg,lua-lpeg,lualpeg] }
+- { setname: lua:lsqlite3,             name: lsqlite3 }
+- { setname: lua:luasocket,            name: [lua-luasocket,lua-socket,luasocket] }
+- { setname: lua:lunit,                name: [lua-lunit, lunit] }
+- { setname: lua:luvit,                name: luvit }
+- { setname: lua:md5,                  name: lua-md5 }
+- { setname: lua:mediator-lua,         name: lua:mediator }
+- { setname: lua:mpack,                name: [lua:-mpack,lua:libmpack,libmpack-lua,lua-libmpack,lua-mpack,lua5.2-libmpack] } # XXX: de-mess
+- { setname: lua:penlight,             name: [lua-penlight,penlight] }
+- { setname: lua:posix,                name: [lua-posix,luaposix] }
+- { setname: lua:readline,             name: [lua-readline] }
+- { setname: lua:sec,                  name: [lua-luasec,lua-sec,lua5.1-luasec,luasec,lua:luasec] }
+- { setname: lua:sql,                  name: [lua-sql,luasql] }
+- { setname: lua:stdlib-debug,         name: [lua-stdlib-debug, lua:std--debug] }
+- { setname: lua:stdlib-normalize,     name: [lua-stdlib-normalize, lua:std-normalize] }
+- { setname: lua:sysctl,               name: [lua-sysctl] }
+- { setname: lua:unbound,              name: [luaunbound] }
+- { setname: lua:zlib,                 name: [lua-zlib] }
