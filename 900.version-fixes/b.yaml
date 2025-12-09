@@ -136,6 +136,7 @@
 - { name: boost,                                                     ruleset: vcpkg,       ignore: true } # accused of using individual version 2.3.2 for boost-callable-traits
 - { name: boost,                       verge: "75",                  ruleset: t2,          incorrect: true }
 - { name: boost,                                                     ruleset: t2,          untrusted: true } # accused of fake 76_0_b1
+- { name: boost,                                                     ruleset: windows,     ignore: true } # XXX: upstream problems, https://sourceforge.net/projects/boost/files/boost-binaries/1.90.0/ are released before the official tag
 - { name: boost-build,                 verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: boost-build,                 verpat: "2\\.0.*",                                  incorrect: true }
 - { name: boost-build,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
