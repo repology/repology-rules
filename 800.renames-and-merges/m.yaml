@@ -286,7 +286,9 @@
 - { setname: minixml,                  name: libmxml }
 - { setname: minizincide,              name: minizinc-ide }
 - { setname: minizip,                  name: libminizip }
+- { setname: minizip,                  name: [minizip-static], addflavor: true }
 - { setname: minizip,                  namepat: "minizip[0-9.-]+" }
+- { setname: minizip-ng,               name: [lib$0, $0-compat] }
 - { setname: minpack,                  name: lib$0 }
 - { setname: miranda,                  name: mirandaim }
 - { setname: mirc,                     name: mirc6 }
