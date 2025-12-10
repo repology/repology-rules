@@ -107,7 +107,7 @@
 - { setname: ngs,                      name: [ngs-lang, ngslang, java-ngs, ngs-python, ngs-sdk] } # two projects, split in 850
 - { setname: ngspice,                  name: [libngspice,ng-spice,ngspice-docs,ngspice-rework,ngspice-shared], addflavor: true }
 - { setname: ngtcp2,                   name: lib$0 }
-- { setname: ngtcp2,                   name: [$0-gnutls, $0-wolfssl], addflavor: true }
+- { setname: ngtcp2,                   name: [lib$0-gnutls, lib$0-wolfssl], addflavor: true }
 - { setname: nheko,                    name: nheko-reborn }
 - { setname: nickel,                   name: [rust:nickel-lang, rust:nickel-lang-lsp, nls] }
 - { setname: nicotine+,                name: [nicotine,nicotine-plus,nicotineplus, python:nicotine-plus] }
