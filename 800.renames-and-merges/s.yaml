@@ -342,7 +342,7 @@
 - { setname: spotify,                  name: [spotify-dev,spotify-edge], weak_devel: true, nolegacy: true }
 - { setname: spotify,                  name: [$0-client,$0-noshows], addflavor: true }
 - { setname: spotify-dl,               name: python:spotify-dl }
-- { setname: spr,                      name: rust:$0 }
+- { setname: spr,                      name: [rust:$0, ejoffe-spr] } # different projects, split int 850
 - { setname: spring,                   name: springrts }
 - { setname: springframework,          namepat: "spring-?framework[0-9]*" }
 - { setname: springframework,          name: [libspring-java,"java:spring"] }
