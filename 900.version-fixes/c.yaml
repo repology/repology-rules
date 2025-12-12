@@ -376,6 +376,7 @@
 - { name: cryptcat,                    ver: "20031202",                                    ignore: true }
 - { name: crypthook,                                                                       noscheme: true }
 - { name: crypto++,                    verpat: "[0-9]{3}",                                 incorrect: true }
+- { name: crypto-policies,                                                                 noscheme: true }
 - { name: cryptodev-linux,             verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: csmith,                      ver: "2.4.0",                 ruleset: fedora,      incorrect: true }
 - { name: csmith,                                                    ruleset: fedora,      untrusted: true } # accused of fake 2.4.0
