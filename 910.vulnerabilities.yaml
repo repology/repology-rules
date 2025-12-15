@@ -33,6 +33,7 @@
 - { vulnerable: true, name: pdns, verlt: "4.1.14" } # https://blog.powerdns.com/2020/09/22/powerdns-authoritative-4-3-1-4-2-3-and-4-1-14/
 - { vulnerable: true, name: qmail, vereq: "1.03" }
 - { vulnerable: true, name: signing-party, verlt: "2.10" } # CVE-2019-11627
+- { vulnerable: true, name: smb4k, verle: "4.0.4" } # CVE-2025-66003, CVE-2025-66002
 - { vulnerable: true, name: spotweb, verge: "20000000", verle: "20201222" } # https://nvd.nist.gov/vuln/detail/CVE-2020-35545 affects letest ATOW 1.4.9
 - { vulnerable: true, name: tensorflow, ver: "2.0.0b1", disposable: true }
 - { vulnerable: true, name: xz, relge: "5.6.0", relle: "5.6.1", sink: true } # https://nvd.nist.gov/vuln/detail/CVE-2024-3094
