@@ -153,6 +153,8 @@
 - { name: lmbench,                     ver: "3.0",                   ruleset: sisyphus,    incorrect: true } # 3.0-a9
 - { name: lmbench,                                                   ruleset: sisyphus,    untrusted: true } # accused of fake 3.0
 - { name: lmdb,                        verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: lmdb,                        ver: "0.9.34",                ruleset: hpux,        incorrect: true }
+- { name: lmdb,                                                      ruleset: hpux,        untrusted: true } # accused of fake 0.9.34
 - { name: lmdb++,                      ver: ["0.9.14.1", "0.9.14.0.1"], ruleset: [fedora,macports], incorrect: true }
 - { name: lmdb++,                                                       ruleset: [fedora,macports], untrusted: true }
 - { name: lmdb++,                      verpat: ".*20[0-9]{6}.*",                           snapshot: true }
