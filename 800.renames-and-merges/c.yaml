@@ -169,8 +169,8 @@
 - { setname: chart-releaser,           name: helm-chart-releaser }
 - { setname: chatgpt,                  name: [chat-gpt, chatgpt-desktop] } # may be unrealted, split in 850
 - { setname: chatterino,               name: chatterino2 }
-- { setname: chatty,                   name: chatty-beta, weak_devel: true, nolegacy: true }
-- { setname: chatty,                   name: purism-chatty }
+- { setname: chatty,                   name: [chatty-beta, java-chatty-beta], weak_devel: true, nolegacy: true }
+- { setname: chatty,                   name: [purism-chatty, java-chatty] }
 - { setname: check-dfsg-status,        name: vrms } # former name
 - { setname: check-jsonschema,         name: python:$0 }
 - { setname: check-lm-sensors,         name: [nagios-check-lm-sensors, nagios-plugin-check-lm-sensors] }
