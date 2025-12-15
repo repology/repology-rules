@@ -88,7 +88,7 @@
 - { setname: libressl,                 name: [libressl-netcat,libressl-static], addflavor: true }
 - { setname: libressl,                 name: libressl-libtls, addflavor: libtls }
 - { setname: libressl,                 name: libressl-devel-libtls, weak_devel: true, nolegacy: true, addflavor: libtls }
-- { setname: librewolf,                name: [$0-bin-wayland], addflavor: true }
+- { setname: librewolf,                name: [$0-bin-wayland, $0-bin, $0-allow-dark, $0-hellfire], addflavor: true }
 - { setname: librewolf,                name: [librewolf-app, librewolf-browser] }
 - { setname: libtool,                  name: libtool-bin, addflavor: bin }
 - { setname: license-finder,           name: [licensefinder, ruby:license-finder] }
