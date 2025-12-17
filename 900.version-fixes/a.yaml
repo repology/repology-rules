@@ -320,6 +320,8 @@
 - { name: aspell-nb,                   ver: "0.50.1-2",              ruleset: guix,        incorrect: true }
 - { name: aspell-nb,                                                 ruleset: guix,        untrusted: true } # accused of fake 0.50.1-2
 - { name: aspell-pl,                   verpat: "20[0-9]{6}",                               incorrect: true } # 6.0_20200916-0
+- { name: aspell-pt-pt,                ver: "20251001.1.0",                                incorrect: true }
+- { name: aspell-pt-pt,                                              ruleset: ravenports,  untrusted: true } # accused of fake 20251001.1.0
 - { name: aspell-qu,                   ver: "20040424.1",                                  ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/qu/
 - { name: aspell-ru,                   ver: ["0.99.15.7.1","0.99.1"],                      ignore: true } # see ftp://ftp.gnu.org/gnu/aspell/dict/ru/
 - { name: aspell-ru,                   verpat: ".*p.*",                                    incorrect: true }
