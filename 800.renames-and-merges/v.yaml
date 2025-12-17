@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
+- { setname: v,                        name: v-weekly, weak_devel: true, nolegacy: true }
 - { setname: v2ray,                    name: [v2ray-core, "go:v2ray-core"] }
 - { setname: v4l2loopback,             name: v4l2loopback-dkms }
 - { setname: v8,                       name: [v8-static-gyp,v8-static-gyp-5.4], addflavor: static-gyp }
