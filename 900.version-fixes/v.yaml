@@ -29,6 +29,8 @@
 - { name: vdrift,                      verpat: "([0-9]{4})\\.?([0-9]{2})\\.?([0-9]{2})",   setver: $1-$2-$3 } # XXX: problem
 - { name: vegeta,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: velociraptor,                verge: "0.60", verlt: "0.67",                       sink: true, incorrect: true, vulnerable: true } # winget
+- { name: ventoy,                      ver: "1.1.107",                                     incorrect: true }
+- { name: ventoy,                                                    ruleset: mx,          untrusted: true } # accused of fake 1.1.107
 - { name: veracrypt,                   verpat: "(1\\.[0-9]{2})(?:[_.-]|p|update|hotfix)+([0-9])", setver: "$1-whatever$2", any_is_patch: true }
 - { name: verdict,                     ver: "2.0.0",                 ruleset: yacp,        sink: true } # unreleased fork version, older than official 1.4.0
 - { name: vertex-icon-theme,                                                               noscheme: true }
