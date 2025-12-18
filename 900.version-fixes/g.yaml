@@ -196,6 +196,8 @@
 - { name: gnome-documents,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-flashback,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gnome-getting-started-docs,  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gnome-graphs,                verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: gnome-graphs,                verge: "20000000", verlt: "20251202",               sink: true } # 1.8.6 from 2025-12-02
 - { name: gnome-icon-theme,            ver: "3.14.0",                ruleset: pclinuxos,   incorrect: true }
 - { name: gnome-icon-theme,                                          ruleset: pclinuxos,   untrusted: true } # accused of fake 3.14.0
 - { name: gnome-js-common,             verpat: "20[0-9]{6}",                               snapshot: true }
