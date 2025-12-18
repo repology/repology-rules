@@ -77,6 +77,7 @@
 - { name: vkmark,                      verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: vkmark,                      verpat: "20[0-9]{2}\\.[0-9]{2}.+",                  incorrect: true } # latest 2017.08
 - { name: vlang,                       verpat: ".*20[0-9]{2}.*",                           snapshot: true }
+- { name: vlang,                       verpat: "20[0-9]{2}\\.[0-9]{1,2}",                  devel: true, ignore: false, untrusted: false } # weekly versions
 - { name: vlc,                         releq: "4",                                         ignore: true } # devel branch, no announced releaes
 - { name: vlc,                                                       ruleset: exherbo,     untrusted: true } # accused of fake 4.0.0_pre20231016
 - { name: vlc,                                                       ruleset: sisyphus,    untrusted: true } # accused of fake 3.0.0.1
