@@ -42,6 +42,9 @@
 - { setname: hdf5,                     name: [hdf5-c++,hdf5-cpp,hdf5-cpp-fortran,hdf5-fortran,hdf5-mpi,hdf5-mvapich2,hdf5-openmpi,hdf5-openmpi-java,hdf5-parallel-openmpi,hdf5-salome,hdf5-threadsafe,hdf5-mpich,hdf5-openmpi1,hdf5-openmpi2,hdf5-openmpi3,hdf5-java], addflavor: true }
 - { setname: hedgewars,                name: [hedgewars-server, 'haskell:hedgewars-server'], addflavor: server }
 - { setname: helio,                    name: [helio-workstation, helioworkstation, heliosequencer] }
+- { setname: helium,                   name: helium-browser }
+- { setname: helium,                   name: helium-browser-bin, addflavor: bin }
+- { setname: helium,                   name: helium-pre, weak_devel: true, nolegacy: true }
 - { setname: helix,                    name: helix-editor }
 - { setname: helm,                     namepat: "helm[0-9.-]+" }
 - { setname: helm,                     name: helm-vst, addflavor: vst }
