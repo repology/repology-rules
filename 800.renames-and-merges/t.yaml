@@ -92,6 +92,8 @@
 - { setname: terminal-image-viewer,    name: terminalimageviewer }
 - { setname: terminal-markdown-viewer, name: mdv }
 - { setname: termtosvg,                name: "python:termtosvg" }
+- { setname: termusic,                 name: $0-mpv, addflavor: true }
+- { setname: termusic,                 name: rust:$0 }
 - { setname: terraform,                namepat: "terraform[0-9.-]+" }
 - { setname: terraform,                name: terraform-with-plugins, addflavor: true }
 - { setname: terraform-compliance,     name: "python:terraform-compliance" }
