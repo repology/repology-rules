@@ -40,6 +40,8 @@
 - { name: libarena,                    ver: "20080221",                                    sink: true, disposable: true } # 0.3.7 from 2014
 - { name: libart-lgpl,                 ver: "14.0.4",                                      incorrect: true } # trinity fork
 - { name: libart-lgpl,                                               ruleset: aosc,        untrusted: true }
+- { name: libart-lgpl,                 ver: "2.3.21_36_43",                                incorrect: true } # aur
+- { name: libart-lgpl,                                               ruleset: aur,         untrusted: true } # accused of fake 2.3.21_36_43
 - { name: libasr,                      verpat: "[0-9]{8}.*",                               ignore: true } # guix crap
 - { name: libatomic-ops,               ver: "7.7.0",                 ruleset: vcpkg,       incorrect: true }
 - { name: libatomic-ops,                                             ruleset: vcpkg,       untrusted: true } # accused of fake 7.7.0
