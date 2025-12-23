@@ -430,6 +430,7 @@
 - { setname: musl,                     name: musl-bootstrap, addflavor: true }
 - { setname: musl,                     name: [$0-cross, arm-$0, armhf-$0, i386-$0, $0-armv7, $0-mallocng, $0-x86-64, aarch64-linux-$0, arm-linux-gnueabihf-$0], addflavor: true }
 - { setname: musl-rpmatch,             name: rpmatch-standalone }
+- { setname: mustache,                 name: [libkainjow-mustache, cpp-mustache, kainjow-mustache, mustache-cpp] }
 - { setname: mutmut,                   name: python:$0 }
 - { setname: mutt,                     name: mutt-devel, weak_devel: true, nolegacy: true }
 - { setname: mutt,                     name: [mutt-lite,mutt14,mutt14-lite,mutt-patched,mutt-slang,mutt-kiss] }
