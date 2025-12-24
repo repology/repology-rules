@@ -327,8 +327,8 @@
 - { name: musique,                     verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: musique,                     ver: "20131011",                                    sink: true, disposable: true }
 - { name: musl-locales,                                                                    noscheme: true }
-- { name: mustache,                    ver: "5.0",                   ruleset: guix,        incorrect: true }
-- { name: mustache,                                                  ruleset: guix,        untrusted: true } # accused of fake 5.0
+- { name: mustache,                    ver: "5.0",                   ruleset: [guix,rosa], incorrect: true }
+- { name: mustache,                                                  ruleset: [guix,rosa], untrusted: true } # accused of fake 5.0
 - { name: mutt,                        verlonger: 3,                 ruleset: sisyphus,    incorrect: true }
 - { name: mutt,                                                      ruleset: sisyphus,    untrusted: true } # accused of fake 2.0.4.0.4.gd6732de7d
 - { name: muttprint,                   verpat: ".*_.*",                                    incorrect: true } # aur fake
