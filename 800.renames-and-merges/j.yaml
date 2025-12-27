@@ -51,6 +51,8 @@
 - { setname: jitsi-videobridge,        name: ["jitsi-videobridge-nightly", "jitsi-videobridge2"] }
 - { setname: jlatexmath,               name: [jlatexmath-fop, libjlatexmath-java], addflavor: true }
 - { setname: jless,                    name: "rust:jless" }
+- { setname: jnv,                      name: rust:$0 }
+- { setname: jnv,                      name: $0-bin, addflavor: true }
 - { setname: jogl,                     name: [jogamp-jogl,jogl2,libjogl-java,libjogl2-java] }
 - { setname: john,                     name: [john-the-ripper,johntheripper] }
 - { setname: john,                     name: [john-the-ripper-jumbo, johntheripper-jumbo, john-jumbo] }
