@@ -148,8 +148,8 @@
 - { setname: gimagereader,             name: gimagereader-beta, devel: true }
 - { setname: gimagereader,             name: gimagereader-qt5, addflavor: qt5 }
 - { setname: gimoji,                   name: rust:$0 }
-- { setname: gimp,                     name: [gimp-app,gimp-with-plugins,"python:gimp",gimp-stripped,gimp-launcher], addflavor: true }
-- { setname: gimp,                     name: gimp2 }
+- { setname: gimp,                     name: [gimp-with-plugins,"python:gimp",gimp-stripped,gimp-launcher], addflavor: true }
+- { setname: gimp,                     name: [gimp2, gimp-2, gimp-app, gimp3-app] }
 - { setname: gimp,                     name: [gimp-devel,gimp3-devel,gimp-git,gimp3,gimp-gtk3,gimp.nightly,gimp-dev,gimp-develop,gimp-next], weak_devel: true, nolegacy: true }
 - { setname: gimp,                     name: [gimp-devel-noconflict,gimp-devel-stripped], weak_devel: true, nolegacy: true, addflavor: true }
 - { setname: gimp-help,                namepat: "gimp-docs-.*", addflavor: true } # languages in pkgsrc
