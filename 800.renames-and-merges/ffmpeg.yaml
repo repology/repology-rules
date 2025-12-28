@@ -1,6 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- { setname: ffmpeg,                   namepat: "(?:compat-)?ffmpeg(?:-compat)?[0-9.-]*" }
+- { setname: ffmpeg,                   namepat: "(?:compat-)?ffmpeg(?:-compat)?[0-9.-]*(-mini|-static)?", addflavor: $1 }
 - { setname: ffmpeg,                   namepat: "ffplay[0-9.-]*", addflavor: ffplay }
 - { setname: ffmpeg,                   name: ffserver, addflavor: true }
 - { setname: ffmpeg,                   name: libavutil-52, addflavor: libavutil }
@@ -8,10 +8,6 @@
 
 - setname: ffmpeg
   name:
-    - ffmpeg067-static
-    - ffmpeg-5-mini
-    - ffmpeg-6-mini
-    - ffmpeg-7-mini
     - ffmpeg-compat
     - ffmpeg-cuda
     - ffmpeg-decklink
