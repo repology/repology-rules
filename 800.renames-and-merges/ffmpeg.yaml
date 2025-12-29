@@ -5,9 +5,14 @@
 - { setname: ffmpeg,                   name: ffserver, addflavor: true }
 - { setname: ffmpeg,                   name: libavutil-52, addflavor: libavutil }
 - { setname: ffmpeg,                   name: libavresample, addflavor: libavresample }
+- { setname: ffmpeg,                   name: ffmpeg063-static, addflavor: static }
+- { setname: ffmpeg,                   name: ffmpeg.essentials, addflavor: essentials }
+- { setname: ffmpeg,                   name: ffmpeg.shared, addflavor: shared }
+- { setname: ffmpeg,                   name: ps3-ffmpeg-libs, addflavor: ps3 }
 
 - setname: ffmpeg
   name:
+    - ffmpeg-amd-full
     - ffmpeg-compat
     - ffmpeg-cuda
     - ffmpeg-decklink
@@ -22,7 +27,9 @@
     - ffmpeg-intel-full
     - ffmpeg-jami
     - ffmpeg-libfdk-aac
+    - ffmpeg-libs
     - ffmpeg-minimal
+    - ffmpeg-minimal-dev
     - ffmpeg-mmal
     - ffmpeg-ndi
     - ffmpeg-nocuda
@@ -32,12 +39,15 @@
     - ffmpeg-obs
     - ffmpeg-qsv
     - ffmpeg-redist-full
+    - ffmpeg-shared
     - ffmpeg-shared-4.4.1
     - ffmpeg-shinobi
     - ffmpeg-spice
+    - ffmpeg-svt
     - ffmpeg-svt-av1
     - ffmpeg-svt-vp9
     - ffmpeg-tmblock
+    - ffmpeg-vaapi-crop
     - ffmpeg-v4l2-request
     - ffmpeg-vp9-timestamp
     - ffmpeg-vulkan
@@ -45,6 +55,9 @@
 
 - setname: ffmpeg
   name:
+    - ffmpeg-git
+    - ffmpeg-git-nc
+    - ffmpeg-nightly
     - ffmpeg-sixel-nightly
     - ffmpeg-shared-nightly
   addflavor: true
