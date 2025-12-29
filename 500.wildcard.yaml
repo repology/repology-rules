@@ -294,6 +294,9 @@
 - { setname: "ffext:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ffext], namepat: "firefox-esr-extension-(.*)", addflavor: esr }
 - { setname: "ffext:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ffext], namepat: "librewolf-extension-(.*)", addflavor: librewolf }
 
+# chrome extensions
+- { setname: "chrext:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_chrext], namepat: "chromium-extension-(.*)" }
+
 # Xemacs
 - { setname: "xemacs:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_xemacs], category: app-xemacs, ruleset: [gentoo, exherbo] }
 
