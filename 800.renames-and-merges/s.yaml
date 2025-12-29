@@ -269,6 +269,7 @@
 - { setname: softhsm,                  namepat: "softhsm[0-9]+" }
 - { setname: sogo,                     name: [sogo2, sogo3, gnustep-sogo,gnustep-sogo3,sogo4] }
 - { setname: sogo,                     name: [sogo2-activesync,sogo3-activesync,sogo4-activesync], addflavor: activesync }
+- { setname: soh,                      namepat: "soh-otr-.*", addflavor: data, weak_devel: true, nolegacy: true }
 - { setname: soil,                     name: libsoil }
 - { setname: solfege,                  name: solfege-nosound, addflavor: true }
 - { setname: solid,                    name: [ksolid, kf5-solid, solid-qt5] }
