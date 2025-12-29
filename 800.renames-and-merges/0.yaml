@@ -6,6 +6,7 @@
 - { setname: 0install,                 name: [zeroinstall,zeroinstall-injector,zero-install] }
 - { setname: 0install,                 name: [0install-solver, ocaml:0install-solver], addflavor: solver }
 - { setname: 0install,                 name: ocaml:0install, addflavor: true }
+- { setname: 0x,                       name: rust:ohx }
 - { setname: 1password,                name: 1password-beta, weak_devel: true, nolegacy: true }
 - { setname: 1password,                namepat: "1password[0-9.-]+" }
 - { setname: 1password,                name: onepassword-gui }
