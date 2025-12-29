@@ -318,6 +318,8 @@
 - { setname: premake,                  name: premake-core, addflavor: true }
 - { setname: premake,                  name: premake.5.beta, weak_devel: true, nolegacy: true }
 - { setname: presto,                   name: presto-cli }
+- { setname: pretix,                   name: python:$0 }
+- { setname: pretix,                   name: pretix-venv, addflavor: true }
 - { setname: prettier,                 name: "node:prettier" }
 - { setname: prey,                     name: prey-node-client }
 - { setname: prezto,                   name: zsh-prezto }
