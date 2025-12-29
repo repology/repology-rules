@@ -107,6 +107,7 @@
 - { setname: cblas,                    name: cblas-tmg, addflavor: tmg }
 - { setname: cbor-tool,                name: haskell:$0 }
 - { setname: ccache,                   name: [ccache-memcached,ccache-memcached-static,ccache-static], addflavor: true } # freebsd subpackages
+- { setname: ccache,                   name: ccache4 }
 - { setname: ccaudio2,                 name: libccaudio2 }
 - { setname: ccfits,                   name: libccfits }
 - { setname: ccid,                     name: [libccid,pcsc-ccid,pcsc-driver-ccid,pcsc-lite-ccid,pcsclite-driver-ccid] }
