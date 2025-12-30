@@ -330,6 +330,9 @@
 - { setname: mongodb,                  namepat: "mongo(db)?[0-9.-]+" }
 - { setname: mongodb,                  namepat: "mongodb-bin-[0-9.-]+", addflavor: bin }
 - { setname: mongodb,                  name: mongodb-beta, weak_devel: true, nolegacy: true }
+- { setname: mongodb-cli,              name: [mongocli, mongodb-cli] }
+- { setname: mongodb-cli,              name: [mongocli-bin, mongodb-cli-bin], addflavor: bin }
+- { setname: mongodb-cli,              name: [mongodb-cli.install, mongodb-cli.portable], addflavor: true }
 - { setname: mongodb-tools,            namepat: "mongodb[0-9.-]+-tools" }
 - { setname: mongoose,                 name: libmongoose } # split in 850
 - { setname: mongoose,                 name: mongoose-server } # split in 850
