@@ -331,6 +331,7 @@
 - { setname: mongodb,                  namepat: "mongo(db)?[0-9.-]+" }
 - { setname: mongodb,                  namepat: "mongodb-bin-[0-9.-]+", addflavor: bin }
 - { setname: mongodb,                  name: mongodb-beta, weak_devel: true, nolegacy: true }
+- { setname: mongodb-cli,              name: mongocli }
 - { setname: mongoose,                 name: libmongoose } # split in 850
 - { setname: mongoose,                 name: mongoose-server } # split in 850
 - { setname: mono-flickrnet,           name: flickrnet-bin, addflavor: true }
