@@ -327,10 +327,14 @@
 - { setname: mongo-c-driver,           name: libbson, addflavor: true } # moved into, see https://github.com/mongodb/libbson
 - { setname: mongo-c-driver,           name: [libmongoc,mongoc] }
 - { setname: mongo-cxx-driver,         name: [$0-legacy, mongocxx] }
+- { setname: mongo-tools,              namepat: "mongodb[0-9.-]+-tools" }
+- { setname: mongo-tools,              name: mongodb-tools }
+- { setname: mongo-tools,              name: mongodb-tools-bin, addflavor: bin }
+- { setname: mongo-tools,              name: mongodb-tools-git, weak_devel: true, nolegacy: true }
+- { setname: mongo-tools,              name: mongo-tools-dbginfo, addflavor: debug }
 - { setname: mongodb,                  namepat: "mongo(db)?[0-9.-]+" }
 - { setname: mongodb,                  namepat: "mongodb-bin-[0-9.-]+", addflavor: bin }
 - { setname: mongodb,                  name: mongodb-beta, weak_devel: true, nolegacy: true }
-- { setname: mongodb-tools,            namepat: "mongodb[0-9.-]+-tools" }
 - { setname: mongoose,                 name: libmongoose } # split in 850
 - { setname: mongoose,                 name: mongoose-server } # split in 850
 - { setname: mono-flickrnet,           name: flickrnet-bin, addflavor: true }
