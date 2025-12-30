@@ -39,6 +39,8 @@
 - { name: vgmstream,                   ver: "svn",                                         incorrect: true } # /
 - { name: vgrep,                       ver: "5.2.2",                                       incorrect: true }
 - { name: vgrep,                                                     ruleset: [aur,homebrew], untrusted: true } # accused of fake 5.2.2
+- { name: victorialogs,                ver: "0.121.0",                                     sink: true } # homebrew; bogus tag between 1.24.0 and 1.25.0
+- { name: victorialogs,                                              ruleset: homebrew,    untrusted: true } # accused of fake 0.121.0
 - { name: vid.stab,                    verpat: ".*[0-9a-f]{7}.*",                          ignore: true } # git commit
 - { name: vidcutter,                                                 ruleset: unitedrpms,  untrusted: true } # accused of fake 6.0.0.6
 - { name: video4linux,                 ver: "1.23.0",                ruleset: freebsd,     incorrect: true }
