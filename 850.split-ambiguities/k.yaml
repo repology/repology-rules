@@ -137,6 +137,8 @@
 - { name: kubelogin, wwwpart: int128, setname: kubectl-oidc-login } # reused name
 - { name: kubelogin, addflag: unclassified }
 
+- { name: kubernetes, wwwpart: github.com/kubernetes-client/c, setname: kubernetes-client-c }
+
 - { name: kup, wwwpart: [spersson, kde-apps, linux-apps.com/p/1127689, kde.org], setname: kup-backup }
 - { name: kup, wwwpart: kernel.org, setname: kup-kernel.org-upload-tool }
 - { name: kup, addflag: unclassified }
