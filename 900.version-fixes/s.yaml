@@ -353,6 +353,7 @@
 - { name: springgraph,                 verpat: "[0-9]+",                                   incorrect: true } # 0.88, not 88
 - { name: sprunge,                                                                         noscheme: true }
 - { name: spyder,                      verpat: ".*b.*",                                    devel: true }
+- { name: sqlean,                      verge: "3",                                         incorrect: true } # sqlite version, not sqlean
 - { name: sqlite,                      verpat: ".*_[0-9]+",                                ignore: true } # slackbuilds using debian patch
 - { name: sqlite,                      verpat: "3\\.[0-9]{4}",                             incorrect: true }
 - { name: sqlite,                      verpat: "3[0-9]{6}",                                incorrect: true }
