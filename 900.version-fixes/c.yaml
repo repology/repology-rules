@@ -132,6 +132,8 @@
 - { name: cemu-wii-u-emulator,                                       ruleset: aur,         untrusted: true } # accused of fake 2.0.513
 - { name: ceph,                        verlonger: 3,                 ruleset: opensuse,    incorrect: true }
 - { name: ceph,                        verpat: "[0-9]+[13579]\\..*",                       devel: true } # assumed
+- { name: ceph,                        ver: "20.3.0",                ruleset: guix,        incorrect: true }
+- { name: ceph,                                                      ruleset: guix,        untrusted: true } # accused of fake 20.3.0
 - { name: cereal,                      verlonger: 3,                 ruleset: freebsd,     incorrect: true } # accused of fake 1.3.0.10
 - { name: cereal,                      ver: "1.3.3",                 ruleset: mpr,         incorrect: true }
 - { name: cereal,                                                    ruleset: mpr,         untrusted: true } # accused of fake 1.3.3
