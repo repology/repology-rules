@@ -59,6 +59,8 @@
 - { name: libblockdev,                                               ruleset: slackware,   untrusted: true } # accused of fake 3.1.1_1
 - { name: libbpf,                      verge: "5",                   ruleset: opensuse,    incorrect: true } # kernel version
 - { name: libbpf,                                                    ruleset: opensuse,    incorrect: true } # accused of fake 5.x
+- { name: libbpf,                      ver: "1.7.0",                 ruleset: centos,      incorrect: true }
+- { name: libbpf,                                                    ruleset: centos,      untrusted: true } # accused of fake 1.7.0
 - { name: libbtbb,                     verpat: "20[0-9]{4}.*",                             incorrect: true } # yyyy-mm-Rn, not yyyymm*
 - { name: libbtbb,                     verpat: "20[0-9]{2}\\.[0-9]+\\.[0-9]+",             incorrect: true } # yyyy-mm-Rn, not yyyy.mm.n
 - { name: libburn,                     ver: "1.4.9",                 ruleset: sisyphus,    incorrect: true }
