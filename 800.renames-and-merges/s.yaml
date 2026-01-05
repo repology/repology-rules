@@ -152,7 +152,7 @@
 - { setname: shell-gpt,                name: [python:$0, shellgpt] }
 - { setname: shellcheck,               name: shellcheck-bin, addflavor: true }
 - { setname: shellcheck,               name: "haskell:shellcheck" }
-- { setname: shepherd,                 name: gnu-shepherd }
+- { setname: shepherd,                 name: [gnu-$0, guile-$0] }
 - { setname: sherlock,                 name: python:sherlock-project }
 - { setname: sherlock,                 name: sherlock-project }
 - { setname: shfmt,                    name: $0-bin }
