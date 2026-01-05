@@ -328,6 +328,9 @@
 - { name: bsf, wwwpart: apache, setname: java:$0 }
 - { name: bsf, addflag: unclassified }
 
+- { name: btail, wwwpart: galalen, setname: $0-interactive-tail }
+- { name: btail, addflag: unclassified }
+
 - { name: btf, wwwpart: sparse, setname: suitesparse-btf }
 - { name: btf, wwwpart: fge, setname: btf-builder-pattern }
 - { name: btf, addflag: unclassified }
