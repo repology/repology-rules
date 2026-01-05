@@ -396,6 +396,8 @@
 - { name: stdman,                      verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: stdman,                      verge: "20000000", verlt: "20240730",               sink: true }
 - { name: steam,                                                     ruleset: [windows,macosx], altscheme: true }
+- { name: steam-tui,                   ver: "0.3.0b",                ruleset: aur,         incorrect: true }
+- { name: steam-tui,                                                 ruleset: aur,         untrusted: true } # accused of fake 0.3.0b
 - { name: steamcmd,                                                                        noscheme: true }
 - { name: step-physical-simulator,     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: stepmania,                   verpat: ".*b.*",                                    devel: true }
