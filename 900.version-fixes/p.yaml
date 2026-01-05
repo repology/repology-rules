@@ -207,6 +207,7 @@
 - { name: plasma-discover,                                           ruleset: ubuntu,      untrusted: true } # accused of fake 5.24.0a
 - { name: plasma-gmailfeed,            ver: "2.1",                   ruleset: kaos,        incorrect: true }
 - { name: plasma-gmailfeed,                                          ruleset: kaos,        untrusted: true } # accused of fake 2.1
+- { name: plasma-login-manager,                                                            noscheme: true }
 - { name: plasma-phone-componenbts,    verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: plasma-workspace,            ver: "5.24.0b",               ruleset: ubuntu,      incorrect: true }
 - { name: plasma-workspace,                                          ruleset: ubuntu,      untrusted: true } # accused of fake 5.24.0b
