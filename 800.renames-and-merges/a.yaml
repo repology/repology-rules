@@ -245,7 +245,7 @@
 - { setname: antlr,                    name: antlr3-bin, addflavor: bin }
 - { setname: antlr,                    name: [antlr4-project, libantlr] }
 - { setname: antlr,                    name: [java-antlr3,ant-antlr3,libantlr4] }
-- { setname: anubis,                   name: go:anubis } # ambiguous name, split in 500
+- { setname: anubis,                   name: [go:$0,$0-smtp] } # ambiguous name, split in 850
 - { setname: anubis,                   name: python:anubis-netsec }
 - { setname: anybadge,                 name: "python:anybadge" }
 - { setname: anydesk,                  name: $0-legacy }
