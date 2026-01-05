@@ -360,6 +360,7 @@
 - { setname: sqlite-vec,               name: rust:$0 }
 - { setname: sqlitebrowser,            name: [sqlitebrowser32,sqlitebrowser-cipher], addflavor: true }
 - { setname: sqlmap,                   name: "python:sqlmap" }
+- { setname: sqlpage,                  name: rust:$0 }
 - { setname: squashfs-tools,           name: squashfs-tools-next, weak_devel: true, nolegacy: true }
 - { setname: squashfs-tools,           name: squashfs3-tools }
 - { setname: squashfs-tools,           name: [squashfs, squashfs-tools] } # squashfs and squashfs-tools are single project
