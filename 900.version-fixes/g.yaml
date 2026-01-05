@@ -259,7 +259,6 @@
 - { name: gnulib,                                                                          noscheme: true }
 - { name: gnumeric,                                                  ruleset: solus,       untrusted: true } # accused of fake 1.12.45
 - { name: gnunet,                      verpat: "0\\.10\\.2.*",       ruleset: openwrt,     ignore: true }
-- { name: gnupg,                       releq: "2.5",                                       devel: true } # according to news, 2.5 is devel and 2.6 will be stable, but it's unclear if they completely adopted even/odd scheme
 - { name: gnuradio,                    ver: "3.7.11.1",              ruleset: nix,         incorrect: true }
 - { name: gnuradio,                                                  ruleset: nix,         untrusted: true }
 - { name: gnuradio,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
