@@ -134,6 +134,7 @@
 - { setname: kubernetes,               name: [kubeadm,kubeadm-beta], addflavor: kubeadm }
 - { setname: kubernetes,               name: [kubectl,kubectl-beta,kubernetes-kubectl], addflavor: kubectl }
 - { setname: kubernetes,               namepat: "kubectl[0-9.-]+", addflavor: kubectl }
+- { setname: kubernetes,               namepat: "kubernetes[0-9.-]+" }
 - { setname: kubernetes,               name: [kubelet,kubelet-beta], addflavor: kubelet }
 - { setname: kubernetes,               name: kubernetes-cli, addflavor: cli }
 - { setname: kubernetes-helm,          name: [kubernetes-helm2,kubernetes-helm3] }
