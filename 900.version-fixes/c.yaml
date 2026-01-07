@@ -312,6 +312,7 @@
 - { name: consel,                      verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: conserver,                   ver: "8.5",                   ruleset: freebsd,     incorrect: true } # completely fake; https://github.com/conserver/conserver/releases
 - { name: conserver,                                                 ruleset: freebsd,     untrusted: true }
+- { name: consoleet-utils,                                           ruleset: rpm,         untrusted: false } # undo global untrusted for opensuse and mageia, requested by upstream
 - { name: consolekit,                  verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: containerd,                  verpat: "[0-9a-f]{7}",                              incorrect: true } # crux garbage
 - { name: containers-common,           verpat: "[0-9]+",                                   incorrect: true } # both dates and e.g. "1"
