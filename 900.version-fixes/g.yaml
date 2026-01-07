@@ -352,12 +352,12 @@
 - { name: grive2,                      verpat: "0\\.5\\.1.*",        ruleset: [pclinuxos,openwrt,freebsd], incorrect: true }
 - { name: grive2,                                                    ruleset: [pclinuxos,openwrt,freebsd], untrusted: true }
 - { name: grok,                        verpat: "1\\.20[0-9]{6}.*",                         sink: true }
-- { name: grub,                        ver: "2.03.0",                ruleset: manjaro,     incorrect: true } # 2.02rcX
-- { name: grub,                                                      ruleset: manjaro,     untrusted: true }
 - { name: grub,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: grub,                        ver: "2.05",                  ruleset: ataraxia,    incorrect: true }
-- { name: grub,                                                      ruleset: ataraxia,    untrusted: true } # accused of fake 2.05
 - { name: grub,                        verpat: "0\\.97.+",                                 snapshot: true } # garbage version in legacy branch
+- { name: grub,                        ver: "2.14",                  ruleset: [parrot,pclinuxos], incorrect: true }
+- { name: grub,                                                      ruleset: [parrot,pclinuxos], untrusted: true } # accused of fake 2.14
+- { name: grub,                                                      ruleset: manjaro,     untrusted: true } # accused of fake 2.03.0
+- { name: grub,                                                      ruleset: ataraxia,    untrusted: true } # accused of fake 2.05
 - { name: grub-customizer,             ver: "5.0.7",                 ruleset: debuntu,     incorrect: true } # mx and sparky, actually
 - { name: grub-customizer,                                           ruleset: debuntu,     untrusted: true }
 - { name: gsettings-qt,                                                                    noscheme: true }
