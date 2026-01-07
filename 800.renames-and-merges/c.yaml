@@ -378,6 +378,7 @@
 - { setname: cproxy,                   name: rust:$0 }
 - { setname: cpu-features,             name: [cpufeatures, google-cpu-features] }
 - { setname: cpu-features,             name: libcpufeatures, addflavor: lib }
+- { setname: cpu-z,                    name: cpuz }
 - { setname: cq-editor,                name: python:$0 }
 - { setname: cqrlog,                   name: [cqrlog-gtk2,cqrlog-qt4,cqrlog-source], addflavor: true }
 - { setname: cracklib,                 name: cracklib2 }
