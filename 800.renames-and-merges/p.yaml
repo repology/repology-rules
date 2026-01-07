@@ -378,7 +378,7 @@
 - { setname: protontricks,             name: "python:protontricks" }
 - { setname: protonvpn-cli,            name: [protonvpn-cli-2, protonvpn-linux-cli] }
 - { setname: prowlarr,                 name: [$0-develop, $0-nightly], weak_devel: true, nolegacy: true }
-- { setname: prql,                     name: [$0c,$0-compiler], addflavor: compiler }
+- { setname: prql,                     name: [$0c,$0-compiler,rust:$0c], addflavor: compiler }
 - { setname: prusaslicer,              name: [slic3r-prusa, prusa-slicer, slic3r-prusa3d, slic3r-prusa-edition] }
 - { setname: prysk,                    name: python:$0 }
 - { setname: psautohint,               name: "python:psautohint" }
