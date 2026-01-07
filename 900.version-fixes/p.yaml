@@ -366,8 +366,7 @@
 - { name: protobuf,                                                  ruleset: funtoo,      untrusted: true } # accused of fake 3.20.0
 - { name: protobuf,                    ver: "30.3",                  ruleset: baulk,       incorrect: true }
 - { name: protobuf,                                                  ruleset: baulk,       untrusted: true } # accused of fake 30.3
-- { name: protoc-gen-go-grpc,          ver: "1.72.0",                ruleset: freebsd,     incorrect: true } # cli have different version
-- { name: protoc-gen-go-grpc,                                        ruleset: freebsd,     untrusted: true } # accused of fake 1.72.0
+- { name: protoc-gen-go-grpc,                                                              noscheme: true } # version messup between repository tags and cmd/protoc-gen-go-grpc own version
 - { name: proton-mail,                 ver: "1.1.2",                 ruleset: homebrew_casks, incorrect: true }
 - { name: proton-mail,                                               ruleset: homebrew_casks, untrusted: true } # accused of fake 1.1.2
 - { name: protonmail-bridge,           verpat: ".*-.*",              ruleset: nix,         debianism: true }
