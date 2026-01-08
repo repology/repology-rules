@@ -1,0 +1,26 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- setname: grub
+  name:
+    - grub2
+    - grub-legacy
+    - grub204
+
+- setname: grub
+  addflavor: true
+  name:
+    - grub-blscfg
+    - grub-coreboot
+    - grub-efi
+    - grub-efi-arm64
+    - grub-efi32
+    - grub-hybrid
+    - grub-libzfs
+    - grub-linux-default
+    - grub-luks-keyfile
+    - grub-minimal
+    - grub-silent
+    - grub-static
+    - grub2-efi
+    - grub2-efi-x64
+    - grub2-unsigned
