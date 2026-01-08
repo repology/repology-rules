@@ -121,6 +121,7 @@
 - { setname: aide,                     name: aide-app }
 - { setname: aide,                     name: [aide-selinux, aide-without-acl], addflavor: true }
 - { setname: aider,                    name: [aider-chat, python:aider-chat] }
+- { setname: aim,                      name: rust:$0 }
 - { setname: aircrack-ng,              name: aircrack-ng-beta, weak_devel: true, nolegacy: true }
 - { setname: airshipper,               name: rust:$0 }
 - { setname: airspy,                   name: [airspy-host, airspyone-host] }
