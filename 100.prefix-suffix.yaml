@@ -6,6 +6,7 @@
 - { name: mingw-w64-python-setuptools-git, addflag: no_suffix }
 - { name: rubocop-lts, addflag: no_suffix }
 - { name: gem-rubocop-lts, addflag: no_suffix }
+- { name: filelock-lts, addflag: no_suffix }
 
 # common rules
 - { noflag: no_suffix,                           namepat: "libx32-(.*)", setname: "$1", addflavor: libx32 }
