@@ -25,6 +25,8 @@
 - { name: man-pages-posix,             verpat: "([0-9]+)[._-]([a-z])",                     setver: $1$2 } # version is only mentioned in the file name and is e.g. 2017-a
 - { name: man2html,                    ver: "3.1.20220714",          ruleset: freebsd,     incorrect: true }
 - { name: man2html,                                                  ruleset: freebsd,     untrusted: true } # accused of fake 3.1.20220714
+- { name: mandelbulber,                ver: "2.34.1",                ruleset: aur,         incorrect: true }
+- { name: mandelbulber,                                              ruleset: aur,         untrusted: true } # accused of fake 2.34.1
 - { name: mandown-manpage-from-markdown, ver: "0.1.3",               ruleset: nix,         incorrect: true }
 - { name: mandown-manpage-from-markdown,                             ruleset: nix,         untrusted: true } # accused of fake 0.1.3
 - { name: marathon-evil,                                                                   noscheme: true }
