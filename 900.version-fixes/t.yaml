@@ -82,6 +82,8 @@
 - { name: termbox,                     verge: "2",                                         incorrect: true } # termbox2
 - { name: termcap-gnu,                 ver: "11.0.1",                                      incorrect: true }
 - { name: termcap-gnu,                                               ruleset: ravenports,  untrusted: true } # accused of fake 11.0.1
+- { name: terminology,                 ver: "1.14.2",                ruleset: artix,       incorrect: true }
+- { name: terminology,                                               ruleset: artix,       untrusted: true } # accused of fake 1.14.2
 - { name: termscp,                     ver: "0.12.3.2",              ruleset: aur,         incorrect: true }
 - { name: termscp,                                                   ruleset: aur,         untrusted: true } # accused of fake 0.12.3.2
 - { name: termshark,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
