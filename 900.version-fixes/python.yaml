@@ -11,6 +11,7 @@
 - { name: "python:backports",          ver: "4.0.0",                                       incorrect: true } # opensuse fake
 - { name: "python:blurhash",           wwwpart: woltapp,                                   incorrect: true } # blurhash-python
 - { name: "python:bottle",             verpat: "0\\.13.*",                                 devel: true }
+- { name: "python:bravado-core",       ver: "6.6.1",                                       sink: true } # typo in tag, 6.1.1 in fact
 - { name: "python:bx",                 vergt: "0.3.0",                                     incorrect: true } # incorrect naming in debian and bioarch; assumed upstream of real bx module is abandoned (last release 2015)
 - { name: "python:celementtree",       ver: "1.2.6",                 ruleset: openmandriva, incorrect: true }
 - { name: "python:celementtree",                                     ruleset: openmandriva, untrusted: true } # accused of fake 1.2.6
