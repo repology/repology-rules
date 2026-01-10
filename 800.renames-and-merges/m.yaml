@@ -140,6 +140,7 @@
 - { setname: maven,                    name: [apache-maven-bin,maven-bin], addflavor: bin }
 - { setname: maven,                    namepat: "maven[0-9]+(-core)?", addflavor: $1 }
 - { setname: maven-shell,              name: mvnsh }
+- { setname: maxima,                   name: [$0-ecl, $0-sage], addflavor: true }
 - { setname: mbedtls,                  namepat: "mbedtls[0-9.-]+" }
 - { setname: mbedtls,                  name: [mbedtls-compat, libmbedtls] }
 - { setname: mbedtls,                  name: [mbedtls-apache, mbedtls-dtls], addflavor: true }
