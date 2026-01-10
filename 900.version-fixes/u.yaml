@@ -47,6 +47,7 @@
 - { name: unfs3,                       ver: "0.9.23",                ruleset: openwrt,     incorrect: true } # entware
 - { name: unfs3,                                                     ruleset: openwrt,     untrusted: true } # entware
 - { name: ungoogled-chromium,          verlonger: 4,                                       incorrect: true }
+- { name: unicode-cldr,                                              ruleset: openmandriva, untrusted: true } # accused of 36.12.120191002_0, 37.0_13.0_0_2 garbage
 - { name: unicode-ucd,                 verpat: "(.*)\\+.*",                                setver: "$1" } # aosc snapshot
 - { name: uniconvertor,                ver: "2.0",                   ruleset: rpm,         incorrect: true } # not yet released
 - { name: unison,                      verpat: ".*20[0-9]{6}",                             snapshot: true }

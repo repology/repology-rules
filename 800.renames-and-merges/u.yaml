@@ -47,6 +47,7 @@
 - { setname: unicode-character-database, name: [unihan-database, unicode-ucd-unihan], addflavor: unihan }
 - { setname: unicode-character-database, name: unicode-blocks, addflavor: blocks }
 - { setname: unicode-character-database, name: unicode-emoji, addflavor: emoji }
+- { setname: unicode-cldr,             name: [unicode-cldr-common, cldr-annotations, cldr-emoji-annotation, unicode-cldr, unicode-cldr-annotations, unicode-cldr-core], addflavor: emoji }
 - { setname: unicorn-engine,           name: ["python:unicorn", unicorn-emulator] }
 - { setname: unicorn-engine,           name: unicorn-bindings, addflavor: bindings }
 - { setname: unifi,                    namepat: "unifi[0-9.-]+" }
