@@ -4,6 +4,7 @@
 - { setname: e16-epplets,              name: [epplets, epplets16] }
 - { setname: e2fsprogs,                name: e2fsprogs1.41 }
 - { setname: e2fsprogs,                name: [e2fsprogs-libblkid,e2fsprogs-libs,e2fsprogs-libss,e2fsprogs-libuuid,e2fsck-static], addflavor: true }
+- { setname: ea,                       name: [ea-command, ea-app, rust:ea-command] } # split in 850
 - { setname: eaglemode,                name: eagle-mode }
 - { setname: eaglemode,                name: emmines, addflavor: true }
 - { setname: easy-rsa,                 name: [easyrsa,easy-rsa2,easy-rsa-old] }
