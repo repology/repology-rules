@@ -43,6 +43,10 @@
 - { setname: ungoogled-chromium,       name: [ungoogled-chromium-wayland,ungoogled-chromium-xdg,ungoogled-chromium-linchrome], addflavor: true }
 - { setname: unibilium,                name: libunibilium }
 - { setname: unico,                    name: [gtk-engine-unico,gtk-engines-unico,gtk-unico-engine,gtk3-engine-unico,gtk3-unico-engine] }
+- { setname: unicode-character-database, name: [ucd, unicode-ucd, unicode-data] }
+- { setname: unicode-character-database, name: [unihan-database, unicode-ucd-unihan], addflavor: unihan }
+- { setname: unicode-character-database, name: unicode-blocks, addflavor: blocks }
+- { setname: unicode-character-database, name: unicode-emoji, addflavor: emoji }
 - { setname: unicorn-engine,           name: ["python:unicorn", unicorn-emulator] }
 - { setname: unicorn-engine,           name: unicorn-bindings, addflavor: bindings }
 - { setname: unifi,                    namepat: "unifi[0-9.-]+" }
