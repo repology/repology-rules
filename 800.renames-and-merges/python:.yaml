@@ -186,9 +186,14 @@
 - { setname: "python:numpy",           name: numpy } # XXX: make upstream use prefix
 - { setname: "python:numpy",           namepat: "python:numpy[0-9.-]+-gnu-hpc", addflavor: gnuhpc }
 - { setname: "python:ollama",          name: ollama-python }
+- { setname: "python:openpaperwork-core", name: openpaperwork-core }
+- { setname: "python:openpaperwork-gtk", name: openpaperwork-gtk }
 - { setname: "python:opentype-sanitizer", name: "python:ots-python" } # PyPI name is opentype-sanitizer, github name is ots-python
 - { setname: "python:pandas",          name: pandas }
 - { setname: "python:pandocfilters",   name: pandocfilters }
+- { setname: "python:paperwork-backend", name: paperwork-backend }
+- { setname: "python:paperwork-gtk",   name: paperwork-gtk }
+- { setname: "python:paperwork-shell",   name: paperwork-shell }
 - { setname: "python:paramiko",        name: ["python:paramiko1", "python:paramiko1.10"] }
 - { setname: "python:paramiko",        name: paramiko }
 - { setname: "python:parso",           name: parso }
