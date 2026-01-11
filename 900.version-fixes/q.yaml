@@ -98,6 +98,7 @@
 - { name: qtcreator,                   ver: "6.0.0",                 ruleset: mageia,      incorrect: true } # beta1 in fact
 - { name: qtcreator,                                                 ruleset: mageia,      untrusted: true } # accused of fake 6.0.0
 - { name: qtcurve,                     verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: qtcurve,                                                                         noscheme: true } # no releases since 2018
 - { name: qtemu,                       ver: "2.0",                   ruleset: sisyphus,    incorrect: true } # 2.0alpha1
 - { name: qtemu,                                                     ruleset: sisyphus,    untrusted: true }
 - { name: qtemu,                       ver: "2.1.1",                 ruleset: openmandriva, ignore: true } # fork with qt6 migration, arguably alive
