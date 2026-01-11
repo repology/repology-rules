@@ -5,7 +5,7 @@
 - { setname: openssl,                  name: [openssl-nonfree,openssl-threads,openssl-zlib], addflavor: true }
 - { setname: openssl,                  name: [openssl098-dev,openssl+1.0,openssl1.1-compat,libssl1.1,openssl-compat] }
 - { setname: openssl,                  name: [openssl-lts-light, openssl1-light], addflavor: light }
-- { setname: openssl,                  name: openresty-openssl111 }
+- { setname: openssl,                  name: [openresty-openssl111, openssl-lts] }
 
 - setname: openssl
   name:

@@ -19,6 +19,7 @@
 - { setname: taplo-lsp,                name: rust:$0 }
 - { setname: tar,                      name: [gnutar,gnu-tar,gtar,tar-gnu] }
 - { setname: tar,                      name: [gtar-base,gtar-info], addflavor: true }
+- { setname: tarantool,                name: $0-lts }
 - { setname: targetcli-fb,             name: targetcli, addflavor: true } # ancient predecessor, probably affected by cves as well, but mostly misnamed targetcli-fp packages XXX problems
 - { setname: tarsnapper,               name: "python:tarsnapper" }
 - { setname: tart,                     name: haskell:$0 }

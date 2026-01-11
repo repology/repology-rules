@@ -119,6 +119,7 @@
 - { setname: openjdk,                  namepat: "bootstrap-openjdk[0-9.-]*", addflavor: bootstrap }
 - { setname: openjdk,                  namepat: "java[0-9.-]*openjdk" }
 - { setname: openjdk,                  namepat: "java[0-9.-]*openjdk-bootstrap", addflavor: bootstrap }
+- { setname: openjdk,                  name: $0-lts }
 - { setname: openjfx,                  namepat: "(java[0-9.-]*)?openjfx[0-9.-]*", addflavor: bootstrap }
 - { setname: openjpeg,                 name: [openjp2,libopenjpeg2.0,openjpeg-legacy] }
 - { setname: openjpeg,                 namepat: "(?:lib)?openjpeg[0-9]*" }

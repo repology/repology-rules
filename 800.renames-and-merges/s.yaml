@@ -25,6 +25,7 @@
 - { setname: salome,                   name: [salome-geom,salome-gui,salome-hexablock,salome-kernel,salome-med,salome-medcoupling,salome-netgenplugin,salome-paravis,salome-smesh,salome-yacs], addflavor: true }
 - { setname: salt,                     name: "python:salt" }
 - { setname: salt,                     name: [salt-api,salt-master,salt-minion,salt-py3,salt-syndic,saltminion], addflavor: true }
+- { setname: salt,                     name: $0-lts }
 - { setname: salut-a-toi,              name: salutatoi }
 - { setname: salut-a-toi,              name: [sat-jp,sat-media,sat-primitivus,sat-xmpp], addflavor: true }
 - { setname: samba,                    name: samba-docs, addflavor: docs }

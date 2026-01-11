@@ -59,6 +59,7 @@
 - { setname: mariadb,                  namepat: "mariadb[0-9.-]*(clients?|server)?[0-9.-]*", addflavor: $1 }
 - { setname: mariadb,                  name: [libmariadbclient-mainline-noconflict,mariadb-clients-mainline-noconflict], addflavor: true }
 - { setname: mariadb,                  name: [mariadb-galera,mariadb-mainline-noconflict], addflavor: true }
+- { setname: mariadb,                  name: $0-lts }
 - { setname: mariadb-connector-c,      name: [libmariadb, libmariadbclient, mariadb-c-client], ignore: true } # incorrect names, may come from other projects
 - { setname: mariadb-mysql-kbs,        name: "php:williamdes-mariadb-mysql-kbs" } # XXX: problem
 - { setname: mariadb-mytop,            name: mytop, ruleset: arch }
@@ -204,6 +205,7 @@
 - { setname: mediainfo,                name: [mediainfo-gui,mediainfo-cli,mediainfo-gui-hv,mediainfocli,mediainfogui], addflavor: true }
 - { setname: mediastreamer,            name: mediastreamer2 }
 - { setname: mediawiki,                namepat: "mediawiki[0-9.-]+" }
+- { setname: mediawiki,                name: $0-lts }
 - { setname: medit,                    name: [medit-editor, medit-full], addflavor: true }
 - { setname: mednaffe,                 name: mednaffe-gtk2 }
 - { setname: megapixels,               name: $0-gtk3, addflavor: true }

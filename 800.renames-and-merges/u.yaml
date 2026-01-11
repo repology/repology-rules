@@ -53,6 +53,7 @@
 - { setname: unifi,                    namepat: "unifi[0-9.-]+" }
 - { setname: unifi,                    name: [ubiquiti-unifi-controller, unifi-controller] }
 - { setname: unifi,                    name: [unifi-beta, unifi-devel], weak_devel: true, nolegacy: true }
+- { setname: unifi,                    name: $0-lts }
 - { setname: unigine-heaven,           name: linux-unigine-heaven, ruleset: freebsd }
 - { setname: unigine-valley,           name: linux-unigine-valley, ruleset: freebsd }
 - { setname: unison,                   name: unison-upstream, addflavor: true }
