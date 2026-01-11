@@ -31,6 +31,12 @@
 - { name: jitsi,                       vercomps: 1,                                        incorrect: true } # 2.11.5633, not 5633
 - { name: jitsi-meet,                                                                      noscheme: true } # braindead upstream versioning
 - { name: jitsi-videobridge,                                                               noscheme: true } # braindead upstream versioning https://github.com/jitsi/jitsi-videobridge/releases/tag/stable%2Fjitsi-meet_4857
+- { name: jkqtplotter,                 ver: "5.0.0",                 ruleset: rpm,         incorrect: true }
+- { name: jkqtplotter,                                               ruleset: rpm,         untrusted: true } # accused of fake 5.0.0 (fedora, mageia, openmamba)
+- { name: jkqtplotter,                 verpat: ".+20[0-9]{6}",                             snapshot: true }
+- { name: jkqtplotter,                 verpat: ".+20251013",                               sink: true } # 5.0.0-beta1 from 20251014
+- { name: jkqtplotter,                 verpat: "20.*",                                     incorrect: true }
+- { name: jkqtplotter,                 verpat: "2023.*",                                   sink: true }
 - { name: jode,                        verpat: "20[0-9]{6}",                               ignore: true }
 - { name: joe,                         ver: "4.6.0.40514",                                 incorrect: true }
 - { name: joe,                                                       ruleset: winget,      untrusted: true } # accused of fake 4.6.0.40514
