@@ -1,159 +1,159 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { namepat: "perl:(.*)",              ruleset: [gentoo,mageia,rosa,macports,pclinuxos,openmandriva,opensuse], untrusted: true } # perl module name manging
-- { namepat: "perl:(.*)",              verpat: ".*\\+perl[0-9].*",                           incorrect: true }
-- { name: "perl:algorithm-diff",       verpat: "1\\.[0-9]{4}.*",                           incorrect: true } # 1.200, not 1.2000
-- { name: "perl:anyevent",             ver: "7.70.0",                                      ignore: true }
-- { name: "perl:anyevent",             verpat: "7\\.[0-9]{3}.*",                           ignore: true }
-- { name: "perl:app-cli",              verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:app-cpanminus",                                                            noscheme: true } # repository contains two modules with different versioning schemes, so it's messed up in cpan and some repositories
-- { name: "perl:app-perlbrew",         verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
-- { name: "perl:app-tlsme",            ver: "0.110000",                                    ignore: true }
-- { name: "perl:array-diff",           verpat: "0\\.[0-9]{5}.*",                           incorrect: true } # 0.09, not 0.09000
-- { name: "perl:bio-asn1-entrezgene",  verpat: "1\\.[0-9]{3}",                             ignore: true }
-- { name: "perl:bssolv",               ver: "0.37",                  ruleset: openeuler,   incorrect: true }
-- { name: "perl:bssolv",                                             ruleset: openeuler,   untrusted: true } # accused of fake 0.37
-- { name: "perl:business-isbn",        verpat: "20[0-9]{6}",                               incorrect: true }
-- { name: "perl:catalyst-plugin-authentication", ver: "0.100230",                          ignore: true }
-- { name: "perl:catmandu-store-mongodb", ver: ["0.0501","0.0403"],                         ignore: true }
-- { name: "perl:cbor-xs",              ver: [ "1.60", "1.50", "1.30" ],                    ignore: true }
-- { name: "perl:cgi-formbuilder",      ver: [ "3.1000", "3.0900", "3.90.0", "3.0501", "3.0800", "3.100.0", "3.0302" ], incorrect: true }
-- { name: "perl:cgi-simple",           verpat: "1\\.(113|115|130)(\\..*)?",                sink: true }
-- { name: "perl:chi",                  ver: "0.580",                                       ignore: true }
-- { name: "perl:class-accessor-chained", ver: "0.01.1",                                    incorrect: true }
-- { name: "perl:compress-lzf",         verpat: "3.[789]0",                                 ignore: true }
-- { name: "perl:convert-ber",          verpat: "1\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:convert-uulib",        verpat: "1.[0-9]{2}",                               ignore: true } # uses decimal versions, e.g. 1.7 < 1.71 < 1.8; ignore future 2-digit ones...
-- { name: "perl:convert-uulib",        verpat: "1.[1-7][0-9]",                             sink: true } # ...and sink known outdated ones
-- { name: "perl:cpan",                 ver: "2.1600",                                      ignore: true }
-- { name: "perl:cpan-meta-requirements", verpat: "2\\.[0-9]{6}.*",                         ignore: true }
-- { name: "perl:crypt-tea",            verpat: "2\\..*",                                   ignore: true } # actually Crypt::TEA vs. Crypt::Tea
-- { name: "perl:curses-ui-poe",        ver: ["0.04000","0.40.0","0.035","0.35.0"],         ignore: true }
-- { name: "perl:dancer-session-memcached", ver: ["0.2020"],                                ignore: true }
-- { name: "perl:data-compare",         verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
-- { name: "perl:data-munge",           verpat: "0\\.1[0-9]{2}.*",                          incorrect: true }
-- { name: "perl:date-simple",          verpat: "3\\.[0-9]{3}.*",                           incorrect: true } # 3.03, not 3.0300
-- { name: "perl:date-simple",          verpat: "3\\.30\\..*",                              incorrect: true } # 3.03, not 3.30
-- { name: "perl:date-simple",          verpat: "3\\.03[._][0-9]+",                         sink: true } # 3.03_0[123] < 3.03
-- { name: "perl:datetime",             verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
-- { name: "perl:datetime-format-builder", verpat: "0\\.[0-9]{3}.*",                        incorrect: true }
-- { name: "perl:datetime-format-iso8601", verpat: "0\\.[0-9]{4}.*",                        incorrect: true }
-- { name: "perl:datetime-format-iso8601", verge: "0.70",                                   incorrect: true }
-- { name: "perl:datetime-format-mail", verpat: "0\\.[0-9]{4}",                             incorrect: true }
-- { name: "perl:datetime-format-strptime", verpat: "1\\.[0-9]{3}.*",                       incorrect: true }
-- { name: "perl:datetime-locale",      verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
-- { name: "perl:dbd-csv",              verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:dbd-mysql",            verpat: ".*\\+.*", ruleset: aosc,                   devel: true }
-- { name: "perl:dbd-sqlite",           verpat: ".*_.*",                                    devel: true }
-- { name: "perl:dbix-abstract",        verpat: "1\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:devel-stacktrace",     verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:devel-stacktrace",     verpat: "2\\.[1-9][0-9].*",                         ignore: true }
-- { name: "perl:devel-symdump",        verpat: "2\\.[0-9]{3,}.*",                          ignore: true }
-- { name: "perl:device-serialport",    ver: "1.040000",                                    ignore: true }
-- { name: "perl:enum",                 verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
-- { name: "perl:exporter-tiny",        verpat: ".*\\+.*",                                  devel: true } # AOSC devel
-- { name: "perl:extutils-parsexs",     verpat: "3\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:extutils-parsexs",                                   ruleset: fedora,      untrusted: true } # accused of fake 3.39, 3.40
-- { name: "perl:extutils-pkgconfig",   verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
-- { name: "perl:extutils-xspp",        verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:file-listing",         ver: "6.160.0",                                     incorrect: true } # 6.16
-- { name: "perl:file-listing",                                       ruleset: opensuse,    untrusted: true } # accused of fake 6.160.0
-- { name: "perl:file-path",            verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:file-path",            ver: "2.90.0",                                      incorrect: true }
-- { name: "perl:file-rsync",           verge: "0.70",                ruleset: [alpine,slitaz], incorrect: true } # fake File-RsyncP as File-Rsync
-- { name: "perl:file-rsync",                                         ruleset: [alpine,slitaz], untrusted: true } # fake File-RsyncP as File-Rsync
-- { name: "perl:finance-quote",        verpat: "1\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:findbin-libs",         verge: "2.1000", verlt: "2.2100",                   sink: true }
-- { name: "perl:findbin-libs",         verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:gdgraph",              verpat: "1\\.4[34][0-9]{2}.*",                      sink: true }
-- { name: "perl:graph",                ver: "0.20105",                                     sink: true }
-- { name: "perl:html-formfu",          verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:html-formfu",          verge: "2.10",                                      incorrect: true }
-- { name: "perl:html-packer",          verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:html-packer",          verge: "2.30",                                      incorrect: true }
-- { name: "perl:inline-java",          verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:io-compress-brotli",   ver: "0.004001",                                    sink: true }
-- { name: "perl:io-compress-brotli",   ver: "0.019000",                                    incorrect: true }
-- { name: "perl:io-compress-brotli",                                 ruleset: [freebsd,fedora], untrusted: true } # accused of fake 0.012000, 0.017000, 0.019000
-- { name: "perl:io-stty",              ver: ["02","0.30.0"],                               incorrect: true }
-- { name: "perl:io-tty",               verpat: ".*\\+.*",                                  devel: true } # AOSC devel
-- { name: "perl:io-util",              ver: "1.50",                                        incorrect: true }
-- { name: "perl:io-util",                                            ruleset: pkgsrc,      untrusted: true } # accused of fake 1.50
-- { name: "perl:ip-country",           verpat: ".*20[0-9]{6}",                             snapshot: true } # openbsd
-- { name: "perl:jcode",                ver: "2.13",                  ruleset: debuntu,     incorrect: true }
-- { name: "perl:jcode",                                              ruleset: debuntu,     untrusted: true } # accused of fake 2.13
-- { name: "perl:json",                 verpat: "4\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:json-pp",              verpat: "4\\.[0-9]{3}.*",                           incorrect: true } # it's 4.02, not 4.02000
-- { name: "perl:json-pp",              verpat: "4\\.20\\..*",                              incorrect: true } # it's 4.02, not 4.20.0
-- { name: "perl:json-xs",              verpat: "[0-9]+\\.[0-9]{3,}.*",                     incorrect: true }
-- { name: "perl:json-xs",              verpat: "[0-9]+\\.[1-9]0.*",                        incorrect: true }
-- { name: "perl:lwp-protocol-https",   verpat: "(.*?)[._-]?TRIAL",                         setver: $1, devel: true } # XXX: upstream problem
-- { name: "perl:math-pari",                                                                noscheme: true } # random upstream versioning
-- { name: "perl:math-polygon-tree",    ver: "0.0691",                                      ignore: true } # 0.0691 < 0.08 (CPAN versioning brokenness)
-- { name: "perl:module-build",         verpat: "0\\.[0-9]{5}.*",                           incorrect: true }
-- { name: "perl:module-build-tiny",    ver: "0.4231",                ruleset: openmamba,   incorrect: true }
-- { name: "perl:module-build-tiny",                                  ruleset: openmamba,   untrusted: true } # accused of fake 0.4231
-- { name: "perl:module-starter",       verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
-- { name: "perl:module-starter-pbp",   verpat: "0\\.[0-9]{2}.*",                           incorrect: true }
-- { name: "perl:mojolicious",          ver: "8.67.1",                ruleset: sisyphus,    incorrect: true }
-- { name: "perl:mojolicious",                                        ruleset: sisyphus,    untrusted: true } # accuse of fake 8.67.1
-- { name: "perl:mojolicious-plugin-authorization", ver: "1.0301",                          sink: true }
-- { name: "perl:mojolicious-plugin-authorization", verpat: "1\\.[0-9]{3}.*",               incorrect: true }
-- { name: "perl:mon",                  verge: "1",                   ruleset: openbsd,     incorrect: true } # mon-client subpackage, not Mon perl module
-- { name: "perl:moosex-setonce",       verge: "0.1000000", verle: "0.200002",              sink: true }
-- { name: "perl:moosex-setonce",       verpat: "0\\.[0-9]{4}.*",                           incorrect: true }
-- { name: "perl:net-whois-ripe",       ver: "2.005005",                                    sink: true } # < 2.006
-- { name: "perl:object-event",         verpat: "1\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:opengl",               verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:pathtools",            verpat: "3\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:pdl",                  verpat: ".*_[0-9]+",                                devel: true }
-- { name: "perl:pdl",                  verpat: "2.004011_011",                             sink: true }
-- { name: "perl:pdl-io-hdf5",          verpat: "0\\.[0-9]{3,}.*",                          incorrect: true }
-- { name: "perl:perl-ldap",            verpat: "0\\.[0-9]{4}",                             incorrect: true }
-- { name: "perl:pgobject-simple",      ver: "3.000002",                                    sink: true }
-- { name: "perl:pgobject-simple",      verpat: "3\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:pgobject-simple-role", ver: "2.000002",                                    sink: true }
-- { name: "perl:pgobject-simple-role", verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:pod-markdown",         verpat: "3\\.[0-9]{4}.*",                           incorrect: true }
-- { name: "perl:pod2-base",            ver: "0.044_1",                                     devel: true }
-- { name: "perl:poe",                  verpat: "1\\.[0-9]{4}.*",                           incorrect: true }
-- { name: "perl:poe-api-peek",         verpat: "2\\.[0-9]{4}.*",                           incorrect: true }
-- { name: "perl:poe-component-client-http", verpat: "0\\.[0-9]{4}.*",                      incorrect: true }
-- { name: "perl:poe-component-client-keepalive", verpat: "0\\.[0-9]{4}.*",                 incorrect: true }
-- { name: "perl:readonly",             ver: "2.050",                                       ignore: true }
-- { name: "perl:redis",                verpat: "1\\.[0-9]{4,}",                            ignore: true }
-- { name: "perl:rose-html-objects",    ver: "0.6061",                                      incorrect: true } # openbsd garbage
-- { name: "perl:sgmls",                verpat: "1\\.03.*",                                 sink: true }
-- { name: "perl:sgmlspm",              verpat: "1\\.03.*",                                 sink: true }
-- { name: "perl:speech-recognizer-spx", verge: "0.80",                                     incorrect: true }
-- { name: "perl:sphinx-search",        verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
-- { name: "perl:spreadsheet-parseexcel", verpat: "0\\.[0-9]{3}.*",                         incorrect: true }
-- { name: "perl:super",                verpat: "20[0-9]{6}",                               incorrect: true } # it's 1.YYYYMMDD, pisi fake
-- { name: "perl:svn-notify-mirror",    verpat: "0\\.[0-9]{4}.*",                           incorrect: true }
-- { name: "perl:syntax-highlight-perl", ver: "1.01",                 ruleset: openbsd,     incorrect: true } # latest is 1.0; this is actually p5-Syntax-Highlight-Perl-Improved ; XXX: problem
-- { name: "perl:syntax-highlight-perl",                              ruleset: openbsd,     untrusted: true } # accused of fake 1.01
-- { name: "perl:template-toolkit",     ver: "2.51",                  ruleset: t2,          incorrect: true }
-- { name: "perl:template-toolkit",                                   ruleset: t2,          untrusted: true }
-- { name: "perl:test-differences",     verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:test-exception",       verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:test-exit",            ver: "0.097",                                       incorrect: true }
-- { name: "perl:test-number-delta",    verpat: "1\\.[0-9]{3,}",                            ignore: true }
-- { name: "perl:test-reporter",        verpat: "1\\.[0-9]{3}.*",                           incorrect: true } # it's 1.62, not 1.6200 or 1.620.0
-- { name: "perl:test-trap",            verpat: "v(.*)",                                    setver: "$1" }
-- { name: "perl:text-autoformat",      verpat: "1\\.[0-9]{3}.*",                           incorrect: true } # 1.75, not 1.750000 or 1.750
-- { name: "perl:text-autoformat",      verpat: "1\\.6[67].*",                              sink: true }
-- { name: "perl:time-duration",        verpat: "1\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:time-local",           verpat: "[0-9]+\\.[0-9]{3}.*",                      incorrect: true } # 1.35
-- { name: "perl:time-local",           verge: "1.100", verlt: "1.350",                     sink: true } # latest is 1.35
-- { name: "perl:time-local",           verge: "1.1000", verlt: "1.3500",                   sink: true } # latest is 1.35
-- { name: "perl:timedate",             verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
-- { name: "perl:tree-simple-view",     verpat: "0\\.[0-9]{3}.*",                           incorrect: true } # it's 0.19, not 0.190.0 or 0.190000
-- { name: "perl:ups-nut",              ver: "2.8.3",                 ruleset: pkgsrc,      incorrect: true }
-- { name: "perl:ups-nut",                                            ruleset: pkgsrc,      untrusted: true } # accused of fake 2.8.3
-- { name: "perl:urpm",                                                                     ignore: false } # seem to not be mangled
-- { name: "perl:uuid-tiny",            releq: "1", vergt: "1.30",                          incorrect: true }
-- { name: "perl:xml-namespacesupport", verpat: ".*\\+.*",                                  devel: true } # AOSC devel
-- { name: "perl:xml-parser",           ver: "2.44.01",                                     devel: true } # marked as developer release on cpan
-- { name: "perl:xml-rss-feed",         ver: ["2.212","2.32"],                              sink: true } # 2.212 < 2.32 < 2.4
-- { name: "perl:xml-rss-feed",         ver: "2.40",                                        incorrect: true } # it's 2.4
-- { name: "perl:yaml-libyaml",         ver: "0.71",                  ruleset: [ sisyphus ], ignore: true } # 0.71 wasn't an authorised release
+- { namepat: "perl:(.*)",              verpat: ".*\\+perl[0-9].*",                         incorrect: true }
+- { name: perl:algorithm-diff,         verpat: "1\\.[0-9]{4}.*",                           incorrect: true } # 1.200, not 1.2000
+- { name: perl:anyevent,               ver: "7.70.0",                                      ignore: true }
+- { name: perl:anyevent,               verpat: "7\\.[0-9]{3}.*",                           ignore: true }
+- { name: perl:app-cli,                verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:app-cpanminus,                                                              noscheme: true } # repository contains two modules with different versioning schemes, so it's messed up in cpan and some repositories
+- { name: perl:app-perlbrew,           verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
+- { name: perl:app-tlsme,              ver: "0.110000",                                    ignore: true }
+- { name: perl:array-diff,             verpat: "0\\.[0-9]{5}.*",                           incorrect: true } # 0.09, not 0.09000
+- { name: perl:bio-asn1-entrezgene,    verpat: "1\\.[0-9]{3}",                             ignore: true }
+- { name: perl:bssolv,                 ver: "0.37",                  ruleset: openeuler,   incorrect: true }
+- { name: perl:bssolv,                                               ruleset: openeuler,   untrusted: true } # accused of fake 0.37
+- { name: perl:business-isbn,          verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: perl:catalyst-plugin-authentication, ver: "0.100230",                            ignore: true }
+- { name: perl:catmandu-store-mongodb, ver: ["0.0501","0.0403"],                           ignore: true }
+- { name: perl:cbor-xs,                ver: [ "1.60", "1.50", "1.30" ],                    ignore: true }
+- { name: perl:cgi-formbuilder,        ver: [ "3.1000", "3.0900", "3.90.0", "3.0501", "3.0800", "3.100.0", "3.0302" ], incorrect: true }
+- { name: perl:cgi-simple,             verpat: "1\\.(113|115|130)(\\..*)?",                sink: true }
+- { name: perl:chi,                    ver: "0.580",                                       ignore: true }
+- { name: perl:class-accessor-chained, ver: "0.01.1",                                      incorrect: true }
+- { name: perl:compress-lzf,           verpat: "3.[789]0",                                 ignore: true }
+- { name: perl:convert-ber,            verpat: "1\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:convert-uulib,          verpat: "1.[0-9]{2}",                               ignore: true } # uses decimal versions, e.g. 1.7 < 1.71 < 1.8; ignore future 2-digit ones...
+- { name: perl:convert-uulib,          verpat: "1.[1-7][0-9]",                             sink: true } # ...and sink known outdated ones
+- { name: perl:cpan,                   ver: "2.1600",                                      ignore: true }
+- { name: perl:cpan-meta-requirements, verpat: "2\\.[0-9]{6}.*",                           ignore: true }
+- { name: perl:crypt-tea,              verpat: "2\\..*",                                   ignore: true } # actually Crypt::TEA vs. Crypt::Tea
+- { name: perl:curses-ui-poe,          ver: ["0.04000","0.40.0","0.035","0.35.0"],         ignore: true }
+- { name: perl:dancer-session-memcached, ver: ["0.2020"],                                  ignore: true }
+- { name: perl:data-compare,           verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
+- { name: perl:data-munge,             verpat: "0\\.1[0-9]{2}.*",                          incorrect: true }
+- { name: perl:date-simple,            verpat: "3\\.[0-9]{3}.*",                           incorrect: true } # 3.03, not 3.0300
+- { name: perl:date-simple,            verpat: "3\\.30\\..*",                              incorrect: true } # 3.03, not 3.30
+- { name: perl:date-simple,            verpat: "3\\.03[._][0-9]+",                         sink: true } # 3.03_0[123] < 3.03
+- { name: perl:datetime,               verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
+- { name: perl:datetime-format-builder, verpat: "0\\.[0-9]{3}.*",                          incorrect: true }
+- { name: perl:datetime-format-iso8601, verpat: "0\\.[0-9]{4}.*",                          incorrect: true }
+- { name: perl:datetime-format-iso8601, verge: "0.70",                                     incorrect: true }
+- { name: perl:datetime-format-mail, verpat: "0\\.[0-9]{4}",                               incorrect: true }
+- { name: perl:datetime-format-strptime, verpat: "1\\.[0-9]{3}.*",                         incorrect: true }
+- { name: perl:datetime-locale,        verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
+- { name: perl:dbd-csv,                verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:dbd-mysql,              verpat: ".*\\+.*", ruleset: aosc,                   devel: true }
+- { name: perl:dbd-sqlite,             verpat: ".*_.*",                                    devel: true }
+- { name: perl:dbix-abstract,          verpat: "1\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:devel-stacktrace,       verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:devel-stacktrace,       verpat: "2\\.[1-9][0-9].*",                         ignore: true }
+- { name: perl:devel-symdump,          verpat: "2\\.[0-9]{3,}.*",                          ignore: true }
+- { name: perl:device-serialport,      ver: "1.040000",                                    ignore: true }
+- { name: perl:enum,                   verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
+- { name: perl:exporter-tiny,          verpat: ".*\\+.*",                                  devel: true } # AOSC devel
+- { name: perl:extutils-parsexs,       verpat: "3\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:extutils-parsexs,                                     ruleset: fedora,      untrusted: true } # accused of fake 3.39, 3.40
+- { name: perl:extutils-pkgconfig,     verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
+- { name: perl:extutils-xspp,          verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:file-listing,           ver: "6.160.0",                                     incorrect: true } # 6.16
+- { name: perl:file-listing,                                         ruleset: opensuse,    untrusted: true } # accused of fake 6.160.0
+- { name: perl:file-path,              verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:file-path,              ver: "2.90.0",                                      incorrect: true }
+- { name: perl:file-rsync,             verge: "0.70",                ruleset: [alpine,slitaz], incorrect: true } # fake File-RsyncP as File-Rsync
+- { name: perl:file-rsync,                                           ruleset: [alpine,slitaz], untrusted: true } # fake File-RsyncP as File-Rsync
+- { name: perl:finance-quote,          verpat: "1\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:findbin-libs,           verge: "2.1000", verlt: "2.2100",                   sink: true }
+- { name: perl:findbin-libs,           verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:gdgraph,                verpat: "1\\.4[34][0-9]{2}.*",                      sink: true }
+- { name: perl:graph,                  ver: "0.20105",                                     sink: true }
+- { name: perl:html-formfu,            verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:html-formfu,            verge: "2.10",                                      incorrect: true }
+- { name: perl:html-packer,            verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:html-packer,            verge: "2.30",                                      incorrect: true }
+- { name: perl:inline-java,            verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:io-compress-brotli,     ver: "0.004001",                                    sink: true }
+- { name: perl:io-compress-brotli,     ver: "0.019000",                                    incorrect: true }
+- { name: perl:io-compress-brotli,                                   ruleset: [freebsd,fedora], untrusted: true } # accused of fake 0.012000, 0.017000, 0.019000
+- { name: perl:io-stty,                ver: ["02","0.30.0"],                               incorrect: true }
+- { name: perl:io-tty,                 verpat: ".*\\+.*",                                  devel: true } # AOSC devel
+- { name: perl:io-util,                ver: "1.50",                                        incorrect: true }
+- { name: perl:io-util,                                              ruleset: pkgsrc,      untrusted: true } # accused of fake 1.50
+- { name: perl:ip-country,             verpat: ".*20[0-9]{6}",                             snapshot: true } # openbsd
+- { name: perl:jcode,                  ver: "2.13",                  ruleset: debuntu,     incorrect: true }
+- { name: perl:jcode,                                                ruleset: debuntu,     untrusted: true } # accused of fake 2.13
+- { name: perl:json,                   verpat: "4\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:json-pp,                verpat: "4\\.[0-9]{3}.*",                           incorrect: true } # it's 4.02, not 4.02000
+- { name: perl:json-pp,                verpat: "4\\.20\\..*",                              incorrect: true } # it's 4.02, not 4.20.0
+- { name: perl:json-xs,                verpat: "[0-9]+\\.[0-9]{3,}.*",                     incorrect: true }
+- { name: perl:json-xs,                verpat: "[0-9]+\\.[1-9]0.*",                        incorrect: true }
+- { name: perl:lwp-protocol-https,     verpat: "(.*?)[._-]?TRIAL",                         setver: $1, devel: true } # XXX: upstream problem
+- { name: perl:math-pari,                                                                  noscheme: true } # random upstream versioning
+- { name: perl:math-polygon-tree,      ver: "0.0691",                                      ignore: true } # 0.0691 < 0.08 (CPAN versioning brokenness)
+- { name: perl:module-build,           verpat: "0\\.[0-9]{5}.*",                           incorrect: true }
+- { name: perl:module-build-tiny,      ver: "0.4231",                ruleset: openmamba,   incorrect: true }
+- { name: perl:module-build-tiny,                                    ruleset: openmamba,   untrusted: true } # accused of fake 0.4231
+- { name: perl:module-starter,         verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
+- { name: perl:module-starter-pbp,     verpat: "0\\.[0-9]{2}.*",                           incorrect: true }
+- { name: perl:mojolicious,            ver: "8.67.1",                ruleset: sisyphus,    incorrect: true }
+- { name: perl:mojolicious,                                          ruleset: sisyphus,    untrusted: true } # accuse of fake 8.67.1
+- { name: perl:mojolicious-plugin-authorization, ver: "1.0301",                            sink: true }
+- { name: perl:mojolicious-plugin-authorization, verpat: "1\\.[0-9]{3}.*",                 incorrect: true }
+- { name: perl:mon,                    verge: "1",                   ruleset: openbsd,     incorrect: true } # mon-client subpackage, not Mon perl module
+- { name: perl:moosex-setonce,         verge: "0.1000000", verle: "0.200002",              sink: true }
+- { name: perl:moosex-setonce,         verpat: "0\\.[0-9]{4}.*",                           incorrect: true }
+- { name: perl:net-whois-ripe,         ver: "2.005005",                                    sink: true } # < 2.006
+- { name: perl:object-event,           verpat: "1\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:opengl,                 verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:pathtools,              verpat: "3\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:pdl,                    verpat: ".*_[0-9]+",                                devel: true }
+- { name: perl:pdl,                    verpat: "2.004011_011",                             sink: true }
+- { name: perl:pdl-io-hdf5,            verpat: "0\\.[0-9]{3,}.*",                          incorrect: true }
+- { name: perl:perl-ldap,              verpat: "0\\.[0-9]{4}",                             incorrect: true }
+- { name: perl:pgobject-simple,        ver: "3.000002",                                    sink: true }
+- { name: perl:pgobject-simple,        verpat: "3\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:pgobject-simple-role,   ver: "2.000002",                                    sink: true }
+- { name: perl:pgobject-simple-role,   verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:pod-markdown,           verpat: "3\\.[0-9]{4}.*",                           incorrect: true }
+- { name: perl:pod2-base,              ver: "0.044_1",                                     devel: true }
+- { name: perl:poe,                    verpat: "1\\.[0-9]{4}.*",                           incorrect: true }
+- { name: perl:poe-api-peek,           verpat: "2\\.[0-9]{4}.*",                           incorrect: true }
+- { name: perl:poe-component-client-http, verpat: "0\\.[0-9]{4}.*",                        incorrect: true }
+- { name: perl:poe-component-client-keepalive, verpat: "0\\.[0-9]{4}.*",                   incorrect: true }
+- { name: perl:readonly,               ver: "2.050",                                       ignore: true }
+- { name: perl:redis,                  verpat: "1\\.[0-9]{4,}",                            ignore: true }
+- { name: perl:rose-html-objects,      ver: "0.6061",                                      incorrect: true } # openbsd garbage
+- { name: perl:sgmls,                  verpat: "1\\.03.*",                                 sink: true }
+- { name: perl:sgmlspm,                verpat: "1\\.03.*",                                 sink: true }
+- { name: perl:speech-recognizer-spx,  verge: "0.80",                                      incorrect: true }
+- { name: perl:sphinx-search,          verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
+- { name: perl:spreadsheet-parseexcel, verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:super,                  verpat: "20[0-9]{6}",                               incorrect: true } # it's 1.YYYYMMDD, pisi fake
+- { name: perl:svn-notify-mirror,      verpat: "0\\.[0-9]{4}.*",                           incorrect: true }
+- { name: perl:syntax-highlight-perl,   ver: "1.01",                 ruleset: openbsd,     incorrect: true } # latest is 1.0; this is actually p5-Syntax-Highlight-Perl-Improved ; XXX: problem
+- { name: perl:syntax-highlight-perl,                                ruleset: openbsd,     untrusted: true } # accused of fake 1.01
+- { name: perl:template-toolkit,       ver: "2.51",                  ruleset: t2,          incorrect: true }
+- { name: perl:template-toolkit,                                     ruleset: t2,          untrusted: true }
+- { name: perl:test-differences,       verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:test-exception,         verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:test-exit,              ver: "0.097",                                       incorrect: true }
+- { name: perl:test-number-delta,      verpat: "1\\.[0-9]{3,}",                            ignore: true }
+- { name: perl:test-reporter,          verpat: "1\\.[0-9]{3}.*",                           incorrect: true } # it's 1.62, not 1.6200 or 1.620.0
+- { name: perl:test-trap,              verpat: "v(.*)",                                    setver: "$1" }
+- { name: perl:text-autoformat,        verpat: "1\\.[0-9]{3}.*",                           incorrect: true } # 1.75, not 1.750000 or 1.750
+- { name: perl:text-autoformat,        verpat: "1\\.6[67].*",                              sink: true }
+- { name: perl:time-duration,          verpat: "1\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:time-local,             verpat: "[0-9]+\\.[0-9]{3}.*",                      incorrect: true } # 1.35
+- { name: perl:time-local,             verge: "1.100", verlt: "1.350",                     sink: true } # latest is 1.35
+- { name: perl:time-local,             verge: "1.1000", verlt: "1.3500",                   sink: true } # latest is 1.35
+- { name: perl:timedate,               verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:tree-simple-view,       verpat: "0\\.[0-9]{3}.*",                           incorrect: true } # it's 0.19, not 0.190.0 or 0.190000
+- { name: perl:ups-nut,                ver: "2.8.3",                 ruleset: pkgsrc,      incorrect: true }
+- { name: perl:ups-nut,                                              ruleset: pkgsrc,      untrusted: true } # accused of fake 2.8.3
+- { name: perl:urpm,                                                                       ignore: false } # seem to not be mangled
+- { name: perl:uuid-tiny,              releq: "1", vergt: "1.30",                          incorrect: true }
+- { name: perl:xml-namespacesupport,   verpat: ".*\\+.*",                                  devel: true } # AOSC devel
+- { name: perl:xml-parser,             ver: "2.44.01",                                     devel: true } # marked as developer release on cpan
+- { name: perl:xml-rss-feed,           ver: ["2.212","2.32"],                              sink: true } # 2.212 < 2.32 < 2.4
+- { name: perl:xml-rss-feed,           ver: "2.40",                                        incorrect: true } # it's 2.4
+- { name: perl:yaml-libyaml,           ver: "0.71",                  ruleset: [ sisyphus ], ignore: true } # 0.71 wasn't an authorised release
