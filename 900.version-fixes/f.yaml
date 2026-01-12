@@ -59,9 +59,6 @@
 - { name: ffdiaporama,                                               ruleset: [mageia],    untrusted: true } # accused of fake 2.1.9.devel.2014.0701
 - { name: ffdiaporama,                 ver: "2.2.D759",              ruleset: [aur],       incorrect: true }
 - { name: ffdiaporama,                                               ruleset: [aur],       untrusted: true } # accused of fake 2.2.D759
-- { name: "ffext:ublock-origin",       verpat: ".*b.*",                                    devel: true }
-- { name: "ffext:ublock-origin",       ver: "1.23.1b3",                                    incorrect: true } # no such version, latest https://github.com/gorhill/uBlock/releases/tag/1.23.1rc1
-- { name: "ffext:ublock-origin",       verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true }
 - { name: ffmpeg,                      verpat: "[0-9]{2}.*",                               incorrect: true }
 - { name: ffmpeg,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # openbsd, chocolatey, pkgsrc
 - { name: ffmpeg,                      ver: "4.2.3",                 ruleset: aur,         incorrect: true } # fake
@@ -96,6 +93,9 @@
 - { name: firefox,                                                   ruleset: freebsd,     untrusted: true } # accused of faking RCs as releases
 - { name: firefox,                                                   ruleset: ubuntu,      untrusted: true } # accused of faking 75 RC as release
 - { name: firefox,                                                   ruleset: fedora,      untrusted: true } # accused of faking 137 beta as release
+- { name: firefox:ublock-origin,       verpat: ".*b.*",                                    devel: true }
+- { name: firefox:ublock-origin,       ver: "1.23.1b3",                                    incorrect: true } # no such version, latest https://github.com/gorhill/uBlock/releases/tag/1.23.1rc1
+- { name: firefox:ublock-origin,       verpat: "[0-9]+(\\.[0-9]+){3}",                     incorrect: true }
 - { name: firejail,                    verpat: "[0-9]+(\\.[0-9]+){3}", ruleset: freshcode, ignore: true } # there are binary packages with additional _1 component (build?), but tags have 3 component version
 - { name: firmware-mod-kit,            verpat: "20[0-9]{6}",                               snapshot: true } # slitaz
 - { name: firmware-mod-kit,            verpat: "0([1-9][0-9]*)",                           setver: "0.$1" } # blackarch, broken schema

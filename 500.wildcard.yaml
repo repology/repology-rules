@@ -289,13 +289,13 @@
 - { setname: "vscode:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_vscode], namepat: "vscode-extension-(.*)", category: vscode-extensions, ruleset: nix }
 
 # firefox/librewolf extensions
-- { setname: "ffext:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ffext], namepat: "firefox-extension-(.*)" }
-- { setname: "ffext:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ffext], namepat: "firefox-ext-(.*)" }
-- { setname: "ffext:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ffext], namepat: "firefox-esr-extension-(.*)", addflavor: esr }
-- { setname: "ffext:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ffext], namepat: "librewolf-extension-(.*)", addflavor: librewolf }
+- { setname: "firefox:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_firefox], namepat: "firefox-extension-(.*)" }
+- { setname: "firefox:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_firefox], namepat: "firefox-ext-(.*)" }
+- { setname: "firefox:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_firefox], namepat: "firefox-esr-extension-(.*)", addflavor: esr }
+- { setname: "firefox:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_firefox], namepat: "librewolf-extension-(.*)", addflavor: librewolf }
 
 # chrome extensions
-- { setname: "chrext:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_chrext], namepat: "chromium-extension-(.*)" }
+- { setname: "chromium:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_chromium], namepat: "chromium-extension-(.*)" }
 
 # Xemacs
 - { setname: "xemacs:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_xemacs], category: app-xemacs, ruleset: [gentoo, exherbo] }
