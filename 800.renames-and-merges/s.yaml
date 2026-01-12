@@ -282,6 +282,7 @@
 - { setname: sonar-scanner-cli,        name: [sonar-scanner, sonarqube-scanner] }
 - { setname: sonarqube,                name: sonarqube-bin, addflavor: true }
 - { setname: sonarqube,                name: sonarqube-community }
+- { setname: sonarqube,                name: $0-lts }
 - { setname: sonarr,                   name: $0-bin, addflavor: true }
 - { setname: sonarr,                   name: $0-develop, weak_devel: true, nolegacy: true }
 - { setname: sonic,                    name: libsonic }

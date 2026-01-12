@@ -3,6 +3,7 @@
 - { setname: r,                        name: r-lang }
 - { setname: r,                        name: [r-base,r-mkl,r-minimal,librmath,rmath-standalone,r.latest,r.project], addflavor: true }
 - { setname: r3,                       name: libr3 }
+- { setname: r8168,                    name: $0-lts }
 - { setname: ra-multiplex,             name: rust:$0 }
 - { setname: rabbitmq-c,               name: [lib$0, librabbitmq] }
 - { setname: rabbitmq-c,               name: $0-devel, weak_devel: true, nolegacy: true }
@@ -164,6 +165,7 @@
 - { setname: rsync,                    name: [rsync-reflink, rrsync, rsync-ovz], addflavor: true }
 - { setname: rtaudio,                  name: rt-audio }
 - { setname: rtl8814au,                name: rtl8814au-dkms, addflavor: dkms }
+- { setname: rtl8821ce,                name: $0-lts }
 - { setname: rtmpdump,                 name: rtmpdump0 }
 - { setname: rtmpdump,                 name: [librtmp, librtmp0], addflavor: librtmp }
 - { setname: rtodo,                    name: rust:$0 }

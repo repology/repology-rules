@@ -2,6 +2,7 @@
 
 - { setname: subversion,               namepat: "subversion[0-9.-]+" }
 - { setname: subversion,               namepat: "subversion-perlbindings[0-9.-]+", addflavor: perlbindings }
+- { setname: subversion,               name: $0-lts }
 
 - setname: subversion
   name:

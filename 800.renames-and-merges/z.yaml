@@ -3,7 +3,7 @@
 - { setname: z,                        name: [z-dir-jump, comprez, sh-z, posh-z] }
 - { setname: z26,                      name: z26v3 }
 - { setname: zabbix,                   namepat: "zabbix[0-9.-]+" }
-- { setname: zabbix,                   namepat: "zabbix[0-9]*-(agent|agentd|frontend|frontend-php|proxy|server|common|proxy-sqlite|server-mysql|web)[0-9.-]*", addflavor: $1 }
+- { setname: zabbix,                   namepat: "zabbix[0-9]*-(agent|agentd|frontend|frontend-php|proxy|server|common|proxy-sqlite|server-mysql|web)[0-9.-]*(?:-lts)?", addflavor: $1 }
 - { setname: zaproxy,                  name: zaproxy-weekly, weak_devel: true, nolegacy: true }
 - { setname: zatacka-x,                name: zatackax }
 - { setname: zathura,                  name: zathura-with-plugins, addflavor: true }
