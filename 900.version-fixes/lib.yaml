@@ -145,6 +145,8 @@
 - { name: libgnome,                    ver: "2.32.2",                ruleset: opensuse,    incorrect: true }
 - { name: libgnome,                                                  ruleset: opensuse,    untrusted: true }
 - { name: libgnome-games-support,      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: libgnome-keyring,            verpat: ".*_.*",                                    incorrect: true }
+- { name: libgnome-keyring,                                          ruleset: aur,         untrusted: true } # accused of fake 3.12.0_32_43
 - { name: libgnomedb,                  verpat: "[0-9]+\\.99\\..*",                         devel: true }
 - { name: libgnomeui,                  ver: "2.24.6",                ruleset: opensuse,    incorrect: true }
 - { name: libgnomeui,                                                ruleset: opensuse,    untrusted: true }
