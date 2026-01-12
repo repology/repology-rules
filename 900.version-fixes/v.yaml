@@ -92,6 +92,7 @@
 - { name: vlmc,                        verpat: ".*ff",                                     incorrect: true } # not a version, but feature freeze tag
 - { name: vmc-virtual-monte-carlo,                                                         p_is_patch: true }
 - { name: vmd-visual-molecular-dynamics, verpat: ".*a.*",                                  devel: true }
+- { name: vmm-clock,                   verge: "6",                                         incorrect: true }
 - { name: vmware-view-open-client,     verpat: ".*[0-9]{5}",                               ignore: true }
 - { name: vndr,                        verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: vo-aacenc,                   ver: "1.3",                   ruleset: pisi,        incorrect: true }
