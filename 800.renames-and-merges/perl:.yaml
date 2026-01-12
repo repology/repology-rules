@@ -23,3 +23,4 @@
 - { setname: "perl:pdl",               name: "pdl" }
 - { setname: "perl:razor2-client-agent", name: [razor-agents, "perl:razor", "perl:razor-agent", "perl:razor-agents", "razor"] }
 - { setname: "perl:search-xapian",     namepat: "perl:search-xapian[0-9.-]+" }
+- { setname: "perl:term-readkey",      namepat: perl:termreadkey } # same module, dist vs. pod naming
