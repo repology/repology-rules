@@ -38,6 +38,7 @@
 - { setname: olm,                      name: libolm }
 - { setname: olm,                      name: ["python:olm", olm-python3], addflavor: python }
 - { setname: ombi,                     name: [ombi-beta,ombi-dev] }
+- { setname: omegat,                   name: omegat-latest, nolegacy: true }
 - { setname: omlibraries,              name: [omlibrary, openmodelica-omlibraries] }
 - { setname: omnilinter,               name: rust:$0 }
 - { setname: omplot,                   name: openmodelica-omplot }
