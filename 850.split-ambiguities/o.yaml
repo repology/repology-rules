@@ -103,7 +103,10 @@
 - { name: openfoam, wwwpart: openfoam.org, setname: openfoam-org }
 - { name: openfoam, addflag: unclassified }
 
+- { name: openmsx, wwwpart: [github.com/openMSX, https://openmsx.org/], addflag: classified }
+- { name: openmsx, sourceforge: openmsx, setname: openmsx-emulator, addflag: classified }
 - { name: openmsx, wwwpart: openttd, setname: openttd-openmsx }
+- { name: openmsx, addflag: unclassified }
 
 - { name: openssh-askpass, wwwpart: openssh.org, setname: openssh, addflavor: askpass }
 # also some abandonware passphrase dialog apps
