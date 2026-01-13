@@ -124,6 +124,9 @@
 - { name: renderer, wwwpart: grafana, setname: grafana-image-renderer } # XXX: nix problem
 - { name: renderer, addflag: unclassified }
 
+- { name: repeater, wwwpart: shaankhosla, setname: $0-flashcard }
+- { name: repeater, addflag: unclassified }
+
 - { name: rescue, sourceforge: rescue, setname: rescue-max }
 - { name: rescue, addflag: unclassified }
 
