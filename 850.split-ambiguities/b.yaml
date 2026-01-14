@@ -211,6 +211,10 @@
 # neither has alive homepage
 - { name: blueprint, addflag: unclassified }
 
+- { name: bmi, wwwpart: alexkdeveloper, setname: $0-body-mass }
+- { name: bmi, wwwpart: radix-io, setname: $0-pvfs }
+- { name: bmi, addflag: unclassified }
+
 - { name: boa, wwwpart: github.com/boa-dev, setname: boa-js-engine }
 - { name: boa, wwwpart: boa.org, setname: boa-webserver }
 - { name: boa, addflag: unclassified }
