@@ -66,7 +66,6 @@
 - { name: librespot,                   verge: "20000000", verlt: "20200729",               sink: true }
 - { name: libresprite,                 ver: "1.1.7",                                       sink: true } # not a relase, just marks point of fork from aseprite; real versions start from 1.0 https://github.com/LibreSprite/LibreSprite/releases
 - { name: libresprite,                 ver: "1.0.dev",                                     incorrect: true }
-- { name: libressl,                    relgt: "4.0",                                       devel: true, maintenance: true }
 - { name: libretls,                                                                        p_is_patch: true }
 - { name: libudev0-shim,               verpat: "[0-9]{3}",                                 incorrect: true }
 - { name: libvpx,                      ver: "2.0.0",                 ruleset: rosa,        incorrect: true }
