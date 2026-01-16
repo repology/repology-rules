@@ -119,6 +119,7 @@
 - { name: sdl2-ttf,                    ver: "2.19.1",                ruleset: debian,      incorrect: true }
 - { name: sdl2-ttf,                                                  ruleset: debian,      untrusted: true } # accused of fake 2.19.1
 - { name: sdl3,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: sdl3-image,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: sdlmame,                     verpat: "[0-9]{4}",                                 incorrect: true }
 - { name: sdlpop,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: sdlpop,                      verge: "20000000", verlt: "20180324",               sink: true, disposable: true } # openbsd; latest version ATOW 1.18.1 / Mar 24 2018 https://github.com/NagyD/SDLPoP/releases
