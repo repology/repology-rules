@@ -204,6 +204,7 @@
 - { name: knights,                     ver: "2.5.85",                                      incorrect: true } # kaos
 - { name: knights,                     verpat: ".*20[0-9]{6}.*",                           ignore: true } # gentoo
 - { name: knights,                     verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
+- { name: knighttime,                  verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: knock,                       ver: "0.8.1",                 ruleset: alpine,      incorrect: true } # fork
 - { name: knock,                                                     ruleset: alpine,      untrusted: true } # accused of fake 0.8.1
 - { name: knock,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
