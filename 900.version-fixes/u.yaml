@@ -15,10 +15,10 @@
 - { name: ucspi-ssl,                   verpat: "0\\.999.*",                                incorrect: true }
 - { name: ucspi-ssl,                   relge: "0.60", verle: "0.99z",                      sink: true } # 0.9x < 0.10.x
 - { name: udisks,                      verpat: ".+\\.9[0-9]",                              devel: true }
-- { name: uefitool,                    verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: uefitool,                    verge: "20000000", verlt: "20191229",               sink: true }
-- { name: uefitool,                    verpat: "[0-9]{2}",                                 incorrect: true }
-- { name: uefitool,                    verpat: "A[0-9]+",                                  devel: true } # XXX: reorder before 0.xx
+- { name: uefitool,                                                                        sink: true }
+- { name: uefitool,                    verpat: "A[0-9]{2,3}",                              sink: false, devel: true }
+- { name: uefitool,                    verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: uefitool,                    verpat: "[0-9]{2,3}",                               incorrect: true }
 - { name: ufetch,                      ver: "0.1.1",                 ruleset: freebsd,     incorrect: true }
 - { name: ufetch,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 0.1.1
 - { name: ufoai,                       ver: "2.5.0+20150216",                              snapshot: true } # homebrew
