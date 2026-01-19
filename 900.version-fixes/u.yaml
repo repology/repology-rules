@@ -19,6 +19,7 @@
 - { name: uefitool,                    verpat: "A[0-9]{2,3}",                              sink: false, devel: true }
 - { name: uefitool,                    verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: uefitool,                    verpat: "[0-9]{2,3}",                               incorrect: true }
+- { name: uefitool,                    verpat: ".*28.*A.*",                                incorrect: true }
 - { name: ufetch,                      ver: "0.1.1",                 ruleset: freebsd,     incorrect: true }
 - { name: ufetch,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 0.1.1
 - { name: ufoai,                       ver: "2.5.0+20150216",                              snapshot: true } # homebrew
