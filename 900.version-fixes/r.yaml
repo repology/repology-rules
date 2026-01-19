@@ -76,6 +76,8 @@
 - { name: redland,                                                   ruleset: t2,          untrusted: true } # accused of fake 1.0.17.1
 - { name: redshift,                    ver: "1.12.1",                ruleset: deepin,      incorrect: true }
 - { name: redshift,                                                  ruleset: deepin,      untrusted: true } # accused of fake 1.12.1
+- { name: redstore,                    ver: "0.5.5",                 ruleset: yacp,        incorrect: true }
+- { name: redstore,                                                  ruleset: yacp,        untrusted: true } # accused of fake 0.5.5
 - { name: regexxer,                    verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: remake,                      verpat: "([0-9]+\\.){4}[0-9]+",                     incorrect: true }
 - { name: remake,                      verpat: "([0-9]+\\.[0-9]+)[._-]([0-9]+\\.[0-9]+)",  setver: $1+dbg-$2 }
