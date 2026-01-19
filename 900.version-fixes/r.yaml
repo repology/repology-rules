@@ -173,6 +173,7 @@
 - { name: rttr,                                                      ruleset: freebsd,     untrusted: true } # accused of fake 0.9.6.16
 - { name: ruby,                        ver: "2.7.0",                 ruleset: debuntu,     incorrect: true }
 - { name: ruby,                        verpat: ".*p.*",                                    devel: true } # e.g. 3.0.0-preview1
+- { name: ruby-completion,             verpat: "20[0-9]{2}.*",                             sink: true }
 - { namepat: "ruby:.*",                                              ruleset: sisyphus,    untrusted: true } # massive fake versions
 - { name: "ruby:fakeweb",              verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: "ruby:io-like",              verpat: ".*20[0-9]{6}",                             snapshot: true }
