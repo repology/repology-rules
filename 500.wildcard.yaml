@@ -137,7 +137,8 @@
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_lua], namepat: "lua-(.+)", ruleset: [cygwin,openwrt,t2,buildroot] }
 - { setname: "lua:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_lua], namepat: "lua([0-9.]*)-module-(.+?)", ruleset: sisyphus, addflavor: $1 }
 - { setname: "lua:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_lua], namepat: "lua([0-9.]*)-(.+?)", ruleset: macports, addflavor: $1 }
-- { setname: "lua:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_lua], categorypat: "lua([0-9]+|jit)Packages", namepat: "lua((?:jit)?[0-9.]+)-(.+?)", ruleset: nix, addflavor: $1 } # scm bit may be needed here, there seem to be an error of packages versions leaking into package names in nix, https://repology.org/project/luajit0.10-luarepl/versions for example
+- { setname: "lua:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_lua], categorypat: "lua([0-9]+|jit)?Packages", namepat: "lua((?:jit)?[0-9.]+)-(.+?)", ruleset: nix_no_name, addflavor: $1 } # scm bit may be needed here, there seem to be an error of packages versions leaking into package names in nix, https://repology.org/project/luajit0.10-luarepl/versions for example
+- { setname: "lua:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_lua], categorypat: "lua([0-9]+|jit)?Packages", ruleset: nix_name } # TODO: flavor from category
 - { setname: "lua:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_lua], namepat: "lua([0-9]\\.[0-9])-(.+?)", ruleset: [chimera], addflavor: $1 }
 - { setname: "lua:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_lua], namepat: "luajit_(.+)", ruleset: chromebrew, addflavor: luajit }
 
