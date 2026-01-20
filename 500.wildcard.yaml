@@ -177,7 +177,8 @@
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "lib(.*)-perl", ruleset: debuntu }
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "perl-(.*)", ruleset: [adelie,alpine,aosc,arch,chakra,centos,cygwin,fedora,gobolinux,guix,kaos,mageia,nix,openmandriva,opensuse,pclinuxos,ravenports,rosa,sisyphus,slackbuilds,pld,aix,slitaz,openwrt,pisi,void,conda,solus,salix,msys2_msys2,msys2_mingw,msys2_clang64,msys2_clangarm64,msys2_ucrt64,t2,mer,distri,kiss,ataraxia,openmamba,spack,yiffos,glaucus,buildroot,chimera] }
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "perl_(.*)", ruleset: chromebrew }
-- { setname: "perl:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "perl(5[0-9.]+)-(.*)", ruleset: nix, addflavor: $1 }
+- { setname: "perl:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "perl(5[0-9.]+)-(.*)", ruleset: nix_no_name, addflavor: $1 }
+- { setname: "perl:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], category: [perlPackages, perl5Packages], ruleset: nix_name } # TODO: Flavor from category
 - { setname: "perl:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], category: dev-perl, ruleset: [gentoo,exherbo,haikuports] }
 - { setname: "perl:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], category: perl-core, ruleset: [gentoo,exherbo] }
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "(.*)-pm([0-9]{4})?", ruleset: fink, addflavor: $2 }
