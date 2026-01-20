@@ -86,7 +86,7 @@
 
 - { noflag: no_suffix, ruleset: macports,        namepat: "(.*)-devel", setname: $1, weak_devel: true, nolegacy: true }
 
-- { noflag: no_suffix, ruleset: nix,             namepat: "(.*)-unstable", setname: $1, weak_devel: true, nolegacy: true }
+- { noflag: no_suffix, ruleset: nix_no_name,     namepat: "(.*)-unstable", setname: $1, weak_devel: true, nolegacy: true }
 - { noflag: no_suffix, ruleset: nix,             namepat: "(.*)-unwrapped", setname: $1 } # https://github.com/repology/repology-rules/pull/586#issuecomment-1015789670
 
 - { noflag: no_suffix, ruleset: npackd,          namepat: "(.*)-x64", setname: $1, addflavor: "64" }
