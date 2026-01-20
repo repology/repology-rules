@@ -75,7 +75,7 @@
 - { name: upower,                      ver: "1.90.7.13",                                   incorrect: true } # opensuse
 - { name: upower,                                                    ruleset: opensuse,    untrusted: true } # accused of fake 1.90.7.13
 - { name: uqm,                         vereq: "0.7.0.1",                                   setver: "0.7.0" } # only cosmetic changes to source
-- { name: uradvd,                                                                          noscheme: true }
+- { name: uradvd,                      verpat: "20[0-9]{2}[.~]*",                          incorrect: true }
 - { name: urbanterror,                 verpat: "[0-9]+",                                   incorrect: true }
 - { name: urbanterror,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: urlview,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
