@@ -277,6 +277,9 @@
 - { setname: "texlive:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_texlive], namepat: "texlive-(.*)", ruleset: [openmandriva,rosa,guix,centos] }
 - { setname: "texlive:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_texlive], category: texlivePackages, ruleset: nix }
 
+# typst
+- { setname: "typst:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_typst], category: typstPackages, ruleset: nix }
+
 # Vaporsynth
 - { setname: "vapoursynth:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_vapoursynth], namepat: "vapoursynth-plugin-(.*)" }
 - { setname: "vapoursynth:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_vapoursynth], namepat: "vapoursynth-(.*)" }

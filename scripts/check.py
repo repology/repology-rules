@@ -263,6 +263,7 @@ flags = [
     'not_ruby',
     'not_rust',
     'not_texlive',
+    'not_typst',
     'not_unmingw',
     'not_vapoursynth',
     'not_vdr',
