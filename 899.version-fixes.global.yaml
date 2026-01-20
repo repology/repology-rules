@@ -56,7 +56,6 @@
 - { category: "elmPackages", namepat: "elm-.*",                      ruleset: nix,         addflag: classified_category }
 - { category: "idrisPackages", namepat: "idris-.*",                  ruleset: nix,         addflag: classified_category }
 - { category: "kdePackages",                                         ruleset: nix,         addflag: classified_category }
-- { category: "kodiPackages",                                        ruleset: nix,         addflag: classified_category }
 - { categorypat: "llvmPackages[0-9_]*",                              ruleset: nix,         addflag: classified_category }
 - { category: "pidginPackages",                                      ruleset: nix,         addflag: classified_category }
 - { categorypat: "postgresql(?:[0-9]+)?(?:Jit)?Packages",            ruleset: nix,         addflag: classified_category }

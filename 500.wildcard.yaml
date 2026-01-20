@@ -127,6 +127,10 @@
 # Kubernetes
 - { setname: "kubernetes:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_kubernetes], category: kubernetes, ruleset: exherbo }
 
+# Kodi
+- { setname: "kodi:$1", addflag: wconce, noflag: [wconce,not_wildcard], namepat: "kodi-(.*)", category: kodiPackages, ruleset: nix_no_name }
+- { setname: "kodi:$0", addflag: wconce, noflag: [wconce,not_wildcard], category: kodiPackages, ruleset: nix_name }
+
 # Lisp
 - { setname: "lisp:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_lisp], category: lispPackages, namepat: "lisp-(.+)", ruleset: nix }
 - { setname: "lisp:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_lisp], category: quicklispPackagesClisp, namepat: "lisp-(.+)", ruleset: nix }
