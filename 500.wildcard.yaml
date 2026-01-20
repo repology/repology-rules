@@ -286,7 +286,8 @@
 
 # vim
 - { setname: "vim:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_vim], category: app-vim, ruleset: [gentoo, exherbo] }
-- { setname: "vim:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_vim], namepat: "vimplugin-(.*)", category: vimPlugins, ruleset: nix }
+- { setname: "vim:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_vim], namepat: "vimplugin-(.*)", category: vimPlugins, ruleset: nix_no_name }
+- { setname: "vim:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_vim], category: vimPlugins, ruleset: nix_name }
 
 # vscode
 - { setname: "vscode:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_vscode], namepat: "vscode-extension-(.*)", category: vscode-extensions, ruleset: nix }
