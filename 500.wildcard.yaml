@@ -77,6 +77,7 @@
 - { setname: "ghidra:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ghidra], namepat: "ghidra-extension-(.*)" }
 
 # Gimp
+- { setname: "gimp:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_gimp], category: [gimpPlugins, gimp2Plugins], ruleset: nix_name }
 - { setname: "gimp:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_gimp], namepat: "glimpse-plugin-(.*)", addflavor: glimpse }
 - { setname: "gimp:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_gimp], namepat: "gimp-plugin-(.*)" }
 - { setname: "gimp:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_gimp], namepat: "gimp-script-(.*)" }
