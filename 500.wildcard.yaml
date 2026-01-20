@@ -239,7 +239,8 @@
 - { setname: "r:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_r], ruleset: gentoo, category: dev-r } # only encountered in GURU overlay yet
 - { setname: "r:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_r], namepat: "r-cran-(.*)", ruleset: [ freebsd, debuntu, arch, pclinuxos, mageia, pld, void ] }
 - { setname: "r:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_r], namepat: "r-bioc-(.*)", ruleset: [ debuntu ] }
-- { setname: "r:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_r], namepat: "r-(.*)",      ruleset: [ pkgsrc, fedora, guix, arch, debuntu, rosa, sisyphus, opensuse, nix, pld, conda, ravenports, spack, macports ] }
+- { setname: "r:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_r], namepat: "r-(.*)",      ruleset: [ pkgsrc, fedora, guix, arch, debuntu, rosa, sisyphus, opensuse, nix_no_name, pld, conda, ravenports, spack, macports ] }
+- { setname: "r:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_r], category: rPackages,    ruleset: nix_name }
 - { setname: "r:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_r], namepat: "(?:cran-)?(.*?)-r([0-9]{2})?", ruleset: fink, addflavor: $2 }
 
 # Raku
