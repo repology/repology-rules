@@ -8,6 +8,7 @@
 - { setname: boost,                    name: [boost-base, boost-legacy-base], addflavor: base }
 - { setname: boost,                    name: libboost }
 
+# variants
 - setname: boost
   name:
     - boost-all
@@ -33,8 +34,11 @@
     - percona-boost
   addflavor: true
 
+# sublibs
+# https://www.boost.org/libraries/latest/
 - setname: boost
   name:
+    - boost-accumulators
     - boost-algorithm
     - boost-align
     - boost-any
@@ -46,22 +50,28 @@
     - boost-beast
     - boost-bimap
     - boost-bind
+    - boost-bloom
     - boost-callable-traits
+    - boost-charconv
     - boost-chrono
     - boost-circular-buffer
+    - boost-cobalt
     - boost-compatibility
     - boost-compute
     - boost-concept-check
     - boost-config
     - boost-container
-    - boost-contextboost-conversion
+    - boost-container-hash
+    - boost-context
     - boost-contract
+    - boost-conversion
     - boost-convert
     - boost-core
     - boost-coroutine
     - boost-coroutine2
     - boost-crc
     - boost-date-time
+    - boost-describe
     - boost-detail
     - boost-disjoint-sets
     - boost-dll
@@ -70,17 +80,22 @@
     - boost-exception
     - boost-fiber
     - boost-filesystem
-    - boost-flyweightboost-foreach
+    - boost-flyweight
+    - boost-foreach
     - boost-format
     - boost-function
-    - boost-function-typesboost-functional
+    - boost-function-types
+    - boost-functional
     - boost-fusion
     - boost-geometry
     - boost-gil
     - boost-graph
     - boost-graph-parallel
     - boost-hana
+    - boost-hash2
     - boost-heap
+    - boost-histogram
+    - boost-hof
     - boost-icl
     - boost-integer
     - boost-interprocess
@@ -89,7 +104,9 @@
     - boost-io
     - boost-iostreams
     - boost-iterator
+    - boost-json
     - boost-lambda
+    - boost-lambda2
     - boost-lexical-cast
     - boost-local-function
     - boost-locale
@@ -98,16 +115,25 @@
     - boost-logic
     - boost-math
     - boost-metaparse
-    - boost-moveboost-mp11
+    - boost-move
+    - boost-mp11
+    - boost-mpi
     - boost-mpl
+    - boost-mqtt5
     - boost-msm
     - boost-multi-array
     - boost-multi-index
     - boost-multiprecision
+    - boost-mysql
     - boost-numeric-conversion
     - boost-odeint
+    - boost-openmethod
     - boost-optional
+    - boost-outcome
     - boost-parameter
+    - boost-parameter-python
+    - boost-parser
+    - boost-pfr
     - boost-phoenix
     - boost-poly-collection
     - boost-polygon
@@ -117,14 +143,19 @@
     - boost-process
     - boost-program-options
     - boost-property-map
-    - boost-property-treeboost-proto
+    - boost-property-map-parallel
+    - boost-property-tree
+    - boost-proto
     - boost-ptr-container
     - boost-qvm
     - boost-random
     - boost-range
     - boost-ratio
     - boost-rational
+    - boost-redis
     - boost-regex
+    - boost-safe-numerics
+    - boost-scope
     - boost-scope-exit
     - boost-serialization
     - boost-signals
@@ -135,6 +166,8 @@
     - boost-stacktrace
     - boost-statechart
     - boost-static-assert
+    - boost-static-string
+    - boost-stl-interfaces
     - boost-system
     - boost-test
     - boost-thread
@@ -150,11 +183,14 @@
     - boost-ublas
     - boost-units
     - boost-unordered
+    - boost-url
     - boost-utility
     - boost-uuid
     - boost-variant
+    - boost-variant2
     - boost-vmd
     - boost-wave
     - boost-winapi
     - boost-xpressive
+    - boost-yap
   addflavor: true
