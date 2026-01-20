@@ -64,7 +64,7 @@
 - { categorypat: "python[0-9]+Packages",                             ruleset: nix,         addflag: classified_category } # python [apps], not covered by python wildcard rule
 - { category: "qt6Packages",                                         ruleset: nix,         addflag: classified_category }
 - { categorypat: ".*", flag: wconce,                                 ruleset: nix,         addflag: classified_category }
-- { categorypat: ".*Packages.*", noflag: classified_category,        ruleset: nix,         setname: $0-unclassified }
+- { categorypat: ".*([Pp]ackages|[Ee]xtensions|[Pp]lugins).*", noflag: classified_category, ruleset: nix, setname: $0-unclassified }
 
 # other global rules
 - { verpat: ".*20[0-9]{6}T[0-9]{6}\\.[0-9a-f]{7}",                   ruleset: opensuse,    ignore: true }
