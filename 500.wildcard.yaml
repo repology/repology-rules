@@ -160,8 +160,9 @@
 - { setname: "node:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_node], namepat: "nodejs-(.*)", ruleset: [arch,chakra,fedora,mageia,rosa,sisyphus,opensuse,pld,centos] }
 
 # Ocaml
-- { setname: "ocaml:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_ocaml], category: ocamlPackages, namepat: "(ocaml[0-9.]+)-(.*?)", ruleset: nix, addflavor: $1 }
-- { setname: "ocaml:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_ocaml], category: ocamlPackages, ruleset: nix }
+- { setname: "ocaml:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_ocaml], category: ocamlPackages, namepat: "(ocaml[0-9.]+)-(.*?)", ruleset: nix_no_name, addflavor: $1 }
+- { setname: "ocaml:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_ocaml], category: ocamlPackages, namepat: "(ocaml[0-9.]+)-(.*?)", ruleset: nix_name, addflavor: $1 } # XXX: temp?
+- { setname: "ocaml:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_ocaml], category: [ocamlPackages, ocamlPackages_latest], ruleset: nix_name }
 - { namepat: "ocaml([0-9.]*)-(.*)", addflag: wconce, noflag: [wconce,not_wildcard,not_ocaml], setname: "ocaml:$2", addflavor: "$1" }
 - { setname: "ocaml:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_ocaml], category: dev-ocaml, ruleset: exherbo }
 - { setname: "ocaml:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_ocaml], category: dev-ml, ruleset: gentoo }
