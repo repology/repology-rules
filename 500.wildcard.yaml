@@ -172,6 +172,7 @@
 - { setname: "ocaml:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_ocaml], category: dev-ml, ruleset: gentoo }
 
 # Octave
+- { setname: "octave:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_octave], category: octavePackages, ruleset: nix }
 - { setname: "octave:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_octave], category: dev-octave, ruleset: gentoo }
 - { setname: "octave:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_octave], namepat: "octave-forge-(.*)", ruleset: [ freebsd, opensuse ] }
 - { setname: "octave:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_octave], namepat: "octave-(.*)", ruleset: [ arch, cygwin, debuntu, fedora, macports, rosa, sisyphus, spack, openmandriva ] }
