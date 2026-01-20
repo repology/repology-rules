@@ -268,7 +268,7 @@
 - { setname: "ruby:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_ruby], namepat: "rb-(.*)", ruleset: conda }
 
 # Rust
-- { setname: "rust:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_rust], namepat: "rust-(.*)", ruleset: [ arch,debuntu,fedora,nix,sisyphus,guix,openmandriva,mageia,centos ] }
+- { setname: "rust:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_rust], namepat: "rust-(.*)", ruleset: [ arch,debuntu,fedora,sisyphus,guix,openmandriva,mageia,centos ] }
 
 # Texlive
 - { setname: "texlive:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_texlive], namepat: "tex-(.*)-doc", ruleset: pkgsrc, addflavor: doc }
