@@ -56,6 +56,10 @@
 - { setname: "erlang:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_erlang], category: dev-erlang, ruleset: [ gentoo, exherbo ] }
 - { setname: "erlang:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_erlang], namepat: "erlang-(.*)" }
 
+# Fish
+- { setname: "fish:$1", addflag: wconce, noflag: [wconce,not_wildcard], namepat: "fishplugin-(.*)", category: fishPlugins, ruleset: nix_no_name }
+- { setname: "fish:$0", addflag: wconce, noflag: [wconce,not_wildcard], category: fishPlugins, ruleset: nix_name }
+
 # Fortunes
 - { setname: "fortunes:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_fortunes], namepat: "fortune-mod-(.*)" }
 - { setname: "fortunes:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_fortunes], namepat: "fortunes-(.*)" }
