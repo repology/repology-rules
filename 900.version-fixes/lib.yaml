@@ -190,8 +190,8 @@
 - { name: libiscsi,                    ver: "1.20.0.240205",         ruleset: freebsd,     incorrect: true }
 - { name: libiscsi,                                                  ruleset: freebsd,     untrusted: true } # accused of fake 1.20.0.240205
 - { name: libisofs,                                                  ruleset: sisyphus,    untrusted: true } # accused of fale 1.4.9
-- { name: libisofs,                    ver: "1.5.6.1",               ruleset: chimera,     incorrect: true }
-- { name: libisofs,                                                  ruleset: chimera,     untrusted: true } # accused of fake 1.5.6.1
+- { name: libisofs,                    ver: "1.5.6.1",                                     incorrect: true }
+- { name: libisofs,                                                  ruleset: [arch,chimera], untrusted: true } # accused of fake 1.5.6.1
 - { name: libixp,                      ver: "0.6",                   ruleset: [pclinuxos,rpmsphere], incorrect: true }
 - { name: libixp,                                                    ruleset: [pclinuxos,rpmsphere], untrusted: true } # accused of fake 0.6
 - { name: libjpeg-thorfdbg,                                                                noscheme: true }
