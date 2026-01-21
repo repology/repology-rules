@@ -46,6 +46,10 @@
 - { name: bar, wwwpart: theiling,                         addflag: theiling }
 - { name: bar, noflag: theiling,                          setname: clpbar }
 
+- { name: bark, wwwpart: haileys, setname: $0-audio-streaming }
+- { name: bark, wwwpart: twig-energy, setname: $0-datadog-client }
+- { name: bark, addflag: unclassified }
+
 - { name: base, wwwpart: secureideas, setname: acidbase }
 - { name: base, wwwpart: [archlinux,msys2,parabola], remove: true } # metapackage
 - { name: base, addflag: unclassified }
