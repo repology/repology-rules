@@ -132,6 +132,8 @@
 - { name: mfcuk,                                                     ruleset: termux,      untrusted: true } # accused of fake 2018.07.14
 - { name: mg,                                                                              noscheme: true } # comes from openbsd -> mess of different repositories
 - { name: microcode-ctl,               verpat: "2\\..*",                                   devel: true } # https://pagure.io/microcode_ctl/releases
+- { name: micromamba,                  ver: "2.5.0.1",               ruleset: aur,         incorrect: true }
+- { name: micromamba,                                                ruleset: aur,         untrusted: true } # accused of fake 2.5.0.1
 - { name: micropolis,                                                                      noscheme: true }
 - { name: mididings,                   ver: "20151117",                                    devel: true } # latest commit
 - { name: midori,                      ver: "0.5.12",                ruleset: aosc,        incorrect: true } # not released
