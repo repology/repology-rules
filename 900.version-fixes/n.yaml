@@ -31,8 +31,9 @@
 - { name: neofetch,                                                  ruleset: pclinuxos,   untrusted: true } # accused of fake 7.1.1
 - { name: neofetch,                    ver: "7.3.3",                 ruleset: aosc,        incorrect: true } # hyfetch
 - { name: neofetch,                                                  ruleset: aosc,        untrusted: true } # accused of fake 7.3.3
-- { name: neomutt,                     ver: "20220629",              ruleset: fedora,      incorrect: true }
 - { name: neomutt,                                                   ruleset: fedora,      untrusted: true } # accused of fake 20220629
+- { name: neomutt,                     ver: "20260501",              ruleset: manjaro,     incorrect: true }
+- { name: neomutt,                                                   ruleset: manjaro,     untrusted: true } # accused of fake 20260501
 - { name: neovide,                     verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: neovim,                      verpat: "[0-9]+\\.[0-9]+\\.[0-9]{4}.*",             incorrect: true } # funtoo garbage
 - { name: neovim,                                                    ruleset: funtoo,      untrusted: true } # accuse if fake 0.5.0945393587, 0.5.0948208
