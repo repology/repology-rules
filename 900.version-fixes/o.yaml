@@ -215,5 +215,6 @@
 - { name: ovmf,                                                                            noscheme: true }
 - { name: owamp,                                                     ruleset: sisyphus,    untrusted: true } # accused of fake 3.5.0
 - { name: owfs,                                                                            p_is_patch: true }
+- { name: owfs,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]+",                 incorrect: true } # X.Y.pZ
 - { name: owncloudclient,              verpat: ".*[0-9]{5}",                               snapshot: true } # openbsd
 - { name: oxygen-gtk3,                 verlonger: 3,                 ruleset: kaos,        incorrect: true }
