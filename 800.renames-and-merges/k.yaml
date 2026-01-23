@@ -122,8 +122,8 @@
 - { setname: krita,                    name: krita-beta, ignore: true }
 - { setname: krita,                    name: krita-minimal, addflavor: minimal }
 - { setname: kryoflux,                 name: [kryoflux-dtc, kryoflux-bin], addflavor: true }
-- { setname: ksh,                      name: ksh93 }
-- { setname: ksh,                      name: ksh93-devel, weak_devel: true, nolegacy: true }
+- { setname: ksh,                      name: [ksh93, ksh93u+m] }
+- { setname: ksh,                      name: [ksh93-devel,ksh93u+m], weak_devel: true, nolegacy: true }
 - { setname: ksh,                      name: ast-ksh }
 - { setname: ksh,                      name: static-ast-ksh, addflavor: static }
 - { setname: ktechlab,                 name: ktechlab-qt5 }
