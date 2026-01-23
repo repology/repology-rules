@@ -63,7 +63,7 @@
 - { name: netevent,                                                  ruleset: nix,         untrusted: true } # accused of fake 20201018
 - { name: netevent,                    ver: "0.2.1.79",              ruleset: freebsd,     incorrect: true }
 - { name: netevent,                                                  ruleset: freebsd,     untrusted: true } # accused of fake 0.2.1.79
-- { name: netfetch,                    releq: "5",                                         sink: true } # 0.5.3 after 5.2.103
+- { name: netfetch-kubernetes,         releq: "5",                                         sink: true } # 0.5.3 after 5.2.103
 - { name: nethack,                     verpat: "[0-9]{3}",                                 incorrect: true } # T2: 3.6.1, not 361
 - { name: netkit-ftp,                  verpat: "20[0-9]{6}.*",                             ignore: true } # haiku snapshot
 - { name: netkit-ftp,                  ver: "0.18",                  ruleset: sisyphus,    ignore: true } # fake; actually 0.18pre1
