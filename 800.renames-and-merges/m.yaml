@@ -305,6 +305,7 @@
 - { setname: mkcert,                   name: "go:mkcert", addflavor: true }
 - { setname: mkl,                      name: intel-mkl }
 - { setname: mksh,                     name: mksh-static, addflavor: true }
+- { setname: mlc,                      name: [rust:mlc, markuplinkchecker] } # split in 850
 - { setname: mldonkey,                 name: [mldonkey-core,mldonkey-gui,mldonkey-ed2kad-daemon], addflavor: true }
 - { setname: mlt,                      name: [mlt6,mlt7] }
 - { setname: mlt,                      name: [mlt-qt5,mlt6-qt5,mlt7-qt5], addflavor: qt5 }
