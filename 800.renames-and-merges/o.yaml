@@ -22,6 +22,7 @@
 - { setname: ode,                      name: ode-python-bindings, addflavor: true }
 - { setname: odin,                     name: odin-dev }
 - { setname: odin,                     name: odin-nightly, weak_devel: true, nolegacy: true }
+- { setname: odo,                      name: odo-dev } # (note: naming, not really a devel package)
 - { setname: odoo,                     namepat: "odoo[0-9.-]+" }
 - { setname: ods2sql,                  name: "rust:ods2sql" }
 - { setname: offlineimap,              name: [offlineimap3, python:offlineimap3] }
