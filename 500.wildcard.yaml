@@ -6,6 +6,9 @@
 # wconce flag is used to make a package only processed by ONE wildcard rule
 #
 
+# Agda
+- { setname: "agda:$0", addflag: wconce, noflag: [wconce,not_wildcard], category: agdaPackages, ruleset: nix }
+
 # Apache
 - { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "ap[0-9]+-(?:mod_)?(.*?)", ruleset: [freebsd,openbsd,pkgsrc] }
 - { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "mod_(.*)", category: [www-apache,apache-mod], ruleset: [ gentoo, exherbo ] }
@@ -17,7 +20,7 @@
 - { setname: "apmod:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_apache], namepat: "mod_(.*)", ruleset: nix, category: apacheHttpdPackages }
 
 # Azure cli
-- { setname: "azcli:$0", addflag: wconce, noflag: [wconce,not_wildcard], category: azure-cli-extensions, ruleset: nix, remove: true } # TODO: remove to reduce diff wile migrating to updated parser
+- { setname: "azcli:$0", addflag: wconce, noflag: [wconce,not_wildcard], category: azure-cli-extensions, ruleset: nix }
 
 # Chicken
 - { setname: "chicken:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_chicken], categorypat: "chickenPackages[0-9_]*", namepat: "chicken-(.*)", ruleset: nix }
@@ -117,6 +120,9 @@
 # Haxe
 - { setname: "haxe:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_haxe], category: haxePackages, ruleset: nix }
 
+# Idris
+- { setname: "idris:$1", addflag: wconce, noflag: [wconce,not_wildcard], namepat: "idris-(.*)", category: idrisPackages, ruleset: nix }
+
 # Java
 - { setname: "java:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_java], namepat: "lib(.*)-java", ruleset: debuntu }
 
@@ -127,6 +133,9 @@
 # Jg
 - { setname: "jg:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_jg], namepat: "jg-(.*)", ruleset: slackbuilds }
 - { setname: "jg:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_jg], namepat: "(.*)-jg", ruleset: gentoo }
+
+# kakoune
+- { setname: "kakoune:$0", addflag: wconce, noflag: [wconce,not_wildcard], category: kakounePlugins, ruleset: nix }
 
 # Kubernetes
 - { setname: "kubernetes:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_kubernetes], category: kubernetes, ruleset: exherbo }
@@ -171,6 +180,9 @@
 - { setname: "node:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_node], namepat: "node-(.*)", ruleset: [debuntu,sisyphus,openpkg] }
 - { setname: "node:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_node], namepat: "nodejs-(.*)", ruleset: [arch,chakra,fedora,mageia,rosa,sisyphus,opensuse,pld,centos] }
 
+# OBS Studio
+- { setname: "obs:$0", addflag: wconce, noflag: [wconce,not_wildcard], category: obs-studio-plugins, ruleset: nix }
+
 # Ocaml
 - { setname: "ocaml:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_ocaml], category: ocamlPackages, namepat: "(ocaml[0-9.]+)-(.*?)", ruleset: nix_no_name, addflavor: $1 }
 - { setname: "ocaml:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_ocaml], category: ocamlPackages, namepat: "(ocaml[0-9.]+)-(.*?)", ruleset: nix_name, addflavor: $1 } # XXX: temp?
@@ -199,6 +211,9 @@
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "(.*)-pm([0-9]{4})?", ruleset: fink, addflavor: $2 }
 - { setname: "perl:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], category: Development/Perl, ruleset: openindiana }
 - { setname: "perl:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_perl], namepat: "(.*)-perl", ruleset: ptxdist }
+
+# PostgreSQL
+- { setname: "pgsql:$0", addflag: wconce, noflag: [wconce,not_wildcard], categorypat: "postgresql(?:[0-9]+)?(?:Jit)?Packages", ruleset: nix } # TODO: flavor from category:
 
 # PHP
 #- { setname: "php:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_php], ruleset: gentoo, category: dev-php }
@@ -287,11 +302,17 @@
 # Rust
 - { setname: "rust:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_rust], namepat: "rust-(.*)", ruleset: [ arch,debuntu,fedora,sisyphus,guix,openmandriva,mageia,centos ] }
 
+# Scheme (akku package manager)
+- { setname: "scheme:$1", addflag: wconce, noflag: [wconce,not_wildcard], namepat: "akku-(.*)", category: akkuPackages, ruleset: nix }
+
 # Texlive
 - { setname: "texlive:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_texlive], namepat: "tex-(.*)-doc", ruleset: pkgsrc, addflavor: doc }
 - { setname: "texlive:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_texlive], namepat: "tex-(.*)", ruleset: pkgsrc }
 - { setname: "texlive:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_texlive], namepat: "texlive-(.*)", ruleset: [openmandriva,rosa,guix,centos] }
 - { setname: "texlive:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_texlive], category: texlivePackages, ruleset: nix }
+
+# Tmux
+- { setname: "tmux:$1", addflag: wconce, noflag: [wconce,not_wildcard], namepat: "tmuxplugin-(.*)", category: tmuxPackages, ruleset: nix }
 
 # typst
 - { setname: "typst:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_typst], category: typstPackages, ruleset: nix }

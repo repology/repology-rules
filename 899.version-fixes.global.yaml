@@ -53,14 +53,7 @@
 
 # prevent newly introduced nix categories from polluting unrelated projects before being added to 500 ruleset
 #- { category: "XXX",                                                 ruleset: nix,         addflag: classified_category }
-- { category: "elmPackages", namepat: "elm-.*",                      ruleset: nix,         addflag: classified_category }
-- { category: "idrisPackages", namepat: "idris-.*",                  ruleset: nix,         addflag: classified_category }
 - { category: "kdePackages",                                         ruleset: nix,         addflag: classified_category }
-- { categorypat: "llvmPackages[0-9_]*",                              ruleset: nix,         addflag: classified_category }
-- { category: "pidginPackages",                                      ruleset: nix,         addflag: classified_category }
-- { categorypat: "postgresql(?:[0-9]+)?(?:Jit)?Packages",            ruleset: nix,         addflag: classified_category }
-- { category: "purePackages",                                        ruleset: nix,         addflag: classified_category }
-- { categorypat: "python[0-9]+Packages",                             ruleset: nix,         addflag: classified_category } # python [apps], not covered by python wildcard rule
 - { category: "qt6Packages",                                         ruleset: nix,         addflag: classified_category }
 - { categorypat: ".*", flag: wconce,                                 ruleset: nix,         addflag: classified_category }
 - { categorypat: ".*([Pp]ackages|[Ee]xtensions|[Pp]lugins).*", noflag: classified_category, ruleset: nix, setname: $0-unclassified }
