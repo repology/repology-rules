@@ -178,9 +178,8 @@
 - { name: pickle, wwwpart: kewl.org/projects:pickle, setname: $0-picmicro-programmer }
 - { name: pickle, addflag: unclassified }
 
-# pico is a part of corresponding email clients
-- { name: pico, wwwpart: washington.edu/pine, setname: pine }
-- { name: pico, wwwpart: washington.edu/alpine, setname: alpine }
+- { name: pico, wwwpart: alpineapp.email, setname: alpine, addflavor: true } # part of
+- { name: pico, addflag: unclassified }
 
 - { name: pict, wwwpart: Microsoft, setname: $0-pairwise-testing }
 - { name: pict, wwwpart: bcpierce, setname: $0-lang }
