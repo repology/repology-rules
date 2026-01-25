@@ -232,6 +232,7 @@
 - { name: trojita,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: trojita,                     ver: "0.7.0.1",               ruleset: fedora,      incorrect: true }
 - { name: trojita,                                                   ruleset: fedora,      untrusted: true } # accused of fake 0.7.0.1
+- { name: truetrack,                   verpat: "[0-9]+",                                   incorrect: true } # blackarch 35
 - { name: tsocks,                      ver: "1.8.4",                 ruleset: macports,    incorrect: true } # fake, latest seem to be 1.8beta5
 - { name: tsocks,                                                    ruleset: macports,    untrusted: true } # fake, latest seem to be 1.8beta5
 - { name: tsocks,                      ver: "1.8",                   ruleset: [sisyphus,mageia,openmandriva,pclinuxos,pld], incorrect: true } # 1.8beta5
