@@ -391,6 +391,7 @@
 - { name: gtk,                         verpat: ".*\\+.*",            ruleset: msys2,       incorrect: true }
 - { name: gtk-engines,                 verpat: "[0-9]+\\.9[0-9]+\\..*",                    devel: true }
 - { name: gtk-engines,                 ver: "2.21.0",                                      successor: true } # arch hosted successor
+- { name: gtk-gnutella,                verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: gtk-sharp,                   verpat: "[0-9]+\\.99\\..*",                         devel: true }
 - { name: gtk-sharp,                   ver: "2.99.4",                ruleset: opensuse,    incorrect: true }
 - { name: gtk-sharp,                                                 ruleset: opensuse,    untrusted: true } # accused of fake 2.99.4
