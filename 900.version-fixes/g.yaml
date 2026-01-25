@@ -332,6 +332,7 @@
 - { name: gr-osmosdr,                  verge: "2000", verlt: "2019.12.01",                 sink: true } # latest is 0.1.5 from 2019.12.01
 - { name: gr-osmosdr,                  verge: "20000000", verlt: "20191201",               sink: true } # latest is 0.1.5 from 2019.12.01
 - { name: gr-osmosdr,                  verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: gradle,                      verpat: ".*m.*",                                    devel: true }
 - { name: gradm,                       verpat: "[0-9]{8}.*",                               incorrect: true } # it.s 3.1.YYYYMMDD.., see https://grsecurity.net/download.php
 - { name: grafx2,                      verpat: ".*wip.*",                                  ignore: true }
 - { name: grafx2,                      verpat: "[0-9]+\\.[0-9]+\\.[0-9]{4,}",              altver: true } # tags only contain X.Y, but filenames contain additional number (revision/build# ?)
