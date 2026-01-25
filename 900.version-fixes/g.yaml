@@ -279,6 +279,8 @@
 - { name: gobang,                      ver: "0.1.0",                 ruleset: aur,         incorrect: true } # 0.1.0-alpha.5 in fact
 - { name: gobang,                                                    ruleset: aur,         untrusted: true } # accused of fake 0.1.0
 - { name: gobject-introspection,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gocheat,                     ver: "1.1",                   ruleset: aur,         incorrect: true }
+- { name: gocheat,                                                   ruleset: aur,         untrusted: true } # accused of fake 1.1
 - { name: goldencheetah,               verpat: ".*dev.*",                                  ignore: true }
 - { name: goldendict,                  ver: ["1.5", "1.5.0"],        ruleset: [sisyphus,fedora,mageia,pisi], incorrect: true }
 - { name: goldendict,                                                ruleset: [sisyphus,fedora,mageia,pisi], untrusted: true } # accused of fake 1.5
