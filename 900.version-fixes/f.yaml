@@ -142,6 +142,7 @@
 - { name: fluidsynth-dssi,             ver: "1.9.9",                 ruleset: opensuse,    incorrect: true }
 - { name: fluidsynth-dssi,                                           ruleset: opensuse,    untrusted: true } # accused of fake 1.9.9
 - { name: fluidsynth-dssi,             verpat: ".+20[0-9]{6}.*",                           snapshot: true }
+- { name: flvmeta,                     verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: flvstreamer,                 ver: "2.1.c.1",                                     setver: "2.1c1" }
 - { name: flvstreamer,                 ver: "2.1c",                                        setver: "2.1c0" }
 - { name: flvstreamer,                 ver: "2.1",                   ruleset: pisi,        incorrect: true } # 2.1c1
