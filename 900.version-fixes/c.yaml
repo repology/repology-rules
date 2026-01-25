@@ -170,7 +170,7 @@
 - { name: cheese,                                                    ruleset: [pisi,openmamba], untrusted: true } # accused of fake 43.0
 - { name: chef,                        verpat: ".*g.*",                                    incorrect: true } # git commit
 - { name: cherokee,                    verpat: "20[0-9]{6}.*",                             incorrect: true } # slackware
-- { name: cherrytree,                  verpat: "[0-9]+(\\.[0-9]+){3}",                     altver: true } # windows builds
+- { name: cherrytree,                  verpat: "([0-9]+\\.){3}[123456789][0-9]*",          altver: true } # windows builds
 - { name: chez-scheme,                 ver: "9.5.1",                 ruleset: nix,         incorrect: true }
 - { name: chisel-tcp-tunnel-over-http, ver: "1.11.3a",               ruleset: kali,        incorrect: true }
 - { name: chisel-tcp-tunnel-over-http, ruleset: kali,        untrusted: true } # accused of fake 1.11.3a
