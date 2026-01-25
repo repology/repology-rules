@@ -138,6 +138,7 @@
 - { name: [iproute,iproute2],          verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: [iproute,iproute2],          verge: "20000000", verlt: "20190510",               sink: true } # 5.1.0 from 10 May 2019
 - { name: iputils,                     verpat: "[0-9]{8}\\.[0-9a-f]{7,}",                  ignore: true } # arch: commit id in version
+- { name: ipv6toolkit,                 verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: ipxe,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: ipxe,                        verpat: ".*-[0-9a-f]{7}",                           incorrect: true }
 - { name: ircd,                                                                            p_is_patch: true } # http://www.irc.org/ftp/irc/server/
