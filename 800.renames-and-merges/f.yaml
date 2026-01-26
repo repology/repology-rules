@@ -87,6 +87,7 @@
 - { setname: finch-rs,                 name: "rust:finch" } # XXX: maybe rename to finch and disambiguate with finch im client?
 - { setname: firebase-tools,           name: [firebase-cli,firebase-tools-421, node:firebase-tools, firebase] }
 - { setname: firebird,                 namepat: "firebird[0-9.-]*(?:-client|-server)?" }
+- { setname: firefly,                  name: lib$0 } # split in 850
 - { setname: firefoxpwa,               name: firefox-pwa }
 - { setname: firejail,                 name: firejail-no-apparmor, addflavor: true }
 - { setname: fish,                     name: [fish-shell, fish3] }
