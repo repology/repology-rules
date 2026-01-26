@@ -164,6 +164,10 @@
 
 - { name: disktype, wwwpart: kamwoods, setname: disktype-kamwoods } # fork
 
+- { name: distribution, wwwpart: github.com/distribution/distribution, setname: $0-containers }
+- { name: distribution, wwwpart: wizzat, setname: $0-ascii-histograms }
+- { name: distribution, addflag: unclassified }
+
 - { name: distro-info, wwwpart: debian, setname: distro-info-debian }
 - { name: distro-info, wwwpart: etersoft, setname: distro-info-etersoft }
 - { name: distro-info, addflag: unclassified }
