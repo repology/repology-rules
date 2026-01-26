@@ -218,6 +218,7 @@
 - { name: dump,                        verpat: ".*b.*",                                    any_is_patch: true }
 - { name: dump1090,                    verpat: "20[0-9]{2}.*",                             sink: true } # see dump1090 merge rule
 - { name: dump1090,                    verpat: "3[0-9]{2}.*",                              ignore: true }
+- { name: dungeon,                                                                         noscheme: true } # mess of forks of very ancient game
 - { name: dupeguru,                    verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: dust3d,                      ver: "1.0.0",                 ruleset: openmandriva, incorrect: true } # beta23
 - { name: dust3d,                                                    ruleset: openmandriva, untrusted: true } # accused of fake 1.0.0
