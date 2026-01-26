@@ -172,6 +172,7 @@
 - { name: shotwell,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed
 - { name: showkeys,                                                                        noscheme: true } # https://github.com/nibrahim/showkeys/releases
 - { name: shrinkpdf,                   verpat: "20[0-9]{2}",                               incorrect: true }
+- { name: shunit2,                     verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: sia,                         verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: sic-irc,                     verpat: ".+20[0-9]{6}.*",                           snapshot: true }
 - { name: siesta,                      verpat: ".*b.*",                                    devel: true }
