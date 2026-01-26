@@ -38,6 +38,9 @@
 
 - { name: hdf,                         verpat: "5\\.([0-9]+\\.[0-9]+\\.[0-9]+)", setver: $1, setname: hdf5 } # XXX: problem
 
+- { name: heartbeat, wwwpart: elastic, addflag: classified }
+- { name: heartbeat, addflag: unclassified }
+
 - { name: heat, wwwpart: [openstack,launchpad.net/heat], setname: openstack-heat }
 - { name: heat, addflag: unclassified }
 
