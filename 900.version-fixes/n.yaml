@@ -111,6 +111,7 @@
 - { name: nim,                         ver: "1.9.3",                 ruleset: spack,       incorrect: true }
 - { name: nim,                                                       ruleset: spack,       untrusted: true } # accused of fake 1.9.3
 - { name: ninvaders,                   verge: "0.1.2",                                     successor: true }
+- { name: niri,                        verpat: ".+20[0-9]{6}",                             snapshot: true } # openbsd
 - { name: nitro-init,                  ver: "0.3.3",                 ruleset: aur,         incorrect: true }
 - { name: nitro-init,                                                ruleset: aur,         untrusted: true } # accused of fake 0.3.3
 - { name: nitro-init,                  ver: "0.3.0.0.20250907",      ruleset: pkgsrc,      incorrect: true }
