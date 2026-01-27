@@ -162,10 +162,11 @@
 
 - { name: fluid, wwwpart: hammersound, setname: fluid-soundfont } # XXX: problem
 
-- { name: flux, wwwpart: influxdata, setname: flux-influx }
+- { name: flux, wwwpart: [influxdata,influxcommunity], setname: flux-influx }
 - { name: flux, wwwpart: fluxcd, setname: fluxcd }
 - { name: flux, wwwpart: deniskropp, setname: flux-idl }
 - { name: flux, wwwpart: justgetflux, setname: f.lux }
+- { name: flux, wwwpart: [tcbrindle,tristanbrindle], setname: flux-sequence-lib }
 - { name: flux, addflag: unclassified }
 
 - { name: fms, wwwpart: freenet, setname: fms-freenet-forum-system }
