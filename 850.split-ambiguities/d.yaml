@@ -164,7 +164,7 @@
 
 - { name: disktype, wwwpart: kamwoods, setname: disktype-kamwoods } # fork
 
-- { name: distribution, wwwpart: github.com/distribution/distribution, setname: docker-$0 }
+- { name: distribution, wwwpart: [distribution.github.io, github.com/distribution/distribution], setname: docker-$0 }
 - { name: distribution, wwwpart: wizzat, setname: $0-ascii-histograms }
 - { name: distribution, addflag: unclassified }
 
