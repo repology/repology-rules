@@ -19,6 +19,7 @@
 - { name: "ocaml:cryptokit",                                         ruleset: gentoo,      untrusted: true } # accused of fake 1.161
 - { name: "ocaml:cryptokit",           ver: "1161",                                        incorrect: true } # 1.16.1
 - { name: "ocaml:cryptokit",                                         ruleset: rosa,        untrusted: true } # accused of fake 1161
+- { name: "ocaml:dypgen",              verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: "ocaml:libvirt",             verpat: ".*unstable",                               incorrect: true } # nix garbage
 - { name: "ocaml:ocamlfuse",           verpat: ".*cvs[0-9]+",                              any_is_patch: true, ignore: false } # official versioning scheme https://github.com/astrada/ocamlfuse/tags
 - { name: "ocaml:opam-file-format",                                  ruleset: sisyphus,    untrusted: true }
