@@ -302,6 +302,7 @@
 - { name: libpaper,                    verpat: "(1\\.1\\.24)[^0-9]+([0-9]+)",              setver: "$1nmu$2" } # they all take from debian and there's num suffix
 - { name: libpeas,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: libphutil,                                                                       noscheme: true }
+- { name: libpinyin,                   verpat: "[0-9]+\\.[0-9]+\\.9[0-9]+",                devel: true }
 - { name: libplacebo,                  ver: "2.88.0",                ruleset: sisyphus,    incorrect: true }
 - { name: libplacebo,                                                ruleset: sisyphus,    untrusted: true } # accused if fake 2.88.0
 - { name: libpng,                      verpat: "1\\.7\\.0beta.*",    ruleset: freshcode,   ignore: true }
