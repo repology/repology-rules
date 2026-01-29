@@ -209,6 +209,7 @@
 - { name: dtc,                         verpat: "20[0-9]{6}",                               ignore: true }
 - { name: dtrace-toolkit,              ver: "1.0",                   ruleset: freebsd,     incorrect: true }
 - { name: dtrace-toolkit,                                            ruleset: freebsd,     untrusted: true } # accused of fake 1.0
+- { name: dtv-scan-tables,                                                                 noscheme: true }
 - { name: duckstation,                                                                     noscheme: true }
 - { name: dukto,                       verpat: "[0-9]{3}",                                 incorrect: true } # slitaz
 - { name: dukto,                       verpat: "r([0-9]+)",                                setver: $1 }
