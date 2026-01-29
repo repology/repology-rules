@@ -138,6 +138,8 @@
 - { name: cereal,                      ver: "1.3.3",                 ruleset: mpr,         incorrect: true }
 - { name: cereal,                                                    ruleset: mpr,         untrusted: true } # accused of fake 1.3.3
 - { name: cernlib,                     verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: certgraph,                   verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: certgraph,                   verge: "20000000", verlt: "20250825",               sink: true } # 0.1.2 from 20250825
 - { name: cervisia,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: cfengine,                    verpat: "3\\.17.*",           ruleset: termux,      incorrect: true }
 - { name: cfengine,                                                  ruleset: termux,      untrusted: true } # accuse of fake 3.17.0a1-termux
