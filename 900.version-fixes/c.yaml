@@ -107,6 +107,7 @@
 - { name: cddlib,                      verpat: "0([1-9][0-9]*[a-z])",                      setver: 0.$1 } # XXX: problem
 - { name: cdecl,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: cdesktopenv,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: cdist,                       verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: cdrkit,                      vergt: "1.1.11",                                    incorrect: true } # project is dead, assuming no more releases
 - { name: cdrkit,                                                    ruleset: deepin,      untrusted: true } # accused of fake 1.1.11-3+apricot, 1.1.11.1
 - { name: cdrkit,                                                    ruleset: nix,         untrusted: true } # accused of fake 1.1.11-3.5
