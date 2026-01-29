@@ -107,6 +107,7 @@
 - { name: directx-shader-compiler,     verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: discord,                     wwwpart: canary,                                    devel: true }
 - { name: discord-rpc,                 verpat: "20[0-9]{6}.*",                             incorrect: true } # aur
+- { name: discordo,                                                                        noscheme: true }
 - { name: distcc,                      ver: "3.2",                   ruleset: pkgsrc,      incorrect: true }
 - { name: distcc,                      ver: "3.2.0rc1",                                    incorrect: true } # it's 3.2rc1
 - { name: distcc,                                                    ruleset: pkgsrc,      untrusted: true }
