@@ -25,7 +25,7 @@
 - { setname: dave-gnukem,              name: [gnukem, davegnukem] }
 - { setname: davis,                    name: rust:$0 }
 - { setname: davs2,                    name: libdavs2 }
-- { setname: dawn,                     name: dawn-writer }
+- { setname: dawn,                     name: [dawn-writer, dawn-simple] } # different projects, split in 850
 - { setname: db,                       name: [berkeley-db, compat-db, bdb, bdb33] }
 - { setname: db,                       name: [java-db3, bdb-java, bdb33-java, libdb-java-4-8, db46-java, db48-java, java-berkeleydb], addflavor: java }
 - { setname: db,                       name: db48-tcl, addflavor: tcl }
