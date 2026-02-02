@@ -21,10 +21,11 @@
 - { name: packet, wwwpart: nozwock, setname: $0-quick-share }
 - { name: packet, addflag: unclassified }
 
-- { name: packit, sourceforge: packit, setname: packit-network-auditing-tool }
-- { name: packit, wwwpart: [eribertomota,resurrecting-open-source-projects,openwall,obtuse], setname: packit-network-auditing-tool }
-- { name: packit, wwwpart: [packit-service,github.com/packit/packit], setname: packit-packaging-tool }
-- { name: packit, category: [net,universe/net], setname: packit-network-auditing-tool }
+- { name: packit, sourceforge: packit, setname: packit-network-auditing-tool-original }
+- { name: packit, wwwpart: openwall, setname: packit-network-auditing-tool-original }
+- { name: packit, wwwpart: resurrecting-open-source-projects/packit, setname: packit-network-auditing-tool-rosp }
+- { name: packit, wwwpart: Obsidian-Covenant/packit, setname: packit-network-auditing-tool-oc }
+- { name: packit, wwwpart: [github.com/packit/packit,packit.dev], setname: packit-packaging-tool }
 - { name: packit, addflag: unclassified }
 
 - { name: packup, wwwpart: mikolas, setname: packup-sat-solver }

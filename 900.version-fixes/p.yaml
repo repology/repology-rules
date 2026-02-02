@@ -4,6 +4,7 @@
 - { name: p11-kit,                                                   ruleset: hpux,        untrusted: true }
 - { name: p7zip-original,              verge: "17",                                        incorrect: true } # likely belong to p7zip-jinfeihan57, but provide incorrect homepage
 - { name: packetdrill,                                                                     noscheme: true } # apart from ancient 2.0 which almost nobody uses, no tags neither in official repo nor in forks
+- { name: packit-network-auditing-tool-original, vergt: "1.0",                             incorrect: true }
 - { name: pacparser,                   verpat: ".*20[0-9]{6}",                             snapshot: true } # freebsd
 - { name: padbuster,                   verpat: "[0-9]+",                                   incorrect: true } # 0.3.3 (no tag, but mentione in source)
 - { name: padbuster,                   verge: "11",                                        incorrect: true } # blackarch
