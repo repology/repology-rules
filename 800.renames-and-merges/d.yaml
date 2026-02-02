@@ -158,6 +158,7 @@
 - { setname: doge,                     name: [dogedns, dns-doge, rust:dns-doge] } # split in 850
 - { setname: dogecoin,                 name: [dogecoind,dogecoin-qt,dogecoin-daemon] }
 - { setname: dogtail,                  name: [dogtail3, "python:dogtail"] }
+- { setname: doh-cli,                  name: python:$0 }
 - { setname: doh-proxy,                name: "rust:doh-proxy" }
 - { setname: doh-proxy,                name: "rust:libdoh", addflavor: libdoh }
 - { setname: doit,                     name: "python:doit" }
