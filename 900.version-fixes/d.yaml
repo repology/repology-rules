@@ -125,6 +125,7 @@
 - { name: dkms,                        ver: "2.022.0",                                     ignore: true } # gobolinux fake
 - { name: dmake,                       verpat: ".*20[0-9]{6}",                             ignore: true } # freebsd snapshot
 - { name: dmenu,                       verlonger: 2,                 ruleset: freebsd,     incorrect: true }
+- { name: dmenu-wayland,               verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: dmg2img,                     verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: dmlc-core,                   verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: dmlc-core,                   verlonger: 2,                                       snapshot: true }
