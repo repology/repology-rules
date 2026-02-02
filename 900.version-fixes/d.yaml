@@ -132,10 +132,12 @@
 - { name: dmraid,                      ver: "1.0.0",                 ruleset: [mageia,openmandriva,pclinuxos,pld], incorrect: true } # it's 1.0.0rc16
 - { name: dnrd,                        ver: "2.20.4",                ruleset: aix,         incorrect: true }
 - { name: dnrd,                                                      ruleset: aix,         untrusted: true }
+- { name: dns-root-data,                                                                   noscheme: true }
 - { name: dnscap,                      verpat: "[0-9]{3,}",                                ignore: true }
 - { name: dnsmasq,                     verpat: ".*test.*",                                 devel: true }
 - { name: dnsrecon,                    ver: "0.10.0",                ruleset: blackarch,   incorrect: true }
 - { name: dnsrecon,                                                  ruleset: blackarch,   untrusted: true } # accused of fake 0.10.0
+- { name: dnssec-anchors,                                                                  noscheme: true }
 - { name: dnssec-root,                 ver: "20190225",                                    incorrect: true } # alpine
 - { name: dnssec-root,                                               ruleset: alpine,      untrusted: true } # uses date the package was updated instead of official publication date from https://www.iana.org/dnssec/files
 - { name: dnstop,                                                                          noscheme: true }
