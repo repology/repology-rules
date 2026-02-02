@@ -288,6 +288,8 @@
 - { name: asciio,                      ver: "1.51.3",                                      sink: true } # 1.9.1.1 after 1.51.3
 - { name: asciio,                      ver: "1.90.02",                                     incorrect: true }
 - { name: asciio,                                                    ruleset: fedora,      untrusted: true } # accused of fake 1.90.02
+- { name: aseprite,                    ver: "1.3.16.1.1",           ruleset: aur,         incorrect: true }
+- { name: aseprite,                                                   ruleset: aur,         untrusted: true } # accused of fake 1.3.16.1.1
 - { name: asignify,                    verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: asignify,                    ver: "1.1",                   ruleset: guix,        incorrect: true }
 - { name: asignify,                                                  ruleset: guix,        untrusted: true } # accused of fake 1.1
