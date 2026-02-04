@@ -272,7 +272,11 @@
 - { name: lux, wwwpart: luxse, setname: lux-fulltext-search }
 - { name: lux, wwwpart: somasis, setname: lux-kernel-updater }
 - { name: lux, wwwpart: iawia002, setname: lux-video-downloader }
+- { name: lux, wwwpart: lux.lumen-labs.org, setname: lux-lua-package-manager }
 - { name: lux, addflag: unclassified }
+
+- { name: lux-cli, wwwpart: lux.lumen-labs.org, setname: lux-lua-package-manager }
+- { name: lux-cli, addflag: unclassified }
 
 - { name: ly, wwwpart: fairyglade, setname: $0-display-manager }
 - { name: ly, wwwpart: frescobaldi, setname: python:python-ly }
