@@ -380,6 +380,7 @@
 - { name: autoconf,                    verlonger: 2,                 ruleset: mageia,      incorrect: true }
 - { name: autoconf,                                                  ruleset: mageia,      untrusted: true } # accused of fake 2.69.209
 - { name: autoconf,                    verpat: ".*[0-9][a-z]",                             devel: true } # https://alpha.gnu.org/pub/gnu/autoconf/
+- { name: autoconf,                    verpat: "([0-9]+\\.){2}9[0-9]",                     devel: true } # also https://alpha.gnu.org/pub/gnu/autoconf/; 2.72.90 us newer, but will compare less than 2.72[a-e], blame upstream
 - { name: autoconf-archive,            verpat: "(20[0-9]{2})([0-9]{2})([0-9]{2})",         setver: "$1.$2.$3" }
 - { name: autoconf-archive,            verlonger: 3,                                       incorrect: true } # mageia fake
 - { name: autodia,                     verpat: "2\\.[0-9]{3}.*",                           incorrect: true } # perl versioning issues
