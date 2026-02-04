@@ -7,7 +7,11 @@
     - godot-classic
     - godot-debug
     - godot-debug-server
+    - godot-dotnet
+    - godot-double
     - godot-engine
+    - godot-export-templates
+    - godot-export-templates-linux
     - godot-headers
     - godot-headless
     - godot-headless-export-templates
@@ -28,6 +32,6 @@
     - godot35
     - godot4
 
-- { setname: godot, name: [godot-rc,godot-beta,godot-alpha], weak_devel: true, nolegacy: true }
-- { setname: godot, name: [godot-mono-rc,godot-mono-beta], weak_devel: true, nolegacy: true, addflavor: mono }
+- { setname: godot, name: [godot-rc,godot-beta,godot-alpha,godot-next,godot-preview,godot-dev], weak_devel: true, nolegacy: true }
+- { setname: godot, name: [godot-mono-rc,godot-mono-beta,godot-mono-dev], weak_devel: true, nolegacy: true, addflavor: mono }
 - { setname: godot, name: [godot-editor-3, godot-editor-4], addflavor: editor }
