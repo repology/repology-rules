@@ -107,6 +107,7 @@
 - { name: texlive,                                                                         noscheme: true } # no clear versioning scheme: 2022 vs. 20220321 vs 2022[./-]20220321
 - { name: texlive-core,                verpat: "(20[0-9]{2}).[0-9]{5,}",                   ignore: true }
 - { name: texlive-docs,                                                                    noscheme: true } # ambiguous upstream versioning
+- { name: texlive-texmf,                                                                   noscheme: true }
 - { name: "texlive:cm-super",          verpat: "20[0-9]{6}",                               incorrect: true } # dates; official version is 0.3.4
 - { name: "texlive:csplain",                                                               noscheme: true }
 - { name: "texlive:leaflet",           verpat: "20[0-9]{6}",                               incorrect: true }
