@@ -192,9 +192,7 @@
 - { name: busybox,                     verpat: "([0-9]+\\.){2}0+",                         devel: true } # X.Y.0 versions are (assumed) unstable
 - { name: byobu,                       ver: "5.126",                 ruleset: debuntu,     incorrect: true }
 - { name: byobu,                                                     ruleset: debuntu,     untrusted: true }
-- { name: byzanz,                      verpat: "20[0-9]{6}",                               snapshot: true }
-- { name: byzanz,                      ver: "0.3.0.1",               ruleset: arch,        incorrect: true }
-- { name: byzanz,                                                    ruleset: arch,        untrusted: true } # accused of fake 0.3.0.1
+- { name: byzanz,                                                                          outdated: true } # abandonware since 2016
 - { name: bzip2,                       ver: "1.0.6.0.1",                                   incorrect: true } # nix fake; real version is 1.0.6
 - { name: bzip2,                                                     ruleset: nix,         untrusted: true } # accused of fake 1.0.6.0.1
 - { name: bzip2,                       ver: "1.0.6.1",                                     incorrect: true } # scoop fake; real version is 1.0.6
