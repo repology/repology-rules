@@ -247,6 +247,7 @@
 - { name: "python:wekan",              ver: "0.2.1",                 ruleset: aur,         incorrect: true } # python-wekan, not wekan
 - { name: "python:wekan",                                            ruleset: aur,         untrusted: true } # python-wekan, not wekan
 - { name: "python:whisper",            verpat: "20[0-9]{2}.*",                             incorrect: true } # may be misnamed python:openai-whisper
+- { name: "python:xapp",               ver: "21",                                          incorrect: true, disposable: true }
 - { name: "python:xdis",               verpat: ".+20[0-9]{6}",                             snapshot: true } # openbsd
 - { name: "python:xhtml2pdf",          ver: "0.2b",                                        sink: true } # 0.2b < 0.2.x
 - { name: "python:xlib",               verlonger: 2,                 ruleset: freebsd,     incorrect: true }
