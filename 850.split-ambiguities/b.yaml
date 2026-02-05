@@ -252,6 +252,10 @@
 # https://github.com/facebookarchive/BOLT not added → now part of llvm and archived
 - { name: bolt, addflag: unclassified }
 
+- { name: bom, wwwpart: archiecobbs, setname: bom-unicode }
+- { name: bom, wwwpart: kubernetes-sigs, setname: bom-sbom-multitool }
+- { name: bom, addflag: unclassified }
+
 - { name: bomber, wwwpart: https://apps.kde.org/bomber/, setname: kde-bomber }
 - { name: bomber, wwwpart: https://invent.kde.org/games/bomber, setname: kde-bomber }
 - { name: bomber, wwwpart: devops-kung-fu, setname: bomber-sbom-security-scanner }
