@@ -1,0 +1,15 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- setname: mingw-w64
+  name:
+    - mingw-crt
+    - mingw-headers
+    - mingw64-runtime
+    - mingw:crt
+    - mingw:headers
+    - mingw:runtime
+    - mingw:tools
+    - mingw:w64-tools
+    - widl
+    - winpthreads
+  addflavor: true
