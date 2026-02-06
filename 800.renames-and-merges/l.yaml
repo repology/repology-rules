@@ -202,7 +202,8 @@
 - { setname: lustre,                   name: lustre-client }
 - { setname: lutgen,                   name: [rust:$0-cli, lutgen-rs] }
 - { setname: lutgen-studio,            name: rust:$0 }
-- { setname: lux-video-downloader,     name: [lux-dl, lux-go, annie] } # https://github.com/iawia002/lux/pull/993 https://github.com/repology/repology-rules/issues/592
+- { setname: lux,                      name: [lux-cli, lua:lux-lua, rust:lux-cli], addflavor: true } # split in 850
+- { setname: lux,                      name: [lux-dl, lux-go, annie] } # split in 850 https://github.com/iawia002/lux/pull/993 https://github.com/repology/repology-rules/issues/592
 - { setname: luxcorerender,            name: [luxrender,luxrender14] } # former name
 - { setname: lv2-c++-tools,            name: lv2-cpp-tools }
 - { setname: lvm2,                     name: lvm }
