@@ -139,6 +139,8 @@
 - { name: midori,                      ver: "0.5.12",                ruleset: aosc,        incorrect: true } # not released
 - { name: midori,                                                    ruleset: aosc,        untrusted: true }
 - { name: milkytracker,                verpat: ".+20[0-9]{6}",                             snapshot: true }
+- { name: milo,                        ver: "2.4.18",                ruleset: gentoo,      incorrect: true }
+- { name: milo,                                                      ruleset: gentoo,      untrusted: true } # accused of fake 2.4.18
 - { name: mimetex,                     verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: mimetreeparser,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mimikatz,                    verpat: ".*20[0-9]{6}",                             ignore: true } # BlackArch snap
