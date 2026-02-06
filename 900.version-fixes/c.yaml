@@ -345,6 +345,7 @@
 - { name: cpdup,                                                     ruleset: openbsd,     untrusted: true } # from dragonfly, but not enough data (homepage) to split it
 - { name: cplex,                       ver: ["128","22.11"],                               incorrect: true } # 12.8, 22.1.1
 - { name: cplex,                                                     ruleset: nix,         untrusted: true } # accused of fake 128, 22.11
+- { name: cppcodec,                    verlonger: 2,                 ruleset: freebsd,     incorrect: true } # XXX: FreeBSD DISTVERSION
 - { name: cpplint,                     verpat: "[0-9]{3}.*",                               incorrect: true } # aur
 - { name: cppreference-doc,            ver: "20201016",                                    devel: true, maintenance: true } # https://en.cppreference.com/w/Cppreference:Archives
 - { name: cpptoml,                     ver: "0.4.0",                 ruleset: [openmamba,nix], incorrect: true } # latest ATOW is 0.1.1
