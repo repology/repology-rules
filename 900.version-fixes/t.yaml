@@ -122,6 +122,7 @@
 - { name: theharvester,                verpat: "(2\\.7)\\.[12]",                           setver: $1 } # versions are mentioned in the changelog, but there are no tags
 - { name: theharvester,                ver: "2.7.3",                                       incorrect: true }
 - { name: thermald,                    verlonger: 3,                 ruleset: opensuse,    incorrect: true }
+- { name: thermald,                    ver: "2.15.10",                                     sink: true } # misrelease: https://github.com/intel/thermal_daemon/issues/487
 - { name: thunar,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: thunderbird,                 verpat: ".*[ab].*",                                 devel: true }
 - { name: thunderbird,                                               ruleset: [freebsd,aur], untrusted: true } # accused of faking RCs as releases
