@@ -67,6 +67,7 @@
 - { name: elementary-settings-daemon,  ver: "3.34.1",                                      incorrect: true }
 - { name: elementary-settings-daemon,                                ruleset: nix,         untrusted: true } # accused of fake 3.34.1
 - { name: elementary-xfce-icon-theme,  verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: elfio,                       verlonger: 2,                 ruleset: freebsd,     incorrect: true } # XXX: FreeBSD DISTVERSION
 - { name: elfutils,                    verpat: ".*g.*",                                    incorrect: true }
 - { name: elinks,                      verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: elisa,                       verpat: ".*20[0-9]{6}.*",                           ignore: true }
