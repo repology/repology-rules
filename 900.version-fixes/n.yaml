@@ -16,6 +16,7 @@
 - { name: ncbi,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: ncbi-toolkit,                verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: ncurses,                     verpat: "[0-9]+[^0-9][0-9]+[^0-9]20[0-9]{6}",       devel: true }
+- { name: ncurses,                     verpat: ".*really.*",                               incorrect: true }
 - { name: ndisc6,                                                    ruleset: sisyphus,    untrusted: true } # accused of fake 1.0.4
 - { name: ndiswrapper,                 verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: ndpi,                        verpat: ".*20[0-9]{2}.*",                           snapshot: true }
