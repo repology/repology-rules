@@ -8,6 +8,7 @@
 - { name: s5cmd,                                                     ruleset: aur,         untrusted: true } # accused of fake 2.0.0
 - { name: s5cmd,                       ver: "2.0.0.b",               ruleset: freebsd,     incorrect: true } # 2.0.0-beta
 - { name: s5cmd,                                                     ruleset: freebsd,     untrusted: true } # 2.0.0.b
+- { name: sacad,                       verpat: ".*b.*",                                    devel: true }
 - { name: safeclib,                    verpat: "[0-9]{8}",                                 incorrect: true }
 - { name: safeclib,                    ver: "10052013",                                    sink: true } # older than 3.7.1
 - { name: safeint,                     ver: "3.24",                                        sink: true } # upstream 3.24 → 3.0.26
