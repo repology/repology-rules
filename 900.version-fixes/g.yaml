@@ -90,6 +90,7 @@
 - { name: gexiv2,                      ver: "0.11.0",                                      devel: true } # https://mail.gnome.org/archives/gexiv2-list/2019-January/msg00001.html
 #- { name: gexiv2,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # enable if there's pattern with even/odd versions which is unapparent ATOW
 - { name: gf-gdb-frontend,                                                                 noscheme: true }
+- { name: gforth,                      verpat: ".+20[0-9]{6}",                             devel: true }
 - { name: ggz-client-libs,             verpat: "0\\.99.*",                                 devel: true }
 - { name: ggz-gtk-client,              verpat: "0\\.99.*",                                 devel: true }
 - { name: ghasher,                     verpat: ".*patched.*",                              incorrect: true }
