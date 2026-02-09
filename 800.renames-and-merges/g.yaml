@@ -386,7 +386,7 @@
 - { setname: gnutls,                   namepat: "(?:lib)?gnutls[0-9.-]*" }
 - { setname: go,                       name: go-bootstrap, legacy: true }
 - { setname: go-shadowsocks2,          name: [shadowsocks2, "go:shadowsocks2"] }
-- { setname: goat-sleep,               name: "rust:goat" }
+- { setname: goat,                     name: [rust:goat, goat-cli] } # different projects, split in 850
 - { setname: goatee-gtk,               name: "haskell:goatee-gtk" }
 - { setname: goattracker,              name: goattracker-ubuntu, addflavor: true }
 - { setname: gobby,                    namepat: "gobby[0-9.-]+" }
