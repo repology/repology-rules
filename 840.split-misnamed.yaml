@@ -39,28 +39,99 @@
 - { addflag: misnamed, name: procinfo,       wwwpart: procinfo-ng }
 - { addflag: misnamed, name: proxychains,    wwwpart: proxychains-ng }
 - { addflag: misnamed, name: public-suffix }
+- { addflag: misnamed, name: python:aalib }
+- { addflag: misnamed, name: python:afl }
+- { addflag: misnamed, name: python:barbicanclient }
+- { addflag: misnamed, name: python:bidi }
+- { addflag: misnamed, name: python:binary-memcached }
 - { addflag: misnamed, name: python:cheetah, verge: "3" }
+- { addflag: misnamed, name: python:cinderclient }
+- { addflag: misnamed, name: python:cjson }
+- { addflag: misnamed, name: python:dbusmock }
+- { addflag: misnamed, name: python:debian }
+- { addflag: misnamed, name: python:debianbts }
+- { addflag: misnamed, name: python:designateclient }
+- { addflag: misnamed, name: python:didl-lite }
+- { addflag: misnamed, name: python:digitalocean }
+- { addflag: misnamed, name: python:docs-theme }
+- { addflag: misnamed, name: python:doi }
+- { addflag: misnamed, name: python:efl }
+- { addflag: misnamed, name: python:engineio }
 - { addflag: misnamed, name: python:exif,    wwwpart: exif-py }
+- { addflag: misnamed, name: python:gammu }
 - { addflag: misnamed, name: python:gbinder-python }
+- { addflag: misnamed, name: python:gettext }
+- { addflag: misnamed, name: python:gflags }
+- { addflag: misnamed, name: python:glanceclient }
+- { addflag: misnamed, name: python:gvm }
+- { addflag: misnamed, name: python:heatclient }
+- { addflag: misnamed, name: python:hpilo }
+- { addflag: misnamed, name: python:iptables }
+- { addflag: misnamed, name: python:ironicclient }
+- { addflag: misnamed, name: python:jsonrpc-server }
+- { addflag: misnamed, name: python:jsonschema-objects }
+- { addflag: misnamed, name: python:libdiscid }
+- { addflag: misnamed, name: python:libnmap }
+- { addflag: misnamed, name: python:lsp-black }
+- { addflag: misnamed, name: python:lsp-isort }
 - { addflag: misnamed, name: python:lsp-jsonrpc }
+- { addflag: misnamed, name: python:lsp-ruff }
 - { addflag: misnamed, name: python:lsp-server }
-- { addflag: misnamed, name: python:ly,      wwwpart: python-ly }
 - { addflag: misnamed, name: python:ly,      ruleset: pclinuxos }
+- { addflag: misnamed, name: python:ly,      wwwpart: python-ly }
+- { addflag: misnamed, name: python:lzo }
 - { addflag: misnamed, name: python:magic,   wwwpart: [ahupp/python-magic,pypi/python-magic] }
+- { addflag: misnamed, name: python:magnumclient }
+- { addflag: misnamed, name: python:manilaclient }
+- { addflag: misnamed, name: python:markdown-math }
+- { addflag: misnamed, name: python:mbedtls }
+- { addflag: misnamed, name: python:memcached }
 - { addflag: misnamed, name: python:migrate, wwwpart: sqlalchemy-migrate }
+- { addflag: misnamed, name: python:miio }
+- { addflag: misnamed, name: python:mistralclient }
+- { addflag: misnamed, name: python:mpd }
+- { addflag: misnamed, name: python:mpd2 }
+- { addflag: misnamed, name: python:mpv-jsonipc }
+- { addflag: misnamed, name: python:musicpd }
+- { addflag: misnamed, name: python:mystrom }
+- { addflag: misnamed, name: python:neutronclient }
+- { addflag: misnamed, name: python:nmap }
+- { addflag: misnamed, name: python:novaclient }
+- { addflag: misnamed, name: python:octaviaclient }
+- { addflag: misnamed, name: python:opendata-transport }
+- { addflag: misnamed, name: python:openid }
+- { addflag: misnamed, name: python:openid-cla }
+- { addflag: misnamed, name: python:openid-teams }
 - { addflag: misnamed, name: python:osc,     wwwpart: attwad }
+- { addflag: misnamed, name: python:otbr-api }
+- { addflag: misnamed, name: python:otr }
+- { addflag: misnamed, name: python:potr }
 - { addflag: misnamed, name: python:pptx }
+- { addflag: misnamed, name: python:pskc }
 - { addflag: misnamed, name: python:publicsuffix-list }
+- { addflag: misnamed, name: python:python-bidi, wwwpart: bidict }
 - { addflag: misnamed, name: python:python-lz4 }
+- { addflag: misnamed, name: python:python-mpd2, wwwpat: ".*python-mpd(/.*|$)" }
 - { addflag: misnamed, name: python:python-tabulate }
 - { addflag: misnamed, name: python:pyyaml,  wwwpart: pyyaml-ft }
+- { addflag: misnamed, name: python:rapidjson }
+- { addflag: misnamed, name: python:redmine }
 - { addflag: misnamed, name: python:reparser, verge: "3" } # version and sources from unrelated proeject
+- { addflag: misnamed, name: python:stdnum }
+- { addflag: misnamed, name: python:string-utils }
+- { addflag: misnamed, name: python:swiftclient }
 - { addflag: misnamed, name: python:tz,      wwwpart: pytz }
+- { addflag: misnamed, name: python:u2flib-host }
+- { addflag: misnamed, name: python:uinput }
+- { addflag: misnamed, name: python:vagrant }
 - { addflag: misnamed, name: python:vlc,     wwwpart: videolan.org }
+- { addflag: misnamed, name: python:xmp-toolkit }
+- { addflag: misnamed, name: python:zaqarclient }
 - { addflag: misnamed, name: python:zopecomponent }
 - { addflag: misnamed, name: python:zopeevent }
 - { addflag: misnamed, name: python:zopeinterface }
 - { addflag: misnamed, name: python:zopetesting }
+- { addflag: misnamed, name: python:zunclient }
 - { addflag: misnamed, name: r:air,          wwwpart: posit-dev }
 - { addflag: misnamed, name: rapidfuzz } # aither an unprefixed python module, or misnamed rapidfuzz-cpp
 - { addflag: misnamed, name: rott,           wwwpart: fabiangreffrath }
