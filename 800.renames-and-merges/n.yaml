@@ -126,6 +126,7 @@
 - { setname: ninja-irc,                name: irc-ninja }
 - { setname: nitro,                    name: [init-nitro, pdal-nitro] } # split int 850
 - { setname: nitro,                    name: nitro-beta, weak_devel: true, nolegacy: true }
+- { setname: nix-init,                 name: rust:$0 }
 - { setname: nixnote2,                 name: nixnote }
 - { setname: nlohmann-json,            name: [json-c++,json-modern-cxx,nlohmann-json-cpp,nlohmann-json3,jsonformoderncpp] }
 - { setname: nmap,                     name: [nmap-graphical, zenmap], addflavor: zenmap }
