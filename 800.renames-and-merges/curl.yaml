@@ -1,12 +1,13 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- { setname: curl, name: [curl3, libcurl4, libcurl, libcurl-compat] }
+- { setname: curl, name: [curl3, libcurl4, curl811, libcurl, libcurl-compat] }
 
 - setname: curl
   name:
-    - curl-ca-bundle
     - curl-c-ares
+    - curl-ca-bundle
     - curl-gnutls
+    - curl-http-only
     - curl-http2
     - curl-http3
     - curl-http3-msquic
@@ -17,10 +18,12 @@
     - curl-quic
     - curl-rustls
     - curl-ssh
-    - libcurl3-gnutls
+    - curl-static
     - libcurl-compat-minimal
     - libcurl-compat-nostatic
     - libcurl-gnutls
     - libcurl-gnutls-minimal
     - libcurl-openssl-1.0
+    - libcurl3-gnutls
+    - libcurl4-openssl
   addflavor: true
