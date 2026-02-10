@@ -180,6 +180,7 @@
 - { name: xsettings-kde,                                             ruleset: openmandriva, untrusted: true } # accused of fake 0.12.3.2
 - { name: xsettingsd,                  ver: "1.0.0.2",               ruleset: freebsd,     incorrect: true }
 - { name: xsettingsd,                                                ruleset: freebsd,     untrusted: true } # accused of fake 1.0.0.2
+- { name: xskat,                       verpat: ".*-.*",                                    incorrect: true }
 - { name: xsnow,                       ver: "2.0.9",                 ruleset: debuntu,     incorrect: true }
 - { name: xsnow,                                                     ruleset: debuntu,     untrusted: true } # accused of fake 2.0.9
 - { name: xsnow,                       ver: "3.9.1",                 ruleset: freebsd,     incorrect: true } # 3.9.1.pre03
