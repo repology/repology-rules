@@ -45,6 +45,7 @@
 - { addflag: misnamed, name: python:appstream } # either py-appstream, python-appstream, or appstream-python
 - { addflag: misnamed, name: python:argocomplete }
 - { addflag: misnamed, name: python:asn1-modules } # pyasn1-modules
+- { addflag: misnamed, name: python:asynctools, wwwpart: pypi.org/project/python-asynctools }
 - { addflag: misnamed, name: python:barbicanclient }
 - { addflag: misnamed, name: python:bidi }
 - { addflag: misnamed, name: python:binary-memcached }
@@ -56,6 +57,7 @@
 - { addflag: misnamed, name: python:cjson }
 - { addflag: misnamed, name: python:cryptodome } # pycryptodome
 - { addflag: misnamed, name: python:cryptodomex } # pycryptodomex
+- { addflag: misnamed, name: python:ctags } # python-ctags or python-ctags3
 - { addflag: misnamed, name: python:curl } # pycurl
 - { addflag: misnamed, name: python:datastruct, wwwpart: kuba2k2 } # py-datastruct
 - { addflag: misnamed, name: python:dbusmock }
@@ -71,12 +73,14 @@
 - { addflag: misnamed, name: python:efl }
 - { addflag: misnamed, name: python:elftools } # pyelftools
 - { addflag: misnamed, name: python:engineio }
+- { addflag: misnamed, name: python:epsg } # pyepsg or python-epsg
 - { addflag: misnamed, name: python:exif,    wwwpart: exif-py }
 - { addflag: misnamed, name: python:fakefs } # pyfakefs
 - { addflag: misnamed, name: python:gammu }
 - { addflag: misnamed, name: python:gbinder-python }
 - { addflag: misnamed, name: python:gettext }
 - { addflag: misnamed, name: python:gflags }
+- { addflag: misnamed, name: python:git2 } # pygit2
 - { addflag: misnamed, name: python:glanceclient }
 - { addflag: misnamed, name: python:gvm }
 - { addflag: misnamed, name: python:hanko } # pyhanko
@@ -84,16 +88,20 @@
 - { addflag: misnamed, name: python:heatclient }
 - { addflag: misnamed, name: python:himitsu } # py-himitsu
 - { addflag: misnamed, name: python:hpilo }
+- { addflag: misnamed, name: python:imgur } # py-imgur
 - { addflag: misnamed, name: python:iptables }
+- { addflag: misnamed, name: python:irodsclient } # python-irodsclient
 - { addflag: misnamed, name: python:ironicclient }
 - { addflag: misnamed, name: python:jellyfin-apiclient } # jellyfin-apiclient-python
 - { addflag: misnamed, name: python:jsonrpc-server }
 - { addflag: misnamed, name: python:jsonschema-objects }
+- { addflag: misnamed, name: python:kcs11 } # pykcs11
 - { addflag: misnamed, name: python:last } # pylast
 - { addflag: misnamed, name: python:libacl } # pylibacl
 - { addflag: misnamed, name: python:libdiscid }
 - { addflag: misnamed, name: python:liblzma } # pyliblzma
 - { addflag: misnamed, name: python:libnmap }
+- { addflag: misnamed, name: python:ligo-lw } # python-ligo-lw
 - { addflag: misnamed, name: python:lsp-black }
 - { addflag: misnamed, name: python:lsp-isort }
 - { addflag: misnamed, name: python:lsp-jsonrpc }
@@ -105,20 +113,24 @@
 - { addflag: misnamed, name: python:lzma } # pylzma
 - { addflag: misnamed, name: python:lzo }
 - { addflag: misnamed, name: python:macaroons } # pymacaroons
-- { addflag: misnamed, name: python:magic,   wwwpart: [ahupp/python-magic,pypi/python-magic] }
+- { addflag: misnamed, name: python:magic,   wwwpart: [ahupp/python-magic,pypi/python-magic,pypi.org/project/python-magic] }
 - { addflag: misnamed, name: python:magnumclient }
 - { addflag: misnamed, name: python:manilaclient }
 - { addflag: misnamed, name: python:markdown-it } # markdown-it-py
 - { addflag: misnamed, name: python:markdown-math }
+- { addflag: misnamed, name: python:masakariclient } # python-masakariclient
 - { addflag: misnamed, name: python:mbedtls }
+- { addflag: misnamed, name: python:mdown-extensions } # pymdown-extensions
 - { addflag: misnamed, name: python:memcached }
 - { addflag: misnamed, name: python:metno } # pymetno
 - { addflag: misnamed, name: python:migrate, wwwpart: sqlalchemy-migrate }
 - { addflag: misnamed, name: python:miio }
 - { addflag: misnamed, name: python:mistralclient }
+- { addflag: misnamed, name: python:monetdb } # pymonetdb, python-monetdb
 - { addflag: misnamed, name: python:mpd }
 - { addflag: misnamed, name: python:mpd2 }
 - { addflag: misnamed, name: python:mpv-jsonipc }
+- { addflag: misnamed, name: python:msilib } # pymsilib of python-msilib
 - { addflag: misnamed, name: python:multibase } # py-multibase
 - { addflag: misnamed, name: python:multicodec } # py-multicodec
 - { addflag: misnamed, name: python:musicpd }
@@ -127,6 +139,7 @@
 - { addflag: misnamed, name: python:nmap }
 - { addflag: misnamed, name: python:nmea2 } # pynmea2
 - { addflag: misnamed, name: python:novaclient }
+- { addflag: misnamed, name: python:nvidia-ml } # nvidia-ml-py, nvidia-ml-py3
 - { addflag: misnamed, name: python:nvml } # pynvml
 - { addflag: misnamed, name: python:octaviaclient }
 - { addflag: misnamed, name: python:opencv } # opencv-python
@@ -167,6 +180,7 @@
 - { addflag: misnamed, name: python:saml2 } # pysaml2
 - { addflag: misnamed, name: python:scientific } # scientificpython
 - { addflag: misnamed, name: python:sdl2 } # pysdl2
+- { addflag: misnamed, name: python:senlinclient } # python-senlinclient
 - { addflag: misnamed, name: python:simplesoap } # pysimplesoap
 - { addflag: misnamed, name: python:smb, wwwpart: pysmb }
 - { addflag: misnamed, name: python:smbc } # pysmbc
@@ -179,47 +193,85 @@
 - { addflag: misnamed, name: python:tado } # pytado or python-tado
 - { addflag: misnamed, name: python:test, wwwpart: pytest } # pytest
 - { addflag: misnamed, name: python:test-aiohttp } # pytest-aiohttp
-- { addflag: misnamed, name: python:test-aiohttp } # pytest-aiohttp
+- { addflag: misnamed, name: python:test-arraydiff } # pypytest-arraydiff
+- { addflag: misnamed, name: python:test-assume } # pypytest-assume
+- { addflag: misnamed, name: python:test-astropy } # pypytest-astropy
 - { addflag: misnamed, name: python:test-astropy-header } # pytest-astropy-header
-- { addflag: misnamed, name: python:test-astropy-header } # pytest-benchmark
 - { addflag: misnamed, name: python:test-asyncio } # pytest-asyncio
-- { addflag: misnamed, name: python:test-asyncio } # pytest-asyncio
-- { addflag: misnamed, name: python:test-benchmark } # pytest-benchmark
 - { addflag: misnamed, name: python:test-benchmark } # pytest-benchmark
 - { addflag: misnamed, name: python:test-celery } # pytest-celery
 - { addflag: misnamed, name: python:test-check } # pytest-check
+- { addflag: misnamed, name: python:test-checkdocs } # pypytest-checkdocs
 - { addflag: misnamed, name: python:test-codspeed } # pytest-codspeed
 - { addflag: misnamed, name: python:test-console-scripts } # pytest-console-scripts
 - { addflag: misnamed, name: python:test-cov } # pytest-cov
+- { addflag: misnamed, name: python:test-datadir } # pypytest-datadir
 - { addflag: misnamed, name: python:test-datafiles } # pytest-datafiles
+- { addflag: misnamed, name: python:test-django } # pypytest-django
+- { addflag: misnamed, name: python:test-docker-tools } # pypytest-docker-tools
 - { addflag: misnamed, name: python:test-doctestplus } # pytest-doctestplus
+- { addflag: misnamed, name: python:test-env } # pypytest-env
+- { addflag: misnamed, name: python:test-examples } # pypytest-examples
 - { addflag: misnamed, name: python:test-expect } # pytest-expect
+- { addflag: misnamed, name: python:test-filter-subpackage } # pypytest-filter-subpackage
+- { addflag: misnamed, name: python:test-fixture-config } # pypytest-fixture-config
 - { addflag: misnamed, name: python:test-flake8 } # pytest-flake8
 - { addflag: misnamed, name: python:test-forked } # pytest-forked
+- { addflag: misnamed, name: python:test-freezer } # pypytest-freezer
+- { addflag: misnamed, name: python:test-home }
+- { addflag: misnamed, name: python:test-html }
 - { addflag: misnamed, name: python:test-httpbin } # pytest-httpbin
 - { addflag: misnamed, name: python:test-httpserver } # pytest-httpserver
+- { addflag: misnamed, name: python:test-httpx }
 - { addflag: misnamed, name: python:test-instafail } # pytest-instafail
 - { addflag: misnamed, name: python:test-isort } # pytest-isort
 - { addflag: misnamed, name: python:test-jupyter } # pytest-jupyter
 - { addflag: misnamed, name: python:test-lazy-fixture } # pytest-lazy-fixture
+- { addflag: misnamed, name: python:test-lazy-fixtures }
 - { addflag: misnamed, name: python:test-localserver } # pytest-localserver
+- { addflag: misnamed, name: python:test-metadata }
 - { addflag: misnamed, name: python:test-mock } # pytest-mock
+- { addflag: misnamed, name: python:test-mypy }
+- { addflag: misnamed, name: python:test-mypy-plugins }
+- { addflag: misnamed, name: python:test-mypy-testing }
 - { addflag: misnamed, name: python:test-order } # pytest-order
+- { addflag: misnamed, name: python:test-perf }
+- { addflag: misnamed, name: python:test-plus }
 - { addflag: misnamed, name: python:test-pretty } # pytest-pretty
+- { addflag: misnamed, name: python:test-pylint }
+- { addflag: misnamed, name: python:test-pythonpath }
+- { addflag: misnamed, name: python:test-random-order }
+- { addflag: misnamed, name: python:test-randomly }
 - { addflag: misnamed, name: python:test-relaxed } # pytest-relaxed
 - { addflag: misnamed, name: python:test-remotedata } # pytest-remotedata
+- { addflag: misnamed, name: python:test-rerunfailures }
 - { addflag: misnamed, name: python:test-run-parallel } # pytest-run-parallel
+- { addflag: misnamed, name: python:test-sanic }
+- { addflag: misnamed, name: python:test-shutil }
+- { addflag: misnamed, name: python:test-snapshot }
+- { addflag: misnamed, name: python:test-socket }
+- { addflag: misnamed, name: python:test-subprocess }
+- { addflag: misnamed, name: python:test-subtesthack }
+- { addflag: misnamed, name: python:test-subtests }
+- { addflag: misnamed, name: python:test-testmon }
+- { addflag: misnamed, name: python:test-textual-snapshot }
 - { addflag: misnamed, name: python:test-timeout } # pytest-timeout
 - { addflag: misnamed, name: python:test-trio } # pytest-trio
+- { addflag: misnamed, name: python:test-vcr }
+- { addflag: misnamed, name: python:test-virtualenv }
+- { addflag: misnamed, name: python:test-watch }
 - { addflag: misnamed, name: python:test-xdist } # pytest-xdist
 - { addflag: misnamed, name: python:test-xprocess } # pytest-xprocess
+- { addflag: misnamed, name: python:texttools } # texttoolspy or python-texttools
 - { addflag: misnamed, name: python:tz,      wwwpart: pytz }
 - { addflag: misnamed, name: python:u-msgpack } # u-msgpack-python
 - { addflag: misnamed, name: python:u2flib-host }
 - { addflag: misnamed, name: python:ubjson } # py-ubjson
 - { addflag: misnamed, name: python:udev } # pyudev
 - { addflag: misnamed, name: python:uinput }
+- { addflag: misnamed, name: python:umlgraph } # pyumlgraph
 - { addflag: misnamed, name: python:undefined } # either undefined-python, python-undefined, or py-undefined
+- { addflag: misnamed, name: python:usbtmc } # python-usbtmc
 - { addflag: misnamed, name: python:vagrant } # python-vagrant or vagrantpy
 - { addflag: misnamed, name: python:vertica } # vertica-python
 - { addflag: misnamed, name: python:vlc,     wwwpart: videolan.org }
