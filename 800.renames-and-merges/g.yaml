@@ -573,6 +573,7 @@
 - { setname: gutenprint,               name: [gimp-gutenprint,gimp-print,gutenprint-gimp,gutenprint-lib] } # gimp-print is a former name
 - { setname: guvcview,                 name: [guvcview-qt,guvcview-qt5,guvcview-gtk], addflavor: true }
 - { setname: gvfs,                     name: gvfs-nosystemd, addflavor: true }
+- { setname: gvisor,                   name: [go:$0,go:$0-$0] }
 - { setname: gvrng,                    name: guido-van-robot }
 - { setname: gwenhywfar,               namepat: "(?:lib)?gwenhywfar[0-9]*(-(?:fox|gtk|qt)[0-9]*)?", addflavor: $1 }
 - { setname: gwt,                      name: webtoolkit-java-sdk }
