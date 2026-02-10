@@ -357,6 +357,7 @@
 - { name: grive2,                      verpat: "0\\.5\\.1.*",        ruleset: [pclinuxos,openwrt,freebsd], incorrect: true }
 - { name: grive2,                                                    ruleset: [pclinuxos,openwrt,freebsd], untrusted: true }
 - { name: grok,                        verpat: "1\\.20[0-9]{6}.*",                         sink: true }
+- { name: grpcui,                      ver: "1.5.1",                                       sink: true } # retracted: https://github.com/fullstorydev/grpcui/pull/364
 - { name: grub,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: grub,                        verpat: "0\\.97.+",                                 snapshot: true } # garbage version in legacy branch
 - { name: grub,                        ver: "2.14",                  ruleset: [parrot,pclinuxos], incorrect: true }
