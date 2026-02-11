@@ -450,6 +450,9 @@
 - { name: python:exif, wwwpart: exif-py, setname: python:exifread } # XXX: problem
 - { name: python:exif, addflag: unclassified }
 
+- { name: python:gdl, wwwpart: gnudatalanguage, setname: gnudatalanguage, addflavor: python }
+- { name: python:gdl, addflag: unclassified }
+
 - { name: python:gnuplot, sourceforge: gnuplot-py, setname: gnuplot-py }
 - { name: python:gnuplot, addflag: unclassified }
 
