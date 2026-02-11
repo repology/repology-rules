@@ -606,7 +606,8 @@
 - { name: stack, wwwpart: transip, setname: stack-storage }
 - { name: stack, addflag: unclassified }
 
-- { name: star, wwwpart: [berlios,freecode,s-tar,cdrtools,schilytools], setname: star-tar } # XXX: single or multiple projects?
+- { name: star, sourceforge: s-tar, setname: s-tar }
+- { name: star, wwwpart: schilytools, setname: schilytools, addflavor: star }
 - { name: star, wwwpart: alexdobin, setname: rna-star } # already used in 3 families
 - { name: star, addflag: unclassified }
 
