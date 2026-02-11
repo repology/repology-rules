@@ -293,6 +293,7 @@
 - { name: goocanvasmm,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: google-authenticator,        verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: google-authenticator-libpam, verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: google-chrome,               verge: "146",                                       devel: true, maintenance: true } # latest stable mentioned at https://chromereleases.googleblog.com/, needs update every major stable promotion
 - { name: googlecl,                    ver: "0.9.15.1",              ruleset: freebsd,     incorrect: true }
 - { name: googlecl,                                                  ruleset: freebsd,     untrusted: true }
 - { name: goom,                        verpat: "2004(.*)",                                 setver: "2k4$1" }
