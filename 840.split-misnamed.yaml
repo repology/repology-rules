@@ -39,6 +39,7 @@
 - { addflag: misnamed, name: procinfo,       wwwpart: procinfo-ng }
 - { addflag: misnamed, name: proxychains,    wwwpart: proxychains-ng }
 - { addflag: misnamed, name: public-suffix }
+- { addflag: misnamed, name: python:3parclient } # python-3parclient
 - { addflag: misnamed, name: python:aalib }
 - { addflag: misnamed, name: python:acoustid } # py-acoustid
 - { addflag: misnamed, name: python:afl }
@@ -49,16 +50,20 @@
 - { addflag: misnamed, name: python:barbicanclient }
 - { addflag: misnamed, name: python:bidi }
 - { addflag: misnamed, name: python:binary-memcached }
+- { addflag: misnamed, name: python:blazarclient } # python-blazarclient
 - { addflag: misnamed, name: python:btchip } # btchip-python
 - { addflag: misnamed, name: python:cares } # pycares
+- { addflag: misnamed, name: python:casacore } # python-casacore
 - { addflag: misnamed, name: python:cheetah, verge: "3" }
 - { addflag: misnamed, name: python:cinderclient }
 - { addflag: misnamed, name: python:circe } # either python-circe or circe-py
 - { addflag: misnamed, name: python:cjson }
+- { addflag: misnamed, name: python:cloudkittyclient } # python-cloudkittyclient
 - { addflag: misnamed, name: python:cryptodome } # pycryptodome
 - { addflag: misnamed, name: python:cryptodomex } # pycryptodomex
 - { addflag: misnamed, name: python:ctags } # python-ctags or python-ctags3
 - { addflag: misnamed, name: python:curl } # pycurl
+- { addflag: misnamed, name: python:cyborgclient } # python-cyborgclient
 - { addflag: misnamed, name: python:datastruct, wwwpart: kuba2k2 } # py-datastruct
 - { addflag: misnamed, name: python:dbusmock }
 - { addflag: misnamed, name: python:debian }
@@ -69,6 +74,8 @@
 - { addflag: misnamed, name: python:dkim } # dkimpy
 - { addflag: misnamed, name: python:docs-theme }
 - { addflag: misnamed, name: python:doi }
+- { addflag: misnamed, name: python:dracclient } # python-dracclient
+- { addflag: misnamed, name: python:ecore } # python-ecore, pyecore
 - { addflag: misnamed, name: python:edgegrid } # edgegrid-python
 - { addflag: misnamed, name: python:efl }
 - { addflag: misnamed, name: python:elftools } # pyelftools
@@ -76,34 +83,46 @@
 - { addflag: misnamed, name: python:epsg } # pyepsg or python-epsg
 - { addflag: misnamed, name: python:espeak } # espeak-py, python-espeak
 - { addflag: misnamed, name: python:espeak-ng } # espeak-ng-python, py-espeak-ng, python-espeak-ng
+- { addflag: misnamed, name: python:exconsole } # python-exconsole
 - { addflag: misnamed, name: python:exif,    wwwpart: exif-py }
 - { addflag: misnamed, name: python:fakefs } # pyfakefs
+- { addflag: misnamed, name: python:freezerclient } # python-freezerclient
 - { addflag: misnamed, name: python:gammu }
 - { addflag: misnamed, name: python:gbinder-python }
 - { addflag: misnamed, name: python:gettext }
 - { addflag: misnamed, name: python:gflags }
+- { addflag: misnamed, name: python:gilt } # python-gilt
 - { addflag: misnamed, name: python:git2 } # pygit2
 - { addflag: misnamed, name: python:glanceclient }
+- { addflag: misnamed, name: python:googlesearch } # googlesearch-python, google
 - { addflag: misnamed, name: python:gvm }
 - { addflag: misnamed, name: python:hanko } # pyhanko
 - { addflag: misnamed, name: python:hanko-certvalidator } # pyhanko-certvalidator
 - { addflag: misnamed, name: python:heatclient }
 - { addflag: misnamed, name: python:himitsu } # py-himitsu
+- { addflag: misnamed, name: python:hiq, wwwpart: oracle } # hiq-python
 - { addflag: misnamed, name: python:hpilo }
+- { addflag: misnamed, name: python:humps, wwwpart: nficano } # pyhumps
+- { addflag: misnamed, name: python:imaging } # pillow
 - { addflag: misnamed, name: python:imgur } # py-imgur
 - { addflag: misnamed, name: python:iptables }
 - { addflag: misnamed, name: python:irodsclient } # python-irodsclient
+- { addflag: misnamed, name: python:ironic-inspector-client } # python-ironic-inspector-client
 - { addflag: misnamed, name: python:ironicclient }
 - { addflag: misnamed, name: python:jellyfin-apiclient } # jellyfin-apiclient-python
 - { addflag: misnamed, name: python:jsonrpc-server }
 - { addflag: misnamed, name: python:jsonschema-objects }
 - { addflag: misnamed, name: python:kcs11 } # pykcs11
+- { addflag: misnamed, name: python:keyczar } # python-keyczar
+- { addflag: misnamed, name: python:language-server } # python-language-server
 - { addflag: misnamed, name: python:last } # pylast
 - { addflag: misnamed, name: python:libacl } # pylibacl
 - { addflag: misnamed, name: python:libdiscid }
+- { addflag: misnamed, name: python:libeconf } # python-libeconf
 - { addflag: misnamed, name: python:liblzma } # pyliblzma
 - { addflag: misnamed, name: python:libnmap }
 - { addflag: misnamed, name: python:ligo-lw } # python-ligo-lw
+- { addflag: misnamed, name: python:linstor } # python-linstor
 - { addflag: misnamed, name: python:lsp-black }
 - { addflag: misnamed, name: python:lsp-isort }
 - { addflag: misnamed, name: python:lsp-jsonrpc }
@@ -115,6 +134,7 @@
 - { addflag: misnamed, name: python:lzma } # pylzma
 - { addflag: misnamed, name: python:lzo }
 - { addflag: misnamed, name: python:macaroons } # pymacaroons
+- { addflag: misnamed, name: python:magic,   ruleset: opensuse } # python-magic
 - { addflag: misnamed, name: python:magic,   wwwpart: [ahupp/python-magic,pypi/python-magic,pypi.org/project/python-magic] }
 - { addflag: misnamed, name: python:magnumclient }
 - { addflag: misnamed, name: python:manilaclient }
@@ -124,10 +144,13 @@
 - { addflag: misnamed, name: python:mbedtls }
 - { addflag: misnamed, name: python:mdown-extensions } # pymdown-extensions
 - { addflag: misnamed, name: python:memcached }
+- { addflag: misnamed, name: python:metalink } # pymetalink
 - { addflag: misnamed, name: python:metno } # pymetno
 - { addflag: misnamed, name: python:migrate, wwwpart: sqlalchemy-migrate }
 - { addflag: misnamed, name: python:miio }
+- { addflag: misnamed, name: python:minify } # pyminify, minifypy
 - { addflag: misnamed, name: python:mistralclient }
+- { addflag: misnamed, name: python:monascaclient } # python-monascaclient
 - { addflag: misnamed, name: python:monetdb } # pymonetdb, python-monetdb
 - { addflag: misnamed, name: python:mpd }
 - { addflag: misnamed, name: python:mpd2 }
@@ -144,8 +167,10 @@
 - { addflag: misnamed, name: python:nvidia-ml } # nvidia-ml-py, nvidia-ml-py3
 - { addflag: misnamed, name: python:nvml } # pynvml
 - { addflag: misnamed, name: python:octaviaclient }
+- { addflag: misnamed, name: python:opencl } # pyopencl
 - { addflag: misnamed, name: python:opencv } # opencv-python
 - { addflag: misnamed, name: python:opendata-transport }
+- { addflag: misnamed, name: python:opengl-accelerate } # pyopengl-accelerate
 - { addflag: misnamed, name: python:openid }
 - { addflag: misnamed, name: python:openid-cla }
 - { addflag: misnamed, name: python:openid-teams }
@@ -159,9 +184,11 @@
 - { addflag: misnamed, name: python:parted } # either pyparted or python-parted
 - { addflag: misnamed, name: python:peg2 } # pypeg2
 - { addflag: misnamed, name: python:perf } # pyperf
+- { addflag: misnamed, name: python:pil } # pillow
 - { addflag: misnamed, name: python:plum } # plum-py
 - { addflag: misnamed, name: python:policyd-spf } # pypolicyd-spf
 - { addflag: misnamed, name: python:postfix-policyd-spf } # pypolicyd-spf
+- { addflag: misnamed, name: python:postgresql } # python-postgresql, pygresql
 - { addflag: misnamed, name: python:potr }
 - { addflag: misnamed, name: python:pptx }
 - { addflag: misnamed, name: python:pskc }
@@ -193,6 +220,7 @@
 - { addflag: misnamed, name: python:string-utils }
 - { addflag: misnamed, name: python:swiftclient }
 - { addflag: misnamed, name: python:tado } # pytado or python-tado
+- { addflag: misnamed, name: python:tcxparser } # python-tcxparser
 - { addflag: misnamed, name: python:test, wwwpart: pytest } # pytest
 - { addflag: misnamed, name: python:test-aiohttp } # pytest-aiohttp
 - { addflag: misnamed, name: python:test-arraydiff } # pypytest-arraydiff
@@ -265,6 +293,7 @@
 - { addflag: misnamed, name: python:test-xdist } # pytest-xdist
 - { addflag: misnamed, name: python:test-xprocess } # pytest-xprocess
 - { addflag: misnamed, name: python:texttools } # texttoolspy or python-texttools
+- { addflag: misnamed, name: python:tidy } # utidylib?
 - { addflag: misnamed, name: python:tz,      wwwpart: pytz }
 - { addflag: misnamed, name: python:u-msgpack } # u-msgpack-python
 - { addflag: misnamed, name: python:u2flib-host }
@@ -276,6 +305,7 @@
 - { addflag: misnamed, name: python:usbtmc } # python-usbtmc
 - { addflag: misnamed, name: python:vagrant } # python-vagrant or vagrantpy
 - { addflag: misnamed, name: python:vertica } # vertica-python
+- { addflag: misnamed, name: python:vitrageclient } # python-vitrageclient
 - { addflag: misnamed, name: python:vlc,     wwwpart: videolan.org }
 - { addflag: misnamed, name: python:webvtt } # webvtt-py
 - { addflag: misnamed, name: python:winrm } # pywinrm
