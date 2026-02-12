@@ -17,6 +17,7 @@
 - { name: gitextensions,                         verlonger: 3,       ruleset: windows,     ignore: true } # build numbers: https://github.com/gitextensions/gitextensions/releases
 - { name: gnucash,                                                   ruleset: windows,     ignore: true } # build numbers: https://sourceforge.net/projects/gnucash/files/gnucash (stable)/3.5/
 - { name: goldendict,        verpat: "[0-9]+(\\.[0-9]+){2}-[0-9]+",  ruleset: windows,     altver: true } # build numbers: https://sourceforge.net/projects/goldendict/files/goldendict/1.0/
+- { name: google-chrome,                                             ruleset: [windows,macosxbins], ignore: true }
 - { name: hamachi,                                                   ruleset: [windows,macosxbins], ignore: true }
 - { name: jad,                                                       ruleset: macosxbins,  ignore: true } # https://varaneckas.com/jad/
 - { name: kate,                                                      ruleset: windows,     ignore: true } # build numbers: https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Release_win64/lastSuccessfulBuild/artifact/kate-20.08.0-981-windows-msvc2019_64-cl-sideload.appx
