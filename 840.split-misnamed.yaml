@@ -40,24 +40,32 @@
 - { addflag: misnamed, name: proxychains,    wwwpart: proxychains-ng }
 - { addflag: misnamed, name: public-suffix }
 - { addflag: misnamed, name: python:3parclient } # python-3parclient
+- { addflag: misnamed, name: python:aaf2 } # pyaaf2
 - { addflag: misnamed, name: python:aalib }
 - { addflag: misnamed, name: python:acoustid } # py-acoustid
+- { addflag: misnamed, name: python:adjutantclient } # python-adjutantclient
 - { addflag: misnamed, name: python:afl }
+- { addflag: misnamed, name: python:alpm } # python-alpm, pyalpm
 - { addflag: misnamed, name: python:appstream } # either py-appstream, python-appstream, or appstream-python
 - { addflag: misnamed, name: python:argocomplete }
 - { addflag: misnamed, name: python:asn1-modules } # pyasn1-modules
+- { addflag: misnamed, name: python:asyncore } # pyasyncore
 - { addflag: misnamed, name: python:asynctools, wwwpart: pypi.org/project/python-asynctools }
 - { addflag: misnamed, name: python:barbicanclient }
 - { addflag: misnamed, name: python:bidi }
 - { addflag: misnamed, name: python:binary-memcached }
 - { addflag: misnamed, name: python:blazarclient } # python-blazarclient
 - { addflag: misnamed, name: python:btchip } # btchip-python
+- { addflag: misnamed, name: python:calamine } # python-calamine
 - { addflag: misnamed, name: python:caption } # pycaption
 - { addflag: misnamed, name: python:cares } # pycares
 - { addflag: misnamed, name: python:casacore } # python-casacore
+- { addflag: misnamed, name: python:cddl } # pycddl
 - { addflag: misnamed, name: python:cflow2dot } # pycflow2dot
+- { addflag: misnamed, name: python:chalk } # chalk-diagrams
 - { addflag: misnamed, name: python:cheetah, verge: "3" }
 - { addflag: misnamed, name: python:chromecast } # pychromecast
+- { addflag: misnamed, name: python:chroot } # pychroot
 - { addflag: misnamed, name: python:cinderclient }
 - { addflag: misnamed, name: python:circe } # either python-circe or circe-py
 - { addflag: misnamed, name: python:cjson }
@@ -93,8 +101,10 @@
 - { addflag: misnamed, name: python:flakes } # pyflakes
 - { addflag: misnamed, name: python:freezerclient } # python-freezerclient
 - { addflag: misnamed, name: python:ftpdlib } # pyftpdlib
+- { addflag: misnamed, name: python:fuse3 } # pyfuse3
 - { addflag: misnamed, name: python:gammu }
 - { addflag: misnamed, name: python:gbinder-python }
+- { addflag: misnamed, name: python:geofilter } # pygeofilter
 - { addflag: misnamed, name: python:gettext }
 - { addflag: misnamed, name: python:gflags }
 - { addflag: misnamed, name: python:gilt } # python-gilt
@@ -164,6 +174,7 @@
 - { addflag: misnamed, name: python:msilib } # pymsilib of python-msilib
 - { addflag: misnamed, name: python:multibase } # py-multibase
 - { addflag: misnamed, name: python:multicodec } # py-multicodec
+- { addflag: misnamed, name: python:muranoclient } # python-muranoclient
 - { addflag: misnamed, name: python:musicpd }
 - { addflag: misnamed, name: python:mystrom }
 - { addflag: misnamed, name: python:neutronclient }
@@ -189,6 +200,7 @@
 - { addflag: misnamed, name: python:owm } # pyowm
 - { addflag: misnamed, name: python:packageurl } # packageurl-python
 - { addflag: misnamed, name: python:parted } # either pyparted or python-parted
+- { addflag: misnamed, name: python:pcre } # python-pcre
 - { addflag: misnamed, name: python:peg2 } # pypeg2
 - { addflag: misnamed, name: python:perf } # pyperf
 - { addflag: misnamed, name: python:pil } # pillow
@@ -210,7 +222,11 @@
 - { addflag: misnamed, name: python:pyyaml,  wwwpart: pyyaml-ft }
 - { addflag: misnamed, name: python:qt-builder } # pyqt-builder
 - { addflag: misnamed, name: python:qt6 } # pyqt6
+- { addflag: misnamed, name: python:qt6-charts } # pyqt6-charts
+- { addflag: misnamed, name: python:qt6-graphs } # pyqt6-graphs
+- { addflag: misnamed, name: python:qt6-networkauth } # pyqt6-networkauth
 - { addflag: misnamed, name: python:qt6-webengine } # pyqt6-webengine
+- { addflag: misnamed, name: python:qtwebengine } # pyqtwebengine
 - { addflag: misnamed, name: python:rapidjson }
 - { addflag: misnamed, name: python:redmine }
 - { addflag: misnamed, name: python:reparser, verge: "3" } # version and sources from unrelated proeject
@@ -228,6 +244,7 @@
 - { addflag: misnamed, name: python:stdnum }
 - { addflag: misnamed, name: python:string-utils }
 - { addflag: misnamed, name: python:swiftclient }
+- { addflag: misnamed, name: python:tackerclient } # python-tackerclient
 - { addflag: misnamed, name: python:tado } # pytado or python-tado
 - { addflag: misnamed, name: python:tcxparser } # python-tcxparser
 - { addflag: misnamed, name: python:test, wwwpart: pytest } # pytest
