@@ -425,6 +425,7 @@
 - { setname: putty,                    name: [putty-gtk2,putty-nogtk], addflavor: true }
 - { setname: pyalsa,                   name: ["python:alsa","python:pyalsa"] }
 - { setname: pyatspi,                  name: "python:atspi" }
+- { setname: pybugz,                   name: [bugz, python:pybugz] }
 - { setname: pycharm,                  name: [pycharm-ce,pycharm-community,pycharm-community-eap,pycharm-community-edition], addflavor: community }
 - { setname: pycharm,                  name: intellij-pycharm }
 - { setname: pycharm,                  name: pycharm-eap } # EAP versions handled with other rules
