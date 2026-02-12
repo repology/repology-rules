@@ -265,6 +265,7 @@
 - { name: mpv,                         ver: "0.30.0",                ruleset: [openmandriva,opensuse], incorrect: true } # fake
 - { name: mpv,                                                       ruleset: [openmandriva,opensuse], untrusted: true } # accused of fake 0.30.0
 - { name: mpv,                         verpat: ".*20[0-9]{6}",                             snapshot: true } # funtoo
+- { name: mpv,                                                       ruleset: npackd,      sink: true, vulnerable: true } # fakes 0.4.0 as 0.41
 - { name: mpv-sponsorblock,                                                                noscheme: true }
 - { name: mpv-thumbnail-script,        verpat: "20[0-9]{2}.*",                             incorrect: true } # nix
 - { name: mrboom,                      verpat: ".*20[0-9]{6}",                             snapshot: true } # haikuports
