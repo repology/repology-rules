@@ -79,6 +79,8 @@
 - { name: figlet,                      ver: "222",                                         ignore: true } # haikuports
 - { name: file-roller,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: filelight,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: filezilla,                   ver: "3.96.6",                ruleset: pisi,        incorrect: true }
+- { name: filezilla,                                                 ruleset: pisi,        untrusted: true } # accused of fake 3.96.6
 - { name: fim,                         ver: "0.5.3",                                       incorrect: true } # 0.5rc3
 - { name: fim,                         verpat: "(.*)trunk",                                setver: $1, devel: true }
 - { name: fim,                         ver: "0.6",                                         devel: true }
