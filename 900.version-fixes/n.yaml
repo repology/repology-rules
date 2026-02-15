@@ -4,6 +4,7 @@
 - { name: nano,                        verpat: ".*-.*",              ruleset: scoop,       snapshot: true }
 - { name: nano-syntax-highlighting,    verpat: "[0-9]{5}.*",                               incorrect: true } # YYYY.MM.DD
 - { name: nanosvg,                                                                         noscheme: true }
+- { name: nanovg,                                                                          noscheme: true }
 - { name: nasm,                        ver: "2.16.02",               ruleset: mageia,      incorrect: true } # (cauldron)
 - { name: nasm,                                                      ruleset: mageia,      untrusted: true } # accused of fake 2.16.02 (cauldron)
 - { name: nastran-95,                                                                      noscheme: true } # https://github.com/nasa/NASTRAN-95/releases
