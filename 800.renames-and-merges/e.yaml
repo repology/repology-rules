@@ -25,7 +25,7 @@
 - { setname: ecrire,                   name: ecrire-git }
 - { setname: ecryptfs-utils,           name: ecryptfs}
 - { setname: ed,                       name: ged }
-- { setname: eden,                     name: eden-preview, weak_devel: true, nolegacy: true }
+- { setname: eden,                     name: [eden-preview,eden-beta], weak_devel: true, nolegacy: true }
 - { setname: edgar,                    name: [the-legend-of-edgar,legend-of-edgar,legendofedgar] }
 - { setname: edgedriver,               name: [edgedriver-legacy, msedgedriver-stable, selenium-chromium-edge-driver, selenium-edge-driver] }
 - { setname: edgedriver,               name: [edgedriver-canary, edgedriver-dev, msedgedriver-beta, msedgedriver-dev], weak_devel: true, nolegacy: true }
