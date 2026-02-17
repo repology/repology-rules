@@ -181,7 +181,8 @@
 - { setname: eventlog,                 name: libevtlog }
 - { setname: everything,               name: everythingse, addflavor: true }
 - { setname: everything,               name: everything.beta, weak_devel: true, nolegacy: true }
-- { setname: evince,                   name: [evince-gtk3,evince-light,evince-lite,evince2,evince2-light,evince-no-gnome,evince-lcdfilter] }
+- { setname: evince,                   name: [evince-gtk2,evince-gtk3,evince2,evince3] }
+- { setname: evince,                   name: [evince-light,evince-lite,evince2-light,evince-no-gnome,evince-lcdfilter], addflavor: true }
 - { setname: evolus-pencil,            name: evoluspencil }
 - { setname: evolution-etesync,        name: $0-legacy }
 - { setname: evolver,                  name: [surface-evolver, surfaceevolver] }
