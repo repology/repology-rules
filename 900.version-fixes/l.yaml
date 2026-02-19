@@ -12,9 +12,12 @@
 - { name: lal-refactor,                verpat: ".*w",                                      devel: true }
 - { name: lal-refactor,                ver: "25.2.0",                ruleset: pkgsrc,      incorrect: true }
 - { name: lal-refactor,                                              ruleset: pkgsrc,      untrusted: true } # accused of fake 25.2.0
-- { name: lame,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: lame,                        verpat: ".+20[0-9]{6}",                             snapshot: true }
+- { name: lame,                        verpat: ".+[0-9]{4}",                               snapshot: true } # svn revisions
 - { name: lame,                        ver: "3.100.1",               ruleset: [deepin,scoop], incorrect: true }
 - { name: lame,                                                      ruleset: [deepin,scoop], untrusted: true } # accused of fake 3.100.1
+- { name: lame,                        releq: "3.101",               ruleset: [arch,aur,debuntu,openbsd], incorrect: true }
+- { name: lame,                                                      ruleset: [arch,aur,debuntu,openbsd], untrusted: true } # accused of fake 3.101*
 - { name: lammps,                                                    ruleset: [fedora,opensuse], untrusted: true } # accused of packaging prerelease versions
 - { name: langkit,                     verpat: ".*w",                                      devel: true }
 - { name: langkit,                     verpat: "20[0-9]{2}.*",                             sink: true }
