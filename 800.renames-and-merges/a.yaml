@@ -209,7 +209,7 @@
 - { setname: amzn-drivers,             name: [ena, dkms-ena, ena-driver], addflavor: true }
 - { setname: anacron2,                 name: anacron, verpat: "2\\.[4-9].*" } # different project (a fork?)
 - { setname: anari-sdk,                name: anari }
-- { setname: android-file-transfer,    name: [android-file-transfer-linux,android-file-transfer-qt4,android-file-transfer-qt5], addflavor: true }
+- { setname: android-file-transfer,    name: [android-file-transfer-linux,android-file-transfer-qt4,android-file-transfer-qt5,android-file-transfer-cli], addflavor: true }
 - { setname: android-simg2img,         name: simg2img }
 - { setname: android-studio,           name: [android-studio-beta,android-studio-canary,android-studio-dummy,android-studio-preview,android-studio-dev,androidstudio.beta,androidstudio.canary], weak_devel: true, nolegacy: true } # these could be devel, but they do often fall behind, and due to viral devel property be safe and ignore them
 - { setname: android-studio,           name: [android-studio-ide,android-studio-stable,androidstudio] }
