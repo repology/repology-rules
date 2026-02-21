@@ -230,6 +230,9 @@
 - { name: anaconda, wwwpart: [fedoraproject,rhinstaller], setname: anaconda-installer }
 - { name: anaconda, addflag: unclassified }
 
+- { name: android-file-transfer, wwwpart: whoozle, setname: woozle-$0 }
+- { name: android-file-transfer, addflag: unclassified }
+
 - { name: android-tools, wwwpart: nmeum, setname: $0-nmeum }
 - { name: android-tools, wwwpart: [https://developer.android.com, https://android.googlesource.com/], setname: $0-upstream }
 - { name: android-tools, addflag: unclassified }
