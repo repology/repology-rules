@@ -190,6 +190,8 @@
 - { name: busybox,                     verpat: ".*musl.*",                                 incorrect: true } # nix garbage
 - { name: busybox,                                                   ruleset: fdroid,      devel: false } # accused of fake devel 1.31.1
 - { name: busybox,                     verpat: "([0-9]+\\.){2}0+",                         devel: true } # X.Y.0 versions are (assumed) unstable
+- { name: busybox,                     ver: "1.38.0",                ruleset: reactos,     incorrect: true }
+- { name: busybox,                                                   ruleset: reactos,     untrusted: true } # accused of fake 1.38.0
 - { name: byobu,                       ver: "5.126",                 ruleset: debuntu,     incorrect: true }
 - { name: byobu,                                                     ruleset: debuntu,     untrusted: true }
 - { name: byzanz,                                                                          outdated: true } # abandonware since 2016
