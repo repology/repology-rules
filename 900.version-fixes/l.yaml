@@ -261,7 +261,6 @@
 - { name: lv2:fogpad,                  ver: "1.0.0.3",                                     incorrect: true }
 - { name: lv2:fogpad,                                                ruleset: freebsd,     untrusted: true } # accused of fake 1.0.0.3
 - { name: "lv2:noise-repellent",       verpat: ".*\\.20[0-9]{6}",                          snapshot: true }
-- { name: lxc,                         wwwpart: lxd,                                       incorrect: true }
 - { name: lxdm,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: lxpanel,                     verlonger: 3,                 ruleset: slitaz,      incorrect: true }
 - { name: lxsplit,                     verlonger: 3,                 ruleset: openbsd,     incorrect: true } # "1." component prepended
