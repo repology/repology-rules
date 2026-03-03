@@ -15,6 +15,7 @@
 - { name: xanim,                                                     ruleset: t2,          untrusted: true } # accused of fake 2801
 - { name: xantfarm,                    verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: xapian-core,                 verpat: "[0-9]{3}",                                 incorrect: true } # homebrew
+- { name: xapian-core,                 verpat: "1\\.[0-9]*[13579]\\..*",                   devel: true } # https://trac.xapian.org/wiki/RoadMap
 - { name: xar,                         verpat: ".*?[^0-9]([0-9]{3}.*)",                    setver: "$1" } # apple fork, though configure.ac says 1.8dev, apple uses higher versions such as 487.100.1
 - { name: xaralx,                      verpat: ".*1750",                                   snapshot: true } # > stable < devel
 - { name: xastir,                      verpat: "[0-9]{3}",                                 incorrect: true } # XXX: problem
