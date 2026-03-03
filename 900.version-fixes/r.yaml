@@ -65,6 +65,7 @@
 - { name: readline,                    ver: "8.3",                   ruleset: opensuse,    incorrect: true }
 - { name: readline,                                                  ruleset: opensuse,    untrusted: true } # accused of fake 8.3
 - { name: readseq,                                                                         noscheme: true } # circa 93; version numbers and software distributions were not invented yet
+- { name: reap,                        verpat: ".*unreleased",                             incorrect: true }
 - { name: recode,                      ver: "3.7-2fd838565",                               ignore: true }
 - { name: recode,                      verpat: ".*20[0-9]{4}.*",                           ignore: true }
 - { name: recode,                      verge: "3.7",                                       successor: true } # fork
