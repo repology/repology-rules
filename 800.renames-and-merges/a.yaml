@@ -474,7 +474,7 @@
 - { setname: awesome,                  name: awesome-luajit, addflavor: jit }
 - { setname: awesome,                  namepat: "awesome[0-9.-]+" }
 - { setname: awf,                      name: awf-git, weak_devel: true, nolegacy: true }
-- { setname: awf,                      name: [awf-gtk, awf-gtk2, awf-gtk3, awf-gtk4, awf-extended], addflavor: true }
+- { setname: awf,                      name: [awf-gtk, awf-gtk2, awf-gtk3, awf-gtk4, awf-extended, awf-qt, awf-qt5, awf-qt6], addflavor: true }
 - { setname: awk,                      name: [one-true-awk, nawk, onetrueawk, original-awk] } # split int 850
 - { setname: aws-assume-role,          name: assume-role }
 - { setname: aws-cw-tools,             name: cloud-watch }
