@@ -315,6 +315,7 @@
 - { setname: mmtf-cpp,                 name: libmmtf }
 - { setname: moc,                      name: moc-pulse, addflavor: pulse }
 - { setname: moc,                      name: mocp }
+- { setname: mockery,                  name: go:mockery }
 - { setname: mockgen,                  name: [go:github-golang-mock, go:github-mock, go:mockgen, go:googlecode-gomock] } # just for the sake of version rule
 - { setname: modeltest-ng,             name: [modeltest-ng-mpi, modeltest-ng-portable], addflavor: true }
 - { setname: modemmanager,             name: modem-manager }
