@@ -395,7 +395,10 @@
 - { name: autotrace,                   verpat: ".*20[0-9]{6}.*",                           snapshot: true } # 0.31.1 latest
 - { name: av1an,                       ver: ["5.5.4","6.1.5"],                             sink: true } # legacy python code removed from the main repo
 - { name: avahi,                       ver: "0.9",                   ruleset: arch,        incorrect: true }
-- { name: avahi,                                                     ruleset: arch,        untrusted: true } # accused of fake 0.9 (archpower)
+- { name: avahi,                                                     ruleset: arch,        untrusted: true, vulnerable: true } # accused of fake 0.9 (archpower)
+- { name: avahi,                       verpat: "20[0-9]{2}.*",                             incorrect: true, vulnerable: true }
+- { name: avahi,                       verge: "20000000", verlt: "20260127",               sink: true, vulnerable: true } # 0.9-rc3 from 20260127
+- { name: avahi,                       ver: "0.8",                                         outdated: true } # gravely vulnerable
 - { name: avidemux,                    ver: "2.7.7",                 ruleset: rpm,         incorrect: true }
 - { name: avidemux,                                                  ruleset: rpm,         untrusted: true } # accused of fake 2.7.7
 - { name: avidemux,                    ver: "2.7.8.210306",          ruleset: winget,      incorrect: true }
