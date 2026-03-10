@@ -71,6 +71,10 @@
 - { name: scip, wwwpart: scipopt, setname: scip-solver }
 - { name: scip, addflag: unclassified }
 
+- { name: sciplot, wwwpart: [github.com/sciplot/sciplot, sciplot.github.io], addflag: classified }
+# otherwise some ancient x11 widget
+- { name: sciplot, addflag: unclassified }
+
 - { name: scli, wwwpart: isamert, setname: scli-signal-cli }
 - { name: scli, wwwpart: [schoenw,tu-bs.de], setname: scli-snmp-cli }
 - { name: scli, addflag: unclassified }
