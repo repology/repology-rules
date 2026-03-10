@@ -116,7 +116,7 @@
 - { setname: getdata,                  name: libgetdata }
 - { setname: getdns,                   name: "python:getdns" }
 - { setname: getfem++,                 name: getfemxx }
-- { setname: getmail,                  name: [getmail4,getmail6,"python:getmail","python:getmail6"] }
+- { setname: getmail,                  name: [getmail4,getmail5,getmail6,python:getmail,python:getmail6] }
 - { setname: getopt,                   name: [gnugetopt,gnu-getopt,gnu.getopt] }
 - { setname: getquotes,                name: rust:$0 }
 - { setname: gexiv2,                   namepat: "(?:lib)?gexiv2[0-9.-]*" }
