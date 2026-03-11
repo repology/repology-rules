@@ -109,6 +109,8 @@
 - { name: vpnc,                        ver: "0.5.3.1",               ruleset: chakra,      incorrect: true } # fake
 - { name: vpnc,                                                      ruleset: chakra,      untrusted: true } # accused of fake 0.5.3.1
 - { name: vpnc,                        verpat: "0.5.3.*p.*",                               snapshot: true }
+- { name: vsce,                        ver: "3.7.2",                 ruleset: aur,         incorrect: true } # 3.7.2-1 https://github.com/microsoft/vscode-vsce/releases/tag/v3.7.2-1
+- { name: vsce,                                                      ruleset: aur,         untrusted: true } # accused of fake 3.7.2
 - { name: vscode,                      verpat: "([0-9]+\\.){3}[0-9a-f]{6}.*",              incorrect: true } # winget garbage
 - { name: vscode,                      verpat: "[0-9]+",                                   incorrect: true } # aur garbage
 - { name: vscode,                      ver: "1.56.0",                ruleset: funtoo,      incorrect: true } # fakes insider as release
