@@ -174,6 +174,10 @@
 
 # Nginx modules
 - { setname: "nginx:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_nginx], namepat: "nginx(?:-mainline)?-mod-(.*)" }
+- { setname: "nginx:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_nginx], namepat: "libnginx-mod-(.*)", ruleset: debuntu }
+- { setname: "nginx:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_nginx], namepat: "nginx-(.*)-module", ruleset: guix }
+- { setname: "nginx:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_nginx], namepat: "nginx-module-(.*)", ruleset: opensuse }
+- { setname: "nginx:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_nginx], namepat: "ngx-(.*)", ruleset: gentoo }
 
 # Nodejs
 - { setname: "node:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_node], category: [nodePackages,nodePackages_latest], ruleset: nix }
