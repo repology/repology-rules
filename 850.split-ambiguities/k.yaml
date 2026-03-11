@@ -31,6 +31,10 @@
 # otherwise upstreamless kanji code converter
 - { name: kcc, addflag: unclassified }
 
+- { name: kcl, wwwpart: kcl-lang, setname: kcl-lang }
+- { name: kcl, wwwpart: twmb, setname: kcl-kafka }
+- { name: kcl, addflag: unclassified }
+
 - { name: kcp, wwwpart: bvaudour, setname: kcp-kaos-community-packages }
 - { name: kcp, wwwpart: kcp-dev, setname: kcp-control-plane }
 - { name: kcp, wwwpart: skywind3000, setname: kcp-arq-protocol }
