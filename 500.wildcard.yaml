@@ -173,7 +173,9 @@
 - { setname: "nextcloud:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_nextcloud], namepat: "nextcloud-app-(.*)", ruleset: arch }
 
 # Nginx modules
-- { setname: "nginx:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_nginx], namepat: "nginx(?:-mainline)?-mod-(.*)" }
+- { setname: "nginx:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_nginx], namepat: "(?:lib)?nginx(?:-mainline)?-mod(?:ule)?-(.*)" }
+- { setname: "nginx:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_nginx], namepat: "nginx-(.*)-module" }
+- { setname: "nginx:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_nginx], namepat: "ngx-(.*)", ruleset: gentoo }
 
 # Nodejs
 - { setname: "node:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_node], category: [nodePackages,nodePackages_latest], ruleset: nix }
