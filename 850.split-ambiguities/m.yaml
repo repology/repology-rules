@@ -264,7 +264,8 @@
 - { name: mini-httpd, wwwpart: nongnu, setname: mini-httpd-nongnu }
 - { name: mini-httpd, addflag: unclassified }
 
-- { name: minify, setname: "go:minify", wwwpart: tdewolff }
+- { name: minify, wwwpart: dewolff, setname: go:$0 }
+- { name: minify, addflag: unclassified }
 
 - { name: minit, wwwpart: ckyln, setname: minit-ckyln }
 - { name: minit, wwwpart: cemkeylan, setname: minit-ckyln }
