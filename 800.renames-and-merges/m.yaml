@@ -36,6 +36,7 @@
 - { setname: mandoc,                   name: mdocml } # mdocml is an old name (schwarze@openbsd.org)
 - { setname: mandown,                  name: rust:$0 }
 - { setname: mangle,                   name: rust:$0 }
+- { setname: mangowm,                  name: mangowc, outdated: true } # https://github.com/mangowm/mango/commit/811610e481714df988b6602d7b20fedb4c68ac4c
 - { setname: manimce,                  name: python:manim }
 - { setname: manimgl,                  name: python:$0 }
 - { setname: manpages,                 name: [man-pages,linux-man-pages,linux-manpages,man-pages-linux] }
