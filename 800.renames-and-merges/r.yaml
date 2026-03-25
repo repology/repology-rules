@@ -163,6 +163,8 @@
 - { setname: rstudio,                  name: [rstudio-server-preview], addflavor: server, weak_devel: true, nolegacy: true }
 - { setname: rsync,                    name: rsync2 }
 - { setname: rsync,                    name: [rsync-reflink, rrsync, rsync-ovz], addflavor: true }
+- { setname: rt,                       namepat: "request-tracker[0-9.-]+" }
+- { setname: rt,                       namepat: "rt[0-9.-]+" }
 - { setname: rtaudio,                  name: rt-audio }
 - { setname: rtl8814au,                name: rtl8814au-dkms, addflavor: dkms }
 - { setname: rtl8821ce,                name: $0-lts }
