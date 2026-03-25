@@ -221,6 +221,10 @@
 
 - { name: rsync, wwwpart: cwrsync, setname: cwrsync }
 
+- { name: rt, wwwpart: unvalley, setname: $0-task-runner }
+- { name: rt, wwwpart: requesttracker.com, setname: $0-request-tracker }
+- { name: rt, addflag: unclassified }
+
 - { name: rtf2html, sourceforge: rtf2html, addflag: classified }
 - { name: rtf2html, addflag: unclassified }
 
