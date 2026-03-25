@@ -429,6 +429,10 @@
 - { name: puma, wwwpart: [puma.io,github.com/puma/puma], setname: ruby:puma }
 - { name: puma, addflag: unclassified }
 
+- { name: purl, wwwpart: [stripe/purl,purl.dev], setname: purl-payment-curl }
+# also ancient abandoned python url module
+- { name: purl, addflag: unclassified }
+
 - { name: pwm, wwwpart: pwm-project, setname: pwm-password-self-service }
 # otherwise, a tabbed window manaker, ion successor
 
