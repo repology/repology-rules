@@ -484,6 +484,7 @@
 - { setname: supervisor,               name: [supervisord, python:$0] }
 - { setname: surf,                     name: surf2 }
 - { setname: surf-alggeo,              name: surf-geometry }
+- { setname: surfer,                   name: [surfer-gallery, surfer-waveform] } # split in 850
 - { setname: surge,                    name: [surge-synthesizer, surge-synth] }
 - { setname: surge,                    name: surge-complete, addflavor: true }
 - { setname: surge,                    name: surge-synthesizer-lv2, addflavor: lv2 }
