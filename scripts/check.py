@@ -348,6 +348,7 @@ schema = Schema(
         'incorrect': bool,
         'untrusted': bool,
         'noscheme': bool,
+        'recalled': bool,
         'rolling': bool,
         'snapshot': bool,
         'successor': bool,
