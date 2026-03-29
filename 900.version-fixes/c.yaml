@@ -220,6 +220,7 @@
 - { name: cl-trivial-features,                                       ruleset: freebsd,     untrusted: true } # accused of fake 2010.01.16
 - { name: cl-trivial-gray-streams,                                                         noscheme: true }
 - { name: clamav,                      verpat: "[0-9]{4}",                                 sink: true } # ancient version from wikidata
+- { name: clamtk,                      ver: "6.19",                                        incorrect: true }
 - { name: claws-mail,                  verlonger: 3,                 ruleset: pisi,        incorrect: true }
 - { name: claws-mail,                                                ruleset: pisi,        untrusted: true }
 - { name: claws-mail,                  ver: "3.99.0",                ruleset: nix,         incorrect: true }
