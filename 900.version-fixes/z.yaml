@@ -60,7 +60,7 @@
 - { name: zoneminder,                                                ruleset: slackbuilds, untrusted: true }
 - { name: zoo,                         ver: "2.10_22",               ruleset: slackware,   incorrect: true }
 - { name: zoo,                                                       ruleset: slackware,   untrusted: true }
-- { name: zookeeper,                   ver: "3.4.11",                                      sink: true } # buggy version recalled by upstream
+- { name: zookeeper,                   ver: "3.4.11",                                      recalled: true } # buggy version recalled by upstream
 - { name: zoom-videoconference,                                                            noscheme: true } # different schemes for same release, different schemes for different oses
 - { name: zork,                                                                            noscheme: true } # various ancient releases and abandoned forks
 - { name: zpaq,                        verpat: "[0-9]+",                                   incorrect: true } # 7.15, not 715
