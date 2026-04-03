@@ -19,7 +19,7 @@
 - { setname: cabin,                    name: cabinpkg }
 - { setname: cachix,                   name: haskell:$0 }
 - { setname: cacti-spine,              name: cacti-cactid } # cactid renamed to spine upstream
-- { setname: caddy,                    name: [caddy-full,caddy-with-cgi,caddy-no-telemetry,caddy-with-quic, caddy-bin], addflavor: true }
+- { setname: caddy,                    name: [$0-full,$0-with-cgi,$0-no-telemetry,$0-with-quic,$0-bin,$0-cloudflare,$0-cloudflare-l4,$0-desec,$0-dnspod,$0-he,$0-hetzner,$0-l4,$0-multiplugins,$0-naiveproxy,$0-naiveproxy-trojan,$0-trojan], addflavor: true }
 - { setname: caddy,                    name: caddy2 }
 - { setname: caffe,                    name: [caffe-1-0-gnu-hpc,caffe-contrib,caffe-cpu,caffe-cuda,caffe-opencl], addflavor: true }
 - { setname: caffeine,                 name: [caffeine-cache, caffeine-indicator, python:cups-of-caffeine] } # different projects, split in 850
