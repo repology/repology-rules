@@ -236,6 +236,9 @@
 - { setname: lychee,                   name: "rust:lychee" }
 - { setname: lynx,                     name: [lynx-cur,lynx-current] }
 - { setname: lyrebird,                 name: lyrebird-proxy }
+- { setname: lyrionmusicserver,        name: [logitechmediaserver, logitech-media-server, squeezecenter], outdated: true } # older names
+- { setname: lyrionmusicserver,        name: perl:slimserver }
+- { setname: lyrionmusicserver,        name: slimserver } # still used as repository name
 - { setname: lyx,                      name: lyx1 }
 - { setname: lz4,                      name: liblz4 }
 - { setname: lz4json,                  name: lz4jsoncat }
