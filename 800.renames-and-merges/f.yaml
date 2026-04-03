@@ -40,6 +40,7 @@
 - { setname: fcgi,                     name: [fcgi-devkit,libfcgi, fastcgi] }
 - { setname: fcgi-cgi,                 name: fcgi-cgi-static, addflavor: static }
 - { setname: fcitx,                    name: [fcitx-gtk2,fcitx-gtk3,fcitx-qt4,fcitx-gtk], addflavor: true } # but qt5 is different project
+- { setname: fcitx-gtk,                name: [fcitx5-gtk2, fcitx5-gtk3, fcitx5-gtk4], addflavor: true }
 - { setname: fcitx-mozc,               name: [fcitx-mozc,fcitx5-mozc,fcitx5-mozc-ext-neologd,fcitx-mozc-ut,fcitx5-mozc-ut], addflavor: true }
 - { setname: fcitx-qt5,                name: libfcitx-qt5 }
 - { setname: fcp,                      name: "rust:fcp" }
