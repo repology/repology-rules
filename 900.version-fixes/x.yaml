@@ -175,6 +175,7 @@
 - { name: xrdp,                                                      ruleset: sisyphus,    untrusted: true } # Accused of fake 0.9.12.1
 - { name: xroach,                      verge: "12",                  ruleset: [opensuse,rpmsphere], incorrect: true }
 - { name: xrootconsole,                verlonger: 2,                 ruleset: void,        debianism: true }
+- { name: xrt,                         verpat: "20[0-9]{2}.*",                             sink: true }
 - { name: xsel,                        verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: xsel,                        ver: "1.2.0.10032022",                              incorrect: true }
 - { name: xsel,                                                      ruleset: pisi,        untrusted: true } # accused of fake 1.2.0.10032022
