@@ -106,6 +106,8 @@
 - { setname: nginx,                    name: nginx-mainline-boringssl, addflavor: boringssl }
 - { setname: nginx,                    name: nginx-mainline-openssl-weak, addflavor: openssl-weak }
 - { setname: nginx,                    name: [nginx-rtmp,nginx-lite,nginx-extras,nginx-quic-libressl,nginxquic,nginx-quic], addflavor: true }
+- { setname: nginx:acme,               name: nginx:http-acme } # XXX: problem (misnamed)
+- { setname: nginx:acme,               name: [nginx-acme, freenginx-devel-acme, nginx-devel-acme], addflavor: true } # freebsd variants
 - { setname: ngircd,                   name: ngircd-pam, addflavor: true }
 - { setname: ngs,                      name: [ngs-lang, ngslang, java-ngs, ngs-python, ngs-sdk] } # two projects, split in 850
 - { setname: ngspice,                  name: [libngspice,ng-spice,ngspice-docs,ngspice-rework,ngspice-shared], addflavor: true }
