@@ -28,6 +28,11 @@
 - { name: undocker, wwwpart: larsks, setname: $0-extractor }
 - { name: undocker, addflag: unclassified }
 
+- { name: unfurl, wwwpart: obsidianforensics, setname: $0-url-explain }
+- { name: unfurl, wwwpart: tomnomnom, setname: $0-url-manip }
+- { name: unfurl, wwwpart: onecommons, setname: $0-deploy }
+- { name: unfurl, addflag: unclassified }
+
 # emulator vs. ruby-rack http server
 - { name: unicorn, wwwpart: unicorn-engine, setname: unicorn-engine }
 - { name: unicorn, wwwpart: bogomips.org, setname: "ruby:unicorn" }
