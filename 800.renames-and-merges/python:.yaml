@@ -22,7 +22,6 @@
 - { setname: python:backports.shutil-which, name: shutil-which }
 - { setname: python:backports.ssl-match-hostname, namepat: "(?:python:)?backports?-ssl-match-hostname" }
 - { setname: python:beautifulsoup4,    namepat: "(?:python:)?beautifulsoup[0-9.]*" } # target name as per PyPI name; python:beautifulsoup (version 3.x) is obsolete
-- { setname: python:beautifulsoup4,    name: python:bs4 } # XXX: package to prevent name squatting, incorrect as package name
 - { setname: python:bepasty,           name: bepasty }
 - { setname: python:bicyclerepair,     name: bicyclerepair }
 - { setname: python:bitarray,          name: bitarray } # XXX: make upstream use prefix
@@ -44,7 +43,6 @@
 - { setname: python:cherrypy,          name: cherrypy }
 - { setname: python:cherrypy,          name: cherrypy3 }
 - { setname: python:chump,             name: chump }
-- { setname: python:cld2,              name: pycld2 }
 - { setname: python:coherence,         name: coherence }
 - { setname: python:colorama,          name: python:colorama-0.3.3 }
 - { setname: python:colorama,          name: colorama } # XXX: make upstream use prefix
@@ -60,7 +58,6 @@
 - { setname: python:cython,            name: python:cython-doc, addflavor: doc }
 - { setname: python:cython,            name: [python:cython-devel,python:cython-next], weak_devel: true, nolegacy: true }
 - { setname: python:darts.util.lru,    name: darts.util.lru } # XXX: make upstream use prefix
-- { setname: python:dbus-python,       name: [python:dbus,python:dbus-common] } # as per PyPi
 - { setname: python:dbus-python,       name: [dbus-python-common,pydbus-common] }
 - { setname: python:dbus-python,       namepat: "dbus(-1)?-python[0-9]*" }
 - { setname: python:deap,              name: deap }

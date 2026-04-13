@@ -64,9 +64,9 @@
 - { addflag: misnamed, name: python:3parclient } # python-3parclient
 - { addflag: misnamed, name: python:aaf2 } # pyaaf2
 - { addflag: misnamed, name: python:aalib }
-- { addflag: misnamed, name: python:absl, wwwpart: abseil-py } # absl-py
 - { addflag: misnamed, name: python:abseil } # absl-py
 - { addflag: misnamed, name: python:abseil-py } # absl-py
+- { addflag: misnamed, name: python:absl, wwwpart: abseil-py } # absl-py
 - { addflag: misnamed, name: python:acoustid } # py-acoustid
 - { addflag: misnamed, name: python:adjutantclient } # python-adjutantclient
 - { addflag: misnamed, name: python:afl }
@@ -83,6 +83,7 @@
 - { addflag: misnamed, name: python:binary-memcached }
 - { addflag: misnamed, name: python:blazarclient } # python-blazarclient
 - { addflag: misnamed, name: python:boost, wwwpart: boost.org }
+- { addflag: misnamed, name: python:bs4 } # package to prevent name squatting, incorrect as package name; correct name is beautifulsoup4
 - { addflag: misnamed, name: python:btchip } # btchip-python
 - { addflag: misnamed, name: python:bugz } # either python:pybugz (by its pyproject.toml and thus potential pypi name), pybugz (prefix absence is ok since it's an application), or bugz (by executable name)
 - { addflag: misnamed, name: python:calamine } # python-calamine
@@ -98,6 +99,7 @@
 - { addflag: misnamed, name: python:cinderclient }
 - { addflag: misnamed, name: python:circe } # either python-circe or circe-py
 - { addflag: misnamed, name: python:cjson }
+- { addflag: misnamed, name: python:cld2 } # pycld2
 - { addflag: misnamed, name: python:cloudkittyclient } # python-cloudkittyclient
 - { addflag: misnamed, name: python:cmake, ruleset: ravenports }
 - { addflag: misnamed, name: python:cryptodome } # pycryptodome
@@ -107,6 +109,7 @@
 - { addflag: misnamed, name: python:curl } # pycurl
 - { addflag: misnamed, name: python:cyborgclient } # python-cyborgclient
 - { addflag: misnamed, name: python:datastruct, wwwpart: kuba2k2 } # py-datastruct
+- { addflag: misnamed, name: python:dbus } # dbus-python
 - { addflag: misnamed, name: python:dbusmock }
 - { addflag: misnamed, name: python:debian }
 - { addflag: misnamed, name: python:debianbts }
