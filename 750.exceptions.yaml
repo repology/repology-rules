@@ -4,6 +4,8 @@
 # List of splits which meed to be processed before merges, as it'd be
 # hard to split these afterwards
 #
+# TODO: Convert these to misnamed
+#
 
 - { setname: dash,                     name: ash, ruleset: sisyphus } # XXX: problem
 - { setname: libdmx,                   name: xorg-dmx, ruleset: ravenports } # don't mix with xorg dmx server
@@ -130,3 +132,15 @@
 - { setname: "python:librouteros",     name: librouteros, wwwpart: luqasz }
 - { setname: "python:colorful",        name: colorful, wwwpart: timofurrer }
 - { setname: ovh-ttyrec,               name: ttyrec, wwwpart: ovh-ttyrec, outdated: true }
+
+- { addflag: misnamed, name: libqrtr,        wwwpart: libqrtr-glib }
+
+- flag: misnamed
+  addflag: misnamed_once
+  noflag: misnamed_once
+  setname: $0-misnamed
+  outdated: true
+  ignore: false
+  rolling: false
+  untrusted: false
+  nolegacy: true

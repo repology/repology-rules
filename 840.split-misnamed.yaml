@@ -1,5 +1,7 @@
 # vim: tabstop=29 expandtab softtabstop=29 nomodeline
 
+# XXX: move these to 750?
+
 - { addflag: misnamed, name: ant-dracula-theme } # same as dracula-theme + obsolete prefix
 - { addflag: misnamed, name: chaos,          wwwpart: chaos-client }
 - { addflag: misnamed, name: cwc,            wwwpart: cwcwm }
@@ -27,7 +29,6 @@
 - { addflag: misnamed, name: ipa } # either freeipa or perl:prima-ipa
 - { addflag: misnamed, name: kubernetes,     wwwpart: kubernetes-client/c }
 - { addflag: misnamed, name: libart-lgpl,    wwwpart: trinity }
-- { addflag: misnamed, name: libqrtr,        wwwpart: libqrtr-glib }
 - { addflag: misnamed, name: libshell,       wwwpart: ksh }
 - { addflag: misnamed, name: libusb,         wwwpart: [configobj, python-libusb1] } # pisi
 - { addflag: misnamed, name: luajit,         wwwpart: [openresty, moonjit] }
@@ -418,6 +419,8 @@
 - { addflag: misnamed, name: zopeinterface }
 
 - flag: misnamed
+  addflag: misnamed_once
+  noflag: misnamed_once
   setname: $0-misnamed
   outdated: true
   ignore: false
