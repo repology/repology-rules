@@ -215,6 +215,7 @@ flags = [
     'libusb3380',
     'mingw_once',
     'misnamed',
+    'misnamed_once',
     'no_suffix',
     'not_apache',
     'not_chromium',
