@@ -1,8 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { setname: l-smash,                  name: lsmash }
-- { setname: l-smash-works,            name: ["vapoursynth:l-smash-works", "vapoursynth:lsmashsource"], addflavor: vapoursynth }
-- { setname: labelme,                  name: "python:labelme" }
+- { setname: l-smash-works,            name: [vapoursynth:l-smash-works, vapoursynth:lsmashsource], addflavor: vapoursynth }
+- { setname: labelme,                  name: python:$0 }
 - { setname: labplot,                  name: [labplot-kf5, labplot2] }
 - { setname: labplot,                  name: $0-nightly, weak_devel: true, nolegacy: true }
 - { setname: labymodlauncher,          name: labymod-launcher }
@@ -10,15 +10,15 @@
 - { setname: ladish,                   name: ladish-no-gui, addflavor: true }
 - { setname: ladspa,                   name: ladspa-sdk }
 - { setname: ladspa-cmt,               name: [ladspa-cmt-plugins, cmt-plugins] }
-- { setname: lal,                      name: ["octave:lal","python:lal"], addflavor: true }
-- { setname: lalburst,                 name: ["octave:lalburst","python:lalburst"], addflavor: true }
-- { setname: lalframe,                 name: ["octave:lalframe","python:lalframe"], addflavor: true }
-- { setname: lalinference,             name: ["octave:lalinference","python:lalinference"], addflavor: true }
-- { setname: lalinspiral,              name: ["octave:lalinspiral","python:lalinspiral"], addflavor: true }
-- { setname: lalmetaio,                name: ["octave:lalmetaio","python:lalmetaio"], addflavor: true }
-- { setname: lalpulsar,                name: ["octave:lalpulsar","python:lalpulsar"], addflavor: true }
-- { setname: lalsimulation,            name: ["octave:lalsimulation","python:lalsimulation"], addflavor: true }
-- { setname: lambdahack,               name: "haskell:lambdahack" }
+- { setname: lal,                      name: [octave:lal,python:lal], addflavor: true }
+- { setname: lalburst,                 name: [octave:lalburst,python:lalburst], addflavor: true }
+- { setname: lalframe,                 name: [octave:lalframe,python:lalframe], addflavor: true }
+- { setname: lalinference,             name: [octave:lalinference,python:lalinference], addflavor: true }
+- { setname: lalinspiral,              name: [octave:lalinspiral,python:lalinspiral], addflavor: true }
+- { setname: lalmetaio,                name: [octave:lalmetaio,python:lalmetaio], addflavor: true }
+- { setname: lalpulsar,                name: [octave:lalpulsar,python:lalpulsar], addflavor: true }
+- { setname: lalsimulation,            name: [octave:lalsimulation,python:lalsimulation], addflavor: true }
+- { setname: lambdahack,               name: haskell:$0 }
 - { setname: lame,                     name: [libmp3lame, mp3lame] }
 - { setname: lammps,                   name: lammps-beta, weak_devel: true, nolegacy: true }
 - { setname: langkit,                  name: langkit-support, addflavor: support }
@@ -48,15 +48,15 @@
 - { setname: ldb,                      namepat: "(?:lib)?ldb[0-9]*" }
 - { setname: ldc,                      name: liblphobos, addflavor: true }
 - { setname: ldid,                     name: ldid-procursus } # see #786
-- { setname: ldns,                     name: "perl:dns-ldns", wwwpart: nlnetlabs, addflavor: perl } # part of
-- { setname: ldns,                     name: "python:ldns", addflavor: python }
+- { setname: ldns,                     name: perl:dns-ldns, wwwpart: nlnetlabs, addflavor: perl } # part of
+- { setname: ldns,                     name: python:$0, addflavor: python }
 - { setname: ldns,                     name: [ldns-tools,ldns-utils] }
 - { setname: leaf,                     name: leaf-proxy } # split int 850
 - { setname: leatherman,               name: libleatherman }
 - { setname: ledger-live-desktop,      name: ledger-live-bin, addflavor: bin }
 - { setname: ledger-live-desktop,      name: [ledger-live, ledgerlive] }
 - { setname: legba,                    name: rust:$0 }
-- { setname: legendary,                name: [legendary-gl, "python:legendary-gl"] }
+- { setname: legendary,                name: [legendary-gl, python:legendary-gl] }
 - { setname: legendsbrowser,           name: legends-browser }
 - { setname: lemon,                    name: [liblemon, lemon-graph, lemon-parser-generator] }
 - { setname: lenovolegionlinux,        name: [lenovo-legion-app, lenovo-legion-linux, lenovo-legion-module, lenovolegionlinux-dkms] }
@@ -64,11 +64,11 @@
 - { setname: leptonica,                name: [libleptonica,leptonlib,leptonica5] }
 - { setname: lerc,                     name: lib$0 }
 - { setname: lerc,                     name: python:$0, addflavor: true }
-- { setname: lesscpy,                  name: "python:lesscpy" }
+- { setname: lesscpy,                  name: python:$0 }
 - { setname: lesstif,                  name: lesstif2 }
 - { setname: leveldb,                  name: libleveldb }
 - { setname: leveldb,                  name: leveldb-mcpe, addflavor: mcpe }
-- { setname: lexicon,                  name: ["python:dns-lexicon", dns-lexicon] }
+- { setname: lexicon,                  name: [python:dns-lexicon, dns-lexicon] }
 - { setname: lgogdownloader,           name: lgogdownloader-qt5, addflavor: true }
 - { setname: liberal-crime-squad,      name: [lcs,liberalcrimesquad] }
 - { setname: libmemcached,             name: [libmemcached-awesome] }
@@ -145,7 +145,7 @@
 - { setname: log4cpp,                  name: log4cpp-rc, weak_devel: true, nolegacy: true }
 - { setname: log4cxx,                  name: apache-log4cxx }
 - { setname: log4j,                    namepat: "(?:apache-|java-)?log4j[0-9.-]*(-mini|-eap6|-api|-core)?", addflavor: $1 }
-- { setname: logcat-color,             name: "python:logcat-color" }
+- { setname: logcat-color,             name: python:$0 }
 - { setname: logmein-hamachi,          name: logmein-hamachi-beta, devel: true }
 - { setname: logseq,                   name: [logseq-desktop] }
 - { setname: logseq,                   name: [logseq-desktop-non-opt, logseq-desktop-wayland], addflavor: true }
@@ -153,7 +153,7 @@
 - { setname: logstash,                 namepat: "logstash[0-9.-]+" }
 - { setname: loki-lib,                 name: libloki }
 - { setname: lolcode-lci,              name: lolcode }
-- { setname: lookatme,                 name: "python:lookatme" }
+- { setname: lookatme,                 name: python:$0 }
 - { setname: looking-glass,            name: [lookingglass, looking-glass-client] }
 - { setname: looking-glass,            name: [obs-looking-glass, kvmfr-linux-module], addflavor: true }
 - { setname: looking-glass,            name: looking-glass-rc, weak_devel: true, nolegacy: true }
@@ -165,25 +165,25 @@
 - { setname: loudmouth,                name: libloudmouth }
 - { setname: love,                     namepat: "love(?:-legacy)?[0-9.-]+" }
 - { setname: love,                     name: love2d }
-- { setname: lowfi,                    name: "rust:lowfi" }
+- { setname: lowfi,                    name: rust:$0 }
 - { setname: lprof,                    name: lprof-devel, weak_devel: true, nolegacy: true }
 - { setname: lpsolve,                  name: [lp-solve, liblp-solve] }
 - { setname: lpsolve,                  name: [lpsolve-ide, lp-solve-java] } # addflavor: true
 - { setname: lrslib,                   name: lrs }
 - { setname: ls++,                     name: ls++-git, weak_devel: true, nolegacy: true }
-- { setname: lsd,                      name: "rust:lsd" }
+- { setname: lsd,                      name: rust:$0 }
 - { setname: lsof-freebsd,             name: lsof, ruleset: freebsd } # patched version with own versioning
 - { setname: lttng-modules,            name: lttng-modules-dkms }
 - { setname: lttng-modules,            name: lttng-modules-nopage, addflavor: true }
 - { setname: lttng-tools,              name: ltt-control, addflavor: control }
 - { setname: lttng-ust,                name: [ust,liblttng-ust] }
-- { setname: lttng-ust,                name: "python:lttngust", addflavor: python }
+- { setname: lttng-ust,                name: python:lttngust, addflavor: python }
 - { setname: lua,                      namepat: "(?:lib)?lua[0-9.-]*" }
 - { setname: lua,                      name: compat-lua }
 - { setname: lua-language-server,      name: sumneko-lua-language-server }
 - { setname: luabind,                  namepat: "lua([0-9]+)bind", addflavor: $1 }
-- { setname: luaformatter,             name: "lua:format" }
-- { setname: luaformatter,             name: "lua:format-ext", addflavor: ext }
+- { setname: luaformatter,             name: lua:format }
+- { setname: luaformatter,             name: lua:format-ext, addflavor: ext }
 - { setname: luajit,                   name: [luajit-2.1,luajit2,"lua:luajit",libluajit,"lua:jit",lua-luajit,luajit-2.1-lua52] }
 - { setname: luajit,                   name: luajit-ppc64le, addflavor: true }
 - { setname: luajit,                   name: luajit-devel, weak_devel: true, nolegacy: true }
@@ -192,7 +192,7 @@
 - { setname: luanti,                   name: [luanti-modern], addflavor: true }
 - { setname: luanti,                   name: minetest-git-leveldb, addflavor: true, ignore: true, outdated: true }
 - { setname: luanti,                   name: [minetest, minetest4], outdated: true }
-- { setname: luarocks,                 name: ["lua:rocks","lua:luarocks",lua-rocks,lua5.3-luarocks,lua5.4-luarocks,lua-luarocks,luarocks-lua51,luarocks-lua52,luarocks-lua53,luarocks-lua54,openresty-luarocks,luarocks-nix], addflavor: true }
+- { setname: luarocks,                 name: [lua:rocks,lua:luarocks,lua-rocks,lua5.3-luarocks,lua5.4-luarocks,lua-luarocks,luarocks-lua51,luarocks-lua52,luarocks-lua53,luarocks-lua54,openresty-luarocks,luarocks-nix], addflavor: true }
 - { setname: lucene,                   namepat: "lucene[0-9.-]+" }
 - { setname: lucene,                   name: apache-lucene }
 - { setname: lucene++,                 name: [luceneplusplus,liblucene++] }
@@ -212,7 +212,7 @@
 - { setname: luxcorerender,            name: [luxrender,luxrender14] } # former name
 - { setname: lv2-c++-tools,            name: lv2-cpp-tools }
 - { setname: lvm2,                     name: lvm }
-- { setname: lvm2,                     name: [lvm2-static,"python:lvm",lvm2-clvmmlvm2-noudev,device-mapper,lvm2-device-mapper,lvm2-with-dmeventd,lvm2-with-dmeventd-with-vdo], addflavor: true }
+- { setname: lvm2,                     name: [lvm2-static,python:lvm,lvm2-clvmmlvm2-noudev,device-mapper,lvm2-device-mapper,lvm2-with-dmeventd,lvm2-with-dmeventd-with-vdo], addflavor: true }
 - { setname: lwjgl,                    name: lwjgl2 }
 - { setname: lwp,                      name: lib$0 }
 - { setname: lxappearance,             name: lxappearance-gtk2, addflavor: gtk2 }
@@ -234,7 +234,7 @@
 - { setname: lxtask,                   name: lxtask-gtk3, addflavor: gtk3 }
 - { setname: lxterminal,               name: lxterminal-gtk2, addflavor: gtk2 }
 - { setname: lxterminal,               name: lxterminal-gtk3, addflavor: gtk3 }
-- { setname: lychee,                   name: "rust:lychee" }
+- { setname: lychee,                   name: rust:$0 }
 - { setname: lynx,                     name: [lynx-cur,lynx-current] }
 - { setname: lyrebird,                 name: lyrebird-proxy }
 - { setname: lyrionmusicserver,        name: [logitechmediaserver, logitech-media-server, squeezecenter], outdated: true } # older names
