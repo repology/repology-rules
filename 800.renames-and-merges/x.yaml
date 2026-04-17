@@ -52,6 +52,8 @@
 - { setname: xdm,                      name: [xtreme-dm,xdman,xtremedownloadmanager] }
 - { setname: xdm,                      name: rust:$0 }
 - { setname: xdm,                      name: [xdman-beta, xdman8-beta], weak_devel: true, nolegacy: true }
+- { setname: xdna-driver,              name: [amdxdna-driver] }
+- { setname: xdna-driver,              name: [xrt-xdna, xrt-plugin-amdxdna], addflavor: xrt } # XXX: is this correct, what's xrt?
 - { setname: xdot,                     name: ["python:xdot","python:xdot-06"] }
 - { setname: xed,                      name: xed-editor }
 - { setname: xed,                      name: [xed-intel,intel-xed,intelxed] }
