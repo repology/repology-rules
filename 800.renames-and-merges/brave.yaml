@@ -1,0 +1,29 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- setname: brave
+  name:
+    - brave-browser
+    - bravebrowser
+
+- setname: brave
+  addflavor: bin
+  name:
+    - brave-bin
+    - brave-browser-bin
+
+- setname: brave
+  weak_devel: true
+  nolegacy: true
+  name:
+    - brave-beta
+    - brave-browser-beta
+    - brave-browser-dev
+    - brave-browser-nightly
+    - brave-dev
+    - brave-nightly
+    - brave-snapshot
+    - bravebrowser-beta
+    - bravebrowser-nightly
+    - bravebrowser.beta
+    - bravebrowser.dev
+    - bravebrowser.nightly
