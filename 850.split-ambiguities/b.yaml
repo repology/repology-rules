@@ -154,6 +154,10 @@
 - { name: bfm, wwwpart: webhop, setname: bfm-fm }
 - { name: bfm, addflag: unclassified }
 
+- { name: bgrep, wwwpart: rsharo, setname: $0-rsharo } # last release in 2011, some commits since
+- { name: bgrep, wwwpart: tmbinc, setname: $0-tmbinc } # last release in 2018, abandoned since
+- { name: bgrep, addflag: unclassified }
+
 - { name: bifrost, wwwpart: maximhq, setname: $0-llm-gateway }
 - { name: bifrost, wwwpart: pmelsted, setname: $0-de-bruijn-graphs }
 - { name: bifrost, wwwpart: SamloaderKotlin, setname: $0-samsung-firmware }
