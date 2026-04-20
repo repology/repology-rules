@@ -75,6 +75,7 @@
 - { name: "python:html5lib",           ver: "099",                                         incorrect: true }
 - { name: "python:html5lib",                                         ruleset: spack,       untrusted: true } # accused of fake 099
 - { name: "python:httplib2",           verpat: "2-.*",                                     incorrect: true }
+- { name: "python:hwdata",             verpat: "[0-9]+(\\.[0-9]+){2}-[0-9]+",              altver: true } # extra component in official tags, but not on pypi, setup.py or bundled .spec # XXX: upstream problem
 - { name: "python:imdb",               verge: "3.2",                                       incorrect: true } # IMDb python module is 0.1.2, others are likely cinemagoer
 - { name: "python:imdbpy",                                                                 outdated: true } # renamed to cinemagoer
 - { name: "python:jcconv",             ver: "0.2.4",                 ruleset: fedora,      incorrect: true }
