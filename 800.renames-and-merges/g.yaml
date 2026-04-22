@@ -1,6 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { setname: g,                        name: g-ls }
+- { setname: ga,                       name: ga-impi, addflavor: true }
 - { setname: galactrum,                name: galactrum-qt, addflavor: qt }
 - { setname: galaxy-forces-v2,         name: ["galaxy forces v2", galaxy-forces, galaxyv2] }
 - { setname: galaxybudsclient,         name: galaxy-buds-client }
@@ -246,6 +247,7 @@
 - { setname: glitter,                  name: glitter-git-tool }
 - { setname: glitz,                    name: libglitz }
 - { setname: glm,                      name: glm-devel, weak_devel: true, nolegacy: true }
+- { setname: globalarrays,             name: global-arrays } # also ga, handled in 850
 - { setname: globulation2,             name: [globulation-2,glob2] }
 - { setname: glog,                     name: google-glog }
 - { setname: gloox,                    name: libgloox }
