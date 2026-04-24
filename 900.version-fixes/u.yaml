@@ -57,7 +57,10 @@
 - { name: unison,                                                    ruleset: pkgsrc,      untrusted: true } # accused of fake 2.51.3.72
 - { name: unit,                        ver: "1.7.1",                 ruleset: openpkg,     incorrect: true }
 - { name: unit,                                                      ruleset: openpkg,     untrusted: true } # accused of fake 1.7.1
-- { name: universal-ctags,                                                                 noscheme: true }
+- { name: universal-ctags,             verge: "2000", verlt: "2026",                       sink: true }
+- { name: universal-ctags,             verge: "20000000", verlt: "20260424",               sink: true }
+- { name: universal-ctags,             verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: universal-ctags,             verpat: "[0-9]+\\.[0-9]+[^0-9]+20[0-9]{6}[^0-9]+[0-9]+", devel: true } # X.Y.Z (assumed stable) or X.Y.YYYYMMDD.Z (assumed devel)
 - { name: unixbench,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: unnethack,                   ver: "5.3.1",                 ruleset: nix,         incorrect: true }
 - { name: unnethack,                                                 ruleset: nix,         untrusted: true }
