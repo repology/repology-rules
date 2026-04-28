@@ -10,6 +10,7 @@
 - { name: qdevelop,                                                  ruleset: os4depot,    incorrect: true }
 - { name: qdigidoc,                    verlonger: 3,                 ruleset: arch,        incorrect: true } # Arch treats BUILD number as fourth version component
 - { name: qdjango,                     verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
+- { name: qdl,                         verpat: ".*_.*",                                    incorrect: true } # aur
 - { name: qelectrotech,                verpat: ".*r.*",                                    snapshot: true }
 - { name: qemacs,                      verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: qemu,                        verpat: ".*pre[0-9]{5}.*",                          snapshot: true }
