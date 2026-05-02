@@ -60,6 +60,7 @@
 - { name: onboard,                                                   ruleset: debuntu,     untrusted: true } # accused of fake 1.4.1.4
 - { name: one-true-awk,                ver: "20250804",              ruleset: arch,        incorrect: true } # not tagged
 - { name: one-true-awk,                                              ruleset: arch,        untrusted: true } # accused of fake 20250804
+- { name: onetbb,                      verpat: ".*_.*",                                    incorrect: true } # arch
 - { name: oniguruma,                                                 ruleset: openbsd,     untrusted: true } # accused of fake 6.9.5pl1
 - { name: oniguruma,                   verpat: ".*rev.*",                                  any_is_patch: true }
 - { name: onioncat,                    verpat: "0\\.2\\.2\\.r[0-9]+.*",                    any_is_patch: true } # https://www.cypherpunk.at/ocat/download/Source/stable/
