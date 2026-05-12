@@ -13,6 +13,8 @@
 - { name: ocaml:bin-prot,              ver: "2.0.9",                 ruleset: fedora,      incorrect: true }
 - { name: ocaml:bin-prot,                                            ruleset: fedora,      untrusted: true } # accused of fake 2.0.9
 - { name: ocaml:bin-prot,              verge: "100",                                       sink: true } # ... -> 113.x → 0.9.0
+- { name: ocaml:bin-prot,              ver: "0.17.0.1",              ruleset: aur,         incorrect: true }
+- { name: ocaml:bin-prot,                                            ruleset: aur,         untrusted: true } # accused of fake 0.17.0.1
 - { name: ocaml:calendar,              ver: "2.5",                   ruleset: nix,         incorrect: true }
 - { name: ocaml:calendar,                                            ruleset: nix,         untrusted: true } # accused of fake 2.5 (it's really 2.03.2)
 - { name: ocaml:cryptokit,             ver: "1.161",                                       incorrect: true } # 1.16.1
