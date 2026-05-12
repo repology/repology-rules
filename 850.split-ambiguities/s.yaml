@@ -163,6 +163,10 @@
 - { name: sdl-ttf, flag: sdl3, setname: sdl3-ttf }
 - { name: sdl-ttf, addflag: unclassified }
 
+- { name: seal, wwwpart: microsoft, setname: $0-homomorphic-encryption }
+- { name: seal, wwwpart: seal-runtime, setname: $0-luau-runtime }
+- { name: seal, addflag: unclassified }
+
 - { name: secure-delete, wwwpart: gijack, setname: secure-delete-gijack }
 
 - { name: see, wwwpart: guilhermeprokisch, setname: see-cat }
