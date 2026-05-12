@@ -71,6 +71,10 @@
 - { name: newt, wwwpart: [pagure,mlichvar], setname: newt-tui }
 - { name: newt, addflag: unclassified }
 
+- { name: nextcloud, wwwpart: desktop, setname: $0-desktop }
+- { name: nextcloud, wwwpart: server, setname: $0-server }
+- { name: nextcloud, addflag: unclassified }
+
 - { name: nexus, wwwpart: sonatype, setname: nexus-repository }
 - { name: nexus, wwwpart: nexusformat, setname: nexusformat }
 - { name: nexus, addflag: unclassified }
