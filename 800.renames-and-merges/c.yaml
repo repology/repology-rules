@@ -62,15 +62,15 @@
 - { setname: capnproto,                name: [capnp,capnproto-0.6,capnproto1] }
 - { setname: capstone,                 name: capstone4 }
 - { setname: carburetor,               name: python:$0 }
-- { setname: cargo,                    name: ["rust:cargo",rust-toolset-7-cargo] }
+- { setname: cargo,                    name: [rust:cargo,rust-toolset-7-cargo] }
 - { setname: cargo,                    name: [cargo-completion,cargo-standalone,cargo-bootstrap,cargo-stage1], addflavor: true }
 - { setname: cargo,                    name: cargo-nightly, weak_devel: true, nolegacy: true }
-- { setname: cargo-audit,              name: ["rust:cargo-audit",rust-cargo-audit] }
+- { setname: cargo-audit,              name: [rust:$0,rust-cargo-audit] }
 - { setname: cargo-auditable,          name: rust:$0 }
 - { setname: cargo-auditable,          name: cargo-auditable-bootstrap, addflavor: true }
-- { setname: cargo-bloat,              name: ["rust:cargo-bloat",rust-cargo-bloat] }
-- { setname: cargo-c,                  name: "rust:cargo-c" }
-- { setname: cargo-deb,                name: "rust:cargo-deb" }
+- { setname: cargo-bloat,              name: [rust:$0,rust-cargo-bloat] }
+- { setname: cargo-c,                  name: rust:$0 }
+- { setname: cargo-deb,                name: rust:$0 }
 - { setname: cargo-debstatus,          name: rust:$0 }
 - { setname: cargo-deny,               name: rust:$0 }
 - { setname: cargo-edit,               name: rust:$0 }
@@ -78,8 +78,8 @@
 - { setname: cargo-msrv,               name: rust:$0 }
 - { setname: cargo-outdated,           name: rust:$0 }
 - { setname: cargo-pgo,                name: rust:$0 }
-- { setname: cargo-play,               name: "rust:cargo-play" }
-- { setname: cargo-vendor,             name: ["rust:cargo-vendor",rust-toolset-7-cargo-vendor] }
+- { setname: cargo-play,               name: rust:$0 }
+- { setname: cargo-vendor,             name: [rust:$0,rust-toolset-7-cargo-vendor] }
 - { setname: cargo-zigbuild,           name: [python:$0, rust:$0], addflavor: true }
 - { setname: carl,                     name: [rust:$0, carl-calendar] }
 - { setname: cassandra,                name: [apache-cassandra,cassandra2] }
