@@ -46,6 +46,7 @@
 - { setname: xcb-util-xrm,             name: xcb-utils-xrm } # XXX: problem
 - { setname: xchm,                     name: xchm-wx3, addflavor: wx3 }
 - { setname: xcompmgr,                 name: [xapp-xcompmgr,xorg-app-xcompmgr,xorg-xcompmgr] }
+- { setname: xcp,                      name: rust:$0 }
 - { setname: xd,                       name: [xd-rs, "rust:xd"] } # ambiguous, split in 850
 - { setname: xdelta,                   name: [xdelta1,xdelta3] }
 - { setname: xdg-utils,                name: [xdg-utils-mimeo,xdg-utils-no-open,xdg-utils-patched,xdg-utils-slock] }
