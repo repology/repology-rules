@@ -267,6 +267,7 @@
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(python[23][0-9]*)-(.*)", addflavor: $1, ruleset: ibmi }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(python3[0-9]+)-(.*)", ruleset: yacp, addflavor: $1 }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(python3x)-(.*)", ruleset: centos, addflavor: $1 }
+- { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python(3\\.?[0-9]+)-(.*)", ruleset: [centos,epel], addflavor: $1 } # EL 8+ modular: python38-, python3.11-
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "py-(.*)", ruleset: spack }
 - { setname: "python:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_python], category: Development/Python, ruleset: openindiana }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(pypy3?)-(.*)", ruleset: aur, addflavor: $1 }
