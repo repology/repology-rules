@@ -65,6 +65,107 @@
 - { remove: true,   name: python2,      ruleset: freebsd }
 - { remove: true,   name: python3,      ruleset: freebsd }
 
+- { remove: true,   namepat: "(clang|lldb|llvm|postgresql|python|python3)-select(-[0-9.]+)?", ruleset: macports }
+- ruleset: macports
+  remove: true
+  name:
+    - ansible-select
+    - apl-select
+    - autopep8-select
+    - awscli-select
+    - black-select
+    - bpython-select
+    - buildout-select
+    - ccls-select
+    - celery-select
+    - cpanm-select
+    - csvkit-select
+    - cython-select
+    - db-select
+    - docutils-select
+    - fabric-select
+    - fdsnwsscripts-select
+    - fennel-select
+    - fonttools-select
+    - fsdb-select
+    - fstar-select
+    - gcc-select
+    - gdal-select
+    - geant4-select
+    - guile-select
+    - hatchling-select
+    - helm-select
+    - hieroglyph-select
+    - honcho-select
+    - httpx-select
+    - hy-select
+    - ioflo-select
+    - ipdb-select
+    - ipython-select
+    - ipython2-select
+    - ipython3-select
+    - isort-select
+    - jupyter-select
+    - kerfi-vangasvipur-select
+    - kremlin-select
+    - kubectl-select
+    - lexicon-select
+    - local-pipelines-select
+    - love-select
+    - luacheck-select
+    - luarocks-select
+    - maven-select
+    - memprof-select
+    - mpi-select
+    - mvnd-select
+    - mypy-select
+    - mysql-select
+    - nosetests-select
+    - obspy-select
+    - octave-select
+    - panel-select
+    - pep8-select
+    - perl-select
+    - pew-select
+    - php-select
+    - pip-select
+    - ptpython-select
+    - pycodestyle-select
+    - pydocstyle-select
+    - pyflakes-select
+    - pygments-select
+    - pylint-select
+    - pytest-select
+    - python-language-server-select
+    - python-lsp-server-select
+    - python2-select
+    - python:cairosvg-select
+    - python:django-htmlmin-select
+    - python:flake8-select
+    - python:html2text-select
+    - python:pss-select
+    - python:sympy-select
+    - qt4-select
+    - root-select
+    - rsgislib-select
+    - ruby-select
+    - scala-select
+    - scapy-select
+    - scrapy-select
+    - sphinx-select
+    - spyder-select
+    - stem-select
+    - terraform-select
+    - terragrunt-select
+    - tmuxp-select
+    - tox-select
+    - trepan3k-select
+    - virtualenv-select
+    - virtualenv-clone-select
+    - virtualenvwrapper-select
+    - wxwidgets-select
+    - yapf-select
+
 - { remove: true,   name: rust-base,    ruleset: aosc }
 
 - { remove: true,   name: rust-toolset }
