@@ -65,6 +65,8 @@
 - { remove: true,   name: python2,      ruleset: freebsd }
 - { remove: true,   name: python3,      ruleset: freebsd }
 
+- { remove: true,   namepat: ".+-select(-[0-9.]+)?", ruleset: macports }
+
 - { remove: true,   name: rust-base,    ruleset: aosc }
 
 - { remove: true,   name: rust-toolset }
