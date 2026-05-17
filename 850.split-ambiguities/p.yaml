@@ -141,6 +141,10 @@
 # also abandonware network utility
 - { name: peep, addflag: unclassified }
 
+- { name: pelican, wwwpart: pelicanplatform, setname: $0-federation }
+- { name: pelican, wwwpart: [getpelican,pypi/pelican], setname: $0-static-generator }
+- { name: pelican, addflag: unclassified }
+
 - { name: perl, wwwpart: strawberry, setname: strawberryperl }
 
 - { name: perseus, wwwpart: framesurge, setname: rust:perseus }
