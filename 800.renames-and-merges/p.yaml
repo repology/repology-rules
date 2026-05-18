@@ -106,7 +106,7 @@
 - { setname: peep,                     name: rust:$0 }
 - { setname: pegtl,                    name: [tao-pegtl,taocpp-pegtl] }
 - { setname: pegtl,                    namepat: "pegtl[0-9.-]+" }
-- { setname: pelican,                  name: "python:pelican" }
+- { setname: pelican,                  name: [python:$0, pelicanplatform] } # split in 850
 - { setname: pencil,                   name: [evolus-pencil,pencil-v2,pencil3] }
 - { setname: pencil,                   name: evolus-pencil-devel, weak_devel: true, nolegacy: true }
 - { setname: percona-server,           namepat: "percona[0-9._-]*server[0-9._-]*" }
