@@ -404,6 +404,7 @@
 - { addflag: misnamed, name: python:xmpp } # pyxmpp or xmpppy
 - { addflag: misnamed, name: python:zaqarclient }
 - { addflag: misnamed, namepat: "python:zope(component|configuration|event|exceptions|hookable|i18nmessageid|interface|schema|testing|testrunner)" } # should be zope.* or zope-*
+- { addflag: misnamed, name: python:zope.i18nmessage } # should be zope.i18nmessageid
 - { addflag: misnamed, name: python:zunclient }
 - { addflag: misnamed, name: r:air,          wwwpart: posit-dev }
 - { addflag: misnamed, name: rapidfuzz } # aither an unprefixed python module, or misnamed rapidfuzz-cpp
