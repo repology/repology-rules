@@ -441,10 +441,8 @@
 - { setname: python:xcffib,            name: haskell:xcffib, addflavor: haskell }
 - { setname: "python:zope.$1", namepat: "python:zope-(annotation|base|browsermenu|browserpage|cachedescriptors|component|configuration|contenttype|copy|deferredimport|deprecation|dottedname|event|exceptions|filerepresentation|filesystem|fixers|hookable|i18nmessageid|index|keyreference|lifecycleevent|location|pagetemplate|proxy|schema|security|size|sqlalchemy|testbrowser|testing|testrunner|traversing|untrustedpython)" }
 - { setname: "python:zope.$1", namepat: "python:zope-(component|configuration|exceptions|location|proxy|security|testrunner)-bootstrap", addflavor: bootstrap }
+- { setname: "python:zope.$1", namepat: "python:zope\\.(hookable|i18nmessageid)-docs", addflavor: docs }
+- { setname: "python:zope.$1", namepat: "python:zope\\.(schema|testbrowser)-test", addflavor: test }
 - { setname: python:zope.app.module,   name: python:zope-app-module }
 - { setname: python:zope.interface,    name: [python:zope-interface, python:zope-interface4] }
-- { setname: python:zope.hookable,     name: python:zope.hookable-docs, addflavor: docs }
-- { setname: python:zope.i18nmessageid, name: python:zope.i18nmessageid-docs, addflavor: docs }
-- { setname: python:zope.schema,       name: python:zope.schema-test, addflavor: test }
-- { setname: python:zope.testbrowser,  name: python:zope.testbrowser-test, addflavor: test }
 - { setname: python:zopfli,            name: python:pyzopfli }
