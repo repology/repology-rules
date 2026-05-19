@@ -1,11 +1,11 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- setname: "fonts:fakepearl"
+- setname: fonts:fakepearl
   name:
     - fakepearl-fonts
     - ttf-fakepearl
 
-- setname: "fonts:fantasque-sans-mono"
+- setname: fonts:fantasque-sans-mono
   name:
     - fantasque-sans
     - fantasque-sans-mono
@@ -20,12 +20,12 @@
     - ttf-fantasque-sans
     - ttf-fantasque-sans-mono
 
-- setname: "fonts:fanwood"
+- setname: fonts:fanwood
   name:
     - fonts-fanwood
     - ttf-fanwood
 
-- setname: "fonts:farsi"
+- setname: fonts:farsi
   name:
     - farsi-fonts
     - farsifonts
@@ -33,25 +33,25 @@
     - fonts-farsiweb
     - fonts-ttf-arabic-farsi
 
-- setname: "fonts:ferrite-core"
+- setname: fonts:ferrite-core
   name:
     - fonts-ferrite-core
     - ttf-ferrite-core
 
-- setname: "fonts:fifth-leg"
+- setname: fonts:fifth-leg
   name:
     - fifth-leg
     - fifth-leg-font
     - otf-fifthleg
 
-- setname: "fonts:fira-mono"
+- setname: fonts:fira-mono
   name:
     - fira-mono
     - font-fira-mono
     - otf-fira-mono
     - ttf-fira-mono
 
-- setname: "fonts:fira-sans"
+- setname: fonts:fira-sans
   name:
     - fira
     - fira-fonts
@@ -64,7 +64,7 @@
     - otf-fira-sans
     - ttf-fira-sans
 
-- setname: "fonts:firacode"
+- setname: fonts:firacode
   name:
     - fira-code
     - fira-code-fonts
@@ -81,7 +81,7 @@
     - ttf-fira-code
     - ttf-firacode
 
-- setname: "fonts:firago"
+- setname: fonts:firago
   name:
     - bbox-firago-fonts
     - fira-go
@@ -91,7 +91,7 @@
     - otf-fira-go
     - ttf-fira-go
 
-- setname: "fonts:fontawesome"
+- setname: fonts:fontawesome
   name:
     - awesome-otf
     - awesome-ttf
@@ -121,12 +121,12 @@
     - ttf-font-awesome
     - ttf-font-awesome-4
 
-- setname: "fonts:freefarsi"
+- setname: fonts:freefarsi
   name:
     - fonts-freefarsi
     - freefarsi-ttf
 
-- setname: "fonts:freefont"
+- setname: fonts:freefont
   name:
     - font-freefont
     - font-freefont-ttf
@@ -142,4 +142,4 @@
     - freefont-ttf
     - gnu-free-fonts
     - ttf-freefont
-- { setname: "fonts:freefont", name: texlive:gnu-freefont, addflavor: tex }
+- { setname: fonts:freefont, name: texlive:gnu-freefont, addflavor: tex }

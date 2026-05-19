@@ -1,8 +1,8 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-#- { namepat: "(?:fonts-)?(?:[ot]tf-)?(gdouros-.+?)(?:-fonts)?", setname: "fonts:$1" }
+#- { namepat: "(?:fonts-)?(?:[ot]tf-)?(gdouros-.+?)(?:-fonts)?", setname: fonts:$1 }
 
-- setname: "fonts:galatia-sil"
+- setname: fonts:galatia-sil
   name:
     - font-sil-galatia
     - fonts-sil-galatia
@@ -10,19 +10,19 @@
     - sil-galatia
     - ttf-sil-galatia
 
-- setname: "fonts:gamaliel"
+- setname: fonts:gamaliel
   name:
     - fonts-gamaliel
     - otf-gamaliel
 
-- setname: "fonts:gdouros-aegean"
+- setname: fonts:gdouros-aegean
   name:
     - aegean-ttf
     - fonts-otf-aegean
     - fonts-otf-gdouros-aegean
     - gdouros-aegean-fonts
 
-- setname: "fonts:gdouros-aegyptus"
+- setname: fonts:gdouros-aegyptus
   name:
     - aegyptus
     - aegyptus-ttf
@@ -30,7 +30,7 @@
     - fonts-otf-gdouros-aegyptus
     - gdouros-aegyptus-fonts
 
-- setname: "fonts:gdouros-akkadian"
+- setname: fonts:gdouros-akkadian
   name:
     - akkadian
     - akkadian-ttf
@@ -38,71 +38,71 @@
     - fonts-otf-gdouros-akkadian
     - gdouros-akkadian-fonts
 
-- setname: "fonts:gdouros-alexander"
+- setname: fonts:gdouros-alexander
   name:
     - fonts-otf-alexander
     - fonts-otf-gdouros-alexander
     - gdouros-alexander-fonts
 
-- setname: "fonts:gdouros-alfios"
+- setname: fonts:gdouros-alfios
   name:
     - fonts-otf-alfios
     - gdouros-alfios-fonts
 
-- setname: "fonts:gdouros-anaktoria"
+- setname: fonts:gdouros-anaktoria
   name:
     - fonts-otf-anaktoria
     - fonts-ttf-gdouros-anaktoria
     - gdouros-anaktoria-fonts
 
-- setname: "fonts:gdouros-analecta"
+- setname: fonts:gdouros-analecta
   name:
     - analecta
     - fonts-otf-analecta
     - fonts-otf-gdouros-analecta
     - gdouros-analecta-fonts
 
-- setname: "fonts:gdouros-anatolian"
+- setname: fonts:gdouros-anatolian
   name:
     - anatolian
     - anatolian-ttf
     - gdouros-anatolian-fonts
 
-- setname: "fonts:gdouros-aroania"
+- setname: fonts:gdouros-aroania
   name:
     - fonts-otf-aroania
     - fonts-ttf-gdouros-aroania
     - gdouros-aroania-fonts
 
-- setname: "fonts:gdouros-asea"
+- setname: fonts:gdouros-asea
   name:
     - asea-ttf
     - fonts-ttf-gdouros-asea
     - gdouros-asea-fonts
 
-- setname: "fonts:gdouros-atavyros"
+- setname: fonts:gdouros-atavyros
   name:
     - fonts-otf-atavyros
     - gdouros-atavyros-fonts
 
-- setname: "fonts:gdouros-avdira"
+- setname: fonts:gdouros-avdira
   name:
     - fonts-otf-avdira
     - fonts-ttf-gdouros-avdira
     - gdouros-avdira-fonts
 
-- setname: "fonts:gdouros-maya"
+- setname: fonts:gdouros-maya
   name:
     - gdouros-maya-fonts
 
-- setname: "fonts:gdouros-musica"
+- setname: fonts:gdouros-musica
   name:
     - fonts-otf-gdouros-musica
     - fonts-otf-musica
     - gdouros-musica-fonts
     - musica
 
-- setname: "fonts:gdouros-symbola"
+- setname: fonts:gdouros-symbola
   name:
     - font-symbola
     - font-symbola-ttf
@@ -116,13 +116,13 @@
     - ttf-symbola
     - ttf-symbola-ib
 
-- setname: "fonts:gelasio"
+- setname: fonts:gelasio
   name:
     - fonts-ttf-gelasio
     - gelasio
     - ttf-gelasio
 
-- setname: "fonts:gentium"
+- setname: fonts:gentium
   name:
     - font-gentium
     - font-sil-gentium
@@ -135,7 +135,7 @@
     - sil-gentium-fonts
     - ttf-gentium
 
-- setname: "fonts:gentium"
+- setname: fonts:gentium
   addflavor: book
   name:
     - font-gentium-book
@@ -143,7 +143,7 @@
     - gentiumbook
     - gentium-book
 
-- setname: "fonts:gentium"
+- setname: fonts:gentium
   addflavor: plus
   name:
     - fonts-gentium-plus
@@ -156,7 +156,7 @@
     - sil-gentium-plus-fonts
     - ttf-gentium-plus
 
-- setname: "fonts:gentium"
+- setname: fonts:gentium
   addflavor: plus-compact
   name:
     - fonts-sil-gentiumplus-compact
@@ -164,7 +164,7 @@
     - gentiumpluscompact
     - sil-gentium-plus-compact-fonts
 
-- setname: "fonts:gentium-basic"
+- setname: fonts:gentium-basic
   name:
     - font-gentium-basic
     - font-gentium-book-basic
@@ -178,51 +178,51 @@
     - sil-gentium-basic-fonts
     - ttf-gentium-basic
 
-- setname: "fonts:georgewilliams"
+- setname: fonts:georgewilliams
   name:
     - gw-fonts-ttf
     - fonts-georgewilliams
     - ttf-georgewilliams
 
-- setname: "fonts:gfs-ambrosia"
+- setname: fonts:gfs-ambrosia
   name:
     - fonts-otf-gfs-ambrosia
     - gfs-ambrosia-fonts
 
-- setname: "fonts:gfs-artemisia"
+- setname: fonts:gfs-artemisia
   name:
     - fonts-gfs-artemisia
     - fonts-otf-gfs-artemisia
     - gfs-artemisia-fonts
 
-- setname: "fonts:gfs-bodoni"
+- setname: fonts:gfs-bodoni
   name:
     - fonts-otf-gfs-bodoni
     - gfs-bodoni-fonts
 
-- setname: "fonts:gfs-bodoni-classic"
+- setname: fonts:gfs-bodoni-classic
   name:
     - fonts-gfs-bodoni-classic
     - fonts-otf-gfs-bodoni-classic
     - gfs-bodoni-classic-fonts
 
-- setname: "fonts:gfs-gazis"
+- setname: fonts:gfs-gazis
   name:
     - fonts-gfs-gazis
     - fonts-otf-gfs-gazis
     - gfs-gazis-fonts
 
-- setname: "fonts:gidole"
+- setname: fonts:gidole
   name:
     - gidole
     - ttf-gidole
 
-- setname: "fonts:gnutypewriter"
+- setname: fonts:gnutypewriter
   name:
     - fonts-gnutypewriter
     - otf-gnutypewriter
 
-- setname: "fonts:go"
+- setname: fonts:go
   name:
     - font-go
     - font-go-ttf
@@ -233,26 +233,26 @@
     - gofont-ttf
     - gofonts
 
-- setname: "fonts:google"
+- setname: fonts:google
   name:
     - google-fonts
     - google-fonts-ttf
     - ttf-google-fonts
     - googlefontdirectory
 
-- setname: "fonts:goudybookletter"
+- setname: fonts:goudybookletter
   name:
     - fonts-goudybookletter
     - ttf-goudybookletter
 
-- setname: "fonts:gubbi"
+- setname: fonts:gubbi
   name:
     - fonts-gubbi
     - fonts-ttf-gubbi
     - gubbi-font
     - gubbi-fonts
 
-- setname: "fonts:gyre"
+- setname: fonts:gyre
   name:
     - fonts-tex-gyre-otf
     - gyre-fonts

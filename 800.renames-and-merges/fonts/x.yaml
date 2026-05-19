@@ -1,14 +1,14 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- { setname: "fonts:$1-$2",            namepat: "(?:font-|fonts-|x11-font-|xorg-font-|xorg-font-font-|xfont-font-)(adobe|adobe-utopia|bh|bh-lucidatypewriter|bitstream)-?((?:75|100)dpi)" } # xorg
+- { setname: fonts:$1-$2,            namepat: "(?:font-|fonts-|x11-font-|xorg-font-|xorg-font-font-|xfont-font-)(adobe|adobe-utopia|bh|bh-lucidatypewriter|bitstream)-?((?:75|100)dpi)" } # xorg
 
-- setname: "fonts:xfree86-type1"
+- setname: fonts:xfree86-type1
   name:
     - font-xfree86-type1
     - x11-font-xfree86-type1
     - xorg-font-xfree86-type1
 
-- setname: "fonts:xkcd"
+- setname: fonts:xkcd
   name:
     - font-xkcd
     - font-xkcd-script

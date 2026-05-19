@@ -1,25 +1,25 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- setname: "fonts:weather-icons"
+- setname: fonts:weather-icons
   name:
     - font-weather-icons
     - ttf-weather-icons
     - weather-icons
 
-- setname: "fonts:winitzki-cyrillic"
+- setname: fonts:winitzki-cyrillic
   name:
     - font-winitzki-cyrillic
     - x11-font-winitzki-cyrillic
     - xorg-font-winitzki-cyrillic
 
-- setname: "fonts:wqy-bitmapfont"
+- setname: fonts:wqy-bitmapfont
   name:
     - wqy-bitmap-fonts
     - wqy-bitmapfont
     - x11-font-wqy-bitmapfont
     - zh-wqy-bitmapfont
 
-- setname: "fonts:wqy-microhei"
+- setname: fonts:wqy-microhei
   name:
     - font-wqy-microhei
     - fonts-ttf-wqy-microhei
@@ -31,14 +31,14 @@
     - wqy-microhei-fonts
     - wqy-microhei-kr-patched
     - wqy-microhei-lite
-- { setname: "fonts:wqy-microhei", name: wqy-microhei-nightly-build, weak_devel: true }
+- { setname: fonts:wqy-microhei, name: wqy-microhei-nightly-build, weak_devel: true }
 
-- setname: "fonts:wqy-unibit"
+- setname: fonts:wqy-unibit
   name:
     - wqy-unibit
     - wqy-unibit-fonts
 
-- setname: "fonts:wqy-zenhei"
+- setname: fonts:wqy-zenhei
   name:
     - font-wqy-zenhei
     - fonts-ttf-wqy-zenhei
@@ -50,4 +50,4 @@
     - wqy-zenhei-fonts
     - wqy-zenhei-ttf
     - zh-wqy-zenhei-ttf
-- { setname: "fonts:wqy-zenhei", name: wqy-zenhei-nightly-build, weak_devel: true }
+- { setname: fonts:wqy-zenhei, name: wqy-zenhei-nightly-build, weak_devel: true }
