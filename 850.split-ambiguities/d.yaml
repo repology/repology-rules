@@ -160,8 +160,10 @@
 - { name: dino, wwwpart: dino.nongnu.org, setname: dino-midi }
 - { name: dino, addflag: unclassified }
 
-- { name: discord, wwwpart: xnblank, setname: discord-linux }
-- { name: discord, ruleset: [chocolatey,scoop], setname: discord-windows } # different versioning for different OSes, see wikidata
+- { name: discord, wwwpart: apps/linux, setname: discord-linux }
+- { name: discord, wwwpart: apps/win, setname: discord-win }
+- { name: discord, wwwpart: apps/osx, setname: discord-osx }
+- { name: discord, addflag: unclassified }
 
 - { name: discover, wwwpart: discoverd, setname: discoverd }
 - { name: discover, wwwpart: launchpad.net/discover, setname: discover-hardware-identification }
