@@ -130,6 +130,7 @@ families = [
     'wakemeops',
     'wikidata',
     'winget',
+    'xrepo',
     'yacp',
     'yiffos',
 ]

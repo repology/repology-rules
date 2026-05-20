@@ -102,6 +102,7 @@
 - { verpat: ".*([0-9a-f-]{7}|r[0-9]).*",                             ruleset: t2,          untrusted: true } # all kinds of snapshots (commit hashes, dates and revisions)
 - { verpat: ".* .*",                                                 ruleset: t2,          any_is_patch: true, untrusted: false, ignore: true } # explicit snapshots
 - { verpat: ".*really.*",                                                                  incorrect: true }
+- { verpat: "20[0-9]{2}\\.[0-9]{1,2}\\.[0-9]{1,2}",                  ruleset: xrepo,       untrusted: true } # lots of date based snapshots like 2021.1.25
 
 # nuget is terminally broken and can't handle arbitrary version schemes, so most are garbage
 - {                                                                  ruleset: chocolatey,  untrusted: true }
