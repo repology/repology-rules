@@ -417,6 +417,8 @@
 - { setname: google-earth,             name: [google-earth-stable, googleearth,google-earth-legacy] }
 - { setname: google-earth-pro,         name: [google-earth-pro-stable,earthpro,googleearth-pro] }
 - { setname: google-guice,             name: [guice,java-guice,java-guice-servlet] }
+- { setname: goose,                    name: [block-goose-cli, block-goose], outdated: true } # dead name
+- { setname: goose,                    name: [goose-db-migration-tool, goose-cli] } # split in 850
 - { setname: gopass,                   name: gopass184 }
 - { setname: gopro-vr-player,          name: gopro-vr-player-beta, weak_devel: true, nolegacy: true }
 - { setname: gopro-vr-player,          name: gopro-vrplayer }

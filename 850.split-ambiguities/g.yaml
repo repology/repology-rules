@@ -256,6 +256,10 @@
 
 - { name: gonvert, ruleset: maemo, setname: gonvert-maemo }
 
+- { name: goose, wwwpart: pressly, setname: $0-database-migration }
+- { name: goose, wwwpart: [aaif-goose,goose-docs.ai], setname: $0-ai-agent }
+- { name: goose, addflag: unclassified }
+
 - { name: gopass, wwwpart: [gopasspw,gopass.pw], setname: gopass-gopasspw }
 - { name: gopass, wwwpart: aviau, setname: gopass-aviau  }
 - { name: gopass, addflag: unclassified }
