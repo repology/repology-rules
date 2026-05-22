@@ -58,6 +58,9 @@
 - { setname: teamspeak-client,         name: teamspeak-client-bin, addflavor: true }
 - { setname: teamspeak-client,         name: [teamspeak5-client, teamspeakclient] }
 - { setname: teamspeak-server,         name: teamspeak3-server }
+- { setname: teamtype,                 name: [ethersync, rust:ethersync], outdated: true } # dead name
+- { setname: teamtype,                 name: rust:$0 }
+- { setname: teamtype,                 name: vim:teamtype, addflavor: vim }
 - { setname: teamviewer,               namepat: "teamviewer[0-9.-]+" }
 - { setname: teamviewer,               name: teamviewer-beta }
 - { setname: teamviewer-host,          name: teamviewer.host }
