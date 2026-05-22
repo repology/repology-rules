@@ -160,6 +160,8 @@
 - { setname: fop,                      name: [apache-fop,fop2,xmlgraphics-fop] }
 - { setname: forge,                    name: forge-devel, weak_devel: true, nolegacy: true }
 - { setname: forgejo,                  name: $0-lts }
+- { setname: forgejo-cli,              name: fj-cli } # XXX: problem
+- { setname: forgejo-cli,              name: rust:forgejo-cli }
 - { setname: forgejo-runner,           name: forgejo-act-runner } # XXX: problem
 - { setname: forgit,                   name: [fishplugin-forgit, zsh-forgit], addflavor: true }
 - { setname: fortls,                   name: python:$0 }
