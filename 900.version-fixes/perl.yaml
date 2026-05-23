@@ -136,6 +136,8 @@
 - { name: perl:svn-notify-mirror,      verpat: "0\\.[0-9]{4}.*",                           incorrect: true }
 - { name: perl:syntax-highlight-perl,   ver: "1.01",                 ruleset: openbsd,     incorrect: true } # latest is 1.0; this is actually p5-Syntax-Highlight-Perl-Improved ; XXX: problem
 - { name: perl:syntax-highlight-perl,                                ruleset: openbsd,     untrusted: true } # accused of fake 1.01
+- { name: perl:syntax-keyword-try,     verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:syntax-keyword-try,                                   ruleset: [openmamba,ravenports], untrusted: true } # accused of fake 0.310
 - { name: perl:template-toolkit,       ver: "2.51",                  ruleset: t2,          incorrect: true }
 - { name: perl:template-toolkit,                                     ruleset: t2,          untrusted: true }
 - { name: perl:test-differences,       verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
