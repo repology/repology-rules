@@ -160,4 +160,6 @@
 - { name: perl:xml-parser,             ver: "2.44.01",                                     devel: true } # marked as developer release on cpan
 - { name: perl:xml-rss-feed,           ver: ["2.212","2.32"],                              sink: true } # 2.212 < 2.32 < 2.4
 - { name: perl:xml-rss-feed,           ver: "2.40",                                        incorrect: true } # it's 2.4
+- { name: perl:xs-parse-keyword,       verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:xs-parse-keyword,                                     ruleset: [ravenports,openmamba], untrusted: true } # accused of fake 0.490
 - { name: perl:yaml-libyaml,           ver: "0.71",                  ruleset: [ sisyphus ], ignore: true } # 0.71 wasn't an authorised release
