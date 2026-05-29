@@ -30,6 +30,13 @@
 - { name: lector, wwwpart: BasioMeusPuga, setname: lector-ebook-reader }
 - { name: lector, addflag: unclassified }
 
+- { name: legendary, wwwpart: github.com/legendary-gl/legendary, setname: legendary-gl }
+- { name: legendary, wwwpart: github.com/playtron-os/legendary, setname: legendary-playtron }
+- { name: legendary, wwwpart: github.com/Heroic-Games-Launcher/legendary, setname: legendary-heroic }
+- { name: legendary, wwwpart: github.com/RareDevs/legendary, setname: legendary-rare }
+- { name: legendary, wwwpart: [legendary.gl, pypi], setname: legendary-gl } # assumed to refer to original project, but that's not guaranteed
+- { name: legendary, addflag: unclassified }
+
 - { name: legit, wwwpart: captainsafia, setname: legit-license-adder }
 - { name: legit, wwwpart: [kennethreitz,frostming,git-legit], setname: legit-git-cli }
 - { name: legit, wwwpart: icyphox, setname: legit-git-web-frontend }
