@@ -18,6 +18,7 @@
 - { name: waterfox,                    verpat: "[0-9]{5}.*",                               incorrect: true } # chocolatey garbage
 - { name: waterfox,                    verpat: "g.*",                                      sink: true }
 - { name: wavpack,                                                   ruleset: opensuse,    untrusted: true } # accused of fake 4.60.99
+- { name: waydroidsu,                  verpat: ".*_.*",                                    incorrect: true } # aur
 - { name: wayfire,                     releq: "0.8.0",               ruleset: bioarch,     incorrect: true }
 - { name: wayfire,                                                   ruleset: bioarch,     untrusted: true } # accused of fake 0.8.0.20230521.121235
 - { name: wayland,                     verpat: ".*\\.9[0-9]",                              devel: true }
