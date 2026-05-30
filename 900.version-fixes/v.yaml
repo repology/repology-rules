@@ -62,6 +62,7 @@
 - { name: "vim:vim-startuptime-dstein64", verpat: "20[0-9]{2}.*",                          incorrect: true }
 - { name: vimpager,                    verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: vimpc,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true }
+- { name: viper4linux-gui,             verpat: ".*_.*",                                    incorrect: true } # aur
 - { name: virtio-win,                  verge: "1.9",                 ruleset: rpm,         incorrect: true } # uses incorrect versioning scheme (https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/)
 - { name: virtio-win,                                                ruleset: rpm,         untrusted: true } # accused of fake 1.9.x
 - { name: virtme,                      verpat: ".*20[0-9]{6}",                             snapshot: true }
