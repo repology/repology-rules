@@ -421,7 +421,7 @@
 - { setname: atril,                    name: mate-atril }
 - { setname: atril,                    name: atril-dev, weak_devel: true, nolegacy: true }
 - { setname: atril,                    name: [atril-gtk2, atril-lite, atril-nocaja-gtk2, atril-gtk], addflavor: true }
-- { setname: ats$1,                    namepat: "ats2(.*)" }
+- { setname: ats,                      name: [ats2, ats2-lang, ats-lang-anairiats, ats-postiats, ats2-postiats] }
 - { setname: atspkg,                   name: "haskell:ats-pkg" }
 - { setname: attic,                    name: rust:$0 }
 - { setname: attica,                   name: [attica-kf5,attica-qt4,attica-qt5,libattica], addflavor: true }
