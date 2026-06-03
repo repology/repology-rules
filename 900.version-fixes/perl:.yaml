@@ -142,7 +142,7 @@
 - { name: perl:poe-component-client-keepalive, verpat: "0\\.[0-9]{4}.*",                   incorrect: true }
 - { name: perl:readonly,               ver: "2.050",                                       ignore: true }
 - { name: perl:redis,                  verpat: "1\\.[0-9]{4,}",                            ignore: true }
-- { name: perl:rose-db-object,         verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:rose-db-object,         verpat: "0\\.[0-9]{4}.*",                           incorrect: true }
 - { name: perl:rose-html-objects,      ver: "0.6061",                                      incorrect: true } # openbsd garbage
 - { name: perl:sgmls,                  verpat: "1\\.03.*",                                 sink: true }
 - { name: perl:sgmlspm,                verpat: "1\\.03.*",                                 sink: true }
