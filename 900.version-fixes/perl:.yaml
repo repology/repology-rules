@@ -49,6 +49,7 @@
 - { name: perl:dbd-sqlite,             verpat: ".*_.*",                                    devel: true }
 - { name: perl:dbix-abstract,          verpat: "1\\.[0-9]{3}.*",                           incorrect: true }
 - { name: perl:dbix-class-encodedcolumn, verpat: "0\\.[0-9]{3}.*",                         incorrect: true }
+- { name: perl:devel-findref,          verpat: "1\\.[0-9]{3}.*",                           incorrect: true }
 - { name: perl:devel-stacktrace,       verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
 - { name: perl:devel-stacktrace,       verpat: "2\\.[1-9][0-9].*",                         ignore: true }
 - { name: perl:devel-symdump,          verpat: "2\\.[0-9]{3,}.*",                          ignore: true }
@@ -68,12 +69,14 @@
 - { name: perl:finance-quote,          verpat: "1\\.[0-9]{3}.*",                           incorrect: true }
 - { name: perl:findbin-libs,           verge: "2.1000", verlt: "2.2100",                   sink: true }
 - { name: perl:findbin-libs,           verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:flickr-upload,          verpat: "1\\.[0-9]{2}.*",                           incorrect: true }
 - { name: perl:gdgraph,                verpat: "1\\.4[34][0-9]{2}.*",                      sink: true }
 - { name: perl:graph,                  ver: "0.20105",                                     sink: true }
 - { name: perl:hash-case,              verpat: "1\\.[0-9]{3}.*",                           incorrect: true }
 - { name: perl:hash-case,              verge: "1.20",                                      incorrect: true } # 1.07, not 1.70
 - { name: perl:html-formfu,            verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
 - { name: perl:html-formfu,            verge: "2.10",                                      incorrect: true }
+- { name: perl:html-linkextractor,     verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
 - { name: perl:html-packer,            verpat: "2\\.[0-9]{3}.*",                           incorrect: true }
 - { name: perl:html-packer,            verge: "2.30",                                      incorrect: true }
 - { name: perl:http-daemon-ssl,        verpat: "1\\.05.01",                                devel: true }
@@ -99,6 +102,7 @@
 - { name: perl:libwww-perl,                                          ruleset: ravenports,  untrusted: true } # accused of fake 6.830
 - { name: perl:lingua-en-syllable,     verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
 - { name: perl:lwp-protocol-https,     verpat: "(.*?)[._-]?TRIAL",                         setver: $1, devel: true } # XXX: upstream problem
+- { name: perl:mac-vendor,             verpat: "1\\.[0-9]{4}.*",                           incorrect: true }
 - { name: perl:mail-sender,            verpat: "0\\.[0-9]{4}.*",                           incorrect: true }
 - { name: perl:math-pari,                                                                  noscheme: true } # random upstream versioning
 - { name: perl:math-polygon-tree,      ver: "0.0691",                                      ignore: true } # 0.0691 < 0.08 (CPAN versioning brokenness)
@@ -111,9 +115,12 @@
 - { name: perl:mojolicious,                                          ruleset: sisyphus,    untrusted: true } # accuse of fake 8.67.1
 - { name: perl:mojolicious-plugin-authorization, ver: "1.0301",                            sink: true }
 - { name: perl:mojolicious-plugin-authorization, verpat: "1\\.[0-9]{3}.*",                 incorrect: true }
+- { name: perl:mojolicious-plugin-i18n, verpat: "1\\.[0-9]{2}.*",                          incorrect: true }
 - { name: perl:mon,                    verge: "1",                   ruleset: openbsd,     incorrect: true } # mon-client subpackage, not Mon perl module
 - { name: perl:moosex-setonce,         verge: "0.1000000", verle: "0.200002",              sink: true }
 - { name: perl:moosex-setonce,         verpat: "0\\.[0-9]{4}.*",                           incorrect: true }
+- { name: perl:net-dhcp,               verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
+- { name: perl:net-dhcp,               verge: "0.50",                                      sink: true }
 - { name: perl:net-ldap,               verpat: "0\\.[0-9]{4}.*",                           incorrect: true }
 - { name: perl:net-whois-ripe,         ver: "2.005005",                                    sink: true } # < 2.006
 - { name: perl:nmap-parser,            verpat: "1\\.[0-9]{3}.*",                           incorrect: true }
@@ -135,6 +142,7 @@
 - { name: perl:poe-component-client-keepalive, verpat: "0\\.[0-9]{4}.*",                   incorrect: true }
 - { name: perl:readonly,               ver: "2.050",                                       ignore: true }
 - { name: perl:redis,                  verpat: "1\\.[0-9]{4,}",                            ignore: true }
+- { name: perl:rose-db-object,         verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
 - { name: perl:rose-html-objects,      ver: "0.6061",                                      incorrect: true } # openbsd garbage
 - { name: perl:sgmls,                  verpat: "1\\.03.*",                                 sink: true }
 - { name: perl:sgmlspm,                verpat: "1\\.03.*",                                 sink: true }
