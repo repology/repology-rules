@@ -120,7 +120,11 @@
 - { name: empire, wwwpart: vms-empire, setname: vms-empire }
 - { name: empire, wwwpart: wolfpack, setname: wolfpack }
 
-- { name: enigma, wwwpart: sgtatham, setname: enigma-sgtatham }
+- { name: enigma, wwwpart: sgtatham, setname: $0-sgtatham }
+- { name: enigma, wwwpart: FabricMC, setname: $0-java-deobfuscation }
+- { name: enigma, wwwpart: [github.com/Enigma-Game/Enigma,enigma.nongnu.org], setname: $0-oxyd }
+- { name: enigma, sourceforge: enigma-game, setname: $0-oxyd }
+- { name: enigma, addflag: unclassified }
 
 - { name: envision, wwwpart: gabmus, setname: envision-xr }
 - { name: envision, wwwpart: atari.miribilist.com, setname: envision-atari }
