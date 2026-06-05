@@ -100,6 +100,12 @@
 - { name: mash, wwwpart: clutter, setname: mash-clutter }
 - { name: mash, addflag: unclassified }
 
+- { name: matcha, wwwpart: QuincePie, setname: $0-idle-inhibitor }
+- { name: matcha, wwwpart: emersion, setname: $0-git-webui }
+- { name: matcha, wwwpart: [floatpane, matcha.email], setname: $0-email-client }
+- { name: matcha, wwwpart: piqoni, setname: $0-rss-digest }
+- { name: matcha, addflag: unclassified }
+
 - { name: materialize, wwwpart: boundingboxsoftware, setname: materialize-material-generator }
 - { name: materialize, wwwpart: materialize.com, setname: materialize-streaming-database }
 - { name: materialize, addflag: unclassified }
