@@ -132,6 +132,7 @@
 - { name: openoffice,                  verpat: "[0-9]+\\.[0-9]{3}.*",                      incorrect: true } # winget garbage
 - { name: openoffice,                  verpat: ".*[0-9a-f]{10}",                           incorrect: true }
 - { name: openoffice,                                                ruleset: t2,          untrusted: true } # accused of fake 4.1.13-281f0d3533
+- { name: openoffice,                                                ruleset: freebsd,     untrusted: true } # accused of p instead of rc
 - { name: openomf,                     ver: "0.6.5.2",               ruleset: openbsd,     incorrect: true } # latest is 0.6.5
 - { name: openomf,                                                   ruleset: openbsd,     untrusted: true } # accused of fake 0.6.5.2
 - { name: openpam,                                                   ruleset: openbsd,     incorrect: true } # not openpam at all
