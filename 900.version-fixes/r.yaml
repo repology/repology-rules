@@ -142,8 +142,6 @@
 - { name: rocm-device-libs,            verge: "15",                                        incorrect: true } # fedora, uses llvm version
 - { name: rocs,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: rofi-wayland,                verpat: ".*wayland.*",                              any_is_patch: true }
-- { name: rogue,                       ver: "5.4.5",                 ruleset: [fedora,slackbuilds], incorrect: true }
-- { name: rogue,                                                     ruleset: [fedora,slackbuilds], untrusted: true } # accused of fake 5.4.5
 - { name: rpcgen,                                                    ruleset: ravenports,  ignore: true } # fake
 - { name: rpcs3,                       verlonger: 3,                                       snapshot: true }
 - { name: rpm,                         verpat: ".*9[0-9]",                                 devel: true }
