@@ -345,7 +345,9 @@
 - { setname: process-viewer,           name: rust:$0 }
 - { setname: processhacker,            name: process-hacker }
 - { setname: processing,               name: processing3 }
-- { setname: procps,                   name: procps-ng }
+- { setname: procps,                   name: [procps-ng, procps-compat, procps-ng3] }
+- { setname: procps,                   name: [gnuwatch, gnu-watch], addflavor: watch }
+- { setname: procps,                   name: libprocps, addflavor: lib }
 - { setname: procs,                    name: "rust:procs" }
 - { setname: proj,                     namepat: "proj[0-9.-]+" }
 - { setname: proj,                     name: libproj }
