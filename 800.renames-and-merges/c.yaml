@@ -6,7 +6,7 @@
 - { setname: c-ares,                   name: [libcares,libcares2] }
 - { setname: c-ares,                   name: c-ares-tests, addflavor: true }
 - { setname: c-blosc,                  name: [blosc,libblosc] } # XXX: problem
-- { setname: c-blosc2,                 name: blosc2 } # XXX: problem
+- { setname: c-blosc2,                 name: [blosc2, libblosc2] } # XXX: problem
 - { setname: c-lightning,              name: clightning }
 - { setname: c-lolcat,                 name: lolcat-c } # as per PKGBUILD from upstream repo
 - { setname: c2hs,                     name: haskell:$0 }
