@@ -169,6 +169,8 @@
 - { name: glslang,                     ver: "15.2.0",                ruleset: opensuse,    incorrect: true }
 - { name: glslang,                                                   ruleset: opensuse,    incorrect: true } # accused of fake 15.2.0
 - { name: gltron,                      verpat: "(.*)final",                                setver: $1 } # Maemo
+- { name: glycin,                      ver: "2.1.2",                 ruleset: debuntu,     incorrect: true }
+- { name: glycin,                                                    ruleset: debuntu,     untrusted: true } # accused of fake 2.1.2
 - { name: gmap,                        verpat: "[0-9]{4}(-[0-9]{2}){2}", ruleset: debuntu, ignore: false } # official version, not a snapshot
 - { name: gmic-qt,                     verpat: "[0-9]{3}",                                 incorrect: true }
 - { name: gmic-qt,                     ver: "3.0.0.1",                                     incorrect: true }
