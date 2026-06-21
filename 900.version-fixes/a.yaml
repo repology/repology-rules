@@ -285,6 +285,8 @@
 - { name: arx-libertatis,              verpat: ".*dev_.*",                                 snapshot: true } # slackbuilds
 - { name: asc,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]{3,}\\.[0-9]+",     devel: true } # http://terdon.asc-hq.org/asc/builds/
 - { name: asc,                         releq: "2.8",                                       incorrect: true } # should be separate project, see https://www.asc-hq.org/, variants section
+- { name: asc,                         releq: "2.6.3.0",             ruleset: nix,         incorrect: true }
+- { name: asc,                                                       ruleset: nix,         untrusted: true } # accused of fake 2.6.3.0
 - { name: asciidoc,                    ver: "9.0.0",                 ruleset: [mageia,solus], incorrect: true } # 9.0.0rc1
 - { name: asciidoc,                                                  ruleset: [mageia,solus], untrusted: true } # accused of fake 9.0.0
 - { name: asciijump,                   ver: "1.0.2",                 ruleset: pld,         incorrect: true } # 1.0.2beta
