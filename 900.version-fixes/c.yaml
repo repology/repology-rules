@@ -113,14 +113,7 @@
 - { name: cdrkit,                      vergt: "1.1.11",                                    incorrect: true } # project is dead, assuming no more releases
 - { name: cdrkit,                                                    ruleset: deepin,      untrusted: true } # accused of fake 1.1.11-3+apricot, 1.1.11.1
 - { name: cdrkit,                                                    ruleset: nix,         untrusted: true } # accused of fake 1.1.11-3.5
-- { name: cdrtools,                    ver: "3.02",                  ruleset: [debuntu,rosa,openmandriva], incorrect: true } # fake, it's alpha
-- { name: cdrtools,                                                  ruleset: [debuntu,rosa,openmandriva], untrusted: true }
-- { name: cdrtools,                    ver: "3.02_9",                ruleset: solus,       incorrect: true } # 3.02a09
-- { name: cdrtools,                                                  ruleset: solus,       untrusted: true }
-- { name: cdrtools,                    verpat: ".*a.*",                                    devel: true }
-- { name: cdrtools,                    verpat: "20[0-9]{2}.*",                             altscheme: true } # schilytools version
-- { name: cdrtools,                    vereq: "3.02a09",                                   outdated: true } # convey that there's newer version in schilytools, which may be either 2021.07.29 (schilytools version) or 3.02a09 (cdrtools own version)
-- { name: cdrtools,                    verpat: ".*20[0-9]{2}.*",                           incorrect: true }
+- { name: cdrtools,                                                                        outdated: true } # part of schilytools now
 - { name: ceferino,                    verpat: ".*svn.*",                                  ignore: true }
 - { name: cegui,                       verpat: "6\\..*",                                   setver: "0.$0" } # it's 0.6.2!
 - { name: cegui,                       verpat: ".*20[0-9]{6}",                             snapshot: true }
