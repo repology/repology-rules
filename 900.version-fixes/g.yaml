@@ -287,7 +287,9 @@
 - { name: gobject-introspection,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gocheat,                     ver: "1.1",                   ruleset: aur,         incorrect: true }
 - { name: gocheat,                                                   ruleset: aur,         untrusted: true } # accused of fake 1.1
-- { name: goldencheetah,               verpat: ".*dev.*",                                  ignore: true }
+- { name: goldencheetah,               verpat: ".*dev.*",                                  devel: true }
+- { name: goldencheetah,               verpat: ".*sp.*",                                   any_is_patch: true }
+- { name: goldencheetah,               verpat: "[0-9]+\\.[0-9]+\\.[0-9]+",                 incorrect: true } # either α.β or α.β-SPγ
 - { name: goldendict,                  ver: ["1.5", "1.5.0"],        ruleset: [sisyphus,fedora,mageia,pisi], incorrect: true }
 - { name: goldendict,                                                ruleset: [sisyphus,fedora,mageia,pisi], untrusted: true } # accused of fake 1.5
 - { name: goldendict,                  verpat: ".*g.*",                                    snapshot: true } # scoop
