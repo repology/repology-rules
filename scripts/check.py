@@ -300,6 +300,7 @@ schema = Schema(
         'notver': Any(str, [str]),
         'verpat': str,
         'wwwpart': Any(str, [str]),
+        'wwwprefix': Any(str, [str]),
         'sourceforge': Any(str, [str]),
         'summpart': Any(str, [str]),
         'wwwpat': str,
@@ -453,8 +454,8 @@ def validate_value(key, val):
         raise BadRuleValue('{0} is not a pattern but contains pattern characters, perhaps you\'ve meant to use {0}pat?'.format(key))
     if key == 'verpat' and re.fullmatch('[0-9]+(\\.[0-9]+)+', val):
         raise BadRuleValue('verpat contains literal versions, perhaps you\'ve meant to use ver?')
-    if key in ['wwwpat', 'wwwpart'] and ('sourceforge' in val or 'sf.net' in val):
-        raise BadRuleValue('use sourceforge instead of wwwpat/wwwpart')
+    if key in ['wwwpat', 'wwwpart', 'wwwprefix'] and ('sourceforge' in val or 'sf.net' in val):
+        raise BadRuleValue('use sourceforge instead of wwwpat/wwwpart/wwwprefix')
     if key == 'sourceforge' and ('.' in val or '/' in val):
         raise BadRuleValue('sourceforge expects project name, not url')
 
