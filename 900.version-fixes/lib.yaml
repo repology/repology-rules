@@ -345,6 +345,7 @@
 - { name: libshout-idjc,               ver: "2.4.6+1",                                     incorrect: true }
 - { name: libshout-idjc,                                             ruleset: void,        untrusted: true } # accused of fake 2.4.6+1
 - { name: libshout-idjc,               verpat: ".*r[0-9]+",                                any_is_patch: true }
+- { name: libshout-idjc,               verpat: "[0-9]+\\.[0-9]+\\.[0-9]+[^0-9a-z][0-9]+",  incorrect: true } # 2.4.6-r2
 - { name: libskk,                      ver: "1.2.0",                 ruleset: opensuse,    incorrect: true }
 - { name: libskk,                                                    ruleset: opensuse,    untrusted: true } # accused of fake 1.2.0
 - { name: libslirp,                    verpat: ".*g.*",                                    snapshot: true } # sisyphus
