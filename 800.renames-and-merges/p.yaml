@@ -341,6 +341,7 @@
 - { setname: prismlauncher,            name: [prismlauncher-nightly,prismlauncher-git], weak_devel: true, nolegacy: true }
 - { setname: prismlauncher,            name: [prismlauncher-qt5-nightly,prismlauncher-qt5-git], addflavor: qt5, weak_devel: true, nolegacy: true }
 - { setname: privoxy,                  name: freedombox-privoxy, addflavor: true }
+- { setname: probe-rs-tools,           name: [probe-rs, rust:$0] }
 - { setname: procdump,                 name: procdump-for-linux }
 - { setname: process-viewer,           name: rust:$0 }
 - { setname: processhacker,            name: process-hacker }
