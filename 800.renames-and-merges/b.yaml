@@ -1,7 +1,5 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- { setname: b2,                       name: [boost-build], outdated: true } # former name; split in 850
-- { setname: b2,                       name: [b2-tools,"python:b2"] } # split in 850
 - { setname: b4,                       name: python:$0 }
 - { setname: babel.js,                 name: babel-cli }
 - { setname: babeltrace,               name: "python:babeltrace", addflavor: python }
