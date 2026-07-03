@@ -133,6 +133,7 @@
 - { setname: "python:colorful",        name: colorful, wwwpart: timofurrer }
 - { setname: ovh-ttyrec,               name: ttyrec, wwwpart: ovh-ttyrec, outdated: true }
 
+- { addflag: misnamed, name: boost-build,    relge: "2" } # same code, boostorg/build (boost versioning, 1.91) vs. bfgroup/b2 (own versioning, 5.5.1); boost build versioned as b2 is incorrect
 - { addflag: misnamed, name: libqrtr,        wwwpart: libqrtr-glib }
 
 - flag: misnamed

@@ -140,7 +140,6 @@
 - { name: boost,                                                     ruleset: windows,     ignore: true } # XXX: upstream problems, https://sourceforge.net/projects/boost/files/boost-binaries/1.90.0/ are released before the official tag
 - { name: boost,                       ver: "2.2.0",                                       sink: true } # boost-pfr has at some point had its own versioning scheme, https://github.com/boostorg/pfr/tags?after=boost-1.85.0
 - { name: boost-build,                 verpat: "20[0-9]{2}.*",                             incorrect: true }
-- { name: boost-build,                 verpat: "2\\.0.*",                                  incorrect: true }
 - { name: boost-build,                 verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: bootloadhid,                 verpat: "20[0-9]{6}",                               incorrect: true } # YYYY-MM-DD
 - { name: bootp,                       verpat: ".*_.*",                                    successor: true } # debian
