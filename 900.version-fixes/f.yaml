@@ -114,6 +114,8 @@
 - { name: flann,                       verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: flann,                                                     ruleset: freebsd,     untrusted: true }
 - { name: flashbench,                                                                      noscheme: true } # packages mention 62, 71, 72, but source of these is not known; https://github.com/bradfa/flashbench/tags
+- { name: flatbuffers,                 ver: "25.12.19.1",            ruleset: pkgsrc,      incorrect: true }
+- { name: flatbuffers,                                               ruleset: pkgsrc,      untrusted: true } # accused of fake 25.12.19.1
 - { name: flatpak,                     ver: "0.10.3.1",              ruleset: deepin,      incorrect: true } # fake
 - { name: flatpak,                                                   ruleset: deepin,      untrusted: true }
 - { name: flatpak,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed; https://github.com/flatpak/flatpak/releases
