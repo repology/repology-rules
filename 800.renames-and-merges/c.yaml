@@ -27,6 +27,8 @@
 - { setname: cage,                     name: [cage-no-xwayland,cage-scenegraph], addflavor: true }
 - { setname: cairo-clock,              name: cairo-clock-ccw }
 - { setname: cairo-dock-plugins,       name: cairo-dock-plug-ins }
+# unbundled from cairo-lang crate merge; it's a distinct end-user project
+- { setname: cairo-language-server,    name: [rust:cairo-language-server, rust:cairo-lang-language-server] }
 - { setname: cairomm,                  namepat: "(?:lib)?cairomm[0-9.-]*(-docs)?", addflavor: $1 }
 - { setname: caja,                     name: caja-dev, weak_devel: true, nolegacy: true }
 - { setname: caja,                     name: caja-gtk2, addflavor: true }
