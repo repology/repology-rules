@@ -354,6 +354,7 @@
 - { name: cpufreqd,                                                  ruleset: sisyphus,    untrusted: true } # accused of fake 2.4.3
 - { name: cpulimit,                    verpat: "20[0-8]{6}.*",                             incorrect: true } # hyperbola
 - { name: cpuminer-multi,              verpat: "20[0-9]{6}.*",                             snapshot: true }
+- { name: cr.h,                                                                            noscheme: true }
 - { name: crack-attack,                ver: "1.1.15_cvs_01",                               incorrect: true }
 - { name: crack-attack,                ver: "1.1.15",                ruleset: rosa,        incorrect: true }
 - { name: crack-attack,                                              ruleset: rosa,        untrusted: true } # accused of fake 1.1.15
