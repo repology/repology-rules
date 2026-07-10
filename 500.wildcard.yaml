@@ -134,6 +134,9 @@
 - { setname: "jg:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_jg], namepat: "jg-(.*)", ruleset: slackbuilds }
 - { setname: "jg:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_jg], namepat: "(.*)-jg", ruleset: gentoo }
 
+# Home assistant
+- { setname: "homeass:$0", addflag: wconce, noflag: [wconce,not_wildcard], category: home-assistant-custom-components, ruleset: nix }
+
 # kakoune
 - { setname: "kakoune:$0", addflag: wconce, noflag: [wconce,not_wildcard], category: kakounePlugins, ruleset: nix }
 
