@@ -269,8 +269,9 @@
 - { name: krdc,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: krecorder,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: krename,                     verpat: ".+20[0-9]{6}.*",                           snapshot: true }
-- { name: krename,                     ver: "5.0.60",                ruleset: [fedora,mageia], incorrect: true }
-- { name: krename,                                                   ruleset: [fedora,mageia], untrusted: true } # accused of fake 5.0.60
+- { name: krename,                     verpat: "20[0-9]{6}.*",                             incorrect: true }
+- { name: krename,                     ver: "5.0.60",                ruleset: [fedora,mageia,sisyphus,freebsd,rosa], incorrect: true }
+- { name: krename,                                                   ruleset: [fedora,mageia,sisyphus,freebsd,rosa], untrusted: true } # accused of fake 5.0.60
 - { name: krename,                     ver: "5.0.3",                 ruleset: openmandriva, incorrect: true }
 - { name: krename,                                                   ruleset: openmandriva, untrusted: true } # accused of fake 5.0.3
 - { name: kreversi,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
