@@ -61,6 +61,11 @@
 - { name: fetch, sourceforge: fetch, setname: fetch-lhanson }
 - { name: fetch, addflag: unclassified }
 
+- { name: fetchit, wwwpart: [fetchit.readthedocs.io, containers], setname: fetchit-containers}
+- { name: fetchit, wwwpart: nzuum, setname: fetchit-sysinfo-nzuum }
+- { name: fetchit, wwwpart: ruturajn, setname: fetchit-sysinfo-ruturajn }
+- { name: fetchit, addflag: unclassified }
+
 - { name: fex, wwwpart: [semicomplete,jordansissel], setname: fex-field-extraction }
 - { name: fex, wwwpart: [uni-stuttgart,belwue], setname: fex-file-exchange }
 - { name: fex, wwwpart: fex-emu, setname: fex-emu }
