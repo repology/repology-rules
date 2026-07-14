@@ -54,6 +54,7 @@
 - { name: perl:devel-stacktrace,       verpat: "2\\.[1-9][0-9].*",                         ignore: true }
 - { name: perl:devel-symdump,          verpat: "2\\.[0-9]{3,}.*",                          ignore: true }
 - { name: perl:device-serialport,      ver: "1.040000",                                    ignore: true }
+- { name: perl:dist-zilla-plugin-ourpkgversion, verpat: "0\\.[0-9]{3}.*",                  incorrect: true }
 - { name: perl:enum,                   verpat: "1\\.[0-9]{3,}.*",                          ignore: true }
 - { name: perl:exporter-tiny,          verpat: ".*\\+.*",                                  devel: true } # AOSC devel
 - { name: perl:extutils-parsexs,       verpat: "3\\.[0-9]{3}.*",                           incorrect: true }
@@ -119,6 +120,7 @@
 - { name: perl:mon,                    verge: "1",                   ruleset: openbsd,     incorrect: true } # mon-client subpackage, not Mon perl module
 - { name: perl:moosex-setonce,         verge: "0.1000000", verle: "0.200002",              sink: true }
 - { name: perl:moosex-setonce,         verpat: "0\\.[0-9]{4}.*",                           incorrect: true }
+- { name: perl:mousex-getopt,          verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
 - { name: perl:net-dhcp,               verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
 - { name: perl:net-dhcp,               verge: "0.50",                                      sink: true }
 - { name: perl:net-ldap,               verpat: "0\\.[0-9]{4}.*",                           incorrect: true }
@@ -141,6 +143,7 @@
 - { name: perl:poe-api-peek,           verpat: "2\\.[0-9]{4}.*",                           incorrect: true }
 - { name: perl:poe-component-client-http, verpat: "0\\.[0-9]{4}.*",                        incorrect: true }
 - { name: perl:poe-component-client-keepalive, verpat: "0\\.[0-9]{4}.*",                   incorrect: true }
+- { name: perl:protocol-websocket,     verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
 - { name: perl:readonly,               ver: "2.050",                                       ignore: true }
 - { name: perl:redis,                  verpat: "1\\.[0-9]{4,}",                            ignore: true }
 - { name: perl:rose-db-object,         verpat: "0\\.[0-9]{4}.*",                           incorrect: true }
