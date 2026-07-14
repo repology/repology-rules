@@ -43,7 +43,7 @@
 - { setname: raxml-ng,                 name: [raxml-ng-mpi, raxml-ng-portable], addflavor: true }
 - { setname: razor-qt,                 name: razorqt }
 - { setname: rbutil,                   name: [rockbox, rockbox-utility, rockboxutility] }
-- { setname: rbw,                      name: "rust:rbw" }
+- { setname: rbw,                      name: rust:$0 }
 - { setname: rclone,                   name: rclone-beta, weak_devel: true, nolegacy: true }
 - { setname: rclone-browser,           name: [rclonebrowser, kapitainsky-rclone-browser] }
 - { setname: rdesktop,                 name: rdesktop-legacy }
@@ -88,9 +88,9 @@
 - { setname: renpy,                    name: "python:renpy" }
 - { setname: renpy,                    name: [renpy-demos,renpy-sdk], addflavor: true }
 - { setname: renpy,                    name: renpy6 }
-- { setname: repgrep,                  name: rust:repgrep }
+- { setname: repgrep,                  name: rust:$0 }
 - { setname: reposurgeon,              name: cyreposurgeon }
-- { setname: repro-env,                name: "rust:repro-env" }
+- { setname: repro-env,                name: rust:$ }
 - { setname: reptor,                   name: python:$0 }
 - { setname: resolve-march-native,     name: "python:resolve-march-native" }
 - { setname: rest,                     name: librest }
@@ -108,9 +108,9 @@
 - { setname: rigsofrods,               name: [rigsofrods-bin, rigsofrods-noangelscript], addflavor: true }
 - { setname: ringojs,                  name: ringo }
 - { setname: rio,                      name: [rio-terminal, rio-terminal-emulator, rust:rioterm, rioterm] }
-- { setname: ripasso,                  name: "rust:ripasso" }
-- { setname: ripasso-cursive,          name: "rust:ripasso-cursive" }
-- { setname: ripgrep,                  name: "rust:ripgrep" }
+- { setname: ripasso,                  name: rust:$0 }
+- { setname: ripasso-cursive,          name: rust:$0 }
+- { setname: ripgrep,                  name: rust:$0 }
 - { setname: ripgrep,                  name: ripgrep-simd, addflavor: true }
 - { setname: ripgrep-all,              name: rust:$0 }
 - { setname: riseup-vpn,               name: [bitmask, calyx-vpn] } # according to report, built from the same source
