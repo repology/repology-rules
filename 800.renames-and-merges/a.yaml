@@ -449,6 +449,7 @@
 - { setname: autodia,                  name: "perl:autodia" }
 - { setname: autoflake,                name: "python:autoflake" }
 - { setname: autofs,                   name: autofs5 }
+- { setname: autojump,                 name: [rust:$0, $0-rs] } # split in 850
 - { setname: autokey,                  name: [autokey-py3,"python:autokey"] }
 - { setname: automake,                 namepat: "automake-?[0-9.]+" } # do we need splits for this?
 - { setname: automatic-timezoned,      name: rust:$0 }
