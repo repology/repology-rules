@@ -287,6 +287,8 @@
 - { name: gobject-introspection,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gocheat,                     ver: "1.1",                   ruleset: aur,         incorrect: true }
 - { name: gocheat,                                                   ruleset: aur,         untrusted: true } # accused of fake 1.1
+- { name: godot,                       ver: "4.7.1",                 ruleset: termux,      incorrect: true }
+- { name: godot,                                                     ruleset: termux,      untrusted: true } # accused of fake 4.7.1
 - { name: goldencheetah,               verpat: ".*dev.*",                                  devel: true }
 - { name: goldencheetah,               verpat: ".*sp.*",                                   any_is_patch: true }
 - { name: goldencheetah,               verpat: "[0-9]+\\.[0-9]+\\.[0-9]+",                 incorrect: true } # either α.β or α.β-SPγ
