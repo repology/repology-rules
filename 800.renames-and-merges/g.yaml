@@ -187,6 +187,7 @@
 - { setname: gitlab-release-cli,       name: release-cli }
 - { setname: gitlab-runner,            name: [gitlab-runner-images, gitlab-ci-multi-runner, gitlab-ci-multi-runner-images, gitlab-runner-custom-executors], addflavor: true }
 - { setname: gitolite,                 name: [gitolite2,gitolite3] }
+- { setname: gitoxite,                 name: rust:$0 }
 - { setname: gitter,                   name: gitter-bin }
 - { setname: gitter-cli,               name: "node:gitter-cli" }
 - { setname: gitu,                     name: rust:$0 }
