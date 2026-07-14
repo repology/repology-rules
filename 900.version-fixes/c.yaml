@@ -123,6 +123,7 @@
 - { name: celestia,                                                  ruleset: [opensuse,mageia,rosa,sisyphus,aur], untrusted: true }
 - { name: celestia,                    verpat: ".*[0-9a-f]{7}",                            incorrect: true }
 - { name: celestia,                    verpat: ".*20[0-9]{6}",                             snapshot: true, incorrect: false }
+- { name: celestia-data,                                                                   noscheme: true }
 - { name: cemu-wii-u-emulator,         ver: "2.0.468",               ruleset: t2,          incorrect: true }
 - { name: cemu-wii-u-emulator,                                       ruleset: t2,          untrusted: true } # accused of fake 2.0.468
 - { name: cemu-wii-u-emulator,         ver: "2.0.513",               ruleset: aur,         incorrect: true }
