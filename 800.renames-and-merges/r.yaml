@@ -112,6 +112,7 @@
 - { setname: ripasso-cursive,          name: "rust:ripasso-cursive" }
 - { setname: ripgrep,                  name: "rust:ripgrep" }
 - { setname: ripgrep,                  name: ripgrep-simd, addflavor: true }
+- { setname: ripgrep-all,              name: rust:$0 }
 - { setname: riseup-vpn,               name: [bitmask, calyx-vpn] } # according to report, built from the same source
 - { setname: river,                    name: river-noxwayland, addflavor: true }
 - { setname: river,                    name: rust:river }
