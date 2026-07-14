@@ -7,6 +7,8 @@
 - { name: kaccounts-integration,       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kaccounts-providers,         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kaddressbook,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kaffeine,                    ver: "2.1.0",                 ruleset: [freebsd,rosa], incorrect: true }
+- { name: kaffeine,                                                  ruleset: [freebsd,rosa], untrusted: true } # accused of fake 2.1.0
 - { name: kafka,                       verpat: "2\\.12.*",           ruleset: aur,         incorrect: true } # includes scala version
 - { name: kafka,                                                     ruleset: aur,         untrusted: true } # accused of fake 2.12.2.3.0
 - { name: kafka,                       verpat: "([0-9]+\\.[0-9]+)[._-]([0-9]+\\.[0-9]+\\.[0-9]+)", setver: $2 } # scala version prepended (by upstream as well)
