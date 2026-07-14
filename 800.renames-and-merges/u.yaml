@@ -114,6 +114,7 @@
 - { setname: util-dfm,                 name: deepin-$0 }
 - { setname: uucp,                     name: taylor-uucp }
 - { setname: uutils-coreutils,         name: [coreutils-uutils, uutils, "rust:coreutils", "rust:uucore"] } # also rust:uu-*, but that may mismerge findutils bits
+- { setname: uv,                       name: rust:uvicorn }
 - { setname: uvicorn,                  name: python:uvicorn }
 - { setname: uwm-ude,                  name: ude } # technically it's named uwm; see also rule in 850
 - { setname: uwsgi,                    name: "python:uwsgi" }
