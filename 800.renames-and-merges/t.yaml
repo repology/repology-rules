@@ -266,6 +266,13 @@
 - { setname: tre,                      name: libtre } # XXX: reverse?
 - { setname: tree,                     name: [tree-pkg, colortree] }
 - { setname: tree-sitter,              name: rust:$0 }
+- { setname: tree-sitter-bash,         name: [python:$0, rust:$0] }
+- { setname: tree-sitter-c,            name: [python:$0, rust:$0] }
+- { setname: tree-sitter-go,           name: [python:$0, rust:$0] }
+- { setname: tree-sitter-json,         name: [python:$0, rust:$0] }
+- { setname: tree-sitter-lua,          name: [python:$0, rust:$0] }
+- { setname: tree-sitter-python,       name: [python:$0, rust:$0] }
+- { setname: tree-sitter-vimdoc,       name: rust:$0 }
 - { setname: tremor,                   name: [libtremor, libvorbisidec] }
 - { setname: tremulous,                name: tremulous-data, addflavor: data }
 - { setname: triceratops-lv2,          name: lv2-triceratops }
