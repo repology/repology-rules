@@ -213,6 +213,7 @@
 - { setname: botan,                    name: botan-old-stable }
 - { setname: botan,                    name: botan-with-compression, addflavor: compression }
 - { setname: bottom,                   name: rust:$0 }
+- { setname: bottom,                   name: bottom-nightly, weak_devel: true, nolegacy: true }
 - { setname: bouncycastle,             namepat: "bouncycastle[0-9.-]*" }
 - { setname: bouncycastle,             name: [bcmail,bouncycastle-mail], addflavor: mail }
 - { setname: bouncycastle,             name: [bcpg,bouncycastle-pg], addflavor: pg }
