@@ -10,3 +10,4 @@
 - { flag: set_kdeplasma,               verpat: "[12][0-9]\\..*",                           sink: true } # services moved to plasma such as print-manager
 - { flag: set_kdeplasma,               verlt: "6",                                         sink: true }
 - { flag: set_kdeplasma,                                             ruleset: fedora,      untrusted: true } # accused of faking versions for frameworks and gears
+- { flag: set_rocm,                    verpat: "[0-9]+\\.[0-9]+",                          incorrect: true } # therock-7.13 vs. rocm-7.2.4 tags. assuming the former unrelated
