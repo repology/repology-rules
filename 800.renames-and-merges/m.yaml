@@ -436,6 +436,7 @@
 - { setname: munin,                    name: [$0-master, $0-node, $0-server, $0-common], addflavor: true }
 - { setname: munin,                    name: munin-hashchecker } # different project tha munin-monitoring, split in 850
 - { setname: munt,                     name: [munt-alsadrv, munt-mt32emu-alsadrv], addflavor: alsadrv }
+- { setname: muon-meson,               name: [muon-as-meson-wrapper, muon-embedded-samurai]}
 - { setname: muparser,                 namepat: "libmuparser[0-9.-]*" }
 - { setname: mupdf,                    name: [libmupdf,mupdf-nojs,mupdf-seccomp,mupdf-tools], addflavor: true }
 - { setname: musepack,                 name: [musepack-tools,libmusepack], addflavor: true }
