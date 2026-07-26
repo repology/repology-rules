@@ -152,6 +152,7 @@
 - { name: perl:rose-html-objects,      ver: "0.6061",                                      incorrect: true } # openbsd garbage
 - { name: perl:sgmls,                  verpat: "1\\.03.*",                                 sink: true }
 - { name: perl:sgmlspm,                verpat: "1\\.03.*",                                 sink: true }
+- { name: perl:socket6,                verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
 - { name: perl:speech-recognizer-spx,  verge: "0.80",                                      incorrect: true }
 - { name: perl:sphinx-search,          verpat: "0\\.[0-9]{3,}.*",                          ignore: true }
 - { name: perl:spreadsheet-parseexcel, verpat: "0\\.[0-9]{3}.*",                           incorrect: true }
