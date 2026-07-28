@@ -213,9 +213,9 @@
 - { name: eval, wwwpart: mblab, setname: eval-gene-structure-prediction }
 - { name: eval, addflag: unclassified }
 
-- { name: exo, wwwpart: ndiscover.com/family/exo, setname: fonts:$0 }
-- { name: exo, wwwpart: exo-explore, setname: $0-ai }
-- { name: exo, wwwpart: xfce.org/xfce/exo, setname: xfce-$0 }
+- { name: exo, wwwpart: [ndiscover.com/family/exo,ndiscovered.com,ndiscover.com/exo-2-0], setname: fonts:$0 }
+- { name: exo, wwwpart: [exo-explore,exolabs.net], setname: $0-ai }
+- { name: exo, wwwpart: xfce.org, setname: xfce-$0 }
 - { name: exo, addflag: unclassified }
 
 - { name: express, wwwpart: bio.math.berkeley.edu, setname: express-rna-seq }
