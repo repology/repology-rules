@@ -244,6 +244,7 @@
 - { name: python:turbokid,                                           ruleset: sisyphus,    untrusted: true } # accused of fake 1.0.6
 - { name: python:tzdata,               ver: "10000",                                       incorrect: true }
 - { name: python:tzdata,                                             ruleset: gentoo,      untrusted: true } # accused of fake 10000
+- { name: python:uica,                                                                     noscheme: true }
 - { name: python:watchgod,             relge: "0.10",                                      incorrect: true } # watchfiles, not watchgod
 - { name: python:webm,                 vergt: "0.2.2",                                     successor: true } # http://xpra.org/src/ vs. https://github.com/expobrain/python-webm/releases
 - { name: python:wekan,                ver: "0.2.1",                 ruleset: aur,         incorrect: true } # python-wekan, not wekan
