@@ -164,7 +164,7 @@
 - { name: brightness-control,                                                              outdated: true } # incorrect name, must be brightness-controller; XXX: problem
 - { name: brise,                       verpat: "20[0-9]{6}",                               snapshot: true } # NOTE: dates allowed at version tail
 - { name: brisk-menu,                  ver: "0.5.1",                 ruleset: freebsd,     incorrect: true } # fork and a new fake version for the sake of single commit
-- { name: broadcom-sta,                verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
+- { name: broadcom-wl,                 verpat: ".*-.*",              ruleset: nix,         incorrect: true } # kernel version appended
 - { name: brotli,                      verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: bsd-games,                   verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: btcd,                        verpat: "20[0-9]{6}.*",                             incorrect: true }

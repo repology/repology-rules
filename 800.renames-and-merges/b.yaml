@@ -243,6 +243,8 @@
 - { setname: brisk-menu,               name: mate-brisk-menu }
 - { setname: brlcad,                   name: brl-cad }
 - { setname: brlcad,                   name: brl-cad-mged } # homebrew casks; what does mged mean, problem?
+- { setname: broadcom-wl,              name: [broadcom-sta,broadcom-wl64,module-broadcom-wl,wl-kmod,broadcom-wl-dkms,dkms-broadcom-wl,kernel-modules-bcmwl-6.12,kernel-modules-bcmwl-6.18,kernel-source-bcmwl] }
+- { setname: broadcom-wl,              name: [broadcom-wl-pae], addflavor: pae }
 - { setname: brogue,                   name: [brogue-ce, broguece] }
 - { setname: brogue,                   name: brogue-ce-curses, addflavor: curses }
 - { setname: broot,                    name: rust:$0 }
