@@ -13,11 +13,17 @@
     - font-ibm-plex
     - font-ibm-plex-ttf
     - fonts-ibm-plex
+    - fonts-otf-ibm-plex
+    - fonts-ttf-ibm-plex
     - ibm-plex
     - ibm-plex-fonts
+    - ibm-plex-itf
+    - ibm-plex-ttf
     - otf-ibm-plex
     - plex-ttf
     - ttf-ibm-plex
+
+- { setname: fonts:ibm-plex-$1, namepat: "(?:font|ttf)-ibm-plex-(.*)" }
 
 - setname: fonts:ibm-type1
   name:
