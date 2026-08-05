@@ -205,6 +205,9 @@
 
 - { name: gmtk, wwwpart: j.ee.washington.edu, setname: "gmtk-graphical-models-toolkit" }
 
+- { name: gnat, wwwpart: gcc.gnu.org, setname: gcc, addflavor: gnat }
+- { name: gnat, addflag: unclassified }
+
 - { name: gnat-util, ruleset: [arch,gentoo], setname: gnat-util-adacore }
 - { name: gnat-util, ruleset: [freebsd,pkgsrc,ravenports], setname: gnat-util-gcc }
 - { name: gnat-util, addflag: unclassified }
