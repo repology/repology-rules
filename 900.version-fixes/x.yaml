@@ -125,6 +125,8 @@
 - { name: xiphos,                                                    ruleset: opensuse,    untrusted: true } # accused of fake 4.2.1.7
 - { name: xl2tpd,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: xl2tpd,                      verge: "20000000", verlt: "20180519",               sink: true }
+- { name: xli,                         ver: "02-27",                                       incorrect: true }
+- { name: xli,                                                       ruleset: t2,          untrusted: true } # accused of fake 02-27
 - { name: xloadimage,                  verlonger: 2,                                       debianism: true } # freebsd, openbsd
 - { name: xmahjongg,                   ver: "3.70",                  ruleset: [ pkgsrc ],  incorrect: true }
 - { name: xmake-io,                    verpat: ".+20[0-9]{6}",       ruleset: winget,      incorrect: true } # not snapshots - releases with bullshit version suffix
