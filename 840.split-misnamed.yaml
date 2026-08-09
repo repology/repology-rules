@@ -8,6 +8,8 @@
 - { addflag: misnamed, name: chaos,          wwwpart: chaos-client }
 - { addflag: misnamed, name: cwc,            wwwpart: cwcwm }
 - { addflag: misnamed, name: dbf,            wwwpart: ethanfurman } # python:dbf
+- { addflag: misnamed, name: dbf,            wwwpart: python-dbase } # python:dbf
+- { addflag: misnamed, name: dbf,            ruleset: ubuntu_broken_homepages }
 - { addflag: misnamed, name: docker-engine } # moby
 - { addflag: misnamed, name: dracula-theme } # unspecific (there are hundreds of dracula themes for different software https://github.com/dracula/)
 - { addflag: misnamed, name: drbd, verge: "9.5.0" } # drbd-utils

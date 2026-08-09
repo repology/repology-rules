@@ -199,6 +199,7 @@ rulesets = families + [
     'terra',
     'trisquel',
     'ubuntu',
+    'ubuntu_broken_homepages',
     'unitedrpms',
     'windows',
 ]
