@@ -1,0 +1,5 @@
+# vim: tabstop=15 expandtab softtabstop=15 nomodeline
+
+- { category: darwin,        ruleset: nix,                 remove: true }
+- { category: netbsd,        ruleset: nix,                 remove: true }
+- { category: freebsd,       ruleset: nix,                 remove: true }
