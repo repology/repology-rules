@@ -147,7 +147,7 @@
 - { name: gksu,                        ver: "2.0.12",                ruleset: t2,          incorrect: true } # likely libgksu
 - { name: gksu,                                                      ruleset: t2,          untrusted: true } # accused of fake 2.0.2
 - { name: glabels,                     verpat: "3\\.99.*",                                 devel: true }
-- { name: glabels,                     verpat: ".*master.*",                               any_is_patch: true }
+- { name: glabels,                     verpat: ".*master.*",                               any_is_patch: true, ignore: false }
 - { name: glade,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: glaxnimate,                  verpat: "[0-9]+\\.[0-9]+\\.[789][0-9].*",           devel: true }
 - { name: gle-tubing-and-extrusion,    verge: "4",                                         incorrect: true, disposable: true } # t2, different project
