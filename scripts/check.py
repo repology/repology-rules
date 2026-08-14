@@ -27,6 +27,7 @@ import yaml
 
 families = [
     'adelie',
+    'aerynos',
     'aix',
     'alpine',
     'anitya',
@@ -113,7 +114,6 @@ families = [
     'sagemath',
     'salix',
     'scoop',
-    'serpentos',
     'sisyphus',
     'slackbuilds',
     'slackware',
