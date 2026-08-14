@@ -62,6 +62,11 @@
 - { setname: nvidia,                   namepat: "nvidia[0-9.-]*" }
 - { setname: nvidia,                   namepat: "xdrv:nvidia(?:-kernel|-legacy)?[x0-9.-]*(?:-kernel)?(-nopae)?", addflavor: $1 }
 - { setname: nvidia,                   namepat: "kmod-nvidia-[0-9]+xx" }
+- { setname: nvidia,                   name: nvidia-graphics-driver }
+- { setname: nvidia,                   name: kmod-nvidia }
+- { setname: nvidia,                   name: kmod-nvidia-open }
+- { setname: nvidia,                   name: nvidia-580xx-open }
+- { setname: nvidia,                   name: nvidia-open }
 
 ##- { setname: nvidia,                   namepat: "nvidia[0-9.-]+xx.*" }
 #- { setname: nvidia,                   namepat: "nvidia[0-9.-]+" }
