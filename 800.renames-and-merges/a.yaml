@@ -394,6 +394,8 @@
 - { setname: astromenace,              name: openastromenace-devel, weak_devel: true, nolegacy: true }
 - { setname: astrometry,               name: [astrometrynet,astrometry.net] }
 - { setname: asus-ec-sensors,          name: $0-dkms }
+- { setname: asusctl,                  name: [$0-x11,$0-nosystemd], addflavor: true }
+- { setname: asusctl,                  name: $0-devel, weak_devel: true, nolegacy: true }
 - { setname: asylum,                   name: sdl-asylum }
 - { setname: async,                    name: rust:async-cmd }
 - { setname: async++,                  name: asyncplusplus }
