@@ -186,6 +186,7 @@
 - { name: lprof,                       verpat: "20[0-9]{6}",                               ignore: true }
 - { name: lrslib,                      verpat: "[0-9]{3}.*",                               incorrect: true } # it's X.Y
 - { name: lrslib,                      verpat: ".*autotools.*",                            incorrect: true }
+- { name: lrzip,                       verge: "0.44",                                      sink: true } # 0.7.0 since jul 2026
 - { name: lrzsz,                       verge: "0.12.21",                                   successor: true } # debian fork? (needs investigation)
 - { name: lsb-release,                 ver: "4.0",                   ruleset: pld,         incorrect: true }
 - { name: lsb-release,                                               ruleset: pld,         untrusted: true } # accused of fake 4.0
