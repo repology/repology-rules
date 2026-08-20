@@ -268,7 +268,7 @@
 - { name: arianna,                     verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: aribb24,                     ver: "1.0.4",                 ruleset: freebsd,     incorrect: true }
 - { name: aribb24,                                                   ruleset: freebsd,     untrusted: true } # accused of fake 1.0.4
-- { name: ark,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: ark-archiver,                verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: armitage,                                                                        noscheme: true } # no tags, the only official version from http://www.fastandeasyhacking.com/download/ is braindead MM.DD.YY format
 - { name: arora,                       verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: arpd,                        ver: ["1.0","1.0.2"],                               ignore: true }

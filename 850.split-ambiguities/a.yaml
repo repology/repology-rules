@@ -363,6 +363,10 @@
 - { name: argus, wwwpart: lucocozz, setname: argus-cli-args-parser }
 - { name: argus, addflag: unclassified }
 
+- { name: ark, wwwpart: [apps.kde.org/ark/, invent.kde.org/utilities/ark], setname: $0-archiver }
+- { name: ark, wwwpart: posit-dev, setname: r:$0 }
+- { name: ark, addflag: unclassified }
+
 - { name: arrow, wwwpart: apache, setname: apache-arrow }
 - { name: arrow, wwwpart: crsmithdev, setname: "python:arrow" }
 - { name: arrow, wwwpart: mhgolkar, setname: $0-narrative-design }
