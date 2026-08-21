@@ -184,6 +184,7 @@
 - { setname: dosage,                   name: [gnome-dosage, dosage-tracker, python:dosage] } # different projects, split in 850
 - { setname: dosbox,                   name: [dosbox-sdl2,dosbox-debug,dosbox-multilib-patched,dosbox-ex], addflavor: true }
 - { setname: dosbox,                   name: dosbox-dev }
+- { setname: dotconf,                  name: lib$0 }
 - { setname: dotenv-linter,            name: rust:$0 }
 - { setname: dotnet,                   namepat: "dotnet[0-9.-]+" }
 - { setname: dotnet,                   name: dotnetpreview, weak_devel: true, nolegacy: true }
