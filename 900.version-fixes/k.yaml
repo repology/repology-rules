@@ -191,7 +191,7 @@
 - { name: kmail-account-wizard,        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kmailtransport,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kmbox,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: kmime,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: kmime,                       vergt: "15",                                        sink: true }
 - { name: kmines,                      verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kmix,                        verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: kmousetool,                  verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
