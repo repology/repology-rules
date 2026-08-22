@@ -45,6 +45,7 @@
 - { setname: vhba,                     name: [vhba-module, dkms-vhba, vhba-module-dkms, vhba-kmp] }
 - { setname: vhba,                     name: kernel-source-vhba, addflavor: true }
 - { setname: vhba,                     namepat: "kernel-modules-vhba([0-9.-]+)", addflavor: $1 }
+- { setname: vibe,                     name: vibe-audio-visualizer }
 - { setname: victorialogs,             name: victoria-logs }
 - { setname: victoriametrics,          name: victoria-metrics }
 - { setname: vid.stab,                 name: [libvidstab,vid-stab,vidstab] }
