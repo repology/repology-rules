@@ -133,8 +133,9 @@
 - { name: lizardfs,                    ver: "3.13.0",                ruleset: sisyphus,    incorrect: true }
 - { name: lizardfs,                                                  ruleset: sisyphus,    untrusted: true } # accused of fake 3.13.0
 - { name: llama.cpp,                                                                       incorrect: true }
-- { name: llama.cpp,                   verpat: "[0-9]{4}",                                 setver: b$0 }
-- { name: llama.cpp,                   verpat: "b[0-9]{4}",                                incorrect: false }
+- { name: llama.cpp,                   verpat: "[0-9]+\\.[0-9]+\\.[0-9]+",                 incorrect: false } # https://github.com/ggml-org/llama.cpp/blob/master/docs/release.md
+- { name: llama.cpp,                   verpat: "[0-9]{4,5}",                               setver: b$0 }
+- { name: llama.cpp,                   verpat: "b[0-9]{4,5}",                              devel: true, incorrect: false }
 - { name: llama.cpp,                   verpat: "20[0-9]{6}.*",                             sink: true } # each commit is tagged, assuming all date versions outdated
 - { name: llama.cpp,                   verpat: ".*[456][0-9]{3}",                          sink: true } # garbage versions, but known to be outdated by actual 7054+
 - { name: llgen,                                                                           noscheme: true }
