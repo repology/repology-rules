@@ -272,6 +272,8 @@
 - { name: polyorb,                                                                         noscheme: true }
 - { name: pony-stable,                 ver: "0.1.6.1",               ruleset: openbsd,     incorrect: true }
 - { name: pony-stable,                                               ruleset: openbsd,     untrusted: true } # accused of fake 0.1.6.1
+- { name: pop-icon-theme,              verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: pop-icon-theme,              verge: "20000000", verlt: "20241001",               sink: true }
 - { name: poppler-data,                verge: "22",                  ruleset: t2,          incorrect: true } # version from poppler
 - { name: poppler-data,                                              ruleset: t2,          untrusted: true } # accused of fake 22.09.0
 - { name: popt,                                                      ruleset: pld,         untrusted: true } # accused of fake 1.17
