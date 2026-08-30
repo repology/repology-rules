@@ -2,6 +2,8 @@
 
 - { name: p11-kit,                     ver: "0.23.18.1",             ruleset: hpux,        incorrect: true } # typo of 0.23.16.1
 - { name: p11-kit,                                                   ruleset: hpux,        untrusted: true }
+- { name: p7zip,                       verge: "26",                                        incorrect: true } # 7zip
+- { name: p7zip,                                                     ruleset: pld,         untrusted: true } # accused of fake 26.02
 - { name: p7zip-original,              verge: "17",                                        incorrect: true } # likely belong to p7zip-jinfeihan57, but provide incorrect homepage
 - { name: packetdrill,                                                                     noscheme: true } # apart from ancient 2.0 which almost nobody uses, no tags neither in official repo nor in forks
 - { name: packit-network-auditing-tool-original, vergt: "1.0",                             incorrect: true }
