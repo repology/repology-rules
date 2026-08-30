@@ -304,6 +304,7 @@
 - { name: mu,                          verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mujs,                        ver: "976V10c",                                     incorrect: true }
 - { name: mujs,                                                      ruleset: t2,          untrusted: true } # accused of fake 976V10c
+- { name: mullvad-browser,             verge: "140",                                       incorrect: true } # firefox versions (gentoo overlay GURU)
 - { name: multibootusb,                ver: "9.3.0",                 ruleset: freshcode,   incorrect: true }
 - { name: multimc,                     verlonger: 3,                 ruleset: aur,         incorrect: true }
 - { name: multimc,                     ver: "0.7.0",                 ruleset: homebrew_casks, incorrect: true }
