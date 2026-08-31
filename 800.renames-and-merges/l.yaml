@@ -52,6 +52,7 @@
 - { setname: ldns,                     name: python:$0, addflavor: python }
 - { setname: ldns,                     name: [ldns-tools,ldns-utils] }
 - { setname: leaf,                     name: leaf-proxy } # split int 850
+- { setname: leaf-markdown-viewer,     name: rust:$0 }
 - { setname: leatherman,               name: libleatherman }
 - { setname: ledger-live-desktop,      name: ledger-live-bin, addflavor: bin }
 - { setname: ledger-live-desktop,      name: [ledger-live, ledgerlive] }
