@@ -194,6 +194,9 @@
 - { setname: luanti,                   name: [luanti-modern], addflavor: true }
 - { setname: luanti,                   name: minetest-git-leveldb, addflavor: true, ignore: true, outdated: true }
 - { setname: luanti,                   name: [minetest, minetest4], outdated: true }
+- { setname: luanti-mineclonia,        name: mineclonia }
+- { setname: luanti-voxelibre,         name: voxelibre }
+- { setname: luanti-voxelibre,         name: minetest-mineclone2, outdated: true } # both project and engine renamed
 - { setname: luarocks,                 name: [lua:rocks,lua:luarocks,lua-rocks,lua5.3-luarocks,lua5.4-luarocks,lua-luarocks,luarocks-lua51,luarocks-lua52,luarocks-lua53,luarocks-lua54,openresty-luarocks,luarocks-nix], addflavor: true }
 - { setname: lucene,                   namepat: "lucene[0-9.-]+" }
 - { setname: lucene,                   name: apache-lucene }
