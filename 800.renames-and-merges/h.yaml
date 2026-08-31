@@ -54,6 +54,9 @@
 - { setname: hepmc,                    name: [hepmc2,hepmc3] }
 - { setname: hererocks,                name: python:$0 }
 - { setname: hermes,                   name: libhermes }
+- { setname: heroic,                   name: heroic-bin, addflavor: true }
+- { setname: heroic-games-launcher,    name: heroicgameslauncher }
+- { setname: heroic-games-launcher,    name: heroic-games-launcher-proxy, addflavor: proxy }
 - { setname: hex-a-hop,                name: hexahop }
 - { setname: hexchat,                  name: hexchat-python2, addflavor: python2 }
 - { setname: hexd-esr,                 name: [hexdumpu,hexdump-esr] }
