@@ -231,7 +231,8 @@
 - { setname: tome,                     name: tome4-beta, weak_devel: true, nolegacy: true }
 - { setname: tomee,                    name: [tomee-jax-rs,tomee-plume,tomee-plus,tomee-webprofile] }
 - { setname: toml-f,                   name: [fortran-toml, fortran-toml-f] }
-- { setname: tomlplusplus,             name: lib$0 }
+- { setname: tomlplusplus,             name: [lib$0, toml++] }
+- { setname: tomlplusplus,             name: libtomlplusplus-header, addflavor: true }
 - { setname: tomsfastmath,             name: libtomfastmath }
 - { setname: toot,                     name: "python:toot" }
 - { setname: topgrade,                 name: [rust:topgrade, rust:topgrade-rs, python:topgrade] }
