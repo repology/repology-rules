@@ -158,6 +158,8 @@
 - { name: ming,                        verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: ming,                        ver: "0.4.9",                 ruleset: rpm,         incorrect: true }
 - { name: ming,                                                      ruleset: rpm,         untrusted: true } # accused of fake 0.4.9 (fedora, megeia, rosa, rpm spere)
+- { name: mingw-w64,                   ver: "15.2.0",                ruleset: xrepo,       incorrect: true } # accused of fake 15.2.0 (gcc version is not mingw version)
+- { name: mingw-w64,                                                 ruleset: xrepo,       untrusted: true } # accused of fake 15.2.0 (gcc version is not mingw version)
 - { name: minidlna,                    verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: minijail,                    verpat: "55.*",                                     sink: true } # https://chromium.googlesource.com/aosp/platform/external/minijail outdated in favor of https://android.googlesource.com/platform/external/minijail/
 - { name: minimodem,                   verpat: ".*-[0-9]+",                                incorrect: true } # -1 is not part of the version
