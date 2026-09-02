@@ -402,6 +402,7 @@
 - { setname: gobby,                    name: gobby-infinote, addflavor: infinote }
 - { setname: gobject-introspection,    name: [gobject-introspection-common,gobject-introspection-runtime] }
 - { setname: gocryptfs,                name: go:github-rfjakob-gocryptfs }
+- { setname: godot-cpp,                name: [godotcpp, godotcpp4] } # XXX: misnamed?
 - { setname: goffice,                  name: [goffice-light,goffice-gtk2,libgoffice], addflavor: true }
 - { setname: goffice,                  namepat: "goffice[0-9.-]+" }
 - { setname: gogdl,                    name: heroic-gogdl }
