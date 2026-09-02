@@ -505,7 +505,8 @@
 - { setname: gscan2pdf,                name: "perl:gscan2pdf" }
 - { setname: gscope,                   name: gscope3 }
 - { setname: gsimplecal,               name: [gsimplecal-gtk2,gsimplecal-gtk3,gsimplecal-lunar], addflavor: true }
-- { setname: gsl,                      name: gsl-doc, addflavor: doc }
+- { setname: gsl,                      name: $0-doc, addflavor: true }
+- { setname: gsl,                      name: gnu-gsl } # TODO: misnamed, because tautologic
 - { setname: gsm,                      name: libgsm }
 - { setname: gsoap,                    namepat: 'gsoap[0-9.-]+' }
 - { setname: gspell,                   name: libgspell }
