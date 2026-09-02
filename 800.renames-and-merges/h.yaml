@@ -13,8 +13,9 @@
 - { setname: half,                     name: rocm-half }
 - { setname: hamachi,                  name: logmein-hamachi }
 - { setname: hamster-time-tracker,     name: hamster-time-tracker-legacy }
-- { setname: handbrake,                name: [handbrake-cli,handbrakecli,handbrake-full,handbrake-semifull,handbrake-gui,handbrake-llvm-optimized,handbrake-svt-av1-hdr], addflavor: true }
-- { setname: handbrake,                name: [handbrake-dev,handbrake-cli-snapshot, handbrake-snapshot], weak_devel: true, nolegacy: true, addflavor: true }
+- { setname: handbrake,                name: [$0-cli, $0cli, $0-full, $0-semifull, $0-gui, $0-llvm-optimized, $0-svt-av1-hdr], addflavor: true }
+- { setname: handbrake,                name: [$0-dev, $0-snapshot], weak_devel: true, nolegacy: true }
+- { setname: handbrake,                name: [$0-cli-snapshot], weak_devel: true, nolegacy: true, addflavor: cli }
 - { setname: handlr,                   name: [xdg-utils-handlr, handlr-regex, rust:handlr-regex] } # handlr-regex is the alive fork; original project is abandoned
 - { setname: hangups,                  name: "python:hangups" }
 - { setname: haproxy,                  namepat: "haproxy[0-9.-]*" }
