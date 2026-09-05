@@ -128,6 +128,12 @@
 - { name: mcl, wwwpart: herumi, setname: mcl-cryptography }
 - { name: mcl, addflag: unclassified }
 
+- { name: mcpp, sourceforge: mcpp, setname: $0-preprocessor-original }
+- { name: mcpp, wwwpart: mcpp-community, setname: $0-module-build }
+- { name: mcpp, wwwpart: museoa, setname: $0-preprocessor-museoa }
+- { name: mcpp, wwwpart: zero-ice, setname: $0-preprocessor-zeroc-ice }
+- { name: mcpp, addflag: unclassified }
+
 - { name: mcs, wwwpart: go-mono, setname: mcs-mono-compiler }
 - { name: mcs, wwwpart: [atheme,nenolod], setname: mcs-modular-config-system }
 - { name: mcs, addflag: unclassified }
