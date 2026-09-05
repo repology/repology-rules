@@ -12,6 +12,8 @@
 - { name: 2ship2harkinian,                                           ruleset: aur,         untrusted: true } # accused of fake 1.1.2.2
 - { name: 3270font,                    verpat: "[0-9]{3}\\..*",                            incorrect: true } # it has normal versioning schema
 - { name: 4k-video-downloader,         vercomps: 4,                                        altver: true } # build
+- { name: 64gram,                      ver: "3.2.2.1",               ruleset: t2,          incorrect: true }
+- { name: 64gram,                                                    ruleset: t2,          untrusted: true } # accused of fake 3.2.2.1
 - { name: 7kaa,                                                                            p_is_patch: true }
 - { name: 7kaa-music,                  verpat: "20[0-9]{6}.*",                             snapshot: true } # opensuse games
 - { name: 7zip,                        verpat: "[0-9]{3,}",                                incorrect: true }
