@@ -90,8 +90,8 @@
 - { name: mbox-importer,               verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: mbrola,                      verpat: "([0-9])([0-9]+[a-z])",                     setver: $1.$2 }
 - { name: mbrola,                      verpat: "([0-9]+)\\.([0-9]+)\\.([0-9]+[a-z])",      setver: $1.$2$3 }
-- { name: mcpp,                        ver: "2.7.2.14",              ruleset: vcpkg,       incorrect: true }
-- { name: mcpp,                                                      ruleset: vcpkg,       untrusted: true } # accused of fake 2.7.2.14
+- { name: mcpp-preprocessor-original,  vergt: "2.7.2",                                     incorrect: true } # fork, not original - correct homepage is missing
+- { name: mcpp-preprocessor-original,  ver: "2.7.2",                                       outdated: true } # abandonware from 2008, superseded by the forks
 - { name: md4c,                        verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: mdadm,                                                     ruleset: fedora,      untrusted: true } # accused of fake 4.1
 - { name: mdns-repeater,               verpat: "20[0-9]{6}",                               snapshot: true }
