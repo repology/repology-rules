@@ -5,13 +5,13 @@
 - { addflag: misnamed, name: ant-dracula-theme } # same as dracula-theme + obsolete prefix
 - { addflag: misnamed, name: asc, wwwpart: app-store }
 - { addflag: misnamed, name: asccli, wwwpart: asc-cli }
-- { addflag: misnamed, name: chaos,          wwwpart: chaos-client }
-- { addflag: misnamed, name: cwc,            wwwpart: cwcwm }
 - { addflag: misnamed, name: attrs } # python module
 - { addflag: misnamed, name: beniget } # python module
+- { addflag: misnamed, name: chaos,          wwwpart: chaos-client }
+- { addflag: misnamed, name: cwc,            wwwpart: cwcwm }
+- { addflag: misnamed, name: dbf,            ruleset: ubuntu_broken_homepages }
 - { addflag: misnamed, name: dbf,            wwwpart: ethanfurman } # python:dbf
 - { addflag: misnamed, name: dbf,            wwwpart: python-dbase } # python:dbf
-- { addflag: misnamed, name: dbf,            ruleset: ubuntu_broken_homepages }
 - { addflag: misnamed, name: docker-engine } # moby
 - { addflag: misnamed, name: dracula-theme } # unspecific (there are hundreds of dracula themes for different software https://github.com/dracula/)
 - { addflag: misnamed, name: drbd, verge: "9.5.0" } # drbd-utils
@@ -90,8 +90,8 @@
 - { addflag: misnamed, name: python:aalib }
 - { addflag: misnamed, name: python:abseil } # absl-py
 - { addflag: misnamed, name: python:abseil-py } # absl-py
-- { addflag: misnamed, name: python:absl, wwwpart: abseil-py } # absl-py
 - { addflag: misnamed, name: python:absl, ruleset: pld } # absl-py
+- { addflag: misnamed, name: python:absl, wwwpart: abseil-py } # absl-py
 - { addflag: misnamed, name: python:acoustid } # py-acoustid
 - { addflag: misnamed, name: python:adjutantclient } # python-adjutantclient
 - { addflag: misnamed, name: python:afl }
@@ -205,8 +205,8 @@
 - { addflag: misnamed, name: python:language-server } # python-language-server
 - { addflag: misnamed, name: python:last } # pylast
 - { addflag: misnamed, name: python:libacl } # pylibacl
-- { addflag: misnamed, name: python:libarchive, wwwpart: pypi.org/project/python-libarchive }
 - { addflag: misnamed, name: python:libarchive, wwwpart: code.google.com }
+- { addflag: misnamed, name: python:libarchive, wwwpart: pypi.org/project/python-libarchive }
 - { addflag: misnamed, name: python:libcloud } # apache-libcloud
 - { addflag: misnamed, name: python:libdiscid }
 - { addflag: misnamed, name: python:libeconf } # python-libeconf
@@ -447,10 +447,10 @@
 - { addflag: misnamed, name: rapidfuzz } # aither an unprefixed python module, or misnamed rapidfuzz-cpp
 - { addflag: misnamed, name: requests }
 - { addflag: misnamed, name: rott,           wwwpart: fabiangreffrath }
-- { addflag: misnamed, name: sdl,            wwwpart: sdl12-compat }
 - { addflag: misnamed, name: sdl,            verge: "1.2.60", verlt: "2" }
-- { addflag: misnamed, name: sdl,            wwwpart: sdl2-compat }
 - { addflag: misnamed, name: sdl,            verge: "2.32.56", verlt: "3" }
+- { addflag: misnamed, name: sdl,            wwwpart: sdl12-compat }
+- { addflag: misnamed, name: sdl,            wwwpart: sdl2-compat }
 - { addflag: misnamed, name: shadps4,        wwwpart: qtlauncher }
 - { addflag: misnamed, name: snmp, wwwpart: net-snmp }
 - { addflag: misnamed, name: tetra, wwwpart: tetragon }
