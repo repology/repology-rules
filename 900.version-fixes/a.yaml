@@ -371,7 +371,6 @@
 - { name: attr,                        verpat: "20[0-9]{6}.*",                             ignore: true }
 - { name: audacity,                    ver: "3.6.2",                 ruleset: opensuse,    incorrect: true }
 - { name: audacity,                                                  ruleset: opensuse,    untrusted: true } # accused of fake 3.6.2
-- { name: audacity,                    releq: "4.0.0",                                     devel: false } # XXX: remove after wikidata is fixed
 - { name: audex,                       verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: audiocd-kio,                 verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: audiotube,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
