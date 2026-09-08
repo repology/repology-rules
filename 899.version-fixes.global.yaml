@@ -102,6 +102,7 @@
 - { verpat: ".* .*",                                                 ruleset: t2,          any_is_patch: true, untrusted: false, ignore: true } # explicit snapshots
 - { verpat: ".*really.*",                                                                  incorrect: true }
 - { verpat: "20[0-9]{2}\\.[0-9]{1,2}\\.[0-9]{1,2}",                  ruleset: xrepo,       untrusted: true } # lots of date based snapshots like 2021.1.25
+- { verpat: ".*,.*",                                                 ruleset: libregamewiki, untrusted: true } # dual versions like 1.6_080519 (code), 1.6_070717 (data)
 
 # nuget is terminally broken and can't handle arbitrary version schemes, so most are garbage
 - {                                                                  ruleset: chocolatey,  untrusted: true }
