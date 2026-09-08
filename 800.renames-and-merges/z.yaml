@@ -7,7 +7,8 @@
 - { setname: zaproxy,                  name: zaproxy-weekly, weak_devel: true, nolegacy: true }
 - { setname: zatacka-x,                name: zatackax }
 - { setname: zathura,                  name: zathura-with-plugins, addflavor: true }
-- { setname: zbar,                     name: [zbar-headless,zbar-gtk,zbar-qt,"python:zbar"], addflavor: true }
+- { setname: zbar,                     name: mchehab-$0 }
+- { setname: zbar,                     name: [$0-headless,$0-gtk,$0-qt,python:$0,$0-minimal], addflavor: true }
 - { setname: zcad,                     name: [zcad-gtk2,zcad-qt4,zcad-qt5], addflavor: true }
 - { setname: zd1201-firmware,          name: [firmware-zd1201, zd1201-fw] }
 - { setname: zed,                      name: zed-editor }
