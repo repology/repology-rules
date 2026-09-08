@@ -405,7 +405,8 @@
 - { setname: mrbs,                     name: php:$0 }
 - { setname: mrtrix,                   name: mrtrix3 }
 - { setname: mrxvt,                    name: mrxvt-devel, weak_devel: true, nolegacy: true }
-- { setname: ms-gsl,                   name: [guidelines-support-library,microsoft-gsl,c++gsl,cpp-gsl] }
+- { setname: ms-gsl,                   name: [guidelines-support-library,microsoft-gsl,c++gsl,cpp-gsl,msgsl,cppgsl,c++-gsl,libmicrosoft-gsl] }
+- { setname: ms-gsl,                   name: guidelines-support-library-devel, weak_devel: true, nolegacy: true }
 - { setname: ms-sys,                   name: ms-sys-devel, weak_devel: true, nolegacy: true }
 - { setname: msbuild,                  name: [msbuild-stable,msbuild-15] }
 - { setname: msbuild,                  name: msbuild-bin, addflavor: true }
