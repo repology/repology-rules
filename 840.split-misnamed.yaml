@@ -2,12 +2,16 @@
 
 # XXX: move these to 750?
 
+- { addflag: misnamed, name: aiofiles } # python module
 - { addflag: misnamed, name: ant-dracula-theme } # same as dracula-theme + obsolete prefix
 - { addflag: misnamed, name: asc, wwwpart: app-store }
 - { addflag: misnamed, name: asccli, wwwpart: asc-cli }
+- { addflag: misnamed, name: astunparse } # python module
 - { addflag: misnamed, name: attrs } # python module
 - { addflag: misnamed, name: beniget } # python module
 - { addflag: misnamed, name: chaos,          wwwpart: chaos-client }
+- { addflag: misnamed, name: constantly } # python module
+- { addflag: misnamed, name: cppheaderparser } # python module
 - { addflag: misnamed, name: cwc,            wwwpart: cwcwm }
 - { addflag: misnamed, name: dbf,            ruleset: ubuntu_broken_homepages }
 - { addflag: misnamed, name: dbf,            wwwpart: ethanfurman } # python:dbf
@@ -83,6 +87,14 @@
 - { addflag: misnamed, name: protonvpn } # same
 - { addflag: misnamed, name: proxychains,    wwwpart: proxychains-ng }
 - { addflag: misnamed, name: public-suffix }
+- { addflag: misnamed, name: pyasyncore } # python module
+- { addflag: misnamed, name: pydantic } # python module
+- { addflag: misnamed, name: pydantic-core } # python module
+- { addflag: misnamed, name: pydantic-settings } # python module
+- { addflag: misnamed, name: pydbus } # either python module or dbus-python
+- { addflag: misnamed, name: pygdbmi } # python module
+- { addflag: misnamed, name: pyinotify } # python module
+- { addflag: misnamed, name: pykwalify } # python module
 - { addflag: misnamed, name: pypdf } # python module
 - { addflag: misnamed, name: pyrequests } # python module
 - { addflag: misnamed, name: python:3parclient } # python-3parclient
@@ -191,6 +203,7 @@
 - { addflag: misnamed, name: python:imaging } # pillow
 - { addflag: misnamed, name: python:imdb, wwwpart: [imdbpy, cinemagoer, tudelft] } # cinemagoer
 - { addflag: misnamed, name: python:imgur } # py-imgur
+- { addflag: misnamed, name: python:inotify, verge: "0.9" } # pyinotify
 - { addflag: misnamed, name: python:iosxr } # pyiosxr
 - { addflag: misnamed, name: python:iptables }
 - { addflag: misnamed, name: python:irodsclient } # python-irodsclient
@@ -448,6 +461,8 @@
 - { addflag: misnamed, name: rapidfuzz } # aither an unprefixed python module, or misnamed rapidfuzz-cpp
 - { addflag: misnamed, name: requests }
 - { addflag: misnamed, name: rott,           wwwpart: fabiangreffrath }
+- { addflag: misnamed, name: ruamel-yaml } # python module
+- { addflag: misnamed, name: ruamel.yaml } # python module
 - { addflag: misnamed, name: sdl,            verge: "1.2.60", verlt: "2" }
 - { addflag: misnamed, name: sdl,            verge: "2.32.56", verlt: "3" }
 - { addflag: misnamed, name: sdl,            wwwpart: sdl12-compat }
