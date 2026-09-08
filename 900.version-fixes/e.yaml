@@ -203,6 +203,7 @@
 - { name: expat,                                                     ruleset: os4depot,    incorrect: true }
 - { name: expect,                      ver: "5.45.4.1",                                    incorrect: true }
 - { name: expect,                                                    ruleset: [openmandriva,ravenports], untrusted: true } # accused of fake 5.45.4.1
+- { name: expect,                      verpat: ".*[a].*",                                  devel: true } # alive fork from https://github.com/tcltk-depot/expect
 - { name: exploitdb,                   verpat: "([0-9]{4})([0-9]{2})([0-9]{2})",           setver: $1-$2-$3 } # XXX: problem
 - { name: exploitdb,                   verpat: "[0-9]{8}.*",                               incorrect: true } # if it doesn't get converted to YYYY-MM-DD
 - { name: exuberant-ctags,             vergt: "5.8",                                       incorrect: true } # 5.8 from 2009
