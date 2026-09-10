@@ -623,6 +623,11 @@
 - { name: spt, wwwpart: pickfire, setname: spt-timer }
 - { name: spt, addflag: unclassified }
 
+- { name: ssh-askpass, wwwpart: haiku, setname: $0-haiku }
+- { name: ssh-askpass, wwwpart: theseal, setname: $0-theseal }
+- { name: ssh-askpass, wwwpart: openssh, setname: openssh, addflavor: true }
+- { name: ssh-askpass, addflag: unclassified }
+
 - { name: ssr, wwwpart: spatialaudio, setname: soundscaperenderer }
 - { name: ssr, wwwpart: maarten, setname: simplescreenrecorder }
 - { name: ssr, addflag: unclassified }
