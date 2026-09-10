@@ -44,6 +44,7 @@
 - { setname: papers-please,            name: papersplease }
 - { setname: paperwork,                name: [open$0-core, open$0-gtk, $0-backend, $0-core, $0-gtk, $0-shell, python:open$0-core, python:open$0-gtk, python:$0-backend, python:$0-gtk, python:$0-shell], addflavor: true }
 - { setname: papirus-icon-theme,       name: papirus-icons }
+- { setname: papirus-icon-theme,       name: [papirus-icon-theme-dark, papirus-icon-theme-light], addflavor: true }
 - { setname: par,                      name: par2 } # either is a mix, split in 850
 - { setname: par,                      name: [par-format, par-text, par1cmdline] } # also split in 850
 - { setname: parallel,                 name: gnu-parallel }
