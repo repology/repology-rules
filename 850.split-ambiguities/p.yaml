@@ -93,6 +93,10 @@
 - { name: parsec, wwwpart: parsec.app, setname: parsec-remote-access }
 - { name: parsec, addflag: unclassified }
 
+- { name: paru, wwwpart: morganamilo, setname: $0-aur-helper }
+- { name: paru, wwwpart: SuiteSparse, setname: suitesparse-paru }
+- { name: paru, addflag: unclassified }
+
 - { name: pass, wwwpart: [passwordstore,password-store], setname: password-store }
 - { name: pass, ruleset: [aosc,pclinuxos], setname: password-store }
 - { name: pass, addflag: unclassified }
