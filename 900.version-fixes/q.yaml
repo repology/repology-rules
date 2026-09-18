@@ -77,6 +77,8 @@
 - { name: qt,                          verpat: ".*pl.*",                                   incorrect: true } # openbsd garbage
 - { name: [qt,qt3],                    verpat: "3\\.8.*",                                  incorrect: true } # openbsd garbage (3.3.8*, not 3.8*)
 - { name: [qt,qt3],                    ver: ["3.3.8c","3.3.8d"],                           incorrect: true }
+- { name: qt,                          verge: "6.140",                                     incorrect: true } # gentoo garbage
+- { name: qt,                                                        ruleset: exherbo,     untrusted: true } # accused of fake 6.140.0
 - { name: qt5-styleplugins,            verpat: ".*20[0-9]{6}.*",                           snapshot: true }
 - { name: qt5-styleplugins,            verpat: ".*20[0-9]{2}\\.[0-9]{2}\\.[0-9]{2}.*",     snapshot: true }
 - { name: qt5-styleplugins,            verpat: ".*-[0-9a-f]{7}",                           incorrect: true }
