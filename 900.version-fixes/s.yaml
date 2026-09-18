@@ -443,6 +443,8 @@
 - { name: sudo,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+",        incorrect: true } # it's mangled A.B.CpD; XXX: also has a problem of 1.2.3p1 which follows 1.2.3
 - { name: sudo,                                                      ruleset: fedora,      untrusted: true } # accused in dropping prerelease suffix
 - { name: sudo,                                                                            p_is_patch: true }
+- { name: suitesparse-mongoose,        verge: "7",                                         incorrect: true } # suitesparse, not mongoose version
+- { name: suitesparse-mongoose,                                      ruleset: t2,          untrusted: true } # accused of fake 7.14.1
 - { name: sunpinyin,                   ver: "3.0.0",                 ruleset: aosc,        incorrect: true } # aosc fake, it's rc1
 - { name: sunpinyin,                                                 ruleset: aosc,        untrusted: true }
 - { name: sunpinyin,                   ver: "2.0.99",                ruleset: opensuse,    incorrect: true } # fake, it's 3.0.0-rc1
