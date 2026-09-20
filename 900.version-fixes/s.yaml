@@ -447,6 +447,7 @@
 - { name: suitesparse-mongoose,                                      ruleset: t2,          untrusted: true } # accused of fake 7.14.1
 - { name: suitesparse-paru,            verge: "7",                                         incorrect: true } # suitesparse, not mongoose version
 - { name: suitesparse-paru,                                          ruleset: t2,          untrusted: true } # accused of fake 7.14.1
+- { namepat: "suitesparse-.*",                                       ruleset: t2,          untrusted: true } # using suitesparse versions instead of component versions
 - { name: sunpinyin,                   ver: "3.0.0",                 ruleset: aosc,        incorrect: true } # aosc fake, it's rc1
 - { name: sunpinyin,                                                 ruleset: aosc,        untrusted: true }
 - { name: sunpinyin,                   ver: "2.0.99",                ruleset: opensuse,    incorrect: true } # fake, it's 3.0.0-rc1
