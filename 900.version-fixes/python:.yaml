@@ -228,6 +228,7 @@
 - { name: python:sphinxcontrib-adadomain,                            ruleset: aur,         untrusted: true } # accused of fake 0.4
 - { name: python:sphinxcontrib-jquery,   ver: "4.0.0",               ruleset: arch,        incorrect: true }
 - { name: python:sphinxcontrib-jquery,                               ruleset: arch,        untrusted: true } # accused of fake 4.0.0
+- { name: python:sqlalchemy-utils,     ver: "0.42.2",                                      sink: true } # judging by the history, probably an upstream mistag
 - { name: python:statistics,           ver: "3.4.0",                 ruleset: sisyphus,    incorrect: true }
 - { name: python:statistics,                                         ruleset: sisyphus,    untrusted: true } # accused of fake 3.4.0
 - { name: python:suds-jurko,           ver: "0.7",                   ruleset: sisyphus,    incorrect: true }
