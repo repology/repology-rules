@@ -67,6 +67,7 @@
 - { name: python:gmusicapi,                                          ruleset: sisyphus,    untrusted: true } # accused of fake 2012.08.31
 - { name: python:gnutls,               ver: "3.1.8",                 ruleset: sisyphus,    incorrect: true }
 - { name: python:gnutls,                                             ruleset: sisyphus,    untrusted: true } # accused of fake 3.1.8
+- { name: python:googleapis-common-protos, ver: "3.31.3",                                  incorrect: true, disposable: true } # nix 25.11, remove along with the repo
 - { name: python:gpsoauth,             ver: "0.4.2.2",               ruleset: pisi,        incorrect: true } # 0.4.2.rc2
 - { name: python:gpsoauth,                                           ruleset: pisi,        untrusted: true } # accused of fake 0.4.2.2
 - { name: python:hg-git,               verpat: "[0-9a-f]{12}",                             incorrect: true, disposable: true } # slitaz
