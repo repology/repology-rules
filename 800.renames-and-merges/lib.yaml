@@ -181,7 +181,7 @@
 - { setname: libjpeg-turbo,            name: libjpeg-turbo6 }
 - { setname: libjpeg-turbo,            name: [libjpeg-turbo-static, libjpeg-turbo-minimal], addflavor: true }
 - { setname: libjson-rpc-cpp,          namepat: "libjson-rpc-cpp[0-9.-]+" }
-- { setname: libjwt,                   name: [libjwt2, libjwt3] }
+- { setname: libjwt,                   name: [libjwt1, libjwt2, libjwt3] }
 - { setname: libjxl,                   name: [jpeg-xl, jpegxl] }
 - { setname: libjxl,                   name: "gimp:jxl", addflavor: gimp } # gimp plugin comes with the library
 - { setname: libkdcraw,                name: libkdcraw23 }
