@@ -57,6 +57,10 @@
 
 - { name: dbus-c++, verpat: ".*pw", setname: dbus-c++-pw }
 
+- { name: dbx, wwwpart: [t8y2,dbxio], setname: $0-database-client }
+- { name: dbx, wwwpart: databrickslabs, setname: $0-databricks }
+- { name: dbx, addflag: unclassified }
+
 - { name: dcd, wwwpart: player, setname: dcdplayer }
 - { name: dcd, wwwpart: dlang, setname: dcd-d-completion }
 - { name: dcd, addflag: unclassified }
