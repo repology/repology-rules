@@ -18,7 +18,7 @@
 - { setname: "php:phpstan",            name: ["php:stan", phpstan] }
 - { setname: "php:phpunit",            name: phpunit }
 - { setname: "php:phpunit",            name: "php:phpunit2" }
-- { setname: "php:phpunit",            namepat: "phpunit[0-9]" }
+- { setname: "php:phpunit",            namepat: "phpunit[0-9]+" }
 - { setname: "php:psalm",              name: psalm }
 - { setname: "php:psysh",              name: psysh }
 - { setname: "php:redis",              name: ["php:redis-3", "php:redis4", "php:redis5", phpredis, php-redis] }
