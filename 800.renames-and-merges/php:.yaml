@@ -17,7 +17,7 @@
 - { setname: php:phpseclib,            name: [phpseclib, php:phpseclib3, pear-phpseclib] }
 - { setname: php:phpstan,              name: [php:stan, phpstan] }
 - { setname: php:phpunit,              name: phpunit }
-- { setname: php:phpunit,              name: php:phpunit2 }
+- { setname: php:phpunit,              name: [php:phpunit2, php:phpunit8] }
 - { setname: php:phpunit,              namepat: "phpunit[0-9]+" }
 - { setname: php:psalm,                name: psalm }
 - { setname: php:psysh,                name: psysh }
