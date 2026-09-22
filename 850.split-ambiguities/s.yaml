@@ -301,8 +301,10 @@
 - { name: silicon, wwwpart: [realbardia,getsilicon.org], setname: silicon-disk-burning }
 - { name: silicon, addflag: unclassified }
 
-- { name: silo, wwwpart: llnl, setname: silo-io-library } # Mesh and Field I/O Library
-- { name: silo, wwwpart: kernel.org, setname: silo-sparc-loader }
+- { name: silo, wwwpart: llnl, setname: $0-io-library } # Mesh and Field I/O Library
+- { name: silo, wwwpart: kernel.org, setname: $0-sparc-loader }
+- { name: silo, wwwpart: SiloDrive, setname: $0-dropbox }
+- { name: silo, wwwpart: pgsty, setname: $0-s3 }
 - { name: silo, addflag: unclassified }
 
 - { name: sim, wwwpart: [sim-im,sim-icq], setname: sim-im }
