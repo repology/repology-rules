@@ -63,6 +63,10 @@
 - { name: netpipe, wwwpart: wudika, setname: netpipe-udb-broadcast }
 - { name: netpipe, addflag: unclassified }
 
+- { name: netwatch, wwwpart: [matthart1983, netwatchlabs], setname: $0-network-diagnostics }
+- { name: netwatch, wwwpart: Arunachalam-gojosaturo, setname: $0-intrusion-monitor }
+- { name: netwatch, addflag: unclassified }
+
 - { name: neutron, wwwpart: [openstack,launchpad.net/neutron], setname: openstack-neutron }
 - { name: neutron, addflag: unclassified }
 
