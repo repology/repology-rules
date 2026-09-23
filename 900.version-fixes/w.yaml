@@ -41,6 +41,8 @@
 - { name: webrtc-audio-processing,     ver: "0.3.1.0.202107202114.6467c436", ruleset: slackbuilds, incorrect: true }
 - { name: webrtc-audio-processing,                                   ruleset: slackbuilds, incorrect: true } # accused of fake 0.3.1.0.202107202114.6467c436
 - { name: webscarab,                                                                       noscheme: true } # https://github.com/OWASP/OWASP-WebScarab/releases
+- { name: websocketd,                  ver: "0.4.2",                 ruleset: [alpine,aur], incorrect: true } # dead fork
+- { name: websocketd,                                                ruleset: [alpine,aur], incorrect: true } # accused of fake 0.4.2
 - { name: webstorm,                    verlonger: 2,                                       incorrect: true } # 2022.1 https://www.jetbrains.com/webstorm/whatsnew/
 - { name: webvfx,                      ver: "0.44",                                        incorrect: true }
 - { name: webvfx,                      verpat: ".*20[0-9]{6}",                             ignore: true }
