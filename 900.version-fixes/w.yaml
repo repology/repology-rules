@@ -65,6 +65,8 @@
 - { name: wget,                        ver: "1.21.3.24",                                   incorrect: true } # guix
 - { name: wget,                                                      ruleset: guix,        untrusted: true } # accused of fake 1.21.3.24
 - { name: whatweb,                     vergt: "0.4.7",               ruleset: [debuntu,openbsd,gentoo,freebsd], ignore: true } # 0.4.8 has never been released
+- { name: when-calendar,               ver: "1.1.46",                ruleset: [void, vylen], incorrect: true }
+- { name: when-calendar,                                             ruleset: [void, vylen], untrusted: true } # accused of fake 1.1.46
 - { name: whitakers-words,                                                                 noscheme: true }
 - { name: widelands,                   verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: widelands,                   verge: "15", verle: "21",                           sink: true } # buildNN < 1.0
