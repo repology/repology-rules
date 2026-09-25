@@ -109,6 +109,7 @@
 - { name: keepassxc,                                                 ruleset: pisi,        untrusted: true } # accused of fake 2.9.11
 - { name: keepassxc,                   ver: "2.8.0",                 ruleset: homebrew_casks, incorrect: true }
 - { name: keepassxc,                                                 ruleset: homebrew_casks, untrusted: true } # accused of fake 2.8.0
+- { name: keepassxc,                   verpat: ".*pre.*",                                  incorrect: true }
 - { name: kega-fusion,                 verpat: "[0-9]{3}.*",                               incorrect: true } # 3.63x, not 363x
 - { name: kexec-tools,                 verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: keybase,                     ver: "5.4.2.1",               ruleset: winget,      incorrect: true }
