@@ -127,6 +127,7 @@
 - { name: horizon, addflag: unclassified }
 
 - { name: hostname, wwwpart: debian, setname: hostname-debian }
+- { name: hostname, ruleset: debuntu, setname: hostname-debian }
 - { name: hostname, wwwpart: inetutils, setname: inetutils, addflavor: hostname }
 - { name: hostname, addflag: unclassified }
 
