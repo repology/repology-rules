@@ -126,6 +126,10 @@
 - { name: horizon, wwwpart: adelie, setname: horizon-install }
 - { name: horizon, addflag: unclassified }
 
+- { name: hostname, wwwpart: debian, setname: hostname-debian }
+- { name: hostname, wwwpart: inetutils, setname: inetutils, addflavor: hostname }
+- { name: hostname, addflag: unclassified }
+
 - { name: hotspot, wwwpart: virginia.edu, setname: hotspot-thermal-model }
 - { name: hotspot, wwwpart: kdab, setname: hotspot-perf }
 - { name: hotspot, addflag: unclassified }
