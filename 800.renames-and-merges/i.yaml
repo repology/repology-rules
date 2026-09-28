@@ -64,6 +64,7 @@
 - { setname: incus,                    name: $0-lts }
 - { setname: indent,                   name: [gnu-indent,gindent] }
 - { setname: indilib,                  name: [indi,libindi] }
+- { setname: inetutils,                name: [inetutils-ftp, inetutils-syslogd, inetutils-telnet], addflavor: true }
 - { setname: infamousplugins,          name: [infamous-plugins,infamous-plugins-lv2] }
 - { setname: influxdb,                 namepat: "influxdb[0-9.-]+" }
 - { setname: influxdb,                 name: "go:github-influxdata-influxdb" }
