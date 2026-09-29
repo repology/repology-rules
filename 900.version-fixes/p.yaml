@@ -329,6 +329,8 @@
 - { name: powder-toy,                                                ruleset: mageia,      untrusted: true } # accused of fake 98.2.372
 - { name: powder-toy,                  verpat: ".*b",                                      devel: true }
 - { name: powder-toy,                  verpat: "(?:s[a-z]*[.-]?)?([0-9]{3})",              setver: snapshot-$1, altscheme: true, devel: true, ignore: false, untrusted: false }
+- { name: powerpc-utils,               ver: "1.4",                   ruleset: t2,          incorrect: true }
+- { name: powerpc-utils,                                             ruleset: t2,          untrusted: true } # accused of fake 1.4
 - { name: powershell,                  verpat: ".*preview.*",                              ignore: false, devel: true }
 - { name: powertop,                    verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
 - { name: poxml,                       verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
