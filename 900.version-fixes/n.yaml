@@ -11,6 +11,8 @@
 - { name: nautilus-dropbox,            ver: "2022.10.07",            ruleset: solus,       incorrect: true }
 - { name: nautilus-dropbox,                                          ruleset: solus,       untrusted: true } # accused of fake 2022.10.07
 - { name: nauty,                       ver: "27r1",                                        incorrect: true }
+- { name: nauty,                       ver: "9_4b8",                                       incorrect: true }
+- { name: nauty,                                                     ruleset: t2,          untrusted: true } # accused of fake 9_4b8
 - { name: nblood,                                                                          noscheme: true }
 - { name: nbwmon,                      verpat: "20[0-9]{6}",                               snapshot: true }
 - { name: nbwmon,                      ver: "20140917",                                    sink: true } # at least 0.5.1 and 0.5.2 released since then: https://github.com/causes-/nbwmon/releases
