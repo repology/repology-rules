@@ -419,6 +419,11 @@
 - { name: mps, wwwpart: ravenbrook, setname: mps-memory-pool-system }
 - { name: mps, addflag: unclassified }
 
+- { name: mpvc, wwwpart: gmt4, setname: $0-gmt4 }
+- { name: mpvc, wwwpart: lwilletts, setname: $0-lwilletts }
+- { name: mpvc, wwwpart: mpv-ipc, setname: $0-mpv-ipc }
+- { name: mpvc, addflag: unclassified }
+
 - { name: mrsh, wwwpart: [emersion,mrsh.sh], setname: mrsh-minimal-posix-shell }
 - { name: mrsh, wwwpart: chaos, setname: mrsh-remote-shell-program }
 - { name: mrsh, addflag: unclassified }
