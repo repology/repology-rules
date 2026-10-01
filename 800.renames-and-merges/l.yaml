@@ -51,6 +51,7 @@
 - { setname: ldns,                     name: perl:dns-ldns, wwwpart: nlnetlabs, addflavor: perl } # part of
 - { setname: ldns,                     name: python:$0, addflavor: python }
 - { setname: ldns,                     name: [ldns-tools,ldns-utils] }
+- { setname: ldns,                     name: lib$0, addflavor: lib }
 - { setname: leaf,                     name: leaf-proxy } # split int 850
 - { setname: leaf-markdown-viewer,     name: rust:$0 }
 - { setname: leatherman,               name: libleatherman }
