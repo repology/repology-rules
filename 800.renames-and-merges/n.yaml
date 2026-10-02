@@ -90,6 +90,7 @@
 - { setname: newsboat,                 name: newsbeuter-dev, ignore: true }
 - { setname: newsboat,                 name: newsbeuter2.8 }
 - { setname: newt,                     name: [libnewt,newt52,pangolin-newt] } # split in 850
+- { setname: newt,                     name: newt-doc, addflavor: true }
 - { setname: nexfil,                   name: python:$0 }
 - { setname: nextcloud,                namepat: "nextcloud[0-9.-]+" }
 - { setname: nextcloud,                name: nextcloud-testing, weak_devel: true, nolegacy: true }
