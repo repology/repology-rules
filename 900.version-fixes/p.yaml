@@ -100,6 +100,7 @@
 - { name: pdfposter,                   ver: "0.7.1",                 ruleset: alpine,      incorrect: true }
 - { name: pdfposter,                                                 ruleset: alpine,      untrusted: true } # accused of fake 0.7.1
 - { name: pdftk,                       verpat: ".*_.*",                                    snapshot: true } # aur - debianisms
+- { name: peak-classifier,             verlonger: 3,                                       incorrect: true } # pkgsrc, freebsd
 - { name: peass,                                                                           noscheme: true }
 - { name: peazip,                      ver: "9.9.0",                 ruleset: nix,         incorrect: true }
 - { name: peazip,                                                    ruleset: nix,         untrusted: true } # accused of fake 9.9.0
