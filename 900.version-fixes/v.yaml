@@ -17,6 +17,7 @@
 - { name: "vapoursynth:waifu2x-w2xc",  verpat: "[0-9]+",                                   setver: r$0 }
 - { name: vcdimager,                   ver: "0.7.24cvs",                                   ignore: true } # opensuse garbage
 - { name: vcf-split,                   verlonger: 3,                                       incorrect: true } # freebsd, pkgsrc
+- { name: vcf2hap,                     verlonger: 3,                                       incorrect: true } # freebsd, pkgsrc
 - { name: vcflib,                      ver: "1.0.0",                 ruleset: homebrew,    incorrect: true } # 1.0.0rc1
 - { name: vcflib,                      verpat: "r[0-9]+\\.[0-9]+",   ruleset: freebsd,     incorrect: true } # 1.0.0rc1
 - { name: vcmi,                        verpat: ".*20[0-9]{6}",                             snapshot: true } # opensuse games garbage
