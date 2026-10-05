@@ -422,6 +422,7 @@
 - { name: gtkmm,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gtksourceview,               verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: gtksourceviewmm,             verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: gtkterm,                     ver: "1.9.1",                                       incorrect: true } # mistag?
 - { name: gts-triangulated-surface,    verpat: "[0-9]{6}.*",                               incorrect: true }
 - { name: gts-triangulated-surface,    verpat: ".+[0-9]{6}",                               snapshot: true }
 - { name: guile,                       verpat: ".*-.*",              ruleset: guix,        incorrect: true } # accused of fake 2.2.6-1
