@@ -240,6 +240,9 @@
 
 - { name: pkgdiff, ruleset: pkgsrc, setname: pkgdiff-pkgsrc }
 
+- { name: pkger, wwwpart: almezali, setname: $0-arch-package-manager }
+- { name: pkger, addflag: unclassified }
+
 # distro-specific
 - { name: pkgtools, ruleset: [arch,aur], setname: $0-arch }
 - { name: pkgtools, ruleset: slackware, setname: $0-slackware }
