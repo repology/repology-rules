@@ -7,6 +7,7 @@
 - { name: facetimehd,                                                                      noscheme: true }
 - { name: facter,                      ver: "4.0.35",                ruleset: rosa,        incorrect: true }
 - { name: facter,                                                    ruleset: rosa,        untrusted: true } # accused of fake 4.0.35
+- { name: factorio,                    releq: "2.1",                                       devel: true } # experimental, see https://www.factorio.com/
 - { name: fahclient,                   verlonger: 3,                                       incorrect: true }
 - { name: faifa,                       verpat: ".*svn.*",            ruleset: debuntu,     ignore: true }
 - { name: fairymax,                    verpat: ".*20[0-9]{6}.*",                           ignore: true }
