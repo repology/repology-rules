@@ -123,6 +123,7 @@ families = [
     'solus',
     'spack',
     'stalix',
+    'starkos',
     't2',
     'termux',
     'tincan',
