@@ -123,5 +123,8 @@
 - { noflag: no_suffix, ruleset: pacstall,        namepat: "(.*)-deb", setname: $1, ignore: true }  # may have debian revisions appended
 - { noflag: no_suffix, ruleset: pacstall,        namepat: "(.*)-git", setname: $1, untrusted: true, addflag: git }  # for commit hashes, rolling is added in 899
 
+- { noflag: no_suffix, ruleset: starkos,         namepat: "(.*)-32", setname: $1, addflavor: multilib-32 } # 32-bit builds (multilib repository, nvidia-32 in nonfree) are named <project>-32
+- { noflag: no_suffix, ruleset: starkos,         namepat: "(.*)-bin", setname: $1, addflavor: bin } # Binary repackages such as firefox-bin, brave-bin or vscode-bin
+
 # repeat suffix common rules again, as suffix order may vary (e.g. foo-git-nox11 vs. foo-nox11-git)
 - { noflag: no_suffix, namepat: "(.*)-(nogui|nox11)", setname: $1, addflavor: $2 }
