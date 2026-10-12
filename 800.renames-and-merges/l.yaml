@@ -161,6 +161,9 @@
 - { setname: looking-glass,            name: [obs-looking-glass, kvmfr-linux-module], addflavor: true }
 - { setname: looking-glass,            name: looking-glass-rc, weak_devel: true, nolegacy: true }
 - { setname: loop,                     name: [lightning-loop, rust:loop-rs, loopwm] } # different projects, split in 850
+- { setname: lore,                     name: [lore-vcs, epic-lore] }
+- { setname: lore,                     name: [loreserver, lore-server], addflavor: server }
+- { setname: lore,                     name: [lepic-lore-desktop], addflavor: desktop }
 - { setname: lossless-cut,             name: losslesscut }
 - { setname: lossless-cut,             name: losslesscut-bin, addflavor: bin }
 - { setname: lostpixels,               name: blinkensisters-with-addons }
