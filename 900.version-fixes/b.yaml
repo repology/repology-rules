@@ -88,6 +88,8 @@
 - { name: binutils,                    verpat: ".*r.*",                                    ignore: true } # snapshots
 - { name: binutils,                    verpat: ".*[0-9]{4}.*",                             snapshot: true } # snapshots and GUIX 2281 garbage
 - { name: binutils,                    verpat: ".*\\.[59][0-9]",                           devel: true } # ftp://sourceware.org/pub/binutils/snapshots
+- { name: binutils,                    ver: "3",                     ruleset: debuntu,     incorrect: true }
+- { name: binutils,                                                  ruleset: debuntu,     untrusted: true } # accused of fake 3 (binutils-djgpp)
 - { name: bioawk,                      ver: "1.0.7",                 ruleset: freebsd,     incorrect: true }
 - { name: bioawk,                                                    ruleset: freebsd,     untrusted: true } # accused of fake 1.0.7
 - { name: bioawk,                      verpat: "20[0-9]{2}.*",                             incorrect: true }
