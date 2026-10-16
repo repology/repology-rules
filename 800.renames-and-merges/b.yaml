@@ -150,8 +150,8 @@
 - { setname: blackshades,              name: blackshades-svn, weak_devel: true, nolegacy: true }
 - { setname: blackshadeselite,         name: blackshades-elite-svn, weak_devel: true, nolegacy: true }
 - { setname: blackshadeselite,         name: black-shades-elite }
-- { setname: blake3,                   name: [libblake3, "rust:blake3"] }
-- { setname: blake3,                   name: [b3sum, "rust:b3sum"], addflavor: b3sum }
+- { setname: blake3,                   name: [libblake3, rust:$0] }
+- { setname: blake3,                   name: rust:b3sum, addflavor: b3sum }
 - { setname: blas,                     name: [blas-reference,blas-docs], addflavor: docs }
 - { setname: blas,                     name: blas-tmg }
 - { setname: blas,                     name: blas64, addflavor: true }
