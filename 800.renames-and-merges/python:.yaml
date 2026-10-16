@@ -169,6 +169,8 @@
 - { setname: python:nbsphinx,          name: [python:jupyter-nbsphinx,nbsphinx,nbsphinx0.3] } # XXX: problem
 - { setname: python:nbsphinx-link,     name: [python:jupyter-nbsphinx-link] } # XXX: problem
 - { setname: python:nbxmpp,            name: [python:python-nbxmpp,nbxmpp] }
+- { setname: python:netcdf4,           name: $0-openmpi, addflavor: true }
+- { setname: python:netcdf4,           name: netcdf4-python }
 - { setname: python:netifaces,         name: netifaces }
 - { setname: python:networkx,          name: networkx }
 - { setname: python:networkx,          namepat: "python:networkx[0-9.-]+" }
