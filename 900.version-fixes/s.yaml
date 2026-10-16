@@ -171,6 +171,8 @@
 - { name: shotcut,                     ver: "23.07.09",                                    devel: true, maintenance: true } # https://github.com/mltframework/shotcut/releases
 - { name: shotcut,                     ver: "21.04.14",                                    incorrect: true }
 - { name: shotcut,                                                   ruleset: winget,      untrusted: true } # accused of fake 21.04.14
+- { name: shotcut,                     ver: "26.9.28",               ruleset: homebrew_casks, incorrect: true }
+- { name: shotcut,                                                   ruleset: homebrew_casks, untrusted: true } # accused of fake 26.9.28
 - { name: shotgun-debugger,            wwwpart: msarnoff,                                  successor: true }
 - { name: shotwell,                    verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true } # assumed
 - { name: showkeys,                                                                        noscheme: true } # https://github.com/nibrahim/showkeys/releases
