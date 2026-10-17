@@ -247,6 +247,10 @@
 - { name: pkgtools, ruleset: [arch,aur], setname: $0-arch }
 - { name: pkgtools, ruleset: slackware, setname: $0-slackware }
 
+- { name: pkgtui, ruleset: vylen, setname: $0-vylen }
+- { name: pkgtui, ruleset: aur, setname: $0-arch }
+- { name: pkgtui, addflag: unclassified }
+
 - { name: pkgutils, wwwpart: crux, setname: pkgutils-crux }
 # also pclinuxos counterpart, but pclinuxos do not provide urls
 - { name: pkgutils, addflag: unclassified }
