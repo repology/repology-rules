@@ -198,6 +198,10 @@
 
 - { name: dlib, wwwpart: gecko0307/dlib, setname: dlib-d }
 
+- { name: dnf, releq: "4", setname: dnf4 }
+- { name: dnf, releq: "5", setname: dnf5 }
+- { name: dnf, addflag: unclassified }
+
 - { name: dns2tcp, wwwpart: alex-sector, setname: dns2tcp-alex-sector }
 # a buch of other projects, but no alive upstreams
 - { name: dns2tcp, addflag: unclassified }
