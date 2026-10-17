@@ -243,6 +243,10 @@
 - { name: pkger, wwwpart: almezali, setname: $0-arch-package-manager }
 - { name: pkger, addflag: unclassified }
 
+- { name: pkgtui, wwwpart: celestifyx, setname: $0-vylen }
+- { name: pkgtui, wwwpart: StepanKomis, setname: $0-arch }
+- { name: pkgtui, addflag: unclassified }
+
 # distro-specific
 - { name: pkgtools, ruleset: [arch,aur], setname: $0-arch }
 - { name: pkgtools, ruleset: slackware, setname: $0-slackware }
