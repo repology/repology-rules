@@ -439,6 +439,7 @@
 - { setname: "purple:skype4pidgin",    name: [libpurple-protocol-skypeweb,libpurple-skypeweb,pidgin-skypeweb,purple-plugin-skypeweb,purple-skypeweb,skype4pidgin,skypeweb-purple] }
 - { setname: "purple:telegram-purple", name: [libpurple-telegram,pidgin-telegram,purple-telegram,telegram-purple] }
 - { setname: putty,                    name: [putty-gtk2,putty-nogtk], addflavor: true }
+- { setname: pyaaf,                    name: "python:aaf2-misnamed", ruleset: vylen }
 - { setname: pyalsa,                   name: ["python:alsa","python:pyalsa"] }
 - { setname: pyatspi,                  name: "python:atspi" }
 - { setname: pybugz,                   name: [bugz, python:pybugz] }
@@ -448,6 +449,7 @@
 - { setname: pycharm,                  name: pycharm-professional, addflavor: professional }
 - { setname: pycsw,                    name: "python:pycsw" }
 - { setname: pygtksourceview,          name: ["python:gtksourceview","python:pygtksourceview","python:pygtksourceview2",pygtksourceview,pygtksourceview2,"python:gtksourceview2"] }
+- { setname: pyinotify,                name: "python:inotify-misnamed", ruleset: vylen }
 - { setname: pyload,                   name: pyload-nightly, weak_devel: true, nolegacy: true }
 - { setname: pyload-ng,                name: python:$0 }
 - { setname: pymol,                    name: [pymol2, "python:pymol", pymol-python2 ] }
@@ -481,6 +483,7 @@
 - { setname: python-launcher,          name: rust:$0 }
 - { setname: python-linux-procfs,      name: "python:linux-procfs" } # exherbo XXX: problem
 - { setname: python-linux-procfs,      name: "python:python-linux-procfs" } # nix
+- { setname: python-magic,             name: "python:magic-misnamed", ruleset: vylen }
 - { setname: pythonmagick,             name: ["python:pythonmagick","python:magick"] }
 - { setname: pythonqt,                 name: python-qt }
 - { setname: pythonqt,                 name: pythonqt-qt5, addflavor: qt5 }
