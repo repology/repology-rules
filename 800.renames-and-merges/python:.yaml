@@ -68,6 +68,7 @@
 - { setname: python:defusedxml,        name: defusedxml }
 - { setname: python:django,            namepat: "(?:python:)?django[0-9.-]*" }
 - { setname: python:django-$1,         namepat: "django-(.*)" }
+- { setname: python:docopt,            name: docopt, ruleset: debuntu }
 - { setname: python:duecredit,         name: duecredit }
 - { setname: python:dukpy,             name: dukpy }
 - { setname: python:dulwich,           name: dulwich }
