@@ -60,6 +60,7 @@
 - { setname: canvas-downloader,        name: rust:$0 }
 - { setname: capistrano,               name: "ruby:capistrano" }
 - { setname: capnproto,                name: [capnp,capnproto-0.6,capnproto1] }
+- { setname: capnproto,                name: capnp-cpp, ruleset: bcr }
 - { setname: capstone,                 name: capstone4 }
 - { setname: carburetor,               name: python:$0 }
 - { setname: cargo,                    name: [rust:cargo,rust-toolset-7-cargo] }
@@ -287,6 +288,7 @@
 - { setname: clearlooks-phenix,        name: [clearlooks-phenix-gtk-theme,clearlooks-phenix-theme,gtk3-theme-clearlooks-phenix] }
 - { setname: clementine,               name: [clementine-free,clementine-blob,clementine-qt5,clementine-debug], addflavor: true }
 - { setname: clerk,                    name: $0-legacy }
+- { setname: clickhouse-cpp,           name: clickhouse-cpp-client, ruleset: bcr }
 - { setname: cling,                    name: cling-dev, weak_devel: true, nolegacy: true }
 - { setname: clink,                    name: devbox-clink }
 - { setname: clion,                    name: clion-bin, addflavor: true }
@@ -472,6 +474,7 @@
 - { setname: crossguid,                name: crossguid-git, weak_devel: true, nolegacy: true }
 - { setname: crossover,                name: wine-crossover }
 - { setname: crossplane,               name: [$0-cli, python:$0] } # different projects, split in 850
+- { setname: crow,                     name: crowcpp, ruleset: bcr }
 - { setname: crowbar,                  name: rust:$0 }
 - { setname: crrcsim-models,           name: crrcsim-addon-models }
 - { setname: crypto++,                 name: [crypto++-562,cryptopp,libcrypto++,libcryptopp] }

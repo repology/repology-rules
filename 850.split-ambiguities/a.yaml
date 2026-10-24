@@ -284,6 +284,7 @@
 - { name: ape, wwwpart: tddft, setname: ape-atomic-pseudopotentials-engine }
 - { name: ape, wwwpart: attempto, setname: ape-attempto-controlled-english }
 - { name: ape, wwwpart: helicontech, setname: ape-helicon }
+- { name: ape, wwwpart: "gitlab.arm.com/bazel/ape", setname: ape-arm-bazel }
 - { name: ape, addflag: unclassified }
 
 - { name: apf, wwwpart: pr_af, setname: apf-active-port-forwarder }
@@ -455,6 +456,10 @@
 - { name: attic, wwwpart: [attic-backup,jborg], setname: attic-backup }
 - { name: attic, wwwpart: zhaofengli, setname: attic-nix-cache }
 - { name: attic, addflag: unclassified }
+
+- { name: au, wwwpart: aurora-opensource, setname: aurora-au }
+- { name: au, wwwpart: majkinetor, setname: chocolatey-au }
+- { name: au, addflag: unclassified }
 
 - { name: audiofile, wwwpart: adamstark, setname: audiofile-adamstark }
 - { name: audiofile, wwwpart: 68k, addflag: classified }

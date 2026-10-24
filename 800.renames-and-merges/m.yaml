@@ -270,6 +270,7 @@
 - { setname: midi-matrix.lv2,          name: midi-matrix-lv2 }
 - { setname: midori,                   name: [midori-granite,midori-gtk2,midori-no-zeitgeist], addflavor: true }
 - { setname: midori,                   name: $0-browser }
+- { setname: mikelankamp-fpm,          name: cpp-fpm, ruleset: bcr }
 - { setname: mimalloc,                 name: [libmimalloc,mimalloc1,mimalloc2] }
 - { setname: mimetic,                  name: lib$0 }
 - { setname: mimic,                    name: mimic1 }
@@ -415,6 +416,7 @@
 - { setname: msgpack-c,                name: [libmsgpack-c, msgpack-c-c, msgpack-c] }
 - { setname: msgpack-cxx,              name: [lib$0, msgpack-cpp, msgpack-c-cpp] }
 - { setname: msilbc,                   name: [libmediastreamer-ilbc, mediastreamer-plugin-msilbc] }
+- { setname: msix,                     name: msix-packaging, ruleset: bcr }
 - { setname: msquic,                   name: libmsquic }
 - { setname: mstflint,                 name: mstflint4 }
 - { setname: msynctool,                namepat: "msynctool[0-9]+" }

@@ -19,6 +19,7 @@
 - { name: lame,                        releq: "3.101",               ruleset: [arch,aur,debuntu,openbsd], incorrect: true }
 - { name: lame,                                                      ruleset: [arch,aur,debuntu,openbsd], untrusted: true } # accused of fake 3.101*
 - { name: lammps,                                                    ruleset: [fedora,opensuse], untrusted: true } # accused of packaging prerelease versions
+- { name: lanelet2,                    verpat: ".*\\.c20[0-9]{6}.*", ruleset: bcr,         snapshot: true }
 - { name: langkit,                     verpat: ".*w",                                      devel: true }
 - { name: langkit,                     verpat: "20[0-9]{2}.*",                             sink: true }
 - { name: larn,                        verpat: "20[0-9]{6}.*",                             incorrect: true }

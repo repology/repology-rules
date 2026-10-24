@@ -46,6 +46,10 @@
 - { name: gauge, wwwpart: [gauge.org, getgauge], setname: $0-test-automation  }
 - { name: gauge, addflag: unclassified }
 
+- { name: gazelle, wwwpart: bazel-gazelle, setname: bazel-gazelle }
+- { name: gazelle, wwwpart: openeuler, setname: $0-network-stack }
+- { name: gazelle, addflag: unclassified }
+
 - { name: gcap, wwwpart: code.google.com/p/gcap, setname: gcap-youtube }
 - { name: gcap, wwwpart: gnome.org, setname: gcap-cabfiles }
 - { name: gcap, wwwpart: gov.br, setname: gcap-brazilian-taxes }
