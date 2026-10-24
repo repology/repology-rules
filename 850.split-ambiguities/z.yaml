@@ -65,6 +65,10 @@
 - { name: zoom, wwwpart: logicalshift, setname: zoom-zcode }
 - { name: zoom, addflag: unclassified }
 
+- { name: zot, wwwpart: [project-zot, zotregistry], setname: $0-registry }
+- { name: zot, wwwpart: [zot.sh, patriceckhart], setname: $0-agent-harness }
+- { name: zot, addflag: unclassified }
+
 - { name: zrepl, wwwpart: [github.com/zrepl/zrepl,zrepl.github.io], setname: zrepl-original }
 - { name: zrepl, wwwpart: github.com/dsh2dsh/zrepl, setname: zrepl-dsh2dsh }
 - { name: zrepl, addflag: unclassified }
