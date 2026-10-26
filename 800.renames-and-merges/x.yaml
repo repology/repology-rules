@@ -112,7 +112,9 @@
 - { setname: xosd,                     name: libxosd }
 - { setname: xosd,                     name: xosd-ex, addflavor: true }
 - { setname: xournal,                  name: xournal-gtk3, addflavor: gtk3 }
-- { setname: xpadneo,                  name: xpadneo-dkms }
+- { setname: xpadneo,                  name: [xpadneo-dkms, dkms-xpadneo, xpadneo-kmod] }
+- { setname: xpadneo,                  name: [xpadneo-kmod-common], addflavor: common }
+- { setname: xpadneo,                  name: [dkms-xpadneo-nightly, xpadneo-nightly, xpadneo-nightly-kmod], weak_devel: true, nolegacy: true }
 - { setname: xpdf,                     name: [xpdf3,xpdf4] }
 - { setname: xpilot-ng,                name: [xpilot-ng-client, xpilot-ng-server], addflavor: true }
 - { setname: xpipe,                    name: xpipe.portable, addflavor: true }
