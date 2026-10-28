@@ -63,6 +63,10 @@
 - { name: weave, wwwpart: weaveworks, setname: weavenet }
 - { name: weave, addflag: unclassified }
 
+- { name: webview2, verpat: "^1\..*$", setname: webview2-sdk }
+- { name: webview2, verpat: "^[1-9][0-9]{2}\..*$", setname: webview2-runtime }
+- { name: webview2, addflag: unclassified }
+
 - { name: when, wwwpart: mitsuhiko, setname: when-timezones }
 - { name: when, wwwpart: [bcrowell,lightandmatter], setname: when-calendar }
 - { name: when, addflag: unclassified }
