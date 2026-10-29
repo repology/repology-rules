@@ -129,6 +129,7 @@
 - { setname: ninja,                    name: ninja-build }
 - { setname: ninja,                    name: [ninja-mem, ninja-noemacs], addflavor: true }
 - { setname: ninja-irc,                name: irc-ninja }
+- { setname: ninja-kitware,            name: ninja-fortran }
 - { setname: nitro,                    name: [init-nitro, pdal-nitro] } # split int 850
 - { setname: nitro,                    name: nitro-beta, weak_devel: true, nolegacy: true }
 - { setname: nix-init,                 name: rust:$0 }
