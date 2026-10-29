@@ -162,3 +162,6 @@
 
 # automatically and blindly updates versions to the broken ones: https://src.openmamba.org/rpms/glm/commit/5fa42a3ffb46fb14cf8b34d65af817d80756da1a
 - {                                                                  ruleset: openmamba,   untrusted: true }
+
+# unverified automatic updates (https://github.com/rxrbln/t2sde/commit/8767035, ea67f90, dd8d916f); package pages provide incorrect information
+- {                                                                  ruleset: t2,          untrusted: true }
