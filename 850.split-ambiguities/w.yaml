@@ -63,8 +63,9 @@
 - { name: weave, wwwpart: weaveworks, setname: weavenet }
 - { name: weave, addflag: unclassified }
 
-- { name: webview2, wwwpart: "://msedge.sf.dl.delivery.mp.microsoft.com", setname: webview2-runtime }
+- { name: webview2, wwwpart: "Microsoft.WebView2.FixedVersionRuntime", setname: webview2-runtime }
 - { name: webview2, setname: webview2-sdk }
+- { name: webview2, addflag: unclassified }
 
 - { name: when, wwwpart: mitsuhiko, setname: when-timezones }
 - { name: when, wwwpart: [bcrowell,lightandmatter], setname: when-calendar }
