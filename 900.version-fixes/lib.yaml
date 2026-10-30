@@ -319,6 +319,8 @@
 - { name: librasterlite2,                                            ruleset: [sisyphus,aur,freebsd,msys2], incorrect: true } # accused of faking 1.0.0-beta1 as 1.1.0
 - { name: libraw,                      ver: "201903",                                      incorrect: true } # vcpkg; wtf, it's not even a date
 - { name: libraw,                      verpat: "20[0-9]{6}",                               snapshot: true }
+- { name: libraw,                                                    ruleset: pisi,        incorrect: true }
+- { name: libraw,                                                    ruleset: pisi,        untrusted: true } # accused of fake 0.22.4
 - { name: librdata,                                                                        noscheme: true }
 - { name: librem,                      verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: libreplaygain,                                                                   incorrect: true }
