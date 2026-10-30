@@ -307,6 +307,7 @@
 - { setname: postgresql,               name: postgresql-src, addflavor: src}
 - { setname: postgresql,               name: postgresql-src-beta, addflavor: src, weak_devel: true, nolegacy: true }
 - { setname: postgresql,               name: [libecpg, libpq, pgindent], addflavor: true }
+- { setname: postgresql,               name: postgres, ruleset: bcr }
 - { setname: postgresql-1c,            namepat: "postgresql[0-9.-]+-1c" }
 - { setname: postgresql-jdbc,          name: [java-postgresql-jdbc, jdbc-postgresql, libpgjava] }
 - { setname: postorius,                name: python:$0 }
