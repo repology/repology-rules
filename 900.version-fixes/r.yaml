@@ -55,6 +55,8 @@
 - { name: rdist,                       verpat: ".*a.*",                                    devel: true }
 - { name: rdkit,                       verpat: "20[0-9]{4}.*",                             incorrect: true }
 - { name: rdkit,                       verge: "20000", verlt: "202409",                    sink: true }
+- { name: rdma-core,                   ver: "66.0",                  ruleset: freebsd,     incorrect: true }
+- { name: rdma-core,                                                 ruleset: freebsd,     untrusted: true } # accused of fake 66.0
 - { name: re2,                         verpat: "[0-9]{5}.*",                               incorrect: true }
 - { name: reaction-quake3,             ver: "3.2",                   ruleset: aur,         incorrect: true }
 - { name: reaction-quake3,                                           ruleset: aur,         untrusted: true } # accused of fake 3.2
