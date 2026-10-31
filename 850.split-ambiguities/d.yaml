@@ -220,7 +220,7 @@
 - { name: docker, wwwpart: https://www.docker.com/, setname: docker-containers } # TODO: This should probably be left in unclassified, it may be either cli or moby
 - { name: docker, addflag: unclassified }
 
-- { name: dog, wwwpart: [dns,ogham], setname: dog-dns } # reuse name from aur
+- { name: dog, wwwpart: [dns,ogham,l1a], setname: dog-dns } # reuse name from aur
 - { name: dog, wwwpart: photodex, setname: dog-cat } # upstream is dead, most repos don't have real homepage url
 - { name: dog, addflag: unclassified }
 
