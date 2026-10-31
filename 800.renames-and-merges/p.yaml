@@ -18,6 +18,8 @@
 - { setname: pactorio,                 name: "rust:pactorio" }
 - { setname: padthv1,                  name: padthv1-lv2 }
 - { setname: page,                     name: page-generator }
+- { setname: pagefind,                 name: rust:$0 }
+- { setname: pagefind,                 name: python:$0-bin, addflavor: python }
 - { setname: pagmo,                    name: [libpagmo,pagmo2] }
 - { setname: paho.mqtt.c,              name: [paho,paho-c,paho-mqtt-c,libpaho-mqtt3,libpaho-mqtt] }
 - { setname: paho.mqtt.cpp,            name: [paho-mqtt-cpp,paho-mqttpp3,paho-cpp] }
