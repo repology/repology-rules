@@ -3,6 +3,7 @@
 - { setname: ffmpeg,                   namepat: "(?:compat-)?ffmpeg(?:-compat)?[0-9.-]*(-mini|-static)?", addflavor: $1 }
 - { setname: ffmpeg,                   namepat: "ffplay[0-9.-]*", addflavor: ffplay }
 - { setname: ffmpeg,                   name: ffserver, addflavor: true }
+- { setname: ffmpeg,                   name: graph2dot, addflavor: graph2dot }
 - { setname: ffmpeg,                   name: libavutil-52, addflavor: libavutil }
 - { setname: ffmpeg,                   name: libavresample, addflavor: libavresample }
 - { setname: ffmpeg,                   name: ffmpeg063-static, addflavor: static }
@@ -15,7 +16,9 @@
     - ffmpeg-amd-full
     - ffmpeg-compat
     - ffmpeg-cuda
+    - ffmpeg-cuda-full
     - ffmpeg-decklink
+    - ffmpeg-essentials
     - ffmpeg-ffplayout
     - ffmpeg-full
     - ffmpeg-full3.4
@@ -51,6 +54,7 @@
     - ffmpeg-v4l2-request
     - ffmpeg-vp9-timestamp
     - ffmpeg-vulkan
+    - ffmpeg-whisper
   addflavor: true
 
 - setname: ffmpeg
