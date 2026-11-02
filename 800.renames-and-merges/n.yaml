@@ -200,7 +200,7 @@
 - { setname: nut,                      name: nut-devel, weak_devel: true, nolegacy: true }
 - { setname: nut,                      name: [ups-nut, ups-nut-cgi, ups-nut-snmp, ups-nut-usb], addflavor: true }
 - { setname: nv-codec-headers,         name: [ffnvcodec,ffnvcodec-headers] }
-- { setname: nv-codec-headers,         name: ffnvcodec-headers8.1 }
+- { setname: nv-codec-headers,         namepat: "ffnvcodec-headers[0-9.-]+" }
 - { setname: nvidia-cg-toolkit,        name: [cg, cg-toolkit, cgtoolkit] }
 - { setname: nvidia-cg-toolkit,        name: cg-compiler, addflavor: compiler }
 - { setname: nvidia-settings,          namepat: "nvidia[x0-9.-]*-settings" }
