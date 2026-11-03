@@ -1,12 +1,14 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
+# Note: flavors were removed from these rules as it's not possible to properly handle
+# legacy versions (qt5) as its flavors always differ
+
 # Generic rule(s)
-- { namepat: "(?:lib)?qt[0-9._-]*(-static|-doc|-full|-x11)*", setname: qt, addflavor: $1 }
+- { namepat: "(?:lib)?qt[0-9._-]*(-static|-doc|-full|-x11)*", setname: qt }
 
 - name:
     - qt-x11-free
   setname: qt  # split by version later
-  addflavor: true
 
 # Qt3 legacy
 - name:
@@ -22,7 +24,6 @@
     - qt3-sqlite2
     - qt3-sqlite3
   setname: qt
-  addflavor: true
 
 # Qt4 legacy (mostly FreeBSD splits which will be gone after 2019-03-15)
 - name:
@@ -123,7 +124,6 @@
 
     - qt4-revert80e3108
   setname: qt
-  addflavor: true
 
 # Qt5/6
 # 1) official submodules, https://download.qt.io/official_releases/qt/5.12/5.12.1/submodules/
@@ -248,7 +248,6 @@
     nonexistingpackagenamejusttokeeppipeonthepreviousline
     )(?:[56][0-9]*)?(?:-docs|-examples|-everywhere-src|-opensource-src)*(?:-gles|-touch|-static)*
   setname: qt
-  addflavor: true
   addflag: qt5_component  # make sure components with (old) own versions don't mismerge with qt1/2/3 (like qtvirtualkeyboard 2.0)
 
 # these have their own versioning schemes
@@ -264,5 +263,5 @@
 
 - { setname: qt, name: [qt1, qt2, qt3, qt4, qt5, qt6] }
 
-- { setname: qt, name: [qt5compat, qt5compat6, qt6-5compat, qt65compat], addflavor: 5compat }
-- { setname: qt, name: qt6-5compat-static, addflavor: 5compat-static }
+- { setname: qt, name: [qt5compat, qt5compat6, qt6-5compat, qt65compat] }
+- { setname: qt, name: qt6-5compat-static }
