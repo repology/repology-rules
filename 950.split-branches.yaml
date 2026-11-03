@@ -337,6 +337,7 @@
 - { name: qt,                                             setbranchcomps: 2 }
 - { name: qt,                relle: "3", noflag: qt5_component, setbranchcomps: 1 }
 - { name: qt,                relle: "3", flag: qt5_component, sink: true, setbranch: "5" }
+- { name: qt,                releq: "5.15",               setbranch: "5.15lts", maintenance: true }
 
 - { name: rest,                                           setbranchcomps: 1 }
 
