@@ -105,6 +105,8 @@
 - { name: libdex,                      ver: "0.5.0",                                       devel: true }
 - { name: libdiscid,                   ver: "1.6.2",                 ruleset: solus,       incorrect: true } # 0.6.2
 - { name: libdiscid,                                                 ruleset: solus,       untrusted: true } # accused of fake 1.6.2
+- { name: libdivsufsort,               releq: "2.0.2.1",                                   incorrect: true }
+- { name: libdivsufsort,                                             ruleset: [openbsd,freebsd], untrusted: true } # accused of fake 2.0.2.1*
 - { name: libdom,                      verpat: "20[0-9]{6}.*",                             snapshot: true }
 - { name: libdom,                      verpat: "2017.*",                                   sink: true } # latest is 0.3.3 from 2018
 - { name: libdwarf,                    verpat: "20[0-9]{6}",                               sink: true } # latest is 0.3.1
