@@ -171,6 +171,7 @@
 - { name: python:pyqt,                                                                     outdated: true } # incorrect package name
 - { name: python:pyqt5,                ver: "5.15.2",                ruleset: blackarch,   incorrect: true } # 5.15.2.dev2009281246 in fact
 - { name: python:pyqt5,                                              ruleset: blackarch,   incorrect: true } # accused of fake 5.15.2
+- { name: python:pyqt6-webengine,      ver: "6.140.0",                                     devel: true } # Qt 6.14.0 Beta 2
 - { name: python:pyqtwebengine,        ver: "5.15.9",                ruleset: guix,        incorrect: true }
 - { name: python:pyqtwebengine,                                      ruleset: guix,        untrusted: true } # accused of fake 5.15.9
 - { name: python:pyserial,             verpat: ".*20[0-9]{6}",                             snapshot: true }
