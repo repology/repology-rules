@@ -194,6 +194,7 @@
 - { name: simh,                        verpat: "[0-9]{2}.*",                               incorrect: true }
 - { name: simon,                       verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: simplescreenrecorder,        verlonger: 3,                                       incorrect: true }
+- { name: simplyhtml,                  verpat: "1\\.1?([89]\\.[0-9]+)",                    setver: "0.1$1" }
 - { name: simulide,                    verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: simulide,                    verpat: ".*[0-9]{4}",                               incorrect: true } # debian
 - { name: simulide,                    ver: "1.2.0",                 ruleset: sisyphus,    incorrect: true }
