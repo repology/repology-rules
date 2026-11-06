@@ -145,6 +145,7 @@
 - { name: milkytracker,                verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: milo,                        ver: "2.4.18",                ruleset: gentoo,      incorrect: true }
 - { name: milo,                                                      ruleset: gentoo,      untrusted: true } # accused of fake 2.4.18
+- { name: mimalloc,                    verpat: "(.*)-bcr\\..*",      ruleset: bcr,         setver: $1, devel: false } # packaging revision
 - { name: mimetex,                     verpat: "20[0-9]{6}.*",                             incorrect: true }
 - { name: mimetreeparser,              verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: mimikatz,                    verpat: ".*20[0-9]{6}",                             ignore: true } # BlackArch snap

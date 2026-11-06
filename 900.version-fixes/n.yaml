@@ -122,6 +122,7 @@
 - { name: nitrogen,                    verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: nkf,                         verpat: "2\\.[0-9]{2}",                             incorrect: true } # it's X.Y.Z, not X.YZ
 - { name: nlbwmon,                                                                         noscheme: true } # https://github.com/jow-/nlbwmon/releases
+- { name: nlopt,                       verpat: "(.*)\\.bcr[0-9]+",   ruleset: bcr,         setver: $1 } # packaging revision
 - { name: nnpack,                                                                          noscheme: true }
 - { name: no-more-secrets,             verpat: "[0-9]{8}",                                 incorrect: true } # slitaz
 - { name: no-more-secrets,             ver: "10122016",                                    sink: true } # older than 1.0.1

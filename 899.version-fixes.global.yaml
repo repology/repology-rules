@@ -106,7 +106,7 @@
 - { verpat: ".*,.*",                                                 ruleset: libregamewiki, untrusted: true } # dual versions like 1.6_080519 (code), 1.6_070717 (data)
 - { verpat: "0\\.0\\.0-.*",                                          ruleset: bcr,         noscheme: true } # pseudo-versions for modules with no upstream release
 - { verpat: "[0-9a-f]{40}",                                          ruleset: bcr,         noscheme: true } # plain commit hashes
-- { verpat: ".*[.-]bcr\\.20[0-9]{6}.*",                              ruleset: bcr,         snapshot: true } # snapshots like 1.1.0.bcr.20241007
+- { verpat: ".*-bcr\\.20[0-9]{6}.*",                                ruleset: bcr,         snapshot: true } # snapshots like 0.10.0-bcr.20240313-1142dc4
 - { verpat: ".*-(?:0\\.)?20[0-9]{6}(?:[0-9]{6})?(?:-[0-9a-f]{7,})?",   ruleset: bcr,         snapshot: true } # pseudo-versions like 1.4.1-20260818-7034690 (https://github.com/bazelbuild/bazel-central-registry/blob/main/docs/README.md#pseudo-versions)
 
 # nuget is terminally broken and can't handle arbitrary version schemes, so most are garbage

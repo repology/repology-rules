@@ -158,6 +158,7 @@
 - { name: picard-tagger,               verpat: ".*[0-9]{5}.*",                             incorrect: true } # fake 2.6.30000.0 from winget
 - { name: picard-tagger,                                             ruleset: winget,      untrusted: true } # accused of fake 2.6.30000.0
 - { name: picmi,                       verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
+- { name: pico-sdk,                    verpat: ".*-develop",         ruleset: bcr,         snapshot: true } # snapshots of the develop branch
 - { name: picoc,                       ver: "2.1.9",                 ruleset: sisyphus,    incorrect: true }
 - { name: picoc,                                                     ruleset: sisyphus,    untrusted: true } # accused of fake 2.1.9
 - { name: picoc,                       ver: "2.2",                   ruleset: rpmsphere,   incorrect: true }
@@ -170,6 +171,7 @@
 - { name: picolisp,                    ver: ["18.6.12", "18.6.17"],  ruleset: [aur,termux], incorrect: true }
 - { name: picolisp,                                                  ruleset: [aur,termux], untrusted: true }
 - { name: picom,                       verpat: ".*r.*",              ruleset: freebsd,     devel: true } # XXX: FreeBSD DISTVERSION
+- { name: picotool,                    verpat: ".*-develop",         ruleset: bcr,         snapshot: true } # snapshots of the develop branch
 - { name: pidentd,                     ver: "3.1a25",                                      incorrect: true, disposable: true } # old opensuse leap, no idea where this comes from
 - { name: piglit,                                                                          noscheme: true }
 - { name: pikchr,                                                                          noscheme: true } # https://pikchr.org/home/taglist
