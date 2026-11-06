@@ -55,6 +55,7 @@
 - { setname: bazel,                    name: bazel-clang38, addflavor: true }
 - { setname: bazel,                    namepat: "bazel[0-9.-]+" }
 - { setname: bazel-buildtools,         name: buildifier, addflavor: true }
+- { setname: bazel-stardoc,            name: stardoc, ruleset: bcr }
 - { setname: bazel-watcher,            name: ibazel, addflavor: true }
 - { setname: bbpager,                  name: [bbpager03,bbpager04] }
 - { setname: bbswitch,                 name: dkms-bbswitch }
@@ -158,6 +159,7 @@
 - { setname: blasphemer,               name: blasphemer-wad }
 - { setname: blast,                    name: blast-legacy }
 - { setname: blast,                    name: blast-bin, addflavor: true }
+- { setname: blaze,                    name: blaze-math, ruleset: bcr }
 - { setname: ble.sh,                   name: blesh }
 - { setname: blender,                  name: [blender-alarm,blender-as-py-module,blender-binaries,blender-wayland,blender-rocm], addflavor: true }
 - { setname: blender,                  namepat: "blender(?:[.-]lts)?[0-9.-]*" }
@@ -199,6 +201,7 @@
 - { setname: bonk,                     name: rust:bonky }
 - { setname: bonnie++,                 name: bonniexx }
 - { setname: boomaga,                  name: boomaga-qt5, addflavor: true }
+- { setname: boost-leaf,               name: boost.leaf, ruleset: bcr }
 - { setname: boost-nowide,             name: nowide }
 - { setname: boostnote,                name: boost-note }
 - { setname: booth,                    name: maui-booth }

@@ -176,6 +176,7 @@
 - { setname: openstack-placement,      name: python:$0 }
 - { setname: opentelemetry-collector,  name: otelcol }
 - { setname: opentelemetry-collector-contrib, name: otelcol-contrib }
+- { setname: opentracing-cpp,          name: io-opentracing-cpp, ruleset: bcr }
 - { setname: openttd,                  name: [open-ttd, openttd-stable] }
 - { setname: openttd,                  name: [openttd-version, openttd-btpro], addflavor: true }
 - { setname: openttd-opengfx,          name: [opengfx, openttd-opengfx] }
