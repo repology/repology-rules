@@ -7,6 +7,7 @@
 - { setname: nvidia,                   namepat: "linux-nvidia-libs[0-9.-]*" }
 - { setname: nvidia,                   namepat: "module-nvidia[0-9.-]*" }
 - { setname: nvidia,                   name: module-nvidia-current }
+- { setname: nvidia,                   name: opencl-nvidia, addflavor: true }
 - { setname: nvidia,                   namepat: "nvidia\\+[0-9]*" }
 - { setname: nvidia,                   namepat: "nvidia[x0-9.-]*(-ck|-kmod|-lqx|-rt|-utils|-dkms|-glx-driver)?(?:-lts[0-9]*|-next)?", addflavor: $1 }
 - { setname: nvidia,                   name: nvidia-beta, weak_devel: true, nolegacy: true }
