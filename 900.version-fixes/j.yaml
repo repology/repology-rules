@@ -9,6 +9,7 @@
 - { name: jakarta-activation,          ver: "2.0.1",                                       outdated: true } # superceded by angus-mail [2.0.2]
 - { name: jakarta-mail,                vergt: "2.0.1",                                     incorrect: true } # split to jakarta-mail-api and angus-mail
 - { name: jakarta-mail,                ver: "2.0.1",                                       outdated: true } # superceded by angus-mail [2.0.2]
+- { name: jakt,                                                                            noscheme: true } # no tags in upstream repo
 - { name: jarnal,                      verpat: "[0-9]{4}",                                 incorrect: true } # 10.78, not 1078
 - { name: java-cup,                    verpat: "[0-9]{2}.*",                               incorrect: true } # it's e.g. 0.11b
 - { name: "java:jakarta-oro",          ver: "2.0.8a",                                      incorrect: true } # debian invention
