@@ -49,6 +49,7 @@
 - { setname: xcp,                      name: rust:$0 }
 - { setname: xd,                       name: [xd-rs, "rust:xd"] } # ambiguous, split in 850
 - { setname: xdelta,                   name: [xdelta1,xdelta3] }
+- { setname: xdg-desktop-portal-umbriel, name: $0-nighly, weak_devel: true, nolegacy: true }
 - { setname: xdg-utils,                name: [xdg-utils-mimeo,xdg-utils-no-open,xdg-utils-patched,xdg-utils-slock] }
 - { setname: xdm,                      name: [xtreme-dm,xdman,xtremedownloadmanager] }
 - { setname: xdm,                      name: rust:$0 }
