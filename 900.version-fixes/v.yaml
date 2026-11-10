@@ -79,6 +79,7 @@
 - { name: vitetris,                    ver: "0.60",                  ruleset: crux,        incorrect: true }
 - { name: vitetris,                                                  ruleset: crux,        untrusted: true } # accused of fake 0.60
 - { name: vivaldi,                     verpat: ".*-.*",              ruleset: nix,         debianism: true }
+- { name: vivaldi-ffmpeg-codecs,                                                           noscheme: true }
 - { name: vixie-cron,                  verpat: ".*20[0-9]{6}",                             ignore: true }
 - { name: vkmark,                      verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: vkmark,                      verpat: "20[0-9]{2}\\.[0-9]{2}.+",                  incorrect: true } # latest 2017.08
