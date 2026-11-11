@@ -179,8 +179,8 @@
 - { name: pim-data-exporter,           verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: pim-sieve-editor,            verpat: "[0-9]+\\.[0-9]+\\.[89][0-9]+",             devel: true }
 - { name: pimcommon,                   verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
-- { name: pingus,                      verpat: "0\\.8\\.0-[0-9]{8}",                       snapshot: true }
-- { name: pingus,                      verpat: "20[0-9]{6}",                               snapshot: true } # aosc snapshot
+- { name: pingus,                      verpat: "0\\.8\\.0-20[0-9]{2}.*",                   incorrect: true }
+- { name: pingus,                      verpat: "20[0-9]{6}",                               incorrect: true }
 - { name: pinta,                       ver: "1.7",                   ruleset: solus,       incorrect: true }
 - { name: pinta,                                                     ruleset: solus,       untrusted: true } # accused of fake 1.7
 - { name: pioneer,                     ver: ["20191117","20191009"],                       devel: true }
