@@ -267,3 +267,7 @@
 
 - { setname: qt, name: [qt5compat, qt5compat6, qt6-5compat, qt65compat] }
 - { setname: qt, name: qt6-5compat-static }
+
+# individual merges; in fact should be covered by the huge regexp rule above, but too lazy to review it right now
+- { setname: qt, name: [qt6graphs, qtgraphs-qt6] }
+- { setname: qt, name: [qt5lottie, qt6lottie] }
