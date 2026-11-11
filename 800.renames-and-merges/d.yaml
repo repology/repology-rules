@@ -190,8 +190,14 @@
 - { setname: dosbox,                   name: dosbox-dev }
 - { setname: dotconf,                  name: lib$0 }
 - { setname: dotenv-linter,            name: rust:$0 }
+- { setname: dotnet,                   namepat: "aspnetcore-runtime[0-9.-]*", addflavor: aspnetcore-runtime }
+- { setname: dotnet,                   namepat: "dotnet-core[0-9.-]*", addflavor: core }
+- { setname: dotnet,                   namepat: "dotnet-runtime[0-9.-]*", addflavor: runtime }
+- { setname: dotnet,                   namepat: "dotnet-sdk[0-9.-]*", addflavor: sdk }
+- { setname: dotnet,                   namepat: "dotnet[0-9.-]+-sdk", addflavor: sdk }
 - { setname: dotnet,                   namepat: "dotnet[0-9.-]+" }
-- { setname: dotnet,                   name: dotnetpreview, weak_devel: true, nolegacy: true }
+- { setname: dotnet,                   name: [dotnetpreview, dotnet-devel], weak_devel: true, nolegacy: true }
+- { setname: dotnet,                   name: [dotnet-host], addflavor: true }
 - { setname: dotnet-script,            name: dotnet.script }
 - { setname: double-conversion,        name: [libdouble-conversion,doubleconversion] }
 - { setname: doublecmd,                name: [doublecmd-gtk2,doublecmd-qt,doublecmd-qt4,doublecmd-qt5], addflavor: true }
