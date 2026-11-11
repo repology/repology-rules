@@ -333,6 +333,10 @@
 - { name: mkinitcpio-tailscale, wwwpart: classabbyamp, setname: mkinitcpio-tailscale-classabbyamp }
 - { name: mkinitcpio-tailscale, addflag: unclassified }
 
+- { name: mkinitramfs, ruleset: pisi, setname: $0-pisi }
+- { name: mkinitramfs, ruleset: vylen, setname: $0-vylen }
+- { name: mkinitramfs, addflag: unclassified }
+
 - { name: mkl, wwwpart: intel, setname: mkl-math-kernel-library }
 - { name: mkl, wwwpart: make0x20, setname: mkl-mookie-launcher }
 - { name: mkl, addflag: unclassified }
