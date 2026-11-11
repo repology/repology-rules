@@ -328,6 +328,7 @@
 - { setname: modeltest-ng,             name: [modeltest-ng-mpi, modeltest-ng-portable], addflavor: true }
 - { setname: modemmanager,             name: modem-manager }
 - { setname: modemmanager,             name: libmm-glib, addflavor: true }
+- { setname: modemmanager,             name: modemmanager-dev, weak_devel: true, nolegacy: true }
 - { setname: modplug-tools,            name: modplugplay, sink: true } # modplugplay (2003, upstream dead) is now contained in modplugtools (2010); the latter also uses own versioning scheme
 - { setname: modplug-tools,            name: modplugtools }
 - { setname: modsecurity,              name: ["apmod:modsecurity","apmod:security","apmod:security2", libmodsecurity,mod-security,modsecurity,modsecurity-apache,modsecurity3] }
