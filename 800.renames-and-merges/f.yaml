@@ -63,6 +63,7 @@
 - { setname: ffcall,                   name: libffcall }
 - { setname: ffind,                    name: python:$0 }
 - { setname: fflogs,                   name: fflogs-uploader }
+- { setname: ffmpeg-chromium,          name: [vivaldi-ffmpeg-codecs, ffmpeg-chromium-opera, ffmpeg-chromium-vivaldi-stable, vivaldi-snapshot-ffmpeg-codecs, chromium-ffmpeg] } # no flavors/weak_devel/nolegacy as it's noscheme anyway
 - { setname: ffmpeg-normalize,         name: "python:ffmpeg-normalize" }
 - { setname: ffms2,                    name: [ffmpegsource, ffms] }
 - { setname: ffsend,                   name: "rust:ffsend" }

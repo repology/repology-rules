@@ -67,6 +67,7 @@
 - { name: ffmpeg,                      verpat: ".*20[0-9]{6}.*",                           ignore: true } # openbsd, chocolatey, pkgsrc
 - { name: ffmpeg,                      ver: "4.2.3",                 ruleset: aur,         incorrect: true } # fake
 - { name: ffmpeg,                                                    ruleset: aur,         untrusted: true } # accused of fake 4.2.3
+- { name: ffmpeg-chromium,                                                                 noscheme: true }
 - { name: ffmpegthumbnailer,           verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: ffmpegthumbnailer,           ver: "2.2.3",                 ruleset: fedora,      incorrect: true }
 - { name: ffmpegthumbnailer,                                         ruleset: fedora,      untrusted: true } # accused of fake 2.2.3
