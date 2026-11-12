@@ -235,3 +235,5 @@
 - { name: owfs,                        verpat: "[0-9]+\\.[0-9]+\\.[0-9]+",                 incorrect: true } # X.Y.pZ
 - { name: owncloudclient,              verpat: ".*[0-9]{5}",                               snapshot: true } # openbsd
 - { name: oxygen-gtk3,                 verlonger: 3,                 ruleset: kaos,        incorrect: true }
+- { name: oxygen-icons,                ver: "6.32.0",                ruleset: fedora,      incorrect: true }
+- { name: oxygen-icons,                                              ruleset: fedora,      untrusted: true } # accused of fake 6.32.0
