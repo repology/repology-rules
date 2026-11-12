@@ -18,6 +18,7 @@
 - { setname: handbrake,                name: [$0-cli-snapshot], weak_devel: true, nolegacy: true, addflavor: cli }
 - { setname: handlr,                   name: [xdg-utils-handlr, handlr-regex, rust:handlr-regex] } # handlr-regex is the alive fork; original project is abandoned
 - { setname: hangups,                  name: "python:hangups" }
+- { setname: happy,                    name: haskell:$0 }
 - { setname: haproxy,                  namepat: "haproxy[0-9.-]*" }
 - { setname: haproxy,                  name: haproxy-devel, weak_devel: true, nolegacy: true }
 - { setname: haproxy-dataplaneapi,     name: dataplaneapi }
