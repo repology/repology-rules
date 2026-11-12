@@ -182,6 +182,7 @@
 - { setname: alsa-lib,                 name: [alsa,libalsa,libalsa2] }
 - { setname: alsa-lib,                 name: alsa-lib-noassertion, addflavor: true }
 - { setname: alsa-plugins,             name: [alsa-plugins-pulse,alsa-plugins-pulseaudio], addflavor: pulse }
+- { setname: alsa-plugins,             name: pulseaudio-alsa, ruleset: vylen, addflavor: true }
 - { setname: alsa-plugins,             name: alsa-plugins-jack, addflavor: jack }
 - { setname: alsa-plugins,             name: alsa-plugins-oss, addflavor: oss }
 - { setname: alsaequal,                name: alsa-plugins-equal }

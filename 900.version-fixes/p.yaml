@@ -413,7 +413,7 @@
 - { name: pthreadpool,                                                                     noscheme: true } # excluding 0.1 tag from 2015 it's not tagged
 - { name: public-suffix-list,                                                              noscheme: true } # https://github.com/publicsuffix/list/releases
 - { name: pulseaudio,                  verpat: ".*99.*",                                   devel: true }
-- { name: pulseaudio-alsa,                                                                 noscheme: true } # just some versionless config for pulseaudio
+- { name: pulseaudio-alsa,                                           ruleset: starkos,     noscheme: true } # just some versionless config for pulseaudio
 - { name: pulseaudio-equalizer,        ver: "2.7.0.2",                                     incorrect: true }
 - { name: pup,                         verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: "purple:purple-facebook",    verge: "20000000", verlt: "20190113",               sink: true } # 0.9.6 from 2019.01.13
