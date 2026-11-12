@@ -16,7 +16,7 @@
 - { setname: fahcontrol,               name: fahcontrol-beta, weak_devel: true, nolegacy: true }
 - { setname: fahcontrol,               name: fahcontrol-gtk3, addflavor: true }
 - { setname: fahviewer,                name: fahviewer-beta, weak_devel: true, nolegacy: true }
-- { setname: fail2ban,                 name: "python:fail2ban" }
+- { setname: fail2ban,                 name: python:$0 }
 - { setname: fail2ban,                 name: fail2ban6 }
 - { setname: falco,                    name: falco-ebpf, addflavor: true }
 - { setname: falcons-eye,              name: falconseye }
@@ -25,13 +25,13 @@
 - { setname: fallingtime,              name: falling-time }
 - { setname: fallout-ce,               name: fallout1-ce-game }
 - { setname: fallout2-ce,              name: fallout2-ce-game }
-- { setname: fanficfare,               name: "python:fanficfare" }
+- { setname: fanficfare,               name: python:$0 }
 - { setname: fann,                     name: lib$0 }
 - { setname: fargatecli,               name: fargate-cli }
 - { setname: farmanager,               name: far-manager }
 - { setname: farstream,                namepat: "farstream[0-9.-]+" }
 - { setname: fasm,                     name: [fasm-bin,fasm-linux,flat-assembler], addflavor: true }
-- { setname: fast,                     name: libfast }
+- { setname: fast,                     name: lib$0 }
 - { setname: fast-float,               name: fastfloat }
 - { setname: fasta,                    name: fasta3 }
 - { setname: fastd,                    name: fastd-devel, weak_devel: true, nolegacy: true }
@@ -44,33 +44,33 @@
 - { setname: fcitx,                    name: [fcitx-gtk2,fcitx-gtk3,fcitx-qt4,fcitx-gtk], addflavor: true } # but qt5 is different project
 - { setname: fcitx-gtk,                name: [fcitx5-gtk2, fcitx5-gtk3, fcitx5-gtk4], addflavor: true }
 - { setname: fcitx-mozc,               name: [fcitx-mozc,fcitx5-mozc,fcitx5-mozc-ext-neologd,fcitx-mozc-ut,fcitx5-mozc-ut], addflavor: true }
-- { setname: fcitx-qt5,                name: libfcitx-qt5 }
-- { setname: fcp,                      name: "rust:fcp" }
+- { setname: fcitx-qt5,                name: lib$0 }
+- { setname: fcp,                      name: rust:$0 }
 - { setname: fd,                       name: [fd-find, rust:fd-find, fd-rs] }
 - { setname: fdk-aac,                  name: [libfdk-aac,fdk-aac-enc] }
 - { setname: fdkaac,                   name: fdk-aac-encoder }
 - { setname: fdroidserver,             name: python:$0 }
 - { setname: feather,                  name: [featherwallet, monero-feather] }
 - { setname: featherpad,               name: $0-qt5, addflavor: true }
-- { setname: fec,                      name: libfec }
+- { setname: fec,                      name: lib$0 }
 - { setname: fedora-backgrounds,       namepat: "f(?:edora)?[0-9]+-backgrounds" }
 - { setname: feedreader,               name: feedreader-beta, weak_devel: true, nolegacy: true }
-- { setname: fend,                     name: "rust:fend" }
+- { setname: fend,                     name: rust:$0 }
 - { setname: fet.sh,                   name: [fetsh, fet-sh] }
 - { setname: fetch-crl,                name: fetch-crl3 }
 - { setname: fetchmail,                name: fetchmailconf, addflavor: fetchmailconf }
 - { setname: fex,                      name: fex-emu }
-- { setname: ffcall,                   name: libffcall }
+- { setname: ffcall,                   name: lib$0 }
 - { setname: ffind,                    name: python:$0 }
 - { setname: fflogs,                   name: fflogs-uploader }
 - { setname: ffmpeg-chromium,          name: [vivaldi-ffmpeg-codecs, ffmpeg-chromium-opera, ffmpeg-chromium-vivaldi-stable, vivaldi-snapshot-ffmpeg-codecs, chromium-ffmpeg] } # no flavors/weak_devel/nolegacy as it's noscheme anyway
-- { setname: ffmpeg-normalize,         name: "python:ffmpeg-normalize" }
+- { setname: ffmpeg-normalize,         name: python:$0 }
 - { setname: ffms2,                    name: [ffmpegsource, ffms] }
-- { setname: ffsend,                   name: "rust:ffsend" }
+- { setname: ffsend,                   name: rust:$0 }
 - { setname: ffsubsync,                name: python:$0 }
 - { setname: fftw,                     name: [fftwf,fftw-avx,fftw-static] }
 - { setname: fftw,                     namepat: "(?:lib)?fftw[0-9.-]*(-double|-float|-long-double|-quad|-single|-long|-mpi|-mpich|-openmpi|-common|-gnu-.*)?", addflavor: $1 }
-- { setname: ffuf,                     name: "go:ffuf" }
+- { setname: ffuf,                     name: go:$0 }
 - { setname: fgfs-atlas,               name: flightgear-atlas }
 - { setname: fgfs-base,                name: flightgear-base }
 - { setname: fglrx,                    name: [fglrx-driver, fglrx-legacy, fglrx-legacy-driver, module-fglrx] }
@@ -89,7 +89,7 @@
 - { setname: fillets-ng,               name: fish-fillets-next-generation }
 - { setname: fillets-ng,               name: fish-fillets }
 - { setname: fillets-ng,               name: fish-fillets-ng }
-- { setname: finch-rs,                 name: "rust:finch" } # XXX: maybe rename to finch and disambiguate with finch im client?
+- { setname: finch-rs,                 name: rust:finch } # XXX: maybe rename to finch and disambiguate with finch im client?
 - { setname: firebase-tools,           name: [firebase-cli,firebase-tools-421, node:firebase-tools, firebase] }
 - { setname: firebird,                 namepat: "firebird[0-9.-]*(?:-client|-server)?" }
 - { setname: firefly,                  name: lib$0 } # split in 850
@@ -103,14 +103,14 @@
 - { setname: flamelens,                name: rust:$0 }
 - { setname: flare,                    name: [flare-engine,flare-game,flare-data], addflavor: true } # these are actually distinct packages, but too many repos merge them together
 - { setname: flatbuffers,              name: [$0-static, rust:$0, python:$0], addflavor: true }
-- { setname: flawfinder,               name: "python:$0" }
+- { setname: flawfinder,               name: python:$0 }
 - { setname: fleet,                    name: fleetctl }
 - { setname: flex,                     name: [compat-flex,flex-old] }
-- { setname: flex,                     name: libflex, addflavor: true }
+- { setname: flex,                     name: lib$0, addflavor: true }
 - { setname: flexc++,                  name: flexcpp }
-- { setname: flexget,                  name: "python:flexget" }
+- { setname: flexget,                  name: python:$0 }
 - { setname: flexoptix,                name: flexoptix-app }
-- { setname: flif,                     name: libflif }
+- { setname: flif,                     name: lib$0 }
 - { setname: flight-of-the-amazon-queen, name: fotaq }
 - { setname: flight-of-the-amazon-queen, name: scummvm-fotaq }
 - { setname: flim,                     name: [flim-xemacs,flim-emacs25,emacs-flim] }
@@ -154,8 +154,8 @@
 - { setname: fontbakery,               name: python:$0 }
 - { setname: fontconfig,               name: fontconfig-reference, addflavor: true }
 - { setname: fontforge,                name: [fontforge-cli, fontforge-gtk], addflavor: true }
-- { setname: fontmake,                 name: "python:fontmake" }
-- { setname: fonttools,                name: "python:fonttools" }
+- { setname: fontmake,                 name: python:$0 }
+- { setname: fonttools,                name: python:$0 }
 - { setname: fonttools-opentype-feature-freezer, name: python:opentype-feature-freezer }
 - { setname: foo2js,                   name: foo2zjs-nightly, weak_devel: true, nolegacy: true }
 - { setname: foobillard++,             name: foobillardplus }
@@ -165,24 +165,24 @@
 - { setname: forge,                    name: forge-devel, weak_devel: true, nolegacy: true }
 - { setname: forgejo,                  name: $0-lts }
 - { setname: forgejo-cli,              name: fj-cli } # XXX: problem
-- { setname: forgejo-cli,              name: rust:forgejo-cli }
+- { setname: forgejo-cli,              name: rust:$0 }
 - { setname: forgejo-runner,           name: forgejo-act-runner } # XXX: problem
 - { setname: forgit,                   name: [fishplugin-forgit, zsh-forgit], addflavor: true }
 - { setname: fortls,                   name: python:$0 }
 - { setname: fortran-language-server,  name: python:$0 }
 - { setname: fossology,                name: [fossology-nomos-standalone,fossology-nomos] } # part of fossology
-- { setname: foswiki,                  name: "perl:foswiki" }
+- { setname: foswiki,                  name: perl:$0 }
 - { setname: foundationdb,             name: [foundationdb-clients,foundationdb-server], addflavor: true }
 - { setname: four-in-a-row,            name: gnome-games-four-in-a-row }
 - { setname: fox,                      name: fox-toolkit }
 - { setname: fox,                      name: [fox-devel,fox-toolkit-devel], weak_devel: true, nolegacy: true }
 - { setname: fox,                      namepat: "(?:lib)?fox[0-9.-]*" }
 - { setname: fox,                      name: [adie,calculator], wwwpart: fox-toolkit, addflavor: true } # bundled apps
-- { setname: foxdot,                   name: "python:foxdot" }
+- { setname: foxdot,                   name: python:$0 }
 - { setname: foxitreader,              name: [foxit, foxit-reader, foxit-pdf-reader] }
 - { setname: foxyproxy,                name: xpi-foxyproxy, ruleset: freebsd }
 - { setname: fping,                    name: [fping3,fping6] }
-- { setname: fplll,                    name: libfplll }
+- { setname: fplll,                    name: lib$0 }
 - { setname: fqterm,                   name: fqterm-qt5, addflavor: true }
 - { setname: fr24feed,                 name: flightradar24 } # XXX: problem
 - { setname: fracplanet,               name: fracplanet-qt5, addflavor: true, disposable: true }
@@ -202,8 +202,8 @@
 - { setname: freedroidrpg,             name: freedroid-rpg }
 - { setname: freedv-gui,               name: freedv }
 - { setname: freefoom,                 name: [freedoom1,freedoom2] }
-- { setname: freeglut,                 name: libfreeglut }
-- { setname: freeimage,                name: libfreeimage }
+- { setname: freeglut,                 name: lib$0 }
+- { setname: freeimage,                name: lib$0 }
 - { setname: freeimage,                name: freeimageplus, addflavor: true }
 - { setname: freeipa,                  name: [freeipa-client, ipa-client47], addflavor: client }
 - { setname: freemarker,               name: [freemarker2.3.23,libfreemarker-java] }
@@ -218,16 +218,16 @@
 - { setname: freetype,                 name: [libfreetype,freetype1,freetype2] }
 - { setname: freetype,                 name: [freetype2-bootstrap,freetype2-minimal,freetype2-old-hinting,freetype2-ttmetrics,freetype2-ultimate5,freetype2-v35,freetype2-static,freetype2-static-bootstrap,freetype-bootstrap], addflavor: true }
 - { setname: freetype-infinality,      name: [freetype2-infinality,libfreetype-infinality] }
-- { setname: freexl,                   name: libfreexl, addflavor: true }
+- { setname: freexl,                   name: lib$0, addflavor: true }
 - { setname: freeze,                   name: charm-freeze } # split in 850
 - { setname: frei0r,                   name: lib$0 }
 - { setname: frei0r,                   name: frei0r-plugins }
 - { setname: frei0r,                   name: [frei0r-plugins-gavl,frei0r-plugins-opencv,frei0r-plugins-qt5,frei0r-plugins-cairo], addflavor: true }
 - { setname: frescobaldi,              name: frescobaldi2 }
-- { setname: frescobaldi,              name: "python:frescobaldi" } # XXX: FreeBSD crap, problem
+- { setname: frescobaldi,              name: python:$0 } # XXX: FreeBSD crap, problem
 - { setname: fresh-editor,             name: rust:$0 }
 - { setname: fretsonfire,              name: frets-on-fire }
-- { setname: fribidi,                  name: libfribidi }
+- { setname: fribidi,                  name: lib$0 }
 - { setname: frog,                     name: [gnome-frog, frog-ocr] }
 - { setname: frog,                     name: frog-ocr-no-telemetry, addflavor: no-telemetry }
 - { setname: frotz,                    name: [frotz-sdl, frotz-dumb-terminal, sfrotz], addflavor: true }
@@ -240,19 +240,19 @@
 - { setname: fs-uae,                   name: [fs-uae-devel, fs-uae-dev], weak_devel: true, nolegacy: true }
 - { setname: fs-uae-arcade,            name: [fs-uae-arcade-devel, fs-uae-arcade-dev], weak_devel: true, nolegacy: true }
 - { setname: fs-uae-launcher,          name: [fs-uae-launcher-devel, fs-uae-launcher-dev], weak_devel: true, nolegacy: true }
-- { setname: fselect,                  name: "rust:fselect" }
-- { setname: fstar,                    name: ocaml:fstar }
+- { setname: fselect,                  name: rust:$0 }
+- { setname: fstar,                    name: ocaml:$0 }
 - { setname: fsv,                      name: fsv2 }
 - { setname: fswatch,                  name: lib$0, addflavor: lib }
 - { setname: fsx,                      name: rust:$0 }
-- { setname: fteproxy,                 name: "python:fteproxy" }
+- { setname: fteproxy,                 name: python:$0 }
 - { setname: ftgl,                     name: [libftgl,libftgl2] }
-- { setname: fum,                      name: "rust:fum-player" }
+- { setname: fum,                      name: rust:fum-player }
 - { setname: functionalplus,           name: fplus }
 - { setname: funkwhale,                name: funkwhale-venv, addflavor: true }
 - { setname: fuse,                     name: fuse-emulator-sdl, addflavor: sdl }
 - { setname: fusioninventory-agent,    name: perl:$0 }
-- { setname: futhark,                  name: "haskell:futhark" }
+- { setname: futhark,                  name: haskell:$0 }
 - { setname: futhark,                  name: futhark-nightly, weak_devel: true, nolegacy: true }
 - { setname: fuzzylite,                name: fuzzylite5 }
 - { setname: fvwm,                     name: [fvwm1,fvwm2] }

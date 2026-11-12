@@ -31,7 +31,7 @@
 - { setname: lapack,                   name: lapack-atlas, addflavor: atlas }
 - { setname: lapack,                   name: lapack-manpages, addflavor: man }
 - { setname: lapack,                   name: lapack-tmg, addflavor: tmg } # component of
-- { setname: lapack,                   name: liblapack }
+- { setname: lapack,                   name: lib$0 }
 - { setname: lapack++,                 name: lapackpp }
 - { setname: lapacke,                  name: lapacke-tmg, addflavor: tmg } # component of
 - { setname: lasem,                    namepat: "lasem[0-9.-]+" }
@@ -54,7 +54,7 @@
 - { setname: ldns,                     name: lib$0, addflavor: lib }
 - { setname: leaf,                     name: leaf-proxy } # split int 850
 - { setname: leaf-markdown-viewer,     name: rust:$0 }
-- { setname: leatherman,               name: libleatherman }
+- { setname: leatherman,               name: lib$0 }
 - { setname: ledger-live-desktop,      name: ledger-live-bin, addflavor: bin }
 - { setname: ledger-live-desktop,      name: [ledger-live, ledgerlive] }
 - { setname: legba,                    name: rust:$0 }
@@ -62,13 +62,13 @@
 - { setname: legendsbrowser,           name: legends-browser }
 - { setname: lemon,                    name: [liblemon, lemon-graph, lemon-parser-generator] }
 - { setname: lenovolegionlinux,        name: [lenovo-legion-app, lenovo-legion-linux, lenovo-legion-module, lenovolegionlinux-dkms] }
-- { setname: lensfun,                  name: liblensfun }
+- { setname: lensfun,                  name: lib$0 }
 - { setname: leptonica,                name: [libleptonica,leptonlib,leptonica5] }
 - { setname: lerc,                     name: lib$0 }
 - { setname: lerc,                     name: python:$0, addflavor: true }
 - { setname: lesscpy,                  name: python:$0 }
 - { setname: lesstif,                  name: lesstif2 }
-- { setname: leveldb,                  name: libleveldb }
+- { setname: leveldb,                  name: lib$0 }
 - { setname: leveldb,                  name: leveldb-mcpe, addflavor: mcpe }
 - { setname: lexicon,                  name: [python:dns-lexicon, dns-lexicon] }
 - { setname: lgogdownloader,           name: lgogdownloader-qt5, addflavor: true }
@@ -106,7 +106,7 @@
 - { setname: lightdm,                  name: [lightdm-guest,liblightdm-qt4-guest,liblightdm-qt5-guest] }
 - { setname: lightdm-gtk-greeter,      name: [lightdm-gtk,lightdm-gtk2-greeter,lightdm-gtk3-greeter] }
 - { setname: lightdm-gtk-greeter,      name: lightdm-gtk-greeter-devel, weak_devel: true, nolegacy: true }
-- { setname: lightning,                name: liblightning }
+- { setname: lightning,                name: lib$0 }
 - { setname: lightsoff,                name: gnome-games-lightsoff }
 - { setname: lightyears,               name: 20kly }
 - { setname: lilypond,                 name: lilypond-devel-docs, addflavor: docs, weak_devel: true, nolegacy: true }
@@ -122,7 +122,7 @@
 - { setname: linux-predator,           name: [linux-predator-docs,linux-predator-headers], addflavor: true }
 - { setname: linuxsampler,             name: linuxsampler-vst, addflavor: true }
 - { setname: lipsofsuna,               name: lips-of-suna }
-- { setname: liquid-dsp,               name: libliquid-dsp }
+- { setname: liquid-dsp,               name: lib$0 }
 - { setname: liquidshell,              name: [kde-liquidshell,kde5-liquidshell] }
 - { setname: liquidwar,                name: liquidwar5 }
 - { setname: liquidwar6,               name: liquid-war-6 }
@@ -140,12 +140,12 @@
 - { setname: lls,                      name: [list-listening-sockets, rust:lls] }
 - { setname: lm-sensors,               name: lm-sensors-max-of-fctemps, addflavor: true }
 - { setname: lm-sensors,               name: lm-sensors3 }
-- { setname: lmdb,                     name: liblmdb }
+- { setname: lmdb,                     name: lib$0 }
 - { setname: lmdb++,                   name: lmdbxx }
 - { setname: local-log4j-vuln-scanner, name: log4j-vuln-scanner }
 - { setname: localai,                  name: local-ai }
 - { setname: localsearch,              name: tracker-miners, outdated: true } # renamed
-- { setname: log4cpp,                  name: liblog4cpp }
+- { setname: log4cpp,                  name: lib$0 }
 - { setname: log4cpp,                  name: log4cpp-rc, weak_devel: true, nolegacy: true }
 - { setname: log4cxx,                  name: apache-log4cxx }
 - { setname: log4j,                    namepat: "(?:apache-|java-)?log4j[0-9.-]*(-mini|-eap6|-api|-core)?", addflavor: $1 }
@@ -169,7 +169,7 @@
 - { setname: lossless-cut,             name: losslesscut-bin, addflavor: bin }
 - { setname: lostpixels,               name: blinkensisters-with-addons }
 - { setname: loudmouth,                name: loudmouth-ossl, addflavor: openssl }
-- { setname: loudmouth,                name: libloudmouth }
+- { setname: loudmouth,                name: lib$0 }
 - { setname: love,                     namepat: "love(?:-legacy)?[0-9.-]+" }
 - { setname: love,                     name: love2d }
 - { setname: lowfi,                    name: rust:$0 }
@@ -206,7 +206,7 @@
 - { setname: lucene,                   namepat: "lucene[0-9.-]+" }
 - { setname: lucene,                   name: apache-lucene }
 - { setname: lucene++,                 name: [luceneplusplus,liblucene++] }
-- { setname: lucky-commit,             name: rust:lucky-commit }
+- { setname: lucky-commit,             name: rust:$0 }
 - { setname: lugaru,                   name: openlugaru }
 - { setname: lugaru-data,              name: openlugaru-data }
 - { setname: lumail,                   name: lumail2 }
@@ -251,7 +251,7 @@
 - { setname: lyrionmusicserver,        name: perl:slimserver }
 - { setname: lyrionmusicserver,        name: slimserver } # still used as repository name
 - { setname: lyx,                      name: lyx1 }
-- { setname: lz4,                      name: liblz4 }
+- { setname: lz4,                      name: lib$0 }
 - { setname: lz4json,                  name: lz4jsoncat }
 - { setname: lzham,                    name: lzham-codec }
 - { setname: lzma,                     name: [lzma-sdk, lzma-alone, lzma-sdk457] }

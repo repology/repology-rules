@@ -2,18 +2,18 @@
 
 - { setname: d-spy,                    name: dspy }
 - { setname: daktilo,                  name: rust:$0 }
-- { setname: damo,                     name: "python:damo" }
+- { setname: damo,                     name: python:$0 }
 - { setname: dankmaterialshell,        name: [dms-shell, dank-material-shell] }
 - { setname: danksearch,               name: dsearch }
 - { setname: dapl,                     name: compat-dapl }
 - { setname: dapl,                     name: [dapl-native,dapl-debug], addflavor: true }
-- { setname: darcs,                    name: "haskell:darcs" }
+- { setname: darcs,                    name: haskell:$0 }
 - { setname: darktable,                name: darktable-rc, weak_devel: true, nolegacy: true } # AUR "RC/Stable version" nonsense
 - { setname: dart,                     name: dart-1.x }
 - { setname: dart,                     name: dart-sdk }
 - { setname: dart,                     name: [dart-dev, dart-sdk-dev], weak_devel: true, nolegacy: true }
 - { setname: dart,                     name: dartsim }
-- { setname: dart,                     name: libdart, addflavor: lib }
+- { setname: dart,                     name: lib$0, addflavor: lib }
 - { setname: dart-sass,                name: $0-js, addflavor: true }
 - { setname: darwinbuild,              name: $0-legacy }
 - { setname: dash,                     name: [dash-static,dash-static-musl], addflavor: true }
@@ -23,10 +23,10 @@
 - { setname: date,                     name: [howard-hinnant-date, howardhinnant-date] }
 - { setname: date,                     name: libdate-tz, addflavor: true }
 - { setname: dav,                      name: dav-text }
-- { setname: dav1d,                    name: libdav1d }
+- { setname: dav1d,                    name: lib$0 }
 - { setname: dave-gnukem,              name: [gnukem, davegnukem] }
 - { setname: davis,                    name: rust:$0 }
-- { setname: davs2,                    name: libdavs2 }
+- { setname: davs2,                    name: lib$0 }
 - { setname: dawn,                     name: [dawn-writer, dawn-simple] } # different projects, split in 850
 - { setname: db,                       name: [berkeley-db, compat-db, bdb, bdb33] }
 - { setname: db,                       name: [java-db3, bdb-java, bdb33-java, libdb-java-4-8, db46-java, db48-java, java-berkeleydb], addflavor: java }
@@ -58,8 +58,8 @@
 - { setname: dcw-gmt,                  name: gmt-dcw }
 - { setname: ddcci-driver-linux,       name: [ddcci-driver, ddcci-driver-linux-dkms, dkms-ddcci-driver-linux] }
 - { setname: ddclient,                 name: ddclient-ipv6, addflavor: true }
-- { setname: ddclient,                 name: "perl:ddclient" }
-- { setname: ddgr,                     name: "python:ddgr", addflavor: python }
+- { setname: ddclient,                 name: perl:$0 }
+- { setname: ddgr,                     name: python:$0, addflavor: python }
 - { setname: ddh,                      name: rust:$0 }
 - { setname: ddrescue,                 name: [gddrescue,gnu-ddrescue] }
 - { setname: ddskk,                    name: [emacs-common-ddskk,"emacs:ddskk"] }
@@ -72,26 +72,26 @@
 - { setname: dell-unified-driver,      name: [dell-unified-driver-common,dell-unified-driver-printer,dell-unified-driver-scanner,dell-unified-printer-driver], addflavor: true }
 - { setname: deltachat-cursed,         name: python:$0 }
 - { setname: deltachat-desktop,        name: deltachat-electron }
-- { setname: deluge,                   name: [deluge-cli, "python:deluge"], addflavor: true }
+- { setname: deluge,                   name: [deluge-cli, python:$0], addflavor: true }
 - { setname: deluge,                   name: deluge1 }
 - { setname: deluge,                   name: delugebeta, weak_devel: true, nolegacy: true }
-- { setname: delve,                    name: go:delve }
+- { setname: delve,                    name: go:$0 }
 - { setname: dendrite,                 name: matrix-dendrite }
-- { setname: deno,                     name: ["rust:deno","rust:deno-cli","rust:deno-core"], addflavor: true }
+- { setname: deno,                     name: [rust:deno, rust:deno-cli, rust:deno-core], addflavor: true }
 - { setname: deptry,                   name: python:$0 }
 - { setname: derby,                    name: derby-server }
-- { setname: desed,                    name: "rust:desed" }
+- { setname: desed,                    name: rust:$0 }
 - { setname: destination-sol,          name: destinationsol }
 - { setname: devdocs,                  name: [devdocs-desktop, devdocs-app] } # split in 850
 - { setname: devede,                   name: devedeng }
 - { setname: devhelp,                  name: devhelp-gtk2, addflavor: gtk2 }
 - { setname: devil,                    name: [devil-ilut,devil-ilut-vanilla], addflavor: true }
-- { setname: devil,                    name: libdevil }
+- { setname: devil,                    name: lib$0 }
 - { setname: dexed,                    name: [dexed-gtk2,dexed-qt4,dexed-qt5], addflavor: true }
-- { setname: dfrs,                     name: "rust:dfrs" }
+- { setname: dfrs,                     name: rust:$0 }
 - { setname: dftd4,                    name: python:$0 }
 - { setname: dgen-sdl,                 name: dgen }
-- { setname: dhall,                    name: "haskell:dhall" }
+- { setname: dhall,                    name: haskell:$0 }
 - { setname: dhcp,                     name: [dhclient,isc-dhclient,isc-dhcp], addflavor: client }
 - { setname: dhcp,                     name: [isc-dhcpd], addflavor: server }
 - { setname: dhcp,                     name: [isc-dhcrelay], addflavor: relay }
@@ -107,7 +107,7 @@
 - { setname: dictd,                    name: colorit, addflavor: true }
 - { setname: die,                      name: die-engine }
 - { setname: diffenator2,              name: python:$0 }
-- { setname: diffoscope,               name: "python:diffoscope" }
+- { setname: diffoscope,               name: python:$0 }
 - { setname: difftastic,               name: rust:$0 }
 - { setname: diffutils,                name: gdiff }
 - { setname: digitalbitbox,            name: [dbb-app,dbb-cli,digital-bitbox-app] }
@@ -126,9 +126,9 @@
 - { setname: discount,                 name: [discount2, libmarkdown2], addflavor: true }
 - { setname: discover,                 name: discover-snap, addflavor: snap }
 - { setname: discover,                 name: discover-git, weak_devel: true, nolegacy: true }
-- { setname: discover-overlay,         name: "python:discover-overlay" }
+- { setname: discover-overlay,         name: python:$0 }
 - { setname: diskdev-cmds,             name: [hfsprogs, hfsplus-tools, hfstools] }
-- { setname: diskonaut,                name: "rust:diskonaut" }
+- { setname: diskonaut,                name: rust:$0 }
 - { setname: distcc,                   name: [distcc-gnome,distcc-gtk,distcc-monitor,distcc-nozeroconf,distcc-pump,distcc-server], addflavor: true }
 - { setname: distorm,                  name: [distorm3, distorm64, "python:distorm", "python:distorm3" ] }
 - { setname: distribution,             name: docker-$0 } # split in 850
@@ -140,7 +140,7 @@
 - { setname: dkms,                     name: dkms-sorted, addflavor: sorted }
 - { setname: dlfcn,                    name: dlfcn-win32 }
 - { setname: dlib,                     name: [dlib-cpp,libdlib] }
-- { setname: dlib,                     name: ["python:dlib", "python:dlib-cuda"], addflavor: true }
+- { setname: dlib,                     name: [python:$0, python:$0-cuda], addflavor: true }
 - { setname: dmd,                      namepat: "dmd[0-9.-]+" }
 - { setname: dmenu-wayland,            name: dmenu-wl }
 - { setname: dnf,                      name: [dnf4, dnf5] } # different projects in fact, split in 850
@@ -167,11 +167,11 @@
 - { setname: doge,                     name: python:$0 } # split in 850
 - { setname: doge,                     name: [dogedns, dns-doge, rust:dns-doge] } # split in 850
 - { setname: dogecoin,                 name: [dogecoind,dogecoin-qt,dogecoin-daemon] }
-- { setname: dogtail,                  name: [dogtail3, "python:dogtail"] }
+- { setname: dogtail,                  name: [dogtail3, python:$0] }
 - { setname: doh-cli,                  name: python:$0 }
-- { setname: doh-proxy,                name: "rust:doh-proxy" }
-- { setname: doh-proxy,                name: "rust:libdoh", addflavor: libdoh }
-- { setname: doit,                     name: "python:doit" }
+- { setname: doh-proxy,                name: rust:$0 }
+- { setname: doh-proxy,                name: rust:libdoh, addflavor: libdoh }
+- { setname: doit,                     name: python:$0 }
 - { setname: dolfinx,                  name: ["python:fenics-dolfinx", fenics-dolfinx] }
 - { setname: dolphin,                  name: [dolphin-dev, dolphin-beta], weak_devel: true, nolegacy: true }
 - { setname: dolphin-emu,              name: [dolphin-emu4, dolphinemu, dolphin-emulator] }
@@ -216,49 +216,49 @@
 - { setname: drbd,                     name: kernel-modules-drbd9-talos, addflavor: talos }
 - { setname: drbd-utils,               name: [drbd90-utils, drbd84-utils, drbd9x-utils] }
 - { setname: drbl,                     name: drbl-experimental, ignore: true }
-- { setname: dreampie,                 name: "python:dreampie" }
+- { setname: dreampie,                 name: python:$0 }
 - { setname: drgeo,                    name: drgeo1 }
-- { setname: drgn,                     name: "python:drgn" }
+- { setname: drgn,                     name: python:$0 }
 - { setname: drill,                    name: rust:$0 }
 - { setname: drkonqi,                  name: drkonqi5 }
 - { setname: drpython,                 name: drpython-py27 }
 - { setname: drumkv1,                  name: drumkv1-lv2 }
 - { setname: drumstick,                name: [drumstick0, libdrumstick] }
 - { setname: drupal,                   namepat: "drupal[0-9.-]+" }
-- { setname: drupal,                   name: "php:drupal" }
+- { setname: drupal,                   name: php:$0 }
 - { setname: ds9,                      name: ds9-bin, addflavor: true }
 - { setname: ds9,                      name: saods9 }
 - { setname: dspam,                    name: [dspam-mysql,dspam-pgsql,dspam-web] }
-- { setname: dssim,                    name: "rust:dssim" }
+- { setname: dssim,                    name: rust:$0 }
 - { setname: dtc,                      name: [device-tree-compiler,device-tree-compiler-1.4.2,dtc-git-patched] }
 - { setname: dtools,                   name: [d-tools,dlang-tools,dmd-tools] }
 - { setname: dtorrent,                 name: [enhanced-ctorrent,enhanced-ctorrent-dhn,enhancedctorrent,ctorrent-dnh] }
 - { setname: dtrace-toolkit,           name: dtracetoolkit }
-- { setname: du-dust,                  name: "rust:du-dust" }
-- { setname: dua-cli,                  name: [dua, "rust:dua-cli"] }
+- { setname: du-dust,                  name: rust:$0 }
+- { setname: dua-cli,                  name: [dua, rust:$0] }
 - { setname: duktape,                  name: [duktape-lib,libduktape] }
 - { setname: dumb,                     name: [aldumb, dumb-allegro], addflavor: allegro }
-- { setname: dumb,                     name: libdumb }
-- { setname: dummyhttp,                name: "rust:dummyhttp" }
+- { setname: dumb,                     name: lib$0 }
+- { setname: dummyhttp,                name: rust:$0 }
 - { setname: dump1090,                 name: [dump1090-fa, dump1090-mutability, dump1090-mictronics ] } # github fork chain antirez (points to MalcolmRobb) → MalcolmRobb (last commit in 2014) → mutability (points to FlightAware) → flightaware (maintained, latest version 3.6.3 in Sep 2018) → mictronics (??? 2017)
-- { setname: dune,                     name: "ocaml:dune" }
+- { setname: dune,                     name: ocaml:$0 }
 - { setname: dungeon-crawl,            name: dungeoncrawl }
 - { setname: dunst,                    name: dunst-wayland, addflavor: true }
 - { setname: duplicati,                name: duplicati-latest }
-- { setname: duplicati,                name: [duplicati2-beta,duplicati-canary,duplicati-beta], weak_devel: true, nolegacy: true }
+- { setname: duplicati,                name: [duplicati2-beta, duplicati-canary, duplicati-beta], weak_devel: true, nolegacy: true }
 - { setname: duplicity,                name: python:$0 }
 - { setname: dustrac,                  name: [dust-racing-2d, dustracing2d] }
-- { setname: dutree,                   name: "rust:dutree" }
+- { setname: dutree,                   name: rust:$0 }
 - { setname: duviz,                    name: python:$0 }
 - { setname: dvb-apps,                 name: linuxtv-$0 }
-- { setname: "dvd+rw-tools",           name: [dvdrw-tools,dvd-rw-tools,dvd+rwtools] }
+- { setname: dvd+rw-tools,             name: [dvdrw-tools,dvd-rw-tools,dvd+rwtools] }
 - { setname: dwarf-fortress,           name: dwarffortress }
 - { setname: dwarf-fortress,           name: linux-dwarffortress }
 - { setname: dwarf-fortress,           name: [dwarffortress-ironhand, dwarffortress-phoebus, dwarffortress-spacefox], addflavor: true }
 - { setname: dwatch,                   name: python:$0 } # split in 850
-- { setname: dwm,                      name: [blackarch-dwm,dwm-keycodes,dwm-pango], addflavor: true }
-- { setname: dwm-status,               name: "rust:dwm-status" }
-- { setname: dxvk,                     name: libdxvk }
+- { setname: dwm,                      name: [blackarch-dwm, dwm-keycodes, dwm-pango], addflavor: true }
+- { setname: dwm-status,               name: rust:$0 }
+- { setname: dxvk,                     name: lib$0 }
 - { setname: dxvk,                     name: [dxvk-mingw, dxvk-msvc, dxvk-native, wine-dxvk], addflavor: true }
 - { setname: dynamips,                 name: dynamips-community, ruleset: freebsd }
 - { setname: dysk,                     name: rust:$0 }

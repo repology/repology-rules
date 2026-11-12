@@ -8,7 +8,7 @@
 - { setname: k9s,                      name: k9scli }
 - { setname: kactivities-stats,        name: kactivities5-stats }
 - { setname: kafka,                    name: apache-kafka }
-- { setname: kaitai-struct,            name: [kaitai-struct-compiler,kaitai-struct-visualizer,"python:kaitaistruct","ruby:kaitai-struct","python:python-kaitaistruct"], addflavor: true }
+- { setname: kaitai-struct,            name: [kaitai-struct-compiler, kaitai-struct-visualizer, python:kaitaistruct, ruby:kaitai-struct, python:python-kaitaistruct], addflavor: true } # XXX: check for module misnames
 - { setname: kak-lsp,                  name: [kakoune-lsp, rust:kak-lsp] }
 - { setname: kak-lsp,                  name: kak-lsp-bin, addflavor: true }
 - { setname: kamailio,                 name: kamailio-5.x } # openwrt
@@ -48,14 +48,14 @@
 - { setname: keybase-client,           name: keybase-desktop }
 - { setname: keybinder,                namepat: "(lib)?keybinder[0-9.-]*", addflavor: $1 }
 - { setname: keybinder,                name: [keybinder-gtk3,keybinder-python,"lua:keybinder","python:keybinder","python:keybinder2"], addflavor: true }
-- { setname: keystone,                 name: "python:keystone" }
+- { setname: keystone,                 name: python:$0 }
 - { setname: keystore-explorer,        name: keystoreexplorer }
 - { setname: keyutils,                 name: lib$0 }
 - { setname: khronos-api,              name: [khronos-opengl-registry,glcorearb] }
 - { setname: ki,                       name: [ki-shell, kotlin-interactive-shell] }
 - { setname: kibana,                   name: kibana-bin }
 - { setname: kibana,                   namepat: "kibana[0-9]+" }
-- { setname: kibi,                     name: "rust:kibi" }
+- { setname: kibi,                     name: rust:$0 }
 - { setname: kicad,                    name: kicad-devel, weak_devel: true, nolegacy: true }
 - { setname: kicad,                    name: kicad-rc, weak_devel: true, nolegacy: true }
 - { setname: kicad-doc,                name: kicad-docs }
@@ -77,7 +77,7 @@
 - { setname: kitscenarist,             name: scenarist } # XXX: problem
 - { setname: kitty,                    name: [kitty-shell-integration, kitty-terminfo, kitty-bin, kitty-shade-transparency-patch,kitty-bitmap], addflavor: true }
 - { setname: kittysay,                 name: rust:$0 }
-- { setname: kiwi,                     name: "python:kiwi" } # totally intermixed, split in 850
+- { setname: kiwi,                     name: python:$0 } # totally intermixed, split in 850
 - { setname: kiwix-desktop,            name: kiwix }
 - { setname: klaus,                    name: python:$0 }
 - { setname: klavaro,                  name: rust:$0 }
@@ -85,7 +85,7 @@
 - { setname: klotski,                  name: gnome-games-klotski }
 - { setname: kmix,                     name: $0-legacy }
 - { setname: kmldonkey,                name: kde4-kmldonkey }
-- { setname: kmon,                     name: "rust:kmon" }
+- { setname: kmon,                     name: rust:$0 }
 - { setname: knock,                    name: knockd }
 - { setname: knock,                    name: knockpy }
 - { setname: knock,                    name: knockd-ipv6, addflavor: ipv6 }
@@ -99,22 +99,22 @@
 - { setname: kodi,                     name: [kodi-gbm, kodi-wayland], addflavor: true }
 - { setname: kodi,                     name: [kodi-stable] }
 - { setname: koffice-l10n,             namepat: "koffice-l10n-.*", ruleset: pkgsrc }
-- { setname: koka,                     name: haskell:koka } # XXX: problem
+- { setname: koka,                     name: haskell:$0 } # XXX: problem
 - { setname: kokkos,                   name: [$0-legacy, lib$0] }
 - { setname: kokkos-kernels,           name: $0-legacy }
 - { setname: kommit,                   name: gitklient } # former name: https://github.com/HamedMasafi/GitKlient
 - { setname: kompozer-i18n,            namepat: "kompozer-i18n-.*", ruleset: arch }
-- { setname: kondo,                    name: "rust:kondo" }
+- { setname: kondo,                    name: rust:$0 }
 - { setname: kongress,                 name: kongress-git, weak_devel: true, nolegacy: true }
 - { setname: kops,                     name: [kops21, kubernetes-kops] }
 - { setname: kops,                     name: kops-beta, weak_devel: true, nolegacy: true }
 - { setname: kora-icon-theme,          name: korla-icon-theme } # renamed
 - { setname: kotlin,                   name: kotlin-bin, addflavor: true }
 - { setname: kpat,                     name: kpatience } # XXX: problem
-- { setname: kpmcore,                  name: libkpmcore }
+- { setname: kpmcore,                  name: lib$0 }
 - { setname: kqoauth,                  name: [kqoauth-qt4,kqoauth-qt5,libkqoauth-qt5], addflavor: true }
-- { setname: kqoauth,                  name: libkqoauth }
-- { setname: kramdown-rfc,             name: [kramdown-rfc2629, "ruby:kramdown-rfc", "ruby:kramdown-rfc2629"] }
+- { setname: kqoauth,                  name: lib$0 }
+- { setname: kramdown-rfc,             name: [kramdown-rfc2629, ruby:kramdown-rfc, ruby:kramdown-rfc2629] }
 - { setname: kratos,                   name: [go-kratos, ory-kratos] } # split in 850
 - { setname: krb5,                     namepat: "krb5-[0-9]+" }
 - { setname: krb5,                     name: [libkrb5,krb5-mini], addflavor: true }
@@ -136,7 +136,7 @@
 - { setname: ktexttemplate,            name: grantlee } # converted into kde project
 - { setname: ktexttemplate,            name: [grantlee-qt4,grantlee-qt5,grantlee5,libgrantlee], addflavor: true }
 - { setname: ktexttemplate,            name: libgrantlee, addflavor: lib }
-- { setname: ktoblzcheck,              name: libktoblzcheck }
+- { setname: ktoblzcheck,              name: lib$0 }
 - { setname: kubernetes,               name: [kube-apiserver,kube-controller-manager,kube-proxy,kube-scheduler], addflavor: true }
 - { setname: kubernetes,               name: [kubeadm,kubeadm-beta], addflavor: kubeadm }
 - { setname: kubernetes,               name: [kubectl,kubectl-beta,kubernetes-kubectl], addflavor: kubectl }
@@ -159,6 +159,6 @@
 - { setname: kvirc,                    name: kvirc-git-nokde, weak_devel: true, nolegacy: true, addflavor: nokde }
 - { setname: kxl,                      name: lib$0 }
 - { setname: kxml,                     name: kxml2 }
-- { setname: kye,                      name: "python:kye" }
+- { setname: kye,                      name: python:$0 }
 - { setname: kyotocabinet,             name: kyoto-cabinet }
 - { setname: kyototycoon,              name: kyoto-tycoon }

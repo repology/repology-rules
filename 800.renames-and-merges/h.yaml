@@ -6,10 +6,10 @@
 - { setname: hackrf,                   name: hackrf-devel, weak_devel: true, nolegacy: true }
 - { setname: hackrf,                   name: [hackrf-tools, hackrf-host], addflavor: true }
 - { setname: haconiwa,                 name: python:$0 }
-- { setname: hadolint,                 name: "haskell:$0" }
+- { setname: hadolint,                 name: haskell:$0 }
 - { setname: hadolint,                 name: $0-bin, addflavor: true }
 - { setname: hadoop,                   name: hadoop2 }
-- { setname: haiti,                    name: ["ruby:haiti-hash", haiti-hash] }
+- { setname: haiti,                    name: [ruby:haiti-hash, haiti-hash] }
 - { setname: half,                     name: rocm-half }
 - { setname: hamachi,                  name: logmein-hamachi }
 - { setname: hamster-time-tracker,     name: hamster-time-tracker-legacy }
@@ -17,12 +17,12 @@
 - { setname: handbrake,                name: [$0-dev, $0-snapshot], weak_devel: true, nolegacy: true }
 - { setname: handbrake,                name: [$0-cli-snapshot], weak_devel: true, nolegacy: true, addflavor: cli }
 - { setname: handlr,                   name: [xdg-utils-handlr, handlr-regex, rust:handlr-regex] } # handlr-regex is the alive fork; original project is abandoned
-- { setname: hangups,                  name: "python:hangups" }
+- { setname: hangups,                  name: python:$0 }
 - { setname: happy,                    name: haskell:$0 }
 - { setname: haproxy,                  namepat: "haproxy[0-9.-]*" }
 - { setname: haproxy,                  name: haproxy-devel, weak_devel: true, nolegacy: true }
 - { setname: haproxy-dataplaneapi,     name: dataplaneapi }
-- { setname: haraka,                   name: "node:haraka" }
+- { setname: haraka,                   name: node:$0 }
 - { setname: hardcpy,                  name: rust:$0 }
 - { setname: hardinfo2,                name: hardinfo }
 - { setname: hardlink,                 name: hardlink-osx }
@@ -31,16 +31,16 @@
 - { setname: hashcat,                  name: hashcat-legacy }
 - { setname: hasktags,                 name: haskell:$0 }
 - { setname: hasktags,                 name: hasktags-static, addflavor: true }
-- { setname: hatch,                    name: "python:hatch" }
-- { setname: hatchling,                name: "python:hatchling" }
+- { setname: hatch,                    name: python:$0 }
+- { setname: hatchling,                name: python:$0 }
 - { setname: haunt,                    name: guile-haunt }
 - { setname: haxe,                     name: haxe2 }
 - { setname: haxe,                     name: haxe-bin, addflavor: bin }
-- { setname: hck,                      name: "rust:hck" }
+- { setname: hck,                      name: rust:$0 }
 - { setname: hdf,                      name: hdf4 }
 - { setname: hdf,                      name: [hdf4-alt,hdf4-nonetcdf], addflavor: true }
 - { setname: hdf5,                     namepat: "hdf5[0-9.-]*(gnu.*)", addflavor: $1 }
-- { setname: hdf5,                     name: libhdf5 }
+- { setname: hdf5,                     name: lib$0 }
 - { setname: hdf5,                     namepat: "hdf5[0-9.-]+" }
 - { setname: hdf5,                     name: hdf5-18-cpp-fortran, addflavor: cpp-fortran }
 - { setname: hdf5,                     name: [hdf5-c++,hdf5-cpp,hdf5-cpp-fortran,hdf5-fortran,hdf5-mpi,hdf5-mvapich2,hdf5-openmpi,hdf5-openmpi-java,hdf5-parallel-openmpi,hdf5-salome,hdf5-threadsafe,hdf5-mpich,hdf5-openmpi1,hdf5-openmpi2,hdf5-openmpi3,hdf5-java], addflavor: true }
@@ -53,10 +53,10 @@
 - { setname: helm,                     namepat: "helm[0-9.-]+" }
 - { setname: helm,                     name: helm-vst, addflavor: vst }
 - { setname: help-hannahs-horse,       name: hannah, ruleset: debuntu } # recheck
-- { setname: helvum,                   name: "rust:helvum" }
+- { setname: helvum,                   name: rust:$0 }
 - { setname: hepmc,                    name: [hepmc2,hepmc3] }
 - { setname: hererocks,                name: python:$0 }
-- { setname: hermes,                   name: libhermes }
+- { setname: hermes,                   name: lib$0 }
 - { setname: hermes,                   name: [$0-desktop, $0-agent-desktop] }
 - { setname: hermes-agent,             name: python:$0 }
 - { setname: heroic,                   name: heroic-bin, addflavor: true }
@@ -66,20 +66,20 @@
 - { setname: hexchat,                  name: hexchat-python2, addflavor: python2 }
 - { setname: hexd-esr,                 name: [hexdumpu,hexdump-esr] }
 - { setname: hexdiff,                  name: visual-hexdiff }
-- { setname: hexyl,                    name: "rust:hexyl" }
+- { setname: hexyl,                    name: rust:$0 }
 - { setname: hg-evolve,                name: python:$0 }
 - { setname: hgflow,                   name: hg-flow }
-- { setname: hgrep,                    name: "rust:hgrep" }
+- { setname: hgrep,                    name: rust:$0 }
 - { setname: hibernate,                name: [hibernate3, hibernate4, hibernate5, "java:hibernate3"] }
 - { setname: hibiscus,                 name: hibiscus-nightly, weak_devel: true, nolegacy: true }
 - { setname: hicolor-icon-theme,       name: [hicolor-icons, icon-theme-hicolor] }
-- { setname: hidapi,                   name: libhidapi }
+- { setname: hidapi,                   name: lib$0 }
 - { setname: higan,                    name: higan-qt, addflavor: true }
 - { setname: highs,                    name: coin-or-highs }
 - { setname: highway,                  name: [libhighway, google-highway, libhwy] }
 - { setname: hikounomizu,              name: hikou-no-mizu }
 - { setname: hiredis,                  name: hiredis0.12 }
-- { setname: hiredis,                  name: libhiredis, addflavor: true }
+- { setname: hiredis,                  name: lib$0, addflavor: true }
 - { setname: hitori,                   name: gnome-games-hitori }
 - { setname: hledger$1,                namepat: "haskell:hledger(.*)" } # note: has overlapping reverse rule in 800.renames-and-merges.haskell
 - { setname: hlint,                    name: haskell:$0 }
@@ -102,10 +102,10 @@
 - { setname: html2text,                name: html2text-with-utf8 }
 - { setname: htmldoc,                  name: htmldoc-x11, addflavor: true }
 - { setname: htop,                     name: [htop-blueweb,htop-solarized,htop-temperature,htop-temperature-rpi,htop-vim,htop-vim-solarized], addflavor: true }
-- { setname: http-parser,              name: libhttp-parser }
+- { setname: http-parser,              name: lib$0 }
 - { setname: hugin,                    name: [hugin-app,hugin-tools], addflavor: true }
 - { setname: hugo,                     name: [hugo.extended, hugo-extended], addflavor: extended }
-- { setname: hugo,                     name: [go:hugo,gohugo,hu-go] } # different projects, split in 850 
+- { setname: hugo,                     name: [go:hugo,gohugo,hu-go] } # different projects, split in 850
 - { setname: hugs,                     name: hugs98 }
 - { setname: huhnitor,                 name: $0-snap }
 - { setname: human-theme-gtk,          name: human-gtk-theme }

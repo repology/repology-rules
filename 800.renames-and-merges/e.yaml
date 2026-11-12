@@ -45,7 +45,7 @@
 - { setname: eid-mw,                   name: [beid-middleware,beid,libbeid] }
 - { setname: eid-viewer,               name: eid-viewer-bin }
 - { setname: eigen,                    namepat: "eigen[0-9.-]+(-doc)?", addflavor: $1 }
-- { setname: eigen,                    name: libeigen }
+- { setname: eigen,                    name: lib$0 }
 - { setname: eigen,                    name: libeigen2-devel, weak_devel: true, nolegacy: true }
 - { setname: eigenpy,                  name: [python:$0, ros:noetic-$0] }
 - { setname: einstein,                 name: einstein-puzzle, ruleset: pkgsrc }
@@ -58,10 +58,10 @@
 - { setname: elbcli,                   name: elb-tools }
 - { setname: electricfence,            name: electric-fence }
 - { setname: electron,                 namepat: "electron[0-9]+" }
-- { setname: electron,                 name: "node:electron" }
+- { setname: electron,                 name: node:$0 }
 - { setname: electron,                 name: electron-beta, weak_devel: true, nolegacy: true }
 - { setname: electron,                 name: electron-nightly-npm, addflavor: npm, weak_devel: true, nolegacy: true }
-- { setname: electrum,                 name: "python:electrum" }
+- { setname: electrum,                 name: python:$0 }
 - { setname: element-desktop,          name: [element.io, element-web, element-desktop] }
 - { setname: element-desktop,          name: [riot, riot-desktop, riot-web] } # former name
 - { setname: element-desktop,          name: [element-desktop-nightly,riot-desktop-nightly,riot-web-develop], weak_devel: true, nolegacy: true }
@@ -71,7 +71,7 @@
 - { setname: elementary-xfce-icon-theme, name: [elementary-xfce, elementary-xfce-icons, icon-theme-elementary-xfce, xfce-icons-elementary] }
 - { setname: elements,                 name: elementsd }
 - { setname: elf2nucleus,              name: rust:$0 }
-- { setname: elfcat-ruslashev,         name: "rust:elfcat" }
+- { setname: elfcat-ruslashev,         name: rust:elfcat }
 - { setname: elfutils,                 name: [elfutils-libelf, elfutils-debuginfod, elfutils-libs], addflavor: true }
 - { setname: elinks,                   name: elinks-small, addflavor: true }
 - { setname: elisa,                    name: elisa-player }
@@ -79,7 +79,7 @@
 - { setname: elixir,                   name: elixir-doc, addflavor: doc }
 - { setname: elixir,                   name: elixir-devel, weak_devel: true, nolegacy: true }
 - { setname: elkcode,                  name: elk-chemistry }
-- { setname: elm-format,               name: "haskell:elm-format" }
+- { setname: elm-format,               name: haskell:$0 }
 - { setname: elm-format,               namepat: "elm-format[0-9.-]+(?:-exp)?" }
 - { setname: elm-lang,                 name: elm-platform }
 - { setname: elm-mua,                  name: elm-me, addflavor: me }
@@ -91,16 +91,16 @@
 - { setname: elvis,                    name: elvis-erlang } # different projects, split in 850
 - { setname: elxocmcorekit,            name: elxocmcorekit-legacy }
 - { setname: emacs-mmm-mode,           name: emacs-mmm }
-- { setname: emborg,                   name: "python:emborg" }
+- { setname: emborg,                   name: python:$0 }
 - { setname: embree,                   name: [embree2,embree3,embree4] }
 - { setname: emby,                     name: emby-server }
 - { setname: emby,                     name: emby-server-beta, ignore: true }
 - { setname: emkatic,                  name: [emkatic-gtk2,emkatic-qt5], addflavor: true }
-- { setname: emlop,                    name: "rust:emlop" }
+- { setname: emlop,                    name: rust:$0 }
 - { setname: emocli,                   name: rust:$0 }
 - { setname: emoslib,                  name: [emos, libemos] }
 - { setname: emotion-generic-players,  name: emotiongenericplayers }
-- { setname: emplace,                  name: "rust:emplace" }
+- { setname: emplace,                  name: rust:$0 }
 - { setname: empty,                    name: empty-expect }
 - { setname: emptyclip,                name: empty-clip }
 - { setname: emptyepsilon,             name: empty-epsilon }
@@ -139,7 +139,7 @@
 - { setname: epson-inkjet-printer-escpr, name: epson-escpr }
 - { setname: epsxe,                    name: epsxe1.9 }
 - { setname: epy,                      name: python:epy-reader }
-- { setname: epydoc,                   name: "python:epydoc" }
+- { setname: epydoc,                   name: python:$0 }
 - { setname: eralchemy,                name: python:$0 }
 - { setname: erd,                      name: haskell:$0 }
 - { setname: ergo,                     name: [ergo-irc-server, ergoscf, ergochat] } # different projects, split in 850
@@ -148,16 +148,16 @@
 - { setname: eric,                     namepat: "([a-z]{2})-eric[0-9]", addflavor: $1 } # freebsd l10n ports
 - { setname: eric,                     namepat: "eric-(i18n-.*)", addflavor: $1 }
 - { setname: eric,                     name: [eric6-qt4, eric6-qt5], addflavor: true }
-- { setname: eric,                     name: "python:eric-ide" }
+- { setname: eric,                     name: python:eric-ide }
 - { setname: eris,                     name: lib$0 }
 - { setname: erkale,                   name: erkale-serial, addflavor: true }
-- { setname: erlang,                   name: "erlang:wx", addflavor: wx } # part of
+- { setname: erlang,                   name: erlang:wx, addflavor: wx } # part of
 - { setname: erlang,                   name: [emacs:erlang, emacs:erlang-mode], addflavor: emacs } # part of
-- { setname: "erlang:cl",              name: cl }
-- { setname: "erlang:esdl",            name: ["erlang:sdl",esdl] }
+- { setname: erlang:cl,                name: cl }
+- { setname: erlang:esdl,              name: [erlang:sdl, esdl] } # XXX: is there official modile name? if yes, is one of erlang: ones misnamed?
 - { setname: es,                       name: es-shell }
 - { setname: es-de,                    name: emulationstation-de }
-- { setname: esbuild,                  name: "go:github-evanw-esbuild" }
+- { setname: esbuild,                  name: go:github-evanw-esbuild }
 - { setname: espanso,                  name: [espanso-wayland, espanso-x11], addflavor: true }
 - { setname: espanso,                  name: espanso-pre, weak_devel: true, nolegacy: true }
 - { setname: espeak,                   name: espeak-ng } # successor
@@ -179,7 +179,7 @@
 - { setname: etw,                      name: eat-the-whistle }
 - { setname: etw,                      name: etw-data, addflavor: data }
 - { setname: eudev,                    name: [eudev-debug,eudev-libudev,eudev-with-hwdb,libeudev], addflavor: true }
-- { setname: eureka-ideas,             name: "rust:eureka" }
+- { setname: eureka-ideas,             name: rust:eureka }
 - { setname: eventlog,                 name: libevtlog }
 - { setname: everything,               name: everythingse, addflavor: true }
 - { setname: everything,               name: everything.beta, weak_devel: true, nolegacy: true }
@@ -189,15 +189,15 @@
 - { setname: evolution-etesync,        name: $0-legacy }
 - { setname: evolver,                  name: [surface-evolver, surfaceevolver] }
 - { setname: evopedia,                 name: evopedia-qt, addflavor: qt }
-- { setname: exa,                      name: "rust:exa" }
+- { setname: exa,                      name: rust:$0 }
 - { setname: exabayes,                 name: exabayes-mpi, addflavor: true }
 - { setname: exact-image,              name: exactimage }
 - { setname: exaile,                   name: exaile-devel, weak_devel: true, nolegacy: true }
-- { setname: excalibar,                name: libexcalibar, addflavor: lib }
-- { setname: exempi,                   name: libexempi }
-- { setname: exercism-cli,             name: [exercism,"go:github-exercism-cli"] }
-- { setname: exiftool,                 name: [image-exiftool, "perl:image-exiftool"] }
-- { setname: exiftool,                 name: "perl:image-exiftool-devel", weak_devel: true, nolegacy: true }
+- { setname: excalibar,                name: lib$0, addflavor: lib }
+- { setname: exempi,                   name: lib$0 }
+- { setname: exercism-cli,             name: [exercism, go:github-exercism-cli] }
+- { setname: exiftool,                 name: [image-exiftool, perl:image-$0] }
+- { setname: exiftool,                 name: perl:image-exiftool-devel, weak_devel: true, nolegacy: true }
 - { setname: exim,                     name: exim4 }
 - { setname: exim,                     name: [exim-doc, exim-doc-html, exim-doc-pdf, exim-doc-postscript, eximdoc4, exim-html], addflavor: true }
 - { setname: exim,                     name: [exim-gnutls, exim-heavy, exim-monitor, exim-mysql, exim-postgresql, exim-ldap2, exim-sqlite, exim-sa-exim], addflavor: true }
@@ -212,6 +212,6 @@
 - { setname: extension-manager,        name: gnome-shell-extension-manager }
 - { setname: extremetuxracer,          name: [etracer,extreme-tuxracer,extreme-tux-racer] }
 - { setname: exuberant-ctags,          name: [ectags,exctags,exuberantctags] }
-- { setname: eyed3,                    name: "python:eyed3" }
+- { setname: eyed3,                    name: python:$0 }
 - { setname: eyed3,                    name: eye-d3 }
 - { setname: eza,                      name: rust:$0 }

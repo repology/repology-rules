@@ -13,7 +13,7 @@
 - { setname: jakarta-activation,       name: [jakarta-activation1, jakarta-activation2] }
 - { setname: jakarta-mail,             name: [javamail,jakarta-mail1,java-mail,javax-mail,java-javax-mail] }
 - { setname: jakarta-messaging,        name: [javax.jms, javax-jms-api] } # not quote apparent, trusting the report here: https://repology.org/project/javax-jms-api/report
-- { setname: jansson,                  name: libjansson }
+- { setname: jansson,                  name: lib$0 }
 - { setname: jaq,                      name: rust:$0 }
 - { setname: jasper,                   name: [libjasper,jasper-libs] }
 - { setname: jasper,                   name: jasper-doc, addflavor: docs }
@@ -35,7 +35,7 @@
 - { setname: jellyfish,                name: jellyfish-pythonbound, addflavor: true }
 - { setname: jellyfish,                name: jellyfish-k-mer } # disambiguated into the same name later
 - { setname: jellyfish,                name: jellyfish1 }
-- { setname: jemalloc,                 name: libjemalloc }
+- { setname: jemalloc,                 name: lib$0 }
 - { setname: jena,                     name: apache-jena }
 - { setname: jena,                     name: apache-jena-fuseki }
 - { setname: jenkins,                  name: [jenkins-experimental,jenkins-bin], addflavor: true }
@@ -47,13 +47,13 @@
 - { setname: jetty,                    name: [jetty-minimal, jetty-websocket], addflavor: true }
 - { setname: jfrog-cli,                name: jfrog }
 - { setname: jira-cli,                 name: [jira-cli-go, "python:jira-cli"] }
-- { setname: jitsi,                    name: "jitsi-nightly", weak_devel: true, nolegacy: true }
-- { setname: jitsi-meet,               name: "jitsi-meet-nightly", weak_devel: true, nolegacy: true }
-- { setname: jitsi-meet-prosody,       name: ["jitsi-meet-prosody-nightly", "jitsi-prosody-plugins"] }
-- { setname: jitsi-meet-turnserver,    name: "jitsi-meet-turnserver-nightly", weak_devel: true, nolegacy: true }
-- { setname: jitsi-videobridge,        name: ["jitsi-videobridge-nightly", "jitsi-videobridge2"] }
+- { setname: jitsi,                    name: $0-nightly, weak_devel: true, nolegacy: true }
+- { setname: jitsi-meet,               name: $0-nightly, weak_devel: true, nolegacy: true }
+- { setname: jitsi-meet-prosody,       name: [$0-nightly, jitsi-prosody-plugins] }
+- { setname: jitsi-meet-turnserver,    name: $0-nightly, weak_devel: true, nolegacy: true }
+- { setname: jitsi-videobridge,        name: [$0-nightly, jitsi-videobridge2] }
 - { setname: jlatexmath,               name: [jlatexmath-fop, libjlatexmath-java], addflavor: true }
-- { setname: jless,                    name: "rust:jless" }
+- { setname: jless,                    name: rust:$0 }
 - { setname: jnv,                      name: rust:$0 }
 - { setname: jnv,                      name: $0-bin, addflavor: true }
 - { setname: jogl,                     name: [jogamp-jogl,jogl2,libjogl-java,libjogl2-java] }
@@ -74,12 +74,12 @@
 - { setname: jp,                       name: json-plot }
 - { setname: jpeg,                     name: [jpeg,libjpeg,jpeg-turbo,libjpeg-turbo,turbojpeg,libjpeg+legacy,libjpeg6-ijg] }
 - { setname: jpeg,                     namepat: "libjpeg[0-9]+([a-z]|-turbo)?" }
-- { setname: jpeg-xl,                  name: libjpeg-xl }
-- { setname: jpylyzer,                 name: "python:jpylyzer" }
+- { setname: jpeg-xl,                  name: lib$0 }
+- { setname: jpylyzer,                 name: python:$0 }
 - { setname: jql,                      name: rust:$0 }
-- { setname: jquery-ui,                name: [jqueryui, "js:jquery-ui"] }
-- { setname: jreen,                    name: libjreen }
-- { setname: jreen,                    name: [jreen-qt5,libjreen-qt5], addflavor: qt5 }
+- { setname: jquery-ui,                name: [jqueryui, js:$0] }
+- { setname: jreen,                    name: lib$0 }
+- { setname: jreen,                    name: [jreen-qt5, libjreen-qt5], addflavor: qt5 }
 - { setname: jrnl,                     name: python:$0 }
 - { setname: jrsonnet,                 name: [$0-cli, rust:$0-cli] }
 - { setname: js-beautify,              name: jsbeautifier }
@@ -88,10 +88,10 @@
 - { setname: json-c,                   name: [json-c12,json-c0.12,libjson0,libjson-c] }
 - { setname: json-c,                   name: emscripten-json-c, addflavor: emscripten }
 - { setname: json-glib,                name: [libjson-glib,json-glib1.0] }
-- { setname: json-spirit,              name: libjson-spirit }
-- { setname: jsoncpp,                  name: libjsoncpp }
+- { setname: json-spirit,              name: lib$0 }
+- { setname: jsoncpp,                  name: lib$0 }
 - { setname: jsongrep,                 name: rust:$0 }
-- { setname: jsonrpc-glib,             name: libjsonrpc-glib }
+- { setname: jsonrpc-glib,             name: lib$0 }
 - { setname: jss,                      name: mozilla-jss }
 - { setname: jts,                      name: [jts-core, java-jts, jts1.14] }
 - { setname: juci++,                   name: jucipp }
@@ -108,7 +108,7 @@
 - { setname: jungledisk,               name: [junglediskserver,junglediskservermanagement,junglediskworkgroup], addflavor: true }
 - { setname: junit,                    name: [junit3,junit4,java-junit,junit5] }
 - { setname: junit,                    name: junit-bin, addflavor: true }
-- { setname: junitxml2subunit,         name: "rust:junitxml2subunit" }
-- { setname: jupyter-server,           name: "python:jupyter-server" }
+- { setname: junitxml2subunit,         name: rust:$0 }
+- { setname: jupyter-server,           name: python:$0 }
 - { setname: just,                     name: rust:$0 }
 - { setname: jxrlib,                   name: libjxr }

@@ -10,7 +10,7 @@
 - { setname: c-lightning,              name: clightning }
 - { setname: c-lolcat,                 name: lolcat-c } # as per PKGBUILD from upstream repo
 - { setname: c2hs,                     name: haskell:$0 }
-- { setname: c2nim,                    name: "nim:$0" }
+- { setname: c2nim,                    name: nim:$0 }
 - { setname: ca-certificates,          name: [ca-certs, cacert, ca-certificates-cacert, ca-cacert, cacerts] }
 - { setname: ca-certificates-mozilla,  name: [ca-certificates-mozilla-prebuilt], addflavor: true }
 - { setname: cabal-fmt,                name: haskell:$0 }
@@ -49,16 +49,16 @@
 - { setname: caligula,                 name: rust:$0 }
 - { setname: calligra-l10n,            namepat: "calligra-l10n-(.*)", addflavor: $1 }
 - { setname: calligraplan,             name: calligra-plan }
-- { setname: camlp5,                   name: "ocaml:camlp5" }
+- { setname: camlp5,                   name: ocaml:$0 }
 - { setname: camlp5,                   name: camlp5-transitional, addflavor: true }
 - { setname: candy-icons,              name: candy-icon-theme }
-- { setname: canlock,                  name: libcanlock }
+- { setname: canlock,                  name: lib$0 }
 - { setname: canna,                    name: [canna-lib, canna-server], addflavor: true }
 - { setname: canta-theme,              name: [canta-gtk-themes, canta-gtk-theme] }
 - { setname: canta-theme,              name: canta-icon-theme, addflavor: icons }
 - { setname: cantera,                  name: cantera-docs, addflavor: true }
 - { setname: canvas-downloader,        name: rust:$0 }
-- { setname: capistrano,               name: "ruby:capistrano" }
+- { setname: capistrano,               name: ruby:$0 }
 - { setname: capnproto,                name: [capnp,capnproto-0.6,capnproto1] }
 - { setname: capstone,                 name: capstone4 }
 - { setname: carburetor,               name: python:$0 }
@@ -129,7 +129,7 @@
 - { setname: cargo-tarpaulin,          name: rust:$0 }
 - { setname: cargo-udeps,              name: rust:$0 }
 - { setname: cargo-update,             name: rust:$0 }
-- { setname: cargo-vendor,             name: [rust:$0,rust-toolset-7-cargo-vendor] }
+- { setname: cargo-vendor,             name: [rust:$0, rust-toolset-7-cargo-vendor] }
 - { setname: cargo-vendor-filterer,    name: rust:$0 }
 - { setname: cargo-vet,                name: rust:$0 }
 - { setname: cargo-wasi,               name: rust:$0 }
@@ -162,18 +162,18 @@
 - { setname: cattle,                   name: cattle-1.0 }
 - { setname: cavezofphear,             name: [cavez-of-phear, phear] }
 - { setname: cbatticon,                name: cbatticon-gtk2, addflavor: gtk2 }
-- { setname: cbindgen,                 name: ["rust:cbindgen",rust-cbindgen] } # XXX: rust-cbindgen is the only rust-* in FreeBSD, may need to add global rule if there are more
+- { setname: cbindgen,                 name: [rust:$0, rust-$0] } # XXX: rust-cbindgen is the only rust-* in FreeBSD, may need to add global rule if there are more
 - { setname: cblas,                    name: cblas-reference, addflavor: docs }
 - { setname: cblas,                    name: cblas-tmg, addflavor: tmg }
 - { setname: cbor-tool,                name: haskell:$0 }
 - { setname: ccache,                   name: [ccache-memcached,ccache-memcached-static,ccache-static], addflavor: true } # freebsd subpackages
 - { setname: ccache,                   name: ccache4 }
-- { setname: ccaudio2,                 name: libccaudio2 }
-- { setname: ccfits,                   name: libccfits }
+- { setname: ccaudio2,                 name: lib$0 }
+- { setname: ccfits,                   name: lib$0 }
 - { setname: ccid,                     name: [libccid,pcsc-ccid,pcsc-driver-ccid,pcsc-lite-ccid,pcsclite-driver-ccid] }
 - { setname: ccl,                      name: [clozure-cl,clozurecl,cigi-ccl] } # different projects, split in 850
 - { setname: ccnet,                    name: ccnet-client }
-- { setname: ccrtp,                    name: libccrtp }
+- { setname: ccrtp,                    name: lib$0 }
 - { setname: ccsm,                     name: ccsm-gtk3, addflavor: true }
 - { setname: ccsm,                     name: ccsm0.8 }
 - { setname: ccze,                     name: ccze-rv }
@@ -217,7 +217,7 @@
 - { setname: cfr,                      name: cfr-decompiler }
 - { setname: cgal,                     name: [cgal-headers,cgal-ipelets], addflavor: true }
 - { setname: cgal,                     name: [cgal4,cgal5,cgal9] }
-- { setname: cgif,                     name: libcgif }
+- { setname: cgif,                     name: lib$0 }
 - { setname: cglib,                    name: cglib3 }
 - { setname: cglm,                     name: lib$0 }
 - { setname: cgns,                     name: [libcgns,cgnslib] }
@@ -242,9 +242,9 @@
 - { setname: check-lm-sensors,         name: [nagios-check-lm-sensors, nagios-plugin-check-lm-sensors] }
 - { setname: checkpwn,                 name: rust:$0 }
 - { setname: cheese,                   name: compat-cheese314 }
-- { setname: chef,                     name: ["ruby:chef", "ruby:chef12"] }
-- { setname: chef-dk,                  name: ["ruby:chef-dk", chefdk] }
-- { setname: chef-zero,                name: ["ruby:chef-zero", "ruby:chef-zero5"] }
+- { setname: chef,                     name: [ruby:$0, ruby:chef12] }
+- { setname: chef-dk,                  name: [ruby:$0, chefdk] }
+- { setname: chef-zero,                name: [ruby:$0, ruby:chef-zero5] }
 - { setname: chess-db,                 name: pychess-db } # XXX: problem
 - { setname: chez-scheme,              name: [chez, chezscheme] }
 - { setname: chicken,                  name: [chicken5,chicken-scheme] }
@@ -254,7 +254,7 @@
 - { setname: chirp,                    name: [chirp-next, chirp-daily] }
 - { setname: chisel,                   name: [chisel-jpillora, chisel-tunnel, chisel-common-binaries] } # split in 850
 - { setname: chmlib,                   name: libchm }
-- { setname: choose,                   name: ["rust:choose", choose-rust] }
+- { setname: choose,                   name: [rust:$0, $0-rust] }
 - { setname: chowtapemodel,            name: chow-tape-model }
 - { setname: chr,                      name: [chr-editor, rust:chr] } # different projects, split int 850
 - { setname: chromaprint,              name: [chromaprint-fftw, chromaprint-tools, libchromaprint], addflavor: true }
@@ -267,14 +267,14 @@
 - { setname: circleci-cli,             name: circleci }
 - { setname: citra,                    name: citra-qt5, addflavor: true }
 - { setname: citron,                   name: rust:$0 }
-- { setname: cityhash,                 name: libcityhash }
-- { setname: cjson,                    name: libcjson }
-- { setname: ck,                       name: libck }
+- { setname: cityhash,                 name: lib$0 }
+- { setname: cjson,                    name: lib$0 }
+- { setname: ck,                       name: lib$0 }
 - { setname: ckeditor,                 name: ckeditor3 }
 - { setname: ckermit,                  name: [c-kermit] }
 - { setname: cl-alexandria,            name: [cl-alexandria-ccl, cl-alexandria-clisp, cl-alexandria-sbcl, clasp-alexandria, ecl-alexandria, sbcl-alexandria], addflavor: true }
 - { setname: cl-asdf,                  name: uiop, addflavor: true }
-- { setname: clalsadrv,                name: libclalsadrv }
+- { setname: clalsadrv,                name: lib$0 }
 - { setname: clamav,                   name: [clamav-server,clamav-light,clamav-doc,clamav-milter,clamav-nodb], addflavor: true }
 - { setname: clamav,                   name: clamav-legacy }
 - { setname: clanbomber,               name: clanbomber2 }
@@ -296,25 +296,25 @@
 - { setname: clipboard,                name: clipboard-jh }
 - { setname: clipgrab,                 name: clipgrab-qt5, addflavor: true }
 - { setname: clipit,                   name: clipit-gtk3, addflavor: gtk3 }
-- { setname: clipper,                  name: libclipper }
+- { setname: clipper,                  name: lib$0 }
 - { setname: clippy,                   name: [rust-clippy, rust:clippy, rust:clippy-lints] }
 - { setname: clisp,                    name: [clisp-bdb,clisp-fastcgi,clisp-gdbm,clisp-gtk2,clisp-mit-clx,clisp-new-clx,clisp-pari,clisp-pcre,clisp-pgsql,clisp-rawsock,clisp-syscalls,clisp-wildcard,clisp-zlib], addflavor: true }
 - { setname: cln,                      name: [cln6, libcln] }
-- { setname: clog-changelog,           name: [clog-cli, "rust:clog-cli"] }
+- { setname: clog-changelog,           name: [clog-cli, rust:clog-cli] }
 - { setname: clojure,                  namepat: "clojure[0-9.]+" }
 - { setname: clonezilla,               name: $0-unstable, weak_devel: true, nolegacy: true }
 - { setname: cloog,                    name: [cloog-isl,cloog-isl14], addflavor: isl }
 - { setname: cloog-ppl,                name: cloog-ppl-gcc4, addflavor: gcc4 }
-- { setname: cloud-init,               name: "python:cloud-init" }
+- { setname: cloud-init,               name: python:$0 }
 - { setname: cloudflare-ddns,          name: python:$0 }
 - { setname: cloudflared,              name: $0-bin, addflavor: bin }
 - { setname: cloudfoundry-cli,         name: [cloudfoundry6-cli, cf-cli] }
 - { setname: cloudfoundry-cli,         name: cf-cli-test, addflavor: test }
 - { setname: clucene,                  name: [clucene09,clucene-core,libclucene,libclucene-core] }
 - { setname: clue,                     name: [rust:clue, rust:clue-core], addflavor: true }
-- { setname: clufter,                  name: "python:clufter" }
+- { setname: clufter,                  name: python:$0 }
 - { setname: clustalw,                 name: clustal-w }
-- { setname: clusterssh,               name: [cssh, "perl:app-clusterssh"] }
+- { setname: clusterssh,               name: [cssh, perl:app-$0] }
 - { setname: clutter,                  namepat: "clutter[0-9.-]+" }
 - { setname: clutter-gst,              namepat: "clutter-gst[0-9.-]+" }
 - { setname: clutter-gtk,              namepat: "clutter-gtk[0-9.-]+" }
@@ -323,13 +323,13 @@
 - { setname: cmdpack,                  namepat: "cmdpack-[a-z0-9]+" }
 - { setname: cmigemo,                  name: cmigemo-dict, addflavor: dict }
 - { setname: cminpack,                 name: lib$0 }
-- { setname: cmrt,                     name: libcmrt }
+- { setname: cmrt,                     name: lib$0 }
 - { setname: cmucl,                    name: [cmucl-binary,cmucl-extra], addflavor: true }
 - { setname: cnagios,                  name: cnagios4 }
 - { setname: cnagios,                  name: [cnagios-nagios3, cnagios-nagios4], addflavor: true }
-- { setname: cni,                      name: [containernetworking-cni, "go:github-containernetworking-cni"] }
-- { setname: cni-plugins,              name: [containernetworking-plugins, "go:github-containernetworking-plugins"] }
-- { setname: cntk,                     name: "python:cntk" }
+- { setname: cni,                      name: [containernetworking-cni, go:github-containernetworking-cni] }
+- { setname: cni-plugins,              name: [containernetworking-plugins, go:github-containernetworking-plugins] }
+- { setname: cntk,                     name: python:$0 }
 - { setname: coal,                     name: [hpp-fcl, python:hpp-fcl] } # renamed
 - { setname: cockatrice,               name: [cockatrice-client,cockatrice-server] }
 - { setname: cockpit,                  name: cockpit-minimal, addflavor: true }
@@ -338,10 +338,10 @@
 - { setname: code2prompt,              name: rust:$0 }
 - { setname: codeblocks,               name: [codeblocks-gcc,codeblocks-full], addflavor: true }
 - { setname: codeblocks,               name: codeblocks-devel, weak_devel: true, nolegacy: true }
-- { setname: codec2,                   name: libcodec2 }
+- { setname: codec2,                   name: lib$0 }
 - { setname: codelite,                 name: codelite-unstable, weak_devel: true, nolegacy: true }
 - { setname: codelobster,              name: $0-ide }
-- { setname: codespell,                name: "python:codespell" }
+- { setname: codespell,                name: python:$0 }
 - { setname: codex,                    name: openai-codex }
 - { setname: coffee-script,            name: coffeescript } # XXX: problem
 - { setname: cog,                      name: cog-wpe } # ambiguous target name, split in 850
@@ -377,25 +377,25 @@
 - { setname: colorcode,                name: color-code }
 - { setname: colord,                   name: compat-colord10 }
 - { setname: colord,                   name: [$0-nopolkit,$0-sane,$0-minimal], addflavor: true }
-- { setname: colord-gtk,               name: libcolord-gtk }
+- { setname: colord-gtk,               name: lib$0 }
 - { setname: colord-gtk,               name: colord-gtk4, addflavor: true }
 - { setname: colorls,                  name: ruby:$0 }
 - { setname: colorpicker,              name: [colorpicker-ym1234, color-picker, colorpicker-keshavbhatt] } # split in 850
-- { setname: coloursum,                name: "rust:coloursum" }
+- { setname: coloursum,                name: rust:$0 }
 - { setname: comedilib,                name: libcomedi }
 - { setname: commandergenius,          name: [cgenius, commander-genius] }
 - { setname: commoncpp2,               name: [commoncpp,libcommoncpp2] }
 - { setname: compiz,                   name: [compiz-core,compiz-gtk] }
 - { setname: compiz,                   namepat: "compiz[0-9.-]+" }
-- { setname: compizconfig-python,      name: "python:compizconfig-python" }
+- { setname: compizconfig-python,      name: python:$0 }
 - { setname: complexity,               name: gnu-complexity }
 - { setname: composer,                 namepat: "composer[0-9.-]+" }
-- { setname: compp,                    name: "python:compp" }
+- { setname: compp,                    name: python:$0 }
 - { setname: compsize,                 name: btrfs-compsize }
-- { setname: comrak,                   name: "rust:comrak" }
+- { setname: comrak,                   name: rust:$0 }
 - { setname: concordance,              name: concordance-cli } # XXX: misnamed?
 - { setname: concurrencykit,           name: concurrency-kit }
-- { setname: conda,                    name: "python:conda" }
+- { setname: conda,                    name: python:$0 }
 - { setname: conduit,                  name: [matrix-conduit, rust:matrix-conduit] }
 - { setname: conky,                    name: conky19 }
 - { setname: conky,                    name: [conky-all,conky-audacious,conky-awesome,conky-cairo,conky-cli,conky-lua,conky-lua-archers,conky-lua-nv,conky-mt,conky-nvidia,conky-utfscroll,conky-cairo-no-nvidia], addflavor: true }
@@ -409,16 +409,16 @@
 - { setname: console,                  name: console2 }
 - { setname: console-bridge,           name: ros-console-bridge }
 - { setname: consolekit,               name: consolekit2 }
-- { setname: containers-common,        name: [libcontainers-common,"go:github-containers-common"] }
+- { setname: containers-common,        name: [libcontainers-common, go:github-containers-common] }
 - { setname: contao,                   namepat: "php[0-9]*:contao[0-9.-]*" }
 - { setname: continuwuity,             name: matrix-$0 }
 - { setname: cookcli,                  name: [cook-cli, rust:$0] }
 - { setname: cookiecutter,             name: python:$0 }
 - { setname: cooklang-chef,            name: rust:$0 }
 - { setname: coolreader,               name: [coolreader3, cool-reader] }
-- { setname: copydeps,                 name: "rust:copydeps" }
+- { setname: copydeps,                 name: rust:$0 }
 - { setname: copyq,                    name: [copyq-qt5, copyq-qt6], addflavor: true }
-- { setname: "coq:gappalib",           name: ["coq:gappa",gappalib-coq] }
+- { setname: coq:gappalib,             name: [coq:gappa, gappalib-coq] }
 - { setname: coreboot,                 name: [coreboot-utils,coreboot-tools,coreboot-toolchain], addflavor: true }
 - { setname: coreboot,                 name: [acpidump-all,amdfwtool,cbfstool,cbmem,ectool,ifdtool,intelmetool,inteltool,msrtool,nvramtool,superiotool], addflavor: true }
 - { setname: coreutils,                name: coreutils-gnu }
@@ -441,14 +441,14 @@
 - { setname: cpcm-x,                   name: cpcmx }
 - { setname: cpio,                     name: [gcpio, cpio-gnu] }
 - { setname: cpmtools,                 name: cpmtools2 }
-- { setname: cpp-hocon,                name: libcpp-hocon }
+- { setname: cpp-hocon,                name: lib$0 }
 - { setname: cpp-httplib,              name: cpp-httplib-compiled, addflavor: true }
 - { setname: cppcheck,                 name: [cppcheck-nox,cppcheck-gui,cppcheck-fixed], addflavor: true }
 - { setname: cpprestsdk,               name: [cpprest,casablanca] }
-- { setname: cpptest,                  name: libcpptest }
-- { setname: cppunit,                  name: libcppunit }
+- { setname: cpptest,                  name: lib$0 }
+- { setname: cppunit,                  name: lib$0 }
 - { setname: cppzmq,                   name: [cppzmq-devel, libzeromq-cpp-devel], weak_devel: true, nolegacy: true } # not entirely sure whether -devel means unstable package or package for development
-- { setname: cpr,                      name: libcpr }
+- { setname: cpr,                      name: lib$0 }
 - { setname: cproxy,                   name: rust:$0 }
 - { setname: cpu-features,             name: [cpufeatures, google-cpu-features] }
 - { setname: cpu-features,             name: libcpufeatures, addflavor: lib }
@@ -482,19 +482,19 @@
 - { setname: crystal,                  name: crystal-bin, addflavor: bin }
 - { setname: crystal-icr,              name: icr }
 - { setname: crystalhd,                name: [crystalhd-kmod,crystalhd-libs,crystalhd-modules,firmware-crystalhd,libcrystalhd], addflavor: true }
-- { setname: csfml,                    name: libcsfml }
+- { setname: csfml,                    name: lib$0 }
 - { setname: csharp-mode.el,           name: csharp-mode }
 - { setname: csound,                   name: [csound5, csound6] }
 - { setname: csound,                   name: [csound-manual, csound5-manual, csound6-manual], addflavor: manual }
-- { setname: css-html-js-minify,       name: "python:css-html-js-minify" }
+- { setname: css-html-js-minify,       name: python:$0 }
 - { setname: cstore-fdw,               namepat: "(postgresql[0-9.-]*)-cstore-fdw", addflavor: $1 }
-- { setname: csvkit,                   name: "python:csvkit" }
+- { setname: csvkit,                   name: python:$0 }
 - { setname: csxcad,                   name: [python:csxcad, python:python-csxcad] }
 - { setname: csync,                    name: [csync-release,pam-csync], addflavor: true } # different projects, also parts of
 - { setname: ctemplate,                name: [google-ctemplate,libctemplate] }
-- { setname: ctf-party,                name: "ruby:ctf-party" }
+- { setname: ctf-party,                name: ruby:$0 }
 - { setname: ctffind,                  name: ctffind4 }
-- { setname: ctpl,                     name: libctpl }
+- { setname: ctpl,                     name: lib$0 }
 - { setname: ctpp2,                    name: ctpp }
 - { setname: ctypes.sh,                name: ctypes-sh }
 - { setname: cubosphere,               name: cubosphere-data, addflavor: data }
@@ -516,7 +516,7 @@
 - { setname: cura,                     name: [cura-old, cura-not-so-old] }
 - { setname: curaengine,               name: curaengine-beta, weak_devel: true, nolegacy: true }
 - { setname: curaengine,               name: cura-engine }
-- { setname: curlpp,                   name: libcurlpp }
+- { setname: curlpp,                   name: lib$0 }
 - { setname: curseofwar,               name: curse-of-war }
 - { setname: curseofwar,               name: curseofwar-sdl }
 - { setname: curses-hexedit,           name: [chexedit,ncurses-hexedit,nchexedit] }
@@ -532,9 +532,9 @@
 - { setname: cvsps,                    namepat: "cvsps[0-9]+" }
 - { setname: cvsweb,                   name: cvsweb3 }
 - { setname: cwidget,                  name: lib$0 }
-- { setname: cwiid,                    name: libcwiid }
+- { setname: cwiid,                    name: lib$0 }
 - { setname: cxf,                      name: apache-cxf }
-- { setname: cxxtools,                 name: libcxxtools }
+- { setname: cxxtools,                 name: lib$0 }
 - { setname: cycode,                   name: python:$0 }
 - { setname: cyphesis,                 name: cyphesis-cpp, ruleset: debuntu }
 - { setname: cyrus-imapd,              name: cyrus-imapd-ldap, addflavor: true }

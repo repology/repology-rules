@@ -6,7 +6,7 @@
 - { setname: boost,                    namepat: "boost-(msvc[0-9.-]*)", addflavor: $1 }
 - { setname: boost,                    namepat: "boost[0-9.-]*-(numpy|base|extra)", addflavor: $1 }
 - { setname: boost,                    name: [boost-base, boost-legacy-base], addflavor: base }
-- { setname: boost,                    name: libboost }
+- { setname: boost,                    name: lib$0 }
 
 # variants
 - setname: boost

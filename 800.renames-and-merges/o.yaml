@@ -2,20 +2,20 @@
 
 - { setname: oakleaf,                  name: lib$0 }
 - { setname: oath-toolkit,             name: [oath,oathtool] }
-- { setname: obby,                     name: libobby }
+- { setname: obby,                     name: lib$0 }
 - { setname: obfs4proxy,               name: obfs4 }
 - { setname: obfs4proxy,               name: obfs4proxy-behind-tor, addflavor: true }
-- { setname: obfsproxy,                name: ["python:obfsproxy", "python:obfsproxy-tor"] }
+- { setname: obfsproxy,                name: [python:$0, python:$0-tor] }
 - { setname: objectweb-asm,            namepat: "(java-|objectweb-)?asm[0-5]?" } # be sure to not include asm1825, asm6809, and asm6
 - { setname: objectweb-asm,            name: libasm4-java }
 - { setname: oblige,                   name: $0-legacy4 }
 - { setname: obs-studio,               name: [obs,open-broadcaster-software,obsstudio] }
 - { setname: obs-studio,               name: [obs-studio-small,obs-studio-vaapi], addflavor: true }
-- { setname: "ocaml:camlidl",          name: camlidl }
-- { setname: "ocaml:eliom",            name: eliom }
-- { setname: "ocaml:opam-file-format", name: opam-file-format }
+- { setname: ocaml:camlidl,            name: camlidl }
+- { setname: ocaml:eliom,              name: eliom }
+- { setname: ocaml:opam-file-format,   name: opam-file-format }
 - { setname: ocl-icd-loader,           name: khronos-ocl-icd-loader }
-- { setname: ocrmypdf,                 name: "python:ocrmypdf" }
+- { setname: ocrmypdf,                 name: python:$0 }
 - { setname: octave,                   namepat: "octave[0-9.-]+" }
 - { setname: octopi,                   name: [octopi-cachecleaner,octopi-debug,octopi-kde,octopi-notifier,octopi-notifier-frameworks,octopi-notifier-noknotify,octopi-notifier-qt5,octopi-pacmanhelper,octopi-repoeditor], addflavor: true }
 - { setname: ode,                      name: [libode,open-dynamics-engine,ode-011] }
@@ -24,9 +24,9 @@
 - { setname: odin,                     name: odin-nightly, weak_devel: true, nolegacy: true }
 - { setname: odo,                      name: odo-dev } # (note: naming, not really a devel package)
 - { setname: odoo,                     namepat: "odoo[0-9.-]+" }
-- { setname: ods2sql,                  name: "rust:ods2sql" }
+- { setname: ods2sql,                  name: rust:$0 }
 - { setname: offlineimap,              name: [offlineimap3, python:offlineimap3] }
-- { setname: offlinemsmtp,             name: "python:offlinemsmtp" }
+- { setname: offlinemsmtp,             name: python:$0 }
 - { setname: ogre,                     name: [ogre-docs,ogre-samples,python:ogre-python], addflavor: true }
 - { setname: ogre,                     name: [ogre3d,libogre,ogre3d19,ogre-legacy] }
 - { setname: ogre,                     namepat: "ogre[0-9.-]+" }
@@ -36,7 +36,7 @@
 - { setname: oils,                     name: [oils-for-unix, oilshell] }
 - { setname: olive-video-editor,       name: olive-editor }
 - { setname: ollama,                   name: [ollama-full, ollama-cuda, ollama-nogpu, ollama-rocm], addflavor: true }
-- { setname: olm,                      name: libolm }
+- { setname: olm,                      name: lib$0 }
 - { setname: olm,                      name: ["python:olm", olm-python3], addflavor: python }
 - { setname: ombi,                     name: [ombi-beta,ombi-dev] }
 - { setname: omegat,                   name: omegat-latest, nolegacy: true }
@@ -57,16 +57,16 @@
 - { setname: ooni-probe-desktop,       name: ooniprobe-desktop }
 - { setname: opa-psm2,                 name: [libpsm2, psm2] }
 - { setname: opal,                     name: [opal3,libopal] }
-- { setname: opaline,                  name: "ocaml:opaline" }
-- { setname: opam,                     name: ["ocaml:opam",opam2] }
+- { setname: opaline,                  name: ocaml:$0 }
+- { setname: opam,                     name: [ocaml:$0, opam2] }
 - { setname: open-ath9k-htc-firmware,  name: ath9k-htc-blobless-firmware }
 - { setname: open-ath9k-htc-firmware,  name: [open-ath9k-htc-firmware-k2, open-ath9k-htc-firmware-magpie], addflavor: true }
 - { setname: open-axiom,               name: openaxiom }
 - { setname: open-stage-control,       name: open-stage-control-node, addflavor: node }
 - { setname: open-vm-tools,            name: [open-vm-tools-dkms,open-vm-tools-lts-trusty,open-vm-tools-kernel], addflavor: true }
-- { setname: open3d,                   name: ["python:open3d-python", "python:open3d", "python:open3d-cpu"], addflavor: true }
+- { setname: open3d,                   name: [python:open3d-python, python:open3d, python:open3d-cpu], addflavor: true } # XXX: check for misnamed modules
 - { setname: openafs,                  name: [openafs-kernel,openafs-modules,openafs-modules-dkms] }
-- { setname: openal,                   name: libopenal }
+- { setname: openal,                   name: lib$0 }
 - { setname: openal,                   name: [openal-static,openal-examples], addflavor: true }
 - { setname: openarena,                name: [openarena-data,openarena-maps,openarena-misc,openarena-players,openarena-players-mature,openarena-server,openarena-textures], addflavor: true }
 - { setname: openarena,                name: [openarena-085-data,openarena-088-data], addflavor: data }
@@ -91,29 +91,29 @@
 - { setname: opencl-headers,           name: [khronos-opencl-headers,opencl,opencl-cpp-headers,opencl-headers-1-2,opencl-headers12,opencl2-headers] }
 - { setname: openclaw,                 name: openclaw-cli, addflavor: true }
 - { setname: opencoarrays,             name: open-coarrays }
-- { setname: opencollada,              name: libopencollada }
+- { setname: opencollada,              name: lib$0 }
 - { setname: opencolorio,              namepat: "(?:lib)?opencolorio[0-9.-]*" }
-- { setname: opencolorio,              name: [opencolorio-tools, opencolorio-qfix, "python:opencolorio"], addflavor: true }
-- { setname: opencore-amr,             name: [libopencore-amr,libopencore-amr0] }
-- { setname: "opencpn:gshhs",          name: [opencpn-plugin-gshhs,opencpn-gshhs,opencpn-gshhs-crude] }
+- { setname: opencolorio,              name: [$0-tools, $0-qfix, python:$0], addflavor: true }
+- { setname: opencore-amr,             name: [libopencore-amr, libopencore-amr0] }
+- { setname: opencpn:gshhs,            name: [opencpn-plugin-gshhs,opencpn-gshhs,opencpn-gshhs-crude] }
 - { setname: opencv,                   namepat: "(?:lib)?opencv[0-9.-]*" }
 - { setname: opencv,                   namepat: opencv-legacy }
 - { setname: opencv,                   name: [opencv2-opt, opencv3-opt], addflavor: opt }
 - { setname: opencv,                   name: [opencv-contrib-face,opencv-core,opencv-docs,opencv-cuda,opencv-java,opencv-qt5,opencv-samples], addflavor: true }
-- { setname: opendbx,                  name: libopendbx }
-- { setname: opendht,                  name: "python:opendht" }
-- { setname: opendkim,                 name: libopendkim }
+- { setname: opendbx,                  name: lib$0 }
+- { setname: opendht,                  name: python:$0 }
+- { setname: opendkim,                 name: lib$0 }
 - { setname: opendnssec,               name: opendnssec2 }
 - { setname: opendrop,                 name: python:$0 }
 - { setname: openems,                  name: [python:openems, python:python-openems] }
 - { setname: openerp,                  namepat: "openerp[0-9.-]+" }
 - { setname: openexr,                  namepat: "openexr[0-9.-]+" }
 - { setname: openexr,                  namepat: "(?:lib)?ilmbase[0-9.-]*", addflavor: ilmbase } # part of
-- { setname: openexr,                  name: "python:pyilmbase", addflavor: pyilmbase }
+- { setname: openexr,                  name: python:pyilmbase, addflavor: pyilmbase }
 - { setname: openexr-viewers,          name: openexr-viewers-nonfree, addflavor: true }
 - { setname: openfoam,                 namepat: "openfoam(-esi)?[0-9x.-]+" }
 - { setname: openfoam,                 name: [openfoam-esi,openfoam-plus,openfoam-com,openfoam-org] }
-- { setname: openh264,                 name: libopenh264 }
+- { setname: openh264,                 name: lib$0 }
 - { setname: openhab,                  name: openhab-beta, weak_devel: true, nolegacy: true }
 - { setname: openhab,                  name: openhab2 }
 - { setname: openhab-addons,           name: openhab2-addons }
@@ -140,7 +140,7 @@
 - { setname: openmsx,                  name: $0-emulator }
 - { setname: openmw,                   name: openmw-nightly, weak_devel: true, nolegacy: true }
 - { setname: opennlp,                  name: apache-opennlp }
-- { setname: openobex,                 name: libopenobex }
+- { setname: openobex,                 name: lib$0 }
 - { setname: openocd,                  name: open-ocd }
 - { setname: openoctavemidi,           name: openoctavemidi-unstable, weak_devel: true, nolegacy: true }
 - { setname: openoffice,               name: apache-openoffice }
@@ -195,21 +195,21 @@
 - { setname: opera,                    name: [opera-stable, opera-legacy, linux-opera, opera9, opera-presto, opera-blink] }
 - { setname: opera,                    name: [opera-beta, opera-developer], weak_devel: true, nolegacy: true }
 - { setname: ops2deb,                  name: python:$0 }
-- { setname: opus,                     name: libopus }
-- { setname: opusfile,                 name: libopusfile }
+- { setname: opus,                     name: lib$0 }
+- { setname: opusfile,                 name: lib$0 }
 - { setname: or-tools,                 name: [google-$0, python:$0, ortools, python:ortools] }
 - { setname: orafce,                   namepat: "(postgresql[0-9.-]*)-orafce", addflavor: $1 }
 - { setname: orage,                    name: orage-4.10 }
-- { setname: orange,                   name: [orange3, "python:orange"] }
-- { setname: orangehrm,                name: "php:orangehrm" }
+- { setname: orange,                   name: [orange3, python:$0] }
+- { setname: orangehrm,                name: php:$0 }
 - { setname: orbit2,                   name: orbit }
 - { setname: orbit2,                   name: orbit2-reference, addflavor: reference }
 - { setname: orbiton,                  name: [o, o-editor] }
 - { setname: orc,                      name: [orc0.4, liborc] }
 - { setname: orca,                     name: [gnome-orca, plotly-orca, orca3] } # split later
-- { setname: orcania,                  name: liborcania }
+- { setname: orcania,                  name: lib$0 }
 - { setname: orcaslicer,               name: orca-slicer }
-- { setname: orocos-kdl,               name: liborocos-kdl }
+- { setname: orocos-kdl,               name: lib$0 }
 - { setname: orocos-kdl,               name: [orocos-kdl-python,orocos-kdl-python2,"python:orocos-kdl","python:python-orocos-kdl"], addflavor: python }
 - { setname: ortp,                     namepat: "(?:lib)?ortp[0-9.-]*" }
 - { setname: osgearth,                 name: osgearth-qt4, addflavor: true }
@@ -219,25 +219,25 @@
 - { setname: osm-gps-map,              name: [libosmgpsmap,osm-gps-map0.7,libosm-gps-map,libosm-gps-map1.0] }
 - { setname: osm-gps-map,              name: osm-gps-map-gtk2, addflavor: gtk2 }
 - { setname: osm-gps-map,              name: osmgpsmap }
-- { setname: osm-gps-map,              name: "python:osmgpsmap", addflavor: python }
+- { setname: osm-gps-map,              name: python:osmgpsmap, addflavor: python }
 - { setname: osm2pgsql,                name: osm2pgsql-legacy }
 - { setname: osm2pgsql,                name: osm2pgsql-lua, addflavor: true }
-- { setname: ospd,                     name: [openvas-ospd, "python:ospd"] }
+- { setname: ospd,                     name: [openvas-ospd, python:$0] }
 - { setname: ossp-al,                  name: al, ruleset: openpkg }
 - { setname: ossp-cfg,                 name: cfg, ruleset: openpkg }
-- { setname: ostree,                   name: libostree }
+- { setname: ostree,                   name: lib$0 }
 - { setname: osu,                      name: [osu-lazer-bin, osu-lazer-extracted], addflavor: true }
 - { setname: osu,                      name: [osu-lazer, osulazer] }
 - { setname: otb,                      name: [orfeo-toolbox,orfeotoolbox,otb-legacy] }
 - { setname: otrs,                     name: otrs2 }
 - { setname: otter-browser,            name: otterbrowser }
-- { setname: ouch,                     name: "rust:ouch" }
+- { setname: ouch,                     name: rust:$0 }
 - { setname: owfs,                     name: libow }
 - { setname: owncloud,                 name: owncloud-server }
 - { setname: owncloud-client,          name: owncloudclient }
 - { setname: owntracks-recorder,       name: ot-recorder }
-- { setname: oxidized,                 name: "ruby:oxidized" }
-- { setname: oxipng,                   name: "rust:oxipng" }
+- { setname: oxidized,                 name: ruby:$0 }
+- { setname: oxipng,                   name: rust:$0 }
 - { setname: oxker,                    name: oxker-bin, addflavor: true }
 - { setname: oxker,                    name: rust:$0 }
 - { setname: oxygen-gtk2,              name: [oxygen-gtk+,gtk2-theme-oxygen-gtk] }

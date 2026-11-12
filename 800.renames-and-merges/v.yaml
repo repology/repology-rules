@@ -1,7 +1,7 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { setname: v,                        name: v-weekly, weak_devel: true, nolegacy: true }
-- { setname: v2ray,                    name: [v2ray-core, "go:v2ray-core"] }
+- { setname: v2ray,                    name: [v2ray-core, go:v2ray-core] }
 - { setname: v4l2loopback,             name: v4l2loopback-dkms }
 - { setname: v8,                       name: [v8-static-gyp,v8-static-gyp-5.4], addflavor: static-gyp }
 - { setname: v8,                       name: v8-devel, weak_devel: true, nolegacy: true }
@@ -22,11 +22,11 @@
 - { setname: varnish,                  namepat: "varnish[0-9.-]+" }
 - { setname: varnish,                  name: varnish-cache }
 - { setname: vault,                    name: vault-bin, addflavor: true }
-- { setname: vault-cli,                name: "python:vault-cli" } # different things in fact, split later
+- { setname: vault-cli,                name: python:$0 } # different things in fact, split later
 - { setname: vaultwarden-web,          name: [vaultwarden-vault, vaultwarden-web-vault] }
 - { setname: vbisam,                   name: lib$0 }
-- { setname: vbsmin,                   name: "ruby:vbsmin" }
-- { setname: vc,                       name: libvc } # different things, but mixed together, split in 850
+- { setname: vbsmin,                   name: ruby:$0 }
+- { setname: vc,                       name: lib$0 } # different things, but mixed together, split in 850
 - { setname: vcspull,                  name: python:$0 }
 - { setname: vcvrack,                  name: vcv-rack }
 - { setname: vde,                      name: vde2 }
@@ -40,7 +40,7 @@
 - { setname: veloren,                  name: veloren-nightly, weak_devel: true, nolegacy: true }
 - { setname: ventoy,                   name: [ventoy-bin, ventoy-gtk3, ventoy-qt5], addflavor: true }
 - { setname: vert.x,                   name: vertx }
-- { setname: veusz,                    name: "python:veusz" }
+- { setname: veusz,                    name: python:$0 }
 - { setname: veyon,                    name: [italc,italc1,italc2] } # former name
 - { setname: vhba,                     name: [vhba-module, dkms-vhba, vhba-module-dkms, vhba-kmp] }
 - { setname: vhba,                     name: kernel-source-vhba, addflavor: true }
@@ -55,12 +55,12 @@
 - { setname: vigra,                    name: vigra-doc, addflavor: doc }
 - { setname: vim-gnupg,                name: gnupg, category: app-vim, ruleset: gentoo }
 - { setname: vim-spell,                namepat: "vim-spell-.*", ruleset: [openbsd,gentoo,arch] }
-- { setname: vimv,                     name: ["rust:vimv", vimv-rs] }
-- { setname: vint,                     name: ["python:vim-vint", vim-vint] }
+- { setname: vimv,                     name: [rust:$0, $0-rs] }
+- { setname: vint,                     name: [python:vim-vint, vim-vint] }
 - { setname: vinyl-cache,              name: vinyl09 }
-- { setname: vips,                     name: libvips }
+- { setname: vips,                     name: lib$0 }
 - { setname: vips,                     name: vips-8.6.5 }
-- { setname: virglrenderer,            name: libvirglrenderer }
+- { setname: virglrenderer,            name: lib$0 }
 - { setname: virtiofsd,                name: rust:$0 }
 - { setname: virtualgl,                name: virtualgl-lib, addflavor: lib }
 - { setname: virtuoso,                 name: [virtuoso-6,virtuoso-7,virtuoso-opensource,virtuoso-ose,virtuoso6] }
@@ -74,23 +74,23 @@
 - { setname: vlc,                      name: [vlc-nightly,vlc-beta], weak_devel: true, nolegacy: true }
 - { setname: vm.lv2,                   name: vm-lv2 }
 - { setname: vmaf,                     name: [lib$0, python:$0] }
-- { setname: vmd,                      name: "node:vmd" }
+- { setname: vmd,                      name: node:$0 }
 - { setname: vmm-clock,                name: $0-lts }
 - { setname: vmware-workstation,       namepat: "vmware-workstation[0-9.-]+" }
 - { setname: vmware-workstation,       name: vmwareworkstation }
 - { setname: vnstat,                   name: vnstat2 }
 - { setname: vnstat,                   name: vnstati, addflavor: true } # openbsd subport
 - { setname: vnu,                      name: [validator-nu, validatornu ]}
-- { setname: vo-aacenc,                name: libvo-aacenc }
-- { setname: vo-amrwbenc,              name: libvo-amrwbenc }
+- { setname: vo-aacenc,                name: lib$0 }
+- { setname: vo-amrwbenc,              name: lib$0 }
 - { setname: voadi,                    name: vegan-on-a-desert-island }
 - { setname: vocabsieve,               name: python:$0 }
 - { setname: vokoscreen,               name: vokoscreen-legacy }
 - { setname: vokoscreen,               name: [vokoscreenng, vokoscreen-ng] } # former project discontinued and removed
 - { setname: volatility,               name: volatility2-bin, addflavor: bin }
-- { setname: volatility,               name: python:volatility }
-- { setname: volatility3,              name: python:volatility3 }
-- { setname: volk,                     name: libvolk }
+- { setname: volatility,               name: python:$0 }
+- { setname: volatility3,              name: python:$0 }
+- { setname: volk,                     name: lib$0 }
 - { setname: volumeicon,               name: $0-legacy }
 - { setname: volumeicon,               name: $0-gtk2, addflavor: true }
 - { setname: vpl-gpu-rt,               name: [onevpl-intel-gpu, intel-onevpl, intel-vpl-gpu-rt] }
@@ -103,7 +103,7 @@
 - { setname: vscodium,                 name: [codium,vscodium-electron] }
 - { setname: vsftpd,                   name: vsftpd-ssl, addflavor: ssl }
 - { setname: vsqlite++,                name: [libvsqlite++,libvsqlitepp,vsqlite] }
-- { setname: vss,                      name: libvss }
+- { setname: vss,                      name: lib$0 }
 - { setname: vte,                      name: [vte-common,vte-gtk2-compat,vte-gtk2-xfce,vte-gtk3,vte-reference,vte-gtk2,vte-legacy,vte-notification-common,vte3-notification,vte3-nohang,vte3-selectall], addflavor: true }
 - { setname: vte,                      namepat: "(?:lib)?vte[0-9.-]*" }
 - { setname: vte-ng,                   name: vte3-ng }
@@ -111,7 +111,7 @@
 - { setname: vtk,                      namepat: "vtk[0-9.-]*(?:-?(base|data|doc|doc-html|docs|qt4|qvtk)[0-9.-]*)?", addflavor: $1 }
 - { setname: vtk,                      name: vtk6-legacy }
 - { setname: vtk,                      name: [vtk-openmpi, vtk-openmpi2, vtk-openmpi3, vtk-openmpi4], addflavor: true }
-- { setname: vue-cli,                  name: "node:vue-cli" }
+- { setname: vue-cli,                  name: node:$0 }
 - { setname: vulkan-caps-viewer,       name: [vulkan-caps-viewer-wayland,vulkan-caps-viewer-x11], addflavor: true }
 - { setname: vulkan-extensionlayer,    name: vulkan-extension-layer }
 - { setname: vulkan-loader,            name: vulkan-icd-loader }
@@ -121,4 +121,4 @@
 - { setname: vulkan-validationlayers,  name: [vulkan-validation-layers,vulkan-layers] }
 - { setname: vuls,                     name: vuls-scanner }
 - { setname: vuze,                     name: azureus } # old name
-- { setname: vyper,                    name: "python:vyper" }
+- { setname: vyper,                    name: python:$0 }

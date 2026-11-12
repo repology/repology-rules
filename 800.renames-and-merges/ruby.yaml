@@ -2,7 +2,7 @@
 
 - { namepat: "(ruby:.*)-(rails[0-9]{2})", setname: "$1", addflavor: "$2", ruleset: freebsd }
 
-- { namepat: "ruby:rails800", addflag: not_versioned }
+- { name: ruby:rails800, addflag: not_versioned }
 
 - namepat: |
     (ruby:(?:
@@ -124,22 +124,22 @@
   noflag: not_versioned
   setname: "$1"
 
-- { setname: "ruby:http-parser.rb",    name: "ruby:http-parser-rb" }
-- { setname: "ruby:pygments.rb",       name: "ruby:pygments-rb" }
+- { setname: ruby:http-parser.rb,      name: ruby:http-parser-rb }
+- { setname: ruby:pygments.rb,         name: ruby:pygments-rb }
 
-- { setname: "ruby:bio",               name: [bioruby, "ruby:bioruby"] }
-- { setname: "ruby:bundler",           name: bundler }
-- { setname: "ruby:bundler",           namepat: "ruby[0-9.]+-bundler" }
-- { setname: "ruby:factory-bot",       name: "ruby:factory-girl" } # former name
-- { setname: "ruby:gems",              name: ["ruby:rubygems",ruby-gems,rubygems] }
-- { setname: "ruby:goocanvas",         namepat: "ruby:goocanvas[0-9.-]+" }
-- { setname: "ruby:install",           name: ruby-install }
-- { setname: "ruby:jekyll",            name: jekyll }
-- { setname: "ruby:jekyll-$1",         namepat: "jekyll-(.*)" }
-- { setname: "ruby:gosu",              name: libgosu }
-- { setname: "ruby:rails",             namepat: "rails[0-9.-]*" }
-- { setname: "ruby:rubyzip",           name: rubyzip }
-- { setname: "ruby:rubyzip",           namepat: "ruby:rubyzip-?1[0-9.-]*" } # Note: don't mix up with rubyzip2, a different package
-- { setname: "ruby:rubyzip",           name: "ruby:rubyzip20", ruleset: freebsd }
-- { setname: "ruby:poppler",           name: "ruby:ruby-poppler" }
-- { setname: "ruby:rake",              name: [rake,ruby-rake] }
+- { setname: ruby:bio,                 name: [bioruby, ruby:bioruby] }
+- { setname: ruby:bundler,             name: bundler }
+- { setname: ruby:bundler,             namepat: "ruby[0-9.]+-bundler" }
+- { setname: ruby:factory-bot,         name: ruby:factory-girl } # former name
+- { setname: ruby:gems,                name: [ruby:rubygems,ruby-gems,rubygems] }
+- { setname: ruby:goocanvas,           namepat: "ruby:goocanvas[0-9.-]+" }
+- { setname: ruby:install,             name: ruby-install }
+- { setname: ruby:jekyll,              name: jekyll }
+- { setname: ruby:jekyll-$1,           namepat: "jekyll-(.*)" }
+- { setname: ruby:gosu,                name: libgosu }
+- { setname: ruby:rails,               namepat: "rails[0-9.-]*" }
+- { setname: ruby:rubyzip,             name: rubyzip }
+- { setname: ruby:rubyzip,             namepat: "ruby:rubyzip-?1[0-9.-]*" } # Note: don't mix up with rubyzip2, a different package
+- { setname: ruby:rubyzip,             name: ruby:rubyzip20, ruleset: freebsd }
+- { setname: ruby:poppler,             name: ruby:ruby-poppler }
+- { setname: ruby:rake,                name: [rake, ruby-rake] }

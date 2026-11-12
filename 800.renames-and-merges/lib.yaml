@@ -12,8 +12,8 @@
 - { setname: libajantv2,               name: ajantv2-module, addflavor: module }
 - { setname: libappindicator,          name: [libappindicator-activate-gtk2,libappindicator-activate-gtk3,libappindicator-activate-sharp,libappindicator-gtk2,libappindicator-gtk3,libappindicator-sharp], addflavor: true }
 - { setname: libappindicator,          name: libappindicator3 }
-- { setname: libapreq2,                name: ["perl:libapreq2", "perl:ap24-libapreq2"], addflavor: perl }
-- { setname: libapreq2,                name: ["apmod:apreq",apache-apreq] }
+- { setname: libapreq2,                name: [perl:libapreq2, perl:ap24-libapreq2], addflavor: perl }
+- { setname: libapreq2,                name: [apmod:apreq, apache-apreq] }
 - { setname: libarchive,               name: libarchive-devel, weak_devel: true, nolegacy: true }
 - { setname: libarchive,               name: libarchive3 }
 - { setname: libarcus,                 name: arcus }
@@ -183,7 +183,7 @@
 - { setname: libjson-rpc-cpp,          namepat: "libjson-rpc-cpp[0-9.-]+" }
 - { setname: libjwt,                   name: [libjwt1, libjwt2, libjwt3] }
 - { setname: libjxl,                   name: [jpeg-xl, jpegxl] }
-- { setname: libjxl,                   name: "gimp:jxl", addflavor: gimp } # gimp plugin comes with the library
+- { setname: libjxl,                   name: gimp:jxl, addflavor: gimp } # gimp plugin comes with the library
 - { setname: libkdcraw,                name: libkdcraw23 }
 - { setname: libkipi,                  name: libkipi11 }
 - { setname: libkiwix,                 name: kiwix-lib }
@@ -230,7 +230,7 @@
 - { setname: libnatpmp,                name: [natpmpc, "python:libnatpmp"], addflavor: true }
 - { setname: libnet,                   namepat: "libnet[012x.-]+" } # also account for libnet-1.0.x from entware, but not libnet6 which is a different thing
 - { setname: libnice,                  namepat: "libnice-(gst.*)", addflavor: true }
-- { setname: libnice,                  name: "gstreamer:libnice", addflavor: gstreamer }
+- { setname: libnice,                  name: gstreamer:libnice, addflavor: gstreamer }
 - { setname: libnl,                    name: libnl-doc }
 - { setname: libnl,                    namepat: "libnl[0-9.-]+" }
 - { setname: libnotify,                name: [$0-gtk2, $0-gtk3], addflavor: true }
@@ -260,7 +260,7 @@
 - { setname: libpeas,                  name: [$0-loader-python3, $0-lua51, $0-luajit, python:$0, python:libpeas1], addflavor: true }
 - { setname: libpeas,                  namepat: "libpeas[0-9.-]+" }
 - { setname: libperseus-sdr,           name: perseus-sdr }
-- { setname: libphutil,                name: ["php:libphutil", libphutil-stable] }
+- { setname: libphutil,                name: [php:libphutil, libphutil-stable] }
 - { setname: libpng,                   name: [libpng-apng,libpng+apng], addflavor: apng }
 - { setname: libpng,                   name: [png,png14,libpng-compat] }
 - { setname: libpng,                   namepat: "libpng(?:-legacy)?[0-9.-]*" }
@@ -289,7 +289,7 @@
 - { setname: librdkafka,               name: rdkafka }
 - { setname: librealsense,             namepat: "librealsense[0-9.-]+" }
 - { setname: librealsense,             name: [librealsense-legacy, realsense-sdk2, realsense2] }
-- { setname: libreddit,                name: "rust:libreddit" }
+- { setname: libreddit,                name: rust:$0 }
 - { setname: librest,                  namepat: "librest[0-9.-]+" }
 - { setname: librevenge,               namepat: "librevenge[0-9.-]+" }
 - { setname: librfm,                   name: librfm5 }
@@ -403,7 +403,7 @@
 - { setname: libxml2,                  name: [$0-compat,$0-legacy] }
 - { setname: libxml2,                  namepat: "libxml[0-9.-]*" }
 - { setname: libxml2,                  name: [$0-linenum,$0-reference,$0-min,$0-tools,xmllint,$0-autotools,$0-xpath0], addflavor: true }
-- { setname: libxml2,                  name: ["python:libxml2","python:libxml2-python",libxml2+py,libxml2-python], addflavor: python }
+- { setname: libxml2,                  name: [python:libxml2, python:libxml2-python, libxml2+py, libxml2-python], addflavor: python }
 - { setname: libxml2,                  name: emscripten-libxml2, addflavor: emscripten }
 - { setname: libxmlb,                  name: libxmlb1 }
 - { setname: libxmlbird,               name: xmlbird }
@@ -411,7 +411,7 @@
 - { setname: libxpm,                   name: libxpm-nox, addflavor: true }
 - { setname: libxrender,               name: [libx32-libxrender,xorg-libxrender,xrender] }
 - { setname: libxslt,                  name: [libxslt-reference,libxslt-python,xsltproc], addflavor: true }
-- { setname: libxslt,                  name: "python:libxslt", addflavor: python }
+- { setname: libxslt,                  name: python:$0, addflavor: python }
 - { setname: libxtract,                name: libxtract0 }
 - { setname: libyaml,                  name: yaml }
 - { setname: libyang,                  name: libyang-devel, weak_devel: true, nolegacy: true }

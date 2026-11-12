@@ -1,10 +1,10 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- { setname: "ocaml:lablgtk", name: ["ocaml:lablgtk2", "ocaml:lablgtk3", lablgtk, lablgtk2, lablgtk3] }
-- { setname: "ocaml:lablgtk", name: ["ocaml:lablgtk3-gtkspell3"], addflavor: gtkspell }
-- { setname: "ocaml:lablgtk", name: ["ocaml:lablgtk3-sourceview3", "ocaml:lablgtk-sourceview"], addflavor: sourceview }
+- { setname: ocaml:lablgtk, name: [ocaml:lablgtk2, ocaml:lablgtk3, lablgtk, lablgtk2, lablgtk3] }
+- { setname: ocaml:lablgtk, name: [ocaml:lablgtk3-gtkspell3], addflavor: gtkspell }
+- { setname: ocaml:lablgtk, name: [ocaml:lablgtk3-sourceview3, ocaml:lablgtk-sourceview], addflavor: sourceview }
 
-- { setname: "ocaml:angstrom", name: ["ocaml:angstrom-async", "ocaml:angstrom-lwt-unix", "ocaml:angstrom-unix"], addflavor: true }
+- { setname: ocaml:angstrom, name: [ocaml:angstrom-async, ocaml:angstrom-lwt-unix, ocaml:angstrom-unix], addflavor: true }
 
 - name:
     - ocamlfuse
@@ -18,4 +18,4 @@
     - xstr
     - xstrp4
     - zarith
-  setname: "ocaml:$0"
+  setname: ocaml:$0

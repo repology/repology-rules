@@ -38,7 +38,7 @@
 - { setname: llvm, name: [flang-clang,flang-driver], addflavor: flang } # some legacy bits
 
 # libllvm
-- { setname: llvm, name: libllvm, addflavor: true }
+- { setname: llvm, name: lib$0, addflavor: true }
 - { setname: llvm, namepat: "libllvm[0-9.-]+", addflavor: libllvm }
 
 # libc++

@@ -1,21 +1,21 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- { setname: waf,                      name: "python:waf" }
+- { setname: waf,                      name: python:$0 }
 - { setname: waifu2x-converter-cpp,    name: waifu2x-converter-cpp-cuda, addflavor: true }
 - { setname: wakeonlan,                name: perl:$0 }
-- { setname: walinuxagent,             name: [waagent,"python:azure-agent"] }
+- { setname: walinuxagent,             name: [waagent, python:azure-agent] }
 - { setname: wallust,                  name: rust:$0 }
 - { setname: warpd,                    name: warpd-wayland, addflavor: true }
 - { setname: warzone2100,              name: warzone-2100 }
 - { setname: warzone2100,              name: warzone2100-data, addflavor: true }
 - { setname: wasm-bindgen,             name: wasm-bindgen-cli }
 - { setname: wastesedge,               name: adonthell-data }
-- { setname: watchexec,                name: "rust:watchexec-cli" }
+- { setname: watchexec,                name: rust:watchexec-cli }
 - { setname: watchlog,                 name: rust:$0 }
 - { setname: watson,                   name: td-watson }
-- { setname: wavpack,                  name: libwavpack }
+- { setname: wavpack,                  name: lib$0 }
 - { setname: wayback,                  name: wayback-x11 } # aur package name, not a flavor
-- { setname: waylandpp,                name: libwaylandpp }
+- { setname: waylandpp,                name: lib$0 }
 - { setname: wcalc,                    name: w-calc }
 - { setname: wcmcommander,             name: walcommander } # old name
 - { setname: wcmcommander,             name: wcm-commander }
@@ -29,7 +29,7 @@
 - { setname: webkitgtk,                namepat: "(?:lib)?webkit[0-9.-]*gtk[0-9.-]*-unstable", weak_devel: true, nolegacy: true }
 - { setname: webkitgtk,                namepat: "webkit[0-9.-]" } # assuming gtk
 - { setname: webkitgtk-sharp,          name: [webkitgtk-sharp3,dotnet-webkitgtk-sharp] }
-- { setname: weblate,                  name: "python:weblate" }
+- { setname: weblate,                  name: python:$0 }
 - { setname: webots,                   name: $0-nightly, weak_devel: true, nolegacy: true }
 - { setname: webrtc-audio-processing,  namepat: "(?:lib)?webrtc-audio-processing[0-9.-]*" }
 - { setname: websocketpp,              name: websocket++ }
@@ -44,7 +44,7 @@
 - { setname: wesnoth,                  name: [wesnoth-data,wesnoth-server], addflavor: true }
 - { setname: wesnoth,                  namepat: "wesnoth[0-9.-]+" }
 - { setname: wf-config,                name: lib$0 }
-- { setname: wfuzz,                    name: "python:wfuzz" }
+- { setname: wfuzz,                    name: python:$0 }
 - { setname: wget,                     name: [wget120, wget2] }
 - { setname: wget,                     name: devbox-wget }
 - { setname: wget,                     name: [wget2-no-docs], addflavor: true }
@@ -106,11 +106,11 @@
 - { setname: wlroots,                  name: [wlroots-full, wlroots-asan, wlroots-docs, wlroots-nogpu], addflavor: true }
 - { setname: wlroots,                  namepat: "(?:lib)?wlroots[0-9.-]*(-nvidia|-hidpi-xprop)?", addflavor: $1 }
 - { setname: wmii,                     name: [wmii-devel,wmii-hg], weak_devel: true, nolegacy: true }
-- { setname: wmime,                    name: libwmime }
+- { setname: wmime,                    name: lib$0 }
 - { setname: wok-plugins-kimchi,       name: wokd }
-- { setname: woob,                     name: ["python:weboob","python:woob",weboob] }
+- { setname: woob,                     name: [python:weboob, python:woob, weboob] } # XXX: check for misnamed modules
 - { setname: woob,                     name: weboob-headless, addflavor: headless }
-- { setname: woob-qt,                  name: ["python:woob-qt", "python:weboob-qt", weboob-qt] }
+- { setname: woob-qt,                  name: [python:woob-qt, python:weboob-qt, weboob-qt] } # XXX: check for misnamed modules
 - { setname: woodpecker,               name: [woodpecker-server, woodpecker-agent, woodpecker-agent-sudo, woodpecker-cli, woodpecker-plugin-git], addflavor: true }
 - { setname: wordwarvi,                name: word-war-vi }
 - { setname: worldofpadman,            name: worldofpadman-data, addflavor: data }
@@ -118,23 +118,23 @@
 - { setname: wpa-supplicant,           name: wpasupplicant }
 - { setname: wpa-supplicant,           name: [wpa-gui, wpa-supplicant-gui], addflavor: gui }
 - { setname: wpa-supplicant,           name: [wpa-supplicant-minimal,wpa-supplicant-openssl-1.0], addflavor: true }
-- { setname: wpebackend-fdo,           name: libwpebackend-fdo }
+- { setname: wpebackend-fdo,           name: lib$0 }
 - { setname: wpewebkit,                name: wpe-webkit }
 - { setname: wps-office,               name: [wpsoffice, linux-wps-office, wps-office-free] }
 - { setname: wps-office-cn,            name: wpsoffice-cn }
-- { setname: wpull,                    name: "python:wpull" }
+- { setname: wpull,                    name: python:$0 }
 - { setname: wretch,                   name: rust:$0 }
-- { setname: write-good,               name: "node:write-good" }
+- { setname: write-good,               name: node:$0 }
 - { setname: wrk,                      name: [wrk-luajit, wrk-luajit-openresty], addflavor: true }
 - { setname: wrogue,                   name: warp-rogue }
 - { setname: wt,                       name: wt3 }
 - { setname: wtdbg2,                   name: wtdbg }
-- { setname: wtfutil,                  name: "go:wtf" }
-- { setname: wv,                       name: libwv }
-- { setname: wvstreams,                name: libwvstreams }
+- { setname: wtfutil,                  name: go:wtf }
+- { setname: wv,                       name: lib$0 }
+- { setname: wvstreams,                name: lib$0 }
 - { setname: wxqt,                     namepat: "wxqt[0-9.-]+" }
 - { setname: wxqt,                     name: wxqt-dev, weak_devel: true, nolegacy: true }
 - { setname: wxsqlite3,                name: [libwxsqlite3,libwxsqlite3-wx3.0,wxsqlite3-2.8] }
-- { setname: wyoming-faster-whisper,   name: "python:wyoming-faster-whisper" }
-- { setname: wyoming-openwakeword,     name: "python:wyoming-openwakeword" }
-- { setname: wyoming-piper,            name: "python:wyoming-piper" }
+- { setname: wyoming-faster-whisper,   name: python:$0 }
+- { setname: wyoming-openwakeword,     name: python:$0 }
+- { setname: wyoming-piper,            name: python:$0 }

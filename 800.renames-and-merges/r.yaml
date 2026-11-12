@@ -2,25 +2,25 @@
 
 - { setname: r,                        name: r-lang }
 - { setname: r,                        name: [r-base,r-mkl,r-minimal,librmath,rmath-standalone,r.latest,r.project], addflavor: true }
-- { setname: r3,                       name: libr3 }
+- { setname: r3,                       name: lib$0 }
 - { setname: r8168,                    name: $0-lts }
 - { setname: ra-multiplex,             name: rust:$0 }
 - { setname: rabbitmq-c,               name: [lib$0, librabbitmq] }
 - { setname: rabbitmq-c,               name: $0-devel, weak_devel: true, nolegacy: true }
 - { setname: rabbitmq-server,          name: rabbitmq }
-- { setname: rabid,                    name: "ruby:rabid" }
+- { setname: rabid,                    name: ruby:$0 }
 - { setname: racket,                   name: [minimal-racket,racket-minimal], addflavor: minimal }
 - { setname: racket,                   name: racket-docs, addflavor: docs }
 - { setname: radare2,                  name: radare } # deprecated in favor of
 - { setname: radare2-bindings,         name: r2-bindings }
 - { setname: radarr,                   name: [$0-develop, $0-nightly], weak_devel: true, nolegacy: true }
 - { setname: radexreader,              name: python:$0 }
-- { setname: radicale,                 name: ["python:radicale","python:radicale2",radicale2] }
-- { setname: radon,                    name: "python:radon" }
+- { setname: radicale,                 name: [python:radicale, python:radicale2, radicale2] }
+- { setname: radon,                    name: python:$0 }
 - { setname: raft,                     name: [lib$0, $0-canonical, c-$0, $0-cowsql] }
-- { setname: rage-encryption,          name: "rust:rage" }
+- { setname: rage-encryption,          name: rust:rage } # XXX: setname to pre-disambiguated module
 - { setname: rage-player,              name: rageplayer }
-- { setname: ragel,                    name: [ragel-6,ragel7] }
+- { setname: ragel,                    name: [ragel-6, ragel7] }
 - { setname: ragel,                    name: ragel-dev, weak_devel: true, nolegacy: true }
 - { setname: railway,                  name: railway-gtk }
 - { setname: railway-cli,              name: [railwayapp-cli, rust:railwayapp] }
@@ -49,12 +49,12 @@
 - { setname: rclone,                   name: rclone-beta, weak_devel: true, nolegacy: true }
 - { setname: rclone-browser,           name: [rclonebrowser, kapitainsky-rclone-browser] }
 - { setname: rdesktop,                 name: rdesktop-legacy }
-- { setname: rdiff-backup,             name: "python:rdiff-backup" } # XXX: FreeBSD crap, problem
+- { setname: rdiff-backup,             name: python:$0 } # XXX: FreeBSD crap, problem
 - { setname: rdiff-backup,             name: rdiff-backup-devel, weak_devel: true, nolegacy: true }
 - { setname: rdis,                     name: rdis-git, weak_devel: true, nolegacy: true }
 - { setname: rdma-core,                name: rdma-core-no-pandoc, addflavor: true }
-- { setname: re,                       name: libre }
-- { setname: re2,                      name: libre2 }
+- { setname: re,                       name: lib$0 }
+- { setname: re2,                      name: lib$0 }
 - { setname: re2,                      name: [re2-10, re2-6] }
 - { setname: reaction,                 name: quake3-reactionq3 }
 - { setname: readarr,                  name: [$0-develop, $0-nightly], weak_devel: true, nolegacy: true }
@@ -66,13 +66,13 @@
 - { setname: realvnc-vnc-viewer,       name: realvnc-viewer }
 - { setname: rear,                     name: [rear118a,relax-and-recover] }
 - { setname: reason,                   name: [reason-cli, ocaml:reason, rust:reason-shell] } # different projects, split in 850
-- { setname: rebar,                    name: ["erlang:rebar",rebar16,rebar17,rebar19,rebar2,rebar21,erl-rebar] }
+- { setname: rebar,                    name: [erlang:$0, rebar16, rebar17, rebar19, rebar2, rebar21, erl-rebar] }
 - { setname: rebar,                    name: rebar-bin, addflavor: bin }
-- { setname: rebar3,                   name: ["erlang:rebar3",erl-rebar3] }
+- { setname: rebar3,                   name: [erlang:rebar3, erl-rebar3] }
 - { setname: rebar3,                   name: rebar3-zsh, addflavor: zsh }
 - { setname: rebuilderd,               name: rust:$0 }
 - { setname: recutils,                 name: gnu-recutils }
-- { setname: recutils,                 name: "emacs:recutils", addflavor: emacs }
+- { setname: recutils,                 name: emacs:$0, addflavor: emacs }
 - { setname: recyclarr,                name: recyclarr-cli }
 - { setname: redasm,                   name: redasm-beta, weak_devel: true, nolegacy: true }
 - { setname: redeclipse,               name: red-eclipse }
@@ -81,32 +81,32 @@
 - { setname: redis-exporter,           name: prometheus-$0 }
 - { setname: redis-plus-plus,          name: redis++ }
 - { setname: redland,                  name: [libredland,redland-mysql,redland-pgsql,redland-storage-mysql,redland-storage-postgresql,redland-storage-sqlite,redland-storage-virtuoso], addflavor: true }
-- { setname: redland-bindings,         name: "python:redland", addflavor: python }
+- { setname: redland-bindings,         name: python:redland, addflavor: python }
 - { setname: redmine-plugin-apijs,     name: ruby:redmine-apijs }
 - { setname: redo,                     name: [redo-apenwarr, apenwarr-redo, redo-python, redo-jdebp, jdebp-redo] } # multiple djb redo implementations, split in 850
 - { setname: reduce-algebra,           name: reduce-psl, addflavor: psl }
 - { setname: refine,                   name: gnome-refine }
 - { setname: relic,                    name: relic-toolkit }
 - { setname: remmina,                  name: [remmina-appindicator,remmina-gtk2,remmina-plugin-gnome,remmina-plugin-nx,remmina-plugin-rdp,remmina-plugin-telepathy,remmina-plugin-vnc,remmina-plugin-xdmcp,remmina-plugins,remmina-xfce], addflavor: true }
-- { setname: renpy,                    name: "python:renpy" }
+- { setname: renpy,                    name: python:$0 }
 - { setname: renpy,                    name: [renpy-demos,renpy-sdk], addflavor: true }
 - { setname: renpy,                    name: renpy6 }
 - { setname: repgrep,                  name: rust:$0 }
 - { setname: reposurgeon,              name: cyreposurgeon }
 - { setname: repro-env,                name: rust:$0 }
 - { setname: reptor,                   name: python:$0 }
-- { setname: resolve-march-native,     name: "python:resolve-march-native" }
-- { setname: rest,                     name: librest }
+- { setname: resolve-march-native,     name: python:$0 }
+- { setname: rest,                     name: lib$0 }
 - { setname: rest,                     namepat: "rest[0-9.-]+" }
-- { setname: resvg,                    name: [resvg-qt,resvg-cairo,"rust:resvg","rust:resvg-qt","rust:resvg-skia","rust:usvg"], addflavor: true }
+- { setname: resvg,                    name: [resvg-qt, resvg-cairo, rust:resvg, rust:resvg-qt, rust:resvg-skia, rust:usvg], addflavor: true }
 - { setname: retro12,                  name: [forth-retro,retro,retroforth] }
-- { setname: reuse,                    name: "python:reuse" }
+- { setname: reuse,                    name: python:$0 }
 - { setname: rex,                      name: [perl:rex, rex-jobcontrol, rust:rex-tui, rust:rex] } # mixed projects, split in 850
-- { setname: rhash,                    name: librhash }
+- { setname: rhash,                    name: lib$0 }
 - { setname: rhvoice,                  name: rhvoice-core, addflavor: true }
 - { setname: ri-li,                    name: li-ri } # continued project is named li-ri, but original name still prevails
-- { setname: riemann-dash,             name: "ruby:riemann-dash" }
-- { setname: riff,                     name: "rust:riffdiff" }
+- { setname: riemann-dash,             name: ruby:$0 }
+- { setname: riff,                     name: rust:riffdiff }
 - { setname: rigsofrods,               name: rigs-of-rods }
 - { setname: rigsofrods,               name: [rigsofrods-bin, rigsofrods-noangelscript], addflavor: true }
 - { setname: ringojs,                  name: ringo }
@@ -118,49 +118,49 @@
 - { setname: ripgrep-all,              name: rust:$0 }
 - { setname: riseup-vpn,               name: [bitmask, calyx-vpn] } # according to report, built from the same source
 - { setname: river,                    name: river-noxwayland, addflavor: true }
-- { setname: river,                    name: rust:river }
+- { setname: river,                    name: rust:$0 }
 - { setname: rl,                       name: randomize-lines } # it's too short to be unambigous, but there are no clashet (yet) and it's more canonical
-- { setname: rlog,                     name: librlog }
+- { setname: rlog,                     name: lib$0 }
 - { setname: rm-improved,              name: rust:$0 }
 - { setname: rmatrix,                  name: rust:r-matrix }
 - { setname: rna-star,                 name: [star-aligner,star-seq-alignment,starlong] }
 - { setname: rna-star,                 name: star-cshl, addflavor: cshl } # aur
-- { setname: rnnoise,                  name: librnnoise }
+- { setname: rnnoise,                  name: lib$0 }
 - { setname: robin-map,                name: [lib$0, tsl-$0] }
 - { setname: rocketchat-client,        name: [rocket.chat-desktop, rocket-chat, rocketchat, rocketchat-desktop] }
 - { setname: rockhopper,               name: rust:$0 }
 - { setname: rocksndiamonds,           name: rocks-n-diamonds }
 - { setname: rofi-wayland,             name: [rofi-lbonn-wayland] } # aur
 - { setname: roguebox-adventures,      name: rogueboxadventures }
-- { setname: ronn,                     name: [ronn-ng, "ruby:ronn", "ruby:ronn-ng"] } # ronn-ng is a maintained successor
+- { setname: ronn,                     name: [ronn-ng, ruby:$0, ruby:ronn-ng] } # ronn-ng is a maintained successor
 - { setname: roomeqwizard,             name: room-eq-wizard }
 - { setname: roomeqwizard,             name: roomeqwizard-beta, weak_devel: true, nolegacy: true }
 - { setname: roon-bridge,              name: roonbridge }
 - { setname: roon-server,              name: roonserver }
 - { setname: root,                     name: [root-extra,root-system], addflavor: true }
 - { setname: root,                     name: [root5, root6, cern-root] }
-- { setname: ropgadget,                name: [ropgadget2,"python:ropgadget"] }
-- { setname: ropper,                   name: "python:ropper" }
+- { setname: ropgadget,                name: [ropgadget2, python:$0] }
+- { setname: ropper,                   name: python:$0 }
 - { setname: rosa-imagewriter,         name: rosa-image-writer }
 - { setname: rosegarden,               name: rosegarden4 }
 - { setname: rosenpass,                name: rust:$0 }
-- { setname: rotate-backups,           name: "python:rotate-backups" }
-- { setname: roundcube,                name: [roundcubemail,"php:roundcube"] }
-- { setname: roundcube,                name: ["php:roundcube-plugin-enigma", "php:roundcube-plugin-password", "php:roundcube-plugin-zipdownload"], addflavor: true }
-- { setname: roundup,                  name: "python:roundup" }
+- { setname: rotate-backups,           name: python:$0 }
+- { setname: roundcube,                name: [roundcubemail, php:roundcube] }
+- { setname: roundcube,                name: [php:roundcube-plugin-enigma, php:roundcube-plugin-password, php:roundcube-plugin-zipdownload], addflavor: true }
+- { setname: roundup,                  name: python:$0 }
 - { setname: rox-filer,                name: rox }
 - { setname: roxterm,                  name: [rox-term,roxterm-gtk2] }
 - { setname: rpc2,                     name: lib$0 }
 - { setname: rpcs3,                    name: rpcs3-ex, addflavor: ex }
 - { setname: rpi-imager,               name: [raspberry-pi-imager, rpi-imager-latest] }
 - { setname: rpm,                      namepat: "rpm[0-9.-]+" }
-- { setname: rpm,                      name: [rpm-python,"python:rpm"], addflavor: python } # python bindings are bundled
+- { setname: rpm,                      name: [rpm-python, python:rpm], addflavor: python } # python bindings are bundled
 - { setname: rqbit,                    name: rust:$0 }
 - { setname: rrdtool,                  name: [rrdtool12, rrd, rrdtool1] }
-- { setname: rrdtool,                  name: [rrdtool-lite,rrdupdate,"ruby:rrd","ruby:rrdtool","ruby:rrdtool-bindings", "python:rrd", rrdtool-php], addflavor: true }
+- { setname: rrdtool,                  name: [rrdtool-lite, rrdupdate, ruby:rrd, ruby:rrdtool, ruby:rrdtool-bindings, python:rrd, rrdtool-php], addflavor: true }
 - { setname: rsh,                      name: rshd }
 - { setname: rsign2,                   name: rust:$0 }
-- { setname: rss2email,                name: "python:rss2email" }
+- { setname: rss2email,                name: python:$0 }
 - { setname: rss2email,                name: r2e }
 - { setname: rssguard,                 name: rss-guard }
 - { setname: rstudio,                  name: [rstudio11, r.studio] }
@@ -187,11 +187,11 @@
 - { setname: rtss,                     name: [rust:$0, riva-tuner] } # different projects, split in 850
 - { setname: rtv,                      name: rtv-py36, addflavor: py36 }
 - { setname: rubberband,               name: lib$0 }
-- { setname: rubocop,                  name: "ruby:rubocop" }
+- { setname: rubocop,                  name: ruby:$0 }
 - { setname: ruff,                     name: [python:$0, rust:$0, $0-bin] } # python linter written in rust, present both or crates.io and pypi
 - { setname: ruffle,                   name: ruffle-nightly, weak_devel: true, nolegacy: true }
 - { setname: rundeck,                  namepat: "rundeck[0-9.-]+" }
-- { setname: runiq,                    name: "rust:runiq" }
+- { setname: runiq,                    name: rust:$0 }
 - { setname: rure,                     name: rust:$0 }
 - { setname: ruri,                     name: rust:$0 }
 - { setname: rust,                     name: [rust-bin,rust-msvc,rust-common,rust-std,rust-gnu,rust-musl,rust-opt,rust.gnu,rust.msvc,rust-wasm,rust-wasm-bin,rustc-mozilla,rustc-web], addflavor: true }
@@ -201,7 +201,7 @@
 - { setname: rust,                     name: [rustc-nightly, rust-msvc-nightly], addflavor: true, weak_devel: true, nolegacy: true }
 - { setname: rust,                     namepat: "rust-toolset-[0-9.]+-rust" }
 - { setname: rust,                     namepat: "rust[0-9.-]+" }
-- { setname: rust-dwm-status,          name: "rust:rust-dwm-status" }
+- { setname: rust-dwm-status,          name: rust:$0 }
 - { setname: rust-script,              name: rust:$0 }
 - { setname: rust:bindgen,             namepat: "rust:bindgen[0-9.-]+" }
 - { setname: rust:bindgen-cli,         name: [bindgen-cli, rust-bindgen-cli] }
@@ -209,9 +209,9 @@
 - { setname: rustls-ffi,               name: [librustls, rust:$0] }
 - { setname: rustowl,                  name: rust:$0 }
 - { setname: rustup,                   name: [rustup-gnu, rustup-msvc, rustup-init, rustup-bin], addflavor: true }
-- { setname: rusty-diceware,           name: "rust:diceware" }
+- { setname: rusty-diceware,           name: rust:diceware }
 - { setname: rutabaga-gfx,             name: [rutabaga-gfx-ffi, rust:rutabaga-gfx, rust:rutabaga-gfx-ffi], addflavor: true }
 - { setname: rwho,                     name: netkit-rwho }
 - { setname: rwho,                     name: netkit-rwho-debian, addflavor: debian }
-- { setname: rx-editor,                name: "rust:rx-editor" }
+- { setname: rx-editor,                name: rust:$0 }
 - { setname: rxvt,                     name: rxvt-beta, weak_devel: true, nolegacy: true }

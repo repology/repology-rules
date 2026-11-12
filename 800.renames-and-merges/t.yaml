@@ -1,12 +1,12 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
-- { setname: t,                        name: "ruby:t" }
+- { setname: t,                        name: ruby:$0 }
 - { setname: t2,                       name: t2-src }
-- { setname: ta-lib,                   name: libta-lib }
+- { setname: ta-lib,                   name: lib$0 }
 - { setname: tabby,                    name: tabby-electron } # split in 850
 - { setname: tabby,                    name: [tabby-ai-coding-assistant, tabby-agent, tabbyml] } # split in 850
 - { setname: tabix,                    name: $0-legacy }
-- { setname: tabixpp,                  name: libtabixpp }
+- { setname: tabixpp,                  name: lib$0 }
 - { setname: tac-plus,                 name: [tacacs+, tacacs, tacacs-plus, tacacsplus] }
 - { setname: tagstudio,                name: python:$0 }
 - { setname: tailscale,                name: tailscale-unstable, weak_devel: true, nolegacy: true }
@@ -21,7 +21,7 @@
 - { setname: tar,                      name: [gtar-base,gtar-info], addflavor: true }
 - { setname: tarantool,                name: $0-lts }
 - { setname: targetcli-fb,             name: targetcli, addflavor: true } # ancient predecessor, probably affected by cves as well, but mostly misnamed targetcli-fp packages XXX problems
-- { setname: tarsnapper,               name: "python:tarsnapper" }
+- { setname: tarsnapper,               name: python:$0 }
 - { setname: tart,                     name: haskell:$0 }
 - { setname: task,                     name: task-dev, weak_devel: true, nolegacy: true }
 - { setname: task-spooler,             name: [taskspooler, task-spooler-cpu] }
@@ -36,7 +36,7 @@
 - { setname: tcl,                      name: tcl-nothreading, addflavor: true }
 - { setname: tcl-itk,                  name: [tcl-incrtk4,tcl-itk,itk-tcl,tk-itk] }
 - { setname: tcl-thread,               name: tclthread }
-- { setname: tclap,                    name: libtclap }
+- { setname: tclap,                    name: lib$0 }
 - { setname: tclap,                    name: tclap-doc, addflavor: true }
 - { setname: tclhttpd,                 name: tcl-httpd }
 - { setname: tcllib,                   name: tcl-tcllib }
@@ -44,16 +44,16 @@
 - { setname: tclreadline,              name: [tcl-readline,tcl-tclreadline] }
 - { setname: tcltk,                    name: [tcltk85,tcl-tk] } # no knowing whether it's tcl or tk
 - { setname: tcltls,                   name: tcl-tls }
-- { setname: tcping,                   name: [$0-go, "go:$0"] }
+- { setname: tcping,                   name: [$0-go, go:$0] }
 - { setname: tdb,                      name: [libtdb,tdb1] }
 - { setname: tdl,                      name: telegram-downloader }
 - { setname: tdlib,                    name: [libtd,tdlib-tg,telegram-tdlib,freetdi-tdlib] } # different projects, split in 850
 - { setname: tdlib,                    name: [tdlib-nightly, libtd-dev], weak_devel: true, nolegacy: true }
 - { setname: tds-fdw,                  namepat: "(postgresql[0-9.-]*)-tds-fdw", addflavor: $1 }
 - { setname: tea,                      name: [teaqt, tea-qt] }
-- { setname: tealdeer,                 name: "rust:tealdeer" }
+- { setname: tealdeer,                 name: rust:$0 }
 - { setname: teamcity,                 name: [teamcity-openjdk8,teamcity-preinstalledjre], addflavor: true }
-- { setname: teamocil,                 name: "ruby:teamocil" }
+- { setname: teamocil,                 name: ruby:$0 }
 - { setname: teamspeak,                name: [teamspeak2, teamspeak3] }
 - { setname: teamspeak,                name: [teamspeak3-wbundled], addflavor: true }
 - { setname: teamspeak-client,         name: teamspeak-client-bin, addflavor: true }
@@ -67,27 +67,27 @@
 - { setname: teamviewer-host,          name: teamviewer.host }
 - { setname: teamviewer-quicksupport,  name: teamviewer-quicksupport-beta }
 - { setname: teco,                     name: tecoc }
-- { setname: tectonic,                 name: "rust:tectonic" }
+- { setname: tectonic,                 name: rust:$0 }
 - { setname: teeworlds,                name: teeworlds06 }
 - { setname: teg,                      name: tenes-empanadas-graciela }
 - { setname: telegram-desktop,         name: [telegram-desktop-bin,telegram-desktop-systemqt,telegram-desktop-systemqt-emojione,telegram-desktop-systemqt-notoemoji,telegram-desktop-aarch64,telegram-desktop-armv7h,telegram-desktop-udf-patched,telegram-desktop-userfonts,telegram-desktop-wide,telegram-desktop9], addflavor: true }
 - { setname: telegram-desktop,         name: [telegram-desktop-bin-dev,telegram-desktop-dev, telegram-desktop-beta], ignore: true }
 - { setname: telegram-desktop,         name: [linux-telegram-desktop,tdesktop] }
-- { setname: telegram-send,            name: "python:telegram-send" }
-- { setname: telegram-tg,              name: "python:tg" }
+- { setname: telegram-send,            name: python:$0 }
+- { setname: telegram-tg,              name: python:tg }
 - { setname: telepathy-farstream,      name: [libtelepathy-farstream,telepathy-farstream-0.4] }
 - { setname: telepathy-gabble,         name: telepathy-gabble-cisco, addflavor: true }
-- { setname: telepathy-glib,           name: libtelepathy-glib }
+- { setname: telepathy-glib,           name: lib$0 }
 - { setname: telepathy-haze,           name: telepathy-haze-template, addflavor: true }
 - { setname: telepathy-logger-qt,      name: [telepathy-logger-qt4,telepathy-logger-qt5] }
 - { setname: telepathy-mission-control, name: telepathy-mission-control-5 }
-- { setname: telepathy-python,         name: ["python:telepathy","python:telepathy-python"] }
+- { setname: telepathy-python,         name: [python:telepathy, python:telepathy-python] } # XXX: check for misnamed modules
 - { setname: telepathy-qt,             name: [telepathy-qt4,telepathy-qt5] }
 - { setname: telepresence,             name: telepresence2 }
-- { setname: template-glib,            name: libtemplate-glib }
+- { setname: template-glib,            name: lib$0 }
 - { setname: templedriver,             name: $0-snap, addflavor: true }
 - { setname: tempo,                    name: [ grafana-tempo, tempo-cli ] }
-- { setname: tensorboard,              name: ["python:tensorboard", "python:tensorboard1", "python:tensorflow-tensorboard"] }
+- { setname: tensorboard,              name: [python:tensorboard, python:tensorboard1, python:tensorflow-tensorboard] }
 - { setname: tensorflow,               namepat: "(?:lib)?tensorflow[0-9.-]*(gnu-hpc|gnu-openmpi2-hpc|lite|cpu|gpu)?", addflavor: $1 }
 - { setname: tensorflow,               name: [python:tensorflow, python:tensorflow2] } # but not python:tensorflow1
 - { setname: tensorflow,               name: [python:tensorflow-cpu, python:tensorflow-gpu, python:tensorflow-lite, tensorflow-cc, tensorflow-common], addflavor: true }
@@ -96,12 +96,12 @@
 - { setname: termbox2,                 name: lib$0 }
 - { setname: terminal-image-viewer,    name: terminalimageviewer }
 - { setname: terminal-markdown-viewer, name: mdv }
-- { setname: termtosvg,                name: "python:termtosvg" }
+- { setname: termtosvg,                name: python:$0 }
 - { setname: termusic,                 name: $0-mpv, addflavor: true }
 - { setname: termusic,                 name: rust:$0 }
 - { setname: terraform,                namepat: "terraform[0-9.-]+" }
 - { setname: terraform,                name: terraform-with-plugins, addflavor: true }
-- { setname: terraform-compliance,     name: "python:terraform-compliance" }
+- { setname: terraform-compliance,     name: python:$0 }
 - { setname: tesseract-ocr-data,       namepat: "tesseract(?:-ocr|-data)*-(?!ocr)[a-z]{3}(?:-.*)?" }
 - { setname: tesseract-ocr-data,       name: [tesseract-tessdata,tesseract-data, tessdata] }
 - { setname: test-drive,               name: fortran-test-drive }
@@ -113,7 +113,7 @@
 - { setname: tevent,                   name: [libtevent,tevent1] }
 - { setname: tevent,                   name: tevent-man, addflavor: man }
 - { setname: tewi,                     name: [python:tewi-torrent, python:tewi-transmission] }
-- { setname: tex-fmt,                  name: "rust:tex-fmt" }
+- { setname: tex-fmt,                  name: rust:$0 }
 - { setname: texinfo,                  name: [texinfo4, gtexinfo] }
 - { setname: texinfo,                  name: info-reader, addflavor: true }
 - { setname: texlive,                  name: [texlive-combined-basic,texlive-combined-context,texlive-combined-full,texlive-combined-gust,texlive-combined-medium,texlive-combined-minimal,texlive-combined-small,texlive-combined-tetex,texlive-core,texlive-bin], addflavor: true }
@@ -132,13 +132,13 @@
 - { setname: tgui,                     name: tgui8 }
 - { setname: the-foundation,           name: tfdn } # XXX: problem
 - { setname: the-silver-searcher,      name: [silver-searcher,silversearcher-ag,thesilversearcher,silversearcher,ag] }
-- { setname: thefuck,                  name: "python:thefuck" }
+- { setname: thefuck,                  name: python:$0 }
 - { setname: theme-obsidian-2,         name: [obsidian-2-gtk-theme,obsidian-2-theme,obsidian2-gtk-theme,theme-obsidian2] } # XXX: gtkthemes
 - { setname: thermald,                 name: thermal-daemon }
 - { setname: thorium,                  name: [thorium.avx2,thorium-browser-sse3], addflavor: true }
 - { setname: thorium,                  name: alex313031-thorium }
 - { setname: thrift,                   namepat: "thrift[0-9.-]+" }
-- { setname: thrust,                   name: libthrust }
+- { setname: thrust,                   name: lib$0 }
 - { setname: thunar-media-tags-plugin, name: [thunar-media-tags, thunar-plugin-media-tags, xfce4-thunar-media-tags-plugin] } # XXX: consider wildcard rule
 - { setname: thunarx-python,           name: thunarx-python-0.3 }
 - { setname: thunder-and-lightning,    name: "thunder&lightning" }
@@ -189,7 +189,7 @@
 - { setname: tinymediamanager,         name: tiny-media-manager }
 - { setname: tinyxml,                  name: lib$0 }
 - { setname: tinyxml,                  name: [tinyxml2, libtinyxml2] }
-- { setname: tiptop,                   name: [tiptop-cli, "python:tiptop"] }
+- { setname: tiptop,                   name: [tiptop-cli, python:$0] }
 - { setname: tix,                      name: [tcl-tix,tk-tix] }
 - { setname: tk,                       namepat: "tk[89][0-9.-]*" } # don't mix with tk2, tk5, tk707 which are unrelated projects
 - { setname: tk,                       name: [tk-quartz, tk-x11], addflavor: true }
@@ -203,16 +203,16 @@
 - { setname: tldr-python-client,       name: python:tldr }
 - { setname: tlp,                      name: tlp-pmu, addflavor: true }
 - { setname: tlrc,                     name: rust:$0 }
-- { setname: tls-map,                  name: "ruby:tls-map" }
+- { setname: tls-map,                  name: ruby:$0 }
 - { setname: tmaze,                    name: rust:$0 }
-- { setname: tmplgen,                  name: "rust:tmplgen" }
+- { setname: tmplgen,                  name: rust:$0 }
 - { setname: tmux,                     name: tmux-fullwidth-backspace, addflavor: true }
 - { setname: tmux,                     name: tmux-ver-28 }
 - { setname: tmux,                     namepat: "tmux[0-9.-]+" }
-- { setname: tmuxinator,               name: "ruby:$0" }
+- { setname: tmuxinator,               name: ruby:$0 }
 - { setname: tmuxp,                    name: python:$0 }
 - { setname: tmw,                      name: the-mana-world }
-- { setname: tntnet,                   name: libtntnet }
+- { setname: tntnet,                   name: lib$0 }
 - { setname: to-html,                  name: rust:$0 }
 - { setname: today,                    name: today-journal }
 - { setname: todo,                     name: todo.cpp }
@@ -220,10 +220,10 @@
 - { setname: todoist,                  name: [todoist-cli,todoist-electron] }
 - { setname: togl,                     name: [tcl-togl,tk-togl,togl-2.0] }
 - { setname: toilet,                   name: toilet-template }
-- { setname: tokei,                    name: "rust:tokei" }
+- { setname: tokei,                    name: rust:$0 }
 - { setname: tokyocabinet,             name: tokyo-cabinet }
 - { setname: tokyodystopia,            name: tokyo-dystopia }
-- { setname: tolua++,                  name: [toluapp,"lua:toluapp",compat-tolua++] }
+- { setname: tolua++,                  name: [toluapp, lua:toluapp, compat-tolua++] }
 - { setname: tolua++,                  namepat: "(?:lib)?tolua\\+\\+(-lua[0-9.-]+)?[0-9.-]*", addflavor: $1 }
 - { setname: tomahawk,                 name: tomahawk-player }
 - { setname: tomahawk,                 name: tomahawk-qt5, addflavor: qt5 }
@@ -237,7 +237,7 @@
 - { setname: tomlplusplus,             name: [lib$0, toml++] }
 - { setname: tomlplusplus,             name: libtomlplusplus-header, addflavor: true }
 - { setname: tomsfastmath,             name: libtomfastmath }
-- { setname: toot,                     name: "python:toot" }
+- { setname: toot,                     name: python:$0 }
 - { setname: topgrade,                 name: [rust:topgrade, rust:topgrade-rs, python:topgrade] }
 - { setname: topgrade,                 name: topgrade-musl, addflavor: true }
 - { setname: tor,                      name: [tor-devel,tor-unstable], weak_devel: true, nolegacy: true }
@@ -246,9 +246,9 @@
 - { setname: tor-browser,              name: [tor-browser-en, tor-browser-bundle-bin, tor-browser-behind-tor], addflavor: true }
 - { setname: tor-browser,              name: tor-browser-dev, weak_devel: true, nolegacy: true }
 - { setname: torrent-file-editor,      name: [torrent-file-editor-qt4,torrent-file-editor-qt5], addflavor: true }
-- { setname: tortoisehg,               name: "python:tortoisehg" }
+- { setname: tortoisehg,               name: python:$0 }
 - { setname: totalcommander,           name: total-commander }
-- { setname: totem-pl-parser,          name: libtotem-pl-parser }
+- { setname: totem-pl-parser,          name: lib$0 }
 - { setname: totem-pl-parser,          name: totem-pl-parser-gtk2, addflavor: gtk2 }
 - { setname: touchegg,                 name: [touchegg-gui,touchegg-qt5], addflavor: true }
 - { setname: toxcore,                  name: [toxcore-legacy,toxcore-toktok] }
@@ -262,12 +262,12 @@
 - { setname: tracker,                  name: [tracker2, tracker3, compat-tracker1, tracker-2] }
 - { setname: tracker-miners,           name: [tracker2-miners, tracker3-miners, tracker-miners3, gnome-tracker-miners] }
 - { setname: tractor,                  name: [python:traxtor, traxtor] } # sic; different name on PyPI as tractor name was occupied
-- { setname: trakt-scrobbler,          name: "python:trakt-scrobbler" }
-- { setname: transdecoder,             name: "perl:transdecoder" }
-- { setname: transifex-client,         name: "python:transifex-client" }
-- { setname: translate-toolkit,        name: ["python:translate-toolkit","python:translate-toolkit-lib"] }
+- { setname: trakt-scrobbler,          name: python:$0 }
+- { setname: transdecoder,             name: perl:$0 }
+- { setname: transifex-client,         name: python:$0 }
+- { setname: translate-toolkit,        name: [python:translate-toolkit, python:translate-toolkit-lib] } # XXX: check for misnamed modules
 - { setname: trash-cli,                name: python:$0 }
-- { setname: tre,                      name: libtre } # XXX: reverse?
+- { setname: tre,                      name: lib$0 } # XXX: reverse?
 - { setname: tree,                     name: [tree-pkg, colortree] }
 - { setname: tree-sitter,              name: rust:$0 }
 - { setname: tree-sitter-bash,         name: [python:$0, rust:$0] }
@@ -290,7 +290,7 @@
 - { setname: tripwire,                 name: [tripwire-131,tripwire12] }
 - { setname: trn,                      name: trn4 }
 - { setname: trnascan-se,              name: [trnascanse, trnascan] }
-- { setname: truckersmp-cli,           name: "python:truckersmp-cli" }
+- { setname: truckersmp-cli,           name: python:$0 }
 - { setname: trustedqsl,               name: [tqsl,tqsllib] }
 - { setname: tsc,                      name: the-secret-chronicles-of-dr-m }
 - { setname: tsm,                      name: [tsm8, tsmclient, tsm-client] } # ambiguous, split in 850
@@ -312,20 +312,20 @@
 - { setname: tuxpaint,                 name: tux-paint }
 - { setname: tuxtype,                  name: tuxtype2 }
 - { setname: tvbrowser,                name: tvbrowser-bin, addflavor: true }
-- { setname: tvision,                  name: libtvision }
+- { setname: tvision,                  name: lib$0 }
 - { setname: tvision,                  name: [librhtv, rhtvision] }
-- { setname: tvnamer,                  name: "python:tvnamer" }
+- { setname: tvnamer,                  name: python:$0 }
 - { setname: twaindsm,                 name: twain-dsm }
-- { setname: twine,                    name: ["python:twine", twine-pypi] }
+- { setname: twine,                    name: [python:$0, twine-pypi] }
 - { setname: twinejs,                  name: twinejs-standalone, addflavor: true }
 - { setname: twinkle,                  name: twinkle-qt5, addflavor: true }
 - { setname: twolame,                  name: [lib$0, two-lame] }
-- { setname: twtxt,                    name: "python:twtxt" }
+- { setname: twtxt,                    name: python:$0 }
 - { setname: ty,                       name: [python:$0, $0-bin], addflavor: true }
 - { setname: typescript-language-server, name: node:$0 }
 - { setname: typo3,                    namepat: "typo3-[0-9]+" }
 - { setname: typo3,                    name: typo3-src, addflavor: true }
-- { setname: typo3,                    name: "php:typo3" }
+- { setname: typo3,                    name: php:$0 }
 - { setname: typora,                   name: typora-free }
 - { setname: typst,                    name: rust:$0 }
 - { setname: tyrian-data,              name: opentyrian-data }

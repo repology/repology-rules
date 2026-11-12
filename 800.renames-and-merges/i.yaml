@@ -2,18 +2,18 @@
 
 - { setname: i3,                       name: [i3-kde,i3-lazy,i3-wm-iconpatch], addflavor: true }
 - { setname: i3,                       name: [i3-wm,i3wm] }
-- { setname: i3-balance-workspace,     name: "python:i3-balance-workspace" }
+- { setname: i3-balance-workspace,     name: python:$0 }
 - { setname: i3-gaps,                  name: i3wm-gaps }
 - { setname: i3-open-next-ws,          name: rust:$0 }
 - { setname: i3status,                 name: i3status-manjaro, addflavor: manjaro }
-- { setname: i3wsr,                    name: "rust:i3wsr" }
+- { setname: i3wsr,                    name: rust:$0 }
 - { setname: iagno,                    name: gnome-games-iagno }
 - { setname: iannix,                   name: iannix-qt5, addflavor: true }
 - { setname: iausofa,                  name: [sofa,sofa-c,iausofa-c] }
 - { setname: iausofa,                  name: sofa-shared, addflavor: shared }
 - { setname: iax,                      name: [libiax, asterisk-libiax] }
 - { setname: ibrdtn,                   name: [dtn-tools,dtnd,ibrcommon], addflavor: true }
-- { setname: ibus,                     name: libibus }
+- { setname: ibus,                     name: lib$0 }
 - { setname: ice,                      name: ice37 }
 - { setname: icecast,                  name: icecast2 }
 - { setname: icecat,                   name: [$0-debug,$0-bin,$0-minimal], addflavor: true }
@@ -34,7 +34,7 @@
 - { setname: icoextract,               name: python:$0 }
 - { setname: icon,                     name: [icon-lang, icon-interp] }
 - { setname: iconpack-obsidian,        name: obsidian-icon-theme }
-- { setname: "icons:zafiro",           name: [zafiro-icon-theme,zafiro-icons] }
+- { setname: icons:zafiro,             name: [zafiro-icon-theme,zafiro-icons] }
 - { setname: icu,                      name: [icu-docs,icu-doxygen-docs,icu-layoutex,icu-staticlibs,icu-lx,icu4c,libicu4c], addflavor: true }
 - { setname: icu,                      name: icu55-staticlibs, addflavor: icu-staticlibs }
 - { setname: icu,                      namepat: "(?:compat-)?(?:lib)?icu(?:-compat)?[0-9.-]*" }
@@ -44,15 +44,15 @@
 - { setname: id3lib,                   name: [id3lib3.8.3, libid3, id3libs] }
 - { setname: idna,                     name: ada-idna } # split in 850
 - { setname: idzebra,                  name: zebra-server }
-- { setname: ifcopenshell,             name: "python:ifcopenshell" }
+- { setname: ifcopenshell,             name: python:$0 }
 - { setname: ifstat,                   name: $0-legacy }
 - { setname: igal,                     namepat: "igal[0-9]+" }
 - { setname: ignition-math,            namepat: "ign(?:ition)?-math[0-9.-]*" }
 - { setname: igraph,                   name: lib$0 }
-- { setname: iksemel,                  name: libiksemel }
+- { setname: iksemel,                  name: lib$0 }
 - { setname: ili2c,                    name: interlis-compiler }
-- { setname: img2pdf,                  name: "python:img2pdf" }
-- { setname: imgcrypt,                 name: "go:github-containerd-imgcrypt" }
+- { setname: img2pdf,                  name: python:$0 }
+- { setname: imgcrypt,                 name: go:github-containerd-imgcrypt }
 - { setname: imhangul,                 name: imhangul-gtk2, addflavor: gtk2 }
 - { setname: imhangul,                 name: imhangul-gtk3, addflavor: gtk3 }
 - { setname: imhangul,                 name: imhangul3 }
@@ -67,10 +67,10 @@
 - { setname: inetutils,                name: [inetutils-ftp, inetutils-syslogd, inetutils-telnet], addflavor: true }
 - { setname: infamousplugins,          name: [infamous-plugins,infamous-plugins-lv2] }
 - { setname: influxdb,                 namepat: "influxdb[0-9.-]+" }
-- { setname: influxdb,                 name: "go:github-influxdata-influxdb" }
+- { setname: influxdb,                 name: go:github-influxdata-influxdb }
 - { setname: infon,                    name: infon-battle-arena }
 - { setname: ingen,                    name: ingen-unstable, ignore: true }
-- { setname: inih,                     name: libinih }
+- { setname: inih,                     name: lib$0 }
 - { setname: iniparser,                name: [libiniparser,iniparser-legacy] }
 - { setname: inkscape,                 name: [inkscape-app,inkscape32bit,inkscape-gtk2,inkscape-with-extensions], addflavor: true }
 - { setname: inkscape,                 namepat: "inkscape[0-9.-]+" }
@@ -112,8 +112,8 @@
 - { setname: ipcalc,                   name: gnu-ipcalc } # freebsd - no relation to gnu actually
 - { setname: ipe-tools,                name: pdftoipe, addflavor: true }
 - { setname: iperf3,                   name: iperf3.5 }
-- { setname: ipfs,                     name: ["go:ipfs",ipfs-go] }
-- { setname: ipfs,                     name: "go:ipfs-bin", addflavor: bin }
+- { setname: ipfs,                     name: [go:$0, $0-go] }
+- { setname: ipfs,                     name: go:$0-bin, addflavor: bin }
 - { setname: ipopt,                    name: coin-or-ipopt }
 - { setname: iproute2,                 name: iproute }
 - { setname: iproute2,                 name: iproute2-cake, addflavor: cake }
@@ -123,7 +123,7 @@
 - { setname: iptables,                 name: [iptables-fullconenat,iptables-minimal,iptables-nosystemd-minimal], addflavor: true }
 - { setname: iptables,                 name: compat-iptables }
 - { setname: iputils,                  name: tracepath, addflavor: yes } # split in termux
-- { setname: ipython,                  name: ["python:ipython",ipython,ipython2,ipython3,python2-ipython,ipython-py2] }
+- { setname: ipython,                  name: [python:$0, ipython2, ipython3, python2-ipython, ipython-py2] }
 - { setname: ipython,                  namepat: "ipython[0-9x.-]+" }
 - { setname: ir-lv2,                   name: ir.lv2 }
 - { setname: ircd-ratbox,              name: ratbox, ruleset: openpkg }
@@ -132,7 +132,7 @@
 - { setname: iris-screenshot,          name: rust:$0 }
 - { setname: ironpython,               name: [ironpython2, ironpython3] }
 - { setname: irrlicht,                 name: [irrlicht-docs,irrlicht-pkgconfig,irrlicht-tools,irrlicht-examples], addflavor: true }
-- { setname: irrlicht,                 name: libirrlicht }
+- { setname: irrlicht,                 name: lib$0 }
 - { setname: irssi-otr,                name: irssi-plugin-otr }
 - { setname: irssi-otr,                name: irc-otr } # XXX: problem
 - { setname: isa-l,                    name: [intel-isa-l, isal, libisal] }

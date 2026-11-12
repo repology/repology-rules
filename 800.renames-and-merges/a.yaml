@@ -2,7 +2,7 @@
 
 - { setname: a-a-p,                    name: aap }
 - { setname: a52dec,                   name: liba52, addflavor: true }
-- { setname: a52dec,                   name: liba52dec }
+- { setname: a52dec,                   name: lib$0 }
 - { setname: aaa,                      name: rust:$0 }
 - { setname: aaaaxy,                   name: $0-snap, addflavor: true }
 - { setname: aalib,                    name: libaa }
@@ -33,17 +33,17 @@
 - { setname: acetoneiso,               name: acetoneiso2, ruleset: [arch,chakra,sisyphus] }
 - { setname: acetoneiso,               name: acetoneiso-qt5, addflavor: qt5 }
 - { setname: acetoneiso6,              name: acetoneiso, verpat: "6.*", ruleset: fedora }
-- { setname: ack,                      name: "perl:ack" }
+- { setname: ack,                      name: perl:$0 }
 - { setname: ack,                      name: ack-grep }
 - { setname: acl,                      name: lib$0 }
 - { setname: acme,                     name: acme-upstream }
-- { setname: acme-tiny,                name: "python:acme-tiny" }
+- { setname: acme-tiny,                name: python:$0 }
 - { setname: acme.sh,                  name: [acme-sh,acmesh,acme-acmesh] }
 - { setname: acorn,                    name: acorn-cli }
 - { setname: acpi-call,                name: [acpi-call-ck-fbcondecor,acpi-call-dkms,acpi-call-pf,kernel-modules-acpi-call-std-def,acpi-call-linux-module,acpi-call-src,acpi-call-ck], addflavor: true }
 - { setname: acpica,                   namepat: "acpica-(?:tools|unix|utils)" }
 - { setname: acpid,                    name: acpid2 }
-- { setname: acquire,                  name: "python:acquire" }
+- { setname: acquire,                  name: python:$0 }
 - { setname: acr38u,                   name: [acr38,libacr38u,pcsc-acr38] }
 - { setname: acroread,                 name: [adobereader,adobe-reader] }
 - { setname: acroread,                 namepat: "acroread[0-9.]*" }
@@ -60,7 +60,7 @@
 - { setname: activemq,                 name: apache-activemq }
 - { setname: ada,                      name: [ada-url, libada] }
 - { setname: adabooch,                 name: [booch95,gnat-booch95] }
-- { setname: adafruit-nrfutil,         name: "python:adafruit-nrfutil" }
+- { setname: adafruit-nrfutil,         name: python:$0 }
 - { setname: adapta-gtk-theme,         name: [adapta,gtk-theme-adapta,adapta-gtk-theme-3.94,adapta-gtk-theme-legacy] }
 - { setname: adapta-gtk-theme,         name: [adapta-gtk-theme-colorpack,adapta-gtk-theme-wal], addflavor: true }
 - { setname: adapta-kde,               name: [adapta-kde-theme,kde5-plasma-theme-adapta] }
@@ -79,13 +79,13 @@
 - { setname: adobeps,                  name: adobeps-win, ruleset: pkgsrc }
 - { setname: adodb,                    name: adodb5 }
 - { setname: adolc,                    name: adol-c }
-- { setname: adplug,                   name: libadplug }
+- { setname: adplug,                   name: lib$0 }
 - { setname: adplug,                   name: [adplug-mame], addflavor: true }
 - { setname: adrs,                     name: rust:$0 }
 - { setname: advanced-installer,       name: advancedinstaller }
 - { setname: advanced-ip-scanner,      name: advancedipscanner }
 - { setname: advanced-renamer,         name: advancedrenamer }
-- { setname: advi,                     name: ocaml:advi }
+- { setname: advi,                     name: ocaml:$0 }
 - { setname: adw-gtk3,                 name: [adw-gtk-theme, adw-gtk3-theme, gtk3-theme-adw-gtk3] }
 - { setname: adwaita-icon-theme,       name: icon-theme-adwaita }
 - { setname: adwaita-plus,             name: adwaita++-icons }
@@ -97,7 +97,7 @@
 - { setname: aerospike-server,         name: [aerospike-server-ce,aerospike-server-community] }
 - { setname: aescrypt,                 name: [aescrypt-packetizer,aescrypt-cli,aescrypt-gui], addflavor: true }
 - { setname: afay,                     name: aflex-ayacc } # ravenports
-- { setname: afdko,                    name: ["python:afdko",adobe-afdko] }
+- { setname: afdko,                    name: [python:afdko, adobe-afdko] }
 - { setname: affine,                   name: [affine-client, affine-bin], addflavor: true }
 - { setname: affine,                   name: affine-latest, verpat: ".*canary.*", incorrect: true } # canary, not latest
 - { setname: affine,                   name: affine-latest }
@@ -108,13 +108,13 @@
 - { setname: afl++,                    name: libdislocator, addflavor: true } # part of
 - { setname: afl++,                    name: afl++-llvm, addflavor: true } # XXX: FreeBSD, misnamed
 - { setname: afsctool,                 name: afscompress }
-- { setname: aften,                    name: libaften }
+- { setname: aften,                    name: lib$0 }
 - { setname: afterstep,                name: afterstep1 }
-- { setname: agar,                     name: libagar }
+- { setname: agar,                     name: lib$0 }
 - { setname: agar,                     name: [agartest,libagar-test], addflavor: test }
-- { setname: agda,                     name: "haskell:agda" }
+- { setname: agda,                     name: haskell:$0 }
 - { setname: agda,                     name: agda-bin, addflavor: bun }
-- { setname: agda-stdlib,              name: "haskell:agda-stdlib" }
+- { setname: agda-stdlib,              name: haskell:$0 }
 - { setname: age-plugin-ledger,        name: rust:$0 }
 - { setname: age-plugin-openpgp-card,  name: rust:$0 }
 - { setname: agenda,                   name: maui-agenda }
@@ -143,10 +143,10 @@
 - { setname: alcom,                    name: alcom-beta, weak_devel: true, nolegacy: true }
 - { setname: alejandra,                name: rust:$0 }
 - { setname: alembic,                  name: [alembic-framework, alembic-graphics] }
-- { setname: alertmanager,             name: ["go:github-prometheus-alertmanager", prometheus-alertmanager] }
+- { setname: alertmanager,             name: [go:github-prometheus-alertmanager, prometheus-alertmanager] }
 - { setname: alevin-fry,               name: rust:$0 }
 - { setname: alex,                     name: haskell:$0 }
-- { setname: alexandria,               name: "ruby:alexandria-book-collection-manager" }
+- { setname: alexandria,               name: ruby:alexandria-book-collection-manager }
 - { setname: alfont,                   name: lib$0 }
 - { setname: alfred,                   name: batman-alfred }
 - { setname: alfred-json,              name: batman-alfred-json }
@@ -159,7 +159,7 @@
 - { setname: alienarena-data,          name: alien-arena-data }
 - { setname: aliza,                    name: aliza-free }
 - { setname: alizams,                  name: alizams-qt5, addflavor: qt5 }
-- { setname: alkimia,                  name: libalkimia }
+- { setname: alkimia,                  name: lib$0 }
 - { setname: alkimia,                  namepat: "alkimia[0-9.-]+" }
 - { setname: alkimia,                  name: [alkimia-qt4,libalkimia-qt4], addflavor: qt4 }
 - { setname: alkimia,                  name: [alkimia-qt5,libalkimia-qt5], addflavor: qt5 }
@@ -172,10 +172,10 @@
 - { setname: alloy,                    name: [node:alloy, grafana-alloy] }
 - { setname: allure-report,            name: allure-commandline }
 - { setname: allureofthestars,         name: allure-of-the-stars }
-- { setname: allureofthestars,         name: "haskell:allure" }
+- { setname: allureofthestars,         name: haskell:allure }
 - { setname: alog,                     name: lib$0 }
 - { setname: alogg,                    name: [liballegroogg,allegroogg] }
-- { setname: alot,                     name: "python:$0" }
+- { setname: alot,                     name: python:$0 }
 - { setname: alpaca,                   name: alpaca-ai } # split in 850
 - { setname: alpine,                   name: alpine-fancythreading, addflavor: true }
 - { setname: alsa-lib,                 name: alsa-lib-devel, weak_devel: true, nolegacy: true }
@@ -206,8 +206,8 @@
 - { setname: amf,                      name: [amd-amf, amf-headers] }
 - { setname: aml,                      name: [aml0, aml1, libaml] }
 - { setname: ammonite,                 name: ammonite-repl }
-- { setname: amp-editor,               name: "rust:amp" }
-- { setname: ampy,                     name: ["python:adafruit-ampy","python:ampy",adafruit-ampy], wwwpart: adafruit }
+- { setname: amp-editor,               name: rust:amp }
+- { setname: ampy,                     name: [python:adafruit-ampy, python:ampy, adafruit-ampy], wwwpart: adafruit } # XXX: why wwwpart?; XXX: recheck if both python modules are valid
 - { setname: amqp-cpp,                 name: [amqpcpp, libamqpcpp] }
 - { setname: amtk,                     name: lib$0 }
 - { setname: amule,                    name: [amule-daemon,amule-gui], addflavor: true }
@@ -235,16 +235,16 @@
 - { setname: annex,                    name: annex-conquer-the-world }
 - { setname: ansi-escape-sequences-cli, name: rust:$0 }
 - { setname: ansible,                  namepat: "(?:python:)?ansible[0-9.-]*" }
-- { setname: ansible-core,             name: [ansible-base, "python:ansible-base", "python:ansible-core" ] }
+- { setname: ansible-core,             name: [ansible-base, python:ansible-base, python:ansible-core ] }
 - { setname: ansible-core,             namepat: "ansible-core[0-9.-]+" }
-- { setname: ansible-doctor,           name: "python:ansible-doctor" }
-- { setname: ansible-later,            name: "python:ansible-later" }
-- { setname: ansible-lint,             name: "python:ansible-lint" }
-- { setname: ansible-runner,           name: "python:ansible-runner" }
+- { setname: ansible-doctor,           name: python:$0 }
+- { setname: ansible-later,            name: python:$0 }
+- { setname: ansible-lint,             name: python:$0 }
+- { setname: ansible-runner,           name: python:$0 }
 - { setname: ant,                      name: ant-junit5, addflavor: true }
 - { setname: antares,                  name: antares-sql }
 - { setname: antares,                  name: antares-sql-beta, weak_devel: true, nolegacy: true }
-- { setname: anthy,                    name: libanthy }
+- { setname: anthy,                    name: lib$0 }
 - { setname: antidote,                 name: zsh-antidote }
 - { setname: antigravity,              name: google-antigravity }
 - { setname: antigravity-cli,          name: google-antigravity-cli }
@@ -259,7 +259,7 @@
 - { setname: antu-icons,               name: antu-icon-theme }
 - { setname: anubis,                   name: [go:$0,$0-smtp] } # ambiguous name, split in 850
 - { setname: anubis,                   name: python:anubis-netsec }
-- { setname: anybadge,                 name: "python:anybadge" }
+- { setname: anybadge,                 name: python:$0 }
 - { setname: anydesk,                  name: $0-legacy }
 - { setname: anythingllm,              name: anythingllm-desktop }
 - { setname: aolserver,                name: aolserver4 }
@@ -268,13 +268,13 @@
 - { setname: apache,                   name: [apache-httpd,httpd,apache-http-server,httpd24] }
 - { setname: apache,                   name: [apache-tools, apache-doc, apache-html-manual, htdigest, apache2-prefork, apache2-utils, apache2-worker, apache2-manual, apache2-event, apache2-devel, apache-utils], addflavor: true }
 - { setname: apache,                   namepat: "apache[0-9.]+" }
-- { setname: apache-airflow,           name: ["python:apache-airflow"] }
-- { setname: apache-arrow,             name: "python:pyarrow", addflavor: python }
+- { setname: apache-airflow,           name: python:$0 }
+- { setname: apache-arrow,             name: python:pyarrow, addflavor: python }
 - { setname: apache-arrow,             name: [arrow-cpp,libarrow-cpp,libarrow], addflavor: cpp }
 - { setname: apache-arrow,             name: [apache-arrow-glib,arrow-glib], addflavor: glib }
 - { setname: apache-commons-configuration, name: commons-configuration }
 - { setname: apache-commons-configuration2, name: commons-configuration2 }
-- { setname: apache-commons-jxpath,    name: [commons-jxpath, java-commons-jxpath, 'java:commons-jxpath'] }
+- { setname: apache-commons-jxpath,    name: [commons-jxpath, java-commons-jxpath, java:commons-jxpath] }
 - { setname: apache-commons-lang,      name: [apache-commons-lang-eap6,apache-commons-lang3,commons-lang,jakarta-commons-lang,jakarta-commons-lang3,java-commons-lang,java-commons-lang3,libcommons-lang-java,libcommons-lang3-java] }
 - { setname: apache-directory-server,  name: apacheds } # but not apacheds-jdbm!
 - { setname: apache-directory-studio,  name: [directory-studio,apachedirectorystudio,directorystudio] }
@@ -291,7 +291,7 @@
 - { setname: apio,                     name: apio-udev-rules, addflavor: true }
 - { setname: apk-tools,                name: apk-tools-static, addflavor: true }
 - { setname: apk-tools,                name: alpine-apk-tools }
-- { setname: apkleaks,                 name: "python:apkleaks" }
+- { setname: apkleaks,                 name: python:$0 }
 - { setname: apksigner,                name: android-platform-tools-apksig }
 - { setname: apktool,                  name: android-$0 }
 - { setname: apl,                      name: [gnuapl, gnu-apl] }
@@ -302,7 +302,7 @@
 - { setname: appium,                   name: appium-desktop }
 - { setname: appmenu-qt,               name: appmenu-qt4 }
 - { setname: appstream,                name: appstream-qt }
-- { setname: appstream-glib,           name: libappstream-glib }
+- { setname: appstream-glib,           name: lib$0 }
 - { setname: apq,                      name: apq-base } # ravenports
 - { setname: apq-postgresql,           name: apq-pgsql }
 - { setname: apr,                      namepat: "(?:lib)?apr[0-9.-]*" }
@@ -319,14 +319,14 @@
 - { setname: arangodb,                 namepat: "arangodb[0-9.-]+" }
 - { setname: aravis,                   name: lib$0, addflavor: true }
 - { setname: arb,                      name: [flint-arb, libarb] }
-- { setname: arbtt,                    name: "haskell:arbtt" }
+- { setname: arbtt,                    name: haskell:$0 }
 - { setname: arc,                      name: arc-browser }
 - { setname: arc-kde,                  name: [arc-kde-theme,kde5-plasma-theme-arc] }
 - { setname: arc-theme,                name: [arc-gtk-theme, gtk2-theme-arc, gtk-arc-themes, gtk-theme-arc] }
 - { setname: arc-theme,                name: arc-themes-maia, addflavor: true }
 - { setname: arcan,                    name: [acfgfs,aclip,aloadimage,arcan-aclip,arcan-aloadimage,arcan-waybridge,arcan-wayland], addflavor: true }
 - { setname: arcanechat-tui,           name: python:$0 }
-- { setname: arcanist,                 name: "php:arcanist" }
+- { setname: arcanist,                 name: php:$0 }
 - { setname: arcanist,                 name: arcanist-lib, addflavor: true }
 - { setname: arch-hs,                  name: haskell:$0 }
 - { setname: archipel-agents,          namepat: "archipel-agent-.*", ruleset: debuntu }
@@ -338,13 +338,13 @@
 - { setname: areca-backup,             name: arecabackup }
 - { setname: arena-chess,              name: arena-chess-gui }
 - { setname: arena-tracker,            name: arenatracker }
-- { setname: ares,                     name: libares }
+- { setname: ares,                     name: lib$0 }
 - { setname: ares,                     name: ares-emu }
 - { setname: ares,                     name: aresregular }
 - { setname: ares,                     name: [ares-decrypt,ares-rs] }
 - { setname: argo-rollouts,            name: kubectl-argo-rollouts }
 - { setname: argocd,                   name: argocd-cli, addflavor: true }
-- { setname: argon2,                   name: libargon2 }
+- { setname: argon2,                   name: lib$0 }
 - { setname: argononed,                name: argonone-c }
 - { setname: argp-standalone,          name: [libargp] }
 - { setname: argparse,                 name: [cpp-argparse, libargparse] }
@@ -374,17 +374,17 @@
 - { setname: asar,                     name: [electron-asar,snes-asar] } # different projects, split in 850
 - { setname: asc,                      name: advanced-strategic-command }
 - { setname: asciidoc,                 name: [asciidoc-py3,"python:asciidoc",asciidoc-full,asciidoc-full-with-plugins], addflavor: true }
-- { setname: asciidoctor,              name: "ruby:$0" }
-- { setname: asciidoctor-pdf,          name: "ruby:$0" }
-- { setname: asciinema,                name: "python:asciinema" }
+- { setname: asciidoctor,              name: ruby:$0 }
+- { setname: asciidoctor-pdf,          name: ruby:$0 }
+- { setname: asciinema,                name: python:$0 }
 - { setname: asciinema-scenario,       name: rust:$0 }
 - { setname: asciio,                   name: perl:app-asciio }
-- { setname: asciio,                   name: perl:asciio } # XXX: problem
+- { setname: asciio,                   name: perl:$0 } # XXX: problem
 - { setname: asclock,                  name: asclock-xlib, addflavor: true }
 - { setname: asf,                      name: archi-steam-farm }
 - { setname: asio,                     name: lib$0 }
-- { setname: askalono,                 name: "rust:askalono" }
-- { setname: askalono,                 name: "rust:askalono-cli", addflavor: true }
+- { setname: askalono,                 name: rust:$0 }
+- { setname: askalono,                 name: rust:askalono-cli, addflavor: true }
 - { setname: asmjit,                   name: asmjit-1.0 }
 - { setname: aspell-$1,                namepat: "aspell-dict-(.*)" }
 - { setname: aster,                    name: code-aster }
@@ -411,7 +411,7 @@
 - { setname: atheme,                   name: atheme-services }
 - { setname: atk,                      name: [atk-reference,atk-docs], addflavor: docs }
 - { setname: atk,                      name: atk1.0 }
-- { setname: atk,                      name: libatk }
+- { setname: atk,                      name: lib$0 }
 - { setname: atkmm,                    name: atk2mm }
 - { setname: atkmm,                    namepat: "(?:lib)?atkmm[0-9.-]*" }
 - { setname: atkmm,                    namepat: "(?:lib)?atkmm[0-9.-]*(-docs)", addflavor: docs }
@@ -431,61 +431,61 @@
 - { setname: atril,                    name: atril-dev, weak_devel: true, nolegacy: true }
 - { setname: atril,                    name: [atril-gtk2, atril-lite, atril-nocaja-gtk2, atril-gtk], addflavor: true }
 - { setname: ats,                      name: [ats2, ats2-lang, ats-lang-anairiats, ats-postiats, ats2-postiats] }
-- { setname: atspkg,                   name: "haskell:ats-pkg" }
+- { setname: atspkg,                   name: haskell:ats-pkg }
 - { setname: attic,                    name: rust:$0 }
 - { setname: attica,                   name: [attica-kf5,attica-qt4,attica-qt5,libattica], addflavor: true }
 - { setname: atuin,                    name: rust:$0 }
-- { setname: aubio,                    name: [libaubio,libaubio4,libaubio5,"python:aubio"] }
+- { setname: aubio,                    name: [libaubio, libaubio4, libaubio5, python:$0] }
 - { setname: audacious,                name: [audacious-gtk3,audacious-core,audacious-qt5,audacious-itself,audacious-player], addflavor: true }
 - { setname: audacious,                name: audacious2 }
 - { setname: audacious-plugins,        name: audacious2-plugins }
 - { setname: audacity,                 name: [audacity-wxgtk2, audacity-3.1-wxgtk2], addflavor: wxgtk2 }
 - { setname: audacity,                 name: [audacity-freeworld,audacity-qt,audacity-local], addflavor: true }
 - { setname: audacity,                 name: [audacity-legacy, audacity2.4.2] }
-- { setname: audiness,                 name: "python:audiness" }
+- { setname: audiness,                 name: python:$0 }
 - { setname: audiofile,                name: [libaudiofile,libaudiofile0] }
 - { setname: audit,                    name: [compat-audit] }
 - { setname: audit,                    name: audit-secondary, addflavor: true }
 - { setname: augustus,                 name: [augustus-caesar-3, augustus-game] }
 - { setname: aumix,                    name: aumix-gtk, addflavor: true }
-- { setname: aunit,                    name: libaunit }
+- { setname: aunit,                    name: lib$0 }
 - { setname: ausweisapp,               name: ausweisapp2 } # XXX: problem
 - { setname: autoconf,                 namepat: "autoconf[0-9.-]+" }
 - { setname: autoconf,                 name: [autoconf-legacy, autoconf2.7x, autoconf-latest] }
 - { setname: autoconf,                 name: [autoconf-nonfree, redox-autoconf, autoconf-vanilla], addflavor: true }
-- { setname: autoconf,                 name: ["emacs:autoconf-mode", autoconf-el], addflavor: emacs }
+- { setname: autoconf,                 name: [emacs:autoconf-mode, autoconf-el], addflavor: emacs }
 - { setname: autoconvert,              name: zh-autoconvert }
-- { setname: autodia,                  name: "perl:autodia" }
-- { setname: autoflake,                name: "python:autoflake" }
+- { setname: autodia,                  name: perl:$0 }
+- { setname: autoflake,                name: python:$0 }
 - { setname: autofs,                   name: autofs5 }
 - { setname: autojump,                 name: [rust:$0, $0-rs] } # split in 850
-- { setname: autokey,                  name: [autokey-py3,"python:autokey"] }
+- { setname: autokey,                  name: [$0-py3, python:$0] }
 - { setname: automake,                 namepat: "automake-?[0-9.]+" } # do we need splits for this?
 - { setname: automatic-timezoned,      name: rust:$0 }
 - { setname: automoc,                  namepat: "automoc[0-9]+" }
-- { setname: autopep8,                 name: "python:autopep8" }
+- { setname: autopep8,                 name: python:$0 }
 - { setname: autopilot,                name: $0-legacy }
 - { setname: autosubsync-mpv,          name: mpv-autosubsync }
 - { setname: autotiling,               name: [nwg-$0, i3-$0, python:$0] }
 - { setname: autotools,                name: autotools-dev, ignore: true }
 - { setname: autotools,                name: autotools-wrappers } # ravenports
-- { setname: av1an,                    name: ["python:av1an", "python:av1an-minimal", "rust:av1an", "rust:av1an-cli", "rust:av1an-core"] }
+- { setname: av1an,                    name: [python:av1an, python:av1an-minimal, rust:av1an, rust:av1an-cli, rust:av1an-core] }
 - { setname: avaloniailspy,            name: avalonia-ilspy }
-- { setname: avdl,                     name: rust:avdl }
-- { setname: avell-unofficial-control-center, name: "python:avell-unofficial-control-center" }
+- { setname: avdl,                     name: rust:$0 }
+- { setname: avell-unofficial-control-center, name: python:$0 }
 - { setname: avidemux,                 name: [avidemux2.6,avidemux3] }
 - { setname: avidemux,                 name: [avidemux-cli,avidemux-core,avidemux-plugins,avidemux-qt,avidemux-qt4], addflavor: true }
 - { setname: avisynthplus,             name: avisynth+ }
-- { setname: avl,                      name: libavl } # unrelated projects, but sometimes mixed up, split in 850
+- { setname: avl,                      name: lib$0 } # unrelated projects, but sometimes mixed up, split in 850
 - { setname: avldrums.lv2,             name: avldrums-lv2 }
 - { setname: avogadro2,                name: avogadroapp, addflavor: app }
 - { setname: avogadrolibs,             name: avogadro2-libs }
 - { setname: avr8-burn-o-mat,          name: avr8-burn-omat }
 - { setname: avrdude,                  name: [arduino-avrdude,avrdude-bobdude], addflavor: true }
-- { setname: avro,                     name: [avro-c,avro-cpp,avro-c++,avro-java,avro-tools,"ruby:avro","python:avro","php:wikimedia-avro"], addflavor: true }
-- { setname: avro,                     name: libavro }
+- { setname: avro,                     name: [avro-c, avro-cpp, avro-c++, avro-java, avro-tools, ruby:avro, python:avro, php:wikimedia-avro], addflavor: true }
+- { setname: avro,                     name: lib$0 }
 - { setname: avw.lv2,                  name: avw-plugins-lv2 }
-- { setname: awake,                    name: python:awake }
+- { setname: awake,                    name: python:$0 }
 - { setname: awesome,                  name: awesome-luajit, addflavor: jit }
 - { setname: awesome,                  namepat: "awesome[0-9.-]+" }
 - { setname: awf,                      name: awf-git, weak_devel: true, nolegacy: true }
@@ -495,10 +495,10 @@
 - { setname: aws-cw-tools,             name: cloud-watch }
 - { setname: aws-mfa,                  name: python:$0 }
 - { setname: awsbck,                   name: rust:$0 }
-- { setname: awscli,                   name: ["python:awscli", "python:aws-cli", aws-cli, aws-cli-v2, awscli2] }
-- { setname: awsebcli,                 name: [aws-eb-cli,aws-elasticbeanstalk,"python:aws-eb-cli"] }
-- { setname: awslogs,                  name: python:awslogs }
-- { setname: awstats,                  name: "perl:awstats" }
+- { setname: awscli,                   name: [python:$0, python:aws-cli, aws-cli, aws-cli-v2, awscli2] }
+- { setname: awsebcli,                 name: [aws-eb-cli, aws-elasticbeanstalk, python:aws-eb-cli] }
+- { setname: awslogs,                  name: python:$0 }
+- { setname: awstats,                  name: perl:$0 }
 - { setname: awww,                     name: swww } # renamed
 - { setname: axe,                      name: rust:axe-cli } # split in 850
 - { setname: ayatana-ido,              name: [ayatana-ido3, libayatana-ido] }

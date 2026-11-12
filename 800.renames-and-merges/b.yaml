@@ -4,9 +4,9 @@
 - { setname: b2,                       name: b2-tools, addflavor: tools }
 - { setname: b4,                       name: python:$0 }
 - { setname: babel.js,                 name: babel-cli }
-- { setname: babeltrace,               name: "python:babeltrace", addflavor: python }
+- { setname: babeltrace,               name: python:$0, addflavor: python }
 - { setname: babeltrace,               name: babeltrace2 }
-- { setname: babl,                     name: libbabl }
+- { setname: babl,                     name: lib$0 }
 - { setname: babl,                     name: babl0.1 }
 - { setname: backintime,               name: [backintime-cli,backintime-common,backintime-qt4,backintime-qt], addflavor: true }
 - { setname: backuppc,                 name: backuppc-devel, weak_devel: true, nolegacy: true }
@@ -17,7 +17,7 @@
 - { setname: baddns,                   name: python:$0 }
 - { setname: badger,                   name: badgerdb }
 - { setname: badkeys,                  name: python:$0 }
-- { setname: badtouch,                 name: "rust:badtouch" }
+- { setname: badtouch,                 name: rust:$0 }
 - { setname: bagr,                     name: rust:$0 }
 - { setname: bahn-regio-entfernungsrechner, name: bahn-regio-entfernungsrechner-latest }
 - { setname: bakery,                   name: bakery2.6 }
@@ -61,21 +61,21 @@
 - { setname: bbswitch,                 name: [bbswitch-ck,bbswitch-ck-fbcondecor,bbswitch-dkms,bbswitch-mainline,bbswitch-next,bbswitch-pf,kernel-modules-bbswitch-std-def,kernel-modules-bbswitch-un-def], addflavor: true }
 - { setname: bc,                       name: [gnubc,gbc] }
 - { setname: bc-gh,                    name: [gavin-bc,gh-bc,howard-bc] }
-- { setname: bcc,                      name: "python:bcc", addflavor: python } # split in 850
+- { setname: bcc,                      name: python:$0, addflavor: python } # split in 850
 - { setname: bcc,                      name: bcc-tools, addflavor: tools }
 - { setname: bcc,                      name: bpfcc }
-- { setname: bcd,                      name: libbcd }
+- { setname: bcd,                      name: lib$0 }
 - { setname: bcel,                     name: bcel5-3 }
 - { setname: bcel,                     name: [apache-bcel,commons-bcel,java-bcel,java-commons-bcel,jakarta-bcel] }
-- { setname: bcfg2,                    name: "python:bcfg2" }
+- { setname: bcfg2,                    name: python:$0 }
 - { setname: bcompare,                 name: [bcompare-cinnamon,bcompare-kde4,bcompare-kde5,bcompare-mate,bcompare-nautilus,bcompare-thunar], addflavor: true }
 - { setname: bcompare,                 name: [bcompare3,bcompare4,beyond-compare,beyondcompare,beyondcompare4] }
-- { setname: bctoolbox,                name: libbctoolbox }
+- { setname: bctoolbox,                name: lib$0 }
 - { setname: bdsup2sub++,              name: bdsup2subpp }
 - { setname: beads,                    name: python:beads-mcp }
 - { setname: beagle,                   name: [libbeagle, beagle-lib, libhmsbeagle] } # ambiguous, split in 850
 - { setname: beagle,                   name: [beagle-lib-all, beagle-lib-cuda, beagle-lib-opencl], addflavor: true }
-- { setname: beancount,                name: "python:beancount" }
+- { setname: beancount,                name: python:$0 }
 - { setname: beanhub-cli,              name: python:$0 }
 - { setname: beast,                    name: beastbse }
 - { setname: beast2,                   name: beast2-mcmc }
@@ -83,13 +83,13 @@
 - { setname: beats,                    name: [beats6, beats7, beats8, elastic-beats] }
 - { setname: bedrock-server,           name: minecraft-bedrock-server }
 - { setname: bedtools,                 name: bedtools2 }
-- { setname: bedup,                    name: "python:bedup" }
+- { setname: bedup,                    name: python:$0 }
 - { setname: beef,                     name: [beef-xss, beefproject] }
 - { setname: beeper,                   name: [beeper-latest, beeper-v4, beeper-app] }
 - { setname: beets-alternatives,       name: python:$0 }
 - { setname: behaviortree-cpp,         name: [behaviortree.cpp, ros2-humble-behaviortree-cpp-v3] } # XXX: problem
-- { setname: belle-sip,                name: libbelle-sip }
-- { setname: below,                    name: "rust:below" }
+- { setname: belle-sip,                name: lib$0 }
+- { setname: below,                    name: rust:$0 }
 - { setname: benchmark,                name: [libbenchmark, gbenchmark, google-benchmark, googlebenchmark] }
 - { setname: bend,                     name: bend-language } # XXX: misnamed?
 - { setname: beneath-a-steel-sky,      name: bass, ruleset: [freebsd,gentoo,openbsd,arch,opensuse] }
@@ -142,7 +142,7 @@
 - { setname: bitwig-studio,            name: [bitwig-studio-legacy, bitwig-studio-3, bitwig-studio-4] }
 - { setname: bk,                       name: rust:$0 }
 - { setname: bkt,                      name: rust:$0 }
-- { setname: black,                    name: "python:black" }
+- { setname: black,                    name: python:$0 }
 - { setname: black-macchiato,          name: python:$0 }
 - { setname: blackbox,                 name: blackboxwm }
 - { setname: blackbox,                 name: [vcs-blackbox,scm-blackbox] } # different project, split in 850
@@ -173,7 +173,7 @@
 - { setname: blockstream-green,        name: blockstreamgreen }
 - { setname: bloodhound.py,            name: [python:bloodhound, bloodhound-py, bloodhound-python] }
 - { setname: blop-lv2,                 name: blop.lv2 }
-- { setname: bloscpack,                name: "python:bloscpack" }
+- { setname: bloscpack,                name: python:$0 }
 - { setname: bluedevil,                name: bluedevil5 }
 - { setname: bluegriffon,              name: bluegriffon-i18n, addflavor: true }
 - { setname: bluetooth-headset-battery-level, name: [python:bluetooth-battery, bluetooth-battery] }
@@ -181,7 +181,7 @@
 - { setname: bluez-qt,                 name: [bluez-qt5,kf5-bluez-qt] }
 - { setname: bluez-qt,                 name: bluez-qt-git, weak_devel: true, nolegacy: true }
 - { setname: blurhash,                 name: blurhash-cpp }
-- { setname: bmap-tools,               name: [bmaptools, "python:bmap-tools"] }
+- { setname: bmap-tools,               name: [bmaptools, python:$0] }
 - { setname: bnfc,                     name: haskell:$0 }
 - { setname: boa,                      name: [boa-cli, rust:boa-cli] } # ambigous, split in 850
 - { setname: boa-constructor,          name: boaconstructor }
@@ -202,12 +202,12 @@
 - { setname: boost-nowide,             name: nowide }
 - { setname: boostnote,                name: boost-note }
 - { setname: booth,                    name: maui-booth }
-- { setname: bootspec,                 name: rust:bootspec }
+- { setname: bootspec,                 name: rust:$0 }
 - { setname: bootstrap,                name: [twitter-bootstrap3,twitter-bootstrap4] }
 - { setname: bore,                     name: rust:$0 }
 - { setname: bore-cli,                 name: rust:$0 }
 - { setname: borg,                     name: borg2 }
-- { setname: borg-space,               name: "python:borg-space" }
+- { setname: borg-space,               name: python:$0 }
 - { setname: borgbackup,               name: [borgbackup2, python:borgbackup, python:borgbackup11] }
 - { setname: boswars,                  name: bos-wars }
 - { setname: botan,                    namepat: "(?:lib)?botan[0-9.-]*" }
@@ -224,15 +224,15 @@
 - { setname: bouncycastle,             name: java-bouncycastle } # merged to pkix?
 - { setname: bower-mail,               name: notmuch-bower }
 - { setname: bowtie,                   name: [bowtie1, bowtie2, bowtie2-legacy] }
-- { setname: box2d,                    name: libbox2d }
+- { setname: box2d,                    name: lib$0 }
 - { setname: boxbackup,                name: [boxbackup-client,boxbackup-server], addflavor: true }
 - { setname: boxbackup,                name: boxbackup-devel, weak_devel: true, nolegacy: true }
 - { setname: bpython,                  name: [bpython-py27,bpython2], addflavor: "2" }
 - { setname: bpython,                  name: [bpython3], addflavor: "3" }
-- { setname: bpython,                  name: "python:bpython" }
-- { setname: bpytop,                   name: "python:bpytop" }
+- { setname: bpython,                  name: python:$0 }
+- { setname: bpytop,                   name: python:$0 }
 - { setname: brain-workshop,           name: brainworkshop }
-- { setname: brainflow,                name: "python:brainflow", addflavor: python } # It's a single library released across multiple languages: https://github.com/brainflow-dev/brainflow
+- { setname: brainflow,                name: python:$0, addflavor: python } # It's a single library released across multiple languages: https://github.com/brainflow-dev/brainflow
 - { setname: brandy,                   name: brandybasic }
 - { setname: brasero,                  name: [brasero2,brasero-dvdcssfix] }
 - { setname: breakpad,                 name: google-breakpad }
@@ -249,52 +249,52 @@
 - { setname: brogue,                   name: [brogue-ce, broguece] }
 - { setname: brogue,                   name: brogue-ce-curses, addflavor: curses }
 - { setname: broot,                    name: rust:$0 }
-- { setname: brotli,                   name: [brotli-static,brotli-testdata,google-brotli,libbrotli,"python:brotli",python-brotli,java-brotli], addflavor: true }
+- { setname: brotli,                   name: [brotli-static, brotli-testdata, google-brotli, libbrotli, python:$0, python-brotli, java-brotli], addflavor: true }
 - { setname: brotli,                   name: brotli06 }
 - { setname: brotli,                   name: brotli06-testdata, addflavor: brotli-testdata }
 - { setname: browserpass,              name: [browserpass-chrome,browserpass-chromium,browserpass-firefox], addflavor: true } # later split into browserpass-extension
 - { setname: brscan3,                  name: brother-brscan3 }
 - { setname: brscan4,                  name: brother-brscan4 }
-- { setname: brutalmaze,               name: "python:brutalmaze" }
+- { setname: brutalmaze,               name: python:$0 }
 - { setname: bsd-games,                name: [bsdgames,bsd-games2] }
 - { setname: bsequencer,               name: bsequencer-lv2 }
 - { setname: bsh,                      name: bsh2 }
 - { setname: bstring,                  name: lib$0 }
 - { setname: btanks,                   name: battle-tanks }
 - { setname: btanks,                   name: btanks-data, addflavor: data }
-- { setname: btrfs-backup,             name: "python:btrfs-backup" }
+- { setname: btrfs-backup,             name: python:$0 }
 - { setname: btrfs-progs,              name: btrfsprogs }
 - { setname: bubblefishymon,           name: bubblefishymod }
 - { setname: bubbros,                  name: bub-n-bros, ruleset: gentoo } # XXX: recheck
-- { setname: bucardo,                  name: "perl:bucardo" }
+- { setname: bucardo,                  name: perl:$0 }
 - { setname: bugs-everywhere,          name: bugseverywhere }
 - { setname: bugzilla,                 namepat: "bugzilla[0-9.-]+" }
 - { setname: buildbot,                 namepat: "buildbot[0-9.-]+" }
-- { setname: buildbot,                 name: "python:buildbot" }
-- { setname: buildbot,                 name: [buildbot-console-view,"python:buildbot-console-view"], addflavor: console-view }
-- { setname: buildbot,                 name: [buildbot-grid-view,"python:buildbot-grid-view"], addflavor: grid-view }
-- { setname: buildbot,                 name: [buildbot-pkg,"python:buildbot-pkg"], addflavor: pkg }
-- { setname: buildbot,                 name: [buildbot-waterfall-view,"python:buildbot-waterfall-view"], addflavor: waterfall-view }
-- { setname: buildbot,                 name: [buildbot-worker,"python:buildbot-worker"], addflavor: worker }
-- { setname: buildbot,                 name: [buildbot-wsgi-dashboards,"python:buildbot-wsgi-dashboards"], addflavor: wsgi-dashboards }
-- { setname: buildbot,                 name: [buildbot-www,"python:buildbot-www"], addflavor: www }
+- { setname: buildbot,                 name: python:$0 }
+- { setname: buildbot,                 name: [buildbot-console-view, python:buildbot-console-view], addflavor: console-view }
+- { setname: buildbot,                 name: [buildbot-grid-view, python:buildbot-grid-view], addflavor: grid-view }
+- { setname: buildbot,                 name: [buildbot-pkg, python:buildbot-pkg], addflavor: pkg }
+- { setname: buildbot,                 name: [buildbot-waterfall-view, python:buildbot-waterfall-view], addflavor: waterfall-view }
+- { setname: buildbot,                 name: [buildbot-worker, python:buildbot-worker], addflavor: worker }
+- { setname: buildbot,                 name: [buildbot-wsgi-dashboards, python:buildbot-wsgi-dashboards], addflavor: wsgi-dashboards }
+- { setname: buildbot,                 name: [buildbot-www, python:buildbot-www], addflavor: www }
 - { setname: buildbot-slave,           namepat: "buildbot-slave[0-9.-]+" }
-- { setname: buildcatrust,             name: "python:buildcatrust" }
-- { setname: buildstream,              name: "python:buildstream" }
-- { setname: buku,                     name: "python:buku" }
+- { setname: buildcatrust,             name: python:$0 }
+- { setname: buildstream,              name: python:$0 }
+- { setname: buku,                     name: python:$0 }
 - { setname: buku,                     name: bukuserver, addflavor: server }
 - { setname: bullet,                   name: bullet-docs, addflavor: docs }
 - { setname: bullet,                   name: bullet3 }
-- { setname: bullet,                   name: libbullet }
-- { setname: bulletml,                 name: libbulletml }
+- { setname: bullet,                   name: lib$0 }
+- { setname: bulletml,                 name: lib$0 }
 - { setname: bulletty,                 name: rust:$0 }
-- { setname: bump2version,             name: "python:bump2version" }
-- { setname: bumpversion,              name: "python:bumpversion" }
+- { setname: bump2version,             name: python:$0 }
+- { setname: bumpversion,              name: python:$0 }
 - { setname: burp,                     name: burp-backup }
 - { setname: burp,                     name: [burp-devel,burp-backup-dev], weak_devel: true, nolegacy: true }
 - { setname: burp,                     name: [burp-server,burp2-server], addflavor: server }
 - { setname: burpsuite,                name: [burp-suite,burp-suite-free-edition,burpsuite-pro,burpsuite-legacy] }
-- { setname: burritun,                 name: "rust:burritun" }
+- { setname: burritun,                 name: rust:$0 }
 - { setname: busybox,                  name: [busybox-custom,busybox-norootreboot,busybox-static,mdev,mkinitcpio-busybox,busybox-init], addflavor: true }
 - { setname: butterfly,                name: [python:butterfly, linwood-butterfly] } # different projects, split in 850
 - { setname: butterfly,                name: linwood-butterfly-nightly, weak_devel: true, nolegacy: true }
@@ -303,5 +303,5 @@
 - { setname: bzflag,                   name: bzflag-server, addflavor: server }
 - { setname: bzip2,                    name: libbz2, addflavor: true }
 - { setname: bzr,                      name: python:$0 }
-- { setname: bzrtools,                 name: "python:bzrtools" }
+- { setname: bzrtools,                 name: python:$0 }
 - { setname: bzrtools,                 name: bzr-tools }

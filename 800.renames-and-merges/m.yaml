@@ -1,28 +1,27 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
 - { setname: m.a.r.s.,                 name: [marsshooter,mars-shooter] }
-- { setname: m17n-db,                  name: libm17n-db }
+- { setname: m17n-db,                  name: lib$0 }
 - { setname: m17n-lib,                 name: libm17n }
 - { setname: m4,                       name: [gnum4,m4-gnu,gm4] }
-- { setname: maatkit,                  name: "perl:maatkit" }
+- { setname: maatkit,                  name: perl:$0 }
 - { setname: mac,                      name: mac-optimised, addflavor: true }
-- { setname: mac,                      name: libmac }
+- { setname: mac,                      name: lib$0 }
 - { setname: mac-telnet,               name: mactelnet }
 - { setname: macports,                 name: macports-base, addflavor: true } # macports client in AUR
 - { setname: maelstrom,                name: maelstrom-sdl }
 - { setname: maestro,                  name: python:maestro-music }
 - { setname: magic,                    name: magic-vlsi }
-- { setname: magic-wormhole,           name: "python:magic-wormhole" }
-- { setname: magic-wormhole-mailbox-server, name: "python:magic-wormhole-mailbox-server" }
-- { setname: magic-wormhole-rs,        name: "rust:magic-wormhole" }
-- { setname: magic-wormhole-rs,        name: "wormhole-rs" }
-- { setname: magic-wormhole-transit-relay, name: "python:magic-wormhole-transit-relay" }
+- { setname: magic-wormhole,           name: python:$0 }
+- { setname: magic-wormhole-mailbox-server, name: python:$0 }
+- { setname: magic-wormhole-rs,        name: [rust:magic-wormhole, wormhole-rs] }
+- { setname: magic-wormhole-transit-relay, name: python:$0 }
 - { setname: magpie,                   name: [magpie-wm, perl:app-magpie] } # unrelated, split in 850
 - { setname: mail-deduplicate,         name: python:$0 }
 - { setname: maildrop,                 name: courier-maildrop }
 - { setname: mailman,                  name: mailman3 }
 - { setname: mailman,                  name: [mailman3-core,mailman-core], addflavor: core }
-- { setname: mailman,                  name: "python:mailman" }
+- { setname: mailman,                  name: python:$0 }
 - { setname: mailman,                  name: [mailman-exim4,mailman-postfix], addflavor: true }
 - { setname: mailx,                    name: bsd-mailx }
 - { setname: make,                     name: [gmake,gnumake,make-3.81,make3,make-gnu,make381] }
@@ -45,8 +44,8 @@
 - { setname: mantis,                   name: php:$0 }
 - { setname: manuals,                  name: gnome-manuals }
 - { setname: maplibre-native,          name: maplibre-gl-native }
-- { setname: mapnik,                   name: libmapnik }
-- { setname: mapproxy,                 name: "python:mapproxy" }
+- { setname: mapnik,                   name: lib$0 }
+- { setname: mapproxy,                 name: python:$0 }
 - { setname: maptool,                  name: maptool-stable }
 - { setname: maptool,                  name: maptool-beta, weak_devel: true, nolegacy: true }
 - { setname: marathon,                 name: [alephone-marathon, marathon-data] }
@@ -62,21 +61,21 @@
 - { setname: mariadb,                  name: [mariadb-galera,mariadb-mainline-noconflict], addflavor: true }
 - { setname: mariadb,                  name: $0-lts }
 - { setname: mariadb-connector-c,      name: [libmariadb, libmariadbclient, mariadb-c-client], ignore: true } # incorrect names, may come from other projects
-- { setname: mariadb-mysql-kbs,        name: "php:williamdes-mariadb-mysql-kbs" } # XXX: problem
+- { setname: mariadb-mysql-kbs,        name: php:williamdes-mariadb-mysql-kbs } # XXX: problem
 - { setname: mariadb-mytop,            name: mytop, ruleset: arch }
-- { setname: mariadb-mytop,            name: "mytop-10.3" }
+- { setname: mariadb-mytop,            name: mytop-10.3 }
 - { setname: mariadb-mytop,            name: mytop-mainline-noconflict, addflavor: true }
 - { setname: marimo,                   name: python:$0 }
 - { setname: marisa,                   name: [lib$0, marisa-trie] }
 - { setname: marisa,                   name: [python:$0, python:lib$0], addflavor: python }
-- { setname: marisa,                   name: ["perl:$0", "perl:lib$0"], addflavor: perl }
-- { setname: marisa,                   name: ["ruby:$0"], addflavor: ruby }
-- { setname: markdown-link-check,      name: "node:$0" }
-- { setname: markdownfmt,              name: "go:github-shurcool-markdownfmt" }
+- { setname: marisa,                   name: [perl:$0, perl:lib$0], addflavor: perl }
+- { setname: marisa,                   name: ruby:$0, addflavor: ruby }
+- { setname: markdown-link-check,      name: node:$0 }
+- { setname: markdownfmt,              name: go:github-shurcool-markdownfmt }
 - { setname: markets,                  name: bitstower-markets }
 - { setname: markless,                 name: rust:$0 }
 - { setname: marktext,                 name: mark-text }
-- { setname: mash,                     name: libmash }
+- { setname: mash,                     name: lib$0 }
 - { setname: master-me,                name: masterme }
 - { setname: master-pdf-editor,        name: [masterpdfeditor,masterpdfeditor4,master-pdf-editor5,master-pdf-editor5paid] }
 - { setname: master-pdf-editor,        name: masterpdfeditor-free, legacy: true }
@@ -84,7 +83,7 @@
 - { setname: master-pdf-editor,        name: masterpdfeditor-libs-included, addflavor: libs-included }
 - { setname: masterpackager,           name: master-packager }
 - { setname: mastodon,                 name: mastodon-docker, addflavor: docker }
-- { setname: mat2,                     name: "python:mat2" }
+- { setname: mat2,                     name: python:$0 }
 - { setname: matcha,                   name: [matcha-client, matcha-rss-digest] } # split in 850
 - { setname: mate-applets,             name: mate-applets-dev, weak_devel: true, nolegacy: true }
 - { setname: mate-applets,             name: mate-applets-gtk2, addflavor: true }
@@ -132,13 +131,13 @@
 - { setname: mathicsscript,            name: python:$0 }
 - { setname: mathjax,                  name: [mathjax2, mathjax3] }
 - { setname: mathjax,                  name: [node:mathjax, js-mathjax, js:mathjax] }
-- { setname: matio,                    name: libmatio }
+- { setname: matio,                    name: lib$0 }
 - { setname: matomo,                   name: matomo-beta, weak_devel: true, nolegacy: true }
-- { setname: matomo,                   name: "php:matomo" }
-- { setname: matrix-synapse,           name: "python:matrix-synapse" }
+- { setname: matomo,                   name: php:$0 }
+- { setname: matrix-synapse,           name: python:$0 }
 - { setname: mattermost,               name: [mattermost-server, mattermost-webapp], addflavor: true }
 - { setname: mattermost-desktop,       name: mattermostdesktop }
-- { setname: maturin,                  name: ["python:maturin", "rust:maturin"] }
+- { setname: maturin,                  name: [python:$0, rust:$0] }
 - { setname: mauikit-archiver,         name: maui-mauikit-archiver }
 - { setname: maven,                    name: apache-maven }
 - { setname: maven,                    name: [apache-maven-bin,maven-bin], addflavor: bin }
@@ -153,10 +152,10 @@
 - { setname: mc,                       name: mc46 }
 - { setname: mc,                       name: mc-light, addflavor: true }
 - { setname: mcl,                      name: [mcl14, libmcl, mcl-cpp-utility-lib] }
-- { setname: mcpp,                     name: libmcpp, addflavor: lib }
+- { setname: mcpp,                     name: lib$0, addflavor: lib }
 - { setname: mcpp,                     name: [mcpp-m, zeroc-mcpp] } # different projects, split in 850
 - { setname: mcron,                    name: mcron2 }
-- { setname: md2pdf,                   name: python:md2pdf }
+- { setname: md2pdf,                   name: python:$0 }
 - { setname: md4c,                     name: lib$0 }
 - { setname: md5deep,                  name: hashdeep }
 - { setname: mda-lv2,                  name: mda.lv2 }
@@ -197,12 +196,12 @@
 - { setname: mdk,                      name: gnu-mdk }
 - { setname: mdk,                      name: mdk-doc, addflavor: true }
 # All the MDLs get disambiguated in the 850 ruleset
-- { setname: mdl,                      name: "ruby:mdl" }
+- { setname: mdl,                      name: ruby:$0 }
 - { setname: mdp,                      name: gpg-mdp } # different from mdp-src, split in 850
 - { setname: mdp,                      name: mdp-src } # different from gpg-mdp, split in 850
-- { setname: me-cleaner,               name: "python:me-cleaner" }
+- { setname: me-cleaner,               name: python:$0 }
 - { setname: meandmyshadow,            name: me-and-my-shadow }
-- { setname: meanwhile,                name: libmeanwhile }
+- { setname: meanwhile,                name: lib$0 }
 - { setname: med,                      name: [medfile,med-fichier,libmed,med3,med-c,libmedc,libmedfile,salome-med-fichier] }
 - { setname: med,                      name: [med-openmpi,med-salome,med-tools], addflavor: true }
 - { setname: med,                      name: [med-memory-editor, memory-editor] }
@@ -225,10 +224,10 @@
 - { setname: memtest,                  name: memtest-bin, addflavor: true }
 - { setname: memtest86+,               name: [memtestplus, memtest86plus] }
 - { setname: mendeley,                 name: [mendeley-desktop, mendeley-reference-manager, mendeleydesktop] }
-- { setname: menulibre,                name: "python:menulibre" }
+- { setname: menulibre,                name: python:$0 }
 - { setname: meow,                     name: rust:meow-cli }
-- { setname: mercator,                 name: libmercator }
-- { setname: mercurial,                name: [hg,"python:mercurial"] }
+- { setname: mercator,                 name: lib$0 }
+- { setname: mercurial,                name: [hg, python:$0] }
 - { setname: mercurial,                name: [hgweb, mercurial-full], addflavor: true }
 - { setname: mercury,                  name: mercury-minimal, addflavor: true } # NOTE: different projects, split in 850
 - { setname: mercury,                  name: [mercury-browser-avx2, mercury-browser-sse4], addflavor: true }
@@ -236,14 +235,14 @@
 - { setname: mercury,                  name: ccdc-mercury }
 - { setname: mercury,                  name: mercury-extras, addflavor: true }
 - { setname: mergiraf,                 name: rust:$0 }
-- { setname: merlin,                   name: "ocaml:merlin" }
+- { setname: merlin,                   name: ocaml:$0 }
 - { setname: mesa,                     name: [mesa-legacy,mesa18] }
 - { setname: mesa,                     name: [mesa-minimal,mesa-wayland,mesa-enable-h264,mesa-freeworld,mesa-gallium-va,mesa-gallium-vdpau,mesa-gallium-xa,mesa3d-headers,mesa-opencl,mesa-opencl-icd,mesa-revyos,mesa-amdonly-gaming], addflavor: true }
 - { setname: mesa,                     name: [mesa-devel, mesa-git], weak_devel: true, nolegacy: true }
 - { setname: mesa-demos,               name: [mesa-demo,mesademos,mesa3d-demos,mesa-progs] }
 - { setname: mesa-demos,               name: glxinfo, addflavor: true }
 - { setname: meshoptimizer,            name: gltfpack, addflavor: true } # part of
-- { setname: meson,                    name: ["python:meson",meson-internal,meson-testsuite], addflavor: true }
+- { setname: meson,                    name: [python:$0, $0-internal, $0-testsuite], addflavor: true }
 - { setname: meson,                    name: [meson054, meson1] }
 - { setname: meta-package-manager,     name: python:$0 }
 - { setname: metadata,                 name: rust:$0 }
@@ -256,8 +255,8 @@
 - { setname: mfgtools,                 name: mfgtools-git-noproxy, addflavor: noproxy, weak_devel: true, nolegacy: true }
 - { setname: mgba,                     name: mgba-qt, addflavor: true }
 - { setname: mgltools,                 namepat: "mgltools-.*", ruleset: debuntu }
-- { setname: mhash,                    name: libmhash }
-- { setname: mhonarc,                  name: "perl:mhonarc" }
+- { setname: mhash,                    name: lib$0 }
+- { setname: mhonarc,                  name: perl:$0 }
 - { setname: micro,                    name: micro-editor }
 - { setname: micro,                    name: micro-nightly, weak_devel: true, nolegacy: true }
 - { setname: micro-httpd,              name: microhttpd }
@@ -283,11 +282,11 @@
 - { setname: minetest-game,            name: luanti-game-minetest }
 - { setname: minetest-mineclone2,      name: [minetest-mineclone, mineclone-2] }
 - { setname: minetest-mineclone5,      name: mineclone-5 }
-- { setname: ming,                     name: libming }
+- { setname: ming,                     name: lib$0 }
 - { setname: miniaudicle,              name: mini-audicle } # XXX problem, incorrect name
 - { setname: minisat,                  name: [libminisat, minisat2] }
-- { setname: miniserve,                name: "rust:miniserve" }
-- { setname: miniupnpc,                name: "python:miniupnpc", addflavor: python }
+- { setname: miniserve,                name: rust:$0 }
+- { setname: miniupnpc,                name: python:$0, addflavor: python }
 - { setname: miniupnpc,                name: miniupnpc16 }
 - { setname: minivmac,                 name: mini-vmac }
 - { setname: minivmac,                 name: [minivmac-devel, minivmac-beta], weak_devel: true, nolegacy: true }
@@ -295,7 +294,7 @@
 - { setname: minivmac,                 name: [$0-128k-devel, $0-512k-devel, $0-512ke-devel, $0-plus-devel, $0-se-devel, $0-sefdhd-devel, $0-classic-devel, $0-custom-devel, $0-ii-devel], addflavor: true, weak_devel: true, nolegacy: true }
 - { setname: minixml,                  name: libmxml }
 - { setname: minizincide,              name: minizinc-ide }
-- { setname: minizip,                  name: libminizip }
+- { setname: minizip,                  name: lib$0 }
 - { setname: minizip,                  name: [minizip-static], addflavor: true }
 - { setname: minizip,                  namepat: "minizip[0-9.-]+" }
 - { setname: minizip-ng,               name: [lib$0, $0-compat] }
@@ -305,25 +304,25 @@
 - { setname: miro-video-converter,     name: mirovideoconverter  }
 - { setname: mirrormagic,              name: mirrormagic-sdl }
 - { setname: mit-scheme,               name: [mit-scheme-bin,mit-scheme-c,mit-scheme-x11], addflavor: true } # mit-scheme-c was available with 9.x, but not 10.x releases
-- { setname: mitmproxy,                name: "python:mitmproxy" }
+- { setname: mitmproxy,                name: python:$0 }
 - { setname: mixxx,                    namepat: "mixxx[0-9.-]+" }
 - { setname: mixxx,                    name: [mixxx-unstable,mixxx-beta], weak_devel: true, nolegacy: true }
 - { setname: mixxx,                    name: mixxx-qt5, addflavor: true }
-- { setname: mkcert,                   name: "go:mkcert", addflavor: true }
+- { setname: mkcert,                   name: go:$0, addflavor: true }
 - { setname: mkl,                      name: intel-mkl }
 - { setname: mksh,                     name: mksh-static, addflavor: true }
 - { setname: mlc,                      name: [rust:mlc, markuplinkchecker] } # split in 850
 - { setname: mldonkey,                 name: [mldonkey-core,mldonkey-gui,mldonkey-ed2kad-daemon], addflavor: true }
 - { setname: mlt,                      name: [mlt6,mlt7] }
-- { setname: mlt,                      name: [mlt-qt5,mlt6-qt5,mlt7-qt5], addflavor: qt5 }
-- { setname: mlt,                      name: ["python:mlt6",mlt-python-bindings,mlt-python2-bindings], addflavor: python }
-- { setname: mlt,                      name: [libmlt,mlt-qt4,mlt-freeworld,mlt-bindings,mlt7-glaxnimate], addflavor: true }
-- { setname: mmtc,                     name: "rust:mmtc" }
+- { setname: mlt,                      name: [mlt-qt5, mlt6-qt5, mlt7-qt5], addflavor: qt5 }
+- { setname: mlt,                      name: [python:mlt6, mlt-python-bindings, mlt-python2-bindings], addflavor: python }
+- { setname: mlt,                      name: [libmlt, mlt-qt4, mlt-freeworld, mlt-bindings, mlt7-glaxnimate], addflavor: true }
+- { setname: mmtc,                     name: rust:$0 }
 - { setname: mmtf-cpp,                 name: libmmtf }
 - { setname: mmv,                      name: [go:mmv, mmv-go,mmv-origin] } # split in 850
 - { setname: moc,                      name: moc-pulse, addflavor: pulse }
 - { setname: moc,                      name: mocp }
-- { setname: mockery,                  name: go:mockery }
+- { setname: mockery,                  name: go:$0 }
 - { setname: mockgen,                  name: [go:github-golang-mock, go:github-mock, go:mockgen, go:googlecode-gomock] } # just for the sake of version rule
 - { setname: modeltest-ng,             name: [modeltest-ng-mpi, modeltest-ng-portable], addflavor: true }
 - { setname: modemmanager,             name: modem-manager }
@@ -331,10 +330,10 @@
 - { setname: modemmanager,             name: modemmanager-dev, weak_devel: true, nolegacy: true }
 - { setname: modplug-tools,            name: modplugplay, sink: true } # modplugplay (2003, upstream dead) is now contained in modplugtools (2010); the latter also uses own versioning scheme
 - { setname: modplug-tools,            name: modplugtools }
-- { setname: modsecurity,              name: ["apmod:modsecurity","apmod:security","apmod:security2", libmodsecurity,mod-security,modsecurity,modsecurity-apache,modsecurity3] }
-- { setname: modsecurity-crs,          name: [modsecurity-crs,mod-security-crs,owasp-modsecurity-crs,"apmod:security-crs"] }
-- { setname: mogui,                    name: "python:modules-gui" }
-- { setname: moinmoin,                 name: [moinmoin-wiki, "python:moinmoin"] }
+- { setname: modsecurity,              name: [apmod:modsecurity,apmod:security,apmod:security2, libmodsecurity, mod-security, modsecurity, modsecurity-apache, modsecurity3] }
+- { setname: modsecurity-crs,          name: [modsecurity-crs, mod-security-crs, owasp-modsecurity-crs, apmod:security-crs] }
+- { setname: mogui,                    name: python:modules-gui }
+- { setname: moinmoin,                 name: [$0-wiki, python:$0] }
 - { setname: mole,                     name: mole-cleaner }
 - { setname: monero-gui,               name: monero-wallet } # homebrew casks weird naming
 - { setname: money,                    name: nickvision-money, addflavor: true } # aur has two packages, add flavor to avoid unwanted legacy status
@@ -348,7 +347,7 @@
 - { setname: mongodb,                  name: mongodb-beta, weak_devel: true, nolegacy: true }
 - { setname: mongodb-atlas-cli,        name: mongodb-atlas }
 - { setname: mongodb-cli,              name: mongocli }
-- { setname: mongoose,                 name: libmongoose } # split in 850
+- { setname: mongoose,                 name: lib$0 } # split in 850
 - { setname: mongoose,                 name: mongoose-server } # split in 850
 - { setname: mongosh,                  name: mongodb-shell }
 - { setname: mono-flickrnet,           name: flickrnet-bin, addflavor: true }
@@ -357,14 +356,14 @@
 - { setname: monocle,                  name: rust:$0 }
 - { setname: monotone,                 name: monotone-server, addflavor: true }
 - { setname: moodle,                   namepat: "moodle[0-9.-]+" }
-- { setname: moodle-dl,                name: "python:moodle-dl" }
+- { setname: moodle-dl,                name: python:$0 }
 - { setname: moon-lander,              name: moonlander, ruleset: [freebsd,openbsd] }
 - { setname: moony.lv2,                name: moony-lv2 }
 - { setname: mopidy,                   name: python:$0 }
 - { setname: morewaita-icon-theme,     name: icon-theme-morewaita }
 - { setname: moria,                    name: umoria }
 - { setname: morpheus,                 name: morpheus-modeling }
-- { setname: mosquitto,                name: libmosquitto }
+- { setname: mosquitto,                name: lib$0 }
 - { setname: motif,                    name: [open-motif, openmotif, openmotif22] }
 - { setname: motif,                    name: open-motif-devel, weak_devel: true, nolegacy: true }
 - { setname: motif,                    name: motif-reference-manual, addflavor: true }
@@ -374,7 +373,7 @@
 - { setname: mozc,                     name: [emacs:mozc,emacs-mozc,ibus-mozc,mozc-el,mozc-elisp,mozc-renderer,mozc-server,mozc-tool,mozc-ut,uim-mozc,mozc-ut-full,mozc-with-jp-dict], addflavor: true }
 - { setname: mozilla-dicts,            namepat: "mozilla-dicts-.*", ruleset: openbsd }
 - { setname: mozjpeg,                  name: mozjpeg-opt, addflavor: true }
-- { setname: mozjs,                    name: libmozjs }
+- { setname: mozjs,                    name: lib$0 }
 - { setname: mozjs,                    namepat: "mozjs[0-9.-]+" }
 - { setname: mozo,                     name: mozo-gtk2, addflavor: true }
 - { setname: mozo,                     name: mozo-dev, weak_devel: true, nolegacy: true }
@@ -396,7 +395,7 @@
 - { setname: mpqc,                     name: mpqc-shared, addflavor: true }
 - { setname: mpqc,                     name: mpqc3 }
 - { setname: mps,                      name: [mps.eap, mps-eap] }
-- { setname: mps-youtube,              name: "python:mps-youtube" }
+- { setname: mps-youtube,              name: python:$0 }
 - { setname: mpv,                      name: [mpv-player,mpv-legacy] }
 - { setname: mpv,                      name: mpvio } # chocolatey woes (see report for mpvio)
 - { setname: mpv,                      name: [mpv-full,mpv-light,mpv-rpi,mpv-scripts,mpv-sndio,mpv-thin,mpv-tools,mpv-with-scripts,mpv-amd-full,mpv-build,mpv-caca,mpv-full-build,mpv-light-pulse,mpv-vapoursynth,umpv,mpv-x], addflavor: true }
@@ -411,17 +410,17 @@
 - { setname: ms-sys,                   name: ms-sys-devel, weak_devel: true, nolegacy: true }
 - { setname: msbuild,                  name: [msbuild-stable,msbuild-15] }
 - { setname: msbuild,                  name: msbuild-bin, addflavor: true }
-- { setname: msgpack,                  name: libmsgpack }
+- { setname: msgpack,                  name: lib$0 }
 - { setname: msgpack,                  namepat: "msgpack[0-9.-]+" }
 - { setname: msgpack-c,                name: [libmsgpack-c, msgpack-c-c, msgpack-c] }
 - { setname: msgpack-cxx,              name: [lib$0, msgpack-cpp, msgpack-c-cpp] }
 - { setname: msilbc,                   name: [libmediastreamer-ilbc, mediastreamer-plugin-msilbc] }
-- { setname: msquic,                   name: libmsquic }
+- { setname: msquic,                   name: lib$0 }
 - { setname: mstflint,                 name: mstflint4 }
 - { setname: msynctool,                namepat: "msynctool[0-9]+" }
 - { setname: mt32emu,                  name: [libmt32emu, munt-mt32emu] }
-- { setname: mtdev,                    name: libmtdev }
-- { setname: mtxclient,                name: libmtxclient }
+- { setname: mtdev,                    name: lib$0 }
+- { setname: mtxclient,                name: lib$0 }
 - { setname: mullvad-browser,          name: mullvadbrowser }
 - { setname: mullvad-browser,          name: mullvad-browser-latest, weak_devel: true, nolegacy: true }
 - { setname: mullvad-closest,          name: python:$0 }
@@ -461,15 +460,15 @@
 - { setname: mvapich2,                 name: mvapich2-testsuite, addflavor: true }
 - { setname: mvapich2,                 name: [mvapich2x, mvapich] }
 - { setname: mvwm,                     name: mvwm-git, weak_devel: true, nolegacy: true }
-- { setname: mx,                       name: libmx }
+- { setname: mx,                       name: lib$0 }
 - { setname: mxml,                     name: mxml-static, addflavor: true }
 - { setname: mxml,                     name: [minixml, mini-xml, mxml3] }
-- { setname: mybrowse,                 name: "python:mybrowse" }
+- { setname: mybrowse,                 name: python:$0 }
 - { setname: mygnuhealth,              name: python:$0 }
 - { setname: mygui,                    namepat: "mygui-(docs|dummy|gl|opengl|ogre[0-9.-]*)", addflavor: $1 }
-- { setname: mygui,                    name: libmygui }
+- { setname: mygui,                    name: lib$0 }
 - { setname: mypaint-brushes,          namepat: "mypaint[0-9.-]*brushes[0-9.-]*" }
-- { setname: mypy,                     name: "python:mypy" }
+- { setname: mypy,                     name: python:$0 }
 - { setname: myrepos,                  name: mr }
 - { setname: mysql,                    namepat: "libmysqlclient[0-9.-]*" }
 - { setname: mysql,                    namepat: "mysql-clients[0-9.-]*" }

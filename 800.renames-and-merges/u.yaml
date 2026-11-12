@@ -5,46 +5,46 @@
 - { setname: uade,                     name: [uade123,uade2] }
 - { setname: uap-core,                 name: ua-parser-core }
 - { setname: ubisoft-connect,          name: ubisoftconnect }
-- { setname: uchardet,                 name: libuchardet }
+- { setname: uchardet,                 name: lib$0 }
 - { setname: ucsc-genome-browser,      name: [kent, kent-tools] }
-- { setname: udis86,                   name: libudis86 }
+- { setname: udis86,                   name: lib$0 }
 - { setname: udis86,                   name: udis86-git, weak_devel: true, nolegacy: true }
-- { setname: udiskie,                  name: "python:udiskie" }
+- { setname: udiskie,                  name: python:$0 }
 - { setname: udisks,                   name: [udisks-2,udisks2] }
 - { setname: udisks,                   name: [udisks2-elogind,udisks2-nosystemd,libudisks], addflavor: true }
 - { setname: udunits,                  name: udunits2 }
-- { setname: ueberzug,                 name: "python:ueberzug" }
+- { setname: ueberzug,                 name: python:$0 }
 - { setname: ufoai,                    name: [ufoai-data,ufoai-maps,ufoai-music], addflavor: true }
 - { setname: ufoai,                    name: [ufo-ai, ufo-alien-invasion] }
 - { setname: ufomerge,                 name: python:$0 }
 - { setname: ufraw,                    name: gimp-ufraw }
-- { setname: uglify-js,                name: ["node:uglify-js",uglify-es,uglify-js1,uglifyjs] }
+- { setname: uglify-js,                name: [node:$0, uglify-es, uglify-js1, uglifyjs] }
 - { setname: ugrep,                    name: ugrep-indexer, addflavor: true } # merged into ugrep
 - { setname: uhd,                      name: [libuhd,libuhd-firmware,uhd-39lts,uhd-images] }
-- { setname: uhttpmock,                name: libuhttpmock }
+- { setname: uhttpmock,                name: lib$0 }
 - { setname: uim,                      name: [uim-anthy,uim-el,uim-elisp,uim-gtk,uim-gtk3,uim-kde4,uim-m17nlib,uim-qt,uim-qt4,uim-qt5,qt5-uim], addflavor: true }
-- { setname: ulfius,                   name: libulfius }
+- { setname: ulfius,                   name: lib$0 }
 - { setname: ultimatestunts,           name: ultimate-stunts }
 - { setname: ultramaster-kr106,        name: kr106 }
 - { setname: ultrastar-deluxe,         name: [ultrastardeluxe,ultrastardx] }
 - { setname: umbriel,                  name: $0-nightly, weak_devel: true, nolegacy: true }
 - { setname: umka-lang,                name: [umkalang, umka] }
-- { setname: umockdev,                 name: libumockdev }
+- { setname: umockdev,                 name: lib$0 }
 - { setname: unace,                    name: [unace-bin,unace-nonfree] }
 - { setname: unar,                     name: unar-debug, addflavor: true }
-- { setname: unarr,                    name: libunarr }
-- { setname: unbound,                  name: [libunbound,"python:unbound",pyunbound,unbound-ecs], addflavor: true }
+- { setname: unarr,                    name: lib$0 }
+- { setname: unbound,                  name: [libunbound, python:unbound, pyunbound, unbound-ecs], addflavor: true }
 - { setname: unbound,                  name: libunbound-devel-mini, addflavor: true, weak_devel: true, nolegacy: true }
-- { setname: unburden-home-dir,        name: "perl:unburden-home-dir" }
+- { setname: unburden-home-dir,        name: perl:$0 }
 - { setname: unclutter,                name: unclutter-patched, addflavor: true }
 - { setname: uncrustify,               name: uncrustify0.60 }
 - { setname: unfs3,                    name: unfsd, addflavor: true }
 - { setname: unfs3,                    name: unfs3-sunrpc, disposable: true } # ravenports: latest unfs3 version which supposedly works on bsd preserved
-- { setname: unftp,                    name: "rust:unftp" }
+- { setname: unftp,                    name: rust:$0 }
 - { setname: unfurl,                   name: python:$0 }
 - { setname: ungoogled-chromium,       name: [chromium-browser-privacy,chromium-ungoogled,chromium-ungoogled-browser] }
 - { setname: ungoogled-chromium,       name: [ungoogled-chromium-wayland,ungoogled-chromium-xdg,ungoogled-chromium-linchrome], addflavor: true }
-- { setname: unibilium,                name: libunibilium }
+- { setname: unibilium,                name: lib$0 }
 - { setname: unico,                    name: [gtk-engine-unico,gtk-engines-unico,gtk-unico-engine,gtk3-engine-unico,gtk3-unico-engine] }
 - { setname: unicode-character-database, name: [ucd, unicode-ucd, unicode-data] }
 - { setname: unicode-character-database, name: [unihan-database, unicode-ucd-unihan], addflavor: unihan }
@@ -52,7 +52,7 @@
 - { setname: unicode-character-database, name: unicode-emoji, addflavor: emoji }
 - { setname: unicode-cldr,             name: [unicode-cldr-common, cldr-annotations, cldr-emoji-annotation, unicode-cldr, unicode-cldr-annotations, unicode-cldr-core], addflavor: emoji }
 - { setname: unicon,                   name: unicon-lang }
-- { setname: unicorn-engine,           name: ["python:unicorn", unicorn-emulator] }
+- { setname: unicorn-engine,           name: [python:unicorn, unicorn-emulator] }
 - { setname: unicorn-engine,           name: unicorn-bindings, addflavor: bindings }
 - { setname: unifi,                    namepat: "unifi[0-9.-]+" }
 - { setname: unifi,                    name: [ubiquiti-unifi-controller, unifi-controller] }
@@ -87,10 +87,10 @@
 - { setname: unreal-tournament,        name: [unrealtournament, unreal-tournament-goty] } # proprietary
 - { setname: unrealircd,               name: unreal-ircd }
 - { setname: unrealircd,               name: unrealircd-pie, addflavor: true }
-- { setname: unshield,                 name: libunshield }
+- { setname: unshield,                 name: lib$0 }
 - { setname: unzip,                    name: [unzip-iconv,unzip-natspec,unzip-rcc], addflavor: true }
 - { setname: upm,                      name: [universal-password-manager, libupm] } # different projects, split in 850
-- { setname: upnp-inspector,           name: "python:upnp-inspector" }
+- { setname: upnp-inspector,           name: python:$0 }
 - { setname: upower,                   namepat: "(?:compat-)?upower[0-9]*" }
 - { setname: upower,                   name: [upower-nocritical,upower-pm-utils], addflavor: true }
 - { setname: upplay,                   name: upplay-qt6, addflavor: true }
@@ -106,7 +106,7 @@
 - { setname: uriparser,                name: [liburiparser,liburiparser1], addflavor: lib }
 - { setname: uriparser,                name: $0-doc, addflavor: doc }
 - { setname: urlencode,                name: rust:$0 }
-- { setname: urlwatch,                 name: "python:urlwatch" }
+- { setname: urlwatch,                 name: python:$0 }
 - { setname: usacloud,                 name: usacloud-core, addflavor: true }
 - { setname: usb.ids,                  name: usbids }
 - { setname: usbip,                    name: usbip-legacy }
@@ -118,12 +118,12 @@
 - { setname: uthash,                   name: [libuthash-devel,uthash-devel], weak_devel: true, nolegacy: true }
 - { setname: util-dfm,                 name: deepin-$0 }
 - { setname: uucp,                     name: taylor-uucp }
-- { setname: uutils-coreutils,         name: [coreutils-uutils, uutils, "rust:coreutils", "rust:uucore"] } # also rust:uu-*, but that may mismerge findutils bits
+- { setname: uutils-coreutils,         name: [coreutils-uutils, uutils, rust:coreutils, rust:uucore] } # also rust:uu-*, but that may mismerge findutils bits
 - { setname: uv,                       name: [rust:$0,python:$0,$0-bin], addflavor: true }
 - { setname: uv,                       name: [python:uv-build,python:uv-build08], addflavor: uv-build }
-- { setname: uvicorn,                  name: python:uvicorn }
+- { setname: uvicorn,                  name: python:$0 }
 - { setname: uwm-ude,                  name: ude } # technically it's named uwm; see also rule in 850
-- { setname: uwsgi,                    name: "python:uwsgi" }
+- { setname: uwsgi,                    name: python:$0 }
 - { setname: uwsgi,                    name: [uwsgi-plugin-php53,uwsgi-plugin-php56,uwsgi-plugin-php71,uwsgi-plugin-rack22], addflavor: true } # these come from uwsgi itself
-- { setname: uwsgitop,                 name: "python:uwsgitop" }
+- { setname: uwsgitop,                 name: python:$0 }
 - { setname: uyou-todo,                name: $0-snap, addflavor: true }

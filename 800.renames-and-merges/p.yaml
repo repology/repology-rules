@@ -15,7 +15,7 @@
 - { setname: pacman,                   name: archlinux-pacman }
 - { setname: pacman,                   name: [pacman-static,pacman-debug,pacman-pb], addflavor: true }
 - { setname: pacman-arena,             name: pacmanarena }
-- { setname: pactorio,                 name: "rust:pactorio" }
+- { setname: pactorio,                 name: rust:$0 }
 - { setname: padthv1,                  name: padthv1-lv2 }
 - { setname: page,                     name: page-generator }
 - { setname: pagefind,                 name: rust:$0 }
@@ -28,11 +28,11 @@
 - { setname: pakku,                    name: pakku-mc }
 - { setname: pam,                      name: [libpam,linux-pam] }
 - { setname: pam,                      name: pam-selinux, addflavor: true }
-- { setname: pam-ccreds,               name: libpam-ccreds }
-- { setname: pam-ldap,                 name: libpam-ldap }
+- { setname: pam-ccreds,               name: lib$0 }
+- { setname: pam-ldap,                 name: lib$0 }
 - { setname: pam-radius,               name: [libpam-radius-auth,pam-pam-radius-auth,pam-radius-auth] }
 - { setname: pamac,                    name: [pamac-aur, pamac-cli, pamac-tray-appindicator], addflavor: true }
-- { setname: pandoc,                   name: haskell:pandoc }
+- { setname: pandoc,                   name: haskell:$0 }
 - { setname: pandoc,                   name: [pandoc-bin, pandoc-static], addflavor: true }
 - { setname: pango,                    name: [$0-reference, $0-static], addflavor: true }
 - { setname: pango,                    name: pango-legacy }
@@ -51,14 +51,14 @@
 - { setname: par,                      name: [par-format, par-text, par1cmdline] } # also split in 850
 - { setname: parallel,                 name: gnu-parallel }
 - { setname: pari,                     name: [parigp, pari25, libpari23, pari-gp] }
-- { setname: parted,                   name: libparted, addflavor: true }
+- { setname: parted,                   name: lib$0, addflavor: true }
 - { setname: pass,                     name: [pass-parcellite,pass-patched-passmenu-notify,pass-wl-clipboard], addflavor: true } # mostly same as password-store, merged in 850
-- { setname: pass-station,             name: "ruby:pass-station" }
-- { setname: passbolt-cli,             name: "go:passbolt-cli" }
-- { setname: passenger,                name: ["ruby:passenger-apache", "ruby:passenger-nginx", "nginx:passenger","apmod:ruby26-passenger","ruby:passenger"], addflavor: true }
+- { setname: pass-station,             name: ruby:$0 }
+- { setname: passbolt-cli,             name: go:$0 }
+- { setname: passenger,                name: [ruby:passenger-apache, ruby:passenger-nginx, nginx:passenger, apmod:ruby26-passenger, ruby:passenger], addflavor: true }
 - { setname: passes,                   name: passes-gtk, addflavor: true }
 - { setname: password-store,           name: [passwordstore] }
-- { setname: password-store,           name: "emacs:password-store", addflavor: emacs }
+- { setname: password-store,           name: emacs:$0, addflavor: emacs }
 - { setname: pastel,                   name: [rust:$0, python:$0, ruby:$0] }
 - { setname: pastel,                   name: jappis-pastel }
 - { setname: pasystray,                name: [pasystray-gtk2,pasystray-gtk2-standalone,pasystray-gtk3,pasystray-gtk3-standalone,pasystray-wayland] }
@@ -85,26 +85,26 @@
 - { setname: pcsx2,                    name: [pcsx2-avx,pcsx2-bin], addflavor: true }
 - { setname: pcsx2,                    name: [pcsx2-dev, pcsx2-latest], weak_devel: true, nolegacy: true }
 - { setname: pd,                       name: [puredata, pure-data] }
-- { setname: pdd,                      name: "python:pdd" }
-- { setname: pdepend,                  name: "php:pdepend-php-depend" }
+- { setname: pdd,                      name: python:$0 }
+- { setname: pdepend,                  name: php:pdepend-php-depend }
 - { setname: pdfarranger,              name: python:$0 } # XXX: FreeBSD problem
 - { setname: pdfbox,                   name: [apache-pdfbox, pdfbox-legacy, "java:pdfbox", "java:pdfbox2"] }
 - { setname: pdfbox,                   name: pdfbox-alpha, weak_devel: true, nolegacy: true }
-- { setname: pdfjam,                   name: "texlive:pdfjam" }
+- { setname: pdfjam,                   name: texlive:$0 }
 - { setname: pdfminer,                 name: [pdfminer-six, pdfminersix, python:pdfminer, python:pdfminer-six, python:pdfminer.six] }
 - { setname: pdfmixtool,               name: [pdfmixtool-qt5, pdfmixtool-qt6], addflavor: true }
 - { setname: pdfstudio,                namepat: "pdfstudio[0-9]+" }
 - { setname: pdftk,                    name: pdftk-gcj }
 - { setname: pdftk,                    name: pdftk-java }
 - { setname: pdftk,                    name: [pdftk-server, pdftkserver], addflavor: server }
-- { setname: pdm,                      name: "python:pdm" }
+- { setname: pdm,                      name: python:$0 }
 - { setname: pdns,                     name: [powerdns-geoip,powerdns-ldap,powerdns-mysql,powerdns-odbc,powerdns-pgsql] }
 - { setname: pdns,                     name: pdns-common }
 - { setname: pdns,                     name: powerdns }
 - { setname: pdns-recursor,            name: [pdnsrec,powerdns-recursor] }
 - { setname: pdns-recursor,            namepat: "powerdns-recursor[0-9.-]+" }
 - { setname: pdoc,                     name: python:$0 }
-- { setname: pdumpfs,                  name: "ruby:pdumpfs" }
+- { setname: pdumpfs,                  name: ruby:$0 }
 - { setname: peazip,                   name: [peazip-gtk2,peazip-gtk2-build,peazip-gtk2-portable,peazip-qt,peazip-qt-build,peazip-qt-opensuse-latest,peazip-qt4,peazip-qt5], addflavor: true }
 - { setname: peda,                     name: gdb-peda }
 - { setname: peep,                     name: rust:$0 }
@@ -122,7 +122,7 @@
 - { setname: perdition,                name: [perdition-bdb,perdition-gdbm,perdition-ldap,perdition-mysql,perdition-odbc,perdition-pam,perdition-pgsql,perdition-postgresql], addflavor: true }
 - { setname: perkeep,                  name: camlistore } # former name
 - { setname: perl,                     name: microperl, addflavor: true }
-- { setname: perlbal,                  name: "perl:perlbal" }
+- { setname: perlbal,                  name: perl:$0 }
 - { setname: perseus,                  name: perseus-cli }
 - { setname: petite-chez-scheme,       name: petite-chez }
 - { setname: pferd,                    name: python:$0 }
@@ -132,7 +132,7 @@
 - { setname: pgadmin,                  name: [pgadmin3, pgadmin4, pgadmin-4, "python:pgadmin4"] }
 - { setname: pgadmin,                  name: pgadmin3-testing, ignore: true }
 - { setname: pgagent,                  namepat: "postgresql[0-9.-]*pgagent" }
-- { setname: pgcli,                    name: "python:pgcli" }
+- { setname: pgcli,                    name: python:$0 }
 - { setname: pglogical,                name: [postgresql-pglogical,pglogical2] }
 - { setname: pgmigrate,                name: [yandex-pgmigrate,"python:pgmigrate"] }
 - { setname: pgplot,                   name: pgplot5 }
@@ -143,16 +143,16 @@
 - { setname: pgrouting,                name: pgrouting-1.x }
 - { setname: pgtcl,                    namepat: "pgtcl-(postgresql[0-9.-]+)", addflavor: true }
 - { setname: pgtcl,                    name: tcl-pgtcl }
-- { setname: phabricator,              name: "php:phabricator" }
+- { setname: phabricator,              name: php:$0 }
 - { setname: phan,                     name: php:$0 }
 - { setname: phantomjs,                name: phantomjs19 }
 - { setname: phantomjs,                name: phantomjs-beta, weak_devel: true, nolegacy: true }
-- { setname: phash,                    name: libphash }
-- { setname: phat,                     name: libphat }
+- { setname: phash,                    name: lib$0 }
+- { setname: phat,                     name: lib$0 }
 - { setname: phing,                    name: php:$0 }
 - { setname: phoenix,                  name: [phoenix-flatpak, phoenix-arch], addflavor: true } # note: nothing arch-specific in `phoenix-arch`, just a duplicate
 - { setname: phoenix-emu,              name: phoenix-emu-project } # XXX: run through `phoenix` split?
-- { setname: phonon,                   name: libphonon }
+- { setname: phonon,                   name: lib$0 }
 - { setname: phonon,                   name: [phonon-qt4], addflavor: qt4 }
 - { setname: phonon,                   name: [phonon-qt5, phonon4qt5, qt5-phonon], addflavor: qt5 }
 - { setname: phonon,                   name: [phonon-qt6, phonon4qt6, qt6-phonon], addflavor: qt6 }
@@ -174,17 +174,17 @@
 - { setname: phpmd,                    name: php:$0 }
 - { setname: phpmyadmin,               namepat: "php[0-9]*:phpmyadmin[0-9]*" }
 - { setname: phpmyadmin,               name: phpmyadmin5 }
-- { setname: phppgadmin,               name: "php:pgadmin" }
+- { setname: phppgadmin,               name: php:pgadmin }
 - { setname: phpspy,                   name: php:$0 }
 - { setname: phrog,                    name: [greetd-phrog, rust:$0] }
-- { setname: physfs,                   name: libphysfs }
-- { setname: picard,                   name: [musicbrainzpicard, musicbrainz-picard, "python:picard"] }
+- { setname: physfs,                   name: lib$0 }
+- { setname: picard,                   name: [musicbrainzpicard, musicbrainz-picard, python:$0] }
 - { setname: picard,                   name: java-picard }
 - { setname: picosnitch,               name: python:$0 }
 - { setname: pidgin,                   name: [libpurple,libpurple-meanwhile,pidgin-epel,pidgin-light,pidgin-mini,pidgin-sametime,pidgin-silc,libpurple-minimal,pidgin-gnutls], addflavor: true }
 - { setname: pidgin,                   name: gaim, outdated: true } # former name
-- { setname: pilfer,                   name: rust:pilfer }
-- { setname: pilot-link,               name: "perl:pilot-link" }
+- { setname: pilfer,                   name: rust:$0 }
+- { setname: pilot-link,               name: perl:$0 }
 - { setname: pilot-link,               name: pilot-link-libs, addflavor: libs }
 - { setname: pinball,                  name: [emilia-pinball, emilia, pinball-unofficial] }
 - { setname: pinentry,                 name: pinentry0.8 }
@@ -192,19 +192,19 @@
 - { setname: pinocchio,                name: python:pin }
 - { setname: pinta,                    name: $0-gtk3, addflavor: true }
 - { setname: pioneer,                  name: pioneerspacesim }
-- { setname: pip,                      name: ["python:pip", pip3, "python:pip-compat"] }
-- { setname: pip,                      name: ["python:pip-py27", python2-pip], addflavor: py2 }
-- { setname: pipenv,                   name: "python:pipenv" }
+- { setname: pip,                      name: [python:pip, pip3, python:pip-compat] }
+- { setname: pip,                      name: [python:pip-py27, python2-pip], addflavor: py2 }
+- { setname: pipenv,                   name: python:$0 }
 - { setname: pipewire,                 namepat: "(lib)?pipewire[0-9.-]*", addflavor: $1 }
 - { setname: pipewire,                 name: [pipewire-common,pipewire-full,pipewire-codec-aptx,pipewire-aptx,pipewire-native-jack,pipewire-alsa], addflavor: true }
 - { setname: pipewire-media-session,   name: media-session }
 - { setname: pipsi,                    name: [pipsi2,"python:pipsi"] }
-- { setname: pipx,                     name: "python:pipx" }
+- { setname: pipx,                     name: python:$0 }
 - { setname: piu-piu-sh,               name: piu-piu }
 - { setname: piwigo,                   name: php:$0 }
 - { setname: pixman,                   name: [libpixman,xorg-libpixman,xorg-pixman] }
 - { setname: pixman,                   name: pixman-static, addflavor: static }
-- { setname: pjproject,                name: [pjsip,pjsua,pjproject-jami,pjsip-python,"python:pjproject"], addflavor: true }
+- { setname: pjproject,                name: [pjsip, pjsua, pjproject-jami, pjsip-python, python:$0], addflavor: true }
 - { setname: pkcs11-tools,             name: mastercard-pkcs11-tools }
 - { setname: pkg,                      name: [freebsd-pkg, pkg-bsd] }
 - { setname: pkg,                      name: pkg-devel, weak_devel: true, nolegacy: true }
@@ -223,8 +223,8 @@
 - { setname: play,                     name: [play-emu, purei-play] }
 - { setname: please-build,             name: please.build }
 - { setname: please-cli,               name: python:$0 }
-- { setname: pleaser,                  name: "rust:pleaser" }
-- { setname: pleaserun,                name: "ruby:pleaserun" }
+- { setname: pleaser,                  name: rust:$0 }
+- { setname: pleaserun,                name: ruby:$0 }
 - { setname: plex-media-server,        name: plexmediaserver }
 - { setname: plex-media-server,        name: [plex-media-server-plexpass, plexmediaserver-plexpass], addflavor: plexpass }
 - { setname: plink,                    name: [plink1.9, plink-ng, plink2] }
@@ -239,20 +239,20 @@
 - { setname: plumed,                   name: plumed-namd, addflavor: namd }
 - { setname: plv8,                     namepat: "(postgresql[0-9.-]*)-plv8(js)?", addflavor: $1 }
 - { setname: png++,                    name: pngpp }
-- { setname: pnglite,                  name: libpnglite }
+- { setname: pnglite,                  name: lib$0 }
 - { setname: pngquant,                 name: rust:$0 }
 - { setname: pnmixer,                  name: $0-gtk3, addflavor: true }
 - { setname: pnp4nagios,               name: pnp4nagios-cgi }
-- { setname: pnpm,                     name: node:pnpm }
-- { setname: po4a,                     name: "perl:po4a" }
+- { setname: pnpm,                     name: node:$0 }
+- { setname: po4a,                     name: perl:$0 }
 - { setname: pocketfft,                name: pocketfft-cpp } # XXX: problem
-- { setname: pocketsphinx,             name: python:pocketsphinx, addflavor: python }
+- { setname: pocketsphinx,             name: python:$0, addflavor: python }
 - { setname: pocketsphinx,             name: [cmu-pocketsphinx, pocketsphinx5, cmusphinx, sphinx2, sphinx3, cmu-sphinx3, cmusphinx3] }
 - { setname: pocketsphinx,             name: [cmu-sphinxbase, sphinxbase, sphinxbase5], addflavor: sphinxbase } # merged into
 - { setname: pocketsphinx,             name: [pocketsphinx-python, python:pocketsphinx-python], outdated: true } # deprecated python bindings
 - { setname: podman,                   name: libpod, addflavor: true }
 - { setname: podman-compose,           name: python:$0 }
-- { setname: podofo,                   name: libpodofo }
+- { setname: podofo,                   name: lib$0 }
 - { setname: poethepoet,               name: python:$0 }
 - { setname: poetry,                   name: python:$0 }
 - { setname: poke,                     name: gnu-poke }
@@ -268,7 +268,7 @@
 - { setname: polkit-qt-1,              name: [polkit-qt5,polkit-qt-1-qt5,polkit-qt5-1], addflavor: qt5 }
 - { setname: polkit-qt-1,              name: [polkit-qt6,polkit-qt-1-qt6,polkit-qt6-1], addflavor: qt6 }
 - { setname: polyclipping,             name: clipperlib }
-- { setname: polyclipping,             name: libpolyclipping }
+- { setname: polyclipping,             name: lib$0 }
 - { setname: polygen,                  name: polygen-data }
 - { setname: polylabel,                name: mapbox-polylabel }
 - { setname: polymc,                   name: [$0-qt5, $0-qt6], addflavor: true }
@@ -282,13 +282,13 @@
 - { setname: poppler,                  name: [poppler-base,poppler-qt5-cairo,poppler-static,poppler-qt6], addflavor: true }
 - { setname: poppler,                  name: poppler-current, weak_devel: true, nolegacy: true }
 - { setname: poppler,                  name: poppler-devel-qt5, weak_devel: true, nolegacy: true, addflavor: qt5 }
-- { setname: popt,                     name: libpopt }
+- { setname: popt,                     name: lib$0 }
 - { setname: portaudio,                name: [portaudio0,portaudio19,portaudio2,libportaudio,libportaudio2] }
 - { setname: portaudio,                name: [portaudio-devel,portaudio-svn, portaudio-git], weak_devel: true, nolegacy: true }
 - { setname: portfolio-file-manager,   name: portfolio-filemanager }
 - { setname: portfolio-performance,    name: portfolioperformance }
-- { setname: portmidi,                 name: libportmidi }
-- { setname: portmidi,                 name: "python:pyportmidi", addflavor: python }
+- { setname: portmidi,                 name: lib$0 }
+- { setname: portmidi,                 name: python:pyportmidi, addflavor: python }
 - { setname: postfix,                  name: [postfix-current,postfix-current-sasl,postfix211,postfix211-sasl] }
 - { setname: postfwd,                  name: postfix-postfwd, ruleset: freebsd }
 - { setname: postgis,                  name: [postgis-src,postgis-sfcgal,liblwgeom], addflavor: true }
@@ -313,7 +313,7 @@
 - { setname: postgresql-1c,            namepat: "postgresql[0-9.-]+-1c" }
 - { setname: postgresql-jdbc,          name: [java-postgresql-jdbc, jdbc-postgresql, libpgjava] }
 - { setname: postorius,                name: python:$0 }
-- { setname: potrace,                  name: libpotrace, addflavor: true }
+- { setname: potrace,                  name: lib$0, addflavor: true }
 - { setname: poudriere,                name: poudriere-devel, weak_devel: true, nolegacy: true }
 - { setname: povray,                   namepat: "povray[0-9]+" }
 - { setname: povray,                   name: pov-ray }
@@ -338,7 +338,7 @@
 - { setname: presto,                   name: presto-cli }
 - { setname: pretix,                   name: python:$0 }
 - { setname: pretix,                   name: pretix-venv, addflavor: true }
-- { setname: prettier,                 name: "node:prettier" }
+- { setname: prettier,                 name: node:$0 }
 - { setname: prey,                     name: prey-node-client }
 - { setname: prezto,                   name: zsh-prezto }
 - { setname: printer-driver-ptouch,    name: [cups-drivers-ptouch, ptouch-driver] }
@@ -356,10 +356,10 @@
 - { setname: procps,                   name: [procps-ng, procps-compat, procps-ng3] }
 - { setname: procps,                   name: [gnuwatch, gnu-watch], addflavor: watch }
 - { setname: procps,                   name: tload, addflavor: tload }
-- { setname: procps,                   name: libprocps, addflavor: lib }
-- { setname: procs,                    name: "rust:procs" }
+- { setname: procps,                   name: lib$0, addflavor: lib }
+- { setname: procs,                    name: rust:$0 }
 - { setname: proj,                     namepat: "proj[0-9.-]+" }
-- { setname: proj,                     name: libproj }
+- { setname: proj,                     name: lib$0 }
 - { setname: projectm,                 name: [libprojectm, projectm-4] }
 - { setname: projectm,                 name: [projectm-qt5, projectm-presets, projectm-sdl2], addflavor: true }
 - { setname: projectx,                 name: project-x }
@@ -386,26 +386,26 @@
 - { setname: proofgeneral,             name: ["emacs:proofgeneral", emacs-common-proofgeneral] }
 - { setname: proot,                    name: proot-static, addflavor: true }
 - { setname: proot,                    namepat: "proot[0-9.-]+" }
-- { setname: propellor,                name: "haskell:propellor" }
+- { setname: propellor,                name: haskell:$0 }
 - { setname: protobuf,                 namepat: "(?:compat-)?(?:lib)?protobuf(?:compat|[0-9.-])*" }
 - { setname: protobuf,                 name: [protoc, protobuf-static], addflavor: true }
 - { setname: protobuf-c,               name: [lib$0, protobuf2-c] }
 - { setname: protobuf-cpp,             name: protobuf3-cpp }
 - { setname: protobuf-go,              name: protoc-gen-go }
 - { setname: proton,                   name: proton-native }
-- { setname: proton-caller,            name: "rust:proton-call" }
+- { setname: proton-caller,            name: rust:proton-call }
 - { setname: proton-mail,              name: [protonmail, protonmail-desktop] }
 - { setname: proton-vpn-gtk-app,       name: [protonvpn-gui, protonvpn-linux-gui] }
 - { setname: protonmail-bridge,        name: protonmail-bridge-bin, addflavor: bin }
-- { setname: protontricks,             name: "python:protontricks" }
+- { setname: protontricks,             name: python:$0 }
 - { setname: protonvpn-cli,            name: [protonvpn-cli-2, protonvpn-linux-cli] }
 - { setname: prowlarr,                 name: [$0-develop, $0-nightly], weak_devel: true, nolegacy: true }
 - { setname: prql,                     name: [$0c,$0-compiler,rust:$0c], addflavor: compiler }
 - { setname: prusaslicer,              name: [slic3r-prusa, prusa-slicer, slic3r-prusa3d, slic3r-prusa-edition] }
 - { setname: prysk,                    name: python:$0 }
-- { setname: psautohint,               name: "python:psautohint" }
+- { setname: psautohint,               name: python:$0 }
 - { setname: psfex,                    name: astromatic-psfex }
-- { setname: psh,                      name: ["perl:psh", perlsh] }
+- { setname: psh,                      name: [perl:$0, perlsh] }
 - { setname: psi,                      name: psi-im }
 - { setname: psi,                      name: [psi-l10n,psi-plugins], addflavor: true } # different repos, but same versions, and seemingly distributed as a single release
 - { setname: psi,                      name: [psi-nowebengine,psi-nowebkit], addflavor: true }
@@ -414,15 +414,15 @@
 - { setname: psimedia,                 name: [psi+-plugins-psimediaplugin,psi-plus-plugin-psimedia] }
 - { setname: pstoedit,                 name: [pstoedit-emf,pstoedit-nomagick], addflavor: true }
 - { setname: psutils,                  name: python:pspdfutils }
-- { setname: psychopy,                 name: "python:psychopy" }
-- { setname: pt-pivotal-tracker-client, name: "ruby:pt" }
+- { setname: psychopy,                 name: python:$0 }
+- { setname: pt-pivotal-tracker-client, name: ruby:pt } # XXX: setname to generic name?
 - { setname: pt2-clone,                name: protracker } # name used by upstream
 - { setname: pth,                      name: lib$0 }
 - { setname: public-suffix-list,       name: [publicsuffix,publicsuffix-list] }
 - { setname: pueue,                    name: rust:$0 }
 - { setname: pug,                      name: [pug-hook, terraform-pug] } # different projects, split in 850
 - { setname: pug,                      name: pug-hook-noupgrade, addflavor: noupgrade }
-- { setname: pugixml,                  name: libpugixml }
+- { setname: pugixml,                  name: lib$0 }
 - { setname: pugixml,                  name: pugixml-shared, addflavor: shared }
 - { setname: pulseaudio,               name: [libpulseaudio,libpulse,libpulse-nosystemd], addflavor: true }
 - { setname: pulseaudio,               name: [pulseaudio-bluetooth,pulseaudio-gconf,pulseaudio-jack,pulseaudio-lirc,pulseaudio-zeroconf], addflavor: true }
@@ -434,57 +434,57 @@
 - { setname: puppetserver,             name: [puppetserver5, puppetserver6] }
 - { setname: pure-ftpd,                name: pureftpd }
 - { setname: pure-ftpd,                name: [pure-ftpd-db, pure-ftpd-pam], addflavor: true }
-- { setname: "purple:mattermost",      name: [libpurple-mattermost,purple-mattermost] }
-- { setname: "purple:pidgin-opensteamworks", name: [libpurple-steam,pidgin-opensteamworks,purple-libsteam] }
-- { setname: "purple:purple-facebook", name: [libpurple-facebook,purple-facebook,pidgin-facebook] }
-- { setname: "purple:purple-hangouts", name: [libpurple-hangouts,purple-hangouts] }
-- { setname: "purple:purple-hangouts", name: purple-hangouts-hg, weak_devel: true, nolegacy: true }
-- { setname: "purple:skype4pidgin",    name: [libpurple-protocol-skypeweb,libpurple-skypeweb,pidgin-skypeweb,purple-plugin-skypeweb,purple-skypeweb,skype4pidgin,skypeweb-purple] }
-- { setname: "purple:telegram-purple", name: [libpurple-telegram,pidgin-telegram,purple-telegram,telegram-purple] }
+- { setname: purple:mattermost,        name: [libpurple-mattermost,purple-mattermost] }
+- { setname: purple:pidgin-opensteamworks, name: [libpurple-steam,pidgin-opensteamworks,purple-libsteam] }
+- { setname: purple:purple-facebook,   name: [libpurple-facebook,purple-facebook,pidgin-facebook] }
+- { setname: purple:purple-hangouts,   name: [libpurple-hangouts,purple-hangouts] }
+- { setname: purple:purple-hangouts,   name: purple-hangouts-hg, weak_devel: true, nolegacy: true }
+- { setname: purple:skype4pidgin,      name: [libpurple-protocol-skypeweb,libpurple-skypeweb,pidgin-skypeweb,purple-plugin-skypeweb,purple-skypeweb,skype4pidgin,skypeweb-purple] }
+- { setname: purple:telegram-purple,   name: [libpurple-telegram,pidgin-telegram,purple-telegram,telegram-purple] }
 - { setname: putty,                    name: [putty-gtk2,putty-nogtk], addflavor: true }
-- { setname: pyalsa,                   name: ["python:alsa","python:pyalsa"] }
-- { setname: pyatspi,                  name: "python:atspi" }
+- { setname: pyalsa,                   name: [python:alsa, python:pyalsa] } # XXX: check for misnamed modules
+- { setname: pyatspi,                  name: python:atspi } # XXX: check for misnamed modules
 - { setname: pybugz,                   name: [bugz, python:pybugz] }
 - { setname: pycharm,                  name: [pycharm-ce,pycharm-community,pycharm-community-eap,pycharm-community-edition], addflavor: community }
 - { setname: pycharm,                  name: intellij-pycharm }
 - { setname: pycharm,                  name: pycharm-eap } # EAP versions handled with other rules
 - { setname: pycharm,                  name: pycharm-professional, addflavor: professional }
-- { setname: pycsw,                    name: "python:pycsw" }
-- { setname: pygtksourceview,          name: ["python:gtksourceview","python:pygtksourceview","python:pygtksourceview2",pygtksourceview,pygtksourceview2,"python:gtksourceview2"] }
+- { setname: pycsw,                    name: python:$0 }
+- { setname: pygtksourceview,          name: [python:gtksourceview, python:pygtksourceview, python:pygtksourceview2, pygtksourceview, pygtksourceview2, python:gtksourceview2] }
 - { setname: pyload,                   name: pyload-nightly, weak_devel: true, nolegacy: true }
 - { setname: pyload-ng,                name: python:$0 }
-- { setname: pymol,                    name: [pymol2, "python:pymol", pymol-python2 ] }
+- { setname: pymol,                    name: [pymol2, python:$0, $0-python2 ] }
 - { setname: pympress,                 name: python:$0 }
 - { setname: pyoxidizer,               name: [python:$0, rust:$0] }
-- { setname: pypanel,                  name: "python:pypanel" }
+- { setname: pypanel,                  name: python:$0 }
 - { setname: pypy,                     namepat: "(?:python:)?pypy[0-9.-]*(-tkinter|-bin)?", addflavor: $1 }
 - { setname: pypy,                     name: [pypy-bootstrap, pypy-tkinter], addflavor: true }
 - { setname: pyradio,                  name: python:$0 }
-- { setname: pyside,                   name: python:pyside }
+- { setname: pyside,                   name: python:$0 }
 - { setname: pyside,                   name: [pyside-qt4,pyside-qt4-py3], addflavor: true }
-- { setname: pyside-tools,             name: python:pyside-tools }
+- { setname: pyside-tools,             name: python:$0 }
 - { setname: pyside2,                  name: [python:pyside2, python:pyside-2] }
 - { setname: pyside2,                  name: [python:pyside2-tools, python:pyside-2-tools], addflavor: tools }
 - { setname: pyside6,                  name: [python:pyside6, python:pyside-6] }
 - { setname: pyside6,                  name: [python:pyside6-tools, python:pyside-6-tools], addflavor: tools }
-- { setname: pyspread,                 name: "python:pyspread" }
+- { setname: pyspread,                 name: python:$0 }
 - { setname: pythia,                   name: [pythia8, "python:pythia8", pythia6] }
 - { setname: python,                   name: python-exp } # scoop
 - { setname: python,                   namepat: "python[0-9.-]+" }
 - { setname: python,                   namepat: "python[0-9.-]*-(alpha|beta|rc)", weak_devel: true, nolegacy: true }
-- { setname: python,                   name: "python:sqlite3", addflavor: true } # part of; split into separate package in FreeBSD, ravenports and pkgsrc
+- { setname: python,                   name: python:sqlite3, addflavor: true } # part of; split into separate package in FreeBSD, ravenports and pkgsrc
 - { setname: python,                   name: cpython }
 - { setname: python,                   name: python-legacy }
 - { setname: python,                   name: [python3-minimal], addflavor: minimal }
 - { setname: python,                   name: [python-debug,python-base,python-llvm,platform-python], addflavor: true }
-- { setname: python-caja,              name: ["python:caja", "python:python-caja", caja-python] } # not really a pypi packages, so rename according to upstream
-- { setname: python-caja,              name: "python:caja-dev", weak_devel: true, nolegacy: true }
-- { setname: python-distutils-extra,   name: ["python:distutils-extra","python:python-distutils-extra"] } # debian invention
+- { setname: python-caja,              name: [python:caja, python:python-caja, caja-python] } # not really a pypi packages, so rename according to upstream
+- { setname: python-caja,              name: python:caja-dev, weak_devel: true, nolegacy: true }
+- { setname: python-distutils-extra,   name: [python:distutils-extra,python:python-distutils-extra] } # debian invention; XXX: check for misnamed modules
 - { setname: python-docs,              namepat: "python[0-9.-]*-(doc)s?(-html|-pdf-a4|-pdf-letter|-text)?", addflavor: "$1$2" }
 - { setname: python-launcher,          name: rust:$0 }
-- { setname: python-linux-procfs,      name: "python:linux-procfs" } # exherbo XXX: problem
-- { setname: python-linux-procfs,      name: "python:python-linux-procfs" } # nix
-- { setname: pythonmagick,             name: ["python:pythonmagick","python:magick"] }
+- { setname: python-linux-procfs,      name: python:linux-procfs } # exherbo XXX: problem
+- { setname: python-linux-procfs,      name: python:$0 } # nix
+- { setname: pythonmagick,             name: [python:pythonmagick,python:magick] } # XXX: check for misnamed modules
 - { setname: pythonqt,                 name: python-qt }
 - { setname: pythonqt,                 name: pythonqt-qt5, addflavor: qt5 }
 - { setname: pytr,                     name: python:$0 }
@@ -492,4 +492,4 @@
 - { setname: pywal16,                  name: [python:$0, pywal-16-colors] }
 - { setname: pyzo,                     name: python:$0 }
 - { setname: pyzor,                    name: python:$0 }
-- { setname: pyzy,                     name: "python:pyzy" }
+- { setname: pyzy,                     name: python:$0 }

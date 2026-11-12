@@ -7,7 +7,7 @@
 - { setname: nagstamon,                name: nagios-$0 }
 - { setname: namazu,                   name: namazu2 }
 - { setname: namd,                     name: namd-multicore-cuda, addflavor: true }
-- { setname: name-that-hash,           name: "python:name-that-hash" }
+- { setname: name-that-hash,           name: python:$0 }
 - { setname: namecoin,                 name: [namecoin-core-wallet, namecoin-core, namecoin-daemon, namecoin-utils, namecoind], addflavor: true }
 - { setname: nano,                     name: gnunano }
 - { setname: nanobind,                 name: python:$0 }
@@ -16,8 +16,8 @@
 - { setname: nastran-95,               name: nastran }
 - { setname: nautilus,                 name: nautilus-typeahead, addflavor: true }
 - { setname: nautilus,                 name: nautilus-legacy }
-- { setname: nautilus-open-any-terminal, name: "python:nautilus-open-any-terminal" }
-- { setname: navi,                     name: "rust:navi" }
+- { setname: nautilus-open-any-terminal, name: python:$0 }
+- { setname: navi,                     name: rust:$0 }
 - { setname: navi,                     name: navi-bash }
 - { setname: nbd,                      name: nbd-server }
 - { setname: ncbi-blast+,              name: [ncbi-blast-plus,blast+,ncbi-blast,blast-plus] }
@@ -25,21 +25,21 @@
 - { setname: ncbi-genome-download,     name: python:$0 }
 - { setname: ncdu,                     name: [ncdu1, ncdu2] }
 - { setname: ncftp,                    name: [ncftp3,ncftpclient] }
-- { setname: ncspot,                   name: "rust:ncspot" }
+- { setname: ncspot,                   name: rust:$0 }
 - { setname: ncurses,                  name: [ncurses-full,ncurses-with-gpm,ncursesw,ncurses-nohex,ncurses-bootstrap,ncurses-nonwide], addflavor: true }
 - { setname: ncurses,                  name: [ncurses5,ncurses5-compat-libs,ncurses60,ncurses-compat,compat-ncurses5] }
-- { setname: ndctl,                    name: libndctl }
+- { setname: ndctl,                    name: lib$0 }
 - { setname: ndiswrapper,              name: [ndiswrapper-arch,ndiswrapper-dkms,ndiswrapper-driver,ndiswrapper-driver64,ndiswrapper-kmod], addflavor: true }
 - { setname: ndoutils,                 name: nagios-$0 }
-- { setname: ndpi,                     name: libndpi }
-- { setname: near-facsimile,           name: rust:near-facsimile }
+- { setname: ndpi,                     name: lib$0 }
+- { setname: near-facsimile,           name: rust:$0 }
 - { setname: neocmakelsp,              name: rust:$0 }
 - { setname: neomutt,                  name: neomutt-backends, addflavor: backends }
 - { setname: neon,                     name: neon-threadsafe, addflavor: true }
 - { setname: neon,                     namepat: "(?:lib)?neon[0-9.-]*" }
 - { setname: nestopia,                 name: nestopia-ue }
 - { setname: net-snmp,                 name: [net-snmp35, net-snmp40] }
-- { setname: net6,                     name: libnet6 }
+- { setname: net6,                     name: lib$0 }
 - { setname: netatalk,                 namepat: "netatalk[0-9.-]+" }
 - { setname: netavark,                 name: rust:$0 }
 - { setname: netbeans,                 namepat: "netbeans-.*", ruleset: gentoo }
@@ -61,7 +61,7 @@
 - { setname: nethack,                  namepat: "nethack[.-]*(?:[23][0-9.-]*)?" }
 - { setname: netkit-telnet,            name: netkit-telnetd, addflavor: telnetd }
 - { setname: netlogo,                  name: netlogo-bin, addflavor: bin }
-- { setname: netpbm,                   name: libnetpbm }
+- { setname: netpbm,                   name: lib$0 }
 - { setname: netpbm,                   name: [netpbm-free,netpbm-debug], addflavor: true }
 - { setname: netrek-client-cow,        name: netrek-cow }
 - { setname: netsurf,                  name: netsurf-browser }
@@ -85,7 +85,7 @@
 - { setname: networkmanager-qt,        name: [kf5-networkmanager-qt,libkf5networkmanagerqt,networkmanager-qt5] }
 - { setname: never,                    name: neverlang }
 - { setname: neverball,                name: neverball-data, addflavor: data }
-- { setname: newdoc,                   name: rust:newdoc }
+- { setname: newdoc,                   name: rust:$0 }
 - { setname: newsboat,                 name: newsbeuter } # abandoned in favor of
 - { setname: newsboat,                 name: newsbeuter-dev, ignore: true }
 - { setname: newsboat,                 name: newsbeuter2.8 }
@@ -98,9 +98,9 @@
 - { setname: nextcloud-desktop,        name: [nextcloudclient, nextcloud-client] }
 - { setname: nextcloud-desktop,        name: nextcloud-client-appimage-daily, addflavor: appimage, weak_devel: true }
 - { setname: nexus,                    name: [nexus-oss,libnexus,nexus2-oss] }
-- { setname: nghttp2,                  name: libnghttp2 }
+- { setname: nghttp2,                  name: lib$0 }
 - { setname: nghttp2,                  name: [nghttp2-tools,nghttp2-python], addflavor: true }
-- { setname: nghttp3,                  name: libnghttp3 }
+- { setname: nghttp3,                  name: lib$0 }
 - { setname: nginx,                    name: [nginx-devel,nginx-mainline] }
 - { setname: nginx,                    name: [nginx-full,nginx-mainline-full], addflavor: full }
 - { setname: nginx,                    name: [nginx-libressl,nginx-mainline-libressl], addflavor: libressl }
@@ -138,7 +138,7 @@
 - { setname: nmap,                     name: [nmap-graphical, zenmap], addflavor: zenmap }
 - { setname: nmapsi4,                  name: nmapsi }
 - { setname: nnn,                      name: nnn-icons, addflavor: true }
-- { setname: nnote,                    name: python:nnote }
+- { setname: nnote,                    name: python:$0 }
 - { setname: noctalia,                 name: [noctalia-legacy, noctalia-shell] }
 - { setname: noctalia,                 name: noctalia-git, weak_devel: true, nolegacy: true }
 - { setname: node,                     name: [node-lts,node-legacy,nodejs.lts,node-js] }
@@ -162,7 +162,7 @@
 - { setname: npapi-vlc,                name: npapi-vlc-gtk3 }
 - { setname: npm,                      namepat: "npm[0-9.-]+" }
 - { setname: npm,                      namepat: "npm-(node[0-9.-]+)", addflavor: $1 }
-- { setname: npth,                     name: libnpth }
+- { setname: npth,                     name: lib$0 }
 - { setname: nq,                       name: gap-nq }
 - { setname: nrpe,                     name: [nrpe3,nagios-nrpe,nagios-plugins-nrpe] }
 - { setname: nrpe,                     name: nagios-nrpe-plugin, addflavor: plugin }
@@ -177,14 +177,14 @@
 - { setname: nss,                      name: [mozilla-nss,libnss] }
 - { setname: nss,                      name: [$0-util, $0-softokn, $0-certs, $0-cacert, $0-rapid, $0-certs-for-test], addflavor: true }
 - { setname: nss-db,                   name: [nssdb, libnss-db] }
-- { setname: nss-ldap,                 name: libnss-ldap }
+- { setname: nss-ldap,                 name: lib$0 }
 - { setname: nss-pam-ldapd,            name: nss-pam-ldapd-sasl, addflavor: true }
 - { setname: nst,                      name: nst-static, addflavor: true }
-- { setname: ntfs-3g,                  name: ["fusefs:ntfs","fusefs:ntfs-3g",ntfs-3g-fuse,ntfs-3g-ntfsprogs,ntfsprogs,ntfs3g,libntfs-3g,libntfs] }
+- { setname: ntfs-3g,                  name: [fusefs:ntfs, fusefs:ntfs-3g, ntfs-3g-fuse, ntfs-3g-ntfsprogs, ntfsprogs, ntfs3g, libntfs-3g, libntfs] }
 - { setname: ntfs-3g,                  name: [ntfs-3g-ar,ntfs-3g-advanced], addflavor: ar }
 - { setname: ntfs-3g,                  name: ntfs-3g-wimlib-patched, addflavor: wimlib }
 - { setname: ntfy,                     name: [ntfy.sh, ntfy-sh, ntfysh] } # ambig, split in 850
-- { setname: ntfy,                     name: "python:ntfy" } # ambig, split in 850
+- { setname: ntfy,                     name: python:$0 } # ambig, split in 850
 - { setname: ntirpc,                   name: lib$0 }
 - { setname: ntl,                      name: lib$0 }
 - { setname: ntl,                      name: $0-threading, addflavor: true }
@@ -209,4 +209,4 @@
 - { setname: nvidia-settings,          namepat: "nvidia-settings-experimental.*", weak_devel: true, nolegacy: true }
 - { setname: nvidia-texture-tools,     name: nvtt }
 - { setname: nvidiabl,                 name: [dkms-nvidiabl,nvidiabl-kernel] }
-- { setname: nyx,                      name: "python:nyx" }
+- { setname: nyx,                      name: python:$0 }
