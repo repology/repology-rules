@@ -8,7 +8,9 @@
 - { addflag: misnamed, name: asccli, wwwpart: asc-cli }
 - { addflag: misnamed, name: astunparse } # python module
 - { addflag: misnamed, name: attrs } # python module
+- { addflag: misnamed, name: aws-sdk,        wwwpart: aws-sdk-cpp } # aws-sdk-cpp
 - { addflag: misnamed, name: beniget } # python module
+- { addflag: misnamed, name: ccd,            wwwpart: danfis/libccd } # libccd
 - { addflag: misnamed, name: chaos,          wwwpart: chaos-client }
 - { addflag: misnamed, name: constantly } # python module
 - { addflag: misnamed, name: cppheaderparser } # python module
@@ -56,6 +58,7 @@
 - { addflag: misnamed, name: luajit,         wwwpart: [openresty, moonjit] }
 - { addflag: misnamed, name: lxc,            wwwpart: lxd }
 - { addflag: misnamed, name: mc,             wwwpart: mcwin32 }
+- { addflag: misnamed, name: mediainfo,      wwwpart: mediainfolib } # libmediainfo
 - { addflag: misnamed, name: mtproto-proxy } # mtproxy
 - { addflag: misnamed, name: mullvad } # browser or vpn?
 - { addflag: misnamed, name: musl,           ruleset: aur } # (musl-cross-bin) - toolclain, not musl
@@ -86,6 +89,7 @@
 - { addflag: misnamed, name: pfetch,         wwwpart: pfetch-rs }
 - { addflag: misnamed, name: pgsql:pg-libversion }
 - { addflag: misnamed, name: pkg-config,     wwwpart: files.pythonhosted.org }
+- { addflag: misnamed, name: platforms,      wwwpart: bazelbuild/platforms } # bazel-platforms
 - { addflag: misnamed, name: procinfo,       wwwpart: procinfo-ng }
 - { addflag: misnamed, name: proton-vpn } # proton-vpn-gtk-app, proton-vpn-cli win/ios/andrpoir app or third party project
 - { addflag: misnamed, name: protonvpn } # same
