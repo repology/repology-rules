@@ -81,6 +81,8 @@
 - { setname: hiredis,                  name: libhiredis, addflavor: true }
 - { setname: hitori,                   name: gnome-games-hitori }
 - { setname: hledger$1,                namepat: "haskell:hledger(.*)" } # note: has overlapping reverse rule in 800.renames-and-merges.haskell
+- { setname: hlint,                    name: haskell:$0 }
+- { setname: hlint,                    name: hlint-static, addflavor: true }
 - { setname: hm,                       name: hevc-hm }
 - { setname: hmm,                      name: rust:hmmcli }
 - { setname: hmmer,                    namepat: "hmmer[0-9.-]+" }
