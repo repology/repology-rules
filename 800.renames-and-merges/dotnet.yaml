@@ -1,0 +1,13 @@
+# vim: tabstop=39 expandtab softtabstop=39 nomodeline
+
+- { setname: dotnet, namepat: "aspnetcore-runtime[0-9.-]*", addflavor: aspnetcore-runtime }
+- { setname: dotnet, namepat: "dotnet-core[0-9.-]*", addflavor: core }
+- { setname: dotnet, namepat: "dotnet-runtime[0-9.-]*", addflavor: runtime }
+- { setname: dotnet, namepat: "dotnet-sdk[0-9.-]*", addflavor: sdk }
+- { setname: dotnet, namepat: "dotnet[0-9.-]+-sdk", addflavor: sdk }
+- { setname: dotnet, namepat: "dotnet[0-9.-]+-runtime", addflavor: runtime }
+- { setname: dotnet, namepat: "dotnet[0-9.-]+" }
+- { setname: dotnet, namepat: "aspnetcore-targeting-pack-10.0[0-9.-]+" }
+- { setname: dotnet, name: [dotnetpreview, dotnet-devel, dotnet-nightly], weak_devel: true, nolegacy: true }
+- { setname: dotnet, name: dotnet-sdk-preview, addflavor: sdk, weak_devel: true, nolegacy: true }
+- { setname: dotnet, name: [dotnet-host, aspnet-runtime, aspnet-targeting-pack, dotnet-targeting-pack, dotnet-core-sdk], addflavor: true }
