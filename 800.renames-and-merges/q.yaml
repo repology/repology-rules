@@ -76,7 +76,10 @@
 - { setname: qtgreet,                  name: greetd-qtgreet }
 - { setname: qtile,                    name: python:$0 }
 - { setname: qtile,                    name: qtile-wayland, addflavor: true }
-- { setname: qtkeychain,               name: [qt4-qtkeychain,qt5-qtkeychain,qt5keychain,qtkeychain-qt4,qtkeychain-qt5,qt5-keychain,libqtkeychain], addflavor: true }
+- { setname: qtkeychain,               name: [libqtkeychain, qtkeychain-qt] }
+- { setname: qtkeychain,               name: [qt4-qtkeychain, qtkeychain-qt4], addflavor: qt4 }
+- { setname: qtkeychain,               name: [libqtkeychain-qt5, qt5-keychain, qt5-qtkeychain, qt5keychain, qtkeychain-qt5], addflavor: qt5 }
+- { setname: qtkeychain,               name: [libqtkeychain-qt6, qt6-keychain, qt6-qtkeychain, qt6keychain, qtkeychain-qt6, qtkeychain6], addflavor: qt6 }
 - { setname: qtoctave,                 name: qtoctave-mac }
 - { setname: qtox,                     name: qtox-alpha, weak_devel: true, nolegacy: true }
 - { setname: qtpbfimageplugin,         name: [qt5-pbfimageplugin,libqt5-qtpbfimageformat,qt5-qtpbfimageformat], addflavor: qt5 }
