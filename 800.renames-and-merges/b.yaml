@@ -14,6 +14,7 @@
 - { setname: bacon,                    name: [rust:bacon, rust-bacon] } # different projects, split in 850
 - { setname: bacon,                    name: bacon-runtime, addflavor: true }
 - { setname: bacula,                   namepat: "bacula[0-9]*(-(?:bat|client|client-static|clientonly|common|doc|docs|fd|qt-console|server|tray-monitor|wx-console))?", addflavor: $1 }
+- { setname: bacula,                   name: [bacula-qt5-console, bacula-tray-monitor-qt5], addflavor: true }
 - { setname: baddns,                   name: python:$0 }
 - { setname: badger,                   name: badgerdb }
 - { setname: badkeys,                  name: python:$0 }
