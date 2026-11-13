@@ -83,7 +83,7 @@
 - { setname: scriptisto,               name: rust:$0 }
 - { setname: scrot,                    name: scrot-no-beep, addflavor: no-beep }
 - { setname: sd,                       name: [rust:$0, perl:app-sd, sd-cli] } # different projects, split in 850
-- { setname: sddm,                     name: [sddm-classic,sddm-elogind], addflavor: true }
+- { setname: sddm,                     name: [$0-classic, $0-elogind, $0-qt5, $0-qt6], addflavor: true }
 - { setname: sdkmanager,               name: python:$0 }
 - { setname: sdl,                      namepat: "(?:lib)?sdl2[0-9.-]*", addflag: sdl2 }
 - { setname: sdl,                      namepat: "(?:lib)?sdl3[0-9.-]*", addflag: sdl3 }
