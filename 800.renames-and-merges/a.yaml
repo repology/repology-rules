@@ -437,7 +437,7 @@
 - { setname: attica,                   name: [attica-kf5,attica-qt4,attica-qt5,libattica], addflavor: true }
 - { setname: atuin,                    name: rust:$0 }
 - { setname: aubio,                    name: [libaubio, libaubio4, libaubio5, python:$0] }
-- { setname: audacious,                name: [audacious-gtk3,audacious-core,audacious-qt5,audacious-itself,audacious-player], addflavor: true }
+- { setname: audacious,                name: [$0-gtk2, $0-base, $0-gtk3, $0-core, $0-qt5, $0-itself, $0-player], addflavor: true }
 - { setname: audacious-plugins,        name: [$0-qt5, $0-gtk2, $0-gtk3, $0-freeworld], addflavor: true }
 - { setname: audacity,                 name: [audacity-wxgtk2, audacity-3.1-wxgtk2], addflavor: wxgtk2 }
 - { setname: audacity,                 name: [audacity-freeworld,audacity-qt,audacity-local], addflavor: true }
