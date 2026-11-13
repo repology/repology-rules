@@ -192,7 +192,7 @@
 - { setname: ntp,                      name: [ntpd, ntpdate], addflavor: true }
 - { setname: nu,                       name: nu2 } # split later
 - { setname: nuget,                    name: mono-nuget }
-- { setname: numbat,                   name: rust:numbat-cli }
+- { setname: numbat,                   name: [rust:$0, rust:$0-cli] } # numbat-cli as the actual application, but some broken repos just call ut rust-numbat
 - { setname: numptyphysics,            name: numpty-physics }
 - { setname: nurl,                     name: rust:$0 }
 - { setname: nushell,                  name: rust:nu }
