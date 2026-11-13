@@ -274,9 +274,10 @@
 - { setname: libpthread-stubs,         name: [libpthread-stubs0, xorg-libpthread-stubs, pthread-stubs] }
 - { setname: libqb,                    name: libqb0 }
 - { setname: libqmatrixclient,         name: qt5-matrixclient }
-- { setname: libqtxdg,                 name: libqt5xdg, addflavor: qt5 }
-- { setname: libqtxdg,                 name: libqtxdg-qt4, addflavor: qt4 }
 - { setname: libqtxdg,                 name: $0-legacy }
+- { setname: libqtxdg,                 name: libqtxdg-qt4, addflavor: qt4 }
+- { setname: libqtxdg,                 name: [libqt5xdg, libqtxdg-qt5], addflavor: qt5 }
+- { setname: libqtxdg,                 name: [libqt6xdg], addflavor: qt6 }
 - { setname: libquicktime,             name: libquicktime-lame, addflavor: lame }
 - { setname: libquicktime,             name: libquicktime111 }
 - { setname: libquotient,              name: libqmatrixclient } # former name
