@@ -142,6 +142,7 @@
 - { setname: fmt,                      name: [fmtlib,cppformat] } # cppformat is the former name, see http://fmtlib.net
 - { setname: fmt,                      name: [fmt-nocheck], addflavor: true }
 - { setname: fmt,                      namepat: "(?:lib)?fmt[0-9.-]*" }
+- { setname: fnm,                      name: rust:$0 }
 - { setname: focuswriter,              name: $0-qt6, addflavor: true }
 - { setname: fofix,                    name: fofix-dfsg }
 - { setname: folly,                    name: fb-folly }
