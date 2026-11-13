@@ -455,7 +455,7 @@
 - { setname: cpu-z,                    name: cpuz }
 - { setname: cpx,                      name: [cpx-copy, rust:cpx] }
 - { setname: cq-editor,                name: python:$0 }
-- { setname: cqrlog,                   name: [cqrlog-gtk2,cqrlog-qt4,cqrlog-source], addflavor: true }
+- { setname: cqrlog,                   name: [$0-gtk2, $0-qt4, $0-qt5, $0-qt6, $0-source], addflavor: true }
 - { setname: cracklib,                 name: cracklib2 }
 - { setname: cramfs,                   name: cramfs-tools, addflavor: true }
 - { setname: cramino,                  name: rust:$0 }
