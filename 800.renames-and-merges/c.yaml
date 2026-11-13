@@ -489,6 +489,7 @@
 - { setname: css-html-js-minify,       name: python:$0 }
 - { setname: cstore-fdw,               namepat: "(postgresql[0-9.-]*)-cstore-fdw", addflavor: $1 }
 - { setname: csvkit,                   name: python:$0 }
+- { setname: csvlens,                  name: rust:$0 }
 - { setname: csxcad,                   name: [python:csxcad, python:python-csxcad] }
 - { setname: csync,                    name: [csync-release,pam-csync], addflavor: true } # different projects, also parts of
 - { setname: ctemplate,                name: [google-ctemplate,libctemplate] }
