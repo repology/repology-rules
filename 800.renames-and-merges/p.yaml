@@ -427,6 +427,7 @@
 - { setname: pugixml,                  name: pugixml-shared, addflavor: shared }
 - { setname: pulseaudio,               name: [libpulseaudio,libpulse,libpulse-nosystemd], addflavor: true }
 - { setname: pulseaudio,               name: [pulseaudio-bluetooth,pulseaudio-gconf,pulseaudio-jack,pulseaudio-lirc,pulseaudio-zeroconf], addflavor: true }
+- { setname: pulseaudio-qt,            name: [pulseaudio-qt5, pulseaudio-qt6], addflavor: true }
 - { setname: pulseeffects,             name: $0-legacy }
 - { setname: punktf,                   name: rust:$0 }
 - { setname: puppet,                   namepat: "puppet[0-9.-]+" }
