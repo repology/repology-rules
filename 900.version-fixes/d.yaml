@@ -110,6 +110,7 @@
 - { name: dircproxy,                   ver: "1.2.0",                 ruleset: macports,    incorrect: true } # rc1
 - { name: dircproxy,                                                 ruleset: macports,    untrusted: true } # accused of fake 1.2.0
 - { name: directfb,                    ver: "1.8.0",                 ruleset: slitaz,      incorrect: true }
+- { name: directx-headers,             verpat: "1\\.7[0-9]{2}.*",                          devel: true } # https://github.com/microsoft/DirectX-Headers/tags; not sure what is supposed to happen after 1.699.x
 - { name: directx-shader-compiler,     verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: discord,                     wwwpart: canary,                                    devel: true }
 - { name: discord-rpc,                 verpat: "20[0-9]{6}.*",                             incorrect: true } # aur
