@@ -387,6 +387,7 @@
 - { setname: askalono,                 name: rust:askalono-cli, addflavor: true }
 - { setname: asmjit,                   name: asmjit-1.0 }
 - { setname: aspell-$1,                namepat: "aspell-dict-(.*)" }
+- { setname: ast-grep,                 name: [rust:$0, python:$0-cli, python:$0-py], addflavor: true }
 - { setname: aster,                    name: code-aster }
 - { setname: asterisk,                 namepat: "asterisk(?:-lts)?[0-9.-]+x?" } # e.g. asterisk-11.x from openwrt as well
 - { setname: asterisk-core-sounds,     namepat: "asterisk-core-sounds-.*", ruleset: openbsd }
