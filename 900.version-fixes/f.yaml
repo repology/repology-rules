@@ -166,126 +166,126 @@
 - { name: fontconfig,                  verpat: "[0-9]+\\.[0-9]+\\.9[0-9].*",               devel: true }
 - { name: fontmatrix,                  ver: "0.9.99",                ruleset: [fedora,sisyphus], incorrect: true }
 - { name: fontmatrix,                  verpat: ".*20[0-9]{6}",                             snapshot: true }
-- { name: "fonts:adobe-100dpi",        verge: "7",                                         incorrect: true } # xorg version used (openindiana)
-- { name: "fonts:aenigma",                                                                 noscheme: true }
-- { name: "fonts:allerta",                                                                 noscheme: true }
-- { name: "fonts:apl385",                                                                  noscheme: true }
-- { name: "fonts:b612",                ver: "1.005",                 ruleset: freebsd,     incorrect: true }
-- { name: "fonts:b612",                                              ruleset: freebsd,     untrusted: true }
-- { name: "fonts:bakoma",                                                                  noscheme: true }
-- { name: "fonts:blackout",                                                                noscheme: true }
-- { name: "fonts:caladea",                                                                 noscheme: true }
-- { name: "fonts:cardo",               ver: "1.045",                 ruleset: [sisyphus,fedora], incorrect: true }
-- { name: "fonts:cardo",                                             ruleset: [sisyphus,fedora], untrusted: true }
-- { name: "fonts:carlito",                                                                 noscheme: true }
-- { name: "fonts:cascadia-code",       verge: "21000",               ruleset: sisyphus,    incorrect: true }
-- { name: "fonts:cascadia-code",                                     ruleset: sisyphus,    untrusted: true }
-- { name: "fonts:cheapskate",                                                              noscheme: true }
-- { name: "fonts:cjkuni",              ver: "0.5.11",                ruleset: openindiana, incorrect: true }
-- { name: "fonts:cjkuni",                                            ruleset: openindiana, untrusted: true } # accused of fake 0.5.11
-- { name: "fonts:cjkuni",              verpat: "20[0-9]{6}.*",                             incorrect: true } # opensuse
-- { name: "fonts:comic-mono",                                                              noscheme: true }
-- { name: "fonts:corefonts",                                                               noscheme: true }
-- { name: "fonts:courier-prime",       verpat: "20[0-9]{6}",                               incorrect: true }
-- { name: "fonts:courier-prime",       ver: "03142015",                                    sink: true } # old reverse date
-- { name: "fonts:crimson",                                                                 noscheme: true }
-- { name: "fonts:crimson-pro",                                                             noscheme: true }
-- { name: "fonts:croscore",            verpat: "20[0-9]{2}.*",                             incorrect: true }
-- { name: "fonts:cyberbit",            ver: "2.0.20050220",                                ignore: true }
-- { name: "fonts:d-din",                                                                   noscheme: true }
-- { name: "fonts:droid",                                                                   noscheme: true }
-- { name: "fonts:dseg",                ver: "030",                                         setver: "0.30" }
-- { name: "fonts:eeyek",               ver: "20091204",                                    ignore: true }
-- { name: "fonts:fantasque-sans-mono", verpat: "20[0-9]{2}.*",                             incorrect: true }
-- { name: "fonts:fanwood",             verpat: "20[0-9]{6}",                               incorrect: true }
-- { name: "fonts:fira-sans",           verpat: "20[0-9]{6}",                               ignore: true } # openbsd garbage
-- { name: "fonts:freefarsi",           ver: "1.0.0b",                                      incorrect: true } # openbsd, untrusted source, beta1 in other places and on the home site
-- { name: "fonts:freefont",            ver: "201704142",                                   incorrect: true }
-- { name: "fonts:freefont",                                          ruleset: [openmandriva,rosa], untrusted: true } # accused of fake 201704142
-- { name: "fonts:gentium-basic",       ver: "1102",                                        setver: "1.102" }
-- { name: "fonts:gnutypewriter",                                                           noscheme: true }
-- { name: "fonts:go",                                                                      noscheme: true }
-- { name: "fonts:google",              verge: "1",                                         incorrect: true } # actual version atow is 0.4.9: https://github.com/google/fonts/tags, all currently packaged versions are garbage
-- { name: "fonts:hannom",              verpat: "[0-9]{4}\\..*",                            incorrect: true } # 2005, not 2005.02.06
-- { name: "fonts:ibm-plex",            verpat: "20[0-9]{2}.*",                             incorrect: true }
-- { name: "fonts:ibm-plex",            ver: "6.4.2",                                       outdated: true } # separate versions for each font since june 2024
-- { name: "fonts:inconsolata",         verpat: "20[0-9]{2}.*",                             incorrect: true }
-- { name: "fonts:inconsolata",         verge: "20000000", verlt: "20191212",               sink: true } # 3.000 from 2019 dec 12
-- { name: "fonts:inconsolata-lgc",     verge: "20000000", verlt: "20160404",               sink: true } # 1.3.0 from 2016 apr 04
-- { name: "fonts:inconsolata-lgc",     verpat: "20[0-9]{6}",                               incorrect: true }
-- { name: "fonts:inconsolata-lgc",     ver: "1.12",                  ruleset: aur,         incorrect: true }
-- { name: "fonts:inconsolata-lgc",                                   ruleset: aur,         untrusted: true } # accused of fake 1.12
-- { name: "fonts:input",                                                                   noscheme: true }
-- { name: "fonts:ipa",                 verpat: "([0-9]{3})([0-9]{2})",                     setver: $1.$2 }
-- { name: "fonts:jsmath",                                                                  noscheme: true }
-- { name: "fonts:junction",                                                                noscheme: true }
-- { name: "fonts:league-gothic",       verpat: ".*20[0-9]{2}.*",                           incorrect: true } # has proper tagged versions https://github.com/theleagueof/league-gothic/tags
-- { name: "fonts:league-spartan",      verpat: ".*20[0-9]{2}.*",                           incorrect: true } # has proper tagged versions https://github.com/theleagueof/league-spartan/tags
-- { name: "fonts:liberation",          ver: "1.07.6",                ruleset: pclinuxos,   incorrect: true }
-- { name: "fonts:liberation",                                        ruleset: pclinuxos,   untrusted: true } # accused of fake 1.07.6
-- { name: "fonts:linuxlibertine",      verpat: ".*2012.*",                                 ignore: true } # gentoo and haikuports snapshots
-- { name: "fonts:linuxlibertine",      ver: "8.0.2",                 ruleset: aosc,        incorrect: true }
-- { name: "fonts:linuxlibertine",                                    ruleset: aosc,        untrusted: true } # accused of fake 8.0.2
-- { name: "fonts:lklug",                                                                   noscheme: true }
-- { name: "fonts:manrope",             ver: "5.2.5",                 ruleset: aur,         incorrect: true }
-- { name: "fonts:manrope",                                           ruleset: aur,         untrusted: true } # accused of fake 5.2.5
-- { name: "fonts:mikachan",            ver: "9.1.2006.08.09",                              ignore: true } # openSUSE garbage
-- { name: "fonts:misc-cyrillic",                                     ruleset: openindiana, incorrect: true } # uses version from font-screen-cyrillic https://github.com/OpenIndiana/oi-userland/blob/454f95e1962006a48cd00a0d3540eb603f91d8db/components/fonts/xorg-cyrillic/Makefile
-- { name: "fonts:national-park",       verpat: "[0-9]{6,}",                                incorrect: true } # just upload id, not a version
-- { name: "fonts:nerd-fonts",          verpat: "[0-9]{4}.*",                               incorrect: true }
-- { name: "fonts:nerd-fonts",          verpat: ".*\\+.*",                                  incorrect: true } # it's plain 3.3.0
-- { name: "fonts:noto",                verge: "20000000", verlt: "20250201",               sink: true } # outdated with incorrect versioning scheme
-- { name: "fonts:noto",                verpat: "20[0-9]{6}.*",                             incorrect: true } # actual versioning scheme is 2024.11.01
-- { name: "fonts:noto-cjk",                                                                noscheme: true } # sans and serif fonts with different versions https://github.com/notofonts/noto-cjk/tags
-- { name: "fonts:noto-cjk",            verge: "2000", verlt: "2022",                       noscheme: false, outdated: true } # sans and serif from jan 2022
-- { name: "fonts:noto-cjk",            verge: "20000000", verlt: "20220127",               noscheme: false, outdated: true } # sans and serif from jan 2022
-- { name: "fonts:noto-cjk-sans",       verpat: "20[0-9]{2}.*",                             incorrect: true }
-- { name: "fonts:noto-cjk-sans",       verge: "20000000", verlt: "20220127",               sink: true }
-- { name: "fonts:noto-cjk-serif",      verpat: "20[0-9]{2}.*",                             incorrect: true }
-- { name: "fonts:noto-cjk-serif",      verge: "20000000", verlt: "20220126",               sink: true }
-- { name: "fonts:noto-emoji",          verge: "2000",                                      sink: true } # latest is 2.034 https://github.com/googlefonts/noto-emoji/tags
-- { name: "fonts:noto-emoji",                                                              noscheme: true } # unclear versioning scheme https://github.com/googlefonts/noto-emoji/issues/574
-- { name: "fonts:ocr-a",               verpat: "20[0-9]{2}",                               incorrect: true } # aur
-- { name: "fonts:oldstandard",         ver: "2.2really",                                   ignore: true } # debian garbage
-- { name: "fonts:opensans",                                                                noscheme: true }
-- { name: "fonts:orbitron",                                                                noscheme: true }
-- { name: "fonts:oxygen",              verpat: "20[0-9]{2}.*",                             incorrect: true }
-- { name: "fonts:powerline",                                                               noscheme: true }
-- { name: "fonts:quattrocento",        ver: "2.000",                 ruleset: arch,        ignore: true } # webpage says it's 1.1
-- { name: "fonts:quicksand",                                                               noscheme: true }
-- { name: "fonts:raleway",             verpat: ".*20[0-9]{2}.*",                           incorrect: true } # has proper tagged releases https://github.com/theleagueof/raleway/tags
-- { name: "fonts:roboto",              relge: "20000000", rellt: "20170802",               sink: true } # 2.138 from 2017-08-02
-- { name: "fonts:roboto",              verpat: "20[0-9]{2}.*",                             incorrect: true }
-- { name: "fonts:roboto",              releq: "3",                                         incorrect: true } # roboto classic
-- { name: "fonts:roboto-mono",                                                             noscheme: true }
-- { name: "fonts:roboto-slab",                                                             noscheme: true }
-- { name: "fonts:siji",                                                                    noscheme: true }
-- { name: "fonts:source-code-pro",     verpat: "([0-9.]{5})[^0-9]+([0-9.]{5})[^0-9]+([0-9.]{5})[^0-9]*", setver: $1/$2/$3 } # upstream versions are like 2.038R-ro/1.058R-it/1.018R-VAR or 2.042R-u/1.062R-i/1.026R-vf; normalize by removing meaningless alphabetic components
-- { name: "fonts:source-code-pro",     verpat: "([0-9.]{5})[^0-9]+([0-9.]{5})[^0-9]+([0-9.]{5})", altver: true } # allow triplet versions to coexist with short version
-- { name: "fonts:source-code-pro",     verpat: "([0-9.]{5})[^0-9]+",                       setver: $1 } # remove meaningless alphabetic garbage from short versions as well
-- { name: "fonts:source-code-pro",     verpat: "20[0-9]{6}",                               incorrect: true }
-- { name: "fonts:source-code-pro",     verpat: "[0-9.]{5}[^0-9]+[0-9.]{5}[^0-9]*",         incorrect: true } # tuple version is never correct
-- { name: "fonts:source-han-code-jp",  verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
-- { name: "fonts:source-han-sans",     verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
-- { name: "fonts:source-han-serif",    verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
-- { name: "fonts:source-sans",         verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
-- { name: "fonts:source-sans",         verpat: "20[0-9]{6}",                               incorrect: true }
-- { name: "fonts:source-serif",        verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
-- { name: "fonts:stix",                verpat: ".*b.*",                                    any_is_patch: true }
-- { name: "fonts:terminus",            ver: "4.49.3",                ruleset: homebrew_casks, incorrect: true } # terminus-ttf
-- { name: "fonts:terminus",                                          ruleset: homebrew_casks, untrusted: true } # terminus-ttf
-- { name: "fonts:tinos",                                                                   noscheme: true }
-- { name: "fonts:ubuntu",              ver: "1.0",                   ruleset: pclinuxos,   incorrect: true } # no such version on the website
-- { name: "fonts:ubuntu",              ver: "0.863",                 ruleset: [alpine,ubuntu], incorrect: true } # 0.83 is the latest on official website
-- { name: "fonts:ubuntu",              ver: "0.869",                 ruleset: [alpine,openmandriva,ubuntu], incorrect: true } # 0.83 is the latest on official website
-- { name: "fonts:ubuntu",                                            ruleset: [alpine,openmandriva,ubuntu], untrusted: true } # accused of fake 0.863, 0.869
-- { name: "fonts:ubuntu",              verpat: ".*ubuntu.*",                               incorrect: true }
-- { name: "fonts:ucs-miscfixed",       verpat: "20[0-9]+",                                 incorrect: true }
-- { name: "fonts:unifont",             ver: "20080123",                                    sink: true }
-- { name: "fonts:wqy-bitmapfont",      ver: "1.0.0",                 ruleset: rpm,         incorrect: true }
-- { name: "fonts:wqy-bitmapfont",                                    ruleset: rpm,         untrusted: true } # accused of fake 1.0.0
-- { name: "fonts:wqy-microhei",        verpat: "(.*?)[^0-9]?beta",                         setver: $1 }
-- { name: "fonts:xkcd",                                                                    noscheme: true }
+- { name: fonts:adobe-100dpi,          verge: "7",                                         incorrect: true } # xorg version used (openindiana)
+- { name: fonts:aenigma,                                                                   noscheme: true }
+- { name: fonts:allerta,                                                                   noscheme: true }
+- { name: fonts:apl385,                                                                    noscheme: true }
+- { name: fonts:b612,                  ver: "1.005",                 ruleset: freebsd,     incorrect: true }
+- { name: fonts:b612,                                                ruleset: freebsd,     untrusted: true }
+- { name: fonts:bakoma,                                                                    noscheme: true }
+- { name: fonts:blackout,                                                                  noscheme: true }
+- { name: fonts:caladea,                                                                   noscheme: true }
+- { name: fonts:cardo,                 ver: "1.045",                 ruleset: [sisyphus,fedora], incorrect: true }
+- { name: fonts:cardo,                                               ruleset: [sisyphus,fedora], untrusted: true }
+- { name: fonts:carlito,                                                                   noscheme: true }
+- { name: fonts:cascadia-code,         verge: "21000",               ruleset: sisyphus,    incorrect: true }
+- { name: fonts:cascadia-code,                                       ruleset: sisyphus,    untrusted: true }
+- { name: fonts:cheapskate,                                                                noscheme: true }
+- { name: fonts:cjkuni,                ver: "0.5.11",                ruleset: openindiana, incorrect: true }
+- { name: fonts:cjkuni,                                              ruleset: openindiana, untrusted: true } # accused of fake 0.5.11
+- { name: fonts:cjkuni,                verpat: "20[0-9]{6}.*",                             incorrect: true } # opensuse
+- { name: fonts:comic-mono,                                                                noscheme: true }
+- { name: fonts:corefonts,                                                                 noscheme: true }
+- { name: fonts:courier-prime,         verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: fonts:courier-prime,         ver: "03142015",                                    sink: true } # old reverse date
+- { name: fonts:crimson,                                                                   noscheme: true }
+- { name: fonts:crimson-pro,                                                               noscheme: true }
+- { name: fonts:croscore,              verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: fonts:cyberbit,              ver: "2.0.20050220",                                ignore: true }
+- { name: fonts:d-din,                                                                     noscheme: true }
+- { name: fonts:droid,                                                                     noscheme: true }
+- { name: fonts:dseg,                  ver: "030",                                         setver: "0.30" }
+- { name: fonts:eeyek,                 ver: "20091204",                                    ignore: true }
+- { name: fonts:fantasque-sans-mono,   verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: fonts:fanwood,               verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: fonts:fira-sans,             verpat: "20[0-9]{6}",                               ignore: true } # openbsd garbage
+- { name: fonts:freefarsi,             ver: "1.0.0b",                                      incorrect: true } # openbsd, untrusted source, beta1 in other places and on the home site
+- { name: fonts:freefont,              ver: "201704142",                                   incorrect: true }
+- { name: fonts:freefont,                                            ruleset: [openmandriva,rosa], untrusted: true } # accused of fake 201704142
+- { name: fonts:gentium-basic,         ver: "1102",                                        setver: "1.102" }
+- { name: fonts:gnutypewriter,                                                             noscheme: true }
+- { name: fonts:go,                                                                        noscheme: true }
+- { name: fonts:google,                verge: "1",                                         incorrect: true } # actual version atow is 0.4.9: https://github.com/google/fonts/tags, all currently packaged versions are garbage
+- { name: fonts:hannom,                verpat: "[0-9]{4}\\..*",                            incorrect: true } # 2005, not 2005.02.06
+- { name: fonts:ibm-plex,              verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: fonts:ibm-plex,              ver: "6.4.2",                                       outdated: true } # separate versions for each font since june 2024
+- { name: fonts:inconsolata,           verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: fonts:inconsolata,           verge: "20000000", verlt: "20191212",               sink: true } # 3.000 from 2019 dec 12
+- { name: fonts:inconsolata-lgc,       verge: "20000000", verlt: "20160404",               sink: true } # 1.3.0 from 2016 apr 04
+- { name: fonts:inconsolata-lgc,       verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: fonts:inconsolata-lgc,       ver: "1.12",                  ruleset: aur,         incorrect: true }
+- { name: fonts:inconsolata-lgc,                                     ruleset: aur,         untrusted: true } # accused of fake 1.12
+- { name: fonts:input,                                                                     noscheme: true }
+- { name: fonts:ipa,                   verpat: "([0-9]{3})([0-9]{2})",                     setver: $1.$2 }
+- { name: fonts:jsmath,                                                                    noscheme: true }
+- { name: fonts:junction,                                                                  noscheme: true }
+- { name: fonts:league-gothic,         verpat: ".*20[0-9]{2}.*",                           incorrect: true } # has proper tagged versions https://github.com/theleagueof/league-gothic/tags
+- { name: fonts:league-spartan,        verpat: ".*20[0-9]{2}.*",                           incorrect: true } # has proper tagged versions https://github.com/theleagueof/league-spartan/tags
+- { name: fonts:liberation,            ver: "1.07.6",                ruleset: pclinuxos,   incorrect: true }
+- { name: fonts:liberation,                                          ruleset: pclinuxos,   untrusted: true } # accused of fake 1.07.6
+- { name: fonts:linuxlibertine,        verpat: ".*2012.*",                                 ignore: true } # gentoo and haikuports snapshots
+- { name: fonts:linuxlibertine,        ver: "8.0.2",                 ruleset: aosc,        incorrect: true }
+- { name: fonts:linuxlibertine,                                      ruleset: aosc,        untrusted: true } # accused of fake 8.0.2
+- { name: fonts:lklug,                                                                     noscheme: true }
+- { name: fonts:manrope,               ver: "5.2.5",                 ruleset: aur,         incorrect: true }
+- { name: fonts:manrope,                                             ruleset: aur,         untrusted: true } # accused of fake 5.2.5
+- { name: fonts:mikachan,              ver: "9.1.2006.08.09",                              ignore: true } # openSUSE garbage
+- { name: fonts:misc-cyrillic,                                       ruleset: openindiana, incorrect: true } # uses version from font-screen-cyrillic https://github.com/OpenIndiana/oi-userland/blob/454f95e1962006a48cd00a0d3540eb603f91d8db/components/fonts/xorg-cyrillic/Makefile
+- { name: fonts:national-park,         verpat: "[0-9]{6,}",                                incorrect: true } # just upload id, not a version
+- { name: fonts:nerd-fonts,            verpat: "[0-9]{4}.*",                               incorrect: true }
+- { name: fonts:nerd-fonts,            verpat: ".*\\+.*",                                  incorrect: true } # it's plain 3.3.0
+- { name: fonts:noto,                  verge: "20000000", verlt: "20250201",               sink: true } # outdated with incorrect versioning scheme
+- { name: fonts:noto,                  verpat: "20[0-9]{6}.*",                             incorrect: true } # actual versioning scheme is 2024.11.01
+- { name: fonts:noto-cjk,                                                                  noscheme: true } # sans and serif fonts with different versions https://github.com/notofonts/noto-cjk/tags
+- { name: fonts:noto-cjk,              verge: "2000", verlt: "2022",                       noscheme: false, outdated: true } # sans and serif from jan 2022
+- { name: fonts:noto-cjk,              verge: "20000000", verlt: "20220127",               noscheme: false, outdated: true } # sans and serif from jan 2022
+- { name: fonts:noto-cjk-sans,         verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: fonts:noto-cjk-sans,         verge: "20000000", verlt: "20220127",               sink: true }
+- { name: fonts:noto-cjk-serif,        verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: fonts:noto-cjk-serif,        verge: "20000000", verlt: "20220126",               sink: true }
+- { name: fonts:noto-emoji,            verge: "2000",                                      sink: true } # latest is 2.034 https://github.com/googlefonts/noto-emoji/tags
+- { name: fonts:noto-emoji,                                                                noscheme: true } # unclear versioning scheme https://github.com/googlefonts/noto-emoji/issues/574
+- { name: fonts:ocr-a,                 verpat: "20[0-9]{2}",                               incorrect: true } # aur
+- { name: fonts:oldstandard,           ver: "2.2really",                                   ignore: true } # debian garbage
+- { name: fonts:opensans,                                                                  noscheme: true }
+- { name: fonts:orbitron,                                                                  noscheme: true }
+- { name: fonts:oxygen,                verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: fonts:powerline,                                                                 noscheme: true }
+- { name: fonts:quattrocento,          ver: "2.000",                 ruleset: arch,        ignore: true } # webpage says it's 1.1
+- { name: fonts:quicksand,                                                                 noscheme: true }
+- { name: fonts:raleway,               verpat: ".*20[0-9]{2}.*",                           incorrect: true } # has proper tagged releases https://github.com/theleagueof/raleway/tags
+- { name: fonts:roboto,                relge: "20000000", rellt: "20170802",               sink: true } # 2.138 from 2017-08-02
+- { name: fonts:roboto,                verpat: "20[0-9]{2}.*",                             incorrect: true }
+- { name: fonts:roboto,                releq: "3",                                         incorrect: true } # roboto classic
+- { name: fonts:roboto-mono,                                                               noscheme: true }
+- { name: fonts:roboto-slab,                                                               noscheme: true }
+- { name: fonts:siji,                                                                      noscheme: true }
+- { name: fonts:source-code-pro,       verpat: "([0-9.]{5})[^0-9]+([0-9.]{5})[^0-9]+([0-9.]{5})[^0-9]*", setver: $1/$2/$3 } # upstream versions are like 2.038R-ro/1.058R-it/1.018R-VAR or 2.042R-u/1.062R-i/1.026R-vf; normalize by removing meaningless alphabetic components
+- { name: fonts:source-code-pro,       verpat: "([0-9.]{5})[^0-9]+([0-9.]{5})[^0-9]+([0-9.]{5})", altver: true } # allow triplet versions to coexist with short version
+- { name: fonts:source-code-pro,       verpat: "([0-9.]{5})[^0-9]+",                       setver: $1 } # remove meaningless alphabetic garbage from short versions as well
+- { name: fonts:source-code-pro,       verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: fonts:source-code-pro,       verpat: "[0-9.]{5}[^0-9]+[0-9.]{5}[^0-9]*",         incorrect: true } # tuple version is never correct
+- { name: fonts:source-han-code-jp,    verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
+- { name: fonts:source-han-sans,       verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
+- { name: fonts:source-han-serif,      verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
+- { name: fonts:source-sans,           verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
+- { name: fonts:source-sans,           verpat: "20[0-9]{6}",                               incorrect: true }
+- { name: fonts:source-serif,          verpat: "(.*)R",                                    setver: $1 } # xxx and xxxR seem to be basically the same thing
+- { name: fonts:stix,                  verpat: ".*b.*",                                    any_is_patch: true }
+- { name: fonts:terminus,              ver: "4.49.3",                ruleset: homebrew_casks, incorrect: true } # terminus-ttf
+- { name: fonts:terminus,                                            ruleset: homebrew_casks, untrusted: true } # terminus-ttf
+- { name: fonts:tinos,                                                                     noscheme: true }
+- { name: fonts:ubuntu,                ver: "1.0",                   ruleset: pclinuxos,   incorrect: true } # no such version on the website
+- { name: fonts:ubuntu,                ver: "0.863",                 ruleset: [alpine,ubuntu], incorrect: true } # 0.83 is the latest on official website
+- { name: fonts:ubuntu,                ver: "0.869",                 ruleset: [alpine,openmandriva,ubuntu], incorrect: true } # 0.83 is the latest on official website
+- { name: fonts:ubuntu,                                              ruleset: [alpine,openmandriva,ubuntu], untrusted: true } # accused of fake 0.863, 0.869
+- { name: fonts:ubuntu,                verpat: ".*ubuntu.*",                               incorrect: true }
+- { name: fonts:ucs-miscfixed,         verpat: "20[0-9]+",                                 incorrect: true }
+- { name: fonts:unifont,               ver: "20080123",                                    sink: true }
+- { name: fonts:wqy-bitmapfont,        ver: "1.0.0",                 ruleset: rpm,         incorrect: true }
+- { name: fonts:wqy-bitmapfont,                                      ruleset: rpm,         untrusted: true } # accused of fake 1.0.0
+- { name: fonts:wqy-microhei,          verpat: "(.*?)[^0-9]?beta",                         setver: $1 }
+- { name: fonts:xkcd,                                                                      noscheme: true }
 - { name: fonttools,                   verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: fonttools-opentype-feature-freezer, ver: "1.32.2",                               sink: true } # old versioning scheme
 - { name: fonttosfnt,                                                ruleset: opensuse,    untrusted: true } # accused of fake 1.0.5
