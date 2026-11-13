@@ -194,6 +194,8 @@
 - { name: simh,                        verpat: "[0-9]{2}.*",                               incorrect: true }
 - { name: simon,                       verpat: ".*\\.9[0-9]",                              devel: true }
 - { name: simplescreenrecorder,        verlonger: 3,                                       incorrect: true }
+- { name: simplyhtml,                  ver: "1.19.11",                                     setver: "0.19.11" } # https://github.com/freeplane/shtml/issues/24
+- { name: simplyhtml,                  vergt: "1.19.11",                                   incorrect: true } # https://github.com/freeplane/shtml/issues/24
 - { name: simulide,                    verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: simulide,                    verpat: ".*[0-9]{4}",                               incorrect: true } # debian
 - { name: simulide,                    ver: "1.2.0",                 ruleset: sisyphus,    incorrect: true }
