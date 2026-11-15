@@ -63,6 +63,7 @@
 - { setname: ddgr,                     name: python:$0, addflavor: python }
 - { setname: ddh,                      name: rust:$0 }
 - { setname: ddrescue,                 name: [gddrescue,gnu-ddrescue] }
+- { setname: ddrescueview,             name: [$0-qt5, $0-gtk2, $0-qt6], addflavor: true }
 - { setname: ddskk,                    name: [emacs-common-ddskk,"emacs:ddskk"] }
 - { setname: deadbeef,                 name: deadbeef-with-plugins }
 - { setname: deal.ii,                  name: [dealii,dealii-openmpi,deal-ii] }
