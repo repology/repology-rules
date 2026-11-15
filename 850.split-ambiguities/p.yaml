@@ -64,6 +64,11 @@
 - { name: pam-config, wwwpart: alt, setname: pam-config-alt }
 - { name: pam-config, addflag: unclassified }
 
+- { name: pambase, ruleset: arch, setname: $0-arch }
+- { name: pambase, ruleset: gentoo, setname: $0-gentoo }
+- { name: pambase, ruleset: vylen, setname: $0-vylen }
+- { name: pambase, addflag: unclassified }
+
 - { name: papercut, wwwpart: pessoal, setname: papercut-nntp }
 - { name: papercut, wwwpart: changemakerstudios, setname: papercut-smtp }
 - { name: papercut, addflag: unclassified }
