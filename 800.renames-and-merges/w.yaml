@@ -85,7 +85,7 @@
 - { setname: wine-mono,                name: wine-stable-mono }
 - { setname: wine-nine-standalone,     name: [gallium-nine, gallium-nine-standalone, wine-nine] }
 - { setname: winewizard,               name: wine-wizard }
-- { setname: winff,                    name: [winff-gtk2,winff-qt4], addflavor: true }
+- { setname: winff,                    name: [$0-gtk2, $0-qt4, $0-qt5, $0-qt6], addflavor: true }
 - { setname: wing,                     name: [wingide-personal,wingide-personal6,wingidepersonal,wingpersonal,wing-personal], addflavor: personal }
 - { setname: wing,                     name: [wingpro8], addflavor: pro }
 - { setname: wing,                     name: [wingide101,wingide] }
