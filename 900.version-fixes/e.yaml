@@ -45,6 +45,8 @@
 - { name: edk2,                        verpat: "(.*)stable",                               incorrect: true }
 - { name: edk2,                        verpat: "[0-9]{8}.*",                               incorrect: true } # e.g. 202105
 - { name: edk2,                        verge: "20000000", verlt: "20220500",               sink: true, vulnerable: true }
+- { name: efivar,                      ver: "40",                    ruleset: [aerynos,sisyphus,openmamba,t2,vylen], recalled: true } # as per report
+- { name: efivar,                      ver: "39-2",                                        incorrect: true }
 - { name: eflite,                      ver: "0.4.2",                 ruleset: sisyphus,    incorrect: true }
 - { name: eflite,                                                    ruleset: sisyphus,    untrusted: true } # accused of fake 0.4.2
 - { name: egoboo,                      verpat: "2\\.[0-9]{2,}",                            incorrect: true }
