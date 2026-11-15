@@ -147,10 +147,7 @@
 - { name: npm,                         ver: ["5.5.0", "5.5.1"],                            devel: true, maintenance: true }
 - { name: npm,                         verge: "15",                  ruleset: crux,        incorrect: true } # nodejs instead of npm
 - { name: npm,                                                       ruleset: crux,        untrusted: true } # accused of fake 15.5.1
-- { name: nqc,                         verpat: "[0-9]+\\.[0-9]+\\.[0-9]+",                 incorrect: true } # 3.1.r6, not 3.1.r6
-- { name: nqc,                                                       ruleset: fedora,      untrusted: true } # accused of fake 3.1.7
-- { name: nqc,                         ver: "3.1.r6-4",              ruleset: slitaz,      incorrect: true } # fork?
-- { name: nqc,                                                       ruleset: slitaz,      untrusted: true } # accused of fake 3.1.r6-4
+- { name: nqc,                                                       ruleset: [fedora,slitaz], untrusted: true } # accused of fake 3.1.7, 3.1.r6-4
 - { name: nrg2iso,                     ver: "0.5",                   ruleset: opensuse,    incorrect: true }
 - { name: nrg2iso,                                                   ruleset: opensuse,    untrusted: true } # accused of fake 0.5
 - { name: nrsc5,                       verpat: ".+20[0-9]{6}",                             snapshot: true }
