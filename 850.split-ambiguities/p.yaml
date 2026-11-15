@@ -60,8 +60,9 @@
 - { name: pal, ruleset: cygwin, setname: palcal }
 - { name: pal, addflag: unclassified }
 
-- { name: pam-config, wwwpart: suse, setname: pam-config-suse }
-- { name: pam-config, wwwpart: alt, setname: pam-config-alt }
+- { name: pam-config, ruleset: opensuse, setname: $0-suse }
+- { name: pam-config, ruleset: sisyphus, setname: $0-alt }
+- { name: pam-config, ruleset: rosa, setname: $0-rosa }
 - { name: pam-config, addflag: unclassified }
 
 - { name: papercut, wwwpart: pessoal, setname: papercut-nntp }
