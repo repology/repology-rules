@@ -266,6 +266,7 @@
 - { setname: transdecoder,             name: perl:$0 }
 - { setname: transifex-client,         name: python:$0 }
 - { setname: translate-toolkit,        name: [python:translate-toolkit, python:translate-toolkit-lib] } # XXX: check for misnamed modules
+- { setname: transmission-remote-gui,  name: [$0-qt5, $0-qt6, $0-gtk2], addflavor: true }
 - { setname: trash-cli,                name: python:$0 }
 - { setname: tre,                      name: lib$0 } # XXX: reverse?
 - { setname: tree,                     name: [tree-pkg, colortree] }
