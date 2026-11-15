@@ -448,6 +448,7 @@
 - { setname: musescore,                name: [musescore-dev,musescore-snapshot,musescore3-nightly,musescore-nightly], weak_devel: true, nolegacy: true }
 - { setname: musescore,                name: [musescore-legacy,musescore.3,musescore3,musescore2] }
 - { setname: musescore,                name: $0-midi, addflavor: true }
+- { setname: musique,                  name: musique111-qt5, addflavor: true }
 - { setname: musl,                     name: musl-libc }
 - { setname: musl,                     name: musl-bootstrap, addflavor: true }
 - { setname: musl,                     name: [$0-cross, arm-$0, armhf-$0, i386-$0, $0-armv7, $0-mallocng, $0-x86-64, aarch64-linux-$0, arm-linux-gnueabihf-$0], addflavor: true }
