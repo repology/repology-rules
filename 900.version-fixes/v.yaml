@@ -123,6 +123,8 @@
 - { name: vsftpd,                                                    ruleset: guix,        untrusted: true } # accused of fake 3.0.3-32.el8
 - { name: vss,                         verpat: ".*w",                                      devel: true }
 - { name: vss,                         verpat: "20[0-9]{2}.*",                             sink: true }
+- { name: vss-extra,                   verpat: ".*w",                                      devel: true }
+- { name: vss-text,                    verpat: ".*w",                                      devel: true }
 - { name: vst3sdk,                     verpat: ".*build.*",                                any_is_patch: true }
 - { name: vte,                         verpat: "[0-9]+\\.[0-9]*[13579]\\..*",              devel: true }
 - { name: vte,                         ver: "0.28.22",               ruleset: solus,       incorrect: true }
