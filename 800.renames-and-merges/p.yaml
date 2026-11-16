@@ -209,6 +209,7 @@
 - { setname: pkg,                      name: [freebsd-pkg, pkg-bsd] }
 - { setname: pkg,                      name: pkg-devel, weak_devel: true, nolegacy: true }
 - { setname: pkg-config,               name: pkgconfig }
+- { setname: planarity,                name: edge-addition-planarity-suite, addflavor: true }
 - { setname: planeshift,               name: $0-legacy }
 - { setname: plasma-browser-integration, name: plasma5-plasma-browser-integration }
 - { setname: plasma-camera,            name: plasma-camera-git, weak_devel: true, nolegacy: true }
