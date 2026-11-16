@@ -204,6 +204,7 @@
 - { name: tracker,                     verpat: ".*99.*",                                   devel: true }
 - { name: tracker-miners,              verpat: ".*99.*",                                   devel: true }
 - { name: traefik,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
+- { name: transgui,                    ver: "5.18.8.f",                                    recalled: true } # fork gone
 - { name: transifex-client,            ver: "1.0.0",                 ruleset: gentoo,      incorrect: true } # transifex-cli
 - { name: transifex-client,                                          ruleset: gentoo,      untrusted: true } # accused of fake 1.0.0
 - { name: transset,                    verpat: "20[0-9]{6}.*",                             ignore: true }
