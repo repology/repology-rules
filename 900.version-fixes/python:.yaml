@@ -56,6 +56,7 @@
 - { name: python:enzyme,                                             ruleset: sisyphus,    untrusted: true } # accused of fake 0.4.2
 - { name: python:falcon,               verpat: ".*~\\^.*",                                 incorrect: true } # fedora garbage
 - { name: python:falcon,                                             ruleset: fedora,      untrusted: true }
+- { name: python:flake8-black,         ver: "4.0.0",                                       sink: true, disposable: true } # https://github.com/peterjc/flake8-black/issues/112
 - { name: python:flask-sphinx-themes,   ver: "20130715",                                   sink: true }
 - { name: python:flask-sphinx-themes,   verpat: "20[0-9]{6}",                              snapshot: true }
 - { name: python:fpylll,               verpat: "(.*)dev",                                  setver: $1 }
