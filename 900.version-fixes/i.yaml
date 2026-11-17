@@ -104,11 +104,8 @@
 - { name: input-leap,                  ver: "3.0.3",                 ruleset: openmandriva, incorrect: true }
 - { name: input-leap,                                                ruleset: openmandriva, untrusted: true } # accused of fake 3.0.3
 - { name: input-utils,                 verpat: "20[0-9]{2}.*",                             incorrect: true }
-- { name: insighttoolkit,              ver: "5.4.2",                 ruleset: pypi,        remove: true, disposable: true } # yanked on pypi, remove not to poison whole 5.4.2
 - { name: insomnia-rest-client,        verpat: "202[0123].*",                              sink: true } # 2023.5.8 → 8.0.0
-- { name: inspectrum,                  verpat: "20[0-9]{2}.*",                             ignore: true }
-- { name: inspectrum,                  verpat: "2017.*",                                   sink: true, disposable: true }
-- { name: inspectrum,                  ver: "20180603",                                    sink: true, disposable: true } # latest official versions from 20180607
+- { name: inspectrum,                  verpat: "20[0-9]{2}.*",                             incorrect: true }
 - { name: intel-hybrid-driver,         verpat: "2.*",                ruleset: aur,         incorrect: true } # totally fake
 - { name: intel-hybrid-driver,                                       ruleset: aur,         untrusted: true } # accused if fake 2.0.0.r169.edead0c (intel-hybrid-codec-driver package)
 - { name: intel-media-driver,          verpat: ".*p.*",                                    devel: true } # preX: XXX: FreeBSD DISTVERSION
