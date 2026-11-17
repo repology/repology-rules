@@ -7,6 +7,9 @@
 - { name: rack, wwwpart: vcvrack, setname: vcvrack }
 - { name: rack, addflag: unclassified }
 
+- { name: radar, wwwpart: [skyhook-io,radarhq.io], setname: $0-kubernetes-ui }
+- { name: radar, addflag: unclassified }
+
 - { name: raft, wwwpart: gill_martinez, setname: raft-tomography }
 - { name: raft, wwwpart: [cowsql,raft.readthedocs.io], setname: raft-consensus-cowsql }
 - { name: raft, wwwpart: [canonical], setname: raft-consensus-canonical }
