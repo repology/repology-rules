@@ -11,6 +11,7 @@
 - { setname: rabid,                    name: ruby:$0 }
 - { setname: racket,                   name: [minimal-racket,racket-minimal], addflavor: minimal }
 - { setname: racket,                   name: racket-docs, addflavor: docs }
+- { setname: radar,                    name: kubectl-radar } # split in 850
 - { setname: radare2,                  name: radare } # deprecated in favor of
 - { setname: radare2-bindings,         name: r2-bindings }
 - { setname: radarr,                   name: [$0-develop, $0-nightly], weak_devel: true, nolegacy: true }
