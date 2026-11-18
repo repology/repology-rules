@@ -169,4 +169,4 @@
 # do not allow semversion +garbage, as it only makes sense in semver, while repository versions are not semver
 # in fact it only ignores \\+[0-9] patterns, as aphabetic ones will be compared lesser than raw x.y.z and be
 # thus outdated by stripped crates.io version
-- { namepat: "rust:.*", verpat: ".*\\+.*",                                                 incorrect: $1 }
+- { namepat: "rust:.*", verpat: ".*\\+.*",                                                 incorrect: true }
