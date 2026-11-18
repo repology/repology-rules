@@ -43,7 +43,7 @@
 - { name: edirect,                     verpat: ".*20[0-9]{6}",                             snapshot: true }
 - { name: edit-c9x,                                                                        noscheme: true }
 - { name: edk2,                        verpat: "(.*)stable",                               incorrect: true }
-- { name: edk2,                        verpat: "[0-9]{8}.*",                               incorrect: true } # e.g. 202105
+- { name: edk2,                        verpat: "[0-9]{8}.*",                               incorrect: true } # e.g. 20210518
 - { name: edk2,                        verge: "20000000", verlt: "20220500",               sink: true, vulnerable: true }
 - { name: efivar,                      ver: "40",                    ruleset: [aerynos,sisyphus,openmamba,t2,vylen], recalled: true } # as per report
 - { name: efivar,                      ver: "39-2",                                        incorrect: true }
