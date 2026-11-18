@@ -352,6 +352,8 @@
 - { name: cppcodec,                    verlonger: 2,                 ruleset: freebsd,     incorrect: true } # XXX: FreeBSD DISTVERSION
 - { name: cppdap,                      verpat: ".*g[0-9a-f]{7}.*",                         incorrect: true }
 - { name: cppdap,                      ver: ["1.58.0", "1.58.0a"],                         incorrect: true } # 1.58.0-a
+- { name: cppdap,                      ver: "1.65.0",                ruleset: openmamba,   incorrect: true }
+- { name: cppdap,                                                    ruleset: openmamba,   untrusted: true } # accused of fake 1.65.0
 - { name: cpplint,                     verpat: "[0-9]{3}.*",                               incorrect: true } # aur
 - { name: cppreference-doc,            ver: "20201016",                                    devel: true, maintenance: true } # https://en.cppreference.com/w/Cppreference:Archives
 - { name: cpptoml,                     ver: "0.4.0",                 ruleset: [openmamba,nix], incorrect: true } # latest ATOW is 0.1.1
