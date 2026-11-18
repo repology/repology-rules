@@ -162,3 +162,6 @@
 
 # unverified automatic updates (https://github.com/rxrbln/t2sde/commit/8767035, ea67f90, dd8d916f); package pages provide incorrect information
 - {                                                                  ruleset: t2,          untrusted: true }
+
+# remove meaningless semversion bullshit from rust crate versions
+- { verpat: "(.*?)\\+.*",                                            ruleset: crates_io,   setver: $1 }
