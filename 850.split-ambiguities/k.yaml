@@ -4,6 +4,10 @@
 - { name: k3d, wwwpart: [k3d.io, rancher, k3d-io], setname: "k3d-kubernetes" }
 - { name: k3d, addflag: unclassified }
 
+- { name: kage, wwwpart: Rigby, setname: $0-vpn-client }
+- { name: kage, wwwpart: tamnd, setname: $0-site-cloner }
+- { name: kage, addflag: unclassified }
+
 - { name: kaiju, wwwpart: bioinformatics-centre, setname: kaiju-metagenomics }
 - { name: kaiju, wwwpart: CERTCC, setname: ghidra:kaiju }
 - { name: kaiju, addflag: unclassified }
