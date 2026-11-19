@@ -13,8 +13,6 @@
 - { setname: llvm, name: [clang+llvm-binaries], addflavor: true }
 - { setname: llvm, name: [llvm-bolt, llvm-bolt15], addflavor: bolt }
 
-# See https://github.com/llvm/llvm-project/releases for full list of components which belong to LLVM
-
 # clang
 - { setname: llvm, name: [clang, clang-runtime, clang-toolchain, clang-common, clang-manpages, clang-tools, clang-format], addflavor: true }
 - { setname: llvm, name: clang-wrapper, addflavor: clang, ruleset: nix } # see report
@@ -50,6 +48,10 @@
 
 # libc++abi
 - { setname: llvm, name: [libc++abi,libcxx+libcxxabi], addflavor: libc++abi }
+
+# libclc
+- { setname: llvm, name: libclc, addflavor: libclc }
+- { setname: llvm, namepat: "libclc(?:-llvm)?[0-9.-]+", addflavor: libclc }
 
 # libomp
 - { setname: llvm, name: libomp, addflavor: libomp }
