@@ -140,18 +140,13 @@
 - { name: llama.cpp,                   verpat: "20[0-9]{6}.*",                             sink: true } # each commit is tagged, assuming all date versions outdated
 - { name: llama.cpp,                   verpat: ".*[456][0-9]{3}",                          sink: true } # garbage versions, but known to be outdated by actual 7054+
 - { name: llgen,                                                                           noscheme: true }
-- { name: llvm,                        verpat: ".*r[0-9]{6,}",                             ignore: true } # ignore revisions, allow release candidates
-- { name: llvm,                        verpat: ".*r.*",                                    devel: true }
-- { name: llvm,                        ver: "9.0.0",                 ruleset: [haikuports,openmandriva], incorrect: true } # rc3
-- { name: llvm,                                                      ruleset: [haikuports,openmandriva], untrusted: true } # accused of fake 9.0.0
-- { name: llvm,                                                      ruleset: debuntu,     ignore: true } # 10~++20200121023453+de4b2a7fad6-1~exp1 parsed as 10, fix with #811
-- { name: llvm,                        verpat: ".*20[0-9]{6}.*",                           incorrect: true }
-- { name: llvm,                        verge: "20000000", verlt: "20201012",               sink: true } # llvm11 from 12 oct 2020
+- { name: llvm,                        verpat: ".*20[0-9]{2}.*",                           incorrect: true }
+- { name: llvm,                        verge: "20000000", verlt: "20260825",               sink: true } # llvm23 from 25 aug 2026
+- { name: llvm,                        verge: "2000", verlt: "2026",                       sink: true } # llvm23 from 25 aug 2026
 - { name: llvm,                        verpat: "[0-9]{2}",                                 sink: true }
-- { name: llvm,                        ver: "19b",                                         incorrect: true } # wtf?
-- { name: llvm,                                                      ruleset: termux,      untrusted: true } # accused of fake 19b
-- { name: llvm,                        ver: "11.0.1",                ruleset: [rpm,trisquel], incorrect: true }
+- { name: llvm,                                                      ruleset: termux,      untrusted: true } # accused of fake 19b, 25c
 - { name: llvm,                                                      ruleset: [rpm,trisquel], untrusted: true } # accused of fake 11.0.1
+- { name: llvm,                                                      ruleset: [haikuports,openmandriva], untrusted: true } # accused of fake 9.0.0
 - { name: lm-sensors,                  ver: "6-0",                                         incorrect: true }
 - { name: lm-sensors,                                                ruleset: t2,          untrusted: true } # accused of fake 6-0
 - { name: lm-sensors,                  ver: "4.4",                   ruleset: gobolinux,   incorrect: true }
