@@ -179,6 +179,7 @@
 - { name: tomahawk,                    verpat: "0\\.8\\.99.*",                             ignore: true } # fake
 - { name: tomcat,                      ver: "9.0.20",                ruleset: scoop,       incorrect: true }
 - { name: tomcat,                                                    ruleset: scoop,       untrusted: true }
+- { name: tomlplusplus,                ver: "3.5.0",                 ruleset: [homebrew, kaos, starkos, termux], sink: true, disposable: true } # https://github.com/marzer/tomlplusplus/issues/328#issuecomment-7078642019
 - { name: tor,                         verpat: "([0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)[._-]?[abr].*", setver: "$1", devel: true } # version is self-sufficient; remove redundant alpha/rc suffix, but set devel
 - { name: tor-browser,                 verlonger: 3,                 ruleset: pkgsrc,      incorrect: true } # firefox version appended
 - { name: tor-browser,                 verge: "115",                                       incorrect: true } # guixm, firefox version prepended
