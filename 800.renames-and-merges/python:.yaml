@@ -80,7 +80,7 @@
 - { setname: python:fastapi,           name: fastapi } # debian, just to mark it vulnerable
 - { setname: python:fastecdsa,         name: python:fastecdsa-1.7.4 }
 - { setname: python:flake8,            name: flake8 }
-- { setname: python:flask$1,           namepat: "flask(.*)" }
+- { setname: python:flask,             name: flask } # has CVE
 - { setname: python:flup,              name: flup }
 - { setname: python:fs,                name: [python:fs2, python:pyfilesystem2] }
 - { setname: python:future,            name: future } # CVE
