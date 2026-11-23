@@ -408,6 +408,8 @@
 - { name: fusefs:overlayfs,                                          ruleset: fedora,      untrusted: true } # accused of fake 1.6
 - { name: fusefs:sshfs,                verpat: ".+20[0-9]{6}",                             snapshot: true }
 - { name: fusefs:sshfs,                ver: "3.7.4a",                                      devel: true, disposable: true } # discontinued fork, still newer than latest original 3.7.3 release
+- { name: fusefs:sshfs,                ver: "999.3.7.7",             ruleset: postmarketos, incorrect: true }
+- { name: fusefs:sshfs,                                              ruleset: postmarketos, untrusted: true } # accused of fake 999.3.7.7
 - { name: fusioninventory-agent,       verpat: "[0-9]+\\.[0-9]{3}.*",                      incorrect: true } # perl version
 - { name: futuresql,                   releq: "1.0.1",               ruleset: kde_neon,    incorrect: true }
 - { name: futuresql,                                                 ruleset: kde_neon,    untrusted: true } # accused of fake 1.0.1
