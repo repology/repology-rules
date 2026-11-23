@@ -67,7 +67,7 @@
 - { setname: python:deep-translator,   name: deep-translator } # a module with a cli support
 - { setname: python:defusedxml,        name: defusedxml }
 - { setname: python:django,            namepat: "(?:python:)?django[0-9.-]*" }
-- { setname: python:django-$1,         namepat: "django-(.*)" }
+- { setname: python:django-filter,     name: django-filter } # has CVE
 - { setname: python:duecredit,         name: duecredit }
 - { setname: python:dukpy,             name: dukpy }
 - { setname: python:dulwich,           name: dulwich }
