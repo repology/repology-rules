@@ -111,7 +111,7 @@
 - { name: beagle, addflag: unclassified }
 
 - { name: beaker, wwwpart: beakerbrowser, setname: beaker-browser }
-- { name: beaker, wwwpart: [beaker.readthedocs.io,pypi], setname: "python:beaker" }
+- { name: beaker, wwwpart: [beaker.readthedocs.io,pypi], setname: "python:beaker" } # has CVE
 - { name: beaker, wwwpart: beaker-project, setname: beaker-integration-testing }
 - { name: beaker, addflag: unclassified }
 

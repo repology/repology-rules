@@ -30,7 +30,7 @@
 - { name: mailx, addflag: unclassified }
 
 - { name: mako, wwwpart: [mako-project,emersion], setname: mako-notifier }
-- { name: mako, wwwpart: makotemplates, setname: "python:mako" }
+- { name: mako, wwwpart: makotemplates, setname: "python:mako" } # has CVE
 - { name: mako, addflag: unclassified }
 
 - { name: malcontent, wwwpart: chainguard-dev, setname: $0-supply-chain-attack-detect }
