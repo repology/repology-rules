@@ -86,6 +86,7 @@
 - { setname: qtpbfimageplugin,         name: [qt5-pbfimageplugin,libqt5-qtpbfimageformat,qt5-qtpbfimageformat], addflavor: qt5 }
 - { setname: qtpbfimageplugin,         name: qt6-qtpbfimageformat, addflavor: qt6 }
 - { setname: qtscrobbler,              name: qtscrob }
+- { setname: qtwebengine,              namepat: "(?:qt[56][0-9]*-qt|qt[56][0-9]*-|qt|qt-|libqt[56][0-9]*-qt)webengine(?:[56][0-9]*)?(?:-docs|-opensource-src)*" }
 - { setname: quadrapassel,             name: gnome-games-quadrapassel }
 - { setname: quake3,                   name: linux-quake3, ruleset: freebsd }
 - { setname: quake4,                   name: linux-quake4, ruleset: freebsd }
