@@ -264,7 +264,6 @@
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python[23]?-(.*)", ruleset: kaos }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], category: dev-python, ruleset: [calculate, liguros], namepat: "(.*)-python2", addflavor: python2 }
 - { setname: "python:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_python], category: dev-python, ruleset: [gentoo,exherbo,haikuports] }
-- { setname: "python:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "zope\\..*" }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(.*)-py([23][0-9]{1,2})", ruleset: fink, addflavor: $2 }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python2-(.*)", addflavor: python2, ruleset: [chakra,opensuse] }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python3-(.*)", addflavor: python3, ruleset: [chakra,openwrt,mpr,ptxdist,pacstall,vylen,starkos] }
