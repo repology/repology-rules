@@ -379,7 +379,7 @@ schema = Schema(
 
 
 features_by_pattern = {
-    r'.*800.renames-and-merges/(?!(_xorg|gstreamer:|kde|rust|rxvt-unicode|ocaml:|qt|ruby|xorg-server)).*\.yaml': {
+    r'.*800.renames-and-merges/(?!(_xorg|gstreamer:|kde|rust|rxvt-unicode|ocaml:|qt|ruby|xorg-server|python:)).*\.yaml': {
         'sort_field': 'setname',
     },
     r'.*840\.split-misnamed\.yaml': {

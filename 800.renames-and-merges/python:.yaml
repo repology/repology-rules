@@ -1,21 +1,14 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
+# These need review and are mostly invalid merges, which should go to 840.misnamed ruleset instead
 - { setname: python:3to2,              name: 3to2 }
 - { setname: python:aioblescan,        name: aioblescan }
-- { setname: python:aiohttp,           name: [python:aiohttp1,python:aiohttp2] }
-- { setname: python:aiohttp-cors,      name: [aiohttp-cors,python:aiohttp-cors2,python:aiohttp1-cors] }
-- { setname: python:aiohttp-cors,      name: python:aiohttp-cors-gns3, addflavor: true }
-- { setname: python:aiohttp-jinja2,    name: [python:aiohttp-jinja] }
-- { setname: python:aiopg,             name: aiopg }
-- { setname: python:aiozmq,            name: aiozmq }
 - { setname: python:airnef,            name: airnef }
 - { setname: python:aplpy,             name: aplpy }
 - { setname: python:argparse-manpage,  name: argparse-manpage }
 - { setname: python:astroid,           name: [python:astroid1,astroid2-for-python3] }
 - { setname: python:atomicwrites,      name: python:atomicwrites-doc, addflavor: doc }
-- { setname: python:atomicwrites,      name: atomicwrites }
 - { setname: python:babelgladeextractor, name: python:babel-babelgladeextractor }
-- { setname: python:backports-abc,     name: backports-abc }
 - { setname: python:backports.shutil-get-terminal-size, name: python:backports-shutil-get-terminal-size }
 - { setname: python:backports.shutil-get-terminal-size, name: shutil-get-terminal-size }
 - { setname: python:backports.shutil-which, name: python:backports-shutil-which }
@@ -23,8 +16,6 @@
 - { setname: python:backports.ssl-match-hostname, namepat: "(?:python:)?backports?-ssl-match-hostname" }
 - { setname: python:beautifulsoup4,    namepat: "(?:python:)?beautifulsoup[0-9.]*" } # target name as per PyPI name; python:beautifulsoup (version 3.x) is obsolete
 - { setname: python:bepasty,           name: bepasty }
-- { setname: python:bicyclerepair,     name: bicyclerepair }
-- { setname: python:bitarray,          name: bitarray }
 - { setname: python:bleach,            name: bleach, ruleset: slackbuilds }
 - { setname: python:bokeh,             name: bokeh, ruleset: freshcode }
 - { setname: python:boto3,             name: boto3 }
@@ -63,9 +54,7 @@
 - { setname: python:dbus-python,       namepat: "dbus(-1)?-python[0-9]*" }
 - { setname: python:deap,              name: deap }
 - { setname: python:decorator,         name: decorator }
-- { setname: python:decoratortools,    name: decoratortools }
 - { setname: python:deep-translator,   name: deep-translator } # a module with a cli support
-- { setname: python:defusedxml,        name: defusedxml }
 - { setname: python:django,            namepat: "(?:python:)?django[0-9.-]*" }
 - { setname: python:django-filter,     name: django-filter } # has CVE
 - { setname: python:duecredit,         name: duecredit }
@@ -79,20 +68,11 @@
 - { setname: python:facebook-sdk,      name: facebook-python } # slackbuilds
 - { setname: python:fastapi,           name: fastapi } # has CVE
 - { setname: python:fastecdsa,         name: python:fastecdsa-1.7.4 }
-- { setname: python:flake8,            name: flake8 }
 - { setname: python:flask,             name: flask } # has CVE
 - { setname: python:flup,              name: flup }
 - { setname: python:fs,                name: [python:fs2, python:pyfilesystem2] }
 - { setname: python:future,            name: future } # has CVE
 - { setname: python:geoalchemy2,       name: geoalchemy2 }
-- { setname: python:geographiclib,     name: geographiclib-python }
-- { setname: python:geohash,           name: geohash, ruleset: slackbuilds }
-- { setname: python:geoip,             name: python:geoip-python }
-- { setname: python:geojson,           name: geojson }
-- { setname: python:gitpython,         name: gitpython }
-- { setname: python:gitpython,         name: python:git-python }
-- { setname: python:gitpython,         name: python:gitpython-211 }
-- { setname: python:gitpython,         name: python:git }
 - { setname: python:google-api-python-client, name: [google-api-python-client] }
 - { setname: python:google-api-python-client, name: [python:google-api-client,python:google-api,python:googleapi] }
 - { setname: python:google-i18n-address, name: google-i18n-address } # debian
@@ -115,7 +95,6 @@
 - { setname: python:ipython-genutils,  name: ipython-genutils }
 - { setname: python:ipywidgets,        name: [python:jupyter-ipywidgets,python:jupyter-ipywidgets-doc,ipywidgets,jupyter-ipywidgets] }
 - { setname: python:irc,               name: python:irclib }
-- { setname: python:isbnlib,           name: isbnlib }
 - { setname: python:jade-application-kit, name: jade-application-kit }
 - { setname: python:jaraco.classes,    name: [python:jaraco-classes,jaraco.classes] }
 - { setname: python:jaraco.collections, name: python:jaraco-collections }
@@ -129,13 +108,10 @@
 - { setname: python:jaraco.util,       name: python:jaraco-util }
 - { setname: python:jaraco.util,       name: python:jaraco-utils } # XXX: problem, incorrect name
 - { setname: python:jdcal,             name: jdcal }
-- { setname: python:jinja2,            name: jinja2 } # has CVE
 - { setname: python:joblib,            name: joblib } # has CVE
 - { setname: python:josepy,            name: josepy }
-- { setname: python:jsonpickle,        name: jsonpickle } # has CVE
 - { setname: python:kapteyn,           name: kapteyn }
 - { setname: python:khal,              name: khal }
-- { setname: python:kiwisolver,        name: kiwisolver }
 - { setname: python:lark-parser,       name: python:lark, addflavor: lark } # both present on pypi from same author referencing the same upstream; XXX: upstream error
 - { setname: python:lektor,            name: lektor }
 - { setname: python:levenshtein,       name: python:python-levenshtein, outdated: true } # python-levenstein renamed to levenstein; XXX: problem
@@ -155,11 +131,9 @@
 - { setname: python:mdtraj,            name: mdtraj }
 - { setname: python:mechanize,         name: mechanize } # has CVE
 - { setname: python:meld3,             name: meld3 }
-- { setname: python:memphis,           name: pymemphis }
 - { setname: python:meshtastic,        name: meshtastic-python }
 - { setname: python:minfx,             name: minfx }
 - { setname: python:mini-amf,          name: mini-amf }
-- { setname: python:mitogen,           name: mitogen }
 - { setname: python:monty,             name: monty }
 - { setname: python:mpv,               name: python:python-mpv } # both names are registered on PyPI for the same project
 - { setname: python:msoffcrypto-tool,  name: msoffcrypto-tool }
@@ -175,7 +149,6 @@
 - { setname: python:networkx,          name: networkx }
 - { setname: python:networkx,          namepat: "python:networkx[0-9.-]+" }
 - { setname: python:notebook,          name: [python:jupyter-notebook, jupyter-notebook] } # has CVE
-- { setname: python:numarray,          name: numarray }
 - { setname: python:numeric,           name: numeric, ruleset: [crux,gobolinux] }
 - { setname: python:numpy,             name: python:numpy-docs-devhelp, addflavor: devhelp }
 - { setname: python:numpy,             name: python:numpy-mkl, addflavor: mkl }
@@ -188,8 +161,6 @@
 - { setname: python:opentype-sanitizer, name: python:ots-python } # PyPI name is opentype-sanitizer, github name is ots-python
 - { setname: python:pandas,            name: pandas } # has CVE
 - { setname: python:pandocfilters,     name: pandocfilters }
-- { setname: python:paramiko,          name: [python:paramiko1, python:paramiko1.10] }
-- { setname: python:paramiko,          name: paramiko } # has CVE
 - { setname: python:parso,             name: parso }
 - { setname: python:passlib,           name: passlib }
 - { setname: python:passlib,           name: python:libpass }
@@ -213,7 +184,6 @@
 - { setname: python:psycopg,           name: psycopg }
 - { setname: python:psycopg2,          name: python:psycopg2-binary, addflavor: true }
 - { setname: python:psycopg2,          name: python:psycopg2.6 }
-- { setname: python:psycopg2,          name: psycopg2 }
 - { setname: python:pwntools,          name: pwntools }
 - { setname: python:py-bcrypt,         name: py-bcrypt }
 - { setname: python:py-cpuinfo,        name: python:cpuinfo }
@@ -303,7 +273,6 @@
 - { setname: python:pyspatialite,      name: pyspatialite }
 - { setname: python:pysvn,             name: pysvn } # has CVE
 - { setname: python:pysvn,             name: [svn-workbench, pysvn-workbench], addflavor: workbench }
-- { setname: python:pytest,            name: pytest }
 - { setname: python:python-augeas,     name: [python:augeas, python-augeas] } # as per PyPi; XXX: problem
 - { setname: python:python-axolotl-curve25519, name: python:axolotl-curve25519 } # as per PyPi
 - { setname: python:python-dateutil,   name: [python:dateutil,python:dateutil15] }
@@ -412,16 +381,16 @@
 - { setname: python:virtualenv,        name: virtualenv }
 - { setname: python:virtualenv-clone,  name: virtualenv-clone }
 - { setname: python:virtualenvwrapper, name: virtualenvwrapper }
-- { setname: python:voluptuous,        name: voluptuous }
 - { setname: python:waitress,          name: waitress } # has CVE
 - { setname: python:webob,             namepat: "python:webob[0-9.-]+" }
-- { setname: python:werkzeug,          name: werkzeug } # has CVE
-- { setname: python:werkzeug,          name: python:werkzeug2 }
 - { setname: python:wxpython,          namepat: "(?:python:)?wxpython[0-9.-]*" }
 - { setname: python:wxpython,          name: [wxpython-phoenix, wxpythongtk] }
 - { setname: python:wxpython,          name: [wxpython-gtk2, wxpython-nuitka], addflavor: true }
 - { setname: python:wxpython,          namepat: "python:wxwidgets[0-9.-]*" }
 - { setname: python:xcffib,            name: haskell:xcffib, addflavor: haskell }
+
+# Reviewed merges
+- { setname: python:werkzeug,          name: python:werkzeug2 }
 - { setname: python:zope.annotation,   name: python:zope-annotation }
 - { setname: python:zope.app.module,   name: python:zope-app-module }
 - { setname: python:zope.base,         name: python:zope-base }
@@ -465,4 +434,3 @@
 - { setname: python:zope.testrunner,   name: python:zope-testrunner-bootstrap, addflavor: bootstrap }
 - { setname: python:zope.traversing,   name: python:zope-traversing }
 - { setname: python:zope.untrustedpython, name: python:zope-untrustedpython }
-- { setname: python:zopfli,            name: python:pyzopfli }

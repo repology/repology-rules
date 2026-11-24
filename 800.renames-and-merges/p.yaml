@@ -472,6 +472,7 @@
 - { setname: pyside6,                  name: [python:pyside6, python:pyside-6] }
 - { setname: pyside6,                  name: [python:pyside6-tools, python:pyside-6-tools], addflavor: tools }
 - { setname: pyspread,                 name: python:$0 }
+- { setname: pytest,                   name: python:$0 }
 - { setname: pythia,                   name: [pythia8, "python:pythia8", pythia6] }
 - { setname: python,                   name: python-exp } # scoop
 - { setname: python,                   namepat: "python[0-9.-]+" }

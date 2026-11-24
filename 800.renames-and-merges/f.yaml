@@ -102,6 +102,7 @@
 - { setname: fjordlauncher,            name: fjordlauncher-qt5, addflavor: true }
 - { setname: flac,                     name: flac-doc, addflavor: doc }
 - { setname: flac,                     name: [flac-libs,libflac] }
+- { setname: flake8,                   name: python:$0 }
 - { setname: flamelens,                name: rust:$0 }
 - { setname: flare,                    name: [flare-engine,flare-game,flare-data], addflavor: true } # these are actually distinct packages, but too many repos merge them together
 - { setname: flatbuffers,              name: [$0-static, rust:$0, python:$0], addflavor: true }
