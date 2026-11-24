@@ -16,9 +16,16 @@
 - { addflag: misnamed, name: beniget } # python module
 - { addflag: misnamed, name: bitarray } # python module
 - { addflag: misnamed, name: chaos,          wwwpart: chaos-client }
+- { addflag: misnamed, name: cherrypy } # python module
+- { addflag: misnamed, name: cherrypy3 } # python module (also named cherrypy)
+- { addflag: misnamed, name: colorama } # python module
 - { addflag: misnamed, name: constantly } # python module
 - { addflag: misnamed, name: cppheaderparser } # python module
+- { addflag: misnamed, name: cryptography } # python module
+- { addflag: misnamed, name: ctypes, sourceforge: ctypes } # python module
+- { addflag: misnamed, name: cvxopt } # python module
 - { addflag: misnamed, name: cwc,            wwwpart: cwcwm }
+- { addflag: misnamed, name: darts.util.lru } # python module
 - { addflag: misnamed, name: dbf,            ruleset: ubuntu_broken_homepages }
 - { addflag: misnamed, name: dbf,            wwwpart: ethanfurman } # python:dbf
 - { addflag: misnamed, name: dbf,            wwwpart: python-dbase } # python:dbf
@@ -53,6 +60,7 @@
 - { addflag: misnamed, name: django-dynamic-preferences } # python module
 - { addflag: misnamed, name: django-environ } # python module
 - { addflag: misnamed, name: django-favicon-plus-reloaded } # python module
+- { addflag: misnamed, name: django-filter, vulnerable: true } # python module, has CVE
 - { addflag: misnamed, name: django-fsm } # python module
 - { addflag: misnamed, name: django-fsm-2 } # python module
 - { addflag: misnamed, name: django-fsm-admin } # python module
@@ -202,6 +210,7 @@
 - { addflag: misnamed, name: fonts-otf-mozilla-fira } # # fira-sans or fira-mono?
 - { addflag: misnamed, name: fonts:twemoji,  wwwpart: 13rac1 }
 - { addflag: misnamed, name: fonts:twemoji-color, wwwpart: [jdecked/twemoji, twitter/twemoji] }
+- { addflag: misnamed, name: future, vulnerable: true } # python module, has CVE
 - { addflag: misnamed, name: geohash } # python module
 - { addflag: misnamed, name: geojson } # python module
 - { addflag: misnamed, name: gitea-act }
@@ -212,6 +221,8 @@
 - { addflag: misnamed, name: input-utils,    wwwpart: linuxconsoletools }
 - { addflag: misnamed, name: ipa } # either freeipa or perl:prima-ipa
 - { addflag: misnamed, name: isbnlib } # python module
+- { addflag: misnamed, name: jaraco.classes } # python module
+- { addflag: misnamed, name: jaraco.itertools } # python module
 - { addflag: misnamed, name: jinja2, vulnerable: true } # python module; has CVE
 - { addflag: misnamed, name: jsonpickle, vulnerable: true } # python module, has CVE
 - { addflag: misnamed, name: kiwisolver } # python module
@@ -225,7 +236,9 @@
 - { addflag: misnamed, name: luajit,         wwwpart: [openresty, moonjit] }
 - { addflag: misnamed, name: lxc,            wwwpart: lxd }
 - { addflag: misnamed, name: manimpango } # python module
+- { addflag: misnamed, name: markupsafe } # python module
 - { addflag: misnamed, name: mc,             wwwpart: mcwin32 }
+- { addflag: misnamed, name: mitogen } # python module
 - { addflag: misnamed, name: mtproto-proxy } # mtproxy
 - { addflag: misnamed, name: mullvad } # browser or vpn?
 - { addflag: misnamed, name: musl,           ruleset: aur } # (musl-cross-bin) - toolclain, not musl
@@ -271,10 +284,14 @@
 - { addflag: misnamed, name: pydantic-settings } # python module
 - { addflag: misnamed, name: pydbus } # either python module or dbus-python
 - { addflag: misnamed, name: pygdbmi } # python module
+- { addflag: misnamed, name: pyglet } # python module
 - { addflag: misnamed, name: pyinotify } # python module
 - { addflag: misnamed, name: pykwalify } # python module
 - { addflag: misnamed, name: pypdf } # python module
+- { addflag: misnamed, name: pyperclip } # python module
+- { addflag: misnamed, name: pypoppler } # python module
 - { addflag: misnamed, name: pyrequests } # python module
+- { addflag: misnamed, name: pysimplesoap } # python module
 - { addflag: misnamed, name: pysoundfile } # python module
 - { addflag: misnamed, name: pytest-catchlog } # python module
 - { addflag: misnamed, name: pytest-cookies } # python module
@@ -295,6 +312,7 @@
 - { addflag: misnamed, name: pytest-tornado } # python module
 - { addflag: misnamed, name: pytest-xdist } # python module
 - { addflag: misnamed, name: pytest-xvfb } # python module
+- { addflag: misnamed, name: python-augeas } # python module
 - { addflag: misnamed, name: python:3parclient } # python-3parclient
 - { addflag: misnamed, name: python:aaf2 } # pyaaf2
 - { addflag: misnamed, name: python:aalib }
@@ -313,6 +331,7 @@
 - { addflag: misnamed, name: python:asn1-modules } # pyasn1-modules
 - { addflag: misnamed, name: python:asyncore } # pyasyncore
 - { addflag: misnamed, name: python:asynctools, wwwpart: pypi.org/project/python-asynctools }
+- { addflag: misnamed, name: python:augeas } # python-augeas
 - { addflag: misnamed, name: python:barbicanclient }
 - { addflag: misnamed, name: python:beconde-py } # bencode.py
 - { addflag: misnamed, name: python:bencode, wwwpart: bencode.py } # bencode.py
@@ -347,6 +366,7 @@
 - { addflag: misnamed, name: python:cxfreeze } # cx-freeze
 - { addflag: misnamed, name: python:cyborgclient } # python-cyborgclient
 - { addflag: misnamed, name: python:datastruct, wwwpart: kuba2k2 } # py-datastruct
+- { addflag: misnamed, name: python:dateutil } # python-dateutil
 - { addflag: misnamed, name: python:dbus } # dbus-python
 - { addflag: misnamed, name: python:dbusmock }
 - { addflag: misnamed, name: python:debian }
@@ -354,6 +374,7 @@
 - { addflag: misnamed, name: python:designateclient }
 - { addflag: misnamed, name: python:didl-lite }
 - { addflag: misnamed, name: python:digitalocean }
+- { addflag: misnamed, name: python:djvulibre } # python-djvulibre of djvulibre-python
 - { addflag: misnamed, name: python:dkim } # dkimpy
 - { addflag: misnamed, name: python:docs-theme }
 - { addflag: misnamed, name: python:docx, noruleset: pypi, wwwpart: python-docx, vulnerable: true }
@@ -503,6 +524,7 @@
 - { addflag: misnamed, name: python:pil } # pillow
 - { addflag: misnamed, name: python:plum } # plum-py
 - { addflag: misnamed, name: python:policyd-spf } # pypolicyd-spf
+- { addflag: misnamed, name: python:poppler } # python-poppler or pypoppler
 - { addflag: misnamed, name: python:postfix-policyd-spf } # pypolicyd-spf
 - { addflag: misnamed, name: python:postgresql } # py-postgresql, pygresql
 - { addflag: misnamed, name: python:potr }
@@ -520,7 +542,7 @@
 - { addflag: misnamed, name: python:python-mpd2, wwwpat: ".*python-mpd(/.*|$)" }
 - { addflag: misnamed, name: python:python-tabulate }
 - { addflag: misnamed, name: python:pyubjson } # py-ubjson
-- { addflag: misnamed, name: python:pyyaml,  wwwpart: pyyaml-ft }
+- { addflag: misnamed, name: python:pyyaml, wwwpart: pyyaml-ft }
 - { addflag: misnamed, name: python:pyzopfli } # zopfli
 - { addflag: misnamed, name: python:qgc } # pyqgc
 - { addflag: misnamed, name: python:qt-builder } # pyqt-builder
@@ -664,6 +686,7 @@
 - { addflag: misnamed, name: python:xml } # pyxml
 - { addflag: misnamed, name: python:xmp-toolkit }
 - { addflag: misnamed, name: python:xmpp } # pyxmpp or xmpppy
+- { addflag: misnamed, name: python:yaml, vulnerable: true } # pyyaml; has CVE
 - { addflag: misnamed, name: python:zaqarclient }
 - { addflag: misnamed, name: python:zopecomponent }
 - { addflag: misnamed, name: python:zopeconfiguration }
@@ -676,6 +699,7 @@
 - { addflag: misnamed, name: python:zopetesting }
 - { addflag: misnamed, name: python:zopetestrunner }
 - { addflag: misnamed, name: python:zunclient }
+- { addflag: misnamed, name: pyyaml, vulnerable: true } # python module, has CVE
 - { addflag: misnamed, name: qrc,            wwwpart: trikko }
 - { addflag: misnamed, name: r:air,          wwwpart: posit-dev }
 - { addflag: misnamed, name: rapidfuzz } # aither an unprefixed python module, or misnamed rapidfuzz-cpp

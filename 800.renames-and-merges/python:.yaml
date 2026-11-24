@@ -7,7 +7,6 @@
 - { setname: python:aplpy,             name: aplpy }
 - { setname: python:argparse-manpage,  name: argparse-manpage }
 - { setname: python:astroid,           name: [python:astroid1,astroid2-for-python3] }
-- { setname: python:atomicwrites,      name: python:atomicwrites-doc, addflavor: doc }
 - { setname: python:babelgladeextractor, name: python:babel-babelgladeextractor }
 - { setname: python:backports.shutil-get-terminal-size, name: python:backports-shutil-get-terminal-size }
 - { setname: python:backports.shutil-get-terminal-size, name: shutil-get-terminal-size }
@@ -22,26 +21,15 @@
 - { setname: python:bottleneck,        name: bottleneck }
 - { setname: python:box2d,             name: [python:pybox2d, pybox2d] }
 - { setname: python:brian,             name: brian } # note there's also python:brian2 and brian may be bumped to it
-- { setname: python:browserstack-local, name: python:browserstack-local-python } # browserstack-local-python is repository name
 - { setname: python:btrfs,             name: python-btrfs } # guru
 - { setname: python:cairocffi,         name: cairocffi }
 - { setname: python:cairosvg,          name: cairosvg } # has CVE
 - { setname: python:calmjs.parse,      name: python:calmjs-parse }
 - { setname: python:cartopy,           name: cartopy }
 - { setname: python:cheetah,           name: python.cheetah }
-- { setname: python:cherrypy,          name: python:cherrypy-old }
-- { setname: python:cherrypy,          name: python:cherrypy2 }
-- { setname: python:cherrypy,          name: cherrypy }
-- { setname: python:cherrypy,          name: cherrypy3 }
 - { setname: python:chump,             name: chump }
 - { setname: python:coherence,         name: coherence }
 - { setname: python:coherent.licensed, name: python:coherent-licensed }
-- { setname: python:colorama,          name: python:colorama-0.3.3 }
-- { setname: python:colorama,          name: colorama }
-- { setname: python:configparser,      name: [configparser,python:backports.configparser] }
-- { setname: python:cryptography,      name: python:cryptography-compat }
-- { setname: python:ctypes,            name: ctypes }
-- { setname: python:cvxopt,            name: cvxopt } # has CVE
 - { setname: python:cypari2,           name: cypari2 }
 - { setname: python:cython,            name: libcython, addflavor: true }
 - { setname: python:cython,            name: [cython-kivy,cython2-kivy], addflavor: kivy }
@@ -49,20 +37,16 @@
 - { setname: python:cython,            name: pypy-cython, addflavor: pypy }
 - { setname: python:cython,            name: python:cython-doc, addflavor: doc }
 - { setname: python:cython,            name: [python:cython-devel,python:cython-next], weak_devel: true, nolegacy: true }
-- { setname: python:darts.util.lru,    name: darts.util.lru }
 - { setname: python:dbus-python,       name: [dbus-python-common,pydbus-common] }
 - { setname: python:dbus-python,       namepat: "dbus(-1)?-python[0-9]*" }
 - { setname: python:deap,              name: deap }
 - { setname: python:decorator,         name: decorator }
-- { setname: python:deep-translator,   name: deep-translator } # a module with a cli support
 - { setname: python:django,            namepat: "(?:python:)?django[0-9.-]*" }
-- { setname: python:django-filter,     name: django-filter } # has CVE
 - { setname: python:duecredit,         name: duecredit }
 - { setname: python:dukpy,             name: dukpy }
 - { setname: python:dulwich,           name: dulwich }
 - { setname: python:dynaconf,          name: dynaconf }
 - { setname: python:dyndnsc,           name: [dyndnsc,dyndnsc-py2] }
-- { setname: python:empy,              name: empy }
 - { setname: python:et-xmlfile,        name: et-xmlfile }
 - { setname: python:ewmh,              name: [ewmh,pyewmh] }
 - { setname: python:facebook-sdk,      name: facebook-python } # slackbuilds
@@ -71,7 +55,6 @@
 - { setname: python:flask,             name: flask } # has CVE
 - { setname: python:flup,              name: flup }
 - { setname: python:fs,                name: [python:fs2, python:pyfilesystem2] }
-- { setname: python:future,            name: future } # has CVE
 - { setname: python:geoalchemy2,       name: geoalchemy2 }
 - { setname: python:google-api-python-client, name: [google-api-python-client] }
 - { setname: python:google-api-python-client, name: [python:google-api-client,python:google-api,python:googleapi] }
@@ -86,7 +69,6 @@
 - { setname: python:hgsubversion,      name: hgsubversion }
 - { setname: python:hvac,              name: hvac }
 - { setname: python:hy,                name: hy }
-- { setname: python:igraph,            name: python:python-igraph } # same thing, deprecated package
 - { setname: python:impacket,          name: impacket } # has CVE
 - { setname: python:importlib,         name: importlib }
 - { setname: python:internetarchive,   name: internetarchive }
@@ -96,17 +78,6 @@
 - { setname: python:ipywidgets,        name: [python:jupyter-ipywidgets,python:jupyter-ipywidgets-doc,ipywidgets,jupyter-ipywidgets] }
 - { setname: python:irc,               name: python:irclib }
 - { setname: python:jade-application-kit, name: jade-application-kit }
-- { setname: python:jaraco.classes,    name: [python:jaraco-classes,jaraco.classes] }
-- { setname: python:jaraco.collections, name: python:jaraco-collections }
-- { setname: python:jaraco.context,    name: python:jaraco-context }
-- { setname: python:jaraco.functools,  name: python:jaraco-functools }
-- { setname: python:jaraco.itertools,  name: [python:jaraco-itertools,jaraco.itertools] }
-- { setname: python:jaraco.logging,    name: python:jaraco-logging }
-- { setname: python:jaraco.packaging,  name: python:jaraco-packaging }
-- { setname: python:jaraco.stream,     name: python:jaraco-stream }
-- { setname: python:jaraco.text,       name: python:jaraco-text }
-- { setname: python:jaraco.util,       name: python:jaraco-util }
-- { setname: python:jaraco.util,       name: python:jaraco-utils } # XXX: problem, incorrect name
 - { setname: python:jdcal,             name: jdcal }
 - { setname: python:joblib,            name: joblib } # has CVE
 - { setname: python:josepy,            name: josepy }
@@ -122,8 +93,6 @@
 - { setname: python:lxml,              name: lxml } # has CVE
 - { setname: python:m2crypto,          name: m2crypto }
 - { setname: python:mako,              name: python:mako0.4 }
-- { setname: python:markdown,          name: [python-markdown,python:markdown-2] }
-- { setname: python:markupsafe,        name: markupsafe }
 - { setname: python:matplotlib,        name: matplotlib }
 - { setname: python:matplotlib,        name: [python:matplotlib-documentation,python:matplotlib-gtk,python:matplotlib-noqt,python:matplotlib-tk], addflavor: true }
 - { setname: python:matrix-synapse-ldap3, name: matrix-synapse-ldap3 }
@@ -221,7 +190,6 @@
 - { setname: python:pygame,            name: [pygame,python:game] }
 - { setname: python:pygame-sdl2,       name: [pygame-sdl2,python:game-sdl2] }
 - { setname: python:pygeoip,           name: pygeoip }
-- { setname: python:pyglet,            name: [pyglet, python:pyglet150, python:pyglet1, python:pyglet1.5] }
 - { setname: python:pygobject,         name: [pygobject3-common,pygobject3-python3,pygobject3,pygobject2,pygobject,pygobject-2,pygobject-3,pygobject-gtk3,python:pygobject-2,py3gobject,python3-gobject,python:gobject,python:gobject2,python:gobject3,python:gobject-compat,py-gobject-shared,py-gobject3-common,python:pygobject2,python:pygobject3,pygobject37] }
 - { setname: python:pygobject,         name: pygobject-devel, weak_devel: true, nolegacy: true }
 - { setname: python:pygobject,         name: [python:pygobject-base, python:pygobject-cairo], addflavor: true }
@@ -247,11 +215,6 @@
 - { setname: python:pyomo,             name: pyomo }
 - { setname: python:pyopenssl,         name: [python:openssl, pyopenssl] } # has CVE
 - { setname: python:pypdf2,            name: [pypdf2, python:pdf2] } # vuln
-- { setname: python:pyperclip,         name: pyperclip }
-- { setname: python:pypillowfight,     name: python:libpillowfight } # as per PyPi
-- { setname: python:pypillowfight,     name: pypillowfight }
-- { setname: python:pypoppler,         name: [python:poppler,python:python-poppler] }
-- { setname: python:pypoppler,         name: pypoppler }
 - { setname: python:pyprind,           name: pyprind }
 - { setname: python:pyproj,            name: pyproj }
 - { setname: python:pypubsub,          name: python:pypubsub3.3.0 }
@@ -273,10 +236,7 @@
 - { setname: python:pyspatialite,      name: pyspatialite }
 - { setname: python:pysvn,             name: pysvn } # has CVE
 - { setname: python:pysvn,             name: [svn-workbench, pysvn-workbench], addflavor: workbench }
-- { setname: python:python-augeas,     name: [python:augeas, python-augeas] } # as per PyPi; XXX: problem
 - { setname: python:python-axolotl-curve25519, name: python:axolotl-curve25519 } # as per PyPi
-- { setname: python:python-dateutil,   name: [python:dateutil,python:dateutil15] }
-- { setname: python:python-djvulibre,  name: python:djvulibre } # correct name on PyPi
 - { setname: python:python-hglib,      name: python:hglib }
 - { setname: python:python-magic,      name: python:magic-ahupp }
 - { setname: python:python-periphery,  name: python:periphery }
@@ -291,8 +251,6 @@
 - { setname: python:pywebkitgtk,       name: [python:webkitgtk,pywebkitgtk] }
 - { setname: python:pywps,             name: pywps } # has CVE
 - { setname: python:pyxdg,             name: pyxdg } # has CVE
-- { setname: python:pyyaml,            name: [pypy-yaml,pypy3-yaml], addflavor: pypy } # XXX: global rule for pypy-*?
-- { setname: python:pyyaml,            name: [pyyaml,python:yaml] } # has CVE
 - { setname: python:qt.py,             name: python:qt-py }
 - { setname: python:quart,             name: quart } # has CVE
 - { setname: python:rabbyt,            name: rabbyt }
@@ -310,8 +268,6 @@
 - { setname: python:robotframework,    name: robotframework }
 - { setname: python:rpi.gpio,          name: [python:raspberry-gpio,python:rpi-gpio,rpi.gpio] }
 - { setname: python:rsa,               name: python:rsa3 }
-- { setname: python:ruamel.yaml,       name: python:ruamel-yaml }
-- { setname: python:ruamel.yaml.clib,  name: [python:ruamel-yaml-clib, python:ruamel-yaml.clib] }
 - { setname: python:salttesting,       name: [python:salt-testing,salt-testing] }
 - { setname: python:sasmodels,         name: sasmodels }
 - { setname: python:scikit-cuda,       name: scikits-cuda }
@@ -326,7 +282,6 @@
 - { setname: python:scikits.timeseries, name: [python:scikits-timeseries,scikits-timeseries] }
 - { setname: python:scipy,             name: [scipy,scipy3] } # has CVE
 - { setname: python:scipy,             name: [python:scipy-doc,python:scipy-mkl,python:scipy-openblas], addflavor: true }
-- { setname: python:scrapy,            name: scrapy }
 - { setname: python:setuptools,        name: python:setuptools-wheel, addflavor: wheel }
 - { setname: python:setuptools-scm,    name: setuptools-scm }
 - { setname: python:setuptools-scm-git-archive, name: setuptools-scm-git-archive }
@@ -390,6 +345,24 @@
 - { setname: python:xcffib,            name: haskell:xcffib, addflavor: haskell }
 
 # Reviewed merges
+- { setname: python:cherrypy,          name: python:cherrypy2, disposable: true } # only in epel7
+- { setname: python:deep-translator,   name: deep-translator } # a module with a cli support
+- { setname: python:empy,              name: empy } # contains cli utility
+- { setname: python:igraph,            name: python:python-igraph, outdated: true } # same thing, deprecated package
+- { setname: python:jaraco.classes,    name: python:jaraco-classes }
+- { setname: python:jaraco.collections, name: python:jaraco-collections }
+- { setname: python:jaraco.context,    name: python:jaraco-context }
+- { setname: python:jaraco.functools,  name: python:jaraco-functools }
+- { setname: python:jaraco.itertools,  name: python:jaraco-itertools }
+- { setname: python:jaraco.logging,    name: python:jaraco-logging }
+- { setname: python:jaraco.packaging,  name: python:jaraco-packaging }
+- { setname: python:jaraco.stream,     name: python:jaraco-stream }
+- { setname: python:jaraco.text,       name: python:jaraco-text }
+- { setname: python:jaraco.util,       name: python:jaraco-util }
+- { setname: python:pyglet,            name: python:pyglet1 }
+- { setname: python:ruamel.yaml,       name: python:ruamel-yaml }
+- { setname: python:ruamel.yaml.clib,  name: [python:ruamel-yaml-clib, python:ruamel-yaml.clib] }
+- { setname: python:scrapy,            name: scrapy } # includes utility
 - { setname: python:werkzeug,          name: python:werkzeug2 }
 - { setname: python:zope.annotation,   name: python:zope-annotation }
 - { setname: python:zope.app.module,   name: python:zope-app-module }
