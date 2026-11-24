@@ -259,10 +259,9 @@
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python([23])?-(.*)", ruleset: [slackbuilds], addflavor: $1 }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python([0-9]\\.[0-9]{1,2})-(.*)", ruleset: nix, addflavor: $1 } # TODO: limit with nix_no_name after transition
 - { setname: "python:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_python], categorypat: "python[0-9]+Packages", ruleset: nix_name } # TODO: flavor from category
-- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "py[23]?-(.*)", ruleset: [alpine,adelie] }
+- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "py3-(.*)", ruleset: [alpine,adelie] }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "py[0-9]*-(.*)", ruleset: macports }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python[23]?-(.*)", ruleset: kaos }
-- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], category: dev-python, ruleset: [calculate, liguros], namepat: "(.*)-python2", addflavor: python2 }
 - { setname: "python:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_python], category: dev-python, ruleset: [gentoo,exherbo,haikuports] }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(.*)-py([23][0-9]{1,2})", ruleset: fink, addflavor: $2 }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python2-(.*)", addflavor: python2, ruleset: [chakra,opensuse] }
