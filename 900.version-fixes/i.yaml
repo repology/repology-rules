@@ -63,6 +63,8 @@
 - { name: img2pdf,                     ver: "1.4.2",                 ruleset: solus,       incorrect: true }
 - { name: img2pdf,                                                   ruleset: solus,       untrusted: true } # accused of fake 1.4.2
 - { name: imgcat-eddieantonio,         verlt: "2.5.0",                                     outdated: true, disposable: true }
+- { name: imguizmo,                    verpat: "1\\.91\\.3\\+wip\\.01([0-9]+)", ruleset: xrepo, setver: "1.$1" }
+- { name: imguizmo,                    ver: ["1.83", "1.89+wip", "1.91.3+wip"],            sink: true }
 - { name: imhex,                       ver: "1.38.0",                ruleset: [t2, mpr],   incorrect: true }
 - { name: imhex,                                                     ruleset: [t2, mpr],   untrusted: true } # accused of fake 1.38.0
 - { name: immich-go,                   ver: "1.21.3",                ruleset: manjaro,     incorrect: true }
