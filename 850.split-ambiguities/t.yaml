@@ -301,8 +301,11 @@
 - { name: tran, wwwpart: kilobyte, setname: tran-transcription }
 - { name: tran, addflag: unclassified }
 
-- { name: trash, wwwpart: andreafrancia, setname: trash-cli }
+- { name: trash, wwwpart: andreafrancia, setname: trash-freedesktop }
+- { name: trash, wwwpart: [lhmouse,msys2], setname: trash-msys2 }
+- { name: trash, wwwpart: tonymorello, setname: trash-tonymorello }
 - { name: trash, wwwpart: [hasseg,ali-rantakari], setname: trash-osx }
+- { name: trash, addflag: unclassified }
 
 - { name: travis, wwwpart: travis-analyzer, setname: travis-analyzer }
 - { name: travis, wwwpart: travis-ci, setname: ruby:travis }
