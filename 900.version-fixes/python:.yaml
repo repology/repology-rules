@@ -106,7 +106,6 @@
 - { name: python:mesonpy,                                                                  sink: true } # meson-python, not mesonpy
 - { name: python:mlt,                  wwwpart: mltframework,                              incorrect: true }
 - { name: python:mlt,                                                ruleset: unitedrpms,  untrusted: true } # not python mlt module
-- { name: python:mongo,                verge: "4.0.0",                                     incorrect: true, vulnerable: true } # pymongo, not mongo
 - { name: python:netbox-agent,         verlonger: 3,                 ruleset: freebsd,     incorrect: true }
 - { name: python:netbox-agent,                                       ruleset: freebsd,     untrusted: true } # accused of fake 0.7.2.77
 - { name: python:ninja,                ver: "1.12.1",                ruleset: nix,         incorrect: true }

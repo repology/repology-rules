@@ -287,11 +287,14 @@
 - { addflag: misnamed, name: pyglet } # python module
 - { addflag: misnamed, name: pyinotify } # python module
 - { addflag: misnamed, name: pykwalify } # python module
+- { addflag: misnamed, name: pymongo, vulnerable: true } # python module, has CVE
+- { addflag: misnamed, name: pyode } # python module
 - { addflag: misnamed, name: pypdf } # python module
 - { addflag: misnamed, name: pyperclip } # python module
 - { addflag: misnamed, name: pypoppler } # python module
 - { addflag: misnamed, name: pyrequests } # python module
 - { addflag: misnamed, name: pysimplesoap } # python module
+- { addflag: misnamed, name: pysolar } # python module
 - { addflag: misnamed, name: pysoundfile } # python module
 - { addflag: misnamed, name: pytest-catchlog } # python module
 - { addflag: misnamed, name: pytest-cookies } # python module
@@ -358,6 +361,7 @@
 - { addflag: misnamed, name: python:cld2 } # pycld2
 - { addflag: misnamed, name: python:cloudkittyclient } # python-cloudkittyclient
 - { addflag: misnamed, name: python:cmake, ruleset: ravenports }
+- { addflag: misnamed, name: python:codestyle, wwwpart: pycodestyle }
 - { addflag: misnamed, name: python:cryptodome } # pycryptodome
 - { addflag: misnamed, name: python:cryptodome-test-vectors } # pycryptodome-test-vectors
 - { addflag: misnamed, name: python:cryptodomex } # pycryptodomex
@@ -377,6 +381,7 @@
 - { addflag: misnamed, name: python:djvulibre } # python-djvulibre of djvulibre-python
 - { addflag: misnamed, name: python:dkim } # dkimpy
 - { addflag: misnamed, name: python:docs-theme }
+- { addflag: misnamed, name: python:docstyle }
 - { addflag: misnamed, name: python:docx, noruleset: pypi, wwwpart: python-docx, vulnerable: true }
 - { addflag: misnamed, name: python:doi }
 - { addflag: misnamed, name: python:dotenv, ruleset: pld }
@@ -479,6 +484,7 @@
 - { addflag: misnamed, name: python:mistralclient }
 - { addflag: misnamed, name: python:monascaclient } # python-monascaclient
 - { addflag: misnamed, name: python:monetdb } # pymonetdb, python-monetdb
+- { addflag: misnamed, name: python:mongo, wwwpart: [pymongo, mongo-python-driver], vulnerable: true } # pymongo, has CVE
 - { addflag: misnamed, name: python:mox, wwwpart: pymox.readthedocs.io } # pymox
 - { addflag: misnamed, name: python:mpd }
 - { addflag: misnamed, name: python:mpd2 }
@@ -500,6 +506,7 @@
 - { addflag: misnamed, name: python:nvml } # pynvml
 - { addflag: misnamed, name: python:octaviaclient }
 - { addflag: misnamed, name: python:odbc } # pyodbc
+- { addflag: misnamed, name: python:ode, wwwpart: pyode } # pyode
 - { addflag: misnamed, name: python:opencl } # pyopencl
 - { addflag: misnamed, name: python:opencv } # opencv-python
 - { addflag: misnamed, name: python:opendata-transport }
@@ -566,6 +573,7 @@
 - { addflag: misnamed, name: python:scientific } # scientificpython
 - { addflag: misnamed, name: python:sdl2 } # pysdl2
 - { addflag: misnamed, name: python:senlinclient } # python-senlinclient
+- { addflag: misnamed, name: python:serial, wwwpart: pyserial } # pyserial
 - { addflag: misnamed, name: python:simplesoap } # pysimplesoap
 - { addflag: misnamed, name: python:smb, wwwpart: pysmb }
 - { addflag: misnamed, name: python:smbc } # pysmbc

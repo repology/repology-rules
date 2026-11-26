@@ -175,12 +175,9 @@
 - { setname: python:pycassa,           name: pycassa }
 - { setname: python:pycha,             name: pycha }
 - { setname: python:pychart,           name: pychart }
-- { setname: python:pycodestyle,       name: [python:codestyle,pycodestyle] }
 - { setname: python:pycollada,         name: [pycollada,python:collada] }
 - { setname: python:pycrypto,          name: pycrypto }
 - { setname: python:pycups,            name: [python:cups,pycups] }
-- { setname: python:pydocstyle,        name: python:docstyle }
-- { setname: python:pydocstyle,        name: pydocstyle }
 - { setname: python:pyexcelerator,     name: pyexcelerator }
 - { setname: python:pyexiv2,           name: pyexiv2 }
 - { setname: python:pyfiglet,          name: pyfiglet }
@@ -208,11 +205,7 @@
 - { setname: python:pylint-plugin-utils, name: pylint-plugin-utils }
 - { setname: python:pymc,              name: python:pymc3 }
 - { setname: python:pymediainfo,       name: pymediainfo }
-- { setname: python:pymongo,           name: pymongo } # has CVE
 - { setname: python:pyodbc,            name: pyodbc }
-- { setname: python:pyode,             name: python:ode }
-- { setname: python:pyode,             name: pyode }
-- { setname: python:pyomo,             name: pyomo }
 - { setname: python:pyopenssl,         name: [python:openssl, pyopenssl] } # has CVE
 - { setname: python:pypdf2,            name: [pypdf2, python:pdf2] } # vuln
 - { setname: python:pyprind,           name: pyprind }
@@ -230,9 +223,7 @@
 - { setname: python:pyqt5,             namepat: "python:qt5-(core|dbus|dbussupport|demo|designer|designerplugin|gui|help|multimedia|multimediawidgets|network|opengl|printsupport|qml|quick|quickwidgets|serialport|sql|svg|test|webchannel|webkit|webkitwidgets|widgets|xml|xmlpatterns)", addflavor: $1 }
 - { setname: python:pyrex,             name: [pyrex, pyrexc] }
 - { setname: python:pysaml2,           name: python:pysaml24 }
-- { setname: python:pyserial,          name: pyserial }
 - { setname: python:pysha3,            name: pysha3 } # has CVE
-- { setname: python:pysolar,           name: pysolar }
 - { setname: python:pyspatialite,      name: pyspatialite }
 - { setname: python:pysvn,             name: pysvn } # has CVE
 - { setname: python:pysvn,             name: [svn-workbench, pysvn-workbench], addflavor: workbench }
@@ -359,7 +350,10 @@
 - { setname: python:jaraco.stream,     name: python:jaraco-stream }
 - { setname: python:jaraco.text,       name: python:jaraco-text }
 - { setname: python:jaraco.util,       name: python:jaraco-util }
+- { setname: python:pycodestyle,       name: pycodestyle } # contains cli utility
+- { setname: python:pydocstyle,        name: pydocstyle } # contains cli utility
 - { setname: python:pyglet,            name: python:pyglet1 }
+- { setname: python:pyserial,          name: pyserial } # contains cli utility
 - { setname: python:ruamel.yaml,       name: python:ruamel-yaml }
 - { setname: python:ruamel.yaml.clib,  name: [python:ruamel-yaml-clib, python:ruamel-yaml.clib] }
 - { setname: python:scrapy,            name: scrapy } # includes utility
