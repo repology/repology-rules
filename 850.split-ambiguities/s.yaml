@@ -124,8 +124,11 @@
 - { name: sdl, flag: sdl3, setname: sdl3 }
 - { name: sdl, addflag: unclassified }
 
-- { name: sdl-gfx, releq: "1", setname: sdl2-gfx } # sic: sdl-gfx is 2.x, sdl2-gfx is 1.x
-- { name: sdl-gfx, releq: "2", addflag: classified }
+- { name: sdl-gfx, flag: sdl2, setname: sdl2-gfx }
+- { name: sdl-gfx, flag: sdl3, setname: sdl3-gfx }
+- { name: sdl-gfx, releq: "1", setname: sdl2-gfx } # sic: sdl-gfx and sdl3-gfx are 2.x, sdl2-gfx is 1.x
+- { name: sdl-gfx, releq: "2", relge: "2.0.17", addflag: classified }
+- { name: sdl-gfx, releq: "2", rellt: "2.0.17", setname: sdl3-gfx }
 - { name: sdl-gfx, addflag: unclassified }
 
 - { name: sdl-image, releq: "1", addflag: classified }
