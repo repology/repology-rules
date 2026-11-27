@@ -265,7 +265,7 @@
 - { setname: "python:$0", addflag: wconce, noflag: [wconce,not_wildcard,not_python], category: dev-python, ruleset: [gentoo,exherbo,haikuports] }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(.*)-py([23][0-9]{1,2})", ruleset: fink, addflavor: $2 }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python2-(.*)", addflavor: python2, ruleset: [chakra,opensuse] }
-- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python3-(.*)", addflavor: python3, ruleset: [chakra,openwrt,mpr,ptxdist,pacstall,vylen,starkos] }
+- { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "python3-(.*)", addflavor: python3, ruleset: [chakra,openwrt,mpr,ptxdist,pacstall,vylen,starkos,slitaz] }
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(python[23][0-9.]*)-(.*)", addflavor: $1, ruleset: ibmi } # python2-*, python3-*, python39-*, python3.13-*
 - { setname: "python:$2", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "(python3[0-9]+)-(.*)", ruleset: yacp, addflavor: $1 }
 - { setname: "python:$1", addflag: wconce, noflag: [wconce,not_wildcard,not_python], namepat: "py-(.*)", ruleset: spack }
