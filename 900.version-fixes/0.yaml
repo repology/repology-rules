@@ -17,4 +17,5 @@
 - { name: 7kaa,                                                                            p_is_patch: true }
 - { name: 7kaa-music,                  verpat: "20[0-9]{6}.*",                             snapshot: true } # opensuse games
 - { name: 7zip,                        verpat: "[0-9]{3,}",                                incorrect: true }
+- { name: 7zip-zstd,                   verpat: "[0-9]+\\.[0-9]+-v.*",                      any_is_patch: true } # https://github.com/mcmilk/7-Zip-zstd/tags
 - { name: 9base,                       verpat: ".*20[0-9]{6}.*",                           snapshot: true } # freebsd, pkgsrc snapshots
