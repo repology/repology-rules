@@ -116,6 +116,9 @@
 - { name: python:nose,                 ver: "1.5.3",                 ruleset: openbsd,     incorrect: true } # fakes pynose as nose
 - { name: python:nose,                                               ruleset: openbsd,     untrusted: true } # accused of faking pynose as nose
 - { name: python:openstackclient,      verge: "5",                                         incorrect: true } # openstackclient vs python-openstackclient
+- { name: python:opentelemetry-exporter-http-transport, relge: "1",                        incorrect: true } # \
+- { name: python:opentelemetry-exporter-otlp-common, relge: "1",                           incorrect: true } #  } opentelemetry-python uses 2 parallel versioning schemes these modules it uses e.g. 0.66b2, not 1.45.2
+- { name: python:opentelemetry-semantic-conventions, relge: "1",                           incorrect: true } # /
 - { name: python:ots,                                                ruleset: fedora,      untrusted: true } # python:opentype-sanitizer in fact (XXX: problem)
 - { name: python:outcome,              ver: "1.3.0",                 ruleset: freebsd,     setver: "1.3.0.post0" }
 - { name: python:pandoc-attributes,    verpat: "[0-9a-f]{8}",                              incorrect: true }
