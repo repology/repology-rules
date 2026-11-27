@@ -13,8 +13,14 @@
 - { addflag: misnamed, name: astunparse } # python module
 - { addflag: misnamed, name: attrs } # python module
 - { addflag: misnamed, name: backports-abc } # python module
+- { addflag: misnamed, name: beautifulsoup } # python module
+- { addflag: misnamed, name: beautifulsoup3 } # python module, also no such name
+- { addflag: misnamed, name: beautifulsoup4 } # python module
 - { addflag: misnamed, name: beniget } # python module
 - { addflag: misnamed, name: bitarray } # python module
+- { addflag: misnamed, name: cairocffi } # python module
+- { addflag: misnamed, name: cairosvg, vulnerable: true } # python module, has CVE
+- { addflag: misnamed, name: cartopy } # python module
 - { addflag: misnamed, name: chaos,          wwwpart: chaos-client }
 - { addflag: misnamed, name: cherrypy } # python module
 - { addflag: misnamed, name: cherrypy3 } # python module (also named cherrypy)
@@ -211,6 +217,7 @@
 - { addflag: misnamed, name: fonts:twemoji,  wwwpart: 13rac1 }
 - { addflag: misnamed, name: fonts:twemoji-color, wwwpart: [jdecked/twemoji, twitter/twemoji] }
 - { addflag: misnamed, name: future, vulnerable: true } # python module, has CVE
+- { addflag: misnamed, name: geoalchemy2 } # python module
 - { addflag: misnamed, name: geohash } # python module
 - { addflag: misnamed, name: geojson } # python module
 - { addflag: misnamed, name: gitea-act }
@@ -237,16 +244,21 @@
 - { addflag: misnamed, name: lxc,            wwwpart: lxd }
 - { addflag: misnamed, name: manimpango } # python module
 - { addflag: misnamed, name: markupsafe } # python module
+- { addflag: misnamed, name: matplotlib } # python module
+- { addflag: misnamed, name: matplotlib-inline } # python module
 - { addflag: misnamed, name: mc,             wwwpart: mcwin32 }
 - { addflag: misnamed, name: mitogen } # python module
 - { addflag: misnamed, name: mtproto-proxy } # mtproxy
 - { addflag: misnamed, name: mullvad } # browser or vpn?
 - { addflag: misnamed, name: musl,           ruleset: aur } # (musl-cross-bin) - toolclain, not musl
 - { addflag: misnamed, name: ncbi-blast+,    verge: "29" } # ncbi-toolkit, not ncbi-blast
+- { addflag: misnamed, name: netifaces } # python module
+- { addflag: misnamed, name: networkx } # python module
 - { addflag: misnamed, name: ollama-python } # ollama python module
 - { addflag: misnamed, name: oniguurma }
 - { addflag: misnamed, name: opencl-icd } # opencl-icd-loader or ocl-icd
 - { addflag: misnamed, name: opencl-icd-loader, wwwpart: ocl-dev }
+- { addflag: misnamed, name: pandas, vulnerable: true } # python module, has CVE
 - { addflag: misnamed, name: paramiko, vulnerable: true } # python module, has CVE
 - { addflag: misnamed, name: pdcurses, wwwpart: [projectpluto,bill-gray] } # misnamed pdcursesmod
 - { addflag: misnamed, name: perl:date-time } # datetime
@@ -278,7 +290,9 @@
 - { addflag: misnamed, name: proxychains,    wwwpart: proxychains-ng }
 - { addflag: misnamed, name: psycopg2 } # python module
 - { addflag: misnamed, name: public-suffix }
+- { addflag: misnamed, name: py-ubjson } # python module
 - { addflag: misnamed, name: pyasyncore } # python module
+- { addflag: misnamed, name: pycups } # python module
 - { addflag: misnamed, name: pydantic } # python module
 - { addflag: misnamed, name: pydantic-core } # python module
 - { addflag: misnamed, name: pydantic-settings } # python module
@@ -292,6 +306,7 @@
 - { addflag: misnamed, name: pypdf } # python module
 - { addflag: misnamed, name: pyperclip } # python module
 - { addflag: misnamed, name: pypoppler } # python module
+- { addflag: misnamed, name: pyproj } # python module
 - { addflag: misnamed, name: pyrequests } # python module
 - { addflag: misnamed, name: pysimplesoap } # python module
 - { addflag: misnamed, name: pysolar } # python module
@@ -366,6 +381,7 @@
 - { addflag: misnamed, name: python:cryptodome-test-vectors } # pycryptodome-test-vectors
 - { addflag: misnamed, name: python:cryptodomex } # pycryptodomex
 - { addflag: misnamed, name: python:ctags } # python-ctags or python-ctags3
+- { addflag: misnamed, name: python:cups, wwwpart: pycups } # pycups
 - { addflag: misnamed, name: python:curl } # pycurl
 - { addflag: misnamed, name: python:cxfreeze } # cx-freeze
 - { addflag: misnamed, name: python:cyborgclient } # python-cyborgclient
@@ -528,6 +544,7 @@
 - { addflag: misnamed, name: python:pdf, wwwpart: pypdf } # pypdf
 - { addflag: misnamed, name: python:peg2 } # pypeg2
 - { addflag: misnamed, name: python:perf } # pyperf
+- { addflag: misnamed, name: python:periphery } # python-periphery
 - { addflag: misnamed, name: python:pil } # pillow
 - { addflag: misnamed, name: python:plum } # plum-py
 - { addflag: misnamed, name: python:policyd-spf } # pypolicyd-spf
@@ -536,6 +553,7 @@
 - { addflag: misnamed, name: python:postgresql } # py-postgresql, pygresql
 - { addflag: misnamed, name: python:potr }
 - { addflag: misnamed, name: python:pptx }
+- { addflag: misnamed, name: python:proj, wwwpart: pyproj } # pyproj
 - { addflag: misnamed, name: python:project-api } # pyproject-api
 - { addflag: misnamed, name: python:project-metadata } # pyproject-metadata
 - { addflag: misnamed, name: python:pskc }
@@ -686,6 +704,7 @@
 - { addflag: misnamed, name: python:vitrageclient } # python-vitrageclient
 - { addflag: misnamed, name: python:vlc,     wwwpart: videolan.org }
 - { addflag: misnamed, name: python:vmomi } # pyvmomi
+- { addflag: misnamed, name: python:vxi11 } # pyvxi11 or python-vxi11
 - { addflag: misnamed, name: python:wbem } # pywbem
 - { addflag: misnamed, name: python:webpy } # web.py
 - { addflag: misnamed, name: python:webvtt } # webvtt-py
@@ -722,6 +741,7 @@
 - { addflag: misnamed, name: sdl,            wwwpart: sdl12-compat }
 - { addflag: misnamed, name: sdl,            wwwpart: sdl2-compat }
 - { addflag: misnamed, name: shadps4,        wwwpart: qtlauncher }
+- { addflag: misnamed, name: shapely } # python module
 - { addflag: misnamed, name: snmp, wwwpart: net-snmp }
 - { addflag: misnamed, name: tetra, wwwpart: tetragon }
 - { addflag: misnamed, name: varnish, wwwpart: vinyl }
